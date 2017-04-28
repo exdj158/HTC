@@ -1,0 +1,249 @@
+﻿<!-- saved from url=(0014)about:internet -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Access internal network resources. (Windows version)</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <script type="text/javascript" language="javascript">
+        function toggleBlock(el, id) {
+            if (document.getElementById(id).style.display == 'none') {
+                document.getElementById(id).style.display = 'block';
+				el.innerHTML="Hide screenshot"
+            }
+            else {
+                document.getElementById(id).style.display = 'none';
+				el.innerHTML="Show screenshot"
+            }
+        }
+    </script>
+    
+    <table width="100%" cellpadding="0" cellspacing="0">
+        <tr>
+            <td width="320">
+                <table>
+                    <tr>
+                        <td style="vertical-align:top;text-align:left;">
+                            <a target='_blank' href='http://www.element-it.com/asp-net-explorer-browser/online-share/web-file-manager.aspx'><img style='cursor:pointer;' alt="HTTP Commander" src="Images/HCLogo.png" border="0" /></a>
+                        </td>
+                        <td class="green" style="vertical-align:top;text-align:left;padding-top:21px;">
+                            &nbsp;AJS 4.x
+                        </td>
+                    </tr>
+                </table>
+                <span class="gray">Manual</span>
+            </td>
+            <td>
+  <!-- For windows version only. Start --> 
+	<p>
+	<strong>Note!</strong> This Manual is for the <strong>"Windows authentication"</strong> version, 
+	which is designed to work with existing Windows server or Active Directory accounts and Windows authentication. 
+	If you want to create accounts by yourself and store their credentials in your own HTTP Commander XML database, 
+	you need to download the <a target="_blank" href="http://www.element-it.com/downloadfile.aspx?type=st">"Forms authentication" version</a>!
+	This Manual is for the Windows authentication version only!
+	</p>
+	<!-- For windows version only. End --> 
+	
+ 
+            </td>
+            <td align="char" width="230">
+                <img alt="" src="Images/world.jpg" align="middle" hspace="5" style="vertical-align:top;padding-top:1px;" /><b><a target="_blank" title="web file manager" href="http://www.element-it.com/asp-net-explorer-browser/online-share/web-file-manager.aspx">Web file manager</a></b><br />
+                <img alt="" src="Images/support.png" width="16" height="16" align="middle" hspace="5" style="vertical-align:top;padding-top:1px;" /><b><a href="onlinesupport.html" target="main">Free Installation assistance</a></b><br />
+                <img alt="" src="Images/help.png" align="middle" width="16" height="16" hspace="5" style="vertical-align:top;padding-top:1px;" /><b><a
+                    href="index.html" title="Manual Home page" target="_blank">Manual Home page</a></b><br />
+            </td>
+        </tr>
+    </table>
+    
+    <p class="topic">
+        <a id="installation-on-amazon">Access internal network resources.</a>
+    </p>
+
+    It is still possible to configure Http Commander to use your internal resources,
+	if you decided to host Http Commander outside of your internal network: on our <a href="hosted-on-ownwebdrive.html">ownwebdrive.com</a>,  <a href="install-on-amazon.html">on Amazon</a>, <a href="install-on-azure.html">Azure</a> or <a href="install-on-hosting.html">another third parties hosting</a>.<br/>
+    First of all you will need to configure VPN (Virtual Private Network) connection between Http Commander server and your internal network.
+	<br/>
+	There are a lot of different ways to configure VPN server in your network. It could be managed by router or by dedicated windows/linux server.
+	Please refer to <a href="https://technet.microsoft.com/en-us/library/cc770798(v=ws.10).aspx" target="_blank" >this article</a> to configure VPN (Routing and Remote Access) server on your Windows Server. 
+    <br/>
+    We assume that VPN server already configured and can be accessed outside of your network. 
+	<br/>
+    <h2>Creating VPN connection</h2>
+	Now you need to configure VPN connection on your web server (where Http Commander is installed on).
+    <h4>To create a new VPN connection (on Windows Server 2008 an later)</h4>
+    <ol>
+        <li>
+            <div>
+                <p >
+                    In the task bar, locate and right-click on the Network icon. Click <strong>
+                        Open Network and Sharing
+                        Center
+                    </strong>.<strong>
+                        Network and
+                        Sharing Center
+                    </strong> opens.
+                </p>
+            </div>
+        </li>
+        <li>
+            <div>
+                <p >
+                    In <strong>Network and Sharing Center</strong>,
+                    in <strong>
+                        Change your networking
+                        settings
+                    </strong>, click <strong>
+                        Set
+                        up a new connection or network
+                    </strong>. The <strong>
+                        Set up a Connection or
+                        Network
+                    </strong> wizard opens.
+                </p>
+            </div>
+        </li>
+        <li>
+            <div>
+                <p >
+                    In <strong>Choose a connection option</strong>,
+                    click <strong>Connect to a workplace</strong>,
+                    and then click <strong>Next.</strong>
+                </p>
+            </div>
+        </li>
+        <li>
+            <div>
+                <p >
+                    In <strong>How do you want to connect</strong>,
+                    click <strong>
+                        Use my Internet
+                        connection (VPN)
+                    </strong>.
+                </p>
+            </div>
+        </li>
+        <li>
+            <div>
+                <p >
+                    If the wizard asks whether you want to set up an Internet connection, make your
+                    selection to set one up now or postpone until later.
+                </p>
+            </div>
+        </li>
+        <li>
+            <div>
+                <p >
+                    In  <strong>Type the Internet address to connect to </strong>, in  <strong>Internet address</strong>, type the IP address of the VPN server to which you want to
+                    connect. In <strong>Destination name </strong> type a friendly name to help you
+                    identify the VPN connection later.  Also select any check boxes that are appropriate for
+                    your situation.
+                </p>
+            </div>
+        </li>
+        <li>
+            <div>
+                <p >
+                    Click <strong>Create</strong>. The
+                    VPN connection is created and the  <strong>Networks</strong> side bar opens to show you the network
+                    connections that are configured on the computer.
+                </p>
+            </div>
+        </li>
+    </ol>
+    </div>
+    
+         <strong>Connecting by using your VPN connection</strong>
+    
+    <p>
+        After you have created a VPN connection, the easiest way to access it from the
+        desktop is to left-click the network icon in the system tray. The left-click
+        opens the <strong>Networks</strong> side bar and displays your VPN
+        connection. To connect, left click the VPN connection, and then click <strong>Connect</strong>, In <strong>Network Authentication</strong>,
+        type your user name in the format DOMAIN\User name, and then type your password.
+    </p>
+  <h2>Using internal resources</h2>
+    <div class="note">
+        <strong>Note: possible performance issues with network folders</strong><br/>
+        If you have performance issues with network folders (slow loading of file list), then you can try disable Http Commander features which uses metadata when file list is loaded.
+        These features are :
+        <ul>
+            <li>
+                <a href="webconfigsetup.html#EnableFilesFoldersLabels">EnableFilesFoldersLabels</a> - File and Folder labels
+            </li>
+            <li><a href="webconfigsetup.html#ShowFileMarkWhenExistsDetails">ShowFileMarkWhenExistsDetails</a> - mark for files/folders with filled details (metadata) </li>
+            <li>
+                <a href="webconfigsetup.html#ShowFileMarkWhenLockedByWebdavClient">ShowFileMarkWhenLockedByWebdavClient</a>- icon for locked files.
+            </li>
+        </ul>
+        If you will disable those features , file list will be loaded much more faster!
+    </div>
+ <p>
+ If you use Windows auth version of Http Commander, you can join server into your internal AD and use existing AD accounts for authentication.
+ No further configuration will be required for usage of internal network shares since Http Commander will work under authenticated user identities who already have access (we assume) to network shares.
+<p/>
+<p>If you use Forms auth version with user accounts managed by Http Commander, then some additional steps required to configure access to your network folders.
+Http Commander should work under user account who have permissions (both Ntfs and Share) to access network folder.
+In short you need to create user account with the same username and password on both sides: Http Commander server and your network file server. 
+</p>
+<br/><br/>    
+Here are steps to do that: 
+<ol>
+	<li> Connect to server where Http Commander is installed on, open <strong>computer management</strong>, navigate to <strong>"Local users and groups"</strong> section. 
+		Create new user with the same credentials as show on previous step. use account name as username and one of access key as password.
+			<br />
+			<a target="_blank" href="Images/network-folder-forms/1-create-user.png" onclick="toggleBlock(this, '1-create-user'); return false;"
+				class="imglink">Hide screenshot</a>
+			<div id="1-create-user" style="display: block;">
+				<p class="screenshot">
+					&nbsp;<img src="Images/network-folder-forms/1-create-user.png" style="width: 800px" />
+				</p>
+			</div>
+		</li>
+		<li> Once user created, we need to configure Http Commander application pool to work under his identity. <br/>
+		Open IIS management console, application pools section, select <strong>htcomnetpool</strong> (pool under which Http Commander is working).<br/>
+		Click on <strong>"Advanced settings..."</strong> link.
+			<br />
+			<a target="_blank" href="Images/network-folder-forms/2a-select-app-pool.png" onclick="toggleBlock(this, '2a-select-app-pool'); return false;"
+				class="imglink">Hide screenshot</a>
+			<div id="2a-select-app-pool" style="display: block;">
+				<p class="screenshot">
+					&nbsp;<img src="Images/network-folder-forms/2a-select-app-pool.png" style="width: 800px" />
+				</p>
+			</div>
+		</li>
+		<li> Navigate to <strong>"Identity"</strong> row and change it to <strong>"Custom account"</strong>, use credentials for newly created user. 
+			<br />
+			<a target="_blank" href="Images/network-folder-forms/2-assign-apppool.png" onclick="toggleBlock(this, '2-assign-apppool'); return false;"
+				class="imglink">Hide screenshot</a>
+			<div id="2-assign-apppool" style="display: block;">
+				<p class="screenshot">
+					&nbsp;<img src="Images/network-folder-forms/2-assign-apppool.png" style="width: 800px" /><br/>
+					&nbsp;<img src="Images/network-folder-forms/3-apppool-assigned.png" style="width: 800px" /><br/>
+					&nbsp;<img src="Images/network-folder-forms/4-apppool-identity.png" style="width: 800px" /><br/>
+				</p>
+			</div>
+		</li>
+		<li>
+			Create user with the same username and password on your network file server (if you did not used credentials of existing account on previous step)     
+		</li>
+		<li>
+			Make sure that user have correct NTFS and SHARE permissions on network folder. 
+			<br />
+			<a target="_blank" href="Images/network-folder-forms/9-pool-identity.png" onclick="toggleBlock(this, '5-share-permissions'); return false;"
+				class="imglink">Hide screenshot</a>
+			<div id="5-share-permissions" style="display: block;">
+				<p class="screenshot">
+					&nbsp;<img src="Images/network-folder-forms/5-share-permissions.png" style="width: 800px" /><br/>
+					&nbsp;<img src="Images/network-folder-forms/6-ntfs-permissions.png" style="width: 800px" /><br/>					
+				</p>
+			</div>
+		</li>	
+		<li>Open Http Commander in browser, login as administrator and open <strong>Admin panel</strong>. <br/>
+		Add new shared folder and specify path to internal file share in <strong>"Physical path"</strong> field. Click on <strong>"test access</strong> button. Test should be passed if configuration is done correctly.			
+		</li>
+</ol>		    
+
+</body>
+</html>

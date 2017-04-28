@@ -1,0 +1,1608 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Localization>
+  <!-- Common keys -->
+  
+  <ExtMsgButtonTextYES>Tha</ExtMsgButtonTextYES>
+  <ExtMsgButtonTextNO>Chan eil</ExtMsgButtonTextNO>
+  
+  <ControlHideFileManager>Falaich lìn manaidsear nam faidhlichean</ControlHideFileManager>
+  
+  <CommonMainTitle>Web faidhlichean ruigsinneachd</CommonMainTitle>
+  <CommonApplicationLoading>Luchdachadh-lìn faidhlichean ruigsinneachd</CommonApplicationLoading>
+  <CommonLoadError>Thachair mearachd rè faighinn craobh dàta</CommonLoadError>
+  <CommonGridAccessDenied>Tha am pasgan "{0}" nach eil a 'leughadh no cothrom air àicheadh</CommonGridAccessDenied>
+  <CommonNoScript>Tha an duilleag seo Feumar JavaScript airson a bhith an comas sa bhrobhsair agad! Cuir am comas e agus logadh a-steach a-rithist!</CommonNoScript>
+  <CommonErrorCaption>mearachd</CommonErrorCaption>
+  <CommonWarningCaption>rabhadh</CommonWarningCaption>
+  <CommonInfoCaption>fiosrachadh</CommonInfoCaption>
+  <CommonConfirmCaption>Dearbhaich</CommonConfirmCaption>
+  <CommonFileNameCaption>Ainm faidhle</CommonFileNameCaption>
+  <CommonFileNamePrompt>Cuir a-steach ainm ùr faidhle</CommonFileNamePrompt>
+  <CommonFileNewNameValue>Teacsa ùr Document.txt</CommonFileNewNameValue>
+  <CommonFolderNewNameValue>New pasgan</CommonFolderNewNameValue>
+  <CommonZipFileNameCaption>Zip tasglann ainm</CommonZipFileNameCaption>
+  <CommonZipFileNamePrompt>File name (Cuiridh an leudachan a chur ris gu fèin-obrachail)</CommonZipFileNamePrompt>
+  <CommonFolderNameCaption>ainm a 'phasgain</CommonFolderNameCaption>
+  <CommonFolderNamePrompt>Cuir a-steach am pasgan ùr ainm</CommonFolderNamePrompt>
+  <CommonDeleteOnePrompt>A bheil thu cinnteach gu bheil thu airson an sguabadh às "{0}"?</CommonDeleteOnePrompt>
+  <CommonDeleteManyPrompt>A bheil thu cinnteach gu bheil thu airson seo a sguabadh às {0} nithean?</CommonDeleteManyPrompt>
+  <CommonForToday>airson an-diugh</CommonForToday>
+  <CommonButtonCaptionOK>OK</CommonButtonCaptionOK>
+  <CommonButtonCaptionCancel>Sguir dheth</CommonButtonCaptionCancel>
+  <CommonButtonCaptionClose>Dùin</CommonButtonCaptionClose>
+  <CommonButtonCaptionAdd>Add</CommonButtonCaptionAdd>
+  <CommonButtonCaptionContinue>Lean air adhart</CommonButtonCaptionContinue>
+
+  <CommonProgressPleaseWait>Fuirich ort</CommonProgressPleaseWait>
+  
+  <CommonFieldLabelName>ainm</CommonFieldLabelName>
+  <CommonFieldLabelPath>Path</CommonFieldLabelPath>
+  <CommonFieldLabelSize>meud</CommonFieldLabelSize>
+  <CommonFieldLabelLabels>leubailean</CommonFieldLabelLabels>
+  <CommonFieldLabelType>Type</CommonFieldLabelType>
+  <CommonFieldLabelAction>Gnìomh</CommonFieldLabelAction>
+  <CommonFieldLabelDate>Ceann-là</CommonFieldLabelDate>
+  <CommonFieldLabelDateTime>Ceann-là &amp;Time</CommonFieldLabelDateTime>
+  <CommonFieldLabelDateCreated>Ceann-là a chaidh a chruthachadh</CommonFieldLabelDateCreated>
+  <CommonFieldLabelDateModified>Ceann-là mhùthadh</CommonFieldLabelDateModified>
+  <CommonFieldLabelDateAccessed>Ceann-là inntrigeadh</CommonFieldLabelDateAccessed>
+  <CommonFieldLabelValue>luach</CommonFieldLabelValue>
+  <CommonFieldLabelUserName>ainm neach-cleachdaidh</CommonFieldLabelUserName>
+  <CommonFieldLabelUser>Cleachdaiche</CommonFieldLabelUser>
+  <CommonFieldLabelUsers>luchd-cleachdaidh</CommonFieldLabelUsers>
+  <CommonFieldLabelGroupName>Buidheann ainm</CommonFieldLabelGroupName>
+  <CommonFieldLabelGroup>Buidheann</CommonFieldLabelGroup>
+  <CommonFieldLabelGroups>buidhnean</CommonFieldLabelGroups>
+  <CommonFieldLabelPassword>Facal-faire</CommonFieldLabelPassword>
+  <CommonFieldLabelRepeatPassword>Repeat am facal-faire</CommonFieldLabelRepeatPassword>
+  <CommonFieldLabelComments>beachdan</CommonFieldLabelComments>
+  <CommonValueTypeFolder>Folder</CommonValueTypeFolder>
+
+  <CommonFieldLabelDescription>Tuairisgeul</CommonFieldLabelDescription>
+  <EmptyDescriptionText>Comharraichibh na Tuairisgeul</EmptyDescriptionText>
+  <CommonFieldLabelReadMeTxt>Readme.txt clàr na làraich</CommonFieldLabelReadMeTxt>
+  
+  <CommonWordOr>no</CommonWordOr>
+
+  <SortAscText>Deasaich Ascending</SortAscText>
+  <SortDescText>Deasaich a rèir a 'teàrnadh</SortDescText>
+
+  <CommonNewDocument>New Sgrìobhainn</CommonNewDocument>
+  <CommonNewSpreadsheet>New chliath-</CommonNewSpreadsheet>
+  <CommonNewPresentation>Taisbeanadh ùr</CommonNewPresentation>
+
+  <CommonWordWrap>Word Wrap</CommonWordWrap>
+  
+  <!-- End Common keys -->
+
+  <!-- Labels -->
+
+  <LabelsTitle>label</LabelsTitle>
+  <LabelsNoLabel>Chan eil an leubail</LabelsNoLabel>
+  <LabelsColor>Color</LabelsColor>
+  <LabelsCustomLabel>Custom label</LabelsCustomLabel>
+  <LabelsCustomLabelHint>Cuir a-steach am bileag aig teacsa</LabelsCustomLabelHint>
+  <LabelsCustomLabelView>Label &amp;nbsp; faic: &amp;nbsp; {0} {1} {2}</LabelsCustomLabelView>
+  <LabelsFileLabelledMessage>Soirbheachail an ainmeachadh {0} 'phìos (ean)</LabelsFileLabelledMessage>
+  <LabelsRemovedMessage>Soirbheachail a thoirt air falbh {0} label (ean)</LabelsRemovedMessage>
+  <LabelsNotRemovedMessages>Cha thoirt air falbh: {0}</LabelsNotRemovedMessages>
+  <LabelsNotLabelledMessage>Cha leubail: {0}</LabelsNotLabelledMessage>
+  <LabelsLabelRemovedMessage>Ainmich soirbheachail a thoirt air falbh</LabelsLabelRemovedMessage>
+  <LabelsNewLabel>New Label</LabelsNewLabel>
+  <LabelsLabellingMessage>Ainmeachadh mar</LabelsLabellingMessage>
+  <LabelsRemovingLabelMessage>toirt air falbh leubailean</LabelsRemovingLabelMessage>
+  <LabelsLabelInfoTip>A chomharrachadh mar '{0} {1} le user' {2} '</LabelsLabelInfoTip>
+
+  <!-- End Labels -->
+
+  <!-- Comments -->
+
+  <CommentsCountInfoTip>{0} beachd ann (s)</CommentsCountInfoTip>
+  <CommentsWriteCommentHint>Sgrìobh beachd agus pàipearan-naidheachd "{0}" no Ctrl+Enter no Shift+Enter ...</CommentsWriteCommentHint>
+
+  <!-- End Comments -->
+
+  <RefreshPageWarningMessage>&lt;b&gt; aire! &lt;/b&gt; Gus crìoch a chur obrachadh seo, an-dràsta duilleig brabhsair Feumaidh bhith air ùrachadh. &lt;br /&gt; A bheil thu ag iarraidh gus ùrachadh a dhèanamh a-nis?</RefreshPageWarningMessage>
+
+  <PagingToolbarBeforePageText>Page</PagingToolbarBeforePageText>
+  <PagingToolbarAfterPageText>de {0}</PagingToolbarAfterPageText>
+  <PagingToolbarFirstText>A 'chiad Duilleag</PagingToolbarFirstText>
+  <PagingToolbarPrevText>Page roimhe</PagingToolbarPrevText>
+  <PagingToolbarNextText>An ath Page</PagingToolbarNextText>
+  <PagingToolbarLastText>Air Page</PagingToolbarLastText>
+  <PagingToolbarDisplayMsg>Displaying {0} - {1} {2} de</PagingToolbarDisplayMsg>
+  <PagingToolbarEmptyMsg>Chan eil an dàta a thaisbeanadh</PagingToolbarEmptyMsg>
+  
+  <GridTotalLabel>iomlan:</GridTotalLabel>
+  <GridTotalFilesLabel>faidhlichean</GridTotalFilesLabel>
+  <GridTotalFoldersLabel>pasgain</GridTotalFoldersLabel>
+  
+  <GridDDSelectedRowsText>{0} a thaghadh sreath {1}</GridDDSelectedRowsText>
+  <GridDDSelectedFilesText>{0} a thaghadh faidhlichean</GridDDSelectedFilesText>
+  <GridDDSelectedFoldersText>{0} a thaghadh pasgannan</GridDDSelectedFoldersText>
+  <GridDDConfirmCopyMoveTitle>Drop gus am pasgan "{0}"</GridDDConfirmCopyMoveTitle>
+  <GridDDConfirmAddToZipTitle>Cuir ri zip "{0}"</GridDDConfirmAddToZipTitle>
+  <GridDDConfirmAddToZipMessage>Shlaodadh faidhlichean thèid a chur ris an zip seo an tasglann. A bheil thu airson leantainn air adhart? {0}.</GridDDConfirmAddToZipMessage>
+  <GridDDConfirmCopyMoveMsg>Tagh an gnìomh a tha thu ag iarraidh. Source: "{0}", Destination am pasgan: "{1}". {2}. {3}</GridDDConfirmCopyMoveMsg>
+  <GridDDConfirmCopyMoveToZipMsg>Faidhlichean a thèid a chur ris an zip tasglann. Tagh an gnìomh a tha sibh ag iarraidh tagradh a chur gu shlaodadh faidhlichean an dèidh a 'cur na faidhlichean gu zip tasglann. Source: "{0}", Destination zip tasglann: "{1}". {2}. {3}</GridDDConfirmCopyMoveToZipMsg>
+  <GridDDDraggedFileNames>&lt;b&gt; shlaodadh faidhlichean: &lt;/b&gt; {0}</GridDDDraggedFileNames>
+  <GridDDDraggedFolderNames>&lt;b&gt; shlaodadh pasgain: &lt;/b&gt; {0}</GridDDDraggedFolderNames>
+  <GridDDConfirmTargetFolderOnlyCopyMsg>-Dràsta ceadan airson an tobar am pasgan a 'leigeil leat lethbhreac shlaodadh a-mhàin faidhlichean. A bheil thu airson leantainn air adhart? {0}.</GridDDConfirmTargetFolderOnlyCopyMsg>
+  <GridDDConfirmTargetFolderOnlyMoveMsg>-Dràsta ceadan airson an tobar am pasgan a 'leigeil leat gluasad a-mhàin shlaodadh faidhlichean. A bheil thu airson leantainn air adhart? {0}.</GridDDConfirmTargetFolderOnlyMoveMsg>
+
+  <GridRowPublicHint>Put air gu Fosgail poblach ceangal ann an uinneag ùr / tab</GridRowPublicHint>
+  <GridRowAlertHint>Put air gu faic atharrachaidhean a dhèanamh airson an fhaidhle seo / pasgan</GridRowAlertHint>
+  <GridRowRecentHint>Locate an fhaidhle seo / pasgan</GridRowRecentHint>
+  <GridRowAlertEventHint>Cliog an seo airson a dhol an àite</GridRowAlertEventHint>
+
+  <ProgressCreating>cruthachadh</ProgressCreating>
+  <ProgressDeleting>a sguabadh às</ProgressDeleting>
+  <ProgressLoading>Luchdachadh</ProgressLoading>
+  <ProgressSearching>Searching</ProgressSearching>
+  <ProgressZipping>Compressing</ProgressZipping>
+  <ProgressUnzipping>Unpacking</ProgressUnzipping>
+  <ProgressZipContents>A 'faighinn a th' ann an tasglann zip</ProgressZipContents>
+  <ProgressPrepareDownload>Ag ullachadh airson download</ProgressPrepareDownload>
+  <ProgressMoving>adhartas</ProgressMoving>
+  <ProgressCopying>dlighe-sgrìobhaidh</ProgressCopying>
+  <ProgressRenaming>Renaming</ProgressRenaming>
+  <ProgressUpdating>ùrachadh</ProgressUpdating>
+  <ProgressLoadingEditInPixlr>A 'lionadh Pixlr neach-deasachaidh</ProgressLoadingEditInPixlr>
+  <ProgressLoadingEdit>Luchdachadh neach-deasachaidh</ProgressLoadingEdit>
+  <ProgressSavingEdit>sàbhaladh faidhle</ProgressSavingEdit>
+  <ProgressSaving>sàbhaladh</ProgressSaving>
+  <ProgressExecuting>a chur gu bàs</ProgressExecuting>
+
+  <BalloonFilesDeleted>{0} faidhle (ean) a sguabadh às</BalloonFilesDeleted>
+  <BalloonFoldersDeleted>{0} pasgan (ean) a sguabadh às</BalloonFoldersDeleted>
+  <BalloonFilesFailed>{0} faidhle (ean) Dh'fhàillig</BalloonFilesFailed>
+  <BalloonFoldersFailed>{0} pasgan (ean) Dh'fhàillig</BalloonFoldersFailed>
+  <BalloonFilesZipped>{0} faidhle (ean) dhlùthadh</BalloonFilesZipped>
+  <BalloonFoldersZipped>{0} pasgan (ean) dhlùthadh</BalloonFoldersZipped>
+  <BalloonFilesCopied>{0} faidhle (ean) lethbhreacadh</BalloonFilesCopied>
+  <BalloonFoldersCopied>{0} pasgan (ean) lethbhreacadh</BalloonFoldersCopied>
+  <BalloonFilesMoved>{0} faidhle (ean) ghluais</BalloonFilesMoved>
+  <BalloonFoldersMoved>{0} pasgan (ean) ghluais</BalloonFoldersMoved>
+  <BalloonNotUnzipped>{0} faidhle (ean) Cha deach rian</BalloonNotUnzipped>
+  <BalloonFilesUploaded>{0} faidhle (ean) a luchdachadh suas</BalloonFilesUploaded>
+  <BalloonFilesNotUploaded>{0} faidhle (ean) nach luchdachadh suas</BalloonFilesNotUploaded>
+  <BalloonSomeFilesNotUploaded>Nithean faidhlichean nach urrainn a bhith air a luchdachadh suas</BalloonSomeFilesNotUploaded>
+  <BalloonCreatedSuccessfully>soirbheachail a chruthachadh</BalloonCreatedSuccessfully>
+  <BalloonUnzippedSuccessfully>an rian gu soirbheachail</BalloonUnzippedSuccessfully>
+  <BalloonRenamedSuccessfully>an t-ainm gu soirbheachail</BalloonRenamedSuccessfully>
+  <BalloonSavedSuccessfully>Saved soirbheachail</BalloonSavedSuccessfully>
+  <BalloonCopiedToClipboard>Lethbhreacadh gu Clipboard</BalloonCopiedToClipboard>
+  <BalloonCopyToClipboardFailed>Lethbhreac a Clipboard Dh'fhàillig</BalloonCopyToClipboardFailed>
+
+  <CommandCopyToClipboard>Ath-sgrìobh gu Clipboard</CommandCopyToClipboard>
+  <CommandCopyLinkToClipboard>Dèan lethbhreac dhen cheangal ri Clipboard</CommandCopyLinkToClipboard>
+  <ClipboardScreenshotTitlePrefix>Ìomhaigh</ClipboardScreenshotTitlePrefix>
+  <ClipboardScreenshotHint>Dealbhan: 'S urrainn dhut cuir a-sgrìn bho ur Clipboard (Press &lt;b&gt; Ctrl+PrtSc &lt;/b&gt; agus an uair sin &lt;b&gt; Ctrl+V &lt;/b&gt;) no dealbh bho do neach-deasachaidh (Press &lt;b&gt; Ctrl+V &lt;/b&gt;).</ClipboardScreenshotHint>
+  <ClipboardFileHint>'S urrainn dhut cuideachd a cuir faidhle bho Clipboard</ClipboardFileHint>
+
+  <CommandClouds>geala storages</CommandClouds>
+  <CommandCloudsDownloadTo>luchdachadh a-nuas gu ...</CommandCloudsDownloadTo>
+  <CommandCloudsUploadFrom>luchdadh suas bho ...</CommandCloudsUploadFrom>
+  <CommandCloudsAbout>Mu geala storages</CommandCloudsAbout>
+  
+  <CommandBack>Air ais</CommandBack>
+  <CommandForward>air adhart</CommandForward>
+  <CommandRecentFolders>Tachartasan pasgannan</CommandRecentFolders>
+  <CommandHome>Dachaigh</CommandHome>
+  <CommonActions>gnìomhan</CommonActions>
+  <CommandMultiSelect>Ioma-roghnaichte</CommandMultiSelect>
+  <CommandShare>Sgaoil</CommandShare>
+  <CommandSorting>a tharraing à</CommandSorting>
+  
+  <CommandFileManager>Till dhan duilleag a manaidsear fhaidhlichean</CommandFileManager>
+  <CommandFolders>pasganan</CommandFolders>
+  <CommandGridView>View</CommandGridView>
+  <CommandRefresh>Ath-nuadhaich</CommandRefresh>
+  <CommandThumbnailView>Dealbhag a 'ghlacaidh sealladh</CommandThumbnailView>
+  <CommandDetailedView>Clàr-sealladh</CommandDetailedView>
+  <CommandDetailsPane>Fiosrachadh pane</CommandDetailsPane>
+  <CommandFavorites>favorites</CommandFavorites>
+  <CommandAddToFavorites>Cuir ri roghainnean</CommandAddToFavorites>
+  <CommandAddToFavoritesHint>Cuir an-dràsta gus am pasgan favorites</CommandAddToFavoritesHint>
+  <AddingToFavoritesMessage>A 'cur ri favorites</AddingToFavoritesMessage>
+  <RemoveFromFavoritesMessage>A sguabadh às bho favorites</RemoveFromFavoritesMessage>
+  <FolderAlreadyAddedInFavorites>Tha am pasgan "{0}" ann mu thràth ann an favorites</FolderAlreadyAddedInFavorites>
+  <FolderAddedInFavoritesSuccessfully>Tha am pasgan "{0}" a bha soirbheachail a chur ris favorites</FolderAddedInFavoritesSuccessfully>
+  <FavoritesIsOverflowed>Cha robh e comasach a chur ris an-dràsta pasgan "{0}" gus favorites. Sguab às an cuid de favorites-asgaidh cuid de rùm agus feuchainn a-rithist.</FavoritesIsOverflowed>
+  <RemoveFromFavoritesHint>Thoir air falbh "{0}" bho favorites</RemoveFromFavoritesHint>
+  <AddToHomeScreenIOSHint>Thoir gnogag air {0} agus an uair sin &lt;strong&gt; "Add to Home Screen" &lt;/strong&gt;</AddToHomeScreenIOSHint>
+  <CommandSearch>Rannsachadh</CommandSearch>
+  <CommandUpload>A 'luchdadh suas</CommandUpload>
+  <CommandSettings>roghainnean</CommandSettings>
+  <CommandLanguage>cànain</CommandLanguage>
+  <CommandAdministration>rianachd</CommandAdministration>
+  <CommandAdminPanel>rianachd pannal</CommandAdminPanel>
+  <CommandChangePassword>Atharraich am facal-faire</CommandChangePassword>
+  <ProgressChangePassword>ag atharrachadh facal-faire</ProgressChangePassword>
+  <CommandChangeEmail>Atharrachadh post-d</CommandChangeEmail>
+  <ProgressChangeEmail>Ag atharrachadh post-d</ProgressChangeEmail>
+  <CommandMobileView>-Làimhe eadar-aghaidh (Smartphones)</CommandMobileView>
+  <CommandStandardView>Full version</CommandStandardView>
+  <CommandInstallIOSApp>Stàlaich iOS app</CommandInstallIOSApp>
+  <CommandInstallAndroidApp>Stàlaich Android app</CommandInstallAndroidApp>
+  <CommandAddServerToMobileApp>Cuir an fhrithealaiche seo gus app gluasadach</CommandAddServerToMobileApp>
+  <CommandAddToHomeScreen>Cuir ris an sgrìn-dhachaigh</CommandAddToHomeScreen>
+  <CommandDiagnostics>Breithneachaidh duilleag</CommandDiagnostics>
+  <CommandLicenseInfo>License fiosrachaidh</CommandLicenseInfo>
+  <CommandLogout>Log a-mach</CommandLogout>
+  <CommandLogoutHint>Put air gu crìoch an t-seisean</CommandLogoutHint>
+  <CommandNew>ùr</CommandNew>
+  <CommandFile>File</CommandFile>
+  <CommandEmptyFile>Empty faidhle</CommandEmptyFile>
+  <CommandNewMSOODocument>Sgrìobhainn le MS Office Online</CommandNewMSOODocument>
+  <CommandNewOffice365Document>Sgrìobhainn le Office 365</CommandNewOffice365Document>
+  <CommandNewMSOOWord>Word</CommandNewMSOOWord>
+  <CommandNewMSOOExcel>chliath-dhuilleag Excel</CommandNewMSOOExcel>
+  <CommandNewMSOOPowerPoint>Taisbeanadh 'PowerPoint</CommandNewMSOOPowerPoint>
+  <CommandNewGoogleDocument>Sgrìobhainn le Google</CommandNewGoogleDocument>
+  <CommandNewGoogleDocs>Google Docs</CommandNewGoogleDocs>
+  <CommandNewGoogleSheets>Duilleag Google</CommandNewGoogleSheets>
+  <CommandNewGoogleSlides>Google slides</CommandNewGoogleSlides>
+  <CommandNewImage>Ìomhaigh ann Pixlr</CommandNewImage>
+  <CommandFolder>Folder</CommandFolder>
+  <CommandNewFile>New falamh faidhle</CommandNewFile>
+  <CommandNewFolder>New pasgan</CommandNewFolder>
+  <CommandNewWithTemplate>Cleachdadh teamplaid ...</CommandNewWithTemplate>
+  <CommandRename>Rename</CommandRename>
+  <CommandDelete>Sguab às</CommandDelete>
+  <CommandCopy>lethbhreac den</CommandCopy>
+  <CommandMove>Imrich</CommandMove>
+  <CommandCut>Cut</CommandCut>
+  <CommandCopyTo>Lethbhreac a ...</CommandCopyTo>
+  <CommandMoveTo>Gluais gu ...</CommandMoveTo>
+  <CommandCopyCutClipboardSuffix>gu Clipboard</CommandCopyCutClipboardSuffix>
+  <CommandPaste>Stuth-glanaidh</CommandPaste>
+  <CommandPasteInto>cuir a-steach</CommandPasteInto>
+  <CommandZip>Compress gu Zip tasglann</CommandZip>
+  <CommandZipMenu>Zip / dèan unzip</CommandZipMenu>
+  <CommandUnzip>Unpack Zip</CommandUnzip>
+  <CommandUnzipSelected>Unpack thaghadh</CommandUnzipSelected>
+  <CommandUnzipAll>Unpack a h-uile</CommandUnzipAll>
+  <CommandUnzipTo>dhan phasgan</CommandUnzipTo>
+  <CommandUnzipToCurrent>gu làithreach pasgan</CommandUnzipToCurrent>
+  <MessageUnzipToFolder>Clò-sgrìobhaibh ainm a unpack pasgan seo gu</MessageUnzipToFolder>
+  <MessageUnzipPasswordHint>Ma tha thu fios agam gu bheil am facal-faire a tha riatanach airson unpacking, cuir a-steach e ann an raon gu h-ìosal</MessageUnzipPasswordHint>
+  <MessageUnzipNeedPassword>Chaidh facal-faire a tha dhìth gus unpack na faidhlichean</MessageUnzipNeedPassword>
+  <ZipPasswordProtectHint>Gus facal-faire dhìon an zip tasglann, cuir a-steach am facal-faire ann an raon gu h-ìosal. A chaochladh, a 'fàgail a' mhachair falamh</ZipPasswordProtectHint>
+  <AppendToZipPasswordProtectHint>Gus facal-faire a dhìon na faidhlichean a chur ris an zip tasglann, cuir a-steach am facal-faire ann an raon gu h-ìosal. A chaochladh, a 'fàgail a' mhachair falamh</AppendToZipPasswordProtectHint>
+  <ZipPasswordProtectWindowTitle>Tasglann le facal-faire</ZipPasswordProtectWindowTitle>
+  <OpenFolderAfterUnzipCheckBox>Fosgail am pasgan dèidh unpacking</OpenFolderAfterUnzipCheckBox>
+  <CommandUnzipToNew>gus am pasgan ùr</CommandUnzipToNew>
+  <CommandZipContents>zip clàr na làraich</CommandZipContents>
+  <ArchiveContentsTitle>Tasglann susbaint "{0}"</ArchiveContentsTitle>
+  <CommandDownload>Luchdaich a-nuas</CommandDownload>
+  <CommonDownloadAll>Luchdaich a-nuas a h-uile</CommonDownloadAll>
+  <DownloadListDragFile>'S urrainn dhut slaod-n-ìsleachadh gus faidhlichean air an deasg agad</DownloadListDragFile>
+  <CommandZipDownload>Compress agus luchdadh a-nuas</CommandZipDownload>
+  <CommandView>View ann an Browser</CommandView>
+  <CommandDownloadOrView>Luchdaich a-nuas, no sealladh</CommandDownloadOrView>
+  <CommandPreview>Images preview</CommandPreview>
+  <CommandFlashPreview>Flash preview</CommandFlashPreview>
+  <GettingSizeFlashMovie>Seòladh meud an dealbh Flash</GettingSizeFlashMovie>
+  <CommandEdit>Deasaich am faidhle teacsa mar</CommandEdit>
+  <CommandEditView>Faic mar am faidhle teacsa</CommandEditView>
+  <AceNotLoadedMessage>Cha ghabh a luchdachadh Ace neach-deasachaidh</AceNotLoadedMessage>
+  <VideoJsNotLoadedMessage>Cha ghabh a luchdachadh VideoJS player</VideoJsNotLoadedMessage>
+  <CommandMenuEdit>Deasaich</CommandMenuEdit>
+  <CommandSelectAll>Tagh a h-uile</CommandSelectAll>
+  <CommandInvertSelection>Criathrag thagaichean:</CommandInvertSelection>
+  <CommandLinkToFile>Ceangal gu faidhl / pasgan</CommandLinkToFile>
+  <!--Share link-->
+  <CommandMakePublicFolder>Cruthaich poblach cheangal</CommandMakePublicFolder>
+  <PublicViewInGoogle>View ann an Google</PublicViewInGoogle>
+  <PublicViewinOWA>View ann an OWA</PublicViewinOWA>
+  <!--Make public folder (share)-->
+  <CommandViewWithGoogleDoc>View ann an Google Docs</CommandViewWithGoogleDoc>
+  <CommandViewWithShareCad>Faic ann ShareCad.org</CommandViewWithShareCad>
+  <CommandViewWithAutodesk>View ann an Autodesk</CommandViewWithAutodesk>
+  <CommandViewWithBox>View ann an Box</CommandViewWithBox>
+  <CommandViewWithOWA>View ann an Oifis Web Apps</CommandViewWithOWA>
+  <CommandCloudConvert>Convert le CloudConvert</CommandCloudConvert>
+  <ProgressGetCloudConvertOutputFormats>Seòladh toradh riochdan</ProgressGetCloudConvertOutputFormats>
+  <ProgressCloudConvertConverting>iompachadh</ProgressCloudConvertConverting>
+  <CloudConvertWindowTitle>Convert "{0}"</CloudConvertWindowTitle>
+  <CloudConvertWindowConvertButton>Convert</CloudConvertWindowConvertButton>
+  <CloudConvertWindowOutputFormatsLabel>Species Inneal a 'Chlàir</CloudConvertWindowOutputFormatsLabel>
+  <CloudConvertDownloadLinkLabel>Ceangal airson download</CloudConvertDownloadLinkLabel>
+  <CloudConvertSaveAsLabel>Sàbhail mar (Cuiridh an leudachan a chur ris gu fèin-obrachail):</CloudConvertSaveAsLabel>
+  <CloudConvertNoOutputFormats>Chan eil ri fhaotainn chruthan airson atharrachadh</CloudConvertNoOutputFormats>
+  <CloudConvertNoUrlForDownload>Cha robh e lean ri fhaighinn an ceangal luchdachadh a-nuas</CloudConvertNoUrlForDownload>
+  <ProgressCloudConvertUploading>Luchdachadh suas bho CloudConvert</ProgressCloudConvertUploading>
+  <CloudConvertSaveAsNameBlank>Type ainm seo</CloudConvertSaveAsNameBlank>
+  <CancelEditButton>Sguir dheth deasaich an tùs</CancelEditButton>
+  <HideButton>Falaich</HideButton>
+  <EditDocumentCancelHint>As dèidh dhut an uinneag a dhùnadh le deasaichte sgrìobhainn, thèid a autosaved. &lt;br /&gt; 'S urrainn dhut falach seo bogsa còmhradh le putadh air {0} (sa chùis seo, an sgrìobhainn bithear fhathast a shàbhaladh às deidh a' dùnadh an neach-deasachaidh). &lt;br /&gt; Mur eil thu ag iarraidh a shàbhaladh sgrìobhainn, pàipearan-naidheachd {1} (sa chùis seo, tha an neach-deasachaidh uinneag Thèid dùinte).</EditDocumentCancelHint>
+  <EditDocumentSaveHint>A-nis faodaidh tu a shàbhaladh na h-atharrachaidhean ann an sgrìobhainn le putadh air {0}. Aire! As dèidh dhut an dùin an uinneag neach-deasachaidh, bidh e cuideachd a bhith autosaved.</EditDocumentSaveHint>
+  <CommandEditInMSOffice>Deasaich ann an MS Office</CommandEditInMSOffice>
+  <CommandEditInOOo>Deasaich ann an OpenOffice / LibreOffice</CommandEditInOOo>
+  <CommandViewInMSOffice>View ann an MS Office</CommandViewInMSOffice>
+  <CommandViewInOOo>View ann an OpenOffice / LibreOffice</CommandViewInOOo>
+  <CommandEditInPixlr>Deasaich ann Pixlr</CommandEditInPixlr>
+  <CommandEditInAdobe>Deasaich ann Adobe geala Chruthachail</CommandEditInAdobe>
+  <AdobeImageEditorSavedAsNewTypeMessage>Tha an dealbh atharrachadh ann an Adobe Ìomhaigh Deasaiche a ghlèidheadh ​​ann an cruth {0}</AdobeImageEditorSavedAsNewTypeMessage>
+  <CommandEditInGoogle>Deasaich ann an Google Drive</CommandEditInGoogle>
+  <EditInGoogleConvertMessage>An dèidh deasaich an sgrìobhainn thèid atharrachadh gu cruth {1} {0} {2}</EditInGoogleConvertMessage>
+  <EditInGoogleLinkError>Chan fhaigheadh ​​e an ceangal ri dheasachadh an sgrìobhainn ann an Google Drive</EditInGoogleLinkError>
+  <EditInGoogleWaiting>A 'feitheamh airson deasachadh a chrìochnachadh ann an Google Drive</EditInGoogleWaiting>
+  <CommandEditInMSOO>Deasaich ann an MS Office Online</CommandEditInMSOO>
+  <EditInMSOOLinkError>Chan fhaigheadh ​​e an ceangal ri dheasachadh an sgrìobhainn ann an MS Office Online</EditInMSOOLinkError>
+  <EditInMSOOWaiting>A 'feitheamh airson deasachadh a chrìochnachadh ann an MS Office Online</EditInMSOOWaiting>
+  <CommandEditInOffice365>Deasaich ann an Office 365</CommandEditInOffice365>
+  <EditInOffice365LinkError>Chan fhaigheadh ​​e an ceangal ri dheasachadh an sgrìobhainn ann an Office 365</EditInOffice365LinkError>
+  <EditInOffice365Waiting>A 'feitheamh airson deasachadh a chrìochnachadh ann an Office 365</EditInOffice365Waiting>
+  <CommandSave>Save</CommandSave>
+  <CommandSaveAs>Sàbhail mar ...</CommandSaveAs>
+  <CommandAppRestart>ath-thòiseachadh iarrtais</CommandAppRestart>
+  <CommandPlayVideoFlash>Cluich bhideo ann Flash player</CommandPlayVideoFlash>
+  <CommandPlayVideoHtml5>Play bhidio</CommandPlayVideoHtml5>
+  <CommandPlayAudioHtml5>Play claistinneach</CommandPlayAudioHtml5>
+  <CommandPlayVideo>Play bhidio</CommandPlayVideo>
+  <CommandPlayAudio>Play claistinneach</CommandPlayAudio>
+  <CommandConvertVideo>Convert bhidio</CommandConvertVideo>
+
+  <ViewInServiceLink>Cliog an seo gus am faidhle fhaicinn</ViewInServiceLink>
+  <EditInServiceLink>Cliog an seo gus dheasachadh an sgrìobhainn</EditInServiceLink>
+
+  <OfficeEditCopyLinkLabel>Dèan lethbhreac dhen cheangal gu h-ìosal agus fosgail e ann an Oifis a 'tagradh:</OfficeEditCopyLinkLabel>
+  <OfficeRunError>Cha robh e comasach a chur air bhog {0}</OfficeRunError>
+  <BadPathToFile>Cha robh e comasach a lorg an t-slighe gus am faidhle</BadPathToFile>
+  <FixBasicAuthAlertTitle>Aire!</FixBasicAuthAlertTitle>
+  <FixBasicAuthAlertMessage>Microsoft Office ag obair còmhla ri Basic dearbhaidh gun SSL! 'S urrainn dhut an socraicheadh ​​seo airson ur Oifis. Airson tuilleadh fiosrachaidh faicibh {0}.</FixBasicAuthAlertMessage>
+  <FixBasicAuthAlertCheckBoxText>Chan eil seo a 'sealltainn còmhradh tuilleadh.</FixBasicAuthAlertCheckBoxText>
+  <CommandDetails>Fiosrachadh</CommandDetails>
+  <CommonButtonCaptionAddDetail>Cuir mionaideach</CommonButtonCaptionAddDetail>
+  <CommonButtonCaptionAddComment>Cuir beachd ann</CommonButtonCaptionAddComment>
+  <DetailsWindowTitle>Fiosrachadh "{0}"</DetailsWindowTitle>
+  <FileDetailsSave>Cuir a-steach atharrachaidhean</FileDetailsSave>
+  <FileDetailsIgnoreChanges>Leig seachad</FileDetailsIgnoreChanges>
+  <FileDetailsCloseConfirmTitle>Tha am faidhl fhiosrachadh uinneag ga dùinte</FileDetailsCloseConfirmTitle>
+  <FileDetailsCloseConfirmMsg>Aire! Na h-atharrachaidhean nach deach a shàbhaladh fhathast. Tagh an gnìomh a tha thu ag iarraidh cur a-steach gu h-atharrachaidhean sin mus dùin an uinneag.</FileDetailsCloseConfirmMsg>
+  <FileDetailsGridTitleColumn>Tiotal a 'Chlàir</FileDetailsGridTitleColumn>
+  <FileDetailsGridAuthorColumn>Air ùghdar</FileDetailsGridAuthorColumn>
+  <LoadingDetailsMask>Luchdachadh fhiosrachadh</LoadingDetailsMask>
+  <NewDetailsTitle>New Tiotal a 'Chlàir</NewDetailsTitle>
+  <NewDetailsValue>Ùr-fhiosrachadh luach</NewDetailsValue>
+  <DetailsSavingMsg>sàbhaladh fhiosrachadh</DetailsSavingMsg>
+  <ProgressLoadingEditInOffice>Ag ullachadh airson a 'deasachadh ann an Oifis</ProgressLoadingEditInOffice>
+  <MenuFilterText>Criathairean</MenuFilterText>
+  <EmptyTextFilter>Cuir a-steach Filter ...</EmptyTextFilter>
+  <AfterDateFilterText>An dèidh</AfterDateFilterText>
+  <BeforeDateFilterText>mus</BeforeDateFilterText>
+  <OnDateFilterText>air</OnDateFilterText>
+  <YesBooleanFilterText>Tha</YesBooleanFilterText>
+  <NoBooleanFilterText>Chan eil</NoBooleanFilterText>
+  <CommandEditWithZoho>Deasaich ann Zoho</CommandEditWithZoho>
+  <ZohoNotSupportedFormatMessage>Tha an leudachan Chan eil taic le Zoho. Faic {0}.</ZohoNotSupportedFormatMessage>
+  <ProgressLoadingEditInZoho>Luchdachadh Zoho neach-deasachaidh</ProgressLoadingEditInZoho>
+  <CommandSubMenuViewAndEdit>View / deasaich an tùs</CommandSubMenuViewAndEdit>
+  <CommandSubMenuShare>Sgaoil</CommandSubMenuShare>
+  <CommandSubMenuMore>barrachd</CommandSubMenuMore>
+  <StopUploadingButtonText>stad</StopUploadingButtonText>
+  <SimpleUploadErrorInfo>Nuair a luchdachadh suas faidhle (ean) robh mearachd. &lt;br /&gt; Faic {0} airson barrachd fiosrachaidh &lt;/a&gt;</SimpleUploadErrorInfo>
+  <BalloonAbortFilesUploaded>Luchdachadh suas de faidhlichean Chaidh sgur dhen</BalloonAbortFilesUploaded>
+  <UploadDragNDropTab>Slaod is leig às</UploadDragNDropTab>
+  <UploadDragNDropTabImages>Slaod is leig às+ìomhaighean</UploadDragNDropTabImages>
+  <DnDGridProgressColumn>adhartas</DnDGridProgressColumn>
+  <DnDFileReadingError>Leughadh mearachd. Còd mearachd: {0}.</DnDFileReadingError>
+  <DnDFileReadingAbort>Chaidh sgur dhen leughadh. Còd mearachd: {0}.</DnDFileReadingAbort>
+  <DnDFileUploadingError>Luchdachadh suas mearachd. {0}</DnDFileUploadingError>
+  <DnDFileUploadingAbort>Chaidh sgur dhen luchdachadh suas.</DnDFileUploadingAbort>
+  
+  <CommandWebFoldersLinks>Mapa lìn pasgannan</CommandWebFoldersLinks>
+  <CommandSyncWebFolders>Sioncronaich le ionadail pasgan</CommandSyncWebFolders>
+  <WebFolderLinksFieldLabel>-Lìn pasgan ceanglaichean</WebFolderLinksFieldLabel>
+  <WebFolderLinksForWindows64Note>Brùth air na prìomh measgachadh {0} Win+R {1}. Cuiribh loidhne-àithne ann an {0} Fhosgailte: {1} achadh (faic loidhne-àithne eisimpleirean gu h-ìosal), briog {0} {1} OK. Airson Windows dearbhaidh a 'cleachdadh làn theisteanas àrainn ainmean: {2}.</WebFolderLinksForWindows64Note>
+  <OpenLibreOfficeRunCommandNote>No brùth an iuchair measgachadh {0} Win+R {1}, cuir a-steach an loidhne-àithne gu h-ìosal ann an {0} Fhosgailte: {1} achadh agus pàipearan-naidheachd {0} {1} OK</OpenLibreOfficeRunCommandNote>
+  <WebFolderLinksForMacOSNote>Ann an "Finder"-taice, fosgailte {0} Go-&gt; Ceangail ris an fhrithealaiche {1}. Sgrìobhaibh ceangal an-lìn pasgan ann an {0} "seòladh an fhrithealaiche" {1} achadh. Put air {0} "Ceangail" {1}. Ann an dialog ùr a thaghadh {0} "Guest" {1} no {0} "neach-cleachdaidh clàraichte" {1} (airson Windows dearbhaidh). Put air {0} "Ceangail" {1}.</WebFolderLinksForMacOSNote>
+  <WebFolderLinksForUbuntuNote>Fosgailte {0} Go-&gt; Àite ... {1} Dèan lethbhreac dhen cheangal air an eadar-lìon am pasgan airson an àite achadh.</WebFolderLinksForUbuntuNote>
+  <LinksToWebFoldersWindowText>'S urrainn dhut map pasgannan gum faic thu mar draibh lìonraidh ionadail agad ann an OS. An dèidh mapadh Faodaidh tu obrachadh le faidhlichean coltach ri feadhainn ionadail no deasaich an sgrìobhainnean ann an MS Office no OpenOffice. Faic cuideachadh mu ciamar a map {0}.</LinksToWebFoldersWindowText>
+  <CommonFileTypeNameCaption>"{0}" File name</CommonFileTypeNameCaption>
+  <CommonFileTypeNamePrompt>Cuir a-steach ùr "{0}" File name</CommonFileTypeNamePrompt>
+  
+  <PixlrEditorWindowTitle>Pixlr neach-deasachaidh {0}</PixlrEditorWindowTitle>
+  <PixlrSaveImageSuccessMessage>Tha an ìomhaigh "{0}" a bha soirbheachail a shàbhaladh. Ùraich an liosta ma tha thu a shàbhaladh an ìomhaigh le ainm ùr.</PixlrSaveImageSuccessMessage>
+  <CommonFileImageNewName>ìomhaigh ùr</CommonFileImageNewName>
+  <CommandChangeTheme>atharrachadh theme</CommandChangeTheme>
+  
+  <CommandHelp>Cuidich</CommandHelp>
+
+  <OpeningShortcutProgress>Fosgladh shortcut</OpeningShortcutProgress>
+  <CommandCreateShortcut>Shortcut (ceangal samhlachail)</CommandCreateShortcut>
+  <ShortcutNameHint>shortcut ainm</ShortcutNameHint>
+  <ShortcutTargetPathHint>Destination frith-rathad</ShortcutTargetPathHint>
+  <CreateShortcutButtonTitle>Cruthaich</CreateShortcutButtonTitle>
+  <CreatingShortcutProgress>cruthachadh shortcut</CreatingShortcutProgress>
+  <CreateShortcutSuccessMessage>Shortcut "{0}" a bha soirbheachail a chruthachadh airson "{1}".</CreateShortcutSuccessMessage>
+
+  <OpeningInternetShortcutProgress>Uairean Internet shortcut</OpeningInternetShortcutProgress>
+  <InternetShortcutNotValidMsg>Tha an targaid URL seo Internet shortcut Chan eil dligheach</InternetShortcutNotValidMsg>
+  <InternetShortcutWindowTitle>Rach gu ceangal</InternetShortcutWindowTitle>
+  
+  <CommandVersioning>tionndadh</CommandVersioning>
+  <CommandVersionHistory>Version eachdraidh</CommandVersionHistory>
+  <CommandCheckOut>Dèan sgrùdadh air</CommandCheckOut>
+  <CommandCheckIn>Dèan clàradh</CommandCheckIn>
+  <CommandUndoCheckOut>Sguir dheth Lorg ann an Catalog Out</CommandUndoCheckOut>
+  <VersionHistoryObtainingMessage>Fhaighinn dreach eachdraidh</VersionHistoryObtainingMessage>
+  <NoVersionHistoryMessage>Tha an dreach airson eachdraidh a thaghadh faidhle eil ann</NoVersionHistoryMessage>
+  <FileIsCheckedOutMessage>Tha am faidhle "{0}" Tha an sgrùdadh a-mach mar-thà leis a 'chleachdaiche "{1}" de {2}</FileIsCheckedOutMessage>
+  <CheckingOutMessage>sgrùdadh Out</CheckingOutMessage>
+  <SuccessfullyCheckedOutMessage>Tha am faidhle "{0}" Chaidh an sgrùdadh a-mach gu soirbheachail leis a 'chleachdaiche "{1}"</SuccessfullyCheckedOutMessage>
+  <FileIsNotCheckedOutMessage>Tha am faidhle "{0}" Cha deach an sgrùdadh a-mach fhathast</FileIsNotCheckedOutMessage>
+  <FileIsCheckedOutOtherUserMessage>Tha am faidhle "{0}" Tha an sgrùdadh a-mach le cleachdaiche eile "{1}" de {2}.</FileIsCheckedOutOtherUserMessage>
+  <FileUndoCheckOutForbiddenMessage>Chan urrainn dhut dheth seic a-mach a chur an gnìomh le bhith a 'chleachdaiche eile.</FileUndoCheckOutForbiddenMessage>
+  <FileCheckInForbiddenMessage>Chan urrainn dhut sùil a thoirt air faidhle a tha mar-thà air sùil a thoirt a-mach le bhith a 'chleachdaiche eile.</FileCheckInForbiddenMessage>
+  <FileUndoCheckOutConfirmMessage>Ma tha thu airson a chur dheth agad seic a-mach, na h-atharrachaidhean a chur ris an sgrìobhainn Cha tèid a shàbhaladh! A bheil thu cinnteach gu bheil thu airson a chur dheth agad seic a-mach?</FileUndoCheckOutConfirmMessage>
+  <FileVersionDeleteConfirmTitle>A sguabadh às an tionndadh an fhaidhle</FileVersionDeleteConfirmTitle>
+  <FileVersionDeleteConfirmMessage>A bheil thu cinnteach gu bheil thu airson an sguabadh às a 'taghadh dreach de am faidhle?</FileVersionDeleteConfirmMessage>
+  <FileVersionRestoreConfirmTitle>Ag ath-nuadhachadh an dreach faidhle</FileVersionRestoreConfirmTitle>
+  <FileVersionRestoreConfirmMessage>A bheil thu cinnteach gu bheil ag iarraidh air ais a 'taghadh dreach de am faidhle? {0} Ma tha, comharraichibh am faidhle anns a bheil an taghadh dreach thèid a sàbhaladh a-steach. Ma dh'fhàgas tu seo an luach gun atharrachaidhean (no air an cur luach falamh) a thaghadh an dreach a chur an àite a thaghadh file (roimhe susbaint an fhaidhle a thèid a chur ris an dreach eachdraidh). {1} File name:</FileVersionRestoreConfirmMessage>
+  <UndoCheckingOutMessage>Cancelling Lorg ann an Catalog Out</UndoCheckingOutMessage>
+  <SuccessfullyUndoCheckedOutMessage>Tha na chaidh a dhubhadh às an t-seic a-mach airson am faidhle "{0}" a choileanadh gu soirbheachail.</SuccessfullyUndoCheckedOutMessage>
+  <SuccessfullyCheckedInMessage>Tha am faidhle "{0}" a tha soirbheachail ann an sgrùdadh leis a 'chleachdaiche "{1}"</SuccessfullyCheckedInMessage>
+  <CheckingInMessage>Ann an sgrùdadh</CheckingInMessage>
+  <VersionHistoryTitle>File tionndaidhean "{0}"</VersionHistoryTitle>
+  <VersionHistoryGridNumberColumn>Ver.</VersionHistoryGridNumberColumn>
+  <VersionHistoryGridNotesColumn>Notaichean</VersionHistoryGridNotesColumn>
+  <CommandRestoreVersion>air ais</CommandRestoreVersion>
+  <ProgressPrepareDownloadOldVersion>Ag ullachadh airson seann dreach luchdachadh</ProgressPrepareDownloadOldVersion>
+  <FileVersionNotFoundMessage>Tha am faidhl thaghadh dreach cha robh lorg.</FileVersionNotFoundMessage>
+  <ProgressDeletingVersion>tionndadh a sguabadh às</ProgressDeletingVersion>
+  <ProgressRestoringVersion>tionndadh ath-nuadhachadh</ProgressRestoringVersion>
+  <FileNeedCheckInMessage>Thoir sùil ann no a chur dheth an t-seic a-mach airson am faidhle a thaghadh agus feuchainn a-rithist.</FileNeedCheckInMessage>
+  <FileCheckedOutEditForbiddenMessage>Chan urrainn dhut atharrachadh / rename / gluasad / faidhle a sguabadh às "{0}" fhad 'sa thathar ga Cheartaich a-mach le bhith a' chleachdaiche "{1}" de {2}</FileCheckedOutEditForbiddenMessage>
+  <FileUploadCheckInLabel>'S urrainn dhut sùil a-thaghadh ann an fhaidhle no luchdadh suas tionndadh ùr dhen fhaidhle (cleachd' luchdadh suas an fhoirm gu h-ìosal). Ma tha thu airson dreach ùr a chruthachadh bho thaghadh faidhl, chan eil na faidhlichean a luchdadh suas sam bith an seo.</FileUploadCheckInLabel>
+  <FileUploadCheckInInvalidFileName>Tha ainm a 'luchdachadh suas faidhle bu chòir a bhith an dearbh mar ainm air an taghadh faidhle</FileUploadCheckInInvalidFileName>
+  <CheckOutVersionNotes>Tha an dreach seo air a bhith air a chruthachadh gu fèin-obrachail</CheckOutVersionNotes>
+  <RestoreVersionNotes>Tha an dreach seo air a bhith air a chruthachadh gu fèin-obrachail air ais an dèidh an dreach bho {0} de 'chleachdaiche "{1}"</RestoreVersionNotes>
+  <IsCheckedOutHint>Tha am faidhle a sgrùdadh a-mach</IsCheckedOutHint>
+  <ExistsOldVersionsHint>Tha am faidhle a tha dreachan eile</ExistsOldVersionsHint>
+  <IsLockedHint>Tha am faidhle glaiste</IsLockedHint>
+  <FileWasCreatedHint>A chaidh a chruthachadh {0} bho chionn</FileWasCreatedHint>
+  <FileWasModifiedHint>Air atharrachadh {0} bho chionn</FileWasModifiedHint>
+  <CommonChangedAgo>{0} bho chionn</CommonChangedAgo>
+  <DaysShort>d</DaysShort>
+  <HoursShort>s</HoursShort>
+  <MinutesShort>m</MinutesShort>
+  <FileContainsMetaDataHint>Tha cuid dhen fhiosrachadh (Metadata)</FileContainsMetaDataHint>
+  <FileMetaDataCaptionMobile>Metadata</FileMetaDataCaptionMobile>
+
+  <ExistsPublicLinksFileHint>Tha am faidhle a tha poblach ceanglaichean</ExistsPublicLinksFileHint>
+  <ExistsPublicLinksFolderHint>Tha am pasgan poblach ceanglaichean</ExistsPublicLinksFolderHint>
+  <PublicLinkNotFound>Phoblach ceangal airson "{0}" cha d 'fhuaradh</PublicLinkNotFound>
+
+  <PublicLinksDeleteWindowTitle>Sguab às poblach ceangal (ean)</PublicLinksDeleteWindowTitle>
+  <PublicLinksDeleteLinkButton>Sguab às cheangal</PublicLinksDeleteLinkButton>
+  <PublicLinksDeleteConfirmMsg>A bheil thu cinnteach gu bheil thu airson an sguabadh às a 'taghadh poblach ceanglaichean?</PublicLinksDeleteConfirmMsg>
+  <PublicLinksDeleteSingleConfirmMsg>A bheil thu cinnteach gu bheil thu airson an sguabadh às a 'cheangal seo?</PublicLinksDeleteSingleConfirmMsg>
+
+  <DetailsMultiValue>(Multi luach)</DetailsMultiValue>
+
+  <GridBottomFilesSizeInfo>Air a thagadh: {0} / {1},</GridBottomFilesSizeInfo>
+  <GridBottomFilesFoldersInfo>faidhlichean: {0} / {1}, pasgain: {2} / {3}</GridBottomFilesFoldersInfo>
+
+  <AmountOfDownloadingsFile>Na chaidh a luchdadh</AmountOfDownloadingsFile>
+
+  <CookiesDisabledMessage>'Bhrobhsair agaibh cookie feartan dheth. E ann am Beurla Cuir air agus ath-thòiseachaidh air brabhsair Opera.</CookiesDisabledMessage>
+
+  <CommandSendEmail>Cuir post-d</CommandSendEmail>
+  <CommandSendWithGmail>Send le Gmail</CommandSendWithGmail>
+  <CommandSendWithOutlook>Send le Outlook</CommandSendWithOutlook>
+  <SendEmailTo>Airson</SendEmailTo>
+  <SendEmailBulkMailingListHint>&lt;b&gt; air an liosta puist &lt;/b&gt; &lt;br /&gt; 'S urrainn dhut a shònrachadh gu lèir buidhnean a chur air puist-d agad</SendEmailBulkMailingListHint>
+  <SendEmailBulkMailingListWindowTitle>Tagh Gheibhear airson puist-d agad</SendEmailBulkMailingListWindowTitle>
+  <SendEmailEmptyMailingListMessage>Litrichean liosta falamh</SendEmailEmptyMailingListMessage>
+  <SendEmailSenderEmail>neach post-d</SendEmailSenderEmail>
+  <SendEmailSubject>cuspair</SendEmailSubject>
+  <SendEmailFilesAsLinksTo>Send ceangalan gu faidhlichean a thaghadh</SendEmailFilesAsLinksTo>
+  <SendEmailFilesAsAttachements>Send na faidhlichean a thaghadh mar ceanglachain</SendEmailFilesAsAttachements>
+  <SendEmailSend>Send</SendEmailSend>
+  <SendEmailProgressMessage>cur post-d</SendEmailProgressMessage>
+  <GettingMailingListProgressMessage>Seòladh liosta puist</GettingMailingListProgressMessage>
+  <SendEmailSuccessMessage>Tha Chaidh post-d a chur gu soirbheachail.</SendEmailSuccessMessage>
+  <SendEmailResultsMessage>Chuir: {0}. &lt;br /&gt; Dh'fhàillig: {1} {2}.</SendEmailResultsMessage>
+  <SmtpServerSettingsIncorrect>Tha am frithealaiche SMTP-roghainnean a tha an dara cuid falamh no mearachdach</SmtpServerSettingsIncorrect>
+  <FromEmailIncorrect>Bho an seòladh puist-d a tha mearachdach no falamh</FromEmailIncorrect>
+  <ToEmailIncorrect>Gus an seòladh puist-d a tha mearachdach no falamh</ToEmailIncorrect>
+  <EmailSubjectEmpty>Tha am post-dealain fo ùmhlachd Chan eil shònrachadh</EmailSubjectEmpty>
+  <UploadFromUrlTab>bho URL</UploadFromUrlTab>
+  <UploadFromUrlFieldLabel>URL (HTTP no FTP an sreath aonair)</UploadFromUrlFieldLabel>
+  <UploadFromUrlProgressTitle>Luchdaich suas o URL</UploadFromUrlProgressTitle>
+  <UploadFromUrlMsg>Luchdachadh suas o URL</UploadFromUrlMsg>
+  <UploadFromUrlSuccessMsg>Tha am faidhle "{0}" air a bhith soirbheachail a luchdachadh suas bho "{1}"</UploadFromUrlSuccessMsg>
+  <UploadFromUrlUnknownResponse>Tha an fhreagairt bhon fhrithealaiche Chan eil aithnichte</UploadFromUrlUnknownResponse>
+  <UploadFromUrlEmptyFileName>Tha ainm a 'luchdachadh suas faidhle falamh</UploadFromUrlEmptyFileName>
+  <UploadFromUrlFileName>Sàbhail le ainm (fhàgail falamh a 'cleachdadh ainm bho URL)</UploadFromUrlFileName>
+  <UploadFromUrlFileNameMobile>Sàbhail le ainm</UploadFromUrlFileNameMobile>
+  
+  <!-- Common Clouds keys -->  
+  <CloudAuthenticateMessage>Feumaidh tu logadh a-steach aig {0}. Briog air "{1}" ceangal agus cluinnidh tu ath-stiùireadh gu logon an fhoirm. {2} Tuilleadh fiosrachaidh. {3}</CloudAuthenticateMessage>
+  <CloudAuthenticateLink>Dearbhadh le {0}</CloudAuthenticateLink>  
+  <CloudDownloadingMessage>Luchdachadh a-nuas gu {0}</CloudDownloadingMessage>
+  <CloudAuthWarningMessage>Ma tha an gnìomh Cha do thachair sin, cuiribh Dùin an uinneag seo agus briog air "{0}" a 'ceangal a-rithist.</CloudAuthWarningMessage>
+  <CloudAuthEmptyInvalidMessage>{0} Cothrom Comharra falamh no mì-dhligheach. Cuiribh dearbhadh a-rithist.</CloudAuthEmptyInvalidMessage>
+  <CloudDownloadEndMessageTitle>Luchdaich a-nuas air crìoch a chur</CloudDownloadEndMessageTitle>
+  <CloudDownloadFilesSuccessMessage>{0} faidhle (ean) soirbheachail luchdachadh a-nuas ri "{1}" {2} pasgan.</CloudDownloadFilesSuccessMessage>
+  <CloudNotDownloadedFilesMessage>{0} faidhle (ean) nach luchdachadh a-nuas:</CloudNotDownloadedFilesMessage>
+  <CloudFoldersCreatedSuccessMessage>{0} pasgain (ean) soirbheachail a chruthachadh ann an "{1}" {2} pasgan.</CloudFoldersCreatedSuccessMessage>
+  <CloudNotFoldersCreatedMessage>{0} pasgain (ean) nach do chruthaich:</CloudNotFoldersCreatedMessage>
+  <CloudFilesFoldersSuccessMessage>{0} faidhle (s), {1} pasgan (ean) soirbheachail luchdachadh a-nuas ri "{2}" {3} pasgan.</CloudFilesFoldersSuccessMessage>
+  <CloudNotFilesFoldersDownloadedMessage>{0} faidhle (s), {1} pasgan (ean) nach luchdachadh a-nuas:</CloudNotFilesFoldersDownloadedMessage>
+  <CloudLinkText>Tadhail air {0}</CloudLinkText>
+  <CloudLinkDescription>Rach gu {0} duilleag</CloudLinkDescription>
+  <CloudRootFolderName>&lt;b&gt; {0} pasgan freumhach na &lt;/b&gt;</CloudRootFolderName>
+  <CloudCheckFolerMessage>Thoir sùil air aon {0} pasgan gus leantainn air adhart.</CloudCheckFolerMessage>
+  <CloudSelectFolderMessage>Tagh {0} pasgan gus leantainn air adhart.</CloudSelectFolderMessage>
+  <CloudGetFoldersInfoProgressMessage>A 'lionadh {0} pasgannan info</CloudGetFoldersInfoProgressMessage>
+  <CloudGetItemsInfoProgressMessage>Luchdachadh {0} nithean info</CloudGetItemsInfoProgressMessage>
+  <CloudUploadSelectItemsMessage>Tagh {0} nithean gus leantainn air adhart.</CloudUploadSelectItemsMessage>
+  <CloudUploadTotalFiles>Iomlan faidhlichean: {0} ({1})</CloudUploadTotalFiles>
+  <CloudUploadProgressMessage>Luchdachadh suas bho {0}</CloudUploadProgressMessage>
+  <CloudSignInAsDifferentUserText>Logout bho {0}</CloudSignInAsDifferentUserText>
+  <CloudLogoutProgressMsg>Logout bho {0}</CloudLogoutProgressMsg>
+  <CloudRevokeTokenMsg>Revoking tòcan</CloudRevokeTokenMsg>
+  <CloudRefreshTokenMsg>ùrachail tòcan</CloudRefreshTokenMsg>
+  <CloudAuthNotCompleteMsg>Dearbhadh nach eil crìoch a chur air. &lt;br /&gt;</CloudAuthNotCompleteMsg>
+  <CloudTrustedSitesMsg> thoir sùil air na làraichean a leanas ann an "earbsa làraichean" liosta: &lt;br /&gt; &lt;br /&gt;</CloudTrustedSitesMsg>
+  <TrustedSitesForMicrosoftEdge>Ma tha thu a 'cleachdadh Microsoft Oir, an uair sin sùil air an Buidheann Làraichean ann an Internet Explorer</TrustedSitesForMicrosoftEdge>
+  <CloudCheckAuthMsg>Thoir sùil air {0} dearbhaidh</CloudCheckAuthMsg>
+  <CloudLoadMsg>A 'lionadh {0}</CloudLoadMsg>
+  <CloudFreeSpaceError>Chan eil rùm gu leòr ann an {2} gus faidhlichean a luchdadh suas. Uill: {0}. Meud an fhaidhle: {1}.</CloudFreeSpaceError>
+  <CloudFreeSpaceExceeded>Chan eil rùm gu leòr ann an {0}</CloudFreeSpaceExceeded>
+  <CloudExceedFileSizeError>Tha am faidhle a tha thu a 'feuchainn ri luchdachadh a-nuas Tha meud an fhaidhle de {1}, a tha nas motha na an àireamh as motha a tha ceadaichte meud airson download - {0}.</CloudExceedFileSizeError>
+  <CloudFolderNotFound>Directory cha lorgar. 'S dòcha gun deach a sguabadh às</CloudFolderNotFound>
+  <CloudFileNotFound>Tha am faidhl cha d 'fhuaradh. 'S dòcha gun deach a sguabadh às</CloudFileNotFound>
+  <CloudNoFoldersMessage>Chan eil pasgain a thaisbeanadh</CloudNoFoldersMessage>
+  <CloudLibraryNotLoadedMsg>{0} neach-dèiligidh leabharlainn nach luchdachadh! &lt;br /&gt; Thoir sùil air an eadar-lìon co-cheangailte agus no-ùrachadh duilleag. &lt;br /&gt; Cuideachd</CloudLibraryNotLoadedMsg>
+  <CloudDownloadWithNewNames>An dèidh am faidhl (ean) luchdachadh a-nuas le ainmean ùra:</CloudDownloadWithNewNames>
+
+  <!-- Google Drive Cloud keys -->
+  <CommandDownloadToGoogleDocs>Luchdaich a-nuas gu Google Drive</CommandDownloadToGoogleDocs>
+  <GoogleDocsSaveAs>mar a shàbhaladh:</GoogleDocsSaveAs>
+  <GoogleDocsSaveAsTitle>Sàbhail "{0}" mar ...</GoogleDocsSaveAsTitle>
+  <GoogleDocsDownloadEndWarningMessage>Ma chan fhaic thu na sgrìobhainnean a luchdachadh suas ann 'ur cunntas Google Drive, Fuirich ort diog no dhà agus Ùraich an Google Drive liosta.</GoogleDocsDownloadEndWarningMessage>
+  <GoogleDriveUploadNoFilesMessage>Chan eil na faidhlichean ann an Google Drive airson upload</GoogleDriveUploadNoFilesMessage>
+  <GoogleDriveMaxUploadSizeError>Airson clàr na làraich-seòrsa "{0}" a 'char as àirde meud luchdadh suas {1} a dhol thairis air.</GoogleDriveMaxUploadSizeError>
+  <GoogleDriveConvertMsg>Ma tha e comasach, iompachadh faidhlichean-steach don Google Sgrìobhainnean cruth. {0} Tuilleadh info {1}.</GoogleDriveConvertMsg>
+
+  <!-- Box Cloud keys -->
+  <CommandDownloadToBox>Luchdaich a-nuas gu Box</CommandDownloadToBox>
+  <BoxDownloadWithNewNames>Tha na leanas am faidhl (ean) a bha air ùrachadh le tionndaidhean ùra:</BoxDownloadWithNewNames>
+  <BoxNoViewPermission>Chan fheum thu cead gus coimhead air an taghadh eòlaire</BoxNoViewPermission>
+  <BoxNoDownloadPermission>Chan fheum thu cead airson an luchdachadh a-nuas</BoxNoDownloadPermission>
+  <BoxNoUploadPermission>Chan fheum thu cead a luchdachadh suas</BoxNoUploadPermission>
+  <BoxUnableCreateOrInfoError>Cha gus a chruthachadh no fiosrachadh fhaighinn</BoxUnableCreateOrInfoError>
+  
+  <!-- Dropbox Cloud keys -->
+  <CommandDownloadToDropbox>Luchdaich a-nuas gu Dropbox</CommandDownloadToDropbox>
+  
+  <!-- OneDrive Cloud keys -->
+  <CommandDownloadToSkyDrive>Luchdaich a-nuas gu OneDrive</CommandDownloadToSkyDrive>
+  <AuthenticateOAuthSkyDriveMessageShort>Feumaidh tu logadh a-steach cunntas Microsoft agad Live.</AuthenticateOAuthSkyDriveMessageShort>
+  <SkyDriveAuthAlsoString>cuideachd</SkyDriveAuthAlsoString>
+  <SkyDriveLoginButtonTitle>login</SkyDriveLoginButtonTitle>
+  <SkyDriveRegistryMessage>Chan eil Windows Live ID? {0} Sign up ... {1}</SkyDriveRegistryMessage>
+  <SkyDriveMapRootFolder>Thoir an aire! 'S urrainn dhut {0} {1} map OneDrive agaibh pasgan. 'S e Path</SkyDriveMapRootFolder>
+  <SkyDriveMoreInfoLink>{0} Tuilleadh fiosrachaidh mu OneDrive (SkyDrive) {1}</SkyDriveMoreInfoLink>
+  <OneDriveMaxUploadSizeError>Tha meud ceadaichte ({0}) na luchdachadh suas faidhle a tha thairis: {1}</OneDriveMaxUploadSizeError>
+  <!-- OneDrive for Business -->
+  <OneDriveForBusinessMapWebFolderInfo>&lt;b&gt; Note! &lt;/b&gt; Mus faidhlichean fosgladh ann an àite seo, feumaidh sibh an toiseach ris an làrach-lìn gu earbsa agad làraichean liosta, sùil ris an làrach-lìn, agus tagh an roghainn a logadh a-steach gu fèin-obrachail (ann IE bhrobhsair).</OneDriveForBusinessMapWebFolderInfo>
+  
+  <UploadFromUrlLabelText>'S urrainn dhut sònraichibh an URL de faidhle a stòradh aig ìre chruinneil faidhle fhrithealaiche no aig co-roinneadh fhaidhlichean seirbheis mar {0}, {1} {2}, {3}, {4}.</UploadFromUrlLabelText>
+  <UploadFromUrlLabelTextMobile>Sònraich an URL aig faidhle</UploadFromUrlLabelTextMobile>
+
+  <LinkToFileTitle>Ceangal gu faidhl / pasgan</LinkToFileTitle>
+  <LinkToFileWarningAnonym>Tha an ceangal seo a 'toirt cothrom gun urra gus am faidhle. Cleachdaiche sam bith, fiù 's aon aig nach eil iomradh anns an làraich seo,' s dòcha gum luchdachadh a-nuas, no faidhlichean a luchdadh suas tro poblach cheangal. A Poblach a 'ceangal ri faidhle a leigeas leat a luchdachadh a-nuas an aon faidhle a thaghadh. {0} Tuilleadh info {1}.</LinkToFileWarningAnonym>
+  <LinkToFileDownloadFileLink>Tha an ceangal seo a 'leigeil leat luchdachadh a-nuas am faidhle a thaghadh {0} bho {1}. Feumaidh tu dligheach cunntas a 'cleachdadh an ceangal seo. Chan eil e a 'toirt cothrom Anonymous am faidhle.</LinkToFileDownloadFileLink>
+  <LinkToFileExpireDate>Ceann-latha crìche</LinkToFileExpireDate>
+  <LinkToFileDownloadCnt>Luchdaich a-nuas cunntadh crìoch</LinkToFileDownloadCnt>
+  <LinkToFileDownloadType>Ceangal seòrsa</LinkToFileDownloadType>
+  <LinkToFileGenerate>Cruthaich cheangal</LinkToFileGenerate>
+  <LinkToFilePasswordNotMatch>-Faire nach eil co-ionnan</LinkToFilePasswordNotMatch>
+  <LinkToFilePasswordRequired>Tha am facal-faire airson a 'phobaill a' ceangal a tha a dhìth</LinkToFilePasswordRequired>
+  <LinkToFileInvalidForm>mì-dhligheach crìochan</LinkToFileInvalidForm>
+  <LinkToFileAnonymDownloadLinkHint>Phoblach ceangal airson "{0}":</LinkToFileAnonymDownloadLinkHint>
+  <LinkToFileAnonymDownloadShortLinkHint>Goirid poblach ceangal airson "{0}":</LinkToFileAnonymDownloadShortLinkHint>
+  <LinkToFileOpenFolderLink>Tha an ceangal seo a 'leigeil leat Fosgail an taghadh am pasgan {0} {1} ann. Feumaidh tu dligheach cunntas a 'cleachdadh an ceangal seo. Chan eil ea 'toirt seachad gun urra cothrom dhan phasgan.</LinkToFileOpenFolderLink>
+  <LinkToFileOpenFileLink>Tha an ceangal seo a 'fosgladh am pasgan le am faidhle agus a' sònrachadh e</LinkToFileOpenFileLink>
+  <LinkToFileDaysLeft>làithean air fhàgail</LinkToFileDaysLeft>
+  <LinkToFileCaptionMobile>Phoblach ceanglaichean</LinkToFileCaptionMobile>
+
+  <PublicFolderLinkHint>Poblach a 'ceangal ri pasgan "{0}":</PublicFolderLinkHint>
+  <PublicFolderShortLinkHint>Goirid poblach a 'ceangal ri pasgan "{0}":</PublicFolderShortLinkHint>
+  <PublicFolderLinkDownloadZipHint>Luchdaich a-nuas ceangal airson zip tasglann am pasgan "{0}":</PublicFolderLinkDownloadZipHint>
+  <PublicFolderLinkShortDownloadZipHint>Goirid download ceangal airson zip tasglann am pasgan "{0}":</PublicFolderLinkShortDownloadZipHint>
+  <PublicFolderLinkZipDownload>Compress agus luchdachadh a-nuas an-dràsta pasgan {0} (ann an zip tasglann)</PublicFolderLinkZipDownload>
+  <PublicFolderLinkOverwriteWhileUpload>sgrìobhadh thairis ann an-dràsta</PublicFolderLinkOverwriteWhileUpload>
+  <PublicFolderLinkOpenFolderHint>Fosgail am pasgan</PublicFolderLinkOpenFolderHint>
+  <PublicFolderDownloadDisabledNote>Thoir an aire! Tha an sealbhadair am pasgan seo bha toirmisgte luchdachadh a-nuas bho faidhlichean am pasgan seo.</PublicFolderDownloadDisabledNote>
+  <PublicFolderLinkSendEmails>Send info mu luchd-tadhail gnìomhachd gus puist-d</PublicFolderLinkSendEmails>
+  <PublicFolderAnonymAccessControl>smachd air ruigsinneachd</PublicFolderAnonymAccessControl>
+  <PublicFolderAnonymDownload>Luchdaich a-nuas faidhlichean</PublicFolderAnonymDownload>
+  <PublicFolderAnonymZipDownload>Luchdaich a-nuas pasgain (zip)</PublicFolderAnonymZipDownload>
+  <PublicFolderAnonymUpload>A 'luchdadh suas</PublicFolderAnonymUpload>
+  <PublicFolderAnonymViewContent>Faic am faidhl liosta</PublicFolderAnonymViewContent>
+  <PublicFolderNoteForUsers>Thoir fa-near do luchd-cleachdaidh</PublicFolderNoteForUsers>
+  <PublicFolderACLNotSet>Smachd air ruigsinneachd Chan eil shuidheachadh</PublicFolderACLNotSet>
+  <PublicFolderWarningAnonym>Tha an ceangal seo a 'toirt cothrom Anonymous dhan phasgan. Cleachdaiche sam bith, fiù 's aon aig nach eil iomradh anns an làraich seo,' s dòcha gum luchdachadh a-nuas, no faidhlichean a luchdadh suas tro poblach cheangal. A poblach ceangal dhan phasgan a 'leigeil leat luchdachadh a-nuas an dà chuid gu h-iomlan pasgan (loma-làn ann an tasglann) agus faidhlichean fa leth. {0} Tuilleadh info {1}.</PublicFolderWarningAnonym>
+  <PublicLinksShowForAllItems>Seall na h-uile</PublicLinksShowForAllItems>
+  <PublicLinksShowForSelected>Seall thaghadh airson</PublicLinksShowForSelected>
+  
+  <MultipleFileInputMessage>Thoir an aire! Am brabhsair agad a 'cur taic ioma faidhlichean taghaidh aig an aon àm.</MultipleFileInputMessage>
+  <UploadZipUnzipNote>'S urrainn dhut a luchdadh suas a zip tasglann le iomadh faidhlichean agus pasgain agus an uair sin a tharruing e, a' cleachdadh "{0}" àithne ann an co-theacsa taice.</UploadZipUnzipNote>
+  <DnDFileUploadingStatusCode>inbhe còd</DnDFileUploadingStatusCode>
+  <DnDFileUploadingPathOrNameEmpty>Tha frith-rathad agus ainm-faidhle no nach eil ainmichte</DnDFileUploadingPathOrNameEmpty>
+  <DnDFileUploadingRemoveFromList>Thoir air falbh bho liosta</DnDFileUploadingRemoveFromList>
+  <DndFileUploadingDontDropFoldersMsg>'S urrainn dhut Slaod agus leig às na faidhlichean a-steach an clàr gu h-ìosal. Chan urrainn dhut leigeil phasgain.</DndFileUploadingDontDropFoldersMsg>
+  <DndFileUploadingAllowDropFoldersMsg>'S urrainn dhut Slaod agus leig às na faidhlichean agus pasgain a-steach an clàr gu h-ìosal.</DndFileUploadingAllowDropFoldersMsg>
+  <DndFileUploadingFilesSummaryInfo>Count de faidhlichean: {0} ({1})</DndFileUploadingFilesSummaryInfo>
+  <DropFilesHere>Leig às na faidhlichean a luchdadh suas</DropFilesHere>
+  
+  <FileGridDownloadColumn>Luchdaich a-nuas faidhlichean</FileGridDownloadColumn>
+  <FileAttributesField>buadhan</FileAttributesField>
+  <FolderCalculateSize>Obraich a-mach</FolderCalculateSize>
+  <FolderRecalculateSize>Recalculate</FolderRecalculateSize>
+  <FolderContainsField>Tha</FolderContainsField>
+  <FolderContainsFilesFolders>{0} faidhlichean, {1} pasgannan</FolderContainsFilesFolders>
+  <FolderCalculatingMessage>obrachadh a-mach</FolderCalculatingMessage>
+
+  <SearchTitle>File rannsachadh. -Fhaotainneach pàtrain: {0}</SearchTitle>
+  <SearchType>Rannsachadh</SearchType>
+  <SearchOnlyFiles>faidhlichean-mhàin</SearchOnlyFiles>
+  <SearchOnlyFolders>pasgain a-mhàin</SearchOnlyFolders>
+  <SearchBothFilesFolders>an dà chuid faidhlichean agus pasgain</SearchBothFilesFolders>
+  <SearchFileDetails>File fhiosrachadh</SearchFileDetails>
+  <SearchFileContent>File clàr na làraich</SearchFileContent>
+  <SearchByDateFrom>bho</SearchByDateFrom>
+  <SearchByDateTo>gu</SearchByDateTo>
+  <SearchLocation>Àite</SearchLocation>
+  <SearchLocationEntire>Anywhere</SearchLocationEntire>
+  <SearchLocationCurrent>an-dràsta</SearchLocationCurrent>
+  <SearchSearch>Rannsachadh</SearchSearch>
+  <SearchNothingFound>Nothing chaidh a lorg! Tagh an rannsachadh agad slatan-tomhais.</SearchNothingFound>
+  <SearchErrorCaption>Lorg mearachd</SearchErrorCaption>
+  <SearchResultsNotComplete>Aire! Tha toraidhean luirg dh'fhaodadh a bhith neo-iomlan mar a tha cuid pasgannan nach eil san chlàr-amais fhathast.</SearchResultsNotComplete>
+  <SearchRepeatOrContactAdmin>Feuch ris an rannsachadh agad a-rithist no cuir fios gu rianadair.</SearchRepeatOrContactAdmin>
+  <SearchLinkToManual>Coimheadaibh air an {0} Windows Rannsachadh Taic {1}</SearchLinkToManual>
+  <QuerySearchByNameText>Lorg le ainm</QuerySearchByNameText>
+  <QuerySearchByConentText>le clàr na làraich</QuerySearchByConentText>
+  <SearchByDetailsWarning>Aire! Tha thu air na tha air a shònrachadh anns a 'Roghainnean gum bu toigh leat cleachdadh an rannsachadh le feartan. Sa chùis seo, a 'rannsachadh a dhèanamh a' cleachdadh coitcheann dòigh an àite a 'cleachdadh Windows mu Chlàr-amais Seirbheis.</SearchByDetailsWarning>
+  <SearchInSpecialFolderWarning>Aire! A lorg an-dràsta pasgan chan fheumar. Ma tha thu airson leantainn air adhart, a 'rannsachadh a dhèanamh anns gach seòlaidh.</SearchInSpecialFolderWarning>
+
+  <UploadTitle>Luchdachadh suas de iomadh faidhlichean</UploadTitle>
+  <UploadSimpleTab>Coitcheann</UploadSimpleTab>
+  <UploadSimpleReset>Ath-shuidhich</UploadSimpleReset>
+  <UploadSimpleUpload>A 'luchdadh suas</UploadSimpleUpload>
+  <UploadSimpleUploadFolderLabelCollapsed>A 'luchdadh suas am pasgan</UploadSimpleUploadFolderLabelCollapsed>
+  <UploadSimpleUploadFolderButtonText>Tagh pasgan</UploadSimpleUploadFolderButtonText>
+  <UploadJavaTab>Java</UploadJavaTab>
+  <UploadJavaIgnorePaths>Cur a h-uile faidhlichean ann an aon phasgan (leig seachad air frith-rathaidean)</UploadJavaIgnorePaths>
+  <UploadFlashTab>Flash</UploadFlashTab>
+  <UploadSilverlightTab>Silverlight</UploadSilverlightTab>
+  <UploadPartially>Tha cuid de na faidhlichean nach b 'urrainn a bhith air a luchdachadh suas</UploadPartially>
+  <UploadFolderNotSelectedTitle>Chan eil am pasgan a thaghadh</UploadFolderNotSelectedTitle>
+  <UploadFolderNotSelected>Tagh am pasgan gu bheil na faidhlichean a thèid a luchdachadh suas gu</UploadFolderNotSelected>
+  <UploadInProgress>Luchdachadh suas faidhlichean agad</UploadInProgress>
+  <UploadInvalidFormFields>Foirm-achaidhean dòcha nach chur a-steach mì-dhligheach le luachan</UploadInvalidFormFields>
+  <UploadAjaxFailed>Ajax conaltraidh Dh'fhàillig</UploadAjaxFailed>
+  <UploadFilesAlreadyExists>File (ean) ann mu thràth</UploadFilesAlreadyExists>
+  <UploadOverwriteFiles>Ann mar-thà faidhlichean Thèid brabhsair. A bheil thu airson leantainn air adhart?</UploadOverwriteFiles>
+  <UploadOverwriteOrRenameFiles>Tha aon no barrachd faidhlichean a fhreagras air an ainmean san eòlaire a shònraich thu. A bheil thu airson sgrìobhadh thairis air na faidhlichean a th 'ann? Briog air "{0}" ma tha thu airson sgrìobhadh thairis air an cheana faidhlichean, no "{1}" - ma tha thu airson a h-uile faidhlichean a shàbhaladh (iad Thèid ath-ainmeachadh).</UploadOverwriteOrRenameFiles>
+  <UploadNotModifyExistingFiles>Tha aon no barrachd faidhlichean a fhreagras air an ainmean san eòlaire a shònraich thu. Tha faidhlichean nach urrainn a bhith air a luchdachadh suas. Thoir air falbh na faidhlichean a th 'ann bho' luchdadh suas an liosta no rename orra.</UploadNotModifyExistingFiles>
+  <UploadRenamedExistingFiles>Tha aon no barrachd faidhlichean a fhreagras air an ainmean san eòlaire a shònraich thu. Faidhlichean a fhreagras air an Thèid ainmean-ath-ainmeachadh.</UploadRenamedExistingFiles>
+  <UploadNotAllowedTitle>A 'luchdadh suas Chan eil cead</UploadNotAllowedTitle>
+  <UploadNotAllowedPrompt>Chan urrainn dhut faidhlichean a luchdadh suas am pasgan seo</UploadNotAllowedPrompt>
+
+  <UploadMobileIOSVideo>Luchdaich suas bhidio. Ceadaich an roghainn seo, ma dh'fheumas tu a luchdadh suas faidhle bhidio.</UploadMobileIOSVideo>
+  <UploadMobileAurigmaLink>Thoiribh fa-near gum bu chòir dhuibh a bhith Aurigma Up! air a stàladh air uidheam agad ann gus faidhlichean a luchdadh suas. Thoir gnogag seo a stàladh Aurigma Up! iarrtais airson a 'luchdachadh suas ìomhaighean is bhidio.</UploadMobileAurigmaLink>
+  <UploadMobileAurigmaReady>An dèidh Aurigma Up! tha air a stàladh no ma tha thu mar-thà air a bhith ga stàladh, pàipearan-naidheachd an "upload" a 'phutan gu h-ìosal.</UploadMobileAurigmaReady>
+  <UploadMobileAurigmaFilePrefix>Ro-leasachan airson a luchdachadh suas faidhlichean</UploadMobileAurigmaFilePrefix>
+  <UploadMobileResult>Luchdaich suas thoradh air:</UploadMobileResult>
+  <UploadMobileUrlPlaceHolder>Cuir a-steach URL seo</UploadMobileUrlPlaceHolder>
+  <UploadMobileFileNamePlaceHolder>Cuir a-steach ainm ùr faidhle seo</UploadMobileFileNamePlaceHolder>
+  <UploadBrowseLabel>Rùraich ...</UploadBrowseLabel>
+  
+  <MobileToolTipsCaption>A bheil fios agad gu bheil ...</MobileToolTipsCaption>
+  <MobileToolTipsNextButton>An ath tip</MobileToolTipsNextButton>
+  <MobileToolTipsIKnowButton>Tha fios agam e</MobileToolTipsIKnowButton>
+  <MobileToolTipsHideButton>Never sealltainn</MobileToolTipsHideButton>
+  <MobileToolTipsMultiSelection>A thaghadh grunn faidhlichean, no pasgain, bu chòir dhuibh leigeil ioma-taghaidh modh le bhith a 'smaoineachadh air an &lt;b&gt; {0} &lt;/b&gt;' phutan. Thoir gnogag air a-rithist gus fàgail bho ioma-taghaidh modh.</MobileToolTipsMultiSelection>
+  <MobileToolTipsSlideToRemove>Faodaidh tu sleamhnachadh bho dheas gu clì air sam bith de liosta nithean a thoirt air falbh e. An inline thoir às a 'phutan Thèid a thaisbeanadh air mullach an liosta a' phìos.</MobileToolTipsSlideToRemove>
+  <MobileToolTipsTapAndHoldForMenu>Thoir gnogag agus a chumail air nithean sam bith de liosta a 'sealltainn na co-theacsa taice. Tha an aon cho-theacsa taice taisbeanadh le tap air a 'foillseachaidh a' phutan</MobileToolTipsTapAndHoldForMenu>
+  <MobileToolTipsDoubleTapForPreview>Singilte tap air faidhl gus a thaghadh, dùbailte tap airson ro-shealladh no luchdachadh a-nuas e. Singilte tap air pasgan gus fhosgladh.</MobileToolTipsDoubleTapForPreview>
+  <MobileToolTipsPullDownToRefresh>Pull sìos liosta gu luchdadh e na th 'ann.</MobileToolTipsPullDownToRefresh>
+  <MobileToolTipsPinchToScale>'S urrainn dhut a' cleachdadh 'gràinnean' gluasad-bodhaig gus gluasad a-steach agus gluasad a-mach ìomhaighean.</MobileToolTipsPinchToScale>
+  <MobileToolTipsTapToHideBars>Thoir gnogag air àite sam bith air an ìomhaigh pannal an sgrion gus gluasad bàraichean-inneal.</MobileToolTipsTapToHideBars>
+  <MobileToolTipsSlideLeftRightToNext>Switch ìomhaighean le sleamhnag gluasad-bodhaig.</MobileToolTipsSlideLeftRightToNext>
+
+  <DownloadToCloudMobileTip>Singilte tap pasgan a thaghadh, dùbailte tap gus fhosgladh.</DownloadToCloudMobileTip>
+  
+  <UploadTotalMaxSizeMessage>Thoir an aire! Tha meud as motha de na h-uile faidhlichean a luchdadh suas cha bu chòir nas motha {0}.</UploadTotalMaxSizeMessage>
+  <UploadOneFileMaxSizeMessage>Thoir an aire! Tha meud as motha de gach luchdadh suas faidhle nach bu chòir nas motha {0}.</UploadOneFileMaxSizeMessage>
+  <UploadUnlimitedSizeMessage>Thoir an aire! Tha meud na faidhlichean a luchdadh suas e chrìoch.</UploadUnlimitedSizeMessage>
+  <SimpleUploadSetFileNameNote>Note 2! An dèidh faidhle a thaghadh urrainn dhut atharrachadh an ainm gu bheil am faidhle bi dèidh upload</SimpleUploadSetFileNameNote>
+
+  <AnonymousUploadTitle>Faidhlichean a luchdadh suas am pasgan seo</AnonymousUploadTitle>
+  <AnonymousUploadDescription>'S urrainn dhut faidhlichean a luchdadh suas am pasgan seo. Briog air "rùraich" a 'phutan gu h-ìosal agus tagh faidhlichean.</AnonymousUploadDescription>
+  <AnonymousUploadOverwriteHint>Ma tha a 'luchdachadh suas faidhle ann mu thràth, bidh e na àite.</AnonymousUploadOverwriteHint>
+  <AnonymousUploadShowUploadHint>Seall luchdadh suas an riochd</AnonymousUploadShowUploadHint>
+  <AnonymousUploadHideUploadHint>Falaich luchdadh suas an riochd</AnonymousUploadHideUploadHint>
+  <AnonymousUploadNewFolderNameHint>Anns a 'mhachair gu h-ìosal urrainn dhut Sònraich subdirectory ainm (pasgan thèid a chruthachadh ma nach eil iad ann) anns a bheil na faidhlichean a thèid a luchdadh suas:</AnonymousUploadNewFolderNameHint>
+  <AnonymousUploadCompleteTitle>Luchdachadh suas dhan phasgan {0} a chrìochnachadh</AnonymousUploadCompleteTitle>
+  <AnonymousUploadExistsFilesMessage>Tha na leanas am faidhl (ean) Cha deach faidhle a luchdachadh suas air sgàth (ean) leis an aon ainm (ean) ann mar-thà: {0}.</AnonymousUploadExistsFilesMessage>
+  <AnonymousUploadOwnersNote>Nota bho am pasgan sealbhadair</AnonymousUploadOwnersNote>
+  <AnonymousDownloadPageTitle>Luchdaich a-nuas am faidhle</AnonymousDownloadPageTitle>
+  <AnonymousDownloadFileHint>Luchdaich a-nuas am faidhle</AnonymousDownloadFileHint>
+  <AnonymousUploadPageTitle>Luchdaich suas gu pasgan</AnonymousUploadPageTitle>
+  <AnonymousPublicFolderPageTitle>am pasgan poblach</AnonymousPublicFolderPageTitle>
+  <AnonymousLoginAccessUserFailure>Tha thu logadh a-steach ann an cunntas nach eil cothrom agad air an goireas. Cuir a-steach eile na teisteasan agaibh airson cothrom. Mur eil sibh eòlach orra, cuiribh fios gu an neach-seilbh poblach a tha a 'ceangal agad no rianadair.</AnonymousLoginAccessUserFailure>
+  <ProgressGettingAnonymLink>Phoblach ceangal cruthachadh</ProgressGettingAnonymLink>
+  <ProgressGettingAnonymLinks>Seòladh Anonymous ceanglaichean</ProgressGettingAnonymLinks>
+  <ProgressGettingBoxViewLink>Seòladh Box View cheangal</ProgressGettingBoxViewLink>
+  <AutodeskScriptNotIncludedMessage>Cha b 'urrainn load Autodesk Viewer sgriobt</AutodeskScriptNotIncludedMessage>
+  <ProgressUninitializeAutodeskViewer>Ceann-Autodesk Viewer</ProgressUninitializeAutodeskViewer>
+  <ProgressGettingAutodeskViewLink>Seòladh Autodesk View info</ProgressGettingAutodeskViewLink>
+  <AnonymousChangeLanguageHint>Tagh cànan</AnonymousChangeLanguageHint>
+  <AnonymousUpLinkHint>Till dhan duilleag a phàrant pasgan</AnonymousUpLinkHint>
+  <AnonymousPasswordDescription>Tha am pasgan a tha am facal-faire a dhìon</AnonymousPasswordDescription>
+  <AnonymousPasswordIncorrectMessage>Tha am facal-faire a tha ceàrr</AnonymousPasswordIncorrectMessage>
+  <AnonymousErrorTitle>Phoblach ceangal mearachd</AnonymousErrorTitle>
+  <AnonymousErrorNotFound>Phoblach cheangal "{0}" Chan eil a lorg!</AnonymousErrorNotFound>
+  <AnonymousErrorAccessDenied>Chan fheum thu cead cleachdadh an poblach cheangal "{0}"</AnonymousErrorAccessDenied>
+  <AnonymousErrorFileNotFound>Tha poblach cheangal "{0}" a 'buntainn ri neo-faidhle a th' ann no am pasgan no NTFS leughadh cothrom air àicheadh</AnonymousErrorFileNotFound>
+  <AnonymousErrorUnknownLinkType>Tha poblach cheangal "{0}" Cha deach a lorg</AnonymousErrorUnknownLinkType>
+  <AnonymousSendEmailSubject>Luchd-tadhail gnìomhachd poblach pasgan</AnonymousSendEmailSubject>
+  <AnonymousSendEmailUploadBody>Tha na leanas na faidhlichean a chaidh a luchdadh suas ri d 'am pasgan poblach {0}: {1}.</AnonymousSendEmailUploadBody>
+  <AnonymousSendEmailDownloadBody>Tha am faidhl {0} Chaidh luchdachadh a-nuas bho agaibh pasgan poblach {1}.</AnonymousSendEmailDownloadBody>
+  <AnonymousSendEmailZipDownloadBody>Tha fad susbaint am pasgan poblach {0} Chaidh luchdachadh a-nuas ann an zip tasglann.</AnonymousSendEmailZipDownloadBody>
+  <AnonymousViewLinksButton>View ceanglaichean</AnonymousViewLinksButton>
+  <AnonymousViewLinksHint>Airson coimhead air na ceanglaichean a th 'ann poblach</AnonymousViewLinksHint>
+  <AnonymousViewLinksWindowTitle>Phoblach ceanglaichean</AnonymousViewLinksWindowTitle>
+  <AnonymousViewLinksDateCreatedColumn>cruthachadh ceann-latha</AnonymousViewLinksDateCreatedColumn>
+  <AnonymousViewLinksDateExpiredColumn>Ceann-latha crìche</AnonymousViewLinksDateExpiredColumn>
+  <AnonymousViewLinksPermissionColumn>cead</AnonymousViewLinksPermissionColumn>
+  <AnonymousViewLinksDownloadedColumn>Àireamh chaidh a luchdadh a dh'fhàg</AnonymousViewLinksDownloadedColumn>
+  <ProgressDeletingAnonymousLink>Tha a 'ceangal a sguabadh às poblach</ProgressDeletingAnonymousLink>
+  <ProgressSavingAnonymousLink>Sàbhaladh poblach cheangal</ProgressSavingAnonymousLink>
+  <AnonymousEditLinkWindowTitle>Deasaich poblach ceangal airson "{0}"</AnonymousEditLinkWindowTitle>
+  <AnonymousEditLinkShowUrl>Seall cheangal</AnonymousEditLinkShowUrl>
+  <AnonymousEditLinkNotFound>Tha poblach ceangal Chan eil lorg no a LINN èifeachd dh'fhalbh an ùine air</AnonymousEditLinkNotFound>
+
+  <AnonymousLinkSendViaButton>Send tro ...</AnonymousLinkSendViaButton>
+  <AnonymousLinkSendViaEmailItem>Cuir post-dealain ...</AnonymousLinkSendViaEmailItem>
+  <AnonymousLinkSendButton>Send tro phost-d ...</AnonymousLinkSendButton>
+  <AnonymousLinkSendSubject>Web fhaidhle Manaidsear Phoblach Ceangal</AnonymousLinkSendSubject>
+
+  <AnonymousLinkAdvOptTitle>Bharrachd crìochan</AnonymousLinkAdvOptTitle>
+  <AnonymousLinkViewTypeButton>Ceangal sealladh</AnonymousLinkViewTypeButton>
+  <AnonymousLinkViewTypeDefault>Full</AnonymousLinkViewTypeDefault>
+  <AnonymousLinkViewTypeShort>goirid</AnonymousLinkViewTypeShort>
+
+  <AnonymousLinkShowCommentsLabel>Seall tuairisgeul, bileagan agus beachdan</AnonymousLinkShowCommentsLabel>
+  <AnonymousLinkShowCommentsShort>Seall beachdan</AnonymousLinkShowCommentsShort>
+
+  <QRCodeButton>QR code</QRCodeButton>
+
+  <AnonymousLinkLimitedAccessTitle>Tha cothrom cuibhrichte air</AnonymousLinkLimitedAccessTitle>
+  <AnonymousLinkLimitAccessCheckBox>Chuingealachadh a-mhàin cothrom a shònrachadh dhearbhadh luchd-cleachdaidh</AnonymousLinkLimitAccessCheckBox>
+  <AnonymousLinkLimitAccessTextArea>Clò-ainmean-cleachdaiche no puist-d (cromag sgaradh)</AnonymousLinkLimitAccessTextArea>
+  <AnonymousLinkLimitAccessSendCheckBox>Send brathan a shònrachadh luchd-cleachdaidh</AnonymousLinkLimitAccessSendCheckBox>
+  <AnonymousLinkLimitAccessPersMsgLabel>Teachdaireachd pearsanta (roghainneil)</AnonymousLinkLimitAccessPersMsgLabel>
+  <AnonymousLinkLimitAccessPassAndUsersMsg>Tha thu air a shònrachadh facal-faire agad agus luchd-cleachdaidh aig an aon àm-uasal gus an ceangal. Sònraich mas e do aon rud.</AnonymousLinkLimitAccessPassAndUsersMsg>
+  <AnonymousLinkLimitAccessUsersNotFound>Tha luchd-cleachdaidh:
+    {0}
+    chan eil ann</AnonymousLinkLimitAccessUsersNotFound>
+  <AnonymousLinkLimitAccessEmailsNotFound>Tha puist-d:
+    {0}
+    chan eil ann</AnonymousLinkLimitAccessEmailsNotFound>
+  <AnonymousLinkLimitAccessUsersEmailsNotFound>Tha luchd-cleachdaidh:
+    {0}
+    agus puist-dealain:
+    {1}
+    chan eil ann</AnonymousLinkLimitAccessUsersEmailsNotFound>
+
+  <AnonymousLinkUnableToCreate>Cha do ghabh ceangal a chruthachadh Anonymous</AnonymousLinkUnableToCreate>
+  <AnonymousLinkShortUrlLabel>Dèanaibh gliog an Ath-nuadhaich An ìomhaigheag (aig a 'bhonn air an làimh dheis) a dh'iarraidh goirid cheangal</AnonymousLinkShortUrlLabel>
+  <AnonymousLinkShortUrlUpdate>Faigh no ùrachadh goirid cheangal</AnonymousLinkShortUrlUpdate>
+  <AnonymousLinkLongUrlNotSpecified>Tha fada URL a shònrachadh nach</AnonymousLinkLongUrlNotSpecified>
+
+  <ClientFileOrDirectoryAlreadyExists>Tha am faidhl no eòlaire-ainm seo mu thràth</ClientFileOrDirectoryAlreadyExists>
+  <ClientPermissionsAllowTypes>Ceadan-dràsta a 'leigeil le seo obrachadh a-mhàin le na leanas na seòrsaichean faidhle {0}</ClientPermissionsAllowTypes>
+  <ClientPermissionsDenyTypes>-Dràsta ceadan seo a 'toirmeasg obrachadh le na leanas na seòrsaichean faidhle {0}</ClientPermissionsDenyTypes>
+  <OfficeApplicationNotFoundAlert>Oifis iarrtas nach lorg. Fosgail am faidhl làimh a 'cleachdadh ceangal ann bhogsa teacsa.</OfficeApplicationNotFoundAlert>
+  <OfficeAnonymousEditPublicLinkError>Cha ghabh a chruthachadh poblach a 'ceangal ri urra fosgailte oifis sgrìobhainn.</OfficeAnonymousEditPublicLinkError>
+
+  <GoogleOWAViewLinkMessage>Airson Faic an sgrìobhainn briog air a 'cheangal gu h-ìosal:</GoogleOWAViewLinkMessage>
+  <ZohoEditLinkMessage>Gus an sgrìobhainn a dheasachadh Cliog an ceangal gu h-ìosal:</ZohoEditLinkMessage>
+  <PixlrEditLinkMessage>A dheasachadh an ìomhaigh Cliog an ceangal gu h-ìosal:</PixlrEditLinkMessage>
+  <PixlrNewImageCreateTitle>Cruthaich ìomhaigh ùr le Pixlr</PixlrNewImageCreateTitle>
+  <PixlrNewImageLinkMessage>A 'cruthachadh ìomhaigh ùr, briog air a' cheangal gu h-ìosal:</PixlrNewImageLinkMessage>
+
+  <DownloadTitle>-Nuas ioma faidhlichean</DownloadTitle>
+  <DownloadSimpleTab>Coitcheann</DownloadSimpleTab>
+  <DownloadJavaTab>Java</DownloadJavaTab>
+  <DownloadIEPrevent>Internet Explorer casg air fèin-ghluasadach download</DownloadIEPrevent>
+  <DownloadIEClickHere>Cliog an seo gus luchdachadh a-nuas</DownloadIEClickHere>
+  <DownloadIEArchiveReady>Tasglann "{0}" a thagadh le faidhlichean a chruthachadh agus tha e deiseil airson download</DownloadIEArchiveReady>
+  <DownloadIECaption>Luchdaich a-nuas deiseil</DownloadIECaption>
+
+  <SettingsTitle>roghainnean</SettingsTitle>
+  <SettingsLanguage>cànain</SettingsLanguage>
+  <SettingsLogOutRequired>New tèid atharrachaidhean a chur an gnìomh an dèidh logout no brabhsair tòisichibh a-rithist!</SettingsLogOutRequired>
+  <ThemeTitle>atharrachadh Theme</ThemeTitle>
+  <SettingsTheme>Tagh Theme</SettingsTheme>
+  <ThemeDefaultTitle>Default Theme</ThemeDefaultTitle>
+  <ThemeGrayTitle>Gray Theme</ThemeGrayTitle>
+  <ThemeAccessTitle>Ruigsinneachd Theme</ThemeAccessTitle>
+
+  <ChangeUserPasswordTitle>Atharrachadh fhacal-fhaire</ChangeUserPasswordTitle>
+  <ChangeUserPasswordOldPassword>seann fhacal-faire</ChangeUserPasswordOldPassword>
+  <ChangeUserPasswordNewPassword>facal-faire ùr</ChangeUserPasswordNewPassword>
+  <ChangeUserPasswordRepeatNewPassword>Repeat facal-faire ùr</ChangeUserPasswordRepeatNewPassword>
+  <ChangeUserPasswordPasswordsNotMatch>-Faire nach eil co-ionnan.</ChangeUserPasswordPasswordsNotMatch>
+  <ChangeUserPasswordSuccessMessage>Facal-faire air a bhith air atharrachadh.</ChangeUserPasswordSuccessMessage>
+  <ChangeUserPasswordInvalidMessage>Mì-dhligheach facal-faire.</ChangeUserPasswordInvalidMessage>
+
+  <ChangeUserEmailTitle>Atharrachadh cleachdaidh post-d</ChangeUserEmailTitle>
+  <ChangeUserEmailEmail>Post-d</ChangeUserEmailEmail>
+  <ChangeUserEmailSuccessMessage>Post-d air a bhith air atharrachadh.</ChangeUserEmailSuccessMessage>
+
+  <UserHelpTitle>Cleachdaiche cuideachadh</UserHelpTitle>
+
+  <LicenseTitle>License fiosrachaidh</LicenseTitle>
+  <LicenseTrial>Unregistered 30-latha mheasadh dreach</LicenseTrial>
+  <LicensePrompt>Fo cheadachas dreach {0} Users Cunntas fhaclan: {1} {0} Ceannach ruige seo: {2} {0}</LicensePrompt>
+  <LicenseFreeUpgradeMessage>Agaibh fhathast {0} làithean an-asgaidh ùrachadh is taic.</LicenseFreeUpgradeMessage>
+  <LicenseCheckMessage>Còrr is bliadhna air a dhol seachad bhon cheann-latha a chaidh an ceannach. Gus seo a chleachdadh dreach bu chòir dhuibh ùrachadh fho-sgrìobhaidh agad no downgrade gu tionndadh nas sine. 'S urrainn dhut sùil air ur cead fhaotainn agus lorg fhuasglaidhean aig &lt;a href='{0}' target='_blank'&gt; Check License duilleag &lt;/a&gt;</LicenseCheckMessage>
+  
+  <ViewPopupBlocked>An uinneag ùr air a bhith dùinte le popup Blocker</ViewPopupBlocked>
+  
+  <LoginTwoFactorTitle>Dà-cheum fìreanachadh</LoginTwoFactorTitle>
+  <LoginTitle>login</LoginTitle>
+  <LoginRemember>Cuimhnich dhomh an ath thuras</LoginRemember>
+  <LoginUISelect>Interface</LoginUISelect>
+  <LoginUIStandard>Coitcheann</LoginUIStandard>
+  <LoginUITouch>-làimhe</LoginUITouch>
+  <LoginLanguage>cànain</LoginLanguage>
+  <LoginLogin>login</LoginLogin>
+  <LoginFailure>Do logadh a-steach oidhirp nach robh soirbheachail.</LoginFailure>
+  <LoginBlocked>Tha an cunntas bacte. Fuirich {0} mionaid gus feuchainn a-rithist.</LoginBlocked>
+  <LoginNotActivated>Tha an cunntas agad nach chur an gnìomh.</LoginNotActivated>
+  <LoginResendActivation>Ma tha teachdaireachd le còd gnìomhachaidh nach eil a fhuair iad airson ùine fhada, briog air {0} 'ceangal ri resend còd gnìomhachaidh.</LoginResendActivation>
+  <LoginResendActivationLink>chur còd gnìomhachaidh</LoginResendActivationLink>
+  <LoginResendActivationCode>Put air {0} 'ceangal ri resend còd gnìomhachaidh.</LoginResendActivationCode>
+  
+  <ActivateAccountOk>Cunntas soirbheachail a chur an gnìomh!</ActivateAccountOk>
+  <ActivateAccountResultLabel>cur thuige thoradh</ActivateAccountResultLabel>
+  <ActivateAccountErrorOnlyFormsAuth>Cunntas cur thuige a dh'fhaodar a chleachdadh a-mhàin le Foirmean dearbhaidh</ActivateAccountErrorOnlyFormsAuth>
+  <ActivateAccountErrorNotRequired>Cunntas cur thuige Tha comas ann an iarrtas roghainnean. Tha an cunntas gu fèin-obrachail a chur an gnìomh an dèidh a 'chlàraidh.</ActivateAccountErrorNotRequired>
+  <ActivateAccountErrorAlreadyActivated>Cunntas mar-thà a chur an gnìomh</ActivateAccountErrorAlreadyActivated>
+  <ActivateAccountErrorInvalidCode>Còd gnìomhachaidh Chan eil dligheach</ActivateAccountErrorInvalidCode>
+  <ActivateAccountErrorAccountNotFound>Chan eil cunntas lorg</ActivateAccountErrorAccountNotFound>
+  <ActivateAccountErrorLinkBroken>Cur thuige a 'ceangal briste</ActivateAccountErrorLinkBroken>
+  <ActivateAccountReturnToLogin>Till dhan duilleag-login</ActivateAccountReturnToLogin>
+  
+  <LoginRender>render</LoginRender>
+  
+  <LogoutTitle>Lìon am manaidsear fhaidhlichean Logout</LogoutTitle>
+  <LogoutSessionEnded>An t-seisean a thoirt gu crìch</LogoutSessionEnded>
+  <LogoutCloseWindow>Dùin an uinneag</LogoutCloseWindow>
+  <LogoutEnterAgain>Log a-rithist</LogoutEnterAgain>
+  <LogoutClosingBrowserRequired>Aire! Faodaidh duine sam bith logadh a-steach fo cunntas agad! Ma tha thu a 'cleachdadh coimpiutair co-roinnte, bu chòir dhuibh ur dùin uinneag shealladar (chan ann dìreach an taba) gus dearbhaidh ann am brabhsair agad! Firefox airson brabhsair faodaidh tu gearradh dearbhaidh aig taice: Tools-&gt; Soilleir Resent Eachdraidh ...-&gt; Details-&gt; sùil Gnìomhach Logins-&gt; naidheachd Soilleir nis.</LogoutClosingBrowserRequired>
+  <RecoverPasswordTitle>ais am facal-faire</RecoverPasswordTitle>
+  <RecoverPasswordEmailPassword>Cuir am facal-faire tro phost-dealain</RecoverPasswordEmailPassword>
+  <RecoverPasswordErrorInvalidUserName>-Ainm-cleachdaiche mì-dhligheach.</RecoverPasswordErrorInvalidUserName>
+  <RecoverPasswordErrorNoEmail>Tha an cleachdaiche seo eil seòladh puist-d a mhìneachadh.</RecoverPasswordErrorNoEmail>
+  <RecoverPasswordErrorSendEmail>Thachair mearachd fhad 'sa bha a' cur puist-d agad.</RecoverPasswordErrorSendEmail>
+  <RecoverPasswordSuccess>Facal-faire agad a chur gu seòladh puist-d.</RecoverPasswordSuccess>
+
+  <RecoverUserNameTitle>fhaighinn air ais ainm</RecoverUserNameTitle>
+  <RecoverUserEmailName>Send ainm tro phost-dealain</RecoverUserEmailName>
+  <RecoverUserNameErrorInvalidEmail>Mì-dhligheach cleachdaidh post-d.</RecoverUserNameErrorInvalidEmail>
+  <RecoverUserNameErrorNoEmail>Seòladh puist-d a lorg.</RecoverUserNameErrorNoEmail>
+  <RecoverUserNameSuccess>Ur n-ainm a chur gu seòladh puist-d.</RecoverUserNameSuccess>
+
+  <ChangeEmailTitle>atharrachadh post-d</ChangeEmailTitle>
+  <ChangeEmailEmail>New post-d</ChangeEmailEmail>
+  <ChangeEmailSubmit>Cuir a-steach</ChangeEmailSubmit>
+  <ChangeEmailStatusSuccess>Post-d air a bhith air atharrachadh</ChangeEmailStatusSuccess>
+
+  <RegisterTitle>Clàr</RegisterTitle>
+  <RegisterEmail>Cuir post-dealain</RegisterEmail>
+  <RegisterExtraInfo>Extra info</RegisterExtraInfo>
+  <RegisterCaptcha>Cuir a-steach an teacsa a chì thu san dealbh gu h-ìosal</RegisterCaptcha>
+  <RegisterSubmit>Cuir a-steach</RegisterSubmit>
+  <RegisterErrorPasswordNotMatch>-Faire nach eil co-ionnan.</RegisterErrorPasswordNotMatch>
+  <RegisterErrorUserExists>Tha seo a-ainm-cleachdaiche no an seòladh puist-d a tha mar-thà a chleachdadh.</RegisterErrorUserExists>
+  <RegisterErrorCaptchaInvalid>Ìomhaigh Teacsa a-steach nach robh ceart</RegisterErrorCaptchaInvalid>
+  <RegisterSuccess>Cleachdaiche ùr a chur ris.</RegisterSuccess>
+  <RegisterActivationSent>Còd gnìomhachaidh a chur gu post-d agad.</RegisterActivationSent>
+  <RegisterActivationCheckEmail>Thoiribh sùil air ur bogsa d (gu sònraichte am pasgan sgudal) agus a 'leantainn stiùiridhean ann am post-d.</RegisterActivationCheckEmail>
+  
+  <FolderGridUserPermissionsColumn>Cothrom do luchd-cleachdaidh</FolderGridUserPermissionsColumn>
+  <FolderGridGroupPermissionsColumn>Cothrom do bhuidhnean</FolderGridGroupPermissionsColumn>
+
+  <LoginLinkText>login</LoginLinkText>
+  <RecoverPasswordLinkText>-Brath TV?</RecoverPasswordLinkText>
+  <RecoverUserNameLinkText>Brath-ainm?</RecoverUserNameLinkText>
+  <RegisterLinkText>Clàr</RegisterLinkText>
+  <ChangeEmail>atharrachadh post-d</ChangeEmail>
+  <LoginMobileVersionLinkText>Dreach gluasadach (chuid as motha de na fònaichean sgairteil agus Touchpads)</LoginMobileVersionLinkText>
+
+  <FileIsNotZipArchive>Tha am faidhl {0} Chan eil zip tasglann</FileIsNotZipArchive>
+
+  <FileModificationsAuthor>Author</FileModificationsAuthor>
+  <FileModificationsHistory>Seall an eachdraidh</FileModificationsHistory>
+  <FileModificationsWindowTitle>Atharrachaidhean an fhaidhle "{0}"</FileModificationsWindowTitle>
+  <FileModificationsTypeCreated>a chruthachadh</FileModificationsTypeCreated>
+  <FileModificationsTypeModified>mhùthadh</FileModificationsTypeModified>
+  <FileModificationsTypeRenamed>ath-ainmeachadh</FileModificationsTypeRenamed>
+  <FileModificationsTypeRestored>ath-nuadhachadh</FileModificationsTypeRestored>
+  <FileModificationsTypeDeleted>a sguabadh às</FileModificationsTypeDeleted>
+
+  <ChangingReadOnlyProgressMessage>Ag atharrachadh a 'leughadh a-mhàin buadha</ChangingReadOnlyProgressMessage>
+
+  <ImageViewerWindowTitle>Ìomhaigh Viewer [{0}]</ImageViewerWindowTitle>
+  <ImageViewerLoadingMessage>Luchdachadh ìomhaigh-coimhid</ImageViewerLoadingMessage>
+  <ImageViewerLoadingImageMessage>Luchdachadh ìomhaigh</ImageViewerLoadingImageMessage>
+  <ImageViewerFirstImageTip>A 'chiad dealbh</ImageViewerFirstImageTip>
+  <ImageViewerPreviousImageTip>roimhe ìomhaigh</ImageViewerPreviousImageTip>
+  <ImageViewerRefreshTip>Ath-nuadhaich ìomhaighean liosta</ImageViewerRefreshTip>
+  <ImageViewerNextImageTip>An ath-ìomhaigh</ImageViewerNextImageTip>
+  <ImageViewerLastImageTip>Air ìomhaigh</ImageViewerLastImageTip>
+  <ImageViewerRunSlideShow>Ruith ìomhaighean Taisbeanadh shleamhnagan</ImageViewerRunSlideShow>
+  <ImageViewerStopSlideShow>Stad dealbhan Taisbeanadh shleamhnagan</ImageViewerStopSlideShow>
+  <ImageViewerImageSimpleInfo>{0} / {1} {2} ({3})</ImageViewerImageSimpleInfo>
+  <ImageViewerImageLoadErrorMessage>Tha an dealbh cha robh lorg no nach gabh a thaisbeanadh</ImageViewerImageLoadErrorMessage>
+  <ImageViewerShowImageSizeOfWindow>Seall dealbh le fìor meud</ImageViewerShowImageSizeOfWindow>
+  <ImageViewerShowRealImageSize>Briog air gus a dhèanamh nas motha</ImageViewerShowRealImageSize>
+
+  <PasswordExpiresTitle>Falbhaidh an ùine air an fhacal-fhaire</PasswordExpiresTitle>
+  <PasswordExpiresMessage>Falbhaidh an ùine air an fhacal-fhaire agad dèidh {0} latha (ean)!</PasswordExpiresMessage>
+  <PasswordExpiredMessage>Dh'fhalbh an ùine air an fhacal-fhaire agad.</PasswordExpiredMessage>
+  <PasswordChangeMessage>Gus facal-faire atharrachadh, tagh {0} {1} -&gt; {2} {3} air a 'bhàr-inneal.</PasswordChangeMessage>
+
+  <UnzipContentTotalFiles>Iomlan faidhlichean: {0} ({1})</UnzipContentTotalFiles>
+
+  <VideoConversionJobNotFound>
+    Cha lorg àireach iompachadh phròiseas.
+    A bhith nan adhbharan:
+    1. Conversion a chrìochnachadh o chionn fhada agus fiosrachadh mu dheidhinn an obair seo a thoirt air falbh.
+    2. Tha atharrachadh crìoch a chur air a 'phròiseas àbhaisteach.
+  </VideoConversionJobNotFound>
+  <VideoConversionUtilityNotFound>Cha lorg utility a 'coileanadh an obrachadh a chaidh iarradh: {0}</VideoConversionUtilityNotFound>
+  <!-- The current security principal "{0}" has insufficiant permissions to executable file "{1}".-->
+  <VideoConversionUtilityInsufficientPermissions>An-dràsta 'chleachdaiche "{0}" a dhiùltadh cothrom executable faidhle "{1}".</VideoConversionUtilityInsufficientPermissions>
+  <VideoConversionOperationCancelled>Operation dhubhadh</VideoConversionOperationCancelled>
+  <VideoConversionUtilityFailed>Conversion-shòghail air crìoch a chur air neo-àbhaisteach</VideoConversionUtilityFailed>
+  <VideoConversionOutputFileBusy>Species faidhle ga chleachdadh le atharrachadh pròiseas eile</VideoConversionOutputFileBusy>
+
+  <VideoConvertWindowValidatorPositiveInt>Feumar dheimhinneach integer</VideoConvertWindowValidatorPositiveInt>
+  <VideoConvertWindowTitle>Convert bhidio</VideoConvertWindowTitle>
+  <VideoConvertWindowInputFile>Input faidhle</VideoConvertWindowInputFile>
+  <VideoConvertWindowOutputFile>Species faidhle</VideoConvertWindowOutputFile>
+  <VideoConvertWindowOutputFormat>Species Inneal a 'Chlàir</VideoConvertWindowOutputFormat>
+  <VideoConvertWindowBitrate>Bitrate (Kbps)</VideoConvertWindowBitrate>
+  <VideoConvertWindowFrameResolution>Frame rùn</VideoConvertWindowFrameResolution>
+  <VideoConvertWindowDAR>Taisbeanadh nì co-mheas</VideoConvertWindowDAR>
+  <VideoConvertWindowPAR>Pixel nì co-mheas</VideoConvertWindowPAR>
+  <VideoConvertWindowResize>teacsa an sgrion ath</VideoConvertWindowResize>
+  <VideoConvertWindowProfile>Cunntas</VideoConvertWindowProfile>
+  <VideoConvertWindowWidth>width</VideoConvertWindowWidth>
+  <VideoConvertWindowHeight>àirde</VideoConvertWindowHeight>
+  <VideoConvertWindowExtractDetailsProgressMsg>Tarraing bhidio fhiosrachadh</VideoConvertWindowExtractDetailsProgressMsg>
+  <VideoConvertWindowOutputFileExistsTitle>Species ann am faidhl</VideoConvertWindowOutputFileExistsTitle>
+  <VideoConvertWindowOutputFileExistsMsg>Species faidhle ann mu thràth. Thèid brabhsair.</VideoConvertWindowOutputFileExistsMsg>
+  <VideoConvertWindowPrepareToConvert>Ag ullachadh bhidio airson iompachadh</VideoConvertWindowPrepareToConvert>
+  <VideoConvertWindowOutputFileMatchInputFile>Species faidhle ainm matches-steach ainm faidhle</VideoConvertWindowOutputFileMatchInputFile>
+
+  <VideoConvertProgressWindowTitle>Convert bhidio</VideoConvertProgressWindowTitle>
+  <VideoConvertProgressWindowInputFile>Input faidhle</VideoConvertProgressWindowInputFile>
+  <VideoConvertProgressWindowOutputFile>Species faidhle</VideoConvertProgressWindowOutputFile>
+  <VideoConvertProgressWindowStatus>inbhe</VideoConvertProgressWindowStatus>
+  <VideoConvertProgressWindowStatusTerminating>Crìochnachadh</VideoConvertProgressWindowStatusTerminating>
+  <VideoConvertProgressWindowStatusPreparing>Ag ullachadhlìon</VideoConvertProgressWindowStatusPreparing>
+  <VideoConvertProgressWindowStatusProgress>Ceum {0} {1} de</VideoConvertProgressWindowStatusProgress>
+  <VideoConvertProgressWindowStatusDone>Deiseil</VideoConvertProgressWindowStatusDone>
+
+  <PlayHtml5VideoNotSupported>Bhrobhsair agad Chan eil taic an HTML 5 bhidio eileamaid.</PlayHtml5VideoNotSupported>
+  <PlayHtml5VideoPlayFailed>Play bhidio Dh'fhàillig</PlayHtml5VideoPlayFailed>
+  <PlayHtml5AudioPlayFailed>Cluich èisteachd Dh'fhàillig</PlayHtml5AudioPlayFailed>
+  <PlayHtml5AudioTitle>Tiotal a 'Chlàir</PlayHtml5AudioTitle>
+  <PlayHtml5AudioNotSupported>Bhrobhsair agad Chan eil taic an HTML 5 èisteachd eileamaid.</PlayHtml5AudioNotSupported>
+  <PlayHtml5AudioArtist>Artist</PlayHtml5AudioArtist>
+  <PlayHtml5AudioAlbum>Leabhar-dhealbh</PlayHtml5AudioAlbum>
+  <PlayHtml5AudioYear>Bliadhna</PlayHtml5AudioYear>
+  <PlayHtml5AudioDuration>Faid</PlayHtml5AudioDuration>
+  <PlayHtml5AudioBitrate>Bitrate</PlayHtml5AudioBitrate>
+  <PlayHtml5AudioVolume>volume</PlayHtml5AudioVolume>
+
+  <!-- Root title -->
+  <RootTitle>freumh</RootTitle>
+
+  <!-- Recent feature keys -->
+  <RecentRootTitle>Tachartasan</RecentRootTitle>
+  <RecentDeleteOnePrompt>A bheil thu cinnteach gu bheil thu airson an sguabadh às "{0}" bho chionn ghoirid agad ris?</RecentDeleteOnePrompt>
+  <RecentDeleteManyPrompt>A bheil thu cinnteach gu bheil thu airson seo a sguabadh às {0} nithean bho sibh o chionn ghoirid sa?</RecentDeleteManyPrompt>
+  <RecentPathNotExist>Tha am frith-rathad o chionn ghoirid "{0}" Chan eil ann no cothrom air àicheadh</RecentPathNotExist>
+  <RecentAllWithoutGroupingTitle>A h-uile w / o 'bhuidhneachaidh b'</RecentAllWithoutGroupingTitle>
+  <RecentEditGroupTitle>deasaichte</RecentEditGroupTitle>
+  <RecentViewGroupTitle>Ma chitheas</RecentViewGroupTitle>
+  <RecentDownloadGroupTitle>luchdachadh a-nuas</RecentDownloadGroupTitle>
+  <RecentUploadGroupTitle>luchdachadh suas</RecentUploadGroupTitle>
+  <RecentCreateGroupTitle>a chruthachadh</RecentCreateGroupTitle>
+
+  <!-- Trash feature keys -->
+  <TrashRootTitle>Sgudal</TrashRootTitle>
+  <TrashLabelDateDeleted>Ceann-là a sguabadh às</TrashLabelDateDeleted>
+  <TrashDeleteOnePrompt>A bheil thu cinnteach gu bheil thu airson an sguabadh às gu buan "{0}" bho Sgudal?</TrashDeleteOnePrompt>
+  <TrashDeleteManyPrompt>A bheil thu cinnteach gu bheil thu airson seo a sguabadh às gu buan {0} nithean bho Sgudal?</TrashDeleteManyPrompt>
+  <TrashEmptyTrashLabel>Empty Sgudal</TrashEmptyTrashLabel>
+  <TrashRestoreSelectedLabel>air ais</TrashRestoreSelectedLabel>
+  <TrashRestoreAllLabel>air ais a h-uile</TrashRestoreAllLabel>
+  <TrashEmptyTrashPrompt>A bheil thu cinnteach gu bheil thu airson falamhaich Sgudal?</TrashEmptyTrashPrompt>
+  <TrashRestoreAllPrompt>A bheil thu cinnteach gu bheil thu airson a h-uile nithean air ais bho Sgudal?</TrashRestoreAllPrompt>
+  <TrashProgressRestoring>Fhaighinn air ais bho Sgudal</TrashProgressRestoring>
+  <TrashFolderNotFound>Sgudal eòlaire cha d 'fhuaradh</TrashFolderNotFound>
+  <TrashBalloonRestored>Ath-nuadhachadh nithean: {0} {1} de</TrashBalloonRestored>
+  <TrashDeleteDirectlyLabel>Sguab às dìreach gun a thoirt air falbh dhan Sgudal</TrashDeleteDirectlyLabel>
+  <TrashUsedSpaceHint>{0} a chleachdadh</TrashUsedSpaceHint>
+  <TrashLimitSizeHint>Cleachdadh {0} de {1} ({2})</TrashLimitSizeHint>
+  <TrashLargeItemsShelfTimeHint>Tha an stòraidh àm na nithean a tha nas motha na {0}: {1} latha (ean)</TrashLargeItemsShelfTimeHint>
+  <TrashSmallItemsShelfTimeHint>Airson a h-uile daoine eile: {0} latha (ean)</TrashSmallItemsShelfTimeHint>
+  <TrashItemsShelfTimeHint>Tha an stòraidh àm na nithean: {0} latha (ean)</TrashItemsShelfTimeHint>
+  <TrashAvailableSpaceHint>As àirde tron ​​ri fhaotainn meud {0}</TrashAvailableSpaceHint>
+  <TrashDeletedFromFolderHint>A sguabadh às {0}</TrashDeletedFromFolderHint>
+  <TrashExceededMessage>Na cuspairean a leanas a tha ro mhòr agus chan urrainn a bhith suidhichte dhan Sgudal (cuibhreachadh air {0} a dhol thairis air):</TrashExceededMessage>
+  <TrashErrorSuffixMessage>Feuch sùil air an roghainn "{0}" agus an uair sin a sguabadh às faidhl (ean) air ais nas fhaide air falbh gu bràth</TrashErrorSuffixMessage>
+
+  <!-- Shared by link -->
+  <SharedByLinkRootTitle>Co-roinnte le ceangal</SharedByLinkRootTitle>
+
+  <!-- Shared for you -->
+  <SharedForYouRootTitle>Co-roinnte le thu</SharedForYouRootTitle>
+  <SharedForYouUnableToGetUrl>Chan fhaigheadh ​​e URL</SharedForYouUnableToGetUrl>
+
+  <!-- Watch for modifications -->
+  <WatchForModifsCommand>Coimhead airson mion-atharrachaidhean</WatchForModifsCommand>
+  <WatchForModifsStartCommand>Tòisich a 'coimhead</WatchForModifsStartCommand>
+  <WatchForModifsEditCommand>atharrachadh a 'coimhead</WatchForModifsEditCommand>
+  <WatchForModifsStopCommand>stad a 'coimhead</WatchForModifsStopCommand>
+  <WatchForModifsViewChangesCommand>View atharrachaidhean</WatchForModifsViewChangesCommand>
+  <WatchForModifsSubscriptionSuccessMessage>Tha thu air na fo-sgrìobhadh agad gu soirbheachail airson atharrachaidhean ri "{0}"</WatchForModifsSubscriptionSuccessMessage>
+  <WatchForModifsStopSuccessMessage>Tha an sgrùdadh "{0}" a bhith air a chur à comas gu soirbheachail</WatchForModifsStopSuccessMessage>
+  <WatchForModifsIncludingNestedLabel>Beachdaich air neadaichte faidhlichean, pasgain</WatchForModifsIncludingNestedLabel>
+  <WatchForModifsParentWatchExistMessage>Airson taghadh a 'phìos air a bhith air a shònrachadh mar-thà a' cumail sùil airson an pàrant am pasgan "{0}".</WatchForModifsParentWatchExistMessage>
+  <WatchForModifsRootFolder>Tìr</WatchForModifsRootFolder>
+  <WatchForModifsStartProgressLoading>Ceadaich a 'coimhead</WatchForModifsStartProgressLoading>
+  <WatchForModifsStopProgressLoading>Terminatie coimhead</WatchForModifsStopProgressLoading>
+  <WatchForModifsIconHint>Comas faire airson mion-atharrachaidhean</WatchForModifsIconHint>
+  <WatchForModifsNotifCheckBox>Fios mu atharrachaidhean le puist-d:</WatchForModifsNotifCheckBox>
+  <WatchForModifsWatchedUsersCheckBox>Sùil a chumail a-mhàin luchd-cleachdaidh (fhàgail bàn ma tha thu a 'cumail sùil air a h-uile):</WatchForModifsWatchedUsersCheckBox>
+  <WatchForModifsIgnoreOwnerCheckBox>Leig leam fhìn atharrachaidhean</WatchForModifsIgnoreOwnerCheckBox>
+  <WatchForModifsActionsCheckBox>Sùil a chumail air a h-uile gnìomh (no an cuid de na gnìomhan bhon liosta gu h-ìosal)</WatchForModifsActionsCheckBox>
+  <WatchForModifsNestedItemsWarning>Aire! Nuair a bhios tu ris a 'cumail sùil airson an pasgan a thaghadh, a h-uile dùinte agus faidhlichean pasganan fa leth a tha a' cumail sùil air a chur ris na bu tràithe, a 'sgrùdadh thèid a thoirt air falbh. Am bu toil leat leantainn air adhart?</WatchForModifsNestedItemsWarning>
+
+  <WelcomeWindowHideCheckboxLabel>Chan eil seo a 'sealltainn le ath logadh ann</WelcomeWindowHideCheckboxLabel>
+
+  <LogsGridMoreInfoColumn>Tuilleadh fiosrachaidh</LogsGridMoreInfoColumn>
+  <LogsGridDetailsTitle>Fiosrachadh</LogsGridDetailsTitle>
+  <LogsGridPhysPathColumn>Physical frith-rathad</LogsGridPhysPathColumn>
+  <LogsGridIsFolderColumn>Folder?</LogsGridIsFolderColumn>
+  <LogsGridIsPublicColumn>Phoblach?</LogsGridIsPublicColumn>
+  <LogsGridByWebDavColumn>WebDAV?</LogsGridByWebDavColumn>
+
+  <NoCommentsYetHint>No comments fhathast</NoCommentsYetHint>
+  <NoHistoryYetHint>Chan eil eachdraidh fhathast</NoHistoryYetHint>
+
+  <DetailsPropertyValuesCouldNotBeWritten>Dh'fhàillig a shàbhaladh seilbh luachan, mabe am faidhle seòrsa Chan eil taic leithid comasach no a tha mearachd ann an tagradh co-cheangailte ri faidhle.</DetailsPropertyValuesCouldNotBeWritten>
+
+  <AdminCommandHelp>Cuidich</AdminCommandHelp>
+  <AdminCommandAddUser>Cuir cleachdaidh</AdminCommandAddUser>
+  <AdminCommandAddGroup>Cuir buidheann</AdminCommandAddGroup>
+  <AdminCommandRemoveUser>Thoir air falbh an luchd-cleachdaidh</AdminCommandRemoveUser>
+
+  <AdminCommandSelectUsers>Cuir luchd-cleachdaidh</AdminCommandSelectUsers>
+  <AdminCommandSelectGroups>Cuir buidhnean</AdminCommandSelectGroups>
+  <AdminCommandRemoveUsers>Thoir air falbh an luchd-cleachdaidh</AdminCommandRemoveUsers>
+  <AdminCommandRemoveGroups>Thoir air falbh na buidhnean</AdminCommandRemoveGroups>
+  <AdminUsersGroups>ball de</AdminUsersGroups>
+  <AdminSearchUserEmptyText>Cuir a-steach an neach-cleachdaidh ainm</AdminSearchUserEmptyText>
+  <AdminSearchGroupEmptyText>Cuir a-steach ainm a 'bhuidhinn</AdminSearchGroupEmptyText>
+  <AdminUsersGroupAlreadyExists>A 'bhuidheann (an) seo le ainm (ean) mar-thà air a chur ris</AdminUsersGroupAlreadyExists>
+
+  <AdminApplicationLoading>Rianachd pannal loading</AdminApplicationLoading>
+  <AdminTitle>rianachd</AdminTitle>
+  <AdminUsersEditUser>Deasaich cleachdaidh</AdminUsersEditUser>
+  <AdminUsersSetUserPassword>Set am facal-faire</AdminUsersSetUserPassword>
+  <AdminUsersViewGroups>View buidhnean</AdminUsersViewGroups>
+  <AdminUsersViewFolders>View pasgannan</AdminUsersViewFolders>
+  <AdminUsersDeleteUserPrompt>A bheil thu cinnteach gu bheil thu airson a thoirt air falbh cleachdaiche (ean) "{0}"?</AdminUsersDeleteUserPrompt>
+  <AdminUsersDeletedUsers>{0} cleachdaiche (ean) a sguabadh às.</AdminUsersDeletedUsers>
+  <AdminUsersUserNotFound>Tha neach-cleachdaidh ainm seo cha robh lorg</AdminUsersUserNotFound>
+  <AdminUsersPropertiesTitle>Cleachdaiche seilbhean</AdminUsersPropertiesTitle>
+  <AdminUsersSetPasswordTitle>Set fhacal-fhaire</AdminUsersSetPasswordTitle>
+  <AdminUsersGeneralInfo>Cleachdaiche fiosrachaidh</AdminUsersGeneralInfo>
+  <AdminUsersUserEmail>Cuir post-dealain</AdminUsersUserEmail>
+  <AdminUsersEmptyName>Ainm neach-cleachdaidh nach urrainn a bhith falamh</AdminUsersEmptyName>
+  <AdminUsersEmptyPassword>Cleachdaiche facal-faire nach urrainn a bhith falamh</AdminUsersEmptyPassword>
+  <AdminUsersIncorrectName>Tha mearachdach samhlaidhean ann an ainm neach-cleachdaidh</AdminUsersIncorrectName>
+  <AdminUsersAlreadyExists>Cleachdaiche leis an ainm seo ann mu thràth</AdminUsersAlreadyExists>
+  <AdminUsersEmailAlreadyExists>Cleachdaiche seo le post-d mu thràth</AdminUsersEmailAlreadyExists>
+  <AdminUsersPasswordsNotMatch>-Faire nach eil co-ionnan</AdminUsersPasswordsNotMatch>
+  <AdminUsersRenameWarning>An dèidh renaming cleachdaiche e riatanach atharrachadh am facal-faire, a chaochladh an-dràsta-lìn pasgannan 'ceangal a bhios ceàrr</AdminUsersRenameWarning>
+  <AdminUsersLicenseRestriction>Do cead chan eil cothrom dhut a chruthachadh barrachd {0} luchd-cleachdaidh</AdminUsersLicenseRestriction>
+  <AdminUsersCountInfoWithLimit>Luchd-cleachdaidh uile gu lèir: {0}-mach à {1}</AdminUsersCountInfoWithLimit>
+  <AdminUsersCountInfo>Luchd-cleachdaidh uile gu lèir: {0}</AdminUsersCountInfo>
+
+  <AdminGroupsEditGroup>Deasaich buidheann</AdminGroupsEditGroup>
+  <AdminGroupsRemoveGroup>Thoir air falbh am buidheann</AdminGroupsRemoveGroup>
+  <AdminGroupsDeleteGroupPrompt>A bheil thu cinnteach gu bheil thu airson a thoirt air falbh buidheann (ean) "{0}"?</AdminGroupsDeleteGroupPrompt>
+  <AdminGroupsDeletedGroups>{0} buidheann (ean) a sguabadh às.</AdminGroupsDeletedGroups>
+  <AdminGroupsGroupNotFound>A 'bhuidheann-ainm seo a lorg</AdminGroupsGroupNotFound>
+  <AdminGroupsViewUsers>Faic an luchd-cleachdaidh</AdminGroupsViewUsers>
+  <AdminGroupsProperties>Properties</AdminGroupsProperties>
+  <AdminGroupsPropertiesTitle>Buidheann seilbhean</AdminGroupsPropertiesTitle>
+  <AdminGroupsGeneralInfo>Buidheann fiosrachaidh</AdminGroupsGeneralInfo>
+  <AdminGroupsUserNamePrompt>Cuir a-steach ainm-cleachdaiche</AdminGroupsUserNamePrompt>
+  <AdminGroupsUsers>Buidheann buill</AdminGroupsUsers>
+  <AdminGroupsUserAlreadyExists>A cleachdaiche (ean) seo le ainm (ean) mar-thà air a chur ris</AdminGroupsUserAlreadyExists>
+  <AdminGroupsEmptyName>Buidheann ainm nach urrainn a bhith falamh</AdminGroupsEmptyName>
+  <AdminGroupsIncorrectName>Tha mearachdach samhlaidhean anns a 'bhuidhinn-ainm</AdminGroupsIncorrectName>
+  <AdminGroupsAlreadyExists>A 'bhuidheann-ainm seo mu thràth</AdminGroupsAlreadyExists>
+  <AdminGroupsCountInfo>Buidhnean uile gu lèir: {0}</AdminGroupsCountInfo>
+
+  <AdminLanguagesTab>Localizations</AdminLanguagesTab>
+  <AdminLanguagesTabMessage>A dheasachadh a 'sgìreachd fhaidhle, tagh an cànan a thathar ag iarraidh ann an liosta, briog air a' strings ionadail a dheasachadh. An dèidh atharrachaidhean briog air "Sàbhail" a 'phutan</AdminLanguagesTabMessage>
+  <AdminLangGridKeyColumn>prìomh ainm</AdminLangGridKeyColumn>
+  <AdminLangGridDefaultColumn>Sasannach</AdminLangGridDefaultColumn>
+  <AdminEnterLanguageNameTitle>Cuir a-steach ainm cànan</AdminEnterLanguageNameTitle>
+  <AdminLangConfirmRefreshTitle>Ath-nuadhaich 'daingneachadh</AdminLangConfirmRefreshTitle>
+  <AdminLangConfirmRefreshMessage>Aire! Dàta nach robh a shàbhaladh. A bheil thu ag iarraidh a shàbhaladh atharrachaidhean a-nis?</AdminLangConfirmRefreshMessage>
+  <AdminLangAmountInfo>Lìonadh iuchraichean: {0} {1} de (bàn luachan: {2})</AdminLangAmountInfo>
+  <AdminLangSaveToCSV>Export gu CSV</AdminLangSaveToCSV>
+  <AdminLangLoadFromCSV>Luchdaich bho CSV</AdminLangLoadFromCSV>
+
+  <AdminDbMaintenanceTab>DB Maintenance</AdminDbMaintenanceTab>
+  <AdminDbMaintenanceInfoTitle>Info</AdminDbMaintenanceInfoTitle>
+  <AdminDbMaintenanceInfoPathLabel>DB faidhle frith-rathad</AdminDbMaintenanceInfoPathLabel>
+  <AdminDbMaintenanceInfoSizeLabel>DB meud an fhaidhle</AdminDbMaintenanceInfoSizeLabel>
+  <AdminDbMaintenanceCompactTitle>Compact Stòr-dàta</AdminDbMaintenanceCompactTitle>
+  <AdminDbMaintenanceCompactNote>Ann an òrdugh a lùghdachadh meud an stòr-dàta faidhl, brùth air a 'phutan gu h-ìosal. Tha e riatanach airson a 'coileanadh a' dlùthadh air an stòr-dàta bho àm gu àm, bho, mar eisimpleir, an dèidh toirt air falbh cuid de na tàmh ceanglaichean poblach no seann log a 'clàradh an DB meud an fhaidhle Chan eil lùghdachadh.</AdminDbMaintenanceCompactNote>
+  <AdminDbMaintenanceCompactButton>Compact DB</AdminDbMaintenanceCompactButton>
+  <AdminDbMaintenanceCompactSuccess>DB soirbheachail air teannadh ri chèile.
+Seann meud an fhaidhle: {0}
+New meud an fhaidhle: {1}</AdminDbMaintenanceCompactSuccess>
+  <AdminDbMaintenanceCompactAutoNote>'S urrainn dhut cuideachd Cuir air na fèin-ghluasadach às dèidh dlùthadh stòr-dàta a thoirt air falbh clàran obair, ge-tà, chan eil e a' moladh a chionn e 's dòcha nas trice glasan de stèidh agus faodaidh e a mheudachadh rè beatha a cuid iarrtasan. Aire! An dèidh atharrachadh seo suidheachadh thèid an tagradh a thòiseachadh!</AdminDbMaintenanceCompactAutoNote>
+  <AdminDbMaintenanceCompactAutoCheckBox>Ceadaich / dheth fèin-obrachail teinne DB</AdminDbMaintenanceCompactAutoCheckBox>
+  <AdminDbMaintenanceCompactAutoSaveButton>Save</AdminDbMaintenanceCompactAutoSaveButton>
+  <AdminDbMaintenanceCompactAutoSaveSuccess>Tha atharrachaidhean ann an DB fèin-ghluasadach сompression air a chrìochnachadh gu soirbheachail. Tha an duilleag a thèid ùrachadh a dh'aithghearr.</AdminDbMaintenanceCompactAutoSaveSuccess>
+  <AdminDbMaintenanceEnableLogLabel>Tagh DB ceistean logadh ìre (a-steach Dàta / debug.log)</AdminDbMaintenanceEnableLogLabel>
+  <AdminDbMaintenanceSettingsSaveSuccess>DB roghainnean a shàbhaladh soirbheachail. Tha an duilleag a thèid reloaded</AdminDbMaintenanceSettingsSaveSuccess>
+  <AdminDbMaintenanceSettingsChangeNote>Aire! An dèidh a 'sàbhaladh de shuidheachaidhean thèid an tagradh a thòiseachadh as ùr a dh'aithghearr!</AdminDbMaintenanceSettingsChangeNote>
+  <AdminDbMaintenanceInsertIntervalLabel>Tha ceada (ann mionaidean) de bhith a 'cur thachartasan gu DB. Ma tha thu a shònrachadh 0, an insertion Nochdaidh dìreach an dèidh na thachair.</AdminDbMaintenanceInsertIntervalLabel>
+  <AdminDbMaintenanceAdvDbParamsTitle>DB Adhartach co-cheangailte Paramadairean</AdminDbMaintenanceAdvDbParamsTitle>
+  <AdminDbMaintenanceStatTitle>Staitistig (an crochadh air DB log ìre DurationExecution)</AdminDbMaintenanceStatTitle>
+  <AdminDbMaintenanceStatDurationReadLabel>AVG leughadh timeout</AdminDbMaintenanceStatDurationReadLabel>
+  <AdminDbMaintenanceStatDurationWriteLabel>AVG sgrìobhadh timeout</AdminDbMaintenanceStatDurationWriteLabel>
+  <AdminDbMaintenanceStatDurationCompactLabel>AVG teinne timeout</AdminDbMaintenanceStatDurationCompactLabel>
+  <AdminDbMaintenanceStatNoData>Chan eil dàta</AdminDbMaintenanceStatNoData>
+  <AdminDbMaintenanceStatGetButton>A 'trusadh staitistearachd</AdminDbMaintenanceStatGetButton>
+
+  <AdminMiscTab>misc</AdminMiscTab>
+  <AdminMiscLoadADAccountsTitle>Luchdaich Gnìomhach Directory cunntasan</AdminMiscLoadADAccountsTitle>
+  <AdminMiscLoadADAccountsLoadButton>Luchdaich</AdminMiscLoadADAccountsLoadButton>
+  <AdminMiscLoadADAccountsResetButton>Ath-shuidhich</AdminMiscLoadADAccountsResetButton>
+  <AdminMiscLoadADAccountsLdap>Ldap container</AdminMiscLoadADAccountsLdap>
+  <AdminMiscLoadADAccountsToFile>Airson faidhle</AdminMiscLoadADAccountsToFile>
+  <AdminMiscLoadADAccountsSuccessMessage>Gnìomhach Directory cunntasan soirbheachail luchdachadh</AdminMiscLoadADAccountsSuccessMessage>
+  <AdminMiscLoadADAccountsInfo>An seo faodaidh tu am faidhle a ghineadh anns an iomlan Gnìomhach Directory structar luchd-cleachdaidh. Tha feum air an fhaidhle seo ma chleachdas tu stadaigeach faidhle a shealltainn mar AD info stòradh. Tha an aon faidhle Faodar chruthachadh tro ADManager utility. Airson tuilleadh fiosrachaidh faic &lt;b&gt; ADAccountsFilePath &lt;/b&gt; paramadair tuairisgeul ann an {0} {1} Manual.</AdminMiscLoadADAccountsInfo>
+
+  <AdminMiscManageQuotasTitle>Stiùirich na cuotathan</AdminMiscManageQuotasTitle>
+  <AdminMiscManageQuotasInfo>Ceist a th 'ann no ùra a chruthachadh quota a chuingealachadh an àite ceadaichte airson pasgan, powered by fhaidhle Server Manaidsear Ghoireasan.</AdminMiscManageQuotasInfo>
+  <AdminMiscManageQuotasFolderPath>Folder frith-rathad</AdminMiscManageQuotasFolderPath>
+  <AdminMiscManageQuotasQuota>cuota</AdminMiscManageQuotasQuota>
+  <AdminMiscManageQuotasGetQuota>faigh cuota</AdminMiscManageQuotasGetQuota>
+  <AdminMiscManageQuotasSetQuota>Set cuota</AdminMiscManageQuotasSetQuota>
+
+  <AdminMiscFoldersFromGPOLTitle>Luchdaich pasgannan bho Bhuidheann Poileasaidh</AdminMiscFoldersFromGPOLTitle>
+  <AdminMiscFoldersFromGPOLComputerName>Computer ainm</AdminMiscFoldersFromGPOLComputerName>
+  <AdminMiscFoldersFromGPOLFilePath>File frith-rathad</AdminMiscFoldersFromGPOLFilePath>
+  <AdminMiscFoldersFromGPOLMoreInfoLink>Tuilleadh fiosrachaidh</AdminMiscFoldersFromGPOLMoreInfoLink>
+  <AdminMiscFoldersFromGPOLResetButton>Ath-shuidhich</AdminMiscFoldersFromGPOLResetButton>
+  <AdminMiscFoldersFromGPOLLoadButton>Luchdaich</AdminMiscFoldersFromGPOLLoadButton>
+  <AdminMiscFoldersFromGPOLFromDC>bho DC</AdminMiscFoldersFromGPOLFromDC>
+  <AdminMiscFoldersFromGPOLFromFile>bho faidhle</AdminMiscFoldersFromGPOLFromFile>
+  <AdminMiscFoldersTargetLabel>Thoirt a-steach luchd-cleachdaidh/buidhnean h-ann an ...</AdminMiscFoldersTargetLabel>
+  <AdminMiscFoldersTargetFilter>Criathrag</AdminMiscFoldersTargetFilter>
+  <AdminMiscFoldersTargetPermission>cead</AdminMiscFoldersTargetPermission>
+  <AdminMiscFoldersFromGPOLSuccessMessage>Pasganan tha soirbheachail luchdachadh. &lt;br /&gt; New: {0}, ùrachadh aig: {1}.</AdminMiscFoldersFromGPOLSuccessMessage>
+  <AdminMiscFoldersFromGPOLInfo>'S urrainn dhut a luchdadh (no ùraich) am pasgan liosta bho Bhuidheann Poileasaidh Drive Mapadh suidheachaidhean ann an Domain Rianadair. Anns a 'mhachair gu h-ìosal faodaidh sibh cuir a-steach ainm a' choimpiutair bhon a 'Bhuidheann Poileasaidh roghainnean thèid luchdachadh (no ma fhàgail falamh, an uair sin an-dràsta àrainn thèid a chleachdadh), no frith-rathad gus am faidhle le na roghainnean Mapped' dràibheadh.</AdminMiscFoldersFromGPOLInfo>
+
+  <AdminAnonymFoldersTab>Anonymous pasgannan</AdminAnonymFoldersTab>
+  <AdminAnonymFoldersDeleteFolderPrompt>A bheil thu cinnteach gu bheil thu airson a thoirt air falbh {0} gun ainm pasgain a thaghadh?</AdminAnonymFoldersDeleteFolderPrompt>
+  
+  <AdminAnonymFoldersDescription>Co-roinnte phasgain / na faidhlichean - sin tha pasgannan / faidhlichean nach bi feum air an neach-cleachdaidh dearbhaidh *, sin a 'ciallachadh gu bheil iad rim faotainn airson luchd-turais a h-uile * (ma tha iad a' ceangal). A h-uile Faodaidh luchd-cleachdaidh a 'cruthachadh a leithid de phasgain / na faidhlichean on chlàr-taice "Sgaoil &amp;rarr; Cruthaich poblach ceangal". Ach, co-roinnte pasgain a dh'fhaodadh a bhith cuingealaichte ceadan: a luchdadh suas, a-nuas, faidhlichean / pasgannan liosta. Gu h-ìosal tha clàr nan ceanglaichean gu co-roinnte phasgain / na faidhlichean a chruthachadh le luchd-cleachdaidh. Gus obrachadh a 'phobaill ceanglaichean nochdadh ceart a bhith cinnteach gu bheil na cìobairean a \' toirt cothrom Anonymousdownload.ashx Anonymous cothrom IIS. Faodaidh tu faighneachd mu dheidhinn seo air an &lt;a target="_blank" href="{0}"&gt; Diagnostics &lt;/a&gt; duilleag. Dèan cinnteach gu bheil an cunntas cleachdaiche gun urra a shònrachadh do na cìobairean a \ Anonymousdownload.ashx Tha NTFS leughadh / sgrìobhadh ceadan airson co-roinnte phasgain / na faidhlichean. &lt;br /&gt; * &amp;nbsp; &amp;mdash; &amp;nbsp; mura dèan thu Sònraich luchd-cleachdaidh, a tha airson mhàin gu bheil cothrom.</AdminAnonymFoldersDescription>
+  <AdminAnonymFoldersLinkOwnerColumn>sealbhadair</AdminAnonymFoldersLinkOwnerColumn>
+  <AdminAnonymFoldersEmailsColumn>Puist-d airson fios</AdminAnonymFoldersEmailsColumn>
+  <AdminAnonymFoldersAccessForUsersColumn>Cothrom do luchd-cleachdaidh</AdminAnonymFoldersAccessForUsersColumn>
+  <AdminAnonymFoldersPersonalMessageColumn>Pearsanta teachdaireachd</AdminAnonymFoldersPersonalMessageColumn>
+  <AdminAnonymFoldersOverwriteOnUploadHint> (Sgrìobhadh thairis: {0})</AdminAnonymFoldersOverwriteOnUploadHint>
+  <AdminAnonymFoldersRootPathColumn>Root frith-rathad</AdminAnonymFoldersRootPathColumn>
+  <AdminAnonymFoldersKeysColumn>Keys</AdminAnonymFoldersKeysColumn>
+  <AdminAnonymFoldersShortColumn>goirid cheangal</AdminAnonymFoldersShortColumn>
+  <AdminAnonymFoldersPropertiesTitle>Anonymous pasgan seilbhean</AdminAnonymFoldersPropertiesTitle>
+  <AdminAnonymFoldersAdditionalInfo>Fiosrachadh a bharrachd</AdminAnonymFoldersAdditionalInfo>
+  <AdminAnonymFoldersLinkLabel>Ceangal airson ruigsinneachd</AdminAnonymFoldersLinkLabel>
+  <AdminAnonymFoldersPathNotSpecified>Tha am frith-rathad corporra Chan eil shuidheachadh</AdminAnonymFoldersPathNotSpecified>
+  <AdminAnonymFoldersCreatedForColumn>adhbhar</AdminAnonymFoldersCreatedForColumn>
+
+  <AdminFoldersTab>pasganan</AdminFoldersTab>
+  <AdminFoldersAddFolder>Cuir am pasgan</AdminFoldersAddFolder>
+  <AdminFoldersEditFolder>Deasaich am pasgan</AdminFoldersEditFolder>
+  <AdminFoldersRemoveFolder>Thoir air falbh am pasgan</AdminFoldersRemoveFolder>
+  <AdminFoldersDeleteFolderPrompt>A bheil thu cinnteach gu bheil thu airson a thoirt air falbh am pasgan "{0}"?</AdminFoldersDeleteFolderPrompt>
+  <AdminFoldersFolderNotFound>Tha am pasgan seo le ainm a lorg</AdminFoldersFolderNotFound>
+  <AdminFoldersPropertiesTitle>Folder seilbhean</AdminFoldersPropertiesTitle>
+  <AdminFoldersGeneralInfo>fiosrachadh coitcheann</AdminFoldersGeneralInfo>
+  <AdminFoldersFolderRemoteWarningForms>Thoir an aire! Tha am pasgan seo air astar co-roinnte. Thoir sùil air {0} FAQ: mar a roinn iomallach pasgannan {1}</AdminFoldersFolderRemoteWarningForms>
+  <AdminFoldersFolderRemoteWarningWin>Thoir an aire! Tha am pasgan seo air astar co-roinnte. 'S urrainn dhut falach an cuid de phasgain / na faidhlichean ma luchd-cleachdaidh nach eil còraichean a leughadh dhaibh. Faic {0} FAQ: ciamar a falach faidhlichean / pasgain gu bheil an neach-cleachdaidh nach eil còraichean a leughadh {1}</AdminFoldersFolderRemoteWarningWin>
+  <AdminFoldersFolderPath>Physical frith-rathad</AdminFoldersFolderPath>
+  <AdminFoldersLocationPath>Àite</AdminFoldersLocationPath>
+  <AdminFoldersFolderCreate>Cruthaich pasgan</AdminFoldersFolderCreate>
+  <AdminFoldersFolderCreateProcess>cruthachadh pasgan</AdminFoldersFolderCreateProcess>
+  <AdminFoldersFolderCreateContainsPattern>Tha am pasgan nach urrainn a bhith air a chruthachadh oir tha pàtran</AdminFoldersFolderCreateContainsPattern>
+  <AdminFoldersFolderCreateSuccessfully>Tha am pasgan "{0}" air a bhith soirbheachail a chruthachadh.</AdminFoldersFolderCreateSuccessfully>
+  <AdminFoldersFolderOptional> (Roghainneil)</AdminFoldersFolderOptional>
+  <AdminFoldersFolderLimitations>cuingeachaidhean</AdminFoldersFolderLimitations>
+  <AdminFoldersFolderDescription>Tuairisgeul</AdminFoldersFolderDescription>
+  <AdminFoldersFolderQuota>cuota</AdminFoldersFolderQuota>
+  <AdminFoldersFolderQuotaHint>Ceist a th 'ann no ùra a chruthachadh quota a chuingealachadh an àite ceadaichte airson pasgan, powered by fhaidhle Server Manaidsear Ghoireasan.</AdminFoldersFolderQuotaHint>
+  <AdminFoldersFolderQuotaMoreInfoLink>Tuilleadh fiosrachaidh</AdminFoldersFolderQuotaMoreInfoLink>
+  <AdminFoldersPermissions>ceadan</AdminFoldersPermissions>
+  <AdminFoldersPermissionsFor>Ceadan airson {0}</AdminFoldersPermissionsFor>
+  <AdminFoldersUsersGroups>Luchd-cleachdaidh agus buidhnean</AdminFoldersUsersGroups>
+  <AdminFoldersAccessControl>smachd air ruigsinneachd</AdminFoldersAccessControl>
+  <AdminFoldersCreate>Cruthaich</AdminFoldersCreate>
+  <AdminFoldersDelete>Sguab às</AdminFoldersDelete>
+  <AdminFoldersRename>Rename</AdminFoldersRename>
+  <AdminFoldersUpload>A 'luchdadh suas</AdminFoldersUpload>
+  <AdminFoldersDownload>Luchdaich a-nuas</AdminFoldersDownload>
+  <AdminFoldersZipDownload>Zip agus download</AdminFoldersZipDownload>
+  <AdminFoldersZip>zip</AdminFoldersZip>
+  <AdminFoldersUnzip>Unpack Zip</AdminFoldersUnzip>
+  <AdminFoldersCut>Cut</AdminFoldersCut>
+  <AdminFoldersCopy>lethbhreac den</AdminFoldersCopy>
+  <AdminFoldersListFiles>Seall faidhlichean</AdminFoldersListFiles>
+  <AdminFoldersListFolders>Seall pasgannan</AdminFoldersListFolders>
+  <AdminFoldersModify>atharrachadh</AdminFoldersModify>
+  <AdminFoldersBulkMailing>tomad puist</AdminFoldersBulkMailing>
+  <AdminFoldersAnonymViewContent>File liosta poblach tro cheangal</AdminFoldersAnonymViewContent>
+  <AdminFoldersAnonymDownload>Luchdaich a-nuas tro poblach cheangal</AdminFoldersAnonymDownload>
+  <AdminFoldersAnonymUpload>Luchdaich suas poblach tro cheangal</AdminFoldersAnonymUpload>
+  <AdminFoldersWatch>Watch</AdminFoldersWatch>
+  <AdminFoldersDescription>'S urrainn dhut Cuir pasgannan làimh no iompachadh pasgannan a th' ann ma tha thu a 'cleachdadh iomain aig Buidheann poileasaidhean. Airson tuilleadh fiosrachaidh faic {0} {1} Help.</AdminFoldersDescription>
+
+  <AdminFoldersPermissionsForRegex>'S urrainn dhut cuideachd a' cleachdadh gu cunbhalach a chur an cèill. Cuir a-steach &lt;b&gt; {0} &lt;/b&gt; aig toiseach an t-achadh gu h-àrd agus an uair sin gu cunbhalach a chur an cèill, mar eisimpleir:</AdminFoldersPermissionsForRegex>
+  <AdminFoldersPermissionsForRegexUsers>{0} (a 'toirt cothrom airson neach-cleachdaidh sam bith) &lt;br /&gt; {1} (abairt seo gu cunbhalach a' ciallachadh dà luchd-cleachdaidh: jdoe agus Mike)</AdminFoldersPermissionsForRegexUsers>
+  <AdminFoldersPermissionsForRegexGroups>{0} (a 'toirt cothrom airson buidheann sam bith) &lt;br /&gt; {1} (abairt seo gu cunbhalach a' ciallachadh a h-uile buidhnean le "Students" ann an ainmean)</AdminFoldersPermissionsForRegexGroups>
+
+  <AdminFoldersListRestrictions>Cuingeachaidhean de thaisbeanadh</AdminFoldersListRestrictions>
+  <AdminFoldersCreateRestrictions>Cuingeachaidhean a 'cruthachadh faidhle</AdminFoldersCreateRestrictions>
+  <AdminFoldersRestrictionAllow>Ceadaich</AdminFoldersRestrictionAllow>
+  <AdminFoldersRestrictionDeny>aicheadh</AdminFoldersRestrictionDeny>
+  <AdminFoldersRestrictionExtensions>leudachain</AdminFoldersRestrictionExtensions>
+  <AdminFoldersUserNamePrompt>Cuir a-steach ainm-cleachdaiche</AdminFoldersUserNamePrompt>
+  <AdminFoldersUserNameEmptyText>Tagh ainm neach-cleachdaidh</AdminFoldersUserNameEmptyText>
+  <AdminFoldersUserNameNotSelected>Feumaidh tu thaghadh ainm neach-cleachdaidh</AdminFoldersUserNameNotSelected>
+  <AdminFoldersUserAlreadyExists>An cleachdaiche seo mar-thà air a bhith air a shònrachadh dhan phasgan</AdminFoldersUserAlreadyExists>
+  <AdminFoldersGroupNamePrompt>Cuir a-steach ainm a 'bhuidhinn</AdminFoldersGroupNamePrompt>
+  <AdminFoldersGroupNameEmptyText>Tagh buidheann ainm</AdminFoldersGroupNameEmptyText>
+  <AdminFoldersGroupNameNotSelected>Feumaidh tu Tagh buidheann ainm</AdminFoldersGroupNameNotSelected>
+  <AdminFoldersGroupAlreadyExists>Tha am buidheann seo mar-thà air a bhith air a shònrachadh dhan phasgan</AdminFoldersGroupAlreadyExists>
+  <AdminFoldersEmptyName>Folder ainm nach urrainn a bhith falamh</AdminFoldersEmptyName>
+  <AdminFoldersEmptyPath>Folder frith-rathad nach urrainn a bhith falamh</AdminFoldersEmptyPath>
+  <AdminFoldersIncorrectName>Tha mearachdach samhlaidhean ann an ainm a 'phasgain</AdminFoldersIncorrectName>
+  <AdminFoldersAlreadyExists>Tha am pasgan seo ri ainm agus location mu thràth</AdminFoldersAlreadyExists>
+  <AdminFoldersSharesButton>ann mar-thà earrainnean</AdminFoldersSharesButton>
+  <AdminFoldersTestAccessButton>deuchainn ruigsinneachd</AdminFoldersTestAccessButton>
+  <AdminFoldersTestIndexingButton>deuchainn comharrachadh</AdminFoldersTestIndexingButton>
+  <AdminFoldersShareNameTitle>ann mar-thà earrainnean</AdminFoldersShareNameTitle>
+  <AdminFoldersShareNameEmptyText>Tagh roinn</AdminFoldersShareNameEmptyText>
+  <AdminFoldersShareNameNotSelected>Feumaidh tu Tagh roinn</AdminFoldersShareNameNotSelected>
+  <AdminFoldersGetQuotaButton>faigh cuota</AdminFoldersGetQuotaButton>
+  <AdminFoldersSetQuotaButton>Set cuota</AdminFoldersSetQuotaButton>
+  <AdminCommonFilterField>Filter</AdminCommonFilterField>
+  <AdminCommonValidateField>dearbhaich</AdminCommonValidateField>
+  <AdminFoldersRootNameUsed>Cuiribh a 'cleachdadh ainm eile airson a' phasgan 'na àite de "{0}"</AdminFoldersRootNameUsed>
+  <AdminFoldersFolderFilterSuccess>Dearbhaich an criathar a chumail gu soirbheachail</AdminFoldersFolderFilterSuccess>
+
+  <AdminTestAccessGoodResult>Tha am pasgan "{0}" ann agus faodar a leughadh.</AdminTestAccessGoodResult>
+  <AdminTestAccessBadResult>Tha am pasgan "{0}" Chan eil ann no nach eil ceadan NTFS leughadh no nach eil lìonra cothrom airson dearbh-aithne an t-iarrtas!</AdminTestAccessBadResult>
+  <AdminTestAccessErrorResult>Mearachd fhad 'sa bha sùil cothrom pasgan "{0}": {1}</AdminTestAccessErrorResult>
+  <AdminTestIndexingErrorResult>Mearachd fhad 'sa bha sùil comharrachadh airson pasgan "{0}":
+{1}</AdminTestIndexingErrorResult>
+  <AdminTestIndexingYesResult>Tha an eòlaire "{0}" Tha chlàr-amais</AdminTestIndexingYesResult>
+  <AdminTestIndexingNoResult>Tha an eòlaire "{0}" Chan eil san chlàr-amais</AdminTestIndexingNoResult>
+  <AdminTestIndexingUnknownResult>Cha gus co-dhùnadh ma tha an eòlaire "{0}" Tha chlàr-amais.</AdminTestIndexingUnknownResult>
+  <AdminTestIndexingAddIfNotIndexed>Am bu toil leat a chur ris am pasgan seo airson comharrachadh, ma tha e air a bhith san chlàr-amais fhathast?</AdminTestIndexingAddIfNotIndexed>
+  <ProgressTestAccess>sgrùdadh ruigsinneachd</ProgressTestAccess>
+  <ProgressTestIndexing>sgrùdadh comharrachadh</ProgressTestIndexing>
+  <AdminHowToIndexingLocationLink>Ann an òrdugh gu Clàr-ìnnse pasgan, iomradh a thoirt air an Help for {0}</AdminHowToIndexingLocationLink>
+
+  <AdminUsersListAll>luchd-cleachdaidh uile</AdminUsersListAll>
+  <AdminUsersListDACL>Luchd-cleachdaidh bho ACL</AdminUsersListDACL>
+  <AdminGroupsListAll>a h-uile buidhnean</AdminGroupsListAll>
+  <AdminGroupsListDACL>Buidhnean bho ACL</AdminGroupsListDACL>
+  <AdminDACLStringLabel>ACL ceadan</AdminDACLStringLabel>
+
+  <AdminCommonCustomField>Custom achadh</AdminCommonCustomField>
+  <AdminCommonSettingsChangeWarning>Na h-atharrachaidhean a bheir buaidh às dèidh ath logadh a-steach (no an dèidh iarrtas airson ath-thòiseachaidh WebDav cothrom).</AdminCommonSettingsChangeWarning>
+
+  <AdminCommonAllowedFoldersPathsTitle>Ceadaichte pasgan frith-rathaidean</AdminCommonAllowedFoldersPathsTitle>
+  <AdminCommonNotAllowedFolderPath>'S urrainn dhut a chruthachadh a-mhàin cothrom do na pasgannan no a subfolders: {0}</AdminCommonNotAllowedFolderPath>
+
+  <AdminLogsTab>log a-steach</AdminLogsTab>
+
+  <AdminSettingsTab>roghainnean</AdminSettingsTab>
+
+  <AdminLogsErrorsTab>Log a-steach mearachdan</AdminLogsErrorsTab>
+  <AdminLogsErrorsClearBtn>Adhar soilleir</AdminLogsErrorsClearBtn>
+  <AdminLogsErrorsClearUsersCountExceededBtn>Soilleir clàran le mearachdan de luchd-cleachdaidh nas àirde na an sùim a 'chrìoch</AdminLogsErrorsClearUsersCountExceededBtn>
+
+  <AdminFoldersCreateHint>Ceadaich / aicheadh ​​gnìomhan bhon chlàr-taice "New": faidhle ùr, am pasgan ùr, ìomhaigh ùr, ùr sgrìobhainn faidhlichean.</AdminFoldersCreateHint>
+  <AdminFoldersDeleteHint>Ceadaich / aicheadh ​​a sguabadh às de faidhlichean a th 'ann agus pasgain</AdminFoldersDeleteHint>
+  <AdminFoldersRenameHint>Ceadaich / aicheadh ​​renaming a th 'ann faidhlichean agus pasgain</AdminFoldersRenameHint>
+  <AdminFoldersUploadHint>Ceadaich / aicheadh ​​faidhlichean a luchdadh suas nochdadh (A 'luchdadh suas putan aig a' bhàr-inneal)</AdminFoldersUploadHint>
+  <AdminFoldersDownloadHint>Leigeil / aicheadh ​​"download", "sealladh / edit", a luchdachadh a-nuas geala storages, etc gnìomhan</AdminFoldersDownloadHint>
+  <AdminFoldersZipDownloadHint>Ceadaich / aicheadh ​​"compress luchdachadh a-nuas agus" gnìomha</AdminFoldersZipDownloadHint>
+  <AdminFoldersZipHint>Ceadaich / aicheadh ​​"Compress gu zip tasglann" gnìomha</AdminFoldersZipHint>
+  <AdminFoldersUnzipHint>Ceadaich / aicheadh ​​"Earrann gu làithreach pasgan", "Earrann ùr pasgan" agus "Zip th" gnìomhan</AdminFoldersUnzipHint>
+  <AdminFoldersCutHint>Ceadaich / aicheadh ​​a ghearradh mar-thà faidhlichean agus pasgain gnìomha</AdminFoldersCutHint>
+  <AdminFoldersCopyHint>Ceadaich / aicheadh ​​leth-bhreac a th 'ann faidhlichean agus pasgain gnìomha</AdminFoldersCopyHint>
+  <AdminFoldersListFilesHint>Ceadaich / aicheadh ​​liosta nam faidhlichean</AdminFoldersListFilesHint>
+  <AdminFoldersListFoldersHint>Ceadaich / aicheadh ​​liosta pasgannan</AdminFoldersListFoldersHint>
+  <AdminFoldersModifyHint>Ceadaich / aicheadh ​​atharrachadh faidhlichean (a h-uile gnìomhan a dh'fhaodas atharrachadh a th 'ann am faidhl na th' ann)</AdminFoldersModifyHint>
+  <AdminFoldersBulkMailingHint>Ceadaich / aicheadh ​​mhòr-chuid puist airson buidhnean</AdminFoldersBulkMailingHint>
+  <AdminFoldersAnonymViewContentHint>Ceadaich / aicheadh ​​faidhlichean liosta airson luchd-cleachdaidh gun ainm (via poblach ceanglaichean)</AdminFoldersAnonymViewContentHint>
+  <AdminFoldersAnonymDownloadHint>Ceadaich / aicheadh ​​faidhlichean luchdachadh a-nuas airson luchd-cleachdaidh gun ainm (via poblach ceanglaichean)</AdminFoldersAnonymDownloadHint>
+  <AdminFoldersAnonymUploadHint>Ceadaich / aicheadh ​​faidhlichean a luchdadh suas airson luchd-cleachdaidh gun ainm (via poblach ceanglaichean)</AdminFoldersAnonymUploadHint>
+  <AdminFoldersWatchHint>Ceadaich / aicheadh ​​luchd-cleachdaidh sùil a chumail air na h-atharrachaidhean ann am pasgan a dhèanamh le luchd-cleachdaidh eile (a tha e air a chur an gnìomh a-mhàin ma UI / AllowUsersmonitorModifications = fìor)</AdminFoldersWatchHint>
+  <AdminFoldersListRestrictionsHint>Roghainn seo a 'cumail smachd faidhle clàradh. Briog air "aicheadh" putan rèidio a fhalach faidhlichean a shònrachadh leudachain. Cuir a-steach toirmisgte leudachain sgaradh iad le cromag (me "EXE, ialtag, COM"). Suidhich "Ceadaich" putan-radio agus cuir a-steach an leudachain de na faidhlichean a thèid a shealltainn (me "DOC, PDF, jpg").</AdminFoldersListRestrictionsHint>
+  <AdminFoldersCreateRestrictionsHint>Tha seo a 'ghnìomh coltach ri "List bacaidhean", ach tha e a' cumail smachd faidhlichean a luchdadh suas, zip tharraing, a 'cruthachadh faidhlichean ùr. 'S urrainn dhut a' toirmeasg no leigeas luchdadh suas de faidhlichean a shònrachadh.</AdminFoldersCreateRestrictionsHint>
+  <AdminFoldersGeneralInfoHint>Taidhp a th 'ann am pasgan agus frith-rathad no Mac Dhàibhidh. Cliog Taic putan aig a 'bhonn airson barrachd fiosrachaidh.</AdminFoldersGeneralInfoHint>
+  <AdminFoldersUsersGroupsHint>Tagh no seòrsa luchd-cleachdaidh agus buidhnean a roinn am pasgan dhaibh. Cliog Taic putan aig a 'bhonn airson barrachd fiosrachaidh.</AdminFoldersUsersGroupsHint>
+
+  <AdminUserFoldersButtonTitle>Deuchainn earrainnean liosta</AdminUserFoldersButtonTitle>
+  <AdminUserFoldersWindowTitle>Cleachdaiche pasgannan</AdminUserFoldersWindowTitle>
+  <AdminUserFoldersLabel>Folder liosta airson user '{0} ":</AdminUserFoldersLabel>
+  
+  <AdminPermissionsTab>rianachd ceadan</AdminPermissionsTab>
+  <AdminPermissionsPrivilege>sochair</AdminPermissionsPrivilege>
+  <AdminPermissionsEditButton>Deasaich na shochair</AdminPermissionsEditButton>
+  <AdminPermissionsModifySettingsTitle>roghainnean atharrachadh</AdminPermissionsModifySettingsTitle>
+  <AdminPermissionsModifyFoldersTitle>atharrachadh pasgannan</AdminPermissionsModifyFoldersTitle>
+  <AdminPermissionsModifyAnonymFoldersTitle>Atharrachadh poblach pasgannan</AdminPermissionsModifyAnonymFoldersTitle>
+  <AdminPermissionsModifyAccountsTitle>atharrachadh cunntasan</AdminPermissionsModifyAccountsTitle>
+  <AdminPermissionsViewDiagnosticsTitle>View 'Diagnostics' duilleag</AdminPermissionsViewDiagnosticsTitle>
+  <AdminPermissionsViewLogTitle>View log</AdminPermissionsViewLogTitle>
+  <AdminPermissionsViewErrorsLogTitle>View mearachdan log</AdminPermissionsViewErrorsLogTitle>
+  <AdminPermissionsModifyLocalizationsTitle>atharrachadh localizations</AdminPermissionsModifyLocalizationsTitle>
+  <AdminPermissionsFolderPathTitle>Folder frith-rathad</AdminPermissionsFolderPathTitle>
+  <AdminPermissionsFoldersTitle>rianachd pasgannan</AdminPermissionsFoldersTitle>
+  <AdminPermissionsPrivilegeHint>Set luchd-cleachdaidh/buidhnean a tha a "{0}" urram Thèid cead</AdminPermissionsPrivilegeHint>
+  <AdminPermissionsFolderTitle>Rianachd pasgan seilbhean</AdminPermissionsFolderTitle>
+  <AdminPermissionsFolderFieldTitle>Folder frith-rathad</AdminPermissionsFolderFieldTitle>
+  <AdminPermissionsFolderHint>Info mu rianachd pasgannan</AdminPermissionsFolderHint>
+  <AdminPermissionsFolderEmptyAccounts>Sònraich luchd-cleachdaidh agus / no buidhnean</AdminPermissionsFolderEmptyAccounts>
+  <AdminPermissionsFolderAlreadyExists>Am pasgan seo le location mu thràth</AdminPermissionsFolderAlreadyExists>
+  <AdminPermissionsFolderNotFound>Am pasgan seo le location cha d 'fhuaradh</AdminPermissionsFolderNotFound>
+  <AdminPermissionsAllowedFoldersMessage>'S urrainn dhut a chruthachadh / ùrachadh / stiùireadh chothroman-slighe a-mhàin airson na pasgannan no a subfolders: {0}</AdminPermissionsAllowedFoldersMessage>
+
+  <AdminUsersCountExceededWarn>As àirde tron ​​uiread de luchd-cleachdaidh nas àirde. Agad an-dràsta a 'leigeil le cead a-mhàin {0} luchd-cleachdaidh airson logadh a-steach. Airson tuilleadh fiosrachaidh Fosgail "{1}" tab agus lorg "{2}" ach a-mhàin (ean). Airson falach seo fios soilleir log clàran aig "{1}" tab.</AdminUsersCountExceededWarn>
+
+  <AdminNewVersionAvailableTitle>Dreach ùr a tha ri fhaotainn!</AdminNewVersionAvailableTitle>
+  <AdminNewVersionAvailableInfo>An tionndadh làithreach: {0} &lt;br /&gt; A tionndadh nas ùire: {1}</AdminNewVersionAvailableInfo>
+  
+  <SettingsGridDescriptionInfo>Tuairisgeul</SettingsGridDescriptionInfo>
+  <SettingsGridFormatInfo>luach Inneal a 'Chlàir</SettingsGridFormatInfo>
+  <SettingsGridDefaultValueInfo>Default luach</SettingsGridDefaultValueInfo>
+  <SettingsGridMoreInfo>Tuilleadh fiosrachaidh</SettingsGridMoreInfo>
+  <SettingsGridRestoreDefault>air ais default</SettingsGridRestoreDefault>
+
+  <SettingsFormatBoolean>boolean a luach</SettingsFormatBoolean>
+  <SettingsFormatWholeNumber>àireamh shlàn</SettingsFormatWholeNumber>
+  <SettingsFormatRealNumber>Fìor àireamh</SettingsFormatRealNumber>
+  <SettingsFormatString>String</SettingsFormatString>
+  <SettingsFormatEnum>Sam bith luach</SettingsFormatEnum>
+  <SettingsFormatSet>Cromag-sgaradh gun ath-aithrisean liosta de na luachan</SettingsFormatSet>
+  <SettingsFormatArray>Cromag-sgaradh liosta de strings</SettingsFormatArray>
+  <SettingsFormatToolbarButtons>. (Luach "{0}" a-rithist iomadh turas, ach chan eil ann an sreath. An dèidh gach ainm, air a leantainn le dà-phuing, tha e comasach gus sònrachadh aon de na dòighean a chleachd iad gus taisbeanadh a 'phutan: {1})</SettingsFormatToolbarButtons>
+
+  <AdminSettingsSave>sàbhail na roghainnean</AdminSettingsSave>
+  <AdminToggleHiddenParams>{0} adhartach crìochan</AdminToggleHiddenParams>
+  <AdminHintHiddenParams>Bharrachd crìochan a thathar an dùil a-mhàin airson tuilleadh granular suidheachaidhean agus mar is trice 's ann ainneamh a tha riatanach</AdminHintHiddenParams>
+  <AdminShowHiddenParams>Seall</AdminShowHiddenParams>
+  <AdminHideHiddenParams>Falaich</AdminHideHiddenParams>
+
+  <SettingsDenyAuthModeChange>Fèin-ghluasadach dearbhaidh modh tighinn nach eil a 'faighinn taic. Faic {0} airson stiùireadh mu atharrachadh na dearbhaidh modh.</SettingsDenyAuthModeChange>
+  <SettingsApplicationRestartedMsg>iarrtas tòiseachadh às ùr</SettingsApplicationRestartedMsg>
+  <SettingsSettingsSavedMsg>Roghainnean air a bhith air a shàbhaladh</SettingsSettingsSavedMsg>
+  <SettingsSettingsSaveFailedAppMsg>Cha ghabh a shàbhaladh rèiteachaidh faidhlichean. Thoir sùil air sgrìobhadh NTFS ceadan web.config agus HttpCommanderSettings.config faidhlichean ann an eadar-lìon an iarrtas pasgan freumhach {0} airson cleachdaiche {1}. Mearachd teachdaireachd: {2}.</SettingsSettingsSaveFailedAppMsg>
+  <SettingsSettingsSaveFailedTempMsg>Cha ghabh a shàbhaladh rèiteachaidh faidhlichean. Dèan cinnteach ceadan sealach pasgan {0} airson cleachdaiche {1}. Mearachd teachdaireachd: {2}.</SettingsSettingsSaveFailedTempMsg>
+  <SettingsSettingsReadFailedAppMsg>Cha do leugh rèiteachaidh faidhlichean. Thoir sùil air leughadh NTFS ceadan web.config agus HttpCommanderSettings.config faidhlichean ann an eadar-lìon an iarrtas pasgan freumhach {0} airson cleachdaiche {1}. Mearachd teachdaireachd: {2}.</SettingsSettingsReadFailedAppMsg>
+  <SettingsSettingsReadFailedTempMsg>Cha do leugh rèiteachaidh faidhlichean ann an sealach pasgan. Dèan cinnteach ceadan sealach pasgan {0} airson cleachdaiche {1}. Mearachd teachdaireachd: {2}.</SettingsSettingsReadFailedTempMsg>
+  <SettingsSettingsConfigChangedOutside>Tha HttpCommander faidhle rèiteachaidh air atharrachadh le prògram eile. 'S dòcha gu bheil thu air mhùthadh e làimh le deasaiche teacsa. Tha iarrtas air a luchdachadh ùr fhaidhle rèiteachaidh. A h-uile h-atharrachaidhean co-cheangailte ri HttpCommander rèiteachaidh a rinn thu tro lìn eadar-aghaidh a tha air chall. Feumaidh tu redo orra, an uair sin a 'feuchainn ri shàbhaladh-rithist. Sinn a 'moladh an aghaidh gearradh rèiteachaidh faidhlichean làimh fhad' sa tha an t-iarrtas a tha a 'ruith. A chaochladh, bu chòir dhuibh an t-iarrtas ath-thòiseachadh an dèidh atharrachadh rèiteachaidh faidhlichean. Mearachd teachdaireachd: {0}.</SettingsSettingsConfigChangedOutside>
+  <SettingsSettingsSaveNotif>Na dìochuimhnichibh na roghainnean a shàbhaladh atharrachaidhean!</SettingsSettingsSaveNotif>
+  
+  <SettingsEmailNotifTitle>Notifications le post-d</SettingsEmailNotifTitle>
+  <SettingsEmailNotifApplyBtn>Sàbhail d roghainnean</SettingsEmailNotifApplyBtn>
+  <SettingsEmailNotifResetBtn>Ath-shuidhich</SettingsEmailNotifResetBtn>
+  <SettingsEmailNotifEventsLabel>airson tachartasan</SettingsEmailNotifEventsLabel>
+  <SettingsEmailNotifWhenLabel>Send</SettingsEmailNotifWhenLabel>
+  <SettingsEmailNotifEmailsLabel>puist-d</SettingsEmailNotifEmailsLabel>
+  <SettingsEmailNotifPathsLabel>frith-rathaidean</SettingsEmailNotifPathsLabel>
+  
+  <LogsErrorsGridUrlColumn>Url</LogsErrorsGridUrlColumn>
+  <LogsErrorsGridMsgColumn>teachdaireachd</LogsErrorsGridMsgColumn>
+  <LogsErrorsGridMoreInfoColumn>Tuilleadh fiosrachaidh</LogsErrorsGridMoreInfoColumn>
+  <LogsErrorsGridDetailsTitle>Fiosrachadh</LogsErrorsGridDetailsTitle>
+  
+  <FsrmUnableLoadLibraryLocal>Cha do ghabh ceangal a dhèanamh ris an fhrithealaiche an fhaidhle Manaidsear Ghoireasan ionadail air aoigheachd.</FsrmUnableLoadLibraryLocal>
+  <FsrmUnableLoadLibraryRemote>Cha do ghabh ceangal a dhèanamh ris an fhrithealaiche an fhaidhle Manaidsear Ghoireasan air "{0}" òstair.</FsrmUnableLoadLibraryRemote>
+  <FsrmNotInstalled>File Server Manaidsear Ghoireasan nach eil stàlaichte air "{0}".</FsrmNotInstalled>
+  <FsrmNotInstalledEitherEnd>File Server Manaidsear Ghoireasan Tha an dara cuid nach eil stàlaichte air a ionadail air aoigheachd no "{0}".</FsrmNotInstalledEitherEnd>
+  <FsrmQuotaNotSpecified>Cuota nach eil ainmichte.</FsrmQuotaNotSpecified>
+  <FsrmUnableGetQuota>Chan fhaigheadh ​​quota a 'chrìoch.</FsrmUnableGetQuota>
+  <FsrmUnableSetQuota>Cha ghabh a chur quota a 'chrìoch.</FsrmUnableSetQuota>
+  <FsrmQuotaSetMsg>Quota a bhith air a stèidheachadh.</FsrmQuotaSetMsg>
+  <FsrmInvalidQuotaValueMsg>Mì-dhligheach cuota luach.</FsrmInvalidQuotaValueMsg>
+
+  <CommandBuyNow>Ceannaich an-dràsta</CommandBuyNow>
+
+  <AdminUpdateTab>Àrdaich</AdminUpdateTab>
+  <AdminUpdateManual>Manual ùrachadh</AdminUpdateManual>
+  <AdminUpdateAuto>fèin-ghluasadach ùrachadh</AdminUpdateAuto>
+  <AdminUpdateStartButton>Tòisich Àrdaich / Cruthaich lethbhreac glèidhidh</AdminUpdateStartButton>
+  <AdminUpdateFinishButton>Crìochnaich Àrdaich / ath lethbhreac glèidhidh</AdminUpdateFinishButton>
+  <AdminUpdateBackupButton>lethbhreac glèidhidh</AdminUpdateBackupButton>
+  <AdminUpdateDownloadNewButton>Luchdaich a-nuas tionndadh ùr</AdminUpdateDownloadNewButton>
+  <AdminUpdateStepTitle>Ceum {0} {1}: {2}</AdminUpdateStepTitle>
+  <AdminUpdateStepInfo>Ceum {0} {1}</AdminUpdateStepInfo>
+  <AdminUpdateNumberSymbol>#</AdminUpdateNumberSymbol>
+  <AdminUpdateBackupContent>Dèanaibh briog air a 'phutan "{0}" a chruthachadh airson lethbhreac glèidhidh lethbhreac den pasgan leis an iarrtais agus a' faighinn ceangal airson an luchdachadh</AdminUpdateBackupContent>
+  <AdminUpdateDownloadBackupLinkHint>Thoir a-nuas lethbhreac glèidhidh lethbhreac den iarrtas a 'cleachdadh an ceangal gu h-ìosal:</AdminUpdateDownloadBackupLinkHint>
+  <AdminUpdateDownloadNewContent>An uair sin, cuir a-nuas tionndadh ùr a 'cleachdadh a' cheangal gu h-ìosal agus lean an {0} {1} stàladh agus {2} {1} ùrachadh stiùireadh ann an òrdugh a stàladh tionndadh ùr. An dèidh an stàladh cuiribh Fosgail an Admin Pannal, a 'dol gu taba "{3}" agus briog air a' phutan "{4}" gus crìoch a chur air an stàladh.</AdminUpdateDownloadNewContent>
+  <AdminUpdateUploadButton>Luchdaich suas lethbhreac glèidhidh leth-bhreac agus a 'buntainn roghainnean</AdminUpdateUploadButton>
+  <AdminUpdateUploadAndInstallButton>Stàlaich tionndadh ùr le bhith a 'cumail a h-uile roghainnean</AdminUpdateUploadAndInstallButton>
+  <AdminUpdateUploadEmptyText>Tagh lethbhreac glèidhidh lethbhreac a luchdadh suas</AdminUpdateUploadEmptyText>
+  <AdminUpdateFinishContent>Ann an òrdugh a thoirt air ais air na roghainnean roimhe dreach cuiribh thaghadh agus a luchdadh suas roimhe a chruthachadh lethbhreac glèidhidh tasglann leis an iarrtas pasgan</AdminUpdateFinishContent>
+  <AdminUpdateFinishMessage>Mealaibh ur naidheachd! A h-uile roghainnean soirbheachail a chur an gnìomh. Cuideachd, cuiribh a-steach a h-uile h-atharrachaidhean agad a dhèanamh gus faidhlichean eile, me Default.aspx no Global.asax.</AdminUpdateFinishMessage>
+  <AdminUpdateFinishRefreshPage>Tha an duilleag a thèid reloaded</AdminUpdateFinishRefreshPage>
+  <AdminUpdateMainInfo>Tha an seòrsa de leasachadh a tha pàirt dheth fèin-ghluasadach. Faodaidh tu a chruthachadh agus cuideachd lethbhreac glèidhidh a-nuas am faidhle le rèiteachadh an t-iarrtas roghainnean agus air ais e an dèidh a 'leasachadh. Feuch an lean sibh na ceumannan goirid: a chruthachadh lethbhreac glèidhidh faidhl, a 'coileanadh an leabhar-làimhe leasachadh, ath-nuadhachadh na suidheachaidhean bhon lethbhreac glèidhidh a-faidhle. Modh-obrach seo cuideachd faodar a cleachdadh gus lethbhreac glèidhidh / ais na suidheachaidhean gun leasachadh. Simply skip leasachadh ceum air ais gu na suidheachaidhean bhon lethbhreac glèidhidh a-faidhle.</AdminUpdateMainInfo>
+  <AdminUpdateAutoButton>Auto</AdminUpdateAutoButton>
+  <AdminUpdateAutoInfo>Tha an seòrsa de leasachadh a tha cha mhòr làn fèin-ghluasadach. Tha e air a dhèanamh suas de 2 ceumannan: lethbhreac glèidhidh dhen t roghainnean làithreach (bu chòir dhuibh a luchdachadh a-nuas agus a shàbhaladh lethbhreac glèidhidh faidhle), stàladh tionndadh ùr agus ath-nuadhachadh de na suidheachaidhean bhon lethbhreac glèidhidh a-faidhle. HTTP Comanndair urrainn fèin-obrachail luchdachadh a-nuas an tionndadh as ùire agus stàladh no faodaidh tu an t-slighe gu sònraich an zip tasglann le dreach ùr air ar frithealaiche. A h-uile roghainnean ath-nuadhachadh gu fèin-obrachail bho roimhe chruthachadh lethbhreac glèidhidh a-faidhle.</AdminUpdateAutoInfo>
+  <AdminUpdateRestoreWebConfigCheckBox>Air ais na suidheachaidhean bhon Web.config (me, leithid SMTP)</AdminUpdateRestoreWebConfigCheckBox>
+  <AdminUpdateBackupAssignedFoldersInRootMessage>Aire! Tha cuid cleachdaidh pasgannan san eòlaire ris an tagradh aig a bheil meud iomlan còrr {0}. Tha lethbhreac glèidhidh cha tèid a dhèanamh. Feuch an cuir sibh lethbhreac glèidhidh leth-bhreac de na seòlaidh, a thoirt air falbh iad o iarrtais agus eòlaire retry obrachadh air ur taobh.</AdminUpdateBackupAssignedFoldersInRootMessage>
+  <AdminUpdateNeedRefreshPageForContinue>Aire! Gus leantainn air adhart a bheil e riatanach is luchdaich an duilleag. Dèanaibh briog air a 'phutan "{0}". An dèidh reloading cuiribh ath-obrachadh.</AdminUpdateNeedRefreshPageForContinue>
+  <AdminUpdateRestoreFromBackupEmpty>, No mur eil e air a thaghadh, thèid a chleachdadh leis an ùr-chruthachadh ann am faidhl roimhe cheum</AdminUpdateRestoreFromBackupEmpty>
+  <AdminUpdateInstallZipPathHint>Airson ùrachadh inns an làn-slighe gu corporra am faidhle a stàlaicheas (air an fhrithealaiche) anns a 'chiad achadh no ga fàgail falamh ann an òrdugh a chleachdadh air-loidhne sgaoileadh</AdminUpdateInstallZipPathHint>
+  <AdminUpdateInstallZipPathEmpty>Comharraichibh frith-rathad a 'tasgadh le stàladh</AdminUpdateInstallZipPathEmpty>
+  <AdminUpdateProgress>ùrachadh</AdminUpdateProgress>
+  <AdminUpdateAccessDeniedWarning>&lt;b&gt; aire! &lt;/b&gt; Airson ùrachadh Suidhich am ATHARRACHADH (leughadh is sgrìobhadh) NTFS ceadan gu {0} neach-cleachdaidh airson HTTP pasgan le Comanndair {1} agus ath-leasachadh. &lt;br /&gt; An dèidh cho soirbheachail 'leasachadh cuiribh air ais an t-seann chòraichean.</AdminUpdateAccessDeniedWarning>
+  <AdminUpdateAccessDeniedWarningCurentUser>-dràsta</AdminUpdateAccessDeniedWarningCurentUser>
+
+  <ServerExceedsMaxSizeForEditAsTextFile>Tha meud an fhaidhle nas àirde na an àireamh as motha meud a dheasachadh e mar am faidhle teacsa.</ServerExceedsMaxSizeForEditAsTextFile>
+  <ServerDemoMode>Tha a thoirt gnìomha a tha air a thoirmeasg ann an demo modh</ServerDemoMode>
+  <ServerHostedMode>Chan eil e ceadaichte atharrachadh luachan a leanas ann an suidheachaidhean aoigheachd tionndadh deuchainn: {0}.</ServerHostedMode>
+  <ServerIncorrectImageContentType>Tha am faidhl MIME-seòrsa Chan eil ìomhaigh</ServerIncorrectImageContentType>
+  <ServerPermissionDenied>Obrachadh seo a dhiùltadh air sgàth cuingealaichte ceadan</ServerPermissionDenied>
+  <ServerRestoreFromTrashNoParentFolder>Dh'fhàillig air ais nan rìghrean air sgàth an pàrant eòlaire "{0}" Cha deach a lorg. Cuiribh e a chruthachadh agus feuchainn a-rithist.</ServerRestoreFromTrashNoParentFolder>
+  <ServerModifyPermissionDenied>Obrachadh seo a dhiùltadh a chionn 's nach fheum thu cead atharrachadh an fhaidhle</ServerModifyPermissionDenied>
+  <ServerPathNotFound>Path cha d 'fhuaradh.</ServerPathNotFound>
+  <ServerInvalidPath>Path "{0}" Chan eil e dligheach</ServerInvalidPath>
+  <ServerInvalidAbsolutePath>Mì-dhligheach iomlan frith-rathad "{0}"</ServerInvalidAbsolutePath>
+  <!-- share folder path: \\server\share -->
+  <ServerInvalidShareFolderPath>Mì-dhligheach roinn am pasgan frith-rathad "{0}"</ServerInvalidShareFolderPath>
+  <ServerInvalidUncPath>Mì-dhligheach UNC frith-rathad "{0}"</ServerInvalidUncPath>
+  <ServerUnableResolveUncPath>Cha gus fuasgladh fhaighinn air UNC frith-rathad "{0}"</ServerUnableResolveUncPath>
+  <ServerInvalidFileName>Tha am faidhl / pasgan Chan eil ainm a shuidheachadh no a tha mearachdach caractaran {0}</ServerInvalidFileName>
+  <ServerFilePathNotFound>File eil ann</ServerFilePathNotFound>
+  <ServerIncorrectPathForFileLink>Bidh Clann Ulaidh seòrsa rud. Tha am frith-rathad a shònraich 'comharrachadh gu pasgan</ServerIncorrectPathForFileLink>
+  <ServerIncorrectPathForFolderLink>Bidh Clann Ulaidh seòrsa rud. Tha am frith-rathad a shònraich Puingean ri faidhle</ServerIncorrectPathForFolderLink>
+  <ServerRootFolderNotFound>Pasgan freumhach airson frith-rathad "{0}" a lorg.</ServerRootFolderNotFound>
+  <ServerUnableCreateFolder>Cha do ghabh am pasgan a chruthachadh</ServerUnableCreateFolder>
+  <ServerFileAlreadyExists>Fhaidhle-ainm seo mu thràth</ServerFileAlreadyExists>
+  <ServerFileAlreadyExistsOnRename>
+    A bheil thu airson rename "{0}" gus "{1}"?
+    Tha mar-thà faidhle leis an aon ainm ann an seo location.
+  </ServerFileAlreadyExistsOnRename>
+  <ServerFolderAlreadyExistsOnRename>
+    A bheil thu airson rename "{0}" gus "{1}"?
+    Tha mar-thà am pasgan leis an aon ainm ann an seo location.
+  </ServerFolderAlreadyExistsOnRename>
+  <ServerFoldersMergeConfirm>
+    Tha seo a 'cheann-uidhe mar-thà anns am pasgan ainmeachadh "{0}".
+    A bheil thu fhathast ag iarraidh a choimeasgadh am pasgan seo "{0}" le seo aon "{1}"?
+  </ServerFoldersMergeConfirm>
+  <ServerFolderWithSameNameAsFileNameAlreadyExists>Tha mar-thà am pasgan leis an aon ainm "{0}" mar ainm an fhaidhle a shònraich thu</ServerFolderWithSameNameAsFileNameAlreadyExists>
+  <ServerFileWithSameNameAsFolderNameAlreadyExists>Tha mar-thà faidhle leis an aon ainm "{0}" mar ainm a 'phasgain a shònraich thu</ServerFileWithSameNameAsFolderNameAlreadyExists>
+  <ServerFileNotFound>Tha am faidhle "{0}" Chan eil a lorg sa phasgan "{1}". 'S dòcha gun deach a sguabadh às no a thoirt air falbh le cleachdaiche eile.</ServerFileNotFound>
+  <ServerDirectoryAlreadyExists>A eòlaire-ainm seo mu thràth</ServerDirectoryAlreadyExists>
+  <ServerFolderMoveAlreadeExists>Tha an ceann-uidhe am pasgan "{0}" 'S e an aon rud ri tobar am pasgan</ServerFolderMoveAlreadeExists>
+  <ServerUploadPathNotFound>Tha frith-rathad airson faidhl stòraidh nach eil lorg air an fhrithealaiche</ServerUploadPathNotFound>
+  <ServerUploadPathNotSet>Thachair mearachd fhad 'sa bha a' faighinn frith-rathad a luchdadh suas. Please, Ùraich an duilleag ann am brabhsair is feuch ris a-rithist.</ServerUploadPathNotSet>
+  <ServerUploadNoChunk>Chan eil pìos airson Save</ServerUploadNoChunk>
+  <ServerUploadWriteChunk>Sgrìobh pìos bho Byte</ServerUploadWriteChunk>
+  <ServerUploadCreatingFile>A 'cruthachadh faidhle</ServerUploadCreatingFile>
+  <ServerUploadFileUploaded>Chaidh am faidhle a luchdachadh suas</ServerUploadFileUploaded>
+  <ServerUploadWriteError>sgrìobhadh mearachd</ServerUploadWriteError>
+  <ServerConfigurationError>Bidh Clann Ulaidh rèiteachadh no iarrtas! Fios gu rianaire na làraich</ServerConfigurationError>
+  <ServerPermissionsAllowTypes>Ceadan-dràsta a 'leigeil le seo obrachadh a-mhàin le seòrsaichean faidhle {0}</ServerPermissionsAllowTypes>
+  <ServerPermissionsDenyTypes>-Dràsta ceadan seo a 'toirmeasg obrachadh le seòrsaichean faidhle {0}</ServerPermissionsDenyTypes>
+  <ServerRequestSizeExceeded>Tha meud na faidhlichean a luchdadh suas a 'dol thairis cead meud ann an roghainnean an fhrithealaiche</ServerRequestSizeExceeded>
+  <ServerEmailMsgProcessedFilesSubject>Luchdachadh suas / atharrachadh / luchdaich / chruthachadh / Deleted / faidhlichean co-roinnte / pasgannan</ServerEmailMsgProcessedFilesSubject>
+  <ServerEmailMsgUploadFilesTitle>luchdachadh suas</ServerEmailMsgUploadFilesTitle>
+  <ServerEmailMsgModifyFilesTitle>mhùthadh</ServerEmailMsgModifyFilesTitle>
+  <ServerEmailMsgDownloadFilesTitle>luchdachadh a-nuas</ServerEmailMsgDownloadFilesTitle>
+  <ServerEmailMsgCreateFilesTitle>chruthaich</ServerEmailMsgCreateFilesTitle>
+  <ServerEmailMsgDeleteFilesTitle>a sguabadh às</ServerEmailMsgDeleteFilesTitle>
+  <ServerEmailMsgCreatePublicFilesTitle>co-roinnte</ServerEmailMsgCreatePublicFilesTitle>
+  <ServerEmailMsgProcessedFilesBody>
+    Tha na leanas faidhlichean / phasgain bha {0} {1} le:
+
+{2}
+    
+  </ServerEmailMsgProcessedFilesBody>
+  <ServerEmailMsgPasswordRecoverSubject>Password ath-bheothachadh</ServerEmailMsgPasswordRecoverSubject>
+  <ServerEmailMsgPasswordRecoverBody>
+    Tha thu ag iarraidh air ais facal-faire agad ann an Lìon am manaidsear fhaidhlichean. Chaidh facal-faire agad ath-shuidheachadh. Ma tha thu den bheachd gur e mearachd, dìreach leig seachad an litir seo, ach a bhith mothachail gu bheil facal-faire agad air a bhith air atharrachadh.
+    -Ainm-cleachdaiche: {0}
+    Facal-faire ùr: {1}
+  </ServerEmailMsgPasswordRecoverBody>
+  
+  <ServerEmailMsgUserNameRecoverSubject>Ainm-cleachdaidh ath-bheothachadh</ServerEmailMsgUserNameRecoverSubject>
+  <ServerEmailMsgUserNameRecoverBody>
+    Tha thu ag iarraidh air ais d 'ainm ann an Lìon am manaidsear fhaidhlichean.
+    -Ainm-cleachdaiche: {0}
+  </ServerEmailMsgUserNameRecoverBody>
+
+  <ServerEmailMsgUserActivationSubject>cunntas cur thuige</ServerEmailMsgUserActivationSubject>
+  <ServerEmailMsgUserActivationBody>
+    Account ({0}) cur thuige a dhìth.
+    Airson a 'chur an cunntas agad, briog air a' cheangal a leanas: {1}
+  </ServerEmailMsgUserActivationBody>
+  <ServerEmailMsgUserRegisteredSubject>Cleachdaiche clàraichte</ServerEmailMsgUserRegisteredSubject>
+  <ServerEmailMsgUserRegisteredBody>
+    Tha thu a chlàradh gu soirbheachail sa Web am manaidsear fhaidhlichean.
+    -Ainm-cleachdaiche: {0}
+  </ServerEmailMsgUserRegisteredBody>
+  <ServerEmailMsgUserRegisteredForAdminsBody>
+    &lt;h4&gt; New neach-cleachdaidh air a bhith clàraichte &lt;/h4&gt;
+    &lt;strong&gt; Cleachdaiche ainm &lt;/strong&gt;: {0} &lt;br /&gt;
+    &lt;strong&gt; Cuir post-dealain &lt;/strong&gt;: {1} &lt;br /&gt;
+    &lt;strong&gt; Date &lt;/strong&gt;: {2} &lt;br /&gt;
+    &lt;strong&gt; Extra info &lt;/strong&gt;: {3} &lt;br /&gt;
+  </ServerEmailMsgUserRegisteredForAdminsBody>
+  <ServerDiskFullError>Chan eil rùm gu leòr air an diosg.</ServerDiskFullError>
+  <ServerFolderLimitations>Folder cuingeachaidhean a leanas: {0}</ServerFolderLimitations>
+  <ServerShortcutAssignedFolderNotFound>Shònrachadh pasgan cha d 'fhuaradh targaid slighe shortcut</ServerShortcutAssignedFolderNotFound>
+  <ServerSizeFilesForZipExceeded>Tha meud archivable faidhlichean thairis ceadaichte luach {0}.</ServerSizeFilesForZipExceeded>
+  <ServerPasteFolderToSubfolderError>Tha an ceann-uidhe am pasgan "{0}" 'S e subfolder an tùs am pasgan "{1}".</ServerPasteFolderToSubfolderError>
+  <ServerLiveConnectAppIDNotSpecified>Tha an neach-dèiligidh a 'Chlàir de Microsoft Connect Live iarrtas Chan eil mhìneachadh</ServerLiveConnectAppIDNotSpecified>
+  <ServerSendEmailInfo>Author shònrachadh post-d aca mar {0}. Cleachd MHÀIN phost-d seo gus freagairt.</ServerSendEmailInfo>
+
+  <ServerAntivirusScanningFailed>Sganaidh le Antivirus: '{0} {1}' crìoch a chur air neo-àbhaisteach.</ServerAntivirusScanningFailed>
+
+  <ServerUserNameNotFound>Cleachdaiche le ainm "{0}" a lorg.</ServerUserNameNotFound>
+  <ServerFileNameCopySuffix>lethbhreac den</ServerFileNameCopySuffix>
+
+  <ServerDeleteFolderNTFSAccessDenied>Cha leig thu leas NTFS cead a thoirt air falbh am pasgan "{0}"</ServerDeleteFolderNTFSAccessDenied>
+
+  <ServerMSOOTemplateNotFound>{0} teamplaid cha d 'fhuaradh</ServerMSOOTemplateNotFound>
+</Localization>

@@ -1,0 +1,1608 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Localization>
+  <!-- Common keys -->
+  
+  <ExtMsgButtonTextYES>بله</ExtMsgButtonTextYES>
+  <ExtMsgButtonTextNO>خیر</ExtMsgButtonTextNO>
+  
+  <ControlHideFileManager>مخفی کردن فایل های وب بدهید</ControlHideFileManager>
+  
+  <CommonMainTitle>دسترسی به فایل های وب</CommonMainTitle>
+  <CommonApplicationLoading>در حال بارگذاری دسترسی فایل های وب</CommonApplicationLoading>
+  <CommonLoadError>یک خطا در طول گرفتن داده درخت رخ داده است</CommonLoadError>
+  <CommonGridAccessDenied>پوشه "{0}" وجود ندارد و یا دسترسی به عنوان خوانده شده است را تکذیب کرد</CommonGridAccessDenied>
+  <CommonNoScript>این صفحه نیاز به جاوا اسکریپت را در مرورگر خود فعال شود! لطفا آن را فعال کنید و دوباره وارد شوید!</CommonNoScript>
+  <CommonErrorCaption>خطا</CommonErrorCaption>
+  <CommonWarningCaption>هشدار</CommonWarningCaption>
+  <CommonInfoCaption>اطلاعات</CommonInfoCaption>
+  <CommonConfirmCaption>تایید</CommonConfirmCaption>
+  <CommonFileNameCaption>نام فایل</CommonFileNameCaption>
+  <CommonFileNamePrompt>یک نام فایل جدید را وارد کنید</CommonFileNamePrompt>
+  <CommonFileNewNameValue>متن جدید Document.txt است</CommonFileNewNameValue>
+  <CommonFolderNewNameValue>پوشه جدید</CommonFolderNewNameValue>
+  <CommonZipFileNameCaption>پستی نام آرشیو</CommonZipFileNameCaption>
+  <CommonZipFileNamePrompt>نام فایل (فرمت به صورت خودکار اضافه شده است)</CommonZipFileNamePrompt>
+  <CommonFolderNameCaption>نام پوشه</CommonFolderNameCaption>
+  <CommonFolderNamePrompt>نام پوشه جدید را وارد کنید</CommonFolderNamePrompt>
+  <CommonDeleteOnePrompt>آیا مطمئن هستید که می خواهید به حذف "{0}"؟</CommonDeleteOnePrompt>
+  <CommonDeleteManyPrompt>آیا مطمئن هستید که می خواهید این {0} مورد را حذف کنید؟</CommonDeleteManyPrompt>
+  <CommonForToday>برای امروز</CommonForToday>
+  <CommonButtonCaptionOK>خوب</CommonButtonCaptionOK>
+  <CommonButtonCaptionCancel>لغو کردن</CommonButtonCaptionCancel>
+  <CommonButtonCaptionClose>نزدیک</CommonButtonCaptionClose>
+  <CommonButtonCaptionAdd>اضافه کردن</CommonButtonCaptionAdd>
+  <CommonButtonCaptionContinue>ادامه دهید</CommonButtonCaptionContinue>
+
+  <CommonProgressPleaseWait>لطفا صبر کنید</CommonProgressPleaseWait>
+  
+  <CommonFieldLabelName>نام</CommonFieldLabelName>
+  <CommonFieldLabelPath>مسیر</CommonFieldLabelPath>
+  <CommonFieldLabelSize>اندازه</CommonFieldLabelSize>
+  <CommonFieldLabelLabels>برچسب ها</CommonFieldLabelLabels>
+  <CommonFieldLabelType>نوع</CommonFieldLabelType>
+  <CommonFieldLabelAction>عمل</CommonFieldLabelAction>
+  <CommonFieldLabelDate>تاریخ</CommonFieldLabelDate>
+  <CommonFieldLabelDateTime>زمان قرار</CommonFieldLabelDateTime>
+  <CommonFieldLabelDateCreated>تاریخ ایجاد</CommonFieldLabelDateCreated>
+  <CommonFieldLabelDateModified>تاریخ ویرایش</CommonFieldLabelDateModified>
+  <CommonFieldLabelDateAccessed>تاریخ دسترسی</CommonFieldLabelDateAccessed>
+  <CommonFieldLabelValue>ارزش</CommonFieldLabelValue>
+  <CommonFieldLabelUserName>نام کاربری</CommonFieldLabelUserName>
+  <CommonFieldLabelUser>کاربر</CommonFieldLabelUser>
+  <CommonFieldLabelUsers>کاربران</CommonFieldLabelUsers>
+  <CommonFieldLabelGroupName>اسم گروه</CommonFieldLabelGroupName>
+  <CommonFieldLabelGroup>گروه</CommonFieldLabelGroup>
+  <CommonFieldLabelGroups>گروه ها</CommonFieldLabelGroups>
+  <CommonFieldLabelPassword>کلمه عبور</CommonFieldLabelPassword>
+  <CommonFieldLabelRepeatPassword>تکرار رمز عبور</CommonFieldLabelRepeatPassword>
+  <CommonFieldLabelComments>نظرات</CommonFieldLabelComments>
+  <CommonValueTypeFolder>پوشه</CommonValueTypeFolder>
+
+  <CommonFieldLabelDescription>شرح</CommonFieldLabelDescription>
+  <EmptyDescriptionText>مشخص توضیحات</EmptyDescriptionText>
+  <CommonFieldLabelReadMeTxt>محتوای readme.txt و</CommonFieldLabelReadMeTxt>
+  
+  <CommonWordOr>یا</CommonWordOr>
+
+  <SortAscText>ترتیب صعودی</SortAscText>
+  <SortDescText>ترتیب نزولی</SortDescText>
+
+  <CommonNewDocument>سند جدید</CommonNewDocument>
+  <CommonNewSpreadsheet>صفحه گسترده جدید</CommonNewSpreadsheet>
+  <CommonNewPresentation>ارائه جدید</CommonNewPresentation>
+
+  <CommonWordWrap>قرار دادن کلمه</CommonWordWrap>
+  
+  <!-- End Common keys -->
+
+  <!-- Labels -->
+
+  <LabelsTitle>برچسب</LabelsTitle>
+  <LabelsNoLabel>بدون برچسب</LabelsNoLabel>
+  <LabelsColor>رنگ</LabelsColor>
+  <LabelsCustomLabel>برچسب سفارشی</LabelsCustomLabel>
+  <LabelsCustomLabelHint>متن برچسب را وارد کنید</LabelsCustomLabelHint>
+  <LabelsCustomLabelView>برچسب و nbsp؛ مشخصات: &amp;nbsp؛ در {0} {1} {2}</LabelsCustomLabelView>
+  <LabelsFileLabelledMessage>موفقیت برچسب {0} کالا (ها)</LabelsFileLabelledMessage>
+  <LabelsRemovedMessage>با موفقیت حذف شد {0} برچسب (بازدید کنندگان)</LabelsRemovedMessage>
+  <LabelsNotRemovedMessages>حذف نشده: {0}</LabelsNotRemovedMessages>
+  <LabelsNotLabelledMessage>برچسب نیست: {0}</LabelsNotLabelledMessage>
+  <LabelsLabelRemovedMessage>برچسب با موفقیت حذف</LabelsLabelRemovedMessage>
+  <LabelsNewLabel>برچسب جدید</LabelsNewLabel>
+  <LabelsLabellingMessage>شوی</LabelsLabellingMessage>
+  <LabelsRemovingLabelMessage>حذف برچسب</LabelsRemovingLabelMessage>
+  <LabelsLabelInfoTip>مشخص شده به عنوان '{0}' {1} توسط کاربر: '{2}</LabelsLabelInfoTip>
+
+  <!-- End Labels -->
+
+  <!-- Comments -->
+
+  <CommentsCountInfoTip>{0} نظر (ها)</CommentsCountInfoTip>
+  <CommentsWriteCommentHint>نوشتن نظر و مطبوعات '{0} یا Ctrl+را وارد کنید و یا Shift+Enter را ...</CommentsWriteCommentHint>
+
+  <!-- End Comments -->
+
+  <RefreshPageWarningMessage>&lt;b&gt; توجه! &lt;/b&gt; برای تکمیل این عملیات، صفحه فعلی از مرورگر باید تجدید شد. &lt;br /&gt; آیا شما می خواهید به روز کردن در حال حاضر؟</RefreshPageWarningMessage>
+
+  <PagingToolbarBeforePageText>صفحه</PagingToolbarBeforePageText>
+  <PagingToolbarAfterPageText>از {0}</PagingToolbarAfterPageText>
+  <PagingToolbarFirstText>صفحه اول</PagingToolbarFirstText>
+  <PagingToolbarPrevText>صفحه قبلی</PagingToolbarPrevText>
+  <PagingToolbarNextText>صفحه بعد</PagingToolbarNextText>
+  <PagingToolbarLastText>آخرین صفحه</PagingToolbarLastText>
+  <PagingToolbarDisplayMsg>نمایش {0} - {1} از {2}</PagingToolbarDisplayMsg>
+  <PagingToolbarEmptyMsg>هیچ دادهای برای نمایش</PagingToolbarEmptyMsg>
+  
+  <GridTotalLabel>جمع:</GridTotalLabel>
+  <GridTotalFilesLabel>فایل ها</GridTotalFilesLabel>
+  <GridTotalFoldersLabel>پوشه ها</GridTotalFoldersLabel>
+  
+  <GridDDSelectedRowsText>{0} سطر انتخاب شده {1}</GridDDSelectedRowsText>
+  <GridDDSelectedFilesText>{0} فایل های انتخاب شده</GridDDSelectedFilesText>
+  <GridDDSelectedFoldersText>{0} پوشه های انتخاب شده</GridDDSelectedFoldersText>
+  <GridDDConfirmCopyMoveTitle>قطره را به پوشه "{0}"</GridDDConfirmCopyMoveTitle>
+  <GridDDConfirmAddToZipTitle>اضافه کردن به فایل های فشرده "{0}"</GridDDConfirmAddToZipTitle>
+  <GridDDConfirmAddToZipMessage>فایل های کشیده خواهد شد به این آرشیو ZIP اضافه شده است. آیا شما می خواهید ادامه دهید؟ {0}.</GridDDConfirmAddToZipMessage>
+  <GridDDConfirmCopyMoveMsg>یک عمل است که می خواهید به درخواست را انتخاب کنید. منبع: "{0}"، پوشه مقصد: "{1}" {2} {3}.</GridDDConfirmCopyMoveMsg>
+  <GridDDConfirmCopyMoveToZipMsg>فایل خواهد شد به آرشیو فایل های فشرده اضافه شده است. عملی که شما می خواهید به درخواست به فایل های کشیده پس از اضافه کردن فایل ها به آرشیو فایل های فشرده را انتخاب کنید. منبع: "{0}"، آرشیو فایل های فشرده مقصد: "{1}" {2} {3}.</GridDDConfirmCopyMoveToZipMsg>
+  <GridDDDraggedFileNames>&lt;b&gt; فایل های کشیده: &lt;/b&gt; {0}</GridDDDraggedFileNames>
+  <GridDDDraggedFolderNames>&lt;b&gt; پوشه کشیده: &lt;/b&gt; {0}</GridDDDraggedFolderNames>
+  <GridDDConfirmTargetFolderOnlyCopyMsg>مجوز فعلی برای پوشه منبع به شما اجازه می دهد تا تنها نسخه فایل های کشیده. آیا شما می خواهید ادامه دهید؟ {0}.</GridDDConfirmTargetFolderOnlyCopyMsg>
+  <GridDDConfirmTargetFolderOnlyMoveMsg>مجوز فعلی برای پوشه منبع به شما اجازه می دهد تا تنها حرکت فایل های کشیده. آیا شما می خواهید ادامه دهید؟ {0}.</GridDDConfirmTargetFolderOnlyMoveMsg>
+
+  <GridRowPublicHint>برای باز کردن یک لینک عمومی در یک پنجره / زبانه تازه را کلیک کنید</GridRowPublicHint>
+  <GridRowAlertHint>برای مشاهده تغییرات انجام شده برای این فایل / پوشه کلیک کنید</GridRowAlertHint>
+  <GridRowRecentHint>قرار دادن این فایل / پوشه</GridRowRecentHint>
+  <GridRowAlertEventHint>کلیک کنید برای رفتن این مکان</GridRowAlertEventHint>
+
+  <ProgressCreating>پدید آوردن</ProgressCreating>
+  <ProgressDeleting>حذف</ProgressDeleting>
+  <ProgressLoading>بارگیری</ProgressLoading>
+  <ProgressSearching>جستجوکردن</ProgressSearching>
+  <ProgressZipping>فشرده سازی</ProgressZipping>
+  <ProgressUnzipping>باز کردن بسته بندی</ProgressUnzipping>
+  <ProgressZipContents>گرفتن محتویات آرشیو زیپ</ProgressZipContents>
+  <ProgressPrepareDownload>آماده شدن برای دانلود</ProgressPrepareDownload>
+  <ProgressMoving>پیش رفتن</ProgressMoving>
+  <ProgressCopying>کپی برداری</ProgressCopying>
+  <ProgressRenaming>تغییر نام</ProgressRenaming>
+  <ProgressUpdating>در حال بروز رسانی</ProgressUpdating>
+  <ProgressLoadingEditInPixlr>در حال بارگیری ویرایشگر Pixlr را</ProgressLoadingEditInPixlr>
+  <ProgressLoadingEdit>ویرایشگر در حال بارگذاری</ProgressLoadingEdit>
+  <ProgressSavingEdit>صرفه جویی در فایل</ProgressSavingEdit>
+  <ProgressSaving>صرفه جویی در</ProgressSaving>
+  <ProgressExecuting>مجری</ProgressExecuting>
+
+  <BalloonFilesDeleted>{0} فایل (ها) حذف</BalloonFilesDeleted>
+  <BalloonFoldersDeleted>{0} پوشه (ها) حذف</BalloonFoldersDeleted>
+  <BalloonFilesFailed>{0} فایل (بازدید کنندگان) شکست خورده</BalloonFilesFailed>
+  <BalloonFoldersFailed>{0} پوشه (ها) شکست خورده</BalloonFoldersFailed>
+  <BalloonFilesZipped>{0} فایل (بازدید کنندگان) فشرده</BalloonFilesZipped>
+  <BalloonFoldersZipped>{0} پوشه (ها) فشرده</BalloonFoldersZipped>
+  <BalloonFilesCopied>{0} فایل (ها) کپی</BalloonFilesCopied>
+  <BalloonFoldersCopied>{0} پوشه (ها) کپی</BalloonFoldersCopied>
+  <BalloonFilesMoved>{0} فایل (بازدید کنندگان) نقل مکان کرد</BalloonFilesMoved>
+  <BalloonFoldersMoved>{0} پوشه (ها) نقل مکان کرد</BalloonFoldersMoved>
+  <BalloonNotUnzipped>{0} فایل (ها) به غیر بستهای نشده است</BalloonNotUnzipped>
+  <BalloonFilesUploaded>{0} فایل (ها) آپلود</BalloonFilesUploaded>
+  <BalloonFilesNotUploaded>{0} فایل (ها) آپلود نمی</BalloonFilesNotUploaded>
+  <BalloonSomeFilesNotUploaded>برخی فایل ها می توانید آپلود می شود</BalloonSomeFilesNotUploaded>
+  <BalloonCreatedSuccessfully>ایجاد موفقیت</BalloonCreatedSuccessfully>
+  <BalloonUnzippedSuccessfully>غیر فشرده موفقیت</BalloonUnzippedSuccessfully>
+  <BalloonRenamedSuccessfully>تغییر نام موفقیت</BalloonRenamedSuccessfully>
+  <BalloonSavedSuccessfully>با موفقیت ذخیره شد</BalloonSavedSuccessfully>
+  <BalloonCopiedToClipboard>کپی به کلیپ بورد</BalloonCopiedToClipboard>
+  <BalloonCopyToClipboardFailed>کپی به کلیپ بورد شکست خورده</BalloonCopyToClipboardFailed>
+
+  <CommandCopyToClipboard>کپی به کلیپ بورد</CommandCopyToClipboard>
+  <CommandCopyLinkToClipboard>از لینک کپی به کلیپ بورد</CommandCopyLinkToClipboard>
+  <ClipboardScreenshotTitlePrefix>تصویر</ClipboardScreenshotTitlePrefix>
+  <ClipboardScreenshotHint>تصاویر: شما می توانید یک تصویر از کلیپ بورد خود را وارد کنید (را فشار دهید &lt;b&gt; کلیدهای Ctrl+PrtSc &lt;/b&gt; و سپس &lt;b&gt; کلیدهای Ctrl+V &lt;/b&gt;) یا یک تصویر از ویرایشگر خود را (را فشار دهید &lt;b&gt; کلیدهای Ctrl+V &lt;/b&gt;).</ClipboardScreenshotHint>
+  <ClipboardFileHint>شما همچنین می توانید یک فایل را از کلیپ بورد</ClipboardFileHint>
+
+  <CommandClouds>ذخیره سازی ابر</CommandClouds>
+  <CommandCloudsDownloadTo>دانلود به ...</CommandCloudsDownloadTo>
+  <CommandCloudsUploadFrom>آپلود از ...</CommandCloudsUploadFrom>
+  <CommandCloudsAbout>درباره ذخیره سازی ابر</CommandCloudsAbout>
+  
+  <CommandBack>بازگشت</CommandBack>
+  <CommandForward>رو به جلو</CommandForward>
+  <CommandRecentFolders>پوشه های اخیر</CommandRecentFolders>
+  <CommandHome>خانه</CommandHome>
+  <CommonActions>اعمال</CommonActions>
+  <CommandMultiSelect>چند را انتخاب کنید</CommandMultiSelect>
+  <CommandShare>اشتراک گذاری</CommandShare>
+  <CommandSorting>مرتب سازی</CommandSorting>
+  
+  <CommandFileManager>بازگشت به مدیریت فایل</CommandFileManager>
+  <CommandFolders>پوشه</CommandFolders>
+  <CommandGridView>چشم انداز</CommandGridView>
+  <CommandRefresh>تازه کردن</CommandRefresh>
+  <CommandThumbnailView>نمایش تصویر بند انگشتی</CommandThumbnailView>
+  <CommandDetailedView>مشاهده لیست</CommandDetailedView>
+  <CommandDetailsPane>جزییات</CommandDetailsPane>
+  <CommandFavorites>مورد علاقه های شما</CommandFavorites>
+  <CommandAddToFavorites>اضافه کردن به علاقه</CommandAddToFavorites>
+  <CommandAddToFavoritesHint>اضافه کردن پوشه فعلی به علاقه مندی ها</CommandAddToFavoritesHint>
+  <AddingToFavoritesMessage>اضافه کردن به علاقه مندی ها</AddingToFavoritesMessage>
+  <RemoveFromFavoritesMessage>حذف از علاقه مندی ها</RemoveFromFavoritesMessage>
+  <FolderAlreadyAddedInFavorites>پوشه "{0}" در حال حاضر در مورد علاقه وجود دارد</FolderAlreadyAddedInFavorites>
+  <FolderAddedInFavoritesSuccessfully>پوشه "{0}" موفقیت به علاقه مندی ها اضافه شد</FolderAddedInFavoritesSuccessfully>
+  <FavoritesIsOverflowed>ممکن بود برای اضافه کردن پوشه جاری "{0}" به علاقه مندی ها. حذف برخی از مورد علاقه به آزاد برخی از فضا و دوباره امتحان کنید.</FavoritesIsOverflowed>
+  <RemoveFromFavoritesHint>حذف "{0}" از مورد علاقه های</RemoveFromFavoritesHint>
+  <AddToHomeScreenIOSHint>ضربه بزنید {0} و سپس &lt;strong&gt; "افزودن به صفحه اصلی" &lt;/ قوی&gt;</AddToHomeScreenIOSHint>
+  <CommandSearch>جستجو کردن</CommandSearch>
+  <CommandUpload>بارگذاری</CommandUpload>
+  <CommandSettings>تنظیمات</CommandSettings>
+  <CommandLanguage>زبان</CommandLanguage>
+  <CommandAdministration>مدیریت</CommandAdministration>
+  <CommandAdminPanel>پنل مدیریت</CommandAdminPanel>
+  <CommandChangePassword>تغییر رمز عبور</CommandChangePassword>
+  <ProgressChangePassword>رمز عبور تغییر</ProgressChangePassword>
+  <CommandChangeEmail>تغییر ایمیل</CommandChangeEmail>
+  <ProgressChangeEmail>تغییر ایمیل</ProgressChangeEmail>
+  <CommandMobileView>رابط موبایل (گوشی های هوشمند)</CommandMobileView>
+  <CommandStandardView>نسخه کامل</CommandStandardView>
+  <CommandInstallIOSApp>نصب برنامه های iOS</CommandInstallIOSApp>
+  <CommandInstallAndroidApp>نصب برنامه های آندروید</CommandInstallAndroidApp>
+  <CommandAddServerToMobileApp>اضافه کردن این سرور به برنامه تلفن همراه</CommandAddServerToMobileApp>
+  <CommandAddToHomeScreen>افزودن به صفحه اصلی</CommandAddToHomeScreen>
+  <CommandDiagnostics>صفحه تشخیصی</CommandDiagnostics>
+  <CommandLicenseInfo>اطلاعات مجوز</CommandLicenseInfo>
+  <CommandLogout>خروج از سیستم</CommandLogout>
+  <CommandLogoutHint>به پایان جلسه فعلی را کلیک کنید</CommandLogoutHint>
+  <CommandNew>جدید</CommandNew>
+  <CommandFile>پرونده</CommandFile>
+  <CommandEmptyFile>فایل خالی</CommandEmptyFile>
+  <CommandNewMSOODocument>سند با دفتر کارشناسی ارشد آنلاین</CommandNewMSOODocument>
+  <CommandNewOffice365Document>سند با دفتر 365</CommandNewOffice365Document>
+  <CommandNewMSOOWord>سند ورد</CommandNewMSOOWord>
+  <CommandNewMSOOExcel>صفحه گسترده اکسل</CommandNewMSOOExcel>
+  <CommandNewMSOOPowerPoint>ارائه پاورپوینت</CommandNewMSOOPowerPoint>
+  <CommandNewGoogleDocument>سند با Google</CommandNewGoogleDocument>
+  <CommandNewGoogleDocs>پرونده های گوگل</CommandNewGoogleDocs>
+  <CommandNewGoogleSheets>ورق های گوگل</CommandNewGoogleSheets>
+  <CommandNewGoogleSlides>اسلایدهای Google</CommandNewGoogleSlides>
+  <CommandNewImage>تصویر در نرم افزار Pixlr</CommandNewImage>
+  <CommandFolder>پوشه</CommandFolder>
+  <CommandNewFile>فایل جدید خالی</CommandNewFile>
+  <CommandNewFolder>پوشه جدید</CommandNewFolder>
+  <CommandNewWithTemplate>با استفاده از قالب ...</CommandNewWithTemplate>
+  <CommandRename>تغییر نام</CommandRename>
+  <CommandDelete>حذف</CommandDelete>
+  <CommandCopy>نسخه</CommandCopy>
+  <CommandMove>حرکت</CommandMove>
+  <CommandCut>برش</CommandCut>
+  <CommandCopyTo>کپی در ...</CommandCopyTo>
+  <CommandMoveTo>انتقال به ...</CommandMoveTo>
+  <CommandCopyCutClipboardSuffix>به کلیپ بورد</CommandCopyCutClipboardSuffix>
+  <CommandPaste>خمیر</CommandPaste>
+  <CommandPasteInto>رب را به</CommandPasteInto>
+  <CommandZip>فشرده سازی به صورت زیپ</CommandZip>
+  <CommandZipMenu>فشرده / جدا کردن</CommandZipMenu>
+  <CommandUnzip>فایل های فشرده باز کردن</CommandUnzip>
+  <CommandUnzipSelected>باز کردن انتخاب</CommandUnzipSelected>
+  <CommandUnzipAll>باز کردن تمام</CommandUnzipAll>
+  <CommandUnzipTo>به پوشه</CommandUnzipTo>
+  <CommandUnzipToCurrent>به پوشه جاری</CommandUnzipToCurrent>
+  <MessageUnzipToFolder>نوع نام از یک پوشه به باز کردن این به</MessageUnzipToFolder>
+  <MessageUnzipPasswordHint>اگر شما می دانید که یک رمز عبور برای باز کردن لازم است، آن را وارد کنید در قسمت زیر</MessageUnzipPasswordHint>
+  <MessageUnzipNeedPassword>رمز عبور مورد نیاز برای باز کردن فایل ها</MessageUnzipNeedPassword>
+  <ZipPasswordProtectHint>به کلمه عبور محافظت آرشیو فایل های فشرده، رمز عبور را در فیلد زیر وارد کنید. در غیر این صورت، ترک این زمینه خالی</ZipPasswordProtectHint>
+  <AppendToZipPasswordProtectHint>به کلمه عبور محافظت از فایل های اضافه شده به آرشیو فایل های فشرده، رمز عبور را در فیلد زیر وارد کنید. در غیر این صورت، ترک این زمینه خالی</AppendToZipPasswordProtectHint>
+  <ZipPasswordProtectWindowTitle>آرشیو با رمز عبور</ZipPasswordProtectWindowTitle>
+  <OpenFolderAfterUnzipCheckBox>باز کردن پوشه پس از باز کردن</OpenFolderAfterUnzipCheckBox>
+  <CommandUnzipToNew>به یک پوشه جدید</CommandUnzipToNew>
+  <CommandZipContents>محتوای فایل های فشرده</CommandZipContents>
+  <ArchiveContentsTitle>محتوای بایگانی "{0}"</ArchiveContentsTitle>
+  <CommandDownload>دانلود</CommandDownload>
+  <CommonDownloadAll>دانلود همه</CommonDownloadAll>
+  <DownloadListDragFile>شما می توانید فایل را روی کامپیوتر خود N- قطره کشیدن</DownloadListDragFile>
+  <CommandZipDownload>فشرده سازی و دانلود</CommandZipDownload>
+  <CommandView>مشاهده در مرورگر</CommandView>
+  <CommandDownloadOrView>دانلود و یا مشاهده</CommandDownloadOrView>
+  <CommandPreview>پیش نمایش تصاویر</CommandPreview>
+  <CommandFlashPreview>پیش نمایش فلش</CommandFlashPreview>
+  <GettingSizeFlashMovie>گرفتن اندازه فیلم های فلش</GettingSizeFlashMovie>
+  <CommandEdit>ویرایش عنوان فایل متنی</CommandEdit>
+  <CommandEditView>مشاهده به عنوان فایل متنی</CommandEditView>
+  <AceNotLoadedMessage>قادر به بارگیری ویرایشگر آس</AceNotLoadedMessage>
+  <VideoJsNotLoadedMessage>قادر به بارگیری بازیکن VideoJS</VideoJsNotLoadedMessage>
+  <CommandMenuEdit>ویرایش</CommandMenuEdit>
+  <CommandSelectAll>انتخاب همه</CommandSelectAll>
+  <CommandInvertSelection>انتخاب معکوس</CommandInvertSelection>
+  <CommandLinkToFile>لینک به فایل / پوشه</CommandLinkToFile>
+  <!--Share link-->
+  <CommandMakePublicFolder>درست لینک های عمومی</CommandMakePublicFolder>
+  <PublicViewInGoogle>مشاهده در Google</PublicViewInGoogle>
+  <PublicViewinOWA>نمایش در OWA</PublicViewinOWA>
+  <!--Make public folder (share)-->
+  <CommandViewWithGoogleDoc>نمایش در Google Docs</CommandViewWithGoogleDoc>
+  <CommandViewWithShareCad>مشاهده در ShareCad.org</CommandViewWithShareCad>
+  <CommandViewWithAutodesk>نمایش در نرم افزار Autodesk</CommandViewWithAutodesk>
+  <CommandViewWithBox>نمایش در جعبه</CommandViewWithBox>
+  <CommandViewWithOWA>نمایش در آفیس تحت وب</CommandViewWithOWA>
+  <CommandCloudConvert>تبدیل با CloudConvert</CommandCloudConvert>
+  <ProgressGetCloudConvertOutputFormats>گرفتن فرمت های خروجی</ProgressGetCloudConvertOutputFormats>
+  <ProgressCloudConvertConverting>تبدیل</ProgressCloudConvertConverting>
+  <CloudConvertWindowTitle>تبدیل '{0}</CloudConvertWindowTitle>
+  <CloudConvertWindowConvertButton>تبدیل</CloudConvertWindowConvertButton>
+  <CloudConvertWindowOutputFormatsLabel>فرمت خروجی</CloudConvertWindowOutputFormatsLabel>
+  <CloudConvertDownloadLinkLabel>لینک دانلود</CloudConvertDownloadLinkLabel>
+  <CloudConvertSaveAsLabel>ذخیره به عنوان (پسوند به طور خودکار اضافه شده است):</CloudConvertSaveAsLabel>
+  <CloudConvertNoOutputFormats>هیچ فرمت های موجود برای تبدیل وجود دارد</CloudConvertNoOutputFormats>
+  <CloudConvertNoUrlForDownload>آن موفق نمی شد برای دریافت لینک برای دانلود</CloudConvertNoUrlForDownload>
+  <ProgressCloudConvertUploading>آپلود از CloudConvert</ProgressCloudConvertUploading>
+  <CloudConvertSaveAsNameBlank>نام وارد کنید</CloudConvertSaveAsNameBlank>
+  <CancelEditButton>لغو ویرایش</CancelEditButton>
+  <HideButton>پنهان شدن</HideButton>
+  <EditDocumentCancelHint>پس از بستن پنجره با سند ویرایش شده، آن ذخیره خودکار خواهد شد. &lt;br /&gt; شما می توانید این کادر محاوره ای با فشار دادن {0} (در این مورد، سند هنوز هم پس از بسته شدن ویرایشگر ذخیره شود) مخفی کردن است. &lt;br /&gt; اگر شما نمی خواهید به ذخیره سند، را فشار دهید {1} (در این مورد، پنجره ویرایشگر بسته خواهد شد).</EditDocumentCancelHint>
+  <EditDocumentSaveHint>در حال حاضر شما می توانید تغییرات در سند با فشار دادن {0} را نجات دهد. توجه! پس از پنجره ویرایشگر را ببندید، آن شود همچنین ذخیره خودکار خواهد شد.</EditDocumentSaveHint>
+  <CommandEditInMSOffice>ویرایش در MS دفتر</CommandEditInMSOffice>
+  <CommandEditInOOo>ویرایش در آفیس اپن سورس / لیبره آفیس</CommandEditInOOo>
+  <CommandViewInMSOffice>نمایش در MS دفتر</CommandViewInMSOffice>
+  <CommandViewInOOo>نمایش در آفیس اپن سورس / لیبره آفیس</CommandViewInOOo>
+  <CommandEditInPixlr>ویرایش در نرم افزار Pixlr</CommandEditInPixlr>
+  <CommandEditInAdobe>ویرایش در ادوبی کریتیو ابر</CommandEditInAdobe>
+  <AdobeImageEditorSavedAsNewTypeMessage>تصویر در نرم افزار Adobe ویرایشگر تصویر تغییر شده است در فرمت ذخیره {0}</AdobeImageEditorSavedAsNewTypeMessage>
+  <CommandEditInGoogle>ویرایش در Google Drive</CommandEditInGoogle>
+  <EditInGoogleConvertMessage>پس از ویرایش سند خواهد شد به فرمت تبدیل {1} {0} {2}</EditInGoogleConvertMessage>
+  <EditInGoogleLinkError>قادر به دریافت لینک به ویرایش سند در Google Drive</EditInGoogleLinkError>
+  <EditInGoogleWaiting>انتظار برای اتمام ویرایش در Google Drive</EditInGoogleWaiting>
+  <CommandEditInMSOO>ویرایش در MS دفتر آنلاین</CommandEditInMSOO>
+  <EditInMSOOLinkError>قادر به دریافت لینک به ویرایش سند در MS دفتر آنلاین</EditInMSOOLinkError>
+  <EditInMSOOWaiting>انتظار برای اتمام ویرایش در MS دفتر آنلاین</EditInMSOOWaiting>
+  <CommandEditInOffice365>ویرایش در Office 365</CommandEditInOffice365>
+  <EditInOffice365LinkError>قادر به دریافت لینک به ویرایش سند در Office 365</EditInOffice365LinkError>
+  <EditInOffice365Waiting>انتظار برای اتمام ویرایش در Office 365</EditInOffice365Waiting>
+  <CommandSave>صرفه جویی</CommandSave>
+  <CommandSaveAs>ذخیره به عنوان...</CommandSaveAs>
+  <CommandAppRestart>نرم افزار راه اندازی مجدد</CommandAppRestart>
+  <CommandPlayVideoFlash>بازی های ویدئویی در فلش پلیر</CommandPlayVideoFlash>
+  <CommandPlayVideoHtml5>پخش ویدئو</CommandPlayVideoHtml5>
+  <CommandPlayAudioHtml5>بازی های صوتی</CommandPlayAudioHtml5>
+  <CommandPlayVideo>پخش ویدئو</CommandPlayVideo>
+  <CommandPlayAudio>بازی های صوتی</CommandPlayAudio>
+  <CommandConvertVideo>تبدیل ویدیو</CommandConvertVideo>
+
+  <ViewInServiceLink>برای مشاهده فایل اینجا را کلیک کنید</ViewInServiceLink>
+  <EditInServiceLink>به منظور ویرایش سند اینجا را کلیک کنید</EditInServiceLink>
+
+  <OfficeEditCopyLinkLabel>لینک زیر را کپی و باز کردن آن در نرم افزار دفتر:</OfficeEditCopyLinkLabel>
+  <OfficeRunError>ممکن بود برای راه اندازی {0}</OfficeRunError>
+  <BadPathToFile>ممکن بود برای پیدا کردن مسیر فایل</BadPathToFile>
+  <FixBasicAuthAlertTitle>توجه!</FixBasicAuthAlertTitle>
+  <FixBasicAuthAlertMessage>مایکروسافت آفیس با احراز هویت عمومی کار می کند بدون SSL! شما می توانید این کار را برای دفتر خود را تعمیر. برای اطلاعات بیشتر مراجعه کنید به {0}.</FixBasicAuthAlertMessage>
+  <FixBasicAuthAlertCheckBoxText>برای نشان دادن این گفت و گو کند.</FixBasicAuthAlertCheckBoxText>
+  <CommandDetails>جزئیات</CommandDetails>
+  <CommonButtonCaptionAddDetail>اضافه کردن جزئیات</CommonButtonCaptionAddDetail>
+  <CommonButtonCaptionAddComment>اضافه کردن نظر</CommonButtonCaptionAddComment>
+  <DetailsWindowTitle>جزئیات "{0}"</DetailsWindowTitle>
+  <FileDetailsSave>تغغیرات را اعمال کن</FileDetailsSave>
+  <FileDetailsIgnoreChanges>چشم پوشی</FileDetailsIgnoreChanges>
+  <FileDetailsCloseConfirmTitle>پنجره جزئیات فایل است که بسته</FileDetailsCloseConfirmTitle>
+  <FileDetailsCloseConfirmMsg>توجه! تغییرات ذخیره نشده است. عملی که می خواهید به درخواست به این تغییرات قبل از بسته شدن پنجره، انتخاب کنید.</FileDetailsCloseConfirmMsg>
+  <FileDetailsGridTitleColumn>عنوان</FileDetailsGridTitleColumn>
+  <FileDetailsGridAuthorColumn>نویسنده آخرین</FileDetailsGridAuthorColumn>
+  <LoadingDetailsMask>در حال بارگیری جزئیات</LoadingDetailsMask>
+  <NewDetailsTitle>عنوان جدید</NewDetailsTitle>
+  <NewDetailsValue>ارزش جزئیات جدید</NewDetailsValue>
+  <DetailsSavingMsg>صرفه جویی در جزئیات</DetailsSavingMsg>
+  <ProgressLoadingEditInOffice>آماده سازی برای ویرایش در دفتر</ProgressLoadingEditInOffice>
+  <MenuFilterText>فیلترها برای تصفیه آب</MenuFilterText>
+  <EmptyTextFilter>فیلتر را وارد کنید ...</EmptyTextFilter>
+  <AfterDateFilterText>بعد از</AfterDateFilterText>
+  <BeforeDateFilterText>قبل از</BeforeDateFilterText>
+  <OnDateFilterText>بر</OnDateFilterText>
+  <YesBooleanFilterText>بله</YesBooleanFilterText>
+  <NoBooleanFilterText>خیر</NoBooleanFilterText>
+  <CommandEditWithZoho>ویرایش در طرف Zoho</CommandEditWithZoho>
+  <ZohoNotSupportedFormatMessage>این افزونه توسط طرف Zoho پشتیبانی نمی شود. مشاهده {0}.</ZohoNotSupportedFormatMessage>
+  <ProgressLoadingEditInZoho>در حال بارگذاری ویرایشگر طرف Zoho</ProgressLoadingEditInZoho>
+  <CommandSubMenuViewAndEdit>مشاهده / ویرایش</CommandSubMenuViewAndEdit>
+  <CommandSubMenuShare>اشتراک گذاری</CommandSubMenuShare>
+  <CommandSubMenuMore>بیش</CommandSubMenuMore>
+  <StopUploadingButtonText>متوقف کردن</StopUploadingButtonText>
+  <SimpleUploadErrorInfo>هنگام آپلود فایل (بازدید کنندگان) خطایی وجود دارد است. &lt;br /&gt; مشاهده {0} برای اطلاعات بیشتر &lt;/a&gt;</SimpleUploadErrorInfo>
+  <BalloonAbortFilesUploaded>آپلود فایل های لغو شد</BalloonAbortFilesUploaded>
+  <UploadDragNDropTab>کشیدن و رها کردن</UploadDragNDropTab>
+  <UploadDragNDropTabImages>کشیدن و رها کردن+تصاویر</UploadDragNDropTabImages>
+  <DnDGridProgressColumn>پیش رفتن</DnDGridProgressColumn>
+  <DnDFileReadingError>خطا در خواندن. کد خطا: {0}.</DnDFileReadingError>
+  <DnDFileReadingAbort>خواندن سقط شده است. کد خطا: {0}.</DnDFileReadingAbort>
+  <DnDFileUploadingError>خطا در آپلود. {0}</DnDFileUploadingError>
+  <DnDFileUploadingAbort>آپلود سقط شده است.</DnDFileUploadingAbort>
+  
+  <CommandWebFoldersLinks>پوشه نقشه وب</CommandWebFoldersLinks>
+  <CommandSyncWebFolders>همگام سازی با پوشه های محلی</CommandSyncWebFolders>
+  <WebFolderLinksFieldLabel>لینک های وب پوشه</WebFolderLinksFieldLabel>
+  <WebFolderLinksForWindows64Note>را فشار دهید کلید ترکیبی {0} Win+R را {1}. قرار دادن خط فرمان در {0} باز: {1} درست (نمونه خط فرمان زیر را ببینید)، کلیک کنید {0} OK {1}. برای احراز هویت ویندوز با استفاده از نام دامنه طور کامل واجد شرایط: {2}.</WebFolderLinksForWindows64Note>
+  <OpenLibreOfficeRunCommandNote>و یا فشار کلید ترکیبی {0} Win+R را {1}، قرار دادن خط فرمان زیر را در {0} باز: {1} درست و مطبوعات {0} OK {1}</OpenLibreOfficeRunCommandNote>
+  <WebFolderLinksForMacOSNote>در "یاب" منو باز {0} برو&gt; اتصال به سرور {1}. از لینک پوشه وب در {0} "آدرس سرور" {1} درست وارد کنید. کلیک کنید {0} "اتصال" {1}. در گفت و گو جدید را انتخاب کنید {0} "مهمان" {1} و یا {0} "کاربران ثبت نام" {1} (برای احراز هویت ویندوز). کلیک کنید {0} "اتصال" {1}.</WebFolderLinksForMacOSNote>
+  <WebFolderLinksForUbuntuNote>گسترش {0} برو&gt; محل سکونت ... {1} کپی کردن لینک از پوشه وب به میدان محل.</WebFolderLinksForUbuntuNote>
+  <LinksToWebFoldersWindowText>شما می توانید پوشه که شما به عنوان یک درایو شبکه در سیستم عامل های محلی خود را بر روی نقشه ببینید. پس از نقشه برداری شما می توانید با فایل ها مانند با آنهایی که محلی و یا ویرایش اسناد در MS Office یا آفیس اپن سورس است. کمک در مورد چگونه به {0} نقشه مشاهده کنید.</LinksToWebFoldersWindowText>
+  <CommonFileTypeNameCaption>"{0}" نام فایل</CommonFileTypeNameCaption>
+  <CommonFileTypeNamePrompt>جدید "{0}" نام فایل را وارد کنید</CommonFileTypeNamePrompt>
+  
+  <PixlrEditorWindowTitle>ویرایشگر Pixlr را {0}</PixlrEditorWindowTitle>
+  <PixlrSaveImageSuccessMessage>تصویر "{0}" با موفقیت ذخیره شد. تازه کردن لیست اگر شما تصویر را با یک نام جدید را نجات داد.</PixlrSaveImageSuccessMessage>
+  <CommonFileImageNewName>عکس جدید</CommonFileImageNewName>
+  <CommandChangeTheme>تغییر زمینه</CommandChangeTheme>
+  
+  <CommandHelp>کمک</CommandHelp>
+
+  <OpeningShortcutProgress>میانبر باز</OpeningShortcutProgress>
+  <CommandCreateShortcut>میانبر (لینک نمادین)</CommandCreateShortcut>
+  <ShortcutNameHint>نام میانبر</ShortcutNameHint>
+  <ShortcutTargetPathHint>مسیر مقصد</ShortcutTargetPathHint>
+  <CreateShortcutButtonTitle>ايجاد كردن</CreateShortcutButtonTitle>
+  <CreatingShortcutProgress>ایجاد میانبر</CreatingShortcutProgress>
+  <CreateShortcutSuccessMessage>میانبر "{0}" موفقیت برای ایجاد شد "{1}".</CreateShortcutSuccessMessage>
+
+  <OpeningInternetShortcutProgress>باز کردن میانبر اینترنت</OpeningInternetShortcutProgress>
+  <InternetShortcutNotValidMsg>آدرس اینترنتی هدف از این میانبر اینترنت معتبر نیست</InternetShortcutNotValidMsg>
+  <InternetShortcutWindowTitle>برو به لینک</InternetShortcutWindowTitle>
+  
+  <CommandVersioning>نسخه</CommandVersioning>
+  <CommandVersionHistory>تاریخ نسخه</CommandVersionHistory>
+  <CommandCheckOut>وارسی</CommandCheckOut>
+  <CommandCheckIn>چک در</CommandCheckIn>
+  <CommandUndoCheckOut>لغو اتمام</CommandUndoCheckOut>
+  <VersionHistoryObtainingMessage>اخذ تاریخچه نسخه</VersionHistoryObtainingMessage>
+  <NoVersionHistoryMessage>تاریخ نسخه برای فایل انتخاب شده وجود ندارد</NoVersionHistoryMessage>
+  <FileIsCheckedOutMessage>فایل "{0}" در حال حاضر انجام شده توسط کاربران بررسی "{1}" از {2}</FileIsCheckedOutMessage>
+  <CheckingOutMessage>در حال بررسی</CheckingOutMessage>
+  <SuccessfullyCheckedOutMessage>فایل "{0}" با موفقیت انجام شده توسط کاربران بررسی شد "{1}"</SuccessfullyCheckedOutMessage>
+  <FileIsNotCheckedOutMessage>پرونده «{0}" نه بررسی شده است و در عین حال</FileIsNotCheckedOutMessage>
+  <FileIsCheckedOutOtherUserMessage>پرونده «{0}" است که توسط کاربر دیگری بررسی می شود "{1}" از {2}.</FileIsCheckedOutOtherUserMessage>
+  <FileUndoCheckOutForbiddenMessage>شما می توانید یک چک کردن توسط کاربر دیگری اعمال لغو کنید.</FileUndoCheckOutForbiddenMessage>
+  <FileCheckInForbiddenMessage>شما نمی توانید یک فایل که در حال حاضر انجام شده توسط کاربر دیگری بررسی شده است را بررسی کنید در.</FileCheckInForbiddenMessage>
+  <FileUndoCheckOutConfirmMessage>اگر شما لغو چک خود را، تغییرات اعمال شده به سند ذخیره نخواهد شد! آیا شما مطمئن هستید که میخواهید لغو چک خود را؟</FileUndoCheckOutConfirmMessage>
+  <FileVersionDeleteConfirmTitle>حذف از نسخه فایل</FileVersionDeleteConfirmTitle>
+  <FileVersionDeleteConfirmMessage>آیا مطمئن هستید که می خواهید حذف کنید نسخه انتخاب شده از فایل؟</FileVersionDeleteConfirmMessage>
+  <FileVersionRestoreConfirmTitle>بازگرداندن نسخه فایل</FileVersionRestoreConfirmTitle>
+  <FileVersionRestoreConfirmMessage>آیا مطمئن هستید که می خواهید برای بازگرداندن نسخه انتخاب شده از فایل؟ {0} اگر بله، مشخص کردن فایل که در آن نسخه انتخاب خواهد شد را به نجات داد. اگر این مقدار را ترک بدون تغییر (یا ارزش خالی) نسخه انتخاب شده به فایل های انتخاب شده (محتوای قبلی فایل خواهد شد به تاریخچه نسخه اضافه شده است) جایگزین {1} نام فایل.:</FileVersionRestoreConfirmMessage>
+  <UndoCheckingOutMessage>لغو اتمام</UndoCheckingOutMessage>
+  <SuccessfullyUndoCheckedOutMessage>لغو چک کردن برای یک فایل "{0}" با موفقیت انجام شد.</SuccessfullyUndoCheckedOutMessage>
+  <SuccessfullyCheckedInMessage>پرونده «{0}" است که با موفقیت در توسط کاربر چک "{1}"</SuccessfullyCheckedInMessage>
+  <CheckingInMessage>چک کردن در</CheckingInMessage>
+  <VersionHistoryTitle>نسخه فایل "{0}"</VersionHistoryTitle>
+  <VersionHistoryGridNumberColumn>نسخه.</VersionHistoryGridNumberColumn>
+  <VersionHistoryGridNotesColumn>یادداشت</VersionHistoryGridNotesColumn>
+  <CommandRestoreVersion>بازگرداندن</CommandRestoreVersion>
+  <ProgressPrepareDownloadOldVersion>آماده شدن برای نسخه دانلود قدیمی</ProgressPrepareDownloadOldVersion>
+  <FileVersionNotFoundMessage>فایل نسخه انتخاب یافت نشد.</FileVersionNotFoundMessage>
+  <ProgressDeletingVersion>نسخه حذف</ProgressDeletingVersion>
+  <ProgressRestoringVersion>نسخه بازگرداندن</ProgressRestoringVersion>
+  <FileNeedCheckInMessage>لطفا در بررسی و یا لغو را بررسی کنید برای فایل انتخاب شده و دوباره امتحان کنید.</FileNeedCheckInMessage>
+  <FileCheckedOutEditForbiddenMessage>شما نمی توانید تغییر دهید / تغییر نام / انتقال / حذف فایل "{0}" در حالی که آن است که توسط کاربران بررسی "{1}" از {2}</FileCheckedOutEditForbiddenMessage>
+  <FileUploadCheckInLabel>شما می توانید در فایل انتخاب یا آپلود یک نسخه جدید از فایل (با استفاده از فرم آپلود در زیر). اگر شما می خواهید برای ایجاد یک نسخه جدید از فایل های انتخاب شده، هیچ فایلی از آپلود کنید.</FileUploadCheckInLabel>
+  <FileUploadCheckInInvalidFileName>نام فایل آپلود باید دقیقا همان نام فایل انتخاب شده باشد</FileUploadCheckInInvalidFileName>
+  <CheckOutVersionNotes>این نسخه به صورت خودکار ایجاد شده است</CheckOutVersionNotes>
+  <RestoreVersionNotes>این نسخه به طور خودکار پس از بازگرداندن از نسخه از ایجاد شده است {0} از کاربر "{1}"</RestoreVersionNotes>
+  <IsCheckedOutHint>فایل چک شده خارج</IsCheckedOutHint>
+  <ExistsOldVersionsHint>این فایل دارای نسخه های دیگر</ExistsOldVersionsHint>
+  <IsLockedHint>فایل قفل شده است</IsLockedHint>
+  <FileWasCreatedHint>ایجاد شده است {0} پیش</FileWasCreatedHint>
+  <FileWasModifiedHint>تغییر کرده است {0} پیش</FileWasModifiedHint>
+  <CommonChangedAgo>{0} پیش</CommonChangedAgo>
+  <DaysShort>D</DaysShort>
+  <HoursShort>ساعت</HoursShort>
+  <MinutesShort>متر</MinutesShort>
+  <FileContainsMetaDataHint>حاوی جزئیات (فراداده)</FileContainsMetaDataHint>
+  <FileMetaDataCaptionMobile>متاداده</FileMetaDataCaptionMobile>
+
+  <ExistsPublicLinksFileHint>این فایل دارای لینک های عمومی</ExistsPublicLinksFileHint>
+  <ExistsPublicLinksFolderHint>پوشه لینک های عمومی</ExistsPublicLinksFolderHint>
+  <PublicLinkNotFound>لینک های عمومی برای "{0}" یافت نشد</PublicLinkNotFound>
+
+  <PublicLinksDeleteWindowTitle>لینک های عمومی حذف (بازدید کنندگان)</PublicLinksDeleteWindowTitle>
+  <PublicLinksDeleteLinkButton>حذف لینک</PublicLinksDeleteLinkButton>
+  <PublicLinksDeleteConfirmMsg>آیا مطمئن هستید که می خواهید به حذف لینک های عمومی انتخاب شده است؟</PublicLinksDeleteConfirmMsg>
+  <PublicLinksDeleteSingleConfirmMsg>آیا شما مطمئن هستید که میخواهید این لینک را حذف کنید؟</PublicLinksDeleteSingleConfirmMsg>
+
+  <DetailsMultiValue>(چند ارزش)</DetailsMultiValue>
+
+  <GridBottomFilesSizeInfo>انتخاب شده: {0} / {1}،</GridBottomFilesSizeInfo>
+  <GridBottomFilesFoldersInfo>فایل های: {0} / {1}، پوشه: {2} / {3}</GridBottomFilesFoldersInfo>
+
+  <AmountOfDownloadingsFile>دانلود</AmountOfDownloadingsFile>
+
+  <CookiesDisabledMessage>عملکرد کوکی مرورگر شما خاموش است. لطفا آن را روشن و مرورگر راه اندازی مجدد.</CookiesDisabledMessage>
+
+  <CommandSendEmail>ایمیل بفرست</CommandSendEmail>
+  <CommandSendWithGmail>ارسال با جیمیل</CommandSendWithGmail>
+  <CommandSendWithOutlook>ارسال با چشم انداز</CommandSendWithOutlook>
+  <SendEmailTo>به</SendEmailTo>
+  <SendEmailBulkMailingListHint>&lt;b&gt; لیست پستی &lt;/b&gt; &lt;br /&gt; شما می توانید گروه های طیف مشخص برای ارسال ایمیل خود</SendEmailBulkMailingListHint>
+  <SendEmailBulkMailingListWindowTitle>برای دریافت ایمیل خود را انتخاب</SendEmailBulkMailingListWindowTitle>
+  <SendEmailEmptyMailingListMessage>لیست ایمیل خالی است</SendEmailEmptyMailingListMessage>
+  <SendEmailSenderEmail>ایمیل فرستنده</SendEmailSenderEmail>
+  <SendEmailSubject>موضوع</SendEmailSubject>
+  <SendEmailFilesAsLinksTo>ارسال لینک به فایل های انتخاب شده</SendEmailFilesAsLinksTo>
+  <SendEmailFilesAsAttachements>ارسال فایل های انتخاب شده به عنوان فایل پیوست</SendEmailFilesAsAttachements>
+  <SendEmailSend>ارسال</SendEmailSend>
+  <SendEmailProgressMessage>ارسال ایمیل</SendEmailProgressMessage>
+  <GettingMailingListProgressMessage>گرفتن لیست پستی</GettingMailingListProgressMessage>
+  <SendEmailSuccessMessage>به ایمیل با موفقیت ارسال شد.</SendEmailSuccessMessage>
+  <SendEmailResultsMessage>فرستاده شد: {0} &lt;br /&gt; در شکست خورد: {1} {2}.</SendEmailResultsMessage>
+  <SmtpServerSettingsIncorrect>گزینه SMTP سرور هستند یا خالی است و یا نادرست</SmtpServerSettingsIncorrect>
+  <FromEmailIncorrect>از آدرس ایمیل نادرست و یا خالی است</FromEmailIncorrect>
+  <ToEmailIncorrect>آدرس برای ایمیل نادرست و یا خالی است</ToEmailIncorrect>
+  <EmailSubjectEmpty>موضوع ایمیل مشخص نشده است</EmailSubjectEmpty>
+  <UploadFromUrlTab>از URL</UploadFromUrlTab>
+  <UploadFromUrlFieldLabel>URL (HTTP یا FTP فایل واحد)</UploadFromUrlFieldLabel>
+  <UploadFromUrlProgressTitle>آپلود از URL</UploadFromUrlProgressTitle>
+  <UploadFromUrlMsg>آپلود از URL</UploadFromUrlMsg>
+  <UploadFromUrlSuccessMsg>پرونده «{0}" با موفقیت از آپلود "{1}"</UploadFromUrlSuccessMsg>
+  <UploadFromUrlUnknownResponse>در پاسخ از سرور به رسمیت شناخته نشده</UploadFromUrlUnknownResponse>
+  <UploadFromUrlEmptyFileName>نام فایل آپلود خالی است</UploadFromUrlEmptyFileName>
+  <UploadFromUrlFileName>ذخیره با نام (خالی بگذارید به استفاده از نام از URL)</UploadFromUrlFileName>
+  <UploadFromUrlFileNameMobile>ذخیره با نام</UploadFromUrlFileNameMobile>
+  
+  <!-- Common Clouds keys -->  
+  <CloudAuthenticateMessage>شما باید در {0} ورود کلیک کنید "{1}" لینک و شما را به فرم لاگین هدایت می شوید. {2} اطلاعات بیشتر. {3}</CloudAuthenticateMessage>
+  <CloudAuthenticateLink>تأیید اعتبار با {0}</CloudAuthenticateLink>  
+  <CloudDownloadingMessage>دانلود به {0}</CloudDownloadingMessage>
+  <CloudAuthWarningMessage>اگر عمل اتفاق افتاده است، لطفا این پنجره را ببندید و کلیک بر روی "{0}" لینک کنید.</CloudAuthWarningMessage>
+  <CloudAuthEmptyInvalidMessage>{0} رمز دسترسی خالی است و یا نامعتبر است. لطفا دوباره تصدیق.</CloudAuthEmptyInvalidMessage>
+  <CloudDownloadEndMessageTitle>دانلود تمام</CloudDownloadEndMessageTitle>
+  <CloudDownloadFilesSuccessMessage>{0} فایل (بازدید کنندگان) با موفقیت به "{1}" {2} پوشه دانلود شده است.</CloudDownloadFilesSuccessMessage>
+  <CloudNotDownloadedFilesMessage>{0} فایل (بازدید کنندگان) دانلود نمی:</CloudNotDownloadedFilesMessage>
+  <CloudFoldersCreatedSuccessMessage>{0} پوشه (بازدید کنندگان) با موفقیت در "{1}" {2} پوشه ایجاد شده است.</CloudFoldersCreatedSuccessMessage>
+  <CloudNotFoldersCreatedMessage>{0} پوشه (بازدید کنندگان) ایجاد نمی:</CloudNotFoldersCreatedMessage>
+  <CloudFilesFoldersSuccessMessage>{0} فایل (ها)، {1} پوشه (ها) با موفقیت به "{2}" {3} پوشه دانلود شده است.</CloudFilesFoldersSuccessMessage>
+  <CloudNotFilesFoldersDownloadedMessage>{0} فایل (ها)، {1} پوشه (ها) دریافت نشده:</CloudNotFilesFoldersDownloadedMessage>
+  <CloudLinkText>مشاهده {0}</CloudLinkText>
+  <CloudLinkDescription>برو به {0} صفحه</CloudLinkDescription>
+  <CloudRootFolderName>&lt;b&gt; {0} پوشه ریشه &lt;/b&gt;</CloudRootFolderName>
+  <CloudCheckFolerMessage>لطفا یک {0} پوشه به ادامه تیک بزنید.</CloudCheckFolerMessage>
+  <CloudSelectFolderMessage>لطفا {0} پوشه به ادامه را انتخاب کنید.</CloudSelectFolderMessage>
+  <CloudGetFoldersInfoProgressMessage>در حال بارگذاری اطلاعات {0} پوشه</CloudGetFoldersInfoProgressMessage>
+  <CloudGetItemsInfoProgressMessage>اطلاعات در حال بارگذاری {0} مورد</CloudGetItemsInfoProgressMessage>
+  <CloudUploadSelectItemsMessage>لطفا {0} اقلام به ادامه را انتخاب کنید.</CloudUploadSelectItemsMessage>
+  <CloudUploadTotalFiles>تعداد فایل ها: {0} ({1})</CloudUploadTotalFiles>
+  <CloudUploadProgressMessage>آپلود از {0}</CloudUploadProgressMessage>
+  <CloudSignInAsDifferentUserText>خروج از {0}</CloudSignInAsDifferentUserText>
+  <CloudLogoutProgressMsg>خروج از {0}</CloudLogoutProgressMsg>
+  <CloudRevokeTokenMsg>لغو رمز</CloudRevokeTokenMsg>
+  <CloudRefreshTokenMsg>رمز و طراوت</CloudRefreshTokenMsg>
+  <CloudAuthNotCompleteMsg>احراز هویت کامل نشده است. &lt;br /&gt; لطفا</CloudAuthNotCompleteMsg>
+  <CloudTrustedSitesMsg> بررسی سایت های در "سایت های قابل اعتماد" لیست زیر است: &lt;br /&gt; &lt;br /&gt; او</CloudTrustedSitesMsg>
+  <TrustedSitesForMicrosoftEdge>اگر شما به استفاده از مایکروسافت لبه، پس از بررسی سایت های قابل اعتماد در اینترنت اکسپلورر</TrustedSitesForMicrosoftEdge>
+  <CloudCheckAuthMsg>بررسی {0} احراز هویت</CloudCheckAuthMsg>
+  <CloudLoadMsg>در حال بارگذاری {0}</CloudLoadMsg>
+  <CloudFreeSpaceError>اتاق به اندازه کافی در {2} برای آپلود فایل های وجود ندارد. خب: {0}. سایز فایل: {1}.</CloudFreeSpaceError>
+  <CloudFreeSpaceExceeded>اتاق به اندازه کافی در آن وجود دارد {0}</CloudFreeSpaceExceeded>
+  <CloudExceedFileSizeError>فایل شما در حال تلاش برای دانلود است که حجم فایل از {1} است که بیشتر از حداکثر اندازه مجاز برای دانلود - {0}.</CloudExceedFileSizeError>
+  <CloudFolderNotFound>راهنمای یافت نشد. شاید آن حذف شده است</CloudFolderNotFound>
+  <CloudFileNotFound>فایل یافت نشد. شاید آن حذف شده است</CloudFileNotFound>
+  <CloudNoFoldersMessage>هیچ پوشه برای نمایش وجود ندارد</CloudNoFoldersMessage>
+  <CloudLibraryNotLoadedMsg>{0} کتابخانه مشتری لود نمی شود! &lt;br /&gt; لطفا اتصال به اینترنت را بررسی کنید و یا تازه کردن صفحه. &lt;br /&gt; همچنین</CloudLibraryNotLoadedMsg>
+  <CloudDownloadWithNewNames>زیر فایل (ها) دانلود با نام های جدید:</CloudDownloadWithNewNames>
+
+  <!-- Google Drive Cloud keys -->
+  <CommandDownloadToGoogleDocs>دانلود به Google Drive</CommandDownloadToGoogleDocs>
+  <GoogleDocsSaveAs>ذخیره به عنوان:</GoogleDocsSaveAs>
+  <GoogleDocsSaveAsTitle>ذخیره "{0}" به عنوان ...</GoogleDocsSaveAsTitle>
+  <GoogleDocsDownloadEndWarningMessage>اگر شما نمی توانید اسناد آپلود در حساب Google Drive خود را ببینید، چند ثانیه صبر کنید و تازه کردن لیست گوگل درایو.</GoogleDocsDownloadEndWarningMessage>
+  <GoogleDriveUploadNoFilesMessage>هیچ فایلی در Google Drive برای آپلود</GoogleDriveUploadNoFilesMessage>
+  <GoogleDriveMaxUploadSizeError>برای محتوای از نوع "{0}" حداکثر اندازه از آپلود {1} فراتر رفته است.</GoogleDriveMaxUploadSizeError>
+  <GoogleDriveConvertMsg>اگر ممکن است، تبدیل فایل های به فرمت اسناد گوگل. {0} اطلاعات بیشتر {1}.</GoogleDriveConvertMsg>
+
+  <!-- Box Cloud keys -->
+  <CommandDownloadToBox>دانلود به جعبه</CommandDownloadToBox>
+  <BoxDownloadWithNewNames>فایل زیر (بازدید کنندگان) با نسخه های جدید به روز شد:</BoxDownloadWithNewNames>
+  <BoxNoViewPermission>شما اجازه دسترسی به پوشه انتخاب شده نیست</BoxNoViewPermission>
+  <BoxNoDownloadPermission>شما اجازه دانلود ندارد</BoxNoDownloadPermission>
+  <BoxNoUploadPermission>شما اجازه برای آپلود ندارید</BoxNoUploadPermission>
+  <BoxUnableCreateOrInfoError>قادر به ایجاد و یا به دست آوردن اطلاعات</BoxUnableCreateOrInfoError>
+  
+  <!-- Dropbox Cloud keys -->
+  <CommandDownloadToDropbox>دانلود به Dropbox</CommandDownloadToDropbox>
+  
+  <!-- OneDrive Cloud keys -->
+  <CommandDownloadToSkyDrive>دانلود به OneDrive</CommandDownloadToSkyDrive>
+  <AuthenticateOAuthSkyDriveMessageShort>شما باید به حساب مایکروسافت زنده خود وارد شوید.</AuthenticateOAuthSkyDriveMessageShort>
+  <SkyDriveAuthAlsoString>همچنین</SkyDriveAuthAlsoString>
+  <SkyDriveLoginButtonTitle>ورود</SkyDriveLoginButtonTitle>
+  <SkyDriveRegistryMessage>آیا یک شناسه Windows Live ندارد؟ {0} ثبت نام ... {1}</SkyDriveRegistryMessage>
+  <SkyDriveMapRootFolder>توجه داشته باشید! شما هم می {0} نقشه {1} پوشه OneDrive خود. مسیر است</SkyDriveMapRootFolder>
+  <SkyDriveMoreInfoLink>{0} اطلاعات بیشتر در مورد واندرایو (SkyDrive بلای جان) {1}</SkyDriveMoreInfoLink>
+  <OneDriveMaxUploadSizeError>اندازه مجاز ({0}) فایل آپلود بیش از حد: {1}</OneDriveMaxUploadSizeError>
+  <!-- OneDrive for Business -->
+  <OneDriveForBusinessMapWebFolderInfo>&lt;b&gt; تذکر! &lt;/b&gt; قبل از باز کردن فایل های در این مکان، شما ابتدا باید وب سایت را به لیست سایت های مورد اعتماد خود را اضافه کنید، به فهرست وب سایت، و گزینه را انتخاب کنید برای ورود به سایت به صورت خودکار (در مرورگر اینترنت اکسپلورر).</OneDriveForBusinessMapWebFolderInfo>
+  
+  <UploadFromUrlLabelText>شما می توانید URL از یک فایل ذخیره شده در یک فایل سرور جهانی و یا در یک سرویس به اشتراک گذاری فایل مانند مشخص {0}، {1} {2}، {3}، {4}.</UploadFromUrlLabelText>
+  <UploadFromUrlLabelTextMobile>مشخص کردن آدرس از فایل</UploadFromUrlLabelTextMobile>
+
+  <LinkToFileTitle>لینک به فایل / پوشه</LinkToFileTitle>
+  <LinkToFileWarningAnonym>این لینک دسترسی ناشناس به فایل فراهم می کند. هر کاربر، حتی یک است که هیچ حساب در این سایت، ممکن است دانلود یا آپلود فایل از طریق لینک های عمومی. لینک های عمومی را به یک فایل اجازه می دهد تا به شما دانلود یک فایل انتخاب شده است. {0} اطلاعات بیشتر {1}.</LinkToFileWarningAnonym>
+  <LinkToFileDownloadFileLink>این لینک اجازه می دهد تا به شما دانلود فایل انتخاب شده {0} از {1}. شما نیاز به یک حساب معتبر این لینک استفاده کنید. آن دسترسی ناشناس به فایل ارائه نمی دهد.</LinkToFileDownloadFileLink>
+  <LinkToFileExpireDate>تاریخ انقضا</LinkToFileExpireDate>
+  <LinkToFileDownloadCnt>محدودیت تعداد دفعات دانلود</LinkToFileDownloadCnt>
+  <LinkToFileDownloadType>نوع لینک</LinkToFileDownloadType>
+  <LinkToFileGenerate>ایجاد یک لینک</LinkToFileGenerate>
+  <LinkToFilePasswordNotMatch>رمزهای ورود مطابقت ندارند</LinkToFilePasswordNotMatch>
+  <LinkToFilePasswordRequired>رمز عبور برای لینک های عمومی مورد نیاز است</LinkToFilePasswordRequired>
+  <LinkToFileInvalidForm>پارامترهای نامعتبر</LinkToFileInvalidForm>
+  <LinkToFileAnonymDownloadLinkHint>لینک های عمومی برای "{0}":</LinkToFileAnonymDownloadLinkHint>
+  <LinkToFileAnonymDownloadShortLinkHint>لینک های عمومی کوتاه برای "{0}":</LinkToFileAnonymDownloadShortLinkHint>
+  <LinkToFileOpenFolderLink>این لینک شما اجازه می دهد برای باز کردن پوشه انتخاب شده {0} در {1}. شما نیاز به یک حساب معتبر این لینک استفاده کنید. آن دسترسی ناشناس به پوشه ارائه نمی دهد.</LinkToFileOpenFolderLink>
+  <LinkToFileOpenFileLink>این لینک پوشه باز می شود با فایل و آن را برجسته</LinkToFileOpenFileLink>
+  <LinkToFileDaysLeft>روزهای باقی مانده</LinkToFileDaysLeft>
+  <LinkToFileCaptionMobile>لینک های عمومی</LinkToFileCaptionMobile>
+
+  <PublicFolderLinkHint>لینک های عمومی را به پوشه "{0}":</PublicFolderLinkHint>
+  <PublicFolderShortLinkHint>لینک های عمومی کوتاه به پوشه "{0}":</PublicFolderShortLinkHint>
+  <PublicFolderLinkDownloadZipHint>لینک دانلود برای آرشیو فایل های فشرده از پوشه "{0}":</PublicFolderLinkDownloadZipHint>
+  <PublicFolderLinkShortDownloadZipHint>کوتاه لینک دانلود برای آرشیو فایل های فشرده از پوشه "{0}":</PublicFolderLinkShortDownloadZipHint>
+  <PublicFolderLinkZipDownload>فشرده سازی و پوشه فعلی {0} دانلود (در یک آرشیو ZIP)</PublicFolderLinkZipDownload>
+  <PublicFolderLinkOverwriteWhileUpload>بازنویسی موجود</PublicFolderLinkOverwriteWhileUpload>
+  <PublicFolderLinkOpenFolderHint>باز کردن پوشه</PublicFolderLinkOpenFolderHint>
+  <PublicFolderDownloadDisabledNote>توجه داشته باشید! صاحب این پوشه را دانلود فایل های این پوشه را ممنوع کرده بود.</PublicFolderDownloadDisabledNote>
+  <PublicFolderLinkSendEmails>ارسال اطلاعات در مورد فعالیت آخرین بازدید به ایمیل</PublicFolderLinkSendEmails>
+  <PublicFolderAnonymAccessControl>کنترل دسترسی</PublicFolderAnonymAccessControl>
+  <PublicFolderAnonymDownload>دانلود فایل</PublicFolderAnonymDownload>
+  <PublicFolderAnonymZipDownload>دانلود پوشه پستی</PublicFolderAnonymZipDownload>
+  <PublicFolderAnonymUpload>بارگذاری</PublicFolderAnonymUpload>
+  <PublicFolderAnonymViewContent>لیست فایل های نمایش</PublicFolderAnonymViewContent>
+  <PublicFolderNoteForUsers>توجه داشته باشید برای کاربران</PublicFolderNoteForUsers>
+  <PublicFolderACLNotSet>کنترل دسترسی تنظیم نشده است</PublicFolderACLNotSet>
+  <PublicFolderWarningAnonym>این لینک دسترسی ناشناس به پوشه فراهم می کند. هر کاربر، حتی یک است که هیچ حساب در این سایت، ممکن است دانلود یا آپلود فایل از طریق لینک های عمومی. لینک های عمومی به پوشه اجازه می دهد تا به شما دانلود هر دو یک پوشه کل (بسته بندی شده در آرشیو) و فایل های فردی. {0} اطلاعات بیشتر {1}.</PublicFolderWarningAnonym>
+  <PublicLinksShowForAllItems>نمایش برای همه</PublicLinksShowForAllItems>
+  <PublicLinksShowForSelected>نمایش برای انتخاب</PublicLinksShowForSelected>
+  
+  <MultipleFileInputMessage>توجه داشته باشید! مرورگر شما از انتخاب فایل های چندگانه در یک بار.</MultipleFileInputMessage>
+  <UploadZipUnzipNote>شما می توانید یک آرشیو فایل های فشرده با چندین فایل و پوشه آپلود و سپس آن را استخراج، با استفاده از "{0}" فرمان در منوی زمینه.</UploadZipUnzipNote>
+  <DnDFileUploadingStatusCode>کد وضعیت</DnDFileUploadingStatusCode>
+  <DnDFileUploadingPathOrNameEmpty>مسیر و یا نام فایل مشخص نشده است</DnDFileUploadingPathOrNameEmpty>
+  <DnDFileUploadingRemoveFromList>از لیست حذف کن</DnDFileUploadingRemoveFromList>
+  <DndFileUploadingDontDropFoldersMsg>شما می توانید با کشیدن و رها کردن فایل ها به جدول زیر است. شما می توانید پوشه رها نمی کند.</DndFileUploadingDontDropFoldersMsg>
+  <DndFileUploadingAllowDropFoldersMsg>شما می توانید با کشیدن و رها کردن فایل ها و پوشه ها را به جدول زیر.</DndFileUploadingAllowDropFoldersMsg>
+  <DndFileUploadingFilesSummaryInfo>تعداد فایل ها: {0} ({1})</DndFileUploadingFilesSummaryInfo>
+  <DropFilesHere>رها کردن فایل برای آپلود</DropFilesHere>
+  
+  <FileGridDownloadColumn>دانلود فایل</FileGridDownloadColumn>
+  <FileAttributesField>ویژگی های</FileAttributesField>
+  <FolderCalculateSize>محاسبه</FolderCalculateSize>
+  <FolderRecalculateSize>دوباره حساب کردن</FolderRecalculateSize>
+  <FolderContainsField>شامل</FolderContainsField>
+  <FolderContainsFilesFolders>{0} فایل ها، پوشه ها {1}</FolderContainsFilesFolders>
+  <FolderCalculatingMessage>محاسبه</FolderCalculatingMessage>
+
+  <SearchTitle>جستجو فایل. الگوهای موجود: {0}</SearchTitle>
+  <SearchType>جستجو کردن</SearchType>
+  <SearchOnlyFiles>تنها فایل های</SearchOnlyFiles>
+  <SearchOnlyFolders>تنها پوشه ها</SearchOnlyFolders>
+  <SearchBothFilesFolders>هر دو فایل ها و پوشه</SearchBothFilesFolders>
+  <SearchFileDetails>جزئیات فایل</SearchFileDetails>
+  <SearchFileContent>محتوای فایل</SearchFileContent>
+  <SearchByDateFrom>از جانب</SearchByDateFrom>
+  <SearchByDateTo>به</SearchByDateTo>
+  <SearchLocation>محل</SearchLocation>
+  <SearchLocationEntire>هر جا</SearchLocationEntire>
+  <SearchLocationCurrent>جاری</SearchLocationCurrent>
+  <SearchSearch>جستجو کردن</SearchSearch>
+  <SearchNothingFound>هیچ چیزی پیدا نشد! لطفا معیارهای جستجوی خود را اصلاح کند.</SearchNothingFound>
+  <SearchErrorCaption>خطای جستجو</SearchErrorCaption>
+  <SearchResultsNotComplete>توجه! نتایج جستجو ممکن است ناقص به عنوان برخی از پوشه ها هنوز نمایه نشده اند.</SearchResultsNotComplete>
+  <SearchRepeatOrContactAdmin>لطفا جستجوی خود را بعدا دوباره امتحان کنید یا مدیر خود تماس بگیرید.</SearchRepeatOrContactAdmin>
+  <SearchLinkToManual>به {0} ویندوز جستجو راهنما مراجعه کنید {1}</SearchLinkToManual>
+  <QuerySearchByNameText>جستجو بر اساس نام</QuerySearchByNameText>
+  <QuerySearchByConentText>توسط محتوای</QuerySearchByConentText>
+  <SearchByDetailsWarning>توجه! شما در تنظیمات که شما می خواهم به استفاده از جستجو بر اساس خواص مشخص شده است. در این مورد، جستجو خواهد شد با استفاده از یک روش استاندارد به جای استفاده از سرویس نمایه سازی ویندوز انجام شده است.</SearchByDetailsWarning>
+  <SearchInSpecialFolderWarning>توجه! برای جستجو در پوشه فعلی صدق نمی کند. در صورت ادامه، جستجو خواهد شد در تمام دایرکتوری انجام شده است.</SearchInSpecialFolderWarning>
+
+  <UploadTitle>آپلود فایل های متعدد</UploadTitle>
+  <UploadSimpleTab>استاندارد</UploadSimpleTab>
+  <UploadSimpleReset>تنظیم مجدد</UploadSimpleReset>
+  <UploadSimpleUpload>بارگذاری</UploadSimpleUpload>
+  <UploadSimpleUploadFolderLabelCollapsed>آپلود پوشه</UploadSimpleUploadFolderLabelCollapsed>
+  <UploadSimpleUploadFolderButtonText>پوشه را انتخاب کنید</UploadSimpleUploadFolderButtonText>
+  <UploadJavaTab>جاوه</UploadJavaTab>
+  <UploadJavaIgnorePaths>محل تمام فایل های موجود در یک پوشه (چشم پوشی از مسیر)</UploadJavaIgnorePaths>
+  <UploadFlashTab>فلاش</UploadFlashTab>
+  <UploadSilverlightTab>سیلورلایت</UploadSilverlightTab>
+  <UploadPartially>برخی از فایل های بارگذاری نمی شود</UploadPartially>
+  <UploadFolderNotSelectedTitle>پوشه انتخاب نشده</UploadFolderNotSelectedTitle>
+  <UploadFolderNotSelected>لطفا پوشه که فایل خواهد شد به آپلود را انتخاب کنید</UploadFolderNotSelected>
+  <UploadInProgress>آپلود فایل های خود را</UploadInProgress>
+  <UploadInvalidFormFields>فیلد های فرم ممکن است با ارزش های نامعتبر ارسال نمی</UploadInvalidFormFields>
+  <UploadAjaxFailed>ارتباط آژاکس شکست خورده</UploadAjaxFailed>
+  <UploadFilesAlreadyExists>فایل (های) در حال حاضر وجود دارد</UploadFilesAlreadyExists>
+  <UploadOverwriteFiles>فایل های موجود بازنویسی خواهد شد. آیا می خواهید ادامه دهید؟</UploadOverwriteFiles>
+  <UploadOverwriteOrRenameFiles>هستند یک یا چند فایل با نام تطبیق در دایرکتوری که شما مشخص وجود دارد. آیا شما می خواهید به بازنویسی فایل های موجود؟ کلیک کنید "{0}" اگر شما می خواهید به بازنویسی فایل در حال حاضر موجود، و یا "{1}" - اگر شما می خواهید برای ذخیره تمام فایل های (آنها تغییر نام خواهد شد).</UploadOverwriteOrRenameFiles>
+  <UploadNotModifyExistingFiles>یک یا چند فایل با تطبیق نام در دایرکتوری که شما مشخص وجود دارد. فایل ها را نمی توانید آپلود شود. لطفا فایل های موجود را از لیست آپلود یا تغییر نام آنها.</UploadNotModifyExistingFiles>
+  <UploadRenamedExistingFiles>یک یا چند فایل با تطبیق نام در دایرکتوری که شما مشخص وجود دارد. فایل های با نام مشابه تغییر نام خواهد شد.</UploadRenamedExistingFiles>
+  <UploadNotAllowedTitle>آپلود مجاز نیست</UploadNotAllowedTitle>
+  <UploadNotAllowedPrompt>شما می توانید فایل ها را به این پوشه آپلود کنید</UploadNotAllowedPrompt>
+
+  <UploadMobileIOSVideo>آپلود ویدئو. فعال کردن این گزینه اگر شما نیاز به آپلود فایل های ویدئویی.</UploadMobileIOSVideo>
+  <UploadMobileAurigmaLink>لطفا توجه داشته باشید که شما باید Aurigma تا داشته باشد! بر روی دستگاه شما نصب شده به منظور آپلود فایل. اینجا را ضربه بزنید برای نصب Aurigma بالا! نرم افزار برای آپلود عکس و ویدئو.</UploadMobileAurigmaLink>
+  <UploadMobileAurigmaReady>پس از Aurigma بالا! نصب شده است و یا اگر شما در حال حاضر آن را نصب، دکمه "آپلود" را فشار دهید در زیر.</UploadMobileAurigmaReady>
+  <UploadMobileAurigmaFilePrefix>پیشوند برای فایل های آپلود شده</UploadMobileAurigmaFilePrefix>
+  <UploadMobileResult>آپلود نتیجه:</UploadMobileResult>
+  <UploadMobileUrlPlaceHolder>آدرس را وارد کنید در اینجا</UploadMobileUrlPlaceHolder>
+  <UploadMobileFileNamePlaceHolder>نام فایل جدید را وارد کنید در اینجا</UploadMobileFileNamePlaceHolder>
+  <UploadBrowseLabel>مرور کردن...</UploadBrowseLabel>
+  
+  <MobileToolTipsCaption>آیا می دانید که ...</MobileToolTipsCaption>
+  <MobileToolTipsNextButton>نکته بعدی</MobileToolTipsNextButton>
+  <MobileToolTipsIKnowButton>من آن را می دانم</MobileToolTipsIKnowButton>
+  <MobileToolTipsHideButton>هرگز نشان</MobileToolTipsHideButton>
+  <MobileToolTipsMultiSelection>برای انتخاب چند فایل یا پوشه، شما باید حالت چند انتخاب با ضربه زدن روی &lt;B /&gt; دکمه های &lt;b&gt; {0} را فعال کنید. دوباره آن ضربه بزنید برای خروج از حالت چند انتخاب.</MobileToolTipsMultiSelection>
+  <MobileToolTipsSlideToRemove>شما می توانید از سمت راست اسلاید به سمت چپ بر روی هر یک از اقلام لیست به حذف آن. یک دکمه حذف خطی خواهد شد و در بالای لیست آیتم ها نمایش داده شود.</MobileToolTipsSlideToRemove>
+  <MobileToolTipsTapAndHoldForMenu>ضربه بزنید و نگه دارید و در هر یک از موارد لیست برای نمایش منوی زمینه. منوی زمینه همان نمایش داده شده توسط شیر آب بر روی دکمه "افشای"</MobileToolTipsTapAndHoldForMenu>
+  <MobileToolTipsDoubleTapForPreview>شیر تنها در فایل را به آن را انتخاب کنید، دو شیر به پیش نمایش و یا دانلود کنید. شیر تنها در پوشه آن را باز.</MobileToolTipsDoubleTapForPreview>
+  <MobileToolTipsPullDownToRefresh>جلو و پایین لیست به بارگذاری مجدد محتوای آن است.</MobileToolTipsPullDownToRefresh>
+  <MobileToolTipsPinchToScale>شما می توانید "تنگنا" ژست زوم در و زوم کردن تصاویر استفاده کنید.</MobileToolTipsPinchToScale>
+  <MobileToolTipsTapToHideBars>شیر در هر نقطه بر روی پانل تصویر به ضامن نوار ابزار.</MobileToolTipsTapToHideBars>
+  <MobileToolTipsSlideLeftRightToNext>تغییر تصاویر با ژست اسلاید.</MobileToolTipsSlideLeftRightToNext>
+
+  <DownloadToCloudMobileTip>شیر تنها برای انتخاب پوشه، دو شیر به آن را باز کنید.</DownloadToCloudMobileTip>
+  
+  <UploadTotalMaxSizeMessage>توجه داشته باشید! حداکثر اندازه از تمام فایل های آپلود نباید بیشتر از {0}.</UploadTotalMaxSizeMessage>
+  <UploadOneFileMaxSizeMessage>توجه داشته باشید! حداکثر اندازه هر فایل آپلود شده نباید بیشتر از {0}.</UploadOneFileMaxSizeMessage>
+  <UploadUnlimitedSizeMessage>توجه داشته باشید! اندازه فایل های آپلود نامحدود است.</UploadUnlimitedSizeMessage>
+  <SimpleUploadSetFileNameNote>تبصره 2! پس از یک فایل انتخاب شده است شما می توانید نام که فایل بعد از آپلود باید تغییر</SimpleUploadSetFileNameNote>
+
+  <AnonymousUploadTitle>آپلود فایل به این پوشه</AnonymousUploadTitle>
+  <AnonymousUploadDescription>شما می توانید فایل ها را به این پوشه آپلود کنید. زیر کلیک بر روی "فهرست" را فشار دهید و فایل را انتخاب کنید.</AnonymousUploadDescription>
+  <AnonymousUploadOverwriteHint>اگر فایل آپلود شده در حال حاضر وجود دارد، آن جایگزین خواهد شد.</AnonymousUploadOverwriteHint>
+  <AnonymousUploadShowUploadHint>نمایش فرم آپلود</AnonymousUploadShowUploadHint>
+  <AnonymousUploadHideUploadHint>فرم آپلود مخفی کردن</AnonymousUploadHideUploadHint>
+  <AnonymousUploadNewFolderNameHint>در قسمت زیر شما می توانید نام دایرکتوری فرعی مشخص (پوشه ایجاد خواهد شد اگر آن وجود ندارد) که در آن فایل های آپلود خواهد شد:</AnonymousUploadNewFolderNameHint>
+  <AnonymousUploadCompleteTitle>آپلود به پوشه {0} به اتمام است</AnonymousUploadCompleteTitle>
+  <AnonymousUploadExistsFilesMessage>فایل زیر (بازدید کنندگان) آپلود نشده است زیرا فایل (ها) با همین نام (بازدید کنندگان) در حال حاضر وجود: {0}.</AnonymousUploadExistsFilesMessage>
+  <AnonymousUploadOwnersNote>توجه داشته باشید از صاحب پوشه</AnonymousUploadOwnersNote>
+  <AnonymousDownloadPageTitle>دریافت فایل</AnonymousDownloadPageTitle>
+  <AnonymousDownloadFileHint>دریافت فایل</AnonymousDownloadFileHint>
+  <AnonymousUploadPageTitle>آپلود به پوشه</AnonymousUploadPageTitle>
+  <AnonymousPublicFolderPageTitle>پوشه عمومی</AnonymousPublicFolderPageTitle>
+  <AnonymousLoginAccessUserFailure>شما در حساب که دسترسی به منابع ندارد وارد سایت شوید. لطفا نام کاربری و دیگر برای دسترسی خود را وارد کنید. اگر شما آنها را نمی دانید، لطفا تماس با صاحب لینک های عمومی یا مدیر خود را.</AnonymousLoginAccessUserFailure>
+  <ProgressGettingAnonymLink>ایجاد لینک های عمومی</ProgressGettingAnonymLink>
+  <ProgressGettingAnonymLinks>گرفتن لینک ناشناس</ProgressGettingAnonymLinks>
+  <ProgressGettingBoxViewLink>گرفتن جعبه نمایش لینک</ProgressGettingBoxViewLink>
+  <AutodeskScriptNotIncludedMessage>اسکریپت دریافت رمز عبور نمایشگر بار نیست</AutodeskScriptNotIncludedMessage>
+  <ProgressUninitializeAutodeskViewer>بسته شدن نرم افزار Autodesk بیننده</ProgressUninitializeAutodeskViewer>
+  <ProgressGettingAutodeskViewLink>در حال دریافت اطلاعات دریافت رمز عبور نمایش</ProgressGettingAutodeskViewLink>
+  <AnonymousChangeLanguageHint>زبان را انتخاب کنید</AnonymousChangeLanguageHint>
+  <AnonymousUpLinkHint>بازگشت به پوشه مادر</AnonymousUpLinkHint>
+  <AnonymousPasswordDescription>پوشه رمز محافظت شده است</AnonymousPasswordDescription>
+  <AnonymousPasswordIncorrectMessage>رمز عبور اشتباه است</AnonymousPasswordIncorrectMessage>
+  <AnonymousErrorTitle>خطا لینک های عمومی</AnonymousErrorTitle>
+  <AnonymousErrorNotFound>لینک های عمومی "{0}" یافت نشد!</AnonymousErrorNotFound>
+  <AnonymousErrorAccessDenied>شما اجازه از لینک های عمومی برای استفاده ندارد "{0}"</AnonymousErrorAccessDenied>
+  <AnonymousErrorFileNotFound>از لینک های عمومی "{0}" اشاره به یک فایل غیر موجود یا پوشه و یا NTFS دسترسی به عنوان خوانده شده است را تکذیب کرد</AnonymousErrorFileNotFound>
+  <AnonymousErrorUnknownLinkType>از لینک های عمومی "{0}" یافت نشد</AnonymousErrorUnknownLinkType>
+  <AnonymousSendEmailSubject>آخرین بازدید فعالیت پوشه های عمومی</AnonymousSendEmailSubject>
+  <AnonymousSendEmailUploadBody>فایل های زیر به پوشه های عمومی خود را آپلود شد {0}: {1}.</AnonymousSendEmailUploadBody>
+  <AnonymousSendEmailDownloadBody>فایل {0} از پوشه های عمومی خود را {1} دانلود شد.</AnonymousSendEmailDownloadBody>
+  <AnonymousSendEmailZipDownloadBody>محتوای کل پوشه {0} عمومی در یک آرشیو ZIP دانلود شده است.</AnonymousSendEmailZipDownloadBody>
+  <AnonymousViewLinksButton>دیدن لینک ها برای</AnonymousViewLinksButton>
+  <AnonymousViewLinksHint>دیدن لینک ها برای عمومی موجود</AnonymousViewLinksHint>
+  <AnonymousViewLinksWindowTitle>لینک های عمومی</AnonymousViewLinksWindowTitle>
+  <AnonymousViewLinksDateCreatedColumn>تاریخ ایجاد</AnonymousViewLinksDateCreatedColumn>
+  <AnonymousViewLinksDateExpiredColumn>تاریخ انقضا</AnonymousViewLinksDateExpiredColumn>
+  <AnonymousViewLinksPermissionColumn>اجازه</AnonymousViewLinksPermissionColumn>
+  <AnonymousViewLinksDownloadedColumn>تعداد دریافت ها چپ</AnonymousViewLinksDownloadedColumn>
+  <ProgressDeletingAnonymousLink>حذف لینک های عمومی</ProgressDeletingAnonymousLink>
+  <ProgressSavingAnonymousLink>صرفه جویی در لینک های عمومی</ProgressSavingAnonymousLink>
+  <AnonymousEditLinkWindowTitle>ویرایش لینک های عمومی برای "{0}"</AnonymousEditLinkWindowTitle>
+  <AnonymousEditLinkShowUrl>نمایش لینک</AnonymousEditLinkShowUrl>
+  <AnonymousEditLinkNotFound>از لینک های عمومی یافت نشد و یا دوره آن اعتبار تمام شده است</AnonymousEditLinkNotFound>
+
+  <AnonymousLinkSendViaButton>ارسال از طریق ...</AnonymousLinkSendViaButton>
+  <AnonymousLinkSendViaEmailItem>پست الکترونیک...</AnonymousLinkSendViaEmailItem>
+  <AnonymousLinkSendButton>ارسال از طریق ایمیل ...</AnonymousLinkSendButton>
+  <AnonymousLinkSendSubject>مدیر وب سایت فایل لینک های عمومی</AnonymousLinkSendSubject>
+
+  <AnonymousLinkAdvOptTitle>پارامترهای اضافی</AnonymousLinkAdvOptTitle>
+  <AnonymousLinkViewTypeButton>نمایش لینک</AnonymousLinkViewTypeButton>
+  <AnonymousLinkViewTypeDefault>پر شده</AnonymousLinkViewTypeDefault>
+  <AnonymousLinkViewTypeShort>کوتاه</AnonymousLinkViewTypeShort>
+
+  <AnonymousLinkShowCommentsLabel>نمایش توضیحات، برچسب و نظرات</AnonymousLinkShowCommentsLabel>
+  <AnonymousLinkShowCommentsShort>نمایش نظرات</AnonymousLinkShowCommentsShort>
+
+  <QRCodeButton>کد QR</QRCodeButton>
+
+  <AnonymousLinkLimitedAccessTitle>دسترسی محدود</AnonymousLinkLimitedAccessTitle>
+  <AnonymousLinkLimitAccessCheckBox>محدود کردن دسترسی تنها به کاربران تصدیق مشخص</AnonymousLinkLimitAccessCheckBox>
+  <AnonymousLinkLimitAccessTextArea>نوع نام کاربری و یا ایمیل (کاما از هم جدا)</AnonymousLinkLimitAccessTextArea>
+  <AnonymousLinkLimitAccessSendCheckBox>ارسال اطلاعیه به کاربران مشخص</AnonymousLinkLimitAccessSendCheckBox>
+  <AnonymousLinkLimitAccessPersMsgLabel>پیام شخصی (اختیاری)</AnonymousLinkLimitAccessPersMsgLabel>
+  <AnonymousLinkLimitAccessPassAndUsersMsg>شما رمز عبور و کاربران خود را در همان زمان برای دسترسی به لینک مشخص شده اند. لطفا چیزی که مشخص کنید.</AnonymousLinkLimitAccessPassAndUsersMsg>
+  <AnonymousLinkLimitAccessUsersNotFound>کاربران:
+    {0}
+    وجود ندارد</AnonymousLinkLimitAccessUsersNotFound>
+  <AnonymousLinkLimitAccessEmailsNotFound>ایمیل:
+    {0}
+    وجود ندارد</AnonymousLinkLimitAccessEmailsNotFound>
+  <AnonymousLinkLimitAccessUsersEmailsNotFound>کاربران:
+    {0}
+    و ایمیل:
+    {1}
+    وجود ندارد</AnonymousLinkLimitAccessUsersEmailsNotFound>
+
+  <AnonymousLinkUnableToCreate>قادر به ایجاد لینک ناشناس</AnonymousLinkUnableToCreate>
+  <AnonymousLinkShortUrlLabel>لطفا روی آیکون تازه کردن (در سمت راست پایین) کلیک کنید تا یک لینک کوتاه</AnonymousLinkShortUrlLabel>
+  <AnonymousLinkShortUrlUpdate>مطلع یا به روز رسانی یک لینک کوتاه</AnonymousLinkShortUrlUpdate>
+  <AnonymousLinkLongUrlNotSpecified>آدرس اینترنتی طولانی مشخص نشده است</AnonymousLinkLongUrlNotSpecified>
+
+  <ClientFileOrDirectoryAlreadyExists>یک فایل یا دایرکتوری را با این نام وجود دارد</ClientFileOrDirectoryAlreadyExists>
+  <ClientPermissionsAllowTypes>مجوز کنونی اجازه می دهد این عملیات تنها با انواع فایل های زیر {0}</ClientPermissionsAllowTypes>
+  <ClientPermissionsDenyTypes>مجوز کنونی منع این عمل با انواع فایل های زیر {0}</ClientPermissionsDenyTypes>
+  <OfficeApplicationNotFoundAlert>نرم افزار دفتر یافت نشد. یک فایل به صورت دستی با استفاده از یک لینک در جعبه متن را باز کنید.</OfficeApplicationNotFoundAlert>
+  <OfficeAnonymousEditPublicLinkError>قادر به ایجاد پیوند عمومی به سند اداری ناشناس باز است.</OfficeAnonymousEditPublicLinkError>
+
+  <GoogleOWAViewLinkMessage>برای مشاهده این سند از لینک زیر کلیک کنید:</GoogleOWAViewLinkMessage>
+  <ZohoEditLinkMessage>برای ویرایش لینک سند زیر کلیک کنید:</ZohoEditLinkMessage>
+  <PixlrEditLinkMessage>برای ویرایش تصویر لینک زیر کلیک کنید:</PixlrEditLinkMessage>
+  <PixlrNewImageCreateTitle>ایجاد یک تصویر جدید با Pixlr</PixlrNewImageCreateTitle>
+  <PixlrNewImageLinkMessage>برای ایجاد یک تصویر جدید از لینک زیر کلیک کنید:</PixlrNewImageLinkMessage>
+
+  <DownloadTitle>دانلود چند فایل</DownloadTitle>
+  <DownloadSimpleTab>استاندارد</DownloadSimpleTab>
+  <DownloadJavaTab>جاوه</DownloadJavaTab>
+  <DownloadIEPrevent>اینترنت اکسپلورر مانع دانلود خودکار</DownloadIEPrevent>
+  <DownloadIEClickHere>برای دانلود اینجا کلیک کنید</DownloadIEClickHere>
+  <DownloadIEArchiveReady>بایگانی "{0}" با فایل های انتخاب شده ایجاد شد و برای دانلود آماده است</DownloadIEArchiveReady>
+  <DownloadIECaption>دانلود آماده است</DownloadIECaption>
+
+  <SettingsTitle>تنظیمات</SettingsTitle>
+  <SettingsLanguage>زبان</SettingsLanguage>
+  <SettingsLogOutRequired>تغییرات جدید خواهد شد پس از خروج از سیستم و یا راه اندازی مجدد مرورگر اعمال می شود!</SettingsLogOutRequired>
+  <ThemeTitle>تغییر زمینه</ThemeTitle>
+  <SettingsTheme>انتخاب موضوع</SettingsTheme>
+  <ThemeDefaultTitle>به طور پیش فرض تم</ThemeDefaultTitle>
+  <ThemeGrayTitle>خاکستری موضوع</ThemeGrayTitle>
+  <ThemeAccessTitle>دسترسی تم</ThemeAccessTitle>
+
+  <ChangeUserPasswordTitle>رمز عبور کاربر تغییر</ChangeUserPasswordTitle>
+  <ChangeUserPasswordOldPassword>رمز عبور قدیمی</ChangeUserPasswordOldPassword>
+  <ChangeUserPasswordNewPassword>رمز عبور جدید</ChangeUserPasswordNewPassword>
+  <ChangeUserPasswordRepeatNewPassword>کلمه عبور جدید تکرار</ChangeUserPasswordRepeatNewPassword>
+  <ChangeUserPasswordPasswordsNotMatch>رمزهای ورود مطابقت ندارند.</ChangeUserPasswordPasswordsNotMatch>
+  <ChangeUserPasswordSuccessMessage>رمز عبور تغییر کرده است.</ChangeUserPasswordSuccessMessage>
+  <ChangeUserPasswordInvalidMessage>رمز عبور نامعتبر.</ChangeUserPasswordInvalidMessage>
+
+  <ChangeUserEmailTitle>تغییر ایمیل کاربران</ChangeUserEmailTitle>
+  <ChangeUserEmailEmail>پست الکترونیک</ChangeUserEmailEmail>
+  <ChangeUserEmailSuccessMessage>پست الکترونیکی تغییر کرده است.</ChangeUserEmailSuccessMessage>
+
+  <UserHelpTitle>کمک کاربران</UserHelpTitle>
+
+  <LicenseTitle>اطلاعات مجوز</LicenseTitle>
+  <LicenseTrial>بازدیدکنندگان معمولی و میهمانان نسخه ارزیابی 30 روزه</LicenseTrial>
+  <LicensePrompt>نسخه مجاز {0} کاربر شمارش: {1} {0} تاریخ خرید: {2} {0}</LicensePrompt>
+  <LicenseFreeUpgradeMessage>شما هنوز هم {0} روز برای ارتقاء و پشتیبانی رایگان داشته باشند.</LicenseFreeUpgradeMessage>
+  <LicenseCheckMessage>بیش از یک سال از تاریخ خرید به تصویب رسید. برای استفاده از این نسخه شما باید اشتراک و یا جمع و جور کردن خود را به نسخه قدیمی تجدید. شما می توانید مجوز خود را چک کنید و پیدا کردن نسخه های موجود در &lt;a href='{0}' target='_blank'&gt; بررسی صفحه مجوز &lt;/a&gt; را</LicenseCheckMessage>
+  
+  <ViewPopupBlocked>جدید پنجره یک مسدودکننده پنجره بازشو مسدود شده است</ViewPopupBlocked>
+  
+  <LoginTwoFactorTitle>تایید دو مرحله ای</LoginTwoFactorTitle>
+  <LoginTitle>ورود</LoginTitle>
+  <LoginRemember>دفعه بعد مرا به خاطر بیاور</LoginRemember>
+  <LoginUISelect>رابط</LoginUISelect>
+  <LoginUIStandard>استاندارد</LoginUIStandard>
+  <LoginUITouch>سیار</LoginUITouch>
+  <LoginLanguage>زبان</LoginLanguage>
+  <LoginLogin>ورود</LoginLogin>
+  <LoginFailure>تلاش برای ورود خود را موفقیت آمیز نبود.</LoginFailure>
+  <LoginBlocked>حساب مسدود شده است. صبر کنید برای {0} دقیقه دوباره امتحان کنید.</LoginBlocked>
+  <LoginNotActivated>حساب شما فعال نیست.</LoginNotActivated>
+  <LoginResendActivation>اگر پیام با کد فعال سازی برای یک مدت طولانی را دریافت نکرده، با کلیک بر روی {0} لینک برای ارسال مجدد کد فعال سازی.</LoginResendActivation>
+  <LoginResendActivationLink>ارسال کد فعال سازی</LoginResendActivationLink>
+  <LoginResendActivationCode>در {0} لینک کلیک کنید برای ارسال مجدد کد فعال سازی.</LoginResendActivationCode>
+  
+  <ActivateAccountOk>حساب موفقیت فعال!</ActivateAccountOk>
+  <ActivateAccountResultLabel>نتیجه فعال سازی</ActivateAccountResultLabel>
+  <ActivateAccountErrorOnlyFormsAuth>فعال سازی حساب را می توان تنها با احراز هویت فرم استفاده</ActivateAccountErrorOnlyFormsAuth>
+  <ActivateAccountErrorNotRequired>فعال سازی حساب است در تنظیمات برنامه غیر فعال است. حساب به طور خودکار پس از ثبت نام فعال می شود.</ActivateAccountErrorNotRequired>
+  <ActivateAccountErrorAlreadyActivated>حساب در حال حاضر فعال</ActivateAccountErrorAlreadyActivated>
+  <ActivateAccountErrorInvalidCode>کد فعال سازی معتبر نیست</ActivateAccountErrorInvalidCode>
+  <ActivateAccountErrorAccountNotFound>حساب یافت نشد</ActivateAccountErrorAccountNotFound>
+  <ActivateAccountErrorLinkBroken>لینک فعال سازی را شکسته است</ActivateAccountErrorLinkBroken>
+  <ActivateAccountReturnToLogin>بازگشت به صفحه ورود</ActivateAccountReturnToLogin>
+  
+  <LoginRender>بارگزاری</LoginRender>
+  
+  <LogoutTitle>وب خروج مدیریت فایل</LogoutTitle>
+  <LogoutSessionEnded>جلسه فعلی به پایان رسیده است</LogoutSessionEnded>
+  <LogoutCloseWindow>پنجره را ببند</LogoutCloseWindow>
+  <LogoutEnterAgain>دوباره وارد شوید</LogoutEnterAgain>
+  <LogoutClosingBrowserRequired>توجه! هر کسی می تواند تحت حساب کاربری خود وارد شوید! اگر شما به استفاده از یک کامپیوتر به اشتراک گذاشته، و سپس شما باید پنجره مرورگر خود را (و نه فقط تب) نزدیک به روشن احراز هویت در مرورگر خود! برای مرورگر فایرفاکس شما می توانید اعتبار در منو روشن: ابزار&gt; پاک کردن خشم تاریخچه ...-&gt; Details-&gt; بررسی فعال Logins-&gt; CLEAR را فشار دهید در حال حاضر.</LogoutClosingBrowserRequired>
+  <RecoverPasswordTitle>بازیابی رمز عبور</RecoverPasswordTitle>
+  <RecoverPasswordEmailPassword>ارسال کلمه عبور از طریق ایمیل</RecoverPasswordEmailPassword>
+  <RecoverPasswordErrorInvalidUserName>نام کاربر نامعتبر است.</RecoverPasswordErrorInvalidUserName>
+  <RecoverPasswordErrorNoEmail>این کاربر هیچ آدرس ایمیل تعریف شده است.</RecoverPasswordErrorNoEmail>
+  <RecoverPasswordErrorSendEmail>در حالی که ارسال ایمیل خود را یک خطا رخ داده است.</RecoverPasswordErrorSendEmail>
+  <RecoverPasswordSuccess>رمز عبور شما به آدرس پست الکترونیک شما ارسال شده است.</RecoverPasswordSuccess>
+
+  <RecoverUserNameTitle>بازیابی نام</RecoverUserNameTitle>
+  <RecoverUserEmailName>ارسال نام و نام خانوادگی از طریق ایمیل</RecoverUserEmailName>
+  <RecoverUserNameErrorInvalidEmail>ایمیل کاربر نامعتبر است.</RecoverUserNameErrorInvalidEmail>
+  <RecoverUserNameErrorNoEmail>آدرس ایمیل یافت نشد.</RecoverUserNameErrorNoEmail>
+  <RecoverUserNameSuccess>نام شما به آدرس ایمیل شما ارسال می شود.</RecoverUserNameSuccess>
+
+  <ChangeEmailTitle>تغییر ایمیل</ChangeEmailTitle>
+  <ChangeEmailEmail>ایمیل جدید</ChangeEmailEmail>
+  <ChangeEmailSubmit>ارسال</ChangeEmailSubmit>
+  <ChangeEmailStatusSuccess>ایمیل تغییر کرده است</ChangeEmailStatusSuccess>
+
+  <RegisterTitle>ثبت نام</RegisterTitle>
+  <RegisterEmail>پست الکترونیک</RegisterEmail>
+  <RegisterExtraInfo>اطلاعات اضافی</RegisterExtraInfo>
+  <RegisterCaptcha>متن شما در تصویر زیر می بینید را وارد کنید</RegisterCaptcha>
+  <RegisterSubmit>ارسال</RegisterSubmit>
+  <RegisterErrorPasswordNotMatch>رمزهای ورود مطابقت ندارند.</RegisterErrorPasswordNotMatch>
+  <RegisterErrorUserExists>این نام کاربری یا آدرس ایمیل شما در حال حاضر به استفاده می شود.</RegisterErrorUserExists>
+  <RegisterErrorCaptchaInvalid>تصویر متن به درستی وارد نشده است</RegisterErrorCaptchaInvalid>
+  <RegisterSuccess>کاربر جدید اضافه شده است.</RegisterSuccess>
+  <RegisterActivationSent>کد فعال سازی به ایمیل شما ارسال شد.</RegisterActivationSent>
+  <RegisterActivationCheckEmail>لطفا صندوق پست الکترونیکی خود (به خصوص پوشه های ناخواسته) را بررسی کنید و دستورالعمل ها در ایمیل دنبال کنید.</RegisterActivationCheckEmail>
+  
+  <FolderGridUserPermissionsColumn>دسترسی برای کاربران</FolderGridUserPermissionsColumn>
+  <FolderGridGroupPermissionsColumn>دسترسی برای گروه</FolderGridGroupPermissionsColumn>
+
+  <LoginLinkText>ورود</LoginLinkText>
+  <RecoverPasswordLinkText>رمز فراموش شده؟</RecoverPasswordLinkText>
+  <RecoverUserNameLinkText>نام فراموش کرده اید؟</RecoverUserNameLinkText>
+  <RegisterLinkText>ثبت نام</RegisterLinkText>
+  <ChangeEmail>تغییر ایمیل</ChangeEmail>
+  <LoginMobileVersionLinkText>نسخه موبایل (بیشتر گوشی های هوشمند و تاچ پد)</LoginMobileVersionLinkText>
+
+  <FileIsNotZipArchive>فایل {0} است آرشیو ZIP نیست</FileIsNotZipArchive>
+
+  <FileModificationsAuthor>نویسنده</FileModificationsAuthor>
+  <FileModificationsHistory>نمایش تاریخ</FileModificationsHistory>
+  <FileModificationsWindowTitle>تغییرات از فایل "{0}"</FileModificationsWindowTitle>
+  <FileModificationsTypeCreated>ایجاد شده</FileModificationsTypeCreated>
+  <FileModificationsTypeModified>اصلاح شده</FileModificationsTypeModified>
+  <FileModificationsTypeRenamed>تغییر نام</FileModificationsTypeRenamed>
+  <FileModificationsTypeRestored>ترمیم</FileModificationsTypeRestored>
+  <FileModificationsTypeDeleted>حذف شده</FileModificationsTypeDeleted>
+
+  <ChangingReadOnlyProgressMessage>تغییر تنها ویژگی به عنوان خوانده شده</ChangingReadOnlyProgressMessage>
+
+  <ImageViewerWindowTitle>نمایشگر تصویر [{0}]</ImageViewerWindowTitle>
+  <ImageViewerLoadingMessage>در حال بارگذاری نمایشگر تصویر</ImageViewerLoadingMessage>
+  <ImageViewerLoadingImageMessage>بارگذاری تصویر</ImageViewerLoadingImageMessage>
+  <ImageViewerFirstImageTip>تصویر اول</ImageViewerFirstImageTip>
+  <ImageViewerPreviousImageTip>تصویر قبلی</ImageViewerPreviousImageTip>
+  <ImageViewerRefreshTip>لیست تصاویر تازه کردن</ImageViewerRefreshTip>
+  <ImageViewerNextImageTip>تصویر بعدی</ImageViewerNextImageTip>
+  <ImageViewerLastImageTip>آخرین تصویر</ImageViewerLastImageTip>
+  <ImageViewerRunSlideShow>تصاویر اجرا اسلاید نشان می دهد</ImageViewerRunSlideShow>
+  <ImageViewerStopSlideShow>توقف نمایش اسلاید تصاویر</ImageViewerStopSlideShow>
+  <ImageViewerImageSimpleInfo>{0} / {1}، {2} ({3})</ImageViewerImageSimpleInfo>
+  <ImageViewerImageLoadErrorMessage>تصویر پیدا نشد، یا نمایش داده نمی شود</ImageViewerImageLoadErrorMessage>
+  <ImageViewerShowImageSizeOfWindow>نمایش تصویر با اندازه واقعی</ImageViewerShowImageSizeOfWindow>
+  <ImageViewerShowRealImageSize>برای بزرگنمایی کلیک کنید</ImageViewerShowRealImageSize>
+
+  <PasswordExpiresTitle>رمز عبور منقضی</PasswordExpiresTitle>
+  <PasswordExpiresMessage>رمز عبور خود را منقضی می شود پس از {0} روز (بازدید کنندگان)!</PasswordExpiresMessage>
+  <PasswordExpiredMessage>رمز عبور خود را تمام شده است.</PasswordExpiredMessage>
+  <PasswordChangeMessage>برای تغییر رمز عبور، را انتخاب کنید {0} {1} -&gt; {2} {3} در نوار ابزار.</PasswordChangeMessage>
+
+  <UnzipContentTotalFiles>تعداد فایل ها: {0} ({1})</UnzipContentTotalFiles>
+
+  <VideoConversionJobNotFound>
+    قادر پیدا کردن فرآیند تبدیل مشخص شده است.
+    دلایل احتمالی:
+    1. تبدیل یک مدت زمان طولانی تکمیل پیش و اطلاعات در مورد این کار برداشته شد.
+    2. فرآیند تبدیل غیر طبیعی خاتمه یافته است.
+  </VideoConversionJobNotFound>
+  <VideoConversionUtilityNotFound>ابزار پیدا کردن قادر به انجام عملیات درخواستی: {0}</VideoConversionUtilityNotFound>
+  <!-- The current security principal "{0}" has insufficiant permissions to executable file "{1}".-->
+  <VideoConversionUtilityInsufficientPermissions>کاربر فعلی "{0}" را تکذیب کرد دسترسی به فایل اجرایی "{1}".</VideoConversionUtilityInsufficientPermissions>
+  <VideoConversionOperationCancelled>عملیات لغو</VideoConversionOperationCancelled>
+  <VideoConversionUtilityFailed>ابزار تبدیل فسخ غیر طبیعی</VideoConversionUtilityFailed>
+  <VideoConversionOutputFileBusy>فایل خروجی است که توسط فرآیند تبدیل دیگر استفاده می شود</VideoConversionOutputFileBusy>
+
+  <VideoConvertWindowValidatorPositiveInt>باید یک عدد صحیح مثبت</VideoConvertWindowValidatorPositiveInt>
+  <VideoConvertWindowTitle>تبدیل ویدیو</VideoConvertWindowTitle>
+  <VideoConvertWindowInputFile>فایل ورودی</VideoConvertWindowInputFile>
+  <VideoConvertWindowOutputFile>فایل خروجی</VideoConvertWindowOutputFile>
+  <VideoConvertWindowOutputFormat>فرمت خروجی</VideoConvertWindowOutputFormat>
+  <VideoConvertWindowBitrate>میزان ارسال بیت (کیلوبیت بر ثانیه)</VideoConvertWindowBitrate>
+  <VideoConvertWindowFrameResolution>وضوح قاب</VideoConvertWindowFrameResolution>
+  <VideoConvertWindowDAR>نسبت ابعاد صفحه نمایش</VideoConvertWindowDAR>
+  <VideoConvertWindowPAR>نسبت ابعاد پیکسل</VideoConvertWindowPAR>
+  <VideoConvertWindowResize>تغییر اندازه</VideoConvertWindowResize>
+  <VideoConvertWindowProfile>مشخصات</VideoConvertWindowProfile>
+  <VideoConvertWindowWidth>عرض</VideoConvertWindowWidth>
+  <VideoConvertWindowHeight>ارتفاع</VideoConvertWindowHeight>
+  <VideoConvertWindowExtractDetailsProgressMsg>استخراج جزئیات فیلم</VideoConvertWindowExtractDetailsProgressMsg>
+  <VideoConvertWindowOutputFileExistsTitle>فایل خروجی وجود دارد</VideoConvertWindowOutputFileExistsTitle>
+  <VideoConvertWindowOutputFileExistsMsg>فایل خروجی وجود دارد. این بازنویسی خواهد شد.</VideoConvertWindowOutputFileExistsMsg>
+  <VideoConvertWindowPrepareToConvert>آماده سازی برای تبدیل ویدیو</VideoConvertWindowPrepareToConvert>
+  <VideoConvertWindowOutputFileMatchInputFile>نام فایل خروجی منطبق نام فایل ورودی</VideoConvertWindowOutputFileMatchInputFile>
+
+  <VideoConvertProgressWindowTitle>تبدیل ویدیو</VideoConvertProgressWindowTitle>
+  <VideoConvertProgressWindowInputFile>فایل ورودی</VideoConvertProgressWindowInputFile>
+  <VideoConvertProgressWindowOutputFile>فایل خروجی</VideoConvertProgressWindowOutputFile>
+  <VideoConvertProgressWindowStatus>وضعیت</VideoConvertProgressWindowStatus>
+  <VideoConvertProgressWindowStatusTerminating>فسخ</VideoConvertProgressWindowStatusTerminating>
+  <VideoConvertProgressWindowStatusPreparing>آماده كردن</VideoConvertProgressWindowStatusPreparing>
+  <VideoConvertProgressWindowStatusProgress>گام {0} از {1}</VideoConvertProgressWindowStatusProgress>
+  <VideoConvertProgressWindowStatusDone>انجام شده</VideoConvertProgressWindowStatusDone>
+
+  <PlayHtml5VideoNotSupported>مرورگر شما از عنصر ویدیو HTML 5 پشتیبانی نمی کند.</PlayHtml5VideoNotSupported>
+  <PlayHtml5VideoPlayFailed>بازی های ویدئویی شکست خورده</PlayHtml5VideoPlayFailed>
+  <PlayHtml5AudioPlayFailed>بازی های صوتی شکست خورده</PlayHtml5AudioPlayFailed>
+  <PlayHtml5AudioTitle>عنوان</PlayHtml5AudioTitle>
+  <PlayHtml5AudioNotSupported>مرورگر شما از عنصر صدا HTML 5 پشتیبانی نمی کند.</PlayHtml5AudioNotSupported>
+  <PlayHtml5AudioArtist>هنرمند</PlayHtml5AudioArtist>
+  <PlayHtml5AudioAlbum>البوم</PlayHtml5AudioAlbum>
+  <PlayHtml5AudioYear>سال</PlayHtml5AudioYear>
+  <PlayHtml5AudioDuration>مدت زمان</PlayHtml5AudioDuration>
+  <PlayHtml5AudioBitrate>میزان ارسال بیت</PlayHtml5AudioBitrate>
+  <PlayHtml5AudioVolume>حجم</PlayHtml5AudioVolume>
+
+  <!-- Root title -->
+  <RootTitle>ریشه</RootTitle>
+
+  <!-- Recent feature keys -->
+  <RecentRootTitle>اخیر</RecentRootTitle>
+  <RecentDeleteOnePrompt>آیا مطمئن هستید که می خواهید به حذف "{0}" از آیتم های اخیر خود؟</RecentDeleteOnePrompt>
+  <RecentDeleteManyPrompt>آیا مطمئن هستید که می خواهید این {0} آیتم از آیتم های اخیر خود را حذف کنید؟</RecentDeleteManyPrompt>
+  <RecentPathNotExist>مسیر های اخیر "{0}" وجود ندارد و یا دسترسی است</RecentPathNotExist>
+  <RecentAllWithoutGroupingTitle>همه W / O گروه بندی</RecentAllWithoutGroupingTitle>
+  <RecentEditGroupTitle>ویرایش شده</RecentEditGroupTitle>
+  <RecentViewGroupTitle>بازدید</RecentViewGroupTitle>
+  <RecentDownloadGroupTitle>دانلود</RecentDownloadGroupTitle>
+  <RecentUploadGroupTitle>آپلود</RecentUploadGroupTitle>
+  <RecentCreateGroupTitle>ایجاد شده</RecentCreateGroupTitle>
+
+  <!-- Trash feature keys -->
+  <TrashRootTitle>زباله ها</TrashRootTitle>
+  <TrashLabelDateDeleted>تاریخ حذف</TrashLabelDateDeleted>
+  <TrashDeleteOnePrompt>آیا مطمئن هستید که می خواهید به طور دائم حذف "{0}" را از سطل زباله؟</TrashDeleteOnePrompt>
+  <TrashDeleteManyPrompt>آیا مطمئن هستید که می خواهید این {0} اقلام از سطل زباله به طور دائم حذف کنید؟</TrashDeleteManyPrompt>
+  <TrashEmptyTrashLabel>سطل زباله خالی</TrashEmptyTrashLabel>
+  <TrashRestoreSelectedLabel>بازگرداندن</TrashRestoreSelectedLabel>
+  <TrashRestoreAllLabel>بازگرداندن همه</TrashRestoreAllLabel>
+  <TrashEmptyTrashPrompt>آیا شما مطمئن هستید که میخواهید خالی کردن سطل زباله؟</TrashEmptyTrashPrompt>
+  <TrashRestoreAllPrompt>آیا شما مطمئن هستید که میخواهید برای بازگرداندن تمام اقلام از سطل زباله؟</TrashRestoreAllPrompt>
+  <TrashProgressRestoring>بازیابی از سطل زباله</TrashProgressRestoring>
+  <TrashFolderNotFound>دایرکتوری سطل زباله یافت نشد</TrashFolderNotFound>
+  <TrashBalloonRestored>مورد بازیابی: {0} از {1}</TrashBalloonRestored>
+  <TrashDeleteDirectlyLabel>حذف بدون نیاز به حذف به سطل زباله</TrashDeleteDirectlyLabel>
+  <TrashUsedSpaceHint>{0} استفاده</TrashUsedSpaceHint>
+  <TrashLimitSizeHint>استفاده از {0} {1} ({2})</TrashLimitSizeHint>
+  <TrashLargeItemsShelfTimeHint>زمان ذخیره سازی از اشیاء بزرگتر از {0} است: {1} روز (بازدید کنندگان)</TrashLargeItemsShelfTimeHint>
+  <TrashSmallItemsShelfTimeHint>برای همه دیگران: {0} روز (بازدید کنندگان)</TrashSmallItemsShelfTimeHint>
+  <TrashItemsShelfTimeHint>زمان ذخیره سازی از اشیاء: {0} روز (بازدید کنندگان)</TrashItemsShelfTimeHint>
+  <TrashAvailableSpaceHint>حداکثر اندازه در دسترس {0}</TrashAvailableSpaceHint>
+  <TrashDeletedFromFolderHint>حذف شده از {0}</TrashDeletedFromFolderHint>
+  <TrashExceededMessage>اشیاء زیر بیش از حد بزرگ است و می تواند به سطل زباله (محدودیت {0} فراتر رفته است) ساخته شده باشد:</TrashExceededMessage>
+  <TrashErrorSuffixMessage>لطفا سعی کنید به بررسی گزینه "{0}" و سپس حذف فایل (ها) برای همیشه فراتر از بازیابی</TrashErrorSuffixMessage>
+
+  <!-- Shared by link -->
+  <SharedByLinkRootTitle>ایجاد شده توسط لینک</SharedByLinkRootTitle>
+
+  <!-- Shared for you -->
+  <SharedForYouRootTitle>به اشتراک گذاشته شده با شما</SharedForYouRootTitle>
+  <SharedForYouUnableToGetUrl>قادر به دریافت URL</SharedForYouUnableToGetUrl>
+
+  <!-- Watch for modifications -->
+  <WatchForModifsCommand>سازمان دیده بان برای تغییرات</WatchForModifsCommand>
+  <WatchForModifsStartCommand>شروع به تماشای</WatchForModifsStartCommand>
+  <WatchForModifsEditCommand>تغییر تماشای</WatchForModifsEditCommand>
+  <WatchForModifsStopCommand>توقف تماشای</WatchForModifsStopCommand>
+  <WatchForModifsViewChangesCommand>مشاهده تغییرات</WatchForModifsViewChangesCommand>
+  <WatchForModifsSubscriptionSuccessMessage>شما با موفقیت برای تغییرات مشترک "{0}"</WatchForModifsSubscriptionSuccessMessage>
+  <WatchForModifsStopSuccessMessage>نظارت "{0}" با موفقیت حذف شده است</WatchForModifsStopSuccessMessage>
+  <WatchForModifsIncludingNestedLabel>در نظر بگیرید فایل های تو در تو، پوشه ها</WatchForModifsIncludingNestedLabel>
+  <WatchForModifsParentWatchExistMessage>برای آیتم انتخاب شده است در حال حاضر نظارت برای پوشه پدر و مادر اختصاص داده "{0}".</WatchForModifsParentWatchExistMessage>
+  <WatchForModifsRootFolder>هشدارها</WatchForModifsRootFolder>
+  <WatchForModifsStartProgressLoading>فعال کردن تماشای</WatchForModifsStartProgressLoading>
+  <WatchForModifsStopProgressLoading>Terminatie تماشای</WatchForModifsStopProgressLoading>
+  <WatchForModifsIconHint>سازمان دیده بان را فعال کنید برای تغییرات</WatchForModifsIconHint>
+  <WatchForModifsNotifCheckBox>اطلاع در مورد تغییرات توسط ایمیل:</WatchForModifsNotifCheckBox>
+  <WatchForModifsWatchedUsersCheckBox>نظارت تنها کاربران (خالی بگذارید اگر شما نظارت بر تمام):</WatchForModifsWatchedUsersCheckBox>
+  <WatchForModifsIgnoreOwnerCheckBox>نادیده گرفتن تغییرات خود</WatchForModifsIgnoreOwnerCheckBox>
+  <WatchForModifsActionsCheckBox>نظارت بر تمام اقدامات (یا برخی اقدامات را از لیست زیر)</WatchForModifsActionsCheckBox>
+  <WatchForModifsNestedItemsWarning>توجه! هنگامی که شما اضافه نظارت برای پوشه انتخاب شده، تمامی فایل های محصور و پوشه ها که نظارت فردی است که قبلا اضافه شده است، نظارت حذف خواهد شد. دوست دارید ادامه دهید؟</WatchForModifsNestedItemsWarning>
+
+  <WelcomeWindowHideCheckboxLabel>این کار را با ورود به سیستم بعدی در نشان نمی دهد</WelcomeWindowHideCheckboxLabel>
+
+  <LogsGridMoreInfoColumn>اطلاعات بیشتر</LogsGridMoreInfoColumn>
+  <LogsGridDetailsTitle>جزئیات</LogsGridDetailsTitle>
+  <LogsGridPhysPathColumn>مسیر فیزیکی</LogsGridPhysPathColumn>
+  <LogsGridIsFolderColumn>پوشه؟</LogsGridIsFolderColumn>
+  <LogsGridIsPublicColumn>عمومی؟</LogsGridIsPublicColumn>
+  <LogsGridByWebDavColumn>از WebDAV؟</LogsGridByWebDavColumn>
+
+  <NoCommentsYetHint>هنوز دیدگاهی داده نشده</NoCommentsYetHint>
+  <NoHistoryYetHint>هیچ سابقه هنوز</NoHistoryYetHint>
+
+  <DetailsPropertyValuesCouldNotBeWritten>برای صرفه جویی در ارزش املاک، ها Mabe نوع فایل چنین امکان پشتیبانی نمی کند و یا یک خطا در نرم افزار همراه با فایل وجود دارد شکست خورده است.</DetailsPropertyValuesCouldNotBeWritten>
+
+  <AdminCommandHelp>کمک</AdminCommandHelp>
+  <AdminCommandAddUser>اضافه کردن کاربر</AdminCommandAddUser>
+  <AdminCommandAddGroup>اضافه کردن گروه</AdminCommandAddGroup>
+  <AdminCommandRemoveUser>حذف کاربر</AdminCommandRemoveUser>
+
+  <AdminCommandSelectUsers>اضافه کردن کاربران</AdminCommandSelectUsers>
+  <AdminCommandSelectGroups>اضافه کردن گروه</AdminCommandSelectGroups>
+  <AdminCommandRemoveUsers>حذف کاربران</AdminCommandRemoveUsers>
+  <AdminCommandRemoveGroups>حذف گروه</AdminCommandRemoveGroups>
+  <AdminUsersGroups>عضو</AdminUsersGroups>
+  <AdminSearchUserEmptyText>نام کاربری را وارد کنید</AdminSearchUserEmptyText>
+  <AdminSearchGroupEmptyText>نام گروه را وارد کنید</AdminSearchGroupEmptyText>
+  <AdminUsersGroupAlreadyExists>یک گروه (بازدید کنندگان) با این نام (بازدید کنندگان) قبل اضافه شده است</AdminUsersGroupAlreadyExists>
+
+  <AdminApplicationLoading>بارگذاری پنل مدیریت</AdminApplicationLoading>
+  <AdminTitle>مدیریت</AdminTitle>
+  <AdminUsersEditUser>کاربران ویرایش</AdminUsersEditUser>
+  <AdminUsersSetUserPassword>قراردادن رمز عبور</AdminUsersSetUserPassword>
+  <AdminUsersViewGroups>نمایش گروه</AdminUsersViewGroups>
+  <AdminUsersViewFolders>نمایش پوشه ها</AdminUsersViewFolders>
+  <AdminUsersDeleteUserPrompt>آیا مطمئن هستید که می خواهید به حذف کاربر (ها) "{0}"؟</AdminUsersDeleteUserPrompt>
+  <AdminUsersDeletedUsers>{0} کاربران (بازدید کنندگان) حذف شده است.</AdminUsersDeletedUsers>
+  <AdminUsersUserNotFound>کاربر با این نام یافت نشد</AdminUsersUserNotFound>
+  <AdminUsersPropertiesTitle>خواص کاربر</AdminUsersPropertiesTitle>
+  <AdminUsersSetPasswordTitle>رمز عبور کاربر تنظیم</AdminUsersSetPasswordTitle>
+  <AdminUsersGeneralInfo>اطلاعات کاربر</AdminUsersGeneralInfo>
+  <AdminUsersUserEmail>پست الکترونیک</AdminUsersUserEmail>
+  <AdminUsersEmptyName>نام کاربری نمی تواند خالی باشد</AdminUsersEmptyName>
+  <AdminUsersEmptyPassword>رمز عبور کاربر نمی تواند خالی باشد</AdminUsersEmptyPassword>
+  <AdminUsersIncorrectName>نمادهای نادرست در نام کاربر وجود دارد</AdminUsersIncorrectName>
+  <AdminUsersAlreadyExists>کاربری با این نام از قبل وجود دارد</AdminUsersAlreadyExists>
+  <AdminUsersEmailAlreadyExists>کاربر با این ایمیل در حال حاضر وجود دارد</AdminUsersEmailAlreadyExists>
+  <AdminUsersPasswordsNotMatch>رمزهای ورود مطابقت ندارند</AdminUsersPasswordsNotMatch>
+  <AdminUsersRenameWarning>پس از تغییر نام یک کاربر لازم است به تغییر رمز عبور، در غیر این صورت در حال حاضر لینک وب سایت پوشه نادرست خواهد بود</AdminUsersRenameWarning>
+  <AdminUsersLicenseRestriction>مجوز خود را اجازه نمی دهد که به شما برای ایجاد بیش از {0} کاربران</AdminUsersLicenseRestriction>
+  <AdminUsersCountInfoWithLimit>مجموع کاربران: {0} از {1}</AdminUsersCountInfoWithLimit>
+  <AdminUsersCountInfo>مجموع کاربران: {0}</AdminUsersCountInfo>
+
+  <AdminGroupsEditGroup>ویرایش گروه</AdminGroupsEditGroup>
+  <AdminGroupsRemoveGroup>حذف گروه</AdminGroupsRemoveGroup>
+  <AdminGroupsDeleteGroupPrompt>آیا مطمئن هستید که می خواهید به حذف گروه (ها) "{0}"؟</AdminGroupsDeleteGroupPrompt>
+  <AdminGroupsDeletedGroups>{0} گروه (ها) حذف شده است.</AdminGroupsDeletedGroups>
+  <AdminGroupsGroupNotFound>یک گروه با این نام یافت نشد</AdminGroupsGroupNotFound>
+  <AdminGroupsViewUsers>نمایش کاربران</AdminGroupsViewUsers>
+  <AdminGroupsProperties>خواص</AdminGroupsProperties>
+  <AdminGroupsPropertiesTitle>خواص گروه</AdminGroupsPropertiesTitle>
+  <AdminGroupsGeneralInfo>اطلاعات گروه</AdminGroupsGeneralInfo>
+  <AdminGroupsUserNamePrompt>نام کاربری را وارد کنید</AdminGroupsUserNamePrompt>
+  <AdminGroupsUsers>اعضای گروه</AdminGroupsUsers>
+  <AdminGroupsUserAlreadyExists>کاربر (های) در با این نام (بازدید کنندگان) قبل اضافه شده است</AdminGroupsUserAlreadyExists>
+  <AdminGroupsEmptyName>نام گروه نمی تواند خالی باشد</AdminGroupsEmptyName>
+  <AdminGroupsIncorrectName>نمادهای نادرست در نام گروه وجود دارد</AdminGroupsIncorrectName>
+  <AdminGroupsAlreadyExists>گروهی با این نام وجود دارد</AdminGroupsAlreadyExists>
+  <AdminGroupsCountInfo>مجموع گروه: {0}</AdminGroupsCountInfo>
+
+  <AdminLanguagesTab>از localizations</AdminLanguagesTab>
+  <AdminLanguagesTabMessage>ویرایش فایل محلی سازی، انتخاب زبان دلخواه در لیست، با کلیک بر روی رشتهها را ویرایش کنید. بعد از تغییرات بر روی "ذخیره" را فشار دهید</AdminLanguagesTabMessage>
+  <AdminLangGridKeyColumn>نام کلید</AdminLangGridKeyColumn>
+  <AdminLangGridDefaultColumn>انگلیسی</AdminLangGridDefaultColumn>
+  <AdminEnterLanguageNameTitle>نام زبان را وارد کنید</AdminEnterLanguageNameTitle>
+  <AdminLangConfirmRefreshTitle>تایید تازه کردن</AdminLangConfirmRefreshTitle>
+  <AdminLangConfirmRefreshMessage>توجه! داده های ذخیره شده بود. آیا شما می خواهید برای ذخیره کردن تغییرات در حال حاضر؟</AdminLangConfirmRefreshMessage>
+  <AdminLangAmountInfo>کلید پر: {0} از {1} (مقادیر خالی: {2})</AdminLangAmountInfo>
+  <AdminLangSaveToCSV>صادرات به CSV</AdminLangSaveToCSV>
+  <AdminLangLoadFromCSV>بار از CSV</AdminLangLoadFromCSV>
+
+  <AdminDbMaintenanceTab>تعمیر و نگهداری DB</AdminDbMaintenanceTab>
+  <AdminDbMaintenanceInfoTitle>اطلاعات</AdminDbMaintenanceInfoTitle>
+  <AdminDbMaintenanceInfoPathLabel>مسیر فایل DB</AdminDbMaintenanceInfoPathLabel>
+  <AdminDbMaintenanceInfoSizeLabel>اندازه فایل DB</AdminDbMaintenanceInfoSizeLabel>
+  <AdminDbMaintenanceCompactTitle>پایگاه جمع و جور</AdminDbMaintenanceCompactTitle>
+  <AdminDbMaintenanceCompactNote>به منظور کاهش حجم فایل پایگاه داده، لطفا زیر کلیک بر روی دکمه. آن را به انجام فشرده سازی پایگاه داده دوره، از، برای مثال، پس از حذف از برخی از لینک ها عمومی و یا ورود به سیستم قدیمی ثبت حجم فایل DB را کاهش نمی دهد غیر فعال است.</AdminDbMaintenanceCompactNote>
+  <AdminDbMaintenanceCompactButton>جمع و جور DB</AdminDbMaintenanceCompactButton>
+  <AdminDbMaintenanceCompactSuccess>DB موفقیت فشرده شده است.
+اندازه پرونده قدیمی: {0}
+اندازه فایل جدید: {1}</AdminDbMaintenanceCompactSuccess>
+  <AdminDbMaintenanceCompactAutoNote>شما همچنین می توانید بر روی پایگاه داده فشرده سازی خودکار پس از حذف از عملیات سوابق به نوبه خود، با این حال، توصیه می شود چرا که آن را قفل شاید مکرر از پایه و از آن می توانید مدت زمان برخی از درخواست افزایش می دهد. توجه! پس از تغییر این تنظیم برنامه دوباره شروع خواهد شد!</AdminDbMaintenanceCompactAutoNote>
+  <AdminDbMaintenanceCompactAutoCheckBox>فعال / غیر فعال کردن خودکار جمع و جور DB</AdminDbMaintenanceCompactAutoCheckBox>
+  <AdminDbMaintenanceCompactAutoSaveButton>صرفه جویی</AdminDbMaintenanceCompactAutoSaveButton>
+  <AdminDbMaintenanceCompactAutoSaveSuccess>تغییر از сompression خودکار DB موفقیت انجام شده است. صفحه خواهد شد به زودی به روز شد.</AdminDbMaintenanceCompactAutoSaveSuccess>
+  <AdminDbMaintenanceEnableLogLabel>انتخاب سطح ورود به سیستم DB نمایش داده شد (به داده ها / debug.log)</AdminDbMaintenanceEnableLogLabel>
+  <AdminDbMaintenanceSettingsSaveSuccess>تنظیمات DB موفقیت ذخیره شد. صفحه بارگذاری مجدد خواهد شد</AdminDbMaintenanceSettingsSaveSuccess>
+  <AdminDbMaintenanceSettingsChangeNote>توجه! پس از صرفه جویی از تنظیمات برنامه به زودی راه اندازی مجدد.</AdminDbMaintenanceSettingsChangeNote>
+  <AdminDbMaintenanceInsertIntervalLabel>فاصله (در دقیقه) از اضافه کردن رویدادهای به DB. اگر شما را مشخص 0، درج مستقیم پس از حوادث ظاهر خواهد شد.</AdminDbMaintenanceInsertIntervalLabel>
+  <AdminDbMaintenanceAdvDbParamsTitle>پارامترهای اتصال و جوی پیشرفته DB</AdminDbMaintenanceAdvDbParamsTitle>
+  <AdminDbMaintenanceStatTitle>آمار (بستگی به سطح ورود به سیستم DB DurationExecution)</AdminDbMaintenanceStatTitle>
+  <AdminDbMaintenanceStatDurationReadLabel>میانگین ایست خواندن</AdminDbMaintenanceStatDurationReadLabel>
+  <AdminDbMaintenanceStatDurationWriteLabel>میانگین ایست نوشتن</AdminDbMaintenanceStatDurationWriteLabel>
+  <AdminDbMaintenanceStatDurationCompactLabel>ایست فشرده میانگین</AdminDbMaintenanceStatDurationCompactLabel>
+  <AdminDbMaintenanceStatNoData>اطلاعاتی وجود ندارد</AdminDbMaintenanceStatNoData>
+  <AdminDbMaintenanceStatGetButton>جمع آوری آمار</AdminDbMaintenanceStatGetButton>
+
+  <AdminMiscTab>متفرقه</AdminMiscTab>
+  <AdminMiscLoadADAccountsTitle>بار حساب های اکتیو دایرکتوری</AdminMiscLoadADAccountsTitle>
+  <AdminMiscLoadADAccountsLoadButton>بار</AdminMiscLoadADAccountsLoadButton>
+  <AdminMiscLoadADAccountsResetButton>تنظیم مجدد</AdminMiscLoadADAccountsResetButton>
+  <AdminMiscLoadADAccountsLdap>ظرف LDAP</AdminMiscLoadADAccountsLdap>
+  <AdminMiscLoadADAccountsToFile>به فایل</AdminMiscLoadADAccountsToFile>
+  <AdminMiscLoadADAccountsSuccessMessage>حساب های اکتیو دایرکتوری با موفقیت لود</AdminMiscLoadADAccountsSuccessMessage>
+  <AdminMiscLoadADAccountsInfo>در اینجا شما می توانید فایل حاوی طیف فعال ساختار کاربران راهنمای تولید کند. این فایل مورد نیاز است در صورت استفاده از یک فایل استاتیک به عنوان ذخیره سازی اطلاعات AD. همان فایل را می توان از طریق ابزار ADManager تولید می شود. برای اطلاعات بیشتر به &lt;b&gt; ADAccountsFilePath &lt;B /&gt; توضیحات پارامتر در دید {0} دستی {1}.</AdminMiscLoadADAccountsInfo>
+
+  <AdminMiscManageQuotasTitle>مدیریت سهمیه</AdminMiscManageQuotasTitle>
+  <AdminMiscManageQuotasInfo>پرس و جو موجود و یا ایجاد سهمیه جدید برای محدود کردن فضای مجاز برای یک پوشه، طراحی شده توسط مدیریت فایل سرور منابع.</AdminMiscManageQuotasInfo>
+  <AdminMiscManageQuotasFolderPath>مسیر پوشه</AdminMiscManageQuotasFolderPath>
+  <AdminMiscManageQuotasQuota>سهمیه</AdminMiscManageQuotasQuota>
+  <AdminMiscManageQuotasGetQuota>مطلع سهمیه</AdminMiscManageQuotasGetQuota>
+  <AdminMiscManageQuotasSetQuota>مجموعه ای سهمیه</AdminMiscManageQuotasSetQuota>
+
+  <AdminMiscFoldersFromGPOLTitle>پوشه ها بار از گروه سیاست</AdminMiscFoldersFromGPOLTitle>
+  <AdminMiscFoldersFromGPOLComputerName>نام کامپیوتر</AdminMiscFoldersFromGPOLComputerName>
+  <AdminMiscFoldersFromGPOLFilePath>مسیر فایل</AdminMiscFoldersFromGPOLFilePath>
+  <AdminMiscFoldersFromGPOLMoreInfoLink>اطلاعات بیشتر</AdminMiscFoldersFromGPOLMoreInfoLink>
+  <AdminMiscFoldersFromGPOLResetButton>تنظیم مجدد</AdminMiscFoldersFromGPOLResetButton>
+  <AdminMiscFoldersFromGPOLLoadButton>بار</AdminMiscFoldersFromGPOLLoadButton>
+  <AdminMiscFoldersFromGPOLFromDC>از DC</AdminMiscFoldersFromGPOLFromDC>
+  <AdminMiscFoldersFromGPOLFromFile>از فایل</AdminMiscFoldersFromGPOLFromFile>
+  <AdminMiscFoldersTargetLabel>برای وارد کردن کاربران / گروه شرایط در ...</AdminMiscFoldersTargetLabel>
+  <AdminMiscFoldersTargetFilter>صافی</AdminMiscFoldersTargetFilter>
+  <AdminMiscFoldersTargetPermission>اجازه</AdminMiscFoldersTargetPermission>
+  <AdminMiscFoldersFromGPOLSuccessMessage>پوشه ها با موفقیت لود &lt;br /&gt; در جدید: {0}، به روز رسانی: {1}.</AdminMiscFoldersFromGPOLSuccessMessage>
+  <AdminMiscFoldersFromGPOLInfo>شما می توانید بار (یا به روز رسانی) لیست پوشه از تنظیمات نقشه برداری گروه سیاست درایو در کنترل کننده دامنه. در قسمت زیر شما می توانید نام کامپیوتر که از آن تنظیمات Group Policy بارگذاری خواهد شد (یا اگر خالی بماند، سپس دامنه فعلی استفاده می شود)، و یا یک مسیر به فایل با تنظیمات درایوهای اکسترنال را وارد کنید.</AdminMiscFoldersFromGPOLInfo>
+
+  <AdminAnonymFoldersTab>پوشه ها ناشناس</AdminAnonymFoldersTab>
+  <AdminAnonymFoldersDeleteFolderPrompt>آیا مطمئن هستید که می خواهید به حذف {0} پوشه ناشناس انتخاب شده است؟</AdminAnonymFoldersDeleteFolderPrompt>
+  
+  <AdminAnonymFoldersDescription>پوشه به اشتراک گذاشته / فایل - این پوشه / فایل ها که نیازی به احراز هویت کاربر * هستند، که بدان معنی است که آنها برای همه بازدید کنندگان در دسترس هستند * (در صورتی که یک لینک). همه کاربران می توانند پوشه مانند / فایل از منوی ایجاد "به اشتراک گذاری و rarr؛ ایجاد یک لینک های عمومی". با این حال، ممکن است پوشه به اشتراک گذاشته مجوز محدود داشته باشد: برای آپلود، دانلود، فایل ها / لیست پوشه ها. در زیر یک جدول از لینک به پوشه به اشتراک گذاشته / فایل های ایجاد شده توسط کاربران است. به کار لینک های عمومی از ویژگی های صحیح مطمئن باشید که دسته \ Anonymousdownload.ashx اجازه می دهد تا دسترسی ناشناس به مؤسسه. شما ممکن است این در صفحه &lt;a target="_blank" href="{0}"&gt; تشخیص &lt;/a&gt; را بررسی کنید. مطمئن شوید که حساب کاربر ناشناس اختصاص یافته به دسته \ Anonymousdownload.ashx است مجوزهای NTFS خواندن / نوشتن برای پوشه به اشتراک گذاشته / فایل &lt;br /&gt; * و nbsp؛ &amp;mdash؛ و &amp;nbsp؛ در اگر شما از کاربران، که تنها اجازه دسترسی مشخص نیست.</AdminAnonymFoldersDescription>
+  <AdminAnonymFoldersLinkOwnerColumn>مالک</AdminAnonymFoldersLinkOwnerColumn>
+  <AdminAnonymFoldersEmailsColumn>ایمیل برای اطلاع رسانی</AdminAnonymFoldersEmailsColumn>
+  <AdminAnonymFoldersAccessForUsersColumn>دسترسی برای کاربران</AdminAnonymFoldersAccessForUsersColumn>
+  <AdminAnonymFoldersPersonalMessageColumn>پیام شخصی</AdminAnonymFoldersPersonalMessageColumn>
+  <AdminAnonymFoldersOverwriteOnUploadHint> (بازنویسی: {0})</AdminAnonymFoldersOverwriteOnUploadHint>
+  <AdminAnonymFoldersRootPathColumn>مسیر ریشه</AdminAnonymFoldersRootPathColumn>
+  <AdminAnonymFoldersKeysColumn>کلید</AdminAnonymFoldersKeysColumn>
+  <AdminAnonymFoldersShortColumn>لینک کوتاه</AdminAnonymFoldersShortColumn>
+  <AdminAnonymFoldersPropertiesTitle>خواص پوشه ناشناس</AdminAnonymFoldersPropertiesTitle>
+  <AdminAnonymFoldersAdditionalInfo>اطلاعات اضافی</AdminAnonymFoldersAdditionalInfo>
+  <AdminAnonymFoldersLinkLabel>لینک برای دسترسی</AdminAnonymFoldersLinkLabel>
+  <AdminAnonymFoldersPathNotSpecified>مسیر فیزیکی تنظیم نشده است</AdminAnonymFoldersPathNotSpecified>
+  <AdminAnonymFoldersCreatedForColumn>هدف</AdminAnonymFoldersCreatedForColumn>
+
+  <AdminFoldersTab>پوشه</AdminFoldersTab>
+  <AdminFoldersAddFolder>اضافه کردن پوشه</AdminFoldersAddFolder>
+  <AdminFoldersEditFolder>ویرایش پوشه</AdminFoldersEditFolder>
+  <AdminFoldersRemoveFolder>حذف پوشه</AdminFoldersRemoveFolder>
+  <AdminFoldersDeleteFolderPrompt>آیا مطمئن هستید که می خواهید به حذف پوشه "{0}"؟</AdminFoldersDeleteFolderPrompt>
+  <AdminFoldersFolderNotFound>یک پوشه با این نام یافت نشد</AdminFoldersFolderNotFound>
+  <AdminFoldersPropertiesTitle>خواص پوشه</AdminFoldersPropertiesTitle>
+  <AdminFoldersGeneralInfo>اطلاعات کلی</AdminFoldersGeneralInfo>
+  <AdminFoldersFolderRemoteWarningForms>توجه داشته باشید! این پوشه را از راه دور به اشتراک گذاشته. بررسی {0} پرسش و پاسخ: چگونه برای به اشتراک گذاشتن پوشه ها از راه دور {1}</AdminFoldersFolderRemoteWarningForms>
+  <AdminFoldersFolderRemoteWarningWin>توجه داشته باشید! این پوشه را از راه دور به اشتراک گذاشته. شما می توانید برخی پوشه / فایل ها پنهان اگر کاربران حقوق به خواندن آنها ندارد. مشاهده {0} پرسش و پاسخ: چگونه برای مخفی کردن فایل ها / پوشه که کاربر به عنوان نیست به عنوان خوانده {1}</AdminFoldersFolderRemoteWarningWin>
+  <AdminFoldersFolderPath>مسیر فیزیکی</AdminFoldersFolderPath>
+  <AdminFoldersLocationPath>محل</AdminFoldersLocationPath>
+  <AdminFoldersFolderCreate>پرونده بساز</AdminFoldersFolderCreate>
+  <AdminFoldersFolderCreateProcess>ایجاد پوشه</AdminFoldersFolderCreateProcess>
+  <AdminFoldersFolderCreateContainsPattern>پوشه نمی تواند ایجاد شود، زیرا حاوی یک الگوی</AdminFoldersFolderCreateContainsPattern>
+  <AdminFoldersFolderCreateSuccessfully>پوشه "{0}" با موفقیت ایجاد شده است.</AdminFoldersFolderCreateSuccessfully>
+  <AdminFoldersFolderOptional> (اختیاری)</AdminFoldersFolderOptional>
+  <AdminFoldersFolderLimitations>محدودیت ها</AdminFoldersFolderLimitations>
+  <AdminFoldersFolderDescription>شرح</AdminFoldersFolderDescription>
+  <AdminFoldersFolderQuota>سهمیه</AdminFoldersFolderQuota>
+  <AdminFoldersFolderQuotaHint>پرس و جو موجود و یا ایجاد سهمیه جدید برای محدود کردن فضای مجاز برای یک پوشه، طراحی شده توسط مدیریت فایل سرور منابع.</AdminFoldersFolderQuotaHint>
+  <AdminFoldersFolderQuotaMoreInfoLink>اطلاعات بیشتر</AdminFoldersFolderQuotaMoreInfoLink>
+  <AdminFoldersPermissions>مجوز</AdminFoldersPermissions>
+  <AdminFoldersPermissionsFor>مجوز برای {0}</AdminFoldersPermissionsFor>
+  <AdminFoldersUsersGroups>کاربران و گروه ها</AdminFoldersUsersGroups>
+  <AdminFoldersAccessControl>کنترل دسترسی</AdminFoldersAccessControl>
+  <AdminFoldersCreate>ايجاد كردن</AdminFoldersCreate>
+  <AdminFoldersDelete>حذف</AdminFoldersDelete>
+  <AdminFoldersRename>تغییر نام</AdminFoldersRename>
+  <AdminFoldersUpload>بارگذاری</AdminFoldersUpload>
+  <AdminFoldersDownload>دانلود</AdminFoldersDownload>
+  <AdminFoldersZipDownload>فایل های فشرده و دانلود</AdminFoldersZipDownload>
+  <AdminFoldersZip>زیپ</AdminFoldersZip>
+  <AdminFoldersUnzip>فایل های فشرده باز کردن</AdminFoldersUnzip>
+  <AdminFoldersCut>برش</AdminFoldersCut>
+  <AdminFoldersCopy>نسخه</AdminFoldersCopy>
+  <AdminFoldersListFiles>نمایش فایل های</AdminFoldersListFiles>
+  <AdminFoldersListFolders>نمایش پوشه</AdminFoldersListFolders>
+  <AdminFoldersModify>تغییر</AdminFoldersModify>
+  <AdminFoldersBulkMailing>پستی فله</AdminFoldersBulkMailing>
+  <AdminFoldersAnonymViewContent>لیست فایل از طریق لینک های عمومی</AdminFoldersAnonymViewContent>
+  <AdminFoldersAnonymDownload>دانلود از طریق لینک های عمومی</AdminFoldersAnonymDownload>
+  <AdminFoldersAnonymUpload>آپلود از طریق لینک های عمومی</AdminFoldersAnonymUpload>
+  <AdminFoldersWatch>تماشا کردن</AdminFoldersWatch>
+  <AdminFoldersDescription>شما می توانید پوشه دستی اضافه کنید و یا تبدیل پوشه های موجود اگر شما با استفاده از درایوهای با سیاست های گروه. برای اطلاعات بیشتر مراجعه {0} راهنما {1}.</AdminFoldersDescription>
+
+  <AdminFoldersPermissionsForRegex>شما همچنین می توانید یک عبارت منظم استفاده کنید. لطفا وارد &lt;b&gt; {0} &lt;/b&gt; در ابتدای قسمت بالا و سپس یک عبارت منظم، برای مثال:</AdminFoldersPermissionsForRegex>
+  <AdminFoldersPermissionsForRegexUsers>{0} (دسترسی برای هر کاربر) &lt;br /&gt; در {1} (این عبارت منظم به معنی کاربران دو: jdoe و مایک)</AdminFoldersPermissionsForRegexUsers>
+  <AdminFoldersPermissionsForRegexGroups>{0} (دسترسی برای هر گروه) &lt;br /&gt; در {1} (این عبارت منظم به معنای تمام گروه ها با "دانش آموزان" در نام آنها)</AdminFoldersPermissionsForRegexGroups>
+
+  <AdminFoldersListRestrictions>محدودیت های نمایش</AdminFoldersListRestrictions>
+  <AdminFoldersCreateRestrictions>محدودیت های ایجاد فایل</AdminFoldersCreateRestrictions>
+  <AdminFoldersRestrictionAllow>اجازه دادن</AdminFoldersRestrictionAllow>
+  <AdminFoldersRestrictionDeny>انکار</AdminFoldersRestrictionDeny>
+  <AdminFoldersRestrictionExtensions>ضمیمهها</AdminFoldersRestrictionExtensions>
+  <AdminFoldersUserNamePrompt>نام کاربری را وارد کنید</AdminFoldersUserNamePrompt>
+  <AdminFoldersUserNameEmptyText>نام کاربری را انتخاب کنید</AdminFoldersUserNameEmptyText>
+  <AdminFoldersUserNameNotSelected>شما باید یک نام کاربری را انتخاب کنید</AdminFoldersUserNameNotSelected>
+  <AdminFoldersUserAlreadyExists>این کاربر در حال حاضر به پوشه اختصاص داده شده است</AdminFoldersUserAlreadyExists>
+  <AdminFoldersGroupNamePrompt>نام گروه را وارد کنید</AdminFoldersGroupNamePrompt>
+  <AdminFoldersGroupNameEmptyText>نام گروه را انتخاب کنید</AdminFoldersGroupNameEmptyText>
+  <AdminFoldersGroupNameNotSelected>شما باید یک نام گروه را انتخاب کنید</AdminFoldersGroupNameNotSelected>
+  <AdminFoldersGroupAlreadyExists>این گروه در حال حاضر به پوشه اختصاص داده شده است</AdminFoldersGroupAlreadyExists>
+  <AdminFoldersEmptyName>نام پوشه نمی تواند خالی باشد</AdminFoldersEmptyName>
+  <AdminFoldersEmptyPath>مسیر پوشه نمی تواند خالی باشد</AdminFoldersEmptyPath>
+  <AdminFoldersIncorrectName>نمادهای نادرست در نام پوشه وجود دارد</AdminFoldersIncorrectName>
+  <AdminFoldersAlreadyExists>پرونده ای با این نام و محل از قبل وجود دارد</AdminFoldersAlreadyExists>
+  <AdminFoldersSharesButton>سهام موجود</AdminFoldersSharesButton>
+  <AdminFoldersTestAccessButton>دسترسی آزمون</AdminFoldersTestAccessButton>
+  <AdminFoldersTestIndexingButton>نمایه سازی آزمون</AdminFoldersTestIndexingButton>
+  <AdminFoldersShareNameTitle>سهام موجود</AdminFoldersShareNameTitle>
+  <AdminFoldersShareNameEmptyText>انتخاب سهم</AdminFoldersShareNameEmptyText>
+  <AdminFoldersShareNameNotSelected>شما باید سهم را انتخاب کنید</AdminFoldersShareNameNotSelected>
+  <AdminFoldersGetQuotaButton>مطلع سهمیه</AdminFoldersGetQuotaButton>
+  <AdminFoldersSetQuotaButton>مجموعه ای سهمیه</AdminFoldersSetQuotaButton>
+  <AdminCommonFilterField>صافی</AdminCommonFilterField>
+  <AdminCommonValidateField>معتبر ساختن</AdminCommonValidateField>
+  <AdminFoldersRootNameUsed>لطفا نام دیگری استفاده برای پوشه به جای "{0}"</AdminFoldersRootNameUsed>
+  <AdminFoldersFolderFilterSuccess>اعتبارسنجی از فیلتر جای موفقیت و جو در زمان</AdminFoldersFolderFilterSuccess>
+
+  <AdminTestAccessGoodResult>پوشه "{0}" وجود دارد و می تواند بخواند.</AdminTestAccessGoodResult>
+  <AdminTestAccessBadResult>پوشه "{0}" وجود ندارد و یا هیچ NTFS اجازه خواندن و یا هیچ دسترسی به شبکه برای هویت نرم افزار وجود دارد وجود دارد!</AdminTestAccessBadResult>
+  <AdminTestAccessErrorResult>خطا در هنگام چک کردن دسترسی به پوشه "{0}": {1}</AdminTestAccessErrorResult>
+  <AdminTestIndexingErrorResult>خطا در هنگام چک کردن نمایه سازی برای پوشه "{0}":
+{1}</AdminTestIndexingErrorResult>
+  <AdminTestIndexingYesResult>دایرکتوری "{0}" نمایه شده است</AdminTestIndexingYesResult>
+  <AdminTestIndexingNoResult>دایرکتوری "{0}" است نمایه نمی</AdminTestIndexingNoResult>
+  <AdminTestIndexingUnknownResult>برای تعیین اینکه آیا دایرکتوری "{0}" نمایه شده امکانپذیر نیست.</AdminTestIndexingUnknownResult>
+  <AdminTestIndexingAddIfNotIndexed>دوست دارید برای اضافه کردن این پوشه برای نمایه سازی، اگر آن هنوز نمایه شده است؟</AdminTestIndexingAddIfNotIndexed>
+  <ProgressTestAccess>دسترسی چک</ProgressTestAccess>
+  <ProgressTestIndexing>چک کردن نمایه سازی</ProgressTestIndexing>
+  <AdminHowToIndexingLocationLink>به منظور شاخص یک پوشه، به راهنما برای مراجعه {0}</AdminHowToIndexingLocationLink>
+
+  <AdminUsersListAll>تمام کاربران</AdminUsersListAll>
+  <AdminUsersListDACL>کاربران از ACL</AdminUsersListDACL>
+  <AdminGroupsListAll>همه گروه ها</AdminGroupsListAll>
+  <AdminGroupsListDACL>گروه از ACL</AdminGroupsListDACL>
+  <AdminDACLStringLabel>مجوز ACL</AdminDACLStringLabel>
+
+  <AdminCommonCustomField>زمینه های سفارشی</AdminCommonCustomField>
+  <AdminCommonSettingsChangeWarning>تغییر خواهد اثر بعد از وارد RE (یا پس از راه اندازی مجدد نرم افزار برای دسترسی از WebDAV) است.</AdminCommonSettingsChangeWarning>
+
+  <AdminCommonAllowedFoldersPathsTitle>مسیر پوشه مجاز</AdminCommonAllowedFoldersPathsTitle>
+  <AdminCommonNotAllowedFolderPath>شما می توانید دسترسی تنها به این پوشه ها و یا زیر مجموعه آن را ایجاد کنید: {0}</AdminCommonNotAllowedFolderPath>
+
+  <AdminLogsTab>ورود</AdminLogsTab>
+
+  <AdminSettingsTab>تنظیمات</AdminSettingsTab>
+
+  <AdminLogsErrorsTab>گزارش خطاها</AdminLogsErrorsTab>
+  <AdminLogsErrorsClearBtn>واضح</AdminLogsErrorsClearBtn>
+  <AdminLogsErrorsClearUsersCountExceededBtn>سوابق روشن با اشتباهات از کاربران بیش از حد مقدار</AdminLogsErrorsClearUsersCountExceededBtn>
+
+  <AdminFoldersCreateHint>اجازه می دهد / رد اقدامات را از منوی "جدید": فایل جدید، پوشه جدید، تصویر جدید، فایل های سند جدید.</AdminFoldersCreateHint>
+  <AdminFoldersDeleteHint>اجازه می دهد / رد حذف فایل ها و پوشه های موجود</AdminFoldersDeleteHint>
+  <AdminFoldersRenameHint>اجازه / انکار تغییر نام فایل ها و پوشه های موجود</AdminFoldersRenameHint>
+  <AdminFoldersUploadHint>اجازه می دهد / رد آپلود ویژگی های فایل (آپلود را فشار دهید در نوار ابزار)</AdminFoldersUploadHint>
+  <AdminFoldersDownloadHint>اجازه می دهد / انکار "دانلود"، "مشاهده / ویرایش"، دانلود به ابر ذخیره سازی، اقدامات و غیره</AdminFoldersDownloadHint>
+  <AdminFoldersZipDownloadHint>اجازه / انکار "فشرده سازی و دانلود" اقدام</AdminFoldersZipDownloadHint>
+  <AdminFoldersZipHint>اجازه / انکار "فشرده سازی به صورت زیپ" اقدام</AdminFoldersZipHint>
+  <AdminFoldersUnzipHint>اجازه / انکار "عصاره به پوشه جاری"، "عصاره به یک پوشه جدید" و "محتویات فایل های فشرده" اقدامات</AdminFoldersUnzipHint>
+  <AdminFoldersCutHint>اجازه / انکار برش فایل های و پوشه های موجود اقدام</AdminFoldersCutHint>
+  <AdminFoldersCopyHint>اجازه می دهد / رد کپی فایل ها و پوشه های موجود اقدام</AdminFoldersCopyHint>
+  <AdminFoldersListFilesHint>اجازه / انکار لیست فایل های</AdminFoldersListFilesHint>
+  <AdminFoldersListFoldersHint>اجازه / انکار پوشه را</AdminFoldersListFoldersHint>
+  <AdminFoldersModifyHint>اجازه / انکار تغییر فایل های (همه اقداماتی که می توانید محتویات فایل موجود را تغییر دهید)</AdminFoldersModifyHint>
+  <AdminFoldersBulkMailingHint>اجازه / انکار پستی فله برای گروه</AdminFoldersBulkMailingHint>
+  <AdminFoldersAnonymViewContentHint>اجازه می دهد / رد فایل های لیست کاربران ناشناس (از طریق لینک های عمومی)</AdminFoldersAnonymViewContentHint>
+  <AdminFoldersAnonymDownloadHint>اجازه می دهد / رد فایل های دانلود برای کاربران ناشناس (از طریق لینک های عمومی)</AdminFoldersAnonymDownloadHint>
+  <AdminFoldersAnonymUploadHint>اجازه می دهد / رد فایل های آپلود برای کاربران ناشناس (از طریق لینک های عمومی)</AdminFoldersAnonymUploadHint>
+  <AdminFoldersWatchHint>اجازه / انکار کاربران برای نظارت بر تغییرات در پوشه ساخته شده توسط کاربران دیگر (آن است که تنها اگر UI / AllowUsersmonitorModifications = واقعی اعمال می شود)</AdminFoldersWatchHint>
+  <AdminFoldersListRestrictionsHint>این گزینه کنترل لیست فایل. کلیک کنید "انکار" دکمه های رادیویی برای مخفی کردن فایل های با پسوند مشخص شده است. درج ممنوع پسوند جدا کردن آنها توسط کاما از هم (به عنوان مثال "EXE، BAT، COM"). تنظیم "اجازه" دکمه های رادیویی و قرار دادن پسوند فایل هایی که نشان داده خواهد شد (به عنوان مثال "DOC، PDF، JPG").</AdminFoldersListRestrictionsHint>
+  <AdminFoldersCreateRestrictionsHint>این تابع شبیه به "محدودیت های فهرست" است، اما آن را کنترل فایل های آپلود، استخراج فایل های فشرده، ایجاد فایل های جدید. شما می توانید ممنوع و یا فعال آپلود فایل مشخص شده است.</AdminFoldersCreateRestrictionsHint>
+  <AdminFoldersGeneralInfoHint>نوع مسیر پوشه و نام مستعار موجود است. کلیک کنید دکمه راهنما در پایین برای اطلاعات بیشتر.</AdminFoldersGeneralInfoHint>
+  <AdminFoldersUsersGroupsHint>انتخاب کنید و یا نوع کاربران و گروه برای به اشتراک گذاشتن پوشه برای آنها. کلیک کنید دکمه راهنما در پایین برای اطلاعات بیشتر.</AdminFoldersUsersGroupsHint>
+
+  <AdminUserFoldersButtonTitle>لیست سهام تست</AdminUserFoldersButtonTitle>
+  <AdminUserFoldersWindowTitle>پوشه کاربر</AdminUserFoldersWindowTitle>
+  <AdminUserFoldersLabel>لیست پوشه ها برای کاربر '{0}':</AdminUserFoldersLabel>
+  
+  <AdminPermissionsTab>مجوزهای Admin</AdminPermissionsTab>
+  <AdminPermissionsPrivilege>امتیاز</AdminPermissionsPrivilege>
+  <AdminPermissionsEditButton>ویرایش امتیاز</AdminPermissionsEditButton>
+  <AdminPermissionsModifySettingsTitle>تغییر تنظیمات</AdminPermissionsModifySettingsTitle>
+  <AdminPermissionsModifyFoldersTitle>اصلاح پوشه</AdminPermissionsModifyFoldersTitle>
+  <AdminPermissionsModifyAnonymFoldersTitle>اصلاح پوشه های عمومی</AdminPermissionsModifyAnonymFoldersTitle>
+  <AdminPermissionsModifyAccountsTitle>اصلاح حساب</AdminPermissionsModifyAccountsTitle>
+  <AdminPermissionsViewDiagnosticsTitle>نمایش "تشخیص" صفحه</AdminPermissionsViewDiagnosticsTitle>
+  <AdminPermissionsViewLogTitle>نمایش ورود به سیستم</AdminPermissionsViewLogTitle>
+  <AdminPermissionsViewErrorsLogTitle>نمایش خطاهای ورود</AdminPermissionsViewErrorsLogTitle>
+  <AdminPermissionsModifyLocalizationsTitle>اصلاح از localizations</AdminPermissionsModifyLocalizationsTitle>
+  <AdminPermissionsFolderPathTitle>مسیر پوشه</AdminPermissionsFolderPathTitle>
+  <AdminPermissionsFoldersTitle>پوشه محیط مدیریت</AdminPermissionsFoldersTitle>
+  <AdminPermissionsPrivilegeHint>کاربران مجموعه ای / گروه که "{0}" امتیاز مجاز خواهد بود</AdminPermissionsPrivilegeHint>
+  <AdminPermissionsFolderTitle>خواص پوشه محیط مدیریت</AdminPermissionsFolderTitle>
+  <AdminPermissionsFolderFieldTitle>مسیر پوشه</AdminPermissionsFolderFieldTitle>
+  <AdminPermissionsFolderHint>اطلاعات در مورد پوشه مدیریت</AdminPermissionsFolderHint>
+  <AdminPermissionsFolderEmptyAccounts>مشخص کاربران و / یا گروه</AdminPermissionsFolderEmptyAccounts>
+  <AdminPermissionsFolderAlreadyExists>پوشه با این مکان قبلا وجود داشته</AdminPermissionsFolderAlreadyExists>
+  <AdminPermissionsFolderNotFound>پوشه با این مکان یافت نشد</AdminPermissionsFolderNotFound>
+  <AdminPermissionsAllowedFoldersMessage>شما می توانید / به روز رسانی ایجاد / مدیریت دسترسی تنها به این پوشه ها و یا زیر مجموعه آن: {0}</AdminPermissionsAllowedFoldersMessage>
+
+  <AdminUsersCountExceededWarn>حداکثر مقدار از کاربران فراتر رفته است. مجوز فعلی خود را اجازه می دهد تا تنها {0} کاربران برای ورود به سیستم. برای اطلاعات بیشتر باز "{1}" تب و پیدا کردن "{2}" استثنا (بازدید کنندگان). برای پنهان کردن این اطلاع رسانی سوابق ورود به سیستم روشن در "{1}" تب.</AdminUsersCountExceededWarn>
+
+  <AdminNewVersionAvailableTitle>نسخه جدید در دسترس است!</AdminNewVersionAvailableTitle>
+  <AdminNewVersionAvailableInfo>نسخه فعلی: {0} &lt;br /&gt; یک نسخه جدیدتر: {1}</AdminNewVersionAvailableInfo>
+  
+  <SettingsGridDescriptionInfo>شرح</SettingsGridDescriptionInfo>
+  <SettingsGridFormatInfo>فرمت ارزش</SettingsGridFormatInfo>
+  <SettingsGridDefaultValueInfo>مقدار پیش فرض</SettingsGridDefaultValueInfo>
+  <SettingsGridMoreInfo>اطلاعات بیشتر</SettingsGridMoreInfo>
+  <SettingsGridRestoreDefault>بازیابی پیش فرض</SettingsGridRestoreDefault>
+
+  <SettingsFormatBoolean>مقدار بولی</SettingsFormatBoolean>
+  <SettingsFormatWholeNumber>تعداد کل</SettingsFormatWholeNumber>
+  <SettingsFormatRealNumber>عدد حقیقی</SettingsFormatRealNumber>
+  <SettingsFormatString>رشته</SettingsFormatString>
+  <SettingsFormatEnum>هر مقدار</SettingsFormatEnum>
+  <SettingsFormatSet>جدا شده با کاما بدون تکرار از ارزش</SettingsFormatSet>
+  <SettingsFormatArray>فهرست کاما جدا از رشته</SettingsFormatArray>
+  <SettingsFormatToolbarButtons>. (ارزش "{0}" می تواند چندین بار در یک ردیف تکرار، اما نه بعد از هر نام، به دنبال یک روده بزرگ، آن ممکن است برای مشخص یکی از روش های مورد استفاده برای نمایش دکمه: {1})</SettingsFormatToolbarButtons>
+
+  <AdminSettingsSave>تنظیمات را ذخیره کن</AdminSettingsSave>
+  <AdminToggleHiddenParams>{0} پارامترهای پیشرفته</AdminToggleHiddenParams>
+  <AdminHintHiddenParams>پارامترهای اضافی فقط برای تنظیمات دانه بیشتر و در اکثر موارد در نظر گرفته شده است به ندرت لازم</AdminHintHiddenParams>
+  <AdminShowHiddenParams>نمایش</AdminShowHiddenParams>
+  <AdminHideHiddenParams>پنهان شدن</AdminHideHiddenParams>
+
+  <SettingsDenyAuthModeChange>حالت های احراز هویت خودکار تغییر پشتیبانی نمی شود. {0} برای دستورالعمل در مورد تغییر حالت احراز هویت را مشاهده کنید.</SettingsDenyAuthModeChange>
+  <SettingsApplicationRestartedMsg>برنامه دوباره شروع</SettingsApplicationRestartedMsg>
+  <SettingsSettingsSavedMsg>تنظیمات ذخیره شده اند</SettingsSettingsSavedMsg>
+  <SettingsSettingsSaveFailedAppMsg>قادر به ذخیره فایل های پیکربندی. بررسی مجوز نوشتن NTFS از فایل Web.Config و HttpCommanderSettings.config فایل های موجود در پوشه نرم افزار وب ریشه {0} برای کاربران {1}. پیغام خطا: {2}.</SettingsSettingsSaveFailedAppMsg>
+  <SettingsSettingsSaveFailedTempMsg>قادر به ذخیره فایل های پیکربندی. مجوز چک از پوشه موقت {0} برای کاربران {1}. پیغام خطا: {2}.</SettingsSettingsSaveFailedTempMsg>
+  <SettingsSettingsReadFailedAppMsg>قادر به خواندن فایل های پیکربندی. بررسی به عنوان خوانده شده مجوزهای NTFS از فایل Web.Config و HttpCommanderSettings.config فایل های موجود در پوشه نرم افزار وب ریشه {0} برای کاربران {1}. پیغام خطا: {2}.</SettingsSettingsReadFailedAppMsg>
+  <SettingsSettingsReadFailedTempMsg>قادر به خواندن فایل های پیکربندی در پوشه موقت است. مجوز چک از پوشه موقت {0} برای کاربران {1}. پیغام خطا: {2}.</SettingsSettingsReadFailedTempMsg>
+  <SettingsSettingsConfigChangedOutside>فایل پیکربندی HttpCommander است توسط برنامه دیگری تغییر شده است. احتمالا شما آن را به صورت دستی با یک ویرایشگر متن اصلاح شده اند. نرم افزار فایل پیکربندی جدید لود شده است. همه تغییرات مربوط به HttpCommander پیکربندی که شما از طریق رابط وب انجام داده ام از دست داده. شما باید آنها را ازنو، سپس سعی کنید به نجات دهد و دوباره. ما در برابر فایل های پیکربندی ویرایش دستی توصیه در حالی که برنامه در حال اجرا است. در غیر این صورت شما باید برنامه پس از تغییر فایل های تنظیمات راه اندازی مجدد. پیغام خطا: {0}.</SettingsSettingsConfigChangedOutside>
+  <SettingsSettingsSaveNotif>فراموش نکنید که برای ذخیره کردن تغییرات تنظیمات!</SettingsSettingsSaveNotif>
+  
+  <SettingsEmailNotifTitle>اطلاعیه توسط ایمیل</SettingsEmailNotifTitle>
+  <SettingsEmailNotifApplyBtn>ذخیره تنظیمات ایمیل</SettingsEmailNotifApplyBtn>
+  <SettingsEmailNotifResetBtn>تنظیم مجدد</SettingsEmailNotifResetBtn>
+  <SettingsEmailNotifEventsLabel>برای رویدادهای</SettingsEmailNotifEventsLabel>
+  <SettingsEmailNotifWhenLabel>ارسال</SettingsEmailNotifWhenLabel>
+  <SettingsEmailNotifEmailsLabel>ایمیل</SettingsEmailNotifEmailsLabel>
+  <SettingsEmailNotifPathsLabel>راه ها</SettingsEmailNotifPathsLabel>
+  
+  <LogsErrorsGridUrlColumn>آدرس</LogsErrorsGridUrlColumn>
+  <LogsErrorsGridMsgColumn>پیام</LogsErrorsGridMsgColumn>
+  <LogsErrorsGridMoreInfoColumn>اطلاعات بیشتر</LogsErrorsGridMoreInfoColumn>
+  <LogsErrorsGridDetailsTitle>جزئیات</LogsErrorsGridDetailsTitle>
+  
+  <FsrmUnableLoadLibraryLocal>امکان اتصال به فایل مدیریت منابع سرور بر روی میزبان محلی است.</FsrmUnableLoadLibraryLocal>
+  <FsrmUnableLoadLibraryRemote>امکان اتصال به فایل مدیریت منابع سرور در "{0}" میزبان.</FsrmUnableLoadLibraryRemote>
+  <FsrmNotInstalled>فایل مدیریت منابع سرور در نصب نشده است "{0}".</FsrmNotInstalled>
+  <FsrmNotInstalledEitherEnd>فایل مدیریت منابع سرور است که یا در میزبان های محلی و یا بر روی "{0}" نصب نشده است.</FsrmNotInstalledEitherEnd>
+  <FsrmQuotaNotSpecified>سهمیه مشخص نشده است.</FsrmQuotaNotSpecified>
+  <FsrmUnableGetQuota>قادر به دریافت میزان محدودیت.</FsrmUnableGetQuota>
+  <FsrmUnableSetQuota>قادر به تعیین حد سهمیه.</FsrmUnableSetQuota>
+  <FsrmQuotaSetMsg>سهمیه تعیین شده است.</FsrmQuotaSetMsg>
+  <FsrmInvalidQuotaValueMsg>مقدار سهمیه نامعتبر است.</FsrmInvalidQuotaValueMsg>
+
+  <CommandBuyNow>خرید در حال حاضر</CommandBuyNow>
+
+  <AdminUpdateTab>ارتقا</AdminUpdateTab>
+  <AdminUpdateManual>ارتقاء دستی</AdminUpdateManual>
+  <AdminUpdateAuto>ارتقاء خودکار</AdminUpdateAuto>
+  <AdminUpdateStartButton>شروع ارتقا / ایجاد پشتیبان گیری</AdminUpdateStartButton>
+  <AdminUpdateFinishButton>پایان ارتقا / بازیابی پشتیبان گیری</AdminUpdateFinishButton>
+  <AdminUpdateBackupButton>پشتیبان گیری</AdminUpdateBackupButton>
+  <AdminUpdateDownloadNewButton>دانلود نسخه جدید</AdminUpdateDownloadNewButton>
+  <AdminUpdateStepTitle>گام {0} {1}: {2}</AdminUpdateStepTitle>
+  <AdminUpdateStepInfo>گام {0} {1}</AdminUpdateStepInfo>
+  <AdminUpdateNumberSymbol>#</AdminUpdateNumberSymbol>
+  <AdminUpdateBackupContent>لطفا دکمه "{0}" برای ایجاد یک کپی پشتیبان از پوشه با نرم افزار و گرفتن یک لینک برای دانلود را فشار دهید</AdminUpdateBackupContent>
+  <AdminUpdateDownloadBackupLinkHint>لطفا یک کپی پشتیبان از نرم افزار با استفاده از لینک زیر دانلود کنید:</AdminUpdateDownloadBackupLinkHint>
+  <AdminUpdateDownloadNewContent>پس لطفا دانلود نسخه جدید با استفاده از لینک زیر و به دنبال {0} نصب و راه اندازی {1} و {2} ارتقاء {1} دستورالعمل به منظور نصب یک نسخه جدید است. پس از نصب و راه اندازی به مدیر باز کردن پنل مدیریت، به زبانه "{3}" و با فشار دکمه "{4}" به منظور نصب کامل شود.</AdminUpdateDownloadNewContent>
+  <AdminUpdateUploadButton>آپلود یک کپی پشتیبان و اعمال تنظیمات</AdminUpdateUploadButton>
+  <AdminUpdateUploadAndInstallButton>نصب یک نسخه جدید با نگه داشتن تمام تنظیمات</AdminUpdateUploadAndInstallButton>
+  <AdminUpdateUploadEmptyText>لطفا یک کپی پشتیبان برای آپلود انتخاب کنید</AdminUpdateUploadEmptyText>
+  <AdminUpdateFinishContent>به منظور بازگرداندن تنظیمات از نسخه های قبلی به مدیر انتخاب کنید و آپلود یک آرشیو قبلا ایجاد پشتیبان با پوشه نرم افزار</AdminUpdateFinishContent>
+  <AdminUpdateFinishMessage>مبارك باشد! همه تنظیمات موفقیت استفاده شده است. همچنین، لطفا اعمال همه تغییرات شما به فایل های دیگر ساخته شده است، به عنوان مثال، Default.aspx را یا Global.asax را.</AdminUpdateFinishMessage>
+  <AdminUpdateFinishRefreshPage>صفحه بارگذاری مجدد خواهد شد</AdminUpdateFinishRefreshPage>
+  <AdminUpdateMainInfo>این نوع از ارتقاء است که بخشی از خودکار می باشد. شما نمیتوانید ایجاد و یک فایل پشتیبان را با تنظیمات پیکربندی نرم افزار را دانلود و بازگرداندن آن بعد از به روز رسانی. لطفا این مراحل کوتاه را دنبال کنید: ایجاد یک فایل پشتیبان، انجام به روز رسانی دستی، بازگرداندن تنظیمات از فایل پشتیبان. این روش همچنین می توان به پشتیبان گیری استفاده می شود / بازگرداندن تنظیمات بدون به روز رسانی. نگران نباشید، جست و خیز مرحله ارتقاء برای بازگرداندن تنظیمات از فایل پشتیبان.</AdminUpdateMainInfo>
+  <AdminUpdateAutoButton>خودکار</AdminUpdateAutoButton>
+  <AdminUpdateAutoInfo>این نوع از ارتقاء است که تقریبا به طور کامل خودکار. این 2 گام عبارتند از: تهیه پشتیبان از تنظیمات فعلی از فایل پشتیبان (شما باید دانلود و ذخیره فایل پشتیبان)، نصب و راه اندازی نسخه جدید و بازسازی و تنظیمات. HTTP فرمانده به طور خودکار می توانید آخرین نسخه دانلود و نصب آن و یا شما می توانید مسیر به آرشیو فایل های فشرده با یک نسخه جدید بر روی سرور ما را مشخص کنید. تمام تنظیمات به طور خودکار از یک فایل پشتیبان که قبلا ایجاد دوباره بازسازی شد.</AdminUpdateAutoInfo>
+  <AdminUpdateRestoreWebConfigCheckBox>بازگرداندن تنظیمات از فایل Web.Config (به عنوان مثال، مانند SMTP)</AdminUpdateRestoreWebConfigCheckBox>
+  <AdminUpdateBackupAssignedFoldersInRootMessage>توجه! برخی از پوشه ها کاربران در دایرکتوری با برنامه ای که به اندازه کل بیش از وجود دارد {0}. پشتیبان گیری ساخته نمی شود. لطفا یک کپی پشتیبان از این دایرکتوری ها را انجام دهید، آنها را از دایرکتوری نرم افزار حذف و دوباره سعی کنید عملیات در کنار خود.</AdminUpdateBackupAssignedFoldersInRootMessage>
+  <AdminUpdateNeedRefreshPageForContinue>توجه! برای ادامه لازم است به بارگذاری مجدد صفحه. لطفا دکمه را فشار دهید "{0}". بعد از بارگیری مجدد مدیر تکرار عمل.</AdminUpdateNeedRefreshPageForContinue>
+  <AdminUpdateRestoreFromBackupEmpty>، و یا اگر آن انتخاب نشده است، از آن خواهد شد توسط فایل به تازگی ایجاد شده در مرحله قبل استفاده</AdminUpdateRestoreFromBackupEmpty>
+  <AdminUpdateInstallZipPathHint>برای به روز رسانی لطفا مشخص کردن مسیر فیزیکی کامل به فایل نصب (بر روی سرور) در این زمینه اولین و یا ترک آن را خالی به منظور استفاده از یک توزیع آنلاین</AdminUpdateInstallZipPathHint>
+  <AdminUpdateInstallZipPathEmpty>تعیین مسیر به آرشیو با نصب</AdminUpdateInstallZipPathEmpty>
+  <AdminUpdateProgress>در حال بروز رسانی</AdminUpdateProgress>
+  <AdminUpdateAccessDeniedWarning>&lt;b&gt; توجه! &lt;/b&gt; برای به روز رسانی لطفا مجموعه ای از اصلاح (خواندن و نوشتن) مجوزهای NTFS به {0} کاربر برای پوشه با HTTP فرمانده {1} و تکرار ارتقاء است. &lt;br /&gt; &lt;بعد از به روز رسانی موفق به مدیر بازگرداندن حقوق سابق.</AdminUpdateAccessDeniedWarning>
+  <AdminUpdateAccessDeniedWarningCurentUser>جاری</AdminUpdateAccessDeniedWarningCurentUser>
+
+  <ServerExceedsMaxSizeForEditAsTextFile>اندازه فایل بیشتر از حداکثر اندازه آن را ویرایش کنید به عنوان یک فایل متنی.</ServerExceedsMaxSizeForEditAsTextFile>
+  <ServerDemoMode>عمل داده شده است در حالت آزمایشی ممنوع</ServerDemoMode>
+  <ServerHostedMode>این است که مجاز به تغییر ارزش از تنظیمات در نسخه آزمایشی میزبانی زیر است: {0}.</ServerHostedMode>
+  <ServerIncorrectImageContentType>فایل پسوند نوع است یک تصویر نیست</ServerIncorrectImageContentType>
+  <ServerPermissionDenied>این عمل به دلیل مجوزهای محدود را رد کرد</ServerPermissionDenied>
+  <ServerRestoreFromTrashNoParentFolder>ترمیم شکست خورده است چرا دایرکتوری والد "{0}" شده است یافت نشد. لطفا آن را ایجاد و دوباره امتحان کنید.</ServerRestoreFromTrashNoParentFolder>
+  <ServerModifyPermissionDenied>این عملیات را رد کرد چرا که شما مجاز به تغییر فایل را نداشته باشند</ServerModifyPermissionDenied>
+  <ServerPathNotFound>مسیر یافت نشد.</ServerPathNotFound>
+  <ServerInvalidPath>مسیر "{0}" معتبر نیست</ServerInvalidPath>
+  <ServerInvalidAbsolutePath>مسیر نامعتبر مطلق "{0}"</ServerInvalidAbsolutePath>
+  <!-- share folder path: \\server\share -->
+  <ServerInvalidShareFolderPath>نامعتبر مسیر پوشه سهم "{0}"</ServerInvalidShareFolderPath>
+  <ServerInvalidUncPath>مسیر نامعتبر UNC "{0}"</ServerInvalidUncPath>
+  <ServerUnableResolveUncPath>قادر به حل مسیر UNC "{0}"</ServerUnableResolveUncPath>
+  <ServerInvalidFileName>فایل / نام پوشه تنظیم نشده است و یا شامل کاراکترهای غلط {0}</ServerInvalidFileName>
+  <ServerFilePathNotFound>فایل موجود نیست</ServerFilePathNotFound>
+  <ServerIncorrectPathForFileLink>نوع شی اشتباه است. مسیر مشخص اشاره به یک پوشه</ServerIncorrectPathForFileLink>
+  <ServerIncorrectPathForFolderLink>نوع شی اشتباه است. مسیر مشخص اشاره به یک فایل</ServerIncorrectPathForFolderLink>
+  <ServerRootFolderNotFound>پوشه ریشه برای مسیر "{0}" یافت نشد.</ServerRootFolderNotFound>
+  <ServerUnableCreateFolder>قادر به ایجاد پوشه</ServerUnableCreateFolder>
+  <ServerFileAlreadyExists>فایل را با این نام وجود دارد</ServerFileAlreadyExists>
+  <ServerFileAlreadyExistsOnRename>
+    آیا شما می خواهید به تغییر نام "{0}" به "{1}"؟
+    در حال حاضر یک فایل با همین نام در این محل وجود دارد.
+  </ServerFileAlreadyExistsOnRename>
+  <ServerFolderAlreadyExistsOnRename>
+    آیا شما می خواهید به تغییر نام "{0}" به "{1}"؟
+    در حال حاضر یک پوشه با همین نام در این محل وجود دارد.
+  </ServerFolderAlreadyExistsOnRename>
+  <ServerFoldersMergeConfirm>
+    این مقصد در حال حاضر شامل یک پوشه به نام "{0}".
+    آیا شما هنوز هم می خواهید به ادغام این پوشه "{0}" با این یکی "{1}"؟
+  </ServerFoldersMergeConfirm>
+  <ServerFolderWithSameNameAsFileNameAlreadyExists>در حال حاضر یک پوشه با همین نام وجود دارد "{0}" به عنوان نام فایل شما مشخص</ServerFolderWithSameNameAsFileNameAlreadyExists>
+  <ServerFileWithSameNameAsFolderNameAlreadyExists>در حال حاضر یک فایل با همین نام وجود دارد "{0}" را به عنوان نام پوشه که شما مشخص</ServerFileWithSameNameAsFolderNameAlreadyExists>
+  <ServerFileNotFound>پرونده «{0}" در پوشه یافت نشد "{1}". احتمالا آن حذف شده و یا حذف شده توسط کاربر دیگری.</ServerFileNotFound>
+  <ServerDirectoryAlreadyExists>یک دایرکتوری با این نام وجود دارد</ServerDirectoryAlreadyExists>
+  <ServerFolderMoveAlreadeExists>پوشه مقصد "{0}" همان پوشه منبع است</ServerFolderMoveAlreadeExists>
+  <ServerUploadPathNotFound>مسیر برای ذخیره سازی فایل بر روی سرور یافت نشد</ServerUploadPathNotFound>
+  <ServerUploadPathNotSet>در حالی که گرفتن یک مسیر برای آپلود یک خطا رخ داده است. لطفا، تازه کردن صفحه در مرورگر و دوباره امتحان کنید.</ServerUploadPathNotSet>
+  <ServerUploadNoChunk>هیچ تکه برای صرفه جویی</ServerUploadNoChunk>
+  <ServerUploadWriteChunk>ارسال تکه از بایت</ServerUploadWriteChunk>
+  <ServerUploadCreatingFile>ایجاد فایل</ServerUploadCreatingFile>
+  <ServerUploadFileUploaded>فایل آپلود شده است</ServerUploadFileUploaded>
+  <ServerUploadWriteError>خطا در نوشتن</ServerUploadWriteError>
+  <ServerConfigurationError>پیکربندی نادرست و یا برنامه! تماس با مدیر سایت</ServerConfigurationError>
+  <ServerPermissionsAllowTypes>مجوز کنونی اجازه می دهد این عملیات تنها با انواع فایل {0}</ServerPermissionsAllowTypes>
+  <ServerPermissionsDenyTypes>مجوز کنونی منع این عمل با انواع فایل {0}</ServerPermissionsDenyTypes>
+  <ServerRequestSizeExceeded>اندازه فایل های آپلود شده از اندازه مجاز در تنظیمات سرور</ServerRequestSizeExceeded>
+  <ServerEmailMsgProcessedFilesSubject>آپلود / اصلاح / دانلود / ایجاد / حذف / به اشتراک گذاشته شده فایل ها / پوشه</ServerEmailMsgProcessedFilesSubject>
+  <ServerEmailMsgUploadFilesTitle>آپلود</ServerEmailMsgUploadFilesTitle>
+  <ServerEmailMsgModifyFilesTitle>اصلاح شده</ServerEmailMsgModifyFilesTitle>
+  <ServerEmailMsgDownloadFilesTitle>دانلود</ServerEmailMsgDownloadFilesTitle>
+  <ServerEmailMsgCreateFilesTitle>ایجاد شده</ServerEmailMsgCreateFilesTitle>
+  <ServerEmailMsgDeleteFilesTitle>حذف شده</ServerEmailMsgDeleteFilesTitle>
+  <ServerEmailMsgCreatePublicFilesTitle>به اشتراک گذاشته شده</ServerEmailMsgCreatePublicFilesTitle>
+  <ServerEmailMsgProcessedFilesBody>
+    در بر داشت زیر فایل ها / پوشه بودند {0} توسط {1}:
+
+{2}
+    
+  </ServerEmailMsgProcessedFilesBody>
+  <ServerEmailMsgPasswordRecoverSubject>بازیابی رمز عبور</ServerEmailMsgPasswordRecoverSubject>
+  <ServerEmailMsgPasswordRecoverBody>
+    شما درخواست برای بازیابی رمز عبور خود را در مدیریت وب فایل. رمز عبور خود را بازنشانی شد. اگر فکر می کنید این یک خطا است، به سادگی چشم پوشی از این نامه، اما آگاه باشید که رمز عبور خود را تغییر کرده است.
+    نام کاربری: {0}
+    کلمه عبور جدید: {1}
+  </ServerEmailMsgPasswordRecoverBody>
+  
+  <ServerEmailMsgUserNameRecoverSubject>بازیابی نام کاربری</ServerEmailMsgUserNameRecoverSubject>
+  <ServerEmailMsgUserNameRecoverBody>
+    شما درخواست برای بازیابی نام خود را در مدیر وب سایت فایل.
+    نام کاربری: {0}
+  </ServerEmailMsgUserNameRecoverBody>
+
+  <ServerEmailMsgUserActivationSubject>فعال سازی حساب</ServerEmailMsgUserActivationSubject>
+  <ServerEmailMsgUserActivationBody>
+    حساب ({0}) فعال سازی مورد نیاز است.
+    برای فعال شدن حساب خود، لطفا بر روی لینک زیر کلیک کنید: {1}
+  </ServerEmailMsgUserActivationBody>
+  <ServerEmailMsgUserRegisteredSubject>کاربر ثبت نام شده</ServerEmailMsgUserRegisteredSubject>
+  <ServerEmailMsgUserRegisteredBody>
+    شما موفقیت در مدیریت وب فایل ثبت شده است.
+    نام کاربری: {0}
+  </ServerEmailMsgUserRegisteredBody>
+  <ServerEmailMsgUserRegisteredForAdminsBody>
+    &lt;h4&gt; کاربران جدید به ثبت رسیده است &lt;/h4&gt;
+    &lt;strong&gt; نام کاربر &lt;/strong&gt;: {0} &lt;br /&gt; در
+    &lt;strong&gt; ارسال ایمیل &lt;/strong&gt;: در {1} &lt;br /&gt; در
+    &lt;strong&gt; در تاریخ &lt;/strong&gt;: به {2} &lt;br /&gt; در
+    &lt;strong&gt; اطلاعات اضافی است &lt;/strong&gt;: {3} &lt;br /&gt; در
+  </ServerEmailMsgUserRegisteredForAdminsBody>
+  <ServerDiskFullError>فضای کافی بر روی دیسک وجود ندارد.</ServerDiskFullError>
+  <ServerFolderLimitations>محدودیت پوشه: {0}</ServerFolderLimitations>
+  <ServerShortcutAssignedFolderNotFound>پوشه تعیین شده برای یک مسیر هدف از میانبر یافت نشد</ServerShortcutAssignedFolderNotFound>
+  <ServerSizeFilesForZipExceeded>ارزش اندازه فایل های archivable مجاز بیش {0}.</ServerSizeFilesForZipExceeded>
+  <ServerPasteFolderToSubfolderError>پوشه مقصد "{0}" یک زیر پوشه از پوشه منبع است "{1}".</ServerPasteFolderToSubfolderError>
+  <ServerLiveConnectAppIDNotSpecified>ID مشتری از نرم افزار مایکروسافت زنده اتصال تعریف نشده است</ServerLiveConnectAppIDNotSpecified>
+  <ServerSendEmailInfo>نویسنده مشخص ایمیل خود را به عنوان {0}. استفاده از تنها این آدرس ایمیل برای پاسخ دهید.</ServerSendEmailInfo>
+
+  <ServerAntivirusScanningFailed>اسکن توسط آنتی ویروس: '{0} {1}' فسخ غیر طبیعی است.</ServerAntivirusScanningFailed>
+
+  <ServerUserNameNotFound>کاربر با نام '{0} "یافت نشد.</ServerUserNameNotFound>
+  <ServerFileNameCopySuffix>نسخه</ServerFileNameCopySuffix>
+
+  <ServerDeleteFolderNTFSAccessDenied>شما اجازه NTFS به حذف پوشه را ندارد "{0}"</ServerDeleteFolderNTFSAccessDenied>
+
+  <ServerMSOOTemplateNotFound>{0} الگو یافت نشد</ServerMSOOTemplateNotFound>
+</Localization>

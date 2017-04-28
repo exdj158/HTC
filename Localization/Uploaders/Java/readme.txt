@@ -1,0 +1,1 @@
+XML files containing translated messages and lables. See localization.html at root folder for details.

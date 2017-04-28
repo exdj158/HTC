@@ -1,0 +1,1608 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Localization>
+  <!-- Common keys -->
+  
+  <ExtMsgButtonTextYES>Igen</ExtMsgButtonTextYES>
+  <ExtMsgButtonTextNO>Nem</ExtMsgButtonTextNO>
+  
+  <ControlHideFileManager>Hide internetes fájlok menedzser</ControlHideFileManager>
+  
+  <CommonMainTitle>Webes fájlok hozzáférési</CommonMainTitle>
+  <CommonApplicationLoading>Loading internetes fájlok hozzáférési</CommonApplicationLoading>
+  <CommonLoadError>Hiba történt a szerzés fa adatokat</CommonLoadError>
+  <CommonGridAccessDenied>A mappa "{0}" nem létezik, vagy olvassa el a hozzáférés megtagadva</CommonGridAccessDenied>
+  <CommonNoScript>Ez az oldal JavaScript szükséges engedélyezni kell a böngészőben! Kérjük engedélyezze, majd jelentkezzen be újra!</CommonNoScript>
+  <CommonErrorCaption>Hiba</CommonErrorCaption>
+  <CommonWarningCaption>Figyelem</CommonWarningCaption>
+  <CommonInfoCaption>Információ</CommonInfoCaption>
+  <CommonConfirmCaption>Jóváhagy</CommonConfirmCaption>
+  <CommonFileNameCaption>Fájl név</CommonFileNameCaption>
+  <CommonFileNamePrompt>Adjon meg egy új fájlnevet</CommonFileNamePrompt>
+  <CommonFileNewNameValue>Új szöveges Document.txt</CommonFileNewNameValue>
+  <CommonFolderNewNameValue>Új mappa</CommonFolderNewNameValue>
+  <CommonZipFileNameCaption>Zip archívum neve</CommonZipFileNameCaption>
+  <CommonZipFileNamePrompt>Fájlnév (kiterjesztés automatikusan hozzá lesz adva)</CommonZipFileNamePrompt>
+  <CommonFolderNameCaption>Mappa neve</CommonFolderNameCaption>
+  <CommonFolderNamePrompt>Adjon meg egy új mappa nevét</CommonFolderNamePrompt>
+  <CommonDeleteOnePrompt>Biztos benne, hogy törli "{0}"?</CommonDeleteOnePrompt>
+  <CommonDeleteManyPrompt>Biztos benne, hogy törli ezt a {0} elemeket?</CommonDeleteManyPrompt>
+  <CommonForToday>A mai napra</CommonForToday>
+  <CommonButtonCaptionOK>rendben</CommonButtonCaptionOK>
+  <CommonButtonCaptionCancel>Megszünteti</CommonButtonCaptionCancel>
+  <CommonButtonCaptionClose>Bezárás</CommonButtonCaptionClose>
+  <CommonButtonCaptionAdd>hozzáad</CommonButtonCaptionAdd>
+  <CommonButtonCaptionContinue>Folytatni</CommonButtonCaptionContinue>
+
+  <CommonProgressPleaseWait>Kérlek várj</CommonProgressPleaseWait>
+  
+  <CommonFieldLabelName>Név</CommonFieldLabelName>
+  <CommonFieldLabelPath>Pálya</CommonFieldLabelPath>
+  <CommonFieldLabelSize>Méret</CommonFieldLabelSize>
+  <CommonFieldLabelLabels>címkék</CommonFieldLabelLabels>
+  <CommonFieldLabelType>típus</CommonFieldLabelType>
+  <CommonFieldLabelAction>Akció</CommonFieldLabelAction>
+  <CommonFieldLabelDate>Dátum</CommonFieldLabelDate>
+  <CommonFieldLabelDateTime>Dátum idő</CommonFieldLabelDateTime>
+  <CommonFieldLabelDateCreated>létrehozás dátuma</CommonFieldLabelDateCreated>
+  <CommonFieldLabelDateModified>Módosítás dátuma</CommonFieldLabelDateModified>
+  <CommonFieldLabelDateAccessed>Dátum elérhető</CommonFieldLabelDateAccessed>
+  <CommonFieldLabelValue>Érték</CommonFieldLabelValue>
+  <CommonFieldLabelUserName>Felhasználónév</CommonFieldLabelUserName>
+  <CommonFieldLabelUser>használó</CommonFieldLabelUser>
+  <CommonFieldLabelUsers>felhasználók</CommonFieldLabelUsers>
+  <CommonFieldLabelGroupName>Csoport név</CommonFieldLabelGroupName>
+  <CommonFieldLabelGroup>Csoport</CommonFieldLabelGroup>
+  <CommonFieldLabelGroups>csoportok</CommonFieldLabelGroups>
+  <CommonFieldLabelPassword>Jelszó</CommonFieldLabelPassword>
+  <CommonFieldLabelRepeatPassword>Jelszó újra</CommonFieldLabelRepeatPassword>
+  <CommonFieldLabelComments>Hozzászólások</CommonFieldLabelComments>
+  <CommonValueTypeFolder>Folder</CommonValueTypeFolder>
+
+  <CommonFieldLabelDescription>Leírás</CommonFieldLabelDescription>
+  <EmptyDescriptionText>Adja meg a leírást</EmptyDescriptionText>
+  <CommonFieldLabelReadMeTxt>Readme.txt tartalom</CommonFieldLabelReadMeTxt>
+  
+  <CommonWordOr>vagy</CommonWordOr>
+
+  <SortAscText>rendezés Növekvő</SortAscText>
+  <SortDescText>Csökkenő rendezés</SortDescText>
+
+  <CommonNewDocument>új dokumentum</CommonNewDocument>
+  <CommonNewSpreadsheet>új táblázat</CommonNewSpreadsheet>
+  <CommonNewPresentation>új bemutatása</CommonNewPresentation>
+
+  <CommonWordWrap>Sortörés</CommonWordWrap>
+  
+  <!-- End Common keys -->
+
+  <!-- Labels -->
+
+  <LabelsTitle>Címke</LabelsTitle>
+  <LabelsNoLabel>Nincs cimke</LabelsNoLabel>
+  <LabelsColor>Szín</LabelsColor>
+  <LabelsCustomLabel>egyéni címke</LabelsCustomLabel>
+  <LabelsCustomLabelHint>Írja be a címke szövegét</LabelsCustomLabelHint>
+  <LabelsCustomLabelView>Label &amp;nbsp; nézet: &amp;nbsp; {0} {1} {2}</LabelsCustomLabelView>
+  <LabelsFileLabelledMessage>Sikeresen jelzett {0} elem (ek)</LabelsFileLabelledMessage>
+  <LabelsRemovedMessage>Sikerült eltávolítani {0} címke (ek)</LabelsRemovedMessage>
+  <LabelsNotRemovedMessages>nem távolítják el: {0}</LabelsNotRemovedMessages>
+  <LabelsNotLabelledMessage>Nem jelölt: {0}</LabelsNotLabelledMessage>
+  <LabelsLabelRemovedMessage>Címke sikeresen eltávolították</LabelsLabelRemovedMessage>
+  <LabelsNewLabel>új címke</LabelsNewLabel>
+  <LabelsLabellingMessage>Címkézés</LabelsLabellingMessage>
+  <LabelsRemovingLabelMessage>eltávolítása címkék</LabelsRemovingLabelMessage>
+  <LabelsLabelInfoTip>Megjelölve '{0}' {1} a felhasználó "{2} '</LabelsLabelInfoTip>
+
+  <!-- End Labels -->
+
+  <!-- Comments -->
+
+  <CommentsCountInfoTip>{0} comment (s)</CommentsCountInfoTip>
+  <CommentsWriteCommentHint>Írj egy megjegyzést, és nyomja meg a '{0}' vagy a Ctrl+Enter vagy a Shift+Enter ...</CommentsWriteCommentHint>
+
+  <!-- End Comments -->
+
+  <RefreshPageWarningMessage>&lt;b&gt; Figyelem! &lt;/b&gt; A művelet befejezéséhez, az aktuális oldalt a böngésző frissíteni kell. &lt;br /&gt; Szeretné frissíteni most?</RefreshPageWarningMessage>
+
+  <PagingToolbarBeforePageText>oldal</PagingToolbarBeforePageText>
+  <PagingToolbarAfterPageText>{0}</PagingToolbarAfterPageText>
+  <PagingToolbarFirstText>Első oldal</PagingToolbarFirstText>
+  <PagingToolbarPrevText>Előző oldal</PagingToolbarPrevText>
+  <PagingToolbarNextText>Következő oldal</PagingToolbarNextText>
+  <PagingToolbarLastText>Utolsó oldal</PagingToolbarLastText>
+  <PagingToolbarDisplayMsg>Bemutatás {0} - {1} a {2}</PagingToolbarDisplayMsg>
+  <PagingToolbarEmptyMsg>nincs megjeleníthető adat</PagingToolbarEmptyMsg>
+  
+  <GridTotalLabel>Teljes:</GridTotalLabel>
+  <GridTotalFilesLabel>fájlok</GridTotalFilesLabel>
+  <GridTotalFoldersLabel>mappák</GridTotalFoldersLabel>
+  
+  <GridDDSelectedRowsText>{0} kiválasztott sor {1}</GridDDSelectedRowsText>
+  <GridDDSelectedFilesText>{0} kijelölt fájlok</GridDDSelectedFilesText>
+  <GridDDSelectedFoldersText>{0} kiválasztott mappák</GridDDSelectedFoldersText>
+  <GridDDConfirmCopyMoveTitle>Drop mappa "{0}"</GridDDConfirmCopyMoveTitle>
+  <GridDDConfirmAddToZipTitle>Add a zip "{0}"</GridDDConfirmAddToZipTitle>
+  <GridDDConfirmAddToZipMessage>Behúzott fájlokat hozzá kell adni a ZIP archívum. Szeretné folytatni? {0}.</GridDDConfirmAddToZipMessage>
+  <GridDDConfirmCopyMoveMsg>Válasszon egy műveletet, hogy az alkalmazni kívánt. Forrás: "{0}", Destination folder: "{1}". {2}. {3}</GridDDConfirmCopyMoveMsg>
+  <GridDDConfirmCopyMoveToZipMsg>A fájlok bekerülnek a zip archívumban. Válasszon egy műveletet, amely alkalmazni szeretné a behúzott fájlokat hozzáadása után a fájlokat a zip archívumban. Forrás: "{0}", Destination zip archívumban: "{1}". {2}. {3}</GridDDConfirmCopyMoveToZipMsg>
+  <GridDDDraggedFileNames>&lt;b&gt; behúzott fájlokat: &lt;/b&gt; {0}</GridDDDraggedFileNames>
+  <GridDDDraggedFolderNames>&lt;b&gt; Vonszolta mappák: &lt;/b&gt; {0}</GridDDDraggedFolderNames>
+  <GridDDConfirmTargetFolderOnlyCopyMsg>Aktuális jogosultságokat a forrás mappa lehetővé teszi, hogy egyetlen példányt húzni fájlokat. Szeretné folytatni? {0}.</GridDDConfirmTargetFolderOnlyCopyMsg>
+  <GridDDConfirmTargetFolderOnlyMoveMsg>Aktuális jogosultságokat a forrás mappa lehetővé teszi, hogy csak a mozgás húzni fájlokat. Szeretné folytatni? {0}.</GridDDConfirmTargetFolderOnlyMoveMsg>
+
+  <GridRowPublicHint>Ide kattintva megnyithatja a nyilvános link új ablakban / lapon</GridRowPublicHint>
+  <GridRowAlertHint>Kattints ide a változások tenni ezt a fájlt / mappát</GridRowAlertHint>
+  <GridRowRecentHint>Keresd meg ezt a fájl / mappa</GridRowRecentHint>
+  <GridRowAlertEventHint>Kattintson ide, ha ezen a helyen</GridRowAlertEventHint>
+
+  <ProgressCreating>létrehozása</ProgressCreating>
+  <ProgressDeleting>törlése</ProgressDeleting>
+  <ProgressLoading>Betöltés</ProgressLoading>
+  <ProgressSearching>kutató</ProgressSearching>
+  <ProgressZipping>Tömörítő</ProgressZipping>
+  <ProgressUnzipping>kicsomagolás</ProgressUnzipping>
+  <ProgressZipContents>Első tartalmát a ZIP archívum</ProgressZipContents>
+  <ProgressPrepareDownload>Felkészülés letöltés</ProgressPrepareDownload>
+  <ProgressMoving>Haladás</ProgressMoving>
+  <ProgressCopying>Másolás</ProgressCopying>
+  <ProgressRenaming>átnevezés</ProgressRenaming>
+  <ProgressUpdating>frissítése</ProgressUpdating>
+  <ProgressLoadingEditInPixlr>Betöltése Pixlr szerkesztő</ProgressLoadingEditInPixlr>
+  <ProgressLoadingEdit>Loading szerkesztő</ProgressLoadingEdit>
+  <ProgressSavingEdit>A fájl mentése</ProgressSavingEdit>
+  <ProgressSaving>Megtakarítás</ProgressSaving>
+  <ProgressExecuting>Végrehajtó</ProgressExecuting>
+
+  <BalloonFilesDeleted>{0} fájl (ok) törlésre</BalloonFilesDeleted>
+  <BalloonFoldersDeleted>{0} mappa (k) törölve</BalloonFoldersDeleted>
+  <BalloonFilesFailed>{0} fájl (ok) nem</BalloonFilesFailed>
+  <BalloonFoldersFailed>{0} mappa (k) nem</BalloonFoldersFailed>
+  <BalloonFilesZipped>{0} fájl (ok) tömörített</BalloonFilesZipped>
+  <BalloonFoldersZipped>{0} mappa (k) sűrített</BalloonFoldersZipped>
+  <BalloonFilesCopied>{0} fájl (ok) másolni</BalloonFilesCopied>
+  <BalloonFoldersCopied>{0} mappa (k) másolt</BalloonFoldersCopied>
+  <BalloonFilesMoved>{0} fájl (ok), aki</BalloonFilesMoved>
+  <BalloonFoldersMoved>{0} mappa (k), aki</BalloonFoldersMoved>
+  <BalloonNotUnzipped>{0} fájl (ok) nem kicsomagolva</BalloonNotUnzipped>
+  <BalloonFilesUploaded>{0} fájl (ok) feltöltötte</BalloonFilesUploaded>
+  <BalloonFilesNotUploaded>{0} fájl (ok) nem töltött</BalloonFilesNotUploaded>
+  <BalloonSomeFilesNotUploaded>Néhány fájl nem lehet feltölteni</BalloonSomeFilesNotUploaded>
+  <BalloonCreatedSuccessfully>sikeresen létrehozva</BalloonCreatedSuccessfully>
+  <BalloonUnzippedSuccessfully>Becsomagolatlan sikeresen</BalloonUnzippedSuccessfully>
+  <BalloonRenamedSuccessfully>sikeres átnevezés</BalloonRenamedSuccessfully>
+  <BalloonSavedSuccessfully>sikeresen elmentve</BalloonSavedSuccessfully>
+  <BalloonCopiedToClipboard>Vágólapra másolva</BalloonCopiedToClipboard>
+  <BalloonCopyToClipboardFailed>Másolás a vágólapra sikertelen</BalloonCopyToClipboardFailed>
+
+  <CommandCopyToClipboard>Másolja a vágólapra</CommandCopyToClipboard>
+  <CommandCopyLinkToClipboard>Link másolása a vágólapra</CommandCopyLinkToClipboard>
+  <ClipboardScreenshotTitlePrefix>Kép</ClipboardScreenshotTitlePrefix>
+  <ClipboardScreenshotHint>Kép: Akkor be egy screenshot a vágólapra (nyomja meg a &lt;b&gt; Ctrl+PrtSc &lt;/b&gt;, majd az &lt;b&gt; Ctrl+V &lt;/b&gt;), vagy egy képet a szerkesztő (nyomja meg a &lt;b&gt; Ctrl+V &lt;/b&gt;).</ClipboardScreenshotHint>
+  <ClipboardFileHint>Is be lehet illeszteni egy fájlt a vágólapra</ClipboardFileHint>
+
+  <CommandClouds>Cloud tárolók</CommandClouds>
+  <CommandCloudsDownloadTo>letölthető ...</CommandCloudsDownloadTo>
+  <CommandCloudsUploadFrom>feltölteni ...</CommandCloudsUploadFrom>
+  <CommandCloudsAbout>Mintegy Cloud tárolók</CommandCloudsAbout>
+  
+  <CommandBack>Hát</CommandBack>
+  <CommandForward>Előre</CommandForward>
+  <CommandRecentFolders>Legutóbbi mappák</CommandRecentFolders>
+  <CommandHome>Otthon</CommandHome>
+  <CommonActions>Hozzászólások</CommonActions>
+  <CommandMultiSelect>Multi-select</CommandMultiSelect>
+  <CommandShare>Ossza meg</CommandShare>
+  <CommandSorting>Válogatás</CommandSorting>
+  
+  <CommandFileManager>Vissza a fájlkezelő</CommandFileManager>
+  <CommandFolders>mappák</CommandFolders>
+  <CommandGridView>Kilátás</CommandGridView>
+  <CommandRefresh>Frissítés</CommandRefresh>
+  <CommandThumbnailView>Miniatűr nézet</CommandThumbnailView>
+  <CommandDetailedView>Lista nézet</CommandDetailedView>
+  <CommandDetailsPane>Részletek ablaktábla</CommandDetailsPane>
+  <CommandFavorites>Érdekes</CommandFavorites>
+  <CommandAddToFavorites>Add hozzá a kedvencekhez</CommandAddToFavorites>
+  <CommandAddToFavoritesHint>Add az aktuális mappában a kedvencekhez</CommandAddToFavoritesHint>
+  <AddingToFavoritesMessage>Hozzáadása a kedvencekhez</AddingToFavoritesMessage>
+  <RemoveFromFavoritesMessage>Törlése a kedvencek közül</RemoveFromFavoritesMessage>
+  <FolderAlreadyAddedInFavorites>A mappa "{0}" már létezik a kedvencekhez</FolderAlreadyAddedInFavorites>
+  <FolderAddedInFavoritesSuccessfully>A mappa "{0}" sikeresen bekerült a kedvencek közé</FolderAddedInFavoritesSuccessfully>
+  <FavoritesIsOverflowed>Nem lehetett felvenni az aktuális mappa "{0}" közé. Töröljön néhány kedvencek szabad helyet, majd próbálja újra.</FavoritesIsOverflowed>
+  <RemoveFromFavoritesHint>Távolítsuk el "{0}" a kedvencek közül</RemoveFromFavoritesHint>
+  <AddToHomeScreenIOSHint>Koppintson {0}, majd a &lt;strong&gt; "Add to Home Screen" &lt;/strong&gt;</AddToHomeScreenIOSHint>
+  <CommandSearch>Keresés</CommandSearch>
+  <CommandUpload>Feltöltés</CommandUpload>
+  <CommandSettings>Beállítások</CommandSettings>
+  <CommandLanguage>Nyelv</CommandLanguage>
+  <CommandAdministration>Adminisztráció</CommandAdministration>
+  <CommandAdminPanel>Adminisztrációs Panel</CommandAdminPanel>
+  <CommandChangePassword>Jelszó módosítása</CommandChangePassword>
+  <ProgressChangePassword>jelszó megváltoztatása</ProgressChangePassword>
+  <CommandChangeEmail>e-mailt változtatni</CommandChangeEmail>
+  <ProgressChangeEmail>Változó e-mail</ProgressChangeEmail>
+  <CommandMobileView>Mobile felület (Smartphone)</CommandMobileView>
+  <CommandStandardView>Teljes verzió</CommandStandardView>
+  <CommandInstallIOSApp>Telepítse IOS app</CommandInstallIOSApp>
+  <CommandInstallAndroidApp>Telepítse Android app</CommandInstallAndroidApp>
+  <CommandAddServerToMobileApp>Add hozzá ezt a szervert a mobil app</CommandAddServerToMobileApp>
+  <CommandAddToHomeScreen>Hozzáadás a kezdőképernyőhöz</CommandAddToHomeScreen>
+  <CommandDiagnostics>diagnosztikai oldal</CommandDiagnostics>
+  <CommandLicenseInfo>Licenc információk</CommandLicenseInfo>
+  <CommandLogout>Kilépés</CommandLogout>
+  <CommandLogoutHint>Kattintson, hogy befejezze az aktuális munkamenet</CommandLogoutHint>
+  <CommandNew>Új</CommandNew>
+  <CommandFile>akta</CommandFile>
+  <CommandEmptyFile>üres fájl</CommandEmptyFile>
+  <CommandNewMSOODocument>Dokumentum MS Office Online</CommandNewMSOODocument>
+  <CommandNewOffice365Document>Dokumentum Office 365</CommandNewOffice365Document>
+  <CommandNewMSOOWord>Word dokumentum</CommandNewMSOOWord>
+  <CommandNewMSOOExcel>Excel táblázatkezelő</CommandNewMSOOExcel>
+  <CommandNewMSOOPowerPoint>Powerpoint prezentáció</CommandNewMSOOPowerPoint>
+  <CommandNewGoogleDocument>Dokumentum Google</CommandNewGoogleDocument>
+  <CommandNewGoogleDocs>Google Dokumentumok</CommandNewGoogleDocs>
+  <CommandNewGoogleSheets>Google Táblázatok</CommandNewGoogleSheets>
+  <CommandNewGoogleSlides>Google Diák</CommandNewGoogleSlides>
+  <CommandNewImage>Kép a Pixlr</CommandNewImage>
+  <CommandFolder>Folder</CommandFolder>
+  <CommandNewFile>Új üres fájl</CommandNewFile>
+  <CommandNewFolder>Új mappa</CommandNewFolder>
+  <CommandNewWithTemplate>Sablon használata ...</CommandNewWithTemplate>
+  <CommandRename>átnevezése</CommandRename>
+  <CommandDelete>Töröl</CommandDelete>
+  <CommandCopy>Másolat</CommandCopy>
+  <CommandMove>Mozog</CommandMove>
+  <CommandCut>Vágott</CommandCut>
+  <CommandCopyTo>Másold...</CommandCopyTo>
+  <CommandMoveTo>Költözik...</CommandMoveTo>
+  <CommandCopyCutClipboardSuffix>a vágólapra</CommandCopyCutClipboardSuffix>
+  <CommandPaste>Paszta</CommandPaste>
+  <CommandPasteInto>BeillesztĂŠs</CommandPasteInto>
+  <CommandZip>Összepréseljük a Zip archívum</CommandZip>
+  <CommandZipMenu>Zip / Unzip</CommandZipMenu>
+  <CommandUnzip>kicsomagolni</CommandUnzip>
+  <CommandUnzipSelected>Csomagold kiválasztott</CommandUnzipSelected>
+  <CommandUnzipAll>Csomagolja</CommandUnzipAll>
+  <CommandUnzipTo>A mappa</CommandUnzipTo>
+  <CommandUnzipToCurrent>az aktuális mappa</CommandUnzipToCurrent>
+  <MessageUnzipToFolder>Írja be a mappa neve kicsomagolni ezt a</MessageUnzipToFolder>
+  <MessageUnzipPasswordHint>Ha tudja, hogy egy jelszó szükséges kicsomagolását, adja meg az alábbi mezőben</MessageUnzipPasswordHint>
+  <MessageUnzipNeedPassword>A jelszó megadása szükséges kicsomagolni a fájlokat</MessageUnzipNeedPassword>
+  <ZipPasswordProtectHint>Ahhoz, hogy jelszóval védeni a zip archívumban, írja be a jelszót az alábbi mezőben. Ellenkező esetben, hagyja üresen a mezőt</ZipPasswordProtectHint>
+  <AppendToZipPasswordProtectHint>Ahhoz, hogy jelszóval védeni a fájlokat hozzá a zip archívum, írja be a jelszót az alábbi mezőben. Ellenkező esetben, hagyja üresen a mezőt</AppendToZipPasswordProtectHint>
+  <ZipPasswordProtectWindowTitle>Archiválás jelszó</ZipPasswordProtectWindowTitle>
+  <OpenFolderAfterUnzipCheckBox>Mappa megnyitása a kicsomagolás után</OpenFolderAfterUnzipCheckBox>
+  <CommandUnzipToNew>egy új mappát</CommandUnzipToNew>
+  <CommandZipContents>zip tartalom</CommandZipContents>
+  <ArchiveContentsTitle>Az archívum tartalma "{0}"</ArchiveContentsTitle>
+  <CommandDownload>Letöltés</CommandDownload>
+  <CommonDownloadAll>Az összes letöltése</CommonDownloadAll>
+  <DownloadListDragFile>Akkor húzza-n-drop fájlokat az asztalon</DownloadListDragFile>
+  <CommandZipDownload>Tömörítésére és letöltés</CommandZipDownload>
+  <CommandView>Megtekintés a Böngésző</CommandView>
+  <CommandDownloadOrView>Letöltés vagy nézet</CommandDownloadOrView>
+  <CommandPreview>Kép előnézet</CommandPreview>
+  <CommandFlashPreview>flash-előnézet</CommandFlashPreview>
+  <GettingSizeFlashMovie>Első méret a flash movie</GettingSizeFlashMovie>
+  <CommandEdit>Szerkesztés szöveges fájl</CommandEdit>
+  <CommandEditView>Nézet szövegfájlt</CommandEditView>
+  <AceNotLoadedMessage>Nem sikerült betölteni a Ace szerkesztő</AceNotLoadedMessage>
+  <VideoJsNotLoadedMessage>Nem sikerült betölteni a VideoJS játékos</VideoJsNotLoadedMessage>
+  <CommandMenuEdit>szerkesztése</CommandMenuEdit>
+  <CommandSelectAll>Mindet kiválaszt</CommandSelectAll>
+  <CommandInvertSelection>Fordított kijelölés</CommandInvertSelection>
+  <CommandLinkToFile>Link a fájl / mappa</CommandLinkToFile>
+  <!--Share link-->
+  <CommandMakePublicFolder>Készítsen nyilvános kapcsolat</CommandMakePublicFolder>
+  <PublicViewInGoogle>Megtekintés a Google</PublicViewInGoogle>
+  <PublicViewinOWA>Részletek az OWA</PublicViewinOWA>
+  <!--Make public folder (share)-->
+  <CommandViewWithGoogleDoc>Megtekintés a Google Docs</CommandViewWithGoogleDoc>
+  <CommandViewWithShareCad>Megtekintése itt ShareCad.org</CommandViewWithShareCad>
+  <CommandViewWithAutodesk>Részletek az Autodesk</CommandViewWithAutodesk>
+  <CommandViewWithBox>Részletek rovatban</CommandViewWithBox>
+  <CommandViewWithOWA>Részletek az Office Web Apps</CommandViewWithOWA>
+  <CommandCloudConvert>Átalakítás CloudConvert</CommandCloudConvert>
+  <ProgressGetCloudConvertOutputFormats>Első kimeneti formátumok</ProgressGetCloudConvertOutputFormats>
+  <ProgressCloudConvertConverting>áttérés</ProgressCloudConvertConverting>
+  <CloudConvertWindowTitle>Átalakítás '{0}'</CloudConvertWindowTitle>
+  <CloudConvertWindowConvertButton>Alakítani</CloudConvertWindowConvertButton>
+  <CloudConvertWindowOutputFormatsLabel>Kimeneti formátum</CloudConvertWindowOutputFormatsLabel>
+  <CloudConvertDownloadLinkLabel>Link letöltés</CloudConvertDownloadLinkLabel>
+  <CloudConvertSaveAsLabel>Mentés (kiterjesztés automatikusan tárolásra kerül):</CloudConvertSaveAsLabel>
+  <CloudConvertNoOutputFormats>Nincsenek elérhető formátumok átalakítására</CloudConvertNoOutputFormats>
+  <CloudConvertNoUrlForDownload>Azt nem tudta, hogy megkapja a kapcsolatot a letöltést</CloudConvertNoUrlForDownload>
+  <ProgressCloudConvertUploading>Feltöltés CloudConvert</ProgressCloudConvertUploading>
+  <CloudConvertSaveAsNameBlank>Típus nevét itt</CloudConvertSaveAsNameBlank>
+  <CancelEditButton>Mégsem szerkesztés</CancelEditButton>
+  <HideButton>Elrejt</HideButton>
+  <EditDocumentCancelHint>Miután bezárta az ablakot szerkesztett dokumentum, akkor automatikusan mentve. &lt;br /&gt; Ön tudja elrejteni ezt a párbeszédablakot megnyomja az {0} (ebben az esetben a dokumentum akkor is menti bezárása után a szerkesztő). &lt;br /&gt; Ha nem szeretné menteni a dokumentum, nyomja meg a {1} (ebben az esetben a szerkesztő ablak zárva lesz).</EditDocumentCancelHint>
+  <EditDocumentSaveHint>Most már tudja menteni a változásokat a dokumentum megnyomásával {0}. Figyelem! Miután bezárta a szerkesztő ablak, akkor is automatikusan mentve.</EditDocumentSaveHint>
+  <CommandEditInMSOffice>Szerkesztés MS Office</CommandEditInMSOffice>
+  <CommandEditInOOo>Szerkesztése OpenOffice / LibreOffice</CommandEditInOOo>
+  <CommandViewInMSOffice>Részletek az MS Office</CommandViewInMSOffice>
+  <CommandViewInOOo>Részletek az OpenOffice / LibreOffice</CommandViewInOOo>
+  <CommandEditInPixlr>Szerkesztés Pixlr</CommandEditInPixlr>
+  <CommandEditInAdobe>Szerkesztése az Adobe Creative Cloud</CommandEditInAdobe>
+  <AdobeImageEditorSavedAsNewTypeMessage>A kép változott Adobe Image Editor mentett formátumban: {0}</AdobeImageEditorSavedAsNewTypeMessage>
+  <CommandEditInGoogle>Szerkesztés a Google Drive</CommandEditInGoogle>
+  <EditInGoogleConvertMessage>Miután szerkesztés a dokumentum átalakítható formában {1} {0} {2}</EditInGoogleConvertMessage>
+  <EditInGoogleLinkError>Nem lehet, hogy a linkre a dokumentum a Google Drive</EditInGoogleLinkError>
+  <EditInGoogleWaiting>Várakozás szerkesztés befejezése a Google Drive</EditInGoogleWaiting>
+  <CommandEditInMSOO>Szerkesztés MS Office Online</CommandEditInMSOO>
+  <EditInMSOOLinkError>Nem lehet, hogy a linkre a dokumentumot az MS Office Online</EditInMSOOLinkError>
+  <EditInMSOOWaiting>Várakozás szerkesztés befejezése MS Office Online</EditInMSOOWaiting>
+  <CommandEditInOffice365>Szerkesztése az Office 365</CommandEditInOffice365>
+  <EditInOffice365LinkError>Nem lehet, hogy a link szerkeszteni a dokumentumot az Office 365</EditInOffice365LinkError>
+  <EditInOffice365Waiting>Várakozás szerkesztés befejezése Office 365</EditInOffice365Waiting>
+  <CommandSave>Mentés</CommandSave>
+  <CommandSaveAs>Mentés másként...</CommandSaveAs>
+  <CommandAppRestart>alkalmazás újraindítása</CommandAppRestart>
+  <CommandPlayVideoFlash>Videó lejátszása Flash player</CommandPlayVideoFlash>
+  <CommandPlayVideoHtml5>Videó lejátszása</CommandPlayVideoHtml5>
+  <CommandPlayAudioHtml5>lejátszás audio</CommandPlayAudioHtml5>
+  <CommandPlayVideo>Videó lejátszása</CommandPlayVideo>
+  <CommandPlayAudio>lejátszás audio</CommandPlayAudio>
+  <CommandConvertVideo>Videó konvertálása</CommandConvertVideo>
+
+  <ViewInServiceLink>Ide kattintva megtekintheti a fájl</ViewInServiceLink>
+  <EditInServiceLink>Kattintson ide, szerkeszteni a dokumentumot</EditInServiceLink>
+
+  <OfficeEditCopyLinkLabel>Másolja az alábbi linkre, és nyissa meg az Office-alkalmazás:</OfficeEditCopyLinkLabel>
+  <OfficeRunError>Nem lehetett elindítani {0}</OfficeRunError>
+  <BadPathToFile>Ez nem volt lehetséges, hogy megtalálja az utat, hogy a fájl</BadPathToFile>
+  <FixBasicAuthAlertTitle>Figyelem!</FixBasicAuthAlertTitle>
+  <FixBasicAuthAlertMessage>Microsoft Office működik Alapfokú hitelesítés SSL nélkül! Meg tudod oldani ezt a Hivatal. További info lásd {0}.</FixBasicAuthAlertMessage>
+  <FixBasicAuthAlertCheckBoxText>Nem mutatni a párbeszéd többé.</FixBasicAuthAlertCheckBoxText>
+  <CommandDetails>Részletek</CommandDetails>
+  <CommonButtonCaptionAddDetail>Adatok hozzáadása</CommonButtonCaptionAddDetail>
+  <CommonButtonCaptionAddComment>Megjegyzés hozzáadása</CommonButtonCaptionAddComment>
+  <DetailsWindowTitle>Részletek "{0}"</DetailsWindowTitle>
+  <FileDetailsSave>Módosítások elfogadása</FileDetailsSave>
+  <FileDetailsIgnoreChanges>Figyelmen kívül hagyni</FileDetailsIgnoreChanges>
+  <FileDetailsCloseConfirmTitle>A fájl adatai ablak bezárul</FileDetailsCloseConfirmTitle>
+  <FileDetailsCloseConfirmMsg>Figyelem! A módosítások nem lettek elmentve még. Válasszon egy műveletet, amely szeretné alkalmazni ezeket a változásokat, mielőtt becsukja az ablakot.</FileDetailsCloseConfirmMsg>
+  <FileDetailsGridTitleColumn>Cím</FileDetailsGridTitleColumn>
+  <FileDetailsGridAuthorColumn>utolsó szerző</FileDetailsGridAuthorColumn>
+  <LoadingDetailsMask>részletek betöltése</LoadingDetailsMask>
+  <NewDetailsTitle>új cím</NewDetailsTitle>
+  <NewDetailsValue>Új részletek érték</NewDetailsValue>
+  <DetailsSavingMsg>mentése részletek</DetailsSavingMsg>
+  <ProgressLoadingEditInOffice>Felkészülés szerkesztésre az Office</ProgressLoadingEditInOffice>
+  <MenuFilterText>szűrők</MenuFilterText>
+  <EmptyTextFilter>Írja szűrő ...</EmptyTextFilter>
+  <AfterDateFilterText>Után</AfterDateFilterText>
+  <BeforeDateFilterText>Előtt</BeforeDateFilterText>
+  <OnDateFilterText>Tovább</OnDateFilterText>
+  <YesBooleanFilterText>Igen</YesBooleanFilterText>
+  <NoBooleanFilterText>Nem</NoBooleanFilterText>
+  <CommandEditWithZoho>Szerkesztés Zoho</CommandEditWithZoho>
+  <ZohoNotSupportedFormatMessage>A kiterjesztés nem támogatja a Zoho. Lásd {0}.</ZohoNotSupportedFormatMessage>
+  <ProgressLoadingEditInZoho>Loading Zoho szerkesztő</ProgressLoadingEditInZoho>
+  <CommandSubMenuViewAndEdit>Megtekintése / szerkesztése</CommandSubMenuViewAndEdit>
+  <CommandSubMenuShare>Ossza meg</CommandSubMenuShare>
+  <CommandSubMenuMore>több</CommandSubMenuMore>
+  <StopUploadingButtonText>Állj meg</StopUploadingButtonText>
+  <SimpleUploadErrorInfo>Feltöltése esetén a fájl (ok) nem volt hiba. &lt;br /&gt; Lásd {0} További info &lt;/a&gt;</SimpleUploadErrorInfo>
+  <BalloonAbortFilesUploaded>A fájlok feltöltését félbeszakadt</BalloonAbortFilesUploaded>
+  <UploadDragNDropTab>Drag &amp;drop</UploadDragNDropTab>
+  <UploadDragNDropTabImages>Drag &amp;drop+képek</UploadDragNDropTabImages>
+  <DnDGridProgressColumn>Haladás</DnDGridProgressColumn>
+  <DnDFileReadingError>Olvasási hiba. Hibakód: {0}.</DnDFileReadingError>
+  <DnDFileReadingAbort>Reading megszakítva. Hibakód: {0}.</DnDFileReadingAbort>
+  <DnDFileUploadingError>Feltöltés hiba. {0}</DnDFileUploadingError>
+  <DnDFileUploadingAbort>Feltöltés megszakítva.</DnDFileUploadingAbort>
+  
+  <CommandWebFoldersLinks>Térkép web mappák</CommandWebFoldersLinks>
+  <CommandSyncWebFolders>Szinkronizálja a helyi mappában</CommandSyncWebFolders>
+  <WebFolderLinksFieldLabel>Web-mappa kapcsolatok</WebFolderLinksFieldLabel>
+  <WebFolderLinksForWindows64Note>Nyomja meg a billentyűkombináció {0} Win+R {1}. Helyezze be a parancssorban a {0} Megnyitás: {1} mezőben (lásd parancssor példákat alább), kattintson a {0} {1} OK. A Windows-hitelesítés használata teljesen minősített tartománynevek: {2}.</WebFolderLinksForWindows64Note>
+  <OpenLibreOfficeRunCommandNote>Vagy nyomja meg a billentyűkombináció {0} Win+R {1}, helyezze be a parancssor alatt a {0} Megnyitás: {1} mezőben, majd nyomja meg a {0} {1} OK</OpenLibreOfficeRunCommandNote>
+  <WebFolderLinksForMacOSNote>A "Finder" menüben nyissa meg a {0} Go-&gt; Csatlakozás a szerverhez {1}. Helyezze be a linket a web mappát a {0} "Kiszolgáló címe" {1} mezőben. Kattintson {0} "Csatlakozás" {1}. Az új ablakban válassza {0} "Guest" {1} vagy a {0} "Regisztrált felhasználó" {1} (Windows hitelesítés). Kattintson {0} "Csatlakozás" {1}.</WebFolderLinksForMacOSNote>
+  <WebFolderLinksForUbuntuNote>Nyílt {0} Go-&gt; hely ... {1} Másolja be a linket a web mappát a Hely mezőben.</WebFolderLinksForUbuntuNote>
+  <LinksToWebFoldersWindowText>Akkor map mappát, hogy látod, mint egy hálózati meghajtót a helyi operációs rendszer. Miután leképezés tud dolgozni a fájlokat, mint a helyiekkel, vagy szerkesztheti a dokumentumait az MS Office vagy az OpenOffice. Lásd segítséget, hogy hogyan térkép {0}.</LinksToWebFoldersWindowText>
+  <CommonFileTypeNameCaption>"{0}" fájlnév</CommonFileTypeNameCaption>
+  <CommonFileTypeNamePrompt>Írja be az új "{0}" fájlnév</CommonFileTypeNamePrompt>
+  
+  <PixlrEditorWindowTitle>Pixlr szerkesztő {0}</PixlrEditorWindowTitle>
+  <PixlrSaveImageSuccessMessage>A kép "{0}" sikeresen mentve. Frissítés a listában, ha mentett a képet új néven.</PixlrSaveImageSuccessMessage>
+  <CommonFileImageNewName>új kép</CommonFileImageNewName>
+  <CommandChangeTheme>téma módosítása</CommandChangeTheme>
+  
+  <CommandHelp>Segítség</CommandHelp>
+
+  <OpeningShortcutProgress>Nyitva parancsikon</OpeningShortcutProgress>
+  <CommandCreateShortcut>Shortcut (szimbolikus link)</CommandCreateShortcut>
+  <ShortcutNameHint>parancsikon neve</ShortcutNameHint>
+  <ShortcutTargetPathHint>célútvonalat</ShortcutTargetPathHint>
+  <CreateShortcutButtonTitle>Teremt</CreateShortcutButtonTitle>
+  <CreatingShortcutProgress>parancsikon létrehozásakor</CreatingShortcutProgress>
+  <CreateShortcutSuccessMessage>Shortcut "{0}" sikeresen létre "{1}".</CreateShortcutSuccessMessage>
+
+  <OpeningInternetShortcutProgress>Nyitva internetes parancsikont</OpeningInternetShortcutProgress>
+  <InternetShortcutNotValidMsg>A cél URL ennek Internet parancsikon nem érvényes</InternetShortcutNotValidMsg>
+  <InternetShortcutWindowTitle>Ugrás erre a linkre</InternetShortcutWindowTitle>
+  
+  <CommandVersioning>Versioning</CommandVersioning>
+  <CommandVersionHistory>Verzióelőzmények</CommandVersionHistory>
+  <CommandCheckOut>kijelentkezés</CommandCheckOut>
+  <CommandCheckIn>Becsekkolás</CommandCheckIn>
+  <CommandUndoCheckOut>Mégsem Kijelentkezés</CommandUndoCheckOut>
+  <VersionHistoryObtainingMessage>Beszerzése változat története</VersionHistoryObtainingMessage>
+  <NoVersionHistoryMessage>A verzió története a kijelölt fájl nem létezik</NoVersionHistoryMessage>
+  <FileIsCheckedOutMessage>A fájl "{0}" már kivett a felhasználó által "{1}" A {2}</FileIsCheckedOutMessage>
+  <CheckingOutMessage>Kijelentkezni</CheckingOutMessage>
+  <SuccessfullyCheckedOutMessage>A fájl "{0}" sikeresen kivett a felhasználó által "{1}"</SuccessfullyCheckedOutMessage>
+  <FileIsNotCheckedOutMessage>A fájl "{0}" nem kivett még</FileIsNotCheckedOutMessage>
+  <FileIsCheckedOutOtherUserMessage>A fájl "{0}" kivett egy másik felhasználó "{1}" A {2}.</FileIsCheckedOutOtherUserMessage>
+  <FileUndoCheckOutForbiddenMessage>Nem lehet törölni a check out által alkalmazott másik felhasználó.</FileUndoCheckOutForbiddenMessage>
+  <FileCheckInForbiddenMessage>Nem lehet ellenőrizni a fájl már kivett egy másik felhasználó.</FileCheckInForbiddenMessage>
+  <FileUndoCheckOutConfirmMessage>Ha megszünteti a check out, a változások az adott dokumentum nem lesz elmentve! Biztos, hogy törli a check out?</FileUndoCheckOutConfirmMessage>
+  <FileVersionDeleteConfirmTitle>Törlése a fájl verziója</FileVersionDeleteConfirmTitle>
+  <FileVersionDeleteConfirmMessage>Biztos, hogy törölni szeretné a kiválasztott fájl verzióját?</FileVersionDeleteConfirmMessage>
+  <FileVersionRestoreConfirmTitle>Helyreállítása a fájl verziója</FileVersionRestoreConfirmTitle>
+  <FileVersionRestoreConfirmMessage>Biztos, hogy vissza akarja állítani a kiválasztott fájl verzióját? {0} Ha igen, adja meg a fájlt, amelyben a kiválasztott változat kerül mentésre. Ha elhagyja ezt az értéket változtatás nélkül (vagy üres érték) a kiválasztott változat váltja majd a kiválasztott fájl (előző fájl tartalmát hozzá kell adni a verziót történelem). {1} Fájlnév:</FileVersionRestoreConfirmMessage>
+  <UndoCheckingOutMessage>Megszakítása Kijelentkezés</UndoCheckingOutMessage>
+  <SuccessfullyUndoCheckedOutMessage>A lemondás a check out egy fájl "{0}" sikeresen befejeződött.</SuccessfullyUndoCheckedOutMessage>
+  <SuccessfullyCheckedInMessage>A fájl "{0}" sikeresen ellenőrizni a felhasználó által "{1}"</SuccessfullyCheckedInMessage>
+  <CheckingInMessage>Bejelentkezés</CheckingInMessage>
+  <VersionHistoryTitle>Fájlverziók "{0}"</VersionHistoryTitle>
+  <VersionHistoryGridNumberColumn>Ver.</VersionHistoryGridNumberColumn>
+  <VersionHistoryGridNotesColumn>Megjegyzések</VersionHistoryGridNotesColumn>
+  <CommandRestoreVersion>visszaállítás</CommandRestoreVersion>
+  <ProgressPrepareDownloadOldVersion>Felkészülés a régi verzió letöltését</ProgressPrepareDownloadOldVersion>
+  <FileVersionNotFoundMessage>A kiválasztott fájl verziója nem található.</FileVersionNotFoundMessage>
+  <ProgressDeletingVersion>verzió törlése</ProgressDeletingVersion>
+  <ProgressRestoringVersion>változat visszaállítása</ProgressRestoringVersion>
+  <FileNeedCheckInMessage>Kérjük, ellenőrizze, vagy megszünteti a check out a kiválasztott fájlt, és próbálja újra.</FileNeedCheckInMessage>
+  <FileCheckedOutEditForbiddenMessage>Nem lehet módosítani / átnevezni / áthelyezni / delete file "{0}", miközben éppen kivett a felhasználó "{1}" A {2}</FileCheckedOutEditForbiddenMessage>
+  <FileUploadCheckInLabel>Meg tudja nézni, a kiválasztott fájl vagy feltölteni egy új verziója a fájl (használja a feltöltési alábbi űrlapot). Ha azt szeretnénk, hogy hozzon létre egy új verziót a kiválasztott fájlt, nem feltölteni a fájlokat ide.</FileUploadCheckInLabel>
+  <FileUploadCheckInInvalidFileName>A név a feltöltött fájl legyen pontosan ugyanaz, mint a neve a kiválasztott fájl</FileUploadCheckInInvalidFileName>
+  <CheckOutVersionNotes>Ez a verzió már automatikusan létrehozott</CheckOutVersionNotes>
+  <RestoreVersionNotes>Ez a verzió már automatikusan létrehozott visszaállítása után a verziót {0} felhasználó "{1}"</RestoreVersionNotes>
+  <IsCheckedOutHint>A fájl már kivették</IsCheckedOutHint>
+  <ExistsOldVersionsHint>A fájl más verziók</ExistsOldVersionsHint>
+  <IsLockedHint>A fájl zárolva</IsLockedHint>
+  <FileWasCreatedHint>Hoztak létre: {0} óta</FileWasCreatedHint>
+  <FileWasModifiedHint>Megváltozott {0} óta</FileWasModifiedHint>
+  <CommonChangedAgo>{0} óta</CommonChangedAgo>
+  <DaysShort>d</DaysShort>
+  <HoursShort>h</HoursShort>
+  <MinutesShort>m</MinutesShort>
+  <FileContainsMetaDataHint>Tartalmaz néhány részletet (metaadatok)</FileContainsMetaDataHint>
+  <FileMetaDataCaptionMobile>Metaadatok</FileMetaDataCaptionMobile>
+
+  <ExistsPublicLinksFileHint>A fájl nyilvános kapcsolatok</ExistsPublicLinksFileHint>
+  <ExistsPublicLinksFolderHint>A mappa nyilvános kapcsolatok</ExistsPublicLinksFolderHint>
+  <PublicLinkNotFound>Nyilvános link "{0}" nem található</PublicLinkNotFound>
+
+  <PublicLinksDeleteWindowTitle>Törlése a köz link (ek)</PublicLinksDeleteWindowTitle>
+  <PublicLinksDeleteLinkButton>Link törlése</PublicLinksDeleteLinkButton>
+  <PublicLinksDeleteConfirmMsg>Biztos benne, hogy törli a kiválasztott nyilvános kapcsolatok?</PublicLinksDeleteConfirmMsg>
+  <PublicLinksDeleteSingleConfirmMsg>Biztosan törölni szeretné ezt a kapcsolatot?</PublicLinksDeleteSingleConfirmMsg>
+
+  <DetailsMultiValue>(Multi-érték)</DetailsMultiValue>
+
+  <GridBottomFilesSizeInfo>Válogatott: {0} / {1}</GridBottomFilesSizeInfo>
+  <GridBottomFilesFoldersInfo>fájlok: {0} / {1}, mappák: {2} / {3}</GridBottomFilesFoldersInfo>
+
+  <AmountOfDownloadingsFile>Letöltések</AmountOfDownloadingsFile>
+
+  <CookiesDisabledMessage>A böngésző cookie funkciója ki van kapcsolva. Kérjük, kapcsolja be, és indítsa újra a böngészőt.</CookiesDisabledMessage>
+
+  <CommandSendEmail>Küldjön e-mailt</CommandSendEmail>
+  <CommandSendWithGmail>Küldés Gmailben</CommandSendWithGmail>
+  <CommandSendWithOutlook>Küldés Outlook</CommandSendWithOutlook>
+  <SendEmailTo>Nak nek</SendEmailTo>
+  <SendEmailBulkMailingListHint>&lt;b&gt; listára &lt;/b&gt; &lt;br /&gt; Megadhatja egész csoportokat, hogy küldje el az e-mail</SendEmailBulkMailingListHint>
+  <SendEmailBulkMailingListWindowTitle>Select vevők az e-mail</SendEmailBulkMailingListWindowTitle>
+  <SendEmailEmptyMailingListMessage>A Mail lista üres</SendEmailEmptyMailingListMessage>
+  <SendEmailSenderEmail>feladó e-mail</SendEmailSenderEmail>
+  <SendEmailSubject>Tantárgy</SendEmailSubject>
+  <SendEmailFilesAsLinksTo>Küldje linkek kiválasztott fájlok</SendEmailFilesAsLinksTo>
+  <SendEmailFilesAsAttachements>Küldje el a kijelölt fájlokat mellékletként</SendEmailFilesAsAttachements>
+  <SendEmailSend>Elküld</SendEmailSend>
+  <SendEmailProgressMessage>E-mail küldése</SendEmailProgressMessage>
+  <GettingMailingListProgressMessage>Első levelezőlista</GettingMailingListProgressMessage>
+  <SendEmailSuccessMessage>Az E-mail sikeresen elküldve.</SendEmailSuccessMessage>
+  <SendEmailResultsMessage>Elküldött: {0}. &lt;br /&gt; Nem sikerült: {1} {2}.</SendEmailResultsMessage>
+  <SmtpServerSettingsIncorrect>Az SMTP-kiszolgáló opciók vagy üres vagy hibás</SmtpServerSettingsIncorrect>
+  <FromEmailIncorrect>A From email cím hibás vagy üres</FromEmailIncorrect>
+  <ToEmailIncorrect>A következő e-mail cím hibás vagy üres</ToEmailIncorrect>
+  <EmailSubjectEmpty>Az e-mail tárgy nincs megadva</EmailSubjectEmpty>
+  <UploadFromUrlTab>URL-ről</UploadFromUrlTab>
+  <UploadFromUrlFieldLabel>URL (HTTP vagy FTP egy fájl)</UploadFromUrlFieldLabel>
+  <UploadFromUrlProgressTitle>Feltöltés URL</UploadFromUrlProgressTitle>
+  <UploadFromUrlMsg>Feltöltés URL</UploadFromUrlMsg>
+  <UploadFromUrlSuccessMsg>A fájl "{0}" sikeresen feltöltött "{1}"</UploadFromUrlSuccessMsg>
+  <UploadFromUrlUnknownResponse>A válasz a szerver nem ismeri</UploadFromUrlUnknownResponse>
+  <UploadFromUrlEmptyFileName>A név a feltöltött fájl üres</UploadFromUrlEmptyFileName>
+  <UploadFromUrlFileName>Mentése névvel (hagyja üresen használni nevét URL)</UploadFromUrlFileName>
+  <UploadFromUrlFileNameMobile>Mentés a nevét</UploadFromUrlFileNameMobile>
+  
+  <!-- Common Clouds keys -->  
+  <CloudAuthenticateMessage>Be kell jelentkezned a {0}. Kattintson a "{1}" linkre, és máris átirányítja a bejelentkezési űrlapot. {2} További info. {3}</CloudAuthenticateMessage>
+  <CloudAuthenticateLink>Hitelesítés {0}</CloudAuthenticateLink>  
+  <CloudDownloadingMessage>Letöltése {0}</CloudDownloadingMessage>
+  <CloudAuthWarningMessage>Ha az intézkedés nem történt, kérjük, zárja be az ablakot, és kattintson a "{0}" link újra.</CloudAuthWarningMessage>
+  <CloudAuthEmptyInvalidMessage>{0} Access Token üres vagy érvénytelen. Kérjük, újra hitelesíteni.</CloudAuthEmptyInvalidMessage>
+  <CloudDownloadEndMessageTitle>Letöltés befejezte</CloudDownloadEndMessageTitle>
+  <CloudDownloadFilesSuccessMessage>{0} fájl (ok) sikeresen letöltötte a "{1}" {2} mappát.</CloudDownloadFilesSuccessMessage>
+  <CloudNotDownloadedFilesMessage>{0} fájl (ok) nem letöltött:</CloudNotDownloadedFilesMessage>
+  <CloudFoldersCreatedSuccessMessage>{0} mappa (k) sikeresen létrehozott "{1}" {2} mappát.</CloudFoldersCreatedSuccessMessage>
+  <CloudNotFoldersCreatedMessage>{0} mappa (k) nem jön létre:</CloudNotFoldersCreatedMessage>
+  <CloudFilesFoldersSuccessMessage>{0} fájl (ok), {1} mappa (k) sikeresen letöltötte a "{2}" {3} mappát.</CloudFilesFoldersSuccessMessage>
+  <CloudNotFilesFoldersDownloadedMessage>{0} fájl (ok), {1} mappa (k) nem letöltött:</CloudNotFilesFoldersDownloadedMessage>
+  <CloudLinkText>Látogasson el a {0}</CloudLinkText>
+  <CloudLinkDescription>Tovább a {0} oldalra</CloudLinkDescription>
+  <CloudRootFolderName>&lt;b&gt; {0} gyökérmappáiban &lt;/b&gt;</CloudRootFolderName>
+  <CloudCheckFolerMessage>Kérjük, ellenőrizze egy {0} mappát a folytatáshoz.</CloudCheckFolerMessage>
+  <CloudSelectFolderMessage>Kérjük, válassza ki a {0} mappát a folytatáshoz.</CloudSelectFolderMessage>
+  <CloudGetFoldersInfoProgressMessage>Betöltése {0} mappák info</CloudGetFoldersInfoProgressMessage>
+  <CloudGetItemsInfoProgressMessage>Betöltése {0} info</CloudGetItemsInfoProgressMessage>
+  <CloudUploadSelectItemsMessage>Kérjük, válassza ki a {0}, hogy folytassa.</CloudUploadSelectItemsMessage>
+  <CloudUploadTotalFiles>Összes kép: {0} ({1})</CloudUploadTotalFiles>
+  <CloudUploadProgressMessage>Feltöltés {0}</CloudUploadProgressMessage>
+  <CloudSignInAsDifferentUserText>Kijelentkezel {0}</CloudSignInAsDifferentUserText>
+  <CloudLogoutProgressMsg>Kijelentkezel {0}</CloudLogoutProgressMsg>
+  <CloudRevokeTokenMsg>visszavonása token</CloudRevokeTokenMsg>
+  <CloudRefreshTokenMsg>frissítő token</CloudRefreshTokenMsg>
+  <CloudAuthNotCompleteMsg>A hitelesítés nem fejeződött be. &lt;br /&gt; Kérjük</CloudAuthNotCompleteMsg>
+  <CloudTrustedSitesMsg> ellenőrizze a következő oldalakon a "Megbízható helyek" lista: &lt;br /&gt; &lt;br /&gt;</CloudTrustedSitesMsg>
+  <TrustedSitesForMicrosoftEdge>Ha használja a Microsoft Edge, majd ellenőrizze a Megbízható helyek az Internet Explorer</TrustedSitesForMicrosoftEdge>
+  <CloudCheckAuthMsg>Ellenőrizze {0} hitelesítés</CloudCheckAuthMsg>
+  <CloudLoadMsg>Betöltése {0}</CloudLoadMsg>
+  <CloudFreeSpaceError>Nincs elég hely a {2} feltölteni a fájlokat. Nos: {0}. Fájl mérete: {1}.</CloudFreeSpaceError>
+  <CloudFreeSpaceExceeded>Nincs elég hely a {0}</CloudFreeSpaceExceeded>
+  <CloudExceedFileSizeError>A kívánt fájl letöltéséhez egy fájl mérete {1}, ami nagyobb, mint a maximális méretet letölthető - {0}.</CloudExceedFileSizeError>
+  <CloudFolderNotFound>Könyvtár nem található. Talán törölték</CloudFolderNotFound>
+  <CloudFileNotFound>A fájl nem található. Talán törölték</CloudFileNotFound>
+  <CloudNoFoldersMessage>Nincsenek mappák megjelenítéséhez</CloudNoFoldersMessage>
+  <CloudLibraryNotLoadedMsg>{0} kliens könyvtár nincs betöltve! &lt;br /&gt; Kérjük, ellenőrizze internetkapcsolatát, és-vagy frissíteni az oldalt. &lt;br /&gt; Is</CloudLibraryNotLoadedMsg>
+  <CloudDownloadWithNewNames>Következő fájl (ok) letölthető az új neveket:</CloudDownloadWithNewNames>
+
+  <!-- Google Drive Cloud keys -->
+  <CommandDownloadToGoogleDocs>Letöltés a Google Drive</CommandDownloadToGoogleDocs>
+  <GoogleDocsSaveAs>mentés másként:</GoogleDocsSaveAs>
+  <GoogleDocsSaveAsTitle>Mentés "{0}", mint ...</GoogleDocsSaveAsTitle>
+  <GoogleDocsDownloadEndWarningMessage>Ha nem látja a feltöltött dokumentumokat a Google Drive-fiókot, várjon néhány másodpercet, és frissítse a Google Drive listát.</GoogleDocsDownloadEndWarningMessage>
+  <GoogleDriveUploadNoFilesMessage>Nincs kép a Google Drive feltöltéshez</GoogleDriveUploadNoFilesMessage>
+  <GoogleDriveMaxUploadSizeError>Mert content-type "{0}" maximális méretét feltöltés {1} túllépték.</GoogleDriveMaxUploadSizeError>
+  <GoogleDriveConvertMsg>Ha lehetséges, konvertálni a fájlokat a Google Dokumentumok formátumban. {0} További info {1}.</GoogleDriveConvertMsg>
+
+  <!-- Box Cloud keys -->
+  <CommandDownloadToBox>Letöltés a Box</CommandDownloadToBox>
+  <BoxDownloadWithNewNames>A következő fájl (oka) t frissíteni az új verzió:</BoxDownloadWithNewNames>
+  <BoxNoViewPermission>Nem rendelkezik engedéllyel a kiválasztott könyvtárba</BoxNoViewPermission>
+  <BoxNoDownloadPermission>Nem rendelkezik engedéllyel letölteni</BoxNoDownloadPermission>
+  <BoxNoUploadPermission>Nem rendelkezik engedéllyel feltölteni</BoxNoUploadPermission>
+  <BoxUnableCreateOrInfoError>Nem sikerült létrehozni vagy információt szerezni</BoxUnableCreateOrInfoError>
+  
+  <!-- Dropbox Cloud keys -->
+  <CommandDownloadToDropbox>Letöltés a Dropbox</CommandDownloadToDropbox>
+  
+  <!-- OneDrive Cloud keys -->
+  <CommandDownloadToSkyDrive>Letöltés a OneDrive</CommandDownloadToSkyDrive>
+  <AuthenticateOAuthSkyDriveMessageShort>Be kell jelentkezzen be Microsoft Live-fiók.</AuthenticateOAuthSkyDriveMessageShort>
+  <SkyDriveAuthAlsoString>Is</SkyDriveAuthAlsoString>
+  <SkyDriveLoginButtonTitle>Belépek</SkyDriveLoginButtonTitle>
+  <SkyDriveRegistryMessage>Nem rendelkezik Windows Live ID? {0} Regisztráció ... {1}</SkyDriveRegistryMessage>
+  <SkyDriveMapRootFolder>Jegyzet! A {0} térkép {1} a OneDrive mappát. path</SkyDriveMapRootFolder>
+  <SkyDriveMoreInfoLink>{0} További információ OneDrive (SkyDrive) {1}</SkyDriveMoreInfoLink>
+  <OneDriveMaxUploadSizeError>Az elfogadható méret ({0}) a feltöltött file túllépése: {1}</OneDriveMaxUploadSizeError>
+  <!-- OneDrive for Business -->
+  <OneDriveForBusinessMapWebFolderInfo>&lt;b&gt; Figyelem! &lt;/b&gt; Mielőtt a fájlok megnyitása ezen a helyen, először hozzá kell adni a honlapján, hogy a megbízható helyek listájához, keresse meg a weboldalt, és válassza ki a lehetőséget, hogy jelentkezzen be automatikusan (IE böngésző).</OneDriveForBusinessMapWebFolderInfo>
+  
+  <UploadFromUrlLabelText>Megadhatja az URL egy fájl tárolja a globális fájlszerver vagy a fájlmegosztó szolgáltatás, mint {0}, {1}, {2}, {3}, {4}.</UploadFromUrlLabelText>
+  <UploadFromUrlLabelTextMobile>Adja meg a fájl URL</UploadFromUrlLabelTextMobile>
+
+  <LinkToFileTitle>Link a fájl / mappa</LinkToFileTitle>
+  <LinkToFileWarningAnonym>Ez a link biztosít névtelen hozzáférést az iratokhoz. Bármely felhasználó, akár az egyik, hogy nem veszi ez a hely, lehet letölteni, vagy feltölteni a fájlokat egy nyilvános linkre. A nyilvános linket egy fájl lehetővé teszi, hogy letölthető egy kiválasztott fájlt. {0} További info {1}.</LinkToFileWarningAnonym>
+  <LinkToFileDownloadFileLink>Ez a kapcsolat lehetővé teszi, hogy Ön letöltse a kiválasztott fájl {0} {1}. Szüksége van egy érvényes számla, hogy használja ezt a linket. Nem nyújt a névtelen hozzáférést az iratokhoz.</LinkToFileDownloadFileLink>
+  <LinkToFileExpireDate>Lejárati dátum</LinkToFileExpireDate>
+  <LinkToFileDownloadCnt>Letöltés számlálási korlát</LinkToFileDownloadCnt>
+  <LinkToFileDownloadType>linktípusa</LinkToFileDownloadType>
+  <LinkToFileGenerate>Create Link</LinkToFileGenerate>
+  <LinkToFilePasswordNotMatch>A jelszavak nem egyeznek</LinkToFilePasswordNotMatch>
+  <LinkToFilePasswordRequired>A jelszó a nyilvános kapcsolat szükséges</LinkToFilePasswordRequired>
+  <LinkToFileInvalidForm>érvénytelen paraméterek</LinkToFileInvalidForm>
+  <LinkToFileAnonymDownloadLinkHint>Nyilvános link "{0}":</LinkToFileAnonymDownloadLinkHint>
+  <LinkToFileAnonymDownloadShortLinkHint>Rövid nyilvános link "{0}":</LinkToFileAnonymDownloadShortLinkHint>
+  <LinkToFileOpenFolderLink>Ez a kapcsolat lehetővé teszi, hogy nyissa meg a kiválasztott mappa {0} {1}. Szüksége van egy érvényes számla, hogy használja ezt a linket. Nem nyújt a névtelen hozzáférést a mappához.</LinkToFileOpenFolderLink>
+  <LinkToFileOpenFileLink>Ez a link megnyílik a mappa a fájlt, és kiemeli azt</LinkToFileOpenFileLink>
+  <LinkToFileDaysLeft>nap van hátra</LinkToFileDaysLeft>
+  <LinkToFileCaptionMobile>nyilvános linkek</LinkToFileCaptionMobile>
+
+  <PublicFolderLinkHint>Nyilvános linket mappa "{0}":</PublicFolderLinkHint>
+  <PublicFolderShortLinkHint>Rövid nyilvános linket mappa "{0}":</PublicFolderShortLinkHint>
+  <PublicFolderLinkDownloadZipHint>Letöltés link zip archívum mappa "{0}":</PublicFolderLinkDownloadZipHint>
+  <PublicFolderLinkShortDownloadZipHint>Rövid letöltési link zip archívum mappa "{0}":</PublicFolderLinkShortDownloadZipHint>
+  <PublicFolderLinkZipDownload>Tömörítésére és le az aktuális mappában {0} (ZIP archívum)</PublicFolderLinkZipDownload>
+  <PublicFolderLinkOverwriteWhileUpload>Felülírja a meglévő</PublicFolderLinkOverwriteWhileUpload>
+  <PublicFolderLinkOpenFolderHint>Nyitott mappa</PublicFolderLinkOpenFolderHint>
+  <PublicFolderDownloadDisabledNote>Jegyzet! A tulajdonos a mappa megtiltotta a fájlok letöltését a mappában.</PublicFolderDownloadDisabledNote>
+  <PublicFolderLinkSendEmails>Küldje információ a látogatók tevékenységét az e-maileket</PublicFolderLinkSendEmails>
+  <PublicFolderAnonymAccessControl>Hozzáférés-szabályozás</PublicFolderAnonymAccessControl>
+  <PublicFolderAnonymDownload>fájlok letöltése</PublicFolderAnonymDownload>
+  <PublicFolderAnonymZipDownload>Letöltés mappák (ZIP)</PublicFolderAnonymZipDownload>
+  <PublicFolderAnonymUpload>Feltöltés</PublicFolderAnonymUpload>
+  <PublicFolderAnonymViewContent>Részletek fájlok listája</PublicFolderAnonymViewContent>
+  <PublicFolderNoteForUsers>Megjegyzés a felhasználóknak</PublicFolderNoteForUsers>
+  <PublicFolderACLNotSet>Hozzáférés-szabályozás nincs beállítva</PublicFolderACLNotSet>
+  <PublicFolderWarningAnonym>Ez a link biztosít névtelen hozzáférést a mappához. Bármely felhasználó, akár az egyik, hogy nem veszi ez a hely, lehet letölteni, vagy feltölteni a fájlokat egy nyilvános linkre. A nyilvános linket a mappát lehetővé teszi, hogy töltse le a egy egész mappát (csomagolt archív) és az egyes fájlokat. {0} További info {1}.</PublicFolderWarningAnonym>
+  <PublicLinksShowForAllItems>Mutasd az összes</PublicLinksShowForAllItems>
+  <PublicLinksShowForSelected>Itt található a kiválasztott</PublicLinksShowForSelected>
+  
+  <MultipleFileInputMessage>Jegyzet! Az Ön böngészője támogatja a több fájl kiválasztása egyszerre.</MultipleFileInputMessage>
+  <UploadZipUnzipNote>Tölthetsz egy zip archívum több fájlok és mappák, majd bontsa ki, a "{0}" parancsot a helyi menüből.</UploadZipUnzipNote>
+  <DnDFileUploadingStatusCode>Állapot kód</DnDFileUploadingStatusCode>
+  <DnDFileUploadingPathOrNameEmpty>Az elérési út és fájlnév vagy nem határozza meg</DnDFileUploadingPathOrNameEmpty>
+  <DnDFileUploadingRemoveFromList>Eltávolítás a listából</DnDFileUploadingRemoveFromList>
+  <DndFileUploadingDontDropFoldersMsg>Drag and drop fájlokat az alábbi táblázat tartalmazza. Akkor nem csökken mappákat.</DndFileUploadingDontDropFoldersMsg>
+  <DndFileUploadingAllowDropFoldersMsg>Drag and drop fájlokat és mappákat az alábbi táblázatban.</DndFileUploadingAllowDropFoldersMsg>
+  <DndFileUploadingFilesSummaryInfo>Gróf fájlok: {0} ({1})</DndFileUploadingFilesSummaryInfo>
+  <DropFilesHere>Drop fájlokat feltölteni</DropFilesHere>
+  
+  <FileGridDownloadColumn>fájlok letöltése</FileGridDownloadColumn>
+  <FileAttributesField>attribútumok</FileAttributesField>
+  <FolderCalculateSize>Kiszámítja</FolderCalculateSize>
+  <FolderRecalculateSize>Újratervezés</FolderRecalculateSize>
+  <FolderContainsField>tartalmaz</FolderContainsField>
+  <FolderContainsFilesFolders>{0} fájl, {1} mappák</FolderContainsFilesFolders>
+  <FolderCalculatingMessage>Számító</FolderCalculatingMessage>
+
+  <SearchTitle>Fájl keresés. Álló minták: {0}</SearchTitle>
+  <SearchType>Keresés</SearchType>
+  <SearchOnlyFiles>csak azokat a fájlokat</SearchOnlyFiles>
+  <SearchOnlyFolders>csak mappák</SearchOnlyFolders>
+  <SearchBothFilesFolders>mind a fájlok és mappák</SearchBothFilesFolders>
+  <SearchFileDetails>fájl részletek</SearchFileDetails>
+  <SearchFileContent>fájl tartalma</SearchFileContent>
+  <SearchByDateFrom>tól től</SearchByDateFrom>
+  <SearchByDateTo>nak nek</SearchByDateTo>
+  <SearchLocation>Elhelyezkedés</SearchLocation>
+  <SearchLocationEntire>Bárhol</SearchLocationEntire>
+  <SearchLocationCurrent>Jelenlegi</SearchLocationCurrent>
+  <SearchSearch>Keresés</SearchSearch>
+  <SearchNothingFound>Semmit sem találtak! Kérjük, pontosítsa a keresési feltételeket.</SearchNothingFound>
+  <SearchErrorCaption>Keresés hiba</SearchErrorCaption>
+  <SearchResultsNotComplete>Figyelem! A keresési eredmények hiányosak lehetnek, mint néhány mappa nem indexelt tartalom.</SearchResultsNotComplete>
+  <SearchRepeatOrContactAdmin>Kérjük, próbálja meg a keresést újra, vagy lépjen kapcsolatba a rendszergazdával.</SearchRepeatOrContactAdmin>
+  <SearchLinkToManual>Lásd a {0} A Windows Search Súgó {1}</SearchLinkToManual>
+  <QuerySearchByNameText>keresés név</QuerySearchByNameText>
+  <QuerySearchByConentText>tartalom szerint</QuerySearchByConentText>
+  <SearchByDetailsWarning>Figyelem! Ön megadott beállítások, hogy szeretné használni a keresést tulajdonságait. Ebben az esetben, a keresés elvégezhető egy szabványos módszer helyett a Windows indexelő szolgáltatás.</SearchByDetailsWarning>
+  <SearchInSpecialFolderWarning>Figyelem! Kereséséhez az aktuális mappában nem alkalmazható. Ha folytatja, a keresés végezni minden könyvtárat.</SearchInSpecialFolderWarning>
+
+  <UploadTitle>Feltöltése több fájl</UploadTitle>
+  <UploadSimpleTab>Alapértelmezett</UploadSimpleTab>
+  <UploadSimpleReset>Visszaállítás</UploadSimpleReset>
+  <UploadSimpleUpload>Feltöltés</UploadSimpleUpload>
+  <UploadSimpleUploadFolderLabelCollapsed>Feltöltés mappa</UploadSimpleUploadFolderLabelCollapsed>
+  <UploadSimpleUploadFolderButtonText>Mappa kiválasztása</UploadSimpleUploadFolderButtonText>
+  <UploadJavaTab>Jáva</UploadJavaTab>
+  <UploadJavaIgnorePaths>Helyezze az összes fájlt egy mappába (figyelmen kívül útvonalak)</UploadJavaIgnorePaths>
+  <UploadFlashTab>Vaku</UploadFlashTab>
+  <UploadSilverlightTab>Silverlight</UploadSilverlightTab>
+  <UploadPartially>Néhány fájl nem lehet feltölteni</UploadPartially>
+  <UploadFolderNotSelectedTitle>Folder nincs kiválasztva</UploadFolderNotSelectedTitle>
+  <UploadFolderNotSelected>Kérjük, válassza ki azt a mappát, amely a fájlokat lesz feltöltve</UploadFolderNotSelected>
+  <UploadInProgress>Fájlok feltöltésével</UploadInProgress>
+  <UploadInvalidFormFields>Űrlapmezőket nem lehet benyújtani érvénytelen értékeket</UploadInvalidFormFields>
+  <UploadAjaxFailed>Ajax kommunikáció sikertelen</UploadAjaxFailed>
+  <UploadFilesAlreadyExists>Fájl (ok) már létezik</UploadFilesAlreadyExists>
+  <UploadOverwriteFiles>Meglévő fájl sem lesz felülírva. Kívánja folytatni?</UploadOverwriteFiles>
+  <UploadOverwriteOrRenameFiles>Egy vagy több fájl a megfelelő neveket a megadott könyvtárba. Tudni akarja felülírni a már meglévő fájlokat? Kattintson a "{0}", ha azt szeretné, hogy felülírja a már meglévő fájlokat, vagy a "{1}" - ha azt akarjuk, hogy mentse az összes fájlt (akkor át kell nevezni).</UploadOverwriteOrRenameFiles>
+  <UploadNotModifyExistingFiles>Egy vagy több fájl illő nevek megadott könyvtárba. A fájlokat nem lehet feltölteni. Kérjük, távolítsa el a már meglévő fájlokat a feltöltési listából, vagy átnevezni őket.</UploadNotModifyExistingFiles>
+  <UploadRenamedExistingFiles>Egy vagy több fájl illő nevek megadott könyvtárba. Files megfelelő nevű átnevezésre kerül.</UploadRenamedExistingFiles>
+  <UploadNotAllowedTitle>Feltöltés nem engedélyezett</UploadNotAllowedTitle>
+  <UploadNotAllowedPrompt>Nem lehet feltölteni a fájlokat ebbe a mappába</UploadNotAllowedPrompt>
+
+  <UploadMobileIOSVideo>Videó feltöltése. Jelölje be ezt az opciót, ha meg kell feltölteni videó fájlt.</UploadMobileIOSVideo>
+  <UploadMobileAurigmaLink>Felhívjuk figyelmét, hogy meg kellett volna Aurigma Up! az eszközre telepített annak érdekében, hogy feltölt fájlokat. Koppintson ide telepíteni Aurigma Up! kérelmet képek feltöltését és videó.</UploadMobileAurigmaLink>
+  <UploadMobileAurigmaReady>Miután Aurigma Up! telepítve van, vagy ha már van telepítve, nyomja meg a "Feltöltés" gombra.</UploadMobileAurigmaReady>
+  <UploadMobileAurigmaFilePrefix>Előtagja feltöltött fájlok</UploadMobileAurigmaFilePrefix>
+  <UploadMobileResult>Feltöltése eredmény:</UploadMobileResult>
+  <UploadMobileUrlPlaceHolder>Írja be az URL-t ide</UploadMobileUrlPlaceHolder>
+  <UploadMobileFileNamePlaceHolder>Írja be az új fájl nevét itt</UploadMobileFileNamePlaceHolder>
+  <UploadBrowseLabel>Tallózás ...</UploadBrowseLabel>
+  
+  <MobileToolTipsCaption>Tudod ...</MobileToolTipsCaption>
+  <MobileToolTipsNextButton>Következő tipp</MobileToolTipsNextButton>
+  <MobileToolTipsIKnowButton>tudom</MobileToolTipsIKnowButton>
+  <MobileToolTipsHideButton>soha ne mutassa</MobileToolTipsHideButton>
+  <MobileToolTipsMultiSelection>Ha több fájlt vagy mappát, akkor lehetővé kell tennie a több választási mód, ha megérinti a &lt;b&gt; {0} &lt;/b&gt; gombra. Érintse meg ismét, hogy kilépjen a multi-kiválasztási mód.</MobileToolTipsMultiSelection>
+  <MobileToolTipsSlideToRemove>Akkor csúszik jobbról balra bármelyik lista elemeket távolítsa el. Egy inline eltávolítás gomb jelenik meg a lista tetején elemet.</MobileToolTipsSlideToRemove>
+  <MobileToolTipsTapAndHoldForMenu>Érintse meg és tartsa bármely listán megjeleníthető elem a helyi menü. Ugyanebben az összefüggésben megjelenő menüben érintse meg a nyilvánosságra hozatalra 'gombra</MobileToolTipsTapAndHoldForMenu>
+  <MobileToolTipsDoubleTapForPreview>Egyetlen érintéssel a fájlt a kiválasztásához érintse meg duplán előnézeti vagy letölthető. Egyetlen érintéssel a mappát a megnyitásához.</MobileToolTipsDoubleTapForPreview>
+  <MobileToolTipsPullDownToRefresh>Legördülő listából, hogy töltse be a tartalmát.</MobileToolTipsPullDownToRefresh>
+  <MobileToolTipsPinchToScale>Akkor használja a "pinch" gesztus a nagyítás-és zoom-out kép.</MobileToolTipsPinchToScale>
+  <MobileToolTipsTapToHideBars>Érintse meg bárhol a kép panelt válthat eszköztárakat.</MobileToolTipsTapToHideBars>
+  <MobileToolTipsSlideLeftRightToNext>Switch képek csúszdával gesztus.</MobileToolTipsSlideLeftRightToNext>
+
+  <DownloadToCloudMobileTip>Egyetlen érintéssel válassza ki mappát, duplán koppintson a megnyitásához.</DownloadToCloudMobileTip>
+  
+  <UploadTotalMaxSizeMessage>Jegyzet! A maximális mérete az összes feltöltött fájl nem haladhatja meg {0}.</UploadTotalMaxSizeMessage>
+  <UploadOneFileMaxSizeMessage>Jegyzet! A legnagyobb méret az egyes feltöltött fájl nem haladhatja meg {0}.</UploadOneFileMaxSizeMessage>
+  <UploadUnlimitedSizeMessage>Jegyzet! A méret a feltöltött fájlok korlátlan.</UploadUnlimitedSizeMessage>
+  <SimpleUploadSetFileNameNote>Jegyzet 2! Miután kiválasztotta a fájlt lehet módosítani a nevet, hogy a fájl lesz feltöltés után</SimpleUploadSetFileNameNote>
+
+  <AnonymousUploadTitle>Fájlok feltöltése ebbe a mappába</AnonymousUploadTitle>
+  <AnonymousUploadDescription>Akkor feltölteni a fájlokat a mappába. Kattintson a "Tallózás" gombra, és válassza ki a fájlokat.</AnonymousUploadDescription>
+  <AnonymousUploadOverwriteHint>Ha a feltöltött fájl már létezik, akkor ki kell cserélni.</AnonymousUploadOverwriteHint>
+  <AnonymousUploadShowUploadHint>A Feltöltés űrlap</AnonymousUploadShowUploadHint>
+  <AnonymousUploadHideUploadHint>Hide feltöltési űrlap</AnonymousUploadHideUploadHint>
+  <AnonymousUploadNewFolderNameHint>Az alábbi mezőben megadhatja egy alkönyvtár nevét (mappát hoz létre, ha még nem létezik), ahol a fájlok kerülnek feltöltésre:</AnonymousUploadNewFolderNameHint>
+  <AnonymousUploadCompleteTitle>Feltöltése a mappa {0} befejeződött</AnonymousUploadCompleteTitle>
+  <AnonymousUploadExistsFilesMessage>A következő fájl (ok) még nem töltötték fel, mert a fájl (ok), az azonos nevű (ok) már létezik: {0}.</AnonymousUploadExistsFilesMessage>
+  <AnonymousUploadOwnersNote>Megjegyzés a mappa tulajdonosa</AnonymousUploadOwnersNote>
+  <AnonymousDownloadPageTitle>Fájl letöltése</AnonymousDownloadPageTitle>
+  <AnonymousDownloadFileHint>Fájl letöltése</AnonymousDownloadFileHint>
+  <AnonymousUploadPageTitle>Feltöltés a mappába</AnonymousUploadPageTitle>
+  <AnonymousPublicFolderPageTitle>nyilvános mappa</AnonymousPublicFolderPageTitle>
+  <AnonymousLoginAccessUserFailure>Ön bejelentkezett a számla, amely nem férnek hozzá a forrás. Kérjük, adjon meg másik bejelentkezési adatait hozzáféréssel. Ha nem ismered őket, vegye fel a kapcsolatot a tulajdonos nyilvános linket vagy a rendszergazda.</AnonymousLoginAccessUserFailure>
+  <ProgressGettingAnonymLink>Nyilvános kapcsolat létrehozása</ProgressGettingAnonymLink>
+  <ProgressGettingAnonymLinks>Első névtelen kapcsolatok</ProgressGettingAnonymLinks>
+  <ProgressGettingBoxViewLink>Első Box Link megtekintése</ProgressGettingBoxViewLink>
+  <AutodeskScriptNotIncludedMessage>Nem sikerült betölteni az Autodesk Viewer script</AutodeskScriptNotIncludedMessage>
+  <ProgressUninitializeAutodeskViewer>Záró Autodesk Viewer</ProgressUninitializeAutodeskViewer>
+  <ProgressGettingAutodeskViewLink>Első Autodesk adatainak megtekintése</ProgressGettingAutodeskViewLink>
+  <AnonymousChangeLanguageHint>Válassz nyelvet</AnonymousChangeLanguageHint>
+  <AnonymousUpLinkHint>Vissza a szülő mappát</AnonymousUpLinkHint>
+  <AnonymousPasswordDescription>A mappa jelszóval védett</AnonymousPasswordDescription>
+  <AnonymousPasswordIncorrectMessage>A jelszó hibás</AnonymousPasswordIncorrectMessage>
+  <AnonymousErrorTitle>Nyilvános szerkesztési hiba</AnonymousErrorTitle>
+  <AnonymousErrorNotFound>Nyilvános link "{0}" nem található!</AnonymousErrorNotFound>
+  <AnonymousErrorAccessDenied>Nem rendelkezik engedéllyel a nyilvános kapcsolat "{0}"</AnonymousErrorAccessDenied>
+  <AnonymousErrorFileNotFound>A nyilvános kapcsolat "{0}" kifejezés egy nem létező fájlt vagy mappát, vagy NTFS olvasási hozzáférés megtagadva</AnonymousErrorFileNotFound>
+  <AnonymousErrorUnknownLinkType>A nyilvános kapcsolat "{0}" nem található</AnonymousErrorUnknownLinkType>
+  <AnonymousSendEmailSubject>A látogatók aktivitása nyilvános mappa</AnonymousSendEmailSubject>
+  <AnonymousSendEmailUploadBody>Az alábbi fájlok feltöltötte a nyilvános mappában {0}: {1}.</AnonymousSendEmailUploadBody>
+  <AnonymousSendEmailDownloadBody>A fájl {0} letöltött a nyilvános mappában {1}.</AnonymousSendEmailDownloadBody>
+  <AnonymousSendEmailZipDownloadBody>Az egész tartalma nyilvános mappa {0} letöltött ZIP archívum.</AnonymousSendEmailZipDownloadBody>
+  <AnonymousViewLinksButton>Részletek linkek</AnonymousViewLinksButton>
+  <AnonymousViewLinksHint>Megtekintéséhez meglévő állami kapcsolatok</AnonymousViewLinksHint>
+  <AnonymousViewLinksWindowTitle>nyilvános linkek</AnonymousViewLinksWindowTitle>
+  <AnonymousViewLinksDateCreatedColumn>Készítés ideje</AnonymousViewLinksDateCreatedColumn>
+  <AnonymousViewLinksDateExpiredColumn>Lejárati dátum</AnonymousViewLinksDateExpiredColumn>
+  <AnonymousViewLinksPermissionColumn>Engedély</AnonymousViewLinksPermissionColumn>
+  <AnonymousViewLinksDownloadedColumn>Letöltések száma maradt</AnonymousViewLinksDownloadedColumn>
+  <ProgressDeletingAnonymousLink>Törlése nyilvános kapcsolat</ProgressDeletingAnonymousLink>
+  <ProgressSavingAnonymousLink>Mentése nyilvános kapcsolat</ProgressSavingAnonymousLink>
+  <AnonymousEditLinkWindowTitle>Szerkesztése nyilvános link "{0}"</AnonymousEditLinkWindowTitle>
+  <AnonymousEditLinkShowUrl>Link megjelenítése</AnonymousEditLinkShowUrl>
+  <AnonymousEditLinkNotFound>A nyilvános kapcsolat nem található, vagy annak érvényességi ideje lejárt</AnonymousEditLinkNotFound>
+
+  <AnonymousLinkSendViaButton>Küldés ... A</AnonymousLinkSendViaButton>
+  <AnonymousLinkSendViaEmailItem>Email...</AnonymousLinkSendViaEmailItem>
+  <AnonymousLinkSendButton>Küldés e-mail ...</AnonymousLinkSendButton>
+  <AnonymousLinkSendSubject>Web File Manager nyilvános kapcsolat</AnonymousLinkSendSubject>
+
+  <AnonymousLinkAdvOptTitle>további paraméterek</AnonymousLinkAdvOptTitle>
+  <AnonymousLinkViewTypeButton>Link nézet</AnonymousLinkViewTypeButton>
+  <AnonymousLinkViewTypeDefault>Teljes</AnonymousLinkViewTypeDefault>
+  <AnonymousLinkViewTypeShort>Rövid</AnonymousLinkViewTypeShort>
+
+  <AnonymousLinkShowCommentsLabel>Itt található leírás, címkék és megjegyzések</AnonymousLinkShowCommentsLabel>
+  <AnonymousLinkShowCommentsShort>Hozzászólások megjelenítése</AnonymousLinkShowCommentsShort>
+
+  <QRCodeButton>QR-kód</QRCodeButton>
+
+  <AnonymousLinkLimitedAccessTitle>Korlátozott hozzáférés</AnonymousLinkLimitedAccessTitle>
+  <AnonymousLinkLimitAccessCheckBox>Korlátozza a hozzáférést csak meghatározott hitelesített felhasználók</AnonymousLinkLimitAccessCheckBox>
+  <AnonymousLinkLimitAccessTextArea>Írja felhasználóneveket vagy e-mailt (vesszővel elválasztva)</AnonymousLinkLimitAccessTextArea>
+  <AnonymousLinkLimitAccessSendCheckBox>Értesítést küld a megadott felhasználók</AnonymousLinkLimitAccessSendCheckBox>
+  <AnonymousLinkLimitAccessPersMsgLabel>Személyes üzenet (opcionális)</AnonymousLinkLimitAccessPersMsgLabel>
+  <AnonymousLinkLimitAccessPassAndUsersMsg>Azt adta meg a jelszavát és a felhasználók egyidejűleg elérni a linkre. Kérjük, adja meg valamit egy.</AnonymousLinkLimitAccessPassAndUsersMsg>
+  <AnonymousLinkLimitAccessUsersNotFound>A felhasználók számára:
+    {0}
+    nem létezik</AnonymousLinkLimitAccessUsersNotFound>
+  <AnonymousLinkLimitAccessEmailsNotFound>Az e-mailek:
+    {0}
+    nem létezik</AnonymousLinkLimitAccessEmailsNotFound>
+  <AnonymousLinkLimitAccessUsersEmailsNotFound>A felhasználók számára:
+    {0}
+    és e-mailek:
+    {1}
+    nem létezik</AnonymousLinkLimitAccessUsersEmailsNotFound>
+
+  <AnonymousLinkUnableToCreate>Nem sikerült létrehozni a névtelen kapcsolat</AnonymousLinkUnableToCreate>
+  <AnonymousLinkShortUrlLabel>Kérjük, kattintson a frissítés ikonra (a jobb alsó sarokban), hogy egy rövid link</AnonymousLinkShortUrlLabel>
+  <AnonymousLinkShortUrlUpdate>Töltse le vagy frissítse a rövid link</AnonymousLinkShortUrlUpdate>
+  <AnonymousLinkLongUrlNotSpecified>A hosszú URL nincs megadva</AnonymousLinkLongUrlNotSpecified>
+
+  <ClientFileOrDirectoryAlreadyExists>A fájl vagy könyvtár ezzel a névvel már létezik</ClientFileOrDirectoryAlreadyExists>
+  <ClientPermissionsAllowTypes>Jelenlegi engedélyek lehetővé teszik a művelet csak a következő fájltípusokat {0}</ClientPermissionsAllowTypes>
+  <ClientPermissionsDenyTypes>Aktuális jogosultságokat tiltja ezt a műveletet a következő fájltípusokat {0}</ClientPermissionsDenyTypes>
+  <OfficeApplicationNotFoundAlert>Irodai alkalmazás nem található. Nyisson meg egy fájlt manuálisan egy linket mezőbe.</OfficeApplicationNotFoundAlert>
+  <OfficeAnonymousEditPublicLinkError>Nem sikerült létrehozni a nyilvános linket névtelenül open office dokumentumot.</OfficeAnonymousEditPublicLinkError>
+
+  <GoogleOWAViewLinkMessage>A dokumentum megjelenítéséhez kattintson az alábbi linkre:</GoogleOWAViewLinkMessage>
+  <ZohoEditLinkMessage>A dokumentum szerkesztéséhez click alábbi linkre:</ZohoEditLinkMessage>
+  <PixlrEditLinkMessage>A kép szerkesztéséhez kattintson az alábbi linkre:</PixlrEditLinkMessage>
+  <PixlrNewImageCreateTitle>Hozzon létre egy új képet Pixlr</PixlrNewImageCreateTitle>
+  <PixlrNewImageLinkMessage>Ahhoz, hogy hozzon létre egy új képet, kattintson az alábbi linkre:</PixlrNewImageLinkMessage>
+
+  <DownloadTitle>Letöltését több fájl</DownloadTitle>
+  <DownloadSimpleTab>Alapértelmezett</DownloadSimpleTab>
+  <DownloadJavaTab>Jáva</DownloadJavaTab>
+  <DownloadIEPrevent>Internet Explorer megakadályozza az automatikus letöltés</DownloadIEPrevent>
+  <DownloadIEClickHere>Kattints ide a letöltéshez</DownloadIEClickHere>
+  <DownloadIEArchiveReady>Archive "{0}" A kijelölt fájlok jött létre, és készen áll a letöltésre</DownloadIEArchiveReady>
+  <DownloadIECaption>Letöltés kész</DownloadIECaption>
+
+  <SettingsTitle>Beállítások</SettingsTitle>
+  <SettingsLanguage>Nyelv</SettingsLanguage>
+  <SettingsLogOutRequired>Új változtatások után alkalmazandó logout vagy böngésző újraindítása!</SettingsLogOutRequired>
+  <ThemeTitle>Theme</ThemeTitle>
+  <SettingsTheme>Válasszon téma</SettingsTheme>
+  <ThemeDefaultTitle>Alapértelmezett téma</ThemeDefaultTitle>
+  <ThemeGrayTitle>Gray téma</ThemeGrayTitle>
+  <ThemeAccessTitle>Kisegítő téma</ThemeAccessTitle>
+
+  <ChangeUserPasswordTitle>Változás felhasználói jelszó</ChangeUserPasswordTitle>
+  <ChangeUserPasswordOldPassword>Régi jelszó</ChangeUserPasswordOldPassword>
+  <ChangeUserPasswordNewPassword>Új jelszó</ChangeUserPasswordNewPassword>
+  <ChangeUserPasswordRepeatNewPassword>Ismételd meg az új jelszót</ChangeUserPasswordRepeatNewPassword>
+  <ChangeUserPasswordPasswordsNotMatch>A jelszavak nem egyeznek.</ChangeUserPasswordPasswordsNotMatch>
+  <ChangeUserPasswordSuccessMessage>A jelszó megváltozott.</ChangeUserPasswordSuccessMessage>
+  <ChangeUserPasswordInvalidMessage>Érvénytelen jelszó.</ChangeUserPasswordInvalidMessage>
+
+  <ChangeUserEmailTitle>Változás a felhasználó e-mail</ChangeUserEmailTitle>
+  <ChangeUserEmailEmail>Email</ChangeUserEmailEmail>
+  <ChangeUserEmailSuccessMessage>E-mail megváltozott.</ChangeUserEmailSuccessMessage>
+
+  <UserHelpTitle>felhasználói segítség</UserHelpTitle>
+
+  <LicenseTitle>Licenc információk</LicenseTitle>
+  <LicenseTrial>Regisztrált 30 napos próbaverzió</LicenseTrial>
+  <LicensePrompt>Licencelt verzió {0} Felhasználók száma: {1} {0} Vásárlás dátuma: {2} {0}</LicensePrompt>
+  <LicenseFreeUpgradeMessage>Még mindig van {0} nap ingyenes frissítések és támogatás.</LicenseFreeUpgradeMessage>
+  <LicenseCheckMessage>Több mint egy év telt el a vásárlás dátumát. Ahhoz, hogy használni ezt a verziót kell újítani az előfizetést vagy downgrade egy régebbi verzió. Meg tudja nézni a licenc és talál elérhető kiadványaikat &lt;a href='{0}' target='_blank'&gt; megtekintése Licenc oldalán &lt;/a&gt;</LicenseCheckMessage>
+  
+  <ViewPopupBlocked>New window van tiltva egy pop-up blokkoló</ViewPopupBlocked>
+  
+  <LoginTwoFactorTitle>Kétlépcsős ellenőrzés</LoginTwoFactorTitle>
+  <LoginTitle>Belépek</LoginTitle>
+  <LoginRemember>Emlékezz rám legközelebb</LoginRemember>
+  <LoginUISelect>Felület</LoginUISelect>
+  <LoginUIStandard>Alapértelmezett</LoginUIStandard>
+  <LoginUITouch>Mobil</LoginUITouch>
+  <LoginLanguage>Nyelv</LoginLanguage>
+  <LoginLogin>Belépek</LoginLogin>
+  <LoginFailure>A bejelentkezési kísérlet nem volt sikeres.</LoginFailure>
+  <LoginBlocked>A fiók le van tiltva. Várja {0} perc és ismét megpróbálni.</LoginBlocked>
+  <LoginNotActivated>Fiókja nincs aktiválva.</LoginNotActivated>
+  <LoginResendActivation>Ha üzenetet aktiváló kód nem érkezik meg sokáig, kattintson a {0} linket elküldeni aktivációs kódot.</LoginResendActivation>
+  <LoginResendActivationLink>Levél aktiváló kódot</LoginResendActivationLink>
+  <LoginResendActivationCode>Kattintson a {0} linket elküldeni aktivációs kódot.</LoginResendActivationCode>
+  
+  <ActivateAccountOk>Fiók sikeresen aktiválva!</ActivateAccountOk>
+  <ActivateAccountResultLabel>Az aktiválás eredményeként</ActivateAccountResultLabel>
+  <ActivateAccountErrorOnlyFormsAuth>Fiókaktiválási lehetne használni csak Forms hitelesítés</ActivateAccountErrorOnlyFormsAuth>
+  <ActivateAccountErrorNotRequired>Fiókaktiválási van tiltva az alkalmazás beállításait. Fiók automatikusan aktiválódik a regisztráció után.</ActivateAccountErrorNotRequired>
+  <ActivateAccountErrorAlreadyActivated>A fiók már aktiválva</ActivateAccountErrorAlreadyActivated>
+  <ActivateAccountErrorInvalidCode>Aktivációs kód nem érvényes</ActivateAccountErrorInvalidCode>
+  <ActivateAccountErrorAccountNotFound>Fiók nem található</ActivateAccountErrorAccountNotFound>
+  <ActivateAccountErrorLinkBroken>Az aktiválás kapcsolat megszakad</ActivateAccountErrorLinkBroken>
+  <ActivateAccountReturnToLogin>Vissza a bejelentkezési oldalra</ActivateAccountReturnToLogin>
+  
+  <LoginRender>Vakol</LoginRender>
+  
+  <LogoutTitle>Web fájlkezelő Kilépés</LogoutTitle>
+  <LogoutSessionEnded>A jelenlegi munkamenet véget ért</LogoutSessionEnded>
+  <LogoutCloseWindow>Csukd be az ablakot</LogoutCloseWindow>
+  <LogoutEnterAgain>Bejelentkezés újra</LogoutEnterAgain>
+  <LogoutClosingBrowserRequired>Figyelem! Bárki tud belépni alatt fiókjába! Ha megosztott számítógépet használ, akkor be kell zárni a böngésző ablakot (nem csak a fül), hogy egyértelmű azonosítás a böngészőben! A Firefox böngésző törölheti hitelesítést menü: Tools-&gt; Clear Resent története ...-&gt; Details-&gt; ellenőrizni Aktív Bejelentkezések-&gt; nyomja meg a Törlés gombra.</LogoutClosingBrowserRequired>
+  <RecoverPasswordTitle>Elfelejtett jelszó</RecoverPasswordTitle>
+  <RecoverPasswordEmailPassword>Küldj jelszavát e-mailben</RecoverPasswordEmailPassword>
+  <RecoverPasswordErrorInvalidUserName>Érvénytelen felhasználónév.</RecoverPasswordErrorInvalidUserName>
+  <RecoverPasswordErrorNoEmail>Ennek a felhasználónak nincs e-mail cím meghatározása.</RecoverPasswordErrorNoEmail>
+  <RecoverPasswordErrorSendEmail>Hiba történt az üzenet küldéséhez.</RecoverPasswordErrorSendEmail>
+  <RecoverPasswordSuccess>A jelszót elküldtük az e-mail címre.</RecoverPasswordSuccess>
+
+  <RecoverUserNameTitle>Recover neve</RecoverUserNameTitle>
+  <RecoverUserEmailName>Küldj név e-mailben</RecoverUserEmailName>
+  <RecoverUserNameErrorInvalidEmail>Érvénytelen felhasználói e-mail.</RecoverUserNameErrorInvalidEmail>
+  <RecoverUserNameErrorNoEmail>E-mail cím nem található.</RecoverUserNameErrorNoEmail>
+  <RecoverUserNameSuccess>Az Ön neve elküldtük az e-mail címre.</RecoverUserNameSuccess>
+
+  <ChangeEmailTitle>E-mailt változtatni</ChangeEmailTitle>
+  <ChangeEmailEmail>új Email</ChangeEmailEmail>
+  <ChangeEmailSubmit>beküldése</ChangeEmailSubmit>
+  <ChangeEmailStatusSuccess>E-mail megváltozott</ChangeEmailStatusSuccess>
+
+  <RegisterTitle>Regisztráció</RegisterTitle>
+  <RegisterEmail>Email</RegisterEmail>
+  <RegisterExtraInfo>extra info</RegisterExtraInfo>
+  <RegisterCaptcha>Írja be a szöveget látod az alábbi képen</RegisterCaptcha>
+  <RegisterSubmit>beküldése</RegisterSubmit>
+  <RegisterErrorPasswordNotMatch>A jelszavak nem egyeznek.</RegisterErrorPasswordNotMatch>
+  <RegisterErrorUserExists>Ez a felhasználó név, vagy e-mail cím már használatban van.</RegisterErrorUserExists>
+  <RegisterErrorCaptchaInvalid>Kép szöveg nem volt helyesen adta</RegisterErrorCaptchaInvalid>
+  <RegisterSuccess>Új felhasználó hozzáadása megtörtént.</RegisterSuccess>
+  <RegisterActivationSent>Aktiválási kódot elküldtük az e-mail.</RegisterActivationSent>
+  <RegisterActivationCheckEmail>Kérjük, ellenőrizze a mail box (speciálisan levélszemét mappába), és kövesse az utasításokat az e-mail.</RegisterActivationCheckEmail>
+  
+  <FolderGridUserPermissionsColumn>Hozzáférést a felhasználók számára</FolderGridUserPermissionsColumn>
+  <FolderGridGroupPermissionsColumn>Csoportok hozzáférésének</FolderGridGroupPermissionsColumn>
+
+  <LoginLinkText>Belépek</LoginLinkText>
+  <RecoverPasswordLinkText>Elfelejtette a jelszavát?</RecoverPasswordLinkText>
+  <RecoverUserNameLinkText>Elfelejtette nevét?</RecoverUserNameLinkText>
+  <RegisterLinkText>Regisztráció</RegisterLinkText>
+  <ChangeEmail>E-mailt változtatni</ChangeEmail>
+  <LoginMobileVersionLinkText>Mobil változat (A legtöbb okostelefon és touchpad)</LoginMobileVersionLinkText>
+
+  <FileIsNotZipArchive>A fájl {0} nem ZIP archívum</FileIsNotZipArchive>
+
+  <FileModificationsAuthor>Szerző</FileModificationsAuthor>
+  <FileModificationsHistory>előzmények megtekintése</FileModificationsHistory>
+  <FileModificationsWindowTitle>Módosítások fájl "{0}"</FileModificationsWindowTitle>
+  <FileModificationsTypeCreated>Alkotó</FileModificationsTypeCreated>
+  <FileModificationsTypeModified>Módosított</FileModificationsTypeModified>
+  <FileModificationsTypeRenamed>átnevezett</FileModificationsTypeRenamed>
+  <FileModificationsTypeRestored>restaurált</FileModificationsTypeRestored>
+  <FileModificationsTypeDeleted>törölve</FileModificationsTypeDeleted>
+
+  <ChangingReadOnlyProgressMessage>Megváltoztatása csak olvasható attribútumot</ChangingReadOnlyProgressMessage>
+
+  <ImageViewerWindowTitle>Image Viewer [{0}]</ImageViewerWindowTitle>
+  <ImageViewerLoadingMessage>Loading képnézegető</ImageViewerLoadingMessage>
+  <ImageViewerLoadingImageMessage>Képfeltöltés</ImageViewerLoadingImageMessage>
+  <ImageViewerFirstImageTip>első kép</ImageViewerFirstImageTip>
+  <ImageViewerPreviousImageTip>Előző kép</ImageViewerPreviousImageTip>
+  <ImageViewerRefreshTip>Frissítés képek listája</ImageViewerRefreshTip>
+  <ImageViewerNextImageTip>következő kép</ImageViewerNextImageTip>
+  <ImageViewerLastImageTip>utolsó kép</ImageViewerLastImageTip>
+  <ImageViewerRunSlideShow>Fuss képek diavetítés</ImageViewerRunSlideShow>
+  <ImageViewerStopSlideShow>Állj képek diavetítés</ImageViewerStopSlideShow>
+  <ImageViewerImageSimpleInfo>{0} / {1}, {2} ({3})</ImageViewerImageSimpleInfo>
+  <ImageViewerImageLoadErrorMessage>A kép nem található, vagy nem jelenik meg</ImageViewerImageLoadErrorMessage>
+  <ImageViewerShowImageSizeOfWindow>Kép megjelenítése valós mérete</ImageViewerShowImageSizeOfWindow>
+  <ImageViewerShowRealImageSize>kattints a kinagyításhoz</ImageViewerShowRealImageSize>
+
+  <PasswordExpiresTitle>jelszó lejár</PasswordExpiresTitle>
+  <PasswordExpiresMessage>A jelszó lejár után {0} nap (ok)!</PasswordExpiresMessage>
+  <PasswordExpiredMessage>Az Ön jelszava lejárt.</PasswordExpiredMessage>
+  <PasswordChangeMessage>A jelszó megváltoztatásához, válassza ki a {0} {1} -&gt; {2} {3} az eszköztáron.</PasswordChangeMessage>
+
+  <UnzipContentTotalFiles>Összes kép: {0} ({1})</UnzipContentTotalFiles>
+
+  <VideoConversionJobNotFound>
+    Nem sikerült megtalálni a megadott átalakítási folyamat.
+    Lehetséges okok:
+    1. konverzió befejeződött régen és információk a munkát eltávolítjuk.
+    2. Az átalakítási folyamat fejeződött.
+  </VideoConversionJobNotFound>
+  <VideoConversionUtilityNotFound>Nem sikerült találni segédprogram végrehajtani a kért műveletet: {0}</VideoConversionUtilityNotFound>
+  <!-- The current security principal "{0}" has insufficiant permissions to executable file "{1}".-->
+  <VideoConversionUtilityInsufficientPermissions>Az aktuális felhasználó "{0}" nem nyerhet hozzáférést futtatható fájl "{1}".</VideoConversionUtilityInsufficientPermissions>
+  <VideoConversionOperationCancelled>művelet leállítva</VideoConversionOperationCancelled>
+  <VideoConversionUtilityFailed>Konvertáló segédprogram fejeződött</VideoConversionUtilityFailed>
+  <VideoConversionOutputFileBusy>A kimeneti fájl által használt másik átalakítási folyamat</VideoConversionOutputFileBusy>
+
+  <VideoConvertWindowValidatorPositiveInt>Kell egy pozitív egész szám</VideoConvertWindowValidatorPositiveInt>
+  <VideoConvertWindowTitle>Videó konvertálása</VideoConvertWindowTitle>
+  <VideoConvertWindowInputFile>bemeneti fájl</VideoConvertWindowInputFile>
+  <VideoConvertWindowOutputFile>Kimeneti fájl</VideoConvertWindowOutputFile>
+  <VideoConvertWindowOutputFormat>Kimeneti formátum</VideoConvertWindowOutputFormat>
+  <VideoConvertWindowBitrate>Bitráta (kbps)</VideoConvertWindowBitrate>
+  <VideoConvertWindowFrameResolution>frame felbontás</VideoConvertWindowFrameResolution>
+  <VideoConvertWindowDAR>Kijelző képarány</VideoConvertWindowDAR>
+  <VideoConvertWindowPAR>Pixelarány</VideoConvertWindowPAR>
+  <VideoConvertWindowResize>átméretezése</VideoConvertWindowResize>
+  <VideoConvertWindowProfile>Profil</VideoConvertWindowProfile>
+  <VideoConvertWindowWidth>Szélesség</VideoConvertWindowWidth>
+  <VideoConvertWindowHeight>Magasság</VideoConvertWindowHeight>
+  <VideoConvertWindowExtractDetailsProgressMsg>Kitermelésével videó részletek</VideoConvertWindowExtractDetailsProgressMsg>
+  <VideoConvertWindowOutputFileExistsTitle>Kimeneti fájl létezik</VideoConvertWindowOutputFileExistsTitle>
+  <VideoConvertWindowOutputFileExistsMsg>A kimeneti fájl már létezik. Ez felülírja.</VideoConvertWindowOutputFileExistsMsg>
+  <VideoConvertWindowPrepareToConvert>Felkészülés a megtérít video</VideoConvertWindowPrepareToConvert>
+  <VideoConvertWindowOutputFileMatchInputFile>A kimeneti fájl neve megegyezik bemeneti fájl neve</VideoConvertWindowOutputFileMatchInputFile>
+
+  <VideoConvertProgressWindowTitle>Videó konvertálása</VideoConvertProgressWindowTitle>
+  <VideoConvertProgressWindowInputFile>bemeneti fájl</VideoConvertProgressWindowInputFile>
+  <VideoConvertProgressWindowOutputFile>Kimeneti fájl</VideoConvertProgressWindowOutputFile>
+  <VideoConvertProgressWindowStatus>Állapot</VideoConvertProgressWindowStatus>
+  <VideoConvertProgressWindowStatusTerminating>megszüntetéséről</VideoConvertProgressWindowStatusTerminating>
+  <VideoConvertProgressWindowStatusPreparing>előkészítése</VideoConvertProgressWindowStatusPreparing>
+  <VideoConvertProgressWindowStatusProgress>Lépés {0} {1}</VideoConvertProgressWindowStatusProgress>
+  <VideoConvertProgressWindowStatusDone>Kész</VideoConvertProgressWindowStatusDone>
+
+  <PlayHtml5VideoNotSupported>A böngészője nem támogatja a HTML 5 video elem.</PlayHtml5VideoNotSupported>
+  <PlayHtml5VideoPlayFailed>Videó lejátszása sikertelen</PlayHtml5VideoPlayFailed>
+  <PlayHtml5AudioPlayFailed>Játssz audio sikertelen</PlayHtml5AudioPlayFailed>
+  <PlayHtml5AudioTitle>Cím</PlayHtml5AudioTitle>
+  <PlayHtml5AudioNotSupported>A böngészője nem támogatja a HTML 5 audio elem.</PlayHtml5AudioNotSupported>
+  <PlayHtml5AudioArtist>Művész</PlayHtml5AudioArtist>
+  <PlayHtml5AudioAlbum>Album</PlayHtml5AudioAlbum>
+  <PlayHtml5AudioYear>Év</PlayHtml5AudioYear>
+  <PlayHtml5AudioDuration>Időtartam</PlayHtml5AudioDuration>
+  <PlayHtml5AudioBitrate>bitráta</PlayHtml5AudioBitrate>
+  <PlayHtml5AudioVolume>Kötet</PlayHtml5AudioVolume>
+
+  <!-- Root title -->
+  <RootTitle>gyökér</RootTitle>
+
+  <!-- Recent feature keys -->
+  <RecentRootTitle>Friss</RecentRootTitle>
+  <RecentDeleteOnePrompt>Biztos benne, hogy törli "{0}" a legutóbbi elemeket?</RecentDeleteOnePrompt>
+  <RecentDeleteManyPrompt>Biztos benne, hogy törli ezt a {0} elemeket a legutóbbi elemeket?</RecentDeleteManyPrompt>
+  <RecentPathNotExist>Az utóbbi útvonal "{0}" nem létezik, vagy a hozzáférés megtagadva</RecentPathNotExist>
+  <RecentAllWithoutGroupingTitle>Minden w / o csoportosítása</RecentAllWithoutGroupingTitle>
+  <RecentEditGroupTitle>szerkesztette</RecentEditGroupTitle>
+  <RecentViewGroupTitle>megtekintett</RecentViewGroupTitle>
+  <RecentDownloadGroupTitle>letöltve</RecentDownloadGroupTitle>
+  <RecentUploadGroupTitle>Feltöltött</RecentUploadGroupTitle>
+  <RecentCreateGroupTitle>Alkotó</RecentCreateGroupTitle>
+
+  <!-- Trash feature keys -->
+  <TrashRootTitle>Szemét</TrashRootTitle>
+  <TrashLabelDateDeleted>Dátum törölve</TrashLabelDateDeleted>
+  <TrashDeleteOnePrompt>Biztos benne, hogy véglegesen törli "{0}" a kukába?</TrashDeleteOnePrompt>
+  <TrashDeleteManyPrompt>Biztos benne, hogy véglegesen törli ezt a {0} elemeket a kukába?</TrashDeleteManyPrompt>
+  <TrashEmptyTrashLabel>Szemetes ürítése</TrashEmptyTrashLabel>
+  <TrashRestoreSelectedLabel>visszaállítás</TrashRestoreSelectedLabel>
+  <TrashRestoreAllLabel>összes visszaállítása</TrashRestoreAllLabel>
+  <TrashEmptyTrashPrompt>Biztosan ki akarja üríteni a kukába?</TrashEmptyTrashPrompt>
+  <TrashRestoreAllPrompt>Biztos, hogy vissza akarja állítani az összes elemet a kukába?</TrashRestoreAllPrompt>
+  <TrashProgressRestoring>Felépüljön a kukába</TrashProgressRestoring>
+  <TrashFolderNotFound>Kuka könyvtár nem található</TrashFolderNotFound>
+  <TrashBalloonRestored>Restaurált példány: {0} {1}</TrashBalloonRestored>
+  <TrashDeleteDirectlyLabel>Törlése nélkül közvetlenül eltávolítása a kukába</TrashDeleteDirectlyLabel>
+  <TrashUsedSpaceHint>{0} használt</TrashUsedSpaceHint>
+  <TrashLimitSizeHint>Használt {0} {1} ({2})</TrashLimitSizeHint>
+  <TrashLargeItemsShelfTimeHint>A tárolási idő az objektumok nagyobb, mint {0}: {1} nap (ok)</TrashLargeItemsShelfTimeHint>
+  <TrashSmallItemsShelfTimeHint>Az összes többi: {0} nap (ok)</TrashSmallItemsShelfTimeHint>
+  <TrashItemsShelfTimeHint>A tárolási idő az objektumok: {0} nap (ok)</TrashItemsShelfTimeHint>
+  <TrashAvailableSpaceHint>Maximális rendelkezésre álló {0}</TrashAvailableSpaceHint>
+  <TrashDeletedFromFolderHint>Törölve a {0}</TrashDeletedFromFolderHint>
+  <TrashExceededMessage>Az alábbi tárgyak túl nagy és nem található a kukába (a korlátozás a {0} túllépése):</TrashExceededMessage>
+  <TrashErrorSuffixMessage>Kérjük, próbálja meg, hogy ellenőrizze a beállítást "{0}", majd törli a fájl (ok) örökre jóvátehetetlen</TrashErrorSuffixMessage>
+
+  <!-- Shared by link -->
+  <SharedByLinkRootTitle>Linkkel megosztott</SharedByLinkRootTitle>
+
+  <!-- Shared for you -->
+  <SharedForYouRootTitle>Megosztott veled</SharedForYouRootTitle>
+  <SharedForYouUnableToGetUrl>Nem sikerült a URL</SharedForYouUnableToGetUrl>
+
+  <!-- Watch for modifications -->
+  <WatchForModifsCommand>Nézd a módosítások</WatchForModifsCommand>
+  <WatchForModifsStartCommand>elkezd nézni</WatchForModifsStartCommand>
+  <WatchForModifsEditCommand>Változás néz</WatchForModifsEditCommand>
+  <WatchForModifsStopCommand>megállítani nézni</WatchForModifsStopCommand>
+  <WatchForModifsViewChangesCommand>módosítások megtekintése</WatchForModifsViewChangesCommand>
+  <WatchForModifsSubscriptionSuccessMessage>Sikeresen feliratkozott a módosításokat "{0}"</WatchForModifsSubscriptionSuccessMessage>
+  <WatchForModifsStopSuccessMessage>A monitoring "{0}" már sikeresen letiltva</WatchForModifsStopSuccessMessage>
+  <WatchForModifsIncludingNestedLabel>Tekintsük beágyazott fájlok, mappák</WatchForModifsIncludingNestedLabel>
+  <WatchForModifsParentWatchExistMessage>A kiválasztott elem került már hozzá van rendelve a megfigyelés, hogy a szülő mappa "{0}".</WatchForModifsParentWatchExistMessage>
+  <WatchForModifsRootFolder>figyelmeztetések</WatchForModifsRootFolder>
+  <WatchForModifsStartProgressLoading>adást nézni</WatchForModifsStartProgressLoading>
+  <WatchForModifsStopProgressLoading>Terminatie néz</WatchForModifsStopProgressLoading>
+  <WatchForModifsIconHint>Bekapcsolt karóra módosítások</WatchForModifsIconHint>
+  <WatchForModifsNotifCheckBox>Értesítés a módosításokról e-mailek:</WatchForModifsNotifCheckBox>
+  <WatchForModifsWatchedUsersCheckBox>Monitor csak azok a felhasználók (hagyja üresen, ha figyelemmel kíséri az összes):</WatchForModifsWatchedUsersCheckBox>
+  <WatchForModifsIgnoreOwnerCheckBox>Figyelmen kívül hagyja a saját változások</WatchForModifsIgnoreOwnerCheckBox>
+  <WatchForModifsActionsCheckBox>Nyomon követi az összes tevékenység (vagy bizonyos tevékenységek az alábbi listából)</WatchForModifsActionsCheckBox>
+  <WatchForModifsNestedItemsWarning>Figyelem! Amikor hozzá nyomon a kiválasztott mappa, minden benne lévő fájlokat és mappákat, amelyekhez az egyes mintavételi került korábban, az ellenőrzés lesz távolítva. Szeretné folytatni?</WatchForModifsNestedItemsWarning>
+
+  <WelcomeWindowHideCheckboxLabel>Ne jelenjen meg ez a jövő fakitermelés</WelcomeWindowHideCheckboxLabel>
+
+  <LogsGridMoreInfoColumn>Több információ</LogsGridMoreInfoColumn>
+  <LogsGridDetailsTitle>Részletek</LogsGridDetailsTitle>
+  <LogsGridPhysPathColumn>fizikai útvonal</LogsGridPhysPathColumn>
+  <LogsGridIsFolderColumn>Mappát?</LogsGridIsFolderColumn>
+  <LogsGridIsPublicColumn>Nyilvános?</LogsGridIsPublicColumn>
+  <LogsGridByWebDavColumn>WebDAV?</LogsGridByWebDavColumn>
+
+  <NoCommentsYetHint>Még nincsenek hozzászólások</NoCommentsYetHint>
+  <NoHistoryYetHint>Még nincs hagyománya</NoHistoryYetHint>
+
+  <DetailsPropertyValuesCouldNotBeWritten>Nem sikerült menteni ingatlanok értéke, Mabe a fájltípust nem támogatja az ilyen lehetőséget, vagy hiba van az alkalmazás társított fájlt.</DetailsPropertyValuesCouldNotBeWritten>
+
+  <AdminCommandHelp>Segítség</AdminCommandHelp>
+  <AdminCommandAddUser>Felhasználó hozzáadása</AdminCommandAddUser>
+  <AdminCommandAddGroup>csoport hozzáadása</AdminCommandAddGroup>
+  <AdminCommandRemoveUser>Távolítsuk el a felhasználói</AdminCommandRemoveUser>
+
+  <AdminCommandSelectUsers>felhasználók hozzáadása</AdminCommandSelectUsers>
+  <AdminCommandSelectGroups>Add csoportok</AdminCommandSelectGroups>
+  <AdminCommandRemoveUsers>Távolítsuk el a felhasználók</AdminCommandRemoveUsers>
+  <AdminCommandRemoveGroups>Távolítsuk csoportok</AdminCommandRemoveGroups>
+  <AdminUsersGroups>Tagja valaminek</AdminUsersGroups>
+  <AdminSearchUserEmptyText>Írja be a felhasználó nevét</AdminSearchUserEmptyText>
+  <AdminSearchGroupEmptyText>Adja meg a csoport nevét</AdminSearchGroupEmptyText>
+  <AdminUsersGroupAlreadyExists>A csoport (ok) ezt a nevet (ek) már hozzá van adva</AdminUsersGroupAlreadyExists>
+
+  <AdminApplicationLoading>Admin panel loading</AdminApplicationLoading>
+  <AdminTitle>Adminisztráció</AdminTitle>
+  <AdminUsersEditUser>felhasználó szerkesztése</AdminUsersEditUser>
+  <AdminUsersSetUserPassword>Állítsd be a jelszót</AdminUsersSetUserPassword>
+  <AdminUsersViewGroups>csoportok megtekintése</AdminUsersViewGroups>
+  <AdminUsersViewFolders>mappák megtekintése</AdminUsersViewFolders>
+  <AdminUsersDeleteUserPrompt>Biztosan el akarja távolítani a felhasználó (k) "{0}"?</AdminUsersDeleteUserPrompt>
+  <AdminUsersDeletedUsers>{0} felhasználó (k) el kell hagyni.</AdminUsersDeletedUsers>
+  <AdminUsersUserNotFound>A felhasználó ezt a nevet nem található</AdminUsersUserNotFound>
+  <AdminUsersPropertiesTitle>felhasználói tulajdonságok</AdminUsersPropertiesTitle>
+  <AdminUsersSetPasswordTitle>Set User Password</AdminUsersSetPasswordTitle>
+  <AdminUsersGeneralInfo>Felhasználói információ</AdminUsersGeneralInfo>
+  <AdminUsersUserEmail>Email</AdminUsersUserEmail>
+  <AdminUsersEmptyName>A felhasználó neve nem lehet üres</AdminUsersEmptyName>
+  <AdminUsersEmptyPassword>A felhasználói jelszó nem lehet üres</AdminUsersEmptyPassword>
+  <AdminUsersIncorrectName>Vannak hibás szimbólumok a felhasználói név</AdminUsersIncorrectName>
+  <AdminUsersAlreadyExists>Felhasználó ezzel a névvel már létezik</AdminUsersAlreadyExists>
+  <AdminUsersEmailAlreadyExists>Felhasználó ezzel az e-mail már létezik</AdminUsersEmailAlreadyExists>
+  <AdminUsersPasswordsNotMatch>A jelszavak nem egyeznek</AdminUsersPasswordsNotMatch>
+  <AdminUsersRenameWarning>Átnevezés után a felhasználó meg kell változtatni a jelszót, különben a jelenlegi web-mappa link lesz hibás</AdminUsersRenameWarning>
+  <AdminUsersLicenseRestriction>A licenc nem teszi lehetővé, hogy több mint {0} felhasználó</AdminUsersLicenseRestriction>
+  <AdminUsersCountInfoWithLimit>Összes felhasználó: {0} ki {1}</AdminUsersCountInfoWithLimit>
+  <AdminUsersCountInfo>Összes felhasználó: {0}</AdminUsersCountInfo>
+
+  <AdminGroupsEditGroup>csoport szerkesztése</AdminGroupsEditGroup>
+  <AdminGroupsRemoveGroup>csoport törlése</AdminGroupsRemoveGroup>
+  <AdminGroupsDeleteGroupPrompt>Biztosan el akarja távolítani csoport (ok) "{0}"?</AdminGroupsDeleteGroupPrompt>
+  <AdminGroupsDeletedGroups>{0} csoport (ok) törlésre kerül.</AdminGroupsDeletedGroups>
+  <AdminGroupsGroupNotFound>A csoport ezzel neve nem található</AdminGroupsGroupNotFound>
+  <AdminGroupsViewUsers>felhasználók megtekintése</AdminGroupsViewUsers>
+  <AdminGroupsProperties>tulajdonságok</AdminGroupsProperties>
+  <AdminGroupsPropertiesTitle>Csoport tulajdonságai</AdminGroupsPropertiesTitle>
+  <AdminGroupsGeneralInfo>A csoport információk</AdminGroupsGeneralInfo>
+  <AdminGroupsUserNamePrompt>Adja meg a felhasználói nevét</AdminGroupsUserNamePrompt>
+  <AdminGroupsUsers>Csoporttagok</AdminGroupsUsers>
+  <AdminGroupsUserAlreadyExists>A felhasználó (k) ezt a nevet (ek) már hozzá van adva</AdminGroupsUserAlreadyExists>
+  <AdminGroupsEmptyName>A csoport neve nem lehet üres</AdminGroupsEmptyName>
+  <AdminGroupsIncorrectName>Vannak hibás szimbólumok a csoport nevét</AdminGroupsIncorrectName>
+  <AdminGroupsAlreadyExists>A csoport már létezik</AdminGroupsAlreadyExists>
+  <AdminGroupsCountInfo>Összes csoport: {0}</AdminGroupsCountInfo>
+
+  <AdminLanguagesTab>lokalizációban</AdminLanguagesTab>
+  <AdminLanguagesTabMessage>Szerkeszteni a lokalizációs fájlt, válassza ki a kívánt nyelvet a listában, kattintson a helyi húrok szerkeszteni. Módosítások után kattintson a "Mentés" gombra</AdminLanguagesTabMessage>
+  <AdminLangGridKeyColumn>kulcs neve</AdminLangGridKeyColumn>
+  <AdminLangGridDefaultColumn>angol</AdminLangGridDefaultColumn>
+  <AdminEnterLanguageNameTitle>Írja nyelv neve</AdminEnterLanguageNameTitle>
+  <AdminLangConfirmRefreshTitle>Frissítés megerősítik</AdminLangConfirmRefreshTitle>
+  <AdminLangConfirmRefreshMessage>Figyelem! Az adatokat nem menti. Szeretné menteni a változtatásokat most?</AdminLangConfirmRefreshMessage>
+  <AdminLangAmountInfo>Töltött billentyűk: {0} {1} (üres értékek: {2})</AdminLangAmountInfo>
+  <AdminLangSaveToCSV>Export CSV</AdminLangSaveToCSV>
+  <AdminLangLoadFromCSV>Load CSV</AdminLangLoadFromCSV>
+
+  <AdminDbMaintenanceTab>DB karbantartás</AdminDbMaintenanceTab>
+  <AdminDbMaintenanceInfoTitle>Info</AdminDbMaintenanceInfoTitle>
+  <AdminDbMaintenanceInfoPathLabel>DB fájl elérési útját</AdminDbMaintenanceInfoPathLabel>
+  <AdminDbMaintenanceInfoSizeLabel>DB fájl mérete</AdminDbMaintenanceInfoSizeLabel>
+  <AdminDbMaintenanceCompactTitle>Compact Database</AdminDbMaintenanceCompactTitle>
+  <AdminDbMaintenanceCompactNote>Annak érdekében, hogy csökkentse a méretét az adatbázis fájlt, akkor kattints az alábbi gombra. Meg kell végre a tömörítés az adatbázis időszakosan, mivel például, miután a kevés inaktív nyilvános kapcsolatok, vagy a régi napló rögzíti a DB fájl mérete nem csökken.</AdminDbMaintenanceCompactNote>
+  <AdminDbMaintenanceCompactButton>kompakt DB</AdminDbMaintenanceCompactButton>
+  <AdminDbMaintenanceCompactSuccess>DB sikeresen tömöríthető.
+Régi fájl mérete: {0}
+Új fájl mérete: {1}</AdminDbMaintenanceCompactSuccess>
+  <AdminDbMaintenanceCompactAutoNote>Azt is be az automatikus tömörítés adatbázis eltávolítása után rekordok műveletek azonban nem ajánlott, mert talán gyakrabban zár az alap, és ez növelheti időtartama néhány kérést. Figyelem! Módosítása után ez a beállítás az alkalmazás újraindul!</AdminDbMaintenanceCompactAutoNote>
+  <AdminDbMaintenanceCompactAutoCheckBox>Engedélyezi / letiltja az automatikus kompakt DB</AdminDbMaintenanceCompactAutoCheckBox>
+  <AdminDbMaintenanceCompactAutoSaveButton>Mentés</AdminDbMaintenanceCompactAutoSaveButton>
+  <AdminDbMaintenanceCompactAutoSaveSuccess>A változó a DB automatikus сompression sikeresen befejeződött. Az oldal hamarosan frissülni fog.</AdminDbMaintenanceCompactAutoSaveSuccess>
+  <AdminDbMaintenanceEnableLogLabel>Válassza DB lekérdezi naplózási szint (a Data / debug.log)</AdminDbMaintenanceEnableLogLabel>
+  <AdminDbMaintenanceSettingsSaveSuccess>DB beállítások sikeresen mentve. Az oldal újratöltődik</AdminDbMaintenanceSettingsSaveSuccess>
+  <AdminDbMaintenanceSettingsChangeNote>Figyelem! A mentés után a beállítások az alkalmazás újraindul hamarosan!</AdminDbMaintenanceSettingsChangeNote>
+  <AdminDbMaintenanceInsertIntervalLabel>Az intervallum (perc), hozzátéve események a DB. Ha 0, a behelyezés után azonnal megjelenik az eseményeket.</AdminDbMaintenanceInsertIntervalLabel>
+  <AdminDbMaintenanceAdvDbParamsTitle>Részletes DB kapcsolat paramétereit</AdminDbMaintenanceAdvDbParamsTitle>
+  <AdminDbMaintenanceStatTitle>Statisztika (függ DB log level DurationExecution)</AdminDbMaintenanceStatTitle>
+  <AdminDbMaintenanceStatDurationReadLabel>Átlagos olvasási timeout</AdminDbMaintenanceStatDurationReadLabel>
+  <AdminDbMaintenanceStatDurationWriteLabel>Átlagos írás timeout</AdminDbMaintenanceStatDurationWriteLabel>
+  <AdminDbMaintenanceStatDurationCompactLabel>Átlagos kompakt timeout</AdminDbMaintenanceStatDurationCompactLabel>
+  <AdminDbMaintenanceStatNoData>Nincs adat</AdminDbMaintenanceStatNoData>
+  <AdminDbMaintenanceStatGetButton>statisztikai adatokat gyűjteni</AdminDbMaintenanceStatGetButton>
+
+  <AdminMiscTab>Egyéb</AdminMiscTab>
+  <AdminMiscLoadADAccountsTitle>Töltsön Active Directory számlák</AdminMiscLoadADAccountsTitle>
+  <AdminMiscLoadADAccountsLoadButton>Betöltés</AdminMiscLoadADAccountsLoadButton>
+  <AdminMiscLoadADAccountsResetButton>Visszaállítás</AdminMiscLoadADAccountsResetButton>
+  <AdminMiscLoadADAccountsLdap>ldap konténer</AdminMiscLoadADAccountsLdap>
+  <AdminMiscLoadADAccountsToFile>Fájlhoz</AdminMiscLoadADAccountsToFile>
+  <AdminMiscLoadADAccountsSuccessMessage>Active Directory számlák sikeresen betöltött</AdminMiscLoadADAccountsSuccessMessage>
+  <AdminMiscLoadADAccountsInfo>Itt lehet generálni a fájl tartalmazza a teljes Active Directory felhasználók szerkezetét. Ez a fájl van szükség, ha egy statikus fájl AD info tároló. Ugyanaz a fájl hozható létre keresztül admanager segédprogramot. További információért lásd a &lt;b&gt; ADAccountsFilePath &lt;/b&gt; paraméter leírása {0} Kézi {1}.</AdminMiscLoadADAccountsInfo>
+
+  <AdminMiscManageQuotasTitle>Kezelés kvóták</AdminMiscManageQuotasTitle>
+  <AdminMiscManageQuotasInfo>Lekérdezheti a meglévő vagy új kvóta korlátozza a tér lehetővé tette a mappát, hajtott File Server Resource Manager.</AdminMiscManageQuotasInfo>
+  <AdminMiscManageQuotasFolderPath>Folder path</AdminMiscManageQuotasFolderPath>
+  <AdminMiscManageQuotasQuota>Kvóta</AdminMiscManageQuotasQuota>
+  <AdminMiscManageQuotasGetQuota>Get kvóta</AdminMiscManageQuotasGetQuota>
+  <AdminMiscManageQuotasSetQuota>megállapított kvóták</AdminMiscManageQuotasSetQuota>
+
+  <AdminMiscFoldersFromGPOLTitle>Load mappák csoportházirend</AdminMiscFoldersFromGPOLTitle>
+  <AdminMiscFoldersFromGPOLComputerName>számítógép neve</AdminMiscFoldersFromGPOLComputerName>
+  <AdminMiscFoldersFromGPOLFilePath>Fájl elérési út</AdminMiscFoldersFromGPOLFilePath>
+  <AdminMiscFoldersFromGPOLMoreInfoLink>Több információ</AdminMiscFoldersFromGPOLMoreInfoLink>
+  <AdminMiscFoldersFromGPOLResetButton>Visszaállítás</AdminMiscFoldersFromGPOLResetButton>
+  <AdminMiscFoldersFromGPOLLoadButton>Betöltés</AdminMiscFoldersFromGPOLLoadButton>
+  <AdminMiscFoldersFromGPOLFromDC>DC</AdminMiscFoldersFromGPOLFromDC>
+  <AdminMiscFoldersFromGPOLFromFile>fájlból</AdminMiscFoldersFromGPOLFromFile>
+  <AdminMiscFoldersTargetLabel>Importálásához felhasználók / csoportok körülmények ...</AdminMiscFoldersTargetLabel>
+  <AdminMiscFoldersTargetFilter>szűrő</AdminMiscFoldersTargetFilter>
+  <AdminMiscFoldersTargetPermission>engedély</AdminMiscFoldersTargetPermission>
+  <AdminMiscFoldersFromGPOLSuccessMessage>Mappák sikerült betölteni. &lt;br /&gt; Új: {0}, frissítve: {1}.</AdminMiscFoldersFromGPOLSuccessMessage>
+  <AdminMiscFoldersFromGPOLInfo>Ön tudja tölteni (vagy frissítheti) mappa listában a Group Policy meghajtóhozzárendeléseken beállításokat a Domain Controller. Az alábbi mezőben megadhatja a számítógép nevét, ahonnan a csoportházirend beállítások töltődnek (vagy ha nem üres, akkor az aktuális domain-t használjuk), vagy az utat a fájlt a leképezett meghajtók beállításait.</AdminMiscFoldersFromGPOLInfo>
+
+  <AdminAnonymFoldersTab>Anonymous mappák</AdminAnonymFoldersTab>
+  <AdminAnonymFoldersDeleteFolderPrompt>Biztos, hogy el akarja távolítani {0} kiválasztott névtelen mappa?</AdminAnonymFoldersDeleteFolderPrompt>
+  
+  <AdminAnonymFoldersDescription>Megosztott mappák / fájlok - ezek a mappák / fájlok, amelyek nem igényelnek felhasználói hitelesítés *, ez azt jelenti, hogy azok rendelkezésre állnak minden látogató * (ha van egy link). Minden felhasználó létrehozhat ilyen mappa / fájl menüből "Megosztás és rarr; Hozzon létre egy nyilvános link". Azonban megosztott mappák korlátozott lehet engedélyek: a feltöltéshez, a letöltés, a fájlok / mappák listája. Az alábbi táblázat a linkeket a megosztott mappák / fájlok a felhasználók által létrehozott. A munka az állami kapcsolatok funkció helyesen kell arról, hogy felvezetők \ Anonymousdownload.ashx a névtelen hozzáférést az IIS. Lehet ellenőrizze ezt a &lt;a target="_blank" href="{0}"&gt; Diagnostics &lt;/a&gt; oldalon. Ügyeljen arra, hogy a névtelen felhasználói fiók rendelt kezelők \ Anonymousdownload.ashx van NTFS írási / olvasási engedélyeket a megosztott mappa / fájl. &lt;br /&gt; * &amp;nbsp; &amp;ndash; &amp;nbsp; ha nem adja meg a felhasználók, melyek esetében csak engedélyezett hozzáférés.</AdminAnonymFoldersDescription>
+  <AdminAnonymFoldersLinkOwnerColumn>Tulajdonos</AdminAnonymFoldersLinkOwnerColumn>
+  <AdminAnonymFoldersEmailsColumn>E-mailek az értesítési</AdminAnonymFoldersEmailsColumn>
+  <AdminAnonymFoldersAccessForUsersColumn>Hozzáférést a felhasználók számára</AdminAnonymFoldersAccessForUsersColumn>
+  <AdminAnonymFoldersPersonalMessageColumn>Személyes üzenetet</AdminAnonymFoldersPersonalMessageColumn>
+  <AdminAnonymFoldersOverwriteOnUploadHint> (Felülírás: {0})</AdminAnonymFoldersOverwriteOnUploadHint>
+  <AdminAnonymFoldersRootPathColumn>Root útvonal</AdminAnonymFoldersRootPathColumn>
+  <AdminAnonymFoldersKeysColumn>Kulcsok</AdminAnonymFoldersKeysColumn>
+  <AdminAnonymFoldersShortColumn>rövid link</AdminAnonymFoldersShortColumn>
+  <AdminAnonymFoldersPropertiesTitle>Névtelen mappa tulajdonságait</AdminAnonymFoldersPropertiesTitle>
+  <AdminAnonymFoldersAdditionalInfo>További információ</AdminAnonymFoldersAdditionalInfo>
+  <AdminAnonymFoldersLinkLabel>Link hozzáférés</AdminAnonymFoldersLinkLabel>
+  <AdminAnonymFoldersPathNotSpecified>A fizikai útvonal nincs beállítva</AdminAnonymFoldersPathNotSpecified>
+  <AdminAnonymFoldersCreatedForColumn>Célja</AdminAnonymFoldersCreatedForColumn>
+
+  <AdminFoldersTab>mappák</AdminFoldersTab>
+  <AdminFoldersAddFolder>Add mappa</AdminFoldersAddFolder>
+  <AdminFoldersEditFolder>szerkesztés mappa</AdminFoldersEditFolder>
+  <AdminFoldersRemoveFolder>mappa eltávolítása</AdminFoldersRemoveFolder>
+  <AdminFoldersDeleteFolderPrompt>Biztos, hogy el akarja távolítani mappa "{0}"?</AdminFoldersDeleteFolderPrompt>
+  <AdminFoldersFolderNotFound>A mappa ezen a néven nem található</AdminFoldersFolderNotFound>
+  <AdminFoldersPropertiesTitle>mappa tulajdonságai</AdminFoldersPropertiesTitle>
+  <AdminFoldersGeneralInfo>Általános információ</AdminFoldersGeneralInfo>
+  <AdminFoldersFolderRemoteWarningForms>Jegyzet! Ez a mappa távolról megosztott. Ellenőrizze {0} FAQ: hogyan kell megosztani távoli mappák {1}</AdminFoldersFolderRemoteWarningForms>
+  <AdminFoldersFolderRemoteWarningWin>Jegyzet! Ez a mappa távolról megosztott. Ön tudja elrejteni egyes mappák / fájlok, ha a felhasználók nem rendelkeznek jogokkal olvasni őket. Lásd {0} FAQ: hogyan kell elrejteni a fájlokat / mappákat, hogy a felhasználó nem rendelkezik jogokkal olvasni {1}</AdminFoldersFolderRemoteWarningWin>
+  <AdminFoldersFolderPath>fizikai útvonal</AdminFoldersFolderPath>
+  <AdminFoldersLocationPath>Elhelyezkedés</AdminFoldersLocationPath>
+  <AdminFoldersFolderCreate>Mappa létrehozás</AdminFoldersFolderCreate>
+  <AdminFoldersFolderCreateProcess>mappa létrehozása</AdminFoldersFolderCreateProcess>
+  <AdminFoldersFolderCreateContainsPattern>A mappa nem hozható létre, mert tartalmaz egy mintát</AdminFoldersFolderCreateContainsPattern>
+  <AdminFoldersFolderCreateSuccessfully>A mappa "{0}" sikeresen létrejött.</AdminFoldersFolderCreateSuccessfully>
+  <AdminFoldersFolderOptional> (választható)</AdminFoldersFolderOptional>
+  <AdminFoldersFolderLimitations>korlátozások</AdminFoldersFolderLimitations>
+  <AdminFoldersFolderDescription>Leírás</AdminFoldersFolderDescription>
+  <AdminFoldersFolderQuota>Kvóta</AdminFoldersFolderQuota>
+  <AdminFoldersFolderQuotaHint>Lekérdezheti a meglévő vagy új kvóta korlátozza a tér lehetővé tette a mappát, hajtott File Server Resource Manager.</AdminFoldersFolderQuotaHint>
+  <AdminFoldersFolderQuotaMoreInfoLink>Több információ</AdminFoldersFolderQuotaMoreInfoLink>
+  <AdminFoldersPermissions>Engedélyek</AdminFoldersPermissions>
+  <AdminFoldersPermissionsFor>Engedélyek {0}</AdminFoldersPermissionsFor>
+  <AdminFoldersUsersGroups>Felhasználók és csoportok</AdminFoldersUsersGroups>
+  <AdminFoldersAccessControl>Hozzáférés-szabályozás</AdminFoldersAccessControl>
+  <AdminFoldersCreate>Teremt</AdminFoldersCreate>
+  <AdminFoldersDelete>Töröl</AdminFoldersDelete>
+  <AdminFoldersRename>átnevezése</AdminFoldersRename>
+  <AdminFoldersUpload>Feltöltés</AdminFoldersUpload>
+  <AdminFoldersDownload>Letöltés</AdminFoldersDownload>
+  <AdminFoldersZipDownload>Tömörítés és letöltés</AdminFoldersZipDownload>
+  <AdminFoldersZip>Postai irányítószám</AdminFoldersZip>
+  <AdminFoldersUnzip>kicsomagolni</AdminFoldersUnzip>
+  <AdminFoldersCut>Vágott</AdminFoldersCut>
+  <AdminFoldersCopy>Másolat</AdminFoldersCopy>
+  <AdminFoldersListFiles>fájlok megjelenítése</AdminFoldersListFiles>
+  <AdminFoldersListFolders>mutatása mappák</AdminFoldersListFolders>
+  <AdminFoldersModify>Módosít</AdminFoldersModify>
+  <AdminFoldersBulkMailing>Tömeges levelezési</AdminFoldersBulkMailing>
+  <AdminFoldersAnonymViewContent>Fájl lista keresztül nyilvános kapcsolat</AdminFoldersAnonymViewContent>
+  <AdminFoldersAnonymDownload>Töltse keresztül nyilvános kapcsolat</AdminFoldersAnonymDownload>
+  <AdminFoldersAnonymUpload>Feltöltése az állami kapcsolat</AdminFoldersAnonymUpload>
+  <AdminFoldersWatch>Néz</AdminFoldersWatch>
+  <AdminFoldersDescription>Felveheti mappák manuálisan vagy átalakítani a meglévő mappák használata esetén meghajtók Group politikát. További info a {0} {1} Súgó.</AdminFoldersDescription>
+
+  <AdminFoldersPermissionsForRegex>Ön is használja a reguláris kifejezést. Kérjük, írja be: &lt;b&gt; {0} &lt;/b&gt; az elején a fenti mezőbe, majd szabályos kifejezést, például:</AdminFoldersPermissionsForRegex>
+  <AdminFoldersPermissionsForRegexUsers>{0} (hozzáférést biztosít minden felhasználó) &lt;br /&gt; {1} (ez szabályos kifejezés azt jelenti, két felhasználó: jgipsz és Mike)</AdminFoldersPermissionsForRegexUsers>
+  <AdminFoldersPermissionsForRegexGroups>{0} (hozzáférést biztosít bármely csoportban) &lt;br /&gt; {1} (ez szabályos kifejezés azt jelenti, minden csoport "diákok" a nevüket)</AdminFoldersPermissionsForRegexGroups>
+
+  <AdminFoldersListRestrictions>Korlátozások a kijelző</AdminFoldersListRestrictions>
+  <AdminFoldersCreateRestrictions>Korlátozások a fájl létrehozása</AdminFoldersCreateRestrictions>
+  <AdminFoldersRestrictionAllow>Lehetővé teszi</AdminFoldersRestrictionAllow>
+  <AdminFoldersRestrictionDeny>Tagadni</AdminFoldersRestrictionDeny>
+  <AdminFoldersRestrictionExtensions>Extensions</AdminFoldersRestrictionExtensions>
+  <AdminFoldersUserNamePrompt>Adja meg a felhasználói nevét</AdminFoldersUserNamePrompt>
+  <AdminFoldersUserNameEmptyText>Select felhasználónév</AdminFoldersUserNameEmptyText>
+  <AdminFoldersUserNameNotSelected>Ki kell választani egy felhasználói nevet</AdminFoldersUserNameNotSelected>
+  <AdminFoldersUserAlreadyExists>Ez a felhasználó már hozzá van rendelve a mappát</AdminFoldersUserAlreadyExists>
+  <AdminFoldersGroupNamePrompt>Adja meg a csoport nevét</AdminFoldersGroupNamePrompt>
+  <AdminFoldersGroupNameEmptyText>Select csoport neve</AdminFoldersGroupNameEmptyText>
+  <AdminFoldersGroupNameNotSelected>Ki kell választani a csoport nevét</AdminFoldersGroupNameNotSelected>
+  <AdminFoldersGroupAlreadyExists>Ez a csoport már hozzá van rendelve a mappát</AdminFoldersGroupAlreadyExists>
+  <AdminFoldersEmptyName>A mappa neve nem lehet üres</AdminFoldersEmptyName>
+  <AdminFoldersEmptyPath>Folder path nem lehet üres</AdminFoldersEmptyPath>
+  <AdminFoldersIncorrectName>Vannak hibás szimbólumok a mappák nevét</AdminFoldersIncorrectName>
+  <AdminFoldersAlreadyExists>A mappa ezzel nevét és helyét már létezik</AdminFoldersAlreadyExists>
+  <AdminFoldersSharesButton>meglévő részvények</AdminFoldersSharesButton>
+  <AdminFoldersTestAccessButton>Test hozzáférés</AdminFoldersTestAccessButton>
+  <AdminFoldersTestIndexingButton>Test indexelés</AdminFoldersTestIndexingButton>
+  <AdminFoldersShareNameTitle>meglévő részvények</AdminFoldersShareNameTitle>
+  <AdminFoldersShareNameEmptyText>Select részvény</AdminFoldersShareNameEmptyText>
+  <AdminFoldersShareNameNotSelected>Ki kell választani megosztás</AdminFoldersShareNameNotSelected>
+  <AdminFoldersGetQuotaButton>Get kvóta</AdminFoldersGetQuotaButton>
+  <AdminFoldersSetQuotaButton>megállapított kvóták</AdminFoldersSetQuotaButton>
+  <AdminCommonFilterField>Szűrő</AdminCommonFilterField>
+  <AdminCommonValidateField>Érvényesít</AdminCommonValidateField>
+  <AdminFoldersRootNameUsed>Kérjük, használjon másik nevet a mappa helyett a "{0}"</AdminFoldersRootNameUsed>
+  <AdminFoldersFolderFilterSuccess>Érvényesítése a szűrő sikeresen megtörtént</AdminFoldersFolderFilterSuccess>
+
+  <AdminTestAccessGoodResult>A mappa "{0}" létezik és olvasható.</AdminTestAccessGoodResult>
+  <AdminTestAccessBadResult>A mappa "{0}" nem létezik, vagy nincs NTFS olvasási engedélyekkel, vagy nincs hálózati hozzáférés az alkalmazás azonosítók!</AdminTestAccessBadResult>
+  <AdminTestAccessErrorResult>Hiba ellenőrzése hozzáférés mappa "{0}": {1}</AdminTestAccessErrorResult>
+  <AdminTestIndexingErrorResult>Hiba ellenőrzése indexelés mappa "{0}":
+{1}</AdminTestIndexingErrorResult>
+  <AdminTestIndexingYesResult>A könyvtár "{0}" indexelt</AdminTestIndexingYesResult>
+  <AdminTestIndexingNoResult>A könyvtár "{0}" nem indexelt</AdminTestIndexingNoResult>
+  <AdminTestIndexingUnknownResult>Nem lehet meghatározni, ha a könyvtár "{0}" indexelt.</AdminTestIndexingUnknownResult>
+  <AdminTestIndexingAddIfNotIndexed>Szeretné felvenni ezt a mappát az indexelés, ha már indexelt még?</AdminTestIndexingAddIfNotIndexed>
+  <ProgressTestAccess>Ellenőrzés hozzáférés</ProgressTestAccess>
+  <ProgressTestIndexing>Ellenőrzés indexelés</ProgressTestIndexing>
+  <AdminHowToIndexingLocationLink>Annak érdekében, hogy index egy mappát, lásd a Súgó {0}</AdminHowToIndexingLocationLink>
+
+  <AdminUsersListAll>Minden felhasználó</AdminUsersListAll>
+  <AdminUsersListDACL>Felhasználók ACL</AdminUsersListDACL>
+  <AdminGroupsListAll>minden csoport</AdminGroupsListAll>
+  <AdminGroupsListDACL>Csoportok ACL</AdminGroupsListDACL>
+  <AdminDACLStringLabel>ACL engedélyeit</AdminDACLStringLabel>
+
+  <AdminCommonCustomField>Egyéni mező</AdminCommonCustomField>
+  <AdminCommonSettingsChangeWarning>A változások akkor lépnek életbe, miután újra bejelentkezés után (vagy az alkalmazás újraindítása WebDAV hozzáférés).</AdminCommonSettingsChangeWarning>
+
+  <AdminCommonAllowedFoldersPathsTitle>Engedélyezett mappa utak</AdminCommonAllowedFoldersPathsTitle>
+  <AdminCommonNotAllowedFolderPath>Hozhat létre hozzáférést csak ezeket a mappákat vagy almappákat: {0}</AdminCommonNotAllowedFolderPath>
+
+  <AdminLogsTab>Bejelentkezés</AdminLogsTab>
+
+  <AdminSettingsTab>Beállítások</AdminSettingsTab>
+
+  <AdminLogsErrorsTab>hibák naplózása</AdminLogsErrorsTab>
+  <AdminLogsErrorsClearBtn>Egyértelmű</AdminLogsErrorsClearBtn>
+  <AdminLogsErrorsClearUsersCountExceededBtn>A tárolt hibákat felhasználók meghaladó mennyiségi korlát</AdminLogsErrorsClearUsersCountExceededBtn>
+
+  <AdminFoldersCreateHint>Engedélyezés / tiltás akciókra menü "Új": új fájlt, új mappa, új arculat, új dokumentum fájlok.</AdminFoldersCreateHint>
+  <AdminFoldersDeleteHint>Engedélyezés / tiltás törlése a meglévő fájlokat és mappákat</AdminFoldersDeleteHint>
+  <AdminFoldersRenameHint>Engedélyezés / tiltás átnevezés meglévő fájlokat és mappákat</AdminFoldersRenameHint>
+  <AdminFoldersUploadHint>Engedélyezés / tiltás a fájlok feltöltése funkció (feltöltése gombra az eszköztáron)</AdminFoldersUploadHint>
+  <AdminFoldersDownloadHint>Allow / Deny "download", "view / edit", letölthető felhő raktárak, stb akciók</AdminFoldersDownloadHint>
+  <AdminFoldersZipDownloadHint>Engedélyezés / tiltás "tömöríteni és letölthető" akció</AdminFoldersZipDownloadHint>
+  <AdminFoldersZipHint>Engedélyezés / tiltás "Compress egy zip archívum" akció</AdminFoldersZipHint>
+  <AdminFoldersUnzipHint>Engedélyezés / tiltás "Kivonat az aktuális mappa", "Kivonat egy új mappát" és a "Zip tartalma" akciók</AdminFoldersUnzipHint>
+  <AdminFoldersCutHint>Engedélyezés / tiltás vágott meglévő fájlokat és mappákat akció</AdminFoldersCutHint>
+  <AdminFoldersCopyHint>Engedélyezés / tiltás másolatot a meglévő fájlokat és mappákat akció</AdminFoldersCopyHint>
+  <AdminFoldersListFilesHint>Engedélyezés / tiltás lista fájlok</AdminFoldersListFilesHint>
+  <AdminFoldersListFoldersHint>Engedélyezés / tiltás hirdetést mappák</AdminFoldersListFoldersHint>
+  <AdminFoldersModifyHint>Engedélyezés / tiltás módosítsanak fájlokat (Minden intézkedésnek, amelyek módosíthatják a meglévő fájl tartalma)</AdminFoldersModifyHint>
+  <AdminFoldersBulkMailingHint>Engedélyezés / tiltás tömeges levelező csoportok</AdminFoldersBulkMailingHint>
+  <AdminFoldersAnonymViewContentHint>Engedélyezés / tiltás fájlok listáját a névtelen felhasználók (a nyilvános hivatkozások)</AdminFoldersAnonymViewContentHint>
+  <AdminFoldersAnonymDownloadHint>Engedélyezés / tiltás fájlokat letölteni a névtelen felhasználók (a nyilvános hivatkozások)</AdminFoldersAnonymDownloadHint>
+  <AdminFoldersAnonymUploadHint>Engedélyezés / tiltás fájlokat feltölteni a névtelen felhasználók (a nyilvános hivatkozások)</AdminFoldersAnonymUploadHint>
+  <AdminFoldersWatchHint>Engedélyezés / tiltás felhasználók a változások nyomon követését a mappában a többi felhasználó által (ez alkalmazható, ha UI / AllowUsersmonitorModifications = true)</AdminFoldersWatchHint>
+  <AdminFoldersListRestrictionsHint>Ez az opció vezérli fájl listához. Kattintson a "Deny" rádió gombot, hogy elrejtse fájlokat megadott kiterjesztések. Helyezze tiltott kiterjesztések elválasztva őket vesszővel (például "EXE, BAT, COM"). Állítsa be a "Allow" rádiógombot, majd helyezze kiterjesztések a fájlok jelennek meg (például "DOC, PDF, JPG").</AdminFoldersListRestrictionsHint>
+  <AdminFoldersCreateRestrictionsHint>Ez a funkció hasonlít a "List korlátozások", de ez vezérli a fájlok feltöltését, zip-kitermelés, az új fájlok létrehozásakor. Akkor tiltják, vagy lehetővé teszik feltöltése megadott fájlokat.</AdminFoldersCreateRestrictionsHint>
+  <AdminFoldersGeneralInfoHint>Írja létező mappa elérési útját és álnév. Kattintson a Súgó gombra alján a további infókért.</AdminFoldersGeneralInfoHint>
+  <AdminFoldersUsersGroupsHint>Válassza ki vagy írja felhasználók és csoportok megosztani mappát a számukra. Kattintson a Súgó gombra alján a további infókért.</AdminFoldersUsersGroupsHint>
+
+  <AdminUserFoldersButtonTitle>Test részvények listája</AdminUserFoldersButtonTitle>
+  <AdminUserFoldersWindowTitle>felhasználói mappák</AdminUserFoldersWindowTitle>
+  <AdminUserFoldersLabel>Mappa lista a felhasználó számára '{0}':</AdminUserFoldersLabel>
+  
+  <AdminPermissionsTab>admin jogosultságok</AdminPermissionsTab>
+  <AdminPermissionsPrivilege>Kiváltság</AdminPermissionsPrivilege>
+  <AdminPermissionsEditButton>edit jogosultsággal</AdminPermissionsEditButton>
+  <AdminPermissionsModifySettingsTitle>beállítások módosítására</AdminPermissionsModifySettingsTitle>
+  <AdminPermissionsModifyFoldersTitle>módosítani mappák</AdminPermissionsModifyFoldersTitle>
+  <AdminPermissionsModifyAnonymFoldersTitle>Módosítani nyilvános mappák</AdminPermissionsModifyAnonymFoldersTitle>
+  <AdminPermissionsModifyAccountsTitle>módosítani számlák</AdminPermissionsModifyAccountsTitle>
+  <AdminPermissionsViewDiagnosticsTitle>Részletek "Diagnostics" oldalon</AdminPermissionsViewDiagnosticsTitle>
+  <AdminPermissionsViewLogTitle>Napló megtekintése</AdminPermissionsViewLogTitle>
+  <AdminPermissionsViewErrorsLogTitle>A hibákat log</AdminPermissionsViewErrorsLogTitle>
+  <AdminPermissionsModifyLocalizationsTitle>módosítani lokalizációban</AdminPermissionsModifyLocalizationsTitle>
+  <AdminPermissionsFolderPathTitle>Folder path</AdminPermissionsFolderPathTitle>
+  <AdminPermissionsFoldersTitle>admin mappák</AdminPermissionsFoldersTitle>
+  <AdminPermissionsPrivilegeHint>Set felhasználók / csoportok számára, amelyek "{0}" kiváltsága lesz megengedett</AdminPermissionsPrivilegeHint>
+  <AdminPermissionsFolderTitle>Admin mappa tulajdonságait</AdminPermissionsFolderTitle>
+  <AdminPermissionsFolderFieldTitle>Folder path</AdminPermissionsFolderFieldTitle>
+  <AdminPermissionsFolderHint>Info admin mappák</AdminPermissionsFolderHint>
+  <AdminPermissionsFolderEmptyAccounts>Az egyes felhasználók és / vagy csoportok</AdminPermissionsFolderEmptyAccounts>
+  <AdminPermissionsFolderAlreadyExists>Mappa ezen a helyen már létezik</AdminPermissionsFolderAlreadyExists>
+  <AdminPermissionsFolderNotFound>Mappa ezen a helyen nem található</AdminPermissionsFolderNotFound>
+  <AdminPermissionsAllowedFoldersMessage>Létrehozhat / update / kezelni a hozzáférést csak ezeket a mappákat vagy almappákat: {0}</AdminPermissionsAllowedFoldersMessage>
+
+  <AdminUsersCountExceededWarn>Legnagyobb mennyiségben a felhasználók túllépik. A jelenlegi engedély lehetővé teszi egyetlen {0} felhasználó bejelentkezési. További info nyitott "{1}" fülre, és keresse "{2}" kivétel (ek). Elrejteni ezt az értesítést világos naplórekordokat a "{1}" fülre.</AdminUsersCountExceededWarn>
+
+  <AdminNewVersionAvailableTitle>Új verzió elérhető!</AdminNewVersionAvailableTitle>
+  <AdminNewVersionAvailableInfo>Jelenlegi verzió: {0} &lt;br /&gt; egy újabb változata: {1}</AdminNewVersionAvailableInfo>
+  
+  <SettingsGridDescriptionInfo>Leírás</SettingsGridDescriptionInfo>
+  <SettingsGridFormatInfo>értékformátum</SettingsGridFormatInfo>
+  <SettingsGridDefaultValueInfo>Alapértelmezett érték</SettingsGridDefaultValueInfo>
+  <SettingsGridMoreInfo>Több információ</SettingsGridMoreInfo>
+  <SettingsGridRestoreDefault>Alapértelmezett visszaállítása</SettingsGridRestoreDefault>
+
+  <SettingsFormatBoolean>logikai érték</SettingsFormatBoolean>
+  <SettingsFormatWholeNumber>Egész szám</SettingsFormatWholeNumber>
+  <SettingsFormatRealNumber>Valós szám</SettingsFormatRealNumber>
+  <SettingsFormatString>Húr</SettingsFormatString>
+  <SettingsFormatEnum>Bármely értékével</SettingsFormatEnum>
+  <SettingsFormatSet>Vesszővel elválasztott listája ismétlések nélkül az értékek</SettingsFormatSet>
+  <SettingsFormatArray>Vesszővel elválasztott listája húrok</SettingsFormatArray>
+  <SettingsFormatToolbarButtons>. (Value "{0}" lehet ismételni többször is, de nem egy sorban. Miután minden nevet, majd egy kettőspont, akkor lehet adni egy használt módszerek jelenítheti meg a gombot: {1})</SettingsFormatToolbarButtons>
+
+  <AdminSettingsSave>Beállítások mentése</AdminSettingsSave>
+  <AdminToggleHiddenParams>{0} speciális paraméterek</AdminToggleHiddenParams>
+  <AdminHintHiddenParams>További paraméterek, amelyek kizárólag a finomabb beállításokat és a legtöbb esetben csak ritkán szükséges</AdminHintHiddenParams>
+  <AdminShowHiddenParams>Előadás</AdminShowHiddenParams>
+  <AdminHideHiddenParams>Elrejt</AdminHideHiddenParams>
+
+  <SettingsDenyAuthModeChange>Automatikus hitelesítési mód váltó nem támogatott. Lásd {0} az utasításokat, hogy megváltoztassák a hitelesítési módot.</SettingsDenyAuthModeChange>
+  <SettingsApplicationRestartedMsg>alkalmazás újraindítása</SettingsApplicationRestartedMsg>
+  <SettingsSettingsSavedMsg>A beállítások elmentve</SettingsSettingsSavedMsg>
+  <SettingsSettingsSaveFailedAppMsg>Nem lehet menteni a konfigurációs fájlokat. Ellenőrizze írási NTFS-engedélyek a web.config és HttpCommanderSettings.config fájlokat a webalkalmazás gyökér mappa {0} felhasználó {1}. Hibaüzenet: {2}.</SettingsSettingsSaveFailedAppMsg>
+  <SettingsSettingsSaveFailedTempMsg>Nem lehet menteni a konfigurációs fájlokat. Engedélyeinek ellenőrzése ideiglenes mappa {0} felhasználó {1}. Hibaüzenet: {2}.</SettingsSettingsSaveFailedTempMsg>
+  <SettingsSettingsReadFailedAppMsg>Nem lehet olvasni a konfigurációs fájlok. Ellenőrizze olvasni az NTFS jogosultságokat a web.config és HttpCommanderSettings.config fájlokat a webalkalmazás gyökér mappa {0} felhasználó {1}. Hibaüzenet: {2}.</SettingsSettingsReadFailedAppMsg>
+  <SettingsSettingsReadFailedTempMsg>Nem lehet olvasni a konfigurációs fájlok az ideiglenes mappába. Engedélyeinek ellenőrzése ideiglenes mappa {0} felhasználó {1}. Hibaüzenet: {2}.</SettingsSettingsReadFailedTempMsg>
+  <SettingsSettingsConfigChangedOutside>A HttpCommander konfigurációs fájl megváltozott egy másik program. Esetleg Ön által módosított kézzel egy szövegszerkesztővel. Az alkalmazás betöltődik az új konfigurációs fájlt. Minden változás kapcsolatos HttpCommander konfigurációt tettél a webes felületen keresztül elvesznek. Meg kell ismételni őket, majd próbálja menteni újra. Javasoljuk ellen szerkesztés konfigurációs fájlokat kézzel, amíg az alkalmazás fut. Ellenkező esetben újra kell indítani az alkalmazás módosítása után konfigurációs fájlokat. Hibaüzenet: {0}.</SettingsSettingsConfigChangedOutside>
+  <SettingsSettingsSaveNotif>Ne felejtsd el menteni a beállításokat változásokat!</SettingsSettingsSaveNotif>
+  
+  <SettingsEmailNotifTitle>Értesítések e-mailben</SettingsEmailNotifTitle>
+  <SettingsEmailNotifApplyBtn>Mentse mail beállítások</SettingsEmailNotifApplyBtn>
+  <SettingsEmailNotifResetBtn>Visszaállítás</SettingsEmailNotifResetBtn>
+  <SettingsEmailNotifEventsLabel>rendezvényekre</SettingsEmailNotifEventsLabel>
+  <SettingsEmailNotifWhenLabel>Elküld</SettingsEmailNotifWhenLabel>
+  <SettingsEmailNotifEmailsLabel>e-mailek</SettingsEmailNotifEmailsLabel>
+  <SettingsEmailNotifPathsLabel>Paths</SettingsEmailNotifPathsLabel>
+  
+  <LogsErrorsGridUrlColumn>url</LogsErrorsGridUrlColumn>
+  <LogsErrorsGridMsgColumn>Üzenet</LogsErrorsGridMsgColumn>
+  <LogsErrorsGridMoreInfoColumn>Több információ</LogsErrorsGridMoreInfoColumn>
+  <LogsErrorsGridDetailsTitle>Részletek</LogsErrorsGridDetailsTitle>
+  
+  <FsrmUnableLoadLibraryLocal>Nem sikerült csatlakozni a File Server Resource Manager helyi gépen.</FsrmUnableLoadLibraryLocal>
+  <FsrmUnableLoadLibraryRemote>Nem sikerült csatlakozni a File Server Resource Manager "{0}" host.</FsrmUnableLoadLibraryRemote>
+  <FsrmNotInstalled>File Server Resource Manager nincs telepítve "{0}".</FsrmNotInstalled>
+  <FsrmNotInstalledEitherEnd>File Server Resource Manager nincs telepítve akár helyi gépen vagy "{0}".</FsrmNotInstalledEitherEnd>
+  <FsrmQuotaNotSpecified>Kvóta nincs megadva.</FsrmQuotaNotSpecified>
+  <FsrmUnableGetQuota>Nem sikerült a korlátot.</FsrmUnableGetQuota>
+  <FsrmUnableSetQuota>Nem lehet beállítani korlátot.</FsrmUnableSetQuota>
+  <FsrmQuotaSetMsg>Kvótát állapítottak meg.</FsrmQuotaSetMsg>
+  <FsrmInvalidQuotaValueMsg>Érvénytelen kvóta értékét.</FsrmInvalidQuotaValueMsg>
+
+  <CommandBuyNow>Vásárolj most</CommandBuyNow>
+
+  <AdminUpdateTab>frissítés</AdminUpdateTab>
+  <AdminUpdateManual>Kézi frissítés</AdminUpdateManual>
+  <AdminUpdateAuto>automatizált frissítés</AdminUpdateAuto>
+  <AdminUpdateStartButton>Frissítés indítása/biztonsági másolat készítése</AdminUpdateStartButton>
+  <AdminUpdateFinishButton>Befejezés Frissítés / Restore Backup</AdminUpdateFinishButton>
+  <AdminUpdateBackupButton>biztonsági mentés</AdminUpdateBackupButton>
+  <AdminUpdateDownloadNewButton>Új verzió letöltése</AdminUpdateDownloadNewButton>
+  <AdminUpdateStepTitle>Lépés {0} {1} {2}</AdminUpdateStepTitle>
+  <AdminUpdateStepInfo>Lépés {0} {1}</AdminUpdateStepInfo>
+  <AdminUpdateNumberSymbol>#</AdminUpdateNumberSymbol>
+  <AdminUpdateBackupContent>Kérjük, nyomja meg a "{0}" hozzanak létre egy biztonsági másolatot a mappát a kérelmet, és kapok egy linket a letöltéshez</AdminUpdateBackupContent>
+  <AdminUpdateDownloadBackupLinkHint>Kérjük, töltse le egy biztonsági másolatot a kérelem az alábbi link segítségével:</AdminUpdateDownloadBackupLinkHint>
+  <AdminUpdateDownloadNewContent>Ezután töltse le az új verziót az alábbi link segítségével, és kövesse a {0} telepítési {1} és {2} {1} frissítse utasításokat annak érdekében, hogy telepíteni az új verziót. A telepítés után nyissa meg az admin felületen, a megfelelő lapon "{3}", és nyomja meg a "{4}" annak érdekében, hogy a telepítés befejezéséhez.</AdminUpdateDownloadNewContent>
+  <AdminUpdateUploadButton>Tölts fel egy biztonsági másolatot, és alkalmazza a beállításokat</AdminUpdateUploadButton>
+  <AdminUpdateUploadAndInstallButton>Tegyen be egy új változat megtartja a beállításokat</AdminUpdateUploadAndInstallButton>
+  <AdminUpdateUploadEmptyText>Kérjük, válasszon egy biztonsági másolatot a feltöltéshez</AdminUpdateUploadEmptyText>
+  <AdminUpdateFinishContent>Annak érdekében, hogy visszaállítsa a beállításokat az előző verzió, kérjük kiválasztani és feltölteni egy korábban létrehozott archívumból az alkalmazás mappát</AdminUpdateFinishContent>
+  <AdminUpdateFinishMessage>Gratulálok! Az összes beállítás sikeresen alkalmazták. Továbbá kérjük, alkalmazza az összes elvégzett módosítások más fájlokat, például Default.aspx vagy Global.asax.</AdminUpdateFinishMessage>
+  <AdminUpdateFinishRefreshPage>Az oldal újratöltődik</AdminUpdateFinishRefreshPage>
+  <AdminUpdateMainInfo>Ez a fajta korszerűsítés részben automatizált. Lehet létrehozni és letölteni a backup fájlt az alkalmazás konfigurációs beállításokat, és visszaállítása után a korszerűsítés. Kérjük, kövesse az alábbi rövid lépés: hozzon létre egy biztonsági másolatot, hajtsa végre a manuális frissítés, állítsa vissza a beállításokat a backup fájlt. Ez az eljárás is lehet használni, hogy biztonsági mentés / visszaállítás a beállításokat frissítés nélkül. Egyszerűen lépjen ki a korszerűsítés lépést visszaállítani a beállításokat a backup fájlt.</AdminUpdateMainInfo>
+  <AdminUpdateAutoButton>kocsi</AdminUpdateAutoButton>
+  <AdminUpdateAutoInfo>Ez a fajta korszerűsítés szinte teljesen automatizált. Ez áll 2 lépésben: biztonsági másolatot az aktuális beállításokat (le kell tölteni, és biztonsági másolatot), telepítés egy új verziót, és helyreállítása a beállításokat a backup fájlt. HTTP Commander automatikusan letölti a legújabb verziót és telepíteni, vagy megadhatja az elérési utat a zip archívumba új verzió a kiszolgálón. Minden beállítás automatikusan visszaáll a korábban létrehozott biztonsági másolat fájl.</AdminUpdateAutoInfo>
+  <AdminUpdateRestoreWebConfigCheckBox>Állítsa vissza a beállításokat a Web.config (például, például SMTP)</AdminUpdateRestoreWebConfigCheckBox>
+  <AdminUpdateBackupAssignedFoldersInRootMessage>Figyelem! Vannak felhasználói mappákat a könyvtár az alkalmazás, amelyek teljes mérete több mint {0}. A mentés nem kerül sor. Kérjük, készítsen biztonsági másolatot ezeket a könyvtárakat, távolítsa el őket az alkalmazás könyvtárához, és próbálja újra a műveletet az Ön oldalán.</AdminUpdateBackupAssignedFoldersInRootMessage>
+  <AdminUpdateNeedRefreshPageForContinue>Figyelem! Ahhoz, hogy továbbra is szükség van az oldal újratöltődik. Kérjük, nyomja meg a "{0}". Újratöltés után ismételje meg a műveletet.</AdminUpdateNeedRefreshPageForContinue>
+  <AdminUpdateRestoreFromBackupEmpty>Vagy ha nincs kiválasztva, akkor használja az újonnan létrehozott fájlt az előző lépésben</AdminUpdateRestoreFromBackupEmpty>
+  <AdminUpdateInstallZipPathHint>Frissítésében kérjük, adja meg a teljes fizikai útvonal a telepítő fájl (a szerveren) az első mezőben, vagy hagyja üresen, hogy használja az online forgalmazás</AdminUpdateInstallZipPathHint>
+  <AdminUpdateInstallZipPathEmpty>Adja útvonalát archiválni a telepíteni</AdminUpdateInstallZipPathEmpty>
+  <AdminUpdateProgress>frissítése</AdminUpdateProgress>
+  <AdminUpdateAccessDeniedWarning>&lt;b&gt; Figyelem! &lt;/b&gt; A frissítésével állítsa be a Modify (olvasás és írás) NTFS jogosultsággal {0} felhasználó mappa HTTP Commander {1}, és ismételje meg a korszerűsítés. &lt;br /&gt; Miután a sikeres frissítés kérem visszaállítani a korábbi jogokat.</AdminUpdateAccessDeniedWarning>
+  <AdminUpdateAccessDeniedWarningCurentUser>jelenlegi</AdminUpdateAccessDeniedWarningCurentUser>
+
+  <ServerExceedsMaxSizeForEditAsTextFile>A fájl mérete meghaladja a maximális méretet szerkeszteni, mint egy szöveges fájlt.</ServerExceedsMaxSizeForEditAsTextFile>
+  <ServerDemoMode>Az adott tevékenységre tilos a demo módban</ServerDemoMode>
+  <ServerHostedMode>Nem szabad megváltoztatni értékeit alábbi beállításokat házigazdája próbaverziója: {0}.</ServerHostedMode>
+  <ServerIncorrectImageContentType>A fájl MIME-típus nem egy kép</ServerIncorrectImageContentType>
+  <ServerPermissionDenied>Ez a művelet elutasították, mert a korlátozott jogosultságokat</ServerPermissionDenied>
+  <ServerRestoreFromTrashNoParentFolder>helyreállítása nem sikerült, mert a szülő könyvtár "{0}" már nem található. Kérjük, hozzon létre, és próbálja újra.</ServerRestoreFromTrashNoParentFolder>
+  <ServerModifyPermissionDenied>Ez a művelet elutasították, mert nem rendelkezik engedéllyel a fájl módosításához</ServerModifyPermissionDenied>
+  <ServerPathNotFound>Elérési út nem található.</ServerPathNotFound>
+  <ServerInvalidPath>Path "{0}" nem érvényes</ServerInvalidPath>
+  <ServerInvalidAbsolutePath>Érvénytelen abszolút elérési út "{0}"</ServerInvalidAbsolutePath>
+  <!-- share folder path: \\server\share -->
+  <ServerInvalidShareFolderPath>Érvénytelen megosztott mappa elérési útját "{0}"</ServerInvalidShareFolderPath>
+  <ServerInvalidUncPath>Érvénytelen UNC path "{0}"</ServerInvalidUncPath>
+  <ServerUnableResolveUncPath>Nem sikerült feloldani UNC path "{0}"</ServerUnableResolveUncPath>
+  <ServerInvalidFileName>A fájl / mappa neve nincs megadva, vagy a helytelen karakter {0}</ServerInvalidFileName>
+  <ServerFilePathNotFound>A fájl nem létezik</ServerFilePathNotFound>
+  <ServerIncorrectPathForFileLink>Helytelen objektum típusa. A megadott útvonal mutat egy mappát</ServerIncorrectPathForFileLink>
+  <ServerIncorrectPathForFolderLink>Helytelen objektum típusa. A megadott elérési út fájlra mutat</ServerIncorrectPathForFolderLink>
+  <ServerRootFolderNotFound>Gyökér mappa elérési útját "{0}" nem található.</ServerRootFolderNotFound>
+  <ServerUnableCreateFolder>Nem sikerült létrehozni a mappát</ServerUnableCreateFolder>
+  <ServerFileAlreadyExists>Ilyen nevű fájl már létezik</ServerFileAlreadyExists>
+  <ServerFileAlreadyExistsOnRename>
+    Szeretnéd átnevezni "{0}", hogy "{1}"?
+    Már van egy fájl ugyanazzal a névvel ezen a helyen.
+  </ServerFileAlreadyExistsOnRename>
+  <ServerFolderAlreadyExistsOnRename>
+    Szeretnéd átnevezni "{0}", hogy "{1}"?
+    Már van egy mappa az azonos nevű, ezen a helyen.
+  </ServerFolderAlreadyExistsOnRename>
+  <ServerFoldersMergeConfirm>
+    Ez a cél már tartalmaz egy mappa neve "{0}".
+    Még mindig azt szeretné egyesíteni ezt a mappát "{0}" ezzel egy "{1}"?
+  </ServerFoldersMergeConfirm>
+  <ServerFolderWithSameNameAsFileNameAlreadyExists>Már van egy mappát az azonos nevű "{0}", mint a megadott fájlnév</ServerFolderWithSameNameAsFileNameAlreadyExists>
+  <ServerFileWithSameNameAsFolderNameAlreadyExists>Már van egy fájl ugyanazzal a névvel "{0}", mint a mappa neve megadott</ServerFileWithSameNameAsFolderNameAlreadyExists>
+  <ServerFileNotFound>A fájl "{0}" nem található a mappában "{1}". Lehetséges, hogy törölték, vagy egy másik felhasználó eltávolította.</ServerFileNotFound>
+  <ServerDirectoryAlreadyExists>A könyvtár ezzel a névvel már létezik</ServerDirectoryAlreadyExists>
+  <ServerFolderMoveAlreadeExists>A cél mappa "{0}" ugyanaz, mint a forrás mappát</ServerFolderMoveAlreadeExists>
+  <ServerUploadPathNotFound>Az útvonal a fájlok tárolásához nem található a szerveren</ServerUploadPathNotFound>
+  <ServerUploadPathNotSet>Hiba történt, miközben egyre az utat a feltöltéshez. Kérjük, frissítse az oldalt a böngészőben, és próbálja újra.</ServerUploadPathNotSet>
+  <ServerUploadNoChunk>Nem harapnak a megtakarítás</ServerUploadNoChunk>
+  <ServerUploadWriteChunk>Írja darab óta byte</ServerUploadWriteChunk>
+  <ServerUploadCreatingFile>fájl létrehozásakor</ServerUploadCreatingFile>
+  <ServerUploadFileUploaded>A fájl feltöltése sikerült</ServerUploadFileUploaded>
+  <ServerUploadWriteError>írási hiba</ServerUploadWriteError>
+  <ServerConfigurationError>Helytelen beállítás vagy alkalmazás! Kapcsolat az Adminisztrátorral</ServerConfigurationError>
+  <ServerPermissionsAllowTypes>Jelenlegi engedélyek lehetővé teszik a művelet csak fájltípusokat {0}</ServerPermissionsAllowTypes>
+  <ServerPermissionsDenyTypes>Az aktuális engedélyek tiltják ezt a műveletet a fájltípusokat {0}</ServerPermissionsDenyTypes>
+  <ServerRequestSizeExceeded>A méret a feltöltött fájlok meghaladja a megengedett méretet a szerver beállításait</ServerRequestSizeExceeded>
+  <ServerEmailMsgProcessedFilesSubject>Feltöltött / módosított / letöltött / Alkotó / törölt / Megosztott fájlok / mappák</ServerEmailMsgProcessedFilesSubject>
+  <ServerEmailMsgUploadFilesTitle>feltöltve</ServerEmailMsgUploadFilesTitle>
+  <ServerEmailMsgModifyFilesTitle>módosított</ServerEmailMsgModifyFilesTitle>
+  <ServerEmailMsgDownloadFilesTitle>letöltve</ServerEmailMsgDownloadFilesTitle>
+  <ServerEmailMsgCreateFilesTitle>készítette</ServerEmailMsgCreateFilesTitle>
+  <ServerEmailMsgDeleteFilesTitle>törölve</ServerEmailMsgDeleteFilesTitle>
+  <ServerEmailMsgCreatePublicFilesTitle>megosztott</ServerEmailMsgCreatePublicFilesTitle>
+  <ServerEmailMsgProcessedFilesBody>
+    A következő fájlok / mappák voltak {0} {1} által:
+
+{2}
+    
+  </ServerEmailMsgProcessedFilesBody>
+  <ServerEmailMsgPasswordRecoverSubject>Jelszó visszaállítás</ServerEmailMsgPasswordRecoverSubject>
+  <ServerEmailMsgPasswordRecoverBody>
+    Azt kérte, hogy a jelszó visszaállítására a Web File Manager. Jelszava visszaállításához. Ha úgy gondolja, hogy ez egy hiba, egyszerűen figyelmen kívül hagyja ezt a levelet, de ne feledje, hogy a jelszó megváltozott.
+    Felhasználó név: {0}
+    Új jelszó: {1}
+  </ServerEmailMsgPasswordRecoverBody>
+  
+  <ServerEmailMsgUserNameRecoverSubject>felhasználónév helyreállítási</ServerEmailMsgUserNameRecoverSubject>
+  <ServerEmailMsgUserNameRecoverBody>
+    Azt kérte, hogy visszaszerezze a neved Web File Manager.
+    Felhasználó név: {0}
+  </ServerEmailMsgUserNameRecoverBody>
+
+  <ServerEmailMsgUserActivationSubject>Fiók Aktiválás</ServerEmailMsgUserActivationSubject>
+  <ServerEmailMsgUserActivationBody>
+    Számla ({0}) aktiválása szükséges.
+    A fiók aktiválásához kattintson az alábbi linkre: {1}
+  </ServerEmailMsgUserActivationBody>
+  <ServerEmailMsgUserRegisteredSubject>regisztrált felhasználó</ServerEmailMsgUserRegisteredSubject>
+  <ServerEmailMsgUserRegisteredBody>
+    Ön sikeresen regisztrált Web File Manager.
+    Felhasználó név: {0}
+  </ServerEmailMsgUserRegisteredBody>
+  <ServerEmailMsgUserRegisteredForAdminsBody>
+    &lt;h4&gt; Új felhasználó már regisztrált &lt;/h4&gt;
+    &lt;strong&gt; User name &lt;/strong&gt;: {0} &lt;br /&gt;
+    &lt;strong&gt; E-mail &lt;/strong&gt;: {1} &lt;br /&gt;
+    &lt;strong&gt; Dátum &lt;/strong&gt;: {2} &lt;br /&gt;
+    &lt;strong&gt; Extra info &lt;/strong&gt;: {3} &lt;br /&gt;
+  </ServerEmailMsgUserRegisteredForAdminsBody>
+  <ServerDiskFullError>Nincs elég hely a lemezen.</ServerDiskFullError>
+  <ServerFolderLimitations>Mappa korlátozások: {0}</ServerFolderLimitations>
+  <ServerShortcutAssignedFolderNotFound>Címzett mappa nem található meg a cél útját parancsikon</ServerShortcutAssignedFolderNotFound>
+  <ServerSizeFilesForZipExceeded>A méret archiválható fájlok meghaladta megengedett értéket {0}.</ServerSizeFilesForZipExceeded>
+  <ServerPasteFolderToSubfolderError>A cél mappa "{0}" egy almappa a forrás mappa "{1}".</ServerPasteFolderToSubfolderError>
+  <ServerLiveConnectAppIDNotSpecified>Az ügyfél-azonosító Microsoft élő Connect alkalmazás nem definiált</ServerLiveConnectAppIDNotSpecified>
+  <ServerSendEmailInfo>Szerző által megadott e-mail, mint {0}. KIZÁRÓLAG e-mail címét, hogy válaszolni.</ServerSendEmailInfo>
+
+  <ServerAntivirusScanningFailed>Lapolvasás egy víruskereső: '{0} {1} "fejeződött.</ServerAntivirusScanningFailed>
+
+  <ServerUserNameNotFound>Felhasználói névvel '{0}' nem található.</ServerUserNameNotFound>
+  <ServerFileNameCopySuffix>Másolat</ServerFileNameCopySuffix>
+
+  <ServerDeleteFolderNTFSAccessDenied>Nem kell NTFS jogosultsága eltávolítani mappa "{0}"</ServerDeleteFolderNTFSAccessDenied>
+
+  <ServerMSOOTemplateNotFound>{0} sablon nem található</ServerMSOOTemplateNotFound>
+</Localization>

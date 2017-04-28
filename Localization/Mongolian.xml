@@ -1,0 +1,1608 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Localization>
+  <!-- Common keys -->
+  
+  <ExtMsgButtonTextYES>Тийм</ExtMsgButtonTextYES>
+  <ExtMsgButtonTextNO>ямар ч</ExtMsgButtonTextNO>
+  
+  <ControlHideFileManager>Нуух вэб файл менежер</ControlHideFileManager>
+  
+  <CommonMainTitle>Вэб файлууд нэвтрэх</CommonMainTitle>
+  <CommonApplicationLoading>вэб файлууд хандах Loading</CommonApplicationLoading>
+  <CommonLoadError>Алдаа мод мэдээллийг олж авах явцад гарсан</CommonLoadError>
+  <CommonGridAccessDenied>хавтас "{0}" нь байхгүй, эсвэл уншиж хандахыг хориглодог байна</CommonGridAccessDenied>
+  <CommonNoScript>Энэ хуудсанд JavaScript шаарддаг таны браузер идэвхтэй болсон байх ёстой! идэвхжүүлж, дахин нэвтрэх уу!</CommonNoScript>
+  <CommonErrorCaption>алдаа</CommonErrorCaption>
+  <CommonWarningCaption>Warning</CommonWarningCaption>
+  <CommonInfoCaption>мэдээлэл</CommonInfoCaption>
+  <CommonConfirmCaption>баталгаажуул</CommonConfirmCaption>
+  <CommonFileNameCaption>Файлын нэр</CommonFileNameCaption>
+  <CommonFileNamePrompt>Шинэ файлын нэрийг оруулна уу</CommonFileNamePrompt>
+  <CommonFileNewNameValue>Шинэ Текст Document.txt</CommonFileNewNameValue>
+  <CommonFolderNewNameValue>Шинэ хавтас</CommonFolderNewNameValue>
+  <CommonZipFileNameCaption>Zip архив нэр</CommonZipFileNameCaption>
+  <CommonZipFileNamePrompt>Файлын нэр (өргөтгөл нь автоматаар нэмэгдэх болно)</CommonZipFileNamePrompt>
+  <CommonFolderNameCaption>Folder нэр</CommonFolderNameCaption>
+  <CommonFolderNamePrompt>Шинэ хавтас нэрийг оруулна уу</CommonFolderNamePrompt>
+  <CommonDeleteOnePrompt>Та устгахыг хүсэж байна "{0}"?</CommonDeleteOnePrompt>
+  <CommonDeleteManyPrompt>Хэрэв та эдгээр {0} зүйлсийг устгахыг хүсэж байна уу?</CommonDeleteManyPrompt>
+  <CommonForToday>Өнөөдрийн хувьд</CommonForToday>
+  <CommonButtonCaptionOK>БОЛЖ БАЙНА УУ</CommonButtonCaptionOK>
+  <CommonButtonCaptionCancel>Болих</CommonButtonCaptionCancel>
+  <CommonButtonCaptionClose>Close</CommonButtonCaptionClose>
+  <CommonButtonCaptionAdd>нэмэх</CommonButtonCaptionAdd>
+  <CommonButtonCaptionContinue>Continue</CommonButtonCaptionContinue>
+
+  <CommonProgressPleaseWait>Түр хүлээнэ үү</CommonProgressPleaseWait>
+  
+  <CommonFieldLabelName>нэр</CommonFieldLabelName>
+  <CommonFieldLabelPath>зам</CommonFieldLabelPath>
+  <CommonFieldLabelSize>Хэмжээ</CommonFieldLabelSize>
+  <CommonFieldLabelLabels>Шошго</CommonFieldLabelLabels>
+  <CommonFieldLabelType>Санал авах</CommonFieldLabelType>
+  <CommonFieldLabelAction>үйл ажиллагааны</CommonFieldLabelAction>
+  <CommonFieldLabelDate>огноо</CommonFieldLabelDate>
+  <CommonFieldLabelDateTime>Он сар өдөр цаг</CommonFieldLabelDateTime>
+  <CommonFieldLabelDateCreated>Үүссэн огноо</CommonFieldLabelDateCreated>
+  <CommonFieldLabelDateModified>өөрчилсөн огноо</CommonFieldLabelDateModified>
+  <CommonFieldLabelDateAccessed>хандсан огноо</CommonFieldLabelDateAccessed>
+  <CommonFieldLabelValue>үнэ цэнэ</CommonFieldLabelValue>
+  <CommonFieldLabelUserName>Хэрэглэгчийн нэр</CommonFieldLabelUserName>
+  <CommonFieldLabelUser>Хэрэглэгчийн</CommonFieldLabelUser>
+  <CommonFieldLabelUsers>хэрэглэгчид</CommonFieldLabelUsers>
+  <CommonFieldLabelGroupName>Бүлгийн нэр</CommonFieldLabelGroupName>
+  <CommonFieldLabelGroup>Group</CommonFieldLabelGroup>
+  <CommonFieldLabelGroups>Бүлгүүд</CommonFieldLabelGroups>
+  <CommonFieldLabelPassword>Нууц үг</CommonFieldLabelPassword>
+  <CommonFieldLabelRepeatPassword>нууц үгээ дахин оруулах</CommonFieldLabelRepeatPassword>
+  <CommonFieldLabelComments>Сэтгэгдэл</CommonFieldLabelComments>
+  <CommonValueTypeFolder>Folder</CommonValueTypeFolder>
+
+  <CommonFieldLabelDescription>Тодорхойлолт</CommonFieldLabelDescription>
+  <EmptyDescriptionText>тайлбарыг өгнө</EmptyDescriptionText>
+  <CommonFieldLabelReadMeTxt>readme.txt гэж бичигдэнэ агуулга</CommonFieldLabelReadMeTxt>
+  
+  <CommonWordOr>эсвэл</CommonWordOr>
+
+  <SortAscText>эрэмбэлэх Өсөхөөр</SortAscText>
+  <SortDescText>эрэмбэлэх Descending</SortDescText>
+
+  <CommonNewDocument>New Document</CommonNewDocument>
+  <CommonNewSpreadsheet>шинэ Spreadsheet</CommonNewSpreadsheet>
+  <CommonNewPresentation>шинэ танилцуулга</CommonNewPresentation>
+
+  <CommonWordWrap>Гэдэг үг ороосон</CommonWordWrap>
+  
+  <!-- End Common keys -->
+
+  <!-- Labels -->
+
+  <LabelsTitle>Шошго</LabelsTitle>
+  <LabelsNoLabel>Ямар ч хаяг</LabelsNoLabel>
+  <LabelsColor>өнгө</LabelsColor>
+  <LabelsCustomLabel>Custom хаяг</LabelsCustomLabel>
+  <LabelsCustomLabelHint>шошго нь хамгийн текстийг оруулна уу</LabelsCustomLabelHint>
+  <LabelsCustomLabelView>Шошго &amp;nbsp; харах: &amp;nbsp; {0} {1} {2}</LabelsCustomLabelView>
+  <LabelsFileLabelledMessage>Амжилттай хаяглагдсан {0} зүйл (үүд)</LabelsFileLabelledMessage>
+  <LabelsRemovedMessage>Амжилттай устгаж {0} хаяг (ууд)</LabelsRemovedMessage>
+  <LabelsNotRemovedMessages>шилжүүлж болохгүй: {0}</LabelsNotRemovedMessages>
+  <LabelsNotLabelledMessage>хаяглагдсан бус: {0}</LabelsNotLabelledMessage>
+  <LabelsLabelRemovedMessage>амжилттай арилгасан хаяглаж</LabelsLabelRemovedMessage>
+  <LabelsNewLabel>шинэ Шошго</LabelsNewLabel>
+  <LabelsLabellingMessage>Хаяглалт</LabelsLabellingMessage>
+  <LabelsRemovingLabelMessage>шошгыг устгах</LabelsRemovingLabelMessage>
+  <LabelsLabelInfoTip>гэж тэмдэглэгдсэн '{0}' {1} хэрэглэгч '{2} "</LabelsLabelInfoTip>
+
+  <!-- End Labels -->
+
+  <!-- Comments -->
+
+  <CommentsCountInfoTip>{0} сэтгэгдэл (ууд)</CommentsCountInfoTip>
+  <CommentsWriteCommentHint>Сэтгэгдлийг болон хэвлэл бич '{0}', эсвэл Ctrl+Enter эсвэл+Enter дээр Shift ...</CommentsWriteCommentHint>
+
+  <!-- End Comments -->
+
+  <RefreshPageWarningMessage>&lt;Б&gt; Анхаар! &lt;/ Б&gt; Энэ үйл ажиллагааг, хөтөч одоогийн хуудас сэргэг байх ёстой дуусгахын тулд. &lt;br /&gt; Та одоо сэргээх хүсэж байна уу?</RefreshPageWarningMessage>
+
+  <PagingToolbarBeforePageText>Page</PagingToolbarBeforePageText>
+  <PagingToolbarAfterPageText>нь {0}</PagingToolbarAfterPageText>
+  <PagingToolbarFirstText>Эхний хуудас</PagingToolbarFirstText>
+  <PagingToolbarPrevText>өмнөх хуудас</PagingToolbarPrevText>
+  <PagingToolbarNextText>Дараагийн хуудас</PagingToolbarNextText>
+  <PagingToolbarLastText>Сүүлийн хуудас</PagingToolbarLastText>
+  <PagingToolbarDisplayMsg>Харуулах {0} - {1} нь {2}</PagingToolbarDisplayMsg>
+  <PagingToolbarEmptyMsg>харуулахын тулд ямар ч мэдээлэл</PagingToolbarEmptyMsg>
+  
+  <GridTotalLabel>Нийт:</GridTotalLabel>
+  <GridTotalFilesLabel>файлууд</GridTotalFilesLabel>
+  <GridTotalFoldersLabel>хавтас</GridTotalFoldersLabel>
+  
+  <GridDDSelectedRowsText>{0} сонгон эгнээ {1}</GridDDSelectedRowsText>
+  <GridDDSelectedFilesText>{0} файлуудыг сонгосон</GridDDSelectedFilesText>
+  <GridDDSelectedFoldersText>{0} сонгосон хавтас</GridDDSelectedFoldersText>
+  <GridDDConfirmCopyMoveTitle>хавтас нь дусал "{0}"</GridDDConfirmCopyMoveTitle>
+  <GridDDConfirmAddToZipTitle>явуулснаас хямдралтай нэмэх "{0}"</GridDDConfirmAddToZipTitle>
+  <GridDDConfirmAddToZipMessage>Чирэгдэн файлуудыг энэ ZIP архив нэмэгдэх болно. Та үргэлжлүүлэхийг хүсэж байна уу? {0}.</GridDDConfirmAddToZipMessage>
+  <GridDDConfirmCopyMoveMsg>Та хэрэглэх хүсэж байгаа үйлдэл сонгоно уу. Эх сурвалж: "{0}", Destination хавтас: "{1}" {2} {3}..</GridDDConfirmCopyMoveMsg>
+  <GridDDConfirmCopyMoveToZipMsg>Files зип архив нэмж болно. Та зип архив файл нэмсний дараа чирэгдэн файл хэрэглэнэ хүсэж байгаа үйлдэл сонгоно уу. Эх сурвалж: "{0}" Зорьсон зип архив: "{1}" {2} {3}..</GridDDConfirmCopyMoveToZipMsg>
+  <GridDDDraggedFileNames>&lt;Б&gt; чирэгдэн файлуудыг: &lt;/ б&gt; {0}</GridDDDraggedFileNames>
+  <GridDDDraggedFolderNames>&lt;Б&gt; чирэгдэн хавтас: &lt;/ б&gt; {0}</GridDDDraggedFolderNames>
+  <GridDDConfirmTargetFolderOnlyCopyMsg>Зөвхөн хувь файлуудыг чирэгдэн эх хавтас одоогийн зөвшөөрлийг танд олгоно. Та үргэлжлүүлэхийг хүсэж байна уу? {0}.</GridDDConfirmTargetFolderOnlyCopyMsg>
+  <GridDDConfirmTargetFolderOnlyMoveMsg>Зөвхөн алхам файлуудыг чирэгдэн эх хавтас одоогийн зөвшөөрлийг танд олгоно. Та үргэлжлүүлэхийг хүсэж байна уу? {0}.</GridDDConfirmTargetFolderOnlyMoveMsg>
+
+  <GridRowPublicHint>Шинэ цонх / таб-д олон нийтийн холбоосыг нээнэ тулд дарна уу</GridRowPublicHint>
+  <GridRowAlertHint>Хэрэв энэ файл / хавтас төлөө хийсэн өөрчлөлт нь харахын тулд дар</GridRowAlertHint>
+  <GridRowRecentHint>Хэрэв энэ файл / хавтас нь хаана байгааг олоод</GridRowRecentHint>
+  <GridRowAlertEventHint>Энэ байршлыг явах уу</GridRowAlertEventHint>
+
+  <ProgressCreating>бий болгох</ProgressCreating>
+  <ProgressDeleting>устгах</ProgressDeleting>
+  <ProgressLoading>Уншиж байна</ProgressLoading>
+  <ProgressSearching>хайх</ProgressSearching>
+  <ProgressZipping>шахаж</ProgressZipping>
+  <ProgressUnzipping>задлах</ProgressUnzipping>
+  <ProgressZipContents>ZIP архив агуулгыг авах</ProgressZipContents>
+  <ProgressPrepareDownload>татаж бэлтгэх</ProgressPrepareDownload>
+  <ProgressMoving>дэвшил</ProgressMoving>
+  <ProgressCopying>хувилах</ProgressCopying>
+  <ProgressRenaming>нэрийг нь өөрчилж</ProgressRenaming>
+  <ProgressUpdating>шинэчилж</ProgressUpdating>
+  <ProgressLoadingEditInPixlr>Pixlr засварлагчийг ачааллаж</ProgressLoadingEditInPixlr>
+  <ProgressLoadingEdit>редактор ачаалж байна</ProgressLoadingEdit>
+  <ProgressSavingEdit>файл хадгалах</ProgressSavingEdit>
+  <ProgressSaving>хадгалах</ProgressSaving>
+  <ProgressExecuting>гүйцэтгэх</ProgressExecuting>
+
+  <BalloonFilesDeleted>{0} файл (үүд) устгагдсан</BalloonFilesDeleted>
+  <BalloonFoldersDeleted>{0} хавтас (үүд) устгагдсан</BalloonFoldersDeleted>
+  <BalloonFilesFailed>{0} файл (ууд) чадсангүй</BalloonFilesFailed>
+  <BalloonFoldersFailed>{0} хавтас (ууд) чадсангүй</BalloonFoldersFailed>
+  <BalloonFilesZipped>{0} файл (ууд) шахсан</BalloonFilesZipped>
+  <BalloonFoldersZipped>{0} хавтас (ууд) шахсан</BalloonFoldersZipped>
+  <BalloonFilesCopied>{0} файл (ууд) хуулан</BalloonFilesCopied>
+  <BalloonFoldersCopied>{0} хавтас (ууд) хуулан</BalloonFoldersCopied>
+  <BalloonFilesMoved>{0} файл (ууд) нүүсэн</BalloonFilesMoved>
+  <BalloonFoldersMoved>{0} хавтас (ууд) нүүсэн</BalloonFoldersMoved>
+  <BalloonNotUnzipped>{0} файл (ууд) задалсны чадаагүй байна</BalloonNotUnzipped>
+  <BalloonFilesUploaded>{0} файл (ууд) Хуулагдсан</BalloonFilesUploaded>
+  <BalloonFilesNotUploaded>{0} файл (ууд) байршуулагдаагүй байна</BalloonFilesNotUploaded>
+  <BalloonSomeFilesNotUploaded>Зарим файлуудыг байршуулж чадахгүй байна</BalloonSomeFilesNotUploaded>
+  <BalloonCreatedSuccessfully>амжилттай Үүсгэсэн</BalloonCreatedSuccessfully>
+  <BalloonUnzippedSuccessfully>Unpacked амжилттай</BalloonUnzippedSuccessfully>
+  <BalloonRenamedSuccessfully>амжилттай нэр нь өөрчлөгдсөн</BalloonRenamedSuccessfully>
+  <BalloonSavedSuccessfully>амжилттай хадгалсан</BalloonSavedSuccessfully>
+  <BalloonCopiedToClipboard>Бал уруу хуулагдахыг</BalloonCopiedToClipboard>
+  <BalloonCopyToClipboardFailed>Хуулбар чадаагүй Бал нь</BalloonCopyToClipboardFailed>
+
+  <CommandCopyToClipboard>Clipboard уруу хуулах</CommandCopyToClipboard>
+  <CommandCopyLinkToClipboard>Бал холбоосыг хуулах</CommandCopyLinkToClipboard>
+  <ClipboardScreenshotTitlePrefix>Image</ClipboardScreenshotTitlePrefix>
+  <ClipboardScreenshotHint>Images: Та санах ойгоос дэлгэцийн оо болно (Press &lt;б&gt; Ctrl+PrtSc &lt;/ б&gt; дараа нь &lt;б&gt; Ctrl+V &lt;/ б&gt;) эсвэл уг засварлагчаас гарах дүрс (Press &lt;б&gt; Ctrl+V &lt;/ б&gt;).</ClipboardScreenshotHint>
+  <ClipboardFileHint>Та бас санах ойгоос файлыг оо болно</ClipboardFileHint>
+
+  <CommandClouds>Cloud агуулах</CommandClouds>
+  <CommandCloudsDownloadTo>руу татаж авах ...</CommandCloudsDownloadTo>
+  <CommandCloudsUploadFrom>-аас оруулж ...</CommandCloudsUploadFrom>
+  <CommandCloudsAbout>Cloud агуулах тухай</CommandCloudsAbout>
+  
+  <CommandBack>Буцах Give</CommandBack>
+  <CommandForward>Форвард</CommandForward>
+  <CommandRecentFolders>Сүүлийн үеийн хавтас</CommandRecentFolders>
+  <CommandHome>Нүүр хуудас</CommandHome>
+  <CommonActions>үйл ажиллагаа</CommonActions>
+  <CommandMultiSelect>Олон сонгоно</CommandMultiSelect>
+  <CommandShare>эзлэх хувь</CommandShare>
+  <CommandSorting>Ангилан ялгах</CommandSorting>
+  
+  <CommandFileManager>файлын менежер руу буцах</CommandFileManager>
+  <CommandFolders>Folders</CommandFolders>
+  <CommandGridView>харах</CommandGridView>
+  <CommandRefresh>Сэргээх</CommandRefresh>
+  <CommandThumbnailView>Thumbnail харах</CommandThumbnailView>
+  <CommandDetailedView>жагсаалт харах</CommandDetailedView>
+  <CommandDetailsPane>дэлгэрэнгүй панел</CommandDetailsPane>
+  <CommandFavorites>Таалагдсан</CommandFavorites>
+  <CommandAddToFavorites>дуртай нэмэх</CommandAddToFavorites>
+  <CommandAddToFavoritesHint>дуртай одоогийн хавтас нэмэх</CommandAddToFavoritesHint>
+  <AddingToFavoritesMessage>Дуртай нэмэх</AddingToFavoritesMessage>
+  <RemoveFromFavoritesMessage>Дуртай устгах</RemoveFromFavoritesMessage>
+  <FolderAlreadyAddedInFavorites>хавтас "{0}" аль хэдийн дуртай л байдаг</FolderAlreadyAddedInFavorites>
+  <FolderAddedInFavoritesSuccessfully>хавтас "{0}" Дуртай амжилттай нэмэгдсэн байна</FolderAddedInFavoritesSuccessfully>
+  <FavoritesIsOverflowed>Энэ нь "{0}" дуртай одоогийн хавтас нэмэх боломжгүй байсан. Зарим орон зай чөлөөлөх, дахин оролдож үзнэ зарим дуртай устгах.</FavoritesIsOverflowed>
+  <RemoveFromFavoritesHint>Устга "{0}" Дуртай</RemoveFromFavoritesHint>
+  <AddToHomeScreenIOSHint>Tap {0}, дараа нь &lt;хүчтэй&gt; "Эхлэл дэлгэц нэмэх" &lt;/ хүчтэй&gt;</AddToHomeScreenIOSHint>
+  <CommandSearch>хайх</CommandSearch>
+  <CommandUpload>оруулах</CommandUpload>
+  <CommandSettings>Тохиргоо</CommandSettings>
+  <CommandLanguage>хэл</CommandLanguage>
+  <CommandAdministration>захиргаа</CommandAdministration>
+  <CommandAdminPanel>админ самбар</CommandAdminPanel>
+  <CommandChangePassword>нууц үг солих</CommandChangePassword>
+  <ProgressChangePassword>өөрчлөх нууц үг</ProgressChangePassword>
+  <CommandChangeEmail>Change и-мэйл</CommandChangeEmail>
+  <ProgressChangeEmail>Солих и-мэйл</ProgressChangeEmail>
+  <CommandMobileView>Гар интерфэйс (Ухаалаг утаснууд)</CommandMobileView>
+  <CommandStandardView>Бүрэн хувилбар</CommandStandardView>
+  <CommandInstallIOSApp>IOS апп суулгах</CommandInstallIOSApp>
+  <CommandInstallAndroidApp>Android апп суулгах</CommandInstallAndroidApp>
+  <CommandAddServerToMobileApp>гар утасны апп энэ сервер нэмэх</CommandAddServerToMobileApp>
+  <CommandAddToHomeScreen>Нүүр хуудас дэлгэц нэмэх</CommandAddToHomeScreen>
+  <CommandDiagnostics>оношлогооны хуудас</CommandDiagnostics>
+  <CommandLicenseInfo>Лицензийн мэдээлэл</CommandLicenseInfo>
+  <CommandLogout>Гарах</CommandLogout>
+  <CommandLogoutHint>Одоогийн хуралдааныг дуусгах дарна уу</CommandLogoutHint>
+  <CommandNew>Нью-</CommandNew>
+  <CommandFile>Файлын</CommandFile>
+  <CommandEmptyFile>хоосон файл</CommandEmptyFile>
+  <CommandNewMSOODocument>MS Office Online бүхий баримт бичиг</CommandNewMSOODocument>
+  <CommandNewOffice365Document>Албаны 365 нь баримт бичиг</CommandNewOffice365Document>
+  <CommandNewMSOOWord>Word Document</CommandNewMSOOWord>
+  <CommandNewMSOOExcel>Excel Spreadsheet</CommandNewMSOOExcel>
+  <CommandNewMSOOPowerPoint>PowerPoint Presentation</CommandNewMSOOPowerPoint>
+  <CommandNewGoogleDocument>Google нь баримт бичиг</CommandNewGoogleDocument>
+  <CommandNewGoogleDocs>Google Docs</CommandNewGoogleDocs>
+  <CommandNewGoogleSheets>Google-ийн хуудас</CommandNewGoogleSheets>
+  <CommandNewGoogleSlides>Google-ийн Слайд</CommandNewGoogleSlides>
+  <CommandNewImage>Pixlr-д Image</CommandNewImage>
+  <CommandFolder>Folder</CommandFolder>
+  <CommandNewFile>Нью хоосон файл</CommandNewFile>
+  <CommandNewFolder>Шинэ хавтас</CommandNewFolder>
+  <CommandNewWithTemplate>загвар ашиглах ...</CommandNewWithTemplate>
+  <CommandRename>нэр солих</CommandRename>
+  <CommandDelete>устгах</CommandDelete>
+  <CommandCopy>хуулбар</CommandCopy>
+  <CommandMove>Move</CommandMove>
+  <CommandCut>Cut</CommandCut>
+  <CommandCopyTo>Хуулбар нь ...</CommandCopyTo>
+  <CommandMoveTo>Нүүх...</CommandMoveTo>
+  <CommandCopyCutClipboardSuffix>Бал нь</CommandCopyCutClipboardSuffix>
+  <CommandPaste>наах</CommandPaste>
+  <CommandPasteInto>руу Paste</CommandPasteInto>
+  <CommandZip>нь Zip архивт нь шахах</CommandZip>
+  <CommandZipMenu>Zip / задлаад</CommandZipMenu>
+  <CommandUnzip>задлахад Zip</CommandUnzip>
+  <CommandUnzipSelected>задлах сонгосон</CommandUnzipSelected>
+  <CommandUnzipAll>бүх задлах</CommandUnzipAll>
+  <CommandUnzipTo>хавтсанд</CommandUnzipTo>
+  <CommandUnzipToCurrent>Одоогийн хавтас нь</CommandUnzipToCurrent>
+  <MessageUnzipToFolder>Энэ задлах нь хавтас нэрийг бичнэ үү</MessageUnzipToFolder>
+  <MessageUnzipPasswordHint>Хэрэв та нууц задлах шаардлагатай гэдгийг мэдэж байгаа бол доорх талбарт оруулна</MessageUnzipPasswordHint>
+  <MessageUnzipNeedPassword>Нууц үг файлуудыг задлах шаардлагатай байна</MessageUnzipNeedPassword>
+  <ZipPasswordProtectHint>Тулд зип архив нууц үгээр хамгаалах, доорх талбарт нууц үгээ оруулна уу. Тэгэхгүй бол хоосон талбай үлдээх</ZipPasswordProtectHint>
+  <AppendToZipPasswordProtectHint>Тулд, зип архив нэмж файлуудыг нууц-хамгаалахын доорх талбарт нууц үгээ оруулна уу. Тэгэхгүй бол хоосон талбай үлдээх</AppendToZipPasswordProtectHint>
+  <ZipPasswordProtectWindowTitle>нууц үг архивлах</ZipPasswordProtectWindowTitle>
+  <OpenFolderAfterUnzipCheckBox>Нээлттэй хавтас задлах дараа</OpenFolderAfterUnzipCheckBox>
+  <CommandUnzipToNew>Шинэ хавтсанд</CommandUnzipToNew>
+  <CommandZipContents>Zip агуулга</CommandZipContents>
+  <ArchiveContentsTitle>Архивын агуулга нь "{0}"</ArchiveContentsTitle>
+  <CommandDownload>Татаж авах</CommandDownload>
+  <CommonDownloadAll>бүх татаж авах</CommonDownloadAll>
+  <DownloadListDragFile>Та өөрийн компьютер руу чирж-н дусал файлуудыг болно</DownloadListDragFile>
+  <CommandZipDownload>Шахах болон татаж авах</CommandZipDownload>
+  <CommandView>Хөтөч-д харах</CommandView>
+  <CommandDownloadOrView>Татаж авах болон харах</CommandDownloadOrView>
+  <CommandPreview>Images Урьдчилан харах</CommandPreview>
+  <CommandFlashPreview>Flash Урьдчилан харах</CommandFlashPreview>
+  <GettingSizeFlashMovie>флэш киноны авах хэмжээ</GettingSizeFlashMovie>
+  <CommandEdit>текст файл болгон засварлах</CommandEdit>
+  <CommandEditView>текст файл гэж харах</CommandEditView>
+  <AceNotLoadedMessage>Ace засварлагчийг ачааллах боломжгүй</AceNotLoadedMessage>
+  <VideoJsNotLoadedMessage>VideoJS тоглогч ачааллах боломжгүй</VideoJsNotLoadedMessage>
+  <CommandMenuEdit>Засварлах</CommandMenuEdit>
+  <CommandSelectAll>Бүгдийг сонгох</CommandSelectAll>
+  <CommandInvertSelection>Эсрэгээр нь</CommandInvertSelection>
+  <CommandLinkToFile>файл / хавтас руу Link</CommandLinkToFile>
+  <!--Share link-->
+  <CommandMakePublicFolder>Олон нийтийн холбоос үүсгэх</CommandMakePublicFolder>
+  <PublicViewInGoogle>Google-д харах</PublicViewInGoogle>
+  <PublicViewinOWA>OWA нь харах</PublicViewinOWA>
+  <!--Make public folder (share)-->
+  <CommandViewWithGoogleDoc>Google Docs нь харах</CommandViewWithGoogleDoc>
+  <CommandViewWithShareCad>ShareCad.org нь харах</CommandViewWithShareCad>
+  <CommandViewWithAutodesk>Autodesk-д харах</CommandViewWithAutodesk>
+  <CommandViewWithBox>Хайрцаг дахь харах</CommandViewWithBox>
+  <CommandViewWithOWA>Office Вэб Apps-д харах</CommandViewWithOWA>
+  <CommandCloudConvert>CloudConvert нь хөрвүүлэх</CommandCloudConvert>
+  <ProgressGetCloudConvertOutputFormats>гаралт формат авах</ProgressGetCloudConvertOutputFormats>
+  <ProgressCloudConvertConverting>хөрвүүлэх</ProgressCloudConvertConverting>
+  <CloudConvertWindowTitle>Convert '{0}'</CloudConvertWindowTitle>
+  <CloudConvertWindowConvertButton>Convert</CloudConvertWindowConvertButton>
+  <CloudConvertWindowOutputFormatsLabel>гаралтын формат</CloudConvertWindowOutputFormatsLabel>
+  <CloudConvertDownloadLinkLabel>Татаж авах холбоос</CloudConvertDownloadLinkLabel>
+  <CloudConvertSaveAsLabel>гэж хадгал (өргөтгөл нь автоматаар нэмэгдэх болно):</CloudConvertSaveAsLabel>
+  <CloudConvertNoOutputFormats>шилжүүлэх ямар ч хэлбэрээр байдаг</CloudConvertNoOutputFormats>
+  <CloudConvertNoUrlForDownload>Энэ нь татаж авах холбоосыг хүлээн авах амжилттай байсан юм</CloudConvertNoUrlForDownload>
+  <ProgressCloudConvertUploading>CloudConvert-аас оруулах</ProgressCloudConvertUploading>
+  <CloudConvertSaveAsNameBlank>Энд Санал нэр</CloudConvertSaveAsNameBlank>
+  <CancelEditButton>засварлах Cancel</CancelEditButton>
+  <HideButton>нуух</HideButton>
+  <EditDocumentCancelHint>Та редактор баримт бичиг нь цонхыг хаах дараа autosaved юм болно. Та тулгамдсан {0} (энэ тохиолдолд, баримт бичиг ч засварлагч хаасны дараа аврагдах болно) энэ харилцах цонхыг нууж болно &lt;br /&gt;. &lt;br /&gt; та баримт бичгийг хадгалахыг хүсэхгүй байгаа бол, хэвлэлийн {1} (энэ тохиолдолд, редактор цонх хаагдах болно).</EditDocumentCancelHint>
+  <EditDocumentSaveHint>Одоо та дарж {0} өөр баримт бичигт өөрчлөлт хадгалж болно. Анхаар! Та редактор цонхыг хааж дараа, энэ нь бас autosaved болно.</EditDocumentSaveHint>
+  <CommandEditInMSOffice>MS Office-д засах</CommandEditInMSOffice>
+  <CommandEditInOOo>OpenOffice / LibreOffice нь засварлах</CommandEditInOOo>
+  <CommandViewInMSOffice>MS Office-д харах</CommandViewInMSOffice>
+  <CommandViewInOOo>OpenOffice / LibreOffice нь харах</CommandViewInOOo>
+  <CommandEditInPixlr>Pixlr нь засах</CommandEditInPixlr>
+  <CommandEditInAdobe>Adobe Creative Cloud-д засах</CommandEditInAdobe>
+  <AdobeImageEditorSavedAsNewTypeMessage>Adobe Image Editor өөрчлөгдөж зураг хэлбэрээр хадгалагдсан байна {0}</AdobeImageEditorSavedAsNewTypeMessage>
+  <CommandEditInGoogle>Google Drive-д засах</CommandEditInGoogle>
+  <EditInGoogleConvertMessage>засаж дараа баримт бичиг хэлбэршилт уруу хөрвүүлэгдэх болно {1} {0} {2}</EditInGoogleConvertMessage>
+  <EditInGoogleLinkError>Google Drive-д баримт бичгийг засварлах холбоосыг олж авах боломжгүй</EditInGoogleLinkError>
+  <EditInGoogleWaiting>Google Drive-д засварлах дууссаны хүлээж байна</EditInGoogleWaiting>
+  <CommandEditInMSOO>MS Office Online-д засах</CommandEditInMSOO>
+  <EditInMSOOLinkError>MS Office Online-д баримт бичгийг засварлах холбоосыг олж авах боломжгүй</EditInMSOOLinkError>
+  <EditInMSOOWaiting>MS Office Online-д засварлах дууссаны хүлээж байна</EditInMSOOWaiting>
+  <CommandEditInOffice365>Газар 365 дахь Edit</CommandEditInOffice365>
+  <EditInOffice365LinkError>Газар 365 дахь баримт бичгийг засварлах холбоосыг олж авах боломжгүй</EditInOffice365LinkError>
+  <EditInOffice365Waiting>Албаны 365-д засварлах дууссаны хүлээж байна</EditInOffice365Waiting>
+  <CommandSave>Save</CommandSave>
+  <CommandSaveAs>Хадгалах...</CommandSaveAs>
+  <CommandAppRestart>рестарт програм</CommandAppRestart>
+  <CommandPlayVideoFlash>Flash тоглуулагч видео Play</CommandPlayVideoFlash>
+  <CommandPlayVideoHtml5>Play видео</CommandPlayVideoHtml5>
+  <CommandPlayAudioHtml5>Play дуу</CommandPlayAudioHtml5>
+  <CommandPlayVideo>Play видео</CommandPlayVideo>
+  <CommandPlayAudio>Play дуу</CommandPlayAudio>
+  <CommandConvertVideo>видео хөрвүүлэх</CommandConvertVideo>
+
+  <ViewInServiceLink>файлыг үзэхийн тулд энд дарна уу</ViewInServiceLink>
+  <EditInServiceLink>баримт бичгийг засварлах бол энд дарна уу</EditInServiceLink>
+
+  <OfficeEditCopyLinkLabel>Доорх холбоос хуулж Office програмын үүнийг нээж:</OfficeEditCopyLinkLabel>
+  <OfficeRunError>Энэ нь явуулах боломжтой биш байсан {0}</OfficeRunError>
+  <BadPathToFile>Энэ нь файлын замыг олох боломжгүй байсан</BadPathToFile>
+  <FixBasicAuthAlertTitle>Анхаар!</FixBasicAuthAlertTitle>
+  <FixBasicAuthAlertMessage>Microsoft Office SSL ямар үндсэн танилтад хамтран ажилладаг! Та өөрийн газар энэ засах болно. Дэлгэрэнгүйг үзнэ үү {0}.</FixBasicAuthAlertMessage>
+  <FixBasicAuthAlertCheckBoxText>Цаашид энэ харилцааг харуулах байх.</FixBasicAuthAlertCheckBoxText>
+  <CommandDetails>дэлгэрэнгүй</CommandDetails>
+  <CommonButtonCaptionAddDetail>Тодруулга нэм</CommonButtonCaptionAddDetail>
+  <CommonButtonCaptionAddComment>Сэтгэгдэл нэмэх</CommonButtonCaptionAddComment>
+  <DetailsWindowTitle>Дэлгэрэнгүй мэдээлэл "{0}"</DetailsWindowTitle>
+  <FileDetailsSave>өөрчлөлт хэрэглэнэ</FileDetailsSave>
+  <FileDetailsIgnoreChanges>алгасаж</FileDetailsIgnoreChanges>
+  <FileDetailsCloseConfirmTitle>файлын дэлгэрэнгүй мэдээллийг цонх хаалттай байна</FileDetailsCloseConfirmTitle>
+  <FileDetailsCloseConfirmMsg>Анхаар! өөрчлөлт нь хараахан хадгалагдаагүй байна. Та цонхыг хаах өмнө эдгээр өөрчлөлтийг хэрэгжүүлэх хүсэж байгаа үйлдэл сонгоно уу.</FileDetailsCloseConfirmMsg>
+  <FileDetailsGridTitleColumn>гарчиг</FileDetailsGridTitleColumn>
+  <FileDetailsGridAuthorColumn>Өнгөрсөн зохиогч</FileDetailsGridAuthorColumn>
+  <LoadingDetailsMask>дэлгэрэнгүй мэдээллийг ачаалж байна</LoadingDetailsMask>
+  <NewDetailsTitle>шинэ нэр</NewDetailsTitle>
+  <NewDetailsValue>Шинэ мэдээллийг үнэ цэнэ</NewDetailsValue>
+  <DetailsSavingMsg>дэлгэрэнгүй мэдээллийг хадгалах</DetailsSavingMsg>
+  <ProgressLoadingEditInOffice>Тамгын онд засварлаж бэлтгэх</ProgressLoadingEditInOffice>
+  <MenuFilterText>Шүүлтүүрүүд</MenuFilterText>
+  <EmptyTextFilter>Шүүгчийг оруулна уу ...</EmptyTextFilter>
+  <AfterDateFilterText>дараа</AfterDateFilterText>
+  <BeforeDateFilterText>өмнө</BeforeDateFilterText>
+  <OnDateFilterText>-нд</OnDateFilterText>
+  <YesBooleanFilterText>Тийм</YesBooleanFilterText>
+  <NoBooleanFilterText>ямар ч</NoBooleanFilterText>
+  <CommandEditWithZoho>Zoho нь засах</CommandEditWithZoho>
+  <ZohoNotSupportedFormatMessage>өргөтгөл Zoho дэмжиж байна. Үзнэ үү {0}.</ZohoNotSupportedFormatMessage>
+  <ProgressLoadingEditInZoho>Loading Zoho редактор</ProgressLoadingEditInZoho>
+  <CommandSubMenuViewAndEdit>Харах / засварлах</CommandSubMenuViewAndEdit>
+  <CommandSubMenuShare>эзлэх хувь</CommandSubMenuShare>
+  <CommandSubMenuMore>дэлгэрэнгүй</CommandSubMenuMore>
+  <StopUploadingButtonText>Зогс</StopUploadingButtonText>
+  <SimpleUploadErrorInfo>Файлыг татаж үед (ууд) нь алдаа байсан &lt;br /&gt; үзнэ үү. {0} дэлгэрэнгүй мэдээлэл &lt;/a&gt; нь</SimpleUploadErrorInfo>
+  <BalloonAbortFilesUploaded>файлуудыг байршуулж байна зогсоов байна</BalloonAbortFilesUploaded>
+  <UploadDragNDropTab>Drag &amp;дусал</UploadDragNDropTab>
+  <UploadDragNDropTabImages>Drag &amp;уналт+зургууд</UploadDragNDropTabImages>
+  <DnDGridProgressColumn>дэвшил</DnDGridProgressColumn>
+  <DnDFileReadingError>алдаа унших. Алдаа код: {0}.</DnDFileReadingError>
+  <DnDFileReadingAbort>зогсоов унших. Алдаа код: {0}.</DnDFileReadingAbort>
+  <DnDFileUploadingError>Байршуулж алдаа. {0}</DnDFileUploadingError>
+  <DnDFileUploadingAbort>Байршуулж байна зогсоов.</DnDFileUploadingAbort>
+  
+  <CommandWebFoldersLinks>Газрын зураг вэб хавтас</CommandWebFoldersLinks>
+  <CommandSyncWebFolders>Орон нутгийн хавтас хамгийн сүүлийн хэлбэрт</CommandSyncWebFolders>
+  <WebFolderLinksFieldLabel>Вэб-хавтас холбоосууд</WebFolderLinksFieldLabel>
+  <WebFolderLinksForWindows64Note>товчлуурын хослол дарж {0} Win+R {1}. {0} Open-д тушаалын мөрийг оруулах: {1} салбарт (доор тушаалын мөрийн жишээг үзнэ үү) товшино {0} OK {1}. бүрэн танигдсан домэйн нэрийг ашиглан Windows нэвтрэлт танилт нь: {2}.</WebFolderLinksForWindows64Note>
+  <OpenLibreOfficeRunCommandNote>Эсвэл товчлуурын хослол дарж {0} Win+R {1} тушаалын мөрийг доорх {0} Open-д оруулах: {1} талбар болон хэвлэлийн {0} OK {1}</OpenLibreOfficeRunCommandNote>
+  <WebFolderLinksForMacOSNote>"Finder" цэс нээлттэй {0} хийлгэж&gt; сервер рүү холбохын {1}. {0} "Server хаяг" {1} талбар нь вэб хавтас Холбоос оруулах. Дээр дарж {0} "холбоно" {1}. Шинэ харилцах цонхонд сонгоод {0} "Зочин" {1} эсвэл {0} "Бүртгэгдсэн хэрэглэгч" {1} (Windows танилтад зориулсан). Дээр дарж {0} "холбоно" {1}.</WebFolderLinksForMacOSNote>
+  <WebFolderLinksForUbuntuNote>Нээлттэй {0} хийлгэж&gt; Газарзүйн байрлалаар ... {1} байршил талбарт вэб хавтас холбоосыг хуулах.</WebFolderLinksForUbuntuNote>
+  <LinksToWebFoldersWindowText>Та өөрийн орон нутгийн OS-д сүлжээний хөтөч маягаар харж хавтас зураглал болно. зураглал дараа та MS Office, эсвэл OpenOffice орон нутгийн хүмүүсийн болон засварлах баримт бичиг гэх мэт файлууд хамтран ажиллах болно. {0} хэрхэн зураглал хийх тухай тусламж үзнэ үү.</LinksToWebFoldersWindowText>
+  <CommonFileTypeNameCaption>"{0}" Файлын нэр</CommonFileTypeNameCaption>
+  <CommonFileTypeNamePrompt>шинэ "{0}" файлын нэрийг оруулна уу</CommonFileTypeNamePrompt>
+  
+  <PixlrEditorWindowTitle>Pixlr редактор {0}</PixlrEditorWindowTitle>
+  <PixlrSaveImageSuccessMessage>зураг "{0}" амжилттай аврагдсан юм. Хэрэв та шинэ нэртэй зураг хадгалсан бол жагсаалтыг шинээр сэргээнэ.</PixlrSaveImageSuccessMessage>
+  <CommonFileImageNewName>шинэ зураг</CommonFileImageNewName>
+  <CommandChangeTheme>сэдэв өөрчлөлт</CommandChangeTheme>
+  
+  <CommandHelp>Туслаач</CommandHelp>
+
+  <OpeningShortcutProgress>нээлтийн товчлохын</OpeningShortcutProgress>
+  <CommandCreateShortcut>Товчлохын (симболын холбоос)</CommandCreateShortcut>
+  <ShortcutNameHint>товчлохын нэр</ShortcutNameHint>
+  <ShortcutTargetPathHint>Destination зам</ShortcutTargetPathHint>
+  <CreateShortcutButtonTitle>бий болгох</CreateShortcutButtonTitle>
+  <CreatingShortcutProgress>үүсгэх товчлохын</CreatingShortcutProgress>
+  <CreateShortcutSuccessMessage>Товчлохын "{0}" амжилттай байгуулсан "{1}".</CreateShortcutSuccessMessage>
+
+  <OpeningInternetShortcutProgress>Интернэт хослол Нээлтийн</OpeningInternetShortcutProgress>
+  <InternetShortcutNotValidMsg>Энэ Internet товчлохын зорилтот URL хүчин төгөлдөр биш юм</InternetShortcutNotValidMsg>
+  <InternetShortcutWindowTitle>холбох рүү очих</InternetShortcutWindowTitle>
+  
+  <CommandVersioning>хувилбарыггаргах</CommandVersioning>
+  <CommandVersionHistory>хувилбар түүх</CommandVersionHistory>
+  <CommandCheckOut>шалгана уу Out</CommandCheckOut>
+  <CommandCheckIn>Шалгах</CommandCheckIn>
+  <CommandUndoCheckOut>Шалгана уу Out Cancel</CommandUndoCheckOut>
+  <VersionHistoryObtainingMessage>Олж авах хувилбар түүх</VersionHistoryObtainingMessage>
+  <NoVersionHistoryMessage>Сонгогдсон файлын хувилбар түүх байхгүй байгаа</NoVersionHistoryMessage>
+  <FileIsCheckedOutMessage>Файлын "{0}" аль хэдийн хэрэглэгч шалгаж байна "{1}" -ийн {2}</FileIsCheckedOutMessage>
+  <CheckingOutMessage>Нь шалгах</CheckingOutMessage>
+  <SuccessfullyCheckedOutMessage>Файлын "{0}" амжилттай хэрэглэгч шалгаж байна "{1}"</SuccessfullyCheckedOutMessage>
+  <FileIsNotCheckedOutMessage>Файлын "{0}" хараахан гарч шалгаж байна гэсэн</FileIsNotCheckedOutMessage>
+  <FileIsCheckedOutOtherUserMessage>Файлын "{0}" өөр хэрэглэгч шалгаж байна "{1}" -ийн {2}.</FileIsCheckedOutOtherUserMessage>
+  <FileUndoCheckOutForbiddenMessage>Та гарч өөр хэрэглэгч хэрэглэж чек цуцалж чадахгүй байна.</FileUndoCheckOutForbiddenMessage>
+  <FileCheckInForbiddenMessage>Та аль хэдийн өөр хэрэглэгч шалгаж байна файлыг шалгаж чадахгүй.</FileCheckInForbiddenMessage>
+  <FileUndoCheckOutConfirmMessage>Хэрэв та өөрийн чекийг гаргаж цуцлах бол баримт бичигт хэрэглэх өөрчлөлт хадгалагдахгүй байх болно! Хэрэв та өөрийн чекийг гаргаж цуцлах хүсэж Та итгэлтэй байна уу?</FileUndoCheckOutConfirmMessage>
+  <FileVersionDeleteConfirmTitle>Файлын хувилбар устгах</FileVersionDeleteConfirmTitle>
+  <FileVersionDeleteConfirmMessage>Та файлын сонгосон хувилбарыг устгахыг хүсэж байна гэдэгт итгэлтэй байна уу?</FileVersionDeleteConfirmMessage>
+  <FileVersionRestoreConfirmTitle>Файлын хувилбар сэргээх</FileVersionRestoreConfirmTitle>
+  <FileVersionRestoreConfirmMessage>Та файлын сонгосон хувилбарыг сэргээх хүсэж байгаа гэдэгт итгэлтэй байна уу? {0} Хэрэв тийм бол ямар сонгосон хувилбар болгон нь аврагдах болно файлыг зааж өгөх хэрэгтэй. Та өөрчлөлтөд (эсвэл тогтоосон хоосон үнэ) бол энэ утгыг орхиж байгаа бол сонгосон хувилбар сонгосон файлыг (файлын өмнөх агуулга хувилбар түүхэнд нэмж болно) солих болно {1} нэр Файлын.:</FileVersionRestoreConfirmMessage>
+  <UndoCheckingOutMessage>Шалгана уу цуцалж Out</UndoCheckingOutMessage>
+  <SuccessfullyUndoCheckedOutMessage>файл төлөө шалгалтын хүчингүй болгох "{0}" амжилттай дуусгасан юм.</SuccessfullyUndoCheckedOutMessage>
+  <SuccessfullyCheckedInMessage>Файлын "{0}" амжилттай хэрэглэгч шалгаж байна "{1}"</SuccessfullyCheckedInMessage>
+  <CheckingInMessage>-д шалгах</CheckingInMessage>
+  <VersionHistoryTitle>Файл хувилбарууд "{0}"</VersionHistoryTitle>
+  <VersionHistoryGridNumberColumn>Ver.</VersionHistoryGridNumberColumn>
+  <VersionHistoryGridNotesColumn>тэмдэглэл</VersionHistoryGridNotesColumn>
+  <CommandRestoreVersion>Сэргээх</CommandRestoreVersion>
+  <ProgressPrepareDownloadOldVersion>хуучин хувилбар татаж бэлтгэх</ProgressPrepareDownloadOldVersion>
+  <FileVersionNotFoundMessage>Сонгогдсон файлын хувилбар олдсонгүй.</FileVersionNotFoundMessage>
+  <ProgressDeletingVersion>хувилбар устгах</ProgressDeletingVersion>
+  <ProgressRestoringVersion>хувилбар сэргээх</ProgressRestoringVersion>
+  <FileNeedCheckInMessage>-д шалгах, эсвэл сонгосон файлын чекийг гаргаж хүчингүй болгож, дахин оролдоно уу.</FileNeedCheckInMessage>
+  <FileCheckedOutEditForbiddenMessage>Та / / файлыг устгах өөрчилж чадахгүй байгаа нэрийг нь өөрчлөх / нүүдэл "{0}" Энэ хэрэглэгч нь шалгаж байгаа бол "{1}" -ийн {2}</FileCheckedOutEditForbiddenMessage>
+  <FileUploadCheckInLabel>Та шалгах, сонгогдсон файл эсвэл файлын шинэ хувилбарыг (доор оруулах хэлбэрийг ашиглаж байгаа) оруулж болно. Хэрэв та сонгосон файлаас шинэ хувилбарыг бий болгох хүсэлтэй байгаа бол энд ямар ч файл хуулж болохгүй.</FileUploadCheckInLabel>
+  <FileUploadCheckInInvalidFileName>Хуулагдсан файлын нэр сонгосон файлын нэрийг яг адил байх ёстой</FileUploadCheckInInvalidFileName>
+  <CheckOutVersionNotes>Энэ хувилбар нь автоматаар үүсгэсэн байна</CheckOutVersionNotes>
+  <RestoreVersionNotes>Энэ хувилбар нь автоматаар-аас хувилбар сэргээх дараа бий болсон {0} хэрэглэгчийн "{1}"</RestoreVersionNotes>
+  <IsCheckedOutHint>файл шалгаж байна</IsCheckedOutHint>
+  <ExistsOldVersionsHint>Файлын бусад хувилбарууд байна</ExistsOldVersionsHint>
+  <IsLockedHint>файл түгжигдсэн байна</IsLockedHint>
+  <FileWasCreatedHint>{0} өмнө бий болсон байна</FileWasCreatedHint>
+  <FileWasModifiedHint>{0} өмнө өөрчлөгдсөн байна</FileWasModifiedHint>
+  <CommonChangedAgo>{0} өмнө</CommonChangedAgo>
+  <DaysShort>г</DaysShort>
+  <HoursShort>цаг</HoursShort>
+  <MinutesShort>м</MinutesShort>
+  <FileContainsMetaDataHint>Агуулдаг зарим мэдээлэл (метадата)</FileContainsMetaDataHint>
+  <FileMetaDataCaptionMobile>Мета</FileMetaDataCaptionMobile>
+
+  <ExistsPublicLinksFileHint>файл нь олон нийтийн холбоосууд байна</ExistsPublicLinksFileHint>
+  <ExistsPublicLinksFolderHint>хавтас олон нийтийн холбоосууд байна</ExistsPublicLinksFolderHint>
+  <PublicLinkNotFound>"{0}" олж чадаагүй олон нийтийн холбоос</PublicLinkNotFound>
+
+  <PublicLinksDeleteWindowTitle>Олон нийтийн холбоосыг устгах (ууд)</PublicLinksDeleteWindowTitle>
+  <PublicLinksDeleteLinkButton>холбоосыг устгах</PublicLinksDeleteLinkButton>
+  <PublicLinksDeleteConfirmMsg>Та сонгосон олон нийтийн холбоог устгахыг хүсэж байна уу?</PublicLinksDeleteConfirmMsg>
+  <PublicLinksDeleteSingleConfirmMsg>Хэрэв та энэ линкийг устгахыг хүсэж Та итгэлтэй байна уу?</PublicLinksDeleteSingleConfirmMsg>
+
+  <DetailsMultiValue>(Олон утга)</DetailsMultiValue>
+
+  <GridBottomFilesSizeInfo>Сонгогдсон: {0} / {1}</GridBottomFilesSizeInfo>
+  <GridBottomFilesFoldersInfo>файлууд: {0} / {1}, хавтас: {2} / {3}</GridBottomFilesFoldersInfo>
+
+  <AmountOfDownloadingsFile>Файл татаж авах</AmountOfDownloadingsFile>
+
+  <CookiesDisabledMessage>Таны хөтчийн Бялуу ажиллагаа унтраасан байна. Энэ талаар эргэж, дахин асаах хөтөч уу.</CookiesDisabledMessage>
+
+  <CommandSendEmail>И-мэйл илгээх</CommandSendEmail>
+  <CommandSendWithGmail>Gmail нь илгээх</CommandSendWithGmail>
+  <CommandSendWithOutlook>Outlook нь илгээх</CommandSendWithOutlook>
+  <SendEmailTo>тулд</SendEmailTo>
+  <SendEmailBulkMailingListHint>&lt;Б&gt; Захидлын жагсаалт &lt;/ б&gt; &lt;br /&gt; Та өөрийн и-мэйл илгээх бүхэл бүтэн бүлгийг зааж өгч болно</SendEmailBulkMailingListHint>
+  <SendEmailBulkMailingListWindowTitle>Таны и-мэйл нь хүлээн авагч нь сонгоно</SendEmailBulkMailingListWindowTitle>
+  <SendEmailEmptyMailingListMessage>Mail жагсаалт хоосон байна</SendEmailEmptyMailingListMessage>
+  <SendEmailSenderEmail>илгээгч и-мэйл</SendEmailSenderEmail>
+  <SendEmailSubject>Агуулга</SendEmailSubject>
+  <SendEmailFilesAsLinksTo>сонгосон файлд холбоос илгээх</SendEmailFilesAsLinksTo>
+  <SendEmailFilesAsAttachements>Сонгогдсон файлуудыг хавсралт болгон илгээх</SendEmailFilesAsAttachements>
+  <SendEmailSend>илгээх</SendEmailSend>
+  <SendEmailProgressMessage>И-мэйл илгээх</SendEmailProgressMessage>
+  <GettingMailingListProgressMessage>захидлын жагсаалт авах</GettingMailingListProgressMessage>
+  <SendEmailSuccessMessage>И-мэйл амжилттай явуулсан байна.</SendEmailSuccessMessage>
+  <SendEmailResultsMessage>Явсан:. {0} &lt;br /&gt; чадсангүй: {1} {2}.</SendEmailResultsMessage>
+  <SmtpServerSettingsIncorrect>SMTP сервер сонголт хоосон, эсвэл буруу бас байна</SmtpServerSettingsIncorrect>
+  <FromEmailIncorrect>и-мэйл эхлэн хаяг буруу эсвэл хоосон байна</FromEmailIncorrect>
+  <ToEmailIncorrect>и-мэйл хаяг буруу эсвэл хоосон байна</ToEmailIncorrect>
+  <EmailSubjectEmpty>и-мэйл хичээл зааж өгөөгүй байна</EmailSubjectEmpty>
+  <UploadFromUrlTab>URL эхлэн</UploadFromUrlTab>
+  <UploadFromUrlFieldLabel>URL (HTTP, эсвэл FTP ганц файлын)</UploadFromUrlFieldLabel>
+  <UploadFromUrlProgressTitle>URL нь зургаа upload хийнэ үү</UploadFromUrlProgressTitle>
+  <UploadFromUrlMsg>URL нь байршуулж байна</UploadFromUrlMsg>
+  <UploadFromUrlSuccessMsg>Файлын "{0}" амжилттай байршуулсан байна "{1}"</UploadFromUrlSuccessMsg>
+  <UploadFromUrlUnknownResponse>серверээс хариу хүлээн зөвшөөрөхгүй</UploadFromUrlUnknownResponse>
+  <UploadFromUrlEmptyFileName>Хуулагдсан файлын нэр хоосон байна</UploadFromUrlEmptyFileName>
+  <UploadFromUrlFileName>нэрээр хадгална (URL-аас нэр ашиглаж хоосон орхи)</UploadFromUrlFileName>
+  <UploadFromUrlFileNameMobile>нэртэй хадгал</UploadFromUrlFileNameMobile>
+  
+  <!-- Common Clouds keys -->  
+  <CloudAuthenticateMessage>Та {0} нэвтрэх ёстой. "{1}" холбоос дээр дарж, та logon хэлбэрээр дахин чиглүүлэгдэх болно. {2} дэлгэрэнгүй мэдээлэл. {3}</CloudAuthenticateMessage>
+  <CloudAuthenticateLink>нь таниулан {0}</CloudAuthenticateLink>  
+  <CloudDownloadingMessage>руу татаж {0}</CloudDownloadingMessage>
+  <CloudAuthWarningMessage>арга хэмжээ болж чадахгүй байна бол энэ цонхыг хааж, "{0}" холбоос дээр дахин дарна уу.</CloudAuthWarningMessage>
+  <CloudAuthEmptyInvalidMessage>{0} Access Token хоосон, эсвэл хүчин төгөлдөр бус байна. дахин нэвтэрнэ үү.</CloudAuthEmptyInvalidMessage>
+  <CloudDownloadEndMessageTitle>Татаж авах дууссан байна</CloudDownloadEndMessageTitle>
+  <CloudDownloadFilesSuccessMessage>{0} файл (с) "{1}" {2} хавтас амжилттай татаж авах.</CloudDownloadFilesSuccessMessage>
+  <CloudNotDownloadedFilesMessage>{0} файлыг (үүд) ийг татаж чадсангүй:</CloudNotDownloadedFilesMessage>
+  <CloudFoldersCreatedSuccessMessage>{0} хавтас (үүд) "{1}" {2} хавтас амжилттай бүтээсэн.</CloudFoldersCreatedSuccessMessage>
+  <CloudNotFoldersCreatedMessage>{0} хавтас (ууд) бий болгоогүй:</CloudNotFoldersCreatedMessage>
+  <CloudFilesFoldersSuccessMessage>{0} файл (ууд) {1} хавтас (с) "{2}" {3} хавтас амжилттай татаж авах.</CloudFilesFoldersSuccessMessage>
+  <CloudNotFilesFoldersDownloadedMessage>{0} файл (ууд) {1} хавтас (үүд) ийг татаж чадсангүй:</CloudNotFilesFoldersDownloadedMessage>
+  <CloudLinkText>Бичигчийн {0}</CloudLinkText>
+  <CloudLinkDescription>{0} хуудас руу очих</CloudLinkDescription>
+  <CloudRootFolderName>&lt;Б&gt; {0} эх хавтас &lt;/ б&gt;</CloudRootFolderName>
+  <CloudCheckFolerMessage>үргэлжлүүлэх нэг {0} хавтсыг шалгана уу.</CloudCheckFolerMessage>
+  <CloudSelectFolderMessage>цааш нь үргэлжлүүлнэ {0} хавтсыг сонгоно уу.</CloudSelectFolderMessage>
+  <CloudGetFoldersInfoProgressMessage>Ачааллаж байна {0} хавтас мэдээлэл</CloudGetFoldersInfoProgressMessage>
+  <CloudGetItemsInfoProgressMessage>Loading {0} зүйлс мэдээлэл</CloudGetItemsInfoProgressMessage>
+  <CloudUploadSelectItemsMessage>{0} үргэлжлүүлнэ зүйлсийг сонгоно уу.</CloudUploadSelectItemsMessage>
+  <CloudUploadTotalFiles>Нийт файлууд: {0} ({1})</CloudUploadTotalFiles>
+  <CloudUploadProgressMessage>-аас оруулах {0}</CloudUploadProgressMessage>
+  <CloudSignInAsDifferentUserText>-аас гарах {0}</CloudSignInAsDifferentUserText>
+  <CloudLogoutProgressMsg>-аас гарах {0}</CloudLogoutProgressMsg>
+  <CloudRevokeTokenMsg>хүчингүй болгох токен</CloudRevokeTokenMsg>
+  <CloudRefreshTokenMsg>шинэ сэргэг токен</CloudRefreshTokenMsg>
+  <CloudAuthNotCompleteMsg>Authentication дууссан байна. &lt;br /&gt; Уу</CloudAuthNotCompleteMsg>
+  <CloudTrustedSitesMsg> &lt;br /&gt; &lt;br /&gt; Дараах "Trusted Sites" жагсаалтад сайт шалгах</CloudTrustedSitesMsg>
+  <TrustedSitesForMicrosoftEdge>Хэрэв та Microsoft тэргүүнд ашиглаж байгаа бол Internet Explorer-д Итгэмжлэгдсэн сайтууд шалгах</TrustedSitesForMicrosoftEdge>
+  <CloudCheckAuthMsg>{0} танилт шалгах</CloudCheckAuthMsg>
+  <CloudLoadMsg>Ачааллаж байна {0}</CloudLoadMsg>
+  <CloudFreeSpaceError>{2} файл байршуулахыг хангалттай өрөө байхгүй байна. За: {0}. Файлын хэмжээ: {1}.</CloudFreeSpaceError>
+  <CloudFreeSpaceExceeded>хангалттай өрөө байхгүй байна {0}</CloudFreeSpaceExceeded>
+  <CloudExceedFileSizeError>файлыг та татаж авах гэж оролдож байгаа {1} файлын хэмжээ, татаж авах хүлцэх хэмжээнээс их байна - {0}.</CloudExceedFileSizeError>
+  <CloudFolderNotFound>Лавлах олж чадаагүй байна. Магадгүй энэ нь устгагдсан байна</CloudFolderNotFound>
+  <CloudFileNotFound>Файл олж чадаагүй байна. Магадгүй энэ нь устгагдсан байна</CloudFileNotFound>
+  <CloudNoFoldersMessage>харуулах ямар ч хавтас байдаг</CloudNoFoldersMessage>
+  <CloudLibraryNotLoadedMsg>{0} үйлчлүүлэгч номын сан /&gt; ачаалаагүй байгаа! &lt;br /&gt; Интернэтийн холболтоо шалгах, эсвэл хуудаснаас үзнэ үү. &lt;br Сэргээнэ уу Мөн</CloudLibraryNotLoadedMsg>
+  <CloudDownloadWithNewNames>Дараах файлыг (ууд) шинэ нэр нь татаж авах:</CloudDownloadWithNewNames>
+
+  <!-- Google Drive Cloud keys -->
+  <CommandDownloadToGoogleDocs>Google Drive нь татаж авах</CommandDownloadToGoogleDocs>
+  <GoogleDocsSaveAs>хадгалах:</GoogleDocsSaveAs>
+  <GoogleDocsSaveAsTitle>Save "{0}" гэж ...</GoogleDocsSaveAsTitle>
+  <GoogleDocsDownloadEndWarningMessage>Та өөрийн Google Drive дансанд Хуулагдсан баримт бичгийг харж чадахгүй бол хэд хэдэн секунд хүлээгээд Google Drive жагсаалтыг сэргээнэ.</GoogleDocsDownloadEndWarningMessage>
+  <GoogleDriveUploadNoFilesMessage>байршуулахаар Google Drive-д ямар ч файл</GoogleDriveUploadNoFilesMessage>
+  <GoogleDriveMaxUploadSizeError>агуулга төрлийн хувьд "{0}" байршуулж хамгийн их хэмжээ {1} хэтэрсэн байна.</GoogleDriveMaxUploadSizeError>
+  <GoogleDriveConvertMsg>Хэрэв боломжтой бол, Google баримт бичиг хэлбэршилт уруу файлуудыг хөрвүүлэх. {0} Илүү дэлгэрэнгүй мэдээллийг {1}.</GoogleDriveConvertMsg>
+
+  <!-- Box Cloud keys -->
+  <CommandDownloadToBox>Шигтгээ татаж авах</CommandDownloadToBox>
+  <BoxDownloadWithNewNames>Дараах файл (үүд) шинэ хувилбарыг нь шинэчилсэн байна:</BoxDownloadWithNewNames>
+  <BoxNoViewPermission>Та сонгосон санг харах эрх байхгүй байна</BoxNoViewPermission>
+  <BoxNoDownloadPermission>Та татаж авах эрх байхгүй байна</BoxNoDownloadPermission>
+  <BoxNoUploadPermission>Та оруулах эрх байхгүй байна</BoxNoUploadPermission>
+  <BoxUnableCreateOrInfoError>бий болгох, мэдээлэл олж авах боломжгүй</BoxUnableCreateOrInfoError>
+  
+  <!-- Dropbox Cloud keys -->
+  <CommandDownloadToDropbox>Dropbox руу татаж авах</CommandDownloadToDropbox>
+  
+  <!-- OneDrive Cloud keys -->
+  <CommandDownloadToSkyDrive>OneDrive нь татаж авах</CommandDownloadToSkyDrive>
+  <AuthenticateOAuthSkyDriveMessageShort>Та өөрийн Microsoft Live дансанд нэвтрэх шаардлагатай.</AuthenticateOAuthSkyDriveMessageShort>
+  <SkyDriveAuthAlsoString>Мөн</SkyDriveAuthAlsoString>
+  <SkyDriveLoginButtonTitle>Login</SkyDriveLoginButtonTitle>
+  <SkyDriveRegistryMessage>нь Windows Live ID байдаг юм биш үү? {0} бүртгүүлнэ үү ... {1}</SkyDriveRegistryMessage>
+  <SkyDriveMapRootFolder>Тайлбар! Та {0} зураг {1} таны OneDrive хавтас болно. зам байна</SkyDriveMapRootFolder>
+  <SkyDriveMoreInfoLink>{0} OneDrive (SkyDrive) талаар дэлгэрэнгүй мэдээлэл {1}</SkyDriveMoreInfoLink>
+  <OneDriveMaxUploadSizeError>боломжийн хэмжээ ({0}) Хуулагдсан файлын давсан байна: {1}</OneDriveMaxUploadSizeError>
+  <!-- OneDrive for Business -->
+  <OneDriveForBusinessMapWebFolderInfo>&lt;Б&gt; Анхаар! &lt;/ Б&gt; Энэ газар файлуудыг нээх өмнө, та эхлээд вэб сайтад таны итгэж сайтууд жагсаалтанд нэмэх, вэб сайт үзэх, болон (IE хөтөч) нь автоматаар нэвтрэх сонголтыг сонгох ёстой.</OneDriveForBusinessMapWebFolderInfo>
+  
+  <UploadFromUrlLabelText>Та дэлхийн файлын серверээс эсвэл шиг файл хуваалцах үйлчилгээнд хадгалсан файлын URL-г зааж өгч болно {0}, {1} {2} {3} {4}.</UploadFromUrlLabelText>
+  <UploadFromUrlLabelTextMobile>файлын URL заана</UploadFromUrlLabelTextMobile>
+
+  <LinkToFileTitle>файл / хавтас руу Link</LinkToFileTitle>
+  <LinkToFileWarningAnonym>Энэ холбоос файлд нэр нь үл мэдэгдэгч хандах боломж олгодог. Ямар ч хэрэглэгч, тэр ч байтугай нэг нь энэ талбайд ямар ч данс байна, татаж авах, эсвэл олон нийтийн холбоосоор дамжуулан файл хуулж болох юм. файл А Олон нийтийн холбоосууд та нэг сонгосон файлыг татаж авах боломжийг олгодог. {0} Илүү дэлгэрэнгүй мэдээллийг {1}.</LinkToFileWarningAnonym>
+  <LinkToFileDownloadFileLink>Энэ линк нь та {1} сонгон файлыг {0} татаж авах боломжийг олгодог. Та энэ холбоосыг ашиглах нь зөв данс хэрэгтэй. Энэ файлд нэр нь үл мэдэгдэгч боломжийг хангаж чадахгүй.</LinkToFileDownloadFileLink>
+  <LinkToFileExpireDate>дуусах огноо</LinkToFileExpireDate>
+  <LinkToFileDownloadCnt>Татаж авах тоо хязгаар</LinkToFileDownloadCnt>
+  <LinkToFileDownloadType>Link төрөл</LinkToFileDownloadType>
+  <LinkToFileGenerate>холбоос үүсгэх</LinkToFileGenerate>
+  <LinkToFilePasswordNotMatch>Нууц үг таарахгүй байна</LinkToFilePasswordNotMatch>
+  <LinkToFilePasswordRequired>Олон нийтийн холбоос нууц үг шаардлагатай</LinkToFilePasswordRequired>
+  <LinkToFileInvalidForm>Буруу параметрүүд</LinkToFileInvalidForm>
+  <LinkToFileAnonymDownloadLinkHint>олон нийтийн холбоо "{0}"</LinkToFileAnonymDownloadLinkHint>
+  <LinkToFileAnonymDownloadShortLinkHint>богино нийтийн холбоос "{0}"</LinkToFileAnonymDownloadShortLinkHint>
+  <LinkToFileOpenFolderLink>Энэ линк нь та {1} сонгосон хавтсыг {0} нээх боломжийг олгодог. Та энэ холбоосыг ашиглах нь зөв данс хэрэгтэй. Энэ хавтас нь нэр нь үл мэдэгдэгч боломжийг хангаж чадахгүй.</LinkToFileOpenFolderLink>
+  <LinkToFileOpenFileLink>Энэ холбоос файл хавтсыг нээж, үүнийг онцлон</LinkToFileOpenFileLink>
+  <LinkToFileDaysLeft>өдөр үлдсэн</LinkToFileDaysLeft>
+  <LinkToFileCaptionMobile>Олон нийтийн холбоосууд</LinkToFileCaptionMobile>
+
+  <PublicFolderLinkHint>хавтас нь олон нийтийн холбоос "{0}"</PublicFolderLinkHint>
+  <PublicFolderShortLinkHint>хавтас Богино олон нийтийн холбоос "{0}"</PublicFolderShortLinkHint>
+  <PublicFolderLinkDownloadZipHint>хавтас зип архив нь холбоос татаж авах "{0}"</PublicFolderLinkDownloadZipHint>
+  <PublicFolderLinkShortDownloadZipHint>хавтас зип архив богино татаж авах холбоос "{0}"</PublicFolderLinkShortDownloadZipHint>
+  <PublicFolderLinkZipDownload>Шахах ба (а ZIP архивт) одоогийн хавтас {0} татаж авах</PublicFolderLinkZipDownload>
+  <PublicFolderLinkOverwriteWhileUpload>одоогийн дарж бичих</PublicFolderLinkOverwriteWhileUpload>
+  <PublicFolderLinkOpenFolderHint>Нээлттэй хавтас</PublicFolderLinkOpenFolderHint>
+  <PublicFolderDownloadDisabledNote>Тайлбар! Энэ хавтас эзэн энэ фолдер файлуудыг татаж авах хориотой байсан юм.</PublicFolderDownloadDisabledNote>
+  <PublicFolderLinkSendEmails>и-мэйл жуулчид үйл ажиллагааны талаарх мэдээллийг илгээх</PublicFolderLinkSendEmails>
+  <PublicFolderAnonymAccessControl>Хандалтыг хянах хяналтын</PublicFolderAnonymAccessControl>
+  <PublicFolderAnonymDownload>Татаж авах файлууд</PublicFolderAnonymDownload>
+  <PublicFolderAnonymZipDownload>Татаж авах хавтас (ZIP)</PublicFolderAnonymZipDownload>
+  <PublicFolderAnonymUpload>оруулах</PublicFolderAnonymUpload>
+  <PublicFolderAnonymViewContent>Харах файлын жагсаалт</PublicFolderAnonymViewContent>
+  <PublicFolderNoteForUsers>хэрэглэгчдийн хувьд анхаарна</PublicFolderNoteForUsers>
+  <PublicFolderACLNotSet>Хандалтын хяналтын багц ороогүй байна</PublicFolderACLNotSet>
+  <PublicFolderWarningAnonym>Энэ холбоос хавтас нь нэр нь үл мэдэгдэгч хандах боломж олгодог. Ямар ч хэрэглэгч, тэр ч байтугай нэг нь энэ талбайд ямар ч данс байна, татаж авах, эсвэл олон нийтийн холбоосоор дамжуулан файл хуулж болох юм. хавтсанд нь олон нийтийн холбоос та бүхэл бүтэн хавтас аль алинд нь (архивт савлаж) болон хувийн файлуудыг татаж авах боломжийг олгодог. {0} Илүү дэлгэрэнгүй мэдээллийг {1}.</PublicFolderWarningAnonym>
+  <PublicLinksShowForAllItems>бүх харуулах</PublicLinksShowForAllItems>
+  <PublicLinksShowForSelected>сонгосон нь харуулах</PublicLinksShowForSelected>
+  
+  <MultipleFileInputMessage>Тайлбар! Таны веб хөтөч нэг дор олон файл сонгох дэмждэг.</MultipleFileInputMessage>
+  <UploadZipUnzipNote>Та олон файл, хавтас нь зип архив хуулж болно, дараа нь тухайн цэсний "{0}" дараах тушаалыг ашиглаж задлаарай.</UploadZipUnzipNote>
+  <DnDFileUploadingStatusCode>төлөв код</DnDFileUploadingStatusCode>
+  <DnDFileUploadingPathOrNameEmpty>зам болон эсвэл файлын нэрийг зааж өгөөгүй байна</DnDFileUploadingPathOrNameEmpty>
+  <DnDFileUploadingRemoveFromList>жагсаалтаас устгах</DnDFileUploadingRemoveFromList>
+  <DndFileUploadingDontDropFoldersMsg>Та чирж болон доорх хүснэгтэд руу файлуудыг унах болно. Та хавтас буурах чадахгүй.</DndFileUploadingDontDropFoldersMsg>
+  <DndFileUploadingAllowDropFoldersMsg>Та чирж болон доорх хүснэгтэд руу файл, хавтас унах болно.</DndFileUploadingAllowDropFoldersMsg>
+  <DndFileUploadingFilesSummaryInfo>файлуудын тоо: {0} ({1})</DndFileUploadingFilesSummaryInfo>
+  <DropFilesHere>байршуулахыг файлуудыг Сурагчийг</DropFilesHere>
+  
+  <FileGridDownloadColumn>Татаж авах файлууд</FileGridDownloadColumn>
+  <FileAttributesField>шинж чанарууд</FileAttributesField>
+  <FolderCalculateSize>тооцоолох</FolderCalculateSize>
+  <FolderRecalculateSize>дахин тооцоолно</FolderRecalculateSize>
+  <FolderContainsField>агуулсан</FolderContainsField>
+  <FolderContainsFilesFolders>{0} файлууд, {1} хавтас</FolderContainsFilesFolders>
+  <FolderCalculatingMessage>тооцох нь</FolderCalculatingMessage>
+
+  <SearchTitle>Файл хайлт. Боломжит хэв маяг: {0}</SearchTitle>
+  <SearchType>хайх</SearchType>
+  <SearchOnlyFiles>зөвхөн файлууд</SearchOnlyFiles>
+  <SearchOnlyFolders>зөвхөн хавтас</SearchOnlyFolders>
+  <SearchBothFilesFolders>файл болон хавтас аль аль нь</SearchBothFilesFolders>
+  <SearchFileDetails>Файлын мэдээлэл</SearchFileDetails>
+  <SearchFileContent>Файлын агуулга</SearchFileContent>
+  <SearchByDateFrom>нь</SearchByDateFrom>
+  <SearchByDateTo>нь</SearchByDateTo>
+  <SearchLocation>Байршил</SearchLocation>
+  <SearchLocationEntire>хаана ч</SearchLocationEntire>
+  <SearchLocationCurrent>одоогийн</SearchLocationCurrent>
+  <SearchSearch>хайх</SearchSearch>
+  <SearchNothingFound>Юу ч болсон байлаа! Таны шалгуурт боловсронгуй уу.</SearchNothingFound>
+  <SearchErrorCaption>алдаа хайх</SearchErrorCaption>
+  <SearchResultsNotComplete>Анхаар! Зарим хавтас хараахан индексжүүлсэн чадаагүй байна гэж Хайлтын үр дүн дутуу байж болох юм.</SearchResultsNotComplete>
+  <SearchRepeatOrContactAdmin>дараа дахин таны хайлтын системийг ашигла эсвэл өөрийн админтай холбогдоно уу.</SearchRepeatOrContactAdmin>
+  <SearchLinkToManual>{0} Windows Search Help үзнэ үү {1}</SearchLinkToManual>
+  <QuerySearchByNameText>нэрээр нь хайлт</QuerySearchByNameText>
+  <QuerySearchByConentText>агуулга</QuerySearchByConentText>
+  <SearchByDetailsWarning>Анхаар! Та шинж хайх ашиглахыг хүсэж байгаа Тохиргоо заасан байна. Энэ тохиолдолд, хайлт Windows Индексжүүлэх үйлчилгээ ашиглан оронд стандарт аргаар явуулж болно.</SearchByDetailsWarning>
+  <SearchInSpecialFolderWarning>Анхаар! Одоогийн хавтас үл хамаарна хайх хэрэгтэй. Хэрвээ та үргэлжлүүлбэл, хайлт бүх сангууд хийж болно.</SearchInSpecialFolderWarning>
+
+  <UploadTitle>олон файлуудыг байршуулж байна</UploadTitle>
+  <UploadSimpleTab>Стандарт</UploadSimpleTab>
+  <UploadSimpleReset>Reset</UploadSimpleReset>
+  <UploadSimpleUpload>оруулах</UploadSimpleUpload>
+  <UploadSimpleUploadFolderLabelCollapsed>Оруулж хавтас</UploadSimpleUploadFolderLabelCollapsed>
+  <UploadSimpleUploadFolderButtonText>Хавтас сонгох</UploadSimpleUploadFolderButtonText>
+  <UploadJavaTab>Java</UploadJavaTab>
+  <UploadJavaIgnorePaths>нэг фолдерт байгаа бүх файлуудыг байрлуулна (замуудыг хэрэгсэхгүй)</UploadJavaIgnorePaths>
+  <UploadFlashTab>Flash</UploadFlashTab>
+  <UploadSilverlightTab>Silverlight</UploadSilverlightTab>
+  <UploadPartially>файлуудын зарим нь Хуулагдсан чадахгүй байна</UploadPartially>
+  <UploadFolderNotSelectedTitle>Folder сонгосон ороогүй байна</UploadFolderNotSelectedTitle>
+  <UploadFolderNotSelected>ямар файл байрлуулах болно хавтсыг сонгоно уу</UploadFolderNotSelected>
+  <UploadInProgress>Таны файлууд оруулах</UploadInProgress>
+  <UploadInvalidFormFields>Form талбарууд нь хүчин төгөлдөр бус үнэ цэнийг нь гаргаж байж болно</UploadInvalidFormFields>
+  <UploadAjaxFailed>Ajax холбооны чадаагүй</UploadAjaxFailed>
+  <UploadFilesAlreadyExists>Файл (ууд) аль хэдийн орсон байдаг</UploadFilesAlreadyExists>
+  <UploadOverwriteFiles>Байгаа файлуудыг дарж бичих болно. Та үргэлжлүүлэхийг хүсэж байна уу?</UploadOverwriteFiles>
+  <UploadOverwriteOrRenameFiles>Та заасан санд тохирсон нэр нь нэг буюу хэд хэдэн файл бий. Та одоо байгаа файлуудыг дарж бичихийг хүсэж байна уу? Дарна уу "{0}" Чи аль хэдийн байгаа файлуудыг дарж хүсэж байгаа, эсвэл бол "{1}" - Хэрэв та бүх файлуудыг хадгалахыг хүсвэл (тэдгээр нь нэр нь өөрчлөгдсөн байж болно).</UploadOverwriteOrRenameFiles>
+  <UploadNotModifyExistingFiles>Та заасан санд нэрийг тохирох нэг буюу түүнээс дээш файл байдаг. файл оруулагдсан болохгүй. оруулах жагсаалтаас байгаа файлуудыг устгах эсвэл нэрийг нь уу.</UploadNotModifyExistingFiles>
+  <UploadRenamedExistingFiles>Та заасан санд нэрийг тохирох нэг буюу түүнээс дээш файл байдаг. тохирох нэр Files нэрийг өөрчилж болно.</UploadRenamedExistingFiles>
+  <UploadNotAllowedTitle>Оруулж зөвшөөрөгдөөгүй байна</UploadNotAllowedTitle>
+  <UploadNotAllowedPrompt>Та энэ хавтас нь файл хуулж чадахгүй байна</UploadNotAllowedPrompt>
+
+  <UploadMobileIOSVideo>видео зургаа upload хийнэ. Та видео файлыг оруулах шаардлагатай бол энэ сонголтыг идэвхжүүлнэ.</UploadMobileIOSVideo>
+  <UploadMobileAurigmaLink>Та Aurigma Up байх ёстой гэдгийг анхаарна уу! файл хуулж тулд таны төхөөрөмж дээр суулгасан. Aurigma Up суулгах энд дарна уу! зураг болон видео татаж авах програм.</UploadMobileAurigmaLink>
+  <UploadMobileAurigmaReady>Aurigma Up дараа! суулгасан бол эсвэл та аль хэдийн суулгасан бол, хэвлэлийн товчийг доорх "зургаа upload хийнэ".</UploadMobileAurigmaReady>
+  <UploadMobileAurigmaFilePrefix>хуулсан файлууд нь угтвар</UploadMobileAurigmaFilePrefix>
+  <UploadMobileResult>үр дүнг зургаа upload хийнэ:</UploadMobileResult>
+  <UploadMobileUrlPlaceHolder>Энд URL-г оруулна уу</UploadMobileUrlPlaceHolder>
+  <UploadMobileFileNamePlaceHolder>Энд шинэ файлын нэрийг оруулна уу</UploadMobileFileNamePlaceHolder>
+  <UploadBrowseLabel>Browse ...</UploadBrowseLabel>
+  
+  <MobileToolTipsCaption>та мэдэх үү ...</MobileToolTipsCaption>
+  <MobileToolTipsNextButton>Дараа нь үзүүр</MobileToolTipsNextButton>
+  <MobileToolTipsIKnowButton>Би үүнийг мэднэ</MobileToolTipsIKnowButton>
+  <MobileToolTipsHideButton>хэзээ ч харуулж байна</MobileToolTipsHideButton>
+  <MobileToolTipsMultiSelection>хэд хэдэн файл, хавтас сонгохын тулд та &lt;б&gt; {0} &lt;/ б&gt; товч дээр дарснаар олон сонголт горимыг идэвхжүүлэх хэрэгтэй. олон сонголт горимд-аас гарах дахин дар.</MobileToolTipsMultiSelection>
+  <MobileToolTipsSlideToRemove>Та үүнийг арилгахын тулд жагсаалт зүйлсийн аль нэг нь үлдсэн эрхийг нь гулсуулж болно. Нь шугамын шилжүүл товч жагсаалт зүйлийн орой дээр гарч байх болно.</MobileToolTipsSlideToRemove>
+  <MobileToolTipsTapAndHoldForMenu>Tap болон тухайн цэс харуулах жагсаалт зүйлсийн аль нэг нь барьж. "Ил тод" товчлуур дээр крант харуулагдах нэг нөхцөл цэс</MobileToolTipsTapAndHoldForMenu>
+  <MobileToolTipsDoubleTapForPreview>файл дээр нэг цорго үүнийг урьдчилан эсвэл татаж авахын тулд хоёр цорго сонгох. үүнийг нээх хавтас дээр нэг цорго.</MobileToolTipsDoubleTapForPreview>
+  <MobileToolTipsPullDownToRefresh>Ингэх нь агуулгыг дахин дуудахыг дараах жагсаалтыг доош нь татах.</MobileToolTipsPullDownToRefresh>
+  <MobileToolTipsPinchToScale>Та томруулан-д болон томруулан гарч зургийг нь "хавчих" дохио ашиглаж болно.</MobileToolTipsPinchToScale>
+  <MobileToolTipsTapToHideBars>багажийн самбарыг шилжихийн тулд зураг самбар дээр хаана ч дар.</MobileToolTipsTapToHideBars>
+  <MobileToolTipsSlideLeftRightToNext>слайд дохио зангаа нь зургийг шилжүүлнэ.</MobileToolTipsSlideLeftRightToNext>
+
+  <DownloadToCloudMobileTip>Нэг цорго хавтсыг үүнийг нээж хоёр цорго сонгох.</DownloadToCloudMobileTip>
+  
+  <UploadTotalMaxSizeMessage>Тайлбар! бүх оруулагдсан файлуудын хамгийн их хэмжээ хэтэрч болохгүй {0}.</UploadTotalMaxSizeMessage>
+  <UploadOneFileMaxSizeMessage>Тайлбар! Хуулагдсан файл бүрийн хамгийн их хэмжээ хэтэрч болохгүй {0}.</UploadOneFileMaxSizeMessage>
+  <UploadUnlimitedSizeMessage>Тайлбар! оруулагдсан файлыг хэмжээ хязгааргүй байдаг юм.</UploadUnlimitedSizeMessage>
+  <SimpleUploadSetFileNameNote>2 анхаарна уу! Файлын сонгогдсон дараа та файл байршуулах дараа болно нэрийг өөрчилж болно</SimpleUploadSetFileNameNote>
+
+  <AnonymousUploadTitle>Энэ хавтас нь файл хуулж</AnonymousUploadTitle>
+  <AnonymousUploadDescription>Та энэ хавтаст файл хуулж болох юм. доорх "хайж" товчийг дарж файлыг сонгоно.</AnonymousUploadDescription>
+  <AnonymousUploadOverwriteHint>Хуулагдсан файл байгаа бол, энэ нь сольж болно.</AnonymousUploadOverwriteHint>
+  <AnonymousUploadShowUploadHint>Харуулах оруулах хэлбэр</AnonymousUploadShowUploadHint>
+  <AnonymousUploadHideUploadHint>Нуух оруулах хэлбэр</AnonymousUploadHideUploadHint>
+  <AnonymousUploadNewFolderNameHint>талбарт та дэд сан нэрийг зааж өгч болно доор (хэрэв байхгүй бол хавтас үүсгэгдэх болно) нь файлуудыг байршуулж болно:</AnonymousUploadNewFolderNameHint>
+  <AnonymousUploadCompleteTitle>фолдер руу оруулах {0} дууссан байна</AnonymousUploadCompleteTitle>
+  <AnonymousUploadExistsFilesMessage>Дараах файл (үүд) ижил нэртэй (үүд) ашиглан файлын (ууд) аль хэдийн байдаг, учир нь оруулагдсан байна гэсэн: {0}.</AnonymousUploadExistsFilesMessage>
+  <AnonymousUploadOwnersNote>хавтас эзэмшигчээс анхаарна уу</AnonymousUploadOwnersNote>
+  <AnonymousDownloadPageTitle>Файлыг татах</AnonymousDownloadPageTitle>
+  <AnonymousDownloadFileHint>Файлыг татах</AnonymousDownloadFileHint>
+  <AnonymousUploadPageTitle>хавтас нь зургаа upload хийнэ үү</AnonymousUploadPageTitle>
+  <AnonymousPublicFolderPageTitle>Олон нийтийн хавтас</AnonymousPublicFolderPageTitle>
+  <AnonymousLoginAccessUserFailure>Та нөөц боломж байх албагүй дансанд бүртгэгдсэн байна. Таны хандах бусад Итгэмжлэх жуух бичгээ өргөн оруулна уу. Та тэднийг мэдэхгүй байгаа бол, олон нийтийн холбоос эсвэл таны администраторын эзэн холбоо барина уу.</AnonymousLoginAccessUserFailure>
+  <ProgressGettingAnonymLink>Олон нийтийн холбоос үүсгэх</ProgressGettingAnonymLink>
+  <ProgressGettingAnonymLinks>Нэр нь үл мэдэгдэх холбоосыг авах</ProgressGettingAnonymLinks>
+  <ProgressGettingBoxViewLink>Шигтгээ харах холбоосыг авах</ProgressGettingBoxViewLink>
+  <AutodeskScriptNotIncludedMessage>Autodesk Viewer скриптийг дуудаж чадахгүй байна</AutodeskScriptNotIncludedMessage>
+  <ProgressUninitializeAutodeskViewer>Autodesk Viewer Хаалтын</ProgressUninitializeAutodeskViewer>
+  <ProgressGettingAutodeskViewLink>Autodesk харах мэдээллийг авах</ProgressGettingAutodeskViewLink>
+  <AnonymousChangeLanguageHint>хэлээ сонгоно уу</AnonymousChangeLanguageHint>
+  <AnonymousUpLinkHint>эцэг эх хавтас руу буцах</AnonymousUpLinkHint>
+  <AnonymousPasswordDescription>хавтас нууц үгээр хамгаалагдсан байдаг</AnonymousPasswordDescription>
+  <AnonymousPasswordIncorrectMessage>нууц үг буруу байна</AnonymousPasswordIncorrectMessage>
+  <AnonymousErrorTitle>Олон нийтийн холбоосууд алдаа</AnonymousErrorTitle>
+  <AnonymousErrorNotFound>Олон нийтийн холбоос "{0}" олж чадаагүй байна!</AnonymousErrorNotFound>
+  <AnonymousErrorAccessDenied>Та олон нийтийн холбоосыг ашиглах зөвшөөрлийг "{0}" байхгүй байна</AnonymousErrorAccessDenied>
+  <AnonymousErrorFileNotFound>олон нийтийн холбоо "{0}" бус одоо байгаа файл хэлнэ, эсвэл хавтас буюу NTFS унших хандалт татгалзсан байна</AnonymousErrorFileNotFound>
+  <AnonymousErrorUnknownLinkType>олон нийтийн холбоо "{0}" олж байсан юм</AnonymousErrorUnknownLinkType>
+  <AnonymousSendEmailSubject>Олон нийтийн хавтас Жуулчид үйл ажиллагаа</AnonymousSendEmailSubject>
+  <AnonymousSendEmailUploadBody>Дараах файлууд нь таны олон нийтийн фолдерт байршуулсан байсан {0} {1}.</AnonymousSendEmailUploadBody>
+  <AnonymousSendEmailDownloadBody>Файлын {0} таны олон нийтийн хавтас {1} татаж байна.</AnonymousSendEmailDownloadBody>
+  <AnonymousSendEmailZipDownloadBody>Олон нийтийн хавтас {0} бүх агуулга ZIP архив татаж байна.</AnonymousSendEmailZipDownloadBody>
+  <AnonymousViewLinksButton>холбоосууд харах</AnonymousViewLinksButton>
+  <AnonymousViewLinksHint>одоо байгаа олон нийтийн холбоосууд харахын тулд</AnonymousViewLinksHint>
+  <AnonymousViewLinksWindowTitle>Олон нийтийн холбоосууд</AnonymousViewLinksWindowTitle>
+  <AnonymousViewLinksDateCreatedColumn>бүтээл огноо</AnonymousViewLinksDateCreatedColumn>
+  <AnonymousViewLinksDateExpiredColumn>дуусах огноо</AnonymousViewLinksDateExpiredColumn>
+  <AnonymousViewLinksPermissionColumn>Permission</AnonymousViewLinksPermissionColumn>
+  <AnonymousViewLinksDownloadedColumn>зүүн татаж авах тоо</AnonymousViewLinksDownloadedColumn>
+  <ProgressDeletingAnonymousLink>Олон нийтийн холбоосыг устгах</ProgressDeletingAnonymousLink>
+  <ProgressSavingAnonymousLink>Олон нийтийн холбоос хадгалах</ProgressSavingAnonymousLink>
+  <AnonymousEditLinkWindowTitle>олон нийтийн холбоос засварлах "{0}"</AnonymousEditLinkWindowTitle>
+  <AnonymousEditLinkShowUrl>харуулах холбоос</AnonymousEditLinkShowUrl>
+  <AnonymousEditLinkNotFound>Олон нийтийн холбоос олж чадаагүй байна, эсвэл хүчинтэй байх нь хугацаа нь дууссан байна</AnonymousEditLinkNotFound>
+
+  <AnonymousLinkSendViaButton>дамжуулан илгээх ...</AnonymousLinkSendViaButton>
+  <AnonymousLinkSendViaEmailItem>И-мэйл ...</AnonymousLinkSendViaEmailItem>
+  <AnonymousLinkSendButton>и-мэйлээр илгээх ...</AnonymousLinkSendButton>
+  <AnonymousLinkSendSubject>Вэб Файл менежер Олон нийтийн Link</AnonymousLinkSendSubject>
+
+  <AnonymousLinkAdvOptTitle>нэмэлт параметрүүд</AnonymousLinkAdvOptTitle>
+  <AnonymousLinkViewTypeButton>Link харах</AnonymousLinkViewTypeButton>
+  <AnonymousLinkViewTypeDefault>Бүтэн</AnonymousLinkViewTypeDefault>
+  <AnonymousLinkViewTypeShort>Богино</AnonymousLinkViewTypeShort>
+
+  <AnonymousLinkShowCommentsLabel>танилцуулга, хаяг, санал харуулах</AnonymousLinkShowCommentsLabel>
+  <AnonymousLinkShowCommentsShort>харуулах санал</AnonymousLinkShowCommentsShort>
+
+  <QRCodeButton>QR код</QRCodeButton>
+
+  <AnonymousLinkLimitedAccessTitle>Хязгаарлагдмал нэвтрэх</AnonymousLinkLimitedAccessTitle>
+  <AnonymousLinkLimitAccessCheckBox>зөвхөн заасан нэвтрэлт танилт хэрэглэгчийн хандалт хязгаарлах</AnonymousLinkLimitAccessCheckBox>
+  <AnonymousLinkLimitAccessTextArea>хэрэглэгчийн нэр эсвэл имэйл (таслалаар тусгаарлагдсан) Төрөл</AnonymousLinkLimitAccessTextArea>
+  <AnonymousLinkLimitAccessSendCheckBox>заасан хэрэглэгчдэд мэдэгдэл илгээх</AnonymousLinkLimitAccessSendCheckBox>
+  <AnonymousLinkLimitAccessPersMsgLabel>Хувийн зурвас (заавал биш)</AnonymousLinkLimitAccessPersMsgLabel>
+  <AnonymousLinkLimitAccessPassAndUsersMsg>Та холбоос хандахын тулд тэр үед таны нууц үг, хэрэглэгчийн тодорхойлсон байна. ямар нэг зүйлийг нэг оруулна уу.</AnonymousLinkLimitAccessPassAndUsersMsg>
+  <AnonymousLinkLimitAccessUsersNotFound>хэрэглэгч:
+    {0}
+    байгаа үгүй ​​биш</AnonymousLinkLimitAccessUsersNotFound>
+  <AnonymousLinkLimitAccessEmailsNotFound>и-мэйл:
+    {0}
+    байгаа үгүй ​​биш</AnonymousLinkLimitAccessEmailsNotFound>
+  <AnonymousLinkLimitAccessUsersEmailsNotFound>хэрэглэгч:
+    {0}
+    болон и-мэйл:
+    {1}
+    байгаа үгүй ​​биш</AnonymousLinkLimitAccessUsersEmailsNotFound>
+
+  <AnonymousLinkUnableToCreate>Нэр нь үл мэдэгдэх холбоос үүсгэх боломжгүй</AnonymousLinkUnableToCreate>
+  <AnonymousLinkShortUrlLabel>богино холбоосыг авах (доод баруун талд) тэнхрэх дүрс товшино уу</AnonymousLinkShortUrlLabel>
+  <AnonymousLinkShortUrlUpdate>Одоо худалдаж авах, эсвэл богино холбоос шинэчлэх</AnonymousLinkShortUrlUpdate>
+  <AnonymousLinkLongUrlNotSpecified>урт URL зааж өгөөгүй байна</AnonymousLinkLongUrlNotSpecified>
+
+  <ClientFileOrDirectoryAlreadyExists>Ийм нэртэй файл эсвэл санд аль хэдийн орсон байдаг</ClientFileOrDirectoryAlreadyExists>
+  <ClientPermissionsAllowTypes>Одоогийн зөвшөөрөл нь зөвхөн файлын төрлийг дараах энэ үйлдлийг зөвшөөрөх {0}</ClientPermissionsAllowTypes>
+  <ClientPermissionsDenyTypes>Одоогийн зөвшөөрөл файлын төрлийг нь дараахь энэ үйл ажиллагааг хориглох {0}</ClientPermissionsDenyTypes>
+  <OfficeApplicationNotFoundAlert>Office програм олдсонгүй. гараар текст хайрцагт холбоосыг ашиглан файлыг нээнэ.</OfficeApplicationNotFoundAlert>
+  <OfficeAnonymousEditPublicLinkError>нэрээ нээлттэй албан баримт бичгийг олон нийтийн холбоос үүсгэх боломжгүй байна.</OfficeAnonymousEditPublicLinkError>
+
+  <GoogleOWAViewLinkMessage>баримт бичгийг үзэхийн тулд доорх холбоос дээр дарна уу:</GoogleOWAViewLinkMessage>
+  <ZohoEditLinkMessage>Доорх баримт бичиг дарж холбоосыг засахын тулд:</ZohoEditLinkMessage>
+  <PixlrEditLinkMessage>Доорх зураг дарж холбоосыг засахын тулд:</PixlrEditLinkMessage>
+  <PixlrNewImageCreateTitle>Pixlr нь шинэ дүр төрхийг бий болгох</PixlrNewImageCreateTitle>
+  <PixlrNewImageLinkMessage>Шинэ зураг үүсгэхийн тулд доорх холбоос дээр дарна уу:</PixlrNewImageLinkMessage>
+
+  <DownloadTitle>олон файлуудыг татаж авах</DownloadTitle>
+  <DownloadSimpleTab>Стандарт</DownloadSimpleTab>
+  <DownloadJavaTab>Java</DownloadJavaTab>
+  <DownloadIEPrevent>Internet Explorer автомат татаж сэргийлдэг</DownloadIEPrevent>
+  <DownloadIEClickHere>татаж авах бол энд дарна уу</DownloadIEClickHere>
+  <DownloadIEArchiveReady>Архивын "{0}" сонгосон файлууд нь бий болгож, татаж авахад бэлэн болсон юм</DownloadIEArchiveReady>
+  <DownloadIECaption>Татаж авах бэлэн байна</DownloadIECaption>
+
+  <SettingsTitle>Тохиргоо</SettingsTitle>
+  <SettingsLanguage>хэл</SettingsLanguage>
+  <SettingsLogOutRequired>Шинэ өөрчлөлт гарах, эсвэл хөтөч дахин ачаалсны дараа хэрэглэж болно!</SettingsLogOutRequired>
+  <ThemeTitle>Сэдэв өөрчлөлт</ThemeTitle>
+  <SettingsTheme>Сэдэв сонгох</SettingsTheme>
+  <ThemeDefaultTitle>Үндсэн сэдэв</ThemeDefaultTitle>
+  <ThemeGrayTitle>саарал, хар саарал сэдэв</ThemeGrayTitle>
+  <ThemeAccessTitle>Хүртээмжтэй сэдэв</ThemeAccessTitle>
+
+  <ChangeUserPasswordTitle>Change хэрэглэгчийн нууц үг</ChangeUserPasswordTitle>
+  <ChangeUserPasswordOldPassword>хуучин нууц үг</ChangeUserPasswordOldPassword>
+  <ChangeUserPasswordNewPassword>Шинэ нууц үг</ChangeUserPasswordNewPassword>
+  <ChangeUserPasswordRepeatNewPassword>Давтан Шинэ нууц үг</ChangeUserPasswordRepeatNewPassword>
+  <ChangeUserPasswordPasswordsNotMatch>Нууц үг таарахгүй байна.</ChangeUserPasswordPasswordsNotMatch>
+  <ChangeUserPasswordSuccessMessage>Нууц үг өөрчлөгдсөн байна.</ChangeUserPasswordSuccessMessage>
+  <ChangeUserPasswordInvalidMessage>Нууц үг буруу байна.</ChangeUserPasswordInvalidMessage>
+
+  <ChangeUserEmailTitle>Change Хэрэглэгчийн и-мэйл</ChangeUserEmailTitle>
+  <ChangeUserEmailEmail>И-мэйл</ChangeUserEmailEmail>
+  <ChangeUserEmailSuccessMessage>И-мэйл өөрчлөгдсөн байна.</ChangeUserEmailSuccessMessage>
+
+  <UserHelpTitle>Хэрэглэгчийн тусламж</UserHelpTitle>
+
+  <LicenseTitle>Лицензийн мэдээлэл</LicenseTitle>
+  <LicenseTrial>Бүртгэлгүй 30 хоногийн үнэлгээ хувилбар</LicenseTrial>
+  <LicensePrompt>Лицензийн хувилбар {0} гишүүд тоо: {1} {0} Худалдаж он сар өдөр: {2} {0}</LicensePrompt>
+  <LicenseFreeUpgradeMessage>Та одоо ч гэсэн үнэгүй шинэчлэх, дэмжлэг нь {0} хоног байна.</LicenseFreeUpgradeMessage>
+  <LicenseCheckMessage>нэг жилээс дээш худалдан авсан өдрөөс хойш баталсан байна. Энэ хувилбарыг ашиглахын тулд та хуучин хувилбар нь таны захиалгыг буюу зээлжих чадварын үнэлгээг бууруулж шинэчлэх хэрэгтэй. Та өөрийн эрхлэх тусгай зөвшөөрлийг шалгаж, &lt;a href='{0}' target='_blank'&gt; шалгах тусгай зөвшөөрөл хуудас &lt;/a&gt; боломжтой хувилбаруудыг олж болно</LicenseCheckMessage>
+  
+  <ViewPopupBlocked>Шинэ цонх зар суртчилгаа түгжигч хааж байна</ViewPopupBlocked>
+  
+  <LoginTwoFactorTitle>Хоёр алхам баталгаажуулалт</LoginTwoFactorTitle>
+  <LoginTitle>Login</LoginTitle>
+  <LoginRemember>надад дараагийн удаа сана</LoginRemember>
+  <LoginUISelect>Interface</LoginUISelect>
+  <LoginUIStandard>Стандарт</LoginUIStandard>
+  <LoginUITouch>Гар утас</LoginUITouch>
+  <LoginLanguage>хэл</LoginLanguage>
+  <LoginLogin>Login</LoginLogin>
+  <LoginFailure>Таны нэвтрэх оролдлого амжилтгүй болсон.</LoginFailure>
+  <LoginBlocked>данс хаагдсан байна. {0} минутын дахин оролдоно нь хүлээх хэрэгтэй.</LoginBlocked>
+  <LoginNotActivated>Таны данс идэвхжүүлсэн байна.</LoginNotActivated>
+  <LoginResendActivation>идэвхжүүлэх код нь зурвас урт хугацаанд хүлээж аваагүй бол Идэвхжүүлэх кодоо дахин илгээхийг {0} холбоос дээр дарна уу.</LoginResendActivation>
+  <LoginResendActivationLink>Идэвхжүүлэх кодоо илгээх</LoginResendActivationLink>
+  <LoginResendActivationCode>Идэвхжүүлэх кодоо дахин илгээхийг {0} холбоос дээр дарна уу.</LoginResendActivationCode>
+  
+  <ActivateAccountOk>Дансны амжилттай идэвхжүүлсэн!</ActivateAccountOk>
+  <ActivateAccountResultLabel>идэвхжүүлэх үр дүн</ActivateAccountResultLabel>
+  <ActivateAccountErrorOnlyFormsAuth>Дансны идэвхжүүлэх хэлбэр танилтад зөвхөн ашиглаж болно</ActivateAccountErrorOnlyFormsAuth>
+  <ActivateAccountErrorNotRequired>Дансны идэвхжүүлэх програм тохиргоо идэвхгүй байна. Дансны автоматаар бүртгэх дараа идэвхжүүлсэн байна.</ActivateAccountErrorNotRequired>
+  <ActivateAccountErrorAlreadyActivated>Дансны аль хэдийн идэвхжүүлсэн</ActivateAccountErrorAlreadyActivated>
+  <ActivateAccountErrorInvalidCode>Идэвхжүүлэх код нь хүчин төгөлдөр биш юм</ActivateAccountErrorInvalidCode>
+  <ActivateAccountErrorAccountNotFound>Дансны олж чадаагүй</ActivateAccountErrorAccountNotFound>
+  <ActivateAccountErrorLinkBroken>Идэвхжүүлэх холбоос эвдэрсэн байна</ActivateAccountErrorLinkBroken>
+  <ActivateAccountReturnToLogin>Хуудсыг нэвтрэх руу буцах</ActivateAccountReturnToLogin>
+  
+  <LoginRender>үзүүлэх</LoginRender>
+  
+  <LogoutTitle>Вэб файлын менежер Гарах</LogoutTitle>
+  <LogoutSessionEnded>Одоогийн хуралдаан дууссан байна</LogoutSessionEnded>
+  <LogoutCloseWindow>Цонх хаах</LogoutCloseWindow>
+  <LogoutEnterAgain>дахин холбогдон орно уу</LogoutEnterAgain>
+  <LogoutClosingBrowserRequired>Анхаар! Хэн ч таны дансанд доор нэвтэрч болно! Хэрэв та хуваалцсан компьютер ашиглаж байгаа бол та өөрийн хөтөч танилт чөлөөлөхийн тулд таны вэб браузер цонхыг (зөвхөн таб биш) хаах ёстой! Firefox хөтөч нь та цэс дээр танилт цэвэрлэх болно: Хэрэгсэл цэсэн дотроос&gt; Clear дургүйцэх Түүх ...-&gt; Details-&gt; Одоо шалгаж Идэвхтэй Logins-&gt; хэвлэлийн Clear.</LogoutClosingBrowserRequired>
+  <RecoverPasswordTitle>Нууц үг сэргээх</RecoverPasswordTitle>
+  <RecoverPasswordEmailPassword>и-мэйлээр нууц үгээ илгээх</RecoverPasswordEmailPassword>
+  <RecoverPasswordErrorInvalidUserName>Хэрэглэгчийн нэр хүчингүй.</RecoverPasswordErrorInvalidUserName>
+  <RecoverPasswordErrorNoEmail>Энэ нь хэрэглэгчийн тодорхойлсон ямар ч и-мэйл хаягаа байна.</RecoverPasswordErrorNoEmail>
+  <RecoverPasswordErrorSendEmail>Таны и-мэйл илгээх явцад алдаа гарлаа.</RecoverPasswordErrorSendEmail>
+  <RecoverPasswordSuccess>Таны нууц үг таны и-мэйл хаяг руу илгээсэн байна.</RecoverPasswordSuccess>
+
+  <RecoverUserNameTitle>нэрийг сэргээнэ</RecoverUserNameTitle>
+  <RecoverUserEmailName>и-мэйлээр нэр илгээх</RecoverUserEmailName>
+  <RecoverUserNameErrorInvalidEmail>Хүчингүй хэрэглэгчийн и-мэйл.</RecoverUserNameErrorInvalidEmail>
+  <RecoverUserNameErrorNoEmail>И-мэйл хаяг олдсонгүй.</RecoverUserNameErrorNoEmail>
+  <RecoverUserNameSuccess>Таны нэр Таны и-мэйл хаяг руу илгээсэн байна.</RecoverUserNameSuccess>
+
+  <ChangeEmailTitle>И-мэйл өөрчлөлт</ChangeEmailTitle>
+  <ChangeEmailEmail>шинэ И-мэйл</ChangeEmailEmail>
+  <ChangeEmailSubmit>оруулах</ChangeEmailSubmit>
+  <ChangeEmailStatusSuccess>И-мэйл хаяг өөрчлөгдсөн байна</ChangeEmailStatusSuccess>
+
+  <RegisterTitle>Бүртгүүлэх</RegisterTitle>
+  <RegisterEmail>И-мэйл</RegisterEmail>
+  <RegisterExtraInfo>Нэмэлт мэдээлэл</RegisterExtraInfo>
+  <RegisterCaptcha>Та доорх зургийг харж текстийг оруулна уу</RegisterCaptcha>
+  <RegisterSubmit>оруулах</RegisterSubmit>
+  <RegisterErrorPasswordNotMatch>Нууц үг таарахгүй байна.</RegisterErrorPasswordNotMatch>
+  <RegisterErrorUserExists>Энэ нь хэрэглэгчийн нэр эсвэл и-мэйл хаяг аль хэдийн хэрэглэж байна.</RegisterErrorUserExists>
+  <RegisterErrorCaptchaInvalid>Зургийн Текст зөв орж байсан юм</RegisterErrorCaptchaInvalid>
+  <RegisterSuccess>Шинэ хэрэглэгч нэмэгдэхэд байна.</RegisterSuccess>
+  <RegisterActivationSent>Идэвхжүүлэх код Таны и-мэйл явуулсан байна.</RegisterActivationSent>
+  <RegisterActivationCheckEmail>Таны мэйл хайрцаг (тусгайлан хог хавтас) шалгаж, и-мэйл дэх зааврыг дагана уу.</RegisterActivationCheckEmail>
+  
+  <FolderGridUserPermissionsColumn>хэрэглэгчдэд нэвтрэх</FolderGridUserPermissionsColumn>
+  <FolderGridGroupPermissionsColumn>бүлэг нэвтрэх</FolderGridGroupPermissionsColumn>
+
+  <LoginLinkText>Login</LoginLinkText>
+  <RecoverPasswordLinkText>Нууц үгээ мартсан?</RecoverPasswordLinkText>
+  <RecoverUserNameLinkText>нэр мартсан уу?</RecoverUserNameLinkText>
+  <RegisterLinkText>Бүртгүүлэх</RegisterLinkText>
+  <ChangeEmail>И-мэйл өөрчлөлт</ChangeEmail>
+  <LoginMobileVersionLinkText>Мобайл хувилбар (Хамгийн сүүлийн үеийн гар утаснууд болон Touchpads)</LoginMobileVersionLinkText>
+
+  <FileIsNotZipArchive>Файлын {0} ZIP архив биш юм</FileIsNotZipArchive>
+
+  <FileModificationsAuthor>Зохиогч</FileModificationsAuthor>
+  <FileModificationsHistory>түүх харах</FileModificationsHistory>
+  <FileModificationsWindowTitle>файлын нэмэлт өөрчлөлт "{0}"</FileModificationsWindowTitle>
+  <FileModificationsTypeCreated>Үүсгэсэн</FileModificationsTypeCreated>
+  <FileModificationsTypeModified>хувиргасан</FileModificationsTypeModified>
+  <FileModificationsTypeRenamed>нэр нь өөрчлөгдсөн</FileModificationsTypeRenamed>
+  <FileModificationsTypeRestored>сэргээн</FileModificationsTypeRestored>
+  <FileModificationsTypeDeleted>устгагдсан</FileModificationsTypeDeleted>
+
+  <ChangingReadOnlyProgressMessage>уншиж л зан чанарыг өөрчлөх</ChangingReadOnlyProgressMessage>
+
+  <ImageViewerWindowTitle>Image Viewer [{0}]</ImageViewerWindowTitle>
+  <ImageViewerLoadingMessage>Loading зураг үзүүлэгч</ImageViewerLoadingMessage>
+  <ImageViewerLoadingImageMessage>зураг ачаалж байна</ImageViewerLoadingImageMessage>
+  <ImageViewerFirstImageTip>Эхний зураг</ImageViewerFirstImageTip>
+  <ImageViewerPreviousImageTip>өмнөх зураг</ImageViewerPreviousImageTip>
+  <ImageViewerRefreshTip>Сэргээх зураг жагсаалт</ImageViewerRefreshTip>
+  <ImageViewerNextImageTip>дараагийн зураг</ImageViewerNextImageTip>
+  <ImageViewerLastImageTip>Сүүлийн зураг</ImageViewerLastImageTip>
+  <ImageViewerRunSlideShow>Ажиллуулна зураг шоу гулсуулж</ImageViewerRunSlideShow>
+  <ImageViewerStopSlideShow>дүрс нь слайд шоу зогсоох</ImageViewerStopSlideShow>
+  <ImageViewerImageSimpleInfo>{0} / {1} {2} ({3})</ImageViewerImageSimpleInfo>
+  <ImageViewerImageLoadErrorMessage>зураг олж байсан юм, эсвэл гарч чадахгүй байна</ImageViewerImageLoadErrorMessage>
+  <ImageViewerShowImageSizeOfWindow>бодит хэмжээ нь харуулах зураг</ImageViewerShowImageSizeOfWindow>
+  <ImageViewerShowRealImageSize>томруулж дээр дарна уу</ImageViewerShowRealImageSize>
+
+  <PasswordExpiresTitle>Нууц үг хугацаа дууссан</PasswordExpiresTitle>
+  <PasswordExpiresMessage>Таны нууц үг {0} өдөр (ууд) дараа дуусах!</PasswordExpiresMessage>
+  <PasswordExpiredMessage>Таны нууц үг хугацаа дууссан.</PasswordExpiredMessage>
+  <PasswordChangeMessage>нууц үгээ өөрчлөхийн тулд, сонгох {0} {1} -&gt; {2} {3} багаж самбар дээр.</PasswordChangeMessage>
+
+  <UnzipContentTotalFiles>Нийт файлууд: {0} ({1})</UnzipContentTotalFiles>
+
+  <VideoConversionJobNotFound>
+    Боломжгүй заасан хувиргах үйл явцыг олж болно.
+    Байж болох шалтгаан:
+    1. Хувиргах өмнө урт хугацаа дууссан, энэ ажлын талаарх мэдээлэл байхгүй болсон.
+    2. хувиргах үйл явц хэвийн зогсоосон байна.
+  </VideoConversionJobNotFound>
+  <VideoConversionUtilityNotFound>хүссэн үйл ажиллагааг гүйцэтгэх боломжгүй Хайлтын хэрэгсэл: {0}</VideoConversionUtilityNotFound>
+  <!-- The current security principal "{0}" has insufficiant permissions to executable file "{1}".-->
+  <VideoConversionUtilityInsufficientPermissions>Одоогийн хэрэглэгч ажиллах файлд "{0}" татгалзсан хандалтын "{1}".</VideoConversionUtilityInsufficientPermissions>
+  <VideoConversionOperationCancelled>үйл ажиллагаа хүчингүй</VideoConversionOperationCancelled>
+  <VideoConversionUtilityFailed>Хувиргах хэрэгсэл нь хэвийн дуусгавар</VideoConversionUtilityFailed>
+  <VideoConversionOutputFileBusy>Гаралтын файл нь өөр хувиргах үйл явцад ашиглаж байгаа явдал юм</VideoConversionOutputFileBusy>
+
+  <VideoConvertWindowValidatorPositiveInt>нь эерэг бүхэл тоо байх ёстой</VideoConvertWindowValidatorPositiveInt>
+  <VideoConvertWindowTitle>видео хөрвүүлэх</VideoConvertWindowTitle>
+  <VideoConvertWindowInputFile>оролтын файл</VideoConvertWindowInputFile>
+  <VideoConvertWindowOutputFile>гаралтын файл</VideoConvertWindowOutputFile>
+  <VideoConvertWindowOutputFormat>гаралтын формат</VideoConvertWindowOutputFormat>
+  <VideoConvertWindowBitrate>Битийн (Kbps)</VideoConvertWindowBitrate>
+  <VideoConvertWindowFrameResolution>Фото зургийн жааз тогтоол</VideoConvertWindowFrameResolution>
+  <VideoConvertWindowDAR>Дэлгэц асуудал харьцаа</VideoConvertWindowDAR>
+  <VideoConvertWindowPAR>Pixel асуудал харьцаа</VideoConvertWindowPAR>
+  <VideoConvertWindowResize>хэмжээг</VideoConvertWindowResize>
+  <VideoConvertWindowProfile>Хувийн</VideoConvertWindowProfile>
+  <VideoConvertWindowWidth>өргөн</VideoConvertWindowWidth>
+  <VideoConvertWindowHeight>өндөр</VideoConvertWindowHeight>
+  <VideoConvertWindowExtractDetailsProgressMsg>видео мэдээллийг задлах нь</VideoConvertWindowExtractDetailsProgressMsg>
+  <VideoConvertWindowOutputFileExistsTitle>Гаралтын файл байгаа</VideoConvertWindowOutputFileExistsTitle>
+  <VideoConvertWindowOutputFileExistsMsg>Гаралтын файл байгаа. Энэ үйлдлийг хийхэд дарагдан хуулагдаж болно.</VideoConvertWindowOutputFileExistsMsg>
+  <VideoConvertWindowPrepareToConvert>видео хөрвүүлэх бэлтгэх нь</VideoConvertWindowPrepareToConvert>
+  <VideoConvertWindowOutputFileMatchInputFile>Гаралтын файлын нэр оролтын файлын нэрийг таарч</VideoConvertWindowOutputFileMatchInputFile>
+
+  <VideoConvertProgressWindowTitle>видео хөрвүүлэх</VideoConvertProgressWindowTitle>
+  <VideoConvertProgressWindowInputFile>оролтын файл</VideoConvertProgressWindowInputFile>
+  <VideoConvertProgressWindowOutputFile>гаралтын файл</VideoConvertProgressWindowOutputFile>
+  <VideoConvertProgressWindowStatus>байдал</VideoConvertProgressWindowStatus>
+  <VideoConvertProgressWindowStatusTerminating>дуусгавар болгох</VideoConvertProgressWindowStatusTerminating>
+  <VideoConvertProgressWindowStatusPreparing>бэлдэх нь</VideoConvertProgressWindowStatusPreparing>
+  <VideoConvertProgressWindowStatusProgress>Алхам {0} нь {1}</VideoConvertProgressWindowStatusProgress>
+  <VideoConvertProgressWindowStatusDone>дууссаныхаа</VideoConvertProgressWindowStatusDone>
+
+  <PlayHtml5VideoNotSupported>Таны веб хөтөч HTML 5-видео элементийг дэмждэггүй.</PlayHtml5VideoNotSupported>
+  <PlayHtml5VideoPlayFailed>Play видео амжилтгүй болсон</PlayHtml5VideoPlayFailed>
+  <PlayHtml5AudioPlayFailed>Play аудио чадаагүй</PlayHtml5AudioPlayFailed>
+  <PlayHtml5AudioTitle>гарчиг</PlayHtml5AudioTitle>
+  <PlayHtml5AudioNotSupported>Таны веб хөтөч HTML 5 аудио элементийг дэмждэггүй.</PlayHtml5AudioNotSupported>
+  <PlayHtml5AudioArtist>Artist</PlayHtml5AudioArtist>
+  <PlayHtml5AudioAlbum>Зургийн цомог</PlayHtml5AudioAlbum>
+  <PlayHtml5AudioYear>жил</PlayHtml5AudioYear>
+  <PlayHtml5AudioDuration>Үргэлжлэх хугацаа</PlayHtml5AudioDuration>
+  <PlayHtml5AudioBitrate>битийн хурд</PlayHtml5AudioBitrate>
+  <PlayHtml5AudioVolume>Эзлэхүүн</PlayHtml5AudioVolume>
+
+  <!-- Root title -->
+  <RootTitle>эх</RootTitle>
+
+  <!-- Recent feature keys -->
+  <RecentRootTitle>Сүүлийн үед</RecentRootTitle>
+  <RecentDeleteOnePrompt>Та "{0}" Та сүүлийн үеийн эд зүйлс нь устгахыг хүсэж байна уу?</RecentDeleteOnePrompt>
+  <RecentDeleteManyPrompt>Та сүүлийн үеийн эд зүйлс эдгээр {0} зүйлсийг устгахыг хүсэж байна уу?</RecentDeleteManyPrompt>
+  <RecentPathNotExist>Сүүлийн зам "{0}" байхгүй байгаа болон хандалтын татгалзсан байна</RecentPathNotExist>
+  <RecentAllWithoutGroupingTitle>Бүх э / бүлэглэх о</RecentAllWithoutGroupingTitle>
+  <RecentEditGroupTitle>засварлах</RecentEditGroupTitle>
+  <RecentViewGroupTitle>үзсэн</RecentViewGroupTitle>
+  <RecentDownloadGroupTitle>татаж авсан</RecentDownloadGroupTitle>
+  <RecentUploadGroupTitle>Хуулагдсан</RecentUploadGroupTitle>
+  <RecentCreateGroupTitle>Үүсгэсэн</RecentCreateGroupTitle>
+
+  <!-- Trash feature keys -->
+  <TrashRootTitle>хог хаягдлыг</TrashRootTitle>
+  <TrashLabelDateDeleted>устгагдсан огноо</TrashLabelDateDeleted>
+  <TrashDeleteOnePrompt>Та байнга устгахыг хүсэж "{0}" Хогийн сав нь байна уу?</TrashDeleteOnePrompt>
+  <TrashDeleteManyPrompt>Та байнга хогийн эдгээр {0} зүйлсийг устгахыг хүсэж байна уу?</TrashDeleteManyPrompt>
+  <TrashEmptyTrashLabel>хоосон Trash</TrashEmptyTrashLabel>
+  <TrashRestoreSelectedLabel>Сэргээх</TrashRestoreSelectedLabel>
+  <TrashRestoreAllLabel>бүгдийг сэргээх</TrashRestoreAllLabel>
+  <TrashEmptyTrashPrompt>Та хогийн сав хоосон хүсэж Та итгэлтэй байна уу?</TrashEmptyTrashPrompt>
+  <TrashRestoreAllPrompt>Та Хогийн сав бүх зүйлсийг сэргээх хүсч байгаа та итгэлтэй байна уу?</TrashRestoreAllPrompt>
+  <TrashProgressRestoring>Хогийн сав нь сэргээнэ</TrashProgressRestoring>
+  <TrashFolderNotFound>Хог хаягдлыг сан олж чадаагүй</TrashFolderNotFound>
+  <TrashBalloonRestored>Сэргээн зүйлс: {0} нь {1}</TrashBalloonRestored>
+  <TrashDeleteDirectlyLabel>Хогийн арилгах ямар шууд устгах</TrashDeleteDirectlyLabel>
+  <TrashUsedSpaceHint>{0} ашиглаж</TrashUsedSpaceHint>
+  <TrashLimitSizeHint>Ашиглагдсан {0} нь {1} ({2})</TrashLimitSizeHint>
+  <TrashLargeItemsShelfTimeHint>объектын хадгалах хугацаа {0} илүү том юм: {1} өдөр (ууд)</TrashLargeItemsShelfTimeHint>
+  <TrashSmallItemsShelfTimeHint>бусад бүх нь: {0} өдөр (ууд)</TrashSmallItemsShelfTimeHint>
+  <TrashItemsShelfTimeHint>объектын хадгалах хугацаа: {0} өдөр (ууд)</TrashItemsShelfTimeHint>
+  <TrashAvailableSpaceHint>Хамгийн их байгаа хэмжээ {0}</TrashAvailableSpaceHint>
+  <TrashDeletedFromFolderHint>хасагдах {0}</TrashDeletedFromFolderHint>
+  <TrashExceededMessage>Дараах объектууд хэтэрхий том бөгөөд Хогийн сав ({0} хэтэрсэн нь хязгаарлах) орших боломжгүй юм:</TrashExceededMessage>
+  <TrashErrorSuffixMessage>тохируулгыг шалгах оролдоно уу "{0}", дараа нь устгах файл (ууд) мөнхөд сэргээх гадна</TrashErrorSuffixMessage>
+
+  <!-- Shared by link -->
+  <SharedByLinkRootTitle>холбоос хуваалцсан</SharedByLinkRootTitle>
+
+  <!-- Shared for you -->
+  <SharedForYouRootTitle>та нартай хуваалцсан</SharedForYouRootTitle>
+  <SharedForYouUnableToGetUrl>URL авах боломжгүй</SharedForYouUnableToGetUrl>
+
+  <!-- Watch for modifications -->
+  <WatchForModifsCommand>нэмэлт, өөрчлөлт оруулах Watch</WatchForModifsCommand>
+  <WatchForModifsStartCommand>үзэж эхлэх</WatchForModifsStartCommand>
+  <WatchForModifsEditCommand>харж өөрчлөх</WatchForModifsEditCommand>
+  <WatchForModifsStopCommand>харж зогсоо</WatchForModifsStopCommand>
+  <WatchForModifsViewChangesCommand>өөрчлөлт харах</WatchForModifsViewChangesCommand>
+  <WatchForModifsSubscriptionSuccessMessage>Та амжилттай нэмэлт, өөрчлөлт оруулах бүртгүүлэгсэн байна "{0}"</WatchForModifsSubscriptionSuccessMessage>
+  <WatchForModifsStopSuccessMessage>хяналт-шинжилгээ "{0}" амжилттай хааж байна</WatchForModifsStopSuccessMessage>
+  <WatchForModifsIncludingNestedLabel>түүвэрлэсэн файл, хавтас авч үзье</WatchForModifsIncludingNestedLabel>
+  <WatchForModifsParentWatchExistMessage>Сонгогдсон зүйлийн аль хэдийн эцэг эх хавтас нь хяналт-шинжилгээ өгсөн байна "{0}".</WatchForModifsParentWatchExistMessage>
+  <WatchForModifsRootFolder>Анхааруулга</WatchForModifsRootFolder>
+  <WatchForModifsStartProgressLoading>харж идэвхжүүлэх</WatchForModifsStartProgressLoading>
+  <WatchForModifsStopProgressLoading>Terminatie үзэх</WatchForModifsStopProgressLoading>
+  <WatchForModifsIconHint>өөрчлөлт идэвхжсэн цаг</WatchForModifsIconHint>
+  <WatchForModifsNotifCheckBox>и-мэйл ээр нэмэлт, өөрчлөлт оруулах тухай мэдэгдэх:</WatchForModifsNotifCheckBox>
+  <WatchForModifsWatchedUsersCheckBox>Зөвхөн хэрэглэгчид (Хэрэв та бүх хяналт тавих бол хоосон орхи) хяналт тавих:</WatchForModifsWatchedUsersCheckBox>
+  <WatchForModifsIgnoreOwnerCheckBox>Миний өөрийн өөрчлөлтийг алгасаж</WatchForModifsIgnoreOwnerCheckBox>
+  <WatchForModifsActionsCheckBox>(Доор жагсаалтаас, эсвэл ямар нэгэн арга хэмжээ) бүх үйл ажиллагааг хяналт тавих</WatchForModifsActionsCheckBox>
+  <WatchForModifsNestedItemsWarning>Анхаар! Таны сонгосон хавтас нь хяналт тавих нэмж үед бүх хаалттай файл, хавтас нь хувьд бие даасан хяналт өмнө нэмэгдсэн, хяналт-шинжилгээ устгах болно. Та үргэлжлүүлэн хүсч байна уу?</WatchForModifsNestedItemsWarning>
+
+  <WelcomeWindowHideCheckboxLabel>Дараагийн мод бэлтгэх нь энэ бүү үзүүл</WelcomeWindowHideCheckboxLabel>
+
+  <LogsGridMoreInfoColumn>Илүү мэдээлэл</LogsGridMoreInfoColumn>
+  <LogsGridDetailsTitle>дэлгэрэнгүй</LogsGridDetailsTitle>
+  <LogsGridPhysPathColumn>Физик зам</LogsGridPhysPathColumn>
+  <LogsGridIsFolderColumn>Folder?</LogsGridIsFolderColumn>
+  <LogsGridIsPublicColumn>Олон нийтийн?</LogsGridIsPublicColumn>
+  <LogsGridByWebDavColumn>WebDAV?</LogsGridByWebDavColumn>
+
+  <NoCommentsYetHint>Одоогоор ямар ч сэтгэгдэл</NoCommentsYetHint>
+  <NoHistoryYetHint>Ямар ч түүх хараахан</NoHistoryYetHint>
+
+  <DetailsPropertyValuesCouldNotBeWritten>, Үл хөдлөх хөрөнгийн үнэ цэнийг аварч файлын төрөл ийм боломжийг дэмждэггүй бол эсвэл програмаас энэ файлд холбоотой алдаа байдаг mabe чадсангүй.</DetailsPropertyValuesCouldNotBeWritten>
+
+  <AdminCommandHelp>Туслаач</AdminCommandHelp>
+  <AdminCommandAddUser>хэрэглэгч нэмэх</AdminCommandAddUser>
+  <AdminCommandAddGroup>бүлэг нэмэх</AdminCommandAddGroup>
+  <AdminCommandRemoveUser>хэрэглэгчийг устгана</AdminCommandRemoveUser>
+
+  <AdminCommandSelectUsers>хэрэглэгч нэмэх</AdminCommandSelectUsers>
+  <AdminCommandSelectGroups>бүлэг нэмэх</AdminCommandSelectGroups>
+  <AdminCommandRemoveUsers>хэрэглэгчдийг ав</AdminCommandRemoveUsers>
+  <AdminCommandRemoveGroups>бүлэг ав</AdminCommandRemoveGroups>
+  <AdminUsersGroups>-ын гишүүн</AdminUsersGroups>
+  <AdminSearchUserEmptyText>Хэрэглэгчийн нэрээ оруулна уу</AdminSearchUserEmptyText>
+  <AdminSearchGroupEmptyText>бүлгийн нэрийг оруулна уу</AdminSearchGroupEmptyText>
+  <AdminUsersGroupAlreadyExists>Энэ нэр (ууд) нь А бүлэг (ууд) аль хэдийн нэмэгдсэн</AdminUsersGroupAlreadyExists>
+
+  <AdminApplicationLoading>Админ самбар ачих</AdminApplicationLoading>
+  <AdminTitle>захиргаа</AdminTitle>
+  <AdminUsersEditUser>засах хэрэглэгч</AdminUsersEditUser>
+  <AdminUsersSetUserPassword>Set нууц үг</AdminUsersSetUserPassword>
+  <AdminUsersViewGroups>бүлэг харах</AdminUsersViewGroups>
+  <AdminUsersViewFolders>хавтас харах</AdminUsersViewFolders>
+  <AdminUsersDeleteUserPrompt>Хэрэв та хэрэглэгч (үүд) ийг устгах итгэлтэй байна "{0}"?</AdminUsersDeleteUserPrompt>
+  <AdminUsersDeletedUsers>{0} хэрэглэгч (ууд) устгасан.</AdminUsersDeletedUsers>
+  <AdminUsersUserNotFound>Ийм нэртэй хэрэглэгч байхгүй байна</AdminUsersUserNotFound>
+  <AdminUsersPropertiesTitle>Хэрэглэгчийн шинж чанар</AdminUsersPropertiesTitle>
+  <AdminUsersSetPasswordTitle>Set хэрэглэгчийн нууц үг</AdminUsersSetPasswordTitle>
+  <AdminUsersGeneralInfo>Хэрэглэгчийн мэдээлэл</AdminUsersGeneralInfo>
+  <AdminUsersUserEmail>И-мэйл</AdminUsersUserEmail>
+  <AdminUsersEmptyName>Хэрэглэгчийн нэр хоосон байж болохгүй</AdminUsersEmptyName>
+  <AdminUsersEmptyPassword>Хэрэглэгчийн нууц үг нь хоосон байж болохгүй</AdminUsersEmptyPassword>
+  <AdminUsersIncorrectName>Хэрэглэгчийн нэр дээр буруу тэмдэглэгээ байдаг</AdminUsersIncorrectName>
+  <AdminUsersAlreadyExists>Хэрэглэгчийн энэ нэр аль хэдийн орсон байдаг нь</AdminUsersAlreadyExists>
+  <AdminUsersEmailAlreadyExists>Энэ и-мэйл нь хэрэглэгчийн аль хэдийн орсон байдаг</AdminUsersEmailAlreadyExists>
+  <AdminUsersPasswordsNotMatch>Нууц үг таарахгүй байна</AdminUsersPasswordsNotMatch>
+  <AdminUsersRenameWarning>хэрэглэгч нэрийг дараа нь шаардлагатай бол одоогийн вэб хавтас холбоос буруу байх болно, нууц үг өөрчлөх явдал юм</AdminUsersRenameWarning>
+  <AdminUsersLicenseRestriction>Таны лиценз Та {0} хэрэглэгчдэд илүү бий болгох боломж биш юм</AdminUsersLicenseRestriction>
+  <AdminUsersCountInfoWithLimit>Нийт хэрэглэгч: {0} гарч {1}</AdminUsersCountInfoWithLimit>
+  <AdminUsersCountInfo>Нийт хэрэглэгч: {0}</AdminUsersCountInfo>
+
+  <AdminGroupsEditGroup>засах бүлэг</AdminGroupsEditGroup>
+  <AdminGroupsRemoveGroup>бүлэг ав</AdminGroupsRemoveGroup>
+  <AdminGroupsDeleteGroupPrompt>Та бүлэг (үүд) ийг устгах итгэлтэй байна "{0}"?</AdminGroupsDeleteGroupPrompt>
+  <AdminGroupsDeletedGroups>{0} бүлэг (ууд) устгасан.</AdminGroupsDeletedGroups>
+  <AdminGroupsGroupNotFound>Энэ нэр бүхий бүлэг олж байсан юм</AdminGroupsGroupNotFound>
+  <AdminGroupsViewUsers>хэрэглэгчид харах</AdminGroupsViewUsers>
+  <AdminGroupsProperties>Үл хөдлөх хөрөнгө</AdminGroupsProperties>
+  <AdminGroupsPropertiesTitle>Group шинж чанар</AdminGroupsPropertiesTitle>
+  <AdminGroupsGeneralInfo>Бүлгийн мэдээлэл</AdminGroupsGeneralInfo>
+  <AdminGroupsUserNamePrompt>Хэрэглэгчийн нэрээ оруулна уу</AdminGroupsUserNamePrompt>
+  <AdminGroupsUsers>Бүлгийн гишүүд</AdminGroupsUsers>
+  <AdminGroupsUserAlreadyExists>Энэ нэр (с) бүхий хэрэглэгч (ууд) аль хэдийн нэмэгдсэн</AdminGroupsUserAlreadyExists>
+  <AdminGroupsEmptyName>Бүлгийн нэр хоосон байж болохгүй</AdminGroupsEmptyName>
+  <AdminGroupsIncorrectName>бүлгийн нэр нь буруу тэмдэглэгээ байдаг</AdminGroupsIncorrectName>
+  <AdminGroupsAlreadyExists>Энэ нэр нь аль хэдийн орсон байдаг бүхий бүлэг</AdminGroupsAlreadyExists>
+  <AdminGroupsCountInfo>Нийт бүлэг: {0}</AdminGroupsCountInfo>
+
+  <AdminLanguagesTab>Localizations</AdminLanguagesTab>
+  <AdminLanguagesTabMessage>локалчлал файлыг засварлах, жагсаалтад хүссэн хэлээ сонгох, орон нутгийн шинж чанартай мөрүүдийг засварлах дарна уу. өөрчлөлт дараа "Хадгалах" товчийг дарна уу</AdminLanguagesTabMessage>
+  <AdminLangGridKeyColumn>гол нэр</AdminLangGridKeyColumn>
+  <AdminLangGridDefaultColumn>Англи хэлний</AdminLangGridDefaultColumn>
+  <AdminEnterLanguageNameTitle>хэл нэрийг оруулна уу</AdminEnterLanguageNameTitle>
+  <AdminLangConfirmRefreshTitle>Сэргээх баталгаа</AdminLangConfirmRefreshTitle>
+  <AdminLangConfirmRefreshMessage>Анхаар! Мэдээллийн аврагдаж байсан юм. Та одоо өөрчлөлтүүдийг хадгалахыг хүсэж байна уу?</AdminLangConfirmRefreshMessage>
+  <AdminLangAmountInfo>Чигжсэн түлхүүр: {0} {1} нь (хоосон утгын: {2})</AdminLangAmountInfo>
+  <AdminLangSaveToCSV>CSV экспортын</AdminLangSaveToCSV>
+  <AdminLangLoadFromCSV>CSV нь ачаалал</AdminLangLoadFromCSV>
+
+  <AdminDbMaintenanceTab>DB засвар үйлчилгээ</AdminDbMaintenanceTab>
+  <AdminDbMaintenanceInfoTitle>мэдээлэл</AdminDbMaintenanceInfoTitle>
+  <AdminDbMaintenanceInfoPathLabel>DB файлын зам</AdminDbMaintenanceInfoPathLabel>
+  <AdminDbMaintenanceInfoSizeLabel>DB файлын хэмжээ</AdminDbMaintenanceInfoSizeLabel>
+  <AdminDbMaintenanceCompactTitle>компакт мэдээллийн сан</AdminDbMaintenanceCompactTitle>
+  <AdminDbMaintenanceCompactNote>өгөгдлийн файлын хэмжээг бууруулахын тулд доорх товчлуурыг дарна уу. Энэ нь мэдээллийн сан шахалтыг үе үе оноос хойш, жишээ нь, зарим нь идэвхгүй нийтийн холбоосууд буюу Хуучин бүртгэл нь буурах биш юм DB нь файлын хэмжээг тэмдэглэсэн авсаны дараа хийх шаардлагатай байна.</AdminDbMaintenanceCompactNote>
+  <AdminDbMaintenanceCompactButton>компакт DB</AdminDbMaintenanceCompactButton>
+  <AdminDbMaintenanceCompactSuccess>DB амжилттай нягтруулсан.
+Хуучин файлын хэмжээ: {0}
+Шинэ файлын хэмжээ: {1}</AdminDbMaintenanceCompactSuccess>
+  <AdminDbMaintenanceCompactAutoNote>Та бас автомат шахалт мэдээллийн санд хэдий ч, энэ нь суурь нь магадгүй илүү ойрхон цоож бөгөөд энэ нь зарим нэг хүсэлт хугацааг нэмэгдүүлэх боломжтой болгож байна, бүртгэл үйл ажиллагааны авсаны дараа эргэж болно. Анхаар! Энэ тохиргоогүй өөрчлөгдөж дараа өргөдөл дахин эхлүүлэх болно!</AdminDbMaintenanceCompactAutoNote>
+  <AdminDbMaintenanceCompactAutoCheckBox>/ Идэвхжүүлэх авто авсаархан DB идэвхгүй</AdminDbMaintenanceCompactAutoCheckBox>
+  <AdminDbMaintenanceCompactAutoSaveButton>Save</AdminDbMaintenanceCompactAutoSaveButton>
+  <AdminDbMaintenanceCompactAutoSaveSuccess>DB автомат сompression нь өөрчлөгдөж амжилттай байна. хуудас удахгүй шинэчлэгдэх болно.</AdminDbMaintenanceCompactAutoSaveSuccess>
+  <AdminDbMaintenanceEnableLogLabel>DB (Data / debug.log руу) бүртгэх түвшинд асуулга сонгоно уу</AdminDbMaintenanceEnableLogLabel>
+  <AdminDbMaintenanceSettingsSaveSuccess>DB тохиргоог амжилттай аварсан. хуудас дахин ачаалах болно</AdminDbMaintenanceSettingsSaveSuccess>
+  <AdminDbMaintenanceSettingsChangeNote>Анхаар! тохиргоо Хадгалсныхаа дараа шинэ програм удахгүй дахин эхлүүлэх болно!</AdminDbMaintenanceSettingsChangeNote>
+  <AdminDbMaintenanceInsertIntervalLabel>DB нь үйл явдлыг нэмэх (минут) интервал. Та 0 зааж байгаа бол, оруулах үйл явдлын дараа шууд гарч ирнэ.</AdminDbMaintenanceInsertIntervalLabel>
+  <AdminDbMaintenanceAdvDbParamsTitle>Нарийвчилсан DB холболт параметрүүд</AdminDbMaintenanceAdvDbParamsTitle>
+  <AdminDbMaintenanceStatTitle>Статистик (DB бүртгэлийн түвшин DurationExecution хамаарна)</AdminDbMaintenanceStatTitle>
+  <AdminDbMaintenanceStatDurationReadLabel>Дундаж унших хугацаа</AdminDbMaintenanceStatDurationReadLabel>
+  <AdminDbMaintenanceStatDurationWriteLabel>Дундаж бичих хугацаа</AdminDbMaintenanceStatDurationWriteLabel>
+  <AdminDbMaintenanceStatDurationCompactLabel>Дундаж нягт хугацаа</AdminDbMaintenanceStatDurationCompactLabel>
+  <AdminDbMaintenanceStatNoData>Өгөгдөл алга</AdminDbMaintenanceStatNoData>
+  <AdminDbMaintenanceStatGetButton>статистик мэдээллийг цуглуул</AdminDbMaintenanceStatGetButton>
+
+  <AdminMiscTab>Misc</AdminMiscTab>
+  <AdminMiscLoadADAccountsTitle>Active Directory данс дуудахын</AdminMiscLoadADAccountsTitle>
+  <AdminMiscLoadADAccountsLoadButton>Load</AdminMiscLoadADAccountsLoadButton>
+  <AdminMiscLoadADAccountsResetButton>Reset</AdminMiscLoadADAccountsResetButton>
+  <AdminMiscLoadADAccountsLdap>LDAP чингэлэг</AdminMiscLoadADAccountsLdap>
+  <AdminMiscLoadADAccountsToFile>гаргахын тулд</AdminMiscLoadADAccountsToFile>
+  <AdminMiscLoadADAccountsSuccessMessage>Active Directory данс амжилттай ачаалал ихтэй</AdminMiscLoadADAccountsSuccessMessage>
+  <AdminMiscLoadADAccountsInfo>Энд та бүхэлд нь Active Directory хэрэглэгчид бүтцийг агуулсан файлыг үүсгэх болно. Та МЭ мэдээлэл хадгалах зэрэг нь статик файлыг ашигладаг бол Энэ файл хэрэгтэй. ижил файлын ADManager хэрэгслийн тусламжтайгаар бий болно. Дэлгэрэнгүйг &lt;б&gt; ADAccountsFilePath &lt;/ б&gt; параметр нь тайлбарыг үзнэ үү {0} гарын авлага {1}.</AdminMiscLoadADAccountsInfo>
+
+  <AdminMiscManageQuotasTitle>квотыг удирдах</AdminMiscManageQuotasTitle>
+  <AdminMiscManageQuotasInfo>Байгаа асуух эсвэл фолдер зөвшөөрөгдсөн орон зай, File Server нөөцийн менежер хүчтэй хязгаарлах шинэ квот бий.</AdminMiscManageQuotasInfo>
+  <AdminMiscManageQuotasFolderPath>Folder зам</AdminMiscManageQuotasFolderPath>
+  <AdminMiscManageQuotasQuota>ноогдлын</AdminMiscManageQuotasQuota>
+  <AdminMiscManageQuotasGetQuota>квотыг авах</AdminMiscManageQuotasGetQuota>
+  <AdminMiscManageQuotasSetQuota>Set квот</AdminMiscManageQuotasSetQuota>
+
+  <AdminMiscFoldersFromGPOLTitle>Group бодлого нь ачаалал хавтас</AdminMiscFoldersFromGPOLTitle>
+  <AdminMiscFoldersFromGPOLComputerName>компьютерийн нэр</AdminMiscFoldersFromGPOLComputerName>
+  <AdminMiscFoldersFromGPOLFilePath>Файлын зам</AdminMiscFoldersFromGPOLFilePath>
+  <AdminMiscFoldersFromGPOLMoreInfoLink>Илүү мэдээлэл</AdminMiscFoldersFromGPOLMoreInfoLink>
+  <AdminMiscFoldersFromGPOLResetButton>Reset</AdminMiscFoldersFromGPOLResetButton>
+  <AdminMiscFoldersFromGPOLLoadButton>Load</AdminMiscFoldersFromGPOLLoadButton>
+  <AdminMiscFoldersFromGPOLFromDC>ДС эхлэн</AdminMiscFoldersFromGPOLFromDC>
+  <AdminMiscFoldersFromGPOLFromFile>файлаас</AdminMiscFoldersFromGPOLFromFile>
+  <AdminMiscFoldersTargetLabel>хэрэглэгч / бүлэг нөхцөлийг импортолж авахын тулд ...</AdminMiscFoldersTargetLabel>
+  <AdminMiscFoldersTargetFilter>шүүлтүүр</AdminMiscFoldersTargetFilter>
+  <AdminMiscFoldersTargetPermission>зөвшөөрөл</AdminMiscFoldersTargetPermission>
+  <AdminMiscFoldersFromGPOLSuccessMessage>Хавтас амжилттай дуудагдсан &lt;br /&gt; Шинэ:. {0}, шинэчлэгдсэн: {1}.</AdminMiscFoldersFromGPOLSuccessMessage>
+  <AdminMiscFoldersFromGPOLInfo>Та Домэйн удирдагчийн-д Group Policy Drive зураглал тохиргоо хавтас жагсаалтыг дуудаж болно (эсвэл шинэчлэх). талбарт та компьютерийн нэрийг аль нь Group Policy тохиргоо нь ачаалал ихтэй байх болно (эсвэл хоосон орхисон бол, дараа нь одоогийн домэйн ашиглаж болно), эсвэл Тэмдэглэгдсэн Хөтчүүд тохиргоо нь файлын замыг оруулж болно доогуур байдаг.</AdminMiscFoldersFromGPOLInfo>
+
+  <AdminAnonymFoldersTab>Anonymous хавтас</AdminAnonymFoldersTab>
+  <AdminAnonymFoldersDeleteFolderPrompt>Хэрэв та {0} сонгосон нэр нь үл мэдэгдэгч хавтас устгахдаа итгэлтэй байна уу?</AdminAnonymFoldersDeleteFolderPrompt>
+  
+  <AdminAnonymFoldersDescription>Хуваалцсан хавтас / файл - эдгээр хавтас / файлууд нь хэрэглэгчийн нэвтрэлт танилт * хийх шаардлагагүй бөгөөд тэд бүх зочдын ашиглах боломжтой байдаг гэсэн * гэсэн үг (тэд холбоос байдаг бол). Бүх хэрэглэгчид цэснээс ийм хавтас / файл үүсгэж болно "Share &amp;rarr, олон нийтийн холбоог бий болгох." байршуулахын тулд, татаж, файл / хавтас жагсаалт: Гэхдээ хуваалцах хавтас хязгаарлагдмал эрх байж болох юм. Доорх хэрэглэгчдийн үүсгэсэн хуваалцсан хавтас / файлд холбоос хүснэгт юм. Олон нийтийн холбоосууд нь зөв онцлог хөтлөгч \ Anonymousdownload.ashx IIS нь нэр нь үл мэдэгдэгч боломжийг олгодог гэдэгт итгэлтэй байж ажиллах хэрэгтэй. Та &lt;a target="_blank" href="{0}"&gt; оношлогоо &lt;/a&gt; хуудсан дээр энэ шалгаж болох юм. Хөтлөгч \ Anonymousdownload.ashx оноосон нэр нь үл мэдэгдэгч хэрэглэгчийн данс хуваалцсан хавтас / файлуудад зориулсан NTFS нь унших / бичих зөвшөөрлүүд байдаг эсэхийг шалгаарай &lt;br /&gt; * &amp;nbsp;. &amp;Mdash; &amp;nbsp; Хэрэв та олон хэрэглэгчтэй, үүний төлөө л хандах эрхтэй юм зааж өгөхгүй бол.</AdminAnonymFoldersDescription>
+  <AdminAnonymFoldersLinkOwnerColumn>Эзэмшигч</AdminAnonymFoldersLinkOwnerColumn>
+  <AdminAnonymFoldersEmailsColumn>мэдэгдэх и-мэйл</AdminAnonymFoldersEmailsColumn>
+  <AdminAnonymFoldersAccessForUsersColumn>хэрэглэгчдэд нэвтрэх</AdminAnonymFoldersAccessForUsersColumn>
+  <AdminAnonymFoldersPersonalMessageColumn>Хувийн зурвас</AdminAnonymFoldersPersonalMessageColumn>
+  <AdminAnonymFoldersOverwriteOnUploadHint> (Дарж бичих: {0})</AdminAnonymFoldersOverwriteOnUploadHint>
+  <AdminAnonymFoldersRootPathColumn>Root буюу эх зам</AdminAnonymFoldersRootPathColumn>
+  <AdminAnonymFoldersKeysColumn>түлхүүрүүд</AdminAnonymFoldersKeysColumn>
+  <AdminAnonymFoldersShortColumn>богино холбоос</AdminAnonymFoldersShortColumn>
+  <AdminAnonymFoldersPropertiesTitle>Anonymous хавтас шинж чанар</AdminAnonymFoldersPropertiesTitle>
+  <AdminAnonymFoldersAdditionalInfo>нэмэлт мэдээлэл</AdminAnonymFoldersAdditionalInfo>
+  <AdminAnonymFoldersLinkLabel>хандах Link</AdminAnonymFoldersLinkLabel>
+  <AdminAnonymFoldersPathNotSpecified>физик зам нь тогтоосон ороогүй байна</AdminAnonymFoldersPathNotSpecified>
+  <AdminAnonymFoldersCreatedForColumn>зорилго</AdminAnonymFoldersCreatedForColumn>
+
+  <AdminFoldersTab>Folders</AdminFoldersTab>
+  <AdminFoldersAddFolder>Хавтас нэмэх</AdminFoldersAddFolder>
+  <AdminFoldersEditFolder>засах хавтас</AdminFoldersEditFolder>
+  <AdminFoldersRemoveFolder>фолдерыг устгах</AdminFoldersRemoveFolder>
+  <AdminFoldersDeleteFolderPrompt>Та үнэхээр хавтас устгах хүсэж байна "{0}"?</AdminFoldersDeleteFolderPrompt>
+  <AdminFoldersFolderNotFound>Энэ нэр бүхий хавтас олж байсан юм</AdminFoldersFolderNotFound>
+  <AdminFoldersPropertiesTitle>Folder шинж чанар</AdminFoldersPropertiesTitle>
+  <AdminFoldersGeneralInfo>Ерөнхий мэдээлэл</AdminFoldersGeneralInfo>
+  <AdminFoldersFolderRemoteWarningForms>Тайлбар! Энэ хавтас алсаас хуваалцсан байна. {0} FAQ шалгах: алсын хавтас хуваалцах хэрхэн {1}</AdminFoldersFolderRemoteWarningForms>
+  <AdminFoldersFolderRemoteWarningWin>Тайлбар! Энэ хавтас алсаас хуваалцсан байна. хэрэглэгчид унших эрх байхгүй бол та ямар нэг хавтас / файлуудыг нуух болно. {0} FAQ үзнэ үү: файлуудыг / хэрэглэгчийн унших эрхтэй биш юм хавтас нуух хэрхэн {1}</AdminFoldersFolderRemoteWarningWin>
+  <AdminFoldersFolderPath>Физик зам</AdminFoldersFolderPath>
+  <AdminFoldersLocationPath>Байршил</AdminFoldersLocationPath>
+  <AdminFoldersFolderCreate>фолдер үүсгэх</AdminFoldersFolderCreate>
+  <AdminFoldersFolderCreateProcess>үүсгэх хавтас</AdminFoldersFolderCreateProcess>
+  <AdminFoldersFolderCreateContainsPattern>Энэ нь хэв маягийг агуулсан учир хавтас үүсгэж чадахгүй байгаа</AdminFoldersFolderCreateContainsPattern>
+  <AdminFoldersFolderCreateSuccessfully>хавтас "{0}" амжилттай бүтээсэн байна.</AdminFoldersFolderCreateSuccessfully>
+  <AdminFoldersFolderOptional> (Заавал биш)</AdminFoldersFolderOptional>
+  <AdminFoldersFolderLimitations>хязгаарлалт</AdminFoldersFolderLimitations>
+  <AdminFoldersFolderDescription>Тодорхойлолт</AdminFoldersFolderDescription>
+  <AdminFoldersFolderQuota>ноогдлын</AdminFoldersFolderQuota>
+  <AdminFoldersFolderQuotaHint>Байгаа асуух эсвэл фолдер зөвшөөрөгдсөн орон зай, File Server нөөцийн менежер хүчтэй хязгаарлах шинэ квот бий.</AdminFoldersFolderQuotaHint>
+  <AdminFoldersFolderQuotaMoreInfoLink>Илүү мэдээлэл</AdminFoldersFolderQuotaMoreInfoLink>
+  <AdminFoldersPermissions>зөвшөөрлүүд</AdminFoldersPermissions>
+  <AdminFoldersPermissionsFor>зөвшөөрөл {0}</AdminFoldersPermissionsFor>
+  <AdminFoldersUsersGroups>Хэрэглэгчид ба бүлэг</AdminFoldersUsersGroups>
+  <AdminFoldersAccessControl>Хандалтыг хянах хяналтын</AdminFoldersAccessControl>
+  <AdminFoldersCreate>бий болгох</AdminFoldersCreate>
+  <AdminFoldersDelete>устгах</AdminFoldersDelete>
+  <AdminFoldersRename>нэр солих</AdminFoldersRename>
+  <AdminFoldersUpload>оруулах</AdminFoldersUpload>
+  <AdminFoldersDownload>Татаж авах</AdminFoldersDownload>
+  <AdminFoldersZipDownload>Zip болон татаж авах</AdminFoldersZipDownload>
+  <AdminFoldersZip>Zip</AdminFoldersZip>
+  <AdminFoldersUnzip>задлахад Zip</AdminFoldersUnzip>
+  <AdminFoldersCut>Cut</AdminFoldersCut>
+  <AdminFoldersCopy>хуулбар</AdminFoldersCopy>
+  <AdminFoldersListFiles>харуулах файлууд</AdminFoldersListFiles>
+  <AdminFoldersListFolders>харуулах хавтас</AdminFoldersListFolders>
+  <AdminFoldersModify>өөрчлөх</AdminFoldersModify>
+  <AdminFoldersBulkMailing>Бөөнөөр нь захидлын</AdminFoldersBulkMailing>
+  <AdminFoldersAnonymViewContent>Олон нийтийн холбоосоор дамжуулан Файлын жагсаалт</AdminFoldersAnonymViewContent>
+  <AdminFoldersAnonymDownload>Олон нийтийн холбоосоор дамжуулан татаж авах</AdminFoldersAnonymDownload>
+  <AdminFoldersAnonymUpload>Олон нийтийн холбоосоор дамжуулан зургаа upload хийнэ үү</AdminFoldersAnonymUpload>
+  <AdminFoldersWatch>Watch</AdminFoldersWatch>
+  <AdminFoldersDescription>Та хавтас гараар нэмж, эсвэл та Group бодлого дахь диск ашиглаж байгаа бол одоо байгаа хавтас хөрвүүлж болно. Дэлгэрэнгүйг үзнэ үү {0} тусламж {1}.</AdminFoldersDescription>
+
+  <AdminFoldersPermissionsForRegex>Та бас тогтмол илэрхийлэл ашиглаж болно. оруулна уу &lt;б&gt; {0} &lt;/ б&gt; Жишээ нь дээр дурдсан чиглэлээр эхэнд, дараа нь тогтмол илэрхийлэл, наад:</AdminFoldersPermissionsForRegex>
+  <AdminFoldersPermissionsForRegexUsers>{0} &lt;br (ямар ч хэрэглэгчийн хувьд хандалтыг өгөх) /&gt; {1} (: jdoe, Майк энэ тогтмол илэрхийлэл хоёр хэрэглэгч гэсэн үг)</AdminFoldersPermissionsForRegexUsers>
+  <AdminFoldersPermissionsForRegexGroups>{0} &lt;br (ямар бүлэг нь хандах боломж олгодог) /&gt; {1} (энэ нь тогтмол илэрхийлэл Бүх бүлгийг өөрийн нэр дээр "оюутны" хэлнэ)</AdminFoldersPermissionsForRegexGroups>
+
+  <AdminFoldersListRestrictions>Дэлгэцийн хязгаарлалт</AdminFoldersListRestrictions>
+  <AdminFoldersCreateRestrictions>Файлын бүтээлийн хязгаарлалт</AdminFoldersCreateRestrictions>
+  <AdminFoldersRestrictionAllow>зөвшөөрөх</AdminFoldersRestrictionAllow>
+  <AdminFoldersRestrictionDeny>үгүйсгэдэг</AdminFoldersRestrictionDeny>
+  <AdminFoldersRestrictionExtensions>Өргөтгөлүүд</AdminFoldersRestrictionExtensions>
+  <AdminFoldersUserNamePrompt>Хэрэглэгчийн нэрээ оруулна уу</AdminFoldersUserNamePrompt>
+  <AdminFoldersUserNameEmptyText>Select Хэрэглэгчийн нэр</AdminFoldersUserNameEmptyText>
+  <AdminFoldersUserNameNotSelected>Та хэрэглэгчийн нэр сонгох ёстой</AdminFoldersUserNameNotSelected>
+  <AdminFoldersUserAlreadyExists>Энэ хэрэглэгч нь аль хэдийн хавтас оноосон байна</AdminFoldersUserAlreadyExists>
+  <AdminFoldersGroupNamePrompt>бүлгийн нэрийг оруулна уу</AdminFoldersGroupNamePrompt>
+  <AdminFoldersGroupNameEmptyText>Select бүлгийн нэр</AdminFoldersGroupNameEmptyText>
+  <AdminFoldersGroupNameNotSelected>Та бүлэг нэрийг сонгох ёстой</AdminFoldersGroupNameNotSelected>
+  <AdminFoldersGroupAlreadyExists>Энэ бүлэг нь аль хэдийн хавтас оноосон байна</AdminFoldersGroupAlreadyExists>
+  <AdminFoldersEmptyName>Folder нэр хоосон байж болохгүй</AdminFoldersEmptyName>
+  <AdminFoldersEmptyPath>Folder зам хоосон байж болохгүй</AdminFoldersEmptyPath>
+  <AdminFoldersIncorrectName>хавтас нэрээр буруу тэмдэглэгээ байдаг</AdminFoldersIncorrectName>
+  <AdminFoldersAlreadyExists>Энэ нэр, байршил бүхий хавтас аль хэдийн орсон байдаг</AdminFoldersAlreadyExists>
+  <AdminFoldersSharesButton>одоо байгаа хувьцаа</AdminFoldersSharesButton>
+  <AdminFoldersTestAccessButton>Туршилтын нэвтрэх</AdminFoldersTestAccessButton>
+  <AdminFoldersTestIndexingButton>Туршилтын индексжүүлэх</AdminFoldersTestIndexingButton>
+  <AdminFoldersShareNameTitle>одоо байгаа хувьцаа</AdminFoldersShareNameTitle>
+  <AdminFoldersShareNameEmptyText>Select хувь</AdminFoldersShareNameEmptyText>
+  <AdminFoldersShareNameNotSelected>Та хувийг сонгох ёстой</AdminFoldersShareNameNotSelected>
+  <AdminFoldersGetQuotaButton>квотыг авах</AdminFoldersGetQuotaButton>
+  <AdminFoldersSetQuotaButton>Set квот</AdminFoldersSetQuotaButton>
+  <AdminCommonFilterField>Filter</AdminCommonFilterField>
+  <AdminCommonValidateField>хүчин төгөлдөр</AdminCommonValidateField>
+  <AdminFoldersRootNameUsed>оронд хавтас өөр нэрийг ашиглана уу "{0}"</AdminFoldersRootNameUsed>
+  <AdminFoldersFolderFilterSuccess>шүүлтүүр хүчин төгөлдөр амжилттай болсон</AdminFoldersFolderFilterSuccess>
+
+  <AdminTestAccessGoodResult>хавтас "{0}" байгаа болон уншиж болно.</AdminTestAccessGoodResult>
+  <AdminTestAccessBadResult>хавтас "{0}" нь байхгүй, эсвэл ямар ч NTFS зөвшөөрлүүдийг уншиж, хэрэглээний онцлог нь ямар ч сүлжээний хандалтын байдаг байна!</AdminTestAccessBadResult>
+  <AdminTestAccessErrorResult>Алдаа хавтас хандах шалгаж байхад "{0}": {1}</AdminTestAccessErrorResult>
+  <AdminTestIndexingErrorResult>Алдаа бол хавтас нь индексжүүлэлтийг шалгах "{0}"
+{1}</AdminTestIndexingErrorResult>
+  <AdminTestIndexingYesResult>сан "{0}" индексжүүлсэн байна</AdminTestIndexingYesResult>
+  <AdminTestIndexingNoResult>лавлах индексжүүлсэн биш "{0}" байна</AdminTestIndexingNoResult>
+  <AdminTestIndexingUnknownResult>сан "{0}" индексжүүлсэн байгаа эсэхийг тодорхойлохын тулд боломжгүй.</AdminTestIndexingUnknownResult>
+  <AdminTestIndexingAddIfNotIndexed>Хэрэв та хараахан индексжүүлсэн байна уу, индексжүүлэх энэ хавтсыг нэмж хүсч байна уу?</AdminTestIndexingAddIfNotIndexed>
+  <ProgressTestAccess>шалгах нэвтрэх</ProgressTestAccess>
+  <ProgressTestIndexing>шалгах индексжүүлэх</ProgressTestIndexing>
+  <AdminHowToIndexingLocationLink>индекс тулд хавтас нь Help үзнэ үү {0}</AdminHowToIndexingLocationLink>
+
+  <AdminUsersListAll>Бүх хэрэглэгчид</AdminUsersListAll>
+  <AdminUsersListDACL>ACL-аас гишүүд</AdminUsersListDACL>
+  <AdminGroupsListAll>Бүх бүлэг</AdminGroupsListAll>
+  <AdminGroupsListDACL>ACL нь бүлэг</AdminGroupsListDACL>
+  <AdminDACLStringLabel>ACL зөвшөөрөл</AdminDACLStringLabel>
+
+  <AdminCommonCustomField>Custom талбар</AdminCommonCustomField>
+  <AdminCommonSettingsChangeWarning>өөрчлөлтүүд нь үйлчлэхийн дахин нэвтэрсний дараа (эсвэл WebDAV хандах өргөдөл дахин ачаалсны дараа) авна.</AdminCommonSettingsChangeWarning>
+
+  <AdminCommonAllowedFoldersPathsTitle>Зөвшөөрөгдсөн хавтас зам</AdminCommonAllowedFoldersPathsTitle>
+  <AdminCommonNotAllowedFolderPath>Та зөвхөн эдгээр хавтас буюу түүний subfolders хандах үүсгэж болно: {0}</AdminCommonNotAllowedFolderPath>
+
+  <AdminLogsTab>нэвтрэх</AdminLogsTab>
+
+  <AdminSettingsTab>Тохиргоо</AdminSettingsTab>
+
+  <AdminLogsErrorsTab>алдааг Log</AdminLogsErrorsTab>
+  <AdminLogsErrorsClearBtn>Clear</AdminLogsErrorsClearBtn>
+  <AdminLogsErrorsClearUsersCountExceededBtn>тоо хэмжээ хязгаарыг давсан хэрэглэгчдийн алдаа нь тодорхой бүртгэл</AdminLogsErrorsClearUsersCountExceededBtn>
+
+  <AdminFoldersCreateHint>/ Зөвшөөрөх цэс "шинэ"-аас үйл ажиллагааг бүү үгүйсгэ: шинэ файл, шинэ хавтас, шинэ дүрс, шинэ баримт бичиг файлууд.</AdminFoldersCreateHint>
+  <AdminFoldersDeleteHint>/ Зөвшөөрөх одоо байгаа файл, хавтас устгах үгүйсгэ</AdminFoldersDeleteHint>
+  <AdminFoldersRenameHint>/ Зөвшөөрөх одоо байгаа файл, хавтас нэрийг бүү үгүйсгэ</AdminFoldersRenameHint>
+  <AdminFoldersUploadHint>файлууд онцлог (Хэрэгслийн-д оруулах товчийг) татаж бүү үгүйсгэ / зөвшөөрөх</AdminFoldersUploadHint>
+  <AdminFoldersDownloadHint>Зөвшөөрөх / "татаж", "харах / засах" үгүйсгэ, агуулах бүрхэгдүүлж руу гэх мэт арга хэмжээ татаж авах</AdminFoldersDownloadHint>
+  <AdminFoldersZipDownloadHint>/ Зөвшөөрөх "шахах ба татаж" үгүйсгэ арга хэмжээ</AdminFoldersZipDownloadHint>
+  <AdminFoldersZipHint>/ Зөвшөөрөх "нь зип архив руу шахах" үгүйсгэ арга хэмжээ</AdminFoldersZipHint>
+  <AdminFoldersUnzipHint>/ "Zip агуулгыг" бүү үгүйсгэ "Одоогийн хавтас нь задалж", "шинэ хавтас нь задалж", үйл ажиллагааг зөвшөөрөх</AdminFoldersUnzipHint>
+  <AdminFoldersCutHint>/ Зөвшөөрөх тайрах одоо байгаа файл, хавтас арга хэмжээ бүү үгүйсгэ</AdminFoldersCutHint>
+  <AdminFoldersCopyHint>хувь одоо байгаа файл, хавтас арга хэмжээ / үгүйсгэ зөвшөөрөх</AdminFoldersCopyHint>
+  <AdminFoldersListFilesHint>/ Зөвшөөрөх файлуудыг жагсаалт бүү үгүйсгэ</AdminFoldersListFilesHint>
+  <AdminFoldersListFoldersHint>/ Зөвшөөрөх жагсаалт хавтас бүү үгүйсгэ</AdminFoldersListFoldersHint>
+  <AdminFoldersModifyHint>файлуудыг (одоо байгаа файлын агуулгыг өөрчилж болно бүхий л үйл ажиллагаа) өөрчлөх бүү үгүйсгэ / зөвшөөрөх</AdminFoldersModifyHint>
+  <AdminFoldersBulkMailingHint>/ Зөвшөөрөх бүлгийн ихэнх мэйлийг бүү үгүйсгэ</AdminFoldersBulkMailingHint>
+  <AdminFoldersAnonymViewContentHint>/ Зөвшөөрөх файл нь үл танигдах хэрэглэгчидийн жагсаалтыг (олон нийтийн холбоосууд дамжуулан) үгүйсгэ</AdminFoldersAnonymViewContentHint>
+  <AdminFoldersAnonymDownloadHint>Зөвшөөрөх / файлууд нь нэр нь үл мэдэгдэгч хэрэглэгчдийн хувьд татаж авах (олон нийтийн холбоосууд дамжуулан) үгүйсгэ</AdminFoldersAnonymDownloadHint>
+  <AdminFoldersAnonymUploadHint>Нэр нь үл мэдэгдэх хэрэглэгчдийн хувьд байршуулахыг (олон нийтийн холбоосууд дамжуулан) файлуудыг бүү үгүйсгэ / зөвшөөрөх</AdminFoldersAnonymUploadHint>
+  <AdminFoldersWatchHint>/ Зөвшөөрөх бусад хэрэглэгчдийн хийсэн фолдер өөрчлөлтийг хянах хэрэглэгчдийг бүү үгүйсгэ (энэ нь зөвхөн UI / AllowUsersmonitorModifications = үнэн бол хэрэглэж болно)</AdminFoldersWatchHint>
+  <AdminFoldersListRestrictionsHint>Энэ сонголт нь файл жагсаалтыг хянадаг. тодорхой өргөтгөл бүхий файлуудыг дарж "бүү үгүйсгэ" радио товчин дээр дарна уу. Insert хориглоно өргөтгөл таслалаар тэдгээрийг тусгаарласнаар (жишээ нь: "EXE, BAT, COM"). "Зөвшөөрөх" радио товч тогтоож, (жишээ нь: "DOC, PDF, JPG") харуулах болно файлуудын өргөтгөлүүдийг оруулах хэрэгтэй.</AdminFoldersListRestrictionsHint>
+  <AdminFoldersCreateRestrictionsHint>Энэ функц нь "жагсаалт хязгаарлалт" төстэй юм, гэхдээ энэ нь шинэ файл үүсгэх, файл байршуулж, зип олборлолт хянадаг. Та хориглох, эсвэл тодорхой файлуудыг байршуулж идэвхжүүлж болно.</AdminFoldersCreateRestrictionsHint>
+  <AdminFoldersGeneralInfoHint>Одоогийн хавтас зам болон, код бичнэ. Дэлгэрэнгүйг нь доод хэсэгт Тусламж товчин дээр дарна уу.</AdminFoldersGeneralInfoHint>
+  <AdminFoldersUsersGroupsHint>Сонгох, эсвэл төрөл Хэрэглэгчид ба бүлэг нь тэдний хувьд хавтас хуваалцах. Дэлгэрэнгүйг нь доод хэсэгт Тусламж товчин дээр дарна уу.</AdminFoldersUsersGroupsHint>
+
+  <AdminUserFoldersButtonTitle>Туршилтын хувьцаа жагсаалт</AdminUserFoldersButtonTitle>
+  <AdminUserFoldersWindowTitle>Хэрэглэгчийн хавтас</AdminUserFoldersWindowTitle>
+  <AdminUserFoldersLabel>хэрэглэгчийн Folder жагсаалт '{0}':</AdminUserFoldersLabel>
+  
+  <AdminPermissionsTab>админ зөвшөөрөл</AdminPermissionsTab>
+  <AdminPermissionsPrivilege>ломж</AdminPermissionsPrivilege>
+  <AdminPermissionsEditButton>засах онцгой</AdminPermissionsEditButton>
+  <AdminPermissionsModifySettingsTitle>тохиргоог өөрчлөх</AdminPermissionsModifySettingsTitle>
+  <AdminPermissionsModifyFoldersTitle>хавтас өөрчлөх</AdminPermissionsModifyFoldersTitle>
+  <AdminPermissionsModifyAnonymFoldersTitle>Олон нийтийн хавтас өөрчлөх</AdminPermissionsModifyAnonymFoldersTitle>
+  <AdminPermissionsModifyAccountsTitle>данс өөрчлөх</AdminPermissionsModifyAccountsTitle>
+  <AdminPermissionsViewDiagnosticsTitle>Харах 'оношлогоо' хуудас</AdminPermissionsViewDiagnosticsTitle>
+  <AdminPermissionsViewLogTitle>бүртгэлийн харах</AdminPermissionsViewLogTitle>
+  <AdminPermissionsViewErrorsLogTitle>алдаа харах нэвтрэн</AdminPermissionsViewErrorsLogTitle>
+  <AdminPermissionsModifyLocalizationsTitle>localizations өөрчлөх</AdminPermissionsModifyLocalizationsTitle>
+  <AdminPermissionsFolderPathTitle>Folder зам</AdminPermissionsFolderPathTitle>
+  <AdminPermissionsFoldersTitle>админ хавтас</AdminPermissionsFoldersTitle>
+  <AdminPermissionsPrivilegeHint>Set хэрэглэгчид / бүлэг нь төлөө "{0}" онцгой эрх зөвшөөрөхгүй байх болно</AdminPermissionsPrivilegeHint>
+  <AdminPermissionsFolderTitle>Админ хавтас шинж чанар</AdminPermissionsFolderTitle>
+  <AdminPermissionsFolderFieldTitle>Folder зам</AdminPermissionsFolderFieldTitle>
+  <AdminPermissionsFolderHint>админ фолдер-ий тухай мэдээлэл</AdminPermissionsFolderHint>
+  <AdminPermissionsFolderEmptyAccounts>хэрэглэгчид болон / эсвэл бүлэг заана</AdminPermissionsFolderEmptyAccounts>
+  <AdminPermissionsFolderAlreadyExists>Энэ байршил нь аль хэдийнээ байгаа нь хавтаст</AdminPermissionsFolderAlreadyExists>
+  <AdminPermissionsFolderNotFound>Энэ байршил нь Folder олж чадаагүй</AdminPermissionsFolderNotFound>
+  <AdminPermissionsAllowedFoldersMessage>Та / / шинэчлэлтийг бий болгож чадна зөвхөн эдгээр хавтас буюу түүний subfolders хандах удирдах: {0}</AdminPermissionsAllowedFoldersMessage>
+
+  <AdminUsersCountExceededWarn>хамгийн их хэрэглэгчийн тоо хэмжээ хэтэрсэн байна. Таны одоогийн тусгай зөвшөөрлийг нэвтрэх цорын ганц {0} хэрэглэгчдэд олгодог. Дэлгэрэнгүйг нь нээж "{1}" чихийг мөн олж "{2}" онцгой тохиолдол (ууд). "{1}" таб дээр энэ мэдэгдэл нь тодорхой бүртгэл бичлэгийг нуух хэрэгтэй.</AdminUsersCountExceededWarn>
+
+  <AdminNewVersionAvailableTitle>Шинэ хувилбар байдаг!</AdminNewVersionAvailableTitle>
+  <AdminNewVersionAvailableInfo>Одоогийн хувилбар: {0} /&gt; A шинэ хувилбар &lt;br: {1}</AdminNewVersionAvailableInfo>
+  
+  <SettingsGridDescriptionInfo>Тодорхойлолт</SettingsGridDescriptionInfo>
+  <SettingsGridFormatInfo>Утга хэлбэр</SettingsGridFormatInfo>
+  <SettingsGridDefaultValueInfo>Default утга нь</SettingsGridDefaultValueInfo>
+  <SettingsGridMoreInfo>Илүү мэдээлэл</SettingsGridMoreInfo>
+  <SettingsGridRestoreDefault>анхдагч сэргээх</SettingsGridRestoreDefault>
+
+  <SettingsFormatBoolean>Бүүлийн үнэ цэнэ</SettingsFormatBoolean>
+  <SettingsFormatWholeNumber>бүхэл тоо</SettingsFormatWholeNumber>
+  <SettingsFormatRealNumber>бодит тоо</SettingsFormatRealNumber>
+  <SettingsFormatString>String</SettingsFormatString>
+  <SettingsFormatEnum>аль нь ч үнэ цэнэ</SettingsFormatEnum>
+  <SettingsFormatSet>утгуудын давталтуудыг ямар таслалаар тусгаарлаж</SettingsFormatSet>
+  <SettingsFormatArray>Мөр нь таслалаар тусгаарлаж бичсэн жагсаалт</SettingsFormatArray>
+  <SettingsFormatToolbarButtons>. (. Цэнэ "{0}" дараалан хэд хэдэн удаа давтаж болно, харин нэг бүдүүн гэдэсний дараа тус бүрийн нэр, дараа, хэрэв боломжтой товчийг харуулах хэрэглэдэг аргуудын аль нэгийг заах явдал юм: {1})</SettingsFormatToolbarButtons>
+
+  <AdminSettingsSave>тохиргоог хадгалж</AdminSettingsSave>
+  <AdminToggleHiddenParams>{0} дэвшилтэт параметрүүд</AdminToggleHiddenParams>
+  <AdminHintHiddenParams>Нэмэлт параметрүүд нь илүү мөхлөгт тохиргоо болон ихэнх тохиолдолд зөвхөн зорилготой юм ховор шаардлагатай байна</AdminHintHiddenParams>
+  <AdminShowHiddenParams>харуулах</AdminShowHiddenParams>
+  <AdminHideHiddenParams>нуух</AdminHideHiddenParams>
+
+  <SettingsDenyAuthModeChange>Автомат таних арга өөрчлөлтийн дэмжиж байна. {0} нэвтрэлт танилт горимыг өөрчлөх тухай зааврыг үзнэ үү.</SettingsDenyAuthModeChange>
+  <SettingsApplicationRestartedMsg>Хэрэглээний дахин эхлүүлнэ</SettingsApplicationRestartedMsg>
+  <SettingsSettingsSavedMsg>Тохиргоо аврагдсан байна</SettingsSettingsSavedMsg>
+  <SettingsSettingsSaveFailedAppMsg>тохиргооны файлуудыг хадгалах боломжгүй байна. хэрэглэгчийн вэб програм үндсэн фолдер {0} файлуудыг web.config нь бичих NTFS зөвшөөрлүүдийг шалгаж, HttpCommanderSettings.config {1}. Алдааны мэдэгдэл нь: {2}.</SettingsSettingsSaveFailedAppMsg>
+  <SettingsSettingsSaveFailedTempMsg>тохиргооны файлуудыг хадгалах боломжгүй байна. хэрэглэгчийн хувьд түр зуурын хавтас {0} нь шалгах зөвшөөрлийг {1}. Алдааны мэдэгдэл нь: {2}.</SettingsSettingsSaveFailedTempMsg>
+  <SettingsSettingsReadFailedAppMsg>тохиргооны файлуудыг унших боломжгүй. хэрэглэгчийн хувьд web.config нь NTFS зөвшөөрөл уншиж, HttpCommanderSettings.config вэб програм үндсэн фолдер {0} файлуудыг шалгах {1}. Алдааны мэдэгдэл нь: {2}.</SettingsSettingsReadFailedAppMsg>
+  <SettingsSettingsReadFailedTempMsg>Түр зуурын хавтас нь тохиргооны файлуудыг унших боломжгүй. хэрэглэгчийн хувьд түр зуурын хавтас {0} нь шалгах зөвшөөрлийг {1}. Алдааны мэдэгдэл нь: {2}.</SettingsSettingsReadFailedTempMsg>
+  <SettingsSettingsConfigChangedOutside>HttpCommander тохиргооны файлыг өөр нэг програм өөрчлөгдсөн байна. Магадгүй та текст засварлагч гараар өөрчлөгдсөн байна. програмын тохиргооны файлыг суулгасан байна. Хэрэв та вэб интерфэйсээр дамжуулан хийсэн тохиргооны HttpCommander холбоотой бүх өөрчлөлтүүд алга байна. Та дараа дахин аврахын тулд оролдож, тэднийг дахин хийх хэрэгтэй. програм ажиллаж байхад бид гараар засварлах тохиргооны файлууд эсрэг санал болгож байна. Үгүй бол та тохиргооны файлуудыг өөрчлөх дараа өргөдлийг дахин эхлүүлэх хэрэгтэй. Алдааны мэдэгдэл нь: {0}.</SettingsSettingsConfigChangedOutside>
+  <SettingsSettingsSaveNotif>тохиргоо өөрчлөлт аврахын тулд бүү мартаарай!</SettingsSettingsSaveNotif>
+  
+  <SettingsEmailNotifTitle>И-мэйл ээр Мэдэгдэл</SettingsEmailNotifTitle>
+  <SettingsEmailNotifApplyBtn>мэйл тохиргоо хадгал</SettingsEmailNotifApplyBtn>
+  <SettingsEmailNotifResetBtn>Reset</SettingsEmailNotifResetBtn>
+  <SettingsEmailNotifEventsLabel>үйл явдлын хувьд</SettingsEmailNotifEventsLabel>
+  <SettingsEmailNotifWhenLabel>илгээх</SettingsEmailNotifWhenLabel>
+  <SettingsEmailNotifEmailsLabel>и-мэйл</SettingsEmailNotifEmailsLabel>
+  <SettingsEmailNotifPathsLabel>зам</SettingsEmailNotifPathsLabel>
+  
+  <LogsErrorsGridUrlColumn>Url</LogsErrorsGridUrlColumn>
+  <LogsErrorsGridMsgColumn>Захиа</LogsErrorsGridMsgColumn>
+  <LogsErrorsGridMoreInfoColumn>Илүү мэдээлэл</LogsErrorsGridMoreInfoColumn>
+  <LogsErrorsGridDetailsTitle>дэлгэрэнгүй</LogsErrorsGridDetailsTitle>
+  
+  <FsrmUnableLoadLibraryLocal>Орон нутгийн хост дээр Server нөөцийн менежертэй Файл холбогдох боломжгүй байна.</FsrmUnableLoadLibraryLocal>
+  <FsrmUnableLoadLibraryRemote>"{0}" хост дээр Server нөөцийн менежертэй Файл холбогдох боломжгүй байна.</FsrmUnableLoadLibraryRemote>
+  <FsrmNotInstalled>Файл сервер нөөцийн менежер суулгаагүй байна "{0}".</FsrmNotInstalled>
+  <FsrmNotInstalledEitherEnd>Файл сервер нөөцийн менежер, орон нутгийн хост дээр буюу "{0}" дээр ч суулгаагүй байна.</FsrmNotInstalledEitherEnd>
+  <FsrmQuotaNotSpecified>Ноогдлын заасан байна.</FsrmQuotaNotSpecified>
+  <FsrmUnableGetQuota>Ноогдлын хязгаарлалтуудыг авах боломжгүй.</FsrmUnableGetQuota>
+  <FsrmUnableSetQuota>Ноогдлын хязгаарлалтуудыг тохируулах боломжгүй.</FsrmUnableSetQuota>
+  <FsrmQuotaSetMsg>Ноогдлын тогтоосон байна.</FsrmQuotaSetMsg>
+  <FsrmInvalidQuotaValueMsg>Буруу квот утга.</FsrmInvalidQuotaValueMsg>
+
+  <CommandBuyNow>Одоо худалдаж авах</CommandBuyNow>
+
+  <AdminUpdateTab>Upgrade</AdminUpdateTab>
+  <AdminUpdateManual>гарын авлага шинэчлэх</AdminUpdateManual>
+  <AdminUpdateAuto>автомат шинэчлэх</AdminUpdateAuto>
+  <AdminUpdateStartButton>Эхлүүлэх / upgrade хувилбар нь Нөөцлөлт үүсгэх</AdminUpdateStartButton>
+  <AdminUpdateFinishButton>Finish Upgrade / сэргээх Нөөцлөх</AdminUpdateFinishButton>
+  <AdminUpdateBackupButton>Нөөцлөх</AdminUpdateBackupButton>
+  <AdminUpdateDownloadNewButton>шинэ хувилбарыг татаж авах</AdminUpdateDownloadNewButton>
+  <AdminUpdateStepTitle>Алхам {0} {1} {2}</AdminUpdateStepTitle>
+  <AdminUpdateStepInfo>Алхам {0} {1}</AdminUpdateStepInfo>
+  <AdminUpdateNumberSymbol>#</AdminUpdateNumberSymbol>
+  <AdminUpdateBackupContent>товчин дээр "{0}" програмаар хавтас нь нөөц хуулбар бий болгох болон татаж авах холбоосыг олж дарна уу</AdminUpdateBackupContent>
+  <AdminUpdateDownloadBackupLinkHint>Доорх холбоос ашиглан хэрэглэх нөөц хуулбарыг татаж авна уу:</AdminUpdateDownloadBackupLinkHint>
+  <AdminUpdateDownloadNewContent>Дараа нь доорх холбоосыг ашиглан шинэ хувилбарыг татаж авах, шинэ хувилбарыг суулгах зорилгоор {0} суулгах {1} ба {2} шинэчлэх {1} заавар дагана уу. Суулгасны дараа Admin Panel нээлттэй таб "{3}" болон товчийг дарж "{4}" дарааллаар суулгах дуусгахын тулд явах уу.</AdminUpdateDownloadNewContent>
+  <AdminUpdateUploadButton>нөөц хуулбарыг зургаа upload хийнэ, тохиргоог хэрэглэнэ</AdminUpdateUploadButton>
+  <AdminUpdateUploadAndInstallButton>Бүх тохиргоог хадгалах нь шинэ хувилбарыг суулгах</AdminUpdateUploadAndInstallButton>
+  <AdminUpdateUploadEmptyText>байршуулахын тулд нөөц хуулбарыг сонгоно уу</AdminUpdateUploadEmptyText>
+  <AdminUpdateFinishContent>өмнөх хувилбар тохиргоог сэргээх сонгох, програм хавтас нь урд нь үүсгэгдсэн нөөц архивыг байршуулна уу тулд</AdminUpdateFinishContent>
+  <AdminUpdateFinishMessage>Баяр хүргэе! Бүх тохиргоог амжилттай хэрэглэж байна. Мөн жишээ нь, та бусад файлууд хийсэн бүх өөрчлөлт хэрэглэнэ үү Default.aspx эсвэл Global.asax.</AdminUpdateFinishMessage>
+  <AdminUpdateFinishRefreshPage>хуудас дахин ачаалах болно</AdminUpdateFinishRefreshPage>
+  <AdminUpdateMainInfo>Энэ төрлийн сайжруулах хэсэгчлэн автомат юм. Та үүсгэж, програм тохиргоонууд нь нөөц файлыг татан авч, сайжруулах дараа сэргээх болно. Эдгээр нь богино алхмуудыг дагана уу: нөөц файл үүсгэх, гарын авлага сайжруулах хийж, нөөц файлаас тохиргоог сэргээх. Энэ процедур нь мөн нөөц ашиглаж болно / сайжруулах ямар тохиргоог сэргээх. Ердөө л нөөц файлаас тохиргоог сэргээх сайжруулах алхмыг алгасаж болно.</AdminUpdateMainInfo>
+  <AdminUpdateAutoButton>Авто</AdminUpdateAutoButton>
+  <AdminUpdateAutoInfo>Энэ төрлийн сайжруулах бараг бүрэн автомат юм. Энэ нь 2-р үе шат бүрдэнэ: одоогийн тохиргоонууд нөөц нөөц файлаас тохиргооны шинэ хувилбар, нөхөн сэргээх суулгалтыг (Хэрэв та татаж авах болон нөөц файлыг хадгалах ёстой). HTTP командлагч нь автоматаар сүүлийн хувилбарыг нь татаж авч суулгаж болно эсвэл та манай сервер дээр шинэ хувилбар зип архив замыг зааж өгч болно. Бүх тохиргоонууд автоматаар өмнө нь үүсгэсэн нөөц файлаас сэргээсэн байна.</AdminUpdateAutoInfo>
+  <AdminUpdateRestoreWebConfigCheckBox>Web.config (жишээ нь, тухайлбал SMTP гэх мэт) тохиргоог сэргээх</AdminUpdateRestoreWebConfigCheckBox>
+  <AdminUpdateBackupAssignedFoldersInRootMessage>Анхаар! зарим хэрэглэгчийг-аас дээш нийт хэмжээ байх програмаар санд хавтас байдаг {0}. Нөөц хийж байх болно. Эдгээр сангууд нь нөөц хуулбарыг хийж уу, програм сангаас устгаж, таны талд үйл ажиллагааг дахин оролдоно уу.</AdminUpdateBackupAssignedFoldersInRootMessage>
+  <AdminUpdateNeedRefreshPageForContinue>Анхаар! Энэ хуудсыг дахин ачаалах шаардлагатай цааш нь үргэлжлүүлнэ. товчин дээр дарна уу "{0}". дахин ачих дараа үйл ажиллагааг давтан уу.</AdminUpdateNeedRefreshPageForContinue>
+  <AdminUpdateRestoreFromBackupEmpty>Эсвэл сонгогдсон байгаа бол, энэ нь шинээр бий файлын өмнөх шатанд хэрэглэж болно</AdminUpdateRestoreFromBackupEmpty>
+  <AdminUpdateInstallZipPathHint>шинэчлэх эхний салбарт (сервер дээр) суулгах файл бүрэн бие замыг зааж, эсвэл онлайн хуваарилалт ашиглахын тулд хоосон орхино уу</AdminUpdateInstallZipPathHint>
+  <AdminUpdateInstallZipPathEmpty>суулгах нь архивлах замыг зааж</AdminUpdateInstallZipPathEmpty>
+  <AdminUpdateProgress>шинэчилж</AdminUpdateProgress>
+  <AdminUpdateAccessDeniedWarning>&lt;Б&gt; Анхаар! &lt;/ Б&gt; Modify тогтоосон уу шинэчилж {0} HTTP командлагч бүхий хавтас нь хэрэглэгчид NTFS зөвшөөрөл (унших, бичих) нь {1} болон давтан сайжруулах. &lt;br /&gt; Амжилттай сайжруулах дараа үү хуучин эрхийг сэргээх.</AdminUpdateAccessDeniedWarning>
+  <AdminUpdateAccessDeniedWarningCurentUser>одоогийн</AdminUpdateAccessDeniedWarningCurentUser>
+
+  <ServerExceedsMaxSizeForEditAsTextFile>Файлын хэмжээ нь текст файл болгон засварлах хамгийн их хэмжээг давсан байна.</ServerExceedsMaxSizeForEditAsTextFile>
+  <ServerDemoMode>тухайн үйл ажиллагаа нь Демо горимд хориглоно</ServerDemoMode>
+  <ServerHostedMode>Энэ нь дараах зохион байгуулсан туршилтын хувилбар дахь тохиргоонуудыг утгуудыг өөрчлөхийг зөвшөөрөхгүй ороогүй байна: {0}.</ServerHostedMode>
+  <ServerIncorrectImageContentType>Файлын Чимээгүй төрлийн дүрс биш юм</ServerIncorrectImageContentType>
+  <ServerPermissionDenied>Энэ нь үйл ажиллагаа, учир нь хязгаарлагдмал зөвшөөрлүүдийн татгалзсан байна</ServerPermissionDenied>
+  <ServerRestoreFromTrashNoParentFolder>эцэг, эх, лавлах "{0}" юм олж чадаагүй байгаа учраас нөхөн сэргээлт амжилтгүй болсон. Үүнийг бий болгох, дахин оролдоно уу.</ServerRestoreFromTrashNoParentFolder>
+  <ServerModifyPermissionDenied>та энэ файлыг өөрчлөх эрх байхгүй байна, учир нь энэ үйл ажиллагаа нь татгалзсан байна</ServerModifyPermissionDenied>
+  <ServerPathNotFound>Path олдсонгүй.</ServerPathNotFound>
+  <ServerInvalidPath>Зам "{0}" хүчин төгөлдөр бус байна</ServerInvalidPath>
+  <ServerInvalidAbsolutePath>Буруу туйлын зам "{0}"</ServerInvalidAbsolutePath>
+  <!-- share folder path: \\server\share -->
+  <ServerInvalidShareFolderPath>Буруу хувь хавтас зам "{0}"</ServerInvalidShareFolderPath>
+  <ServerInvalidUncPath>Буруу UNC зам "{0}"</ServerInvalidUncPath>
+  <ServerUnableResolveUncPath>UNC замыг шийдвэрлэх боломжгүй "{0}"</ServerUnableResolveUncPath>
+  <ServerInvalidFileName>файл / хавтас нэр заасан буюу агуулдаг биш юм буруу тэмдэгт {0}</ServerInvalidFileName>
+  <ServerFilePathNotFound>Файл байхгүй байна</ServerFilePathNotFound>
+  <ServerIncorrectPathForFileLink>Буруу объект төрөл. заасан зам нь хавтсанд харуулж байна</ServerIncorrectPathForFileLink>
+  <ServerIncorrectPathForFolderLink>Буруу объект төрөл. заасан зам нь файл уруу харуулж байна</ServerIncorrectPathForFolderLink>
+  <ServerRootFolderNotFound>зам нь Root буюу эх хавтас "{0}" олсон байна.</ServerRootFolderNotFound>
+  <ServerUnableCreateFolder>фолдер үүсгэх боломжгүй</ServerUnableCreateFolder>
+  <ServerFileAlreadyExists>Файлын энэ нэр аль хэдийн орсон байдаг нь</ServerFileAlreadyExists>
+  <ServerFileAlreadyExistsOnRename>
+    Та нэрийг нь өөрчлөх үү "{0}" гэж "{1}?"
+    Энэ байршилд ижил нэртэй файл аль хэдийн байдаг.
+  </ServerFileAlreadyExistsOnRename>
+  <ServerFolderAlreadyExistsOnRename>
+    Та нэрийг нь өөрчлөх үү "{0}" гэж "{1}?"
+    Энэ байршилд ижил нэртэй хавтас аль хэдийн байдаг.
+  </ServerFolderAlreadyExistsOnRename>
+  <ServerFoldersMergeConfirm>
+    Энэ нь очих нь аль хэдийн нэртэй хавтас агуулсан "{0}".
+    энэ нэг "{1}" та одоо ч гэсэн энэ хавтсыг нийлүүлэхийг хүсч байна "{0}"?
+  </ServerFoldersMergeConfirm>
+  <ServerFolderWithSameNameAsFileNameAlreadyExists>ижил нэртэй хавтас аль хэдийн байдаг "{0}" файлын нэрийг танд заасан</ServerFolderWithSameNameAsFileNameAlreadyExists>
+  <ServerFileWithSameNameAsFolderNameAlreadyExists>ижил нэртэй файл аль хэдийн байдаг "{0}" хавтас нэр Таны тодорхойлсон</ServerFileWithSameNameAsFolderNameAlreadyExists>
+  <ServerFileNotFound>Файлын "{0}" хавтсанд олж чадаагүй байна "{1}". Магадгүй энэ нь устгагдсан эсвэл өөр хэрэглэгч хасагдсан байна.</ServerFileNotFound>
+  <ServerDirectoryAlreadyExists>Ийм нэртэй сан нь аль хэдийн орсон байдаг</ServerDirectoryAlreadyExists>
+  <ServerFolderMoveAlreadeExists>очих газар хавтас "{0}" эх хавтас адил байна</ServerFolderMoveAlreadeExists>
+  <ServerUploadPathNotFound>файл хадгалах зам сервер дээр олж чадаагүй байна</ServerUploadPathNotFound>
+  <ServerUploadPathNotSet>байршуулахын тулд замыг авч байх үед алдаа гарлаа. Хэрэв, хөтөч хуудсыг шинэчилж, дахин оролдож үзнэ.</ServerUploadPathNotSet>
+  <ServerUploadNoChunk>өөр ямар ч зүсэм</ServerUploadNoChunk>
+  <ServerUploadWriteChunk>байт оноос хойш хэлтэрхийг бичих</ServerUploadWriteChunk>
+  <ServerUploadCreatingFile>файлыг үүсгэх</ServerUploadCreatingFile>
+  <ServerUploadFileUploaded>файл оруулагдсан байна</ServerUploadFileUploaded>
+  <ServerUploadWriteError>алдаа бичих</ServerUploadWriteError>
+  <ServerConfigurationError>Буруу тохиргоо эсвэл програм! Сайтын админтай холбоо барих</ServerConfigurationError>
+  <ServerPermissionsAllowTypes>Одоогийн зөвшөөрөл нь зөвхөн файлын төрлийг нь энэ үйлдлийг зөвшөөрөх {0}</ServerPermissionsAllowTypes>
+  <ServerPermissionsDenyTypes>Одоогийн зөвшөөрөл файлын төрлийг нь энэ үйлдлийг хориглох {0}</ServerPermissionsDenyTypes>
+  <ServerRequestSizeExceeded>оруулагдсан файлыг хэмжээ зөвшөөрөгдөх серверийн тохиргоо нь хэмжээнээс хэтэрсэн</ServerRequestSizeExceeded>
+  <ServerEmailMsgProcessedFilesSubject>Хуулагдсан / Хувиргасан / Татаж / Үүсгэсэн / Хассан / хуваалцсан файл / хавтас</ServerEmailMsgProcessedFilesSubject>
+  <ServerEmailMsgUploadFilesTitle>Хуулагдсан</ServerEmailMsgUploadFilesTitle>
+  <ServerEmailMsgModifyFilesTitle>өөрчлөлт оруулах</ServerEmailMsgModifyFilesTitle>
+  <ServerEmailMsgDownloadFilesTitle>татаж авах</ServerEmailMsgDownloadFilesTitle>
+  <ServerEmailMsgCreateFilesTitle>бий</ServerEmailMsgCreateFilesTitle>
+  <ServerEmailMsgDeleteFilesTitle>устгагдсан</ServerEmailMsgDeleteFilesTitle>
+  <ServerEmailMsgCreatePublicFilesTitle>хуваалцсан</ServerEmailMsgCreatePublicFilesTitle>
+  <ServerEmailMsgProcessedFilesBody>
+    Дараах файлууд / хавтас байсан {0} өөр {1}:
+
+{2}
+    
+  </ServerEmailMsgProcessedFilesBody>
+  <ServerEmailMsgPasswordRecoverSubject>Нууц үг сэргээх</ServerEmailMsgPasswordRecoverSubject>
+  <ServerEmailMsgPasswordRecoverBody>
+    Та вэб Файл менежер өөрийн нууц үгийг сэргээх хүсэлт тавьсан. Таны нууц үг дахин байв. Хэрэв та энэ алдаа гарсан гэж үзэж байгаа бол, зүгээр л энэ захиаг тоохгүй, харин таны нууц үг өөрчлөгдсөн байна гэдгийг мэдэж байх хэрэгтэй.
+    Хэрэглэгчийн нэр: {0}
+    Шинэ нууц үг: {1}
+  </ServerEmailMsgPasswordRecoverBody>
+  
+  <ServerEmailMsgUserNameRecoverSubject>Хэрэглэгчийн нэр сэргээх</ServerEmailMsgUserNameRecoverSubject>
+  <ServerEmailMsgUserNameRecoverBody>
+    Та вэб Файл менежер өөрийн нэрийг сэргээх хүсэлт тавьсан.
+    Хэрэглэгчийн нэр: {0}
+  </ServerEmailMsgUserNameRecoverBody>
+
+  <ServerEmailMsgUserActivationSubject>Дансны идэвхжүүлэх</ServerEmailMsgUserActivationSubject>
+  <ServerEmailMsgUserActivationBody>
+    Дансны ({0}) идэвхжүүлэх шаардлагатай.
+    Таны данс идэвхжүүлэхийн тулд дараах холбоос дээр дарна уу: {1}
+  </ServerEmailMsgUserActivationBody>
+  <ServerEmailMsgUserRegisteredSubject>Хэрэглэгчийн бүртгэгдсэн</ServerEmailMsgUserRegisteredSubject>
+  <ServerEmailMsgUserRegisteredBody>
+    Та амжилттай Вэб Файл менежер бүртгэгдсэн байна.
+    Хэрэглэгчийн нэр: {0}
+  </ServerEmailMsgUserRegisteredBody>
+  <ServerEmailMsgUserRegisteredForAdminsBody>
+    &lt;h4&gt; Шинэ хэрэглэгч бүртгэгдсэн байна &lt;/h4&gt;
+    &lt;Хүчтэй&gt; хэрэглэгчийн нэр &lt;/ хүчтэй&gt;: {0} &lt;br /&gt;
+    &lt;Хүчтэй&gt; И-мэйл хаяг &lt;/ хүчтэй&gt;: {1} &lt;br /&gt;
+    &lt;Хүчтэй&gt; огноо &lt;/ хүчтэй&gt;: {2} &lt;br /&gt;
+    &lt;Хүчтэй&gt; Нэмэлт мэдээлэл &lt;/ хүчтэй&gt;: {3} &lt;br /&gt;
+  </ServerEmailMsgUserRegisteredForAdminsBody>
+  <ServerDiskFullError>диск дээр хангалттай зай байхгүй юм.</ServerDiskFullError>
+  <ServerFolderLimitations>Folder хязгаарлалт: {0}</ServerFolderLimitations>
+  <ServerShortcutAssignedFolderNotFound>олж товчлохын нь зорилтот зам төлөө бус оноосон хавтас</ServerShortcutAssignedFolderNotFound>
+  <ServerSizeFilesForZipExceeded>archivable файлуудын хэмжээ нь зөвшөөрөгдсөн давсан утга нь {0}.</ServerSizeFilesForZipExceeded>
+  <ServerPasteFolderToSubfolderError>очих газар хавтас "{0}" эх хавтас нь дотроо байгаа юм "{1}".</ServerPasteFolderToSubfolderError>
+  <ServerLiveConnectAppIDNotSpecified>Microsoft Live Connect хэрэглэх Хэрэглэгч ID тодорхойлсон ороогүй байна</ServerLiveConnectAppIDNotSpecified>
+  <ServerSendEmailInfo>Зохиогч зэрэг {0} өөрийн и-мэйл заасан. хариу ЗӨВХӨН энэ и-мэйл хаягийг ашиглана.</ServerSendEmailInfo>
+
+  <ServerAntivirusScanningFailed>нь антивирус аас скан хийх: '{0} {1}' хэвийн зогсоосон байна.</ServerAntivirusScanningFailed>
+
+  <ServerUserNameNotFound>нэр Хэрэглэгч '{0}' олдсонгүй.</ServerUserNameNotFound>
+  <ServerFileNameCopySuffix>хуулбар</ServerFileNameCopySuffix>
+
+  <ServerDeleteFolderNTFSAccessDenied>Та хавтсыг устгах NTFS зөвшөөрөл байхгүй байна "{0}"</ServerDeleteFolderNTFSAccessDenied>
+
+  <ServerMSOOTemplateNotFound>{0} загвар олж чадаагүй</ServerMSOOTemplateNotFound>
+</Localization>

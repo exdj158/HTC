@@ -1,0 +1,1608 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Localization>
+  <!-- Common keys -->
+  
+  <ExtMsgButtonTextYES>jā</ExtMsgButtonTextYES>
+  <ExtMsgButtonTextNO>Nē</ExtMsgButtonTextNO>
+  
+  <ControlHideFileManager>Slēpt web failus vadītājs</ControlHideFileManager>
+  
+  <CommonMainTitle>Tīmekļa faili piekļuve</CommonMainTitle>
+  <CommonApplicationLoading>Iekraušana tīmekļa datņu piekļuves</CommonApplicationLoading>
+  <CommonLoadError>Radusies kļūda iegūt koku datiem laikā</CommonLoadError>
+  <CommonGridAccessDenied>Mape "{0}" neeksistē vai lasīt piekļuve ir liegta</CommonGridAccessDenied>
+  <CommonNoScript>Šī lapa ir nepieciešams JavaScript lai Javascript jūsu pārlūkprogrammā! Lūdzu, iespējojiet to un pieteikties vēlreiz!</CommonNoScript>
+  <CommonErrorCaption>kļūda</CommonErrorCaption>
+  <CommonWarningCaption>brīdinājums</CommonWarningCaption>
+  <CommonInfoCaption>informācija</CommonInfoCaption>
+  <CommonConfirmCaption>Apstiprināt</CommonConfirmCaption>
+  <CommonFileNameCaption>Faila nosaukums</CommonFileNameCaption>
+  <CommonFileNamePrompt>Ievadiet jaunu faila nosaukumu</CommonFileNamePrompt>
+  <CommonFileNewNameValue>Jaunais teksts Document.txt</CommonFileNewNameValue>
+  <CommonFolderNewNameValue>Jauna mape</CommonFolderNewNameValue>
+  <CommonZipFileNameCaption>Zip arhīvs nosaukums</CommonZipFileNameCaption>
+  <CommonZipFileNamePrompt>Faila nosaukums (paplašinājums tiks pievienots automātiski)</CommonZipFileNamePrompt>
+  <CommonFolderNameCaption>Mapes nosaukums</CommonFolderNameCaption>
+  <CommonFolderNamePrompt>Ievadiet jaunu mapes nosaukumu</CommonFolderNamePrompt>
+  <CommonDeleteOnePrompt>Vai tiešām vēlaties dzēst "{0}"?</CommonDeleteOnePrompt>
+  <CommonDeleteManyPrompt>Vai tiešām vēlaties dzēst šos {0} priekšmetus?</CommonDeleteManyPrompt>
+  <CommonForToday>Uz šodienu</CommonForToday>
+  <CommonButtonCaptionOK>labi</CommonButtonCaptionOK>
+  <CommonButtonCaptionCancel>atcelt</CommonButtonCaptionCancel>
+  <CommonButtonCaptionClose>aizvērt</CommonButtonCaptionClose>
+  <CommonButtonCaptionAdd>pievienot</CommonButtonCaptionAdd>
+  <CommonButtonCaptionContinue>Turpināt</CommonButtonCaptionContinue>
+
+  <CommonProgressPleaseWait>Lūdzu uzgaidiet</CommonProgressPleaseWait>
+  
+  <CommonFieldLabelName>nosaukums</CommonFieldLabelName>
+  <CommonFieldLabelPath>taka</CommonFieldLabelPath>
+  <CommonFieldLabelSize>Izmērs</CommonFieldLabelSize>
+  <CommonFieldLabelLabels>etiķetes</CommonFieldLabelLabels>
+  <CommonFieldLabelType>tips</CommonFieldLabelType>
+  <CommonFieldLabelAction>rīcība</CommonFieldLabelAction>
+  <CommonFieldLabelDate>Datums</CommonFieldLabelDate>
+  <CommonFieldLabelDateTime>Datums Laiks</CommonFieldLabelDateTime>
+  <CommonFieldLabelDateCreated>izveidots datums</CommonFieldLabelDateCreated>
+  <CommonFieldLabelDateModified>modificēts datums</CommonFieldLabelDateModified>
+  <CommonFieldLabelDateAccessed>piekļūt datums</CommonFieldLabelDateAccessed>
+  <CommonFieldLabelValue>vērtība</CommonFieldLabelValue>
+  <CommonFieldLabelUserName>lietotāja vārds</CommonFieldLabelUserName>
+  <CommonFieldLabelUser>lietotājs</CommonFieldLabelUser>
+  <CommonFieldLabelUsers>Lietotāji</CommonFieldLabelUsers>
+  <CommonFieldLabelGroupName>grupas nosaukums</CommonFieldLabelGroupName>
+  <CommonFieldLabelGroup>grupa</CommonFieldLabelGroup>
+  <CommonFieldLabelGroups>grupas</CommonFieldLabelGroups>
+  <CommonFieldLabelPassword>parole</CommonFieldLabelPassword>
+  <CommonFieldLabelRepeatPassword>atkārtojiet paroli</CommonFieldLabelRepeatPassword>
+  <CommonFieldLabelComments>komentāri</CommonFieldLabelComments>
+  <CommonValueTypeFolder>mape</CommonValueTypeFolder>
+
+  <CommonFieldLabelDescription>apraksts</CommonFieldLabelDescription>
+  <EmptyDescriptionText>Norādiet aprakstu</EmptyDescriptionText>
+  <CommonFieldLabelReadMeTxt>Readme.txt saturs</CommonFieldLabelReadMeTxt>
+  
+  <CommonWordOr>vai</CommonWordOr>
+
+  <SortAscText>Pārkārtot</SortAscText>
+  <SortDescText>Kārtot dilstoši</SortDescText>
+
+  <CommonNewDocument>Jauns dokuments</CommonNewDocument>
+  <CommonNewSpreadsheet>jaunu izklājlapu</CommonNewSpreadsheet>
+  <CommonNewPresentation>Jauns prezentācija</CommonNewPresentation>
+
+  <CommonWordWrap>Word wrap</CommonWordWrap>
+  
+  <!-- End Common keys -->
+
+  <!-- Labels -->
+
+  <LabelsTitle>etiķete</LabelsTitle>
+  <LabelsNoLabel>nav etiķete</LabelsNoLabel>
+  <LabelsColor>krāsa</LabelsColor>
+  <LabelsCustomLabel>Custom etiķetes</LabelsCustomLabel>
+  <LabelsCustomLabelHint>Ievadiet etiķetes tekstu</LabelsCustomLabelHint>
+  <LabelsCustomLabelView>Label &amp;nbsp; view: &amp;nbsp; {0} {1} {2}</LabelsCustomLabelView>
+  <LabelsFileLabelledMessage>Veiksmīgi marķēts {0} prece (s)</LabelsFileLabelledMessage>
+  <LabelsRemovedMessage>Veiksmīgi izņemta {0} etiķete (-i)</LabelsRemovedMessage>
+  <LabelsNotRemovedMessages>neatdala: {0}</LabelsNotRemovedMessages>
+  <LabelsNotLabelledMessage>nav marķēts: {0}</LabelsNotLabelledMessage>
+  <LabelsLabelRemovedMessage>Marķēt veiksmīgi noņemti</LabelsLabelRemovedMessage>
+  <LabelsNewLabel>New Label</LabelsNewLabel>
+  <LabelsLabellingMessage>Marķēšana</LabelsLabellingMessage>
+  <LabelsRemovingLabelMessage>noņemšana uzlīmes</LabelsRemovingLabelMessage>
+  <LabelsLabelInfoTip>Atzīmēts kā '{0}' {1} lietotājs '{2}'</LabelsLabelInfoTip>
+
+  <!-- End Labels -->
+
+  <!-- Comments -->
+
+  <CommentsCountInfoTip>{0} comment (s)</CommentsCountInfoTip>
+  <CommentsWriteCommentHint>Rakstīt komentāru un nospiediet '{0}' vai Ctrl+Enter vai Shift+Enter ...</CommentsWriteCommentHint>
+
+  <!-- End Comments -->
+
+  <RefreshPageWarningMessage>&lt;b&gt; Uzmanību! &lt;/b&gt; Lai pabeigtu šo darbību, pašreizējā lapa pārlūkprogrammā jābūt atsvaidzināts. &lt;br /&gt; Vai vēlaties atsvaidzināt tagad?</RefreshPageWarningMessage>
+
+  <PagingToolbarBeforePageText>Lappuse</PagingToolbarBeforePageText>
+  <PagingToolbarAfterPageText>no {0}</PagingToolbarAfterPageText>
+  <PagingToolbarFirstText>First Page</PagingToolbarFirstText>
+  <PagingToolbarPrevText>Iepriekšējā lapa</PagingToolbarPrevText>
+  <PagingToolbarNextText>Nākamā lapaspuse</PagingToolbarNextText>
+  <PagingToolbarLastText>Last Page</PagingToolbarLastText>
+  <PagingToolbarDisplayMsg>Parādīts {0} - {1} no {2}</PagingToolbarDisplayMsg>
+  <PagingToolbarEmptyMsg>Nav datu, lai parādītu</PagingToolbarEmptyMsg>
+  
+  <GridTotalLabel>Kopā:</GridTotalLabel>
+  <GridTotalFilesLabel>failus</GridTotalFilesLabel>
+  <GridTotalFoldersLabel>mapes</GridTotalFoldersLabel>
+  
+  <GridDDSelectedRowsText>{0} izvēlēts rinda {1}</GridDDSelectedRowsText>
+  <GridDDSelectedFilesText>{0} izvēlēts failus</GridDDSelectedFilesText>
+  <GridDDSelectedFoldersText>{0} izvēlētās mapes</GridDDSelectedFoldersText>
+  <GridDDConfirmCopyMoveTitle>Drop uz mapi "{0}"</GridDDConfirmCopyMoveTitle>
+  <GridDDConfirmAddToZipTitle>Pievienot zip "{0}"</GridDDConfirmAddToZipTitle>
+  <GridDDConfirmAddToZipMessage>Pārvieto faili tiks pievienoti šim ZIP arhīvā. Vai vēlaties turpināt? {0}.</GridDDConfirmAddToZipMessage>
+  <GridDDConfirmCopyMoveMsg>Izvēlieties darbību, kuru vēlaties pieteikties. Avots: "{0}", Destination mape: "{1}" {2} {3}..</GridDDConfirmCopyMoveMsg>
+  <GridDDConfirmCopyMoveToZipMsg>Faili tiks pievienoti zip arhīvu. Izvēlieties darbību, kas vēlaties pieteikties uz vilkt failus pēc pievienošanas failus zip arhīvu. Avots: "{0}", Destination zip arhīvs: "{1}" {2} {3}..</GridDDConfirmCopyMoveToZipMsg>
+  <GridDDDraggedFileNames>&lt;b&gt; vilka faili: &lt;/b&gt; {0}</GridDDDraggedFileNames>
+  <GridDDDraggedFolderNames>&lt;b&gt; vilka mapes: &lt;/b&gt; {0}</GridDDDraggedFolderNames>
+  <GridDDConfirmTargetFolderOnlyCopyMsg>Pašreizējās atļaujas avota mapes ļauj jums tikai kopija vilkt failus. Vai vēlaties turpināt? {0}.</GridDDConfirmTargetFolderOnlyCopyMsg>
+  <GridDDConfirmTargetFolderOnlyMoveMsg>Pašreizējās atļaujas avota mapes ļauj jums pārvietot tikai vilkt failus. Vai vēlaties turpināt? {0}.</GridDDConfirmTargetFolderOnlyMoveMsg>
+
+  <GridRowPublicHint>Uzklikšķiniet, lai atvērtu publisku saiti jaunā logā / tab</GridRowPublicHint>
+  <GridRowAlertHint>Klikšķiniet, lai skatītu izmaiņas darīts šo failu / mapi</GridRowAlertHint>
+  <GridRowRecentHint>Atrodiet šo failu / mapi</GridRowRecentHint>
+  <GridRowAlertEventHint>Klikšķiniet, lai iet šo vietu</GridRowAlertEventHint>
+
+  <ProgressCreating>Radīt</ProgressCreating>
+  <ProgressDeleting>dzēšana</ProgressDeleting>
+  <ProgressLoading>iekraušana</ProgressLoading>
+  <ProgressSearching>Meklēšana</ProgressSearching>
+  <ProgressZipping>saspiežot</ProgressZipping>
+  <ProgressUnzipping>izpakošana</ProgressUnzipping>
+  <ProgressZipContents>Getting saturu ZIP arhīvā</ProgressZipContents>
+  <ProgressPrepareDownload>Sagatavošana lejupielādei</ProgressPrepareDownload>
+  <ProgressMoving>progress</ProgressMoving>
+  <ProgressCopying>kopējamais</ProgressCopying>
+  <ProgressRenaming>pārdēvēšana</ProgressRenaming>
+  <ProgressUpdating>atjaunināšana</ProgressUpdating>
+  <ProgressLoadingEditInPixlr>Iekraušanas Pixlr redaktoru</ProgressLoadingEditInPixlr>
+  <ProgressLoadingEdit>iekraušana redaktors</ProgressLoadingEdit>
+  <ProgressSavingEdit>Saglabā failu</ProgressSavingEdit>
+  <ProgressSaving>glābšana</ProgressSaving>
+  <ProgressExecuting>Izpildes</ProgressExecuting>
+
+  <BalloonFilesDeleted>{0} failu (s), izdzēsts</BalloonFilesDeleted>
+  <BalloonFoldersDeleted>{0} mape (s) svītrots</BalloonFoldersDeleted>
+  <BalloonFilesFailed>{0} failu (s) nav</BalloonFilesFailed>
+  <BalloonFoldersFailed>{0} mape (s) neizdevās</BalloonFoldersFailed>
+  <BalloonFilesZipped>{0} failu (s) saspiests</BalloonFilesZipped>
+  <BalloonFoldersZipped>{0} mape (s) saspiests</BalloonFoldersZipped>
+  <BalloonFilesCopied>{0} failu (s), kopēt</BalloonFilesCopied>
+  <BalloonFoldersCopied>{0} mape (s) kopēts</BalloonFoldersCopied>
+  <BalloonFilesMoved>{0} failu (s) pārvieto</BalloonFilesMoved>
+  <BalloonFoldersMoved>{0} mape (s) pārvieto</BalloonFoldersMoved>
+  <BalloonNotUnzipped>{0} fails (-i), kas nepieder izsaiņošanas</BalloonNotUnzipped>
+  <BalloonFilesUploaded>{0} failu (s) augšupielādēta</BalloonFilesUploaded>
+  <BalloonFilesNotUploaded>{0} fails (-i), kas nav augšupielādēta</BalloonFilesNotUploaded>
+  <BalloonSomeFilesNotUploaded>Daži faili nevar augšupielādēt</BalloonSomeFilesNotUploaded>
+  <BalloonCreatedSuccessfully>veiksmīgi izveidots</BalloonCreatedSuccessfully>
+  <BalloonUnzippedSuccessfully>izsaiņot veiksmīgi</BalloonUnzippedSuccessfully>
+  <BalloonRenamedSuccessfully>veiksmīgi pārdēvēta</BalloonRenamedSuccessfully>
+  <BalloonSavedSuccessfully>veiksmīgi saglabāta</BalloonSavedSuccessfully>
+  <BalloonCopiedToClipboard>Kopēts starpliktuvē</BalloonCopiedToClipboard>
+  <BalloonCopyToClipboardFailed>Kopēt uz starpliktuvi neizdevās</BalloonCopyToClipboardFailed>
+
+  <CommandCopyToClipboard>Kopēt starpliktuvē</CommandCopyToClipboard>
+  <CommandCopyLinkToClipboard>Kopēt saiti starpliktuvē</CommandCopyLinkToClipboard>
+  <ClipboardScreenshotTitlePrefix>attēls</ClipboardScreenshotTitlePrefix>
+  <ClipboardScreenshotHint>Attēli: Varat ielīmēt screenshot no jūsu starpliktuvē (Nospiediet &lt;b&gt; Ctrl+PrtSc &lt;/b&gt; un pēc tam &lt;b&gt; Ctrl+V &lt;/b&gt;) vai attēlu no jūsu redaktors (Nospiediet &lt;b&gt; Ctrl+V &lt;/b&gt;).</ClipboardScreenshotHint>
+  <ClipboardFileHint>Jūs varat arī ielīmēt failu no starpliktuves</ClipboardFileHint>
+
+  <CommandClouds>mākonis krātuves</CommandClouds>
+  <CommandCloudsDownloadTo>lejupielādētu ...</CommandCloudsDownloadTo>
+  <CommandCloudsUploadFrom>augšupielādēt no ...</CommandCloudsUploadFrom>
+  <CommandCloudsAbout>Par Cloud krātuvēm</CommandCloudsAbout>
+  
+  <CommandBack>atpakaļ</CommandBack>
+  <CommandForward>uz priekšu</CommandForward>
+  <CommandRecentFolders>nesenās mapes</CommandRecentFolders>
+  <CommandHome>Mājas</CommandHome>
+  <CommonActions>Pasākumi</CommonActions>
+  <CommandMultiSelect>Multi-Select</CommandMultiSelect>
+  <CommandShare>akcija</CommandShare>
+  <CommandSorting>šķirošanas</CommandSorting>
+  
+  <CommandFileManager>Atgriezties uz failu pārvaldnieks</CommandFileManager>
+  <CommandFolders>Mapes</CommandFolders>
+  <CommandGridView>skats</CommandGridView>
+  <CommandRefresh>atsvaidzināt</CommandRefresh>
+  <CommandThumbnailView>thumbnail view</CommandThumbnailView>
+  <CommandDetailedView>Saraksts view</CommandDetailedView>
+  <CommandDetailsPane>detaļas rūts</CommandDetailsPane>
+  <CommandFavorites>favorīti</CommandFavorites>
+  <CommandAddToFavorites>Pievienot pie favorītiem</CommandAddToFavorites>
+  <CommandAddToFavoritesHint>Pievienot pašreizējo mapi favorītiem</CommandAddToFavoritesHint>
+  <AddingToFavoritesMessage>Pievienošana favorītiem</AddingToFavoritesMessage>
+  <RemoveFromFavoritesMessage>Dzēšana no izlases</RemoveFromFavoritesMessage>
+  <FolderAlreadyAddedInFavorites>Mape "{0}" jau pastāv favorītiem</FolderAlreadyAddedInFavorites>
+  <FolderAddedInFavoritesSuccessfully>Mape "{0}" tika veiksmīgi pievienots favorītiem</FolderAddedInFavoritesSuccessfully>
+  <FavoritesIsOverflowed>Tas nebija iespējams pievienot pašreizējo mapi "{0}" favorītiem. Izdzēsiet dažus favorītus, lai atbrīvotu vietu un mēģiniet vēlreiz.</FavoritesIsOverflowed>
+  <RemoveFromFavoritesHint>Noņemt "{0}" no izlases</RemoveFromFavoritesHint>
+  <AddToHomeScreenIOSHint>Pieskaries {0} un tad &lt;strong&gt; "Pievienot sākuma Screen" &lt;/strong&gt;</AddToHomeScreenIOSHint>
+  <CommandSearch>Meklēt</CommandSearch>
+  <CommandUpload>Upload</CommandUpload>
+  <CommandSettings>Iestatījumi</CommandSettings>
+  <CommandLanguage>valoda</CommandLanguage>
+  <CommandAdministration>Administrācija</CommandAdministration>
+  <CommandAdminPanel>admin panelis</CommandAdminPanel>
+  <CommandChangePassword>Mainīt paroli</CommandChangePassword>
+  <ProgressChangePassword>mainot paroli</ProgressChangePassword>
+  <CommandChangeEmail>Mainīt e-pastu</CommandChangeEmail>
+  <ProgressChangeEmail>Mainot e-mail</ProgressChangeEmail>
+  <CommandMobileView>Mobilo saskarne (Smartphones)</CommandMobileView>
+  <CommandStandardView>Pilna versija</CommandStandardView>
+  <CommandInstallIOSApp>Instalējiet IOS lietotni</CommandInstallIOSApp>
+  <CommandInstallAndroidApp>Instalējiet Android lietotnes</CommandInstallAndroidApp>
+  <CommandAddServerToMobileApp>Pievienot šo serveri uz mobilo lietotni</CommandAddServerToMobileApp>
+  <CommandAddToHomeScreen>Pievienot sākuma ekrānam</CommandAddToHomeScreen>
+  <CommandDiagnostics>diagnostikas lapa</CommandDiagnostics>
+  <CommandLicenseInfo>licences informācija</CommandLicenseInfo>
+  <CommandLogout>Izlogoties</CommandLogout>
+  <CommandLogoutHint>Uzklikšķiniet, lai pabeigtu pašreizējo sesiju</CommandLogoutHint>
+  <CommandNew>jauns</CommandNew>
+  <CommandFile>fails</CommandFile>
+  <CommandEmptyFile>tukšs fails</CommandEmptyFile>
+  <CommandNewMSOODocument>Dokuments ar MS Office Online</CommandNewMSOODocument>
+  <CommandNewOffice365Document>Dokumentu ar Office 365</CommandNewOffice365Document>
+  <CommandNewMSOOWord>Word dokuments</CommandNewMSOOWord>
+  <CommandNewMSOOExcel>Excel izklājlapa</CommandNewMSOOExcel>
+  <CommandNewMSOOPowerPoint>PowerPoint prezentācija</CommandNewMSOOPowerPoint>
+  <CommandNewGoogleDocument>Dokuments ar Google</CommandNewGoogleDocument>
+  <CommandNewGoogleDocs>Google Docs</CommandNewGoogleDocs>
+  <CommandNewGoogleSheets>Google Sheets</CommandNewGoogleSheets>
+  <CommandNewGoogleSlides>Google Slaidi</CommandNewGoogleSlides>
+  <CommandNewImage>Tēls Pixlr</CommandNewImage>
+  <CommandFolder>mape</CommandFolder>
+  <CommandNewFile>Jauns tukšs fails</CommandNewFile>
+  <CommandNewFolder>Jauna mape</CommandNewFolder>
+  <CommandNewWithTemplate>Izmantojot veidni ...</CommandNewWithTemplate>
+  <CommandRename>pārdēvēt</CommandRename>
+  <CommandDelete>izdzēst</CommandDelete>
+  <CommandCopy>kopija</CommandCopy>
+  <CommandMove>Kustēties</CommandMove>
+  <CommandCut>samazināt</CommandCut>
+  <CommandCopyTo>Kopēt uz ...</CommandCopyTo>
+  <CommandMoveTo>Pārvietot uz ...</CommandMoveTo>
+  <CommandCopyCutClipboardSuffix>uz starpliktuvi</CommandCopyCutClipboardSuffix>
+  <CommandPaste>pasta</CommandPaste>
+  <CommandPasteInto>ielīmēt</CommandPasteInto>
+  <CommandZip>Komprese ar Zip arhīvu</CommandZip>
+  <CommandZipMenu>Zip / Unzip</CommandZipMenu>
+  <CommandUnzip>Komplektācija Zip</CommandUnzip>
+  <CommandUnzipSelected>izkravāt atlasīts</CommandUnzipSelected>
+  <CommandUnzipAll>izkravāt visu</CommandUnzipAll>
+  <CommandUnzipTo>uz mapi</CommandUnzipTo>
+  <CommandUnzipToCurrent>uz pašreizējo mapi</CommandUnzipToCurrent>
+  <MessageUnzipToFolder>Ierakstiet nosaukumu mapes izkravāt to</MessageUnzipToFolder>
+  <MessageUnzipPasswordHint>Ja jūs zināt, ka parole ir nepieciešama izpakošana, ievadiet to zemāk redzamajā laukā</MessageUnzipPasswordHint>
+  <MessageUnzipNeedPassword>Parole ir nepieciešama, lai izkravāt failus</MessageUnzipNeedPassword>
+  <ZipPasswordProtectHint>Lai paroli aizsargātu ZIP arhīvu ievadiet paroli zemāk esošajā laukā. Pretējā gadījumā atstājiet lauku tukšu</ZipPasswordProtectHint>
+  <AppendToZipPasswordProtectHint>Ar paroli aizsargātu failus pievieno zip arhīvu, ievadiet paroli zemāk esošajā laukā. Pretējā gadījumā atstājiet lauku tukšu</AppendToZipPasswordProtectHint>
+  <ZipPasswordProtectWindowTitle>Arhivēšanas ar paroli</ZipPasswordProtectWindowTitle>
+  <OpenFolderAfterUnzipCheckBox>Atvērt mapi pēc izpakošanas</OpenFolderAfterUnzipCheckBox>
+  <CommandUnzipToNew>uz jaunu mapi</CommandUnzipToNew>
+  <CommandZipContents>Zip saturs</CommandZipContents>
+  <ArchiveContentsTitle>Arhīvs saturs "{0}"</ArchiveContentsTitle>
+  <CommandDownload>Download</CommandDownload>
+  <CommonDownloadAll>lejupielādēt visus</CommonDownloadAll>
+  <DownloadListDragFile>Jūs varat vilkt-n-drop failus uz jūsu darbvirsmas</DownloadListDragFile>
+  <CommandZipDownload>Saspiest un lejupielādēt</CommandZipDownload>
+  <CommandView>Skatīt pārlūkprogrammā</CommandView>
+  <CommandDownloadOrView>Download vai view</CommandDownloadOrView>
+  <CommandPreview>Images preview</CommandPreview>
+  <CommandFlashPreview>Flash preview</CommandFlashPreview>
+  <GettingSizeFlashMovie>Getting izmērs flash movie</GettingSizeFlashMovie>
+  <CommandEdit>Edit kā teksta failu</CommandEdit>
+  <CommandEditView>Skatīt kā teksta failu</CommandEditView>
+  <AceNotLoadedMessage>Nevar ielādēt Ace redaktoru</AceNotLoadedMessage>
+  <VideoJsNotLoadedMessage>Nevar ielādēt VideoJS atskaņotāju</VideoJsNotLoadedMessage>
+  <CommandMenuEdit>rediģēt</CommandMenuEdit>
+  <CommandSelectAll>Izvēlēties visus</CommandSelectAll>
+  <CommandInvertSelection>Izvēlēties pretēji</CommandInvertSelection>
+  <CommandLinkToFile>Saite uz failu / mapi</CommandLinkToFile>
+  <!--Share link-->
+  <CommandMakePublicFolder>Izveidot publisku saiti</CommandMakePublicFolder>
+  <PublicViewInGoogle>View Google</PublicViewInGoogle>
+  <PublicViewinOWA>View in OWA</PublicViewinOWA>
+  <!--Make public folder (share)-->
+  <CommandViewWithGoogleDoc>View Google Docs</CommandViewWithGoogleDoc>
+  <CommandViewWithShareCad>Skatīt in ShareCad.org</CommandViewWithShareCad>
+  <CommandViewWithAutodesk>View in Autodesk</CommandViewWithAutodesk>
+  <CommandViewWithBox>View in Box</CommandViewWithBox>
+  <CommandViewWithOWA>Skatīt Office Web Apps</CommandViewWithOWA>
+  <CommandCloudConvert>Konvertēt ar CloudConvert</CommandCloudConvert>
+  <ProgressGetCloudConvertOutputFormats>Getting izvades formātos</ProgressGetCloudConvertOutputFormats>
+  <ProgressCloudConvertConverting>konvertēšana</ProgressCloudConvertConverting>
+  <CloudConvertWindowTitle>Pārvērst '{0}'</CloudConvertWindowTitle>
+  <CloudConvertWindowConvertButton>pārvērst</CloudConvertWindowConvertButton>
+  <CloudConvertWindowOutputFormatsLabel>izejas formāts</CloudConvertWindowOutputFormatsLabel>
+  <CloudConvertDownloadLinkLabel>Saite lejupielādei</CloudConvertDownloadLinkLabel>
+  <CloudConvertSaveAsLabel>Saglabāt kā (paplašinājums tiks pievienots automātiski):</CloudConvertSaveAsLabel>
+  <CloudConvertNoOutputFormats>Nav pieejami formāti pārveidotu</CloudConvertNoOutputFormats>
+  <CloudConvertNoUrlForDownload>Tas nebija izdevies saņemt saiti, lai lejupielādētu</CloudConvertNoUrlForDownload>
+  <ProgressCloudConvertUploading>Augšupielāde no CloudConvert</ProgressCloudConvertUploading>
+  <CloudConvertSaveAsNameBlank>Veida nosaukums šeit</CloudConvertSaveAsNameBlank>
+  <CancelEditButton>Atcelt rediģēt</CancelEditButton>
+  <HideButton>slēpt</HideButton>
+  <EditDocumentCancelHint>Pēc tam, kad jūs aizvērt logu ar rediģētu dokumentu, tas tiks automātiski saglabāts. &lt;br /&gt; Jūs varat paslēpt šo dialoglodziņu, spiežot {0} (šajā gadījumā dokuments joprojām būs saglabāti pēc slēgšanas redaktors). &lt;br /&gt; Ja jūs nevēlaties, lai saglabātu dokumentu, nospiediet {1} (šajā gadījumā, redaktors logs tiks aizvērts).</EditDocumentCancelHint>
+  <EditDocumentSaveHint>Tagad jūs varat saglabāt izmaiņas dokumentā, nospiežot {0}. Uzmanību! Aizverot redaktora logu, tas tiks arī automātiski saglabāts.</EditDocumentSaveHint>
+  <CommandEditInMSOffice>Rediģēt MS Office</CommandEditInMSOffice>
+  <CommandEditInOOo>Rediģēt OpenOffice / LibreOffice</CommandEditInOOo>
+  <CommandViewInMSOffice>Skatīt MS Office</CommandViewInMSOffice>
+  <CommandViewInOOo>Skatīt arī OpenOffice / LibreOffice</CommandViewInOOo>
+  <CommandEditInPixlr>Rediģēt Pixlr</CommandEditInPixlr>
+  <CommandEditInAdobe>Rediģēt Adobe Creative Cloud</CommandEditInAdobe>
+  <AdobeImageEditorSavedAsNewTypeMessage>Aina mainījās Adobe Attēlu redaktors ir saglabāts formātā {0}</AdobeImageEditorSavedAsNewTypeMessage>
+  <CommandEditInGoogle>Rediģēt Google disks</CommandEditInGoogle>
+  <EditInGoogleConvertMessage>Pēc rediģēt dokuments tiks konvertēti formātā {1} {0} {2}</EditInGoogleConvertMessage>
+  <EditInGoogleLinkError>Nevar iegūt saiti, lai rediģētu dokumentu Google diskā</EditInGoogleLinkError>
+  <EditInGoogleWaiting>Gaida rediģēšanas pabeigt Google diskā</EditInGoogleWaiting>
+  <CommandEditInMSOO>Rediģēt MS Office Online</CommandEditInMSOO>
+  <EditInMSOOLinkError>Nevar iegūt saiti, lai rediģētu dokumentu MS Office Online</EditInMSOOLinkError>
+  <EditInMSOOWaiting>Gaida rediģēšanas pabeigšanas MS Office Online</EditInMSOOWaiting>
+  <CommandEditInOffice365>Rediģēt Office 365</CommandEditInOffice365>
+  <EditInOffice365LinkError>Nevar iegūt saiti, lai rediģētu dokumentu Office 365</EditInOffice365LinkError>
+  <EditInOffice365Waiting>Gaida rediģēšanas pabeigšanas Office 365</EditInOffice365Waiting>
+  <CommandSave>Saglabāt</CommandSave>
+  <CommandSaveAs>Saglabāt kā...</CommandSaveAs>
+  <CommandAppRestart>restart pieteikumu</CommandAppRestart>
+  <CommandPlayVideoFlash>Atskaņot video Flash player</CommandPlayVideoFlash>
+  <CommandPlayVideoHtml5>Atskaņot video</CommandPlayVideoHtml5>
+  <CommandPlayAudioHtml5>Atskaņot audio</CommandPlayAudioHtml5>
+  <CommandPlayVideo>Atskaņot video</CommandPlayVideo>
+  <CommandPlayAudio>Atskaņot audio</CommandPlayAudio>
+  <CommandConvertVideo>konvertēt video</CommandConvertVideo>
+
+  <ViewInServiceLink>Klikšķiniet šeit, lai apskatītu failu</ViewInServiceLink>
+  <EditInServiceLink>Klikšķiniet šeit, lai rediģētu dokumentu</EditInServiceLink>
+
+  <OfficeEditCopyLinkLabel>Kopēt saiti zemāk un atveriet to Office pieteikumā:</OfficeEditCopyLinkLabel>
+  <OfficeRunError>Tas nebija iespējams uzsākt {0}</OfficeRunError>
+  <BadPathToFile>Tas nebija iespējams atrast ceļu uz failu</BadPathToFile>
+  <FixBasicAuthAlertTitle>Uzmanību!</FixBasicAuthAlertTitle>
+  <FixBasicAuthAlertMessage>Microsoft Office strādā ar pamata autentifikāciju bez SSL! Jūs varat noteikt šo jūsu birojā. Lai iegūtu vairāk informācijas, lūdzu, skatiet {0}.</FixBasicAuthAlertMessage>
+  <FixBasicAuthAlertCheckBoxText>Nerādīt šo dialogu vairs.</FixBasicAuthAlertCheckBoxText>
+  <CommandDetails>Sīkāka informācija</CommandDetails>
+  <CommonButtonCaptionAddDetail>Pievienot detaļu</CommonButtonCaptionAddDetail>
+  <CommonButtonCaptionAddComment>Pievienot komentāru</CommonButtonCaptionAddComment>
+  <DetailsWindowTitle>Details "{0}"</DetailsWindowTitle>
+  <FileDetailsSave>Piemērot izmaiņas</FileDetailsSave>
+  <FileDetailsIgnoreChanges>ignorēt</FileDetailsIgnoreChanges>
+  <FileDetailsCloseConfirmTitle>Fails detaļas logs tiek aizvērts</FileDetailsCloseConfirmTitle>
+  <FileDetailsCloseConfirmMsg>Uzmanību! Izmaiņas nav saglabātas vēl. Izvēlieties darbību, kas vēlaties pieteikties uz šīm izmaiņām, pirms aizverot logu.</FileDetailsCloseConfirmMsg>
+  <FileDetailsGridTitleColumn>virsraksts</FileDetailsGridTitleColumn>
+  <FileDetailsGridAuthorColumn>pēdējais autors</FileDetailsGridAuthorColumn>
+  <LoadingDetailsMask>iekraušanas informācija</LoadingDetailsMask>
+  <NewDetailsTitle>jauns nosaukums</NewDetailsTitle>
+  <NewDetailsValue>Jauns detaļas vērtība</NewDetailsValue>
+  <DetailsSavingMsg>Taupot informāciju</DetailsSavingMsg>
+  <ProgressLoadingEditInOffice>Sagatavošanās rediģēšanai Office</ProgressLoadingEditInOffice>
+  <MenuFilterText>Filtri</MenuFilterText>
+  <EmptyTextFilter>Ievadiet filtru ...</EmptyTextFilter>
+  <AfterDateFilterText>pēc</AfterDateFilterText>
+  <BeforeDateFilterText>pirms</BeforeDateFilterText>
+  <OnDateFilterText>uz</OnDateFilterText>
+  <YesBooleanFilterText>jā</YesBooleanFilterText>
+  <NoBooleanFilterText>Nē</NoBooleanFilterText>
+  <CommandEditWithZoho>Rediģēt Zoho</CommandEditWithZoho>
+  <ZohoNotSupportedFormatMessage>Pagarinājums neatbalsta Zoho. Skatīt {0}.</ZohoNotSupportedFormatMessage>
+  <ProgressLoadingEditInZoho>Iekraušana Zoho redaktors</ProgressLoadingEditInZoho>
+  <CommandSubMenuViewAndEdit>Skatīt / rediģēt</CommandSubMenuViewAndEdit>
+  <CommandSubMenuShare>akcija</CommandSubMenuShare>
+  <CommandSubMenuMore>vairāk</CommandSubMenuMore>
+  <StopUploadingButtonText>apstāties</StopUploadingButtonText>
+  <SimpleUploadErrorInfo>Kad augšupielādējot failu (s) bija kļūda. &lt;br /&gt; Skatīt {0} vairāk info &lt;/a&gt;</SimpleUploadErrorInfo>
+  <BalloonAbortFilesUploaded>Augšupielādējot failus tika pārtraukta</BalloonAbortFilesUploaded>
+  <UploadDragNDropTab>Drag &amp;drop</UploadDragNDropTab>
+  <UploadDragNDropTabImages>Drag &amp;drop+bildes</UploadDragNDropTabImages>
+  <DnDGridProgressColumn>progress</DnDGridProgressColumn>
+  <DnDFileReadingError>Lasīšana kļūda. Kļūdas kods: {0}.</DnDFileReadingError>
+  <DnDFileReadingAbort>Lasījumā pārtraukta. Kļūdas kods: {0}.</DnDFileReadingAbort>
+  <DnDFileUploadingError>Augšupielāde kļūda. {0}</DnDFileUploadingError>
+  <DnDFileUploadingAbort>Augšupielāde pārtraukta.</DnDFileUploadingAbort>
+  
+  <CommandWebFoldersLinks>Karte web mapes</CommandWebFoldersLinks>
+  <CommandSyncWebFolders>Sinhronizēt ar vietējo mapi</CommandSyncWebFolders>
+  <WebFolderLinksFieldLabel>Web-mape saites</WebFolderLinksFieldLabel>
+  <WebFolderLinksForWindows64Note>Nospiediet taustiņu kombināciju {0} Win+R {1}. Ievietojiet komandrindas ar {0} Atvērt: {1} jomā (sk komandrindas piemērus turpmāk), noklikšķiniet uz {0} Labi {1}. Windows autentifikāciju, izmantojot pilnībā kvalificētu domēna nosaukumu: {2}.</WebFolderLinksForWindows64Note>
+  <OpenLibreOfficeRunCommandNote>Vai nospiediet taustiņu kombināciju {0} Win+R {1}, ievietojiet komandrindas zemāk par {0} Atvērt: {1} laukā un nospiediet {0} Labi {1}</OpenLibreOfficeRunCommandNote>
+  <WebFolderLinksForMacOSNote>In "Finder" izvēlnē atveriet {0} Go&gt; Connect to Server {1}. Ievietojiet saiti uz tīmekļa mapē {0} "servera adrese" {1} laukā. Uzklikšķiniet {0} "Connect" {1}. Jaunajā dialogā izvēlieties {0} "Guest" {1} vai {0} "Reģistrētais lietotājs" {1} (Windows autentifikāciju). Uzklikšķiniet {0} "Connect" {1}.</WebFolderLinksForMacOSNote>
+  <WebFolderLinksForUbuntuNote>Atvērt {0} Go&gt; Atrašanās vieta ... {1} Kopēt saiti uz mājas mapi vietas laukā.</WebFolderLinksForUbuntuNote>
+  <LinksToWebFoldersWindowText>Varat karte mapes, jūs redzat, kā tīkla disku jūsu vietējā OS. Pēc kartēšana jūs varat strādāt ar failiem, piemēram, ar vietējiem uzņēmumiem vai rediģēt dokumentus MS Office vai OpenOffice. Skatīt palīdzību par to, kā {0} karti.</LinksToWebFoldersWindowText>
+  <CommonFileTypeNameCaption>"{0}" faila nosaukums</CommonFileTypeNameCaption>
+  <CommonFileTypeNamePrompt>Ievadiet jaunu "{0}" faila nosaukumu</CommonFileTypeNamePrompt>
+  
+  <PixlrEditorWindowTitle>Pixlr redaktors {0}</PixlrEditorWindowTitle>
+  <PixlrSaveImageSuccessMessage>Attēls "{0}" tika veiksmīgi saglabāts. Atsvaidzināt sarakstu, ja esat saglabājis attēlu ar jaunu nosaukumu.</PixlrSaveImageSuccessMessage>
+  <CommonFileImageNewName>jaunu attēlu</CommonFileImageNewName>
+  <CommandChangeTheme>Mainīt tēmu</CommandChangeTheme>
+  
+  <CommandHelp>palīdzēt</CommandHelp>
+
+  <OpeningShortcutProgress>atklāšanas īsceļu</OpeningShortcutProgress>
+  <CommandCreateShortcut>Shortcut (simboliska saite)</CommandCreateShortcut>
+  <ShortcutNameHint>Shortcut nosaukums</ShortcutNameHint>
+  <ShortcutTargetPathHint>galamērķis ceļš</ShortcutTargetPathHint>
+  <CreateShortcutButtonTitle>izveidot</CreateShortcutButtonTitle>
+  <CreatingShortcutProgress>Radīt īsceļu</CreatingShortcutProgress>
+  <CreateShortcutSuccessMessage>Shortcut "{0}" tika veiksmīgi izveidots "{1}".</CreateShortcutSuccessMessage>
+
+  <OpeningInternetShortcutProgress>Atverot interneta saīsni</OpeningInternetShortcutProgress>
+  <InternetShortcutNotValidMsg>Mērķa URL Šī interneta Shortcut nav derīgs</InternetShortcutNotValidMsg>
+  <InternetShortcutWindowTitle>Iet uz saiti</InternetShortcutWindowTitle>
+  
+  <CommandVersioning>versijas</CommandVersioning>
+  <CommandVersionHistory>versija vēsture</CommandVersionHistory>
+  <CommandCheckOut>Check Out</CommandCheckOut>
+  <CommandCheckIn>Reģistrēties</CommandCheckIn>
+  <CommandUndoCheckOut>Atcelt Check Out</CommandUndoCheckOut>
+  <VersionHistoryObtainingMessage>Iegūšana versija vēsture</VersionHistoryObtainingMessage>
+  <NoVersionHistoryMessage>Versijas vēsture izvēlēto failu neeksistē</NoVersionHistoryMessage>
+  <FileIsCheckedOutMessage>Fails "{0}" jau ir paņemts, ko lietotājs "{1}" no {2}</FileIsCheckedOutMessage>
+  <CheckingOutMessage>Pārbaude Out</CheckingOutMessage>
+  <SuccessfullyCheckedOutMessage>Fails "{0}" tika veiksmīgi paņemts lietotājs "{1}"</SuccessfullyCheckedOutMessage>
+  <FileIsNotCheckedOutMessage>Fails "{0}" nav paņemts vēl</FileIsNotCheckedOutMessage>
+  <FileIsCheckedOutOtherUserMessage>Fails "{0}" ir paņemts cits lietotājs "{1}" no {2}.</FileIsCheckedOutOtherUserMessage>
+  <FileUndoCheckOutForbiddenMessage>Jūs nevarat atcelt pārbaudi cits lietotājs out piemērots.</FileUndoCheckOutForbiddenMessage>
+  <FileCheckInForbiddenMessage>Jūs nevarat pārbaudīt failu, kas jau ir paņemts cits lietotājs.</FileCheckInForbiddenMessage>
+  <FileUndoCheckOutConfirmMessage>Ja jūs atceļat izbraukšana, izmaiņas piemēro dokumentam netiks saglabātas! Vai tiešām vēlaties atcelt savu izbraukšana?</FileUndoCheckOutConfirmMessage>
+  <FileVersionDeleteConfirmTitle>Dzēšana no faila versiju</FileVersionDeleteConfirmTitle>
+  <FileVersionDeleteConfirmMessage>Vai esat pārliecināts, ka vēlaties dzēst izvēlēto faila versiju?</FileVersionDeleteConfirmMessage>
+  <FileVersionRestoreConfirmTitle>Atjaunošana faila versiju</FileVersionRestoreConfirmTitle>
+  <FileVersionRestoreConfirmMessage>Vai esat pārliecināts, ka vēlaties atjaunot izvēlēto faila versiju? {0} Ja jā, norādiet failu, kurā izvēlētais versija tiks saglabāts. Ja jūs atstāt šo vērtību bez izmaiņām (vai kas tukšu vērtību) izvēlētais variants aizstās izvēlēto failu (iepriekšējā lietas saturs tiks pievienota versiju vēsturē) {1} Failu nosaukumu.:</FileVersionRestoreConfirmMessage>
+  <UndoCheckingOutMessage>Atcelšana Check Out</UndoCheckingOutMessage>
+  <SuccessfullyUndoCheckedOutMessage>No izbraukšana uz failu atcelšana "{0}" tika veiksmīgi pabeigts.</SuccessfullyUndoCheckedOutMessage>
+  <SuccessfullyCheckedInMessage>Fails "{0}" ir veiksmīgi pārbaudīta, ko lietotājs "{1}"</SuccessfullyCheckedInMessage>
+  <CheckingInMessage>Piereģistrēties</CheckingInMessage>
+  <VersionHistoryTitle>Failu versijas "{0}"</VersionHistoryTitle>
+  <VersionHistoryGridNumberColumn>Ver.</VersionHistoryGridNumberColumn>
+  <VersionHistoryGridNotesColumn>Piezīmes</VersionHistoryGridNotesColumn>
+  <CommandRestoreVersion>atjaunot</CommandRestoreVersion>
+  <ProgressPrepareDownloadOldVersion>Sagatavošanās vecā versija lejupielādei</ProgressPrepareDownloadOldVersion>
+  <FileVersionNotFoundMessage>Izvēlēto failu versija netika atrasts.</FileVersionNotFoundMessage>
+  <ProgressDeletingVersion>versija dzēšana</ProgressDeletingVersion>
+  <ProgressRestoringVersion>versija atjaunošana</ProgressRestoringVersion>
+  <FileNeedCheckInMessage>Lūdzu, pārbaudiet vai atcelt izbraukšana uz izvēlēto failu un mēģiniet vēlreiz.</FileNeedCheckInMessage>
+  <FileCheckedOutEditForbiddenMessage>Jūs nevarat mainīt / pārdēvēt / pārvietot / dzēst failu "{0}", bet tas tiek paņemts lietotājs "{1}" no {2}</FileCheckedOutEditForbiddenMessage>
+  <FileUploadCheckInLabel>Jūs varat pārbaudīt-in izvēlēto failu vai augšupielādēt jaunu faila versiju (izmanto augšupielādes formu zemāk). Ja jūs vēlaties, lai izveidotu jaunu versiju no izvēlētā faila, nav augšupielādēt visus failus šeit.</FileUploadCheckInLabel>
+  <FileUploadCheckInInvalidFileName>No augšupielādēto failu nosaukums ir tieši tāds pats kā nosaukums izvēlēto faila</FileUploadCheckInInvalidFileName>
+  <CheckOutVersionNotes>Šī versija ir izveidota automātiski</CheckOutVersionNotes>
+  <RestoreVersionNotes>Šī versija ir izveidota automātiski pēc atjaunošanas no versijas no {0} no lietotāja "{1}"</RestoreVersionNotes>
+  <IsCheckedOutHint>Fails ir paņemts</IsCheckedOutHint>
+  <ExistsOldVersionsHint>Fails ir citas versijas</ExistsOldVersionsHint>
+  <IsLockedHint>Fails ir bloķēts</IsLockedHint>
+  <FileWasCreatedHint>Ir izveidota {0} atpakaļ</FileWasCreatedHint>
+  <FileWasModifiedHint>Ir mainīts {0} atpakaļ</FileWasModifiedHint>
+  <CommonChangedAgo>{0} atpakaļ</CommonChangedAgo>
+  <DaysShort>d</DaysShort>
+  <HoursShort>h</HoursShort>
+  <MinutesShort>m</MinutesShort>
+  <FileContainsMetaDataHint>Satur dažas detaļas (metadatu)</FileContainsMetaDataHint>
+  <FileMetaDataCaptionMobile>metadati</FileMetaDataCaptionMobile>
+
+  <ExistsPublicLinksFileHint>Fails ir sabiedriskās saites</ExistsPublicLinksFileHint>
+  <ExistsPublicLinksFolderHint>Mape ir sabiedriskās saites</ExistsPublicLinksFolderHint>
+  <PublicLinkNotFound>Publiskā saite "{0}" nav atrasts</PublicLinkNotFound>
+
+  <PublicLinksDeleteWindowTitle>Dzēst sabiedrības saiti (s)</PublicLinksDeleteWindowTitle>
+  <PublicLinksDeleteLinkButton>dzēst saiti</PublicLinksDeleteLinkButton>
+  <PublicLinksDeleteConfirmMsg>Vai tiešām vēlaties dzēst izvēlētos sabiedrisko saites?</PublicLinksDeleteConfirmMsg>
+  <PublicLinksDeleteSingleConfirmMsg>Vai tiešām vēlaties dzēst šo saiti?</PublicLinksDeleteSingleConfirmMsg>
+
+  <DetailsMultiValue>(Multi vērtība)</DetailsMultiValue>
+
+  <GridBottomFilesSizeInfo>Atlasīts: {0} / {1},</GridBottomFilesSizeInfo>
+  <GridBottomFilesFoldersInfo>faili: {0} / {1}, mapes: {2} / {3}</GridBottomFilesFoldersInfo>
+
+  <AmountOfDownloadingsFile>Lejupielādes</AmountOfDownloadingsFile>
+
+  <CookiesDisabledMessage>Pārlūkprogrammas sīkfailu funkcija ir izslēgta. Lūdzu, ieslēdziet to un restart pārlūku.</CookiesDisabledMessage>
+
+  <CommandSendEmail>Sūtīt e-pastu</CommandSendEmail>
+  <CommandSendWithGmail>Sūtīt ar Gmail</CommandSendWithGmail>
+  <CommandSendWithOutlook>Sūtīt ar Outlook</CommandSendWithOutlook>
+  <SendEmailTo>līdz</SendEmailTo>
+  <SendEmailBulkMailingListHint>&lt;b&gt; Adresātu saraksts &lt;/b&gt; &lt;br /&gt; Jūs varat norādīt veselas grupas, lai nosūtītu e-pastu</SendEmailBulkMailingListHint>
+  <SendEmailBulkMailingListWindowTitle>Izvēlieties uztvērēji jūsu e-pastu</SendEmailBulkMailingListWindowTitle>
+  <SendEmailEmptyMailingListMessage>Mail saraksts ir tukšs</SendEmailEmptyMailingListMessage>
+  <SendEmailSenderEmail>sūtītāja e-pasts</SendEmailSenderEmail>
+  <SendEmailSubject>temats</SendEmailSubject>
+  <SendEmailFilesAsLinksTo>Nosūtīt saites uz izvēlētajiem failiem</SendEmailFilesAsLinksTo>
+  <SendEmailFilesAsAttachements>Nosūtīt atlasītos failus kā pielikumus</SendEmailFilesAsAttachements>
+  <SendEmailSend>sūtīt</SendEmailSend>
+  <SendEmailProgressMessage>sūtīt e-pastu</SendEmailProgressMessage>
+  <GettingMailingListProgressMessage>Getting adresātu sarakstu</GettingMailingListProgressMessage>
+  <SendEmailSuccessMessage>E-mail tika veiksmīgi nosūtīts.</SendEmailSuccessMessage>
+  <SendEmailResultsMessage>Nosūtīts:. {0} &lt;br /&gt; neizdevās: {1} {2}.</SendEmailResultsMessage>
+  <SmtpServerSettingsIncorrect>Par SMTP-servera iespējas ir vai nu tukši vai nepareiza</SmtpServerSettingsIncorrect>
+  <FromEmailIncorrect>From pasta adrese ir nepareiza vai tukša</FromEmailIncorrect>
+  <ToEmailIncorrect>Atbilde uz e-pasta adrese ir nepareiza vai tukša</ToEmailIncorrect>
+  <EmailSubjectEmpty>E-pasta objekts nav norādīts</EmailSubjectEmpty>
+  <UploadFromUrlTab>no URL</UploadFromUrlTab>
+  <UploadFromUrlFieldLabel>URL (HTTP vai FTP viens fails)</UploadFromUrlFieldLabel>
+  <UploadFromUrlProgressTitle>Augšupielādēt no URL</UploadFromUrlProgressTitle>
+  <UploadFromUrlMsg>Augšupielāde no URL</UploadFromUrlMsg>
+  <UploadFromUrlSuccessMsg>Fails "{0}" ir veiksmīgi augšupielādēts no "{1}"</UploadFromUrlSuccessMsg>
+  <UploadFromUrlUnknownResponse>Atbilde no servera netiek atzīta</UploadFromUrlUnknownResponse>
+  <UploadFromUrlEmptyFileName>No augšupielādēto failu nosaukums ir tukšs</UploadFromUrlEmptyFileName>
+  <UploadFromUrlFileName>Saglabājiet ar nosaukumu (atstājiet tukšu, lai izmantotu vārdu no URL)</UploadFromUrlFileName>
+  <UploadFromUrlFileNameMobile>Saglabājiet ar nosaukumu</UploadFromUrlFileNameMobile>
+  
+  <!-- Common Clouds keys -->  
+  <CloudAuthenticateMessage>Jums ir pieteikties uz {0}. Noklikšķiniet uz "{1}" saiti un jums tiks novirzīts uz pieteikšanās formu. {2} Vairāk info. {3}</CloudAuthenticateMessage>
+  <CloudAuthenticateLink>Autentificēšana ar {0}</CloudAuthenticateLink>  
+  <CloudDownloadingMessage>Lejupielādējot {0}</CloudDownloadingMessage>
+  <CloudAuthWarningMessage>Ja prasība nav noticis, lūdzu, aizveriet šo logu un noklikšķiniet uz "{0}" saites vēlreiz.</CloudAuthWarningMessage>
+  <CloudAuthEmptyInvalidMessage>{0} Access talons ir tukšs vai nederīgs. Lūdzu autentificēt vēlreiz.</CloudAuthEmptyInvalidMessage>
+  <CloudDownloadEndMessageTitle>Download ir pabeigts</CloudDownloadEndMessageTitle>
+  <CloudDownloadFilesSuccessMessage>{0} failu (s) veiksmīgi lejupielādēts "{1}" {2} mapē.</CloudDownloadFilesSuccessMessage>
+  <CloudNotDownloadedFilesMessage>{0} failu (s) nav lejupielādēta:</CloudNotDownloadedFilesMessage>
+  <CloudFoldersCreatedSuccessMessage>{0} mapes (s) veiksmīgi izveidoti "{1}" {2} mapē.</CloudFoldersCreatedSuccessMessage>
+  <CloudNotFoldersCreatedMessage>{0} mapes (s), kas nav izveidots:</CloudNotFoldersCreatedMessage>
+  <CloudFilesFoldersSuccessMessage>{0} failu (s), {1} mape (-i) ir veiksmīgi lejupielādēts "{2}" {3} mape.</CloudFilesFoldersSuccessMessage>
+  <CloudNotFilesFoldersDownloadedMessage>{0} failu (s), {1} mape (-i), kas nav lejupielādētas:</CloudNotFilesFoldersDownloadedMessage>
+  <CloudLinkText>Apmeklējiet {0}</CloudLinkText>
+  <CloudLinkDescription>Iet uz {0} lapā</CloudLinkDescription>
+  <CloudRootFolderName>&lt;b&gt; {0} saknes mapi &lt;/b&gt;</CloudRootFolderName>
+  <CloudCheckFolerMessage>Lūdzu, pārbaudiet vienu {0} mapi, lai turpinātu.</CloudCheckFolerMessage>
+  <CloudSelectFolderMessage>Lūdzu, izvēlieties {0} mapi, lai turpinātu.</CloudSelectFolderMessage>
+  <CloudGetFoldersInfoProgressMessage>Iekraušanas {0} mapes informācijas</CloudGetFoldersInfoProgressMessage>
+  <CloudGetItemsInfoProgressMessage>Iekraušanas {0} vienības informācijas</CloudGetItemsInfoProgressMessage>
+  <CloudUploadSelectItemsMessage>Lūdzu, izvēlieties {0} priekšmetus, lai turpinātu.</CloudUploadSelectItemsMessage>
+  <CloudUploadTotalFiles>Kopā faili: {0} ({1})</CloudUploadTotalFiles>
+  <CloudUploadProgressMessage>Augšupielāde no {0}</CloudUploadProgressMessage>
+  <CloudSignInAsDifferentUserText>Atteikties no {0}</CloudSignInAsDifferentUserText>
+  <CloudLogoutProgressMsg>Atteikties no {0}</CloudLogoutProgressMsg>
+  <CloudRevokeTokenMsg>atsaukšana marķieris</CloudRevokeTokenMsg>
+  <CloudRefreshTokenMsg>Atsvaidzinošs marķieris</CloudRefreshTokenMsg>
+  <CloudAuthNotCompleteMsg>Autentifikācija nav pabeigta. &lt;br /&gt; Lūdzu</CloudAuthNotCompleteMsg>
+  <CloudTrustedSitesMsg> jāpārbauda pēc vietām "Trusted sites" sarakstā: &lt;br /&gt; &lt;br /&gt;</CloudTrustedSitesMsg>
+  <TrustedSitesForMicrosoftEdge>Ja lietojat Microsoft Edge, tad pārbaudiet Trusted Sites Internet Explorer</TrustedSitesForMicrosoftEdge>
+  <CloudCheckAuthMsg>Pārbaudiet {0} autentifikāciju</CloudCheckAuthMsg>
+  <CloudLoadMsg>Iekraušanas {0}</CloudLoadMsg>
+  <CloudFreeSpaceError>Nav pietiekami daudz vietas {2} augšupielādēt failus. Nu: {0}. Faila izmērs: {1}.</CloudFreeSpaceError>
+  <CloudFreeSpaceExceeded>Nav pietiekami daudz vietas {0}</CloudFreeSpaceExceeded>
+  <CloudExceedFileSizeError>Fails, mēģiniet ielādēt ir faila izmērs {1}, kas ir lielāks par maksimāli pieļaujamo lielumu lejupielādei - {0}.</CloudExceedFileSizeError>
+  <CloudFolderNotFound>Katalogs nav atrasts. Varbūt tas ir dzēsts</CloudFolderNotFound>
+  <CloudFileNotFound>Fails nav atrasts. Varbūt tas ir dzēsts</CloudFileNotFound>
+  <CloudNoFoldersMessage>Nav mapes, ko parādīt</CloudNoFoldersMessage>
+  <CloudLibraryNotLoadedMsg>{0} klients bibliotēka nav ielādēts! &lt;br /&gt; Lūdzu, pārbaudiet interneta savienojumu un-vai atsvaidzināt lapu. &lt;br /&gt; Arī</CloudLibraryNotLoadedMsg>
+  <CloudDownloadWithNewNames>Pēc failu (s) lejupielādēt ar jauniem nosaukumiem:</CloudDownloadWithNewNames>
+
+  <!-- Google Drive Cloud keys -->
+  <CommandDownloadToGoogleDocs>Lejupielādēt Google Drive</CommandDownloadToGoogleDocs>
+  <GoogleDocsSaveAs>saglabāt kā:</GoogleDocsSaveAs>
+  <GoogleDocsSaveAsTitle>Save "{0}", kā ...</GoogleDocsSaveAsTitle>
+  <GoogleDocsDownloadEndWarningMessage>Ja jūs nevarat redzēt augšupielādēto dokumentu jūsu Google diska kontā, pagaidiet dažas sekundes, un atsvaidzināt Google Drive sarakstu.</GoogleDocsDownloadEndWarningMessage>
+  <GoogleDriveUploadNoFilesMessage>Nav faili Google diskā un augšupielādes</GoogleDriveUploadNoFilesMessage>
+  <GoogleDriveMaxUploadSizeError>Satura tipa "{0}" maksimālais izmērs augšupielādi {1} ir pārsniegts.</GoogleDriveMaxUploadSizeError>
+  <GoogleDriveConvertMsg>Ja tas ir iespējams, konvertēt failus uz Google dokumentu formātā. {0} Vairāk {1}.</GoogleDriveConvertMsg>
+
+  <!-- Box Cloud keys -->
+  <CommandDownloadToBox>Lejupielādētu Box</CommandDownloadToBox>
+  <BoxDownloadWithNewNames>Šādu failu (s) tika papildināts ar jaunām versijām:</BoxDownloadWithNewNames>
+  <BoxNoViewPermission>Jums nav atļaujas skatīt izvēlēto direktoriju</BoxNoViewPermission>
+  <BoxNoDownloadPermission>Jums nav atļaujas, lai lejupielādētu</BoxNoDownloadPermission>
+  <BoxNoUploadPermission>Jums nav atļaujas augšupielādēt</BoxNoUploadPermission>
+  <BoxUnableCreateOrInfoError>Nevar izveidot vai iegūt informāciju</BoxUnableCreateOrInfoError>
+  
+  <!-- Dropbox Cloud keys -->
+  <CommandDownloadToDropbox>Lejupielādētu Dropbox</CommandDownloadToDropbox>
+  
+  <!-- OneDrive Cloud keys -->
+  <CommandDownloadToSkyDrive>Lejupielādētu OneDrive</CommandDownloadToSkyDrive>
+  <AuthenticateOAuthSkyDriveMessageShort>Jums jāpiesakās savā Microsoft Live kontā.</AuthenticateOAuthSkyDriveMessageShort>
+  <SkyDriveAuthAlsoString>arī</SkyDriveAuthAlsoString>
+  <SkyDriveLoginButtonTitle>Pieslēgties</SkyDriveLoginButtonTitle>
+  <SkyDriveRegistryMessage>Vai jums nav Windows Live ID? {0} Reģistrējieties ... {1}</SkyDriveRegistryMessage>
+  <SkyDriveMapRootFolder>Piezīme! Jūs varat {0} karti {1} jūsu OneDrive mape. ceļš ir</SkyDriveMapRootFolder>
+  <SkyDriveMoreInfoLink>{0} Vairāk par OneDrive (SkyDrive) {1}</SkyDriveMoreInfoLink>
+  <OneDriveMaxUploadSizeError>Pieļaujamais lielums ({0}) no augšupielādēto failu tiek pārsniegts: {1}</OneDriveMaxUploadSizeError>
+  <!-- OneDrive for Business -->
+  <OneDriveForBusinessMapWebFolderInfo>&lt;b&gt; Piezīme! &lt;/b&gt; Pirms atvērt failus šajā vietā, vispirms pievienojiet tīmekļa vietni, lai jūsu uzticamo vietņu sarakstam, pārlūkojiet mājas lapā, un izvēlieties iespēju pieteikties automātiski (IE pārlūku).</OneDriveForBusinessMapWebFolderInfo>
+  
+  <UploadFromUrlLabelText>Jūs varat norādīt URL faila glabājas globālā failu servera vai failu apmaiņas pakalpojumu, piemēram, {0}, {1}, {2}, {3}, {4}.</UploadFromUrlLabelText>
+  <UploadFromUrlLabelTextMobile>Norādiet URL faila</UploadFromUrlLabelTextMobile>
+
+  <LinkToFileTitle>Saite uz failu / mapi</LinkToFileTitle>
+  <LinkToFileWarningAnonym>Šī saite nodrošina anonīmo piekļuvi lietas materiāliem. Jebkurš lietotājs, pat vienu, kas nav konts šajā vietnē var lejupielādēt vai augšupielādēt failus, izmantojot publiskā saiti. Publiska saite uz failu lapā Jūs varat lejupielādēt vienu izvēlēto failu. {0} Vairāk {1}.</LinkToFileWarningAnonym>
+  <LinkToFileDownloadFileLink>Šī saite ļauj lejupielādēt izvēlēto failu {0} no {1}. Jums nepieciešama derīga konts, lai izmantotu šo saiti. Tas nenodrošina anonīmo piekļuvi lietas materiāliem.</LinkToFileDownloadFileLink>
+  <LinkToFileExpireDate>Derīguma termiņš</LinkToFileExpireDate>
+  <LinkToFileDownloadCnt>Download skaits robeža</LinkToFileDownloadCnt>
+  <LinkToFileDownloadType>saites tipu</LinkToFileDownloadType>
+  <LinkToFileGenerate>Izveidot saiti</LinkToFileGenerate>
+  <LinkToFilePasswordNotMatch>Paroles nesakrīt</LinkToFilePasswordNotMatch>
+  <LinkToFilePasswordRequired>Par sabiedrības saikni parole ir nepieciešama</LinkToFilePasswordRequired>
+  <LinkToFileInvalidForm>Nederīgi parametri</LinkToFileInvalidForm>
+  <LinkToFileAnonymDownloadLinkHint>Publiskā saite "{0}":</LinkToFileAnonymDownloadLinkHint>
+  <LinkToFileAnonymDownloadShortLinkHint>Īss publiskā saite "{0}":</LinkToFileAnonymDownloadShortLinkHint>
+  <LinkToFileOpenFolderLink>Šī saite ļauj atvērt izvēlēto mapi {0} in {1}. Jums nepieciešama derīga konts, lai izmantotu šo saiti. Tas nenodrošina anonīmo piekļuvi mapei.</LinkToFileOpenFolderLink>
+  <LinkToFileOpenFileLink>Šī saite atver mapi ar failu un izceļ to</LinkToFileOpenFileLink>
+  <LinkToFileDaysLeft>dienas palikušas</LinkToFileDaysLeft>
+  <LinkToFileCaptionMobile>Sabiedriskās saites</LinkToFileCaptionMobile>
+
+  <PublicFolderLinkHint>Publiskā saite uz mapi "{0}":</PublicFolderLinkHint>
+  <PublicFolderShortLinkHint>Īss publiskā saite uz mapi "{0}":</PublicFolderShortLinkHint>
+  <PublicFolderLinkDownloadZipHint>Lejupielādēt saiti zip arhīva mapi "{0}":</PublicFolderLinkDownloadZipHint>
+  <PublicFolderLinkShortDownloadZipHint>Īsā saite zip arhīva mapē download "{0}":</PublicFolderLinkShortDownloadZipHint>
+  <PublicFolderLinkZipDownload>Saspiest un lejupielādēt pašreizējo mapi {0} (kādā ZIP arhīvā)</PublicFolderLinkZipDownload>
+  <PublicFolderLinkOverwriteWhileUpload>pārrakstīt esošos</PublicFolderLinkOverwriteWhileUpload>
+  <PublicFolderLinkOpenFolderHint>Atvērt mapi</PublicFolderLinkOpenFolderHint>
+  <PublicFolderDownloadDisabledNote>Piezīme! Šīs mapes īpašnieks bija aizliegts lejupielādējot failus no šīs mapes.</PublicFolderDownloadDisabledNote>
+  <PublicFolderLinkSendEmails>Sūtīt informāciju par apmeklētāju aktivitāte e-pastiem</PublicFolderLinkSendEmails>
+  <PublicFolderAnonymAccessControl>Piekļuves kontrole</PublicFolderAnonymAccessControl>
+  <PublicFolderAnonymDownload>lejupielādēt failus</PublicFolderAnonymDownload>
+  <PublicFolderAnonymZipDownload>Download mapes (ZIP)</PublicFolderAnonymZipDownload>
+  <PublicFolderAnonymUpload>Upload</PublicFolderAnonymUpload>
+  <PublicFolderAnonymViewContent>Skatīt failu sarakstu</PublicFolderAnonymViewContent>
+  <PublicFolderNoteForUsers>Piezīme lietotājiem</PublicFolderNoteForUsers>
+  <PublicFolderACLNotSet>Piekļuves kontrole nav iestatīts</PublicFolderACLNotSet>
+  <PublicFolderWarningAnonym>Šī saite nodrošina anonīmo piekļuvi mapei. Jebkurš lietotājs, pat vienu, kas nav konts šajā vietnē var lejupielādēt vai augšupielādēt failus, izmantojot publiskā saiti. Sabiedriskā saite uz mapi ļauj lejupielādēt gan visu mapi (iepakotas arhīvā) un atsevišķus failus. {0} Vairāk {1}.</PublicFolderWarningAnonym>
+  <PublicLinksShowForAllItems>Rādīt visiem</PublicLinksShowForAllItems>
+  <PublicLinksShowForSelected>Rādīt uz izvēlēto</PublicLinksShowForSelected>
+  
+  <MultipleFileInputMessage>Piezīme! Jūsu pārlūkprogramma atbalsta vairākus failus izvēli uzreiz.</MultipleFileInputMessage>
+  <UploadZipUnzipNote>Jūs varat augšupielādēt zip arhīvu ar vairākiem failiem un mapēm, un pēc tam iegūt to, izmantojot "{0}" komandu konteksta izvēlnē.</UploadZipUnzipNote>
+  <DnDFileUploadingStatusCode>status kods</DnDFileUploadingStatusCode>
+  <DnDFileUploadingPathOrNameEmpty>Ceļš un-vai faila nosaukums nav norādīts</DnDFileUploadingPathOrNameEmpty>
+  <DnDFileUploadingRemoveFromList>Noņemt no saraksta</DnDFileUploadingRemoveFromList>
+  <DndFileUploadingDontDropFoldersMsg>Jūs varat vilkt un nomest failus zemāk tabulā. Jūs nevarat nomest mapes.</DndFileUploadingDontDropFoldersMsg>
+  <DndFileUploadingAllowDropFoldersMsg>Jūs varat vilkt un nomest failus un mapes zemāk tabulā.</DndFileUploadingAllowDropFoldersMsg>
+  <DndFileUploadingFilesSummaryInfo>Skaits faili: {0} ({1})</DndFileUploadingFilesSummaryInfo>
+  <DropFilesHere>Nomest failus augšupielādēt</DropFilesHere>
+  
+  <FileGridDownloadColumn>lejupielādēt failus</FileGridDownloadColumn>
+  <FileAttributesField>atribūti</FileAttributesField>
+  <FolderCalculateSize>aprēķināt</FolderCalculateSize>
+  <FolderRecalculateSize>pārrēķināt</FolderRecalculateSize>
+  <FolderContainsField>satur</FolderContainsField>
+  <FolderContainsFilesFolders>{0} faili, {1} mapes</FolderContainsFilesFolders>
+  <FolderCalculatingMessage>skaitļošanas</FolderCalculatingMessage>
+
+  <SearchTitle>Failu meklēšanu. Pieejami modeļi: {0}</SearchTitle>
+  <SearchType>Meklēt</SearchType>
+  <SearchOnlyFiles>tikai faili</SearchOnlyFiles>
+  <SearchOnlyFolders>tikai mapes</SearchOnlyFolders>
+  <SearchBothFilesFolders>gan failus un mapes</SearchBothFilesFolders>
+  <SearchFileDetails>failu informācija</SearchFileDetails>
+  <SearchFileContent>faila saturs</SearchFileContent>
+  <SearchByDateFrom>no</SearchByDateFrom>
+  <SearchByDateTo>līdz</SearchByDateTo>
+  <SearchLocation>vieta</SearchLocation>
+  <SearchLocationEntire>jebkur</SearchLocationEntire>
+  <SearchLocationCurrent>strāva</SearchLocationCurrent>
+  <SearchSearch>Meklēt</SearchSearch>
+  <SearchNothingFound>Nekas netika atrasts! Lūdzu pamainiet atlases kritērijus.</SearchNothingFound>
+  <SearchErrorCaption>Meklēt kļūda</SearchErrorCaption>
+  <SearchResultsNotComplete>Uzmanību! Meklēšanas rezultāti var būt nepilnīgi, jo daži mapes nav indeksēti vēl.</SearchResultsNotComplete>
+  <SearchRepeatOrContactAdmin>Lūdzu, mēģiniet meklēt vēlreiz vēlāk vai sazinieties ar savu administratoru.</SearchRepeatOrContactAdmin>
+  <SearchLinkToManual>Atsaucas uz {0} Windows Meklēt Palīdzība {1}</SearchLinkToManual>
+  <QuerySearchByNameText>meklēt pēc nosaukuma</QuerySearchByNameText>
+  <QuerySearchByConentText>pēc satura</QuerySearchByConentText>
+  <SearchByDetailsWarning>Uzmanību! Jūs esat viens no parametriem, kuru vēlaties izmantot meklēšanu pēc īpašībām. Šajā gadījumā, meklēšana tiks veikta, izmantojot standarta metodi, nevis izmantojot Windows Indeksācija Service.</SearchByDetailsWarning>
+  <SearchInSpecialFolderWarning>Uzmanību! Lai meklētu pašreizējā mape neattiecas. Ja jūs turpināt, meklēšana tiks veikta visā veikalā.</SearchInSpecialFolderWarning>
+
+  <UploadTitle>Augšupielādējot vairākiem failiem</UploadTitle>
+  <UploadSimpleTab>standarts</UploadSimpleTab>
+  <UploadSimpleReset>Reset</UploadSimpleReset>
+  <UploadSimpleUpload>Upload</UploadSimpleUpload>
+  <UploadSimpleUploadFolderLabelCollapsed>Upload mape</UploadSimpleUploadFolderLabelCollapsed>
+  <UploadSimpleUploadFolderButtonText>Izvēlieties mapi</UploadSimpleUploadFolderButtonText>
+  <UploadJavaTab>Java</UploadJavaTab>
+  <UploadJavaIgnorePaths>Novietojiet visus failus vienā mapē (ignorēt ceļus)</UploadJavaIgnorePaths>
+  <UploadFlashTab>zibspuldze</UploadFlashTab>
+  <UploadSilverlightTab>Silverlight</UploadSilverlightTab>
+  <UploadPartially>Daži no failiem nevarēja augšupielādēt</UploadPartially>
+  <UploadFolderNotSelectedTitle>Mape nav izvēlēts</UploadFolderNotSelectedTitle>
+  <UploadFolderNotSelected>Lūdzu, izvēlieties mapi, kurā faili tiks augšupielādēti</UploadFolderNotSelected>
+  <UploadInProgress>Augšupielādējot failus</UploadInProgress>
+  <UploadInvalidFormFields>Formas lauki nevar iesniegt ar nederīgu vērtībām</UploadInvalidFormFields>
+  <UploadAjaxFailed>Ajax komunikācijas neizdevās</UploadAjaxFailed>
+  <UploadFilesAlreadyExists>Fails (-i), kas jau eksistē</UploadFilesAlreadyExists>
+  <UploadOverwriteFiles>Esošie faili tiks pārrakstīta. Vai vēlaties turpināt?</UploadOverwriteFiles>
+  <UploadOverwriteOrRenameFiles>Ir viens vai vairāki faili ar saskaņošanas nosaukumiem direktorijā jūsu norādīto. Vai vēlaties pārrakstīt esošos failus? Noklikšķiniet uz "{0}", ja jūs vēlaties, lai pārrakstīt jau esošos failus, vai "{1}" - ja vēlaties saglabāt visus failus (tie tiks pārdēvēta).</UploadOverwriteOrRenameFiles>
+  <UploadNotModifyExistingFiles>Ir viens vai vairāki faili ar atbilstošu nosaukumu direktorijā jūsu norādīto. Faili nevar augšupielādēt. Lūdzu, noņemiet esošos failus no augšupielādes saraksta vai pārdēvēt tos.</UploadNotModifyExistingFiles>
+  <UploadRenamedExistingFiles>Ir viens vai vairāki faili ar atbilstošu nosaukumu direktorijā jūsu norādīto. Failiem ar atbilstošiem nosaukumiem, tiks pārdēvēta.</UploadRenamedExistingFiles>
+  <UploadNotAllowedTitle>Augšupielāde nav atļauta</UploadNotAllowedTitle>
+  <UploadNotAllowedPrompt>Jūs nevarat augšupielādēt failus šajā mapē</UploadNotAllowedPrompt>
+
+  <UploadMobileIOSVideo>Augšupielādēt video. Ieslēdziet šo iespēju, ja jums ir nepieciešams, lai augšupielādēt video failu.</UploadMobileIOSVideo>
+  <UploadMobileAurigmaLink>Lūdzu, ņemiet vērā, ka jums ir jābūt Aurigma Up! instalēta ierīcē, lai augšupielādēt failus. Pieskarieties šeit, lai instalētu Aurigma Up! pieteikumu par augšupielādējot attēlus un video.</UploadMobileAurigmaLink>
+  <UploadMobileAurigmaReady>Pēc Aurigma Up! ir uzstādīts vai arī, ja jums jau ir instalēts, nospiediet "Pievienot" pogu zemāk.</UploadMobileAurigmaReady>
+  <UploadMobileAurigmaFilePrefix>Prefiksu par augšupielādēto failu</UploadMobileAurigmaFilePrefix>
+  <UploadMobileResult>Augšupielāde rezultāts:</UploadMobileResult>
+  <UploadMobileUrlPlaceHolder>Ievadiet URL šeit</UploadMobileUrlPlaceHolder>
+  <UploadMobileFileNamePlaceHolder>Ievadiet jaunu faila nosaukumu šeit</UploadMobileFileNamePlaceHolder>
+  <UploadBrowseLabel>Pārlūkot ...</UploadBrowseLabel>
+  
+  <MobileToolTipsCaption>Vai tu to zini ...</MobileToolTipsCaption>
+  <MobileToolTipsNextButton>Nākamais tip</MobileToolTipsNextButton>
+  <MobileToolTipsIKnowButton>ES zinu</MobileToolTipsIKnowButton>
+  <MobileToolTipsHideButton>nekad nerādīt</MobileToolTipsHideButton>
+  <MobileToolTipsMultiSelection>Lai izvēlētos vairākus failus vai mapes, jums vajadzētu ļaut vairāku atlases režīmu, pieskaroties uz pogas &lt;b&gt; {0} &lt;/b&gt;. Pieskarieties vēlreiz, lai izietu no vairāku atlases režīmā.</MobileToolTipsMultiSelection>
+  <MobileToolTipsSlideToRemove>Jūs varat slaidu no labās uz kreiso uz kādu no saraksta posteņiem, lai novērstu to. Inline noņemt poga tiks parādīti uz augšu saraksta posteni.</MobileToolTipsSlideToRemove>
+  <MobileToolTipsTapAndHoldForMenu>Pieskarieties un turiet uz kādu no saraksta posteņus, lai parādītu konteksta izvēlni. Tas pats konteksta izvēlne ar krāna parādīta "atklāšanas" pogu</MobileToolTipsTapAndHoldForMenu>
+  <MobileToolTipsDoubleTapForPreview>Single pieskarieties failā, lai to atlasītu, divreiz pieskarieties, lai apskatītu vai lejupielādēt to. Single pieskarieties mapei, lai to atvērtu.</MobileToolTipsDoubleTapForPreview>
+  <MobileToolTipsPullDownToRefresh>Nojaukt sarakstu pārlādēt to saturu.</MobileToolTipsPullDownToRefresh>
+  <MobileToolTipsPinchToScale>Jūs varat izmantot "šķipsnu" žestu, lai zoom-in un zoom-out attēlus.</MobileToolTipsPinchToScale>
+  <MobileToolTipsTapToHideBars>Pieskarieties jebkur uz attēla paneļa lai pārslēgtos rīkjoslas.</MobileToolTipsTapToHideBars>
+  <MobileToolTipsSlideLeftRightToNext>Switch attēlus ar slaidu žestu.</MobileToolTipsSlideLeftRightToNext>
+
+  <DownloadToCloudMobileTip>Single pieskarieties, lai izvēlētos mapi, divreiz pieskarieties, lai to atvērtu.</DownloadToCloudMobileTip>
+  
+  <UploadTotalMaxSizeMessage>Piezīme! Maksimālais izmērs visiem augšupielādēto failu nedrīkst pārsniegt {0}.</UploadTotalMaxSizeMessage>
+  <UploadOneFileMaxSizeMessage>Piezīme! Maksimālais izmērs katra augšupielādēto failu nedrīkst pārsniegt {0}.</UploadOneFileMaxSizeMessage>
+  <UploadUnlimitedSizeMessage>Piezīme! No augšupielādēto failu izmērs ir neierobežots.</UploadUnlimitedSizeMessage>
+  <SimpleUploadSetFileNameNote>2. piezīme! Pēc tam, kad ir izvēlēts fails varat mainīt nosaukumu, fails būs pēc augšupielādes</SimpleUploadSetFileNameNote>
+
+  <AnonymousUploadTitle>Augšupielādēt failus šajā mapē</AnonymousUploadTitle>
+  <AnonymousUploadDescription>Jūs varat augšupielādēt failus šajā mapē. Noklikšķiniet uz "Browse" pogu zemāk, un izvēlieties failu.</AnonymousUploadDescription>
+  <AnonymousUploadOverwriteHint>Ja augšupielādēts fails jau pastāv, tas tiks aizstāts.</AnonymousUploadOverwriteHint>
+  <AnonymousUploadShowUploadHint>Rādīt augšupielādes forma</AnonymousUploadShowUploadHint>
+  <AnonymousUploadHideUploadHint>Slēpt augšupielādes forma</AnonymousUploadHideUploadHint>
+  <AnonymousUploadNewFolderNameHint>Jomā zemāk jūs varat norādīt apakšdirektorijā nosaukumu (mape tiks izveidots, ja tas neeksistē), kurā faili tiks augšupielādēti:</AnonymousUploadNewFolderNameHint>
+  <AnonymousUploadCompleteTitle>Augšupielādējot uz mapi {0} ir pabeigta</AnonymousUploadCompleteTitle>
+  <AnonymousUploadExistsFilesMessage>Ar šādu fails (-i), netika augšupielādēta jo fails (-i) ar tādu pašu nosaukumu (-iem), kas jau eksistē: {0}.</AnonymousUploadExistsFilesMessage>
+  <AnonymousUploadOwnersNote>Piezīme mapes īpašnieka</AnonymousUploadOwnersNote>
+  <AnonymousDownloadPageTitle>Lejupielādēt failu</AnonymousDownloadPageTitle>
+  <AnonymousDownloadFileHint>Lejupielādēt failu</AnonymousDownloadFileHint>
+  <AnonymousUploadPageTitle>Augšupielādēt uz mapi</AnonymousUploadPageTitle>
+  <AnonymousPublicFolderPageTitle>publiskā mape</AnonymousPublicFolderPageTitle>
+  <AnonymousLoginAccessUserFailure>Jūs esat pieteicies kontā, kuram nav piekļuves resursu. Ievadiet citus akreditācijas datus par jūsu piekļuvi. Ja jums nav tos zināt, lūdzu, sazinieties ar īpašnieku publiska saiti vai administrators.</AnonymousLoginAccessUserFailure>
+  <ProgressGettingAnonymLink>Public saite izveide</ProgressGettingAnonymLink>
+  <ProgressGettingAnonymLinks>Getting anonīmi saites</ProgressGettingAnonymLinks>
+  <ProgressGettingBoxViewLink>Getting Box View saiti</ProgressGettingBoxViewLink>
+  <AutodeskScriptNotIncludedMessage>Nevar ielādēt Autodesk Viewer skriptu</AutodeskScriptNotIncludedMessage>
+  <ProgressUninitializeAutodeskViewer>Noslēguma Autodesk skatītājs</ProgressUninitializeAutodeskViewer>
+  <ProgressGettingAutodeskViewLink>Getting Autodesk View info</ProgressGettingAutodeskViewLink>
+  <AnonymousChangeLanguageHint>Izvēlies valodu</AnonymousChangeLanguageHint>
+  <AnonymousUpLinkHint>Atgriezties uz mātes mapi</AnonymousUpLinkHint>
+  <AnonymousPasswordDescription>Mape ir aizsargāta ar paroli</AnonymousPasswordDescription>
+  <AnonymousPasswordIncorrectMessage>Parole ir nepareiza</AnonymousPasswordIncorrectMessage>
+  <AnonymousErrorTitle>Public saite kļūda</AnonymousErrorTitle>
+  <AnonymousErrorNotFound>Public link "{0}" nav atrasts!</AnonymousErrorNotFound>
+  <AnonymousErrorAccessDenied>Jums nav atļaujas izmantot sabiedrisko saiti "{0}"</AnonymousErrorAccessDenied>
+  <AnonymousErrorFileNotFound>Sabiedriskā saikne "{0}" attiecas uz ne-esošu failu vai mapi vai NTFS lasīt piekļuve ir liegta</AnonymousErrorFileNotFound>
+  <AnonymousErrorUnknownLinkType>Sabiedriskā saikne "{0}" nav atrasts</AnonymousErrorUnknownLinkType>
+  <AnonymousSendEmailSubject>Apmeklētājiem darbība publiskajā mapē</AnonymousSendEmailSubject>
+  <AnonymousSendEmailUploadBody>Šie faili tika augšupielādēti jūsu publiskajā mapē {0}: {1}.</AnonymousSendEmailUploadBody>
+  <AnonymousSendEmailDownloadBody>Fails {0} tika lejupielādēti no jūsu publiskajā mapē {1}.</AnonymousSendEmailDownloadBody>
+  <AnonymousSendEmailZipDownloadBody>Visa saturs publiskajā mapē {0} tika lejupielādēti ar ZIP arhīvā.</AnonymousSendEmailZipDownloadBody>
+  <AnonymousViewLinksButton>Skatīt saites</AnonymousViewLinksButton>
+  <AnonymousViewLinksHint>Lai apskatītu esošās publiskās saites</AnonymousViewLinksHint>
+  <AnonymousViewLinksWindowTitle>Sabiedriskās saites</AnonymousViewLinksWindowTitle>
+  <AnonymousViewLinksDateCreatedColumn>Izveides datums</AnonymousViewLinksDateCreatedColumn>
+  <AnonymousViewLinksDateExpiredColumn>Derīguma termiņš</AnonymousViewLinksDateExpiredColumn>
+  <AnonymousViewLinksPermissionColumn>atļauja</AnonymousViewLinksPermissionColumn>
+  <AnonymousViewLinksDownloadedColumn>atstāja skaits downloads</AnonymousViewLinksDownloadedColumn>
+  <ProgressDeletingAnonymousLink>sabiedrības saiti dzēšana</ProgressDeletingAnonymousLink>
+  <ProgressSavingAnonymousLink>Ietaupot valsts saiti</ProgressSavingAnonymousLink>
+  <AnonymousEditLinkWindowTitle>Rediģēšana sabiedrības saikni "{0}"</AnonymousEditLinkWindowTitle>
+  <AnonymousEditLinkShowUrl>Rādīt saite</AnonymousEditLinkShowUrl>
+  <AnonymousEditLinkNotFound>Sabiedrībai saikne nav atrasta vai tās derīguma termiņš ir beidzies</AnonymousEditLinkNotFound>
+
+  <AnonymousLinkSendViaButton>Sūtīt pa ...</AnonymousLinkSendViaButton>
+  <AnonymousLinkSendViaEmailItem>E-pasts ...</AnonymousLinkSendViaEmailItem>
+  <AnonymousLinkSendButton>Sūtīt pa e-pastu ...</AnonymousLinkSendButton>
+  <AnonymousLinkSendSubject>Web Failu pārvaldnieks Public Link</AnonymousLinkSendSubject>
+
+  <AnonymousLinkAdvOptTitle>papildu parametri</AnonymousLinkAdvOptTitle>
+  <AnonymousLinkViewTypeButton>link view</AnonymousLinkViewTypeButton>
+  <AnonymousLinkViewTypeDefault>pilns</AnonymousLinkViewTypeDefault>
+  <AnonymousLinkViewTypeShort>īss</AnonymousLinkViewTypeShort>
+
+  <AnonymousLinkShowCommentsLabel>Rādīt apraksts, etiķetes un komentāri</AnonymousLinkShowCommentsLabel>
+  <AnonymousLinkShowCommentsShort>Rādīt komentārus</AnonymousLinkShowCommentsShort>
+
+  <QRCodeButton>QR kods</QRCodeButton>
+
+  <AnonymousLinkLimitedAccessTitle>Ierobežota piekļuve</AnonymousLinkLimitedAccessTitle>
+  <AnonymousLinkLimitAccessCheckBox>Ierobežot piekļuvi tikai uz noteiktiem autentificētu lietotāju</AnonymousLinkLimitAccessCheckBox>
+  <AnonymousLinkLimitAccessTextArea>Ierakstiet lietotājvārdus vai e-pastu (atdalot ar komatu)</AnonymousLinkLimitAccessTextArea>
+  <AnonymousLinkLimitAccessSendCheckBox>Sūtīt paziņojumus noteiktiem lietotājiem</AnonymousLinkLimitAccessSendCheckBox>
+  <AnonymousLinkLimitAccessPersMsgLabel>Personisks ziņojums (nav obligāti)</AnonymousLinkLimitAccessPersMsgLabel>
+  <AnonymousLinkLimitAccessPassAndUsersMsg>Jūs esat norādījis savu paroli un lietotājiem, tajā pašā laikā, lai piekļūtu saiti. Lūdzu, norādiet kaut vienu.</AnonymousLinkLimitAccessPassAndUsersMsg>
+  <AnonymousLinkLimitAccessUsersNotFound>Lietotāji:
+    {0}
+    nav eksistē</AnonymousLinkLimitAccessUsersNotFound>
+  <AnonymousLinkLimitAccessEmailsNotFound>E-pasti:
+    {0}
+    nav eksistē</AnonymousLinkLimitAccessEmailsNotFound>
+  <AnonymousLinkLimitAccessUsersEmailsNotFound>Lietotāji:
+    {0}
+    un e-pastus:
+    {1}
+    nav eksistē</AnonymousLinkLimitAccessUsersEmailsNotFound>
+
+  <AnonymousLinkUnableToCreate>Nevar izveidot anonīmu saiti</AnonymousLinkUnableToCreate>
+  <AnonymousLinkShortUrlLabel>Lūdzu, noklikšķiniet uz atsvaidzināšanas ikonas (pie apakšējā labajā), lai iegūtu īsu saiti</AnonymousLinkShortUrlLabel>
+  <AnonymousLinkShortUrlUpdate>Iegūt vai atjaunināt īsu saiti</AnonymousLinkShortUrlUpdate>
+  <AnonymousLinkLongUrlNotSpecified>Ilgi URL nav norādīts</AnonymousLinkLongUrlNotSpecified>
+
+  <ClientFileOrDirectoryAlreadyExists>Failu vai direktoriju ar šādu nosaukumu jau eksistē</ClientFileOrDirectoryAlreadyExists>
+  <ClientPermissionsAllowTypes>Pašreizējās atļaujas ļaut šo darbību tikai ar šādiem failu tipiem {0}</ClientPermissionsAllowTypes>
+  <ClientPermissionsDenyTypes>Pašreizējās atļaujas aizliedz šo darbību ar šādiem failu tipiem {0}</ClientPermissionsDenyTypes>
+  <OfficeApplicationNotFoundAlert>Office pieteikums nav atrasts. Atvērt failu manuāli, izmantojot saiti tekstlodziņā.</OfficeApplicationNotFoundAlert>
+  <OfficeAnonymousEditPublicLinkError>Nevar izveidot publisku saiti uz anonīmi atvērtā biroja dokumentu.</OfficeAnonymousEditPublicLinkError>
+
+  <GoogleOWAViewLinkMessage>Lai apskatītu dokumentu, noklikšķiniet uz saites zemāk:</GoogleOWAViewLinkMessage>
+  <ZohoEditLinkMessage>Lai rediģētu saiti dokuments nospiediet zemāk:</ZohoEditLinkMessage>
+  <PixlrEditLinkMessage>Lai rediģētu saiti attēls nospiediet zemāk:</PixlrEditLinkMessage>
+  <PixlrNewImageCreateTitle>Izveidot jaunu attēlu ar Pixlr</PixlrNewImageCreateTitle>
+  <PixlrNewImageLinkMessage>Lai izveidotu jaunu attēlu, noklikšķiniet uz saites zemāk:</PixlrNewImageLinkMessage>
+
+  <DownloadTitle>Lejupielādēšana vairākiem failiem</DownloadTitle>
+  <DownloadSimpleTab>standarts</DownloadSimpleTab>
+  <DownloadJavaTab>Java</DownloadJavaTab>
+  <DownloadIEPrevent>Internet Explorer novērš automātisku lejupielādi</DownloadIEPrevent>
+  <DownloadIEClickHere>Klikšķiniet šeit, lai lejupielādētu</DownloadIEClickHere>
+  <DownloadIEArchiveReady>Arhīvs "{0}" ar izvēlētajiem failiem tika izveidots un ir gatavs lejupielādei</DownloadIEArchiveReady>
+  <DownloadIECaption>Download ir gatavs</DownloadIECaption>
+
+  <SettingsTitle>Iestatījumi</SettingsTitle>
+  <SettingsLanguage>valoda</SettingsLanguage>
+  <SettingsLogOutRequired>Jaunas izmaiņas tiks piemērotas pēc logout vai pārlūka restart!</SettingsLogOutRequired>
+  <ThemeTitle>Mainīt Theme</ThemeTitle>
+  <SettingsTheme>Izvēlies tēmu</SettingsTheme>
+  <ThemeDefaultTitle>Default Theme</ThemeDefaultTitle>
+  <ThemeGrayTitle>Gray Theme</ThemeGrayTitle>
+  <ThemeAccessTitle>Pieejamība Theme</ThemeAccessTitle>
+
+  <ChangeUserPasswordTitle>Mainīt lietotāja parole</ChangeUserPasswordTitle>
+  <ChangeUserPasswordOldPassword>Vecā parole</ChangeUserPasswordOldPassword>
+  <ChangeUserPasswordNewPassword>Jauna parole</ChangeUserPasswordNewPassword>
+  <ChangeUserPasswordRepeatNewPassword>Atkārtot jauno paroli</ChangeUserPasswordRepeatNewPassword>
+  <ChangeUserPasswordPasswordsNotMatch>Paroles nesakrīt.</ChangeUserPasswordPasswordsNotMatch>
+  <ChangeUserPasswordSuccessMessage>Parole ir mainīta.</ChangeUserPasswordSuccessMessage>
+  <ChangeUserPasswordInvalidMessage>Nepareiza parole.</ChangeUserPasswordInvalidMessage>
+
+  <ChangeUserEmailTitle>Mainīt lietotāja e-mail</ChangeUserEmailTitle>
+  <ChangeUserEmailEmail>E-pasts</ChangeUserEmailEmail>
+  <ChangeUserEmailSuccessMessage>E-pasts ir mainīts.</ChangeUserEmailSuccessMessage>
+
+  <UserHelpTitle>Lietotāja palīdzība</UserHelpTitle>
+
+  <LicenseTitle>licences informācija</LicenseTitle>
+  <LicenseTrial>Nereģistrēto 30 dienu novērtēšanas versija</LicenseTrial>
+  <LicensePrompt>Licencēta versija {0} Lietotāju skaits: {1} {0} iegādes datuma: {2} {0}</LicensePrompt>
+  <LicenseFreeUpgradeMessage>Jums vēl ir {0} dienas bezmaksas uzlabojumus un atbalstu.</LicenseFreeUpgradeMessage>
+  <LicenseCheckMessage>Vairāk nekā gads ir pagājis no iegādes datuma. Lai izmantotu šo versiju, jums vajadzētu atjaunot abonementu vai atkāpties uz vecāku versiju. Jūs varat pārbaudīt savu licenci un atrast pieejamos relīzes &lt;a href='{0}' target='_blank'&gt; Pārbaudiet License &lt;/a&gt;</LicenseCheckMessage>
+  
+  <ViewPopupBlocked>Jauns logs ir bloķēts ar uznirstošo logu bloķētājs</ViewPopupBlocked>
+  
+  <LoginTwoFactorTitle>Divpakāpju verifikāciju</LoginTwoFactorTitle>
+  <LoginTitle>Pieslēgties</LoginTitle>
+  <LoginRemember>Atcerēties mani nākamreiz</LoginRemember>
+  <LoginUISelect>interfeiss</LoginUISelect>
+  <LoginUIStandard>standarts</LoginUIStandard>
+  <LoginUITouch>mobils</LoginUITouch>
+  <LoginLanguage>valoda</LoginLanguage>
+  <LoginLogin>Pieslēgties</LoginLogin>
+  <LoginFailure>Jūsu pieteikšanās mēģinājums nebija veiksmīgs.</LoginFailure>
+  <LoginBlocked>Konts ir bloķēts. Pagaidiet {0} minūtes, lai mēģinātu vēlreiz.</LoginBlocked>
+  <LoginNotActivated>Jūsu konts nav aktivizēts.</LoginNotActivated>
+  <LoginResendActivation>Ja ziņojums ar aktivizācijas kodu nav saņemts uz ilgu laiku, noklikšķiniet uz {0} saites, lai vēlreiz aktivizācijas kodu.</LoginResendActivation>
+  <LoginResendActivationLink>nosūtīt aktivizācijas kodu</LoginResendActivationLink>
+  <LoginResendActivationCode>Uzklikšķiniet uz {0} saites, lai vēlreiz aktivizācijas kodu.</LoginResendActivationCode>
+  
+  <ActivateAccountOk>Konts ir veiksmīgi aktivizēts!</ActivateAccountOk>
+  <ActivateAccountResultLabel>aktivizēšana rezultāts</ActivateAccountResultLabel>
+  <ActivateAccountErrorOnlyFormsAuth>Konta aktivizēšana var izmantot tikai ar formām autentifikāciju</ActivateAccountErrorOnlyFormsAuth>
+  <ActivateAccountErrorNotRequired>Konts aktivizēšana ir atspējots lietojumprogrammas iestatījumos. Konts tiek automātiski aktivizēta pēc reģistrācijas.</ActivateAccountErrorNotRequired>
+  <ActivateAccountErrorAlreadyActivated>Konts jau ir aktivizēta</ActivateAccountErrorAlreadyActivated>
+  <ActivateAccountErrorInvalidCode>Aktivizācijas kods nav derīgs</ActivateAccountErrorInvalidCode>
+  <ActivateAccountErrorAccountNotFound>Konts nav atrasts</ActivateAccountErrorAccountNotFound>
+  <ActivateAccountErrorLinkBroken>Aktivizēšana saite ir bojāta</ActivateAccountErrorLinkBroken>
+  <ActivateAccountReturnToLogin>Atgriezties uz pieteikšanās lapu</ActivateAccountReturnToLogin>
+  
+  <LoginRender>padarīt</LoginRender>
+  
+  <LogoutTitle>Web failu pārvaldnieks Iziet</LogoutTitle>
+  <LogoutSessionEnded>Pašreizējā sesija ir beigusies</LogoutSessionEnded>
+  <LogoutCloseWindow>Aizvērt logu</LogoutCloseWindow>
+  <LogoutEnterAgain>piesakieties vēlreiz</LogoutEnterAgain>
+  <LogoutClosingBrowserRequired>Uzmanību! Ikviens var pieteikties zem savā kontā! Ja jūs izmantojat koplietojamu datoru, tad jums vajadzētu aizvērt pārlūkprogrammas logu (ne tikai cilne) skaidrs autentifikāciju jūsu pārlūkprogrammā! Firefox pārlūku, varat notīrīt autentifikāciju izvēlnē: Tools-&gt; Clear apvainoties vēstures ...-&gt; Detaļas-&gt; paskatieties Active Logins-&gt; nospiediet Clear Now.</LogoutClosingBrowserRequired>
+  <RecoverPasswordTitle>atgūt paroli</RecoverPasswordTitle>
+  <RecoverPasswordEmailPassword>Sūtīt paroli pa e-pastu</RecoverPasswordEmailPassword>
+  <RecoverPasswordErrorInvalidUserName>Nederīgs lietotājvārds.</RecoverPasswordErrorInvalidUserName>
+  <RecoverPasswordErrorNoEmail>Šis lietotājs nav e-pasta adresi definēts.</RecoverPasswordErrorNoEmail>
+  <RecoverPasswordErrorSendEmail>bet sūtot e-pasta ziņojumu, radās kļūda.</RecoverPasswordErrorSendEmail>
+  <RecoverPasswordSuccess>Jūsu parole tika nosūtīta uz jūsu e-pasta adresi.</RecoverPasswordSuccess>
+
+  <RecoverUserNameTitle>atgūt vārdu</RecoverUserNameTitle>
+  <RecoverUserEmailName>Sūtīt vārdu pa e-pastu</RecoverUserEmailName>
+  <RecoverUserNameErrorInvalidEmail>Nederīga lietotāja e-pastu.</RecoverUserNameErrorInvalidEmail>
+  <RecoverUserNameErrorNoEmail>E-pasta adrese nav atrasts.</RecoverUserNameErrorNoEmail>
+  <RecoverUserNameSuccess>Jūsu vārds ir nosūtīts uz jūsu e-pasta adresi.</RecoverUserNameSuccess>
+
+  <ChangeEmailTitle>Mainīt e-pastu</ChangeEmailTitle>
+  <ChangeEmailEmail>jaunais E-pasts</ChangeEmailEmail>
+  <ChangeEmailSubmit>Iesniegt</ChangeEmailSubmit>
+  <ChangeEmailStatusSuccess>E-pasts ir mainīts</ChangeEmailStatusSuccess>
+
+  <RegisterTitle>Reģistrēties</RegisterTitle>
+  <RegisterEmail>E-pasts</RegisterEmail>
+  <RegisterExtraInfo>Extra info</RegisterExtraInfo>
+  <RegisterCaptcha>Ievadiet tekstu, ko redzat attēlā zemāk</RegisterCaptcha>
+  <RegisterSubmit>Iesniegt</RegisterSubmit>
+  <RegisterErrorPasswordNotMatch>Paroles nesakrīt.</RegisterErrorPasswordNotMatch>
+  <RegisterErrorUserExists>Šī lietotāja vārdu vai e-pasta adrese jau tiek izmantota.</RegisterErrorUserExists>
+  <RegisterErrorCaptchaInvalid>Attēla teksts netika ievadīta pareizi</RegisterErrorCaptchaInvalid>
+  <RegisterSuccess>Jauns lietotājs ir pievienots.</RegisterSuccess>
+  <RegisterActivationSent>Aktivizācijas kods tika nosūtīts uz jūsu e-pastu.</RegisterActivationSent>
+  <RegisterActivationCheckEmail>Lūdzu, pārbaudiet savu pastkasti (speciāli junk mape) un izpildiet norādījumus e-pastu.</RegisterActivationCheckEmail>
+  
+  <FolderGridUserPermissionsColumn>Piekļuve lietotājiem</FolderGridUserPermissionsColumn>
+  <FolderGridGroupPermissionsColumn>Piekļuves grupām</FolderGridGroupPermissionsColumn>
+
+  <LoginLinkText>Pieslēgties</LoginLinkText>
+  <RecoverPasswordLinkText>Aizmirsi paroli?</RecoverPasswordLinkText>
+  <RecoverUserNameLinkText>Aizmirsu vārdu?</RecoverUserNameLinkText>
+  <RegisterLinkText>Reģistrēties</RegisterLinkText>
+  <ChangeEmail>Mainīt e-pastu</ChangeEmail>
+  <LoginMobileVersionLinkText>Mobilā versija (Lielākā daļa smartphones un Touchpads)</LoginMobileVersionLinkText>
+
+  <FileIsNotZipArchive>Fails {0} nav ZIP arhīvs</FileIsNotZipArchive>
+
+  <FileModificationsAuthor>autors</FileModificationsAuthor>
+  <FileModificationsHistory>Skatīt vēsture</FileModificationsHistory>
+  <FileModificationsWindowTitle>Modifikācijas faila "{0}"</FileModificationsWindowTitle>
+  <FileModificationsTypeCreated>Izveidoja</FileModificationsTypeCreated>
+  <FileModificationsTypeModified>pārveidots</FileModificationsTypeModified>
+  <FileModificationsTypeRenamed>pārdēvēta</FileModificationsTypeRenamed>
+  <FileModificationsTypeRestored>atjaunota</FileModificationsTypeRestored>
+  <FileModificationsTypeDeleted>svītrots</FileModificationsTypeDeleted>
+
+  <ChangingReadOnlyProgressMessage>Mainot lasīt tikai atribūtu</ChangingReadOnlyProgressMessage>
+
+  <ImageViewerWindowTitle>Image Viewer [{0}]</ImageViewerWindowTitle>
+  <ImageViewerLoadingMessage>Iekraušana attēlu skatītājā</ImageViewerLoadingMessage>
+  <ImageViewerLoadingImageMessage>iekraušana attēlu</ImageViewerLoadingImageMessage>
+  <ImageViewerFirstImageTip>pirmais attēls</ImageViewerFirstImageTip>
+  <ImageViewerPreviousImageTip>Iepriekšējais attēls</ImageViewerPreviousImageTip>
+  <ImageViewerRefreshTip>Atsvaidzināt attēlu saraksts</ImageViewerRefreshTip>
+  <ImageViewerNextImageTip>Nākamais attēls</ImageViewerNextImageTip>
+  <ImageViewerLastImageTip>pēdējais attēls</ImageViewerLastImageTip>
+  <ImageViewerRunSlideShow>Run attēlus slaidrādes</ImageViewerRunSlideShow>
+  <ImageViewerStopSlideShow>Pietura attēlus slaidrādes</ImageViewerStopSlideShow>
+  <ImageViewerImageSimpleInfo>{0} / {1}, {2} ({3})</ImageViewerImageSimpleInfo>
+  <ImageViewerImageLoadErrorMessage>Attēls netika atrasts vai nevar parādīt</ImageViewerImageLoadErrorMessage>
+  <ImageViewerShowImageSizeOfWindow>Rādīt attēla ar reāla izmēra</ImageViewerShowImageSizeOfWindow>
+  <ImageViewerShowRealImageSize>Palielināt</ImageViewerShowRealImageSize>
+
+  <PasswordExpiresTitle>parole beidzas</PasswordExpiresTitle>
+  <PasswordExpiresMessage>Jūsu parole beidzas pēc {0} diena (s)!</PasswordExpiresMessage>
+  <PasswordExpiredMessage>Jūsu parole beidzies.</PasswordExpiredMessage>
+  <PasswordChangeMessage>Lai mainītu paroli, atlasiet {0} {1} -&gt; {2} {3} rīkjoslā.</PasswordChangeMessage>
+
+  <UnzipContentTotalFiles>Kopā faili: {0} ({1})</UnzipContentTotalFiles>
+
+  <VideoConversionJobNotFound>
+    Nevar atrast norādīto konvertēšanas procesā.
+    Iespējamie iemesli:
+    1. Conversion pabeigts sen, un informācija par šo darbu tika noņemts.
+    2. pārveides process izbeigts nenormāli.
+  </VideoConversionJobNotFound>
+  <VideoConversionUtilityNotFound>Nevar atrast lietderība, lai veiktu pieprasīto darbību: {0}</VideoConversionUtilityNotFound>
+  <!-- The current security principal "{0}" has insufficiant permissions to executable file "{1}".-->
+  <VideoConversionUtilityInsufficientPermissions>Pašreizējais lietotājs "{0}" ir liegta piekļuve izpildāmo failu "{1}".</VideoConversionUtilityInsufficientPermissions>
+  <VideoConversionOperationCancelled>darbība atcelta</VideoConversionOperationCancelled>
+  <VideoConversionUtilityFailed>Konversija lietderība izbeigts nenormāli</VideoConversionUtilityFailed>
+  <VideoConversionOutputFileBusy>Izejas fails tiek izmantots cits pārveides procesā</VideoConversionOutputFileBusy>
+
+  <VideoConvertWindowValidatorPositiveInt>Jābūt pozitīvs vesels skaitlis</VideoConvertWindowValidatorPositiveInt>
+  <VideoConvertWindowTitle>konvertēt video</VideoConvertWindowTitle>
+  <VideoConvertWindowInputFile>ievades failu</VideoConvertWindowInputFile>
+  <VideoConvertWindowOutputFile>izejas failu</VideoConvertWindowOutputFile>
+  <VideoConvertWindowOutputFormat>izejas formāts</VideoConvertWindowOutputFormat>
+  <VideoConvertWindowBitrate>Bitrate (kbps)</VideoConvertWindowBitrate>
+  <VideoConvertWindowFrameResolution>Frame izšķirtspēja</VideoConvertWindowFrameResolution>
+  <VideoConvertWindowDAR>Displejs malu attiecība</VideoConvertWindowDAR>
+  <VideoConvertWindowPAR>Pixel malu attiecība</VideoConvertWindowPAR>
+  <VideoConvertWindowResize>Resize</VideoConvertWindowResize>
+  <VideoConvertWindowProfile>Profils</VideoConvertWindowProfile>
+  <VideoConvertWindowWidth>platums</VideoConvertWindowWidth>
+  <VideoConvertWindowHeight>augstums</VideoConvertWindowHeight>
+  <VideoConvertWindowExtractDetailsProgressMsg>Ieguves video ziņas</VideoConvertWindowExtractDetailsProgressMsg>
+  <VideoConvertWindowOutputFileExistsTitle>Izejas fails eksistē</VideoConvertWindowOutputFileExistsTitle>
+  <VideoConvertWindowOutputFileExistsMsg>Izejas fails jau eksistē. Tā tiks pārrakstīta.</VideoConvertWindowOutputFileExistsMsg>
+  <VideoConvertWindowPrepareToConvert>Sagatavošanās konvertēt video</VideoConvertWindowPrepareToConvert>
+  <VideoConvertWindowOutputFileMatchInputFile>Izejas faila nosaukums atbilst ievades faila nosaukumu</VideoConvertWindowOutputFileMatchInputFile>
+
+  <VideoConvertProgressWindowTitle>konvertēt video</VideoConvertProgressWindowTitle>
+  <VideoConvertProgressWindowInputFile>ievades failu</VideoConvertProgressWindowInputFile>
+  <VideoConvertProgressWindowOutputFile>izejas failu</VideoConvertProgressWindowOutputFile>
+  <VideoConvertProgressWindowStatus>stāvoklis</VideoConvertProgressWindowStatus>
+  <VideoConvertProgressWindowStatusTerminating>izbeidz</VideoConvertProgressWindowStatusTerminating>
+  <VideoConvertProgressWindowStatusPreparing>sagatavošana</VideoConvertProgressWindowStatusPreparing>
+  <VideoConvertProgressWindowStatusProgress>Step {0} no {1}</VideoConvertProgressWindowStatusProgress>
+  <VideoConvertProgressWindowStatusDone>Done</VideoConvertProgressWindowStatusDone>
+
+  <PlayHtml5VideoNotSupported>Jūsu pārlūkprogramma neatbalsta HTML 5 video elementu.</PlayHtml5VideoNotSupported>
+  <PlayHtml5VideoPlayFailed>Atskaņot video neizdevās</PlayHtml5VideoPlayFailed>
+  <PlayHtml5AudioPlayFailed>Atskaņot audio neizdevās</PlayHtml5AudioPlayFailed>
+  <PlayHtml5AudioTitle>virsraksts</PlayHtml5AudioTitle>
+  <PlayHtml5AudioNotSupported>Jūsu pārlūkprogramma neatbalsta HTML 5 audio elementu.</PlayHtml5AudioNotSupported>
+  <PlayHtml5AudioArtist>Mākslinieks</PlayHtml5AudioArtist>
+  <PlayHtml5AudioAlbum>albums</PlayHtml5AudioAlbum>
+  <PlayHtml5AudioYear>gads</PlayHtml5AudioYear>
+  <PlayHtml5AudioDuration>ilgums</PlayHtml5AudioDuration>
+  <PlayHtml5AudioBitrate>bitrate</PlayHtml5AudioBitrate>
+  <PlayHtml5AudioVolume>tilpums</PlayHtml5AudioVolume>
+
+  <!-- Root title -->
+  <RootTitle>sakne</RootTitle>
+
+  <!-- Recent feature keys -->
+  <RecentRootTitle>nesens</RecentRootTitle>
+  <RecentDeleteOnePrompt>Vai tiešām vēlaties dzēst "{0}" no nesenajiem posteņiem?</RecentDeleteOnePrompt>
+  <RecentDeleteManyPrompt>Vai tiešām vēlaties dzēst šos {0} preces no nesenajiem posteņiem?</RecentDeleteManyPrompt>
+  <RecentPathNotExist>Nesenā ceļš "{0}" neeksistē vai piekļuve ir liegta</RecentPathNotExist>
+  <RecentAllWithoutGroupingTitle>Visas w / o grupējot</RecentAllWithoutGroupingTitle>
+  <RecentEditGroupTitle>rediģēts</RecentEditGroupTitle>
+  <RecentViewGroupTitle>skatīts</RecentViewGroupTitle>
+  <RecentDownloadGroupTitle>lejupielādēts</RecentDownloadGroupTitle>
+  <RecentUploadGroupTitle>augšupielādēta</RecentUploadGroupTitle>
+  <RecentCreateGroupTitle>Izveidoja</RecentCreateGroupTitle>
+
+  <!-- Trash feature keys -->
+  <TrashRootTitle>atkritumi</TrashRootTitle>
+  <TrashLabelDateDeleted>svītrots datums</TrashLabelDateDeleted>
+  <TrashDeleteOnePrompt>Vai tiešām vēlaties neatgriezeniski dzēst "{0}" no miskastes?</TrashDeleteOnePrompt>
+  <TrashDeleteManyPrompt>Vai tiešām vēlaties neatgriezeniski izdzēst šos {0} preces no miskastes?</TrashDeleteManyPrompt>
+  <TrashEmptyTrashLabel>Empty Trash</TrashEmptyTrashLabel>
+  <TrashRestoreSelectedLabel>atjaunot</TrashRestoreSelectedLabel>
+  <TrashRestoreAllLabel>atjaunot visu</TrashRestoreAllLabel>
+  <TrashEmptyTrashPrompt>Vai tiešām vēlaties iztukšot miskasti?</TrashEmptyTrashPrompt>
+  <TrashRestoreAllPrompt>Vai tiešām vēlaties atjaunot visas preces no miskastes?</TrashRestoreAllPrompt>
+  <TrashProgressRestoring>Atgūties no miskastes</TrashProgressRestoring>
+  <TrashFolderNotFound>Trash direktorijā nav atrasts</TrashFolderNotFound>
+  <TrashBalloonRestored>Restaurēti priekšmeti: {0} no {1}</TrashBalloonRestored>
+  <TrashDeleteDirectlyLabel>Dzēst tieši nenoņemot uz miskasti</TrashDeleteDirectlyLabel>
+  <TrashUsedSpaceHint>{0} lieto</TrashUsedSpaceHint>
+  <TrashLimitSizeHint>Lietota {0} no {1} ({2})</TrashLimitSizeHint>
+  <TrashLargeItemsShelfTimeHint>Uzglabāšanas laiks no objektiem ir lielāka nekā {0}: {1} dienā (-i)</TrashLargeItemsShelfTimeHint>
+  <TrashSmallItemsShelfTimeHint>Attiecībā uz visiem citiem: {0} diena (s)</TrashSmallItemsShelfTimeHint>
+  <TrashItemsShelfTimeHint>Uzglabāšanas laiks no objektiem: {0} diena (s)</TrashItemsShelfTimeHint>
+  <TrashAvailableSpaceHint>Maksimālais pieejams lielums {0}</TrashAvailableSpaceHint>
+  <TrashDeletedFromFolderHint>Svītrots no {0}</TrashDeletedFromFolderHint>
+  <TrashExceededMessage>Šādi objekti ir pārāk liels, un nevar atrasties uz miskasti (ierobežošanu {0} ir pārsniegts):</TrashExceededMessage>
+  <TrashErrorSuffixMessage>Lūdzu, mēģiniet pārbaudīt opciju "{0}" un tad izdzēst failu (s) uz visiem laikiem aiz izguves</TrashErrorSuffixMessage>
+
+  <!-- Shared by link -->
+  <SharedByLinkRootTitle>Kopīgi saiti</SharedByLinkRootTitle>
+
+  <!-- Shared for you -->
+  <SharedForYouRootTitle>Dalīta ar jums</SharedForYouRootTitle>
+  <SharedForYouUnableToGetUrl>Nevar iegūt URL</SharedForYouUnableToGetUrl>
+
+  <!-- Watch for modifications -->
+  <WatchForModifsCommand>Skatīties grozījumus</WatchForModifsCommand>
+  <WatchForModifsStartCommand>sākt skatīties</WatchForModifsStartCommand>
+  <WatchForModifsEditCommand>mainīt skatoties</WatchForModifsEditCommand>
+  <WatchForModifsStopCommand>pārtraukt skatīties</WatchForModifsStopCommand>
+  <WatchForModifsViewChangesCommand>Skatīt izmaiņas</WatchForModifsViewChangesCommand>
+  <WatchForModifsSubscriptionSuccessMessage>Jūs esat veiksmīgi parakstījušies par izmaiņām "{0}"</WatchForModifsSubscriptionSuccessMessage>
+  <WatchForModifsStopSuccessMessage>Monitoringa "{0}" ir veiksmīgi atspējots</WatchForModifsStopSuccessMessage>
+  <WatchForModifsIncludingNestedLabel>Apsveriet ligzdotu failus, mapes</WatchForModifsIncludingNestedLabel>
+  <WatchForModifsParentWatchExistMessage>Par izvēlētā objekta jau ir piešķirts pārraudzību par mātes mapi "{0}".</WatchForModifsParentWatchExistMessage>
+  <WatchForModifsRootFolder>Brīdinājumi</WatchForModifsRootFolder>
+  <WatchForModifsStartProgressLoading>Ieslēgt skatoties</WatchForModifsStartProgressLoading>
+  <WatchForModifsStopProgressLoading>Terminatie skatoties</WatchForModifsStopProgressLoading>
+  <WatchForModifsIconHint>Enabled skatīties grozījumus</WatchForModifsIconHint>
+  <WatchForModifsNotifCheckBox>Paziņot par izmaiņām ar e-pastu:</WatchForModifsNotifCheckBox>
+  <WatchForModifsWatchedUsersCheckBox>Uzraudzīt tikai lietotājus (atstāt tukšu, ja jums kontrolēt visus):</WatchForModifsWatchedUsersCheckBox>
+  <WatchForModifsIgnoreOwnerCheckBox>Ignorēt mana izmaiņas</WatchForModifsIgnoreOwnerCheckBox>
+  <WatchForModifsActionsCheckBox>Uzraudzīt visas darbības (vai dažas darbības no saraksta zemāk)</WatchForModifsActionsCheckBox>
+  <WatchForModifsNestedItemsWarning>Uzmanību! Kad jūs pievienot uzraudzību par izvēlēto mapi, visi norobežo failus un mapes, par kuru individuālais monitorings ir pievienoti iepriekš, uzraudzība tiks noņemts. Vai vēlaties turpināt?</WatchForModifsNestedItemsWarning>
+
+  <WelcomeWindowHideCheckboxLabel>Nerādīt šo, nākamo mežistrādi</WelcomeWindowHideCheckboxLabel>
+
+  <LogsGridMoreInfoColumn>Vairāk informācijas</LogsGridMoreInfoColumn>
+  <LogsGridDetailsTitle>Sīkāka informācija</LogsGridDetailsTitle>
+  <LogsGridPhysPathColumn>fiziskā ceļš</LogsGridPhysPathColumn>
+  <LogsGridIsFolderColumn>Mape?</LogsGridIsFolderColumn>
+  <LogsGridIsPublicColumn>Public?</LogsGridIsPublicColumn>
+  <LogsGridByWebDavColumn>WebDAV?</LogsGridByWebDavColumn>
+
+  <NoCommentsYetHint>Vēl nav neviena komentāra</NoCommentsYetHint>
+  <NoHistoryYetHint>Nav vēsture vēl</NoHistoryYetHint>
+
+  <DetailsPropertyValuesCouldNotBeWritten>Neizdevās saglabāt īpašuma vērtības, Mabe faila tips neatbalsta šādu iespēju, vai ir kļūda, piemērojot saistīts ar failu.</DetailsPropertyValuesCouldNotBeWritten>
+
+  <AdminCommandHelp>palīdzēt</AdminCommandHelp>
+  <AdminCommandAddUser>Pievienot lietotāju</AdminCommandAddUser>
+  <AdminCommandAddGroup>Pievienot grupu</AdminCommandAddGroup>
+  <AdminCommandRemoveUser>noņemt lietotāju</AdminCommandRemoveUser>
+
+  <AdminCommandSelectUsers>pievienot lietotājus</AdminCommandSelectUsers>
+  <AdminCommandSelectGroups>Pievienot grupas</AdminCommandSelectGroups>
+  <AdminCommandRemoveUsers>noņemt lietotājus</AdminCommandRemoveUsers>
+  <AdminCommandRemoveGroups>noņemt grupas</AdminCommandRemoveGroups>
+  <AdminUsersGroups>loceklis</AdminUsersGroups>
+  <AdminSearchUserEmptyText>Ievadiet lietotājvārdu</AdminSearchUserEmptyText>
+  <AdminSearchGroupEmptyText>Ievadiet grupas nosaukumu</AdminSearchGroupEmptyText>
+  <AdminUsersGroupAlreadyExists>Grupa (-as) ar šādu nosaukumu (-iem) jau ir pievienots</AdminUsersGroupAlreadyExists>
+
+  <AdminApplicationLoading>Admin panelis iekraušana</AdminApplicationLoading>
+  <AdminTitle>Administrācija</AdminTitle>
+  <AdminUsersEditUser>rediģēt lietotājs</AdminUsersEditUser>
+  <AdminUsersSetUserPassword>Uzstādīt paroli</AdminUsersSetUserPassword>
+  <AdminUsersViewGroups>Skatīt grupas</AdminUsersViewGroups>
+  <AdminUsersViewFolders>Skatīt mapes</AdminUsersViewFolders>
+  <AdminUsersDeleteUserPrompt>Vai tiešām vēlaties noņemt lietotāju (s) "{0}"?</AdminUsersDeleteUserPrompt>
+  <AdminUsersDeletedUsers>{0} lietotājs (i) deleted.</AdminUsersDeletedUsers>
+  <AdminUsersUserNotFound>Lietotājs ar šādu nosaukumu nav atrasts</AdminUsersUserNotFound>
+  <AdminUsersPropertiesTitle>Lietotāja īpašības</AdminUsersPropertiesTitle>
+  <AdminUsersSetPasswordTitle>Set lietotāja parole</AdminUsersSetPasswordTitle>
+  <AdminUsersGeneralInfo>Lietotāja informācija</AdminUsersGeneralInfo>
+  <AdminUsersUserEmail>E-pasts</AdminUsersUserEmail>
+  <AdminUsersEmptyName>Lietotāja vārds nedrīkst būt tukšs</AdminUsersEmptyName>
+  <AdminUsersEmptyPassword>Lietotāja parole nedrīkst būt tukšs</AdminUsersEmptyPassword>
+  <AdminUsersIncorrectName>Ir nepareizi simboli lietotāja vārdu</AdminUsersIncorrectName>
+  <AdminUsersAlreadyExists>Lietotājs ar šādu nosaukumu jau eksistē</AdminUsersAlreadyExists>
+  <AdminUsersEmailAlreadyExists>Lietotājs ar šo e-pastu jau eksistē</AdminUsersEmailAlreadyExists>
+  <AdminUsersPasswordsNotMatch>Paroles nesakrīt</AdminUsersPasswordsNotMatch>
+  <AdminUsersRenameWarning>Pēc pārdēvēšana lietotājam ir nepieciešams, lai mainītu paroli, pretējā gadījumā pašreizējais web-mapes saite būs nepareizs</AdminUsersRenameWarning>
+  <AdminUsersLicenseRestriction>Jūsu licence neļauj jums izveidot vairāk nekā {0} lietotāju</AdminUsersLicenseRestriction>
+  <AdminUsersCountInfoWithLimit>Kopā lietotāju: {0} no {1}</AdminUsersCountInfoWithLimit>
+  <AdminUsersCountInfo>Kopā lietotāju: {0}</AdminUsersCountInfo>
+
+  <AdminGroupsEditGroup>labot grupas</AdminGroupsEditGroup>
+  <AdminGroupsRemoveGroup>noņemt grupu</AdminGroupsRemoveGroup>
+  <AdminGroupsDeleteGroupPrompt>Vai tiešām vēlaties noņemt grupu (-as) "{0}"?</AdminGroupsDeleteGroupPrompt>
+  <AdminGroupsDeletedGroups>{0} grupa (-as), izdzēsts.</AdminGroupsDeletedGroups>
+  <AdminGroupsGroupNotFound>Grupa ar šādu nosaukumu nav atrasts</AdminGroupsGroupNotFound>
+  <AdminGroupsViewUsers>Apskatīt lietotāju</AdminGroupsViewUsers>
+  <AdminGroupsProperties>Properties</AdminGroupsProperties>
+  <AdminGroupsPropertiesTitle>grupu īpašības</AdminGroupsPropertiesTitle>
+  <AdminGroupsGeneralInfo>grupas informācija</AdminGroupsGeneralInfo>
+  <AdminGroupsUserNamePrompt>Ievadiet lietotājvārdu</AdminGroupsUserNamePrompt>
+  <AdminGroupsUsers>grupas dalībnieki</AdminGroupsUsers>
+  <AdminGroupsUserAlreadyExists>Lietotājs (-i) ar šādu nosaukumu (-iem) jau ir pievienots</AdminGroupsUserAlreadyExists>
+  <AdminGroupsEmptyName>Grupas nosaukums nedrīkst būt tukšs</AdminGroupsEmptyName>
+  <AdminGroupsIncorrectName>Ir nepareizi simboli grupas nosaukuma</AdminGroupsIncorrectName>
+  <AdminGroupsAlreadyExists>Grupa ar jau pastāv šis vārds</AdminGroupsAlreadyExists>
+  <AdminGroupsCountInfo>Kopā grupas: {0}</AdminGroupsCountInfo>
+
+  <AdminLanguagesTab>lokalizēšana</AdminLanguagesTab>
+  <AdminLanguagesTabMessage>Lai rediģētu lokalizācijas failu, izvēlieties vajadzīgo valodu sarakstā, noklikšķiniet uz lokalizēts stīgas, lai rediģētu. Pēc grozījumiem noklikšķiniet uz "Saglabāt" pogu</AdminLanguagesTabMessage>
+  <AdminLangGridKeyColumn>Key nosaukums</AdminLangGridKeyColumn>
+  <AdminLangGridDefaultColumn>Angļu</AdminLangGridDefaultColumn>
+  <AdminEnterLanguageNameTitle>Ievadiet valodas vārdu</AdminEnterLanguageNameTitle>
+  <AdminLangConfirmRefreshTitle>Atsvaidzināt Apstiprināt</AdminLangConfirmRefreshTitle>
+  <AdminLangConfirmRefreshMessage>Uzmanību! Dati netika saglabāts. Vai jūs vēlaties saglabāt izmaiņas tagad?</AdminLangConfirmRefreshMessage>
+  <AdminLangAmountInfo>Pildītas taustiņi: {0} no {1} (tukšu vērtībām: {2})</AdminLangAmountInfo>
+  <AdminLangSaveToCSV>Eksports uz CSV</AdminLangSaveToCSV>
+  <AdminLangLoadFromCSV>Slodze no CSV</AdminLangLoadFromCSV>
+
+  <AdminDbMaintenanceTab>DB uzturēšana</AdminDbMaintenanceTab>
+  <AdminDbMaintenanceInfoTitle>info</AdminDbMaintenanceInfoTitle>
+  <AdminDbMaintenanceInfoPathLabel>DB faila ceļš</AdminDbMaintenanceInfoPathLabel>
+  <AdminDbMaintenanceInfoSizeLabel>DB faila izmērs</AdminDbMaintenanceInfoSizeLabel>
+  <AdminDbMaintenanceCompactTitle>Compact Database</AdminDbMaintenanceCompactTitle>
+  <AdminDbMaintenanceCompactNote>Lai samazinātu izmēru datu bāzes failu, lūdzu, noklikšķiniet uz tālāk redzamās pogas. Ir nepieciešams veikt saspiešanu datubāzes periodiski, jo, piemēram, pēc izņemšanas no daži neaktīvi sabiedriskās saites vai vecs žurnāls ieraksta DB faila izmēru nesamazinās.</AdminDbMaintenanceCompactNote>
+  <AdminDbMaintenanceCompactButton>Compact DB</AdminDbMaintenanceCompactButton>
+  <AdminDbMaintenanceCompactSuccess>DB veiksmīgi sablīvēta.
+Old faila izmērs: {0}
+Jaunais faila izmērs: {1}</AdminDbMaintenanceCompactSuccess>
+  <AdminDbMaintenanceCompactAutoNote>Jūs varat arī ieslēgt automātisko kompresijas datubāzē pēc noņemšanas reģistru darbību, tomēr tas nav ieteicams, jo tas varbūt biežāk slēdzenes bāzes, un tas var palielināt ilgumu dažu pieprasījumu. Uzmanību! Pēc pārejas no šī iestatījuma pieteikums tiks restartēta!</AdminDbMaintenanceCompactAutoNote>
+  <AdminDbMaintenanceCompactAutoCheckBox>Ieslēgt / izslēgt automātisko kompaktu DB</AdminDbMaintenanceCompactAutoCheckBox>
+  <AdminDbMaintenanceCompactAutoSaveButton>Saglabāt</AdminDbMaintenanceCompactAutoSaveButton>
+  <AdminDbMaintenanceCompactAutoSaveSuccess>No DB automātiskās сompression maiņa ir veiksmīgi pabeigta. Lapa tiks atjaunināta drīz.</AdminDbMaintenanceCompactAutoSaveSuccess>
+  <AdminDbMaintenanceEnableLogLabel>Izvēlieties DB vaicājumu reģistrēšanas līmeni (par Data / debug.log)</AdminDbMaintenanceEnableLogLabel>
+  <AdminDbMaintenanceSettingsSaveSuccess>DB iestatījumi veiksmīgi saglabāta. Lapa tiks pārkrauts</AdminDbMaintenanceSettingsSaveSuccess>
+  <AdminDbMaintenanceSettingsChangeNote>Uzmanību! Pēc glābšanas iestatījumi pieteikums tiks atsākts drīzumā!</AdminDbMaintenanceSettingsChangeNote>
+  <AdminDbMaintenanceInsertIntervalLabel>Intervāls (minūtēs) pievienot notikumus uz DB. Ja norādāt 0, ievietošanas parādīsies tieši pēc notikumiem.</AdminDbMaintenanceInsertIntervalLabel>
+  <AdminDbMaintenanceAdvDbParamsTitle>Advanced DB pieslēguma parametri</AdminDbMaintenanceAdvDbParamsTitle>
+  <AdminDbMaintenanceStatTitle>Statistika (atkarīgs no DB log līmenis DurationExecution)</AdminDbMaintenanceStatTitle>
+  <AdminDbMaintenanceStatDurationReadLabel>Vid lasījums timeout</AdminDbMaintenanceStatDurationReadLabel>
+  <AdminDbMaintenanceStatDurationWriteLabel>Vid rakstīšana timeout</AdminDbMaintenanceStatDurationWriteLabel>
+  <AdminDbMaintenanceStatDurationCompactLabel>Vid kompakts timeout</AdminDbMaintenanceStatDurationCompactLabel>
+  <AdminDbMaintenanceStatNoData>Nav datu</AdminDbMaintenanceStatNoData>
+  <AdminDbMaintenanceStatGetButton>apkopotu statistiku</AdminDbMaintenanceStatGetButton>
+
+  <AdminMiscTab>Misc</AdminMiscTab>
+  <AdminMiscLoadADAccountsTitle>Slodze Active Directory kontu</AdminMiscLoadADAccountsTitle>
+  <AdminMiscLoadADAccountsLoadButton>slodze</AdminMiscLoadADAccountsLoadButton>
+  <AdminMiscLoadADAccountsResetButton>Reset</AdminMiscLoadADAccountsResetButton>
+  <AdminMiscLoadADAccountsLdap>lDAP container</AdminMiscLoadADAccountsLdap>
+  <AdminMiscLoadADAccountsToFile>Uz failu</AdminMiscLoadADAccountsToFile>
+  <AdminMiscLoadADAccountsSuccessMessage>Active Directory kontiem veiksmīgi ielādēta</AdminMiscLoadADAccountsSuccessMessage>
+  <AdminMiscLoadADAccountsInfo>Šeit jūs varat radīt failu, kas satur visu Active Directory lietotāju struktūru. Šis fails ir nepieciešams, ja jūs izmantojat statisko failu kā AD informācijas uzglabāšanai. To pašu failu var tikt radīts, izmantojot Admanager lietderība. Lai iegūtu vairāk informācijas skatiet &lt;b&gt; ADAccountsFilePath &lt;/b&gt; parametru aprakstu {0} Manual {1}.</AdminMiscLoadADAccountsInfo>
+
+  <AdminMiscManageQuotasTitle>pārvaldīt kvotas</AdminMiscManageQuotasTitle>
+  <AdminMiscManageQuotasInfo>Vaicājumu esošās vai izveidot jaunu kvotu ierobežot telpu atļautais mapi, ko darbina File Server Resource Manager.</AdminMiscManageQuotasInfo>
+  <AdminMiscManageQuotasFolderPath>mapes ceļš</AdminMiscManageQuotasFolderPath>
+  <AdminMiscManageQuotasQuota>kvota</AdminMiscManageQuotasQuota>
+  <AdminMiscManageQuotasGetQuota>Iegūt kvota</AdminMiscManageQuotasGetQuota>
+  <AdminMiscManageQuotasSetQuota>Set kvota</AdminMiscManageQuotasSetQuota>
+
+  <AdminMiscFoldersFromGPOLTitle>Slodze mapes no grupas politiku</AdminMiscFoldersFromGPOLTitle>
+  <AdminMiscFoldersFromGPOLComputerName>datora nosaukums</AdminMiscFoldersFromGPOLComputerName>
+  <AdminMiscFoldersFromGPOLFilePath>faila ceļš</AdminMiscFoldersFromGPOLFilePath>
+  <AdminMiscFoldersFromGPOLMoreInfoLink>Vairāk informācijas</AdminMiscFoldersFromGPOLMoreInfoLink>
+  <AdminMiscFoldersFromGPOLResetButton>Reset</AdminMiscFoldersFromGPOLResetButton>
+  <AdminMiscFoldersFromGPOLLoadButton>slodze</AdminMiscFoldersFromGPOLLoadButton>
+  <AdminMiscFoldersFromGPOLFromDC>no DC</AdminMiscFoldersFromGPOLFromDC>
+  <AdminMiscFoldersFromGPOLFromFile>no faila</AdminMiscFoldersFromGPOLFromFile>
+  <AdminMiscFoldersTargetLabel>Lai importētu lietotāju / grupu apstākļus ...</AdminMiscFoldersTargetLabel>
+  <AdminMiscFoldersTargetFilter>filtrs</AdminMiscFoldersTargetFilter>
+  <AdminMiscFoldersTargetPermission>atļauja</AdminMiscFoldersTargetPermission>
+  <AdminMiscFoldersFromGPOLSuccessMessage>Mapes tiek veiksmīgi ielādēta &lt;br /&gt; Jauns. {0}, atjaunošana: {1}.</AdminMiscFoldersFromGPOLSuccessMessage>
+  <AdminMiscFoldersFromGPOLInfo>Jūs varat ielādēt (vai atjaunināt) mapju sarakstu no grupas politikas Drive Mapping iestatījumiem domēna kontrollera. Jomā zemāk jūs varat ievadīt datora nosaukumu no kuras grupas politikas iestatījumi tiks ielādēta (vai ja atstāta tukša, tad pašreizējais domēns tiks lietotas), vai ceļu uz failu ar samērot Drives iestatījumiem.</AdminMiscFoldersFromGPOLInfo>
+
+  <AdminAnonymFoldersTab>anonīmie mapes</AdminAnonymFoldersTab>
+  <AdminAnonymFoldersDeleteFolderPrompt>Vai tiešām vēlaties noņemt {0} izvēlētās anonīmi mapes?</AdminAnonymFoldersDeleteFolderPrompt>
+  
+  <AdminAnonymFoldersDescription>Koplietošanas mapes / failus - tie ir mapes / failus, kas neprasa lietotāja autentifikācijas *, tas nozīmē, ka tie ir pieejami visiem apmeklētājiem * (ja tie ir saite). Visi lietotāji var izveidot šādas mapes / failus no izvēlnes "Share &amp;rarr; Izveidot publisku saites". Tomēr dalītās mapes var būt ierobežotas atļaujas: par augšupielādi, lejupielādētu failus / mapes sarakstu. Zemāk ir tabula ar saitēm uz koplietošanas mapes / failus, kas izveidoti ar lietotāju. Strādāt valsts saites iezīme pareizi būt pārliecināti, ka Handlers \ Anonymousdownload.ashx ļauj anonīmu piekļuvi IIS. Jūs varat pārbaudīt šo par &lt;a target="_blank" href="{0}"&gt; diagnostika &lt;/a&gt;. Pārliecinieties, ka piešķirts Handlers \ Anonymousdownload.ashx anonīms lietotāja konts ir NTFS lasīšanas / rakstīšanas atļaujas koplietošanas mapes / failus &lt;br /&gt; * &amp;nbsp;. &amp;Mdash; &amp;nbsp; ja jums nav jānorāda lietotājiem, kas tikai ir atļauta piekļuve.</AdminAnonymFoldersDescription>
+  <AdminAnonymFoldersLinkOwnerColumn>īpašnieks</AdminAnonymFoldersLinkOwnerColumn>
+  <AdminAnonymFoldersEmailsColumn>E-pasti paziņošanas</AdminAnonymFoldersEmailsColumn>
+  <AdminAnonymFoldersAccessForUsersColumn>Piekļuve lietotājiem</AdminAnonymFoldersAccessForUsersColumn>
+  <AdminAnonymFoldersPersonalMessageColumn>Personīga ziņa</AdminAnonymFoldersPersonalMessageColumn>
+  <AdminAnonymFoldersOverwriteOnUploadHint> (Pārrakstīt: {0})</AdminAnonymFoldersOverwriteOnUploadHint>
+  <AdminAnonymFoldersRootPathColumn>root ceļš</AdminAnonymFoldersRootPathColumn>
+  <AdminAnonymFoldersKeysColumn>Keys</AdminAnonymFoldersKeysColumn>
+  <AdminAnonymFoldersShortColumn>Īsās posmu</AdminAnonymFoldersShortColumn>
+  <AdminAnonymFoldersPropertiesTitle>Anonīmie mapes īpašības</AdminAnonymFoldersPropertiesTitle>
+  <AdminAnonymFoldersAdditionalInfo>Papildus informācija</AdminAnonymFoldersAdditionalInfo>
+  <AdminAnonymFoldersLinkLabel>Saite uz piekļuvi</AdminAnonymFoldersLinkLabel>
+  <AdminAnonymFoldersPathNotSpecified>Fiziskais ceļš nav iestatīts</AdminAnonymFoldersPathNotSpecified>
+  <AdminAnonymFoldersCreatedForColumn>nolūks</AdminAnonymFoldersCreatedForColumn>
+
+  <AdminFoldersTab>Mapes</AdminFoldersTab>
+  <AdminFoldersAddFolder>Pievienot mapi</AdminFoldersAddFolder>
+  <AdminFoldersEditFolder>rediģēt mape</AdminFoldersEditFolder>
+  <AdminFoldersRemoveFolder>noņemt mapi</AdminFoldersRemoveFolder>
+  <AdminFoldersDeleteFolderPrompt>Vai tiešām vēlaties noņemt mapi "{0}"?</AdminFoldersDeleteFolderPrompt>
+  <AdminFoldersFolderNotFound>Mape ar šādu nosaukumu nav atrasts</AdminFoldersFolderNotFound>
+  <AdminFoldersPropertiesTitle>Mapes īpašības</AdminFoldersPropertiesTitle>
+  <AdminFoldersGeneralInfo>Galvenā informācija</AdminFoldersGeneralInfo>
+  <AdminFoldersFolderRemoteWarningForms>Piezīme! Šī mape ir attālināti dalīta. Pārbaudiet {0} FAQ: kā dalīties tālvadības mapes {1}</AdminFoldersFolderRemoteWarningForms>
+  <AdminFoldersFolderRemoteWarningWin>Piezīme! Šī mape ir attālināti dalīta. Jūs varat paslēpt dažas mapes / failus, ja lietotājiem nav tiesību tos lasīt. Skatīt {0} FAQ: Kā paslēpt failus / mapes, ka lietotājs nav tiesību lasīt {1}</AdminFoldersFolderRemoteWarningWin>
+  <AdminFoldersFolderPath>fiziskā ceļš</AdminFoldersFolderPath>
+  <AdminFoldersLocationPath>vieta</AdminFoldersLocationPath>
+  <AdminFoldersFolderCreate>Izveidot mapi</AdminFoldersFolderCreate>
+  <AdminFoldersFolderCreateProcess>Radīt mape</AdminFoldersFolderCreateProcess>
+  <AdminFoldersFolderCreateContainsPattern>Mapes nevar izveidot, jo tas satur modeli</AdminFoldersFolderCreateContainsPattern>
+  <AdminFoldersFolderCreateSuccessfully>Mape "{0}" ir veiksmīgi izveidots.</AdminFoldersFolderCreateSuccessfully>
+  <AdminFoldersFolderOptional> (Pēc izvēles)</AdminFoldersFolderOptional>
+  <AdminFoldersFolderLimitations>ierobežojumi</AdminFoldersFolderLimitations>
+  <AdminFoldersFolderDescription>apraksts</AdminFoldersFolderDescription>
+  <AdminFoldersFolderQuota>kvota</AdminFoldersFolderQuota>
+  <AdminFoldersFolderQuotaHint>Vaicājumu esošās vai izveidot jaunu kvotu ierobežot telpu atļautais mapi, ko darbina File Server Resource Manager.</AdminFoldersFolderQuotaHint>
+  <AdminFoldersFolderQuotaMoreInfoLink>Vairāk informācijas</AdminFoldersFolderQuotaMoreInfoLink>
+  <AdminFoldersPermissions>atļaujas</AdminFoldersPermissions>
+  <AdminFoldersPermissionsFor>Atļaujas {0}</AdminFoldersPermissionsFor>
+  <AdminFoldersUsersGroups>Lietotāji un grupas</AdminFoldersUsersGroups>
+  <AdminFoldersAccessControl>Piekļuves kontrole</AdminFoldersAccessControl>
+  <AdminFoldersCreate>izveidot</AdminFoldersCreate>
+  <AdminFoldersDelete>izdzēst</AdminFoldersDelete>
+  <AdminFoldersRename>pārdēvēt</AdminFoldersRename>
+  <AdminFoldersUpload>Upload</AdminFoldersUpload>
+  <AdminFoldersDownload>Download</AdminFoldersDownload>
+  <AdminFoldersZipDownload>Zip un lejupielādes</AdminFoldersZipDownload>
+  <AdminFoldersZip>rāvējslēdzējs</AdminFoldersZip>
+  <AdminFoldersUnzip>Komplektācija Zip</AdminFoldersUnzip>
+  <AdminFoldersCut>samazināt</AdminFoldersCut>
+  <AdminFoldersCopy>kopija</AdminFoldersCopy>
+  <AdminFoldersListFiles>Show failus</AdminFoldersListFiles>
+  <AdminFoldersListFolders>Rādīt mapes</AdminFoldersListFolders>
+  <AdminFoldersModify>modificēt</AdminFoldersModify>
+  <AdminFoldersBulkMailing>Bulk pasta</AdminFoldersBulkMailing>
+  <AdminFoldersAnonymViewContent>Failu saraksts ar sabiedrisko saiti</AdminFoldersAnonymViewContent>
+  <AdminFoldersAnonymDownload>Lejupielādēt ar sabiedrisko saiti</AdminFoldersAnonymDownload>
+  <AdminFoldersAnonymUpload>Augšupielādēt, izmantojot sabiedrisko saiti</AdminFoldersAnonymUpload>
+  <AdminFoldersWatch>Watch</AdminFoldersWatch>
+  <AdminFoldersDescription>Jūs varat pievienot mapes manuāli vai pārveidot esošās mapes, ja jūs izmantojat diskus pie grupas politiku. Lai iegūtu vairāk informācijas skatiet {0} Palīdzība {1}.</AdminFoldersDescription>
+
+  <AdminFoldersPermissionsForRegex>Jūs varat arī izmantot regulāro izteiksmi. Ievadiet &lt;b&gt; {0} &lt;/b&gt; sākumā virs lauka un tad regulāra izteiksme, piemēram:</AdminFoldersPermissionsForRegex>
+  <AdminFoldersPermissionsForRegexUsers>{0} (nodrošina piekļuvi jebkuram lietotājam) &lt;br /&gt; {1} (tas regulāra izteiksme ir divi lietotāji: jdoe un Mike)</AdminFoldersPermissionsForRegexUsers>
+  <AdminFoldersPermissionsForRegexGroups>{0} (nodrošina piekļuvi jebkuram grupa) &lt;br /&gt; {1} (tas regulāra izteiksme ir visas grupas, ar "studenti" viņu vārdus)</AdminFoldersPermissionsForRegexGroups>
+
+  <AdminFoldersListRestrictions>Ierobežojumi displejs</AdminFoldersListRestrictions>
+  <AdminFoldersCreateRestrictions>Ierobežojumi faila radīšanas</AdminFoldersCreateRestrictions>
+  <AdminFoldersRestrictionAllow>ļaut</AdminFoldersRestrictionAllow>
+  <AdminFoldersRestrictionDeny>noliegt</AdminFoldersRestrictionDeny>
+  <AdminFoldersRestrictionExtensions>paplašinājumi</AdminFoldersRestrictionExtensions>
+  <AdminFoldersUserNamePrompt>Ievadiet lietotājvārdu</AdminFoldersUserNamePrompt>
+  <AdminFoldersUserNameEmptyText>Izvēlieties lietotāja vārds</AdminFoldersUserNameEmptyText>
+  <AdminFoldersUserNameNotSelected>Jums jāizvēlas lietotājvārds</AdminFoldersUserNameNotSelected>
+  <AdminFoldersUserAlreadyExists>Šis lietotājs jau ir piešķirts uz mapi</AdminFoldersUserAlreadyExists>
+  <AdminFoldersGroupNamePrompt>Ievadiet grupas nosaukumu</AdminFoldersGroupNamePrompt>
+  <AdminFoldersGroupNameEmptyText>Select grupa</AdminFoldersGroupNameEmptyText>
+  <AdminFoldersGroupNameNotSelected>Ir jāatlasa grupas nosaukums</AdminFoldersGroupNameNotSelected>
+  <AdminFoldersGroupAlreadyExists>Šī grupa jau ir piešķirts uz mapi</AdminFoldersGroupAlreadyExists>
+  <AdminFoldersEmptyName>Mapes nosaukums nedrīkst būt tukšs</AdminFoldersEmptyName>
+  <AdminFoldersEmptyPath>Mapes ceļš nevar būt tukšs</AdminFoldersEmptyPath>
+  <AdminFoldersIncorrectName>Ir nepareizi simboli mapes nosaukumu</AdminFoldersIncorrectName>
+  <AdminFoldersAlreadyExists>Mape ar šo nosaukumu un atrašanās vietu jau eksistē</AdminFoldersAlreadyExists>
+  <AdminFoldersSharesButton>esošās akcijas</AdminFoldersSharesButton>
+  <AdminFoldersTestAccessButton>Test piekļuve</AdminFoldersTestAccessButton>
+  <AdminFoldersTestIndexingButton>Test indeksācija</AdminFoldersTestIndexingButton>
+  <AdminFoldersShareNameTitle>esošās akcijas</AdminFoldersShareNameTitle>
+  <AdminFoldersShareNameEmptyText>Select akcija</AdminFoldersShareNameEmptyText>
+  <AdminFoldersShareNameNotSelected>Jums jāizvēlas daļa</AdminFoldersShareNameNotSelected>
+  <AdminFoldersGetQuotaButton>Iegūt kvota</AdminFoldersGetQuotaButton>
+  <AdminFoldersSetQuotaButton>Set kvota</AdminFoldersSetQuotaButton>
+  <AdminCommonFilterField>filtrs</AdminCommonFilterField>
+  <AdminCommonValidateField>apstiprināt</AdminCommonValidateField>
+  <AdminFoldersRootNameUsed>Lūdzu, izmantojiet citu mapes nosaukumu, nevis "{0}"</AdminFoldersRootNameUsed>
+  <AdminFoldersFolderFilterSuccess>Apstiprināt filtra notika veiksmīgi</AdminFoldersFolderFilterSuccess>
+
+  <AdminTestAccessGoodResult>Mape "{0}" pastāv, un to var izlasīt.</AdminTestAccessGoodResult>
+  <AdminTestAccessBadResult>Mape "{0}" neeksistē vai nav NTFS lasīt atļaujas vai nav tīkla piekļuves par pieteikuma identitāti!</AdminTestAccessBadResult>
+  <AdminTestAccessErrorResult>Kļūda pārbaudot piekļuvi uz mapi "{0}": {1}</AdminTestAccessErrorResult>
+  <AdminTestIndexingErrorResult>Kļūda pārbaudot indeksēšanu uz mapi "{0}":
+{1}</AdminTestIndexingErrorResult>
+  <AdminTestIndexingYesResult>Katalogs "{0}" ir indeksēti</AdminTestIndexingYesResult>
+  <AdminTestIndexingNoResult>Katalogs "{0}" nav indeksēta</AdminTestIndexingNoResult>
+  <AdminTestIndexingUnknownResult>Nevar noteikt, ja direktorija "{0}" ir indeksēti.</AdminTestIndexingUnknownResult>
+  <AdminTestIndexingAddIfNotIndexed>Vai vēlaties pievienot šo mapi indeksāciju, ja tā ir indeksēti vēl?</AdminTestIndexingAddIfNotIndexed>
+  <ProgressTestAccess>Pārbaude piekļuve</ProgressTestAccess>
+  <ProgressTestIndexing>Pārbaude indeksācija</ProgressTestIndexing>
+  <AdminHowToIndexingLocationLink>Lai indeksu mapi, skatiet palīdzībā {0}</AdminHowToIndexingLocationLink>
+
+  <AdminUsersListAll>Visi lietotāji</AdminUsersListAll>
+  <AdminUsersListDACL>Lietotāji no ACL</AdminUsersListDACL>
+  <AdminGroupsListAll>Visas grupas</AdminGroupsListAll>
+  <AdminGroupsListDACL>Grupas no ACL</AdminGroupsListDACL>
+  <AdminDACLStringLabel>ACL atļaujas</AdminDACLStringLabel>
+
+  <AdminCommonCustomField>Custom lauks</AdminCommonCustomField>
+  <AdminCommonSettingsChangeWarning>Izmaiņas stāsies spēkā pēc atkārtotas pieteikšanās (vai pēc pieteikuma restart uz WebDAV piekļuvi).</AdminCommonSettingsChangeWarning>
+
+  <AdminCommonAllowedFoldersPathsTitle>Atļautie mape ceļi</AdminCommonAllowedFoldersPathsTitle>
+  <AdminCommonNotAllowedFolderPath>Varat izveidot pieeju tikai šīm mapēm vai tās apakšmapēs: {0}</AdminCommonNotAllowedFolderPath>
+
+  <AdminLogsTab>log</AdminLogsTab>
+
+  <AdminSettingsTab>Iestatījumi</AdminSettingsTab>
+
+  <AdminLogsErrorsTab>log kļūdas</AdminLogsErrorsTab>
+  <AdminLogsErrorsClearBtn>skaidrs</AdminLogsErrorsClearBtn>
+  <AdminLogsErrorsClearUsersCountExceededBtn>Skaidras ieraksti ar kļūdas lietotāju pārsniedz daudzuma limitu</AdminLogsErrorsClearUsersCountExceededBtn>
+
+  <AdminFoldersCreateHint>Atļaut / Aizliegt darbības no izvēlnes "jauns", jaunu failu, jaunu mapi, jaunu attēlu, jauni dokumentu failus.</AdminFoldersCreateHint>
+  <AdminFoldersDeleteHint>Atļaut / Aizliegt dzēšanu esošo failu un mapju</AdminFoldersDeleteHint>
+  <AdminFoldersRenameHint>Atļaut / Aizliegt pārdēvēšanu esošos failus un mapes</AdminFoldersRenameHint>
+  <AdminFoldersUploadHint>Atļaut / Aizliegt augšupielādējot failus iezīme (Upload pogu rīkjoslā)</AdminFoldersUploadHint>
+  <AdminFoldersDownloadHint>Atļaut / Aizliegt "download", "skatīt / rediģēt", lejupielādēt uz mākonis krātuves, utt darbības</AdminFoldersDownloadHint>
+  <AdminFoldersZipDownloadHint>Atļaut / Aizliegt "komprese un lejupielādēt" darbība</AdminFoldersZipDownloadHint>
+  <AdminFoldersZipHint>Atļaut / Aizliegt "saspiež zip arhīvu" darbība</AdminFoldersZipHint>
+  <AdminFoldersUnzipHint>Atļaut / Aizliegt "Extract uz pašreizējo mapi", "Extract uz jaunu mapi" un "Zip saturu" darbības</AdminFoldersUnzipHint>
+  <AdminFoldersCutHint>Atļaut / Aizliegt samazināt esošos failus un mapes rīcību</AdminFoldersCutHint>
+  <AdminFoldersCopyHint>Atļaut / Aizliegt kopēt esošos failus un mapes rīcību</AdminFoldersCopyHint>
+  <AdminFoldersListFilesHint>Atļaut / Aizliegt failu sarakstos</AdminFoldersListFilesHint>
+  <AdminFoldersListFoldersHint>Atļaut / Aizliegt uzskaitīti mapes</AdminFoldersListFoldersHint>
+  <AdminFoldersModifyHint>Atļaut / Aizliegt modificēt failus (visas darbības, kas var mainīt esošo failu saturu)</AdminFoldersModifyHint>
+  <AdminFoldersBulkMailingHint>Atļaut / Aizliegt beztaras sūtījumu grupām</AdminFoldersBulkMailingHint>
+  <AdminFoldersAnonymViewContentHint>Atļaut / Aizliegt failus sarakstu anonīmiem lietotājiem (caur valsts saišu)</AdminFoldersAnonymViewContentHint>
+  <AdminFoldersAnonymDownloadHint>Atļaut / Aizliegt failus lejupielādēt anonīmiem lietotājiem (izmantojot valsts saišu)</AdminFoldersAnonymDownloadHint>
+  <AdminFoldersAnonymUploadHint>Atļaut / Aizliegt failus augšupielādēt uz anonīmiem lietotājiem (izmantojot valsts saišu)</AdminFoldersAnonymUploadHint>
+  <AdminFoldersWatchHint>Atļaut / Aizliegt lietotājiem kontrolēt izmaiņas mapē, ko citiem lietotājiem (tas tiek piemērots tikai tad, ja UI / AllowUsersmonitorModifications = true)</AdminFoldersWatchHint>
+  <AdminFoldersListRestrictionsHint>Šī opcija kontrolē failu sarakstu. Uzklikšķiniet "noliedz" pogu, lai paslēptu failus ar noteiktiem paplašinājumiem. Ievietojiet aizliegts paplašinājumi atdalot tās ar komatu (piemēram, "EXE, BAT, COM"). Uzstādiet "Atļaut" pogu un ievietojiet pagarinājumi failiem, kas tiks parādītas (piemēram, "DOC, PDF, JPG").</AdminFoldersListRestrictionsHint>
+  <AdminFoldersCreateRestrictionsHint>Šī funkcija ir līdzīga "saraksts ierobežojumi", bet tas kontrolē failu augšupielādi, zip ieguvi, veidojot jaunus failus. Jūs varat aizliegt vai ļaut augšupielādējot norādītajiem failiem.</AdminFoldersCreateRestrictionsHint>
+  <AdminFoldersGeneralInfoHint>Ierakstiet esošās mapes ceļu un alias. Uzklikšķiniet Help pogas apakšā, lai iegūtu plašāku informāciju.</AdminFoldersGeneralInfoHint>
+  <AdminFoldersUsersGroupsHint>Izvēlieties vai ievadiet Lietotāji un grupas, lai dalītos mapi par viņiem. Uzklikšķiniet Help pogas apakšā, lai iegūtu plašāku informāciju.</AdminFoldersUsersGroupsHint>
+
+  <AdminUserFoldersButtonTitle>Testa akcijas saraksts</AdminUserFoldersButtonTitle>
+  <AdminUserFoldersWindowTitle>Lietotāja mapes</AdminUserFoldersWindowTitle>
+  <AdminUserFoldersLabel>Mapju saraksts lietotājam '{0}':</AdminUserFoldersLabel>
+  
+  <AdminPermissionsTab>admin atļaujas</AdminPermissionsTab>
+  <AdminPermissionsPrivilege>privilēģija</AdminPermissionsPrivilege>
+  <AdminPermissionsEditButton>rediģēt privilēģija</AdminPermissionsEditButton>
+  <AdminPermissionsModifySettingsTitle>mainīt iestatījumus</AdminPermissionsModifySettingsTitle>
+  <AdminPermissionsModifyFoldersTitle>mainīt mapes</AdminPermissionsModifyFoldersTitle>
+  <AdminPermissionsModifyAnonymFoldersTitle>Pārveidot publiskās mapes</AdminPermissionsModifyAnonymFoldersTitle>
+  <AdminPermissionsModifyAccountsTitle>pārveidot kontus</AdminPermissionsModifyAccountsTitle>
+  <AdminPermissionsViewDiagnosticsTitle>Apskatīt "Diagnostika" lapa</AdminPermissionsViewDiagnosticsTitle>
+  <AdminPermissionsViewLogTitle>Skatīt žurnālu</AdminPermissionsViewLogTitle>
+  <AdminPermissionsViewErrorsLogTitle>Skatīt kļūdas log</AdminPermissionsViewErrorsLogTitle>
+  <AdminPermissionsModifyLocalizationsTitle>modificēt lokalizācijas</AdminPermissionsModifyLocalizationsTitle>
+  <AdminPermissionsFolderPathTitle>mapes ceļš</AdminPermissionsFolderPathTitle>
+  <AdminPermissionsFoldersTitle>admin mapes</AdminPermissionsFoldersTitle>
+  <AdminPermissionsPrivilegeHint>Set lietotāju / grupas, kurām "{0}" privilēģija tiks atļauts</AdminPermissionsPrivilegeHint>
+  <AdminPermissionsFolderTitle>Admin mape īpašības</AdminPermissionsFolderTitle>
+  <AdminPermissionsFolderFieldTitle>mapes ceļš</AdminPermissionsFolderFieldTitle>
+  <AdminPermissionsFolderHint>Info par admin mapēm</AdminPermissionsFolderHint>
+  <AdminPermissionsFolderEmptyAccounts>Norādiet lietotājus un / vai grupas</AdminPermissionsFolderEmptyAccounts>
+  <AdminPermissionsFolderAlreadyExists>Mape ar šo vietu jau eksistē</AdminPermissionsFolderAlreadyExists>
+  <AdminPermissionsFolderNotFound>Mape ar šo vietu nav atrasts</AdminPermissionsFolderNotFound>
+  <AdminPermissionsAllowedFoldersMessage>Jūs varat izveidot / atjaunināt / pārvaldīt piekļuvi tikai šīm mapēm vai tās apakšmapēs: {0}</AdminPermissionsAllowedFoldersMessage>
+
+  <AdminUsersCountExceededWarn>Maksimālais daudzums lietotājiem tiek pārsniegts. Jūsu pašreizējā licence ļauj tikai {0} lietotājus login. Lai iegūtu vairāk informācijas atvērt "{1}" tab un atrast "{2}" izņēmumu (s). Lai paslēptu Šis paziņojums skaidri log ierakstus pie "{1}" tab.</AdminUsersCountExceededWarn>
+
+  <AdminNewVersionAvailableTitle>Jaunā versija ir pieejama!</AdminNewVersionAvailableTitle>
+  <AdminNewVersionAvailableInfo>Pašreizējā versija: {0} &lt;br /&gt; jaunāku versiju: ​​{1}</AdminNewVersionAvailableInfo>
+  
+  <SettingsGridDescriptionInfo>apraksts</SettingsGridDescriptionInfo>
+  <SettingsGridFormatInfo>vērtības formāts</SettingsGridFormatInfo>
+  <SettingsGridDefaultValueInfo>Noklusētā vērtība</SettingsGridDefaultValueInfo>
+  <SettingsGridMoreInfo>Vairāk informācijas</SettingsGridMoreInfo>
+  <SettingsGridRestoreDefault>atjaunot noklusējuma</SettingsGridRestoreDefault>
+
+  <SettingsFormatBoolean>Būla vērtība</SettingsFormatBoolean>
+  <SettingsFormatWholeNumber>Viss numurs</SettingsFormatWholeNumber>
+  <SettingsFormatRealNumber>Real numurs</SettingsFormatRealNumber>
+  <SettingsFormatString>rinda</SettingsFormatString>
+  <SettingsFormatEnum>Jebkura vērtība</SettingsFormatEnum>
+  <SettingsFormatSet>Komatu atdalīti bez atkārtojumiem vērtībām</SettingsFormatSet>
+  <SettingsFormatArray>Komatu atdalīts saraksts stīgas</SettingsFormatArray>
+  <SettingsFormatToolbarButtons>. (. Value "{0}" var atkārtot vairākas reizes, bet ne pēc kārtas Pēc katra vārda, kam seko kols, tas ir iespējams precizēt vienu izmanto, lai parādītu pogu metodēm: {1})</SettingsFormatToolbarButtons>
+
+  <AdminSettingsSave>saglabājiet iestatījumus</AdminSettingsSave>
+  <AdminToggleHiddenParams>{0} uzlabotas parametri</AdminToggleHiddenParams>
+  <AdminHintHiddenParams>Papildu parametri ir paredzēti tikai vairāk granulu iestatījumus un vairumā gadījumu ir reti nepieciešams</AdminHintHiddenParams>
+  <AdminShowHiddenParams>parādīt</AdminShowHiddenParams>
+  <AdminHideHiddenParams>slēpt</AdminHideHiddenParams>
+
+  <SettingsDenyAuthModeChange>Automātiskais autentifikācijas režīmu pārslēgšanas netiek atbalstīts. Skatīt {0} norādījumus par mainot autentifikācijas režīmu.</SettingsDenyAuthModeChange>
+  <SettingsApplicationRestartedMsg>pieteikums atsākās</SettingsApplicationRestartedMsg>
+  <SettingsSettingsSavedMsg>Iestatījumi ir saglabāti</SettingsSettingsSavedMsg>
+  <SettingsSettingsSaveFailedAppMsg>Nevar saglabāt konfigurācijas failus. Pārbaudiet rakstīt NTFS atļaujas web.config un HttpCommanderSettings.config failus tīmekļa lietojumprogrammu saknes mapē {0} lietotājam {1}. Kļūdas ziņojums: {2}.</SettingsSettingsSaveFailedAppMsg>
+  <SettingsSettingsSaveFailedTempMsg>Nevar saglabāt konfigurācijas failus. Pārbaudiet atļaujas no pagaidu mapes {0} pasākumi lietotājiem {1}. Kļūdas ziņojums: {2}.</SettingsSettingsSaveFailedTempMsg>
+  <SettingsSettingsReadFailedAppMsg>Nevar nolasīt konfigurācijas failus. Pārbaudiet lasīt NTFS atļaujas web.config un HttpCommanderSettings.config failus tīmekļa lietojumprogrammu saknes mapē {0} lietotājam {1}. Kļūdas ziņojums: {2}.</SettingsSettingsReadFailedAppMsg>
+  <SettingsSettingsReadFailedTempMsg>Nevar nolasīt konfigurācijas failus pagaidu mapē. Pārbaudiet atļaujas no pagaidu mapes {0} pasākumi lietotājiem {1}. Kļūdas ziņojums: {2}.</SettingsSettingsReadFailedTempMsg>
+  <SettingsSettingsConfigChangedOutside>HttpCommander konfigurācijas fails ir mainīts cita programma. Iespējams, jums ir modificēti manuāli ar teksta redaktoru. Pieteikums ir piekrauts jaunu konfigurācijas failu. Visas izmaiņas, kas saistītas ar HttpCommander konfigurāciju, kas jūs esat darīts caur web interfeisu tiek zaudētas. Jums ir nepieciešams pārtaisīt tos, tad mēģināt saglabāt vēlreiz. Iesakām pret rediģēšanu konfigurācijas failus manuāli, kamēr darbojas programma. Pretējā gadījumā jums vajadzētu restartēt pieteikumu pēc mainot konfigurācijas failus. Kļūdas ziņojums: {0}.</SettingsSettingsConfigChangedOutside>
+  <SettingsSettingsSaveNotif>Neaizmirstiet, lai saglabātu iestatījumu izmaiņas!</SettingsSettingsSaveNotif>
+  
+  <SettingsEmailNotifTitle>Paziņojumi pa e-pastu</SettingsEmailNotifTitle>
+  <SettingsEmailNotifApplyBtn>Saglabājiet pasta uzstādījumus</SettingsEmailNotifApplyBtn>
+  <SettingsEmailNotifResetBtn>Reset</SettingsEmailNotifResetBtn>
+  <SettingsEmailNotifEventsLabel>par notikumiem</SettingsEmailNotifEventsLabel>
+  <SettingsEmailNotifWhenLabel>sūtīt</SettingsEmailNotifWhenLabel>
+  <SettingsEmailNotifEmailsLabel>E-pasti</SettingsEmailNotifEmailsLabel>
+  <SettingsEmailNotifPathsLabel>ceļi</SettingsEmailNotifPathsLabel>
+  
+  <LogsErrorsGridUrlColumn>Url</LogsErrorsGridUrlColumn>
+  <LogsErrorsGridMsgColumn>ziņa</LogsErrorsGridMsgColumn>
+  <LogsErrorsGridMoreInfoColumn>Vairāk informācijas</LogsErrorsGridMoreInfoColumn>
+  <LogsErrorsGridDetailsTitle>Sīkāka informācija</LogsErrorsGridDetailsTitle>
+  
+  <FsrmUnableLoadLibraryLocal>Nevar izveidot savienojumu ar File Server Resource Manager vietējā uzņēmēja.</FsrmUnableLoadLibraryLocal>
+  <FsrmUnableLoadLibraryRemote>Nevar izveidot savienojumu ar File Server Resource Manager "{0}" uzņēmējā.</FsrmUnableLoadLibraryRemote>
+  <FsrmNotInstalled>File Server Resource Manager nav instalēta "{0}".</FsrmNotInstalled>
+  <FsrmNotInstalledEitherEnd>File Server Resource Manager nav uzstādīta vai nu vietējā uzņēmēja vai "{0}".</FsrmNotInstalledEitherEnd>
+  <FsrmQuotaNotSpecified>Kvota nav norādīts.</FsrmQuotaNotSpecified>
+  <FsrmUnableGetQuota>Nevar saņemt kvotas limitu.</FsrmUnableGetQuota>
+  <FsrmUnableSetQuota>Nevar noteikt kvotas limitu.</FsrmUnableSetQuota>
+  <FsrmQuotaSetMsg>Kvota ir noteikts.</FsrmQuotaSetMsg>
+  <FsrmInvalidQuotaValueMsg>Nederīga kvota vērtība.</FsrmInvalidQuotaValueMsg>
+
+  <CommandBuyNow>Pērc tagad</CommandBuyNow>
+
+  <AdminUpdateTab>Upgrade</AdminUpdateTab>
+  <AdminUpdateManual>Manual jauninājums</AdminUpdateManual>
+  <AdminUpdateAuto>automatizēta jauninājums</AdminUpdateAuto>
+  <AdminUpdateStartButton>Sākt Upgrade / Izveidot Backup</AdminUpdateStartButton>
+  <AdminUpdateFinishButton>Apdare Upgrade / Restore Backup</AdminUpdateFinishButton>
+  <AdminUpdateBackupButton>rezerves</AdminUpdateBackupButton>
+  <AdminUpdateDownloadNewButton>Lejupielādēt jauno versiju</AdminUpdateDownloadNewButton>
+  <AdminUpdateStepTitle>Step {0} {1}: {2}</AdminUpdateStepTitle>
+  <AdminUpdateStepInfo>Step {0} {1}</AdminUpdateStepInfo>
+  <AdminUpdateNumberSymbol>#</AdminUpdateNumberSymbol>
+  <AdminUpdateBackupContent>Lūdzu, nospiediet pogu "{0}" izveidei rezerves kopiju mapi ar pieteikumu un iegūt saiti lejupielādi</AdminUpdateBackupContent>
+  <AdminUpdateDownloadBackupLinkHint>Lūdzu, lejupielādējiet rezerves kopiju pieteikuma izmantojot saites zemāk:</AdminUpdateDownloadBackupLinkHint>
+  <AdminUpdateDownloadNewContent>Tad, lūdzu, lejupielādēt jauno versiju, izmantojot saiti zemāk un sekojiet {0} uzstādīšana {1} un {2} jaunināt {1} instrukcijas, lai uzstādītu jaunu versiju. Pēc uzstādīšanas, lūdzu, atveriet admin panelis, dodieties uz cilni "{3}" un nospiediet pogu "{4}", lai pabeigtu instalēšanu.</AdminUpdateDownloadNewContent>
+  <AdminUpdateUploadButton>Augšupielādējiet rezerves kopiju un piemērotu iestatījumus</AdminUpdateUploadButton>
+  <AdminUpdateUploadAndInstallButton>Instalējiet jaunu versiju ar visus iestatījumus saglabājot</AdminUpdateUploadAndInstallButton>
+  <AdminUpdateUploadEmptyText>Lūdzu, izvēlieties rezerves kopiju augšupielādi</AdminUpdateUploadEmptyText>
+  <AdminUpdateFinishContent>Lai atjaunotu iestatījumus ar iepriekšējo versiju, lūdzu, izvēlēties un augšupielādēt iepriekš izveidotu backup arhīvu ar pieteikumu mapi</AdminUpdateFinishContent>
+  <AdminUpdateFinishMessage>Apsveicam! Visi iestatījumi tiek sekmīgi piemēroti. Tāpat, lūdzu pieteikties visas izmaiņas, ko veicāt citus failus, piemēram, Default.aspx vai Global.asax.</AdminUpdateFinishMessage>
+  <AdminUpdateFinishRefreshPage>Lapa tiks pārkrauts</AdminUpdateFinishRefreshPage>
+  <AdminUpdateMainInfo>Šis modernizāciju veids ir daļēji automatizēta. Jūs varat izveidot un lejupielādēt backup failu ar pieteikuma konfigurācijas iestatījumus un atjaunot to pēc modernizācijas. Lūdzu, ievērojiet šīs īsās darbības: izveidot rezerves kopijas failu, veikt manuālo uzlabošanu, atjaunot iestatījumus no backup failu. Šī procedūra arī var izmantot, lai backup / atjaunot iestatījumus bez modernizācijas. Vienkārši izlaidiet pārkārtošanās soli, lai atjaunotu iestatījumus no backup failu.</AdminUpdateMainInfo>
+  <AdminUpdateAutoButton>auto</AdminUpdateAutoButton>
+  <AdminUpdateAutoInfo>Šis modernizāciju veids ir gandrīz pilnībā automatizēta. Tas sastāv no 2 posmiem: backup no pašreizējiem iestatījumiem (jums vajadzētu lejupielādēt un saglabāt dublējuma failu), uzstādīšana jaunu versiju un atjaunošanu iestatījumiem no backup failu. HTTP komandieris var automātiski lejupielādēt jaunāko versiju un instalējiet to, vai jūs varat norādīt ceļu uz zip arhīvu ar jaunu versiju par mūsu serveri. Visi iestatījumi tiek automātiski atjaunots, no iepriekš izveidotas backup failu.</AdminUpdateAutoInfo>
+  <AdminUpdateRestoreWebConfigCheckBox>Atjaunot iestatījumus no Web.config (piemēram, piemēram, SMTP)</AdminUpdateRestoreWebConfigCheckBox>
+  <AdminUpdateBackupAssignedFoldersInRootMessage>Uzmanību! Ir daži lietotāju mapes direktorijā ar pieteikumu, kas ir kopējo apjomu vairāk nekā {0}. Rezerves netiks veikts. Lūdzu, rezerves kopiju no šiem katalogi, noņemt tos no pieteikuma direktoriju un mēģiniet vēlreiz darbību jūsu pusē.</AdminUpdateBackupAssignedFoldersInRootMessage>
+  <AdminUpdateNeedRefreshPageForContinue>Uzmanību! Lai turpinātu, ir nepieciešams, lai pārlādētu lapu. Lūdzu, nospiediet pogu "{0}". Pēc pārkraušanas lūdzu atkārtojiet darbību.</AdminUpdateNeedRefreshPageForContinue>
+  <AdminUpdateRestoreFromBackupEmpty>Vai, ja tas nav atlasīts, tas tiks izmantots ar jaunizveidotā faila iepriekšējā solī</AdminUpdateRestoreFromBackupEmpty>
+  <AdminUpdateInstallZipPathHint>Atjaunināšanai, lūdzu, norādiet pilnu fizisko ceļu uz instalācijas failu (uz servera) pirmajā laukā vai atstāt to tukšu, lai izmantotu tiešsaistes izplatīšanu</AdminUpdateInstallZipPathHint>
+  <AdminUpdateInstallZipPathEmpty>Norādiet ceļu arhivēt ar instalētu</AdminUpdateInstallZipPathEmpty>
+  <AdminUpdateProgress>atjaunināšana</AdminUpdateProgress>
+  <AdminUpdateAccessDeniedWarning>&lt;b&gt; Uzmanību! &lt;/b&gt; atjaunināšanai lūdzu noteikt Modificēt (lasīšana un rakstīšana) NTFS atļaujas uz {0} lietotājam mapi ar HTTP komandieri {1} un atkārtojiet modernizācija. &lt;br /&gt; Pēc veiksmīgas modernizāciju lūdzu atjaunot bijušos tiesības.</AdminUpdateAccessDeniedWarning>
+  <AdminUpdateAccessDeniedWarningCurentUser>strāva</AdminUpdateAccessDeniedWarningCurentUser>
+
+  <ServerExceedsMaxSizeForEditAsTextFile>Faila izmērs pārsniedz maksimālo izmēru, lai rediģētu to kā teksta failu.</ServerExceedsMaxSizeForEditAsTextFile>
+  <ServerDemoMode>Dotā darbība ir aizliegta ar demo režīmā</ServerDemoMode>
+  <ServerHostedMode>Tas nav atļauts mainīt vērtības pēc iestatījumus hosted izmēģinājuma versija: {0}.</ServerHostedMode>
+  <ServerIncorrectImageContentType>Fails Mime-tips nav attēla</ServerIncorrectImageContentType>
+  <ServerPermissionDenied>Šī operācija tiek noraidīts, jo ierobežoto atļauju</ServerPermissionDenied>
+  <ServerRestoreFromTrashNoParentFolder>atjaunošana neizdevās, jo vecāku direktorija "{0}" tika nav atrasts. Lūdzu, izveidojiet to un mēģiniet vēlreiz.</ServerRestoreFromTrashNoParentFolder>
+  <ServerModifyPermissionDenied>Šī darbība tiek noraidīta, jo jums nav atļaujas modificēt failu</ServerModifyPermissionDenied>
+  <ServerPathNotFound>Ceļš nav atrasts.</ServerPathNotFound>
+  <ServerInvalidPath>Ceļš "{0}" nav derīgs</ServerInvalidPath>
+  <ServerInvalidAbsolutePath>Nederīgs absolūtais ceļš "{0}"</ServerInvalidAbsolutePath>
+  <!-- share folder path: \\server\share -->
+  <ServerInvalidShareFolderPath>Nederīga akciju mapes ceļš "{0}"</ServerInvalidShareFolderPath>
+  <ServerInvalidUncPath>Nederīgs UNC ceļš "{0}"</ServerInvalidUncPath>
+  <ServerUnableResolveUncPath>Nevar atrisināt UNC ceļš "{0}"</ServerUnableResolveUncPath>
+  <ServerInvalidFileName>Faila / mapes nosaukums nav noteikts, vai satur kļūdainus zīmes {0}</ServerInvalidFileName>
+  <ServerFilePathNotFound>Fails neeksistē</ServerFilePathNotFound>
+  <ServerIncorrectPathForFileLink>Nepareizs objekta tips. Norādītais ceļš norāda uz mapi</ServerIncorrectPathForFileLink>
+  <ServerIncorrectPathForFolderLink>Nepareizs objekta tips. Norādītais ceļš norāda uz failu</ServerIncorrectPathForFolderLink>
+  <ServerRootFolderNotFound>Saknes mape ceļš "{0}" nav atrasts.</ServerRootFolderNotFound>
+  <ServerUnableCreateFolder>Nevar izveidot mapi</ServerUnableCreateFolder>
+  <ServerFileAlreadyExists>Fails ar šādu nosaukumu jau eksistē</ServerFileAlreadyExists>
+  <ServerFileAlreadyExistsOnRename>
+    Vai vēlaties pārdēvēt "{0}" uz "{1}"?
+    Jau ir fails ar tādu pašu nosaukumu šajā vietā.
+  </ServerFileAlreadyExistsOnRename>
+  <ServerFolderAlreadyExistsOnRename>
+    Vai vēlaties pārdēvēt "{0}" uz "{1}"?
+    Ir jau mape ar tādu pašu nosaukumu šajā vietā.
+  </ServerFolderAlreadyExistsOnRename>
+  <ServerFoldersMergeConfirm>
+    Tas galamērķis jau satur mapi ar nosaukumu "{0}".
+    Vai joprojām vēlaties sapludināt šo mapi "{0}" ar šo vienu "{1}"?
+  </ServerFoldersMergeConfirm>
+  <ServerFolderWithSameNameAsFileNameAlreadyExists>Ir jau mape ar tādu pašu nosaukumu "{0}", kā faila nosaukumu jūsu norādīto</ServerFolderWithSameNameAsFileNameAlreadyExists>
+  <ServerFileWithSameNameAsFolderNameAlreadyExists>Jau ir fails ar tādu pašu nosaukumu "{0}", kā mapes nosaukumu jūsu norādīto</ServerFileWithSameNameAsFolderNameAlreadyExists>
+  <ServerFileNotFound>Fails "{0}" nav atrasts mapē "{1}". Iespējams, tā ir dzēsta vai noņemta cits lietotājs.</ServerFileNotFound>
+  <ServerDirectoryAlreadyExists>Directory ar šādu nosaukumu jau eksistē</ServerDirectoryAlreadyExists>
+  <ServerFolderMoveAlreadeExists>Galamērķis mape "{0}" ir tāda pati kā avota mapes</ServerFolderMoveAlreadeExists>
+  <ServerUploadPathNotFound>Par failu glabāšanai ceļš nav atrasts uz servera</ServerUploadPathNotFound>
+  <ServerUploadPathNotSet>kamēr kļūst ceļu augšupielādi, radās kļūda. Lūdzu, atsvaidzināt lappusi pārlūku un mēģiniet vēlreiz.</ServerUploadPathNotSet>
+  <ServerUploadNoChunk>Nē rieciens par save</ServerUploadNoChunk>
+  <ServerUploadWriteChunk>Rakstīt rieciens kopš baits</ServerUploadWriteChunk>
+  <ServerUploadCreatingFile>Radīt failu</ServerUploadCreatingFile>
+  <ServerUploadFileUploaded>Fails ir augšupielādēts</ServerUploadFileUploaded>
+  <ServerUploadWriteError>Rakstīšana kļūda</ServerUploadWriteError>
+  <ServerConfigurationError>Nepareiza konfigurācija vai pieteikumu! Sazinieties ar vietnes administratoru</ServerConfigurationError>
+  <ServerPermissionsAllowTypes>Pašreizējās atļaujas ļaut šo darbību tikai ar failu tipiem {0}</ServerPermissionsAllowTypes>
+  <ServerPermissionsDenyTypes>Pašreizējās atļaujas aizliedz šo darbību ar failu tipiem {0}</ServerPermissionsDenyTypes>
+  <ServerRequestSizeExceeded>No augšupielādēto failu izmērs pārsniedz atļauts izmēru servera iestatījumus</ServerRequestSizeExceeded>
+  <ServerEmailMsgProcessedFilesSubject>Augšupielādēti / pārveidota / Downloaded / veikts / svītrots / dalītas failus / mapes</ServerEmailMsgProcessedFilesSubject>
+  <ServerEmailMsgUploadFilesTitle>augšupielādēta</ServerEmailMsgUploadFilesTitle>
+  <ServerEmailMsgModifyFilesTitle>pārveidots</ServerEmailMsgModifyFilesTitle>
+  <ServerEmailMsgDownloadFilesTitle>lejupielādēts</ServerEmailMsgDownloadFilesTitle>
+  <ServerEmailMsgCreateFilesTitle>izveidots</ServerEmailMsgCreateFilesTitle>
+  <ServerEmailMsgDeleteFilesTitle>svītrots</ServerEmailMsgDeleteFilesTitle>
+  <ServerEmailMsgCreatePublicFilesTitle>dalīts</ServerEmailMsgCreatePublicFilesTitle>
+  <ServerEmailMsgProcessedFilesBody>
+    Turpmāk failus / mapes bija {0} līdz {1}:
+
+{2}
+    
+  </ServerEmailMsgProcessedFilesBody>
+  <ServerEmailMsgPasswordRecoverSubject>paroles atjaunošana</ServerEmailMsgPasswordRecoverSubject>
+  <ServerEmailMsgPasswordRecoverBody>
+    Jūs pieprasījis, lai atgūtu savu paroli Web File Manager. Jūsu parole tika reset. Ja jūs uzskatāt, ka tā ir kļūda, vienkārši ignorē šo vēstuli, bet jāapzinās, ka jūsu parole ir mainīta.
+    Lietotāja vārds: {0}
+    Jaunā parole: {1}
+  </ServerEmailMsgPasswordRecoverBody>
+  
+  <ServerEmailMsgUserNameRecoverSubject>Lietotāja atgūšana</ServerEmailMsgUserNameRecoverSubject>
+  <ServerEmailMsgUserNameRecoverBody>
+    Jūs pieprasīts atgūt savu vārdu Web File Manager.
+    Lietotāja vārds: {0}
+  </ServerEmailMsgUserNameRecoverBody>
+
+  <ServerEmailMsgUserActivationSubject>konta aktivizēšana</ServerEmailMsgUserActivationSubject>
+  <ServerEmailMsgUserActivationBody>
+    Konts ({0}) aktivizācija ir nepieciešama.
+    Lai aktivizētu savu kontu, lūdzu, noklikšķiniet uz šīs saites: {1}
+  </ServerEmailMsgUserActivationBody>
+  <ServerEmailMsgUserRegisteredSubject>lietotājs reģistrēts</ServerEmailMsgUserRegisteredSubject>
+  <ServerEmailMsgUserRegisteredBody>
+    Jūs esat veiksmīgi reģistrēti Web Failu pārvaldnieks.
+    Lietotāja vārds: {0}
+  </ServerEmailMsgUserRegisteredBody>
+  <ServerEmailMsgUserRegisteredForAdminsBody>
+    &lt;h4&gt; Jauns lietotājs ir reģistrēts &lt;/h4&gt;
+    &lt;strong&gt; Lietotāja vārds &lt;/strong&gt;: {0} &lt;br /&gt;
+    &lt;strong&gt; E-pasts &lt;/strong&gt;: {1} &lt;br /&gt;
+    &lt;strong&gt; Date &lt;/strong&gt;: {2} &lt;br /&gt;
+    &lt;strong&gt; Extra info &lt;/strong&gt;: {3} &lt;br /&gt;
+  </ServerEmailMsgUserRegisteredForAdminsBody>
+  <ServerDiskFullError>Nav pietiekami daudz vietas uz diska.</ServerDiskFullError>
+  <ServerFolderLimitations>Mapes ierobežojumi: {0}</ServerFolderLimitations>
+  <ServerShortcutAssignedFolderNotFound>Piešķirtie mape nav atrasts par mērķa ceļu īsceļu</ServerShortcutAssignedFolderNotFound>
+  <ServerSizeFilesForZipExceeded>No arhivējamie failu lielums pārsniedza pieļaujamo vērtību {0}.</ServerSizeFilesForZipExceeded>
+  <ServerPasteFolderToSubfolderError>Galamērķis mape "{0}" ir apakšmapi avota mapes "{1}".</ServerPasteFolderToSubfolderError>
+  <ServerLiveConnectAppIDNotSpecified>Klients ID Microsoft Live Connect pieteikumā nav definēts</ServerLiveConnectAppIDNotSpecified>
+  <ServerSendEmailInfo>Autors norādīts savu e-pastu, kā {0}. Izmantojiet tikai šo e-pasta adresi, lai atbildētu.</ServerSendEmailInfo>
+
+  <ServerAntivirusScanningFailed>Skenēšana ar antivīrusu: '{0} {1}' izbeigts nenormāli.</ServerAntivirusScanningFailed>
+
+  <ServerUserNameNotFound>Lietotājs ar vārdu '{0}' nav atrasts.</ServerUserNameNotFound>
+  <ServerFileNameCopySuffix>kopija</ServerFileNameCopySuffix>
+
+  <ServerDeleteFolderNTFSAccessDenied>Jums nav NTFS atļaujas noņemt mapi "{0}"</ServerDeleteFolderNTFSAccessDenied>
+
+  <ServerMSOOTemplateNotFound>{0} veidne nav atrasts</ServerMSOOTemplateNotFound>
+</Localization>

@@ -1,0 +1,1 @@
+﻿Here is Templates for menu item "New". You can place here own files or delete not used.

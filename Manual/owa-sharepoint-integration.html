@@ -1,0 +1,377 @@
+﻿<!-- saved from url=(0014)about:internet -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Integration in Outlook Web Access and Sharepoint 2010 (Windows version)</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <script type="text/javascript" language="javascript">
+        function toggleBlock(id) {
+            if (document.getElementById(id).style.display == 'none') {
+                document.getElementById(id).style.display = 'block';
+            } else {
+                document.getElementById(id).style.display = 'none';
+            }
+        }
+    </script>
+    
+    <table width="100%" cellpadding="0" cellspacing="0">
+        <tr>
+            <td width="320">
+                <table>
+                    <tr>
+                        <td style="vertical-align:top;text-align:left;">
+                            <a target='_blank' href='http://www.element-it.com/asp-net-explorer-browser/online-share/web-file-manager.aspx'><img style='cursor:pointer;' alt="HTTP Commander" src="Images/HCLogo.png" border="0" /></a>
+                        </td>
+                        <td class="green" style="vertical-align:top;text-align:left;padding-top:21px;">
+                            &nbsp;AJS 4.x
+                        </td>
+                    </tr>
+                </table>
+                <span class="gray">Manual</span>
+            </td>
+             <td>
+  <!-- For windows version only. Start --> 
+	<p>
+	<strong>Note!</strong> This Manual is for the <strong>"Windows authentication"</strong> version, 
+	which is designed to work with existing Windows server or Active Directory accounts and Windows authentication. 
+	If you want to create accounts by yourself and store their credentials in your own HTTP Commander XML database, 
+	you need to download the <a target="_blank" href="http://www.element-it.com/downloadfile.aspx?type=st">"Forms authentication" version</a>!
+	This Manual is for the Windows authentication version only!
+	</p>
+	<!-- For windows version only. End --> 
+	
+ 
+	
+                
+            </td>
+            <td align="char" width="230">
+                <img alt="" src="Images/world.jpg" align="middle" hspace="5" style="vertical-align:top;padding-top:1px;" /><b><a target="_blank" title="web file manager" href="http://www.element-it.com/asp-net-explorer-browser/online-share/web-file-manager.aspx">Web file manager</a></b><br />
+                <img alt="" src="Images/support.png" width="16" height="16" align="middle" hspace="5" style="vertical-align:top;padding-top:1px;" /><b><a
+                    href="onlinesupport.html" target="main">Free Installation assistance</a></b><br />
+                <img alt="" src="Images/help.png" align="middle" width="16" height="16" hspace="5" style="vertical-align:top;padding-top:1px;" /><b><a
+                    href="index.html" title="Manual Home page" target="_blank">Manual Home page</a></b><br />
+            </td>
+        </tr>
+    </table>
+    
+    <!-- Title -->
+    <p class="topic">
+        <a id="hcadsicomtopic">Integration with Outlook Web App and Sharepoint 2010</a>
+    </p>
+    HTTP Commander can be integrated to existing SharePoint portal 
+    <!-- Content -->
+    or Outlook Web App interface. This means that users of SharePoint/OWA will see link to start HTTP Commander. HTTP Commander shown in the same browser window there 
+    SharePoint/OWA loaded, also it don&#39;t requires authentication if user authenticated while logon to 
+    SharePoint/OWA.
+    <ul>
+        <li><a href="#owa">Integration with Outlook Web App (OWA) in MS Exchange 2010</a></li>
+        <li><a href="#sharepoint">Integration with Sharepoint 2010</a></li>
+    </ul>
+    
+    <!-- OWA 2010 -->
+    <a name="owa"></a>
+    <h2>Integration with Outlook Web App (OWA) in MS Exchange 2010</h2>
+    
+    <!-- Preamble -->
+    For integration HTTP Commander with OWA you should have Microsoft Exchange Server 2010 (and also with SP1, SP2 or SP3) installed with enabled Outlook Web Access feature
+    (see more <a href="http://www.microsoft.com/exchange/en-us/outlook-web-app.aspx" target="_blank">info about its installation at Microsoft website</a>).<br />
+    Below you will find required steps to make integration:<br />
+    <b>Note! </b>All necessary the files are in <a href="owa.zip">this archive</a>.
+    
+    <!-- Instructions -->
+    <ul>
+        <li>
+            Install HTTP Commander with Windows Authentication on IIS 7 on your Exchange server.
+            <!--Note! For HTTP Commander application use <strong>MSExchangeOWAAppPool</strong> application pool at IIS 7 settings.<br />
+            <a target="_blank" href="Images/owa/application_pool.png" onclick="toggleBlock('applicationPool'); return false;"
+                class="imglink">Screenshot</a>
+            <div id="applicationPool" style="display: none;">
+                <p class="screenshot">
+                    &nbsp;<img src="Images/owa/application_pool.png" style="width:734px;height:532px;" />
+                </p>
+            </div>-->
+      </li>
+        <li>
+            Add the <strong>HttpCommanderAuthModule</strong> module in IIS 7  to enable single sign on at OWA and HTTP Commander.
+            This will allow users to click on the HTTP Commander button
+             within OWA 2010 and not be prompted for authentication again.
+            <ul>
+                <li>
+                    Copy the <strong>module\HttpCommanderAuthModule.dll</strong>                  to the OWA <strong>bin</strong> folder <b>%EXCHANGEINSTALLPATH%ClientAccess\Owa\Bin</b>,
+                    where&nbsp;<b>%EXCHANGEINSTALLPATH%</b> - path to installed Exchange server
+                    (default location: C:\Program Files\Microsoft\Exchange Server\V14\).                </li>
+                <li>
+                    Open IIS Manager and navigate to the OWA site. In <strong>Features View</strong> double-click <strong>Modules</strong>.
+                    On the <strong>Modules</strong> page, in the <strong>Actions</strong> pane, click <strong>Add Managed Module</strong>.
+                    In the <strong>Add Managed Module</strong> dialog box, in the <strong>Name</strong> box,
+                    type a name for the managed module, e.g. <b>HttpCommanderAuthModule</b>.
+                    In the <strong>Type</strong> box, enter exactly the following: <b>HttpCommander.HttpCommanderAuthModule</b>.
+                    Click OK. (<b>Note. </b>If you see warning as on the 2nd screenshot click &quot;Yes&quot;)<br />
+                    <a target="_blank" href="Images/owa/add_auth_module.png" onclick="toggleBlock('addAuthModule'); return false;"
+                        class="imglink">Screenshots</a>
+                    <div id="addAuthModule" style="display: none;">
+                        <p class="screenshot">
+                            &nbsp;<img src="Images/owa/add_auth_module.png" style="width:733px;height:532px;" /><br /><br />
+                            &nbsp;<img src="Images/owa/add_auth_module_warning.png" style="width:410px;height:178px;" />
+                        </p>
+                    </div>
+                    <br />
+                    Or you can add in the file <strong>%EXCHANGEINSTALLPATH%ClientAccess\Owa\web.config</strong>                  in the section <b>system.webServer/modules</b> a line<br />
+                    <b style="white-space:nowrap">&lt;add name=&quot;HttpCommanderAuthModule&quot; type=&quot;HttpCommander.HttpCommanderAuthModule&quot; /&gt;</b>.<br />
+                    <a target="_blank" href="Images/owa/add_auth_module_webconfig.png" onclick="toggleBlock('addAuthModuleWebconfig'); return false;"
+                        class="imglink">Screenshot</a>
+                    <div id="addAuthModuleWebconfig" style="display: none;">
+                        <p class="screenshot">
+                            &nbsp;<img src="Images/owa/add_auth_module_webconfig.png" style="width:715px;height:360px;" />
+                        </p>
+                    </div>
+              </li>                
+            </ul>
+      </li>
+        <li>
+            Copy all files from <strong>images</strong> folder
+            (clear.gif, HttpCommanderLarge.png, HttpCommanderSmall.png, loadingLarge.gif, loadingSmall.gif)<br />
+            to folder <strong>%EXCHANGEINSTALLPATH%ClientAccess\Owa\forms</strong>.        </li>
+        <li>
+            Now it is necessary to change some javascript OWA files.<br />
+            <b>Note. </b>These files are stored in the <b>%EXCHANGEINSTALLPATH%ClientAccess\Owa\Current\scripts\</b>
+            (in subfolders <strong>basic</strong> and <strong>premium</strong>),
+            and also can be duplicated in folders with Exchange server versions
+            (for example ClientAccess\Owa\<b>14.0.639.21</b>\scripts or ClientAccess\Owa\<b>14.3.123.3</b>\scripts) if it is exists.
+            It is necessary to change each copy of required files.
+            Further in the instruction the folder(s) with javascript files is named as <b>%OWASCRIPTSPATH%</b>.
+            Thus if any folder with the version exists, javascript files from the folder
+            with the greatest version are actually used therefore enough to change files
+            only in such folder.
+            <ul>
+                <li>
+                    In files <strong>scripts\HCOwaBasicIntegration.js</strong> and <strong>scripts\HCOwaPremiumIntegration.js</strong> find a line<br />
+                    <b>var httpCommanderRelativeUrl = '/HTCOMNET/'</b><br />
+                    and change '/HTCOMNET/' to your relative path of HTTP Commander site if you used a path not  default (/HTCOMNET).<br />
+                    Also in the <strong>scripts\HCOwaPremiumIntegration.js</strong> file you can set HTML description for HTTP Commander which will be visible at the left above.<br />
+                    For this purpose find the line:<br />
+                    <b>var httpCommanderDescription ='';</b><br />
+                    and set the value necessary to you. For example:<br />
+                    <i>var httpCommanderDescription = '&lt;div&gt;HTTP Commander description&lt;/div&gt;';</i><br />
+                    <a target="_blank" href="Images/owa/description_example.png" onclick="toggleBlock('hcOWADescExample'); return false;"
+                        class="imglink">Screenshot</a>
+                    <div id="hcOWADescExample" style="display: none;">
+                        <p class="screenshot">
+                            &nbsp;<img src="Images/owa/description_example.png" style="width:766px;height:531px;" />
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    Add in the end of file <b>%OWASCRIPTSPATH%\basic\cmn.js</b> contents of file <strong>scripts\HCOwaBasicIntegration.js</strong>.<br />
+                </li>
+                <li>
+                    In each of files <b>addrbook.js</b>, <b>ctsvw.js</b> and <b>msglst.js</b>
+                    (in the folder <strong>%OWASCRIPTSPATH%\basic</strong>) find a substring:<br />
+                    <b>window.onload=function(){</b><br />
+                    and insert the line:<br />
+                    <b style="white-space:nowrap">/* Begin include HttpCommander unit3 */try{HttpCommander.Owa.Basic.insert()}catch(e){/*alert(e)*/};/* End include HttpCommander unit3 */</b><br />
+                    right after an opening curly bracket (this line also can be copied from the file <strong>scripts\HCOwaIntegration.js</strong>).<br />
+                    <a target="_blank" href="Images/owa/insert_unit3_example1.png" onclick="toggleBlock('insertUnit3Example1'); return false;"
+                        class="imglink">Screenshot</a>
+                    <div id="insertUnit3Example1" style="display: none;">
+                        <p class="screenshot">
+                            &nbsp;<img src="Images/owa/insert_unit3_example1.png" style="width:623px;height:316px;" />
+                        </p>
+                    </div>
+              </li>
+                <li>
+                    In the end of file <b>%OWASCRIPTSPATH%\basic\cldly.js</b> add a line:<br />
+                    <b style="white-space:nowrap">window.onload=function(){/* Begin include HttpCommander unit3 */try{HttpCommander.Owa.Basic.insert()}catch(e){/*alert(e)*/}/* End include HttpCommander unit3 */}</b>
+                </li>
+                <li>
+                    In each of files <b>cntedt.js</b>, <b>fldmgt.js</b>, <b>itmmv.js</b>, <b>msgedt.js</b>, <b>msgrd.js</b>, <b>mtgrd.js</b>, <b>opt.js</b>, <b>wrhead.js</b>
+                    (in the folder <strong>%OWASCRIPTSPATH%\basic</strong>) find a substring:<br />
+                    <b>window.onload=</b><br />
+                    In each of these files after this substring some function name is specified.
+                    Find definition of this function in the current file and at the beginning of
+                    definition right after an opening curly bracket add a line:<br />
+                    <b style="white-space:nowrap">/* Begin include HttpCommander unit3 */try{HttpCommander.Owa.Basic.insert()}catch(e){/*alert(e)*/};/* End include HttpCommander unit3 */</b><br />
+                    <a target="_blank" href="Images/owa/insert_unit3_example2.png" onclick="toggleBlock('insertUnit3Example2'); return false;"
+                        class="imglink">Screenshots</a>
+                    <div id="insertUnit3Example2" style="display: none;">
+                        <p class="screenshot">
+                            &nbsp;<img src="Images/owa/insert_unit3_example2.png" style="width:623px;height:316px;" /><br /><br />
+                            &nbsp;<img src="Images/owa/insert_unit3_example3.png" style="width:623px;height:316px;" />
+                        </p>
+                    </div>
+              </li>
+                <li>
+                    In the beginning of file <b>%OWASCRIPTSPATH%\premium\uglobal.js</b> add file scripts\HCOwaPremiumIntegration.js contents.<br />
+                    In the same file (uglobal.js) find substring:<br />
+                    <b style="white-space:nowrap">checkScripts()}</b><br />
+                    and between 'checkScripts()' and '}' insert a line:<br />
+                    <b style="white-space:nowrap">/* Begin include HttpCommander unit4 */;try{HttpCommander.Owa.Premium.insert()}catch(e){/*alert(e)*/}/* End include HttpCommander unit4 */</b><br />
+                    <a target="_blank" href="Images/owa/insert_unit4_example1.png" onclick="toggleBlock('insertUnit4Example1'); return false;"
+                        class="imglink">Screenshot</a>
+                    <div id="insertUnit4Example1" style="display: none;">
+                        <p class="screenshot">
+                            &nbsp;<img src="Images/owa/insert_unit4_example1.png" style="width:623px;height:316px;" />
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    In each of files <b>startpage.js</b> and <b>unav.js</b> (if exists) (in folder <strong>%OWASCRIPTSPATH%\premium\</strong>) find substring:<br />
+                    <b style="white-space:nowrap">positionMailboxQuotaBar()}function clearNwMB(){</b><br />
+                    and paste between 'positionMailboxQuotaBar()' and '}function clearNwMB(){' line:<br />
+                    <b style="white-space:nowrap">/* Begin include HttpCommander unit5 */;try{HttpCommander.Owa.Premium.hide(arguments[0])}catch(e){/*alert(e)*/}/* End include HttpCommander unit5 */</b><br />
+                    <a target="_blank" href="Images/owa/insert_unit5_example1.png" onclick="toggleBlock('insertUnit5Example1'); return false;"
+                        class="imglink">Screenshot</a>
+                    <div id="insertUnit5Example1" style="display: none;">
+                        <p class="screenshot">
+                            &nbsp;<img src="Images/owa/insert_unit5_example1.png" style="width:612px;height:338px;" />
+                        </p>
+                    </div>
+              </li>
+            </ul>
+        </li>
+        <li>
+            Restart IIS on Exchange server.<br />
+        </li>
+    </ul>
+    
+    <a target="_blank" href="Images/owa/basic_login_page.png" onclick="toggleBlock('owaScreenshots'); return false;"
+        class="imglink">Screenshots</a>
+    <div id="owaScreenshots" style="display: none;">
+        <p class="screenshot">
+            &nbsp;<img src="Images/owa/basic_login_page.png" style="width:489px;height:491px;" /><br /><br />
+            &nbsp;<img src="Images/owa/hc_basic_max.png" style="width:971px;height:575px;" /><br /><br />
+            &nbsp;<img src="Images/owa/hc_basic_min.png" style="width:972px;height:575px;" /><br /><br />
+            &nbsp;<img src="Images/owa/premium_login_page.png" style="width:489px;height:413px;" /><br /><br />
+            &nbsp;<img src="Images/owa/hc_premium_max.png" style="width:988px;height:579px;" /><br /><br />
+            &nbsp;<img src="Images/owa/hc_premium_min.png" style="width:991px;height:585px;" />
+        </p>
+    </div>
+    
+    <!-- Sharepoint 2010 -->
+    <a name="sharepoint"></a>
+    <h2>Integration with Sharepoint 2010</h2>
+    
+    For integration HTTP Commander with Sharepoint you should have 
+    Microsoft Sharepoint Server 2010 installed (see more <a href="http://sharepoint.microsoft.com/en-us/Pages/default.aspx" target="_blank">info about its installation </a>).
+    
+    <ul>
+        <li>
+            Install HTTP Commander for Windows Authentication on your Sharepoint server.
+            HTTP Commander must be installed under the SharePoint Website.<br />
+            <a target="_blank" href="Images/sharepoint/01-Add_in_IIS_under_SharePoint80.png" onclick="toggleBlock('sharepointStep1'); return false;"
+                class="imglink">Screenshot</a>
+            <div id="sharepointStep1" style="display: none;">
+                <p class="screenshot">
+                    &nbsp;<img src="Images/sharepoint/01-Add_in_IIS_under_SharePoint80.png" style="width:881px;height:576px;" />
+                </p>
+            </div>
+      </li>
+        <li>
+            Add in web.config file of HTTP Commander in <b>system.web</b> section a line:<br />
+            <b style="white-space:nowrap">&lt;trust level=&quot;Full&quot; originUrl=&quot;&quot; /&gt;</b><br />
+            <a target="_blank" href="Images/sharepoint/02-Change_HC_web_config.png" onclick="toggleBlock('sharepointStep2'); return false;"
+                class="imglink">Screenshot</a>
+            <div id="sharepointStep2" style="display: none;">
+                <p class="screenshot">
+                    &nbsp;<img src="Images/sharepoint/02-Change_HC_web_config.png" style="width:798px;height:598px;" />
+                </p>
+            </div>
+        </li>
+        <li>
+            In IIS7 for SharePoint Website and HTTP Commander site configure to use Basic Authentication.
+            Disable other authentications, then, enable ASP.NET Impersonation and Basic Authentication.
+            Restart SharePoint – 80 website.<br />
+            <a target="_blank" href="Images/sharepoint/03-Set_both_Basic_Auth.png" onclick="toggleBlock('sharepointStep3'); return false;"
+                class="imglink">Screenshot</a>
+            <div id="sharepointStep3" style="display: none;">
+                <p class="screenshot">
+                    &nbsp;<img src="Images/sharepoint/03-Set_both_Basic_Auth.png" style="width:881px;height:576px;" />
+                </p>
+            </div>
+        </li>
+        <li>
+            Log on to  your SharePoint Portal http://&lt;your_sharepoint_server_name&gt; as Administrator . Click Lists. Click Links.
+            Under the links summary – Add new link. Create a link to HTTP Commander http://&lt;your_sharepoint_server_name&gt;/hctest
+            Test the link. You should not be prompted for a username and password a second time.
+            <a target="_blank" href="Images/sharepoint/04-Add_in_SharePoint_Link_to_HC.png" onclick="toggleBlock('sharepointStep4'); return false;"
+                class="imglink">Screenshot</a>
+            <div id="sharepointStep4" style="display: none;">
+                <p class="screenshot">
+                    &nbsp;<img src="Images/sharepoint/04-Add_in_SharePoint_Link_to_HC.png" style="width:1280px;height:984px;" />
+                </p>
+            </div>
+      </li>
+        <li>
+            Log on to SharePoint 2010 as Administrator. Add Page Viewer Web Part.
+            <ul>
+                <li>
+                    Choose <b>Home Page</b>, and click <b>Edit Page</b>.<br />
+                    <a target="_blank" href="Images/sharepoint/05-Go-to-home_page_for_edit_in_SharePoint.png" onclick="toggleBlock('sharepointStep56'); return false;"
+                        class="imglink">Screenshots</a>
+                    <div id="sharepointStep56" style="display: none;">
+                        <p class="screenshot">
+                            &nbsp;<img src="Images/sharepoint/05-Go-to-home_page_for_edit_in_SharePoint.png" style="width:793px;height:645px;" /><br /><br />
+                            &nbsp;<img src="Images/sharepoint/06-Edit_home_page.png" style="width:793px;height:645px;" />
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    Click <b>Web Part</b>. Click <b>Insert</b> Tab. Select <b>Media and Content</b> in <b>Categories</b>,
+                    then, select <b>Page Viewer</b> in <b>Web parts</b>. Click <b>Add</b> button.<br />
+                    <a target="_blank" href="Images/sharepoint/07-Add_new_web_part_as_page_viewer.png" onclick="toggleBlock('sharepointStep7'); return false;"
+                        class="imglink">Screenshot</a>
+                    <div id="sharepointStep7" style="display: none;">
+                        <p class="screenshot">
+                            &nbsp;<img src="Images/sharepoint/07-Add_new_web_part_as_page_viewer.png" style="width:793px;height:645px;" />
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    Click <b>open the tool panel</b>.<br />
+                    <a target="_blank" href="Images/sharepoint/08-Open_the_tool_pane.png" onclick="toggleBlock('sharepointStep8'); return false;"
+                        class="imglink">Screenshot</a>
+                    <div id="sharepointStep8" style="display: none;">
+                        <p class="screenshot">
+                            &nbsp;<img src="Images/sharepoint/08-Open_the_tool_pane.png" style="width:793px;height:645px;" />
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    Enter HTTP Commander URL. Then, expand <b>Appearance</b>.
+                    Enter the title in Title textbox. Enter the Height and width, click on <b>Apply</b>.
+                    You will see HTTP Commander in the web part. Adjust Height and Width to meets your needs. Click <b>OK</b>.<br />
+                    <a target="_blank" href="Images/sharepoint/09-Add_hc_site_as_web_part.png" onclick="toggleBlock('sharepointStep9'); return false;"
+                        class="imglink">Screenshot</a>
+                    <div id="sharepointStep9" style="display: none;">
+                        <p class="screenshot">
+                            &nbsp;<img src="Images/sharepoint/09-Add_hc_site_as_web_part.png" style="width:1280px;height:984px;" />
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    Click <b>Save &amp; Close</b> to exit editing page.<br />
+                    <a target="_blank" href="Images/sharepoint/10-Save_added_web_part.png" onclick="toggleBlock('sharepointStep10'); return false;"
+                        class="imglink">Screenshot</a>
+                    <div id="sharepointStep10" style="display: none;">
+                        <p class="screenshot">
+                            &nbsp;<img src="Images/sharepoint/10-Save_added_web_part.png" style="width:1280px;height:984px;" />
+                        </p>
+                    </div>
+                </li>
+            </ul>            
+        </li>
+    </ul>
+    
+    <a target="_blank" href="Images/sharepoint/11-Complete.png" onclick="toggleBlock('sharepointStep11'); return false;"
+        class="imglink">Screenshot</a>
+    <div id="sharepointStep11" style="display: none;">
+        <p class="screenshot">
+            &nbsp;<img src="Images/sharepoint/11-Complete.png" style="width:1005px;height:957px;" />
+        </p>
+    </div>
+    
+</body>
+</html>

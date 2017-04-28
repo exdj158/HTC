@@ -1,0 +1,1608 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Localization>
+  <!-- Common keys -->
+  
+  <ExtMsgButtonTextYES>иә</ExtMsgButtonTextYES>
+  <ExtMsgButtonTextNO>жоқ</ExtMsgButtonTextNO>
+  
+  <ControlHideFileManager>Жасыру веб файлдар менеджері</ControlHideFileManager>
+  
+  <CommonMainTitle>Веб-файлдар қол</CommonMainTitle>
+  <CommonApplicationLoading>веб файлдар қол жеткізу Loading</CommonApplicationLoading>
+  <CommonLoadError>Қате ағаш деректерді алу кезінде болған</CommonLoadError>
+  <CommonGridAccessDenied>қалта «{0}» бар немесе оқу қатынасына рұқсат бермейді, бас тартылады</CommonGridAccessDenied>
+  <CommonNoScript>Бұл бет браузерде қосылған болуы JavaScript қажет! Оны қосу және қайтадан логин сұраймыз!</CommonNoScript>
+  <CommonErrorCaption>қателік</CommonErrorCaption>
+  <CommonWarningCaption>ескерту</CommonWarningCaption>
+  <CommonInfoCaption>ақпарат</CommonInfoCaption>
+  <CommonConfirmCaption>растау</CommonConfirmCaption>
+  <CommonFileNameCaption>Файл атауы</CommonFileNameCaption>
+  <CommonFileNamePrompt>Жаңа файл атауын енгізіңіз</CommonFileNamePrompt>
+  <CommonFileNewNameValue>Жаңа мәтіндік Document.txt</CommonFileNewNameValue>
+  <CommonFolderNewNameValue>Жаңа папка</CommonFolderNewNameValue>
+  <CommonZipFileNameCaption>Қысылған атауы</CommonZipFileNameCaption>
+  <CommonZipFileNamePrompt>Файл атауы (ұзарту автоматты түрде қосылады)</CommonZipFileNamePrompt>
+  <CommonFolderNameCaption>Қалта атауы</CommonFolderNameCaption>
+  <CommonFolderNamePrompt>Жаңа қалта атауын енгізіп,</CommonFolderNamePrompt>
+  <CommonDeleteOnePrompt>Егер сіз «{0}» жойғыңыз келгені рас па?</CommonDeleteOnePrompt>
+  <CommonDeleteManyPrompt>Сіз осы {0} элементтерді жойғыңыз келгені рас па?</CommonDeleteManyPrompt>
+  <CommonForToday>Бүгінгі күні</CommonForToday>
+  <CommonButtonCaptionOK>ЖАРАЙДЫ МА</CommonButtonCaptionOK>
+  <CommonButtonCaptionCancel>күшін жою</CommonButtonCaptionCancel>
+  <CommonButtonCaptionClose>Жабық</CommonButtonCaptionClose>
+  <CommonButtonCaptionAdd>қосу</CommonButtonCaptionAdd>
+  <CommonButtonCaptionContinue>жалғастыру</CommonButtonCaptionContinue>
+
+  <CommonProgressPleaseWait>Өтінемін күте тұрыңыз</CommonProgressPleaseWait>
+  
+  <CommonFieldLabelName>ат</CommonFieldLabelName>
+  <CommonFieldLabelPath>Path</CommonFieldLabelPath>
+  <CommonFieldLabelSize>Өлшем</CommonFieldLabelSize>
+  <CommonFieldLabelLabels>Жапсырмалар</CommonFieldLabelLabels>
+  <CommonFieldLabelType>түрі</CommonFieldLabelType>
+  <CommonFieldLabelAction>Іс-шаралар</CommonFieldLabelAction>
+  <CommonFieldLabelDate>дата</CommonFieldLabelDate>
+  <CommonFieldLabelDateTime>Күні және уақыты</CommonFieldLabelDateTime>
+  <CommonFieldLabelDateCreated>күні құрылған</CommonFieldLabelDateCreated>
+  <CommonFieldLabelDateModified>өзгертілген күні</CommonFieldLabelDateModified>
+  <CommonFieldLabelDateAccessed>күні қатынасқан</CommonFieldLabelDateAccessed>
+  <CommonFieldLabelValue>құн</CommonFieldLabelValue>
+  <CommonFieldLabelUserName>Пайдаланушының аты</CommonFieldLabelUserName>
+  <CommonFieldLabelUser>пайдаланушы</CommonFieldLabelUser>
+  <CommonFieldLabelUsers>пайдаланушылар</CommonFieldLabelUsers>
+  <CommonFieldLabelGroupName>Топ атауы</CommonFieldLabelGroupName>
+  <CommonFieldLabelGroup>топ</CommonFieldLabelGroup>
+  <CommonFieldLabelGroups>топтар</CommonFieldLabelGroups>
+  <CommonFieldLabelPassword>пароль</CommonFieldLabelPassword>
+  <CommonFieldLabelRepeatPassword>Құпия сөзді қайталаңыз</CommonFieldLabelRepeatPassword>
+  <CommonFieldLabelComments>Пікірлер</CommonFieldLabelComments>
+  <CommonValueTypeFolder>папка</CommonValueTypeFolder>
+
+  <CommonFieldLabelDescription>сипаттамасы</CommonFieldLabelDescription>
+  <EmptyDescriptionText>сипаттамасын көрсетіңіз</EmptyDescriptionText>
+  <CommonFieldLabelReadMeTxt>Readme.txt мазмұны</CommonFieldLabelReadMeTxt>
+  
+  <CommonWordOr>немесе</CommonWordOr>
+
+  <SortAscText>сұрыптау Ascending</SortAscText>
+  <SortDescText>кемуі бойынша сұрыптау</SortDescText>
+
+  <CommonNewDocument>Жаңа құжат</CommonNewDocument>
+  <CommonNewSpreadsheet>Жаңа электрондық</CommonNewSpreadsheet>
+  <CommonNewPresentation>Жаңа тұсаукесері</CommonNewPresentation>
+
+  <CommonWordWrap>Сөз тасымалы</CommonWordWrap>
+  
+  <!-- End Common keys -->
+
+  <!-- Labels -->
+
+  <LabelsTitle>заттаңба</LabelsTitle>
+  <LabelsNoLabel>жоқ жапсырма</LabelsNoLabel>
+  <LabelsColor>түс</LabelsColor>
+  <LabelsCustomLabel>Теңшелетін белгі</LabelsCustomLabel>
+  <LabelsCustomLabelHint>бетте мәтінін енгізіңіз</LabelsCustomLabelHint>
+  <LabelsCustomLabelView>Label &amp;жайында шолу: &amp;шығармалар жарияланатын {0} {1} {2}</LabelsCustomLabelView>
+  <LabelsFileLabelledMessage>Сәтті деп белгіленген {0} элемент (лар)</LabelsFileLabelledMessage>
+  <LabelsRemovedMessage>Сәтті жойылған {0} жапсырма (лар)</LabelsRemovedMessage>
+  <LabelsNotRemovedMessages>жойылған жоқ: {0}</LabelsNotRemovedMessages>
+  <LabelsNotLabelledMessage>деп белгіленген жоқ: {0}</LabelsNotLabelledMessage>
+  <LabelsLabelRemovedMessage>Label сәтті жойылған</LabelsLabelRemovedMessage>
+  <LabelsNewLabel>Жаңа Label</LabelsNewLabel>
+  <LabelsLabellingMessage>Таңбалаудың</LabelsLabellingMessage>
+  <LabelsRemovingLabelMessage>алып тастау жапсырмалар</LabelsRemovingLabelMessage>
+  <LabelsLabelInfoTip>'{2}' '' {0} '{1} пайдаланушы ретінде белгіленген</LabelsLabelInfoTip>
+
+  <!-- End Labels -->
+
+  <!-- Comments -->
+
+  <CommentsCountInfoTip>{0} Пікір (лар)</CommentsCountInfoTip>
+  <CommentsWriteCommentHint>Енгізіңіз немесе Shift+Enter+Пікір жазу түймесін басыңыз '{0}' немесе Ctrl ...</CommentsWriteCommentHint>
+
+  <!-- End Comments -->
+
+  <RefreshPageWarningMessage>&lt;b&gt; Назар аударыңыз! &lt;/b&gt; Бұл әрекетті орындау үшін, браузердің ағымдағы бет жаңарған болуы керек. &lt;br /&gt; Егер сіз қазір жаңарту келе ме?</RefreshPageWarningMessage>
+
+  <PagingToolbarBeforePageText>бет</PagingToolbarBeforePageText>
+  <PagingToolbarAfterPageText>{0} туралы</PagingToolbarAfterPageText>
+  <PagingToolbarFirstText>Бірінші бет</PagingToolbarFirstText>
+  <PagingToolbarPrevText>Алдыңғы бет</PagingToolbarPrevText>
+  <PagingToolbarNextText>Келесі бет</PagingToolbarNextText>
+  <PagingToolbarLastText>соңғы бет</PagingToolbarLastText>
+  <PagingToolbarDisplayMsg>Визуализацияланған {0} - {1} {2} туралы</PagingToolbarDisplayMsg>
+  <PagingToolbarEmptyMsg>көрсету үшін деректер жоқ</PagingToolbarEmptyMsg>
+  
+  <GridTotalLabel>Барлығы:</GridTotalLabel>
+  <GridTotalFilesLabel>файлдар</GridTotalFilesLabel>
+  <GridTotalFoldersLabel>қалталар</GridTotalFoldersLabel>
+  
+  <GridDDSelectedRowsText>{0} таңдалған жол {1}</GridDDSelectedRowsText>
+  <GridDDSelectedFilesText>{0} Таңдалған файлдар</GridDDSelectedFilesText>
+  <GridDDSelectedFoldersText>{0} таңдалған қалталар</GridDDSelectedFoldersText>
+  <GridDDConfirmCopyMoveTitle>«{0}» қалтасына Drop</GridDDConfirmCopyMoveTitle>
+  <GridDDConfirmAddToZipTitle>«{0}» Zip қосу</GridDDConfirmAddToZipTitle>
+  <GridDDConfirmAddToZipMessage>файлдар Осы ZIP мұрағатына қосылады сүйреп шығарып тастады. Жалғастыруды қалайсыз ба? {0}.</GridDDConfirmAddToZipMessage>
+  <GridDDConfirmCopyMoveMsg>қолдану қажет әрекетті таңдаңыз. Ақпарат көзі: «{0}», Қабылдауқапшығы: «. {1}» {2} {3}.</GridDDConfirmCopyMoveMsg>
+  <GridDDConfirmCopyMoveToZipMsg>Файлдар ZIP мұрағат қосылады. Сіз ZIP мұрағат файлдарды қосқаннан кейін сүйреп файлдарға қолданғыңыз келетін әрекетті таңдаңыз. Ақпарат көзі: «{0}», Destination ZIP мұрағат: «. {1}» {2} {3}.</GridDDConfirmCopyMoveToZipMsg>
+  <GridDDDraggedFileNames>&lt;/b&gt; {0}: &lt;b&gt; файлдарды сүйреп</GridDDDraggedFileNames>
+  <GridDDDraggedFolderNames>&lt;/b&gt; {0}: &lt;b&gt; қалталарды сүйреп</GridDDDraggedFolderNames>
+  <GridDDConfirmTargetFolderOnlyCopyMsg>көзі қалтасының Ағымдағы рұқсаттар сіз тек көшірмесін файлдарды сүйреп мүмкіндік береді. Жалғастыруды қалайсыз ба? {0}.</GridDDConfirmTargetFolderOnlyCopyMsg>
+  <GridDDConfirmTargetFolderOnlyMoveMsg>көзі қалтасының Ағымдағы рұқсаттар сіз тек қозғалыста файлдарды сүйреп мүмкіндік береді. Жалғастыруды қалайсыз ба? {0}.</GridDDConfirmTargetFolderOnlyMoveMsg>
+
+  <GridRowPublicHint>жаңа терезеде / қойындысында қоғамдық сілтемені ашу үшін басыңыз</GridRowPublicHint>
+  <GridRowAlertHint>Бұл файл / қалта үшін атқарылған өзгерістер көру үшін басыңыз</GridRowAlertHint>
+  <GridRowRecentHint>Бұл файлды табыңыз / қалта</GridRowRecentHint>
+  <GridRowAlertEventHint>Бұл жерді өту үшін басыңыз</GridRowAlertEventHint>
+
+  <ProgressCreating>Жарату</ProgressCreating>
+  <ProgressDeleting>жою</ProgressDeleting>
+  <ProgressLoading>Loading</ProgressLoading>
+  <ProgressSearching>іздеу</ProgressSearching>
+  <ProgressZipping>сығу</ProgressZipping>
+  <ProgressUnzipping>Қораптан шығару</ProgressUnzipping>
+  <ProgressZipContents>ZIP мұрағат мазмұнын алу</ProgressZipContents>
+  <ProgressPrepareDownload>Жүктеу үшін дайындау</ProgressPrepareDownload>
+  <ProgressMoving>прогресс</ProgressMoving>
+  <ProgressCopying>көшіру</ProgressCopying>
+  <ProgressRenaming>атын</ProgressRenaming>
+  <ProgressUpdating>жаңарту</ProgressUpdating>
+  <ProgressLoadingEditInPixlr>Pixlr редакторын жүктеу</ProgressLoadingEditInPixlr>
+  <ProgressLoadingEdit>Loading редакторы</ProgressLoadingEdit>
+  <ProgressSavingEdit>файлды сақтау</ProgressSavingEdit>
+  <ProgressSaving>үнемдеу</ProgressSaving>
+  <ProgressExecuting>Атқарушы</ProgressExecuting>
+
+  <BalloonFilesDeleted>{0} файл (дар) жойылады</BalloonFilesDeleted>
+  <BalloonFoldersDeleted>{0} қалта (лар) жойылады</BalloonFoldersDeleted>
+  <BalloonFilesFailed>{0} файл (дар) сәтсіз</BalloonFilesFailed>
+  <BalloonFoldersFailed>{0} қалта (лар) сәтсіз</BalloonFoldersFailed>
+  <BalloonFilesZipped>{0} сығылған (лар) файлы</BalloonFilesZipped>
+  <BalloonFoldersZipped>{0} қалта (лар) қысылған</BalloonFoldersZipped>
+  <BalloonFilesCopied>{0} файл (дар) Көшірілген</BalloonFilesCopied>
+  <BalloonFoldersCopied>{0} қалта (лар) Көшірілген</BalloonFoldersCopied>
+  <BalloonFilesMoved>{0} файл (дар) көшіп</BalloonFilesMoved>
+  <BalloonFoldersMoved>{0} қалта (лар) көшіп</BalloonFoldersMoved>
+  <BalloonNotUnzipped>{0} (лар) файлы орайтын болған жоқ</BalloonNotUnzipped>
+  <BalloonFilesUploaded>{0} файл (дар) жүктелген</BalloonFilesUploaded>
+  <BalloonFilesNotUploaded>{0} файл (дар) жүктелген емес</BalloonFilesNotUploaded>
+  <BalloonSomeFilesNotUploaded>Кейбір файлдар жүктелген мүмкін емес</BalloonSomeFilesNotUploaded>
+  <BalloonCreatedSuccessfully>сәтті жасалды</BalloonCreatedSuccessfully>
+  <BalloonUnzippedSuccessfully>орамсыз сәтті</BalloonUnzippedSuccessfully>
+  <BalloonRenamedSuccessfully>сәтті болып өзгертілді</BalloonRenamedSuccessfully>
+  <BalloonSavedSuccessfully>сәтті сақталды</BalloonSavedSuccessfully>
+  <BalloonCopiedToClipboard>аралық сақтағышқа Көшірілген</BalloonCopiedToClipboard>
+  <BalloonCopyToClipboardFailed>Сәтсіз Аралық сақтағышқа көшіру</BalloonCopyToClipboardFailed>
+
+  <CommandCopyToClipboard>Аралық сақтағышқа көшіру</CommandCopyToClipboard>
+  <CommandCopyLinkToClipboard>Алмасу буферіне Көшірілген сілтемені</CommandCopyLinkToClipboard>
+  <ClipboardScreenshotTitlePrefix>бейне</ClipboardScreenshotTitlePrefix>
+  <ClipboardScreenshotHint>Суреттер: Сіз өзіңіздің аралық сақтағышқа скриншот (Баспасөз &lt;b&gt; Ctrl+PrtSc &lt;/b&gt;, содан кейін &lt;b&gt; Ctrl+V &lt;/b&gt;) немесе Сіздің редакторы (Баспасөз &lt;b&gt; Ctrl+V &lt;суретті қоюға болады/b&gt;).</ClipboardScreenshotHint>
+  <ClipboardFileHint>Сіз сондай-ақ аралық сақтағышқа файлды қоюға болады</ClipboardFileHint>
+
+  <CommandClouds>Cloud қоймалар</CommandClouds>
+  <CommandCloudsDownloadTo>жүктеп ...</CommandCloudsDownloadTo>
+  <CommandCloudsUploadFrom>қотарып ...</CommandCloudsUploadFrom>
+  <CommandCloudsAbout>Cloud қоймаларда туралы</CommandCloudsAbout>
+  
+  <CommandBack>артқа</CommandBack>
+  <CommandForward>алға</CommandForward>
+  <CommandRecentFolders>Соңғы қалталар</CommandRecentFolders>
+  <CommandHome>үй</CommandHome>
+  <CommonActions>Әрекеттер</CommonActions>
+  <CommandMultiSelect>Мульти-тармағын таңдаңыз</CommandMultiSelect>
+  <CommandShare>үлес</CommandShare>
+  <CommandSorting>сұрыптау</CommandSorting>
+  
+  <CommandFileManager>Файл менеджері оралу</CommandFileManager>
+  <CommandFolders>Қалталар</CommandFolders>
+  <CommandGridView>көрініс</CommandGridView>
+  <CommandRefresh>жаңарту</CommandRefresh>
+  <CommandThumbnailView>нобай көрінісі</CommandThumbnailView>
+  <CommandDetailedView>тізім көрінісі</CommandDetailedView>
+  <CommandDetailsPane>Толығырақ тақтасы</CommandDetailsPane>
+  <CommandFavorites>Таңдаулылар</CommandFavorites>
+  <CommandAddToFavorites>Таңдаулыға қосу,</CommandAddToFavorites>
+  <CommandAddToFavoritesHint>Таңдаулыға қосу ағымдағы қалтаны қосу</CommandAddToFavoritesHint>
+  <AddingToFavoritesMessage>Таңдаулылар қосу</AddingToFavoritesMessage>
+  <RemoveFromFavoritesMessage>Таңдаулылардан жою</RemoveFromFavoritesMessage>
+  <FolderAlreadyAddedInFavorites>қалта «{0}» қазірдің өзінде таңдаулылар бар</FolderAlreadyAddedInFavorites>
+  <FolderAddedInFavoritesSuccessfully>қалта «{0}» сәтті таңдаулылар қосылды</FolderAddedInFavoritesSuccessfully>
+  <FavoritesIsOverflowed>Ол таңдаулылар ағымдағы қалтаны «{0}» қосу мүмкін емес еді. кейбір кеңістік босатыңыз және қайтадан көріңіз кейбір сүйікті жою.</FavoritesIsOverflowed>
+  <RemoveFromFavoritesHint>таңдаулылары ішінде «{0}» Remove</RemoveFromFavoritesHint>
+  <AddToHomeScreenIOSHint>&lt;/strong&gt; &lt;STRONG&gt; «Басты экранға қосу», содан кейін {0} түртіңіз және</AddToHomeScreenIOSHint>
+  <CommandSearch>іздеу</CommandSearch>
+  <CommandUpload>Upload</CommandUpload>
+  <CommandSettings>Параметрлер</CommandSettings>
+  <CommandLanguage>тіл</CommandLanguage>
+  <CommandAdministration>басқарма</CommandAdministration>
+  <CommandAdminPanel>Admin панелі</CommandAdminPanel>
+  <CommandChangePassword>Құпия сөзді өзгерту</CommandChangePassword>
+  <ProgressChangePassword>Құпия сөзді өзгерту</ProgressChangePassword>
+  <CommandChangeEmail>Өзгерту электрондық пошта</CommandChangeEmail>
+  <ProgressChangeEmail>Электрондық поштаны өзгерту</ProgressChangeEmail>
+  <CommandMobileView>Мобильді интерфейс (смартфондар)</CommandMobileView>
+  <CommandStandardView>Толық нұсқасы</CommandStandardView>
+  <CommandInstallIOSApp>IOS қолданбасын орнату</CommandInstallIOSApp>
+  <CommandInstallAndroidApp>Android қолданбасын орнату</CommandInstallAndroidApp>
+  <CommandAddServerToMobileApp>мобильді бағдарламасына осы серверді қосу</CommandAddServerToMobileApp>
+  <CommandAddToHomeScreen>Бастапқы экранға қосу</CommandAddToHomeScreen>
+  <CommandDiagnostics>диагностикалық бет</CommandDiagnostics>
+  <CommandLicenseInfo>лицензия туралы ақпарат</CommandLicenseInfo>
+  <CommandLogout>Шығу</CommandLogout>
+  <CommandLogoutHint>ағымдағы сессияны аяқтау үшін басыңыз</CommandLogoutHint>
+  <CommandNew>жаңа</CommandNew>
+  <CommandFile>файл</CommandFile>
+  <CommandEmptyFile>бос файл</CommandEmptyFile>
+  <CommandNewMSOODocument>MS Office Online құжат</CommandNewMSOODocument>
+  <CommandNewOffice365Document>Office 365 құжат</CommandNewOffice365Document>
+  <CommandNewMSOOWord>Word Document</CommandNewMSOOWord>
+  <CommandNewMSOOExcel>Excel электрондық кестесі</CommandNewMSOOExcel>
+  <CommandNewMSOOPowerPoint>PowerPoint презентациясы</CommandNewMSOOPowerPoint>
+  <CommandNewGoogleDocument>Google бар құжат</CommandNewGoogleDocument>
+  <CommandNewGoogleDocs>Google Docs</CommandNewGoogleDocs>
+  <CommandNewGoogleSheets>Google Sheets</CommandNewGoogleSheets>
+  <CommandNewGoogleSlides>Google Слайдтар</CommandNewGoogleSlides>
+  <CommandNewImage>Pixlr сурет</CommandNewImage>
+  <CommandFolder>папка</CommandFolder>
+  <CommandNewFile>Жаңа бос файл</CommandNewFile>
+  <CommandNewFolder>Жаңа папка</CommandNewFolder>
+  <CommandNewWithTemplate>Үлгіні пайдалану ...</CommandNewWithTemplate>
+  <CommandRename>Атын өзгерту</CommandRename>
+  <CommandDelete>Жою</CommandDelete>
+  <CommandCopy>көшірме</CommandCopy>
+  <CommandMove>көшу</CommandMove>
+  <CommandCut>кесу</CommandCut>
+  <CommandCopyTo>көшіру ...</CommandCopyTo>
+  <CommandMoveTo>жылжыту ...</CommandMoveTo>
+  <CommandCopyCutClipboardSuffix>Алмасу буферіне</CommandCopyCutClipboardSuffix>
+  <CommandPaste>қою</CommandPaste>
+  <CommandPasteInto>кірістіру</CommandPasteInto>
+  <CommandZip>Пошта мұрағатқа қысу</CommandZip>
+  <CommandZipMenu>Zip / орауын</CommandZipMenu>
+  <CommandUnzip>Ораманы ашып Zip</CommandUnzip>
+  <CommandUnzipSelected>таңдалған қораптан шығарыңыз</CommandUnzipSelected>
+  <CommandUnzipAll>барлық қораптан шығарыңыз</CommandUnzipAll>
+  <CommandUnzipTo>қалтаға</CommandUnzipTo>
+  <CommandUnzipToCurrent>ағымдағы қалтаға</CommandUnzipToCurrent>
+  <MessageUnzipToFolder>Осы распаковывать қалтаның атын теріп</MessageUnzipToFolder>
+  <MessageUnzipPasswordHint>Егер сіз құпия сөз орауыштан үшін қажетті екенін білсеңіз, төмендегі өріске енгізіңіз</MessageUnzipPasswordHint>
+  <MessageUnzipNeedPassword>Құпия сөз файлдарды распаковывать талап етіледі</MessageUnzipNeedPassword>
+  <ZipPasswordProtectHint>Қысылған құпиясөзмен қорғау, төменде жолағына құпия сөзді енгізіңіз. Әйтпесе, өрісті бос қалдырыңыз</ZipPasswordProtectHint>
+  <AppendToZipPasswordProtectHint>құпиясөзмен қорғау ZIP мұрағат қосылған файлдарды үшін, төмендегі жолағына құпия сөзді енгізіңіз. Әйтпесе, өрісті бос қалдырыңыз</AppendToZipPasswordProtectHint>
+  <ZipPasswordProtectWindowTitle>құпия сөзбен мұрағаттау</ZipPasswordProtectWindowTitle>
+  <OpenFolderAfterUnzipCheckBox>кейін распаковки Ашық қалта</OpenFolderAfterUnzipCheckBox>
+  <CommandUnzipToNew>жаңа қалтаға</CommandUnzipToNew>
+  <CommandZipContents>Zip мазмұны</CommandZipContents>
+  <ArchiveContentsTitle>Мұрағат мазмұны «{0}»</ArchiveContentsTitle>
+  <CommandDownload>жүктеу</CommandDownload>
+  <CommonDownloadAll>барлық жүктеп</CommonDownloadAll>
+  <DownloadListDragFile>Үстеліңізде файлдарды-N-тамшы апара аласыз</DownloadListDragFile>
+  <CommandZipDownload>Қысу және жүктеу</CommandZipDownload>
+  <CommandView>Шолғышта қарау</CommandView>
+  <CommandDownloadOrView>Жүктеу немесе көру</CommandDownloadOrView>
+  <CommandPreview>Суреттер алдын ала қарау</CommandPreview>
+  <CommandFlashPreview>Flash алдын ала қарау</CommandFlashPreview>
+  <GettingSizeFlashMovie>флэш фильм өлшемін алу</GettingSizeFlashMovie>
+  <CommandEdit>мәтіндік файл ретінде өңдеу</CommandEdit>
+  <CommandEditView>мәтіндік файл ретінде қарау</CommandEditView>
+  <AceNotLoadedMessage>Ace редакторы жүктеу мүмкін болмады</AceNotLoadedMessage>
+  <VideoJsNotLoadedMessage>VideoJS ойнатқышты жүктеу мүмкін болмады</VideoJsNotLoadedMessage>
+  <CommandMenuEdit>редакциялау</CommandMenuEdit>
+  <CommandSelectAll>барлығын таңдау</CommandSelectAll>
+  <CommandInvertSelection>Таңдалғанды ​​жасыру</CommandInvertSelection>
+  <CommandLinkToFile>Файл / қалта сілтеме</CommandLinkToFile>
+  <!--Share link-->
+  <CommandMakePublicFolder>қоғамдық сілтеме жасау</CommandMakePublicFolder>
+  <PublicViewInGoogle>Google көру</PublicViewInGoogle>
+  <PublicViewinOWA>OWA көру</PublicViewinOWA>
+  <!--Make public folder (share)-->
+  <CommandViewWithGoogleDoc>Google Docs көру</CommandViewWithGoogleDoc>
+  <CommandViewWithShareCad>ShareCad.org көру</CommandViewWithShareCad>
+  <CommandViewWithAutodesk>Autodesk көру</CommandViewWithAutodesk>
+  <CommandViewWithBox>Box көру</CommandViewWithBox>
+  <CommandViewWithOWA>Office Web Apps қарау</CommandViewWithOWA>
+  <CommandCloudConvert>CloudConvert бар түрлендіру</CommandCloudConvert>
+  <ProgressGetCloudConvertOutputFormats>шығыс пішімдерін алу</ProgressGetCloudConvertOutputFormats>
+  <ProgressCloudConvertConverting>түрлендіру</ProgressCloudConvertConverting>
+  <CloudConvertWindowTitle>'{0}' түрлендіру</CloudConvertWindowTitle>
+  <CloudConvertWindowConvertButton>түрлендіру</CloudConvertWindowConvertButton>
+  <CloudConvertWindowOutputFormatsLabel>шығыс пішімі</CloudConvertWindowOutputFormatsLabel>
+  <CloudConvertDownloadLinkLabel>Жүктеу үшін сілтеме</CloudConvertDownloadLinkLabel>
+  <CloudConvertSaveAsLabel>(Ұзарту автоматты түрде қосылады) ретінде сақтау:</CloudConvertSaveAsLabel>
+  <CloudConvertNoOutputFormats>айырбастау үшін ешқандай Қол жетімді пішімдер бар</CloudConvertNoOutputFormats>
+  <CloudConvertNoUrlForDownload>Бұл жүктеу үшін сілтеме алу сәтті болған жоқ</CloudConvertNoUrlForDownload>
+  <ProgressCloudConvertUploading>CloudConvert бастап кері жүктеу</ProgressCloudConvertUploading>
+  <CloudConvertSaveAsNameBlank>мұнда түрі атауы</CloudConvertSaveAsNameBlank>
+  <CancelEditButton>Өңдеу Болдырмау</CancelEditButton>
+  <HideButton>жасыру</HideButton>
+  <EditDocumentCancelHint>Редакцияланған құжатпен терезені жабу кейін, ол өздігінен сақталды болады. Сіз {0} (бұл жағдайда, құжат әлі редакторы жапқаннан кейін сақталады) басу арқылы осы тілқатысу терезесін жасыру болады &lt;br /&gt;. &lt;br /&gt; Егер сіз құжатты сақтағыңыз келмесе, баспасөз {1} (бұл жағдайда, редакторы терезесі жабық болады).</EditDocumentCancelHint>
+  <EditDocumentSaveHint>Енді сіз {0} басу арқылы құжатта өзгерістер сақтауға болады. Назар! Редакциялау терезесінде жабу кейін, ол сондай-ақ, өздігінен сақталды болады.</EditDocumentSaveHint>
+  <CommandEditInMSOffice>MS Office өңдеу</CommandEditInMSOffice>
+  <CommandEditInOOo>OpenOffice / LibreOffice өңдеу</CommandEditInOOo>
+  <CommandViewInMSOffice>MS Office көру</CommandViewInMSOffice>
+  <CommandViewInOOo>OpenOffice / LibreOffice қарау</CommandViewInOOo>
+  <CommandEditInPixlr>Pixlr өңдеу</CommandEditInPixlr>
+  <CommandEditInAdobe>Adobe Creative Cloud өңдеу</CommandEditInAdobe>
+  <AdobeImageEditorSavedAsNewTypeMessage>Сурет Сурет редакторы форматында {0} сақталады болды Adobe өзгерді</AdobeImageEditorSavedAsNewTypeMessage>
+  <CommandEditInGoogle>Google Drive өңдеу</CommandEditInGoogle>
+  <EditInGoogleConvertMessage>Өңдеу кейін құжат форматында {1} {0} {2} түрлендіріледі</EditInGoogleConvertMessage>
+  <EditInGoogleLinkError>Google Drive құжатты өңдеу үшін сілтемені алуға мүмкін емес</EditInGoogleLinkError>
+  <EditInGoogleWaiting>Google Drive редакциялау аяқтау күту</EditInGoogleWaiting>
+  <CommandEditInMSOO>MS Office Online өңдеу</CommandEditInMSOO>
+  <EditInMSOOLinkError>MS Office Online бағдарламасында құжатты өңдеу үшін сілтемені алуға мүмкін емес</EditInMSOOLinkError>
+  <EditInMSOOWaiting>MS Office Online бағдарламасында өңдеу аяқталғаннан күту</EditInMSOOWaiting>
+  <CommandEditInOffice365>Office 365 өңдеу</CommandEditInOffice365>
+  <EditInOffice365LinkError>Office 365 құжатты өңдеу үшін сілтемені алуға мүмкін емес</EditInOffice365LinkError>
+  <EditInOffice365Waiting>Office 365 редакциялау аяқтау күту</EditInOffice365Waiting>
+  <CommandSave>сақтау</CommandSave>
+  <CommandSaveAs>сақтау ...</CommandSaveAs>
+  <CommandAppRestart>Қайта іске қосу өтініш</CommandAppRestart>
+  <CommandPlayVideoFlash>Flash Player бейне ойнату</CommandPlayVideoFlash>
+  <CommandPlayVideoHtml5>бейнені ойнату</CommandPlayVideoHtml5>
+  <CommandPlayAudioHtml5>дыбысты ойнату</CommandPlayAudioHtml5>
+  <CommandPlayVideo>бейнені ойнату</CommandPlayVideo>
+  <CommandPlayAudio>дыбысты ойнату</CommandPlayAudio>
+  <CommandConvertVideo>бейнені түрлендіру</CommandConvertVideo>
+
+  <ViewInServiceLink>Файлды көру үшін мұнда басыңыз</ViewInServiceLink>
+  <EditInServiceLink>құжатты өңдеу үшін мұнда басыңыз</EditInServiceLink>
+
+  <OfficeEditCopyLinkLabel>Төмендегі сілтемені көшіру және Office өтініште оны ашу:</OfficeEditCopyLinkLabel>
+  <OfficeRunError>Ол {0} іске қосу мүмкін емес еді</OfficeRunError>
+  <BadPathToFile>Бұл файлға жолды табуға мүмкін емес еді</BadPathToFile>
+  <FixBasicAuthAlertTitle>Назар!</FixBasicAuthAlertTitle>
+  <FixBasicAuthAlertMessage>Microsoft Office SSL жоқ Негізгі түпнұсқалық растамасы жұмыс істейді! Сіз өзіңіздің Office үшін түзете аласыз. Қосымша ақпарат алу үшін {0} қараңыз.</FixBasicAuthAlertMessage>
+  <FixBasicAuthAlertCheckBoxText>енді осы диалогты көрсету үшін емес.</FixBasicAuthAlertCheckBoxText>
+  <CommandDetails>Егжей</CommandDetails>
+  <CommonButtonCaptionAddDetail>Мәлімет қосу</CommonButtonCaptionAddDetail>
+  <CommonButtonCaptionAddComment>Пікір қосу</CommonButtonCaptionAddComment>
+  <DetailsWindowTitle>Толығырақ «{0}»</DetailsWindowTitle>
+  <FileDetailsSave>өзгертулерді қолдану</FileDetailsSave>
+  <FileDetailsIgnoreChanges>ескермеу</FileDetailsIgnoreChanges>
+  <FileDetailsCloseConfirmTitle>Файл туралы мәліметтер терезесі жабылады жатыр</FileDetailsCloseConfirmTitle>
+  <FileDetailsCloseConfirmMsg>Назар! өзгерістер әлі сақталған жоқ. Сіз терезені жабу бұрын осы өзгерістерге қолданғыңыз келетін әрекетті таңдаңыз.</FileDetailsCloseConfirmMsg>
+  <FileDetailsGridTitleColumn>тақырып</FileDetailsGridTitleColumn>
+  <FileDetailsGridAuthorColumn>Өткен авторы</FileDetailsGridAuthorColumn>
+  <LoadingDetailsMask>Loading толығырақ</LoadingDetailsMask>
+  <NewDetailsTitle>Жаңа атауы</NewDetailsTitle>
+  <NewDetailsValue>Жаңа егжей мән</NewDetailsValue>
+  <DetailsSavingMsg>Егжей-тегжейлі ақпаратты үнемдеу</DetailsSavingMsg>
+  <ProgressLoadingEditInOffice>Office өңдеу үшін дайындау</ProgressLoadingEditInOffice>
+  <MenuFilterText>сүзгілер</MenuFilterText>
+  <EmptyTextFilter>Сүзгіні енгізіңіз ...</EmptyTextFilter>
+  <AfterDateFilterText>кейін</AfterDateFilterText>
+  <BeforeDateFilterText>бұрын</BeforeDateFilterText>
+  <OnDateFilterText>туралы</OnDateFilterText>
+  <YesBooleanFilterText>иә</YesBooleanFilterText>
+  <NoBooleanFilterText>жоқ</NoBooleanFilterText>
+  <CommandEditWithZoho>Zoho өңдеу</CommandEditWithZoho>
+  <ZohoNotSupportedFormatMessage>Кеңейтім Zoho қолдау көрсетпейді. {0} қараңыз.</ZohoNotSupportedFormatMessage>
+  <ProgressLoadingEditInZoho>Zoho редакторын жүктеу</ProgressLoadingEditInZoho>
+  <CommandSubMenuViewAndEdit>Қарау / өңдеу</CommandSubMenuViewAndEdit>
+  <CommandSubMenuShare>үлес</CommandSubMenuShare>
+  <CommandSubMenuMore>Көбірек</CommandSubMenuMore>
+  <StopUploadingButtonText>Тоқта</StopUploadingButtonText>
+  <SimpleUploadErrorInfo>файл (дар) жүктеу кезінде қате пайда болды. Қосымша ақпарат алу үшін: {0} қараңыз &lt;br /&gt; &lt;/a&gt;</SimpleUploadErrorInfo>
+  <BalloonAbortFilesUploaded>файлдар кері жүктеу тоқтатылды</BalloonAbortFilesUploaded>
+  <UploadDragNDropTab>Drag &amp;тамшы</UploadDragNDropTab>
+  <UploadDragNDropTabImages>Апарып &amp;тамшы+фото</UploadDragNDropTabImages>
+  <DnDGridProgressColumn>прогресс</DnDGridProgressColumn>
+  <DnDFileReadingError>Оқу қате. Қате коды: {0}.</DnDFileReadingError>
+  <DnDFileReadingAbort>Оқу доғарылды. Қате коды: {0}.</DnDFileReadingAbort>
+  <DnDFileUploadingError>Кері жүктеу қате. {0}</DnDFileUploadingError>
+  <DnDFileUploadingAbort>Кері жүктеу доғарылды.</DnDFileUploadingAbort>
+  
+  <CommandWebFoldersLinks>Картасы веб қалталар</CommandWebFoldersLinks>
+  <CommandSyncWebFolders>жергілікті қалтаға қызметімен синхрондау</CommandSyncWebFolders>
+  <WebFolderLinksFieldLabel>Web-қалта сілтемелер</WebFolderLinksFieldLabel>
+  <WebFolderLinksForWindows64Note>Баспасөз пернелер тіркесімі {0} Win+R {1}. {0} Ашық команда жолын салыңыз: {1} өріс (төменде пәрмен жолы мысалдар қараңыз), {0} {1} OK түймешігін басыңыз. толық домендік атауларды қолдану Windows түпнұсқалық растамасы үшін: {2}.</WebFolderLinksForWindows64Note>
+  <OpenLibreOfficeRunCommandNote>{1} өріс және баспасөз {0} {1} OK: немесе {0} Win+R {1}, {0} Ашық төменде пәрмен жолын кірістіру пернелер тіркесімін басыңыз</OpenLibreOfficeRunCommandNote>
+  <WebFolderLinksForMacOSNote>«Finder» мәзірінде ашық {0} істейтін&gt; Сервер {1} қосыңыз. {0} «Сервер мекенжайы» {1} далалық веб қалта сілтемені салыңыз. {0} «Connect» {1} басыңыз. Жаңа диалогында {0} «Қонақ» (Windows түпнұсқалық растамасы үшін) {1} немесе {0} «Тіркелген қолданушы» {1} таңдаңыз. {0} «Connect» {1} басыңыз.</WebFolderLinksForMacOSNote>
+  <WebFolderLinksForUbuntuNote>Ашық {0} істейтін&gt; Орын ... {1} орны өрісі веб қалта сілтемені көшіріңіз.</WebFolderLinksForUbuntuNote>
+  <LinksToWebFoldersWindowText>Сіз өзіңіздің жергілікті OS ішіндегі желілік диск ретінде көруге қалталарды салыстыруға болады. түрлендіргеннен кейін сіз MS Office немесе OpenOffice жергілікті компьютерлерде немесе өңдеу құжаттармен сияқты файлдармен жұмыс істей алады. {0} салыстыру жолын туралы анықтаманы қараңыз.</LinksToWebFoldersWindowText>
+  <CommonFileTypeNameCaption>«{0}» файл атауы</CommonFileTypeNameCaption>
+  <CommonFileTypeNamePrompt>жаңа «{0}» файл атауын енгізіңіз</CommonFileTypeNamePrompt>
+  
+  <PixlrEditorWindowTitle>Pixlr редакторы {0}</PixlrEditorWindowTitle>
+  <PixlrSaveImageSuccessMessage>Кескін «{0}» сәтті сақталған. Сіз жаңа атаумен суретті сақталған болса тізімін жаңарту.</PixlrSaveImageSuccessMessage>
+  <CommonFileImageNewName>Жаңа сурет</CommonFileImageNewName>
+  <CommandChangeTheme>өзгерту Тақырып</CommandChangeTheme>
+  
+  <CommandHelp>Көмектесіңдер</CommandHelp>
+
+  <OpeningShortcutProgress>ашу мәтінмәндік</OpeningShortcutProgress>
+  <CommandCreateShortcut>Төте жол (символдық сілтеме)</CommandCreateShortcut>
+  <ShortcutNameHint>Төте жол атауы</ShortcutNameHint>
+  <ShortcutTargetPathHint>мақсатты жолды</ShortcutTargetPathHint>
+  <CreateShortcutButtonTitle>жасау</CreateShortcutButtonTitle>
+  <CreatingShortcutProgress>жасау мәтінмәндік</CreatingShortcutProgress>
+  <CreateShortcutSuccessMessage>Төте жол «{0}» сәтті «{1}» құрылды.</CreateShortcutSuccessMessage>
+
+  <OpeningInternetShortcutProgress>Ашу Интернет мәтінмәндік</OpeningInternetShortcutProgress>
+  <InternetShortcutNotValidMsg>Осы Интернет таңбашасының мақсатты URL дұрыс емес</InternetShortcutNotValidMsg>
+  <InternetShortcutWindowTitle>сілтемеге өтіңіз</InternetShortcutWindowTitle>
+  
+  <CommandVersioning>Нұсқаларды</CommandVersioning>
+  <CommandVersionHistory>Нұсқа тарихы</CommandVersionHistory>
+  <CommandCheckOut>Шығу</CommandCheckOut>
+  <CommandCheckIn>Тіркеу</CommandCheckIn>
+  <CommandUndoCheckOut>Болдырмау Out тексеріңіз</CommandUndoCheckOut>
+  <VersionHistoryObtainingMessage>нұсқа журналын алу</VersionHistoryObtainingMessage>
+  <NoVersionHistoryMessage>Таңдалған файл үшін нұсқа тарихы жоқ,</NoVersionHistoryMessage>
+  <FileIsCheckedOutMessage>{2} файл «{0}» қазірдің өзінде пайдаланушы жүзеге тексеріледі «{1}»</FileIsCheckedOutMessage>
+  <CheckingOutMessage>Out тексеру</CheckingOutMessage>
+  <SuccessfullyCheckedOutMessage>Файл «{0}» сәтті «{1}» пайдаланушы жүзеге тексерілді</SuccessfullyCheckedOutMessage>
+  <FileIsNotCheckedOutMessage>Файл «{0}» әлі танысқаныңызды болған жоқ</FileIsNotCheckedOutMessage>
+  <FileIsCheckedOutOtherUserMessage>Файл «{0}» {2} туралы «{1}» басқа пайдаланушы жүзеге тексеріледі.</FileIsCheckedOutOtherUserMessage>
+  <FileUndoCheckOutForbiddenMessage>Сіз шығып басқа пайдаланушы қолданылатын тексеруден бас тарта алмайды.</FileUndoCheckOutForbiddenMessage>
+  <FileCheckInForbiddenMessage>Сіз басқа пайдаланушы жүзеге тексерілген файлда тексеру мүмкін емес.</FileCheckInForbiddenMessage>
+  <FileUndoCheckOutConfirmMessage>Егер сіз тексеруді жүзеге бас тарту болса, құжаттың қолданылуы өзгерістер сақтау мүмкін емес болады! Егер сіз тексеруді жүзеге бас тарту керек сенімдісіз бе?</FileUndoCheckOutConfirmMessage>
+  <FileVersionDeleteConfirmTitle>файл нұсқасын жою</FileVersionDeleteConfirmTitle>
+  <FileVersionDeleteConfirmMessage>Егер сіз файлдың таңдалған нұсқасын жойғыңыз келетінін ме?</FileVersionDeleteConfirmMessage>
+  <FileVersionRestoreConfirmTitle>файл нұсқасын қалпына келтіру</FileVersionRestoreConfirmTitle>
+  <FileVersionRestoreConfirmMessage>Сіз көз файлдың таңдалған нұсқасын қалпына келтіру үшін келеді деп ба? иә болса, {0}, таңдалған нұсқасы сақталады, онда файлды көрсетіңіз. Сіз өзгерістер (немесе орнату бос құны) жоқ осы мәнді қалдырсаңыз таңдалған нұсқасы (файлдың алдыңғы мазмұны нұсқасы тарихы қосылады) Таңдалған файлды ауыстырады {1} Файл атауы.:</FileVersionRestoreConfirmMessage>
+  <UndoCheckingOutMessage>Out тексеріңіз болдырмау</UndoCheckingOutMessage>
+  <SuccessfullyUndoCheckedOutMessage>файл тексеру жүзеге жою «{0}» сәтті аяқталды.</SuccessfullyUndoCheckedOutMessage>
+  <SuccessfullyCheckedInMessage>Файл «{0}» сәтті пайдаланушы тексеріледі «{1}»</SuccessfullyCheckedInMessage>
+  <CheckingInMessage>жылы тексеру</CheckingInMessage>
+  <VersionHistoryTitle>Файл нұсқалары «{0}»</VersionHistoryTitle>
+  <VersionHistoryGridNumberColumn>Ver.</VersionHistoryGridNumberColumn>
+  <VersionHistoryGridNotesColumn>Ескертулер</VersionHistoryGridNotesColumn>
+  <CommandRestoreVersion>қалпына келтіру</CommandRestoreVersion>
+  <ProgressPrepareDownloadOldVersion>ескі нұсқаны жүктеу дайындық</ProgressPrepareDownloadOldVersion>
+  <FileVersionNotFoundMessage>Таңдалған файл нұсқасы табылған жоқ.</FileVersionNotFoundMessage>
+  <ProgressDeletingVersion>Version жою</ProgressDeletingVersion>
+  <ProgressRestoringVersion>Version қалпына келтіру</ProgressRestoringVersion>
+  <FileNeedCheckInMessage>тексеру немесе бас тарту тексеруді жүзеге Таңдалған файл үшін, қайталап көріңіз.</FileNeedCheckInMessage>
+  <FileCheckedOutEditForbiddenMessage>ол пайдаланушы жүзеге тексерілуде, ал Сіз {2} туралы «{1}» «{0}» файлын жою / / қайта атау / қадам өзгерте алмайсыз</FileCheckedOutEditForbiddenMessage>
+  <FileUploadCheckInLabel>Таңдалған файлда-тексеру немесе (төменде қотару пішініне қолдану) файлдың жаңа нұсқасын жүктеуге болады. Таңдалған файл жаңа нұсқасын жасау керек болса, мұнда кез келген файлдарды қотару қажеті жоқ.</FileUploadCheckInLabel>
+  <FileUploadCheckInInvalidFileName>Жүктелу файлының аты таңдалған файлдың аты сияқты дәл осындай болуы тиіс</FileUploadCheckInInvalidFileName>
+  <CheckOutVersionNotes>Бұл нұсқа автоматты түрде құрылды</CheckOutVersionNotes>
+  <RestoreVersionNotes>Бұл нұсқа пайдаланушының {0} нұсқасы қалпына келтіргеннен кейін автоматты түрде құрылды «{1}»</RestoreVersionNotes>
+  <IsCheckedOutHint>Файл жүзеге тексерілген</IsCheckedOutHint>
+  <ExistsOldVersionsHint>Файл басқа нұсқаларын бар</ExistsOldVersionsHint>
+  <IsLockedHint>Файл құлыпталған</IsLockedHint>
+  <FileWasCreatedHint>{0} бұрын құрылды</FileWasCreatedHint>
+  <FileWasModifiedHint>{0} бұрын өзгертілді</FileWasModifiedHint>
+  <CommonChangedAgo>{0} бұрын</CommonChangedAgo>
+  <DaysShort>D</DaysShort>
+  <HoursShort>сағ</HoursShort>
+  <MinutesShort>м</MinutesShort>
+  <FileContainsMetaDataHint>кейбір мәліметтерді (метадеректер) Құрамында</FileContainsMetaDataHint>
+  <FileMetaDataCaptionMobile>Metadata</FileMetaDataCaptionMobile>
+
+  <ExistsPublicLinksFileHint>Файл қоғамдық сілтемелер бар</ExistsPublicLinksFileHint>
+  <ExistsPublicLinksFolderHint>қалта қоғамдық сілтемелер бар</ExistsPublicLinksFolderHint>
+  <PublicLinkNotFound>«{0}» жиыны табылған жоқ арналған қоғамдық сілтеме</PublicLinkNotFound>
+
+  <PublicLinksDeleteWindowTitle>қоғамдық сілтемені (лар) жою</PublicLinksDeleteWindowTitle>
+  <PublicLinksDeleteLinkButton>сілтемені жою</PublicLinksDeleteLinkButton>
+  <PublicLinksDeleteConfirmMsg>Сіз таңдаған қоғамдық сілтемелер жойғыңыз келгені рас па?</PublicLinksDeleteConfirmMsg>
+  <PublicLinksDeleteSingleConfirmMsg>Егер сіз осы сілтемені жойғыңыз келгені рас па?</PublicLinksDeleteSingleConfirmMsg>
+
+  <DetailsMultiValue>(Көп мән)</DetailsMultiValue>
+
+  <GridBottomFilesSizeInfo>Таңдалған: {0} / {1},</GridBottomFilesSizeInfo>
+  <GridBottomFilesFoldersInfo>файлдар: {0} / {1}, қалталар: {2} / {3}</GridBottomFilesFoldersInfo>
+
+  <AmountOfDownloadingsFile>Жүктеулер</AmountOfDownloadingsFile>
+
+  <CookiesDisabledMessage>Браузердің куки функционалы өшіріледі. шолғыш және қайта іске қосу оны қойыңыз.</CookiesDisabledMessage>
+
+  <CommandSendEmail>хат жіберу</CommandSendEmail>
+  <CommandSendWithGmail>Gmail бар жіберу</CommandSendWithGmail>
+  <CommandSendWithOutlook>Outlook бар жіберу</CommandSendWithOutlook>
+  <SendEmailTo>қарай</SendEmailTo>
+  <SendEmailBulkMailingListHint>&lt;b&gt; Тарату тізімі &lt;/b&gt; &lt;br /&gt; Сіз электрондық пошта жіберуге бүкіл топтарды көрсетуге болады</SendEmailBulkMailingListHint>
+  <SendEmailBulkMailingListWindowTitle>Егер электрондық пошта үшін қабылдағыштарды таңдаңыз</SendEmailBulkMailingListWindowTitle>
+  <SendEmailEmptyMailingListMessage>Пошта тізімі бос</SendEmailEmptyMailingListMessage>
+  <SendEmailSenderEmail>жіберуші электрондық пошта</SendEmailSenderEmail>
+  <SendEmailSubject>пән</SendEmailSubject>
+  <SendEmailFilesAsLinksTo>Таңдалған файлдар сілтемелер жіберу</SendEmailFilesAsLinksTo>
+  <SendEmailFilesAsAttachements>Таңдалған файлдар тіркемелер ретінде жіберу</SendEmailFilesAsAttachements>
+  <SendEmailSend>жіберу</SendEmailSend>
+  <SendEmailProgressMessage>Электрондық поштаны жіберу</SendEmailProgressMessage>
+  <GettingMailingListProgressMessage>тарату тізімі алу</GettingMailingListProgressMessage>
+  <SendEmailSuccessMessage>Email сәтті жіберілді.</SendEmailSuccessMessage>
+  <SendEmailResultsMessage>Жіберілген:. {0} &lt;br /&gt; жаңылысы: {1} {2}.</SendEmailResultsMessage>
+  <SmtpServerSettingsIncorrect>SMTP-сервердің опциялары бос немесе дұрыс емес, не болып табылады</SmtpServerSettingsIncorrect>
+  <FromEmailIncorrect>электрондық пошта мекен-жайы бастап дұрыс немесе бос</FromEmailIncorrect>
+  <ToEmailIncorrect>электронды адресіне қате немесе бос</ToEmailIncorrect>
+  <EmailSubjectEmpty>электрондық пошта тақырыбы көрсетілмесе,</EmailSubjectEmpty>
+  <UploadFromUrlTab>URL мекенжайына бастап</UploadFromUrlTab>
+  <UploadFromUrlFieldLabel>URL (HTTP немесе FTP бір файл)</UploadFromUrlFieldLabel>
+  <UploadFromUrlProgressTitle>URL мекенжайына қотарып</UploadFromUrlProgressTitle>
+  <UploadFromUrlMsg>Мекен кері жүктеу</UploadFromUrlMsg>
+  <UploadFromUrlSuccessMsg>Файл «{0}» сәтті «{1}» бастап жүктелген болатын</UploadFromUrlSuccessMsg>
+  <UploadFromUrlUnknownResponse>серверінен жауап танылуға жатпайды</UploadFromUrlUnknownResponse>
+  <UploadFromUrlEmptyFileName>жүктелген файлдың атауы бос</UploadFromUrlEmptyFileName>
+  <UploadFromUrlFileName>атауы бар Save (мекен атауын пайдалануға бос қалдырыңыз)</UploadFromUrlFileName>
+  <UploadFromUrlFileNameMobile>атауы бар Save</UploadFromUrlFileNameMobile>
+  
+  <!-- Common Clouds keys -->  
+  <CloudAuthenticateMessage>Сіз {0} кіру керек. «{1}» сілтемесін басыңыз және сіз кіру нысан қайта бағытталасыз. {2} Қосымша ақпарат. {3}</CloudAuthenticateMessage>
+  <CloudAuthenticateLink>{0} түпнұсқалығын растайтын</CloudAuthenticateLink>  
+  <CloudDownloadingMessage>{0} үшін жүктеу</CloudDownloadingMessage>
+  <CloudAuthWarningMessage>іс-шаралар болған жоқ болса, осы терезені жабу және қайта «{0}» сілтемесін басыңыз.</CloudAuthWarningMessage>
+  <CloudAuthEmptyInvalidMessage>{0} Access Төкен бос немесе жарамсыз болып табылады. қайтадан аутентификациялау сұраймыз.</CloudAuthEmptyInvalidMessage>
+  <CloudDownloadEndMessageTitle>Жүктеу аяқталды</CloudDownloadEndMessageTitle>
+  <CloudDownloadFilesSuccessMessage>{0} сәтті «{1}» {2} қалтаға жүктелген (лар) файлы.</CloudDownloadFilesSuccessMessage>
+  <CloudNotDownloadedFilesMessage>{0} файл (дар) жүктелген емес:</CloudNotDownloadedFilesMessage>
+  <CloudFoldersCreatedSuccessMessage>{0} қалталар (лар) табысты «{1}» {2} қалтасында жасалады.</CloudFoldersCreatedSuccessMessage>
+  <CloudNotFoldersCreatedMessage>{0} қалталар (ев) емес:</CloudNotFoldersCreatedMessage>
+  <CloudFilesFoldersSuccessMessage>табысты «{2}» {3} қалтасына жүктелген {0} (лар) файлын {1} қалта (лар).</CloudFilesFoldersSuccessMessage>
+  <CloudNotFilesFoldersDownloadedMessage>{0} (лар) файлын {1} қалта (лар) жүктелген емес:</CloudNotFilesFoldersDownloadedMessage>
+  <CloudLinkText>Визит {0}</CloudLinkText>
+  <CloudLinkDescription>{0} бетке өту</CloudLinkDescription>
+  <CloudRootFolderName>&lt;b&gt; {0} түбірлік қалта &lt;/b&gt;</CloudRootFolderName>
+  <CloudCheckFolerMessage>жалғастыру үшін бірыңғай {0} қалтасын тексеріңіз.</CloudCheckFolerMessage>
+  <CloudSelectFolderMessage>жалғастыру үшін {0} қалтаны таңдаңыз.</CloudSelectFolderMessage>
+  <CloudGetFoldersInfoProgressMessage>Жүктеу {0} қалталар ақпарат</CloudGetFoldersInfoProgressMessage>
+  <CloudGetItemsInfoProgressMessage>Жүктеу {0} элементтер ақпарат</CloudGetItemsInfoProgressMessage>
+  <CloudUploadSelectItemsMessage>жалғастыру үшін {0} элементтерді таңдаңыз.</CloudUploadSelectItemsMessage>
+  <CloudUploadTotalFiles>Жалпы файл саны: {0} ({1})</CloudUploadTotalFiles>
+  <CloudUploadProgressMessage>{0} кері жүктеу</CloudUploadProgressMessage>
+  <CloudSignInAsDifferentUserText>{0} бастап Шығу</CloudSignInAsDifferentUserText>
+  <CloudLogoutProgressMsg>{0} бастап Шығу</CloudLogoutProgressMsg>
+  <CloudRevokeTokenMsg>токенді жою</CloudRevokeTokenMsg>
+  <CloudRefreshTokenMsg>сергітетін таңбалауышы</CloudRefreshTokenMsg>
+  <CloudAuthNotCompleteMsg>Аутентификация аяқталған жоқ. Сұраймыз /&gt; &lt;br</CloudAuthNotCompleteMsg>
+  <CloudTrustedSitesMsg> «Сенімді тораптар» тізіміне келесі сайттарды тексеру: &lt;br /&gt; &lt;br /&gt;</CloudTrustedSitesMsg>
+  <TrustedSitesForMicrosoftEdge>Егер сіз Microsoft Edge пайдаланып отырсаңыз, онда Internet Explorer бағдарламасында Сенімді тораптар тексеру</TrustedSitesForMicrosoftEdge>
+  <CloudCheckAuthMsg>Check {0} аутентификация</CloudCheckAuthMsg>
+  <CloudLoadMsg>Жүктеу {0}</CloudLoadMsg>
+  <CloudFreeSpaceError>Файлдарды жүктеу үшін {2} жеткілікті бөлме жоқ. Ал: {0}. Файл мөлшері: {1}.</CloudFreeSpaceError>
+  <CloudFreeSpaceExceeded>{0} жеткілікті орын жоқ</CloudFreeSpaceExceeded>
+  <CloudExceedFileSizeError>{0} - жүктеуге тырысады файл жүктеу үшін барынша рұқсат етілген мөлшері артық {1} файл өлшемін, бар.</CloudExceedFileSizeError>
+  <CloudFolderNotFound>Directory табылған жоқ. Мүмкін, бұл жойылған</CloudFolderNotFound>
+  <CloudFileNotFound>Файл табылған жоқ. Мүмкін, бұл жойылған</CloudFileNotFound>
+  <CloudNoFoldersMessage>Жоқ көрсету үшін қалталар бар</CloudNoFoldersMessage>
+  <CloudLibraryNotLoadedMsg>{0} клиенттік кітапхана тие- емес! &lt;br /&gt; Интернет байланысын тексеріп, немесе бетті жаңартыңыз. &lt;br /&gt; Сондай-ақ сұраймыз</CloudLibraryNotLoadedMsg>
+  <CloudDownloadWithNewNames>Келесі файл (дар) жаңа аттармен жүктелген:</CloudDownloadWithNewNames>
+
+  <!-- Google Drive Cloud keys -->
+  <CommandDownloadToGoogleDocs>Google Drive үшін жүктеп</CommandDownloadToGoogleDocs>
+  <GoogleDocsSaveAs>ретінде сақтау:</GoogleDocsSaveAs>
+  <GoogleDocsSaveAsTitle>ретінде «{0}» Save ...</GoogleDocsSaveAsTitle>
+  <GoogleDocsDownloadEndWarningMessage>Егер сіз Google Drive шотына жүктелген құжаттарды көре алмасаңыз, бірнеше секунд күтіңіз және Google Drive тізімін жаңарту.</GoogleDocsDownloadEndWarningMessage>
+  <GoogleDriveUploadNoFilesMessage>жүктеу үшін Google Drive бірде-файлдар</GoogleDriveUploadNoFilesMessage>
+  <GoogleDriveMaxUploadSizeError>Content-Type {1} асып жатыр жүктеу туралы «{0}» ең жоғары мөлшері үшін.</GoogleDriveMaxUploadSizeError>
+  <GoogleDriveConvertMsg>Егер мүмкіндік болса, файлдарды Google құжаттар форматында түрлендіру. {0} Қосымша ақпарат {1}.</GoogleDriveConvertMsg>
+
+  <!-- Box Cloud keys -->
+  <CommandDownloadToBox>Box үшін жүктеп</CommandDownloadToBox>
+  <BoxDownloadWithNewNames>Келесі файл (дар) жаңа нұсқаларымен жаңартылды:</BoxDownloadWithNewNames>
+  <BoxNoViewPermission>Таңдалған каталогын көру үшін рұқсатыңыз жоқ</BoxNoViewPermission>
+  <BoxNoDownloadPermission>Сіз жүктеп алу үшін рұқсатыңыз жоқ</BoxNoDownloadPermission>
+  <BoxNoUploadPermission>Сіз кері жүктеуге рұқсатыңыз жоқ</BoxNoUploadPermission>
+  <BoxUnableCreateOrInfoError>ақпаратты жасау немесе алу мүмкін емес</BoxUnableCreateOrInfoError>
+  
+  <!-- Dropbox Cloud keys -->
+  <CommandDownloadToDropbox>Dropbox үшін жүктеп</CommandDownloadToDropbox>
+  
+  <!-- OneDrive Cloud keys -->
+  <CommandDownloadToSkyDrive>OneDrive үшін жүктеп</CommandDownloadToSkyDrive>
+  <AuthenticateOAuthSkyDriveMessageShort>Сіз өзіңіздің Microsoft Live ескере кіруіңіз керек.</AuthenticateOAuthSkyDriveMessageShort>
+  <SkyDriveAuthAlsoString>Сондай-ақ,</SkyDriveAuthAlsoString>
+  <SkyDriveLoginButtonTitle>Кіру</SkyDriveLoginButtonTitle>
+  <SkyDriveRegistryMessage>бір Windows Live ID бар емес пе? {0} {1} ... тіркеліңіз</SkyDriveRegistryMessage>
+  <SkyDriveMapRootFolder>Ескерту! Сіз {0} {1} картасы сіздің OneDrive қалтасы болады. жол</SkyDriveMapRootFolder>
+  <SkyDriveMoreInfoLink>OneDrive туралы {0} көбірек ақпарат (SkyDrive) {1}</SkyDriveMoreInfoLink>
+  <OneDriveMaxUploadSizeError>жүктелген файлдың рұқсат етілген мөлшері ({0}) асып отыр: {1}</OneDriveMaxUploadSizeError>
+  <!-- OneDrive for Business -->
+  <OneDriveForBusinessMapWebFolderInfo>&lt;b&gt; &lt;/b&gt; Осы жерде файлдарды ашу алдында, сіз бірінші, сіздің сенімді сайттар тізіміне веб сайты қосу керек веб-сайтына өтіңіз де, (IE браузерде) автоматты түрде кіру үшін опцияны таңдаңыз! Ескерту.</OneDriveForBusinessMapWebFolderInfo>
+  
+  <UploadFromUrlLabelText>Сіз, жаһандық файл серверде немесе {0} сияқты файл алмасу қызметіне сақталатын файлдың URL мекен-жайын көрсетуге болады {1}, {2}, {3}, {4}.</UploadFromUrlLabelText>
+  <UploadFromUrlLabelTextMobile>файлдың URL мекен-жайын көрсетіңіз</UploadFromUrlLabelTextMobile>
+
+  <LinkToFileTitle>Файл / қалта сілтеме</LinkToFileTitle>
+  <LinkToFileWarningAnonym>Бұл сілтеме файлға анонимдік қол жеткізуге мүмкіндік береді. Кез келген пайдаланушы осы сайтта жоқ тіркелгісі бар тіпті бір, жүктеуге болады немесе файлдар қоғамдық сілтеме арқылы жүктеңіз. файлға Қоғамдық сілтеме сіз бір Таңдалған файлды жүктеуге мүмкіндік береді. {0} Қосымша ақпарат {1}.</LinkToFileWarningAnonym>
+  <LinkToFileDownloadFileLink>Бұл сілтеме сіз {1} Таңдалған файлды {0} жүктеуге мүмкіндік береді. Сіз осы сілтемені пайдалану үшін жарамды есептік жазбасы қажет. Бұл файлға анонимдік қол жеткізуін қамтамасыз етпейді.</LinkToFileDownloadFileLink>
+  <LinkToFileExpireDate>Мерзімнің өту күні</LinkToFileExpireDate>
+  <LinkToFileDownloadCnt>Жүктеу саны шегі</LinkToFileDownloadCnt>
+  <LinkToFileDownloadType>Сілтеме түрі</LinkToFileDownloadType>
+  <LinkToFileGenerate>сілтеме жасау</LinkToFileGenerate>
+  <LinkToFilePasswordNotMatch>Парольдеріңіз сәйкес келмейді</LinkToFilePasswordNotMatch>
+  <LinkToFilePasswordRequired>қоғамдық сілтеме құпия сөзі талап етіледі</LinkToFilePasswordRequired>
+  <LinkToFileInvalidForm>Жарамсыз параметрлері</LinkToFileInvalidForm>
+  <LinkToFileAnonymDownloadLinkHint>«{0}» жөніндегі қоғамдық сілтеме:</LinkToFileAnonymDownloadLinkHint>
+  <LinkToFileAnonymDownloadShortLinkHint>«{0}» қысқа қоғамдық сілтеме:</LinkToFileAnonymDownloadShortLinkHint>
+  <LinkToFileOpenFolderLink>Бұл сілтеме сіз {1} таңдалған қалтаны {0} ашуға мүмкіндік береді. Сіз осы сілтемені пайдалану үшін жарамды есептік жазбасы қажет. Бұл қалтаға анонимдік қол жеткізуін қамтамасыз етпейді.</LinkToFileOpenFolderLink>
+  <LinkToFileOpenFileLink>Бұл сілтеме файлмен қалтаны ашады және оны баса назар аударылады</LinkToFileOpenFileLink>
+  <LinkToFileDaysLeft>қалған күндер</LinkToFileDaysLeft>
+  <LinkToFileCaptionMobile>Мемлекеттік сілтемелер</LinkToFileCaptionMobile>
+
+  <PublicFolderLinkHint>«{0}» папкасына қоғамдық сілтеме:</PublicFolderLinkHint>
+  <PublicFolderShortLinkHint>Қалтаға Қысқа қоғамдық сілтеме «{0}»:</PublicFolderShortLinkHint>
+  <PublicFolderLinkDownloadZipHint>қалта ZIP мұрағат сілтемесін көшіріп алу «{0}»:</PublicFolderLinkDownloadZipHint>
+  <PublicFolderLinkShortDownloadZipHint>қалта ZIP мұрағат қысқа жүктеу сілтемесі «{0}»:</PublicFolderLinkShortDownloadZipHint>
+  <PublicFolderLinkZipDownload>Қысыңыз және жүктеп ағымдағы қалтаны {0} (а ZIP мұрағатына)</PublicFolderLinkZipDownload>
+  <PublicFolderLinkOverwriteWhileUpload>қолданыстағы қайта жазу</PublicFolderLinkOverwriteWhileUpload>
+  <PublicFolderLinkOpenFolderHint>Ашық қалта</PublicFolderLinkOpenFolderHint>
+  <PublicFolderDownloadDisabledNote>Ескерту! қапшық иесі осы қапшықтағы осы қалтасынан файлдарды жүктеу тыйым еді.</PublicFolderDownloadDisabledNote>
+  <PublicFolderLinkSendEmails>электрондық пошта келушілер қызметі туралы ақпаратты жіберу</PublicFolderLinkSendEmails>
+  <PublicFolderAnonymAccessControl>Қатынасты басқару</PublicFolderAnonymAccessControl>
+  <PublicFolderAnonymDownload>жүктеу файлдары</PublicFolderAnonymDownload>
+  <PublicFolderAnonymZipDownload>Жүктеу қалталар (ZIP)</PublicFolderAnonymZipDownload>
+  <PublicFolderAnonymUpload>Upload</PublicFolderAnonymUpload>
+  <PublicFolderAnonymViewContent>Қарау файл тізімі</PublicFolderAnonymViewContent>
+  <PublicFolderNoteForUsers>пайдаланушылар үшін Ескерту</PublicFolderNoteForUsers>
+  <PublicFolderACLNotSet>Қатынасты басқару орнатылмаған болса</PublicFolderACLNotSet>
+  <PublicFolderWarningAnonym>Бұл сілтеме қалтасына анонимдік қол жеткізуге мүмкіндік береді. Кез келген пайдаланушы осы сайтта жоқ тіркелгісі бар тіпті бір, жүктеуге болады немесе файлдар қоғамдық сілтеме арқылы жүктеңіз. қалтаға Қоғамдық сілтеме сіз (мұрағатта оралған) Қалтаны тұтастай және жеке файлдарды екеуі жүктеуге мүмкіндік береді. {0} Қосымша ақпарат {1}.</PublicFolderWarningAnonym>
+  <PublicLinksShowForAllItems>барлық көрсету үшін</PublicLinksShowForAllItems>
+  <PublicLinksShowForSelected>Таңдалған үшін көрсету</PublicLinksShowForSelected>
+  
+  <MultipleFileInputMessage>Ескерту! Сіздің браузеріңіз бір мезгілде бірнеше файлдарды таңдау қолдайды.</MultipleFileInputMessage>
+  <UploadZipUnzipNote>Сіз бірнеше файлдар мен қалталарды бар Қысылған жүктеуге және содан кейін мәтінмәндік мәзірден «{0}» пәрменін пайдалана отырып, оны шығарып алуға болады.</UploadZipUnzipNote>
+  <DnDFileUploadingStatusCode>күй коды</DnDFileUploadingStatusCode>
+  <DnDFileUploadingPathOrNameEmpty>жолы мен немесе файл атауы көрсетілген емес,</DnDFileUploadingPathOrNameEmpty>
+  <DnDFileUploadingRemoveFromList>тізімінен алып тастау</DnDFileUploadingRemoveFromList>
+  <DndFileUploadingDontDropFoldersMsg>Сіз төмендегі кестеде файлдарды сүйреп апаруға болады. Сіз қалталарды құлатып алмайды.</DndFileUploadingDontDropFoldersMsg>
+  <DndFileUploadingAllowDropFoldersMsg>Сіз сүйреп төмендегі кестеде файлдарды және қалталарды апаруға болады.</DndFileUploadingAllowDropFoldersMsg>
+  <DndFileUploadingFilesSummaryInfo>файлдар саны: {0} ({1})</DndFileUploadingFilesSummaryInfo>
+  <DropFilesHere>Жүктеу файлдарын Drop</DropFilesHere>
+  
+  <FileGridDownloadColumn>жүктеу файлдары</FileGridDownloadColumn>
+  <FileAttributesField>Нышандар</FileAttributesField>
+  <FolderCalculateSize>есептеп шығару</FolderCalculateSize>
+  <FolderRecalculateSize>қайта есептеу</FolderRecalculateSize>
+  <FolderContainsField>Құрамында</FolderContainsField>
+  <FolderContainsFilesFolders>{0} файлдар, {1} папка</FolderContainsFilesFolders>
+  <FolderCalculatingMessage>есептеу</FolderCalculatingMessage>
+
+  <SearchTitle>Файл іздеу. Қолда бар үлгілері: {0}</SearchTitle>
+  <SearchType>іздеу</SearchType>
+  <SearchOnlyFiles>ғана файлдар</SearchOnlyFiles>
+  <SearchOnlyFolders>тек қалталар</SearchOnlyFolders>
+  <SearchBothFilesFolders>файлдар мен қалталарды екеуі</SearchBothFilesFolders>
+  <SearchFileDetails>файл туралы мәліметтер</SearchFileDetails>
+  <SearchFileContent>файл мазмұны</SearchFileContent>
+  <SearchByDateFrom>-дан</SearchByDateFrom>
+  <SearchByDateTo>қарай</SearchByDateTo>
+  <SearchLocation>орналасқан жері</SearchLocation>
+  <SearchLocationEntire>Anywhere</SearchLocationEntire>
+  <SearchLocationCurrent>ағымдағы</SearchLocationCurrent>
+  <SearchSearch>іздеу</SearchSearch>
+  <SearchNothingFound>Ештеңе табылған жоқ Егер іздеу критерийлерін нақтылау сұраймыз.</SearchNothingFound>
+  <SearchErrorCaption>Іздеу қате</SearchErrorCaption>
+  <SearchResultsNotComplete>Назар! кейбір қалталар әлі индекстелген емес, сондай-ақ іздеу нәтижелерін толық емес болуы мүмкін.</SearchResultsNotComplete>
+  <SearchRepeatOrContactAdmin>Кейінірек қайталап Сіздің сұранысыңызға көріңіз немесе әкімшіңізге хабарласыңыз.</SearchRepeatOrContactAdmin>
+  <SearchLinkToManual>{0} Windows Іздеу Көмек {1} қараңыз</SearchLinkToManual>
+  <QuerySearchByNameText>аты бойынша іздеу</QuerySearchByNameText>
+  <QuerySearchByConentText>мазмұны бойынша</QuerySearchByConentText>
+  <SearchByDetailsWarning>Назар! Сіз қасиеттері іздеу пайдалана келер еді параметрлерінде көрсетілген. Бұл жағдайда, іздеу орнына Windows индекстеу қызметін пайдалана отырып, стандартты әдісін пайдалана отырып жүзеге асырылатын болады.</SearchByDetailsWarning>
+  <SearchInSpecialFolderWarning>Назар! ағымдағы қалтаны іздеу үшін қолданылмайды. Жалғастырсаңыз, іздеу барлық каталогтар жүзеге асырылатын болады.</SearchInSpecialFolderWarning>
+
+  <UploadTitle>Бірнеше файлдарды кері жүктеу</UploadTitle>
+  <UploadSimpleTab>стандартты</UploadSimpleTab>
+  <UploadSimpleReset>Reset</UploadSimpleReset>
+  <UploadSimpleUpload>Upload</UploadSimpleUpload>
+  <UploadSimpleUploadFolderLabelCollapsed>Upload қалта</UploadSimpleUploadFolderLabelCollapsed>
+  <UploadSimpleUploadFolderButtonText>қалтаны таңдаңыз</UploadSimpleUploadFolderButtonText>
+  <UploadJavaTab>Java</UploadJavaTab>
+  <UploadJavaIgnorePaths>(Жолдарын ескермеу) бір қалтадағы барлық файлдарды орналастырыңыз</UploadJavaIgnorePaths>
+  <UploadFlashTab>жарқыл</UploadFlashTab>
+  <UploadSilverlightTab>Silverlight</UploadSilverlightTab>
+  <UploadPartially>файлдар Кейбір жүктелген мүмкін емес</UploadPartially>
+  <UploadFolderNotSelectedTitle>Қалта таңдалмаса</UploadFolderNotSelectedTitle>
+  <UploadFolderNotSelected>файлдар жүктелетін болады, ол үшін қалтаны таңдаңыз</UploadFolderNotSelected>
+  <UploadInProgress>Егер файлдарды кері жүктеу</UploadInProgress>
+  <UploadInvalidFormFields>Нысаны өрістері жарамсыз құндылықтармен енгiзуге болмайды</UploadInvalidFormFields>
+  <UploadAjaxFailed>Ajax байланыс сәтсіз</UploadAjaxFailed>
+  <UploadFilesAlreadyExists>Файл (лар) әлдеқашан бар</UploadFilesAlreadyExists>
+  <UploadOverwriteFiles>Бар файлдарды қайта жазылады. Жалғастырасыз ба?</UploadOverwriteFiles>
+  <UploadOverwriteOrRenameFiles>Сіз көрсеткен каталогта Сәйкес аттармен бір немесе бірнеше файлдар бар. Егер сіз бар файлдарды үстінен жаза берейік пе? Басыңыз, сіз бұрыннан бар файлдарды қайта жазу қажет, немесе «{1}», егер «{0}» - сіз барлық файлдарды сақтап келсе, (олар өзгертілді болады).</UploadOverwriteOrRenameFiles>
+  <UploadNotModifyExistingFiles>Сіз көрсеткен каталогта аттары сәйкес келетін бір немесе бірнеше файлдар бар. файлдар жүктелген мүмкін емес. жүктеу тізімінен бар файлдарды жою немесе оларды қайта атау сұраймыз.</UploadNotModifyExistingFiles>
+  <UploadRenamedExistingFiles>Сіз көрсеткен каталогта аттары сәйкес келетін бір немесе бірнеше файлдар бар. аттарды сәйкес файлдар өзгертілді болады.</UploadRenamedExistingFiles>
+  <UploadNotAllowedTitle>Жүктеу рұқсат етілмейді</UploadNotAllowedTitle>
+  <UploadNotAllowedPrompt>Сіз бұл қалтаға файлдарды кері жүктей алмайсыз</UploadNotAllowedPrompt>
+
+  <UploadMobileIOSVideo>видео қосу. Егер сіз бейне файлды кері жүктеу қажет болса, осы параметрді қосыңыз.</UploadMobileIOSVideo>
+  <UploadMobileAurigmaLink>Егер сіз Aurigma дейін болуы керек екенін ескеріңіз! Файлдарды қотарып үшін құрылғыдағы орнатылған. Aurigma дейін орнатуды осында түртіңіз! суреттер мен бейне жүктеу үшін өтініш.</UploadMobileAurigmaLink>
+  <UploadMobileAurigmaReady>Aurigma Up кейін! «деген төмендегі батырмасын кері қотару» орнатылған немесе сіз әлдеқашан орнатылған болса, түймесін басыңыз.</UploadMobileAurigmaReady>
+  <UploadMobileAurigmaFilePrefix>жүктелген файлдар үшін Префикс</UploadMobileAurigmaFilePrefix>
+  <UploadMobileResult>Upload нәтиже:</UploadMobileResult>
+  <UploadMobileUrlPlaceHolder>мұнда URL мекенжайын енгізіңіз</UploadMobileUrlPlaceHolder>
+  <UploadMobileFileNamePlaceHolder>мұнда жаңа файл атауын енгізіңіз</UploadMobileFileNamePlaceHolder>
+  <UploadBrowseLabel>Іздестіру ...</UploadBrowseLabel>
+  
+  <MobileToolTipsCaption>Сіз білесіз бе, бұл ...</MobileToolTipsCaption>
+  <MobileToolTipsNextButton>Келесі ұшы</MobileToolTipsNextButton>
+  <MobileToolTipsIKnowButton>Мен оны білемін</MobileToolTipsIKnowButton>
+  <MobileToolTipsHideButton>көрсету ешқашан</MobileToolTipsHideButton>
+  <MobileToolTipsMultiSelection>бірнеше файлдарды немесе қалталарды таңдау үшін, сіз &lt;b&gt; {0} &lt;/b&gt; түймесін түрту арқылы көп таңдау режимін қосу керек. көп іріктеу режимінен шығу үшін оны қайтадан түртіңіз.</MobileToolTipsMultiSelection>
+  <MobileToolTipsSlideToRemove>Сіз оны жою үшін тізім элементтерінің кез келген оңнан солға сырғытыңыз болады. Кірістірілген жою батырмасы тізім элементінің үстіне пайда болады.</MobileToolTipsSlideToRemove>
+  <MobileToolTipsTapAndHoldForMenu>Контекстік мәзірді көрсету үшін түймесін түртіңіз және тізім элементтерінің кез келген басып тұрыңыз. «Ақпаратты ашу» түймесін түртіңіз арқылы көрсетіледі, сол контекст мәзірінің</MobileToolTipsTapAndHoldForMenu>
+  <MobileToolTipsDoubleTapForPreview>оны таңдау үшін файлды Бірыңғай белгішесін, оны алдын ала қарау немесе жүктеп алу үшін екі рет түртіңіз. ашу үшін оны қалтасына Бірыңғай түртіңіз.</MobileToolTipsDoubleTapForPreview>
+  <MobileToolTipsPullDownToRefresh>ол мазмұны ғой қайта жүктеу тізімін төмен қарай тартыңыз.</MobileToolTipsPullDownToRefresh>
+  <MobileToolTipsPinchToScale>Сіз-ұлғайту жəне ұлғайту жүзеге суреттерді үшін «шымшым» қимылды пайдалануға болады.</MobileToolTipsPinchToScale>
+  <MobileToolTipsTapToHideBars>құралдар тақталарын ауыстырып қосу үшін сурет тақтасында кез келген жерін түртіңіз.</MobileToolTipsTapToHideBars>
+  <MobileToolTipsSlideLeftRightToNext>слайд толқытар суреттерді қосыңыз.</MobileToolTipsSlideLeftRightToNext>
+
+  <DownloadToCloudMobileTip>қалтаны таңдау үшін Бірыңғай белгішесін, оны ашу үшін екі рет түртіңіз.</DownloadToCloudMobileTip>
+  
+  <UploadTotalMaxSizeMessage>Ескерту! барлық қотарып берілген файлдар максималды мөлшері {0} аспауы тиіс.</UploadTotalMaxSizeMessage>
+  <UploadOneFileMaxSizeMessage>Ескерту! Әр жүктелген файлдың ең жоғары мөлшері {0} аспауы тиіс.</UploadOneFileMaxSizeMessage>
+  <UploadUnlimitedSizeMessage>Ескерту! қотарылған файлдар мөлшері шектелмеген.</UploadUnlimitedSizeMessage>
+  <SimpleUploadSetFileNameNote>2-ескерту! файл таңдалған соң, сіз жүктеуден кейін файл ие болады атауын өзгертуге болады</SimpleUploadSetFileNameNote>
+
+  <AnonymousUploadTitle>Бұл қалтаға файлдарды кері жүктеу</AnonymousUploadTitle>
+  <AnonymousUploadDescription>Сіз бұл қалтаға файлдарды жүктеуге болады. «деген төмендегі батырмасын шолуға» және файлдарды таңдаңыз.</AnonymousUploadDescription>
+  <AnonymousUploadOverwriteHint>жүктелген файл әлдеқашан бар болса, ол ауыстырылады.</AnonymousUploadOverwriteHint>
+  <AnonymousUploadShowUploadHint>Шоуды нысаны</AnonymousUploadShowUploadHint>
+  <AnonymousUploadHideUploadHint>Жасыру қотару пішініне</AnonymousUploadHideUploadHint>
+  <AnonymousUploadNewFolderNameHint>саласындағы төмен файлдар жүктеледі онда (ол жоқ болса қалта құрылатын болады) подкаталог атауын көрсетуге болады:</AnonymousUploadNewFolderNameHint>
+  <AnonymousUploadCompleteTitle>қалтаға {0} үшін кері жүктеу аяқталды</AnonymousUploadCompleteTitle>
+  <AnonymousUploadExistsFilesMessage>{0}: аттас (лар) бар файл (дар) өзінде бар, өйткені мынадай файл (дар) жүктелген жоқ.</AnonymousUploadExistsFilesMessage>
+  <AnonymousUploadOwnersNote>қалта иесінен Ескерту</AnonymousUploadOwnersNote>
+  <AnonymousDownloadPageTitle>жүктеу файлы</AnonymousDownloadPageTitle>
+  <AnonymousDownloadFileHint>жүктеу файлы</AnonymousDownloadFileHint>
+  <AnonymousUploadPageTitle>қалтаға кері қотару</AnonymousUploadPageTitle>
+  <AnonymousPublicFolderPageTitle>Мемлекеттік қалта</AnonymousPublicFolderPageTitle>
+  <AnonymousLoginAccessUserFailure>Бұл ресурсқа қол жеткізе алмайтын шотына теңдестіруден өткен жатырмыз. Сіздің қол жеткізу үшін басқа сенім грамоталарын енгізіңіз. сіз оларды білмейтін болсаңыз, қоғамдық сілтеме иесіне немесе әкімшіңізге хабарласыңыз.</AnonymousLoginAccessUserFailure>
+  <ProgressGettingAnonymLink>Мемлекеттік сілтеме жасау</ProgressGettingAnonymLink>
+  <ProgressGettingAnonymLinks>Anonymous сілтемелер алу</ProgressGettingAnonymLinks>
+  <ProgressGettingBoxViewLink>Box қарау сілтемесін алу</ProgressGettingBoxViewLink>
+  <AutodeskScriptNotIncludedMessage>Autodesk Viewer сценарий жүктеу мүмкін болмады</AutodeskScriptNotIncludedMessage>
+  <ProgressUninitializeAutodeskViewer>Жабу Autodesk Viewer</ProgressUninitializeAutodeskViewer>
+  <ProgressGettingAutodeskViewLink>Autodesk қарау туралы ақпарат алу</ProgressGettingAutodeskViewLink>
+  <AnonymousChangeLanguageHint>тілді таңдаңыз</AnonymousChangeLanguageHint>
+  <AnonymousUpLinkHint>Ата-аналар қалтаға оралу</AnonymousUpLinkHint>
+  <AnonymousPasswordDescription>қалтасы құпия сөзбен қорғалған</AnonymousPasswordDescription>
+  <AnonymousPasswordIncorrectMessage>құпия сөз дұрыс емес</AnonymousPasswordIncorrectMessage>
+  <AnonymousErrorTitle>Мемлекеттік сілтеме қате</AnonymousErrorTitle>
+  <AnonymousErrorNotFound>Мемлекеттік сілтеме «{0}» табылған жоқ!</AnonymousErrorNotFound>
+  <AnonymousErrorAccessDenied>Сіз мемлекеттік сілтеме «{0}» пайдалануға рұқсатыңыз жоқ</AnonymousErrorAccessDenied>
+  <AnonymousErrorFileNotFound>қоғамдық сілтеме «{0}» емес қолданыстағы файл немесе қалтаны жатады немесе NTFS оқу қатынасына рұқсат бас тартқан</AnonymousErrorFileNotFound>
+  <AnonymousErrorUnknownLinkType>қоғамдық сілтеме «{0}» табылған жоқ</AnonymousErrorUnknownLinkType>
+  <AnonymousSendEmailSubject>қоғамдық қалтаға келушілер қызметі</AnonymousSendEmailSubject>
+  <AnonymousSendEmailUploadBody>{1}: мынадай файлдар сіздің қоғамдық қалтаға {0} үшін жүктелген болды.</AnonymousSendEmailUploadBody>
+  <AnonymousSendEmailDownloadBody>{0} файл сіздің қоғамдық қалтаға {1} торабынан қотарылған болатын.</AnonymousSendEmailDownloadBody>
+  <AnonymousSendEmailZipDownloadBody>қоғамдық қалтаға {0} бүкіл мазмұны ZIP мұрағатына жүктелген болатын.</AnonymousSendEmailZipDownloadBody>
+  <AnonymousViewLinksButton>қарау сілтемелер</AnonymousViewLinksButton>
+  <AnonymousViewLinksHint>қолданыстағы қоғамдық сілтемелер көру үшін</AnonymousViewLinksHint>
+  <AnonymousViewLinksWindowTitle>Мемлекеттік сілтемелер</AnonymousViewLinksWindowTitle>
+  <AnonymousViewLinksDateCreatedColumn>Жасалған күні</AnonymousViewLinksDateCreatedColumn>
+  <AnonymousViewLinksDateExpiredColumn>Мерзімнің өту күні</AnonymousViewLinksDateExpiredColumn>
+  <AnonymousViewLinksPermissionColumn>рұқсат</AnonymousViewLinksPermissionColumn>
+  <AnonymousViewLinksDownloadedColumn>сол жақ жүктеулер саны</AnonymousViewLinksDownloadedColumn>
+  <ProgressDeletingAnonymousLink>қоғамдық сілтемені жою</ProgressDeletingAnonymousLink>
+  <ProgressSavingAnonymousLink>қоғамдық сілтемесі сақталуда</ProgressSavingAnonymousLink>
+  <AnonymousEditLinkWindowTitle>«{0}» үшін мемлекеттік сілтемені өңдеу</AnonymousEditLinkWindowTitle>
+  <AnonymousEditLinkShowUrl>көрсету сілтеме</AnonymousEditLinkShowUrl>
+  <AnonymousEditLinkNotFound>қоғамдық сілтеме табылған жоқ немесе оның қолданылу мерзімі өтіп кетсе</AnonymousEditLinkNotFound>
+
+  <AnonymousLinkSendViaButton>арқылы жіберу ...</AnonymousLinkSendViaButton>
+  <AnonymousLinkSendViaEmailItem>Электрондық пошта...</AnonymousLinkSendViaEmailItem>
+  <AnonymousLinkSendButton>электрондық пошта арқылы жіберу ...</AnonymousLinkSendButton>
+  <AnonymousLinkSendSubject>Web файл менеджері Мемлекеттік Сілтеме</AnonymousLinkSendSubject>
+
+  <AnonymousLinkAdvOptTitle>Қосымша параметрлер</AnonymousLinkAdvOptTitle>
+  <AnonymousLinkViewTypeButton>Сілтеме қарау</AnonymousLinkViewTypeButton>
+  <AnonymousLinkViewTypeDefault>толық</AnonymousLinkViewTypeDefault>
+  <AnonymousLinkViewTypeShort>қысқа</AnonymousLinkViewTypeShort>
+
+  <AnonymousLinkShowCommentsLabel>Көрсету сипаттамасы, жапсырмалар мен ескертулер</AnonymousLinkShowCommentsLabel>
+  <AnonymousLinkShowCommentsShort>Для түсiнiктiң көрсету</AnonymousLinkShowCommentsShort>
+
+  <QRCodeButton>QR Code</QRCodeButton>
+
+  <AnonymousLinkLimitedAccessTitle>шектеулі қол</AnonymousLinkLimitedAccessTitle>
+  <AnonymousLinkLimitAccessCheckBox>тек көрсетілген тіркелген пайдаланушылар үшін қол жеткізуді шектеу</AnonymousLinkLimitAccessCheckBox>
+  <AnonymousLinkLimitAccessTextArea>пайдаланушы аттары немесе электрондық хаттарды енгізіңіз (үтірмен бөлінген)</AnonymousLinkLimitAccessTextArea>
+  <AnonymousLinkLimitAccessSendCheckBox>көрсетілген пайдаланушыларға хабарландыруларын жіберу</AnonymousLinkLimitAccessSendCheckBox>
+  <AnonymousLinkLimitAccessPersMsgLabel>Жеке хабарлама (міндетті емес)</AnonymousLinkLimitAccessPersMsgLabel>
+  <AnonymousLinkLimitAccessPassAndUsersMsg>Сіз сілтемені кіру үшін бір уақытта құпия сөзіңізді және пайдаланушыларды көрсеткен. нәрсе бір көрсетіңіз.</AnonymousLinkLimitAccessPassAndUsersMsg>
+  <AnonymousLinkLimitAccessUsersNotFound>пайдаланушылар:
+    {0}
+    бар емес</AnonymousLinkLimitAccessUsersNotFound>
+  <AnonymousLinkLimitAccessEmailsNotFound>электрондық пошта:
+    {0}
+    бар емес</AnonymousLinkLimitAccessEmailsNotFound>
+  <AnonymousLinkLimitAccessUsersEmailsNotFound>пайдаланушылар:
+    {0}
+    және электрондық пошта:
+    {1}
+    бар емес</AnonymousLinkLimitAccessUsersEmailsNotFound>
+
+  <AnonymousLinkUnableToCreate>Anonymous сілтемені жасау мүмкін емес</AnonymousLinkUnableToCreate>
+  <AnonymousLinkShortUrlLabel>қысқа сілтемені алуға (оң төменгі жағындағы) Жаңарту белгішесін басыңыз сұраймыз</AnonymousLinkShortUrlLabel>
+  <AnonymousLinkShortUrlUpdate>қысқа сілтемені алыңыз немесе жаңартыңыз</AnonymousLinkShortUrlUpdate>
+  <AnonymousLinkLongUrlNotSpecified>Ұзақ URL көрсетілмесе,</AnonymousLinkLongUrlNotSpecified>
+
+  <ClientFileOrDirectoryAlreadyExists>Бұл атауы бар файл немесе каталог қазірдің өзінде бар</ClientFileOrDirectoryAlreadyExists>
+  <ClientPermissionsAllowTypes>Ағымдағы рұқсаттар тек келесі файл түрлерінің {0} осы операцияны мүмкіндік</ClientPermissionsAllowTypes>
+  <ClientPermissionsDenyTypes>Ағымдағы рұқсаттар Келесі файл түрлері {0} осы пайдалануға тыйым</ClientPermissionsDenyTypes>
+  <OfficeApplicationNotFoundAlert>Office қолданбалы табылған жоқ. Мәтін жолағындағы сілтемені пайдаланып қолмен файлын ашыңыз.</OfficeApplicationNotFoundAlert>
+  <OfficeAnonymousEditPublicLinkError>жасырын Open Office құжат қоғамдық сілтемені жасау мүмкін емес.</OfficeAnonymousEditPublicLinkError>
+
+  <GoogleOWAViewLinkMessage>Құжат көру үшін төмендегі сілтемені басыңыз:</GoogleOWAViewLinkMessage>
+  <ZohoEditLinkMessage>төменде Құжатты басыңыз сілтемені өңдеу үшін:</ZohoEditLinkMessage>
+  <PixlrEditLinkMessage>Төмендегі суретте басыңыз сілтемені өңдеу үшін:</PixlrEditLinkMessage>
+  <PixlrNewImageCreateTitle>Pixlr бар жаңа суретті жасау</PixlrNewImageCreateTitle>
+  <PixlrNewImageLinkMessage>Жаңа сурет жасау үшін, төмендегі сілтемені басыңыз:</PixlrNewImageLinkMessage>
+
+  <DownloadTitle>Бірнеше файлдарды жүктеу</DownloadTitle>
+  <DownloadSimpleTab>стандартты</DownloadSimpleTab>
+  <DownloadJavaTab>Java</DownloadJavaTab>
+  <DownloadIEPrevent>Internet Explorer автоматты жүктеп болдырмайды</DownloadIEPrevent>
+  <DownloadIEClickHere>жүктеп алу үшін мұнда басыңыз</DownloadIEClickHere>
+  <DownloadIEArchiveReady>Таңдалған файлдармен мұрағаты «{0}» құрылған және жүктеу үшін дайын болды</DownloadIEArchiveReady>
+  <DownloadIECaption>Жүктеу дайын</DownloadIECaption>
+
+  <SettingsTitle>Параметрлер</SettingsTitle>
+  <SettingsLanguage>тіл</SettingsLanguage>
+  <SettingsLogOutRequired>Жаңа өзгерістер шығу немесе браузер қайта іске қосқаннан кейін қолданылатын болады!</SettingsLogOutRequired>
+  <ThemeTitle>өзгерту Тақырып</ThemeTitle>
+  <SettingsTheme>Тақырып таңдау</SettingsTheme>
+  <ThemeDefaultTitle>әдепкі Тақырып</ThemeDefaultTitle>
+  <ThemeGrayTitle>сұр Тақырып</ThemeGrayTitle>
+  <ThemeAccessTitle>Арнайы мүмкіндіктер Тақырып</ThemeAccessTitle>
+
+  <ChangeUserPasswordTitle>Өзгерту пайдаланушы құпия сөзі</ChangeUserPasswordTitle>
+  <ChangeUserPasswordOldPassword>Ескі Құпия сөз</ChangeUserPasswordOldPassword>
+  <ChangeUserPasswordNewPassword>Жаңа Құпия Сөз</ChangeUserPasswordNewPassword>
+  <ChangeUserPasswordRepeatNewPassword>Жаңа құпиясөзді қайталаңыз</ChangeUserPasswordRepeatNewPassword>
+  <ChangeUserPasswordPasswordsNotMatch>Парольдеріңіз сәйкес келмейді.</ChangeUserPasswordPasswordsNotMatch>
+  <ChangeUserPasswordSuccessMessage>Құпия сөз өзгертілген.</ChangeUserPasswordSuccessMessage>
+  <ChangeUserPasswordInvalidMessage>Жарамсыз пароль.</ChangeUserPasswordInvalidMessage>
+
+  <ChangeUserEmailTitle>Өзгерту пайдаланушы электрондық пошта</ChangeUserEmailTitle>
+  <ChangeUserEmailEmail>Электрондық пошта</ChangeUserEmailEmail>
+  <ChangeUserEmailSuccessMessage>Электрондық пошта өзгертілген.</ChangeUserEmailSuccessMessage>
+
+  <UserHelpTitle>пайдаланушы көмек</UserHelpTitle>
+
+  <LicenseTitle>лицензия туралы ақпарат</LicenseTitle>
+  <LicenseTrial>Тіркелмеген 30 күндік бағалау нұсқасы</LicenseTrial>
+  <LicensePrompt>Лицензияланған нұсқасына {0} Қолданушылар саны: {1} {0} сатып алу күні: {2} {0}</LicensePrompt>
+  <LicenseFreeUpgradeMessage>Сіз әлі тегін жаңарту және қолдау үшін {0} күн бар.</LicenseFreeUpgradeMessage>
+  <LicenseCheckMessage>Бір жылдан астам сатып алған күннен бастап өтті. Бұл нұсқасын пайдалану үшін, сіз ескі нұсқасына жазылымды немесе төмендеуiне жаңартуға тиіс. Сіз өзіңіздің лицензияны тексеру және &lt;a href='{0}' target='_blank'&gt; тексеру лицензиялық беттің &lt;/a&gt; қол жетімді шығарылымдарды таба аласыз</LicenseCheckMessage>
+  
+  <ViewPopupBlocked>Жаңа терезеде Бұғаттауышыңыз арқылы бұғатталған</ViewPopupBlocked>
+  
+  <LoginTwoFactorTitle>Екі сатылы тексеру</LoginTwoFactorTitle>
+  <LoginTitle>Кіру</LoginTitle>
+  <LoginRemember>Мені есте келесі жолы</LoginRemember>
+  <LoginUISelect>интерфейс</LoginUISelect>
+  <LoginUIStandard>стандартты</LoginUIStandard>
+  <LoginUITouch>жылжымалы</LoginUITouch>
+  <LoginLanguage>тіл</LoginLanguage>
+  <LoginLogin>Кіру</LoginLogin>
+  <LoginFailure>Сіздің кіру әрекеті сәтті болған жоқ.</LoginFailure>
+  <LoginBlocked>тіркелгі бұғатталған. қайтадан көріңіз {0} минут күтіңіз.</LoginBlocked>
+  <LoginNotActivated>Тіркелгіңіздің іске қосылмаған.</LoginNotActivated>
+  <LoginResendActivation>белсендіру коды бар хабарлама ұзақ уақыт бойы алынбаған болса, белсендіру кодын қайта {0} сілтемені басыңыз.</LoginResendActivation>
+  <LoginResendActivationLink>белсендіру кодын жіберу</LoginResendActivationLink>
+  <LoginResendActivationCode>белсендіру кодын қайта {0} сілтемені басыңыз.</LoginResendActivationCode>
+  
+  <ActivateAccountOk>Шот сәтті іске қосылған!</ActivateAccountOk>
+  <ActivateAccountResultLabel>белсендіру нәтижесі</ActivateAccountResultLabel>
+  <ActivateAccountErrorOnlyFormsAuth>Шот белсендіру ғана нысандары түпнұсқалық пайдаланылуы мүмкін</ActivateAccountErrorOnlyFormsAuth>
+  <ActivateAccountErrorNotRequired>Шот активтендіру өтініш параметрлерінде өшірілген. Есептік жазба автоматты түрде тіркеуден кейін іске қосылады.</ActivateAccountErrorNotRequired>
+  <ActivateAccountErrorAlreadyActivated>Шот өзінде белсендірілген</ActivateAccountErrorAlreadyActivated>
+  <ActivateAccountErrorInvalidCode>Белсендіру коды дұрыс емес</ActivateAccountErrorInvalidCode>
+  <ActivateAccountErrorAccountNotFound>Шот табылған жоқ</ActivateAccountErrorAccountNotFound>
+  <ActivateAccountErrorLinkBroken>Белсендіру сілтеме сынған</ActivateAccountErrorLinkBroken>
+  <ActivateAccountReturnToLogin>бет Логин оралу</ActivateAccountReturnToLogin>
+  
+  <LoginRender>Render</LoginRender>
+  
+  <LogoutTitle>Веб файл менеджері Шығу</LogoutTitle>
+  <LogoutSessionEnded>ағымдағы сессиясы аяқталды</LogoutSessionEnded>
+  <LogoutCloseWindow>Терезені жап</LogoutCloseWindow>
+  <LogoutEnterAgain>қайтадан Кіру</LogoutEnterAgain>
+  <LogoutClosingBrowserRequired>Назар! Ешкім сіздің шот бойынша логин болады! Егер сіз ортақ компьютерді пайдаланып жатсаңыз, онда сіз браузерде аутентификациясын тазалау үшін сіздің браузер терезесін (ғана емес қойындысы) жабу керек! Firefox шолғышта сіз мәзірінде аутентификацияны тазалауға болады: Tools-&gt; Clear RESENT тарихы ...-&gt; Details-&gt; Енді Белсенді Logins-&gt; баспасөз Тазалау тексеріңіз.</LogoutClosingBrowserRequired>
+  <RecoverPasswordTitle>құпия сөзді қалпына келтіру</RecoverPasswordTitle>
+  <RecoverPasswordEmailPassword>электрондық пошта арқылы құпия сөзді жіберу</RecoverPasswordEmailPassword>
+  <RecoverPasswordErrorInvalidUserName>Жарамсыз пайдаланушы аты.</RecoverPasswordErrorInvalidUserName>
+  <RecoverPasswordErrorNoEmail>Бұл пайдаланушы анықталған жоқ электрондық пошта мекенжайы бар.</RecoverPasswordErrorNoEmail>
+  <RecoverPasswordErrorSendEmail>Егер электрондық пошта жіберу кезінде қате пайда болды.</RecoverPasswordErrorSendEmail>
+  <RecoverPasswordSuccess>Құпия сөзіңіз электрондық пошта мекен-жайына жіберілді.</RecoverPasswordSuccess>
+
+  <RecoverUserNameTitle>атын қалпына келтіру</RecoverUserNameTitle>
+  <RecoverUserEmailName>электрондық пошта арқылы жіберу аты</RecoverUserEmailName>
+  <RecoverUserNameErrorInvalidEmail>Жарамсыз пайдаланушы электрондық пошта.</RecoverUserNameErrorInvalidEmail>
+  <RecoverUserNameErrorNoEmail>Электрондық пошта мекенжайы табылмады.</RecoverUserNameErrorNoEmail>
+  <RecoverUserNameSuccess>Сіздің атыңыз электрондық пошта мекен-жайына жіберілді.</RecoverUserNameSuccess>
+
+  <ChangeEmailTitle>өзгерту электрондық пошта</ChangeEmailTitle>
+  <ChangeEmailEmail>Жаңа электрондық пошта</ChangeEmailEmail>
+  <ChangeEmailSubmit>Жіберу</ChangeEmailSubmit>
+  <ChangeEmailStatusSuccess>Email өзгертілді</ChangeEmailStatusSuccess>
+
+  <RegisterTitle>тіркеу</RegisterTitle>
+  <RegisterEmail>Электрондық пошта</RegisterEmail>
+  <RegisterExtraInfo>Қосымша ақпарат</RegisterExtraInfo>
+  <RegisterCaptcha>Сіз төменде суретте қараңыз мәтінді енгізіңіз</RegisterCaptcha>
+  <RegisterSubmit>Жіберу</RegisterSubmit>
+  <RegisterErrorPasswordNotMatch>Парольдеріңіз сәйкес келмейді.</RegisterErrorPasswordNotMatch>
+  <RegisterErrorUserExists>Бұл пайдаланушы аты немесе электрондық пошта мекенжайы өзінде пайдаланылады.</RegisterErrorUserExists>
+  <RegisterErrorCaptchaInvalid>Сурет мәтін дұрыс енгізілген</RegisterErrorCaptchaInvalid>
+  <RegisterSuccess>Жаңа пайдаланушы қосылды.</RegisterSuccess>
+  <RegisterActivationSent>Белсендіру коды электрондық поштаңызға жіберілді.</RegisterActivationSent>
+  <RegisterActivationCheckEmail>Пошта терезесін (арнайы қалтаны) тексеру және электрондық пошта нұсқауларды орындаңыз.</RegisterActivationCheckEmail>
+  
+  <FolderGridUserPermissionsColumn>пайдаланушылар үшін Access</FolderGridUserPermissionsColumn>
+  <FolderGridGroupPermissionsColumn>топтары үшін Access</FolderGridGroupPermissionsColumn>
+
+  <LoginLinkText>Кіру</LoginLinkText>
+  <RecoverPasswordLinkText>Құпия сөзді ұмыттыңыз ба?</RecoverPasswordLinkText>
+  <RecoverUserNameLinkText>атын ұмыттыңыз ба?</RecoverUserNameLinkText>
+  <RegisterLinkText>тіркеу</RegisterLinkText>
+  <ChangeEmail>өзгерту электрондық пошта</ChangeEmail>
+  <LoginMobileVersionLinkText>Мобильді нұсқа (Ең смартфондар және сенсорлық)</LoginMobileVersionLinkText>
+
+  <FileIsNotZipArchive>{0} файл ZIP архиві емес</FileIsNotZipArchive>
+
+  <FileModificationsAuthor>автор</FileModificationsAuthor>
+  <FileModificationsHistory>Өңделу тарихы</FileModificationsHistory>
+  <FileModificationsWindowTitle>файлдың модификациялары «{0}»</FileModificationsWindowTitle>
+  <FileModificationsTypeCreated>құрылды</FileModificationsTypeCreated>
+  <FileModificationsTypeModified>Өзгертілген</FileModificationsTypeModified>
+  <FileModificationsTypeRenamed>болып өзгертілді</FileModificationsTypeRenamed>
+  <FileModificationsTypeRestored>Қалпына келтірілген</FileModificationsTypeRestored>
+  <FileModificationsTypeDeleted>жойылған</FileModificationsTypeDeleted>
+
+  <ChangingReadOnlyProgressMessage>тек оқуға ғана арналған атрибутын өзгерту</ChangingReadOnlyProgressMessage>
+
+  <ImageViewerWindowTitle>Image Viewer [{0}]</ImageViewerWindowTitle>
+  <ImageViewerLoadingMessage>Жүктелуде Image Viewer</ImageViewerLoadingMessage>
+  <ImageViewerLoadingImageMessage>Loading сурет</ImageViewerLoadingImageMessage>
+  <ImageViewerFirstImageTip>Бірінші сурет</ImageViewerFirstImageTip>
+  <ImageViewerPreviousImageTip>Алдыңғы сурет</ImageViewerPreviousImageTip>
+  <ImageViewerRefreshTip>суреттер тізімін жаңарту</ImageViewerRefreshTip>
+  <ImageViewerNextImageTip>Келесі сурет</ImageViewerNextImageTip>
+  <ImageViewerLastImageTip>Өткен сурет</ImageViewerLastImageTip>
+  <ImageViewerRunSlideShow>Суреттерді слайд-шоу іске қосыңыз</ImageViewerRunSlideShow>
+  <ImageViewerStopSlideShow>суреттер слайдшоуға тоқтату</ImageViewerStopSlideShow>
+  <ImageViewerImageSimpleInfo>{0} / {1}, {2} ({3})</ImageViewerImageSimpleInfo>
+  <ImageViewerImageLoadErrorMessage>Кескін табылған жоқ немесе көрсету мүмкін емес</ImageViewerImageLoadErrorMessage>
+  <ImageViewerShowImageSizeOfWindow>нақты өлшемі көрсету сурет</ImageViewerShowImageSizeOfWindow>
+  <ImageViewerShowRealImageSize>Үлкейту үшін басыңыз</ImageViewerShowRealImageSize>
+
+  <PasswordExpiresTitle>Құпия сөз мерзімі аяқталады</PasswordExpiresTitle>
+  <PasswordExpiresMessage>Құпия сөзіңіз {0} күні (лар) кейін мерзімі аяқталады!</PasswordExpiresMessage>
+  <PasswordExpiredMessage>Құпия сөзіңіз жарамсыз болады.</PasswordExpiredMessage>
+  <PasswordChangeMessage>Құралдар тақтасындағы {3} {2}&gt; - құпия сөзін өзгерту үшін, {0} {1} таңдаңыз.</PasswordChangeMessage>
+
+  <UnzipContentTotalFiles>Жалпы файл саны: {0} ({1})</UnzipContentTotalFiles>
+
+  <VideoConversionJobNotFound>
+    Мүмкін емес көрсетілген түрлендіру процесін табыңыз.
+    Мүмкін болатын себептер:
+    1. Айырбастау ұзақ уақыт бұрын аяқталады және осы жұмысқа туралы ақпарат шығарылды.
+    2. түрлендіру процесі әдеттен тыс доғарылды.
+  </VideoConversionJobNotFound>
+  <VideoConversionUtilityNotFound>{0}: Сұралған операцияны орындау мүмкін емес таба коммуналдық</VideoConversionUtilityNotFound>
+  <!-- The current security principal "{0}" has insufficiant permissions to executable file "{1}".-->
+  <VideoConversionUtilityInsufficientPermissions>ағымдағы пайдаланушы «{0}» «{1}» орындалатын файл кіруден бас тартқан.</VideoConversionUtilityInsufficientPermissions>
+  <VideoConversionOperationCancelled>Жұмыс күші жойылған</VideoConversionOperationCancelled>
+  <VideoConversionUtilityFailed>әдеттен тыс доғарылды Айырбастау коммуналдық</VideoConversionUtilityFailed>
+  <VideoConversionOutputFileBusy>Шығыс файлы басқа түрлендіру процесінде пайдаланылады</VideoConversionOutputFileBusy>
+
+  <VideoConvertWindowValidatorPositiveInt>оң бүтін сан болуы тиіс</VideoConvertWindowValidatorPositiveInt>
+  <VideoConvertWindowTitle>бейнені түрлендіру</VideoConvertWindowTitle>
+  <VideoConvertWindowInputFile>Кіріс файлы</VideoConvertWindowInputFile>
+  <VideoConvertWindowOutputFile>шығыс файлы</VideoConvertWindowOutputFile>
+  <VideoConvertWindowOutputFormat>шығыс пішімі</VideoConvertWindowOutputFormat>
+  <VideoConvertWindowBitrate>Битрейт (кбит)</VideoConvertWindowBitrate>
+  <VideoConvertWindowFrameResolution>Frame қаулы</VideoConvertWindowFrameResolution>
+  <VideoConvertWindowDAR>Дисплей арақатынасын</VideoConvertWindowDAR>
+  <VideoConvertWindowPAR>Pixel арақатынасын</VideoConvertWindowPAR>
+  <VideoConvertWindowResize>Өлшемін өзгерту</VideoConvertWindowResize>
+  <VideoConvertWindowProfile>Профиль</VideoConvertWindowProfile>
+  <VideoConvertWindowWidth>ені</VideoConvertWindowWidth>
+  <VideoConvertWindowHeight>биіктік</VideoConvertWindowHeight>
+  <VideoConvertWindowExtractDetailsProgressMsg>Бейне мәліметтерін шығарып</VideoConvertWindowExtractDetailsProgressMsg>
+  <VideoConvertWindowOutputFileExistsTitle>Шығыс файл бар</VideoConvertWindowOutputFileExistsTitle>
+  <VideoConvertWindowOutputFileExistsMsg>Шығыс файл әлдеқашан бар. Ол қайта жазылады.</VideoConvertWindowOutputFileExistsMsg>
+  <VideoConvertWindowPrepareToConvert>Бейнені айырбастауға дайындау</VideoConvertWindowPrepareToConvert>
+  <VideoConvertWindowOutputFileMatchInputFile>Шығыс файл атауы кіріс Файл атауына сәйкес келетін</VideoConvertWindowOutputFileMatchInputFile>
+
+  <VideoConvertProgressWindowTitle>бейнені түрлендіру</VideoConvertProgressWindowTitle>
+  <VideoConvertProgressWindowInputFile>Кіріс файлы</VideoConvertProgressWindowInputFile>
+  <VideoConvertProgressWindowOutputFile>шығыс файлы</VideoConvertProgressWindowOutputFile>
+  <VideoConvertProgressWindowStatus>мәртебе</VideoConvertProgressWindowStatus>
+  <VideoConvertProgressWindowStatusTerminating>тоқтату</VideoConvertProgressWindowStatusTerminating>
+  <VideoConvertProgressWindowStatusPreparing>дайындау</VideoConvertProgressWindowStatusPreparing>
+  <VideoConvertProgressWindowStatusProgress>{1} қадам {0}</VideoConvertProgressWindowStatusProgress>
+  <VideoConvertProgressWindowStatusDone>Дайын</VideoConvertProgressWindowStatusDone>
+
+  <PlayHtml5VideoNotSupported>Сіздің браузеріңіз HTML 5 Бейне элементін қолдамайды.</PlayHtml5VideoNotSupported>
+  <PlayHtml5VideoPlayFailed>Бейне сәтсіз Play</PlayHtml5VideoPlayFailed>
+  <PlayHtml5AudioPlayFailed>аудио сәтсіз Play</PlayHtml5AudioPlayFailed>
+  <PlayHtml5AudioTitle>тақырып</PlayHtml5AudioTitle>
+  <PlayHtml5AudioNotSupported>Сіздің браузеріңіз HTML 5 дыбыстық элементін қолдамайды.</PlayHtml5AudioNotSupported>
+  <PlayHtml5AudioArtist>Әртіс</PlayHtml5AudioArtist>
+  <PlayHtml5AudioAlbum>альбом</PlayHtml5AudioAlbum>
+  <PlayHtml5AudioYear>жыл</PlayHtml5AudioYear>
+  <PlayHtml5AudioDuration>ұзақтық</PlayHtml5AudioDuration>
+  <PlayHtml5AudioBitrate>Битрейт</PlayHtml5AudioBitrate>
+  <PlayHtml5AudioVolume>көлем</PlayHtml5AudioVolume>
+
+  <!-- Root title -->
+  <RootTitle>түбір</RootTitle>
+
+  <!-- Recent feature keys -->
+  <RecentRootTitle>жуырда</RecentRootTitle>
+  <RecentDeleteOnePrompt>Егер сіз соңғы баптарға «{0}» жойғыңыз келгені рас па?</RecentDeleteOnePrompt>
+  <RecentDeleteManyPrompt>Егер сіз соңғы элементтердің осы {0} элементтерді жойғыңыз келгені рас па?</RecentDeleteManyPrompt>
+  <RecentPathNotExist>соңғы жолы «{0}» жоқ немесе қол бас тартылады</RecentPathNotExist>
+  <RecentAllWithoutGroupingTitle>Барлық W / O топтау</RecentAllWithoutGroupingTitle>
+  <RecentEditGroupTitle>редакцияланған</RecentEditGroupTitle>
+  <RecentViewGroupTitle>белгілілері</RecentViewGroupTitle>
+  <RecentDownloadGroupTitle>Жүктелген</RecentDownloadGroupTitle>
+  <RecentUploadGroupTitle>Uploaded</RecentUploadGroupTitle>
+  <RecentCreateGroupTitle>құрылды</RecentCreateGroupTitle>
+
+  <!-- Trash feature keys -->
+  <TrashRootTitle>қоқыс</TrashRootTitle>
+  <TrashLabelDateDeleted>күні жойылды</TrashLabelDateDeleted>
+  <TrashDeleteOnePrompt>Егер сіз тұрақты жойғыңыз көз Себеттен «{0}» ба?</TrashDeleteOnePrompt>
+  <TrashDeleteManyPrompt>Егер сіз тұрақты Себеттен осы {0} элементтерді жойғыңыз келгені рас па?</TrashDeleteManyPrompt>
+  <TrashEmptyTrashLabel>өшірілгендер</TrashEmptyTrashLabel>
+  <TrashRestoreSelectedLabel>қалпына келтіру</TrashRestoreSelectedLabel>
+  <TrashRestoreAllLabel>барлығын қалпына келтіру</TrashRestoreAllLabel>
+  <TrashEmptyTrashPrompt>Себетке босату үшін шынымен қалайсыз ба?</TrashEmptyTrashPrompt>
+  <TrashRestoreAllPrompt>Егер сіз Себеттен барлық элементтерді қалпына келтіру үшін шынымен қалайсыз ба?</TrashRestoreAllPrompt>
+  <TrashProgressRestoring>Себеттен қалпына келтіру</TrashProgressRestoring>
+  <TrashFolderNotFound>Trash каталогы табылған жоқ</TrashFolderNotFound>
+  <TrashBalloonRestored>Қалпына келтірілген элементтер: {0} {1} туралы</TrashBalloonRestored>
+  <TrashDeleteDirectlyLabel>Себетке алмастан тікелей жою</TrashDeleteDirectlyLabel>
+  <TrashUsedSpaceHint>{0} пайдаланылады</TrashUsedSpaceHint>
+  <TrashLimitSizeHint>Пайдаланылған {0} {1} ({2}) туралы</TrashLimitSizeHint>
+  <TrashLargeItemsShelfTimeHint>{1} күні (лар): объектілерін сақтау уақыты {0} үлкенірек</TrashLargeItemsShelfTimeHint>
+  <TrashSmallItemsShelfTimeHint>{0} күні (лар): барлық басқаларға</TrashSmallItemsShelfTimeHint>
+  <TrashItemsShelfTimeHint>объектілерін сақтау уақыты: {0} күні (лар)</TrashItemsShelfTimeHint>
+  <TrashAvailableSpaceHint>Ең қолжетімді мөлшері {0}</TrashAvailableSpaceHint>
+  <TrashDeletedFromFolderHint>{0} Жойылған</TrashDeletedFromFolderHint>
+  <TrashExceededMessage>мынадай нысандар тым үлкен болып табылады және Себетке ({0} асып отыр шектеу) орналасқан мүмкін емес:</TrashExceededMessage>
+  <TrashErrorSuffixMessage>іздеу тыс жерлерде мәңгі «{0}» параметрін тексеру көріңіз, содан кейін файл (дар) жою сұраймыз</TrashErrorSuffixMessage>
+
+  <!-- Shared by link -->
+  <SharedByLinkRootTitle>сілтеме бөліскен</SharedByLinkRootTitle>
+
+  <!-- Shared for you -->
+  <SharedForYouRootTitle>сізбен ортақ</SharedForYouRootTitle>
+  <SharedForYouUnableToGetUrl>URL мекенжайын алу мүмкін емес</SharedForYouUnableToGetUrl>
+
+  <!-- Watch for modifications -->
+  <WatchForModifsCommand>өзгерістерді Watch</WatchForModifsCommand>
+  <WatchForModifsStartCommand>көруді бастаңыз</WatchForModifsStartCommand>
+  <WatchForModifsEditCommand>көріп өзгертіңіз</WatchForModifsEditCommand>
+  <WatchForModifsStopCommand>көруді тоқтату</WatchForModifsStopCommand>
+  <WatchForModifsViewChangesCommand>қарау өзгерістер</WatchForModifsViewChangesCommand>
+  <WatchForModifsSubscriptionSuccessMessage>Сіз сәтті «{0}» өзгерістер енгізу үшін жазылдыңыз</WatchForModifsSubscriptionSuccessMessage>
+  <WatchForModifsStopSuccessMessage>мониторинг «{0}» сәтті өшірілді</WatchForModifsStopSuccessMessage>
+  <WatchForModifsIncludingNestedLabel>Кірістірілген файлдарды, қалталарды қарастырайық</WatchForModifsIncludingNestedLabel>
+  <WatchForModifsParentWatchExistMessage>Таңдалған элемент үшін қазірдің өзінде ата-ана қалтасындағы «{0}» үшін мониторинг тағайындалды.</WatchForModifsParentWatchExistMessage>
+  <WatchForModifsRootFolder>Ескертулер</WatchForModifsRootFolder>
+  <WatchForModifsStartProgressLoading>көріп қосу</WatchForModifsStartProgressLoading>
+  <WatchForModifsStopProgressLoading>көріп Terminatie</WatchForModifsStopProgressLoading>
+  <WatchForModifsIconHint>өзгерістерді Қосылған Watch</WatchForModifsIconHint>
+  <WatchForModifsNotifCheckBox>электрондық пошта арқылы өзгерістер енгізу туралы хабарлайды:</WatchForModifsNotifCheckBox>
+  <WatchForModifsWatchedUsersCheckBox>тек пайдаланушылар Монитор (сіз мониторинг егер бос қалдырыңыз):</WatchForModifsWatchedUsersCheckBox>
+  <WatchForModifsIgnoreOwnerCheckBox>менің өз өзгерістер елемеу</WatchForModifsIgnoreOwnerCheckBox>
+  <WatchForModifsActionsCheckBox>барлық іс-әрекеттерді (не төмендегі тізімінен кейбір іс-әрекеттерді) Монитор</WatchForModifsActionsCheckBox>
+  <WatchForModifsNestedItemsWarning>Назар! Таңдалған папкаға арналған мониторинг қосқанда, жеке мониторинг бұрын қосылды, ол үшін барлық Қоса беріліп отырған файлдар мен қалталарды, мониторинг жойылады. Жалғастыру келе ме?</WatchForModifsNestedItemsWarning>
+
+  <WelcomeWindowHideCheckboxLabel>келесі кіру арқылы осы көрсетпей ме</WelcomeWindowHideCheckboxLabel>
+
+  <LogsGridMoreInfoColumn>Қосымша ақпарат</LogsGridMoreInfoColumn>
+  <LogsGridDetailsTitle>Егжей</LogsGridDetailsTitle>
+  <LogsGridPhysPathColumn>Физикалық жолы</LogsGridPhysPathColumn>
+  <LogsGridIsFolderColumn>Қалта?</LogsGridIsFolderColumn>
+  <LogsGridIsPublicColumn>Мемлекеттік?</LogsGridIsPublicColumn>
+  <LogsGridByWebDavColumn>WebDAV?</LogsGridByWebDavColumn>
+
+  <NoCommentsYetHint>Пікірлер жоқ</NoCommentsYetHint>
+  <NoHistoryYetHint>әлі жоқ тарихы</NoHistoryYetHint>
+
+  <DetailsPropertyValuesCouldNotBeWritten>файл түрі осындай мүмкіндігін қолдамайды немесе файлмен байланысты қолдану қате бар Mabe, сипат мәндерін сақтау үшін сәтсіз аяқталды.</DetailsPropertyValuesCouldNotBeWritten>
+
+  <AdminCommandHelp>Көмектесіңдер</AdminCommandHelp>
+  <AdminCommandAddUser>пайдаланушыны қосу</AdminCommandAddUser>
+  <AdminCommandAddGroup>топты қосу</AdminCommandAddGroup>
+  <AdminCommandRemoveUser>пайдаланушыны алып тастау</AdminCommandRemoveUser>
+
+  <AdminCommandSelectUsers>пайдаланушыларды қосу</AdminCommandSelectUsers>
+  <AdminCommandSelectGroups>топтар қосу</AdminCommandSelectGroups>
+  <AdminCommandRemoveUsers>пайдаланушылардың тастаңыз</AdminCommandRemoveUsers>
+  <AdminCommandRemoveGroups>топтарды жою</AdminCommandRemoveGroups>
+  <AdminUsersGroups>мүше</AdminUsersGroups>
+  <AdminSearchUserEmptyText>пайдаланушы атын енгізіңіз</AdminSearchUserEmptyText>
+  <AdminSearchGroupEmptyText>Топ атын енгізіңіз</AdminSearchGroupEmptyText>
+  <AdminUsersGroupAlreadyExists>Осы аты (лар) бар топтың (лар) өзінде қосылған</AdminUsersGroupAlreadyExists>
+
+  <AdminApplicationLoading>Admin панелі тиеу</AdminApplicationLoading>
+  <AdminTitle>басқарма</AdminTitle>
+  <AdminUsersEditUser>өңдеу пайдаланушы</AdminUsersEditUser>
+  <AdminUsersSetUserPassword>құпия сөз орнату</AdminUsersSetUserPassword>
+  <AdminUsersViewGroups>қарау топтар</AdminUsersViewGroups>
+  <AdminUsersViewFolders>қалталарды көру</AdminUsersViewFolders>
+  <AdminUsersDeleteUserPrompt>Пайдаланушы (лар) жойғыңыз көз «{0}» ба?</AdminUsersDeleteUserPrompt>
+  <AdminUsersDeletedUsers>{0} пайдаланушы (лар) жойылады.</AdminUsersDeletedUsers>
+  <AdminUsersUserNotFound>Осы атаумен пайдаланушы табылған жоқ</AdminUsersUserNotFound>
+  <AdminUsersPropertiesTitle>пайдаланушы қасиеттері</AdminUsersPropertiesTitle>
+  <AdminUsersSetPasswordTitle>Орнатыңыз пайдаланушы құпия сөзі</AdminUsersSetPasswordTitle>
+  <AdminUsersGeneralInfo>пайдаланушы ақпарат</AdminUsersGeneralInfo>
+  <AdminUsersUserEmail>Электрондық пошта</AdminUsersUserEmail>
+  <AdminUsersEmptyName>Пайдаланушы аты бос болуы мүмкін емес</AdminUsersEmptyName>
+  <AdminUsersEmptyPassword>Пайдаланушы құпия сөзі бос болуы мүмкін емес</AdminUsersEmptyPassword>
+  <AdminUsersIncorrectName>пайдаланушы аты дұрыс рәміздер бар</AdminUsersIncorrectName>
+  <AdminUsersAlreadyExists>Осы атаумен пайдаланушы бар ғой</AdminUsersAlreadyExists>
+  <AdminUsersEmailAlreadyExists>Осы электрондық пошта пайдаланушысы бар ғой</AdminUsersEmailAlreadyExists>
+  <AdminUsersPasswordsNotMatch>Парольдеріңіз сәйкес келмейді</AdminUsersPasswordsNotMatch>
+  <AdminUsersRenameWarning>Пайдаланушыны қайта атау кейін ол басқаша ағымдағы веб-қалталар сілтеме дұрыс болады, құпия сөзді өзгерту қажет</AdminUsersRenameWarning>
+  <AdminUsersLicenseRestriction>Сіздің лицензия Сізге {0} пайдаланушылар астам құруға мүмкіндік бермейді</AdminUsersLicenseRestriction>
+  <AdminUsersCountInfoWithLimit>Барлығы пайдаланушылар: {1} жүзеге {0}</AdminUsersCountInfoWithLimit>
+  <AdminUsersCountInfo>Барлығы пайдаланушылар: {0}</AdminUsersCountInfo>
+
+  <AdminGroupsEditGroup>өңдеу тобы</AdminGroupsEditGroup>
+  <AdminGroupsRemoveGroup>тобын алып тастау</AdminGroupsRemoveGroup>
+  <AdminGroupsDeleteGroupPrompt>Егер сіз топты (лар) жойғыңыз көз «{0}» ба?</AdminGroupsDeleteGroupPrompt>
+  <AdminGroupsDeletedGroups>{0} тобы (лар) жойылады.</AdminGroupsDeletedGroups>
+  <AdminGroupsGroupNotFound>Осы атаулы топ табылған жоқ</AdminGroupsGroupNotFound>
+  <AdminGroupsViewUsers>қарау пайдаланушылар</AdminGroupsViewUsers>
+  <AdminGroupsProperties>Сипаттар</AdminGroupsProperties>
+  <AdminGroupsPropertiesTitle>Group қасиеттері</AdminGroupsPropertiesTitle>
+  <AdminGroupsGeneralInfo>Group ақпарат</AdminGroupsGeneralInfo>
+  <AdminGroupsUserNamePrompt>пайдаланушы атын енгізіңіз</AdminGroupsUserNamePrompt>
+  <AdminGroupsUsers>Топтың мүшелері</AdminGroupsUsers>
+  <AdminGroupsUserAlreadyExists>Осы аты (лар) бар пайдаланушы (лар) өзінде қосылған</AdminGroupsUserAlreadyExists>
+  <AdminGroupsEmptyName>Топ атауы бос бола алмайды</AdminGroupsEmptyName>
+  <AdminGroupsIncorrectName>топ атауы дұрыс рәміздер бар</AdminGroupsIncorrectName>
+  <AdminGroupsAlreadyExists>Осы атаулы топ бар ғой</AdminGroupsAlreadyExists>
+  <AdminGroupsCountInfo>Барлығы топтар: {0}</AdminGroupsCountInfo>
+
+  <AdminLanguagesTab>оқшаулау</AdminLanguagesTab>
+  <AdminLanguagesTabMessage>, Оқшаулау файлды өңдей тізімінен қажетті тілді таңдау үшін, өңдеу үшін аударылған жолдарды түймешігін басыңыз. түрлендірулер «Сақтау» түймешігін басыңыз кейін</AdminLanguagesTabMessage>
+  <AdminLangGridKeyColumn>негізгі аты</AdminLangGridKeyColumn>
+  <AdminLangGridDefaultColumn>ағылшын</AdminLangGridDefaultColumn>
+  <AdminEnterLanguageNameTitle>тілі атауын енгізіңіз</AdminEnterLanguageNameTitle>
+  <AdminLangConfirmRefreshTitle>растау Жаңарту</AdminLangConfirmRefreshTitle>
+  <AdminLangConfirmRefreshMessage>Назар! Деректер сақталмады. Егер сіз қазір өзгерістерді сақтауды қалайсыз ба?</AdminLangConfirmRefreshMessage>
+  <AdminLangAmountInfo>Толтырылған пернелері: {0} {1} (бос мәндердің: {2}) туралы</AdminLangAmountInfo>
+  <AdminLangSaveToCSV>CSV экспорттау</AdminLangSaveToCSV>
+  <AdminLangLoadFromCSV>CSV бойынша жүк тасымалдары</AdminLangLoadFromCSV>
+
+  <AdminDbMaintenanceTab>DB қызмет көрсету</AdminDbMaintenanceTab>
+  <AdminDbMaintenanceInfoTitle>Info</AdminDbMaintenanceInfoTitle>
+  <AdminDbMaintenanceInfoPathLabel>DB файл жолы</AdminDbMaintenanceInfoPathLabel>
+  <AdminDbMaintenanceInfoSizeLabel>DB файл өлшемі</AdminDbMaintenanceInfoSizeLabel>
+  <AdminDbMaintenanceCompactTitle>Шағын Database</AdminDbMaintenanceCompactTitle>
+  <AdminDbMaintenanceCompactNote>дерекқор файлының өлшемін азайту мақсатында, төмендегі батырмасын басыңыз. кейбір енжар ​​қоғамдық байланыстар немесе ескі журналында жою DB файл өлшемін жазып кейін, мысалы, азайту емес, өйткені, мезгіл-мезгіл деректер базасын қысу орындау қажет.</AdminDbMaintenanceCompactNote>
+  <AdminDbMaintenanceCompactButton>Шағын DB</AdminDbMaintenanceCompactButton>
+  <AdminDbMaintenanceCompactSuccess>DB сәтті ықшамдалды.
+Ескі файл өлшемі: {0}
+Жаңа файл өлшемі: {1}</AdminDbMaintenanceCompactSuccess>
+  <AdminDbMaintenanceCompactAutoNote>Сіз сондай-ақ жазбалар операцияларды жойғаннан кейін автоматты қысу деректер базасын қоса аласыз, алайда, бұл базасын ол Мүмкін жиі құлыптары, өйткені кеңес берілмейді және ол кейбір сұрау ұзақтығын арттыруға болады. Назар! өтініш қайта іске қосылады Бұл параметр өзгерткеннен кейін!</AdminDbMaintenanceCompactAutoNote>
+  <AdminDbMaintenanceCompactAutoCheckBox>қосу / өшіру автоматты түрде жинақы DB</AdminDbMaintenanceCompactAutoCheckBox>
+  <AdminDbMaintenanceCompactAutoSaveButton>сақтау</AdminDbMaintenanceCompactAutoSaveButton>
+  <AdminDbMaintenanceCompactAutoSaveSuccess>DB автоматты сompression өзгерту сәтті аяқталды. бет өңделуде жаңартылады.</AdminDbMaintenanceCompactAutoSaveSuccess>
+  <AdminDbMaintenanceEnableLogLabel>Таңдаңыз DB (Data / debug.log ішіне) тіркеу деңгейі сұрау</AdminDbMaintenanceEnableLogLabel>
+  <AdminDbMaintenanceSettingsSaveSuccess>DB параметрлері сәтті сақталды. Бет қайта болады</AdminDbMaintenanceSettingsSaveSuccess>
+  <AdminDbMaintenanceSettingsChangeNote>Назар! параметрлердің Сақтағаннан кейін өтініш ұзамай қайта басталады!</AdminDbMaintenanceSettingsChangeNote>
+  <AdminDbMaintenanceInsertIntervalLabel>DB оқиғаларды қосу интервал (минут). Егер сіз 0 көрсетсеңіз, кірістіру оқиғалардан кейін тікелей пайда болады.</AdminDbMaintenanceInsertIntervalLabel>
+  <AdminDbMaintenanceAdvDbParamsTitle>Кеңейтілген DB қосылым параметрлері</AdminDbMaintenanceAdvDbParamsTitle>
+  <AdminDbMaintenanceStatTitle>Статистика (DB журналы деңгейі DurationExecution байланысты)</AdminDbMaintenanceStatTitle>
+  <AdminDbMaintenanceStatDurationReadLabel>Орт оқу күту уақыты</AdminDbMaintenanceStatDurationReadLabel>
+  <AdminDbMaintenanceStatDurationWriteLabel>Орт жазу күту уақыты</AdminDbMaintenanceStatDurationWriteLabel>
+  <AdminDbMaintenanceStatDurationCompactLabel>Орт жинақы күту уақыты</AdminDbMaintenanceStatDurationCompactLabel>
+  <AdminDbMaintenanceStatNoData>деректер жоқ</AdminDbMaintenanceStatNoData>
+  <AdminDbMaintenanceStatGetButton>статистикаларын жинау</AdminDbMaintenanceStatGetButton>
+
+  <AdminMiscTab>Әртүрлі</AdminMiscTab>
+  <AdminMiscLoadADAccountsTitle>Active Directory шоттарын салыңыз</AdminMiscLoadADAccountsTitle>
+  <AdminMiscLoadADAccountsLoadButton>жүк</AdminMiscLoadADAccountsLoadButton>
+  <AdminMiscLoadADAccountsResetButton>Reset</AdminMiscLoadADAccountsResetButton>
+  <AdminMiscLoadADAccountsLdap>LDAP контейнер</AdminMiscLoadADAccountsLdap>
+  <AdminMiscLoadADAccountsToFile>файлға</AdminMiscLoadADAccountsToFile>
+  <AdminMiscLoadADAccountsSuccessMessage>сәтті тиелген Active Directory шоттары</AdminMiscLoadADAccountsSuccessMessage>
+  <AdminMiscLoadADAccountsInfo>Мұнда Сіз бүкіл Active Directory пайдаланушылар құрылымы бар файлды жасай аласыз. Егер сіз AD ақпарат сақтау ретінде статикалық файлды пайдаланатын болсаңыз Бұл файл қажет. сол файл ADManager Utility арқылы жинақталатын болады. Қосымша ақпарат алу үшін: {1} {0} нұсқаулықтың &lt;b&gt; ADAccountsFilePath &lt;/b&gt; Параметр Сипаттама бөлімін қараңыз.</AdminMiscLoadADAccountsInfo>
+
+  <AdminMiscManageQuotasTitle>квота басқару</AdminMiscManageQuotasTitle>
+  <AdminMiscManageQuotasInfo>Сұрау қолданыстағы немесе Файл сервер ресурстарын диспетчердің қуат қалтаға рұқсат етілген кеңістік, шектеу үшін жаңа квота жасаңыз.</AdminMiscManageQuotasInfo>
+  <AdminMiscManageQuotasFolderPath>Қалта жолы</AdminMiscManageQuotasFolderPath>
+  <AdminMiscManageQuotasQuota>квота</AdminMiscManageQuotasQuota>
+  <AdminMiscManageQuotasGetQuota>квота алу</AdminMiscManageQuotasGetQuota>
+  <AdminMiscManageQuotasSetQuota>орнатыңыз квота</AdminMiscManageQuotasSetQuota>
+
+  <AdminMiscFoldersFromGPOLTitle>Топтық саясат бойынша жүк тасымалдары қалталар</AdminMiscFoldersFromGPOLTitle>
+  <AdminMiscFoldersFromGPOLComputerName>Компьютерлік атауы</AdminMiscFoldersFromGPOLComputerName>
+  <AdminMiscFoldersFromGPOLFilePath>файл жолы</AdminMiscFoldersFromGPOLFilePath>
+  <AdminMiscFoldersFromGPOLMoreInfoLink>Қосымша ақпарат</AdminMiscFoldersFromGPOLMoreInfoLink>
+  <AdminMiscFoldersFromGPOLResetButton>Reset</AdminMiscFoldersFromGPOLResetButton>
+  <AdminMiscFoldersFromGPOLLoadButton>жүк</AdminMiscFoldersFromGPOLLoadButton>
+  <AdminMiscFoldersFromGPOLFromDC>DC бастап</AdminMiscFoldersFromGPOLFromDC>
+  <AdminMiscFoldersFromGPOLFromFile>файлынан</AdminMiscFoldersFromGPOLFromFile>
+  <AdminMiscFoldersTargetLabel>пайдаланушылар / топтар жағдай импорттау үшін ...</AdminMiscFoldersTargetLabel>
+  <AdminMiscFoldersTargetFilter>фильтр</AdminMiscFoldersTargetFilter>
+  <AdminMiscFoldersTargetPermission>рұқсат</AdminMiscFoldersTargetPermission>
+  <AdminMiscFoldersFromGPOLSuccessMessage>Қалталар сәтті жүктелген /&gt; &lt;br Жаңа:. {0}, жаңартылған: {1}.</AdminMiscFoldersFromGPOLSuccessMessage>
+  <AdminMiscFoldersFromGPOLInfo>Сіз Domain Controller Топ саясаты Drive салыстыру параметрлерінен қалта тізімін жүктеу (немесе жаңарту) болады. саласындағы сіз топтық саясат параметрлері жүктелген (бұны бос қалдыруға да болса, онда ағымдағы домен пайдаланылатын болады) болады, оның компьютер атын енгізіңіз немесе көрсетілген дискілерді параметрлерімен файлдың жолын аласыз төмен.</AdminMiscFoldersFromGPOLInfo>
+
+  <AdminAnonymFoldersTab>Anonymous қалталар</AdminAnonymFoldersTab>
+  <AdminAnonymFoldersDeleteFolderPrompt>Сіз {0} таңдалған анонимдік қалталарды жойғыңыз келгені рас па?</AdminAnonymFoldersDeleteFolderPrompt>
+  
+  <AdminAnonymFoldersDescription>Ортақ қалталар / файлдар - бұл пайдаланушы аутентификациясы * талап етпейтін қалталар / файлдар (олар сілтемені болса), бұл * олар барлық келушілер үшін қол жетімді екенін білдіреді. Барлық пайдаланушылар мәзірінен «Бөлісу &amp;Rarr; қоғамдық сілтеме жасау» сияқты қалталар / файлдар жасауға болады. Алайда, ортақ қалталар шектеулі рұқсаттарыңыз болуы мүмкін: жүктеу үшін, файлға / қалтаға тізімін жүктеу. Төменде пайдаланушылар құрылған ортақ қалталардан / файлдарға сілтемелер кесте болып табылады. қоғамдық сілтемелер жұмыс істеу үшін дұрыс өңдегіштері \ Anonymousdownload.ashx IIS анонимді қатынасудан береді сенімді болуы мүмкіндігі. Сіз диагностика &lt;/a&gt; бетінде href="{0}"&gt; &lt;a target="_blank" осы тексеруге болады. . Өңдегіштердің тағайындалған анонимді пайдаланушы тіркелгісі \ Anonymousdownload.ashx ортақ қалталар / файлдар үшін NTFS оқу / жазу рұқсаттарыңыз бар екенін &lt;br /&gt; * &amp;шығармалар жарияланатын көз жеткізіңіз; &amp;mdash; &amp;шығармалар жарияланатын Егер Сіз тек қол рұқсат етіледі, ол үшін пайдаланушылар, көрсетпеген болсаңыз.</AdminAnonymFoldersDescription>
+  <AdminAnonymFoldersLinkOwnerColumn>ие</AdminAnonymFoldersLinkOwnerColumn>
+  <AdminAnonymFoldersEmailsColumn>хабарлау үшін Хаттар</AdminAnonymFoldersEmailsColumn>
+  <AdminAnonymFoldersAccessForUsersColumn>пайдаланушылар үшін Access</AdminAnonymFoldersAccessForUsersColumn>
+  <AdminAnonymFoldersPersonalMessageColumn>Жеке хабарлама</AdminAnonymFoldersPersonalMessageColumn>
+  <AdminAnonymFoldersOverwriteOnUploadHint> (Қайта жазу: {0})</AdminAnonymFoldersOverwriteOnUploadHint>
+  <AdminAnonymFoldersRootPathColumn>түбір жолы</AdminAnonymFoldersRootPathColumn>
+  <AdminAnonymFoldersKeysColumn>Пернелер</AdminAnonymFoldersKeysColumn>
+  <AdminAnonymFoldersShortColumn>Қысқа сілтеме</AdminAnonymFoldersShortColumn>
+  <AdminAnonymFoldersPropertiesTitle>Anonymous қалта қасиеттері</AdminAnonymFoldersPropertiesTitle>
+  <AdminAnonymFoldersAdditionalInfo>Қосымша Ақпарат</AdminAnonymFoldersAdditionalInfo>
+  <AdminAnonymFoldersLinkLabel>қол жеткізу үшін сілтеме</AdminAnonymFoldersLinkLabel>
+  <AdminAnonymFoldersPathNotSpecified>физикалық жол анықталмаса,</AdminAnonymFoldersPathNotSpecified>
+  <AdminAnonymFoldersCreatedForColumn>мақсат</AdminAnonymFoldersCreatedForColumn>
+
+  <AdminFoldersTab>Қалталар</AdminFoldersTab>
+  <AdminFoldersAddFolder>қалта қосу</AdminFoldersAddFolder>
+  <AdminFoldersEditFolder>өңдеу қалта</AdminFoldersEditFolder>
+  <AdminFoldersRemoveFolder>қалтаны жою</AdminFoldersRemoveFolder>
+  <AdminFoldersDeleteFolderPrompt>Егер сіз қалтаны «{0}» жойғыңыз келгені рас па?</AdminFoldersDeleteFolderPrompt>
+  <AdminFoldersFolderNotFound>Осы атауы бар қалта табылған жоқ</AdminFoldersFolderNotFound>
+  <AdminFoldersPropertiesTitle>Қалта сипаттары</AdminFoldersPropertiesTitle>
+  <AdminFoldersGeneralInfo>Негізгі ақпарат</AdminFoldersGeneralInfo>
+  <AdminFoldersFolderRemoteWarningForms>Ескерту! Бұл қапшық қашықтан ортақ. {0} FAQ тексеріңіз: қалай {1} қашықтан Қапшықтарды ортақтастыруға</AdminFoldersFolderRemoteWarningForms>
+  <AdminFoldersFolderRemoteWarningWin>Ескерту! Бұл қапшық қашықтан ортақ. пайдаланушылар оларды оқып құқықтары болмаса, Сіз кейбір қалталар / файлдарды жасыруға болады. {0} Жиі қойылатын сұрақтар бөлімін қараңыз: Пайдаланушы {1} оқып құқықтарға ие емес, файлдарды / қалталарды қалай жасыруды</AdminFoldersFolderRemoteWarningWin>
+  <AdminFoldersFolderPath>Физикалық жолы</AdminFoldersFolderPath>
+  <AdminFoldersLocationPath>орналасқан жері</AdminFoldersLocationPath>
+  <AdminFoldersFolderCreate>Қалта жасау</AdminFoldersFolderCreate>
+  <AdminFoldersFolderCreateProcess>жасау қалта</AdminFoldersFolderCreateProcess>
+  <AdminFoldersFolderCreateContainsPattern>ол үлгіні асырайды, өйткені қалта жасау мүмкін емес</AdminFoldersFolderCreateContainsPattern>
+  <AdminFoldersFolderCreateSuccessfully>қалта «{0}» сәтті құрылды.</AdminFoldersFolderCreateSuccessfully>
+  <AdminFoldersFolderOptional> (Міндетті емес)</AdminFoldersFolderOptional>
+  <AdminFoldersFolderLimitations>шектеулер</AdminFoldersFolderLimitations>
+  <AdminFoldersFolderDescription>сипаттамасы</AdminFoldersFolderDescription>
+  <AdminFoldersFolderQuota>квота</AdminFoldersFolderQuota>
+  <AdminFoldersFolderQuotaHint>Сұрау қолданыстағы немесе Файл сервер ресурстарын диспетчердің қуат қалтаға рұқсат етілген кеңістік, шектеу үшін жаңа квота жасаңыз.</AdminFoldersFolderQuotaHint>
+  <AdminFoldersFolderQuotaMoreInfoLink>Қосымша ақпарат</AdminFoldersFolderQuotaMoreInfoLink>
+  <AdminFoldersPermissions>Рұқсаттар</AdminFoldersPermissions>
+  <AdminFoldersPermissionsFor>{0} үшін Рұқсаттар</AdminFoldersPermissionsFor>
+  <AdminFoldersUsersGroups>Пайдаланушылар мен топтар</AdminFoldersUsersGroups>
+  <AdminFoldersAccessControl>Қатынасты басқару</AdminFoldersAccessControl>
+  <AdminFoldersCreate>жасау</AdminFoldersCreate>
+  <AdminFoldersDelete>Жою</AdminFoldersDelete>
+  <AdminFoldersRename>Атын өзгерту</AdminFoldersRename>
+  <AdminFoldersUpload>Upload</AdminFoldersUpload>
+  <AdminFoldersDownload>жүктеу</AdminFoldersDownload>
+  <AdminFoldersZipDownload>Zip және жүктеу</AdminFoldersZipDownload>
+  <AdminFoldersZip>Zip</AdminFoldersZip>
+  <AdminFoldersUnzip>Ораманы ашып Zip</AdminFoldersUnzip>
+  <AdminFoldersCut>кесу</AdminFoldersCut>
+  <AdminFoldersCopy>көшірме</AdminFoldersCopy>
+  <AdminFoldersListFiles>көрсету файлдар</AdminFoldersListFiles>
+  <AdminFoldersListFolders>көрсету қалталар</AdminFoldersListFolders>
+  <AdminFoldersModify>түрлендіру</AdminFoldersModify>
+  <AdminFoldersBulkMailing>Bulk пошталық</AdminFoldersBulkMailing>
+  <AdminFoldersAnonymViewContent>қоғамдық сілтеме арқылы Файл тізімі</AdminFoldersAnonymViewContent>
+  <AdminFoldersAnonymDownload>қоғамдық сілтеме арқылы жүктеп</AdminFoldersAnonymDownload>
+  <AdminFoldersAnonymUpload>қоғамдық сілтеме арқылы кері қотару</AdminFoldersAnonymUpload>
+  <AdminFoldersWatch>сағат</AdminFoldersWatch>
+  <AdminFoldersDescription>Егер сіз Топ саясаттары бойынша дискілерді пайдалансаңыз қолмен қалталарды қосуға немесе қолданыстағы қалталарды түрлендіруге болады. Қосымша ақпарат алу үшін: {0} {1} Анықтама бөлімін қараңыз.</AdminFoldersDescription>
+
+  <AdminFoldersPermissionsForRegex>Сіз сондай-ақ тұрақты өрнекті пайдалануға болады. Мысалы, онда жоғарыда саласындағы басында және тұрақты өрнек бойынша &lt;b&gt; {0} &lt;/b&gt; енгізіңіз:</AdminFoldersPermissionsForRegex>
+  <AdminFoldersPermissionsForRegexUsers>{0} (кез келген пайдаланушы үшін қол жеткізуін қамтамасыз ету) &lt;br /&gt; {1} (осы үлгі өрнегі екі пайдаланушылар білдіреді: jdoe және Майк)</AdminFoldersPermissionsForRegexUsers>
+  <AdminFoldersPermissionsForRegexGroups>{0} (кез келген тобы үшін қол жеткізуін қамтамасыз ету) &lt;br /&gt; {1} (осы үлгі өрнегі олардың атауларында «Студенттер» барлық топтар білдіреді)</AdminFoldersPermissionsForRegexGroups>
+
+  <AdminFoldersListRestrictions>Дисплейдің шектеулер</AdminFoldersListRestrictions>
+  <AdminFoldersCreateRestrictions>файл құру шектеулер</AdminFoldersCreateRestrictions>
+  <AdminFoldersRestrictionAllow>рұқсат ету</AdminFoldersRestrictionAllow>
+  <AdminFoldersRestrictionDeny>Deny</AdminFoldersRestrictionDeny>
+  <AdminFoldersRestrictionExtensions>Extensions</AdminFoldersRestrictionExtensions>
+  <AdminFoldersUserNamePrompt>пайдаланушы атын енгізіңіз</AdminFoldersUserNamePrompt>
+  <AdminFoldersUserNameEmptyText>Select пайдаланушы аты</AdminFoldersUserNameEmptyText>
+  <AdminFoldersUserNameNotSelected>Сіз пайдаланушы атын таңдау керек</AdminFoldersUserNameNotSelected>
+  <AdminFoldersUserAlreadyExists>Бұл пайдаланушы қалтаға тағайындалды</AdminFoldersUserAlreadyExists>
+  <AdminFoldersGroupNamePrompt>Топ атын енгізіңіз</AdminFoldersGroupNamePrompt>
+  <AdminFoldersGroupNameEmptyText>Select топ атауы</AdminFoldersGroupNameEmptyText>
+  <AdminFoldersGroupNameNotSelected>Сіз топ атауын таңдау керек</AdminFoldersGroupNameNotSelected>
+  <AdminFoldersGroupAlreadyExists>Бұл топ қазірдің өзінде қалтаға тағайындалды</AdminFoldersGroupAlreadyExists>
+  <AdminFoldersEmptyName>Қалта атауы бос бола алмайды</AdminFoldersEmptyName>
+  <AdminFoldersEmptyPath>Қалта жолы бос болуы мүмкін емес</AdminFoldersEmptyPath>
+  <AdminFoldersIncorrectName>қалта атауында дұрыс рәміздер бар</AdminFoldersIncorrectName>
+  <AdminFoldersAlreadyExists>Осы атауы мен орналасқан жері бар қалта бұрыннан бар</AdminFoldersAlreadyExists>
+  <AdminFoldersSharesButton>Қолданыстағы акциялар</AdminFoldersSharesButton>
+  <AdminFoldersTestAccessButton>Test қатынау</AdminFoldersTestAccessButton>
+  <AdminFoldersTestIndexingButton>Test индекстеу</AdminFoldersTestIndexingButton>
+  <AdminFoldersShareNameTitle>Қолданыстағы акциялар</AdminFoldersShareNameTitle>
+  <AdminFoldersShareNameEmptyText>үлесін таңдаңыз</AdminFoldersShareNameEmptyText>
+  <AdminFoldersShareNameNotSelected>Сіз үлесін таңдау керек</AdminFoldersShareNameNotSelected>
+  <AdminFoldersGetQuotaButton>квота алу</AdminFoldersGetQuotaButton>
+  <AdminFoldersSetQuotaButton>орнатыңыз квота</AdminFoldersSetQuotaButton>
+  <AdminCommonFilterField>фильтр</AdminCommonFilterField>
+  <AdminCommonValidateField>тексеру</AdminCommonValidateField>
+  <AdminFoldersRootNameUsed>«{0}» қалтасына тағы бір атауын пайдалануға орнына сұраймыз</AdminFoldersRootNameUsed>
+  <AdminFoldersFolderFilterSuccess>Сүзгінің тексеру сәтті өтті,</AdminFoldersFolderFilterSuccess>
+
+  <AdminTestAccessGoodResult>қалта «{0}» бар және оқуға болады.</AdminTestAccessGoodResult>
+  <AdminTestAccessBadResult>қалта «{0}» жоқ немесе ешқандай NTFS о у р саттары немесе бағдарлама әлпетінде ешқандай желілік қатынау бар бар!</AdminTestAccessBadResult>
+  <AdminTestAccessErrorResult>Қате «{0}» қалтасына қол тексеру, ал: {1}</AdminTestAccessErrorResult>
+  <AdminTestIndexingErrorResult>«{0}» қалтасының индекстеуді тексеру кезінде қате пайда:
+{1}</AdminTestIndexingErrorResult>
+  <AdminTestIndexingYesResult>каталогы «{0}» индекстелген</AdminTestIndexingYesResult>
+  <AdminTestIndexingNoResult>каталогы «{0}» индекстелген емес,</AdminTestIndexingNoResult>
+  <AdminTestIndexingUnknownResult>каталогы «{0}» индекстелген болса анықтау мүмкін емес.</AdminTestIndexingUnknownResult>
+  <AdminTestIndexingAddIfNotIndexed>Сіз бұл әлі индекстелген болса, индекстеу үшін осы қалтаны қосу келе ме?</AdminTestIndexingAddIfNotIndexed>
+  <ProgressTestAccess>қол жеткізуін тексеру</ProgressTestAccess>
+  <ProgressTestIndexing>индекстеуді тексеру</ProgressTestIndexing>
+  <AdminHowToIndexingLocationLink>қалтаға индексі үшін, {0} үшін анықтамасын қараңыз</AdminHowToIndexingLocationLink>
+
+  <AdminUsersListAll>Барлық пайдаланушылар</AdminUsersListAll>
+  <AdminUsersListDACL>ACL жылғы Пайдаланушылар</AdminUsersListDACL>
+  <AdminGroupsListAll>Барлық топтар</AdminGroupsListAll>
+  <AdminGroupsListDACL>ACL жылғы Топтар</AdminGroupsListDACL>
+  <AdminDACLStringLabel>ACL рұқсаттар</AdminDACLStringLabel>
+
+  <AdminCommonCustomField>пайдаланушы өрісі</AdminCommonCustomField>
+  <AdminCommonSettingsChangeWarning>өзгерістер логин (немесе WebDav қол жеткізу үшін өтініш қосқаннан кейін) қайта кейін күшіне енеді.</AdminCommonSettingsChangeWarning>
+
+  <AdminCommonAllowedFoldersPathsTitle>Рұқсат қалта жолдары</AdminCommonAllowedFoldersPathsTitle>
+  <AdminCommonNotAllowedFolderPath>{0}: Сіз тек осы қалталарға немесе оның ішкі қапшықтар қол жеткізуді жасауға болады</AdminCommonNotAllowedFolderPath>
+
+  <AdminLogsTab>журнал</AdminLogsTab>
+
+  <AdminSettingsTab>Параметрлер</AdminSettingsTab>
+
+  <AdminLogsErrorsTab>қателерді Кіру</AdminLogsErrorsTab>
+  <AdminLogsErrorsClearBtn>айқын</AdminLogsErrorsClearBtn>
+  <AdminLogsErrorsClearUsersCountExceededBtn>саны лимитін асатын пайдаланушылардың қателер бар Clear жазбалар</AdminLogsErrorsClearUsersCountExceededBtn>
+
+  <AdminFoldersCreateHint>жаңа файл, жаңа қалта, жаңа сурет, жаңа құжат файлдар: Allow / мәзірінен «Жаңа» әрекеттері Deny.</AdminFoldersCreateHint>
+  <AdminFoldersDeleteHint>қолданыстағы файлдар мен қалталарды Allow / Deny жою</AdminFoldersDeleteHint>
+  <AdminFoldersRenameHint>қолданыстағы файлдар мен қалталарды Allow / Deny қайта атау</AdminFoldersRenameHint>
+  <AdminFoldersUploadHint>Рұқсат / Бұғат жүктеу файлдары (құралдар тақтасындағы кезінде жүктеу батырмасы) мүмкіндігі</AdminFoldersUploadHint>
+  <AdminFoldersDownloadHint>/ Deny «жүктеу», «көру / өңдеу» Allow, сақтау бұлт жүктеп, т.б. іс-әрекеттер</AdminFoldersDownloadHint>
+  <AdminFoldersZipDownloadHint>Allow / Deny «қысу және жүктеу» акциясы</AdminFoldersZipDownloadHint>
+  <AdminFoldersZipHint>Allow / Deny «қысу бір ZIP мұрағатына» акциясы</AdminFoldersZipHint>
+  <AdminFoldersUnzipHint>Allow /, «жаңа қалтаға сіріндісі» және «Zip мазмұнын» іс-шаралар «ағымдағы қалтаға сіріндісі» Deny</AdminFoldersUnzipHint>
+  <AdminFoldersCutHint>Рұқсат / Бұғат кесілген қолданыстағы файлдар мен қалталарды іс-қимыл</AdminFoldersCutHint>
+  <AdminFoldersCopyHint>Рұқсат / Бұғат көшірмесі қолданыстағы файлдар мен қалталарды іс-қимыл</AdminFoldersCopyHint>
+  <AdminFoldersListFilesHint>Allow / Deny файлдар тізімі</AdminFoldersListFilesHint>
+  <AdminFoldersListFoldersHint>Allow / Deny қалталарды листинг</AdminFoldersListFoldersHint>
+  <AdminFoldersModifyHint>Рұқсат / Бұғат файлдарды (бар файл мазмұнын өзгертуге болады барлық іс-шаралар), өзгерту</AdminFoldersModifyHint>
+  <AdminFoldersBulkMailingHint>топтары үшін Рұқсат / Бұғат сусымалы пошталық</AdminFoldersBulkMailingHint>
+  <AdminFoldersAnonymViewContentHint>Рұқсат ету / (қоғамдық байланыстар арқылы) қоюсыз пайдаланушылар үшін файлдар тізімін Deny</AdminFoldersAnonymViewContentHint>
+  <AdminFoldersAnonymDownloadHint>Allow / файлдар қоюсыз пайдаланушыларды (қоғамдық байланыстар арқылы) үшін жүктеп Deny</AdminFoldersAnonymDownloadHint>
+  <AdminFoldersAnonymUploadHint>Рұқсат ету / файлдар (қоғамдық байланыстар арқылы) қоюсыз пайдаланушылар үшін кері жүктеуге тыйым салу</AdminFoldersAnonymUploadHint>
+  <AdminFoldersWatchHint>Allow / пайдаланушылар басқа пайдаланушылар жасаған қалтасында өзгерістерді бақылау үшін Deny (ол тек шынайы UI / AllowUsersmonitorModifications = болса қолданылады)</AdminFoldersWatchHint>
+  <AdminFoldersListRestrictionsHint>Бұл опция файл листинг бақылайды. көрсетілген жұрнақтармен аяқталатын файлдарды жасыру үшін радио батырмасын «Тыйым салу» басыңыз. үтірмен (мысалы, «EXE, BAT, COM») арқылы оларды бөліп тыйым кеңейтімдерін салыңыз. радио түймесін «Рұқсат ету» және (мысалы, «DOC, PDF, JPG») көрсетілімі өтеді файлдар кеңейтімдерін салыңыз орнатыңыз.</AdminFoldersListRestrictionsHint>
+  <AdminFoldersCreateRestrictionsHint>Бұл функция «тізімі шектеулер» ұқсас, бірақ ол файлдарды кері жүктеу бақылайды, ZIP өндіру, жаңа файлдар құру. Сіз көрсетілген файлдар жүктеу тыйым салады немесе қосуға болады.</AdminFoldersCreateRestrictionsHint>
+  <AdminFoldersGeneralInfoHint>қолданыстағы қапшықтың жолын және лақап ат енгізіңіз. Қосымша ақпарат алу үшін төменгі бөлігінде Анықтама түймешігін басыңыз.</AdminFoldersGeneralInfoHint>
+  <AdminFoldersUsersGroupsHint>олар үшін қалтаны ортақ пайдалану үшін пайдаланушылар мен топтар теріңіз немесе таңдаңыз. Қосымша ақпарат алу үшін төменгі бөлігінде Анықтама түймешігін басыңыз.</AdminFoldersUsersGroupsHint>
+
+  <AdminUserFoldersButtonTitle>Test акциялар тізімі</AdminUserFoldersButtonTitle>
+  <AdminUserFoldersWindowTitle>пайдаланушы қалталар</AdminUserFoldersWindowTitle>
+  <AdminUserFoldersLabel>пайдаланушы '{0}' қапшығының тізімі:</AdminUserFoldersLabel>
+  
+  <AdminPermissionsTab>әкімші рұқсаттарын</AdminPermissionsTab>
+  <AdminPermissionsPrivilege>артықшылық</AdminPermissionsPrivilege>
+  <AdminPermissionsEditButton>өңдеу мәртебе</AdminPermissionsEditButton>
+  <AdminPermissionsModifySettingsTitle>параметрлерін өзгерту</AdminPermissionsModifySettingsTitle>
+  <AdminPermissionsModifyFoldersTitle>қалталарды өзгерту</AdminPermissionsModifyFoldersTitle>
+  <AdminPermissionsModifyAnonymFoldersTitle>қоғамдық қалталарды өзгерту</AdminPermissionsModifyAnonymFoldersTitle>
+  <AdminPermissionsModifyAccountsTitle>шоттарын өзгерту</AdminPermissionsModifyAccountsTitle>
+  <AdminPermissionsViewDiagnosticsTitle>Қарау 'Diagnostics' бет</AdminPermissionsViewDiagnosticsTitle>
+  <AdminPermissionsViewLogTitle>қарау журналы</AdminPermissionsViewLogTitle>
+  <AdminPermissionsViewErrorsLogTitle>Қарау қателер кіру</AdminPermissionsViewErrorsLogTitle>
+  <AdminPermissionsModifyLocalizationsTitle>оқшаулау өзгерту</AdminPermissionsModifyLocalizationsTitle>
+  <AdminPermissionsFolderPathTitle>Қалта жолы</AdminPermissionsFolderPathTitle>
+  <AdminPermissionsFoldersTitle>Admin қалталар</AdminPermissionsFoldersTitle>
+  <AdminPermissionsPrivilegeHint>«{0}» мәртебе рұқсат етіледі, ол үшін орнату пайдаланушылар / топтар</AdminPermissionsPrivilegeHint>
+  <AdminPermissionsFolderTitle>Admin қалта қасиеттері</AdminPermissionsFolderTitle>
+  <AdminPermissionsFolderFieldTitle>Қалта жолы</AdminPermissionsFolderFieldTitle>
+  <AdminPermissionsFolderHint>Admin қалталарда туралы ақпарат</AdminPermissionsFolderHint>
+  <AdminPermissionsFolderEmptyAccounts>пайдаланушылар және / немесе топтарды көрсетіңіз</AdminPermissionsFolderEmptyAccounts>
+  <AdminPermissionsFolderAlreadyExists>Бұл орынға отырып Бұндайқапшықатауықолданыстабар</AdminPermissionsFolderAlreadyExists>
+  <AdminPermissionsFolderNotFound>Бұл орынға отырып Папка табылған жоқ</AdminPermissionsFolderNotFound>
+  <AdminPermissionsAllowedFoldersMessage>Сіз тек осы қалталарға немесе оның ішкі қапшықтар қол жеткізуді басқаруға / / жаңарту жасай аласыз: {0}</AdminPermissionsAllowedFoldersMessage>
+
+  <AdminUsersCountExceededWarn>пайдаланушылардың Ең саны артып отыр. Сіздің ағымдағы лицензия логин үшін ғана {0} пайдаланушыларға мүмкіндік береді. толығырақ ашық үшін «{1}» қойындысы және таба «{2}» ерекшелік (лар). «{1}» қойындысында Бұл хабарлама анық журналы жазбаларын жасыру үшін.</AdminUsersCountExceededWarn>
+
+  <AdminNewVersionAvailableTitle>Жаңа нұсқасы қол жетімді!</AdminNewVersionAvailableTitle>
+  <AdminNewVersionAvailableInfo>Ағымдағы нұсқасы: жаңа нұсқасын /&gt; {0} &lt;br: {1}</AdminNewVersionAvailableInfo>
+  
+  <SettingsGridDescriptionInfo>сипаттамасы</SettingsGridDescriptionInfo>
+  <SettingsGridFormatInfo>мән пішімінде</SettingsGridFormatInfo>
+  <SettingsGridDefaultValueInfo>әдепкі мән</SettingsGridDefaultValueInfo>
+  <SettingsGridMoreInfo>Қосымша ақпарат</SettingsGridMoreInfo>
+  <SettingsGridRestoreDefault>Восстан</SettingsGridRestoreDefault>
+
+  <SettingsFormatBoolean>логикалық мән</SettingsFormatBoolean>
+  <SettingsFormatWholeNumber>бүтін сан</SettingsFormatWholeNumber>
+  <SettingsFormatRealNumber>нақты саны</SettingsFormatRealNumber>
+  <SettingsFormatString>String</SettingsFormatString>
+  <SettingsFormatEnum>кез келген мән</SettingsFormatEnum>
+  <SettingsFormatSet>құндылықтарды қайталану жоқ үтірмен бөлінген тізімі</SettingsFormatSet>
+  <SettingsFormatArray>ішекті үтірмен бөлінген тізімі</SettingsFormatArray>
+  <SettingsFormatToolbarButtons>. (. Мән «{0}» қос нүктемен кейін, әр атаудың кейін емес, қатарынан бірнеше рет қайталауға болады, ол батырмасын көрсету үшін пайдаланылатын әдістердің біреуін көрсетуге болады: {1})</SettingsFormatToolbarButtons>
+
+  <AdminSettingsSave>параметрлерін сақтау</AdminSettingsSave>
+  <AdminToggleHiddenParams>{0} қосымша параметрлер</AdminToggleHiddenParams>
+  <AdminHintHiddenParams>Қосымша параметрлер тек көбірек түйіршіктелген параметрлер үшін және көп жағдайларда арналған сирек қажет</AdminHintHiddenParams>
+  <AdminShowHiddenParams>көрсету</AdminShowHiddenParams>
+  <AdminHideHiddenParams>жасыру</AdminHideHiddenParams>
+
+  <SettingsDenyAuthModeChange>Автоматты аутентификация режимі ауысу қолдау көрсетілмейді. аутентификация режимін өзгерту туралы нұсқауларды {0} қараңыз.</SettingsDenyAuthModeChange>
+  <SettingsApplicationRestartedMsg>қолдану қайта іске</SettingsApplicationRestartedMsg>
+  <SettingsSettingsSavedMsg>Параметрлер сақталған</SettingsSettingsSavedMsg>
+  <SettingsSettingsSaveFailedAppMsg>конфигурация файлдарын сақтау мүмкін емес. пайдаланушы {1} үшін веб-бағдарлама түбірлік қалта {0} web.config және HttpCommanderSettings.config файлдар жазу NTFS рұқсаттарын тексеріңіз. Қате туралы хабар: {2}.</SettingsSettingsSaveFailedAppMsg>
+  <SettingsSettingsSaveFailedTempMsg>конфигурация файлдарын сақтау мүмкін емес. пайдаланушы {1} үшін уақытша қалтаға {0} тексеру рұқсаттары. Қате туралы хабар: {2}.</SettingsSettingsSaveFailedTempMsg>
+  <SettingsSettingsReadFailedAppMsg>конфигурация файлдарын оқу мүмкін емес. пайдаланушы {1} үшін веб-бағдарлама түбірлік қалта {0} файлдарға Web.config туралы NTFS о у р саттары тексеріңіз және HttpCommanderSettings.config. Қате туралы хабар: {2}.</SettingsSettingsReadFailedAppMsg>
+  <SettingsSettingsReadFailedTempMsg>уақытша қалтаға конфигурациялық файлдарды оқу мүмкін емес. пайдаланушы {1} үшін уақытша қалтаға {0} тексеру рұқсаттары. Қате туралы хабар: {2}.</SettingsSettingsReadFailedTempMsg>
+  <SettingsSettingsConfigChangedOutside>HttpCommander конфигурация файлы басқа бағдарлама өзгертілді. Мүмкін сіз мәтіндік редактор көмегімен оны қолмен өзгерткен. өтініш жаңа конфигурация файлын жүктелген. Егер веб интерфейс арқылы Қолынан HttpCommander конфигурациясына байланысты барлық өзгерістер жоғалады. Егер тағы да Сақтау көріңіз, содан кейін оларды қайтару керек. Бағдарлама жұмыс істеп тұрған кезде, біз қолмен редакциялау конфигурациялық файлдарды қарсы ұсынамыз. Олай болмаған жағдайда сіз конфигурация файлдарын өзгерткеннен кейін бағдарламаны қайта тиіс. Қате туралы хабар: {0}.</SettingsSettingsConfigChangedOutside>
+  <SettingsSettingsSaveNotif>параметрлер Өзгертулерді сақтау үшін ұмытпаңыз!</SettingsSettingsSaveNotif>
+  
+  <SettingsEmailNotifTitle>Электрондық пошта арқылы Хабарландырулар</SettingsEmailNotifTitle>
+  <SettingsEmailNotifApplyBtn>пошта параметрлерін сақтау</SettingsEmailNotifApplyBtn>
+  <SettingsEmailNotifResetBtn>Reset</SettingsEmailNotifResetBtn>
+  <SettingsEmailNotifEventsLabel>іс-шараларға арналған</SettingsEmailNotifEventsLabel>
+  <SettingsEmailNotifWhenLabel>жіберу</SettingsEmailNotifWhenLabel>
+  <SettingsEmailNotifEmailsLabel>Хаттар</SettingsEmailNotifEmailsLabel>
+  <SettingsEmailNotifPathsLabel>Жолдар</SettingsEmailNotifPathsLabel>
+  
+  <LogsErrorsGridUrlColumn>Url</LogsErrorsGridUrlColumn>
+  <LogsErrorsGridMsgColumn>хабар</LogsErrorsGridMsgColumn>
+  <LogsErrorsGridMoreInfoColumn>Қосымша ақпарат</LogsErrorsGridMoreInfoColumn>
+  <LogsErrorsGridDetailsTitle>Егжей</LogsErrorsGridDetailsTitle>
+  
+  <FsrmUnableLoadLibraryLocal>жергілікті хостта сервер ресурстарын диспетчердің Файл қосылу мүмкін емес.</FsrmUnableLoadLibraryLocal>
+  <FsrmUnableLoadLibraryRemote>«{0}» хостта сервер ресурстарын диспетчердің Файл қосылу мүмкін емес.</FsrmUnableLoadLibraryRemote>
+  <FsrmNotInstalled>Файл сервер ресурстарын диспетчердің «{0}» орнатылған жоқ.</FsrmNotInstalled>
+  <FsrmNotInstalledEitherEnd>Файл сервер ресурстарын диспетчердің жергілікті хостта немесе «{0}» бойынша, не орнатылмаған.</FsrmNotInstalledEitherEnd>
+  <FsrmQuotaNotSpecified>Квота көрсетілген емес.</FsrmQuotaNotSpecified>
+  <FsrmUnableGetQuota>квота шегін алу мүмкін емес.</FsrmUnableGetQuota>
+  <FsrmUnableSetQuota>квота шегін орнату мүмкін болмады.</FsrmUnableSetQuota>
+  <FsrmQuotaSetMsg>Квота орнатылған.</FsrmQuotaSetMsg>
+  <FsrmInvalidQuotaValueMsg>Жарамсыз квота құны.</FsrmInvalidQuotaValueMsg>
+
+  <CommandBuyNow>Қазір сатып Ал</CommandBuyNow>
+
+  <AdminUpdateTab>Жаңалау</AdminUpdateTab>
+  <AdminUpdateManual>Қолмен жаңарту</AdminUpdateManual>
+  <AdminUpdateAuto>автоматтандырылған жаңарту</AdminUpdateAuto>
+  <AdminUpdateStartButton>Жаңарту бастау / Сақтық көшірме жасау</AdminUpdateStartButton>
+  <AdminUpdateFinishButton>Аяқтау жаңарту / келт</AdminUpdateFinishButton>
+  <AdminUpdateBackupButton>Сақтық көшірме</AdminUpdateBackupButton>
+  <AdminUpdateDownloadNewButton>жаңа нұсқасын жүктеп алу</AdminUpdateDownloadNewButton>
+  <AdminUpdateStepTitle>Қадам {0} {1}: {2}</AdminUpdateStepTitle>
+  <AdminUpdateStepInfo>Қадам {0} {1}</AdminUpdateStepInfo>
+  <AdminUpdateNumberSymbol>#</AdminUpdateNumberSymbol>
+  <AdminUpdateBackupContent>қолдана отырып, қалта сақтық көшірмесін жасау үшін «{0}» түймесін басыңыз және жүктеу үшін сілтеме алу сұраймыз</AdminUpdateBackupContent>
+  <AdminUpdateDownloadBackupLinkHint>төмендегі сілтемені пайдаланып қолдану сақтық көшірмесін жүктеу сұраймыз:</AdminUpdateDownloadBackupLinkHint>
+  <AdminUpdateDownloadNewContent>Содан кейін төмендегі сілтемені пайдаланып жаңа нұсқасын жүктеу және {0} {1} орнатуды орындаңыз және {2} жаңа нұсқасын орнату үшін {1} нұсқауларды жаңартыңыз. Орнатуды аяқтау үшін орнатудан кейін Admin тақтасын ашып сұраймыз қойындысына өтіңіз «{3}» және түймесін басыңыз «{4}».</AdminUpdateDownloadNewContent>
+  <AdminUpdateUploadButton>сақтық көшірмесін жүктеуге және параметрлерді қолдану</AdminUpdateUploadButton>
+  <AdminUpdateUploadAndInstallButton>Барлық параметрлерді сақтай отырып, жаңа нұсқасын орнату</AdminUpdateUploadAndInstallButton>
+  <AdminUpdateUploadEmptyText>жүктеу үшін сақтық көшірмесін таңдаңыз</AdminUpdateUploadEmptyText>
+  <AdminUpdateFinishContent>алдыңғы нұсқасын параметрлерін қалпына келтіру үшін қолдану қапшыққа бұрын құрылған резервтік мұрағаты таңдаңыз және қотарыңыз</AdminUpdateFinishContent>
+  <AdminUpdateFinishMessage>Құттықтаймыз! Барлық параметрлер сәтті қолданылады. Сондай-ақ, мысалы, сіз басқа файлдарға жасалған барлық өзгерістерді хабарласыңыз Default.aspx немесе Global.asax.</AdminUpdateFinishMessage>
+  <AdminUpdateFinishRefreshPage>Бет қайта болады</AdminUpdateFinishRefreshPage>
+  <AdminUpdateMainInfo>жаңғырту бұл түрі ішінара автоматтандырылған. Сіз жасауға және жүктеуге өтініш теңшеу параметрлері бар сақтық көшірме файлын және жаңғырту кейін оны қалпына келтіру мүмкін. , Сақтық көшірме файлын жасау қолмен жаңарту орындауға, сақтық көшірме файлынан параметрлерді қалпына келтіру: осы қысқа қадамдарды орындаңыз. Бұл процедура / Жаңарту жоқ параметрлерді қалпына келтіру сақтық көшірмесін үшін пайдалануға болады. Жай сақтық көшірме файлынан параметрлерді қалпына келтіру үшін жаңғырту қадамды өткізіп жіберіңіз.</AdminUpdateMainInfo>
+  <AdminUpdateAutoButton>Автоматты</AdminUpdateAutoButton>
+  <AdminUpdateAutoInfo>жаңғырту бұл түрі іс жүзінде толықтай автоматтандырылған. Ағымдағы параметрлермен (сіз сақтық көшірме файлын жүктеу және сақтау керек) резервтік, резервтік файлдан параметрлерін жаңа нұсқасы мен қалпына келтіру орнату: Ол 2 қадамдар тұрады. HTTP қолбасшысы автоматты түрде соңғы нұсқасын жүктеу және орнату немесе сіз біздің серверде жаңа нұсқасымен ZIP мұрағат жолын көрсетуіңіз мүмкін болады. Барлық параметрлер автоматты түрде бұрын құрылған резервтік файл қалпына келтірілді.</AdminUpdateAutoInfo>
+  <AdminUpdateRestoreWebConfigCheckBox>(Мысалы, мұндай SMTP сияқты) Web.config файл мазмұнын бастап параметрлерді қалпына келтіру</AdminUpdateRestoreWebConfigCheckBox>
+  <AdminUpdateBackupAssignedFoldersInRootMessage>Назар! жалпы мөлшері {0} артық қолдана отырып каталогында кейбір пайдаланушы қалталар бар. сақтық көшірме жасалған болады. Осы каталогтар сақтық көшірмесін істеу қолдану каталогтан оларды жою және сіздің жағында операцияны қайталап көріңіз.</AdminUpdateBackupAssignedFoldersInRootMessage>
+  <AdminUpdateNeedRefreshPageForContinue>Назар! оны жалғастыру үшін бетті қайта қосу қажет. «{0}» түймесін басыңыз. қайта жүктеуден кейін операцияны қайталаңыз.</AdminUpdateNeedRefreshPageForContinue>
+  <AdminUpdateRestoreFromBackupEmpty>ол таңдалмаған болса, немесе, ол алдыңғы қадамда жаңадан құрылған файл пайдаланылатын болады</AdminUpdateRestoreFromBackupEmpty>
+  <AdminUpdateInstallZipPathHint>онлайн бөлу пайдалану үшін бірінші саласындағы (серверде) орнату файлға толық физикалық жолын көрсетіңіз сұраймыз немесе оны бос қалдырыңыз жаңарту үшін</AdminUpdateInstallZipPathHint>
+  <AdminUpdateInstallZipPathEmpty>орнату отырып мұрағаттауға жолын көрсетіңіз</AdminUpdateInstallZipPathEmpty>
+  <AdminUpdateProgress>жаңарту</AdminUpdateProgress>
+  <AdminUpdateAccessDeniedWarning>&lt;b&gt; Назар аударыңыз! &lt;/b&gt; HTTP қолбасшысы {1} бар қалта үшін {0} пайдаланушыға (оқу және жазу) NTFS Рұқсаттардыөзгерту орнату және жаңарту қайталаңыз жаңарту үшін. &lt;br /&gt; Сәтті жаңартқаннан кейін сұраймыз бұрынғы құқықтарын қалпына келтіру.</AdminUpdateAccessDeniedWarning>
+  <AdminUpdateAccessDeniedWarningCurentUser>ағымдағы</AdminUpdateAccessDeniedWarningCurentUser>
+
+  <ServerExceedsMaxSizeForEditAsTextFile>файл өлшемі мәтіндік файл ретінде өңдеу үшін ең үлкен өлшемін асады.</ServerExceedsMaxSizeForEditAsTextFile>
+  <ServerDemoMode>Аталған іс-шара демонстрациялық режимінде тыйым салынады</ServerDemoMode>
+  <ServerHostedMode>{0}: Ол өтті сынақ нұсқасын келесі параметрлердің мәндерін өзгерту рұқсат етілмейді.</ServerHostedMode>
+  <ServerIncorrectImageContentType>файл MIME-түрі сурет емес,</ServerIncorrectImageContentType>
+  <ServerPermissionDenied>Бұл операция, өйткені шектеулі рұқсат қабылданбайды</ServerPermissionDenied>
+  <ServerRestoreFromTrashNoParentFolder>қалпына келтіру «{0}» жиыны табылған жоқ болатын ата-аналар каталогына өйткені алмады. оны жасау және қайталап көріңіз.</ServerRestoreFromTrashNoParentFolder>
+  <ServerModifyPermissionDenied>Файлды өзгерту үшін рұқсатыңыз жоқ, себебі Бұл операция қабылданбайды</ServerModifyPermissionDenied>
+  <ServerPathNotFound>Жол табылған жоқ.</ServerPathNotFound>
+  <ServerInvalidPath>Жол «{0}» жарамды емес</ServerInvalidPath>
+  <ServerInvalidAbsolutePath>«{0}» Жарамсыз абсолютті жолы</ServerInvalidAbsolutePath>
+  <!-- share folder path: \\server\share -->
+  <ServerInvalidShareFolderPath>Жарамсыз үлесі қалта «{0}»</ServerInvalidShareFolderPath>
+  <ServerInvalidUncPath>Жарамсыз UNC жолы «{0}»</ServerInvalidUncPath>
+  <ServerUnableResolveUncPath>«{0}» UNC жолы шешу мүмкін емес</ServerUnableResolveUncPath>
+  <ServerInvalidFileName>Файл / қалта атауы {0} дұрыс таңбаларды орнату немесе бар емес,</ServerInvalidFileName>
+  <ServerFilePathNotFound>Файл жоқ</ServerFilePathNotFound>
+  <ServerIncorrectPathForFileLink>Қате нысан түрі. қалтаға жолы көрсетілген балл</ServerIncorrectPathForFileLink>
+  <ServerIncorrectPathForFolderLink>Қате нысан түрі. файлға жолды көрсету пункттері</ServerIncorrectPathForFolderLink>
+  <ServerRootFolderNotFound>жолын түбірлік қалта «{0}» жиыны табылған жоқ.</ServerRootFolderNotFound>
+  <ServerUnableCreateFolder>Қалтаны құрылмады</ServerUnableCreateFolder>
+  <ServerFileAlreadyExists>Осы атаумен файл әлдеқашан бар</ServerFileAlreadyExists>
+  <ServerFileAlreadyExistsOnRename>
+    Егер сіз «{0}» үшін «{1}» атауын өзгерту керек пе?
+    Осы жерде сол атпен файл әлдеқашан бар.
+  </ServerFileAlreadyExistsOnRename>
+  <ServerFolderAlreadyExistsOnRename>
+    Егер сіз «{0}» үшін «{1}» атауын өзгерту керек пе?
+    аттас бар папка, осы жерде қазірдің өзінде бар.
+  </ServerFolderAlreadyExistsOnRename>
+  <ServerFoldersMergeConfirm>
+    Бұл мақсаттағы өзінде «{0}» атты қалта бар.
+    Осы бір «{1}» бар «{0}» Егер сіз әлі осы қалтаны біріктіру қажет пе?
+  </ServerFoldersMergeConfirm>
+  <ServerFolderWithSameNameAsFileNameAlreadyExists>Сіз көрсеткен файл атауымен бірдей аты «{0}» бар папка, қазірдің өзінде бар</ServerFolderWithSameNameAsFileNameAlreadyExists>
+  <ServerFileWithSameNameAsFolderNameAlreadyExists>Егер сіз, көрсетілген қапшық атауымен бірдей аты «{0}» бар файл бұрыннан бар</ServerFileWithSameNameAsFolderNameAlreadyExists>
+  <ServerFileNotFound>Файл «{0}» «{1}» қалтасына табылған жоқ. Мүмкін ол басқа пайдаланушы немесе жойылған жойылған.</ServerFileNotFound>
+  <ServerDirectoryAlreadyExists>Осы атаумен каталог қазірдің өзінде бар</ServerDirectoryAlreadyExists>
+  <ServerFolderMoveAlreadeExists>Мақсатты қалта «{0}» көзі қалта ретінде бірдей</ServerFolderMoveAlreadeExists>
+  <ServerUploadPathNotFound>Файл сақтау үшін жол серверде табылған жоқ</ServerUploadPathNotFound>
+  <ServerUploadPathNotSet>жүктеу үшін жолды алу кезінде қате пайда болды. , Бетті жаңартуы, қайталап көріңіз.</ServerUploadPathNotSet>
+  <ServerUploadNoChunk>Сақтау үшін ешқандай дәмдісін</ServerUploadNoChunk>
+  <ServerUploadWriteChunk>байт бері бетіне жазу</ServerUploadWriteChunk>
+  <ServerUploadCreatingFile>жасау файл</ServerUploadCreatingFile>
+  <ServerUploadFileUploaded>файл жүктелген болатын</ServerUploadFileUploaded>
+  <ServerUploadWriteError>жазу қатесі</ServerUploadWriteError>
+  <ServerConfigurationError>Дұрыс емес конфигурация немесе бағдарлама! сайт әкімшісіне хабарласыңыз</ServerConfigurationError>
+  <ServerPermissionsAllowTypes>Ағымдағы рұқсаттар тек файл түрлерінің {0} осы операцияны мүмкіндік</ServerPermissionsAllowTypes>
+  <ServerPermissionsDenyTypes>Ағымдағы рұқсаттар файл түрлеріне {0} осы пайдалануға тыйым</ServerPermissionsDenyTypes>
+  <ServerRequestSizeExceeded>қотарылған файлдар мөлшері сервер параметрлері рұқсат өлшемін асып</ServerRequestSizeExceeded>
+  <ServerEmailMsgProcessedFilesSubject>Uploaded / Өзгертілген / Көшіріп алу / құрылды / Жойылған / Shared файлдар / қалталар</ServerEmailMsgProcessedFilesSubject>
+  <ServerEmailMsgUploadFilesTitle>Uploaded</ServerEmailMsgUploadFilesTitle>
+  <ServerEmailMsgModifyFilesTitle>түрлендірілген</ServerEmailMsgModifyFilesTitle>
+  <ServerEmailMsgDownloadFilesTitle>жүктелген</ServerEmailMsgDownloadFilesTitle>
+  <ServerEmailMsgCreateFilesTitle>құрылған</ServerEmailMsgCreateFilesTitle>
+  <ServerEmailMsgDeleteFilesTitle>жойылған</ServerEmailMsgDeleteFilesTitle>
+  <ServerEmailMsgCreatePublicFilesTitle>бөлісті</ServerEmailMsgCreatePublicFilesTitle>
+  <ServerEmailMsgProcessedFilesBody>
+    Келесі файлдар / қалталар {1} арқылы {0} болды:
+
+{2}
+    
+  </ServerEmailMsgProcessedFilesBody>
+  <ServerEmailMsgPasswordRecoverSubject>Құпиясөзді қалпына келтіру</ServerEmailMsgPasswordRecoverSubject>
+  <ServerEmailMsgPasswordRecoverBody>
+    Веб Файл менеджері парольді қалпына келтіру үшін сұраған. Құпия сөзді қалпына келтіру болды. Егер сіз осы қате деп ойласаңыз, бұл жай хат ескермеу, бірақ сіздің құпия сөз өзгертілді екенін ескеріңіз.
+    Пайдаланушының аты: {0}
+    Жаңа пароль: {1}
+  </ServerEmailMsgPasswordRecoverBody>
+  
+  <ServerEmailMsgUserNameRecoverSubject>Пайдаланушы аты қалпына келтіру</ServerEmailMsgUserNameRecoverSubject>
+  <ServerEmailMsgUserNameRecoverBody>
+    Веб Файл менеджері атыңызды қалпына келтіру үшін сұраған.
+    Пайдаланушының аты: {0}
+  </ServerEmailMsgUserNameRecoverBody>
+
+  <ServerEmailMsgUserActivationSubject>шот активтендіру</ServerEmailMsgUserActivationSubject>
+  <ServerEmailMsgUserActivationBody>
+    Шот ({0}) белсендіру қажет болады.
+    тіркелгіңізді белсендіру үшін, мына сілтемені басыңыз: {1}
+  </ServerEmailMsgUserActivationBody>
+  <ServerEmailMsgUserRegisteredSubject>пайдаланушы тіркелген</ServerEmailMsgUserRegisteredSubject>
+  <ServerEmailMsgUserRegisteredBody>
+    Сіз сәтті Web Файл менеджері тіркелген.
+    Пайдаланушының аты: {0}
+  </ServerEmailMsgUserRegisteredBody>
+  <ServerEmailMsgUserRegisteredForAdminsBody>
+    &lt;h4&gt; Жаңа пайдаланушы тіркелді &lt;/h4&gt;
+    &lt;STRONG&gt; Пайдаланушының аты &lt;/strong&gt;: {0} &lt;br /&gt;
+    &lt;STRONG&gt; Email &lt;/strong&gt;: {1} &lt;br /&gt;
+    &lt;STRONG&gt; Дата &lt;/strong&gt;: {2} &lt;br /&gt;
+    &lt;STRONG&gt; Қосымша ақпарат &lt;/strong&gt;: {3} &lt;br /&gt;
+  </ServerEmailMsgUserRegisteredForAdminsBody>
+  <ServerDiskFullError>жеткілікті орын дискідегі жоқ.</ServerDiskFullError>
+  <ServerFolderLimitations>Қалта шектеулер: {0}</ServerFolderLimitations>
+  <ServerShortcutAssignedFolderNotFound>Тағайындалған қалта Сілтеменің мақсатты жолын тапқан жоқ</ServerShortcutAssignedFolderNotFound>
+  <ServerSizeFilesForZipExceeded>мұрағат файлдар мөлшері рұқсат мәні {0} асты.</ServerSizeFilesForZipExceeded>
+  <ServerPasteFolderToSubfolderError>Мақсатты қалта «{0}» көзі қалтаға «{1}» атты ішкі қалта болып табылады.</ServerPasteFolderToSubfolderError>
+  <ServerLiveConnectAppIDNotSpecified>Microsoft Live Connect қолдану Клиент ID анықталған жоқ</ServerLiveConnectAppIDNotSpecified>
+  <ServerSendEmailInfo>Авторы {0}-ақ олардың электрондық поштаны көрсетілген. жауап беру үшін тек осы электрондық пошта мекенжайын пайдаланыңыз.</ServerSendEmailInfo>
+
+  <ServerAntivirusScanningFailed>антивирустық арқылы сканерлеу: '{0} {1}' әдеттен тыс доғарылды.</ServerAntivirusScanningFailed>
+
+  <ServerUserNameNotFound>атауы бар User '{0}' табылмады.</ServerUserNameNotFound>
+  <ServerFileNameCopySuffix>көшірме</ServerFileNameCopySuffix>
+
+  <ServerDeleteFolderNTFSAccessDenied>Сіз «{0}» қалтаны жою үшін NTFS рұқсатыңыз жоқ</ServerDeleteFolderNTFSAccessDenied>
+
+  <ServerMSOOTemplateNotFound>{0} үлгісін табылған жоқ</ServerMSOOTemplateNotFound>
+</Localization>

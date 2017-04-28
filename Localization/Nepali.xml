@@ -1,0 +1,1608 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Localization>
+  <!-- Common keys -->
+  
+  <ExtMsgButtonTextYES>हो</ExtMsgButtonTextYES>
+  <ExtMsgButtonTextNO>कुनै</ExtMsgButtonTextNO>
+  
+  <ControlHideFileManager>लुकाउनुहोस् वेब फाइलहरू प्रबन्धक</ControlHideFileManager>
+  
+  <CommonMainTitle>वेब फाइलहरू पहुँच</CommonMainTitle>
+  <CommonApplicationLoading>वेब फाइलहरू पहुँच को लोड</CommonApplicationLoading>
+  <CommonLoadError>त्रुटि रूख डाटा प्राप्त समयमा भयो</CommonLoadError>
+  <CommonGridAccessDenied>फोल्डर "{0}" अवस्थित छैन वा पढ्न पहुँच अस्वीकार</CommonGridAccessDenied>
+  <CommonNoScript>यो पृष्ठ जाभास्क्रिप्ट आवश्यक आफ्नो ब्राउजर सक्षम गर्न! कृपया यसलाई सक्षम र फेरि लगइन!</CommonNoScript>
+  <CommonErrorCaption>त्रुटि</CommonErrorCaption>
+  <CommonWarningCaption>चेतावनी</CommonWarningCaption>
+  <CommonInfoCaption>सूचना</CommonInfoCaption>
+  <CommonConfirmCaption>पुष्टि गर्नुहोस्</CommonConfirmCaption>
+  <CommonFileNameCaption>फाइल नाम</CommonFileNameCaption>
+  <CommonFileNamePrompt>नयाँ फाइल नाम प्रविष्ट गर्नुहोस्</CommonFileNamePrompt>
+  <CommonFileNewNameValue>नयाँ पाठ Document.txt</CommonFileNewNameValue>
+  <CommonFolderNewNameValue>नयाँ फोल्डर</CommonFolderNewNameValue>
+  <CommonZipFileNameCaption>जिप संग्रह नाम</CommonZipFileNameCaption>
+  <CommonZipFileNamePrompt>फाइल नाम (विस्तार स्वतः थप गरिनेछ)</CommonZipFileNamePrompt>
+  <CommonFolderNameCaption>फोल्डर नाम</CommonFolderNameCaption>
+  <CommonFolderNamePrompt>नयाँ फोल्डर नाम प्रविष्ट गर्नुहोस्</CommonFolderNamePrompt>
+  <CommonDeleteOnePrompt>के तपाईं पक्का "{0}" तपाईं हटाउन चाहनुहुन्छ?</CommonDeleteOnePrompt>
+  <CommonDeleteManyPrompt>के तपाईं पक्का यी {0} वस्तुहरू मेट्न चाहनुहुन्छ?</CommonDeleteManyPrompt>
+  <CommonForToday>आजको लागि</CommonForToday>
+  <CommonButtonCaptionOK>ठिक छ</CommonButtonCaptionOK>
+  <CommonButtonCaptionCancel>रद्द</CommonButtonCaptionCancel>
+  <CommonButtonCaptionClose>बन्द</CommonButtonCaptionClose>
+  <CommonButtonCaptionAdd>थप</CommonButtonCaptionAdd>
+  <CommonButtonCaptionContinue>जारी राख्न</CommonButtonCaptionContinue>
+
+  <CommonProgressPleaseWait>कृपया पर्खनुहोस्</CommonProgressPleaseWait>
+  
+  <CommonFieldLabelName>नाम</CommonFieldLabelName>
+  <CommonFieldLabelPath>बाटो</CommonFieldLabelPath>
+  <CommonFieldLabelSize>आकार</CommonFieldLabelSize>
+  <CommonFieldLabelLabels>लेबल</CommonFieldLabelLabels>
+  <CommonFieldLabelType>प्रकार</CommonFieldLabelType>
+  <CommonFieldLabelAction>कार्य</CommonFieldLabelAction>
+  <CommonFieldLabelDate>मिति</CommonFieldLabelDate>
+  <CommonFieldLabelDateTime>मिति समय</CommonFieldLabelDateTime>
+  <CommonFieldLabelDateCreated>मिति सिर्जना</CommonFieldLabelDateCreated>
+  <CommonFieldLabelDateModified>मिति परिमार्जन</CommonFieldLabelDateModified>
+  <CommonFieldLabelDateAccessed>मिति पहुँच</CommonFieldLabelDateAccessed>
+  <CommonFieldLabelValue>मूल्य</CommonFieldLabelValue>
+  <CommonFieldLabelUserName>प्रयोगकर्ता नाम</CommonFieldLabelUserName>
+  <CommonFieldLabelUser>प्रयोगकर्ता</CommonFieldLabelUser>
+  <CommonFieldLabelUsers>प्रयोगकर्ता</CommonFieldLabelUsers>
+  <CommonFieldLabelGroupName>समूहको नाम</CommonFieldLabelGroupName>
+  <CommonFieldLabelGroup>समूह</CommonFieldLabelGroup>
+  <CommonFieldLabelGroups>समूह</CommonFieldLabelGroups>
+  <CommonFieldLabelPassword>पासवर्ड</CommonFieldLabelPassword>
+  <CommonFieldLabelRepeatPassword>पासवर्ड फेरि दोहोर्याउँनुहोस्</CommonFieldLabelRepeatPassword>
+  <CommonFieldLabelComments>टिप्पणी</CommonFieldLabelComments>
+  <CommonValueTypeFolder>फोल्डर</CommonValueTypeFolder>
+
+  <CommonFieldLabelDescription>विवरण</CommonFieldLabelDescription>
+  <EmptyDescriptionText>विवरण निर्दिष्ट</EmptyDescriptionText>
+  <CommonFieldLabelReadMeTxt>Readme.txt सामग्री</CommonFieldLabelReadMeTxt>
+  
+  <CommonWordOr>वा</CommonWordOr>
+
+  <SortAscText>आरोही सर्ट</SortAscText>
+  <SortDescText>सर्ट घट्दो</SortDescText>
+
+  <CommonNewDocument>नयाँ कागजात</CommonNewDocument>
+  <CommonNewSpreadsheet>नयाँ स्प्रेडसिट</CommonNewSpreadsheet>
+  <CommonNewPresentation>नयाँ प्रस्तुति</CommonNewPresentation>
+
+  <CommonWordWrap>शब्दबेर्नुहोस्</CommonWordWrap>
+  
+  <!-- End Common keys -->
+
+  <!-- Labels -->
+
+  <LabelsTitle>लेबल</LabelsTitle>
+  <LabelsNoLabel>कुनै लेबल</LabelsNoLabel>
+  <LabelsColor>रंग</LabelsColor>
+  <LabelsCustomLabel>कस्टम लेबल</LabelsCustomLabel>
+  <LabelsCustomLabelHint>लेबल गरेको पाठ प्रविष्ट गर्नुहोस्</LabelsCustomLabelHint>
+  <LabelsCustomLabelView>लेबल &amp;nbsp; दृश्य: &amp;nbsp; {0} {1} {2}</LabelsCustomLabelView>
+  <LabelsFileLabelledMessage>सफलतापूर्वक लेबल {0} वस्तु (हरू)</LabelsFileLabelledMessage>
+  <LabelsRemovedMessage>सफलतापूर्वक हटाइयो {0} लेबल (हरू)</LabelsRemovedMessage>
+  <LabelsNotRemovedMessages>हटाइएको छैन: {0}</LabelsNotRemovedMessages>
+  <LabelsNotLabelledMessage>लेबल छैन: {0}</LabelsNotLabelledMessage>
+  <LabelsLabelRemovedMessage>सफलतापूर्वक हटाइयो लेबल</LabelsLabelRemovedMessage>
+  <LabelsNewLabel>नयाँ लेबल</LabelsNewLabel>
+  <LabelsLabellingMessage>लेबलिंग</LabelsLabellingMessage>
+  <LabelsRemovingLabelMessage>लेबल हटाउँदै</LabelsRemovingLabelMessage>
+  <LabelsLabelInfoTip>रूपमा चिन्ह '{0}' {1} प्रयोगकर्ता द्वारा '{2}'</LabelsLabelInfoTip>
+
+  <!-- End Labels -->
+
+  <!-- Comments -->
+
+  <CommentsCountInfoTip>{0} टिप्पणी (हरू)</CommentsCountInfoTip>
+  <CommentsWriteCommentHint>लेख्न एक टिप्पणी र प्रेस '{0}' वा Ctrl+प्रविष्ट गर्नुहोस् वा Shift+प्रविष्ट गर्नुहोस् ...</CommentsWriteCommentHint>
+
+  <!-- End Comments -->
+
+  <RefreshPageWarningMessage>&lt;b&gt; ध्यान! &lt;/b&gt; यस कार्य, ब्राउजर को वर्तमान पृष्ठ ताजा हुनुपर्छ पूरा गर्न। &lt;br /&gt; तपाईं अब ताजा गर्न चाहनुहुन्छ?</RefreshPageWarningMessage>
+
+  <PagingToolbarBeforePageText>पृष्ठ</PagingToolbarBeforePageText>
+  <PagingToolbarAfterPageText>को {0}</PagingToolbarAfterPageText>
+  <PagingToolbarFirstText>पहिलो पृष्ठ</PagingToolbarFirstText>
+  <PagingToolbarPrevText>पछिल्लो पृष्ठ</PagingToolbarPrevText>
+  <PagingToolbarNextText>अर्को पाना</PagingToolbarNextText>
+  <PagingToolbarLastText>अन्तिम पाना</PagingToolbarLastText>
+  <PagingToolbarDisplayMsg>प्रदर्शन {0} - {1} को {2}</PagingToolbarDisplayMsg>
+  <PagingToolbarEmptyMsg>प्रदर्शन गर्न कुनै डाटा</PagingToolbarEmptyMsg>
+  
+  <GridTotalLabel>कुल:</GridTotalLabel>
+  <GridTotalFilesLabel>फाइलहरू</GridTotalFilesLabel>
+  <GridTotalFoldersLabel>फोल्डरहरू</GridTotalFoldersLabel>
+  
+  <GridDDSelectedRowsText>{0} चयन पङ्क्ति {1}</GridDDSelectedRowsText>
+  <GridDDSelectedFilesText>{0} चयन गरिएका फाइलहरू</GridDDSelectedFilesText>
+  <GridDDSelectedFoldersText>{0} चयन फोल्डरहरू</GridDDSelectedFoldersText>
+  <GridDDConfirmCopyMoveTitle>फोल्डरमा ड्रप "{0}"</GridDDConfirmCopyMoveTitle>
+  <GridDDConfirmAddToZipTitle>जिप थप्न "{0}"</GridDDConfirmAddToZipTitle>
+  <GridDDConfirmAddToZipMessage>तान्नुभयो फाइलहरू यो जिप संग्रह थपिनेछ। तपाईं जारी राख्न चाहनुहुन्छ? {0}।</GridDDConfirmAddToZipMessage>
+  <GridDDConfirmCopyMoveMsg>तपाईं लागू गर्न चाहन्छौं कि एउटा कार्य चयन गर्नुहोस्। स्रोत: "{0}", गन्तव्य फोल्डर: "{1}" {2} {3}।।</GridDDConfirmCopyMoveMsg>
+  <GridDDConfirmCopyMoveToZipMsg>फाइलहरू जिप संग्रह थपिनेछ। तपाईं जिप संग्रह गर्न फाइलहरू थपेपछि तान्नुभयो फाइलहरू लागू गर्न चाहनुहुन्छ जो एउटा कार्य चयन गर्नुहोस्। स्रोत: "{0}", गन्तव्य जिप संग्रह: "{1}" {2} {3}।।</GridDDConfirmCopyMoveToZipMsg>
+  <GridDDDraggedFileNames>&lt;b&gt; तान्नुभयो फाइलहरू: &lt;/b&gt; {0}</GridDDDraggedFileNames>
+  <GridDDDraggedFolderNames>&lt;b&gt; तान्नुभयो फोल्डरहरू: &lt;/b&gt; {0}</GridDDDraggedFolderNames>
+  <GridDDConfirmTargetFolderOnlyCopyMsg>मात्र प्रतिलिपि फाइलहरू तान्नुभयो स्रोत फोल्डर लागि वर्तमान अनुमति तपाईं अनुमति दिन्छ। तपाईं जारी राख्न चाहनुहुन्छ? {0}।</GridDDConfirmTargetFolderOnlyCopyMsg>
+  <GridDDConfirmTargetFolderOnlyMoveMsg>मात्र कदम फाइलहरू तान्नुभयो स्रोत फोल्डर लागि वर्तमान अनुमति तपाईं अनुमति दिन्छ। तपाईं जारी राख्न चाहनुहुन्छ? {0}।</GridDDConfirmTargetFolderOnlyMoveMsg>
+
+  <GridRowPublicHint>एक नयाँ विन्डो / ट्याब सार्वजनिक लिङ्क खोल्न क्लिक गर्नुहोस्</GridRowPublicHint>
+  <GridRowAlertHint>यो फाइल / फोल्डर लागि गरेको परिवर्तनहरू हेर्न क्लिक गर्नुहोस्</GridRowAlertHint>
+  <GridRowRecentHint>यो फाइल / फोल्डर पत्ता</GridRowRecentHint>
+  <GridRowAlertEventHint>यो स्थान जानको लागि क्लिक गर्नुहोस्</GridRowAlertEventHint>
+
+  <ProgressCreating>सिर्जना</ProgressCreating>
+  <ProgressDeleting>मेट्दै</ProgressDeleting>
+  <ProgressLoading>लोड</ProgressLoading>
+  <ProgressSearching>खोजी</ProgressSearching>
+  <ProgressZipping>कम्प्रेस</ProgressZipping>
+  <ProgressUnzipping>खोल्दै</ProgressUnzipping>
+  <ProgressZipContents>जिप संग्रह सामग्रीहरू प्राप्त</ProgressZipContents>
+  <ProgressPrepareDownload>डाउनलोड लागि तयारी</ProgressPrepareDownload>
+  <ProgressMoving>प्रगति</ProgressMoving>
+  <ProgressCopying>प्रतिलिपि गर्दै</ProgressCopying>
+  <ProgressRenaming>पुन: नामाकरण</ProgressRenaming>
+  <ProgressUpdating>अद्यावधिक गर्दै</ProgressUpdating>
+  <ProgressLoadingEditInPixlr>Pixlr सम्पादक लोड</ProgressLoadingEditInPixlr>
+  <ProgressLoadingEdit>सम्पादक लोड</ProgressLoadingEdit>
+  <ProgressSavingEdit>फाइल बचत</ProgressSavingEdit>
+  <ProgressSaving>बचत</ProgressSaving>
+  <ProgressExecuting>कार्यान्वयन</ProgressExecuting>
+
+  <BalloonFilesDeleted>{0} फाइल (हरू) मेटिएको</BalloonFilesDeleted>
+  <BalloonFoldersDeleted>{0} फोल्डर (हरू) मेटिएको</BalloonFoldersDeleted>
+  <BalloonFilesFailed>{0} फाइल (s) गर्न विफल</BalloonFilesFailed>
+  <BalloonFoldersFailed>{0} फोल्डर (s) गर्न विफल</BalloonFoldersFailed>
+  <BalloonFilesZipped>{0} फाइल (हरू) संकुचित</BalloonFilesZipped>
+  <BalloonFoldersZipped>{0} फोल्डर (हरू) संकुचित</BalloonFoldersZipped>
+  <BalloonFilesCopied>{0} फाइल (हरू) प्रतिलिपि</BalloonFilesCopied>
+  <BalloonFoldersCopied>{0} फोल्डर (हरू) प्रतिलिपि</BalloonFoldersCopied>
+  <BalloonFilesMoved>{0} फाइल (हरू) सारियो</BalloonFilesMoved>
+  <BalloonFoldersMoved>{0} फोल्डर (हरू) सारियो</BalloonFoldersMoved>
+  <BalloonNotUnzipped>{0} फाइल (हरू) अनप्याक गरिएको छैन</BalloonNotUnzipped>
+  <BalloonFilesUploaded>{0} फाइल (हरू) अपलोड</BalloonFilesUploaded>
+  <BalloonFilesNotUploaded>{0} फाइल (हरू) अपलोड</BalloonFilesNotUploaded>
+  <BalloonSomeFilesNotUploaded>केही फाइलहरू अपलोड गर्न सकिँदैन</BalloonSomeFilesNotUploaded>
+  <BalloonCreatedSuccessfully>सफलतापूर्वक सिर्जना</BalloonCreatedSuccessfully>
+  <BalloonUnzippedSuccessfully>अनप्याक सफलतापूर्वक</BalloonUnzippedSuccessfully>
+  <BalloonRenamedSuccessfully>सफलतापूर्वक पुन: नामाकरण गरियो</BalloonRenamedSuccessfully>
+  <BalloonSavedSuccessfully>सफलतापूर्वक सुरक्षित</BalloonSavedSuccessfully>
+  <BalloonCopiedToClipboard>क्लिपबोर्डमा प्रतिलिपि</BalloonCopiedToClipboard>
+  <BalloonCopyToClipboardFailed>प्रतिलिपि क्लिपबोर्डमा असफल भयो</BalloonCopyToClipboardFailed>
+
+  <CommandCopyToClipboard>क्लिपबोर्डमा प्रतिलिपि</CommandCopyToClipboard>
+  <CommandCopyLinkToClipboard>क्लिपबोर्डमा लिङ्क प्रतिलिपि</CommandCopyLinkToClipboard>
+  <ClipboardScreenshotTitlePrefix>छवि</ClipboardScreenshotTitlePrefix>
+  <ClipboardScreenshotHint>तस्बिरहरू: तपाईं स्क्रिनसट आफ्नो क्लिपबोर्डबाट पेस्ट गर्न सक्नुहुन्छ (प्रेस &lt;b&gt; Ctrl+PrtSc &lt;/b&gt; र त्यसपछि &lt;b&gt; Ctrl+V &lt;/b&gt;) वा आफ्नो सम्पादक छवि (प्रेस &lt;b&gt; Ctrl+V &lt;/b&gt;)।</ClipboardScreenshotHint>
+  <ClipboardFileHint>तपाईं पनि क्लिपबोर्ड देखि एक फाइल टाँस्न सक्नुहुन्छ</ClipboardFileHint>
+
+  <CommandClouds>क्लाउड भंडार</CommandClouds>
+  <CommandCloudsDownloadTo>डाउनलोड ...</CommandCloudsDownloadTo>
+  <CommandCloudsUploadFrom>बाट अपलोड ...</CommandCloudsUploadFrom>
+  <CommandCloudsAbout>क्लाउड भंडार बारे</CommandCloudsAbout>
+  
+  <CommandBack>फिर्ता</CommandBack>
+  <CommandForward>अगाडि</CommandForward>
+  <CommandRecentFolders>हालका फोल्डरहरू</CommandRecentFolders>
+  <CommandHome>घर</CommandHome>
+  <CommonActions>कार्यहरू</CommonActions>
+  <CommandMultiSelect>बहु-चयन</CommandMultiSelect>
+  <CommandShare>शेयर</CommandShare>
+  <CommandSorting>क्रमबद्ध</CommandSorting>
+  
+  <CommandFileManager>फाइल प्रबन्धक फर्कन</CommandFileManager>
+  <CommandFolders>फोल्डरहरू</CommandFolders>
+  <CommandGridView>हेर्नुहोस्</CommandGridView>
+  <CommandRefresh>ताजा</CommandRefresh>
+  <CommandThumbnailView>थम्बनेल हेर्नुहोस्</CommandThumbnailView>
+  <CommandDetailedView>सूची दृश्य</CommandDetailedView>
+  <CommandDetailsPane>विवरण फलक</CommandDetailsPane>
+  <CommandFavorites>मनपर्ने</CommandFavorites>
+  <CommandAddToFavorites>मनपर्ने थप्न</CommandAddToFavorites>
+  <CommandAddToFavoritesHint>मनपर्ने हालको फोल्डर थप्न</CommandAddToFavoritesHint>
+  <AddingToFavoritesMessage>मनपर्ने थप्दै</AddingToFavoritesMessage>
+  <RemoveFromFavoritesMessage>मन मेटाउँदै</RemoveFromFavoritesMessage>
+  <FolderAlreadyAddedInFavorites>फोल्डर "{0}" पहिले नै मनपर्ने मा अवस्थित</FolderAlreadyAddedInFavorites>
+  <FolderAddedInFavoritesSuccessfully>फोल्डर "{0}" सफलतापूर्वक मनपर्ने थपिएको थियो</FolderAddedInFavoritesSuccessfully>
+  <FavoritesIsOverflowed>यो सम्भव छैन "{0}" मनपर्ने हालको फोल्डर थप्न थियो। केही ठाउँ खाली गर्नुहोस् र फेरि प्रयास गर्न केही मनपर्ने मेटाउन।</FavoritesIsOverflowed>
+  <RemoveFromFavoritesHint>हटाउनुहोस् "{0}" मन</RemoveFromFavoritesHint>
+  <AddToHomeScreenIOSHint>ट्याप गर्नुहोस् {0} र त्यसपछि &lt;strong&gt; "गृह स्क्रिनमा थप्नुहोस्" &lt;/strong&gt;</AddToHomeScreenIOSHint>
+  <CommandSearch>खोज</CommandSearch>
+  <CommandUpload>अपलोड</CommandUpload>
+  <CommandSettings>सेटिङ</CommandSettings>
+  <CommandLanguage>भाषा</CommandLanguage>
+  <CommandAdministration>प्रशासन</CommandAdministration>
+  <CommandAdminPanel>व्यवस्थापक प्यानल</CommandAdminPanel>
+  <CommandChangePassword>पासवर्ड परिवर्तन</CommandChangePassword>
+  <ProgressChangePassword>पासवर्ड परिवर्तन</ProgressChangePassword>
+  <CommandChangeEmail>परिवर्तन ई-मेल</CommandChangeEmail>
+  <ProgressChangeEmail>परिवर्तन ई-मेल</ProgressChangeEmail>
+  <CommandMobileView>मोबाइल इन्टरफेस (स्मार्टफोन)</CommandMobileView>
+  <CommandStandardView>पूर्ण संस्करण</CommandStandardView>
+  <CommandInstallIOSApp>IOS अनुप्रयोग स्थापना</CommandInstallIOSApp>
+  <CommandInstallAndroidApp>एन्ड्रोइड अनुप्रयोग स्थापना</CommandInstallAndroidApp>
+  <CommandAddServerToMobileApp>मोबाइल अनुप्रयोग यो सर्भर थप्न</CommandAddServerToMobileApp>
+  <CommandAddToHomeScreen>गृह स्क्रिनमा थप्नुहोस्</CommandAddToHomeScreen>
+  <CommandDiagnostics>निदान पृष्ठ</CommandDiagnostics>
+  <CommandLicenseInfo>लाइसेन्स जानकारी</CommandLicenseInfo>
+  <CommandLogout>बाहिर निस्कनु</CommandLogout>
+  <CommandLogoutHint>हालको सत्र समाप्त गर्न क्लिक गर्नुहोस्</CommandLogoutHint>
+  <CommandNew>नयाँ</CommandNew>
+  <CommandFile>फाइल</CommandFile>
+  <CommandEmptyFile>खाली फाइल</CommandEmptyFile>
+  <CommandNewMSOODocument>एमएस कार्यालय अनलाइन साथ कागजात</CommandNewMSOODocument>
+  <CommandNewOffice365Document>कार्यालय 365 साथ कागजात</CommandNewOffice365Document>
+  <CommandNewMSOOWord>वर्ड कागजात</CommandNewMSOOWord>
+  <CommandNewMSOOExcel>एक्सेल स्प्रेडशीट</CommandNewMSOOExcel>
+  <CommandNewMSOOPowerPoint>पावरपोइन्ट प्रस्तुति</CommandNewMSOOPowerPoint>
+  <CommandNewGoogleDocument>गुगल साथ कागजात</CommandNewGoogleDocument>
+  <CommandNewGoogleDocs>Google कागजात</CommandNewGoogleDocs>
+  <CommandNewGoogleSheets>Google पानाहरू</CommandNewGoogleSheets>
+  <CommandNewGoogleSlides>Google स्लाइडहरू</CommandNewGoogleSlides>
+  <CommandNewImage>Pixlr मा छवि</CommandNewImage>
+  <CommandFolder>फोल्डर</CommandFolder>
+  <CommandNewFile>नयाँ खाली फाइल</CommandNewFile>
+  <CommandNewFolder>नयाँ फोल्डर</CommandNewFolder>
+  <CommandNewWithTemplate>टेम्पलेट प्रयोग ...</CommandNewWithTemplate>
+  <CommandRename>पुन: नामाकरण</CommandRename>
+  <CommandDelete>मेटाउन</CommandDelete>
+  <CommandCopy>कापी</CommandCopy>
+  <CommandMove>चल्नु</CommandMove>
+  <CommandCut>कट</CommandCut>
+  <CommandCopyTo>प्रतिलिपि गर्न ...</CommandCopyTo>
+  <CommandMoveTo>सार्नुहोस् ...</CommandMoveTo>
+  <CommandCopyCutClipboardSuffix>क्लिपबोर्डमा</CommandCopyCutClipboardSuffix>
+  <CommandPaste>पेस्ट</CommandPaste>
+  <CommandPasteInto>टाँस्न</CommandPasteInto>
+  <CommandZip>एक जिप संग्रह गर्न संकुचन</CommandZip>
+  <CommandZipMenu>जिप / अनजिप</CommandZipMenu>
+  <CommandUnzip>अनप्याक जिप</CommandUnzip>
+  <CommandUnzipSelected>अनप्याक चयन</CommandUnzipSelected>
+  <CommandUnzipAll>सबै खोल्न</CommandUnzipAll>
+  <CommandUnzipTo>फोल्डरमा</CommandUnzipTo>
+  <CommandUnzipToCurrent>हालको फोल्डरमा</CommandUnzipToCurrent>
+  <MessageUnzipToFolder>यो खोल्न एउटा फोल्डर को नाम टाइप</MessageUnzipToFolder>
+  <MessageUnzipPasswordHint>पासवर्ड खोल्दै लागि आवश्यक छ भन्ने थाहा छ भने, तलको क्षेत्रमा प्रविष्ट गर्नुहोस्</MessageUnzipPasswordHint>
+  <MessageUnzipNeedPassword>एक पासवर्ड फाइलहरू खोल्न आवश्यक छ</MessageUnzipNeedPassword>
+  <ZipPasswordProtectHint>गर्न जिप संग्रह पासवर्ड-सुरक्षा, तलको क्षेत्रमा पासवर्ड प्रविष्ट गर्नुहोस्। अन्यथा, क्षेत्र खाली</ZipPasswordProtectHint>
+  <AppendToZipPasswordProtectHint>गर्न, जिप संग्रह थपियो फाइलहरू पासवर्ड सुरक्षा तलको क्षेत्रमा पासवर्ड प्रविष्ट गर्नुहोस्। अन्यथा, क्षेत्र खाली</AppendToZipPasswordProtectHint>
+  <ZipPasswordProtectWindowTitle>पासवर्ड संग संग्रह</ZipPasswordProtectWindowTitle>
+  <OpenFolderAfterUnzipCheckBox>खोल्दै पछि फोल्डर खोल्नुहोस्</OpenFolderAfterUnzipCheckBox>
+  <CommandUnzipToNew>नयाँ फोल्डर गर्न</CommandUnzipToNew>
+  <CommandZipContents>जिप सामग्री</CommandZipContents>
+  <ArchiveContentsTitle>अभिलेख सामग्री "{0}"</ArchiveContentsTitle>
+  <CommandDownload>डाउनलोड</CommandDownload>
+  <CommonDownloadAll>सबै डाउनलोड</CommonDownloadAll>
+  <DownloadListDragFile>तपाईं तान्नुहोस्-N-ड्रप गर्न सक्नुहुन्छ फाइलहरू आफ्नो डेस्कटपमा</DownloadListDragFile>
+  <CommandZipDownload>संकुचन र डाउनलोड</CommandZipDownload>
+  <CommandView>ब्राउजर हेर्नुहोस्</CommandView>
+  <CommandDownloadOrView>डाउनलोड वा दृश्य</CommandDownloadOrView>
+  <CommandPreview>तस्बिरहरू पूर्वावलोकन</CommandPreview>
+  <CommandFlashPreview>फ्लैश पूर्वावलोकन</CommandFlashPreview>
+  <GettingSizeFlashMovie>फ्लैश सिनेमाको रही आकार</GettingSizeFlashMovie>
+  <CommandEdit>पाठ फाइलको रूपमा सम्पादन गर्नुहोस्</CommandEdit>
+  <CommandEditView>पाठ फाइल रूपमा हेर्नुहोस्</CommandEditView>
+  <AceNotLoadedMessage>ऐस सम्पादक लोड गर्न असमर्थ</AceNotLoadedMessage>
+  <VideoJsNotLoadedMessage>VideoJS प्लेयर लोड गर्न असमर्थ</VideoJsNotLoadedMessage>
+  <CommandMenuEdit>सम्पादन गर्नुहोस्</CommandMenuEdit>
+  <CommandSelectAll>सबै छान्नु</CommandSelectAll>
+  <CommandInvertSelection>उल्टो चयन</CommandInvertSelection>
+  <CommandLinkToFile>फाइल / फोल्डर लिङ्क</CommandLinkToFile>
+  <!--Share link-->
+  <CommandMakePublicFolder>सार्वजनिक लिङ्क सिर्जना</CommandMakePublicFolder>
+  <PublicViewInGoogle>गुगल हेर्नुहोस्</PublicViewInGoogle>
+  <PublicViewinOWA>OWA हेर्नुहोस्</PublicViewinOWA>
+  <!--Make public folder (share)-->
+  <CommandViewWithGoogleDoc>Google कागजात हेर्नुहोस्</CommandViewWithGoogleDoc>
+  <CommandViewWithShareCad>मा ShareCad.org हेर्नुहोस्</CommandViewWithShareCad>
+  <CommandViewWithAutodesk>Autodesk हेर्नुहोस्</CommandViewWithAutodesk>
+  <CommandViewWithBox>बक्स हेर्नुहोस्</CommandViewWithBox>
+  <CommandViewWithOWA>कार्यालय वेब अनुप्रयोग हेर्नुहोस्</CommandViewWithOWA>
+  <CommandCloudConvert>CloudConvert संग रूपान्तरण</CommandCloudConvert>
+  <ProgressGetCloudConvertOutputFormats>उत्पादन स्वरूप प्राप्त गर्दै</ProgressGetCloudConvertOutputFormats>
+  <ProgressCloudConvertConverting>रूपान्तर</ProgressCloudConvertConverting>
+  <CloudConvertWindowTitle>रूपान्तरण '{0}'</CloudConvertWindowTitle>
+  <CloudConvertWindowConvertButton>रूपान्तरण</CloudConvertWindowConvertButton>
+  <CloudConvertWindowOutputFormatsLabel>उत्पादन ढाँचा</CloudConvertWindowOutputFormatsLabel>
+  <CloudConvertDownloadLinkLabel>डाउनलोड लिङ्क</CloudConvertDownloadLinkLabel>
+  <CloudConvertSaveAsLabel>(विस्तार स्वचालित रूपमा थपिनेछ) रूपमा बचत गर्नुहोस्:</CloudConvertSaveAsLabel>
+  <CloudConvertNoOutputFormats>त्यहाँ रूपान्तरण लागि कुनै उपलब्ध प्रारूप</CloudConvertNoOutputFormats>
+  <CloudConvertNoUrlForDownload>यो डाउनलोड लागि लिंक प्राप्त गर्न सफल भयो भएन</CloudConvertNoUrlForDownload>
+  <ProgressCloudConvertUploading>CloudConvert देखि अपलोड</ProgressCloudConvertUploading>
+  <CloudConvertSaveAsNameBlank>प्रकार यहाँ नाम</CloudConvertSaveAsNameBlank>
+  <CancelEditButton>सम्पादन रद्द</CancelEditButton>
+  <HideButton>लुकाउन</HideButton>
+  <EditDocumentCancelHint>तपाईं सम्पादित कागजात संग झ्याल बन्द गरेपछि यो स्वत: बचत गरियो गरिनेछ। तपाईं थिचेर {0} (यस मामला मा, कागजात अझै सम्पादक बन्द पछि सुरक्षित गरिनेछ) द्वारा यस संवाद बक्स लुकाउन सक्नुहुन्छ /&gt; &lt;br। &lt;br /&gt; तपाईं कागजात सुरक्षित गर्न चाहनुहुन्छ भने, प्रेस {1} (यस मामला मा, सम्पादक विन्डो बन्द गरिनेछ)।</EditDocumentCancelHint>
+  <EditDocumentSaveHint>अब तपाईं थिचेर {0} द्वारा कागजातमा परिवर्तनहरू बचत गर्न सक्नुहुन्छ। ध्यान! तपाईं सम्पादक विन्डो बन्द गरेपछि यो पनि स्वत: बचत गरियो गरिनेछ।</EditDocumentSaveHint>
+  <CommandEditInMSOffice>एमएस कार्यालय सम्पादन</CommandEditInMSOffice>
+  <CommandEditInOOo>ओपनअफिस / LibreOffice सम्पादन</CommandEditInOOo>
+  <CommandViewInMSOffice>एमएस कार्यालय हेर्नुहोस्</CommandViewInMSOffice>
+  <CommandViewInOOo>ओपनअफिस / LibreOffice हेर्नुहोस्</CommandViewInOOo>
+  <CommandEditInPixlr>Pixlr सम्पादन</CommandEditInPixlr>
+  <CommandEditInAdobe>मा Adobe रचनात्मक क्लाउड सम्पादन गर्नुहोस्</CommandEditInAdobe>
+  <AdobeImageEditorSavedAsNewTypeMessage>मा एडोब छवि सम्पादक परिवर्तन चित्र प्रारूप सुरक्षित गरिएको छ {0}</AdobeImageEditorSavedAsNewTypeMessage>
+  <CommandEditInGoogle>गुगल ड्राइभमा सम्पादन गर्नुहोस्</CommandEditInGoogle>
+  <EditInGoogleConvertMessage>सम्पादन पछि कागजात ढाँचामा रूपान्तरित हुनेछ {1} {0} {2}</EditInGoogleConvertMessage>
+  <EditInGoogleLinkError>Google Drive मा कागजात सम्पादन गर्न लिङ्क प्राप्त गर्न असमर्थ</EditInGoogleLinkError>
+  <EditInGoogleWaiting>गुगल ड्राइभमा सम्पादन पूरा गर्न को लागि प्रतीक्षा गर्दै</EditInGoogleWaiting>
+  <CommandEditInMSOO>एमएस कार्यालय अनलाइन सम्पादन</CommandEditInMSOO>
+  <EditInMSOOLinkError>एमएस कार्यालय अनलाइन मा कागजात सम्पादन गर्न लिङ्क प्राप्त गर्न असमर्थ</EditInMSOOLinkError>
+  <EditInMSOOWaiting>एमएस कार्यालय अनलाइन मा सम्पादन पूरा गर्न को लागि प्रतीक्षा गर्दै</EditInMSOOWaiting>
+  <CommandEditInOffice365>कार्यालय 365 मा सम्पादन गर्नुहोस्</CommandEditInOffice365>
+  <EditInOffice365LinkError>कार्यालय 365 मा कागजात सम्पादन गर्न लिङ्क प्राप्त गर्न असमर्थ</EditInOffice365LinkError>
+  <EditInOffice365Waiting>कार्यालय 365 मा सम्पादन पूरा गर्न को लागि प्रतीक्षा गर्दै</EditInOffice365Waiting>
+  <CommandSave>बचत</CommandSave>
+  <CommandSaveAs>यसरी राख...</CommandSaveAs>
+  <CommandAppRestart>पुन: सुरु आवेदन</CommandAppRestart>
+  <CommandPlayVideoFlash>फ्लैश प्लेयर मा भिडियो प्ले</CommandPlayVideoFlash>
+  <CommandPlayVideoHtml5>प्ले भिडियो</CommandPlayVideoHtml5>
+  <CommandPlayAudioHtml5>प्ले अडियो</CommandPlayAudioHtml5>
+  <CommandPlayVideo>प्ले भिडियो</CommandPlayVideo>
+  <CommandPlayAudio>प्ले अडियो</CommandPlayAudio>
+  <CommandConvertVideo>भिडियो रूपान्तरण</CommandConvertVideo>
+
+  <ViewInServiceLink>फाइल हेर्न यहाँ क्लिक गर्नुहोस्</ViewInServiceLink>
+  <EditInServiceLink>कागजात सम्पादन गर्न यहाँ क्लिक गर्नुहोस्</EditInServiceLink>
+
+  <OfficeEditCopyLinkLabel>तलको लिंक प्रतिलिपि र कार्यालय आवेदन मा यसलाई खोल्न:</OfficeEditCopyLinkLabel>
+  <OfficeRunError>यो सम्भव छैन सुरु भएको थियो {0}</OfficeRunError>
+  <BadPathToFile>यो फाइल बाटो फेला पार्न सम्भव थिएन</BadPathToFile>
+  <FixBasicAuthAlertTitle>ध्यान!</FixBasicAuthAlertTitle>
+  <FixBasicAuthAlertMessage>माईक्रोसफ्ट अफिस SSL बिना मूल प्रमाणीकरण संग काम गर्दछ! तपाईं आफ्नो कार्यालय को लागि यो समाधान गर्न सक्छन्। थप जानकारी को लागि कृपया हेर्नुहोस् {0}।</FixBasicAuthAlertMessage>
+  <FixBasicAuthAlertCheckBoxText>अब यो संवाद देखाउन छैन।</FixBasicAuthAlertCheckBoxText>
+  <CommandDetails>विवरण</CommandDetails>
+  <CommonButtonCaptionAddDetail>विवरण थप्न</CommonButtonCaptionAddDetail>
+  <CommonButtonCaptionAddComment>टिप्पणी थप्न</CommonButtonCaptionAddComment>
+  <DetailsWindowTitle>विवरण "{0}"</DetailsWindowTitle>
+  <FileDetailsSave>परिवर्तनहरू लागू</FileDetailsSave>
+  <FileDetailsIgnoreChanges>बेवास्ता</FileDetailsIgnoreChanges>
+  <FileDetailsCloseConfirmTitle>फाइल विवरण विन्डो बन्द भइरहेको छ</FileDetailsCloseConfirmTitle>
+  <FileDetailsCloseConfirmMsg>ध्यान! परिवर्तनहरू अझै सुरक्षित गरिएको छैन। तपाईं सञ्झ्याल बन्द गर्नु पहिले यी परिवर्तनहरू लागू गर्न चाहनुहुन्छ जो एउटा कार्य चयन गर्नुहोस्।</FileDetailsCloseConfirmMsg>
+  <FileDetailsGridTitleColumn>शीर्षक</FileDetailsGridTitleColumn>
+  <FileDetailsGridAuthorColumn>अन्तिम लेखक</FileDetailsGridAuthorColumn>
+  <LoadingDetailsMask>विवरण लोड</LoadingDetailsMask>
+  <NewDetailsTitle>नयाँ शीर्षक</NewDetailsTitle>
+  <NewDetailsValue>नयाँ विवरण मूल्य</NewDetailsValue>
+  <DetailsSavingMsg>विवरण सुरक्षित</DetailsSavingMsg>
+  <ProgressLoadingEditInOffice>कार्यालय मा सम्पादन लागि तयारी</ProgressLoadingEditInOffice>
+  <MenuFilterText>फिल्टर</MenuFilterText>
+  <EmptyTextFilter>फिल्टर प्रविष्ट गर्नुहोस् ...</EmptyTextFilter>
+  <AfterDateFilterText>पछि</AfterDateFilterText>
+  <BeforeDateFilterText>पहिले</BeforeDateFilterText>
+  <OnDateFilterText>मा</OnDateFilterText>
+  <YesBooleanFilterText>हो</YesBooleanFilterText>
+  <NoBooleanFilterText>कुनै</NoBooleanFilterText>
+  <CommandEditWithZoho>Zoho सम्पादन</CommandEditWithZoho>
+  <ZohoNotSupportedFormatMessage>विस्तार Zoho द्वारा समर्थित छैन। हेर्नुहोस् {0}।</ZohoNotSupportedFormatMessage>
+  <ProgressLoadingEditInZoho>लोड Zoho सम्पादक</ProgressLoadingEditInZoho>
+  <CommandSubMenuViewAndEdit>हेर्नुहोस् / सम्पादन गर्नुहोस्</CommandSubMenuViewAndEdit>
+  <CommandSubMenuShare>शेयर</CommandSubMenuShare>
+  <CommandSubMenuMore>थप</CommandSubMenuMore>
+  <StopUploadingButtonText>रोक</StopUploadingButtonText>
+  <SimpleUploadErrorInfo>फाइल अपलोड गर्दा (हरू) त्रुटि थियो। &lt;br /&gt; हेर्नुहोस् {0} लागि थप जानकारी &lt;/a&gt;</SimpleUploadErrorInfo>
+  <BalloonAbortFilesUploaded>फाइलहरू अपलोड परित्याग गरियो</BalloonAbortFilesUploaded>
+  <UploadDragNDropTab>तान्नुहोस् र छोड्नुहोस्</UploadDragNDropTab>
+  <UploadDragNDropTabImages>तान्नुहोस् र छोड्नुहोस्+तस्बिरहरू</UploadDragNDropTabImages>
+  <DnDGridProgressColumn>प्रगति</DnDGridProgressColumn>
+  <DnDFileReadingError>पढ्दै त्रुटि। त्रुटि कोड: {0}।</DnDFileReadingError>
+  <DnDFileReadingAbort>परित्याग पढाइ। त्रुटि कोड: {0}।</DnDFileReadingAbort>
+  <DnDFileUploadingError>अपलोड त्रुटि। {0}</DnDFileUploadingError>
+  <DnDFileUploadingAbort>अपलोड रद्द गरियो।</DnDFileUploadingAbort>
+  
+  <CommandWebFoldersLinks>नक्सा वेब फोल्डरहरू</CommandWebFoldersLinks>
+  <CommandSyncWebFolders>स्थानीय फोल्डर सिंक</CommandSyncWebFolders>
+  <WebFolderLinksFieldLabel>वेब-फोल्डर लिङ्क</WebFolderLinksFieldLabel>
+  <WebFolderLinksForWindows64Note>कुञ्जी संयोजन प्रेस {0} विन+R {1}। को {0} ओपनमा आदेश रेखा सम्मिलित: {1} क्षेत्र (तल आदेश लाइन उदाहरण हेर्नुहोस्) मा क्लिक गर्नुहोस् {0} ठीक {1}। लागि पूर्णतया योग्य डोमेन नाम प्रयोग Windows प्रमाणीकरण: {2}।</WebFolderLinksForWindows64Note>
+  <OpenLibreOfficeRunCommandNote>वा कुञ्जी संयोजन प्रेस {0} विन+R {1}, आदेश लाइन तलको {0} खुला मा सम्मिलित: {1} क्षेत्र र प्रेस {0} ठीक {1}</OpenLibreOfficeRunCommandNote>
+  <WebFolderLinksForMacOSNote>को "खोजकर्ता" मेनुमा, खुला {0} Go-&gt; जडान सर्भर {1}। को {0} "सर्भर ठेगाना" {1} क्षेत्रमा वेब फोल्डर को लिंक घुसाउनुहोस्। क्लिक गर्नुहोस् {0} "जडान गर्नुहोस्" {1}। नयाँ संवादमा चयन गर्नुहोस् {0} "अतिथि" {1} वा {0} "दर्ता प्रयोगकर्ता" {1} (Windows प्रमाणीकरण लागि)। क्लिक गर्नुहोस् {0} "जडान गर्नुहोस्" {1}।</WebFolderLinksForMacOSNote>
+  <WebFolderLinksForUbuntuNote>{0} Go-&gt; स्थान खुला ... {1} स्थान क्षेत्रमा वेब फोल्डर को लिंक प्रतिलिपि गर्नुहोस्।</WebFolderLinksForUbuntuNote>
+  <LinksToWebFoldersWindowText>के तपाईं आफ्नो स्थानीय OS मा नेटवर्क ड्राइभमा रूपमा हेर्न फोल्डरहरू नक्शा गर्न सक्छन्। म्यापिङ गरेपछि एमएस कार्यालय वा ओपनअफिस स्थानीय व्यक्तिहरूलाई वा सम्पादन गर्न कागजातहरू जस्तै फाइलहरू संग काम गर्न सक्छन्। {0} नक्शा कसरी गर्ने भन्ने बारे मद्दत हेर्नुहोस्।</LinksToWebFoldersWindowText>
+  <CommonFileTypeNameCaption>"{0}" फाइल नाम</CommonFileTypeNameCaption>
+  <CommonFileTypeNamePrompt>नयाँ "{0}" फाइल नाम प्रविष्ट गर्नुहोस्</CommonFileTypeNamePrompt>
+  
+  <PixlrEditorWindowTitle>Pixlr सम्पादक {0}</PixlrEditorWindowTitle>
+  <PixlrSaveImageSuccessMessage>छवि "{0}" सफलतापूर्वक बचत गरिएको थियो। तपाईं नयाँ नाम संग छवि बचत यदि सूची ताजा गर्नुहोस्।</PixlrSaveImageSuccessMessage>
+  <CommonFileImageNewName>नयाँ छवि</CommonFileImageNewName>
+  <CommandChangeTheme>विषय परिवर्तन</CommandChangeTheme>
+  
+  <CommandHelp>मदत</CommandHelp>
+
+  <OpeningShortcutProgress>खोल्दै सर्टकट</OpeningShortcutProgress>
+  <CommandCreateShortcut>सर्टकट (प्रतीकात्मक लिङ्क)</CommandCreateShortcut>
+  <ShortcutNameHint>सर्टकट नाम</ShortcutNameHint>
+  <ShortcutTargetPathHint>गन्तव्य बाटो</ShortcutTargetPathHint>
+  <CreateShortcutButtonTitle>सिर्जना</CreateShortcutButtonTitle>
+  <CreatingShortcutProgress>सिर्जना सर्टकट</CreatingShortcutProgress>
+  <CreateShortcutSuccessMessage>सर्टकट "{0}" सफलतापूर्वक लागि सिर्जना गरिएको थियो "{1}"।</CreateShortcutSuccessMessage>
+
+  <OpeningInternetShortcutProgress>इन्टरनेट सर्टकट खोल्दै</OpeningInternetShortcutProgress>
+  <InternetShortcutNotValidMsg>यो इन्टरनेट सर्टकट को लक्ष्य URL मान्य छैन</InternetShortcutNotValidMsg>
+  <InternetShortcutWindowTitle>लिङ्क जानुहोस्</InternetShortcutWindowTitle>
+  
+  <CommandVersioning>संस्करण</CommandVersioning>
+  <CommandVersionHistory>संस्करण इतिहास</CommandVersionHistory>
+  <CommandCheckOut>जाँच गर्नुहोस्</CommandCheckOut>
+  <CommandCheckIn>मा जाँच</CommandCheckIn>
+  <CommandUndoCheckOut>रद्द जाँच</CommandUndoCheckOut>
+  <VersionHistoryObtainingMessage>प्राप्त संस्करण इतिहास</VersionHistoryObtainingMessage>
+  <NoVersionHistoryMessage>चयन गरिएको फाइल लागि संस्करण इतिहास अवस्थित छैन</NoVersionHistoryMessage>
+  <FileIsCheckedOutMessage>फाइल "{0}" पहिले नै प्रयोगकर्ता द्वारा जाँच छ "{1}" को {2}</FileIsCheckedOutMessage>
+  <CheckingOutMessage>चलाइ</CheckingOutMessage>
+  <SuccessfullyCheckedOutMessage>फाइल "{0}" सफलतापूर्वक बाहिर प्रयोगकर्ता द्वारा जाँच थियो "{1}"</SuccessfullyCheckedOutMessage>
+  <FileIsNotCheckedOutMessage>फाइल "{0}" अझै जाँच गरिएको छैन</FileIsNotCheckedOutMessage>
+  <FileIsCheckedOutOtherUserMessage>फाइल "{0}" अन्य प्रयोगकर्ता द्वारा जाँच छ "{1}" को {2}।</FileIsCheckedOutOtherUserMessage>
+  <FileUndoCheckOutForbiddenMessage>तपाईं बाहिर अन्य प्रयोगकर्ता द्वारा लागू चेक रद्द गर्न सक्नुहुन्छ।</FileUndoCheckOutForbiddenMessage>
+  <FileCheckInForbiddenMessage>तपाईंले पहिले नै अन्य प्रयोगकर्ता द्वारा जाँच गरिएको छ कि एक फाइल मा जाँच गर्न सक्दैनौं।</FileCheckInForbiddenMessage>
+  <FileUndoCheckOutConfirmMessage>तपाईं आफ्नो चेक रद्द भने, कागजात लागू परिवर्तनहरू बचत गरिनेछ! तपाईं आफ्नो चेक रद्द गर्न चाहनुहुन्छ निश्चित हुनुहुन्छ?</FileUndoCheckOutConfirmMessage>
+  <FileVersionDeleteConfirmTitle>फाइल संस्करण को मेटाउँदै</FileVersionDeleteConfirmTitle>
+  <FileVersionDeleteConfirmMessage>के तपाईं फाइल को चयन संस्करण मेटाउन निश्चित हुनुहुन्छ?</FileVersionDeleteConfirmMessage>
+  <FileVersionRestoreConfirmTitle>फाइल संस्करण को पुनर्स्थापित</FileVersionRestoreConfirmTitle>
+  <FileVersionRestoreConfirmMessage>के तपाईं पक्का फाइल को चयन संस्करण पुनर्स्थापना गर्न भनी हुनुहुन्छ? {0} हो भने, जो चयन संस्करण मा सुरक्षित गरिनेछ फाइल निर्दिष्ट गर्नुहोस्। तपाईं परिवर्तन (वा सेट खाली मूल्य) बिना यो मूल्य छोड्नु भयो भने चयन संस्करण चयन गरिएको फाइल (फाइल को अघिल्लो सामग्री संस्करण इतिहास थपिनेछ) प्रतिस्थापन गर्नेछ {1} नाम फाइल।:</FileVersionRestoreConfirmMessage>
+  <UndoCheckingOutMessage>रद्द जाँच</UndoCheckingOutMessage>
+  <SuccessfullyUndoCheckedOutMessage>यो फाइल लागि जाँच को रद्द "{0}" सफलतापूर्वक पूरा भएको थियो।</SuccessfullyUndoCheckedOutMessage>
+  <SuccessfullyCheckedInMessage>फाइल "{0}" सफलतापूर्वक प्रयोगकर्ता द्वारा जाँच गरीएको छ "{1}"</SuccessfullyCheckedInMessage>
+  <CheckingInMessage>मा जाँच गर्दै</CheckingInMessage>
+  <VersionHistoryTitle>फाइल संस्करण "{0}"</VersionHistoryTitle>
+  <VersionHistoryGridNumberColumn>Ver।</VersionHistoryGridNumberColumn>
+  <VersionHistoryGridNotesColumn>टिप्पणीहरू</VersionHistoryGridNotesColumn>
+  <CommandRestoreVersion>पुनर्स्थापना</CommandRestoreVersion>
+  <ProgressPrepareDownloadOldVersion>पुरानो संस्करण डाउनलोड लागि तयारी</ProgressPrepareDownloadOldVersion>
+  <FileVersionNotFoundMessage>चयन गरिएको फाइल संस्करण फेला परेन।</FileVersionNotFoundMessage>
+  <ProgressDeletingVersion>संस्करण मेटाउँदै</ProgressDeletingVersion>
+  <ProgressRestoringVersion>संस्करण पुनर्स्थापित</ProgressRestoringVersion>
+  <FileNeedCheckInMessage>मा जाँच गर्नुहोस् वा चयन गरिएको फाइल लागि चेक आउट रद्द र फेरि प्रयास गर्नुहोस्।</FileNeedCheckInMessage>
+  <FileCheckedOutEditForbiddenMessage>तपाईं परिमार्जन गर्न सक्नुहुन्छ छैन / पुन: नामकरण / कदम / फाइल मेट्न "{0}" यो प्रयोगकर्ता द्वारा जाँच भइरहेको बेला "{1}" को {2}</FileCheckedOutEditForbiddenMessage>
+  <FileUploadCheckInLabel>तपाईं जाँच-मा चयन गरिएको फाइल गर्न वा फाइलको नयाँ संस्करण (तलको अपलोड फारम प्रयोग) अपलोड गर्नुहोस्। तपाईं चयन गरिएको फाइल देखि नयाँ संस्करण सिर्जना गर्न चाहनुहुन्छ भने, यहाँ कुनै पनि फाइलहरू अपलोड छैन।</FileUploadCheckInLabel>
+  <FileUploadCheckInInvalidFileName>अपलोड गरिएको फाइल नाम चयन गरिएको फाइल को नाम ठ्याक्कै एउटै हुनुपर्छ</FileUploadCheckInInvalidFileName>
+  <CheckOutVersionNotes>यो संस्करण स्वतः सिर्जना भएको छ</CheckOutVersionNotes>
+  <RestoreVersionNotes>यो संस्करण बाट संस्करण को पुनस्थापित पछि स्वचालित रूपमा सिर्जना गरिएको छ {0} प्रयोगकर्ता को "{1}"</RestoreVersionNotes>
+  <IsCheckedOutHint>फाइल जाँच गरिएको छ</IsCheckedOutHint>
+  <ExistsOldVersionsHint>फाइल अन्य संस्करण छ</ExistsOldVersionsHint>
+  <IsLockedHint>फाइल बन्द गरिएको छ</IsLockedHint>
+  <FileWasCreatedHint>सिर्जना गरिएको छ {0} पहिले</FileWasCreatedHint>
+  <FileWasModifiedHint>परिवर्तन गरिएको छ {0} पहिले</FileWasModifiedHint>
+  <CommonChangedAgo>{0} पहिले</CommonChangedAgo>
+  <DaysShort>घ</DaysShort>
+  <HoursShort>घन्टा</HoursShort>
+  <MinutesShort>पु</MinutesShort>
+  <FileContainsMetaDataHint>समावेश केही विवरण (मेटाडाटा)</FileContainsMetaDataHint>
+  <FileMetaDataCaptionMobile>मेटाडाटा</FileMetaDataCaptionMobile>
+
+  <ExistsPublicLinksFileHint>फाइल सार्वजनिक लिंक छ</ExistsPublicLinksFileHint>
+  <ExistsPublicLinksFolderHint>फोल्डर सार्वजनिक लिंक छ</ExistsPublicLinksFolderHint>
+  <PublicLinkNotFound>"{0}" भेटिएन लागि सार्वजनिक लिङ्क</PublicLinkNotFound>
+
+  <PublicLinksDeleteWindowTitle>सार्वजनिक लिंक मेटाउन (हरू)</PublicLinksDeleteWindowTitle>
+  <PublicLinksDeleteLinkButton>लिङ्क मेट्न</PublicLinksDeleteLinkButton>
+  <PublicLinksDeleteConfirmMsg>तपाईं चयन सार्वजनिक लिंक हटाउन चाहनुहुन्छ?</PublicLinksDeleteConfirmMsg>
+  <PublicLinksDeleteSingleConfirmMsg>तपाईं यस लिंक हटाउन चाहनुहुन्छ निश्चित हुनुहुन्छ?</PublicLinksDeleteSingleConfirmMsg>
+
+  <DetailsMultiValue>(बहु मूल्य)</DetailsMultiValue>
+
+  <GridBottomFilesSizeInfo>चयन गरिएको: {0} / {1},</GridBottomFilesSizeInfo>
+  <GridBottomFilesFoldersInfo>फाइलहरू: {0} / {1}, फोल्डरहरू: {2} / {3}</GridBottomFilesFoldersInfo>
+
+  <AmountOfDownloadingsFile>डाउनलोड</AmountOfDownloadingsFile>
+
+  <CookiesDisabledMessage>तपाईंको ब्राउजरको कुकी कार्यक्षमता बन्द गरिएको छ। कृपया यसलाई सक्रिय र फेरि सुरु ब्राउजर।</CookiesDisabledMessage>
+
+  <CommandSendEmail>इमेल पठाउने</CommandSendEmail>
+  <CommandSendWithGmail>जीमेल पठाउने</CommandSendWithGmail>
+  <CommandSendWithOutlook>आउटलुक पठाउने</CommandSendWithOutlook>
+  <SendEmailTo>गर्न</SendEmailTo>
+  <SendEmailBulkMailingListHint>&lt;b&gt; पत्राचार सूची &lt;/b&gt; &lt;br /&gt; तपाईं आफ्नो इमेल पठाउन सारा समूह निर्दिष्ट गर्न सक्नुहुन्छ</SendEmailBulkMailingListHint>
+  <SendEmailBulkMailingListWindowTitle>तपाईंको इमेल को लागि रिसीभर चयन</SendEmailBulkMailingListWindowTitle>
+  <SendEmailEmptyMailingListMessage>मेल सूची खाली छ</SendEmailEmptyMailingListMessage>
+  <SendEmailSenderEmail>प्रेषक इमेल</SendEmailSenderEmail>
+  <SendEmailSubject>विषय</SendEmailSubject>
+  <SendEmailFilesAsLinksTo>चयन गरिएका फाइलहरू लिङ्क पठाउनुहोस्</SendEmailFilesAsLinksTo>
+  <SendEmailFilesAsAttachements>संलग्नहरू रूपमा चयन गरिएका फाइलहरू पठाउन</SendEmailFilesAsAttachements>
+  <SendEmailSend>पठाउनुहोस्</SendEmailSend>
+  <SendEmailProgressMessage>इमेल पठाउँदै</SendEmailProgressMessage>
+  <GettingMailingListProgressMessage>पत्राचार सूची प्राप्त</GettingMailingListProgressMessage>
+  <SendEmailSuccessMessage>इमेल सफलतापूर्वक पठाइएको थियो।</SendEmailSuccessMessage>
+  <SendEmailResultsMessage>पठाइयो:। {0} &lt;br /&gt; असफल: {1} {2}।</SendEmailResultsMessage>
+  <SmtpServerSettingsIncorrect>यो SMTP-सर्भर विकल्प खाली वा गलत त हो</SmtpServerSettingsIncorrect>
+  <FromEmailIncorrect>इमेल बाट ठेगाना गलत वा खाली छ</FromEmailIncorrect>
+  <ToEmailIncorrect>इमेल ठेगाना गलत वा खाली छ</ToEmailIncorrect>
+  <EmailSubjectEmpty>इमेल विषय निर्दिष्ट गरिएको छैन</EmailSubjectEmpty>
+  <UploadFromUrlTab>URL बाट</UploadFromUrlTab>
+  <UploadFromUrlFieldLabel>यूआरएल (HTTP या FTP एकल फाइल)</UploadFromUrlFieldLabel>
+  <UploadFromUrlProgressTitle>URL बाट अपलोड</UploadFromUrlProgressTitle>
+  <UploadFromUrlMsg>URL बाट अपलोड</UploadFromUrlMsg>
+  <UploadFromUrlSuccessMsg>फाइल "{0}" सफलतापूर्वक देखि अपलोड गरिएको छ "{1}"</UploadFromUrlSuccessMsg>
+  <UploadFromUrlUnknownResponse>सर्भरबाट प्रतिक्रिया पहिचान छ</UploadFromUrlUnknownResponse>
+  <UploadFromUrlEmptyFileName>अपलोड गरिएको फाइल नाम खाली छ</UploadFromUrlEmptyFileName>
+  <UploadFromUrlFileName>नाम संग सुरक्षित (खाली URL बाट नाम प्रयोग गर्न)</UploadFromUrlFileName>
+  <UploadFromUrlFileNameMobile>नाम संग सुरक्षित</UploadFromUrlFileNameMobile>
+  
+  <!-- Common Clouds keys -->  
+  <CloudAuthenticateMessage>तपाईं {0} मा लग पर्छ। "{1}" लिंक क्लिक गर्नुहोस् र तपाईं लगअन फारम निर्देशित गरिने छ। {2} थप जानकारी। {3}</CloudAuthenticateMessage>
+  <CloudAuthenticateLink>संग प्रमाणित {0}</CloudAuthenticateLink>  
+  <CloudDownloadingMessage>गर्न डाउनलोड {0}</CloudDownloadingMessage>
+  <CloudAuthWarningMessage>यदि कार्य भयो छैन, कृपया यो विन्डो बन्द र फेरि "{0}" लिंक मा क्लिक गर्नुहोस्।</CloudAuthWarningMessage>
+  <CloudAuthEmptyInvalidMessage>{0} पहुँच टोकन खाली वा अवैध छ। फेरि प्रमाणित गर्नुहोस्।</CloudAuthEmptyInvalidMessage>
+  <CloudDownloadEndMessageTitle>डाउनलोड समाप्त भएको छ</CloudDownloadEndMessageTitle>
+  <CloudDownloadFilesSuccessMessage>{0} फाइल (हरू) "{1}" {2} फोल्डरमा सफलतापूर्वक डाउनलोड।</CloudDownloadFilesSuccessMessage>
+  <CloudNotDownloadedFilesMessage>{0} फाइल (हरू) डाउनलोड छैन:</CloudNotDownloadedFilesMessage>
+  <CloudFoldersCreatedSuccessMessage>{0} फोल्डरहरू (हरू) सफलतापूर्वक "{1}" {2} फोल्डर मा सिर्जना गरियो।</CloudFoldersCreatedSuccessMessage>
+  <CloudNotFoldersCreatedMessage>{0} फोल्डरहरू (हरू) सिर्जना:</CloudNotFoldersCreatedMessage>
+  <CloudFilesFoldersSuccessMessage>{0} फाइल (हरू), {1} फोल्डर (हरू) "{2}" {3} फोल्डरमा सफलतापूर्वक डाउनलोड।</CloudFilesFoldersSuccessMessage>
+  <CloudNotFilesFoldersDownloadedMessage>{0} फाइल (हरू), {1} फोल्डर (हरू) डाउनलोड छैन:</CloudNotFilesFoldersDownloadedMessage>
+  <CloudLinkText>भ्रमण {0}</CloudLinkText>
+  <CloudLinkDescription>{0} पृष्ठमा जानुहोस्</CloudLinkDescription>
+  <CloudRootFolderName>&lt;b&gt; {0} मूल फोल्डर &lt;/b&gt;</CloudRootFolderName>
+  <CloudCheckFolerMessage>कृपया जारी राख्न एक {0} फोल्डर जाँच गर्नुहोस्।</CloudCheckFolerMessage>
+  <CloudSelectFolderMessage>जारी राख्न {0} फोल्डर चयन गर्नुहोस्।</CloudSelectFolderMessage>
+  <CloudGetFoldersInfoProgressMessage>लोड {0} फोल्डरहरू जानकारी</CloudGetFoldersInfoProgressMessage>
+  <CloudGetItemsInfoProgressMessage>लोड {0} वस्तुहरू जानकारी</CloudGetItemsInfoProgressMessage>
+  <CloudUploadSelectItemsMessage>कृपया {0} वस्तुहरू जारी राख्न चयन गर्नुहोस्।</CloudUploadSelectItemsMessage>
+  <CloudUploadTotalFiles>कुल फाइलहरू: {0} ({1})</CloudUploadTotalFiles>
+  <CloudUploadProgressMessage>बाट अपलोड {0}</CloudUploadProgressMessage>
+  <CloudSignInAsDifferentUserText>बाट लगआउट {0}</CloudSignInAsDifferentUserText>
+  <CloudLogoutProgressMsg>बाट लगआउट {0}</CloudLogoutProgressMsg>
+  <CloudRevokeTokenMsg>रद्द टोकन</CloudRevokeTokenMsg>
+  <CloudRefreshTokenMsg>स्फूर्तिदायी टोकन</CloudRefreshTokenMsg>
+  <CloudAuthNotCompleteMsg>प्रमाणीकरण पूरा। &lt;br /&gt; कृपया</CloudAuthNotCompleteMsg>
+  <CloudTrustedSitesMsg> &lt;br /&gt; &lt;br /&gt;: "विश्वसनीय साइटहरु" सूचीमा साइटहरु निम्न जाँच</CloudTrustedSitesMsg>
+  <TrustedSitesForMicrosoftEdge>तपाईं Microsoft किनारा प्रयोग गर्दै हुनुहुन्छ भने, त्यसपछि इन्टरनेट एक्सप्लोरर मा विश्वसनीय साइटहरु जाँच</TrustedSitesForMicrosoftEdge>
+  <CloudCheckAuthMsg>जाँच {0} प्रमाणीकरण</CloudCheckAuthMsg>
+  <CloudLoadMsg>{0} लोड</CloudLoadMsg>
+  <CloudFreeSpaceError>त्यहाँ {2} फाइल अपलोड गर्न पर्याप्त कोठा छैन। खैर: {0}। फाइल साइज: {1}।</CloudFreeSpaceError>
+  <CloudFreeSpaceExceeded>त्यहाँ पर्याप्त कोठा छैन {0}</CloudFreeSpaceExceeded>
+  <CloudExceedFileSizeError>तपाईं डाउनलोड गर्न खोज्नुभएको फाइल फाइल डाउनलोड लागि अधिकतम आकार भन्दा ठूलो छ, {1} को आकार छ - {0}।</CloudExceedFileSizeError>
+  <CloudFolderNotFound>निर्देशिका फेला परेन। सायद यो मेटिएको छ</CloudFolderNotFound>
+  <CloudFileNotFound>फाइल फेला परेन। सायद यो मेटिएको छ</CloudFileNotFound>
+  <CloudNoFoldersMessage>त्यहाँ प्रदर्शन गर्न कुनै फोल्डरहरू</CloudNoFoldersMessage>
+  <CloudLibraryNotLoadedMsg>{0} ग्राहक पुस्तकालय लोड! &lt;br /&gt; इन्टरनेट जडान जाँच गर्नुहोस् र-वा ताजा पृष्ठ। &lt;br /&gt; साथै</CloudLibraryNotLoadedMsg>
+  <CloudDownloadWithNewNames>निम्न फाइल (हरू) नयाँ नाम संग डाउनलोड:</CloudDownloadWithNewNames>
+
+  <!-- Google Drive Cloud keys -->
+  <CommandDownloadToGoogleDocs>गुगल ड्राइभमा डाउनलोड</CommandDownloadToGoogleDocs>
+  <GoogleDocsSaveAs>यसरी राख:</GoogleDocsSaveAs>
+  <GoogleDocsSaveAsTitle>"{0}" को रूपमा बचत गर्नुहोस् ...</GoogleDocsSaveAsTitle>
+  <GoogleDocsDownloadEndWarningMessage>तपाईं तपाईको खातामा मा अपलोड गरिएको कागजात हेर्न सक्नुहुन्न भने, केही सेकेन्ड प्रतिक्षा गर्नुहोस् र Google ड्राइभ सूची ताजा गर्नुहोस्।</GoogleDocsDownloadEndWarningMessage>
+  <GoogleDriveUploadNoFilesMessage>अपलोड लागि Google Drive मा कुनै फाइल</GoogleDriveUploadNoFilesMessage>
+  <GoogleDriveMaxUploadSizeError>सामग्री-प्रकारका लागि "{0}" अपलोड अधिकतम आकार {1} नाघेको छ।</GoogleDriveMaxUploadSizeError>
+  <GoogleDriveConvertMsg>यो सम्भव छ भने, गुगल कागजातहरू स्वरूप फाइलहरू रूपान्तरण। {0} जानकारी {1}।</GoogleDriveConvertMsg>
+
+  <!-- Box Cloud keys -->
+  <CommandDownloadToBox>बक्स डाउनलोड</CommandDownloadToBox>
+  <BoxDownloadWithNewNames>निम्न फाइल (हरू) नयाँ संस्करणका अद्यावधिक थिए:</BoxDownloadWithNewNames>
+  <BoxNoViewPermission>तपाईं चयन निर्देशिका हेर्न अनुमति छैन</BoxNoViewPermission>
+  <BoxNoDownloadPermission>तपाईं डाउनलोड गर्न अनुमति छैन</BoxNoDownloadPermission>
+  <BoxNoUploadPermission>तपाईं अपलोड गर्न अनुमति छैन</BoxNoUploadPermission>
+  <BoxUnableCreateOrInfoError>सिर्जना वा जानकारी प्राप्त गर्न असमर्थ</BoxUnableCreateOrInfoError>
+  
+  <!-- Dropbox Cloud keys -->
+  <CommandDownloadToDropbox>Dropbox डाउनलोड</CommandDownloadToDropbox>
+  
+  <!-- OneDrive Cloud keys -->
+  <CommandDownloadToSkyDrive>OneDrive डाउनलोड</CommandDownloadToSkyDrive>
+  <AuthenticateOAuthSkyDriveMessageShort>तपाईं आफ्नो Microsoft प्रत्यक्ष खातामा लग इन गर्नुहोस्।</AuthenticateOAuthSkyDriveMessageShort>
+  <SkyDriveAuthAlsoString>साथै</SkyDriveAuthAlsoString>
+  <SkyDriveLoginButtonTitle>लग - इन</SkyDriveLoginButtonTitle>
+  <SkyDriveRegistryMessage>एक विन्डोज लाइभ आईडी छैन? {0} साइन अप ... {1}</SkyDriveRegistryMessage>
+  <SkyDriveMapRootFolder>नोट! तपाईं {0} नक्सा {1} आफ्नो OneDrive फोल्डर गर्न सक्छन्। बाटो छ</SkyDriveMapRootFolder>
+  <SkyDriveMoreInfoLink>{0} बारेमा OneDrive (SkyDrive) जानकारी {1}</SkyDriveMoreInfoLink>
+  <OneDriveMaxUploadSizeError>यो स्वीकार गर्न सकिने आकार ({0}) अपलोड गरिएको फाइल को नाघेको छ: {1}</OneDriveMaxUploadSizeError>
+  <!-- OneDrive for Business -->
+  <OneDriveForBusinessMapWebFolderInfo>&lt;b&gt; नोट! &lt;/b&gt; यस स्थानमा फाइलहरू खोल्न अघि, तपाईं पहिले वेब साइट आफ्नो विश्वसनीय साइटहरु सूचीमा, वेब साइटमा ब्राउज थप्नु पर्छ, र स्वचालित रूपमा लगइन गर्न (अर्थात् ब्राउजरमा) विकल्प चयन गर्नुहोस्।</OneDriveForBusinessMapWebFolderInfo>
+  
+  <UploadFromUrlLabelText>तपाईं एक वैश्विक फाइल सर्भर वा जस्तै फाइल साझेदारी सेवामा भण्डार फाइल को URL निर्दिष्ट गर्न सक्नुहुन्छ {0}, {1} {2} {3} {4}।</UploadFromUrlLabelText>
+  <UploadFromUrlLabelTextMobile>फाइलको URL निर्दिष्ट</UploadFromUrlLabelTextMobile>
+
+  <LinkToFileTitle>फाइल / फोल्डर लिङ्क</LinkToFileTitle>
+  <LinkToFileWarningAnonym>यो लिंक फाइलमा अज्ञात पहुँच प्रदान गर्दछ। कुनै पनि प्रयोगकर्ता, एक पनि यो साइट मा कुनै खाता छ, डाउनलोड वा सार्वजनिक लिङ्क मार्फत फाइलहरू अपलोड गर्न सक्छन्। फाइल एक सार्वजनिक लिङ्क तपाईं एक चयन गरिएको फाइल डाउनलोड गर्न अनुमति दिन्छ। {0} जानकारी {1}।</LinkToFileWarningAnonym>
+  <LinkToFileDownloadFileLink>यो लिंक तपाईं चयन गरिएको फाइल {0} बाट {1} डाउनलोड गर्न अनुमति दिन्छ। तपाईंले यो लिंक प्रयोग गर्न वैध खाता आवश्यक छ। यो फाइलमा अज्ञात पहुँच प्रदान गर्दैन।</LinkToFileDownloadFileLink>
+  <LinkToFileExpireDate>म्याद समाप्त हुने मिति</LinkToFileExpireDate>
+  <LinkToFileDownloadCnt>डाउनलोड गणना सीमा</LinkToFileDownloadCnt>
+  <LinkToFileDownloadType>लिंक प्रकार</LinkToFileDownloadType>
+  <LinkToFileGenerate>लिङ्क सिर्जना</LinkToFileGenerate>
+  <LinkToFilePasswordNotMatch>पासवर्ड मेल खाँदैन</LinkToFilePasswordNotMatch>
+  <LinkToFilePasswordRequired>सार्वजनिक लिंक को लागि पासवर्ड आवश्यक छ</LinkToFilePasswordRequired>
+  <LinkToFileInvalidForm>अवैध मापदण्डहरु</LinkToFileInvalidForm>
+  <LinkToFileAnonymDownloadLinkHint>को लागि सार्वजनिक लिंक "{0}":</LinkToFileAnonymDownloadLinkHint>
+  <LinkToFileAnonymDownloadShortLinkHint>लघु सार्वजनिक लिङ्क "{0}":</LinkToFileAnonymDownloadShortLinkHint>
+  <LinkToFileOpenFolderLink>यो लिंक तपाईं चयन गरिएको फोल्डरमा {0} {1} खोल्न अनुमति दिन्छ। तपाईंले यो लिंक प्रयोग गर्न वैध खाता आवश्यक छ। यो फोल्डरमा अज्ञात पहुँच प्रदान गर्दैन।</LinkToFileOpenFolderLink>
+  <LinkToFileOpenFileLink>यो लिंक फाइल संग फोल्डर खोल्छ र यसलाई जोड दिन्छ</LinkToFileOpenFileLink>
+  <LinkToFileDaysLeft>दिन बाकी</LinkToFileDaysLeft>
+  <LinkToFileCaptionMobile>सार्वजनिक लिंक</LinkToFileCaptionMobile>
+
+  <PublicFolderLinkHint>"{0}" सार्वजनिक लिंक फोल्डरमा:</PublicFolderLinkHint>
+  <PublicFolderShortLinkHint>"{0}" कम सार्वजनिक लिंक फोल्डरमा:</PublicFolderShortLinkHint>
+  <PublicFolderLinkDownloadZipHint>फोल्डर को जिप संग्रह लागि लिंक डाउनलोड गर्नुहोस् "{0}":</PublicFolderLinkDownloadZipHint>
+  <PublicFolderLinkShortDownloadZipHint>फोल्डर को जिप संग्रह लघु डाउनलोड लिंक "{0}":</PublicFolderLinkShortDownloadZipHint>
+  <PublicFolderLinkZipDownload>संकुचन र वर्तमान फोल्डर {0} डाउनलोड (एक जिप संग्रहमा)</PublicFolderLinkZipDownload>
+  <PublicFolderLinkOverwriteWhileUpload>अवस्थित अधिलेखन</PublicFolderLinkOverwriteWhileUpload>
+  <PublicFolderLinkOpenFolderHint>फोल्डर खोल्नुहोस्</PublicFolderLinkOpenFolderHint>
+  <PublicFolderDownloadDisabledNote>नोट! यो फोल्डरको मालिक यो फोल्डर फाइलहरू डाउनलोड निषेधित थिए।</PublicFolderDownloadDisabledNote>
+  <PublicFolderLinkSendEmails>इमेल आगन्तुकहरूलाई गतिविधिको बारेमा जानकारी पठाउन</PublicFolderLinkSendEmails>
+  <PublicFolderAnonymAccessControl>पहुँच नियन्त्रण</PublicFolderAnonymAccessControl>
+  <PublicFolderAnonymDownload>फाइलहरू डाउनलोड</PublicFolderAnonymDownload>
+  <PublicFolderAnonymZipDownload>डाउनलोड फोल्डरहरू (जिप)</PublicFolderAnonymZipDownload>
+  <PublicFolderAnonymUpload>अपलोड</PublicFolderAnonymUpload>
+  <PublicFolderAnonymViewContent>फाइल सूची दृश्य</PublicFolderAnonymViewContent>
+  <PublicFolderNoteForUsers>प्रयोगकर्ताका लागि नोट</PublicFolderNoteForUsers>
+  <PublicFolderACLNotSet>पहुँच नियन्त्रण सेट छैन</PublicFolderACLNotSet>
+  <PublicFolderWarningAnonym>यो लिंक फोल्डरमा अज्ञात पहुँच प्रदान गर्दछ। कुनै पनि प्रयोगकर्ता, एक पनि यो साइट मा कुनै खाता छ, डाउनलोड वा सार्वजनिक लिङ्क मार्फत फाइलहरू अपलोड गर्न सक्छन्। फोल्डर एक सार्वजनिक लिंक तपाईं एक पुरा फोल्डर दुवै (संग्रहमा खचाखच भरिएको) र व्यक्तिगत फाइलहरू डाउनलोड गर्ने अनुमति दिन्छ। {0} जानकारी {1}।</PublicFolderWarningAnonym>
+  <PublicLinksShowForAllItems>सबै लागि देखाउन</PublicLinksShowForAllItems>
+  <PublicLinksShowForSelected>चयन लागि देखाउन</PublicLinksShowForSelected>
+  
+  <MultipleFileInputMessage>नोट! तपाईंको ब्राउजर मा एक पटक धेरै फाइलहरू चयन समर्थन गर्दछ।</MultipleFileInputMessage>
+  <UploadZipUnzipNote>तपाईँले बहुविध फाइल र फोल्डरहरू संग जिप संग्रह अपलोड गर्न सक्नुहुन्छ र त्यसपछि प्रसङ्ग मेनुमा "{0}" आदेश प्रयोग, यो निकाल्न।</UploadZipUnzipNote>
+  <DnDFileUploadingStatusCode>स्थिति कोड</DnDFileUploadingStatusCode>
+  <DnDFileUploadingPathOrNameEmpty>पथ र-वा फाइल नाम निर्दिष्ट छैन</DnDFileUploadingPathOrNameEmpty>
+  <DnDFileUploadingRemoveFromList>सूचीबाट हटाउन</DnDFileUploadingRemoveFromList>
+  <DndFileUploadingDontDropFoldersMsg>तपाईं तान्नुहोस् र तल तालिका फाइलहरू ड्रप गर्न सक्नुहुन्छ। तपाईं फोल्डरहरू ड्रप गर्न सक्दैन।</DndFileUploadingDontDropFoldersMsg>
+  <DndFileUploadingAllowDropFoldersMsg>तपाईं तान्नुहोस् र तल तालिकामा फाइल र फोल्डरहरू ड्रप गर्न सक्नुहुन्छ।</DndFileUploadingAllowDropFoldersMsg>
+  <DndFileUploadingFilesSummaryInfo>फाइलहरू गणना: {0} ({1})</DndFileUploadingFilesSummaryInfo>
+  <DropFilesHere>अपलोड गर्न फाइलहरू ड्रप</DropFilesHere>
+  
+  <FileGridDownloadColumn>फाइलहरू डाउनलोड</FileGridDownloadColumn>
+  <FileAttributesField>विशेषताहरु</FileAttributesField>
+  <FolderCalculateSize>गणना</FolderCalculateSize>
+  <FolderRecalculateSize>दुबारा</FolderRecalculateSize>
+  <FolderContainsField>समावेश</FolderContainsField>
+  <FolderContainsFilesFolders>{0} फाइलहरू, {1} फोल्डरहरू</FolderContainsFilesFolders>
+  <FolderCalculatingMessage>गणना</FolderCalculatingMessage>
+
+  <SearchTitle>फाइल खोजी। उपलब्ध ढाँचाहरू: {0}</SearchTitle>
+  <SearchType>खोज</SearchType>
+  <SearchOnlyFiles>मात्र फाइलहरू</SearchOnlyFiles>
+  <SearchOnlyFolders>फोल्डरमा मात्र</SearchOnlyFolders>
+  <SearchBothFilesFolders>फाइल र फोल्डरहरू दुवै</SearchBothFilesFolders>
+  <SearchFileDetails>फाइल विवरण</SearchFileDetails>
+  <SearchFileContent>फाइल सामग्री</SearchFileContent>
+  <SearchByDateFrom>बाट</SearchByDateFrom>
+  <SearchByDateTo>गर्न</SearchByDateTo>
+  <SearchLocation>स्थान</SearchLocation>
+  <SearchLocationEntire>कहीं</SearchLocationEntire>
+  <SearchLocationCurrent>वर्तमान</SearchLocationCurrent>
+  <SearchSearch>खोज</SearchSearch>
+  <SearchNothingFound>केही फेला परेन! कृपया आफ्नो खोज मापदण्ड परिष्कृत।</SearchNothingFound>
+  <SearchErrorCaption>त्रुटि खोज</SearchErrorCaption>
+  <SearchResultsNotComplete>ध्यान! केही फोल्डरहरू अझै अनुक्रमित छैन खोज परिणाम अपूर्ण हुन सक्छ।</SearchResultsNotComplete>
+  <SearchRepeatOrContactAdmin>पछि फेरि आफ्नो खोज प्रयास गर्नुहोस् वा आफ्नो प्रशासकलाई सम्पर्क गर्नुहोस्।</SearchRepeatOrContactAdmin>
+  <SearchLinkToManual>को {0} विन्डोज खोज सहायता उल्लेख {1}</SearchLinkToManual>
+  <QuerySearchByNameText>नाम द्वारा खोज</QuerySearchByNameText>
+  <QuerySearchByConentText>सामग्री द्वारा</QuerySearchByConentText>
+  <SearchByDetailsWarning>ध्यान! के तपाईं गुण द्वारा खोज प्रयोग गर्न चाहनुहुन्छ कि सेटिङ निर्दिष्ट गरेका छन्। यस मामला मा, खोज एक मानक विधि प्रयोग गरेर सट्टा विन्डोज अनुक्रमणिका सेवा प्रयोग गरिनेछ।</SearchByDetailsWarning>
+  <SearchInSpecialFolderWarning>ध्यान! हालको फोल्डर लागू हुँदैन खोजी गर्न। तपाईं जारी छ भने, खोज सबै निर्देशिका मा गरिनेछ।</SearchInSpecialFolderWarning>
+
+  <UploadTitle>धेरै फाइलहरू अपलोड</UploadTitle>
+  <UploadSimpleTab>मानक</UploadSimpleTab>
+  <UploadSimpleReset>रिसेट गर्नुहोस्</UploadSimpleReset>
+  <UploadSimpleUpload>अपलोड</UploadSimpleUpload>
+  <UploadSimpleUploadFolderLabelCollapsed>फोल्डर अपलोड</UploadSimpleUploadFolderLabelCollapsed>
+  <UploadSimpleUploadFolderButtonText>फोल्डर चयन गर्नुहोस्</UploadSimpleUploadFolderButtonText>
+  <UploadJavaTab>java</UploadJavaTab>
+  <UploadJavaIgnorePaths>एक फोल्डर मा सबै फाइलहरू ठाँउ (पथ बेवास्ता)</UploadJavaIgnorePaths>
+  <UploadFlashTab>फ्लैश</UploadFlashTab>
+  <UploadSilverlightTab>Silverlight</UploadSilverlightTab>
+  <UploadPartially>केहि फाइलहरू अपलोड गर्न सकिएन</UploadPartially>
+  <UploadFolderNotSelectedTitle>फोल्डर चयन गरिएको छैन</UploadFolderNotSelectedTitle>
+  <UploadFolderNotSelected>जो फाइलहरू अपलोड गरिनेछ फोल्डर चयन गर्नुहोस्</UploadFolderNotSelected>
+  <UploadInProgress>तपाईँको फाइलहरू अपलोड</UploadInProgress>
+  <UploadInvalidFormFields>फारम फिल्ड छैन अमान्य मान संग पेश गर्न सकिन्छ</UploadInvalidFormFields>
+  <UploadAjaxFailed>AJAX संचार असफल</UploadAjaxFailed>
+  <UploadFilesAlreadyExists>फाइल (हरू) पहिले नै अवस्थित</UploadFilesAlreadyExists>
+  <UploadOverwriteFiles>अवस्थित फाइल अधिलेखन हुनेछ। तपाईं अघि बढ्न चाहनुहुन्छ?</UploadOverwriteFiles>
+  <UploadOverwriteOrRenameFiles>तपाईं निर्दिष्ट निर्देशिका मा मिल्दो नाम एक वा बढी फाइल हुन्। तपाईं अवस्थित फाइलहरू अधिलेखन गर्न चाहनुहुन्छ? क्लिक गर्नुहोस् "{0}" तपाईं पहिले नै अवस्थित फाइलहरू अधिलेखन गर्न चाहनुहुन्छ भने, वा "{1}" - तपाईं सबै फाइलहरू बचत गर्न चाहनुहुन्छ भने (तिनीहरूले पुन: नामाकरण गरिनेछ)।</UploadOverwriteOrRenameFiles>
+  <UploadNotModifyExistingFiles>तपाईं निर्दिष्ट निर्देशिका नाम मिल्दो एक वा बढी फाइल हुन्। फाइलहरू अपलोड गर्न सकिन्छ। कृपया अपलोड सूचीबाट अवस्थित फाइल हटाउन वा तिनीहरूलाई गर्नुहोस्।</UploadNotModifyExistingFiles>
+  <UploadRenamedExistingFiles>तपाईं निर्दिष्ट निर्देशिका नाम मिल्दो एक वा बढी फाइल हुन्। मिल्दो नाम फाइलहरू पुन: नामाकरण गरिनेछ।</UploadRenamedExistingFiles>
+  <UploadNotAllowedTitle>अपलोड अनुमति छैन</UploadNotAllowedTitle>
+  <UploadNotAllowedPrompt>तपाईंले यो फोल्डरमा फाइल अपलोड गर्न सक्नुहुन्न</UploadNotAllowedPrompt>
+
+  <UploadMobileIOSVideo>भिडियो अपलोड गर्नुहोस्। तपाईं भिडियो फाइल अपलोड गर्न आवश्यक भएमा, यो विकल्प सक्षम पार्नुहोस्।</UploadMobileIOSVideo>
+  <UploadMobileAurigmaLink>कृपया तपाईं हुनुपर्छ भनेर Aurigma अप! फाइलहरू अपलोड गर्न आफ्नो उपकरणमा स्थापित। स्थापना गर्न Aurigma अप यहाँ ट्याप गर्नुहोस्! छवि र भिडियो अपलोड लागि आवेदन।</UploadMobileAurigmaLink>
+  <UploadMobileAurigmaReady>Aurigma अप पछि! स्थापना भएको छ वा तपाईं पहिले नै स्थापित छ भने प्रेस बटन "अपलोड गर्नुहोस्" तल।</UploadMobileAurigmaReady>
+  <UploadMobileAurigmaFilePrefix>अपलोड गरिएका फाइलहरू लागि उपसर्ग</UploadMobileAurigmaFilePrefix>
+  <UploadMobileResult>अपलोड गर्नुहोस् परिणाम:</UploadMobileResult>
+  <UploadMobileUrlPlaceHolder>यो URL यहाँ प्रविष्ट गर्नुहोस्</UploadMobileUrlPlaceHolder>
+  <UploadMobileFileNamePlaceHolder>यहाँ नयाँ फाइल नाम प्रविष्ट गर्नुहोस्</UploadMobileFileNamePlaceHolder>
+  <UploadBrowseLabel>ब्राउज गर्नुहोस् ...</UploadBrowseLabel>
+  
+  <MobileToolTipsCaption>तपाईं थाह ...</MobileToolTipsCaption>
+  <MobileToolTipsNextButton>अर्को टिप</MobileToolTipsNextButton>
+  <MobileToolTipsIKnowButton>म यो जान्न</MobileToolTipsIKnowButton>
+  <MobileToolTipsHideButton>कहिल्यै देखाउन</MobileToolTipsHideButton>
+  <MobileToolTipsMultiSelection>धेरै फाइल वा फोल्डर चयन गर्न, तपाईँले &lt;b&gt; {0} &lt;/b&gt; बटन छोएर बहु-चयन मोड सक्षम हुनुपर्छ। बहु-चयन मोड देखि बाहिर निस्कन यसलाई फेरि ट्याप गर्नुहोस्।</MobileToolTipsMultiSelection>
+  <MobileToolTipsSlideToRemove>यसलाई हटाउन सूची वस्तुहरूको कुनै पनि छोडिएको तपाईं सही देखि घुमाउन सक्नुहुन्छ। एक इनलाइन हटान बटन सूची वस्तु को शीर्ष मा प्रदर्शित हुनेछ।</MobileToolTipsSlideToRemove>
+  <MobileToolTipsTapAndHoldForMenu>ट्याप गर्नुहोस् र सन्दर्भ मेनु देखाउने सूची वस्तुहरूको कुनै पनि समात्नुहोस्। ट्याप गर्नुहोस् द्वारा प्रदर्शित 'खुलासा' बटन मा नै प्रसङ्ग मेनु</MobileToolTipsTapAndHoldForMenu>
+  <MobileToolTipsDoubleTapForPreview>यो पूर्वावलोकन वा डाउनलोड गर्न डबल ट्याप गर्नुहोस् चयन गर्न फाइल मा एकल ट्याप गर्नुहोस्। यसलाई खोल्न फोल्डर मा एकल ट्याप गर्नुहोस्।</MobileToolTipsDoubleTapForPreview>
+  <MobileToolTipsPullDownToRefresh>यो सामग्रीले पुन: लोड गर्न सूची तल तान्नुहोस्।</MobileToolTipsPullDownToRefresh>
+  <MobileToolTipsPinchToScale>तपाईं जूम-इन गर्न र जूम-बाहिर तस्बिरहरू 'पिन्च' इशारा प्रयोग गर्न सक्नुहुन्छ।</MobileToolTipsPinchToScale>
+  <MobileToolTipsTapToHideBars>उपकरणपट्टी टगल छवि प्यानल ठाउँमा ट्याप गर्नुहोस्।</MobileToolTipsTapToHideBars>
+  <MobileToolTipsSlideLeftRightToNext>स्लाइड इशारा साथ तस्बिरहरू स्विच गर्नुहोस्।</MobileToolTipsSlideLeftRightToNext>
+
+  <DownloadToCloudMobileTip>फोल्डर, यसलाई खोल्न डबल ट्याप गर्नुहोस् चयन गर्न एकल ट्याप गर्नुहोस्।</DownloadToCloudMobileTip>
+  
+  <UploadTotalMaxSizeMessage>नोट! सबै अपलोड गरिएका फाइलहरू अधिकतम आकार भन्दा बढी हुँदैन {0}।</UploadTotalMaxSizeMessage>
+  <UploadOneFileMaxSizeMessage>नोट! प्रत्येक अपलोड गरिएको फाइल अधिकतम आकार भन्दा बढी हुँदैन {0}।</UploadOneFileMaxSizeMessage>
+  <UploadUnlimitedSizeMessage>नोट! अपलोड गरिएका फाइलहरू को आकार असीमित छ।</UploadUnlimitedSizeMessage>
+  <SimpleUploadSetFileNameNote>नोट 2! फाइल चयन भएपछि तपाईं फाइल अपलोड पछि हुनेछ भनेर नाम परिमार्जन गर्न सक्नुहुन्छ</SimpleUploadSetFileNameNote>
+
+  <AnonymousUploadTitle>यो फोल्डरमा फाइलहरू अपलोड गर्नुहोस्</AnonymousUploadTitle>
+  <AnonymousUploadDescription>तपाईंले यो फोल्डरमा फाइल अपलोड गर्न सक्नुहुन्छ। तल "ब्राउज" बटन क्लिक गर्नुहोस् र फाइलहरू चयन गर्नुहोस्।</AnonymousUploadDescription>
+  <AnonymousUploadOverwriteHint>अपलोड गरिएको फाइल पहिले नै अवस्थित छ भने, यो प्रतिस्थापन गरिनेछ।</AnonymousUploadOverwriteHint>
+  <AnonymousUploadShowUploadHint>अपलोड फारम शो</AnonymousUploadShowUploadHint>
+  <AnonymousUploadHideUploadHint>अपलोड फारम लुकाउनुहोस्</AnonymousUploadHideUploadHint>
+  <AnonymousUploadNewFolderNameHint>खेतमा तलका (फोल्डर सिर्जना गरिने यदि यो अवस्थित छैन) जो फाइल अपलोड गरिने एक उपनिर्देशिका नाम निर्दिष्ट गर्न सक्नुहुन्छ:</AnonymousUploadNewFolderNameHint>
+  <AnonymousUploadCompleteTitle>फोल्डर अपलोड {0} पूरा</AnonymousUploadCompleteTitle>
+  <AnonymousUploadExistsFilesMessage>निम्न फाइल (हरू) अपलोड गरिएको छैन किनभने फाइल (हरू) नै नाम (s) पहिले नै अवस्थित: {0}।</AnonymousUploadExistsFilesMessage>
+  <AnonymousUploadOwnersNote>फोल्डर मालिकबाट नोट</AnonymousUploadOwnersNote>
+  <AnonymousDownloadPageTitle>डाउनलोड फाइल</AnonymousDownloadPageTitle>
+  <AnonymousDownloadFileHint>डाउनलोड फाइल</AnonymousDownloadFileHint>
+  <AnonymousUploadPageTitle>फोल्डरमा अपलोड गर्नुहोस्</AnonymousUploadPageTitle>
+  <AnonymousPublicFolderPageTitle>सार्वजनिक फोल्डर</AnonymousPublicFolderPageTitle>
+  <AnonymousLoginAccessUserFailure>तपाईं स्रोत पहुँच छैन भनेर खाता लग इन हुनुहुन्छ। आफ्नो पहुँचका लागि अन्य प्रमाणहरू प्रविष्ट गर्नुहोस्। यदि तपाईंले तिनीहरूलाई थाहा छैन, कृपया एक सार्वजनिक लिङ्क वा आफ्नो प्रशासक मालिक सम्पर्क गर्नुहोस्।</AnonymousLoginAccessUserFailure>
+  <ProgressGettingAnonymLink>सार्वजनिक लिङ्क सिर्जना</ProgressGettingAnonymLink>
+  <ProgressGettingAnonymLinks>अज्ञात लिंक प्राप्त</ProgressGettingAnonymLinks>
+  <ProgressGettingBoxViewLink>बक्स हेर्नुहोस् लिंक प्राप्त</ProgressGettingBoxViewLink>
+  <AutodeskScriptNotIncludedMessage>Autodesk दर्शक लिपि लोड गर्न सकेन</AutodeskScriptNotIncludedMessage>
+  <ProgressUninitializeAutodeskViewer>Autodesk दर्शक बन्द</ProgressUninitializeAutodeskViewer>
+  <ProgressGettingAutodeskViewLink>Autodesk हेर्नुहोस् जानकारी प्राप्त</ProgressGettingAutodeskViewLink>
+  <AnonymousChangeLanguageHint>भाषा चुन्नुहोस</AnonymousChangeLanguageHint>
+  <AnonymousUpLinkHint>अभिभावक फोल्डर फर्कन</AnonymousUpLinkHint>
+  <AnonymousPasswordDescription>फोल्डर पासवर्ड सुरक्षित छ</AnonymousPasswordDescription>
+  <AnonymousPasswordIncorrectMessage>पासवर्ड गलत छ</AnonymousPasswordIncorrectMessage>
+  <AnonymousErrorTitle>सार्वजनिक लिंक त्रुटि</AnonymousErrorTitle>
+  <AnonymousErrorNotFound>सार्वजनिक लिङ्क "{0}" फेला परेन!</AnonymousErrorNotFound>
+  <AnonymousErrorAccessDenied>तपाईं सार्वजनिक लिंक प्रयोग गर्न अनुमति छैन "{0}"</AnonymousErrorAccessDenied>
+  <AnonymousErrorFileNotFound>सार्वजनिक लिंक "{0}" एक गैर-विद्यमान फाइल बुझाउँछ वा फोल्डर वा NTFS पढ्न पहुँच अस्वीकार</AnonymousErrorFileNotFound>
+  <AnonymousErrorUnknownLinkType>सार्वजनिक लिंक "{0}" फेला परेन</AnonymousErrorUnknownLinkType>
+  <AnonymousSendEmailSubject>सार्वजनिक फोल्डर को पर्यटकहरू गतिविधि</AnonymousSendEmailSubject>
+  <AnonymousSendEmailUploadBody>निम्न फाइलहरू सार्वजनिक फोल्डरमा अपलोड थिए {0}: {1}।</AnonymousSendEmailUploadBody>
+  <AnonymousSendEmailDownloadBody>फाइल {0} सार्वजनिक फोल्डर {1} डाउनलोड गरिएको थियो।</AnonymousSendEmailDownloadBody>
+  <AnonymousSendEmailZipDownloadBody>सार्वजनिक फोल्डर {0} को सारा सामग्री एक जिप संग्रह डाउनलोड थियो।</AnonymousSendEmailZipDownloadBody>
+  <AnonymousViewLinksButton>लिंक हेर्नुहोस्</AnonymousViewLinksButton>
+  <AnonymousViewLinksHint>अवस्थित सार्वजनिक लिंक हेर्न</AnonymousViewLinksHint>
+  <AnonymousViewLinksWindowTitle>सार्वजनिक लिंक</AnonymousViewLinksWindowTitle>
+  <AnonymousViewLinksDateCreatedColumn>सिर्जना मिति</AnonymousViewLinksDateCreatedColumn>
+  <AnonymousViewLinksDateExpiredColumn>म्याद समाप्त हुने मिति</AnonymousViewLinksDateExpiredColumn>
+  <AnonymousViewLinksPermissionColumn>अनुमति</AnonymousViewLinksPermissionColumn>
+  <AnonymousViewLinksDownloadedColumn>बाँकी डाउनलोड संख्या</AnonymousViewLinksDownloadedColumn>
+  <ProgressDeletingAnonymousLink>सार्वजनिक लिंक मेटाउँदै</ProgressDeletingAnonymousLink>
+  <ProgressSavingAnonymousLink>सार्वजनिक लिंक सुरक्षित</ProgressSavingAnonymousLink>
+  <AnonymousEditLinkWindowTitle>को लागि सार्वजनिक लिंक सम्पादन "{0}"</AnonymousEditLinkWindowTitle>
+  <AnonymousEditLinkShowUrl>लिंक शो</AnonymousEditLinkShowUrl>
+  <AnonymousEditLinkNotFound>सार्वजनिक लिंक पाइन्छ वा वैधता यसको अवधि समाप्त भएको छ</AnonymousEditLinkNotFound>
+
+  <AnonymousLinkSendViaButton>मार्फत पठाउन ...</AnonymousLinkSendViaButton>
+  <AnonymousLinkSendViaEmailItem>इमेल ...</AnonymousLinkSendViaEmailItem>
+  <AnonymousLinkSendButton>इमेल मार्फत पठाउन ...</AnonymousLinkSendButton>
+  <AnonymousLinkSendSubject>वेब फाइल प्रबन्धक सार्वजनिक लिंक</AnonymousLinkSendSubject>
+
+  <AnonymousLinkAdvOptTitle>थपपरिमिति</AnonymousLinkAdvOptTitle>
+  <AnonymousLinkViewTypeButton>लिंक दृश्य</AnonymousLinkViewTypeButton>
+  <AnonymousLinkViewTypeDefault>पूर्ण</AnonymousLinkViewTypeDefault>
+  <AnonymousLinkViewTypeShort>कम</AnonymousLinkViewTypeShort>
+
+  <AnonymousLinkShowCommentsLabel>वर्णन, लेबल र टिप्पणीहरू देखाउन</AnonymousLinkShowCommentsLabel>
+  <AnonymousLinkShowCommentsShort>टिप्पणी शो</AnonymousLinkShowCommentsShort>
+
+  <QRCodeButton>QR कोड</QRCodeButton>
+
+  <AnonymousLinkLimitedAccessTitle>सीमित पहुँच</AnonymousLinkLimitedAccessTitle>
+  <AnonymousLinkLimitAccessCheckBox>मात्र निर्दिष्ट प्रमाणित प्रयोगकर्तालाई पहुँच सीमित</AnonymousLinkLimitAccessCheckBox>
+  <AnonymousLinkLimitAccessTextArea>प्रयोगकर्ता नाम वा इमेल (अल्पविराम विभाजित) टाइप गर्नुहोस्</AnonymousLinkLimitAccessTextArea>
+  <AnonymousLinkLimitAccessSendCheckBox>निर्दिष्ट प्रयोगकर्ताहरूलाई सूचना पठाउनुहोस्</AnonymousLinkLimitAccessSendCheckBox>
+  <AnonymousLinkLimitAccessPersMsgLabel>व्यक्तिगत सन्देश (वैकल्पिक)</AnonymousLinkLimitAccessPersMsgLabel>
+  <AnonymousLinkLimitAccessPassAndUsersMsg>तपाईं लिंक पहुँच गर्न एकै समयमा आफ्नो पासवर्ड र प्रयोगकर्ता निर्दिष्ट गरेका छन्। कृपया एक केहि निर्दिष्ट गर्नुहोस्।</AnonymousLinkLimitAccessPassAndUsersMsg>
+  <AnonymousLinkLimitAccessUsersNotFound>प्रयोगकर्ता:
+    {0}
+    अवस्थित छैन</AnonymousLinkLimitAccessUsersNotFound>
+  <AnonymousLinkLimitAccessEmailsNotFound>ईमेल:
+    {0}
+    अवस्थित छैन</AnonymousLinkLimitAccessEmailsNotFound>
+  <AnonymousLinkLimitAccessUsersEmailsNotFound>प्रयोगकर्ता:
+    {0}
+    र इमेल:
+    {1}
+    अवस्थित छैन</AnonymousLinkLimitAccessUsersEmailsNotFound>
+
+  <AnonymousLinkUnableToCreate>अज्ञात लिङ्क सिर्जना गर्न असमर्थ</AnonymousLinkUnableToCreate>
+  <AnonymousLinkShortUrlLabel>ताजा प्रतिमा (तल दायाँ मा) क्लिक गर्नुहोस् छोटो लिंक प्राप्त गर्न</AnonymousLinkShortUrlLabel>
+  <AnonymousLinkShortUrlUpdate>प्राप्त वा छोटो लिंक अद्यावधिक</AnonymousLinkShortUrlUpdate>
+  <AnonymousLinkLongUrlNotSpecified>लामो URL निर्दिष्ट गरिएको छैन</AnonymousLinkLongUrlNotSpecified>
+
+  <ClientFileOrDirectoryAlreadyExists>फाइल वा निर्देशिका यो नामको पहिले नै अवस्थित</ClientFileOrDirectoryAlreadyExists>
+  <ClientPermissionsAllowTypes>वर्तमान अनुमति यो कार्य अनुमति मात्र निम्न फाइल प्रकार संग {0}</ClientPermissionsAllowTypes>
+  <ClientPermissionsDenyTypes>वर्तमान अनुमति निम्न फाइल प्रकार यो कार्य निषेध {0}</ClientPermissionsDenyTypes>
+  <OfficeApplicationNotFoundAlert>कार्यालय आवेदन फेला परेन। फाइल म्यानुअल पाठ बक्स मा एक लिंक प्रयोग गरेर खोल्नुहोस्।</OfficeApplicationNotFoundAlert>
+  <OfficeAnonymousEditPublicLinkError>अज्ञात खुला कार्यालय कागजात सार्वजनिक लिङ्क सिर्जना गर्न असमर्थ।</OfficeAnonymousEditPublicLinkError>
+
+  <GoogleOWAViewLinkMessage>कागजात हेर्न क्लिक गर्नुहोस् तलको लिंक:</GoogleOWAViewLinkMessage>
+  <ZohoEditLinkMessage>तल कागजात क्लिक लिंक सम्पादन गर्न:</ZohoEditLinkMessage>
+  <PixlrEditLinkMessage>तल छवि क्लिक लिंक सम्पादन गर्न:</PixlrEditLinkMessage>
+  <PixlrNewImageCreateTitle>Pixlr एउटा नयाँ छवि बनाउन</PixlrNewImageCreateTitle>
+  <PixlrNewImageLinkMessage>नयाँ छवि सिर्जना गर्न, तलको लिंकमा क्लिक गर्नुहोस्:</PixlrNewImageLinkMessage>
+
+  <DownloadTitle>धेरै फाइलहरू डाउनलोड</DownloadTitle>
+  <DownloadSimpleTab>मानक</DownloadSimpleTab>
+  <DownloadJavaTab>java</DownloadJavaTab>
+  <DownloadIEPrevent>इन्टरनेट एक्सप्लोरर स्वचालित डाउनलोड रोक्छ</DownloadIEPrevent>
+  <DownloadIEClickHere>डाउनलोड गर्न यहाँ क्लिक गर्नुहोस्</DownloadIEClickHere>
+  <DownloadIEArchiveReady>अभिलेख "{0}" चयन गरिएका फाइलहरू सिर्जना र डाउनलोड लागि तयार छ थियो</DownloadIEArchiveReady>
+  <DownloadIECaption>डाउनलोड तयार छ</DownloadIECaption>
+
+  <SettingsTitle>सेटिङ</SettingsTitle>
+  <SettingsLanguage>भाषा</SettingsLanguage>
+  <SettingsLogOutRequired>नयाँ परिवर्तनहरू लगआउट वा ब्राउजर पुन: सुरु गरेपछि लागू गरिनेछ!</SettingsLogOutRequired>
+  <ThemeTitle>विषयवस्तु परिवर्तन</ThemeTitle>
+  <SettingsTheme>विषयवस्तु रोज्न</SettingsTheme>
+  <ThemeDefaultTitle>पूर्वनिर्धारित विषय</ThemeDefaultTitle>
+  <ThemeGrayTitle>खैरो विषय</ThemeGrayTitle>
+  <ThemeAccessTitle>पहुँच विषय</ThemeAccessTitle>
+
+  <ChangeUserPasswordTitle>प्रयोगकर्ता पासवर्ड परिवर्तन</ChangeUserPasswordTitle>
+  <ChangeUserPasswordOldPassword>पुरानो पासवर्ड</ChangeUserPasswordOldPassword>
+  <ChangeUserPasswordNewPassword>नया पासवर्ड</ChangeUserPasswordNewPassword>
+  <ChangeUserPasswordRepeatNewPassword>दोहोरिने नयाँ पासवर्ड</ChangeUserPasswordRepeatNewPassword>
+  <ChangeUserPasswordPasswordsNotMatch>पासवर्ड मेल खाँदैन।</ChangeUserPasswordPasswordsNotMatch>
+  <ChangeUserPasswordSuccessMessage>पासवर्ड परिवर्तन गरिएको छ।</ChangeUserPasswordSuccessMessage>
+  <ChangeUserPasswordInvalidMessage>अवैध पासवर्ड।</ChangeUserPasswordInvalidMessage>
+
+  <ChangeUserEmailTitle>प्रयोगकर्ता परिवर्तन ई-मेल</ChangeUserEmailTitle>
+  <ChangeUserEmailEmail>ई-मेल</ChangeUserEmailEmail>
+  <ChangeUserEmailSuccessMessage>ई-मेल परिवर्तन गरिएको छ।</ChangeUserEmailSuccessMessage>
+
+  <UserHelpTitle>प्रयोगकर्ता सहयोग</UserHelpTitle>
+
+  <LicenseTitle>लाइसेन्स जानकारी</LicenseTitle>
+  <LicenseTrial>दर्ता 30-दिन मूल्यांकन संस्करण</LicenseTrial>
+  <LicensePrompt>लाइसेन्स प्राप्त संस्करण {0} प्रयोगकर्ता गणना: {1} {0} खरिद मिति: {2} {0}</LicensePrompt>
+  <LicenseFreeUpgradeMessage>तपाईं अझै पनि {0} मुक्त उन्नयन र समर्थन दिन छ।</LicenseFreeUpgradeMessage>
+  <LicenseCheckMessage>एक वर्ष भन्दा बढी खरिद को मिति देखि पारित गरेको छ। यो संस्करण प्रयोग गर्न तपाईं पुरानो संस्करणमा आफ्नो सदस्यता वा डाउनग्रेड नविकरण गर्नुपर्छ। तपाईं आफ्नो लाइसेन्स जाँच र उपलब्ध &lt;a href='{0}' target='_blank'&gt; चेक लाइसेन्स पृष्ठ &lt;/a&gt; मा विज्ञप्ति पाउन सक्नुहुन्छ</LicenseCheckMessage>
+  
+  <ViewPopupBlocked>नयाँ विन्डो पपअप ब्लकर द्वारा अवरुद्ध गरिएको छ</ViewPopupBlocked>
+  
+  <LoginTwoFactorTitle>दुई-चरण प्रमाणिकरण</LoginTwoFactorTitle>
+  <LoginTitle>लग - इन</LoginTitle>
+  <LoginRemember>मलाई अर्को समय सम्झना</LoginRemember>
+  <LoginUISelect>इन्टरफेस</LoginUISelect>
+  <LoginUIStandard>मानक</LoginUIStandard>
+  <LoginUITouch>मोबाइल</LoginUITouch>
+  <LoginLanguage>भाषा</LoginLanguage>
+  <LoginLogin>लग - इन</LoginLogin>
+  <LoginFailure>तपाईंको लग इन प्रयास सफल भएन।</LoginFailure>
+  <LoginBlocked>खाता रोकिएको छ। {0} मिनेट फेरि प्रयास गर्न लागि प्रतीक्षा गर्नुहोस्।</LoginBlocked>
+  <LoginNotActivated>तपाईंको खाता सक्रिय छैन।</LoginNotActivated>
+  <LoginResendActivation>सक्रियता कोड सन्देश लामो समय को लागि प्राप्त छैन भने, सक्रियता कोड पुन: पठाउनुहोस् मा {0} लिंक क्लिक गर्नुहोस्।</LoginResendActivation>
+  <LoginResendActivationLink>सक्रियता कोड पठाउन</LoginResendActivationLink>
+  <LoginResendActivationCode>सक्रियता कोड पुन: पठाउनुहोस् मा {0} लिंक क्लिक गर्नुहोस्।</LoginResendActivationCode>
+  
+  <ActivateAccountOk>खाता सफलतापूर्वक सक्रिय!</ActivateAccountOk>
+  <ActivateAccountResultLabel>सक्रिय परिणाम</ActivateAccountResultLabel>
+  <ActivateAccountErrorOnlyFormsAuth>खाता सक्रियता मात्र फाराम प्रमाणीकरण प्रयोग गर्न सकिएन</ActivateAccountErrorOnlyFormsAuth>
+  <ActivateAccountErrorNotRequired>खाता सक्रियता आवेदन सेटिङहरू अक्षम छ। खाता स्वतः दर्ता पछि सक्रिय छ।</ActivateAccountErrorNotRequired>
+  <ActivateAccountErrorAlreadyActivated>खाता पहिले नै सक्रिय</ActivateAccountErrorAlreadyActivated>
+  <ActivateAccountErrorInvalidCode>सक्रिय कोड मान्य छैन</ActivateAccountErrorInvalidCode>
+  <ActivateAccountErrorAccountNotFound>खाता फेला परेन</ActivateAccountErrorAccountNotFound>
+  <ActivateAccountErrorLinkBroken>सक्रिय लिंक भङ्ग छ</ActivateAccountErrorLinkBroken>
+  <ActivateAccountReturnToLogin>पृष्ठ लगिन फर्कन</ActivateAccountReturnToLogin>
+  
+  <LoginRender>प्रस्तुत</LoginRender>
+  
+  <LogoutTitle>वेब फाइल प्रबन्धक लगआउट</LogoutTitle>
+  <LogoutSessionEnded>वर्तमान सत्र समाप्त भएको छ</LogoutSessionEnded>
+  <LogoutCloseWindow>झ्याल बन्द गर</LogoutCloseWindow>
+  <LogoutEnterAgain>फेरि लग</LogoutEnterAgain>
+  <LogoutClosingBrowserRequired>ध्यान! कुनै को आफ्नो खाता अन्तर्गत प्रवेश गर्न सक्नुहुन्छ! तपाईं एक साझेदारी कम्प्युटर प्रयोग गर्दै हुनुहुन्छ भने, त्यसपछि तपाईं आफ्नो ब्राउजरमा प्रमाणीकरण खाली गर्न तपाईँको ब्राउजर विन्डो (केवल ट्याब) बन्द गर्नुपर्छ! फायरफक्स ब्राउजर लागि तपाईं मेनु मा प्रमाणीकरण खाली गर्न सक्नुहुन्छ: Tools-&gt; खाली रिसाए इतिहास ...-&gt; Details-&gt; अब जाँच सक्रिय Logins-&gt; प्रेस खाली गर्नुहोस्।</LogoutClosingBrowserRequired>
+  <RecoverPasswordTitle>पासवर्ड पुन: प्राप्त</RecoverPasswordTitle>
+  <RecoverPasswordEmailPassword>इमेल मार्फत पासवर्ड पठाउन</RecoverPasswordEmailPassword>
+  <RecoverPasswordErrorInvalidUserName>अवैध प्रयोगकर्ता नाम।</RecoverPasswordErrorInvalidUserName>
+  <RecoverPasswordErrorNoEmail>यो प्रयोगकर्ता परिभाषित कुनै पनि इमेल ठेगाना छ।</RecoverPasswordErrorNoEmail>
+  <RecoverPasswordErrorSendEmail>आफ्नो इमेल पठाउने बेला एउटा त्रुटि देखापर्यो।</RecoverPasswordErrorSendEmail>
+  <RecoverPasswordSuccess>आफ्नो पासवर्ड आफ्नो इमेल ठेगाना पठाइएको छ।</RecoverPasswordSuccess>
+
+  <RecoverUserNameTitle>नाम पुन: प्राप्त</RecoverUserNameTitle>
+  <RecoverUserEmailName>इमेल मार्फत नाम पठाउन</RecoverUserEmailName>
+  <RecoverUserNameErrorInvalidEmail>अवैध प्रयोगकर्ता इमेल।</RecoverUserNameErrorInvalidEmail>
+  <RecoverUserNameErrorNoEmail>इमेल ठेगाना फेला परेन।</RecoverUserNameErrorNoEmail>
+  <RecoverUserNameSuccess>तपाईंको नाम तपाईंको इमेल ठेगाना पठाइएको छ।</RecoverUserNameSuccess>
+
+  <ChangeEmailTitle>इ-मेल परिवर्तन</ChangeEmailTitle>
+  <ChangeEmailEmail>नयाँ इमेल</ChangeEmailEmail>
+  <ChangeEmailSubmit>पेश</ChangeEmailSubmit>
+  <ChangeEmailStatusSuccess>इमेल परिवर्तन गरिएको छ</ChangeEmailStatusSuccess>
+
+  <RegisterTitle>पंजीकरण</RegisterTitle>
+  <RegisterEmail>इमेल</RegisterEmail>
+  <RegisterExtraInfo>अतिरिक्त जानकारी</RegisterExtraInfo>
+  <RegisterCaptcha>तपाईं तल छविमा हेर्न पाठ प्रविष्ट गर्नुहोस्</RegisterCaptcha>
+  <RegisterSubmit>पेश</RegisterSubmit>
+  <RegisterErrorPasswordNotMatch>पासवर्ड मेल खाँदैन।</RegisterErrorPasswordNotMatch>
+  <RegisterErrorUserExists>यो प्रयोगकर्ता नाम वा इमेल ठेगाना पहिले नै प्रयोग गरिएको छ।</RegisterErrorUserExists>
+  <RegisterErrorCaptchaInvalid>छवि पाठ सही तरिकाले प्रविष्ट थिएन</RegisterErrorCaptchaInvalid>
+  <RegisterSuccess>नयाँ प्रयोगकर्ता थपिएको छ।</RegisterSuccess>
+  <RegisterActivationSent>सक्रिय कोड तपाईंको इमेल पठाइएको थियो।</RegisterActivationSent>
+  <RegisterActivationCheckEmail>आफ्नो मेल बक्स (विशेष जंक फोल्डर) जाँच र इमेल मा निर्देशन पालन गर्नुहोस्।</RegisterActivationCheckEmail>
+  
+  <FolderGridUserPermissionsColumn>प्रयोगकर्ताका लागि पहुँच</FolderGridUserPermissionsColumn>
+  <FolderGridGroupPermissionsColumn>समूह लागि पहुँच</FolderGridGroupPermissionsColumn>
+
+  <LoginLinkText>लग - इन</LoginLinkText>
+  <RecoverPasswordLinkText>पासवर्ड भुल्नु भयो?</RecoverPasswordLinkText>
+  <RecoverUserNameLinkText>नाम भूल गए?</RecoverUserNameLinkText>
+  <RegisterLinkText>पंजीकरण</RegisterLinkText>
+  <ChangeEmail>इ-मेल परिवर्तन</ChangeEmail>
+  <LoginMobileVersionLinkText>मोबाइल संस्करण (सबैभन्दा स्मार्टफोन र Touchpads)</LoginMobileVersionLinkText>
+
+  <FileIsNotZipArchive>फाइल {0} जिप संग्रह छैन</FileIsNotZipArchive>
+
+  <FileModificationsAuthor>लेखक</FileModificationsAuthor>
+  <FileModificationsHistory>इतिहास हेर्नुहोस्</FileModificationsHistory>
+  <FileModificationsWindowTitle>फाइल को संशोधन, "{0}"</FileModificationsWindowTitle>
+  <FileModificationsTypeCreated>सिर्जना</FileModificationsTypeCreated>
+  <FileModificationsTypeModified>संशोधित</FileModificationsTypeModified>
+  <FileModificationsTypeRenamed>पुन: नामाकरण गरियो</FileModificationsTypeRenamed>
+  <FileModificationsTypeRestored>पुनःस्थापित</FileModificationsTypeRestored>
+  <FileModificationsTypeDeleted>मेटिएको</FileModificationsTypeDeleted>
+
+  <ChangingReadOnlyProgressMessage>पढ्न मात्र विशेषता परिवर्तन</ChangingReadOnlyProgressMessage>
+
+  <ImageViewerWindowTitle>छवि दर्शक [{0}]</ImageViewerWindowTitle>
+  <ImageViewerLoadingMessage>छवि दर्शक लोड</ImageViewerLoadingMessage>
+  <ImageViewerLoadingImageMessage>छवि लोड</ImageViewerLoadingImageMessage>
+  <ImageViewerFirstImageTip>पहिलो छवि</ImageViewerFirstImageTip>
+  <ImageViewerPreviousImageTip>अघिल्लो छवि</ImageViewerPreviousImageTip>
+  <ImageViewerRefreshTip>ताजा तस्बिरहरू सूची</ImageViewerRefreshTip>
+  <ImageViewerNextImageTip>अर्को छवि</ImageViewerNextImageTip>
+  <ImageViewerLastImageTip>पछिल्लो तस्बिर</ImageViewerLastImageTip>
+  <ImageViewerRunSlideShow>चालु तस्बिरहरू शो स्लाइड</ImageViewerRunSlideShow>
+  <ImageViewerStopSlideShow>तस्बिरहरू स्लाइड शो बन्द</ImageViewerStopSlideShow>
+  <ImageViewerImageSimpleInfo>{0} / {1} {2} ({3})</ImageViewerImageSimpleInfo>
+  <ImageViewerImageLoadErrorMessage>छवि फेला परेन वा प्रदर्शित गर्न सकिँदैन</ImageViewerImageLoadErrorMessage>
+  <ImageViewerShowImageSizeOfWindow>वास्तविक आकार संग छवि शो</ImageViewerShowImageSizeOfWindow>
+  <ImageViewerShowRealImageSize>ओं</ImageViewerShowRealImageSize>
+
+  <PasswordExpiresTitle>पासवर्ड समाप्त हुन्छ</PasswordExpiresTitle>
+  <PasswordExpiresMessage>आफ्नो पासवर्ड पछि {0} दिन (हरू) समाप्त हुन्छ!</PasswordExpiresMessage>
+  <PasswordExpiredMessage>आफ्नो पासवर्ड समाप्त भयो।</PasswordExpiredMessage>
+  <PasswordChangeMessage>पासवर्ड परिवर्तन गर्न, चयन गर्नुहोस् {0} {1} -&gt; {2} {3} उपकरणपट्टी मा।</PasswordChangeMessage>
+
+  <UnzipContentTotalFiles>कुल फाइलहरू: {0} ({1})</UnzipContentTotalFiles>
+
+  <VideoConversionJobNotFound>
+    असमर्थ निर्दिष्ट रूपान्तरण प्रक्रिया पाउँछौं।
+    सम्भावित कारण:
+    1 रूपान्तरण पहिले लामो समय पूरा र यो काम बारे जानकारी हटाइएको थियो।
+    2 रूपान्तरण प्रक्रिया असामान्य समाप्त।
+  </VideoConversionJobNotFound>
+  <VideoConversionUtilityNotFound>असमर्थ फेला उपयोगिता अनुरोध कार्य गर्न: {0}</VideoConversionUtilityNotFound>
+  <!-- The current security principal "{0}" has insufficiant permissions to executable file "{1}".-->
+  <VideoConversionUtilityInsufficientPermissions>वर्तमान प्रयोगकर्ता कार्यान्वयनयोग्य फाइल पहुँच "{0}" अस्वीकार "{1}"।</VideoConversionUtilityInsufficientPermissions>
+  <VideoConversionOperationCancelled>सञ्चालन रद्द</VideoConversionOperationCancelled>
+  <VideoConversionUtilityFailed>रूपान्तरण उपयोगिता असामान्य बर्खास्त</VideoConversionUtilityFailed>
+  <VideoConversionOutputFileBusy>उत्पादन फाइल अर्को रूपान्तरण प्रक्रिया द्वारा प्रयोग भइरहेको छ</VideoConversionOutputFileBusy>
+
+  <VideoConvertWindowValidatorPositiveInt>सकारात्मक पूर्णांक हुनुपर्छ</VideoConvertWindowValidatorPositiveInt>
+  <VideoConvertWindowTitle>भिडियो रूपान्तरण</VideoConvertWindowTitle>
+  <VideoConvertWindowInputFile>इनपुट फाइल</VideoConvertWindowInputFile>
+  <VideoConvertWindowOutputFile>उत्पादन फाइल</VideoConvertWindowOutputFile>
+  <VideoConvertWindowOutputFormat>उत्पादन ढाँचा</VideoConvertWindowOutputFormat>
+  <VideoConvertWindowBitrate>बिटरेट (केबीपीएस)</VideoConvertWindowBitrate>
+  <VideoConvertWindowFrameResolution>फ्रेम संकल्प</VideoConvertWindowFrameResolution>
+  <VideoConvertWindowDAR>अनुपात प्रदर्शन</VideoConvertWindowDAR>
+  <VideoConvertWindowPAR>पिक्सेल अनुपात</VideoConvertWindowPAR>
+  <VideoConvertWindowResize>रिसाइज गर्नुहोस्</VideoConvertWindowResize>
+  <VideoConvertWindowProfile>प्रोफाइल</VideoConvertWindowProfile>
+  <VideoConvertWindowWidth>चौडाइ</VideoConvertWindowWidth>
+  <VideoConvertWindowHeight>उचाइ</VideoConvertWindowHeight>
+  <VideoConvertWindowExtractDetailsProgressMsg>भिडियो विवरण निकाल्दा</VideoConvertWindowExtractDetailsProgressMsg>
+  <VideoConvertWindowOutputFileExistsTitle>उत्पादन फाइल अवस्थित</VideoConvertWindowOutputFileExistsTitle>
+  <VideoConvertWindowOutputFileExistsMsg>उत्पादन फाइल पहिल्यै अवस्थित छ। यो अधिलेखन हुनेछ।</VideoConvertWindowOutputFileExistsMsg>
+  <VideoConvertWindowPrepareToConvert>भिडियो रूपान्तरण गर्न तयारी</VideoConvertWindowPrepareToConvert>
+  <VideoConvertWindowOutputFileMatchInputFile>उत्पादन फाइल नाम इनपुट फाइल नाम मेल खान्छ</VideoConvertWindowOutputFileMatchInputFile>
+
+  <VideoConvertProgressWindowTitle>भिडियो रूपान्तरण</VideoConvertProgressWindowTitle>
+  <VideoConvertProgressWindowInputFile>इनपुट फाइल</VideoConvertProgressWindowInputFile>
+  <VideoConvertProgressWindowOutputFile>उत्पादन फाइल</VideoConvertProgressWindowOutputFile>
+  <VideoConvertProgressWindowStatus>स्थिति</VideoConvertProgressWindowStatus>
+  <VideoConvertProgressWindowStatusTerminating>समाप्त</VideoConvertProgressWindowStatusTerminating>
+  <VideoConvertProgressWindowStatusPreparing>तयारी</VideoConvertProgressWindowStatusPreparing>
+  <VideoConvertProgressWindowStatusProgress>चरण {0} को {1}</VideoConvertProgressWindowStatusProgress>
+  <VideoConvertProgressWindowStatusDone>सम्पन्न</VideoConvertProgressWindowStatusDone>
+
+  <PlayHtml5VideoNotSupported>तपाईंको ब्राउजरले HTML 5 भिडियो तत्व समर्थन गर्दैन।</PlayHtml5VideoNotSupported>
+  <PlayHtml5VideoPlayFailed>प्ले भिडियो असफल</PlayHtml5VideoPlayFailed>
+  <PlayHtml5AudioPlayFailed>प्ले अडियो असफल</PlayHtml5AudioPlayFailed>
+  <PlayHtml5AudioTitle>शीर्षक</PlayHtml5AudioTitle>
+  <PlayHtml5AudioNotSupported>तपाईंको ब्राउजरले HTML 5 अडियो तत्व समर्थन गर्दैन।</PlayHtml5AudioNotSupported>
+  <PlayHtml5AudioArtist>कलाकार</PlayHtml5AudioArtist>
+  <PlayHtml5AudioAlbum>एल्बम</PlayHtml5AudioAlbum>
+  <PlayHtml5AudioYear>वर्ष</PlayHtml5AudioYear>
+  <PlayHtml5AudioDuration>अवधि</PlayHtml5AudioDuration>
+  <PlayHtml5AudioBitrate>बिटरेट</PlayHtml5AudioBitrate>
+  <PlayHtml5AudioVolume>मात्रा</PlayHtml5AudioVolume>
+
+  <!-- Root title -->
+  <RootTitle>मूल</RootTitle>
+
+  <!-- Recent feature keys -->
+  <RecentRootTitle>हाल</RecentRootTitle>
+  <RecentDeleteOnePrompt>के तपाईं पक्का "{0}" आफ्नो हालको वस्तुहरू मेट्न चाहनुहुन्छ?</RecentDeleteOnePrompt>
+  <RecentDeleteManyPrompt>के तपाईं आफ्नो हाल वस्तुहरू यी {0} वस्तुहरू मेट्न चाहनुहुन्छ?</RecentDeleteManyPrompt>
+  <RecentPathNotExist>हाल बाटो "{0}" अवस्थित छैन वा पहुँच अस्वीकार</RecentPathNotExist>
+  <RecentAllWithoutGroupingTitle>W सबै समूहन / ओ</RecentAllWithoutGroupingTitle>
+  <RecentEditGroupTitle>सम्पादन</RecentEditGroupTitle>
+  <RecentViewGroupTitle>हेरिएको</RecentViewGroupTitle>
+  <RecentDownloadGroupTitle>डाउनलोड</RecentDownloadGroupTitle>
+  <RecentUploadGroupTitle>अपलोड</RecentUploadGroupTitle>
+  <RecentCreateGroupTitle>सिर्जना</RecentCreateGroupTitle>
+
+  <!-- Trash feature keys -->
+  <TrashRootTitle>रद्दीटोकरीमा</TrashRootTitle>
+  <TrashLabelDateDeleted>मिति मेटिएको</TrashLabelDateDeleted>
+  <TrashDeleteOnePrompt>तपाईं रद्दीबाट तपाईं स्थायी रूपमा मेट्न निश्चित "{0}" हुनुहुन्छ?</TrashDeleteOnePrompt>
+  <TrashDeleteManyPrompt>के तपाईं स्थायी रद्दीटोकरीमा यी {0} वस्तुहरू मेट्न चाहनुहुन्छ?</TrashDeleteManyPrompt>
+  <TrashEmptyTrashLabel>रद्दीटोकरी खाली</TrashEmptyTrashLabel>
+  <TrashRestoreSelectedLabel>पुनर्स्थापना</TrashRestoreSelectedLabel>
+  <TrashRestoreAllLabel>सबै बहाल</TrashRestoreAllLabel>
+  <TrashEmptyTrashPrompt>तपाईं रद्दीटोकरी खाली गर्न चाहनुहुन्छ निश्चित हुनुहुन्छ?</TrashEmptyTrashPrompt>
+  <TrashRestoreAllPrompt>तपाईं रद्दीटोकरीमा सबै वस्तुहरू पुनर्स्थापना गर्न चाहनुहुन्छ निश्चित हुनुहुन्छ?</TrashRestoreAllPrompt>
+  <TrashProgressRestoring>रद्दीटोकरीमा देखि ठीक</TrashProgressRestoring>
+  <TrashFolderNotFound>रद्दीटोकरीमा निर्देशिका फेला परेन</TrashFolderNotFound>
+  <TrashBalloonRestored>पुनःस्थापित वस्तुहरू: {0} को {1}</TrashBalloonRestored>
+  <TrashDeleteDirectlyLabel>सीधा रद्दीटोकरीमा हटाउने बिना मेटाउन</TrashDeleteDirectlyLabel>
+  <TrashUsedSpaceHint>{0} प्रयोग</TrashUsedSpaceHint>
+  <TrashLimitSizeHint>प्रयोग {0} को {1} ({2})</TrashLimitSizeHint>
+  <TrashLargeItemsShelfTimeHint>को वस्तुहरु को भण्डारण समय भन्दा {0} ठूलो छ: {1} दिन (हरू)</TrashLargeItemsShelfTimeHint>
+  <TrashSmallItemsShelfTimeHint>सबै अरूलाई लागि: {0} दिन (हरू)</TrashSmallItemsShelfTimeHint>
+  <TrashItemsShelfTimeHint>को वस्तुहरु को भण्डारण समय: {0} दिन (हरू)</TrashItemsShelfTimeHint>
+  <TrashAvailableSpaceHint>अधिकतम उपलब्ध आकार {0}</TrashAvailableSpaceHint>
+  <TrashDeletedFromFolderHint>हटाइयो {0}</TrashDeletedFromFolderHint>
+  <TrashExceededMessage>निम्न वस्तुहरू धेरै ठूला र रद्दीटोकरीमा (को {0} नाघ्यो छ प्रतिबन्ध) गर्न स्थित गर्न सकिन्छ:</TrashExceededMessage>
+  <TrashErrorSuffixMessage>कृपया विकल्प जाँच गर्न प्रयास गर्नुहोस् "{0}" र त्यसपछि मेटाउन फाइल (हरू) सधैंभरि पुनर्प्राप्ति परे</TrashErrorSuffixMessage>
+
+  <!-- Shared by link -->
+  <SharedByLinkRootTitle>लिंक द्वारा साझेदारी</SharedByLinkRootTitle>
+
+  <!-- Shared for you -->
+  <SharedForYouRootTitle>तपाईंलाई साझेदारी</SharedForYouRootTitle>
+  <SharedForYouUnableToGetUrl>URL प्राप्त गर्न असमर्थ</SharedForYouUnableToGetUrl>
+
+  <!-- Watch for modifications -->
+  <WatchForModifsCommand>संशोधनहरू लागि हेर्नुहोस्</WatchForModifsCommand>
+  <WatchForModifsStartCommand>हेर्न सुरु</WatchForModifsStartCommand>
+  <WatchForModifsEditCommand>हेर्दै परिवर्तन</WatchForModifsEditCommand>
+  <WatchForModifsStopCommand>हेर्दै रोक्न</WatchForModifsStopCommand>
+  <WatchForModifsViewChangesCommand>परिवर्तनहरू हेर्नुहोस्</WatchForModifsViewChangesCommand>
+  <WatchForModifsSubscriptionSuccessMessage>तपाईंले सफलतापूर्वक गर्न परिमार्जन लागि सदस्यता छन् "{0}"</WatchForModifsSubscriptionSuccessMessage>
+  <WatchForModifsStopSuccessMessage>यो अनुगमन "{0}" सफलतापूर्वक अक्षम गरिएको छ</WatchForModifsStopSuccessMessage>
+  <WatchForModifsIncludingNestedLabel>नेस्ट फाइल, फोल्डरहरु विचार</WatchForModifsIncludingNestedLabel>
+  <WatchForModifsParentWatchExistMessage>चयन गरिएको वस्तुको लागि पहिले नै अभिभावक फोल्डर लागि अनुगमन नियुक्त गरिएको छ "{0}"।</WatchForModifsParentWatchExistMessage>
+  <WatchForModifsRootFolder>सतर्कता</WatchForModifsRootFolder>
+  <WatchForModifsStartProgressLoading>हेर्दै सक्षम</WatchForModifsStartProgressLoading>
+  <WatchForModifsStopProgressLoading>Terminatie हेर्दै</WatchForModifsStopProgressLoading>
+  <WatchForModifsIconHint>संशोधनहरू लागि सक्षम हेरेको</WatchForModifsIconHint>
+  <WatchForModifsNotifCheckBox>इमेल द्वारा परिमार्जन बारेमा सूचित गर्नुहोस्:</WatchForModifsNotifCheckBox>
+  <WatchForModifsWatchedUsersCheckBox>केवल प्रयोगकर्ता (खाली छोड्नुहोस् तपाईं सबै निगरानी भने) निगरानी:</WatchForModifsWatchedUsersCheckBox>
+  <WatchForModifsIgnoreOwnerCheckBox>मेरो आफ्नै परिवर्तनहरू उपेक्षा</WatchForModifsIgnoreOwnerCheckBox>
+  <WatchForModifsActionsCheckBox>सबै कार्यहरू (वा केही कार्यहरू तलको सूचीबाट) निगरानी</WatchForModifsActionsCheckBox>
+  <WatchForModifsNestedItemsWarning>ध्यान! तपाईं चयन गरिएको फोल्डरमा लागि अनुगमन थप्न गर्दा जसको लागि व्यक्तिगत अनुगमन पहिले थपिएको छ सबै संलग्न फाइल र फोल्डरहरू, को अनुगमन हटाइनेछ। तपाईं जारी राख्न चाहनुहुन्छ?</WatchForModifsNestedItemsWarning>
+
+  <WelcomeWindowHideCheckboxLabel>अर्को लग द्वारा यस नदेखाउनुहोस्</WelcomeWindowHideCheckboxLabel>
+
+  <LogsGridMoreInfoColumn>थप जानकारी</LogsGridMoreInfoColumn>
+  <LogsGridDetailsTitle>विवरण</LogsGridDetailsTitle>
+  <LogsGridPhysPathColumn>शारीरिक बाटो</LogsGridPhysPathColumn>
+  <LogsGridIsFolderColumn>फोल्डर?</LogsGridIsFolderColumn>
+  <LogsGridIsPublicColumn>सार्वजनिक?</LogsGridIsPublicColumn>
+  <LogsGridByWebDavColumn>WebDAV?</LogsGridByWebDavColumn>
+
+  <NoCommentsYetHint>अहिलेसम्म कुनै टिप्पणी</NoCommentsYetHint>
+  <NoHistoryYetHint>कुनै इतिहास अझै सम्म</NoHistoryYetHint>
+
+  <DetailsPropertyValuesCouldNotBeWritten>, सम्पत्ति मान बचत गर्दा फाइल प्रकार यस्तो सम्भावना समर्थन गर्दैन वा त्यहाँ फाइल सम्बन्धित एप्लिकेसनमा त्रुटि हो mabe गर्न असफल भयो।</DetailsPropertyValuesCouldNotBeWritten>
+
+  <AdminCommandHelp>मदत</AdminCommandHelp>
+  <AdminCommandAddUser>प्रयोगकर्ता थप्न</AdminCommandAddUser>
+  <AdminCommandAddGroup>समूह थप्न</AdminCommandAddGroup>
+  <AdminCommandRemoveUser>प्रयोगकर्ता हटाउन</AdminCommandRemoveUser>
+
+  <AdminCommandSelectUsers>प्रयोगकर्ताहरू थप्न</AdminCommandSelectUsers>
+  <AdminCommandSelectGroups>समूह थप्न</AdminCommandSelectGroups>
+  <AdminCommandRemoveUsers>प्रयोगकर्ता हटाउन</AdminCommandRemoveUsers>
+  <AdminCommandRemoveGroups>समूह हटाउन</AdminCommandRemoveGroups>
+  <AdminUsersGroups>सदस्य</AdminUsersGroups>
+  <AdminSearchUserEmptyText>प्रयोगकर्ता नाम प्रविष्ट गर्नुहोस्</AdminSearchUserEmptyText>
+  <AdminSearchGroupEmptyText>समूह नाम प्रविष्ट गर्नुहोस्</AdminSearchGroupEmptyText>
+  <AdminUsersGroupAlreadyExists>एक समूह (हरू) यो नाम (s) पहिले नै थप गरिएको छ</AdminUsersGroupAlreadyExists>
+
+  <AdminApplicationLoading>व्यवस्थापक प्यानल लोड</AdminApplicationLoading>
+  <AdminTitle>प्रशासन</AdminTitle>
+  <AdminUsersEditUser>प्रयोगकर्ता सम्पादन गर्नुहोस्</AdminUsersEditUser>
+  <AdminUsersSetUserPassword>पासवर्ड सेट</AdminUsersSetUserPassword>
+  <AdminUsersViewGroups>समूहहरू हेर्नुहोस्</AdminUsersViewGroups>
+  <AdminUsersViewFolders>फोल्डरहरू हेर्नुहोस्</AdminUsersViewFolders>
+  <AdminUsersDeleteUserPrompt>के तपाईं प्रयोगकर्ता (हरू) हटाउन निश्चित हुनुहुन्छ "{0}"?</AdminUsersDeleteUserPrompt>
+  <AdminUsersDeletedUsers>{0} प्रयोगकर्ता (हरू) हटाइयो।</AdminUsersDeletedUsers>
+  <AdminUsersUserNotFound>यो नामको प्रयोगकर्ता फेला परेन</AdminUsersUserNotFound>
+  <AdminUsersPropertiesTitle>प्रयोगकर्ता गुण</AdminUsersPropertiesTitle>
+  <AdminUsersSetPasswordTitle>प्रयोगकर्ता पासवर्ड सेट</AdminUsersSetPasswordTitle>
+  <AdminUsersGeneralInfo>प्रयोगकर्ता जानकारी</AdminUsersGeneralInfo>
+  <AdminUsersUserEmail>इमेल</AdminUsersUserEmail>
+  <AdminUsersEmptyName>प्रयोगकर्ता नाम खाली हुन सक्दैन</AdminUsersEmptyName>
+  <AdminUsersEmptyPassword>प्रयोगकर्ता पासवर्ड खाली हुन सक्दैन</AdminUsersEmptyPassword>
+  <AdminUsersIncorrectName>त्यहाँ प्रयोगकर्ता नाम मा गलत प्रतीक हो</AdminUsersIncorrectName>
+  <AdminUsersAlreadyExists>प्रयोगकर्ताले यो नाम पहिले नै अवस्थित संग</AdminUsersAlreadyExists>
+  <AdminUsersEmailAlreadyExists>यो ई-मेल नामभएकोप्रयोगकर्तापहिलेनैअवस्थितछ</AdminUsersEmailAlreadyExists>
+  <AdminUsersPasswordsNotMatch>पासवर्ड मेल खाँदैन</AdminUsersPasswordsNotMatch>
+  <AdminUsersRenameWarning>एक प्रयोगकर्ता पुन: नामाकरण पछि यो अन्यथा वर्तमान वेब-फोल्डरहरू लिंक गलत हुनेछ, पासवर्ड परिवर्तन गर्न आवश्यक छ</AdminUsersRenameWarning>
+  <AdminUsersLicenseRestriction>तपाईंको लाइसेन्स तपाईं भन्दा {0} प्रयोगकर्ता थप सिर्जना गर्न अनुमति छैन</AdminUsersLicenseRestriction>
+  <AdminUsersCountInfoWithLimit>कुल प्रयोगकर्ता: {0} को बाहिर {1}</AdminUsersCountInfoWithLimit>
+  <AdminUsersCountInfo>कुल प्रयोगकर्ता: {0}</AdminUsersCountInfo>
+
+  <AdminGroupsEditGroup>समूह सम्पादन गर्नुहोस्</AdminGroupsEditGroup>
+  <AdminGroupsRemoveGroup>समूह हटाउन</AdminGroupsRemoveGroup>
+  <AdminGroupsDeleteGroupPrompt>के तपाईं पक्का समूह (हरू) हटाउन चाहनुहुन्छ "{0}" हुनुहुन्छ?</AdminGroupsDeleteGroupPrompt>
+  <AdminGroupsDeletedGroups>{0} समूह (हरू) हटाइयो।</AdminGroupsDeletedGroups>
+  <AdminGroupsGroupNotFound>यो नामको एउटा समूह फेला परेन</AdminGroupsGroupNotFound>
+  <AdminGroupsViewUsers>प्रयोगकर्ताहरू हेर्नुहोस्</AdminGroupsViewUsers>
+  <AdminGroupsProperties>गुण</AdminGroupsProperties>
+  <AdminGroupsPropertiesTitle>समूह गुण</AdminGroupsPropertiesTitle>
+  <AdminGroupsGeneralInfo>समूह जानकारी</AdminGroupsGeneralInfo>
+  <AdminGroupsUserNamePrompt>प्रयोगकर्ता नाम प्रविष्ट गर्नुहोस्</AdminGroupsUserNamePrompt>
+  <AdminGroupsUsers>समूह सदस्य</AdminGroupsUsers>
+  <AdminGroupsUserAlreadyExists>एक प्रयोगकर्ता (हरू) यो नाम (s) पहिले नै थप गरिएको छ</AdminGroupsUserAlreadyExists>
+  <AdminGroupsEmptyName>समूह नाम खाली हुन सक्दैन</AdminGroupsEmptyName>
+  <AdminGroupsIncorrectName>त्यहाँ समूह नाम मा गलत प्रतीक हो</AdminGroupsIncorrectName>
+  <AdminGroupsAlreadyExists>यो नाम पहिले नै अवस्थित एउटा समूह</AdminGroupsAlreadyExists>
+  <AdminGroupsCountInfo>कुल समूह: {0}</AdminGroupsCountInfo>
+
+  <AdminLanguagesTab>localizations</AdminLanguagesTab>
+  <AdminLanguagesTabMessage>को स्थानीयकरण फाइल सम्पादन गर्न, सूचीमा इच्छित भाषा चयन सम्पादन गर्न स्थानीयकृत तार क्लिक गर्नुहोस्। परिमार्जन पछि क्लिक "सुरक्षित गर्नुहोस्" बटन</AdminLanguagesTabMessage>
+  <AdminLangGridKeyColumn>प्रमुख नाम</AdminLangGridKeyColumn>
+  <AdminLangGridDefaultColumn>अंग्रेजी</AdminLangGridDefaultColumn>
+  <AdminEnterLanguageNameTitle>भाषा नाम प्रविष्ट गर्नुहोस्</AdminEnterLanguageNameTitle>
+  <AdminLangConfirmRefreshTitle>ताजा पुष्टि</AdminLangConfirmRefreshTitle>
+  <AdminLangConfirmRefreshMessage>ध्यान! डाटा सुरक्षित छैन। तपाईं अब परिवर्तन बचत गर्न चाहनुहुन्छ?</AdminLangConfirmRefreshMessage>
+  <AdminLangAmountInfo>भरिएको कुञ्जीहरू: {0} {1} को (खाली मान: {2})</AdminLangAmountInfo>
+  <AdminLangSaveToCSV>सीएसवीमा निर्यात</AdminLangSaveToCSV>
+  <AdminLangLoadFromCSV>CSV बाट लोड</AdminLangLoadFromCSV>
+
+  <AdminDbMaintenanceTab>DB मर्मत</AdminDbMaintenanceTab>
+  <AdminDbMaintenanceInfoTitle>जानकारी</AdminDbMaintenanceInfoTitle>
+  <AdminDbMaintenanceInfoPathLabel>DB फाइल मार्ग</AdminDbMaintenanceInfoPathLabel>
+  <AdminDbMaintenanceInfoSizeLabel>DB फाइल आकार</AdminDbMaintenanceInfoSizeLabel>
+  <AdminDbMaintenanceCompactTitle>डाटाबेसलाईसङ्कुचनगर्नुहोस्</AdminDbMaintenanceCompactTitle>
+  <AdminDbMaintenanceCompactNote>डाटाबेस फाइल को आकार कम गर्न, कृपया बटन तल क्लिक गर्नुहोस्। यो डाटाबेस को सङ्कुचन समय समयमा, देखि, उदाहरणका लागि, केही निष्क्रिय सार्वजनिक लिंक वा पुरानो लग DB फाइल आकार कम छैन रेकर्ड हटाउन पछि प्रदर्शन गर्न आवश्यक छ।</AdminDbMaintenanceCompactNote>
+  <AdminDbMaintenanceCompactButton>संकुचित DB</AdminDbMaintenanceCompactButton>
+  <AdminDbMaintenanceCompactSuccess>DB सफलतापूर्वक compacted।
+पुरानो फाइल साइज: {0}
+नयाँ फाइल साइज: {1}</AdminDbMaintenanceCompactSuccess>
+  <AdminDbMaintenanceCompactAutoNote>तपाईं पनि तर, यो किनभने आधार को यो शायद थप बारम्बार ताले र यसलाई केही अनुरोध को अवधि बढाउन सक्छ सिफारिस छैन, रेकर्ड सञ्चालनका हटाउन पछि स्वचालित सङ्कुचन डेटाबेस मा गर्न सक्नुहुन्छ। ध्यान! यो सेटिङ को परिवर्तन पछि आवेदन पुनः सुरु गरिनेछ!</AdminDbMaintenanceCompactAutoNote>
+  <AdminDbMaintenanceCompactAutoCheckBox>सक्षम / अक्षम स्वतः संकुचित DB</AdminDbMaintenanceCompactAutoCheckBox>
+  <AdminDbMaintenanceCompactAutoSaveButton>बचत</AdminDbMaintenanceCompactAutoSaveButton>
+  <AdminDbMaintenanceCompactAutoSaveSuccess>को DB स्वचालित сompression को परिवर्तन हुँदै सफलतापूर्वक पूरा गरिएको छ। पृष्ठ छिट्टै अद्यावधिक हुनेछन्।</AdminDbMaintenanceCompactAutoSaveSuccess>
+  <AdminDbMaintenanceEnableLogLabel>DB लग स्तर प्रश्नहरु चयन गर्नुहोस् (डाटा / debug.log मा)</AdminDbMaintenanceEnableLogLabel>
+  <AdminDbMaintenanceSettingsSaveSuccess>DB सेटिङहरू सफलतापूर्वक बचत गरियो। पृष्ठ पुन: लोड गरिनेछ</AdminDbMaintenanceSettingsSaveSuccess>
+  <AdminDbMaintenanceSettingsChangeNote>ध्यान! सेटिङ को बचत गरेपछि आवेदन छिट्टै पुनः सुरु गरिनेछ!</AdminDbMaintenanceSettingsChangeNote>
+  <AdminDbMaintenanceInsertIntervalLabel>यो अन्तराल (मिनेटमा) को DB गर्न घटनाहरू थप्ने को। तपाईं 0 निर्दिष्ट छ भने, सम्मिलन घटनाहरू पछि प्रकट हुनेछ।</AdminDbMaintenanceInsertIntervalLabel>
+  <AdminDbMaintenanceAdvDbParamsTitle>विकसित DB जडान मापदण्डहरु</AdminDbMaintenanceAdvDbParamsTitle>
+  <AdminDbMaintenanceStatTitle>तथ्याङ्क (DB लग स्तर DurationExecution मा निर्भर गर्दछ)</AdminDbMaintenanceStatTitle>
+  <AdminDbMaintenanceStatDurationReadLabel>औसत पढाइ समय सकियो</AdminDbMaintenanceStatDurationReadLabel>
+  <AdminDbMaintenanceStatDurationWriteLabel>औसत लेखन समय सकियो</AdminDbMaintenanceStatDurationWriteLabel>
+  <AdminDbMaintenanceStatDurationCompactLabel>औसत संकुचित समय सकियो</AdminDbMaintenanceStatDurationCompactLabel>
+  <AdminDbMaintenanceStatNoData>डाटा छैन</AdminDbMaintenanceStatNoData>
+  <AdminDbMaintenanceStatGetButton>तथ्याङ्क भेला</AdminDbMaintenanceStatGetButton>
+
+  <AdminMiscTab>विविध</AdminMiscTab>
+  <AdminMiscLoadADAccountsTitle>सक्रिय निर्देशिका खाता लोड</AdminMiscLoadADAccountsTitle>
+  <AdminMiscLoadADAccountsLoadButton>लोड</AdminMiscLoadADAccountsLoadButton>
+  <AdminMiscLoadADAccountsResetButton>रिसेट गर्नुहोस्</AdminMiscLoadADAccountsResetButton>
+  <AdminMiscLoadADAccountsLdap>LDAP कन्टेनर</AdminMiscLoadADAccountsLdap>
+  <AdminMiscLoadADAccountsToFile>फाइल</AdminMiscLoadADAccountsToFile>
+  <AdminMiscLoadADAccountsSuccessMessage>सक्रिय निर्देशिका खाता सफलतापूर्वक लोड</AdminMiscLoadADAccountsSuccessMessage>
+  <AdminMiscLoadADAccountsInfo>यहाँ तपाईँले पुरा सक्रिय निर्देशिका प्रयोगकर्ता संरचना युक्त फाइल उत्पन्न गर्न सक्छन्। तपाईंलाई विज्ञापन जानकारी भण्डारण रूपमा स्थिर फाइल प्रयोग गर्नुहुन्छ भने यो फाइल आवश्यक छ। एउटै फाइल ADManager उपयोगिता मार्फत उत्पन्न गर्न सकिन्छ। थप जानकारी को लागि &lt;b&gt; ADAccountsFilePath &lt;/b&gt; प्यारामिटर मा वर्णन हेर्न {0} म्यानुअल {1}।</AdminMiscLoadADAccountsInfo>
+
+  <AdminMiscManageQuotasTitle>कोटा व्यवस्थापन</AdminMiscManageQuotasTitle>
+  <AdminMiscManageQuotasInfo>विद्यमान क्वेरी वा फाइल सर्भर स्रोत प्रबन्धक द्वारा संचालित एक फोल्डर लागि अनुमति दिइएको ठाउँ, सीमित गर्न नयाँ कोटा सिर्जना गर्नुहोस्।</AdminMiscManageQuotasInfo>
+  <AdminMiscManageQuotasFolderPath>फोल्डर मार्ग</AdminMiscManageQuotasFolderPath>
+  <AdminMiscManageQuotasQuota>कोटा</AdminMiscManageQuotasQuota>
+  <AdminMiscManageQuotasGetQuota>कोटा प्राप्त</AdminMiscManageQuotasGetQuota>
+  <AdminMiscManageQuotasSetQuota>कोटा सेट</AdminMiscManageQuotasSetQuota>
+
+  <AdminMiscFoldersFromGPOLTitle>समूह नीति देखि लोड फोल्डरहरू</AdminMiscFoldersFromGPOLTitle>
+  <AdminMiscFoldersFromGPOLComputerName>कम्प्युटर नाम</AdminMiscFoldersFromGPOLComputerName>
+  <AdminMiscFoldersFromGPOLFilePath>फाइल मार्ग</AdminMiscFoldersFromGPOLFilePath>
+  <AdminMiscFoldersFromGPOLMoreInfoLink>थप जानकारी</AdminMiscFoldersFromGPOLMoreInfoLink>
+  <AdminMiscFoldersFromGPOLResetButton>रिसेट गर्नुहोस्</AdminMiscFoldersFromGPOLResetButton>
+  <AdminMiscFoldersFromGPOLLoadButton>लोड</AdminMiscFoldersFromGPOLLoadButton>
+  <AdminMiscFoldersFromGPOLFromDC>डीसी देखि</AdminMiscFoldersFromGPOLFromDC>
+  <AdminMiscFoldersFromGPOLFromFile>फाइल देखि</AdminMiscFoldersFromGPOLFromFile>
+  <AdminMiscFoldersTargetLabel>प्रयोगकर्ताहरू / समूह अवस्था आयात गर्न ...</AdminMiscFoldersTargetLabel>
+  <AdminMiscFoldersTargetFilter>फिल्टर</AdminMiscFoldersTargetFilter>
+  <AdminMiscFoldersTargetPermission>अनुमति</AdminMiscFoldersTargetPermission>
+  <AdminMiscFoldersFromGPOLSuccessMessage>फोल्डरहरू सफलतापूर्वक लोड छन् &lt;br /&gt; नयाँ:। {0}, अद्यावधिक: {1}।</AdminMiscFoldersFromGPOLSuccessMessage>
+  <AdminMiscFoldersFromGPOLInfo>तपाईं लोड गर्न सक्नुहुन्छ (वा अद्यावधिक) डोमेन नियन्त्रक मा समूह नीति ड्राइभ म्यापिङ सेटिङहरूबाट फोल्डर सूची। खेतमा तपाईं कम्प्युटर नाम समूह नीति सेटिङ लोड गरिनेछ जसबाट (वा खाली बायाँ भने, त्यसपछि वर्तमान डोमेन प्रयोग गरिनेछ), वा नक्साङ्कन गरिएको ड्राइव सेटिङहरू संग फाइल मार्ग प्रविष्ट गर्न सक्नुहुन्छ तल।</AdminMiscFoldersFromGPOLInfo>
+
+  <AdminAnonymFoldersTab>अज्ञात फोल्डरहरू</AdminAnonymFoldersTab>
+  <AdminAnonymFoldersDeleteFolderPrompt>के तपाईं {0} चयन अज्ञात फोल्डरहरू हटाउन निश्चित हुनुहुन्छ?</AdminAnonymFoldersDeleteFolderPrompt>
+  
+  <AdminAnonymFoldersDescription>साझा फोल्डरहरू / फाइलहरू - यी आवश्यकता छैन प्रयोगकर्ता प्रमाणीकरण * भन्ने फोल्डरहरू / फाइलहरू छन्, तिनीहरूले सबै आगंतुकों लागि उपलब्ध * भन्ने हो (तिनीहरूले लिंक छ भने)। सबै प्रयोगकर्ता यस्तो फोल्डरहरू / मेनु फाइलहरू सिर्जना गर्न सक्नुहुन्छ "शेयर र rarr; एक सार्वजनिक लिङ्क सिर्जना गर्नुहोस्"। तर, साझा फोल्डरहरू सीमित अनुमति हुन सक्छ: अपलोड लागि, डाउनलोड, फाइल / फोल्डर सूची। तल साझेदारी गरिएका फोल्डरहरू / प्रयोगकर्ता द्वारा सिर्जना फाइलहरू लिङ्क को तालिका छ। काम गर्न सार्वजनिक लिंक सही सुविधा ह्याण्डलरहरू \ Anonymousdownload.ashx अनुमति IIS अज्ञात पहुँच सुनिश्चित हुन। तपाईं &lt;a target="_blank" href="{0}"&gt; निदान &lt;/a&gt; पृष्ठमा यो जाँच गर्न सक्छन्। ह्याण्डलरहरू \ Anonymousdownload.ashx लागि तोकिएको अज्ञात प्रयोगकर्ता खाता साझेदारी फोल्डरहरू / फाइलहरू लागि NTFS पढाइ / लेखन अनुमति छ भन्ने निश्चित गर्नुहोस् &lt;br /&gt; * &amp;nbsp;। र mdash; &amp;nbsp; यदि तपाईं मात्र पहुँच अनुमति दिएको छ जसको लागि प्रयोगकर्ता, निर्दिष्ट छैन।</AdminAnonymFoldersDescription>
+  <AdminAnonymFoldersLinkOwnerColumn>मालिक</AdminAnonymFoldersLinkOwnerColumn>
+  <AdminAnonymFoldersEmailsColumn>सूचना लागि इमेल</AdminAnonymFoldersEmailsColumn>
+  <AdminAnonymFoldersAccessForUsersColumn>प्रयोगकर्ताका लागि पहुँच</AdminAnonymFoldersAccessForUsersColumn>
+  <AdminAnonymFoldersPersonalMessageColumn>व्यक्तिगत सन्देश</AdminAnonymFoldersPersonalMessageColumn>
+  <AdminAnonymFoldersOverwriteOnUploadHint> (अधिलेखन: {0})</AdminAnonymFoldersOverwriteOnUploadHint>
+  <AdminAnonymFoldersRootPathColumn>जड बाटो</AdminAnonymFoldersRootPathColumn>
+  <AdminAnonymFoldersKeysColumn>कुञ्जीहरू</AdminAnonymFoldersKeysColumn>
+  <AdminAnonymFoldersShortColumn>कम लिंक</AdminAnonymFoldersShortColumn>
+  <AdminAnonymFoldersPropertiesTitle>अज्ञात फोल्डर गुण</AdminAnonymFoldersPropertiesTitle>
+  <AdminAnonymFoldersAdditionalInfo>थप जानकारी</AdminAnonymFoldersAdditionalInfo>
+  <AdminAnonymFoldersLinkLabel>पहुँचका लागि लिंक</AdminAnonymFoldersLinkLabel>
+  <AdminAnonymFoldersPathNotSpecified>भौतिक बाटो सेट गरिएको छैन</AdminAnonymFoldersPathNotSpecified>
+  <AdminAnonymFoldersCreatedForColumn>उद्देश्य</AdminAnonymFoldersCreatedForColumn>
+
+  <AdminFoldersTab>फोल्डरहरू</AdminFoldersTab>
+  <AdminFoldersAddFolder>फोल्डर थप्न</AdminFoldersAddFolder>
+  <AdminFoldersEditFolder>फोल्डर सम्पादन गर्नुहोस्</AdminFoldersEditFolder>
+  <AdminFoldersRemoveFolder>फोल्डर हटाउन</AdminFoldersRemoveFolder>
+  <AdminFoldersDeleteFolderPrompt>के तपाईं पक्का फोल्डर हटाउन चाहनुहुन्छ "{0}" हुनुहुन्छ?</AdminFoldersDeleteFolderPrompt>
+  <AdminFoldersFolderNotFound>यो नामको फोल्डर फेला परेन</AdminFoldersFolderNotFound>
+  <AdminFoldersPropertiesTitle>फोल्डर गुण</AdminFoldersPropertiesTitle>
+  <AdminFoldersGeneralInfo>सामान्य जानकारी</AdminFoldersGeneralInfo>
+  <AdminFoldersFolderRemoteWarningForms>नोट! यो फोल्डर टाढैबाट साझेदारी गरिएको छ। जाँच {0} सोधिने प्रश्न: कसरी रिमोट फोल्डरहरू साझेदारी गर्न {1}</AdminFoldersFolderRemoteWarningForms>
+  <AdminFoldersFolderRemoteWarningWin>नोट! यो फोल्डर टाढैबाट साझेदारी गरिएको छ। प्रयोगकर्ताहरूले पढ्न अधिकार छैन भने तपाईँले केही फोल्डरहरू / फाइलहरू लुकाउन सक्नुहुन्छ। हेर्नुहोस् {0} सोधिने प्रश्न: फाइलहरू / प्रयोगकर्ता पढ्न अधिकार छैन भनेर फोल्डरहरू लुकाउन कसरी {1}</AdminFoldersFolderRemoteWarningWin>
+  <AdminFoldersFolderPath>शारीरिक बाटो</AdminFoldersFolderPath>
+  <AdminFoldersLocationPath>स्थान</AdminFoldersLocationPath>
+  <AdminFoldersFolderCreate>फोल्डर सिर्जना</AdminFoldersFolderCreate>
+  <AdminFoldersFolderCreateProcess>फोल्डर सिर्जना</AdminFoldersFolderCreateProcess>
+  <AdminFoldersFolderCreateContainsPattern>फोल्डर सिर्जना गर्न सकिँदैन किनभने यो ढाँचा समावेश</AdminFoldersFolderCreateContainsPattern>
+  <AdminFoldersFolderCreateSuccessfully>फोल्डर "{0}" सफलतापूर्वक सिर्जना गरिएको छ।</AdminFoldersFolderCreateSuccessfully>
+  <AdminFoldersFolderOptional> (वैकल्पिक)</AdminFoldersFolderOptional>
+  <AdminFoldersFolderLimitations>सीमितता</AdminFoldersFolderLimitations>
+  <AdminFoldersFolderDescription>विवरण</AdminFoldersFolderDescription>
+  <AdminFoldersFolderQuota>कोटा</AdminFoldersFolderQuota>
+  <AdminFoldersFolderQuotaHint>विद्यमान क्वेरी वा फाइल सर्भर स्रोत प्रबन्धक द्वारा संचालित एक फोल्डर लागि अनुमति दिइएको ठाउँ, सीमित गर्न नयाँ कोटा सिर्जना गर्नुहोस्।</AdminFoldersFolderQuotaHint>
+  <AdminFoldersFolderQuotaMoreInfoLink>थप जानकारी</AdminFoldersFolderQuotaMoreInfoLink>
+  <AdminFoldersPermissions>अनुमति</AdminFoldersPermissions>
+  <AdminFoldersPermissionsFor>लागि अनुमति {0}</AdminFoldersPermissionsFor>
+  <AdminFoldersUsersGroups>प्रयोगकर्ता र समूह</AdminFoldersUsersGroups>
+  <AdminFoldersAccessControl>पहुँच नियन्त्रण</AdminFoldersAccessControl>
+  <AdminFoldersCreate>सिर्जना</AdminFoldersCreate>
+  <AdminFoldersDelete>मेटाउन</AdminFoldersDelete>
+  <AdminFoldersRename>पुन: नामाकरण</AdminFoldersRename>
+  <AdminFoldersUpload>अपलोड</AdminFoldersUpload>
+  <AdminFoldersDownload>डाउनलोड</AdminFoldersDownload>
+  <AdminFoldersZipDownload>जिप र डाउनलोड</AdminFoldersZipDownload>
+  <AdminFoldersZip>जिप</AdminFoldersZip>
+  <AdminFoldersUnzip>अनप्याक जिप</AdminFoldersUnzip>
+  <AdminFoldersCut>कट</AdminFoldersCut>
+  <AdminFoldersCopy>कापी</AdminFoldersCopy>
+  <AdminFoldersListFiles>फाइलहरू शो</AdminFoldersListFiles>
+  <AdminFoldersListFolders>फोल्डरहरू शो</AdminFoldersListFolders>
+  <AdminFoldersModify>परिमार्जन</AdminFoldersModify>
+  <AdminFoldersBulkMailing>थोक पत्राचार</AdminFoldersBulkMailing>
+  <AdminFoldersAnonymViewContent>सार्वजनिक लिङ्क मार्फत फाइल सूची</AdminFoldersAnonymViewContent>
+  <AdminFoldersAnonymDownload>सार्वजनिक लिङ्क मार्फत डाउनलोड</AdminFoldersAnonymDownload>
+  <AdminFoldersAnonymUpload>सार्वजनिक लिङ्क मार्फत अपलोड</AdminFoldersAnonymUpload>
+  <AdminFoldersWatch>हेर्ने</AdminFoldersWatch>
+  <AdminFoldersDescription>तपाईं म्यानुअल फोल्डरहरू थप्न वा तपाईं समूह नीतिहरू मा ड्राइव प्रयोग गर्दै हुनुहुन्छ भने विद्यमान फोल्डरहरू रूपान्तरण गर्न सक्छौं। थप जानकारी को लागि हेर्न {0} सहायता {1}।</AdminFoldersDescription>
+
+  <AdminFoldersPermissionsForRegex>तपाईं पनि नियमित अभिव्यक्ति प्रयोग गर्न सक्नुहुन्छ। प्रविष्ट गर्नुहोस् &lt;b&gt; {0} &lt;/b&gt; उदाहरणका लागि नियमित अभिव्यक्ति माथिको क्षेत्र को शुरुवात र त्यसपछि, मा:</AdminFoldersPermissionsForRegex>
+  <AdminFoldersPermissionsForRegexUsers>{0} &lt;br (कुनै पनि प्रयोगकर्ता लागि पहुँच प्रदान) /&gt; {1} (: jdoe र माइक यो नियमित अभिव्यक्ति दुई प्रयोगकर्ता अर्थ)</AdminFoldersPermissionsForRegexUsers>
+  <AdminFoldersPermissionsForRegexGroups>{0} &lt;br (कुनै पनि समूह लागि पहुँच प्रदान) /&gt; {1} (यो नियमित अभिव्यक्ति सबै समूह आफ्नो नाम मा "विद्यार्थी" संग मतलब)</AdminFoldersPermissionsForRegexGroups>
+
+  <AdminFoldersListRestrictions>प्रदर्शन को प्रतिबन्ध</AdminFoldersListRestrictions>
+  <AdminFoldersCreateRestrictions>फाइल सृष्टिको प्रतिबन्ध</AdminFoldersCreateRestrictions>
+  <AdminFoldersRestrictionAllow>अनुमति</AdminFoldersRestrictionAllow>
+  <AdminFoldersRestrictionDeny>अस्वीकार</AdminFoldersRestrictionDeny>
+  <AdminFoldersRestrictionExtensions>विस्तार</AdminFoldersRestrictionExtensions>
+  <AdminFoldersUserNamePrompt>प्रयोगकर्ता नाम प्रविष्ट गर्नुहोस्</AdminFoldersUserNamePrompt>
+  <AdminFoldersUserNameEmptyText>प्रयोगकर्ता नाम चयन गर्नुहोस्</AdminFoldersUserNameEmptyText>
+  <AdminFoldersUserNameNotSelected>तपाईं प्रयोगकर्ता नाम चयन गर्नुपर्छ</AdminFoldersUserNameNotSelected>
+  <AdminFoldersUserAlreadyExists>यो प्रयोगकर्ता पहिले नै फोल्डर तोकिएको छ</AdminFoldersUserAlreadyExists>
+  <AdminFoldersGroupNamePrompt>समूह नाम प्रविष्ट गर्नुहोस्</AdminFoldersGroupNamePrompt>
+  <AdminFoldersGroupNameEmptyText>समूह नाम चयन</AdminFoldersGroupNameEmptyText>
+  <AdminFoldersGroupNameNotSelected>तपाईं एउटा समूह नाम चयन गर्नुपर्छ</AdminFoldersGroupNameNotSelected>
+  <AdminFoldersGroupAlreadyExists>यो समूह पहिले नै फोल्डर तोकिएको छ</AdminFoldersGroupAlreadyExists>
+  <AdminFoldersEmptyName>फोल्डर नाम खाली हुन सक्दैन</AdminFoldersEmptyName>
+  <AdminFoldersEmptyPath>फोल्डर मार्ग खाली हुन सक्दैन</AdminFoldersEmptyPath>
+  <AdminFoldersIncorrectName>त्यहाँ फोल्डर नाम मा गलत प्रतीक हो</AdminFoldersIncorrectName>
+  <AdminFoldersAlreadyExists>यो नाम र स्थान एक फोल्डर पहिले नै अवस्थित छ</AdminFoldersAlreadyExists>
+  <AdminFoldersSharesButton>अवस्थित साझा</AdminFoldersSharesButton>
+  <AdminFoldersTestAccessButton>परीक्षण पहुँच</AdminFoldersTestAccessButton>
+  <AdminFoldersTestIndexingButton>परीक्षण अनुक्रमणिका</AdminFoldersTestIndexingButton>
+  <AdminFoldersShareNameTitle>अवस्थित साझा</AdminFoldersShareNameTitle>
+  <AdminFoldersShareNameEmptyText>शेयर चयन</AdminFoldersShareNameEmptyText>
+  <AdminFoldersShareNameNotSelected>तपाईं शेयर चयन गर्नुपर्छ</AdminFoldersShareNameNotSelected>
+  <AdminFoldersGetQuotaButton>कोटा प्राप्त</AdminFoldersGetQuotaButton>
+  <AdminFoldersSetQuotaButton>कोटा सेट</AdminFoldersSetQuotaButton>
+  <AdminCommonFilterField>फिल्टर</AdminCommonFilterField>
+  <AdminCommonValidateField>मान्य</AdminCommonValidateField>
+  <AdminFoldersRootNameUsed>सट्टा फोल्डर लागि अर्को नाम प्रयोग गर्नुहोस् "{0}"</AdminFoldersRootNameUsed>
+  <AdminFoldersFolderFilterSuccess>फिल्टर को मान्य सफलतापूर्वक भयो</AdminFoldersFolderFilterSuccess>
+
+  <AdminTestAccessGoodResult>फोल्डर "{0}" अवस्थित र पढ्न सकिन्छ।</AdminTestAccessGoodResult>
+  <AdminTestAccessBadResult>फोल्डर "{0}" अवस्थित छैन वा कुनै NTFS अनुमति पढ्न वा त्यहाँ आवेदन पहिचान लागि कुनै नेटवर्क पहुँच छ हो!</AdminTestAccessBadResult>
+  <AdminTestAccessErrorResult>त्रुटि पहुँच फोल्डरमा जाँच गर्दा "{0}": {1}</AdminTestAccessErrorResult>
+  <AdminTestIndexingErrorResult>फोल्डर लागि अनुक्रमणिका जाँच "{0}":
+{1}</AdminTestIndexingErrorResult>
+  <AdminTestIndexingYesResult>निर्देशिका "{0}" अनुक्रमित छ</AdminTestIndexingYesResult>
+  <AdminTestIndexingNoResult>निर्देशिका अनुक्रमित छैन "{0}" छ</AdminTestIndexingNoResult>
+  <AdminTestIndexingUnknownResult>निर्देशिका "{0}" अनुक्रमित छ भने निर्धारण गर्न सकिएन।</AdminTestIndexingUnknownResult>
+  <AdminTestIndexingAddIfNotIndexed>यदि यो अझै अनुक्रमित गरिएको छ, अनुक्रमणिका लागि यो फोल्डर थप्न चाहनुहुन्छ?</AdminTestIndexingAddIfNotIndexed>
+  <ProgressTestAccess>जाँच गर्दै पहुँच</ProgressTestAccess>
+  <ProgressTestIndexing>जाँच गर्दै अनुक्रमणिका</ProgressTestIndexing>
+  <AdminHowToIndexingLocationLink>सूचकांक गर्न एक फोल्डर, लागि सहायता उल्लेख {0}</AdminHowToIndexingLocationLink>
+
+  <AdminUsersListAll>सबै प्रयोगकर्ता</AdminUsersListAll>
+  <AdminUsersListDACL>ACL देखि प्रयोगकर्ता</AdminUsersListDACL>
+  <AdminGroupsListAll>सबै समूह</AdminGroupsListAll>
+  <AdminGroupsListDACL>ACL देखि समूह</AdminGroupsListDACL>
+  <AdminDACLStringLabel>ACL अनुमति</AdminDACLStringLabel>
+
+  <AdminCommonCustomField>अनुकूलन क्षेत्र</AdminCommonCustomField>
+  <AdminCommonSettingsChangeWarning>परिवर्तनहरू प्रभाव पुन लग इन पछि (वा WebDav पहुँचका लागि आवेदन पुन: सुरु गरेपछि) हुनेछ।</AdminCommonSettingsChangeWarning>
+
+  <AdminCommonAllowedFoldersPathsTitle>अनुमति फोल्डर मार्ग</AdminCommonAllowedFoldersPathsTitle>
+  <AdminCommonNotAllowedFolderPath>तपाईं मात्र यी फोल्डरहरू वा यसको सबफोल्डरहरुलाई पहुँच सिर्जना गर्न सक्नुहुन्छ: {0}</AdminCommonNotAllowedFolderPath>
+
+  <AdminLogsTab>लग</AdminLogsTab>
+
+  <AdminSettingsTab>सेटिङ</AdminSettingsTab>
+
+  <AdminLogsErrorsTab>लग इन त्रुटिहरू</AdminLogsErrorsTab>
+  <AdminLogsErrorsClearBtn>स्पष्ट</AdminLogsErrorsClearBtn>
+  <AdminLogsErrorsClearUsersCountExceededBtn>प्रयोगकर्ताहरूको त्रुटिहरू मात्रा सीमा अधिक संग रेकर्ड स्पष्ट</AdminLogsErrorsClearUsersCountExceededBtn>
+
+  <AdminFoldersCreateHint>अनुमति / देखि मेनु "नयाँ" कार्यहरू अस्वीकार: नयाँ फाइल, नयाँ फोल्डर, नयाँ छवि, नयाँ कागजात फाइलहरू।</AdminFoldersCreateHint>
+  <AdminFoldersDeleteHint>अनुमति / अवस्थित फाइल र फोल्डरहरू मेटाउँदै अस्वीकार</AdminFoldersDeleteHint>
+  <AdminFoldersRenameHint>अनुमति / अवस्थित फाइल र फोल्डरहरू पुन: नामाकरण अस्वीकार</AdminFoldersRenameHint>
+  <AdminFoldersUploadHint>अनुमति / फाइल अपलोड सुविधा (उपकरणपट्टी मा बटन अपलोड) अस्वीकार</AdminFoldersUploadHint>
+  <AdminFoldersDownloadHint>/ "डाउनलोड", "हेर्नुहोस् / सम्पादन गर्नुहोस्" अस्वीकार, आदि कार्यहरू, भंडार क्लाउड डाउनलोड अनुमति दिने</AdminFoldersDownloadHint>
+  <AdminFoldersZipDownloadHint>अनुमति / अस्वीकार "संकुचन र डाउनलोड" कार्य</AdminFoldersZipDownloadHint>
+  <AdminFoldersZipHint>अनुमति / "एक जिप संग्रह गर्न संकुचन" अस्वीकार कार्य</AdminFoldersZipHint>
+  <AdminFoldersUnzipHint>/, "जिप सामग्रीहरू" अस्वीकार "हालको फोल्डरमा निकाल्नुहोस्" "नयाँ फोल्डर गर्न निकाल्नुहोस्" र कार्यहरू अनुमति</AdminFoldersUnzipHint>
+  <AdminFoldersCutHint>अनुमति / कट अवस्थित फाइल र फोल्डरहरू कार्य अस्वीकार</AdminFoldersCutHint>
+  <AdminFoldersCopyHint>/ प्रतिलिपि अवस्थित फाइल र फोल्डरहरू कार्य अस्वीकार अनुमति</AdminFoldersCopyHint>
+  <AdminFoldersListFilesHint>अनुमति / फाइल सूचीकृत अस्वीकार</AdminFoldersListFilesHint>
+  <AdminFoldersListFoldersHint>अनुमति / फोल्डरसूचीकृतगर्दैछ अस्वीकार</AdminFoldersListFoldersHint>
+  <AdminFoldersModifyHint>अनुमति / अस्वीकार परिमार्जन फाइलहरू (अवस्थित फाइल सामग्रीहरू परिमार्जन गर्न सक्ने सबै कार्यहरू)</AdminFoldersModifyHint>
+  <AdminFoldersBulkMailingHint>अनुमति / समूह को लागि थोक पत्राचार अस्वीकार</AdminFoldersBulkMailingHint>
+  <AdminFoldersAnonymViewContentHint>अनुमति / फाइलहरू अज्ञात प्रयोगकर्ताका लागि सूची (सार्वजनिक लिंक मार्फत) अस्वीकार</AdminFoldersAnonymViewContentHint>
+  <AdminFoldersAnonymDownloadHint>अनुमति अज्ञात प्रयोगकर्ताका लागि डाउनलोड फाइलहरू (सार्वजनिक लिंक मार्फत) / अस्वीकार</AdminFoldersAnonymDownloadHint>
+  <AdminFoldersAnonymUploadHint>अनुमति / फाइलहरू अस्वीकार अज्ञात प्रयोगकर्ताका लागि अपलोड (सार्वजनिक लिंक मार्फत)</AdminFoldersAnonymUploadHint>
+  <AdminFoldersWatchHint>अनुमति / अन्य प्रयोगकर्ता द्वारा फोल्डर मा परिवर्तन निगरानी गर्न प्रयोगकर्ता अस्वीकार (यो मात्र भने युआई / AllowUsersmonitorModifications = साँचो लागू)</AdminFoldersWatchHint>
+  <AdminFoldersListRestrictionsHint>यो विकल्प फाइल सूचीकरण नियन्त्रण गर्दछ। निर्दिष्ट विस्तारसँग फाइलहरू लुकाउन "अस्वीकार" रेडियो बटन क्लिक गर्नुहोस्। विस्तार सम्मिलित निषेधित अल्पविराम द्वारा तिनीहरूलाई अलग (जस्तै "EXE, बैट, COM")। देखाइने कि (जस्तै "डाक्टर, PDF, JPG") हुनेछ फाइलहरू विस्तार "अनुमति" रेडियो बटन सेट र घुसाउनुहोस्।</AdminFoldersListRestrictionsHint>
+  <AdminFoldersCreateRestrictionsHint>यो कार्य "सूची प्रतिबन्ध" समान छ, तर यो नयाँ फाइलहरू सिर्जना, फाइल अपलोड, जिप निकासी नियन्त्रण गर्दछ। तपाईं निषेध वा निर्दिष्ट फाइल को अपलोड सक्षम पार्न सक्नुहुन्छ।</AdminFoldersCreateRestrictionsHint>
+  <AdminFoldersGeneralInfoHint>अवस्थित फोल्डर मार्ग र उपनाम टाइप गर्नुहोस्। थप जानकारी को लागि तल सहायता बटन क्लिक गर्नुहोस्।</AdminFoldersGeneralInfoHint>
+  <AdminFoldersUsersGroupsHint>चयन गर्नुहोस् वा प्रकार प्रयोगकर्ता र समूह तिनीहरूलाई लागि फोल्डर साझेदारी गर्न। थप जानकारी को लागि तल सहायता बटन क्लिक गर्नुहोस्।</AdminFoldersUsersGroupsHint>
+
+  <AdminUserFoldersButtonTitle>परीक्षण गर्नेमा सूची</AdminUserFoldersButtonTitle>
+  <AdminUserFoldersWindowTitle>प्रयोगकर्ता फोल्डरहरू</AdminUserFoldersWindowTitle>
+  <AdminUserFoldersLabel>प्रयोगकर्ताको लागि फोल्डर सूची '{0}':</AdminUserFoldersLabel>
+  
+  <AdminPermissionsTab>व्यवस्थापक अनुमति</AdminPermissionsTab>
+  <AdminPermissionsPrivilege>सुअवसर</AdminPermissionsPrivilege>
+  <AdminPermissionsEditButton>सुअवसर सम्पादन गर्नुहोस्</AdminPermissionsEditButton>
+  <AdminPermissionsModifySettingsTitle>सेटिङ परिमार्जन</AdminPermissionsModifySettingsTitle>
+  <AdminPermissionsModifyFoldersTitle>फोल्डरहरू परिमार्जन</AdminPermissionsModifyFoldersTitle>
+  <AdminPermissionsModifyAnonymFoldersTitle>सार्वजनिक फोल्डरहरू परिमार्जन</AdminPermissionsModifyAnonymFoldersTitle>
+  <AdminPermissionsModifyAccountsTitle>खाता परिमार्जन</AdminPermissionsModifyAccountsTitle>
+  <AdminPermissionsViewDiagnosticsTitle>हेर्नुहोस् 'निदान' पृष्ठ</AdminPermissionsViewDiagnosticsTitle>
+  <AdminPermissionsViewLogTitle>लग</AdminPermissionsViewLogTitle>
+  <AdminPermissionsViewErrorsLogTitle>त्रुटिहरू हेर्नुहोस् लग</AdminPermissionsViewErrorsLogTitle>
+  <AdminPermissionsModifyLocalizationsTitle>localizations परिमार्जन</AdminPermissionsModifyLocalizationsTitle>
+  <AdminPermissionsFolderPathTitle>फोल्डर मार्ग</AdminPermissionsFolderPathTitle>
+  <AdminPermissionsFoldersTitle>व्यवस्थापक फोल्डरहरू</AdminPermissionsFoldersTitle>
+  <AdminPermissionsPrivilegeHint>प्रयोगकर्ता / समूह सेट जसको लागि "{0}" सुअवसर अनुमति हुनेछ</AdminPermissionsPrivilegeHint>
+  <AdminPermissionsFolderTitle>व्यवस्थापक फोल्डर गुण</AdminPermissionsFolderTitle>
+  <AdminPermissionsFolderFieldTitle>फोल्डर मार्ग</AdminPermissionsFolderFieldTitle>
+  <AdminPermissionsFolderHint>व्यवस्थापक फोल्डरहरू बारेमा जानकारी</AdminPermissionsFolderHint>
+  <AdminPermissionsFolderEmptyAccounts>प्रयोगकर्ता र / वा समूह निर्दिष्ट</AdminPermissionsFolderEmptyAccounts>
+  <AdminPermissionsFolderAlreadyExists>फोल्डर यस स्थान पहिले नै अवस्थित संग</AdminPermissionsFolderAlreadyExists>
+  <AdminPermissionsFolderNotFound>यो स्थान फोल्डर फेला परेन</AdminPermissionsFolderNotFound>
+  <AdminPermissionsAllowedFoldersMessage>तपाईं / सिर्जना / अद्यावधिक गर्न सक्नुहुन्छ व्यवस्थापन मात्र यी फोल्डरहरू वा यसको सबफोल्डरहरुलाई पहुँच: {0}</AdminPermissionsAllowedFoldersMessage>
+
+  <AdminUsersCountExceededWarn>प्रयोगकर्ताहरूको अधिकतम मात्रा नाघेको छ। आफ्नो वर्तमान लाइसेन्स मात्र {0} प्रयोगकर्ता लग इन लागि अनुमति दिन्छ। थप जानकारी को लागि खोल्न "{1}" ट्याब र पाउन "{2}" अपवाद (हरू)। "{1}" ट्याब मा यो सूचना लग रेकर्ड स्पष्ट लुकाउन।</AdminUsersCountExceededWarn>
+
+  <AdminNewVersionAvailableTitle>नयाँ संस्करण उपलब्ध छ!</AdminNewVersionAvailableTitle>
+  <AdminNewVersionAvailableInfo>वर्तमान संस्करण: {0} नयाँ संस्करण /&gt; &lt;br: {1}</AdminNewVersionAvailableInfo>
+  
+  <SettingsGridDescriptionInfo>विवरण</SettingsGridDescriptionInfo>
+  <SettingsGridFormatInfo>मूल्य ढाँचा</SettingsGridFormatInfo>
+  <SettingsGridDefaultValueInfo>पूर्वनिर्धारित मान</SettingsGridDefaultValueInfo>
+  <SettingsGridMoreInfo>थप जानकारी</SettingsGridMoreInfo>
+  <SettingsGridRestoreDefault>पूर्वनिर्धारित पुनर्स्थापना</SettingsGridRestoreDefault>
+
+  <SettingsFormatBoolean>मानमा</SettingsFormatBoolean>
+  <SettingsFormatWholeNumber>सारा नम्बर</SettingsFormatWholeNumber>
+  <SettingsFormatRealNumber>वास्तविक संख्या</SettingsFormatRealNumber>
+  <SettingsFormatString>स्ट्रिङ</SettingsFormatString>
+  <SettingsFormatEnum>कुनै पनि मूल्य</SettingsFormatEnum>
+  <SettingsFormatSet>मान पुनरावृत्तिकोसङ्ख्या बिना सूची अल्पविराम-विभाजित</SettingsFormatSet>
+  <SettingsFormatArray>तार को अल्पविराम-विभाजित सूची</SettingsFormatArray>
+  <SettingsFormatToolbarButtons>। (। मूल्य "{0}" पङ्क्तिमा धेरै पटक दोहोर्याइएको गर्न सकिन्छ, तर प्रत्येक नाम, एक पेट द्वारा अनुगमन पछि, यो सम्भव बटन प्रदर्शन गर्न प्रयोग विधि को एक निर्दिष्ट गर्न छ: {1})</SettingsFormatToolbarButtons>
+
+  <AdminSettingsSave>सेटिङ बचत</AdminSettingsSave>
+  <AdminToggleHiddenParams>{0} उन्नत मापदण्डहरु</AdminToggleHiddenParams>
+  <AdminHintHiddenParams>थपपरिमिति थप दानेदार सेटिङहरू लागि र सबै भन्दा अवस्थामा उद्देश्यले गरिन्छ विरलै आवश्यक छन्</AdminHintHiddenParams>
+  <AdminShowHiddenParams>देखाउनु</AdminShowHiddenParams>
+  <AdminHideHiddenParams>लुकाउन</AdminHideHiddenParams>
+
+  <SettingsDenyAuthModeChange>स्वचालित प्रमाणीकरण मोड changeover समर्थित छैन। प्रमाणीकरण मोड परिवर्तन गर्ने बारे लागि निर्देशन {0} हेर्नुहोस्।</SettingsDenyAuthModeChange>
+  <SettingsApplicationRestartedMsg>आवेदन पुनः सुरु</SettingsApplicationRestartedMsg>
+  <SettingsSettingsSavedMsg>सेटिङहरू सुरक्षित गरिएका छन्</SettingsSettingsSavedMsg>
+  <SettingsSettingsSaveFailedAppMsg>विन्यास फाइल बचत गर्न असमर्थ। प्रयोगकर्ताको लागि web.config को लेख्ने NTFS अनुमति जाँच गर्नुहोस् र HttpCommanderSettings.config वेब अनुप्रयोग मूल फोल्डर {0} मा फाइल {1}। त्रुटि सन्देश: {2}।</SettingsSettingsSaveFailedAppMsg>
+  <SettingsSettingsSaveFailedTempMsg>विन्यास फाइल बचत गर्न असमर्थ। प्रयोगकर्ताको लागि अस्थायी फोल्डरमा {0} को चेक अनुमति {1}। त्रुटि सन्देश: {2}।</SettingsSettingsSaveFailedTempMsg>
+  <SettingsSettingsReadFailedAppMsg>विन्यास फाइल पढ्न असमर्थ। वेब अनुप्रयोग मूल फोल्डर {0} मा फाइल प्रयोगकर्ताको लागि HttpCommanderSettings.config web.config को NTFS अनुमति पढ्न र जाँच {1}। त्रुटि सन्देश: {2}।</SettingsSettingsReadFailedAppMsg>
+  <SettingsSettingsReadFailedTempMsg>अस्थायी फोल्डर मा विन्यास फाइल पढ्न असमर्थ। प्रयोगकर्ताको लागि अस्थायी फोल्डरमा {0} को चेक अनुमति {1}। त्रुटि सन्देश: {2}।</SettingsSettingsReadFailedTempMsg>
+  <SettingsSettingsConfigChangedOutside>यो HttpCommander कन्फिगरेसन फाइल अर्को कार्यक्रम परिवर्तन गरिएको छ। संभवतः तपाईँले पाठ सम्पादक संग स्वयं यो संशोधित छन्। आवेदन नयाँ कन्फिगरेसन फाइल लोड भएको छ। तपाईँले वेब इन्टरफेस मार्फत गर्नुभएको जो कन्फिगरेसन HttpCommander सम्बन्धित सबै परिवर्तनहरू हराउन छन्। तपाईं त फेरि बचत गर्न प्रयास गर्नुहोस्, तिनीहरूलाई पूर्ववत गर्न आवश्यक छ। आवेदन चलिरहेको छ, जबकि हामी सम्पादन विन्यास फाइल विरुद्ध म्यानुअल सुझाव दिन्छौं। अन्यथा तपाईं विन्यास फाइल परिवर्तन पछि अनुप्रयोग पुनः सुरु गर्नुपर्छ। त्रुटि सन्देश: {0}।</SettingsSettingsConfigChangedOutside>
+  <SettingsSettingsSaveNotif>सेटिङ परिवर्तन बचत गर्न नबिर्स!</SettingsSettingsSaveNotif>
+  
+  <SettingsEmailNotifTitle>इमेल द्वारा सूचनाहरू</SettingsEmailNotifTitle>
+  <SettingsEmailNotifApplyBtn>मेल सेटिङ बचत</SettingsEmailNotifApplyBtn>
+  <SettingsEmailNotifResetBtn>रिसेट गर्नुहोस्</SettingsEmailNotifResetBtn>
+  <SettingsEmailNotifEventsLabel>घटनाहरूका लागि</SettingsEmailNotifEventsLabel>
+  <SettingsEmailNotifWhenLabel>पठाउनुहोस्</SettingsEmailNotifWhenLabel>
+  <SettingsEmailNotifEmailsLabel>इमेल</SettingsEmailNotifEmailsLabel>
+  <SettingsEmailNotifPathsLabel>पथ</SettingsEmailNotifPathsLabel>
+  
+  <LogsErrorsGridUrlColumn>url</LogsErrorsGridUrlColumn>
+  <LogsErrorsGridMsgColumn>सन्देश</LogsErrorsGridMsgColumn>
+  <LogsErrorsGridMoreInfoColumn>थप जानकारी</LogsErrorsGridMoreInfoColumn>
+  <LogsErrorsGridDetailsTitle>विवरण</LogsErrorsGridDetailsTitle>
+  
+  <FsrmUnableLoadLibraryLocal>स्थानीय होस्ट मा सर्भर स्रोत प्रबन्धक फाइल जडान गर्न असमर्थ।</FsrmUnableLoadLibraryLocal>
+  <FsrmUnableLoadLibraryRemote>"{0}" पाहुना मा सर्भर स्रोत प्रबन्धक फाइल जडान गर्न असमर्थ।</FsrmUnableLoadLibraryRemote>
+  <FsrmNotInstalled>फाइल सर्भर स्रोत प्रबन्धक स्थापना गरिएको छैन "{0}"।</FsrmNotInstalled>
+  <FsrmNotInstalledEitherEnd>फाइल सर्भर स्रोत प्रबन्धक स्थानीय होस्ट वा मा "{0}" या त स्थापित छैन।</FsrmNotInstalledEitherEnd>
+  <FsrmQuotaNotSpecified>कोटा तोकिएको छैन।</FsrmQuotaNotSpecified>
+  <FsrmUnableGetQuota>कोटा सीमा प्राप्त गर्न असमर्थ।</FsrmUnableGetQuota>
+  <FsrmUnableSetQuota>कोटा सीमा सेट गर्न असमर्थ।</FsrmUnableSetQuota>
+  <FsrmQuotaSetMsg>कोटा सेट गरिएको छ।</FsrmQuotaSetMsg>
+  <FsrmInvalidQuotaValueMsg>अवैध कोटा मान।</FsrmInvalidQuotaValueMsg>
+
+  <CommandBuyNow>अहिले खरिद गर</CommandBuyNow>
+
+  <AdminUpdateTab>अपग्रेड गर्नुहोस्</AdminUpdateTab>
+  <AdminUpdateManual>मार्गदर्शन उन्नयन</AdminUpdateManual>
+  <AdminUpdateAuto>स्वचालित अद्यावधिक</AdminUpdateAuto>
+  <AdminUpdateStartButton>सुरु अपग्रेड / जगेडा सिर्जना</AdminUpdateStartButton>
+  <AdminUpdateFinishButton>समाप्त अपग्रेड / पुनर्स्थापना जगेडा</AdminUpdateFinishButton>
+  <AdminUpdateBackupButton>जगेडा</AdminUpdateBackupButton>
+  <AdminUpdateDownloadNewButton>नयाँ संस्करण डाउनलोड</AdminUpdateDownloadNewButton>
+  <AdminUpdateStepTitle>चरण {0} {1}: {2}</AdminUpdateStepTitle>
+  <AdminUpdateStepInfo>चरण {0} {1}</AdminUpdateStepInfo>
+  <AdminUpdateNumberSymbol>#</AdminUpdateNumberSymbol>
+  <AdminUpdateBackupContent>कृपया "{0}" आवेदन फोल्डर को एक जगेडा प्रतिलिपि सिर्जना लागि र डाउनलोड को लागि लिंक प्राप्त बटन थिच्न</AdminUpdateBackupContent>
+  <AdminUpdateDownloadBackupLinkHint>कृपया तलको लिंक प्रयोग गरेर आवेदन को एक जगेडा प्रतिलिपि डाउनलोड:</AdminUpdateDownloadBackupLinkHint>
+  <AdminUpdateDownloadNewContent>त्यसपछि कृपया तलको लिंकमा प्रयोग गरेर नयाँ संस्करण डाउनलोड र नयाँ संस्करण स्थापना गर्न मा {0} स्थापना {1} र {2} अपग्रेड गर्नुहोस् {1} निर्देशनहरूको पालना गर्नुहोस्। स्थापना पछि कृपया व्यवस्थापक प्यानल खोल्न, ट्याब "{3}" र बटन थिच्न "{4}" क्रममा स्थापना पूरा गर्न जानुहोस्।</AdminUpdateDownloadNewContent>
+  <AdminUpdateUploadButton>एक जगेडा प्रतिलिपि अपलोड र सेटिङहरू लागू</AdminUpdateUploadButton>
+  <AdminUpdateUploadAndInstallButton>सबै सेटिङ राखन संग नयाँ संस्करण स्थापना</AdminUpdateUploadAndInstallButton>
+  <AdminUpdateUploadEmptyText>कृपया अपलोड गर्नको लागि एउटा जगेडा प्रतिलिपि चयन</AdminUpdateUploadEmptyText>
+  <AdminUpdateFinishContent>चयन र आवेदन फोल्डर पहिले सिर्जना जगेडा संग्रह अपलोड कृपया अघिल्लो संस्करण को सेटिङ बहाल गर्न</AdminUpdateFinishContent>
+  <AdminUpdateFinishMessage>बधाई छ! सबै सेटिङ सफलतापूर्वक लागू छन्। साथै, जस्तै, तपाईं अन्य फाइलहरू गरिएका सबै परिवर्तनहरू लागू Default.aspx वा Global.asax।</AdminUpdateFinishMessage>
+  <AdminUpdateFinishRefreshPage>पृष्ठ पुन: लोड गरिनेछ</AdminUpdateFinishRefreshPage>
+  <AdminUpdateMainInfo>अपग्रेड यस प्रकारको आंशिक स्वचालित छ। तपाईं सिर्जना र आवेदन कन्फिगरेसन सेटिङहरू संग एक जगेडा फाइल डाउनलोड र अपग्रेड पछि यो पुनर्स्थापना हुन सक्छ। यी छोटो कदम पालन गर्नुहोस्: एक जगेडा फाइल सिर्जना गर्ने, मार्गदर्शन अपग्रेड प्रदर्शन, जगेडा फाइल देखि सेटिङ बहाल। पनि जगेडा गर्न प्रयोग गर्न सकिन्छ यो प्रक्रिया / अपग्रेड बिना सेटिङ बहाल। बस जगेडा फाइल देखि सेटिङ बहाल गर्न अपग्रेड चरण छोड्नुहोस्।</AdminUpdateMainInfo>
+  <AdminUpdateAutoButton>स्वतः</AdminUpdateAutoButton>
+  <AdminUpdateAutoInfo>अपग्रेड यस प्रकारको लगभग पूर्णतया स्वचालित छ। यो 2 कदम समावेश: हालको सेटिङ जगेडा जगेडा फाइल देखि (तपाईं डाउनलोड र एउटा जगेडा फाइल बचत गर्नुपर्छ), सेटिङ को नयाँ संस्करण र पुनर्स्थापना स्थापना। HTTP कमाण्डर स्वतः नयाँ संस्करण डाउनलोड र यो स्थापना वा तपाईं हाम्रो सर्भर मा नयाँ संस्करण संग जिप संग्रह बाटो निर्दिष्ट गर्न सक्नुहुन्छ गर्न सक्नुहुन्छ। सबै सेटिङ स्वचालित पहिले सिर्जना जगेडा फाइल देखि पुनःस्थापित छन्।</AdminUpdateAutoInfo>
+  <AdminUpdateRestoreWebConfigCheckBox>(जस्तै SMTP रूपमा उदाहरण) Web.config देखि सेटिङ बहाल</AdminUpdateRestoreWebConfigCheckBox>
+  <AdminUpdateBackupAssignedFoldersInRootMessage>ध्यान! त्यहाँ केही प्रयोगकर्ता भन्दा बढी कुल आकार छ कि आवेदन निर्देशिका मा फोल्डरहरू {0}। जगेडा छैन गरिनेछ। कृपया यी निर्देशिका को एक जगेडा प्रतिलिपि गर्न, आवेदन निर्देशिका हटाउन र आफ्नो छेउमा कार्य पुनः।</AdminUpdateBackupAssignedFoldersInRootMessage>
+  <AdminUpdateNeedRefreshPageForContinue>ध्यान! यो पृष्ठ पुन: लोड गर्न आवश्यक छ जारी गर्न। कृपया बटन थिच्न "{0}"। पुन: लोड गरेपछि कृपया सञ्चालन दोहोर्याउनुहोस्।</AdminUpdateNeedRefreshPageForContinue>
+  <AdminUpdateRestoreFromBackupEmpty>, वा यदि चयन गरिएको छैन, यो नयाँ सिर्जित फाइल द्वारा अघिल्लो चरणमा प्रयोग गरिनेछ</AdminUpdateRestoreFromBackupEmpty>
+  <AdminUpdateInstallZipPathHint>अद्यावधिक गर्नको लागि कृपया पहिलो क्षेत्रमा (सर्भर मा) पूर्ण शारीरिक स्थापना फाइल मार्ग निर्दिष्ट वा अनलाइन वितरण प्रयोग गर्न खाली छोड</AdminUpdateInstallZipPathHint>
+  <AdminUpdateInstallZipPathEmpty>स्थापना संग सङ्ग्रह गर्न बाटो निर्दिष्ट</AdminUpdateInstallZipPathEmpty>
+  <AdminUpdateProgress>अद्यावधिक गर्दै</AdminUpdateProgress>
+  <AdminUpdateAccessDeniedWarning>&lt;b&gt; ध्यान! &lt;/b&gt; गर्नाले सुधारे सेट कृपया {0} HTTP कमाण्डर संग फोल्डर लागि प्रयोगकर्ता NTFS अनुमति (पढ्न र लेखन) को लागि {1} र बारम्बार गर्ने अपग्रेड। &lt;br /&gt; सफल अपग्रेड पछि कृपया पूर्व अधिकार बहाल।</AdminUpdateAccessDeniedWarning>
+  <AdminUpdateAccessDeniedWarningCurentUser>वर्तमान</AdminUpdateAccessDeniedWarningCurentUser>
+
+  <ServerExceedsMaxSizeForEditAsTextFile>फाइल आकार पाठ फाइलको रूपमा यसलाई सम्पादन गर्न अधिकतम आकार नाघ्यो।</ServerExceedsMaxSizeForEditAsTextFile>
+  <ServerDemoMode>दिइएको कार्य एक डेमो मोड मा निषेध गरिएको छ</ServerDemoMode>
+  <ServerHostedMode>यो होस्ट परीक्षण संस्करण मा सेटिङ निम्न को मान परिवर्तन गर्न अनुमति छैन: {0}।</ServerHostedMode>
+  <ServerIncorrectImageContentType>फाइल माइम-प्रकार एक छवि छैन</ServerIncorrectImageContentType>
+  <ServerPermissionDenied>यो कार्य किनभने सीमित अनुमति को अस्वीकार</ServerPermissionDenied>
+  <ServerRestoreFromTrashNoParentFolder>पुनर्स्थापना असफल भयो किनभने अभिभावक निर्देशिका "{0}" फेला परेन गरिएको छ। कृपया यसलाई सिर्जना गर्न र पुन: प्रयास गर्नुहोस्।</ServerRestoreFromTrashNoParentFolder>
+  <ServerModifyPermissionDenied>तपाईं फाइल परिमार्जन गर्न अनुमति छैन किनभने यो कार्य अस्वीकार</ServerModifyPermissionDenied>
+  <ServerPathNotFound>बाटो फेला परेन।</ServerPathNotFound>
+  <ServerInvalidPath>बाटो "{0}" मान्य छैन</ServerInvalidPath>
+  <ServerInvalidAbsolutePath>अवैध निरपेक्ष बाटो "{0}"</ServerInvalidAbsolutePath>
+  <!-- share folder path: \\server\share -->
+  <ServerInvalidShareFolderPath>अवैध शेयर फोल्डर मार्ग "{0}"</ServerInvalidShareFolderPath>
+  <ServerInvalidUncPath>अवैध UNC पथ "{0}"</ServerInvalidUncPath>
+  <ServerUnableResolveUncPath>UNC पथ समाधान गर्न असमर्थ "{0}"</ServerUnableResolveUncPath>
+  <ServerInvalidFileName>फाइल / फोल्डर नाम सेट वा समावेश छ गलत वर्ण {0}</ServerInvalidFileName>
+  <ServerFilePathNotFound>फाइल अवस्थित छैन</ServerFilePathNotFound>
+  <ServerIncorrectPathForFileLink>गलत वस्तु प्रकार। तोकिएको बाटो एक फोल्डरमा पोइन्ट</ServerIncorrectPathForFileLink>
+  <ServerIncorrectPathForFolderLink>गलत वस्तु प्रकार। तोकिएको बाटो फाइल लागि अंक</ServerIncorrectPathForFolderLink>
+  <ServerRootFolderNotFound>बाटो लागि जड फोल्डर "{0}" फेला परेन।</ServerRootFolderNotFound>
+  <ServerUnableCreateFolder>फोल्डर सिर्जना गर्न असमर्थ</ServerUnableCreateFolder>
+  <ServerFileAlreadyExists>फाइल यो नाम पहिले नै अवस्थित संग</ServerFileAlreadyExists>
+  <ServerFileAlreadyExistsOnRename>
+    तपाईं पुन: नामकरण गर्न चाहनुहुन्छ "{0}" गर्न "{1}"?
+    यो स्थानमा एउटै नामको फाइल पहिले नै छ।
+  </ServerFileAlreadyExistsOnRename>
+  <ServerFolderAlreadyExistsOnRename>
+    तपाईं पुन: नामकरण गर्न चाहनुहुन्छ "{0}" गर्न "{1}"?
+    यो स्थानमा एउटै नामको एक फोल्डर पहिले नै छ।
+  </ServerFolderAlreadyExistsOnRename>
+  <ServerFoldersMergeConfirm>
+    यो गन्तव्य पहिले नै नाम फोल्डरमा "{0}"।
+    यो एक "{1}" तपाईंलाई अझै पनि यो फोल्डर मर्ज गर्न चाहनुहुन्छ "{0}"?
+  </ServerFoldersMergeConfirm>
+  <ServerFolderWithSameNameAsFileNameAlreadyExists>एउटै नामको एक फोल्डर पहिले नै छ "{0}" फाइल नाम रूपमा निर्दिष्ट</ServerFolderWithSameNameAsFileNameAlreadyExists>
+  <ServerFileWithSameNameAsFolderNameAlreadyExists>एउटै नामको फाइल पहिले नै छ "{0}" फोल्डर नाम रूपमा निर्दिष्ट</ServerFileWithSameNameAsFolderNameAlreadyExists>
+  <ServerFileNotFound>फाइल "{0}" फोल्डर मा फेला परेन "{1}"। संभवतः यो मेटिएको वा अन्य प्रयोगकर्ता द्वारा हटाइएको छ।</ServerFileNotFound>
+  <ServerDirectoryAlreadyExists>यो नामको निर्देशिका पहिले नै अवस्थित</ServerDirectoryAlreadyExists>
+  <ServerFolderMoveAlreadeExists>गन्तव्य फोल्डर "{0}" स्रोत फोल्डर जस्तै हो</ServerFolderMoveAlreadeExists>
+  <ServerUploadPathNotFound>फाइल भण्डारण लागि बाटो सर्भर फेला परेन छ</ServerUploadPathNotFound>
+  <ServerUploadPathNotSet>अपलोड गर्नको लागि मार्ग प्राप्त गर्दा त्रुटि देखा पर्यो। कृपया, ब्राउजर मा पृष्ठ ताजा र पुन: प्रयास गर्नुहोस्।</ServerUploadPathNotSet>
+  <ServerUploadNoChunk>सेव लागि कुनै बाक्लो टुक्रा</ServerUploadNoChunk>
+  <ServerUploadWriteChunk>बाइट देखि बाक्लो टुक्रा लेख्नुहोस्</ServerUploadWriteChunk>
+  <ServerUploadCreatingFile>फाइल सिर्जना</ServerUploadCreatingFile>
+  <ServerUploadFileUploaded>फाइल अपलोड गरिएको छ</ServerUploadFileUploaded>
+  <ServerUploadWriteError>लेखन त्रुटि</ServerUploadWriteError>
+  <ServerConfigurationError>गलत कन्फिगरेसन वा आवेदन! साइट प्रशासकलाई सम्पर्क</ServerConfigurationError>
+  <ServerPermissionsAllowTypes>वर्तमान अनुमति यो कार्य अनुमति मात्र फाइल प्रकार संग {0}</ServerPermissionsAllowTypes>
+  <ServerPermissionsDenyTypes>वर्तमान अनुमति फाइल प्रकार यो कार्य निषेध {0}</ServerPermissionsDenyTypes>
+  <ServerRequestSizeExceeded>अपलोड गरिएका फाइलहरू को आकार सर्भर सेटिङ आकार अनुमति नाघ्छ</ServerRequestSizeExceeded>
+  <ServerEmailMsgProcessedFilesSubject>अपलोड / संशोधित / डाउनलोड / सिर्जना / मेटिएको / साझा फाइलहरू / फोल्डरहरू</ServerEmailMsgProcessedFilesSubject>
+  <ServerEmailMsgUploadFilesTitle>अपलोड</ServerEmailMsgUploadFilesTitle>
+  <ServerEmailMsgModifyFilesTitle>संशोधित</ServerEmailMsgModifyFilesTitle>
+  <ServerEmailMsgDownloadFilesTitle>डाउनलोड</ServerEmailMsgDownloadFilesTitle>
+  <ServerEmailMsgCreateFilesTitle>सिर्जना</ServerEmailMsgCreateFilesTitle>
+  <ServerEmailMsgDeleteFilesTitle>मेटिएको</ServerEmailMsgDeleteFilesTitle>
+  <ServerEmailMsgCreatePublicFilesTitle>साझा</ServerEmailMsgCreatePublicFilesTitle>
+  <ServerEmailMsgProcessedFilesBody>
+    फाइलहरू निम्न / फोल्डरहरू थिए {0} द्वारा {1}:
+
+{2}
+    
+  </ServerEmailMsgProcessedFilesBody>
+  <ServerEmailMsgPasswordRecoverSubject>पासवर्ड रिकभरी</ServerEmailMsgPasswordRecoverSubject>
+  <ServerEmailMsgPasswordRecoverBody>
+    तपाईं वेब फाइल प्रबन्धकमा आफ्नो पासवर्ड रिकभर गर्न अनुरोध गर्नुभयो। आफ्नो पासवर्ड रिसेट गरिएको थियो। यो त्रुटि हो भन्ने विश्वास भने, बस यस पत्र बेवास्ता, तर आफ्नो पासवर्ड परिवर्तन गरिएको छ भन्ने कुरामा सचेत हुन।
+    प्रयोगकर्ता नाम: {0}
+    नयाँ पासवर्ड: {1}
+  </ServerEmailMsgPasswordRecoverBody>
+  
+  <ServerEmailMsgUserNameRecoverSubject>प्रयोगकर्ता नाम पुन: प्राप्ति</ServerEmailMsgUserNameRecoverSubject>
+  <ServerEmailMsgUserNameRecoverBody>
+    तपाईं वेब फाइल प्रबन्धकमा आफ्नो नाम ठीक गर्न अनुरोध गर्नुभयो।
+    प्रयोगकर्ता नाम: {0}
+  </ServerEmailMsgUserNameRecoverBody>
+
+  <ServerEmailMsgUserActivationSubject>खाता सक्रियता</ServerEmailMsgUserActivationSubject>
+  <ServerEmailMsgUserActivationBody>
+    खाता ({0}) सक्रियता आवश्यक छ।
+    तपाईंको खाता सक्रिय, निम्न लिंक मा क्लिक गर्नुहोस्: {1}
+  </ServerEmailMsgUserActivationBody>
+  <ServerEmailMsgUserRegisteredSubject>प्रयोगकर्ता दर्ता</ServerEmailMsgUserRegisteredSubject>
+  <ServerEmailMsgUserRegisteredBody>
+    तपाईंले सफलतापूर्वक वेब फाइल प्रबन्धक दर्ता गरिन्छ।
+    प्रयोगकर्ता नाम: {0}
+  </ServerEmailMsgUserRegisteredBody>
+  <ServerEmailMsgUserRegisteredForAdminsBody>
+    &lt;h4&gt; नयाँ प्रयोगकर्ता दर्ता गरिएको छ &lt;/h4&gt;
+    &lt;strong&gt; प्रयोगकर्ता नाम &lt;/strong&gt;: {0} &lt;br /&gt;
+    &lt;strong&gt; इमेल &lt;/strong&gt;: {1} &lt;br /&gt;
+    &lt;strong&gt; तिथि &lt;/strong&gt;: {2} &lt;br /&gt;
+    &lt;strong&gt; अतिरिक्त जानकारी &lt;/strong&gt;: {3} &lt;br /&gt;
+  </ServerEmailMsgUserRegisteredForAdminsBody>
+  <ServerDiskFullError>त्यहाँ डिस्कमा पर्याप्त ठाउँ छैन।</ServerDiskFullError>
+  <ServerFolderLimitations>फोल्डर सीमितता: {0}</ServerFolderLimitations>
+  <ServerShortcutAssignedFolderNotFound>तोकिएको फोल्डर भेटिएन सर्टकट को लक्ष्य बाटो लागि</ServerShortcutAssignedFolderNotFound>
+  <ServerSizeFilesForZipExceeded>archivable फाइलहरू आकार अनुमति पार मूल्य {0}।</ServerSizeFilesForZipExceeded>
+  <ServerPasteFolderToSubfolderError>गन्तव्य फोल्डर "{0}" स्रोत फोल्डर को एक सहायकफोल्डरमा छ "{1}"।</ServerPasteFolderToSubfolderError>
+  <ServerLiveConnectAppIDNotSpecified>माइक्रोसफ्ट लाइभ जडान आवेदन को ग्राहक परिचय परिभाषित छैन</ServerLiveConnectAppIDNotSpecified>
+  <ServerSendEmailInfo>लेखक {0} रूपमा आफ्नो इमेल निर्दिष्ट। जवाफ यस इमेल ठेगाना प्रयोग गर्नुहोस्।</ServerSendEmailInfo>
+
+  <ServerAntivirusScanningFailed>एक एन्टिभाइरस द्वारा स्क्यान: '{0} {1}' असामान्य समाप्त।</ServerAntivirusScanningFailed>
+
+  <ServerUserNameNotFound>नाम संग प्रयोगकर्ता {0} 'फेला परेन।</ServerUserNameNotFound>
+  <ServerFileNameCopySuffix>कापी</ServerFileNameCopySuffix>
+
+  <ServerDeleteFolderNTFSAccessDenied>तपाईं फोल्डर हटाउन NTFS अनुमति छैन "{0}"</ServerDeleteFolderNTFSAccessDenied>
+
+  <ServerMSOOTemplateNotFound>{0} टेम्पलेट फेला परेन</ServerMSOOTemplateNotFound>
+</Localization>

@@ -1,0 +1,1592 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Localization>
+  <!-- Common keys -->
+  
+  <ExtMsgButtonTextYES>Ja</ExtMsgButtonTextYES>
+  <ExtMsgButtonTextNO>Nein</ExtMsgButtonTextNO>
+  
+  <ControlHideFileManager>Web-Dateimanager minimieren</ControlHideFileManager>
+  
+  <CommonMainTitle>Remote-Zugriff auf Dateien</CommonMainTitle>
+  <CommonApplicationLoading>Bitte warten Sie, Zugang zu Dateien wird geladen</CommonApplicationLoading>
+  <CommonLoadError>Ein Fehler ist beim Erhalten der Baum-Daten aufgetreten</CommonLoadError>
+  <CommonGridAccessDenied>Der Ordner "{0}" wurde nicht gefunden, oder es gibt keine Leseberechtigung</CommonGridAccessDenied>
+  <CommonNoScript>Für diese Seite wird die Unterstützung von JavaScript benötigt! Schalten Sie bitte die Unterstützung von JavaScript ein und laden Sie die Seite neu!</CommonNoScript>
+  <CommonErrorCaption>Fehler</CommonErrorCaption>
+  <CommonWarningCaption>Warnung</CommonWarningCaption>
+  <CommonInfoCaption>Information</CommonInfoCaption>
+  <CommonConfirmCaption>Bestätigung</CommonConfirmCaption>
+  <CommonFileNameCaption>Dateiname</CommonFileNameCaption>
+  <CommonFileNamePrompt>Geben Sie einen neuen Dateinamen ein</CommonFileNamePrompt>
+  <CommonFileNewNameValue>New Textdatei.txt</CommonFileNewNameValue>
+  <CommonFolderNewNameValue>Neuer Ordner</CommonFolderNewNameValue>
+  <CommonZipFileNameCaption>Name des ZIP-Archivs</CommonZipFileNameCaption>
+  <CommonZipFileNamePrompt>Dateiname (Erweiterung wird automatisch hinzugefügt)</CommonZipFileNamePrompt>
+  <CommonFolderNameCaption>Ordnername</CommonFolderNameCaption>
+  <CommonFolderNamePrompt>Geben Sie den Namen für den neuen Ordner ein</CommonFolderNamePrompt>
+  <CommonDeleteOnePrompt>Sind Sie sicher, dass Sie "{0}" entfernen wollen?</CommonDeleteOnePrompt>
+  <CommonDeleteManyPrompt>Sind Sie sicher, dass Sie diese Objekte ({0} St.) entfernen wollen?</CommonDeleteManyPrompt>
+  <CommonForToday>Für heute</CommonForToday>  
+  <CommonButtonCaptionOK>OK</CommonButtonCaptionOK>
+  <CommonButtonCaptionCancel>Abbrechen</CommonButtonCaptionCancel>
+  <CommonButtonCaptionClose>Schließen</CommonButtonCaptionClose>
+  <CommonButtonCaptionAdd>Hinzufügen</CommonButtonCaptionAdd>
+  <CommonButtonCaptionContinue>Weiter</CommonButtonCaptionContinue>
+
+  <CommonProgressPleaseWait>Bitte warten Sie</CommonProgressPleaseWait>
+  
+  <CommonFieldLabelName>Name</CommonFieldLabelName>
+  <CommonFieldLabelPath>Pfad</CommonFieldLabelPath>
+  <CommonFieldLabelSize>Größe</CommonFieldLabelSize>
+  <CommonFieldLabelLabels>Labels</CommonFieldLabelLabels>
+  <CommonFieldLabelType>Typ</CommonFieldLabelType>
+  <CommonFieldLabelAction>Aktion</CommonFieldLabelAction>
+  <CommonFieldLabelDate>Datum</CommonFieldLabelDate>
+  <CommonFieldLabelDateTime>Datum und Uhrzeit</CommonFieldLabelDateTime>
+  <CommonFieldLabelDateCreated>Erstellungsdatum</CommonFieldLabelDateCreated>
+  <CommonFieldLabelDateModified>Änderungsdatum</CommonFieldLabelDateModified>
+  <CommonFieldLabelDateAccessed>Datum des letzten Zugriffs</CommonFieldLabelDateAccessed>
+  <CommonFieldLabelValue>Wert</CommonFieldLabelValue>
+  <CommonFieldLabelUserName>Benutzername</CommonFieldLabelUserName>
+  <CommonFieldLabelUser>Benutzer</CommonFieldLabelUser>
+  <CommonFieldLabelUsers>Benutzer</CommonFieldLabelUsers>
+  <CommonFieldLabelGroupName>Gruppenname</CommonFieldLabelGroupName>
+  <CommonFieldLabelGroup>Gruppe</CommonFieldLabelGroup>
+  <CommonFieldLabelGroups>Gruppen</CommonFieldLabelGroups>
+  <CommonFieldLabelPassword>Passwort</CommonFieldLabelPassword>
+  <CommonFieldLabelRepeatPassword>Wiederholen Sie bitte das Passwort</CommonFieldLabelRepeatPassword>
+  <CommonFieldLabelComments>Bemerkungen</CommonFieldLabelComments>
+  <CommonValueTypeFolder>Ordner</CommonValueTypeFolder>
+
+  <CommonFieldLabelDescription>Beschreibung</CommonFieldLabelDescription>
+  <EmptyDescriptionText>Geben Sie die Beschreibung</EmptyDescriptionText>
+  <CommonFieldLabelReadMeTxt>Readme.txt Inhalt</CommonFieldLabelReadMeTxt>
+  
+  <CommonWordOr>oder</CommonWordOr>
+
+  <SortAscText>Aufsteigend sortieren</SortAscText>
+  <SortDescText>Absteigend sortieren</SortDescText>
+
+  <CommonNewDocument>Neues Dokument</CommonNewDocument>
+  <CommonNewSpreadsheet>Neue Tabelle</CommonNewSpreadsheet>
+  <CommonNewPresentation>Neue Präsentation</CommonNewPresentation>
+
+  <CommonWordWrap>Zeilenumbruch</CommonWordWrap>
+  
+  <!-- End Common keys -->
+
+  <!-- Labels -->
+
+  <LabelsTitle>Etikette</LabelsTitle>
+  <LabelsNoLabel>Ohne Label</LabelsNoLabel>
+  <LabelsColor>Farbe</LabelsColor>
+  <LabelsCustomLabel>Benutzerdefinierte Label</LabelsCustomLabel>
+  <LabelsCustomLabelHint>Geben Sie den Text der Bezeichnung</LabelsCustomLabelHint>
+  <LabelsCustomLabelView>Label&amp;nbsp;Ansicht:&amp;nbsp;{0}{1}{2}</LabelsCustomLabelView>
+  <LabelsFileLabelledMessage>Erfolgreich beschriftet {0}(n) Artikel</LabelsFileLabelledMessage>
+  <LabelsRemovedMessage>Erfolgreich entfernt {0} Etikett(en)</LabelsRemovedMessage>
+  <LabelsNotRemovedMessages>nicht entfernt werden: {0}</LabelsNotRemovedMessages>
+  <LabelsNotLabelledMessage>nicht beschriftet: {0}</LabelsNotLabelledMessage>
+  <LabelsLabelRemovedMessage>Beschriften Sie erfolgreich entfernt</LabelsLabelRemovedMessage>
+  <LabelsNewLabel>Neues Label</LabelsNewLabel>
+  <LabelsLabellingMessage>Beschriftung</LabelsLabellingMessage>
+  <LabelsRemovingLabelMessage>Entfernen von Etiketten</LabelsRemovingLabelMessage>
+  <LabelsLabelInfoTip>Markiert als '{0}' {1} Benutzer '{2}'</LabelsLabelInfoTip>
+
+  <!-- End Labels -->
+
+  <!-- Comments -->
+
+  <CommentsCountInfoTip>{0} Kommentare</CommentsCountInfoTip>
+  <CommentsWriteCommentHint>Schreiben Sie einen Kommentar und drücken Sie '{0}' oder Ctrl+Enter oder Shift+Enter ...</CommentsWriteCommentHint>
+
+  <!-- End Comments -->
+
+  <RefreshPageWarningMessage>&lt;b&gt;Achtung!&lt;/b&gt; Zum Beenden muss die aktuelle Seite aktualisiert werden.&lt;br /&gt;Wollen Sie sie jetzt aktualisieren?</RefreshPageWarningMessage>
+
+  <PagingToolbarBeforePageText>Seite</PagingToolbarBeforePageText>
+  <PagingToolbarAfterPageText>aus {0}</PagingToolbarAfterPageText>
+  <PagingToolbarFirstText>Erste Seite</PagingToolbarFirstText>
+  <PagingToolbarPrevText>Vorherige Seite</PagingToolbarPrevText>
+  <PagingToolbarNextText>Nächste Seite</PagingToolbarNextText>
+  <PagingToolbarLastText>Letzte Seite</PagingToolbarLastText>
+  <PagingToolbarDisplayMsg>Es werden Einträge von {0} bis {1}, insgesamt {2} angezeigt</PagingToolbarDisplayMsg>
+  <PagingToolbarEmptyMsg>Keine Daten zum Anzeigen</PagingToolbarEmptyMsg>
+  
+  <GridTotalLabel>Insgesamt:</GridTotalLabel>
+  <GridTotalFilesLabel>Dateien</GridTotalFilesLabel>
+  <GridTotalFoldersLabel>Ordner</GridTotalFoldersLabel>
+  
+  <GridDDSelectedRowsText>Objekte: {0}{1}</GridDDSelectedRowsText>
+  <GridDDSelectedFilesText>Dateien: {0}</GridDDSelectedFilesText>
+  <GridDDSelectedFoldersText>Ordner: {0}</GridDDSelectedFoldersText>
+  <GridDDConfirmCopyMoveTitle>Verschiebung zum Ordner "{0}"</GridDDConfirmCopyMoveTitle>
+  <GridDDConfirmAddToZipTitle>Hinzufügen zum ZIP-Archiv "{0}"</GridDDConfirmAddToZipTitle>
+  <GridDDConfirmAddToZipMessage>Die verschobenen Dateien werden zu diesem ZIP-Archiv hinzugefügt. Wollen Sie fortfahren? {0}</GridDDConfirmAddToZipMessage>
+  <GridDDConfirmCopyMoveMsg>Wählen Sie die Operation, die Sie ausführen wollen. Ordner mit dem Inhalt: "{0}", Zielkatalog: "{1}".{2}.{3}</GridDDConfirmCopyMoveMsg>
+  <GridDDConfirmCopyMoveToZipMsg>Objekte werden zum ZIP-Archiv hinzugefügt. Wählen Sie die Operation, die Sie mit den Dateien nach deren Hinzufügen zum Archiv durchführen wollen. Ordner mit dem Inhalt: "{0}", Zielkatalog: "{1}".{2}.{3}</GridDDConfirmCopyMoveToZipMsg>
+  <GridDDDraggedFileNames>&lt;b&gt;Verschobene Dateien:&lt;/b&gt; {0}</GridDDDraggedFileNames>
+  <GridDDDraggedFolderNames>&lt;b&gt;Verschobene Ordner:&lt;/b&gt; {0}</GridDDDraggedFolderNames>
+  <GridDDConfirmTargetFolderOnlyCopyMsg>Die aktuellen Rechte für den Ordner mit Inhalt ermöglichen es nur, die zu verschiebenden Objekte zu kopieren. Wollen Sie fortfahren? {0}</GridDDConfirmTargetFolderOnlyCopyMsg>
+  <GridDDConfirmTargetFolderOnlyMoveMsg>Die aktuellen Rechte für den Ordner mit Inhalt ermöglichen es nur, die zu verschiebenden Objekte zu verschieben Wollen Sie fortfahren? {0}</GridDDConfirmTargetFolderOnlyMoveMsg>
+
+  <GridRowPublicHint>Klicken Sie auf einen öffentlichen Link in einem neuen Fenster / Tab öffnen</GridRowPublicHint>
+  <GridRowAlertHint>Klicken Sie auf Änderungen für diese Datei / Ordner getan zu sehen</GridRowAlertHint>
+  <GridRowRecentHint>Suchen Sie diese Datei / Ordner</GridRowRecentHint>
+  <GridRowAlertEventHint>Klicken Sie auf diese Lage zu gehen</GridRowAlertEventHint>
+
+  <ProgressCreating>Erstellen</ProgressCreating>
+  <ProgressDeleting>Entfernen</ProgressDeleting>
+  <ProgressLoading>Laden</ProgressLoading>
+  <ProgressSearching>Suche</ProgressSearching>
+  <ProgressZipping>Archivieren</ProgressZipping>
+  <ProgressUnzipping>Entpacken</ProgressUnzipping>
+  <ProgressZipContents>Den Inhalt des ZIP-Archivs bekommen</ProgressZipContents>
+  <ProgressPrepareDownload>Vorbereitung zum Laden</ProgressPrepareDownload>
+  <ProgressMoving>Verschieben</ProgressMoving>
+  <ProgressCopying>Kopieren</ProgressCopying>
+  <ProgressRenaming>Umbenennen</ProgressRenaming>
+  <ProgressUpdating>Aktualisieren</ProgressUpdating>
+  <ProgressLoadingEditInPixlr>Laden des Pixlr-Redaktors</ProgressLoadingEditInPixlr>
+  <ProgressLoadingEdit>Laden des Redaktors</ProgressLoadingEdit>
+  <ProgressSavingEdit>Datei speichern</ProgressSavingEdit>
+  <ProgressSaving>Speichern</ProgressSaving>
+  <ProgressExecuting>Ausführen</ProgressExecuting>
+
+  <BalloonFilesDeleted>Dateien entfernt: {0}</BalloonFilesDeleted>
+  <BalloonFoldersDeleted>Ordner entfernt: {0}</BalloonFoldersDeleted>
+  <BalloonFilesFailed>Dateien übersprungen: {0}</BalloonFilesFailed>
+  <BalloonFoldersFailed>Ordner übersprungen: {0}</BalloonFoldersFailed>
+  <BalloonFilesZipped>Dateien archiviert: {0}</BalloonFilesZipped>
+  <BalloonFoldersZipped>Ordner archiviert: {0}</BalloonFoldersZipped>
+  <BalloonFilesCopied>Dateien kopiert: {0}</BalloonFilesCopied>
+  <BalloonFoldersCopied>Ordner kopiert: {0}</BalloonFoldersCopied>
+  <BalloonFilesMoved>Dateien verschoben: {0}</BalloonFilesMoved>
+  <BalloonFoldersMoved>Ordner verschoben: {0}</BalloonFoldersMoved>
+  <BalloonNotUnzipped>Dateien nicht entpackt: {0}</BalloonNotUnzipped>
+  <BalloonFilesUploaded>Dateien geladen: {0}</BalloonFilesUploaded>
+  <BalloonFilesNotUploaded>Dateien nicht geladen: {0}</BalloonFilesNotUploaded>
+  <BalloonSomeFilesNotUploaded>Einige Dateien wurden nicht geladen</BalloonSomeFilesNotUploaded>
+  <BalloonCreatedSuccessfully>Erstellung erfolgreich beendet</BalloonCreatedSuccessfully>
+  <BalloonUnzippedSuccessfully>Entpacken erfolgreich beendet</BalloonUnzippedSuccessfully>
+  <BalloonRenamedSuccessfully>Umbenennen erfolgreich beendet</BalloonRenamedSuccessfully>
+  <BalloonSavedSuccessfully>Speichern erfolgreich beendet</BalloonSavedSuccessfully>
+  <BalloonCopiedToClipboard>In die Zwischenablage kopiert</BalloonCopiedToClipboard>
+  <BalloonCopyToClipboardFailed>Kopieren in die Zwischenablage fehlgeschlagen</BalloonCopyToClipboardFailed>
+
+  <CommandCopyToClipboard>In die Zwischenablage kopieren</CommandCopyToClipboard>
+  <CommandCopyLinkToClipboard>Kopieren Sie den Link in die Zwischenablage kopieren</CommandCopyLinkToClipboard>
+  <ClipboardScreenshotTitlePrefix>Bild</ClipboardScreenshotTitlePrefix>
+  <ClipboardScreenshotHint>Bilder: Sie können einen Screenshot aus der Zwischenablage einfügen (Drücken Sie &lt;b&gt;Ctrl+PrtSc&lt;/b&gt; und dann &lt;b&gt;Ctrl+V&lt;/b&gt;) oder ein Bild von Ihrem Editor (Drücken Sie &lt;b&gt;Ctrl+V&lt;/b&gt;).</ClipboardScreenshotHint>
+  <ClipboardFileHint>Sie können auch eine Datei aus der Zwischenablage einfügen</ClipboardFileHint>
+
+  <CommandClouds>Cloud Speicher</CommandClouds>
+  <CommandCloudsDownloadTo>speichern in…</CommandCloudsDownloadTo>
+  <CommandCloudsUploadFrom>laden aus…</CommandCloudsUploadFrom>
+  <CommandCloudsAbout>Information über die Cloud Speicher</CommandCloudsAbout>
+  
+  <CommandBack>Zurück</CommandBack>
+  <CommandForward>Vorwärts</CommandForward>
+  <CommandRecentFolders>Liste der zuletzt besuchten Ordner</CommandRecentFolders>
+  <CommandHome>Home</CommandHome>
+  <CommonActions>Operationen</CommonActions>
+  <CommandMultiSelect>Multiauswahl</CommandMultiSelect>
+  <CommandShare>Allgemeiner Zugriff</CommandShare>
+  <CommandSorting>Sortieren</CommandSorting>
+  
+  <CommandFileManager>Zur Dateiliste zurückkehren</CommandFileManager>
+  <CommandFolders>Ordner</CommandFolders>
+  <CommandGridView>Ansicht</CommandGridView>
+  <CommandRefresh>Aktualisieren</CommandRefresh>
+  <CommandThumbnailView>Entwürfe</CommandThumbnailView>
+  <CommandDetailedView>Tabelle</CommandDetailedView>
+  <CommandDetailsPane>Detailbereich</CommandDetailsPane>
+  <CommandFavorites>Favoriten</CommandFavorites>
+  <CommandAddToFavorites>Zu den Favoriten hinzufügen</CommandAddToFavorites>
+  <CommandAddToFavoritesHint>Aktuellen Ordner zu den Favoriten hinzufügen</CommandAddToFavoritesHint>
+  <AddingToFavoritesMessage>Hinzufügen zu den Favoriten</AddingToFavoritesMessage>
+  <RemoveFromFavoritesMessage>Das Löschen von Favoriten</RemoveFromFavoritesMessage>
+  <FolderAlreadyAddedInFavorites>Der Ordner "{0}" existiert bereits bei den Favoriten</FolderAlreadyAddedInFavorites>
+  <FolderAddedInFavoritesSuccessfully>Der Ordner "{0}" wurde erfolgreich zu den Favoriten hinzugefügt</FolderAddedInFavoritesSuccessfully>
+  <FavoritesIsOverflowed>Der aktuelle Ordner "{0}" konnte nicht zu den Favoriten hinzugefügt werden. Entfernen einige andere Ordner aus der Liste der Favoriten, um Platz frei zu machen, und wiederholen Sie den Versuch.</FavoritesIsOverflowed>
+  <RemoveFromFavoritesHint>"{0}" aus der Liste der Favoriten entfernen</RemoveFromFavoritesHint>
+  <AddToHomeScreenIOSHint>Klicken Sie auf {0} und wählen Sie dann &lt;strong&gt;"Zum Startbildschirm hinzufügen"&lt;/strong&gt;</AddToHomeScreenIOSHint>
+  <CommandSearch>Suche</CommandSearch>
+  <CommandUpload>Laden</CommandUpload>
+  <CommandSettings>Einstellungen</CommandSettings>
+  <CommandLanguage>Sprache</CommandLanguage>
+  <CommandAdministration>Administration</CommandAdministration>
+  <CommandAdminPanel>Administration-Schaltfläche</CommandAdminPanel>
+  <CommandChangePassword>Passwort ändern</CommandChangePassword>
+  <ProgressChangePassword>Passwort Änderung</ProgressChangePassword>
+  <CommandChangeEmail>E-Mail ändern</CommandChangeEmail>
+  <ProgressChangeEmail>E-Mail Änderung</ProgressChangeEmail>
+  <CommandMobileView>Mobiles Interface (Smartphones)</CommandMobileView>
+  <CommandStandardView>Volle Version</CommandStandardView>
+  <CommandInstallIOSApp>iOS Anwendung installieren</CommandInstallIOSApp>
+  <CommandInstallAndroidApp>Android Anwendung installieren</CommandInstallAndroidApp>
+  <CommandAddServerToMobileApp>Diesen Server zur mobilen Anwendung hinzufüge</CommandAddServerToMobileApp>
+  <CommandAddToHomeScreen>Zum Startbildschirm hinzufügen</CommandAddToHomeScreen>
+  <CommandDiagnostics>Diagnoseseite</CommandDiagnostics>
+  <CommandLicenseInfo>Information zur Lizenz</CommandLicenseInfo>
+  <CommandLogout>Ausgang</CommandLogout>
+  <CommandLogoutHint>Klicken Sie zur Beendigung der aktuellen Session</CommandLogoutHint>
+  <CommandNew>Erstellen</CommandNew>
+  <CommandFile>Datei</CommandFile>
+  <CommandEmptyFile>Leere Datei</CommandEmptyFile>
+  <CommandNewMSOODocument>Dokument mit MS Office Online</CommandNewMSOODocument>
+  <CommandNewOffice365Document>Dokument mit Office 365</CommandNewOffice365Document>
+  <CommandNewMSOOWord>Word-Dokument</CommandNewMSOOWord>
+  <CommandNewMSOOExcel>Excel Tabelle</CommandNewMSOOExcel>
+  <CommandNewMSOOPowerPoint>PowerPoint Präsentation</CommandNewMSOOPowerPoint>
+  <CommandNewGoogleDocument>Dokument mit Google</CommandNewGoogleDocument>
+  <CommandNewGoogleDocs>Google Docs</CommandNewGoogleDocs>
+  <CommandNewGoogleSheets>Google Sheets</CommandNewGoogleSheets>
+  <CommandNewGoogleSlides>Google Slides</CommandNewGoogleSlides>
+  <CommandNewImage>Bild in Pixlr</CommandNewImage>
+  <CommandFolder>Ordner</CommandFolder>
+  <CommandNewFile>Neue leere Datei erstellen</CommandNewFile>
+  <CommandNewFolder>Neuen Ordner erstellen</CommandNewFolder>
+  <CommandNewWithTemplate>Mit Vorlage ...</CommandNewWithTemplate>
+  <CommandRename>Umbenennen</CommandRename>
+  <CommandDelete>Entfernen</CommandDelete>
+  <CommandCopy>Kopieren</CommandCopy>
+  <CommandMove>Verschieben</CommandMove>
+  <CommandCut>Ausschneiden</CommandCut>
+  <CommandCopyTo>Kopieren nach...</CommandCopyTo>
+  <CommandMoveTo>Ziehen nach...</CommandMoveTo>
+  <CommandCopyCutClipboardSuffix>in die Zwischenablage kopieren</CommandCopyCutClipboardSuffix>
+  <CommandPaste>Einfügen</CommandPaste>
+  <CommandPasteInto>Einfügen in</CommandPasteInto>
+  <CommandZip>Zum ZIP-Archiv hinzufügen</CommandZip>
+  <CommandZipMenu>Zip/Unzip</CommandZipMenu>
+  <CommandUnzip>Archiv entpacken</CommandUnzip>
+  <CommandUnzipSelected>Ausgewähltes entpacken</CommandUnzipSelected>
+  <CommandUnzipAll>Alles entpacken</CommandUnzipAll>
+  <CommandUnzipTo>in den Ordner</CommandUnzipTo>
+  <CommandUnzipToCurrent>in den aktuellen Ordner</CommandUnzipToCurrent>
+  <MessageUnzipToFolder>Geben Sie den Ordnernamen ein, wohin die Datei entpackt wird</MessageUnzipToFolder>
+  <MessageUnzipPasswordHint>Wenn Sie wissen, dass ein Passwort zum Entpacken benötigt wird, geben Sie ihn in das untere Feld ein</MessageUnzipPasswordHint>
+  <MessageUnzipNeedPassword>Zum Entpacken der Dateien muss man ein Passwort eingeben</MessageUnzipNeedPassword>
+  <ZipPasswordProtectHint>Um das Archiv mit einem Passwort zu schützen, geben Sie diesen in das untere Feld ein. Ansonsten lassen Sie dieses Feld leer</ZipPasswordProtectHint>
+  <AppendToZipPasswordProtectHint>Um die in das Archiv hinzugefügten Dateien mit einem Passwort zu schützen, geben Sie diesen in das untere Feld ein. Ansonsten lassen Sie dieses Feld leer</AppendToZipPasswordProtectHint>
+  <ZipPasswordProtectWindowTitle>Archivieren mit einem Passwort</ZipPasswordProtectWindowTitle>
+  <OpenFolderAfterUnzipCheckBox>Den Ordner nach dem Entpacken öffnen</OpenFolderAfterUnzipCheckBox>
+  <CommandUnzipToNew>in eine neuen Ordner</CommandUnzipToNew>
+  <CommandZipContents>Den Inhalt des Archivs anzeigen</CommandZipContents>
+  <ArchiveContentsTitle>Inhalt des Archivs "{0}"</ArchiveContentsTitle>
+  <CommandDownload>Herunterladen</CommandDownload>
+  <CommonDownloadAll>Alles herunterladen</CommonDownloadAll>
+  <DownloadListDragFile>Sie können per Drag-n-Drop von Dateien auf Ihrem Desktop</DownloadListDragFile>
+  <CommandZipDownload>Archivieren und herunterladen</CommandZipDownload>
+  <CommandView>Im Browser anzeigen</CommandView>
+  <CommandDownloadOrView>Herunterladen oder Ansicht</CommandDownloadOrView>
+  <CommandPreview>Bilder anzeigen</CommandPreview>
+  <CommandFlashPreview>Flash-Animation anzeigen</CommandFlashPreview>
+  <GettingSizeFlashMovie>Größe der Flash-Animation erhalten</GettingSizeFlashMovie>
+  <CommandEdit>Als Textdatei bearbeiten</CommandEdit>
+  <CommandEditView>Darstellung als Textdatei</CommandEditView>
+  <AceNotLoadedMessage>Unfähig Ace Editor laden</AceNotLoadedMessage>
+  <VideoJsNotLoadedMessage>Kann nicht VideoJS Player zu laden</VideoJsNotLoadedMessage>
+  <CommandMenuEdit>Ändern</CommandMenuEdit>
+  <CommandSelectAll>Alles auswählen</CommandSelectAll>
+  <CommandInvertSelection>Ausgewähltes invertieren</CommandInvertSelection>
+  <CommandLinkToFile>Link zur Datei/Ordner</CommandLinkToFile>
+  <!--Share link-->
+  <CommandMakePublicFolder>Link für den allgemeinen Zugang erstellen</CommandMakePublicFolder>
+  <PublicViewInGoogle>In Google</PublicViewInGoogle>
+  <PublicViewinOWA>Blick in OWA</PublicViewinOWA>
+  <!--Make public folder (share)-->
+  <CommandViewWithGoogleDoc>In Google Docs anzeigen</CommandViewWithGoogleDoc>
+  <CommandViewWithShareCad>Sehen Sie in ShareCad.org</CommandViewWithShareCad>
+  <CommandViewWithAutodesk>Blick in Autodesk</CommandViewWithAutodesk>
+  <CommandViewWithBox>Blick in Box</CommandViewWithBox>
+  <CommandViewWithOWA>In Microsoft Office Web Apps anzeigen</CommandViewWithOWA>
+  <CommandCloudConvert>Rechnen Sie mit CloudConvert</CommandCloudConvert>
+  <ProgressGetCloudConvertOutputFormats>Erste Ausgabeformate</ProgressGetCloudConvertOutputFormats>
+  <ProgressCloudConvertConverting>Konvertieren</ProgressCloudConvertConverting>
+  <CloudConvertWindowTitle>Convert '{0}'</CloudConvertWindowTitle>
+  <CloudConvertWindowConvertButton>Konvertieren</CloudConvertWindowConvertButton>
+  <CloudConvertWindowOutputFormatsLabel>Ausgabeformat</CloudConvertWindowOutputFormatsLabel>
+  <CloudConvertDownloadLinkLabel>Link zum Download</CloudConvertDownloadLinkLabel>
+  <CloudConvertSaveAsLabel>Speichern unter (Erweiterung wird automatisch hinzugefügt):</CloudConvertSaveAsLabel>
+  <CloudConvertNoOutputFormats>Es gibt keine verfügbaren Formate für die Umwandlung</CloudConvertNoOutputFormats>
+  <CloudConvertNoUrlForDownload>Es war nicht die Verbindung zu erhalten für das Herunterladen gelungen</CloudConvertNoUrlForDownload>
+  <ProgressCloudConvertUploading>Das Hochladen von CloudConvert</ProgressCloudConvertUploading>
+  <CloudConvertSaveAsNameBlank>Geben Sie Name hier</CloudConvertSaveAsNameBlank>
+  <CancelEditButton>Abbrechen bearbeiten</CancelEditButton>
+  <HideButton>Verstecken</HideButton>
+  <EditDocumentCancelHint>Nachdem Sie das Fenster mit bearbeiteten Dokument schließen, wird es automatisch gespeichert werden.&lt;br /&gt;Sie dieses Dialogfeld, indem Sie verstecken kann {0} (in diesem Fall wird das Dokument immer noch nach dem Schließen des Editors gespeichert werden).&lt;br /&gt;Wenn Sie möchten Dokument nicht speichern, drücken Sie auf {1} (in diesem Fall wird der Editor-Fenster geschlossen sein).</EditDocumentCancelHint>
+  <EditDocumentSaveHint>Jetzt können Sie die Änderungen im Dokument speichern, indem Sie {0}. Aufmerksamkeit! Nachdem Sie das Editor-Fenster schließen, wird es auch automatisch gespeichert.</EditDocumentSaveHint>
+  <CommandEditInMSOffice>In Microsoft Office bearbeiten</CommandEditInMSOffice>
+  <CommandEditInOOo>In OpenOffice / Libre Office bearbeiten</CommandEditInOOo>
+  <CommandViewInMSOffice>Blick in MS Office</CommandViewInMSOffice>
+  <CommandViewInOOo>Blick in Openoffice / Libreoffice</CommandViewInOOo>
+  <CommandEditInPixlr>In Pixlr bearbeiten</CommandEditInPixlr>
+  <CommandEditInAdobe>Bearbeiten in Adobe Creative Cloud</CommandEditInAdobe>
+  <AdobeImageEditorSavedAsNewTypeMessage>Das Bild änderte sich im Adobe Image Editor wurde in dem Format gespeichert {0}</AdobeImageEditorSavedAsNewTypeMessage>
+  <CommandEditInGoogle>Edit in Google Drive</CommandEditInGoogle>
+  <EditInGoogleConvertMessage>Nach dem Bearbeiten wird das Dokument in Format konvertiert werden {1} {0} {2}</EditInGoogleConvertMessage>
+  <EditInGoogleLinkError>Können Sie den Link zu erhalten, das Dokument in Google Drive bearbeiten</EditInGoogleLinkError>
+  <EditInGoogleWaiting>Warten auf die Bearbeitung Abschluss in Google Drive</EditInGoogleWaiting>
+  <CommandEditInMSOO>Bearbeiten in MS Office Online</CommandEditInMSOO>
+  <EditInMSOOLinkError>Können Sie den Link zu erhalten, das Dokument in MS Office Online zu bearbeiten</EditInMSOOLinkError>
+  <EditInMSOOWaiting>Warten auf die Bearbeitung Abschluss in MS Office Online</EditInMSOOWaiting>
+  <CommandEditInOffice365>Bearbeiten in Office 365</CommandEditInOffice365>
+  <EditInOffice365LinkError>Können Sie den Link zu erhalten, das Dokument in Office 365 zu bearbeiten</EditInOffice365LinkError>
+  <EditInOffice365Waiting>Warten auf die Bearbeitung Abschluss in Office 365</EditInOffice365Waiting>
+  <CommandSave>Speichern</CommandSave>
+  <CommandSaveAs>Speichern unter…</CommandSaveAs>
+  <CommandAppRestart>Anwendung neu starten</CommandAppRestart>
+  <CommandPlayVideoFlash>Video im Flash-Player abspielen</CommandPlayVideoFlash>
+  <CommandPlayVideoHtml5>Video im Browser abspielen (HTML 5)</CommandPlayVideoHtml5>
+  <CommandPlayAudioHtml5>Audio im Browser abspielen (HTML 5)</CommandPlayAudioHtml5>
+  <CommandPlayVideo>Video abspielen</CommandPlayVideo>
+  <CommandPlayAudio>Audio abspielen</CommandPlayAudio>
+  <CommandConvertVideo>Video konvertieren</CommandConvertVideo>
+
+  <ViewInServiceLink>Klicken Sie hier, um die Datei anzuzeigen</ViewInServiceLink>
+  <EditInServiceLink>Klicken Sie hier, um das Dokument zu bearbeiten</EditInServiceLink>
+
+  <OfficeEditCopyLinkLabel>Kopieren Sie den unten stehenden Link und öffnen Sie es in der Office-Anwendung:</OfficeEditCopyLinkLabel>
+  <OfficeRunError>Die Anwendung konnte nicht gestartet werden {0}</OfficeRunError>
+  <BadPathToFile>Die Datei wurde am angegebenen Pfad nicht gefunden</BadPathToFile>
+  <FixBasicAuthAlertTitle>Achtung!</FixBasicAuthAlertTitle>
+  <FixBasicAuthAlertMessage>Es wird die Authetifizierungsüberprüfung Basic ohne SSL benutzt! Dabei kann Microsoft Office unter Umständen Ihre Datei nicht öffnen. Um die zu ändern, wenden Sie sich an den Hilfe-Bereich {0}.</FixBasicAuthAlertMessage>
+  <FixBasicAuthAlertCheckBoxText>Diesen Dialog nicht wieder anzeigen.</FixBasicAuthAlertCheckBoxText>
+  <CommandDetails>Eigenschaften</CommandDetails>
+  <CommonButtonCaptionAddDetail>detail</CommonButtonCaptionAddDetail>
+  <CommonButtonCaptionAddComment>Einen Kommentar hinzufügen</CommonButtonCaptionAddComment>
+  <DetailsWindowTitle>Eigenschaften "{0}"</DetailsWindowTitle>
+  <FileDetailsSave>Änderungen anwenden</FileDetailsSave>
+  <FileDetailsIgnoreChanges>Ignorieren</FileDetailsIgnoreChanges>
+  <FileDetailsCloseConfirmTitle>Das Eigenschaften-Fenster schließen</FileDetailsCloseConfirmTitle>
+  <FileDetailsCloseConfirmMsg>Achtung! Die Änderungen wurden nicht gespeichert. Wählen Sie die Operation aus, die Sie vor dem Schließen des Fenster ausführen wollen.</FileDetailsCloseConfirmMsg>
+  <FileDetailsGridTitleColumn>Name</FileDetailsGridTitleColumn>
+  <FileDetailsGridAuthorColumn>Autor der letzten Änderung</FileDetailsGridAuthorColumn>
+  <LoadingDetailsMask>Laden der Eigenschaften</LoadingDetailsMask>
+  <NewDetailsTitle>Neue Überschrift</NewDetailsTitle>
+  <NewDetailsValue>Neuer Wert</NewDetailsValue>
+  <DetailsSavingMsg>Speichern der Eigenschaften</DetailsSavingMsg>
+  <ProgressLoadingEditInOffice>Vorbereiten der Datei zur Bearbeitung</ProgressLoadingEditInOffice>
+  <MenuFilterText>Filter</MenuFilterText>
+  <EmptyTextFilter>Geben Sie den Wert ein…</EmptyTextFilter>
+  <AfterDateFilterText>Danach</AfterDateFilterText>
+  <BeforeDateFilterText>Bevor</BeforeDateFilterText>
+  <OnDateFilterText>Nach Datum</OnDateFilterText>
+  <YesBooleanFilterText>Ja</YesBooleanFilterText>
+  <NoBooleanFilterText>Nein</NoBooleanFilterText>
+  <CommandEditWithZoho>In Zoho Docs bearbeiten</CommandEditWithZoho>
+  <ZohoNotSupportedFormatMessage>Diese Dateiart wird nicht von Zoho unterstützt. Wenden Sie sich an die Info zum Link {0}.</ZohoNotSupportedFormatMessage>
+  <ProgressLoadingEditInZoho>Laden des Redaktors Zoho</ProgressLoadingEditInZoho>
+  <CommandSubMenuViewAndEdit>Vorschau / Bearbeiten</CommandSubMenuViewAndEdit>
+  <CommandSubMenuShare>Allgemeiner Zugriff</CommandSubMenuShare>
+  <CommandSubMenuMore>mehr</CommandSubMenuMore>
+  <StopUploadingButtonText>Abbrechen</StopUploadingButtonText>
+  <SimpleUploadErrorInfo>Ein Fehler ist beim Laden aufgetreten. &lt;br /&gt;{0}Genauere Information anzeigen&lt;/a&gt;.</SimpleUploadErrorInfo>
+  <BalloonAbortFilesUploaded>Das Laden der Dateien wurde unterbrochen</BalloonAbortFilesUploaded>
+  <UploadDragNDropTab>Drag'n'Drop</UploadDragNDropTab>
+  <UploadDragNDropTabImages>Drag &amp; Drop + Bilder</UploadDragNDropTabImages>
+  <DnDGridProgressColumn>Ladeprogress</DnDGridProgressColumn>
+  <DnDFileReadingError>Fehler beim Lesen. Fehlercode: {0}.</DnDFileReadingError>
+  <DnDFileReadingAbort>Lesen wurden unterbrochen. Fehlercode: {0}.</DnDFileReadingAbort>
+  <DnDFileUploadingError>Fehler beim Laden. {0}</DnDFileUploadingError>
+  <DnDFileUploadingAbort>Laden wurde unterbrochen.</DnDFileUploadingAbort>
+  
+  <CommandWebFoldersLinks>Web-Ordner anschließen</CommandWebFoldersLinks>
+  <CommandSyncWebFolders>Synchronisierung mit dem lokalen Katalog</CommandSyncWebFolders>
+  <WebFolderLinksFieldLabel>Links zu den Web-Ordnern</WebFolderLinksFieldLabel>
+  <WebFolderLinksForWindows64Note>Pressen Sie auf {0}Win+R{1}, dann im geöffneten Dialog {0}Ausführen{1} fügen Sie in das Feld {0}Öffnen:{1} einen der angebotenen Befehle ein; klicken Sie auf {0}OK{1}. Bei der Benutzung der eingebauten Authetifizierungsüberprüfung von Windows geben Sie den vollen Domainnamen des Benutzers ein: {2}</WebFolderLinksForWindows64Note>
+  <OpenLibreOfficeRunCommandNote>Oder die Tastenkombination drücken {0}Win+R{1}, legen Sie die Befehlszeile unten in der {0}Öffnen:{1} Feld und drücken Sie {0}OK{1}</OpenLibreOfficeRunCommandNote>
+  <WebFolderLinksForMacOSNote>Im Menü des Programm {0}Finder{1} wählen Sie {0}Go &amp;rarr; Connect to Server{1}, kopieren und fügen Sie den Link in das Feld {0}Server address{1} ein, klicken Sie auf den Knopf {0}Connect{1}; wählen Sie im geöffneten Dialog {0}Registered user{1} und klicken Sie auf den Knopf {0}Connect{1}.</WebFolderLinksForMacOSNote>
+  <WebFolderLinksForUbuntuNote>Wechseln Sie zu {0}Go &amp;rarr; Location…{1}. Kopieren und fügen Sie den Link in as Feld mit der Adresse ein.</WebFolderLinksForUbuntuNote>
+  <LinksToWebFoldersWindowText>Wenn Sie einen solchen Ordner anschließen, können Sie ihn lokal in Ihrem Betriebssystem benutzen. Dabei können Sie mit den Dateien in diesem Order wie mit lokalen arbeiten und die Dokumente in Microsoft Office, OpenOffice und LibreOffice bearbeiten. Für mehr Information wenden Sie sich an den Hilfe-Bereich {0}.</LinksToWebFoldersWindowText>
+  <CommonFileTypeNameCaption>Dateiname für "{0}"</CommonFileTypeNameCaption>
+  <CommonFileTypeNamePrompt>Geben Sie den neuen Dateinamen für "{0}".</CommonFileTypeNamePrompt>
+  
+  <PixlrEditorWindowTitle>Redaktor Pixlr{0}</PixlrEditorWindowTitle>
+  <PixlrSaveImageSuccessMessage>Bild "{0}" wurde erfolgreich gespeichert. Aktualisieren Sie die Dateiliste, wenn Sie das Bild unter einem neuen Namen gespeichert haben.</PixlrSaveImageSuccessMessage>
+  <CommonFileImageNewName>Neues Bild</CommonFileImageNewName>
+  <CommandChangeTheme>Thema ändern</CommandChangeTheme>
+  
+  <CommandHelp>Hilfe</CommandHelp>
+
+  <OpeningShortcutProgress>Verknüpfung öffnen</OpeningShortcutProgress>
+  <CommandCreateShortcut>Verknüpfung</CommandCreateShortcut>
+  <ShortcutNameHint>Name der Verknüpfung</ShortcutNameHint>
+  <ShortcutTargetPathHint>Zielpfad</ShortcutTargetPathHint>
+  <CreateShortcutButtonTitle>Erstellen</CreateShortcutButtonTitle>
+  <CreatingShortcutProgress>Verknüpfung erstellen</CreatingShortcutProgress>
+  <CreateShortcutSuccessMessage>Die Verknüpfung "{0}" wurde erfolgreich für "{1}" erstellt.</CreateShortcutSuccessMessage>
+
+  <OpeningInternetShortcutProgress>Hyperlink öffnen</OpeningInternetShortcutProgress>
+  <InternetShortcutNotValidMsg>Konnte nicht zur Adresse des Hyperlinks wechseln.</InternetShortcutNotValidMsg>
+  <InternetShortcutWindowTitle>Dem Link folgen</InternetShortcutWindowTitle>
+  
+  <CommandVersioning>Version Management</CommandVersioning>
+  <CommandVersionHistory>Versionenhistorie</CommandVersionHistory>
+  <CommandCheckOut>Aktuelle Version fixieren</CommandCheckOut>
+  <CommandCheckIn>Neue Version erstellen</CommandCheckIn>
+  <CommandUndoCheckOut>Aktuelle Version stornieren</CommandUndoCheckOut>
+  <VersionHistoryObtainingMessage>Liste der Dateiversionen bekommen</VersionHistoryObtainingMessage>
+  <NoVersionHistoryMessage>Die aktuelle Datei hat keine Versionen</NoVersionHistoryMessage>
+  <FileIsCheckedOutMessage>Für die Datei "{0}" wurde bereits {2} die aktuelle Version vom Benutzer "{1}" fixiert</FileIsCheckedOutMessage>
+  <CheckingOutMessage>Neue Version der Datei erstellen</CheckingOutMessage>
+  <SuccessfullyCheckedOutMessage>Für die Datei "{0}" wurde die aktuelle Version erfolgreich vom Benutzer "{1}" fixiert</SuccessfullyCheckedOutMessage>
+  <FileIsNotCheckedOutMessage>Für die Datei "{0}" wurde die aktuelle Version noch nicht fixiert</FileIsNotCheckedOutMessage>
+  <FileIsCheckedOutOtherUserMessage>Für die Datei "{0}" wurde  {2} die aktuelle Version vom anderen Benutzer "{1}" fixiert</FileIsCheckedOutOtherUserMessage>
+  <FileUndoCheckOutForbiddenMessage>Sie können die aktuelle Version nicht stornieren, da sie von einem anderen Benutzer fixiert wurde.</FileUndoCheckOutForbiddenMessage>
+  <FileCheckInForbiddenMessage>Sie können keine neue Version der Datei erstellen, da die aktuelle Version von einem anderen Benutzer fixiert wurde.</FileCheckInForbiddenMessage>
+  <FileUndoCheckOutConfirmMessage>Wenn Sie die aktuelle Version stornieren, dann werden keine Änderungen am Dokument gespeichert! Sind Sie sicher, dass Sie fortfahren möchten?</FileUndoCheckOutConfirmMessage>
+  <FileVersionDeleteConfirmTitle>Datei-Version entfernen</FileVersionDeleteConfirmTitle>
+  <FileVersionDeleteConfirmMessage>Sind Sie sicher, dass Sie die aktuelle Datei-Version entfernen wollen?</FileVersionDeleteConfirmMessage>
+  <FileVersionRestoreConfirmTitle>Datei-Version wiederherstellen</FileVersionRestoreConfirmTitle>
+  <FileVersionRestoreConfirmMessage>Sind Sie sicher, dass Sie die ausgewählte Datei-Version wiederherstellen möchten?{0}Wenn ja, geben Sie im unteren Feld den Namen der Datei an, wo die zum Wiederherstellen ausgewählte Version gespeichert wird. Wenn Sie dieses Feld nicht ändern (oder leer lassen), dann wird die ausgewählte Version die aktuelle Datei ersetzen (und der vorherige Inhalt der Datei wird zur Versionen-Historie hinzugefügt).{1}Dateiname:</FileVersionRestoreConfirmMessage>
+  <UndoCheckingOutMessage>Aktuelle Version stornieren</UndoCheckingOutMessage>
+  <SuccessfullyUndoCheckedOutMessage>Die aktuelle Version der Datei "{0}" wurde erfolgreich storniert.</SuccessfullyUndoCheckedOutMessage>
+  <SuccessfullyCheckedInMessage>Für die Datei "{0}" wurde vom Benutzer "{1}" erfolgreich eine neue Version erstellt</SuccessfullyCheckedInMessage>
+  <CheckingInMessage>Neue Version erstellen</CheckingInMessage>
+  <VersionHistoryTitle>Versionen der Datei "{0}"</VersionHistoryTitle>
+  <VersionHistoryGridNumberColumn>Ver.</VersionHistoryGridNumberColumn>
+  <VersionHistoryGridNotesColumn>Anmerkungen</VersionHistoryGridNotesColumn>
+  <CommandRestoreVersion>Wiederherstellen</CommandRestoreVersion>
+  <ProgressPrepareDownloadOldVersion>Vorherige Datei-Version wird vorbereitet</ProgressPrepareDownloadOldVersion>
+  <FileVersionNotFoundMessage>Die ausgewählte Datei-Version wurde nicht gefunden.</FileVersionNotFoundMessage>
+  <ProgressDeletingVersion>Version entfernen</ProgressDeletingVersion>
+  <ProgressRestoringVersion>Version wiederherstellen</ProgressRestoringVersion>
+  <FileNeedCheckInMessage>Erstellen Sie bitte für die ausgewählte Datei eine neue Version oder stornieren Sie die aktuelle und wiederholen Sie den Versuch.</FileNeedCheckInMessage>
+  <FileCheckedOutEditForbiddenMessage>Sie können die Datei "{0}" nicht ändern/umbenennen/verschieben/entfernen, denn für sie {2} wurde die aktuelle Version vom Benutzer "{1}" fixiert</FileCheckedOutEditForbiddenMessage>
+  <FileUploadCheckInLabel>Sie können eine neue Datei-Version erstellen oder sie laden, indem Sie das untere Lade-Formular benutzen. Wenn Sie nur eine neue Version erstellen wollen, lassen Sie das Feld für die Dateiauswahl leer.</FileUploadCheckInLabel>
+  <FileUploadCheckInInvalidFileName>Der Name der geladenen Datei sollte mit dem der ausgewählten Datei übereinstimmen</FileUploadCheckInInvalidFileName>
+  <CheckOutVersionNotes>Diese Version wurde automatisch erstellt</CheckOutVersionNotes>
+  <RestoreVersionNotes>Diese Version wurde automatisch nach der Wiederherstellung der Version vom {0} vom Benutzer "{1}" erstellt</RestoreVersionNotes>
+  <IsCheckedOutHint>Für die Datei wurde die aktuelle Version fixiert</IsCheckedOutHint>
+  <ExistsOldVersionsHint>Die Datei hat andere Versionen</ExistsOldVersionsHint>
+  <IsLockedHint>Die Datei ist blockiert</IsLockedHint>
+  <FileWasCreatedHint>Innerhalb der letzten {0} erstellt</FileWasCreatedHint>
+  <FileWasModifiedHint>Innerhalb der letzten {0} geändert</FileWasModifiedHint>
+  <CommonChangedAgo>{0} vor</CommonChangedAgo>
+  <DaysShort>d</DaysShort>
+  <HoursShort>h</HoursShort>
+  <MinutesShort>m</MinutesShort>
+  <FileContainsMetaDataHint>Enthält zusätzliche Eigenschaften</FileContainsMetaDataHint>
+  <FileMetaDataCaptionMobile>Metadaten</FileMetaDataCaptionMobile>
+
+  <ExistsPublicLinksFileHint>Für die Datei gibt es allgemein zugängliche Link(s)</ExistsPublicLinksFileHint>
+  <ExistsPublicLinksFolderHint>Für den Ordner gibt es allgemein zugängliche Link(s)</ExistsPublicLinksFolderHint>
+  <PublicLinkNotFound>Allgemein zugänglicher Link für "{0}" wurde nicht gefunden</PublicLinkNotFound>
+
+  <PublicLinksDeleteWindowTitle>Link(s) entfernen</PublicLinksDeleteWindowTitle>
+  <PublicLinksDeleteLinkButton>Link löschen</PublicLinksDeleteLinkButton>
+  <PublicLinksDeleteConfirmMsg>Sind Sie sicher, dass Sie die ausgewählten Links entfernen wollen?</PublicLinksDeleteConfirmMsg>
+  <PublicLinksDeleteSingleConfirmMsg>Sind Sie sicher, dass Sie diesen Link zu löschen?</PublicLinksDeleteSingleConfirmMsg>
+
+  <DetailsMultiValue>(mehrere Werte)</DetailsMultiValue>
+
+  <GridBottomFilesSizeInfo>Ausgewählt: {0} / {1}</GridBottomFilesSizeInfo>
+  <GridBottomFilesFoldersInfo>Dateien: {0} / {1}, Ordner: {2} / {3}</GridBottomFilesFoldersInfo>
+
+  <AmountOfDownloadingsFile>Downloads</AmountOfDownloadingsFile>
+
+  <CookiesDisabledMessage>In Ihrem Browser sind die Cookies abgeschaltet. Bitte schalten Sie diese ein und starten Sie den Browser neu.</CookiesDisabledMessage>
+
+  <CommandSendEmail>E-Mail abschicken</CommandSendEmail>
+  <CommandSendWithGmail>Mit Google Mail senden</CommandSendWithGmail>
+  <CommandSendWithOutlook>Senden Sie mit Outlook</CommandSendWithOutlook>
+  <SendEmailTo>An wem</SendEmailTo>
+  <SendEmailBulkMailingListHint>&lt;b&gt;Mailing-Liste&lt;/b&gt;&lt;br /&gt;Sie können die Gruppen angeben, an die die Nachricht verschickt wird</SendEmailBulkMailingListHint>
+  <SendEmailBulkMailingListWindowTitle>Liste der Empfänger</SendEmailBulkMailingListWindowTitle>
+  <SendEmailEmptyMailingListMessage>Die Mailing-Liste ist leer</SendEmailEmptyMailingListMessage>
+  <SendEmailSenderEmail>Adresse des Absenders</SendEmailSenderEmail>
+  <SendEmailSubject>Thema</SendEmailSubject>
+  <SendEmailFilesAsLinksTo>Links zu den ausgewählten Dateien absenden</SendEmailFilesAsLinksTo>
+  <SendEmailFilesAsAttachements>Ausgewählte Dateien als Anhang versenden</SendEmailFilesAsAttachements>
+  <SendEmailSend>Absenden</SendEmailSend>
+  <SendEmailProgressMessage>Nachricht wird verschickt</SendEmailProgressMessage>
+  <GettingMailingListProgressMessage>Mailing-Liste wird abgerufen</GettingMailingListProgressMessage>
+  <SendEmailSuccessMessage>Die Nachricht wurde erfolgreich abgeschickt.</SendEmailSuccessMessage>
+  <SendEmailResultsMessage>Abgeschickt: {0}&lt;br /&gt;Konnte nicht abgeschickt werden:{1}{2}.</SendEmailResultsMessage>
+  <SmtpServerSettingsIncorrect>Die Parameter des SMTP-Servers fehlen oder wurden falsch angegeben.</SmtpServerSettingsIncorrect>
+  <FromEmailIncorrect>Die Adresse des Absenders fehlt oder wurde falsch angegeben</FromEmailIncorrect>
+  <ToEmailIncorrect>Der Wert im Feld mit den Adressen der Empfänger fehlt oder wurde falsch angegeben</ToEmailIncorrect>
+  <EmailSubjectEmpty>Nachrichtenthema wurde nicht angegeben</EmailSubjectEmpty>
+  <UploadFromUrlTab>Laden über URL</UploadFromUrlTab>
+  <UploadFromUrlFieldLabel>URL (HTTP oder FTR Link zur Datei)</UploadFromUrlFieldLabel>
+  <UploadFromUrlProgressTitle>Laden über URL</UploadFromUrlProgressTitle>
+  <UploadFromUrlMsg>Bitte warten Sie, während die Datei von der angegebenen Adresse heruntergeladen wird</UploadFromUrlMsg>
+  <UploadFromUrlSuccessMsg>Die Datei "{0}" unter dem Link "{1}" wurde erfolgreich heruntergeladen</UploadFromUrlSuccessMsg>
+  <UploadFromUrlUnknownResponse>Die Antwort vom Server an der angegebenen Adresse konnte nicht gelesen werden</UploadFromUrlUnknownResponse>
+  <UploadFromUrlEmptyFileName>Der Name der geladenen Datei wurde nicht angegeben</UploadFromUrlEmptyFileName>
+  <UploadFromUrlFileName>Mit dem Namen hochladen (lassen Sie das Feld leer, um den Namen aus dem URL zu benutzen)</UploadFromUrlFileName>
+  <UploadFromUrlFileNameMobile>Mit dem Namen hochladen</UploadFromUrlFileNameMobile>
+  
+  <!-- Common Clouds keys -->  
+  <CloudAuthenticateMessage>Sie müssen sich einloggen {0}. Klicken Sie bitte auf den Link "{1}" und Sie werden zum Login-Fenster weitergeleitet. {2}Mehr{3}</CloudAuthenticateMessage>
+  <CloudAuthenticateLink>Eintreten als {0}</CloudAuthenticateLink>  
+  <CloudDownloadingMessage>Speichern unter {0}</CloudDownloadingMessage>
+  <CloudAuthWarningMessage>Wenn nichts passiert, schleißen Sie diese Seite und klicken Sie wieder auf den link "{0}"</CloudAuthWarningMessage>
+  <CloudAuthEmptyInvalidMessage>Zugangsmarker {0} fehlt oder ist falsch. Bitte wiederholen Sie den Login.</CloudAuthEmptyInvalidMessage>
+  <CloudDownloadEndMessageTitle>Speichern beendet</CloudDownloadEndMessageTitle>
+  <CloudDownloadFilesSuccessMessage>In den {2} Ordner "{1}" wurden erfolgreich Dateien gespeichert: {0} St.</CloudDownloadFilesSuccessMessage>
+  <CloudNotDownloadedFilesMessage>Dateien konnten nicht gespeichert werden ({0} St.):</CloudNotDownloadedFilesMessage>
+  <CloudFoldersCreatedSuccessMessage>In den {2} Ordner "{1}" wurden erfolgreich Kataloge erstellt: {0} St.</CloudFoldersCreatedSuccessMessage>
+  <CloudNotFoldersCreatedMessage>Ordner konnte nicht erstellt werden ({0} St.):</CloudNotFoldersCreatedMessage>
+  <CloudFilesFoldersSuccessMessage>In den {3} Ordner "{2}" wurden erfolgreich Dateien gespeichert: {0} St., Kataloge: {1} St.</CloudFilesFoldersSuccessMessage>
+  <CloudNotFilesFoldersDownloadedMessage>Dateien  ({0} St.) und Ordner  ({1} St.) konnten nicht gespeichert werden:</CloudNotFilesFoldersDownloadedMessage>
+  <CloudLinkText>Wechseln zu {0}</CloudLinkText>
+  <CloudLinkDescription>Zur Seite {0} wechseln</CloudLinkDescription>
+  <CloudRootFolderName>&lt;b&gt;Stammordner {0}&lt;/b&gt;</CloudRootFolderName>
+  <CloudCheckFolerMessage>Markieren Sie bitte einen von {0} Ordnern, um fortzufahren.</CloudCheckFolerMessage>
+  <CloudSelectFolderMessage>Bitte wählen Sie {0} Ordner, um fortzufahren.</CloudSelectFolderMessage>
+  <CloudGetFoldersInfoProgressMessage>Laden der Liste von {0} Ordnern</CloudGetFoldersInfoProgressMessage>
+  <CloudGetItemsInfoProgressMessage>Laden der Liste von {0} Objekten</CloudGetItemsInfoProgressMessage>
+  <CloudUploadSelectItemsMessage>Bitte wählen Sie {0} Objekte, um fortzufahren.</CloudUploadSelectItemsMessage>
+  <CloudUploadTotalFiles>Dateien insgesamt: {0} ({1})</CloudUploadTotalFiles>
+  <CloudUploadProgressMessage>Laden aus {0}</CloudUploadProgressMessage>
+  <CloudSignInAsDifferentUserText>Logout aus {0}</CloudSignInAsDifferentUserText>
+  <CloudLogoutProgressMsg>Logout aus {0}</CloudLogoutProgressMsg>
+  <CloudRevokeTokenMsg>Zugangsmarker abwählen</CloudRevokeTokenMsg>
+  <CloudRefreshTokenMsg>Zugangsmarker aktualisieren</CloudRefreshTokenMsg>
+  <CloudAuthNotCompleteMsg>Login nicht ausgeführt.&lt;br /&gt; Bitte</CloudAuthNotCompleteMsg>
+  <CloudTrustedSitesMsg>überprüfen Sie die folgenden Seiten in der Liste der "Vertrauenswürdigen Knoten":&lt;br /&gt;&lt;br /&gt;</CloudTrustedSitesMsg>
+  <TrustedSitesForMicrosoftEdge>Wenn Sie Microsoft Edge-verwenden, dann überprüfen Sie die Vertrauenswürdige Sites in Internet Explorer</TrustedSitesForMicrosoftEdge>
+  <CloudCheckAuthMsg>Authentifizierung überprüfen {0}</CloudCheckAuthMsg>
+  <CloudLoadMsg>Laden {0}</CloudLoadMsg>
+  <CloudFreeSpaceError>Nicht genug Speicherplatz in Ihrem Speicher {2}, um Dateien zu laden. Frei: {0}. Dateigröße: {1}.</CloudFreeSpaceError>
+  <CloudFreeSpaceExceeded>Nicht genug Speicherplatz in Ihrem Speicher {0}</CloudFreeSpaceExceeded>
+  <CloudExceedFileSizeError>Die Größe {1} der gespeicherten Datei überschreitet die zulässige Größe {0} für das Herunterladen.</CloudExceedFileSizeError>
+  <CloudFolderNotFound>Katalog nicht gefunden. Womöglich wurde er entfernt.</CloudFolderNotFound>
+  <CloudFileNotFound>Datei nicht gefunden. Womöglich wurde sie entfernt.</CloudFileNotFound>
+  <CloudNoFoldersMessage>Keine Ordner zum Anzeigen</CloudNoFoldersMessage>
+  <CloudLibraryNotLoadedMsg>Die Client-Library {0} wurde nicht geladen!&lt;br /&gt;Überprüfen Sie bitte die Verbindung mit dem Internet und aktualisieren Sie die Seite.&lt;br /&gt;Ebenfalls</CloudLibraryNotLoadedMsg>
+  <CloudDownloadWithNewNames>Folgende Dateien wurden unter neuen Namen gespeichert</CloudDownloadWithNewNames>
+
+  <!-- Google Drive Cloud keys -->
+  <CommandDownloadToGoogleDocs>Speichern in Google Drive</CommandDownloadToGoogleDocs>
+  <GoogleDocsSaveAs>Speichern unter:</GoogleDocsSaveAs>
+  <GoogleDocsSaveAsTitle>Speichern"{0}" unter…</GoogleDocsSaveAsTitle>
+  <GoogleDocsDownloadEndWarningMessage>Wenn Sie keine gespeicherten Dokumente in Ihrem Google Drive Account sehen, warten Sie einige Sekunden und aktualisieren Sie die Dateiliste in Google Drive.</GoogleDocsDownloadEndWarningMessage>
+  <GoogleDriveUploadNoFilesMessage>Keine Dateien zum Laden aus Google Drive ausgewählt</GoogleDriveUploadNoFilesMessage>
+  <GoogleDriveMaxUploadSizeError>Für die Datei der Art "{0}" wurde die maximale Größe {1} zum Laden überschritten.</GoogleDriveMaxUploadSizeError>
+  <GoogleDriveConvertMsg>Wenn möglich, Dateien in das Dokumentenformat von Google konvertieren. {0}Mehr{1}.</GoogleDriveConvertMsg>
+
+  <!-- Box Cloud keys -->
+  <CommandDownloadToBox>In Box speichern</CommandDownloadToBox>
+  <BoxDownloadWithNewNames>Für folgenden Box-Dateien wurden neue Versionen erstellt:</BoxDownloadWithNewNames>
+  <BoxNoViewPermission>Sie können sich den ausgewählten Ordner nicht anschauen - es fehlt die benötigte Berechtigung.</BoxNoViewPermission>
+  <BoxNoDownloadPermission>Sie können die Datei nicht herunterladen - es fehlt die benötigte Berechtigung.</BoxNoDownloadPermission>
+  <BoxNoUploadPermission>Sie können die Datei nicht hochladen - es fehlt die benötigte Berechtigung.</BoxNoUploadPermission>
+  <BoxUnableCreateOrInfoError>Konnte Infos nicht erstellen oder erhalten</BoxUnableCreateOrInfoError>
+  
+  <!-- Dropbox Cloud keys -->
+  <CommandDownloadToDropbox>Speichern in Dropbox</CommandDownloadToDropbox>  
+  
+  <!-- OneDrive Cloud keys -->
+  <CommandDownloadToSkyDrive>In OneDrive speichern</CommandDownloadToSkyDrive>
+  <AuthenticateOAuthSkyDriveMessageShort>Sie müssen sich bei Microsoft Live einloggen.</AuthenticateOAuthSkyDriveMessageShort>
+  <SkyDriveAuthAlsoString>Auch</SkyDriveAuthAlsoString>
+  <SkyDriveLoginButtonTitle>Login</SkyDriveLoginButtonTitle>
+  <SkyDriveRegistryMessage>Sie haben kein Windows Live ID? {0}Registrieren Sie sich…{1}</SkyDriveRegistryMessage>
+  <SkyDriveMapRootFolder>Achtung! Sie können den Web-Ordner OneDrive {0}anschließen{1}, indem Sie den Link benutzen:</SkyDriveMapRootFolder>
+  <SkyDriveMoreInfoLink>{0}Mehr über OneDrive{1}</SkyDriveMoreInfoLink>
+  <OneDriveMaxUploadSizeError>Die zulässige Größe ({0}) der hochgeladenen Datei überschritten wird: {1}</OneDriveMaxUploadSizeError>
+  <!-- OneDrive for Business -->
+  <OneDriveForBusinessMapWebFolderInfo>&lt;b&gt;Hinweis&lt;/b&gt; Vor der Dateien in diesem Ort zu öffnen, müssen Sie zuerst die Website Ihren vertrauenswürdigen Sites Liste hinzuzufügen, auf der Website zu finden, und wählen Sie die Option automatisch anmelden (in IE-Browser).</OneDriveForBusinessMapWebFolderInfo>
+  
+  <UploadFromUrlLabelText>Sie können die URL-Adresse der Datei, die sich im Internet (inklusive über FTP) oder in Filesharing-Systemen, solchen wie {0}, {1}, {2}, {3}, {4}, befindet, angeben.</UploadFromUrlLabelText>
+  <UploadFromUrlLabelTextMobile>Geben Sie die URL der Datei an</UploadFromUrlLabelTextMobile>
+
+  <LinkToFileTitle>Link zur Datei/Ordner</LinkToFileTitle>
+  <LinkToFileWarningAnonym>Dieser Link ermöglicht einen Zugang zur Datei ohne vorherige Autorisierung. Jeder Benutzer (auch die ohne einen Account) kann die Datei über diesen Link herunterladen. {0}Mehr{1}.</LinkToFileWarningAnonym>
+  <LinkToFileDownloadFileLink>Dieser Link ermöglicht es, die ausgewählte Datei {0} aus {1} herunterzuladen. Sie müssen sich autorisieren, um diesen Link zu benutzen. Er gibt keinen anonymen Zugang zur Datei. Die zweite Verbannung öffnet die Mappe mit der Datei und wählt es.</LinkToFileDownloadFileLink>
+  <LinkToFileExpireDate>Gültig bis</LinkToFileExpireDate>
+  <LinkToFileDownloadCnt>Max. Anzahl an Downloads</LinkToFileDownloadCnt>
+  <LinkToFileDownloadType>Link-Art</LinkToFileDownloadType>
+  <LinkToFileGenerate>Link erstellen</LinkToFileGenerate>
+  <LinkToFilePasswordNotMatch>Die Passwörter stimmen nicht überein</LinkToFilePasswordNotMatch>
+  <LinkToFilePasswordRequired>Passwort muss angegeben werden</LinkToFilePasswordRequired>
+  <LinkToFileInvalidForm>Unzulässige Parameter</LinkToFileInvalidForm>
+  <LinkToFileAnonymDownloadLinkHint>Allgemein zugänglicher Link für "{0}":</LinkToFileAnonymDownloadLinkHint>
+  <LinkToFileAnonymDownloadShortLinkHint>Gekürzter Link für "{0}":</LinkToFileAnonymDownloadShortLinkHint>
+  <LinkToFileOpenFolderLink>Dieser Link ermöglicht es, den ausgewählten Ordner {0} aus {1} herunterzuladen. Sie müssen sich autorisieren, um diesen Link zu benutzen. Er gibt keinen anonymen Zugang zur Datei.</LinkToFileOpenFolderLink>
+  <LinkToFileOpenFileLink>Dieser Link öffnet den Ordner mit der Datei und zeigt es</LinkToFileOpenFileLink>
+  <LinkToFileDaysLeft>Tage verbleibend</LinkToFileDaysLeft>
+  <LinkToFileCaptionMobile>Allgemein zugängliche Links</LinkToFileCaptionMobile>
+
+  <PublicFolderLinkHint>Allgemein zugänglicher Link für den Ordner "{0}":</PublicFolderLinkHint>
+  <PublicFolderShortLinkHint>Gekürzter Link für den Ordner "{0}":</PublicFolderShortLinkHint>
+  <PublicFolderLinkDownloadZipHint>Link zum Erhalten des ZIP-Archivs mit dem Inhalt des Ordners "{0}":</PublicFolderLinkDownloadZipHint>
+  <PublicFolderLinkShortDownloadZipHint>Gekürzter Link zum Erhalten des ZIP-Archivs mit dem Inhalt des Ordners "{0}":</PublicFolderLinkShortDownloadZipHint>
+  <PublicFolderLinkZipDownload>Archivieren und den ZIP-Archiv mit dem Inhalt des aktuellen Ordners {0} erhalten</PublicFolderLinkZipDownload>
+  <PublicFolderLinkOverwriteWhileUpload>Existierende überschreiben</PublicFolderLinkOverwriteWhileUpload>
+  <PublicFolderLinkOpenFolderHint>Ordner öffnen</PublicFolderLinkOpenFolderHint>
+  <PublicFolderDownloadDisabledNote>Achtung! Der Inhaber dieses Ordners hat es verboten, Dateien daraus zu laden.</PublicFolderDownloadDisabledNote>
+  <PublicFolderLinkSendEmails>E-Mail-Adressen zur Benachrichtigung über die Aktivität</PublicFolderLinkSendEmails>
+  <PublicFolderAnonymAccessControl>Erlauben</PublicFolderAnonymAccessControl>
+  <PublicFolderAnonymDownload>Dateien herunterladen</PublicFolderAnonymDownload>
+  <PublicFolderAnonymZipDownload>Ordner herunterladen (als ZIP-Archiv)</PublicFolderAnonymZipDownload>
+  <PublicFolderAnonymUpload>Dateien&amp;nbsp;laden</PublicFolderAnonymUpload>
+  <PublicFolderAnonymViewContent>Inhalt anschauen</PublicFolderAnonymViewContent>
+  <PublicFolderNoteForUsers>Anmerkung für die Benutzer</PublicFolderNoteForUsers>
+  <PublicFolderACLNotSet>Zugangsberechtigungen wurden nicht angegeben</PublicFolderACLNotSet>
+  <PublicFolderWarningAnonym>Dieser Link ermöglicht einen anonymen Zugang zur Datei ohne vorherige Autorisierung. Jeder Benutzer (auch die ohne einen Account) kann die Datei über diesen Link herunterladen. Ebenfalls kann man über einen solchen Link sowohl den ganzen Ordner (im ZIP-Archiv), als auch einzelne Dateien daraus herunterladen. {0}Mehr{1}.</PublicFolderWarningAnonym>
+  <PublicLinksShowForAllItems>Für alle anzeigen</PublicLinksShowForAllItems>
+  <PublicLinksShowForSelected>Für ausgewählte anzeigen</PublicLinksShowForSelected>
+  
+  <MultipleFileInputMessage>Achtung! Ihr Browser unterstützt die Auswahl von mehreren Dateien gleichzeitig.</MultipleFileInputMessage>
+  <UploadZipUnzipNote>Sie können den ZIP-Archiv mit mehreren Dateien und Ordner herunterladen und ihn dann mit Hilfe des Befehls "{0}" im Kontextmenü entpacken.</UploadZipUnzipNote>
+  <DnDFileUploadingStatusCode>Status-Code</DnDFileUploadingStatusCode>
+  <DnDFileUploadingPathOrNameEmpty>Der Pfad oder der Name der Datei wurde nicht angegeben</DnDFileUploadingPathOrNameEmpty>
+  <DnDFileUploadingRemoveFromList>Aus der Liste entfernen</DnDFileUploadingRemoveFromList>
+  <DndFileUploadingDontDropFoldersMsg>Sie können die Dateien in die untere Liste verschieben (nur Dateien, Ordner werden nicht erkannt).</DndFileUploadingDontDropFoldersMsg>
+  <DndFileUploadingAllowDropFoldersMsg>Sie können die Dateien in die untere Liste verschieben.</DndFileUploadingAllowDropFoldersMsg>
+  <DndFileUploadingFilesSummaryInfo>Dateien insgesamt: {0} ({1})</DndFileUploadingFilesSummaryInfo>
+  <DropFilesHere>Lassen Sie die Dateien zum Hochladen hier</DropFilesHere>
+  
+  <FileGridDownloadColumn>Dateien zum Download</FileGridDownloadColumn>
+  <FileAttributesField>Attribute</FileAttributesField>
+  <FolderCalculateSize>Berechnen</FolderCalculateSize>
+  <FolderRecalculateSize>Neu zählen</FolderRecalculateSize>
+  <FolderContainsField>Beinhaltet</FolderContainsField>
+  <FolderContainsFilesFolders>Dateien: {0}, Ordner: {1}</FolderContainsFilesFolders>
+  <FolderCalculatingMessage>Berechnung</FolderCalculatingMessage>
+
+  <SearchTitle>Dateisuche. Verfügbare Schablonen: {0}</SearchTitle>
+  <SearchType>Suchen</SearchType>
+  <SearchOnlyFiles>nur Dateien</SearchOnlyFiles>
+  <SearchOnlyFolders>nur Ordner</SearchOnlyFolders>
+  <SearchBothFilesFolders>Dateien und Ordner</SearchBothFilesFolders>
+  <SearchFileDetails>Datei-Eigenschaften</SearchFileDetails>
+  <SearchFileContent>Datei-Inhalt</SearchFileContent>
+  <SearchByDateFrom>von</SearchByDateFrom>
+  <SearchByDateTo>bis</SearchByDateTo>
+  <SearchLocation>Position</SearchLocation>
+  <SearchLocationEntire>Überall</SearchLocationEntire>
+  <SearchLocationCurrent>Im aktuellen Ordner</SearchLocationCurrent>
+  <SearchSearch>Suchen</SearchSearch>
+  <SearchNothingFound>Nichts gefunden! Versuchen Sie, die Suchkriterien zu ändern.</SearchNothingFound>
+  <SearchErrorCaption>Suche Fehler</SearchErrorCaption>
+  <SearchResultsNotComplete>Aufmerksamkeit! Die Suchergebnisse können unvollständig sein, da einige Ordner noch nicht indiziert sind.</SearchResultsNotComplete>
+  <SearchRepeatOrContactAdmin>Bitte versuchen Sie Ihre Suche später noch einmal oder kontaktieren Sie Ihren Administrator.</SearchRepeatOrContactAdmin>
+  <SearchLinkToManual>Siehe den {0} Windows-Suche Hilfe {1}</SearchLinkToManual>
+  <QuerySearchByNameText>Suche mit Name</QuerySearchByNameText>
+  <QuerySearchByConentText>von Inhalt</QuerySearchByConentText>
+  <SearchByDetailsWarning>Aufmerksamkeit! Sie haben in den Einstellungen festgelegt, dass Sie die Suche nach Eigenschaften verwenden möchten. In diesem Fall wird die Suche ausgeführt, um eine Standard-Methode anstelle der Windows-Indexdienst zu verwenden.</SearchByDetailsWarning>
+  <SearchInSpecialFolderWarning>Aufmerksamkeit! So suchen Sie den aktuellen Ordner nicht anwendbar ist. Wenn Sie fortfahren, wird die Suche in allen Verzeichnissen durchgeführt.</SearchInSpecialFolderWarning>
+
+  <UploadTitle>Laden von mehreren Dateien</UploadTitle>
+  <UploadSimpleTab>Standard</UploadSimpleTab>
+  <UploadSimpleReset>Leeren</UploadSimpleReset>
+  <UploadSimpleUpload>Laden</UploadSimpleUpload>
+  <UploadSimpleUploadFolderLabelCollapsed>Ordner laden</UploadSimpleUploadFolderLabelCollapsed>
+  <UploadSimpleUploadFolderButtonText>Ordner auswählen</UploadSimpleUploadFolderButtonText>
+  <UploadJavaTab>Java</UploadJavaTab>
+  <UploadJavaIgnorePaths>Alle Dateien in einem Ordner platzieren (Pfade ignorieren)</UploadJavaIgnorePaths>
+  <UploadFlashTab>Flash</UploadFlashTab>
+  <UploadSilverlightTab>Silverlight</UploadSilverlightTab>
+  <UploadPartially>Konnte einige Dateien nicht laden</UploadPartially>
+  <UploadFolderNotSelectedTitle>Ordner nicht ausgewählt</UploadFolderNotSelectedTitle>
+  <UploadFolderNotSelected>Bitte wählen Sie den Ordner aus, in dem die Dateien geladen werden</UploadFolderNotSelected>
+  <UploadInProgress>Dateien werden hochgeladen</UploadInProgress>
+  <UploadInvalidFormFields>Die Formularfelder können nicht mit falschen Werten abgeschickt werden</UploadInvalidFormFields>
+  <UploadAjaxFailed>Konnte die AJAX-Anfrage nicht ausführen</UploadAjaxFailed>
+  <UploadFilesAlreadyExists>Die geladenen Dateien existieren bereits</UploadFilesAlreadyExists>
+  <UploadOverwriteFiles>Die existierenden Dateien werden überschrieben. Wollen Sie fortfahren?</UploadOverwriteFiles>
+  <UploadOverwriteOrRenameFiles>Eine oder mehrere Dateien existieren Bereits im angegebenen Ordner. Wollen Sie die existierenden Dateien überschreiben? Klicken Sie auf "{0}", wenn Sie die existierenden Dateien überschreiben wollen, oder auf "{1}", wenn Sie alle Dateien speichern wollen (die geladenen Dateien bekommen neue Namen).</UploadOverwriteOrRenameFiles>
+  <UploadNotModifyExistingFiles>Eine oder mehrere Dateien existieren bereits im angegebenen Ordner. Dabei erlauben es Ihre Berechtigungen nicht, Dateien beim Hochladen zu überschreiben. Entfernen oder benennen Sie die existierenden Dateien neu um.</UploadNotModifyExistingFiles>
+  <UploadRenamedExistingFiles>Eine oder mehrere Dateien existieren bereits im angegeben Ordner. Beim Laden bekommen solche Dateien neue Namen.</UploadRenamedExistingFiles>
+  <UploadNotAllowedTitle>Hochladen verboten</UploadNotAllowedTitle>
+  <UploadNotAllowedPrompt>Sie haben keine Berechtigung zum Hochladen der Dateien in diesen Ordner</UploadNotAllowedPrompt>
+
+  <UploadMobileIOSVideo>Wenn Sie Videodateien hochladen wollen, schalten Sie diese Einstellung ein.</UploadMobileIOSVideo>
+  <UploadMobileAurigmaLink>Bitte beachten Sie, dass Sie die Anwendung Aurigma Up! installiert haben müssen, um Dateien hochzuladen. Klicken Sie hier, um die Anwendung Aurigma Up! zu installieren.</UploadMobileAurigmaLink>
+  <UploadMobileAurigmaReady>Nach der Installation der Anwendung Aurigma Up! (oder wenn Sie sie bereits installiert haben) klicken Sie auf den Knopf "Hochladen".</UploadMobileAurigmaReady>
+  <UploadMobileAurigmaFilePrefix>Präfix für die Namen der geladenen Dateien</UploadMobileAurigmaFilePrefix>
+  <UploadMobileResult>Ergebnisse des Hochladen:</UploadMobileResult>
+  <UploadMobileUrlPlaceHolder>Geben Sie die URL-Adresse ein</UploadMobileUrlPlaceHolder>
+  <UploadMobileFileNamePlaceHolder>Geben Sie den neuen Dateinamen ein</UploadMobileFileNamePlaceHolder>
+  <UploadBrowseLabel>Übersicht…</UploadBrowseLabel>
+  
+  <MobileToolTipsCaption>Wissen Sie, dass…</MobileToolTipsCaption>
+  <MobileToolTipsNextButton>Mehr</MobileToolTipsNextButton>
+  <MobileToolTipsIKnowButton>Ich weiß es</MobileToolTipsIKnowButton>
+  <MobileToolTipsHideButton>Nicht mehr anzeigen</MobileToolTipsHideButton>
+  <MobileToolTipsMultiSelection>Zur Auswahl mehrerer Dateien und Ordner können Sie auf &lt;b&gt;{0}&lt;/b&gt; klicken. Klicken Sie nochmal, um den Multiauswahl-Modus zu verlassen.</MobileToolTipsMultiSelection>
+  <MobileToolTipsSlideToRemove>Zum Entfernen des Objekts müssen darauf von rechts nach links swipen. Dabei erscheint über dem Element der Entfernen-Knopf.</MobileToolTipsSlideToRemove>
+  <MobileToolTipsTapAndHoldForMenu>Klicken Sie länger auf das Element, um das Kontextmenü aufzurufen. Man kann es ebenfalls aufrufen, wenn man auf den Pfeil rechts klickt.</MobileToolTipsTapAndHoldForMenu>
+  <MobileToolTipsDoubleTapForPreview>Einfaches Drücken auf der Datei wählt sie aus, doppeltes - zeigt den Inhalt an oder lädt herunter. Einfaches Drücken auf dem Ordner öffnet ihn.</MobileToolTipsDoubleTapForPreview>
+  <MobileToolTipsPullDownToRefresh>Zum Aktualisieren der Liste muss man Sie von oben nach unten schieben.</MobileToolTipsPullDownToRefresh>
+  <MobileToolTipsPinchToScale>Zur Vergrößerung/Verkleinerung der Bilder können Sie die 'Pinch'-Geste benutzen.</MobileToolTipsPinchToScale>
+  <MobileToolTipsTapToHideBars>Wenn Sie irgendwo auf das Bild klicken, schalten Sie die Symbolleiste um.</MobileToolTipsTapToHideBars>
+  <MobileToolTipsSlideLeftRightToNext>Die Bilderliste kann man mit Hilfe der Gesten durchsuchen.</MobileToolTipsSlideLeftRightToNext>
+
+  <DownloadToCloudMobileTip>Einfaches Drücken auf den Ordner wählt ihn aus, doppeltes - öffnet ihn.</DownloadToCloudMobileTip>
+  
+  <UploadTotalMaxSizeMessage>Achtung! Die maximale Größe aller geladenen Dateien darf nicht {0} überschreiten.</UploadTotalMaxSizeMessage>
+  <UploadOneFileMaxSizeMessage>Achtung! Die maximale Größe jeder geladenen Dateien darf nicht {0} überschreiten.</UploadOneFileMaxSizeMessage>
+  <UploadUnlimitedSizeMessage>Achtung! Die Größe der geladenen Dateien ist unbegrenzt.</UploadUnlimitedSizeMessage>
+  <SimpleUploadSetFileNameNote>Anmerkung 2! Nach der Auswahl der Datei können Sie den Namen ändern, unter dem sie geladen wird.</SimpleUploadSetFileNameNote>
+
+  <AnonymousUploadTitle>Dateien in diesen Ordner laden</AnonymousUploadTitle>
+  <AnonymousUploadDescription>Sie können Dateien in diesen Ordner laden. Klicken Sie auf den Knopf "Übersicht" weiter unten und wählen Sie die Dateien aus.</AnonymousUploadDescription>
+  <AnonymousUploadOverwriteHint>Wenn die geladene Datei bereits existiert, wird sie ersetzt.</AnonymousUploadOverwriteHint>
+  <AnonymousUploadShowUploadHint>Lade-Formular anzeigen</AnonymousUploadShowUploadHint>
+  <AnonymousUploadHideUploadHint>Laden minimieren Formular</AnonymousUploadHideUploadHint>
+  <AnonymousUploadNewFolderNameHint>Im unteren Feld können Sie den Namen des Unterordners angeben (der Ordner wird erstellt, sofern er nicht bereits existiert), in dem die Dateien geladen werden:</AnonymousUploadNewFolderNameHint>
+  <AnonymousUploadCompleteTitle>Das Hochladen in den Ordner {0} wird beendet</AnonymousUploadCompleteTitle>
+  <AnonymousUploadExistsFilesMessage>Die folgenden Datei(en) wurden nicht geladen, da es bereits Datei(en) mit demselben Namen existieren: {0}</AnonymousUploadExistsFilesMessage>
+  <AnonymousUploadOwnersNote>Anmerkung des Ordner-Inhabers</AnonymousUploadOwnersNote>
+  <AnonymousDownloadPageTitle>Datei herunterladen</AnonymousDownloadPageTitle>
+  <AnonymousDownloadFileHint>Datei herunterladen</AnonymousDownloadFileHint>
+  <AnonymousUploadPageTitle>In den Ordner hochladen</AnonymousUploadPageTitle>
+  <AnonymousPublicFolderPageTitle>Allgemein zugänglicher Ordner</AnonymousPublicFolderPageTitle>
+  <AnonymousLoginAccessUserFailure>Sie sind auf dem Konto angemeldet, das den Zugriff auf die Ressource nicht haben. Bitte geben Sie andere Anmeldeinformationen für Ihren Zugang. Wenn Sie sie nicht kennen, wenden Sie sich bitte an den Eigentümer eines öffentlichen Link oder Ihrem Administrator.</AnonymousLoginAccessUserFailure>
+  <ProgressGettingAnonymLink>Link erstellen</ProgressGettingAnonymLink>
+  <ProgressGettingAnonymLinks>Link-Liste erhalten</ProgressGettingAnonymLinks>
+  <ProgressGettingBoxViewLink>Erste Box anzeigen Link</ProgressGettingBoxViewLink>
+  <AutodeskScriptNotIncludedMessage>Konnte nicht Autodesk Viewer-Skript geladen werden</AutodeskScriptNotIncludedMessage>
+  <ProgressUninitializeAutodeskViewer>Schließen Autodesk-Viewer</ProgressUninitializeAutodeskViewer>
+  <ProgressGettingAutodeskViewLink>Erste Autodesk View info</ProgressGettingAutodeskViewLink>
+  <AnonymousChangeLanguageHint>Wählen Sie die Sprache aus</AnonymousChangeLanguageHint>
+  <AnonymousUpLinkHint>In den übergeordneten Ordner wechseln</AnonymousUpLinkHint>
+  <AnonymousPasswordDescription>Der Ordner ist passwortgeschützt</AnonymousPasswordDescription>
+  <AnonymousPasswordIncorrectMessage>Falsches Passwort</AnonymousPasswordIncorrectMessage>
+  <AnonymousErrorTitle>Link-Fehler</AnonymousErrorTitle>
+  <AnonymousErrorNotFound>Der Link "{0}" wurde nicht gefunden!</AnonymousErrorNotFound>
+  <AnonymousErrorAccessDenied>Sie haben keine Berechtigungen zum Benutzen des Inhaltes unter dem Link "{0}"</AnonymousErrorAccessDenied>
+  <AnonymousErrorFileNotFound>Der Link "{0}" zeigt auf eine nicht existierende Datei oder Ordner, oder es fehlen die NTFS-Berechtigungen zum Lesen.</AnonymousErrorFileNotFound>
+  <AnonymousErrorUnknownLinkType>Konnte den Link "{0}" nicht erkennen</AnonymousErrorUnknownLinkType>
+  <AnonymousSendEmailSubject>Aktivität der Benutzer des allgemeinen Ordners</AnonymousSendEmailSubject>
+  <AnonymousSendEmailUploadBody>Folgende Dateien wurden von Ihnen in den allgemeinen Ordner geladen {0}:{1}</AnonymousSendEmailUploadBody>
+  <AnonymousSendEmailDownloadBody>Die Datei {0} wurden aus Ihrem allgemeinen Ordner {1} heruntergeladen.</AnonymousSendEmailDownloadBody>
+  <AnonymousSendEmailZipDownloadBody>Der ganze Inhalt des allgemeinen Ordners {0} wurde als ZIP-Archiv heruntergeladen.</AnonymousSendEmailZipDownloadBody>
+  <AnonymousViewLinksButton>Links anzeigen</AnonymousViewLinksButton>
+  <AnonymousViewLinksHint>Klicken Sie zum Anschauen der existierenden Links für den allgemeinen Zugang</AnonymousViewLinksHint>
+  <AnonymousViewLinksWindowTitle>Links für den allgemeinen Zugang</AnonymousViewLinksWindowTitle>
+  <AnonymousViewLinksDateCreatedColumn>Erstellungsdatum</AnonymousViewLinksDateCreatedColumn>
+  <AnonymousViewLinksDateExpiredColumn>Gültig bis</AnonymousViewLinksDateExpiredColumn>
+  <AnonymousViewLinksPermissionColumn>Erlaubt</AnonymousViewLinksPermissionColumn>
+  <AnonymousViewLinksDownloadedColumn>Anzahl der verbliebenen Downloads</AnonymousViewLinksDownloadedColumn>
+  <ProgressDeletingAnonymousLink>Link entfernen</ProgressDeletingAnonymousLink>
+  <ProgressSavingAnonymousLink>Link speichern</ProgressSavingAnonymousLink>
+  <AnonymousEditLinkWindowTitle>Link für den allgemeinen Zugang für "{0}" ändern</AnonymousEditLinkWindowTitle>
+  <AnonymousEditLinkShowUrl>Link anzeigen</AnonymousEditLinkShowUrl>
+  <AnonymousEditLinkNotFound>Link wurde nicht gefunden, oder deren Gültigkeitsdauer ist abgelaufen</AnonymousEditLinkNotFound>
+
+  <AnonymousLinkSendViaButton>Senden via...</AnonymousLinkSendViaButton>
+  <AnonymousLinkSendViaEmailItem>Email...</AnonymousLinkSendViaEmailItem>
+  <AnonymousLinkSendButton>Per E-Mail verschicken…</AnonymousLinkSendButton>
+  <AnonymousLinkSendSubject>Web-Dateimanager (Benutzen der Links für den allgemeinen Zugang)</AnonymousLinkSendSubject>
+
+  <AnonymousLinkAdvOptTitle>Zusätzliche Parameter</AnonymousLinkAdvOptTitle>
+  <AnonymousLinkViewTypeButton>Link-Art</AnonymousLinkViewTypeButton>
+  <AnonymousLinkViewTypeDefault>Vollständig</AnonymousLinkViewTypeDefault>
+  <AnonymousLinkViewTypeShort>Kurz</AnonymousLinkViewTypeShort>
+
+  <AnonymousLinkShowCommentsLabel>Eine Beschreibung sehen, Etiketten und Kommentare</AnonymousLinkShowCommentsLabel>
+  <AnonymousLinkShowCommentsShort>Kommentare anzeigen</AnonymousLinkShowCommentsShort>
+
+  <QRCodeButton>QR-Code</QRCodeButton>
+
+  <AnonymousLinkLimitedAccessTitle>Beschränkter Zugang</AnonymousLinkLimitedAccessTitle>
+  <AnonymousLinkLimitAccessCheckBox>Beschränken Sie den Zugriff nur auf bestimmte authentifizierte Benutzer</AnonymousLinkLimitAccessCheckBox>
+  <AnonymousLinkLimitAccessTextArea>Geben Sie Benutzernamen oder E-Mails (durch Komma getrennt)</AnonymousLinkLimitAccessTextArea>
+  <AnonymousLinkLimitAccessSendCheckBox>Senden Benachrichtigungen an bestimmte Benutzer</AnonymousLinkLimitAccessSendCheckBox>
+  <AnonymousLinkLimitAccessPersMsgLabel>Persönliche Nachricht (optional)</AnonymousLinkLimitAccessPersMsgLabel>
+  <AnonymousLinkLimitAccessPassAndUsersMsg>Sie haben Ihr Passwort und Benutzer gleichzeitig die angegebene Link zuzugreifen. Bitte geben Sie etwas ein.</AnonymousLinkLimitAccessPassAndUsersMsg>
+  <AnonymousLinkLimitAccessUsersNotFound>Die Anwender:
+    {0}
+    existiert nicht</AnonymousLinkLimitAccessUsersNotFound>
+  <AnonymousLinkLimitAccessEmailsNotFound>Die E-Mails:
+    {0}
+    existiert nicht</AnonymousLinkLimitAccessEmailsNotFound>
+  <AnonymousLinkLimitAccessUsersEmailsNotFound>Die Anwender:
+    {0}
+    und E-Mails:
+    {1}
+    existiert nicht</AnonymousLinkLimitAccessUsersEmailsNotFound>
+
+  <AnonymousLinkUnableToCreate>Kann nicht anonyme Verknüpfung zu erstellen</AnonymousLinkUnableToCreate>
+  <AnonymousLinkShortUrlLabel>Bitte klicken Sie auf das Aktualisieren-Symbol (unten rechts), um eine kurze Verbindung zu erhalten</AnonymousLinkShortUrlLabel>
+  <AnonymousLinkShortUrlUpdate>Erhalten Sie oder einen kurzen Link aktualisieren</AnonymousLinkShortUrlUpdate>
+  <AnonymousLinkLongUrlNotSpecified>Die lange URL nicht angegeben</AnonymousLinkLongUrlNotSpecified>
+  
+  <ClientFileOrDirectoryAlreadyExists>Die Datei oder der Ordner mit diesem Namen existiert bereits</ClientFileOrDirectoryAlreadyExists>
+  <ClientPermissionsAllowTypes>Die aktuellen Berechtigungen ermöglichen Es, diese Operation mit den Dateien folgender Art durchzuführen: {0}</ClientPermissionsAllowTypes>
+  <ClientPermissionsDenyTypes>Die aktuellen Berechtigungen ermöglichen Es, diese Operation mit den Dateien folgender Art durchzuführen: {0}</ClientPermissionsDenyTypes>
+  <OfficeApplicationNotFoundAlert>Die Anwendung zur Bearbeitung von Office-Dokumenten wurde nicht gefunden. Öffnen Sie die Datei manuell, indem Sie den Link im Textfeld benutzen.</OfficeApplicationNotFoundAlert>
+  <OfficeAnonymousEditPublicLinkError>Es kann kein Link für den allgemeinen Zugang zum Öffnen der Datei ohne Autorisierung erstellt werden.</OfficeAnonymousEditPublicLinkError>
+
+  <GoogleOWAViewLinkMessage>Zum Anschauen des Dokuments, klicken Sie auf den unteren Link:</GoogleOWAViewLinkMessage>
+  <ZohoEditLinkMessage>Zur Bearbeitung des Dokuments, klicken Sie auf den unteren Link:</ZohoEditLinkMessage>
+  <PixlrEditLinkMessage>Zur Bearbeitung des Bilds klicken Sie auf den unteren Link:</PixlrEditLinkMessage>
+  <PixlrNewImageCreateTitle>Neues Bild in Pixlr erstellen</PixlrNewImageCreateTitle>
+  <PixlrNewImageLinkMessage>Um ein neues Bild zu erstellen, klicken Sie auf den unteren Link:</PixlrNewImageLinkMessage>
+
+  <DownloadTitle>Mehrere Dateien herunterladen</DownloadTitle>
+  <DownloadSimpleTab>Standard</DownloadSimpleTab>
+  <DownloadJavaTab>Java</DownloadJavaTab>
+  <DownloadIEPrevent>Internet Explorer blockiert das automaische Herunterladen</DownloadIEPrevent>
+  <DownloadIEClickHere>Klicken Sie hier, um herunterzuladen</DownloadIEClickHere>
+  <DownloadIEArchiveReady>Das Archiv "{0}" mit den ausgewählten Dateien wurde erstellt und ist bereit zum Herunterladen</DownloadIEArchiveReady>
+  <DownloadIECaption>Download beendet</DownloadIECaption>
+
+  <SettingsTitle>Einstellungen</SettingsTitle>
+  <SettingsLanguage>Sprache</SettingsLanguage>
+  <SettingsLogOutRequired>Die Änderungen werden nach dem Neustart des Browsers aktiv!</SettingsLogOutRequired>
+  <ThemeTitle>Thema ändern</ThemeTitle>
+  <SettingsTheme>Wählen Sie das Thema aus</SettingsTheme>
+  <ThemeDefaultTitle>Standardmäßiges Thema</ThemeDefaultTitle>
+  <ThemeGrayTitle>Gray Theme</ThemeGrayTitle>
+  <ThemeAccessTitle>Accessibility Theme</ThemeAccessTitle>
+
+  <ChangeUserPasswordTitle>Passwort ändern</ChangeUserPasswordTitle>
+  <ChangeUserPasswordOldPassword>Aktuelles Passwort</ChangeUserPasswordOldPassword>
+  <ChangeUserPasswordNewPassword>Neues Passwort</ChangeUserPasswordNewPassword>
+  <ChangeUserPasswordRepeatNewPassword>Widerholen Sie das neue Passwort</ChangeUserPasswordRepeatNewPassword>
+  <ChangeUserPasswordPasswordsNotMatch>Die Passwörter stimmen nicht überein.</ChangeUserPasswordPasswordsNotMatch>
+  <ChangeUserPasswordSuccessMessage>Das Passwort wurde erfolgreich geändert.</ChangeUserPasswordSuccessMessage>
+  <ChangeUserPasswordInvalidMessage>Falsches Passwort</ChangeUserPasswordInvalidMessage>
+
+  <ChangeUserEmailTitle>E-Mail-Adresse des Benutzers ändern</ChangeUserEmailTitle>
+  <ChangeUserEmailEmail>E-Mail-Adresse</ChangeUserEmailEmail>
+  <ChangeUserEmailSuccessMessage>Die E-Mail-Adresse wurde erfolgreich geändert.</ChangeUserEmailSuccessMessage>
+
+  <UserHelpTitle>Benutzerhilfe</UserHelpTitle>
+
+  <LicenseTitle>Lizenzinformation</LicenseTitle>
+  <LicenseTrial>Sie haben eine nicht registrierte 30-Tage-Testversion</LicenseTrial>
+  <LicensePrompt>Lizenzversion{0}Benutzeranzahl: {1}{0}Kaufdatum: {2}{0}</LicensePrompt>
+  <LicenseFreeUpgradeMessage>Sie haben noch {0} Tage für das kostenlose Update und Support.</LicenseFreeUpgradeMessage>
+  <LicenseCheckMessage>Es ist mehr als ein Jahr seit dem kauf vergangen. Um Diese Version zu benutzen, müssen Sie das Abonnement verlängern oder die vorherige Version weiter benutzen. Sie können Ihre Lizenz überprüfen und verfügbare Releases auf der &lt;a href='{0}' target='_blank'&gt;Seite der Lizenzüberprüfung&lt;/a&gt; finden.</LicenseCheckMessage>
+  
+  <ViewPopupBlocked>Das neue Fenster wurde vom Pop-Up-Blocker blockiert</ViewPopupBlocked>
+
+  <LoginTwoFactorTitle>Bestätigung in zwei Schritten</LoginTwoFactorTitle>
+  <LoginTitle>Login</LoginTitle>
+  <LoginRemember>Beim nächsten Login an mich erinnern</LoginRemember>
+  <LoginUISelect>Interface</LoginUISelect>
+  <LoginUIStandard>Standard</LoginUIStandard>
+  <LoginUITouch>Mobil</LoginUITouch>
+  <LoginLanguage>Sprache</LoginLanguage>
+  <LoginLogin>Login</LoginLogin>
+  <LoginFailure>Login fehlgeschlagen</LoginFailure>
+  <LoginBlocked>Der Account ist geblockt. Bitte warten Sie {0} Minuten und wiederholen Sie den Login.</LoginBlocked>
+  <LoginNotActivated>Dein Konto ist nicht aktiviert.</LoginNotActivated>
+  <LoginResendActivation>Wenn die Meldung mit Aktivierungscode wird nicht für eine lange Zeit empfangen, klicken Sie auf {0} Link Aktivierungscode erneut zu senden.</LoginResendActivation>
+  <LoginResendActivationLink>senden Aktivierungscode</LoginResendActivationLink>
+  <LoginResendActivationCode>Klicken Sie auf {0} Link Aktivierungscode erneut zu senden.</LoginResendActivationCode>
+  
+  <ActivateAccountOk>Konto erfolgreich aktiviert!</ActivateAccountOk>
+  <ActivateAccountResultLabel>Die Aktivierung Ergebnis</ActivateAccountResultLabel>
+  <ActivateAccountErrorOnlyFormsAuth>Kontoaktivierung konnte nur mit Formularauthentifizierung verwendet werden</ActivateAccountErrorOnlyFormsAuth>
+  <ActivateAccountErrorNotRequired>Kontoaktivierung wird in Anwendungseinstellungen deaktiviert. Konto wird automatisch nach der Anmeldung aktiviert.</ActivateAccountErrorNotRequired>
+  <ActivateAccountErrorAlreadyActivated>Konto bereits aktiviert</ActivateAccountErrorAlreadyActivated>
+  <ActivateAccountErrorInvalidCode>Der Aktivierungscode ist nicht gültig</ActivateAccountErrorInvalidCode>
+  <ActivateAccountErrorAccountNotFound>Konto nicht gefunden</ActivateAccountErrorAccountNotFound>
+  <ActivateAccountErrorLinkBroken>Aktivierungslink wird gebrochen</ActivateAccountErrorLinkBroken>
+  <ActivateAccountReturnToLogin>Zurück zur Login-Seite</ActivateAccountReturnToLogin>
+  
+  <LoginRender>Neu laden</LoginRender>
+
+  <LogoutTitle>Aus dem Web-Dateimanager ausloggen</LogoutTitle>
+  <LogoutSessionEnded>Aktuelle Session wurde beendet</LogoutSessionEnded>
+  <LogoutCloseWindow>Fenster schließen</LogoutCloseWindow>
+  <LogoutEnterAgain>Geben Sie den Login und das Passwort neu ein</LogoutEnterAgain>
+  <LogoutClosingBrowserRequired>Achtung! Jeder kann sich unter Ihrem Account anmelden! Wenn Sie einen allgemein zugänglichen Computer benutzen, müssen Sie das Browserfenster (und nicht nur die Tabs) schließen, um die Authentifikation im Browser zu leeren! Für den Browser Mozilla Firefox kann man die Authentifikation leeren, indem folgende Schritte im Menü macht: Tools-&gt;Clear Resent History...-&gt;Details-&gt;Active Logins abwählen-&gt;auf Clear Now drücken.</LogoutClosingBrowserRequired>
+  <RecoverPasswordTitle>Passwort wiederherstellen</RecoverPasswordTitle>
+  <RecoverPasswordEmailPassword>Passwort per E-Mail verschicken</RecoverPasswordEmailPassword>
+  <RecoverPasswordErrorInvalidUserName>Falscher Benutzername</RecoverPasswordErrorInvalidUserName>
+  <RecoverPasswordErrorNoEmail>E-Mail-Adresse wurde nicht bestimmt</RecoverPasswordErrorNoEmail>
+  <RecoverPasswordErrorSendEmail>Ein Fehler ist beim verschicken der Nachricht an Ihre E-Mail-Adresse aufgetreten</RecoverPasswordErrorSendEmail>
+  <RecoverPasswordSuccess>Das Passwort wurde an Ihre E-Mail-Adresse verschickt.</RecoverPasswordSuccess>
+
+  <RecoverUserNameTitle>Recover Name</RecoverUserNameTitle>
+  <RecoverUserEmailName>Senden Namen per E-Mail</RecoverUserEmailName>
+  <RecoverUserNameErrorInvalidEmail>Ungültige Benutzer E-Mail.</RecoverUserNameErrorInvalidEmail>
+  <RecoverUserNameErrorNoEmail>Emailadresse wurde nicht gefunden.</RecoverUserNameErrorNoEmail>
+  <RecoverUserNameSuccess>Ihr Name wurde an Ihre E-Mail-Adresse gesendet.</RecoverUserNameSuccess>
+
+  <ChangeEmailTitle>E-Mail-Adresse ändern</ChangeEmailTitle>
+  <ChangeEmailEmail>Neue E-Mail-Adresse</ChangeEmailEmail>
+  <ChangeEmailSubmit>Ändern</ChangeEmailSubmit>
+  <ChangeEmailStatusSuccess>Die E-Mail-Adresse wurde erfolgreich geändert.</ChangeEmailStatusSuccess>
+
+  <RegisterTitle>Registrierung</RegisterTitle>
+  <RegisterEmail>E-Mail-Adresse</RegisterEmail>
+  <RegisterExtraInfo>Zusätzliche Information</RegisterExtraInfo>
+  <RegisterCaptcha>Geben Sie den Text ein, den Sie auf dem unteren Bild sehen</RegisterCaptcha>
+  <RegisterSubmit>Sich registrieren</RegisterSubmit>
+  <RegisterErrorPasswordNotMatch>Die Passwörter stimmen nicht überein.</RegisterErrorPasswordNotMatch>
+  <RegisterErrorUserExists>Dieser Benutzername wird bereits benutzt.</RegisterErrorUserExists>
+  <RegisterErrorCaptchaInvalid>Der Text vom Bild wurde falsch eingegeben.</RegisterErrorCaptchaInvalid>
+  <RegisterSuccess>Der neue Benutzer wurde erfolgreich registriert.</RegisterSuccess>
+  <RegisterActivationSent>Der Aktivierungscode wurde an Ihre E-Mail gesendet.</RegisterActivationSent>
+  <RegisterActivationCheckEmail>Bitte überprüfen Sie Ihre Mail-Box (speziell Junk-Ordner) und folgen Sie den Anweisungen in E-Mail.</RegisterActivationCheckEmail>
+  
+  <FolderGridUserPermissionsColumn>Benutzerrechte</FolderGridUserPermissionsColumn>
+  <FolderGridGroupPermissionsColumn>Gruppenrechte</FolderGridGroupPermissionsColumn>
+
+  <LoginLinkText>Login</LoginLinkText>
+  <RecoverPasswordLinkText>Passwort vergessen?</RecoverPasswordLinkText>
+  <RecoverUserNameLinkText>Benutzername vergessen?</RecoverUserNameLinkText>
+  <RegisterLinkText>Registrierung</RegisterLinkText>
+  <ChangeEmail>E-Mail-Adresse ändern</ChangeEmail>
+  <LoginMobileVersionLinkText>Mobile Version (für Smartphones und Touchpads)</LoginMobileVersionLinkText>
+
+  <FileIsNotZipArchive>Die Datei {0} ist kein ZIP-Archiv</FileIsNotZipArchive>
+
+  <FileModificationsAuthor>Autor</FileModificationsAuthor>
+  <FileModificationsHistory>Historie zeigen</FileModificationsHistory>
+  <FileModificationsWindowTitle>Änderungs-Historie der Datei "{0}"</FileModificationsWindowTitle>
+  <FileModificationsTypeCreated>Erstellt</FileModificationsTypeCreated>
+  <FileModificationsTypeModified>Geändert</FileModificationsTypeModified>
+  <FileModificationsTypeRenamed>umbenannt</FileModificationsTypeRenamed>
+  <FileModificationsTypeRestored>Restauriert</FileModificationsTypeRestored>
+  <FileModificationsTypeDeleted>gelöscht</FileModificationsTypeDeleted>
+
+  <ChangingReadOnlyProgressMessage>Änderung des Attributs "nur zum Lesen"</ChangingReadOnlyProgressMessage>
+
+  <ImageViewerWindowTitle>Mittel zum Anschauen der Bilder [{0}]</ImageViewerWindowTitle>
+  <ImageViewerLoadingMessage>Laden der Anwendung zum Anschauen der Bilder</ImageViewerLoadingMessage>
+  <ImageViewerLoadingImageMessage>Laden des Bildes</ImageViewerLoadingImageMessage>
+  <ImageViewerFirstImageTip>Erstes Bild</ImageViewerFirstImageTip>
+  <ImageViewerPreviousImageTip>Vorheriges Bild</ImageViewerPreviousImageTip>
+  <ImageViewerRefreshTip>Bild-Liste aktualisieren</ImageViewerRefreshTip>
+  <ImageViewerNextImageTip>Nächstes Bild</ImageViewerNextImageTip>
+  <ImageViewerLastImageTip>Letztes Bild</ImageViewerLastImageTip>
+  <ImageViewerRunSlideShow>Bilder-Slide-Show starten</ImageViewerRunSlideShow>
+  <ImageViewerStopSlideShow>Slide-Show anhalten</ImageViewerStopSlideShow>
+  <ImageViewerImageSimpleInfo>{0} / {1}, {2} ({3})</ImageViewerImageSimpleInfo>
+  <ImageViewerImageLoadErrorMessage>Das Bild wurde nicht gefunden oder kann nicht angezeigt werden</ImageViewerImageLoadErrorMessage>
+  <ImageViewerShowImageSizeOfWindow>Im Vollbildmodus anzeigen</ImageViewerShowImageSizeOfWindow>
+  <ImageViewerShowRealImageSize>Klicken Sie, um das Bild komplett anzuzeigen</ImageViewerShowRealImageSize>
+
+  <PasswordExpiresTitle>Die Gültigkeitsdauer des Passworts läuft ab</PasswordExpiresTitle>
+  <PasswordExpiresMessage>Die Gültigkeitsdauer Ihres Passworts läuft in {0} Tagen ab!</PasswordExpiresMessage>
+  <PasswordExpiredMessage>Die Gültigkeitsdauer Ihres Passwort ist abgelaufen!</PasswordExpiredMessage>
+  <PasswordChangeMessage>Um das Passwort zu ändern, wählen Sie {0}{1}&amp;rarr;{2}{3} in der Symbolleiste</PasswordChangeMessage>
+
+  <UnzipContentTotalFiles>Dateien insgesamt: {0} ({1})</UnzipContentTotalFiles>
+
+  <VideoConversionJobNotFound>Kann den angegebenen Konvertierungsprozess nicht finden.
+    Mögliche Ursachen:
+    1. Die Konvertierung ist bereits lange beendet und die Information darunter wurde entfernt
+    2. Der Konvertierungsprozess musste zwangsläufig beendet werden</VideoConversionJobNotFound>
+  <VideoConversionUtilityNotFound>Kann keine Anwendung zum Beenden der angefragten Operation finden: {0}</VideoConversionUtilityNotFound>
+  <!-- The current security principal "{0}" has insufficiant permissions to executable file "{1}".-->
+  <VideoConversionUtilityInsufficientPermissions>Dem aktuellen Benutzer "{0}" wurde der Zugang zur ausgeführten Datei "{1}" verweigert.</VideoConversionUtilityInsufficientPermissions>
+  <VideoConversionOperationCancelled>Operation wurde abgebrochen</VideoConversionOperationCancelled>
+  <VideoConversionUtilityFailed>Die Konvertierungsanwendungen mussten zwangsläufig beendet werden</VideoConversionUtilityFailed>
+  <VideoConversionOutputFileBusy>Die Ausgangsdatei wird von einem anderen Konvertierungsprozess benutzt</VideoConversionOutputFileBusy>
+
+  <VideoConvertWindowValidatorPositiveInt>Dieser Wert soll eine positive ganze Zahl sein</VideoConvertWindowValidatorPositiveInt>
+  <VideoConvertWindowTitle>Video-Konvertierung</VideoConvertWindowTitle>
+  <VideoConvertWindowInputFile>Ursprüngliche Datei</VideoConvertWindowInputFile>
+  <VideoConvertWindowOutputFile>Ausgangsdatei</VideoConvertWindowOutputFile>
+  <VideoConvertWindowOutputFormat>Neuer Format</VideoConvertWindowOutputFormat>
+  <VideoConvertWindowBitrate>Bitrate (kbit/s)</VideoConvertWindowBitrate>
+  <VideoConvertWindowFrameResolution>Auflösung</VideoConvertWindowFrameResolution>
+  <VideoConvertWindowDAR>Seitenverhältnis (DAR)</VideoConvertWindowDAR>
+  <VideoConvertWindowPAR>Pixel-Seitenverhältnis (PAR)</VideoConvertWindowPAR>
+  <VideoConvertWindowResize>Größe ändern</VideoConvertWindowResize>
+  <VideoConvertWindowProfile>Profil</VideoConvertWindowProfile>
+  <VideoConvertWindowWidth>Breite</VideoConvertWindowWidth>
+  <VideoConvertWindowHeight>Höhe</VideoConvertWindowHeight>
+  <VideoConvertWindowExtractDetailsProgressMsg>Infos über das Video erhalten</VideoConvertWindowExtractDetailsProgressMsg>
+  <VideoConvertWindowOutputFileExistsTitle>Die Ausgangsdatei existiert bereits</VideoConvertWindowOutputFileExistsTitle>
+  <VideoConvertWindowOutputFileExistsMsg>Die Ausgangsdatei existiert bereits. Sie wird umgeschrieben.</VideoConvertWindowOutputFileExistsMsg>
+  <VideoConvertWindowPrepareToConvert>Vorbereitung zum Konvertieren des Videos</VideoConvertWindowPrepareToConvert>
+  <VideoConvertWindowOutputFileMatchInputFile>Der Name der Ausgangsdatei entspricht dem Namen der ursprünglichen Datei</VideoConvertWindowOutputFileMatchInputFile>
+
+  <VideoConvertProgressWindowTitle>Video-Konvertierung</VideoConvertProgressWindowTitle>
+  <VideoConvertProgressWindowInputFile>Ursprüngliche Datei</VideoConvertProgressWindowInputFile>
+  <VideoConvertProgressWindowOutputFile>Ausgangsdatei</VideoConvertProgressWindowOutputFile>
+  <VideoConvertProgressWindowStatus>Zustand</VideoConvertProgressWindowStatus>
+  <VideoConvertProgressWindowStatusTerminating>Abbrechen</VideoConvertProgressWindowStatusTerminating>
+  <VideoConvertProgressWindowStatusPreparing>Vorbereitung</VideoConvertProgressWindowStatusPreparing>
+  <VideoConvertProgressWindowStatusProgress>Schritt {0} von {1}</VideoConvertProgressWindowStatusProgress>
+  <VideoConvertProgressWindowStatusDone>Beendet</VideoConvertProgressWindowStatusDone>
+
+  <PlayHtml5VideoNotSupported>Ihr Browser unterstützt kein HTML5 Videoelement.</PlayHtml5VideoNotSupported>
+  <PlayHtml5VideoPlayFailed>Konnte die Videodatei nicht wiedergeben</PlayHtml5VideoPlayFailed>
+  <PlayHtml5AudioPlayFailed>Konnte die Audiodatei nicht wiedergeben</PlayHtml5AudioPlayFailed>
+  <PlayHtml5AudioTitle>Name</PlayHtml5AudioTitle>
+  <PlayHtml5AudioNotSupported>Ihr Browser unterstützt kein HTML5 Videoelement.</PlayHtml5AudioNotSupported>
+  <PlayHtml5AudioArtist>Autor</PlayHtml5AudioArtist>
+  <PlayHtml5AudioAlbum>Album</PlayHtml5AudioAlbum>
+  <PlayHtml5AudioYear>Jahr</PlayHtml5AudioYear>
+  <PlayHtml5AudioDuration>Länge</PlayHtml5AudioDuration>
+  <PlayHtml5AudioBitrate>Bitrate</PlayHtml5AudioBitrate>
+  <PlayHtml5AudioVolume>Lautstärke</PlayHtml5AudioVolume>
+
+  <!-- Root title -->
+  <RootTitle>Wurzel</RootTitle>
+
+  <!-- Recent feature keys -->
+  <RecentRootTitle>Kürzlich</RecentRootTitle>
+  <RecentDeleteOnePrompt>Sind Sie sicher, dass Sie löschen möchten "{0}" aus dem letzten Artikel?</RecentDeleteOnePrompt>
+  <RecentDeleteManyPrompt>Sind Sie sicher, dass Sie diese {0} Elemente aus Ihrem letzten Artikel löschen wollen?</RecentDeleteManyPrompt>
+  <RecentPathNotExist>Der jüngste Pfad "{0}" existiert nicht oder Zugriff verweigert</RecentPathNotExist>
+  <RecentAllWithoutGroupingTitle>Alle w / o Gruppierung</RecentAllWithoutGroupingTitle>
+  <RecentEditGroupTitle>bearbeitet</RecentEditGroupTitle>
+  <RecentViewGroupTitle>gesehen</RecentViewGroupTitle>
+  <RecentDownloadGroupTitle>heruntergeladene</RecentDownloadGroupTitle>
+  <RecentUploadGroupTitle>Hochgeladen</RecentUploadGroupTitle>
+  <RecentCreateGroupTitle>Erstellt</RecentCreateGroupTitle>
+
+  <!-- Trash feature keys -->
+  <TrashRootTitle>Müll</TrashRootTitle>
+  <TrashLabelDateDeleted>Datum gelöscht</TrashLabelDateDeleted>
+  <TrashDeleteOnePrompt>Sind Sie sicher, dass Sie dauerhaft zu löschen "{0}" aus dem Papierkorb?</TrashDeleteOnePrompt>
+  <TrashDeleteManyPrompt>Sind Sie sicher, dass Sie diese {0} Elemente aus dem Papierkorb endgültig löschen?</TrashDeleteManyPrompt>
+  <TrashEmptyTrashLabel>Leerer Müll</TrashEmptyTrashLabel>
+  <TrashRestoreSelectedLabel>Wiederherstellen</TrashRestoreSelectedLabel>
+  <TrashRestoreAllLabel>Alles wiederherstellen</TrashRestoreAllLabel>
+  <TrashEmptyTrashPrompt>Sind Sie sicher, dass Sie den Papierkorb zu leeren?</TrashEmptyTrashPrompt>
+  <TrashRestoreAllPrompt>Sind Sie sicher, dass Sie alle Elemente aus dem Papierkorb wiederherstellen?</TrashRestoreAllPrompt>
+  <TrashProgressRestoring>Erholen Sie sich von den Papierkorb</TrashProgressRestoring>
+  <TrashFolderNotFound>Trash-Verzeichnis nicht gefunden</TrashFolderNotFound>
+  <TrashBalloonRestored>Restaurierte Artikel: {0} von {1}</TrashBalloonRestored>
+  <TrashDeleteDirectlyLabel>Löschen direkt ohne in den Papierkorb zu entfernen</TrashDeleteDirectlyLabel>
+  <TrashUsedSpaceHint>{0} verwendet</TrashUsedSpaceHint>
+  <TrashLimitSizeHint>Gebrauchte {0} von {1} ({2})</TrashLimitSizeHint>
+  <TrashLargeItemsShelfTimeHint>Die Lagerzeit der Gegenstände größer ist als {0}: {1} Tag (e)</TrashLargeItemsShelfTimeHint>
+  <TrashSmallItemsShelfTimeHint>Für alle anderen: {0} Tag (e)</TrashSmallItemsShelfTimeHint>
+  <TrashItemsShelfTimeHint>Die Lagerzeit der Objekte: {0} Tag (e)</TrashItemsShelfTimeHint>
+  <TrashAvailableSpaceHint>Maximal verfügbare Größe {0}</TrashAvailableSpaceHint>
+  <TrashDeletedFromFolderHint>Gelöscht von {0}</TrashDeletedFromFolderHint>
+  <TrashExceededMessage>Folgende Objekte sind zu groß und kann nicht in den Papierkorb (die Beschränkung {0} überschritten wird) befinden:</TrashExceededMessage>
+  <TrashErrorSuffixMessage>Bitte versuchen Sie die Option "{0}" zu überprüfen und dann Datei (en) für immer unwiederbringlich löschen</TrashErrorSuffixMessage>
+
+  <!-- Shared by link -->
+  <SharedByLinkRootTitle>Geteilt von Link</SharedByLinkRootTitle>
+
+  <!-- Shared for you -->
+  <SharedForYouRootTitle>Mit dir geteilt</SharedForYouRootTitle>
+  <SharedForYouUnableToGetUrl>URL kann nicht zu bekommen</SharedForYouUnableToGetUrl>
+
+  <!-- Watch for modifications -->
+  <WatchForModifsCommand>Achten Sie auf Änderungen</WatchForModifsCommand>
+  <WatchForModifsStartCommand>Starten Sie beobachten</WatchForModifsStartCommand>
+  <WatchForModifsEditCommand>ändern Sie beobachten</WatchForModifsEditCommand>
+  <WatchForModifsStopCommand>Höre auf zu schauen</WatchForModifsStopCommand>
+  <WatchForModifsViewChangesCommand>Änderungen anzeigen</WatchForModifsViewChangesCommand>
+  <WatchForModifsSubscriptionSuccessMessage>Sie haben sich für Änderungen an "{0}" erfolgreich abonniert</WatchForModifsSubscriptionSuccessMessage>
+  <WatchForModifsStopSuccessMessage>Die Überwachung "{0}" wurde erfolgreich deaktiviert</WatchForModifsStopSuccessMessage>
+  <WatchForModifsIncludingNestedLabel>Betrachten Sie verschachtelte Dateien, Ordner</WatchForModifsIncludingNestedLabel>
+  <WatchForModifsParentWatchExistMessage>Für das ausgewählte Element bereits die Überwachung für den übergeordneten Ordner "{0}" zugeordnet.</WatchForModifsParentWatchExistMessage>
+  <WatchForModifsRootFolder>Benachrichtigungen</WatchForModifsRootFolder>
+  <WatchForModifsStartProgressLoading>Aktivieren Sie beobachten</WatchForModifsStartProgressLoading>
+  <WatchForModifsStopProgressLoading>Terminatie beobachten</WatchForModifsStopProgressLoading>
+  <WatchForModifsIconHint>Aktiviert Uhr für Änderungen</WatchForModifsIconHint>
+  <WatchForModifsNotifCheckBox>Eine Nachricht über Änderungen von E-Mails:</WatchForModifsNotifCheckBox>
+  <WatchForModifsWatchedUsersCheckBox>Überwachen Sie nur Benutzer (leer lassen, wenn Sie alle Monitor):</WatchForModifsWatchedUsersCheckBox>
+  <WatchForModifsIgnoreOwnerCheckBox>Ignorieren meine eigenen Änderungen</WatchForModifsIgnoreOwnerCheckBox>
+  <WatchForModifsActionsCheckBox>Überwachen Sie alle Aktionen (oder einige Aktionen aus der Liste unten)</WatchForModifsActionsCheckBox>
+  <WatchForModifsNestedItemsWarning>Aufmerksamkeit! Wenn Sie hinzufügen, für den ausgewählten Ordner überwachen, werden alle eingeschlossenen Dateien und Ordner, für die individuelle Überwachung früher hinzugefügt wurde, wird die Überwachung entfernt werden. Möchten Sie fortfahren?</WatchForModifsNestedItemsWarning>
+
+  <WelcomeWindowHideCheckboxLabel>Sie zeigen, dass dies nicht bis zum nächsten Protokollierung in</WelcomeWindowHideCheckboxLabel>
+
+  <LogsGridMoreInfoColumn>Mehr Infos</LogsGridMoreInfoColumn>
+  <LogsGridDetailsTitle>Einzelheiten</LogsGridDetailsTitle>
+  <LogsGridPhysPathColumn>Physikalischer Pfad</LogsGridPhysPathColumn>
+  <LogsGridIsFolderColumn>Mappe?</LogsGridIsFolderColumn>
+  <LogsGridIsPublicColumn>Öffentlichkeit?</LogsGridIsPublicColumn>
+  <LogsGridByWebDavColumn>WebDAV?</LogsGridByWebDavColumn>
+
+  <NoCommentsYetHint>Noch keine Kommentare</NoCommentsYetHint>
+  <NoHistoryYetHint>Keine Geschichte noch</NoHistoryYetHint>
+
+  <DetailsPropertyValuesCouldNotBeWritten>Fehlgeschlagen Eigenschaftswerte zu speichern, Mabe der Dateityp nicht solche Möglichkeit nicht unterstützt, oder es ist ein Fehler in der Anwendung mit der Datei verknüpft.</DetailsPropertyValuesCouldNotBeWritten>
+
+  <AdminCommandHelp>Hilfe</AdminCommandHelp>
+  <AdminCommandAddUser>Benutzer hinzufügen</AdminCommandAddUser>
+  <AdminCommandAddGroup>Gruppe hinzufügen</AdminCommandAddGroup>
+  <AdminCommandRemoveUser>Benutzer entfernen</AdminCommandRemoveUser>
+
+  <AdminCommandSelectUsers>hinzufügen von Benutzern</AdminCommandSelectUsers>
+  <AdminCommandSelectGroups>In Gruppen</AdminCommandSelectGroups>
+  <AdminCommandRemoveUsers>entfernen von Benutzern</AdminCommandRemoveUsers>
+  <AdminCommandRemoveGroups>Gruppen entfernen</AdminCommandRemoveGroups>
+  <AdminUsersGroups>Mitglied von</AdminUsersGroups>
+  <AdminSearchUserEmptyText>Geben Sie den Benutzernamen</AdminSearchUserEmptyText>
+  <AdminSearchGroupEmptyText>Geben Sie den Namen der Gruppe</AdminSearchGroupEmptyText>
+  <AdminUsersGroupAlreadyExists>Eine Gruppe (n) mit diesem Namen (s) wurde bereits hinzugefügt</AdminUsersGroupAlreadyExists>
+
+  <AdminApplicationLoading>Administrator-Schaltfläche wird geladen</AdminApplicationLoading>
+  <AdminTitle>Administration</AdminTitle>
+  <AdminUsersEditUser>Benutzer ändern</AdminUsersEditUser>
+  <AdminUsersSetUserPassword>Passwort setzen</AdminUsersSetUserPassword>
+  <AdminUsersViewGroups>Gruppen anzeigen</AdminUsersViewGroups>
+  <AdminUsersViewFolders>Ordner anzeigen</AdminUsersViewFolders>
+  <AdminUsersDeleteUserPrompt>Sind Sie sicher, dass Sie den(die) Benutzer "{0}" entfernen wollen?</AdminUsersDeleteUserPrompt>
+  <AdminUsersDeletedUsers>Benutzer entfernt: {0}.</AdminUsersDeletedUsers>
+  <AdminUsersUserNotFound>Kein Benutzer mit diesem Namen wurde gefunden</AdminUsersUserNotFound>
+  <AdminUsersPropertiesTitle>Benutzer Eigenschaften</AdminUsersPropertiesTitle>
+  <AdminUsersSetPasswordTitle>Benutzer-Passwort setzen</AdminUsersSetPasswordTitle>
+  <AdminUsersGeneralInfo>Benutzer-Information</AdminUsersGeneralInfo>
+  <AdminUsersUserEmail>E-Mail-Adresse</AdminUsersUserEmail>
+  <AdminUsersEmptyName>Der Benutzername kann nicht leer sein</AdminUsersEmptyName>
+  <AdminUsersEmptyPassword>Der Benutzer-Passwort kann nicht leer sein</AdminUsersEmptyPassword>
+  <AdminUsersIncorrectName>Der Benutzername enthält nicht zulässige Symbole</AdminUsersIncorrectName>
+  <AdminUsersAlreadyExists>Es gibt bereits einen Benutzer mit diesem Namen</AdminUsersAlreadyExists>
+  <AdminUsersEmailAlreadyExists>Ein Benutzer existiert bereits mit dieser E-Mail-Adresse</AdminUsersEmailAlreadyExists>
+  <AdminUsersPasswordsNotMatch>Die Passwörter stimmen nicht überein.</AdminUsersPasswordsNotMatch>
+  <AdminUsersRenameWarning>Nach dem Umbenennen des Benutzers muss man das Passwort ändern, sonst wird der Link zum Web-Ordner ungültig</AdminUsersRenameWarning>
+  <AdminUsersLicenseRestriction>Ihre Lizenz erlaubt es Ihnen nicht, mehr als {0} Benutzer zu erstellen</AdminUsersLicenseRestriction>
+  <AdminUsersCountInfoWithLimit>Benutzer insgesamt: {0} von {1}</AdminUsersCountInfoWithLimit>
+  <AdminUsersCountInfo>Benutzer insgesamt: {0}</AdminUsersCountInfo>
+
+  <AdminGroupsEditGroup>Gruppe ändern</AdminGroupsEditGroup>
+  <AdminGroupsRemoveGroup>Gruppe entfernen</AdminGroupsRemoveGroup>
+  <AdminGroupsDeleteGroupPrompt>Sind Sie sicher, dass Sie die Gruppe(n) "{0}" entfernen wollen?</AdminGroupsDeleteGroupPrompt>
+  <AdminGroupsDeletedGroups>Gruppen entfernt: {0}</AdminGroupsDeletedGroups>
+  <AdminGroupsGroupNotFound>Keine Gruppe mit diesem Namen wurde gefunden</AdminGroupsGroupNotFound>
+  <AdminGroupsViewUsers>Benutzer anzeigen</AdminGroupsViewUsers>
+  <AdminGroupsProperties>Eigenschaften</AdminGroupsProperties>
+  <AdminGroupsPropertiesTitle>Gruppen-Eigenschaften</AdminGroupsPropertiesTitle>
+  <AdminGroupsGeneralInfo>Gruppeninformation</AdminGroupsGeneralInfo>
+  <AdminGroupsUserNamePrompt>Geben Sie den Benutzernamen ein</AdminGroupsUserNamePrompt>
+  <AdminGroupsUsers>Gruppenmitglieder</AdminGroupsUsers>
+  <AdminGroupsUserAlreadyExists>Der Benutzer mit diesem Namen wurde bereits hinzugefügt</AdminGroupsUserAlreadyExists>
+  <AdminGroupsEmptyName>Der Gruppenname kann nicht leer sein</AdminGroupsEmptyName>
+  <AdminGroupsIncorrectName>Der Gruppenname enthält nicht zulässige Symbole</AdminGroupsIncorrectName>
+  <AdminGroupsAlreadyExists>Eine Gruppe mit diesem Namen existiert bereits</AdminGroupsAlreadyExists>
+  <AdminGroupsCountInfo>Gruppen insgesamt: {0}</AdminGroupsCountInfo>
+
+  <AdminLanguagesTab>Lokalisierungen</AdminLanguagesTab>
+  <AdminLanguagesTabMessage>Um die Lokalisierungsdatei zu bearbeiten, wählen Sie die benötigte Sprache aus der Liste, klicken Sie dann auf die zu lokalisierenden Zeilen und ändern Sie sie. Nach dem Beenden klicken Sie auf den Knopf "Speichern"</AdminLanguagesTabMessage>
+  <AdminLangGridKeyColumn>Schlüsselname</AdminLangGridKeyColumn>
+  <AdminLangGridDefaultColumn>Englisch</AdminLangGridDefaultColumn>
+  <AdminEnterLanguageNameTitle>Geben Sie den Sprachennamen ein</AdminEnterLanguageNameTitle>
+  <AdminLangConfirmRefreshTitle>Bestätigung der Aktualisierung</AdminLangConfirmRefreshTitle>
+  <AdminLangConfirmRefreshMessage>Achtung! Die Daten wurden nicht gespeichert. Wollen Sie die Änderungen jetzt speichern?</AdminLangConfirmRefreshMessage>
+  <AdminLangAmountInfo>Schlüssel ausgefüllt: {0} aus {1} (leere Werte: {2})</AdminLangAmountInfo>
+  <AdminLangSaveToCSV>In CSV speichern</AdminLangSaveToCSV>
+  <AdminLangLoadFromCSV>Aus CSB laden</AdminLangLoadFromCSV>
+
+  <AdminDbMaintenanceTab>DB Maintenance</AdminDbMaintenanceTab>
+  <AdminDbMaintenanceInfoTitle>Info</AdminDbMaintenanceInfoTitle>
+  <AdminDbMaintenanceInfoPathLabel>DB Dateipfad</AdminDbMaintenanceInfoPathLabel>
+  <AdminDbMaintenanceInfoSizeLabel>DB Dateigröße</AdminDbMaintenanceInfoSizeLabel>
+  <AdminDbMaintenanceCompactTitle>Compact-Datenbank</AdminDbMaintenanceCompactTitle>
+  <AdminDbMaintenanceCompactNote>Um die Größe der Datenbankdatei zu reduzieren, klicken Sie bitte auf den Button unten. Es ist notwendig, um die Kompression der Datenbank in regelmäßigen Abständen, da beispielsweise nach der Entfernung von einigen inaktiven öffentlichen Links oder alte Log zeichnet die DB Dateigröße ausführen nicht abnimmt.</AdminDbMaintenanceCompactNote>
+  <AdminDbMaintenanceCompactButton>Compact DB</AdminDbMaintenanceCompactButton>
+  <AdminDbMaintenanceCompactSuccess>DB erfolgreich verdichtet.
+Alte Dateigröße: {0}
+Neue Dateigröße: {1}</AdminDbMaintenanceCompactSuccess>
+  <AdminDbMaintenanceCompactAutoNote>Sie können sich auf die automatische Komprimierung Datenbank drehen auch nach dem Entfernen von Datensätzen Operationen jedoch ist es nicht empfehlenswert, weil es vielleicht häufiger Schlösser der Basis und es kann die Dauer einiger Anfragen erhöhen. Aufmerksamkeit! Nach dem Wechsel dieser Einstellung wird die Anwendung neu gestartet!</AdminDbMaintenanceCompactAutoNote>
+  <AdminDbMaintenanceCompactAutoCheckBox>Aktivieren / Deaktivieren Sie die automatische kompakte DB</AdminDbMaintenanceCompactAutoCheckBox>
+  <AdminDbMaintenanceCompactAutoSaveButton>sparen</AdminDbMaintenanceCompactAutoSaveButton>
+  <AdminDbMaintenanceCompactAutoSaveSuccess>Die Änderung der DB automatischen сompression wurde erfolgreich abgeschlossen. Die Seite wird in Kürze aktualisiert.</AdminDbMaintenanceCompactAutoSaveSuccess>
+  <AdminDbMaintenanceEnableLogLabel>Wählen Sie DB-Abfragen Protokollebene (in Data / debug.log)</AdminDbMaintenanceEnableLogLabel>
+  <AdminDbMaintenanceSettingsSaveSuccess>DB-Einstellungen erfolgreich gespeichert. Die Seite wird neu geladen</AdminDbMaintenanceSettingsSaveSuccess>
+  <AdminDbMaintenanceSettingsChangeNote>Aufmerksamkeit! Nach dem Speichern der Einstellungen wird die Anwendung in Kürze neu gestartet werden!</AdminDbMaintenanceSettingsChangeNote>
+  <AdminDbMaintenanceInsertIntervalLabel>Das Intervall (in Minuten) von Ereignissen, an die DB hinzufügen. Wenn Sie 0 angeben, erscheint das Einfügen direkt nach den Ereignissen.</AdminDbMaintenanceInsertIntervalLabel>
+  <AdminDbMaintenanceAdvDbParamsTitle>Erweiterte DB-Verbindungsparameter</AdminDbMaintenanceAdvDbParamsTitle>
+  <AdminDbMaintenanceStatTitle>Statistik (abhängig von der DB-Protokollebene DurationExecution)</AdminDbMaintenanceStatTitle>
+  <AdminDbMaintenanceStatDurationReadLabel>Avg Lesen Timeout</AdminDbMaintenanceStatDurationReadLabel>
+  <AdminDbMaintenanceStatDurationWriteLabel>Avg Schreiben Timeout</AdminDbMaintenanceStatDurationWriteLabel>
+  <AdminDbMaintenanceStatDurationCompactLabel>Avg kompakte Timeout</AdminDbMaintenanceStatDurationCompactLabel>
+  <AdminDbMaintenanceStatNoData>Keine Daten</AdminDbMaintenanceStatNoData>
+  <AdminDbMaintenanceStatGetButton>Sammeln Sie Statistiken</AdminDbMaintenanceStatGetButton>
+ 
+  <AdminMiscTab>Zusätzlich</AdminMiscTab>
+  <AdminMiscLoadADAccountsTitle>Laden der Active Directory Accounts</AdminMiscLoadADAccountsTitle>
+  <AdminMiscLoadADAccountsLoadButton>Laden</AdminMiscLoadADAccountsLoadButton>
+  <AdminMiscLoadADAccountsResetButton>Reset</AdminMiscLoadADAccountsResetButton>
+  <AdminMiscLoadADAccountsLdap>LDAP Container</AdminMiscLoadADAccountsLdap>
+  <AdminMiscLoadADAccountsToFile>In die Datei</AdminMiscLoadADAccountsToFile>
+  <AdminMiscLoadADAccountsSuccessMessage>Das Laden der Active Directory Accounts wurde erfolgreich beendet</AdminMiscLoadADAccountsSuccessMessage>
+  <AdminMiscLoadADAccountsInfo>Hier können Sie die Datei generieren, die die Liste der Benutzer von Active Directory enthalten wird. Diese Datei wird benötigt, wenn Sie als Speicher von Active Directory Accounts eine statische Datei verwenden. Solche Datei wird unter Benutzung der Anwendung ADManager erstellt. Um genauere Information zu erhalten, wenden Sie sich an die Beschreibung des Parameters &lt;b&gt;ADAccountsFilePath&lt;/b&gt; in der {0}Dokumentation{1}.</AdminMiscLoadADAccountsInfo>
+
+  <AdminMiscManageQuotasTitle>Quoten-Steuerung</AdminMiscManageQuotasTitle>
+  <AdminMiscManageQuotasInfo>Die aktuelle Quote erhalten oder eine neue zur Begrenzung der Ordnergröße unter der Benutzung von File Server Resource Manager angeben.</AdminMiscManageQuotasInfo>
+  <AdminMiscManageQuotasFolderPath>Ordnerpfad</AdminMiscManageQuotasFolderPath>
+  <AdminMiscManageQuotasQuota>Quote</AdminMiscManageQuotasQuota>
+  <AdminMiscManageQuotasGetQuota>Quote erhalten</AdminMiscManageQuotasGetQuota>
+  <AdminMiscManageQuotasSetQuota>Quote angeben</AdminMiscManageQuotasSetQuota>
+
+  <AdminMiscFoldersFromGPOLTitle>Ordner aus Group Policy laden</AdminMiscFoldersFromGPOLTitle>
+  <AdminMiscFoldersFromGPOLComputerName>Computername</AdminMiscFoldersFromGPOLComputerName>
+  <AdminMiscFoldersFromGPOLFilePath>Dateipfad</AdminMiscFoldersFromGPOLFilePath>
+  <AdminMiscFoldersFromGPOLMoreInfoLink>Mehr</AdminMiscFoldersFromGPOLMoreInfoLink>
+  <AdminMiscFoldersFromGPOLResetButton>Reset</AdminMiscFoldersFromGPOLResetButton>
+  <AdminMiscFoldersFromGPOLLoadButton>Laden</AdminMiscFoldersFromGPOLLoadButton>
+  <AdminMiscFoldersFromGPOLFromDC>Aus DC</AdminMiscFoldersFromGPOLFromDC>
+  <AdminMiscFoldersFromGPOLFromFile>Aus der Datei</AdminMiscFoldersFromGPOLFromFile>
+  <AdminMiscFoldersTargetLabel>Importieren der Begrenzungen für Benutzer/Gruppen nach…</AdminMiscFoldersTargetLabel>
+  <AdminMiscFoldersTargetFilter>Filter</AdminMiscFoldersTargetFilter>
+  <AdminMiscFoldersTargetPermission>Berechtigungen</AdminMiscFoldersTargetPermission>
+  <AdminMiscFoldersFromGPOLSuccessMessage>Ordner wurden erfolgreich geladen.&lt;br /&gt;Neue: {0}, aktualisiert: {1}.</AdminMiscFoldersFromGPOLSuccessMessage>
+  <AdminMiscFoldersFromGPOLInfo>Sie können die Liste der Ordner aus den Einstellungen von Group Policy Drive Mapping des Domain-Controllers laden (oder aktualisieren). Im unteren Feld können Sie den Computernamen angeben, aus dem die Parameter der Gruppenpolitik geladen werden (wenn das Feld leer gelassen wird, wird das aktuelle Domain benutzt), oder den Pfad zur Datei Drives.xml mit den Anschluss-Einstellungen angeben.</AdminMiscFoldersFromGPOLInfo>
+
+  <AdminAnonymFoldersTab>Allgemein zugängliche Ordner</AdminAnonymFoldersTab>
+  <AdminAnonymFoldersDeleteFolderPrompt>Sind Sie sicher, dass Sie {0} ausgewählte allgemein zugängliche Ordner entfernen wollen?</AdminAnonymFoldersDeleteFolderPrompt>
+  <AdminAnonymFoldersDescription>Allgemein zugängliche Ordner sind Ordner, die keine Benutzer-Authentifizierung benötigen, d.h., sie sind für alle Benutzer verfügbar (wenn sie den Link haben). Die Benutzer können solche Ordner im dem Menü "Allgemeiner Zugang &amp;rarr; Link für den allgemeinen Zugang erstellen" erstellen. Solche Ordner können begrenzte Berechtigungen haben: Hochladen, Herunterladen, Anzeigen der Liste der Dateien/Ordner. Unten ist eine Liste der Links zu den allgemeinen Ordnern aufgeführt, die die Benutzer erstellt haben. Für die richtige Funktionsweise dieser Links müssen Sie sich vergewissern, dass für den Bearbeiter Handlers/AnonymousDownload.ashx ein anonymer Zugang zu IIS angegeben wurde. Sie können dies auf der  &lt;a target="_blank" href="{0}"&gt;Diagnose-Seite&lt;/a&gt; überprüfen. Vergewissern Sie sich auch, dass der Account des anonymen Benutzers für Handlers/AnonymousDownload.ashx NTFS-Rechte zum Lesen/Schreiben für die allgemein zugängliche Ordner besitzt und dass der Account des Anwendungs-Pools NTFS-Rechte zum Lesen/Schreiben für die Datei Data/Links.xml hat.</AdminAnonymFoldersDescription>
+  <AdminAnonymFoldersLinkOwnerColumn>Inhaber</AdminAnonymFoldersLinkOwnerColumn>
+  <AdminAnonymFoldersEmailsColumn>E-Mail-Adressen für Benachrichtigungen</AdminAnonymFoldersEmailsColumn>
+  <AdminAnonymFoldersAccessForUsersColumn>Zugang für Benutzer</AdminAnonymFoldersAccessForUsersColumn>
+  <AdminAnonymFoldersPersonalMessageColumn>Persönliche Mitteilung</AdminAnonymFoldersPersonalMessageColumn>
+  <AdminAnonymFoldersOverwriteOnUploadHint>(überschreiben: {0})</AdminAnonymFoldersOverwriteOnUploadHint>
+  <AdminAnonymFoldersRootPathColumn>Stammpfad</AdminAnonymFoldersRootPathColumn>
+  <AdminAnonymFoldersKeysColumn>Schlüssel</AdminAnonymFoldersKeysColumn>
+  <AdminAnonymFoldersShortColumn>Kurzer Link</AdminAnonymFoldersShortColumn>
+  <AdminAnonymFoldersPropertiesTitle>Eigenschaften des allgemein zugänglichen Ordners</AdminAnonymFoldersPropertiesTitle>
+  <AdminAnonymFoldersAdditionalInfo>Zusätzliche Information</AdminAnonymFoldersAdditionalInfo>
+  <AdminAnonymFoldersLinkLabel>Zugangslink</AdminAnonymFoldersLinkLabel>
+  <AdminAnonymFoldersPathNotSpecified>Kein physischer Pfad angegeben</AdminAnonymFoldersPathNotSpecified>
+  <AdminAnonymFoldersCreatedForColumn>Zweck</AdminAnonymFoldersCreatedForColumn>
+
+  <AdminFoldersTab>Ordner</AdminFoldersTab>
+  <AdminFoldersAddFolder>Ordner hinzufügen</AdminFoldersAddFolder>
+  <AdminFoldersEditFolder>Ordner ändern</AdminFoldersEditFolder>
+  <AdminFoldersRemoveFolder>Ordner entfernen</AdminFoldersRemoveFolder>
+  <AdminFoldersDeleteFolderPrompt>Sind Sie sicher, dass Sie den Ordner "{0}" entfernen wollen?</AdminFoldersDeleteFolderPrompt>
+  <AdminFoldersFolderNotFound>Kein Ordner mit diesem Namen gefunden</AdminFoldersFolderNotFound>
+  <AdminFoldersPropertiesTitle>Ordner-Eigenschaften</AdminFoldersPropertiesTitle>
+  <AdminFoldersGeneralInfo>Allgemeine Information</AdminFoldersGeneralInfo>
+  <AdminFoldersFolderRemoteWarningForms>Achtung! Das ist ein Fernzugriff-Ordner. Wenden Sie sich an das {0}FAQ: how to share remote folders{1}</AdminFoldersFolderRemoteWarningForms>
+  <AdminFoldersFolderRemoteWarningWin>Achtung! Das ist ein Fernzugriff-Ordner. Sie können einige Ordner/Dateien verbergen, wenn die Benutzer keine Berechtigung zum Lesen haben. Wenden Sie sich an das {0}FAQ: how to hide files/folder that user does not have rights to read{1}</AdminFoldersFolderRemoteWarningWin>
+  <AdminFoldersFolderPath>Physischer Pfad</AdminFoldersFolderPath>
+  <AdminFoldersLocationPath>Ort</AdminFoldersLocationPath>
+  <AdminFoldersFolderCreate>Ordner erstellen</AdminFoldersFolderCreate>
+  <AdminFoldersFolderCreateProcess>Ordner speichern</AdminFoldersFolderCreateProcess>
+  <AdminFoldersFolderCreateContainsPattern>Der Ordner kann nicht erstellt werden, da er eine Schablone enthält</AdminFoldersFolderCreateContainsPattern>
+  <AdminFoldersFolderCreateSuccessfully>Der Ordner "{0}" wurde erfolgreich erstellt.</AdminFoldersFolderCreateSuccessfully>
+  <AdminFoldersFolderOptional> (optional)</AdminFoldersFolderOptional>
+  <AdminFoldersFolderLimitations>Einschränkungen</AdminFoldersFolderLimitations>
+  <AdminFoldersFolderDescription>Beschreibung</AdminFoldersFolderDescription>
+  <AdminFoldersFolderQuota>Quote</AdminFoldersFolderQuota>
+  <AdminFoldersFolderQuotaHint>Die aktuelle Quote erhalten oder eine neue zur Begrenzung der Ordnergröße unter der Benutzung von File Server Resource Manager angeben.</AdminFoldersFolderQuotaHint>
+  <AdminFoldersFolderQuotaMoreInfoLink>Mehr</AdminFoldersFolderQuotaMoreInfoLink>
+  <AdminFoldersPermissions>Berechtigungen</AdminFoldersPermissions>
+  <AdminFoldersPermissionsFor>Berechtigungen für {0}</AdminFoldersPermissionsFor>
+  <AdminFoldersUsersGroups>Benutzer und Gruppen</AdminFoldersUsersGroups>
+  <AdminFoldersAccessControl>Zugriffssteuerung</AdminFoldersAccessControl>
+  <AdminFoldersCreate>Erstellen</AdminFoldersCreate>
+  <AdminFoldersDelete>Entfernen</AdminFoldersDelete>
+  <AdminFoldersRename>Umbenennen</AdminFoldersRename>
+  <AdminFoldersUpload>Laden</AdminFoldersUpload>
+  <AdminFoldersDownload>Herunterladen</AdminFoldersDownload>
+  <AdminFoldersZipDownload>Archivieren und herunterladen</AdminFoldersZipDownload>
+  <AdminFoldersZip>ZIP-Archivierung</AdminFoldersZip>
+  <AdminFoldersUnzip>Entpacken der ZIP-Archive</AdminFoldersUnzip>
+  <AdminFoldersCut>Ausschneiden</AdminFoldersCut>
+  <AdminFoldersCopy>Kopieren</AdminFoldersCopy>
+  <AdminFoldersListFiles>Dateien anzeigen</AdminFoldersListFiles>
+  <AdminFoldersListFolders>Ordner anzeigen</AdminFoldersListFolders>
+  <AdminFoldersModify>Ändern</AdminFoldersModify>
+  <AdminFoldersBulkMailing>Massenversendung</AdminFoldersBulkMailing>
+  <AdminFoldersAnonymViewContent>Inhalt anzeigen (allgemein zugänglicher Ordner)</AdminFoldersAnonymViewContent>
+  <AdminFoldersAnonymDownload>Allgemein zugängliche Links herunterladen</AdminFoldersAnonymDownload>
+  <AdminFoldersAnonymUpload>Über allgemein zugängliche Links hochladen</AdminFoldersAnonymUpload>
+  <AdminFoldersWatch>Uhr</AdminFoldersWatch>
+  <AdminFoldersDescription>Sie können die Ordner manuell hinzufügen oder die existierenden Ordner ändern, wenn Sie Disks aus Gruppenpolitiken benutzen. Für mehr Informationen wenden Sie sich an die {0}Hilfe{1}.</AdminFoldersDescription>
+
+  <AdminFoldersPermissionsForRegex>Sie können auch mit einem regulären Ausdruck. Bitte geben Sie &lt;b&gt;{0}&lt;/b&gt; am Anfang des Feldes oben und dann ein regulärer Ausdruck, zum Beispiel:</AdminFoldersPermissionsForRegex>
+  <AdminFoldersPermissionsForRegexUsers>{0} (bieten Zugriff für jeden Benutzer) &lt;br /&gt;{1} (diese regulären Ausdruck bedeutet, dass zwei Benutzer: jdoe und Mike)</AdminFoldersPermissionsForRegexUsers>
+  <AdminFoldersPermissionsForRegexGroups>{0} (bieten Zugang für jede Gruppe) &lt;br /&gt;{1} (dieser reguläre Ausdruck bedeutet, dass alle Gruppen mit "Studenten" in ihrem Namen)</AdminFoldersPermissionsForRegexGroups>
+
+  <AdminFoldersListRestrictions>Anzeige-Begrenzungen</AdminFoldersListRestrictions>
+  <AdminFoldersCreateRestrictions>Begrenzungen bei der Erstellung der Dateien</AdminFoldersCreateRestrictions>
+  <AdminFoldersRestrictionAllow>Erlaubt</AdminFoldersRestrictionAllow>
+  <AdminFoldersRestrictionDeny>Verboten</AdminFoldersRestrictionDeny>
+  <AdminFoldersRestrictionExtensions>Erweiterungen</AdminFoldersRestrictionExtensions>
+  <AdminFoldersUserNamePrompt>Geben Sie den Benutzernamen ein</AdminFoldersUserNamePrompt>
+  <AdminFoldersUserNameEmptyText>Wählen Sie den Benutzernamen aus</AdminFoldersUserNameEmptyText>
+  <AdminFoldersUserNameNotSelected>Sie müssen einen Benutzernamen auswählen</AdminFoldersUserNameNotSelected>
+  <AdminFoldersUserAlreadyExists>Der Benutzer wurde bereits zum Ordner hinzugefügt</AdminFoldersUserAlreadyExists>
+  <AdminFoldersGroupNamePrompt>Geben Sie den Gruppennamen ein</AdminFoldersGroupNamePrompt>
+  <AdminFoldersGroupNameEmptyText>Wählen Sie den Gruppennamen aus</AdminFoldersGroupNameEmptyText>
+  <AdminFoldersGroupNameNotSelected>Sie müssen einen Gruppennamen auswählen</AdminFoldersGroupNameNotSelected>
+  <AdminFoldersGroupAlreadyExists>Diese Gruppe wurde bereits zum Ordner hinzugefügt</AdminFoldersGroupAlreadyExists>
+  <AdminFoldersEmptyName>Der Ordnername kann nicht leer sein</AdminFoldersEmptyName>
+  <AdminFoldersEmptyPath>Der Ordnerpfad kann nicht leer sein</AdminFoldersEmptyPath>
+  <AdminFoldersIncorrectName>Der Ordnername enthält unzulässige Symbole</AdminFoldersIncorrectName>
+  <AdminFoldersAlreadyExists>Der Ordner mit diesem Namen und dieser Platzierung existiert bereits</AdminFoldersAlreadyExists>
+  <AdminFoldersSharesButton>Netzwerk-Ordner</AdminFoldersSharesButton>
+  <AdminFoldersTestAccessButton>Zugangsüberprüfung</AdminFoldersTestAccessButton>
+  <AdminFoldersTestIndexingButton>Test-Indizierung</AdminFoldersTestIndexingButton>
+  <AdminFoldersShareNameTitle>Netzwerk-Ordner</AdminFoldersShareNameTitle>
+  <AdminFoldersShareNameEmptyText>Wählen Sie den Ordner aus</AdminFoldersShareNameEmptyText>
+  <AdminFoldersShareNameNotSelected>Sie müssen einen Ordner auswählen</AdminFoldersShareNameNotSelected>
+  <AdminFoldersGetQuotaButton>Quote erhalten</AdminFoldersGetQuotaButton>
+  <AdminFoldersSetQuotaButton>Quoten angeben</AdminFoldersSetQuotaButton>
+  <AdminCommonFilterField>Filter</AdminCommonFilterField>
+  <AdminCommonValidateField>Bestätigen</AdminCommonValidateField>
+  <AdminFoldersRootNameUsed>Geben Sie für den Ordner bitte einen anderen Namen als "{0}" ein</AdminFoldersRootNameUsed>
+  <AdminFoldersFolderFilterSuccess>Bestätigen des Filters erfolgte erfolgreich</AdminFoldersFolderFilterSuccess>
+
+  <AdminTestAccessGoodResult>Der Ordner "{0}" existiert und ist zum Lesen verfügbar.</AdminTestAccessGoodResult>
+  <AdminTestAccessBadResult>Der Ordner "{0}" wurde entweder nicht gefunden, oder es fehlen die NTFS-Rechte zum Lesen, oder es gibt keinen Zugang zum Netzwerk für den Account des Anwendungspools!</AdminTestAccessBadResult>
+  <AdminTestAccessErrorResult>Fehler bei der Überprüfung des Zugangs zum Ordner "{0}": {1}</AdminTestAccessErrorResult>
+ <AdminTestIndexingErrorResult>Fehler beim Indizierung für Ordner überprüfen "{0}":
+{1}</AdminTestIndexingErrorResult>
+  <AdminTestIndexingYesResult>Das Verzeichnis "{0}" ist indiziert</AdminTestIndexingYesResult>
+  <AdminTestIndexingNoResult>Das Verzeichnis "{0}" ist nicht indiziert</AdminTestIndexingNoResult>
+  <AdminTestIndexingUnknownResult>Es kann nicht ermittelt, ob das Verzeichnis "{0}" indiziert ist.</AdminTestIndexingUnknownResult>
+  <AdminTestIndexingAddIfNotIndexed>Möchten Sie diesen Ordner für die Indizierung zu addieren, wenn es noch indiziert wurde?</AdminTestIndexingAddIfNotIndexed>
+  <ProgressTestAccess>Zugangsüberprüfung</ProgressTestAccess>
+  <ProgressTestIndexing>Überprüfen Indizierung</ProgressTestIndexing>
+  <AdminHowToIndexingLocationLink>Um einen Ordner zu indizieren, finden Sie in der Hilfe für {0}</AdminHowToIndexingLocationLink>
+
+  <AdminUsersListAll>Alle Benutzer</AdminUsersListAll>
+  <AdminUsersListDACL>Benutzer aus ACL</AdminUsersListDACL>
+  <AdminGroupsListAll>Alle Gruppen</AdminGroupsListAll>
+  <AdminGroupsListDACL>Gruppen aus ACL</AdminGroupsListDACL>
+  <AdminDACLStringLabel>ACL-Berechtigungen</AdminDACLStringLabel>
+
+  <AdminCommonCustomField>Benutzerfelder</AdminCommonCustomField>
+  <AdminCommonSettingsChangeWarning>Die Änderungen werden nach dem Neustart aktiv (oder nach dem Neustart der Anwendung zum Zugang über WebDAV)</AdminCommonSettingsChangeWarning>
+
+  <AdminCommonAllowedFoldersPathsTitle>Erlaubte Ordnerpfade</AdminCommonAllowedFoldersPathsTitle>
+  <AdminCommonNotAllowedFolderPath>Sie können den Zugang nur zu diesen Ordnern und deren Unterordnern erstellen: {0}</AdminCommonNotAllowedFolderPath>
+
+  <AdminLogsTab>Logbuch</AdminLogsTab>
+
+  <AdminSettingsTab>Einstellungen</AdminSettingsTab>
+
+  <AdminLogsErrorsTab>Fehler-Log</AdminLogsErrorsTab>
+  <AdminLogsErrorsClearBtn>Leeren</AdminLogsErrorsClearBtn>
+  <AdminLogsErrorsClearUsersCountExceededBtn>Fehlereinträge entfernen, deren Nummern das gesetzte Maximum überschreiten</AdminLogsErrorsClearUsersCountExceededBtn>
+
+  <AdminFoldersCreateHint>Handlungen aus dem Menü "Erstellen" erlauben/verbieten: neue Datei, Ordner, Bild in Pixlr, Verknüpfung, Dokumentendateien.</AdminFoldersCreateHint>
+  <AdminFoldersDeleteHint>Das Entfernen der existierenden Dateien und Ordner erlauben/verbieten</AdminFoldersDeleteHint>
+  <AdminFoldersRenameHint>Das Umbenennen der existierenden Dateien und Ordner erlauben/verbieten</AdminFoldersRenameHint>
+  <AdminFoldersUploadHint>Das Laden der Dateien (der Knop "Laden" in der Symbolleiste) erlauben/verbieten</AdminFoldersUploadHint>
+  <AdminFoldersDownloadHint>Das Herunterladen der Dateien, inklusive des Menüs "Vorschaue / Bearbeiten", Speichern in die Cloud Speicher usw. erlauben/verbieten.</AdminFoldersDownloadHint>
+  <AdminFoldersZipDownloadHint>Die Handlung "archivieren und herunterladen" erlauben/verbieten.</AdminFoldersZipDownloadHint>
+  <AdminFoldersZipHint>Das Erstellen der ZIP-Archive erlauben/verbieten</AdminFoldersZipHint>
+  <AdminFoldersUnzipHint>Das Entpacken der ZIP-Archive (Menü "Archiv entpacken", Möglichkeit zum Anschauen des Archiv-Inhalts) erlauben/verbieten</AdminFoldersUnzipHint>
+  <AdminFoldersCutHint>Die Möglichkeit, existierende Dateien und Ordner auszuscheiden, erlauben/verbieten</AdminFoldersCutHint>
+  <AdminFoldersCopyHint>Das Kopieren der existierenden Dateien und Ordner erlauben/verbieten</AdminFoldersCopyHint>
+  <AdminFoldersListFilesHint>Die Vorschau der Dateiliste erlauben/verbieten</AdminFoldersListFilesHint>
+  <AdminFoldersListFoldersHint>Die Vorschau der Ordnerliste erlauben/verbieten</AdminFoldersListFoldersHint>
+  <AdminFoldersModifyHint>Das Ändern der Dateien (alle Handlungen, die das Ändern des Inhaltes der existierenden Dateien ermöglichen) erlauben/verbieten</AdminFoldersModifyHint>
+  <AdminFoldersBulkMailingHint>Den Massenversand von E-Mails an Benutzergruppen erlauben/verbieten</AdminFoldersBulkMailingHint>
+  <AdminFoldersAnonymViewContentHint>Die Vorschau des Ordnerinhaltes über den allgemein zugänglichen Link (für anonyme Benutzer) erlauben/verbieten</AdminFoldersAnonymViewContentHint>
+  <AdminFoldersAnonymDownloadHint>Das Herunterladen der Dateien aus dem Ordner über den allgemein zugänglichen Link (für anonyme Benutzer) erlauben/verbieten</AdminFoldersAnonymDownloadHint>
+  <AdminFoldersAnonymUploadHint>Das Hochladen der Dateien in den Ordner über den allgemein zugänglichen Link (für anonyme Benutzer) erlauben/verbieten</AdminFoldersAnonymUploadHint>
+  <AdminFoldersWatchHint>Zulassen / Verweigern Benutzer die Änderungen in dem Ordner von anderen Benutzern zu überwachen (es wird nur angewendet, wenn UI / AllowUsersmonitorModifications = true)</AdminFoldersWatchHint>
+  <AdminFoldersListRestrictionsHint>Diese Einstellung kontrolliert die Anzeige der Dateiliste. Klicken Sie auf "Verboten", um die Dateien mit angegebenen Erweiterungen zu verbergen. Geben Sie die verbotenen Erweiterungen an, indem Sie sie mit Komma trennen (zum Beispiel: "EXE, BAT, COM"). Klicken Sie auf "Erlaubt" und geben Sie Erweiterungen an, um Dateien nur mit diesen Erweiterungen anzuzeigen (zum Beispiel: "DOC, PDF, JPG").</AdminFoldersListRestrictionsHint>
+  <AdminFoldersCreateRestrictionsHint>Diese Möglichkeit ist analog zu der vorherigen, aber sie kontrolliert Dateien bei der Erstellung, Speichern und Entpacken von Archiven. Sie können das Laden der angegebenen Dateiarten verbieten oder erlauben.</AdminFoldersCreateRestrictionsHint>
+  <AdminFoldersGeneralInfoHint>Geben Sie den Ordnernamen und den Pfad dorthin ein. Klicken Sie auf den unteren Knopf "Hilfe", um mehr Information zu erhalten.</AdminFoldersGeneralInfoHint>
+  <AdminFoldersUsersGroupsHint>Wählen Sie aus oder geben Sie Benutzer und Gruppen ein, für die der Ordner verfügbar sein wird. Mehr darüber können Sie erfahren, wenn Sie auf den Knopf "Hilfe" drücken.</AdminFoldersUsersGroupsHint>
+
+  <AdminUserFoldersButtonTitle>Liste der Benutzerordner</AdminUserFoldersButtonTitle>
+  <AdminUserFoldersWindowTitle>Benutzerordner</AdminUserFoldersWindowTitle>
+  <AdminUserFoldersLabel>Liste der Ordner für den Benutzer "{0}":</AdminUserFoldersLabel>
+  
+  <AdminPermissionsTab>Erlaubnisse der Administratoren</AdminPermissionsTab>
+  <AdminPermissionsPrivilege>Privileg</AdminPermissionsPrivilege>
+  <AdminPermissionsEditButton>Privileg ändern</AdminPermissionsEditButton>
+  <AdminPermissionsModifySettingsTitle>Einstellungen ändern</AdminPermissionsModifySettingsTitle>
+  <AdminPermissionsModifyFoldersTitle>Ordner steuern</AdminPermissionsModifyFoldersTitle>
+  <AdminPermissionsModifyAnonymFoldersTitle>Allgemein zugängliche Ordner steuern</AdminPermissionsModifyAnonymFoldersTitle>
+  <AdminPermissionsModifyAccountsTitle>Accounts steuern</AdminPermissionsModifyAccountsTitle>
+  <AdminPermissionsViewDiagnosticsTitle>Diagnostik-Seite anzeigen</AdminPermissionsViewDiagnosticsTitle>
+  <AdminPermissionsViewLogTitle>Ereignis-Logbuch anzeigen</AdminPermissionsViewLogTitle>
+  <AdminPermissionsViewErrorsLogTitle>Fehler-Log anzeigen</AdminPermissionsViewErrorsLogTitle>
+  <AdminPermissionsModifyLocalizationsTitle>Lokalisierungen steuern</AdminPermissionsModifyLocalizationsTitle>
+  <AdminPermissionsFolderPathTitle>Pfad zum Ordner</AdminPermissionsFolderPathTitle>
+  <AdminPermissionsFoldersTitle>Ordner, die zum administrieren verfügbar sind</AdminPermissionsFoldersTitle>
+  <AdminPermissionsPrivilegeHint>Benutzer/Gruppen angeben, für die das Privileg "{0}" erlaubt sein wird</AdminPermissionsPrivilegeHint>
+  <AdminPermissionsFolderTitle>Eigenschaften des Ordners zum administrieren</AdminPermissionsFolderTitle>
+  <AdminPermissionsFolderFieldTitle>Ordnerpfad</AdminPermissionsFolderFieldTitle>
+  <AdminPermissionsFolderHint>Information über die Ordner zum administrieren</AdminPermissionsFolderHint>
+  <AdminPermissionsFolderEmptyAccounts>Geben Sie die Benutzer und/oder die Gruppen an</AdminPermissionsFolderEmptyAccounts>
+  <AdminPermissionsFolderAlreadyExists>Es gibt bereits einen Ordner mit dem angegebenen Ort</AdminPermissionsFolderAlreadyExists>
+  <AdminPermissionsFolderNotFound>Es wurde kein Ordner mit dem angegebenen Pfad gefunden</AdminPermissionsFolderNotFound>
+  <AdminPermissionsAllowedFoldersMessage>Sie können den Zugang nur für diesen Ordner und seine Unterordner erstellen/ändern/steuern: {0}</AdminPermissionsAllowedFoldersMessage>
+
+  <AdminUsersCountExceededWarn>Die maximale Anzahl an Benutzer wurde überschritten. Ihre aktuelle Lizenz ermöglicht es, nur {0} Benutzer zum Eingang zum System zu benutzen. Um zusätzliche Information zu bekommen, öffnen Sie den Tab "{1}" und finden Sie den(die) Fehler "{2}". Um diese Nachricht zu verbergen, leeren Sie die Einträge im Fehler-Logbuch im Tab "{1}".</AdminUsersCountExceededWarn>
+
+  <AdminNewVersionAvailableTitle>Neue Version ist verfügbar!</AdminNewVersionAvailableTitle>
+  <AdminNewVersionAvailableInfo>Aktuelle Version: {0} &lt;br /&gt; Eine neuere Version: {1}</AdminNewVersionAvailableInfo>
+  
+  <SettingsGridDescriptionInfo>Beschreibung</SettingsGridDescriptionInfo>
+  <SettingsGridFormatInfo>Wert-Format</SettingsGridFormatInfo>
+  <SettingsGridDefaultValueInfo>Standardmäßiger Wert</SettingsGridDefaultValueInfo>
+  <SettingsGridMoreInfo>Mehr</SettingsGridMoreInfo>
+  <SettingsGridRestoreDefault>Standardmäßigen Wert wiederherstellen</SettingsGridRestoreDefault>
+
+  <SettingsFormatBoolean>Boolescher Wert</SettingsFormatBoolean>
+  <SettingsFormatWholeNumber>Ganze Zahl</SettingsFormatWholeNumber>
+  <SettingsFormatRealNumber>Reelle Zahl</SettingsFormatRealNumber>
+  <SettingsFormatString>String</SettingsFormatString>
+  <SettingsFormatEnum>Beliebiger Wert aus</SettingsFormatEnum>
+  <SettingsFormatSet>Liste ohne Wiederholungen, durch Kommas getrennt</SettingsFormatSet>
+  <SettingsFormatArray>Liste der Strings, durch Kommas getrennt</SettingsFormatArray>
+  <SettingsFormatToolbarButtons>. (Der Wert "{0}" kann mehrere Male wiederholt werden, aber nicht nacheinander. Nach jedem Namen, nach dem ein Doppelpunkt folgt, kann man eine der Methoden zum Anzeigen des Knopfes angeben: {1})</SettingsFormatToolbarButtons>
+
+  <AdminSettingsSave>Einstellungen speichern</AdminSettingsSave>
+  <AdminToggleHiddenParams>{0} verborgene Parameter</AdminToggleHiddenParams>
+  <AdminHintHiddenParams>Weitere Parameter sind nur für die detailliertere Einstellungen und in den meisten Fällen sind selten nötig</AdminHintHiddenParams>
+  <AdminShowHiddenParams>Anzeigen</AdminShowHiddenParams>
+  <AdminHideHiddenParams>Verbergen</AdminHideHiddenParams>
+
+  <SettingsDenyAuthModeChange>Automatische Umschaltung des Authentifizierungsüberprüfungsmodus wird nicht unterstütz. Anleitung zum Ändern der Methode der Authentifizierung finden Sie im Hilfe-Bereich {0}.</SettingsDenyAuthModeChange>
+  <SettingsApplicationRestartedMsg>Die Anwendung wurde erfolgreich neu gestartet</SettingsApplicationRestartedMsg>
+  <SettingsSettingsSavedMsg>Einstellungen wurden erfolgreich gespeichert</SettingsSettingsSavedMsg>
+  <SettingsSettingsSaveFailedAppMsg>Die Konfigurationsdateien konnten nicht gespeichert werden. Überprüfen Sie die NTFS-Rechte zum Schreiben der Dateien Web.config und HttpCommanderSettings.config im Stammordner der Web-Anwendung {0} für den Benutzer {1}. Fehlernachricht: {2}.</SettingsSettingsSaveFailedAppMsg>
+  <SettingsSettingsSaveFailedTempMsg>Die Konfigurationsdateien konnten nicht gespeichert werden. Überprüfen Sie die Zugangsechte zum temporären Ordner {0} für den Benutzer {1}. Fehlernachricht: {2}.</SettingsSettingsSaveFailedTempMsg>
+  <SettingsSettingsReadFailedAppMsg>Die Konfigurationsdateien konnten nicht gelesen werden. Überprüfen Sie die NTFS-Rechte zum Schreiben der Dateien Web.config und HttpCommanderSettings.config im Stammordner der Web-Anwendung {0} für den Benutzer {1}. Fehlernachricht: {2}.</SettingsSettingsReadFailedAppMsg>
+  <SettingsSettingsReadFailedTempMsg>Die Konfigurationsdateien konnten nicht gelesen werden. Überprüfen Sie die Zugangsechte zum temporären Ordner {0} für den Benutzer {1}. Fehlernachricht: {2}.</SettingsSettingsReadFailedTempMsg>
+  <SettingsSettingsConfigChangedOutside>Die Datei HttpCommander wurde von einem anderen Programm geändert. Womöglich haben Sie sie manuell mit Hilfe eines Texteditors geändert. Die Anwendung wird die neue Konfigurationsdatei laden. Alle Änderungen, die mit der Konfiguration von HttpCommander zusammenhängen, die Sie über das Web-Interface vorgenommen haben, gehen verloren. Sie müssen sie wiederholen und dann versuchen, wieder zu speichern. Wir raten davon ab, die Konfigurationsdateien manuell zu bearbeiten, während die Anwendung noch läuft, ansonsten müssen Sie die Anwendung nach der Änderung der Konfigurationsdateien neu starten. Fehlernachricht: {0}.</SettingsSettingsConfigChangedOutside>
+  <SettingsSettingsSaveNotif>Vergessen Sie nicht, die Änderungen in den Einstellungen zu speichern!</SettingsSettingsSaveNotif>
+  
+  <SettingsEmailNotifTitle>E-Mail-Benachrichtigung</SettingsEmailNotifTitle>
+  <SettingsEmailNotifApplyBtn>E-Mail-Einstellungen speichern</SettingsEmailNotifApplyBtn>
+  <SettingsEmailNotifResetBtn>Reset</SettingsEmailNotifResetBtn>
+  <SettingsEmailNotifEventsLabel>Für Ereignisse</SettingsEmailNotifEventsLabel>
+  <SettingsEmailNotifWhenLabel>Wann absenden</SettingsEmailNotifWhenLabel>
+  <SettingsEmailNotifEmailsLabel>E-Mail-Adressen</SettingsEmailNotifEmailsLabel>
+  <SettingsEmailNotifPathsLabel>Pfade</SettingsEmailNotifPathsLabel>
+
+  <LogsErrorsGridUrlColumn>URL</LogsErrorsGridUrlColumn>
+  <LogsErrorsGridMsgColumn>Nachricht</LogsErrorsGridMsgColumn>
+  <LogsErrorsGridMoreInfoColumn>Mehr</LogsErrorsGridMoreInfoColumn>
+  <LogsErrorsGridDetailsTitle>Details</LogsErrorsGridDetailsTitle>
+  
+  <FsrmUnableLoadLibraryLocal>Kann sich nicht mit dem File Server Resource Manager auf dem lokalen Computer verbinden.</FsrmUnableLoadLibraryLocal>
+  <FsrmUnableLoadLibraryRemote>Kann sich nicht mit dem File Server Resource Manager auf dem Host "{0}" verbinden.</FsrmUnableLoadLibraryRemote>
+  <FsrmNotInstalled>File Server Resource Manager ist auf "{0}" nicht installiert.</FsrmNotInstalled>
+  <FsrmNotInstalledEitherEnd>File Server Resource Manager ist auf dem lokalen Computer oder auf der Maschine "{0}" nicht installiert.</FsrmNotInstalledEitherEnd>
+  <FsrmQuotaNotSpecified>Die Quote ist nicht angegeben.</FsrmQuotaNotSpecified>
+  <FsrmUnableGetQuota>Konnte die Quote nicht erhalten.</FsrmUnableGetQuota>
+  <FsrmUnableSetQuota>Konnte die Quote nicht eingeben.</FsrmUnableSetQuota>
+  <FsrmQuotaSetMsg>Die Quote wurde erfolgreich eingestellt.</FsrmQuotaSetMsg>
+  <FsrmInvalidQuotaValueMsg>Falscher Quotenwert.</FsrmInvalidQuotaValueMsg>
+
+  <CommandBuyNow>Jetzt kaufen</CommandBuyNow>
+
+  <AdminUpdateTab>Aktualisierung</AdminUpdateTab>
+  <AdminUpdateManual>Manuelles Upgrade</AdminUpdateManual>
+  <AdminUpdateAuto>Automatische Aktualisierung</AdminUpdateAuto>
+  <AdminUpdateStartButton>Starten Sie Upgrade / Backup erstellen</AdminUpdateStartButton>
+  <AdminUpdateFinishButton>Fertig Upgrade / Backup wiederherstellen</AdminUpdateFinishButton>
+  <AdminUpdateBackupButton>Sicherungskopie</AdminUpdateBackupButton>
+  <AdminUpdateDownloadNewButton>Laden Sie eine neue Version</AdminUpdateDownloadNewButton>
+  <AdminUpdateStepTitle>Schritt {0} {1}: {2}</AdminUpdateStepTitle>
+  <AdminUpdateStepInfo>Schritt {0} {1}</AdminUpdateStepInfo>
+  <AdminUpdateNumberSymbol>#</AdminUpdateNumberSymbol>
+  <AdminUpdateBackupContent>Bitte drücken Sie die Taste "{0}" für die Erstellung einer Sicherungskopie des Ordners mit der Anwendung und einen Link für das Herunterladen</AdminUpdateBackupContent>
+  <AdminUpdateDownloadBackupLinkHint>Bitte laden Sie eine Sicherungskopie der Anwendung mit dem unten stehenden Link:</AdminUpdateDownloadBackupLinkHint>
+  <AdminUpdateDownloadNewContent>Dann laden Sie eine neue Version den unten stehenden Link und folgen Sie den {0} Installation {1} und {2} Upgrade {1} Anweisungen, um eine neue Version zu installieren verwenden. Nach der Installation finden Sie in der Admin-Panel zu öffnen, gehen Sie auf die Registerkarte "{3}" und drücken Sie die Taste "{4}", um die Installation abzuschließen.</AdminUpdateDownloadNewContent>
+  <AdminUpdateUploadButton>Laden Sie eine Sicherungskopie und anwenden Einstellungen</AdminUpdateUploadButton>
+  <AdminUpdateUploadAndInstallButton>Installieren Sie eine neue Version mit allen Einstellungen zu halten</AdminUpdateUploadAndInstallButton>
+  <AdminUpdateUploadEmptyText>Bitte wählen Sie eine Sicherungskopie für das Hochladen</AdminUpdateUploadEmptyText>
+  <AdminUpdateFinishContent>Um die Einstellungen der Vorgängerversion wiederherstellen bitte wählen und laden Sie eine zuvor erstellte Backup-Archiv mit dem Anwendungsordner</AdminUpdateFinishContent>
+  <AdminUpdateFinishMessage>Glückwünsche! Alle Einstellungen werden erfolgreich angewendet. Auch wenden Sie sich bitte alle Änderungen, die Sie auf andere Dateien, z.B. Default.aspx oder Global.asax.</AdminUpdateFinishMessage>
+  <AdminUpdateFinishRefreshPage>Die Seite wird neu geladen</AdminUpdateFinishRefreshPage>
+  <AdminUpdateMainInfo>Diese Art der Modernisierung ist teilweise automatisiert. Sie können eine Backup-Datei mit den Anwendungskonfigurationseinstellungen erstellen und herunterladen und nach der Modernisierung wieder herzustellen. Bitte folgen Sie diesen kurzen Schritten: eine Backup-Datei erstellen, die manuelle Aktualisierung durchführen, um die Einstellungen aus der Sicherungsdatei wiederherstellen. Dieses Verfahren kann auch zur Sicherung verwendet werden / Wiederherstellen der Einstellungen ohne Upgrade. überspringen Sie einfach den Veredelungsschritt die Einstellungen aus der Sicherungsdatei wiederherzustellen.</AdminUpdateMainInfo>
+  <AdminUpdateAutoButton>Auto</AdminUpdateAutoButton>
+  <AdminUpdateAutoInfo>Diese Art der Modernisierung ist fast vollständig automatisiert. Es besteht aus 2 Schritten: Sicherung der aktuellen Einstellungen (Sie sollten herunterladen und eine Backup-Datei speichern), die Installation einer neuen Version und der Wiederherstellung der Einstellungen aus der Sicherungsdatei. HTTP Commander kann automatisch die neueste Version herunterladen und installieren, oder Sie können den Pfad zum Zip-Archiv mit einer neuen Version auf unserem Server angeben. Alle Einstellungen werden automatisch aus einer zuvor erstellten Sicherungsdatei wiederhergestellt.</AdminUpdateAutoInfo>
+  <AdminUpdateRestoreWebConfigCheckBox>Stellen Sie die Einstellungen von Web.config (zum Beispiel wie SMTP)</AdminUpdateRestoreWebConfigCheckBox>
+  <AdminUpdateBackupAssignedFoldersInRootMessage>Aufmerksamkeit! Es gibt einige Benutzerordner in das Verzeichnis mit der Anwendung, die die Gesamtgröße mehr haben als {0}. Die Sicherung wird nicht vorgenommen werden. Bitte tun Sie eine Sicherungskopie dieser Verzeichnisse, entfernen Sie sie aus dem Anwendungsverzeichnis und wiederholen Sie den Vorgang auf Ihrer Seite.</AdminUpdateBackupAssignedFoldersInRootMessage>
+  <AdminUpdateNeedRefreshPageForContinue>Aufmerksamkeit! Um weiterhin ist es notwendig, die Seite neu zu laden. Bitte drücken Sie die Taste "{0}". Bitte wiederholen Sie den Vorgang nach dem erneuten Laden.</AdminUpdateNeedRefreshPageForContinue>
+  <AdminUpdateRestoreFromBackupEmpty>Oder wenn es nicht ausgewählt ist, wird sie von der neu erstellten Datei in dem vorhergehenden Schritt verwendet werden,</AdminUpdateRestoreFromBackupEmpty>
+  <AdminUpdateInstallZipPathHint>Für die Aktualisierung bitte geben Sie den vollständigen physischen Pfad zur Installationsdatei (auf dem Server) im ersten Feld oder es leer lassen, um eine Online-Vertrieb zu nutzen</AdminUpdateInstallZipPathHint>
+  <AdminUpdateInstallZipPathEmpty>Geben Sie den Pfad zur Archivierung mit installieren</AdminUpdateInstallZipPathEmpty>
+  <AdminUpdateProgress>Aktualisierung</AdminUpdateProgress>
+  <AdminUpdateAccessDeniedWarning>&lt;b&gt;Achtung!&lt;/b&gt; Für die Aktualisierung setzen Sie bitte die modify (Lesen und Schreiben) NTFS-Berechtigungen auf {0} Benutzer für Ordner mit HTTP-Kommandant {1} und wiederholen Sie den Upgrade. &lt;br /&gt; Nach dem erfolgreichen Ausbau bitte die früheren Rechte wieder herzustellen.</AdminUpdateAccessDeniedWarning>
+  <AdminUpdateAccessDeniedWarningCurentUser>Strom</AdminUpdateAccessDeniedWarningCurentUser>
+  
+  <ServerExceedsMaxSizeForEditAsTextFile>Die Größe der Datei überschreitet die maximale Größe, die zum Bearbeiten als Textdokument zulässig ist.</ServerExceedsMaxSizeForEditAsTextFile>
+  <ServerDemoMode>Diese Operation ist im Demo-Modus verboten</ServerDemoMode>
+  <ServerHostedMode>Es ist nicht erlaubt Werte von folgenden Einstellungen in gehosteten Testversion zu ändern: {0}.</ServerHostedMode>
+  <ServerIncorrectImageContentType>Dieser Mime-Typ der Datei ist kein Bild</ServerIncorrectImageContentType>
+  <ServerPermissionDenied>Diese Operation wurde wegen der fehlenden Rechte abgelehnt</ServerPermissionDenied>
+  <ServerRestoreFromTrashNoParentFolder>Wiederherstellung ist fehlgeschlagen, weil das übergeordnete Verzeichnis "{0}" wurde nicht gefunden. Bitte legen Sie es und versuchen Sie es erneut.</ServerRestoreFromTrashNoParentFolder>
+  <ServerModifyPermissionDenied>Diese Operation wurde abgelehnt, da Sie keine Erlaubnis zur Änderung der Datei haben</ServerModifyPermissionDenied>
+  <ServerPathNotFound>Pfad nicht gefunden</ServerPathNotFound>
+  <ServerInvalidPath>Der Pfad "{0}" ist falsch</ServerInvalidPath>
+  <ServerInvalidAbsolutePath>Falscher absoluter Pfad "{0}"</ServerInvalidAbsolutePath>
+  <!-- share folder path: \\server\share -->
+  <ServerInvalidShareFolderPath>Falscher Pfad zum Netzwerk-Ordner "{0}"</ServerInvalidShareFolderPath>
+  <ServerInvalidUncPath>Falscher UNC-Pfad "{0}"</ServerInvalidUncPath>
+  <ServerUnableResolveUncPath>Kann den UNC-Pfad "{0}" nicht erlauben</ServerUnableResolveUncPath>
+  <ServerInvalidFileName>Kann den Namen der Datei/des Ordners nicht bestimmen, oder er enthält unzulässige Symbole {0}</ServerInvalidFileName>
+  <ServerFilePathNotFound>Datei nicht gefunden</ServerFilePathNotFound>
+  <ServerIncorrectPathForFileLink>Falscher Objekt-Typ. Der Objekt-Pfad zeigt auf einen Ordner</ServerIncorrectPathForFileLink>
+  <ServerIncorrectPathForFolderLink>Falscher Objekt-Typ. Der Objekt-Pfad zeigt auf eine Datei</ServerIncorrectPathForFolderLink>
+  <ServerRootFolderNotFound>Der Stammordner für den Pfad "{0}" wurde nicht gefunden</ServerRootFolderNotFound>
+  <ServerUnableCreateFolder>Kann den Ordner nicht erstellen</ServerUnableCreateFolder>
+  <ServerFileAlreadyExists>Die Datei mit diesem Namen existiert bereits</ServerFileAlreadyExists>
+  <ServerFileAlreadyExistsOnRename>Wollen Sie "{0}" zu "{1}" umbenennen?
+    Die Datei mit diesem Namen existiert bereits in diesem Ordner.</ServerFileAlreadyExistsOnRename>
+  <ServerFolderAlreadyExistsOnRename>Wollen Sie "{0}" zu "{1}" umbenennen?
+    Der Ordner mit diesem Namen existiert bereits in diesem Ordner.</ServerFolderAlreadyExistsOnRename>
+  <ServerFoldersMergeConfirm>Der Zielordner enthält bereits einen Ordner mit dem Namen "{0}".
+    Wollen Sie diesen Ordner "{0}" mit dem Ordner "{1}" vereinen?</ServerFoldersMergeConfirm>
+  <ServerFolderWithSameNameAsFileNameAlreadyExists>Es gibt bereits einen Ordner mit demselben Namen "{0}" wie bei einer Datei</ServerFolderWithSameNameAsFileNameAlreadyExists>
+  <ServerFileWithSameNameAsFolderNameAlreadyExists>Es gibt bereits eine Datei mit demselben Namen "{0}" wie bei einem Ordner</ServerFileWithSameNameAsFolderNameAlreadyExists>
+  <ServerFileNotFound>Die Datei "{0}" wurde nicht im Ordner "{1}" gefunden. Womöglich wurde sie von einem anderen Benutzer entfernt.</ServerFileNotFound>
+  <ServerDirectoryAlreadyExists>Es gibt bereits einen Ordner mit diesem Namen</ServerDirectoryAlreadyExists>
+  <ServerFolderMoveAlreadeExists>Der Ausgangs- und der Zielordner "{0}" stimmen überein</ServerFolderMoveAlreadeExists>
+  <ServerUploadPathNotFound>Der Pfad zum Speichern der Dateien auf dem Server wurde nicht gefunden</ServerUploadPathNotFound>
+  <ServerUploadPathNotSet>Es ist ein Fehler beim Erhalten des Ladepfades aufgetreten. Aktualisieren Sie bitte die Seite im Browser und versuchen Sie es nochmal.</ServerUploadPathNotSet>
+  <ServerUploadNoChunk>Kein Block zum Speichern da</ServerUploadNoChunk>
+  <ServerUploadWriteChunk>Byte-Block wird geschrieben</ServerUploadWriteChunk>
+  <ServerUploadCreatingFile>Datei erstellen</ServerUploadCreatingFile>
+  <ServerUploadFileUploaded>Die Datei wurde hochgeladen</ServerUploadFileUploaded>
+  <ServerUploadWriteError>Fehler beim Schreiben</ServerUploadWriteError>
+  <ServerConfigurationError>Falsche Konfiguration oder Anwendung! Wenden Sie sich an den Administrator der Web-Seite</ServerConfigurationError>
+  <ServerPermissionsAllowTypes>Die aktuellen Berechtigungen ermöglichen diese Operation nur mit Datei-Arten {0}</ServerPermissionsAllowTypes>
+  <ServerPermissionsDenyTypes>Die aktuellen Berechtigungen verbieten diese Operation mit den Datei-Arten {0}</ServerPermissionsDenyTypes>
+  <ServerRequestSizeExceeded>Die Größe der geladenen Dateien überschreitet die zulässige Größe, die in den Server-Einstellungen angegeben ist</ServerRequestSizeExceeded>
+  <ServerEmailMsgProcessedFilesSubject>Geladene/Geänderte/Heruntergeladene Dateien</ServerEmailMsgProcessedFilesSubject>
+  <ServerEmailMsgUploadFilesTitle>geladen</ServerEmailMsgUploadFilesTitle>
+  <ServerEmailMsgModifyFilesTitle>geändert</ServerEmailMsgModifyFilesTitle>
+  <ServerEmailMsgDownloadFilesTitle>heruntergeladen</ServerEmailMsgDownloadFilesTitle>
+  <ServerEmailMsgCreateFilesTitle>erstellt</ServerEmailMsgCreateFilesTitle>
+  <ServerEmailMsgDeleteFilesTitle>gelöscht</ServerEmailMsgDeleteFilesTitle>
+  <ServerEmailMsgCreatePublicFilesTitle>gemeinsam genutzt</ServerEmailMsgCreatePublicFilesTitle>
+  <ServerEmailMsgProcessedFilesBody>Folgende Dateien wurden {0} vom Benutzer {1}:
+{2}</ServerEmailMsgProcessedFilesBody>
+  <ServerEmailMsgPasswordRecoverSubject>Passwort wiederherstellen</ServerEmailMsgPasswordRecoverSubject>
+  <ServerEmailMsgPasswordRecoverBody>Sie haben eine Passwort-Wiederherstellung für den Zugang zum Web-Dateimanager angefragt. Ihr Passwort wurde zurückgesetzt. Wenn Sie sicher sind, dass dies eine falsche Anfrage ist, ignorieren Sie diesen Brief, aber beachten Sie, dass das Passwort geändert wurde.
+    Benutzername: {0}
+    Neues Passwort: {1}
+  </ServerEmailMsgPasswordRecoverBody>
+  
+  <ServerEmailMsgUserNameRecoverSubject>Benutzername Erholung</ServerEmailMsgUserNameRecoverSubject>
+  <ServerEmailMsgUserNameRecoverBody>
+    Sie werden aufgefordert Ihren Namen in Web File Manager zu erholen.
+    Benutzername: {0}
+  </ServerEmailMsgUserNameRecoverBody>
+
+  <ServerEmailMsgUserActivationSubject>Account Aktivierung</ServerEmailMsgUserActivationSubject>
+  <ServerEmailMsgUserActivationBody>
+    Konto ({0}) Aktivierung erforderlich ist.
+    So aktivieren Sie Ihr Konto, klicken Sie bitte auf den folgenden Link: {1}
+  </ServerEmailMsgUserActivationBody>
+  <ServerEmailMsgUserRegisteredSubject>Für die Registrierung des Benutzers</ServerEmailMsgUserRegisteredSubject>
+  <ServerEmailMsgUserRegisteredBody>Sie haben sich erfolgreich im Web-Dateimanager registriert.
+    Benutzername: {0}</ServerEmailMsgUserRegisteredBody>
+  <ServerEmailMsgUserRegisteredForAdminsBody>
+    &lt;h4&gt; Neuer Benutzer registriert wurde &lt;/h4&gt;
+    &lt;strong&gt;Benutzername&lt;/strong&gt;: {0}&lt;br /&gt;
+    &lt;strong&gt;E-Mail &lt;/strong&gt;: {1}&lt;br /&gt;
+    &lt;strong&gt;Datum &lt;/strong&gt;: {2}&lt;br /&gt;
+    &lt;strong&gt;Zusätzliche Informationen&lt;/strong&gt;: {3}&lt;br /&gt;
+  </ServerEmailMsgUserRegisteredForAdminsBody>
+  <ServerDiskFullError>Nicht genug Platz auf der Disk.</ServerDiskFullError>
+  <ServerFolderLimitations>Ordner-Begrenzungen: {0}</ServerFolderLimitations>
+  <ServerShortcutAssignedFolderNotFound>Das Zielpfad der Verknüpfung wurde nicht gefunden</ServerShortcutAssignedFolderNotFound>
+  <ServerSizeFilesForZipExceeded>Die Größe der Archivierten Dateien hat den zulässigen Wert von {0} überschritten.</ServerSizeFilesForZipExceeded>
+  <ServerPasteFolderToSubfolderError>Der Zielordner "{0}" ist ein Unterordner der Quelle "{1}".</ServerPasteFolderToSubfolderError>
+  <ServerLiveConnectAppIDNotSpecified>Der Wert des Parameters von Microsoft Live Client ID wurde nicht angegeben</ServerLiveConnectAppIDNotSpecified>
+  <ServerSendEmailInfo>Der Autor dieser Nachricht hat seine E-Mail-Adresse angegeben: {0}. Benutzen Sie bitte NUR DIESE E-Mail-Adresse für Ihre Antwort.</ServerSendEmailInfo>
+
+  <ServerAntivirusScanningFailed>Das Scannen mit dem Antivirus '{0} {1}' wurde fehlerhaft beendet.</ServerAntivirusScanningFailed>
+
+  <ServerUserNameNotFound>Der Benutzer mit dem Namen '{0}' wurde nicht gefunden.</ServerUserNameNotFound>
+  <ServerFileNameCopySuffix>Kopie</ServerFileNameCopySuffix>
+
+  <ServerDeleteFolderNTFSAccessDenied>Sie haben nicht genug NTFS-Rechte zum Entfernen des Ordners "{0}"</ServerDeleteFolderNTFSAccessDenied>
+
+  <ServerMSOOTemplateNotFound>{0} Vorlage nicht gefunden</ServerMSOOTemplateNotFound>
+</Localization>

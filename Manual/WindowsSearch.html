@@ -1,0 +1,375 @@
+﻿<!-- saved from url=(0014)about:internet -->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Windows Search (Windows version)</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <!-- Header block -->
+    <script type="text/javascript" language="javascript">
+        function toggleBlock(id) {
+            if (document.getElementById(id).style.display == 'none') {
+                document.getElementById(id).style.display = 'block';
+            }
+            else {
+                document.getElementById(id).style.display = 'none';
+            }
+        }
+    </script>
+
+    <table style="width:100%" cellpadding="0" cellspacing="0">
+        <tr>
+            <td width="320">
+                <table>
+                    <tr>
+                        <td style="vertical-align:top;text-align:left;">
+                            <a target='_blank' href='http://www.element-it.com/asp-net-explorer-browser/online-share/web-file-manager.aspx'><img style='cursor:pointer;' alt="HTTP Commander" src="Images/HCLogo.png" border="0" /></a>
+                        </td>
+                        <td class="green" style="vertical-align:top;text-align:left;padding-top:21px;">
+                            &nbsp;AJS 4.x
+                        </td>
+                    </tr>
+                </table>
+                <span class="gray">Manual</span>
+            </td>
+            <td>
+                <!-- For windows version only. Start -->
+                <p>
+                    <strong>Note!</strong> This Manual is for the <strong>"Windows authentication"</strong> version,
+                    which is designed to work with existing Windows server or Active Directory accounts and Windows authentication.
+                    If you want to create accounts by yourself and store their credentials in your own HTTP Commander XML database,
+                    you need to download the <a target="_blank" href="http://www.element-it.com/downloadfile.aspx?type=st">"Forms authentication" version</a>!
+                    This Manual is for the Windows authentication version only!
+                </p>
+                <!-- For windows version only. End -->
+                
+
+            </td>
+            <td align="char" width="230">
+                <img alt="" src="Images/world.jpg" align="middle" hspace="5" style="vertical-align:top;padding-top:1px;" /><b><a target="_blank" title="web file manager" href="http://www.element-it.com/asp-net-explorer-browser/online-share/web-file-manager.aspx">Web file manager</a></b><br />
+                <img alt="" src="Images/support.png" width="16" height="16" align="middle" hspace="5" style="vertical-align:top;padding-top:1px;" /><b>
+                    <a href="onlinesupport.html" target="main">Free Installation assistance</a>
+                </b><br />
+                <img alt="" src="Images/help.png" align="middle" width="16" height="16" hspace="5" style="vertical-align:top;padding-top:1px;" /><b>
+                    <a href="index.html" title="Manual Home page" target="_blank">Manual Home page</a>
+                </b><br />
+            </td>
+        </tr>
+    </table>
+
+    <!-- End Header block -->
+
+    <!-- Topic title -->
+    <p class="topic">
+        <a id="windowssearch">Integration with Windows Search Service</a>
+    </p>
+    <!-- End Topic title -->
+
+    <!-- Content -->
+
+    <p>
+        <strong>Windows Search Service</strong> provides fast file searches on a server.<br />
+        See <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa965362.aspx" target="_blank">Windows Search Overview</a>, 
+        <a href="https://technet.microsoft.com/en-us/library/cc772446.aspx" target="_blank">Windows Search 4.0 Administrator's Guide</a>,
+        <a href="https://en.wikipedia.org/wiki/Windows_Search" target="_blank">Wiki: Windows Search</a>
+    </p>
+
+    <p>
+        Windows Search Service provides a faster way to search files and folders and support of full-text search<sup><a href="#stoplist">1</a></sup> in files,<br />
+        To make HTTP Commander use Windows Search service to search files and folder, follow steps below.
+    </p>
+
+    <ul>
+        <li>
+            Enable the Windows Search Service on the server that is hosting the HTTP Commander and on all the file servers, 
+            which network folders used as Shared folders in the  HTTP Commander on <a href="adminpanel.html#foldersetup">Folders</a> tab.<br />
+            For example, you installed HTTP Commander on a server <b>A</b> and configured it to use network folders from servers <b>B</b> (\\b\somefolder\)  and <b>C</b> (\\C\\anotherfolder\).
+            <br />You need enable  Windows Search Service on all 3 servers : A, B and C.
+            <br /><br />
+            By default, the Windows Search Service is enabled in Windows 7, 8 and 10.
+            However, you must manually enable it in Windows Vista, Servers: 2003, 2008, 2008 R2, 2012, 2012 R2, 2016.
+            <br /><br />
+            <span style="text-decoration:underline;">To enable the Windows Search Service in Windows Server 2012+</span>:<br />
+            <ul>
+                <li>Start Server Manager. Click</li>
+                <li>
+                    <strong>Manage</strong>, and then click
+                    <strong>Add Roles and Features.</strong>
+                </li>
+                <li>
+                    On the "Before You Begin"" page, click
+                    <strong>Next</strong>.
+                </li>
+                <li>On the "Installation Type" page, select
+                    <strong>Role-based or Feature-based Installation</strong>, and then click
+                    <strong>Next</strong>.
+                </li>
+                <li>
+                    On the "Server Selection" page, select the server or virtual hard disk on which to install Windows Search Service.
+                </li>
+                <li>
+                    On the "Features" page, select
+                    <strong>Windows Search Service</strong>, and then click
+                    <strong>Next</strong>.
+                </li>
+                <li>
+                    On the "Confirmation" page, verify that Windows Search Service is listed, and then click
+                    <strong>Install</strong>.
+                </li>
+                </ul><br />
+
+            <a target="_blank" href="Images/WindowsSearch/WindowsSearchFeature.png" onclick="toggleBlock('wss_feature'); return false;"
+               class="imglink">Screenshot</a>
+            <div id="wss_feature" style="display: none;">
+                <p class="screenshot">
+                    &nbsp;<img alt="" src="Images/WindowsSearch/WindowsSearchFeature.png" style="width:800px;height:567px;" />
+                </p>
+            </div>
+            <br /><br />
+            <span style="text-decoration:underline;">To enable the Windows Search service in Windows Server 2008, 2008 R2</span>:<br />
+            <ul>
+                <li>
+                    Start Server Manager.
+                    Click
+                    <strong>Roles</strong> in the left navigation pane.
+                </li>
+                <li>
+                    Click
+                    <strong>Add Roles</strong> in the Roles Summary pane.
+                </li>
+                <li>
+                    On the Server Roles page, select the
+                    <strong>File Services</strong> role, and then click
+                    <strong>Next</strong>.
+                </li>
+                <li>
+                    On the Role Services page, select the
+                    <strong>Windows Search Service</strong> role service, and then click
+                    <strong>Next</strong>.
+                </li>
+                <li>
+                    On the Confirmation page, verify that
+                    <strong>Windows Search Service</strong> is listed, and then click
+                    <strong>Install</strong>.
+                    <br />
+                </li></ul>
+            <a target="_blank" href="Images/WindowsSearch/WindowsSearchService2008.png" onclick="toggleBlock('wss_2008'); return false;"
+               class="imglink">Screenshots</a>
+            <div id="wss_2008" style="display: none;">
+                <p class="screenshot">
+                    &nbsp;<img alt="" src="Images/WindowsSearch/WindowsSearchService2008.png" style="width:780px;height:587px;" />
+                </p>
+                <p class="screenshot">
+                    &nbsp;<img alt="" src="Images/WindowsSearch/VolumesToIndex2008.png" style="width:780px;height:587px;" />
+                </p>
+            </div>
+            <br /><br />
+            <span style="text-decoration:underline;">To enable the Windows Search Service in Windows Server 2003 (or Vista)</span>:<br />
+            download and install the appropriate component of <a href="https://www.microsoft.com/en-US/download/details.aspx?id=13863" target="_blank">Windows Search 4.0 for Windows Server 2003</a>
+            (or <a href="https://www.microsoft.com/en-us/download/details.aspx?id=14850" target="_blank">Windows Search 4.0 for Windows Vista</a>).
+            See <a href="https://support.microsoft.com/en-us/kb/940157" target="_blank">Description of Windows Search 4.0, KB940157</a>.<br />
+            <a target="_blank" href="Images/WindowsSearch/WindowsSearch4Install2003.png" onclick="toggleBlock('wss_install_2003'); return false;"
+               class="imglink">Screenshot</a>
+            <div id="wss_install_2003" style="display: none;">
+                <p class="screenshot">
+                    &nbsp;<img alt="" src="Images/WindowsSearch/WindowsSearch4Install2003.png" style="width:503px;height:386px;" />
+                </p>
+            </div>
+            <br /><br />
+            <strong>Note!</strong>&nbsp;If the <strong>Windows Search Service</strong> is already installed on the server,
+            make sure that the <strong>Windows Search</strong> service (<i>Control Panel</i> &rarr; <i>Administrative Tools</i> &rarr; <i>Services</i>)
+            is running and startup type is <strong>Automatic</strong> or <strong>Automatic (Delayed Start)</strong>.<br />
+            <a target="_blank" href="Images/WindowsSearch/WindowsSearchInServices.png" onclick="toggleBlock('wss_service'); return false;"
+               class="imglink">Screenshot</a>
+            <div id="wss_service" style="display: none;">
+                <p class="screenshot">
+                    &nbsp;<img alt="" src="Images/WindowsSearch/WindowsSearchInServices.png" style="width:733px;height:366px;" />
+                </p>
+            </div>
+        </li>
+        <li id="indexing">
+            Next, you need add to the list of indexed locations each folder (physical path) used on the <a href="adminpanel.html#foldersetup">Folders</a> tab (in <a href="adminpanel.html">admin panel</a>).
+            
+            Depending on the type of folder : network or local, you need to carry on the server where corresponding folder is physically located .
+            Add folder path to the list of indexed locations.
+            (ie., for local folders it should be done on the server with HTTP Commander, for network folders(for example,
+            <i>\\server1\share</i>), it should be done the remote server (<i>server1</i>)).<br /><br />
+            Here are steps to add a folder to the list of indexed locations:<br />
+            <ul>
+                <li>
+                    Start
+                    <strong>Control Panel</strong> and click
+                    <strong>Indexing Options</strong>.
+                </li>
+                <li>
+                    Click
+                    <strong>Modify</strong> button in the Indexing Options window.
+                </li>
+                <li>
+                    In the
+                    <strong>Change selected locations</strong> list (of the Indexed Locations window),
+                    locate and check the box, the physical path of the folder to be added.
+                </li>
+                <li>
+                    Next, click
+                    <strong>OK</strong> and
+                    <strong>Close</strong> buttons.                    
+                </li></ul>
+            <a target="_blank" href="Images/WindowsSearch/IndexingOptionsWindow.png" onclick="toggleBlock('wss_indexingoptions'); return false;"
+               class="imglink">Screenshots</a>
+            <div id="wss_indexingoptions" style="display: none;">
+                <p class="screenshot">
+                    &nbsp;<img alt="" src="Images/WindowsSearch/IndexingOptionsWindow.png" style="width:505px;height:548px;" />
+                </p>
+                <p class="screenshot">
+                    &nbsp;<img alt="" src="Images/WindowsSearch/IndexedLocationsWindow.png" style="width:414px;height:582px;" />
+                </p>
+            </div>
+            <br /><br />
+            <strong>Note&nbsp;1.</strong>&nbsp;If in the physical path to the folder wildcards are used
+            (such as <strong>%USERNAME%</strong>, <strong>%GROUPNAME%</strong>, <strong>%HOME%</strong>, etc.),
+            then it is necessary to add to the index all possible permutations of the physical path,
+            or if these folders are in common parent folder, then it is enough to add only path to parent folder.<br />
+            <strong>Note&nbsp;2.</strong>&nbsp;In the folder properties window on the <a href="adminpanel.html#foldersetup">Folders</a> tab
+            in <a href="adminpanel.html">admin panel</a>, at lower right side of the physical path field there is the "Test indexing"
+            link. By click on this link you can test if specified path is already added to the list of indexed locations or not.
+            In case if the path is local, you can use this link to add folder to the list of indexed locations.
+            Please note, that if the path contain wildcards, to the index will be added path with the current parameters of the logged in user.
+            Also you can not add network folders to index using this link. <br />
+            <a target="_blank" href="Images/WindowsSearch/IndexingFolderInAdminPanel.png" onclick="toggleBlock('wss_indexadminpanel'); return false;"
+               class="imglink">Screenshot</a>
+            <div id="wss_indexadminpanel" style="display: none;">
+                <p class="screenshot">
+                    &nbsp;<img alt="" src="Images/WindowsSearch/IndexingFolderInAdminPanel.png" style="width:667px;height:573px;" />
+                </p>
+            </div>
+        </li>
+        <li>
+            Final step is configuration of HTTP Commander to use Windows Search Service to search files/folders.<br/>
+            Set the value of the <a href="webconfigsetup.html#SearchMethodOfFiles">SearchMethodOfFiles</a> parameter to the
+            <strong>OnlyWindowsSearch</strong> or <strong>FirstTryWindowsSearchThanStandard</strong> (by default),
+            click <strong>Save settings</strong> and than <strong>Restart application</strong> buttons in admin panel on
+            <strong>Settings</strong> tab.<br />
+            If the value is set to <a href="webconfigsetup.html#OnlyWindowsSearch">OnlyWindowsSearch</a>, then HTTP Commander will use only 
+            Windows Search Service to search files and folders. Please note, that in this case search would not work for non-indexed locations.<br />
+            If the value is set to the <a href="webconfigsetup.html#FirstTryWindowsSearchThanStandard">FirstTryWindowsSearchThanStandard</a>,
+            then HTTP Commander will try to use Windows Search Service firstly, and then if nothing is found, or found less than the expected value, 
+            the search is carried out by standard method (recursive listing subdirectories with a comparison pattern).<br />
+            But in both cases, the search results can be incomplete if the directory is not yet indexed, 
+            or it is in the process of indexing. 
+            Or if by <a href="#adv_wss_settings">additional indexing settings</a> prohibited indexing of files with some file extensions 
+            or indexing of their attributes (contents, date, etc.)<br />
+            For a more complete search it is recommended to use  the value <strong>FirstTryWindowsSearchThanStandard</strong>, 
+            but it is possible that it is less productive, so depending on your folder settings, 
+            you can specify the value of <strong>OnlyWindowsSearch</strong>.
+            <br />
+        </li>
+    </ul>
+
+    <br />
+
+    <h4>Main UI</h4>
+
+    If you enable the ability to search for files/folders (the parameter 
+    <a href="webconfigsetup.html#SearchMethodOfFiles">SearchMethodOfFiles</a> is not equal to <em>Disabled</em>), 
+    then on the main page at the top right of the file list will be available quick search fields to search files by name (and, if available, by contents). <br />
+    If you enter the value in the field and press ENTER (or the search button), it will automatically open a search box, fill the required fields, and will search for files.
+    <br />
+    Also you can add a toolbar button <strong>Search</strong> (parameter <a href="webconfigsetup.html#ToolbarButtons1">ToolbarButtons1</a> or
+    <a href="webconfigsetup.html#ToolbarButtons2">ToolbarButtons2</a>; by defualt, <em>Search</em> button is included) to be able to open the search window from toolbar.<br />
+    <a target="_blank" href="Images/WindowsSearch/QuickSearchFields.png" onclick="toggleBlock('wss_qsf'); return false;"
+       class="imglink">Screenshots</a>
+    <div id="wss_qsf" style="display: none;">
+        <p class="screenshot">
+            &nbsp;<img alt="" src="Images/WindowsSearch/QuickSearchFields.png" style="width:354px;height:214px;" /><br />
+            &nbsp;<img alt="" src="Images/WindowsSearch/SearchWindow.png" style="width:399px;height:398px;" /><br />
+        </p>
+    </div>
+
+    <br />
+
+    <h4>Advanced settings</h4>
+
+    Additionally, apart from the search by the filename, you can include a search by other file properties:
+    the contents, dates of creation, modification. See parameter <a href="webconfigsetup.html#SearchCriterionsOfFiles">SearchCriterionsOfFiles</a>.<br />
+    If the search criteria contain multiple properties (eg by name and by content), 
+    then all the conditions are united with 'AND' union, ie searched the files (and/or folders) that simultaneously satisfy 
+    all of the conditions (the name corresponds to the template and the content contains the specified string). 
+    There is one exception: when the user has selected to search BOTH of files and folders at the same time, 
+    and specified condition to search by content - in this case a folders will be searched ONLY by the specified template name and 
+    files by the specified name and content. It may result, for example, to that ALL subfolders will be listed in search result, if the filename pattern is empty.
+    <br /><br />
+    <strong>Note!</strong>&nbsp;Search by <strong><a href="#SearchCriterionsOfFiles">Details</a></strong> only possible with a standard search method.
+    Therefore, if only Windows Search Service is used to search (If the value  of the <a href="webconfigsetup.html#SearchMethodOfFiles">SearchMethodOfFiles</a> parameter is set to <a href="webconfigsetup.html#OnlyWindowsSearch">OnlyWindowsSearch</a>),
+    even if <a href="webconfigsetup.html#SearchCriterionsOfFiles">SearchCriterionsOfFiles</a> contains 
+    <i>Details</i>, the field for search by details will be absent in the search window.
+    <br /><br />
+    It is recommended to check that the for required types of files (for example, Office documents: docx, xlsx, pptx or 
+    text files) content indexing is enabled. To do this open the <strong>Control Panel</strong>, navigate to 
+    <strong>Indexing Options</strong>, and then click the <strong>Advanced</strong> button. 
+    In the <strong>Advanced Options</strong> window, go to the <strong>File Types</strong> tab. 
+    In the list, select and enable needed extension, and mark option <strong>Index Properties and File Contents</strong> 
+    in the <strong>How should this file be indexed?</strong> box. If desired extension is not available, 
+    you can add it using the field below - <strong>Add new extension to list:</strong>. By default, this list of 
+    extensions already includes all registered extension, and content indexing is enabled for file types which is possible to index by content.<br />
+    <a target="_blank" href="Images/WindowsSearch/AdvancedOptionsWindow.png" onclick="toggleBlock('wss_advopts'); return false;"
+        class="imglink">Screenshot</a>
+    <div id="wss_advopts" style="display: none;">
+        <p class="screenshot">
+            &nbsp;<img alt="" src="Images/WindowsSearch/AdvancedOptionsWindow.png" style="width:396px;height:498px;" />
+        </p>
+    </div>
+    <br /><br />
+    Additionally, you can customize how the search the results will be shown on the page. 
+    You can change the value of hidden parameter <a href="#MaxSearchResultsPerPage">MaxSearchResultsPerPage</a>, 
+    specifying a value from 1 to 500 (default 20).
+    <br />
+    <p style="font-size:.85em;">
+        To test and validate SQL queries to the Windows Search Service (for example, caught in the error log), 
+        you can enable the hidden option <a href="webconfigsetup.html#EnableWindowsSearchQueryBuilder">EnableWindowsSearchQueryBuilder</a> (only applies if 
+        used Windows Search in HTTP Commander). If this option is enabled, in the Folders tab of the admin panel, will be available button "Windows Search Query Builder" to call the Query Builder window.<br />
+        <a target="_blank" href="Images/WindowsSearch/QueryBuilder.png" onclick="toggleBlock('wss_qb'); return false;"
+            class="imglink" style="font-size:.85em;">Screenshot</a>
+        <div id="wss_qb" style="display: none;">
+            <div class="screenshot">
+                &nbsp;<img alt="" src="Images/WindowsSearch/QueryBuilder.png" style="width:691px;height:594px;" />
+            </div>
+        </div>
+    </p>
+
+    <p id="stoplist">
+        <h4>Noise Words</h4>
+        If you configured HTTP Commander to use Windows Search Service, and enabled search by content
+        (<strong>Content</strong> in <a href="webconfigsetup.html#SearchCriterionsOfFiles">SearchCriterionsOfFiles</a>),
+        then the string used in search criteria should not contain the only the so-called <a href="https://msdn.microsoft.com/en-us/library/ms693206.aspx" target="_blank">noise words</a>
+        (for example, only one punctuation marks and special symbols). In this case, a warning is given:<br />
+        <pre>The search query by content, contained only ignored words.</pre>
+    </p>
+
+    <p id="filterpack">
+        <h4>Indexing of XLSX, PPTX files </h4>
+        After successfull configuration of Windows Search Service and HTTP Commander you may notice that file of certain types are still not indexed, therefore it is not possible to perform full text search on them.
+        These files types are XLSX, PPTX , OneNote and Publisher.<br/>
+
+        To make Windows Search Servcie index them you will need to install Office Filter Pack and its servce packs from links below:
+        <br/>
+        <a href="https://www.microsoft.com/en-us/download/details.aspx?id=17062" target="_blank">Microsoft Office 2010 Filter Packs
+            <br />
+            <a href="https://support.microsoft.com/en-us/help/2460041/description-of-office-2010-filter-pack-sp1" target="_blank">
+                Office 2010 Filter Pack SP1
+            </a>
+            <br />
+            <a href="https://support.microsoft.com/en-us/help/2687447/description-of-office-2010-filter-pack-sp2" target="_blank">
+                Office 2010 Filter Pack SP2
+            </a>
+    </p>
+
+
+    <!-- End Content -->
+
+    <br />
+    <br />
+</body>
+</html>

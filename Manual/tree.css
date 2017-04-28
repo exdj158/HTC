@@ -1,0 +1,73 @@
+.treeDiv 
+{
+	color:#4c4c4c;
+	font-family: 'Segoe UI', 'Lucida Grande', Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+    /*font-family: verdana;
+    font-size: 70.5%;
+	color: Black;*/
+    font-weight: normal;
+    background-color: #f1f1f1;
+    
+    overflow-x: hidden;
+	overflow-y: scroll;
+	
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.treeNode 
+{
+    white-space: nowrap;
+    text-indent: -14px;
+    margin: 5px 2px 5px 14px;
+}
+A.treeUnselected:hover, A.treeSelected:hover 
+{
+    text-decoration: underline;
+    background-color: #cccccc;
+    border: solid 1px #999999;
+    text-decoration: none;
+	cursor:pointer;
+}
+A.treeUnselected, A.treeSelected
+{
+	color: #4c4c4c;
+	padding: 1px 3px 1px 3px;
+    text-decoration: none;
+	cursor:pointer;
+}
+A.treeSelected
+{
+	background-color: #ffffff;
+    border: solid 1px #999999;
+}
+A.treeUnselected 
+{
+	border: solid 1px #f0f0f0;
+    background-color: transparent;
+	cursor:pointer;
+}
+.treeSubnodes
+{
+	display: block;
+}
+.treeSubnodesHidden
+{
+	display: none;
+}
+.treeNode IMG.treeNoLinkImage, .treeNode IMG.treeLinkImage
+{
+	width: 9px;
+	height: 9px;
+	margin-left: 5px;
+	margin-right: 0px;
+}
+.treeNode IMG.treeLinkImage
+{
+    cursor: pointer;
+}
+.treeUnselected
+{
+cursor: pointer;
+}

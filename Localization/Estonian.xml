@@ -1,0 +1,1608 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Localization>
+  <!-- Common keys -->
+  
+  <ExtMsgButtonTextYES>jah</ExtMsgButtonTextYES>
+  <ExtMsgButtonTextNO>ei</ExtMsgButtonTextNO>
+  
+  <ControlHideFileManager>Peida veebi faile juht</ControlHideFileManager>
+  
+  <CommonMainTitle>Web failide juurdepääs</CommonMainTitle>
+  <CommonApplicationLoading>Laadimine veebi faile juurdepääsu</CommonApplicationLoading>
+  <CommonLoadError>Tekkis viga saada puu andmeid</CommonLoadError>
+  <CommonGridAccessDenied>Kausta "{0}" pole olemas või lugeda juurdepääs on keelatud</CommonGridAccessDenied>
+  <CommonNoScript>See leht vajab JavaScripti olema lubatud brauseris! Palun võimaldage seda ja uuesti sisse!</CommonNoScript>
+  <CommonErrorCaption>viga</CommonErrorCaption>
+  <CommonWarningCaption>hoiatus</CommonWarningCaption>
+  <CommonInfoCaption>informatsioon</CommonInfoCaption>
+  <CommonConfirmCaption>kinnitama</CommonConfirmCaption>
+  <CommonFileNameCaption>Faili nimi</CommonFileNameCaption>
+  <CommonFileNamePrompt>Sisestage uus failinimi</CommonFileNamePrompt>
+  <CommonFileNewNameValue>Uus tekst Document.txt</CommonFileNewNameValue>
+  <CommonFolderNewNameValue>Uus kaust</CommonFolderNewNameValue>
+  <CommonZipFileNameCaption>Zip arhiivi nime</CommonZipFileNameCaption>
+  <CommonZipFileNamePrompt>Faili nimi (laiend lisatakse automaatselt)</CommonZipFileNamePrompt>
+  <CommonFolderNameCaption>kausta nimi</CommonFolderNameCaption>
+  <CommonFolderNamePrompt>Sisesta uue kausta nimi</CommonFolderNamePrompt>
+  <CommonDeleteOnePrompt>Oled sa kindel, et soovid kustutada "{0}"?</CommonDeleteOnePrompt>
+  <CommonDeleteManyPrompt>Oled sa kindel, et soovid kustutada need {0} teemad?</CommonDeleteManyPrompt>
+  <CommonForToday>Tänaseks</CommonForToday>
+  <CommonButtonCaptionOK>Okei</CommonButtonCaptionOK>
+  <CommonButtonCaptionCancel>tühistama</CommonButtonCaptionCancel>
+  <CommonButtonCaptionClose>Sulge</CommonButtonCaptionClose>
+  <CommonButtonCaptionAdd>Lisama</CommonButtonCaptionAdd>
+  <CommonButtonCaptionContinue>jätkama</CommonButtonCaptionContinue>
+
+  <CommonProgressPleaseWait>Palun oota</CommonProgressPleaseWait>
+  
+  <CommonFieldLabelName>nimi</CommonFieldLabelName>
+  <CommonFieldLabelPath>tee</CommonFieldLabelPath>
+  <CommonFieldLabelSize>suurus</CommonFieldLabelSize>
+  <CommonFieldLabelLabels>sildid</CommonFieldLabelLabels>
+  <CommonFieldLabelType>tüüp</CommonFieldLabelType>
+  <CommonFieldLabelAction>tegevus</CommonFieldLabelAction>
+  <CommonFieldLabelDate>kuupäev</CommonFieldLabelDate>
+  <CommonFieldLabelDateTime>Kuupäev Kellaaeg</CommonFieldLabelDateTime>
+  <CommonFieldLabelDateCreated>Loomise kuupäev</CommonFieldLabelDateCreated>
+  <CommonFieldLabelDateModified>kuupäev muudetud</CommonFieldLabelDateModified>
+  <CommonFieldLabelDateAccessed>kuupäev külastatud</CommonFieldLabelDateAccessed>
+  <CommonFieldLabelValue>väärtus</CommonFieldLabelValue>
+  <CommonFieldLabelUserName>kasutajanimi</CommonFieldLabelUserName>
+  <CommonFieldLabelUser>kasutaja</CommonFieldLabelUser>
+  <CommonFieldLabelUsers>kasutajad</CommonFieldLabelUsers>
+  <CommonFieldLabelGroupName>Grupi nimi</CommonFieldLabelGroupName>
+  <CommonFieldLabelGroup>Grupp</CommonFieldLabelGroup>
+  <CommonFieldLabelGroups>grupid</CommonFieldLabelGroups>
+  <CommonFieldLabelPassword>parool</CommonFieldLabelPassword>
+  <CommonFieldLabelRepeatPassword>Korda salasõna</CommonFieldLabelRepeatPassword>
+  <CommonFieldLabelComments>Kommentaarid</CommonFieldLabelComments>
+  <CommonValueTypeFolder>Kaust</CommonValueTypeFolder>
+
+  <CommonFieldLabelDescription>kirjeldus</CommonFieldLabelDescription>
+  <EmptyDescriptionText>Märkida kirjeldus</EmptyDescriptionText>
+  <CommonFieldLabelReadMeTxt>readme.txt sisu</CommonFieldLabelReadMeTxt>
+  
+  <CommonWordOr>või</CommonWordOr>
+
+  <SortAscText>Sorteeri Kasvav</SortAscText>
+  <SortDescText>Sorteeri langev</SortDescText>
+
+  <CommonNewDocument>uus dokument</CommonNewDocument>
+  <CommonNewSpreadsheet>uus töövihik</CommonNewSpreadsheet>
+  <CommonNewPresentation>uus esitlus</CommonNewPresentation>
+
+  <CommonWordWrap>sõnamurdmise</CommonWordWrap>
+  
+  <!-- End Common keys -->
+
+  <!-- Labels -->
+
+  <LabelsTitle>silt</LabelsTitle>
+  <LabelsNoLabel>No label</LabelsNoLabel>
+  <LabelsColor>värv</LabelsColor>
+  <LabelsCustomLabel>Custom silt</LabelsCustomLabel>
+  <LabelsCustomLabelHint>Sisesta pealdise tekst</LabelsCustomLabelHint>
+  <LabelsCustomLabelView>Label &amp;nbsp; vaade: &amp;nbsp; {0} {1} {2}</LabelsCustomLabelView>
+  <LabelsFileLabelledMessage>Edukalt märgistatud {0} kirje (t)</LabelsFileLabelledMessage>
+  <LabelsRemovedMessage>Edukalt eemaldatud {0} märgis (s)</LabelsRemovedMessage>
+  <LabelsNotRemovedMessages>ei eemaldata: {0}</LabelsNotRemovedMessages>
+  <LabelsNotLabelledMessage>ei ole märgistatud: {0}</LabelsNotLabelledMessage>
+  <LabelsLabelRemovedMessage>Label edukalt eemaldada</LabelsLabelRemovedMessage>
+  <LabelsNewLabel>New Label</LabelsNewLabel>
+  <LabelsLabellingMessage>märgistamine</LabelsLabellingMessage>
+  <LabelsRemovingLabelMessage>eemaldamine etiketid</LabelsRemovingLabelMessage>
+  <LabelsLabelInfoTip>Märge "{0}" {1} kasutaja '{2} "</LabelsLabelInfoTip>
+
+  <!-- End Labels -->
+
+  <!-- Comments -->
+
+  <CommentsCountInfoTip>{0} comment (s)</CommentsCountInfoTip>
+  <CommentsWriteCommentHint>Kirjuta kommentaar ja vajutage "{0}" või Ctrl+Enter või Shift+Enter ...</CommentsWriteCommentHint>
+
+  <!-- End Comments -->
+
+  <RefreshPageWarningMessage>&lt;b&gt; NB! &lt;/b&gt; toimingut lõpule viia, praeguse lehe brauseri peab olema uuenemine. &lt;br /&gt; Kas soovite värskendada nüüd?</RefreshPageWarningMessage>
+
+  <PagingToolbarBeforePageText>lehekülg</PagingToolbarBeforePageText>
+  <PagingToolbarAfterPageText>on {0}</PagingToolbarAfterPageText>
+  <PagingToolbarFirstText>Esimene lehekülg</PagingToolbarFirstText>
+  <PagingToolbarPrevText>Eelmine</PagingToolbarPrevText>
+  <PagingToolbarNextText>Järgmine lehekülg</PagingToolbarNextText>
+  <PagingToolbarLastText>Viimane lehekülg</PagingToolbarLastText>
+  <PagingToolbarDisplayMsg>Tooted {0} - {1} ja {2}</PagingToolbarDisplayMsg>
+  <PagingToolbarEmptyMsg>Andmeid ei näidata</PagingToolbarEmptyMsg>
+  
+  <GridTotalLabel>Kokku:</GridTotalLabel>
+  <GridTotalFilesLabel>faile</GridTotalFilesLabel>
+  <GridTotalFoldersLabel>kaustad</GridTotalFoldersLabel>
+  
+  <GridDDSelectedRowsText>{0} valitud rea {1}</GridDDSelectedRowsText>
+  <GridDDSelectedFilesText>{0} valitud failid</GridDDSelectedFilesText>
+  <GridDDSelectedFoldersText>{0} valitud kaustades</GridDDSelectedFoldersText>
+  <GridDDConfirmCopyMoveTitle>Drop kausta "{0}"</GridDDConfirmCopyMoveTitle>
+  <GridDDConfirmAddToZipTitle>Lisa zip "{0}"</GridDDConfirmAddToZipTitle>
+  <GridDDConfirmAddToZipMessage>Tirisid failid lisatakse sellele ZIP arhiivi. Kas soovite jätkata? {0}.</GridDDConfirmAddToZipMessage>
+  <GridDDConfirmCopyMoveMsg>Vali toiming, mida soovite rakendada. Allikas: "{0}", Sihtkataloog: "{1}". {2}. {3}</GridDDConfirmCopyMoveMsg>
+  <GridDDConfirmCopyMoveToZipMsg>Failid lisatakse zip arhiivi. Vali tegevus, mis soovite taotleda lohistada failid peale failid zip arhiivi. Allikas: "{0}", Destination zip arhiiv: "{1}". {2}. {3}</GridDDConfirmCopyMoveToZipMsg>
+  <GridDDDraggedFileNames>&lt;b&gt; Veetavad failid: &lt;/b&gt; {0}</GridDDDraggedFileNames>
+  <GridDDDraggedFolderNames>&lt;b&gt; Veetavad kaustad: &lt;/b&gt; {0}</GridDDDraggedFolderNames>
+  <GridDDConfirmTargetFolderOnlyCopyMsg>Praegune load lähtekausta võimaldavad teil ainult koopia lohistada faile. Kas soovite jätkata? {0}.</GridDDConfirmTargetFolderOnlyCopyMsg>
+  <GridDDConfirmTargetFolderOnlyMoveMsg>Praegune load lähtekausta võimaldab teil liikuda ainult lohistada faile. Kas soovite jätkata? {0}.</GridDDConfirmTargetFolderOnlyMoveMsg>
+
+  <GridRowPublicHint>Vajuta et avada avaliku link uues aknas / tab</GridRowPublicHint>
+  <GridRowAlertHint>Vajuta, et näha muutusi teinud seda faili / kausta</GridRowAlertHint>
+  <GridRowRecentHint>Leidke selle faili / kausta</GridRowRecentHint>
+  <GridRowAlertEventHint>Kliki, et minna selles kohas</GridRowAlertEventHint>
+
+  <ProgressCreating>loomine</ProgressCreating>
+  <ProgressDeleting>kustutamine</ProgressDeleting>
+  <ProgressLoading>laadimine</ProgressLoading>
+  <ProgressSearching>otsimine</ProgressSearching>
+  <ProgressZipping>tihendamisel</ProgressZipping>
+  <ProgressUnzipping>lahtipakkimine</ProgressUnzipping>
+  <ProgressZipContents>Kuidas sisu ZIP arhiiv</ProgressZipContents>
+  <ProgressPrepareDownload>Ettevalmistused lae alla</ProgressPrepareDownload>
+  <ProgressMoving>edu</ProgressMoving>
+  <ProgressCopying>kopeerimine</ProgressCopying>
+  <ProgressRenaming>ümbernimetamine</ProgressRenaming>
+  <ProgressUpdating>ajakohastamine</ProgressUpdating>
+  <ProgressLoadingEditInPixlr>Laadimine Pixlr toimetaja</ProgressLoadingEditInPixlr>
+  <ProgressLoadingEdit>Laadimine toimetaja</ProgressLoadingEdit>
+  <ProgressSavingEdit>faili salvestamine</ProgressSavingEdit>
+  <ProgressSaving>säästmine</ProgressSaving>
+  <ProgressExecuting>Täidesaatev</ProgressExecuting>
+
+  <BalloonFilesDeleted>{0} faili (d) välja jäetud</BalloonFilesDeleted>
+  <BalloonFoldersDeleted>{0} kausta (de) välja jäetud</BalloonFoldersDeleted>
+  <BalloonFilesFailed>{0} fail (id) ei</BalloonFilesFailed>
+  <BalloonFoldersFailed>{0} kausta (de) ebaõnnestus</BalloonFoldersFailed>
+  <BalloonFilesZipped>{0} faili (de) tihendatud</BalloonFilesZipped>
+  <BalloonFoldersZipped>{0} kausta (de) tihendatud</BalloonFoldersZipped>
+  <BalloonFilesCopied>{0} faili (de) kopeerida</BalloonFilesCopied>
+  <BalloonFoldersCopied>{0} kausta (de) kopeerida</BalloonFoldersCopied>
+  <BalloonFilesMoved>{0} faili (de) kolis</BalloonFilesMoved>
+  <BalloonFoldersMoved>{0} kausta (de) kolis</BalloonFoldersMoved>
+  <BalloonNotUnzipped>{0} fail (id) ei ole lahti</BalloonNotUnzipped>
+  <BalloonFilesUploaded>{0} faili (d) üles laadida</BalloonFilesUploaded>
+  <BalloonFilesNotUploaded>{0} fail (id) ei ole laetud</BalloonFilesNotUploaded>
+  <BalloonSomeFilesNotUploaded>Mõned failid ei saa üles laadida</BalloonSomeFilesNotUploaded>
+  <BalloonCreatedSuccessfully>loodud edukalt</BalloonCreatedSuccessfully>
+  <BalloonUnzippedSuccessfully>Pakkimata edukalt</BalloonUnzippedSuccessfully>
+  <BalloonRenamedSuccessfully>nimetati ümber edukalt</BalloonRenamedSuccessfully>
+  <BalloonSavedSuccessfully>edukalt salvestatud</BalloonSavedSuccessfully>
+  <BalloonCopiedToClipboard>Kopeeritaks</BalloonCopiedToClipboard>
+  <BalloonCopyToClipboardFailed>Kopeeri lõikelauale nurjus</BalloonCopyToClipboardFailed>
+
+  <CommandCopyToClipboard>Kopeerida lõikelauale</CommandCopyToClipboard>
+  <CommandCopyLinkToClipboard>Kopeeri link lõikelauale</CommandCopyLinkToClipboard>
+  <ClipboardScreenshotTitlePrefix>pilt</ClipboardScreenshotTitlePrefix>
+  <ClipboardScreenshotHint>Pildid: saate kleepida screenshot oma lõikelauale (Press &lt;b&gt; Ctrl+PrtSc &lt;/b&gt; ja seejärel &lt;b&gt; Ctrl+V &lt;/b&gt;) või pilt oma toimetaja (Press &lt;b&gt; Ctrl+V &lt;/b&gt;).</ClipboardScreenshotHint>
+  <ClipboardFileHint>Võite kleepida faili lõikepuhvrisse</ClipboardFileHint>
+
+  <CommandClouds>Cloud hoidlates</CommandClouds>
+  <CommandCloudsDownloadTo>lae üles ...</CommandCloudsDownloadTo>
+  <CommandCloudsUploadFrom>laadige alates ...</CommandCloudsUploadFrom>
+  <CommandCloudsAbout>Umbes Cloud hoidlates</CommandCloudsAbout>
+  
+  <CommandBack>tagasi</CommandBack>
+  <CommandForward>edasi</CommandForward>
+  <CommandRecentFolders>Viimased kaustad</CommandRecentFolders>
+  <CommandHome>Kodu</CommandHome>
+  <CommonActions>Actions</CommonActions>
+  <CommandMultiSelect>Mitmikvalikut</CommandMultiSelect>
+  <CommandShare>osa</CommandShare>
+  <CommandSorting>sortimine</CommandSorting>
+  
+  <CommandFileManager>Tagasi failihaldur</CommandFileManager>
+  <CommandFolders>kaustad</CommandFolders>
+  <CommandGridView>vaade</CommandGridView>
+  <CommandRefresh>värskendama</CommandRefresh>
+  <CommandThumbnailView>Pisipildivaatest</CommandThumbnailView>
+  <CommandDetailedView>Loendivaade</CommandDetailedView>
+  <CommandDetailsPane>paanil üksikasjad</CommandDetailsPane>
+  <CommandFavorites>eelistused</CommandFavorites>
+  <CommandAddToFavorites>Lisa lemmikutesse</CommandAddToFavorites>
+  <CommandAddToFavoritesHint>Lisa aktiivse kausta sõprade</CommandAddToFavoritesHint>
+  <AddingToFavoritesMessage>Lisades nimekirja</AddingToFavoritesMessage>
+  <RemoveFromFavoritesMessage>Kustutamine lemmikute</RemoveFromFavoritesMessage>
+  <FolderAlreadyAddedInFavorites>Kausta "{0}" on juba olemas nimekirja</FolderAlreadyAddedInFavorites>
+  <FolderAddedInFavoritesSuccessfully>Kausta "{0}" on edukalt lisatud lemmikutesse</FolderAddedInFavoritesSuccessfully>
+  <FavoritesIsOverflowed>See ei olnud võimalik lisada praegune kaust "{0}" sõprade. Kustuta mõned lemmikud ruumi vabastamiseks ja proovi uuesti.</FavoritesIsOverflowed>
+  <RemoveFromFavoritesHint>Eemalda "{0}" lemmikute</RemoveFromFavoritesHint>
+  <AddToHomeScreenIOSHint>Koputage {0} ja siis &lt;strong&gt; "Add to Home Screen" &lt;/strong&gt;</AddToHomeScreenIOSHint>
+  <CommandSearch>Otsing</CommandSearch>
+  <CommandUpload>Laadi üles</CommandUpload>
+  <CommandSettings>Seaded</CommandSettings>
+  <CommandLanguage>keel</CommandLanguage>
+  <CommandAdministration>haldus</CommandAdministration>
+  <CommandAdminPanel>admin paneel</CommandAdminPanel>
+  <CommandChangePassword>Muuda salasõna</CommandChangePassword>
+  <ProgressChangePassword>Muutuvad parooli</ProgressChangePassword>
+  <CommandChangeEmail>muuda e-maili</CommandChangeEmail>
+  <ProgressChangeEmail>Muutuvad e-mail</ProgressChangeEmail>
+  <CommandMobileView>Mobiilne liides (nutitelefonid)</CommandMobileView>
+  <CommandStandardView>Täisversioon</CommandStandardView>
+  <CommandInstallIOSApp>Paigaldage IOS app</CommandInstallIOSApp>
+  <CommandInstallAndroidApp>Install Android app</CommandInstallAndroidApp>
+  <CommandAddServerToMobileApp>Lisa see server mobiilirakenduse</CommandAddServerToMobileApp>
+  <CommandAddToHomeScreen>Lisa avakuvale</CommandAddToHomeScreen>
+  <CommandDiagnostics>diagnostikaleht</CommandDiagnostics>
+  <CommandLicenseInfo>litsentsi info</CommandLicenseInfo>
+  <CommandLogout>Logi välja</CommandLogout>
+  <CommandLogoutHint>Vajuta, et lõpetada praegune seanss</CommandLogoutHint>
+  <CommandNew>uus</CommandNew>
+  <CommandFile>fail</CommandFile>
+  <CommandEmptyFile>Tühi fail</CommandEmptyFile>
+  <CommandNewMSOODocument>Dokumendi MS Office Online</CommandNewMSOODocument>
+  <CommandNewOffice365Document>Dokumendi Office 365</CommandNewOffice365Document>
+  <CommandNewMSOOWord>Word Document</CommandNewMSOOWord>
+  <CommandNewMSOOExcel>Exceli töövihik</CommandNewMSOOExcel>
+  <CommandNewMSOOPowerPoint>PowerPoint esitlus</CommandNewMSOOPowerPoint>
+  <CommandNewGoogleDocument>Dokumendi Google</CommandNewGoogleDocument>
+  <CommandNewGoogleDocs>Google Docs</CommandNewGoogleDocs>
+  <CommandNewGoogleSheets>Google lehed</CommandNewGoogleSheets>
+  <CommandNewGoogleSlides>Google slaidid</CommandNewGoogleSlides>
+  <CommandNewImage>Pilt on Pixlr</CommandNewImage>
+  <CommandFolder>Kaust</CommandFolder>
+  <CommandNewFile>Uus tühja faili</CommandNewFile>
+  <CommandNewFolder>Uus kaust</CommandNewFolder>
+  <CommandNewWithTemplate>Kasutades malli ...</CommandNewWithTemplate>
+  <CommandRename>Nimeta</CommandRename>
+  <CommandDelete>kustutama</CommandDelete>
+  <CommandCopy>koopia</CommandCopy>
+  <CommandMove>käik</CommandMove>
+  <CommandCut>lõigatud</CommandCut>
+  <CommandCopyTo>Kopeeri...</CommandCopyTo>
+  <CommandMoveTo>Kolima...</CommandMoveTo>
+  <CommandCopyCutClipboardSuffix>lõikelauale</CommandCopyCutClipboardSuffix>
+  <CommandPaste>pasta</CommandPaste>
+  <CommandPasteInto>Aseta</CommandPasteInto>
+  <CommandZip>Tihendamine zip arhiiv</CommandZip>
+  <CommandZipMenu>Zip / Unzip</CommandZipMenu>
+  <CommandUnzip>Paki zip</CommandUnzip>
+  <CommandUnzipSelected>Paki valitud</CommandUnzipSelected>
+  <CommandUnzipAll>Paki kõik</CommandUnzipAll>
+  <CommandUnzipTo>kausta</CommandUnzipTo>
+  <CommandUnzipToCurrent>praeguse kausta</CommandUnzipToCurrent>
+  <MessageUnzipToFolder>Sisestage nimi kausta lahti pakkida seda</MessageUnzipToFolder>
+  <MessageUnzipPasswordHint>Kui tead, et parool on vajalik lahtipakkimine, sisestage alltoodud väljale</MessageUnzipPasswordHint>
+  <MessageUnzipNeedPassword>Parooli on vaja lahti pakkida faile</MessageUnzipNeedPassword>
+  <ZipPasswordProtectHint>Et kaitsta parooliga zip arhiivi, sisesta parool allolevale väljale. Muidu tühjaksjätmisel</ZipPasswordProtectHint>
+  <AppendToZipPasswordProtectHint>Et parooliga kaitsta faile lisada zip arhiivi, sisesta parool allolevale väljale. Muidu tühjaksjätmisel</AppendToZipPasswordProtectHint>
+  <ZipPasswordProtectWindowTitle>Arhiveerimine parooliga</ZipPasswordProtectWindowTitle>
+  <OpenFolderAfterUnzipCheckBox>Ava kaust pärast lahtipakkimist</OpenFolderAfterUnzipCheckBox>
+  <CommandUnzipToNew>uude kausta</CommandUnzipToNew>
+  <CommandZipContents>Zip sisu</CommandZipContents>
+  <ArchiveContentsTitle>Arhiiv sisu "{0}"</ArchiveContentsTitle>
+  <CommandDownload>Lae alla</CommandDownload>
+  <CommonDownloadAll>Lae kõik</CommonDownloadAll>
+  <DownloadListDragFile>Sa võid lohistada-n-drop faile töölaual</DownloadListDragFile>
+  <CommandZipDownload>Tihendamine ja alla laadida</CommandZipDownload>
+  <CommandView>Vaata brauseris</CommandView>
+  <CommandDownloadOrView>Lae või vaadata</CommandDownloadOrView>
+  <CommandPreview>pilte preview</CommandPreview>
+  <CommandFlashPreview>Flash preview</CommandFlashPreview>
+  <GettingSizeFlashMovie>Kuidas suurus flash movie</GettingSizeFlashMovie>
+  <CommandEdit>Muuda teksti fail</CommandEdit>
+  <CommandEditView>Kuva tekstifaili</CommandEditView>
+  <AceNotLoadedMessage>Ei saa laadida Ace toimetaja</AceNotLoadedMessage>
+  <VideoJsNotLoadedMessage>Ei saa laadida VideoJS mängija</VideoJsNotLoadedMessage>
+  <CommandMenuEdit>Edit</CommandMenuEdit>
+  <CommandSelectAll>Vali kõik</CommandSelectAll>
+  <CommandInvertSelection>Pahupidi</CommandInvertSelection>
+  <CommandLinkToFile>Link faili / kausta</CommandLinkToFile>
+  <!--Share link-->
+  <CommandMakePublicFolder>Loo avaliku link</CommandMakePublicFolder>
+  <PublicViewInGoogle>Vaata Google</PublicViewInGoogle>
+  <PublicViewinOWA>Vaata OWA</PublicViewinOWA>
+  <!--Make public folder (share)-->
+  <CommandViewWithGoogleDoc>Vaata Google Docs</CommandViewWithGoogleDoc>
+  <CommandViewWithShareCad>Vaata ka ShareCad.org</CommandViewWithShareCad>
+  <CommandViewWithAutodesk>Vaata ka Autodesk</CommandViewWithAutodesk>
+  <CommandViewWithBox>Vaata lahtris</CommandViewWithBox>
+  <CommandViewWithOWA>Vaata Office Web Apps</CommandViewWithOWA>
+  <CommandCloudConvert>Convert koos CloudConvert</CommandCloudConvert>
+  <ProgressGetCloudConvertOutputFormats>Kuidas väljundformaadid</ProgressGetCloudConvertOutputFormats>
+  <ProgressCloudConvertConverting>Converting</ProgressCloudConvertConverting>
+  <CloudConvertWindowTitle>Convert {0} "</CloudConvertWindowTitle>
+  <CloudConvertWindowConvertButton>muutma</CloudConvertWindowConvertButton>
+  <CloudConvertWindowOutputFormatsLabel>Output formaadis</CloudConvertWindowOutputFormatsLabel>
+  <CloudConvertDownloadLinkLabel>Link allalaadimiseks</CloudConvertDownloadLinkLabel>
+  <CloudConvertSaveAsLabel>Salvesta (laiend lisatakse automaatselt):</CloudConvertSaveAsLabel>
+  <CloudConvertNoOutputFormats>Puuduvad saadaval formaatides ümberehitamiseks</CloudConvertNoOutputFormats>
+  <CloudConvertNoUrlForDownload>See ei õnnestunud saada link allalaadimiseks</CloudConvertNoUrlForDownload>
+  <ProgressCloudConvertUploading>Üleslaadimine CloudConvert</ProgressCloudConvertUploading>
+  <CloudConvertSaveAsNameBlank>Tüüp nimi siia</CloudConvertSaveAsNameBlank>
+  <CancelEditButton>Muudatuste tühistamine</CancelEditButton>
+  <HideButton>varjama</HideButton>
+  <EditDocumentCancelHint>Pärast sulgete akna redigeeritud dokumendiga, siis automaatne salvestus. &lt;br /&gt; Saab peita dialoogis vajutades {0} (sel juhul dokumendi ikkagi salvestatud pärast sulgemist toimetaja). &lt;br /&gt; Kui te ei soovi salvestada dokumenti vajutage {1} (antud juhul, toimetaja aken suletakse).</EditDocumentCancelHint>
+  <EditDocumentSaveHint>Nüüd võite salvestada muudatused dokumendis vajutades {0}. Tähelepanu! Pärast sulgemist redaktoriakent, siis ka automaatne salvestus.</EditDocumentSaveHint>
+  <CommandEditInMSOffice>Edit MS Office</CommandEditInMSOffice>
+  <CommandEditInOOo>Edit OpenOffice / LibreOffice</CommandEditInOOo>
+  <CommandViewInMSOffice>Vaata MS Office</CommandViewInMSOffice>
+  <CommandViewInOOo>Vaata OpenOffice / LibreOffice</CommandViewInOOo>
+  <CommandEditInPixlr>Edit Pixlr</CommandEditInPixlr>
+  <CommandEditInAdobe>Muuda Adobe Creative Cloud</CommandEditInAdobe>
+  <AdobeImageEditorSavedAsNewTypeMessage>Pildil muutunud Adobe Image Editor on salvestatud kujul {0}</AdobeImageEditorSavedAsNewTypeMessage>
+  <CommandEditInGoogle>Edit Google Drive</CommandEditInGoogle>
+  <EditInGoogleConvertMessage>Pärast muuta dokumendi teisendatakse formaadis {1} {0} {2}</EditInGoogleConvertMessage>
+  <EditInGoogleLinkError>Ei suuda saada link muuta dokumenti Google Drive</EditInGoogleLinkError>
+  <EditInGoogleWaiting>Ootan toimetamine lõpetamist Google Drive</EditInGoogleWaiting>
+  <CommandEditInMSOO>Edit MS Office Online</CommandEditInMSOO>
+  <EditInMSOOLinkError>Ei suuda saada link dokumenti redigeerida MS Office Online</EditInMSOOLinkError>
+  <EditInMSOOWaiting>Ootan toimetamine lõpetamist MS Office Online</EditInMSOOWaiting>
+  <CommandEditInOffice365>Edit Office 365</CommandEditInOffice365>
+  <EditInOffice365LinkError>Ei saanud, et redigeerida dokumendi Office 365</EditInOffice365LinkError>
+  <EditInOffice365Waiting>Ootan toimetamine lõpetamist Office 365</EditInOffice365Waiting>
+  <CommandSave>Salvesta</CommandSave>
+  <CommandSaveAs>Salvesta kui...</CommandSaveAs>
+  <CommandAppRestart>Restart taotluse</CommandAppRestart>
+  <CommandPlayVideoFlash>Play Video Flash mängija</CommandPlayVideoFlash>
+  <CommandPlayVideoHtml5>Play video</CommandPlayVideoHtml5>
+  <CommandPlayAudioHtml5>Play audio</CommandPlayAudioHtml5>
+  <CommandPlayVideo>Play video</CommandPlayVideo>
+  <CommandPlayAudio>Play audio</CommandPlayAudio>
+  <CommandConvertVideo>teisendada video</CommandConvertVideo>
+
+  <ViewInServiceLink>Vajuta siia, et näha faili</ViewInServiceLink>
+  <EditInServiceLink>Vajuta siia, et muuta dokumenti</EditInServiceLink>
+
+  <OfficeEditCopyLinkLabel>Kopeeri link allpool ja avada see amet taotluse:</OfficeEditCopyLinkLabel>
+  <OfficeRunError>Ei olnud võimalik käivitada {0}</OfficeRunError>
+  <BadPathToFile>See ei olnud võimalik leida tee failini</BadPathToFile>
+  <FixBasicAuthAlertTitle>Tähelepanu!</FixBasicAuthAlertTitle>
+  <FixBasicAuthAlertMessage>Microsoft Office töötab Perusvarmennus ilma SSL! Võite määrata see teie Office. Täpsema info saamiseks vaata {0}.</FixBasicAuthAlertMessage>
+  <FixBasicAuthAlertCheckBoxText>Mitte näidata seda dialoogi enam.</FixBasicAuthAlertCheckBoxText>
+  <CommandDetails>detailid</CommandDetails>
+  <CommonButtonCaptionAddDetail>Lisa täpsustus</CommonButtonCaptionAddDetail>
+  <CommonButtonCaptionAddComment>Lisa kommentaar</CommonButtonCaptionAddComment>
+  <DetailsWindowTitle>Detailid "{0}"</DetailsWindowTitle>
+  <FileDetailsSave>Rakenda muudatused</FileDetailsSave>
+  <FileDetailsIgnoreChanges>ignoreerima</FileDetailsIgnoreChanges>
+  <FileDetailsCloseConfirmTitle>Fail üksikasjad aken on suletud</FileDetailsCloseConfirmTitle>
+  <FileDetailsCloseConfirmMsg>Tähelepanu! Muutused ei ole veel salvestatud. Vali tegevus, mis sa tahad kehtivad need muutused enne sulgemist aknas.</FileDetailsCloseConfirmMsg>
+  <FileDetailsGridTitleColumn>pealkiri</FileDetailsGridTitleColumn>
+  <FileDetailsGridAuthorColumn>Viimati autor</FileDetailsGridAuthorColumn>
+  <LoadingDetailsMask>Laadimine üksikasjad</LoadingDetailsMask>
+  <NewDetailsTitle>uus pealkiri</NewDetailsTitle>
+  <NewDetailsValue>Uued detailid väärtus</NewDetailsValue>
+  <DetailsSavingMsg>salvestamine üksikasjad</DetailsSavingMsg>
+  <ProgressLoadingEditInOffice>Ettevalmistused toimetamine Office</ProgressLoadingEditInOffice>
+  <MenuFilterText>filtrid</MenuFilterText>
+  <EmptyTextFilter>Sisesta Filter ...</EmptyTextFilter>
+  <AfterDateFilterText>pärast</AfterDateFilterText>
+  <BeforeDateFilterText>enne</BeforeDateFilterText>
+  <OnDateFilterText>edasi</OnDateFilterText>
+  <YesBooleanFilterText>jah</YesBooleanFilterText>
+  <NoBooleanFilterText>ei</NoBooleanFilterText>
+  <CommandEditWithZoho>Edit Zoho</CommandEditWithZoho>
+  <ZohoNotSupportedFormatMessage>Laiendamine ei toeta Zoho. Vaata {0}.</ZohoNotSupportedFormatMessage>
+  <ProgressLoadingEditInZoho>Laadimine Zoho toimetaja</ProgressLoadingEditInZoho>
+  <CommandSubMenuViewAndEdit>Vaata / muuda</CommandSubMenuViewAndEdit>
+  <CommandSubMenuShare>osa</CommandSubMenuShare>
+  <CommandSubMenuMore>rohkem</CommandSubMenuMore>
+  <StopUploadingButtonText>peatus</StopUploadingButtonText>
+  <SimpleUploadErrorInfo>Ülesse fail (id) on viga. &lt;br /&gt; Vaata {0} rohkem infot &lt;/a&gt;</SimpleUploadErrorInfo>
+  <BalloonAbortFilesUploaded>Üleslaadimiseks failid katkestati</BalloonAbortFilesUploaded>
+  <UploadDragNDropTab>Lohistamisvõimalus</UploadDragNDropTab>
+  <UploadDragNDropTabImages>Lohistamisvõimalus+pildid</UploadDragNDropTabImages>
+  <DnDGridProgressColumn>edu</DnDGridProgressColumn>
+  <DnDFileReadingError>Lugemine viga. Error code: {0}.</DnDFileReadingError>
+  <DnDFileReadingAbort>Lugemine katkestati. Error code: {0}.</DnDFileReadingAbort>
+  <DnDFileUploadingError>Üleslaadimine viga. {0}</DnDFileUploadingError>
+  <DnDFileUploadingAbort>Üleslaadimine katkestati.</DnDFileUploadingAbort>
+  
+  <CommandWebFoldersLinks>Kaart web kaustu</CommandWebFoldersLinks>
+  <CommandSyncWebFolders>Sünkroniseerimine lokaalkataloogis</CommandSyncWebFolders>
+  <WebFolderLinksFieldLabel>Web-kausta lingid</WebFolderLinksFieldLabel>
+  <WebFolderLinksForWindows64Note>Klahvidele {0} Win+R {1}. Sisesta käsureal {0} Avatud: {1} valdkonnas (vt käsurea näiteid allpool), klõpsa {0} OK {1}. Windows autentimist kasutades täielikult kvalifitseeritud domeeninime: {2}.</WebFolderLinksForWindows64Note>
+  <OpenLibreOfficeRunCommandNote>Või vajutage klahvikombinatsiooni {0} Win+R {1}, sisesta käsureale allpool {0} Avatud: {1} valdkonnas ja vajutage {0} OK {1}</OpenLibreOfficeRunCommandNote>
+  <WebFolderLinksForMacOSNote>In "Finder" menüü, avatud {0} Go&gt; Connect to Server {1}. Sisestage link web kausta {0} "Serveri aadress" {1} valdkonnas. Vajuta {0} "Connect" {1}. Uues dialoogis valige {0} "Külaline" {1} või {0} "registreeritud kasutaja" {1} (Windows autentimist). Vajuta {0} "Connect" {1}.</WebFolderLinksForMacOSNote>
+  <WebFolderLinksForUbuntuNote>Avatud {0} Go&gt; asukoht ... {1} Kopeeri link web kausta asukoha valdkonnas.</WebFolderLinksForUbuntuNote>
+  <LinksToWebFoldersWindowText>Võite kaart kaustad näha võrgukettana oma kohaliku OS. Pärast kaardistamist saate töötada faile nagu kohalike ones või redigeerida dokumente MS Office või OpenOffice. Vaata abiga, kuidas kaardistada {0}.</LinksToWebFoldersWindowText>
+  <CommonFileTypeNameCaption>"{0}" faili nimi</CommonFileTypeNameCaption>
+  <CommonFileTypeNamePrompt>Sisesta uus "{0}" faili nimi</CommonFileTypeNamePrompt>
+  
+  <PixlrEditorWindowTitle>Pixlr toimetaja {0}</PixlrEditorWindowTitle>
+  <PixlrSaveImageSuccessMessage>Pilt "{0}" on edukalt salvestatud. Värskenda nimekirja, kui salvestatud pilt uue nimega.</PixlrSaveImageSuccessMessage>
+  <CommonFileImageNewName>uus pilt</CommonFileImageNewName>
+  <CommandChangeTheme>Muuda teema</CommandChangeTheme>
+  
+  <CommandHelp>aitama</CommandHelp>
+
+  <OpeningShortcutProgress>avamine otsetee</OpeningShortcutProgress>
+  <CommandCreateShortcut>Otsetee (sümboolne link)</CommandCreateShortcut>
+  <ShortcutNameHint>Otsetee nimi</ShortcutNameHint>
+  <ShortcutTargetPathHint>sihttee</ShortcutTargetPathHint>
+  <CreateShortcutButtonTitle>looma</CreateShortcutButtonTitle>
+  <CreatingShortcutProgress>otsetee loomine</CreatingShortcutProgress>
+  <CreateShortcutSuccessMessage>Otsetee "{0}" on edukalt loodud "{1}".</CreateShortcutSuccessMessage>
+
+  <OpeningInternetShortcutProgress>Avamine Internet otsetee</OpeningInternetShortcutProgress>
+  <InternetShortcutNotValidMsg>Eesmärgiks URL selle Interneti otsetee ei ole kehtiv</InternetShortcutNotValidMsg>
+  <InternetShortcutWindowTitle>Mine lingile</InternetShortcutWindowTitle>
+  
+  <CommandVersioning>Versioning</CommandVersioning>
+  <CommandVersionHistory>version ajalugu</CommandVersionHistory>
+  <CommandCheckOut>Check Out</CommandCheckOut>
+  <CommandCheckIn>registreerima</CommandCheckIn>
+  <CommandUndoCheckOut>Tühista Check Out</CommandUndoCheckOut>
+  <VersionHistoryObtainingMessage>Saamine versiooni ajalugu</VersionHistoryObtainingMessage>
+  <NoVersionHistoryMessage>Versioon ajaloost valitud faili ei ole olemas</NoVersionHistoryMessage>
+  <FileIsCheckedOutMessage>File "{0}" on juba möllitud kasutaja "{1}" on {2}</FileIsCheckedOutMessage>
+  <CheckingOutMessage>kontrollimiseks läbi</CheckingOutMessage>
+  <SuccessfullyCheckedOutMessage>File "{0}" on edukalt möllitud kasutaja "{1}"</SuccessfullyCheckedOutMessage>
+  <FileIsNotCheckedOutMessage>File "{0}" ei ole möllitud veel</FileIsNotCheckedOutMessage>
+  <FileIsCheckedOutOtherUserMessage>File "{0}" on möllitud teine ​​kasutaja "{1}" on {2}.</FileIsCheckedOutOtherUserMessage>
+  <FileUndoCheckOutForbiddenMessage>Sa ei saa tühistada Lahkumine mida teine ​​kasutaja.</FileUndoCheckOutForbiddenMessage>
+  <FileCheckInForbiddenMessage>Sa ei saa kontrollida faili, mis on juba möllitud teine ​​kasutaja.</FileCheckInForbiddenMessage>
+  <FileUndoCheckOutConfirmMessage>Kui sa soovid oma check out, muutused kantakse dokumenti ei salvestata! Olete kindel, et soovite tühistada oma check out?</FileUndoCheckOutConfirmMessage>
+  <FileVersionDeleteConfirmTitle>Kustutamine faili versioon</FileVersionDeleteConfirmTitle>
+  <FileVersionDeleteConfirmMessage>Oled sa kindel, et soovid kustutada valitud versiooni faili?</FileVersionDeleteConfirmMessage>
+  <FileVersionRestoreConfirmTitle>Taastamine faili versioon</FileVersionRestoreConfirmTitle>
+  <FileVersionRestoreConfirmMessage>Oled sa kindel, et soovid taastada valitud versiooni faili? {0} Kui jah, täpsustada faili, kus valitud versiooni saab salvestada. Kui jätad selle väärtust muutmata (või määratud väärtus tühi) valitud versiooni asendab valitud faili (eelmise faili sisu lisatakse versiooni ajalugu). {1} Faili nimi:</FileVersionRestoreConfirmMessage>
+  <UndoCheckingOutMessage>Tühistamine Check Out</UndoCheckingOutMessage>
+  <SuccessfullyUndoCheckedOutMessage>Ärajäämist kontrolli läbi fail "{0}" on edukalt lõpetatud.</SuccessfullyUndoCheckedOutMessage>
+  <SuccessfullyCheckedInMessage>File "{0}" on edukalt kontrollitud kasutaja "{1}"</SuccessfullyCheckedInMessage>
+  <CheckingInMessage>kontrollides</CheckingInMessage>
+  <VersionHistoryTitle>Failiversioonid "{0}"</VersionHistoryTitle>
+  <VersionHistoryGridNumberColumn>Ver.</VersionHistoryGridNumberColumn>
+  <VersionHistoryGridNotesColumn>märkused</VersionHistoryGridNotesColumn>
+  <CommandRestoreVersion>Taastama</CommandRestoreVersion>
+  <ProgressPrepareDownloadOldVersion>Ettevalmistused vana versiooni allalaadimine</ProgressPrepareDownloadOldVersion>
+  <FileVersionNotFoundMessage>Valitud faili versiooni ei leitud.</FileVersionNotFoundMessage>
+  <ProgressDeletingVersion>version kustutamine</ProgressDeletingVersion>
+  <ProgressRestoringVersion>version taastamine</ProgressRestoringVersion>
+  <FileNeedCheckInMessage>Palun vaadake või tulest välja valitud faili ja proovi uuesti.</FileNeedCheckInMessage>
+  <FileCheckedOutEditForbiddenMessage>Sa ei saa muuta / ümber / liikuda / kustutada faili "{0}" ajal on möllitud kasutaja "{1}" on {2}</FileCheckedOutEditForbiddenMessage>
+  <FileUploadCheckInLabel>Võite sisse- valitud faili või laadida uus versioon faili (kasutada üleslaadimise vormi allpool). Kui soovite luua uue versiooni valitud faili ei saa üles laadida kõik failid siin.</FileUploadCheckInLabel>
+  <FileUploadCheckInInvalidFileName>Nimi laaditud fail peab olema täpselt sama nimega valitud faili</FileUploadCheckInInvalidFileName>
+  <CheckOutVersionNotes>See versioon on loodud automaatselt</CheckOutVersionNotes>
+  <RestoreVersionNotes>See versioon on loodud automaatselt pärast taastamist on versiooni {0} kasutaja "{1}"</RestoreVersionNotes>
+  <IsCheckedOutHint>Fail on möllitud</IsCheckedOutHint>
+  <ExistsOldVersionsHint>Fail on teiste versioonide</ExistsOldVersionsHint>
+  <IsLockedHint>Fail on suletud</IsLockedHint>
+  <FileWasCreatedHint>Loodud on {0} tagasi</FileWasCreatedHint>
+  <FileWasModifiedHint>Muudetud on {0} tagasi</FileWasModifiedHint>
+  <CommonChangedAgo>{0} tagasi</CommonChangedAgo>
+  <DaysShort>d</DaysShort>
+  <HoursShort>h</HoursShort>
+  <MinutesShort>m</MinutesShort>
+  <FileContainsMetaDataHint>Sisaldab mõned detailid (metaandmed)</FileContainsMetaDataHint>
+  <FileMetaDataCaptionMobile>Metaandmed</FileMetaDataCaptionMobile>
+
+  <ExistsPublicLinksFileHint>Fail on avaliku lingid</ExistsPublicLinksFileHint>
+  <ExistsPublicLinksFolderHint>Kaust on avaliku lingid</ExistsPublicLinksFolderHint>
+  <PublicLinkNotFound>Avalik link "{0}" ei leitud</PublicLinkNotFound>
+
+  <PublicLinksDeleteWindowTitle>Kustuta avaliku link (s)</PublicLinksDeleteWindowTitle>
+  <PublicLinksDeleteLinkButton>Kustuta link</PublicLinksDeleteLinkButton>
+  <PublicLinksDeleteConfirmMsg>Oled sa kindel, et soovid kustutada valitud avaliku lingid?</PublicLinksDeleteConfirmMsg>
+  <PublicLinksDeleteSingleConfirmMsg>Olete kindel, et soovite kustutada selle lingi?</PublicLinksDeleteSingleConfirmMsg>
+
+  <DetailsMultiValue>(Multi väärtus)</DetailsMultiValue>
+
+  <GridBottomFilesSizeInfo>Valitud: {0} / {1},</GridBottomFilesSizeInfo>
+  <GridBottomFilesFoldersInfo>failid: {0} / {1}, kaustad: {2} / {3}</GridBottomFilesFoldersInfo>
+
+  <AmountOfDownloadingsFile>Allalaadimine</AmountOfDownloadingsFile>
+
+  <CookiesDisabledMessage>Sinu brauseris küpsiste funktsioon on välja lülitatud. Palun lülita see sisse ja restart brauserile.</CookiesDisabledMessage>
+
+  <CommandSendEmail>Saada email</CommandSendEmail>
+  <CommandSendWithGmail>Saada Gmail</CommandSendWithGmail>
+  <CommandSendWithOutlook>Saada Outlook</CommandSendWithOutlook>
+  <SendEmailTo>kuni</SendEmailTo>
+  <SendEmailBulkMailingListHint>&lt;b&gt; meililisti &lt;/b&gt; &lt;br /&gt; Saate määrata tervete saata oma e-posti</SendEmailBulkMailingListHint>
+  <SendEmailBulkMailingListWindowTitle>Vali vastuvõtjad oma e-posti</SendEmailBulkMailingListWindowTitle>
+  <SendEmailEmptyMailingListMessage>Mail nimekiri on tühi</SendEmailEmptyMailingListMessage>
+  <SendEmailSenderEmail>Saatja e-posti</SendEmailSenderEmail>
+  <SendEmailSubject>Teema</SendEmailSubject>
+  <SendEmailFilesAsLinksTo>Saada linke valitud failid</SendEmailFilesAsLinksTo>
+  <SendEmailFilesAsAttachements>Saada valitud failid manuseid</SendEmailFilesAsAttachements>
+  <SendEmailSend>Saada</SendEmailSend>
+  <SendEmailProgressMessage>saatmine posti</SendEmailProgressMessage>
+  <GettingMailingListProgressMessage>Kuidas meililistis</GettingMailingListProgressMessage>
+  <SendEmailSuccessMessage>Post saadeti edukalt.</SendEmailSuccessMessage>
+  <SendEmailResultsMessage>Saadetud: {0}. &lt;br /&gt; Ebaõnnestus: {1} {2}.</SendEmailResultsMessage>
+  <SmtpServerSettingsIncorrect>SMTP-server võimalused kas tühi või vale</SmtpServerSettingsIncorrect>
+  <FromEmailIncorrect>Saatja e-posti aadress on vale või tühi</FromEmailIncorrect>
+  <ToEmailIncorrect>To-posti aadress on vale või tühi</ToEmailIncorrect>
+  <EmailSubjectEmpty>E-kirja teema ei ole määratud</EmailSubjectEmpty>
+  <UploadFromUrlTab>Siit URL</UploadFromUrlTab>
+  <UploadFromUrlFieldLabel>URL (HTTP või FTP üks fail)</UploadFromUrlFieldLabel>
+  <UploadFromUrlProgressTitle>Laadi URL</UploadFromUrlProgressTitle>
+  <UploadFromUrlMsg>Üleslaadimine URL</UploadFromUrlMsg>
+  <UploadFromUrlSuccessMsg>File "{0}" on edukalt üles laetud "{1}"</UploadFromUrlSuccessMsg>
+  <UploadFromUrlUnknownResponse>Vastus serverist ei tunta</UploadFromUrlUnknownResponse>
+  <UploadFromUrlEmptyFileName>Nimi laaditud fail on tühi</UploadFromUrlEmptyFileName>
+  <UploadFromUrlFileName>Säästa nimega (jäta tühjaks kasutada nime URL)</UploadFromUrlFileName>
+  <UploadFromUrlFileNameMobile>Säästa nimega</UploadFromUrlFileNameMobile>
+  
+  <!-- Common Clouds keys -->  
+  <CloudAuthenticateMessage>Sa pead sisse logima {0}. Vajuta "{1}" link ja saate suunatakse sisselogimise vormi. {2} Rohkem infot. {3}</CloudAuthenticateMessage>
+  <CloudAuthenticateLink>Autentida {0}</CloudAuthenticateLink>  
+  <CloudDownloadingMessage>Allalaadimine {0}</CloudDownloadingMessage>
+  <CloudAuthWarningMessage>Kui hagi ei juhtunud, siis palun sulgege see aken ja vajuta "{0}" link uuesti.</CloudAuthWarningMessage>
+  <CloudAuthEmptyInvalidMessage>{0} Access Token on tühi või vigane. Palun autentida uuesti.</CloudAuthEmptyInvalidMessage>
+  <CloudDownloadEndMessageTitle>Lae on lõppenud</CloudDownloadEndMessageTitle>
+  <CloudDownloadFilesSuccessMessage>{0} fail (id) edukalt allalaetud "{1}" {2} kausta.</CloudDownloadFilesSuccessMessage>
+  <CloudNotDownloadedFilesMessage>{0} fail (id) ei ole alla:</CloudNotDownloadedFilesMessage>
+  <CloudFoldersCreatedSuccessMessage>{0} kaustad (id) edukalt loodud "{1}" {2} kausta.</CloudFoldersCreatedSuccessMessage>
+  <CloudNotFoldersCreatedMessage>{0} kaustad (id) ei ole loodud:</CloudNotFoldersCreatedMessage>
+  <CloudFilesFoldersSuccessMessage>{0} fail (id), {1} kausta (de) edukalt allalaetud "{2}" {3} kausta.</CloudFilesFoldersSuccessMessage>
+  <CloudNotFilesFoldersDownloadedMessage>{0} fail (id), {1} kausta (de) mitte alla:</CloudNotFilesFoldersDownloadedMessage>
+  <CloudLinkText>Külasta {0}</CloudLinkText>
+  <CloudLinkDescription>Mine {0} lehele</CloudLinkDescription>
+  <CloudRootFolderName>&lt;b&gt; {0} root kausta &lt;/ ​​b&gt;</CloudRootFolderName>
+  <CloudCheckFolerMessage>Palun kontrollige ühe {0} kausta jätkata.</CloudCheckFolerMessage>
+  <CloudSelectFolderMessage>Palun valige {0} kausta jätkata.</CloudSelectFolderMessage>
+  <CloudGetFoldersInfoProgressMessage>Laadimine {0} kaustad info</CloudGetFoldersInfoProgressMessage>
+  <CloudGetItemsInfoProgressMessage>Laadimine {0} esemed info</CloudGetItemsInfoProgressMessage>
+  <CloudUploadSelectItemsMessage>Palun valige {0} teemad jätkata.</CloudUploadSelectItemsMessage>
+  <CloudUploadTotalFiles>Kokku failid: {0} ({1})</CloudUploadTotalFiles>
+  <CloudUploadProgressMessage>Üleslaadimine {0}</CloudUploadProgressMessage>
+  <CloudSignInAsDifferentUserText>Logi välja alates {0}</CloudSignInAsDifferentUserText>
+  <CloudLogoutProgressMsg>Logi välja alates {0}</CloudLogoutProgressMsg>
+  <CloudRevokeTokenMsg>tühistamise sümboolne</CloudRevokeTokenMsg>
+  <CloudRefreshTokenMsg>Värskendav sümboolne</CloudRefreshTokenMsg>
+  <CloudAuthNotCompleteMsg>Autentimine ei lõpetanud. &lt;br /&gt; Palun</CloudAuthNotCompleteMsg>
+  <CloudTrustedSitesMsg> vaadake järgmisi saite "usaldusväärsete saitide" nimekirja: &lt;br /&gt; &lt;br /&gt;</CloudTrustedSitesMsg>
+  <TrustedSitesForMicrosoftEdge>Kui kasutate Microsoft Edge, siis kontrollige Usaldusväärsed saidid Internet Explorer</TrustedSitesForMicrosoftEdge>
+  <CloudCheckAuthMsg>Saate {0} autentimine</CloudCheckAuthMsg>
+  <CloudLoadMsg>Laadimine {0}</CloudLoadMsg>
+  <CloudFreeSpaceError>Ei ole piisavalt ruumi {2} laadida faile. Hästi: {0}. Faili suurus: {1}.</CloudFreeSpaceError>
+  <CloudFreeSpaceExceeded>Ei ole piisavalt ruumi {0}</CloudFreeSpaceExceeded>
+  <CloudExceedFileSizeError>Fail püüad alla laadida on faili suurus {1}, mis on suurem kui maksimaalne lubatud suurus alla - {0}.</CloudExceedFileSizeError>
+  <CloudFolderNotFound>Kataloog ei leitud. Võib-olla see on kustutatud</CloudFolderNotFound>
+  <CloudFileNotFound>Faili ei leitud. Võib-olla see on kustutatud</CloudFileNotFound>
+  <CloudNoFoldersMessage>Puuduvad kaustu kuvada</CloudNoFoldersMessage>
+  <CloudLibraryNotLoadedMsg>{0} kliendi raamatukogu ei ole laetud! &lt;br /&gt; Palun kontrollige internetiühendust ja-või värskendada lehel. &lt;br /&gt; Lisaks</CloudLibraryNotLoadedMsg>
+  <CloudDownloadWithNewNames>Pärast faili (de) alla uued nimed:</CloudDownloadWithNewNames>
+
+  <!-- Google Drive Cloud keys -->
+  <CommandDownloadToGoogleDocs>Lae Google Drive</CommandDownloadToGoogleDocs>
+  <GoogleDocsSaveAs>Salvesta kui:</GoogleDocsSaveAs>
+  <GoogleDocsSaveAsTitle>Säästa "{0}" nagu ...</GoogleDocsSaveAsTitle>
+  <GoogleDocsDownloadEndWarningMessage>Kui te ei näe üles laetud dokumente Google Drive'i, oodake paar sekundit ja värskendada Google Drive nimekirja.</GoogleDocsDownloadEndWarningMessage>
+  <GoogleDriveUploadNoFilesMessage>Pole faile Google Drive üleslaadimiseks</GoogleDriveUploadNoFilesMessage>
+  <GoogleDriveMaxUploadSizeError>Sest content-type "{0}" maksimaalne suurus üleslaadimisel {1} ​​on ületatud.</GoogleDriveMaxUploadSizeError>
+  <GoogleDriveConvertMsg>Kui see on võimalik, teisendada failid Google Dokumendid formaadis. {0} Rohkem infot {1}.</GoogleDriveConvertMsg>
+
+  <!-- Box Cloud keys -->
+  <CommandDownloadToBox>Lae selgitusele</CommandDownloadToBox>
+  <BoxDownloadWithNewNames>Järgnev fail (id) uuendatud uued versioonid:</BoxDownloadWithNewNames>
+  <BoxNoViewPermission>Sa ei pea luba, et vaadata valitud Kataloog</BoxNoViewPermission>
+  <BoxNoDownloadPermission>Sa ei pea luba alla laadida</BoxNoDownloadPermission>
+  <BoxNoUploadPermission>Sa ei pea luba saata</BoxNoUploadPermission>
+  <BoxUnableCreateOrInfoError>Ei saa luua või saada teavet</BoxUnableCreateOrInfoError>
+  
+  <!-- Dropbox Cloud keys -->
+  <CommandDownloadToDropbox>Lae Dropbox</CommandDownloadToDropbox>
+  
+  <!-- OneDrive Cloud keys -->
+  <CommandDownloadToSkyDrive>Lae üles OneDrive</CommandDownloadToSkyDrive>
+  <AuthenticateOAuthSkyDriveMessageShort>Sa pead sisse logida oma Microsofti Live konto.</AuthenticateOAuthSkyDriveMessageShort>
+  <SkyDriveAuthAlsoString>ka</SkyDriveAuthAlsoString>
+  <SkyDriveLoginButtonTitle>Logi sisse</SkyDriveLoginButtonTitle>
+  <SkyDriveRegistryMessage>Ei ole Windows Live ID? {0} Registreeru ... {1}</SkyDriveRegistryMessage>
+  <SkyDriveMapRootFolder>Märge! Saate {0} kaart {1} oma OneDrive kausta. tee on</SkyDriveMapRootFolder>
+  <SkyDriveMoreInfoLink>{0} Veel infot OneDrive (SkyDrive) {1}</SkyDriveMoreInfoLink>
+  <OneDriveMaxUploadSizeError>Lubatavat suurust ({0}) on laaditud fail on ületatud: {1}</OneDriveMaxUploadSizeError>
+  <!-- OneDrive for Business -->
+  <OneDriveForBusinessMapWebFolderInfo>&lt;b&gt; Märkus! &lt;/b&gt; Enne avamist faile selles kohas, siis tuleb kõigepealt lisama veebilehel oma usaldusväärsete saitide loendisse, sirvida veebilehel, ja valige võimalus sisse logida automaatselt (IE brauseri).</OneDriveForBusinessMapWebFolderInfo>
+  
+  <UploadFromUrlLabelText>Saate määrata URL faili talletatakse ülemaailmsel failiserver või faili jagamise teenus nagu {0}, {1} {2}, {3}, {4}.</UploadFromUrlLabelText>
+  <UploadFromUrlLabelTextMobile>Määra URL faili</UploadFromUrlLabelTextMobile>
+
+  <LinkToFileTitle>Link faili / kausta</LinkToFileTitle>
+  <LinkToFileWarningAnonym>See seos annab anonüümset juurdepääsu toimikule. Iga kasutaja, isegi kui need ei ole arvesse sellel saidil, võib alla laadida või laadida faile läbi avaliku link. Avalik faili link lubab sul alla ühe valitud faili. {0} Rohkem infot {1}.</LinkToFileWarningAnonym>
+  <LinkToFileDownloadFileLink>See seos lubab sul alla valitud faili {0} on {1}. Sa pead kehtiv konto, et kasutada seda linki. See ei anna anonüümset juurdepääsu toimikule.</LinkToFileDownloadFileLink>
+  <LinkToFileExpireDate>aegumistähtaeg</LinkToFileExpireDate>
+  <LinkToFileDownloadCnt>Lae piirarvu</LinkToFileDownloadCnt>
+  <LinkToFileDownloadType>lingi tüüp</LinkToFileDownloadType>
+  <LinkToFileGenerate>Loo link</LinkToFileGenerate>
+  <LinkToFilePasswordNotMatch>Paroolid ei kattu</LinkToFilePasswordNotMatch>
+  <LinkToFilePasswordRequired>Parooli avaliku link on vajalik</LinkToFilePasswordRequired>
+  <LinkToFileInvalidForm>Vale parameetrite</LinkToFileInvalidForm>
+  <LinkToFileAnonymDownloadLinkHint>Avalik link "{0}":</LinkToFileAnonymDownloadLinkHint>
+  <LinkToFileAnonymDownloadShortLinkHint>Lühike avaliku link "{0}":</LinkToFileAnonymDownloadShortLinkHint>
+  <LinkToFileOpenFolderLink>See link võimaldab avada valitud kausta {0} on {1}. Sa pead kehtiv konto, et kasutada seda linki. See ei anna anonüümne juurdepääs kausta.</LinkToFileOpenFolderLink>
+  <LinkToFileOpenFileLink>See link avaneb kausta faili ning rõhutab ta</LinkToFileOpenFileLink>
+  <LinkToFileDaysLeft>järel</LinkToFileDaysLeft>
+  <LinkToFileCaptionMobile>avalik lingid</LinkToFileCaptionMobile>
+
+  <PublicFolderLinkHint>Avalik link kausta "{0}":</PublicFolderLinkHint>
+  <PublicFolderShortLinkHint>Lühike avaliku link kausta "{0}":</PublicFolderShortLinkHint>
+  <PublicFolderLinkDownloadZipHint>Lae lingi zip arhiivi kausta "{0}":</PublicFolderLinkDownloadZipHint>
+  <PublicFolderLinkShortDownloadZipHint>Lühike allalaadimislink zip arhiivi kausta "{0}":</PublicFolderLinkShortDownloadZipHint>
+  <PublicFolderLinkZipDownload>Tihendamine ja alla laadida aktiivse kausta {0} (ZIP arhiiv)</PublicFolderLinkZipDownload>
+  <PublicFolderLinkOverwriteWhileUpload>Kirjuta olemasolev</PublicFolderLinkOverwriteWhileUpload>
+  <PublicFolderLinkOpenFolderHint>Ava kaust</PublicFolderLinkOpenFolderHint>
+  <PublicFolderDownloadDisabledNote>Märge! Omanik sellel kaust oli keelatud failide allalaadimise selles kaustas.</PublicFolderDownloadDisabledNote>
+  <PublicFolderLinkSendEmails>Saada infot külastajate tegevuse kirju</PublicFolderLinkSendEmails>
+  <PublicFolderAnonymAccessControl>juurdepääsu kontroll</PublicFolderAnonymAccessControl>
+  <PublicFolderAnonymDownload>Lae faile</PublicFolderAnonymDownload>
+  <PublicFolderAnonymZipDownload>Lae kaustad (ZIP)</PublicFolderAnonymZipDownload>
+  <PublicFolderAnonymUpload>Laadi üles</PublicFolderAnonymUpload>
+  <PublicFolderAnonymViewContent>Vaata failide nimekirja</PublicFolderAnonymViewContent>
+  <PublicFolderNoteForUsers>Märkus kasutajatele</PublicFolderNoteForUsers>
+  <PublicFolderACLNotSet>Juurdepääsu kontroll ei ole valitud</PublicFolderACLNotSet>
+  <PublicFolderWarningAnonym>See seos annab anonüümne juurdepääs kausta. Iga kasutaja, isegi kui need ei ole arvesse sellel saidil, võib alla laadida või laadida faile läbi avaliku link. Avaliku kausta lingiga lubab sul alla laadida nii terve kataloogi (pakitud arhiiv) ja üksikuid faile. {0} Rohkem infot {1}.</PublicFolderWarningAnonym>
+  <PublicLinksShowForAllItems>Näita kõik</PublicLinksShowForAllItems>
+  <PublicLinksShowForSelected>Näita valitud</PublicLinksShowForSelected>
+  
+  <MultipleFileInputMessage>Märge! Teie brauser toetab mitut faili valida korraga.</MultipleFileInputMessage>
+  <UploadZipUnzipNote>Võite laadida zip arhiiv mitme faile ja kaustu ning seejärel eraldada see, kasutades "{0}" käsk kontekstimenüüst.</UploadZipUnzipNote>
+  <DnDFileUploadingStatusCode>status koodi</DnDFileUploadingStatusCode>
+  <DnDFileUploadingPathOrNameEmpty>Tee ja-või failinime ei ole määratud</DnDFileUploadingPathOrNameEmpty>
+  <DnDFileUploadingRemoveFromList>Eemalda loendist</DnDFileUploadingRemoveFromList>
+  <DndFileUploadingDontDropFoldersMsg>Võite lohistada faile tabelis. Sa ei saa langeda kaustad.</DndFileUploadingDontDropFoldersMsg>
+  <DndFileUploadingAllowDropFoldersMsg>Võite lohistada faile ja kaustu tabelis.</DndFileUploadingAllowDropFoldersMsg>
+  <DndFileUploadingFilesSummaryInfo>Krahv failid: {0} ({1})</DndFileUploadingFilesSummaryInfo>
+  <DropFilesHere>Drop faile üles laadida</DropFilesHere>
+  
+  <FileGridDownloadColumn>Lae faile</FileGridDownloadColumn>
+  <FileAttributesField>Näitajad</FileAttributesField>
+  <FolderCalculateSize>Arvutama</FolderCalculateSize>
+  <FolderRecalculateSize>Arvuta</FolderRecalculateSize>
+  <FolderContainsField>Sisaldab</FolderContainsField>
+  <FolderContainsFilesFolders>{0} faili, {1} kaustad</FolderContainsFilesFolders>
+  <FolderCalculatingMessage>arvutamine</FolderCalculatingMessage>
+
+  <SearchTitle>Faili otsing. Saadaval mustrid: {0}</SearchTitle>
+  <SearchType>Otsing</SearchType>
+  <SearchOnlyFiles>ainult faile</SearchOnlyFiles>
+  <SearchOnlyFolders>ainult kaustad</SearchOnlyFolders>
+  <SearchBothFilesFolders>mõlemad failid ja kaustad</SearchBothFilesFolders>
+  <SearchFileDetails>Failiandmete</SearchFileDetails>
+  <SearchFileContent>faili sisu</SearchFileContent>
+  <SearchByDateFrom>pärit</SearchByDateFrom>
+  <SearchByDateTo>kuni</SearchByDateTo>
+  <SearchLocation>asukoht</SearchLocation>
+  <SearchLocationEntire>kuskil</SearchLocationEntire>
+  <SearchLocationCurrent>praegune</SearchLocationCurrent>
+  <SearchSearch>Otsing</SearchSearch>
+  <SearchNothingFound>Midagi ei leitud! Palun täpsustage otsingut.</SearchNothingFound>
+  <SearchErrorCaption>Otsi viga</SearchErrorCaption>
+  <SearchResultsNotComplete>Tähelepanu! Otsingu tulemused võivad olla puudulikud, sest mõned kaustad ei ole indekseeritud veel.</SearchResultsNotComplete>
+  <SearchRepeatOrContactAdmin>Palun proovige otsingut hiljem uuesti või võtke ühendust administraatoriga.</SearchRepeatOrContactAdmin>
+  <SearchLinkToManual>Vaadake {0} Windows Search Help {1}</SearchLinkToManual>
+  <QuerySearchByNameText>Otsing nime järgi</QuerySearchByNameText>
+  <QuerySearchByConentText>poolt sisu</QuerySearchByConentText>
+  <SearchByDetailsWarning>Tähelepanu! Te määratud seaded, mida soovite kasutada otsingut omadused. Sel juhul võib otsing viiakse läbi kasutades standardset meetodit kasutamise asemel Windows Indeksointipalvelun.</SearchByDetailsWarning>
+  <SearchInSpecialFolderWarning>Tähelepanu! Et otsida aktiivse kausta ei kehti. Kui jätkad, otsing viiakse läbi kõigis kataloogides.</SearchInSpecialFolderWarning>
+
+  <UploadTitle>Üleslaadimine mitu faili</UploadTitle>
+  <UploadSimpleTab>Standard</UploadSimpleTab>
+  <UploadSimpleReset>lähtestama</UploadSimpleReset>
+  <UploadSimpleUpload>Laadi üles</UploadSimpleUpload>
+  <UploadSimpleUploadFolderLabelCollapsed>Laadi kausta</UploadSimpleUploadFolderLabelCollapsed>
+  <UploadSimpleUploadFolderButtonText>Vali kaust</UploadSimpleUploadFolderButtonText>
+  <UploadJavaTab>Java</UploadJavaTab>
+  <UploadJavaIgnorePaths>Pane kõik failid ühte kausta (ignoreerida teed)</UploadJavaIgnorePaths>
+  <UploadFlashTab>välklamp</UploadFlashTab>
+  <UploadSilverlightTab>Silverlight</UploadSilverlightTab>
+  <UploadPartially>Mõned failid ei saa üles laadida</UploadPartially>
+  <UploadFolderNotSelectedTitle>Folder ei ole valitud</UploadFolderNotSelectedTitle>
+  <UploadFolderNotSelected>Palun valige kaust, kuhu failid üles laadida</UploadFolderNotSelected>
+  <UploadInProgress>Failide üleslaadimisel</UploadInProgress>
+  <UploadInvalidFormFields>Vormiväljad ei saa esitada kehtetu väärtused</UploadInvalidFormFields>
+  <UploadAjaxFailed>Ajax side ebaõnnestus</UploadAjaxFailed>
+  <UploadFilesAlreadyExists>Fail (s) on juba olemas</UploadFilesAlreadyExists>
+  <UploadOverwriteFiles>Olemasolevad failid üle kirjutada. Kas soovite jätkata?</UploadOverwriteFiles>
+  <UploadOverwriteOrRenameFiles>Seal on üks või mitu faili kattuvate nimede kataloogist teil täpsustada. Kas soovite kirjutada olemasolev faile? Vajuta "{0}" kui soovid selle üle kirjutada juba olemasolevat faili, või "{1}" - kui soovite salvestada kõik failid (need ümber).</UploadOverwriteOrRenameFiles>
+  <UploadNotModifyExistingFiles>Seal on üks või mitu sobivate nimedega failid kataloogist teil täpsustada. Faile ei saa laadida. Palun eemalda olemasolevate failide upload nimekirja või neid ümber nimetada.</UploadNotModifyExistingFiles>
+  <UploadRenamedExistingFiles>Seal on üks või mitu sobivate nimedega failid kataloogist teil täpsustada. Sobivate nimedega failid nimetatakse ümber.</UploadRenamedExistingFiles>
+  <UploadNotAllowedTitle>Laadi ei ole lubatud</UploadNotAllowedTitle>
+  <UploadNotAllowedPrompt>Sa ei saa üles laadida faile selles kaustas</UploadNotAllowedPrompt>
+
+  <UploadMobileIOSVideo>Lae video. Lülita see valik, kui on vaja üles laadida video.</UploadMobileIOSVideo>
+  <UploadMobileAurigmaLink>Pange tähele, et teil peaks olema Aurigma Up! seadmesse installitud, et faile. Koputage siin paigaldada Aurigma Up! taotlus üleslaadimine ja video.</UploadMobileAurigmaLink>
+  <UploadMobileAurigmaReady>Pärast Aurigma Up! paigaldatud või kui sul on juba see installitud, vajuta "Saada" nuppu allpool.</UploadMobileAurigmaReady>
+  <UploadMobileAurigmaFilePrefix>Eesliide üleslaaditud faile</UploadMobileAurigmaFilePrefix>
+  <UploadMobileResult>Lae tulemus:</UploadMobileResult>
+  <UploadMobileUrlPlaceHolder>Sisestage URL siin</UploadMobileUrlPlaceHolder>
+  <UploadMobileFileNamePlaceHolder>Sisestage uue faili nimi siia</UploadMobileFileNamePlaceHolder>
+  <UploadBrowseLabel>Sirvi ...</UploadBrowseLabel>
+  
+  <MobileToolTipsCaption>Kas teadsid, et ...</MobileToolTipsCaption>
+  <MobileToolTipsNextButton>Järgmine nõuanne</MobileToolTipsNextButton>
+  <MobileToolTipsIKnowButton>ma tean seda</MobileToolTipsIKnowButton>
+  <MobileToolTipsHideButton>Ära kunagi näita</MobileToolTipsHideButton>
+  <MobileToolTipsMultiSelection>Et valida mitu faili või kausta, siis tuleb võimaldada mitme valikumooduseks puudutades &lt;b&gt; {0} &lt;/b&gt; nuppu. Puudutage seda uuesti väljuda multi-valimise režiimis.</MobileToolTipsMultiSelection>
+  <MobileToolTipsSlideToRemove>Võite libisema paremalt vasakule ühelgi loendiüksused kustutada. Sisesel eemaldage nupp kuvatakse ülaosas nimekirja objekt.</MobileToolTipsSlideToRemove>
+  <MobileToolTipsTapAndHoldForMenu>Toksake ja hoidke ükskõik loendiüksused näidata kontekstimenüü. Sama kontekstimenüüs kuvatakse puuduta "avalikustamine" nuppu</MobileToolTipsTapAndHoldForMenu>
+  <MobileToolTipsDoubleTapForPreview>Ühe kraani faili, et see valida, topeltkoputus eelvaate või alla laadida. Single puuduta kausta avada.</MobileToolTipsDoubleTapForPreview>
+  <MobileToolTipsPullDownToRefresh>Tõmmake nimekirja aseta sisu.</MobileToolTipsPullDownToRefresh>
+  <MobileToolTipsPinchToScale>Te võite kasutada "näputäis" žest suurendamiseks-in ja zoom-out pilte.</MobileToolTipsPinchToScale>
+  <MobileToolTipsTapToHideBars>Puuduta mis tahes kohta pildipaneel lülitab tööriistaribad.</MobileToolTipsTapToHideBars>
+  <MobileToolTipsSlideLeftRightToNext>Lülita pilte slaidi žest.</MobileToolTipsSlideLeftRightToNext>
+
+  <DownloadToCloudMobileTip>Ühe kraani, et valida kaust, topeltkoputus avada.</DownloadToCloudMobileTip>
+  
+  <UploadTotalMaxSizeMessage>Märge! Maksimaalne suurus kõik üleslaaditud faile ei tohiks ületada {0}.</UploadTotalMaxSizeMessage>
+  <UploadOneFileMaxSizeMessage>Märge! Maksimaalne suurus iga laaditud fail ei tohiks ületada {0}.</UploadOneFileMaxSizeMessage>
+  <UploadUnlimitedSizeMessage>Märge! Suurus üleslaaditud failid on piiramatu.</UploadUnlimitedSizeMessage>
+  <SimpleUploadSetFileNameNote>Märkus 2! Pärast fail on valitud saate muuta nime, et fail on pärast üles laadida</SimpleUploadSetFileNameNote>
+
+  <AnonymousUploadTitle>Lae faile selles kaustas</AnonymousUploadTitle>
+  <AnonymousUploadDescription>Võite üles laadida faile selles kaustas. Vajuta "Browse" nuppu allapoole ja valige failid.</AnonymousUploadDescription>
+  <AnonymousUploadOverwriteHint>Kui laaditud fail on juba olemas, see tuleb asendada.</AnonymousUploadOverwriteHint>
+  <AnonymousUploadShowUploadHint>Näita üleslaadimise vormi</AnonymousUploadShowUploadHint>
+  <AnonymousUploadHideUploadHint>Peida üleslaadimise vormi</AnonymousUploadHideUploadHint>
+  <AnonymousUploadNewFolderNameHint>Valdkonnas allpool saate määrata alamkataloogi nimi (kaust luuakse siis, kui see ei ole), kus failid, mis laaditakse üles:</AnonymousUploadNewFolderNameHint>
+  <AnonymousUploadCompleteTitle>Üleslaadimine kausta {0} on lõpetatud</AnonymousUploadCompleteTitle>
+  <AnonymousUploadExistsFilesMessage>Järgnev fail (id) ei ole laetud, sest fail (id), millel on sama nimi (ed) on juba olemas: {0}.</AnonymousUploadExistsFilesMessage>
+  <AnonymousUploadOwnersNote>Märkus kaustast omanik</AnonymousUploadOwnersNote>
+  <AnonymousDownloadPageTitle>Lae fail</AnonymousDownloadPageTitle>
+  <AnonymousDownloadFileHint>Lae fail</AnonymousDownloadFileHint>
+  <AnonymousUploadPageTitle>Laadi kausta</AnonymousUploadPageTitle>
+  <AnonymousPublicFolderPageTitle>avalik kausta</AnonymousPublicFolderPageTitle>
+  <AnonymousLoginAccessUserFailure>Sa logitud kontole, mis ei ole juurdepääsu ressurss. Palun sisesta muu volikirjad teie juurdepääsu. Kui sa ei tea neid, võtke ühendust omanikuga avaliku link või teie administraator.</AnonymousLoginAccessUserFailure>
+  <ProgressGettingAnonymLink>Avalik link loomine</ProgressGettingAnonymLink>
+  <ProgressGettingAnonymLinks>Kuidas anonüümne lingid</ProgressGettingAnonymLinks>
+  <ProgressGettingBoxViewLink>Kuidas Box Vaata linki</ProgressGettingBoxViewLink>
+  <AutodeskScriptNotIncludedMessage>Ei saa laadida Autodesk Viewer skript</AutodeskScriptNotIncludedMessage>
+  <ProgressUninitializeAutodeskViewer>Sulgemine Autodesk Viewer</ProgressUninitializeAutodeskViewer>
+  <ProgressGettingAutodeskViewLink>Kuidas Autodesk Vaata kuulutust</ProgressGettingAutodeskViewLink>
+  <AnonymousChangeLanguageHint>Vali keel</AnonymousChangeLanguageHint>
+  <AnonymousUpLinkHint>Tagasi emakaustalt</AnonymousUpLinkHint>
+  <AnonymousPasswordDescription>Kaust on parooliga kaitstud</AnonymousPasswordDescription>
+  <AnonymousPasswordIncorrectMessage>Parool on vale</AnonymousPasswordIncorrectMessage>
+  <AnonymousErrorTitle>Avalik link viga</AnonymousErrorTitle>
+  <AnonymousErrorNotFound>Avalik link "{0}" ei leitud!</AnonymousErrorNotFound>
+  <AnonymousErrorAccessDenied>Sa ei pea luba kasutada avaliku link "{0}"</AnonymousErrorAccessDenied>
+  <AnonymousErrorFileNotFound>Avalik link "{0}" on olematu faili või kausta või NTFS lugeda juurdepääs on keelatud</AnonymousErrorFileNotFound>
+  <AnonymousErrorUnknownLinkType>Avalik link "{0}" ei leitud</AnonymousErrorUnknownLinkType>
+  <AnonymousSendEmailSubject>Turistid aktiivsus ühiskaustateavet</AnonymousSendEmailSubject>
+  <AnonymousSendEmailUploadBody>Järgmised failid üles laadida oma avaliku kausta {0}: {1}.</AnonymousSendEmailUploadBody>
+  <AnonymousSendEmailDownloadBody>Fail {0} oli alla laaditud ühiskaustateavet {1}.</AnonymousSendEmailDownloadBody>
+  <AnonymousSendEmailZipDownloadBody>Kogu sisu ühiskaustateavet {0} oli alla ZIP arhiivi.</AnonymousSendEmailZipDownloadBody>
+  <AnonymousViewLinksButton>Vaata lingid</AnonymousViewLinksButton>
+  <AnonymousViewLinksHint>Et vaadata olemasolevad avaliku lingid</AnonymousViewLinksHint>
+  <AnonymousViewLinksWindowTitle>avalik lingid</AnonymousViewLinksWindowTitle>
+  <AnonymousViewLinksDateCreatedColumn>Loomise kuupäev</AnonymousViewLinksDateCreatedColumn>
+  <AnonymousViewLinksDateExpiredColumn>aegumistähtaeg</AnonymousViewLinksDateExpiredColumn>
+  <AnonymousViewLinksPermissionColumn>luba</AnonymousViewLinksPermissionColumn>
+  <AnonymousViewLinksDownloadedColumn>Arv allalaadimine jäänud</AnonymousViewLinksDownloadedColumn>
+  <ProgressDeletingAnonymousLink>Kustutamine avaliku link</ProgressDeletingAnonymousLink>
+  <ProgressSavingAnonymousLink>Salvestamine avaliku link</ProgressSavingAnonymousLink>
+  <AnonymousEditLinkWindowTitle>Muuda avaliku link "{0}"</AnonymousEditLinkWindowTitle>
+  <AnonymousEditLinkShowUrl>Näita link</AnonymousEditLinkShowUrl>
+  <AnonymousEditLinkNotFound>Avalik link ei leita või selle kehtivusaja lõppu</AnonymousEditLinkNotFound>
+
+  <AnonymousLinkSendViaButton>Saada läbi ...</AnonymousLinkSendViaButton>
+  <AnonymousLinkSendViaEmailItem>E ...</AnonymousLinkSendViaEmailItem>
+  <AnonymousLinkSendButton>Saada e-posti teel ...</AnonymousLinkSendButton>
+  <AnonymousLinkSendSubject>Web Failihaldur Avalik Link</AnonymousLinkSendSubject>
+
+  <AnonymousLinkAdvOptTitle>Lisaparameetrid</AnonymousLinkAdvOptTitle>
+  <AnonymousLinkViewTypeButton>link vaade</AnonymousLinkViewTypeButton>
+  <AnonymousLinkViewTypeDefault>täis</AnonymousLinkViewTypeDefault>
+  <AnonymousLinkViewTypeShort>lühike</AnonymousLinkViewTypeShort>
+
+  <AnonymousLinkShowCommentsLabel>Näita kirjeldus, sildid ja kommentaarid</AnonymousLinkShowCommentsLabel>
+  <AnonymousLinkShowCommentsShort>Näita kommentaarid</AnonymousLinkShowCommentsShort>
+
+  <QRCodeButton>QR kood</QRCodeButton>
+
+  <AnonymousLinkLimitedAccessTitle>Piiratud ligipääs</AnonymousLinkLimitedAccessTitle>
+  <AnonymousLinkLimitAccessCheckBox>Piirake juurdepääs ainult määratud autenditud kasutajatele</AnonymousLinkLimitAccessCheckBox>
+  <AnonymousLinkLimitAccessTextArea>Tüüp kasutajanimed või e-mailid (eralda komaga)</AnonymousLinkLimitAccessTextArea>
+  <AnonymousLinkLimitAccessSendCheckBox>Saada teated kindlaksmääratud kasutajatele</AnonymousLinkLimitAccessSendCheckBox>
+  <AnonymousLinkLimitAccessPersMsgLabel>Isiklik teade (valikuline)</AnonymousLinkLimitAccessPersMsgLabel>
+  <AnonymousLinkLimitAccessPassAndUsersMsg>Teie poolt määratud parool ja kasutajate samal ajal seda linki. Palun täpsustage midagi üks.</AnonymousLinkLimitAccessPassAndUsersMsg>
+  <AnonymousLinkLimitAccessUsersNotFound>Kasutajad:
+    {0}
+    ei olemas</AnonymousLinkLimitAccessUsersNotFound>
+  <AnonymousLinkLimitAccessEmailsNotFound>Kirju:
+    {0}
+    ei olemas</AnonymousLinkLimitAccessEmailsNotFound>
+  <AnonymousLinkLimitAccessUsersEmailsNotFound>Kasutajad:
+    {0}
+    ja e-kirju:
+    {1}
+    ei olemas</AnonymousLinkLimitAccessUsersEmailsNotFound>
+
+  <AnonymousLinkUnableToCreate>Ei saa luua anonüümne link</AnonymousLinkUnableToCreate>
+  <AnonymousLinkShortUrlLabel>Palun kliki ikooni Värskenda (alumises paremas nurgas), et saada lühikese link</AnonymousLinkShortUrlLabel>
+  <AnonymousLinkShortUrlUpdate>Võta või uuendada lühikese link</AnonymousLinkShortUrlUpdate>
+  <AnonymousLinkLongUrlNotSpecified>Pikk URL pole määratud</AnonymousLinkLongUrlNotSpecified>
+
+  <ClientFileOrDirectoryAlreadyExists>Fail või kataloog Selle nime all on juba olemas</ClientFileOrDirectoryAlreadyExists>
+  <ClientPermissionsAllowTypes>Praegune load võimaldavad seda operatsiooni ainult järgmisi failitüüpe {0}</ClientPermissionsAllowTypes>
+  <ClientPermissionsDenyTypes>Praegune õigused keelata see operatsioon koos järgmisi failitüüpe {0}</ClientPermissionsDenyTypes>
+  <OfficeApplicationNotFoundAlert>Office'i rakenduse ei leitud. Faili avamine käsitsi lingi teksti kasti.</OfficeApplicationNotFoundAlert>
+  <OfficeAnonymousEditPublicLinkError>Ei saa luua avaliku lingi anonüümselt open office dokumendi.</OfficeAnonymousEditPublicLinkError>
+
+  <GoogleOWAViewLinkMessage>Dokumendi avamiseks klõpsake alloleval lingil:</GoogleOWAViewLinkMessage>
+  <ZohoEditLinkMessage>Selleks, et muuta dokumendi kliki lingile:</ZohoEditLinkMessage>
+  <PixlrEditLinkMessage>Selleks, et muuta pilti kliki lingile:</PixlrEditLinkMessage>
+  <PixlrNewImageCreateTitle>Loo uus pilt koos Pixlr</PixlrNewImageCreateTitle>
+  <PixlrNewImageLinkMessage>Et luua uus pilt, klõpsake alloleval lingil:</PixlrNewImageLinkMessage>
+
+  <DownloadTitle>Allalaadimine mitu faili</DownloadTitle>
+  <DownloadSimpleTab>Standard</DownloadSimpleTab>
+  <DownloadJavaTab>Java</DownloadJavaTab>
+  <DownloadIEPrevent>Internet Explorer takistab automaatne allalaadimine</DownloadIEPrevent>
+  <DownloadIEClickHere>Lae alla siit</DownloadIEClickHere>
+  <DownloadIEArchiveReady>Archive "{0}" on valitud failid loodi ja on valmis alla</DownloadIEArchiveReady>
+  <DownloadIECaption>Lae valmis</DownloadIECaption>
+
+  <SettingsTitle>Seaded</SettingsTitle>
+  <SettingsLanguage>keel</SettingsLanguage>
+  <SettingsLogOutRequired>Uus muudatusi kohaldatakse pärast logout või brauseri taaskäivitamist!</SettingsLogOutRequired>
+  <ThemeTitle>Muuda teema</ThemeTitle>
+  <SettingsTheme>Vali teema</SettingsTheme>
+  <ThemeDefaultTitle>vaiketeema</ThemeDefaultTitle>
+  <ThemeGrayTitle>Gray teema</ThemeGrayTitle>
+  <ThemeAccessTitle>Accessibility Theme</ThemeAccessTitle>
+
+  <ChangeUserPasswordTitle>Muuda kasutaja parool</ChangeUserPasswordTitle>
+  <ChangeUserPasswordOldPassword>Vana parool</ChangeUserPasswordOldPassword>
+  <ChangeUserPasswordNewPassword>Uus salasõna</ChangeUserPasswordNewPassword>
+  <ChangeUserPasswordRepeatNewPassword>Korrake uut parooli</ChangeUserPasswordRepeatNewPassword>
+  <ChangeUserPasswordPasswordsNotMatch>Paroolid ei kattu.</ChangeUserPasswordPasswordsNotMatch>
+  <ChangeUserPasswordSuccessMessage>Parool on muudetud.</ChangeUserPasswordSuccessMessage>
+  <ChangeUserPasswordInvalidMessage>Vale parool.</ChangeUserPasswordInvalidMessage>
+
+  <ChangeUserEmailTitle>Muuda kasutaja e-mail</ChangeUserEmailTitle>
+  <ChangeUserEmailEmail>E-mail</ChangeUserEmailEmail>
+  <ChangeUserEmailSuccessMessage>E-mail on muutunud.</ChangeUserEmailSuccessMessage>
+
+  <UserHelpTitle>Kasutaja abi</UserHelpTitle>
+
+  <LicenseTitle>litsentsi info</LicenseTitle>
+  <LicenseTrial>Registreerimata 30 päeva hindamine versioon</LicenseTrial>
+  <LicensePrompt>Litsentseeritud versioon {0} Kasutajad arv: {1} {0} Ostu kuupäev: {2} {0}</LicensePrompt>
+  <LicenseFreeUpgradeMessage>Teil on veel {0} päeva tasuta uuendusi ja toetust.</LicenseFreeUpgradeMessage>
+  <LicenseCheckMessage>Rohkem kui aasta on möödunud alates ostu. Et kasutada seda versiooni, mida peaks oma tellimust uuendada või alandada vanemale versioonile. Te saate kontrollida oma litsentsi ja leida kättesaadavad vabastab &lt;a href='{0}' target='_blank'&gt; Check Litsents lehelt &lt;/a&gt;</LicenseCheckMessage>
+  
+  <ViewPopupBlocked>Uus aken on blokeeritud hüpikakende blokeerija</ViewPopupBlocked>
+  
+  <LoginTwoFactorTitle>Kaks sammu kontrollimine</LoginTwoFactorTitle>
+  <LoginTitle>Logi sisse</LoginTitle>
+  <LoginRemember>Mäleta mind järgmine kord</LoginRemember>
+  <LoginUISelect>Interface</LoginUISelect>
+  <LoginUIStandard>Standard</LoginUIStandard>
+  <LoginUITouch>mobiilne</LoginUITouch>
+  <LoginLanguage>keel</LoginLanguage>
+  <LoginLogin>Logi sisse</LoginLogin>
+  <LoginFailure>Teie kirjautumisyritystä ei olnud edukas.</LoginFailure>
+  <LoginBlocked>Konto on blokeeritud. Oodake {0} minuti proovige uuesti.</LoginBlocked>
+  <LoginNotActivated>Konto pole aktiveeritud.</LoginNotActivated>
+  <LoginResendActivation>Kui sõnum aktiveerimise koodi ei saanud pikka aega, vajuta {0} link uuesti aktiveerimise koodi.</LoginResendActivation>
+  <LoginResendActivationLink>Kirjuta aktiveerimise koodi</LoginResendActivationLink>
+  <LoginResendActivationCode>Vajuta {0} link uuesti aktiveerimise koodi.</LoginResendActivationCode>
+  
+  <ActivateAccountOk>Konto edukalt aktiveeritud!</ActivateAccountOk>
+  <ActivateAccountResultLabel>Aktiveerimine tulemus</ActivateAccountResultLabel>
+  <ActivateAccountErrorOnlyFormsAuth>Konto aktiveerimine võib kasutada ainult Blankettide</ActivateAccountErrorOnlyFormsAuth>
+  <ActivateAccountErrorNotRequired>Konto aktiveerimine on blokeeritud rakenduse seaded. Konto aktiveeritakse automaatselt pärast registreerimist.</ActivateAccountErrorNotRequired>
+  <ActivateAccountErrorAlreadyActivated>Konto on juba aktiveeritud</ActivateAccountErrorAlreadyActivated>
+  <ActivateAccountErrorInvalidCode>Aktiveerimiskood ei ole õige</ActivateAccountErrorInvalidCode>
+  <ActivateAccountErrorAccountNotFound>Konto ei leitud</ActivateAccountErrorAccountNotFound>
+  <ActivateAccountErrorLinkBroken>Aktiveerimise link on katki</ActivateAccountErrorLinkBroken>
+  <ActivateAccountReturnToLogin>Tagasi sisenemise lehele</ActivateAccountReturnToLogin>
+  
+  <LoginRender>muutma</LoginRender>
+  
+  <LogoutTitle>Web failihaldur Logi välja</LogoutTitle>
+  <LogoutSessionEnded>Aktiivne seanss on lõppenud</LogoutSessionEnded>
+  <LogoutCloseWindow>Sulge aken</LogoutCloseWindow>
+  <LogoutEnterAgain>uuesti sisse</LogoutEnterAgain>
+  <LogoutClosingBrowserRequired>Tähelepanu! Igaüks saab sisse logida oma konto! Kui kasutate jagatud arvuti, siis peaks sulgege brauseri aken (mitte ainult alt) selge autentimise teie brauser! Firefox brauseriga saab selgeks autentimise menüü: Tools-&gt; Clear pahaks Ajalugu ...-&gt; Details-&gt; vaadake Aktiivne Logins-&gt; vajutage Clear Now.</LogoutClosingBrowserRequired>
+  <RecoverPasswordTitle>Taasta salasõna</RecoverPasswordTitle>
+  <RecoverPasswordEmailPassword>Saada parool e-posti teel</RecoverPasswordEmailPassword>
+  <RecoverPasswordErrorInvalidUserName>Vale kasutajanimi.</RecoverPasswordErrorInvalidUserName>
+  <RecoverPasswordErrorNoEmail>Sellel kasutajal ei ole e-posti aadress määratletud.</RecoverPasswordErrorNoEmail>
+  <RecoverPasswordErrorSendEmail>Tekkis viga saates oma e-posti.</RecoverPasswordErrorSendEmail>
+  <RecoverPasswordSuccess>Sinu parool on saadetud e-posti aadress.</RecoverPasswordSuccess>
+
+  <RecoverUserNameTitle>Taasta nimi</RecoverUserNameTitle>
+  <RecoverUserEmailName>Saada nime e-posti teel</RecoverUserEmailName>
+  <RecoverUserNameErrorInvalidEmail>Vale kasutaja e-posti.</RecoverUserNameErrorInvalidEmail>
+  <RecoverUserNameErrorNoEmail>E-posti aadress ei leitud.</RecoverUserNameErrorNoEmail>
+  <RecoverUserNameSuccess>Sinu nimi on saadetud e-posti aadress.</RecoverUserNameSuccess>
+
+  <ChangeEmailTitle>Muuda e-maili</ChangeEmailTitle>
+  <ChangeEmailEmail>Uus Email</ChangeEmailEmail>
+  <ChangeEmailSubmit>Esita</ChangeEmailSubmit>
+  <ChangeEmailStatusSuccess>E on muutunud</ChangeEmailStatusSuccess>
+
+  <RegisterTitle>Registreeri</RegisterTitle>
+  <RegisterEmail>E-</RegisterEmail>
+  <RegisterExtraInfo>extra info</RegisterExtraInfo>
+  <RegisterCaptcha>Sisestage tekst, mida näed alloleval pildil</RegisterCaptcha>
+  <RegisterSubmit>Esita</RegisterSubmit>
+  <RegisterErrorPasswordNotMatch>Paroolid ei kattu.</RegisterErrorPasswordNotMatch>
+  <RegisterErrorUserExists>See kasutaja nimi või e-posti aadressi kasutatakse juba.</RegisterErrorUserExists>
+  <RegisterErrorCaptchaInvalid>Pildi Tekst ei tehtud õigesti</RegisterErrorCaptchaInvalid>
+  <RegisterSuccess>Uus kasutaja on lisatud.</RegisterSuccess>
+  <RegisterActivationSent>Aktiveerimiskood saadetud e-posti.</RegisterActivationSent>
+  <RegisterActivationCheckEmail>Palun kontrollige oma e-posti kasti (spetsiaalselt junk kausta) ja järgige juhiseid e-posti.</RegisterActivationCheckEmail>
+  
+  <FolderGridUserPermissionsColumn>Juurdepääs kasutajatele</FolderGridUserPermissionsColumn>
+  <FolderGridGroupPermissionsColumn>Juurdepääs gruppidele</FolderGridGroupPermissionsColumn>
+
+  <LoginLinkText>Logi sisse</LoginLinkText>
+  <RecoverPasswordLinkText>Unustasid parooli?</RecoverPasswordLinkText>
+  <RecoverUserNameLinkText>Unustasid nimi?</RecoverUserNameLinkText>
+  <RegisterLinkText>Registreeri</RegisterLinkText>
+  <ChangeEmail>Muuda e-maili</ChangeEmail>
+  <LoginMobileVersionLinkText>Mobiilne versioon (Enamik nutitelefonid ja hiirte)</LoginMobileVersionLinkText>
+
+  <FileIsNotZipArchive>Fail {0} ei ole ZIP arhiiv</FileIsNotZipArchive>
+
+  <FileModificationsAuthor>autor</FileModificationsAuthor>
+  <FileModificationsHistory>Vaata ajalugu</FileModificationsHistory>
+  <FileModificationsWindowTitle>Muudatused faili "{0}"</FileModificationsWindowTitle>
+  <FileModificationsTypeCreated>Loodud</FileModificationsTypeCreated>
+  <FileModificationsTypeModified>Muudetud</FileModificationsTypeModified>
+  <FileModificationsTypeRenamed>ümbernimetatud</FileModificationsTypeRenamed>
+  <FileModificationsTypeRestored>taastatud</FileModificationsTypeRestored>
+  <FileModificationsTypeDeleted>Kustutatud</FileModificationsTypeDeleted>
+
+  <ChangingReadOnlyProgressMessage>Muutuvad ainult lugemiseks atribuut</ChangingReadOnlyProgressMessage>
+
+  <ImageViewerWindowTitle>Image Viewer [{0}]</ImageViewerWindowTitle>
+  <ImageViewerLoadingMessage>Laadimine pildinäitaja</ImageViewerLoadingMessage>
+  <ImageViewerLoadingImageMessage>Laadimine pilti</ImageViewerLoadingImageMessage>
+  <ImageViewerFirstImageTip>esimene pilt</ImageViewerFirstImageTip>
+  <ImageViewerPreviousImageTip>Eelmine pilt</ImageViewerPreviousImageTip>
+  <ImageViewerRefreshTip>Värskenda pilte nimekirja</ImageViewerRefreshTip>
+  <ImageViewerNextImageTip>Järgmine pilt</ImageViewerNextImageTip>
+  <ImageViewerLastImageTip>Viimane pilt</ImageViewerLastImageTip>
+  <ImageViewerRunSlideShow>Vii Slaidiseansi</ImageViewerRunSlideShow>
+  <ImageViewerStopSlideShow>Peatus pildid Slaidiseansi</ImageViewerStopSlideShow>
+  <ImageViewerImageSimpleInfo>{0} / {1}, {2} ({3})</ImageViewerImageSimpleInfo>
+  <ImageViewerImageLoadErrorMessage>Pilti ei leitud või ei saa kuvada</ImageViewerImageLoadErrorMessage>
+  <ImageViewerShowImageSizeOfWindow>Näita pilti reaalse suurus</ImageViewerShowImageSizeOfWindow>
+  <ImageViewerShowRealImageSize>Pilt suuremalt</ImageViewerShowRealImageSize>
+
+  <PasswordExpiresTitle>parool aegub</PasswordExpiresTitle>
+  <PasswordExpiresMessage>Sinu parool aegub pärast {0} päeva (de)!</PasswordExpiresMessage>
+  <PasswordExpiredMessage>Sinu parool on aegunud.</PasswordExpiredMessage>
+  <PasswordChangeMessage>Parooli muutmiseks valige {0} {1} -&gt; {2} {3} tööriistaribal.</PasswordChangeMessage>
+
+  <UnzipContentTotalFiles>Kokku failid: {0} ({1})</UnzipContentTotalFiles>
+
+  <VideoConversionJobNotFound>
+    Ei saa leida nimetatud protsessi tulemus.
+    Võimalikud põhjused:
+    1. Tulemus lõpetatud juba ammu ja informatsiooni selle töö eemaldati.
+    2. muundamise protsess ebanormaalselt.
+  </VideoConversionJobNotFound>
+  <VideoConversionUtilityNotFound>Ei saa leida kasuliku taotletud toimingut: {0}</VideoConversionUtilityNotFound>
+  <!-- The current security principal "{0}" has insufficiant permissions to executable file "{1}".-->
+  <VideoConversionUtilityInsufficientPermissions>Praegune kasutaja "{0}" on keelatud juurdepääsu käivitatava faili "{1}".</VideoConversionUtilityInsufficientPermissions>
+  <VideoConversionOperationCancelled>operatsioon tühistatud</VideoConversionOperationCancelled>
+  <VideoConversionUtilityFailed>Tulemus kasuliku ebanormaalselt</VideoConversionUtilityFailed>
+  <VideoConversionOutputFileBusy>Output fail on kasutusel teise protsessi tulemus</VideoConversionOutputFileBusy>
+
+  <VideoConvertWindowValidatorPositiveInt>Peab olema positiivne täisarv</VideoConvertWindowValidatorPositiveInt>
+  <VideoConvertWindowTitle>teisendada video</VideoConvertWindowTitle>
+  <VideoConvertWindowInputFile>sisendfail</VideoConvertWindowInputFile>
+  <VideoConvertWindowOutputFile>väljundfaili</VideoConvertWindowOutputFile>
+  <VideoConvertWindowOutputFormat>Output formaadis</VideoConvertWindowOutputFormat>
+  <VideoConvertWindowBitrate>Bitrate (kbps)</VideoConvertWindowBitrate>
+  <VideoConvertWindowFrameResolution>Kaadri resolutsiooni</VideoConvertWindowFrameResolution>
+  <VideoConvertWindowDAR>Näita proportsioon</VideoConvertWindowDAR>
+  <VideoConvertWindowPAR>Pikslite suhe</VideoConvertWindowPAR>
+  <VideoConvertWindowResize>Suuruse</VideoConvertWindowResize>
+  <VideoConvertWindowProfile>profiil</VideoConvertWindowProfile>
+  <VideoConvertWindowWidth>laius</VideoConvertWindowWidth>
+  <VideoConvertWindowHeight>kõrgus</VideoConvertWindowHeight>
+  <VideoConvertWindowExtractDetailsProgressMsg>Taastan video üksikasjad</VideoConvertWindowExtractDetailsProgressMsg>
+  <VideoConvertWindowOutputFileExistsTitle>Väljundfaili olemas</VideoConvertWindowOutputFileExistsTitle>
+  <VideoConvertWindowOutputFileExistsMsg>Output fail on juba olemas. See kirjutatakse üle.</VideoConvertWindowOutputFileExistsMsg>
+  <VideoConvertWindowPrepareToConvert>Ettevalmistused teisendada video</VideoConvertWindowPrepareToConvert>
+  <VideoConvertWindowOutputFileMatchInputFile>Väljundfaili nimi sobib sisend faili nimi</VideoConvertWindowOutputFileMatchInputFile>
+
+  <VideoConvertProgressWindowTitle>teisendada video</VideoConvertProgressWindowTitle>
+  <VideoConvertProgressWindowInputFile>sisendfail</VideoConvertProgressWindowInputFile>
+  <VideoConvertProgressWindowOutputFile>väljundfaili</VideoConvertProgressWindowOutputFile>
+  <VideoConvertProgressWindowStatus>olek</VideoConvertProgressWindowStatus>
+  <VideoConvertProgressWindowStatusTerminating>lõpetamine</VideoConvertProgressWindowStatusTerminating>
+  <VideoConvertProgressWindowStatusPreparing>Ettevalmistused</VideoConvertProgressWindowStatusPreparing>
+  <VideoConvertProgressWindowStatusProgress>Samm {0} {1}</VideoConvertProgressWindowStatusProgress>
+  <VideoConvertProgressWindowStatusDone>tehtud</VideoConvertProgressWindowStatusDone>
+
+  <PlayHtml5VideoNotSupported>Teie brauser ei toeta HTML 5 video element.</PlayHtml5VideoNotSupported>
+  <PlayHtml5VideoPlayFailed>Esita video ei</PlayHtml5VideoPlayFailed>
+  <PlayHtml5AudioPlayFailed>Mängi heli ei</PlayHtml5AudioPlayFailed>
+  <PlayHtml5AudioTitle>pealkiri</PlayHtml5AudioTitle>
+  <PlayHtml5AudioNotSupported>Teie brauser ei toeta HTML 5 audio element.</PlayHtml5AudioNotSupported>
+  <PlayHtml5AudioArtist>kunstnik</PlayHtml5AudioArtist>
+  <PlayHtml5AudioAlbum>album</PlayHtml5AudioAlbum>
+  <PlayHtml5AudioYear>aasta</PlayHtml5AudioYear>
+  <PlayHtml5AudioDuration>kestus</PlayHtml5AudioDuration>
+  <PlayHtml5AudioBitrate>bitrate</PlayHtml5AudioBitrate>
+  <PlayHtml5AudioVolume>maht</PlayHtml5AudioVolume>
+
+  <!-- Root title -->
+  <RootTitle>juur</RootTitle>
+
+  <!-- Recent feature keys -->
+  <RecentRootTitle>hiljutine</RecentRootTitle>
+  <RecentDeleteOnePrompt>Oled sa kindel, et soovid kustutada "{0}" oma viimaste esemed?</RecentDeleteOnePrompt>
+  <RecentDeleteManyPrompt>Oled sa kindel, et soovid kustutada need {0} esemed oma viimaste esemed?</RecentDeleteManyPrompt>
+  <RecentPathNotExist>Hiljutine tee "{0}" ei eksisteeri või juurdepääs on keelatud</RecentPathNotExist>
+  <RecentAllWithoutGroupingTitle>Kõik w / o rühmitades</RecentAllWithoutGroupingTitle>
+  <RecentEditGroupTitle>Muutis</RecentEditGroupTitle>
+  <RecentViewGroupTitle>Vaadatud</RecentViewGroupTitle>
+  <RecentDownloadGroupTitle>allalaetud</RecentDownloadGroupTitle>
+  <RecentUploadGroupTitle>Uploaded</RecentUploadGroupTitle>
+  <RecentCreateGroupTitle>Loodud</RecentCreateGroupTitle>
+
+  <!-- Trash feature keys -->
+  <TrashRootTitle>prügi</TrashRootTitle>
+  <TrashLabelDateDeleted>kuupäev kustutatakse</TrashLabelDateDeleted>
+  <TrashDeleteOnePrompt>Oled sa kindel, et soovid lõplikult kustutada "{0}" Prügikast?</TrashDeleteOnePrompt>
+  <TrashDeleteManyPrompt>Oled sa kindel, et soovid lõplikult kustutada neid {0} teemad prügikasti?</TrashDeleteManyPrompt>
+  <TrashEmptyTrashLabel>Tühjenda prügikast</TrashEmptyTrashLabel>
+  <TrashRestoreSelectedLabel>Taastama</TrashRestoreSelectedLabel>
+  <TrashRestoreAllLabel>Taasta kõik</TrashRestoreAllLabel>
+  <TrashEmptyTrashPrompt>Olete kindel, et soovite tühjendada prügikasti?</TrashEmptyTrashPrompt>
+  <TrashRestoreAllPrompt>Olete kindel, et soovite taastada kõik esemed prügikasti?</TrashRestoreAllPrompt>
+  <TrashProgressRestoring>Taasta Prügikast</TrashProgressRestoring>
+  <TrashFolderNotFound>Trash kataloogis ei leitud</TrashFolderNotFound>
+  <TrashBalloonRestored>Taastatud teemad: {0} {1}</TrashBalloonRestored>
+  <TrashDeleteDirectlyLabel>Kustuta otse eemaldamata prügikasti</TrashDeleteDirectlyLabel>
+  <TrashUsedSpaceHint>{0} kasutatud</TrashUsedSpaceHint>
+  <TrashLimitSizeHint>Kasutatud {0} {1} ({2})</TrashLimitSizeHint>
+  <TrashLargeItemsShelfTimeHint>Hoiuaeg objektid on suurem kui {0}: {1} päevas (s)</TrashLargeItemsShelfTimeHint>
+  <TrashSmallItemsShelfTimeHint>Kõigi teised: {0} päeval (s)</TrashSmallItemsShelfTimeHint>
+  <TrashItemsShelfTimeHint>Hoiuaeg objektid: {0} päeva (s)</TrashItemsShelfTimeHint>
+  <TrashAvailableSpaceHint>Maksimaalne võimalik suurus {0}</TrashAvailableSpaceHint>
+  <TrashDeletedFromFolderHint>Kustutada {0}</TrashDeletedFromFolderHint>
+  <TrashExceededMessage>Järgmised objektid on liiga suur ja ei ole võimalik leida prügikasti (piirang {0} on ületatud):</TrashExceededMessage>
+  <TrashErrorSuffixMessage>Palun proovige kastike "{0}" ja siis kustuta fail (id) igavesti kaugemale ülekanne</TrashErrorSuffixMessage>
+
+  <!-- Shared by link -->
+  <SharedByLinkRootTitle>Jagatud link</SharedByLinkRootTitle>
+
+  <!-- Shared for you -->
+  <SharedForYouRootTitle>Jagatud teiega</SharedForYouRootTitle>
+  <SharedForYouUnableToGetUrl>Ei suuda saada URL</SharedForYouUnableToGetUrl>
+
+  <!-- Watch for modifications -->
+  <WatchForModifsCommand>Vaata muudatuste</WatchForModifsCommand>
+  <WatchForModifsStartCommand>Alusta vaadates</WatchForModifsStartCommand>
+  <WatchForModifsEditCommand>Muuda vaadates</WatchForModifsEditCommand>
+  <WatchForModifsStopCommand>Lõpeta jälgimine</WatchForModifsStopCommand>
+  <WatchForModifsViewChangesCommand>Vaata muudatusi</WatchForModifsViewChangesCommand>
+  <WatchForModifsSubscriptionSuccessMessage>Te olete edukalt tellinud muudatused "{0}"</WatchForModifsSubscriptionSuccessMessage>
+  <WatchForModifsStopSuccessMessage>Seire "{0}" on keelatud edukalt</WatchForModifsStopSuccessMessage>
+  <WatchForModifsIncludingNestedLabel>Mõtle nested faile, kaustu</WatchForModifsIncludingNestedLabel>
+  <WatchForModifsParentWatchExistMessage>Valitud kirje on juba määratud seire emakaustalt "{0}".</WatchForModifsParentWatchExistMessage>
+  <WatchForModifsRootFolder>Teated</WatchForModifsRootFolder>
+  <WatchForModifsStartProgressLoading>Luba vaadates</WatchForModifsStartProgressLoading>
+  <WatchForModifsStopProgressLoading>Terminatie vaadates</WatchForModifsStopProgressLoading>
+  <WatchForModifsIconHint>Lubatud kella muudatusi</WatchForModifsIconHint>
+  <WatchForModifsNotifCheckBox>Teavita muudatusi e-kirju:</WatchForModifsNotifCheckBox>
+  <WatchForModifsWatchedUsersCheckBox>Monitor ainult kasutajatele (jäta tühjaks, kui jälgida kõiki):</WatchForModifsWatchedUsersCheckBox>
+  <WatchForModifsIgnoreOwnerCheckBox>Ignoreeri minu muutused</WatchForModifsIgnoreOwnerCheckBox>
+  <WatchForModifsActionsCheckBox>Järelevalvet kõikide tegevuste (või mõned tegevused allolevast nimekirjast)</WatchForModifsActionsCheckBox>
+  <WatchForModifsNestedItemsWarning>Tähelepanu! Kui lisate järelevalve valitud kausta, kõik suletud faile ja kaustu, mis individuaalse järelevalve on lisatud varem, seire eemaldatakse. Kas soovite jätkata?</WatchForModifsNestedItemsWarning>
+
+  <WelcomeWindowHideCheckboxLabel>Ära näita seda järgmisel metsaraie</WelcomeWindowHideCheckboxLabel>
+
+  <LogsGridMoreInfoColumn>Rohkem infot</LogsGridMoreInfoColumn>
+  <LogsGridDetailsTitle>detailid</LogsGridDetailsTitle>
+  <LogsGridPhysPathColumn>Füüsiline tee</LogsGridPhysPathColumn>
+  <LogsGridIsFolderColumn>Kaust?</LogsGridIsFolderColumn>
+  <LogsGridIsPublicColumn>Avalik?</LogsGridIsPublicColumn>
+  <LogsGridByWebDavColumn>WebDAV?</LogsGridByWebDavColumn>
+
+  <NoCommentsYetHint>Pole veel kommentaare</NoCommentsYetHint>
+  <NoHistoryYetHint>Ei ajalugu veel</NoHistoryYetHint>
+
+  <DetailsPropertyValuesCouldNotBeWritten>Salvestamine nurjus väärtustel, Mabe failitüüpi ei toeta sellist võimalust või on viga taotluses failiga seotud.</DetailsPropertyValuesCouldNotBeWritten>
+
+  <AdminCommandHelp>aitama</AdminCommandHelp>
+  <AdminCommandAddUser>Lisa kasutaja</AdminCommandAddUser>
+  <AdminCommandAddGroup>Lisa grupp</AdminCommandAddGroup>
+  <AdminCommandRemoveUser>Eemalda kasutaja</AdminCommandRemoveUser>
+
+  <AdminCommandSelectUsers>Lisa kasutajatele</AdminCommandSelectUsers>
+  <AdminCommandSelectGroups>Lisa rühmad</AdminCommandSelectGroups>
+  <AdminCommandRemoveUsers>Eemalda kasutajad</AdminCommandRemoveUsers>
+  <AdminCommandRemoveGroups>Eemalda rühmad</AdminCommandRemoveGroups>
+  <AdminUsersGroups>Liige</AdminUsersGroups>
+  <AdminSearchUserEmptyText>Sisestage kasutajanime</AdminSearchUserEmptyText>
+  <AdminSearchGroupEmptyText>Sisestage rühma nimi</AdminSearchGroupEmptyText>
+  <AdminUsersGroupAlreadyExists>Rühm (s) selle nimega (s) on juba lisatud</AdminUsersGroupAlreadyExists>
+
+  <AdminApplicationLoading>Admin paneel laadimist</AdminApplicationLoading>
+  <AdminTitle>haldus</AdminTitle>
+  <AdminUsersEditUser>Muuda kasutaja</AdminUsersEditUser>
+  <AdminUsersSetUserPassword>Määra parool</AdminUsersSetUserPassword>
+  <AdminUsersViewGroups>Vaata rühmad</AdminUsersViewGroups>
+  <AdminUsersViewFolders>Vaata kaustad</AdminUsersViewFolders>
+  <AdminUsersDeleteUserPrompt>Oled sa kindel, et soovid eemaldada kasutaja (t) "{0}"?</AdminUsersDeleteUserPrompt>
+  <AdminUsersDeletedUsers>{0} kasutaja (te) välja jäetud.</AdminUsersDeletedUsers>
+  <AdminUsersUserNotFound>Kasutaja seda nime ei leitud</AdminUsersUserNotFound>
+  <AdminUsersPropertiesTitle>Kasutaja omadused</AdminUsersPropertiesTitle>
+  <AdminUsersSetPasswordTitle>Määra parool</AdminUsersSetPasswordTitle>
+  <AdminUsersGeneralInfo>Kasutaja info</AdminUsersGeneralInfo>
+  <AdminUsersUserEmail>E-</AdminUsersUserEmail>
+  <AdminUsersEmptyName>Kasutaja nimi ei saa olla tühi</AdminUsersEmptyName>
+  <AdminUsersEmptyPassword>Kasutaja parooli ei saa olla tühi</AdminUsersEmptyPassword>
+  <AdminUsersIncorrectName>On vale sümbolid kasutajanime</AdminUsersIncorrectName>
+  <AdminUsersAlreadyExists>Kasutaja selle nimi on juba olemas</AdminUsersAlreadyExists>
+  <AdminUsersEmailAlreadyExists>Kasutaja seda e-posti on juba olemas</AdminUsersEmailAlreadyExists>
+  <AdminUsersPasswordsNotMatch>Paroolid ei kattu</AdminUsersPasswordsNotMatch>
+  <AdminUsersRenameWarning>Pärast ümbernimetamine kasutaja on vaja vahetada parooli, vastasel praeguse veebi-kaustad link on vale</AdminUsersRenameWarning>
+  <AdminUsersLicenseRestriction>Teie litsents ei võimalda teil luua rohkem kui {0} kasutajad</AdminUsersLicenseRestriction>
+  <AdminUsersCountInfoWithLimit>Kasutajaid kokku: {0} välja {1}</AdminUsersCountInfoWithLimit>
+  <AdminUsersCountInfo>Kasutajaid kokku: {0}</AdminUsersCountInfo>
+
+  <AdminGroupsEditGroup>Muuda rühma</AdminGroupsEditGroup>
+  <AdminGroupsRemoveGroup>Eemalda grupp</AdminGroupsRemoveGroup>
+  <AdminGroupsDeleteGroupPrompt>Oled sa kindel, et soovid eemaldada rühma (de) "{0}"?</AdminGroupsDeleteGroupPrompt>
+  <AdminGroupsDeletedGroups>{0} (de) välja jäetud.</AdminGroupsDeletedGroups>
+  <AdminGroupsGroupNotFound>Rühm seda nime ei leitud</AdminGroupsGroupNotFound>
+  <AdminGroupsViewUsers>Vaata kasutajad</AdminGroupsViewUsers>
+  <AdminGroupsProperties>omadused</AdminGroupsProperties>
+  <AdminGroupsPropertiesTitle>Grupi omadused</AdminGroupsPropertiesTitle>
+  <AdminGroupsGeneralInfo>Grupi info</AdminGroupsGeneralInfo>
+  <AdminGroupsUserNamePrompt>Sisesta kasutajatunnus</AdminGroupsUserNamePrompt>
+  <AdminGroupsUsers>Grupi liikmed</AdminGroupsUsers>
+  <AdminGroupsUserAlreadyExists>Kasutaja (s) selle nimega (s) on juba lisatud</AdminGroupsUserAlreadyExists>
+  <AdminGroupsEmptyName>Grupi nimi ei saa olla tühi</AdminGroupsEmptyName>
+  <AdminGroupsIncorrectName>On vale sümbolid grupi nimi</AdminGroupsIncorrectName>
+  <AdminGroupsAlreadyExists>Rühm Selle nime all on juba olemas</AdminGroupsAlreadyExists>
+  <AdminGroupsCountInfo>Kokku rühma: {0}</AdminGroupsCountInfo>
+
+  <AdminLanguagesTab>lokaliseerimised</AdminLanguagesTab>
+  <AdminLanguagesTabMessage>Selleks, et muuta lokaliseerimine faili, valige soovitud keel loendist, klõpsake lokaliseeritud stringid muuta. Pärast muudatuste klõpsake nuppu "Salvesta"</AdminLanguagesTabMessage>
+  <AdminLangGridKeyColumn>Key nimi</AdminLangGridKeyColumn>
+  <AdminLangGridDefaultColumn>Inglise</AdminLangGridDefaultColumn>
+  <AdminEnterLanguageNameTitle>Sisesta keeles nime</AdminEnterLanguageNameTitle>
+  <AdminLangConfirmRefreshTitle>Värskenda kinnitavad</AdminLangConfirmRefreshTitle>
+  <AdminLangConfirmRefreshMessage>Tähelepanu! Andmeid ei salvestata. Kas soovid muudatused salvestada nüüd?</AdminLangConfirmRefreshMessage>
+  <AdminLangAmountInfo>Täidetud klahvid: {0} {1} (nullproovidega: {2})</AdminLangAmountInfo>
+  <AdminLangSaveToCSV>Ekspordi CSV</AdminLangSaveToCSV>
+  <AdminLangLoadFromCSV>Load CSV</AdminLangLoadFromCSV>
+
+  <AdminDbMaintenanceTab>DB hooldus</AdminDbMaintenanceTab>
+  <AdminDbMaintenanceInfoTitle>Info</AdminDbMaintenanceInfoTitle>
+  <AdminDbMaintenanceInfoPathLabel>DB faili tee</AdminDbMaintenanceInfoPathLabel>
+  <AdminDbMaintenanceInfoSizeLabel>DB faili suurus</AdminDbMaintenanceInfoSizeLabel>
+  <AdminDbMaintenanceCompactTitle>kompaktne Database</AdminDbMaintenanceCompactTitle>
+  <AdminDbMaintenanceCompactNote>Selleks, et vähendada suurus andmebaasi faili, klõpsake allolevale nupule. On vaja teostada kompressiooni andmebaasi perioodiliselt, kuna näiteks eemaldamise järel mõned mitteaktiivsed avaliku lingid või vana log salvestab DB faili suurus ei vähene.</AdminDbMaintenanceCompactNote>
+  <AdminDbMaintenanceCompactButton>kompaktne DB</AdminDbMaintenanceCompactButton>
+  <AdminDbMaintenanceCompactSuccess>DB edukalt tihendada.
+Vana faili suurus: {0}
+Uus faili suurus: {1}</AdminDbMaintenanceCompactSuccess>
+  <AdminDbMaintenanceCompactAutoNote>Võite sisse lülitada automaatse compression andmebaasi pärast eemaldamist arvestust tegevuse, aga see ei ole soovitatav, sest see võibolla sagedamini lukud põhja ja see võib suurendada kestuse mõned taotlused. Tähelepanu! Pärast muutmist selle sätte kohaldamist alustatakse uuesti!</AdminDbMaintenanceCompactAutoNote>
+  <AdminDbMaintenanceCompactAutoCheckBox>Luba / keela automaatne kompaktne DB</AdminDbMaintenanceCompactAutoCheckBox>
+  <AdminDbMaintenanceCompactAutoSaveButton>Salvesta</AdminDbMaintenanceCompactAutoSaveButton>
+  <AdminDbMaintenanceCompactAutoSaveSuccess>Muutumise DB automaatne сompression on edukalt lõpule viidud. Lehte uuendatakse lähiajal.</AdminDbMaintenanceCompactAutoSaveSuccess>
+  <AdminDbMaintenanceEnableLogLabel>Vali DB päringu logimise taseme (arvesse Andmed / debug.log)</AdminDbMaintenanceEnableLogLabel>
+  <AdminDbMaintenanceSettingsSaveSuccess>DB on edukalt salvestatud. Lehe taaslaadimine</AdminDbMaintenanceSettingsSaveSuccess>
+  <AdminDbMaintenanceSettingsChangeNote>Tähelepanu! Pärast salvestamist seaded rakendus taaskäivitada varsti!</AdminDbMaintenanceSettingsChangeNote>
+  <AdminDbMaintenanceInsertIntervalLabel>Intervall (minutites) lisada sündmusi DB. Kui määrate 0, sisestamise ilmub otse pärast sündmusi.</AdminDbMaintenanceInsertIntervalLabel>
+  <AdminDbMaintenanceAdvDbParamsTitle>Täpsem DB ühenduse parameetrid</AdminDbMaintenanceAdvDbParamsTitle>
+  <AdminDbMaintenanceStatTitle>Statistika (sõltub DB logimise tase DurationExecution)</AdminDbMaintenanceStatTitle>
+  <AdminDbMaintenanceStatDurationReadLabel>Keskm lugemise timeout</AdminDbMaintenanceStatDurationReadLabel>
+  <AdminDbMaintenanceStatDurationWriteLabel>Keskm kirjalikult timeout</AdminDbMaintenanceStatDurationWriteLabel>
+  <AdminDbMaintenanceStatDurationCompactLabel>Keskm kompaktne timeout</AdminDbMaintenanceStatDurationCompactLabel>
+  <AdminDbMaintenanceStatNoData>andmed puuduvad</AdminDbMaintenanceStatNoData>
+  <AdminDbMaintenanceStatGetButton>Koguge statistikat</AdminDbMaintenanceStatGetButton>
+
+  <AdminMiscTab>Muu</AdminMiscTab>
+  <AdminMiscLoadADAccountsTitle>Laadige Active Directory kontod</AdminMiscLoadADAccountsTitle>
+  <AdminMiscLoadADAccountsLoadButton>koormus</AdminMiscLoadADAccountsLoadButton>
+  <AdminMiscLoadADAccountsResetButton>lähtestama</AdminMiscLoadADAccountsResetButton>
+  <AdminMiscLoadADAccountsLdap>lDAP konteiner</AdminMiscLoadADAccountsLdap>
+  <AdminMiscLoadADAccountsToFile>esitada</AdminMiscLoadADAccountsToFile>
+  <AdminMiscLoadADAccountsSuccessMessage>Active Directory kontod edukalt laaditud</AdminMiscLoadADAccountsSuccessMessage>
+  <AdminMiscLoadADAccountsInfo>Siin saab luua fail, mis sisaldab kogu Active Directory kasutajad struktuuri. See fail on vajalik, kui te kasutate staatiline fail AD info säilitamine. Sama faili saab tootsid ADManager kasulikkust. Täpsemat infot vaata &lt;b&gt; ADAccountsFilePath &lt;/b&gt; parameetri kirjeldus {0} Käsitsi {1}.</AdminMiscLoadADAccountsInfo>
+
+  <AdminMiscManageQuotasTitle>Manage kvoote</AdminMiscManageQuotasTitle>
+  <AdminMiscManageQuotasInfo>Päring, olemasolevatele või luua uue kvoodiaasta piirata ruumi lubatud kausta, powered by File Server Resource Manager.</AdminMiscManageQuotasInfo>
+  <AdminMiscManageQuotasFolderPath>kausta tee</AdminMiscManageQuotasFolderPath>
+  <AdminMiscManageQuotasQuota>kvoot</AdminMiscManageQuotasQuota>
+  <AdminMiscManageQuotasGetQuota>saada kvooti</AdminMiscManageQuotasGetQuota>
+  <AdminMiscManageQuotasSetQuota>Määra kvoodi</AdminMiscManageQuotasSetQuota>
+
+  <AdminMiscFoldersFromGPOLTitle>Load kaustad Group Policy</AdminMiscFoldersFromGPOLTitle>
+  <AdminMiscFoldersFromGPOLComputerName>Arvuti nimi</AdminMiscFoldersFromGPOLComputerName>
+  <AdminMiscFoldersFromGPOLFilePath>Faili teekond</AdminMiscFoldersFromGPOLFilePath>
+  <AdminMiscFoldersFromGPOLMoreInfoLink>Rohkem infot</AdminMiscFoldersFromGPOLMoreInfoLink>
+  <AdminMiscFoldersFromGPOLResetButton>lähtestama</AdminMiscFoldersFromGPOLResetButton>
+  <AdminMiscFoldersFromGPOLLoadButton>koormus</AdminMiscFoldersFromGPOLLoadButton>
+  <AdminMiscFoldersFromGPOLFromDC>DC</AdminMiscFoldersFromGPOLFromDC>
+  <AdminMiscFoldersFromGPOLFromFile>Failist</AdminMiscFoldersFromGPOLFromFile>
+  <AdminMiscFoldersTargetLabel>Importida kasutajad / grupid tingimused ...</AdminMiscFoldersTargetLabel>
+  <AdminMiscFoldersTargetFilter>filter</AdminMiscFoldersTargetFilter>
+  <AdminMiscFoldersTargetPermission>luba</AdminMiscFoldersTargetPermission>
+  <AdminMiscFoldersFromGPOLSuccessMessage>Kaustad on edukalt laaditud. &lt;br /&gt; Uus: {0}, uuendatud: {1}.</AdminMiscFoldersFromGPOLSuccessMessage>
+  <AdminMiscFoldersFromGPOLInfo>Võite laadida (või uuendada) kaustaloendi rühmareegli Drive Mapping seaded Domain Controller. Valdkonnas alla saab sisestada arvuti nimi, kust rühmapoliitika laetakse (või kui tühjaks jätta, siis praeguse domeeni kasutatakse), või tee, esitama ühendatud kettad seaded.</AdminMiscFoldersFromGPOLInfo>
+
+  <AdminAnonymFoldersTab>Anonymous kaustad</AdminAnonymFoldersTab>
+  <AdminAnonymFoldersDeleteFolderPrompt>Oled sa kindel, et soovid eemaldada {0} valitud anonüümne kaustad?</AdminAnonymFoldersDeleteFolderPrompt>
+  
+  <AdminAnonymFoldersDescription>Ühiskaustad / failid - need on kaustad / failid, mis ei nõua kasutaja autentimine *, mis tähendab, et nad on olemas kõigile külastajatele * (kui neil on link). Kõik kasutajad saavad luua sellised kaustad / failid menüüst "Jaga ja rarr; Looge avalik link". Kuid ühiskaustadest võib olla piiratud õigused: üleslaadimise, allalaadimise faile / kaustu nimekirja. Allpool on tabelis linke jagatud kaustad / failid on loodud kasutajatele. Töötada avaliku lingid funktsioon õigesti olla kindel, et käitleja \ Anonymousdownload.ashx võimaldab anonüümne juurdepääs IIS. Te võite vaadata seda &lt;a target="_blank" href="{0}"&gt; Diagnostika &lt;/a&gt; lehel. Veenduge, et anonüümne kasutaja konto määratud Händlerid \ Anonymousdownload.ashx on NTFS lugemise / kirjutamise õigused ühiskaustadest / failid. &lt;br /&gt; * &amp;nbsp; &amp;mdash; &amp;nbsp; Kui te ei täpsusta kasutajate jaoks, kes alles on juurdepääs lubatud.</AdminAnonymFoldersDescription>
+  <AdminAnonymFoldersLinkOwnerColumn>omanik</AdminAnonymFoldersLinkOwnerColumn>
+  <AdminAnonymFoldersEmailsColumn>Kirjad teavitamise</AdminAnonymFoldersEmailsColumn>
+  <AdminAnonymFoldersAccessForUsersColumn>Juurdepääs kasutajatele</AdminAnonymFoldersAccessForUsersColumn>
+  <AdminAnonymFoldersPersonalMessageColumn>Isiklik teade</AdminAnonymFoldersPersonalMessageColumn>
+  <AdminAnonymFoldersOverwriteOnUploadHint> (Ülekirjutamise: {0})</AdminAnonymFoldersOverwriteOnUploadHint>
+  <AdminAnonymFoldersRootPathColumn>root tee</AdminAnonymFoldersRootPathColumn>
+  <AdminAnonymFoldersKeysColumn>võtmed</AdminAnonymFoldersKeysColumn>
+  <AdminAnonymFoldersShortColumn>lühike link</AdminAnonymFoldersShortColumn>
+  <AdminAnonymFoldersPropertiesTitle>Anonymous kausta omadused</AdminAnonymFoldersPropertiesTitle>
+  <AdminAnonymFoldersAdditionalInfo>Lisainformatsioon</AdminAnonymFoldersAdditionalInfo>
+  <AdminAnonymFoldersLinkLabel>Link juurdepääsu</AdminAnonymFoldersLinkLabel>
+  <AdminAnonymFoldersPathNotSpecified>Füüsiline tee ei ole valitud</AdminAnonymFoldersPathNotSpecified>
+  <AdminAnonymFoldersCreatedForColumn>eesmärk</AdminAnonymFoldersCreatedForColumn>
+
+  <AdminFoldersTab>kaustad</AdminFoldersTab>
+  <AdminFoldersAddFolder>Lisa kaust</AdminFoldersAddFolder>
+  <AdminFoldersEditFolder>Muuda kausta</AdminFoldersEditFolder>
+  <AdminFoldersRemoveFolder>Eemalda kaust</AdminFoldersRemoveFolder>
+  <AdminFoldersDeleteFolderPrompt>Oled sa kindel, et soovid eemaldada kaust "{0}"?</AdminFoldersDeleteFolderPrompt>
+  <AdminFoldersFolderNotFound>Kaust seda nime ei leitud</AdminFoldersFolderNotFound>
+  <AdminFoldersPropertiesTitle>Folder omadused</AdminFoldersPropertiesTitle>
+  <AdminFoldersGeneralInfo>Üldine informatsioon</AdminFoldersGeneralInfo>
+  <AdminFoldersFolderRemoteWarningForms>Märge! Seda kausta eemalt jagada. Saate {0} FAQ: kuidas jagada Võrgukataloogide {1}</AdminFoldersFolderRemoteWarningForms>
+  <AdminFoldersFolderRemoteWarningWin>Märge! Seda kausta eemalt jagada. Saate peita mõned kaustad / failid, kui kasutajad ei pea õigused neid lugeda. Vaata {0} FAQ: kuidas peita failid / kaustad, et kasutaja ei pea õigusi lugeda {1}</AdminFoldersFolderRemoteWarningWin>
+  <AdminFoldersFolderPath>Füüsiline tee</AdminFoldersFolderPath>
+  <AdminFoldersLocationPath>asukoht</AdminFoldersLocationPath>
+  <AdminFoldersFolderCreate>Loo kaust</AdminFoldersFolderCreate>
+  <AdminFoldersFolderCreateProcess>kausta loomine</AdminFoldersFolderCreateProcess>
+  <AdminFoldersFolderCreateContainsPattern>Kaust ei saa luua, sest see sisaldab muster</AdminFoldersFolderCreateContainsPattern>
+  <AdminFoldersFolderCreateSuccessfully>Kausta "{0}" on edukalt loodud.</AdminFoldersFolderCreateSuccessfully>
+  <AdminFoldersFolderOptional> (Ei ole kohustuslik)</AdminFoldersFolderOptional>
+  <AdminFoldersFolderLimitations>piirangud</AdminFoldersFolderLimitations>
+  <AdminFoldersFolderDescription>kirjeldus</AdminFoldersFolderDescription>
+  <AdminFoldersFolderQuota>kvoot</AdminFoldersFolderQuota>
+  <AdminFoldersFolderQuotaHint>Päring, olemasolevatele või luua uue kvoodiaasta piirata ruumi lubatud kausta, powered by File Server Resource Manager.</AdminFoldersFolderQuotaHint>
+  <AdminFoldersFolderQuotaMoreInfoLink>Rohkem infot</AdminFoldersFolderQuotaMoreInfoLink>
+  <AdminFoldersPermissions>reeglid</AdminFoldersPermissions>
+  <AdminFoldersPermissionsFor>Õigused {0}</AdminFoldersPermissionsFor>
+  <AdminFoldersUsersGroups>Kasutajad ja grupid</AdminFoldersUsersGroups>
+  <AdminFoldersAccessControl>juurdepääsu kontroll</AdminFoldersAccessControl>
+  <AdminFoldersCreate>looma</AdminFoldersCreate>
+  <AdminFoldersDelete>kustutama</AdminFoldersDelete>
+  <AdminFoldersRename>Nimeta</AdminFoldersRename>
+  <AdminFoldersUpload>Laadi üles</AdminFoldersUpload>
+  <AdminFoldersDownload>Lae alla</AdminFoldersDownload>
+  <AdminFoldersZipDownload>Zip ja lae</AdminFoldersZipDownload>
+  <AdminFoldersZip>tõmblukk</AdminFoldersZip>
+  <AdminFoldersUnzip>Paki zip</AdminFoldersUnzip>
+  <AdminFoldersCut>lõigatud</AdminFoldersCut>
+  <AdminFoldersCopy>koopia</AdminFoldersCopy>
+  <AdminFoldersListFiles>Näita faile</AdminFoldersListFiles>
+  <AdminFoldersListFolders>Näita kaustad</AdminFoldersListFolders>
+  <AdminFoldersModify>Muutma</AdminFoldersModify>
+  <AdminFoldersBulkMailing>masspostitus</AdminFoldersBulkMailing>
+  <AdminFoldersAnonymViewContent>Faililoendi kaudu avaliku link</AdminFoldersAnonymViewContent>
+  <AdminFoldersAnonymDownload>Lae kaudu avaliku link</AdminFoldersAnonymDownload>
+  <AdminFoldersAnonymUpload>Lae kaudu avaliku link</AdminFoldersAnonymUpload>
+  <AdminFoldersWatch>Watch</AdminFoldersWatch>
+  <AdminFoldersDescription>Saate lisada kaustu või muutma olemasolevaid kaustu, kui kasutad kõvakettad kell Group poliitikat. Täpsemalt vaata {0} Abi {1}.</AdminFoldersDescription>
+
+  <AdminFoldersPermissionsForRegex>Võite kasutada ka tavalise ilmega. Palun sisesta &lt;b&gt; {0} &lt;/b&gt; alguses valdkonnas üle ja siis regulaaravaldise, näiteks:</AdminFoldersPermissionsForRegex>
+  <AdminFoldersPermissionsForRegexUsers>{0} (juurdepääsuteed iga kasutaja) &lt;br /&gt; {1} (see regulaaravaldise tähendab kaks kasutajat: juku ja Mike)</AdminFoldersPermissionsForRegexUsers>
+  <AdminFoldersPermissionsForRegexGroups>{0} (juurdepääsuteed suvalises grupis) &lt;br /&gt; {1} (see regulaaravaldise tähendab kõik rühmad "Õpilased" oma nimes)</AdminFoldersPermissionsForRegexGroups>
+
+  <AdminFoldersListRestrictions>Piirangud ekraan</AdminFoldersListRestrictions>
+  <AdminFoldersCreateRestrictions>Piirangud faili loomine</AdminFoldersCreateRestrictions>
+  <AdminFoldersRestrictionAllow>Lubama</AdminFoldersRestrictionAllow>
+  <AdminFoldersRestrictionDeny>eitama</AdminFoldersRestrictionDeny>
+  <AdminFoldersRestrictionExtensions>Extensions</AdminFoldersRestrictionExtensions>
+  <AdminFoldersUserNamePrompt>Sisesta kasutajatunnus</AdminFoldersUserNamePrompt>
+  <AdminFoldersUserNameEmptyText>Vali kasutajanime</AdminFoldersUserNameEmptyText>
+  <AdminFoldersUserNameNotSelected>Sa pead valima kasutajanime</AdminFoldersUserNameNotSelected>
+  <AdminFoldersUserAlreadyExists>See kasutaja on juba määratud kausta</AdminFoldersUserAlreadyExists>
+  <AdminFoldersGroupNamePrompt>Sisesta grupi nimi</AdminFoldersGroupNamePrompt>
+  <AdminFoldersGroupNameEmptyText>Vali rühm nime</AdminFoldersGroupNameEmptyText>
+  <AdminFoldersGroupNameNotSelected>Sa pead valima rühma nimi</AdminFoldersGroupNameNotSelected>
+  <AdminFoldersGroupAlreadyExists>See rühm on juba määratud kausta</AdminFoldersGroupAlreadyExists>
+  <AdminFoldersEmptyName>Kausta nimi ei tohi olla tühi</AdminFoldersEmptyName>
+  <AdminFoldersEmptyPath>Kausta tee ei saa olla tühi</AdminFoldersEmptyPath>
+  <AdminFoldersIncorrectName>On vale sümbolid kausta nime</AdminFoldersIncorrectName>
+  <AdminFoldersAlreadyExists>Kaust selle nimi ja asukoht on juba olemas</AdminFoldersAlreadyExists>
+  <AdminFoldersSharesButton>olemasolevate aktsiate</AdminFoldersSharesButton>
+  <AdminFoldersTestAccessButton>Test juurdepääsu</AdminFoldersTestAccessButton>
+  <AdminFoldersTestIndexingButton>Test indekseerimine</AdminFoldersTestIndexingButton>
+  <AdminFoldersShareNameTitle>olemasolevate aktsiate</AdminFoldersShareNameTitle>
+  <AdminFoldersShareNameEmptyText>Vali osakaal</AdminFoldersShareNameEmptyText>
+  <AdminFoldersShareNameNotSelected>Sa pead valima osakaal</AdminFoldersShareNameNotSelected>
+  <AdminFoldersGetQuotaButton>saada kvooti</AdminFoldersGetQuotaButton>
+  <AdminFoldersSetQuotaButton>Määra kvoodi</AdminFoldersSetQuotaButton>
+  <AdminCommonFilterField>filter</AdminCommonFilterField>
+  <AdminCommonValidateField>kinnitama</AdminCommonValidateField>
+  <AdminFoldersRootNameUsed>Palun kasutage teise kausta nimi asemel "{0}"</AdminFoldersRootNameUsed>
+  <AdminFoldersFolderFilterSuccess>Kinnita filtri toimus edukalt</AdminFoldersFolderFilterSuccess>
+
+  <AdminTestAccessGoodResult>Kausta "{0}" on olemas ja saab lugeda.</AdminTestAccessGoodResult>
+  <AdminTestAccessBadResult>Kausta "{0}" ei ole olemas või pole NTFS lugeda õigusi või puudub juurdepääs võrgule taotluse identiteet!</AdminTestAccessBadResult>
+  <AdminTestAccessErrorResult>Viga ligipääsu kontrollimisel kausta "{0}": {1}</AdminTestAccessErrorResult>
+  <AdminTestIndexingErrorResult>Viga kontrollimise indekseerimine kaust "{0}":
+{1}</AdminTestIndexingErrorResult>
+  <AdminTestIndexingYesResult>Kataloog "{0}" on indekseeritud</AdminTestIndexingYesResult>
+  <AdminTestIndexingNoResult>Kataloog "{0}" ei ole indekseeritud</AdminTestIndexingNoResult>
+  <AdminTestIndexingUnknownResult>Ei saa määrata, kui kataloog "{0}" on indekseeritud.</AdminTestIndexingUnknownResult>
+  <AdminTestIndexingAddIfNotIndexed>Kas soovite lisada selle kausta indekseerimine, kui see on indekseeritud veel?</AdminTestIndexingAddIfNotIndexed>
+  <ProgressTestAccess>kontroll juurdepääsu</ProgressTestAccess>
+  <ProgressTestIndexing>kontroll indekseerimine</ProgressTestIndexing>
+  <AdminHowToIndexingLocationLink>Selleks, et indeks kausta, vaadake spikrit {0}</AdminHowToIndexingLocationLink>
+
+  <AdminUsersListAll>Kõik kasutajad</AdminUsersListAll>
+  <AdminUsersListDACL>Kasutajad ACL</AdminUsersListDACL>
+  <AdminGroupsListAll>Kõik rühmad</AdminGroupsListAll>
+  <AdminGroupsListDACL>Grupid alates ACL</AdminGroupsListDACL>
+  <AdminDACLStringLabel>ACL õigusi</AdminDACLStringLabel>
+
+  <AdminCommonCustomField>kohandatud väli</AdminCommonCustomField>
+  <AdminCommonSettingsChangeWarning>Muudatused jõustuvad pärast uuesti login (või pärast hakata uuesti WebDav juurdepääs).</AdminCommonSettingsChangeWarning>
+
+  <AdminCommonAllowedFoldersPathsTitle>Lubatud kaustatees</AdminCommonAllowedFoldersPathsTitle>
+  <AdminCommonNotAllowedFolderPath>Saate luua juurdepääs ainult need kaustad või alamkaustad: {0}</AdminCommonNotAllowedFolderPath>
+
+  <AdminLogsTab>Logi</AdminLogsTab>
+
+  <AdminSettingsTab>Seaded</AdminSettingsTab>
+
+  <AdminLogsErrorsTab>Logi vigu</AdminLogsErrorsTab>
+  <AdminLogsErrorsClearBtn>selge</AdminLogsErrorsClearBtn>
+  <AdminLogsErrorsClearUsersCountExceededBtn>Clear kirjed vigu kasutajate ületavad koguse piir</AdminLogsErrorsClearUsersCountExceededBtn>
+
+  <AdminFoldersCreateHint>Luba / Keela tegevuste menüüst "New": uue faili, uue kausta uus pilt, uus dokument faile.</AdminFoldersCreateHint>
+  <AdminFoldersDeleteHint>Luba / Keela kustutamist olemasolevate failide ja kaustade</AdminFoldersDeleteHint>
+  <AdminFoldersRenameHint>Luba / Keela ümbernimetamine olemasolevaid faile ja kaustu</AdminFoldersRenameHint>
+  <AdminFoldersUploadHint>Luba / Keela failide saatmisel funktsioon (Upload nuppu tööriistaribal)</AdminFoldersUploadHint>
+  <AdminFoldersDownloadHint>Luba / Keela "alla", "Vaata / Muuda", laadida pilve hoidlates jms tegevused</AdminFoldersDownloadHint>
+  <AdminFoldersZipDownloadHint>Luba / Keela "suruma ja alla laadida" tegevus</AdminFoldersZipDownloadHint>
+  <AdminFoldersZipHint>Luba / Keela "tihendamine zip arhiiv" tegevus</AdminFoldersZipHint>
+  <AdminFoldersUnzipHint>Luba / Keela "Väljavõte praeguse kausta", "Väljavõte uude kausta" ja "Zip sisu" tegevused</AdminFoldersUnzipHint>
+  <AdminFoldersCutHint>Luba / Keela lõigatud olemasolevaid faile ja kaustu tegevus</AdminFoldersCutHint>
+  <AdminFoldersCopyHint>Luba / Keela koopia olemasolevaid faile ja kaustu tegevus</AdminFoldersCopyHint>
+  <AdminFoldersListFilesHint>Luba / Keela failide nimekirjas</AdminFoldersListFilesHint>
+  <AdminFoldersListFoldersHint>Luba / Keela loetletakse kaustad</AdminFoldersListFoldersHint>
+  <AdminFoldersModifyHint>Luba / Keela muuta faile (kõik meetmed, mida saab muuta olemasoleva faili sisu)</AdminFoldersModifyHint>
+  <AdminFoldersBulkMailingHint>Luba / Keela masspostitus gruppidele</AdminFoldersBulkMailingHint>
+  <AdminFoldersAnonymViewContentHint>Luba / Keela failide nimekirja anonüümsed kasutajad (via avalik lingid)</AdminFoldersAnonymViewContentHint>
+  <AdminFoldersAnonymDownloadHint>Luba / Keela faile alla laadida anonüümse kasutajad (avaliku lingid)</AdminFoldersAnonymDownloadHint>
+  <AdminFoldersAnonymUploadHint>Luba / Keela faile üles laadida anonüümse kasutajad (avaliku lingid)</AdminFoldersAnonymUploadHint>
+  <AdminFoldersWatchHint>Luba / Keela kasutajatel jälgida muutusi kausta teiste kasutajate loodud (seda rakendatakse ainult siis, kui UI / AllowUsersmonitorModifications = true)</AdminFoldersWatchHint>
+  <AdminFoldersListRestrictionsHint>Siin saab määrata faili nimekirja. Vajuta "Keela" nupp peita failid määratud laiendid. Sisestage keelatud laiendid eraldades need komadega (nt "EXE, BAT, COM"). Määra "Luba" nupp ja lisada laiendusi failid, mis kuvatakse (nt "DOC, PDF, JPG").</AdminFoldersListRestrictionsHint>
+  <AdminFoldersCreateRestrictionsHint>See funktsioon on sarnane "List piirangud", kuid ta kontrollib failide üleslaadimiseks, zip kaevandamise, luues uusi faile. Võite keelata või lubada üleslaadimiseks määratud faili.</AdminFoldersCreateRestrictionsHint>
+  <AdminFoldersGeneralInfoHint>Tüüp olemasoleva kausta tee ja varjunimi. Vajuta nuppu Help allosas rohkem infot.</AdminFoldersGeneralInfoHint>
+  <AdminFoldersUsersGroupsHint>Valige või trükkige Kasutajad ja rühmad jagada kaust neile. Vajuta nuppu Help allosas rohkem infot.</AdminFoldersUsersGroupsHint>
+
+  <AdminUserFoldersButtonTitle>Test aktsiate nimekirja</AdminUserFoldersButtonTitle>
+  <AdminUserFoldersWindowTitle>Kasutaja kaustad</AdminUserFoldersWindowTitle>
+  <AdminUserFoldersLabel>Kaustapaneelis kasutajale '{0}':</AdminUserFoldersLabel>
+  
+  <AdminPermissionsTab>admin õigused</AdminPermissionsTab>
+  <AdminPermissionsPrivilege>privileeg</AdminPermissionsPrivilege>
+  <AdminPermissionsEditButton>Edit privileeg</AdminPermissionsEditButton>
+  <AdminPermissionsModifySettingsTitle>Muutke seaded</AdminPermissionsModifySettingsTitle>
+  <AdminPermissionsModifyFoldersTitle>muuda kaustad</AdminPermissionsModifyFoldersTitle>
+  <AdminPermissionsModifyAnonymFoldersTitle>Muuda ühiskaustadel</AdminPermissionsModifyAnonymFoldersTitle>
+  <AdminPermissionsModifyAccountsTitle>muuda kontod</AdminPermissionsModifyAccountsTitle>
+  <AdminPermissionsViewDiagnosticsTitle>Vaata "Diagnostika" lehele</AdminPermissionsViewDiagnosticsTitle>
+  <AdminPermissionsViewLogTitle>Vaata logi</AdminPermissionsViewLogTitle>
+  <AdminPermissionsViewErrorsLogTitle>Vaata vead sisse</AdminPermissionsViewErrorsLogTitle>
+  <AdminPermissionsModifyLocalizationsTitle>muuda lokaliseerimised</AdminPermissionsModifyLocalizationsTitle>
+  <AdminPermissionsFolderPathTitle>kausta tee</AdminPermissionsFolderPathTitle>
+  <AdminPermissionsFoldersTitle>admin kaustad</AdminPermissionsFoldersTitle>
+  <AdminPermissionsPrivilegeHint>Määra kasutajad / grupid, mille "{0}" privileeg on lubatud</AdminPermissionsPrivilegeHint>
+  <AdminPermissionsFolderTitle>Admin kausta omadused</AdminPermissionsFolderTitle>
+  <AdminPermissionsFolderFieldTitle>kausta tee</AdminPermissionsFolderFieldTitle>
+  <AdminPermissionsFolderHint>Info admin kaustad</AdminPermissionsFolderHint>
+  <AdminPermissionsFolderEmptyAccounts>Määra kasutajatele ja / või rühmad</AdminPermissionsFolderEmptyAccounts>
+  <AdminPermissionsFolderAlreadyExists>Kausta selles kohas on juba olemas</AdminPermissionsFolderAlreadyExists>
+  <AdminPermissionsFolderNotFound>Folder selle asukohta ei leitud</AdminPermissionsFolderNotFound>
+  <AdminPermissionsAllowedFoldersMessage>Saate luua / uuenda / hallata juurdepääsu ainult need kaustad või alamkaustad: {0}</AdminPermissionsAllowedFoldersMessage>
+
+  <AdminUsersCountExceededWarn>Maksimaalne kogus kasutajad on ületatud. Sinu praegune litsents lubab ainult {0} kasutajate sisselogimist. Täpsemat infot avatud "{1}" sakk ja leida "{2}" erand (s). Et varjata seda teadet selge log registrid "{1}" alt.</AdminUsersCountExceededWarn>
+
+  <AdminNewVersionAvailableTitle>Uus versioon on saadaval!</AdminNewVersionAvailableTitle>
+  <AdminNewVersionAvailableInfo>Praegune versioon: {0} &lt;br /&gt; uuem versioon: {1}</AdminNewVersionAvailableInfo>
+  
+  <SettingsGridDescriptionInfo>kirjeldus</SettingsGridDescriptionInfo>
+  <SettingsGridFormatInfo>väärtus formaadis</SettingsGridFormatInfo>
+  <SettingsGridDefaultValueInfo>Vaikeväärtus</SettingsGridDefaultValueInfo>
+  <SettingsGridMoreInfo>Rohkem infot</SettingsGridMoreInfo>
+  <SettingsGridRestoreDefault>Taasta vaikimisi</SettingsGridRestoreDefault>
+
+  <SettingsFormatBoolean>tõeväärtuse</SettingsFormatBoolean>
+  <SettingsFormatWholeNumber>täisarv</SettingsFormatWholeNumber>
+  <SettingsFormatRealNumber>Real number</SettingsFormatRealNumber>
+  <SettingsFormatString>nöör</SettingsFormatString>
+  <SettingsFormatEnum>Iga väärtus</SettingsFormatEnum>
+  <SettingsFormatSet>Komadega eraldatud nimekiri kordusmõõtmisteta väärtuste</SettingsFormatSet>
+  <SettingsFormatArray>Komadega eraldatud nimekiri stringid</SettingsFormatArray>
+  <SettingsFormatToolbarButtons>. (Value "{0}" võib korrata mitu korda, kuid mitte järjest. Pärast iga nime, millele järgneb koolon, on võimalik määrata üks kasutatavad meetodid kuvada nupp: {1})</SettingsFormatToolbarButtons>
+
+  <AdminSettingsSave>Salvesta sätted</AdminSettingsSave>
+  <AdminToggleHiddenParams>{0} arenenud parameetreid</AdminToggleHiddenParams>
+  <AdminHintHiddenParams>Täiendavad parameetrid on ette nähtud ainult rohkem granuleeritud seaded ja enamikul juhtudel on harva vaja</AdminHintHiddenParams>
+  <AdminShowHiddenParams>show</AdminShowHiddenParams>
+  <AdminHideHiddenParams>varjama</AdminHideHiddenParams>
+
+  <SettingsDenyAuthModeChange>Automaatne autentimise reziimi ei toetata. Vaata {0} juhiseid muutmise kohta autentimise režiimis.</SettingsDenyAuthModeChange>
+  <SettingsApplicationRestartedMsg>Application uuesti</SettingsApplicationRestartedMsg>
+  <SettingsSettingsSavedMsg>Seaded on salvestatud</SettingsSettingsSavedMsg>
+  <SettingsSettingsSaveFailedAppMsg>Ei saa salvestada konfiguratsiooni faile. Saate kirjutada NTFS permissions of web.config ja HttpCommanderSettings.config faile veebirakenduse juurkataloogi {0} kasutaja {1}. Veateade: {2}.</SettingsSettingsSaveFailedAppMsg>
+  <SettingsSettingsSaveFailedTempMsg>Ei saa salvestada konfiguratsiooni faile. Vaata õigused ajutise kausta {0} kasutaja {1}. Veateade: {2}.</SettingsSettingsSaveFailedTempMsg>
+  <SettingsSettingsReadFailedAppMsg>Ei saa lugeda konfiguratsiooni faile. Saate lugeda NTFS permissions of web.config ja HttpCommanderSettings.config faile veebirakenduse juurkataloogi {0} kasutaja {1}. Veateade: {2}.</SettingsSettingsReadFailedAppMsg>
+  <SettingsSettingsReadFailedTempMsg>Ei saa lugeda konfiguratsiooni failid ajutisse kausta. Vaata õigused ajutise kausta {0} kasutaja {1}. Veateade: {2}.</SettingsSettingsReadFailedTempMsg>
+  <SettingsSettingsConfigChangedOutside>HttpCommander konfiguratsiooni faili on muudetud teise programmi. Võimalik, et olete muutnud seda käsitsi tekstiredaktoriga. Taotlus on koormatud uue konfiguratsioonifaili. Kõik muudatused, mis on seotud HttpCommander konfiguratsiooni, mis sa oled teinud läbi veebiliidese on kadunud. Sa pead uuesti neid, siis proovige uuesti salvestada. Soovitame vastu toimetamine konfiguratsiooni failid käsitsi kui rakendus töötab. Muidu peaks rakenduse taaskäivitamiseks pärast muutuvad konfiguratsiooni faile. Veateade: {0}.</SettingsSettingsConfigChangedOutside>
+  <SettingsSettingsSaveNotif>Ärge unustage, et salvestada seaded muudatusi!</SettingsSettingsSaveNotif>
+  
+  <SettingsEmailNotifTitle>Märkused Post</SettingsEmailNotifTitle>
+  <SettingsEmailNotifApplyBtn>Säästa posti seaded</SettingsEmailNotifApplyBtn>
+  <SettingsEmailNotifResetBtn>lähtestama</SettingsEmailNotifResetBtn>
+  <SettingsEmailNotifEventsLabel>ürituste</SettingsEmailNotifEventsLabel>
+  <SettingsEmailNotifWhenLabel>Saada</SettingsEmailNotifWhenLabel>
+  <SettingsEmailNotifEmailsLabel>kirjad</SettingsEmailNotifEmailsLabel>
+  <SettingsEmailNotifPathsLabel>Paths</SettingsEmailNotifPathsLabel>
+  
+  <LogsErrorsGridUrlColumn>uRL</LogsErrorsGridUrlColumn>
+  <LogsErrorsGridMsgColumn>sõnum</LogsErrorsGridMsgColumn>
+  <LogsErrorsGridMoreInfoColumn>Rohkem infot</LogsErrorsGridMoreInfoColumn>
+  <LogsErrorsGridDetailsTitle>detailid</LogsErrorsGridDetailsTitle>
+  
+  <FsrmUnableLoadLibraryLocal>Seost failiserver Resource Manager kohalikus masinas.</FsrmUnableLoadLibraryLocal>
+  <FsrmUnableLoadLibraryRemote>Seost failiserver Resource Manager "{0}" peremees.</FsrmUnableLoadLibraryRemote>
+  <FsrmNotInstalled>File Server Resource Manager pole installitud "{0}".</FsrmNotInstalled>
+  <FsrmNotInstalledEitherEnd>File Server Resource Manager ei ole paigaldatud kas kohaliku masina või "{0}".</FsrmNotInstalledEitherEnd>
+  <FsrmQuotaNotSpecified>Kvoot ei ole täpsustatud.</FsrmQuotaNotSpecified>
+  <FsrmUnableGetQuota>Ei suuda saada kvoodi piires.</FsrmUnableGetQuota>
+  <FsrmUnableSetQuota>Ei saa määrata kvoodi piires.</FsrmUnableSetQuota>
+  <FsrmQuotaSetMsg>Kvoot on seatud.</FsrmQuotaSetMsg>
+  <FsrmInvalidQuotaValueMsg>Vale kvoodi väärtusest.</FsrmInvalidQuotaValueMsg>
+
+  <CommandBuyNow>Osta kohe</CommandBuyNow>
+
+  <AdminUpdateTab>upgrade</AdminUpdateTab>
+  <AdminUpdateManual>Käsitsi upgrade</AdminUpdateManual>
+  <AdminUpdateAuto>automatiseeritud upgrade</AdminUpdateAuto>
+  <AdminUpdateStartButton>Uuenda / Loo Backup</AdminUpdateStartButton>
+  <AdminUpdateFinishButton>Lõpeta Upgrade / Restore Backup</AdminUpdateFinishButton>
+  <AdminUpdateBackupButton>backup</AdminUpdateBackupButton>
+  <AdminUpdateDownloadNewButton>Lae uus versioon</AdminUpdateDownloadNewButton>
+  <AdminUpdateStepTitle>Etapp {0} {1}: {2}</AdminUpdateStepTitle>
+  <AdminUpdateStepInfo>Etapp {0} {1}</AdminUpdateStepInfo>
+  <AdminUpdateNumberSymbol>#</AdminUpdateNumberSymbol>
+  <AdminUpdateBackupContent>Palun vajuta nuppu "{0}" loomiseks varukoopia kausta koos taotlusega ja saada link allalaadimine</AdminUpdateBackupContent>
+  <AdminUpdateDownloadBackupLinkHint>Palun lae varukoopia kasutav rakendus link allpool:</AdminUpdateDownloadBackupLinkHint>
+  <AdminUpdateDownloadNewContent>Siis laadige uus versioon kasutades linki allpool ja järgige {0} paigaldus {1} ja {2} uuendada {1} juhiseid, et paigaldada uus versioon. Pärast paigaldamist palun avatud admin paneeli, minna tab "{3}" ja vajutage nuppu "{4}", et lõpetada installeerimine.</AdminUpdateDownloadNewContent>
+  <AdminUpdateUploadButton>Lae üles varukoopia ja rakendamiseks</AdminUpdateUploadButton>
+  <AdminUpdateUploadAndInstallButton>Paigaldage uus versioon hoida kõik seaded</AdminUpdateUploadAndInstallButton>
+  <AdminUpdateUploadEmptyText>Palun valige varukoopia üleslaadimiseks</AdminUpdateUploadEmptyText>
+  <AdminUpdateFinishContent>Et taastada seadeid eelmine versioon siis valida ja üles laadida eelnevalt loodud varundusarhiiv koos taotlusega kausta</AdminUpdateFinishContent>
+  <AdminUpdateFinishMessage>Õnnitleme! Kõik seaded on edukalt rakendatud. Samuti palun, kõik tehtud muudatused teiste faile, näiteks Default.aspx või Global.asax.</AdminUpdateFinishMessage>
+  <AdminUpdateFinishRefreshPage>Lehe taaslaadimine</AdminUpdateFinishRefreshPage>
+  <AdminUpdateMainInfo>Seda tüüpi uuendamine on osaliselt automatiseeritud. Võite luua ja alla laadida varundusfaili taotluse seadistusi ja taastada pärast uuendamist. Palun järgige neid lühikesi samme: luua varukoopia, manuaalse ümberehitamise taastada seaded varukoopia. See protseduur võib kasutada backup / taastada seadete uuendamist. Lihtsalt jäta täiustusetappi taastada seaded varukoopia.</AdminUpdateMainInfo>
+  <AdminUpdateAutoButton>auto</AdminUpdateAutoButton>
+  <AdminUpdateAutoInfo>Seda tüüpi uuendamine on peaaegu täielikult automatiseeritud. See koosneb 2 etapist: backup praeguse seaded (te peaksite alla laadima ja salvestada varukoopia fail), paigaldada uus versioon ja taastamiseks seaded varukoopia. HTTP ülem saab automaatselt alla laadida uusima versiooni ja installida või saate määrata tee zip arhiiv uus versioon meie serveris. Kõik seaded automaatselt taastada varem loodud varukoopia.</AdminUpdateAutoInfo>
+  <AdminUpdateRestoreWebConfigCheckBox>Taasta seaded Web.config (nt nagu SMTP)</AdminUpdateRestoreWebConfigCheckBox>
+  <AdminUpdateBackupAssignedFoldersInRootMessage>Tähelepanu! Leidub kasutaja kaustade kataloogi rakendus, mis on kogusuurus rohkem kui {0}. Backup ei tehta. Palun ärge varukoopia need kataloogid, neid eemaldada rakenduse kataloogi ja proovi uuesti operatsiooni teie poolel.</AdminUpdateBackupAssignedFoldersInRootMessage>
+  <AdminUpdateNeedRefreshPageForContinue>Tähelepanu! Et jätkata on vaja lae leht. Palun vajuta nuppu "{0}". Pärast ümberlaadimise korrake operatsiooni.</AdminUpdateNeedRefreshPageForContinue>
+  <AdminUpdateRestoreFromBackupEmpty>Või kui see ei ole valitud, siis kasutada vastloodud faili eelmises etapis</AdminUpdateRestoreFromBackupEmpty>
+  <AdminUpdateInstallZipPathHint>Ajakohastamise täpsustage täieliku füüsilise tee installi (serveris) esimeses valdkonnas või jäta see tühjaks, et kasutada online jaotus</AdminUpdateInstallZipPathHint>
+  <AdminUpdateInstallZipPathEmpty>Määra tee arhiiv paigaldada</AdminUpdateInstallZipPathEmpty>
+  <AdminUpdateProgress>ajakohastamine</AdminUpdateProgress>
+  <AdminUpdateAccessDeniedWarning>&lt;b&gt; NB! &lt;/b&gt; uuendamiseks määrake Modify (lugemine ja kirjutamine) NTFS permissions {0} kasutaja kausta HTTP ülem {1} ja korrata uuendamist. &lt;br /&gt; Pärast edukat uuendamist palun taastada endise õigused.</AdminUpdateAccessDeniedWarning>
+  <AdminUpdateAccessDeniedWarningCurentUser>praegune</AdminUpdateAccessDeniedWarningCurentUser>
+
+  <ServerExceedsMaxSizeForEditAsTextFile>Faili suurus ületab maksimaalset suurust muuta see tekstifailina.</ServerExceedsMaxSizeForEditAsTextFile>
+  <ServerDemoMode>Antud tegevus on keelatud demo režiimis</ServerDemoMode>
+  <ServerHostedMode>Ei ole lubatud muuta väärtused järgmised seaded võõrustas prooviversiooni: {0}.</ServerHostedMode>
+  <ServerIncorrectImageContentType>Fail MIME-tüüpi ei ole pilt</ServerIncorrectImageContentType>
+  <ServerPermissionDenied>See operatsioon lükkas tõttu piiratud õigused</ServerPermissionDenied>
+  <ServerRestoreFromTrashNoParentFolder>taastamine ebaõnnestus, sest emakataloogi "{0}" on ei leitud. Palun loo see ja proovige uuesti.</ServerRestoreFromTrashNoParentFolder>
+  <ServerModifyPermissionDenied>Seda operatsiooni tagasi, sest sa ei pea luba muuta faili</ServerModifyPermissionDenied>
+  <ServerPathNotFound>Liin ei ole leitud.</ServerPathNotFound>
+  <ServerInvalidPath>Path "{0}" ei ole kehtiv</ServerInvalidPath>
+  <ServerInvalidAbsolutePath>Vale absoluutne tee "{0}"</ServerInvalidAbsolutePath>
+  <!-- share folder path: \\server\share -->
+  <ServerInvalidShareFolderPath>Vale osakaal kausta tee "{0}"</ServerInvalidShareFolderPath>
+  <ServerInvalidUncPath>Vale UNC-tee "{0}"</ServerInvalidUncPath>
+  <ServerUnableResolveUncPath>Ei saa lahendada UNC-tee "{0}"</ServerUnableResolveUncPath>
+  <ServerInvalidFileName>Fail / kausta nimi ei ole määratud või valeandmeid sisaldava tähemärki {0}</ServerInvalidFileName>
+  <ServerFilePathNotFound>Faili ei ole olemas</ServerFilePathNotFound>
+  <ServerIncorrectPathForFileLink>Vale objekti tüübist. Nimetatud asukoht juhib kausta</ServerIncorrectPathForFileLink>
+  <ServerIncorrectPathForFolderLink>Vale objekti tüübist. Nimetatud asukoht osutab failile</ServerIncorrectPathForFolderLink>
+  <ServerRootFolderNotFound>Peakaust tee "{0}" ei leitud.</ServerRootFolderNotFound>
+  <ServerUnableCreateFolder>Ei saa luua kataloogi</ServerUnableCreateFolder>
+  <ServerFileAlreadyExists>Selle nimega fail on juba olemas</ServerFileAlreadyExists>
+  <ServerFileAlreadyExistsOnRename>
+    Kas soovite ümber nimetada "{0}" kuni "{1}"?
+    Seal on juba fail sama nimega selles asukohas.
+  </ServerFileAlreadyExistsOnRename>
+  <ServerFolderAlreadyExistsOnRename>
+    Kas soovite ümber nimetada "{0}" kuni "{1}"?
+    Seal on juba kaustas sama nimega selles asukohas.
+  </ServerFolderAlreadyExistsOnRename>
+  <ServerFoldersMergeConfirm>
+    See kohtades juba sisaldab kausta nimega "{0}".
+    Kas soovite ühendada see kaust "{0}" see üks "{1}"?
+  </ServerFoldersMergeConfirm>
+  <ServerFolderWithSameNameAsFileNameAlreadyExists>Seal on juba kaustas sama nimega "{0}" nagu faili nimi, mida määratud</ServerFolderWithSameNameAsFileNameAlreadyExists>
+  <ServerFileWithSameNameAsFolderNameAlreadyExists>Seal on juba fail sama nimega "{0}" nagu kausta nime teie määratud</ServerFileWithSameNameAsFolderNameAlreadyExists>
+  <ServerFileNotFound>File "{0}" ei leitud kaustas "{1}". Võimalik, et see on kustutatud või eemaldatud teine ​​kasutaja.</ServerFileNotFound>
+  <ServerDirectoryAlreadyExists>Kaust on juba olemas</ServerDirectoryAlreadyExists>
+  <ServerFolderMoveAlreadeExists>Sihtkausta "{0}" on sama lähtekausta</ServerFolderMoveAlreadeExists>
+  <ServerUploadPathNotFound>Tee tiedostoilleen ei leitud serverist</ServerUploadPathNotFound>
+  <ServerUploadPathNotSet>Tekkis viga saada tee lehele. Palun värskenda lehte brauseri ja proovi uuesti.</ServerUploadPathNotSet>
+  <ServerUploadNoChunk>Ei tüki eest Salvesta</ServerUploadNoChunk>
+  <ServerUploadWriteChunk>Kirjutage tüki kuna bait</ServerUploadWriteChunk>
+  <ServerUploadCreatingFile>loomine faili</ServerUploadCreatingFile>
+  <ServerUploadFileUploaded>Fail on üles laaditud</ServerUploadFileUploaded>
+  <ServerUploadWriteError>kirjutamine viga</ServerUploadWriteError>
+  <ServerConfigurationError>Vale konfiguratsiooni või taotluse! Pöördu administraatori</ServerConfigurationError>
+  <ServerPermissionsAllowTypes>Praegune load võimaldavad seda operatsiooni ainult failitüüpe {0}</ServerPermissionsAllowTypes>
+  <ServerPermissionsDenyTypes>Praegune õigused keelata seda operatsiooni failitüüpe {0}</ServerPermissionsDenyTypes>
+  <ServerRequestSizeExceeded>Suurus üleslaaditud faile ületab lubatud suuruse serveri seaded</ServerRequestSizeExceeded>
+  <ServerEmailMsgProcessedFilesSubject>Uploaded / Modifitseeritud / alla laadida / Loodud / kustutatud / Jagatud failid / kaustad</ServerEmailMsgProcessedFilesSubject>
+  <ServerEmailMsgUploadFilesTitle>laetud</ServerEmailMsgUploadFilesTitle>
+  <ServerEmailMsgModifyFilesTitle>muutmine</ServerEmailMsgModifyFilesTitle>
+  <ServerEmailMsgDownloadFilesTitle>alla</ServerEmailMsgDownloadFilesTitle>
+  <ServerEmailMsgCreateFilesTitle>loodud</ServerEmailMsgCreateFilesTitle>
+  <ServerEmailMsgDeleteFilesTitle>kustutada</ServerEmailMsgDeleteFilesTitle>
+  <ServerEmailMsgCreatePublicFilesTitle>jagatud</ServerEmailMsgCreatePublicFilesTitle>
+  <ServerEmailMsgProcessedFilesBody>
+    Järgmised failid / kaustad olid {0} poolt {1}:
+
+{2}
+    
+  </ServerEmailMsgProcessedFilesBody>
+  <ServerEmailMsgPasswordRecoverSubject>taasta parool</ServerEmailMsgPasswordRecoverSubject>
+  <ServerEmailMsgPasswordRecoverBody>
+    Sa palus taastada oma parooli Web Failihaldur. Teie parooli lähtestamiseks. Kui te arvate, et see on viga, lihtsalt ignoreerida seda kirja, kuid tuleb meeles pidada, et parool on muudetud.
+    Hüüdnimi: {0}
+    Uus parool: {1}
+  </ServerEmailMsgPasswordRecoverBody>
+  
+  <ServerEmailMsgUserNameRecoverSubject>kasutajanimi taastumine</ServerEmailMsgUserNameRecoverSubject>
+  <ServerEmailMsgUserNameRecoverBody>
+    Sa tagasi nõuda oma nime Web Failihaldur.
+    Hüüdnimi: {0}
+  </ServerEmailMsgUserNameRecoverBody>
+
+  <ServerEmailMsgUserActivationSubject>konto aktiveerimine</ServerEmailMsgUserActivationSubject>
+  <ServerEmailMsgUserActivationBody>
+    Konto ({0}) aktiveerimine on kohustuslik.
+    Et aktiveerida oma konto, siis kliki järgmist linki: {1}
+  </ServerEmailMsgUserActivationBody>
+  <ServerEmailMsgUserRegisteredSubject>Kasutaja registreeritud</ServerEmailMsgUserRegisteredSubject>
+  <ServerEmailMsgUserRegisteredBody>
+    Sa edukalt registreeritud Web Failihaldur.
+    Hüüdnimi: {0}
+  </ServerEmailMsgUserRegisteredBody>
+  <ServerEmailMsgUserRegisteredForAdminsBody>
+    &lt;h4&gt; Uus kasutaja on registreeritud &lt;/h4&gt;
+    &lt;strong&gt; Kasutaja nimi &lt;/strong&gt;: {0} &lt;br /&gt;
+    &lt;strong&gt; E-post &lt;/strong&gt;: {1} &lt;br /&gt;
+    &lt;strong&gt; Kuupäev &lt;/strong&gt;: {2} &lt;br /&gt;
+    &lt;strong&gt; Extra info &lt;/strong&gt;: {3} &lt;br /&gt;
+  </ServerEmailMsgUserRegisteredForAdminsBody>
+  <ServerDiskFullError>Kettal pole piisavalt ruumi.</ServerDiskFullError>
+  <ServerFolderLimitations>Folder piirangud: {0}</ServerFolderLimitations>
+  <ServerShortcutAssignedFolderNotFound>Määratud kausta ei leitud sihtmärk tee otsetee</ServerShortcutAssignedFolderNotFound>
+  <ServerSizeFilesForZipExceeded>Suurus archivable faile ületas lubatud väärtust {0}.</ServerSizeFilesForZipExceeded>
+  <ServerPasteFolderToSubfolderError>Sihtkausta "{0}" on alamkataloogi lähtekausta "{1}".</ServerPasteFolderToSubfolderError>
+  <ServerLiveConnectAppIDNotSpecified>Klient ID Microsoft Live Connect rakendus ei ole määratletud</ServerLiveConnectAppIDNotSpecified>
+  <ServerSendEmailInfo>Autor määratud oma e-posti kui {0}. Kasutage ainult sellele aadressile vastata.</ServerSendEmailInfo>
+
+  <ServerAntivirusScanningFailed>Skaneerimine viirusetõrje: '{0} {1} "ebanormaalselt.</ServerAntivirusScanningFailed>
+
+  <ServerUserNameNotFound>Kasutaja nimega '{0}' ei leitud.</ServerUserNameNotFound>
+  <ServerFileNameCopySuffix>koopia</ServerFileNameCopySuffix>
+
+  <ServerDeleteFolderNTFSAccessDenied>Sa ei pea NTFS luba eemaldada kaust "{0}"</ServerDeleteFolderNTFSAccessDenied>
+
+  <ServerMSOOTemplateNotFound>{0} malli ei leitud</ServerMSOOTemplateNotFound>
+</Localization>

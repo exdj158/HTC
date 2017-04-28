@@ -1,0 +1,386 @@
+﻿<!-- saved from url=(0014)about:internet -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title>SSO test page</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta content="NOINDEX,NOFOLLOW" name="ROBOTS" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <script type="text/javascript">
+        /**
+         * Get XMLHttpRequest instance for sending AJAX requests 
+         */
+        var getXhrInstance = (function(){
+            var options = [
+                function() { return new XMLHttpRequest(); },
+                function() { return new ActiveXObject('MSXML2.XMLHTTP.7.0'); },
+                function() { return new ActiveXObject('MSXML2.XMLHTTP.6.0'); },
+                function() { return new ActiveXObject('MSXML2.XMLHTTP.5.0'); },
+                function() { return new ActiveXObject('MSXML2.XMLHTTP.4.0'); },
+                function() { return new ActiveXObject('MSXML2.XMLHTTP.3.0'); },
+                function() { return new ActiveXObject('MSXML2.XMLHTTP'); },
+                function() { return new ActiveXObject('Microsoft.XMLHTTP'); }
+            ], i = 0, len = options.length, xhr;
+            for(; i < len; ++i) {
+                try {
+                    xhr = options[i];
+                    xhr();
+                    break;
+                } catch(e) { }
+            }
+            return xhr;
+        })();
+        
+        /**
+         * Send AJAX request
+         */
+        function xhrRequest(url, callback, user, pass, ctx) {
+            url = url || location.href;
+            var x = getXhrInstance;
+            var xhr = getXhrInstance();
+            xhr.open('HEAD', url, true, user, pass);
+            xhr.onreadystatechange = function() {
+                if (xhr.readyState == 4) {
+                    callback.call(ctx || window, xhr.responseText, xhr);
+                }
+            };
+            xhr.send(null);
+            return xhr;
+        }
+        
+        /**
+         * Show result of authentication
+         */
+        function outResult(msg, outEl, error) {
+            msg = String(msg || '');
+            error = error === true;
+            if (!outEl) {
+                if (error) {
+                    window.alert(msg);
+                }
+            } else {
+                outEl.style.color = error ? 'red' : '';
+                outEl.innerHTML = msg;
+            }
+        }
+
+        /**
+         * Check user/pass field value
+         */
+        function checkUserPass(user, pass, out) {
+            var rfvUserName = document.getElementById('rfvUserName');
+            var rfvUserPass = document.getElementById('rfvUserPass');
+            out = typeof out == 'string' ? document.getElementById(out) : out;
+            // clear out result
+            outResult('&nbsp;', out);
+            if (rfvUserName) {
+                rfvUserName.style.visibility = 'hidden';
+            }
+            if (rfvUserPass) {
+                rfvUserPass.style.visibility = 'hidden';
+            }
+            // check user name/password on null
+            if (user == '') {
+                if (rfvUserName) {
+                    rfvUserName.style.visibility = 'visible';
+                } else {
+                    outResult('User name not specified', out, true);
+                }
+                return false;
+            }
+            if (pass == '') {
+                if (rfvUserPass) {
+                    rfvUserPass.style.visibility = 'visible';
+                } else {
+                    outResult('User password not specified', out, true);
+                }
+                return false;
+            }
+            return true;
+        }
+        
+        /**
+         * Main function for login and open Http Commander page
+         */
+        function openHttpCommander(url, user, pass, lang, out) {
+            
+            // prepare params
+            url = String(url || '');
+            user = String(user || '');
+            pass = String(pass || '');
+            lang = String(lang || '');
+            out = typeof out == 'string' ? document.getElementById(out) : out;
+            
+            var rfvUserName = document.getElementById('rfvUserName');
+            var rfvUserPass = document.getElementById('rfvUserPass');
+            
+            // clear out result
+            outResult('&nbsp;', out);
+            if (rfvUserName) {
+                rfvUserName.style.visibility = 'hidden';
+            }
+            if (rfvUserPass) {
+                rfvUserPass.style.visibility = 'hidden';
+            }
+            
+            // check url on empty
+            if (url == '') {
+                outResult('Url not specified', out, true);
+                return;
+            }
+            
+            // check current url
+            var protocol = String(window.location.protocol || '').toLowerCase();
+            if (protocol != 'http:' && protocol != 'https:') {
+                outResult('Current protocol of login page is not http or https', out, true);
+                return;
+            }
+            
+            // check input url
+            var pos = url.indexOf(':');
+            if (pos >= 0 && (pos + 1) < url.length && url.charAt(pos + 1) == '/') {
+                var urlProtocol = url.substring(0, pos).toLowerCase();
+                if (urlProtocol == 'http' || urlProtocol == 'https') {
+                    var urlParts = String(url).split('/');
+                    if (urlParts.length < 3 || !urlParts[2]) {
+                        outResult('Incorrect url', out, true);
+                        return;
+                    }
+                    // compare domain names
+                    var curHostname = String(window.location.hostname || '').toLowerCase();
+                    var inputHost = String(urlParts[2]).split(':')[0].toLowerCase();
+                    if (curHostname != inputHost) {
+                        outResult('Domain "' + inputHost + '" do not match domain "' + curHostname + '"', out, true);
+                        return;
+                    }
+                } else {
+                    outResult('Protocol of redirect url is not http or https', out, true);
+                    return;
+                }
+            }
+
+            // check user name/password on null
+            if (user == '') {
+                if (rfvUserName) {
+                    rfvUserName.style.visibility = 'visible';
+                } else {
+                    outResult('User name not specified', out, true);
+                }
+                return;
+            }
+            if (pass == '') {
+                if (rfvUserPass) {
+                    rfvUserPass.style.visibility = 'visible';
+                } else {
+                    outResult('User password not specified', out, true);
+                }
+                return;
+            }
+
+            // append language
+            if (lang != '') {
+                if (url.indexOf('?') >= 0) {
+                    var parts = url.split('?');
+                    if (parts.length > 1 && parts[1] && parts[1].length > 0) {
+                        url += '&';
+                    }
+                } else {
+                    url += '?';
+                }
+                url += 'language=' + lang;
+            }
+            
+            // start main process
+            outResult('Please wait...', out);
+            try {
+                xhrRequest(url, function(response, xhr) {
+                    outResult('&nbsp;', out);
+                    if (xhr && xhr.status && xhr.status == 200) {
+                        window.location.href = url;
+                    } else {
+                        var msg = 'Unknown error';
+                        if (xhr && xhr.status) {
+                            if (xhr.status == 401) {
+                                msg = 'Your attempt of login was not successful';
+                            } else {
+                                msg = '' + xhr.status;
+                                if (xhr.statusText) {
+                                    msg += '. ' + xhr.statusText;
+                                }
+                            }
+                        }
+                        outResult(msg, out, true);
+                    }
+                }, user, pass);
+            } catch (e) {
+                outResult(e, out, true);
+            }
+        }
+    </script>
+</head>
+<body style="font-family:Tahoma;font-size:13px;background-color:#ffffff;color:#000000;">
+    <!--<form action="Default.aspx" method="post" enctype="multipart/form-data"
+        onsubmit="return checkUserPass(
+            document.getElementById('username').value,
+            document.getElementById('password').value,
+            'outResult'
+        )" >--> <!-- Uncomment this for using post login request in Forms version -->
+    <div align="center">
+        <noscript><font color="#CC0000">This page requires Javascript enabled at your browser! Please fix it and login again!</font><br/></noscript>
+        <table style="width:300px;background-color:#DFE8F6;border:1px #99BBE8 solid;" cellpadding="3">
+            <tr>
+                <td height="24" align="center" colspan="3">
+                    <span style="color:#15428B;font-weight:bold;">Login</span>
+                </td>
+            </tr>
+            <tr>
+                <td align="right">
+                    <span>User name:</span>
+                </td>
+                <td align="left" colspan="2">
+                    <input id="username" type="text" style="width:140px;" name="username" />
+                    <span id="rfvUserName" style="color:red;visibility:hidden;">*</span>
+                </td>
+            </tr>
+            <tr>
+                <td align="right">
+                    <span>Password:</span>
+                </td>
+                <td align="left" colspan="2">
+                    <input id="password" type="password" style="width:140px;" name="password" />
+                    <span id="rfvUserPass" style="color:red;visibility:hidden;">*</span>
+                </td>
+            </tr>
+            <tr>
+                <td align="right">
+                    <span>Language:</span>
+                </td>
+                <td align="left">
+                    <select id="language" style="width:100px;" name="language">
+                        <option value="Afrikaans">Afrikaans</option>
+                        <option value="Albanian">Albanian</option>
+                        <option value="Amharic">Amharic</option>
+                        <option value="Arabic">Arabic</option>
+                        <option value="Armenian">Armenian</option>
+                        <option value="Azerbaijani">Azerbaijani</option>
+                        <option value="Basque">Basque</option>
+                        <option value="Belarusian">Belarusian</option>
+                        <option value="Bengali">Bengali</option>
+                        <option value="Bosnian">Bosnian</option>
+                        <option value="Bulgarian">Bulgarian</option>
+                        <option value="Catalan">Catalan</option>
+                        <option value="Cebuano">Cebuano</option>
+                        <option value="Chichewa">Chichewa</option>
+                        <option value="Chinese (Simplified)">Chinese (Simplified)</option>
+                        <option value="Chinese (Traditional)">Chinese (Traditional)</option>
+                        <option value="Corsican">Corsican</option>
+                        <option value="Croatian">Croatian</option>
+                        <option value="Czech">Czech</option>
+                        <option value="Danish">Danish</option>
+                        <option value="Dutch">Dutch</option>
+                        <option value="English" selected="selected">English</option>
+                        <option value="Esperanto">Esperanto</option>
+                        <option value="Estonian">Estonian</option>
+                        <option value="Filipino">Filipino</option>
+                        <option value="Finnish">Finnish</option>
+                        <option value="French">French</option>
+                        <option value="Frisian">Frisian</option>
+                        <option value="Galician">Galician</option>
+                        <option value="Georgian">Georgian</option>
+                        <option value="German">German</option>
+                        <option value="Greek">Greek</option>
+                        <option value="Gujarati">Gujarati</option>
+                        <option value="Haitian Creole">Haitian Creole</option>
+                        <option value="Hausa">Hausa</option>
+                        <option value="Hawaiian">Hawaiian</option>
+                        <option value="Hebrew">Hebrew</option>
+                        <option value="Hindi">Hindi</option>
+                        <option value="Hmong">Hmong</option>
+                        <option value="Hungarian">Hungarian</option>
+                        <option value="Icelandic">Icelandic</option>
+                        <option value="Igbo">Igbo</option>
+                        <option value="Indonesian">Indonesian</option>
+                        <option value="Irish">Irish</option>
+                        <option value="Italian">Italian</option>
+                        <option value="Japanese">Japanese</option>
+                        <option value="Javanese">Javanese</option>
+                        <option value="Kannada">Kannada</option>
+                        <option value="Kazakh">Kazakh</option>
+                        <option value="Khmer">Khmer</option>
+                        <option value="Korean">Korean</option>
+                        <option value="Kurdish (Kurmanji)">Kurdish (Kurmanji)</option>
+                        <option value="Kyrgyz">Kyrgyz</option>
+                        <option value="Lao">Lao</option>
+                        <option value="Latin">Latin</option>
+                        <option value="Latvian">Latvian</option>
+                        <option value="Lithuanian">Lithuanian</option>
+                        <option value="Luxembourgish">Luxembourgish</option>
+                        <option value="Macedonian">Macedonian</option>
+                        <option value="Malagasy">Malagasy</option>
+                        <option value="Malay">Malay</option>
+                        <option value="Malayalam">Malayalam</option>
+                        <option value="Maltese">Maltese</option>
+                        <option value="Maori">Maori</option>
+                        <option value="Marathi">Marathi</option>
+                        <option value="Mongolian">Mongolian</option>
+                        <option value="Myanmar (Burmese)">Myanmar (Burmese)</option>
+                        <option value="Nepali">Nepali</option>
+                        <option value="Norwegian">Norwegian</option>
+                        <option value="Pashto">Pashto</option>
+                        <option value="Persian">Persian</option>
+                        <option value="Polish">Polish</option>
+                        <option value="Portuguese">Portuguese</option>
+                        <option value="Punjabi">Punjabi</option>
+                        <option value="Romanian">Romanian</option>
+                        <option value="Russian">Russian</option>
+                        <option value="Samoan">Samoan</option>
+                        <option value="Scots Gaelic">Scots Gaelic</option>
+                        <option value="Serbian">Serbian</option>
+                        <option value="Sesotho">Sesotho</option>
+                        <option value="Shona">Shona</option>
+                        <option value="Sindhi">Sindhi</option>
+                        <option value="Sinhala">Sinhala</option>
+                        <option value="Slovak">Slovak</option>
+                        <option value="Slovenian">Slovenian</option>
+                        <option value="Somali">Somali</option>
+                        <option value="Spanish">Spanish</option>
+                        <option value="Sundanese">Sundanese</option>
+                        <option value="Swahili">Swahili</option>
+                        <option value="Swedish">Swedish</option>
+                        <option value="Tajik">Tajik</option>
+                        <option value="Tamil">Tamil</option>
+                        <option value="Telugu">Telugu</option>
+                        <option value="Thai">Thai</option>
+                        <option value="Turkish">Turkish</option>
+                        <option value="Ukrainian">Ukrainian</option>
+                        <option value="Urdu">Urdu</option>
+                        <option value="Uzbek">Uzbek</option>
+                        <option value="Vietnamese">Vietnamese</option>
+                        <option value="Welsh">Welsh</option>
+                        <option value="Xhosa">Xhosa</option>
+                        <option value="Yiddish">Yiddish</option>
+                        <option value="Yoruba">Yoruba</option>
+                        <option value="Zulu">Zulu</option>
+                    </select>
+                </td>
+                <td align="right">
+                    <input id="btnLogin" type="submit" style="font-family:Tahoma;font-size:13px;" value="Login" name="btnLogin" 
+                        onclick="openHttpCommander(
+                            'Default.aspx',
+                            document.getElementById('username').value,
+                            document.getElementById('password').value,
+                            document.getElementById('language').value,
+                            'outResult'
+                        )" /> <!-- Comment this for using post login request in Forms version and add close tag /> for submit button -->
+                </td>
+            </tr>
+            <tr>
+                <td id="outResult" align="center" colspan="3" style="color:red;">&nbsp;</td>
+            </tr>
+        </table>
+        <br />
+        If you have difficulties with logon then try to login via <a href="Default.aspx">classic Windows authentication dialog</a>
+    </div>
+    <!--</form>--> <!-- Uncomment this for using post login request in Forms version -->
+</body>
+</html>

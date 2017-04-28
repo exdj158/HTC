@@ -1,0 +1,1608 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Localization>
+  <!-- Common keys -->
+  
+  <ExtMsgButtonTextYES>כן</ExtMsgButtonTextYES>
+  <ExtMsgButtonTextNO>לא</ExtMsgButtonTextNO>
+  
+  <ControlHideFileManager>מנהל קבצים באינטרנט הסתר</ControlHideFileManager>
+  
+  <CommonMainTitle>גישת קבצי אינטרנט</CommonMainTitle>
+  <CommonApplicationLoading>הטענת גישת קבצים באינטרנט</CommonApplicationLoading>
+  <CommonLoadError>אירעה שגיאה במהלך מקבל נתוני עץ</CommonLoadError>
+  <CommonGridAccessDenied>התיקייה "{0}" אינה קיימת או גישה לקריאה נדחית</CommonGridAccessDenied>
+  <CommonNoScript>דף זה דורש JavaScript תהיה מאופשרת בדפדפן שלך! אפשר אותו והכניסה שוב!</CommonNoScript>
+  <CommonErrorCaption>שְׁגִיאָה</CommonErrorCaption>
+  <CommonWarningCaption>אַזהָרָה</CommonWarningCaption>
+  <CommonInfoCaption>מֵידָע</CommonInfoCaption>
+  <CommonConfirmCaption>לְאַשֵׁר</CommonConfirmCaption>
+  <CommonFileNameCaption>שם קובץ</CommonFileNameCaption>
+  <CommonFileNamePrompt>הזן שם קובץ חדש</CommonFileNamePrompt>
+  <CommonFileNewNameValue>ניו טקסט Document.txt</CommonFileNewNameValue>
+  <CommonFolderNewNameValue>תיקייה חדשה</CommonFolderNewNameValue>
+  <CommonZipFileNameCaption>שם ארכיון Zip</CommonZipFileNameCaption>
+  <CommonZipFileNamePrompt>שם קובץ (סיומת תתווסף באופן אוטומטי)</CommonZipFileNamePrompt>
+  <CommonFolderNameCaption>שם תיקייה</CommonFolderNameCaption>
+  <CommonFolderNamePrompt>הזן שם לתיקייה חדשה</CommonFolderNamePrompt>
+  <CommonDeleteOnePrompt>האם אתה בטוח שברצונך למחוק את "{0}"?</CommonDeleteOnePrompt>
+  <CommonDeleteManyPrompt>האם אתה בטוח שברצונך למחוק {0} הפריטים הללו?</CommonDeleteManyPrompt>
+  <CommonForToday>להיום</CommonForToday>
+  <CommonButtonCaptionOK>בסדר</CommonButtonCaptionOK>
+  <CommonButtonCaptionCancel>לְבַטֵל</CommonButtonCaptionCancel>
+  <CommonButtonCaptionClose>לִסְגוֹר</CommonButtonCaptionClose>
+  <CommonButtonCaptionAdd>לְהוֹסִיף</CommonButtonCaptionAdd>
+  <CommonButtonCaptionContinue>לְהַמשִׁיך</CommonButtonCaptionContinue>
+
+  <CommonProgressPleaseWait>המתן בבקשה</CommonProgressPleaseWait>
+  
+  <CommonFieldLabelName>שֵׁם</CommonFieldLabelName>
+  <CommonFieldLabelPath>נָתִיב</CommonFieldLabelPath>
+  <CommonFieldLabelSize>גודל</CommonFieldLabelSize>
+  <CommonFieldLabelLabels>תוויות</CommonFieldLabelLabels>
+  <CommonFieldLabelType>סוּג</CommonFieldLabelType>
+  <CommonFieldLabelAction>פעולה</CommonFieldLabelAction>
+  <CommonFieldLabelDate>תַאֲרִיך</CommonFieldLabelDate>
+  <CommonFieldLabelDateTime>תאריך שעה</CommonFieldLabelDateTime>
+  <CommonFieldLabelDateCreated>תאריך יצירה</CommonFieldLabelDateCreated>
+  <CommonFieldLabelDateModified>שונה תאריך</CommonFieldLabelDateModified>
+  <CommonFieldLabelDateAccessed>נצפה תאריך</CommonFieldLabelDateAccessed>
+  <CommonFieldLabelValue>ערך</CommonFieldLabelValue>
+  <CommonFieldLabelUserName>שם משתמש</CommonFieldLabelUserName>
+  <CommonFieldLabelUser>מִשׁתַמֵשׁ</CommonFieldLabelUser>
+  <CommonFieldLabelUsers>משתמש</CommonFieldLabelUsers>
+  <CommonFieldLabelGroupName>שם קבוצה</CommonFieldLabelGroupName>
+  <CommonFieldLabelGroup>קְבוּצָה</CommonFieldLabelGroup>
+  <CommonFieldLabelGroups>קבוצות</CommonFieldLabelGroups>
+  <CommonFieldLabelPassword>סיסמה</CommonFieldLabelPassword>
+  <CommonFieldLabelRepeatPassword>חזור על הסיסמה</CommonFieldLabelRepeatPassword>
+  <CommonFieldLabelComments>תגובות</CommonFieldLabelComments>
+  <CommonValueTypeFolder>תיקייה</CommonValueTypeFolder>
+
+  <CommonFieldLabelDescription>תאור</CommonFieldLabelDescription>
+  <EmptyDescriptionText>ציין את התיאור</EmptyDescriptionText>
+  <CommonFieldLabelReadMeTxt>תוכן Readme.txt</CommonFieldLabelReadMeTxt>
+  
+  <CommonWordOr>אוֹ</CommonWordOr>
+
+  <SortAscText>מיין בסדר עולה</SortAscText>
+  <SortDescText>יורד מיין</SortDescText>
+
+  <CommonNewDocument>מסמך חדש</CommonNewDocument>
+  <CommonNewSpreadsheet>גיליון אלקטרוני חדש</CommonNewSpreadsheet>
+  <CommonNewPresentation>מצגת חדשה</CommonNewPresentation>
+
+  <CommonWordWrap>עטיפת מילה</CommonWordWrap>
+  
+  <!-- End Common keys -->
+
+  <!-- Labels -->
+
+  <LabelsTitle>תווית</LabelsTitle>
+  <LabelsNoLabel>אין תווית</LabelsNoLabel>
+  <LabelsColor>צֶבַע</LabelsColor>
+  <LabelsCustomLabel>תווית מותאמת אישית</LabelsCustomLabel>
+  <LabelsCustomLabelHint>הזן את הטקסט של התווית</LabelsCustomLabelHint>
+  <LabelsCustomLabelView>תווית &amp;nbsp; נוף: &amp;nbsp; {0} {1} {2}</LabelsCustomLabelView>
+  <LabelsFileLabelledMessage>בהצלחה שכותרתו {0} כמות הפריט (ים)</LabelsFileLabelledMessage>
+  <LabelsRemovedMessage>הוסר בהצלחה {0} תווית (ים)</LabelsRemovedMessage>
+  <LabelsNotRemovedMessages>לא הוסר: {0}</LabelsNotRemovedMessages>
+  <LabelsNotLabelledMessage>לא שכותרתו: {0}</LabelsNotLabelledMessage>
+  <LabelsLabelRemovedMessage>לייבל בהצלחה הוסר</LabelsLabelRemovedMessage>
+  <LabelsNewLabel>לייבל חדש</LabelsNewLabel>
+  <LabelsLabellingMessage>תִיוּג</LabelsLabellingMessage>
+  <LabelsRemovingLabelMessage>הסרת תוויות</LabelsRemovingLabelMessage>
+  <LabelsLabelInfoTip>תחת הכותרת '{0}' {1} על ידי המשתמש '{2}'</LabelsLabelInfoTip>
+
+  <!-- End Labels -->
+
+  <!-- Comments -->
+
+  <CommentsCountInfoTip>{0} comment (s)</CommentsCountInfoTip>
+  <CommentsWriteCommentHint>כתוב תגובה ולחץ על '{0}' או Ctrl+Enter או Shift+Enter ...</CommentsWriteCommentHint>
+
+  <!-- End Comments -->
+
+  <RefreshPageWarningMessage>&lt;b&gt; שימו לב! &lt;/b&gt; כדי להשלים את הפעולה הזו, הדף הנוכחי של הדפדפן חייב להיות רעננים. &lt;br /&gt; האם ברצונך לרענן עכשיו?</RefreshPageWarningMessage>
+
+  <PagingToolbarBeforePageText>עמוד</PagingToolbarBeforePageText>
+  <PagingToolbarAfterPageText>של {0}</PagingToolbarAfterPageText>
+  <PagingToolbarFirstText>עמוד ראשון</PagingToolbarFirstText>
+  <PagingToolbarPrevText>עמוד קודם</PagingToolbarPrevText>
+  <PagingToolbarNextText>עמוד הבא</PagingToolbarNextText>
+  <PagingToolbarLastText>עמוד אחרון</PagingToolbarLastText>
+  <PagingToolbarDisplayMsg>מציג {0} - {1} מתוך {2}</PagingToolbarDisplayMsg>
+  <PagingToolbarEmptyMsg>אין נתונים להצגה</PagingToolbarEmptyMsg>
+  
+  <GridTotalLabel>סה"כ:</GridTotalLabel>
+  <GridTotalFilesLabel>קבצים</GridTotalFilesLabel>
+  <GridTotalFoldersLabel>תיקיות</GridTotalFoldersLabel>
+  
+  <GridDDSelectedRowsText>{0} השורה הנבחרת {1}</GridDDSelectedRowsText>
+  <GridDDSelectedFilesText>{0} קבצים שנבחרו</GridDDSelectedFilesText>
+  <GridDDSelectedFoldersText>{0} תיקיות שנבחרו</GridDDSelectedFoldersText>
+  <GridDDConfirmCopyMoveTitle>זרוק אל התיקייה "{0}"</GridDDConfirmCopyMoveTitle>
+  <GridDDConfirmAddToZipTitle>הוסף zip "{0}"</GridDDConfirmAddToZipTitle>
+  <GridDDConfirmAddToZipMessage>קבצי גרר יתווספו ארכיון ZIP זה. האם ברצונך להמשיך? {0}.</GridDDConfirmAddToZipMessage>
+  <GridDDConfirmCopyMoveMsg>בחר פעולה שאתה רוצה ליישם. מקור: "{0}", תיקיית היעד: "{1}" {2} {3}..</GridDDConfirmCopyMoveMsg>
+  <GridDDConfirmCopyMoveToZipMsg>קבצים יתווספו בארכיון zip. בחר פעולה שבו אתה רוצה להחיל על הקבצים גררו לאחר הוספת קבצים לארכיון zip. מקור: "{0}", ארכיון zip יעד: "{1}" {2} {3}..</GridDDConfirmCopyMoveToZipMsg>
+  <GridDDDraggedFileNames>&lt;b&gt; גרר קבצים: &lt;/b&gt; {0}</GridDDDraggedFileNames>
+  <GridDDDraggedFolderNames>&lt;b&gt; גרר תיקיות: &lt;/b&gt; {0}</GridDDDraggedFolderNames>
+  <GridDDConfirmTargetFolderOnlyCopyMsg>הרשאות נוכחיות עבור תיקיית המקור מאפשרות לך עותק יחיד גרר קבצים. האם ברצונך להמשיך? {0}.</GridDDConfirmTargetFolderOnlyCopyMsg>
+  <GridDDConfirmTargetFolderOnlyMoveMsg>הרשאות נוכחיות עבור תיקיית המקור מאפשרות לך מהלך רק גרר קבצים. האם ברצונך להמשיך? {0}.</GridDDConfirmTargetFolderOnlyMoveMsg>
+
+  <GridRowPublicHint>לחץ על מנת לפתוח קישור ציבורי בחלון / כרטיסייה חדשה</GridRowPublicHint>
+  <GridRowAlertHint>לחץ כדי להציג את השינויים נעשו עבור קובץ / תיקייה זו</GridRowAlertHint>
+  <GridRowRecentHint>אתר את הקובץ / תיקייה זו</GridRowRecentHint>
+  <GridRowAlertEventHint>לחץ כדי לעבור למיקום זה</GridRowAlertEventHint>
+
+  <ProgressCreating>יצירה</ProgressCreating>
+  <ProgressDeleting>מחיק</ProgressDeleting>
+  <ProgressLoading>טוען</ProgressLoading>
+  <ProgressSearching>חיפוש</ProgressSearching>
+  <ProgressZipping>כְּבִישָׁה</ProgressZipping>
+  <ProgressUnzipping>הוצאה</ProgressUnzipping>
+  <ProgressZipContents>כיצד משיגים את התוכן של ארכיון ZIP</ProgressZipContents>
+  <ProgressPrepareDownload>הכנה להורדה</ProgressPrepareDownload>
+  <ProgressMoving>התקדמות</ProgressMoving>
+  <ProgressCopying>הַעתָקָה</ProgressCopying>
+  <ProgressRenaming>שינוי שם</ProgressRenaming>
+  <ProgressUpdating>עִדכּוּן</ProgressUpdating>
+  <ProgressLoadingEditInPixlr>טוען Pixlr עורך</ProgressLoadingEditInPixlr>
+  <ProgressLoadingEdit>עורך Loading</ProgressLoadingEdit>
+  <ProgressSavingEdit>שמירת קובץ</ProgressSavingEdit>
+  <ProgressSaving>חִסָכוֹן</ProgressSaving>
+  <ProgressExecuting>מְבַצֵעַ</ProgressExecuting>
+
+  <BalloonFilesDeleted>{0} קובץ (ים) נמחק</BalloonFilesDeleted>
+  <BalloonFoldersDeleted>{0} תיקייה (S) נמחק</BalloonFoldersDeleted>
+  <BalloonFilesFailed>{0} קובץ (ים) נכשל</BalloonFilesFailed>
+  <BalloonFoldersFailed>{0} תיקייה (S) נכשלה</BalloonFoldersFailed>
+  <BalloonFilesZipped>{0} קובץ (ים) דחוס</BalloonFilesZipped>
+  <BalloonFoldersZipped>{0} תיקייה (S) דחוס</BalloonFoldersZipped>
+  <BalloonFilesCopied>{0} קובץ (ים) מועתק</BalloonFilesCopied>
+  <BalloonFoldersCopied>{0} תיקייה (S) מועתק</BalloonFoldersCopied>
+  <BalloonFilesMoved>{0} קובץ (ים) עבר</BalloonFilesMoved>
+  <BalloonFoldersMoved>{0} תיקייה (S) עברה</BalloonFoldersMoved>
+  <BalloonNotUnzipped>{0} קובץ (ים) לא פרק</BalloonNotUnzipped>
+  <BalloonFilesUploaded>{0} קובץ (ים) נטען</BalloonFilesUploaded>
+  <BalloonFilesNotUploaded>{0} קובץ (ים) לא נטען</BalloonFilesNotUploaded>
+  <BalloonSomeFilesNotUploaded>קבצים מסוימים לא ניתן להעלות</BalloonSomeFilesNotUploaded>
+  <BalloonCreatedSuccessfully>נוצר בהצלחה</BalloonCreatedSuccessfully>
+  <BalloonUnzippedSuccessfully>בהצלחה לא בחבילה</BalloonUnzippedSuccessfully>
+  <BalloonRenamedSuccessfully>שונה בהצלחה</BalloonRenamedSuccessfully>
+  <BalloonSavedSuccessfully>נשמר בהצלחה</BalloonSavedSuccessfully>
+  <BalloonCopiedToClipboard>הועתק ללוח</BalloonCopiedToClipboard>
+  <BalloonCopyToClipboardFailed>העתק ללוח נכשלה</BalloonCopyToClipboardFailed>
+
+  <CommandCopyToClipboard>העתק ללוח</CommandCopyToClipboard>
+  <CommandCopyLinkToClipboard>העתק את הקישור ללוח</CommandCopyLinkToClipboard>
+  <ClipboardScreenshotTitlePrefix>תמונה</ClipboardScreenshotTitlePrefix>
+  <ClipboardScreenshotHint>תמונות: אתה יכול להדביק צילום מסך מהלוח שלך (לחץ על &lt;b&gt; Ctrl+PrtSc &lt;/b&gt; ולאחר מכן &lt;b&gt; Ctrl+V &lt;/b&gt;) או תמונה מתוך העורך שלך (לחץ על &lt;b&gt; Ctrl+V &lt;/b&gt;).</ClipboardScreenshotHint>
+  <ClipboardFileHint>ניתן גם להדביק קובץ מלוח</ClipboardFileHint>
+
+  <CommandClouds>אחסון ענן</CommandClouds>
+  <CommandCloudsDownloadTo>להוריד כדי ...</CommandCloudsDownloadTo>
+  <CommandCloudsUploadFrom>להעלות מ ...</CommandCloudsUploadFrom>
+  <CommandCloudsAbout>אודות אחסון ענן</CommandCloudsAbout>
+  
+  <CommandBack>חזור</CommandBack>
+  <CommandForward>קָדִימָה</CommandForward>
+  <CommandRecentFolders>תיקיות אחרונות</CommandRecentFolders>
+  <CommandHome>בית</CommandHome>
+  <CommonActions>פעולות</CommonActions>
+  <CommandMultiSelect>בחירה מרובה</CommandMultiSelect>
+  <CommandShare>לַחֲלוֹק</CommandShare>
+  <CommandSorting>מִיוּן</CommandSorting>
+  
+  <CommandFileManager>חזור אל מנהל קבצים</CommandFileManager>
+  <CommandFolders>תיקיות</CommandFolders>
+  <CommandGridView>נוף</CommandGridView>
+  <CommandRefresh>לְרַעֲנֵן</CommandRefresh>
+  <CommandThumbnailView>תצוגת תמונה ממוזערת</CommandThumbnailView>
+  <CommandDetailedView>תצוגת רשימה</CommandDetailedView>
+  <CommandDetailsPane>חלונית הפרטים</CommandDetailsPane>
+  <CommandFavorites>מועדפים</CommandFavorites>
+  <CommandAddToFavorites>הוסף למועדפים</CommandAddToFavorites>
+  <CommandAddToFavoritesHint>הוסף את התיקייה הנוכחית למועדפים</CommandAddToFavoritesHint>
+  <AddingToFavoritesMessage>מוסיף למועדפים</AddingToFavoritesMessage>
+  <RemoveFromFavoritesMessage>מחיקת מהמועדפים</RemoveFromFavoritesMessage>
+  <FolderAlreadyAddedInFavorites>התיקייה "{0}" כבר קיימת במועדפים</FolderAlreadyAddedInFavorites>
+  <FolderAddedInFavoritesSuccessfully>התיקייה "{0}" נוספה בהצלחה למועדפים</FolderAddedInFavoritesSuccessfully>
+  <FavoritesIsOverflowed>לא ניתן היה להוסיף את התיקייה הנוכחית "{0}" למועדפים. מחק כמה מועדפים לפנות שטח ונסה שוב.</FavoritesIsOverflowed>
+  <RemoveFromFavoritesHint>הסר "{0}" מהמועדפים</RemoveFromFavoritesHint>
+  <AddToHomeScreenIOSHint>הקש {0} ולאחר מכן &lt;strong&gt; "הוסף למסך הבית" &lt;/strong&gt;</AddToHomeScreenIOSHint>
+  <CommandSearch>חפש</CommandSearch>
+  <CommandUpload>העלה</CommandUpload>
+  <CommandSettings>הגדרות</CommandSettings>
+  <CommandLanguage>שפה</CommandLanguage>
+  <CommandAdministration>מִנהָל</CommandAdministration>
+  <CommandAdminPanel>פאנל הניהול</CommandAdminPanel>
+  <CommandChangePassword>שנה סיסמא</CommandChangePassword>
+  <ProgressChangePassword>סיסמא שינוי</ProgressChangePassword>
+  <CommandChangeEmail>שנה כתובת אימייל</CommandChangeEmail>
+  <ProgressChangeEmail>דואר אלקטרוני שינוי</ProgressChangeEmail>
+  <CommandMobileView>ממשק נייד (טלפונים חכמים)</CommandMobileView>
+  <CommandStandardView>גרסה מלאה</CommandStandardView>
+  <CommandInstallIOSApp>התקנת האפליקציה IOS</CommandInstallIOSApp>
+  <CommandInstallAndroidApp>התקן יישום עבור Android</CommandInstallAndroidApp>
+  <CommandAddServerToMobileApp>להוסיף שרתים זו אפליקציה לנייד</CommandAddServerToMobileApp>
+  <CommandAddToHomeScreen>הוסף למסך הבית</CommandAddToHomeScreen>
+  <CommandDiagnostics>דף אבחון</CommandDiagnostics>
+  <CommandLicenseInfo>מידע רישיון</CommandLicenseInfo>
+  <CommandLogout>להתנתק</CommandLogout>
+  <CommandLogoutHint>לחץ כדי לסיים את ההפעלה הנוכחית</CommandLogoutHint>
+  <CommandNew>חָדָשׁ</CommandNew>
+  <CommandFile>קוֹבֶץ</CommandFile>
+  <CommandEmptyFile>קובץ ריק</CommandEmptyFile>
+  <CommandNewMSOODocument>מסמך עם באינטרנט MS-Office</CommandNewMSOODocument>
+  <CommandNewOffice365Document>מסמך עם Office 365</CommandNewOffice365Document>
+  <CommandNewMSOOWord>מסמך Word</CommandNewMSOOWord>
+  <CommandNewMSOOExcel>גיליון אלקטרוני של Excel</CommandNewMSOOExcel>
+  <CommandNewMSOOPowerPoint>מצגת פאוורפוינט</CommandNewMSOOPowerPoint>
+  <CommandNewGoogleDocument>מסמך עם Google</CommandNewGoogleDocument>
+  <CommandNewGoogleDocs>גוגל מסמכים</CommandNewGoogleDocs>
+  <CommandNewGoogleSheets>פחי Google</CommandNewGoogleSheets>
+  <CommandNewGoogleSlides>מצגות ב- Google</CommandNewGoogleSlides>
+  <CommandNewImage>תמונה ב Pixlr</CommandNewImage>
+  <CommandFolder>תיקייה</CommandFolder>
+  <CommandNewFile>קובץ חדש ריק</CommandNewFile>
+  <CommandNewFolder>תיקייה חדשה</CommandNewFolder>
+  <CommandNewWithTemplate>באמצעות תבנית ...</CommandNewWithTemplate>
+  <CommandRename>שינוי שם</CommandRename>
+  <CommandDelete>לִמְחוֹק</CommandDelete>
+  <CommandCopy>עותק</CommandCopy>
+  <CommandMove>מהלך \ לזוז \ לעבור</CommandMove>
+  <CommandCut>גזירה</CommandCut>
+  <CommandCopyTo>העתק אל ...</CommandCopyTo>
+  <CommandMoveTo>לעבור ל...</CommandMoveTo>
+  <CommandCopyCutClipboardSuffix>ללוח</CommandCopyCutClipboardSuffix>
+  <CommandPaste>לְהַדבִּיק</CommandPaste>
+  <CommandPasteInto>הדבק</CommandPasteInto>
+  <CommandZip>לדחוס ארכיון Zip</CommandZip>
+  <CommandZipMenu>Zip / Unzip</CommandZipMenu>
+  <CommandUnzip>Zip לפרוק</CommandUnzip>
+  <CommandUnzipSelected>לפרוק שנבחרו</CommandUnzipSelected>
+  <CommandUnzipAll>לפרוק את כל</CommandUnzipAll>
+  <CommandUnzipTo>אל התיקייה</CommandUnzipTo>
+  <CommandUnzipToCurrent>אל התיקייה הנוכחית</CommandUnzipToCurrent>
+  <MessageUnzipToFolder>הקלד את השם של תיקיה לפרוק את זה</MessageUnzipToFolder>
+  <MessageUnzipPasswordHint>אם אתה יודע סיסמה יש צורך לפרוק, הזן אותו בשדה למטה</MessageUnzipPasswordHint>
+  <MessageUnzipNeedPassword>נדרשת סיסמה כדי לפרוק את הקבצים</MessageUnzipNeedPassword>
+  <ZipPasswordProtectHint>כדי להגן בסיסמה בארכיון zip, הזן את הסיסמה בשדה להלן. אחרת, השאר את השדה ריק</ZipPasswordProtectHint>
+  <AppendToZipPasswordProtectHint>כדי להגן באמצעות סיסמה על הקבצים שנוספו לארכיון zip, הזן את הסיסמה בשדה להלן. אחרת, השאר את השדה ריק</AppendToZipPasswordProtectHint>
+  <ZipPasswordProtectWindowTitle>ארכב עם סיסמא</ZipPasswordProtectWindowTitle>
+  <OpenFolderAfterUnzipCheckBox>פתיחת תיקייה אחרי שרוקן</OpenFolderAfterUnzipCheckBox>
+  <CommandUnzipToNew>לתיקייה חדשה</CommandUnzipToNew>
+  <CommandZipContents>תוכן zip</CommandZipContents>
+  <ArchiveContentsTitle>תוכן ארכיון "{0}"</ArchiveContentsTitle>
+  <CommandDownload>הורדה</CommandDownload>
+  <CommonDownloadAll>הורד הכל</CommonDownloadAll>
+  <DownloadListDragFile>ניתן לגרור-n-drop קבצים אל שולחן העבודה שלך</DownloadListDragFile>
+  <CommandZipDownload>דחיסה ולהוריד</CommandZipDownload>
+  <CommandView>הצגה בדפדפן</CommandView>
+  <CommandDownloadOrView>הורדה או תצוגה</CommandDownloadOrView>
+  <CommandPreview>תצוגה מקדימה תמונות</CommandPreview>
+  <CommandFlashPreview>תצוגה מקדימה Flash</CommandFlashPreview>
+  <GettingSizeFlashMovie>גודל סרט פלאש התחלה</GettingSizeFlashMovie>
+  <CommandEdit>ערוך כקובץ טקסט</CommandEdit>
+  <CommandEditView>צפה כקובץ טקסט</CommandEditView>
+  <AceNotLoadedMessage>לא ניתן לטעון עורך אייס</AceNotLoadedMessage>
+  <VideoJsNotLoadedMessage>לא ניתן לטעון שחקן VideoJS</VideoJsNotLoadedMessage>
+  <CommandMenuEdit>לַעֲרוֹך</CommandMenuEdit>
+  <CommandSelectAll>בחר הכל</CommandSelectAll>
+  <CommandInvertSelection>בחירה הפוך</CommandInvertSelection>
+  <CommandLinkToFile>קישור לקובץ / תיקייה</CommandLinkToFile>
+  <!--Share link-->
+  <CommandMakePublicFolder>צור קשר הציבור</CommandMakePublicFolder>
+  <PublicViewInGoogle>הצג ב- Google</PublicViewInGoogle>
+  <PublicViewinOWA>צפה ב OWA</PublicViewinOWA>
+  <!--Make public folder (share)-->
+  <CommandViewWithGoogleDoc>הצג ב- Google Docs</CommandViewWithGoogleDoc>
+  <CommandViewWithShareCad>צפה ב ShareCad.org</CommandViewWithShareCad>
+  <CommandViewWithAutodesk>צפה ב Autodesk</CommandViewWithAutodesk>
+  <CommandViewWithBox>צפה במשבצת</CommandViewWithBox>
+  <CommandViewWithOWA>צפה ב- Office Web Apps</CommandViewWithOWA>
+  <CommandCloudConvert>המרה עם CloudConvert</CommandCloudConvert>
+  <ProgressGetCloudConvertOutputFormats>קבלת פורמטי פלט</ProgressGetCloudConvertOutputFormats>
+  <ProgressCloudConvertConverting>המרת</ProgressCloudConvertConverting>
+  <CloudConvertWindowTitle>ההמרה '{0}'</CloudConvertWindowTitle>
+  <CloudConvertWindowConvertButton>להמיר</CloudConvertWindowConvertButton>
+  <CloudConvertWindowOutputFormatsLabel>פורמט פלט</CloudConvertWindowOutputFormatsLabel>
+  <CloudConvertDownloadLinkLabel>קישור להורדה</CloudConvertDownloadLinkLabel>
+  <CloudConvertSaveAsLabel>Save as (סיומת תתווסף באופן אוטומטי):</CloudConvertSaveAsLabel>
+  <CloudConvertNoOutputFormats>אין פורמטים זמינים להמרה</CloudConvertNoOutputFormats>
+  <CloudConvertNoUrlForDownload>זה לא ירש לקבל את הקישור להורדה</CloudConvertNoUrlForDownload>
+  <ProgressCloudConvertUploading>העלאה מ CloudConvert</ProgressCloudConvertUploading>
+  <CloudConvertSaveAsNameBlank>שם סוג כאן</CloudConvertSaveAsNameBlank>
+  <CancelEditButton>בטל עריכה</CancelEditButton>
+  <HideButton>להתחבא</HideButton>
+  <EditDocumentCancelHint>לאחר סגירת החלון עם מסמך שערך, זה יהיה נשמר אוטומטית. &lt;br /&gt; ניתן להסתיר תיבה דו-שיח זו על ידי לחיצה {0} (במקרה זה, המסמך עדיין יישמר לאחר סגירת העורך). &lt;br /&gt; אם אינך רוצה לשמור את המסמך, לחץ {1} (במקרה זה, חלון העורך יהיה סגור).</EditDocumentCancelHint>
+  <EditDocumentSaveHint>עכשיו אתה יכול לשמור את השינויים במסמך על ידי לחיצה {0}. תשומת הלב! לאחר סגירת חלון העורך, זה יהיה גם נשמר אוטומטית.</EditDocumentSaveHint>
+  <CommandEditInMSOffice>ערוך ב- MS-Office</CommandEditInMSOffice>
+  <CommandEditInOOo>עריכת OpenOffice / LibreOffice</CommandEditInOOo>
+  <CommandViewInMSOffice>צפה ב- MS-Office</CommandViewInMSOffice>
+  <CommandViewInOOo>צפה ב OpenOffice / LibreOffice</CommandViewInOOo>
+  <CommandEditInPixlr>עריכת Pixlr</CommandEditInPixlr>
+  <CommandEditInAdobe>ערוך ב- Adobe Creative Cloud</CommandEditInAdobe>
+  <AdobeImageEditorSavedAsNewTypeMessage>התמונה השתנתה עורך תמונה Adobe כבר שנשמרה בתבנית {0}</AdobeImageEditorSavedAsNewTypeMessage>
+  <CommandEditInGoogle>עריכה ב- Google Drive</CommandEditInGoogle>
+  <EditInGoogleConvertMessage>לאחר לערוך את המסמך יומרו לפורמט {1} {0} {2}</EditInGoogleConvertMessage>
+  <EditInGoogleLinkError>לא ניתן לקבל את הקישור כדי לערוך את המסמך ב- Google Drive</EditInGoogleLinkError>
+  <EditInGoogleWaiting>מחכה לסיום העריכה ב- Google Drive</EditInGoogleWaiting>
+  <CommandEditInMSOO>עריכה מקוונת MS-Office</CommandEditInMSOO>
+  <EditInMSOOLinkError>לא ניתן לקבל את הקישור לערוך את המסמך ב- MS Office Online</EditInMSOOLinkError>
+  <EditInMSOOWaiting>מחכה לסיום ועריכה באינטרנט MS-Office</EditInMSOOWaiting>
+  <CommandEditInOffice365>ערוך ב- Office 365</CommandEditInOffice365>
+  <EditInOffice365LinkError>לא ניתן לקבל את הקישור לערוך את המסמך ב- Office 365</EditInOffice365LinkError>
+  <EditInOffice365Waiting>מחכה לסיום העריכה ב- Office 365</EditInOffice365Waiting>
+  <CommandSave>להציל</CommandSave>
+  <CommandSaveAs>שמור כ...</CommandSaveAs>
+  <CommandAppRestart>יש לאתחל את היישום</CommandAppRestart>
+  <CommandPlayVideoFlash>שחק וידאו בנגן פלאש</CommandPlayVideoFlash>
+  <CommandPlayVideoHtml5>הפעל וידאו</CommandPlayVideoHtml5>
+  <CommandPlayAudioHtml5>אודיו Play</CommandPlayAudioHtml5>
+  <CommandPlayVideo>הפעל וידאו</CommandPlayVideo>
+  <CommandPlayAudio>אודיו Play</CommandPlayAudio>
+  <CommandConvertVideo>המר וידאו</CommandConvertVideo>
+
+  <ViewInServiceLink>לחץ כאן כדי לראות את הקובץ</ViewInServiceLink>
+  <EditInServiceLink>לחץ כאן כדי לערוך את המסמך</EditInServiceLink>
+
+  <OfficeEditCopyLinkLabel>העתק את הקישור הבא ולפתוח אותו ביישום המשרד:</OfficeEditCopyLinkLabel>
+  <OfficeRunError>לא ניתן היה לשגר {0}</OfficeRunError>
+  <BadPathToFile>זה לא היה ניתן למצוא את הנתיב לקובץ</BadPathToFile>
+  <FixBasicAuthAlertTitle>תשומת הלב!</FixBasicAuthAlertTitle>
+  <FixBasicAuthAlertMessage>Microsoft Office עובד עם אימות בסיסית ללא SSL! אתה יכול לתקן את זה עבור Office שלך. לקבלת מידע נוסף, עיין {0}.</FixBasicAuthAlertMessage>
+  <FixBasicAuthAlertCheckBoxText>לא להראות את הדיאלוג הזה יותר.</FixBasicAuthAlertCheckBoxText>
+  <CommandDetails>פרטים</CommandDetails>
+  <CommonButtonCaptionAddDetail>הוספת פרטים</CommonButtonCaptionAddDetail>
+  <CommonButtonCaptionAddComment>הוסף תגובה</CommonButtonCaptionAddComment>
+  <DetailsWindowTitle>פרטים "{0}"</DetailsWindowTitle>
+  <FileDetailsSave>החל שינויים</FileDetailsSave>
+  <FileDetailsIgnoreChanges>להתעלם</FileDetailsIgnoreChanges>
+  <FileDetailsCloseConfirmTitle>בחלון פרטי הקובץ עומד בפני סגירה</FileDetailsCloseConfirmTitle>
+  <FileDetailsCloseConfirmMsg>תשומת הלב! השינויים לא נשמרו עדיין. בחר פעולה אשר ברצונך להחיל שינויים אלה לפני סגירת החלון.</FileDetailsCloseConfirmMsg>
+  <FileDetailsGridTitleColumn>כותרת</FileDetailsGridTitleColumn>
+  <FileDetailsGridAuthorColumn>המחבר אחרון</FileDetailsGridAuthorColumn>
+  <LoadingDetailsMask>טוען את הפרטים</LoadingDetailsMask>
+  <NewDetailsTitle>כותרת חדשה</NewDetailsTitle>
+  <NewDetailsValue>ערך פרטים חדש</NewDetailsValue>
+  <DetailsSavingMsg>שמירת פרטים</DetailsSavingMsg>
+  <ProgressLoadingEditInOffice>הכנות לקראת עריכת ב- Office</ProgressLoadingEditInOffice>
+  <MenuFilterText>מסנן</MenuFilterText>
+  <EmptyTextFilter>הזן מסנן ...</EmptyTextFilter>
+  <AfterDateFilterText>לאחר</AfterDateFilterText>
+  <BeforeDateFilterText>לפני</BeforeDateFilterText>
+  <OnDateFilterText>עַל</OnDateFilterText>
+  <YesBooleanFilterText>כן</YesBooleanFilterText>
+  <NoBooleanFilterText>לא</NoBooleanFilterText>
+  <CommandEditWithZoho>עריכת Zoho</CommandEditWithZoho>
+  <ZohoNotSupportedFormatMessage>ההארכה אינה נתמכת על ידי Zoho. ראה {0}.</ZohoNotSupportedFormatMessage>
+  <ProgressLoadingEditInZoho>עורך טוען Zoho</ProgressLoadingEditInZoho>
+  <CommandSubMenuViewAndEdit>הצג / ערוך</CommandSubMenuViewAndEdit>
+  <CommandSubMenuShare>לַחֲלוֹק</CommandSubMenuShare>
+  <CommandSubMenuMore>יותר</CommandSubMenuMore>
+  <StopUploadingButtonText>תפסיק</StopUploadingButtonText>
+  <SimpleUploadErrorInfo>בעת העלאת הקובץ (ים) אירעה שגיאה. &lt;br /&gt; ראה {0} עבור &lt;/a&gt; מידע נוסף</SimpleUploadErrorInfo>
+  <BalloonAbortFilesUploaded>העלאת קבצים בוטלה</BalloonAbortFilesUploaded>
+  <UploadDragNDropTab>גרירה ושחרור</UploadDragNDropTab>
+  <UploadDragNDropTabImages>תמונות Drag &amp;Drop +</UploadDragNDropTabImages>
+  <DnDGridProgressColumn>התקדמות</DnDGridProgressColumn>
+  <DnDFileReadingError>שגיאה בקריאה. קוד שגיאה: {0}.</DnDFileReadingError>
+  <DnDFileReadingAbort>קריאה בוטל. קוד שגיאה: {0}.</DnDFileReadingAbort>
+  <DnDFileUploadingError>שגיאה בהעלאה. {0}</DnDFileUploadingError>
+  <DnDFileUploadingAbort>העלאה בוטלה.</DnDFileUploadingAbort>
+  
+  <CommandWebFoldersLinks>תיקיות אינטרנט מפה</CommandWebFoldersLinks>
+  <CommandSyncWebFolders>סנכרון עם תיקייה מקומית</CommandSyncWebFolders>
+  <WebFolderLinksFieldLabel>קישורי אינטרנט-תיקייה</WebFolderLinksFieldLabel>
+  <WebFolderLinksForWindows64Note>לחצו על צירוף המקשים {0} Win+R {1}. הכנס את שורת הפקודה {0} להרחיב: {1} השדה (ראו דוגמאות שורת הפקודה להלן), לחץ {0} אישור {1}. עבור אימות Windows שימוש בשמות דומיין מלא: {2}.</WebFolderLinksForWindows64Note>
+  <OpenLibreOfficeRunCommandNote>או לחץ על צירוף המקשים {0} Win+R {1}, הכנס את שורת הפקודה להלן {0} להרחיב: {1} השדה והקש {0} אישור {1}</OpenLibreOfficeRunCommandNote>
+  <WebFolderLinksForMacOSNote>בתפריט "Finder", פתוח {0} המתווכת&gt; להתחבר לשרת {1}. הכנס את הקישור של תיקיית האינטרנט של "כתובת שרת" {0} {1} השדה. לחץ {0} "חבר" {1}. בתיבת הדו-השיח החדש בחר {0} "אורח" {1} או {0} "משתמש רשום" {1} (עבור אימות Windows). לחץ {0} "חבר" {1}.</WebFolderLinksForMacOSNote>
+  <WebFolderLinksForUbuntuNote>מיקום פתח {0} המתווכת&gt; ... {1} העתק את הקישור של תיקיית אינטרנט לשדה מיקום.</WebFolderLinksForUbuntuNote>
+  <LinksToWebFoldersWindowText>ניתן למפות תיקיות שאתה רואה ככונן רשת ב OS המקומי. לאחר המיפוי אתה יכול לעבוד עם קבצים כמו עם אלה מקומיים או לערוך מסמכים ב- MS-Office או OpenOffice. עיין בעזרה על כיצד למפות {0}.</LinksToWebFoldersWindowText>
+  <CommonFileTypeNameCaption>"{0}" שם הקובץ</CommonFileTypeNameCaption>
+  <CommonFileTypeNamePrompt>זן חדש "{0}" שם קובץ</CommonFileTypeNamePrompt>
+  
+  <PixlrEditorWindowTitle>עורך Pixlr {0}</PixlrEditorWindowTitle>
+  <PixlrSaveImageSuccessMessage>הדימוי "{0}" ניצל בהצלחה. רענן את הרשימה אם שמרת את התמונה עם שם חדש.</PixlrSaveImageSuccessMessage>
+  <CommonFileImageNewName>תמונה חדשה</CommonFileImageNewName>
+  <CommandChangeTheme>לשנות נושא</CommandChangeTheme>
+  
+  <CommandHelp>עֶזרָה</CommandHelp>
+
+  <OpeningShortcutProgress>קיצור פתיחה</OpeningShortcutProgress>
+  <CommandCreateShortcut>קיצור דרך (קישור סמלי)</CommandCreateShortcut>
+  <ShortcutNameHint>שם קיצור</ShortcutNameHint>
+  <ShortcutTargetPathHint>נתיב יעד</ShortcutTargetPathHint>
+  <CreateShortcutButtonTitle>לִיצוֹר</CreateShortcutButtonTitle>
+  <CreatingShortcutProgress>קיצור יצירה</CreatingShortcutProgress>
+  <CreateShortcutSuccessMessage>קיצור דרך "{0}" נוצר בהצלחה עבור "{1}".</CreateShortcutSuccessMessage>
+
+  <OpeningInternetShortcutProgress>פתיחת קיצור דרך לאינטרנט</OpeningInternetShortcutProgress>
+  <InternetShortcutNotValidMsg>כתובת אתר היעד של קיצור אינטרנט זה אינו תקף</InternetShortcutNotValidMsg>
+  <InternetShortcutWindowTitle>ללכת קישור</InternetShortcutWindowTitle>
+  
+  <CommandVersioning>גירסאות</CommandVersioning>
+  <CommandVersionHistory>היסטוריית גירסאות</CommandVersionHistory>
+  <CommandCheckOut>לבדוק</CommandCheckOut>
+  <CommandCheckIn>קבלה</CommandCheckIn>
+  <CommandUndoCheckOut>ביטול Check out</CommandUndoCheckOut>
+  <VersionHistoryObtainingMessage>היסטוריית גירסאות קבלת</VersionHistoryObtainingMessage>
+  <NoVersionHistoryMessage>היסטורית הגרסה לקובץ שבחר אינה קיימת</NoVersionHistoryMessage>
+  <FileIsCheckedOutMessage>הקובץ "{0}" כבר מסומן על ידי המשתמש "{1}" של {2}</FileIsCheckedOutMessage>
+  <CheckingOutMessage>בודק</CheckingOutMessage>
+  <SuccessfullyCheckedOutMessage>הקובץ "{0}" הוצא בהצלחה על ידי המשתמש "{1}"</SuccessfullyCheckedOutMessage>
+  <FileIsNotCheckedOutMessage>הקובץ "{0}" לא נבדק החוצה עדיין</FileIsNotCheckedOutMessage>
+  <FileIsCheckedOutOtherUserMessage>הקובץ "{0}" מסומן על ידי משתמש אחר "{1}" של {2}.</FileIsCheckedOutOtherUserMessage>
+  <FileUndoCheckOutForbiddenMessage>אתה לא יכול לבטל צ'ק מיושם על ידי משתמש אחר.</FileUndoCheckOutForbiddenMessage>
+  <FileCheckInForbiddenMessage>אתה לא יכול לבדוק בקובץ שכבר נבדק על ידי משתמש אחר.</FileCheckInForbiddenMessage>
+  <FileUndoCheckOutConfirmMessage>אם תבטל את ההמחאה החוצה, השינויים חלים על המסמך לא יישמרו! האם אתה בטוח שאתה רוצה לבטל את הסימון שלך החוצה?</FileUndoCheckOutConfirmMessage>
+  <FileVersionDeleteConfirmTitle>מחיקה של גרסת הקובץ</FileVersionDeleteConfirmTitle>
+  <FileVersionDeleteConfirmMessage>האם אתה בטוח שאתה רוצה למחוק את הגרסה שנבחרה של הקובץ?</FileVersionDeleteConfirmMessage>
+  <FileVersionRestoreConfirmTitle>שחזור של גרסת הקובץ</FileVersionRestoreConfirmTitle>
+  <FileVersionRestoreConfirmMessage>האם אתה בטוח כי ברצונך לשחזר את הגרסה הנבחרת של הקובץ? {0} אם כן, ציין את הקובץ שבו הגרסה הנבחרת תישמר. אם תשאיר ערך זה ללא שינויים (או להגדיר ערך ריק) הגרסה הנבחרת תחליף את הקובץ הנבחר (תוכן הקודם של הקובץ יתווסף בהיסטורית הגרסה) {1} שם קובץ.:</FileVersionRestoreConfirmMessage>
+  <UndoCheckingOutMessage>ביטול Check Out</UndoCheckingOutMessage>
+  <SuccessfullyUndoCheckedOutMessage>הביטול הבדוק עבור קובץ "{0}" הושלם בהצלחה.</SuccessfullyUndoCheckedOutMessage>
+  <SuccessfullyCheckedInMessage>הקובץ "{0}" מסומן ב בהצלחה על ידי המשתמש "{1}"</SuccessfullyCheckedInMessage>
+  <CheckingInMessage>להרשם</CheckingInMessage>
+  <VersionHistoryTitle>גירסאות קובץ "{0}"</VersionHistoryTitle>
+  <VersionHistoryGridNumberColumn>Ver.</VersionHistoryGridNumberColumn>
+  <VersionHistoryGridNotesColumn>הערות</VersionHistoryGridNotesColumn>
+  <CommandRestoreVersion>לשחזר</CommandRestoreVersion>
+  <ProgressPrepareDownloadOldVersion>הכנות לקראת הורדת גרסה ישנה</ProgressPrepareDownloadOldVersion>
+  <FileVersionNotFoundMessage>גירסת הקובץ שנבחר לא נמצאה.</FileVersionNotFoundMessage>
+  <ProgressDeletingVersion>מחיקת הגרסה</ProgressDeletingVersion>
+  <ProgressRestoringVersion>שחזור גרסה</ProgressRestoringVersion>
+  <FileNeedCheckInMessage>אנא קראו או לבטל את הצ'ק אאוט עבור הקובץ שנבחר ונסה שוב.</FileNeedCheckInMessage>
+  <FileCheckedOutEditForbiddenMessage>אתה לא יכול לשנות / לשנות / להזיז / למחוק קובץ "{0}" בזמן שהוא בדק את ידי המשתמש "{1}" של {2}</FileCheckedOutEditForbiddenMessage>
+  <FileUploadCheckInLabel>ניתן לבצע צ'ק-אין הקובץ שנבחר או להעלות גרסה חדשה של הקובץ (להשתמש בטופס להעלות בהמשך). אם אתה רוצה ליצור גרסה חדשה של קובץ שנבחר, לא להעלות קבצים כאן.</FileUploadCheckInLabel>
+  <FileUploadCheckInInvalidFileName>השם של התמונה שהועלתה צריך להיות זהה בדיוק כמו השם של הקובץ שנבחר</FileUploadCheckInInvalidFileName>
+  <CheckOutVersionNotes>גרסה זו נוצרה באופן אוטומטי</CheckOutVersionNotes>
+  <RestoreVersionNotes>גרסה זו נוצרה באופן אוטומטי לאחר השחזור של הגרסה מ- {0} של משתמש "{1}"</RestoreVersionNotes>
+  <IsCheckedOutHint>הקובץ נבדק החוצה</IsCheckedOutHint>
+  <ExistsOldVersionsHint>יש קובץ גירסאות אחרות</ExistsOldVersionsHint>
+  <IsLockedHint>הקובץ נעול</IsLockedHint>
+  <FileWasCreatedHint>נוצר {0} לפני</FileWasCreatedHint>
+  <FileWasModifiedHint>שונתה {0} לפני</FileWasModifiedHint>
+  <CommonChangedAgo>{0} לפני</CommonChangedAgo>
+  <DaysShort>ד</DaysShort>
+  <HoursShort>h</HoursShort>
+  <MinutesShort>M</MinutesShort>
+  <FileContainsMetaDataHint>מכיל כמה פרטים (metadata)</FileContainsMetaDataHint>
+  <FileMetaDataCaptionMobile>מידע נוסף</FileMetaDataCaptionMobile>
+
+  <ExistsPublicLinksFileHint>יש קובץ קישורים הציבור</ExistsPublicLinksFileHint>
+  <ExistsPublicLinksFolderHint>יש תיקיית קישורים הציבור</ExistsPublicLinksFolderHint>
+  <PublicLinkNotFound>קישור ציבורי "{0}" לא נמצא</PublicLinkNotFound>
+
+  <PublicLinksDeleteWindowTitle>מחק את הקישור הציבור (ים)</PublicLinksDeleteWindowTitle>
+  <PublicLinksDeleteLinkButton>מחק את הקישור</PublicLinksDeleteLinkButton>
+  <PublicLinksDeleteConfirmMsg>האם אתה בטוח שאתה רוצה למחוק את קישורי הציבור שנבחרו?</PublicLinksDeleteConfirmMsg>
+  <PublicLinksDeleteSingleConfirmMsg>האם אתה בטוח שאתה רוצה למחוק את הקישור הזה?</PublicLinksDeleteSingleConfirmMsg>
+
+  <DetailsMultiValue>(ערך רב)</DetailsMultiValue>
+
+  <GridBottomFilesSizeInfo>נבחרת: {0} / {1},</GridBottomFilesSizeInfo>
+  <GridBottomFilesFoldersInfo>קבצים: {0} / {1}, תיקיות: {2} / {3}</GridBottomFilesFoldersInfo>
+
+  <AmountOfDownloadingsFile>הורדות</AmountOfDownloadingsFile>
+
+  <CookiesDisabledMessage>הפונקציונליות של קובצי cookies בדפדפן שלך כבויה. הפעל אותה והפעל מחדש את הדפדפן.</CookiesDisabledMessage>
+
+  <CommandSendEmail>שלח אימייל</CommandSendEmail>
+  <CommandSendWithGmail>שליחה באמצעות Gmail</CommandSendWithGmail>
+  <CommandSendWithOutlook>שלח עם Outlook</CommandSendWithOutlook>
+  <SendEmailTo>ל</SendEmailTo>
+  <SendEmailBulkMailingListHint>&lt;b&gt; רשימת תפוצה &lt;/b&gt; &lt;br /&gt; ניתן לציין קבוצות שלמות כדי לשלוח דואר אלקטרוני שלך</SendEmailBulkMailingListHint>
+  <SendEmailBulkMailingListWindowTitle>מקלטים בחרו עבור הדוא"ל שלך</SendEmailBulkMailingListWindowTitle>
+  <SendEmailEmptyMailingListMessage>רשימת Mail ריק</SendEmailEmptyMailingListMessage>
+  <SendEmailSenderEmail>דוא"ל השולח</SendEmailSenderEmail>
+  <SendEmailSubject>נושא</SendEmailSubject>
+  <SendEmailFilesAsLinksTo>שלח קישורים לקבצים שנבחרו</SendEmailFilesAsLinksTo>
+  <SendEmailFilesAsAttachements>שלח את הקבצים שנבחרו כקבצים מצורפים</SendEmailFilesAsAttachements>
+  <SendEmailSend>לִשְׁלוֹחַ</SendEmailSend>
+  <SendEmailProgressMessage>שליחת דוא"ל</SendEmailProgressMessage>
+  <GettingMailingListProgressMessage>קבלה לרשימת תפוצה</GettingMailingListProgressMessage>
+  <SendEmailSuccessMessage>האימייל נשלח בהצלחה.</SendEmailSuccessMessage>
+  <SendEmailResultsMessage>נשלח:. {0} &lt;br /&gt; נכשלה: {1} {2}.</SendEmailResultsMessage>
+  <SmtpServerSettingsIncorrect>אפשרויות שרת SMTP הן ריקות או שגויים</SmtpServerSettingsIncorrect>
+  <FromEmailIncorrect>הכתובת מהמייל שגויה או ריק</FromEmailIncorrect>
+  <ToEmailIncorrect>'אל כתובת דוא"ל שגויה או ריק</ToEmailIncorrect>
+  <EmailSubjectEmpty>נושא הדוא"ל לא צוין</EmailSubjectEmpty>
+  <UploadFromUrlTab>מכתובת האתר</UploadFromUrlTab>
+  <UploadFromUrlFieldLabel>כתובת אתר (HTTP או עורפי FTP)</UploadFromUrlFieldLabel>
+  <UploadFromUrlProgressTitle>טען מכתובת האתר</UploadFromUrlProgressTitle>
+  <UploadFromUrlMsg>העלאת מ- URL</UploadFromUrlMsg>
+  <UploadFromUrlSuccessMsg>הקובץ "{0}" הועלה בהצלחה "{1}"</UploadFromUrlSuccessMsg>
+  <UploadFromUrlUnknownResponse>התגובה מהשרת אינה מוכרת</UploadFromUrlUnknownResponse>
+  <UploadFromUrlEmptyFileName>השם של הקובץ שהועלה ריק</UploadFromUrlEmptyFileName>
+  <UploadFromUrlFileName>שמור עם שם (השאר ריק כדי להשתמש בשם מכתובת אתר)</UploadFromUrlFileName>
+  <UploadFromUrlFileNameMobile>שמור עם שם</UploadFromUrlFileNameMobile>
+  
+  <!-- Common Clouds keys -->  
+  <CloudAuthenticateMessage>יש להתחבר על {0}. לחץ על "{1}" הקישור ואתה תופנה לטופס הכניסה. {2} מידע נוסף. {3}</CloudAuthenticateMessage>
+  <CloudAuthenticateLink>אימות עם {0}</CloudAuthenticateLink>  
+  <CloudDownloadingMessage>הורדתי ל {0}</CloudDownloadingMessage>
+  <CloudAuthWarningMessage>אם הפעולה לא קרה, בבקשה לסגור את החלון ולחץ על "{0}" הקישור שוב.</CloudAuthWarningMessage>
+  <CloudAuthEmptyInvalidMessage>{0} גישת האסימון ריק או לא חוקי. אנא אמת שוב.</CloudAuthEmptyInvalidMessage>
+  <CloudDownloadEndMessageTitle>הורד סיים</CloudDownloadEndMessageTitle>
+  <CloudDownloadFilesSuccessMessage>{0} קובץ (ים) שהורדת בהצלחה "{1}" {2} התיקייה.</CloudDownloadFilesSuccessMessage>
+  <CloudNotDownloadedFilesMessage>{0} קובץ (ים) לא הורד:</CloudNotDownloadedFilesMessage>
+  <CloudFoldersCreatedSuccessMessage>{0} תיקיות (ים) נוצרו בהצלחה "{1}" {2} תיקייה.</CloudFoldersCreatedSuccessMessage>
+  <CloudNotFoldersCreatedMessage>{0} תיקיות (ים) לא נוצר:</CloudNotFoldersCreatedMessage>
+  <CloudFilesFoldersSuccessMessage>{0} קובץ (ים), {1} תיקייה (ים) שהורידה בהצלחה "{2}" {3} תיקייה.</CloudFilesFoldersSuccessMessage>
+  <CloudNotFilesFoldersDownloadedMessage>{0} קובץ (ים), {1} התיקייה (ים) לא הורדו:</CloudNotFilesFoldersDownloadedMessage>
+  <CloudLinkText>בקר {0}</CloudLinkText>
+  <CloudLinkDescription>עבור אל {0} דף</CloudLinkDescription>
+  <CloudRootFolderName>&lt;b&gt; {0} בתיקיית השורש &lt;/b&gt;</CloudRootFolderName>
+  <CloudCheckFolerMessage>אנא קרא תיקייה אחת {0} כדי להמשיך.</CloudCheckFolerMessage>
+  <CloudSelectFolderMessage>אנא בחר {0} תיקייה להמשיך.</CloudSelectFolderMessage>
+  <CloudGetFoldersInfoProgressMessage>טוען {0} מידע תיקיות</CloudGetFoldersInfoProgressMessage>
+  <CloudGetItemsInfoProgressMessage>פריטים טוען {0} מידע</CloudGetItemsInfoProgressMessage>
+  <CloudUploadSelectItemsMessage>אנא בחר {0} פריטים להמשיך.</CloudUploadSelectItemsMessage>
+  <CloudUploadTotalFiles>סה"כ קבצים: {0} ({1})</CloudUploadTotalFiles>
+  <CloudUploadProgressMessage>העלאת מ- {0}</CloudUploadProgressMessage>
+  <CloudSignInAsDifferentUserText>התנתקות מ- {0}</CloudSignInAsDifferentUserText>
+  <CloudLogoutProgressMsg>התנתקות מ- {0}</CloudLogoutProgressMsg>
+  <CloudRevokeTokenMsg>אסימון שלילה</CloudRevokeTokenMsg>
+  <CloudRefreshTokenMsg>אסימון רענון</CloudRefreshTokenMsg>
+  <CloudAuthNotCompleteMsg>אימות לא הושלם. &lt;br /&gt; אנא</CloudAuthNotCompleteMsg>
+  <CloudTrustedSitesMsg> לבדוק באי אתרים ברשימת 'אתרים מהימנים': &lt;br /&gt; &lt;br /&gt;</CloudTrustedSitesMsg>
+  <TrustedSitesForMicrosoftEdge>אם אתה משתמש קצה של מיקרוסופט, ולאחר מכן לבדוק את האתרים המהימנים ב- Internet Explorer</TrustedSitesForMicrosoftEdge>
+  <CloudCheckAuthMsg>בדוק {0} אימות</CloudCheckAuthMsg>
+  <CloudLoadMsg>טוען {0}</CloudLoadMsg>
+  <CloudFreeSpaceError>אין מספיק מקום {2} כדי להעלות את הקבצים. ובכן: {0}. גודל קובץ: {1}.</CloudFreeSpaceError>
+  <CloudFreeSpaceExceeded>אין מספיק מקום {0}</CloudFreeSpaceExceeded>
+  <CloudExceedFileSizeError>הקובץ שאתה מנסה להוריד יש קובץ בגודל של {1}, שהוא גדול יותר מהגודל המרבי המותר להורדה - {0}.</CloudExceedFileSizeError>
+  <CloudFolderNotFound>המדריך לא נמצא. אולי זה נמחק</CloudFolderNotFound>
+  <CloudFileNotFound>הקובץ לא נמצא. אולי זה נמחק</CloudFileNotFound>
+  <CloudNoFoldersMessage>אין תיקיות לתצוגה</CloudNoFoldersMessage>
+  <CloudLibraryNotLoadedMsg>{0} הספרייה הלקוח אינו טעון! &lt;br /&gt; אנא בדקו את חיבור האינטרנט, או לרענן את הדף. &lt;br /&gt; כמו כן</CloudLibraryNotLoadedMsg>
+  <CloudDownloadWithNewNames>בעקבות קובץ (ים) שהוריד עם שמות חדשים:</CloudDownloadWithNewNames>
+
+  <!-- Google Drive Cloud keys -->
+  <CommandDownloadToGoogleDocs>הורד אל Google Drive</CommandDownloadToGoogleDocs>
+  <GoogleDocsSaveAs>שמור כ:</GoogleDocsSaveAs>
+  <GoogleDocsSaveAsTitle>שמור "{0}" כמו ...</GoogleDocsSaveAsTitle>
+  <GoogleDocsDownloadEndWarningMessage>אם אינך יכול לראות את המסמכים נטען בחשבון Google Drive שלך, המתן מספר שניות לרענן את הרשימה של Google Drive.</GoogleDocsDownloadEndWarningMessage>
+  <GoogleDriveUploadNoFilesMessage>אין קבצים ב- Google Drive להעלאה</GoogleDriveUploadNoFilesMessage>
+  <GoogleDriveMaxUploadSizeError>עבור סוג תוכן "{0}" הגודל המרבי של העלאת {1} הוא חריג.</GoogleDriveMaxUploadSizeError>
+  <GoogleDriveConvertMsg>אם זה אפשרי, להמיר קבצים לפורמט Google Documents. {0} מידע נוסף {1}.</GoogleDriveConvertMsg>
+
+  <!-- Box Cloud keys -->
+  <CommandDownloadToBox>הורד לתיבה</CommandDownloadToBox>
+  <BoxDownloadWithNewNames>הקובץ הבא (ים) עודכנו עם גרסאות חדשות:</BoxDownloadWithNewNames>
+  <BoxNoViewPermission>אין לך הרשאה להציג את המדריך שנבחר</BoxNoViewPermission>
+  <BoxNoDownloadPermission>אתה אין לך הרשאה להוריד</BoxNoDownloadPermission>
+  <BoxNoUploadPermission>אתה אין לך הרשאה להעלות</BoxNoUploadPermission>
+  <BoxUnableCreateOrInfoError>לא ניתן ליצור או להשיג מידע</BoxUnableCreateOrInfoError>
+  
+  <!-- Dropbox Cloud keys -->
+  <CommandDownloadToDropbox>הורד אל Dropbox</CommandDownloadToDropbox>
+  
+  <!-- OneDrive Cloud keys -->
+  <CommandDownloadToSkyDrive>הורד אל onedrive</CommandDownloadToSkyDrive>
+  <AuthenticateOAuthSkyDriveMessageShort>עליך להיכנס לחשבון של Microsoft Live שלך.</AuthenticateOAuthSkyDriveMessageShort>
+  <SkyDriveAuthAlsoString>גַם</SkyDriveAuthAlsoString>
+  <SkyDriveLoginButtonTitle>התחברות</SkyDriveLoginButtonTitle>
+  <SkyDriveRegistryMessage>אין לך מזהה Windows Live? {0} הירשם ... {1}</SkyDriveRegistryMessage>
+  <SkyDriveMapRootFolder>הערה! תוכל {0} מפת {1} תיקיית onedrive שלך. נתיב הוא</SkyDriveMapRootFolder>
+  <SkyDriveMoreInfoLink>{0} מידע נוסף על onedrive (SkyDrive) {1}</SkyDriveMoreInfoLink>
+  <OneDriveMaxUploadSizeError>הגודל הקביל ({0}) של התמונה שהועלתה הוא חריגה: {1}</OneDriveMaxUploadSizeError>
+  <!-- OneDrive for Business -->
+  <OneDriveForBusinessMapWebFolderInfo>&lt;b&gt; הערה! &lt;/b&gt; לפני פתיחת קבצים במיקום זה, תחילה עליך להוסיף את אתר האינטרנט לרשימת האתרים המהימנים שלך, לגלוש לאתר האינטרנט, ובחר באפשרות להתחבר אוטומטית (בדפדפן IE).</OneDriveForBusinessMapWebFolderInfo>
+  
+  <UploadFromUrlLabelText>ניתן לציין את כתובת ה- URL של קובץ מאוחסן על שרת קבצים עולמי או שירות שיתוף קבצים כגון {0}, {1}, {2}, {3}, {4}.</UploadFromUrlLabelText>
+  <UploadFromUrlLabelTextMobile>ציין את כתובת האתר של הקובץ</UploadFromUrlLabelTextMobile>
+
+  <LinkToFileTitle>קישור לקובץ / תיקייה</LinkToFileTitle>
+  <LinkToFileWarningAnonym>קישור זה מספק גישה אנונימית לקובץ. כל משתמש, גם אחד שאין לו חשבון באתר זה, עשוי להוריד או להעלות קבצים באמצעות קישור ציבורי. קישור ציבורי קובץ מאפשר לך להוריד קובץ אחד נבחר. {0} מידע נוסף {1}.</LinkToFileWarningAnonym>
+  <LinkToFileDownloadFileLink>קישור זה מאפשר לך להוריד את הקובץ שנבחר {0} מ- {1}. אתה צריך חשבון חוקי להשתמש בקישור זה. זה אינו מספק גישה אנונימית לקובץ.</LinkToFileDownloadFileLink>
+  <LinkToFileExpireDate>תאריך תפוגה</LinkToFileExpireDate>
+  <LinkToFileDownloadCnt>מהכמות המותרת להורדה</LinkToFileDownloadCnt>
+  <LinkToFileDownloadType>סוג הקישור</LinkToFileDownloadType>
+  <LinkToFileGenerate>צור קשר</LinkToFileGenerate>
+  <LinkToFilePasswordNotMatch>סיסמאות לא תואמות</LinkToFilePasswordNotMatch>
+  <LinkToFilePasswordRequired>הסיסמה עבור הקישור הציבורי נדרשה</LinkToFilePasswordRequired>
+  <LinkToFileInvalidForm>פרמטרים לא חוקיים</LinkToFileInvalidForm>
+  <LinkToFileAnonymDownloadLinkHint>קישור ציבורי "{0}":</LinkToFileAnonymDownloadLinkHint>
+  <LinkToFileAnonymDownloadShortLinkHint>קישור ציבור קצר עבור "{0}":</LinkToFileAnonymDownloadShortLinkHint>
+  <LinkToFileOpenFolderLink>קישור זה מאפשר לך לפתוח את התיקיה שנבחרה {0} ב {1}. אתה צריך חשבון חוקי להשתמש בקישור זה. זה אינו מספק גישה אנונימית לתיקייה.</LinkToFileOpenFolderLink>
+  <LinkToFileOpenFileLink>קישור זה פותח את התיקייה עם קובץ ומדגיש אותו</LinkToFileOpenFileLink>
+  <LinkToFileDaysLeft>ימים שנותרו</LinkToFileDaysLeft>
+  <LinkToFileCaptionMobile>קישורים ציבוריים</LinkToFileCaptionMobile>
+
+  <PublicFolderLinkHint>קישור הציבור אל תיקייה "{0}":</PublicFolderLinkHint>
+  <PublicFolderShortLinkHint>הקישור הציבור קצר אל התיקייה "{0}":</PublicFolderShortLinkHint>
+  <PublicFolderLinkDownloadZipHint>קישור להורדה עבור ארכיון zip של תיקייה "{0}":</PublicFolderLinkDownloadZipHint>
+  <PublicFolderLinkShortDownloadZipHint>קישור להורדה קצר על מנת לנהל ארכיוני zip של תיקייה "{0}":</PublicFolderLinkShortDownloadZipHint>
+  <PublicFolderLinkZipDownload>דחיסה ולהוריד תיקייה הנוכחית {0} (בארכיון ZIP)</PublicFolderLinkZipDownload>
+  <PublicFolderLinkOverwriteWhileUpload>החלף קיים</PublicFolderLinkOverwriteWhileUpload>
+  <PublicFolderLinkOpenFolderHint>תיקייה פתוחה</PublicFolderLinkOpenFolderHint>
+  <PublicFolderDownloadDisabledNote>הערה! הבעלים של תיקייה זו אסרו הורדת קבצים מתיקיה זו.</PublicFolderDownloadDisabledNote>
+  <PublicFolderLinkSendEmails>שלח מידע על פעילות מבקרי מיילים</PublicFolderLinkSendEmails>
+  <PublicFolderAnonymAccessControl>בקרת גישה</PublicFolderAnonymAccessControl>
+  <PublicFolderAnonymDownload>להוריד קבצים</PublicFolderAnonymDownload>
+  <PublicFolderAnonymZipDownload>תיקיות להורדה (ZIP)</PublicFolderAnonymZipDownload>
+  <PublicFolderAnonymUpload>העלה</PublicFolderAnonymUpload>
+  <PublicFolderAnonymViewContent>רשימת קבצים צפו</PublicFolderAnonymViewContent>
+  <PublicFolderNoteForUsers>הערה למשתמשים</PublicFolderNoteForUsers>
+  <PublicFolderACLNotSet>בקרת גישה אינה מוגדרת</PublicFolderACLNotSet>
+  <PublicFolderWarningAnonym>קישור זה מספק גישה אנונימית לתיקייה. כל משתמש, גם אחד שאין לו חשבון באתר זה, עשוי להוריד או להעלות קבצים באמצעות קישור ציבורי. קישור ציבורי לתיקייה מאפשר לך להוריד הן תיקיה שלמה (ארוזים ארכיון) וקבצים בודדים. {0} מידע נוסף {1}.</PublicFolderWarningAnonym>
+  <PublicLinksShowForAllItems>הצג עבור כל</PublicLinksShowForAllItems>
+  <PublicLinksShowForSelected>צג עבור שנבחר</PublicLinksShowForSelected>
+  
+  <MultipleFileInputMessage>הערה! הדפדפן שלך תומך בחירה מספר קבצים בבת אחת.</MultipleFileInputMessage>
+  <UploadZipUnzipNote>אתה יכול להעלות ארכיון zip עם מספר קבצים ותיקיות ואז לחלץ אותו, באמצעות "{0}" הפקודה בתפריט ההקשר.</UploadZipUnzipNote>
+  <DnDFileUploadingStatusCode>קוד מצב</DnDFileUploadingStatusCode>
+  <DnDFileUploadingPathOrNameEmpty>השביל-או בשם הקובץ לא צוין</DnDFileUploadingPathOrNameEmpty>
+  <DnDFileUploadingRemoveFromList>הסר מהרשימה</DnDFileUploadingRemoveFromList>
+  <DndFileUploadingDontDropFoldersMsg>אתה יכול לגרור ולשחרר קבצים לתוך בטבלה שלהלן. אתה לא יכול להוריד תיקיות.</DndFileUploadingDontDropFoldersMsg>
+  <DndFileUploadingAllowDropFoldersMsg>אתה יכול לגרור ולשחרר קבצים ותיקיות בטבלה שלהלן.</DndFileUploadingAllowDropFoldersMsg>
+  <DndFileUploadingFilesSummaryInfo>הרוזן של קבצים: {0} ({1})</DndFileUploadingFilesSummaryInfo>
+  <DropFilesHere>שחרר קבצים להעלאה</DropFilesHere>
+  
+  <FileGridDownloadColumn>להוריד קבצים</FileGridDownloadColumn>
+  <FileAttributesField>תכונות</FileAttributesField>
+  <FolderCalculateSize>לחשב</FolderCalculateSize>
+  <FolderRecalculateSize>חישוב מחדש</FolderRecalculateSize>
+  <FolderContainsField>מכיל</FolderContainsField>
+  <FolderContainsFilesFolders>{0} קבצים, {1} תיקיות</FolderContainsFilesFolders>
+  <FolderCalculatingMessage>חישוב</FolderCalculatingMessage>
+
+  <SearchTitle>חיפוש קובץ. דפוסי כניסה: {0}</SearchTitle>
+  <SearchType>חפש</SearchType>
+  <SearchOnlyFiles>רק קבצים</SearchOnlyFiles>
+  <SearchOnlyFolders>תיקיות בלבד</SearchOnlyFolders>
+  <SearchBothFilesFolders>הוא קבצים ותיקיות</SearchBothFilesFolders>
+  <SearchFileDetails>פרטי קובץ</SearchFileDetails>
+  <SearchFileContent>תוכן הקובץ</SearchFileContent>
+  <SearchByDateFrom>מ</SearchByDateFrom>
+  <SearchByDateTo>ל</SearchByDateTo>
+  <SearchLocation>מקום</SearchLocation>
+  <SearchLocationEntire>בְּכָל מָקוֹם</SearchLocationEntire>
+  <SearchLocationCurrent>נוֹכְחִי</SearchLocationCurrent>
+  <SearchSearch>חפש</SearchSearch>
+  <SearchNothingFound>שום דבר לא נמצא! צמצם את קריטריוני החיפוש שלך.</SearchNothingFound>
+  <SearchErrorCaption>שגיאת חיפוש</SearchErrorCaption>
+  <SearchResultsNotComplete>תשומת הלב! תוצאות החיפוש עשויות להיות חלקיות כמו תיקיות מסוימות לא הוספו למאגר שלנו.</SearchResultsNotComplete>
+  <SearchRepeatOrContactAdmin>נסה את החיפוש שלך שוב מאוחר יותר או פנה למנהל המערכת.</SearchRepeatOrContactAdmin>
+  <SearchLinkToManual>עיין בעזרה {0} חיפוש Windows {1}</SearchLinkToManual>
+  <QuerySearchByNameText>חיפוש לפי שם</QuerySearchByNameText>
+  <QuerySearchByConentText>לפי תוכן</QuerySearchByConentText>
+  <SearchByDetailsWarning>תשומת הלב! ציינת בהגדרות שאתה רוצה להשתמש חפש לפי תכונות. במקרה זה, החיפוש יבוצע באמצעות שיטה סטנדרטית במקום להשתמש בשירות יצירת האינדקסים של Windows.</SearchByDetailsWarning>
+  <SearchInSpecialFolderWarning>תשומת הלב! לחפש את התיקייה הנוכחית אינה חלה. אם תמשיך, החיפוש יבוצע בכל הספריות.</SearchInSpecialFolderWarning>
+
+  <UploadTitle>העלאת קבצים מרובים</UploadTitle>
+  <UploadSimpleTab>תֶקֶן</UploadSimpleTab>
+  <UploadSimpleReset>אִתחוּל</UploadSimpleReset>
+  <UploadSimpleUpload>העלה</UploadSimpleUpload>
+  <UploadSimpleUploadFolderLabelCollapsed>העלה תיקיה</UploadSimpleUploadFolderLabelCollapsed>
+  <UploadSimpleUploadFolderButtonText>בחר תיקייה</UploadSimpleUploadFolderButtonText>
+  <UploadJavaTab>Java</UploadJavaTab>
+  <UploadJavaIgnorePaths>מניחים את כל הקבצים בתיקייה אחת (להתעלם נתיבים)</UploadJavaIgnorePaths>
+  <UploadFlashTab>הֶבזֵק</UploadFlashTab>
+  <UploadSilverlightTab>Silverlight</UploadSilverlightTab>
+  <UploadPartially>חלק מהקבצים לא ניתן היה להעלות</UploadPartially>
+  <UploadFolderNotSelectedTitle>תיקיה לא נבחר</UploadFolderNotSelectedTitle>
+  <UploadFolderNotSelected>אנא בחר את התיקייה שבה הקבצים יועלו</UploadFolderNotSelected>
+  <UploadInProgress>העלאת הקבצים שלך</UploadInProgress>
+  <UploadInvalidFormFields>שדות טופס לא ניתן להגיש עם ערכים לא חוקיים</UploadInvalidFormFields>
+  <UploadAjaxFailed>תקשורת אייאקס נכשלה</UploadAjaxFailed>
+  <UploadFilesAlreadyExists>קובץ (ים) כבר קיים</UploadFilesAlreadyExists>
+  <UploadOverwriteFiles>קבצים קיימים יוחלפו. האם אתה מעוניין להמשיך?</UploadOverwriteFiles>
+  <UploadOverwriteOrRenameFiles>ישנם אחד או יותר קבצים עם שמות ההתאמה בספרייה שציינת. האם ברצונך להחליף את הקבצים הקיימים? לחץ על "{0}" אם אתה רוצה להחליף את הקבצים קיימים כבר, או "{1}" - אם אתה רוצה לשמור את כל הקבצים (הם ישתנו).</UploadOverwriteOrRenameFiles>
+  <UploadNotModifyExistingFiles>ישנם אחד או יותר קבצים עם שם תואם בספרייה שציינת. הקבצים לא ניתן להעלות. אנא הסר את הקבצים הקיימים מהרשימה להעלות או לשנות אותם.</UploadNotModifyExistingFiles>
+  <UploadRenamedExistingFiles>ישנם אחד או יותר קבצים עם שם תואם בספרייה שציינת. קבצים בעלי שמות מתאימים ישתנו.</UploadRenamedExistingFiles>
+  <UploadNotAllowedTitle>עלה אסור</UploadNotAllowedTitle>
+  <UploadNotAllowedPrompt>אתה לא יכול להעלות קבצים לתיקייה זו</UploadNotAllowedPrompt>
+
+  <UploadMobileIOSVideo>העלה סרטון. הפעל אפשרות זו אם אתה צריך להעלות את קובץ וידאו.</UploadMobileIOSVideo>
+  <UploadMobileAurigmaLink>שים לב שאתה צריך Aurigma Up! מותקן במכשיר שברשותכם כדי להעלות קבצים. הקש כאן להתקנה Aurigma Up! בקשת העלאת תמונות וסרטוני וידאו.</UploadMobileAurigmaLink>
+  <UploadMobileAurigmaReady>לאחר Aurigma Up! מותקן או אם יש לך כבר את זה מותקן, לחץ על כפתור "העלאה" להלן.</UploadMobileAurigmaReady>
+  <UploadMobileAurigmaFilePrefix>קידומת עבור קבצים שאפשר להעלות</UploadMobileAurigmaFilePrefix>
+  <UploadMobileResult>העלה תוצאה:</UploadMobileResult>
+  <UploadMobileUrlPlaceHolder>הזן את כתובת האתר כאן</UploadMobileUrlPlaceHolder>
+  <UploadMobileFileNamePlaceHolder>הזן את שם הקובץ החדש כאן</UploadMobileFileNamePlaceHolder>
+  <UploadBrowseLabel>לְדַפדֵף...</UploadBrowseLabel>
+  
+  <MobileToolTipsCaption>האם אתה יודע זאת ...</MobileToolTipsCaption>
+  <MobileToolTipsNextButton>העצה הבאה</MobileToolTipsNextButton>
+  <MobileToolTipsIKnowButton>אני יודע את זה</MobileToolTipsIKnowButton>
+  <MobileToolTipsHideButton>לעולם אל תציג</MobileToolTipsHideButton>
+  <MobileToolTipsMultiSelection>כדי לבחור מספר קבצים או תיקיות, אתה צריך לאפשר מצב מרובה-הבחירה על ידי הקשה על &lt;b&gt; {0} &lt;/b&gt;. ניתן להקיש עליו שוב ליציאה ממצב רבה-בחירה.</MobileToolTipsMultiSelection>
+  <MobileToolTipsSlideToRemove>אתה יכול להחליק מימין לשמאל על כל הפריטים ברשימה כדי להסירו. כפתור סר מוטבע מיוצג בחלק העליון של הפריט ברשימה.</MobileToolTipsSlideToRemove>
+  <MobileToolTipsTapAndHoldForMenu>הקש והחזק על כל הפריטים ברשימה כדי להציג את תפריט ההקשר. באותו הקשר התפריט המוצג על ידי טפיחה על כפתור 'גילוי'</MobileToolTipsTapAndHoldForMenu>
+  <MobileToolTipsDoubleTapForPreview>ברז יחיד על קובץ כדי לבחור בו, קש פעמים כדי לצפות בתצוגה מקדימה או להוריד אותו. ברז יחיד על התיקייה כדי לפתוח אותה.</MobileToolTipsDoubleTapForPreview>
+  <MobileToolTipsPullDownToRefresh>משוך את הרשימה כדי לטעון מחדש תוכן זה.</MobileToolTipsPullDownToRefresh>
+  <MobileToolTipsPinchToScale>אתה יכול להשתמש מחווה 'צביטה' כדי להתקרב-ב וזום-אאוט תמונות.</MobileToolTipsPinchToScale>
+  <MobileToolTipsTapToHideBars>קש בכל מקום על לוח תמונה כדי לעבור סרגלי כלים.</MobileToolTipsTapToHideBars>
+  <MobileToolTipsSlideLeftRightToNext>חלף תמונות עם מחווית שקופיות.</MobileToolTipsSlideLeftRightToNext>
+
+  <DownloadToCloudMobileTip>ברז יחיד כדי לבחור תיקיה, הקש פעמיים כדי לפתוח אותו.</DownloadToCloudMobileTip>
+  
+  <UploadTotalMaxSizeMessage>הערה! הגודל המרבי של כל הקבצים שהועלו לא יעלה על {0}.</UploadTotalMaxSizeMessage>
+  <UploadOneFileMaxSizeMessage>הערה! הגודל המקסימאלי של כל קובץ שהועלה לא יעלה על {0}.</UploadOneFileMaxSizeMessage>
+  <UploadUnlimitedSizeMessage>הערה! הגודל של קבצים שאפשר להעלות הוא ללא הגבלה.</UploadUnlimitedSizeMessage>
+  <SimpleUploadSetFileNameNote>פתק 2! לאחר נבחר קובץ אתה יכול לשנות את שם כי הקובץ יהיה לאחר העלאה</SimpleUploadSetFileNameNote>
+
+  <AnonymousUploadTitle>העלה קבצים לתיקייה זו</AnonymousUploadTitle>
+  <AnonymousUploadDescription>אתה יכול להעלות קבצים לתיקייה זו. לחץ על הכפתור "עיון" למטה ובחר קבצים.</AnonymousUploadDescription>
+  <AnonymousUploadOverwriteHint>אם את התמונה שהועלתה כבר קיים, הוא יוחלף.</AnonymousUploadOverwriteHint>
+  <AnonymousUploadShowUploadHint>טופס העלאת צג</AnonymousUploadShowUploadHint>
+  <AnonymousUploadHideUploadHint>סתר טופס העלאה</AnonymousUploadHideUploadHint>
+  <AnonymousUploadNewFolderNameHint>בשדה שלהלן תוכלו לציין שם בתיקיית (התיקייה תיווצר אם הוא לא קיים) שבו יוצגו הקבצים יועלו:</AnonymousUploadNewFolderNameHint>
+  <AnonymousUploadCompleteTitle>העלאה לתיקייה {0} הושלם</AnonymousUploadCompleteTitle>
+  <AnonymousUploadExistsFilesMessage>הקובץ הבא (ים) לא נטען כי קובץ (ים) עם אותו השם (ים) כבר קיים: {0}.</AnonymousUploadExistsFilesMessage>
+  <AnonymousUploadOwnersNote>הערת מבעל התיקייה</AnonymousUploadOwnersNote>
+  <AnonymousDownloadPageTitle>הורד קובץ</AnonymousDownloadPageTitle>
+  <AnonymousDownloadFileHint>הורד קובץ</AnonymousDownloadFileHint>
+  <AnonymousUploadPageTitle>העלה לתיקייה</AnonymousUploadPageTitle>
+  <AnonymousPublicFolderPageTitle>תיקייה ציבורית</AnonymousPublicFolderPageTitle>
+  <AnonymousLoginAccessUserFailure>אתה מחובר לחשבון אין גישה למשאב. נא להזין את אישורי אחרים לגישה שלך. אם אתה לא מכיר אותם, פנה אל הבעלים של קישור ציבורי או למנהל המערכת.</AnonymousLoginAccessUserFailure>
+  <ProgressGettingAnonymLink>יצירת קישור ציבורית</ProgressGettingAnonymLink>
+  <ProgressGettingAnonymLinks>קבלת קישורים אנונימי</ProgressGettingAnonymLinks>
+  <ProgressGettingBoxViewLink>מקבל קישור Box צפה</ProgressGettingBoxViewLink>
+  <AutodeskScriptNotIncludedMessage>לא ניתן לטעון סקריפט Viewer Autodesk</AutodeskScriptNotIncludedMessage>
+  <ProgressUninitializeAutodeskViewer>סגירת Autodesk Viewer</ProgressUninitializeAutodeskViewer>
+  <ProgressGettingAutodeskViewLink>מקבל את הפרטים צפו Autodesk</ProgressGettingAutodeskViewLink>
+  <AnonymousChangeLanguageHint>בחר שפה</AnonymousChangeLanguageHint>
+  <AnonymousUpLinkHint>חזור אל תיקיית אב</AnonymousUpLinkHint>
+  <AnonymousPasswordDescription>התיקייה מוגנת באמצעות סיסמא</AnonymousPasswordDescription>
+  <AnonymousPasswordIncorrectMessage>הסיסמא לא נכונה</AnonymousPasswordIncorrectMessage>
+  <AnonymousErrorTitle>שגיאה בקישור ציבורי</AnonymousErrorTitle>
+  <AnonymousErrorNotFound>קישור ציבורי "{0}" לא נמצא!</AnonymousErrorNotFound>
+  <AnonymousErrorAccessDenied>אתה אין לך הרשאה להשתמש בקישור הציבור "{0}"</AnonymousErrorAccessDenied>
+  <AnonymousErrorFileNotFound>קישור הציבור "{0}" מתייחס לקובץ שאינו קיים או תיקייה או הגישה לקרוא NTFS נדחית</AnonymousErrorFileNotFound>
+  <AnonymousErrorUnknownLinkType>קישור הציבור "{0}" לא נמצא</AnonymousErrorUnknownLinkType>
+  <AnonymousSendEmailSubject>מבקרי פעילות של תיקייה ציבורית</AnonymousSendEmailSubject>
+  <AnonymousSendEmailUploadBody>הקבצים הבאים הועלו לתיקיה הציבורית שלך {0}: {1}.</AnonymousSendEmailUploadBody>
+  <AnonymousSendEmailDownloadBody>קובץ {0} שהורד מהתיקייה הציבורית שלך {1}.</AnonymousSendEmailDownloadBody>
+  <AnonymousSendEmailZipDownloadBody>התוכן כולו של תיקיה ציבורית {0} שהורד בארכיון ZIP.</AnonymousSendEmailZipDownloadBody>
+  <AnonymousViewLinksButton>קישורים צפו</AnonymousViewLinksButton>
+  <AnonymousViewLinksHint>כדי להציג קישורים ציבוריים קיימים</AnonymousViewLinksHint>
+  <AnonymousViewLinksWindowTitle>קישורים ציבוריים</AnonymousViewLinksWindowTitle>
+  <AnonymousViewLinksDateCreatedColumn>תאריך היווצרות</AnonymousViewLinksDateCreatedColumn>
+  <AnonymousViewLinksDateExpiredColumn>תאריך תפוגה</AnonymousViewLinksDateExpiredColumn>
+  <AnonymousViewLinksPermissionColumn>רְשׁוּת</AnonymousViewLinksPermissionColumn>
+  <AnonymousViewLinksDownloadedColumn>מספר הורדות עזב</AnonymousViewLinksDownloadedColumn>
+  <ProgressDeletingAnonymousLink>מחק את קישור הציבור</ProgressDeletingAnonymousLink>
+  <ProgressSavingAnonymousLink>שומר קישור הציבור</ProgressSavingAnonymousLink>
+  <AnonymousEditLinkWindowTitle>קישור לעריכת הציבור "{0}"</AnonymousEditLinkWindowTitle>
+  <AnonymousEditLinkShowUrl>קישור צג</AnonymousEditLinkShowUrl>
+  <AnonymousEditLinkNotFound>הקישור הציבור לא נמצא או ותקופת תוקפו פג</AnonymousEditLinkNotFound>
+
+  <AnonymousLinkSendViaButton>שלח באמצעות...</AnonymousLinkSendViaButton>
+  <AnonymousLinkSendViaEmailItem>אֶלֶקטרוֹנִי...</AnonymousLinkSendViaEmailItem>
+  <AnonymousLinkSendButton>שלח בדוא"ל ...</AnonymousLinkSendButton>
+  <AnonymousLinkSendSubject>מנהל קבצי קישור אינטרנט ציבורי</AnonymousLinkSendSubject>
+
+  <AnonymousLinkAdvOptTitle>פרמטרים נוספים</AnonymousLinkAdvOptTitle>
+  <AnonymousLinkViewTypeButton>קישור צג</AnonymousLinkViewTypeButton>
+  <AnonymousLinkViewTypeDefault>מלא</AnonymousLinkViewTypeDefault>
+  <AnonymousLinkViewTypeShort>קצר</AnonymousLinkViewTypeShort>
+
+  <AnonymousLinkShowCommentsLabel>צג תיאור, תוויות והערות</AnonymousLinkShowCommentsLabel>
+  <AnonymousLinkShowCommentsShort>צג תגובות</AnonymousLinkShowCommentsShort>
+
+  <QRCodeButton>קוד QR</QRCodeButton>
+
+  <AnonymousLinkLimitedAccessTitle>גישה מוגבלת</AnonymousLinkLimitedAccessTitle>
+  <AnonymousLinkLimitAccessCheckBox>להגביל את הגישה רק למשתמשים מאומתים שצוינו</AnonymousLinkLimitAccessCheckBox>
+  <AnonymousLinkLimitAccessTextArea>הקלד שם משתמש או דואר אלקטרוני (מופרדים בפסיקים)</AnonymousLinkLimitAccessTextArea>
+  <AnonymousLinkLimitAccessSendCheckBox>שלח התראות למשתמשים ספציפיים</AnonymousLinkLimitAccessSendCheckBox>
+  <AnonymousLinkLimitAccessPersMsgLabel>הודעה אישית (אופציונלי)</AnonymousLinkLimitAccessPersMsgLabel>
+  <AnonymousLinkLimitAccessPassAndUsersMsg>ציינת סיסמא המשתמשים שלך בעת ובעונה אחת כדי לגשת לקישור. נא לציין משהו אחד.</AnonymousLinkLimitAccessPassAndUsersMsg>
+  <AnonymousLinkLimitAccessUsersNotFound>המשתמשים:
+    {0}
+    לא קיים</AnonymousLinkLimitAccessUsersNotFound>
+  <AnonymousLinkLimitAccessEmailsNotFound>המיילים:
+    {0}
+    לא קיים</AnonymousLinkLimitAccessEmailsNotFound>
+  <AnonymousLinkLimitAccessUsersEmailsNotFound>המשתמשים:
+    {0}
+    ודואר אלקטרוני:
+    {1}
+    לא קיים</AnonymousLinkLimitAccessUsersEmailsNotFound>
+
+  <AnonymousLinkUnableToCreate>לא ניתן ליצור קישור אנונימיים</AnonymousLinkUnableToCreate>
+  <AnonymousLinkShortUrlLabel>אנא לחץ על סמל הרענון (בפינה הימנית התחתונה) כדי לקבל קישור קצר</AnonymousLinkShortUrlLabel>
+  <AnonymousLinkShortUrlUpdate>קבלו או לעדכן קישור קצר</AnonymousLinkShortUrlUpdate>
+  <AnonymousLinkLongUrlNotSpecified>כתובת האתר ארוכה לא צוין</AnonymousLinkLongUrlNotSpecified>
+
+  <ClientFileOrDirectoryAlreadyExists>קובץ או ספרייה בשם זה כבר קיים</ClientFileOrDirectoryAlreadyExists>
+  <ClientPermissionsAllowTypes>הרשאות נוכחיות לאפשר פעולה זו רק עם סוגי הקבצים הבאים {0}</ClientPermissionsAllowTypes>
+  <ClientPermissionsDenyTypes>הרשאות נוכחיות לאסור פעולה זו עם בסוגי הקבצים הבאים {0}</ClientPermissionsDenyTypes>
+  <OfficeApplicationNotFoundAlert>יישום Office לא נמצא. פתיחת קובץ באופן ידני באמצעות קישור בתיבת טקסט.</OfficeApplicationNotFoundAlert>
+  <OfficeAnonymousEditPublicLinkError>לא ניתן ליצור קישור ציבורי מסמכי Office Open באופן אנונימי.</OfficeAnonymousEditPublicLinkError>
+
+  <GoogleOWAViewLinkMessage>כדי להציג את המסמך לחץ על הקישור הבא:</GoogleOWAViewLinkMessage>
+  <ZohoEditLinkMessage>כדי לערוך את הקישור קליק המסמך להלן:</ZohoEditLinkMessage>
+  <PixlrEditLinkMessage>כדי לערוך את הקישור קליק התמונה הבאה:</PixlrEditLinkMessage>
+  <PixlrNewImageCreateTitle>צור תמונה חדשה עם Pixlr</PixlrNewImageCreateTitle>
+  <PixlrNewImageLinkMessage>כדי ליצור תמונה חדשה, לחץ על הקישור הבא:</PixlrNewImageLinkMessage>
+
+  <DownloadTitle>הורדת קבצים מרובים</DownloadTitle>
+  <DownloadSimpleTab>תֶקֶן</DownloadSimpleTab>
+  <DownloadJavaTab>Java</DownloadJavaTab>
+  <DownloadIEPrevent>Internet Explorer מונע הורדה אוטומטית</DownloadIEPrevent>
+  <DownloadIEClickHere>לחץ כאן כדי להוריד</DownloadIEClickHere>
+  <DownloadIEArchiveReady>ארכיון "{0}" עם קבצים נבחרים נוצר והוא מוכן להורדה</DownloadIEArchiveReady>
+  <DownloadIECaption>ההורדה מוכנה</DownloadIECaption>
+
+  <SettingsTitle>הגדרות</SettingsTitle>
+  <SettingsLanguage>שפה</SettingsLanguage>
+  <SettingsLogOutRequired>השינויים החדשים ייושמו לאחר התנתקות או הפעלה מחדש של הדפדפן!</SettingsLogOutRequired>
+  <ThemeTitle>לשנות נושא</ThemeTitle>
+  <SettingsTheme>בחר נושא</SettingsTheme>
+  <ThemeDefaultTitle>רקע ראשי</ThemeDefaultTitle>
+  <ThemeGrayTitle>Theme גריי</ThemeGrayTitle>
+  <ThemeAccessTitle>נושא הנגישות</ThemeAccessTitle>
+
+  <ChangeUserPasswordTitle>סיסמא משתמש שינוי</ChangeUserPasswordTitle>
+  <ChangeUserPasswordOldPassword>סיסמה ישנה</ChangeUserPasswordOldPassword>
+  <ChangeUserPasswordNewPassword>סיסמה חדשה</ChangeUserPasswordNewPassword>
+  <ChangeUserPasswordRepeatNewPassword>חזור על סיסמה חדשה</ChangeUserPasswordRepeatNewPassword>
+  <ChangeUserPasswordPasswordsNotMatch>סיסמאות לא תואמות.</ChangeUserPasswordPasswordsNotMatch>
+  <ChangeUserPasswordSuccessMessage>הסיסמא שונתה.</ChangeUserPasswordSuccessMessage>
+  <ChangeUserPasswordInvalidMessage>סיסמה שגויה.</ChangeUserPasswordInvalidMessage>
+
+  <ChangeUserEmailTitle>שנת משתמש דואר אלקטרוני</ChangeUserEmailTitle>
+  <ChangeUserEmailEmail>אֶלֶקטרוֹנִי</ChangeUserEmailEmail>
+  <ChangeUserEmailSuccessMessage>דואר אלקטרוני שונתה.</ChangeUserEmailSuccessMessage>
+
+  <UserHelpTitle>עזרה למשתמש</UserHelpTitle>
+
+  <LicenseTitle>מידע רישיון</LicenseTitle>
+  <LicenseTrial>גרסת 30 יום ערכה לא רשומה</LicenseTrial>
+  <LicensePrompt>הגרסה מורשה {0} משתמשים לספור: {1} {0} תאריך רכישה: {2} {0}</LicensePrompt>
+  <LicenseFreeUpgradeMessage>עדיין יש לך {0} ימים עבור שדרוגים בחינם ותמיכה.</LicenseFreeUpgradeMessage>
+  <LicenseCheckMessage>יותר משנה חלפה מיום הרכישה. כדי להשתמש בגרסה זו אתה צריך לחדש את המנוי או השדרוג לאחור לגירסה ישנה יותר. אתה יכול לבדוק את הרישיון שלך ולמצוא משחרר זמין ב &lt;/a&gt; דף רישיון בדוק &lt;a href='{0}' target='_blank'&gt;</LicenseCheckMessage>
+  
+  <ViewPopupBlocked>חלון חדש נחסם על ידי חוסם חלונות קופצים</ViewPopupBlocked>
+  
+  <LoginTwoFactorTitle>אימות בשני שלבים</LoginTwoFactorTitle>
+  <LoginTitle>התחברות</LoginTitle>
+  <LoginRemember>תזכור אותי בפעם הבאה</LoginRemember>
+  <LoginUISelect>מִמְשָׁק</LoginUISelect>
+  <LoginUIStandard>תֶקֶן</LoginUIStandard>
+  <LoginUITouch>נייד</LoginUITouch>
+  <LoginLanguage>שפה</LoginLanguage>
+  <LoginLogin>התחברות</LoginLogin>
+  <LoginFailure>ניסיון ההתחברות שלך לא היה מוצלח.</LoginFailure>
+  <LoginBlocked>החשבון נחסם. חכה {0} דקות כדי לנסות שוב.</LoginBlocked>
+  <LoginNotActivated>המשתמש שלך לא מופעל.</LoginNotActivated>
+  <LoginResendActivation>אם הודעה עם קוד הפעלה לא תתקבל במשך זמן רב, לחץ על {0} קישור לשלוח שוב קוד הפעלה.</LoginResendActivation>
+  <LoginResendActivationLink>לשלוח קוד הפעלה</LoginResendActivationLink>
+  <LoginResendActivationCode>לחץ על {0} קישור לשלוח שוב קוד הפעלה.</LoginResendActivationCode>
+  
+  <ActivateAccountOk>חשבון הופעל בהצלחה!</ActivateAccountOk>
+  <ActivateAccountResultLabel>תוצאת הפעלה</ActivateAccountResultLabel>
+  <ActivateAccountErrorOnlyFormsAuth>הפעלת חשבון יכול לשמש רק עם אימות טפסים</ActivateAccountErrorOnlyFormsAuth>
+  <ActivateAccountErrorNotRequired>הפעלת חשבון מושבת בהגדרות יישום. חשבון מופעל באופן אוטומטי לאחר ההרשמה.</ActivateAccountErrorNotRequired>
+  <ActivateAccountErrorAlreadyActivated>חשבון כבר הופעל</ActivateAccountErrorAlreadyActivated>
+  <ActivateAccountErrorInvalidCode>קוד הפעלה אינו חוקי</ActivateAccountErrorInvalidCode>
+  <ActivateAccountErrorAccountNotFound>החשבון לא נמצא</ActivateAccountErrorAccountNotFound>
+  <ActivateAccountErrorLinkBroken>קישור הפעלה שבור</ActivateAccountErrorLinkBroken>
+  <ActivateAccountReturnToLogin>חזור לדף הכניסה</ActivateAccountReturnToLogin>
+  
+  <LoginRender>לְדַקלֵם</LoginRender>
+  
+  <LogoutTitle>התנתקות מנהל הקבצים באינטרנט</LogoutTitle>
+  <LogoutSessionEnded>הפגישה הנוכחית הסתיימה</LogoutSessionEnded>
+  <LogoutCloseWindow>סגור את החלון</LogoutCloseWindow>
+  <LogoutEnterAgain>התחברות שוב</LogoutEnterAgain>
+  <LogoutClosingBrowserRequired>תשומת הלב! כל אחד יכול להתחבר תחת חשבונך! אם אתה משתמש במחשב משותף, אז אתה צריך לסגור את חלון הדפדפן שלכם (לא רק על הכרטיסייה) כדי לנקות אימות בדפדפן שלך! עבור דפדפן Firefox אתה יכול לנקות אימות ב בתפריט: כלים-&gt; היסטוריה מהעת האחרונה נקה ...-&gt; Details-&gt; סמן Active Logins-&gt; העיתונות נקה כעת.</LogoutClosingBrowserRequired>
+  <RecoverPasswordTitle>שחזור סיסמה</RecoverPasswordTitle>
+  <RecoverPasswordEmailPassword>שלח סיסמא בדוא"ל</RecoverPasswordEmailPassword>
+  <RecoverPasswordErrorInvalidUserName>שם משתמש לא חוקי.</RecoverPasswordErrorInvalidUserName>
+  <RecoverPasswordErrorNoEmail>למשתמש הזה אין כתובת הדוא"ל המוגדרת.</RecoverPasswordErrorNoEmail>
+  <RecoverPasswordErrorSendEmail>אירעה שגיאה בעת שליחת הדוא"ל שלך.</RecoverPasswordErrorSendEmail>
+  <RecoverPasswordSuccess>הסיסמה שלך נשלחה לכתובת הדוא"ל שלך.</RecoverPasswordSuccess>
+
+  <RecoverUserNameTitle>שחזור שם</RecoverUserNameTitle>
+  <RecoverUserEmailName>שלח שם בדוא"ל</RecoverUserEmailName>
+  <RecoverUserNameErrorInvalidEmail>דוא"ל לא חוקי של משתמש.</RecoverUserNameErrorInvalidEmail>
+  <RecoverUserNameErrorNoEmail>כתובת דוא"ל לא נמצאה.</RecoverUserNameErrorNoEmail>
+  <RecoverUserNameSuccess>השם שלך נשלח לכתובת הדוא"ל שלך.</RecoverUserNameSuccess>
+
+  <ChangeEmailTitle>שנה כתובת אימייל</ChangeEmailTitle>
+  <ChangeEmailEmail>מייל חדש</ChangeEmailEmail>
+  <ChangeEmailSubmit>שלח</ChangeEmailSubmit>
+  <ChangeEmailStatusSuccess>דוא"ל השתנה</ChangeEmailStatusSuccess>
+
+  <RegisterTitle>הירשם</RegisterTitle>
+  <RegisterEmail>אֶלֶקטרוֹנִי</RegisterEmail>
+  <RegisterExtraInfo>מידע נוסף</RegisterExtraInfo>
+  <RegisterCaptcha>הזן את התווים שאתה רואה בתמונה למטה</RegisterCaptcha>
+  <RegisterSubmit>שלח</RegisterSubmit>
+  <RegisterErrorPasswordNotMatch>סיסמאות לא תואמות.</RegisterErrorPasswordNotMatch>
+  <RegisterErrorUserExists>שם משתמש זה או את כתובת הדוא"ל כבר בשימוש.</RegisterErrorUserExists>
+  <RegisterErrorCaptchaInvalid>טקסט תמונה לא הוזן בצורה נכונה</RegisterErrorCaptchaInvalid>
+  <RegisterSuccess>משתמש חדש שנוסף לו.</RegisterSuccess>
+  <RegisterActivationSent>קוד הפעלה נשלח לדוא"ל שלך.</RegisterActivationSent>
+  <RegisterActivationCheckEmail>אנא קרא את תיבת הדואר שלך (תיקיית זבל במיוחד) ופעל לפי הוראות בדוא"ל.</RegisterActivationCheckEmail>
+  
+  <FolderGridUserPermissionsColumn>גישה למשתמשים</FolderGridUserPermissionsColumn>
+  <FolderGridGroupPermissionsColumn>גישה לקבוצות</FolderGridGroupPermissionsColumn>
+
+  <LoginLinkText>התחברות</LoginLinkText>
+  <RecoverPasswordLinkText>שכחת את הסיסמא?</RecoverPasswordLinkText>
+  <RecoverUserNameLinkText>שכחת שם?</RecoverUserNameLinkText>
+  <RegisterLinkText>הירשם</RegisterLinkText>
+  <ChangeEmail>שנה כתובת אימייל</ChangeEmail>
+  <LoginMobileVersionLinkText>גרסה ניידת (סמארטפונים touchpads רוב)</LoginMobileVersionLinkText>
+
+  <FileIsNotZipArchive>הקובץ {0} אינו ארכיון ZIP</FileIsNotZipArchive>
+
+  <FileModificationsAuthor>מְחַבֵּר</FileModificationsAuthor>
+  <FileModificationsHistory>צג היסטוריה</FileModificationsHistory>
+  <FileModificationsWindowTitle>שינויים של קובץ "{0}"</FileModificationsWindowTitle>
+  <FileModificationsTypeCreated>נוצר</FileModificationsTypeCreated>
+  <FileModificationsTypeModified>השתנה</FileModificationsTypeModified>
+  <FileModificationsTypeRenamed>שמם</FileModificationsTypeRenamed>
+  <FileModificationsTypeRestored>מְשׁוּחזָר</FileModificationsTypeRestored>
+  <FileModificationsTypeDeleted>נמחק</FileModificationsTypeDeleted>
+
+  <ChangingReadOnlyProgressMessage>שינוי תכונה לקריאה בלבד</ChangingReadOnlyProgressMessage>
+
+  <ImageViewerWindowTitle>מציג תמונה [{0}]</ImageViewerWindowTitle>
+  <ImageViewerLoadingMessage>מציג תמונה Loading</ImageViewerLoadingMessage>
+  <ImageViewerLoadingImageMessage>תמונת Loading</ImageViewerLoadingImageMessage>
+  <ImageViewerFirstImageTip>תמונה ראשונה</ImageViewerFirstImageTip>
+  <ImageViewerPreviousImageTip>תמונה קודמת</ImageViewerPreviousImageTip>
+  <ImageViewerRefreshTip>רשימת תמונות רעננות</ImageViewerRefreshTip>
+  <ImageViewerNextImageTip>התמונה הבאה</ImageViewerNextImageTip>
+  <ImageViewerLastImageTip>תמונה אחרונה</ImageViewerLastImageTip>
+  <ImageViewerRunSlideShow>תמונות מפעילים מצגת שקופיות</ImageViewerRunSlideShow>
+  <ImageViewerStopSlideShow>עצור הצגת שקופיות תמונות</ImageViewerStopSlideShow>
+  <ImageViewerImageSimpleInfo>{0} / {1}, {2} ({3})</ImageViewerImageSimpleInfo>
+  <ImageViewerImageLoadErrorMessage>התמונה לא נמצאה או לא ניתן להציג</ImageViewerImageLoadErrorMessage>
+  <ImageViewerShowImageSizeOfWindow>צג תמונה עם גודל אמיתי</ImageViewerShowImageSizeOfWindow>
+  <ImageViewerShowRealImageSize>לחץ להגדלה</ImageViewerShowRealImageSize>
+
+  <PasswordExpiresTitle>סיסמא פגה</PasswordExpiresTitle>
+  <PasswordExpiresMessage>הסיסמה שלך תפוג לאחר {0} יום (ים)!</PasswordExpiresMessage>
+  <PasswordExpiredMessage>הסיסמה שלך פגה.</PasswordExpiredMessage>
+  <PasswordChangeMessage>כדי לשנות את הסיסמה, בחר {0} {1} -&gt; {2} {3} בסרגל הכלים.</PasswordChangeMessage>
+
+  <UnzipContentTotalFiles>סה"כ קבצים: {0} ({1})</UnzipContentTotalFiles>
+
+  <VideoConversionJobNotFound>
+    אין אפשרות למצוא את תהליך הגיור שצוין.
+    סיבות אפשריות:
+    1. המרה השלימה מזמן ומידע על עבודה זו הוסר.
+    2. תהליך הגיור הסתיים באופן חריג.
+  </VideoConversionJobNotFound>
+  <VideoConversionUtilityNotFound>בשירות החיפוש לא ניתן לבצע את הפעולה המבוקשת: {0}</VideoConversionUtilityNotFound>
+  <!-- The current security principal "{0}" has insufficiant permissions to executable file "{1}".-->
+  <VideoConversionUtilityInsufficientPermissions>המשתמש הנוכחי "{0}" הוא הכחיש את גישת קובץ הפעלה "{1}".</VideoConversionUtilityInsufficientPermissions>
+  <VideoConversionOperationCancelled>הפעולה בוטלה</VideoConversionOperationCancelled>
+  <VideoConversionUtilityFailed>שירות מר הסתיים באופן חריג</VideoConversionUtilityFailed>
+  <VideoConversionOutputFileBusy>קובץ פלט נמצא בשימוש על ידי תהליך גיור אחר</VideoConversionOutputFileBusy>
+
+  <VideoConvertWindowValidatorPositiveInt>חייב להיות מספר חיובי</VideoConvertWindowValidatorPositiveInt>
+  <VideoConvertWindowTitle>המר וידאו</VideoConvertWindowTitle>
+  <VideoConvertWindowInputFile>קובץ קלט</VideoConvertWindowInputFile>
+  <VideoConvertWindowOutputFile>קובץ פלט</VideoConvertWindowOutputFile>
+  <VideoConvertWindowOutputFormat>פורמט פלט</VideoConvertWindowOutputFormat>
+  <VideoConvertWindowBitrate>Bitrate (kbps)</VideoConvertWindowBitrate>
+  <VideoConvertWindowFrameResolution>ברזולוצית מסגרת</VideoConvertWindowFrameResolution>
+  <VideoConvertWindowDAR>יחס גובה-רוחב תצוגה</VideoConvertWindowDAR>
+  <VideoConvertWindowPAR>יחס ממדים פיקסל</VideoConvertWindowPAR>
+  <VideoConvertWindowResize>שינוי גודל</VideoConvertWindowResize>
+  <VideoConvertWindowProfile>פּרוֹפִיל</VideoConvertWindowProfile>
+  <VideoConvertWindowWidth>רוֹחַב</VideoConvertWindowWidth>
+  <VideoConvertWindowHeight>גוֹבַה</VideoConvertWindowHeight>
+  <VideoConvertWindowExtractDetailsProgressMsg>מחלץ פרטי וידאו</VideoConvertWindowExtractDetailsProgressMsg>
+  <VideoConvertWindowOutputFileExistsTitle>קובץ פלט קיים</VideoConvertWindowOutputFileExistsTitle>
+  <VideoConvertWindowOutputFileExistsMsg>קובץ פלט כבר קיים. הוא יוחלף.</VideoConvertWindowOutputFileExistsMsg>
+  <VideoConvertWindowPrepareToConvert>הכנת להמיר וידאו</VideoConvertWindowPrepareToConvert>
+  <VideoConvertWindowOutputFileMatchInputFile>שם קובץ פלט תואם לשם קובץ קלט</VideoConvertWindowOutputFileMatchInputFile>
+
+  <VideoConvertProgressWindowTitle>המר וידאו</VideoConvertProgressWindowTitle>
+  <VideoConvertProgressWindowInputFile>קובץ קלט</VideoConvertProgressWindowInputFile>
+  <VideoConvertProgressWindowOutputFile>קובץ פלט</VideoConvertProgressWindowOutputFile>
+  <VideoConvertProgressWindowStatus>סטָטוּס</VideoConvertProgressWindowStatus>
+  <VideoConvertProgressWindowStatusTerminating>סיום</VideoConvertProgressWindowStatusTerminating>
+  <VideoConvertProgressWindowStatusPreparing>מכין</VideoConvertProgressWindowStatusPreparing>
+  <VideoConvertProgressWindowStatusProgress>שלב {0} מתוך {1}</VideoConvertProgressWindowStatusProgress>
+  <VideoConvertProgressWindowStatusDone>בוצע</VideoConvertProgressWindowStatusDone>
+
+  <PlayHtml5VideoNotSupported>הדפדפן שלך אינו תומך ברכיבי וידאו של HTML 5.</PlayHtml5VideoNotSupported>
+  <PlayHtml5VideoPlayFailed>הפעל וידאו נכשל</PlayHtml5VideoPlayFailed>
+  <PlayHtml5AudioPlayFailed>שחק האודיו נכשל</PlayHtml5AudioPlayFailed>
+  <PlayHtml5AudioTitle>כותרת</PlayHtml5AudioTitle>
+  <PlayHtml5AudioNotSupported>הדפדפן שלך אינו תומך רכיב אודיו HTML 5.</PlayHtml5AudioNotSupported>
+  <PlayHtml5AudioArtist>אמן</PlayHtml5AudioArtist>
+  <PlayHtml5AudioAlbum>אַלבּוֹם</PlayHtml5AudioAlbum>
+  <PlayHtml5AudioYear>שָׁנָה</PlayHtml5AudioYear>
+  <PlayHtml5AudioDuration>מֶשֶׁך</PlayHtml5AudioDuration>
+  <PlayHtml5AudioBitrate>bitrate</PlayHtml5AudioBitrate>
+  <PlayHtml5AudioVolume>כֶּרֶך</PlayHtml5AudioVolume>
+
+  <!-- Root title -->
+  <RootTitle>שורש</RootTitle>
+
+  <!-- Recent feature keys -->
+  <RecentRootTitle>לאחרונה</RecentRootTitle>
+  <RecentDeleteOnePrompt>האם אתה בטוח שברצונך למחוק את "{0}" המפריטים האחרונים שלך?</RecentDeleteOnePrompt>
+  <RecentDeleteManyPrompt>האם אתה בטוח שברצונך למחוק {0} פריטים אלה מן הפריטים האחרונים שלך?</RecentDeleteManyPrompt>
+  <RecentPathNotExist>השביל האחרון "{0}" אינו קיים או גישה נדחתה</RecentPathNotExist>
+  <RecentAllWithoutGroupingTitle>כל w / o קיבוץ</RecentAllWithoutGroupingTitle>
+  <RecentEditGroupTitle>עָרוּך</RecentEditGroupTitle>
+  <RecentViewGroupTitle>הנצפה</RecentViewGroupTitle>
+  <RecentDownloadGroupTitle>הורידו</RecentDownloadGroupTitle>
+  <RecentUploadGroupTitle>הועלה</RecentUploadGroupTitle>
+  <RecentCreateGroupTitle>נוצר</RecentCreateGroupTitle>
+
+  <!-- Trash feature keys -->
+  <TrashRootTitle>אַשׁפָּה</TrashRootTitle>
+  <TrashLabelDateDeleted>תאריך מחיקה</TrashLabelDateDeleted>
+  <TrashDeleteOnePrompt>האם אתה בטוח שברצונך למחוק לצמיתות "{0}" מהאשפה?</TrashDeleteOnePrompt>
+  <TrashDeleteManyPrompt>האם אתה בטוח שאתה רוצה למחוק אותם לצמיתות {0} פריטים מסל המחזור?</TrashDeleteManyPrompt>
+  <TrashEmptyTrashLabel>רוקןאשפה</TrashEmptyTrashLabel>
+  <TrashRestoreSelectedLabel>לשחזר</TrashRestoreSelectedLabel>
+  <TrashRestoreAllLabel>שחזר הכל</TrashRestoreAllLabel>
+  <TrashEmptyTrashPrompt>האם אתה בטוח שאתה רוצה לרוקן את האשפה?</TrashEmptyTrashPrompt>
+  <TrashRestoreAllPrompt>האם אתה בטוח שברצונך לשחזר את כל הפריטים מהאשפה?</TrashRestoreAllPrompt>
+  <TrashProgressRestoring>שחזר מהאשפה</TrashProgressRestoring>
+  <TrashFolderNotFound>בספריית אשפה לא נמצאה</TrashFolderNotFound>
+  <TrashBalloonRestored>פריטים שוחזר: {0} מתוך {1}</TrashBalloonRestored>
+  <TrashDeleteDirectlyLabel>מחק ישירות מבלי להסיר את האשפה</TrashDeleteDirectlyLabel>
+  <TrashUsedSpaceHint>{0} בשימוש</TrashUsedSpaceHint>
+  <TrashLimitSizeHint>משומשים {0} מתוך {1} ({2})</TrashLimitSizeHint>
+  <TrashLargeItemsShelfTimeHint>זמן האחסון של האובייקטים גדול יותר {0}: {1} היום (ים)</TrashLargeItemsShelfTimeHint>
+  <TrashSmallItemsShelfTimeHint>עבור כל האחרים: {0} יום (ים)</TrashSmallItemsShelfTimeHint>
+  <TrashItemsShelfTimeHint>זמן האחסון של החפצים: {0} היום (ים)</TrashItemsShelfTimeHint>
+  <TrashAvailableSpaceHint>גודל מרבי זמין {0}</TrashAvailableSpaceHint>
+  <TrashDeletedFromFolderHint>שנמחקו מ- {0}</TrashDeletedFromFolderHint>
+  <TrashExceededMessage>החפצים הבאים הם גדולים מדי ולא יכולים להיות ממוקם על האשפה (ההגבלה של {0} היא חריגה):</TrashExceededMessage>
+  <TrashErrorSuffixMessage>נסה לבדוק את האפשרות "{0}" ולאחר מכן למחוק את הקובץ (ים) לנצח מעבר אחזור</TrashErrorSuffixMessage>
+
+  <!-- Shared by link -->
+  <SharedByLinkRootTitle>משותף על ידי קישור</SharedByLinkRootTitle>
+
+  <!-- Shared for you -->
+  <SharedForYouRootTitle>משותף איתך</SharedForYouRootTitle>
+  <SharedForYouUnableToGetUrl>לא ניתן לקבל את כתובת האתר</SharedForYouUnableToGetUrl>
+
+  <!-- Watch for modifications -->
+  <WatchForModifsCommand>Watch עבור שינויים</WatchForModifsCommand>
+  <WatchForModifsStartCommand>התחל לצפות בסרטים</WatchForModifsStartCommand>
+  <WatchForModifsEditCommand>השנה צופה</WatchForModifsEditCommand>
+  <WatchForModifsStopCommand>הפסקת מעקב</WatchForModifsStopCommand>
+  <WatchForModifsViewChangesCommand>שינויי צפייה</WatchForModifsViewChangesCommand>
+  <WatchForModifsSubscriptionSuccessMessage>נרשם בהצלחה עבור שינויים "{0}"</WatchForModifsSubscriptionSuccessMessage>
+  <WatchForModifsStopSuccessMessage>הניטור "{0}" הושבת בהצלחה</WatchForModifsStopSuccessMessage>
+  <WatchForModifsIncludingNestedLabel>שקול קבצים מקוננים, תיקיות</WatchForModifsIncludingNestedLabel>
+  <WatchForModifsParentWatchExistMessage>עבור הפריט שנבחר הוקצה כבר ניטור עבור תיקיית האב "{0}".</WatchForModifsParentWatchExistMessage>
+  <WatchForModifsRootFolder>התראות</WatchForModifsRootFolder>
+  <WatchForModifsStartProgressLoading>אפשר לצפות</WatchForModifsStartProgressLoading>
+  <WatchForModifsStopProgressLoading>Terminatie צופה</WatchForModifsStopProgressLoading>
+  <WatchForModifsIconHint>שעון מופעל על שינויים</WatchForModifsIconHint>
+  <WatchForModifsNotifCheckBox>הודע על שינוי המתבצע על מיילים:</WatchForModifsNotifCheckBox>
+  <WatchForModifsWatchedUsersCheckBox>צג משתמשים בלבד (השאר ריק אם אתה לפקח על כל):</WatchForModifsWatchedUsersCheckBox>
+  <WatchForModifsIgnoreOwnerCheckBox>התעלמתי מהשינויים שלי</WatchForModifsIgnoreOwnerCheckBox>
+  <WatchForModifsActionsCheckBox>ניטור כל הפעולות (או כמה פעולות מהרשימה להלן)</WatchForModifsActionsCheckBox>
+  <WatchForModifsNestedItemsWarning>תשומת הלב! כשמוסיף ניטור עבור התיקייה שנבחרה, כל הקבצים המצורפים והתיקיות עבורו לניטור פרט נוסף קודם לכן, הניטור יוסרו. תרצה להמשיך?</WatchForModifsNestedItemsWarning>
+
+  <WelcomeWindowHideCheckboxLabel>אל תציג הודעה זו על ידי הרישום הבא</WelcomeWindowHideCheckboxLabel>
+
+  <LogsGridMoreInfoColumn>עוד מידע</LogsGridMoreInfoColumn>
+  <LogsGridDetailsTitle>פרטים</LogsGridDetailsTitle>
+  <LogsGridPhysPathColumn>נתיב פיזי</LogsGridPhysPathColumn>
+  <LogsGridIsFolderColumn>תיקייה?</LogsGridIsFolderColumn>
+  <LogsGridIsPublicColumn>פּוּמְבֵּי?</LogsGridIsPublicColumn>
+  <LogsGridByWebDavColumn>WebDAV?</LogsGridByWebDavColumn>
+
+  <NoCommentsYetHint>עדיין אין תגובות</NoCommentsYetHint>
+  <NoHistoryYetHint>אין הסטוריית עדיין</NoHistoryYetHint>
+
+  <DetailsPropertyValuesCouldNotBeWritten>נכשל ניסיון לשמור את ערך נכסים, mabe סוג הקובץ אינו תומך אפשרות כזו או שיש שגיאה ביישום קשור לקובץ.</DetailsPropertyValuesCouldNotBeWritten>
+
+  <AdminCommandHelp>עֶזרָה</AdminCommandHelp>
+  <AdminCommandAddUser>הוסף משתמש</AdminCommandAddUser>
+  <AdminCommandAddGroup>הוספת קבוצה</AdminCommandAddGroup>
+  <AdminCommandRemoveUser>הסר את המשתמש</AdminCommandRemoveUser>
+
+  <AdminCommandSelectUsers>הוסף משתמשים</AdminCommandSelectUsers>
+  <AdminCommandSelectGroups>הוספת קבוצות</AdminCommandSelectGroups>
+  <AdminCommandRemoveUsers>הסר משתמש</AdminCommandRemoveUsers>
+  <AdminCommandRemoveGroups>הסר קבוצות</AdminCommandRemoveGroups>
+  <AdminUsersGroups>חבר ב</AdminUsersGroups>
+  <AdminSearchUserEmptyText>הזן את שם המשתמש</AdminSearchUserEmptyText>
+  <AdminSearchGroupEmptyText>הזן את שם הקבוצה</AdminSearchGroupEmptyText>
+  <AdminUsersGroupAlreadyExists>קבוצה (הים) בשם זה (ים) כבר נוספה</AdminUsersGroupAlreadyExists>
+
+  <AdminApplicationLoading>טעינת לוח Admin</AdminApplicationLoading>
+  <AdminTitle>מִנהָל</AdminTitle>
+  <AdminUsersEditUser>ערוך משתמש</AdminUsersEditUser>
+  <AdminUsersSetUserPassword>הגדר סיסמא</AdminUsersSetUserPassword>
+  <AdminUsersViewGroups>קבוצות צפו</AdminUsersViewGroups>
+  <AdminUsersViewFolders>תיקיות צפייה</AdminUsersViewFolders>
+  <AdminUsersDeleteUserPrompt>האם אתה בטוח שברצונך להסיר משתמש (ים) "{0}"?</AdminUsersDeleteUserPrompt>
+  <AdminUsersDeletedUsers>{0} משתמש (ים) נמחק.</AdminUsersDeletedUsers>
+  <AdminUsersUserNotFound>משתמש בשם זה לא נמצא</AdminUsersUserNotFound>
+  <AdminUsersPropertiesTitle>מאפייני המשתמש</AdminUsersPropertiesTitle>
+  <AdminUsersSetPasswordTitle>סיסמת המשתמש Set</AdminUsersSetPasswordTitle>
+  <AdminUsersGeneralInfo>מידע משתמש</AdminUsersGeneralInfo>
+  <AdminUsersUserEmail>אֶלֶקטרוֹנִי</AdminUsersUserEmail>
+  <AdminUsersEmptyName>כינוי אינו יכול להיות ריק</AdminUsersEmptyName>
+  <AdminUsersEmptyPassword>סיסמת משתמש לא יכול להיות ריק</AdminUsersEmptyPassword>
+  <AdminUsersIncorrectName>ישנם סימנים שגויים שם המשתמש</AdminUsersIncorrectName>
+  <AdminUsersAlreadyExists>משתמש בשם זה כבר קיים</AdminUsersAlreadyExists>
+  <AdminUsersEmailAlreadyExists>משתמש עם דואר אלקטרוני זה כבר מקיים</AdminUsersEmailAlreadyExists>
+  <AdminUsersPasswordsNotMatch>סיסמאות לא תואמות</AdminUsersPasswordsNotMatch>
+  <AdminUsersRenameWarning>לאחר שינוי השם של משתמש יש צורך לשנות את הסיסמה, נוכחי אחרת קישור אינטרנט תיקיות יהיה שגוי</AdminUsersRenameWarning>
+  <AdminUsersLicenseRestriction>הרישיון שלך לא מאפשר לך ליצור יותר מ {0} משתמשים</AdminUsersLicenseRestriction>
+  <AdminUsersCountInfoWithLimit>סה"כ משתמשים: {0} מתוך {1}</AdminUsersCountInfoWithLimit>
+  <AdminUsersCountInfo>סה"כ משתמשים: {0}</AdminUsersCountInfo>
+
+  <AdminGroupsEditGroup>עריכת קבוצה</AdminGroupsEditGroup>
+  <AdminGroupsRemoveGroup>הסר קבוצה</AdminGroupsRemoveGroup>
+  <AdminGroupsDeleteGroupPrompt>האם אתה בטוח שברצונך להסיר את קבוצה (ים) "{0}"?</AdminGroupsDeleteGroupPrompt>
+  <AdminGroupsDeletedGroups>{0} הקבוצה (ים) נמחק.</AdminGroupsDeletedGroups>
+  <AdminGroupsGroupNotFound>קבוצה בשם זה לא נמצאה</AdminGroupsGroupNotFound>
+  <AdminGroupsViewUsers>צג משתמשים</AdminGroupsViewUsers>
+  <AdminGroupsProperties>נכסים</AdminGroupsProperties>
+  <AdminGroupsPropertiesTitle>מאפייני קבוצה</AdminGroupsPropertiesTitle>
+  <AdminGroupsGeneralInfo>מידע קבוצה</AdminGroupsGeneralInfo>
+  <AdminGroupsUserNamePrompt>הכנס שם משתמש</AdminGroupsUserNamePrompt>
+  <AdminGroupsUsers>חברי קבוצה</AdminGroupsUsers>
+  <AdminGroupsUserAlreadyExists>משתמש (הים) בשם זה (ים) כבר נוסף</AdminGroupsUserAlreadyExists>
+  <AdminGroupsEmptyName>שם הקבוצה לא יכול להיות ריק</AdminGroupsEmptyName>
+  <AdminGroupsIncorrectName>ישנם סימנים שגויים בשם הקבוצה</AdminGroupsIncorrectName>
+  <AdminGroupsAlreadyExists>קבוצה בשם זה כבר מקיים</AdminGroupsAlreadyExists>
+  <AdminGroupsCountInfo>קבוצות סה"כ: {0}</AdminGroupsCountInfo>
+
+  <AdminLanguagesTab>התאמות למקום</AdminLanguagesTab>
+  <AdminLanguagesTabMessage>כדי לערוך את קובץ הלוקליזציה, בחר את השפה הרצויה ברשימה, לחץ על המחרוזות המקומיות לערוך. לאחר שינויים ולחץ על "שמור" כפתור</AdminLanguagesTabMessage>
+  <AdminLangGridKeyColumn>שם מפתח</AdminLangGridKeyColumn>
+  <AdminLangGridDefaultColumn>אנגלית</AdminLangGridDefaultColumn>
+  <AdminEnterLanguageNameTitle>הזן שם השפה</AdminEnterLanguageNameTitle>
+  <AdminLangConfirmRefreshTitle>confirm רענן</AdminLangConfirmRefreshTitle>
+  <AdminLangConfirmRefreshMessage>תשומת הלב! הנתונים לא נשמרו. האם אתה רוצה לשמור את השינויים עכשיו?</AdminLangConfirmRefreshMessage>
+  <AdminLangAmountInfo>מפתחות מלאים: {0} מתוך {1} (ערכים ריקים: {2})</AdminLangAmountInfo>
+  <AdminLangSaveToCSV>יצוא ל- CSV</AdminLangSaveToCSV>
+  <AdminLangLoadFromCSV>טען CSV</AdminLangLoadFromCSV>
+
+  <AdminDbMaintenanceTab>תחזוקת DB</AdminDbMaintenanceTab>
+  <AdminDbMaintenanceInfoTitle>מידע</AdminDbMaintenanceInfoTitle>
+  <AdminDbMaintenanceInfoPathLabel>נתיב הקובץ DB</AdminDbMaintenanceInfoPathLabel>
+  <AdminDbMaintenanceInfoSizeLabel>גודל קובץ DB</AdminDbMaintenanceInfoSizeLabel>
+  <AdminDbMaintenanceCompactTitle>מסד קומפקט</AdminDbMaintenanceCompactTitle>
+  <AdminDbMaintenanceCompactNote>על מנת להקטין את גודל קובץ מסד הנתונים, אנא לחץ על הכפתור למטה. זה הכרחי כדי לבצע הדחיסה של מסד הנתונים באופן תקופתי, מאז, למשל, לאחר ההסרה פעילה כמה קישורי ציבור או יומן ישן מתעד את גודל DB הקובץ אינו פוחתת.</AdminDbMaintenanceCompactNote>
+  <AdminDbMaintenanceCompactButton>קומפקט DB</AdminDbMaintenanceCompactButton>
+  <AdminDbMaintenanceCompactSuccess>DB נדחס בהצלחה.
+גודל קובץ ישן: {0}
+גודל קובץ חדש: {1}</AdminDbMaintenanceCompactSuccess>
+  <AdminDbMaintenanceCompactAutoNote>אתה גם יכול להפעיל את מסד הנתונים דחיסה אוטומטי לאחר הסרת פעולות רשומות, לעומת זאת, זה לא מומלץ כי זה אולי מנעולים תכופים יותר של הבסיס וזה יכול להגדיל את משך הזמן של כמה בקשות. תשומת הלב! לאחר השינוי של הגדרה זו היישום יופעל מחדש!</AdminDbMaintenanceCompactAutoNote>
+  <AdminDbMaintenanceCompactAutoCheckBox>הפעלה / השבתה אוטומטית קומפקטית DB</AdminDbMaintenanceCompactAutoCheckBox>
+  <AdminDbMaintenanceCompactAutoSaveButton>להציל</AdminDbMaintenanceCompactAutoSaveButton>
+  <AdminDbMaintenanceCompactAutoSaveSuccess>את השינוי של сompression DB אוטומטית הושלם בהצלחה. הדף יעודכן בקרוב.</AdminDbMaintenanceCompactAutoSaveSuccess>
+  <AdminDbMaintenanceEnableLogLabel>בחר DB שאילתות רמת רישום (לתוך הנתונים / debug.log)</AdminDbMaintenanceEnableLogLabel>
+  <AdminDbMaintenanceSettingsSaveSuccess>הגדרות DB נשמרו בהצלחה. הדף ייטען מחדש</AdminDbMaintenanceSettingsSaveSuccess>
+  <AdminDbMaintenanceSettingsChangeNote>תשומת הלב! לאחר שמירת הגדרות היישום יופעל מחדש בקרוב!</AdminDbMaintenanceSettingsChangeNote>
+  <AdminDbMaintenanceInsertIntervalLabel>המרווח (בדקות) של הוספת אירועים אל DB. אם תציין 0, ההחדרה תופיע מייד לאחר האירועים.</AdminDbMaintenanceInsertIntervalLabel>
+  <AdminDbMaintenanceAdvDbParamsTitle>פרמטרי חיבור המתקדם DB</AdminDbMaintenanceAdvDbParamsTitle>
+  <AdminDbMaintenanceStatTitle>סטטיסטיקה (תלוי DurationExecution DB רמת יומן)</AdminDbMaintenanceStatTitle>
+  <AdminDbMaintenanceStatDurationReadLabel>פסק זמן קריאה ממוצע</AdminDbMaintenanceStatDurationReadLabel>
+  <AdminDbMaintenanceStatDurationWriteLabel>פסק זמן כתיבה ממוצע</AdminDbMaintenanceStatDurationWriteLabel>
+  <AdminDbMaintenanceStatDurationCompactLabel>פסק זמן קומפקטי ממוצע</AdminDbMaintenanceStatDurationCompactLabel>
+  <AdminDbMaintenanceStatNoData>אין מידע</AdminDbMaintenanceStatNoData>
+  <AdminDbMaintenanceStatGetButton>לאסוף נתונים סטטיסטיים</AdminDbMaintenanceStatGetButton>
+
+  <AdminMiscTab>שונה</AdminMiscTab>
+  <AdminMiscLoadADAccountsTitle>טען חשבונות של Active Directory</AdminMiscLoadADAccountsTitle>
+  <AdminMiscLoadADAccountsLoadButton>לִטעוֹן</AdminMiscLoadADAccountsLoadButton>
+  <AdminMiscLoadADAccountsResetButton>אִתחוּל</AdminMiscLoadADAccountsResetButton>
+  <AdminMiscLoadADAccountsLdap>מיכל Ldap</AdminMiscLoadADAccountsLdap>
+  <AdminMiscLoadADAccountsToFile>לתייק</AdminMiscLoadADAccountsToFile>
+  <AdminMiscLoadADAccountsSuccessMessage>חשבונות של Active Directory טען בהצלחה</AdminMiscLoadADAccountsSuccessMessage>
+  <AdminMiscLoadADAccountsInfo>כאן אתה יכול ליצור את הקובץ המכיל את מבנה המשתמשים של Active Directory כולו. קובץ זה נחוץ אם אתה משתמש בקובץ סטטי כאחסון מידע לספירה. אותו הקובץ יכול להיות שנוצר באמצעות כלי ADManager. למידע נוסף ראה &lt;b&gt; ADAccountsFilePath &lt;/b&gt; תיאור פרמטר {0} ידני {1}.</AdminMiscLoadADAccountsInfo>
+
+  <AdminMiscManageQuotasTitle>ניהול מכסות</AdminMiscManageQuotasTitle>
+  <AdminMiscManageQuotasInfo>שאילתא קיים או ליצור מכסה חדשה להגביל את השטח מוותר עבור תיקייה, מופעל על ידי מנהל משאבי שרת קבצים.</AdminMiscManageQuotasInfo>
+  <AdminMiscManageQuotasFolderPath>נתיב תיקייה</AdminMiscManageQuotasFolderPath>
+  <AdminMiscManageQuotasQuota>מִכסָה</AdminMiscManageQuotasQuota>
+  <AdminMiscManageQuotasGetQuota>קבל מכסה</AdminMiscManageQuotasGetQuota>
+  <AdminMiscManageQuotasSetQuota>מכסת גדר</AdminMiscManageQuotasSetQuota>
+
+  <AdminMiscFoldersFromGPOLTitle>תיקיות טענו מדיניות קבוצתית</AdminMiscFoldersFromGPOLTitle>
+  <AdminMiscFoldersFromGPOLComputerName>שם המחשב</AdminMiscFoldersFromGPOLComputerName>
+  <AdminMiscFoldersFromGPOLFilePath>העלאת קובץ לשרת</AdminMiscFoldersFromGPOLFilePath>
+  <AdminMiscFoldersFromGPOLMoreInfoLink>עוד מידע</AdminMiscFoldersFromGPOLMoreInfoLink>
+  <AdminMiscFoldersFromGPOLResetButton>אִתחוּל</AdminMiscFoldersFromGPOLResetButton>
+  <AdminMiscFoldersFromGPOLLoadButton>לִטעוֹן</AdminMiscFoldersFromGPOLLoadButton>
+  <AdminMiscFoldersFromGPOLFromDC>מוושינגטון</AdminMiscFoldersFromGPOLFromDC>
+  <AdminMiscFoldersFromGPOLFromFile>מקובץ</AdminMiscFoldersFromGPOLFromFile>
+  <AdminMiscFoldersTargetLabel>כדי לייבא משתמשים / קבוצות תנאים ...</AdminMiscFoldersTargetLabel>
+  <AdminMiscFoldersTargetFilter>לְסַנֵן</AdminMiscFoldersTargetFilter>
+  <AdminMiscFoldersTargetPermission>רְשׁוּת</AdminMiscFoldersTargetPermission>
+  <AdminMiscFoldersFromGPOLSuccessMessage>תיקיות נטענות בהצלחת &lt;br /&gt; חדש:. {0}, עודכן: {1}.</AdminMiscFoldersFromGPOLSuccessMessage>
+  <AdminMiscFoldersFromGPOLInfo>ניתן לטעון (או לעדכן) ברשימת התיקיות מהגדרות מיפוי כונן המדיניות הקבוצתית בקר התחום. בשדה שלהלן ניתן להזין את שם המחשב שממנו הגדרות מדיניות קבוצתית ייטענו (או אם נשאר ריק, ואז התחום הנוכחי ישמש), או נתיב לקובץ עם ההגדרות כוננים ממופים.</AdminMiscFoldersFromGPOLInfo>
+
+  <AdminAnonymFoldersTab>תיקיות אנונימי</AdminAnonymFoldersTab>
+  <AdminAnonymFoldersDeleteFolderPrompt>האם אתה בטוח שברצונך להסיר {0} נבחרו תיקיות אנונימי?</AdminAnonymFoldersDeleteFolderPrompt>
+  
+  <AdminAnonymFoldersDescription>תיקיות משותפות / קבצים - אלה הן תיקיות / קבצים שאינם דורשים * אימות המשתמש, כי משמעות הדבר היא כי הם זמינים לכל המבקרים * (אם יש להם קישור). כל המשתמשים יכולים ליצור תיקיות / קבצים כאלה מהתפריט "שתף &amp;rarr; יצירת קישור ציבורי". עם זאת, תיקיות משותפות עשויות להיות בעל הרשאות מוגבלות: להעלאה, הורדה, קבצים / תיקיות רשימה. להלן טבלה של קישורים לתיקיות משותפות / קבצים שנוצרו על ידי משתמשים. כדי לעבוד קישורים הציבור כוללים כראוי להיות בטוח כי מטפל \ Anonymousdownload.ashx מאפשר גישה אנונימית IIS. אתה יכול לבדוק זאת בדף &lt;/a&gt; אבחון href="{0}"&gt; &lt;a target="_blank". ודא כי חשבון משתמש אנונימי שהוקצו מטפל \ Anonymousdownload.ashx יש קריאה NTFS / הרשאות כתיבה עבור תיקיות משותפות / קבצים &lt;br /&gt; * &amp;nbsp;. &amp;Mdash; &amp;nbsp; אם לא תציין משתמשים, שעבורם מותר גישה בלבד.</AdminAnonymFoldersDescription>
+  <AdminAnonymFoldersLinkOwnerColumn>בעלים</AdminAnonymFoldersLinkOwnerColumn>
+  <AdminAnonymFoldersEmailsColumn>דוא"ל עבור הודעה</AdminAnonymFoldersEmailsColumn>
+  <AdminAnonymFoldersAccessForUsersColumn>גישה למשתמשים</AdminAnonymFoldersAccessForUsersColumn>
+  <AdminAnonymFoldersPersonalMessageColumn>הודעה אישית</AdminAnonymFoldersPersonalMessageColumn>
+  <AdminAnonymFoldersOverwriteOnUploadHint> (לצורך החלפה: {0})</AdminAnonymFoldersOverwriteOnUploadHint>
+  <AdminAnonymFoldersRootPathColumn>נתיב ההתחלתי</AdminAnonymFoldersRootPathColumn>
+  <AdminAnonymFoldersKeysColumn>מפתחות</AdminAnonymFoldersKeysColumn>
+  <AdminAnonymFoldersShortColumn>קישור קצר</AdminAnonymFoldersShortColumn>
+  <AdminAnonymFoldersPropertiesTitle>מאפייני תיקיה אנונימי</AdminAnonymFoldersPropertiesTitle>
+  <AdminAnonymFoldersAdditionalInfo>מידע נוסף</AdminAnonymFoldersAdditionalInfo>
+  <AdminAnonymFoldersLinkLabel>קישור לגישה</AdminAnonymFoldersLinkLabel>
+  <AdminAnonymFoldersPathNotSpecified>הנתיב הפיזי אינו מוגדר</AdminAnonymFoldersPathNotSpecified>
+  <AdminAnonymFoldersCreatedForColumn>מַטָרָה</AdminAnonymFoldersCreatedForColumn>
+
+  <AdminFoldersTab>תיקיות</AdminFoldersTab>
+  <AdminFoldersAddFolder>הוסף תיקיה</AdminFoldersAddFolder>
+  <AdminFoldersEditFolder>ערוך תיקייה</AdminFoldersEditFolder>
+  <AdminFoldersRemoveFolder>הסר תיקייה</AdminFoldersRemoveFolder>
+  <AdminFoldersDeleteFolderPrompt>האם אתה בטוח שברצונך להסיר את התיקייה "{0}"?</AdminFoldersDeleteFolderPrompt>
+  <AdminFoldersFolderNotFound>תיקיה בשם זה לא נמצא</AdminFoldersFolderNotFound>
+  <AdminFoldersPropertiesTitle>מאפייני תיקייה</AdminFoldersPropertiesTitle>
+  <AdminFoldersGeneralInfo>מידע כללי</AdminFoldersGeneralInfo>
+  <AdminFoldersFolderRemoteWarningForms>הערה! תיקייה זו משותפת מרחוק. בדוק {0} שאלות נפוצות: כיצד לשתף תיקיות מרוחקות {1}</AdminFoldersFolderRemoteWarningForms>
+  <AdminFoldersFolderRemoteWarningWin>הערה! תיקייה זו משותפת מרחוק. אתה יכול להסתיר כמה תיקיות / קבצים אם משתמש אין זכויות לקרוא אותם. ראה {0} שאלות נפוצות: איך להחביא קבצים / תיקיות למשתמש אין זכויות לקרוא {1}</AdminFoldersFolderRemoteWarningWin>
+  <AdminFoldersFolderPath>נתיב פיזי</AdminFoldersFolderPath>
+  <AdminFoldersLocationPath>מקום</AdminFoldersLocationPath>
+  <AdminFoldersFolderCreate>צור תיקייה</AdminFoldersFolderCreate>
+  <AdminFoldersFolderCreateProcess>ביצירת תיקייה</AdminFoldersFolderCreateProcess>
+  <AdminFoldersFolderCreateContainsPattern>התיקייה לא ניתן ליצור מכיוון שהוא מכיל דפוס</AdminFoldersFolderCreateContainsPattern>
+  <AdminFoldersFolderCreateSuccessfully>התיקייה "{0}" נוצרה בהצלחה.</AdminFoldersFolderCreateSuccessfully>
+  <AdminFoldersFolderOptional> (אופציונאלי)</AdminFoldersFolderOptional>
+  <AdminFoldersFolderLimitations>מגבלות</AdminFoldersFolderLimitations>
+  <AdminFoldersFolderDescription>תאור</AdminFoldersFolderDescription>
+  <AdminFoldersFolderQuota>מִכסָה</AdminFoldersFolderQuota>
+  <AdminFoldersFolderQuotaHint>שאילתא קיים או ליצור מכסה חדשה להגביל את השטח מוותר עבור תיקייה, מופעל על ידי מנהל משאבי שרת קבצים.</AdminFoldersFolderQuotaHint>
+  <AdminFoldersFolderQuotaMoreInfoLink>עוד מידע</AdminFoldersFolderQuotaMoreInfoLink>
+  <AdminFoldersPermissions>הרשאות</AdminFoldersPermissions>
+  <AdminFoldersPermissionsFor>הרשאות עבור {0}</AdminFoldersPermissionsFor>
+  <AdminFoldersUsersGroups>משתמשים וקבוצות</AdminFoldersUsersGroups>
+  <AdminFoldersAccessControl>בקרת גישה</AdminFoldersAccessControl>
+  <AdminFoldersCreate>לִיצוֹר</AdminFoldersCreate>
+  <AdminFoldersDelete>לִמְחוֹק</AdminFoldersDelete>
+  <AdminFoldersRename>שינוי שם</AdminFoldersRename>
+  <AdminFoldersUpload>העלה</AdminFoldersUpload>
+  <AdminFoldersDownload>הורדה</AdminFoldersDownload>
+  <AdminFoldersZipDownload>Zip ולהוריד</AdminFoldersZipDownload>
+  <AdminFoldersZip>רוכסן</AdminFoldersZip>
+  <AdminFoldersUnzip>Zip לפרוק</AdminFoldersUnzip>
+  <AdminFoldersCut>גזירה</AdminFoldersCut>
+  <AdminFoldersCopy>עותק</AdminFoldersCopy>
+  <AdminFoldersListFiles>קבצי צג</AdminFoldersListFiles>
+  <AdminFoldersListFolders>תיקיות צג</AdminFoldersListFolders>
+  <AdminFoldersModify>לְשַׁנוֹת</AdminFoldersModify>
+  <AdminFoldersBulkMailing>דיוור בכמות גדולה</AdminFoldersBulkMailing>
+  <AdminFoldersAnonymViewContent>רשימת קבצים באמצעות קישור הציבור</AdminFoldersAnonymViewContent>
+  <AdminFoldersAnonymDownload>הורד באמצעות קישור הציבור</AdminFoldersAnonymDownload>
+  <AdminFoldersAnonymUpload>העלה באמצעות קישור הציבור</AdminFoldersAnonymUpload>
+  <AdminFoldersWatch>שעון</AdminFoldersWatch>
+  <AdminFoldersDescription>באפשרותך להוסיף תיקיות באופן ידני או להמיר תיקיות קיימות אם אתה משתמש במספר כוננים ב ביטוחים קבוצתיים. למידע נוסף ראה {0} עזרה {1}.</AdminFoldersDescription>
+
+  <AdminFoldersPermissionsForRegex>ניתן גם להשתמש בביטוי רגיל. נא להזין את &lt;b&gt; {0} &lt;/b&gt; בתחילת השדה לעיל ולאחר מכן ביטוי רגיל, למשל:</AdminFoldersPermissionsForRegex>
+  <AdminFoldersPermissionsForRegexUsers>{0} (לספק גישה לכל משתמש) &lt;br /&gt; {1} (ביטוי רגיל זה אומר שני משתמשים: jdoe ומייק)</AdminFoldersPermissionsForRegexUsers>
+  <AdminFoldersPermissionsForRegexGroups>{0} (לספק גישה עבור כל קבוצה) &lt;br /&gt; {1} (ביטוי רגיל זה אומר כל הקבוצות עם "סטודנטים" על שמם)</AdminFoldersPermissionsForRegexGroups>
+
+  <AdminFoldersListRestrictions>הגבלות של תצוגה</AdminFoldersListRestrictions>
+  <AdminFoldersCreateRestrictions>הגבלות של יצירת הקובץ</AdminFoldersCreateRestrictions>
+  <AdminFoldersRestrictionAllow>להתיר</AdminFoldersRestrictionAllow>
+  <AdminFoldersRestrictionDeny>לְהַכּחִישׁ</AdminFoldersRestrictionDeny>
+  <AdminFoldersRestrictionExtensions>רחבות</AdminFoldersRestrictionExtensions>
+  <AdminFoldersUserNamePrompt>הכנס שם משתמש</AdminFoldersUserNamePrompt>
+  <AdminFoldersUserNameEmptyText>שם המשתמש בחר</AdminFoldersUserNameEmptyText>
+  <AdminFoldersUserNameNotSelected>עליך לבחור שם משתמש</AdminFoldersUserNameNotSelected>
+  <AdminFoldersUserAlreadyExists>משתמש זה כבר הוקצה לתיקייה</AdminFoldersUserAlreadyExists>
+  <AdminFoldersGroupNamePrompt>הכנס שם לקבוצה</AdminFoldersGroupNamePrompt>
+  <AdminFoldersGroupNameEmptyText>שם קבוצה בחר</AdminFoldersGroupNameEmptyText>
+  <AdminFoldersGroupNameNotSelected>עליך לבחור שם קבוצה</AdminFoldersGroupNameNotSelected>
+  <AdminFoldersGroupAlreadyExists>קבוצה זו כבר הוקצתה לתיקייה</AdminFoldersGroupAlreadyExists>
+  <AdminFoldersEmptyName>שם התיקיה אינו יכול להיות ריק</AdminFoldersEmptyName>
+  <AdminFoldersEmptyPath>נתיב תיקייה אינו יכול להיות ריק</AdminFoldersEmptyPath>
+  <AdminFoldersIncorrectName>ישנם סימנים שגויים בשם התיקייה</AdminFoldersIncorrectName>
+  <AdminFoldersAlreadyExists>תיקיה בשם זה ומיקום כבר קיים</AdminFoldersAlreadyExists>
+  <AdminFoldersSharesButton>מניות קיימות</AdminFoldersSharesButton>
+  <AdminFoldersTestAccessButton>גישת מבחן</AdminFoldersTestAccessButton>
+  <AdminFoldersTestIndexingButton>אינדקס מבחן</AdminFoldersTestIndexingButton>
+  <AdminFoldersShareNameTitle>מניות קיימות</AdminFoldersShareNameTitle>
+  <AdminFoldersShareNameEmptyText>נתח בחר</AdminFoldersShareNameEmptyText>
+  <AdminFoldersShareNameNotSelected>עליך לבחור נתח</AdminFoldersShareNameNotSelected>
+  <AdminFoldersGetQuotaButton>קבל מכסה</AdminFoldersGetQuotaButton>
+  <AdminFoldersSetQuotaButton>מכסת גדר</AdminFoldersSetQuotaButton>
+  <AdminCommonFilterField>לְסַנֵן</AdminCommonFilterField>
+  <AdminCommonValidateField>לְאַמֵת</AdminCommonValidateField>
+  <AdminFoldersRootNameUsed>אנא השתמש בשם אחר עבור התיקיה במקום "{0}"</AdminFoldersRootNameUsed>
+  <AdminFoldersFolderFilterSuccess>האמת של המסנן התקיימה בהצלחה</AdminFoldersFolderFilterSuccess>
+
+  <AdminTestAccessGoodResult>התיקייה "{0}" קיימת וניתן לקרוא.</AdminTestAccessGoodResult>
+  <AdminTestAccessBadResult>התיקייה "{0}" אינה קיימת או שאין NTFS לקרוא הרשאות או אין גישה לרשת עבור זהות היישום!</AdminTestAccessBadResult>
+  <AdminTestAccessErrorResult>שגיאה בעת בדיקת הגישה אל התיקייה "{0}": {1}</AdminTestAccessErrorResult>
+  <AdminTestIndexingErrorResult>שגיאה בעת בדיקת לאינדקס התיקייה "{0}":
+{1}</AdminTestIndexingErrorResult>
+  <AdminTestIndexingYesResult>הספרייה "{0}" באינדקס</AdminTestIndexingYesResult>
+  <AdminTestIndexingNoResult>הספרייה "{0}" אינו מופיע באינדקס</AdminTestIndexingNoResult>
+  <AdminTestIndexingUnknownResult>לא ניתן לקבוע אם המדריך "{0}" באינדקס.</AdminTestIndexingUnknownResult>
+  <AdminTestIndexingAddIfNotIndexed>האם אתה רוצה להוסיף תיקייה זו לאינדקס, אם זה כבר באינדקס עדיין?</AdminTestIndexingAddIfNotIndexed>
+  <ProgressTestAccess>גישת בדיקה</ProgressTestAccess>
+  <ProgressTestIndexing>אינדקס בדיקה</ProgressTestIndexing>
+  <AdminHowToIndexingLocationLink>על מנת מדד תיקייה, עיין בעזרה עבור {0}</AdminHowToIndexingLocationLink>
+
+  <AdminUsersListAll>כל המשתמשים</AdminUsersListAll>
+  <AdminUsersListDACL>ממשתמשים ACL</AdminUsersListDACL>
+  <AdminGroupsListAll>כל הקבוצות</AdminGroupsListAll>
+  <AdminGroupsListDACL>קבוצות מ ACL</AdminGroupsListDACL>
+  <AdminDACLStringLabel>הרשאות ACL</AdminDACLStringLabel>
+
+  <AdminCommonCustomField>שדה מותאם</AdminCommonCustomField>
+  <AdminCommonSettingsChangeWarning>השינויים ייכנסו לתוקף לאחר התחברות מחדש (או לאחר הפעלה מחדש של יישום עבור גישת WebDAV).</AdminCommonSettingsChangeWarning>
+
+  <AdminCommonAllowedFoldersPathsTitle>למלון נתיבי תיקיות</AdminCommonAllowedFoldersPathsTitle>
+  <AdminCommonNotAllowedFolderPath>אתה יכול ליצור גישה רק לתיקיות אלה או תיקיות המשנה שלה: {0}</AdminCommonNotAllowedFolderPath>
+
+  <AdminLogsTab>עֵץ</AdminLogsTab>
+
+  <AdminSettingsTab>הגדרות</AdminSettingsTab>
+
+  <AdminLogsErrorsTab>רשום שגיאות</AdminLogsErrorsTab>
+  <AdminLogsErrorsClearBtn>ברור</AdminLogsErrorsClearBtn>
+  <AdminLogsErrorsClearUsersCountExceededBtn>נקה רשומות עם שגיאות של משתמשים העולה על מגבלת כמות</AdminLogsErrorsClearUsersCountExceededBtn>
+
+  <AdminFoldersCreateHint>מותר / אסור פעולות מתפריט "החדש": קובץ חדש, תיקייה חדשה, תמונה חדשה, קבצי מסמכים חדשים.</AdminFoldersCreateHint>
+  <AdminFoldersDeleteHint>מותר / אסור מחיקה של קבצים ותיקיות קיימים</AdminFoldersDeleteHint>
+  <AdminFoldersRenameHint>מותר / אסור שינוי שם של קבצים ותיקיות קיימים</AdminFoldersRenameHint>
+  <AdminFoldersUploadHint>מותר / אסור העלאת קבצים תכונה (כפתור העלה על סרגל הכלים)</AdminFoldersUploadHint>
+  <AdminFoldersDownloadHint>מותר / אסור "הורדה", "הצג / ערוך", להוריד ענן אחסון, פעולות וכו '</AdminFoldersDownloadHint>
+  <AdminFoldersZipDownloadHint>מותר / אסור "לדחוס ולהוריד" פעולה</AdminFoldersZipDownloadHint>
+  <AdminFoldersZipHint>מותר / אסור "דחיסה כדי ארכיון zip" פעולה</AdminFoldersZipHint>
+  <AdminFoldersUnzipHint>מותר / אסור "חלץ לתיקייה הנוכחית", "חלץ לתיקייה חדשה" ו "תוכן Zip" פעולות</AdminFoldersUnzipHint>
+  <AdminFoldersCutHint>מותר / אסור פעולת קבצים ותיקיות קיימות לחתוך</AdminFoldersCutHint>
+  <AdminFoldersCopyHint>מותר / אסור פעולת קבצי ותיקיות קיימות עותק</AdminFoldersCopyHint>
+  <AdminFoldersListFilesHint>מותר / אסור הצגת רשימות קבצים</AdminFoldersListFilesHint>
+  <AdminFoldersListFoldersHint>מותר / אסור תיקיות רישום</AdminFoldersListFoldersHint>
+  <AdminFoldersModifyHint>מותר / אסור לשנות קבצים (כל הפעולות שיכולים לשנות את תוכן קובץ קיים)</AdminFoldersModifyHint>
+  <AdminFoldersBulkMailingHint>מותר / אסור דיוור בתפזורת לקבוצות</AdminFoldersBulkMailingHint>
+  <AdminFoldersAnonymViewContentHint>מותר / אסור קבצי רשימה עבור משתמשים אנונימיים (באמצעות קישורי ציבור)</AdminFoldersAnonymViewContentHint>
+  <AdminFoldersAnonymDownloadHint>מותר / אסור קבצים להוריד עבור משתמשים אנונימיים (באמצעות קישורי ציבור)</AdminFoldersAnonymDownloadHint>
+  <AdminFoldersAnonymUploadHint>מותר / אסור להעלות קבצים עבור משתמשים אנונימיים (באמצעות קישורי ציבור)</AdminFoldersAnonymUploadHint>
+  <AdminFoldersWatchHint>מותר / אסור למשתמשים לפקח על השינויים בתיקייה שנעשתה על ידי משתמשים אחרים (הוא מוחל רק אם UI / AllowUsersmonitorModifications = true)</AdminFoldersWatchHint>
+  <AdminFoldersListRestrictionsHint>אפשרות זו שולטת רישום קובץ. לחץ על לחצן בחירה "מנע" להסתיר קבצים עם סיומות שצוינו. הכניסו אסורי רחבות הפרידו בפסיקים (למשל "EXE, BAT, COM"). גדר "אפשר" כפתור רדיו, וחבר סיומות של הקבצים יוצגו (למשל "DOC, PDF, JPG").</AdminFoldersListRestrictionsHint>
+  <AdminFoldersCreateRestrictionsHint>פונקציה זו דומה "הגבלות רשימה", אבל היא שולטת העלאת קבצים, חילוץ zip, יצירת קבצים חדשים. אתה יכול לאסור או לאפשר העלאה של קבצים שצוינו.</AdminFoldersCreateRestrictionsHint>
+  <AdminFoldersGeneralInfoHint>הקלד קיימת נתיב תיקיית כינוי. לחץ על לחצן עזרה בתחתית לפרטים נוספים.</AdminFoldersGeneralInfoHint>
+  <AdminFoldersUsersGroupsHint>בחר או משתמשים וקבוצות סוג לשתף תיקייה עבורם. לחץ על לחצן עזרה בתחתית לפרטים נוספים.</AdminFoldersUsersGroupsHint>
+
+  <AdminUserFoldersButtonTitle>ברשימת מניות מבחן</AdminUserFoldersButtonTitle>
+  <AdminUserFoldersWindowTitle>תיקיות משתמש</AdminUserFoldersWindowTitle>
+  <AdminUserFoldersLabel>ברשימת תיקיות עבור משתמש '{0}':</AdminUserFoldersLabel>
+  
+  <AdminPermissionsTab>הרשאות Admin</AdminPermissionsTab>
+  <AdminPermissionsPrivilege>זְכוּת</AdminPermissionsPrivilege>
+  <AdminPermissionsEditButton>זכות ערוכה</AdminPermissionsEditButton>
+  <AdminPermissionsModifySettingsTitle>שינוי הגדרות</AdminPermissionsModifySettingsTitle>
+  <AdminPermissionsModifyFoldersTitle>שינוי תיקיות</AdminPermissionsModifyFoldersTitle>
+  <AdminPermissionsModifyAnonymFoldersTitle>שינוי תיקיות ציבוריות</AdminPermissionsModifyAnonymFoldersTitle>
+  <AdminPermissionsModifyAccountsTitle>לשנות חשבונות</AdminPermissionsModifyAccountsTitle>
+  <AdminPermissionsViewDiagnosticsTitle>בדף 'אבחון' צפה</AdminPermissionsViewDiagnosticsTitle>
+  <AdminPermissionsViewLogTitle>צפה בלוג</AdminPermissionsViewLogTitle>
+  <AdminPermissionsViewErrorsLogTitle>צג שגיאות להתחבר</AdminPermissionsViewErrorsLogTitle>
+  <AdminPermissionsModifyLocalizationsTitle>שינוי localizations</AdminPermissionsModifyLocalizationsTitle>
+  <AdminPermissionsFolderPathTitle>נתיב תיקייה</AdminPermissionsFolderPathTitle>
+  <AdminPermissionsFoldersTitle>תיקיות Admin</AdminPermissionsFoldersTitle>
+  <AdminPermissionsPrivilegeHint>משתמשי Set / קבוצות עבורו "{0}" פריבילגיה תותרנה</AdminPermissionsPrivilegeHint>
+  <AdminPermissionsFolderTitle>מאפייני תיקיה Admin</AdminPermissionsFolderTitle>
+  <AdminPermissionsFolderFieldTitle>נתיב תיקייה</AdminPermissionsFolderFieldTitle>
+  <AdminPermissionsFolderHint>מידע על תיקיות מנהל</AdminPermissionsFolderHint>
+  <AdminPermissionsFolderEmptyAccounts>ציין משתמשים ו / או קבוצות</AdminPermissionsFolderEmptyAccounts>
+  <AdminPermissionsFolderAlreadyExists>תיקייה עם מיקום זה כבר קיים</AdminPermissionsFolderAlreadyExists>
+  <AdminPermissionsFolderNotFound>תיקייה עם המיקום הזה לא נמצא</AdminPermissionsFolderNotFound>
+  <AdminPermissionsAllowedFoldersMessage>אתה יכול ליצור / לעדכן / לנהל גישה רק לתיקיות אלה או תיקיות המשנה שלה: {0}</AdminPermissionsAllowedFoldersMessage>
+
+  <AdminUsersCountExceededWarn>כמות מקסימלית של משתמשים היא חריגה. הרישיון הנוכחי שלך מאפשר רק {0} משתמשים עבור הכניסה. למידע נוסף לפתוח "{1}" הכרטיסייה ולמצוא "{2}" חריג (ים). כדי להסתיר רשומות מנקות יומן הודעה זו על "{1}" כרטיסייה.</AdminUsersCountExceededWarn>
+
+  <AdminNewVersionAvailableTitle>גרסה חדשה זמינה!</AdminNewVersionAvailableTitle>
+  <AdminNewVersionAvailableInfo>הגרסה הנוכחית: {0} &lt;br /&gt; גרסה חדשה יותר: {1}</AdminNewVersionAvailableInfo>
+  
+  <SettingsGridDescriptionInfo>תאור</SettingsGridDescriptionInfo>
+  <SettingsGridFormatInfo>פורמט ערך</SettingsGridFormatInfo>
+  <SettingsGridDefaultValueInfo>ערך ברירת מחדל</SettingsGridDefaultValueInfo>
+  <SettingsGridMoreInfo>עוד מידע</SettingsGridMoreInfo>
+  <SettingsGridRestoreDefault>להחזיר לברירת מחדל</SettingsGridRestoreDefault>
+
+  <SettingsFormatBoolean>ערך בוליאני</SettingsFormatBoolean>
+  <SettingsFormatWholeNumber>מספר שלם</SettingsFormatWholeNumber>
+  <SettingsFormatRealNumber>מספר ממשי</SettingsFormatRealNumber>
+  <SettingsFormatString>חוּט</SettingsFormatString>
+  <SettingsFormatEnum>כל ערך של</SettingsFormatEnum>
+  <SettingsFormatSet>רשימה מופרדת בפסיקים ללא חזרות של ערכים</SettingsFormatSet>
+  <SettingsFormatArray>רשימה מופרדת בפסיקים של מחרוזות</SettingsFormatArray>
+  <SettingsFormatToolbarButtons>. (. ערך "{0}" ניתן לחזור מספר פעמים, אך לא ברציפות אחרי כל שם, ואחריו נקודתיים, אפשר לציין אחד על שיטות שנועדו להציג את הלחצן: {1})</SettingsFormatToolbarButtons>
+
+  <AdminSettingsSave>שמור הגדרות</AdminSettingsSave>
+  <AdminToggleHiddenParams>{0} פרמטרים מתקדמים</AdminToggleHiddenParams>
+  <AdminHintHiddenParams>פרמטרים נוספים מיועדים אך ורק הגדרות פרטניות יותר, וברוב המקרים הם לעתים רחוקות צורך</AdminHintHiddenParams>
+  <AdminShowHiddenParams>לְהַצִיג</AdminShowHiddenParams>
+  <AdminHideHiddenParams>להתחבא</AdminHideHiddenParams>
+
+  <SettingsDenyAuthModeChange>מעבר מצב אימות אוטומטי אינו נתמך. ראה {0} לקבלת הוראות אודות שינוי מצב האימות.</SettingsDenyAuthModeChange>
+  <SettingsApplicationRestartedMsg>מחדש יישום</SettingsApplicationRestartedMsg>
+  <SettingsSettingsSavedMsg>ההגדרות נשמרו</SettingsSettingsSavedMsg>
+  <SettingsSettingsSaveFailedAppMsg>אין אפשרות לשמור את קבצי תצורה. בדוק הרשאות NTFS כתיבה של web.config ו HttpCommanderSettings.config קבצים בתיקיית השורש יישום אינטרנט {0} עבור משתמש {1}. הודעת שגיאה: {2}.</SettingsSettingsSaveFailedAppMsg>
+  <SettingsSettingsSaveFailedTempMsg>אין אפשרות לשמור את קבצי תצורה. בדוק את ההרשאות של התיקייה הזמנית {0} עבור משתמש {1}. הודעת שגיאה: {2}.</SettingsSettingsSaveFailedTempMsg>
+  <SettingsSettingsReadFailedAppMsg>לא ניתן לקרוא קבצי תצורה. בדוק לקרוא הרשאות NTFS של web.config ו HttpCommanderSettings.config קבצים בתיקיית השורש יישום אינטרנט {0} עבור משתמש {1}. הודעת שגיאה: {2}.</SettingsSettingsReadFailedAppMsg>
+  <SettingsSettingsReadFailedTempMsg>לא ניתן לקרוא קבצי תצורה בתיקייה הזמנית. בדוק את ההרשאות של התיקייה הזמנית {0} עבור משתמש {1}. הודעת שגיאה: {2}.</SettingsSettingsReadFailedTempMsg>
+  <SettingsSettingsConfigChangedOutside>קובץ תצורת HttpCommander שונה על ידי תכנית אחרת. אולי אתה משנה אותו באופן ידני באמצעות עורך טקסט. היישום נטען בקובץ התצורה החדשה. כל השינויים קשורים HttpCommander תצורה אשר עשו דרך ממשק האינטרנט הולכים לאיבוד. אתה צריך לעשות שוב אותם, ולאחר מכן נסה לשמור שוב. אנו ממליצים נגד קבצי תצורה עריכה ידנית תוך יישום פועל. אחרת אתה צריך להפעיל מחדש את היישום לאחר שינוי קבצי תצורה. הודעת שגיאה: {0}.</SettingsSettingsConfigChangedOutside>
+  <SettingsSettingsSaveNotif>אל תשכחו לשמור את הגדרות שינויים!</SettingsSettingsSaveNotif>
+  
+  <SettingsEmailNotifTitle>הודעות בדואר אלקטרוני</SettingsEmailNotifTitle>
+  <SettingsEmailNotifApplyBtn>שמור גדרות דואר</SettingsEmailNotifApplyBtn>
+  <SettingsEmailNotifResetBtn>אִתחוּל</SettingsEmailNotifResetBtn>
+  <SettingsEmailNotifEventsLabel>לאירועים</SettingsEmailNotifEventsLabel>
+  <SettingsEmailNotifWhenLabel>לִשְׁלוֹחַ</SettingsEmailNotifWhenLabel>
+  <SettingsEmailNotifEmailsLabel>הודעות דוא"ל</SettingsEmailNotifEmailsLabel>
+  <SettingsEmailNotifPathsLabel>נתיבים</SettingsEmailNotifPathsLabel>
+  
+  <LogsErrorsGridUrlColumn>כתובת האתר</LogsErrorsGridUrlColumn>
+  <LogsErrorsGridMsgColumn>הוֹדָעָה</LogsErrorsGridMsgColumn>
+  <LogsErrorsGridMoreInfoColumn>עוד מידע</LogsErrorsGridMoreInfoColumn>
+  <LogsErrorsGridDetailsTitle>פרטים</LogsErrorsGridDetailsTitle>
+  
+  <FsrmUnableLoadLibraryLocal>לא ניתן להתחבר ל- File Manager משאבים שרת על המחשב המארח המקומי.</FsrmUnableLoadLibraryLocal>
+  <FsrmUnableLoadLibraryRemote>לא ניתן להתחבר ל- File Manager משאבים שרת על "{0}" המארח.</FsrmUnableLoadLibraryRemote>
+  <FsrmNotInstalled>מנהל משאבי שרת קבצים אינו מותקן "{0}".</FsrmNotInstalled>
+  <FsrmNotInstalledEitherEnd>מנהל משאבי שרת קבצים אינו מותקן או על מארח מקומי או על "{0}".</FsrmNotInstalledEitherEnd>
+  <FsrmQuotaNotSpecified>מכסה לא צוינה.</FsrmQuotaNotSpecified>
+  <FsrmUnableGetQuota>לא ניתן לקבל תקרת מכסות.</FsrmUnableGetQuota>
+  <FsrmUnableSetQuota>לא מצליח לקבוע תקרת מכסות.</FsrmUnableSetQuota>
+  <FsrmQuotaSetMsg>מכסה הוגדרה.</FsrmQuotaSetMsg>
+  <FsrmInvalidQuotaValueMsg>ערך מכסה לא חוקי.</FsrmInvalidQuotaValueMsg>
+
+  <CommandBuyNow>קנה עכשיו</CommandBuyNow>
+
+  <AdminUpdateTab>שדרוג</AdminUpdateTab>
+  <AdminUpdateManual>שדרוג ידני</AdminUpdateManual>
+  <AdminUpdateAuto>שדרוג אוטומטי</AdminUpdateAuto>
+  <AdminUpdateStartButton>התחל שדרוג / יצירת גיבוי</AdminUpdateStartButton>
+  <AdminUpdateFinishButton>שדרוג סיום / שחזור גיבוי</AdminUpdateFinishButton>
+  <AdminUpdateBackupButton>גיבוי</AdminUpdateBackupButton>
+  <AdminUpdateDownloadNewButton>הורד גרסה חדשה</AdminUpdateDownloadNewButton>
+  <AdminUpdateStepTitle>שלב {0} {1}: {2}</AdminUpdateStepTitle>
+  <AdminUpdateStepInfo>שלב {0} {1}</AdminUpdateStepInfo>
+  <AdminUpdateNumberSymbol>#</AdminUpdateNumberSymbol>
+  <AdminUpdateBackupContent>נא לחץ על הכפתור "{0}" עבור יצירת עותק גיבוי של התיקייה עם היישום מקבלים קישור שיסייע להורדה</AdminUpdateBackupContent>
+  <AdminUpdateDownloadBackupLinkHint>נא להוריד עותק גיבוי של יישום בעזרת הקישור הבא:</AdminUpdateDownloadBackupLinkHint>
+  <AdminUpdateDownloadNewContent>אז בבקשה להוריד גרסה חדשה בעזרת הקישור הבא ובצע את {0} ההתקנה {1} ו- {2} לשדרג {1} הוראות כדי להתקין גרסה חדשה. לאחר ההתקנה יש לפתוח את לוח הניהול, עבור אל הכרטיסייה "{3}" ולחץ על הכפתור "{4}" על מנת להשלים את ההתקנה.</AdminUpdateDownloadNewContent>
+  <AdminUpdateUploadButton>העלה עותק גיבוי ולהחיל הגדרות</AdminUpdateUploadButton>
+  <AdminUpdateUploadAndInstallButton>התקן גרסה חדשה עם שמירה על כל ההגדרות</AdminUpdateUploadAndInstallButton>
+  <AdminUpdateUploadEmptyText>בחר עותק גיבוי להעלאה</AdminUpdateUploadEmptyText>
+  <AdminUpdateFinishContent>על מנת לשחזר את ההגדרות של הגרסה הקודמת בחרו והעלה ארכיון גיבוי שנוצר בעבר עם תיקיית היישום</AdminUpdateFinishContent>
+  <AdminUpdateFinishMessage>מזל טוב! כל ההגדרות מוחלות בהצלחה. כמו כן, יש לפנות את כל השינויים שביצעת לקבצים אחרים, למשל: Default.aspx או Global.asax.</AdminUpdateFinishMessage>
+  <AdminUpdateFinishRefreshPage>הדף ייטען מחדש</AdminUpdateFinishRefreshPage>
+  <AdminUpdateMainInfo>סוג של שדרוג זה הוא אוטומטי באופן חלקי. אתה יכול ליצור ולהוריד קובץ גיבוי עם הגדרות תצורת היישום ולשחזר אותו לאחר השדרוג. אנא בצע את הפעולות קצרות הבאות: ליצור קובץ גיבוי, לבצע השדרוג הידני, לשחזר את הגדרות מקובץ הגיבוי. הליך זה יכול לשמש גם כדי לגבות / לשחזר את ההגדרות מבלי לשדרג. כל שעליך לעשות הוא לדלג על שלב השדרוג לשחזר את הגדרות מקובץ הגיבוי.</AdminUpdateMainInfo>
+  <AdminUpdateAutoButton>אוטו</AdminUpdateAutoButton>
+  <AdminUpdateAutoInfo>סוג של שדרוג זה הוא אוטומטי כמעט לחלוטין. זה מורכב של 2 שלבים: גיבוי של ההגדרות הנוכחיות (כדאי להוריד ולשמור קובץ גיבוי), התקנת גרסה חדשה ושחזור של הגדרות מקובץ הגיבוי. HTTP מפקד ניתן להוריד את הגירסה העדכנית ביותר באופן אוטומטי ולהתקין אותה או שאתה יכול לציין את הנתיב אל בארכיון zip עם גרסה חדשה בשרת שלנו. כל ההגדרות ישוחזרו אוטומטית מקובץ גיבוי קודמים.</AdminUpdateAutoInfo>
+  <AdminUpdateRestoreWebConfigCheckBox>שחזר את הגדרות מ Web.config (למשל, כגון SMTP)</AdminUpdateRestoreWebConfigCheckBox>
+  <AdminUpdateBackupAssignedFoldersInRootMessage>תשומת הלב! יש כמה תיקיות משתמשים בספרייה עם היישום שיש להם את הגודל הכולל יותר מ {0}. הגיבוי לא ייעשה. אנא לעשות עותק גיבוי של מדריכים אלה, להסיר אותם מתיקיית היישום ונסה את הפעולה בצד שלך.</AdminUpdateBackupAssignedFoldersInRootMessage>
+  <AdminUpdateNeedRefreshPageForContinue>תשומת הלב! כדי להמשיך יש צורך לטעון מחדש את הדף. נא לחצו על הכפתור "{0}". לאחר העמסת יתר בבקשה לחזור על הפעולה.</AdminUpdateNeedRefreshPageForContinue>
+  <AdminUpdateRestoreFromBackupEmpty>, או אם היא אינה מסומנת, זה ישמש את הקובץ החדש שנוצר בשלב הקודם</AdminUpdateRestoreFromBackupEmpty>
+  <AdminUpdateInstallZipPathHint>לעדכון נא לציין את הנתיב הפיזי המלא אל קובץ ההתקנה (בשרת) בשדה הראשון או להשאיר את המקום ריק על מנת להשתמש הפצה מקוונת</AdminUpdateInstallZipPathHint>
+  <AdminUpdateInstallZipPathEmpty>ציין נתיב ירכיב עם להתקין</AdminUpdateInstallZipPathEmpty>
+  <AdminUpdateProgress>עִדכּוּן</AdminUpdateProgress>
+  <AdminUpdateAccessDeniedWarning>&lt;b&gt; שים לב! &lt;/b&gt; לעדכון נא לקבוע את השינוי (קריאה וכתיבה) הרשאות NTFS ל- {0} השתמש תיקייה עם מפקד HTTP {1} וחזור על השדרוג. &lt;br /&gt; אחרי השדרוג המוצלח בבקשה להחזיר את הזכויות לשעבר.</AdminUpdateAccessDeniedWarning>
+  <AdminUpdateAccessDeniedWarningCurentUser>נוֹכְחִי</AdminUpdateAccessDeniedWarningCurentUser>
+
+  <ServerExceedsMaxSizeForEditAsTextFile>גודל הקובץ חורג מהגודל המרבי לערוך אותו כקובץ טקסט.</ServerExceedsMaxSizeForEditAsTextFile>
+  <ServerDemoMode>הפעולה הנתונה אסורה במצב הדגמה</ServerDemoMode>
+  <ServerHostedMode>זה אינו רשאי לשנות ערכים של באי הגדרות גרסת ניסיון מתארח: {0}.</ServerHostedMode>
+  <ServerIncorrectImageContentType>קובץ סוג החקיין אינו תמונה</ServerIncorrectImageContentType>
+  <ServerPermissionDenied>פעולה זו נדחית בגלל הרשאות מוגבלות</ServerPermissionDenied>
+  <ServerRestoreFromTrashNoParentFolder>שיקום נכשל משום בספריית האב "{0}" כבר לא נמצא. אנא צור אותו ונסה שוב.</ServerRestoreFromTrashNoParentFolder>
+  <ServerModifyPermissionDenied>פעולה זו נדחית כי אין לך הרשאה לשנות את הקובץ</ServerModifyPermissionDenied>
+  <ServerPathNotFound>נתיב לא נמצא.</ServerPathNotFound>
+  <ServerInvalidPath>נתיב "{0}" אינו חוקי</ServerInvalidPath>
+  <ServerInvalidAbsolutePath>נתיב מוחלט לא חוקי "{0}"</ServerInvalidAbsolutePath>
+  <!-- share folder path: \\server\share -->
+  <ServerInvalidShareFolderPath>שתף תיקייה לא חוקי נתיב "{0}"</ServerInvalidShareFolderPath>
+  <ServerInvalidUncPath>נתיב UNC לא חוקי "{0}"</ServerInvalidUncPath>
+  <ServerUnableResolveUncPath>לא ניתן לפתור UNC נתיב "{0}"</ServerUnableResolveUncPath>
+  <ServerInvalidFileName>שם הקובץ / התיקייה אינו מוגדר או מכיל תווים שגויים {0}</ServerInvalidFileName>
+  <ServerFilePathNotFound>הקובץ אינו קיים</ServerFilePathNotFound>
+  <ServerIncorrectPathForFileLink>סוג אובייקט שגוי. הנתיב שצוין מצביע על תיקייה</ServerIncorrectPathForFileLink>
+  <ServerIncorrectPathForFolderLink>סוג אובייקט שגוי. הנתיב שצוין מצביע לקובץ</ServerIncorrectPathForFolderLink>
+  <ServerRootFolderNotFound>בתיקיית השורש עבור נתיב "{0}" לא נמצא.</ServerRootFolderNotFound>
+  <ServerUnableCreateFolder>לא ניתן ליצור תיקיה</ServerUnableCreateFolder>
+  <ServerFileAlreadyExists>קובץ בשם זה כבר קיים</ServerFileAlreadyExists>
+  <ServerFileAlreadyExistsOnRename>
+    האם אתה רוצה לשנות "{0}" ל "{1}"?
+    יש כבר קובץ עם שם זהה במיקום זה.
+  </ServerFileAlreadyExistsOnRename>
+  <ServerFolderAlreadyExistsOnRename>
+    האם אתה רוצה לשנות "{0}" ל "{1}"?
+    יש כבר תיקיה עם אותו שם במיקום זה.
+  </ServerFolderAlreadyExistsOnRename>
+  <ServerFoldersMergeConfirm>
+    יעד זה כבר מכיל תיקייה בשם "{0}".
+    האם אתה עדיין רוצה למזג תיקיה זו "{0}" עם זה "{1}"?
+  </ServerFoldersMergeConfirm>
+  <ServerFolderWithSameNameAsFileNameAlreadyExists>יש כבר תיקייה עם אותו שם "{0}" כשם הקובץ שציינת</ServerFolderWithSameNameAsFileNameAlreadyExists>
+  <ServerFileWithSameNameAsFolderNameAlreadyExists>יש כבר קובץ בעל אותו שם "{0}" כמו שם התיקייה שציינת</ServerFileWithSameNameAsFolderNameAlreadyExists>
+  <ServerFileNotFound>הקובץ "{0}" לא נמצא בתיקייה "{1}". אולי זה נמחק או הוסר על ידי משתמש אחר.</ServerFileNotFound>
+  <ServerDirectoryAlreadyExists>ספרייה בשם זה כבר קיים</ServerDirectoryAlreadyExists>
+  <ServerFolderMoveAlreadeExists>תיקיית היעד "{0}" מזהה את תיקיית המקור</ServerFolderMoveAlreadeExists>
+  <ServerUploadPathNotFound>הנתיב לאחסון קבצים לא נמצא על השרת</ServerUploadPathNotFound>
+  <ServerUploadPathNotSet>ארעה שגיאה בזמן מקבל נתיב להעלאה. אנא, רענן דף בדפדפן ונסה שוב.</ServerUploadPathNotSet>
+  <ServerUploadNoChunk>אין נתח שמור</ServerUploadNoChunk>
+  <ServerUploadWriteChunk>כתוב נתח מאז בייט</ServerUploadWriteChunk>
+  <ServerUploadCreatingFile>יצירת קובץ</ServerUploadCreatingFile>
+  <ServerUploadFileUploaded>הקובץ הועלה</ServerUploadFileUploaded>
+  <ServerUploadWriteError>שגיאה בכתיבה</ServerUploadWriteError>
+  <ServerConfigurationError>התצורה או יישום לא נכון! יצירת קשר עם מנהל האתר</ServerConfigurationError>
+  <ServerPermissionsAllowTypes>הרשאות נוכחיות לאפשר פעולה זו רק עם סוגי קבצים {0}</ServerPermissionsAllowTypes>
+  <ServerPermissionsDenyTypes>הרשאות נוכחיות לאסור פעולה זו עם סוגי קבצים {0}</ServerPermissionsDenyTypes>
+  <ServerRequestSizeExceeded>הגודל של קבצים שאפשר להעלות חורג מותר גודל גדרות שרת</ServerRequestSizeExceeded>
+  <ServerEmailMsgProcessedFilesSubject>הועלו / שונו / שהורדו / נוצרו / נמחקתי / קבצים / תיקיות משותפות</ServerEmailMsgProcessedFilesSubject>
+  <ServerEmailMsgUploadFilesTitle>נטען</ServerEmailMsgUploadFilesTitle>
+  <ServerEmailMsgModifyFilesTitle>שונה</ServerEmailMsgModifyFilesTitle>
+  <ServerEmailMsgDownloadFilesTitle>הורדת</ServerEmailMsgDownloadFilesTitle>
+  <ServerEmailMsgCreateFilesTitle>נוצר</ServerEmailMsgCreateFilesTitle>
+  <ServerEmailMsgDeleteFilesTitle>נמחק</ServerEmailMsgDeleteFilesTitle>
+  <ServerEmailMsgCreatePublicFilesTitle>מְשׁוּתָף</ServerEmailMsgCreatePublicFilesTitle>
+  <ServerEmailMsgProcessedFilesBody>
+    הקבצים הבאים / תיקיות היו {0} {1}:
+
+{2}
+    
+  </ServerEmailMsgProcessedFilesBody>
+  <ServerEmailMsgPasswordRecoverSubject>שחזור סיסמא</ServerEmailMsgPasswordRecoverSubject>
+  <ServerEmailMsgPasswordRecoverBody>
+    ביקשת כדי לשחזר את הסיסמה שלך במנהל קבצים באינטרנט. הסיסמה שלך לאפס. אם אתה מאמין שמדובר בשגיאה, פשוט להתעלם את המכתב הזה, אבל להיות מודע לכך את הסיסמה שונתה.
+    שם משתמש: {0}
+    סיסמה חדשה: {1}
+  </ServerEmailMsgPasswordRecoverBody>
+  
+  <ServerEmailMsgUserNameRecoverSubject>התאוששות שם משתמש</ServerEmailMsgUserNameRecoverSubject>
+  <ServerEmailMsgUserNameRecoverBody>
+    בקשת להתאושש שמך במנהל קבצים באינטרנט.
+    שם משתמש: {0}
+  </ServerEmailMsgUserNameRecoverBody>
+
+  <ServerEmailMsgUserActivationSubject>הפעלת חשבון</ServerEmailMsgUserActivationSubject>
+  <ServerEmailMsgUserActivationBody>
+    חשבון ({0}) נדרשת הפעלה.
+    כדי להפעיל את החשבון שלך, אנא לחץ על הקישור הבא: {1}
+  </ServerEmailMsgUserActivationBody>
+  <ServerEmailMsgUserRegisteredSubject>משתמש רשום</ServerEmailMsgUserRegisteredSubject>
+  <ServerEmailMsgUserRegisteredBody>
+    אתה רושם בהצלחה במנהל קבצים באינטרנט.
+    שם משתמש: {0}
+  </ServerEmailMsgUserRegisteredBody>
+  <ServerEmailMsgUserRegisteredForAdminsBody>
+    &lt;h4&gt; משתמש חדש נרשם &lt;/h4&gt;
+    &lt;strong&gt; שם משתמש &lt;/strong&gt;: {0} &lt;br /&gt;
+    &lt;strong&gt; דוא"ל &lt;/strong&gt;: {1} &lt;br /&gt;
+    &lt;strong&gt; תאריך &lt;/strong&gt;: {2} &lt;br /&gt;
+    &lt;strong&gt; מידע נוסף &lt;/strong&gt;: {3} &lt;br /&gt;
+  </ServerEmailMsgUserRegisteredForAdminsBody>
+  <ServerDiskFullError>אין מספיק מקום בדיסק.</ServerDiskFullError>
+  <ServerFolderLimitations>מגבלות תיקיה: {0}</ServerFolderLimitations>
+  <ServerShortcutAssignedFolderNotFound>תיקיית Assigned לא נמצאה נתיב יעד של קיצור</ServerShortcutAssignedFolderNotFound>
+  <ServerSizeFilesForZipExceeded>הגודל של קבצי archivable חרג ערך מותר {0}.</ServerSizeFilesForZipExceeded>
+  <ServerPasteFolderToSubfolderError>תיקיית היעד "{0}" היא תיקיית משנה של תיקיית המקור "{1}".</ServerPasteFolderToSubfolderError>
+  <ServerLiveConnectAppIDNotSpecified>זיהוי הלקוח של יישום Connect של Microsoft Live אינו מוגדר</ServerLiveConnectAppIDNotSpecified>
+  <ServerSendEmailInfo>מחבר שצוין הדוא"ל שלהם כמו {0}. לשימוש רק כתובת דוא"ל זו להשיב.</ServerSendEmailInfo>
+
+  <ServerAntivirusScanningFailed>סריקה על ידי אנטי וירוס: '{0} {1}' הסתיימה באופן חריג.</ServerAntivirusScanningFailed>
+
+  <ServerUserNameNotFound>משתמש עם השם '{0}' לא נמצא.</ServerUserNameNotFound>
+  <ServerFileNameCopySuffix>עותק</ServerFileNameCopySuffix>
+
+  <ServerDeleteFolderNTFSAccessDenied>אתה אין לך הרשאה NTFS להסיר את התיקייה "{0}"</ServerDeleteFolderNTFSAccessDenied>
+
+  <ServerMSOOTemplateNotFound>{0} תבנית לא נמצא</ServerMSOOTemplateNotFound>
+</Localization>

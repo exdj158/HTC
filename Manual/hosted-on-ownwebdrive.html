@@ -1,0 +1,150 @@
+﻿<!-- saved from url=(0014)about:internet -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>HTTP Commander hosted version. (Windows version)</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <script type="text/javascript" language="javascript">
+        function toggleBlock(el, id) {
+            if (document.getElementById(id).style.display == 'none') {
+                document.getElementById(id).style.display = 'block';
+				el.innerHTML="Hide screenshot"
+            }
+            else {
+                document.getElementById(id).style.display = 'none';
+				el.innerHTML="Show screenshot"
+            }
+        }
+    </script>
+    
+    <table width="100%" cellpadding="0" cellspacing="0">
+        <tr>
+            <td width="320">
+                <table>
+                    <tr>
+                        <td style="vertical-align:top;text-align:left;">
+                            <a target='_blank' href='http://www.element-it.com/asp-net-explorer-browser/online-share/web-file-manager.aspx'><img style='cursor:pointer;' alt="HTTP Commander" src="Images/HCLogo.png" border="0" /></a>
+                        </td>
+                        <td class="green" style="vertical-align:top;text-align:left;padding-top:21px;">
+                            &nbsp;AJS 4.x
+                        </td>
+                    </tr>
+                </table>
+                <span class="gray">Manual</span>
+            </td>
+            <td>
+                <!-- For windows version only. Start -->
+                <p>
+                    <strong>Note!</strong> This Manual is for the <strong>"Windows authentication"</strong> version,
+                    which is designed to work with existing Windows server or Active Directory accounts and Windows authentication.
+                    If you want to create accounts by yourself and store their credentials in your own HTTP Commander XML database,
+                    you need to download the <a target="_blank" href="http://www.element-it.com/downloadfile.aspx?type=st">"Forms authentication" version</a>!
+                    This Manual is for the Windows authentication version only!
+                </p>
+                <!-- For windows version only. End -->
+                
+
+
+
+            </td>
+            <td align="char" width="230">
+                <img alt="" src="Images/world.jpg" align="middle" hspace="5" style="vertical-align:top;padding-top:1px;" /><b><a target="_blank" title="web file manager" href="http://www.element-it.com/asp-net-explorer-browser/online-share/web-file-manager.aspx">Web file manager</a></b><br />
+                <img alt="" src="Images/support.png" width="16" height="16" align="middle" hspace="5" style="vertical-align:top;padding-top:1px;" /><b><a href="onlinesupport.html" target="main">Free Installation assistance</a></b><br />
+                <img alt="" src="Images/help.png" align="middle" width="16" height="16" hspace="5" style="vertical-align:top;padding-top:1px;" /><b><a
+                    href="index.html" title="Manual Home page" target="_blank">Manual Home page</a></b><br />
+            </td>
+        </tr>
+    </table>
+    
+    <p class="topic">
+        <a id="installation-on-amazon">HTTP Commander hosted on ownwebdrive.com.</a>
+    </p>
+    In this section we will provide some details about Http Commander hosted on ownwebdrive.com.
+    <br/>
+    If you decided to use "hosted by us" version of Http Commander, you will receive access to already installed and pre-configured version of Http Commander on a virtual server.	
+	<br/>
+    <p class="topic">
+        <a id="how-to-access">How to access it?</a>
+    </p>
+    You can access the application by navigating to address  <strong>https://yourcompany.ownwebdrive</strong> where "yourcompany" is a company/team name used during the registration.<br/>
+    Use <strong>admin/admin</strong> username/password to log into the application with administrator privileges. <br/> 
+    Do not forget to change the default password once you logged in. Also change your password for default user account 
+    <strong>"demo"</strong> or remove it.
+
+
+    <p class="topic">
+        <a id="where-is-it">Where is it located?</a>
+    </p>
+    <ul>
+        <li>
+            <strong>C:\Inetpub\wwwroot\HTCOMNET</strong> - Http Commander application installed to this folder. Root folder for <strong>"Default Web Site"</strong> is point to this folder, is a point to this folder, therefore when you open https://yourcompany.ownwebdrive in browser (without /htcomnet), you will see the application loaded.
+        </li>
+        <li>
+            <strong>C:\HttpCommanderData</strong> - HTTP Commander stores the configuration data (user accounts, folders config, error log, public links) in this folder. 
+            For security reasons, it is recommended to prevent users from retrieving them, since they expose sensitive information about the application.
+             Therefore we moved Http Commander "Data" folder outside of application folder to "C:\HttpCommanderData".
+        </li>
+        <li>
+            <strong>C:\HttpCommanderSharedFolder</strong> - folder with default shared folders in Http Commander.<br />
+            Of course you can share in Http Commander any folder, not only folders from "C:\HttpCommanderSharedFolder". But it is not recommended to share folders from application folder C:\Inetpub\wwwroot\HTCOMNET. 
+        </li>
+        On both of <strong>C:\HttpCommanderSharedFolder</strong> and
+        <strong>C:\HttpCommanderSharedFolder</strong> folders read/write access granted for
+        <strong>IIS APPPOOL\htcomnetpool</strong> user.
+    </ul>
+    <br />
+    <p class="topic">
+        <a id="where-is-it">What is preconfigured?</a>
+        <ul>
+            <li>
+                Root folder for
+                <strong>"Default Web Site"</strong> is a point to  <strong>C:\Inetpub\wwwroot\HTCOMNET</strong> folder.
+            </li>
+            <li>
+                Application pool <strong>htcomnetpool</strong> assigned to <strong>"Default Web Site"</strong>.
+            </li>
+            <li>
+                SSL certificate installed and <strong>SSL</strong> binding on <strong>443</strong> port applied for "Default Web Site".
+            </li>
+            <li>
+                We configured the integration with following cloud storages and online services:
+                <ul>
+                    <li><strong>Google Drive</strong> - used for "Edit in Google Drive", Upload/Download from/to Google Drive features</li>
+                    <li><strong>MS One drive</strong> - used for "Edit in Ms Office Online", Upload/Download from/to MS OneDrive features</li>
+                    <li><strong>Dropbox</strong> - used for Upload/Download from/to Dropbox feature</li>
+                    <li><strong>Box</strong> - used for "View in Box", Upload/Download from/to Box features</li>
+                    <li><strong>Zoho</strong> - used for "Edit in Zoho" feature</li>
+                </ul>
+                We used our API keys for configuration. If you would like to use your own accounts (API keys), feel free to re-configure Http Commander. You can follow the <a href="CloudsStorages.html">instructions from documentation</a>.
+            </li>
+            <li>
+                •	WebDav access to shared folders is configured. You can disable it by setting to false the value of the <strong>EnableWebFoldersLinks</strong> setting and remove <strong>FileWebDavModule</strong> module from web.config.
+            </li>
+            <li>
+                Configured permissions for <strong>IIS APPPOOL\htcomnetpool</strong> user on following folders:
+                <ul>
+                    <li><strong>C:\Inetpub\wwwroot\HTCOMNET</strong> - read</li>
+                    <li><strong>C:\HttpCommanderData</strong> - read/write</li>
+                    <li><strong>C:\HttpCommanderSharedFolder</strong> - read/write</li>
+                </ul>
+            </li>
+            <li>Url-Rewrite IIS module installed and <strong>HTTP-to-HTTPS</strong> redirect rule configured for <strong>"Default Web Site"</strong>.</li>
+            <li>SMTP server installed and Http Commander configured to use it to send notification emails. It is done only to make it work out of the box.
+                Please configure Http Commander mail settings to use your corporate smtp server.
+            </li>
+        </ul>
+    </p>
+    <br />
+
+    <strong>Note !</strong><br />
+    If you have difficulties with installation of Http Commander on your server, let us know - we will help you for free. Also we can assist you with selection of hosting plan.
+    We offer <b>free installation assistance</b> for both trial and commercial licenses.
+    You can get help via email, instant messenger or via remote access to your server.
+    You need few minutes to get <a href="onlinesupport.html">online help</a>.
+    <br />	<br />
+
+</strong></body>
+</html>

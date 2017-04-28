@@ -1,0 +1,1608 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Localization>
+  <!-- Common keys -->
+  
+  <ExtMsgButtonTextYES>այո</ExtMsgButtonTextYES>
+  <ExtMsgButtonTextNO>ոչ</ExtMsgButtonTextNO>
+  
+  <ControlHideFileManager>Թաքցնել վեբ ֆայլեր մենեջեր</ControlHideFileManager>
+  
+  <CommonMainTitle>Web ֆայլեր հասանելիության</CommonMainTitle>
+  <CommonApplicationLoading>Բեռնվում վեբ ֆայլերի հասանելիության</CommonApplicationLoading>
+  <CommonLoadError>Ընթացքում տեղի ունեցավ սխալ ստանալու ծառի տվյալները</CommonLoadError>
+  <CommonGridAccessDenied>Թղթապանակը "{0}" գոյություն չունի, կամ կարդալ հասանելիության մերժվում</CommonGridAccessDenied>
+  <CommonNoScript>Սա էջի Պահանջում է Javascript- ին թույլատրվեն Ձեր բրաուզերում. Միացրու այն եւ մուտք գործել again!</CommonNoScript>
+  <CommonErrorCaption>սխալ</CommonErrorCaption>
+  <CommonWarningCaption>զգուշացում</CommonWarningCaption>
+  <CommonInfoCaption>Տեղեկատվություն</CommonInfoCaption>
+  <CommonConfirmCaption>հաստատել</CommonConfirmCaption>
+  <CommonFileNameCaption>ֆայլի անունը</CommonFileNameCaption>
+  <CommonFileNamePrompt>Մուտքագրեք նոր ֆայլի անունը</CommonFileNamePrompt>
+  <CommonFileNewNameValue>Նոր Text Document.txt</CommonFileNewNameValue>
+  <CommonFolderNewNameValue>Նոր թղթապանակ</CommonFolderNewNameValue>
+  <CommonZipFileNameCaption>Zip պահոց անունը</CommonZipFileNameCaption>
+  <CommonZipFileNamePrompt>Ֆայլի անունը (երկարաձգումը կլինի ավելացվել է ավտոմատ կերպով)</CommonZipFileNamePrompt>
+  <CommonFolderNameCaption>Թղթապանակի անունը</CommonFolderNameCaption>
+  <CommonFolderNamePrompt>Մուտքագրեք նոր թղթապանակի անունը</CommonFolderNamePrompt>
+  <CommonDeleteOnePrompt>Համոզված եք, որ ցանկանում եք ջնջել «{0}":</CommonDeleteOnePrompt>
+  <CommonDeleteManyPrompt>Համոզված եք, որ ցանկանում եք ջնջել այս {0} իրեր.</CommonDeleteManyPrompt>
+  <CommonForToday>որովհետեւ այսօր</CommonForToday>
+  <CommonButtonCaptionOK>լավ</CommonButtonCaptionOK>
+  <CommonButtonCaptionCancel>վերացնել</CommonButtonCaptionCancel>
+  <CommonButtonCaptionClose>փակել</CommonButtonCaptionClose>
+  <CommonButtonCaptionAdd>ավելացնել</CommonButtonCaptionAdd>
+  <CommonButtonCaptionContinue>Շարունակել</CommonButtonCaptionContinue>
+
+  <CommonProgressPleaseWait>Խնդրում ենք սպասել</CommonProgressPleaseWait>
+  
+  <CommonFieldLabelName>անուն</CommonFieldLabelName>
+  <CommonFieldLabelPath>ճանապարհ</CommonFieldLabelPath>
+  <CommonFieldLabelSize>չափ</CommonFieldLabelSize>
+  <CommonFieldLabelLabels>Պիտակներ</CommonFieldLabelLabels>
+  <CommonFieldLabelType>Տիպ</CommonFieldLabelType>
+  <CommonFieldLabelAction>գործողություն</CommonFieldLabelAction>
+  <CommonFieldLabelDate>ամսաթիվ</CommonFieldLabelDate>
+  <CommonFieldLabelDateTime>Ամսաթիվ եւ ժամ</CommonFieldLabelDateTime>
+  <CommonFieldLabelDateCreated>Ստեղծման ամսաթիվը</CommonFieldLabelDateCreated>
+  <CommonFieldLabelDateModified>Ամսաթիվ փոփոխվել</CommonFieldLabelDateModified>
+  <CommonFieldLabelDateAccessed>Ամսաթիվ մուտք գործել</CommonFieldLabelDateAccessed>
+  <CommonFieldLabelValue>արժեք</CommonFieldLabelValue>
+  <CommonFieldLabelUserName>Օգտագործողի անունը</CommonFieldLabelUserName>
+  <CommonFieldLabelUser>Օգտվող</CommonFieldLabelUser>
+  <CommonFieldLabelUsers>Users</CommonFieldLabelUsers>
+  <CommonFieldLabelGroupName>Խմբի անունը</CommonFieldLabelGroupName>
+  <CommonFieldLabelGroup>խումբ</CommonFieldLabelGroup>
+  <CommonFieldLabelGroups>Խմբեր</CommonFieldLabelGroups>
+  <CommonFieldLabelPassword>գաղտնաբառ</CommonFieldLabelPassword>
+  <CommonFieldLabelRepeatPassword>Կրկնեք գաղտնաբառը</CommonFieldLabelRepeatPassword>
+  <CommonFieldLabelComments>մեկնաբանություններ</CommonFieldLabelComments>
+  <CommonValueTypeFolder>թղթապանակ</CommonValueTypeFolder>
+
+  <CommonFieldLabelDescription>նկարագրություն</CommonFieldLabelDescription>
+  <EmptyDescriptionText>Նշեք նկարագրությունը</EmptyDescriptionText>
+  <CommonFieldLabelReadMeTxt>readme.txt բովանդակության</CommonFieldLabelReadMeTxt>
+  
+  <CommonWordOr>կամ</CommonWordOr>
+
+  <SortAscText>Դասավորել Աճման</SortAscText>
+  <SortDescText>Դասավորել նվազման</SortDescText>
+
+  <CommonNewDocument>Նոր փաստաթուղթ</CommonNewDocument>
+  <CommonNewSpreadsheet>Նոր աղյուսակներ</CommonNewSpreadsheet>
+  <CommonNewPresentation>Նոր շնորհանդես</CommonNewPresentation>
+
+  <CommonWordWrap>Բառի պատել</CommonWordWrap>
+  
+  <!-- End Common keys -->
+
+  <!-- Labels -->
+
+  <LabelsTitle>պիտակ</LabelsTitle>
+  <LabelsNoLabel>ոչ պիտակը</LabelsNoLabel>
+  <LabelsColor>գույն</LabelsColor>
+  <LabelsCustomLabel>Պատվերով պիտակի</LabelsCustomLabel>
+  <LabelsCustomLabelHint>Մուտքագրեք պիտակի ի տեքստը</LabelsCustomLabelHint>
+  <LabelsCustomLabelView>Label &amp;nbsp; տեսություն: &amp;nbsp; {0} {1} {2}</LabelsCustomLabelView>
+  <LabelsFileLabelledMessage>Հաջողությամբ պիտակավորված {0} հատ (ներ)</LabelsFileLabelledMessage>
+  <LabelsRemovedMessage>Հաջողությամբ հեռացվել {0} պիտակը (ներ)</LabelsRemovedMessage>
+  <LabelsNotRemovedMessages>չի հեռացվել: {0}</LabelsNotRemovedMessages>
+  <LabelsNotLabelledMessage>չէ պիտակավորված: {0}</LabelsNotLabelledMessage>
+  <LabelsLabelRemovedMessage>Պիտակել հաջողությամբ հեռացվել</LabelsLabelRemovedMessage>
+  <LabelsNewLabel>Նոր Label</LabelsNewLabel>
+  <LabelsLabellingMessage>Պիտակավորումը</LabelsLabellingMessage>
+  <LabelsRemovingLabelMessage>Հեռացվում պիտակները</LabelsRemovingLabelMessage>
+  <LabelsLabelInfoTip>Նշված է որպես '{0}' {1} կողմից մասին '{2}'</LabelsLabelInfoTip>
+
+  <!-- End Labels -->
+
+  <!-- Comments -->
+
+  <CommentsCountInfoTip>{0} Մեկնաբանություն (s)</CommentsCountInfoTip>
+  <CommentsWriteCommentHint>Գրեք մեկնաբանություն եւ սեղմեք '{0}' կամ Ctrl+Enter, կամ Shift+Enter ...</CommentsWriteCommentHint>
+
+  <!-- End Comments -->
+
+  <RefreshPageWarningMessage>&lt;b&gt; Ուշադրություն! &lt;/b&gt; To լրացրեք այս գործողությունը, ներկայիս էջ բրաուզերի պետք է թարմացվի. &lt;br /&gt; Ցանկանում եք թարմացնել հիմա:</RefreshPageWarningMessage>
+
+  <PagingToolbarBeforePageText>էջ</PagingToolbarBeforePageText>
+  <PagingToolbarAfterPageText>Հյուրատետր {0}</PagingToolbarAfterPageText>
+  <PagingToolbarFirstText>Առաջին Էջ</PagingToolbarFirstText>
+  <PagingToolbarPrevText>Նախորդ էջ</PagingToolbarPrevText>
+  <PagingToolbarNextText>Հաջորդ էջը</PagingToolbarNextText>
+  <PagingToolbarLastText>վերջին էջում</PagingToolbarLastText>
+  <PagingToolbarDisplayMsg>Ցուցադրվում {0} - {1} անձնագիրը {2}</PagingToolbarDisplayMsg>
+  <PagingToolbarEmptyMsg>Տվյալներ չկան են դրսեւորել</PagingToolbarEmptyMsg>
+  
+  <GridTotalLabel>ընդհանուր:</GridTotalLabel>
+  <GridTotalFilesLabel>ֆայլեր</GridTotalFilesLabel>
+  <GridTotalFoldersLabel>թղթապանակներ</GridTotalFoldersLabel>
+  
+  <GridDDSelectedRowsText>{0} ընտրված տող {1}</GridDDSelectedRowsText>
+  <GridDDSelectedFilesText>{0} ընտրված ֆայլեր</GridDDSelectedFilesText>
+  <GridDDSelectedFoldersText>{0} ընտրված թղթապանակներ</GridDDSelectedFoldersText>
+  <GridDDConfirmCopyMoveTitle>Կաթիլ folder "{0}"</GridDDConfirmCopyMoveTitle>
+  <GridDDConfirmAddToZipTitle>Ավելացնել zip "{0}"</GridDDConfirmAddToZipTitle>
+  <GridDDConfirmAddToZipMessage>Ընդգրկվել ֆայլերը կլինի ավելացվել է այս ZIP արխիվ: Ցանկանում եք շարունակել. {0}.</GridDDConfirmAddToZipMessage>
+  <GridDDConfirmCopyMoveMsg>Ընտրեք որեւէ գործողություն, որ դուք ցանկանում եք դիմել. Աղբյուր `« {0} ", թղթապանակը:« {1} ». {2}: {3}</GridDDConfirmCopyMoveMsg>
+  <GridDDConfirmCopyMoveToZipMsg>Ֆայլեր կլինի ավելացվել է zip արխիվում: Ընտրեք որեւէ գործողություն, որը դուք ցանկանում եք դիմել են ընդգրկվել ֆայլերը ավելացնելուց հետո ֆայլերը zip արխիվում: Աղբյուր `« {0} ", Destination zip արխիվը:« {1} ». {2}: {3}</GridDDConfirmCopyMoveToZipMsg>
+  <GridDDDraggedFileNames>&lt;b&gt; Ընդգրկվել ֆայլերը: &lt;/b&gt; {0}</GridDDDraggedFileNames>
+  <GridDDDraggedFolderNames>&lt;b&gt; Ընդգրկվել պանակները: &lt;/b&gt; {0}</GridDDDraggedFolderNames>
+  <GridDDConfirmTargetFolderOnlyCopyMsg>Ընթացիկ թույլտվությունները համար աղբյուր թղթապանակն թույլ է տալիս Ձեզ է միայն պատճենը ընդգրկվել ֆայլեր. Ցանկանում եք շարունակել. {0}.</GridDDConfirmTargetFolderOnlyCopyMsg>
+  <GridDDConfirmTargetFolderOnlyMoveMsg>Ընթացիկ թույլտվությունները համար աղբյուր թղթապանակն թույլ է տալիս Ձեզ է շարժվել միայն ընդգրկվել ֆայլեր. Ցանկանում եք շարունակել. {0}.</GridDDConfirmTargetFolderOnlyMoveMsg>
+
+  <GridRowPublicHint>Սեղմեք հրապարակավ հղումը նոր պատուհանում / էջանիշը</GridRowPublicHint>
+  <GridRowAlertHint>Սեղմեք տեսնելու փոփոխությունները արել այս ֆայլի / թղթապանակում</GridRowAlertHint>
+  <GridRowRecentHint>Տեղադրեք այս ֆայլի / թղթապանակը</GridRowRecentHint>
+  <GridRowAlertEventHint>Սեղմեք գնալ այս տեղանքը</GridRowAlertEventHint>
+
+  <ProgressCreating>Ստեղծվում</ProgressCreating>
+  <ProgressDeleting>Վերացվում</ProgressDeleting>
+  <ProgressLoading>բեռնում</ProgressLoading>
+  <ProgressSearching>Որոնվում</ProgressSearching>
+  <ProgressZipping>compressing</ProgressZipping>
+  <ProgressUnzipping>unpacking</ProgressUnzipping>
+  <ProgressZipContents>Ինչից բովանդակությունը ZIP արխիվ</ProgressZipContents>
+  <ProgressPrepareDownload>Պատրաստվում է ներբեռնման համար</ProgressPrepareDownload>
+  <ProgressMoving>առաջխաղացում</ProgressMoving>
+  <ProgressCopying>պատճենահանման</ProgressCopying>
+  <ProgressRenaming>անվանափոխության</ProgressRenaming>
+  <ProgressUpdating>Թարմացվում</ProgressUpdating>
+  <ProgressLoadingEditInPixlr>Բեռնվում Pixlr խմբագիր</ProgressLoadingEditInPixlr>
+  <ProgressLoadingEdit>Բեռնվում գլխավոր խմբագիր</ProgressLoadingEdit>
+  <ProgressSavingEdit>Խնայողական ֆայլ</ProgressSavingEdit>
+  <ProgressSaving>տնտեսող</ProgressSaving>
+  <ProgressExecuting>կատարող</ProgressExecuting>
+
+  <BalloonFilesDeleted>{0} ֆայլը (ներ) ջնջված է</BalloonFilesDeleted>
+  <BalloonFoldersDeleted>{0} թղթապանակը (ներ) ջնջված է</BalloonFoldersDeleted>
+  <BalloonFilesFailed>{0} ֆայլը (ներ) ձախողվեց</BalloonFilesFailed>
+  <BalloonFoldersFailed>{0} թղթապանակը (ներ) ձախողվեց</BalloonFoldersFailed>
+  <BalloonFilesZipped>{0} ֆայլը (ներ) սեղմված</BalloonFilesZipped>
+  <BalloonFoldersZipped>{0} թղթապանակը (ներ) սեղմված</BalloonFoldersZipped>
+  <BalloonFilesCopied>{0} ֆայլը (ներ) պատճենված</BalloonFilesCopied>
+  <BalloonFoldersCopied>{0} թղթապանակը (ներ) պատճենված</BalloonFoldersCopied>
+  <BalloonFilesMoved>{0} ֆայլը (ներ) տեղափոխվել</BalloonFilesMoved>
+  <BalloonFoldersMoved>{0} թղթապանակը (ներ) տեղափոխվել</BalloonFoldersMoved>
+  <BalloonNotUnzipped>{0} ֆայլը (ներ) չեն եղել unpacked</BalloonNotUnzipped>
+  <BalloonFilesUploaded>{0} ֆայլը (ներ) Վերբեռնման</BalloonFilesUploaded>
+  <BalloonFilesNotUploaded>{0} ֆայլը (ներ) ոչ վերբեռնվել</BalloonFilesNotUploaded>
+  <BalloonSomeFilesNotUploaded>Որոշ ֆայլեր չեն կարող վերբեռնվել</BalloonSomeFilesNotUploaded>
+  <BalloonCreatedSuccessfully>Ստեղծվել է հաջողությամբ</BalloonCreatedSuccessfully>
+  <BalloonUnzippedSuccessfully>unpacked հաջողությամբ</BalloonUnzippedSuccessfully>
+  <BalloonRenamedSuccessfully>վերանվանվել հաջողությամբ</BalloonRenamedSuccessfully>
+  <BalloonSavedSuccessfully>փրկվել հաջողությամբ</BalloonSavedSuccessfully>
+  <BalloonCopiedToClipboard>Պատճենված է clipboard</BalloonCopiedToClipboard>
+  <BalloonCopyToClipboardFailed>Լուսանկարների ալբոմը ձախողվեց</BalloonCopyToClipboardFailed>
+
+  <CommandCopyToClipboard>Պատճենել clipboard</CommandCopyToClipboard>
+  <CommandCopyLinkToClipboard>Պատճենել հղումը clipboard</CommandCopyLinkToClipboard>
+  <ClipboardScreenshotTitlePrefix>պատկեր</ClipboardScreenshotTitlePrefix>
+  <ClipboardScreenshotHint>Images: Դուք կարող եք տեղադրեք Հատված Ձեր clipboard (Press &lt;b&gt; Ctrl+PrtSc &lt;/b&gt; եւ ապա &lt;b&gt; Ctrl+V &lt;/b&gt;) կամ պատկերի ձեր խմբագիր (Press &lt;b&gt; Ctrl+V &lt;/b&gt;):</ClipboardScreenshotHint>
+  <ClipboardFileHint>Դուք նաեւ կարող եք տեղադրեք ֆայլ clipboard</ClipboardFileHint>
+
+  <CommandClouds>cloud պահեստարաններ</CommandClouds>
+  <CommandCloudsDownloadTo>բեռնել ...</CommandCloudsDownloadTo>
+  <CommandCloudsUploadFrom>վերբեռնել է ...</CommandCloudsUploadFrom>
+  <CommandCloudsAbout>Օգտվողի Cloud պահեստարաններ</CommandCloudsAbout>
+  
+  <CommandBack>Վերադառնալ</CommandBack>
+  <CommandForward>առաջ</CommandForward>
+  <CommandRecentFolders>Վերջին թղթապանակներ</CommandRecentFolders>
+  <CommandHome>տուն</CommandHome>
+  <CommonActions>գործողություններ</CommonActions>
+  <CommandMultiSelect>Multi-ընտրեք</CommandMultiSelect>
+  <CommandShare>բաժնետոմս</CommandShare>
+  <CommandSorting>տեսակավորող</CommandSorting>
+  
+  <CommandFileManager>Վերադարձ դեպի ֆայլ մենեջերի</CommandFileManager>
+  <CommandFolders>Թղթապանակներ</CommandFolders>
+  <CommandGridView>տեսարան</CommandGridView>
+  <CommandRefresh>թարմացնել</CommandRefresh>
+  <CommandThumbnailView>thumbnail տեսություն</CommandThumbnailView>
+  <CommandDetailedView>ցուցակ տեսություն</CommandDetailedView>
+  <CommandDetailsPane>Մանրամասներ փեղկը</CommandDetailsPane>
+  <CommandFavorites>Էջանշան</CommandFavorites>
+  <CommandAddToFavorites>Ավելացնել ընտրյալների մեջ</CommandAddToFavorites>
+  <CommandAddToFavoritesHint>Ավելացնել ընթացիկ թղթապանակն մեջ</CommandAddToFavoritesHint>
+  <AddingToFavoritesMessage>Ավելացվում է դնել</AddingToFavoritesMessage>
+  <RemoveFromFavoritesMessage>Վերացվում է դնել</RemoveFromFavoritesMessage>
+  <FolderAlreadyAddedInFavorites>Թղթապանակը "{0}" արդեն գոյություն ունի դնել</FolderAlreadyAddedInFavorites>
+  <FolderAddedInFavoritesSuccessfully>Թղթապանակը "{0}" հաջողությամբ ավելացված է դնել</FolderAddedInFavoritesSuccessfully>
+  <FavoritesIsOverflowed>Դա չի եղել, հնարավոր է ավելացնել ընթացիկ թղթապանակը "{0}» դնել: Ջնջել որոշ Ընտրվածներ ազատել որոշ տարածություն եւ կրկին փորձեք:</FavoritesIsOverflowed>
+  <RemoveFromFavoritesHint>Հեռացնել "{0}" - ից դնել</RemoveFromFavoritesHint>
+  <AddToHomeScreenIOSHint>Ծորակ {0}, եւ ապա &lt;strong&gt; "Ավելացնել Գլխավոր Screen" &lt;/strong&gt;</AddToHomeScreenIOSHint>
+  <CommandSearch>որոնում</CommandSearch>
+  <CommandUpload>վերբեռնում</CommandUpload>
+  <CommandSettings>Կառավարում</CommandSettings>
+  <CommandLanguage>Լեզու</CommandLanguage>
+  <CommandAdministration>Administration</CommandAdministration>
+  <CommandAdminPanel>admin վահանակ</CommandAdminPanel>
+  <CommandChangePassword>Փոխել գաղտնաբառը</CommandChangePassword>
+  <ProgressChangePassword>Changing գաղտնաբառը</ProgressChangePassword>
+  <CommandChangeEmail>Փոխել e-mail</CommandChangeEmail>
+  <ProgressChangeEmail>Changing e-mail</ProgressChangeEmail>
+  <CommandMobileView>Բջջային ինտերֆեյսի (Սմարթֆոններ)</CommandMobileView>
+  <CommandStandardView>Ամբողջական տարբերակը</CommandStandardView>
+  <CommandInstallIOSApp>Տեղադրեք iOS ծրագիրը</CommandInstallIOSApp>
+  <CommandInstallAndroidApp>Տեղադրեք Android հավելվածը</CommandInstallAndroidApp>
+  <CommandAddServerToMobileApp>Ավելացնել այս սերվերը բջջային հավելվածը</CommandAddServerToMobileApp>
+  <CommandAddToHomeScreen>Ավելացնել գլխավոր էկրանին</CommandAddToHomeScreen>
+  <CommandDiagnostics>Ախտորոշման էջ</CommandDiagnostics>
+  <CommandLicenseInfo>Լիցենզիա տեղեկատվությունը</CommandLicenseInfo>
+  <CommandLogout>Ելք</CommandLogout>
+  <CommandLogoutHint>Սեղմեք է ավարտել ընթացիկ նստաշրջանի</CommandLogoutHint>
+  <CommandNew>նոր</CommandNew>
+  <CommandFile>ֆայլ</CommandFile>
+  <CommandEmptyFile>Դատարկ ֆայլի</CommandEmptyFile>
+  <CommandNewMSOODocument>Փաստաթուղթը MS Office օնլայն</CommandNewMSOODocument>
+  <CommandNewOffice365Document>Փաստաթուղթը գրասենյակի 365</CommandNewOffice365Document>
+  <CommandNewMSOOWord>Word Document</CommandNewMSOOWord>
+  <CommandNewMSOOExcel>Excel աղյուսակներ</CommandNewMSOOExcel>
+  <CommandNewMSOOPowerPoint>PowerPoint Presentation</CommandNewMSOOPowerPoint>
+  <CommandNewGoogleDocument>Փաստաթուղթը Google- ի հետ</CommandNewGoogleDocument>
+  <CommandNewGoogleDocs>Google Docs</CommandNewGoogleDocs>
+  <CommandNewGoogleSheets>Google թերթ</CommandNewGoogleSheets>
+  <CommandNewGoogleSlides>Google Սլայդներ</CommandNewGoogleSlides>
+  <CommandNewImage>Image է Pixlr</CommandNewImage>
+  <CommandFolder>թղթապանակ</CommandFolder>
+  <CommandNewFile>Նոր դատարկ ֆայլը</CommandNewFile>
+  <CommandNewFolder>Նոր թղթապանակ</CommandNewFolder>
+  <CommandNewWithTemplate>Օգտագործելով ձեւանմուշ ...</CommandNewWithTemplate>
+  <CommandRename>վերանվանել</CommandRename>
+  <CommandDelete>ջնջել</CommandDelete>
+  <CommandCopy>պատճեն</CommandCopy>
+  <CommandMove>քայլ</CommandMove>
+  <CommandCut>Կտրել</CommandCut>
+  <CommandCopyTo>Պատճենել ...</CommandCopyTo>
+  <CommandMoveTo>Տեղափոխվել...</CommandMoveTo>
+  <CommandCopyCutClipboardSuffix>Ինչպես clipboard</CommandCopyCutClipboardSuffix>
+  <CommandPaste>մածուկ</CommandPaste>
+  <CommandPasteInto>կպցնել մեջ</CommandPasteInto>
+  <CommandZip>Սեղմել է ZIP արխիվ</CommandZip>
+  <CommandZipMenu>Zip / Unzip</CommandZipMenu>
+  <CommandUnzip>արձակել Zip</CommandUnzip>
+  <CommandUnzipSelected>արձակել ընտրված</CommandUnzipSelected>
+  <CommandUnzipAll>արձակել բոլոր</CommandUnzipAll>
+  <CommandUnzipTo>դեպի թղթապանակում</CommandUnzipTo>
+  <CommandUnzipToCurrent>է ընթացիկ թղթապանակում</CommandUnzipToCurrent>
+  <MessageUnzipToFolder>Մուտքագրեք անունը մի թղթապանակում արձակել այս</MessageUnzipToFolder>
+  <MessageUnzipPasswordHint>Եթե ​​դուք գիտեք, որ գաղտնաբառ համար անհրաժեշտ է unpacking, մուտքագրեք այն դաշտում գրանշանները</MessageUnzipPasswordHint>
+  <MessageUnzipNeedPassword>A գաղտնաբառը պահանջվում է արձակել ֆայլերը</MessageUnzipNeedPassword>
+  <ZipPasswordProtectHint>To գաղտնաբառը պաշտպանել zip արխիվը, մուտքագրեք գաղտնաբառը ոլորտում ստորեւ. Հակառակ դեպքում, լքել դաշտը դատարկ</ZipPasswordProtectHint>
+  <AppendToZipPasswordProtectHint>Գաղտնաբառը-պաշտպանել ֆայլերը ավելացված է zip արխիվում, մուտքագրեք գաղտնաբառը ոլորտում ստորեւ. Հակառակ դեպքում, լքել դաշտը դատարկ</AppendToZipPasswordProtectHint>
+  <ZipPasswordProtectWindowTitle>Արխիվացման գաղտնաբառը</ZipPasswordProtectWindowTitle>
+  <OpenFolderAfterUnzipCheckBox>Բաց թղթապանակը հետո unpacking</OpenFolderAfterUnzipCheckBox>
+  <CommandUnzipToNew>մի նոր թղթապանակ</CommandUnzipToNew>
+  <CommandZipContents>Zip բովանդակության</CommandZipContents>
+  <ArchiveContentsTitle>Արխիվ բովանդակություն »{0}"</ArchiveContentsTitle>
+  <CommandDownload>Բեռնել</CommandDownload>
+  <CommonDownloadAll>Բեռնել ամբողջը</CommonDownloadAll>
+  <DownloadListDragFile>Դուք կարող եք քաշել-n-կաթիլ ֆայլերը Ձեր աշխատասեղանին</DownloadListDragFile>
+  <CommandZipDownload>Ճզմել եւ ներբեռնել</CommandZipDownload>
+  <CommandView>Դիտել դիտարկչում</CommandView>
+  <CommandDownloadOrView>Download կամ տեսություն</CommandDownloadOrView>
+  <CommandPreview>Նկարներ նախադիտում</CommandPreview>
+  <CommandFlashPreview>Flash նախադիտում</CommandFlashPreview>
+  <GettingSizeFlashMovie>Ինչից չափը ֆլեշ ֆիլմ</GettingSizeFlashMovie>
+  <CommandEdit>Խմբագրել է որպես տեքստային ֆայլ</CommandEdit>
+  <CommandEditView>Դիտել որպես տեքստային ֆայլ</CommandEditView>
+  <AceNotLoadedMessage>Անհնար է բեռնել Ace խմբագիր</AceNotLoadedMessage>
+  <VideoJsNotLoadedMessage>Անհնար է բեռնել VideoJS նվագարկիչ</VideoJsNotLoadedMessage>
+  <CommandMenuEdit>խմբագրել</CommandMenuEdit>
+  <CommandSelectAll>Ընտրել բոլորը</CommandSelectAll>
+  <CommandInvertSelection>շրջել ընտրությունը</CommandInvertSelection>
+  <CommandLinkToFile>Հղում դեպի ֆայլի / թղթապանակում</CommandLinkToFile>
+  <!--Share link-->
+  <CommandMakePublicFolder>Ստեղծել հանրային հղում</CommandMakePublicFolder>
+  <PublicViewInGoogle>Դիտել Google</PublicViewInGoogle>
+  <PublicViewinOWA>Դիտել OWA</PublicViewinOWA>
+  <!--Make public folder (share)-->
+  <CommandViewWithGoogleDoc>Դիտել Google Docs</CommandViewWithGoogleDoc>
+  <CommandViewWithShareCad>Դիտել ShareCad.org</CommandViewWithShareCad>
+  <CommandViewWithAutodesk>Դիտել Autodesk</CommandViewWithAutodesk>
+  <CommandViewWithBox>Դիտել Box</CommandViewWithBox>
+  <CommandViewWithOWA>Դիտել Office Web Apps</CommandViewWithOWA>
+  <CommandCloudConvert>Փոխարկել հետ CloudConvert</CommandCloudConvert>
+  <ProgressGetCloudConvertOutputFormats>Ինչից ելքային ձեւաչափեր</ProgressGetCloudConvertOutputFormats>
+  <ProgressCloudConvertConverting>վերծանել</ProgressCloudConvertConverting>
+  <CloudConvertWindowTitle>Փոխակերպել '{0}'</CloudConvertWindowTitle>
+  <CloudConvertWindowConvertButton>փոխակերպել</CloudConvertWindowConvertButton>
+  <CloudConvertWindowOutputFormatsLabel>Արդյունք ձեւաչափը</CloudConvertWindowOutputFormatsLabel>
+  <CloudConvertDownloadLinkLabel>ՈՒղեցույց ներբեռնման համար</CloudConvertDownloadLinkLabel>
+  <CloudConvertSaveAsLabel>Պահել որպես (ընդլայնում կլինի ավելացվել է ավտոմատ կերպով):</CloudConvertSaveAsLabel>
+  <CloudConvertNoOutputFormats>Չկան ձեւաչափերն վերծանել</CloudConvertNoOutputFormats>
+  <CloudConvertNoUrlForDownload>Դա չի եղել հաջողվել է ստանալ հղումը բեռնել</CloudConvertNoUrlForDownload>
+  <ProgressCloudConvertUploading>Բեռնում է CloudConvert</ProgressCloudConvertUploading>
+  <CloudConvertSaveAsNameBlank>Type անունն այստեղ</CloudConvertSaveAsNameBlank>
+  <CancelEditButton>Չեղյալ խմբագրել</CancelEditButton>
+  <HideButton>թաքցնել</HideButton>
+  <EditDocumentCancelHint>Հետո դուք փակել պատուհանը խմբագրված փաստաթղթի, ապա այն պետք է ավտոպահված. &lt;br /&gt; Դուք կարող եք թաքցնել այս երկխոսությունը վանդակը սեղմելով {0} (այս դեպքում, փաստաթուղթը դեռ փրկուի փակելուց հետո խմբագիր): &lt;br /&gt; Եթե ​​դուք չեք ցանկանում, որ փրկել փաստաթուղթ, սեղմեք {1} (այս դեպքում, գլխավոր խմբագիր պատուհանը կփակվի):</EditDocumentCancelHint>
+  <EditDocumentSaveHint>Այժմ դուք կարող եք պահպանել փոփոխությունները փաստաթղթի սեղմելով {0}. Գրանցում Մորացել եք գաղտնաբառը Հետո դուք փակել խմբագիր պատուհանը, այն կարող է նաեւ ավտոպահված:</EditDocumentSaveHint>
+  <CommandEditInMSOffice>Խմբագրել MS Office</CommandEditInMSOffice>
+  <CommandEditInOOo>Խմբագրել OpenOffice / LibreOffice</CommandEditInOOo>
+  <CommandViewInMSOffice>Դիտել են MS Office</CommandViewInMSOffice>
+  <CommandViewInOOo>Դիտել OpenOffice / LibreOffice</CommandViewInOOo>
+  <CommandEditInPixlr>Խմբագրել Pixlr</CommandEditInPixlr>
+  <CommandEditInAdobe>Խմբագրել է Adobe Creative Cloud</CommandEditInAdobe>
+  <AdobeImageEditorSavedAsNewTypeMessage>Պատկերը փոխվել է Adobe Image Editor պահվել է ձեւաչափով {0}</AdobeImageEditorSavedAsNewTypeMessage>
+  <CommandEditInGoogle>Խմբագրել Google Drive- ում</CommandEditInGoogle>
+  <EditInGoogleConvertMessage>Այն բանից հետո, խմբագրել փաստաթուղթը կարող է ձեւափոխվել ձեւաչափի {1} {0} {2}</EditInGoogleConvertMessage>
+  <EditInGoogleLinkError>Անհնար է հասնել հղումը խմբագրել փաստաթուղթը Google Drive- ում</EditInGoogleLinkError>
+  <EditInGoogleWaiting>Սպասում է խմբագրման ավարտելու Google Drive- ում</EditInGoogleWaiting>
+  <CommandEditInMSOO>Խմբագրել MS Office օնլայն</CommandEditInMSOO>
+  <EditInMSOOLinkError>Անհնար է հասնել հղումը խմբագրել փաստաթուղթը MS Office օնլայն</EditInMSOOLinkError>
+  <EditInMSOOWaiting>Սպասում է խմբագրման ավարտել MS Office օնլայն</EditInMSOOWaiting>
+  <CommandEditInOffice365>Խմբագրել Office 365</CommandEditInOffice365>
+  <EditInOffice365LinkError>Անհնար է հասնել հղումը խմբագրել փաստաթուղթը գրասենյակում 365</EditInOffice365LinkError>
+  <EditInOffice365Waiting>Սպասում է խմբագրման ավարտել գրասենյակում 365</EditInOffice365Waiting>
+  <CommandSave>Պահպանել</CommandSave>
+  <CommandSaveAs>Պահպանել որպես...</CommandSaveAs>
+  <CommandAppRestart>Վերագործարկեք դիմումը</CommandAppRestart>
+  <CommandPlayVideoFlash>Խաղալ վիդեո Flash player</CommandPlayVideoFlash>
+  <CommandPlayVideoHtml5>Խաղալ տեսանյութը</CommandPlayVideoHtml5>
+  <CommandPlayAudioHtml5>Խաղալ աուդիո</CommandPlayAudioHtml5>
+  <CommandPlayVideo>Խաղալ տեսանյութը</CommandPlayVideo>
+  <CommandPlayAudio>Խաղալ աուդիո</CommandPlayAudio>
+  <CommandConvertVideo>փոխարկել տեսանյութը</CommandConvertVideo>
+
+  <ViewInServiceLink>Սեղմեք այստեղ, որպեսզի տեսնեք ֆայլը</ViewInServiceLink>
+  <EditInServiceLink>Սեղմեք այստեղ խմբագրել փաստաթուղթը</EditInServiceLink>
+
+  <OfficeEditCopyLinkLabel>Պատճենահանել հղումը ստորեւ, եւ բացել այն գրասենյակի դիմումը:</OfficeEditCopyLinkLabel>
+  <OfficeRunError>Դա չի եղել, հնարավոր է գործարկել {0}</OfficeRunError>
+  <BadPathToFile>Դա չի եղել, հնարավոր է գտնել ուղին դեպի ֆայլը</BadPathToFile>
+  <FixBasicAuthAlertTitle>Գրանցում Մորացել եք գաղտնաբառը</FixBasicAuthAlertTitle>
+  <FixBasicAuthAlertMessage>Microsoft Office աշխատում Հիմնական Նույնականացման առանց SSL! Դուք կարող եք ուղղել սա ձեր գրասենյակում. For more info խնդրում ենք այցելել {0}.</FixBasicAuthAlertMessage>
+  <FixBasicAuthAlertCheckBoxText>Ոչ թե ցույց տալ այս երկխոսությունը այլեւս:</FixBasicAuthAlertCheckBoxText>
+  <CommandDetails>Մանրամասներ</CommandDetails>
+  <CommonButtonCaptionAddDetail>Ավելացնել մանրամասնություն</CommonButtonCaptionAddDetail>
+  <CommonButtonCaptionAddComment>Ավելացնել մեկնաբանություններ</CommonButtonCaptionAddComment>
+  <DetailsWindowTitle>Մանրամասներ «{0}"</DetailsWindowTitle>
+  <FileDetailsSave>Դիմել փոփոխություններ</FileDetailsSave>
+  <FileDetailsIgnoreChanges>անտեսել</FileDetailsIgnoreChanges>
+  <FileDetailsCloseConfirmTitle>Որ ֆայլը մանրամասները պատուհանը փակվում</FileDetailsCloseConfirmTitle>
+  <FileDetailsCloseConfirmMsg>Գրանցում Մորացել եք գաղտնաբառը Այդ փոփոխությունները չեն պահպանվել, սակայն. Ընտրեք որեւէ գործողություն, որը ցանկանում է դիմել այդ փոփոխությունների փակելուց առաջ պատուհանը:</FileDetailsCloseConfirmMsg>
+  <FileDetailsGridTitleColumn>Կոչում</FileDetailsGridTitleColumn>
+  <FileDetailsGridAuthorColumn>Վերջին հեղինակ</FileDetailsGridAuthorColumn>
+  <LoadingDetailsMask>Բեռնվում մանրամասները</LoadingDetailsMask>
+  <NewDetailsTitle>Նոր Title</NewDetailsTitle>
+  <NewDetailsValue>Նոր մանրամասներ արժեքը</NewDetailsValue>
+  <DetailsSavingMsg>Խնայողական մանրամասները</DetailsSavingMsg>
+  <ProgressLoadingEditInOffice>Պատրաստվում խմբագրման գրասենյակում</ProgressLoadingEditInOffice>
+  <MenuFilterText>զտիչներ</MenuFilterText>
+  <EmptyTextFilter>Մուտքագրեք Filter ...</EmptyTextFilter>
+  <AfterDateFilterText>երբ</AfterDateFilterText>
+  <BeforeDateFilterText>նախքան</BeforeDateFilterText>
+  <OnDateFilterText>Վրա</OnDateFilterText>
+  <YesBooleanFilterText>այո</YesBooleanFilterText>
+  <NoBooleanFilterText>ոչ</NoBooleanFilterText>
+  <CommandEditWithZoho>Խմբագրել Zoho</CommandEditWithZoho>
+  <ZohoNotSupportedFormatMessage>Ընդլայնումը չի աջակցվում Zoho: Տես {0}.</ZohoNotSupportedFormatMessage>
+  <ProgressLoadingEditInZoho>Բեռնվում Zoho գլխավոր խմբագիր</ProgressLoadingEditInZoho>
+  <CommandSubMenuViewAndEdit>Դիտել / խմբագրել</CommandSubMenuViewAndEdit>
+  <CommandSubMenuShare>բաժնետոմս</CommandSubMenuShare>
+  <CommandSubMenuMore>ավելի շատ</CommandSubMenuMore>
+  <StopUploadingButtonText>կանգ առնել</StopUploadingButtonText>
+  <SimpleUploadErrorInfo>Երբ բեռնում ֆայլը (ներ) կար սխալ է. &lt;br /&gt; Տես {0}, մանրամասն տեղեկությունների համար &lt;/a&gt;</SimpleUploadErrorInfo>
+  <BalloonAbortFilesUploaded>Վերբեռնվում ֆայլերի էր կասեցված</BalloonAbortFilesUploaded>
+  <UploadDragNDropTab>Քաշել եւ թողնել</UploadDragNDropTab>
+  <UploadDragNDropTabImages>Քարշել եւ թողնել+պատկերներ</UploadDragNDropTabImages>
+  <DnDGridProgressColumn>առաջխաղացում</DnDGridProgressColumn>
+  <DnDFileReadingError>Ընթերցանություն սխալ: Սխալ կոդը: {0}.</DnDFileReadingError>
+  <DnDFileReadingAbort>Ընթերցանությունը կասեցված: Սխալ կոդը: {0}.</DnDFileReadingAbort>
+  <DnDFileUploadingError>Վերբեռնվում սխալ: {0}</DnDFileUploadingError>
+  <DnDFileUploadingAbort>Վերբեռնվում կասեցված:</DnDFileUploadingAbort>
+  
+  <CommandWebFoldersLinks>Քարտեզ վեբ թղթապանակներ</CommandWebFoldersLinks>
+  <CommandSyncWebFolders>Sync տեղական թղթապանակ</CommandSyncWebFolders>
+  <WebFolderLinksFieldLabel>Վեբ-թղթապանակը հղումներ</WebFolderLinksFieldLabel>
+  <WebFolderLinksForWindows64Note>Սեղմեք ստեղնը համադրություն {0} Win+R {1}: Տեղադրեք հրամանի տող է {0} բաց է: {1} դաշտ (տես հրամանի տող վարը), սեղմեք {0} OK {1}: For Windows իսկությունը `օգտագործելով ամբողջությամբ որակավորված դոմենային անուններ: {2}:</WebFolderLinksForWindows64Note>
+  <OpenLibreOfficeRunCommandNote>Կամ սեղմեք ստեղնը համադրություն {0} Win+R {1}, մտցրեք հրամանի տող ներքեւում {0} բաց է: {1} եւ սեղմել {0} OK {1}</OpenLibreOfficeRunCommandNote>
+  <WebFolderLinksForMacOSNote>Իսկ «Finder" ընտրացանկից, բաց {0} Go-&gt; Միացեք Server {1}: Տեղադրեք հղումը վեբ թղթապանակը {0} «սերվերի հասցեն» {1} ոլորտում: Սեղմեք {0} «Միացեք» {1}: Է նոր երկխոսության համար ընտրեք {0} «Հյուրատետր« {1} կամ {0} «Գրանցված օգտվող« {1} համար (Windows իսկությունը): Սեղմեք {0} «Միացեք» {1}:</WebFolderLinksForMacOSNote>
+  <WebFolderLinksForUbuntuNote>Բաց {0} Go-&gt; Որտեղից ... {1} Պատճենահանել հղումը վեբ թղթապանակում, գտնվելու դաշտ.</WebFolderLinksForUbuntuNote>
+  <LinksToWebFoldersWindowText>Դուք կարող եք պլանավորել թղթապանակներ, որ դուք տեսնում եք, որպես ցանցային drive ձեր տեղական OS. Այն բանից հետո, քարտեզագրման, դուք կարող եք աշխատել ֆայլերի նման տեղական նորերը կամ խմբագրել փաստաթղթերի MS Office կամ OpenOffice. Տես օգնություն մասին, թե ինչպես պետք է քարտեզ {0}.</LinksToWebFoldersWindowText>
+  <CommonFileTypeNameCaption>«{0}" ֆայլի անունը</CommonFileTypeNameCaption>
+  <CommonFileTypeNamePrompt>Մուտքագրեք նոր "{0}" ֆայլի անունը</CommonFileTypeNamePrompt>
+  
+  <PixlrEditorWindowTitle>Pixlr խմբագիր, {0}</PixlrEditorWindowTitle>
+  <PixlrSaveImageSuccessMessage>Պատկերը "{0}" հաջողությամբ փրկել: Թարմացնել ցուցակը, եթե դուք փրկեց պատկերը մի նոր անունով:</PixlrSaveImageSuccessMessage>
+  <CommonFileImageNewName>Նոր կերպարը</CommonFileImageNewName>
+  <CommandChangeTheme>Փոխել թեման</CommandChangeTheme>
+  
+  <CommandHelp>Օգնություն</CommandHelp>
+
+  <OpeningShortcutProgress>Բացում դյուրանցում</OpeningShortcutProgress>
+  <CommandCreateShortcut>Դյուրանցման (խորհրդանշական ՈՒղեցույց)</CommandCreateShortcut>
+  <ShortcutNameHint>դյուրանցման անունը</ShortcutNameHint>
+  <ShortcutTargetPathHint>Destination ուղին</ShortcutTargetPathHint>
+  <CreateShortcutButtonTitle>ստեղծել</CreateShortcutButtonTitle>
+  <CreatingShortcutProgress>ստեղծել դյուրանցման</CreatingShortcutProgress>
+  <CreateShortcutSuccessMessage>Դյուրանցման "{0}" հաջողությամբ ստեղծվել է «{1}».</CreateShortcutSuccessMessage>
+
+  <OpeningInternetShortcutProgress>Բացելով Ինտերնետ դյուրանցում</OpeningInternetShortcutProgress>
+  <InternetShortcutNotValidMsg>Թիրախ URL այս Ինտերնետ կարճուղի չէ վավեր</InternetShortcutNotValidMsg>
+  <InternetShortcutWindowTitle>Գնալ կապել</InternetShortcutWindowTitle>
+  
+  <CommandVersioning>versioning</CommandVersioning>
+  <CommandVersionHistory>տարբերակների պատմություն</CommandVersionHistory>
+  <CommandCheckOut>Check Out</CommandCheckOut>
+  <CommandCheckIn>Գրանցվել</CommandCheckIn>
+  <CommandUndoCheckOut>Չեղարկել Check Out</CommandUndoCheckOut>
+  <VersionHistoryObtainingMessage>Ձեռք բերելով Ծանոթություններ պատմությունը</VersionHistoryObtainingMessage>
+  <NoVersionHistoryMessage>Տարբերակը պատմությունը համար ընտրված ֆայլը գոյություն չունի</NoVersionHistoryMessage>
+  <FileIsCheckedOutMessage>Ֆայլը "{0}« արդեն ստուգվել են օգտագործողի «{1}» է {2}</FileIsCheckedOutMessage>
+  <CheckingOutMessage>Ստուգում Out</CheckingOutMessage>
+  <SuccessfullyCheckedOutMessage>Ֆայլը "{0}" հաջողությամբ ստուգվել են օգտագործողի «{1}»</SuccessfullyCheckedOutMessage>
+  <FileIsNotCheckedOutMessage>Ֆայլը "{0}" չի ստուգվել դուրս չկա</FileIsNotCheckedOutMessage>
+  <FileIsCheckedOutOtherUserMessage>Ֆայլը "{0}« ստուգվում են մեկ այլ անձնագիրը "{1}» է {2}:</FileIsCheckedOutOtherUserMessage>
+  <FileUndoCheckOutForbiddenMessage>Դուք չեք կարող չեղյալ համարել չեկ դուրս կիրառվում է այլ անձնագիրը.</FileUndoCheckOutForbiddenMessage>
+  <FileCheckInForbiddenMessage>Դուք չեք կարող ստուգել ֆայլը, որը արդեն ստուգվել է այլ անձնագիրը.</FileCheckInForbiddenMessage>
+  <FileUndoCheckOutConfirmMessage>Եթե ​​դուք դադարեցնել ձեր ստուգում է, թե ինչ փոփոխություններ կիրառվող փաստաթղթի չի գտնվել! Համոզված եք, որ ուզում եք չեղարկել ստուգում է.</FileUndoCheckOutConfirmMessage>
+  <FileVersionDeleteConfirmTitle>Վերացվում ֆայլի տարբերակի</FileVersionDeleteConfirmTitle>
+  <FileVersionDeleteConfirmMessage>Համոզված եք, որ ուզում եք ջնջել ընտրված տարբերակը ֆայլը.</FileVersionDeleteConfirmMessage>
+  <FileVersionRestoreConfirmTitle>Վերականգնել ֆայլի տարբերակի</FileVersionRestoreConfirmTitle>
+  <FileVersionRestoreConfirmMessage>Համոզված եք, որ ցանկանում եք վերականգնել ընտրված տարբերակը ֆայլը. {0} Եթե այո, նշեք ֆայլը, որի ընտրված տարբերակը կպահվի մեջ: Եթե ​​դուք թողնել այս արժեքը, առանց փոփոխությունների (կամ դատարկ արժեքի) ընտրված տարբերակը կարող է փոխարինել ընտրված ֆայլը (նախկին բովանդակությունը ֆայլը կլինի ավելացվել է տարբերակ պատմությանը): {1} Պատկեր Անունը:</FileVersionRestoreConfirmMessage>
+  <UndoCheckingOutMessage>Cancelling Check Out</UndoCheckingOutMessage>
+  <SuccessfullyUndoCheckedOutMessage>Չեղյալ է ստուգել դուրս մի ֆայլ "{0}" հաջողությամբ ավարտվել:</SuccessfullyUndoCheckedOutMessage>
+  <SuccessfullyCheckedInMessage>Ֆայլը "{0}« հաջողությամբ ստուգվում է օգտագործողի կողմից «{1}»</SuccessfullyCheckedInMessage>
+  <CheckingInMessage>Ստուգում է</CheckingInMessage>
+  <VersionHistoryTitle>Ֆայլերի վարկածները "{0}"</VersionHistoryTitle>
+  <VersionHistoryGridNumberColumn>Ver.</VersionHistoryGridNumberColumn>
+  <VersionHistoryGridNotesColumn>Notes</VersionHistoryGridNotesColumn>
+  <CommandRestoreVersion>վերականգնել</CommandRestoreVersion>
+  <ProgressPrepareDownloadOldVersion>Պատրաստվում հին տարբերակ բեռնելիս</ProgressPrepareDownloadOldVersion>
+  <FileVersionNotFoundMessage>Ընտրված ֆայլը տարբերակը չի գտնվել:</FileVersionNotFoundMessage>
+  <ProgressDeletingVersion>Տարբերակ ջնջում</ProgressDeletingVersion>
+  <ProgressRestoringVersion>Տարբերակ Վերականգնել</ProgressRestoringVersion>
+  <FileNeedCheckInMessage>Խնդրում ենք ստուգել կամ չեղյալ անդորրագիրը դուրս է ընտրված ֆայլը եւ փորձեք կրկին.</FileNeedCheckInMessage>
+  <FileCheckedOutEditForbiddenMessage>Դուք չեք կարող փոփոխել / վերանվանել / ՔԱՅԼ / ջնջել ֆայլը "{0}», մինչդեռ դա ստուգվում են մասին "{1}» է {2}</FileCheckedOutEditForbiddenMessage>
+  <FileUploadCheckInLabel>Դուք կարող եք ստուգել, ​​ընտրված ֆայլը կամ վերբեռնեք նոր տարբերակը ֆայլ (օգտագործեք վերբեռնման ստորեւ բերված ձեւը). Եթե ​​դուք ցանկանում եք ստեղծել նոր տարբերակը ընտրված ֆայլը, չեն վերբեռնել որեւէ ֆայլեր Մականուն:</FileUploadCheckInLabel>
+  <FileUploadCheckInInvalidFileName>Անունը, Վերբեռնված ֆայլը պետք է լինի հենց նույն անունով ընտրված ֆայլը</FileUploadCheckInInvalidFileName>
+  <CheckOutVersionNotes>Այս տարբերակը ստեղծվել է ինքնաբերաբար</CheckOutVersionNotes>
+  <RestoreVersionNotes>Այս տարբերակը ստեղծվել է ինքնաբերաբար հետո վերականգնում տարբերակը {0} անձնագիրը "{1}»</RestoreVersionNotes>
+  <IsCheckedOutHint>Ֆայլը արդեն դուրս է գրվել</IsCheckedOutHint>
+  <ExistsOldVersionsHint>Ֆայլը ունի այլ տարբերակները</ExistsOldVersionsHint>
+  <IsLockedHint>Ֆայլը կողպված</IsLockedHint>
+  <FileWasCreatedHint>Ստեղծվել է {0} առաջ</FileWasCreatedHint>
+  <FileWasModifiedHint>Փոխվել է {0} առաջ</FileWasModifiedHint>
+  <CommonChangedAgo>{0} առաջ</CommonChangedAgo>
+  <DaysShort>դ</DaysShort>
+  <HoursShort>ժ</HoursShort>
+  <MinutesShort>մ</MinutesShort>
+  <FileContainsMetaDataHint>Պարունակում որոշ մանրամասներ (մետատվյալները)</FileContainsMetaDataHint>
+  <FileMetaDataCaptionMobile>Metadata</FileMetaDataCaptionMobile>
+
+  <ExistsPublicLinksFileHint>Ֆայլը ունի հանրային հղումներ</ExistsPublicLinksFileHint>
+  <ExistsPublicLinksFolderHint>Թղթապանակը ունի հանրային հղումներ</ExistsPublicLinksFolderHint>
+  <PublicLinkNotFound>Հանրային հղում համար "{0}" - ը չի գտնվել</PublicLinkNotFound>
+
+  <PublicLinksDeleteWindowTitle>Ջնջել հանրային հղումը (ներ)</PublicLinksDeleteWindowTitle>
+  <PublicLinksDeleteLinkButton>ջնջել հղումը</PublicLinksDeleteLinkButton>
+  <PublicLinksDeleteConfirmMsg>Համոզված եք, որ ցանկանում եք ջնջել ընտրված հանրային հղումներ.</PublicLinksDeleteConfirmMsg>
+  <PublicLinksDeleteSingleConfirmMsg>Համոզված եք, որ ցանկանում եք ջնջել այս հղումը:</PublicLinksDeleteSingleConfirmMsg>
+
+  <DetailsMultiValue>(Բազմամյա արժեքը)</DetailsMultiValue>
+
+  <GridBottomFilesSizeInfo>Ընտրված: {0} / {1},</GridBottomFilesSizeInfo>
+  <GridBottomFilesFoldersInfo>Ֆայլեր: {0} / {1}, թղթապանակներ: {2} / {3}</GridBottomFilesFoldersInfo>
+
+  <AmountOfDownloadingsFile>Downloads</AmountOfDownloadingsFile>
+
+  <CookiesDisabledMessage>Ձեր դիտարկիչի cookie գործառույթն անջատված է: Խնդրում ենք միացնել այն եւ վերսկսել բրաուզերը:</CookiesDisabledMessage>
+
+  <CommandSendEmail>Ուղարկել նամակ</CommandSendEmail>
+  <CommandSendWithGmail>Ուղարկել Gmail- ի հետ</CommandSendWithGmail>
+  <CommandSendWithOutlook>Ուղարկել Թեմա</CommandSendWithOutlook>
+  <SendEmailTo>դեպի</SendEmailTo>
+  <SendEmailBulkMailingListHint>&lt;b&gt; Փոստային ցանկը &lt;/b&gt; &lt;br /&gt; Դուք կարող եք նշեք ամբողջ խմբեր է ուղարկել նամակ</SendEmailBulkMailingListHint>
+  <SendEmailBulkMailingListWindowTitle>Ընտրել ստացողի Ձեր էլփոստի</SendEmailBulkMailingListWindowTitle>
+  <SendEmailEmptyMailingListMessage>Փոստ ցուցակը դատարկ է</SendEmailEmptyMailingListMessage>
+  <SendEmailSenderEmail>Ուղարկողի էլ. փոստի</SendEmailSenderEmail>
+  <SendEmailSubject>Առարկա</SendEmailSubject>
+  <SendEmailFilesAsLinksTo>Ուղարկել հղումներ ընտրված ֆայլեր</SendEmailFilesAsLinksTo>
+  <SendEmailFilesAsAttachements>Ուղարկել ընտրված ֆայլերը որպես հավելվածների</SendEmailFilesAsAttachements>
+  <SendEmailSend>ուղարկել</SendEmailSend>
+  <SendEmailProgressMessage>ուղարկել նամակ</SendEmailProgressMessage>
+  <GettingMailingListProgressMessage>Ինչից փոստային ցուցակում</GettingMailingListProgressMessage>
+  <SendEmailSuccessMessage>Փոստի հաջողությամբ ուղարկված է:</SendEmailSuccessMessage>
+  <SendEmailResultsMessage>Ուղարկվել: {0}. &lt;br /&gt; Ձախողված: {1} {2}:</SendEmailResultsMessage>
+  <SmtpServerSettingsIncorrect>The SMTP-Server ընտրանքներ են, կամ դատարկ է կամ սխալ</SmtpServerSettingsIncorrect>
+  <FromEmailIncorrect>Այստեղից էլ. Փոստի հասցեն սխալ է կամ դատարկ</FromEmailIncorrect>
+  <ToEmailIncorrect>Ում փոստի հասցեն սխալ է կամ դատարկ</ToEmailIncorrect>
+  <EmailSubjectEmpty>Փոստի թեման նշված չէ</EmailSubjectEmpty>
+  <UploadFromUrlTab>URL- ից</UploadFromUrlTab>
+  <UploadFromUrlFieldLabel>URL (HTTP կամ FTP միայնակ ֆայլ)</UploadFromUrlFieldLabel>
+  <UploadFromUrlProgressTitle>Վերբեռնել URL- ից</UploadFromUrlProgressTitle>
+  <UploadFromUrlMsg>Վերբեռնվում URL- ից</UploadFromUrlMsg>
+  <UploadFromUrlSuccessMsg>Ֆայլը "{0}» արդեն հաջողությամբ Վերբեռնման է «{1}»</UploadFromUrlSuccessMsg>
+  <UploadFromUrlUnknownResponse>Պատասխանը սերվերը չի ճանաչվում</UploadFromUrlUnknownResponse>
+  <UploadFromUrlEmptyFileName>Անունը, Վերբեռնված ֆայլը դատարկ</UploadFromUrlEmptyFileName>
+  <UploadFromUrlFileName>Save անունը (թողնել դատարկ է օգտագործել անունը URL- ից)</UploadFromUrlFileName>
+  <UploadFromUrlFileNameMobile>Save անունը</UploadFromUrlFileNameMobile>
+  
+  <!-- Common Clouds keys -->  
+  <CloudAuthenticateMessage>Դուք պետք է մուտք գործեք, ժամը {0}. Սեղմեք "{1}» հղումը, եւ դուք պետք է Վերահղված է մուտք ձեւով. {2} Մանրամասն: {3}</CloudAuthenticateMessage>
+  <CloudAuthenticateLink>Ստուգեք կապնվել {0}</CloudAuthenticateLink>  
+  <CloudDownloadingMessage>Ներբեռնելով {0}</CloudDownloadingMessage>
+  <CloudAuthWarningMessage>Եթե ​​ակցիան տեղի չի ունեցել, խնդրում ենք փակել այս պատուհանը եւ սեղմեք "{0}» link կրկին.</CloudAuthWarningMessage>
+  <CloudAuthEmptyInvalidMessage>{0} Access նշան դատարկ է կամ անվավեր: Խնդրում ենք նույնականացնել կրկին.</CloudAuthEmptyInvalidMessage>
+  <CloudDownloadEndMessageTitle>Բեռնել ավարտվել է</CloudDownloadEndMessageTitle>
+  <CloudDownloadFilesSuccessMessage>{0} ֆայլը (ներ) հաջողությամբ ներբեռնել է «{1}» {2} թղթապանակում:</CloudDownloadFilesSuccessMessage>
+  <CloudNotDownloadedFilesMessage>{0} ֆայլ (եր) չի ներբեռնվել:</CloudNotDownloadedFilesMessage>
+  <CloudFoldersCreatedSuccessMessage>{0} թղթապանակներ (ներ) հաջողությամբ ստեղծվել է «{1}» {2} թղթապանակում:</CloudFoldersCreatedSuccessMessage>
+  <CloudNotFoldersCreatedMessage>{0} թղթապանակներ (ներ) չի ստեղծվել:</CloudNotFoldersCreatedMessage>
+  <CloudFilesFoldersSuccessMessage>{0} ֆայլը (ներ), {1} թղթապանակ (ներ) հաջողությամբ ներբեռնել է «{2}« {3} թղթապանակում:</CloudFilesFoldersSuccessMessage>
+  <CloudNotFilesFoldersDownloadedMessage>{0} ֆայլը (ներ), {1} թղթապանակ (ներ) չի ներբեռնվել:</CloudNotFilesFoldersDownloadedMessage>
+  <CloudLinkText>Այցելել {0}</CloudLinkText>
+  <CloudLinkDescription>Գնալ {0} էջում</CloudLinkDescription>
+  <CloudRootFolderName>&lt;b&gt; {0} արմատը թղթապանակը &lt;/b&gt;</CloudRootFolderName>
+  <CloudCheckFolerMessage>Խնդրում ենք ստուգել մի {0} թղթապանակը է շարունակել:</CloudCheckFolerMessage>
+  <CloudSelectFolderMessage>Խնդրում ենք ընտրել {0} թղթապանակը է շարունակել:</CloudSelectFolderMessage>
+  <CloudGetFoldersInfoProgressMessage>Բեռնվում {0} թղթապանակներ տվյալները</CloudGetFoldersInfoProgressMessage>
+  <CloudGetItemsInfoProgressMessage>Բեռնվում {0} իրեր տվյալները</CloudGetItemsInfoProgressMessage>
+  <CloudUploadSelectItemsMessage>Խնդրում ենք ընտրել {0} կետերը պետք է շարունակվի.</CloudUploadSelectItemsMessage>
+  <CloudUploadTotalFiles>Ընդամենը ֆայլեր: {0} ({1})</CloudUploadTotalFiles>
+  <CloudUploadProgressMessage>Բեռնում է {0}</CloudUploadProgressMessage>
+  <CloudSignInAsDifferentUserText>Ելք է {0}</CloudSignInAsDifferentUserText>
+  <CloudLogoutProgressMsg>Ելք է {0}</CloudLogoutProgressMsg>
+  <CloudRevokeTokenMsg>ուժը կորցրած ճանաչելու նշան,</CloudRevokeTokenMsg>
+  <CloudRefreshTokenMsg>Թարմեցնող նշան,</CloudRefreshTokenMsg>
+  <CloudAuthNotCompleteMsg>Նույնականացման չի ավարտվել: &lt;br /&gt; Խնդրում</CloudAuthNotCompleteMsg>
+  <CloudTrustedSitesMsg> ստուգեք հետեւելով կայքերի «վստահելի կայքեր» ցուցակում: &lt;br /&gt; &lt;br /&gt;</CloudTrustedSitesMsg>
+  <TrustedSitesForMicrosoftEdge>Եթե ​​Դուք օգտվում Microsoft եզրին, ապա ստուգեք վստահելի կայքեր Internet Explorer- ի</TrustedSitesForMicrosoftEdge>
+  <CloudCheckAuthMsg>Ստուգեք {0} իսկությունը</CloudCheckAuthMsg>
+  <CloudLoadMsg>Բեռնվում {0}</CloudLoadMsg>
+  <CloudFreeSpaceError>Կա բավարար չէ սենյակ {2} վերբեռնել ֆայլերը: Դե {0}. Ֆայլի չափը: {1}:</CloudFreeSpaceError>
+  <CloudFreeSpaceExceeded>Կա բավարար չէ սենյակ {0}</CloudFreeSpaceExceeded>
+  <CloudExceedFileSizeError>Ֆայլը դուք փորձում եք բեռնել ունի ֆայլի չափը {1}, որն ավելի քան առավելագույն թույլատրելի չափի ներբեռնման - {0}.</CloudExceedFileSizeError>
+  <CloudFolderNotFound>Ուղեցույց չի գտնվել: Թերեւս դա ջնջվել</CloudFolderNotFound>
+  <CloudFileNotFound>Ֆայլը չի ​​գտնվել: Թերեւս դա ջնջվել</CloudFileNotFound>
+  <CloudNoFoldersMessage>Չկան թղթապանակների ցուցադրելու</CloudNoFoldersMessage>
+  <CloudLibraryNotLoadedMsg>{0} հաճախորդը գրադարանը չի բեռնվել. &lt;br /&gt; Խնդրում ենք ստուգել ինտերնետ կապը եւ կամ թարմացնել էջը. &lt;br /&gt; Բացի</CloudLibraryNotLoadedMsg>
+  <CloudDownloadWithNewNames>Հետեւելով ֆայլ (եր) բեռնել նոր անուններով:</CloudDownloadWithNewNames>
+
+  <!-- Google Drive Cloud keys -->
+  <CommandDownloadToGoogleDocs>Բեռնել Google Drive</CommandDownloadToGoogleDocs>
+  <GoogleDocsSaveAs>պահպանել որպես:</GoogleDocsSaveAs>
+  <GoogleDocsSaveAsTitle>Save «{0}», քանի որ ...</GoogleDocsSaveAsTitle>
+  <GoogleDocsDownloadEndWarningMessage>Եթե ​​դուք չեք կարող տեսնել այն ֆայլերը դիտելու փաստաթղթերը Ձեր Google Drive հաշվում, սպասեք, մի քանի վայրկյան, եւ թարմացնել Google Drive ցուցակը:</GoogleDocsDownloadEndWarningMessage>
+  <GoogleDriveUploadNoFilesMessage>Ոչ ֆայլեր Google Drive- ի վերբեռնման</GoogleDriveUploadNoFilesMessage>
+  <GoogleDriveMaxUploadSizeError>Բովանդակության տեսակ "{0}" առավելագույն չափը բեռնում {1} գերազանցվել:</GoogleDriveMaxUploadSizeError>
+  <GoogleDriveConvertMsg>Եթե ​​դա հնարավոր է, փոխարկել ֆայլերի մեջ Google փաստաթղթերի ձեւաչափով: {0} Մանրամասն {1}:</GoogleDriveConvertMsg>
+
+  <!-- Box Cloud keys -->
+  <CommandDownloadToBox>Բեռնել Ներդիր</CommandDownloadToBox>
+  <BoxDownloadWithNewNames>Հետեւյալ էջը հղվում (ներ) ը հաստատում սէփականատիրոջ կողմից նոր տարբերակներով:</BoxDownloadWithNewNames>
+  <BoxNoViewPermission>Դուք չունեք թույլտվություն դիտելու ընտրված տեղեկատու</BoxNoViewPermission>
+  <BoxNoDownloadPermission>Դուք չունեք թույլտվություն ներբեռնել</BoxNoDownloadPermission>
+  <BoxNoUploadPermission>Դուք չունեք թույլտվություն վերբեռնել</BoxNoUploadPermission>
+  <BoxUnableCreateOrInfoError>Անհնար է ստեղծել կամ ստանալ տեղեկատվություն</BoxUnableCreateOrInfoError>
+  
+  <!-- Dropbox Cloud keys -->
+  <CommandDownloadToDropbox>Բեռնել ընտրման տուփից</CommandDownloadToDropbox>
+  
+  <!-- OneDrive Cloud keys -->
+  <CommandDownloadToSkyDrive>Բեռնել OneDrive</CommandDownloadToSkyDrive>
+  <AuthenticateOAuthSkyDriveMessageShort>Դուք պետք է մուտք գործել ձեր Microsoft- ի Live հաշիվը.</AuthenticateOAuthSkyDriveMessageShort>
+  <SkyDriveAuthAlsoString>նույնպես</SkyDriveAuthAlsoString>
+  <SkyDriveLoginButtonTitle>լոգին</SkyDriveLoginButtonTitle>
+  <SkyDriveRegistryMessage>Չունեք Windows Live ՆՑ: {0} Sign up ... {1}</SkyDriveRegistryMessage>
+  <SkyDriveMapRootFolder>Նշում! Դուք կարող եք {0} քարտեզ {1} ձեր OneDrive թղթապանակը: ուղին</SkyDriveMapRootFolder>
+  <SkyDriveMoreInfoLink>{0} Մանրամասն մասին OneDrive (SkyDrive) {1}</SkyDriveMoreInfoLink>
+  <OneDriveMaxUploadSizeError>Ընդունելի չափը ({0}) եւ Վերբեռնված ֆայլը գերազանցել է: {1}</OneDriveMaxUploadSizeError>
+  <!-- OneDrive for Business -->
+  <OneDriveForBusinessMapWebFolderInfo>&lt;b&gt; Ուշադրություն! &lt;/b&gt; Մինչեւ բացման ֆայլեր այս վայրում, դուք պետք է առաջին հերթին ավելացնել կայքը Ձեր վստահելի կայքեր ցուցակը, թերթել է կայքում, եւ ընտրեք Ընտրանքներ է մուտք ինքնաբերաբար (in IE բրաուզերի):</OneDriveForBusinessMapWebFolderInfo>
+  
+  <UploadFromUrlLabelText>Դուք կարող եք նշեք URL մի ֆայլ պահվում է համաշխարհային ֆայլ սերվերի կամ ֆայլի փոխանակման ծառայությանը նման {0}, {1}, {2}, {3}, {4}.</UploadFromUrlLabelText>
+  <UploadFromUrlLabelTextMobile>Նշեք URL- ը ֆայլի</UploadFromUrlLabelTextMobile>
+
+  <LinkToFileTitle>Հղում դեպի ֆայլի / թղթապանակում</LinkToFileTitle>
+  <LinkToFileWarningAnonym>Այս ուղեցույցում տրամադրում անանուն մուտք դեպի ֆայլը. Ցանկացած օգտվող, նույնիսկ մեկը, որ չունի հաշիվ այս կայքում, կարող եք բեռնել կամ ֆայլեր վերբեռնել միջոցով հանրային link. Հանրային հղում է ֆայլը թույլ է տալիս Ձեզ ստանալ մեկ ընտրված ֆայլը: {0} Մանրամասն {1}:</LinkToFileWarningAnonym>
+  <LinkToFileDownloadFileLink>Այս հղումը թույլ է տալիս Ձեզ ստանալ ընտրված ֆայլը {0} {1} -ից: Դուք պետք է վավեր հաշիվ է օգտագործել այս հղումը: Այն չի ապահովում անանուն մուտք դեպի ֆայլը.</LinkToFileDownloadFileLink>
+  <LinkToFileExpireDate>պիտանիության ժամկետ</LinkToFileExpireDate>
+  <LinkToFileDownloadCnt>Բեռնել հաշվիչ սահմանափակում</LinkToFileDownloadCnt>
+  <LinkToFileDownloadType>ՈՒղեցույց տեսակը</LinkToFileDownloadType>
+  <LinkToFileGenerate>Ստեղծել հղում</LinkToFileGenerate>
+  <LinkToFilePasswordNotMatch>Գաղտնաբառերը չեն համապատասխանում</LinkToFilePasswordNotMatch>
+  <LinkToFilePasswordRequired>Գաղտնաբառը հանրային հղումը պարտադիր է</LinkToFilePasswordRequired>
+  <LinkToFileInvalidForm>անվավեր պարամետրեր</LinkToFileInvalidForm>
+  <LinkToFileAnonymDownloadLinkHint>Հանրային հղում համար "{0}":</LinkToFileAnonymDownloadLinkHint>
+  <LinkToFileAnonymDownloadShortLinkHint>Կարճ հանրային հղում համար "{0}":</LinkToFileAnonymDownloadShortLinkHint>
+  <LinkToFileOpenFolderLink>Այս հղումը թույլ է տալիս Ձեզ է բացել ընտրված թղթապանակը {0} - ի {1}: Դուք պետք է վավեր հաշիվ է օգտագործել այս հղումը: Այն չի ապահովում անանուն մուտք դեպի թղթապանակում:</LinkToFileOpenFolderLink>
+  <LinkToFileOpenFileLink>Այս հղումը բացում թղթապանակը հետ ֆայլը եւ կարեւորում այն</LinkToFileOpenFileLink>
+  <LinkToFileDaysLeft>օր մնացել է</LinkToFileDaysLeft>
+  <LinkToFileCaptionMobile>Public հղումներ</LinkToFileCaptionMobile>
+
+  <PublicFolderLinkHint>Հանրային հղում folder "{0}":</PublicFolderLinkHint>
+  <PublicFolderShortLinkHint>Կարճ հանրային հղում folder "{0}":</PublicFolderShortLinkHint>
+  <PublicFolderLinkDownloadZipHint>Բեռնել հղումը zip արխիվում թղթապանակում "{0}":</PublicFolderLinkDownloadZipHint>
+  <PublicFolderLinkShortDownloadZipHint>Կարճ բեռնել հղում է zip արխիվում թղթապանակում "{0}":</PublicFolderLinkShortDownloadZipHint>
+  <PublicFolderLinkZipDownload>Ճզմել եւ ներբեռնել ընթացիկ թղթապանակը {0} (մի ZIP արխիվ)</PublicFolderLinkZipDownload>
+  <PublicFolderLinkOverwriteWhileUpload>վերագրանցել գոյություն</PublicFolderLinkOverwriteWhileUpload>
+  <PublicFolderLinkOpenFolderHint>Բացել թղթապանակը</PublicFolderLinkOpenFolderHint>
+  <PublicFolderDownloadDisabledNote>Նշում! Սեփականատերը այս թղթապանակում արգելել բեռնել ֆայլեր այս թղթապանակը.</PublicFolderDownloadDisabledNote>
+  <PublicFolderLinkSendEmails>Ուղարկել մասին տեղեկություններ այցելուների գործունեության նամակները</PublicFolderLinkSendEmails>
+  <PublicFolderAnonymAccessControl>Մուտքի հսկման</PublicFolderAnonymAccessControl>
+  <PublicFolderAnonymDownload>բեռնել ֆայլեր</PublicFolderAnonymDownload>
+  <PublicFolderAnonymZipDownload>Բեռնել թղթապանակներ (ZIP)</PublicFolderAnonymZipDownload>
+  <PublicFolderAnonymUpload>վերբեռնում</PublicFolderAnonymUpload>
+  <PublicFolderAnonymViewContent>Դիտել ֆայլը ցուցակը</PublicFolderAnonymViewContent>
+  <PublicFolderNoteForUsers>Նկատի ունեցեք, օգտվողների համար</PublicFolderNoteForUsers>
+  <PublicFolderACLNotSet>Մուտքի հսկման սահմանված չէ</PublicFolderACLNotSet>
+  <PublicFolderWarningAnonym>Այս ուղեցույցում տրամադրում անանուն մուտք դեպի թղթապանակում: Ցանկացած օգտվող, նույնիսկ մեկը, որ չունի հաշիվ այս կայքում, կարող եք բեռնել կամ ֆայլեր վերբեռնել միջոցով հանրային link. Հանրային հղում թղթապանակում թույլ է տալիս Ձեզ ստանալ, այնպես էլ մի ամբողջ թղթապանակ (փաթեթավորված արխիվում) եւ անհատական ​​ֆայլեր. {0} Մանրամասն {1}:</PublicFolderWarningAnonym>
+  <PublicLinksShowForAllItems>Ցույց տալ, բոլորի համար</PublicLinksShowForAllItems>
+  <PublicLinksShowForSelected>Ցույց են տալիս, եւ ընտրված</PublicLinksShowForSelected>
+  
+  <MultipleFileInputMessage>Նշում! Ձեր զննարկիչը աջակցում բազմակի ֆայլերի ընտրություն միանգամից.</MultipleFileInputMessage>
+  <UploadZipUnzipNote>Դուք կարող եք վերբեռնել zip արխիվում բազմաթիվ ֆայլերը եւ թղթապանակների եւ ապա հանել այն, օգտագործելով "{0}" հրաման համատեքստում մենյուի.</UploadZipUnzipNote>
+  <DnDFileUploadingStatusCode>Ստատուս կոդը</DnDFileUploadingStatusCode>
+  <DnDFileUploadingPathOrNameEmpty>Ճանապարհ եւ կամ ֆայլի անունը չեն նշված</DnDFileUploadingPathOrNameEmpty>
+  <DnDFileUploadingRemoveFromList>Հեռացնել ցանկից</DnDFileUploadingRemoveFromList>
+  <DndFileUploadingDontDropFoldersMsg>Դուք կարող եք քաշել եւ թողնել ֆայլերի մեջ ստորեւ բերված աղյուսակում: Դուք չեք կարող թողնել թղթապանակների.</DndFileUploadingDontDropFoldersMsg>
+  <DndFileUploadingAllowDropFoldersMsg>Դուք կարող եք քաշել եւ թողնել ֆայլերը եւ թղթապանակների մեջ ստորեւ բերված աղյուսակի:</DndFileUploadingAllowDropFoldersMsg>
+  <DndFileUploadingFilesSummaryInfo>Հաշվիչ ֆայլերի: {0} ({1})</DndFileUploadingFilesSummaryInfo>
+  <DropFilesHere>Drop ֆայլերը վերբեռնելու համար</DropFilesHere>
+  
+  <FileGridDownloadColumn>բեռնել ֆայլեր</FileGridDownloadColumn>
+  <FileAttributesField>Ատրիբուտներ</FileAttributesField>
+  <FolderCalculateSize>հաշվել</FolderCalculateSize>
+  <FolderRecalculateSize>վերահաշվարկել</FolderRecalculateSize>
+  <FolderContainsField>Պարունակում է</FolderContainsField>
+  <FolderContainsFilesFolders>{0} ֆայլեր, {1} թղթապանակներ</FolderContainsFilesFolders>
+  <FolderCalculatingMessage>հաշվարկման</FolderCalculatingMessage>
+
+  <SearchTitle>Ֆայլի որոնումը: Հասանելի նախշերով: {0}</SearchTitle>
+  <SearchType>որոնում</SearchType>
+  <SearchOnlyFiles>միայն ֆայլեր</SearchOnlyFiles>
+  <SearchOnlyFolders>միայն թղթապանակներ</SearchOnlyFolders>
+  <SearchBothFilesFolders>երկու ֆայլերը եւ թղթապանակների</SearchBothFilesFolders>
+  <SearchFileDetails>Ֆայլերի մանրամասները</SearchFileDetails>
+  <SearchFileContent>ֆայլի պարունակությունը</SearchFileContent>
+  <SearchByDateFrom>ից</SearchByDateFrom>
+  <SearchByDateTo>դեպի</SearchByDateTo>
+  <SearchLocation>Որտեղից</SearchLocation>
+  <SearchLocationEntire>Ամենուրեք</SearchLocationEntire>
+  <SearchLocationCurrent>ընթացիկ</SearchLocationCurrent>
+  <SearchSearch>որոնում</SearchSearch>
+  <SearchNothingFound>Ոչինչ չի գտնվել! Խնդրում ենք զտել Ձեր որոնման չափանիշներին:</SearchNothingFound>
+  <SearchErrorCaption>Որոնում Սխալ</SearchErrorCaption>
+  <SearchResultsNotComplete>Գրանցում Մորացել եք գաղտնաբառը Որոնման արդյունքները կարող են լինել թերի, քանի որ որոշ թղթապանակներ չեն ինդեքսավորվում չկա.</SearchResultsNotComplete>
+  <SearchRepeatOrContactAdmin>Խնդրում ենք փորձել Ձեր որոնումը ուշ կամ դիմեք ձեր ադմինիստրատորին:</SearchRepeatOrContactAdmin>
+  <SearchLinkToManual>Վերաբերում են {0} Windows որոնում Օգնությու {1}</SearchLinkToManual>
+  <QuerySearchByNameText>Որոնում ըստ անվանման</QuerySearchByNameText>
+  <QuerySearchByConentText>ըստ բովանդակության</QuerySearchByConentText>
+  <SearchByDetailsWarning>Գրանցում Մորացել եք գաղտնաբառը Դուք նշվում է պարամետրերը, որ դուք կցանկանաք օգտագործել որոնումը ըստ հատկություններով: Այս դեպքում է, որ որոնման կիրականացվի, օգտագործելով ստանդարտ մեթոդը փոխարեն օգտագործելով Windows Indexing ծառայությունը:</SearchByDetailsWarning>
+  <SearchInSpecialFolderWarning>Գրանցում Մորացել եք գաղտնաբառը Որոնել ներկայիս թղթապանակը չի կիրառվում: Եթե ​​դուք շարունակեք, որոնման կիրականացվեն բոլոր դիրեկտորիաներ.</SearchInSpecialFolderWarning>
+
+  <UploadTitle>Վերբեռնվում բազմակի ֆայլերի</UploadTitle>
+  <UploadSimpleTab>ստանդարտ</UploadSimpleTab>
+  <UploadSimpleReset>տեղավորել</UploadSimpleReset>
+  <UploadSimpleUpload>վերբեռնում</UploadSimpleUpload>
+  <UploadSimpleUploadFolderLabelCollapsed>վերբեռնում թղթապանակը</UploadSimpleUploadFolderLabelCollapsed>
+  <UploadSimpleUploadFolderButtonText>Ընտրել թղթապանակը</UploadSimpleUploadFolderButtonText>
+  <UploadJavaTab>Java</UploadJavaTab>
+  <UploadJavaIgnorePaths>Տեղադրել բոլոր ֆայլերը մեկ թղթապանակում (անտեսել ուղիներ)</UploadJavaIgnorePaths>
+  <UploadFlashTab>Flash</UploadFlashTab>
+  <UploadSilverlightTab>Silverlight</UploadSilverlightTab>
+  <UploadPartially>Որոշ ֆայլերի չի կարող վերբեռնվել</UploadPartially>
+  <UploadFolderNotSelectedTitle>Թղթապանակ չէ ընտրված</UploadFolderNotSelectedTitle>
+  <UploadFolderNotSelected>Խնդրում ենք ընտրեք այն թղթապանակը, որի ֆայլերը կլինեն վերբեռնված</UploadFolderNotSelected>
+  <UploadInProgress>Բեռնում ձեր ֆայլերը</UploadInProgress>
+  <UploadInvalidFormFields>Ձեւադաշտերը չի կարող ներկայացվել անվավեր արժեքներին</UploadInvalidFormFields>
+  <UploadAjaxFailed>Ajax կապի ձախողվեց</UploadAjaxFailed>
+  <UploadFilesAlreadyExists>Ֆայլ (ներ) արդեն գոյություն ունի</UploadFilesAlreadyExists>
+  <UploadOverwriteFiles>Առկա ֆայլերը կլինեն overwritten. Ցանկանում եք անցնել.</UploadOverwriteFiles>
+  <UploadOverwriteOrRenameFiles>Կան մեկ կամ ավելի ֆայլեր հետ համընկնող անուններով գրացուցակում դուք նշված. Ցանկանում եք վերագրել առկա ֆայլերը. Սեղմեք "{0}« եթե դուք ուզում եք վերագրել արդեն գոյություն ունեցող ֆայլերը, կամ «{1}» - Եթե ուզում եք պահպանել բոլոր ֆայլերը (նրանք պետք է վերանվանվել):</UploadOverwriteOrRenameFiles>
+  <UploadNotModifyExistingFiles>Կան մեկ կամ ավելի ֆայլեր համապատասխանող անուններ գրացուցակում դուք նշված. Այդ ֆայլերը չեն կարող վերբեռնվել: Խնդրում ենք հեռացնել առկա ֆայլերը վերբեռնման ցուցակից կամ վերանվանել դրանք:</UploadNotModifyExistingFiles>
+  <UploadRenamedExistingFiles>Կան մեկ կամ ավելի ֆայլեր համապատասխանող անուններ գրացուցակում դուք նշված. Ֆայլեր համապատասխանող անունների կլինի վերանվանվել:</UploadRenamedExistingFiles>
+  <UploadNotAllowedTitle>Վերբեռնում չի թույլատրվում</UploadNotAllowedTitle>
+  <UploadNotAllowedPrompt>Դուք չեք կարող վերբեռնել ֆայլերը այս թղթապանակում</UploadNotAllowedPrompt>
+
+  <UploadMobileIOSVideo>Վերբեռնել տեսանյութը: Միացնել այս տարբերակը, եթե դուք պետք է վերբեռնել վիդեո ֆայլը.</UploadMobileIOSVideo>
+  <UploadMobileAurigmaLink>Խնդրում ենք նկատի ունենալ, որ դուք պետք է ունենա Aurigma Up! տեղադրվել է Ձեր սարքի որպեսզի վերբեռնել ֆայլեր. Թակել այստեղ տեղադրել Aurigma Up! դիմումը բեռնում պատկերներ եւ վիդեո.</UploadMobileAurigmaLink>
+  <UploadMobileAurigmaReady>Այն բանից հետո, Aurigma Up! տեղադրվել է կամ, եթե դուք արդեն այն տեղադրված, սեղմեք "Վերբեռնել» կոճակը:</UploadMobileAurigmaReady>
+  <UploadMobileAurigmaFilePrefix>Նախածանցը համար Բեռնված ֆայլեր</UploadMobileAurigmaFilePrefix>
+  <UploadMobileResult>Վերբեռնել արդյունք:</UploadMobileResult>
+  <UploadMobileUrlPlaceHolder>Մուտքագրեք հասցեն այստեղ</UploadMobileUrlPlaceHolder>
+  <UploadMobileFileNamePlaceHolder>Մուտքագրեք նոր ֆայլի անունը Մականուն</UploadMobileFileNamePlaceHolder>
+  <UploadBrowseLabel>Թերթել ...</UploadBrowseLabel>
+  
+  <MobileToolTipsCaption>Գիտեք, որ ...</MobileToolTipsCaption>
+  <MobileToolTipsNextButton>Հաջորդ tip</MobileToolTipsNextButton>
+  <MobileToolTipsIKnowButton>ես գիտեմ դա</MobileToolTipsIKnowButton>
+  <MobileToolTipsHideButton>Երբեք ցույց են տալիս,</MobileToolTipsHideButton>
+  <MobileToolTipsMultiSelection>Է ընտրել մի քանի ֆայլեր կամ թղթապանակների, դուք պետք է հնարավորություն բազմաբնակարան ընտրության ռեժիմը հպելով &lt;b&gt; {0} &lt;/b&gt; կոճակը: Թակել այն նորից դուրս գալու բազմաբնակարան ընտրության ռեժիմում.</MobileToolTipsMultiSelection>
+  <MobileToolTipsSlideToRemove>Դուք կարող եք սահեցրեք աջից ձախ որեւէ ցուցակի իրերի հեռացնել այն. An inline հեռացնել կոճակը կցուցադրվեն վերեւում ցուցակի կետի:</MobileToolTipsSlideToRemove>
+  <MobileToolTipsTapAndHoldForMenu>Թակել եւ պահեք որեւէ ցուցակի իրերի ցույց տալ համատեքստում մենյուն: Նույն համատեքստում մենյու դրսեւորվում է թակել է «բացահայտման» կոճակը</MobileToolTipsTapAndHoldForMenu>
+  <MobileToolTipsDoubleTapForPreview>Single tap ֆայլ է ընտրել այն, կրկնակի թակել, որպեսզի տեսնեք, թե ներբեռնել այն. Single tap վրա թղթապանակ բացել այն:</MobileToolTipsDoubleTapForPreview>
+  <MobileToolTipsPullDownToRefresh>Քաշեք ներքեւ ցանկը վերաբեռնել դա բովանդակությունը:</MobileToolTipsPullDownToRefresh>
+  <MobileToolTipsPinchToScale>Դուք կարող եք օգտագործել «պտղունց» ժեստ մեծացնելու է եւ մեծացնելու դուրս պատկերները.</MobileToolTipsPinchToScale>
+  <MobileToolTipsTapToHideBars>Ծորակ ամենուր պատկերի վահանակի toggle Գործիքադարակներ.</MobileToolTipsTapToHideBars>
+  <MobileToolTipsSlideLeftRightToNext>Switch պատկերներ slide ժեստ.</MobileToolTipsSlideLeftRightToNext>
+
+  <DownloadToCloudMobileTip>Single tap է ընտրել թղթապանակ, կրկնակի թակել է բացել այն:</DownloadToCloudMobileTip>
+  
+  <UploadTotalMaxSizeMessage>Նշում! Առավելագույն չափը բոլոր վերբեռնված ֆայլերը չպետք է գերազանցի {0}.</UploadTotalMaxSizeMessage>
+  <UploadOneFileMaxSizeMessage>Նշում! Առավելագույն չափը յուրաքանչյուր Վերբեռնված ֆայլը չպետք է գերազանցի {0}.</UploadOneFileMaxSizeMessage>
+  <UploadUnlimitedSizeMessage>Նշում! Չափը բեռնված ֆայլերի է անսահման.</UploadUnlimitedSizeMessage>
+  <SimpleUploadSetFileNameNote>Ծանոթագրություն 2.! Հետո մի ֆայլ է ընտրված, դուք կարող եք փոփոխել անունը, որ ֆայլը կունենա այն բանից հետո, վերբեռնման</SimpleUploadSetFileNameNote>
+
+  <AnonymousUploadTitle>Վերբեռնել ֆայլեր այս թղթապանակում</AnonymousUploadTitle>
+  <AnonymousUploadDescription>Դուք կարող եք վերբեռնել ֆայլեր այս թղթապանակը: Սեղմեք «թերթել» կոճակը եւ ընտրեք ֆայլերը.</AnonymousUploadDescription>
+  <AnonymousUploadOverwriteHint>Եթե ​​Վերբեռնված ֆայլը արդեն գոյություն ունի, ապա այն կարող է փոխարինվել.</AnonymousUploadOverwriteHint>
+  <AnonymousUploadShowUploadHint>Ցույց տալ վերբեռնում ձեւը</AnonymousUploadShowUploadHint>
+  <AnonymousUploadHideUploadHint>Թաքցնել վերբեռնում ձեւը</AnonymousUploadHideUploadHint>
+  <AnonymousUploadNewFolderNameHint>Ի դաշտում ստորեւ կարող եք նշել մի ենթացուցակ անունը (թղթապանակը կստեղծվի, եթե այն գոյություն չունի), որի ֆայլերը կլինեն Վերբեռնման:</AnonymousUploadNewFolderNameHint>
+  <AnonymousUploadCompleteTitle>Բեռնում է թղթապանակում {0} ավարտված է</AnonymousUploadCompleteTitle>
+  <AnonymousUploadExistsFilesMessage>Հետեւյալ էջը հղվում (ներ) չի վերբեռնվել, քանի ֆայլ (ներ) ի հետ նույն անունով (ներ) արդեն գոյություն ունեն: {0}.</AnonymousUploadExistsFilesMessage>
+  <AnonymousUploadOwnersNote>Նշում է թղթապանակի սեփականատիրոջ</AnonymousUploadOwnersNote>
+  <AnonymousDownloadPageTitle>Ներբեռնել ֆայլը</AnonymousDownloadPageTitle>
+  <AnonymousDownloadFileHint>Ներբեռնել ֆայլը</AnonymousDownloadFileHint>
+  <AnonymousUploadPageTitle>Վերբեռնել թղթապանակ</AnonymousUploadPageTitle>
+  <AnonymousPublicFolderPageTitle>Հանրային թղթապանակը</AnonymousPublicFolderPageTitle>
+  <AnonymousLoginAccessUserFailure>Դու մուտք հաշվին, որը չի ունենա մուտք դեպի ռեսուրս. Խնդրում ենք մուտք գործել, այլ հավատարմագրերը Ձեր մուտք. Եթե ​​Դուք չգիտեք, թե նրանց համար, խնդրում ենք դիմել սեփականատիրոջը հանրային հղումը կամ ձեր ադմինիստրատոր.</AnonymousLoginAccessUserFailure>
+  <ProgressGettingAnonymLink>Հանրային հղում ստեղծումը</ProgressGettingAnonymLink>
+  <ProgressGettingAnonymLinks>Ինչից անանուն հղումներ</ProgressGettingAnonymLinks>
+  <ProgressGettingBoxViewLink>Ինչից Box Դիտել այս</ProgressGettingBoxViewLink>
+  <AutodeskScriptNotIncludedMessage>Չհաջողվեց բեռնել Autodesk հեռուստադիտողի script</AutodeskScriptNotIncludedMessage>
+  <ProgressUninitializeAutodeskViewer>Փակման Autodesk Viewer</ProgressUninitializeAutodeskViewer>
+  <ProgressGettingAutodeskViewLink>Ինչից Autodesk Դիտել տվյալները</ProgressGettingAutodeskViewLink>
+  <AnonymousChangeLanguageHint>Ընտրեք լեզուն</AnonymousChangeLanguageHint>
+  <AnonymousUpLinkHint>Վերադարձ դեպի ծնողի թղթապանակում</AnonymousUpLinkHint>
+  <AnonymousPasswordDescription>Թղթապանակը գաղտնաբառը պաշտպանված</AnonymousPasswordDescription>
+  <AnonymousPasswordIncorrectMessage>Գաղտնաբառը սխալ է</AnonymousPasswordIncorrectMessage>
+  <AnonymousErrorTitle>Հանրային հղում սխալ է</AnonymousErrorTitle>
+  <AnonymousErrorNotFound>Հանրային հղում "{0}» - ը չի գտնվել!</AnonymousErrorNotFound>
+  <AnonymousErrorAccessDenied>Դուք չունեք թույլտվություն օգտագործելու հանրային հղումը "{0}"</AnonymousErrorAccessDenied>
+  <AnonymousErrorFileNotFound>Հասարակությունը հղում "{0}" վերաբերում է գոյություն չունեցող ֆայլը կամ թղթապանակը կամ NTFS կարդալ հասանելիության մերժվում</AnonymousErrorFileNotFound>
+  <AnonymousErrorUnknownLinkType>Հասարակությունը հղում "{0}" - ը չի գտնվել</AnonymousErrorUnknownLinkType>
+  <AnonymousSendEmailSubject>Այցելուները գործունեությունը հասարակական թղթապանակում</AnonymousSendEmailSubject>
+  <AnonymousSendEmailUploadBody>Հետեւյալ ֆայլերը են վերբեռնվել Ձեր հանրային թղթապանակը {0}: {1}:</AnonymousSendEmailUploadBody>
+  <AnonymousSendEmailDownloadBody>Ֆայլը {0} էր ներբեռնել ձեր հանրային թղթապանակը {1}:</AnonymousSendEmailDownloadBody>
+  <AnonymousSendEmailZipDownloadBody>Ամբողջ բովանդակությունը հանրային թղթապանակը {0} էր ներբեռնել է ZIP արխիվ:</AnonymousSendEmailZipDownloadBody>
+  <AnonymousViewLinksButton>Դիտել հղումներ</AnonymousViewLinksButton>
+  <AnonymousViewLinksHint>Դիտելու առկա հանրային հղումներ</AnonymousViewLinksHint>
+  <AnonymousViewLinksWindowTitle>Public հղումներ</AnonymousViewLinksWindowTitle>
+  <AnonymousViewLinksDateCreatedColumn>Ստեղծման ամսաթիվը</AnonymousViewLinksDateCreatedColumn>
+  <AnonymousViewLinksDateExpiredColumn>պիտանիության ժամկետ</AnonymousViewLinksDateExpiredColumn>
+  <AnonymousViewLinksPermissionColumn>թույլատրություն</AnonymousViewLinksPermissionColumn>
+  <AnonymousViewLinksDownloadedColumn>Միավորների քան-բեռնումների է մնացել</AnonymousViewLinksDownloadedColumn>
+  <ProgressDeletingAnonymousLink>Վերացվում հանրային հղում</ProgressDeletingAnonymousLink>
+  <ProgressSavingAnonymousLink>Խնայողական հանրային հղում</ProgressSavingAnonymousLink>
+  <AnonymousEditLinkWindowTitle>Խմբագրել հանրային հղումը "{0}"</AnonymousEditLinkWindowTitle>
+  <AnonymousEditLinkShowUrl>Ցույց տալ հղում</AnonymousEditLinkShowUrl>
+  <AnonymousEditLinkNotFound>Հասարակությունը հղում չի գտնվել կամ նրա գործողության ժամկետը լրացել է</AnonymousEditLinkNotFound>
+
+  <AnonymousLinkSendViaButton>Ուղարկել միջոցով ...</AnonymousLinkSendViaButton>
+  <AnonymousLinkSendViaEmailItem>Փոստի ...</AnonymousLinkSendViaEmailItem>
+  <AnonymousLinkSendButton>Ուղարկել էլեկտրոնային փոստով ...</AnonymousLinkSendButton>
+  <AnonymousLinkSendSubject>Վեբ File Manager Հանրային ՈՒղեցույց</AnonymousLinkSendSubject>
+
+  <AnonymousLinkAdvOptTitle>Լրացուցիչ պարամետրեր</AnonymousLinkAdvOptTitle>
+  <AnonymousLinkViewTypeButton>ՈՒղեցույց տեսություն</AnonymousLinkViewTypeButton>
+  <AnonymousLinkViewTypeDefault>Լի</AnonymousLinkViewTypeDefault>
+  <AnonymousLinkViewTypeShort>կարճ</AnonymousLinkViewTypeShort>
+
+  <AnonymousLinkShowCommentsLabel>Ցույց տալ, նկարագրությունը, պիտակները եւ մեկնաբանություններ</AnonymousLinkShowCommentsLabel>
+  <AnonymousLinkShowCommentsShort>Ցույց տալ մեկնաբանություն</AnonymousLinkShowCommentsShort>
+
+  <QRCodeButton>QR կոդը</QRCodeButton>
+
+  <AnonymousLinkLimitedAccessTitle>սահմանափակ մուտքի</AnonymousLinkLimitedAccessTitle>
+  <AnonymousLinkLimitAccessCheckBox>Սահմանափակել մուտք է միայն նշված իսկությունը օգտվողների</AnonymousLinkLimitAccessCheckBox>
+  <AnonymousLinkLimitAccessTextArea>Մուտքագրեք օգտանունները կամ նամակներ (ստորակետով առանձնացված)</AnonymousLinkLimitAccessTextArea>
+  <AnonymousLinkLimitAccessSendCheckBox>Ուղարկել ծանուցումներ նշված օգտվողների</AnonymousLinkLimitAccessSendCheckBox>
+  <AnonymousLinkLimitAccessPersMsgLabel>Անձնական հաղորդագրություն (ըստ ցանկության)</AnonymousLinkLimitAccessPersMsgLabel>
+  <AnonymousLinkLimitAccessPassAndUsersMsg>Դուք ճշտել ձեր գաղտնաբառը եւ օգտվողներին, միեւնույն ժամանակ, պետք է մուտք հղումը: Խնդրում ենք նշեք մի բան մեկ:</AnonymousLinkLimitAccessPassAndUsersMsg>
+  <AnonymousLinkLimitAccessUsersNotFound>Օգտվողները:
+    {0}
+    գոյություն չունի</AnonymousLinkLimitAccessUsersNotFound>
+  <AnonymousLinkLimitAccessEmailsNotFound>Նամակները:
+    {0}
+    գոյություն չունի</AnonymousLinkLimitAccessEmailsNotFound>
+  <AnonymousLinkLimitAccessUsersEmailsNotFound>Օգտվողները:
+    {0}
+    եւ նամակներ:
+    {1}
+    գոյություն չունի</AnonymousLinkLimitAccessUsersEmailsNotFound>
+
+  <AnonymousLinkUnableToCreate>Անհնար է ստեղծել անանուն հղում</AnonymousLinkUnableToCreate>
+  <AnonymousLinkShortUrlLabel>Խնդրում ենք սեղմեք թարմացնել պատկերակը (ներքեւի աջ) ստանալ կարճ հղում</AnonymousLinkShortUrlLabel>
+  <AnonymousLinkShortUrlUpdate>Ստանալ կամ թարմացնել կարճ հղում</AnonymousLinkShortUrlUpdate>
+  <AnonymousLinkLongUrlNotSpecified>Երկար URL նշված չէ</AnonymousLinkLongUrlNotSpecified>
+
+  <ClientFileOrDirectoryAlreadyExists>A ֆայլ կամ ցուցակում այս անունով արդեն գոյություն ունի</ClientFileOrDirectoryAlreadyExists>
+  <ClientPermissionsAllowTypes>Ընթացիկ թույլտվությունները թույլ են տալիս այս գործողությունը միայն հետեւյալ ֆայլի տեսակների {0}</ClientPermissionsAllowTypes>
+  <ClientPermissionsDenyTypes>Ընթացիկ թույլտվությունները արգելում այս գործողությունը, ինչպես նաեւ հետեւյալ ֆայլի տեսակների {0}</ClientPermissionsDenyTypes>
+  <OfficeApplicationNotFoundAlert>Office դիմումը չի գտնվել: Բացել ֆայլը ձեռքով օգտագործելով հղումը տեքստում տուփի.</OfficeApplicationNotFoundAlert>
+  <OfficeAnonymousEditPublicLinkError>Անհնար է ստեղծել հասարակական հղում անանուն բաց գրասենյակի փաստաթղթում:</OfficeAnonymousEditPublicLinkError>
+
+  <GoogleOWAViewLinkMessage>Դիտելու փաստաթուղթը սեղմեք ստորեւ հղումը.</GoogleOWAViewLinkMessage>
+  <ZohoEditLinkMessage>Խմբագրել փաստաթուղթը սեղմեք ստորեւ հղումը</ZohoEditLinkMessage>
+  <PixlrEditLinkMessage>Խմբագրել պատկերը սեղմեք ստորեւ հղումը</PixlrEditLinkMessage>
+  <PixlrNewImageCreateTitle>Ստեղծել նոր իմիջ հետ Pixlr</PixlrNewImageCreateTitle>
+  <PixlrNewImageLinkMessage>Է ստեղծել նոր իմիջ, սեղմեք ստորեւ հղումը.</PixlrNewImageLinkMessage>
+
+  <DownloadTitle>Բեռնելիս բազմակի ֆայլերի</DownloadTitle>
+  <DownloadSimpleTab>ստանդարտ</DownloadSimpleTab>
+  <DownloadJavaTab>Java</DownloadJavaTab>
+  <DownloadIEPrevent>Internet Explorer կանխում ավտոմատ ներբեռնման</DownloadIEPrevent>
+  <DownloadIEClickHere>Սեղմեք այստեղ բեռնելու համար</DownloadIEClickHere>
+  <DownloadIEArchiveReady>Արխիվ «{0}» հետ Ընտրված ֆայլերը ստեղծվել է եւ պատրաստ է ներբեռնման</DownloadIEArchiveReady>
+  <DownloadIECaption>Download պատրաստ է</DownloadIECaption>
+
+  <SettingsTitle>Կառավարում</SettingsTitle>
+  <SettingsLanguage>Լեզու</SettingsLanguage>
+  <SettingsLogOutRequired>Նոր փոփոխություններ կլինեն կիրառվել հետո նկարագիր: կամ բրաուզերի վերագործարկել!</SettingsLogOutRequired>
+  <ThemeTitle>Փոխել Theme</ThemeTitle>
+  <SettingsTheme>Ընտրեք թեմա</SettingsTheme>
+  <ThemeDefaultTitle>Default Theme</ThemeDefaultTitle>
+  <ThemeGrayTitle>Մոխրագույն Theme</ThemeGrayTitle>
+  <ThemeAccessTitle>Մատչելիության Theme</ThemeAccessTitle>
+
+  <ChangeUserPasswordTitle>Փոխել օգտվողին գաղտնաբառը</ChangeUserPasswordTitle>
+  <ChangeUserPasswordOldPassword>Հին Գաղտնաբառ</ChangeUserPasswordOldPassword>
+  <ChangeUserPasswordNewPassword>Նոր ծածկագիր</ChangeUserPasswordNewPassword>
+  <ChangeUserPasswordRepeatNewPassword>Կրկնել նոր գաղտնաբառ</ChangeUserPasswordRepeatNewPassword>
+  <ChangeUserPasswordPasswordsNotMatch>Գաղտնաբառերը չեն համապատասխանում.</ChangeUserPasswordPasswordsNotMatch>
+  <ChangeUserPasswordSuccessMessage>Գաղտնաբառ փոխվել է:</ChangeUserPasswordSuccessMessage>
+  <ChangeUserPasswordInvalidMessage>Անվավեր գաղտնաբառը:</ChangeUserPasswordInvalidMessage>
+
+  <ChangeUserEmailTitle>Փոխել անձնագիրը e-mail</ChangeUserEmailTitle>
+  <ChangeUserEmailEmail>E-mail</ChangeUserEmailEmail>
+  <ChangeUserEmailSuccessMessage>E-mail փոխվել է:</ChangeUserEmailSuccessMessage>
+
+  <UserHelpTitle>Օգտվող օգնություն</UserHelpTitle>
+
+  <LicenseTitle>Լիցենզիա տեղեկատվությունը</LicenseTitle>
+  <LicenseTrial>Չգրանցված 30-օրյա գնահատման տարբերակը</LicenseTrial>
+  <LicensePrompt>Լիցենզավորված Մեսսենջեր {0} Օգտագործողները հաշվիչ {1} {0} գնման օրվանից: {2} {0}</LicensePrompt>
+  <LicenseFreeUpgradeMessage>Դուք դեռ պետք է {0} օր անվճար վերազինման եւ աջակցության.</LicenseFreeUpgradeMessage>
+  <LicenseCheckMessage>Ավելի քան մեկ տարի է անցել այն օրվանից, գնման. Պետք է օգտագործել այս տարբերակը պետք է թարմացնել ձեր բաժանորդագրությունը կամ իջեցրեք է հին տարբերակով: Դուք կարող եք ստուգել Ձեր լիցենզիա եւ գտնել առկա հաղորդագրություններ ժամը &lt;a href='{0}' target='_blank'&gt; Check License էջի &lt;/a&gt;</LicenseCheckMessage>
+  
+  <ViewPopupBlocked>Նոր պատուհան արգելափակվել է թռուցիկ blocker</ViewPopupBlocked>
+  
+  <LoginTwoFactorTitle>Երկու քայլ ստուգման</LoginTwoFactorTitle>
+  <LoginTitle>լոգին</LoginTitle>
+  <LoginRemember>Հիշել ինձ հաջորդ անգամ</LoginRemember>
+  <LoginUISelect>ինտերֆեյս</LoginUISelect>
+  <LoginUIStandard>ստանդարտ</LoginUIStandard>
+  <LoginUITouch>շարժական</LoginUITouch>
+  <LoginLanguage>Լեզու</LoginLanguage>
+  <LoginLogin>լոգին</LoginLogin>
+  <LoginFailure>Ձեր լոգինը փորձը չի հաջողվել:</LoginFailure>
+  <LoginBlocked>Հաշիվը արգելափակված է: Սպասեք {0} րոպե կրկին փորձել:</LoginBlocked>
+  <LoginNotActivated>Ձեր հաշիվը չի ակտիվացված է:</LoginNotActivated>
+  <LoginResendActivation>Եթե ​​հաղորդագրության ակտիվացման կոդը չեն ստացել է երկար ժամանակ, սեղմեք {0} հղումը նորից ակտիվացման կոդը:</LoginResendActivation>
+  <LoginResendActivationLink>ուղարկել ակտիվացման կոդը</LoginResendActivationLink>
+  <LoginResendActivationCode>Սեղմիր {0} հղումը նորից ակտիվացման կոդը:</LoginResendActivationCode>
+  
+  <ActivateAccountOk>Հաշվի հաջողությամբ ակտիվացված!</ActivateAccountOk>
+  <ActivateAccountResultLabel>Ակտիվացման արդյունքը</ActivateAccountResultLabel>
+  <ActivateAccountErrorOnlyFormsAuth>Հաշվի ակտիվացում կարող են օգտագործվել միայն ձեւեր իսկությունը</ActivateAccountErrorOnlyFormsAuth>
+  <ActivateAccountErrorNotRequired>Հաշվի ակտիվացում անջատված է հայտի պարամետրեր. Հաշիվն ավտոմատ ակտիվացված գրանցումից հետո:</ActivateAccountErrorNotRequired>
+  <ActivateAccountErrorAlreadyActivated>Հաշիվն արդեն ակտիվացված</ActivateAccountErrorAlreadyActivated>
+  <ActivateAccountErrorInvalidCode>Ակտիվացման կոդը վավեր չէ</ActivateAccountErrorInvalidCode>
+  <ActivateAccountErrorAccountNotFound>Հաշիվ չի գտնվել</ActivateAccountErrorAccountNotFound>
+  <ActivateAccountErrorLinkBroken>Ակտիվացում հղում կոտրված</ActivateAccountErrorLinkBroken>
+  <ActivateAccountReturnToLogin>Վերադարձ դեպի մուտք գործել էջը</ActivateAccountReturnToLogin>
+  
+  <LoginRender>մատուցել</LoginRender>
+  
+  <LogoutTitle>Վեբ ֆայլ մենեջերի Խաղեր | Լուս</LogoutTitle>
+  <LogoutSessionEnded>Ներկայիս նիստը ավարտվել</LogoutSessionEnded>
+  <LogoutCloseWindow>Փակել պատուհանը</LogoutCloseWindow>
+  <LogoutEnterAgain>Մուտք գործեք կրկին</LogoutEnterAgain>
+  <LogoutClosingBrowserRequired>Գրանցում Մորացել եք գաղտնաբառը Յուրաքանչյուրը կարող է մուտք գործել Ձեր հաշիվը! Եթե ​​դուք օգտագործում եք վայրի համակարգչից, ապա դուք պետք է փակել ձեր բրաուզերի պատուհանը (ոչ միայն tab) մաքրել վավերացում Ձեր բրաուզերում. Համար Firefox բրաուզերի Դուք կարող եք մաքրել նույնականացումը ընտրացանկում: գործիքներ&gt; Մաքրել նեղացել պատմության ...-&gt; Details-&gt; ստուգել Active Logins-&gt; Մամլո այժմ պարզ.</LogoutClosingBrowserRequired>
+  <RecoverPasswordTitle>վերականգնել գաղտնաբառը</RecoverPasswordTitle>
+  <RecoverPasswordEmailPassword>Ուղարկել գաղտնաբառը էլեկտրոնային փոստով</RecoverPasswordEmailPassword>
+  <RecoverPasswordErrorInvalidUserName>Անվավեր օգտվողի անունը:</RecoverPasswordErrorInvalidUserName>
+  <RecoverPasswordErrorNoEmail>Այս օգտվողը չունի էլեկտրոնային փոստի հասցե սահմանված:</RecoverPasswordErrorNoEmail>
+  <RecoverPasswordErrorSendEmail>Տեղի ունեցավ սխալ ուղարկելիս Ձեր էլ.</RecoverPasswordErrorSendEmail>
+  <RecoverPasswordSuccess>Ձեր գաղտնաբառը արդեն ուղարկվել է Ձեր էլեկտրոնային փոստի հասցեն.</RecoverPasswordSuccess>
+
+  <RecoverUserNameTitle>վերականգնել անունը</RecoverUserNameTitle>
+  <RecoverUserEmailName>Ուղարկել անունը էլեկտրոնային փոստով</RecoverUserEmailName>
+  <RecoverUserNameErrorInvalidEmail>Անվավեր անձնագիրը էլփոստի:</RecoverUserNameErrorInvalidEmail>
+  <RecoverUserNameErrorNoEmail>Փոստի հասցեն չի գտնվել:</RecoverUserNameErrorNoEmail>
+  <RecoverUserNameSuccess>Ձեր անունը արդեն ուղարկվել է Ձեր էլեկտրոնային փոստի հասցեն.</RecoverUserNameSuccess>
+
+  <ChangeEmailTitle>Փոխել էլփոստի</ChangeEmailTitle>
+  <ChangeEmailEmail>Նոր էլփոստի</ChangeEmailEmail>
+  <ChangeEmailSubmit>Ներկայացնել</ChangeEmailSubmit>
+  <ChangeEmailStatusSuccess>Փոստի փոխվել է</ChangeEmailStatusSuccess>
+
+  <RegisterTitle>Գրանցում Գրանցում</RegisterTitle>
+  <RegisterEmail>Փոստի</RegisterEmail>
+  <RegisterExtraInfo>Extra Info</RegisterExtraInfo>
+  <RegisterCaptcha>Մուտքագրեք տեքստը եք տեսնել պատկերով ստորեւ</RegisterCaptcha>
+  <RegisterSubmit>Ներկայացնել</RegisterSubmit>
+  <RegisterErrorPasswordNotMatch>Գաղտնաբառերը չեն համապատասխանում.</RegisterErrorPasswordNotMatch>
+  <RegisterErrorUserExists>Այս օգտագործողի անունը կամ էլփոստի հասցեն արդեն օգտագործվում է:</RegisterErrorUserExists>
+  <RegisterErrorCaptchaInvalid>Image տեքստը չի մտել ճիշտ</RegisterErrorCaptchaInvalid>
+  <RegisterSuccess>Նոր օգտվող է ավելացվել:</RegisterSuccess>
+  <RegisterActivationSent>Ակտիվացման կոդը ուղարկվել է Ձեր էլ.</RegisterActivationSent>
+  <RegisterActivationCheckEmail>Խնդրում ենք ստուգել Ձեր փոստի վանդակում (հատուկ junk թղթապանակը) եւ հետեւեք ցուցումներին էլ.</RegisterActivationCheckEmail>
+  
+  <FolderGridUserPermissionsColumn>Access օգտվողների համար</FolderGridUserPermissionsColumn>
+  <FolderGridGroupPermissionsColumn>Access խմբերի համար</FolderGridGroupPermissionsColumn>
+
+  <LoginLinkText>լոգին</LoginLinkText>
+  <RecoverPasswordLinkText>Մոռացել եք գաղտնաբառը?</RecoverPasswordLinkText>
+  <RecoverUserNameLinkText>Մորացել անունը:</RecoverUserNameLinkText>
+  <RegisterLinkText>Գրանցում Գրանցում</RegisterLinkText>
+  <ChangeEmail>Փոխել Փոստի</ChangeEmail>
+  <LoginMobileVersionLinkText>Ալբոմներ Ծանոթություններ Մեսսենջեր (Շատ սմարթֆոններ եւ touchpads)</LoginMobileVersionLinkText>
+
+  <FileIsNotZipArchive>Ֆայլը {0} չէ ZIP պահոց</FileIsNotZipArchive>
+
+  <FileModificationsAuthor>հեղինակ</FileModificationsAuthor>
+  <FileModificationsHistory>Դիտել պատմությունը</FileModificationsHistory>
+  <FileModificationsWindowTitle>Ձեւափոխումը ֆայլը "{0}"</FileModificationsWindowTitle>
+  <FileModificationsTypeCreated>Ստեղծվել</FileModificationsTypeCreated>
+  <FileModificationsTypeModified>Փոփոխված</FileModificationsTypeModified>
+  <FileModificationsTypeRenamed>վերանվանվել</FileModificationsTypeRenamed>
+  <FileModificationsTypeRestored>Վերականգնված</FileModificationsTypeRestored>
+  <FileModificationsTypeDeleted>Ջնջված</FileModificationsTypeDeleted>
+
+  <ChangingReadOnlyProgressMessage>Changing միայն կարդալու հատկանիշը</ChangingReadOnlyProgressMessage>
+
+  <ImageViewerWindowTitle>Image հեռուստադիտողի [{0}]</ImageViewerWindowTitle>
+  <ImageViewerLoadingMessage>Բեռնվում պատկերը հեռուստադիտողի</ImageViewerLoadingMessage>
+  <ImageViewerLoadingImageMessage>Բեռնվում պատկերը</ImageViewerLoadingImageMessage>
+  <ImageViewerFirstImageTip>First պատկերը</ImageViewerFirstImageTip>
+  <ImageViewerPreviousImageTip>Նախորդ պատկերը</ImageViewerPreviousImageTip>
+  <ImageViewerRefreshTip>Թարմացնել պատկերներ ցուցակը</ImageViewerRefreshTip>
+  <ImageViewerNextImageTip>Հաջորդ պատկերը</ImageViewerNextImageTip>
+  <ImageViewerLastImageTip>Անցյալ պատկերը</ImageViewerLastImageTip>
+  <ImageViewerRunSlideShow>Run պատկերներ Slide Show</ImageViewerRunSlideShow>
+  <ImageViewerStopSlideShow>Stop պատկերներ slide show</ImageViewerStopSlideShow>
+  <ImageViewerImageSimpleInfo>{0} / {1}, {2} ({3})</ImageViewerImageSimpleInfo>
+  <ImageViewerImageLoadErrorMessage>Պատկերը չի գտնվել, կամ չի կարող ցուցադրվել</ImageViewerImageLoadErrorMessage>
+  <ImageViewerShowImageSizeOfWindow>Ցույց տալ պատկերի իրական չափերով</ImageViewerShowImageSizeOfWindow>
+  <ImageViewerShowRealImageSize>Click to enlarge</ImageViewerShowRealImageSize>
+
+  <PasswordExpiresTitle>Գաղտնաբառ ժամկետը լրանում է</PasswordExpiresTitle>
+  <PasswordExpiresMessage>Ձեր գաղտնաբառը ժամկետի ավարտից հետո {0} օրը (ներ).</PasswordExpiresMessage>
+  <PasswordExpiredMessage>Ձեր գաղտնաբառը ժամկետը լրացել է:</PasswordExpiredMessage>
+  <PasswordChangeMessage>Է փոխել գաղտնաբառը, ընտրեք {0} {1} -&gt; {2} {3} Գործիքադարակի:</PasswordChangeMessage>
+
+  <UnzipContentTotalFiles>Ընդամենը ֆայլեր: {0} ({1})</UnzipContentTotalFiles>
+
+  <VideoConversionJobNotFound>
+    Անհնար է գտնել նշված փոխակերպման գործընթացը.
+    Հնարավոր պատճառները:
+    1. Conversion ավարտվել է երկար ժամանակ առաջ, եւ տեղեկություններ, այս մասին աշխատանքի հեռացվել է:
+    2. փոխակերպման գործընթացը դադարեցվել է թույլտվությունները:
+  </VideoConversionJobNotFound>
+  <VideoConversionUtilityNotFound>Անհնար գտնել օգտակար է կատարել պահանջվող գործողությունը: {0}</VideoConversionUtilityNotFound>
+  <!-- The current security principal "{0}" has insufficiant permissions to executable file "{1}".-->
+  <VideoConversionUtilityInsufficientPermissions>Ներկայիս մասին "{0}« մերժվում է գործարկվող ֆայլ «{1}».</VideoConversionUtilityInsufficientPermissions>
+  <VideoConversionOperationCancelled>Operation չեղարկվել է</VideoConversionOperationCancelled>
+  <VideoConversionUtilityFailed>Փոխարկումը կոմունալ դադարեցվել թույլտվությունները</VideoConversionUtilityFailed>
+  <VideoConversionOutputFileBusy>Արդյունք ֆայլը օգտագործվում է մեկ այլ փոխակերպման գործընթացում</VideoConversionOutputFileBusy>
+
+  <VideoConvertWindowValidatorPositiveInt>Պետք է լինի դրական ամբողջ թիվ</VideoConvertWindowValidatorPositiveInt>
+  <VideoConvertWindowTitle>փոխարկել տեսանյութը</VideoConvertWindowTitle>
+  <VideoConvertWindowInputFile>Մուտքային ֆայլի</VideoConvertWindowInputFile>
+  <VideoConvertWindowOutputFile>Արդյունք ֆայլի</VideoConvertWindowOutputFile>
+  <VideoConvertWindowOutputFormat>Արդյունք ձեւաչափը</VideoConvertWindowOutputFormat>
+  <VideoConvertWindowBitrate>Որակ (վ)</VideoConvertWindowBitrate>
+  <VideoConvertWindowFrameResolution>շրջանակ բանաձեւը</VideoConvertWindowFrameResolution>
+  <VideoConvertWindowDAR>Ցուցադրել առումով հարաբերակցությունը</VideoConvertWindowDAR>
+  <VideoConvertWindowPAR>Pixel առումով հարաբերակցությունը</VideoConvertWindowPAR>
+  <VideoConvertWindowResize>չափափոխել</VideoConvertWindowResize>
+  <VideoConvertWindowProfile>Անձնագիր</VideoConvertWindowProfile>
+  <VideoConvertWindowWidth>լայնություն</VideoConvertWindowWidth>
+  <VideoConvertWindowHeight>բարձրություն</VideoConvertWindowHeight>
+  <VideoConvertWindowExtractDetailsProgressMsg>Արտահանվում է վիդեո մանրամասները</VideoConvertWindowExtractDetailsProgressMsg>
+  <VideoConvertWindowOutputFileExistsTitle>Արդյունք ֆայլը գոյություն ունի</VideoConvertWindowOutputFileExistsTitle>
+  <VideoConvertWindowOutputFileExistsMsg>Արդյունք ֆայլ արդեն գոյություն ունի. Դա կլինի overwritten.</VideoConvertWindowOutputFileExistsMsg>
+  <VideoConvertWindowPrepareToConvert>Պատրաստվում է փոխարկել տեսանյութը</VideoConvertWindowPrepareToConvert>
+  <VideoConvertWindowOutputFileMatchInputFile>Արդյունք ֆայլի անունը համապատասխանում է մուտքագրում ֆայլի անունը</VideoConvertWindowOutputFileMatchInputFile>
+
+  <VideoConvertProgressWindowTitle>փոխարկել տեսանյութը</VideoConvertProgressWindowTitle>
+  <VideoConvertProgressWindowInputFile>Մուտքային ֆայլի</VideoConvertProgressWindowInputFile>
+  <VideoConvertProgressWindowOutputFile>Արդյունք ֆայլի</VideoConvertProgressWindowOutputFile>
+  <VideoConvertProgressWindowStatus>Ստատուս</VideoConvertProgressWindowStatus>
+  <VideoConvertProgressWindowStatusTerminating>դադարեցնելու</VideoConvertProgressWindowStatusTerminating>
+  <VideoConvertProgressWindowStatusPreparing>Պատրաստվում</VideoConvertProgressWindowStatusPreparing>
+  <VideoConvertProgressWindowStatusProgress>Քայլ {0} {1}</VideoConvertProgressWindowStatusProgress>
+  <VideoConvertProgressWindowStatusDone>Կատարած</VideoConvertProgressWindowStatusDone>
+
+  <PlayHtml5VideoNotSupported>Ձեր զննարկիչը չի աջակցում HTML 5 վիդեո տարր.</PlayHtml5VideoNotSupported>
+  <PlayHtml5VideoPlayFailed>Խաղալ տեսանյութը ձախողվեց</PlayHtml5VideoPlayFailed>
+  <PlayHtml5AudioPlayFailed>Խաղալ աուդիո ձախողվեց</PlayHtml5AudioPlayFailed>
+  <PlayHtml5AudioTitle>Կոչում</PlayHtml5AudioTitle>
+  <PlayHtml5AudioNotSupported>Ձեր զննարկիչը չի աջակցում HTML 5 աուդիո տարր.</PlayHtml5AudioNotSupported>
+  <PlayHtml5AudioArtist>արվեստագետ</PlayHtml5AudioArtist>
+  <PlayHtml5AudioAlbum>ալբոմ</PlayHtml5AudioAlbum>
+  <PlayHtml5AudioYear>տարի</PlayHtml5AudioYear>
+  <PlayHtml5AudioDuration>Տեւողությունը</PlayHtml5AudioDuration>
+  <PlayHtml5AudioBitrate>Որակ</PlayHtml5AudioBitrate>
+  <PlayHtml5AudioVolume>ծավալ</PlayHtml5AudioVolume>
+
+  <!-- Root title -->
+  <RootTitle>արմատ</RootTitle>
+
+  <!-- Recent feature keys -->
+  <RecentRootTitle>նոր</RecentRootTitle>
+  <RecentDeleteOnePrompt>Համոզված եք, որ ցանկանում եք ջնջել «{0}" Ձեր վերջին իրեր.</RecentDeleteOnePrompt>
+  <RecentDeleteManyPrompt>Համոզված եք, որ ցանկանում եք ջնջել այս {0} կետերը ձեր վերջին կետեր.</RecentDeleteManyPrompt>
+  <RecentPathNotExist>Վերջերս Ճանապարհ "{0}" գոյություն չունի, կամ մուտք գործել մերժվում</RecentPathNotExist>
+  <RecentAllWithoutGroupingTitle>Բոլորը w / O խմբավորման</RecentAllWithoutGroupingTitle>
+  <RecentEditGroupTitle>Խմբագրվել</RecentEditGroupTitle>
+  <RecentViewGroupTitle>դիտվել է</RecentViewGroupTitle>
+  <RecentDownloadGroupTitle>Ներբեռնվել</RecentDownloadGroupTitle>
+  <RecentUploadGroupTitle>Վերբեռնված</RecentUploadGroupTitle>
+  <RecentCreateGroupTitle>Ստեղծվել</RecentCreateGroupTitle>
+
+  <!-- Trash feature keys -->
+  <TrashRootTitle>աղբ</TrashRootTitle>
+  <TrashLabelDateDeleted>Ամսաթիվ ջնջվել</TrashLabelDateDeleted>
+  <TrashDeleteOnePrompt>Համոզված եք, որ ցանկանում եք ընդմիշտ ջնջել «{0}" - ից Աղբարկղ:</TrashDeleteOnePrompt>
+  <TrashDeleteManyPrompt>Համոզված եք, որ ուզում եք ընդմիշտ ջնջել այս {0} կետերը Աղբարկղ:</TrashDeleteManyPrompt>
+  <TrashEmptyTrashLabel>Դատարկ Trash</TrashEmptyTrashLabel>
+  <TrashRestoreSelectedLabel>վերականգնել</TrashRestoreSelectedLabel>
+  <TrashRestoreAllLabel>Վերականգնել բոլորը</TrashRestoreAllLabel>
+  <TrashEmptyTrashPrompt>Համոզված եք, որ ուզում եք դատարկել Trash.</TrashEmptyTrashPrompt>
+  <TrashRestoreAllPrompt>Համոզված եք, որ ցանկանում եք վերականգնել բոլոր կետերը Աղբարկղ:</TrashRestoreAllPrompt>
+  <TrashProgressRestoring>Վերականգնել Աղբարկղում</TrashProgressRestoring>
+  <TrashFolderNotFound>Trash ցուցակում չի գտնվել</TrashFolderNotFound>
+  <TrashBalloonRestored>Վերականգնված իրեր: {0} {1}</TrashBalloonRestored>
+  <TrashDeleteDirectlyLabel>Ջնջել ուղղակիորեն, առանց հանելուց Աղբարկղ</TrashDeleteDirectlyLabel>
+  <TrashUsedSpaceHint>{0} օգտագործվում</TrashUsedSpaceHint>
+  <TrashLimitSizeHint>Օգտագործված {0} {1} ({2})</TrashLimitSizeHint>
+  <TrashLargeItemsShelfTimeHint>Պահեստավորման ժամանակը օբյեկտների ավելի մեծ է, քան {0} {1} օրը (ներ)</TrashLargeItemsShelfTimeHint>
+  <TrashSmallItemsShelfTimeHint>For բոլոր մյուսներից: {0} օր (ներ)</TrashSmallItemsShelfTimeHint>
+  <TrashItemsShelfTimeHint>Պահեստավորման ժամանակը օբյեկտների: {0} օր (ներ)</TrashItemsShelfTimeHint>
+  <TrashAvailableSpaceHint>Առավելագույն հասանելի չափը {0}</TrashAvailableSpaceHint>
+  <TrashDeletedFromFolderHint>Ջնջված է {0}</TrashDeletedFromFolderHint>
+  <TrashExceededMessage>Հետեւյալ օբյեկտներն են չափազանց մեծ է եւ չի կարող տեղակայված Աղբարկղ (սահմանափակմանը {0} գերազանցվել):</TrashExceededMessage>
+  <TrashErrorSuffixMessage>Խնդրում եմ, փորձեք ստուգել տարբերակը "{0}», եւ ապա ջնջել ֆայլը (ներ) հավերժ դուրս է որոնման</TrashErrorSuffixMessage>
+
+  <!-- Shared by link -->
+  <SharedByLinkRootTitle>Կիսում են հղումը</SharedByLinkRootTitle>
+
+  <!-- Shared for you -->
+  <SharedForYouRootTitle>Ձեզ հետ համօգտագործվող</SharedForYouRootTitle>
+  <SharedForYouUnableToGetUrl>Անհնար է հասնել URL- ը</SharedForYouUnableToGetUrl>
+
+  <!-- Watch for modifications -->
+  <WatchForModifsCommand>Watch համար փոփոխություններով</WatchForModifsCommand>
+  <WatchForModifsStartCommand>սկսել դիտելով</WatchForModifsStartCommand>
+  <WatchForModifsEditCommand>Փոխեք հետեւում</WatchForModifsEditCommand>
+  <WatchForModifsStopCommand>Stop հետեւում</WatchForModifsStopCommand>
+  <WatchForModifsViewChangesCommand>Դիտել փոփոխություններ</WatchForModifsViewChangesCommand>
+  <WatchForModifsSubscriptionSuccessMessage>Դուք հաջողությամբ բաժանորդագրվել փոփոխությունների "{0}"</WatchForModifsSubscriptionSuccessMessage>
+  <WatchForModifsStopSuccessMessage>Դիտարկումն "{0}" անջատված հաջողությամբ</WatchForModifsStopSuccessMessage>
+  <WatchForModifsIncludingNestedLabel>Դիտարկենք nested ֆայլեր, թղթապանակներ</WatchForModifsIncludingNestedLabel>
+  <WatchForModifsParentWatchExistMessage>Համար ընտրված տարրը արդեն նշանակվել է մոնիտորինգ ծնողի թղթապանակի "{0}».</WatchForModifsParentWatchExistMessage>
+  <WatchForModifsRootFolder>Alerts</WatchForModifsRootFolder>
+  <WatchForModifsStartProgressLoading>Միացնել հետեւում</WatchForModifsStartProgressLoading>
+  <WatchForModifsStopProgressLoading>Terminatie հետեւում</WatchForModifsStopProgressLoading>
+  <WatchForModifsIconHint>Միացված Watch փոփոխություններ</WatchForModifsIconHint>
+  <WatchForModifsNotifCheckBox>Տեղեկացնել փոփոխությունների մասին է նամակները:</WatchForModifsNotifCheckBox>
+  <WatchForModifsWatchedUsersCheckBox>Ստուգում միայն օգտվողներին (թողեք դատարկ, եթե դուք վերահսկել բոլոր):</WatchForModifsWatchedUsersCheckBox>
+  <WatchForModifsIgnoreOwnerCheckBox>Անտեսել իմ սեփական փոփոխություններ</WatchForModifsIgnoreOwnerCheckBox>
+  <WatchForModifsActionsCheckBox>Վերահսկել բոլոր գործողությունները (կամ որոշ գործողություններ ցանկից ստորեւ)</WatchForModifsActionsCheckBox>
+  <WatchForModifsNestedItemsWarning>Գրանցում Մորացել եք գաղտնաբառը Երբ եք ավելացնել մոնիտորինգի համար ընտրված թղթապանակ, բոլոր կից ֆայլերը եւ թղթապանակների, որի համար անհատական ​​դիտարկումն արդեն ավելացված ավելի վաղ, դիտարկումն կհեռացվեն: Ցանկանում եք շարունակել.</WatchForModifsNestedItemsWarning>
+
+  <WelcomeWindowHideCheckboxLabel>Չցուցադրել այս հաջորդ հատումների</WelcomeWindowHideCheckboxLabel>
+
+  <LogsGridMoreInfoColumn>Ավելի շատ տեղեկություն</LogsGridMoreInfoColumn>
+  <LogsGridDetailsTitle>Մանրամասներ</LogsGridDetailsTitle>
+  <LogsGridPhysPathColumn>Ֆիզիկական ուղին</LogsGridPhysPathColumn>
+  <LogsGridIsFolderColumn>Թղթապանակը:</LogsGridIsFolderColumn>
+  <LogsGridIsPublicColumn>Հանրային?</LogsGridIsPublicColumn>
+  <LogsGridByWebDavColumn>WebDAV.</LogsGridByWebDavColumn>
+
+  <NoCommentsYetHint>Առայժմ ոչ մի մեկնաբանություն չկա</NoCommentsYetHint>
+  <NoHistoryYetHint>Ոչ մի պատմությունը դեռ</NoHistoryYetHint>
+
+  <DetailsPropertyValuesCouldNotBeWritten>Չհաջողվեց փրկել գույքային արժեքների, Mabe ֆայլի տեսակը չի աջակցում այդ հնարավորությունը, կամ առկա է սխալ կիրառման հետ կապված ֆայլը.</DetailsPropertyValuesCouldNotBeWritten>
+
+  <AdminCommandHelp>Օգնություն</AdminCommandHelp>
+  <AdminCommandAddUser>Ավելացնել օգտվողին</AdminCommandAddUser>
+  <AdminCommandAddGroup>Ավելացնել խումբ</AdminCommandAddGroup>
+  <AdminCommandRemoveUser>հեռացնել օգտվողին</AdminCommandRemoveUser>
+
+  <AdminCommandSelectUsers>Ավելացնել օգտվողներին</AdminCommandSelectUsers>
+  <AdminCommandSelectGroups>Ավելացնել խմբեր</AdminCommandSelectGroups>
+  <AdminCommandRemoveUsers>հեռացնել օգտվողներին</AdminCommandRemoveUsers>
+  <AdminCommandRemoveGroups>հեռացնել խմբեր</AdminCommandRemoveGroups>
+  <AdminUsersGroups>Անդամ</AdminUsersGroups>
+  <AdminSearchUserEmptyText>Մուտքագրեք օգտագործողի անունը</AdminSearchUserEmptyText>
+  <AdminSearchGroupEmptyText>Մուտքագրեք խմբի անունը</AdminSearchGroupEmptyText>
+  <AdminUsersGroupAlreadyExists>A խումբ (ներ) ի հետ, այս անուն (ներ) արդեն ավելացրել է</AdminUsersGroupAlreadyExists>
+
+  <AdminApplicationLoading>Admin վահանակ Բեռնվում</AdminApplicationLoading>
+  <AdminTitle>Administration</AdminTitle>
+  <AdminUsersEditUser>Խմբագրել անձնագիրը</AdminUsersEditUser>
+  <AdminUsersSetUserPassword>Set գաղտնաբառը</AdminUsersSetUserPassword>
+  <AdminUsersViewGroups>Դիտել խմբեր</AdminUsersViewGroups>
+  <AdminUsersViewFolders>Դիտել թղթապանակներ</AdminUsersViewFolders>
+  <AdminUsersDeleteUserPrompt>Համոզված եք, որ ցանկանում եք հեռացնել օգտվող (ներ) "{0}":</AdminUsersDeleteUserPrompt>
+  <AdminUsersDeletedUsers>{0} օգտվող (ներ) ջնջված է:</AdminUsersDeletedUsers>
+  <AdminUsersUserNotFound>A օգտվողին այս անունը չի գտնվել</AdminUsersUserNotFound>
+  <AdminUsersPropertiesTitle>Օգտվողի հատկությունները</AdminUsersPropertiesTitle>
+  <AdminUsersSetPasswordTitle>Set օգտվողին գաղտնաբառը</AdminUsersSetPasswordTitle>
+  <AdminUsersGeneralInfo>Օգտվող տեղեկատվությունը</AdminUsersGeneralInfo>
+  <AdminUsersUserEmail>Փոստի</AdminUsersUserEmail>
+  <AdminUsersEmptyName>Աբոնենտի անունը չի կարող դատարկ</AdminUsersEmptyName>
+  <AdminUsersEmptyPassword>Օգտվող գաղտնաբառ չի կարող դատարկ</AdminUsersEmptyPassword>
+  <AdminUsersIncorrectName>Կան սխալ խորհրդանիշները օգտագործողի անունը</AdminUsersIncorrectName>
+  <AdminUsersAlreadyExists>Օգտվողին Այս անունը արդեն գոյություն ունի</AdminUsersAlreadyExists>
+  <AdminUsersEmailAlreadyExists>Օգտվող այս e-mail արդեն գոյություն ունի</AdminUsersEmailAlreadyExists>
+  <AdminUsersPasswordsNotMatch>Գաղտնաբառերը չեն համապատասխանում</AdminUsersPasswordsNotMatch>
+  <AdminUsersRenameWarning>Այն բանից հետո, անվանափոխության օգտվողին դա անհրաժեշտ է փոխել գաղտնաբառը, հակառակ դեպքում, ներկայիս վեբ-թղթապանակների հղում ճիշտ չի</AdminUsersRenameWarning>
+  <AdminUsersLicenseRestriction>Ձեր արտոնագիրը չի թույլ է տալիս Ձեզ ստեղծել ավելի քան {0} օգտվողների</AdminUsersLicenseRestriction>
+  <AdminUsersCountInfoWithLimit>Ընդհանուր օգտվողները: {0} դուրս {1}</AdminUsersCountInfoWithLimit>
+  <AdminUsersCountInfo>Ընդամենը օգտվողները {0}</AdminUsersCountInfo>
+
+  <AdminGroupsEditGroup>Խմբագրել խումբ</AdminGroupsEditGroup>
+  <AdminGroupsRemoveGroup>հեռացնել խումբ</AdminGroupsRemoveGroup>
+  <AdminGroupsDeleteGroupPrompt>Համոզված եք, որ ցանկանում եք հեռացնել խումբը (ներ) "{0}":</AdminGroupsDeleteGroupPrompt>
+  <AdminGroupsDeletedGroups>{0} խումբը (ներ) ջնջված է:</AdminGroupsDeletedGroups>
+  <AdminGroupsGroupNotFound>Մի խումբ այս անունը չի գտնվել</AdminGroupsGroupNotFound>
+  <AdminGroupsViewUsers>Դիտել օգտվողները</AdminGroupsViewUsers>
+  <AdminGroupsProperties>Հատկություններ</AdminGroupsProperties>
+  <AdminGroupsPropertiesTitle>խմբի հատկությունները</AdminGroupsPropertiesTitle>
+  <AdminGroupsGeneralInfo>Group տեղեկատվությունը</AdminGroupsGeneralInfo>
+  <AdminGroupsUserNamePrompt>Մուտքագրեք օգտագործողի անունը</AdminGroupsUserNamePrompt>
+  <AdminGroupsUsers>խմբի անդամները</AdminGroupsUsers>
+  <AdminGroupsUserAlreadyExists>A օգտվող (ներ) ի հետ, այս անուն (ներ) արդեն ավելացրել է</AdminGroupsUserAlreadyExists>
+  <AdminGroupsEmptyName>Խմբի անունը չի կարող դատարկ</AdminGroupsEmptyName>
+  <AdminGroupsIncorrectName>Կան սխալ խորհրդանիշներ խմբում անունով</AdminGroupsIncorrectName>
+  <AdminGroupsAlreadyExists>Մի խումբ այս անունը արդեն գոյություն ունի</AdminGroupsAlreadyExists>
+  <AdminGroupsCountInfo>Ընդամենը խմբեր: {0}</AdminGroupsCountInfo>
+
+  <AdminLanguagesTab>Տեղայնացում</AdminLanguagesTab>
+  <AdminLanguagesTabMessage>Խմբագրել տեղայնացման ֆայլ, ընտրել ցանկալի լեզուն ցուցակում, սեղմեք տեղայնացված տողերի խմբագրել: Այն բանից հետո, փոփոխություններով սեղմեք "Save" կոճակը</AdminLanguagesTabMessage>
+  <AdminLangGridKeyColumn>Key անունը</AdminLangGridKeyColumn>
+  <AdminLangGridDefaultColumn>Անգլերեն</AdminLangGridDefaultColumn>
+  <AdminEnterLanguageNameTitle>Մուտքագրեք լեզվի անունը</AdminEnterLanguageNameTitle>
+  <AdminLangConfirmRefreshTitle>Թարմացնել հաստատում</AdminLangConfirmRefreshTitle>
+  <AdminLangConfirmRefreshMessage>Գրանցում Մորացել եք գաղտնաբառը Տվյալների չէր փրկել: Ցանկանում եք խնայել փոփոխությունները:</AdminLangConfirmRefreshMessage>
+  <AdminLangAmountInfo>Լցված ստեղները: {0} {1} (դատարկ արժեքների: {2})</AdminLangAmountInfo>
+  <AdminLangSaveToCSV>Արտահանել CSV</AdminLangSaveToCSV>
+  <AdminLangLoadFromCSV>Load ից CSV</AdminLangLoadFromCSV>
+
+  <AdminDbMaintenanceTab>DB Maintenance</AdminDbMaintenanceTab>
+  <AdminDbMaintenanceInfoTitle>Info</AdminDbMaintenanceInfoTitle>
+  <AdminDbMaintenanceInfoPathLabel>DB ֆայլի ուղին</AdminDbMaintenanceInfoPathLabel>
+  <AdminDbMaintenanceInfoSizeLabel>DB ֆայլի չափ</AdminDbMaintenanceInfoSizeLabel>
+  <AdminDbMaintenanceCompactTitle>Compact Database</AdminDbMaintenanceCompactTitle>
+  <AdminDbMaintenanceCompactNote>Որպեսզի նվազեցնելու չափը տվյալների բազայի ֆայլը, խնդրում ենք սեղմել կոճակը: Անհրաժեշտ է կատարել սեղմում մասնակի պարբերաբար, քանի որ, օրինակ, հետո հեռացման որոշ պասիվ հասարակական կամ հղումներ ամյա տեղեկամատյան արձանագրում DB ֆայլի չափը չի նվազում:</AdminDbMaintenanceCompactNote>
+  <AdminDbMaintenanceCompactButton>Compact DB</AdminDbMaintenanceCompactButton>
+  <AdminDbMaintenanceCompactSuccess>DB հաջողությամբ compacted.
+Հին նիշքի չափը, {0}
+Նոր նիշքի չափը, {1}</AdminDbMaintenanceCompactSuccess>
+  <AdminDbMaintenanceCompactAutoNote>Դուք նաեւ կարող եք միացնել ավտոմատ սեղմման բազայում հեռացնելուց հետո գրառումների գործողությունների, սակայն, խորհուրդ չի տրվում, քանի որ այն գուցե ավելի հաճախակի փական բազայի եւ դա կարող է մեծացնել տեւողությունը որոշ խնդրանքների: Գրանցում Մորացել եք գաղտնաբառը Հետո փոխելով այս հայտի կվերսկսվի!</AdminDbMaintenanceCompactAutoNote>
+  <AdminDbMaintenanceCompactAutoCheckBox>Միացնել / անջատել մեքենան կոմպակտ DB</AdminDbMaintenanceCompactAutoCheckBox>
+  <AdminDbMaintenanceCompactAutoSaveButton>Պահպանել</AdminDbMaintenanceCompactAutoSaveButton>
+  <AdminDbMaintenanceCompactAutoSaveSuccess>Փոփոխությունը, որ DB ավտոմատ сompression արդեն ավարտվել է հաջողությամբ. Էջը, կթարմացվի շուտով:</AdminDbMaintenanceCompactAutoSaveSuccess>
+  <AdminDbMaintenanceEnableLogLabel>Ընտրել DB հարցումները անտառահատումները մակարդակը (հաշվի տվյալների / debug.log)</AdminDbMaintenanceEnableLogLabel>
+  <AdminDbMaintenanceSettingsSaveSuccess>DB կարգավորումները փրկել հաջողությամբ. Էջը լինելու reloaded</AdminDbMaintenanceSettingsSaveSuccess>
+  <AdminDbMaintenanceSettingsChangeNote>Գրանցում Մորացել եք գաղտնաբառը Այն բանից հետո, խնայելով այն պարամետրերը հայտը կարող է վերսկսվել շուտով!</AdminDbMaintenanceSettingsChangeNote>
+  <AdminDbMaintenanceInsertIntervalLabel>Ինտերվալը (րոպեներով), ավելացնելով իրադարձությունները DB. Եթե ​​դուք նշեք 0, ներդրման կհայտնվի անմիջապես իրադարձություններից հետո:</AdminDbMaintenanceInsertIntervalLabel>
+  <AdminDbMaintenanceAdvDbParamsTitle>Ընդլայնված DB կապի պարամետրերի</AdminDbMaintenanceAdvDbParamsTitle>
+  <AdminDbMaintenanceStatTitle>Վիճակագրությունը (կախված DB տեղեկամատյան մակարդակի DurationExecution)</AdminDbMaintenanceStatTitle>
+  <AdminDbMaintenanceStatDurationReadLabel>Avg ընթերցում timeout</AdminDbMaintenanceStatDurationReadLabel>
+  <AdminDbMaintenanceStatDurationWriteLabel>Avg գրելու timeout</AdminDbMaintenanceStatDurationWriteLabel>
+  <AdminDbMaintenanceStatDurationCompactLabel>Avg կոմպակտ timeout</AdminDbMaintenanceStatDurationCompactLabel>
+  <AdminDbMaintenanceStatNoData>ոչ տվյալները</AdminDbMaintenanceStatNoData>
+  <AdminDbMaintenanceStatGetButton>Հավաքեք վիճակագրություն</AdminDbMaintenanceStatGetButton>
+
+  <AdminMiscTab>misc</AdminMiscTab>
+  <AdminMiscLoadADAccountsTitle>Բեռնել Active Directory հաշիվները</AdminMiscLoadADAccountsTitle>
+  <AdminMiscLoadADAccountsLoadButton>բեռնել</AdminMiscLoadADAccountsLoadButton>
+  <AdminMiscLoadADAccountsResetButton>տեղավորել</AdminMiscLoadADAccountsResetButton>
+  <AdminMiscLoadADAccountsLdap>LDAP կոնտեյներ</AdminMiscLoadADAccountsLdap>
+  <AdminMiscLoadADAccountsToFile>To ֆայլի</AdminMiscLoadADAccountsToFile>
+  <AdminMiscLoadADAccountsSuccessMessage>Active Directory հաշիվներ հաջողությամբ բեռնված</AdminMiscLoadADAccountsSuccessMessage>
+  <AdminMiscLoadADAccountsInfo>Այստեղ դուք կարող եք առաջացնում է ֆայլը, որը պարունակում է ամբողջ օգտագործողներին Active Directory կառուցվածքը: Այս ֆայլը անհրաժեշտ է, եթե դուք օգտագործեք ստատիկ ֆայլի AD տվյալները պահեստավորման. Նույնը ֆայլը կարող է գեներացվել միջոցով ADManager կոմունալ. For more info տես &lt;b&gt; ADAccountsFilePath &lt;/b&gt; պարամետր նկարագրությունը {0} Ձեռնարկ {1}:</AdminMiscLoadADAccountsInfo>
+
+  <AdminMiscManageQuotasTitle>Կառավարեք քվոտաներ</AdminMiscManageQuotasTitle>
+  <AdminMiscManageQuotasInfo>Հարցում առկա կամ ստեղծել նոր քվոտան սահմանափակելու տարածք թույլատրված է մի թղթապանակ, սնուցվում File Server Resource Manager:</AdminMiscManageQuotasInfo>
+  <AdminMiscManageQuotasFolderPath>Թղթապանակ ուղին</AdminMiscManageQuotasFolderPath>
+  <AdminMiscManageQuotasQuota>քվոտա</AdminMiscManageQuotasQuota>
+  <AdminMiscManageQuotasGetQuota>Ստացեք քվոտան</AdminMiscManageQuotasGetQuota>
+  <AdminMiscManageQuotasSetQuota>Set քվոտան</AdminMiscManageQuotasSetQuota>
+
+  <AdminMiscFoldersFromGPOLTitle>Load թղթապանակներ ից Group Policy</AdminMiscFoldersFromGPOLTitle>
+  <AdminMiscFoldersFromGPOLComputerName>Computer անունը</AdminMiscFoldersFromGPOLComputerName>
+  <AdminMiscFoldersFromGPOLFilePath>ֆայլի</AdminMiscFoldersFromGPOLFilePath>
+  <AdminMiscFoldersFromGPOLMoreInfoLink>Ավելի շատ տեղեկություն</AdminMiscFoldersFromGPOLMoreInfoLink>
+  <AdminMiscFoldersFromGPOLResetButton>տեղավորել</AdminMiscFoldersFromGPOLResetButton>
+  <AdminMiscFoldersFromGPOLLoadButton>բեռնել</AdminMiscFoldersFromGPOLLoadButton>
+  <AdminMiscFoldersFromGPOLFromDC>From Վաշինգտոնում</AdminMiscFoldersFromGPOLFromDC>
+  <AdminMiscFoldersFromGPOLFromFile>From ֆայլ</AdminMiscFoldersFromGPOLFromFile>
+  <AdminMiscFoldersTargetLabel>Ներմուծել օգտվողների / groups պայմաններ ...</AdminMiscFoldersTargetLabel>
+  <AdminMiscFoldersTargetFilter>ֆիլտր</AdminMiscFoldersTargetFilter>
+  <AdminMiscFoldersTargetPermission>թույլատրություն</AdminMiscFoldersTargetPermission>
+  <AdminMiscFoldersFromGPOLSuccessMessage>Թղթապանակներ հաջողությամբ բեռնված. &lt;br /&gt; Նոր: {0}, թարմացվել է {1}:</AdminMiscFoldersFromGPOLSuccessMessage>
+  <AdminMiscFoldersFromGPOLInfo>Դուք կարող եք բեռնել (կամ թարմացնել) թղթապանակը ցուցակը խմբից Policy Drive քարտեզագրում պարամետրերը դոմեյն վերահսկիչ: Ի դաշտում ստորեւ դուք կարող եք մուտքագրել համակարգչային անունը, որից Group Policy կարգավորումները կլինի բեռնված (կամ, եթե ձախ դատարկ, ապա ներկայիս տիրույթը կօգտագործվի), կամ ուղին ֆայլ mapped կրիչներ պարամետրերը:</AdminMiscFoldersFromGPOLInfo>
+
+  <AdminAnonymFoldersTab>անանուն թղթապանակներ</AdminAnonymFoldersTab>
+  <AdminAnonymFoldersDeleteFolderPrompt>Համոզված եք, որ ցանկանում եք հեռացնել {0} ընտրված անանուն թղթապանակների.</AdminAnonymFoldersDeleteFolderPrompt>
+  
+  <AdminAnonymFoldersDescription>Կիսված թղթապանակներ / ֆայլեր - սրանք թղթապանակների / ֆայլերը, որոնք չեն պահանջում օգտվողին նույնականացման *, դա նշանակում է, որ նրանք հասանելի են բոլոր այցելուների * (եթե նրանք ունեն մի հղում): Բոլոր օգտվողները կարող են ստեղծել այնպիսի թղթապանակներ / ֆայլեր են մենյուն »Share &amp;rarr; Ստեղծել հանրային հղում»: Սակայն, ընդհանուր թղթապանակներ կարող են ունենալ սահմանափակ թույլտվություններ: վերբեռնելու համար, բեռնել, ֆայլեր / Թղթապանակներ ցուցակը: Ստորեւ ներկայացված է աղյուսակը հղումներ ընդհանուր թղթապանակների / ֆայլեր կողմից ստեղծված օգտվողների. Որպեսզի աշխատանքի հասարակական հղումներ ցուցադրել ճիշտ է վստահ լինել, որ Handlers \ Anonymousdownload.ashx թույլ է տալիս անանուն մուտք գործել IIS: Դուք կարող եք ստուգել սա է &lt;a target="_blank" href="{0}"&gt; ախտորոշման &lt;/a&gt; էջում: Համոզվեք, որ անանուն հաշիվը նշանակվում է handlers \ Anonymousdownload.ashx ունի NTFS ընթերցանության / գրելու թույլտվություններ համատեղ թղթապանակների / ֆայլերը. &lt;br /&gt; * &amp;nbsp; &amp;mdash; &amp;nbsp; եթե դուք չեք նշել օգտվողներին, որի համար միայն թույլատրվում մուտք.</AdminAnonymFoldersDescription>
+  <AdminAnonymFoldersLinkOwnerColumn>սեփականատեր</AdminAnonymFoldersLinkOwnerColumn>
+  <AdminAnonymFoldersEmailsColumn>Emails ծանուցելու</AdminAnonymFoldersEmailsColumn>
+  <AdminAnonymFoldersAccessForUsersColumn>Access օգտվողների համար</AdminAnonymFoldersAccessForUsersColumn>
+  <AdminAnonymFoldersPersonalMessageColumn>Անձնական հաղորդագրություն</AdminAnonymFoldersPersonalMessageColumn>
+  <AdminAnonymFoldersOverwriteOnUploadHint> (Վերագրանցել: {0})</AdminAnonymFoldersOverwriteOnUploadHint>
+  <AdminAnonymFoldersRootPathColumn>Root ուղին</AdminAnonymFoldersRootPathColumn>
+  <AdminAnonymFoldersKeysColumn>Keys</AdminAnonymFoldersKeysColumn>
+  <AdminAnonymFoldersShortColumn>Կարճ հղում</AdminAnonymFoldersShortColumn>
+  <AdminAnonymFoldersPropertiesTitle>Անանուն թղթապանակ հատկությունները</AdminAnonymFoldersPropertiesTitle>
+  <AdminAnonymFoldersAdditionalInfo>Լրացուցիչ տեղեկություն</AdminAnonymFoldersAdditionalInfo>
+  <AdminAnonymFoldersLinkLabel>ՈՒղեցույց մուտք գործելու համար</AdminAnonymFoldersLinkLabel>
+  <AdminAnonymFoldersPathNotSpecified>Ֆիզիկական ուղին չի սահմանել</AdminAnonymFoldersPathNotSpecified>
+  <AdminAnonymFoldersCreatedForColumn>նպատակ</AdminAnonymFoldersCreatedForColumn>
+
+  <AdminFoldersTab>Թղթապանակներ</AdminFoldersTab>
+  <AdminFoldersAddFolder>Ավելացնել թղթապանակ</AdminFoldersAddFolder>
+  <AdminFoldersEditFolder>Խմբագրել թղթապանակը</AdminFoldersEditFolder>
+  <AdminFoldersRemoveFolder>հեռացնել թղթապանակը</AdminFoldersRemoveFolder>
+  <AdminFoldersDeleteFolderPrompt>Համոզված եք, որ ցանկանում եք հեռացնել թղթապանակը "{0}":</AdminFoldersDeleteFolderPrompt>
+  <AdminFoldersFolderNotFound>A թղթապանակը այս անունը չի գտնվել</AdminFoldersFolderNotFound>
+  <AdminFoldersPropertiesTitle>Թղթապանակ հատկությունները</AdminFoldersPropertiesTitle>
+  <AdminFoldersGeneralInfo>Ընդհանուր տեղեկություն</AdminFoldersGeneralInfo>
+  <AdminFoldersFolderRemoteWarningForms>Նշում! Այս թղթապանակը հեռակա կիսում: Ստուգեք {0} ՀՏՀ Ինչպես կիսել հեռավոր թղթապանակներ {1}</AdminFoldersFolderRemoteWarningForms>
+  <AdminFoldersFolderRemoteWarningWin>Նշում! Այս թղթապանակը հեռակա կիսում: Դուք կարող եք թաքցնել որոշ թղթապանակներ / ֆայլեր, եթե օգտվողները չեն իրավունքներ կարդալ դրանք: Տես {0} ՀՏՀ Ինչպես թաքցնել ֆայլերի / թղթապանակներ, որ օգտագործողը չունի իրավունքներ կարդալ {1}</AdminFoldersFolderRemoteWarningWin>
+  <AdminFoldersFolderPath>Ֆիզիկական ուղին</AdminFoldersFolderPath>
+  <AdminFoldersLocationPath>Որտեղից</AdminFoldersLocationPath>
+  <AdminFoldersFolderCreate>Ստեղծել թղթապանակ</AdminFoldersFolderCreate>
+  <AdminFoldersFolderCreateProcess>Ստեղծվում թղթապանակը</AdminFoldersFolderCreateProcess>
+  <AdminFoldersFolderCreateContainsPattern>Թղթապանակը չի կարող ստեղծվել, քանի որ այն պարունակում է մի օրինաչափություն</AdminFoldersFolderCreateContainsPattern>
+  <AdminFoldersFolderCreateSuccessfully>Թղթապանակը "{0}" հաջողությամբ ստեղծվել:</AdminFoldersFolderCreateSuccessfully>
+  <AdminFoldersFolderOptional> (Ըստ ցանկության)</AdminFoldersFolderOptional>
+  <AdminFoldersFolderLimitations>սահմանափակումները</AdminFoldersFolderLimitations>
+  <AdminFoldersFolderDescription>նկարագրություն</AdminFoldersFolderDescription>
+  <AdminFoldersFolderQuota>քվոտա</AdminFoldersFolderQuota>
+  <AdminFoldersFolderQuotaHint>Հարցում առկա կամ ստեղծել նոր քվոտան սահմանափակելու տարածք թույլատրված է մի թղթապանակ, սնուցվում File Server Resource Manager:</AdminFoldersFolderQuotaHint>
+  <AdminFoldersFolderQuotaMoreInfoLink>Ավելի շատ տեղեկություն</AdminFoldersFolderQuotaMoreInfoLink>
+  <AdminFoldersPermissions>թույլտվությունները</AdminFoldersPermissions>
+  <AdminFoldersPermissionsFor>Թույլտվություններ {0}</AdminFoldersPermissionsFor>
+  <AdminFoldersUsersGroups>Users եւ խմբեր</AdminFoldersUsersGroups>
+  <AdminFoldersAccessControl>Մուտքի հսկման</AdminFoldersAccessControl>
+  <AdminFoldersCreate>ստեղծել</AdminFoldersCreate>
+  <AdminFoldersDelete>ջնջել</AdminFoldersDelete>
+  <AdminFoldersRename>վերանվանել</AdminFoldersRename>
+  <AdminFoldersUpload>վերբեռնում</AdminFoldersUpload>
+  <AdminFoldersDownload>Բեռնել</AdminFoldersDownload>
+  <AdminFoldersZipDownload>Zip եւ բեռնել</AdminFoldersZipDownload>
+  <AdminFoldersZip>Zip</AdminFoldersZip>
+  <AdminFoldersUnzip>արձակել Zip</AdminFoldersUnzip>
+  <AdminFoldersCut>Կտրել</AdminFoldersCut>
+  <AdminFoldersCopy>պատճեն</AdminFoldersCopy>
+  <AdminFoldersListFiles>Ցույց տալ ֆայլեր</AdminFoldersListFiles>
+  <AdminFoldersListFolders>Ցույց տալ թղթապանակներ</AdminFoldersListFolders>
+  <AdminFoldersModify>փոփոխել</AdminFoldersModify>
+  <AdminFoldersBulkMailing>Ծավալային փոստային</AdminFoldersBulkMailing>
+  <AdminFoldersAnonymViewContent>Ֆայլերի ցանկ միջոցով հասարակական հղման</AdminFoldersAnonymViewContent>
+  <AdminFoldersAnonymDownload>Բեռնել միջոցով հանրային հղման</AdminFoldersAnonymDownload>
+  <AdminFoldersAnonymUpload>Վերբեռնել միջոցով հասարակական հղման</AdminFoldersAnonymUpload>
+  <AdminFoldersWatch>Watch</AdminFoldersWatch>
+  <AdminFoldersDescription>Դուք կարող եք ավելացնել թղթապանակների ձեռքով կամ փոխանակելու առկա թղթապանակներ, եթե դուք օգտագործում եք կրիչներ խմբի քաղաքականությունների. Լրացուցիչ տեղեկությունների համար ծանոթացեք {0} Օգնություն {1}:</AdminFoldersDescription>
+
+  <AdminFoldersPermissionsForRegex>Դուք կարող եք նաեւ օգտագործել կանոնավոր արտահայտություն. Խնդրում ենք մուտք գործել &lt;b&gt; {0} &lt;/b&gt; սկզբին վերեւի դաշտում եւ ապա հերթական արտահայտությունը, օրինակ:</AdminFoldersPermissionsForRegex>
+  <AdminFoldersPermissionsForRegexUsers>{0} (հասանելիություն ապահովել ցանկացած մասին) &lt;br /&gt; {1} (սա հերթական արտահայտությունը նշանակում է, որ երկու օգտվողները: jdoe եւ Մայք)</AdminFoldersPermissionsForRegexUsers>
+  <AdminFoldersPermissionsForRegexGroups>{0} (հասանելիություն ապահովել ցանկացած խմբի) &lt;br /&gt; {1} (սա հերթական արտահայտությունը նշանակում է բոլոր այն խմբերին, ինչպես «ուսանողությանը» իրենց անունների)</AdminFoldersPermissionsForRegexGroups>
+
+  <AdminFoldersListRestrictions>Սահմանափակումները ցուցադրվում</AdminFoldersListRestrictions>
+  <AdminFoldersCreateRestrictions>Սահմանափակումները ֆայլի ստեղծման</AdminFoldersCreateRestrictions>
+  <AdminFoldersRestrictionAllow>թույլ տալ</AdminFoldersRestrictionAllow>
+  <AdminFoldersRestrictionDeny>ժխտել</AdminFoldersRestrictionDeny>
+  <AdminFoldersRestrictionExtensions>Extensions</AdminFoldersRestrictionExtensions>
+  <AdminFoldersUserNamePrompt>Մուտքագրեք օգտագործողի անունը</AdminFoldersUserNamePrompt>
+  <AdminFoldersUserNameEmptyText>Ընտրել օգտվողի անունը</AdminFoldersUserNameEmptyText>
+  <AdminFoldersUserNameNotSelected>Դուք պետք է ընտրեք օգտվողին անուն</AdminFoldersUserNameNotSelected>
+  <AdminFoldersUserAlreadyExists>Այս օգտվողը արդեն նշանակվել է թղթապանակում</AdminFoldersUserAlreadyExists>
+  <AdminFoldersGroupNamePrompt>Մուտքագրեք խմբի անունը</AdminFoldersGroupNamePrompt>
+  <AdminFoldersGroupNameEmptyText>Ընտրել խումբ անունը</AdminFoldersGroupNameEmptyText>
+  <AdminFoldersGroupNameNotSelected>Դուք պետք է ընտրեք խմբի անունը</AdminFoldersGroupNameNotSelected>
+  <AdminFoldersGroupAlreadyExists>Այս խումբը արդեն նշանակվել է թղթապանակում</AdminFoldersGroupAlreadyExists>
+  <AdminFoldersEmptyName>Թղթապանակ անունը չի կարող դատարկ</AdminFoldersEmptyName>
+  <AdminFoldersEmptyPath>Թղթապանակ ուղին չի կարող դատարկ</AdminFoldersEmptyPath>
+  <AdminFoldersIncorrectName>Կան սխալ խորհրդանիշներ են թղթապանակի անունը</AdminFoldersIncorrectName>
+  <AdminFoldersAlreadyExists>A թղթապանակը այս անվանումը, գտնվելու վայրը, արդեն գոյություն ունի</AdminFoldersAlreadyExists>
+  <AdminFoldersSharesButton>առկա բաժնետոմսերի</AdminFoldersSharesButton>
+  <AdminFoldersTestAccessButton>test մուտք</AdminFoldersTestAccessButton>
+  <AdminFoldersTestIndexingButton>test indexing</AdminFoldersTestIndexingButton>
+  <AdminFoldersShareNameTitle>առկա բաժնետոմսերի</AdminFoldersShareNameTitle>
+  <AdminFoldersShareNameEmptyText>Ընտրել բաժինը</AdminFoldersShareNameEmptyText>
+  <AdminFoldersShareNameNotSelected>Դուք պետք է ընտրեք բաժինը</AdminFoldersShareNameNotSelected>
+  <AdminFoldersGetQuotaButton>Ստացեք քվոտան</AdminFoldersGetQuotaButton>
+  <AdminFoldersSetQuotaButton>Set քվոտան</AdminFoldersSetQuotaButton>
+  <AdminCommonFilterField>ֆիլտր</AdminCommonFilterField>
+  <AdminCommonValidateField>վավերացնել</AdminCommonValidateField>
+  <AdminFoldersRootNameUsed>Խնդրում ենք օգտագործել մեկ այլ անուն է թղթապանակում փոխարեն "{0}"</AdminFoldersRootNameUsed>
+  <AdminFoldersFolderFilterSuccess>Վավերացնել զտիչ տեղի ունեցավ հաջողությամբ</AdminFoldersFolderFilterSuccess>
+
+  <AdminTestAccessGoodResult>Թղթապանակը "{0}» գոյություն ունի, եւ կարելի է կարդալ:</AdminTestAccessGoodResult>
+  <AdminTestAccessBadResult>Թղթապանակը "{0}" գոյություն չունի, կամ չկան NTFS կարդալ թույլտվությունները կամ չկա ցանցային մուտք է հայտի ինքնության!</AdminTestAccessBadResult>
+  <AdminTestAccessErrorResult>Սխալ իսկ ստուգելու հասանելիություն folder "{0}": {1}</AdminTestAccessErrorResult>
+  <AdminTestIndexingErrorResult>Սխալ իսկ ստուգում ինդեքսավորման համար թղթապանակ "{0}":
+{1}</AdminTestIndexingErrorResult>
+  <AdminTestIndexingYesResult>Դիրեկտորիան "{0}" ինդեքսավորվում</AdminTestIndexingYesResult>
+  <AdminTestIndexingNoResult>Դիրեկտորիան "{0}» չի ինդեքսավորվում</AdminTestIndexingNoResult>
+  <AdminTestIndexingUnknownResult>Անհնար է որոշելու, եթե ցուցակում "{0}» ինդեքսավորվում.</AdminTestIndexingUnknownResult>
+  <AdminTestIndexingAddIfNotIndexed>Ցանկանում եք ավելացնել այս թղթապանակը եւ ինդեքսավորման, եթե դա եղել է ինդեքսավորվում դեռ?</AdminTestIndexingAddIfNotIndexed>
+  <ProgressTestAccess>Ստուգում հասանելիության</ProgressTestAccess>
+  <ProgressTestIndexing>Ստուգում indexing</ProgressTestIndexing>
+  <AdminHowToIndexingLocationLink>Որպեսզի ցուցանիշը մի թղթապանակ, վերաբերում է Կօգնեն {0}</AdminHowToIndexingLocationLink>
+
+  <AdminUsersListAll>Բոլոր օգտատերերը</AdminUsersListAll>
+  <AdminUsersListDACL>Users ից ACL</AdminUsersListDACL>
+  <AdminGroupsListAll>Բոլոր խմբերը</AdminGroupsListAll>
+  <AdminGroupsListDACL>Խմբերը ACL</AdminGroupsListDACL>
+  <AdminDACLStringLabel>ACL թույլտվությունները</AdminDACLStringLabel>
+
+  <AdminCommonCustomField>Custom դաշտը</AdminCommonCustomField>
+  <AdminCommonSettingsChangeWarning>Փոփոխությունները ուժի մեջ կմտնեն այն բանից հետո, վերընտրվելու համենալ (կամ կիրառումից հետո վերսկսելու համար WebDAV մուտք):</AdminCommonSettingsChangeWarning>
+
+  <AdminCommonAllowedFoldersPathsTitle>Թույլատրվում թղթապանակը ուղիներ</AdminCommonAllowedFoldersPathsTitle>
+  <AdminCommonNotAllowedFolderPath>Դուք կարող եք ստեղծել մուտք գործել միայն այդ թղթապանակների կամ նրա subfolders: {0}</AdminCommonNotAllowedFolderPath>
+
+  <AdminLogsTab>log</AdminLogsTab>
+
+  <AdminSettingsTab>Կառավարում</AdminSettingsTab>
+
+  <AdminLogsErrorsTab>Մուտք սխալներ</AdminLogsErrorsTab>
+  <AdminLogsErrorsClearBtn>պարզ</AdminLogsErrorsClearBtn>
+  <AdminLogsErrorsClearUsersCountExceededBtn>Մաքրել գրառումները սխալներով օգտվողների գերազանցող քանակի սահմանը</AdminLogsErrorsClearUsersCountExceededBtn>
+
+  <AdminFoldersCreateHint>Թույլատրել / արգելել գործողություններ մենյու "Նոր": նոր ֆայլ, նոր թղթապանակ, նոր կերպար, նոր փաստաթուղթ ֆայլեր.</AdminFoldersCreateHint>
+  <AdminFoldersDeleteHint>Թույլատրել / արգելել վերացվում է առկա ֆայլերը եւ թղթապանակների</AdminFoldersDeleteHint>
+  <AdminFoldersRenameHint>Թույլատրել / արգելել անվանափոխության առկա ֆայլերը եւ թղթապանակների</AdminFoldersRenameHint>
+  <AdminFoldersUploadHint>Թույլատրել / արգելել բեռնում ֆայլեր ցուցադրել (Վերբեռնել կոճակը Գործիքադարակի)</AdminFoldersUploadHint>
+  <AdminFoldersDownloadHint>Թույլատրել / արգելել "Բեռնել", "Դիտել / խմբագրել", բեռնել է ամպի պահեստային, եւ այլն գործողությունները</AdminFoldersDownloadHint>
+  <AdminFoldersZipDownloadHint>Թույլատրել / Մերժել »ճզմել եւ ներբեռնել" ակցիան</AdminFoldersZipDownloadHint>
+  <AdminFoldersZipHint>Թույլատրել / արգելել «ճզմել է zip արխիվում» ակցիան</AdminFoldersZipHint>
+  <AdminFoldersUnzipHint>Թույլատրել / արգելել "Բացել է ընթացիկ թղթապանակ», «Քաղվածք մի նոր թղթապանակ» եւ «Zip բովանդակությունը» գործողությունները</AdminFoldersUnzipHint>
+  <AdminFoldersCutHint>Թույլատրել / արգելել կտրել գոյություն ունեցող ֆայլերը եւ թղթապանակների գործողություն</AdminFoldersCutHint>
+  <AdminFoldersCopyHint>Թույլատրել / արգելել պատճենը առկա ֆայլերը եւ թղթապանակների գործողություն</AdminFoldersCopyHint>
+  <AdminFoldersListFilesHint>Թույլատրել / արգելել ցուցակման ֆայլերի</AdminFoldersListFilesHint>
+  <AdminFoldersListFoldersHint>Թույլատրել / արգելել կատեգորիայում թղթապանակների</AdminFoldersListFoldersHint>
+  <AdminFoldersModifyHint>Թույլատրել / արգելել փոփոխել ֆայլեր (բոլոր գործողությունները, որոնք կարող եք փոփոխել առկա ֆայլի պարունակությունը)</AdminFoldersModifyHint>
+  <AdminFoldersBulkMailingHint>Թույլատրել / արգելել զանգված փոստային խմբերի համար</AdminFoldersBulkMailingHint>
+  <AdminFoldersAnonymViewContentHint>Թույլատրել / արգելել ֆայլեր ցուցակը անանուն (միջոցով հանրային հղումներ)</AdminFoldersAnonymViewContentHint>
+  <AdminFoldersAnonymDownloadHint>Թույլատրել / արգելել ֆայլերը ներբեռնել անանուն օգտվողների (միջոցով հրապարակային հղումներ)</AdminFoldersAnonymDownloadHint>
+  <AdminFoldersAnonymUploadHint>Թույլատրել / արգելել ֆայլերի վերբեռնել անանուն օգտվողների համար (միջոցով հրապարակային հղումներ)</AdminFoldersAnonymUploadHint>
+  <AdminFoldersWatchHint>Թույլատրել / արգելել օգտվողներին մոնիտորինգի փոփոխությունները թղթապանակում արված այլ օգտվողների (այն կիրառվում է միայն այն դեպքում, եթե UI / AllowUsersmonitorModifications = ճիշտ է)</AdminFoldersWatchHint>
+  <AdminFoldersListRestrictionsHint>Այս տարբերակը վերահսկում ֆայլի ցուցակման. Սեղմեք «հերքել» ռադիո կոճակը թաքցնել ֆայլերի հետ, նշված ընդարձակման: Տեղադրեք արգելվում ընդարձակման դրանք իրարից է ստորակետ (օրինակ, «EXE, BAT, COM»): Սահմանել «Թույլատրել« Ռադիո կոճակը եւ տեղադրեք ընդարձակման ֆայլերի, որոնք կցուցադրվեն (օրինակ, «DOC, PDF, JPG»):</AdminFoldersListRestrictionsHint>
+  <AdminFoldersCreateRestrictionsHint>Այս ֆունկցիան նման է «ցուցակ սահմանափակումները», բայց դա վերահսկում ֆայլեր վերբեռնել, zip արդյունահանման, ստեղծելով նոր ֆայլեր. Դուք կարող արգելել կամ թույլ է տալիս վերբեռնումը նշված ֆայլեր.</AdminFoldersCreateRestrictionsHint>
+  <AdminFoldersGeneralInfoHint>Մուտքագրեք առկա պահոցը ուղին եւ alias. Սեղմեք Օգնություն սեղմեք ներքեւում գտնվող կոճակը, մանրամասն տեղեկությունների համար.</AdminFoldersGeneralInfoHint>
+  <AdminFoldersUsersGroupsHint>Նշեք կամ մուտքագրեք Users եւ խմբերի կիսել թղթապանակ նրանց համար: Սեղմեք Օգնություն սեղմեք ներքեւում գտնվող կոճակը, մանրամասն տեղեկությունների համար.</AdminFoldersUsersGroupsHint>
+
+  <AdminUserFoldersButtonTitle>Test բաժնետոմսերը ցուցակը</AdminUserFoldersButtonTitle>
+  <AdminUserFoldersWindowTitle>Օգտվողի թղթապանակներ</AdminUserFoldersWindowTitle>
+  <AdminUserFoldersLabel>Թղթապանակ ցուցակում մասին '{0}':</AdminUserFoldersLabel>
+  
+  <AdminPermissionsTab>Admin թույլտվությունները</AdminPermissionsTab>
+  <AdminPermissionsPrivilege>արտոնություն</AdminPermissionsPrivilege>
+  <AdminPermissionsEditButton>Խմբագրել արտոնությունը</AdminPermissionsEditButton>
+  <AdminPermissionsModifySettingsTitle>փոփոխել կարգավորումները</AdminPermissionsModifySettingsTitle>
+  <AdminPermissionsModifyFoldersTitle>փոփոխել թղթապանակներ</AdminPermissionsModifyFoldersTitle>
+  <AdminPermissionsModifyAnonymFoldersTitle>Փոփոխել հրապարակային թղթապանակների</AdminPermissionsModifyAnonymFoldersTitle>
+  <AdminPermissionsModifyAccountsTitle>փոփոխել հաշիվներ</AdminPermissionsModifyAccountsTitle>
+  <AdminPermissionsViewDiagnosticsTitle>Մտնել «ախտորոշում» էջ</AdminPermissionsViewDiagnosticsTitle>
+  <AdminPermissionsViewLogTitle>Դիտել տեղեկամատյան</AdminPermissionsViewLogTitle>
+  <AdminPermissionsViewErrorsLogTitle>Դիտել սխալներ log</AdminPermissionsViewErrorsLogTitle>
+  <AdminPermissionsModifyLocalizationsTitle>փոփոխել տեղայնացված</AdminPermissionsModifyLocalizationsTitle>
+  <AdminPermissionsFolderPathTitle>Թղթապանակ ուղին</AdminPermissionsFolderPathTitle>
+  <AdminPermissionsFoldersTitle>Admin թղթապանակներ</AdminPermissionsFoldersTitle>
+  <AdminPermissionsPrivilegeHint>Սահմանել օգտվողները / groups, որի համար «{0}" արտոնությունը չի թույլատրվում</AdminPermissionsPrivilegeHint>
+  <AdminPermissionsFolderTitle>Admin թղթապանակը հատկությունները</AdminPermissionsFolderTitle>
+  <AdminPermissionsFolderFieldTitle>Թղթապանակ ուղին</AdminPermissionsFolderFieldTitle>
+  <AdminPermissionsFolderHint>Տեղեկատվություն admin թղթապանակների</AdminPermissionsFolderHint>
+  <AdminPermissionsFolderEmptyAccounts>Նշեք օգտվողներին եւ / կամ խմբեր</AdminPermissionsFolderEmptyAccounts>
+  <AdminPermissionsFolderAlreadyExists>Թղթապանակ Այս վայրը արդեն գոյություն ունի</AdminPermissionsFolderAlreadyExists>
+  <AdminPermissionsFolderNotFound>Թղթապանակ այս վայրում չի գտնվել</AdminPermissionsFolderNotFound>
+  <AdminPermissionsAllowedFoldersMessage>Դուք կարող եք ստեղծել / թարմացում / կառավարել մուտք գործել միայն այդ թղթապանակների կամ նրա subfolders: {0}</AdminPermissionsAllowedFoldersMessage>
+
+  <AdminUsersCountExceededWarn>Առավելագույն քանակի օգտվողների թիվը գերազանցել: Ձեր ընթացիկ լիցենզիան թույլ է տալիս ոչ միայն {0} օգտագործողների համար գրանցվեք: For more info բացել «{1}» պիտակը եւ գտնել «{2}» բացառություն (ներ): Է թաքցնել Այս ծանուցումը հստակ log գրառումները "{1}» պիտակը.</AdminUsersCountExceededWarn>
+
+  <AdminNewVersionAvailableTitle>Նոր տարբերակը հասանելի է!</AdminNewVersionAvailableTitle>
+  <AdminNewVersionAvailableInfo>Միջին տարբերակ: {0} &lt;br /&gt; է նոր տարբերակը: {1}</AdminNewVersionAvailableInfo>
+  
+  <SettingsGridDescriptionInfo>նկարագրություն</SettingsGridDescriptionInfo>
+  <SettingsGridFormatInfo>value ձեւաչափը</SettingsGridFormatInfo>
+  <SettingsGridDefaultValueInfo>Default արժեքը</SettingsGridDefaultValueInfo>
+  <SettingsGridMoreInfo>Ավելի շատ տեղեկություն</SettingsGridMoreInfo>
+  <SettingsGridRestoreDefault>Վերականգնել default</SettingsGridRestoreDefault>
+
+  <SettingsFormatBoolean>Բուլյան արժեքը</SettingsFormatBoolean>
+  <SettingsFormatWholeNumber>Ամբողջ թիվ</SettingsFormatWholeNumber>
+  <SettingsFormatRealNumber>իրական թիվը</SettingsFormatRealNumber>
+  <SettingsFormatString>String</SettingsFormatString>
+  <SettingsFormatEnum>Ցանկացած արժեքը</SettingsFormatEnum>
+  <SettingsFormatSet>Ստորակետով անջատված ցուցակը `առանց կրկնողություններից արժեքների</SettingsFormatSet>
+  <SettingsFormatArray>Ստորակետով առանձնացված ցանկը տողերի</SettingsFormatArray>
+  <SettingsFormatToolbarButtons>, (Value "{0}" կարող է կրկնվել մի քանի անգամ, բայց ոչ անընդմեջ: Հետո ամեն անունով, որին հաջորդում է մի կետ, որ դա հնարավոր է ճշտել մեկը օգտագործվող մեթոդներին դրսեւորել կոճակը: {1})</SettingsFormatToolbarButtons>
+
+  <AdminSettingsSave>Save կարգավորումները</AdminSettingsSave>
+  <AdminToggleHiddenParams>{0} առաջադեմ պարամետրերը</AdminToggleHiddenParams>
+  <AdminHintHiddenParams>Լրացուցիչ պարամետրեր նախատեսված են միայն ավելի հատիկավոր պարամետրերը եւ շատ դեպքերում են հազվադեպ անհրաժեշտ</AdminHintHiddenParams>
+  <AdminShowHiddenParams>Ցուցադրում</AdminShowHiddenParams>
+  <AdminHideHiddenParams>թաքցնել</AdminHideHiddenParams>
+
+  <SettingsDenyAuthModeChange>Ավտոմատ իսկությունը ստուգելու ռեժիմ փոփոխումից չի ապահովվում: Տես {0} հրահանգների մասին, փոխելու իսկությունը ռեժիմում.</SettingsDenyAuthModeChange>
+  <SettingsApplicationRestartedMsg>Դիմում վերսկսվել</SettingsApplicationRestartedMsg>
+  <SettingsSettingsSavedMsg>Կառավարում արդեն փրկվել</SettingsSettingsSavedMsg>
+  <SettingsSettingsSaveFailedAppMsg>Անհնար է փրկել կազմաձեւման ֆայլեր. Ստուգեք գրել NTFS թույլտվությունները Web.config եւ HttpCommanderSettings.config ֆայլերը վեբ արմատային թղթապանակում {0} համար մասին {1}: Error message: {2}:</SettingsSettingsSaveFailedAppMsg>
+  <SettingsSettingsSaveFailedTempMsg>Անհնար է փրկել կազմաձեւման ֆայլեր. Ստուգեք թույլտվությունները ժամանակավոր թղթապանակ {0} համար մասին {1}: Error message: {2}:</SettingsSettingsSaveFailedTempMsg>
+  <SettingsSettingsReadFailedAppMsg>Անհնար է կարդալ կազմաձեւման ֆայլեր. Ստուգեք կարդալ NTFS թույլտվությունները Web.config եւ HttpCommanderSettings.config ֆայլերը վեբ արմատային թղթապանակում {0} համար մասին {1}: Error message: {2}:</SettingsSettingsReadFailedAppMsg>
+  <SettingsSettingsReadFailedTempMsg>Անհնար է կարդալ կազմաձեւման ֆայլերը ժամանակավոր թղթապանակ: Ստուգեք թույլտվությունները ժամանակավոր թղթապանակ {0} համար մասին {1}: Error message: {2}:</SettingsSettingsReadFailedTempMsg>
+  <SettingsSettingsConfigChangedOutside>The HttpCommander կազմաձեւման ֆայլը փոխվել է մեկ այլ ծրագրի շրջանակներում: Հնարավոր է, դուք պետք է փոփոխվել այն ձեռքով մի տեքստային խմբագիր. Դիմումը արդեն բեռնված է նոր կազմաձեւման ֆայլը. Բոլոր փոփոխությունները կապված HttpCommander կոնֆիգուրացիա, որը դուք արել միջոցով վեբ ինտերֆեյսի են կորցրել: Դուք պետք է Կրկնել նրանց, ապա փորձում են փրկել կրկին. Մենք խորհուրդ ենք տալիս, ընդդեմ խմբագրում կազմաձեւման ֆայլեր ձեռքով, իսկ հայտը վազում. Հակառակ դեպքում դուք պետք է վերսկսել դիմումը փոխելուց հետո կազմաձեւման ֆայլեր. Error message: {0}.</SettingsSettingsConfigChangedOutside>
+  <SettingsSettingsSaveNotif>Չմոռանաք փրկել կարգավորումների փոփոխություններ!</SettingsSettingsSaveNotif>
+  
+  <SettingsEmailNotifTitle>Ծանուցումները Email</SettingsEmailNotifTitle>
+  <SettingsEmailNotifApplyBtn>Save փոստի կարգավորումները</SettingsEmailNotifApplyBtn>
+  <SettingsEmailNotifResetBtn>տեղավորել</SettingsEmailNotifResetBtn>
+  <SettingsEmailNotifEventsLabel>միջոցառումների</SettingsEmailNotifEventsLabel>
+  <SettingsEmailNotifWhenLabel>ուղարկել</SettingsEmailNotifWhenLabel>
+  <SettingsEmailNotifEmailsLabel>emails</SettingsEmailNotifEmailsLabel>
+  <SettingsEmailNotifPathsLabel>ուղիներ</SettingsEmailNotifPathsLabel>
+  
+  <LogsErrorsGridUrlColumn>Url</LogsErrorsGridUrlColumn>
+  <LogsErrorsGridMsgColumn>հաղորդագրություն</LogsErrorsGridMsgColumn>
+  <LogsErrorsGridMoreInfoColumn>Ավելի շատ տեղեկություն</LogsErrorsGridMoreInfoColumn>
+  <LogsErrorsGridDetailsTitle>Մանրամասներ</LogsErrorsGridDetailsTitle>
+  
+  <FsrmUnableLoadLibraryLocal>Անհնար է միացնել File Server Resource Manager տեղական հյուրընկալող.</FsrmUnableLoadLibraryLocal>
+  <FsrmUnableLoadLibraryRemote>Անհնար է միացնել File Server Resource Manager վրա "{0}» հյուրընկալող.</FsrmUnableLoadLibraryRemote>
+  <FsrmNotInstalled>File Server Resource Manager տեղադրված չէ "{0}».</FsrmNotInstalled>
+  <FsrmNotInstalledEitherEnd>File Server Resource Manager չէ տեղադրվել կամ տեղական հյուրընկալող կամ "{0}».</FsrmNotInstalledEitherEnd>
+  <FsrmQuotaNotSpecified>Քվոտան չի ճշտվում:</FsrmQuotaNotSpecified>
+  <FsrmUnableGetQuota>Անհնար է հասնել սահմանաչափը:</FsrmUnableGetQuota>
+  <FsrmUnableSetQuota>Անհնար է սահմանել սահմանաչափը:</FsrmUnableSetQuota>
+  <FsrmQuotaSetMsg>Քվոտան է արձակվել:</FsrmQuotaSetMsg>
+  <FsrmInvalidQuotaValueMsg>Անվավեր քվոտայի արժեքը:</FsrmInvalidQuotaValueMsg>
+
+  <CommandBuyNow>Գնիր հիմա</CommandBuyNow>
+
+  <AdminUpdateTab>բարելավում</AdminUpdateTab>
+  <AdminUpdateManual>ձեռնարկ բարելավում</AdminUpdateManual>
+  <AdminUpdateAuto>ավտոմատացված բարելավում</AdminUpdateAuto>
+  <AdminUpdateStartButton>Սկսեք բարելավելու / Ստեղծել Backup</AdminUpdateStartButton>
+  <AdminUpdateFinishButton>Finish Upgrade / Վերականգնել Backup</AdminUpdateFinishButton>
+  <AdminUpdateBackupButton>պահուստ</AdminUpdateBackupButton>
+  <AdminUpdateDownloadNewButton>Ներբեռնել նոր տարբերակը</AdminUpdateDownloadNewButton>
+  <AdminUpdateStepTitle>Քայլ {0} {1}: {2}</AdminUpdateStepTitle>
+  <AdminUpdateStepInfo>Քայլ {0} {1}</AdminUpdateStepInfo>
+  <AdminUpdateNumberSymbol>#</AdminUpdateNumberSymbol>
+  <AdminUpdateBackupContent>Խնդրում ենք սեղմել կոճակը "{0}« ստեղծման պահեստային օրինակը թղթապանակում հետ դիմումը եւ ստանալու հղում բեռնելիս</AdminUpdateBackupContent>
+  <AdminUpdateDownloadBackupLinkHint>Խնդրում ենք ներբեռնել պահեստային օրինակը դիմումի օգտագործելով հղումը ստորեւ:</AdminUpdateDownloadBackupLinkHint>
+  <AdminUpdateDownloadNewContent>Ապա խնդրում ենք ներբեռնել նոր տարբերակը, օգտագործելով ստորեւ հղումը եւ հետեւեք {0} տեղադրումը {1} եւ {2} բարելավել {1} հրահանգներ որպեսզի տեղադրել նոր տարբերակը: Հետո տեղադրման համար խնդրում ենք բացել Admin Panel, գնալ էջանշանը «{3}» եւ սեղմեք կոճակը "{4}« որպեսզի լրացնի տեղադրումը:</AdminUpdateDownloadNewContent>
+  <AdminUpdateUploadButton>Վերբեռնել պահեստային օրինակը եւ կիրառել կարգավորումները</AdminUpdateUploadButton>
+  <AdminUpdateUploadAndInstallButton>Տեղադրեք նոր տարբերակը պահելու բոլոր կարգավորումները</AdminUpdateUploadAndInstallButton>
+  <AdminUpdateUploadEmptyText>Խնդրում ենք ընտրել պահեստային օրինակը համար բեռնում</AdminUpdateUploadEmptyText>
+  <AdminUpdateFinishContent>Որպեսզի վերականգնելու պարամետրերը նախորդ տարբերակի խնդրում ենք ընտրել, եւ վերբեռնեք նախկինում ստեղծված կրկնօրինակում արխիվային հայտի թղթապանակում</AdminUpdateFinishContent>
+  <AdminUpdateFinishMessage>Շնորհավորում եմ: Բոլոր պարամետրերը հաջողությամբ կիրառվում: Բացի այդ, խնդրում ենք դիմել բոլոր փոփոխությունները կատարված այլ ֆայլեր, օրինակ Default.aspx կամ Global.asax.</AdminUpdateFinishMessage>
+  <AdminUpdateFinishRefreshPage>Էջը լինելու reloaded</AdminUpdateFinishRefreshPage>
+  <AdminUpdateMainInfo>Այս տեսակի արդիականացման մասամբ ավտոմատացված. Դուք կարող եք ստեղծել եւ բեռնել կրկնօրինակ ֆայլը դիմումի հետ կազմաձեւման պարամետրերը եւ վերականգնել այն բանից հետո, երբ արդիականացման. Խնդրում ենք հետեւեք այս կարճ քայլերը: ստեղծել մի կրկնօրինակ ֆայլը, կատարել ձեռքով արդիականացման, վերականգնել պարամետրերը ից կրկնօրինակ ֆայլը. Այս գործընթացը կարող է նաեւ օգտագործվել է կրկնօրինակում / վերականգնել պարամետրերը, առանց արդիականացնելու: Պարզապես բաց թողնել արդիականացման քայլ վերականգնել պարամետրերը ից կրկնօրինակ ֆայլը.</AdminUpdateMainInfo>
+  <AdminUpdateAutoButton>ավտոմոբիլ</AdminUpdateAutoButton>
+  <AdminUpdateAutoInfo>Այս տեսակի արդիականացման գրեթե ամբողջովին ավտոմատացված է: Այն բաղկացած է 2 քայլերը: Backup ընթացիկ պարամետրերը (դուք պետք է բեռնել եւ պահպանել մի կրկնօրինակ ֆայլը), տեղադրում նոր տարբերակի եւ վերականգնման պարամետրեր կրկնօրինակ ֆայլը. HTTP հրամանատար կարող է ավտոմատ կերպով բեռնել վերջին տարբերակը եւ տեղադրել այն, կամ դուք կարող եք ձեւակերպել ուղին դեպի zip արխիվում հետ նոր տարբերակի մեր սերվերի. Բոլոր պարամետրերը են ավտոմատ կերպով, վերականգնվել է նախկինում ստեղծված կրկնօրինակ ֆայլը.</AdminUpdateAutoInfo>
+  <AdminUpdateRestoreWebConfigCheckBox>Վերականգնել պարամետրեր Web.config (օրինակ, ինչպես, օրինակ, SMTP)</AdminUpdateRestoreWebConfigCheckBox>
+  <AdminUpdateBackupAssignedFoldersInRootMessage>Գրանցում Մորացել եք գաղտնաբառը Կան որոշ օգտվողի թղթապանակներ գրացուցակում հետ ծրագիր է, որը ունեն ընդհանուր չափը ավելի քան {0}. Պահեստային չի կատարվում: Խնդրում ենք անել մի պահեստային օրինակը այդ դիրեկտորիաների, հեռացնել նրանց դիմումի տեղեկատու եւ կրկնել գործողությունը ձեր կողմն է:</AdminUpdateBackupAssignedFoldersInRootMessage>
+  <AdminUpdateNeedRefreshPageForContinue>Գրանցում Մորացել եք գաղտնաբառը Շարունակելու է, որ անհրաժեշտ է վերաբեռնել էջը. Խնդրում ենք սեղմել կոճակը "{0}». Այն բանից հետո, վերաբեռնումը խնդրում ենք կրկնել գործողությունը:</AdminUpdateNeedRefreshPageForContinue>
+  <AdminUpdateRestoreFromBackupEmpty>, Կամ, եթե այն չի ընտրված, ապա այն կարող է օգտագործվել է նորաստեղծ ֆայլը է նախորդ քայլ</AdminUpdateRestoreFromBackupEmpty>
+  <AdminUpdateInstallZipPathHint>Թարմացնելու համար խնդրում ենք նշեք ամբողջական ֆիզիկական ուղին դեպի տեղադրման ֆայլը (սերվերի վրա) առաջին դաշտում, կամ թողեք դատարկ որպեսզի օգտագործել առցանց բաշխումը</AdminUpdateInstallZipPathHint>
+  <AdminUpdateInstallZipPathEmpty>Նշեք ուղին արխիվ տեղադրել</AdminUpdateInstallZipPathEmpty>
+  <AdminUpdateProgress>Թարմացվում</AdminUpdateProgress>
+  <AdminUpdateAccessDeniedWarning>&lt;b&gt; Ուշադրություն! &lt;/b&gt; թարմացման համար խնդրում ենք սահմանել է փոփոխել (կարդալու եւ գրելու) NTFS թույլտվություններ {0} մասին թղթապանակի համար, ինչպես HTTP հրամանատար {1} եւ կրկնել արդիականացումը: &lt;br /&gt; հետո հաջող արդիականացման համար խնդրում ենք վերականգնել նախկին իրավունքները:</AdminUpdateAccessDeniedWarning>
+  <AdminUpdateAccessDeniedWarningCurentUser>ընթացիկ</AdminUpdateAccessDeniedWarningCurentUser>
+
+  <ServerExceedsMaxSizeForEditAsTextFile>Ֆայլի չափը գերազանցում է առավելագույն չափը խմբագրել այն որպես տեքստային ֆայլ:</ServerExceedsMaxSizeForEditAsTextFile>
+  <ServerDemoMode>Տվյալ ակցիան արգելվում է demo ռեժիմում</ServerDemoMode>
+  <ServerHostedMode>Այն չի թույլատրվում փոխել արժեքների հետեւյալ պարամետրերը հյուրընկալվել դատավարության տարբերակը: {0}.</ServerHostedMode>
+  <ServerIncorrectImageContentType>Ֆայլը Mime տեսակի չէ պատկերը</ServerIncorrectImageContentType>
+  <ServerPermissionDenied>Այս գործողությունը մերժվում է, քանի որ սահմանափակ թույլտվությունների</ServerPermissionDenied>
+  <ServerRestoreFromTrashNoParentFolder>վերականգնումը ձախողվեց, քանի որ ծնողը ցուցակում "{0}" արդեն չի գտնվել: Խնդրում ենք ստեղծել այն եւ փորձեք կրկին.</ServerRestoreFromTrashNoParentFolder>
+  <ServerModifyPermissionDenied>Այս գործողությունը մերժվում է, քանի որ դուք չունեք թույլտվություն փոփոխելու ֆայլը</ServerModifyPermissionDenied>
+  <ServerPathNotFound>Ուղին չի գտնվել:</ServerPathNotFound>
+  <ServerInvalidPath>Path "{0}" չէ վավեր</ServerInvalidPath>
+  <ServerInvalidAbsolutePath>Անվավեր բացարձակ ուղին "{0}"</ServerInvalidAbsolutePath>
+  <!-- share folder path: \\server\share -->
+  <ServerInvalidShareFolderPath>Անվավեր Share թղթապանակը ուղին "{0}"</ServerInvalidShareFolderPath>
+  <ServerInvalidUncPath>Անվավեր UNC ուղին "{0}"</ServerInvalidUncPath>
+  <ServerUnableResolveUncPath>Անհնար է լուծել UNC ուղին "{0}"</ServerUnableResolveUncPath>
+  <ServerInvalidFileName>Ֆայլը / թղթապանակը անունը նշված չէ, կամ պարունակում է սխալ նիշ {0}</ServerInvalidFileName>
+  <ServerFilePathNotFound>Ֆայլը գոյություն չունի</ServerFilePathNotFound>
+  <ServerIncorrectPathForFileLink>Սխալ օբյեկտ տեսակը: Նշված Ճանապարհ նշում է մի թղթապանակ</ServerIncorrectPathForFileLink>
+  <ServerIncorrectPathForFolderLink>Սխալ օբյեկտ տեսակը: Նշված Ճանապարհ նշում է մի ֆայլ</ServerIncorrectPathForFolderLink>
+  <ServerRootFolderNotFound>Root թղթապանակ համար ճանապարհին «{0}" - ը չի գտնվել:</ServerRootFolderNotFound>
+  <ServerUnableCreateFolder>Անհնար է ստեղծել թղթապանակ</ServerUnableCreateFolder>
+  <ServerFileAlreadyExists>Այսպիսի անվանմամբ ֆայլ արդեն գոյություն ունի</ServerFileAlreadyExists>
+  <ServerFileAlreadyExistsOnRename>
+    Ցանկանում եք վերանվանել «{0}» է «{1}».
+    Արդեն կա մի ֆայլ նույն անունով այս վայրում:
+  </ServerFileAlreadyExistsOnRename>
+  <ServerFolderAlreadyExistsOnRename>
+    Ցանկանում եք վերանվանել «{0}» է «{1}».
+    Արդեն կա մի թղթապանակ հետ նույն անունով այս վայրում:
+  </ServerFolderAlreadyExistsOnRename>
+  <ServerFoldersMergeConfirm>
+    Այս նպատակակետը արդեն պարունակում է մի թղթապանակ անունով "{0}».
+    Դուք դեռ ուզում եք միաձուլել այս թղթապանակը "{0}» հետ, այս մեկը, «{1}».
+  </ServerFoldersMergeConfirm>
+  <ServerFolderWithSameNameAsFileNameAlreadyExists>Արդեն կա մի թղթապանակ հետ նույն անունով, «{0}», քանի ֆայլի անունը նշված</ServerFolderWithSameNameAsFileNameAlreadyExists>
+  <ServerFileWithSameNameAsFolderNameAlreadyExists>Արդեն կա մի ֆայլ նույն անունով "{0}», քանի որ թղթապանակի անունը Ձեր նշած</ServerFileWithSameNameAsFolderNameAlreadyExists>
+  <ServerFileNotFound>Ֆայլը "{0}" չէ գտնվել թղթապանակում «{1}». Հնարավոր է, որ դա ջնջվել է կամ հեռացվել է այլ անձնագիրը.</ServerFileNotFound>
+  <ServerDirectoryAlreadyExists>A ցուցակում այս անունով արդեն գոյություն ունի</ServerDirectoryAlreadyExists>
+  <ServerFolderMoveAlreadeExists>Նպատակային թղթապանակ "{0}" է նույնը, քանի որ աղբյուր թղթապանակն</ServerFolderMoveAlreadeExists>
+  <ServerUploadPathNotFound>Ճանապարհ ֆայլի պահեստավորման չի հայտնաբերվել է սերվերի</ServerUploadPathNotFound>
+  <ServerUploadPathNotSet>Ընթացքում տեղի ունեցավ սխալ ստանալու ուղին բեռնում: Խնդրում ենք, թարմացնել էջը բրաուզերի եւ փորձեք կրկին.</ServerUploadPathNotSet>
+  <ServerUploadNoChunk>Ոչ կտոր է խնայում</ServerUploadNoChunk>
+  <ServerUploadWriteChunk>Գրեք կտոր, սկսած բայտ</ServerUploadWriteChunk>
+  <ServerUploadCreatingFile>Ստեղծվում ֆայլը</ServerUploadCreatingFile>
+  <ServerUploadFileUploaded>Ֆայլը չի ​​ներբեռնվել</ServerUploadFileUploaded>
+  <ServerUploadWriteError>գրելու սխալ է</ServerUploadWriteError>
+  <ServerConfigurationError>Սխալ կոնֆիգուրացիա կամ դիմում! Կապվեք կայքի ադմինիստրատորին</ServerConfigurationError>
+  <ServerPermissionsAllowTypes>Ընթացիկ թույլտվությունները թույլ են տալիս այս գործողությունը միայն ֆայլի տեսակների {0}</ServerPermissionsAllowTypes>
+  <ServerPermissionsDenyTypes>Ընթացիկ թույլտվությունները արգելում այս գործողությունը, ինչպես ֆայլի տեսակների {0}</ServerPermissionsDenyTypes>
+  <ServerRequestSizeExceeded>Չափը բեռնված ֆայլերի գերազանցում թույլատրելի չափը սերվերի կարգավորումների</ServerRequestSizeExceeded>
+  <ServerEmailMsgProcessedFilesSubject>Բեռնված / Փոփոխված / բեռնել / Ստեղծվել / ջնջված / կիսել ֆայլեր / թղթապանակներ</ServerEmailMsgProcessedFilesSubject>
+  <ServerEmailMsgUploadFilesTitle>Վերբեռնման</ServerEmailMsgUploadFilesTitle>
+  <ServerEmailMsgModifyFilesTitle>փոփոխվել</ServerEmailMsgModifyFilesTitle>
+  <ServerEmailMsgDownloadFilesTitle>ներբեռնել</ServerEmailMsgDownloadFilesTitle>
+  <ServerEmailMsgCreateFilesTitle>Տեղադրված</ServerEmailMsgCreateFilesTitle>
+  <ServerEmailMsgDeleteFilesTitle>ջնջվել</ServerEmailMsgDeleteFilesTitle>
+  <ServerEmailMsgCreatePublicFilesTitle>կիսում</ServerEmailMsgCreatePublicFilesTitle>
+  <ServerEmailMsgProcessedFilesBody>
+    Հետեւյալ ֆայլեր / թղթապանակներ էին {0}, {1}:
+
+{2}
+    
+  </ServerEmailMsgProcessedFilesBody>
+  <ServerEmailMsgPasswordRecoverSubject>Գաղտնաբառի վերականգնում</ServerEmailMsgPasswordRecoverSubject>
+  <ServerEmailMsgPasswordRecoverBody>
+    Դուք խնդրել է վերականգնել ձեր գաղտնաբառը Վեբ File Manager. Ձեր գաղտնաբառը զրոյացնել: Եթե ​​կարծում եք, որ սա սխալ է, պարզապես անտեսել այս նամակը, բայց տեղյակ լինել, որ ձեր գաղտնաբառը փոխված:
+    Աբոնենտի անունը: {0}
+    Նոր գաղտնաբառ {1}
+  </ServerEmailMsgPasswordRecoverBody>
+  
+  <ServerEmailMsgUserNameRecoverSubject>Մականուն վերականգնումը</ServerEmailMsgUserNameRecoverSubject>
+  <ServerEmailMsgUserNameRecoverBody>
+    Դուք խնդրել է վերականգնել ձեր անունը վեբ File Manager.
+    Աբոնենտի անունը: {0}
+  </ServerEmailMsgUserNameRecoverBody>
+
+  <ServerEmailMsgUserActivationSubject>Հաշվի ակտիվացում</ServerEmailMsgUserActivationSubject>
+  <ServerEmailMsgUserActivationBody>
+    Հաշվի ({0}) ակտիվացումը պահանջվում:
+    Է ակտիվացնել Ձեր հաշիվը, խնդրում ենք սեղմել հետեւյալ հղումը: {1}
+  </ServerEmailMsgUserActivationBody>
+  <ServerEmailMsgUserRegisteredSubject>Օգտվող գրանցվել է</ServerEmailMsgUserRegisteredSubject>
+  <ServerEmailMsgUserRegisteredBody>
+    Դուք հաջողությամբ գրանցվել է Web File Manager.
+    Աբոնենտի անունը: {0}
+  </ServerEmailMsgUserRegisteredBody>
+  <ServerEmailMsgUserRegisteredForAdminsBody>
+    &lt;h4&gt; Նոր օգտվող է գրանցվել &lt;/h4&gt;
+    &lt;strong&gt; Օգտագործողի անունը &lt;/strong&gt;: {0} &lt;br /&gt;
+    &lt;strong&gt; Էլ &lt;/strong&gt; {1} &lt;br /&gt;
+    &lt;strong&gt; Ամսաթիվ &lt;/strong&gt; {2} &lt;br /&gt;
+    &lt;strong&gt; Extra Info &lt;/strong&gt;: {3} &lt;br /&gt;
+  </ServerEmailMsgUserRegisteredForAdminsBody>
+  <ServerDiskFullError>Չկա ոչ բավարար տարածք սկավառակի վրա:</ServerDiskFullError>
+  <ServerFolderLimitations>Թղթապանակ սահմանափակումները: {0}</ServerFolderLimitations>
+  <ServerShortcutAssignedFolderNotFound>Նշանակվում թղթապանակը չի գտնվել նպատակային ուղին դյուրանցումների ցանկում</ServerShortcutAssignedFolderNotFound>
+  <ServerSizeFilesForZipExceeded>Չափը archivable ֆայլերի գերազանցել թույլատրված արժեքը {0}.</ServerSizeFilesForZipExceeded>
+  <ServerPasteFolderToSubfolderError>Նպատակային թղթապանակ "{0}» - ը Subfolder է աղբյուր թղթապանակն «{1}».</ServerPasteFolderToSubfolderError>
+  <ServerLiveConnectAppIDNotSpecified>Պատվիրատուն ID- ն Microsoft Live Connect դիմումը չի սահմանվում</ServerLiveConnectAppIDNotSpecified>
+  <ServerSendEmailInfo>Հեղինակ նշված իրենց նամակը որպես {0}. Օգտագործեք միայն այս հասցեն պատասխանել.</ServerSendEmailInfo>
+
+  <ServerAntivirusScanningFailed>Սկան է հակավիրուսային: '{0} {1}' դադարեցվում թույլտվությունները:</ServerAntivirusScanningFailed>
+
+  <ServerUserNameNotFound>Օգտվող անունով '{0}' չի գտնվել:</ServerUserNameNotFound>
+  <ServerFileNameCopySuffix>պատճեն</ServerFileNameCopySuffix>
+
+  <ServerDeleteFolderNTFSAccessDenied>Դուք չունեք NTFS թույլտվություն հեռացնելու թղթապանակը "{0}"</ServerDeleteFolderNTFSAccessDenied>
+
+  <ServerMSOOTemplateNotFound>{0} կաղապարի չի գտնվել</ServerMSOOTemplateNotFound>
+</Localization>

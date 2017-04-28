@@ -1,0 +1,297 @@
+﻿<!-- saved from url=(0014)about:internet -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>SSL compatibility  (Windows version)</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+    .style1 {
+	    font-size: 10pt;
+	    font-weight: bold;
+    }
+    .style2 {
+        font-weight: bold
+    }
+</style>
+</head>
+<body>
+    <script type="text/javascript">
+        function toggleBlock(id) {
+            if (document.getElementById(id).style.display == 'none') {
+                document.getElementById(id).style.display = 'block';
+            }
+            else {
+                document.getElementById(id).style.display = 'none';
+            }
+        }
+    </script>
+    
+    <table width="100%" cellpadding="0" cellspacing="0">
+        <tr>
+            <td width="320">
+                <table>
+                    <tr>
+                        <td style="vertical-align:top;text-align:left;">
+                            <a target='_blank' href='http://www.element-it.com/asp-net-explorer-browser/online-share/web-file-manager.aspx'><img style='cursor:pointer;' alt="HTTP Commander" src="Images/HCLogo.png" border="0" /></a>
+                        </td>
+                        <td class="green" style="vertical-align:top;text-align:left;padding-top:21px;">
+                            &nbsp;AJS 4.x
+                        </td>
+                    </tr>
+                </table>
+                <span class="gray">Manual</span>
+            </td>
+             <td width="400">
+  <!-- For windows version only. Start --> 
+	<p>
+	<strong>Note!</strong> This Manual is for the <strong>"Windows authentication"</strong> version, 
+	which is designed to work with existing Windows server or Active Directory accounts and Windows authentication. 
+	If you want to create accounts by yourself and store their credentials in your own HTTP Commander XML database, 
+	you need to download the <a target="_blank" href="http://www.element-it.com/downloadfile.aspx?type=st">"Forms authentication" version</a>!
+	This Manual is for the Windows authentication version only!
+	</p>
+	<!-- For windows version only. End --> 
+	
+ 
+	
+                
+            </td>
+            <td align="char" width="230">
+                <img alt="" src="Images/world.jpg" align="middle" hspace="5" style="vertical-align:top;padding-top:1px;" /><b><a target="_blank" title="web file manager" href="http://www.element-it.com/asp-net-explorer-browser/online-share/web-file-manager.aspx">Web file manager</a></b><br />
+                <img alt="" src="Images/support.png" width="16" height="16" align="middle" hspace="5" style="vertical-align:top;padding-top:1px;" /><b><a
+                    href="onlinesupport.html" target="main">Free Installation assistance</a></b><br />
+                <img alt="" src="Images/help.png" align="middle" width="16" height="16" hspace="5" style="vertical-align:top;padding-top:1px;" /><b><a
+                    href="index.html" title="Manual Home page" target="_blank">Manual Home page</a></b><br />
+            </td>
+        </tr>
+    </table>
+    
+    <p class="topic">
+        <a id="">SSL compatibility </a>
+    </p>
+    
+    
+    <br />
+    This section describes SSL compatibility of different features of Http COmmander.
+<br /><br />
+<table class="settings">
+  <tr>
+   <td class="tdssl"><i>Feature</i></td>
+   <td class="tdssl"><i>Without SSL</i></td>
+   <td class="tdssl"><i>Self-Signed SSL</i></td>
+   <td class="tdssl"><i>Valid, Public SSL</i></td>
+  </tr>
+  <tr id="webdav">
+    <td><strong>Map WebDav folder</strong></td>
+    <td>
+       <span class="ssl-no">-</span>/<span class="ssl-yes">+</span>
+	   <br />
+	   Starting from Windows 7/Vista, Windows will fail to connect to the server using Basic authentication. By default SSL is required for correct work with WebDav. <br/>
+	   However often it is required to configure WebDav without SSL. As workaround you can use method described in <a href="WebFolders.html#withoutssl">WebFolders </a> section of manual.
+	    
+ 
+	</td>
+    <td>
+		<span class="ssl-no">-</span>/<span class="ssl-yes">+</span>
+		 <br /><br />
+		 If certificate is not trusted, windows will refuse to map WebDav folder as network drive.
+	</td>
+	<td>
+		<span class="ssl-yes">+</span>
+		<br /><br />
+		Windows may fail to automatically reconnect mapped network drive on logon. More details and possible workaround in following KB:  <a href="https://support.microsoft.com/en-us/kb/2673544" target="_blank">Windows 7 cannot automatically reconnect a DAV share when Basic Authentication is used.</a>
+	</td>
+  </tr>
+  <tr id="desktopoffice">
+    <td><strong>Edit in desktop MS Office</strong></td>
+    <td>
+       <span class="ssl-yes">+</span>
+	   <br />
+	   If parameter <a href="webconfigsetup.html#UseMSOFBAwithMSOffice">UseMSOFBAwithMSOffice</a> is enabled, then edit in Office feature will work correctly even without SSl enabled and credentials will be stored (office would ask to enter username and password ) for 3 days.
+	   <br/> <br />
+	   Otherwise, if parameter is disabled, you may have issues with opening documents in MS Office without SSL as described in following KB article  <a href="https://support.microsoft.com/en-us/kb/2123563" target="_blank">Office file types fail to open from server</a>  
+	   
+ 
+	</td>
+    <td>
+		<span class="ssl-yes">+</span>
+		 <br />
+		 If certificate is not trusted, warning message may appear.
+	</td>
+	<td>
+		<span class="ssl-yes">+</span>
+	</td>
+  </tr>
+  <tr id="msofficeonline">
+    <td><strong>Edit in MS Office online</strong></td>
+    <td>
+       <span class="ssl-yes">+</span>	 
+	</td>
+    <td>
+		<span class="ssl-yes">+</span>	
+	</td>
+	<td>
+		<span class="ssl-yes">+</span>
+	</td>
+  </tr>
+  <tr id="msoffic365">
+    <td><strong>Edit in MS Office 365</strong></td>
+    <td>
+       <span class="ssl-yes">+</span>	 
+	</td>
+    <td>
+		<span class="ssl-yes">+</span>	
+	</td>
+	<td>
+		<span class="ssl-yes">+</span>
+	</td>
+  </tr>
+  <tr id="editingoogle">
+    <td><strong>Edit in Google Drive</strong></td>
+    <td>
+       <span class="ssl-yes">+</span>	 
+	</td>
+    <td>
+		<span class="ssl-yes">+</span>	
+	</td>
+	<td>
+		<span class="ssl-yes">+</span>
+	</td>
+  </tr>
+  <tr id="editinzoho">
+    <td><strong>Edit in Zoho</strong></td>
+    <td>
+       <span class="ssl-yes">+</span>	 
+	</td>
+    <td>
+		<span class="ssl-no">-</span>	
+	</td>
+	<td>
+		<span class="ssl-yes">+</span>
+	</td>
+  </tr>
+  <tr id="editinpixlr">
+    <td><strong>Edit in Pixlr</strong></td>
+    <td>
+       <span class="ssl-yes">+</span>	 
+	</td>
+    <td>
+		<span class="ssl-yes">+</span>	
+	</td>
+	<td>
+		<span class="ssl-yes">+</span>
+	</td>
+  </tr>
+  <tr id="viewinofficeonline">
+    <td><strong>View in MS Office Web Apps</strong></td>
+    <td>
+       <span class="ssl-yes">+</span>	 
+	</td>
+    <td>
+		<span class="ssl-no">-</span>	
+	</td>
+	<td>
+		<span class="ssl-yes">+</span>
+	</td>
+  </tr>
+  <tr id="viewingoogle">
+    <td><strong>View in google</strong></td>
+    <td>
+       <span class="ssl-yes">+</span>	 
+	</td>
+    <td>
+		<span class="ssl-yes">+</span>	
+	</td>
+	<td>
+		<span class="ssl-yes">+</span>
+	</td>
+  </tr>
+  <tr id="viewinbox">
+    <td><strong>View in Box</strong></td>
+    <td>
+       <span class="ssl-yes">+</span>	 
+	</td>
+    <td>
+		<span class="ssl-yes">+</span>	
+	</td>
+	<td>
+		<span class="ssl-yes">+</span>
+	</td>
+  </tr>
+  <tr id="viewinautocad">
+    <td><strong>View in AutoCad</strong></td>
+    <td>
+       <span class="ssl-yes">+</span>	 
+	</td>
+    <td>
+		<span class="ssl-yes">+</span>	
+	</td>
+	<td>
+		<span class="ssl-yes">+</span>
+	</td>
+  </tr>
+  <tr id="viewinsharecad">
+    <td><strong>View in ShareCad</strong></td>
+    <td>
+       <span class="ssl-yes">+</span>	 
+	</td>
+    <td>
+		<span class="ssl-no">-</span>	
+	</td>
+	<td>
+		<span class="ssl-yes">+</span>
+	</td>
+  </tr>
+  <tr id="downloaduploadgoogle">
+    <td><strong>Download/Upload Goggle Drive</strong></td>
+    <td>
+       <span class="ssl-yes">+</span>	 
+	</td>
+    <td>
+		<span class="ssl-yes">+</span>	
+	</td>
+	<td>
+		<span class="ssl-yes">+</span>
+	</td>
+	</tr>
+  <tr id="downloaduploadonedrive">
+    <td><strong>Download/Upload OneDrive</strong></td>
+    <td>
+       <span class="ssl-yes">+</span>	 
+	</td>
+    <td>
+		<span class="ssl-yes">+</span>	
+	</td>
+	<td>
+		<span class="ssl-yes">+</span>
+	</td>
+  </tr>
+  <tr id="downloaduploaddropbox">
+    <td><strong>Download/Upload DropBox</strong></td>
+    <td>
+       <span class="ssl-no">-</span>	 
+	</td>
+    <td>
+		<span class="ssl-yes">+</span>	
+	</td>
+	<td>
+		<span class="ssl-yes">+</span>
+	</td>
+  </tr>
+  <tr id="downloaduploaddropbox">
+    <td><strong>Download/Upload Box</strong></td>
+    <td>
+       <span class="ssl-no">-</span>	 
+	</td>
+    <td>
+		<span class="ssl-yes">+</span>	
+	</td>
+	<td>
+		<span class="ssl-yes">+</span>
+	</td>
+  </tr>
+</table>
+
+</body>
+</html>

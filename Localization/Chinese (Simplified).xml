@@ -1,0 +1,1608 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Localization>
+  <!-- Common keys -->
+  
+  <ExtMsgButtonTextYES>是</ExtMsgButtonTextYES>
+  <ExtMsgButtonTextNO>没有</ExtMsgButtonTextNO>
+  
+  <ControlHideFileManager>隐藏网页文件管理器</ControlHideFileManager>
+  
+  <CommonMainTitle>Web文件访问</CommonMainTitle>
+  <CommonApplicationLoading>网页文件的访问加载</CommonApplicationLoading>
+  <CommonLoadError>获取树数据过程中发生错误</CommonLoadError>
+  <CommonGridAccessDenied>文件夹“{0}”不存在或读访问被拒绝</CommonGridAccessDenied>
+  <CommonNoScript>此网页需要JavaScript在浏览器中启用！请启用它，并重新登录！</CommonNoScript>
+  <CommonErrorCaption>错误</CommonErrorCaption>
+  <CommonWarningCaption>警告</CommonWarningCaption>
+  <CommonInfoCaption>信息</CommonInfoCaption>
+  <CommonConfirmCaption>确认</CommonConfirmCaption>
+  <CommonFileNameCaption>文件名</CommonFileNameCaption>
+  <CommonFileNamePrompt>输入新的文件名</CommonFileNamePrompt>
+  <CommonFileNewNameValue>新建文本文档.txt</CommonFileNewNameValue>
+  <CommonFolderNewNameValue>新建文件夹</CommonFolderNewNameValue>
+  <CommonZipFileNameCaption>邮编存档名称</CommonZipFileNameCaption>
+  <CommonZipFileNamePrompt>文件名（扩展名会自动添加）</CommonZipFileNamePrompt>
+  <CommonFolderNameCaption>文件夹名称</CommonFolderNameCaption>
+  <CommonFolderNamePrompt>输入一个新的文件夹名称</CommonFolderNamePrompt>
+  <CommonDeleteOnePrompt>你确定要删除“{0}”？</CommonDeleteOnePrompt>
+  <CommonDeleteManyPrompt>您确定要删除这些{0}项目？</CommonDeleteManyPrompt>
+  <CommonForToday>今天</CommonForToday>
+  <CommonButtonCaptionOK>好</CommonButtonCaptionOK>
+  <CommonButtonCaptionCancel>取消</CommonButtonCaptionCancel>
+  <CommonButtonCaptionClose>关</CommonButtonCaptionClose>
+  <CommonButtonCaptionAdd>加</CommonButtonCaptionAdd>
+  <CommonButtonCaptionContinue>继续</CommonButtonCaptionContinue>
+
+  <CommonProgressPleaseWait>请稍候</CommonProgressPleaseWait>
+  
+  <CommonFieldLabelName>名称</CommonFieldLabelName>
+  <CommonFieldLabelPath>路径</CommonFieldLabelPath>
+  <CommonFieldLabelSize>尺寸</CommonFieldLabelSize>
+  <CommonFieldLabelLabels>标签</CommonFieldLabelLabels>
+  <CommonFieldLabelType>类型</CommonFieldLabelType>
+  <CommonFieldLabelAction>行动</CommonFieldLabelAction>
+  <CommonFieldLabelDate>日期</CommonFieldLabelDate>
+  <CommonFieldLabelDateTime>约会时间</CommonFieldLabelDateTime>
+  <CommonFieldLabelDateCreated>创建日期</CommonFieldLabelDateCreated>
+  <CommonFieldLabelDateModified>修改日期</CommonFieldLabelDateModified>
+  <CommonFieldLabelDateAccessed>访问日期</CommonFieldLabelDateAccessed>
+  <CommonFieldLabelValue>值</CommonFieldLabelValue>
+  <CommonFieldLabelUserName>用户名</CommonFieldLabelUserName>
+  <CommonFieldLabelUser>用户</CommonFieldLabelUser>
+  <CommonFieldLabelUsers>用户</CommonFieldLabelUsers>
+  <CommonFieldLabelGroupName>组名</CommonFieldLabelGroupName>
+  <CommonFieldLabelGroup>组</CommonFieldLabelGroup>
+  <CommonFieldLabelGroups>组</CommonFieldLabelGroups>
+  <CommonFieldLabelPassword>密码</CommonFieldLabelPassword>
+  <CommonFieldLabelRepeatPassword>重复输入密码</CommonFieldLabelRepeatPassword>
+  <CommonFieldLabelComments>注释</CommonFieldLabelComments>
+  <CommonValueTypeFolder>夹</CommonValueTypeFolder>
+
+  <CommonFieldLabelDescription>描述</CommonFieldLabelDescription>
+  <EmptyDescriptionText>指定的描述</EmptyDescriptionText>
+  <CommonFieldLabelReadMeTxt>readme.txt文件内容</CommonFieldLabelReadMeTxt>
+  
+  <CommonWordOr>要么</CommonWordOr>
+
+  <SortAscText>升序</SortAscText>
+  <SortDescText>降序</SortDescText>
+
+  <CommonNewDocument>新建文档</CommonNewDocument>
+  <CommonNewSpreadsheet>新的电子表格</CommonNewSpreadsheet>
+  <CommonNewPresentation>新建演示文稿</CommonNewPresentation>
+
+  <CommonWordWrap>自动换行</CommonWordWrap>
+  
+  <!-- End Common keys -->
+
+  <!-- Labels -->
+
+  <LabelsTitle>标签</LabelsTitle>
+  <LabelsNoLabel>无标签</LabelsNoLabel>
+  <LabelsColor>颜色</LabelsColor>
+  <LabelsCustomLabel>自定义标签</LabelsCustomLabel>
+  <LabelsCustomLabelHint>输入标签的文本</LabelsCustomLabelHint>
+  <LabelsCustomLabelView>标签＆NBSP;查看：＆NBSP; {0} {1} {2}</LabelsCustomLabelView>
+  <LabelsFileLabelledMessage>成功标记{0}项目（S）</LabelsFileLabelledMessage>
+  <LabelsRemovedMessage>成功删除{0}标签（S）</LabelsRemovedMessage>
+  <LabelsNotRemovedMessages>不会被删除：{0}</LabelsNotRemovedMessages>
+  <LabelsNotLabelledMessage>未标示：{0}</LabelsNotLabelledMessage>
+  <LabelsLabelRemovedMessage>标签成功删除</LabelsLabelRemovedMessage>
+  <LabelsNewLabel>新标签</LabelsNewLabel>
+  <LabelsLabellingMessage>标签</LabelsLabellingMessage>
+  <LabelsRemovingLabelMessage>移除标签</LabelsRemovingLabelMessage>
+  <LabelsLabelInfoTip>标记为“{0}”{1}用户“{2}”</LabelsLabelInfoTip>
+
+  <!-- End Labels -->
+
+  <!-- Comments -->
+
+  <CommentsCountInfoTip>{0}评论（）</CommentsCountInfoTip>
+  <CommentsWriteCommentHint>写评论，然后按“{0}”或Ctrl+Enter键或Shift+Enter ...</CommentsWriteCommentHint>
+
+  <!-- End Comments -->
+
+  <RefreshPageWarningMessage>&lt;b&gt;注意！&lt;/b&gt;要完成这个操作，在浏览器的当前页必须刷新。&lt;br /&gt;要立即刷新？</RefreshPageWarningMessage>
+
+  <PagingToolbarBeforePageText>页</PagingToolbarBeforePageText>
+  <PagingToolbarAfterPageText>{0}</PagingToolbarAfterPageText>
+  <PagingToolbarFirstText>第一页</PagingToolbarFirstText>
+  <PagingToolbarPrevText>上一页</PagingToolbarPrevText>
+  <PagingToolbarNextText>下一页</PagingToolbarNextText>
+  <PagingToolbarLastText>最后一页</PagingToolbarLastText>
+  <PagingToolbarDisplayMsg>显示{0}  -  {1} {2}</PagingToolbarDisplayMsg>
+  <PagingToolbarEmptyMsg>没有数据显示</PagingToolbarEmptyMsg>
+  
+  <GridTotalLabel>总：</GridTotalLabel>
+  <GridTotalFilesLabel>档</GridTotalFilesLabel>
+  <GridTotalFoldersLabel>文件夹</GridTotalFoldersLabel>
+  
+  <GridDDSelectedRowsText>{0}选择行{1}</GridDDSelectedRowsText>
+  <GridDDSelectedFilesText>{0}选择的文件</GridDDSelectedFilesText>
+  <GridDDSelectedFoldersText>{0}选定的文件夹</GridDDSelectedFoldersText>
+  <GridDDConfirmCopyMoveTitle>跌落到文件夹“{0}”</GridDDConfirmCopyMoveTitle>
+  <GridDDConfirmAddToZipTitle>添加到压缩“{0}”</GridDDConfirmAddToZipTitle>
+  <GridDDConfirmAddToZipMessage>被拖动的文件将被添加到这个ZIP压缩包。是否要继续？{0}。</GridDDConfirmAddToZipMessage>
+  <GridDDConfirmCopyMoveMsg>选择要应用的操作。资料来源：“{0}”，目标文件夹：“{1}”{2} {3}。</GridDDConfirmCopyMoveMsg>
+  <GridDDConfirmCopyMoveToZipMsg>文件将被添加到zip归档。选择您要添加的文件的zip压缩文件后应用到被拖动的文件的操作。资料来源：“{0}”，目标zip压缩包：“{1}”{2} {3}。</GridDDConfirmCopyMoveToZipMsg>
+  <GridDDDraggedFileNames>&lt;b&gt;拖文件：&lt;/b&gt; {0}</GridDDDraggedFileNames>
+  <GridDDDraggedFolderNames>&lt;b&gt;拖文件夹：&lt;/b&gt; {0}</GridDDDraggedFolderNames>
+  <GridDDConfirmTargetFolderOnlyCopyMsg>为源文件夹中当前权限允许你只复制拖文件。是否要继续？{0}。</GridDDConfirmTargetFolderOnlyCopyMsg>
+  <GridDDConfirmTargetFolderOnlyMoveMsg>为源文件夹中当前的权限只允许您移动被拖动的文件。是否要继续？{0}。</GridDDConfirmTargetFolderOnlyMoveMsg>
+
+  <GridRowPublicHint>点击在新窗口/选项卡中打开一个公共链接</GridRowPublicHint>
+  <GridRowAlertHint>点击查看该文件/文件夹进行修改</GridRowAlertHint>
+  <GridRowRecentHint>找到该文件/文件夹</GridRowRecentHint>
+  <GridRowAlertEventHint>点击进入此位置</GridRowAlertEventHint>
+
+  <ProgressCreating>创建</ProgressCreating>
+  <ProgressDeleting>删除</ProgressDeleting>
+  <ProgressLoading>加载</ProgressLoading>
+  <ProgressSearching>搜索</ProgressSearching>
+  <ProgressZipping>压缩</ProgressZipping>
+  <ProgressUnzipping>开箱</ProgressUnzipping>
+  <ProgressZipContents>获取ZIP压缩文件的内容</ProgressZipContents>
+  <ProgressPrepareDownload>准备下载</ProgressPrepareDownload>
+  <ProgressMoving>进展</ProgressMoving>
+  <ProgressCopying>仿形</ProgressCopying>
+  <ProgressRenaming>重命名</ProgressRenaming>
+  <ProgressUpdating>更新</ProgressUpdating>
+  <ProgressLoadingEditInPixlr>加载的Pixlr编辑器</ProgressLoadingEditInPixlr>
+  <ProgressLoadingEdit>加载编辑器</ProgressLoadingEdit>
+  <ProgressSavingEdit>保存文件</ProgressSavingEdit>
+  <ProgressSaving>保存</ProgressSaving>
+  <ProgressExecuting>执行</ProgressExecuting>
+
+  <BalloonFilesDeleted>{0}删除文件（S）</BalloonFilesDeleted>
+  <BalloonFoldersDeleted>{0}删除的文件夹（S）</BalloonFoldersDeleted>
+  <BalloonFilesFailed>{0}文件（S）失败</BalloonFilesFailed>
+  <BalloonFoldersFailed>{0}文件夹（S）失败</BalloonFoldersFailed>
+  <BalloonFilesZipped>{0}压缩文件（S）</BalloonFilesZipped>
+  <BalloonFoldersZipped>{0}压缩文件夹（S）</BalloonFoldersZipped>
+  <BalloonFilesCopied>{0}复制文件（S）</BalloonFilesCopied>
+  <BalloonFoldersCopied>{0}复制的文件夹（S）</BalloonFoldersCopied>
+  <BalloonFilesMoved>{0}文件（S）移动</BalloonFilesMoved>
+  <BalloonFoldersMoved>{0}文件夹（S）移动</BalloonFoldersMoved>
+  <BalloonNotUnzipped>{0}文件（S）没有被解开</BalloonNotUnzipped>
+  <BalloonFilesUploaded>{0}上传的文件（S）</BalloonFilesUploaded>
+  <BalloonFilesNotUploaded>{0}文件（S）没有上传</BalloonFilesNotUploaded>
+  <BalloonSomeFilesNotUploaded>某些文件无法上传</BalloonSomeFilesNotUploaded>
+  <BalloonCreatedSuccessfully>成功创建</BalloonCreatedSuccessfully>
+  <BalloonUnzippedSuccessfully>未包装的成功</BalloonUnzippedSuccessfully>
+  <BalloonRenamedSuccessfully>成功更名</BalloonRenamedSuccessfully>
+  <BalloonSavedSuccessfully>保存成功</BalloonSavedSuccessfully>
+  <BalloonCopiedToClipboard>复制到剪贴板</BalloonCopiedToClipboard>
+  <BalloonCopyToClipboardFailed>复制到剪贴板失败</BalloonCopyToClipboardFailed>
+
+  <CommandCopyToClipboard>复制到剪贴板</CommandCopyToClipboard>
+  <CommandCopyLinkToClipboard>复制链接到剪贴板</CommandCopyLinkToClipboard>
+  <ClipboardScreenshotTitlePrefix>图片</ClipboardScreenshotTitlePrefix>
+  <ClipboardScreenshotHint>图片：您可以​​从您的剪贴板粘贴截图（按&lt;b&gt;按Ctrl+PrtSc键&lt;/b&gt;，然后&lt;b&gt;按Ctrl+V &lt;/b&gt;）或从编辑的图像（按&lt;b&gt;按Ctrl+V &lt;/b&gt;的）。</ClipboardScreenshotHint>
+  <ClipboardFileHint>您还可以粘贴剪贴板文件</ClipboardFileHint>
+
+  <CommandClouds>云端储存</CommandClouds>
+  <CommandCloudsDownloadTo>下载...</CommandCloudsDownloadTo>
+  <CommandCloudsUploadFrom>从上传...</CommandCloudsUploadFrom>
+  <CommandCloudsAbout>关于云端储存</CommandCloudsAbout>
+  
+  <CommandBack>背部</CommandBack>
+  <CommandForward>前锋</CommandForward>
+  <CommandRecentFolders>最近的文件夹</CommandRecentFolders>
+  <CommandHome>家</CommandHome>
+  <CommonActions>操作</CommonActions>
+  <CommandMultiSelect>多选</CommandMultiSelect>
+  <CommandShare>分享</CommandShare>
+  <CommandSorting>排序</CommandSorting>
+  
+  <CommandFileManager>返回到文件管理器</CommandFileManager>
+  <CommandFolders>文件夹</CommandFolders>
+  <CommandGridView>视图</CommandGridView>
+  <CommandRefresh>刷新</CommandRefresh>
+  <CommandThumbnailView>缩略图视图</CommandThumbnailView>
+  <CommandDetailedView>列表显示</CommandDetailedView>
+  <CommandDetailsPane>详细信息窗格</CommandDetailsPane>
+  <CommandFavorites>收藏夹</CommandFavorites>
+  <CommandAddToFavorites>添加到收藏夹</CommandAddToFavorites>
+  <CommandAddToFavoritesHint>添加当前文件夹到我的最爱</CommandAddToFavoritesHint>
+  <AddingToFavoritesMessage>添加到收藏夹</AddingToFavoritesMessage>
+  <RemoveFromFavoritesMessage>从收藏夹中删除</RemoveFromFavoritesMessage>
+  <FolderAlreadyAddedInFavorites>文件夹“{0}”中已存在的最爱</FolderAlreadyAddedInFavorites>
+  <FolderAddedInFavoritesSuccessfully>文件夹“{0}”已成功添加到收藏夹</FolderAddedInFavoritesSuccessfully>
+  <FavoritesIsOverflowed>这是不可能添加当前文件夹“{0}”添加到收藏。删除一些收藏夹以释放一些空间，然后再试一次。</FavoritesIsOverflowed>
+  <RemoveFromFavoritesHint>删除“{0}”从我的收藏</RemoveFromFavoritesHint>
+  <AddToHomeScreenIOSHint>点击{0}，然后&lt;STRONG&gt;“添加到主屏幕”&lt;/strong&gt;</AddToHomeScreenIOSHint>
+  <CommandSearch>搜索</CommandSearch>
+  <CommandUpload>上传</CommandUpload>
+  <CommandSettings>设置</CommandSettings>
+  <CommandLanguage>语言</CommandLanguage>
+  <CommandAdministration>行政</CommandAdministration>
+  <CommandAdminPanel>管理面板</CommandAdminPanel>
+  <CommandChangePassword>更改密码</CommandChangePassword>
+  <ProgressChangePassword>更改密码</ProgressChangePassword>
+  <CommandChangeEmail>更改电子邮件</CommandChangeEmail>
+  <ProgressChangeEmail>更改电子邮件</ProgressChangeEmail>
+  <CommandMobileView>移动界面（智能手机）</CommandMobileView>
+  <CommandStandardView>完整版</CommandStandardView>
+  <CommandInstallIOSApp>安装iOS应用</CommandInstallIOSApp>
+  <CommandInstallAndroidApp>安装Android应用</CommandInstallAndroidApp>
+  <CommandAddServerToMobileApp>此服务器加入到移动应用</CommandAddServerToMobileApp>
+  <CommandAddToHomeScreen>添加到主屏幕</CommandAddToHomeScreen>
+  <CommandDiagnostics>诊断页</CommandDiagnostics>
+  <CommandLicenseInfo>许可证信息</CommandLicenseInfo>
+  <CommandLogout>登出</CommandLogout>
+  <CommandLogoutHint>单击以完成当前会话</CommandLogoutHint>
+  <CommandNew>新</CommandNew>
+  <CommandFile>文件</CommandFile>
+  <CommandEmptyFile>空的文件</CommandEmptyFile>
+  <CommandNewMSOODocument>与MS Office文档在线</CommandNewMSOODocument>
+  <CommandNewOffice365Document>与Office 365的文件</CommandNewOffice365Document>
+  <CommandNewMSOOWord>Word文档</CommandNewMSOOWord>
+  <CommandNewMSOOExcel>Excel表格</CommandNewMSOOExcel>
+  <CommandNewMSOOPowerPoint>PowerPoint演示文稿</CommandNewMSOOPowerPoint>
+  <CommandNewGoogleDocument>与谷歌文档</CommandNewGoogleDocument>
+  <CommandNewGoogleDocs>谷歌文档</CommandNewGoogleDocs>
+  <CommandNewGoogleSheets>谷歌表</CommandNewGoogleSheets>
+  <CommandNewGoogleSlides>谷歌幻灯片</CommandNewGoogleSlides>
+  <CommandNewImage>图像中的Pixlr</CommandNewImage>
+  <CommandFolder>夹</CommandFolder>
+  <CommandNewFile>新的空文件</CommandNewFile>
+  <CommandNewFolder>新建文件夹</CommandNewFolder>
+  <CommandNewWithTemplate>使用模板...</CommandNewWithTemplate>
+  <CommandRename>改名</CommandRename>
+  <CommandDelete>删除</CommandDelete>
+  <CommandCopy>复制</CommandCopy>
+  <CommandMove>移动</CommandMove>
+  <CommandCut>切</CommandCut>
+  <CommandCopyTo>复制到...</CommandCopyTo>
+  <CommandMoveTo>搬去...</CommandMoveTo>
+  <CommandCopyCutClipboardSuffix>到剪贴板</CommandCopyCutClipboardSuffix>
+  <CommandPaste>糊</CommandPaste>
+  <CommandPasteInto>粘贴到</CommandPasteInto>
+  <CommandZip>压缩到一个Zip档案</CommandZip>
+  <CommandZipMenu>压缩/解压缩</CommandZipMenu>
+  <CommandUnzip>解压邮编</CommandUnzip>
+  <CommandUnzipSelected>选择解压</CommandUnzipSelected>
+  <CommandUnzipAll>打开所有</CommandUnzipAll>
+  <CommandUnzipTo>该文件夹</CommandUnzipTo>
+  <CommandUnzipToCurrent>到当前文件夹</CommandUnzipToCurrent>
+  <MessageUnzipToFolder>键入一个文件夹的名称，以解开这</MessageUnzipToFolder>
+  <MessageUnzipPasswordHint>如果你知道密码是必要的拆包，在下面的字段中输入</MessageUnzipPasswordHint>
+  <MessageUnzipNeedPassword>需要密码来解压缩文件</MessageUnzipNeedPassword>
+  <ZipPasswordProtectHint>要使用密码保护的zip压缩包，输入下面的字段中输入密码。否则，保留该字段为空</ZipPasswordProtectHint>
+  <AppendToZipPasswordProtectHint>要使用密码保护加入到zip压缩包中的文件，请在下面的字段中输入密码。否则，保留该字段为空</AppendToZipPasswordProtectHint>
+  <ZipPasswordProtectWindowTitle>与密码归档</ZipPasswordProtectWindowTitle>
+  <OpenFolderAfterUnzipCheckBox>打开包装后，打开文件夹</OpenFolderAfterUnzipCheckBox>
+  <CommandUnzipToNew>到一个新的文件夹</CommandUnzipToNew>
+  <CommandZipContents>邮编内容</CommandZipContents>
+  <ArchiveContentsTitle>归档内容“{0​​}”</ArchiveContentsTitle>
+  <CommandDownload>下载</CommandDownload>
+  <CommonDownloadAll>全部下载</CommonDownloadAll>
+  <DownloadListDragFile>您可以拖动正文件拖放到桌面</DownloadListDragFile>
+  <CommandZipDownload>压缩和下载</CommandZipDownload>
+  <CommandView>查看在浏览器</CommandView>
+  <CommandDownloadOrView>下载或查看</CommandDownloadOrView>
+  <CommandPreview>图片预览</CommandPreview>
+  <CommandFlashPreview>Flash预览</CommandFlashPreview>
+  <GettingSizeFlashMovie>Flash影片的大小获取</GettingSizeFlashMovie>
+  <CommandEdit>编辑为文本文件</CommandEdit>
+  <CommandEditView>查看文本文件</CommandEditView>
+  <AceNotLoadedMessage>无法加载王牌编辑器</AceNotLoadedMessage>
+  <VideoJsNotLoadedMessage>无法加载VideoJS播放器</VideoJsNotLoadedMessage>
+  <CommandMenuEdit>编辑</CommandMenuEdit>
+  <CommandSelectAll>全选</CommandSelectAll>
+  <CommandInvertSelection>反选</CommandInvertSelection>
+  <CommandLinkToFile>链接到文件/文件夹</CommandLinkToFile>
+  <!--Share link-->
+  <CommandMakePublicFolder>创建公共链接</CommandMakePublicFolder>
+  <PublicViewInGoogle>查看在谷歌</PublicViewInGoogle>
+  <PublicViewinOWA>在OWA中查看</PublicViewinOWA>
+  <!--Make public folder (share)-->
+  <CommandViewWithGoogleDoc>查看在谷歌文档</CommandViewWithGoogleDoc>
+  <CommandViewWithShareCad>查看ShareCad.org</CommandViewWithShareCad>
+  <CommandViewWithAutodesk>查看在Autodesk</CommandViewWithAutodesk>
+  <CommandViewWithBox>查看专栏</CommandViewWithBox>
+  <CommandViewWithOWA>查看在Office Web应用程序</CommandViewWithOWA>
+  <CommandCloudConvert>与CloudConvert转换</CommandCloudConvert>
+  <ProgressGetCloudConvertOutputFormats>获取输出格式</ProgressGetCloudConvertOutputFormats>
+  <ProgressCloudConvertConverting>转换</ProgressCloudConvertConverting>
+  <CloudConvertWindowTitle>转换'{0}“</CloudConvertWindowTitle>
+  <CloudConvertWindowConvertButton>兑换</CloudConvertWindowConvertButton>
+  <CloudConvertWindowOutputFormatsLabel>输出格式</CloudConvertWindowOutputFormatsLabel>
+  <CloudConvertDownloadLinkLabel>链接下载</CloudConvertDownloadLinkLabel>
+  <CloudConvertSaveAsLabel>另存为（扩展名会自动添加）：</CloudConvertSaveAsLabel>
+  <CloudConvertNoOutputFormats>有转换没有可用的格式</CloudConvertNoOutputFormats>
+  <CloudConvertNoUrlForDownload>它没有成功接收下载链接</CloudConvertNoUrlForDownload>
+  <ProgressCloudConvertUploading>从CloudConvert上传</ProgressCloudConvertUploading>
+  <CloudConvertSaveAsNameBlank>类型名称在这里</CloudConvertSaveAsNameBlank>
+  <CancelEditButton>取消编辑</CancelEditButton>
+  <HideButton>隐藏</HideButton>
+  <EditDocumentCancelHint>之后您编辑的文档关闭该窗口，它将被自动保存。&lt;br /&gt;您可以隐藏按{0}（在这种情况下，文件仍然会关闭编辑后保存）对话框。&lt;br /&gt;如果不希望保存文件，按{1}（在这种情况下，编辑器窗口将被关闭）。</EditDocumentCancelHint>
+  <EditDocumentSaveHint>现在，你可以通过按{0}保存文件中的变化。注意！当您关闭编辑器窗口，它也将被自动保存。</EditDocumentSaveHint>
+  <CommandEditInMSOffice>编辑在MS Office中</CommandEditInMSOffice>
+  <CommandEditInOOo>编辑OpenOffice的中/的LibreOffice</CommandEditInOOo>
+  <CommandViewInMSOffice>鉴于微软Office</CommandViewInMSOffice>
+  <CommandViewInOOo>鉴于OpenOffice的/ LibreOffice中</CommandViewInOOo>
+  <CommandEditInPixlr>在编辑的Pixlr</CommandEditInPixlr>
+  <CommandEditInAdobe>编辑中的Adobe Creative云</CommandEditInAdobe>
+  <AdobeImageEditorSavedAsNewTypeMessage>在Adobe图像编辑器改变了这个局面已被保存在格式{0}</AdobeImageEditorSavedAsNewTypeMessage>
+  <CommandEditInGoogle>编辑在谷歌驱动器</CommandEditInGoogle>
+  <EditInGoogleConvertMessage>编辑后，该文件将被转换为格式{1} {0} {2}</EditInGoogleConvertMessage>
+  <EditInGoogleLinkError>无法获取链接编辑在谷歌云端硬盘文件</EditInGoogleLinkError>
+  <EditInGoogleWaiting>等待在谷歌驱动器编辑完成</EditInGoogleWaiting>
+  <CommandEditInMSOO>编辑在微软Office在线</CommandEditInMSOO>
+  <EditInMSOOLinkError>无法获取链接的MS Office在线编辑文档</EditInMSOOLinkError>
+  <EditInMSOOWaiting>在MS Office Online上等待编辑完成</EditInMSOOWaiting>
+  <CommandEditInOffice365>编辑在Office 365</CommandEditInOffice365>
+  <EditInOffice365LinkError>无法获取链接Office 365中编辑文档</EditInOffice365LinkError>
+  <EditInOffice365Waiting>在Office 365中等待编辑完成</EditInOffice365Waiting>
+  <CommandSave>保存</CommandSave>
+  <CommandSaveAs>另存为...</CommandSaveAs>
+  <CommandAppRestart>重新启动应用程序</CommandAppRestart>
+  <CommandPlayVideoFlash>在Flash播放器播放视频</CommandPlayVideoFlash>
+  <CommandPlayVideoHtml5>播放视频</CommandPlayVideoHtml5>
+  <CommandPlayAudioHtml5>音频播放</CommandPlayAudioHtml5>
+  <CommandPlayVideo>播放视频</CommandPlayVideo>
+  <CommandPlayAudio>音频播放</CommandPlayAudio>
+  <CommandConvertVideo>转换视频</CommandConvertVideo>
+
+  <ViewInServiceLink>点击此处查看文件</ViewInServiceLink>
+  <EditInServiceLink>点击此处编辑文档</EditInServiceLink>
+
+  <OfficeEditCopyLinkLabel>复制下面的链接，并在Office应用程序中打开它：</OfficeEditCopyLinkLabel>
+  <OfficeRunError>这是不可能发动{0}</OfficeRunError>
+  <BadPathToFile>这是不可能找到文件路径</BadPathToFile>
+  <FixBasicAuthAlertTitle>注意！</FixBasicAuthAlertTitle>
+  <FixBasicAuthAlertMessage>微软的Office适用于基本身份验证不使用SSL！你可以解决这个问题为您的Office。欲了解更多信息，请参阅{0}。</FixBasicAuthAlertMessage>
+  <FixBasicAuthAlertCheckBoxText>不能再以显示此对话。</FixBasicAuthAlertCheckBoxText>
+  <CommandDetails>细节</CommandDetails>
+  <CommonButtonCaptionAddDetail>添加细节</CommonButtonCaptionAddDetail>
+  <CommonButtonCaptionAddComment>添加评论</CommonButtonCaptionAddComment>
+  <DetailsWindowTitle>详细信息“{0}”</DetailsWindowTitle>
+  <FileDetailsSave>应用更改</FileDetailsSave>
+  <FileDetailsIgnoreChanges>忽视</FileDetailsIgnoreChanges>
+  <FileDetailsCloseConfirmTitle>文件详细信息窗口正在关闭</FileDetailsCloseConfirmTitle>
+  <FileDetailsCloseConfirmMsg>注意！这些变化尚未保存。选择您要关闭该窗口之前应用这些变化的行动。</FileDetailsCloseConfirmMsg>
+  <FileDetailsGridTitleColumn>标题</FileDetailsGridTitleColumn>
+  <FileDetailsGridAuthorColumn>最后笔者</FileDetailsGridAuthorColumn>
+  <LoadingDetailsMask>装在细节</LoadingDetailsMask>
+  <NewDetailsTitle>新标题</NewDetailsTitle>
+  <NewDetailsValue>新细节值</NewDetailsValue>
+  <DetailsSavingMsg>节能细节</DetailsSavingMsg>
+  <ProgressLoadingEditInOffice>准备Office中编辑</ProgressLoadingEditInOffice>
+  <MenuFilterText>过滤器</MenuFilterText>
+  <EmptyTextFilter>进入过滤器...</EmptyTextFilter>
+  <AfterDateFilterText>后</AfterDateFilterText>
+  <BeforeDateFilterText>之前</BeforeDateFilterText>
+  <OnDateFilterText>上</OnDateFilterText>
+  <YesBooleanFilterText>是</YesBooleanFilterText>
+  <NoBooleanFilterText>没有</NoBooleanFilterText>
+  <CommandEditWithZoho>编辑在百会</CommandEditWithZoho>
+  <ZohoNotSupportedFormatMessage>该扩展不支持百会。见{0}。</ZohoNotSupportedFormatMessage>
+  <ProgressLoadingEditInZoho>百会加载编辑</ProgressLoadingEditInZoho>
+  <CommandSubMenuViewAndEdit>查看/编辑</CommandSubMenuViewAndEdit>
+  <CommandSubMenuShare>分享</CommandSubMenuShare>
+  <CommandSubMenuMore>更多</CommandSubMenuMore>
+  <StopUploadingButtonText>停止</StopUploadingButtonText>
+  <SimpleUploadErrorInfo>当上传文件（S）有一个错误。&lt;br /&gt;参考{0}更多信息&lt;/A&gt;</SimpleUploadErrorInfo>
+  <BalloonAbortFilesUploaded>上传文件被终止</BalloonAbortFilesUploaded>
+  <UploadDragNDropTab>拖放</UploadDragNDropTab>
+  <UploadDragNDropTabImages>拖放+图像</UploadDragNDropTabImages>
+  <DnDGridProgressColumn>进展</DnDGridProgressColumn>
+  <DnDFileReadingError>读取错误。错误代码：{0}。</DnDFileReadingError>
+  <DnDFileReadingAbort>读数中止。错误代码：{0}。</DnDFileReadingAbort>
+  <DnDFileUploadingError>上传错误。 {0}</DnDFileUploadingError>
+  <DnDFileUploadingAbort>上传中止。</DnDFileUploadingAbort>
+  
+  <CommandWebFoldersLinks>地图Web文件夹</CommandWebFoldersLinks>
+  <CommandSyncWebFolders>与本地文件夹同步</CommandSyncWebFolders>
+  <WebFolderLinksFieldLabel>网络文件夹链接</WebFolderLinksFieldLabel>
+  <WebFolderLinksForWindows64Note>按组合键{0}赢+ R {1}。插入{0}打开命​​令行：{1}字段（参见下面的命令行的例子），单击{0} OK {1}。对于使用完全限定域名Windows身份验证：{2}。</WebFolderLinksForWindows64Note>
+  <OpenLibreOfficeRunCommandNote>或者按组合键{0}赢+ R {1}，下面插入命令行中的{0}打开：{1}字段，然后按{0} OK {1}</OpenLibreOfficeRunCommandNote>
+  <WebFolderLinksForMacOSNote>在“Finder”菜单，打开{0}转到 - &gt;连接到服务器1 {}。将Web文件夹中的{0}“服务器地址”{1}字段中的链接。点击{0}“连接”{1}。在新对话框中选择{0}“客人”{1}或{0}“注册用户”{1}（适用于Windows身份验证）。点击{0}“连接”{1}。</WebFolderLinksForMacOSNote>
+  <WebFolderLinksForUbuntuNote>打开{0}转到 - &gt;位置... {1}的Web文件夹的链接复制到位置字段。</WebFolderLinksForUbuntuNote>
+  <LinksToWebFoldersWindowText>您可以映射您认为在您的本地操作系统的网络驱动器文件夹。映射后，您可以使用文件就像本地的或编辑文档中的MS Office或OpenOffice。请参阅有关如何{0}映射的帮助。</LinksToWebFoldersWindowText>
+  <CommonFileTypeNameCaption>“{0}”文件名</CommonFileTypeNameCaption>
+  <CommonFileTypeNamePrompt>输入新的“{0}”文件名</CommonFileTypeNamePrompt>
+  
+  <PixlrEditorWindowTitle>编者的Pixlr {0}</PixlrEditorWindowTitle>
+  <PixlrSaveImageSuccessMessage>图像“{0}”已成功保存。刷新列表中，如果您用新的名称保存图像。</PixlrSaveImageSuccessMessage>
+  <CommonFileImageNewName>新图片</CommonFileImageNewName>
+  <CommandChangeTheme>改变主题</CommandChangeTheme>
+  
+  <CommandHelp>帮帮我</CommandHelp>
+
+  <OpeningShortcutProgress>开幕式快捷键</OpeningShortcutProgress>
+  <CommandCreateShortcut>快捷方式（符号链接）</CommandCreateShortcut>
+  <ShortcutNameHint>快捷方式名称</ShortcutNameHint>
+  <ShortcutTargetPathHint>目标路径</ShortcutTargetPathHint>
+  <CreateShortcutButtonTitle>创建</CreateShortcutButtonTitle>
+  <CreatingShortcutProgress>创建快捷方式</CreatingShortcutProgress>
+  <CreateShortcutSuccessMessage>快捷方式“{0}”为已成功创建“{1}”。</CreateShortcutSuccessMessage>
+
+  <OpeningInternetShortcutProgress>打开Internet快捷方式</OpeningInternetShortcutProgress>
+  <InternetShortcutNotValidMsg>该Internet快捷方式的目标URL无效</InternetShortcutNotValidMsg>
+  <InternetShortcutWindowTitle>转到链接</InternetShortcutWindowTitle>
+  
+  <CommandVersioning>版本</CommandVersioning>
+  <CommandVersionHistory>版本历史记录</CommandVersionHistory>
+  <CommandCheckOut>查看</CommandCheckOut>
+  <CommandCheckIn>报到</CommandCheckIn>
+  <CommandUndoCheckOut>取消签出</CommandUndoCheckOut>
+  <VersionHistoryObtainingMessage>获取版本历史记录</VersionHistoryObtainingMessage>
+  <NoVersionHistoryMessage>所选文件的版本历史记录不存在</NoVersionHistoryMessage>
+  <FileIsCheckedOutMessage>文件“{0}”已签出由用户“{1}”{2}</FileIsCheckedOutMessage>
+  <CheckingOutMessage>检出</CheckingOutMessage>
+  <SuccessfullyCheckedOutMessage>文件“{0}”成功由用户签出“{1}”</SuccessfullyCheckedOutMessage>
+  <FileIsNotCheckedOutMessage>文件“{0}”尚未签出尚未</FileIsNotCheckedOutMessage>
+  <FileIsCheckedOutOtherUserMessage>文件“{0}”被另一个用户签出“{1}”{2}。</FileIsCheckedOutOtherUserMessage>
+  <FileUndoCheckOutForbiddenMessage>您不能取消检查由其他用户进行应用。</FileUndoCheckOutForbiddenMessage>
+  <FileCheckInForbiddenMessage>您无法签入已由其他用户签出的文件。</FileCheckInForbiddenMessage>
+  <FileUndoCheckOutConfirmMessage>如果您取消退房，应用于文档的更改将不会被保存！你确定要取消退房？</FileUndoCheckOutConfirmMessage>
+  <FileVersionDeleteConfirmTitle>的文件版本删除</FileVersionDeleteConfirmTitle>
+  <FileVersionDeleteConfirmMessage>你确定要删除的文件的选定版本？</FileVersionDeleteConfirmMessage>
+  <FileVersionRestoreConfirmTitle>的文件版本恢复</FileVersionRestoreConfirmTitle>
+  <FileVersionRestoreConfirmMessage>你确定要恢复的文件选择的版本？{0}如果有，请在所选择的版本将被保存到文件中。如果不改变（或设置为空值）离开这个值选定的版本将替换所选文件（该文件的以前的内容将被添加到历史版本）{1}文件名：</FileVersionRestoreConfirmMessage>
+  <UndoCheckingOutMessage>取消签出</UndoCheckingOutMessage>
+  <SuccessfullyUndoCheckedOutMessage>签出一个文件取消“{0}”已成功完成。</SuccessfullyUndoCheckedOutMessage>
+  <SuccessfullyCheckedInMessage>文件“{0}”成功由用户签入“{1}”</SuccessfullyCheckedInMessage>
+  <CheckingInMessage>在检查</CheckingInMessage>
+  <VersionHistoryTitle>文件版本“{0}”</VersionHistoryTitle>
+  <VersionHistoryGridNumberColumn>版本。</VersionHistoryGridNumberColumn>
+  <VersionHistoryGridNotesColumn>笔记</VersionHistoryGridNotesColumn>
+  <CommandRestoreVersion>恢复</CommandRestoreVersion>
+  <ProgressPrepareDownloadOldVersion>准备旧版本下载</ProgressPrepareDownloadOldVersion>
+  <FileVersionNotFoundMessage>选定的文件版本没有被发现。</FileVersionNotFoundMessage>
+  <ProgressDeletingVersion>删除版本</ProgressDeletingVersion>
+  <ProgressRestoringVersion>版本恢复</ProgressRestoringVersion>
+  <FileNeedCheckInMessage>请检查或取消检查出所选的文件，然后再试一次。</FileNeedCheckInMessage>
+  <FileCheckedOutEditForbiddenMessage>您不能修改/重命名/移动/删除文件“{0}”，而正在被用户签出它“{1}”{2}</FileCheckedOutEditForbiddenMessage>
+  <FileUploadCheckInLabel>您可以检查，在选定的文件或上传文件的新版本（使用下面的上传表单）。如果你想从选定的文件创建一个新的版本，这里就不上传任何文件。</FileUploadCheckInLabel>
+  <FileUploadCheckInInvalidFileName>上传文件的文件名应该是完全一样的选择文件的名称</FileUploadCheckInInvalidFileName>
+  <CheckOutVersionNotes>这个版本已经自动创建</CheckOutVersionNotes>
+  <RestoreVersionNotes>从版本恢复后自动此版本已创建{0}的用户“{1}”</RestoreVersionNotes>
+  <IsCheckedOutHint>该文件已签出</IsCheckedOutHint>
+  <ExistsOldVersionsHint>该文件有其他版本</ExistsOldVersionsHint>
+  <IsLockedHint>该文件被锁定</IsLockedHint>
+  <FileWasCreatedHint>已创建{0}前</FileWasCreatedHint>
+  <FileWasModifiedHint>已更改{0}前</FileWasModifiedHint>
+  <CommonChangedAgo>{0}前</CommonChangedAgo>
+  <DaysShort>ð</DaysShort>
+  <HoursShort>H</HoursShort>
+  <MinutesShort>米</MinutesShort>
+  <FileContainsMetaDataHint>包含了一些细节（元数据）</FileContainsMetaDataHint>
+  <FileMetaDataCaptionMobile>元数据</FileMetaDataCaptionMobile>
+
+  <ExistsPublicLinksFileHint>该文件具有公共链接</ExistsPublicLinksFileHint>
+  <ExistsPublicLinksFolderHint>该文件夹的公共链接</ExistsPublicLinksFolderHint>
+  <PublicLinkNotFound>公共链接“{0}”未找到</PublicLinkNotFound>
+
+  <PublicLinksDeleteWindowTitle>删除公共链接（S）</PublicLinksDeleteWindowTitle>
+  <PublicLinksDeleteLinkButton>删除链接</PublicLinksDeleteLinkButton>
+  <PublicLinksDeleteConfirmMsg>你确定要删除所选的公共链接？</PublicLinksDeleteConfirmMsg>
+  <PublicLinksDeleteSingleConfirmMsg>你确定要删除此链接？</PublicLinksDeleteSingleConfirmMsg>
+
+  <DetailsMultiValue>（多值）</DetailsMultiValue>
+
+  <GridBottomFilesSizeInfo>选择：{0} / {1}，</GridBottomFilesSizeInfo>
+  <GridBottomFilesFoldersInfo>文件：{0} / {1}，文件夹：{2} / {3}</GridBottomFilesFoldersInfo>
+
+  <AmountOfDownloadingsFile>下载</AmountOfDownloadingsFile>
+
+  <CookiesDisabledMessage>您的浏览器的cookie功能被关闭。请打开它，并重新启动浏览器。</CookiesDisabledMessage>
+
+  <CommandSendEmail>发电子邮件</CommandSendEmail>
+  <CommandSendWithGmail>使用Gmail发送</CommandSendWithGmail>
+  <CommandSendWithOutlook>发送与Outlook</CommandSendWithOutlook>
+  <SendEmailTo>至</SendEmailTo>
+  <SendEmailBulkMailingListHint>&lt;b&gt;邮件列表&lt;/b&gt; &lt;br /&gt;您可以指定全组发送电子邮件</SendEmailBulkMailingListHint>
+  <SendEmailBulkMailingListWindowTitle>您的电子邮件接收器选择</SendEmailBulkMailingListWindowTitle>
+  <SendEmailEmptyMailingListMessage>邮件列表是空的</SendEmailEmptyMailingListMessage>
+  <SendEmailSenderEmail>发件人的电子邮件</SendEmailSenderEmail>
+  <SendEmailSubject>学科</SendEmailSubject>
+  <SendEmailFilesAsLinksTo>发送链接选定的文件</SendEmailFilesAsLinksTo>
+  <SendEmailFilesAsAttachements>发送选定的文件作为附件</SendEmailFilesAsAttachements>
+  <SendEmailSend>发送</SendEmailSend>
+  <SendEmailProgressMessage>发送电子邮件</SendEmailProgressMessage>
+  <GettingMailingListProgressMessage>获取邮件列表</GettingMailingListProgressMessage>
+  <SendEmailSuccessMessage>电子邮件已成功发送。</SendEmailSuccessMessage>
+  <SendEmailResultsMessage>发送：{0}。&lt;br /&gt;失败：{1} {2}。</SendEmailResultsMessage>
+  <SmtpServerSettingsIncorrect>在SMTP服务器选项是空的或不正确</SmtpServerSettingsIncorrect>
+  <FromEmailIncorrect>发件人的电子邮件地址不正确或空</FromEmailIncorrect>
+  <ToEmailIncorrect>在对方的电子邮件地址不正确或为空</ToEmailIncorrect>
+  <EmailSubjectEmpty>未指定电子邮件的主题是</EmailSubjectEmpty>
+  <UploadFromUrlTab>从网址</UploadFromUrlTab>
+  <UploadFromUrlFieldLabel>URL（HTTP或FTP单个文件）</UploadFromUrlFieldLabel>
+  <UploadFromUrlProgressTitle>从URL上传</UploadFromUrlProgressTitle>
+  <UploadFromUrlMsg>从网址上传</UploadFromUrlMsg>
+  <UploadFromUrlSuccessMsg>文件“{0}”已经成功地从上传“{1}”</UploadFromUrlSuccessMsg>
+  <UploadFromUrlUnknownResponse>来自服务器的响应未识别</UploadFromUrlUnknownResponse>
+  <UploadFromUrlEmptyFileName>上传文件的名称为空</UploadFromUrlEmptyFileName>
+  <UploadFromUrlFileName>用名称保存（留空从URL中使用的名称）</UploadFromUrlFileName>
+  <UploadFromUrlFileNameMobile>保存名称</UploadFromUrlFileNameMobile>
+  
+  <!-- Common Clouds keys -->  
+  <CloudAuthenticateMessage>您必须在{0}登录。点击“{1}”的链接，你会被重定向到登录表单。 {2}更多信息。{3}</CloudAuthenticateMessage>
+  <CloudAuthenticateLink>与验证{0}</CloudAuthenticateLink>  
+  <CloudDownloadingMessage>下载到{0}</CloudDownloadingMessage>
+  <CloudAuthWarningMessage>如果操作还没有发生，请关闭此窗口，然后再次点击“{0}”链接。</CloudAuthWarningMessage>
+  <CloudAuthEmptyInvalidMessage>{0}访问令牌是空的或无效的。请重新进行身份验证。</CloudAuthEmptyInvalidMessage>
+  <CloudDownloadEndMessageTitle>下载完成</CloudDownloadEndMessageTitle>
+  <CloudDownloadFilesSuccessMessage>{0}文件（S）成功下载到“{1}”{2}文件夹。</CloudDownloadFilesSuccessMessage>
+  <CloudNotDownloadedFilesMessage>{0}文件（S）未下载：</CloudNotDownloadedFilesMessage>
+  <CloudFoldersCreatedSuccessMessage>{0}文件夹（S）在“{1}”{2}文件夹创建成功。</CloudFoldersCreatedSuccessMessage>
+  <CloudNotFoldersCreatedMessage>{0}文件夹（S）未创建：</CloudNotFoldersCreatedMessage>
+  <CloudFilesFoldersSuccessMessage>{0}文件（S），{1}文件夹（S）成功下载到“{2}”{3}文件夹。</CloudFilesFoldersSuccessMessage>
+  <CloudNotFilesFoldersDownloadedMessage>{0}文件（S），{1}文件夹（S）未下载：</CloudNotFilesFoldersDownloadedMessage>
+  <CloudLinkText>访问{0}</CloudLinkText>
+  <CloudLinkDescription>转到{0}页</CloudLinkDescription>
+  <CloudRootFolderName>&lt;b&gt; {0}根文件夹&lt;/b&gt;</CloudRootFolderName>
+  <CloudCheckFolerMessage>请检查单{0}文件夹继续。</CloudCheckFolerMessage>
+  <CloudSelectFolderMessage>请选择{0}文件夹继续。</CloudSelectFolderMessage>
+  <CloudGetFoldersInfoProgressMessage>加载{0}文件夹信息</CloudGetFoldersInfoProgressMessage>
+  <CloudGetItemsInfoProgressMessage>加载{0}项目信息</CloudGetItemsInfoProgressMessage>
+  <CloudUploadSelectItemsMessage>请选择{0}项继续。</CloudUploadSelectItemsMessage>
+  <CloudUploadTotalFiles>文件总数：{0}（{1}）</CloudUploadTotalFiles>
+  <CloudUploadProgressMessage>从上传{0}</CloudUploadProgressMessage>
+  <CloudSignInAsDifferentUserText>从注销{0}</CloudSignInAsDifferentUserText>
+  <CloudLogoutProgressMsg>从注销{0}</CloudLogoutProgressMsg>
+  <CloudRevokeTokenMsg>撤销令牌</CloudRevokeTokenMsg>
+  <CloudRefreshTokenMsg>清爽令牌</CloudRefreshTokenMsg>
+  <CloudAuthNotCompleteMsg>验证未完成。&lt;br /&gt;请</CloudAuthNotCompleteMsg>
+  <CloudTrustedSitesMsg> 检查按照“受信任的站点”列表的网站：&lt;br /&gt; &lt;br /&gt;</CloudTrustedSitesMsg>
+  <TrustedSitesForMicrosoftEdge>如果你正在使用微软的边缘，然后检查Internet Explorer中的受信任的站点</TrustedSitesForMicrosoftEdge>
+  <CloudCheckAuthMsg>检查{0}认证</CloudCheckAuthMsg>
+  <CloudLoadMsg>加载{0}</CloudLoadMsg>
+  <CloudFreeSpaceError>没有足够的空间{2}上传的文件。好：{0}。文件大小：{1}。</CloudFreeSpaceError>
+  <CloudFreeSpaceExceeded>没有足够的空间{0}</CloudFreeSpaceExceeded>
+  <CloudExceedFileSizeError>您要下载的文件有{1}的文件大小，这比下载所允许的最大尺寸更大 -  {0}。</CloudExceedFileSizeError>
+  <CloudFolderNotFound>找不到目录。也许它已被删除</CloudFolderNotFound>
+  <CloudFileNotFound>文件未找到。也许它已被删除</CloudFileNotFound>
+  <CloudNoFoldersMessage>有没有文件夹显示</CloudNoFoldersMessage>
+  <CloudLibraryNotLoadedMsg>{0}客户端库不装！&lt;br /&gt;请检查连接互联网和或刷新页面。&lt;br /&gt;同时</CloudLibraryNotLoadedMsg>
+  <CloudDownloadWithNewNames>在与新名称下载的文件（S）：</CloudDownloadWithNewNames>
+
+  <!-- Google Drive Cloud keys -->
+  <CommandDownloadToGoogleDocs>下载到谷歌驱动器</CommandDownloadToGoogleDocs>
+  <GoogleDocsSaveAs>另存为：</GoogleDocsSaveAs>
+  <GoogleDocsSaveAsTitle>保存“{0}”为...</GoogleDocsSaveAsTitle>
+  <GoogleDocsDownloadEndWarningMessage>如果你不能看到你的谷歌云端硬盘帐户上传的文件，等待几秒钟，刷新谷歌驱动器列表。</GoogleDocsDownloadEndWarningMessage>
+  <GoogleDriveUploadNoFilesMessage>在谷歌驱动器中没有文件上传</GoogleDriveUploadNoFilesMessage>
+  <GoogleDriveMaxUploadSizeError>对于内容类型“{0}”{1}超出上载的最大尺寸。</GoogleDriveMaxUploadSizeError>
+  <GoogleDriveConvertMsg>如果可能的话，文件转换成谷歌文档格式。 {0}更多信息{1}。</GoogleDriveConvertMsg>
+
+  <!-- Box Cloud keys -->
+  <CommandDownloadToBox>下载到框</CommandDownloadToBox>
+  <BoxDownloadWithNewNames>下列文件（S）在新版本进行了更新：</BoxDownloadWithNewNames>
+  <BoxNoViewPermission>您没有权限查看所选目录</BoxNoViewPermission>
+  <BoxNoDownloadPermission>您没有权限下载</BoxNoDownloadPermission>
+  <BoxNoUploadPermission>您没有权限上传</BoxNoUploadPermission>
+  <BoxUnableCreateOrInfoError>无法创建或获取信息</BoxUnableCreateOrInfoError>
+  
+  <!-- Dropbox Cloud keys -->
+  <CommandDownloadToDropbox>下载到Dropbox的</CommandDownloadToDropbox>
+  
+  <!-- OneDrive Cloud keys -->
+  <CommandDownloadToSkyDrive>下载到OneDrive</CommandDownloadToSkyDrive>
+  <AuthenticateOAuthSkyDriveMessageShort>您必须登录到Microsoft Live帐户。</AuthenticateOAuthSkyDriveMessageShort>
+  <SkyDriveAuthAlsoString>也</SkyDriveAuthAlsoString>
+  <SkyDriveLoginButtonTitle>登录</SkyDriveLoginButtonTitle>
+  <SkyDriveRegistryMessage>还没有一个Windows Live ID？ {0}注册... {1}</SkyDriveRegistryMessage>
+  <SkyDriveMapRootFolder>注意！您可以{0}图{1}您的OneDrive文件夹中。 Path是</SkyDriveMapRootFolder>
+  <SkyDriveMoreInfoLink>{0}有关OneDrive（SkyDrive的）更多信息{1}</SkyDriveMoreInfoLink>
+  <OneDriveMaxUploadSizeError>（{0}）超出允许尺寸上传的文件：{1}</OneDriveMaxUploadSizeError>
+  <!-- OneDrive for Business -->
+  <OneDriveForBusinessMapWebFolderInfo>&lt;b&gt;注意！&lt;/b&gt;在此位置打开文件之前，必须先在网站添加到您的受信任站点列表，浏览到网站，并选择选项自动登录（在IE浏览器）。</OneDriveForBusinessMapWebFolderInfo>
+  
+  <UploadFromUrlLabelText>可以指定存储在全局文件服务器或类似的文件共享服务的文件的URL {0}，{1}，{2}，{3}，{4}。</UploadFromUrlLabelText>
+  <UploadFromUrlLabelTextMobile>指定文件的URL</UploadFromUrlLabelTextMobile>
+
+  <LinkToFileTitle>链接到文件/文件夹</LinkToFileTitle>
+  <LinkToFileWarningAnonym>此链接提供该文件的匿名访问。任何用户，即使是一个有没有考虑在这个网站，可以下载或通过公共链接上传文件。公开连结到一个文件，您可以下载一个选定的文件。 {0}更多信息{1}。</LinkToFileWarningAnonym>
+  <LinkToFileDownloadFileLink>此链接可以下载从{1}选择的文件{0}。你需要一个有效的帐户才能使用此链接。它不提供对文件的匿名访问。</LinkToFileDownloadFileLink>
+  <LinkToFileExpireDate>截止日期</LinkToFileExpireDate>
+  <LinkToFileDownloadCnt>下载次数限制</LinkToFileDownloadCnt>
+  <LinkToFileDownloadType>链接类型</LinkToFileDownloadType>
+  <LinkToFileGenerate>创建链接</LinkToFileGenerate>
+  <LinkToFilePasswordNotMatch>密码不匹配</LinkToFilePasswordNotMatch>
+  <LinkToFilePasswordRequired>为公众链接时需要输入密码</LinkToFilePasswordRequired>
+  <LinkToFileInvalidForm>参数无效</LinkToFileInvalidForm>
+  <LinkToFileAnonymDownloadLinkHint>公共链接“{0}”：</LinkToFileAnonymDownloadLinkHint>
+  <LinkToFileAnonymDownloadShortLinkHint>短公众链接“{0}”：</LinkToFileAnonymDownloadShortLinkHint>
+  <LinkToFileOpenFolderLink>此链接可以打开{1}所选文件夹{0}。你需要一个有效的帐户才能使用此链接。它不提供到该文件夹​​的匿名访问。</LinkToFileOpenFolderLink>
+  <LinkToFileOpenFileLink>此链接打开的文件夹与文件并突出显示它</LinkToFileOpenFileLink>
+  <LinkToFileDaysLeft>左天</LinkToFileDaysLeft>
+  <LinkToFileCaptionMobile>公共链接</LinkToFileCaptionMobile>
+
+  <PublicFolderLinkHint>公共链接到文件夹“{0}”：</PublicFolderLinkHint>
+  <PublicFolderShortLinkHint>短公开连结文件夹“{0}”：</PublicFolderShortLinkHint>
+  <PublicFolderLinkDownloadZipHint>下载链接文件夹的压缩档案“{0}”：</PublicFolderLinkDownloadZipHint>
+  <PublicFolderLinkShortDownloadZipHint>短期下载链接文件夹的压缩档案“{0}”：</PublicFolderLinkShortDownloadZipHint>
+  <PublicFolderLinkZipDownload>压缩和下载当前文件夹{0}（在一个ZIP压缩包）</PublicFolderLinkZipDownload>
+  <PublicFolderLinkOverwriteWhileUpload>覆盖现有</PublicFolderLinkOverwriteWhileUpload>
+  <PublicFolderLinkOpenFolderHint>打开文件夹</PublicFolderLinkOpenFolderHint>
+  <PublicFolderDownloadDisabledNote>注意！此文件夹的所有者已经禁止从该文件夹下载文件。</PublicFolderDownloadDisabledNote>
+  <PublicFolderLinkSendEmails>发送信息有关访问者的活动，以电子邮件</PublicFolderLinkSendEmails>
+  <PublicFolderAnonymAccessControl>访问控制</PublicFolderAnonymAccessControl>
+  <PublicFolderAnonymDownload>下载文件</PublicFolderAnonymDownload>
+  <PublicFolderAnonymZipDownload>下载文件夹（ZIP）</PublicFolderAnonymZipDownload>
+  <PublicFolderAnonymUpload>上传</PublicFolderAnonymUpload>
+  <PublicFolderAnonymViewContent>查看文件列表</PublicFolderAnonymViewContent>
+  <PublicFolderNoteForUsers>注意用户</PublicFolderNoteForUsers>
+  <PublicFolderACLNotSet>访问控制未设置</PublicFolderACLNotSet>
+  <PublicFolderWarningAnonym>此链接提供的文件夹匿名访问。任何用户，即使是一个有没有考虑在这个网站，可以下载或通过公共链接上传文件。公共链接到该文件夹​​，您可以同时下载整个文件夹（装在档案）和单独的文件。 {0}更多信息{1}。</PublicFolderWarningAnonym>
+  <PublicLinksShowForAllItems>显示所有</PublicLinksShowForAllItems>
+  <PublicLinksShowForSelected>显示所选</PublicLinksShowForSelected>
+  
+  <MultipleFileInputMessage>注意！您的浏览器支持同时多个文件的选择。</MultipleFileInputMessage>
+  <UploadZipUnzipNote>您可以上传多个文件和文件夹的zip压缩文件，然后在上下文菜单中使用“{0}”命令解压。</UploadZipUnzipNote>
+  <DnDFileUploadingStatusCode>状态代码</DnDFileUploadingStatusCode>
+  <DnDFileUploadingPathOrNameEmpty>未指定的路径和-或文件名</DnDFileUploadingPathOrNameEmpty>
+  <DnDFileUploadingRemoveFromList>从列表中删除</DnDFileUploadingRemoveFromList>
+  <DndFileUploadingDontDropFoldersMsg>您可以将文件拖放到下面的表中。不能删除文件夹。</DndFileUploadingDontDropFoldersMsg>
+  <DndFileUploadingAllowDropFoldersMsg>您可以拖放文件和文件夹到下面的表中。</DndFileUploadingAllowDropFoldersMsg>
+  <DndFileUploadingFilesSummaryInfo>文件数：{0}（{1}）</DndFileUploadingFilesSummaryInfo>
+  <DropFilesHere>拖放文件上传</DropFilesHere>
+  
+  <FileGridDownloadColumn>下载文件</FileGridDownloadColumn>
+  <FileAttributesField>属性</FileAttributesField>
+  <FolderCalculateSize>计算</FolderCalculateSize>
+  <FolderRecalculateSize>重新计算</FolderRecalculateSize>
+  <FolderContainsField>包含</FolderContainsField>
+  <FolderContainsFilesFolders>{0}文件，{1}文件夹</FolderContainsFilesFolders>
+  <FolderCalculatingMessage>计算</FolderCalculatingMessage>
+
+  <SearchTitle>文件搜索。可用模式：{0}</SearchTitle>
+  <SearchType>搜索</SearchType>
+  <SearchOnlyFiles>只有文件</SearchOnlyFiles>
+  <SearchOnlyFolders>只有文件夹</SearchOnlyFolders>
+  <SearchBothFilesFolders>这两个文件和文件夹</SearchBothFilesFolders>
+  <SearchFileDetails>文件详细信息</SearchFileDetails>
+  <SearchFileContent>文件内容</SearchFileContent>
+  <SearchByDateFrom>从</SearchByDateFrom>
+  <SearchByDateTo>至</SearchByDateTo>
+  <SearchLocation>位置</SearchLocation>
+  <SearchLocationEntire>随地</SearchLocationEntire>
+  <SearchLocationCurrent>当前</SearchLocationCurrent>
+  <SearchSearch>搜索</SearchSearch>
+  <SearchNothingFound>没有被发现！请改进搜索标准。</SearchNothingFound>
+  <SearchErrorCaption>搜索错误</SearchErrorCaption>
+  <SearchResultsNotComplete>注意！因为某些文件夹尚未建立索引的搜索结果可能是不完整的。</SearchResultsNotComplete>
+  <SearchRepeatOrContactAdmin>请稍后重新尝试搜索或与管理员联系。</SearchRepeatOrContactAdmin>
+  <SearchLinkToManual>请参阅{0} Windows搜索帮助{1}</SearchLinkToManual>
+  <QuerySearchByNameText>按名称搜索</QuerySearchByNameText>
+  <QuerySearchByConentText>按内容</QuerySearchByConentText>
+  <SearchByDetailsWarning>注意！你，你想用按属性搜索设置中指定。在这种情况下，搜索将使用标准方法，而不是使用Windows索引服务来进行。</SearchByDetailsWarning>
+  <SearchInSpecialFolderWarning>注意！若要搜索当前文件夹中不适用。如果继续，搜索将所有目录中进行。</SearchInSpecialFolderWarning>
+
+  <UploadTitle>多个文件上传</UploadTitle>
+  <UploadSimpleTab>标准</UploadSimpleTab>
+  <UploadSimpleReset>重启</UploadSimpleReset>
+  <UploadSimpleUpload>上传</UploadSimpleUpload>
+  <UploadSimpleUploadFolderLabelCollapsed>上传文件夹</UploadSimpleUploadFolderLabelCollapsed>
+  <UploadSimpleUploadFolderButtonText>选择文件夹</UploadSimpleUploadFolderButtonText>
+  <UploadJavaTab>Java的</UploadJavaTab>
+  <UploadJavaIgnorePaths>将所有的文件一个文件夹中（忽略路径）</UploadJavaIgnorePaths>
+  <UploadFlashTab>闪</UploadFlashTab>
+  <UploadSilverlightTab>Silverlight的</UploadSilverlightTab>
+  <UploadPartially>某些文件无法上传</UploadPartially>
+  <UploadFolderNotSelectedTitle>文件夹未选中</UploadFolderNotSelectedTitle>
+  <UploadFolderNotSelected>请选择该文件将被上传到文件夹</UploadFolderNotSelected>
+  <UploadInProgress>上传您的文件</UploadInProgress>
+  <UploadInvalidFormFields>表单域可能无法与无效值提交</UploadInvalidFormFields>
+  <UploadAjaxFailed>阿贾克斯通信失败</UploadAjaxFailed>
+  <UploadFilesAlreadyExists>文件（S）已经存在</UploadFilesAlreadyExists>
+  <UploadOverwriteFiles>现有文件将被覆盖。你想继续吗？</UploadOverwriteFiles>
+  <UploadOverwriteOrRenameFiles>有一个或多个文件与指定的目录中的匹配名字。是否要覆盖现有文件？点击“{0}”，如果要覆盖已经存在的文件，或者“{1}” - 如果你想保存的所有文件（它们将被重命名）。</UploadOverwriteOrRenameFiles>
+  <UploadNotModifyExistingFiles>有一个或多个文件与指定的目录名称匹配。该文件无法上传。请从上传列表中删除现有的文件或重命名。</UploadNotModifyExistingFiles>
+  <UploadRenamedExistingFiles>有一个或多个文件与指定的目录名称匹配。名称匹配的文件将被重新命名。</UploadRenamedExistingFiles>
+  <UploadNotAllowedTitle>上传是不允许的</UploadNotAllowedTitle>
+  <UploadNotAllowedPrompt>你不能上传文件到这个文件夹</UploadNotAllowedPrompt>
+
+  <UploadMobileIOSVideo>上传视频。如果您需要上传视频文件，启用该选项。</UploadMobileIOSVideo>
+  <UploadMobileAurigmaLink>请注意，你应该有Aurigma起来！安装在设备上才能上传文件。点击这里安装Aurigma起来！申请上传图片和视频。</UploadMobileAurigmaLink>
+  <UploadMobileAurigmaReady>Aurigma后！安装或者您已经安装，请按下面的“上传”按钮。</UploadMobileAurigmaReady>
+  <UploadMobileAurigmaFilePrefix>前缀上传的文件</UploadMobileAurigmaFilePrefix>
+  <UploadMobileResult>上传的结果：</UploadMobileResult>
+  <UploadMobileUrlPlaceHolder>在此输入网址</UploadMobileUrlPlaceHolder>
+  <UploadMobileFileNamePlaceHolder>在此输入新的文件名</UploadMobileFileNamePlaceHolder>
+  <UploadBrowseLabel>浏览...</UploadBrowseLabel>
+  
+  <MobileToolTipsCaption>你知道吗 ...</MobileToolTipsCaption>
+  <MobileToolTipsNextButton>下一个提示</MobileToolTipsNextButton>
+  <MobileToolTipsIKnowButton>我知道</MobileToolTipsIKnowButton>
+  <MobileToolTipsHideButton>从不显示</MobileToolTipsHideButton>
+  <MobileToolTipsMultiSelection>要选择多个文件或文件夹，您应该通过点击在&lt;b&gt; {0} &lt;/b&gt;按钮启用多选择模式。再次点击它从多选模式中退出。</MobileToolTipsMultiSelection>
+  <MobileToolTipsSlideToRemove>您可以从右侧滑动至左侧任意列表项将其删除。内联删除按钮将列表项的顶部显示。</MobileToolTipsSlideToRemove>
+  <MobileToolTipsTapAndHoldForMenu>点击并按住任意列表项显示上下文菜单。通过轻按“披露”按钮显示相同的上下文菜单</MobileToolTipsTapAndHoldForMenu>
+  <MobileToolTipsDoubleTapForPreview>在文件只需轻轻将其选中，双击预览或下载。在文件夹只需轻轻将其打开。</MobileToolTipsDoubleTapForPreview>
+  <MobileToolTipsPullDownToRefresh>下拉列表中重新加载它的内容。</MobileToolTipsPullDownToRefresh>
+  <MobileToolTipsPinchToScale>您可以使用“捏”的手势进行放大和缩小出图像。</MobileToolTipsPinchToScale>
+  <MobileToolTipsTapToHideBars>任何地方点击图像面板上切换工具栏。</MobileToolTipsTapToHideBars>
+  <MobileToolTipsSlideLeftRightToNext>切换图像采用滑盖的姿态。</MobileToolTipsSlideLeftRightToNext>
+
+  <DownloadToCloudMobileTip>单一的水龙头，选择文件夹，双击打开它。</DownloadToCloudMobileTip>
+  
+  <UploadTotalMaxSizeMessage>注意！所有上传的文件的最大尺寸不能超过{0}。</UploadTotalMaxSizeMessage>
+  <UploadOneFileMaxSizeMessage>注意！每个上传文件的最大尺寸不能超过{0}。</UploadOneFileMaxSizeMessage>
+  <UploadUnlimitedSizeMessage>注意！上传的文件大小是无限的。</UploadUnlimitedSizeMessage>
+  <SimpleUploadSetFileNameNote>笔记2！选中文件后，您可以修改该文件将上传后的名字</SimpleUploadSetFileNameNote>
+
+  <AnonymousUploadTitle>上传文件到这个文件夹</AnonymousUploadTitle>
+  <AnonymousUploadDescription>您可以将文件上传到该文件夹​​。点击“浏览”按钮下，选择文件。</AnonymousUploadDescription>
+  <AnonymousUploadOverwriteHint>如果上传的文件已经存在，它会被替换。</AnonymousUploadOverwriteHint>
+  <AnonymousUploadShowUploadHint>显示上传表单</AnonymousUploadShowUploadHint>
+  <AnonymousUploadHideUploadHint>隐藏上传表单</AnonymousUploadHideUploadHint>
+  <AnonymousUploadNewFolderNameHint>在现场下面你可以指定一个子目录名称（如果它不存在的文件夹将创建），其中文件将被上传：</AnonymousUploadNewFolderNameHint>
+  <AnonymousUploadCompleteTitle>上传到该文件夹​​{0}完成</AnonymousUploadCompleteTitle>
+  <AnonymousUploadExistsFilesMessage>下列文件（S）尚未上传因为文件（S）具有相同名称（多个）已经存在：{0}。</AnonymousUploadExistsFilesMessage>
+  <AnonymousUploadOwnersNote>从文件夹所有者注意</AnonymousUploadOwnersNote>
+  <AnonymousDownloadPageTitle>下载文件</AnonymousDownloadPageTitle>
+  <AnonymousDownloadFileHint>下载文件</AnonymousDownloadFileHint>
+  <AnonymousUploadPageTitle>上传到文件夹</AnonymousUploadPageTitle>
+  <AnonymousPublicFolderPageTitle>公用文件夹</AnonymousPublicFolderPageTitle>
+  <AnonymousLoginAccessUserFailure>你登录不具有访问资源的帐户。为您的访问，请输入其他凭证。如果你不认识他们，请与公共链接或管理员的所有者。</AnonymousLoginAccessUserFailure>
+  <ProgressGettingAnonymLink>公共链路创建</ProgressGettingAnonymLink>
+  <ProgressGettingAnonymLinks>获取匿名链接</ProgressGettingAnonymLinks>
+  <ProgressGettingBoxViewLink>获取箱查看链接</ProgressGettingBoxViewLink>
+  <AutodeskScriptNotIncludedMessage>无法加载器的Autodesk脚本</AutodeskScriptNotIncludedMessage>
+  <ProgressUninitializeAutodeskViewer>关闭浏览器欧特克</ProgressUninitializeAutodeskViewer>
+  <ProgressGettingAutodeskViewLink>欧特克获取信息查看</ProgressGettingAutodeskViewLink>
+  <AnonymousChangeLanguageHint>选择语言</AnonymousChangeLanguageHint>
+  <AnonymousUpLinkHint>回到父文件夹</AnonymousUpLinkHint>
+  <AnonymousPasswordDescription>该文件夹密码保护</AnonymousPasswordDescription>
+  <AnonymousPasswordIncorrectMessage>密码不正确</AnonymousPasswordIncorrectMessage>
+  <AnonymousErrorTitle>公共链接错误</AnonymousErrorTitle>
+  <AnonymousErrorNotFound>公共链接“{0}”未找到！</AnonymousErrorNotFound>
+  <AnonymousErrorAccessDenied>您不必使用公共链接许可“{0}”</AnonymousErrorAccessDenied>
+  <AnonymousErrorFileNotFound>公共链接“{0}”是指不存在的文件或文件夹或NTFS读访问被拒绝</AnonymousErrorFileNotFound>
+  <AnonymousErrorUnknownLinkType>公共链接“{0}”未找到</AnonymousErrorUnknownLinkType>
+  <AnonymousSendEmailSubject>公用文件夹的访问者活动</AnonymousSendEmailSubject>
+  <AnonymousSendEmailUploadBody>下列文件被上传到您的公用文件夹{0}：{1}。</AnonymousSendEmailUploadBody>
+  <AnonymousSendEmailDownloadBody>文件{0}从公共文件夹{1}下载。</AnonymousSendEmailDownloadBody>
+  <AnonymousSendEmailZipDownloadBody>公用文件夹{0}的全部内容是在一个ZIP文件下载。</AnonymousSendEmailZipDownloadBody>
+  <AnonymousViewLinksButton>查看链接</AnonymousViewLinksButton>
+  <AnonymousViewLinksHint>要查看已有的公共链接</AnonymousViewLinksHint>
+  <AnonymousViewLinksWindowTitle>公共链接</AnonymousViewLinksWindowTitle>
+  <AnonymousViewLinksDateCreatedColumn>创建日期</AnonymousViewLinksDateCreatedColumn>
+  <AnonymousViewLinksDateExpiredColumn>截止日期</AnonymousViewLinksDateExpiredColumn>
+  <AnonymousViewLinksPermissionColumn>允许</AnonymousViewLinksPermissionColumn>
+  <AnonymousViewLinksDownloadedColumn>左下载数</AnonymousViewLinksDownloadedColumn>
+  <ProgressDeletingAnonymousLink>删除公开链接</ProgressDeletingAnonymousLink>
+  <ProgressSavingAnonymousLink>节省公共链接</ProgressSavingAnonymousLink>
+  <AnonymousEditLinkWindowTitle>编辑公共链接“{0}”</AnonymousEditLinkWindowTitle>
+  <AnonymousEditLinkShowUrl>显示链接</AnonymousEditLinkShowUrl>
+  <AnonymousEditLinkNotFound>公众链接找不到或其有效期已过期</AnonymousEditLinkNotFound>
+
+  <AnonymousLinkSendViaButton>发送方式...</AnonymousLinkSendViaButton>
+  <AnonymousLinkSendViaEmailItem>电子邮件...</AnonymousLinkSendViaEmailItem>
+  <AnonymousLinkSendButton>通过电子邮件发送...</AnonymousLinkSendButton>
+  <AnonymousLinkSendSubject>网页式档案管理公共链接</AnonymousLinkSendSubject>
+
+  <AnonymousLinkAdvOptTitle>其他参数</AnonymousLinkAdvOptTitle>
+  <AnonymousLinkViewTypeButton>链接视图</AnonymousLinkViewTypeButton>
+  <AnonymousLinkViewTypeDefault>充分</AnonymousLinkViewTypeDefault>
+  <AnonymousLinkViewTypeShort>短</AnonymousLinkViewTypeShort>
+
+  <AnonymousLinkShowCommentsLabel>展会介绍，标签和注释</AnonymousLinkShowCommentsLabel>
+  <AnonymousLinkShowCommentsShort>展会评论</AnonymousLinkShowCommentsShort>
+
+  <QRCodeButton>二维码</QRCodeButton>
+
+  <AnonymousLinkLimitedAccessTitle>受限访问</AnonymousLinkLimitedAccessTitle>
+  <AnonymousLinkLimitAccessCheckBox>只限制指定认证的用户访问</AnonymousLinkLimitAccessCheckBox>
+  <AnonymousLinkLimitAccessTextArea>键入用户名或电子邮件（逗号分隔）</AnonymousLinkLimitAccessTextArea>
+  <AnonymousLinkLimitAccessSendCheckBox>通知发送给指定的用户</AnonymousLinkLimitAccessSendCheckBox>
+  <AnonymousLinkLimitAccessPersMsgLabel>个人消息（可选）</AnonymousLinkLimitAccessPersMsgLabel>
+  <AnonymousLinkLimitAccessPassAndUsersMsg>您在同一时间访问链接指定的密码和用户。请指定的东西之一。</AnonymousLinkLimitAccessPassAndUsersMsg>
+  <AnonymousLinkLimitAccessUsersNotFound>用户：
+    {0}
+    不存在</AnonymousLinkLimitAccessUsersNotFound>
+  <AnonymousLinkLimitAccessEmailsNotFound>这些电子邮件：
+    {0}
+    不存在</AnonymousLinkLimitAccessEmailsNotFound>
+  <AnonymousLinkLimitAccessUsersEmailsNotFound>用户：
+    {0}
+    和电子邮件：
+    {1}
+    不存在</AnonymousLinkLimitAccessUsersEmailsNotFound>
+
+  <AnonymousLinkUnableToCreate>无法创建匿名链接</AnonymousLinkUnableToCreate>
+  <AnonymousLinkShortUrlLabel>请点击刷新图标（右下角）来获取短链接</AnonymousLinkShortUrlLabel>
+  <AnonymousLinkShortUrlUpdate>请下载或更新一个短链接</AnonymousLinkShortUrlUpdate>
+  <AnonymousLinkLongUrlNotSpecified>未指定的网址很长</AnonymousLinkLongUrlNotSpecified>
+
+  <ClientFileOrDirectoryAlreadyExists>文件或目录名称已经存在</ClientFileOrDirectoryAlreadyExists>
+  <ClientPermissionsAllowTypes>当前权限允许该操作仅在以下文件类型{0}</ClientPermissionsAllowTypes>
+  <ClientPermissionsDenyTypes>当前权限禁止这种操作具有下列文件类型{0}</ClientPermissionsDenyTypes>
+  <OfficeApplicationNotFoundAlert>Office应用程序未找到。打开使用文本框链接手动的文件。</OfficeApplicationNotFoundAlert>
+  <OfficeAnonymousEditPublicLinkError>无法创建公共链接以匿名方式打开Office文档。</OfficeAnonymousEditPublicLinkError>
+
+  <GoogleOWAViewLinkMessage>要查看文档单击下面的链接：</GoogleOWAViewLinkMessage>
+  <ZohoEditLinkMessage>编辑下面的文件点击链接：</ZohoEditLinkMessage>
+  <PixlrEditLinkMessage>编辑下面的图片链接点击：</PixlrEditLinkMessage>
+  <PixlrNewImageCreateTitle>创建的Pixlr新形象</PixlrNewImageCreateTitle>
+  <PixlrNewImageLinkMessage>要创建一个新的形象，请点击以下链接：</PixlrNewImageLinkMessage>
+
+  <DownloadTitle>的多个文件下载</DownloadTitle>
+  <DownloadSimpleTab>标准</DownloadSimpleTab>
+  <DownloadJavaTab>Java的</DownloadJavaTab>
+  <DownloadIEPrevent>Internet Explorer中阻止自动下载</DownloadIEPrevent>
+  <DownloadIEClickHere>点击这里下载</DownloadIEClickHere>
+  <DownloadIEArchiveReady>归档“{0}”与选定的文件被创建，并准备下载</DownloadIEArchiveReady>
+  <DownloadIECaption>下载已准备就绪</DownloadIECaption>
+
+  <SettingsTitle>设置</SettingsTitle>
+  <SettingsLanguage>语言</SettingsLanguage>
+  <SettingsLogOutRequired>新变化将注销或重新启动浏览器应用！</SettingsLogOutRequired>
+  <ThemeTitle>改变主题</ThemeTitle>
+  <SettingsTheme>选择主题</SettingsTheme>
+  <ThemeDefaultTitle>默认主题</ThemeDefaultTitle>
+  <ThemeGrayTitle>灰色主题</ThemeGrayTitle>
+  <ThemeAccessTitle>辅助功能主题</ThemeAccessTitle>
+
+  <ChangeUserPasswordTitle>更改用户密码</ChangeUserPasswordTitle>
+  <ChangeUserPasswordOldPassword>旧密码</ChangeUserPasswordOldPassword>
+  <ChangeUserPasswordNewPassword>新密码</ChangeUserPasswordNewPassword>
+  <ChangeUserPasswordRepeatNewPassword>重复新密码</ChangeUserPasswordRepeatNewPassword>
+  <ChangeUserPasswordPasswordsNotMatch>密码不匹配。</ChangeUserPasswordPasswordsNotMatch>
+  <ChangeUserPasswordSuccessMessage>密码已被更改。</ChangeUserPasswordSuccessMessage>
+  <ChangeUserPasswordInvalidMessage>无效的密码。</ChangeUserPasswordInvalidMessage>
+
+  <ChangeUserEmailTitle>更改用户的电子邮件</ChangeUserEmailTitle>
+  <ChangeUserEmailEmail>电子邮件</ChangeUserEmailEmail>
+  <ChangeUserEmailSuccessMessage>电子邮件已被更改。</ChangeUserEmailSuccessMessage>
+
+  <UserHelpTitle>用户帮助</UserHelpTitle>
+
+  <LicenseTitle>许可证信息</LicenseTitle>
+  <LicenseTrial>未注册的30天试用版</LicenseTrial>
+  <LicensePrompt>行货版本{0}用户数：{1} {0}购买日期：{2} {0}</LicensePrompt>
+  <LicenseFreeUpgradeMessage>你还有{0}，免费升级和支持天。</LicenseFreeUpgradeMessage>
+  <LicenseCheckMessage>一年多的时间已经从购买之日起通过。要使用这个版本，你应该续订或降级到旧版本。您可以检查您的许可证，并找到&lt;a href='{0}' target='_blank'&gt;我们检查许可页面&lt;/a&gt;可用版本</LicenseCheckMessage>
+  
+  <ViewPopupBlocked>新的窗口已被阻止弹出窗口拦截器</ViewPopupBlocked>
+  
+  <LoginTwoFactorTitle>两步验证</LoginTwoFactorTitle>
+  <LoginTitle>登录</LoginTitle>
+  <LoginRemember>下次记住我</LoginRemember>
+  <LoginUISelect>接口</LoginUISelect>
+  <LoginUIStandard>标准</LoginUIStandard>
+  <LoginUITouch>移动</LoginUITouch>
+  <LoginLanguage>语言</LoginLanguage>
+  <LoginLogin>登录</LoginLogin>
+  <LoginFailure>您的登录尝试不成功。</LoginFailure>
+  <LoginBlocked>该帐户被阻止。等待{0}分钟后重试。</LoginBlocked>
+  <LoginNotActivated>您的帐号未激活。</LoginNotActivated>
+  <LoginResendActivation>如果很长一段时间没有接收与激活代码信息，点击{0}链路重新发送激活码。</LoginResendActivation>
+  <LoginResendActivationLink>发送激活码</LoginResendActivationLink>
+  <LoginResendActivationCode>点击{0}链接重新发送激活码。</LoginResendActivationCode>
+  
+  <ActivateAccountOk>帐号激活成功！</ActivateAccountOk>
+  <ActivateAccountResultLabel>激活结果</ActivateAccountResultLabel>
+  <ActivateAccountErrorOnlyFormsAuth>帐号激活只能用Forms身份验证中使用</ActivateAccountErrorOnlyFormsAuth>
+  <ActivateAccountErrorNotRequired>账户激活应用程序设置中禁用。帐户注册后自动激活。</ActivateAccountErrorNotRequired>
+  <ActivateAccountErrorAlreadyActivated>帐号已激活</ActivateAccountErrorAlreadyActivated>
+  <ActivateAccountErrorInvalidCode>激活码无效</ActivateAccountErrorInvalidCode>
+  <ActivateAccountErrorAccountNotFound>找不到帐户</ActivateAccountErrorAccountNotFound>
+  <ActivateAccountErrorLinkBroken>激活链接被打破</ActivateAccountErrorLinkBroken>
+  <ActivateAccountReturnToLogin>返回到登录页面</ActivateAccountReturnToLogin>
+  
+  <LoginRender>给予</LoginRender>
+  
+  <LogoutTitle>网络文件管理器注销</LogoutTitle>
+  <LogoutSessionEnded>本届会议已结束</LogoutSessionEnded>
+  <LogoutCloseWindow>关闭窗口</LogoutCloseWindow>
+  <LogoutEnterAgain>重新登录</LogoutEnterAgain>
+  <LogoutClosingBrowserRequired>注意！任何人都可以在您的帐户登录！如果您使用的是共享计算机，那么你就应该关闭浏览器窗口（不只是选项卡）在浏览器中清除认证！对于Firefox浏览器可以清除在菜单认证：工具 - &gt;清除历史了Resent ...-&gt;详细信息 - &gt;检查活动Logins-&gt;记者立即清除。</LogoutClosingBrowserRequired>
+  <RecoverPasswordTitle>恢复密码</RecoverPasswordTitle>
+  <RecoverPasswordEmailPassword>通过电子邮件发送密码</RecoverPasswordEmailPassword>
+  <RecoverPasswordErrorInvalidUserName>无效的用户名。</RecoverPasswordErrorInvalidUserName>
+  <RecoverPasswordErrorNoEmail>该用户没有定义的电子邮件地址。</RecoverPasswordErrorNoEmail>
+  <RecoverPasswordErrorSendEmail>在发送电子邮件时发生错误。</RecoverPasswordErrorSendEmail>
+  <RecoverPasswordSuccess>您的密码已发送到您的电子邮箱。</RecoverPasswordSuccess>
+
+  <RecoverUserNameTitle>恢复名称</RecoverUserNameTitle>
+  <RecoverUserEmailName>通过电子邮件发送的名字</RecoverUserEmailName>
+  <RecoverUserNameErrorInvalidEmail>无效的用户的电子邮件。</RecoverUserNameErrorInvalidEmail>
+  <RecoverUserNameErrorNoEmail>电子邮件地址找不到。</RecoverUserNameErrorNoEmail>
+  <RecoverUserNameSuccess>你的名字已发送到您的电子邮件地址。</RecoverUserNameSuccess>
+
+  <ChangeEmailTitle>更改电子邮件</ChangeEmailTitle>
+  <ChangeEmailEmail>新邮件</ChangeEmailEmail>
+  <ChangeEmailSubmit>提交</ChangeEmailSubmit>
+  <ChangeEmailStatusSuccess>电子邮件已被更改</ChangeEmailStatusSuccess>
+
+  <RegisterTitle>寄存器</RegisterTitle>
+  <RegisterEmail>电子邮件</RegisterEmail>
+  <RegisterExtraInfo>额外的信息</RegisterExtraInfo>
+  <RegisterCaptcha>输入你在下面的图片看到的文字</RegisterCaptcha>
+  <RegisterSubmit>提交</RegisterSubmit>
+  <RegisterErrorPasswordNotMatch>密码不匹配。</RegisterErrorPasswordNotMatch>
+  <RegisterErrorUserExists>此用户名或邮箱地址已被使用。</RegisterErrorUserExists>
+  <RegisterErrorCaptchaInvalid>图像文本输入不正确</RegisterErrorCaptchaInvalid>
+  <RegisterSuccess>新用户已添加。</RegisterSuccess>
+  <RegisterActivationSent>激活码发送到您的电子邮件。</RegisterActivationSent>
+  <RegisterActivationCheckEmail>请检查您的邮箱中（特别是垃圾邮件文件夹），然后按照指示的电子邮件。</RegisterActivationCheckEmail>
+  
+  <FolderGridUserPermissionsColumn>用户访问</FolderGridUserPermissionsColumn>
+  <FolderGridGroupPermissionsColumn>团体访问</FolderGridGroupPermissionsColumn>
+
+  <LoginLinkText>登录</LoginLinkText>
+  <RecoverPasswordLinkText>忘记密码？</RecoverPasswordLinkText>
+  <RecoverUserNameLinkText>忘记叫什么名字？</RecoverUserNameLinkText>
+  <RegisterLinkText>寄存器</RegisterLinkText>
+  <ChangeEmail>更改电子邮件</ChangeEmail>
+  <LoginMobileVersionLinkText>移动版（智能手机大多和触摸板）</LoginMobileVersionLinkText>
+
+  <FileIsNotZipArchive>文件{0}不是ZIP压缩包</FileIsNotZipArchive>
+
+  <FileModificationsAuthor>作者</FileModificationsAuthor>
+  <FileModificationsHistory>查看历史记录</FileModificationsHistory>
+  <FileModificationsWindowTitle>文件的修改“{0}”</FileModificationsWindowTitle>
+  <FileModificationsTypeCreated>创建</FileModificationsTypeCreated>
+  <FileModificationsTypeModified>改性</FileModificationsTypeModified>
+  <FileModificationsTypeRenamed>改名</FileModificationsTypeRenamed>
+  <FileModificationsTypeRestored>恢复</FileModificationsTypeRestored>
+  <FileModificationsTypeDeleted>已删除</FileModificationsTypeDeleted>
+
+  <ChangingReadOnlyProgressMessage>更改只读属性</ChangingReadOnlyProgressMessage>
+
+  <ImageViewerWindowTitle>图像查看器[{0}]</ImageViewerWindowTitle>
+  <ImageViewerLoadingMessage>加载图像浏览器</ImageViewerLoadingMessage>
+  <ImageViewerLoadingImageMessage>加载图片</ImageViewerLoadingImageMessage>
+  <ImageViewerFirstImageTip>第一张图片</ImageViewerFirstImageTip>
+  <ImageViewerPreviousImageTip>上一张图片</ImageViewerPreviousImageTip>
+  <ImageViewerRefreshTip>刷新图像列表</ImageViewerRefreshTip>
+  <ImageViewerNextImageTip>下一图片</ImageViewerNextImageTip>
+  <ImageViewerLastImageTip>最后一张图片</ImageViewerLastImageTip>
+  <ImageViewerRunSlideShow>运行图像幻灯片放映</ImageViewerRunSlideShow>
+  <ImageViewerStopSlideShow>停止图片幻灯片放映</ImageViewerStopSlideShow>
+  <ImageViewerImageSimpleInfo>{0} / {1}，{2}（{3}）</ImageViewerImageSimpleInfo>
+  <ImageViewerImageLoadErrorMessage>图像没有被发现或不能显示</ImageViewerImageLoadErrorMessage>
+  <ImageViewerShowImageSizeOfWindow>与实际尺寸显示图片</ImageViewerShowImageSizeOfWindow>
+  <ImageViewerShowRealImageSize>点击放大</ImageViewerShowRealImageSize>
+
+  <PasswordExpiresTitle>密码过期</PasswordExpiresTitle>
+  <PasswordExpiresMessage>您的密码{0}天（S）后过期！</PasswordExpiresMessage>
+  <PasswordExpiredMessage>您的密码已过期。</PasswordExpiredMessage>
+  <PasswordChangeMessage>要更改密码，请选择{0} {1}  - &gt; {2} {3}在工具栏上。</PasswordChangeMessage>
+
+  <UnzipContentTotalFiles>文件总数：{0}（{1}）</UnzipContentTotalFiles>
+
+  <VideoConversionJobNotFound>
+    无法找到指定的转换过程。
+    可能的原因：
+    1，转换结束很久以前，取出这份工作的信息。
+    2.转换过程异常终止。
+  </VideoConversionJobNotFound>
+  <VideoConversionUtilityNotFound>无法找到实用程序来执行所请求的操作：{0}</VideoConversionUtilityNotFound>
+  <!-- The current security principal "{0}" has insufficiant permissions to executable file "{1}".-->
+  <VideoConversionUtilityInsufficientPermissions>当前用户“{0}”被拒绝访问的可执行文件“{1}”。</VideoConversionUtilityInsufficientPermissions>
+  <VideoConversionOperationCancelled>操作被取消</VideoConversionOperationCancelled>
+  <VideoConversionUtilityFailed>转换实用程序异常终止</VideoConversionUtilityFailed>
+  <VideoConversionOutputFileBusy>输出文件正被另一转换过程</VideoConversionOutputFileBusy>
+
+  <VideoConvertWindowValidatorPositiveInt>必须是一个正整数</VideoConvertWindowValidatorPositiveInt>
+  <VideoConvertWindowTitle>转换视频</VideoConvertWindowTitle>
+  <VideoConvertWindowInputFile>输入文件</VideoConvertWindowInputFile>
+  <VideoConvertWindowOutputFile>输出文件</VideoConvertWindowOutputFile>
+  <VideoConvertWindowOutputFormat>输出格式</VideoConvertWindowOutputFormat>
+  <VideoConvertWindowBitrate>比特率（Kbps）的</VideoConvertWindowBitrate>
+  <VideoConvertWindowFrameResolution>帧分辨率</VideoConvertWindowFrameResolution>
+  <VideoConvertWindowDAR>显示宽高比</VideoConvertWindowDAR>
+  <VideoConvertWindowPAR>像素长宽比</VideoConvertWindowPAR>
+  <VideoConvertWindowResize>调整</VideoConvertWindowResize>
+  <VideoConvertWindowProfile>轮廓</VideoConvertWindowProfile>
+  <VideoConvertWindowWidth>宽度</VideoConvertWindowWidth>
+  <VideoConvertWindowHeight>高度</VideoConvertWindowHeight>
+  <VideoConvertWindowExtractDetailsProgressMsg>提取视频详细</VideoConvertWindowExtractDetailsProgressMsg>
+  <VideoConvertWindowOutputFileExistsTitle>输出文件存在</VideoConvertWindowOutputFileExistsTitle>
+  <VideoConvertWindowOutputFileExistsMsg>输出文件已经存在。它会被覆盖。</VideoConvertWindowOutputFileExistsMsg>
+  <VideoConvertWindowPrepareToConvert>准备转换视频</VideoConvertWindowPrepareToConvert>
+  <VideoConvertWindowOutputFileMatchInputFile>输出文件名匹配输入文件名</VideoConvertWindowOutputFileMatchInputFile>
+
+  <VideoConvertProgressWindowTitle>转换视频</VideoConvertProgressWindowTitle>
+  <VideoConvertProgressWindowInputFile>输入文件</VideoConvertProgressWindowInputFile>
+  <VideoConvertProgressWindowOutputFile>输出文件</VideoConvertProgressWindowOutputFile>
+  <VideoConvertProgressWindowStatus>状态</VideoConvertProgressWindowStatus>
+  <VideoConvertProgressWindowStatusTerminating>终止</VideoConvertProgressWindowStatusTerminating>
+  <VideoConvertProgressWindowStatusPreparing>准备</VideoConvertProgressWindowStatusPreparing>
+  <VideoConvertProgressWindowStatusProgress>步骤{0} {1}</VideoConvertProgressWindowStatusProgress>
+  <VideoConvertProgressWindowStatusDone>做</VideoConvertProgressWindowStatusDone>
+
+  <PlayHtml5VideoNotSupported>你的浏览器不支持HTML 5视频元素。</PlayHtml5VideoNotSupported>
+  <PlayHtml5VideoPlayFailed>播放视频失败</PlayHtml5VideoPlayFailed>
+  <PlayHtml5AudioPlayFailed>播放音频失败</PlayHtml5AudioPlayFailed>
+  <PlayHtml5AudioTitle>标题</PlayHtml5AudioTitle>
+  <PlayHtml5AudioNotSupported>你的浏览器不支持HTML 5音频元素。</PlayHtml5AudioNotSupported>
+  <PlayHtml5AudioArtist>艺术家</PlayHtml5AudioArtist>
+  <PlayHtml5AudioAlbum>专辑</PlayHtml5AudioAlbum>
+  <PlayHtml5AudioYear>年</PlayHtml5AudioYear>
+  <PlayHtml5AudioDuration>为期</PlayHtml5AudioDuration>
+  <PlayHtml5AudioBitrate>比特率</PlayHtml5AudioBitrate>
+  <PlayHtml5AudioVolume>卷</PlayHtml5AudioVolume>
+
+  <!-- Root title -->
+  <RootTitle>根</RootTitle>
+
+  <!-- Recent feature keys -->
+  <RecentRootTitle>最近</RecentRootTitle>
+  <RecentDeleteOnePrompt>你确定你想“{0}”从最近的项目删除吗？</RecentDeleteOnePrompt>
+  <RecentDeleteManyPrompt>你确定要删除从最近的项目，这些{0}项目？</RecentDeleteManyPrompt>
+  <RecentPathNotExist>最近路径“{0}”不存在或访问被拒绝</RecentPathNotExist>
+  <RecentAllWithoutGroupingTitle>所有W / O分组</RecentAllWithoutGroupingTitle>
+  <RecentEditGroupTitle>编辑</RecentEditGroupTitle>
+  <RecentViewGroupTitle>观看</RecentViewGroupTitle>
+  <RecentDownloadGroupTitle>下载</RecentDownloadGroupTitle>
+  <RecentUploadGroupTitle>上传</RecentUploadGroupTitle>
+  <RecentCreateGroupTitle>创建</RecentCreateGroupTitle>
+
+  <!-- Trash feature keys -->
+  <TrashRootTitle>垃圾</TrashRootTitle>
+  <TrashLabelDateDeleted>删除日期</TrashLabelDateDeleted>
+  <TrashDeleteOnePrompt>您确定要永久删除“{0}”从垃圾箱？</TrashDeleteOnePrompt>
+  <TrashDeleteManyPrompt>你确定要永久删除回收站这些{0}项目？</TrashDeleteManyPrompt>
+  <TrashEmptyTrashLabel>清空垃圾桶</TrashEmptyTrashLabel>
+  <TrashRestoreSelectedLabel>恢复</TrashRestoreSelectedLabel>
+  <TrashRestoreAllLabel>恢复所有</TrashRestoreAllLabel>
+  <TrashEmptyTrashPrompt>你确定要清空回收站？</TrashEmptyTrashPrompt>
+  <TrashRestoreAllPrompt>你确定你要恢复从回收站中的所有项目？</TrashRestoreAllPrompt>
+  <TrashProgressRestoring>从垃圾箱中恢复</TrashProgressRestoring>
+  <TrashFolderNotFound>回收站目录未找到</TrashFolderNotFound>
+  <TrashBalloonRestored>还原项目：{0} {1}</TrashBalloonRestored>
+  <TrashDeleteDirectlyLabel>直接删除而不删除到垃圾箱</TrashDeleteDirectlyLabel>
+  <TrashUsedSpaceHint>{0}使用</TrashUsedSpaceHint>
+  <TrashLimitSizeHint>使用{0} {1}（{2}）</TrashLimitSizeHint>
+  <TrashLargeItemsShelfTimeHint>对象的存储时间比{0}较大：{1}天（多个）</TrashLargeItemsShelfTimeHint>
+  <TrashSmallItemsShelfTimeHint>对于所有其他：{0}天（S）</TrashSmallItemsShelfTimeHint>
+  <TrashItemsShelfTimeHint>对象的存储时间：{0}天（S）</TrashItemsShelfTimeHint>
+  <TrashAvailableSpaceHint>最大可用大小{0}</TrashAvailableSpaceHint>
+  <TrashDeletedFromFolderHint>从已删除{0}</TrashDeletedFromFolderHint>
+  <TrashExceededMessage>以下物件太大，不能设废纸篓（超过{0}的限制）：</TrashExceededMessage>
+  <TrashErrorSuffixMessage>请尝试检查选项“{0}”，然后删除文件（S）永远无法挽回</TrashErrorSuffixMessage>
+
+  <!-- Shared by link -->
+  <SharedByLinkRootTitle>通过链接分享</SharedByLinkRootTitle>
+
+  <!-- Shared for you -->
+  <SharedForYouRootTitle>与您共享</SharedForYouRootTitle>
+  <SharedForYouUnableToGetUrl>无法获取网址</SharedForYouUnableToGetUrl>
+
+  <!-- Watch for modifications -->
+  <WatchForModifsCommand>留意修改</WatchForModifsCommand>
+  <WatchForModifsStartCommand>开始观看</WatchForModifsStartCommand>
+  <WatchForModifsEditCommand>看着更改</WatchForModifsEditCommand>
+  <WatchForModifsStopCommand>驻足观望</WatchForModifsStopCommand>
+  <WatchForModifsViewChangesCommand>查看变化</WatchForModifsViewChangesCommand>
+  <WatchForModifsSubscriptionSuccessMessage>您已成功订阅了修改为“{0}”</WatchForModifsSubscriptionSuccessMessage>
+  <WatchForModifsStopSuccessMessage>监测“{0}”已经成功禁用</WatchForModifsStopSuccessMessage>
+  <WatchForModifsIncludingNestedLabel>考虑嵌套的文件，文件夹</WatchForModifsIncludingNestedLabel>
+  <WatchForModifsParentWatchExistMessage>对于选定的项目已经被分配了监控父文件夹“{0}”。</WatchForModifsParentWatchExistMessage>
+  <WatchForModifsRootFolder>警报</WatchForModifsRootFolder>
+  <WatchForModifsStartProgressLoading>看着启用</WatchForModifsStartProgressLoading>
+  <WatchForModifsStopProgressLoading>Terminatie看</WatchForModifsStopProgressLoading>
+  <WatchForModifsIconHint>启用表进行修改</WatchForModifsIconHint>
+  <WatchForModifsNotifCheckBox>通知有关电子邮件的修改：</WatchForModifsNotifCheckBox>
+  <WatchForModifsWatchedUsersCheckBox>只监视用户（如果你监控所有留空）：</WatchForModifsWatchedUsersCheckBox>
+  <WatchForModifsIgnoreOwnerCheckBox>忽略我自己的变化</WatchForModifsIgnoreOwnerCheckBox>
+  <WatchForModifsActionsCheckBox>监视所有（从下面的列表或某些动作）的动作</WatchForModifsActionsCheckBox>
+  <WatchForModifsNestedItemsWarning>注意！当您添加监视选定文件夹，所有这些个人监测已先前添加的封闭的文件和文件夹，监控将被删除。你想继续吗？</WatchForModifsNestedItemsWarning>
+
+  <WelcomeWindowHideCheckboxLabel>不要被下一个记录显示此</WelcomeWindowHideCheckboxLabel>
+
+  <LogsGridMoreInfoColumn>更多信息</LogsGridMoreInfoColumn>
+  <LogsGridDetailsTitle>细节</LogsGridDetailsTitle>
+  <LogsGridPhysPathColumn>物理路径</LogsGridPhysPathColumn>
+  <LogsGridIsFolderColumn>夹？</LogsGridIsFolderColumn>
+  <LogsGridIsPublicColumn>上市？</LogsGridIsPublicColumn>
+  <LogsGridByWebDavColumn>WebDAV的？</LogsGridByWebDavColumn>
+
+  <NoCommentsYetHint>暂时没有评论</NoCommentsYetHint>
+  <NoHistoryYetHint>没有历史还</NoHistoryYetHint>
+
+  <DetailsPropertyValuesCouldNotBeWritten>无法储存属性值，马贝文件类型不支持这样的可能性，或存在在与该文件相关联的应用错误。</DetailsPropertyValuesCouldNotBeWritten>
+
+  <AdminCommandHelp>帮帮我</AdminCommandHelp>
+  <AdminCommandAddUser>新增用户</AdminCommandAddUser>
+  <AdminCommandAddGroup>添加组</AdminCommandAddGroup>
+  <AdminCommandRemoveUser>删除用户</AdminCommandRemoveUser>
+
+  <AdminCommandSelectUsers>添加用户</AdminCommandSelectUsers>
+  <AdminCommandSelectGroups>添加组</AdminCommandSelectGroups>
+  <AdminCommandRemoveUsers>删除用户</AdminCommandRemoveUsers>
+  <AdminCommandRemoveGroups>删除组</AdminCommandRemoveGroups>
+  <AdminUsersGroups>成员</AdminUsersGroups>
+  <AdminSearchUserEmptyText>输入用户名</AdminSearchUserEmptyText>
+  <AdminSearchGroupEmptyText>输入组名</AdminSearchGroupEmptyText>
+  <AdminUsersGroupAlreadyExists>A组（S）与该姓名（或名称）已添加</AdminUsersGroupAlreadyExists>
+
+  <AdminApplicationLoading>管理面板装载</AdminApplicationLoading>
+  <AdminTitle>行政</AdminTitle>
+  <AdminUsersEditUser>编辑用户</AdminUsersEditUser>
+  <AdminUsersSetUserPassword>设置密码</AdminUsersSetUserPassword>
+  <AdminUsersViewGroups>查看组</AdminUsersViewGroups>
+  <AdminUsersViewFolders>查看文件夹</AdminUsersViewFolders>
+  <AdminUsersDeleteUserPrompt>你确定要删除用户（S）“{0}”？</AdminUsersDeleteUserPrompt>
+  <AdminUsersDeletedUsers>{0}用户（S）删除。</AdminUsersDeletedUsers>
+  <AdminUsersUserNotFound>具有此名称的用户未找到</AdminUsersUserNotFound>
+  <AdminUsersPropertiesTitle>用户属性</AdminUsersPropertiesTitle>
+  <AdminUsersSetPasswordTitle>设置用户密码</AdminUsersSetPasswordTitle>
+  <AdminUsersGeneralInfo>用户信息</AdminUsersGeneralInfo>
+  <AdminUsersUserEmail>电子邮件</AdminUsersUserEmail>
+  <AdminUsersEmptyName>用户名不能为空</AdminUsersEmptyName>
+  <AdminUsersEmptyPassword>用户密码不能为空</AdminUsersEmptyPassword>
+  <AdminUsersIncorrectName>还有的用户名不正确的符号</AdminUsersIncorrectName>
+  <AdminUsersAlreadyExists>用户使用该名称已经存在</AdminUsersAlreadyExists>
+  <AdminUsersEmailAlreadyExists>用户使用此电子邮件已经存在</AdminUsersEmailAlreadyExists>
+  <AdminUsersPasswordsNotMatch>密码不匹配</AdminUsersPasswordsNotMatch>
+  <AdminUsersRenameWarning>重命名用户后，有必要改变密码，否则当前web夹链接将是不正确</AdminUsersRenameWarning>
+  <AdminUsersLicenseRestriction>您的许可证不允许您创建大于{0}更多用户</AdminUsersLicenseRestriction>
+  <AdminUsersCountInfoWithLimit>用户总数：{0}从{1}</AdminUsersCountInfoWithLimit>
+  <AdminUsersCountInfo>用户总数：{0}</AdminUsersCountInfo>
+
+  <AdminGroupsEditGroup>编辑组</AdminGroupsEditGroup>
+  <AdminGroupsRemoveGroup>删除组</AdminGroupsRemoveGroup>
+  <AdminGroupsDeleteGroupPrompt>你确定要删除群组“{0}”？</AdminGroupsDeleteGroupPrompt>
+  <AdminGroupsDeletedGroups>{0}群组删除。</AdminGroupsDeletedGroups>
+  <AdminGroupsGroupNotFound>具有此名称的组未发现</AdminGroupsGroupNotFound>
+  <AdminGroupsViewUsers>查看用户</AdminGroupsViewUsers>
+  <AdminGroupsProperties>属性</AdminGroupsProperties>
+  <AdminGroupsPropertiesTitle>组属性</AdminGroupsPropertiesTitle>
+  <AdminGroupsGeneralInfo>集团信息</AdminGroupsGeneralInfo>
+  <AdminGroupsUserNamePrompt>输入用户名</AdminGroupsUserNamePrompt>
+  <AdminGroupsUsers>小组成员</AdminGroupsUsers>
+  <AdminGroupsUserAlreadyExists>用户（S）与该姓名（或名称）已添加</AdminGroupsUserAlreadyExists>
+  <AdminGroupsEmptyName>组名称不能为空</AdminGroupsEmptyName>
+  <AdminGroupsIncorrectName>有组名称不正确的符号</AdminGroupsIncorrectName>
+  <AdminGroupsAlreadyExists>一组名称已经存在</AdminGroupsAlreadyExists>
+  <AdminGroupsCountInfo>总群：{0}</AdminGroupsCountInfo>
+
+  <AdminLanguagesTab>本地化</AdminLanguagesTab>
+  <AdminLanguagesTabMessage>要编辑本地化文件，在列表中选择所需的语言，点击本地化字符串进行编辑。经过修改后点击“保存”按钮</AdminLanguagesTabMessage>
+  <AdminLangGridKeyColumn>键名</AdminLangGridKeyColumn>
+  <AdminLangGridDefaultColumn>英语</AdminLangGridDefaultColumn>
+  <AdminEnterLanguageNameTitle>输入语言名称</AdminEnterLanguageNameTitle>
+  <AdminLangConfirmRefreshTitle>刷新确认</AdminLangConfirmRefreshTitle>
+  <AdminLangConfirmRefreshMessage>注意！数据未保存。你现在要保存更改？</AdminLangConfirmRefreshMessage>
+  <AdminLangAmountInfo>填充键：{0} {1}的（空值：{2}）</AdminLangAmountInfo>
+  <AdminLangSaveToCSV>导出为CSV</AdminLangSaveToCSV>
+  <AdminLangLoadFromCSV>从CSV负载</AdminLangLoadFromCSV>
+
+  <AdminDbMaintenanceTab>数据库维护</AdminDbMaintenanceTab>
+  <AdminDbMaintenanceInfoTitle>信息</AdminDbMaintenanceInfoTitle>
+  <AdminDbMaintenanceInfoPathLabel>DB文件路径</AdminDbMaintenanceInfoPathLabel>
+  <AdminDbMaintenanceInfoSizeLabel>DB文件大小</AdminDbMaintenanceInfoSizeLabel>
+  <AdminDbMaintenanceCompactTitle>压缩数据库</AdminDbMaintenanceCompactTitle>
+  <AdminDbMaintenanceCompactNote>为了减少数据库文件的大小，请点击下面的按钮。有必要周期性地执行该数据库的压缩，因为，例如，去除一些不活动公共链路或旧的日志记录在DB文件大小不会降低之后。</AdminDbMaintenanceCompactNote>
+  <AdminDbMaintenanceCompactButton>紧凑型DB</AdminDbMaintenanceCompactButton>
+  <AdminDbMaintenanceCompactSuccess>DB压缩成功。
+旧文件大小：{0}
+新的文件大小：{1}</AdminDbMaintenanceCompactSuccess>
+  <AdminDbMaintenanceCompactAutoNote>也可以去除记录操作后打开自动压缩数据库上，但是，它是不推荐的，因为它可能更频繁的碱的锁，它可以增加一些请求的持续时间。注意！此设置的改变之后，应用程序将重新启动！</AdminDbMaintenanceCompactAutoNote>
+  <AdminDbMaintenanceCompactAutoCheckBox>启用/禁用自动紧凑型DB</AdminDbMaintenanceCompactAutoCheckBox>
+  <AdminDbMaintenanceCompactAutoSaveButton>保存</AdminDbMaintenanceCompactAutoSaveButton>
+  <AdminDbMaintenanceCompactAutoSaveSuccess>数据库自动сompression的变化已经顺利完成。该页面将很快更新。</AdminDbMaintenanceCompactAutoSaveSuccess>
+  <AdminDbMaintenanceEnableLogLabel>选择的数据库查询日志记录级别（进入数据/的debug.log）</AdminDbMaintenanceEnableLogLabel>
+  <AdminDbMaintenanceSettingsSaveSuccess>DB设置保存成功。该页面将被重新加载</AdminDbMaintenanceSettingsSaveSuccess>
+  <AdminDbMaintenanceSettingsChangeNote>注意！的设置保存后的应用程序将很快重新开始！</AdminDbMaintenanceSettingsChangeNote>
+  <AdminDbMaintenanceInsertIntervalLabel>添加事件的DB（分钟）的时间间隔。如果指定0，则插入会事件后直接出现。</AdminDbMaintenanceInsertIntervalLabel>
+  <AdminDbMaintenanceAdvDbParamsTitle>高级DB连接参数</AdminDbMaintenanceAdvDbParamsTitle>
+  <AdminDbMaintenanceStatTitle>统计数据（取决于数据库日志级别DurationExecution）</AdminDbMaintenanceStatTitle>
+  <AdminDbMaintenanceStatDurationReadLabel>平均读取超时</AdminDbMaintenanceStatDurationReadLabel>
+  <AdminDbMaintenanceStatDurationWriteLabel>平均写入超时</AdminDbMaintenanceStatDurationWriteLabel>
+  <AdminDbMaintenanceStatDurationCompactLabel>平均紧凑超时</AdminDbMaintenanceStatDurationCompactLabel>
+  <AdminDbMaintenanceStatNoData>没有数据</AdminDbMaintenanceStatNoData>
+  <AdminDbMaintenanceStatGetButton>收集统计信息</AdminDbMaintenanceStatGetButton>
+
+  <AdminMiscTab>杂项</AdminMiscTab>
+  <AdminMiscLoadADAccountsTitle>加载Active Directory帐户</AdminMiscLoadADAccountsTitle>
+  <AdminMiscLoadADAccountsLoadButton>加载</AdminMiscLoadADAccountsLoadButton>
+  <AdminMiscLoadADAccountsResetButton>重启</AdminMiscLoadADAccountsResetButton>
+  <AdminMiscLoadADAccountsLdap>LDAP容器</AdminMiscLoadADAccountsLdap>
+  <AdminMiscLoadADAccountsToFile>到文件</AdminMiscLoadADAccountsToFile>
+  <AdminMiscLoadADAccountsSuccessMessage>Active Directory帐户成功加载</AdminMiscLoadADAccountsSuccessMessage>
+  <AdminMiscLoadADAccountsInfo>在这里，您可以生成包含整个的Active Directory用户结构中的文件。如果你使用一个静态文件公元信息存储需要此文件。同样的文件可以通过采用ADManager工具生成。欲了解更多信息请参阅&lt;b&gt; ADAccountsFilePath &lt;/b&gt;参数描述{0}手册{1}。</AdminMiscLoadADAccountsInfo>
+
+  <AdminMiscManageQuotasTitle>管理配额</AdminMiscManageQuotasTitle>
+  <AdminMiscManageQuotasInfo>查询现有的或创建新的配额以限制允许为一个文件夹的空间，动力由文件服务器资源管理器。</AdminMiscManageQuotasInfo>
+  <AdminMiscManageQuotasFolderPath>文件夹路径</AdminMiscManageQuotasFolderPath>
+  <AdminMiscManageQuotasQuota>配额</AdminMiscManageQuotasQuota>
+  <AdminMiscManageQuotasGetQuota>获取配额</AdminMiscManageQuotasGetQuota>
+  <AdminMiscManageQuotasSetQuota>设置配额</AdminMiscManageQuotasSetQuota>
+
+  <AdminMiscFoldersFromGPOLTitle>从组策略加载文件夹</AdminMiscFoldersFromGPOLTitle>
+  <AdminMiscFoldersFromGPOLComputerName>计算机名称</AdminMiscFoldersFromGPOLComputerName>
+  <AdminMiscFoldersFromGPOLFilePath>文件路径</AdminMiscFoldersFromGPOLFilePath>
+  <AdminMiscFoldersFromGPOLMoreInfoLink>更多信息</AdminMiscFoldersFromGPOLMoreInfoLink>
+  <AdminMiscFoldersFromGPOLResetButton>重启</AdminMiscFoldersFromGPOLResetButton>
+  <AdminMiscFoldersFromGPOLLoadButton>加载</AdminMiscFoldersFromGPOLLoadButton>
+  <AdminMiscFoldersFromGPOLFromDC>从DC</AdminMiscFoldersFromGPOLFromDC>
+  <AdminMiscFoldersFromGPOLFromFile>从文件</AdminMiscFoldersFromGPOLFromFile>
+  <AdminMiscFoldersTargetLabel>要导入的用户/组条件...</AdminMiscFoldersTargetLabel>
+  <AdminMiscFoldersTargetFilter>过滤</AdminMiscFoldersTargetFilter>
+  <AdminMiscFoldersTargetPermission>允许</AdminMiscFoldersTargetPermission>
+  <AdminMiscFoldersFromGPOLSuccessMessage>文件夹被成功加载&lt;br /&gt;新：{0}，更新时间：{1}。</AdminMiscFoldersFromGPOLSuccessMessage>
+  <AdminMiscFoldersFromGPOLInfo>您可以加载（或更新）在域控制器上的组策略驱动器映射设置的文件夹列表。在现场下面你可以输入从组策略设置将被加载（或留空，则当前域名将被使用）的计算机名称，或映射驱动器设置文件的路径。</AdminMiscFoldersFromGPOLInfo>
+
+  <AdminAnonymFoldersTab>匿名文件夹</AdminAnonymFoldersTab>
+  <AdminAnonymFoldersDeleteFolderPrompt>你确定要删除{0}选择匿名文件夹？</AdminAnonymFoldersDeleteFolderPrompt>
+  
+  <AdminAnonymFoldersDescription>共享文件夹/文件 - 这些是文件夹/文件不需要用户认证*，这意味着它们可用于所有游客*（如果他们有一个链接）。所有用户都可以创建从菜单这样的文件夹/文件“共享RARR;创建一个公共链接”。但是，共享文件夹可能有限权限：上传，下载，文件/文件夹列表。下面是链接，由用户创建的共享文件夹/文件表。若要公开链接功能正确确保处理程序\ Anonymousdownload.ashx允许IIS匿名访问。您可以检查此&lt;a target="_blank" href="{0}"&gt;诊断&lt;/a&gt;页面上。确保分配给处理程序\ Anonymousdownload.ashx匿名用户帐户具有NTFS读/写权限的共享文件夹/文件&lt;br /&gt; * NBSP;＆MDASH;＆NBSP;如果不指定用户，只允许访问。</AdminAnonymFoldersDescription>
+  <AdminAnonymFoldersLinkOwnerColumn>所有者</AdminAnonymFoldersLinkOwnerColumn>
+  <AdminAnonymFoldersEmailsColumn>电子邮件通知</AdminAnonymFoldersEmailsColumn>
+  <AdminAnonymFoldersAccessForUsersColumn>用户访问</AdminAnonymFoldersAccessForUsersColumn>
+  <AdminAnonymFoldersPersonalMessageColumn>个人讯息</AdminAnonymFoldersPersonalMessageColumn>
+  <AdminAnonymFoldersOverwriteOnUploadHint> （覆盖：{0}）</AdminAnonymFoldersOverwriteOnUploadHint>
+  <AdminAnonymFoldersRootPathColumn>根路径</AdminAnonymFoldersRootPathColumn>
+  <AdminAnonymFoldersKeysColumn>按键</AdminAnonymFoldersKeysColumn>
+  <AdminAnonymFoldersShortColumn>短链接</AdminAnonymFoldersShortColumn>
+  <AdminAnonymFoldersPropertiesTitle>匿名文件夹属性</AdminAnonymFoldersPropertiesTitle>
+  <AdminAnonymFoldersAdditionalInfo>附加信息</AdminAnonymFoldersAdditionalInfo>
+  <AdminAnonymFoldersLinkLabel>链接访问</AdminAnonymFoldersLinkLabel>
+  <AdminAnonymFoldersPathNotSpecified>物理路径没有设置</AdminAnonymFoldersPathNotSpecified>
+  <AdminAnonymFoldersCreatedForColumn>目的</AdminAnonymFoldersCreatedForColumn>
+
+  <AdminFoldersTab>文件夹</AdminFoldersTab>
+  <AdminFoldersAddFolder>新增文件夹</AdminFoldersAddFolder>
+  <AdminFoldersEditFolder>编辑文件夹</AdminFoldersEditFolder>
+  <AdminFoldersRemoveFolder>删除文件夹</AdminFoldersRemoveFolder>
+  <AdminFoldersDeleteFolderPrompt>你确定要删除的文件夹“{0}”？</AdminFoldersDeleteFolderPrompt>
+  <AdminFoldersFolderNotFound>具有此名称的文件夹中未找到</AdminFoldersFolderNotFound>
+  <AdminFoldersPropertiesTitle>文件夹属性</AdminFoldersPropertiesTitle>
+  <AdminFoldersGeneralInfo>一般信息</AdminFoldersGeneralInfo>
+  <AdminFoldersFolderRemoteWarningForms>注意！此文件夹被远程共享。检查{0}常见问题解答：如何共享远程文件夹{1}</AdminFoldersFolderRemoteWarningForms>
+  <AdminFoldersFolderRemoteWarningWin>注意！此文件夹被远程共享。您可以隐藏一些文件夹/文件如果用户不有权阅读。见{0}常见问题解答：如何隐藏文件/文件用户没有权限读取的文件夹{1}</AdminFoldersFolderRemoteWarningWin>
+  <AdminFoldersFolderPath>物理路径</AdminFoldersFolderPath>
+  <AdminFoldersLocationPath>位置</AdminFoldersLocationPath>
+  <AdminFoldersFolderCreate>创建文件夹</AdminFoldersFolderCreate>
+  <AdminFoldersFolderCreateProcess>创建文件夹</AdminFoldersFolderCreateProcess>
+  <AdminFoldersFolderCreateContainsPattern>夹无法创建，因为它包含的图案</AdminFoldersFolderCreateContainsPattern>
+  <AdminFoldersFolderCreateSuccessfully>文件夹“{0}”已成功创建。</AdminFoldersFolderCreateSuccessfully>
+  <AdminFoldersFolderOptional> （可选的）</AdminFoldersFolderOptional>
+  <AdminFoldersFolderLimitations>限制</AdminFoldersFolderLimitations>
+  <AdminFoldersFolderDescription>描述</AdminFoldersFolderDescription>
+  <AdminFoldersFolderQuota>配额</AdminFoldersFolderQuota>
+  <AdminFoldersFolderQuotaHint>查询现有的或创建新的配额以限制允许为一个文件夹的空间，动力由文件服务器资源管理器。</AdminFoldersFolderQuotaHint>
+  <AdminFoldersFolderQuotaMoreInfoLink>更多信息</AdminFoldersFolderQuotaMoreInfoLink>
+  <AdminFoldersPermissions>权限</AdminFoldersPermissions>
+  <AdminFoldersPermissionsFor>权限{0}</AdminFoldersPermissionsFor>
+  <AdminFoldersUsersGroups>用户和组</AdminFoldersUsersGroups>
+  <AdminFoldersAccessControl>访问控制</AdminFoldersAccessControl>
+  <AdminFoldersCreate>创建</AdminFoldersCreate>
+  <AdminFoldersDelete>删除</AdminFoldersDelete>
+  <AdminFoldersRename>改名</AdminFoldersRename>
+  <AdminFoldersUpload>上传</AdminFoldersUpload>
+  <AdminFoldersDownload>下载</AdminFoldersDownload>
+  <AdminFoldersZipDownload>邮编和下载</AdminFoldersZipDownload>
+  <AdminFoldersZip>压缩</AdminFoldersZip>
+  <AdminFoldersUnzip>解压邮编</AdminFoldersUnzip>
+  <AdminFoldersCut>切</AdminFoldersCut>
+  <AdminFoldersCopy>复制</AdminFoldersCopy>
+  <AdminFoldersListFiles>显示文件</AdminFoldersListFiles>
+  <AdminFoldersListFolders>显示文件夹</AdminFoldersListFolders>
+  <AdminFoldersModify>修改</AdminFoldersModify>
+  <AdminFoldersBulkMailing>批量邮件</AdminFoldersBulkMailing>
+  <AdminFoldersAnonymViewContent>通过公共链接文件列表</AdminFoldersAnonymViewContent>
+  <AdminFoldersAnonymDownload>通过公共链接下载</AdminFoldersAnonymDownload>
+  <AdminFoldersAnonymUpload>通过公共链接上传</AdminFoldersAnonymUpload>
+  <AdminFoldersWatch>看</AdminFoldersWatch>
+  <AdminFoldersDescription>您可以手动添加文件夹，或者如果你是在组策略使用驱动器转换现有的文件夹。欲了解更多信息请参见{0}帮助{1}。</AdminFoldersDescription>
+
+  <AdminFoldersPermissionsForRegex>您还可以使用正则表达式。请输入&lt;b&gt; {0} &lt;/b&gt;在上面的字段的开始，然后一个正则表达式，例如：</AdminFoldersPermissionsForRegex>
+  <AdminFoldersPermissionsForRegexUsers>{0}（提供任何用户访问）&lt;br /&gt; {1}（这个正则表达式是指两个用户：JDOE和Mike）</AdminFoldersPermissionsForRegexUsers>
+  <AdminFoldersPermissionsForRegexGroups>{0}（提供任何组的访问）&lt;br /&gt; {1}（这个正则表达式意味着所有组在其名称中的“学生”）</AdminFoldersPermissionsForRegexGroups>
+
+  <AdminFoldersListRestrictions>显示器的限制</AdminFoldersListRestrictions>
+  <AdminFoldersCreateRestrictions>文件创建的限制</AdminFoldersCreateRestrictions>
+  <AdminFoldersRestrictionAllow>允许</AdminFoldersRestrictionAllow>
+  <AdminFoldersRestrictionDeny>拒绝</AdminFoldersRestrictionDeny>
+  <AdminFoldersRestrictionExtensions>扩展</AdminFoldersRestrictionExtensions>
+  <AdminFoldersUserNamePrompt>输入用户名</AdminFoldersUserNamePrompt>
+  <AdminFoldersUserNameEmptyText>选择用户名</AdminFoldersUserNameEmptyText>
+  <AdminFoldersUserNameNotSelected>您必须选择一个用户名</AdminFoldersUserNameNotSelected>
+  <AdminFoldersUserAlreadyExists>这个用户已经分配给该文件夹</AdminFoldersUserAlreadyExists>
+  <AdminFoldersGroupNamePrompt>输入组名</AdminFoldersGroupNamePrompt>
+  <AdminFoldersGroupNameEmptyText>选择组名</AdminFoldersGroupNameEmptyText>
+  <AdminFoldersGroupNameNotSelected>你必须选择一个组名</AdminFoldersGroupNameNotSelected>
+  <AdminFoldersGroupAlreadyExists>该组已被分配给该文件夹</AdminFoldersGroupAlreadyExists>
+  <AdminFoldersEmptyName>文件夹名称不能为空</AdminFoldersEmptyName>
+  <AdminFoldersEmptyPath>文件夹路径不能为空</AdminFoldersEmptyPath>
+  <AdminFoldersIncorrectName>有文件夹名称不正确的符号</AdminFoldersIncorrectName>
+  <AdminFoldersAlreadyExists>具有此名称和位置的文件夹已经存在</AdminFoldersAlreadyExists>
+  <AdminFoldersSharesButton>现有股份</AdminFoldersSharesButton>
+  <AdminFoldersTestAccessButton>测试访问</AdminFoldersTestAccessButton>
+  <AdminFoldersTestIndexingButton>测试索引</AdminFoldersTestIndexingButton>
+  <AdminFoldersShareNameTitle>现有股份</AdminFoldersShareNameTitle>
+  <AdminFoldersShareNameEmptyText>选择股票</AdminFoldersShareNameEmptyText>
+  <AdminFoldersShareNameNotSelected>您必须选择份额</AdminFoldersShareNameNotSelected>
+  <AdminFoldersGetQuotaButton>获取配额</AdminFoldersGetQuotaButton>
+  <AdminFoldersSetQuotaButton>设置配额</AdminFoldersSetQuotaButton>
+  <AdminCommonFilterField>过滤</AdminCommonFilterField>
+  <AdminCommonValidateField>验证</AdminCommonValidateField>
+  <AdminFoldersRootNameUsed>为文件夹，而不是请使用其他名称“{0}”</AdminFoldersRootNameUsed>
+  <AdminFoldersFolderFilterSuccess>过滤器的验证发生成功</AdminFoldersFolderFilterSuccess>
+
+  <AdminTestAccessGoodResult>文件夹“{0}”的存在，并且可以读出。</AdminTestAccessGoodResult>
+  <AdminTestAccessBadResult>文件夹“{0}”不存在或没有读取NTFS权限或没有为应用程序标识没有网络访问！</AdminTestAccessBadResult>
+  <AdminTestAccessErrorResult>出错检查访问到文件夹“{0}”：{1}</AdminTestAccessErrorResult>
+  <AdminTestIndexingErrorResult>同时检查索引的文件夹的错误“{0}”：
+{1}</AdminTestIndexingErrorResult>
+  <AdminTestIndexingYesResult>目录“{0}”索引</AdminTestIndexingYesResult>
+  <AdminTestIndexingNoResult>目录“{0}”没有索引</AdminTestIndexingNoResult>
+  <AdminTestIndexingUnknownResult>无法确定是否目录“{0}”索引。</AdminTestIndexingUnknownResult>
+  <AdminTestIndexingAddIfNotIndexed>你想添加这个文件夹的索引，如果它已经没有收录？</AdminTestIndexingAddIfNotIndexed>
+  <ProgressTestAccess>检查访问</ProgressTestAccess>
+  <ProgressTestIndexing>检查索引</ProgressTestIndexing>
+  <AdminHowToIndexingLocationLink>为了索引的文件夹，请参阅帮助{0}</AdminHowToIndexingLocationLink>
+
+  <AdminUsersListAll>全部用户</AdminUsersListAll>
+  <AdminUsersListDACL>从ACL用户</AdminUsersListDACL>
+  <AdminGroupsListAll>所有组</AdminGroupsListAll>
+  <AdminGroupsListDACL>从ACL组</AdminGroupsListDACL>
+  <AdminDACLStringLabel>ACL权限</AdminDACLStringLabel>
+
+  <AdminCommonCustomField>自定义字段</AdminCommonCustomField>
+  <AdminCommonSettingsChangeWarning>这些变化将生效重新登录后（或之后重新启动应用程序的WebDAV访问）。</AdminCommonSettingsChangeWarning>
+
+  <AdminCommonAllowedFoldersPathsTitle>允许的文件夹路径</AdminCommonAllowedFoldersPathsTitle>
+  <AdminCommonNotAllowedFolderPath>只能创建这些文件夹或子文件夹的访问：{0}</AdminCommonNotAllowedFolderPath>
+
+  <AdminLogsTab>日志</AdminLogsTab>
+
+  <AdminSettingsTab>设置</AdminSettingsTab>
+
+  <AdminLogsErrorsTab>记录错误</AdminLogsErrorsTab>
+  <AdminLogsErrorsClearBtn>明确</AdminLogsErrorsClearBtn>
+  <AdminLogsErrorsClearUsersCountExceededBtn>清除记录与用户的误差超过数量限制</AdminLogsErrorsClearUsersCountExceededBtn>
+
+  <AdminFoldersCreateHint>允许/拒绝从菜单中选择“新建”行动：新的文件，新文件夹，新形象，新的文档文件。</AdminFoldersCreateHint>
+  <AdminFoldersDeleteHint>允许/拒绝现有的文件和文件夹的删除</AdminFoldersDeleteHint>
+  <AdminFoldersRenameHint>允许/拒绝现有的文件和文件夹重命名</AdminFoldersRenameHint>
+  <AdminFoldersUploadHint>允许/拒绝上传文件功能（在工具栏上传按钮）</AdminFoldersUploadHint>
+  <AdminFoldersDownloadHint>允许/拒绝“下载”，“查看/编辑”，下载到云端储存等行为</AdminFoldersDownloadHint>
+  <AdminFoldersZipDownloadHint>允许/拒绝“压缩并下载”行动</AdminFoldersZipDownloadHint>
+  <AdminFoldersZipHint>允许/拒绝“压缩成ZIP档案”行动</AdminFoldersZipHint>
+  <AdminFoldersUnzipHint>允许/拒绝“解压到当前文件夹”，“解压到一个新文件夹”和“邮编内容”行动</AdminFoldersUnzipHint>
+  <AdminFoldersCutHint>允许/拒绝削减现有的文件和文件夹操作</AdminFoldersCutHint>
+  <AdminFoldersCopyHint>允许/拒绝复制现有的文件和文件夹操作</AdminFoldersCopyHint>
+  <AdminFoldersListFilesHint>允许/拒绝列表文件</AdminFoldersListFilesHint>
+  <AdminFoldersListFoldersHint>允许/拒绝列表文件夹</AdminFoldersListFoldersHint>
+  <AdminFoldersModifyHint>允许/拒绝修改文件（可以修改现有的文件内容的所有操作）</AdminFoldersModifyHint>
+  <AdminFoldersBulkMailingHint>允许/拒绝团体批量邮寄</AdminFoldersBulkMailingHint>
+  <AdminFoldersAnonymViewContentHint>允许/拒绝文件为匿名用户列表（通过公共链接）</AdminFoldersAnonymViewContentHint>
+  <AdminFoldersAnonymDownloadHint>允许/拒绝下载文件为匿名用户（通过公共链接）</AdminFoldersAnonymDownloadHint>
+  <AdminFoldersAnonymUploadHint>允许/拒绝文件上传匿名用户（通过公共链接）</AdminFoldersAnonymUploadHint>
+  <AdminFoldersWatchHint>允许/拒绝用户监控其他用户制作的文件夹中的改变（它被施加仅当UI / AllowUsersmonitorModifications =真）</AdminFoldersWatchHint>
+  <AdminFoldersListRestrictionsHint>该选项控制文件清单。点击“拒绝”单选按钮，隐藏与特定扩展名的文件。将禁止通过扩展逗号分隔它们（例如“EXE，BAT，COM”）。将“允许”单选按钮，插入要显示（例如，“DOC，PDF，JPG”）的文件扩展名。</AdminFoldersListRestrictionsHint>
+  <AdminFoldersCreateRestrictionsHint>这个功能类似于“列出限制”，但它控制的文件上传，ZIP提取，创建新的文件。你可以禁止或允许指定的文件上传。</AdminFoldersCreateRestrictionsHint>
+  <AdminFoldersGeneralInfoHint>键入现有的文件夹路径和别名。点击帮助按钮底部获得更多信息。</AdminFoldersGeneralInfoHint>
+  <AdminFoldersUsersGroupsHint>选择或类型的用户和组为他们共享文件夹。点击帮助按钮底部获得更多信息。</AdminFoldersUsersGroupsHint>
+
+  <AdminUserFoldersButtonTitle>测试共享列表</AdminUserFoldersButtonTitle>
+  <AdminUserFoldersWindowTitle>用户文件夹</AdminUserFoldersWindowTitle>
+  <AdminUserFoldersLabel>用户文件夹列表“{0}”：</AdminUserFoldersLabel>
+  
+  <AdminPermissionsTab>管理权限</AdminPermissionsTab>
+  <AdminPermissionsPrivilege>特权</AdminPermissionsPrivilege>
+  <AdminPermissionsEditButton>编辑权限</AdminPermissionsEditButton>
+  <AdminPermissionsModifySettingsTitle>修改设置</AdminPermissionsModifySettingsTitle>
+  <AdminPermissionsModifyFoldersTitle>修改文件夹</AdminPermissionsModifyFoldersTitle>
+  <AdminPermissionsModifyAnonymFoldersTitle>修改公共文件夹</AdminPermissionsModifyAnonymFoldersTitle>
+  <AdminPermissionsModifyAccountsTitle>修改帐户</AdminPermissionsModifyAccountsTitle>
+  <AdminPermissionsViewDiagnosticsTitle>查看“诊断”页面</AdminPermissionsViewDiagnosticsTitle>
+  <AdminPermissionsViewLogTitle>查看日志</AdminPermissionsViewLogTitle>
+  <AdminPermissionsViewErrorsLogTitle>查看错误日志</AdminPermissionsViewErrorsLogTitle>
+  <AdminPermissionsModifyLocalizationsTitle>修改本地化</AdminPermissionsModifyLocalizationsTitle>
+  <AdminPermissionsFolderPathTitle>文件夹路径</AdminPermissionsFolderPathTitle>
+  <AdminPermissionsFoldersTitle>管理文件夹</AdminPermissionsFoldersTitle>
+  <AdminPermissionsPrivilegeHint>设置用户/组对其中“{0}”特权将被允许</AdminPermissionsPrivilegeHint>
+  <AdminPermissionsFolderTitle>管理员文件夹属性</AdminPermissionsFolderTitle>
+  <AdminPermissionsFolderFieldTitle>文件夹路径</AdminPermissionsFolderFieldTitle>
+  <AdminPermissionsFolderHint>有关管理文件夹的信息</AdminPermissionsFolderHint>
+  <AdminPermissionsFolderEmptyAccounts>指定的用户和/或组</AdminPermissionsFolderEmptyAccounts>
+  <AdminPermissionsFolderAlreadyExists>文件夹已经存在于此位置</AdminPermissionsFolderAlreadyExists>
+  <AdminPermissionsFolderNotFound>文件夹与此位置未找到</AdminPermissionsFolderNotFound>
+  <AdminPermissionsAllowedFoldersMessage>您可以创建/更新/只管理这些文件夹或子文件夹的访问：{0}</AdminPermissionsAllowedFoldersMessage>
+
+  <AdminUsersCountExceededWarn>超过最大用户数量。您当前的许可证只允许{0}用户登录。欲了解更多信息打开“{1}”选项卡，找到“{2}”异常（S）。若要隐藏在“{1}”标签此通知明确日志记录。</AdminUsersCountExceededWarn>
+
+  <AdminNewVersionAvailableTitle>新版本可用！</AdminNewVersionAvailableTitle>
+  <AdminNewVersionAvailableInfo>当前版本：{0} &lt;br /&gt;一个新的版本：{1}</AdminNewVersionAvailableInfo>
+  
+  <SettingsGridDescriptionInfo>描述</SettingsGridDescriptionInfo>
+  <SettingsGridFormatInfo>值格式</SettingsGridFormatInfo>
+  <SettingsGridDefaultValueInfo>默认值</SettingsGridDefaultValueInfo>
+  <SettingsGridMoreInfo>更多信息</SettingsGridMoreInfo>
+  <SettingsGridRestoreDefault>恢复默认</SettingsGridRestoreDefault>
+
+  <SettingsFormatBoolean>布尔值</SettingsFormatBoolean>
+  <SettingsFormatWholeNumber>完整的号码</SettingsFormatWholeNumber>
+  <SettingsFormatRealNumber>实数</SettingsFormatRealNumber>
+  <SettingsFormatString>串</SettingsFormatString>
+  <SettingsFormatEnum>任何价值</SettingsFormatEnum>
+  <SettingsFormatSet>逗号分隔的列表没有值的重复</SettingsFormatSet>
+  <SettingsFormatArray>字符串的逗号分隔列表</SettingsFormatArray>
+  <SettingsFormatToolbarButtons>。 （值“{0}”可连续重复几次，但不是每一个名字，后跟一个冒号之后，有可能以指定的用于显示按钮的方法之一：{1}）</SettingsFormatToolbarButtons>
+
+  <AdminSettingsSave>保存设置</AdminSettingsSave>
+  <AdminToggleHiddenParams>{0}高级参数</AdminToggleHiddenParams>
+  <AdminHintHiddenParams>附加参数仅用于更精细的设置，并在大多数情况下是很少有必要</AdminHintHiddenParams>
+  <AdminShowHiddenParams>显示</AdminShowHiddenParams>
+  <AdminHideHiddenParams>隐藏</AdminHideHiddenParams>
+
+  <SettingsDenyAuthModeChange>不支持自动身份验证模式转换。有关更改身份验证模式说明，请参见{0}。</SettingsDenyAuthModeChange>
+  <SettingsApplicationRestartedMsg>重新启动应用</SettingsApplicationRestartedMsg>
+  <SettingsSettingsSavedMsg>设置已保存</SettingsSettingsSavedMsg>
+  <SettingsSettingsSaveFailedAppMsg>无法保存配置文件。检查web.config中的写入NTFS权限和HttpCommanderSettings.config在Web应用程序根目录{0}文件的用户{1}。错误消息：{2}。</SettingsSettingsSaveFailedAppMsg>
+  <SettingsSettingsSaveFailedTempMsg>无法保存配置文件。用户临时文件夹{0}检查权限{1}。错误消息：{2}。</SettingsSettingsSaveFailedTempMsg>
+  <SettingsSettingsReadFailedAppMsg>无法读取配置文件。检查web.config中读取的NTFS权限和HttpCommanderSettings.config在Web应用程序根目录{0}文件的用户{1}。错误消息：{2}。</SettingsSettingsReadFailedAppMsg>
+  <SettingsSettingsReadFailedTempMsg>无法在临时文件夹读取配置文件。用户临时文件夹{0}检查权限{1}。错误消息：{2}。</SettingsSettingsReadFailedTempMsg>
+  <SettingsSettingsConfigChangedOutside>该HttpCommander配置文件已被另一个程序改变。也许你已经使用文本编辑器手动修改它。该应用程序加载了新的配置文件。您已通过Web界面进行相关的配置HttpCommander所有的更改都将丢失。你需要重做，然后尝试再次保存。我们建议手动对编辑配置文件的应用程序运行时。否则，你应该重新更改配置文件后，该应用程序。错误信息：{0}。</SettingsSettingsConfigChangedOutside>
+  <SettingsSettingsSaveNotif>不要忘了保存设置的变化！</SettingsSettingsSaveNotif>
+  
+  <SettingsEmailNotifTitle>通过电子邮件通知</SettingsEmailNotifTitle>
+  <SettingsEmailNotifApplyBtn>保存邮件设置</SettingsEmailNotifApplyBtn>
+  <SettingsEmailNotifResetBtn>重启</SettingsEmailNotifResetBtn>
+  <SettingsEmailNotifEventsLabel>事件</SettingsEmailNotifEventsLabel>
+  <SettingsEmailNotifWhenLabel>发送</SettingsEmailNotifWhenLabel>
+  <SettingsEmailNotifEmailsLabel>电子邮件</SettingsEmailNotifEmailsLabel>
+  <SettingsEmailNotifPathsLabel>路径</SettingsEmailNotifPathsLabel>
+  
+  <LogsErrorsGridUrlColumn>网址</LogsErrorsGridUrlColumn>
+  <LogsErrorsGridMsgColumn>信息</LogsErrorsGridMsgColumn>
+  <LogsErrorsGridMoreInfoColumn>更多信息</LogsErrorsGridMoreInfoColumn>
+  <LogsErrorsGridDetailsTitle>细节</LogsErrorsGridDetailsTitle>
+  
+  <FsrmUnableLoadLibraryLocal>无法连接到文件服务器资源管理器的本地主机上。</FsrmUnableLoadLibraryLocal>
+  <FsrmUnableLoadLibraryRemote>无法连接到文件服务器资源管理器“{0}”的主机上。</FsrmUnableLoadLibraryRemote>
+  <FsrmNotInstalled>文件服务器资源管理器未安装在“{0}”。</FsrmNotInstalled>
+  <FsrmNotInstalledEitherEnd>文件服务器资源管理器未安装无论是在本地主机上的“{0}”。</FsrmNotInstalledEitherEnd>
+  <FsrmQuotaNotSpecified>未指定配额。</FsrmQuotaNotSpecified>
+  <FsrmUnableGetQuota>无法获得配额限制。</FsrmUnableGetQuota>
+  <FsrmUnableSetQuota>无法设置配额限制。</FsrmUnableSetQuota>
+  <FsrmQuotaSetMsg>配额已定。</FsrmQuotaSetMsg>
+  <FsrmInvalidQuotaValueMsg>无效的配额值。</FsrmInvalidQuotaValueMsg>
+
+  <CommandBuyNow>立即购买</CommandBuyNow>
+
+  <AdminUpdateTab>升级</AdminUpdateTab>
+  <AdminUpdateManual>手动升级</AdminUpdateManual>
+  <AdminUpdateAuto>自动升级</AdminUpdateAuto>
+  <AdminUpdateStartButton>启动升级/创建备份</AdminUpdateStartButton>
+  <AdminUpdateFinishButton>完成升级/还原备份</AdminUpdateFinishButton>
+  <AdminUpdateBackupButton>备用</AdminUpdateBackupButton>
+  <AdminUpdateDownloadNewButton>下载新版本</AdminUpdateDownloadNewButton>
+  <AdminUpdateStepTitle>步骤{0} {1} {2}</AdminUpdateStepTitle>
+  <AdminUpdateStepInfo>步骤{0} {1}</AdminUpdateStepInfo>
+  <AdminUpdateNumberSymbol>＃</AdminUpdateNumberSymbol>
+  <AdminUpdateBackupContent>请按按钮“{0}”用于创建的文件夹与应用程序的备份副本并获得一个链接下载</AdminUpdateBackupContent>
+  <AdminUpdateDownloadBackupLinkHint>请下载使用以下链接应用程序的备份副本：</AdminUpdateDownloadBackupLinkHint>
+  <AdminUpdateDownloadNewContent>然后，请下载使用以下链接一个新的版本，并按照{0}安装{1}和{2}升级{1}的指令，以安装新版本。安装完成后，请打开管理面板，转到标签“{3}”，并按下按钮“{4}”，以完成安装。</AdminUpdateDownloadNewContent>
+  <AdminUpdateUploadButton>上传备份和应用设置</AdminUpdateUploadButton>
+  <AdminUpdateUploadAndInstallButton>在保持所有设置安装新版本</AdminUpdateUploadAndInstallButton>
+  <AdminUpdateUploadEmptyText>请选择要上传的备份副本</AdminUpdateUploadEmptyText>
+  <AdminUpdateFinishContent>为了恢复以前的版本的设置，请选择并上传以前创建的备份存档的应用程序文件夹</AdminUpdateFinishContent>
+  <AdminUpdateFinishMessage>恭喜！已成功应用所有设置。另外，请您申请到其他文件所做的所有更改，如Default.aspx的或Global.asax中。</AdminUpdateFinishMessage>
+  <AdminUpdateFinishRefreshPage>该页面将被重新加载</AdminUpdateFinishRefreshPage>
+  <AdminUpdateMainInfo>这种类型的升级是部分自动化的。您可以创建和下载的应用程序配置设置的备份文件和升级后恢复。请按照以下简单步骤：创建一个备份文件，执行手动升级，从备份文件恢复设置。此过程还可以用来备份/恢复设置没有升级。直接跳过升级步骤从备份文件恢复设置。</AdminUpdateMainInfo>
+  <AdminUpdateAutoButton>汽车</AdminUpdateAutoButton>
+  <AdminUpdateAutoInfo>这种类型的升级几乎是全自动的。它包括两个步骤：当前设置备份备份文件（你应该下载并保存备份文件），安装的设置一个新的版本和恢复。 HTTP指挥官可以自动下载最新版本并安装它，也可以与我们的服务器上的一个新版本的指定路径zip归档。所有设置都自动从先前创建的备份文件中恢复。</AdminUpdateAutoInfo>
+  <AdminUpdateRestoreWebConfigCheckBox>从Web.config文件（例如，如SMTP）恢复设置</AdminUpdateRestoreWebConfigCheckBox>
+  <AdminUpdateBackupAssignedFoldersInRootMessage>注意！有在目录具有的总大小超过一些用户文件夹与应用程序{0}。备份将无法进行。请做这些目录的备份副本，从应用程序目录中删除并重新在你身边的操作。</AdminUpdateBackupAssignedFoldersInRootMessage>
+  <AdminUpdateNeedRefreshPageForContinue>注意！要继续，必须重新加载页面。请按按钮“{0}”。重装后，请重复上述操作。</AdminUpdateNeedRefreshPageForContinue>
+  <AdminUpdateRestoreFromBackupEmpty>，或者如果没有选择它，它会被新创建的文件中的前一步骤中使用</AdminUpdateRestoreFromBackupEmpty>
+  <AdminUpdateInstallZipPathHint>对于更新，请在第一个字段指定要安装文件的完整物理路径（在服务器上）或留空以使用在线分销</AdminUpdateInstallZipPathHint>
+  <AdminUpdateInstallZipPathEmpty>指定路径以安装到存档</AdminUpdateInstallZipPathEmpty>
+  <AdminUpdateProgress>更新</AdminUpdateProgress>
+  <AdminUpdateAccessDeniedWarning>&lt;b&gt;注意！&lt;/b&gt;有关更新请将修改（读，写）NTFS权限{0}用户对文件夹的HTTP指挥官{1}和重复升级。&lt;br /&gt;成功升级后，请恢复原有权利。</AdminUpdateAccessDeniedWarning>
+  <AdminUpdateAccessDeniedWarningCurentUser>当前</AdminUpdateAccessDeniedWarningCurentUser>
+
+  <ServerExceedsMaxSizeForEditAsTextFile>文件大小超过了以编辑为文本文件的最大尺寸。</ServerExceedsMaxSizeForEditAsTextFile>
+  <ServerDemoMode>给定的动作是在演示模式被禁止</ServerDemoMode>
+  <ServerHostedMode>不允许改变按照托管试用版设置的值：{0}。</ServerHostedMode>
+  <ServerIncorrectImageContentType>该文件的MIME类型不是图像</ServerIncorrectImageContentType>
+  <ServerPermissionDenied>此操作，因为有限的权限拒绝</ServerPermissionDenied>
+  <ServerRestoreFromTrashNoParentFolder>修复失败，因为父目录“{0}”已找不到。请创建它，然后再试一次。</ServerRestoreFromTrashNoParentFolder>
+  <ServerModifyPermissionDenied>该操作被拒绝，因为您没有权限修改文件</ServerModifyPermissionDenied>
+  <ServerPathNotFound>找不到路径。</ServerPathNotFound>
+  <ServerInvalidPath>路径“{0}”无效</ServerInvalidPath>
+  <ServerInvalidAbsolutePath>无效的绝对路径“{0}”</ServerInvalidAbsolutePath>
+  <!-- share folder path: \\server\share -->
+  <ServerInvalidShareFolderPath>无效的共享文件夹路径“{0}”</ServerInvalidShareFolderPath>
+  <ServerInvalidUncPath>无效的UNC路径“{0}”</ServerInvalidUncPath>
+  <ServerUnableResolveUncPath>无法解析UNC路径“{0}”</ServerUnableResolveUncPath>
+  <ServerInvalidFileName>文件/文件夹名称未设置或包含不正确的字符{0}</ServerInvalidFileName>
+  <ServerFilePathNotFound>文件不存在</ServerFilePathNotFound>
+  <ServerIncorrectPathForFileLink>不正确的对象类型。指定的路径指向一个文件夹</ServerIncorrectPathForFileLink>
+  <ServerIncorrectPathForFolderLink>不正确的对象类型。指定的路径指向文件</ServerIncorrectPathForFolderLink>
+  <ServerRootFolderNotFound>对于路径的根文件夹“{0}”未找到。</ServerRootFolderNotFound>
+  <ServerUnableCreateFolder>无法创建文件夹</ServerUnableCreateFolder>
+  <ServerFileAlreadyExists>文件名称已经存在</ServerFileAlreadyExists>
+  <ServerFileAlreadyExistsOnRename>
+    你想重命名“{0}”到“{1}”？
+    已存在与在此位置的相同名称的文件。
+  </ServerFileAlreadyExistsOnRename>
+  <ServerFolderAlreadyExistsOnRename>
+    你想重命名“{0}”到“{1}”？
+    已存在与在此位置的相同名称的文件夹。
+  </ServerFolderAlreadyExistsOnRename>
+  <ServerFoldersMergeConfirm>
+    此目标已包含一个文件夹名为“{0}”。
+    你还想要这个文件夹合并“{0}”这一个“{1}”？
+  </ServerFoldersMergeConfirm>
+  <ServerFolderWithSameNameAsFileNameAlreadyExists>已经有同名的文件夹“{0}”作为文件名您指定</ServerFolderWithSameNameAsFileNameAlreadyExists>
+  <ServerFileWithSameNameAsFolderNameAlreadyExists>已经存在具有相同名称的文件“{0}”作为文件夹名称您指定</ServerFileWithSameNameAsFolderNameAlreadyExists>
+  <ServerFileNotFound>文件“{0}”不是文件夹中找到“{1}”。它可能已被删除或由其他用户删除。</ServerFileNotFound>
+  <ServerDirectoryAlreadyExists>具有此名称的目录已存在</ServerDirectoryAlreadyExists>
+  <ServerFolderMoveAlreadeExists>目标文件夹“{0}”是一样的源文件夹</ServerFolderMoveAlreadeExists>
+  <ServerUploadPathNotFound>用于文件存储的路径不是在服务器上找到</ServerUploadPathNotFound>
+  <ServerUploadPathNotSet>在获取上传的路径发生了错误。请，刷新浏览器页面，然后再试一次。</ServerUploadPathNotSet>
+  <ServerUploadNoChunk>没有大块的保存</ServerUploadNoChunk>
+  <ServerUploadWriteChunk>自从写字节块</ServerUploadWriteChunk>
+  <ServerUploadCreatingFile>创建文件</ServerUploadCreatingFile>
+  <ServerUploadFileUploaded>该文件已上载</ServerUploadFileUploaded>
+  <ServerUploadWriteError>编写错误</ServerUploadWriteError>
+  <ServerConfigurationError>不正确的配置或应用程序！与网站管理员联系</ServerConfigurationError>
+  <ServerPermissionsAllowTypes>当前权限允许该操作仅使用文件类型{0}</ServerPermissionsAllowTypes>
+  <ServerPermissionsDenyTypes>当前权限禁止这种操作与文件类型{0}</ServerPermissionsDenyTypes>
+  <ServerRequestSizeExceeded>上传的文件大小超过允许服务器设置大小</ServerRequestSizeExceeded>
+  <ServerEmailMsgProcessedFilesSubject>上传/修改/下载/创建/删除/共享文件/文件夹</ServerEmailMsgProcessedFilesSubject>
+  <ServerEmailMsgUploadFilesTitle>上传</ServerEmailMsgUploadFilesTitle>
+  <ServerEmailMsgModifyFilesTitle>改性</ServerEmailMsgModifyFilesTitle>
+  <ServerEmailMsgDownloadFilesTitle>下载</ServerEmailMsgDownloadFilesTitle>
+  <ServerEmailMsgCreateFilesTitle>创建</ServerEmailMsgCreateFilesTitle>
+  <ServerEmailMsgDeleteFilesTitle>删除</ServerEmailMsgDeleteFilesTitle>
+  <ServerEmailMsgCreatePublicFilesTitle>共享</ServerEmailMsgCreatePublicFilesTitle>
+  <ServerEmailMsgProcessedFilesBody>
+    下面的文件/文件夹为{0} {1}：
+
+{2}
+    
+  </ServerEmailMsgProcessedFilesBody>
+  <ServerEmailMsgPasswordRecoverSubject>找回密码</ServerEmailMsgPasswordRecoverSubject>
+  <ServerEmailMsgPasswordRecoverBody>
+    您请求收回网页式档案管理密码。您的密码被重置。如果您认为这是一个错误，根本不理这封信，但要注意，您的密码已被更改。
+    用户名：{0}
+    新密码：{1}
+  </ServerEmailMsgPasswordRecoverBody>
+  
+  <ServerEmailMsgUserNameRecoverSubject>用户名恢复</ServerEmailMsgUserNameRecoverSubject>
+  <ServerEmailMsgUserNameRecoverBody>
+    您请求收回网页式档案管理你的名字。
+    用户名：{0}
+  </ServerEmailMsgUserNameRecoverBody>
+
+  <ServerEmailMsgUserActivationSubject>帐号激活</ServerEmailMsgUserActivationSubject>
+  <ServerEmailMsgUserActivationBody>
+    帐户（{0}）激活是必需的。
+    要激活您的帐户，请点击以下链接：{1}
+  </ServerEmailMsgUserActivationBody>
+  <ServerEmailMsgUserRegisteredSubject>用户注册</ServerEmailMsgUserRegisteredSubject>
+  <ServerEmailMsgUserRegisteredBody>
+    您成功注册的网络文件管理器。
+    用户名：{0}
+  </ServerEmailMsgUserRegisteredBody>
+  <ServerEmailMsgUserRegisteredForAdminsBody>
+    &lt;h4&gt;新用户已经注册&lt;/h4&gt;
+    &lt;strong&gt;用户名&lt;/strong&gt;：{0} &lt;br /&gt;
+    &lt;strong&gt;电子邮件&lt;/strong&gt;：{1} &lt;br /&gt;
+    &lt;STRONG&gt;日期&lt;/strong&gt;：{2} &lt;br /&gt;
+    &lt;STRONG&gt;额外信息&lt;/strong&gt;：{3} &lt;br /&gt;
+  </ServerEmailMsgUserRegisteredForAdminsBody>
+  <ServerDiskFullError>没有在盘上足够的空间。</ServerDiskFullError>
+  <ServerFolderLimitations>文件夹限制：{0}</ServerFolderLimitations>
+  <ServerShortcutAssignedFolderNotFound>没有找到快捷方式的目标路径分配的文件夹</ServerShortcutAssignedFolderNotFound>
+  <ServerSizeFilesForZipExceeded>中存档的文件大小超过允许值{0}。</ServerSizeFilesForZipExceeded>
+  <ServerPasteFolderToSubfolderError>目标文件夹“{0}”是源文件夹的子文件夹“{1}”。</ServerPasteFolderToSubfolderError>
+  <ServerLiveConnectAppIDNotSpecified>没有定义微软Live Connect应用程序的客户端ID</ServerLiveConnectAppIDNotSpecified>
+  <ServerSendEmailInfo>作者指定它们作为{0}电子邮件。只允许使用这个电子邮件地址回复。</ServerSendEmailInfo>
+
+  <ServerAntivirusScanningFailed>通过扫描防病毒：“{0} {1}”异常终止。</ServerAntivirusScanningFailed>
+
+  <ServerUserNameNotFound>用户名为'{0}'未找到。</ServerUserNameNotFound>
+  <ServerFileNameCopySuffix>复制</ServerFileNameCopySuffix>
+
+  <ServerDeleteFolderNTFSAccessDenied>您没有NTFS权限删除文件夹“{0}”</ServerDeleteFolderNTFSAccessDenied>
+
+  <ServerMSOOTemplateNotFound>{0}模板未找到</ServerMSOOTemplateNotFound>
+</Localization>

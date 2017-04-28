@@ -1,0 +1,597 @@
+﻿<!-- saved from url=(0014)about:internet -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Admin panel (Windows version)</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <script type="text/javascript" language="javascript">
+        function toggleBlock(id) {
+            if (document.getElementById(id).style.display == 'none') {
+                document.getElementById(id).style.display = 'block';
+            }
+            else {
+                document.getElementById(id).style.display = 'none';
+            }
+        }
+    </script>
+
+    <table width="100%" cellpadding="0" cellspacing="0">
+        <tr>
+            <td width="320">
+                <table>
+                    <tr>
+                        <td style="vertical-align:top;text-align:left;">
+                            <a target='_blank' href='http://www.element-it.com/asp-net-explorer-browser/online-share/web-file-manager.aspx'><img style='cursor:pointer;' alt="HTTP Commander" src="Images/HCLogo.png" border="0" /></a>
+                        </td>
+                        <td class="green" style="vertical-align:top;text-align:left;padding-top:21px;">
+                            &nbsp;AJS 4.x
+                        </td>
+                    </tr>
+                </table>
+                <span class="gray">Manual</span>
+            </td>
+             <td width="400">
+  <!-- For windows version only. Start --> 
+	<p>
+	<strong>Note!</strong> This Manual is for the <strong>"Windows authentication"</strong> version, 
+	which is designed to work with existing Windows server or Active Directory accounts and Windows authentication. 
+	If you want to create accounts by yourself and store their credentials in your own HTTP Commander XML database, 
+	you need to download the <a target="_blank" href="http://www.element-it.com/downloadfile.aspx?type=st">"Forms authentication" version</a>!
+	This Manual is for the Windows authentication version only!
+	</p>
+	<!-- For windows version only. End --> 
+	
+ 
+             
+	
+                
+            </td>
+            <td align="char">
+                <img alt="" src="Images/world.jpg" align="middle" hspace="5" style="vertical-align:top;padding-top:1px;" /><b><a target="_blank" title="web file manager" href="http://www.element-it.com/asp-net-explorer-browser/online-share/web-file-manager.aspx">Web file manager</a></b><br />
+                <img alt="" src="Images/support.png" width="16" height="16" align="middle" hspace="5" style="vertical-align:top;padding-top:1px;" /><b><a
+                    href="onlinesupport.html" target="main">Free Installation assistance</a></b><br />
+                <img alt="" src="Images/help.png" align="middle" width="16" height="16" hspace="5" style="vertical-align:top;padding-top:1px;" /><b><a
+                    href="index.html" title="Manual Home page" target="_blank">Manual Home page</a></b><br />
+            </td>
+        </tr>
+    </table>
+
+    <p class="topic">
+        <a id="hcadsicomtopic">HTTP Commander Admin panel</a>
+    </p>
+	
+	<strong>Note!</strong> <br/>
+	We offer <b>free installation assistance</b> for both trial and commercial licenses. 
+	You can get help via email, instant messenger or via remote access to your server. 
+	You only need a few minutes to get <a href="onlinesupport.html">online help</a>.<br/><br />
+
+
+
+<h2>In this section:</h2>
+<ul>
+<li><a href="#aboutadminpanel">About Admin Panel</a></li>
+
+ 
+<li><a href="#foldersetup">Setup folders using the Admin panel</a></li>
+<li><a href="#permissions">Folder permissions</a></li>
+<!-- For windows version only. Start --> 
+<li><a href="#quota">Folder quotas</a></li>
+<!-- For windows version only. End -->
+<li><a href="#filter">Folder filter</a></li>
+<!-- For windows version only. Start --> 
+<li><a href="#gpolfolders">Group Policy Drive Maps</a></li>
+<!-- For windows version only. End --> 
+<li><a href="#publicfolders">Public folders</a></li>
+<li><a href="#adminpermissions">Admin permissions</a></li>
+
+<li><a href="#diagnostics">Diagnostics and License information</a></li>
+<li><a href="#mailsettings">Mail settings</a></li>
+</ul>
+<br/><h3 id="aboutadminpanel">About Admin Panel:</h3>
+<p>
+The Admin panel provides a user-friendly web user interface to setup folders for users. 
+Information about assigned folders is stored in the <b>Data\Folders.xml</b> file. 
+You can modify this file <a href="manualfolders.html">manually</a> with a text editor.
+Also you can <a href="sourcecode.html">programmatically setup users and groups</a>.</p>
+<p><strong>To run Admin panel:</strong></p>
+<ul>
+  <li>User should be an HTTP Commander Administrator, i.e his/her name should be listed in the <strong>Administrators</strong> key at <a href="webconfigsetup.html#Administrators">Application settings</a></li>
+  <li>Check that Read and Modify <a href="ntfs.html">NTFS permissions</a> for Data\ folder are set correctly.</li>
+  <li>Open <b>"/HTCOMNET/AdminPanel.aspx"</b> in a browser or click <b>Administration</b> button on the toolbar of the main interface.</li>
+</ul>
+
+
+
+
+<br/><h3 id="foldersetup">How to setup folders using the Admin panel:</h3>
+
+ <ul>
+ <li>Open the <b>"Folders"</b> tab and click <b>"Add folder..."</b> to create a new folder, 
+    or <b>"Edit folder..."</b> to edit an existing one.</li>
+ <li>In the new window you can type a folder name (alias), a full path and manage the access for users to this folder:
+   <ul>
+	<li>Insert an alias for the folder in the <b>"Folder name"</b> field, 
+	e.g. "My personal folder" or "Students shared", etc. 
+	<p><b>Note</b> You cannot use alias <b>"root"</b> for technical reasons.</p>
+	</li>
+	<li>Insert the full path to the folder in &quot;Physical path&quot; field. It can be a local path (e.g. 'c:\myfolder') , remote folder on a server (UNC format like \\MyServer\filesharename\directoryname) or DFS folder (like \\domain\DFSfolder).<br/>
+	You can use the following patterns in the folder path:
+	  <ul>
+	    <li><b>%USERNAME%</b> or <b>%LOGONUSER%</b> - the pattern will be replaced by the user's logon name. For example, if you create "c:\personalfolders\%USERNAME%" for "jdoe" user, the path will be "c:\personalfolders\jdoe" when 'jdoe' logons into the HTTP Commander. </li>
+	    <li><b>%GROUPNAME%</b> - the pattern will be replaced by the logon user's group name. For example, if you create "c:\%GROUPNAME%\%USERNAME%" for "Mike" user from  "Students" group,  the path will be "c:\Students\Mike&quot;. </li>
+		<li><b>%USERNAME_SUBSTRN_L%</b> - the pattern will be replaced by a substring of the user's logon name. N is start index (starting at 1), L is length of substring. For example, <b>%USERNAME_SUBSTR1_1%  </b>for Mike user will be &quot;M&quot;. </li> 
+		<li><b>%GROUPNAME_SUBSTRN_L%</b> - the same as above but for the group name. </li> 
+	    <!-- For windows version only. Start --> 
+	    <li><b>%HOME%</b> - The pattern will be replaced by the user's Active Directory home folder's path. <b>Note!</b> For greater perfomance use %USERNAME% (or %LOGONUSER%) pattern instead of %HOME% if it is possible.	    </li>
+	    <!-- For windows version only. End --> 
+	    </ul>
+		<b>Note!</b> Don't share folders inside the application root folder 
+		(deleting some files and folders in the application folders restarts the application).</li>
+   </ul>
+ </li>
+ <li>Now you need to specify users and groups who can have access to the created folder:
+   <ul>
+ <li>Click the <b>"Add user..."</b> button to provide access for a single user, 
+    or <b>"Add group..."</b> to provide access for a group of users.</li>
+ <li>
+   <p>In the user/group selection dialogue, enter a user/group name or select the name from the list,
+   for example, jdoe or Students2009.
+   When HTTP Commander is configured to use Windows accounts, 
+   we recommend that you specify a fully qualified user/group name with domain part.
+   For example, YOURDOMAIN\Students2009 or jdoe@YOURDOMAIN.
+   See <a href="ActiveDirectory.html">Active Directory integration</a> for complete list of supported
+   account name formats.</p>
+   <p>Here you can also use a <b>regular expression</b>:</p>
+ Insert "regex:"  in the beginning of the line if you want to use regular expression.<br/>
+ Example 1:  <code>regex:^(jdoe|Mike)$</code> - this regular expression   means two users: jdoe and Mike.<br/>
+ Example 2:  <code>regex:Students</code> - this regular expression means all groups with "Students" in their names, e.g. "Students2008", "Students2009",  etc. </li>
+ <li>If you want to <b>provide access for any user</b>, you need to type <code>regex:.*</code> - this  regular expression means  any user name. </li>
+ </ul>
+  </li>
+  <li>After the users or groups are specified, you need to configure permissions to the folder for selected users and groups.
+  There are two layers of access control that determine the set of allowed operations with the file system.
+  <ol>
+    <li>NTFS permissions (provided the file system is hosted on NTFS volume) applies to a Windows security principal.</li>
+    <li>HTTP Commander permissions specify what operations are allowed in the application.</li>
+  </ol>
+  <!-- For windows version only. Start --> 
+  In most cases  NTFS permissions are already set for the folders for your users and groups. 
+  There is no need to modify the existing NTFS permissions. 
+  The application impersonates the logged on user before performing operations with file system. 
+  A user won't have access to files if it is prohibited by NTFS permissions.
+  <!-- For windows version only. End -->
+  <p>To configure HTTP Commander permissions...</p>
+  <ul>
+  <li>Select a user or a group name in the list.</li>
+  <li>Set necessary permissions on the right panel.</li>
+  </ul>
+  </li>
+  <li>Click the "Save" button to save changes.</li>
+  <li>The user should logoff and logon again to view new created folders.</li>
+  <li>Extra parameters: You can type <strong>"Limitations"</strong> for the folder-this is text that will be shown for users at the most visible place. 
+  There is also a <strong>"Description"</strong> field - it is text that will be shown for users in the left tree.</li>
+ </ul>
+ 
+<h3 id="permissions">HTTP Commander permissions</h3>
+<table border="1">
+<thead>
+<tr>
+<th>Permission</th>
+<th>XML element</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Create</td>
+<td>Create</td>
+<td>Allows creation of files and folders</td>
+</tr>
+<tr>
+<td>Rename</td>
+<td>Rename</td>
+<td>Allows renaming of files and folders</td>
+</tr>
+<tr>
+<td>Download</td>
+<td>Download</td>
+<td>Allows downloading of files</td>
+</tr>
+<tr>
+<td>Zip</td>
+<td>Zip</td>
+<td>Enables zip operations</td>
+</tr>
+<tr>
+<td>Cut</td>
+<td>Cut</td>
+<td>Enables cut operations (moving files and folders)</td>
+</tr>
+<tr>
+<td>Show files</td>
+<td>ListFiles</td>
+<td>Enables showing files in the folder list. <a href="SecurityNotes.html#FolderListRestriction">Security note.</a></td>
+</tr>
+<tr>
+<td>Modify</td>
+<td>Modify</td>
+<td>Allows modification of existing files</td>
+</tr>
+<tr>
+<td>Download via public link</td>
+<td>AnonymousDownload</td>
+<td>Allows generation of public links for download</td>
+</tr>
+<tr>
+<td>Upload via public link</td>
+<td>AnonymousUpload</td>
+<td>Allows generation of public links that can be used for downloading and uploading</td>
+</tr>
+<tr>
+<td>Delete</td>
+<td>Delete</td>
+<td>Allows deleting of files and folders</td>
+</tr>
+<tr>
+<td>Upload</td>
+<td>Upload</td>
+<td>Allows uploading of new files</td>
+</tr>
+<tr>
+<td>Zip and download</td>
+<td>ZipDownload</td>
+<td>Enables zip and download operation. Application zips the file or folder, 
+then provides a link to download the resulting archive.</td>
+</tr>
+<tr>
+<td>Unpack zip</td>
+<td>Unzip</td>
+<td>Enables unzip operation</td>
+</tr>
+<tr>
+<td>Copy</td>
+<td>Copy</td>
+<td>Allows copying files and folders</td>
+</tr>
+<tr>
+<td>Show folders</td>
+<td>ListFolders</td>
+<td>Enables showing folders in folder list. <a href="SecurityNotes.html#FolderListRestriction">Security note.</a></td>
+</tr>
+<tr>
+<td>Bulk mailing</td>
+<td>BulkMailing</td>
+<td>Allows to send e-mails to a number of users</td>
+</tr>
+<tr>
+<td>File list via public link</td>
+<td>AnonymousViewContent</td>
+<td>Allows the generation of a public link with restricted file system browser capabilities.
+The link must point to a folder.
+When user opens the link in a browser, the content of the folder is displayed like 
+in the main HTTP Commander interface. User may navigate the file system within the 
+limits of the selected link folder.</td>
+</tr>
+<tr>
+<td>Watch for modifications</td>
+<td>WatchForModifs</td>
+<td>Allows to monitor the changes made by other users (if enabled <a href="webconfigsetup.html#AllowUsersWatchModifications">AllowUsersWatchModifications</a>)</td>
+</tr>
+<tr>
+<td>Restrictions of display</td>
+<td>ListRestriction</td>
+<td><p>Specify a filter for files that should be displayed in folder list.
+The filter is based on the file extension. You may either specify a list of extensions that are allowed
+or extensions that are prohibited. In the first case you'll see only files with
+the selected extensions, in the second case you'll see all files excluding files with
+the selected extensions. For example, allow "DOC,PDF,JPG", deny "EXE,BAT,COM".
+</p>
+<p>The extensions field contains a comma-separated list of extensions. 
+Type radio buttons specify how the list of extensions will be applied: allow - 
+list of extensions specifies allowed extensions, deny - list of extensions
+specified prohibited extensions.
+</p>
+<p><a href="SecurityNotes.html#FolderListRestriction">Security note.</a></p>
+</td>
+</tr>
+<tr>
+<td>Restriction of file creation</td>
+<td>CreateRestrictions</td>
+<td>Like "Restriction of display permission" but applies to create file operation.
+You may specify what files a user may/cannot create based on file extension.</td>
+</tr>
+
+<tbody>
+</table>
+
+<!-- For windows version only. Start --> 
+<h3 id="quota">Manage Quotas</h3>
+<p>HTTP Commander allows you to manage quotas on folders. 
+You may query existing quotas and create new ones.
+Quotas are powered by File Server Resource Manager.
+File Server Resource Manager is available for <a target="_blank" href="http://technet.microsoft.com/en-us/library/cc755603(v=ws.10)">Windows Server 2003 R2</a>,
+<a target="_blank" href="http://technet.microsoft.com/en-us/library/cc732431(v=ws.10)">Windows Server 2008 and Windows Server 2008 R2</a>,
+<a target="_blank" href="http://www.microsoft.com/en-us/server-cloud/windows-server/2012-default.aspx">Windows Server 2012</a>,
+<a target="_blank" href="http://www.microsoft.com/en-us/server-cloud/windows-server/windows-server-2012-r2.aspx">Windows Server 2012 R2</a>,
+<a target="_blank" href="https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-technical-preview">Windows Server 2016</a>.
+</p>
+
+<p><strong>Supported OSs</strong>: Windows Servers 2003 R2, 2008, 2008 R2, 2012, 2012 R2, 2016.</p>
+
+<p><strong>Prerequisites for managing quotas on local folders</strong></p>
+<p><strong>Note</strong> A local folder is any folder located on the hard disk on the web server where HTTP Commander is installed.
+For example, "c:\HttpRootFolder".</p>
+<ul>
+<li>
+    File Server Resource Manager is installed on the web server machine.
+    <br />
+    <a target="_blank" href="Images/FileServerResourceManagerRole.png" onclick="toggleBlock('FileServerResourceManagerRole'); return false;"
+       class="imglink">Screenshot</a>
+    <div id="FileServerResourceManagerRole" style="display: none;">
+        <p class="screenshot">
+            &nbsp;<img src="Images/FileServerResourceManagerRole.png" />
+        </p>
+    </div>
+</li>
+<li>Administrative rights to the web server machine.</li>
+</ul>
+
+<p><strong>Prerequisites for managing quotas on network folders</strong></p>
+<p><strong>Note</strong> A network folder is any folder specified with UNC paths.
+For example, "\\server-name\shared\dir1". </p>
+<ul>
+<li>Successful resolution of network path.<br/>
+In other words, ability to detect the server and folder hosting the data.
+For example, the network path "\\server-name\shared\dir1" may be resolved to folder "C:\shared" on server "server-name".
+<p>HTTP Commander supports paths of conventional shared folders and DFS paths.</p>
+
+<p>If the network path specifies a conventional shared folder, you need administrative rights to the server hosting this folder.
+For the network path "\\server\share\dir1", you need administrative rights to server "server".
+</p>
+
+<p>If the network path is a DFS path, you need administrative rights to the root DFS server if this is a stand-alone DFS namespace,
+and to Domain controller if this is a domain-based DFS namespace.
+In stand-alone case, information about the DFS namespace is stored in the registry of the root server.
+In domain-based case, information about the DFS namespace is stored in Active Directory.
+After resolving the DFS path you get another network path that should be resolved.
+The DFS link may point to another DFS path or to a conventional shared folder.
+The resolution process continues until HTTP Commander finds the target server and folder hosting the data.
+</p>
+
+</li>
+<li>File Server Resource Manager is installed on the web server machine.</li>
+<li>File Server Resource Manager is installed on the target machine. 
+The target machine is detected in the process of resolving the path.</li>
+<li>
+    <p>The web server and the target machine must have identical versions of File Server Resource Manager.
+    There are two incompatible versions of FSRM:</p> 
+    <ul>
+    <li>1) installed on Windows Server 2003 R2;</li>
+    <li>2) installed on Windows Servers 2008, 2008 R2, 2012, 2012 R2, 2016.</li>
+    </ul>
+    <p>For example, you cannot manage quotas on Windows Server 2008 from web server running Windows Server 2003 R2.
+</p>
+</li>
+<li>Administrative rights to the target machine.
+</li>
+<li>No firewalls blocking remote procedure call (RPC) ports used by DFS and the DFS root server that hosts DFS.
+This condition should be fulfilled for all DFS root servers and DFS hosts discovered in the course of path resolution.
+See <a target="_blank" href="http://technet.microsoft.com/es-es/library/cc782417(v=ws.10).aspx#w2k3tr_dfs_how_gndl">Network Ports Used by DFS</a> for details.
+</li>
+</ul>
+
+<p><strong>Note about administrative rights to remote machine</strong> 
+In the process of resolving the network path and for managing quotas on remote server,
+you are required to have administrative rights to the remote machine.
+In the case when both machines (the web server and the remote machine) are Windows Server 2003 (R2),
+machines may be members of network group or joined to domain.
+If one of the machines is Windows Server 2008 (R2), Windows Server 2012 (R2) or 2016, 
+then both machines must be joined to the same domain or trusted domains.
+</p>
+
+<p><strong>Limitations</strong> HTTP Commander follows only first target of DFS link
+and DFS root.</p>
+
+<!-- For windows version only. End --> 
+ 
+ 
+ <h3 id="filter">Filter</h3>
+ 
+ <p>
+    HTTP Commander allows to specify a filter to express additional restrictions on the set of users 
+    whom the specific folder is assigned. 
+    This filter applies in addition to ACL (the list of users and groups that are allowed access) and 
+    can express complex conditions. The syntax of the filter is similar to the syntax of LDAP queries.
+ </p>
+ 
+ <p>
+    An elementary filter looks like this:
+ </p>
+ <p>
+    <b>(attribute = "value")</b>,
+ </p>
+ <p>
+    where <b>attribute</b> is either <b>user</b> or <b>group</b>,
+    <b>value</b> - the value of the attribute.
+    The attribute value may contain substitution characters: <b>*</b>, <b>?</b>.
+ </p>
+ <p>
+    Note, brackets and quotes are mandatory. Comparison is case-insensitive.
+ </p>
+ <p>
+    To create a complex filter, individual components are composed into a filter list using logical
+    AND (<b>&amp;</b>), OR (<b>|</b>), NOT (<b>!</b>) operations.
+    For example, 
+    <b>(&amp;(|(user="user*")(user="Admin"))(!(group="group1")))</b>.
+    This filter matches a user with the name "Admin" and users whose names begin on "user",
+    that are not members of the "group1" group.
+ </p>
+ <p>
+    For validate syntax of the filter entered by you, it is used the link <b>Validate</b> to left side of a field.
+ </p>
+ 
+<!-- For windows version only. Start --> 
+
+<h3 id="gpolfolders">Group Policy Drive Maps</h3>
+
+<p>
+If you use  
+<a target="_blank" href="http://technet.microsoft.com/en-us/library/cc731729.aspx">Group Policy Drive Maps Extension</a>, 
+you can import Drive Maps as HTTP Commander folders.
+</p>
+<p>
+On the <b>Misc</b> tab of Admin Panel you can import folders manually. 
+You need to specify a data source &mdash; from where to load Drive Maps.
+You have two options: Domain Controller ("From DC" option) 
+or XML file ("From file" option). When you select "Domain Controller", you need to 
+specify DNS name, NetBIOS name, or IP Address of the domain controller in 
+the "Computer name" field. Leave the field blank to use the domain controller
+of the domain of the current user of HTTP Commander. 
+When you select "XML file", you need to specify the path to the Drives.xml file 
+containing all required settings. Note, the path is interpreted on the Web Server,
+not on the client that runs the web browser.
+</p>
+<p>
+The Drives.xml file is located at the following path on domain controllers
+</p>
+<p>
+<b>\\&lt;doman controller&gt;\sysvol\&lt;domain name&gt;\Policies\&lt;GUID&gt;\USER\Preferences\Drives\Drives.xml</b>,
+</p>
+<p>where domain controller &mdash; is a DNS name, a NetBIOS name or an IP address of the domain controller. 
+There may be a number of Drives.xml files on the domain controller, one for each GPO.
+</p>
+
+<p>The import utility loads all folders from the domain controller or XML file
+and matches them against the list of folders configured in HTTP Commander.
+Existing folders are updated, new folders are added.
+Folders are considered equal if they have identical names and paths.
+Comparison is case-insensitive.
+</p>
+
+<p>There are two options how Drive Maps target conditions are converted to folder 
+permissions in HTTP Commander. If you select the option "filter" in the import utility,
+target conditions are converted to a <a href="#filter">filter</a> expression and assigned to 
+the filter property of the folder. If you select the option "permission" in the import utility,
+ACL of the folder is updated and the filter property is cleared. 
+Users and groups missing in the Drive Maps target conditions
+are removed from the list, and new users and groups are added to ACL with default permissions.
+</p>
+
+<a target="_blank" href="Images/LoadFoldersFromGroupPolicy.png" onclick="toggleBlock('LoadFoldersFromGroupPolicy'); return false;"
+    class="imglink">Screenshot</a>
+<div id="LoadFoldersFromGroupPolicy" style="display: none;">
+    <p class="screenshot">
+        &nbsp;<img src="Images/LoadFoldersFromGroupPolicy.png"/>
+    </p>
+</div>
+
+<p>
+In addition to manual importing of folders, you can automate this task with the
+<b>gpoldrives.exe</b> utility. This utility accept the following parameters:
+</p>
+<p>
+<b>gpoldrives [-fromDC &lt;DC&gt; | -fromFile &lt;fileIn&gt;] -to &lt;fileOut&gt; [-p]</b>,
+</p>
+
+<p>
+where '-p' - a flag for copying user/groups conditions to the folder permissions list.
+</p>
+
+<!-- For windows version only. End --> 
+ 
+ <h3 id="publicfolders">Public folders</h3>
+<p>
+    On this tab, you can manage (edit, delete) public links to files and folders created by users.
+    You can also add new public links.
+</p>
+
+<h3 id="adminpermissions">Admin permissions</h3>
+<p>
+    You can specify which users/groups are allowed to manage settings, folders, accounts, localizations, 
+    view event logs, errors, diagnostics.
+</p>
+<p>
+    Also on this tab, you can add folders and specify them for users/groups who will be able to administer.
+</p>
+
+<h3 id="diagnostics">Diagnostics and License information</h3>
+
+ <p>On the Admin panel, you can open the <b>Diagnostics page</b> (click the <b>Diagnostics</b> button in the toolbar)
+ or view <b>license type</b> (click the <b>License information</b> button on the toolbar).
+ </p>
+<a target="_blank" href="Images/AdminPanelToolbar.png" onclick="toggleBlock('AdminPanelToolbar'); return false;"
+    class="imglink">Screenshot</a>
+<div id="AdminPanelToolbar" style="display: none;">
+    <p class="screenshot">
+        &nbsp;<img src="Images/AdminPanelToolbar.png"/>
+    </p>
+</div>
+ 
+
+<h3 id="mailsettings">Mail settings</h3>
+<p>The MailSettings group on the Settings tab in Admin Panel allows you to specify 
+the settings of the SMTP server. These settings are used to send e-mails by HTTP Commander.
+E-mails are sent by recover user password and send e-mail features. 
+Users may send e-mails to share links to files and folders.</p>
+
+<table border="1">
+<thead>
+<tr><th>Key</th><th>Description</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>DefaultCredentials</td>
+<td>Specifies whether the default user credentials should be used to access the SMTP mail server for SMTP transactions. 
+</td>
+</tr>
+
+<tr>
+<td>From</td>
+<td>From address of e-mails. All e-mails send by HTTP Commander have the same source address.</td>
+</tr>
+
+<tr>
+<td>Host</td>
+<td>Specifies the hostname of the SMTP mail server to send e-mails.</td>
+</tr>
+
+<tr>
+<td>Port</td>
+<td>Specifies the port number to use to connect to the SMTP mail server. The default value is 25.</td>
+</tr>
+
+<tr>
+<td>UserName</td>
+<td>Specifies the user name to use for authentication to the SMTP mail server.<br/>
+<b>Note</b> DefaultCredentials must be false to use custom credentials.
+</td>
+</tr>
+
+<tr>
+<td>Password</td>
+<td>Specifies the password to use for authentication to the SMTP mail server.<br/> 
+<b>Note</b> DefaultCredentials must be false to use custom credentials.
+</td>
+</tr>
+
+<tr>
+<td>EnableSsl</td>
+<td>Specifies whether SSL is used to access an SMTP mail server.</td>
+</tr>
+
+</tbody>
+</table>
+
+<p>MailSettings group represents <a target="_blank" href="http://msdn.microsoft.com/en-us/library/w355a94k.aspx">mailSettings Element</a> of .Net configuration.
+See MSDN for comprehensive description of parameters.</p>
+
+<p><b>Note</b> You need to assign modify permission to the application pool identity for the web.config file 
+as specified in <a href="ntfs.html">NTFS permissions section</a>, 
+otherwise HTTP Commander is not able to save your modifications.</p>
+
+</body>
+</html>

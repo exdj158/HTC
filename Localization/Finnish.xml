@@ -1,0 +1,1608 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Localization>
+  <!-- Common keys -->
+  
+  <ExtMsgButtonTextYES>Joo</ExtMsgButtonTextYES>
+  <ExtMsgButtonTextNO>Ei</ExtMsgButtonTextNO>
+  
+  <ControlHideFileManager>Piilota Web-tiedostojen manager</ControlHideFileManager>
+  
+  <CommonMainTitle>WWWtiedostoja pääsy</CommonMainTitle>
+  <CommonApplicationLoading>Lastaus web-tiedostot pääsy</CommonApplicationLoading>
+  <CommonLoadError>Tapahtui virhe saada puu tiedot</CommonLoadError>
+  <CommonGridAccessDenied>Kansio "{0}" ei ole olemassa tai lue pääsy on estetty</CommonGridAccessDenied>
+  <CommonNoScript>Tämä sivusto vaatii JavaScriptin selaimessasi! Ota se ja kirjautua uudelleen!</CommonNoScript>
+  <CommonErrorCaption>Virhe</CommonErrorCaption>
+  <CommonWarningCaption>Varoitus</CommonWarningCaption>
+  <CommonInfoCaption>Tiedot</CommonInfoCaption>
+  <CommonConfirmCaption>Vahvistaa</CommonConfirmCaption>
+  <CommonFileNameCaption>Tiedoston nimi</CommonFileNameCaption>
+  <CommonFileNamePrompt>Anna uusi tiedostonimi</CommonFileNamePrompt>
+  <CommonFileNewNameValue>Uusi teksti document.txt</CommonFileNewNameValue>
+  <CommonFolderNewNameValue>Uusi kansio</CommonFolderNewNameValue>
+  <CommonZipFileNameCaption>Zip Arkistonimen</CommonZipFileNameCaption>
+  <CommonZipFileNamePrompt>File name (laajennus lisätään automaattisesti)</CommonZipFileNamePrompt>
+  <CommonFolderNameCaption>Kansion nimi</CommonFolderNameCaption>
+  <CommonFolderNamePrompt>Anna uusi kansion nimi</CommonFolderNamePrompt>
+  <CommonDeleteOnePrompt>Oletko varma, että haluat poistaa "{0}"?</CommonDeleteOnePrompt>
+  <CommonDeleteManyPrompt>Oletko varma, että haluat poistaa nämä {0} kohdetta?</CommonDeleteManyPrompt>
+  <CommonForToday>Tänään</CommonForToday>
+  <CommonButtonCaptionOK>kunnossa</CommonButtonCaptionOK>
+  <CommonButtonCaptionCancel>Peruuttaa</CommonButtonCaptionCancel>
+  <CommonButtonCaptionClose>kiinni</CommonButtonCaptionClose>
+  <CommonButtonCaptionAdd>Lisätä</CommonButtonCaptionAdd>
+  <CommonButtonCaptionContinue>Jatkaa</CommonButtonCaptionContinue>
+
+  <CommonProgressPleaseWait>Odota</CommonProgressPleaseWait>
+  
+  <CommonFieldLabelName>Nimi</CommonFieldLabelName>
+  <CommonFieldLabelPath>polku</CommonFieldLabelPath>
+  <CommonFieldLabelSize>Koko</CommonFieldLabelSize>
+  <CommonFieldLabelLabels>Tunnisteet</CommonFieldLabelLabels>
+  <CommonFieldLabelType>Tyyppi</CommonFieldLabelType>
+  <CommonFieldLabelAction>Toiminta</CommonFieldLabelAction>
+  <CommonFieldLabelDate>Treffi</CommonFieldLabelDate>
+  <CommonFieldLabelDateTime>Treffiaika</CommonFieldLabelDateTime>
+  <CommonFieldLabelDateCreated>Päivämäärä luotu</CommonFieldLabelDateCreated>
+  <CommonFieldLabelDateModified>Muokkauspäivämäärä</CommonFieldLabelDateModified>
+  <CommonFieldLabelDateAccessed>date käsiksi</CommonFieldLabelDateAccessed>
+  <CommonFieldLabelValue>Arvo</CommonFieldLabelValue>
+  <CommonFieldLabelUserName>käyttäjätunnus</CommonFieldLabelUserName>
+  <CommonFieldLabelUser>käyttäjä</CommonFieldLabelUser>
+  <CommonFieldLabelUsers>käyttäjät</CommonFieldLabelUsers>
+  <CommonFieldLabelGroupName>Ryhmän nimi</CommonFieldLabelGroupName>
+  <CommonFieldLabelGroup>Ryhmä</CommonFieldLabelGroup>
+  <CommonFieldLabelGroups>Ryhmät</CommonFieldLabelGroups>
+  <CommonFieldLabelPassword>Salasana</CommonFieldLabelPassword>
+  <CommonFieldLabelRepeatPassword>Toista salasana</CommonFieldLabelRepeatPassword>
+  <CommonFieldLabelComments>Kommentit</CommonFieldLabelComments>
+  <CommonValueTypeFolder>Kansio</CommonValueTypeFolder>
+
+  <CommonFieldLabelDescription>Kuvaus</CommonFieldLabelDescription>
+  <EmptyDescriptionText>Määritä kuvaus</EmptyDescriptionText>
+  <CommonFieldLabelReadMeTxt>readme.txt sisältöä</CommonFieldLabelReadMeTxt>
+  
+  <CommonWordOr>tai</CommonWordOr>
+
+  <SortAscText>Lajittele nousevasti</SortAscText>
+  <SortDescText>Lajittele laskevasti</SortDescText>
+
+  <CommonNewDocument>uusi asiakirja</CommonNewDocument>
+  <CommonNewSpreadsheet>uusi laskentataulukko</CommonNewSpreadsheet>
+  <CommonNewPresentation>uusi esitys</CommonNewPresentation>
+
+  <CommonWordWrap>Rivitys</CommonWordWrap>
+  
+  <!-- End Common keys -->
+
+  <!-- Labels -->
+
+  <LabelsTitle>etiketti</LabelsTitle>
+  <LabelsNoLabel>ei label</LabelsNoLabel>
+  <LabelsColor>Väri</LabelsColor>
+  <LabelsCustomLabel>Muokattu tunniste</LabelsCustomLabel>
+  <LabelsCustomLabelHint>Kirjoita tarran teksti</LabelsCustomLabelHint>
+  <LabelsCustomLabelView>Label &amp;nbsp; näkymä: &amp;nbsp; {0} {1} {2}</LabelsCustomLabelView>
+  <LabelsFileLabelledMessage>Onnistuneesti merkitty {0} item (s)</LabelsFileLabelledMessage>
+  <LabelsRemovedMessage>Onnistuneesti poistettu {0} etiketti (t)</LabelsRemovedMessage>
+  <LabelsNotRemovedMessages>ei poistettu: {0}</LabelsNotRemovedMessages>
+  <LabelsNotLabelledMessage>ei merkitty: {0}</LabelsNotLabelledMessage>
+  <LabelsLabelRemovedMessage>Label poistettu onnistuneesti</LabelsLabelRemovedMessage>
+  <LabelsNewLabel>New Label</LabelsNewLabel>
+  <LabelsLabellingMessage>Merkinnät</LabelsLabellingMessage>
+  <LabelsRemovingLabelMessage>poistaminen tarrat</LabelsRemovingLabelMessage>
+  <LabelsLabelInfoTip>Merkitty {0} {1} käyttäjän {2} '</LabelsLabelInfoTip>
+
+  <!-- End Labels -->
+
+  <!-- Comments -->
+
+  <CommentsCountInfoTip>{0} kommentti (s)</CommentsCountInfoTip>
+  <CommentsWriteCommentHint>Kirjoita kommentti ja paina "{0} tai Ctrl+Enter tai vaihto+Enter ...</CommentsWriteCommentHint>
+
+  <!-- End Comments -->
+
+  <RefreshPageWarningMessage>&lt;b&gt; Huomio! &lt;/b&gt; Suorita tämä toimenpide, nykyisen sivun selaimen tulee uudistaa. &lt;br /&gt; Haluatko päivittää nyt?</RefreshPageWarningMessage>
+
+  <PagingToolbarBeforePageText>Sivu</PagingToolbarBeforePageText>
+  <PagingToolbarAfterPageText>of {0}</PagingToolbarAfterPageText>
+  <PagingToolbarFirstText>Ensimmäinen sivu</PagingToolbarFirstText>
+  <PagingToolbarPrevText>Edellinen sivu</PagingToolbarPrevText>
+  <PagingToolbarNextText>Seuraava sivu</PagingToolbarNextText>
+  <PagingToolbarLastText>Viimeinen sivu</PagingToolbarLastText>
+  <PagingToolbarDisplayMsg>Tuotteet {0} - {1} on {2}</PagingToolbarDisplayMsg>
+  <PagingToolbarEmptyMsg>Ei näytettäviä tietoja</PagingToolbarEmptyMsg>
+  
+  <GridTotalLabel>Kaikki yhteensä:</GridTotalLabel>
+  <GridTotalFilesLabel>tiedostot</GridTotalFilesLabel>
+  <GridTotalFoldersLabel>kansiot</GridTotalFoldersLabel>
+  
+  <GridDDSelectedRowsText>{0} valitun rivin {1}</GridDDSelectedRowsText>
+  <GridDDSelectedFilesText>{0} valitut tiedostot</GridDDSelectedFilesText>
+  <GridDDSelectedFoldersText>{0} valitut kansiot</GridDDSelectedFoldersText>
+  <GridDDConfirmCopyMoveTitle>Drop kansioon "{0}"</GridDDConfirmCopyMoveTitle>
+  <GridDDConfirmAddToZipTitle>Lisää zip "{0}"</GridDDConfirmAddToZipTitle>
+  <GridDDConfirmAddToZipMessage>Vetää tiedostoja lisätään tähän ZIP-arkisto. Haluatko jatkaa? {0}.</GridDDConfirmAddToZipMessage>
+  <GridDDConfirmCopyMoveMsg>Valitse toiminto, jonka haluat hakea. Lähde: "{0}", Kohdekansio: "{1}". {2}. {3}</GridDDConfirmCopyMoveMsg>
+  <GridDDConfirmCopyMoveToZipMsg>Tiedostot lisätään zip arkistoon. Valitse toiminto, johon haluat soveltaa vetää tiedostot lisäämisen jälkeen tiedostot Zip. Lähde: "{0}", Destination Zip: "{1}". {2}. {3}</GridDDConfirmCopyMoveToZipMsg>
+  <GridDDDraggedFileNames>&lt;b&gt; Vetää tiedostoja: &lt;/b&gt; {0}</GridDDDraggedFileNames>
+  <GridDDDraggedFolderNames>&lt;b&gt; Vetää kansiot: &lt;/b&gt; {0}</GridDDDraggedFolderNames>
+  <GridDDConfirmTargetFolderOnlyCopyMsg>Nykyiset käyttöoikeudet lähdekansion voit vain kopioida vetää tiedostoja. Haluatko jatkaa? {0}.</GridDDConfirmTargetFolderOnlyCopyMsg>
+  <GridDDConfirmTargetFolderOnlyMoveMsg>Nykyiset käyttöoikeudet lähdekansion voit vain siirtää vetää tiedostoja. Haluatko jatkaa? {0}.</GridDDConfirmTargetFolderOnlyMoveMsg>
+
+  <GridRowPublicHint>Klikkaamalla avata julkisen linkki uuteen ikkunaan / välilehti</GridRowPublicHint>
+  <GridRowAlertHint>Klikkaa näkyviin muutoksiin tehnyt tätä tiedostoa / kansiota</GridRowAlertHint>
+  <GridRowRecentHint>Etsi tämä tiedosto / kansio</GridRowRecentHint>
+  <GridRowAlertEventHint>Klikkaa päästäksesi tähän paikkaan</GridRowAlertEventHint>
+
+  <ProgressCreating>luominen</ProgressCreating>
+  <ProgressDeleting>poistaminen</ProgressDeleting>
+  <ProgressLoading>Ladataan</ProgressLoading>
+  <ProgressSearching>tutkiva</ProgressSearching>
+  <ProgressZipping>Pakataan</ProgressZipping>
+  <ProgressUnzipping>Pakkauksen purkaminen</ProgressUnzipping>
+  <ProgressZipContents>Getting sisällön ZIP-arkisto</ProgressZipContents>
+  <ProgressPrepareDownload>Valmistautuminen download</ProgressPrepareDownload>
+  <ProgressMoving>edistyminen</ProgressMoving>
+  <ProgressCopying>kopiointi</ProgressCopying>
+  <ProgressRenaming>uudelleennimeäminen</ProgressRenaming>
+  <ProgressUpdating>päivittäminen</ProgressUpdating>
+  <ProgressLoadingEditInPixlr>Ladataan Pixlr editor</ProgressLoadingEditInPixlr>
+  <ProgressLoadingEdit>Ladataan editor</ProgressLoadingEdit>
+  <ProgressSavingEdit>Tallennetaan tiedostoa</ProgressSavingEdit>
+  <ProgressSaving>Tallentaa</ProgressSaving>
+  <ProgressExecuting>Esittäen</ProgressExecuting>
+
+  <BalloonFilesDeleted>{0} tiedosto (t) poistettu</BalloonFilesDeleted>
+  <BalloonFoldersDeleted>{0} kansio (t) poistettu</BalloonFoldersDeleted>
+  <BalloonFilesFailed>{0} tiedosto (t) epäonnistui</BalloonFilesFailed>
+  <BalloonFoldersFailed>{0} kansio (t) epäonnistui</BalloonFoldersFailed>
+  <BalloonFilesZipped>{0} tiedosto (t) pakattu</BalloonFilesZipped>
+  <BalloonFoldersZipped>{0} kansio (t) pakattu</BalloonFoldersZipped>
+  <BalloonFilesCopied>{0} tiedosto (t) kopioidaan</BalloonFilesCopied>
+  <BalloonFoldersCopied>{0} kansio (t) kopioidaan</BalloonFoldersCopied>
+  <BalloonFilesMoved>{0} tiedosto (t) siirretty</BalloonFilesMoved>
+  <BalloonFoldersMoved>{0} kansio (t) siirretty</BalloonFoldersMoved>
+  <BalloonNotUnzipped>{0} tiedosto (t) ei ole purettu</BalloonNotUnzipped>
+  <BalloonFilesUploaded>{0} tiedosto (t) ladattu</BalloonFilesUploaded>
+  <BalloonFilesNotUploaded>{0} tiedosto (t) ei ladattu</BalloonFilesNotUploaded>
+  <BalloonSomeFilesNotUploaded>Joitakin tiedostoja ei voi ladata</BalloonSomeFilesNotUploaded>
+  <BalloonCreatedSuccessfully>luotu</BalloonCreatedSuccessfully>
+  <BalloonUnzippedSuccessfully>Pakkauksesta menestyksellisesti</BalloonUnzippedSuccessfully>
+  <BalloonRenamedSuccessfully>Nimi vaihdettu</BalloonRenamedSuccessfully>
+  <BalloonSavedSuccessfully>Tallennettu onnistuneesti</BalloonSavedSuccessfully>
+  <BalloonCopiedToClipboard>Kopioitu leikepöydälle</BalloonCopiedToClipboard>
+  <BalloonCopyToClipboardFailed>Kopioi leikepöydälle epäonnistui</BalloonCopyToClipboardFailed>
+
+  <CommandCopyToClipboard>Kopioi leikepöydälle</CommandCopyToClipboard>
+  <CommandCopyLinkToClipboard>Kopioi linkki leikepöydälle</CommandCopyLinkToClipboard>
+  <ClipboardScreenshotTitlePrefix>Kuva</ClipboardScreenshotTitlePrefix>
+  <ClipboardScreenshotHint>Kuvat: Voit liittää kuvakaappaus leikepöydälle (painamalla &lt;b&gt; Ctrl+PrtSc &lt;/b&gt; ja sitten &lt;b&gt; Ctrl+V &lt;/b&gt;) tai kuva tekstinkäsittelyohjelman (painamalla &lt;b&gt; Ctrl+V &lt;/b&gt;).</ClipboardScreenshotHint>
+  <ClipboardFileHint>Voit myös liittää tiedoston leikepöydälle</ClipboardFileHint>
+
+  <CommandClouds>Cloud varastot</CommandClouds>
+  <CommandCloudsDownloadTo>ladata ...</CommandCloudsDownloadTo>
+  <CommandCloudsUploadFrom>ladattava ...</CommandCloudsUploadFrom>
+  <CommandCloudsAbout>Tietoja Cloud varastot</CommandCloudsAbout>
+  
+  <CommandBack>Takaisin</CommandBack>
+  <CommandForward>Eteenpäin</CommandForward>
+  <CommandRecentFolders>Viimeaikaiset kansiot</CommandRecentFolders>
+  <CommandHome>Koti</CommandHome>
+  <CommonActions>Toimet</CommonActions>
+  <CommandMultiSelect>Monivalintatilasta</CommandMultiSelect>
+  <CommandShare>Jaa</CommandShare>
+  <CommandSorting>lajittelu</CommandSorting>
+  
+  <CommandFileManager>Paluu tiedostonhallinta</CommandFileManager>
+  <CommandFolders>kansiot</CommandFolders>
+  <CommandGridView>näkymä</CommandGridView>
+  <CommandRefresh>virkistää</CommandRefresh>
+  <CommandThumbnailView>Pikkukuvanäkymä</CommandThumbnailView>
+  <CommandDetailedView>Listanäkymä</CommandDetailedView>
+  <CommandDetailsPane>tietoruudussa</CommandDetailsPane>
+  <CommandFavorites>suosikit</CommandFavorites>
+  <CommandAddToFavorites>Lisää suosikkeihin</CommandAddToFavorites>
+  <CommandAddToFavoritesHint>Lisää nykyinen kansio suosikkeihin</CommandAddToFavoritesHint>
+  <AddingToFavoritesMessage>Lisääminen suosikkeihin</AddingToFavoritesMessage>
+  <RemoveFromFavoritesMessage>Poistaminen suosikeista</RemoveFromFavoritesMessage>
+  <FolderAlreadyAddedInFavorites>Kansio "{0}" on jo suosikkeja</FolderAlreadyAddedInFavorites>
+  <FolderAddedInFavoritesSuccessfully>Kansio "{0}" on onnistuneesti lisätty suosikkeihin</FolderAddedInFavoritesSuccessfully>
+  <FavoritesIsOverflowed>Ei ollut mahdollista lisätä nykyiseen kansioon "{0}" suosikkeihin. Poista joitakin suosikkeja Vapauta tilaa ja yritä uudelleen.</FavoritesIsOverflowed>
+  <RemoveFromFavoritesHint>Poista "{0}" suosikeista</RemoveFromFavoritesHint>
+  <AddToHomeScreenIOSHint>Napauttamalla {0} ja sitten &lt;strong&gt; "Lisää etusivulle" &lt;/strong&gt;</AddToHomeScreenIOSHint>
+  <CommandSearch>Hae</CommandSearch>
+  <CommandUpload>Lataa</CommandUpload>
+  <CommandSettings>asetukset</CommandSettings>
+  <CommandLanguage>Kieli</CommandLanguage>
+  <CommandAdministration>hallinto</CommandAdministration>
+  <CommandAdminPanel>Ylläpitäjän paneeli</CommandAdminPanel>
+  <CommandChangePassword>Vaihda salasana</CommandChangePassword>
+  <ProgressChangePassword>salasanan</ProgressChangePassword>
+  <CommandChangeEmail>Vaihda sähköposti</CommandChangeEmail>
+  <ProgressChangeEmail>Muuttaminen e-mail</ProgressChangeEmail>
+  <CommandMobileView>Mobiilikäyttöliittymä (älypuhelimet)</CommandMobileView>
+  <CommandStandardView>Täysversio</CommandStandardView>
+  <CommandInstallIOSApp>Asenna IOS app</CommandInstallIOSApp>
+  <CommandInstallAndroidApp>Asenna Android-sovellus</CommandInstallAndroidApp>
+  <CommandAddServerToMobileApp>Lisää tämä palvelin mobiilisovelluksen</CommandAddServerToMobileApp>
+  <CommandAddToHomeScreen>Lisää aloitusnäyttöön</CommandAddToHomeScreen>
+  <CommandDiagnostics>Diagnostic sivu</CommandDiagnostics>
+  <CommandLicenseInfo>lisenssitiedot</CommandLicenseInfo>
+  <CommandLogout>Kirjautua ulos</CommandLogout>
+  <CommandLogoutHint>Klikkaa loppuun nykyisen istunnon</CommandLogoutHint>
+  <CommandNew>Uusi</CommandNew>
+  <CommandFile>tiedosto</CommandFile>
+  <CommandEmptyFile>tyhjä tiedosto</CommandEmptyFile>
+  <CommandNewMSOODocument>Asiakirja MS Office Online</CommandNewMSOODocument>
+  <CommandNewOffice365Document>Asiakirjan Office 365</CommandNewOffice365Document>
+  <CommandNewMSOOWord>Word-asiakirja</CommandNewMSOOWord>
+  <CommandNewMSOOExcel>Excel-taulukon</CommandNewMSOOExcel>
+  <CommandNewMSOOPowerPoint>Powerpoint esitelmä</CommandNewMSOOPowerPoint>
+  <CommandNewGoogleDocument>Asiakirja Google</CommandNewGoogleDocument>
+  <CommandNewGoogleDocs>Google Docs</CommandNewGoogleDocs>
+  <CommandNewGoogleSheets>Google Sheets</CommandNewGoogleSheets>
+  <CommandNewGoogleSlides>Google-presentaatiot</CommandNewGoogleSlides>
+  <CommandNewImage>Kuva Pixlr</CommandNewImage>
+  <CommandFolder>Kansio</CommandFolder>
+  <CommandNewFile>Uusi tyhjä tiedosto</CommandNewFile>
+  <CommandNewFolder>Uusi kansio</CommandNewFolder>
+  <CommandNewWithTemplate>Käyttäen mallia ...</CommandNewWithTemplate>
+  <CommandRename>Nimeä uudelleen</CommandRename>
+  <CommandDelete>Poistaa</CommandDelete>
+  <CommandCopy>Kopio</CommandCopy>
+  <CommandMove>Liikkua</CommandMove>
+  <CommandCut>Leikata</CommandCut>
+  <CommandCopyTo>Kopioi...</CommandCopyTo>
+  <CommandMoveTo>Muuttaa...</CommandMoveTo>
+  <CommandCopyCutClipboardSuffix>leikepöydälle</CommandCopyCutClipboardSuffix>
+  <CommandPaste>tahna</CommandPaste>
+  <CommandPasteInto>liitä</CommandPasteInto>
+  <CommandZip>Pakkaa Zip arkistoon</CommandZip>
+  <CommandZipMenu>Zip / Pura</CommandZipMenu>
+  <CommandUnzip>purkaa Zip</CommandUnzip>
+  <CommandUnzipSelected>Pura valitut</CommandUnzipSelected>
+  <CommandUnzipAll>purkaa kaikki</CommandUnzipAll>
+  <CommandUnzipTo>kansioon</CommandUnzipTo>
+  <CommandUnzipToCurrent>nykyiseen kansioon</CommandUnzipToCurrent>
+  <MessageUnzipToFolder>Kirjoita nimi kansion purkaa tämän</MessageUnzipToFolder>
+  <MessageUnzipPasswordHint>Jos tiedät, että salasana on tarpeen purkamisesta, kirjoita se alla olevaan kenttään</MessageUnzipPasswordHint>
+  <MessageUnzipNeedPassword>Tarvitaan salasana purkaa tiedostot</MessageUnzipNeedPassword>
+  <ZipPasswordProtectHint>Salasanasuojata zip-arkisto, kirjoita salasana alla olevaan kenttään. Muussa tapauksessa jätä kenttä tyhjäksi</ZipPasswordProtectHint>
+  <AppendToZipPasswordProtectHint>Salasanasuojata tiedostot lisätään zip arkistoon, kirjoita salasana alla olevaan kenttään. Muussa tapauksessa jätä kenttä tyhjäksi</AppendToZipPasswordProtectHint>
+  <ZipPasswordProtectWindowTitle>Arkistointi salasanalla</ZipPasswordProtectWindowTitle>
+  <OpenFolderAfterUnzipCheckBox>Avaa kansio pakkauksen purkamisen jälkeen</OpenFolderAfterUnzipCheckBox>
+  <CommandUnzipToNew>uuteen kansioon</CommandUnzipToNew>
+  <CommandZipContents>zip sisältö</CommandZipContents>
+  <ArchiveContentsTitle>Arkiston sisältö "{0}"</ArchiveContentsTitle>
+  <CommandDownload>ladata</CommandDownload>
+  <CommonDownloadAll>Lataa kaikki</CommonDownloadAll>
+  <DownloadListDragFile>Voit vetää-n-drop tiedostojen työpöydällesi</DownloadListDragFile>
+  <CommandZipDownload>Pakkaa ja lataa</CommandZipDownload>
+  <CommandView>Näytä selaimessa</CommandView>
+  <CommandDownloadOrView>Lataa tai näkymä</CommandDownloadOrView>
+  <CommandPreview>kuvat esikatselu</CommandPreview>
+  <CommandFlashPreview>Flash esikatselu</CommandFlashPreview>
+  <GettingSizeFlashMovie>Getting koosta flash elokuvan</GettingSizeFlashMovie>
+  <CommandEdit>Muuta kuin tekstitiedosto</CommandEdit>
+  <CommandEditView>Tarkastele tekstitiedosto</CommandEditView>
+  <AceNotLoadedMessage>Ei voitu ladata Ace editor</AceNotLoadedMessage>
+  <VideoJsNotLoadedMessage>Lataaminen ei onnistu VideoJS pelaaja</VideoJsNotLoadedMessage>
+  <CommandMenuEdit>Muokata</CommandMenuEdit>
+  <CommandSelectAll>Valitse kaikki</CommandSelectAll>
+  <CommandInvertSelection>Käänteinen valinta</CommandInvertSelection>
+  <CommandLinkToFile>Linkki tiedostoon / kansioon</CommandLinkToFile>
+  <!--Share link-->
+  <CommandMakePublicFolder>Luo julkinen linkki</CommandMakePublicFolder>
+  <PublicViewInGoogle>Näytä Google</PublicViewInGoogle>
+  <PublicViewinOWA>Katso OWA</PublicViewinOWA>
+  <!--Make public folder (share)-->
+  <CommandViewWithGoogleDoc>Näytä Google Docs</CommandViewWithGoogleDoc>
+  <CommandViewWithShareCad>Tarkastele in ShareCad.org</CommandViewWithShareCad>
+  <CommandViewWithAutodesk>View Autodesk</CommandViewWithAutodesk>
+  <CommandViewWithBox>Katso kehikossa</CommandViewWithBox>
+  <CommandViewWithOWA>Katso Office Web Apps</CommandViewWithOWA>
+  <CommandCloudConvert>Muuntaa kanssa CloudConvert</CommandCloudConvert>
+  <ProgressGetCloudConvertOutputFormats>Getting lähtöformaateista</ProgressGetCloudConvertOutputFormats>
+  <ProgressCloudConvertConverting>muuntaminen</ProgressCloudConvertConverting>
+  <CloudConvertWindowTitle>Muunna {0}</CloudConvertWindowTitle>
+  <CloudConvertWindowConvertButton>Muuntaa</CloudConvertWindowConvertButton>
+  <CloudConvertWindowOutputFormatsLabel>ulostuloformaatti</CloudConvertWindowOutputFormatsLabel>
+  <CloudConvertDownloadLinkLabel>Link ladattavissa</CloudConvertDownloadLinkLabel>
+  <CloudConvertSaveAsLabel>Tallenna (laajennus lisätään automaattisesti):</CloudConvertSaveAsLabel>
+  <CloudConvertNoOutputFormats>Ei ole saatavilla formaatit muuntaa</CloudConvertNoOutputFormats>
+  <CloudConvertNoUrlForDownload>Se ei ollut onnistunut saamaan linkin lataamiseen</CloudConvertNoUrlForDownload>
+  <ProgressCloudConvertUploading>Lataaminen CloudConvert</ProgressCloudConvertUploading>
+  <CloudConvertSaveAsNameBlank>Tyyppi nimi tähän</CloudConvertSaveAsNameBlank>
+  <CancelEditButton>Peruuta muokkaa</CancelEditButton>
+  <HideButton>Piilottaa</HideButton>
+  <EditDocumentCancelHint>Kun olet sulkenut ikkunan muokatuista asiakirjan, se tallennettu automaattisesti. &lt;br /&gt; Voit piilottaa valintaikkuna painamalla {0} (tässä tapauksessa asiakirja edelleen tallennetaan sulkemisen jälkeen toimittaja). &lt;br /&gt; Jos et halua tallentaa dokumentin, paina {1} (tässä tapauksessa muokkausikkunaan suljetaan).</EditDocumentCancelHint>
+  <EditDocumentSaveHint>Nyt voit tallentaa muutokset asiakirjassa painamalla {0}. Huomio! Kun olet sulkenut muokkausikkunaan, se myös tallenneta automaattisesti.</EditDocumentSaveHint>
+  <CommandEditInMSOffice>Muokkaa MS Office</CommandEditInMSOffice>
+  <CommandEditInOOo>Edit OpenOffice / LibreOffice</CommandEditInOOo>
+  <CommandViewInMSOffice>Katso MS Office</CommandViewInMSOffice>
+  <CommandViewInOOo>Katso OpenOffice / LibreOffice</CommandViewInOOo>
+  <CommandEditInPixlr>Muokkaa Pixlr</CommandEditInPixlr>
+  <CommandEditInAdobe>Muokata Adobe Creative Cloud</CommandEditInAdobe>
+  <AdobeImageEditorSavedAsNewTypeMessage>Kuva muuttui Adobe Image Editor on tallennettu muodossa {0}</AdobeImageEditorSavedAsNewTypeMessage>
+  <CommandEditInGoogle>Muokkaa Google Driven</CommandEditInGoogle>
+  <EditInGoogleConvertMessage>Sen jälkeen muokkaa asiakirja muunnetaan muotoon {1} {0} {2}</EditInGoogleConvertMessage>
+  <EditInGoogleLinkError>Ei saada linkin muokata asiakirjaa Google Driven</EditInGoogleLinkError>
+  <EditInGoogleWaiting>Odotetaan muokkausta valmistua Google Driven</EditInGoogleWaiting>
+  <CommandEditInMSOO>Muokkaa MS Office Online</CommandEditInMSOO>
+  <EditInMSOOLinkError>Ei saada linkin muokata asiakirjaa MS Office Online</EditInMSOOLinkError>
+  <EditInMSOOWaiting>Odotetaan muokkausta valmistua MS Office Online</EditInMSOOWaiting>
+  <CommandEditInOffice365>Muokkaa Office 365</CommandEditInOffice365>
+  <EditInOffice365LinkError>Ei saada linkin muokata asiakirjaa Office 365</EditInOffice365LinkError>
+  <EditInOffice365Waiting>Odotetaan muokkausta valmistua Office 365</EditInOffice365Waiting>
+  <CommandSave>Tallentaa</CommandSave>
+  <CommandSaveAs>Tallenna nimellä...</CommandSaveAs>
+  <CommandAppRestart>Käynnistä uudelleen sovellus</CommandAppRestart>
+  <CommandPlayVideoFlash>Toista video Flash player</CommandPlayVideoFlash>
+  <CommandPlayVideoHtml5>Toista video</CommandPlayVideoHtml5>
+  <CommandPlayAudioHtml5>Toista ääntä</CommandPlayAudioHtml5>
+  <CommandPlayVideo>Toista video</CommandPlayVideo>
+  <CommandPlayAudio>Toista ääntä</CommandPlayAudio>
+  <CommandConvertVideo>muuntaa video</CommandConvertVideo>
+
+  <ViewInServiceLink>Klikkaa tästä nähdäksesi tiedosto</ViewInServiceLink>
+  <EditInServiceLink>Klikkaa tästä muokata asiakirjaa</EditInServiceLink>
+
+  <OfficeEditCopyLinkLabel>Kopioi alla oleva linkki ja avata sen Office-sovelluksen:</OfficeEditCopyLinkLabel>
+  <OfficeRunError>Se ei ollut mahdollista käynnistää {0}</OfficeRunError>
+  <BadPathToFile>Ei ollut mahdollista löytää polku tiedostoon</BadPathToFile>
+  <FixBasicAuthAlertTitle>Huomio!</FixBasicAuthAlertTitle>
+  <FixBasicAuthAlertMessage>Microsoft Office toimii Basic authentication ilman SSL! Voit korjata tätä Office. Lisää tietoa löytyy {0}.</FixBasicAuthAlertMessage>
+  <FixBasicAuthAlertCheckBoxText>Ei osoittaa tämän vuoropuhelun enää.</FixBasicAuthAlertCheckBoxText>
+  <CommandDetails>Yksityiskohdat</CommandDetails>
+  <CommonButtonCaptionAddDetail>Lisää tietoja</CommonButtonCaptionAddDetail>
+  <CommonButtonCaptionAddComment>Lisää kommentti</CommonButtonCaptionAddComment>
+  <DetailsWindowTitle>Tiedot "{0}"</DetailsWindowTitle>
+  <FileDetailsSave>Ota muutokset käyttöön</FileDetailsSave>
+  <FileDetailsIgnoreChanges>Jättää huomiotta</FileDetailsIgnoreChanges>
+  <FileDetailsCloseConfirmTitle>Tiedosto yksityiskohdat ikkuna suljetaan</FileDetailsCloseConfirmTitle>
+  <FileDetailsCloseConfirmMsg>Huomio! Muutoksilla ei ole vielä tallennettu. Valitse toiminto, johon haluat soveltaa näitä muutoksia ennen sulkemalla ikkunan.</FileDetailsCloseConfirmMsg>
+  <FileDetailsGridTitleColumn>otsikko</FileDetailsGridTitleColumn>
+  <FileDetailsGridAuthorColumn>Viimeinen tekijä</FileDetailsGridAuthorColumn>
+  <LoadingDetailsMask>Ladataan tiedot</LoadingDetailsMask>
+  <NewDetailsTitle>uusi osasto</NewDetailsTitle>
+  <NewDetailsValue>Uudet tiedot arvo</NewDetailsValue>
+  <DetailsSavingMsg>tallentaminen yksityiskohdat</DetailsSavingMsg>
+  <ProgressLoadingEditInOffice>Valmistautuminen muokkaamiseen Office</ProgressLoadingEditInOffice>
+  <MenuFilterText>Suodattimet</MenuFilterText>
+  <EmptyTextFilter>Anna suodatin ...</EmptyTextFilter>
+  <AfterDateFilterText>Jälkeen</AfterDateFilterText>
+  <BeforeDateFilterText>Ennen</BeforeDateFilterText>
+  <OnDateFilterText>Päällä</OnDateFilterText>
+  <YesBooleanFilterText>Joo</YesBooleanFilterText>
+  <NoBooleanFilterText>Ei</NoBooleanFilterText>
+  <CommandEditWithZoho>Muokkaa Zoho</CommandEditWithZoho>
+  <ZohoNotSupportedFormatMessage>Laajennus ei tue Zoho. Katso {0}.</ZohoNotSupportedFormatMessage>
+  <ProgressLoadingEditInZoho>Ladataan Zoho editor</ProgressLoadingEditInZoho>
+  <CommandSubMenuViewAndEdit>Katso / muokkaa</CommandSubMenuViewAndEdit>
+  <CommandSubMenuShare>Jaa</CommandSubMenuShare>
+  <CommandSubMenuMore>lisää</CommandSubMenuMore>
+  <StopUploadingButtonText>Stop</StopUploadingButtonText>
+  <SimpleUploadErrorInfo>Kun lataat tiedoston (t) virhe. &lt;br /&gt; Katso {0} lisätietoja &lt;/a&gt;</SimpleUploadErrorInfo>
+  <BalloonAbortFilesUploaded>Lataaminen Tiedostojen keskeytettiin</BalloonAbortFilesUploaded>
+  <UploadDragNDropTab>Vedä ja pudota</UploadDragNDropTab>
+  <UploadDragNDropTabImages>Drag &amp;drop+kuvia</UploadDragNDropTabImages>
+  <DnDGridProgressColumn>edistyminen</DnDGridProgressColumn>
+  <DnDFileReadingError>Lukeminen virhe. Virhekoodi: {0}.</DnDFileReadingError>
+  <DnDFileReadingAbort>Lukeminen keskeytetty. Virhekoodi: {0}.</DnDFileReadingAbort>
+  <DnDFileUploadingError>Ladataan virhe. {0}</DnDFileUploadingError>
+  <DnDFileUploadingAbort>Lataaminen keskeytettiin.</DnDFileUploadingAbort>
+  
+  <CommandWebFoldersLinks>Kartta web kansiot</CommandWebFoldersLinks>
+  <CommandSyncWebFolders>Synkronoi paikallinen kansion</CommandSyncWebFolders>
+  <WebFolderLinksFieldLabel>Web-kansio linkit</WebFolderLinksFieldLabel>
+  <WebFolderLinksForWindows64Note>Paina näppäinyhdistelmä {0} Win+R {1}. Työnnä komentorivi on {0} Avaa: {1} kenttä (katso komentoriviltä esimerkkejä alla), valitse {0} OK {1}. Windows todennus täydellisten verkkotunnuksia: {2}.</WebFolderLinksForWindows64Note>
+  <OpenLibreOfficeRunCommandNote>Tai näppäillä {0} Win+R {1}, aseta komentorivin alapuolella on {0} Avaa: {1} kenttä ja paina {0} OK {1}</OpenLibreOfficeRunCommandNote>
+  <WebFolderLinksForMacOSNote>Kun "Finder" valikossa auki {0} Go-&gt; Yhdistä palvelimeen {1}. Laita linkkiä web-kansion {0} "palvelimen osoite" {1} kenttä. Klikkaa {0} "Connect" {1}. Uudessa valintaikkunassa valitsemalla {0} "Vieras" {1} tai {0} "Rekisteröitynyt käyttäjä" {1} (Windows authentication). Klikkaa {0} "Connect" {1}.</WebFolderLinksForMacOSNote>
+  <WebFolderLinksForUbuntuNote>Open {0} Go-&gt; Paikka ... {1} Kopioi linkki web kansion sijainti kenttään.</WebFolderLinksForUbuntuNote>
+  <LinksToWebFoldersWindowText>Voit kartta kansiot nähdä verkkoasemana paikallisessa OS. Sen jälkeen kartoitus voit käsitellä tiedostoja, kuten paikallisten itse tai muokata asiakirjoja MS Office tai OpenOffice. Katso auttaa miten kartta {0}.</LinksToWebFoldersWindowText>
+  <CommonFileTypeNameCaption>"{0}" tiedoston nimi</CommonFileTypeNameCaption>
+  <CommonFileTypeNamePrompt>Anna uusi "{0}" tiedoston nimi</CommonFileTypeNamePrompt>
+  
+  <PixlrEditorWindowTitle>Pixlr toimittaja {0}</PixlrEditorWindowTitle>
+  <PixlrSaveImageSuccessMessage>Kuva "{0}" tallentaminen onnistui. Päivittää luettelon, jos olet tallentanut kuvan uudella nimellä.</PixlrSaveImageSuccessMessage>
+  <CommonFileImageNewName>uusi kuva</CommonFileImageNewName>
+  <CommandChangeTheme>Vaihda teema</CommandChangeTheme>
+  
+  <CommandHelp>auta</CommandHelp>
+
+  <OpeningShortcutProgress>Opening pikakuvake</OpeningShortcutProgress>
+  <CommandCreateShortcut>Oikotie (symbolinen linkki)</CommandCreateShortcut>
+  <ShortcutNameHint>linkin nimeä</ShortcutNameHint>
+  <ShortcutTargetPathHint>kohdepolku</ShortcutTargetPathHint>
+  <CreateShortcutButtonTitle>Luoda</CreateShortcutButtonTitle>
+  <CreatingShortcutProgress>luotaessa pikakuvaketta</CreatingShortcutProgress>
+  <CreateShortcutSuccessMessage>Oikotie "{0}" onnistui luotu "{1}".</CreateShortcutSuccessMessage>
+
+  <OpeningInternetShortcutProgress>Avaaminen Internet pikakuvake</OpeningInternetShortcutProgress>
+  <InternetShortcutNotValidMsg>Tavoitteena URL Tämän Internet-linkin ei ole pätevä</InternetShortcutNotValidMsg>
+  <InternetShortcutWindowTitle>Mene linkki</InternetShortcutWindowTitle>
+  
+  <CommandVersioning>versiointi</CommandVersioning>
+  <CommandVersionHistory>versiohistoria</CommandVersionHistory>
+  <CommandCheckOut>Tarkista</CommandCheckOut>
+  <CommandCheckIn>Ilmoittautua</CommandCheckIn>
+  <CommandUndoCheckOut>Peruuta Lähtö</CommandUndoCheckOut>
+  <VersionHistoryObtainingMessage>Hankkiminen versiohistoria</VersionHistoryObtainingMessage>
+  <NoVersionHistoryMessage>Versiohistoriasta valitun tiedostoa ei ole olemassa</NoVersionHistoryMessage>
+  <FileIsCheckedOutMessage>Tiedostoa "{0}" on jo kassalla käyttäjä "{1}" on {2}</FileIsCheckedOutMessage>
+  <CheckingOutMessage>Tarkastaa</CheckingOutMessage>
+  <SuccessfullyCheckedOutMessage>Tiedostoa "{0}" onnistui kassalla käyttäjä "{1}"</SuccessfullyCheckedOutMessage>
+  <FileIsNotCheckedOutMessage>Tiedostoa "{0}" ei ole kassalla vielä</FileIsNotCheckedOutMessage>
+  <FileIsCheckedOutOtherUserMessage>Tiedostoa "{0}" on kuitattu ulos toinen käyttäjä "{1}" on {2}.</FileIsCheckedOutOtherUserMessage>
+  <FileUndoCheckOutForbiddenMessage>Et voi peruuttaa check out soveltaa toisen käyttäjän.</FileUndoCheckOutForbiddenMessage>
+  <FileCheckInForbiddenMessage>Et voi tarkistaa tiedoston, joka on jo kassalla toinen käyttäjä.</FileCheckInForbiddenMessage>
+  <FileUndoCheckOutConfirmMessage>Jos perut tarkistaa, muutokset sovellettu asiakirjaa ei tallenneta! Oletko varma, että haluat peruuttaa check out?</FileUndoCheckOutConfirmMessage>
+  <FileVersionDeleteConfirmTitle>Poistaminen tiedoston versio</FileVersionDeleteConfirmTitle>
+  <FileVersionDeleteConfirmMessage>Oletko varma, että haluat poistaa valitun tiedoston versio?</FileVersionDeleteConfirmMessage>
+  <FileVersionRestoreConfirmTitle>Palauttaminen tiedoston versio</FileVersionRestoreConfirmTitle>
+  <FileVersionRestoreConfirmMessage>Oletko varma, että haluat palauttaa valitun tiedoston versio? {0} Jos kyllä, määritä tiedosto, jossa valitun version tallentuvat. Jos jätät tämän arvon ilman muutoksia (tai aseta tyhjä arvo) valitun version korvaa valitun tiedoston (edellinen tiedoston sisältöä lisätään versiohistoriasta). {1} Tiedoston nimi:</FileVersionRestoreConfirmMessage>
+  <UndoCheckingOutMessage>Peruuttaminen Lähtö</UndoCheckingOutMessage>
+  <SuccessfullyUndoCheckedOutMessage>Mitätöinti check ulos tiedosto "{0}" onnistuneesti päätökseen.</SuccessfullyUndoCheckedOutMessage>
+  <SuccessfullyCheckedInMessage>Tiedostoa "{0}" on onnistuneesti tarkistetaan käyttäjä "{1}"</SuccessfullyCheckedInMessage>
+  <CheckingInMessage>Tarkastus</CheckingInMessage>
+  <VersionHistoryTitle>Tiedoston versiot "{0}"</VersionHistoryTitle>
+  <VersionHistoryGridNumberColumn>Ver.</VersionHistoryGridNumberColumn>
+  <VersionHistoryGridNotesColumn>Huomautuksia</VersionHistoryGridNotesColumn>
+  <CommandRestoreVersion>Palauttaa</CommandRestoreVersion>
+  <ProgressPrepareDownloadOldVersion>Valmistautuminen vanha versio lataaminen</ProgressPrepareDownloadOldVersion>
+  <FileVersionNotFoundMessage>Valittu tiedosto versio ei löytynyt.</FileVersionNotFoundMessage>
+  <ProgressDeletingVersion>version poistaminen</ProgressDeletingVersion>
+  <ProgressRestoringVersion>versio palauttaminen</ProgressRestoringVersion>
+  <FileNeedCheckInMessage>Tarkista tai peruuttaa check out valittuun tiedostoon ja yritä uudelleen.</FileNeedCheckInMessage>
+  <FileCheckedOutEditForbiddenMessage>Et voi muokata / uudelleen / siirrä / poista tiedosto "{0}", kun sitä kassalla käyttäjä "{1}" on {2}</FileCheckedOutEditForbiddenMessage>
+  <FileUploadCheckInLabel>Voit tarkistaa-in valitun tiedoston tai ladata uuden version tiedostosta (käytä lähetyslomakkeelle alla). Jos haluat luoda uuden version valitun tiedoston, älä lataa tiedostoja täällä.</FileUploadCheckInLabel>
+  <FileUploadCheckInInvalidFileName>Nimi lähetetyn tiedoston pitäisi olla täsmälleen sama kuin nimi valitun tiedoston</FileUploadCheckInInvalidFileName>
+  <CheckOutVersionNotes>Tämä versio on luotu automaattisesti</CheckOutVersionNotes>
+  <RestoreVersionNotes>Tämä versio on luotu automaattisesti entistykseen version {0} käyttäjän "{1}"</RestoreVersionNotes>
+  <IsCheckedOutHint>Tiedosto on kuitattu ulos</IsCheckedOutHint>
+  <ExistsOldVersionsHint>Tiedoston on muita versioita</ExistsOldVersionsHint>
+  <IsLockedHint>Tiedosto on lukittu</IsLockedHint>
+  <FileWasCreatedHint>On luotu {0} sitten</FileWasCreatedHint>
+  <FileWasModifiedHint>On muutettu {0} sitten</FileWasModifiedHint>
+  <CommonChangedAgo>{0} sitten</CommonChangedAgo>
+  <DaysShort>d</DaysShort>
+  <HoursShort>h</HoursShort>
+  <MinutesShort>m</MinutesShort>
+  <FileContainsMetaDataHint>Sisältää joitakin yksityiskohtia (metatiedot)</FileContainsMetaDataHint>
+  <FileMetaDataCaptionMobile>Metadata</FileMetaDataCaptionMobile>
+
+  <ExistsPublicLinksFileHint>Tiedoston on julkinen yhteydet</ExistsPublicLinksFileHint>
+  <ExistsPublicLinksFolderHint>Kansio on julkinen yhteydet</ExistsPublicLinksFolderHint>
+  <PublicLinkNotFound>Julkinen linkki "{0}" ei löytynyt</PublicLinkNotFound>
+
+  <PublicLinksDeleteWindowTitle>Poista julkinen link (s)</PublicLinksDeleteWindowTitle>
+  <PublicLinksDeleteLinkButton>Poista linkki</PublicLinksDeleteLinkButton>
+  <PublicLinksDeleteConfirmMsg>Oletko varma, että haluat poistaa valitun julkisen linkit?</PublicLinksDeleteConfirmMsg>
+  <PublicLinksDeleteSingleConfirmMsg>Oletko varma, että haluat poistaa tämän linkin?</PublicLinksDeleteSingleConfirmMsg>
+
+  <DetailsMultiValue>(Multi-arvo)</DetailsMultiValue>
+
+  <GridBottomFilesSizeInfo>Valitut: {0} / {1},</GridBottomFilesSizeInfo>
+  <GridBottomFilesFoldersInfo>tiedostoja: {0} / {1}, kansiot: {2} / {3}</GridBottomFilesFoldersInfo>
+
+  <AmountOfDownloadingsFile>Lataukset</AmountOfDownloadingsFile>
+
+  <CookiesDisabledMessage>Selaimen evästetoiminto on kytketty pois päältä. Ota se ja uudelleenkäynnistyksen selaimen.</CookiesDisabledMessage>
+
+  <CommandSendEmail>Lähettää sähköpostia</CommandSendEmail>
+  <CommandSendWithGmail>Lähetä Gmaililla</CommandSendWithGmail>
+  <CommandSendWithOutlook>Lähetä Outlook</CommandSendWithOutlook>
+  <SendEmailTo>jotta</SendEmailTo>
+  <SendEmailBulkMailingListHint>&lt;b&gt; Postituslista &lt;/ ​​b&gt; &lt;br /&gt; Voit määrittää koko ryhmää lähettää sähköpostiisi</SendEmailBulkMailingListHint>
+  <SendEmailBulkMailingListWindowTitle>Valitse vastaanottimet sähköpostiviesti</SendEmailBulkMailingListWindowTitle>
+  <SendEmailEmptyMailingListMessage>Mail on tyhjä</SendEmailEmptyMailingListMessage>
+  <SendEmailSenderEmail>lähettäjän email</SendEmailSenderEmail>
+  <SendEmailSubject>aihe</SendEmailSubject>
+  <SendEmailFilesAsLinksTo>Lähetä linkkejä valitut tiedostot</SendEmailFilesAsLinksTo>
+  <SendEmailFilesAsAttachements>Lähetä valitut tiedostot liitteinä</SendEmailFilesAsAttachements>
+  <SendEmailSend>Lähettää</SendEmailSend>
+  <SendEmailProgressMessage>sähköpostin lähettäminen</SendEmailProgressMessage>
+  <GettingMailingListProgressMessage>Getting postituslista</GettingMailingListProgressMessage>
+  <SendEmailSuccessMessage>Sähköposti onnistui.</SendEmailSuccessMessage>
+  <SendEmailResultsMessage>Lähetetyt: {0}. &lt;br /&gt; Epäonnistui: {1} {2}.</SendEmailResultsMessage>
+  <SmtpServerSettingsIncorrect>SMTP-palvelin vaihtoehdot ovat joko tyhjiä tai virheellisiä</SmtpServerSettingsIncorrect>
+  <FromEmailIncorrect>From sähköpostiosoite on virheellinen tai tyhjä</FromEmailIncorrect>
+  <ToEmailIncorrect>Vastaanottaja sähköpostiosoite on virheellinen tai tyhjä</ToEmailIncorrect>
+  <EmailSubjectEmpty>Sähköpostin aihe ei ole määritetty</EmailSubjectEmpty>
+  <UploadFromUrlTab>URL</UploadFromUrlTab>
+  <UploadFromUrlFieldLabel>URL (HTTP tai FTP yksi tiedosto)</UploadFromUrlFieldLabel>
+  <UploadFromUrlProgressTitle>Lataa URL-osoitteesta</UploadFromUrlProgressTitle>
+  <UploadFromUrlMsg>Lataaminen URL</UploadFromUrlMsg>
+  <UploadFromUrlSuccessMsg>Tiedostoa "{0}" on onnistuneesti ladattu "{1}"</UploadFromUrlSuccessMsg>
+  <UploadFromUrlUnknownResponse>Vastaus palvelimelta ei tunnisteta</UploadFromUrlUnknownResponse>
+  <UploadFromUrlEmptyFileName>Nimi ladattu tiedosto on tyhjä</UploadFromUrlEmptyFileName>
+  <UploadFromUrlFileName>Tallenna nimellä (jätä tyhjäksi käyttää nimen URL)</UploadFromUrlFileName>
+  <UploadFromUrlFileNameMobile>Tallenna nimellä</UploadFromUrlFileNameMobile>
+  
+  <!-- Common Clouds keys -->  
+  <CloudAuthenticateMessage>Sinun täytyy kirjautua osoitteessa {0}. Klikkaa "{1}" linkkiä ja sinut ohjataan kirjautumisen muotoon. {2} Lisätietoja. {3}</CloudAuthenticateMessage>
+  <CloudAuthenticateLink>Todennukseen {0}</CloudAuthenticateLink>  
+  <CloudDownloadingMessage>Lataaminen {0}</CloudDownloadingMessage>
+  <CloudAuthWarningMessage>Jos toiminta ei ole tapahtunut, sulje tämä ikkuna ja klikkaa "{0}" linkkiä uudelleen.</CloudAuthWarningMessage>
+  <CloudAuthEmptyInvalidMessage>{0} Access Token on tyhjä tai virheellinen. Tunnistus uudelleen.</CloudAuthEmptyInvalidMessage>
+  <CloudDownloadEndMessageTitle>Lataus on valmis</CloudDownloadEndMessageTitle>
+  <CloudDownloadFilesSuccessMessage>{0} tiedosto (t) onnistuneesti ladattu "{1}" {2} kansio.</CloudDownloadFilesSuccessMessage>
+  <CloudNotDownloadedFilesMessage>{0} tiedosto (t) ei ladata:</CloudNotDownloadedFilesMessage>
+  <CloudFoldersCreatedSuccessMessage>{0} kansiota (t) onnistuneesti luotu "{1}" {2} kansio.</CloudFoldersCreatedSuccessMessage>
+  <CloudNotFoldersCreatedMessage>{0} kansiota (t) ei luotu:</CloudNotFoldersCreatedMessage>
+  <CloudFilesFoldersSuccessMessage>{0} tiedosto (t), {1} kansio (t) onnistuneesti ladattu "{2}" {3} kansio.</CloudFilesFoldersSuccessMessage>
+  <CloudNotFilesFoldersDownloadedMessage>{0} tiedosto (t), {1} kansio (t) ei ladata:</CloudNotFilesFoldersDownloadedMessage>
+  <CloudLinkText>Käy {0}</CloudLinkText>
+  <CloudLinkDescription>Mene {0} sivu</CloudLinkDescription>
+  <CloudRootFolderName>&lt;b&gt; {0} pääkansiosta &lt;/ ​​b&gt;</CloudRootFolderName>
+  <CloudCheckFolerMessage>Tarkista yksi {0} kansio jatkaa.</CloudCheckFolerMessage>
+  <CloudSelectFolderMessage>Valitse {0} kansio jatkaa.</CloudSelectFolderMessage>
+  <CloudGetFoldersInfoProgressMessage>Ladataan {0} kansioita info</CloudGetFoldersInfoProgressMessage>
+  <CloudGetItemsInfoProgressMessage>Ladataan {0} kohdetta info</CloudGetItemsInfoProgressMessage>
+  <CloudUploadSelectItemsMessage>Valitse {0} tuotetta edelleen.</CloudUploadSelectItemsMessage>
+  <CloudUploadTotalFiles>Tiedostoja yhteensä: {0} ({1})</CloudUploadTotalFiles>
+  <CloudUploadProgressMessage>Lataaminen {0}</CloudUploadProgressMessage>
+  <CloudSignInAsDifferentUserText>Logout välillä {0}</CloudSignInAsDifferentUserText>
+  <CloudLogoutProgressMsg>Logout välillä {0}</CloudLogoutProgressMsg>
+  <CloudRevokeTokenMsg>peruuttaminen token</CloudRevokeTokenMsg>
+  <CloudRefreshTokenMsg>virkistävä token</CloudRefreshTokenMsg>
+  <CloudAuthNotCompleteMsg>Authentication ole valmis. &lt;br /&gt; Ole hyvä</CloudAuthNotCompleteMsg>
+  <CloudTrustedSitesMsg> tarkista seuraavat sivustot "Luotetut sivustot" lista: &lt;br /&gt; &lt;br /&gt;</CloudTrustedSitesMsg>
+  <TrustedSitesForMicrosoftEdge>Jos käytössä on Microsoft Edge, tarkista luotettavien sivustojen Internet Explorerin</TrustedSitesForMicrosoftEdge>
+  <CloudCheckAuthMsg>Tarkista {0} todennus</CloudCheckAuthMsg>
+  <CloudLoadMsg>Ladataan {0}</CloudLoadMsg>
+  <CloudFreeSpaceError>Ei ole tarpeeksi tilaa {2} ladata tiedostoja. No: {0}. Tiedoston koko: {1}.</CloudFreeSpaceError>
+  <CloudFreeSpaceExceeded>Ei ole tarpeeksi tilaa {0}</CloudFreeSpaceExceeded>
+  <CloudExceedFileSizeError>Tiedosto yrität ladata on tiedostokoko {1}, joka on suurempi kuin suurin sallittu koko ladattavissa - {0}.</CloudExceedFileSizeError>
+  <CloudFolderNotFound>Directory ei löytynyt. Ehkä se on poistettu</CloudFolderNotFound>
+  <CloudFileNotFound>Tiedostoa ei löydy. Ehkä se on poistettu</CloudFileNotFound>
+  <CloudNoFoldersMessage>Ei kansioita näyttää</CloudNoFoldersMessage>
+  <CloudLibraryNotLoadedMsg>{0} asiakaskirjasto ole ladattu! &lt;br /&gt; Tarkista Internet-yhteys ja-tai päivittää sivun. &lt;br /&gt; Myös</CloudLibraryNotLoadedMsg>
+  <CloudDownloadWithNewNames>Sen jälkeen tiedosto (t) ladatut uusilla nimillä:</CloudDownloadWithNewNames>
+
+  <!-- Google Drive Cloud keys -->
+  <CommandDownloadToGoogleDocs>Lataa Google Drive</CommandDownloadToGoogleDocs>
+  <GoogleDocsSaveAs>Tallenna nimellä:</GoogleDocsSaveAs>
+  <GoogleDocsSaveAsTitle>Tallenna "{0}", kuten ...</GoogleDocsSaveAsTitle>
+  <GoogleDocsDownloadEndWarningMessage>Jos et näe siirretyille asiakirjoille Google Drive tilin, odota muutama sekunti ja päivitä Google Drive luettelosta.</GoogleDocsDownloadEndWarningMessage>
+  <GoogleDriveUploadNoFilesMessage>Ei tiedostoja Google Driven latausta</GoogleDriveUploadNoFilesMessage>
+  <GoogleDriveMaxUploadSizeError>Jos sisältö-tyyppi "{0}" maksimikoko lataaminen {1} ylitetään.</GoogleDriveMaxUploadSizeError>
+  <GoogleDriveConvertMsg>Jos se on mahdollista, muuntaa tiedostoja Googlen Documents muodossa. {0} Lisätietoja {1}.</GoogleDriveConvertMsg>
+
+  <!-- Box Cloud keys -->
+  <CommandDownloadToBox>Lataa Box</CommandDownloadToBox>
+  <BoxDownloadWithNewNames>Seuraavat tiedosto (t) päivitettiin uusilla versioilla:</BoxDownloadWithNewNames>
+  <BoxNoViewPermission>Sinulla ei ole lupaa tarkastella valitussa hakemistossa</BoxNoViewPermission>
+  <BoxNoDownloadPermission>Sinulla ei ole lupaa ladata</BoxNoDownloadPermission>
+  <BoxNoUploadPermission>Sinulla ei ole lupaa ladata</BoxNoUploadPermission>
+  <BoxUnableCreateOrInfoError>Ei voi luoda tai saada tietoa</BoxUnableCreateOrInfoError>
+  
+  <!-- Dropbox Cloud keys -->
+  <CommandDownloadToDropbox>Lataa Dropbox</CommandDownloadToDropbox>
+  
+  <!-- OneDrive Cloud keys -->
+  <CommandDownloadToSkyDrive>Ladata onedrive</CommandDownloadToSkyDrive>
+  <AuthenticateOAuthSkyDriveMessageShort>Sinun täytyy kirjautua Microsoft Live-tilin.</AuthenticateOAuthSkyDriveMessageShort>
+  <SkyDriveAuthAlsoString>Myös</SkyDriveAuthAlsoString>
+  <SkyDriveLoginButtonTitle>Kirjaudu sisään</SkyDriveLoginButtonTitle>
+  <SkyDriveRegistryMessage>Ei ole Windows Live ID? {0} Rekisteröidy ... {1}</SkyDriveRegistryMessage>
+  <SkyDriveMapRootFolder>Huomautus! Voit {0} kartta {1} oman onedrive kansioon. Polku on</SkyDriveMapRootFolder>
+  <SkyDriveMoreInfoLink>{0} Lisää tietoa onedrive (SkyDrive) {1}</SkyDriveMoreInfoLink>
+  <OneDriveMaxUploadSizeError>Sallittu koko ({0}) on ladattu tiedosto on ylitetty: {1}</OneDriveMaxUploadSizeError>
+  <!-- OneDrive for Business -->
+  <OneDriveForBusinessMapWebFolderInfo>&lt;b&gt; Huom! &lt;/b&gt; Ennen tiedostojen avaamisesta kyseisessä paikassa, sinun täytyy ensin lisätä web sivuston luotettujen sivustojen luetteloon, siirry Web-sivuston, ja valitse kirjautua automaattisesti (IE-selaimen).</OneDriveForBusinessMapWebFolderInfo>
+  
+  <UploadFromUrlLabelText>Voit määrittää URL tiedoston tallennetun maailmanlaajuisesti tiedostopalvelin tai tiedostojen jakamisen, kuten {0}, {1}, {2}, {3}, {4}.</UploadFromUrlLabelText>
+  <UploadFromUrlLabelTextMobile>Määritä tiedoston URL</UploadFromUrlLabelTextMobile>
+
+  <LinkToFileTitle>Linkki tiedostoon / kansioon</LinkToFileTitle>
+  <LinkToFileWarningAnonym>Tämä linkki antaa nimettömänä tutustua asiakirjoihin. Kuka tahansa käyttäjä, vaikka tämä ei ole mainittu tässä sivustolla, voi siirtää tiedostoja kautta julkinen linkin. Julkinen linkki tiedostoon mahdollistaa ladata yhden valitun tiedoston. {0} Lisätietoja {1}.</LinkToFileWarningAnonym>
+  <LinkToFileDownloadFileLink>Tämä linkki mahdollistaa ladata valitun tiedoston {0} alkaen {1}. Tarvitset voimassa tilin käytä tätä linkkiä. Se ei tarjoa nimettömiä tutustua asiakirjoihin.</LinkToFileDownloadFileLink>
+  <LinkToFileExpireDate>Viimeinen käyttöpäivä</LinkToFileExpireDate>
+  <LinkToFileDownloadCnt>Lataa count raja</LinkToFileDownloadCnt>
+  <LinkToFileDownloadType>linkin tyyppi</LinkToFileDownloadType>
+  <LinkToFileGenerate>Luo linkki</LinkToFileGenerate>
+  <LinkToFilePasswordNotMatch>Salasanat eivät täsmää</LinkToFilePasswordNotMatch>
+  <LinkToFilePasswordRequired>Salasana yleisölle on pakollinen</LinkToFilePasswordRequired>
+  <LinkToFileInvalidForm>Virheelliset parametrit</LinkToFileInvalidForm>
+  <LinkToFileAnonymDownloadLinkHint>Julkinen linkki "{0}":</LinkToFileAnonymDownloadLinkHint>
+  <LinkToFileAnonymDownloadShortLinkHint>Lyhyt julkinen linkki "{0}":</LinkToFileAnonymDownloadShortLinkHint>
+  <LinkToFileOpenFolderLink>Tämä linkki voit avata valitun kansion {0} in {1}. Tarvitset voimassa tilin käytä tätä linkkiä. Se ei tarjoa anonyymi pääsy kansioon.</LinkToFileOpenFolderLink>
+  <LinkToFileOpenFileLink>Tämä linkki avaa kansion tiedosto korostettuna</LinkToFileOpenFileLink>
+  <LinkToFileDaysLeft>päiviä jäljellä</LinkToFileDaysLeft>
+  <LinkToFileCaptionMobile>julkinen linkit</LinkToFileCaptionMobile>
+
+  <PublicFolderLinkHint>Julkinen linkki kansioon "{0}":</PublicFolderLinkHint>
+  <PublicFolderShortLinkHint>Lyhyt julkinen linkki kansioon "{0}":</PublicFolderShortLinkHint>
+  <PublicFolderLinkDownloadZipHint>Lataa linkkiä Zip kansion "{0}":</PublicFolderLinkDownloadZipHint>
+  <PublicFolderLinkShortDownloadZipHint>Lyhyt latauslinkki Zip kansion "{0}":</PublicFolderLinkShortDownloadZipHint>
+  <PublicFolderLinkZipDownload>Pakkaa ja lataa nykyinen kansio {0} (ZIP-arkistona)</PublicFolderLinkZipDownload>
+  <PublicFolderLinkOverwriteWhileUpload>Korvaa nykyiset</PublicFolderLinkOverwriteWhileUpload>
+  <PublicFolderLinkOpenFolderHint>Avaa kansio</PublicFolderLinkOpenFolderHint>
+  <PublicFolderDownloadDisabledNote>Huomautus! Omistaja tämän kansion oli kielletty tiedostojen lataamista tähän kansioon.</PublicFolderDownloadDisabledNote>
+  <PublicFolderLinkSendEmails>Lähetä tietoa kävijöiden toimintaa sähköposteihin</PublicFolderLinkSendEmails>
+  <PublicFolderAnonymAccessControl>kulunvalvonta</PublicFolderAnonymAccessControl>
+  <PublicFolderAnonymDownload>Lataa tiedostoja</PublicFolderAnonymDownload>
+  <PublicFolderAnonymZipDownload>Lataa kansiot (ZIP)</PublicFolderAnonymZipDownload>
+  <PublicFolderAnonymUpload>Lataa</PublicFolderAnonymUpload>
+  <PublicFolderAnonymViewContent>Näytä tiedostojen lista</PublicFolderAnonymViewContent>
+  <PublicFolderNoteForUsers>Huomautus käyttäjille</PublicFolderNoteForUsers>
+  <PublicFolderACLNotSet>Kulunvalvonta ei ole asetettu</PublicFolderACLNotSet>
+  <PublicFolderWarningAnonym>Tämä linkki sisältää anonyymi pääsy kansioon. Kuka tahansa käyttäjä, vaikka tämä ei ole mainittu tässä sivustolla, voi siirtää tiedostoja kautta julkinen linkin. Julkinen linkki kansioon voit ladata sekä koko kansio (pakattuna arkisto) ja yksittäisiä tiedostoja. {0} Lisätietoja {1}.</PublicFolderWarningAnonym>
+  <PublicLinksShowForAllItems>Näytä kaikille</PublicLinksShowForAllItems>
+  <PublicLinksShowForSelected>Näytä valittujen</PublicLinksShowForSelected>
+  
+  <MultipleFileInputMessage>Huomautus! Selain tukee useita tiedostoja valinta kerralla.</MultipleFileInputMessage>
+  <UploadZipUnzipNote>Voit ladata Zip useita tiedostoja ja kansioita ja pura se käyttäen "{0}" komento pikavalikosta.</UploadZipUnzipNote>
+  <DnDFileUploadingStatusCode>tilakoodi</DnDFileUploadingStatusCode>
+  <DnDFileUploadingPathOrNameEmpty>Polku ja-tai tiedoston nimi ei ole määritelty</DnDFileUploadingPathOrNameEmpty>
+  <DnDFileUploadingRemoveFromList>Poista listalta</DnDFileUploadingRemoveFromList>
+  <DndFileUploadingDontDropFoldersMsg>Voit vetää ja pudottaa tiedostoja alla olevassa taulukossa. Et voi pudota kansioita.</DndFileUploadingDontDropFoldersMsg>
+  <DndFileUploadingAllowDropFoldersMsg>Voit vetää ja pudottaa tiedostoja ja kansioita alla olevaan taulukkoon.</DndFileUploadingAllowDropFoldersMsg>
+  <DndFileUploadingFilesSummaryInfo>Count tiedostoja: {0} ({1})</DndFileUploadingFilesSummaryInfo>
+  <DropFilesHere>Drop lähetettävät tiedostot</DropFilesHere>
+  
+  <FileGridDownloadColumn>Lataa tiedostoja</FileGridDownloadColumn>
+  <FileAttributesField>attribuutit</FileAttributesField>
+  <FolderCalculateSize>Laskea</FolderCalculateSize>
+  <FolderRecalculateSize>Laske uudelleen</FolderRecalculateSize>
+  <FolderContainsField>Sisältää</FolderContainsField>
+  <FolderContainsFilesFolders>{0} tiedostoa, {1} kansioita</FolderContainsFilesFolders>
+  <FolderCalculatingMessage>laskeminen</FolderCalculatingMessage>
+
+  <SearchTitle>Tiedoston haku. Saatavilla malleja: {0}</SearchTitle>
+  <SearchType>Hae</SearchType>
+  <SearchOnlyFiles>vain tiedostot</SearchOnlyFiles>
+  <SearchOnlyFolders>vain kansiot</SearchOnlyFolders>
+  <SearchBothFilesFolders>molemmat tiedostot ja kansiot</SearchBothFilesFolders>
+  <SearchFileDetails>Tiedoston tiedot</SearchFileDetails>
+  <SearchFileContent>Tiedoston sisältö</SearchFileContent>
+  <SearchByDateFrom>alkaen</SearchByDateFrom>
+  <SearchByDateTo>että</SearchByDateTo>
+  <SearchLocation>Sijainti</SearchLocation>
+  <SearchLocationEntire>Missä tahansa</SearchLocationEntire>
+  <SearchLocationCurrent>nykyinen</SearchLocationCurrent>
+  <SearchSearch>Hae</SearchSearch>
+  <SearchNothingFound>Mitään ei löytynyt! Ole hyvä tarkentaa hakuehtoja.</SearchNothingFound>
+  <SearchErrorCaption>Etsi virhe</SearchErrorCaption>
+  <SearchResultsNotComplete>Huomio! Hakutulokset voivat olla puutteellisia, koska joitakin kansioita ei ole indeksoitu vielä.</SearchResultsNotComplete>
+  <SearchRepeatOrContactAdmin>Yritä hakua myöhemmin uudelleen tai ota yhteyttä järjestelmänvalvojaan.</SearchRepeatOrContactAdmin>
+  <SearchLinkToManual>Katso {0} Windows Search Ohje {1}</SearchLinkToManual>
+  <QuerySearchByNameText>haku nimellä</QuerySearchByNameText>
+  <QuerySearchByConentText>sisällön</QuerySearchByConentText>
+  <SearchByDetailsWarning>Huomio! Olet määritellyt Asetukset että haluat käyttää hakua ominaisuuksia. Tällöin etsintä suoritetaan käyttämällä tavallista menetelmää sijaan käyttää Windowsin indeksointipalvelun.</SearchByDetailsWarning>
+  <SearchInSpecialFolderWarning>Huomio! Voit etsiä nykyiseen kansioon ei sovelleta. Jos jatkat, haku tehdään kaikista tiedostoista.</SearchInSpecialFolderWarning>
+
+  <UploadTitle>Lataaminen useiden tiedostojen</UploadTitle>
+  <UploadSimpleTab>standardi</UploadSimpleTab>
+  <UploadSimpleReset>asettaa uudelleen</UploadSimpleReset>
+  <UploadSimpleUpload>Lataa</UploadSimpleUpload>
+  <UploadSimpleUploadFolderLabelCollapsed>Lataa kansio</UploadSimpleUploadFolderLabelCollapsed>
+  <UploadSimpleUploadFolderButtonText>Valitse kansio</UploadSimpleUploadFolderButtonText>
+  <UploadJavaTab>Jaava</UploadJavaTab>
+  <UploadJavaIgnorePaths>Laita kaikki tiedostot yhteen kansioon (sivuuttaa polut)</UploadJavaIgnorePaths>
+  <UploadFlashTab>salama</UploadFlashTab>
+  <UploadSilverlightTab>Silverlight</UploadSilverlightTab>
+  <UploadPartially>Joitakin tiedostoja ei voitu ladata</UploadPartially>
+  <UploadFolderNotSelectedTitle>Kansio ei ole valittu</UploadFolderNotSelectedTitle>
+  <UploadFolderNotSelected>Valitse kansio, johon tiedostot ladataan</UploadFolderNotSelected>
+  <UploadInProgress>Lataamalla tiedostoja</UploadInProgress>
+  <UploadInvalidFormFields>Lomakekentät ei saa lähettää kanssa virheellinen arvo</UploadInvalidFormFields>
+  <UploadAjaxFailed>Ajax viestintä epäonnistui</UploadAjaxFailed>
+  <UploadFilesAlreadyExists>File (s) on jo olemassa</UploadFilesAlreadyExists>
+  <UploadOverwriteFiles>Olemassa olevat tiedostot korvataan. Haluatko jatkaa?</UploadOverwriteFiles>
+  <UploadOverwriteOrRenameFiles>On yksi tai useampia tiedostoja matching nimet hakemistoon olet määrittänyt. Haluatko korvata olemassa olevat tiedostot? Klikkaa "{0}", jos haluat korvata jo olemassa olevia tiedostoja tai "{1}" - jos haluat tallentaa kaikki tiedostot (ne nimetään uudelleen).</UploadOverwriteOrRenameFiles>
+  <UploadNotModifyExistingFiles>On yksi tai useampi tiedosto matching nimien hakemistoon olet määrittänyt. Tiedostoja ei voi ladata. Poista nykyinen tiedostot tiedoston nimen tai nimetä ne.</UploadNotModifyExistingFiles>
+  <UploadRenamedExistingFiles>On yksi tai useampi tiedosto matching nimien hakemistoon olet määrittänyt. Tiedostot yhteensopivat nimet nimetään uudelleen.</UploadRenamedExistingFiles>
+  <UploadNotAllowedTitle>Lataa ei ole sallittua</UploadNotAllowedTitle>
+  <UploadNotAllowedPrompt>Et voi ladata tiedostoja tähän kansioon</UploadNotAllowedPrompt>
+
+  <UploadMobileIOSVideo>Lisää video. Ota tämä vaihtoehto, jos täytyy ladata videotiedoston.</UploadMobileIOSVideo>
+  <UploadMobileAurigmaLink>Huomaa, että sinun pitäisi olla Aurigma Up! asentaa laitteeseen, jotta ladata tiedostoja. Napauttamalla tätä asentaa Aurigma Up! hakemus siirtää kuvia ja videota.</UploadMobileAurigmaLink>
+  <UploadMobileAurigmaReady>Sen jälkeen Aurigma Up! on asennettu tai jos olet jo sitä asennettu, paina "Lähetä" nappia.</UploadMobileAurigmaReady>
+  <UploadMobileAurigmaFilePrefix>Etuliite tallennetut tiedostot</UploadMobileAurigmaFilePrefix>
+  <UploadMobileResult>Lataa tulos:</UploadMobileResult>
+  <UploadMobileUrlPlaceHolder>Anna URL-osoite tähän</UploadMobileUrlPlaceHolder>
+  <UploadMobileFileNamePlaceHolder>Anna uuden tiedoston nimi tähän</UploadMobileFileNamePlaceHolder>
+  <UploadBrowseLabel>Selaa ...</UploadBrowseLabel>
+  
+  <MobileToolTipsCaption>Tiedätkö sen ...</MobileToolTipsCaption>
+  <MobileToolTipsNextButton>Seuraava vihje</MobileToolTipsNextButton>
+  <MobileToolTipsIKnowButton>tiedän sen</MobileToolTipsIKnowButton>
+  <MobileToolTipsHideButton>Älä koskaan näytä</MobileToolTipsHideButton>
+  <MobileToolTipsMultiSelection>Jos haluat valita useita tiedostoja tai kansioita, sinun tulisi mahdollistaa usean valintatilassa napauttamalla &lt;b&gt; {0} &lt;/b&gt; -painiketta. Napauttamalla sitä uudelleen poistua multi-valintatila.</MobileToolTipsMultiSelection>
+  <MobileToolTipsSlideToRemove>Voit liukua oikealta vasemmalle millään luettelokohteiden poistaa sen. Inline remove näkyy painike päälle luettelokohteen.</MobileToolTipsSlideToRemove>
+  <MobileToolTipsTapAndHoldForMenu>Koskettamalla ja pitämällä mitä tahansa luettelon kohteita kontekstivalikot. Samassa yhteydessä valikko näytetään hana "tietojen" -painiketta</MobileToolTipsTapAndHoldForMenu>
+  <MobileToolTipsDoubleTapForPreview>Single hana tiedosto valitsemalla se kaksoisnapauttamalla esikatsella tai ladata sen. Single hana kansiota sen avaamiseksi.</MobileToolTipsDoubleTapForPreview>
+  <MobileToolTipsPullDownToRefresh>-vetovalikosta Ladata sen sisällöstä.</MobileToolTipsPullDownToRefresh>
+  <MobileToolTipsPinchToScale>Voit käyttää "nipistämällä" ele zoomata-in ja zoom-out kuvia.</MobileToolTipsPinchToScale>
+  <MobileToolTipsTapToHideBars>Kosketa mitä tahansa kuvaa paneelissa vaihtaa työkalurivejä.</MobileToolTipsTapToHideBars>
+  <MobileToolTipsSlideLeftRightToNext>Switch kuvia dia ele.</MobileToolTipsSlideLeftRightToNext>
+
+  <DownloadToCloudMobileTip>Yhdellä kosketuksella valita kansio, Avaa kaksoisnapauttamalla sitä.</DownloadToCloudMobileTip>
+  
+  <UploadTotalMaxSizeMessage>Huomautus! Maksimikoko kaikki ladatut tiedostot saisi ylittää {0}.</UploadTotalMaxSizeMessage>
+  <UploadOneFileMaxSizeMessage>Huomautus! Suurin koko kunkin lähetetyn tiedoston saisi ylittää {0}.</UploadOneFileMaxSizeMessage>
+  <UploadUnlimitedSizeMessage>Huomautus! Koko ladattujen tiedostojen on rajoittamaton.</UploadUnlimitedSizeMessage>
+  <SimpleUploadSetFileNameNote>Muistio 2! Kun tiedosto on valittu, voit muuttaa nimen, että tiedosto on sen jälkeen upload</SimpleUploadSetFileNameNote>
+
+  <AnonymousUploadTitle>Lataa tiedostot tähän kansioon</AnonymousUploadTitle>
+  <AnonymousUploadDescription>Voit ladata tiedostoja tähän kansioon. Valitse "selaa" -painiketta ja valitse tiedostot.</AnonymousUploadDescription>
+  <AnonymousUploadOverwriteHint>Jos ladattu tiedosto on jo olemassa, se korvataan.</AnonymousUploadOverwriteHint>
+  <AnonymousUploadShowUploadHint>Näytä lähetyslomakkeelle</AnonymousUploadShowUploadHint>
+  <AnonymousUploadHideUploadHint>Piilota lähetyslomakkeelle</AnonymousUploadHideUploadHint>
+  <AnonymousUploadNewFolderNameHint>Alla olevaan kenttään voit määrittää alihakemisto nimi (kansio luodaan, jos sitä ei ole), jossa tiedostot ladataan:</AnonymousUploadNewFolderNameHint>
+  <AnonymousUploadCompleteTitle>Lataaminen kansioon {0} on valmistunut</AnonymousUploadCompleteTitle>
+  <AnonymousUploadExistsFilesMessage>Seuraavat tiedosto (t) ei ole lähetetty, koska tiedosto (t), jolla on sama nimi (t) on jo olemassa: {0}.</AnonymousUploadExistsFilesMessage>
+  <AnonymousUploadOwnersNote>Huomaa kansiosta omistaja</AnonymousUploadOwnersNote>
+  <AnonymousDownloadPageTitle>Lataa tiedosto</AnonymousDownloadPageTitle>
+  <AnonymousDownloadFileHint>Lataa tiedosto</AnonymousDownloadFileHint>
+  <AnonymousUploadPageTitle>Lataa kansioon</AnonymousUploadPageTitle>
+  <AnonymousPublicFolderPageTitle>julkinen kansio</AnonymousPublicFolderPageTitle>
+  <AnonymousLoginAccessUserFailure>Olet kirjautunut sisään tilille, jolla ei ole pääsyä resurssiin. Anna muut tunnistetiedot sinun pääsy. Jos et tiedä niitä, ota yhteyttä omistajaan julkisen linkin tai pääkäyttäjä.</AnonymousLoginAccessUserFailure>
+  <ProgressGettingAnonymLink>Julkinen linkki luominen</ProgressGettingAnonymLink>
+  <ProgressGettingAnonymLinks>Getting nimetön linkit</ProgressGettingAnonymLinks>
+  <ProgressGettingBoxViewLink>Getting Box Katso linkki</ProgressGettingBoxViewLink>
+  <AutodeskScriptNotIncludedMessage>Ei voitu ladata Autodesk Viewer script</AutodeskScriptNotIncludedMessage>
+  <ProgressUninitializeAutodeskViewer>Sulkeminen Autodesk Viewer</ProgressUninitializeAutodeskViewer>
+  <ProgressGettingAutodeskViewLink>Getting Autodesk Katso tiedot</ProgressGettingAutodeskViewLink>
+  <AnonymousChangeLanguageHint>Valitse kieli</AnonymousChangeLanguageHint>
+  <AnonymousUpLinkHint>Paluu yläkansioon</AnonymousUpLinkHint>
+  <AnonymousPasswordDescription>Kansio on suojattu salasanalla</AnonymousPasswordDescription>
+  <AnonymousPasswordIncorrectMessage>Salasana on väärä</AnonymousPasswordIncorrectMessage>
+  <AnonymousErrorTitle>Julkinen link virhe</AnonymousErrorTitle>
+  <AnonymousErrorNotFound>Julkinen linkki "{0}" ei löytynyt!</AnonymousErrorNotFound>
+  <AnonymousErrorAccessDenied>Sinulla ei ole lupaa käyttää julkista linkkiä "{0}"</AnonymousErrorAccessDenied>
+  <AnonymousErrorFileNotFound>Julkinen linkki "{0}" tarkoittaa olematonta tiedoston tai kansion tai NTFS lukea käyttö on estetty</AnonymousErrorFileNotFound>
+  <AnonymousErrorUnknownLinkType>Julkinen linkki "{0}" ei löytynyt</AnonymousErrorUnknownLinkType>
+  <AnonymousSendEmailSubject>Vierailijat toimintaa julkisen kansion</AnonymousSendEmailSubject>
+  <AnonymousSendEmailUploadBody>Seuraavat tiedostot ladattiin julkiseen kansioon {0}: {1}.</AnonymousSendEmailUploadBody>
+  <AnonymousSendEmailDownloadBody>Tiedosto {0} on ladattu julkisen kansion {1}.</AnonymousSendEmailDownloadBody>
+  <AnonymousSendEmailZipDownloadBody>Koko sisältö julkisen kansion {0} on ladattu ZIP-arkistona.</AnonymousSendEmailZipDownloadBody>
+  <AnonymousViewLinksButton>Katso linkit</AnonymousViewLinksButton>
+  <AnonymousViewLinksHint>Jos haluat nähdä nykyiset julkiset yhteydet</AnonymousViewLinksHint>
+  <AnonymousViewLinksWindowTitle>julkinen linkit</AnonymousViewLinksWindowTitle>
+  <AnonymousViewLinksDateCreatedColumn>Luomispäivä</AnonymousViewLinksDateCreatedColumn>
+  <AnonymousViewLinksDateExpiredColumn>Viimeinen käyttöpäivä</AnonymousViewLinksDateExpiredColumn>
+  <AnonymousViewLinksPermissionColumn>Lupa</AnonymousViewLinksPermissionColumn>
+  <AnonymousViewLinksDownloadedColumn>Määrä lataukset jäljellä</AnonymousViewLinksDownloadedColumn>
+  <ProgressDeletingAnonymousLink>Poistaminen julkinen link</ProgressDeletingAnonymousLink>
+  <ProgressSavingAnonymousLink>Tallentaminen julkinen link</ProgressSavingAnonymousLink>
+  <AnonymousEditLinkWindowTitle>Muokkaa julkista linkkiä "{0}"</AnonymousEditLinkWindowTitle>
+  <AnonymousEditLinkShowUrl>Näytä linkki</AnonymousEditLinkShowUrl>
+  <AnonymousEditLinkNotFound>Yleisö linkkiä ei löydy tai sen voimassaoloaika on päättynyt</AnonymousEditLinkNotFound>
+
+  <AnonymousLinkSendViaButton>Lähetystapa ...</AnonymousLinkSendViaButton>
+  <AnonymousLinkSendViaEmailItem>Sähköposti ...</AnonymousLinkSendViaEmailItem>
+  <AnonymousLinkSendButton>Lähetä sähköpostilla ...</AnonymousLinkSendButton>
+  <AnonymousLinkSendSubject>Web File Manager Public Link</AnonymousLinkSendSubject>
+
+  <AnonymousLinkAdvOptTitle>Lisäparametrit</AnonymousLinkAdvOptTitle>
+  <AnonymousLinkViewTypeButton>linkkinäkymän</AnonymousLinkViewTypeButton>
+  <AnonymousLinkViewTypeDefault>Koko</AnonymousLinkViewTypeDefault>
+  <AnonymousLinkViewTypeShort>Lyhyt</AnonymousLinkViewTypeShort>
+
+  <AnonymousLinkShowCommentsLabel>Näytä kuvaus, tarrat ja kommentit</AnonymousLinkShowCommentsLabel>
+  <AnonymousLinkShowCommentsShort>Näytä kommentit</AnonymousLinkShowCommentsShort>
+
+  <QRCodeButton>QR koodi</QRCodeButton>
+
+  <AnonymousLinkLimitedAccessTitle>Rajoitettu pääsy</AnonymousLinkLimitedAccessTitle>
+  <AnonymousLinkLimitAccessCheckBox>Rajoittaa pääsyn vain tiettyihin todennetut käyttäjät</AnonymousLinkLimitAccessCheckBox>
+  <AnonymousLinkLimitAccessTextArea>Kirjoita käyttäjätunnuksia tai sähköposteja (pilkulla erotettuna)</AnonymousLinkLimitAccessTextArea>
+  <AnonymousLinkLimitAccessSendCheckBox>Lähetä ilmoituksia määrätyille käyttäjille</AnonymousLinkLimitAccessSendCheckBox>
+  <AnonymousLinkLimitAccessPersMsgLabel>Henkilökohtainen viesti (valinnainen)</AnonymousLinkLimitAccessPersMsgLabel>
+  <AnonymousLinkLimitAccessPassAndUsersMsg>Olet määritellyt salasanan ja käyttäjien samanaikaisesti päästä linkin. Ilmoitathan jotain yksi.</AnonymousLinkLimitAccessPassAndUsersMsg>
+  <AnonymousLinkLimitAccessUsersNotFound>Käyttäjät:
+    {0}
+    ei ole olemassa</AnonymousLinkLimitAccessUsersNotFound>
+  <AnonymousLinkLimitAccessEmailsNotFound>Sähköpostit:
+    {0}
+    ei ole olemassa</AnonymousLinkLimitAccessEmailsNotFound>
+  <AnonymousLinkLimitAccessUsersEmailsNotFound>Käyttäjät:
+    {0}
+    ja sähköpostit:
+    {1}
+    ei ole olemassa</AnonymousLinkLimitAccessUsersEmailsNotFound>
+
+  <AnonymousLinkUnableToCreate>Voitu luoda anonyymi linkki</AnonymousLinkUnableToCreate>
+  <AnonymousLinkShortUrlLabel>Klikkaa Päivitä-kuvaketta (alhaalla oikealla) saada lyhytlinkkipalvelua</AnonymousLinkShortUrlLabel>
+  <AnonymousLinkShortUrlUpdate>Hanki tai päivittää lyhytlinkkipalvelua</AnonymousLinkShortUrlUpdate>
+  <AnonymousLinkLongUrlNotSpecified>Pitkä URL ei ole määritetty</AnonymousLinkLongUrlNotSpecified>
+
+  <ClientFileOrDirectoryAlreadyExists>Tiedosto tai hakemisto tällä nimellä on jo olemassa</ClientFileOrDirectoryAlreadyExists>
+  <ClientPermissionsAllowTypes>Nykyiset luvat sallia tämän toiminnan vain seuraavia tiedostotyyppejä {0}</ClientPermissionsAllowTypes>
+  <ClientPermissionsDenyTypes>Nykyiset luvat kieltää tämän kanssa seuraavia tiedostotyyppejä {0}</ClientPermissionsDenyTypes>
+  <OfficeApplicationNotFoundAlert>Office-sovellus ei löydy. Avaa tiedosto käsin linkin tekstikenttään.</OfficeApplicationNotFoundAlert>
+  <OfficeAnonymousEditPublicLinkError>Voitu luoda julkisen linkin anonyymisti Open Office dokumentti.</OfficeAnonymousEditPublicLinkError>
+
+  <GoogleOWAViewLinkMessage>Avaa asiakirja napsauttamalla alla olevaa linkkiä:</GoogleOWAViewLinkMessage>
+  <ZohoEditLinkMessage>Muokata asiakirjaa klikkaa linkkiä alla:</ZohoEditLinkMessage>
+  <PixlrEditLinkMessage>Jos haluat muuttaa kuva klikkaa linkkiä alla:</PixlrEditLinkMessage>
+  <PixlrNewImageCreateTitle>Luo uusi kuva Pixlr</PixlrNewImageCreateTitle>
+  <PixlrNewImageLinkMessage>Voit luoda uuden kuvan, klikkaa linkkiä alla:</PixlrNewImageLinkMessage>
+
+  <DownloadTitle>Lataaminen useiden tiedostojen</DownloadTitle>
+  <DownloadSimpleTab>standardi</DownloadSimpleTab>
+  <DownloadJavaTab>Jaava</DownloadJavaTab>
+  <DownloadIEPrevent>Internet Explorer estää automaattisen lataamisen</DownloadIEPrevent>
+  <DownloadIEClickHere>Klikkaa tästä ladataksesi</DownloadIEClickHere>
+  <DownloadIEArchiveReady>Archive "{0}" ja valitut tiedostot luotiin ja on valmis ladattavaksi</DownloadIEArchiveReady>
+  <DownloadIECaption>Download on valmis</DownloadIECaption>
+
+  <SettingsTitle>asetukset</SettingsTitle>
+  <SettingsLanguage>Kieli</SettingsLanguage>
+  <SettingsLogOutRequired>Uusia muutoksia sovelletaan jälkeen logout tai selaimen uudelleenkäynnistystä!</SettingsLogOutRequired>
+  <ThemeTitle>Vaihda teema</ThemeTitle>
+  <SettingsTheme>Valitse teema</SettingsTheme>
+  <ThemeDefaultTitle>Oletus Teema</ThemeDefaultTitle>
+  <ThemeGrayTitle>Gray Teema</ThemeGrayTitle>
+  <ThemeAccessTitle>Saavutettavuus Teema</ThemeAccessTitle>
+
+  <ChangeUserPasswordTitle>Vaihda käyttäjän salasana</ChangeUserPasswordTitle>
+  <ChangeUserPasswordOldPassword>Vanha salasana</ChangeUserPasswordOldPassword>
+  <ChangeUserPasswordNewPassword>Uusi salasana</ChangeUserPasswordNewPassword>
+  <ChangeUserPasswordRepeatNewPassword>toista uusi salasana</ChangeUserPasswordRepeatNewPassword>
+  <ChangeUserPasswordPasswordsNotMatch>Salasanat eivät täsmää.</ChangeUserPasswordPasswordsNotMatch>
+  <ChangeUserPasswordSuccessMessage>Salasana on vaihdettu.</ChangeUserPasswordSuccessMessage>
+  <ChangeUserPasswordInvalidMessage>Väärä salasana.</ChangeUserPasswordInvalidMessage>
+
+  <ChangeUserEmailTitle>Muuta käyttäjän e-mail</ChangeUserEmailTitle>
+  <ChangeUserEmailEmail>E-mail</ChangeUserEmailEmail>
+  <ChangeUserEmailSuccessMessage>Sähköposti on muutettu.</ChangeUserEmailSuccessMessage>
+
+  <UserHelpTitle>Käyttäjän ohje</UserHelpTitle>
+
+  <LicenseTitle>lisenssitiedot</LicenseTitle>
+  <LicenseTrial>Rekisteröimätön 30 päivän kokeiluversio</LicenseTrial>
+  <LicensePrompt>Lisensoitu versio {0} Käyttäjät määrä: {1} {0} Ostopäivä: {2} {0}</LicensePrompt>
+  <LicenseFreeUpgradeMessage>Sinulla on vielä {0} päivää ilmaiseksi päivityksiä ja tukea.</LicenseFreeUpgradeMessage>
+  <LicenseCheckMessage>Yli vuosi on kulunut ostopäivästä. Voit käyttää tätä versiota kannattaa uusia tilauksen tai vaihtaa vanhempi versio. Voit tarkistaa lisenssin ja löytää käytettävissä releases &lt;a href='{0}' target='_blank'&gt; Tarkista License &lt;/a&gt;</LicenseCheckMessage>
+  
+  <ViewPopupBlocked>New window on estänyt ponnahdusikkunoiden esto</ViewPopupBlocked>
+  
+  <LoginTwoFactorTitle>Kaksivaiheinen vahvistus</LoginTwoFactorTitle>
+  <LoginTitle>Kirjaudu sisään</LoginTitle>
+  <LoginRemember>Muista minut ensi kerralla</LoginRemember>
+  <LoginUISelect>liitäntä</LoginUISelect>
+  <LoginUIStandard>standardi</LoginUIStandard>
+  <LoginUITouch>mobile</LoginUITouch>
+  <LoginLanguage>Kieli</LoginLanguage>
+  <LoginLogin>Kirjaudu sisään</LoginLogin>
+  <LoginFailure>Kirjautumistietosi yritys ei onnistunut.</LoginFailure>
+  <LoginBlocked>Tili on estetty. Odota {0} minuuttia yrittämään uudelleen.</LoginBlocked>
+  <LoginNotActivated>Tiliäsi ei ole aktivoitu.</LoginNotActivated>
+  <LoginResendActivation>Jos viesti aktivointikoodi ei ole saanut pitkään, klikkaa {0} linkkiä lähettää aktivointikoodi.</LoginResendActivation>
+  <LoginResendActivationLink>Lähetä aktivointikoodi</LoginResendActivationLink>
+  <LoginResendActivationCode>Klikkaa {0} linkkiä lähettää aktivointikoodi.</LoginResendActivationCode>
+  
+  <ActivateAccountOk>Tilin aktivointi onnistui!</ActivateAccountOk>
+  <ActivateAccountResultLabel>aktivointi tulos</ActivateAccountResultLabel>
+  <ActivateAccountErrorOnlyFormsAuth>Tilin aktivointi voitaisiin käyttää vain Forms authentication</ActivateAccountErrorOnlyFormsAuth>
+  <ActivateAccountErrorNotRequired>Tilin aktivointi ei ole käytössä sovelluksen asetuksista. Tili aktivoidaan automaattisesti rekisteröinnin jälkeen.</ActivateAccountErrorNotRequired>
+  <ActivateAccountErrorAlreadyActivated>Tilin jo aktivoitu</ActivateAccountErrorAlreadyActivated>
+  <ActivateAccountErrorInvalidCode>Aktivointi koodi on virheellinen</ActivateAccountErrorInvalidCode>
+  <ActivateAccountErrorAccountNotFound>Tili ei löytynyt</ActivateAccountErrorAccountNotFound>
+  <ActivateAccountErrorLinkBroken>Aktivointi linkki ei toimi</ActivateAccountErrorLinkBroken>
+  <ActivateAccountReturnToLogin>Paluu kirjautumissivulle</ActivateAccountReturnToLogin>
+  
+  <LoginRender>tehdä</LoginRender>
+  
+  <LogoutTitle>Web tiedostonhallinta ulos</LogoutTitle>
+  <LogoutSessionEnded>Nykyinen istunto on päättynyt</LogoutSessionEnded>
+  <LogoutCloseWindow>Sulje ikkuna</LogoutCloseWindow>
+  <LogoutEnterAgain>Kirjaudu uudelleen</LogoutEnterAgain>
+  <LogoutClosingBrowserRequired>Huomio! Kuka tahansa voi kirjautua tililläsi! Jos käytät jaettua tietokonetta, sinun pitäisi sulkea selainikkunan (ei vain välilehti) tyhjentää tunnistustiedot selaimessasi! Firefox-selaimella voit poistaa autentikointi osoitteessa valikosta: Tools-&gt; Clear Viimeaikainen historia ...-&gt; Details-&gt; tarkistaa Active Logins-&gt; paina Clear Now.</LogoutClosingBrowserRequired>
+  <RecoverPasswordTitle>Palauta salasana</RecoverPasswordTitle>
+  <RecoverPasswordEmailPassword>Lähetä salasana sähköpostitse</RecoverPasswordEmailPassword>
+  <RecoverPasswordErrorInvalidUserName>Virheellinen käyttäjätunnus.</RecoverPasswordErrorInvalidUserName>
+  <RecoverPasswordErrorNoEmail>Tällä käyttäjällä ei ole sähköpostiosoitetta määritelty.</RecoverPasswordErrorNoEmail>
+  <RecoverPasswordErrorSendEmail>Virhe sähköpostin lähettämiseen.</RecoverPasswordErrorSendEmail>
+  <RecoverPasswordSuccess>Salasanasi on lähetetty sähköpostiosoitteeseesi.</RecoverPasswordSuccess>
+
+  <RecoverUserNameTitle>Palauta nimi</RecoverUserNameTitle>
+  <RecoverUserEmailName>Lähetä nimi sähköpostitse</RecoverUserEmailName>
+  <RecoverUserNameErrorInvalidEmail>Virheellinen käyttäjä sähköposti.</RecoverUserNameErrorInvalidEmail>
+  <RecoverUserNameErrorNoEmail>Sähköpostiosoite ei löytynyt.</RecoverUserNameErrorNoEmail>
+  <RecoverUserNameSuccess>Nimesi on lähetetty sähköpostiosoitteesi.</RecoverUserNameSuccess>
+
+  <ChangeEmailTitle>Vaihda sähköposti</ChangeEmailTitle>
+  <ChangeEmailEmail>uusi sähköposti</ChangeEmailEmail>
+  <ChangeEmailSubmit>Lähetä</ChangeEmailSubmit>
+  <ChangeEmailStatusSuccess>Sähköposti on muutettu</ChangeEmailStatusSuccess>
+
+  <RegisterTitle>Register</RegisterTitle>
+  <RegisterEmail>Sähköposti</RegisterEmail>
+  <RegisterExtraInfo>Extra info</RegisterExtraInfo>
+  <RegisterCaptcha>Kirjoita teksti näet alla olevassa kuvassa</RegisterCaptcha>
+  <RegisterSubmit>Lähetä</RegisterSubmit>
+  <RegisterErrorPasswordNotMatch>Salasanat eivät täsmää.</RegisterErrorPasswordNotMatch>
+  <RegisterErrorUserExists>Tämä käyttäjätunnus tai sähköpostiosoite on jo käytössä.</RegisterErrorUserExists>
+  <RegisterErrorCaptchaInvalid>Kuvateksti ei ole kirjattu oikein</RegisterErrorCaptchaInvalid>
+  <RegisterSuccess>Uusi käyttäjä on lisätty.</RegisterSuccess>
+  <RegisterActivationSent>Aktivointikoodi lähetettiin sähköpostiisi.</RegisterActivationSent>
+  <RegisterActivationCheckEmail>Tarkista postilaatikkoon (erityisesti roskapostikansioon) ja seuraa ohjeita sähköpostitse.</RegisterActivationCheckEmail>
+  
+  <FolderGridUserPermissionsColumn>Access käyttäjille</FolderGridUserPermissionsColumn>
+  <FolderGridGroupPermissionsColumn>Access ryhmille</FolderGridGroupPermissionsColumn>
+
+  <LoginLinkText>Kirjaudu sisään</LoginLinkText>
+  <RecoverPasswordLinkText>Unohtuiko salasana?</RecoverPasswordLinkText>
+  <RecoverUserNameLinkText>Unohtunut name?</RecoverUserNameLinkText>
+  <RegisterLinkText>Register</RegisterLinkText>
+  <ChangeEmail>Vaihda sähköposti</ChangeEmail>
+  <LoginMobileVersionLinkText>Mobiiliversio (Useimmat älypuhelimet ja Tasohiirien)</LoginMobileVersionLinkText>
+
+  <FileIsNotZipArchive>Tiedosto {0} ei ole ZIP-arkisto</FileIsNotZipArchive>
+
+  <FileModificationsAuthor>kirjailija</FileModificationsAuthor>
+  <FileModificationsHistory>Katso historia</FileModificationsHistory>
+  <FileModificationsWindowTitle>Muutokset of file "{0}"</FileModificationsWindowTitle>
+  <FileModificationsTypeCreated>Luotu</FileModificationsTypeCreated>
+  <FileModificationsTypeModified>Muokattu</FileModificationsTypeModified>
+  <FileModificationsTypeRenamed>Uudelleennimetyt</FileModificationsTypeRenamed>
+  <FileModificationsTypeRestored>palautettu</FileModificationsTypeRestored>
+  <FileModificationsTypeDeleted>poistettu</FileModificationsTypeDeleted>
+
+  <ChangingReadOnlyProgressMessage>Muuttaminen vain luku-määrite</ChangingReadOnlyProgressMessage>
+
+  <ImageViewerWindowTitle>Image Viewer [{0}]</ImageViewerWindowTitle>
+  <ImageViewerLoadingMessage>Ladataan kuvien katselu</ImageViewerLoadingMessage>
+  <ImageViewerLoadingImageMessage>kuvaa ladataan</ImageViewerLoadingImageMessage>
+  <ImageViewerFirstImageTip>ensimmäinen kuva</ImageViewerFirstImageTip>
+  <ImageViewerPreviousImageTip>Edellinen kuva</ImageViewerPreviousImageTip>
+  <ImageViewerRefreshTip>Päivitä kuvien lista</ImageViewerRefreshTip>
+  <ImageViewerNextImageTip>Seuraava kuva</ImageViewerNextImageTip>
+  <ImageViewerLastImageTip>Viimeinen kuva</ImageViewerLastImageTip>
+  <ImageViewerRunSlideShow>Suorita kuvien diaesitys</ImageViewerRunSlideShow>
+  <ImageViewerStopSlideShow>Lopeta kuvien diaesitys</ImageViewerStopSlideShow>
+  <ImageViewerImageSimpleInfo>{0} / {1}, {2} ({3})</ImageViewerImageSimpleInfo>
+  <ImageViewerImageLoadErrorMessage>Kuva ei löydy tai ei voi näyttää</ImageViewerImageLoadErrorMessage>
+  <ImageViewerShowImageSizeOfWindow>Näytä kuva todellista kokoa</ImageViewerShowImageSizeOfWindow>
+  <ImageViewerShowRealImageSize>Klikkaa suurentaaksesi</ImageViewerShowRealImageSize>
+
+  <PasswordExpiresTitle>salasana päättyy</PasswordExpiresTitle>
+  <PasswordExpiresMessage>Salasana vanhenee {0} päivä (t)!</PasswordExpiresMessage>
+  <PasswordExpiredMessage>Salasanasi vanhentunut.</PasswordExpiredMessage>
+  <PasswordChangeMessage>Jos haluat vaihtaa salasanan, valitse {0} {1} -&gt; {2} {3} työkalurivillä.</PasswordChangeMessage>
+
+  <UnzipContentTotalFiles>Tiedostoja yhteensä: {0} ({1})</UnzipContentTotalFiles>
+
+  <VideoConversionJobNotFound>
+    Ei voitu löytää määritetyn jalostusprosessiin.
+    Mahdollisia syitä:
+    1. Conversion valmiiksi kauan sitten ja tietoja tämän työn poistettiin.
+    2. Muuntaminen prosessi päättyy epänormaalisti.
+  </VideoConversionJobNotFound>
+  <VideoConversionUtilityNotFound>Ei voitu löytää apuohjelma suorittaa pyydettyä toimintoa: {0}</VideoConversionUtilityNotFound>
+  <!-- The current security principal "{0}" has insufficiant permissions to executable file "{1}".-->
+  <VideoConversionUtilityInsufficientPermissions>Nykyinen käyttäjä "{0}" evätään pääsy suoritettava tiedosto "{1}".</VideoConversionUtilityInsufficientPermissions>
+  <VideoConversionOperationCancelled>Toiminto peruutettu</VideoConversionOperationCancelled>
+  <VideoConversionUtilityFailed>Muuntaminen apuohjelma lopetetaan epänormaalisti</VideoConversionUtilityFailed>
+  <VideoConversionOutputFileBusy>Output tiedosto on käytössä toinen uudistusprosessi</VideoConversionOutputFileBusy>
+
+  <VideoConvertWindowValidatorPositiveInt>Täytyy olla positiivinen kokonaisluku</VideoConvertWindowValidatorPositiveInt>
+  <VideoConvertWindowTitle>muuntaa video</VideoConvertWindowTitle>
+  <VideoConvertWindowInputFile>syötetiedosto</VideoConvertWindowInputFile>
+  <VideoConvertWindowOutputFile>tulostetiedosto</VideoConvertWindowOutputFile>
+  <VideoConvertWindowOutputFormat>ulostuloformaatti</VideoConvertWindowOutputFormat>
+  <VideoConvertWindowBitrate>Bitrate (kbps)</VideoConvertWindowBitrate>
+  <VideoConvertWindowFrameResolution>kennon tarkkuus</VideoConvertWindowFrameResolution>
+  <VideoConvertWindowDAR>Näytön kuvasuhde</VideoConvertWindowDAR>
+  <VideoConvertWindowPAR>Pikselimittasuhteen</VideoConvertWindowPAR>
+  <VideoConvertWindowResize>Asua</VideoConvertWindowResize>
+  <VideoConvertWindowProfile>Profiili</VideoConvertWindowProfile>
+  <VideoConvertWindowWidth>Leveys</VideoConvertWindowWidth>
+  <VideoConvertWindowHeight>Korkeus</VideoConvertWindowHeight>
+  <VideoConvertWindowExtractDetailsProgressMsg>Puran video yksityiskohdat</VideoConvertWindowExtractDetailsProgressMsg>
+  <VideoConvertWindowOutputFileExistsTitle>Output tiedosto on olemassa</VideoConvertWindowOutputFileExistsTitle>
+  <VideoConvertWindowOutputFileExistsMsg>Output tiedosto on jo olemassa. Se korvataan.</VideoConvertWindowOutputFileExistsMsg>
+  <VideoConvertWindowPrepareToConvert>Valmistautuminen muuntaa video</VideoConvertWindowPrepareToConvert>
+  <VideoConvertWindowOutputFileMatchInputFile>Output tiedostonimi vastaa input tiedostonimi</VideoConvertWindowOutputFileMatchInputFile>
+
+  <VideoConvertProgressWindowTitle>muuntaa video</VideoConvertProgressWindowTitle>
+  <VideoConvertProgressWindowInputFile>syötetiedosto</VideoConvertProgressWindowInputFile>
+  <VideoConvertProgressWindowOutputFile>tulostetiedosto</VideoConvertProgressWindowOutputFile>
+  <VideoConvertProgressWindowStatus>Status</VideoConvertProgressWindowStatus>
+  <VideoConvertProgressWindowStatusTerminating>päättämisestä</VideoConvertProgressWindowStatusTerminating>
+  <VideoConvertProgressWindowStatusPreparing>Valmistellaan</VideoConvertProgressWindowStatusPreparing>
+  <VideoConvertProgressWindowStatusProgress>Vaihe {0} on {1}</VideoConvertProgressWindowStatusProgress>
+  <VideoConvertProgressWindowStatusDone>Tehty</VideoConvertProgressWindowStatusDone>
+
+  <PlayHtml5VideoNotSupported>Selaimesi ei tue HTML 5 video elementti.</PlayHtml5VideoNotSupported>
+  <PlayHtml5VideoPlayFailed>Toista video epäonnistui</PlayHtml5VideoPlayFailed>
+  <PlayHtml5AudioPlayFailed>Toista ääni epäonnistui</PlayHtml5AudioPlayFailed>
+  <PlayHtml5AudioTitle>otsikko</PlayHtml5AudioTitle>
+  <PlayHtml5AudioNotSupported>Selaimesi ei tue HTML 5 audio- elementti.</PlayHtml5AudioNotSupported>
+  <PlayHtml5AudioArtist>Taiteilija</PlayHtml5AudioArtist>
+  <PlayHtml5AudioAlbum>Albumi</PlayHtml5AudioAlbum>
+  <PlayHtml5AudioYear>vuosi</PlayHtml5AudioYear>
+  <PlayHtml5AudioDuration>Kesto</PlayHtml5AudioDuration>
+  <PlayHtml5AudioBitrate>bitrate</PlayHtml5AudioBitrate>
+  <PlayHtml5AudioVolume>tilavuus</PlayHtml5AudioVolume>
+
+  <!-- Root title -->
+  <RootTitle>juuri</RootTitle>
+
+  <!-- Recent feature keys -->
+  <RecentRootTitle>viimeaikainen</RecentRootTitle>
+  <RecentDeleteOnePrompt>Oletko varma, että haluat poistaa "{0}" viimeaikaisista kohteita?</RecentDeleteOnePrompt>
+  <RecentDeleteManyPrompt>Oletko varma, että haluat poistaa nämä {0} kohteita viimeaikaisesta kohteita?</RecentDeleteManyPrompt>
+  <RecentPathNotExist>Viimeaikaiset polku "{0}" ei ole tai käyttö on estetty</RecentPathNotExist>
+  <RecentAllWithoutGroupingTitle>Kaikki w / o ryhmittely</RecentAllWithoutGroupingTitle>
+  <RecentEditGroupTitle>Muokattu</RecentEditGroupTitle>
+  <RecentViewGroupTitle>katsottu</RecentViewGroupTitle>
+  <RecentDownloadGroupTitle>ladatut</RecentDownloadGroupTitle>
+  <RecentUploadGroupTitle>Ladattu</RecentUploadGroupTitle>
+  <RecentCreateGroupTitle>Luotu</RecentCreateGroupTitle>
+
+  <!-- Trash feature keys -->
+  <TrashRootTitle>roska</TrashRootTitle>
+  <TrashLabelDateDeleted>date poistettu</TrashLabelDateDeleted>
+  <TrashDeleteOnePrompt>Oletko varma, että haluat poistaa pysyvästi "{0}" roskakorista?</TrashDeleteOnePrompt>
+  <TrashDeleteManyPrompt>Oletko varma, että haluat pysyvästi poistaa nämä {0} kohteet roskakoriin?</TrashDeleteManyPrompt>
+  <TrashEmptyTrashLabel>Tyhjennä roskat</TrashEmptyTrashLabel>
+  <TrashRestoreSelectedLabel>Palauttaa</TrashRestoreSelectedLabel>
+  <TrashRestoreAllLabel>Palauta kaikki</TrashRestoreAllLabel>
+  <TrashEmptyTrashPrompt>Oletko varma, että haluat tyhjentää roskakorin?</TrashEmptyTrashPrompt>
+  <TrashRestoreAllPrompt>Oletko varma, että haluat palauttaa kaikki kohteet roskakoriin?</TrashRestoreAllPrompt>
+  <TrashProgressRestoring>Palauta roskakorista</TrashProgressRestoring>
+  <TrashFolderNotFound>Trash hakemisto ei löytynyt</TrashFolderNotFound>
+  <TrashBalloonRestored>Palautettu kohteita: {0} on {1}</TrashBalloonRestored>
+  <TrashDeleteDirectlyLabel>Poista suoraan poistamatta roskakoriin</TrashDeleteDirectlyLabel>
+  <TrashUsedSpaceHint>{0} käytetään</TrashUsedSpaceHint>
+  <TrashLimitSizeHint>Käytetty {0} on {1} ({2})</TrashLimitSizeHint>
+  <TrashLargeItemsShelfTimeHint>Varastointiaika esineiden on suurempi kuin {0}: {1} päivä (ä)</TrashLargeItemsShelfTimeHint>
+  <TrashSmallItemsShelfTimeHint>Kaikille muille: {0} päivä (ä)</TrashSmallItemsShelfTimeHint>
+  <TrashItemsShelfTimeHint>Varastointiaika aitaus: {0} päivä (ä)</TrashItemsShelfTimeHint>
+  <TrashAvailableSpaceHint>Suurin käytettävissä koko {0}</TrashAvailableSpaceHint>
+  <TrashDeletedFromFolderHint>Poistettu {0}</TrashDeletedFromFolderHint>
+  <TrashExceededMessage>Seuraavat kohteet ovat liian suuria ja ei löydy roskakoriin (rajoittaminen {0} ylittyy):</TrashExceededMessage>
+  <TrashErrorSuffixMessage>Yritä tarkistaa vaihtoehto "{0}" ja poista tiedosto (t) ikuisesti mahdoton korjata</TrashErrorSuffixMessage>
+
+  <!-- Shared by link -->
+  <SharedByLinkRootTitle>Jakaja link</SharedByLinkRootTitle>
+
+  <!-- Shared for you -->
+  <SharedForYouRootTitle>Kanssasi jaettua</SharedForYouRootTitle>
+  <SharedForYouUnableToGetUrl>Ei saada URL</SharedForYouUnableToGetUrl>
+
+  <!-- Watch for modifications -->
+  <WatchForModifsCommand>Tarkkaile muutoksia</WatchForModifsCommand>
+  <WatchForModifsStartCommand>Aloita katselu</WatchForModifsStartCommand>
+  <WatchForModifsEditCommand>muuta katsomassa</WatchForModifsEditCommand>
+  <WatchForModifsStopCommand>lopeta tarkkailu</WatchForModifsStopCommand>
+  <WatchForModifsViewChangesCommand>Katso muutokset</WatchForModifsViewChangesCommand>
+  <WatchForModifsSubscriptionSuccessMessage>Olet onnistuneesti merkitä muutoksia "{0}"</WatchForModifsSubscriptionSuccessMessage>
+  <WatchForModifsStopSuccessMessage>Seuranta "{0}" on poistettu käytöstä onnistuneesti</WatchForModifsStopSuccessMessage>
+  <WatchForModifsIncludingNestedLabel>Mieti sisäkkäisiä tiedostoja, kansioita</WatchForModifsIncludingNestedLabel>
+  <WatchForModifsParentWatchExistMessage>Valitun kohde on jo annettu seurannan pääkansio "{0}".</WatchForModifsParentWatchExistMessage>
+  <WatchForModifsRootFolder>Hälytykset</WatchForModifsRootFolder>
+  <WatchForModifsStartProgressLoading>Ota katselun</WatchForModifsStartProgressLoading>
+  <WatchForModifsStopProgressLoading>Terminatie katsomassa</WatchForModifsStopProgressLoading>
+  <WatchForModifsIconHint>Käytössä katsella muutoksia</WatchForModifsIconHint>
+  <WatchForModifsNotifCheckBox>Ilmoita tehtävistä muutoksista sähköpostit:</WatchForModifsNotifCheckBox>
+  <WatchForModifsWatchedUsersCheckBox>Tarkkaile vain käyttäjät (jätä tyhjäksi jos et valvoa kaikkia):</WatchForModifsWatchedUsersCheckBox>
+  <WatchForModifsIgnoreOwnerCheckBox>Välittämättä omat muutoksensa</WatchForModifsIgnoreOwnerCheckBox>
+  <WatchForModifsActionsCheckBox>Monitor kaikki toimet (tai joidenkin toimien allaolevasta listasta)</WatchForModifsActionsCheckBox>
+  <WatchForModifsNestedItemsWarning>Huomio! Kun lisäät seurannan valittua kansiota, kaikkia oheisia tiedostot ja kansiot joita yksittäiset seuranta on lisätty aikaisemmin, seuranta poistetaan. Haluatko jatkaa?</WatchForModifsNestedItemsWarning>
+
+  <WelcomeWindowHideCheckboxLabel>Älä näytä tätä ensi kirjautumisessa</WelcomeWindowHideCheckboxLabel>
+
+  <LogsGridMoreInfoColumn>Lisätietoja</LogsGridMoreInfoColumn>
+  <LogsGridDetailsTitle>Yksityiskohdat</LogsGridDetailsTitle>
+  <LogsGridPhysPathColumn>fyysinen polku</LogsGridPhysPathColumn>
+  <LogsGridIsFolderColumn>Kansio?</LogsGridIsFolderColumn>
+  <LogsGridIsPublicColumn>Julkinen?</LogsGridIsPublicColumn>
+  <LogsGridByWebDavColumn>WebDAV?</LogsGridByWebDavColumn>
+
+  <NoCommentsYetHint>Ei vielä kommentteja</NoCommentsYetHint>
+  <NoHistoryYetHint>Ei historiaa vielä</NoHistoryYetHint>
+
+  <DetailsPropertyValuesCouldNotBeWritten>Tallennus epäonnistui kiinteistöjen arvot, Mabe tiedostotyyppi ei tue tällaista mahdollisuutta tai on virhe sovelluksen liittyvän tiedoston.</DetailsPropertyValuesCouldNotBeWritten>
+
+  <AdminCommandHelp>auta</AdminCommandHelp>
+  <AdminCommandAddUser>Lisää käyttäjä</AdminCommandAddUser>
+  <AdminCommandAddGroup>Lisää ryhmä</AdminCommandAddGroup>
+  <AdminCommandRemoveUser>Poista käyttäjä</AdminCommandRemoveUser>
+
+  <AdminCommandSelectUsers>Lisää käyttäjiä</AdminCommandSelectUsers>
+  <AdminCommandSelectGroups>lisätä ryhmiä</AdminCommandSelectGroups>
+  <AdminCommandRemoveUsers>Poista käyttäjiä</AdminCommandRemoveUsers>
+  <AdminCommandRemoveGroups>Poista ryhmät</AdminCommandRemoveGroups>
+  <AdminUsersGroups>Jonkin jäsen</AdminUsersGroups>
+  <AdminSearchUserEmptyText>Anna käyttäjätunnus</AdminSearchUserEmptyText>
+  <AdminSearchGroupEmptyText>Kirjoita ryhmän nimi</AdminSearchGroupEmptyText>
+  <AdminUsersGroupAlreadyExists>Ryhmä (t) tällä nimellä (t) on jo lisätty</AdminUsersGroupAlreadyExists>
+
+  <AdminApplicationLoading>Admin paneeli lastaus</AdminApplicationLoading>
+  <AdminTitle>hallinto</AdminTitle>
+  <AdminUsersEditUser>Edit user</AdminUsersEditUser>
+  <AdminUsersSetUserPassword>Aseta salasana</AdminUsersSetUserPassword>
+  <AdminUsersViewGroups>Katso ryhmät</AdminUsersViewGroups>
+  <AdminUsersViewFolders>Näytä kansiot</AdminUsersViewFolders>
+  <AdminUsersDeleteUserPrompt>Oletko varma, että haluat poistaa käyttäjä (t) "{0}"?</AdminUsersDeleteUserPrompt>
+  <AdminUsersDeletedUsers>{0} käyttäjä (t) poistetaan.</AdminUsersDeletedUsers>
+  <AdminUsersUserNotFound>Käyttäjä, jolla tätä nimeä ei löytynyt</AdminUsersUserNotFound>
+  <AdminUsersPropertiesTitle>Käyttäjän ominaisuudet</AdminUsersPropertiesTitle>
+  <AdminUsersSetPasswordTitle>Aseta käyttäjän salasana</AdminUsersSetPasswordTitle>
+  <AdminUsersGeneralInfo>Käyttäjän tiedot</AdminUsersGeneralInfo>
+  <AdminUsersUserEmail>Sähköposti</AdminUsersUserEmail>
+  <AdminUsersEmptyName>Käyttäjä nimi ei voi olla tyhjä</AdminUsersEmptyName>
+  <AdminUsersEmptyPassword>Käyttäjän salasana ei voi olla tyhjä</AdminUsersEmptyPassword>
+  <AdminUsersIncorrectName>On virheellisiä symboleja käyttäjätunnus</AdminUsersIncorrectName>
+  <AdminUsersAlreadyExists>Käyttäjän tällä nimellä on jo olemassa</AdminUsersAlreadyExists>
+  <AdminUsersEmailAlreadyExists>Käyttäjä tämän sähköpostin jo olemassa</AdminUsersEmailAlreadyExists>
+  <AdminUsersPasswordsNotMatch>Salasanat eivät täsmää</AdminUsersPasswordsNotMatch>
+  <AdminUsersRenameWarning>Sen jälkeen uudelleennimeäminen käyttäjä on tarpeen vaihtaa salasanan, muuten nykyinen web-kansiot linkki on virheellinen</AdminUsersRenameWarning>
+  <AdminUsersLicenseRestriction>Asiakkaan käyttöoikeus ei salli luoda yli {0} käyttäjää</AdminUsersLicenseRestriction>
+  <AdminUsersCountInfoWithLimit>Yhteensä käyttäjiä: {0} ulos {1}</AdminUsersCountInfoWithLimit>
+  <AdminUsersCountInfo>Yhteensä käyttäjiä: {0}</AdminUsersCountInfo>
+
+  <AdminGroupsEditGroup>Muokkaa ryhmää</AdminGroupsEditGroup>
+  <AdminGroupsRemoveGroup>Poista ryhmä</AdminGroupsRemoveGroup>
+  <AdminGroupsDeleteGroupPrompt>Oletko varma että haluat poistaa ryhmän (t) "{0}"?</AdminGroupsDeleteGroupPrompt>
+  <AdminGroupsDeletedGroups>{0} ryhmä (t) poistettu.</AdminGroupsDeletedGroups>
+  <AdminGroupsGroupNotFound>Ryhmä tällä nimellä ei löytynyt</AdminGroupsGroupNotFound>
+  <AdminGroupsViewUsers>Katso käyttäjät</AdminGroupsViewUsers>
+  <AdminGroupsProperties>ominaisuudet</AdminGroupsProperties>
+  <AdminGroupsPropertiesTitle>Ryhmä ominaisuudet</AdminGroupsPropertiesTitle>
+  <AdminGroupsGeneralInfo>ryhmätiedot</AdminGroupsGeneralInfo>
+  <AdminGroupsUserNamePrompt>Anna käyttäjätunnus</AdminGroupsUserNamePrompt>
+  <AdminGroupsUsers>Ryhmän jäsenet</AdminGroupsUsers>
+  <AdminGroupsUserAlreadyExists>Käyttäjä (t) tällä nimellä (t) on jo lisätty</AdminGroupsUserAlreadyExists>
+  <AdminGroupsEmptyName>Ryhmän nimi ei voi olla tyhjä</AdminGroupsEmptyName>
+  <AdminGroupsIncorrectName>On virheellisiä symboleja ryhmän nimi</AdminGroupsIncorrectName>
+  <AdminGroupsAlreadyExists>Ryhmä tällä nimellä on jo olemassa</AdminGroupsAlreadyExists>
+  <AdminGroupsCountInfo>Yhteensä ryhmien: {0}</AdminGroupsCountInfo>
+
+  <AdminLanguagesTab>lokalisointi</AdminLanguagesTab>
+  <AdminLanguagesTabMessage>Muokkaaminen lokalisointi tiedostoa, valitse haluttu kieli listalle paikallisia jouset muokata. Muutosten jälkeen klikkaa "Save" -painiketta</AdminLanguagesTabMessage>
+  <AdminLangGridKeyColumn>avaimen nimi</AdminLangGridKeyColumn>
+  <AdminLangGridDefaultColumn>Englanti</AdminLangGridDefaultColumn>
+  <AdminEnterLanguageNameTitle>Anna kielen nimeä</AdminEnterLanguageNameTitle>
+  <AdminLangConfirmRefreshTitle>Päivitä confirm</AdminLangConfirmRefreshTitle>
+  <AdminLangConfirmRefreshMessage>Huomio! Tietoa ei tallennettu. Haluatko tallentaa muutokset nyt?</AdminLangConfirmRefreshMessage>
+  <AdminLangAmountInfo>Täytetty näppäimet: {0} on {1} (tyhjä arvot: {2})</AdminLangAmountInfo>
+  <AdminLangSaveToCSV>Vie CSV</AdminLangSaveToCSV>
+  <AdminLangLoadFromCSV>Load CSV</AdminLangLoadFromCSV>
+
+  <AdminDbMaintenanceTab>DB Maintenance</AdminDbMaintenanceTab>
+  <AdminDbMaintenanceInfoTitle>Tiedot</AdminDbMaintenanceInfoTitle>
+  <AdminDbMaintenanceInfoPathLabel>DB tiedostopolku</AdminDbMaintenanceInfoPathLabel>
+  <AdminDbMaintenanceInfoSizeLabel>DB tiedostokoko</AdminDbMaintenanceInfoSizeLabel>
+  <AdminDbMaintenanceCompactTitle>Compact Database</AdminDbMaintenanceCompactTitle>
+  <AdminDbMaintenanceCompactNote>Jotta voitaisiin vähentää kokoa tietokannan tiedoston, klikkaa alla olevaa painiketta. On välttämätöntä suorittaa puristus tietokantaa säännöllisesti, koska esimerkiksi poiston jälkeen joitakin ei-aktiivisia julkisen linkkejä tai vanha log kirjaa DB tiedoston koko ei pienene.</AdminDbMaintenanceCompactNote>
+  <AdminDbMaintenanceCompactButton>Compact DB</AdminDbMaintenanceCompactButton>
+  <AdminDbMaintenanceCompactSuccess>DB onnistuneesti tiivistetään.
+Vanha tiedostokoko {0}
+Uusi tiedostokoko {1}</AdminDbMaintenanceCompactSuccess>
+  <AdminDbMaintenanceCompactAutoNote>Voit myös ottaa automaattisen puristus tietokantaan poistamisen jälkeen kirjanpidon toiminnot kuitenkin se ei ole suositeltavaa, koska se ehkä useammin lukot pohja ja se voi lisätä kestoa pyyntöjä. Huomio! Kun olet muuttanut tätä asetusta sovellus käynnistetään uudelleen!</AdminDbMaintenanceCompactAutoNote>
+  <AdminDbMaintenanceCompactAutoCheckBox>Päälle / pois automaattisen kompakti DB</AdminDbMaintenanceCompactAutoCheckBox>
+  <AdminDbMaintenanceCompactAutoSaveButton>Tallentaa</AdminDbMaintenanceCompactAutoSaveButton>
+  <AdminDbMaintenanceCompactAutoSaveSuccess>Vaihtamisen DB automaattisen сompression on onnistunut. Sivua päivitetään pian.</AdminDbMaintenanceCompactAutoSaveSuccess>
+  <AdminDbMaintenanceEnableLogLabel>Valitse DB kyselyt lokitasoksi (osaksi Data / debug.log)</AdminDbMaintenanceEnableLogLabel>
+  <AdminDbMaintenanceSettingsSaveSuccess>DB asetukset tallennettu. Sivu ladataan uudelleen</AdminDbMaintenanceSettingsSaveSuccess>
+  <AdminDbMaintenanceSettingsChangeNote>Huomio! Kun olet tallentanut asetukset sovellus käynnistetään uudelleen pian!</AdminDbMaintenanceSettingsChangeNote>
+  <AdminDbMaintenanceInsertIntervalLabel>Aikaväli (minuutteina) lisätä tapahtumia DB. Jos määrittää 0, kohdistin näkyy suoraan tapahtumien jälkeen.</AdminDbMaintenanceInsertIntervalLabel>
+  <AdminDbMaintenanceAdvDbParamsTitle>Advanced DB yhteysparametrit</AdminDbMaintenanceAdvDbParamsTitle>
+  <AdminDbMaintenanceStatTitle>Tilastot (riippuu DB lokitaso DurationExecution)</AdminDbMaintenanceStatTitle>
+  <AdminDbMaintenanceStatDurationReadLabel>Avg lukeminen timeout</AdminDbMaintenanceStatDurationReadLabel>
+  <AdminDbMaintenanceStatDurationWriteLabel>Avg kirjoittaminen timeout</AdminDbMaintenanceStatDurationWriteLabel>
+  <AdminDbMaintenanceStatDurationCompactLabel>Avg kompakti timeout</AdminDbMaintenanceStatDurationCompactLabel>
+  <AdminDbMaintenanceStatNoData>Ei dataa</AdminDbMaintenanceStatNoData>
+  <AdminDbMaintenanceStatGetButton>kerätä tilastoja</AdminDbMaintenanceStatGetButton>
+
+  <AdminMiscTab>Muut</AdminMiscTab>
+  <AdminMiscLoadADAccountsTitle>Load Active Directory tilit</AdminMiscLoadADAccountsTitle>
+  <AdminMiscLoadADAccountsLoadButton>Ladata</AdminMiscLoadADAccountsLoadButton>
+  <AdminMiscLoadADAccountsResetButton>asettaa uudelleen</AdminMiscLoadADAccountsResetButton>
+  <AdminMiscLoadADAccountsLdap>ldap kontti</AdminMiscLoadADAccountsLdap>
+  <AdminMiscLoadADAccountsToFile>Arkistoida</AdminMiscLoadADAccountsToFile>
+  <AdminMiscLoadADAccountsSuccessMessage>Active Directory tilit onnistuneesti ladattu</AdminMiscLoadADAccountsSuccessMessage>
+  <AdminMiscLoadADAccountsInfo>Täällä voit luoda tiedoston, joka sisältää koko Active Directory -käyttäjien rakenne. Tämä tiedosto tarvitaan, jos käyttää staattista tiedosto AD info varastointi. Sama tiedosto voidaan generoida kautta admanager apuohjelma. Lisätietoa katso &lt;b&gt; ADAccountsFilePath &lt;/b&gt; parametrin kuvaus {0} Manual {1}.</AdminMiscLoadADAccountsInfo>
+
+  <AdminMiscManageQuotasTitle>kiintiöiden hallinnointiin</AdminMiscManageQuotasTitle>
+  <AdminMiscManageQuotasInfo>Kyselyn nykyisten tai luoda uusia kiintiö rajoittaa tilaa sallitaan kansion, powered by File Server Resource Manager.</AdminMiscManageQuotasInfo>
+  <AdminMiscManageQuotasFolderPath>kansion polku</AdminMiscManageQuotasFolderPath>
+  <AdminMiscManageQuotasQuota>Kiintiö</AdminMiscManageQuotasQuota>
+  <AdminMiscManageQuotasGetQuota>Get kiintiö</AdminMiscManageQuotasGetQuota>
+  <AdminMiscManageQuotasSetQuota>Set kiintiö</AdminMiscManageQuotasSetQuota>
+
+  <AdminMiscFoldersFromGPOLTitle>Load kansiot Group Policy</AdminMiscFoldersFromGPOLTitle>
+  <AdminMiscFoldersFromGPOLComputerName>Tietokoneen nimi</AdminMiscFoldersFromGPOLComputerName>
+  <AdminMiscFoldersFromGPOLFilePath>Tiedostopolku</AdminMiscFoldersFromGPOLFilePath>
+  <AdminMiscFoldersFromGPOLMoreInfoLink>Lisätietoja</AdminMiscFoldersFromGPOLMoreInfoLink>
+  <AdminMiscFoldersFromGPOLResetButton>asettaa uudelleen</AdminMiscFoldersFromGPOLResetButton>
+  <AdminMiscFoldersFromGPOLLoadButton>Ladata</AdminMiscFoldersFromGPOLLoadButton>
+  <AdminMiscFoldersFromGPOLFromDC>DC</AdminMiscFoldersFromGPOLFromDC>
+  <AdminMiscFoldersFromGPOLFromFile>tiedostosta</AdminMiscFoldersFromGPOLFromFile>
+  <AdminMiscFoldersTargetLabel>Jos haluat tuoda käyttäjiä / ryhmiä olosuhteet ...</AdminMiscFoldersTargetLabel>
+  <AdminMiscFoldersTargetFilter>suodattaa</AdminMiscFoldersTargetFilter>
+  <AdminMiscFoldersTargetPermission>lupa</AdminMiscFoldersTargetPermission>
+  <AdminMiscFoldersFromGPOLSuccessMessage>Kansiot ladattu onnistuneesti. &lt;br /&gt; Uusi: {0}, päivitetty: {1}.</AdminMiscFoldersFromGPOLSuccessMessage>
+  <AdminMiscFoldersFromGPOLInfo>Voit ladata (tai päivittää) kansiolistalla Group Policy Drive Mapping asetukset Domain Controller. Alla olevaan kenttään voit kirjoittaa tietokoneen nimen, josta ryhmäkäytäntöasetuksia ladataan (tai jos se jätetään tyhjäksi, niin nykyinen verkkotunnusta käytetään), tai polku tiedostoon kanssa Määritetyt levyasemat asetukset.</AdminMiscFoldersFromGPOLInfo>
+
+  <AdminAnonymFoldersTab>Anonymous kansiot</AdminAnonymFoldersTab>
+  <AdminAnonymFoldersDeleteFolderPrompt>Oletko varma, että haluat poistaa {0} valitut anonyymi kansiot?</AdminAnonymFoldersDeleteFolderPrompt>
+  
+  <AdminAnonymFoldersDescription>Jaetut kansiot / tiedostot - nämä ovat / tiedostoista, jotka eivät vaadi käyttäjän todennusta *, se tarkoittaa, että ne ovat käytettävissä kaikille vierailijoille * (jos niissä on linkki). Kaikki käyttäjät voivat luoda tällaisia ​​kansioita / tiedostoja valikosta "Jaa &amp;rarr; Luo julkinen linkki". Kuitenkin jaettuja kansioita voi olla rajoitettu käyttöoikeudet: lataamiseen, lataaminen, tiedostot / kansiot luetteloon. Alla on taulukko linkkejä jaettuihin kansioihin / luomia käyttäjille. Toimiakseen julkiset yhteydet on oikein olla varma, että käsittelijät \ Anonymousdownload.ashx mahdollistaa anonyymin pääsyn IIS. Voit tarkistaa tämän &lt;a target="_blank" href="{0}"&gt; Diagnostics &lt;/a&gt; sivu. Varmista, että anonyymi käyttäjätili määritetty käsittelijät \ Anonymousdownload.ashx on NTFS luku / kirjoitus käyttöoikeudet jaettuja kansioita / tiedostoja. &lt;br /&gt; * &amp;nbsp; &amp;ndash; &amp;nbsp; jos et määrittele käyttäjiä, jotka ainoastaan ​​on sallittu pääsy.</AdminAnonymFoldersDescription>
+  <AdminAnonymFoldersLinkOwnerColumn>Omistaja</AdminAnonymFoldersLinkOwnerColumn>
+  <AdminAnonymFoldersEmailsColumn>Sähköpostit ilmoittamiselle</AdminAnonymFoldersEmailsColumn>
+  <AdminAnonymFoldersAccessForUsersColumn>Access käyttäjille</AdminAnonymFoldersAccessForUsersColumn>
+  <AdminAnonymFoldersPersonalMessageColumn>Henkilökohtainen viesti</AdminAnonymFoldersPersonalMessageColumn>
+  <AdminAnonymFoldersOverwriteOnUploadHint> (Overwrite: {0})</AdminAnonymFoldersOverwriteOnUploadHint>
+  <AdminAnonymFoldersRootPathColumn>juuripolkua</AdminAnonymFoldersRootPathColumn>
+  <AdminAnonymFoldersKeysColumn>näppäimet</AdminAnonymFoldersKeysColumn>
+  <AdminAnonymFoldersShortColumn>Short link</AdminAnonymFoldersShortColumn>
+  <AdminAnonymFoldersPropertiesTitle>Anonymous kansion ominaisuudet</AdminAnonymFoldersPropertiesTitle>
+  <AdminAnonymFoldersAdditionalInfo>Lisäinformaatio</AdminAnonymFoldersAdditionalInfo>
+  <AdminAnonymFoldersLinkLabel>Link pääsyä</AdminAnonymFoldersLinkLabel>
+  <AdminAnonymFoldersPathNotSpecified>Fyysinen polku ei ole asetettu</AdminAnonymFoldersPathNotSpecified>
+  <AdminAnonymFoldersCreatedForColumn>Tarkoitus</AdminAnonymFoldersCreatedForColumn>
+
+  <AdminFoldersTab>kansiot</AdminFoldersTab>
+  <AdminFoldersAddFolder>Lisää kansio</AdminFoldersAddFolder>
+  <AdminFoldersEditFolder>Muokkaa kansion</AdminFoldersEditFolder>
+  <AdminFoldersRemoveFolder>Poista kansio</AdminFoldersRemoveFolder>
+  <AdminFoldersDeleteFolderPrompt>Oletko varma, että haluat poistaa kansion "{0}"?</AdminFoldersDeleteFolderPrompt>
+  <AdminFoldersFolderNotFound>Kansio tällä nimellä ei löytynyt</AdminFoldersFolderNotFound>
+  <AdminFoldersPropertiesTitle>kansion ominaisuudet</AdminFoldersPropertiesTitle>
+  <AdminFoldersGeneralInfo>Yleistä tietoa</AdminFoldersGeneralInfo>
+  <AdminFoldersFolderRemoteWarningForms>Huomautus! Tämä kansio on etänä jaettu. Tarkista {0} FAQ: kuinka jakaa kauko-kansiot {1}</AdminFoldersFolderRemoteWarningForms>
+  <AdminFoldersFolderRemoteWarningWin>Huomautus! Tämä kansio on etänä jaettu. Voit piilottaa joitakin kansioita / tiedostoja, jos käyttäjillä ei ole oikeuksia lukea niitä. Katso {0} FAQ: Miten piilottaa tiedostoja / kansioita, käyttäjä ei ole oikeuksia lukea {1}</AdminFoldersFolderRemoteWarningWin>
+  <AdminFoldersFolderPath>fyysinen polku</AdminFoldersFolderPath>
+  <AdminFoldersLocationPath>Sijainti</AdminFoldersLocationPath>
+  <AdminFoldersFolderCreate>Luo kansio</AdminFoldersFolderCreate>
+  <AdminFoldersFolderCreateProcess>Luodaan kansiota</AdminFoldersFolderCreateProcess>
+  <AdminFoldersFolderCreateContainsPattern>Kansio ei voi luoda, koska se sisältää kuvio</AdminFoldersFolderCreateContainsPattern>
+  <AdminFoldersFolderCreateSuccessfully>Kansio "{0}" on onnistuneesti luotu.</AdminFoldersFolderCreateSuccessfully>
+  <AdminFoldersFolderOptional> (valinnainen)</AdminFoldersFolderOptional>
+  <AdminFoldersFolderLimitations>rajoitukset</AdminFoldersFolderLimitations>
+  <AdminFoldersFolderDescription>Kuvaus</AdminFoldersFolderDescription>
+  <AdminFoldersFolderQuota>Kiintiö</AdminFoldersFolderQuota>
+  <AdminFoldersFolderQuotaHint>Kyselyn nykyisten tai luoda uusia kiintiö rajoittaa tilaa sallitaan kansion, powered by File Server Resource Manager.</AdminFoldersFolderQuotaHint>
+  <AdminFoldersFolderQuotaMoreInfoLink>Lisätietoja</AdminFoldersFolderQuotaMoreInfoLink>
+  <AdminFoldersPermissions>käyttöoikeudet</AdminFoldersPermissions>
+  <AdminFoldersPermissionsFor>Käyttöoikeudet {0}</AdminFoldersPermissionsFor>
+  <AdminFoldersUsersGroups>Käyttäjät ja ryhmät</AdminFoldersUsersGroups>
+  <AdminFoldersAccessControl>kulunvalvonta</AdminFoldersAccessControl>
+  <AdminFoldersCreate>Luoda</AdminFoldersCreate>
+  <AdminFoldersDelete>Poistaa</AdminFoldersDelete>
+  <AdminFoldersRename>Nimeä uudelleen</AdminFoldersRename>
+  <AdminFoldersUpload>Lataa</AdminFoldersUpload>
+  <AdminFoldersDownload>ladata</AdminFoldersDownload>
+  <AdminFoldersZipDownload>Zip ja lataa</AdminFoldersZipDownload>
+  <AdminFoldersZip>Postinumero</AdminFoldersZip>
+  <AdminFoldersUnzip>purkaa Zip</AdminFoldersUnzip>
+  <AdminFoldersCut>Leikata</AdminFoldersCut>
+  <AdminFoldersCopy>Kopio</AdminFoldersCopy>
+  <AdminFoldersListFiles>Näytä tiedostot</AdminFoldersListFiles>
+  <AdminFoldersListFolders>Näytä kansiot</AdminFoldersListFolders>
+  <AdminFoldersModify>Muuttaa</AdminFoldersModify>
+  <AdminFoldersBulkMailing>massapostittaminen</AdminFoldersBulkMailing>
+  <AdminFoldersAnonymViewContent>Tiedostolista julkisilla linkin</AdminFoldersAnonymViewContent>
+  <AdminFoldersAnonymDownload>Lataa julkisilla linkin</AdminFoldersAnonymDownload>
+  <AdminFoldersAnonymUpload>Lataa julkisilla linkin</AdminFoldersAnonymUpload>
+  <AdminFoldersWatch>Katsella</AdminFoldersWatch>
+  <AdminFoldersDescription>Voit lisätä kansioita manuaalisesti tai muuntaa olemassa olevia kansioita, jos käytät asemia konsernitasolla politiikkaa. Lisätietoa katso {0} Ohje {1}.</AdminFoldersDescription>
+
+  <AdminFoldersPermissionsForRegex>Voit myös käyttää säännöllinen lauseke. Anna &lt;b&gt; {0} &lt;/b&gt; alussa kentän yläpuolella ja sitten säännöllinen lauseke, esimerkiksi:</AdminFoldersPermissionsForRegex>
+  <AdminFoldersPermissionsForRegexUsers>{0} (tarjota pääsy käyttäjän) &lt;br /&gt; {1} (tämä säännöllinen lauseke tarkoittaa kahta käyttäjää: jdoe ja Mike)</AdminFoldersPermissionsForRegexUsers>
+  <AdminFoldersPermissionsForRegexGroups>{0} (tarjota pääsyn minkään ryhmän) &lt;br /&gt; {1} (tämä säännöllinen lauseke tarkoittaa kaikkia ryhmiä "opiskelijat" heidän nimensä)</AdminFoldersPermissionsForRegexGroups>
+
+  <AdminFoldersListRestrictions>Rajoitukset näytön</AdminFoldersListRestrictions>
+  <AdminFoldersCreateRestrictions>Rajoituksista luonti</AdminFoldersCreateRestrictions>
+  <AdminFoldersRestrictionAllow>Sallia</AdminFoldersRestrictionAllow>
+  <AdminFoldersRestrictionDeny>Kieltää</AdminFoldersRestrictionDeny>
+  <AdminFoldersRestrictionExtensions>Laajennukset</AdminFoldersRestrictionExtensions>
+  <AdminFoldersUserNamePrompt>Anna käyttäjätunnus</AdminFoldersUserNamePrompt>
+  <AdminFoldersUserNameEmptyText>Valitse käyttäjätunnus</AdminFoldersUserNameEmptyText>
+  <AdminFoldersUserNameNotSelected>Sinun täytyy valita käyttäjänimi</AdminFoldersUserNameNotSelected>
+  <AdminFoldersUserAlreadyExists>Tämä käyttäjä on jo liitetty kansioon</AdminFoldersUserAlreadyExists>
+  <AdminFoldersGroupNamePrompt>Anna ryhmän nimi</AdminFoldersGroupNamePrompt>
+  <AdminFoldersGroupNameEmptyText>Valitse ryhmän nimi</AdminFoldersGroupNameEmptyText>
+  <AdminFoldersGroupNameNotSelected>Sinun täytyy valita ryhmän nimi</AdminFoldersGroupNameNotSelected>
+  <AdminFoldersGroupAlreadyExists>Tämä ryhmä on jo liitetty kansioon</AdminFoldersGroupAlreadyExists>
+  <AdminFoldersEmptyName>Kansion nimi ei voi olla tyhjä</AdminFoldersEmptyName>
+  <AdminFoldersEmptyPath>Kansion polku voi olla tyhjä</AdminFoldersEmptyPath>
+  <AdminFoldersIncorrectName>On virheellisiä symboleja kansion nimi</AdminFoldersIncorrectName>
+  <AdminFoldersAlreadyExists>Kansio tällä nimellä ja paikka on jo olemassa</AdminFoldersAlreadyExists>
+  <AdminFoldersSharesButton>Olemassa osakkeita</AdminFoldersSharesButton>
+  <AdminFoldersTestAccessButton>testitukiasemaan</AdminFoldersTestAccessButton>
+  <AdminFoldersTestIndexingButton>Test indeksointi</AdminFoldersTestIndexingButton>
+  <AdminFoldersShareNameTitle>Olemassa osakkeita</AdminFoldersShareNameTitle>
+  <AdminFoldersShareNameEmptyText>Valitse osake</AdminFoldersShareNameEmptyText>
+  <AdminFoldersShareNameNotSelected>Sinun täytyy valita osake</AdminFoldersShareNameNotSelected>
+  <AdminFoldersGetQuotaButton>Get kiintiö</AdminFoldersGetQuotaButton>
+  <AdminFoldersSetQuotaButton>Set kiintiö</AdminFoldersSetQuotaButton>
+  <AdminCommonFilterField>Suodattaa</AdminCommonFilterField>
+  <AdminCommonValidateField>vahvistaa</AdminCommonValidateField>
+  <AdminFoldersRootNameUsed>Käytä toista kansion nimi eikä "{0}"</AdminFoldersRootNameUsed>
+  <AdminFoldersFolderFilterSuccess>Vahvista suodattimen tapahtui onnistuneesti</AdminFoldersFolderFilterSuccess>
+
+  <AdminTestAccessGoodResult>Kansio "{0}" on olemassa ja on luettavissa.</AdminTestAccessGoodResult>
+  <AdminTestAccessBadResult>Kansio "{0}" ei ole olemassa tai ei ole NTFS lukuoikeus tai ei ole pääsyä verkkoon sovelluksen identiteetin!</AdminTestAccessBadResult>
+  <AdminTestAccessErrorResult>Virhe tarkkailun pääsy kansio "{0}": {1}</AdminTestAccessErrorResult>
+  <AdminTestIndexingErrorResult>Virhe tarkkailun indeksointi kansion "{0}":
+{1}</AdminTestIndexingErrorResult>
+  <AdminTestIndexingYesResult>Hakemisto "{0}" on indeksoitu</AdminTestIndexingYesResult>
+  <AdminTestIndexingNoResult>Hakemisto "{0}" ei ole indeksoitu</AdminTestIndexingNoResult>
+  <AdminTestIndexingUnknownResult>Pysty määrittämään, jos hakemistoa "{0}" on indeksoitu.</AdminTestIndexingUnknownResult>
+  <AdminTestIndexingAddIfNotIndexed>Haluatko lisätä tämän kansion indeksointi, jos se on indeksoitu vielä?</AdminTestIndexingAddIfNotIndexed>
+  <ProgressTestAccess>Tarkistetaan pääsy</ProgressTestAccess>
+  <ProgressTestIndexing>Tarkistetaan indeksointi</ProgressTestIndexing>
+  <AdminHowToIndexingLocationLink>Jotta indeksiä kansioon, katso ohjeesta {0}</AdminHowToIndexingLocationLink>
+
+  <AdminUsersListAll>Kaikki käyttäjät</AdminUsersListAll>
+  <AdminUsersListDACL>Käyttäjiä ACL</AdminUsersListDACL>
+  <AdminGroupsListAll>kaikki ryhmät</AdminGroupsListAll>
+  <AdminGroupsListDACL>Ryhmät alkaen ACL</AdminGroupsListDACL>
+  <AdminDACLStringLabel>ACL käyttöoikeudet</AdminDACLStringLabel>
+
+  <AdminCommonCustomField>Custom kenttä</AdminCommonCustomField>
+  <AdminCommonSettingsChangeWarning>Muutokset tulevat voimaan, kun re kirjautuminen (tai sen jälkeen sovellus uudelleenkäynnistyksen WebDav pääsy).</AdminCommonSettingsChangeWarning>
+
+  <AdminCommonAllowedFoldersPathsTitle>Sallittu kansioiden polkua</AdminCommonAllowedFoldersPathsTitle>
+  <AdminCommonNotAllowedFolderPath>Voit luoda pääsy vain näihin kansioihin tai sen alikansiot: {0}</AdminCommonNotAllowedFolderPath>
+
+  <AdminLogsTab>log</AdminLogsTab>
+
+  <AdminSettingsTab>asetukset</AdminSettingsTab>
+
+  <AdminLogsErrorsTab>lokivirheet</AdminLogsErrorsTab>
+  <AdminLogsErrorsClearBtn>Asia selvä</AdminLogsErrorsClearBtn>
+  <AdminLogsErrorsClearUsersCountExceededBtn>Kirkas kirjaa Virheitä käyttäjien määrän ylittäminen rajan</AdminLogsErrorsClearUsersCountExceededBtn>
+
+  <AdminFoldersCreateHint>Salli / Deny tekoja valikosta "Uusi": uuden tiedoston, uusi kansio, uusi kuva, uusi asiakirja tiedostoja.</AdminFoldersCreateHint>
+  <AdminFoldersDeleteHint>Salli / Deny poistaminen olemassa olevien tiedostojen ja kansioiden</AdminFoldersDeleteHint>
+  <AdminFoldersRenameHint>Salli / Deny uudelleennimeämisen olemassa olevien tiedostojen ja kansioiden</AdminFoldersRenameHint>
+  <AdminFoldersUploadHint>Salli / Deny tiedostojen lataamisesta on (Lataa-painikkeen työkalupalkin)</AdminFoldersUploadHint>
+  <AdminFoldersDownloadHint>Salli / Deny "download", "Näytä / muokkaa", lataa pilvi varastot jne toimet</AdminFoldersDownloadHint>
+  <AdminFoldersZipDownloadHint>Salli / Deny "pakkaa ja lataa" toimintaa</AdminFoldersZipDownloadHint>
+  <AdminFoldersZipHint>Salli / Deny "Pakkaa zip arkistoon" toiminta</AdminFoldersZipHint>
+  <AdminFoldersUnzipHint>Salli / Deny "Pura nykyiseen kansioon", "Pura uuteen kansioon" ja "Zip sisältö" toimet</AdminFoldersUnzipHint>
+  <AdminFoldersCutHint>Salli / Deny leikata olemassa olevien tiedostojen ja kansioiden toimintaa</AdminFoldersCutHint>
+  <AdminFoldersCopyHint>Salli / Deny kopioida nykyiset tiedostot ja kansiot toimintaa</AdminFoldersCopyHint>
+  <AdminFoldersListFilesHint>Salli / Deny tulostaa tiedosto</AdminFoldersListFilesHint>
+  <AdminFoldersListFoldersHint>Salli / Deny listalle kansiot</AdminFoldersListFoldersHint>
+  <AdminFoldersModifyHint>Salli / Deny muokata tiedostoja (Kaikki toimet, jotka voivat muokata olemassa olevan tiedoston sisältö)</AdminFoldersModifyHint>
+  <AdminFoldersBulkMailingHint>Salli / Deny massapostittaminen ryhmille</AdminFoldersBulkMailingHint>
+  <AdminFoldersAnonymViewContentHint>Salli / Deny tiedostojen lista anonyymit käyttäjät (via julkiset yhteydet)</AdminFoldersAnonymViewContentHint>
+  <AdminFoldersAnonymDownloadHint>Salli / Deny tiedostoja ladattavaksi anonyymit käyttäjät (via julkiset yhteydet)</AdminFoldersAnonymDownloadHint>
+  <AdminFoldersAnonymUploadHint>Salli / Deny tiedostojen lataaminen anonyymit käyttäjät (via julkiset yhteydet)</AdminFoldersAnonymUploadHint>
+  <AdminFoldersWatchHint>Salli / Estä käyttäjät voivat seurata muutoksia kansion muiden käyttäjien tekemiä (sitä sovelletaan vain, jos UI / AllowUsersmonitorModifications = true)</AdminFoldersWatchHint>
+  <AdminFoldersListRestrictionsHint>Tämä vaihtoehto ohjaa tiedosto listalle. Klikkaa "Estä" -valintanappi piilottaa tiedostoja määritetty laajennuksia. Aseta kielletty laajennukset erottamalla ne pilkulla (esim. "EXE, BAT, COM"). Aseta "Salli" valintanappi ja aseta laajennuksia tiedostot näytetään (esim. "DOC, PDF, JPG").</AdminFoldersListRestrictionsHint>
+  <AdminFoldersCreateRestrictionsHint>Tämä toiminto on samanlainen "List rajoituksiin", mutta se hallitsee tiedostojen lataaminen, zip louhinta, luoda uusia tiedostoja. Voit estää tai mahdollistaa lataaminen sekä määritellyn tiedostoja.</AdminFoldersCreateRestrictionsHint>
+  <AdminFoldersGeneralInfoHint>Kirjoita nykyiset kansion polku ja alias. Valitse Ohje-painike alareunassa lisätietoja.</AdminFoldersGeneralInfoHint>
+  <AdminFoldersUsersGroupsHint>Valitse tai tyyppi Käyttäjät ja ryhmät voivat jakaa kansioon niitä. Valitse Ohje-painike alareunassa lisätietoja.</AdminFoldersUsersGroupsHint>
+
+  <AdminUserFoldersButtonTitle>Test osakkeita lista</AdminUserFoldersButtonTitle>
+  <AdminUserFoldersWindowTitle>Käyttäjien kansiot</AdminUserFoldersWindowTitle>
+  <AdminUserFoldersLabel>Kansioluettelossa käyttäjälle {0} ':</AdminUserFoldersLabel>
+  
+  <AdminPermissionsTab>admin käyttöoikeuksia</AdminPermissionsTab>
+  <AdminPermissionsPrivilege>Etuoikeus</AdminPermissionsPrivilege>
+  <AdminPermissionsEditButton>Muokkaa etuoikeus</AdminPermissionsEditButton>
+  <AdminPermissionsModifySettingsTitle>Muokkaa asetuksia</AdminPermissionsModifySettingsTitle>
+  <AdminPermissionsModifyFoldersTitle>Muokkaa kansioita</AdminPermissionsModifyFoldersTitle>
+  <AdminPermissionsModifyAnonymFoldersTitle>Muokkaa julkiset kansiot</AdminPermissionsModifyAnonymFoldersTitle>
+  <AdminPermissionsModifyAccountsTitle>Muokkaa tilejä</AdminPermissionsModifyAccountsTitle>
+  <AdminPermissionsViewDiagnosticsTitle>Katso 'Diagnostics' sivulla</AdminPermissionsViewDiagnosticsTitle>
+  <AdminPermissionsViewLogTitle>Näytä loki</AdminPermissionsViewLogTitle>
+  <AdminPermissionsViewErrorsLogTitle>Katso virheet log</AdminPermissionsViewErrorsLogTitle>
+  <AdminPermissionsModifyLocalizationsTitle>Muokkaa lokalisointi</AdminPermissionsModifyLocalizationsTitle>
+  <AdminPermissionsFolderPathTitle>kansion polku</AdminPermissionsFolderPathTitle>
+  <AdminPermissionsFoldersTitle>admin kansiot</AdminPermissionsFoldersTitle>
+  <AdminPermissionsPrivilegeHint>Set käyttäjiä / ryhmiä, joille "{0}" etuoikeus sallitaan</AdminPermissionsPrivilegeHint>
+  <AdminPermissionsFolderTitle>Admin kansion ominaisuudet</AdminPermissionsFolderTitle>
+  <AdminPermissionsFolderFieldTitle>kansion polku</AdminPermissionsFolderFieldTitle>
+  <AdminPermissionsFolderHint>Tietoa admin kansioista</AdminPermissionsFolderHint>
+  <AdminPermissionsFolderEmptyAccounts>Määritä käyttäjät ja / tai ryhmien</AdminPermissionsFolderEmptyAccounts>
+  <AdminPermissionsFolderAlreadyExists>Kansioon tähän paikkaan on jo olemassa</AdminPermissionsFolderAlreadyExists>
+  <AdminPermissionsFolderNotFound>Kansio tähän paikkaan ei löytynyt</AdminPermissionsFolderNotFound>
+  <AdminPermissionsAllowedFoldersMessage>Voit luoda / päivittää / hallita pääsy vain näihin kansioihin tai sen alikansiot: {0}</AdminPermissionsAllowedFoldersMessage>
+
+  <AdminUsersCountExceededWarn>Enimmäismäärä käyttäjiä ylittyy. Nykyinen lisenssi sallii vain {0} käyttäjää login. Lisätietoa avaa "{1}" -välilehti ja etsi "{2}" poikkeus (s). Piilottaa tämän ilmoituksen selväksi lokitietueet at "{1}" välilehti.</AdminUsersCountExceededWarn>
+
+  <AdminNewVersionAvailableTitle>Uusi versio on saatavilla!</AdminNewVersionAvailableTitle>
+  <AdminNewVersionAvailableInfo>Nykyinen versio: {0} &lt;br /&gt; uudempi versio: {1}</AdminNewVersionAvailableInfo>
+  
+  <SettingsGridDescriptionInfo>Kuvaus</SettingsGridDescriptionInfo>
+  <SettingsGridFormatInfo>arvon muoto</SettingsGridFormatInfo>
+  <SettingsGridDefaultValueInfo>Oletusarvo</SettingsGridDefaultValueInfo>
+  <SettingsGridMoreInfo>Lisätietoja</SettingsGridMoreInfo>
+  <SettingsGridRestoreDefault>Palauta oletusarvot</SettingsGridRestoreDefault>
+
+  <SettingsFormatBoolean>looginen arvo</SettingsFormatBoolean>
+  <SettingsFormatWholeNumber>Koko numero</SettingsFormatWholeNumber>
+  <SettingsFormatRealNumber>Oikea numero</SettingsFormatRealNumber>
+  <SettingsFormatString>jono</SettingsFormatString>
+  <SettingsFormatEnum>Mikä tahansa arvo</SettingsFormatEnum>
+  <SettingsFormatSet>Pilkuilla erotettu ilman toistoja arvoista</SettingsFormatSet>
+  <SettingsFormatArray>Pilkuilla erotettu lista merkkijonoja</SettingsFormatArray>
+  <SettingsFormatToolbarButtons>. (Value "{0}" voidaan toistaa useita kertoja, mutta ei peräkkäin. Jokaisen nimen, jota seuraa kaksoispiste, on mahdollista määrittää yhden menetelmistä käytetään näyttämään painike: {1})</SettingsFormatToolbarButtons>
+
+  <AdminSettingsSave>Tallenna asetukset</AdminSettingsSave>
+  <AdminToggleHiddenParams>{0} lisäasetuksia</AdminToggleHiddenParams>
+  <AdminHintHiddenParams>Muita parametreja on tarkoitettu ainoastaan ​​tiheämmän asetuksia ja useimmissa tapauksissa ovat harvoin tarpeen</AdminHintHiddenParams>
+  <AdminShowHiddenParams>Show</AdminShowHiddenParams>
+  <AdminHideHiddenParams>Piilottaa</AdminHideHiddenParams>
+
+  <SettingsDenyAuthModeChange>Automaattinen todennustila vaihtokytkentä ei tueta. Katso {0} ohjeet muuttamassa todennustila.</SettingsDenyAuthModeChange>
+  <SettingsApplicationRestartedMsg>sovellus käynnistetään uudelleen</SettingsApplicationRestartedMsg>
+  <SettingsSettingsSavedMsg>Asetukset on tallennettu</SettingsSettingsSavedMsg>
+  <SettingsSettingsSaveFailedAppMsg>Ei voitu tallentaa asetustiedostoja. Tarkista kirjoitusoikeudet NTFS on web.config ja HttpCommanderSettings.config tiedostoja web-sovelluksen pääkansioon {0} käyttäjän {1}. Virheilmoitus: {2}.</SettingsSettingsSaveFailedAppMsg>
+  <SettingsSettingsSaveFailedTempMsg>Ei voitu tallentaa asetustiedostoja. Tarkista käyttöoikeudet tilapäisen kansion {0} käyttäjän {1}. Virheilmoitus: {2}.</SettingsSettingsSaveFailedTempMsg>
+  <SettingsSettingsReadFailedAppMsg>Ei voitu lukea asetustiedostoja. Tarkista lukea NTFS on web.config ja HttpCommanderSettings.config tiedostoja web-sovelluksen pääkansioon {0} käyttäjän {1}. Virheilmoitus: {2}.</SettingsSettingsReadFailedAppMsg>
+  <SettingsSettingsReadFailedTempMsg>Ei voitu lukea konfigurointitiedostot tilapäiseen kansioon. Tarkista käyttöoikeudet tilapäisen kansion {0} käyttäjän {1}. Virheilmoitus: {2}.</SettingsSettingsReadFailedTempMsg>
+  <SettingsSettingsConfigChangedOutside>HttpCommander konfiguraatiotiedosto on vaihdettu toisen ohjelman. Mahdollisesti olet muuttanut sen käsin tekstieditorilla. Sovellus on ladattu uuden kokoonpanon tiedoston. Kaikki muutokset liittyvät HttpCommander kokoonpano johon olet tehnyt verkkokäyttöliittymässä menetetään. Sinun täytyy tehdä uudelleen niitä, yritä pelastaa uudelleen. Suosittelemme vastaan ​​editointi asetustiedostot manuaalisesti, kun sovellus on käynnissä. Muuten pitäisi käynnistää sovelluksen vaihdon jälkeen asetustiedostoja. Virheilmoitus: {0}.</SettingsSettingsConfigChangedOutside>
+  <SettingsSettingsSaveNotif>Älä unohda tallentaa asetuksia muutokset!</SettingsSettingsSaveNotif>
+  
+  <SettingsEmailNotifTitle>Ilmoitukset sähköpostilla</SettingsEmailNotifTitle>
+  <SettingsEmailNotifApplyBtn>Tallenna mail asetukset</SettingsEmailNotifApplyBtn>
+  <SettingsEmailNotifResetBtn>asettaa uudelleen</SettingsEmailNotifResetBtn>
+  <SettingsEmailNotifEventsLabel>tapahtumiin</SettingsEmailNotifEventsLabel>
+  <SettingsEmailNotifWhenLabel>Lähettää</SettingsEmailNotifWhenLabel>
+  <SettingsEmailNotifEmailsLabel>sähköpostit</SettingsEmailNotifEmailsLabel>
+  <SettingsEmailNotifPathsLabel>Polut</SettingsEmailNotifPathsLabel>
+  
+  <LogsErrorsGridUrlColumn>url</LogsErrorsGridUrlColumn>
+  <LogsErrorsGridMsgColumn>Viesti</LogsErrorsGridMsgColumn>
+  <LogsErrorsGridMoreInfoColumn>Lisätietoja</LogsErrorsGridMoreInfoColumn>
+  <LogsErrorsGridDetailsTitle>Yksityiskohdat</LogsErrorsGridDetailsTitle>
+  
+  <FsrmUnableLoadLibraryLocal>Ei voida yhdistää File Server Resource Manager paikallinen isäntä.</FsrmUnableLoadLibraryLocal>
+  <FsrmUnableLoadLibraryRemote>Ei voida yhdistää File Server Resource Manager "{0}" isäntä.</FsrmUnableLoadLibraryRemote>
+  <FsrmNotInstalled>File Server Resource Manager ei ole asennettu "{0}".</FsrmNotInstalled>
+  <FsrmNotInstalledEitherEnd>File Server Resource Manager ei ole asennettu joko paikallisen isännän tai "{0}".</FsrmNotInstalledEitherEnd>
+  <FsrmQuotaNotSpecified>Kiintiö ole määritelty.</FsrmQuotaNotSpecified>
+  <FsrmUnableGetQuota>Ei saada kiintiörajan.</FsrmUnableGetQuota>
+  <FsrmUnableSetQuota>Ei voi asettaa kiintiörajan.</FsrmUnableSetQuota>
+  <FsrmQuotaSetMsg>Kiintiö on asetettu.</FsrmQuotaSetMsg>
+  <FsrmInvalidQuotaValueMsg>Virheellinen kiintiö arvo.</FsrmInvalidQuotaValueMsg>
+
+  <CommandBuyNow>Osta nyt</CommandBuyNow>
+
+  <AdminUpdateTab>parantaa</AdminUpdateTab>
+  <AdminUpdateManual>Manuaalinen päivitys</AdminUpdateManual>
+  <AdminUpdateAuto>automatisoitu päivitys</AdminUpdateAuto>
+  <AdminUpdateStartButton>Start Upgrade / Luo varmuuskopio</AdminUpdateStartButton>
+  <AdminUpdateFinishButton>Valmis Upgrade / Restore Backup</AdminUpdateFinishButton>
+  <AdminUpdateBackupButton>Varmuuskopioida</AdminUpdateBackupButton>
+  <AdminUpdateDownloadNewButton>Lataa uusi versio</AdminUpdateDownloadNewButton>
+  <AdminUpdateStepTitle>Vaihe {0} {1}: {2}</AdminUpdateStepTitle>
+  <AdminUpdateStepInfo>Vaihe {0} {1}</AdminUpdateStepInfo>
+  <AdminUpdateNumberSymbol>#</AdminUpdateNumberSymbol>
+  <AdminUpdateBackupContent>Paina nappia "{0}" luomista varten varmuuskopio kansion hakemuksen ja saada linkki lataamisen</AdminUpdateBackupContent>
+  <AdminUpdateDownloadBackupLinkHint>Lataa varmuuskopio käyttävä sovellus linkistä:</AdminUpdateDownloadBackupLinkHint>
+  <AdminUpdateDownloadNewContent>Sitten lataa uuden version käyttämällä linkkiä ja seuraa {0} asennuksen {1} ja {2} päivittää {1} ohjeita, jotta asentaa uuden version. Kun asennus avatkaa hallintapaneeli, siirry välilehden "{3}" ja paina nappia "{4}", jotta asennuksen.</AdminUpdateDownloadNewContent>
+  <AdminUpdateUploadButton>Lataa varmuuskopion ja soveltaa asetuksia</AdminUpdateUploadButton>
+  <AdminUpdateUploadAndInstallButton>Asenna uusi versio pitää kaikki asetukset</AdminUpdateUploadAndInstallButton>
+  <AdminUpdateUploadEmptyText>Valitse varmuuskopion lataamiseen</AdminUpdateUploadEmptyText>
+  <AdminUpdateFinishContent>Jotta palauttaa asetukset edellisen version valitse ja lataa aiemmin luotu varmuuskopioarkisto kanssa sovelluksen kansioon</AdminUpdateFinishContent>
+  <AdminUpdateFinishMessage>Onnea! Kaikki asetukset ovat onnistuneesti sovellettu. Lisäksi kannattaa muistaa, sovelletaan kaikkiin tehdyt muutokset muihin tiedostoihin, esim. Default.aspx tai Global.asax.</AdminUpdateFinishMessage>
+  <AdminUpdateFinishRefreshPage>Sivu ladataan uudelleen</AdminUpdateFinishRefreshPage>
+  <AdminUpdateMainInfo>Tämäntyyppinen päivitystä on osittain automatisoitu. Asiakas saa luoda ja ladata varmuuskopio tiedoston sovelluksen kokoonpanoasetukset ja palauttaa sen jälkeen päivitystä. Noudata näitä lyhyin askelin: Luo varmuuskopio, suorita manuaalinen päivitystä, palauttaa asetukset varmuuskopiotiedostosta. Tätä menettelyä voidaan käyttää myös varmuuskopioida / palauttaa asetukset päivittämättä. Ohita päivitystä vaihe palauttaa asetukset varmuuskopion.</AdminUpdateMainInfo>
+  <AdminUpdateAutoButton>Auto</AdminUpdateAutoButton>
+  <AdminUpdateAutoInfo>Tämäntyyppinen korottamisen lähes täysin automatisoitu. Se on 2 vaihetta: varmuuskopio nykyiset asetukset (sinun kannattaa ladata ja tallentaa tietokoneen tiedosto), asennettiin uusi versio ja palauttaminen asetukset varmuuskopion. HTTP Commander voi automaattisesti ladata uusimman version ja asentaa sen tai voit määrittää polun zip-arkiston kanssa uuden version palvelimelle. Kaikki asetukset automaattisesti palautetaan aiemmin luotu varmuuskopio.</AdminUpdateAutoInfo>
+  <AdminUpdateRestoreWebConfigCheckBox>Palauta asetukset Web.config (esim kuten SMTP)</AdminUpdateRestoreWebConfigCheckBox>
+  <AdminUpdateBackupAssignedFoldersInRootMessage>Huomio! On joitakin käyttäjä kansioita hakemistoon sovellus, joiden koko yhteensä yli {0}. Varmuuskopio ei tehdä. Tee varmuuskopio näistä hakemistoista, poistaa ne sovelluksen hakemistoon ja yritä toimintoa puolellasi.</AdminUpdateBackupAssignedFoldersInRootMessage>
+  <AdminUpdateNeedRefreshPageForContinue>Huomio! Jatka on tarpeen päivittää sivun. Paina nappia "{0}". Uudelleenlatauksen jälkeen, toista toimenpide.</AdminUpdateNeedRefreshPageForContinue>
+  <AdminUpdateRestoreFromBackupEmpty>Tai jos se ei ole valittu, se käyttää juuri luotua tiedostoa edellisessä vaiheessa</AdminUpdateRestoreFromBackupEmpty>
+  <AdminUpdateInstallZipPathHint>Päivittämiseksi tarkennettava koko fyysinen polku asennustiedosto (palvelimelle) ensimmäiseen kenttään tai jätä se tyhjäksi voidakseen käyttää online-jakelu</AdminUpdateInstallZipPathHint>
+  <AdminUpdateInstallZipPathEmpty>Määritä polku arkistoon kanssa asentaa</AdminUpdateInstallZipPathEmpty>
+  <AdminUpdateProgress>päivittäminen</AdminUpdateProgress>
+  <AdminUpdateAccessDeniedWarning>&lt;b&gt; Huomio! &lt;/b&gt; päivittämisestä aseta modify (lukeminen ja kirjoittaminen) NTFS {0} käyttäjän kansio HTTP Commander {1} ja toista päivitystä. &lt;br /&gt; Onnistuneen päivitystä kiitos palauttaa entisen oikeuksia.</AdminUpdateAccessDeniedWarning>
+  <AdminUpdateAccessDeniedWarningCurentUser>nykyinen</AdminUpdateAccessDeniedWarningCurentUser>
+
+  <ServerExceedsMaxSizeForEditAsTextFile>Tiedoston koko ylittää maksimikoon muokata sen tekstitiedostona.</ServerExceedsMaxSizeForEditAsTextFile>
+  <ServerDemoMode>Annettu toiminta on kielletty demo tilassa</ServerDemoMode>
+  <ServerHostedMode>Sitä ei saa muuttaa arvoja seuraavia asetuksia isännöi kokeiluversio: {0}.</ServerHostedMode>
+  <ServerIncorrectImageContentType>Tiedoston Mime-tyyppi ei ole kuva</ServerIncorrectImageContentType>
+  <ServerPermissionDenied>Tämä operaatio on hylätty, koska rajallinen käyttöoikeudet</ServerPermissionDenied>
+  <ServerRestoreFromTrashNoParentFolder>palauttaminen epäonnistui, koska emohakemisto "{0}" on ei löytynyt. Ole hyvä ja luo se ja yritä uudelleen.</ServerRestoreFromTrashNoParentFolder>
+  <ServerModifyPermissionDenied>Tämä operaatio on hylätty, koska sinulla ei ole lupaa muokata tiedostoa</ServerModifyPermissionDenied>
+  <ServerPathNotFound>Polku ei löytynyt.</ServerPathNotFound>
+  <ServerInvalidPath>Path "{0}" ei kelpaa</ServerInvalidPath>
+  <ServerInvalidAbsolutePath>Virheellinen absoluuttinen polku "{0}"</ServerInvalidAbsolutePath>
+  <!-- share folder path: \\server\share -->
+  <ServerInvalidShareFolderPath>Virheellinen osuus kansion polku "{0}"</ServerInvalidShareFolderPath>
+  <ServerInvalidUncPath>Virheellinen UNC polun "{0}"</ServerInvalidUncPath>
+  <ServerUnableResolveUncPath>Pysty ratkaisemaan UNC polun "{0}"</ServerUnableResolveUncPath>
+  <ServerInvalidFileName>Tiedoston / kansion nimi ei ole asetettu tai sisältää virheellisiä merkkejä {0}</ServerInvalidFileName>
+  <ServerFilePathNotFound>Tiedostoa ei ole</ServerFilePathNotFound>
+  <ServerIncorrectPathForFileLink>Virheellinen objektin tyyppi. Määritetty path kansioon</ServerIncorrectPathForFileLink>
+  <ServerIncorrectPathForFolderLink>Virheellinen objektin tyyppi. Määritetty polku viittaa tiedostoon</ServerIncorrectPathForFolderLink>
+  <ServerRootFolderNotFound>Root kansion polku "{0}" ei löytynyt.</ServerRootFolderNotFound>
+  <ServerUnableCreateFolder>Ei voitu luoda kansiota</ServerUnableCreateFolder>
+  <ServerFileAlreadyExists>Tiedoston tällä nimellä on jo olemassa</ServerFileAlreadyExists>
+  <ServerFileAlreadyExistsOnRename>
+    Haluatko nimetä "{0}" on "{1}"?
+    On jo olemassa tiedosto samanniminen tässä paikassa.
+  </ServerFileAlreadyExistsOnRename>
+  <ServerFolderAlreadyExistsOnRename>
+    Haluatko nimetä "{0}" on "{1}"?
+    On jo kansio samalla nimellä tässä paikassa.
+  </ServerFolderAlreadyExistsOnRename>
+  <ServerFoldersMergeConfirm>
+    Tämä kohde on jo kansio nimeltä "{0}".
+    Haluatko silti yhdistää tähän kansioon "{0}" tämän kanssa "{1}"?
+  </ServerFoldersMergeConfirm>
+  <ServerFolderWithSameNameAsFileNameAlreadyExists>On jo kansio samanniminen "{0}", kuten tiedostonimi määritetty</ServerFolderWithSameNameAsFileNameAlreadyExists>
+  <ServerFileWithSameNameAsFolderNameAlreadyExists>On jo olemassa tiedosto samanniminen "{0}", kuten kansion nimi määritetty</ServerFileWithSameNameAsFolderNameAlreadyExists>
+  <ServerFileNotFound>Tiedostoa "{0}" ei löydy kansiosta "{1}". Mahdollisesti se on poistettu tai poistaa toisen käyttäjän.</ServerFileNotFound>
+  <ServerDirectoryAlreadyExists>Hakemisto Tällä nimellä on jo olemassa</ServerDirectoryAlreadyExists>
+  <ServerFolderMoveAlreadeExists>Kohdekansio "{0}" on sama kuin lähdekansio</ServerFolderMoveAlreadeExists>
+  <ServerUploadPathNotFound>Polku tiedostojen tallennukseen ei löydy palvelimelta</ServerUploadPathNotFound>
+  <ServerUploadPathNotSet>Virhe saada polun lataamiseen. Ole hyvä, ja päivitä sivu selaimessa ja yritä uudelleen.</ServerUploadPathNotSet>
+  <ServerUploadNoChunk>Ei murikka for save</ServerUploadNoChunk>
+  <ServerUploadWriteChunk>Kirjoita kimpale koska tavu</ServerUploadWriteChunk>
+  <ServerUploadCreatingFile>Luodaan tiedosto</ServerUploadCreatingFile>
+  <ServerUploadFileUploaded>Tiedosto on ladattu</ServerUploadFileUploaded>
+  <ServerUploadWriteError>kirjoittaminen virhe</ServerUploadWriteError>
+  <ServerConfigurationError>Virheellinen konfiguraatio tai sovellus! Ota yhteyttä sivuston ylläpitäjään</ServerConfigurationError>
+  <ServerPermissionsAllowTypes>Nykyiset luvat sallia tämän toiminnan vain tiedostotyyppejä {0}</ServerPermissionsAllowTypes>
+  <ServerPermissionsDenyTypes>Nykyiset luvat kieltää tämän kanssa tiedostotyyppejä {0}</ServerPermissionsDenyTypes>
+  <ServerRequestSizeExceeded>Koko ladattujen tiedostojen ylittää sallitun koon palvelimen asetukset</ServerRequestSizeExceeded>
+  <ServerEmailMsgProcessedFilesSubject>Ladattu / Modified / Ladatut / Kirjoittaja / Poistettu / Shared tiedostot / kansiot</ServerEmailMsgProcessedFilesSubject>
+  <ServerEmailMsgUploadFilesTitle>ladattu</ServerEmailMsgUploadFilesTitle>
+  <ServerEmailMsgModifyFilesTitle>muokattu</ServerEmailMsgModifyFilesTitle>
+  <ServerEmailMsgDownloadFilesTitle>ladattu</ServerEmailMsgDownloadFilesTitle>
+  <ServerEmailMsgCreateFilesTitle>luotu</ServerEmailMsgCreateFilesTitle>
+  <ServerEmailMsgDeleteFilesTitle>Poistetaan</ServerEmailMsgDeleteFilesTitle>
+  <ServerEmailMsgCreatePublicFilesTitle>yhteinen</ServerEmailMsgCreatePublicFilesTitle>
+  <ServerEmailMsgProcessedFilesBody>
+    Seuraavat tiedostot / kansiot olivat {0} by {1}:
+
+{2}
+    
+  </ServerEmailMsgProcessedFilesBody>
+  <ServerEmailMsgPasswordRecoverSubject>Salasanan palautus</ServerEmailMsgPasswordRecoverSubject>
+  <ServerEmailMsgPasswordRecoverBody>
+    Olet pyytänyt uuden salasanan Web File Manager. Salasanasi on nollattu. Jos uskot tämän olevan virhe, yksinkertaisesti sivuuttaa tämän kirjeen, mutta muista, että salasana on vaihdettu.
+    Käyttäjän nimi: {0}
+    Uusi salasana: {1}
+  </ServerEmailMsgPasswordRecoverBody>
+  
+  <ServerEmailMsgUserNameRecoverSubject>Käyttäjätunnus elpyminen</ServerEmailMsgUserNameRecoverSubject>
+  <ServerEmailMsgUserNameRecoverBody>
+    Pyysit palauttaa nimen Web File Manager.
+    Käyttäjän nimi: {0}
+  </ServerEmailMsgUserNameRecoverBody>
+
+  <ServerEmailMsgUserActivationSubject>Tilin aktivointi</ServerEmailMsgUserActivationSubject>
+  <ServerEmailMsgUserActivationBody>
+    Tili ({0}) aktivointi on tarpeen.
+    Aktivoi tilisi, klikkaa seuraavaa linkkiä: {1}
+  </ServerEmailMsgUserActivationBody>
+  <ServerEmailMsgUserRegisteredSubject>Käyttäjä rekisteröity</ServerEmailMsgUserRegisteredSubject>
+  <ServerEmailMsgUserRegisteredBody>
+    Olet onnistuneesti rekisteröity Web File Manager.
+    Käyttäjän nimi: {0}
+  </ServerEmailMsgUserRegisteredBody>
+  <ServerEmailMsgUserRegisteredForAdminsBody>
+    &lt;h4&gt; Uusi käyttäjä on rekisteröity &lt;/h4&gt;
+    &lt;strong&gt; Käyttäjätunnus &lt;/strong&gt;: {0} &lt;br /&gt;
+    &lt;strong&gt; Sähköposti &lt;/strong&gt;: {1} &lt;br /&gt;
+    &lt;strong&gt; Päivämäärä &lt;/strong&gt;: {2} &lt;br /&gt;
+    &lt;strong&gt; Extra info &lt;/strong&gt;: {3} &lt;br /&gt;
+  </ServerEmailMsgUserRegisteredForAdminsBody>
+  <ServerDiskFullError>Kovalevyllä ei ole tarpeeksi tilaa.</ServerDiskFullError>
+  <ServerFolderLimitations>Kansio rajoitukset: {0}</ServerFolderLimitations>
+  <ServerShortcutAssignedFolderNotFound>Sidotut kansio ei löytynyt kohdepolku pikakuvake</ServerShortcutAssignedFolderNotFound>
+  <ServerSizeFilesForZipExceeded>Koko arkistoitavien tiedostojen ylitti sallitun arvon {0}.</ServerSizeFilesForZipExceeded>
+  <ServerPasteFolderToSubfolderError>Kohdekansio "{0}" on alikansio lähdekansion "{1}".</ServerPasteFolderToSubfolderError>
+  <ServerLiveConnectAppIDNotSpecified>Asiakas ID Microsoftin Live-yhteys-ohjelma ei ole määritelty</ServerLiveConnectAppIDNotSpecified>
+  <ServerSendEmailInfo>Kirjoittaja määritelty niiden sähköposti {0}. Käytä vain tämän sähköpostiosoitteen vastata.</ServerSendEmailInfo>
+
+  <ServerAntivirusScanningFailed>Skannaus by antivirus: {0} {1} 'päättyy epänormaalisti.</ServerAntivirusScanningFailed>
+
+  <ServerUserNameNotFound>Käyttäjästä nimi '{0}' ei löytynyt.</ServerUserNameNotFound>
+  <ServerFileNameCopySuffix>Kopio</ServerFileNameCopySuffix>
+
+  <ServerDeleteFolderNTFSAccessDenied>Sinulla ei ole NTFS lupaa poistaa kansion "{0}"</ServerDeleteFolderNTFSAccessDenied>
+
+  <ServerMSOOTemplateNotFound>{0} mallia ei löytynyt</ServerMSOOTemplateNotFound>
+</Localization>

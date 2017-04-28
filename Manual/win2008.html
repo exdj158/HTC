@@ -1,0 +1,390 @@
+﻿<!-- saved from url=(0014)about:internet -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Installation at Windows 2008, 2012 and 2016 (Windows version)</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <script type="text/javascript" language="javascript">
+        function toggleBlock(id) {
+            if (document.getElementById(id).style.display == 'none') {
+                document.getElementById(id).style.display = 'block';
+            }
+            else {
+                document.getElementById(id).style.display = 'none';
+            }
+        }
+    </script>
+    
+    <table width="100%" cellpadding="0" cellspacing="0">
+        <tr>
+            <td width="320">
+                <table>
+                    <tr>
+                        <td style="vertical-align:top;text-align:left;">
+                            <a target='_blank' href='http://www.element-it.com/asp-net-explorer-browser/online-share/web-file-manager.aspx'><img style='cursor:pointer;' alt="HTTP Commander" src="Images/HCLogo.png" border="0" /></a>
+                        </td>
+                        <td class="green" style="vertical-align:top;text-align:left;padding-top:21px;">
+                            &nbsp;AJS 4.x
+                        </td>
+                    </tr>
+                </table>
+                <span class="gray">Manual</span>
+            </td>
+            <td>
+  <!-- For windows version only. Start --> 
+	<p>
+	<strong>Note!</strong> This Manual is for the <strong>"Windows authentication"</strong> version, 
+	which is designed to work with existing Windows server or Active Directory accounts and Windows authentication. 
+	If you want to create accounts by yourself and store their credentials in your own HTTP Commander XML database, 
+	you need to download the <a target="_blank" href="http://www.element-it.com/downloadfile.aspx?type=st">"Forms authentication" version</a>!
+	This Manual is for the Windows authentication version only!
+	</p>
+	<!-- For windows version only. End --> 
+	
+ 
+            </td>
+            <td align="char" width="230">
+                <img alt="" src="Images/world.jpg" align="middle" hspace="5" style="vertical-align:top;padding-top:1px;" /><b><a target="_blank" title="web file manager" href="http://www.element-it.com/asp-net-explorer-browser/online-share/web-file-manager.aspx">Web file manager</a></b><br />
+                <img alt="" src="Images/support.png" width="16" height="16" align="middle" hspace="5" style="vertical-align:top;padding-top:1px;" /><b><a href="onlinesupport.html" target="main">Free Installation assistance</a></b><br />
+                <img alt="" src="Images/help.png" align="middle" width="16" height="16" hspace="5" style="vertical-align:top;padding-top:1px;" /><b><a
+                    href="index.html" title="Manual Home page" target="_blank">Manual Home page</a></b><br />
+            </td>
+        </tr>
+    </table>
+    
+    <p class="topic">
+        <a id="hcadsicomtopic1">HTTP Commander application install at Windows 2008, 2012, 2016 (IIS 7, 7.5, 8, 8.5, 10).</a>
+    </p>
+    
+	<strong>Note 1!</strong> 
+    You can view <br/><a href="screencast.html"><img align="absmiddle" border="0" src="Images/video.png" width="128" height="128"><font size="+3">installation screencast (video)</font></a> (Recommended)!
+	<br/>
+	<strong>Note 2!</strong><br />
+	We offer <b>free installation assistance</b> for both trial and commercial licenses. 
+	You can get help via email, instant messenger or via remote access to your server. 
+	You need few minutes to get <a href="onlinesupport.html">online help</a>.<br /><br />
+	The HTTP Commander is installed like any other ASP.NET application.<br />
+	To run the application, you need IIS and .NET Framework 4.6, 4.5 or 4.0 installed.<br />
+<h2>In this section:</h2>
+<ul>
+<li><a href="#installationIIS">IIS and .NET Framework Installation</a></li> 
+<li><a href="#installationwizard">Automatic HTTP Commander Installation with installation wizard (EXE)</a></li>
+<li><a href="#installationHTTPCOM">Manual HTTP Commander Installation (ZIP package)</a></li>
+<li><a href="#apppoolnametopic">How to detect application pool HTTP Commander runs under?</a></li>
+<li><a href="#unblockarchive">How to unblock distribution archive?</a></li>
+<li><a href="#hcadsicomtopic2">Running and configure</a></li>
+</ul>
+    <p class="topic">
+        <a id="installationIIS">IIS and .NET Framework Installation</a>
+    </p>
+    <p class="question">
+        <img alt="" id="webftp2k3_arrow" class="ulimg" src="Images/collapsed.jpg" style="width: 11px;
+            height: 11px" /><span id="webftp2k3_link" onClick="toggleBlock('iis2000'); return false;"
+                class="imglink">1. IIS Installation</span>
+    </p>
+    <div id="iis2000">
+        <ul>
+            <li>Open the <b>Server manager</b>, go to <b>Roles</b>
+                section, click <b>Add roles</b>, and check <b>Web server (IIS)</b> role.<br />
+                <a target="_blank" href="Images/instweb2k8.png" onclick="toggleBlock('instweb2k8'); return false;"
+                    class="imglink">Screenshots</a>
+                <div id="instweb2k8" style="display: none;">
+                    <p class="screenshot">
+                        &nbsp;<img src="Images/instweb2k8.png" style="width: 780px; height: 587px" /><br /><br />
+                        &nbsp;<img src="Images/ws10roles.png" style="width: 800px; height: 567px" />
+                    </p>
+                </div>
+            </li>
+            <li>Select <b>"ASP.NET"</b> (<b>ASP.NET 4.5</b> for Windows Server 2012, 2012 R2 or <b>ASP.NET 4.6</b> for Windows Server 2016) in <i>Application Development</i> (<i>.NET Framework 4.6 Features</i>) section
+                <!-- For windows version only. Start -->
+                , <b>"Basic Authentication"</b> and <b>"Windows Authentication"</b> in <i>Security</i> section that are necessary for HTTP Commander.
+                <!-- For windows version only. End -->                
+                <br /> <a target="_blank" href="Images/selectauth.png" onclick="toggleBlock('selectauth'); return false;"
+                    class="imglink">Screenshots</a>
+                <div id="selectauth" style="display: none;">
+                    <p class="screenshot">
+                        &nbsp;<img src="Images/selectauth.png" style="width: 777px; height: 566px" /><br /><br />
+                        &nbsp;<img src="Images/2012WebRoleComponents.png" style="width: 800px; height: 643px" /><br /><br />
+                        &nbsp;<img src="Images/aspnet46.png" style="width: 800px; height: 567px" /><br /><br />
+                        &nbsp;<img src="Images/aspnet46appdev.png" style="width: 800px; height: 728px" /><br /><br />
+                        &nbsp;<img src="Images/WindowsSearch/WindowsSearchFeature.png" style="width: 800px; height: 567px" />
+                    </p>
+                </div>
+            </li>
+            <li>
+                If you plan to use Windows Search Service in HTTP Commander, to search files by content (option <a href="webconfigsetup.html#SearchMethodOfFiles">SearchMethodOfFiles</a>) check feature
+                <strong>Windows Search Service</strong> in the list of <strong>Features</strong> (for more information see <a href="WindowsSearch.html">Windows Search manual</a>).
+                <br/><a target="_blank" href="Images/WindowsSearch/WindowsSearchFeature.png" onclick="toggleBlock('WindowsSearchScr'); return false;"
+   class="imglink">Screenshots</a>
+                <div id="WindowsSearchScr" style="display: none;">
+                    <p class="screenshot">
+                        &nbsp;<img src="Images/WindowsSearch/WindowsSearchFeature.png" style="width: 800px; height: 567px" />
+                    </p>
+                </div>
+            </li>
+            <li>
+                Click Next and follow the instructions.<br />
+            </li>
+        </ul>
+    </div>
+
+    <p class="question">
+        <img alt="" id="webftp2k3_arrow" class="ulimg" src="Images/collapsed.jpg" style="width: 11px;
+            height: 11px" /><span id="webftp2k3_link" onClick="toggleBlock('netframe'); return false;"
+                class="imglink">2. .NET Framework 4.0, 4.5 or 4.6 Installation</span>
+    </p>
+    <div id="netframe" >
+        <p>Download and install 
+        <a target="_blank" href="https://www.microsoft.com/en-US/download/details.aspx?id=17718">.NET Framework 4.0</a> (it is also recommended to install <a href="https://www.microsoft.com/en-us/download/details.aspx?id=29053" target="_blank">Update 4.0.3</a>),
+        <a target="_blank" href="https://www.microsoft.com/en-us/download/details.aspx?id=42642">.NET Framework 4.5</a> or
+        <a target="_blank" href="https://www.microsoft.com/en-us/download/details.aspx?id=53344">.NET Framework 4.6</a>.</p>
+        <p>If .NET Framework 4.x has been already installed, you need either reinstall it 
+            or execute the following command as administrator.</p>
+        <p>On 32-bit system:</p>
+        <pre>
+%windir%\Microsoft.NET\Framework\v4.0.30319\aspnet_regiis.exe -i
+        </pre>
+        <p>On 64-bit system:</p>
+        <pre>
+%windir%\Microsoft.NET\Framework64\v4.0.30319\aspnet_regiis.exe -i
+        </pre>
+        <p>
+        <strong>Note!</strong> If you plan to use the integration with <a href="https://app.box.com/files/" target="_blank">Box</a> 
+        (see parameters <a href="webconfigsetup.html#EnableDownloadToBox">EnableDownloadToBox</a>, 
+        <a href="webconfigsetup.html#EnableUploadFromBox">EnableUploadFromBox</a>, 
+        <a href="webconfigsetup.html#BoxClientId">BoxClientId</a>, <a href="webconfigsetup.html#BoxClientSecret">BoxClientSecret</a>),
+        necessarily verify whether the <a href="http://www.microsoft.com/en-us/download/details.aspx?id=3556" target='_blank'>Update KB2468871 to .NET Framework 4</a> 
+        is installed, and if not, install it on the server with HTTP Commander (update details info: <a href="http://support.microsoft.com/kb/2468871" target="_blank">KB2468871</a>).
+        </p>
+    </div>
+    
+<p class="topic">
+        <a id="installationwizard">Automatic HTTP Commander Installation with installation wizard (EXE)</a>
+</p>
+<p class="question">
+        <img id="webftp2k3_arrow" class="ulimg" src="Images/collapsed.jpg" style="width: 11px;
+            height: 11px" /><span id="webftp2k3_link" onClick="toggleBlock('httpinsta'); return false;"
+                class="imglink">3.a Automatic HTTP Commander Installation...</span></p>
+<div id="httpinsta" >
+
+
+    <ul style="list-style-type:lower-alpha;">
+	<li><a href="http://www.element-it.com/download.aspx?type=hcinst" target="_blank"><strong>Download</strong> latest version of Http Commander</a> from official web site. 
+    </li>
+	
+    <li>
+	<strong>Launch</strong> downloaded EXE file with Administrative privileges: Right click on downloaded file -> <b>"Run as Administrator"</b>
+	</li>
+	<li>
+		<strong>Follow</strong> on-screen installation instructions and wait for installation to complete.
+	</li>
+         
+	<li><b>Check "Full trust" level</b>:
+		  <ul>
+		  <li>
+		   In the IIS console in the right panel, open <b>".NET trust levels"</b> and select <b>"Full"</b> in the list.<br/>
+		   <b>Note!</b> HTTP Commander also supports <b>"Medium trust"</b> but in this case you can provide access only to the folders inside the application root (HTCOMNET folder).<br />
+	<a target="_blank" href="Images/fulltrust2008.jpg" onClick="toggleBlock('fulltrust2008'); return false;" class="imglink">Screenshot</a>
+      <div id="fulltrust2008" style="display: none;">
+        <p class="screenshot">
+            &nbsp;<img src="Images/fulltrust2008.jpg" style="width: 557px; height: 294px" /></p>
+      </div>
+	  </li>
+	  </ul>
+    </li>	 
+    <li><strong>Check required <a href="ntfs.html">NTFS permissions</a></strong>.   </li>
+    <!-- For windows version only. Start --> 
+    <li>Configure <a href="faq.html#clearAuth">Force Logout</a> function.</li>
+    <!-- For windows version only. End -->
+	<!-- For windows version only. Start --> 
+    <li>   		
+       <strong><a href="AnonymousDownload.html">Configure anonymous access to AnonymousDownload.ashx </a></strong> file if anything of the following is true:
+    
+	  <ul>
+	  <li>You plan to work with online services such as 
+	  <a href="webconfigsetup.html#documents">Google Viewer, Microsoft OWA, Zoho Editor, Pixlr Editor, Adobe Image Editor, ShareCad.org</a>.
+	  </li>
+	  
+	  <li>You plan to use public links.
+	  </li>
+	  
+	  <li>You enabled anonymous editing in Office (<a href="webconfigsetup.html#AnonymousEditingOffice">AnonymousEditingOffice</a> setting is true).
+</a></li>
+	  </ul>
+	  The process of configuring AnonymousDownload.ashx for anonymous access is detailed in the section
+	  <a href="AnonymousDownload.html">configure anonymous access to AnonymousDownload.ashx</a>.
+	  <br/>Installation wizard automatically configures Anonymous access for AnonymousDownload.ashx handler. You will only configure special account for that handler and set permissions for it on all shared folders.
+	</li>
+	<!-- For windows version only. End -->    
+  </ul>
+    
+</div>
+
+<p class="topic">
+        <a id="installationHTTPCOM">Manual HTTP Commander Installation (ZIP package)</a>
+</p>
+     
+    
+<p class="question">
+        <img id="webftp2k3_arrow" class="ulimg" src="Images/collapsed.jpg" style="width: 11px;
+            height: 11px" /><span id="webftp2k3_link" onClick="toggleBlock('httpinst'); return false;"
+                class="imglink">3.b Manual HTTP Commander Installation...</span></p>
+<div id="httpinst" >
+
+
+    <ul style="list-style-type:lower-alpha;">
+	<li><b>Important! Unblock HTTPCommanderAJSx.x.x.zip file.</b>
+	<p>You need to <a href="#unblockarchive">unblock distribution archive</a> if you use Internet Explorer browser.
+	Internet Explorer blocks files downloaded from Internet (Windows Server 2008 security feature).</p>
+    <strong>Note! Application won't work if you forget to unblock the archive 
+    ('System.Web.AspNetHostingPermission' error)!</strong>
+    </li>
+      <li><b>Place HTTP Commander code on web server:</b>
+        <ul>
+        <li>Open  IIS server's root folder in Windows Explorer  (by default it is <b>c:\Inetpub\wwwroot\</b>)</li>
+        <li>Extract the HTTP Commander zip archive to a new <b>HTCOMNET</b> folder inside the root folder. You can use any name for the folder or place it not in the root. In this manual we use such placement and name as default. 
+        Be sure that you unblocked ZIP archive before it extracting (See previous step)! <br />
+	<a target="_blank" href="Images/placefolder.png" onClick="toggleBlock('placefolder'); return false;" class="imglink">Screenshot</a>
+      <div id="placefolder" style="display: none;">
+        <p class="screenshot">
+            &nbsp;<img src="Images/placefolder.png" style="width: 369px; height: 183px" /></p>
+      </div>
+       </li>
+    </ul>
+    </li>
+	
+    <li><b>Create "Application" in IIS</b>: 
+      <ul>
+        <li>Open <b>IIS console</b>: <b>Control panel</b>-&gt;<b>Administrative tools</b>-&gt;<BR>
+        <b>Internet Information   Services</b>-&gt;Expand <b>"Sites"</b> and then  <b>"Default web site"</b></li>
+        <li>Right-click  the "HTCOMNET"   folder and select <b>"Convert to Application"</b> in the context menu.<BR>
+In the new   dialog box,   click "ok".<br />
+	<a target="_blank" href="Images/app2008.jpg" onClick="toggleBlock('app2008'); return false;" class="imglink">Screenshot</a>
+      <div id="app2008" style="display: none;" >
+        <p class="screenshot">
+            &nbsp;<img src="Images/app2008.jpg" style="width: 387px; height: 476px" /></p>
+      </div>
+          </li>
+    </ul></li>
+         
+<!-- For windows version only. Start --> 
+	  <li><strong>Set Basic authentication</strong>
+       <ul>        
+  
+       <li>In the <b>IIS console</b>, select HTCOMNET node and click   <b>"Authentication"</b> in the right tab.
+	   You should have <b>&quot;Basic Authentication&quot;</b> and <b>&quot;ASP.NET Impersonation&quot;</b> ENABLED. All the other options should be DISABLED!<br/>
+	   Select <b>&quot;Basic Authentication&quot;</b> option and click <b>"Edit..."</b> link in the right <b>Actions</b> tab. In the new dialog set default domain name!          
+			  <br/>
+<a href='faq.html#windowsauth'>Why you need to use Basic authentication?</a><br/>
+<b>Note!</b> If you cannot find <b>&quot;Basic&quot;</b> settings, the feature has not been installed. You need to check <strong>"IIS Installation"</strong> step then.<br/>
+
+	<a target="_blank" href="Images/auth2008.jpg" onClick="toggleBlock('auth2008'); return false;" class="imglink">Screenshot</a>
+      <div id="auth2008" style="display: none;">
+        <p class="screenshot">
+            &nbsp;<img src="Images/auth2008.jpg" style="width: 483px; height: 301px" /></p>
+      </div>
+      </li>     
+      </ul>
+      </li>
+      
+<!-- For windows version only. End -->   
+          <li><b>Check "Full trust" level</b>:
+		  <ul>
+		  <li>
+		   In the IIS console in the right panel, open <b>".NET trust levels"</b> and select <b>"Full"</b> in the list.<br/>
+		   <b>Note!</b> HTTP Commander also supports <b>"Medium trust"</b> but in this case you can provide access only to the folders inside the application root (HTCOMNET folder).<br />
+	<a target="_blank" href="Images/fulltrust2008.jpg" onClick="toggleBlock('fulltrust2008'); return false;" class="imglink">Screenshot</a>
+      <div id="fulltrust2008" style="display: none;">
+        <p class="screenshot">
+            &nbsp;<img src="Images/fulltrust2008.jpg" style="width: 557px; height: 294px" /></p>
+      </div>
+	  </li>
+	  </ul>
+	  </li>
+	  <li><b>Select version of Framework the application will run under</b>
+	    <ul>
+	      <li>Open Application Pools in IIS Manager</li>
+	      <li>Select HTTP Commander application pool. See <a href="#apppoolnametopic">How to detect application pool HTTP Commander runs under?</a>.</li>
+	      <li>Click "Basic Settings..." on Actions pane.</li>
+	      <li>"Edit application pool" window appears</li>
+	      <li>Select .NET Framework version in combobox.</li>
+	      <li>Click OK button</li>
+	    </ul>
+	  </li>
+    <li><strong>Check required <a href="ntfs.html">NTFS permissions</a></strong>.   </li>
+    <!-- For windows version only. Start --> 
+    <li>Configure <a href="faq.html#clearAuth">Force Logout</a> function.</li>
+    <!-- For windows version only. End -->
+	<!-- For windows version only. Start --> 
+    <li>       
+       <strong><a href="AnonymousDownload.html">Configure anonymous access to AnonymousDownload.ashx </a></strong> file if anything of the following is true:
+    
+	  <ul>
+	  <li>You plan to work with online services such as 
+	  <a href="webconfigsetup.html#documents">Google Viewer, Microsoft OWA, Zoho Editor, Pixlr Editor, Adobe Image Editor, ShareCad.org</a>.
+	  </li>
+	  
+	  <li>You plan to use public links.
+	  </li>
+	  
+	  <li>You enabled anonymous editing in Office (<a href="webconfigsetup.html#AnonymousEditingOffice">AnonymousEditingOffice</a> setting is true).
+</a></li>
+	  </ul>
+	  The process of configuring AnonymousDownload.ashx for anonymous access is detailed in the section
+	  <a href="AnonymousDownload.html">configure anonymous access to AnonymousDownload.ashx</a>.
+	  
+	</li>
+	<!-- For windows version only. End -->    
+  </ul>
+    
+</div>
+
+<p class="topic">
+        <a id="apppoolnametopic">How to detect application pool HTTP Commander runs under?</a>
+</p>
+<ul>
+  <li>Open IIS Manager</li>
+  <li>Select HTTP Commander application on the Connections pane</li>
+  <li>Click "Basic Settings..." on the Actions pane</li>
+  <li>"Edit Application" window appears</li>
+  <li>Read the Application pool field &mdash; that the name of the application pool HTTP Commander runs under.</li>
+</ul>
+
+<p class="topic">
+        <a id="unblockarchive">How to unblock distribution archive?</a>
+</p>
+  <ul>
+    <li>Right  click distribution archive file <b>HTTPCommanderAJSx.x.x.zip</b> and select <strong>Properties</strong> in context menu.</li>
+    <li>In the properties dialog, open <b>"General" tab</b>, 
+        click <b>"Unblock"</b> button and then <strong>Apply</strong> button.<br />
+          
+	<a target="_blank" href="Images/unblock.png" onClick="toggleBlock('unblock'); return false;" class="imglink">Screenshot</a>
+      <div id="unblock" style="display: none;" >
+        <p class="screenshot">
+            &nbsp;<img src="Images/unblock.png" style="width: 367px; height: 502px" /></p>
+      </div>
+    </li>
+  </ul>
+
+<p class="topic">
+        <a id="hcadsicomtopic2">Running and configure</a>
+</p>
+<ul>
+<li>Now you can run  HTTP Commander <b>diagnostics</b> page. Open  the application URL in your browser, e.g. <strong>"http://localhost/HTCOMNET/Diagnostics.aspx"</strong>. Look if you have something non resolved issues.</li>
+<li>
+   
+   <!-- For windows version only. Start --> 
+   If everything fine you can run HTTP Commander main page <b>"http://localhost/HTCOMNET/Default.aspx"</b> and login as <b>domain admin</b> user. See <a href="adminpanel.html">folder edit in AdminPanel</a> to setup access to the folders for necessary users and groups. After that try to login as simple user. If you can't login or view data or manage files then check <a href="ntfs.html">NTFS permissions</a>.
+   <!-- For windows version only. End -->  </li>
+<li>We strongly recommend to read <a href="ntfs.html">NTFS permissions</a> section of the Documentation to be sure that permissions are set correctly for the application .</li>
+<li>For application configuration you need to set <a href="webconfigsetup.html">Application settings</a>, also there you can read how to <b>configure advanced features like <a href="WebFolders.html">folders mapping (WebDav)</a>, 
+    <a href="webconfigsetup.html#editinoffice">Office edit or online documents editors</a></b> at IIS.</li>
+<li>Read <a href="faq.html">FAQ section</a> because it has answers how to increase performance and security of application and some other helpful solutions.</li>
+</ul>
+
+<br/><br/>    
+</body>
+</html>

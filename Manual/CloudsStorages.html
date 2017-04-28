@@ -1,0 +1,402 @@
+﻿<!-- saved from url=(0014)about:internet -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Integration with Clouds Storages (Windows version)</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <script type="text/javascript" language="javascript">
+        function toggleBlock(id) {
+            if (document.getElementById(id).style.display == 'none') {
+                document.getElementById(id).style.display = 'block';
+            } else {
+                document.getElementById(id).style.display = 'none';
+            }
+        }
+    </script>
+    <table width="100%" cellpadding="0" cellspacing="0">
+        <tr>
+            <td width="320">
+                <table>
+                    <tr>
+                        <td style="vertical-align:top;text-align:left;">
+                            <a target='_blank' href='http://www.element-it.com/asp-net-explorer-browser/online-share/web-file-manager.aspx'><img style='cursor:pointer;' alt="HTTP Commander" src="Images/HCLogo.png" border="0" /></a>
+                        </td>
+                        <td class="green" style="vertical-align:top;text-align:left;padding-top:21px;">
+                            &nbsp;AJS 4.x
+                        </td>
+                    </tr>
+                </table>
+                <span class="gray">Manual</span>
+            </td>
+             <td>
+  <!-- For windows version only. Start --> 
+	<p>
+	<strong>Note!</strong> This Manual is for the <strong>"Windows authentication"</strong> version, 
+	which is designed to work with existing Windows server or Active Directory accounts and Windows authentication. 
+	If you want to create accounts by yourself and store their credentials in your own HTTP Commander XML database, 
+	you need to download the <a target="_blank" href="http://www.element-it.com/downloadfile.aspx?type=st">"Forms authentication" version</a>!
+	This Manual is for the Windows authentication version only!
+	</p>
+	<!-- For windows version only. End --> 
+	
+ 
+	
+                
+            </td>
+            <td align="char" width="230">
+                <img alt="" src="Images/world.jpg" align="middle" hspace="5" style="vertical-align:top;padding-top:1px;" /><b><a target="_blank" title="web file manager" href="http://www.element-it.com/asp-net-explorer-browser/online-share/web-file-manager.aspx">Web file manager</a></b><br />
+                <img alt="" src="Images/support.png" width="16" height="16" align="middle" hspace="5" style="vertical-align:top;padding-top:1px;" /><b><a
+                    href="onlinesupport.html" target="main">Free Installation assistance</a></b><br />
+                <img alt="" src="Images/help.png" align="middle" width="16" height="16" hspace="5" style="vertical-align:top;padding-top:1px;" /><b><a
+                    href="index.html" title="Manual Home page" target="_blank">Manual Home page</a></b><br />
+            </td>
+        </tr>
+    </table>
+    
+    <!-- Title -->
+    <p class="topic">
+        <a id="hcadsicomtopic">Integration with Clouds Storages (Google Drive, Dropbox, OneDrive)</a>
+    </p>
+
+    <p>
+        Integration HTTP Commander with Clouds Storages allows to interact (edit, upload and download files, folders) with popular cloud services
+        storage: <a target="_blank" href="https://drive.google.com/"><b>Google Drive</b></a>, <a target="_blank"
+            href="https://www.dropbox.com/"><b>Dropbox</b></a>, <a target="_blank"
+                href="https://onedrive.live.com/"><b>Microsoft OneDrive</b></a>.
+                    <!-- Info not presented, becouse used Element-IT Box application
+                    , <a target="_blank" href="https://app.box.com/"><b>Box</b></a>.-->
+    </p>
+
+    <ul>
+        <li><a href="#google">Integration with Google Drive</a></li>
+        <li><a href="#dropbox">Integration with Dropbox</a></li>
+        <li><a href="#onedrive">Integration with Microsoft OneDrive</a></li>
+        <!-- Info not presented, becouse used Element-IT Box application 
+        <li><a href="#box">Integration with Box</a></li>-->
+    </ul>
+
+    <h2 id="google">Integration with <a href="https://www.google.com/intl/en_us/drive/" target="_blank">Google Drive</a></h2>
+
+    <p>Integration with Google Drive allows users of HTTP Commander
+    create/edit documents in Google Docs, download and upload your files and folders from the cloud storage Google Drive.<br />
+    To configure this feature, perform the following steps.</p>
+    <ol>
+        <li>Go to the <a href="https://console.developers.google.com/project" target="_blank">Google Developers Console</a>.
+            If required, sign in to your Google Account.<br />
+            <a target="_blank" href="Images/clouds/googledrive_projects.png" onClick="toggleBlock('googledrive_projects'); return false;" class="imglink">Screenshot</a>
+            <div id="googledrive_projects" style="display: none;">
+                <p class="screenshot">
+                    <img alt="" src="Images/clouds/googledrive_projects.png" style="width: 871px; height: 373px" />
+                </p>
+            </div>
+        </li>
+        <li>Create new project (or select existing project).<br />
+            <a target="_blank" href="Images/clouds/googledrive_projectname.png" onClick="toggleBlock('googledrive_projectname'); return false;" class="imglink">Screenshot</a>
+            <div id="googledrive_projectname" style="display: none;">
+                <p class="screenshot">
+                    <img alt="" src="Images/clouds/googledrive_projectname.png" style="width: 788px; height: 516px" />
+                </p>
+            </div>
+        </li>
+        <li>Select the newly created (or existing) project and in left menu go to 
+            <b>Overview</b>, than select <b>Google APIs</b> tab, search <b>Drive API</b> and enable
+            (if they are not enabled).<br />
+            <a target="_blank" href="Images/clouds/googledrive_apis.png" onClick="toggleBlock('googledrive_apis'); return false;" class="imglink">Screenshot</a>
+            <div id="googledrive_apis" style="display: none;">
+                <p class="screenshot">
+                    <img alt="" src="Images/clouds/googledrive_apis.png" style="width: 1155px; height: 711px" />
+                </p>
+            </div>
+        </li>
+        <li>Next go to <b>Credentials</b>
+            and add credentials to your project.<br />
+            <ul>
+                <li>
+                    <b>Google Drive API</b><br />
+                    <b>Web browser (Javascript)</b><br />
+                    <b>User data</b><br />
+                    Press <b>What credentials do I need?</b> button.<br />
+                    <a target="_blank" href="Images/clouds/googledrive_cred1.png" onclick="toggleBlock('googledrive_cred1'); return false;" class="imglink">Screenshot</a>
+                    <div id="googledrive_cred1" style="display: none;">
+                        <p class="screenshot">
+                            <img alt="" src="Images/clouds/googledrive_cred1.png" style="width: 791px; height: 761px" />
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    In <b>Authorized JavaScript origins</b> field set your domain of HTTP Commander.<br />
+                    For example: if your opens HTTP Commander site by link <b>http://yourdomain.com/HTCOMNET</b><br />
+                    For <b>Authorized redirect URIs</b> field set empty value.<br />
+                    Press <b>Create client ID</b> button.<br />
+                    <a target="_blank" href="Images/clouds/googledrive_createclientid.png" onclick="toggleBlock('googledrive_createclientid'); return false;" class="imglink">Screenshot</a>
+                    <div id="googledrive_createclientid" style="display: none;">
+                        <p class="screenshot">
+                            <img alt="" src="Images/clouds/googledrive_createclientid.png" style="width: 782px; height: 742px" />
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    Set product name shown to users and press <b>Continue</b> button.<br />
+                    <a target="_blank" href="Images/clouds/googledrive_cs.png" onclick="toggleBlock('googledrive_cs'); return false;" class="imglink">Screenshot</a>
+                    <div id="googledrive_cs" style="display: none;">
+                        <p class="screenshot">
+                            <img alt="" src="Images/clouds/googledrive_cs.png" style="width: 782px; height: 742px" />
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    Copy the value of Client ID.<br />
+                    <a target="_blank" href="Images/clouds/googledrive_clientid.png" onclick="toggleBlock('googledrive_clientid'); return false;" class="imglink">Screenshot</a>
+                    <div id="googledrive_clientid" style="display: none;">
+                        <p class="screenshot">
+                            <img alt="" src="Images/clouds/googledrive_clientid.png" style="width: 860px; height: 660px" />
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </li>
+        <li>Go to <b>Settings</b> tab of HTTP Commander <a href="../AdminPanel.aspx" target="_blank">Admin Panel</a>.
+            If the hidden settings are not visible, then click <b>Show hidden parameters</b> button on toolbar of <b>Settings</b> tab.
+        </li>
+        <li>In the hidden setting <a href="webconfigsetup.html#GoogleClientId">GoogleClientId</a> (section <b>Office</b>)
+            paste the copied value <b>Client ID</b>.
+        </li>
+        <li>For the parameters <a href="webconfigsetup.html#EnableDownloadToGoogle">EnableDownloadToGoogle</a>, 
+            <a href="webconfigsetup.html#EnableUploadFromGoogle">EnableUploadFromGoogle</a> (section <b>UploadDownload</b>) or-and 
+            <a href="webconfigsetup.html#EnableGoogleDriveEditor">EnableGoogleDriveEditor</a> (section <b>Office</b>)
+            set values to <b>true</b>.
+        </li>
+        <li>
+            After setting the values ​​do not forget to save your HTTP Commander settings
+            (<b>Save settings</b> button on the toolbar of <b>Settings</b> tab) and restart the application
+            (<b>Restart application</b> button).
+        </li>
+    </ol>
+    
+    <h2 id="dropbox">Integration with <a href="https://www.dropbox.com/" target="_blank">Dropbox</a></h2>
+
+    <p>Integration with Dropbox allows users of HTTP Commander
+    download and upload your files and folders from the cloud storage Dropbox.<br />
+    To configure this feature, perform the following steps.</p>
+    <ol>
+        <li>Go to the <a href="https://www.dropbox.com/developers/apps" target="_blank">Dropbox App Console</a>.
+            If required, sign in to your Dropbox Account.<br />
+            <a target="_blank" href="Images/clouds/dropbox_apps.png" onClick="toggleBlock('dropbox_apps'); return false;" class="imglink">Screenshot</a>
+            <div id="dropbox_apps" style="display: none;">
+                <p class="screenshot">
+                    <img alt="" src="Images/clouds/dropbox_apps.png" style="width: 1027px; height: 485px" />
+                </p>
+            </div>
+        </li>
+        <li>Then click <b>Create app</b> button and if necessary, perform the verification email.<br />
+        Next, check the following sequence settings:<br />
+        <b>1.&nbsp;Dropbox API</b><br />
+        <b>2.&nbsp;Full Dropbox &mdash; Access to all files and folders in a user's Dropbox.</b><br />
+        2.&nbsp;Then enter the name of the application (for example, <i>HTTPCommander</i>) and click <b>Create app</b> button.<br />
+        <a target="_blank" href="Images/clouds/dropbox_api_app.png" onClick="toggleBlock('dropbox_api_app'); return false;" class="imglink">Screenshot</a>
+            <div id="dropbox_api_app" style="display: none;">
+                <p class="screenshot">
+                    <img alt="" src="Images/clouds/dropbox_api_app.png" style="width: 1028px; height: 889px" />
+                </p>
+            </div>
+        </li>
+        <li>Further, on the Settings page open in <b>OAuth 2</b> section
+            <ul>
+                <li>for the <b>Redirect URIs</b> key specify urls to
+                    <b>default.aspx</b> and <b>scripts/clouds/dropbox-callback.html</b> pages of HTTP Commander in lower register (required).
+                    <br />
+                    For example. If you open HTTP Commander from url <b>http<i>s</i>://yourdomain.com/HTCOMNET</b>, then for <b>Redirect URIs</b>
+                    add <b>https://yourdomain.com/htcomnet/default.aspx</b> and<br />
+                    <b>https://yourdomain.com/htcomnet/scripts/clouds/dropbox-callback.html</b>.
+                    <br />
+                    <b>Note! </b>For <b>Redirect URIs</b> parameter url only on https protocol can be specified,
+                    respectively use of Dropbox opportunities possibly if you open HTTP Commander over SSL
+                    that is signed by a valid certification authority (see FAQ: <a href="faq.html#ssl">How can I use HTTP Commander with SSL?</a>).
+                </li>
+                <li>
+                    For <b>Allow implicit grant</b> choose <b>Allow</b>.
+                </li>
+            </ul>
+            <a target="_blank" href="Images/clouds/dropbox_settings.png" onClick="toggleBlock('dropbox_settings'); return false;" class="imglink">Screenshot</a>
+            <div id="dropbox_settings" style="display: none;">
+                <p class="screenshot">
+                    <img alt="" src="Images/clouds/dropbox_settings.png" style="width: 1033px; height: 984px" />
+                </p>
+            </div>
+        </li>
+        <li>On the <b>Branding</b> tab specify <b>Publisher</b>, <b>Description</b>, <b>App website &amp; icons</b>.<br />
+            This is necessary for production status. <a href="https://www.dropbox.com/developers/reference/branding-guide" target="_blank">Learn more about production status requirements</a>.<br />
+            <a target="_blank" href="Images/clouds/dropbox_details.png" onClick="toggleBlock('dropbox_details'); return false;" class="imglink">Screenshot</a>
+            <div id="dropbox_details" style="display: none;">
+                <p class="screenshot">
+                    <img alt="" src="Images/clouds/dropbox_details.png" style="width: 743px; height: 699px" />
+                </p>
+            </div>
+        </li>
+        <li>Go to <b>Settings</b> tab of HTTP Commander <a href="../AdminPanel.aspx" target="_blank">Admin Panel</a>.
+            If the hidden settings are not visible, then click <b>Show hidden parameters</b> button on toolbar of <b>Settings</b> tab.
+        </li>
+        <li>In the hidden setting <a href="webconfigsetup.html#DropboxConsumerKey">DropboxConsumerKey</a> (section <b>Office</b>)
+            paste the value of <b>App Key</b> from <b>Settings</b> tab on page of created application in Dropbox.
+        </li>
+        <li>For the parameters <a href="webconfigsetup.html#EnableDownloadToDropbox">EnableDownloadToDropbox</a> 
+            or-and <a href="webconfigsetup.html#EnableUploadFromDropbox">EnableUploadFromDropbox</a> (section <b>UploadDownload</b>)
+            set values to <b>true</b>.
+        </li>
+        <li>
+            After setting the values ​​do not forget to save your HTTP Commander settings
+            (<b>Save settings</b> button on the toolbar of <b>Settings</b> tab) and restart the application
+            (<b>Restart application</b> button).
+        </li>
+        <li>Then open your HTTP Commander link, which you added to <b>Redirect URIs</b> application settings Dropbox
+            (for example, <i>https://yourdomain.com/htcomnet/default.aspx</i>), sign in and try to download the file(s)/folder(s)
+            in your Dropbox storage (use that Dropbox account in which you create an application) using the context menu or toolbar:
+            <b>Cloud storages &rarr; download to... &rarr; Dropbox</b>.
+        </li>
+        <li>Next you need to configure user access to his files in Dropbox from HTTP Commander. For this,
+            go to the <b>Settings</b> tab in your application Dropbox (from <a href="https://www.dropbox.com/developers/apps" target="_blank">Dropbox App Console</a>).
+            You have two options:
+            <ul>
+                <li>Use development status. To do this, click <b>Enable additional users</b> button in line <b>Development users</b>.<br />
+                    But in this case the number of users is limited to a 500 users.
+                </li>
+                <li>Use production status. To do this, click <b>Apply for production</b> button in line <b>Status</b>.
+                    Then fill out the form <b>Request production status</b>, specifying the <b>Web</b> as a <b>Platform</b>
+                    and expect to change the status of.<br />
+                    <a target="_blank" href="Images/clouds/dropbox_prod_status.png" onClick="toggleBlock('dropbox_prod_status'); return false;" class="imglink">Screenshot</a>
+                    <div id="dropbox_prod_status" style="display: none;">
+                        <p class="screenshot">
+                            <img alt="" src="Images/clouds/dropbox_prod_status.png" style="width: 991px; height: 587px" />
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </li>
+        <li>
+            If you set <em>true</em> for <a href="webconfigsetup.html#EnableDownloadToDropbox">EnableDownloadToDropbox</a>,
+            then in addition, you can customize how the files will be loaded in different sizes to Dropbox (in whole or in chunk):<br />
+            see parameter <a href="webconfigsetup.html#MaxFileSizeForDownloadToDropboxEntirely">MaxFileSizeForDownloadToDropboxEntirely</a>.
+        </li>
+    </ol>
+
+    <h2 id="onedrive">Integration with <a href="https://onedrive.live.com/about/" target="_blank">Microsoft OneDrive</a></h2>
+
+    <p>Integration with Microsoft OneDrive allows users of HTTP Commander create/edit documents in MS Office Online,
+    download and upload your files and folders from the cloud storage OneDrive.<br />
+    If your organization uses Office365 (OneDrive for Business), refer to <a href="OneDriveForBusiness.html">OneDrive for Business integration</a>.
+    Otherwise, to configure this feature, perform the following steps.</p>
+    <ol>
+        <li>Creating and configuring HTTP Commander application in 
+            <a href="https://apps.dev.microsoft.com/#/appList" target="_blank">Microsoft Application Registration Portal</a>.<br />
+            <ul>
+                <li>To do this, follow the <a target="_blank" href="https://apps.dev.microsoft.com/#/appList">link</a>
+                    and sign in to your account OneDrive.</li>
+                <li>On the opened page, click on the button <b>Add an app</b> in <b>Live SDK application</b> section<br /> 
+                    <a target="_blank" href="Images/clouds/onedrive_appsconsole.png" onclick="toggleBlock('onedrive_appsconsole'); return false;"
+                        class="imglink">Screenshot</a>
+                    <div id="onedrive_appsconsole" style="display: none;">
+                        <p class="screenshot">
+                            &nbsp;<img alt="" src="Images/clouds/onedrive_appsconsole.png" style="width:923px;height:463px;" />
+                        </p>
+                    </div>
+                    <br />
+                    <b>Note!</b> If you already have configured the application, then go to <a href="#onedrive_step2">step 2</a>.
+                </li>
+                <li>Enter the name of application (eg <i>HTTPCommander</i>) and click <b>Create application</b> button.<br />
+                    <a target="_blank" href="Images/clouds/onedrive_appname.png" onclick="toggleBlock('onedrive_appname'); return false;"
+                        class="imglink">Screenshot</a>
+                    <div id="onedrive_appname" style="display: none;">
+                        <p class="screenshot">
+                            &nbsp;<img alt="" src="Images/clouds/onedrive_appname.png" style="width:923px;height:463px;" />
+                        </p>
+                    </div>
+                </li>
+                <li>You will then see a page with properties of the created application.<br />
+                    <a target="_blank" href="Images/clouds/onedrive_appbasicinfo.png" onclick="toggleBlock('onedrive_appbasicinfo'); return false;"
+                        class="imglink">Screenshot</a>
+                    <div id="onedrive_appbasicinfo" style="display: none;">
+                        <p class="screenshot">
+                            &nbsp;<img alt="" src="Images/clouds/onedrive_appbasicinfo.png" style="width:748px;height:960px;" />
+                        </p>
+                    </div>
+                </li>
+                <li id="redirurl">Next, in the <b>Platform</b> section for the <b>Web</b> platform (add <b>Web</b> platform if not exist)
+                    enter the value <i>yourdomain.com</i> for <b>Target Domain</b> field and <i>https://yourdomain.com/HTCOMNET<b>/scripts/clouds/onedrive-callback.html</b></i> 
+                    for <b>Redirect URLs</b> field, where <i>https://yourdomain.com/HTCOMNET</i>&nbsp;&mdash; your url to run HTTP Commander.
+                    Click <b>Save</b> button.
+                    <br />
+                    <a target="_blank" href="Images/clouds/onedrive_redirecturl.png" onclick="toggleBlock('onedrive_redirecturl'); return false;"
+                        class="imglink">Screenshot</a>
+                    <div id="onedrive_redirecturl" style="display: none;">
+                        <p class="screenshot">
+                            &nbsp;<img alt="" src="Images/clouds/onedrive_redirecturl.png" style="width:699px;height:622px;" />
+                        </p>
+                    </div>
+                </li>
+            </ul>
+            <br />
+            Also see: <a href="https://msdn.microsoft.com/EN-US/library/office/dn659750.aspx" target="_blank">Signing users in with REST</a>.
+        </li>
+        <li id="onedrive_step2">Configuring the HTTP Commander.
+            <ul>
+                <li>Go to <a href="https://apps.dev.microsoft.com/#/appList" target="_blank">Microsoft Application Registration Portal</a>. 
+                    If you are not already logged in to your OneDrive account, log in.
+                    Choose your the HTTP Commander application in Live SDK applications section (existing or newly created in the previous step).
+                </li>
+                <li>
+                    Copy the value of <b>Application Id</b> (for example <i>000000004418C328</i>).
+                    <br />
+                    <a target="_blank" href="Images/clouds/onedrive_appkeys.png" onclick="toggleBlock('onedrive_appkeys'); return false;"
+                        class="imglink">Screenshot</a>
+                    <div id="onedrive_appkeys" style="display: none;">
+                        <p class="screenshot">
+                            &nbsp;<img alt="" src="Images/clouds/onedrive_appkeys.png" style="width:699px;height:622px;" />
+                        </p>
+                    </div>
+                </li>
+                <li>Go to <b>Settings</b> tab of HTTP Commander <a href="../AdminPanel.aspx" target="_blank">Admin Panel</a>.
+                    If the hidden settings are not visible, then click <b>Show hidden parameters</b> button on toolbar of <b>Settings</b> tab.
+                </li>
+                <li>In the hidden setting <a href="webconfigsetup.html#LiveConnectAppClientID">LiveConnectAppClientID</a> (section <b>Office</b>)
+                    paste the copied value <b>Client ID</b>.
+                </li>
+                <li>For the parameters <a href="webconfigsetup.html#EnableDownloadToSkyDrive">EnableDownloadToSkyDrive</a>,
+                    <a href="webconfigsetup.html#EnableUploadFromSkyDrive">EnableUploadFromSkyDrive</a> (section <b>UploadDownload</b>)
+                    or-and <a href="webconfigsetup.html#EnableMsOfficeOnlineEditor">EnableMsOfficeOnlineEditor</a> (seciton <b>Office</b>)
+                    set values to <b>true</b>.
+                </li>
+                <li>
+                    After setting the values ​​do not forget to save your HTTP Commander settings
+                    (<b>Save settings</b> button on the toolbar of <b>Settings</b> tab) and restart the application
+                    (<b>Restart application</b> button).
+                </li>
+            </ul>
+        </li>
+    </ol>
+
+    <br />
+
+    <b>Note.</b> If in case of log in you receive an error:<br />
+    <b>We're unable to complete your request</b><br />
+    <a target="_blank" href="Images/clouds/onedrive_badredirecturl.png" onclick="toggleBlock('onedrive_badredirecturl'); return false;"
+       class="imglink">Screenshot</a>
+    <div id="onedrive_badredirecturl" style="display: none;">
+        <p class="screenshot">
+            &nbsp;<img alt="" src="Images/clouds/onedrive_badredirecturl.png" style="width:541px;height:591px;" />
+        </p>
+    </div><br />
+    that need to be checked (and to set if not exists) <b>Redirect URIs</b> property. See <a href="#redirurl">Redirect URIs</a> article.
+
+
+    <!-- Info not presented, becouse used Element-IT Box application 
+    <h2 id="box">Integration with Box</h2>
+
+    <p></p>-->
+
+    <br />
+
+</body>
+</html>

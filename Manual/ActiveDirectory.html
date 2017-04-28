@@ -1,0 +1,236 @@
+﻿<!-- saved from url=(0014)about:internet -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Active Directory integration (Windows version)</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <script type="text/javascript" language="javascript">
+        function toggleBlock(id) {
+            if (document.getElementById(id).style.display == 'none') {
+                document.getElementById(id).style.display = 'block';
+            } else {
+                document.getElementById(id).style.display = 'none';
+            }
+        }
+    </script>
+    
+    <table width="100%" cellpadding="0" cellspacing="0">
+        <tr>
+            <td width="320">
+                <table>
+                    <tr>
+                        <td style="vertical-align:top;text-align:left;">
+                            <a target='_blank' href='http://www.element-it.com/asp-net-explorer-browser/online-share/web-file-manager.aspx'><img style='cursor:pointer;' alt="HTTP Commander" src="Images/HCLogo.png" border="0" /></a>
+                        </td>
+                        <td class="green" style="vertical-align:top;text-align:left;padding-top:21px;">
+                            &nbsp;AJS 4.x
+                        </td>
+                    </tr>
+                </table>
+                <span class="gray">Manual</span>
+            </td>
+            <td>
+  <!-- For windows version only. Start --> 
+	<p>
+	<strong>Note!</strong> This Manual is for the <strong>"Windows authentication"</strong> version, 
+	which is designed to work with existing Windows server or Active Directory accounts and Windows authentication. 
+	If you want to create accounts by yourself and store their credentials in your own HTTP Commander XML database, 
+	you need to download the <a target="_blank" href="http://www.element-it.com/downloadfile.aspx?type=st">"Forms authentication" version</a>!
+	This Manual is for the Windows authentication version only!
+	</p>
+	<!-- For windows version only. End --> 
+	
+ 
+	
+                
+            </td>
+            <td align="char" width="230">
+                <img alt="" src="Images/world.jpg" align="middle" hspace="5" style="vertical-align:top;padding-top:1px;" /><b><a target="_blank" title="web file manager" href="http://www.element-it.com/asp-net-explorer-browser/online-share/web-file-manager.aspx">Web file manager</a></b><br />
+                <img alt="" src="Images/support.png" width="16" height="16" align="middle" hspace="5" style="vertical-align:top;padding-top:1px;" /><b><a
+                    href="onlinesupport.html" target="main">Free Installation assistance</a></b><br />
+                <img alt="" src="Images/help.png" align="middle" width="16" height="16" hspace="5" style="vertical-align:top;padding-top:1px;" /><b><a
+                    href="index.html" title="Manual Home page" target="_blank">Manual Home page</a></b><br />
+            </td>
+        </tr>
+    </table>
+    
+    <!-- Title -->
+    <p class="topic">
+        <a id="hcadsicomtopic">Active Directory integration</a>
+    </p>
+    
+<p>This article describes details of HTTP Commander integration with Active Directory.
+It covers the following topics:
+</p>
+
+<ul>
+<li>How to configure the server machine, IIS, and HTTP Commander to work with windows authentication?</li>
+<li>How to authenticate to HTTP Commander using windows accounts?</li>
+<li>How to authenticate to HTTP Commander using accounts from different domains, SAM accounts of the server machine?</li>
+<li>How to assign virtual folders to users and groups?</li>
+<!-- li>How to get a list of users and groups, a list of groups the user is member.</li-->
+</ul>
+
+<p>HTTP Commander supports two authentication modes that deal with windows accounts: 
+"Windows" and "Forms with Windows users". In both modes you use windows accounts
+to authenticate to HTTP Commander. The application impersonates the logged in
+user and processes all requests on behalf of the user.
+The two modes differ in the mechanism of how the authentication is performed.
+In "Windows" mode, authentication is handled by IIS. Underlying authentication 
+is either Windows integrated or Basic. The user enters their credentials in a special dialog provided by the web browser.
+In "Forms with Windows users" mode, authentication is handled by HTTP Commander application.
+The user enters their credentials in a web form that is identical to the form in "Forms" authentication mode.
+The only difference in the "Forms" mode, from user's point of view, is that he/she uses windows accounts
+for authentication instead of custom application accounts.</p>
+
+<p>To authenticate to HTTP Commander, the account in question must be enabled,
+it should not be locked due to a large number of invalid login attempts.
+The account must have "logon over Network" account right enabled on the web server machine.</p>
+
+<p>When HTTP Commander is installed on a standalone server that is not joined to a domain,
+you may use only SAM accounts of the server machine for authentication.
+When the web server machine is joined to domain, you may use either SAM accounts or
+domain accounts for authentication. In the case of several trusted domains, 
+you may use all of them for authentication.</p>
+
+<p>To specify an account in particular domain, use a pre-Windows 2000 account name
+like "DomainName\UserName" or a user principal name like "UserName@DomainName"
+instead of an isolated name like "UserName". Replace "DomainName" with "MachineName"
+for SAM accounts.
+</p>
+
+<p>In the "Forms with Windows users" authentication mode, you may modify the account name before it's
+passed to HTTP Commander authentication engine, see <b>btnLogin_Click</b> function in <b>Default.aspx</b>.
+For example, you may prepend default domain name to user name if the user did not specify one.
+</p>
+
+<p>In "Windows" authentication mode with Basic authentication, you may configure 
+the default domain in IIS.</p>
+
+<p>Virtual folders may be assigned to windows users and groups.
+HTTP Commander utilizes pre-Windows 2000 names of users and groups in the access control list.
+All user and group names are converted to pre-Windows 2000 name format internally,
+security identifiers are detected.
+Names that cannot be resolved are not discarded but saved as is, they may be resolved later.
+This feature allows you to specify users and groups in HTTP Commander before 
+they are physically created in the Active Directory or SAM database.
+HTTP Commander distinguishes users having the same isolated name
+but originated from different domains.
+</p>
+
+<p>The Admin panel that you normally use to configure virtual folders
+provides a dropdown list of users and groups to help you select one.
+Note that these lists contain only users and groups of the current domain,
+that is, the domain of the user logged into HTTP Commander 
+(or SAM users and groups if you've logged into HTTP Commander with a SAM account).
+HTTP Commander does not restrict your choice to users and groups from the list. 
+You may enter any name in the text field, even a name of a not yet existing user or group
+that you'll create later.
+</p>
+
+<h2>Account names</h2>
+
+<p>HTTP Commander supports two formats of domain account names: pre-Windows 2000 name and @-name (user principal name).
+</p>
+
+<p>
+In a pre-Windows 2000 name, the domain name is separated from the user or group name with a backslash character.
+The domain name comes first, and the user or group name terminates the name.
+For example, Contoso\john, or Contoso\Users. General form: Domain\User, Domain\Group.
+The domain part may be either NetBIOS domain name or Fully Qualified Domain Name of domain.
+The user name part of the user name may contain either a simple user name
+(the first part of user principal name before the @ sign) or a SAM account name 
+(stored in sAMAccountName attribute of the user object in Active Directory).
+The group name part of group name may contain either a simple group name 
+(stored in name attribute of the group object in Active Directory)
+or a SAM account name (stored in sAMAccountName attribute of the group object in Active Directory).
+</p>
+
+<p>
+In @-name, the domain is separated from user or group name with the @ character.
+The user or group name comes first, and the domain name terminates the name.
+The @-name of the user is named user principal name, it is stored in userPrincipalName attribute
+of the user object in Active Directory. For example, john@contoso.com.
+The domain part of the user principal name is normally the Fully Qualified Domain Name of the domain, 
+but, generally speaking, it may be an arbitrary string.
+The @-name of the group is supported for symmetry with a user principal name, 
+it does not have a special name and it is not stored in Active Directory's group object as separate attribute.
+For example, users@contoso.com.
+The group name part of the group name may contain either simple group name 
+(stored in name attribute of the group object in Active Directory)
+or SAM account name (stored in sAMAccountName attribute of the group object in Active Directory).
+The domain part may be either NetBIOS domain name or Fully Qualified Domain Name of domain.
+</p>
+
+<p>
+Domain users and groups may be also specified with unqualified names, that is a name without the domain part.
+For example, john, users.
+In this case <a href="webconfigsetup.html#DefaultDomain">DefaultDomain</a> parameter applies.
+If specified, <a href="webconfigsetup.html#DefaultDomain">DefaultDomain</a> is appended to the unqualified name
+before resolution attempt.
+</p>
+
+<p>The simple user name is usually identical to the SAM user account name.
+In the same way, the simple group name is usually identical to SAM group account name.
+The SAM account name has stricter rules on the set of allowed characters and length than a simple name,
+therefore a simple name is different from SAM account name if the former contains some characters
+not allowed in the SAM account name or has an inappropriate length.
+A SAM account name may also differ from a simple name if it is specified as such by the administrator.
+The simple name and the SAM account name may be changed independently.
+</p>
+
+<p>
+In other words, the following domain account names are allowed:
+</p>
+
+<ul>
+<li>FQDNDomain\UserName</li>
+<li>FQDNDomain\SAMAccountUserName</li>
+<li>NetBiosDomain\UserName</li>
+<li>NetBiosDomain\SAMAccountUserName - classic pre-Windows 2000 user name</li>
+<li>UserName@FQDNDomain - classic user principal name</li>
+<li>UserName@SecondPart - custom user principal name</li>
+<li>SAMAccountUserName@FQDNDomain</li>
+<li>UserName@NetBiosDomain</li>
+<li>SAMAccountUserName@NetBiosDomain</li>
+<li>UserName</li>
+<li>SAMAccountUserName</li>
+
+<li>FQDNDomain\GroupName</li>
+<li>FQDNDomain\SAMAccountGroupName</li>
+<li>NetBiosDomain\GroupName - classic pre-Windows 2000 group name</li>
+<li>NetBiosDomain\SAMAccountGroupName</li>
+<li>GroupName@FQDNDomain</li>
+<li>SAMAccountGroupName@FQDNDomain</li>
+<li>GroupName@NetBiosDomain</li>
+<li>SAMAccountGroupName@NetBiosDomain</li>
+<li>GroupName</li>
+<li>SAMAccountGroupName</li>
+</ul>
+
+<p>HTTP Commander supports one format of SAM account names: pre-Windows 2000 name.
+The first part of the name must be NetBIOS name of the machine containing the SAM database,
+the second part of the name is the SAM account name of the user or group.
+You may also specify the SAM account name without the machine name,
+in this case the <a href="webconfigsetup.html#DefaultDomain">DefaultDomain</a> parameter applies.
+If specified, the <a href="webconfigsetup.html#DefaultDomain">DefaultDomain</a> is appended to the unqualified name
+before resolution attempt.
+</p>
+
+<p>
+In other words, the following names are allowed:
+</p>
+
+<ul>
+<li>NetBiosMachine\SAMAccountUserName</li>
+<li>NetBiosMachine\SAMAccountGroupName</li>
+<li>SAMAccountUserName</li>
+<li>SAMAccountGroupName</li>
+</ul>
+
+</body>
+</html>
+

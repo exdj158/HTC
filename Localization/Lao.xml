@@ -1,0 +1,1608 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Localization>
+  <!-- Common keys -->
+  
+  <ExtMsgButtonTextYES>Yes</ExtMsgButtonTextYES>
+  <ExtMsgButtonTextNO>ບໍ່ມີ</ExtMsgButtonTextNO>
+  
+  <ControlHideFileManager>ເຊື່ອງຜູ້ຈັດການໄຟລ໌ອັນ</ControlHideFileManager>
+  
+  <CommonMainTitle>ການເຂົ້າເຖິງໄຟລ໌ Web</CommonMainTitle>
+  <CommonApplicationLoading>ການໂຫຼດຂອງການເຂົ້າເຖິງໄຟລ໌ອັນ</CommonApplicationLoading>
+  <CommonLoadError>ມີຂໍ້ຜິດພາດເກີດຂຶ້ນໃນລະຫວ່າງການໄດ້ຮັບຂໍ້ມູນເປັນໄມ້ຢືນຕົ້ນ</CommonLoadError>
+  <CommonGridAccessDenied>ໂຟນເດີ "{0}" ບໍ່ມີຫຼືການເຂົ້າເຖິງຈະອ່ານໄດ້ຖືກປະຕິເສດ</CommonGridAccessDenied>
+  <CommonNoScript>ຫນ້ານີ້ຕ້ອງການ JavaScript ເພື່ອໄດ້ຮັບການເປີດໃຫ້ໃຊ້ງານໃນຕົວທ່ອງເວັບຂອງທ່ານ! ກະລຸນາເຮັດໃຫ້ສາມາດແລະເຂົ້າສູ່ລະບົບອີກເທື່ອຫນຶ່ງ!</CommonNoScript>
+  <CommonErrorCaption>Error</CommonErrorCaption>
+  <CommonWarningCaption>ການເຕືອນໄພ</CommonWarningCaption>
+  <CommonInfoCaption>ຂໍ້ມູນຂ່າວສານ</CommonInfoCaption>
+  <CommonConfirmCaption>ຢືນຢັນ</CommonConfirmCaption>
+  <CommonFileNameCaption>ຊື່​ເອ​ກະ​ສານ</CommonFileNameCaption>
+  <CommonFileNamePrompt>ກະລຸນາໃສ່ຊື່ເອກະສານໃຫມ່</CommonFileNamePrompt>
+  <CommonFileNewNameValue>ຂໍ້ຄວາມໃຫມ່ Document.txt</CommonFileNewNameValue>
+  <CommonFolderNewNameValue>ໂຟນເດີໃຫມ່</CommonFolderNewNameValue>
+  <CommonZipFileNameCaption>ຊື່ເກັບໄປສະນີ</CommonZipFileNameCaption>
+  <CommonZipFileNamePrompt>ຊື່ໄຟລ໌ (ນາມສະກຸນຈະໄດ້ຮັບການເພີ່ມອັດຕະໂນມັດ)</CommonZipFileNamePrompt>
+  <CommonFolderNameCaption>ຊື່ໂຟເດີ</CommonFolderNameCaption>
+  <CommonFolderNamePrompt>ກະລຸນາໃສ່ຊື່ໂຟເດີໃຫມ່</CommonFolderNamePrompt>
+  <CommonDeleteOnePrompt>ທ່ານແນ່ໃຈວ່າທ່ານຕ້ອງການທີ່ຈະລົບ "{0}"?</CommonDeleteOnePrompt>
+  <CommonDeleteManyPrompt>ທ່ານແນ່ໃຈວ່າທ່ານຕ້ອງການທີ່ຈະລົບເຫຼົ່ານີ້ {0} ລາຍການ?</CommonDeleteManyPrompt>
+  <CommonForToday>ສໍາ​ລັບ​ມື້​ນີ້</CommonForToday>
+  <CommonButtonCaptionOK>ຕົກ​ລົງ</CommonButtonCaptionOK>
+  <CommonButtonCaptionCancel>ຍົກເລີກການ</CommonButtonCaptionCancel>
+  <CommonButtonCaptionClose>ປິດ</CommonButtonCaptionClose>
+  <CommonButtonCaptionAdd>ຕື່ມ</CommonButtonCaptionAdd>
+  <CommonButtonCaptionContinue>ສືບຕໍ່ການ</CommonButtonCaptionContinue>
+
+  <CommonProgressPleaseWait>ກະ​ລຸ​ນາ​ລໍ​ຖ້າ</CommonProgressPleaseWait>
+  
+  <CommonFieldLabelName>ຊື່</CommonFieldLabelName>
+  <CommonFieldLabelPath>ເສັ້ນທາງກ້າວສູ່</CommonFieldLabelPath>
+  <CommonFieldLabelSize>ຂະຫນາດ</CommonFieldLabelSize>
+  <CommonFieldLabelLabels>Labels</CommonFieldLabelLabels>
+  <CommonFieldLabelType>ປະເພດ</CommonFieldLabelType>
+  <CommonFieldLabelAction>ການປະຕິບັດ</CommonFieldLabelAction>
+  <CommonFieldLabelDate>ວັນທີ່ສະຫມັກ</CommonFieldLabelDate>
+  <CommonFieldLabelDateTime>ວັນທີ່ແລະເວລາ</CommonFieldLabelDateTime>
+  <CommonFieldLabelDateCreated>ວັນທີ່ສ້າງ</CommonFieldLabelDateCreated>
+  <CommonFieldLabelDateModified>ວັນທີດັດແກ້</CommonFieldLabelDateModified>
+  <CommonFieldLabelDateAccessed>ວັນທີ່ສະຫມັກເຂົ້າ</CommonFieldLabelDateAccessed>
+  <CommonFieldLabelValue>ມູນຄ່າ</CommonFieldLabelValue>
+  <CommonFieldLabelUserName>ຊື່ຜູ້ໃຊ້</CommonFieldLabelUserName>
+  <CommonFieldLabelUser>ຜູ້ໃຊ້</CommonFieldLabelUser>
+  <CommonFieldLabelUsers>ຜູ້ຊົມໃຊ້</CommonFieldLabelUsers>
+  <CommonFieldLabelGroupName>ຊື່ກຸ່ມ</CommonFieldLabelGroupName>
+  <CommonFieldLabelGroup>ກຸ່ມ</CommonFieldLabelGroup>
+  <CommonFieldLabelGroups>ກຸ່ມ</CommonFieldLabelGroups>
+  <CommonFieldLabelPassword>ລະຫັດຜ່ານ</CommonFieldLabelPassword>
+  <CommonFieldLabelRepeatPassword>ລະຫັດຜ່ານ</CommonFieldLabelRepeatPassword>
+  <CommonFieldLabelComments>ຄວາມຄິດເຫັນ</CommonFieldLabelComments>
+  <CommonValueTypeFolder>ໂຟນເດີ</CommonValueTypeFolder>
+
+  <CommonFieldLabelDescription>ລາຍລະອຽດ</CommonFieldLabelDescription>
+  <EmptyDescriptionText>ການລະບຸຄໍາອະທິບາຍ</EmptyDescriptionText>
+  <CommonFieldLabelReadMeTxt>ເນື້ອໃນ Readme.txt</CommonFieldLabelReadMeTxt>
+  
+  <CommonWordOr>ຫຼື</CommonWordOr>
+
+  <SortAscText>Sort Ascending</SortAscText>
+  <SortDescText>ຫລາຍໄປຫານ້ອຍ</SortDescText>
+
+  <CommonNewDocument>ເອກະສານໃຫມ່</CommonNewDocument>
+  <CommonNewSpreadsheet>ລາງໃຫມ່</CommonNewSpreadsheet>
+  <CommonNewPresentation>ການນໍາສະເຫນີໃຫມ່</CommonNewPresentation>
+
+  <CommonWordWrap>ຫໍ່ Word</CommonWordWrap>
+  
+  <!-- End Common keys -->
+
+  <!-- Labels -->
+
+  <LabelsTitle>Label</LabelsTitle>
+  <LabelsNoLabel>ບໍ່ມີປ້າຍ</LabelsNoLabel>
+  <LabelsColor>ສີ</LabelsColor>
+  <LabelsCustomLabel>ຊື່ຕາມຕ້ອງການ</LabelsCustomLabel>
+  <LabelsCustomLabelHint>ກະລຸນາໃສ່ຂໍ້ຄວາມປ້າຍຂອງ</LabelsCustomLabelHint>
+  <LabelsCustomLabelView>Label &amp;nbsp; view: &amp;nbsp; {0} {1} {2}</LabelsCustomLabelView>
+  <LabelsFileLabelledMessage>ການຕິດສະຫຼາກສົບຜົນສໍາເລັດ {0} ລາຍການ (s)</LabelsFileLabelledMessage>
+  <LabelsRemovedMessage>ການໂຍກຍ້າຍອອກຢ່າງສໍາເລັດຜົນ {0} ປ້າຍ (s)</LabelsRemovedMessage>
+  <LabelsNotRemovedMessages>ບໍ່ໄດ້ອອກ: {0}</LabelsNotRemovedMessages>
+  <LabelsNotLabelledMessage>ບໍ່ຕິດສະຫຼາກ: {0}</LabelsNotLabelledMessage>
+  <LabelsLabelRemovedMessage>ປ້າຍໂຍກຍ້າຍອອກຢ່າງສໍາເລັດຜົນ</LabelsLabelRemovedMessage>
+  <LabelsNewLabel>Label ໃຫມ່</LabelsNewLabel>
+  <LabelsLabellingMessage>ການຕິດສະຫລາກ</LabelsLabellingMessage>
+  <LabelsRemovingLabelMessage>ຖອນປ້າຍ</LabelsRemovingLabelMessage>
+  <LabelsLabelInfoTip>ຫມາຍເປັນ '{0} {1} ໂດຍຜູ້ໃຊ້ {2}'</LabelsLabelInfoTip>
+
+  <!-- End Labels -->
+
+  <!-- Comments -->
+
+  <CommentsCountInfoTip>{0} comment (s)</CommentsCountInfoTip>
+  <CommentsWriteCommentHint>ສະແດງຄວາມຄິດແລະຫນັງສືພິມ '{0}' ຫຼື Ctrl+ກະລຸນາໃສ່ຫຼື Shift+ກະລຸນາໃສ່ ...</CommentsWriteCommentHint>
+
+  <!-- End Comments -->
+
+  <RefreshPageWarningMessage>&lt;b&gt; ເອົາໃຈໃສ່! &lt;/b&gt; ເພື່ອໃຫ້ສໍາເລັດການດໍາເນີນງານນີ້, ຫນ້າໃນປະຈຸບັນຂອງຕົວທ່ອງເວັບຈະຕ້ອງໂຫຼດຫນ້າຈໍຄືນ. &lt;br /&gt; ທ່ານຕ້ອງການໂຫຼດຫນ້າຈໍຄືນໃນປັດຈຸບັນ?</RefreshPageWarningMessage>
+
+  <PagingToolbarBeforePageText>ຫນ້າ</PagingToolbarBeforePageText>
+  <PagingToolbarAfterPageText>ຂອງ {0}</PagingToolbarAfterPageText>
+  <PagingToolbarFirstText>ຫນ້າທໍາອິດ</PagingToolbarFirstText>
+  <PagingToolbarPrevText>ຫນ້າທີ່ຜ່ານມາ</PagingToolbarPrevText>
+  <PagingToolbarNextText>ຫນ້າຕໍ່ໄປ</PagingToolbarNextText>
+  <PagingToolbarLastText>ຫນ້າສຸດທ້າຍ</PagingToolbarLastText>
+  <PagingToolbarDisplayMsg>ສະແດງ {0} - {1} ຂອງ {2}</PagingToolbarDisplayMsg>
+  <PagingToolbarEmptyMsg>ບໍ່ມີຂໍ້ມູນທີ່ຈະສະແດງ</PagingToolbarEmptyMsg>
+  
+  <GridTotalLabel>ຈໍານວນທັງຫມົດ:</GridTotalLabel>
+  <GridTotalFilesLabel>ໄຟ</GridTotalFilesLabel>
+  <GridTotalFoldersLabel>ໂຟເດີ</GridTotalFoldersLabel>
+  
+  <GridDDSelectedRowsText>{0} ຕິດຕໍ່ກັນຄັດເລືອກ {1}</GridDDSelectedRowsText>
+  <GridDDSelectedFilesText>{0} ເລືອກໄຟລ໌</GridDDSelectedFilesText>
+  <GridDDSelectedFoldersText>{0} ໂຟເດີທີ່ເລືອກ</GridDDSelectedFoldersText>
+  <GridDDConfirmCopyMoveTitle>ລົງໂຟເດີ "{0}"</GridDDConfirmCopyMoveTitle>
+  <GridDDConfirmAddToZipTitle>ຕື່ມການກັບຫັດໄປສະນີ "{0}"</GridDDConfirmAddToZipTitle>
+  <GridDDConfirmAddToZipMessage>ໄຟ dragged ຈະໄດ້ຮັບການເພີ່ມເກັບໄປສະນີນີ້. ເຮັດແນວໃດທ່ານຕ້ອງການທີ່ຈະສືບຕໍ່? {0}.</GridDDConfirmAddToZipMessage>
+  <GridDDConfirmCopyMoveMsg>ເລືອກປະຕິບັດທີ່ທ່ານຕ້ອງການທີ່ຈະສະຫມັກ. ແຫຼ່ງຂໍ້ມູນ: "{0}" ໂຟເດີຈຸດຫມາຍປາຍທາງ: "{1}" {2} {3}..</GridDDConfirmCopyMoveMsg>
+  <GridDDConfirmCopyMoveToZipMsg>ໄຟລ໌ຈະໄດ້ຮັບການເພີ່ມໃຫ້ຮວບຮວມຫັດໄປສະນີ. ເລືອກປະຕິບັດທີ່ທ່ານຕ້ອງການທີ່ຈະສະຫມັກຂໍເອົາກັບໄຟ dragged ໄດ້ຫຼັງຈາກທີ່ເພີ່ມໄຟລ໌ທີ່ຈະເກັບໄປສະນີໄດ້. ແຫຼ່ງຂໍ້ມູນ: "{0}", ເກັບໄປສະນີຈຸດຫມາຍປາຍທາງ: "{1}" {2} {3}..</GridDDConfirmCopyMoveToZipMsg>
+  <GridDDDraggedFileNames>&lt;b&gt; ໄຟລ໌ Dragged: &lt;/b&gt; {0}</GridDDDraggedFileNames>
+  <GridDDDraggedFolderNames>&lt;b&gt; ໂຟເດີ Dragged: &lt;/b&gt; {0}</GridDDDraggedFolderNames>
+  <GridDDConfirmTargetFolderOnlyCopyMsg>ການອະນຸຍາດໃນປະຈຸບັນສໍາລັບໂຟນເດີທີ່ມາອະນຸຍາດໃຫ້ທ່ານສາມາດສໍາເນົາພຽງແຕ່ລາກໄຟລ໌. ເຮັດແນວໃດທ່ານຕ້ອງການທີ່ຈະສືບຕໍ່? {0}.</GridDDConfirmTargetFolderOnlyCopyMsg>
+  <GridDDConfirmTargetFolderOnlyMoveMsg>ການອະນຸຍາດໃນປະຈຸບັນສໍາລັບໂຟນເດີທີ່ມາອະນຸຍາດໃຫ້ທ່ານທີ່ຈະຍ້າຍອອກພຽງແຕ່ລາກໄຟລ໌. ເຮັດແນວໃດທ່ານຕ້ອງການທີ່ຈະສືບຕໍ່? {0}.</GridDDConfirmTargetFolderOnlyMoveMsg>
+
+  <GridRowPublicHint>ກົດເພື່ອເປີດການເຊື່ອມຕໍ່ສາທາລະນະຢູ່ໃນປ່ອງຢ້ຽມໃຫມ່ / ແທັບ</GridRowPublicHint>
+  <GridRowAlertHint>ກົດເພື່ອເບິ່ງການປ່ຽນແປງເຮັດສໍາລັບເອກະສານນີ້ / ໂຟນເດີ</GridRowAlertHint>
+  <GridRowRecentHint>ຄົ້ນຫາເອກະສານນີ້ / ໂຟນເດີ</GridRowRecentHint>
+  <GridRowAlertEventHint>ຄິກເພື່ອໄປສະຖານທີ່ນີ້</GridRowAlertEventHint>
+
+  <ProgressCreating>ການສ້າງ</ProgressCreating>
+  <ProgressDeleting>ລຶບ</ProgressDeleting>
+  <ProgressLoading>ກໍາລັງໂຫລດ</ProgressLoading>
+  <ProgressSearching>ການຄົ້ນຫາ</ProgressSearching>
+  <ProgressZipping>ການບີບອັດ</ProgressZipping>
+  <ProgressUnzipping>ການເປີດອອກ</ProgressUnzipping>
+  <ProgressZipContents>ໄດ້ຮັບເນື້ອໃນການຮວບຮວມຫັດໄປສະນີຂອງ</ProgressZipContents>
+  <ProgressPrepareDownload>ການກະກຽມສໍາລັບການດາວໂຫລດ</ProgressPrepareDownload>
+  <ProgressMoving>ຄວາມຄືບຫນ້າ</ProgressMoving>
+  <ProgressCopying>ການສໍາເນົາ</ProgressCopying>
+  <ProgressRenaming>ການປ່ຽນຊື່</ProgressRenaming>
+  <ProgressUpdating>ການປັບປຸງ</ProgressUpdating>
+  <ProgressLoadingEditInPixlr>Loading ບັນນາທິການ Pixlr</ProgressLoadingEditInPixlr>
+  <ProgressLoadingEdit>ບັນນາທິການກໍາລັງໂຫລດ</ProgressLoadingEdit>
+  <ProgressSavingEdit>ຝາກປະຢັດຂອງເອກະສານ</ProgressSavingEdit>
+  <ProgressSaving>ຝາກປະຢັດ</ProgressSaving>
+  <ProgressExecuting>ການປະຕິບັດ</ProgressExecuting>
+
+  <BalloonFilesDeleted>{0} file (s) ລົບ</BalloonFilesDeleted>
+  <BalloonFoldersDeleted>{0} ໂຟເດີ (s) ລົບ</BalloonFoldersDeleted>
+  <BalloonFilesFailed>{0} file (s) ສົບຜົນສໍາເລັດ</BalloonFilesFailed>
+  <BalloonFoldersFailed>{0} ໂຟເດີ (s) ສົບຜົນສໍາເລັດ</BalloonFoldersFailed>
+  <BalloonFilesZipped>{0} file (s) ແປ</BalloonFilesZipped>
+  <BalloonFoldersZipped>{0} ໂຟເດີ (s) ແປ</BalloonFoldersZipped>
+  <BalloonFilesCopied>{0} file (s) ຄັດລອກ</BalloonFilesCopied>
+  <BalloonFoldersCopied>{0} ໂຟເດີ (s) ຄັດລອກ</BalloonFoldersCopied>
+  <BalloonFilesMoved>{0} file (s) ໄດ້ຍ້າຍ</BalloonFilesMoved>
+  <BalloonFoldersMoved>{0} ໂຟເດີ (s) ໄດ້ຍ້າຍ</BalloonFoldersMoved>
+  <BalloonNotUnzipped>{0} file (s) ບໍ່ໄດ້ຮັບການ unpacked</BalloonNotUnzipped>
+  <BalloonFilesUploaded>{0} file (s) ທີ່ອັບໂຫລດ</BalloonFilesUploaded>
+  <BalloonFilesNotUploaded>{0} file (s) ບໍ່ໄດ້ອັບໂຫລດ</BalloonFilesNotUploaded>
+  <BalloonSomeFilesNotUploaded>ໄຟລ໌ບາງຄົນທີ່ບໍ່ສາມາດອັບໂຫລດ</BalloonSomeFilesNotUploaded>
+  <BalloonCreatedSuccessfully>ຂຽນເມື່ອປະສົບຜົນສໍາເລັດ</BalloonCreatedSuccessfully>
+  <BalloonUnzippedSuccessfully>unpacked ສົບຜົນສໍາເລັດ</BalloonUnzippedSuccessfully>
+  <BalloonRenamedSuccessfully>ປ່ຽນຊື່ສົບຜົນສໍາເລັດ</BalloonRenamedSuccessfully>
+  <BalloonSavedSuccessfully>ບັນທຶກຮຽບຮ້ອຍ</BalloonSavedSuccessfully>
+  <BalloonCopiedToClipboard>ຄັດລອກໄປທີ່ clipboard</BalloonCopiedToClipboard>
+  <BalloonCopyToClipboardFailed>ສໍາເນົາເພື່ອ clipboard ສົບຜົນສໍາເລັດ</BalloonCopyToClipboardFailed>
+
+  <CommandCopyToClipboard>ສໍາເນົາເພື່ອ clipboard</CommandCopyToClipboard>
+  <CommandCopyLinkToClipboard>ສໍາເນົາການເຊື່ອມຕໍ່ໄປຍັງຄລິບບອດ</CommandCopyLinkToClipboard>
+  <ClipboardScreenshotTitlePrefix>ຮູບພາບ</ClipboardScreenshotTitlePrefix>
+  <ClipboardScreenshotHint>ຮູບພາບ: ທ່ານສາມາດວາງ screenshot ຈາກ clipboard ຂອງທ່ານ (Press &lt;b&gt; Ctrl+PrtSc &lt;/b&gt; ແລະຫຼັງຈາກນັ້ນ &lt;b&gt; Ctrl+V &lt;/b&gt;) ຫຼືຮູບພາບຈາກບັນນາທິການຂອງທ່ານ (Press &lt;b&gt; Ctrl+V &lt;/b&gt;).</ClipboardScreenshotHint>
+  <ClipboardFileHint>ນອກນັ້ນທ່ານຍັງສາມາດວາງໄຟລ໌ຈາກ clipboard ເປັນ</ClipboardFileHint>
+
+  <CommandClouds>ການເກັບຮັກສາຟັງ</CommandClouds>
+  <CommandCloudsDownloadTo>ດາວນ໌ໂຫລດກັບ ...</CommandCloudsDownloadTo>
+  <CommandCloudsUploadFrom>ອັບໂຫລດຈາກ ...</CommandCloudsUploadFrom>
+  <CommandCloudsAbout>ກ່ຽວກັບການເກັບຮັກສາຟັງ</CommandCloudsAbout>
+  
+  <CommandBack>ກັບຄືນໄປບ່ອນ</CommandBack>
+  <CommandForward>ໄປຂ້າງຫນ້າ</CommandForward>
+  <CommandRecentFolders>ໂຟເດີທີ່ຜ່ານມາ</CommandRecentFolders>
+  <CommandHome>ຫນ້າທໍາອິດ</CommandHome>
+  <CommonActions>ການກະທໍາ</CommonActions>
+  <CommandMultiSelect>ຫຼາຍຂອງການຄັດເລືອກ</CommandMultiSelect>
+  <CommandShare>Share</CommandShare>
+  <CommandSorting>ການຮຽງລໍາດັບ</CommandSorting>
+  
+  <CommandFileManager>ກັບຄືນໄປຈັດການໄຟລ໌</CommandFileManager>
+  <CommandFolders>ໂຟນເດີ</CommandFolders>
+  <CommandGridView>View</CommandGridView>
+  <CommandRefresh>ໂຫຼດຫນ້າຈໍຄືນ</CommandRefresh>
+  <CommandThumbnailView>ມຸມເບິ່ງພາບ</CommandThumbnailView>
+  <CommandDetailedView>ເບິ່ງບັນຊີລາຍຊື່</CommandDetailedView>
+  <CommandDetailsPane>ລາຍລະອຽດບານຫນ້າຕ່າງ</CommandDetailsPane>
+  <CommandFavorites>Favorites</CommandFavorites>
+  <CommandAddToFavorites>ການຫຼິ້ນ</CommandAddToFavorites>
+  <CommandAddToFavoritesHint>ເພີ່ມໂຟເດີປັດຈຸບັນການໂປດ</CommandAddToFavoritesHint>
+  <AddingToFavoritesMessage>ເພີ່ມການໂປດ</AddingToFavoritesMessage>
+  <RemoveFromFavoritesMessage>ລົບຈາກຫຼິ້ນ</RemoveFromFavoritesMessage>
+  <FolderAlreadyAddedInFavorites>ໂຟນເດີ "{0}" ມີຢູ່ແລ້ວໃນເລື່ອງ</FolderAlreadyAddedInFavorites>
+  <FolderAddedInFavoritesSuccessfully>ໂຟນເດີ "{0}" ໄດ້ຖືກເພີ່ມສົບຜົນສໍາເລັດຫຼິ້ນ</FolderAddedInFavoritesSuccessfully>
+  <FavoritesIsOverflowed>ມັນເປັນໄປບໍ່ໄດ້ທີ່ຈະເພີ່ມໂຟເດີປັດຈຸບັນ "{0}" ຫຼິ້ນ. ລົບຫຼິ້ນບາງຢ່າງທີ່ຈະເພີ່ມພື້ນທີ່ຫວ່າງແລະພະຍາຍາມອີກເທື່ອຫນຶ່ງ.</FavoritesIsOverflowed>
+  <RemoveFromFavoritesHint>ເອົາ "{0}" ຈາກຫຼິ້ນ</RemoveFromFavoritesHint>
+  <AddToHomeScreenIOSHint>ປາດ {0} ແລະຫຼັງຈາກນັ້ນ &lt;strong&gt; "ຕື່ມການກັບຫນ້າຈໍທໍາອິດ" &lt;/strong&gt;</AddToHomeScreenIOSHint>
+  <CommandSearch>ຄົ້ນຫາ</CommandSearch>
+  <CommandUpload>Upload</CommandUpload>
+  <CommandSettings>ການຕັ້ງຄ່າ</CommandSettings>
+  <CommandLanguage>ພາສາ</CommandLanguage>
+  <CommandAdministration>ການບໍລິຫານ</CommandAdministration>
+  <CommandAdminPanel>ກະດານ admin</CommandAdminPanel>
+  <CommandChangePassword>ປ່ຽນ​ລະ​ຫັດ​ຜ່ານ</CommandChangePassword>
+  <ProgressChangePassword>ລະຫັດຜ່ານການປ່ຽນແປງ</ProgressChangePassword>
+  <CommandChangeEmail>ການປ່ຽນແປງ e-mail</CommandChangeEmail>
+  <ProgressChangeEmail>ການປ່ຽນແປງ e-mail</ProgressChangeEmail>
+  <CommandMobileView>ການໂຕ້ຕອບມືຖື (ໂທລະສັບສະຫຼາດ)</CommandMobileView>
+  <CommandStandardView>ສະບັບເຕັມ</CommandStandardView>
+  <CommandInstallIOSApp>ຕິດຕັ້ງ app IOS</CommandInstallIOSApp>
+  <CommandInstallAndroidApp>ການຕິດຕັ້ງ Android app</CommandInstallAndroidApp>
+  <CommandAddServerToMobileApp>ຕື່ມການເຄື່ອງແມ່ຂ່າຍນີ້ app ໂທລະສັບມືຖື</CommandAddServerToMobileApp>
+  <CommandAddToHomeScreen>ຕື່ມການກັບຫນ້າຈໍເຮືອນ</CommandAddToHomeScreen>
+  <CommandDiagnostics>ຫນ້າການວິເຄາະ</CommandDiagnostics>
+  <CommandLicenseInfo>ຂໍ້ມູນໃບອະນຸຍາດ</CommandLicenseInfo>
+  <CommandLogout>ອອກ​ຈາກ​ລະ​ບົບ</CommandLogout>
+  <CommandLogoutHint>ກົດທີ່ຈະສໍາເລັດກອງປະຊຸມປັດຈຸບັນ</CommandLogoutHint>
+  <CommandNew>ໃຫມ່</CommandNew>
+  <CommandFile>ເອກະສານ</CommandFile>
+  <CommandEmptyFile>ເອກະສານຫວ່າງເປົ່າ</CommandEmptyFile>
+  <CommandNewMSOODocument>ເອກະສານກັບ MS Office ອອນໄລນ໌</CommandNewMSOODocument>
+  <CommandNewOffice365Document>ເອກະສານທີ່ມີຫ້ອງການ 365</CommandNewOffice365Document>
+  <CommandNewMSOOWord>ເອກະສານ Word</CommandNewMSOOWord>
+  <CommandNewMSOOExcel>ລາງ Excel</CommandNewMSOOExcel>
+  <CommandNewMSOOPowerPoint>ການນໍາສະເຫນີ PowerPoint</CommandNewMSOOPowerPoint>
+  <CommandNewGoogleDocument>ເອກະສານທີ່ມີກູໂກ</CommandNewGoogleDocument>
+  <CommandNewGoogleDocs>ກູໂກ Docs</CommandNewGoogleDocs>
+  <CommandNewGoogleSheets>ແຜ່ນກູໂກ</CommandNewGoogleSheets>
+  <CommandNewGoogleSlides>ກູໂກການບໍລິການ</CommandNewGoogleSlides>
+  <CommandNewImage>ຮູບພາບໃນ Pixlr</CommandNewImage>
+  <CommandFolder>ໂຟນເດີ</CommandFolder>
+  <CommandNewFile>ເອກະສານຫວ່າງເປົ່າໃຫມ່</CommandNewFile>
+  <CommandNewFolder>ໂຟນເດີໃຫມ່</CommandNewFolder>
+  <CommandNewWithTemplate>ນໍາໃຊ້ແມ່ແບບ ...</CommandNewWithTemplate>
+  <CommandRename>ປ່ຽນຊື່</CommandRename>
+  <CommandDelete>ລົບ</CommandDelete>
+  <CommandCopy>ສໍາເນົາ</CommandCopy>
+  <CommandMove>ການເຄື່ອນໄຫວ</CommandMove>
+  <CommandCut>ການຕັດ</CommandCut>
+  <CommandCopyTo>ຄັດລອກໄປທີ່ ...</CommandCopyTo>
+  <CommandMoveTo>ຍ້າຍ​ໄປ...</CommandMoveTo>
+  <CommandCopyCutClipboardSuffix>ໄປຍັງຄລິບບອດ</CommandCopyCutClipboardSuffix>
+  <CommandPaste>Paste</CommandPaste>
+  <CommandPasteInto>ວາງເຂົ້າໄປໃນ</CommandPasteInto>
+  <CommandZip>ຜ້າເປັນຮວບຮວມຫັດໄປສະນີ</CommandZip>
+  <CommandZipMenu>Zip / Unzip</CommandZipMenu>
+  <CommandUnzip>ໄປສະນີເອົາອອກ</CommandUnzip>
+  <CommandUnzipSelected>ແກະເລືອກ</CommandUnzipSelected>
+  <CommandUnzipAll>ແກະທັງຫມົດ</CommandUnzipAll>
+  <CommandUnzipTo>ກັບໂຟນເດີ</CommandUnzipTo>
+  <CommandUnzipToCurrent>ໄປຍັງໂຟເດີປັດຈຸບັນ</CommandUnzipToCurrent>
+  <MessageUnzipToFolder>ພິມຊື່ຂອງໂຟເດີທີ່ຈະແກະນີ້</MessageUnzipToFolder>
+  <MessageUnzipPasswordHint>ຖ້າຫາກວ່າທ່ານຮູ້ບໍ່ວ່າລະຫັດຜ່ານເປັນສິ່ງຈໍາເປັນສໍາລັບການເປີດອອກ, ເຂົ້າໃນພາກສະຫນາມຂ້າງລຸ່ມນີ້</MessageUnzipPasswordHint>
+  <MessageUnzipNeedPassword>ລະຫັດຜ່ານທີ່ຖືກຮຽກຮ້ອງໃຫ້ unpack ໄຟລ໌ໄດ້</MessageUnzipNeedPassword>
+  <ZipPasswordProtectHint>ລະຫັດຜ່ານປົກປັກຮັກສາເກັບຫັດໄປສະນີ, ໃສ່ລະຫັດຜ່ານໃນພາກສະຫນາມຂ້າງລຸ່ມນີ້. ຖ້າບໍ່ດັ່ງນັ້ນ, ອອກຈາກພາກສະຫນາມທີ່ເປົ່າຫວ່າງ</ZipPasswordProtectHint>
+  <AppendToZipPasswordProtectHint>ລະຫັດຜ່ານປົກປັກຮັກສາໄຟລ໌ເຂົ້າມາຢູ່ໃນການຮວບຮວມຫັດໄປສະນີ, ໃສ່ລະຫັດຜ່ານໃນພາກສະຫນາມຂ້າງລຸ່ມນີ້. ຖ້າບໍ່ດັ່ງນັ້ນ, ອອກຈາກພາກສະຫນາມທີ່ເປົ່າຫວ່າງ</AppendToZipPasswordProtectHint>
+  <ZipPasswordProtectWindowTitle>ການເກັບລະຫັດຜ່ານ</ZipPasswordProtectWindowTitle>
+  <OpenFolderAfterUnzipCheckBox>ໂຟນເດີທີ່ເປີດຫຼັງຈາກ unpacking</OpenFolderAfterUnzipCheckBox>
+  <CommandUnzipToNew>ກັບໂຟນເດີໃຫມ່</CommandUnzipToNew>
+  <CommandZipContents>ເນື້ອໃນຫັດໄປສະນີ</CommandZipContents>
+  <ArchiveContentsTitle>ເນື້ອໃນ Archive "{0}"</ArchiveContentsTitle>
+  <CommandDownload>ດາວໂຫລດ</CommandDownload>
+  <CommonDownloadAll>ດາວໂຫຼດທັງຫມົດ</CommonDownloadAll>
+  <DownloadListDragFile>ທ່ານສາມາດ drag-n-ລົງໄຟລ໌ເພື່ອ desktop ຂອງທ່ານ</DownloadListDragFile>
+  <CommandZipDownload>ບີບອັດແລະດາວໂຫລດ</CommandZipDownload>
+  <CommandView>ເບິ່ງໃນຕົວທ່ອງເວັບ</CommandView>
+  <CommandDownloadOrView>ດາວໂຫຼດຫຼືເບິ່ງ</CommandDownloadOrView>
+  <CommandPreview>ເບິ່ງຮູບພາບ</CommandPreview>
+  <CommandFlashPreview>preview Flash</CommandFlashPreview>
+  <GettingSizeFlashMovie>ໄດ້ຂະຫນາດຂອງຮູບເງົາໄດ້ Flash</GettingSizeFlashMovie>
+  <CommandEdit>ດັດແກ້ກັບໄຟລ໌ຂໍ້ຄວາມ</CommandEdit>
+  <CommandEditView>ເປັນໄຟລ໌ຂໍ້ຄວາມ</CommandEditView>
+  <AceNotLoadedMessage>ບໍ່ສາມາດໂຫຼດບັນນາທິການ Ace</AceNotLoadedMessage>
+  <VideoJsNotLoadedMessage>ບໍ່ສາມາດໂຫລດຜູ້ນ VideoJS</VideoJsNotLoadedMessage>
+  <CommandMenuEdit>ດັດແກ້</CommandMenuEdit>
+  <CommandSelectAll>ເລືອກ​ທັງ​ຫມົດ</CommandSelectAll>
+  <CommandInvertSelection>ການເລືອກ</CommandInvertSelection>
+  <CommandLinkToFile>ການເຊື່ອມຕໍ່ກັບໄຟລ໌ / ໂຟນເດີ</CommandLinkToFile>
+  <!--Share link-->
+  <CommandMakePublicFolder>ສ້າງການເຊື່ອມຕໍ່ສາທາລະນະ</CommandMakePublicFolder>
+  <PublicViewInGoogle>ເບິ່ງໃນກູໂກ</PublicViewInGoogle>
+  <PublicViewinOWA>ເບິ່ງໃນ OWA</PublicViewinOWA>
+  <!--Make public folder (share)-->
+  <CommandViewWithGoogleDoc>ເບິ່ງໃນກູໂກ Docs</CommandViewWithGoogleDoc>
+  <CommandViewWithShareCad>ເບິ່ງໃນ ShareCad.org</CommandViewWithShareCad>
+  <CommandViewWithAutodesk>ເບິ່ງໃນ Autodesk</CommandViewWithAutodesk>
+  <CommandViewWithBox>ເບິ່ງໃນ Box</CommandViewWithBox>
+  <CommandViewWithOWA>ເບິ່ງໃນ Office Apps Web</CommandViewWithOWA>
+  <CommandCloudConvert>ແປງກັບ CloudConvert</CommandCloudConvert>
+  <ProgressGetCloudConvertOutputFormats>ໄດ້ຮັບຮູບແບບການຜະລິດ</ProgressGetCloudConvertOutputFormats>
+  <ProgressCloudConvertConverting>ແປງ</ProgressCloudConvertConverting>
+  <CloudConvertWindowTitle>ແປງ '{0}'</CloudConvertWindowTitle>
+  <CloudConvertWindowConvertButton>ແປງ</CloudConvertWindowConvertButton>
+  <CloudConvertWindowOutputFormatsLabel>ຮູບແບບການຜະລິດ</CloudConvertWindowOutputFormatsLabel>
+  <CloudConvertDownloadLinkLabel>ການເຊື່ອມຕໍ່ສໍາລັບການດາວໂຫລດ</CloudConvertDownloadLinkLabel>
+  <CloudConvertSaveAsLabel>ບັນທຶກເປັນ (ການຂະຫຍາຍຈະໄດ້ຮັບການເພີ່ມອັດຕະໂນມັດ):</CloudConvertSaveAsLabel>
+  <CloudConvertNoOutputFormats>ບໍ່ມີຮູບແບບທີ່ມີຢູ່ສໍາລັບການເປັນຢູ່</CloudConvertNoOutputFormats>
+  <CloudConvertNoUrlForDownload>ມັນບໍ່ໄດ້ສໍາເລັດຜົນທີ່ຈະໄດ້ຮັບການເຊື່ອມຕໍ່ສໍາລັບການດາວໂຫຼດ</CloudConvertNoUrlForDownload>
+  <ProgressCloudConvertUploading>ອັບໂຫຼດຈາກ CloudConvert</ProgressCloudConvertUploading>
+  <CloudConvertSaveAsNameBlank>ຊື່ປະເພດນີ້</CloudConvertSaveAsNameBlank>
+  <CancelEditButton>ຍົກເລີກການແກ້ໄຂ</CancelEditButton>
+  <HideButton>ຊ່ອນ</HideButton>
+  <EditDocumentCancelHint>ຫຼັງຈາກທີ່ທ່ານປິດຫນ້າຕ່າງມີເອກະສານສະບັບ, ມັນຈະໄດ້ຮັບການ autosaved. &lt;br /&gt; ທ່ານສາມາດຊ່ອນກ່ອງໂຕ້ຕອບນີ້ໂດຍການກົດ {0} (ໃນກໍລະນີນີ້, ເອກະສານຈະໄດ້ຮັບຄວາມລອດຫຼັງຈາກທີ່ປິດບັນນາທິການ). &lt;br /&gt; ຖ້າຫາກວ່າທ່ານບໍ່ຕ້ອງການທີ່ຈະຊ່ວຍປະຢັດເອກະສານ, ຫນັງສືພິມ {1} (ໃນກໍລະນີນີ້, ຫນ້າຕ່າງບັນນາທິການຈະໄດ້ຮັບການປິດ).</EditDocumentCancelHint>
+  <EditDocumentSaveHint>ປັດຈຸບັນທ່ານສາມາດຊ່ວຍປະຢັດການປ່ຽນແປງໃນເອກະສານໄດ້ໂດຍການກົດ {0}. ເອົາໃຈໃສ່! ຫຼັງຈາກທີ່ທ່ານປິດຫນ້າຕ່າງບັນນາທິການໄດ້, ມັນຈະໄດ້ຮັບການ autosaved ຍັງ.</EditDocumentSaveHint>
+  <CommandEditInMSOffice>ແກ້ໄຂໃນ MS Office</CommandEditInMSOffice>
+  <CommandEditInOOo>ແກ້ໄຂໃນ OpenOffice / LibreOffice</CommandEditInOOo>
+  <CommandViewInMSOffice>ເບິ່ງໃນ MS Office</CommandViewInMSOffice>
+  <CommandViewInOOo>ເບິ່ງໃນ OpenOffice / LibreOffice</CommandViewInOOo>
+  <CommandEditInPixlr>ແກ້ໄຂໃນ Pixlr</CommandEditInPixlr>
+  <CommandEditInAdobe>ແກ້ໄຂໃນ Adobe Creative Cloud</CommandEditInAdobe>
+  <AdobeImageEditorSavedAsNewTypeMessage>ຮູບພາບທີ່ມີການປ່ຽນແປງໃນບັນນາທິການຮູບພາບ Adobe ໄດ້ຮັບການບັນທຶກໄວ້ໃນຮູບແບບ {0}</AdobeImageEditorSavedAsNewTypeMessage>
+  <CommandEditInGoogle>ແກ້ໄຂໃນກູໂກຂັບລົດ</CommandEditInGoogle>
+  <EditInGoogleConvertMessage>ຫຼັງຈາກແກ້ໄຂເອກະສານຈະໄດ້ຮັບການປ່ຽນແປງຮູບແບບ {1} {0} {2}</EditInGoogleConvertMessage>
+  <EditInGoogleLinkError>ບໍ່ສາມາດທີ່ຈະໄດ້ຮັບການເຊື່ອມຕໍ່ໃນການແກ້ໄຂເອກະສານໃນກູໂກຂັບລົດໄດ້</EditInGoogleLinkError>
+  <EditInGoogleWaiting>ລໍຖ້າສໍາລັບການແກ້ໄຂສໍາເລັດໃນກູໂກຂັບລົດ</EditInGoogleWaiting>
+  <CommandEditInMSOO>ແກ້ໄຂໃນ MS Office ອອນໄລນ໌</CommandEditInMSOO>
+  <EditInMSOOLinkError>ບໍ່ສາມາດທີ່ຈະໄດ້ຮັບການເຊື່ອມຕໍ່ໃນການແກ້ໄຂເອກະສານໃນ MS Office ອອນໄລນ໌</EditInMSOOLinkError>
+  <EditInMSOOWaiting>ລໍຖ້າສໍາລັບການແກ້ໄຂສໍາເລັດໃນ MS Office ອອນໄລນ໌</EditInMSOOWaiting>
+  <CommandEditInOffice365>ແກ້ໄຂໃນຫ້ອງການ 365</CommandEditInOffice365>
+  <EditInOffice365LinkError>ບໍ່ສາມາດທີ່ຈະໄດ້ຮັບການເຊື່ອມຕໍ່ໃນການແກ້ໄຂເອກະສານໃນ Office 365</EditInOffice365LinkError>
+  <EditInOffice365Waiting>ລໍຖ້າສໍາລັບການແກ້ໄຂສໍາເລັດໃນຫ້ອງການ 365</EditInOffice365Waiting>
+  <CommandSave>ບັນທຶກ</CommandSave>
+  <CommandSaveAs>ຊ່ວຍປະຢັດ ...</CommandSaveAs>
+  <CommandAppRestart>ຄໍາຮ້ອງສະຫມັກເລີ່ມຕົ້ນໃຫມ່</CommandAppRestart>
+  <CommandPlayVideoFlash>ຫຼິ້ນວິດີໂອໃນຜູ້ນ Flash</CommandPlayVideoFlash>
+  <CommandPlayVideoHtml5>ຫຼິ້ນວິດີໂອ</CommandPlayVideoHtml5>
+  <CommandPlayAudioHtml5>ສຽງຫຼິ້ນ</CommandPlayAudioHtml5>
+  <CommandPlayVideo>ຫຼິ້ນວິດີໂອ</CommandPlayVideo>
+  <CommandPlayAudio>ສຽງຫຼິ້ນ</CommandPlayAudio>
+  <CommandConvertVideo>ແປງວິດີໂອ</CommandConvertVideo>
+
+  <ViewInServiceLink>ຄລິກທີ່ນີ້ເພື່ອເບິ່ງໄຟລ໌</ViewInServiceLink>
+  <EditInServiceLink>ຄລິກທີ່ນີ້ເພື່ອແກ້ໄຂເອກະສານໄດ້</EditInServiceLink>
+
+  <OfficeEditCopyLinkLabel>ສໍາເນົາການເຊື່ອມຕໍ່ຂ້າງລຸ່ມນີ້ແລະເປີດມັນຢູ່ໃນຄໍາຮ້ອງສະຫມັກຫ້ອງການ:</OfficeEditCopyLinkLabel>
+  <OfficeRunError>ມັນເປັນໄປບໍ່ໄດ້ທີ່ຈະເປີດ {0}</OfficeRunError>
+  <BadPathToFile>ມັນເປັນໄປບໍ່ໄດ້ທີ່ຈະຊອກຫາເສັ້ນທາງໄຟລ໌ໄດ້</BadPathToFile>
+  <FixBasicAuthAlertTitle>ເອົາໃຈໃສ່!</FixBasicAuthAlertTitle>
+  <FixBasicAuthAlertMessage>Microsoft Office ເຮັດວຽກມີການກວດສອບພື້ນຖານບໍ່ມີ SSL! ທ່ານສາມາດແກ້ບັນຫານີ້ສໍາລັບ Office ຂອງທ່ານ. ສໍາລັບຂໍ້ມູນເພີ່ມເຕີມກະລຸນາເບິ່ງ {0}.</FixBasicAuthAlertMessage>
+  <FixBasicAuthAlertCheckBoxText>ບໍ່ໃຫ້ສະແດງໃຫ້ເຫັນການສົນທະນານີ້ອີກຕໍ່ໄປ.</FixBasicAuthAlertCheckBoxText>
+  <CommandDetails>ລາຍລະອຽດ</CommandDetails>
+  <CommonButtonCaptionAddDetail>ເພີ່ມລາຍລະອຽດ</CommonButtonCaptionAddDetail>
+  <CommonButtonCaptionAddComment>ເພີ່ມຄວາມຄິດເຫັນ</CommonButtonCaptionAddComment>
+  <DetailsWindowTitle>ລາຍລະອຽດ "{0}"</DetailsWindowTitle>
+  <FileDetailsSave>ໃຊ້ການປ່ຽນແປງ</FileDetailsSave>
+  <FileDetailsIgnoreChanges>ບໍ່ສົນໃຈ</FileDetailsIgnoreChanges>
+  <FileDetailsCloseConfirmTitle>ຫນ້າຕ່າງລາຍລະອຽດເອກະສານຈະຖືກປິດ</FileDetailsCloseConfirmTitle>
+  <FileDetailsCloseConfirmMsg>ເອົາໃຈໃສ່! ການປ່ຽນແປງບໍ່ໄດ້ຮັບການບັນທືກທັນ. ເລືອກປະຕິບັດທີ່ທ່ານຕ້ອງການທີ່ຈະສະຫມັກຂໍເອົາການປ່ຽນແປງເຫຼົ່ານີ້ກ່ອນທີ່ຈະປິດປ່ອງຢ້ຽມເປັນ.</FileDetailsCloseConfirmMsg>
+  <FileDetailsGridTitleColumn>Title</FileDetailsGridTitleColumn>
+  <FileDetailsGridAuthorColumn>ຜູ້ຂຽນສຸດທ້າຍ</FileDetailsGridAuthorColumn>
+  <LoadingDetailsMask>ລາຍລະອຽດກໍາລັງໂຫລດ</LoadingDetailsMask>
+  <NewDetailsTitle>Title ໃຫມ່</NewDetailsTitle>
+  <NewDetailsValue>ມູນຄ່າລາຍລະອຽດໃຫມ່</NewDetailsValue>
+  <DetailsSavingMsg>ກໍາລັງບັນທຶກລາຍລະອຽດ</DetailsSavingMsg>
+  <ProgressLoadingEditInOffice>ການກະກຽມສໍາລັບການແກ້ໄຂຢູ່ໃນຫ້ອງການ</ProgressLoadingEditInOffice>
+  <MenuFilterText>ການກັ່ນຕອງ</MenuFilterText>
+  <EmptyTextFilter>ກະລຸນາໃສ່ Filter ...</EmptyTextFilter>
+  <AfterDateFilterText>ຫຼັງຈາກ</AfterDateFilterText>
+  <BeforeDateFilterText>ກ່ອນທີ່ຈະ</BeforeDateFilterText>
+  <OnDateFilterText>ກ່ຽວກັບ</OnDateFilterText>
+  <YesBooleanFilterText>Yes</YesBooleanFilterText>
+  <NoBooleanFilterText>ບໍ່ມີ</NoBooleanFilterText>
+  <CommandEditWithZoho>ແກ້ໄຂໃນ Zoho</CommandEditWithZoho>
+  <ZohoNotSupportedFormatMessage>ການຂະຫຍາຍບໍ່ໄດ້ສະຫນັບສະຫນູນໂດຍ Zoho. ເບິ່ງ {0}.</ZohoNotSupportedFormatMessage>
+  <ProgressLoadingEditInZoho>Loading ບັນນາທິການ Zoho</ProgressLoadingEditInZoho>
+  <CommandSubMenuViewAndEdit>View / ດັດແກ້</CommandSubMenuViewAndEdit>
+  <CommandSubMenuShare>Share</CommandSubMenuShare>
+  <CommandSubMenuMore>ເພີ່ມເຕີມ</CommandSubMenuMore>
+  <StopUploadingButtonText>ຢຸດເຊົາການ</StopUploadingButtonText>
+  <SimpleUploadErrorInfo>ໃນເວລາທີ່ອັບໂຫລດໄຟລ໌ (s) ມີຂໍ້ຜິດພາດ. &lt;br /&gt; ເບິ່ງ {0} ສໍາລັບຂໍ້ມູນເພີ່ມເຕີມ &lt;/a&gt;</SimpleUploadErrorInfo>
+  <BalloonAbortFilesUploaded>ການອັບໂຫລດໄຟລ໌ໄດ້ຖືກຍົກເລີກ</BalloonAbortFilesUploaded>
+  <UploadDragNDropTab>Drag ແລະການຫຼຸດລົງ</UploadDragNDropTab>
+  <UploadDragNDropTabImages>ຮູບພາບ Drag ແລະການຫຼຸດລົງ +</UploadDragNDropTabImages>
+  <DnDGridProgressColumn>ຄວາມຄືບຫນ້າ</DnDGridProgressColumn>
+  <DnDFileReadingError>ສືບຕໍ່ການອ່ານຜິດພາດ. ລະຫັດຄວາມຜິດພາດ:. {0}</DnDFileReadingError>
+  <DnDFileReadingAbort>ການອ່ານການເອົາລູກອອກ. ລະຫັດຄວາມຜິດພາດ:. {0}</DnDFileReadingAbort>
+  <DnDFileUploadingError>ຄວາມຜິດພາດການອັບໂຫລດ. {0}</DnDFileUploadingError>
+  <DnDFileUploadingAbort>ອັບໂຫຼດເອົາລູກອອກ.</DnDFileUploadingAbort>
+  
+  <CommandWebFoldersLinks>ແຟ້ມແຜນທີ່ເວັບໄຊ</CommandWebFoldersLinks>
+  <CommandSyncWebFolders>ຊິງກັບໂຟນເດີໃນທ້ອງຖິ່ນ</CommandSyncWebFolders>
+  <WebFolderLinksFieldLabel>ການເຊື່ອມຕໍ່ເວັບໄຊຕ໌ໂຟນເດີ</WebFolderLinksFieldLabel>
+  <WebFolderLinksForWindows64Note>ກົດປະສົມປະສານທີ່ສໍາຄັນ {0} Win+R {1}. ສະແດງກິ່ງງ່າເສັ້ນຄໍາສັ່ງໃນ {0} Open: {1} ພາກສະຫນາມ (ເບິ່ງຕົວຢ່າງບັນທັດຄໍາສັ່ງຂ້າງລຸ່ມນີ້), ໃຫ້ຄລິກໃສ່ {0} OK {1}. ສໍາລັບການກວດສອບ Windows ການນໍາໃຊ້ຊື່ໂດເມນ: {2}.</WebFolderLinksForWindows64Note>
+  <OpenLibreOfficeRunCommandNote>ຫຼືກົດປະສົມປະສານທີ່ສໍາຄັນ {0} Win+R {1}, ສະແດງກິ່ງງ່າບັນທັດຄໍາສັ່ງຂ້າງລຸ່ມນີ້ໃນ {0} Open: {1} ພາກສະຫນາມແລະກົດ {0} OK {1}</OpenLibreOfficeRunCommandNote>
+  <WebFolderLinksForMacOSNote>ໃນເມນູ "Finder", ເປີດ {0} Go-&gt; ເຊື່ອມຕໍ່ກັບ Server {1}. ສະແດງກິ່ງງ່າການເຊື່ອມຕໍ່ຂອງໂຟເດີເວັບໄຊຕ໌ໃນ {0} "Server ທີ່ຢູ່" {1} ພາກສະຫນາມ. ກົດ {0} "ເຊື່ອມຕໍ່" {1}. ໃນການໂຕ້ຕອບໃຫມ່ເລືອກ {0} "ທຶກຜູ້ເຂົ້າ" {1} ຫຼື {0} "ຜູ້ໃຊ້ທີ່ລົງທະບຽນ" {1} (ສໍາລັບການກວດສອບ Windows). ກົດ {0} "ເຊື່ອມຕໍ່" {1}.</WebFolderLinksForMacOSNote>
+  <WebFolderLinksForUbuntuNote>ເປີດ {0} Go-&gt; ສະຖານທີ່ ... {1} ສໍາເນົາການເຊື່ອມຕໍ່ຂອງໂຟເດີເວັບໄຊຕ໌ໃນການພາກສະຫນາມສະຖານທີ່ຕັ້ງ.</WebFolderLinksForUbuntuNote>
+  <LinksToWebFoldersWindowText>ທ່ານສາມາດອອກໃນແຜນທີ່ແຟ້ມທີ່ທ່ານເຫັນວ່າເປັນການຂັບເຄືອຂ່າຍໃນ OS ທ້ອງຖິ່ນຂອງທ່ານ. ຫຼັງຈາກການເຮັດແຜນທີ່ທີ່ທ່ານສາມາດເຮັດວຽກຮ່ວມກັບໄຟລ໌ຄືກັບຄົນໃນທ້ອງຖິ່ນຫລືແກ້ໄຂເອກະສານໃນ MS Office ຫຼື OpenOffice. ເບິ່ງການຊ່ວຍເຫຼືອກ່ຽວກັບວິທີການແຜນທີ່ {0}.</LinksToWebFoldersWindowText>
+  <CommonFileTypeNameCaption>"{0}" ຊື່ໄຟລ໌</CommonFileTypeNameCaption>
+  <CommonFileTypeNamePrompt>ກະລຸນາໃສ່ໃຫມ່ "{0}" ຊື່ໄຟລ໌</CommonFileTypeNamePrompt>
+  
+  <PixlrEditorWindowTitle>ບັນນາທິການ Pixlr {0}</PixlrEditorWindowTitle>
+  <PixlrSaveImageSuccessMessage>ຮູບພາບ "{0}" ຖືກບັນທຶກໄວ້ຢ່າງສໍາເລັດຜົນ. ໂຫຼດຫນ້າຈໍຄືນບັນຊີລາຍການຖ້າຫາກວ່າທ່ານໄດ້ບັນທືກຮູບພາບທີ່ມີຊື່ໃຫມ່.</PixlrSaveImageSuccessMessage>
+  <CommonFileImageNewName>ຮູບພາບການໃຫມ່</CommonFileImageNewName>
+  <CommandChangeTheme>ການປ່ຽນແປງຫົວຂໍ້</CommandChangeTheme>
+  
+  <CommandHelp>ຊ່ວຍເຫຼືອ</CommandHelp>
+
+  <OpeningShortcutProgress>ລັດເປີດ</OpeningShortcutProgress>
+  <CommandCreateShortcut>ລັດ (ການເຊື່ອມຕໍ່ສັນຍາລັກ)</CommandCreateShortcut>
+  <ShortcutNameHint>ຊື່ທາງລັດ</ShortcutNameHint>
+  <ShortcutTargetPathHint>ເສັ້ນທາງປາຍທາງ</ShortcutTargetPathHint>
+  <CreateShortcutButtonTitle>ສ້າງ</CreateShortcutButtonTitle>
+  <CreatingShortcutProgress>ລັດການສ້າງ</CreatingShortcutProgress>
+  <CreateShortcutSuccessMessage>ລັດ "{0}" ໄດ້ສ້າງຕັ້ງຂື້ນຢ່າງສໍາເລັດຜົນສໍາລັບການ "{1}".</CreateShortcutSuccessMessage>
+
+  <OpeningInternetShortcutProgress>ເປີດການອິນເຕີເນັດ</OpeningInternetShortcutProgress>
+  <InternetShortcutNotValidMsg>The URL ເປົ້າຫມາຍຂອງລັດອິນເຕີເນັດນີ້ແມ່ນບໍ່ຖືກຕ້ອງ</InternetShortcutNotValidMsg>
+  <InternetShortcutWindowTitle>ໄປເຊື່ອມຕໍ່</InternetShortcutWindowTitle>
+  
+  <CommandVersioning>ເວີຊັນ</CommandVersioning>
+  <CommandVersionHistory>ປະຫວັດສາດສະບັບ</CommandVersionHistory>
+  <CommandCheckOut>ກວດສອບການອອກ</CommandCheckOut>
+  <CommandCheckIn>ໃຫ້ກວດເບິ່ງໃນ</CommandCheckIn>
+  <CommandUndoCheckOut>ຍົກເລີກການກວດສອບການອອກ</CommandUndoCheckOut>
+  <VersionHistoryObtainingMessage>ການໄດ້ຮັບປະຫວັດສາດສະບັບ</VersionHistoryObtainingMessage>
+  <NoVersionHistoryMessage>ໃນປະຫວັດສາດສະບັບສໍາລັບເອກະສານທີ່ເລືອກບໍ່ມີ</NoVersionHistoryMessage>
+  <FileIsCheckedOutMessage>ເອກະສານ "{0}" ແມ່ນການກວດກາແລ້ວອອກໂດຍຜູ້ໃຊ້ "{1}" ຂອງ {2}</FileIsCheckedOutMessage>
+  <CheckingOutMessage>ການກວດສອບອອກ</CheckingOutMessage>
+  <SuccessfullyCheckedOutMessage>ເອກະສານເອີ້ນວ່າ "{0}" ການກວດກາສົບຜົນສໍາເລັດໂດຍຜູ້ໃຊ້ "{1}"</SuccessfullyCheckedOutMessage>
+  <FileIsNotCheckedOutMessage>ເອກະສານ "{0}" ຍັງບໍ່ທັນໄດ້ຮັບການກວດສອບອອກເທື່ອ</FileIsNotCheckedOutMessage>
+  <FileIsCheckedOutOtherUserMessage>ເອກະສານ "{0}" ແມ່ນການກວດກາສະມາຊິກຄົນອື່ນ "{1}" ຂອງ {2}.</FileIsCheckedOutOtherUserMessage>
+  <FileUndoCheckOutForbiddenMessage>ທ່ານບໍ່ສາມາດຍົກເລີກການກວດກາການນໍາໃຊ້ສະມາຊິກຄົນອື່ນ.</FileUndoCheckOutForbiddenMessage>
+  <FileCheckInForbiddenMessage>ທ່ານບໍ່ສາມາດກວດເບິ່ງໃນເອກະສານທີ່ໄດ້ຮັບການແລ້ວການກວດກາສະມາຊິກຄົນອື່ນໄດ້.</FileCheckInForbiddenMessage>
+  <FileUndoCheckOutConfirmMessage>ຖ້າຫາກວ່າທ່ານຍົກເລີກການກວດສອບຂອງທ່ານອອກ, ການປ່ຽນແປງການນໍາໃຊ້ເອກະສານຈະບໍ່ໄດ້ຮັບການບັນທືກ! ທ່ານວ່າທ່ານແມ່ນແນ່ໃຈວ່າຕ້ອງການທີ່ຈະຍົກເລີກການກວດສອບຂອງທ່ານອອກ?</FileUndoCheckOutConfirmMessage>
+  <FileVersionDeleteConfirmTitle>ລຶບຂອງຮຸ່ນຂອງແຟ້ມ</FileVersionDeleteConfirmTitle>
+  <FileVersionDeleteConfirmMessage>ທ່ານແນ່ໃຈວ່າທ່ານຕ້ອງການທີ່ຈະໃສ່ສະບັບຄັດຈ້ອນມາຈາກເອກະສານແນວໃດ?</FileVersionDeleteConfirmMessage>
+  <FileVersionRestoreConfirmTitle>ການຟື້ນຟູຂອງຮຸ່ນຂອງແຟ້ມ</FileVersionRestoreConfirmTitle>
+  <FileVersionRestoreConfirmMessage>ທ່ານແນ່ໃຈວ່າຕ້ອງການທີ່ຈະຟື້ນຟູສະບັບຄັດຈ້ອນມາຈາກເອກະສານແນວໃດ? {0} ຖ້າຫາກວ່າແມ່ນ, ລະບຸເອກະສານທີ່ຢູ່ໃນສະບັບທີ່ເລືອກຈະໄດ້ຮັບການບັນທຶກໄວ້ໃນ. ຖ້າຫາກວ່າທ່ານອອກຈາກມູນຄ່ານີ້ໂດຍບໍ່ມີການປ່ຽນແປງ (ຫຼືກໍານົດມູນຄ່າທີ່ເປົ່າຫວ່າງ) ສະບັບພາສາທີ່ເລືອກຈະທົດແທນການໄຟລ໌ທີ່ເລືອກ (ເນື້ອໃນທີ່ຜ່ານມາຂອງເອກະສານຈະໄດ້ຮັບການເພີ່ມກັບປະຫວັດສາດສະບັບທີ່) {1} ຊື່ໄຟ.:</FileVersionRestoreConfirmMessage>
+  <UndoCheckingOutMessage>ຍົກເລີກ Check Out</UndoCheckingOutMessage>
+  <SuccessfullyUndoCheckedOutMessage>ການຍົກເລີກການກວດສອບສໍາລັບການອອກເອກະສານໄດ້ "{0}" ໄດ້ສໍາເລັດສົບຜົນສໍາເລັດ.</SuccessfullyUndoCheckedOutMessage>
+  <SuccessfullyCheckedInMessage>ເອກະສານ "{0}" ແມ່ນການກວດກາຢ່າງສໍາເລັດຜົນໃນໂດຍຜູ້ໃຊ້ "{1}"</SuccessfullyCheckedInMessage>
+  <CheckingInMessage>ການກວດສອບໃນ</CheckingInMessage>
+  <VersionHistoryTitle>ສະບັບເອກະສານ "{0}"</VersionHistoryTitle>
+  <VersionHistoryGridNumberColumn>Ver.</VersionHistoryGridNumberColumn>
+  <VersionHistoryGridNotesColumn>ອ່ືນ</VersionHistoryGridNotesColumn>
+  <CommandRestoreVersion>ການຟື້ນຟູ</CommandRestoreVersion>
+  <ProgressPrepareDownloadOldVersion>ການກະກຽມສໍາລັບການສະບັບພາສາອາຍຸການດາວໂຫລດ</ProgressPrepareDownloadOldVersion>
+  <FileVersionNotFoundMessage>ສະບັບເອກະສານການຄັດເລືອກບໍ່ໄດ້ພົບເຫັນ.</FileVersionNotFoundMessage>
+  <ProgressDeletingVersion>ສະບັບລຶບ</ProgressDeletingVersion>
+  <ProgressRestoringVersion>ສະບັບພາສາການຟື້ນຟູ</ProgressRestoringVersion>
+  <FileNeedCheckInMessage>ກະລຸນາກວດສອບໃນຫຼືຍົກເລີກການກວດກາສໍາລັບການອອກເອກະສານການຄັດເລືອກແລະພະຍາຍາມອີກເທື່ອຫນຶ່ງ.</FileNeedCheckInMessage>
+  <FileCheckedOutEditForbiddenMessage>ທ່ານບໍ່ສາມາດປັບປຸງແກ້ໄຂ / ປ່ຽນຊື່ / move / ລົບໄຟ "{0}" ໃນຂະນະທີ່ມັນຈະຖືກກວດສອບສະມາຊິກ "{1}" ຂອງ {2}</FileCheckedOutEditForbiddenMessage>
+  <FileUploadCheckInLabel>ທ່ານສາມາດກວດເບິ່ງໃນເອກະສານການຄັດເລືອກຫລືອັບໂຫລດສະບັບໃຫມ່ຂອງເອກະສານ (ໃຊ້ແບບຟອມການອັບໂຫລດຂ້າງລຸ່ມນີ້). ຖ້າຫາກວ່າທ່ານຕ້ອງການທີ່ຈະສ້າງເປັນສະບັບໃຫມ່ຈາກເອກະສານການຄັດເລືອກ, ບໍ່ອັບໂຫລດໄຟລ໌ໃດທີ່ນີ້.</FileUploadCheckInLabel>
+  <FileUploadCheckInInvalidFileName>ຊື່ຂອງໄຟລ໌ທີ່ອັບໂຫລດຄວນຈະແທ້ຄືກັນກັບຊື່ຂອງໄຟລ໌ທີ່ເລືອກ</FileUploadCheckInInvalidFileName>
+  <CheckOutVersionNotes>ສະບັບນີ້ໄດ້ຮັບການສ້າງຕັ້ງອັດຕະໂນມັດ</CheckOutVersionNotes>
+  <RestoreVersionNotes>ສະບັບນີ້ໄດ້ຮັບການສ້າງຕັ້ງອັດຕະໂນມັດຫຼັງຈາກການຟື້ນຟູຂອງການສະບັບຈາກ {0} ຂອງຜູ້ໃຊ້ "{1}"</RestoreVersionNotes>
+  <IsCheckedOutHint>ເອກະສານທີ່ໄດ້ຮັບການກວດກາເບິ່ງ</IsCheckedOutHint>
+  <ExistsOldVersionsHint>ເອກະສານທີ່ມີສະບັບອື່ນໆ</ExistsOldVersionsHint>
+  <IsLockedHint>ເອກະສານໄດ້ຖືກລັອກ</IsLockedHint>
+  <FileWasCreatedHint>ໄດ້ຮັບການສ້າງຕັ້ງ {0} ກ່ອນຫນ້ານີ້</FileWasCreatedHint>
+  <FileWasModifiedHint>ມີການປ່ຽນແປງ {0} ກ່ອນຫນ້ານີ້</FileWasModifiedHint>
+  <CommonChangedAgo>{0} ກ່ອນຫນ້ານີ້</CommonChangedAgo>
+  <DaysShort>d</DaysShort>
+  <HoursShort>h</HoursShort>
+  <MinutesShort>m</MinutesShort>
+  <FileContainsMetaDataHint>ມີບາງລາຍລະອຽດ (metadata)</FileContainsMetaDataHint>
+  <FileMetaDataCaptionMobile>Metadata</FileMetaDataCaptionMobile>
+
+  <ExistsPublicLinksFileHint>ເອກະສານທີ່ມີການເຊື່ອມຕໍ່ສາທາລະນະ</ExistsPublicLinksFileHint>
+  <ExistsPublicLinksFolderHint>ໂຟນເດີທີ່ມີການເຊື່ອມຕໍ່ສາທາລະນະ</ExistsPublicLinksFolderHint>
+  <PublicLinkNotFound>ການເຊື່ອມຕໍ່ສາທາລະນະສໍາລັບການ "{0}" ບໍ່ໄດ້ພົບເຫັນ</PublicLinkNotFound>
+
+  <PublicLinksDeleteWindowTitle>ລຶບການເຊື່ອມຕໍ່ສາທາລະນະ (s)</PublicLinksDeleteWindowTitle>
+  <PublicLinksDeleteLinkButton>ລຶບການເຊື່ອມຕໍ່</PublicLinksDeleteLinkButton>
+  <PublicLinksDeleteConfirmMsg>ທ່ານແນ່ໃຈວ່າທ່ານຕ້ອງການທີ່ຈະລຶບການເຊື່ອມຕໍ່ສາທາລະນະທີ່ເລືອກ?</PublicLinksDeleteConfirmMsg>
+  <PublicLinksDeleteSingleConfirmMsg>ທ່ານວ່າທ່ານແມ່ນແນ່ໃຈວ່າຕ້ອງການລຶບການເຊື່ອມຕໍ່ນີ້?</PublicLinksDeleteSingleConfirmMsg>
+
+  <DetailsMultiValue>(ມູນຄ່າຫຼາຍ)</DetailsMultiValue>
+
+  <GridBottomFilesSizeInfo>ການຄັດເລືອກ: {0} / {1},</GridBottomFilesSizeInfo>
+  <GridBottomFilesFoldersInfo>ໄຟ: {0} / {1}, ແຟ້ມ: {2} / {3}</GridBottomFilesFoldersInfo>
+
+  <AmountOfDownloadingsFile>ດາວໂຫລດ</AmountOfDownloadingsFile>
+
+  <CookiesDisabledMessage>ການທໍາງານ cookie ຂອງຕົວທ່ອງເວັບຂອງທ່ານບໍ່ໄດ້ເປີດ. ກະລຸນາເຮັດໃຫ້ມັນສຸດແລະຕົວທ່ອງເວັບ restart.</CookiesDisabledMessage>
+
+  <CommandSendEmail>ສົ່ງອີເມວ</CommandSendEmail>
+  <CommandSendWithGmail>ສົ່ງກັບ Gmail</CommandSendWithGmail>
+  <CommandSendWithOutlook>ສົ່ງກັບການຄາດຄະເນ</CommandSendWithOutlook>
+  <SendEmailTo>ການ</SendEmailTo>
+  <SendEmailBulkMailingListHint>&lt;b&gt; ບັນຊີລາຍຊື່ທາງໄປສະນີ &lt;/b&gt; &lt;br /&gt; ທ່ານສາມາດກໍານົດກຸ່ມທັງຫມົດທີ່ຈະສົ່ງອີເມວຂອງທ່ານ</SendEmailBulkMailingListHint>
+  <SendEmailBulkMailingListWindowTitle>ເລືອກຮັບສໍາລັບອີເມວຂອງທ່ານ</SendEmailBulkMailingListWindowTitle>
+  <SendEmailEmptyMailingListMessage>ບັນຊີລາຍຊື່ອີເມລແມ່ນຫວ່າງເປົ່າ</SendEmailEmptyMailingListMessage>
+  <SendEmailSenderEmail>email ສົ່ງ</SendEmailSenderEmail>
+  <SendEmailSubject>Subject</SendEmailSubject>
+  <SendEmailFilesAsLinksTo>ສົ່ງການເຊື່ອມຕໍ່ກັບໄຟລ໌ທີ່ເລືອກ</SendEmailFilesAsLinksTo>
+  <SendEmailFilesAsAttachements>ສົ່ງໄຟລ໌ທີ່ເລືອກເປັນໄຟລ໌ແນບ</SendEmailFilesAsAttachements>
+  <SendEmailSend>ສົ່ງ</SendEmailSend>
+  <SendEmailProgressMessage>ການສົ່ງອີເມວ</SendEmailProgressMessage>
+  <GettingMailingListProgressMessage>ໄດ້ຮັບບັນຊີລາຍຊື່ທາງໄປສະນີ</GettingMailingListProgressMessage>
+  <SendEmailSuccessMessage>ອີເມວໄດ້ຖືກສົ່ງໄປສົບຜົນສໍາເລັດ.</SendEmailSuccessMessage>
+  <SendEmailResultsMessage>ສົ່ງ:. {0} &lt;br /&gt; ບໍ່ສາ: {1} {2}.</SendEmailResultsMessage>
+  <SmtpServerSettingsIncorrect>ທາງເລືອກໃນການ SMTP, ເຄື່ອງແມ່ຂ່າຍທີ່ມີທັງການຫວ່າງເປົ່າຫຼືບໍ່ຖືກຕ້ອງ</SmtpServerSettingsIncorrect>
+  <FromEmailIncorrect>ຈາກທີ່ຢູ່ອີເມວບໍ່ຖືກຕ້ອງຫຼືຍັງວ່າເປົ່າ</FromEmailIncorrect>
+  <ToEmailIncorrect>ທີ່ຢູ່ອີເມວການແມ່ນບໍ່ຖືກຕ້ອງຫຼືຍັງວ່າເປົ່າ</ToEmailIncorrect>
+  <EmailSubjectEmpty>ວິຊາການອີເມວບໍ່ໄດ້ລະບຸ</EmailSubjectEmpty>
+  <UploadFromUrlTab>ຈາກ URL</UploadFromUrlTab>
+  <UploadFromUrlFieldLabel>URL (HTTP ຫຼື FTP ໄຟລ໌ດຽວ)</UploadFromUrlFieldLabel>
+  <UploadFromUrlProgressTitle>ອັບໂຫລດຈາກ URL</UploadFromUrlProgressTitle>
+  <UploadFromUrlMsg>ອັບໂຫລດຈາກ URL</UploadFromUrlMsg>
+  <UploadFromUrlSuccessMsg>ເອກະສານ "{0}" ໄດ້ຮັບການອັບສົບຜົນສໍາເລັດຈາກ "{1}"</UploadFromUrlSuccessMsg>
+  <UploadFromUrlUnknownResponse>ການຕອບສະຫນອງຈາກເຄື່ອງແມ່ຂ່າຍທີ່ບໍ່ໄດ້ຮັບການຍອມຮັບ</UploadFromUrlUnknownResponse>
+  <UploadFromUrlEmptyFileName>ຊື່ຂອງໄຟລ໌ທີ່ອັບໂຫລດໄດ້ແມ່ນຫວ່າງເປົ່າ</UploadFromUrlEmptyFileName>
+  <UploadFromUrlFileName>ປະຢັດທີ່ມີຊື່ (ປ່ອຍໃຫ້ເປົ່າການນໍາໃຊ້ຊື່ຈາກ URL)</UploadFromUrlFileName>
+  <UploadFromUrlFileNameMobile>ປະຢັດທີ່ມີຊື່</UploadFromUrlFileNameMobile>
+  
+  <!-- Common Clouds keys -->  
+  <CloudAuthenticateMessage>ທ່ານຕ້ອງເຂົ້າສູ່ລະບົບໃນ {0}. ກົດການເຊື່ອມຕໍ່ "{1}" ແລະທ່ານຈະໄດ້ຮັບການ redirected ກັບຮູບແບບເຂົ້າສູ່ລະບົບ. {2} ຂໍ້ມູນເພີ່ມເຕີມ. {3}</CloudAuthenticateMessage>
+  <CloudAuthenticateLink>ກວດສອບກັບ {0}</CloudAuthenticateLink>  
+  <CloudDownloadingMessage>ການດາວໂຫຼດກັບ {0}</CloudDownloadingMessage>
+  <CloudAuthWarningMessage>ຖ້າຫາກວ່າການດໍາເນີນການບໍ່ໄດ້ເກີດຂຶ້ນ, ກະລຸນາປິດຫນ້າຕ່າງນີ້ແລະໃຫ້ຄລິກໃສ່ການເຊື່ອມຕໍ່ "{0}" ອີກເທື່ອຫນຶ່ງ.</CloudAuthWarningMessage>
+  <CloudAuthEmptyInvalidMessage>{0} Access Token ແມ່ນຫວ່າງເປົ່າຫຼືບໍ່ຖືກຕ້ອງ. ກະລຸນາກວດສອບອີກເທື່ອຫນຶ່ງ.</CloudAuthEmptyInvalidMessage>
+  <CloudDownloadEndMessageTitle>ດາວໂຫຼດໄດ້ສໍາເລັດ</CloudDownloadEndMessageTitle>
+  <CloudDownloadFilesSuccessMessage>{0} file (s) ດາວໂຫລດສົບຜົນສໍາເລັດກັບ "{1}" ໂຟນເດີ {2}.</CloudDownloadFilesSuccessMessage>
+  <CloudNotDownloadedFilesMessage>{0} file (s) ບໍ່ໄດ້ດາວໂຫຼດ:</CloudNotDownloadedFilesMessage>
+  <CloudFoldersCreatedSuccessMessage>{0} ໂຟເດີ (s) ສ້າງສົບຜົນສໍາເລັດໃນ "{1}" ໂຟນເດີ {2}.</CloudFoldersCreatedSuccessMessage>
+  <CloudNotFoldersCreatedMessage>{0} ໂຟເດີ (s) ບໍ່ໄດ້ສ້າງ:</CloudNotFoldersCreatedMessage>
+  <CloudFilesFoldersSuccessMessage>{0} file (s), {1} ໂຟເດີ (s) ດາວໂຫລດສົບຜົນສໍາເລັດກັບ "{2}" ໂຟນເດີ {3}.</CloudFilesFoldersSuccessMessage>
+  <CloudNotFilesFoldersDownloadedMessage>{0} file (s), ໂຟເດີ (s) {1} ບໍ່ໄດ້ດາວໂຫຼດ:</CloudNotFilesFoldersDownloadedMessage>
+  <CloudLinkText>ການຢ້ຽມຢາມ {0}</CloudLinkText>
+  <CloudLinkDescription>ໄປ {0} ຫນ້າ</CloudLinkDescription>
+  <CloudRootFolderName>&lt;b&gt; {0} ໂຟເດີຮາກ &lt;/b&gt;</CloudRootFolderName>
+  <CloudCheckFolerMessage>ກະລຸນາກວດສອບ {0} ໂຟເດີດຽວທີ່ຈະສືບຕໍ່.</CloudCheckFolerMessage>
+  <CloudSelectFolderMessage>ກະລຸນາເລືອກໂຟນເດີ {0} ທີ່ຈະສືບຕໍ່.</CloudSelectFolderMessage>
+  <CloudGetFoldersInfoProgressMessage>ກໍາລັງໂຫລດຂໍ້ມູນ {0} ໂຟເດີ</CloudGetFoldersInfoProgressMessage>
+  <CloudGetItemsInfoProgressMessage>ຂໍ້ມູນກໍາລັງໂຫລດ {0} ລາຍການ</CloudGetItemsInfoProgressMessage>
+  <CloudUploadSelectItemsMessage>ກະລຸນາເລືອກ {0} ລາຍການທີ່ຈະສືບຕໍ່.</CloudUploadSelectItemsMessage>
+  <CloudUploadTotalFiles>ໄຟລ໌ທັງຫມົດ: {0} ({1})</CloudUploadTotalFiles>
+  <CloudUploadProgressMessage>ອັບໂຫຼດຈາກ {0}</CloudUploadProgressMessage>
+  <CloudSignInAsDifferentUserText>ອອກຈາກລະບົບຈາກ {0}</CloudSignInAsDifferentUserText>
+  <CloudLogoutProgressMsg>ອອກຈາກລະບົບຈາກ {0}</CloudLogoutProgressMsg>
+  <CloudRevokeTokenMsg>ເພີກຖອນ token</CloudRevokeTokenMsg>
+  <CloudRefreshTokenMsg>token ສົດຊື່ນ</CloudRefreshTokenMsg>
+  <CloudAuthNotCompleteMsg>ການກວດສອບບໍ່ໄດ້ສໍາເລັດ. &lt;br /&gt; ກະລຸນາ</CloudAuthNotCompleteMsg>
+  <CloudTrustedSitesMsg> ກວດສອບການດັ່ງຕໍ່ໄປນີ້ສະຖານທີ່ຢູ່ໃນ "ສະຖານທີ່ເຊື່ອຖືໄດ້" ບັນຊີລາຍຊື່: &lt;br /&gt; &lt;br /&gt;</CloudTrustedSitesMsg>
+  <TrustedSitesForMicrosoftEdge>ຖ້າຫາກວ່າທ່ານກໍາລັງໃຊ້ Microsoft Edge, ຫຼັງຈາກນັ້ນໃຫ້ກວດເບິ່ງສະຖານທີ່ເຊື່ອຖືໄດ້ໃນ Internet Explorer</TrustedSitesForMicrosoftEdge>
+  <CloudCheckAuthMsg>ກວດສອບ {0} ການກວດສອບ</CloudCheckAuthMsg>
+  <CloudLoadMsg>Loading {0}</CloudLoadMsg>
+  <CloudFreeSpaceError>ຍັງບໍ່ທັນມີຫ້ອງພຽງພໍໃນ {2} ການທີ່ຈະອັບໄຟລ໌ໄດ້. ດີ:. {0} ຂະຫນາດໄຟ:. {1}</CloudFreeSpaceError>
+  <CloudFreeSpaceExceeded>ຍັງບໍ່ທັນມີຫ້ອງພຽງພໍໃນ {0}</CloudFreeSpaceExceeded>
+  <CloudExceedFileSizeError>ໄຟລ໌ທີ່ທ່ານພະຍາຍາມ, ເພື່ອດາວໂຫລດມີຂະຫນາດໄຟລ໌ຂອງ {1}, ຊຶ່ງເປັນຫຼາຍກ່ວາຂະຫນາດທີ່ອະນຸຍາດສູງສຸດສໍາລັບການດາວໂຫຼດ - {0}.</CloudExceedFileSizeError>
+  <CloudFolderNotFound>ລະບົບແມ່ນບໍ່ພົບເຫັນ. ບາງທີອາດຈະຖືກລຶບອອກແລ້ວ</CloudFolderNotFound>
+  <CloudFileNotFound>ເອກະສານແມ່ນບໍ່ພົບເຫັນ. ບາງທີອາດຈະຖືກລຶບອອກແລ້ວ</CloudFileNotFound>
+  <CloudNoFoldersMessage>ບໍ່ມີໂຟເດີທີ່ຈະສະແດງ</CloudNoFoldersMessage>
+  <CloudLibraryNotLoadedMsg>{0} ຫ້ອງສະຫມຸດລູກຄ້າບໍ່ສາມາດໂຫລດ! &lt;br /&gt; ກະລຸນາກວດສອບການເຊື່ອມຕໍ່ອິນເຕີເນັດແລະຫລືຟື້ນຟູຫນ້າ. &lt;br /&gt; ນອກຈາກນີ້ຍັງ</CloudLibraryNotLoadedMsg>
+  <CloudDownloadWithNewNames>ປະຕິບັດຕາມເອກະສານ (s) ດາວໂຫລດທີ່ມີຊື່ໃຫມ່:</CloudDownloadWithNewNames>
+
+  <!-- Google Drive Cloud keys -->
+  <CommandDownloadToGoogleDocs>ດາວນ໌ໂຫລດກັບກູໂກຂັບລົດ</CommandDownloadToGoogleDocs>
+  <GoogleDocsSaveAs>ຊ່ວຍປະຢັດເປັນ:</GoogleDocsSaveAs>
+  <GoogleDocsSaveAsTitle>ຊ່ວຍປະຢັດ "{0}" ເປັນ ...</GoogleDocsSaveAsTitle>
+  <GoogleDocsDownloadEndWarningMessage>ຖ້າຫາກວ່າທ່ານບໍ່ສາມາດເບິ່ງເອກະສານທີ່ອັບໂຫລດໃນບັນຊີຂອງກູໂກຂັບລົດຂອງທ່ານ, ລໍຖ້າເປັນສອງສາມນາທີແລະໂຫຼດຫນ້າຈໍຄືນບັນຊີລາຍຊື່ກູໂກຂັບລົດ.</GoogleDocsDownloadEndWarningMessage>
+  <GoogleDriveUploadNoFilesMessage>ບໍ່ມີໄຟລ໌ໃນກູໂກຂັບລົດສໍາລັບການອັບໂຫຼດ</GoogleDriveUploadNoFilesMessage>
+  <GoogleDriveMaxUploadSizeError>ສໍາລັບການເນື້ອໃນປະເພດ "{0}" ຂະຫນາດສູງສຸດຂອງການອັບໂຫລດ {1} ແມ່ນເກີນ.</GoogleDriveMaxUploadSizeError>
+  <GoogleDriveConvertMsg>ຖ້າຫາກວ່າມັນເປັນໄປໄດ້, ປ່ຽນໄຟລ໌ເຂົ້າໄປໃນຮູບແບບກູໂກເອກະສານ. {0} ຂໍ້ມູນເພີ່ມເຕີມ {1}.</GoogleDriveConvertMsg>
+
+  <!-- Box Cloud keys -->
+  <CommandDownloadToBox>ດາວນ໌ໂຫລດໄປຢູ່ປ່ອງ</CommandDownloadToBox>
+  <BoxDownloadWithNewNames>ເອກະສານດັ່ງຕໍ່ໄປນີ້ (s) ໄດ້ຮັບການປັບປຸງທີ່ມີສະບັບໃຫມ່:</BoxDownloadWithNewNames>
+  <BoxNoViewPermission>ທ່ານບໍ່ມີສິດໃນການເບິ່ງລະບົບການຄັດເລືອກ</BoxNoViewPermission>
+  <BoxNoDownloadPermission>ທ່ານບໍ່ມີສິດໃນການດາວໂຫລດ</BoxNoDownloadPermission>
+  <BoxNoUploadPermission>ທ່ານບໍ່ມີອະນຸຍາດໃຫ້ອັບໂຫລດ</BoxNoUploadPermission>
+  <BoxUnableCreateOrInfoError>ບໍ່ສາມາດທີ່ຈະສ້າງຫລືໄດ້ຮັບຂໍ້ມູນຂ່າວສານ</BoxUnableCreateOrInfoError>
+  
+  <!-- Dropbox Cloud keys -->
+  <CommandDownloadToDropbox>ດາວນ໌ໂຫລດກັບ Dropbox</CommandDownloadToDropbox>
+  
+  <!-- OneDrive Cloud keys -->
+  <CommandDownloadToSkyDrive>ດາວນ໌ໂຫລດກັບ OneDrive</CommandDownloadToSkyDrive>
+  <AuthenticateOAuthSkyDriveMessageShort>ທ່ານຕ້ອງເຂົ້າສູ່ລະບົບເຂົ້າໄປໃນບັນຊີ Live Microsoft ຂອງທ່ານ.</AuthenticateOAuthSkyDriveMessageShort>
+  <SkyDriveAuthAlsoString>ນອກຈາກນີ້ຍັງ</SkyDriveAuthAlsoString>
+  <SkyDriveLoginButtonTitle>ເຂົ້າ​ສູ່​ລະ​ບົບ</SkyDriveLoginButtonTitle>
+  <SkyDriveRegistryMessage>ບໍ່ມີ Live ID Windows? {0} ຂຽນເຂົ້າເຖິງ ... {1}</SkyDriveRegistryMessage>
+  <SkyDriveMapRootFolder>ຫມາຍ​ເຫດ​! ທ່ານສາມາດເຮັດໄດ້ {0} map {1} ໂຟເດີ OneDrive ຂອງທ່ານ. ເສັ້ນທາງແມ່ນ</SkyDriveMapRootFolder>
+  <SkyDriveMoreInfoLink>{0} ຂໍ້ມູນເພີ່ມເຕີມກ່ຽວກັບ OneDrive (SkyDrive) {1}</SkyDriveMoreInfoLink>
+  <OneDriveMaxUploadSizeError>ຂະຫນາດອະນຸຍາດ ({0}) ຂອງເອກະສານທີ່ອັບໂຫລດເກີນ: {1}</OneDriveMaxUploadSizeError>
+  <!-- OneDrive for Business -->
+  <OneDriveForBusinessMapWebFolderInfo>&lt;b&gt; ຫມາຍເຫດ! &lt;/b&gt; ກ່ອນທີ່ຈະເປີດໄຟລ໌ໃນສະຖານທີ່ນີ້, ທ່ານທໍາອິດຕ້ອງໄດ້ເພີ່ມເວັບໄຊເຂົ້າໃນບັນຊີສະຖານທີ່ໄວ້ວາງໃຈຂອງທ່ານ, ເບິ່ງທີ່ເວັບໄຊຕ໌, ແລະຄັດເລືອກເອົາທາງເລືອກທີ່ຈະເຂົ້າສູ່ລະບົບອັດຕະໂນມັດ (ໃນຕົວທ່ອງເວັບ IE).</OneDriveForBusinessMapWebFolderInfo>
+  
+  <UploadFromUrlLabelText>ທ່ານສາມາດລະບຸ URL ຂອງເອກະສານເປັນເກັບຮັກສາໄວ້ໃນເຄື່ອງແມ່ຂ່າຍຂອງໄຟລ໌ໃນທົ່ວໂລກຫຼືການບໍລິການແບ່ງປັນໄຟລ໌ເຊັ່ນ {0}, {1}, {2}, {3}, {4}.</UploadFromUrlLabelText>
+  <UploadFromUrlLabelTextMobile>ລະບຸ URL ຂອງເອກະສານໄດ້</UploadFromUrlLabelTextMobile>
+
+  <LinkToFileTitle>ການເຊື່ອມຕໍ່ກັບໄຟລ໌ / ໂຟນເດີ</LinkToFileTitle>
+  <LinkToFileWarningAnonym>ການເຊື່ອມຕໍ່ນີ້ຈະສະຫນອງການເຂົ້າເຖິງບໍລິຈາກເງິນເພື່ອໄຟລ໌. ຜູ້ໃຊ້ໃດຫນຶ່ງ, ເຖິງແມ່ນວ່າຄົນທີ່ມີບັນຊີທີ່ບໍ່ມີໃນເວັບໄຊນີ້, ອາດຈະດາວໂຫລດຫລືອັບໂຫລດໄຟຜ່ານການເຊື່ອມຕໍ່ສາທາລະນະ. A ການເຊື່ອມຕໍ່ສາທາລະນະເອກະສານອະນຸຍາດໃຫ້ທ່ານ, ເພື່ອດາວໂຫລດເອກະສານຫນຶ່ງການຄັດເລືອກ. {0} ຂໍ້ມູນເພີ່ມເຕີມ {1}.</LinkToFileWarningAnonym>
+  <LinkToFileDownloadFileLink>ການເຊື່ອມຕໍ່ນີ້ອະນຸຍາດໃຫ້ທ່ານ, ເພື່ອດາວໂຫລດໄຟລ໌ທີ່ເລືອກ {0} ຈາກ {1}. ທ່ານຕ້ອງການບັນຊີທີ່ຖືກຕ້ອງທີ່ຈະນໍາໃຊ້ການເຊື່ອມຕໍ່ນີ້. ມັນບໍ່ມີການເຂົ້າບໍລິຈາກເງິນເພື່ອໄຟລ໌.</LinkToFileDownloadFileLink>
+  <LinkToFileExpireDate>ວັນ​ຫມົດ​ອາ​ຍຸ</LinkToFileExpireDate>
+  <LinkToFileDownloadCnt>ຂອບເຂດຈໍາກັດຈໍານວນດາວໂຫລດ</LinkToFileDownloadCnt>
+  <LinkToFileDownloadType>ປະເພດການເຊື່ອມຕໍ່</LinkToFileDownloadType>
+  <LinkToFileGenerate>ສ້າງການເຊື່ອມຕໍ່</LinkToFileGenerate>
+  <LinkToFilePasswordNotMatch>ລະຫັດຜ່ານບໍ່ກົງກັນ</LinkToFilePasswordNotMatch>
+  <LinkToFilePasswordRequired>ລະຫັດຜ່ານສໍາລັບການເຊື່ອມຕໍ່ສາທາລະນະຈໍາເປັນຕ້ອງມີ</LinkToFilePasswordRequired>
+  <LinkToFileInvalidForm>ຕົວກໍານົດການທີ່ບໍ່ຖືກຕ້ອງ</LinkToFileInvalidForm>
+  <LinkToFileAnonymDownloadLinkHint>ການເຊື່ອມຕໍ່ສາທາລະນະສໍາລັບການ "{0}":</LinkToFileAnonymDownloadLinkHint>
+  <LinkToFileAnonymDownloadShortLinkHint>ການເຊື່ອມຕໍ່ສາທາລະນະສັ້ນສໍາລັບ "{0}":</LinkToFileAnonymDownloadShortLinkHint>
+  <LinkToFileOpenFolderLink>ການເຊື່ອມຕໍ່ນີ້ອະນຸຍາດໃຫ້ທ່ານສາມາດເປີດໂຟນເດີທີ່ເລືອກ {0} ໃນ {1}. ທ່ານຕ້ອງການບັນຊີທີ່ຖືກຕ້ອງທີ່ຈະນໍາໃຊ້ການເຊື່ອມຕໍ່ນີ້. ມັນບໍ່ມີການເຂົ້າບໍລິຈາກເງິນກັບໂຟນເດີທີ່.</LinkToFileOpenFolderLink>
+  <LinkToFileOpenFileLink>ການເຊື່ອມຕໍ່ນີ້ສາມາດເປີດໂຟນເດີທີ່ມີໄຟລ໌ແລະໄຮໄລມັນ</LinkToFileOpenFileLink>
+  <LinkToFileDaysLeft>ວັນໄວ້</LinkToFileDaysLeft>
+  <LinkToFileCaptionMobile>ການເຊື່ອມຕໍ່ສາທາລະນະ</LinkToFileCaptionMobile>
+
+  <PublicFolderLinkHint>ການເຊື່ອມຕໍ່ສາທາລະນະທີ່ໂຟເດີ "{0}":</PublicFolderLinkHint>
+  <PublicFolderShortLinkHint>ການເຊື່ອມຕໍ່ສາທາລະນະສັ້ນທີ່ໂຟເດີ "{0}":</PublicFolderShortLinkHint>
+  <PublicFolderLinkDownloadZipHint>ດາວນ໌ໂຫລດການເຊື່ອມຕໍ່ສໍາລັບການຮວບຮວມຫັດໄປສະນີຂອງໂຟເດີ "{0}":</PublicFolderLinkDownloadZipHint>
+  <PublicFolderLinkShortDownloadZipHint>ການເຊື່ອມຕໍ່ດາວໂຫລດສັ້ນສໍາລັບການຮວບຮວມຫັດໄປສະນີຂອງໂຟເດີ "{0}":</PublicFolderLinkShortDownloadZipHint>
+  <PublicFolderLinkZipDownload>ບີບອັດແລະໂຟເດີດາວໂຫລດປັດຈຸບັນ {0} (ໃນຮວບຮວມໄປສະນີ)</PublicFolderLinkZipDownload>
+  <PublicFolderLinkOverwriteWhileUpload>ແທນທີ່ທີ່ມີຢູ່ແລ້ວ</PublicFolderLinkOverwriteWhileUpload>
+  <PublicFolderLinkOpenFolderHint>ເປີດໂຟເດີ</PublicFolderLinkOpenFolderHint>
+  <PublicFolderDownloadDisabledNote>ຫມາຍ​ເຫດ​! ເຈົ້າຂອງຂອງໂຟນເດີນີ້ໄດ້ຫ້າມບໍ່ໃຫ້ດາວໂຫຼດໄຟລ໌ຈາກແຟ້ມນີ້.</PublicFolderDownloadDisabledNote>
+  <PublicFolderLinkSendEmails>ສົ່ງຂໍ້ມູນກ່ຽວກັບກິດຈະກໍາຜູ້ມາຢ້ຽມຢາມອີເມວ</PublicFolderLinkSendEmails>
+  <PublicFolderAnonymAccessControl>ການຄວບຄຸມການເຂົ້າເຖິງ</PublicFolderAnonymAccessControl>
+  <PublicFolderAnonymDownload>ດາວນ໌ໂຫລດໄຟລ໌</PublicFolderAnonymDownload>
+  <PublicFolderAnonymZipDownload>ໂຟເດີດາວໂຫລດ (ໄປສະນີ)</PublicFolderAnonymZipDownload>
+  <PublicFolderAnonymUpload>Upload</PublicFolderAnonymUpload>
+  <PublicFolderAnonymViewContent>ເບິ່ງບັນຊີລາຍການເອກະສານ</PublicFolderAnonymViewContent>
+  <PublicFolderNoteForUsers>ຫມາຍເຫດສໍາລັບຜູ້ຊົມໃຊ້</PublicFolderNoteForUsers>
+  <PublicFolderACLNotSet>ການຄວບຄຸມການເຂົ້າເຖິງບໍ່ໄດ້ຕັ້ງ</PublicFolderACLNotSet>
+  <PublicFolderWarningAnonym>ການເຊື່ອມຕໍ່ນີ້ຈະສະຫນອງການເຂົ້າເຖິງບໍລິຈາກເງິນກັບໂຟນເດີທີ່. ຜູ້ໃຊ້ໃດຫນຶ່ງ, ເຖິງແມ່ນວ່າຄົນທີ່ມີບັນຊີທີ່ບໍ່ມີໃນເວັບໄຊນີ້, ອາດຈະດາວໂຫລດຫລືອັບໂຫລດໄຟຜ່ານການເຊື່ອມຕໍ່ສາທາລະນະ. A ການເຊື່ອມຕໍ່ສາທາລະນະກັບໂຟນເດີທີ່ອະນຸຍາດໃຫ້ທ່ານ, ເພື່ອດາວໂຫລດທັງໂຟນເດີທັງຫມົດ (ບັນຈຸໃນຮວບຮວມ) ແລະໄຟລ໌ບຸກຄົນ. {0} ຂໍ້ມູນເພີ່ມເຕີມ {1}.</PublicFolderWarningAnonym>
+  <PublicLinksShowForAllItems>ສະແດງໃຫ້ເຫັນສໍາລັບການທັງຫມົດ</PublicLinksShowForAllItems>
+  <PublicLinksShowForSelected>ສະແດງໃຫ້ເຫັນສໍາລັບການຄັດເລືອກ</PublicLinksShowForSelected>
+  
+  <MultipleFileInputMessage>ຫມາຍ​ເຫດ​! ຕົວທ່ອງເວັບຂອງທ່ານສະຫນັບສະຫນູນການຄັດເລືອກໄຟລ໌ຫຼາຍໃນເວລາດຽວ.</MultipleFileInputMessage>
+  <UploadZipUnzipNote>ທ່ານສາມາດອັບໂຫລດຮວບຮວມຫັດໄປສະນີທີ່ມີຫຼາຍໄຟລ໌ແລະແຟ້ມແລະຫຼັງຈາກນັ້ນສານສະກັດຈາກມັນ, ການນໍາໃຊ້ "{0}" ຄໍາສັ່ງໃນເມນູສະພາບການ.</UploadZipUnzipNote>
+  <DnDFileUploadingStatusCode>ລະຫັດສະຖານະພາບ</DnDFileUploadingStatusCode>
+  <DnDFileUploadingPathOrNameEmpty>ເສັ້ນທາງແລະຫຼືຊື່ເອກະສານຍັງບໍ່ໄດ້ລະບຸ</DnDFileUploadingPathOrNameEmpty>
+  <DnDFileUploadingRemoveFromList>ເອົາອອກຈາກບັນຊີລາຍການ</DnDFileUploadingRemoveFromList>
+  <DndFileUploadingDontDropFoldersMsg>ທ່ານສາມາດ drag ແລະລົງໄຟລ໌ເຂົ້າໄປໃນຕາຕະລາງຂ້າງລຸ່ມນີ້. ທ່ານບໍ່ສາມາດລົງໂຟເດີ.</DndFileUploadingDontDropFoldersMsg>
+  <DndFileUploadingAllowDropFoldersMsg>ທ່ານສາມາດ drag ແລະລົງໄຟລ໌ແລະໂຟນເດີ້ເຂົ້າໄປໃນຕາຕະລາງຂ້າງລຸ່ມນີ້.</DndFileUploadingAllowDropFoldersMsg>
+  <DndFileUploadingFilesSummaryInfo>ນັບຂອງໄຟລ໌: {0} ({1})</DndFileUploadingFilesSummaryInfo>
+  <DropFilesHere>ລົງໄຟລ໌ເພື່ອອັບໂຫລດ</DropFilesHere>
+  
+  <FileGridDownloadColumn>ດາວນ໌ໂຫລດໄຟລ໌</FileGridDownloadColumn>
+  <FileAttributesField>ຄຸນລັກສະນະ</FileAttributesField>
+  <FolderCalculateSize>ຄິດໄລ່</FolderCalculateSize>
+  <FolderRecalculateSize>ຄໍານວນ</FolderRecalculateSize>
+  <FolderContainsField>ປະກອບດ້ວຍ</FolderContainsField>
+  <FolderContainsFilesFolders>{0} ໄຟ, {1} ໂຟເດີ</FolderContainsFilesFolders>
+  <FolderCalculatingMessage>ການຄິດໄລ່</FolderCalculatingMessage>
+
+  <SearchTitle>ຄົ້ນຫາເອກະສານ. ຮູບແບບການທີ່ມີຢູ່: {0}</SearchTitle>
+  <SearchType>ຄົ້ນຫາ</SearchType>
+  <SearchOnlyFiles>ໄຟລ໌ພຽງແຕ່</SearchOnlyFiles>
+  <SearchOnlyFolders>ໂຟເດີພຽງແຕ່</SearchOnlyFolders>
+  <SearchBothFilesFolders>ທັງສອງໄຟລ໌ແລະແຟ້ມ</SearchBothFilesFolders>
+  <SearchFileDetails>ລາຍລະອຽດເອກະສານ</SearchFileDetails>
+  <SearchFileContent>ເນື້ອໃນເອກະສານ</SearchFileContent>
+  <SearchByDateFrom>ຈາກ</SearchByDateFrom>
+  <SearchByDateTo>ການ</SearchByDateTo>
+  <SearchLocation>ສະຖານທີ່</SearchLocation>
+  <SearchLocationEntire>ທຸກແຫ່ງຫົນ</SearchLocationEntire>
+  <SearchLocationCurrent>ປັດຈຸບັນ</SearchLocationCurrent>
+  <SearchSearch>ຄົ້ນຫາ</SearchSearch>
+  <SearchNothingFound>ບໍ່ມີຫຍັງໄດ້ພົບເຫັນ! ກະລຸນາປັບປຸງເງື່ອນໄຂການຄົ້ນຫາຂອງທ່ານ.</SearchNothingFound>
+  <SearchErrorCaption>ຄວາມຜິດພາດການຄົ້ນຫາ</SearchErrorCaption>
+  <SearchResultsNotComplete>ເອົາໃຈໃສ່! ຜົນການຄົ້ນຫາດັ່ງກ່າວອາດຈະບໍ່ຄົບຖ້ວນຍ້ອນໂຟເດີບາງຍັງບໍ່ທັນໄດ້ຈັດດັດສະນີທັນ.</SearchResultsNotComplete>
+  <SearchRepeatOrContactAdmin>ກະລຸນາພະຍາຍາມຄົ້ນຫາຂອງທ່ານອີກເທື່ອຫນຶ່ງຫຼັງຈາກນັ້ນຫຼືຕິດຕໍ່ຫາບໍລິຫານຂອງທ່ານ.</SearchRepeatOrContactAdmin>
+  <SearchLinkToManual>ອ້າງເຖິງ {0} Help Windows Search {1}</SearchLinkToManual>
+  <QuerySearchByNameText>ຄົ້ນຫາໂດຍຊື່</QuerySearchByNameText>
+  <QuerySearchByConentText>ໂດຍເນື້ອໃນ</QuerySearchByConentText>
+  <SearchByDetailsWarning>ເອົາໃຈໃສ່! ທ່ານໄດ້ລະບຸໄວ້ໃນການຕັ້ງຄ່າທີ່ທ່ານຢາກຈະນໍາໃຊ້ການຊອກຫາໂດຍຄຸນສົມບັດໄດ້. ໃນກໍລະນີນີ້, ການຄົ້ນຫາຈະໄດ້ຮັບການປະຕິບັດການນໍາໃຊ້ວິທີການມາດຕະຖານແທນທີ່ຈະເປັນການນໍາໃຊ້ການບໍລິການ Indexing Windows.</SearchByDetailsWarning>
+  <SearchInSpecialFolderWarning>ເອົາໃຈໃສ່! ການຄົ້ນຫາໂຟເດີປັດຈຸບັນບໍ່ໄດ້ນໍາໃຊ້. ຖ້າຫາກວ່າທ່ານຍັງສືບຕໍ່, ການຄົ້ນຫາຈະໄດ້ຮັບການປະຕິບັດໃນການທັງຫມົດ.</SearchInSpecialFolderWarning>
+
+  <UploadTitle>ການອັບໂຫລດໄຟລ໌ຫຼາຍ</UploadTitle>
+  <UploadSimpleTab>ມາດຕະຖານ</UploadSimpleTab>
+  <UploadSimpleReset>ປັບ</UploadSimpleReset>
+  <UploadSimpleUpload>Upload</UploadSimpleUpload>
+  <UploadSimpleUploadFolderLabelCollapsed>ໂຟນເດີ Upload</UploadSimpleUploadFolderLabelCollapsed>
+  <UploadSimpleUploadFolderButtonText>ເລືອກໂຟນເດີ</UploadSimpleUploadFolderButtonText>
+  <UploadJavaTab>Java</UploadJavaTab>
+  <UploadJavaIgnorePaths>ສະຖານທີ່ໄຟລ໌ທັງຫມົດໃນຫນຶ່ງໂຟເດີ (ບໍ່ສົນໃຈເສັ້ນທາງ)</UploadJavaIgnorePaths>
+  <UploadFlashTab>Flash</UploadFlashTab>
+  <UploadSilverlightTab>Silverlight</UploadSilverlightTab>
+  <UploadPartially>ບາງສ່ວນຂອງໄຟລ໌ທີ່ບໍ່ສາມາດອັບໂຫລດ</UploadPartially>
+  <UploadFolderNotSelectedTitle>ໂຟເດີບໍ່ໄດ້ເລືອກ</UploadFolderNotSelectedTitle>
+  <UploadFolderNotSelected>ກະລຸນາເລືອກໂຟນເດີທີ່ໄຟລ໌ທີ່ຈະໄດ້ຮັບການອັບກັບ</UploadFolderNotSelected>
+  <UploadInProgress>ອັບໂຫຼດໄຟລ໌ຂອງທ່ານ</UploadInProgress>
+  <UploadInvalidFormFields>ທົ່ງນາຮູບແບບອາດຈະບໍ່ໄດ້ຮັບການສົ່ງກັບຄ່າທີ່ບໍ່ຖືກຕ້ອງ</UploadInvalidFormFields>
+  <UploadAjaxFailed>ການສື່ສານ Ajax ສົບຜົນສໍາເລັດ</UploadAjaxFailed>
+  <UploadFilesAlreadyExists>ເອກະສານ (s) ມີຢູ່ແລ້ວ</UploadFilesAlreadyExists>
+  <UploadOverwriteFiles>ໄຟລ໌ທີ່ມີຢູ່ແລ້ວຈະໄດ້ຮັບການຂຽນທັບ. ທ່ານຕ້ອງການທີ່ຈະດໍາເນີນການ?</UploadOverwriteFiles>
+  <UploadOverwriteOrRenameFiles>ມີຫນຶ່ງຫຼືຫຼາຍກວ່າໄຟລ໌ທີ່ມີຊື່ໂຍບາຍຄວາມລັບໃນລະບົບທີ່ທ່ານລະບຸເປັນ. ເຮັດແນວໃດທ່ານຕ້ອງການທີ່ຈະຂຽນທັບໄຟທີ່ມີຢູ່ແລ້ວ? ກົດ "{0}" ຖ້າຫາກວ່າທ່ານຕ້ອງການທີ່ຈະຂຽນທັບໄຟທີ່ມີຢູ່ແລ້ວ, ຫຼື "{1}" - ຖ້າຫາກວ່າທ່ານຕ້ອງການເພື່ອຊ່ວຍປະຢັດໄຟລ໌ທັງຫມົດ (ເຂົາເຈົ້າຈະໄດ້ຮັບການປ່ຽນຊື່).</UploadOverwriteOrRenameFiles>
+  <UploadNotModifyExistingFiles>ມີຫນຶ່ງຫຼືຫຼາຍກວ່າໄຟລ໌ທີ່ມີຂໍ້ມູນກົງກັບຊື່ໃນລະບົບທີ່ທ່ານລະບຸເປັນ. ໄຟທີ່ບໍ່ສາມາດອັບໂຫລດ. ກະລຸນາເອົາໄຟລ໌ທີ່ມີຢູ່ແລ້ວຈາກ upload ບັນຊີລາຍການຫລືປ່ຽນຊື່ໃຫ້ເຂົາເຈົ້າ.</UploadNotModifyExistingFiles>
+  <UploadRenamedExistingFiles>ມີຫນຶ່ງຫຼືຫຼາຍກວ່າໄຟລ໌ທີ່ມີຂໍ້ມູນກົງກັບຊື່ໃນລະບົບທີ່ທ່ານລະບຸເປັນ. ໄຟລ໌ທີ່ມີຊື່ຂອງຈະໄດ້ຮັບການປ່ຽນຊື່.</UploadRenamedExistingFiles>
+  <UploadNotAllowedTitle>Upload ບໍ່ໄດ້ຮັບອະນຸຍາດ</UploadNotAllowedTitle>
+  <UploadNotAllowedPrompt>ທ່ານບໍ່ສາມາດອັບໂຫລດໄຟລ໌ໄປຫາໂຟນເດີນີ້</UploadNotAllowedPrompt>
+
+  <UploadMobileIOSVideo>ອັບໂຫລດວີດີໂອ. ເຮັດໃຫ້ທາງເລືອກນີ້ຖ້າຫາກວ່າທ່ານຕ້ອງການອັບໂຫລດໄຟລ໌ວິດີໂອ.</UploadMobileIOSVideo>
+  <UploadMobileAurigmaLink>ກະລຸນາສັງເກດວ່າທ່ານຄວນຈະມີ Aurigma Up! ການຕິດຕັ້ງໃນອຸປະກອນຂອງທ່ານໃນຄໍາສັ່ງທີ່ຈະອັບໄຟລ໌. ແຕະບ່ອນນີ້ເພື່ອຕິດຕັ້ງ Aurigma Up! ຄໍາຮ້ອງສະຫມັກສໍາລັບການອັບໂຫຼດຮູບພາບແລະວິດີໂອ.</UploadMobileAurigmaLink>
+  <UploadMobileAurigmaReady>ຫຼັງຈາກ Aurigma Up! ມີການຕິດຕັ້ງຫຼືຖ້າຫາກວ່າທ່ານມີການຕິດຕັ້ງ, ໃຫ້ກົດປຸ່ມ "ອັບ" ຂ້າງລຸ່ມນີ້.</UploadMobileAurigmaReady>
+  <UploadMobileAurigmaFilePrefix>ຄໍານໍາຫນ້າສໍາລັບໄຟລ໌ທີ່ອັບໂຫຼດ</UploadMobileAurigmaFilePrefix>
+  <UploadMobileResult>ອັບໂຫລດ:</UploadMobileResult>
+  <UploadMobileUrlPlaceHolder>ກະລຸນາໃສ່ URL ທີ່ນີ້</UploadMobileUrlPlaceHolder>
+  <UploadMobileFileNamePlaceHolder>ກະລຸນາໃສ່ຊື່ file ໃຫມ່ທີ່ນີ້</UploadMobileFileNamePlaceHolder>
+  <UploadBrowseLabel>ເອີ້ນເບິ່ງ ...</UploadBrowseLabel>
+  
+  <MobileToolTipsCaption>ທ່ານຮູ້ບໍ່ວ່າ ...</MobileToolTipsCaption>
+  <MobileToolTipsNextButton>ປາຍຕໍ່ໄປ</MobileToolTipsNextButton>
+  <MobileToolTipsIKnowButton>ຂ້າພະເຈົ້າຮູ້ແລ້ວວ່າມັນ</MobileToolTipsIKnowButton>
+  <MobileToolTipsHideButton>ບໍ່ເຄີຍສະແດງໃຫ້ເຫັນ</MobileToolTipsHideButton>
+  <MobileToolTipsMultiSelection>ເພື່ອຄັດເລືອກເອົາໄຟລ໌ຫຼືແຟ້ມຫຼາຍ, ທ່ານຄວນຈະເຮັດໃຫ້ຮູບແບບຫຼາຍການຄັດເລືອກໂດຍການປາດຢາງໃນ {0} ປຸ່ມ &lt;b&gt; &lt;/b&gt;. ປາດມັນອີກເທື່ອຫນຶ່ງເພື່ອອອກຈາກຮູບແບບຫຼາຍການຄັດເລືອກ.</MobileToolTipsMultiSelection>
+  <MobileToolTipsSlideToRemove>ທ່ານສາມາດບໍລິຈາກຂວາໄປຊ້າຍກ່ຽວກັບການໃດໆຂອງລາຍການບັນຊີລາຍການທີ່ຈະເອົາມັນ. ປຸ່ມລົບເສັ້ນຈະໄດ້ຮັບການສະແດງສຸດເທິງຂອງລາຍການບັນຊີລາຍການ.</MobileToolTipsSlideToRemove>
+  <MobileToolTipsTapAndHoldForMenu>ປາດແລະຖືກ່ຽວກັບການໃດໆຂອງລາຍການລາຍການທີ່ຕ້ອງສະແດງໃຫ້ເຫັນເມນູສະພາບການ. ເມນູສະພາບດຽວກັນສະແດງໂດຍປາດໃສ່ປຸ່ມ 'ເປີດເຜີຍ'</MobileToolTipsTapAndHoldForMenu>
+  <MobileToolTipsDoubleTapForPreview>ທໍ່ດຽວກ່ຽວກັບເອກະສານທີ່ຈະເລືອກເອົາ, ທໍ່ສອງເທົ່າກັບສະແດງຫລືດາວໂຫລດໄດ້. ແຕະພຽງຄັ້ງດຽວໃນໂຟນເດີທີ່ຈະເປີດມັນ.</MobileToolTipsDoubleTapForPreview>
+  <MobileToolTipsPullDownToRefresh>ດຶງລົງບັນຊີລາຍການເພື່ອໂຫລດເນື້ອໃນຂອງມັນ.</MobileToolTipsPullDownToRefresh>
+  <MobileToolTipsPinchToScale>ທ່ານສາມາດນໍາໃຊ້ 'ເມື່ອເຂົ້າຕາຈົນ "gesture ເພື່ອຂະຫຍາຍໃນແລະຂະຫຍາຍອອກຮູບພາບຕ່າງໆ.</MobileToolTipsPinchToScale>
+  <MobileToolTipsTapToHideBars>ປາດທຸກບ່ອນໃນກະດານຮູບພາບການສະຫຼັບແຖບເຄື່ອງມື.</MobileToolTipsTapToHideBars>
+  <MobileToolTipsSlideLeftRightToNext>ປ່ຽນຮູບພາບທີ່ມີບໍລິການ gesture.</MobileToolTipsSlideLeftRightToNext>
+
+  <DownloadToCloudMobileTip>ແຕະພຽງຄັ້ງດຽວເພື່ອເລືອກໂຟເດີ, ທໍ່ສອງເທົ່າທີ່ຈະເປີດມັນ.</DownloadToCloudMobileTip>
+  
+  <UploadTotalMaxSizeMessage>ຫມາຍ​ເຫດ​! ຂະຫນາດສູງສຸດຂອງໄຟລ໌ທີ່ອັບໂຫລດທັງຫມົດບໍ່ຄວນເກີນ {0}.</UploadTotalMaxSizeMessage>
+  <UploadOneFileMaxSizeMessage>ຫມາຍ​ເຫດ​! ຂະຫນາດສູງສຸດຂອງເອກະສານອັບໂຫຼດບໍ່ຄວນເກີນ {0}.</UploadOneFileMaxSizeMessage>
+  <UploadUnlimitedSizeMessage>ຫມາຍ​ເຫດ​! ຂະຫນາດຂອງໄຟລ໌ທີ່ອັບໂຫຼດແລ້ວແມ່ນບໍ່ຈໍາກັດ.</UploadUnlimitedSizeMessage>
+  <SimpleUploadSetFileNameNote>ຫມາຍເຫດ 2! ຫຼັງຈາກທີ່ເອກະສານແມ່ນການຄັດເລືອກທີ່ທ່ານສາມາດປັບປຸງແກ້ໄຂຊື່ທີ່ໄຟລ໌ຈະມີຫລັງຈາກການອັບໂຫຼດ</SimpleUploadSetFileNameNote>
+
+  <AnonymousUploadTitle>ອັບໂຫຼດໄຟລ໌ໄປຫາໂຟນເດີນີ້</AnonymousUploadTitle>
+  <AnonymousUploadDescription>ທ່ານສາມາດອັບໄຟລ໌ໄປຫາໂຟນເດີນີ້. ຄິກທີ່ປຸ່ມ "ເບິ່ງ" ຂ້າງລຸ່ມນີ້ແລະເລືອກເອົາໄຟລ໌.</AnonymousUploadDescription>
+  <AnonymousUploadOverwriteHint>ຖ້າຫາກວ່າໄຟລ໌ທີ່ອັບໂຫລດຢູ່ແລ້ວ, ມັນຈະໄດ້ຮັບການທົດແທນ.</AnonymousUploadOverwriteHint>
+  <AnonymousUploadShowUploadHint>ສະແດງໃຫ້ເຫັນຮູບແບບການອັບໂຫຼດ</AnonymousUploadShowUploadHint>
+  <AnonymousUploadHideUploadHint>ຮູບແບບ upload ຊ່ອນ</AnonymousUploadHideUploadHint>
+  <AnonymousUploadNewFolderNameHint>ໃນພາກສະຫນາມຂ້າງລຸ່ມນີ້ທ່ານສາມາດລະບຸຊື່ Subdirectory (folder ຈະໄດ້ຮັບການສ້າງຕັ້ງຂື້ນຖ້າຫາກວ່າມັນບໍ່ມີ) ໃນໄຟລ໌ທີ່ຈະໄດ້ຮັບການອັບໂຫລດ:</AnonymousUploadNewFolderNameHint>
+  <AnonymousUploadCompleteTitle>ການອັບໂຫຼດກັບໂຟນເດີ {0} ຈະສໍາເລັດ</AnonymousUploadCompleteTitle>
+  <AnonymousUploadExistsFilesMessage>ເອກະສານດັ່ງຕໍ່ໄປນີ້ (s) ຍັງບໍ່ທັນໄດ້ອັບໂຫຼດເນື່ອງຈາກວ່າເອກະສານ (s) ມີຊື່ດຽວກັນ (s) ມີຢູ່ແລ້ວ:. {0}</AnonymousUploadExistsFilesMessage>
+  <AnonymousUploadOwnersNote>ສັງເກດຈາກການໃຊ້ໂຟເດີ</AnonymousUploadOwnersNote>
+  <AnonymousDownloadPageTitle>ດາວໂຫຼດເອກະສານ</AnonymousDownloadPageTitle>
+  <AnonymousDownloadFileHint>ດາວໂຫຼດເອກະສານ</AnonymousDownloadFileHint>
+  <AnonymousUploadPageTitle>ອັບໂຫລດໄປຍັງໂຟນເດີ</AnonymousUploadPageTitle>
+  <AnonymousPublicFolderPageTitle>ໂຟນເດີສາທາລະນະ</AnonymousPublicFolderPageTitle>
+  <AnonymousLoginAccessUserFailure>ທ່ານກໍາລັງເຂົ້າສູ່ລະບົບບັນຊີທີ່ບໍ່ມີການເຂົ້າເຖິງຊັບພະຍາກອນ. ກະລຸນາໃສ່ຂໍ້ມູນອື່ນໆສໍາລັບການເຂົ້າເຖິງຂອງທ່ານ. ຖ້າຫາກວ່າທ່ານບໍ່ຮູ້ຈັກເຂົາເຈົ້າ, ກະລຸນາຕິດຕໍ່ຫາເຈົ້າຂອງການເຊື່ອມຕໍ່ສາທາລະນະຫລືຜູ້ບໍລິຫານຂອງທ່ານ.</AnonymousLoginAccessUserFailure>
+  <ProgressGettingAnonymLink>ການສ້າງການເຊື່ອມຕໍ່ສາທາລະນະ</ProgressGettingAnonymLink>
+  <ProgressGettingAnonymLinks>ໄດ້ຮັບການເຊື່ອມຕໍ່ບໍລິຈາກເງິນ</ProgressGettingAnonymLinks>
+  <ProgressGettingBoxViewLink>ໄດ້ຮັບກ່ອງເບິ່ງການເຊື່ອມຕໍ່</ProgressGettingBoxViewLink>
+  <AutodeskScriptNotIncludedMessage>ບໍ່ສາມາດໂຫລດ script Autodesk Viewer</AutodeskScriptNotIncludedMessage>
+  <ProgressUninitializeAutodeskViewer>ປິດ Autodesk Viewer</ProgressUninitializeAutodeskViewer>
+  <ProgressGettingAutodeskViewLink>ໄດ້ຮັບ Autodesk ເບິ່ງຂໍ້ມູນ</ProgressGettingAutodeskViewLink>
+  <AnonymousChangeLanguageHint>ເລືອກພາສາ</AnonymousChangeLanguageHint>
+  <AnonymousUpLinkHint>ກັບຄືນໄປໂຟເດີ</AnonymousUpLinkHint>
+  <AnonymousPasswordDescription>ໂຟນເດີແມ່ນລະຫັດຜ່ານປ້ອງກັນ</AnonymousPasswordDescription>
+  <AnonymousPasswordIncorrectMessage>ລະຫັດຜ່ານບໍ່ຖືກຕ້ອງ</AnonymousPasswordIncorrectMessage>
+  <AnonymousErrorTitle>ຄວາມຜິດພາດການເຊື່ອມຕໍ່ສາທາລະນະ</AnonymousErrorTitle>
+  <AnonymousErrorNotFound>ການເຊື່ອມຕໍ່ສາທາລະນະ "{0}" ບໍ່ໄດ້ພົບເຫັນ!</AnonymousErrorNotFound>
+  <AnonymousErrorAccessDenied>ທ່ານບໍ່ມີການອະນຸຍາດການນໍາໃຊ້ການເຊື່ອມຕໍ່ສາທາລະນະ "{0}"</AnonymousErrorAccessDenied>
+  <AnonymousErrorFileNotFound>ການເຊື່ອມຕໍ່ສາທາລະນະ "{0}" ຫມາຍເຖິງເອກະສານທີ່ບໍ່ແມ່ນທີ່ມີຢູ່ແລ້ວຫຼືໂຟນເດີຫຼື NTFS ອ່ານເຂົ້າເຖິງຖືກປະຕິເສດ</AnonymousErrorFileNotFound>
+  <AnonymousErrorUnknownLinkType>ການເຊື່ອມຕໍ່ສາທາລະນະ "{0}" ບໍ່ໄດ້ພົບເຫັນ</AnonymousErrorUnknownLinkType>
+  <AnonymousSendEmailSubject>ກິດຈະກໍາຜູ້ມາຢ້ຽມຢາມຂອງໂຟເດີສາທາລະນະ</AnonymousSendEmailSubject>
+  <AnonymousSendEmailUploadBody>ໄຟລ໌ດັ່ງຕໍ່ໄປນີ້ໄດ້ຮັບການອັບໂຫຼດກັບໂຟນເດີສາທາລະນະຂອງທ່ານ {0}:. {1}</AnonymousSendEmailUploadBody>
+  <AnonymousSendEmailDownloadBody>ແຟ້ມ {0} ຖືກດາວໂຫລດຈາກໂຟເດີສາທາລະນະຂອງທ່ານ {1}.</AnonymousSendEmailDownloadBody>
+  <AnonymousSendEmailZipDownloadBody>ເນື້ອໃນທັງຫມົດຂອງໂຟເດີສາທາລະນະ {0} ຖືກດາວໂຫລດໃນຮວບຮວມໄປສະນີ.</AnonymousSendEmailZipDownloadBody>
+  <AnonymousViewLinksButton>ເບິ່ງການເຊື່ອມຕໍ່</AnonymousViewLinksButton>
+  <AnonymousViewLinksHint>ເພື່ອເບິ່ງການເຊື່ອມຕໍ່ສາທາລະນະທີ່ມີຢູ່ແລ້ວ</AnonymousViewLinksHint>
+  <AnonymousViewLinksWindowTitle>ການເຊື່ອມຕໍ່ສາທາລະນະ</AnonymousViewLinksWindowTitle>
+  <AnonymousViewLinksDateCreatedColumn>ວັນທີການສ້າງ</AnonymousViewLinksDateCreatedColumn>
+  <AnonymousViewLinksDateExpiredColumn>ວັນ​ຫມົດ​ອາ​ຍຸ</AnonymousViewLinksDateExpiredColumn>
+  <AnonymousViewLinksPermissionColumn>ການອະນຸຍາດ</AnonymousViewLinksPermissionColumn>
+  <AnonymousViewLinksDownloadedColumn>ຈໍານວນການດາວໂຫລດໄວ້</AnonymousViewLinksDownloadedColumn>
+  <ProgressDeletingAnonymousLink>ລຶບການເຊື່ອມຕໍ່ສາທາລະນະ</ProgressDeletingAnonymousLink>
+  <ProgressSavingAnonymousLink>ກໍາລັງບັນທຶກການເຊື່ອມຕໍ່ສາທາລະນະ</ProgressSavingAnonymousLink>
+  <AnonymousEditLinkWindowTitle>ແກ້ໄຂການເຊື່ອມຕໍ່ສາທາລະນະສໍາລັບການ "{0}"</AnonymousEditLinkWindowTitle>
+  <AnonymousEditLinkShowUrl>ສະແດງໃຫ້ເຫັນການເຊື່ອມຕໍ່</AnonymousEditLinkShowUrl>
+  <AnonymousEditLinkNotFound>ການເຊື່ອມຕໍ່ສາທາລະນະແມ່ນບໍ່ພົບເຫັນຫລືໄລຍະເວລາຂອງຄວາມຖືກຕ້ອງຫມົດອາຍຸແລ້ວ</AnonymousEditLinkNotFound>
+
+  <AnonymousLinkSendViaButton>ສົ່ງຜ່ານທາງ ...</AnonymousLinkSendViaButton>
+  <AnonymousLinkSendViaEmailItem>ອີເມວ ...</AnonymousLinkSendViaEmailItem>
+  <AnonymousLinkSendButton>ສົ່ງຜ່ານທາງອີເມວ ...</AnonymousLinkSendButton>
+  <AnonymousLinkSendSubject>Manager Web File Link ສາທາລະນະ</AnonymousLinkSendSubject>
+
+  <AnonymousLinkAdvOptTitle>ຕົວກໍານົດການເພີ່ມເຕີມ</AnonymousLinkAdvOptTitle>
+  <AnonymousLinkViewTypeButton>ເບິ່ງການເຊື່ອມຕໍ່</AnonymousLinkViewTypeButton>
+  <AnonymousLinkViewTypeDefault>ຢ່າງເຕັມທີ່</AnonymousLinkViewTypeDefault>
+  <AnonymousLinkViewTypeShort>ສັ້ນ</AnonymousLinkViewTypeShort>
+
+  <AnonymousLinkShowCommentsLabel>ສະແດງໃຫ້ເຫັນລາຍລະອຽດ, ປ້າຍແລະຄໍາຄິດເຫັນ</AnonymousLinkShowCommentsLabel>
+  <AnonymousLinkShowCommentsShort>ສະແດງຄວາມຄິດເຫັນ</AnonymousLinkShowCommentsShort>
+
+  <QRCodeButton>ລະຫັດ QR</QRCodeButton>
+
+  <AnonymousLinkLimitedAccessTitle>ການເຂົ້າເຖິງຈໍາກັດ</AnonymousLinkLimitedAccessTitle>
+  <AnonymousLinkLimitAccessCheckBox>ຈໍາກັດການເຂົ້າເຖິງພຽງແຕ່ຜູ້ໃຊ້ຮັບຮອງຄວາມຖືກກໍານົດໄວ້</AnonymousLinkLimitAccessCheckBox>
+  <AnonymousLinkLimitAccessTextArea>ພິມຊື່ຜູ້ໃຊ້ຫລືອີເມວ (ຈຸດແຍກ)</AnonymousLinkLimitAccessTextArea>
+  <AnonymousLinkLimitAccessSendCheckBox>ສົ່ງການແຈ້ງເຕືອນໃຫ້ຜູ້ໃຊ້ກໍານົດໄວ້</AnonymousLinkLimitAccessSendCheckBox>
+  <AnonymousLinkLimitAccessPersMsgLabel>ຂໍ້ຄວາມສ່ວນບຸກຄົນ (ຖ້າຕ້ອງການ)</AnonymousLinkLimitAccessPersMsgLabel>
+  <AnonymousLinkLimitAccessPassAndUsersMsg>ທ່ານໄດ້ລະບຸລະຫັດຜ່ານແລະຜູ້ຊົມໃຊ້ຂອງທ່ານໃນເວລາດຽວກັນໃນການເຂົ້າເຖິງການເຊື່ອມຕໍ່. ກະລຸນາລະບຸບາງສິ່ງບາງຢ່າງຫນຶ່ງ.</AnonymousLinkLimitAccessPassAndUsersMsg>
+  <AnonymousLinkLimitAccessUsersNotFound>ຜູ້ໃຊ້:
+    {0}
+    ໄດ້ຢູ່</AnonymousLinkLimitAccessUsersNotFound>
+  <AnonymousLinkLimitAccessEmailsNotFound>ອີເມວ:
+    {0}
+    ໄດ້ຢູ່</AnonymousLinkLimitAccessEmailsNotFound>
+  <AnonymousLinkLimitAccessUsersEmailsNotFound>ຜູ້ໃຊ້:
+    {0}
+    ແລະອີເມວ:
+    {1}
+    ໄດ້ຢູ່</AnonymousLinkLimitAccessUsersEmailsNotFound>
+
+  <AnonymousLinkUnableToCreate>ບໍ່ສາມາດສ້າງການເຊື່ອມຕໍ່ບໍລິຈາກເງິນ</AnonymousLinkUnableToCreate>
+  <AnonymousLinkShortUrlLabel>ກະລຸນາຄິກທີ່ໄອຄອນໂຫຼດຫນ້າຈໍຄືນ (ຢູ່ດ້ານລຸ່ມຂວາ) ທີ່ຈະໄດ້ຮັບການເຊື່ອມຕໍ່ສັ້ນ</AnonymousLinkShortUrlLabel>
+  <AnonymousLinkShortUrlUpdate>ໄດ້ຮັບຫຼືປັບປຸງການເຊື່ອມຕໍ່ສັ້ນ</AnonymousLinkShortUrlUpdate>
+  <AnonymousLinkLongUrlNotSpecified>The URL ຍາວບໍ່ໄດ້ລະບຸ</AnonymousLinkLongUrlNotSpecified>
+
+  <ClientFileOrDirectoryAlreadyExists>A ໄຟລ໌ຫຼືລະບົບທີ່ມີຊື່ນີ້ມີຢູ່ແລ້ວ</ClientFileOrDirectoryAlreadyExists>
+  <ClientPermissionsAllowTypes>ການອະນຸຍາດໃນປະຈຸບັນອະນຸຍາດໃຫ້ດໍາເນີນການນີ້ພຽງແຕ່ມີປະເພດເອກະສານດັ່ງຕໍ່ໄປນີ້ {0}</ClientPermissionsAllowTypes>
+  <ClientPermissionsDenyTypes>ການອະນຸຍາດໃນປະຈຸບັນຫ້າມການດໍາເນີນງານນີ້ມີປະເພດເອກະສານດັ່ງຕໍ່ໄປນີ້ {0}</ClientPermissionsDenyTypes>
+  <OfficeApplicationNotFoundAlert>ຄໍາຮ້ອງສະຫມັກຫ້ອງການບໍ່ໄດ້ພົບເຫັນ. ເປີດໄຟລ໌ດ້ວຍຕົນເອງການນໍາໃຊ້ການເຊື່ອມຕໍ່ຢູ່ໃນປ່ອງຂໍ້ຄວາມ.</OfficeApplicationNotFoundAlert>
+  <OfficeAnonymousEditPublicLinkError>ບໍ່ສາມາດສ້າງການເຊື່ອມຕໍ່ສາທາລະນະເອກະສານການເປີດຫ້ອງການບໍ່ລະບຸຊື່.</OfficeAnonymousEditPublicLinkError>
+
+  <GoogleOWAViewLinkMessage>ເພື່ອເບິ່ງເອກະສານທີ່ຄລິກໃສ່ການເຊື່ອມຂ້າງລຸ່ມນີ້:</GoogleOWAViewLinkMessage>
+  <ZohoEditLinkMessage>ການແກ້ໄຂການເຊື່ອມຕໍ່ເອກະສານກົດຂ້າງລຸ່ມນີ້ໄດ້:</ZohoEditLinkMessage>
+  <PixlrEditLinkMessage>ການແກ້ໄຂການເຊື່ອມຕໍ່ຮູບພາບຄລິກດັງຕໍ່ໄປນີ້:</PixlrEditLinkMessage>
+  <PixlrNewImageCreateTitle>ສ້າງຮູບພາບທີ່ໃຫມ່ທີ່ມີ Pixlr</PixlrNewImageCreateTitle>
+  <PixlrNewImageLinkMessage>ການສ້າງຮູບພາບການໃຫມ່, ໃຫ້ຄລິກໃສ່ການເຊື່ອມຕໍ່ຂ້າງລຸ່ມນີ້:</PixlrNewImageLinkMessage>
+
+  <DownloadTitle>ດາວນ໌ໂຫລດຂອງໄຟລ໌ຫຼາຍ</DownloadTitle>
+  <DownloadSimpleTab>ມາດຕະຖານ</DownloadSimpleTab>
+  <DownloadJavaTab>Java</DownloadJavaTab>
+  <DownloadIEPrevent>Internet Explorer ປ້ອງກັນບໍ່ໃຫ້ດາວໂຫລດອັດຕະໂນມັດ</DownloadIEPrevent>
+  <DownloadIEClickHere>ຄລິກທີ່ນີ້ເພື່ອດາວໂຫລດ</DownloadIEClickHere>
+  <DownloadIEArchiveReady>Archive "{0}" ທີ່ມີໄຟລ໌ທີ່ເລືອກໄດ້ສ້າງຕັ້ງຂື້ນແລະແມ່ນກຽມພ້ອມສໍາລັບດາວໂຫລດ</DownloadIEArchiveReady>
+  <DownloadIECaption>ດາວໂຫລດແມ່ນພ້ອມທີ່ຈະ</DownloadIECaption>
+
+  <SettingsTitle>ການຕັ້ງຄ່າ</SettingsTitle>
+  <SettingsLanguage>ພາສາ</SettingsLanguage>
+  <SettingsLogOutRequired>ການປ່ຽນແປງໃຫມ່ຈະໄດ້ຮັບການນໍາໃຊ້ຫຼັງຈາກອອກຈາກລະບົບຫລື restart ຕົວທ່ອງເວັບ!</SettingsLogOutRequired>
+  <ThemeTitle>ການປ່ຽນແປງຫົວຂໍ້</ThemeTitle>
+  <SettingsTheme>ເລືອກເອົາຫົວຂໍ້</SettingsTheme>
+  <ThemeDefaultTitle>Default Theme</ThemeDefaultTitle>
+  <ThemeGrayTitle>Theme ສີຂີ້ເຖົ່າ</ThemeGrayTitle>
+  <ThemeAccessTitle>ການເຂົ້າເຖິງຫົວຂໍ້</ThemeAccessTitle>
+
+  <ChangeUserPasswordTitle>ການປ່ຽນແປງລະຫັດຜ່ານຂອງຜູ້ໃຊ້</ChangeUserPasswordTitle>
+  <ChangeUserPasswordOldPassword>ລະ​ຫັດ​ຜ່ານ​ເກົ່າ</ChangeUserPasswordOldPassword>
+  <ChangeUserPasswordNewPassword>ລະຫັດຜ່ານໃຫມ່</ChangeUserPasswordNewPassword>
+  <ChangeUserPasswordRepeatNewPassword>ລະຫັດຜ່ານໃຫມ່ຊ້ໍາ</ChangeUserPasswordRepeatNewPassword>
+  <ChangeUserPasswordPasswordsNotMatch>ລະຫັດຜ່ານບໍ່ກົງກັນ.</ChangeUserPasswordPasswordsNotMatch>
+  <ChangeUserPasswordSuccessMessage>ລະຫັດຜ່ານໄດ້ຮັບການປ່ຽນແປງ.</ChangeUserPasswordSuccessMessage>
+  <ChangeUserPasswordInvalidMessage>ລະຫັດຜ່ານບໍ່ຖືກຕ້ອງ.</ChangeUserPasswordInvalidMessage>
+
+  <ChangeUserEmailTitle>ການປ່ຽນແປງຜູ້ໃຊ້ອີເມລ</ChangeUserEmailTitle>
+  <ChangeUserEmailEmail>ອີເມລ໌</ChangeUserEmailEmail>
+  <ChangeUserEmailSuccessMessage>ອີເມລ໌ໄດ້ຮັບການປ່ຽນແປງ.</ChangeUserEmailSuccessMessage>
+
+  <UserHelpTitle>ການຊ່ວຍເຫຼືອຜູ້ໃຊ້</UserHelpTitle>
+
+  <LicenseTitle>ຂໍ້ມູນໃບອະນຸຍາດ</LicenseTitle>
+  <LicenseTrial>ບຸກຄົນທົ່ວໄປ 30 ວັນສະບັບພາສາການປະເມີນຜົນ</LicenseTrial>
+  <LicensePrompt>ສະບັບອະນຸຍາດ {0} ຜູ້ໃຊ້ນັບ: {1} {0} ວັນ Purchase: {2} {0}</LicensePrompt>
+  <LicenseFreeUpgradeMessage>ທ່ານຍັງມີ {0} ວັນສໍາລັບການຍົກລະດັບແລະສະຫນັບສະຫນູນ.</LicenseFreeUpgradeMessage>
+  <LicenseCheckMessage>ຫຼາຍກ່ວາປີໄດ້ຜ່ານໄປຈາກວັນທີຂອງການຊື້. ການນໍາໃຊ້ສະບັບນີ້ທ່ານຄວນຈະຕໍ່ອາຍຸການສະຫມັກຫຼື downgrade ຂອງທ່ານເປັນຮຸ່ນເກົ່າ. ທ່ານສາມາດກວດສອບໃບອະນຸຍາດຂອງທ່ານແລະຊອກຫາການປ່ອຍມີຢູ່ໃນ &lt;a href='{0}' target='_blank'&gt; Check ຫນ້າໃບອະນຸຍາດ &lt;/a&gt;</LicenseCheckMessage>
+  
+  <ViewPopupBlocked>ປ່ອງຢ້ຽມໃຫມ່ໄດ້ຮັບການສະກັດໂດຍຕົວນິຍົມ</ViewPopupBlocked>
+  
+  <LoginTwoFactorTitle>ການຢັ້ງຢືນທັງສອງຂັ້ນຕອນ</LoginTwoFactorTitle>
+  <LoginTitle>ເຂົ້າ​ສູ່​ລະ​ບົບ</LoginTitle>
+  <LoginRemember>ຈືຂໍ້ມູນການຂ້າພະເຈົ້າທີ່ໃຊ້ເວລາຕໍ່ໄປ</LoginRemember>
+  <LoginUISelect>ການໂຕ້ຕອບ</LoginUISelect>
+  <LoginUIStandard>ມາດຕະຖານ</LoginUIStandard>
+  <LoginUITouch>ໂທລະສັບມືຖື</LoginUITouch>
+  <LoginLanguage>ພາສາ</LoginLanguage>
+  <LoginLogin>ເຂົ້າ​ສູ່​ລະ​ບົບ</LoginLogin>
+  <LoginFailure>ເຂົ້າສູ່ລະບົບຂອງທ່ານແມ່ນບໍ່ສົບຜົນສໍາເລັດ.</LoginFailure>
+  <LoginBlocked>ບັນຊີໄດ້ຖືກສະກັດ. ລໍຖ້າສໍາລັບ {0} ນາທີທີ່ຈະພະຍາຍາມອີກເທື່ອຫນຶ່ງ.</LoginBlocked>
+  <LoginNotActivated>ບັນຊີຂອງທ່ານບໍ່ໄດ້ເປີດນໍາໃຊ້.</LoginNotActivated>
+  <LoginResendActivation>ຖ້າຫາກວ່າຂໍ້ຄວາມທີ່ມີລະຫັດເປີດໃຊ້ແມ່ນບໍ່ໄດ້ຮັບເປັນເວລາດົນ, ໃຫ້ຄລິກໃສ່ {0} ການເຊື່ອມຕໍ່ເພື່ອສົ່ງລະຫັດເປີດໃຊ້.</LoginResendActivation>
+  <LoginResendActivationLink>ສົ່ງລະຫັດເປີດໃຊ້</LoginResendActivationLink>
+  <LoginResendActivationCode>ໃຫ້ຄລິກໃສ່ {0} ການເຊື່ອມຕໍ່ເພື່ອສົ່ງລະຫັດເປີດໃຊ້.</LoginResendActivationCode>
+  
+  <ActivateAccountOk>ບັນຊີເຮັດວຽກສົບຜົນສໍາເລັດ!</ActivateAccountOk>
+  <ActivateAccountResultLabel>ຜົນການກະຕຸ້ນ</ActivateAccountResultLabel>
+  <ActivateAccountErrorOnlyFormsAuth>ເປີດໃຊ້ບັນຊີສາມາດໄດ້ຮັບການນໍາໃຊ້ພຽງແຕ່ມີການກວດສອບແບບຟອມ</ActivateAccountErrorOnlyFormsAuth>
+  <ActivateAccountErrorNotRequired>ເປີດໃຊ້ບັນຊີເປັນຜູ້ພິການໃນການປັບຄ່າຄໍາຮ້ອງສະຫມັກ. ບັນຊີໄດ້ຖືກ activated ອັດຕະໂນມັດຫຼັງຈາກການຈົດທະບຽນ.</ActivateAccountErrorNotRequired>
+  <ActivateAccountErrorAlreadyActivated>ບັນຊີເປີດໃຊ້ວຽກແລ້ວ</ActivateAccountErrorAlreadyActivated>
+  <ActivateAccountErrorInvalidCode>ລະຫັດເປີດໃຊ້ບໍ່ຖືກຕ້ອງ</ActivateAccountErrorInvalidCode>
+  <ActivateAccountErrorAccountNotFound>ບັນຊີບໍ່ໄດ້ພົບເຫັນ</ActivateAccountErrorAccountNotFound>
+  <ActivateAccountErrorLinkBroken>ການເຊື່ອມຕໍ່ກິດຈະກໍາໄດ້ຖືກແຍກ</ActivateAccountErrorLinkBroken>
+  <ActivateAccountReturnToLogin>ກັບຄືນໄປຫນ້າເຂົ້າສູ່ລະບົບ</ActivateAccountReturnToLogin>
+  
+  <LoginRender>ສະແດງຜົນ</LoginRender>
+  
+  <LogoutTitle>ເວັບໄຊຕ໌ອອກຈາກລະບົບຈັດການໄຟລ໌</LogoutTitle>
+  <LogoutSessionEnded>ກອງປະຊຸມປັດຈຸບັນໄດ້ສິ້ນສຸດລົງ</LogoutSessionEnded>
+  <LogoutCloseWindow>ປິດປ່ອງຢ້ຽມ</LogoutCloseWindow>
+  <LogoutEnterAgain>ເຂົ້າສູ່ລະບົບອີກເທື່ອຫນຶ່ງ</LogoutEnterAgain>
+  <LogoutClosingBrowserRequired>ເອົາໃຈໃສ່! ທຸກຄົນສາມາດເຂົ້າສູ່ລະບົບພາຍໃຕ້ການບັນຊີຂອງທ່ານ! ຖ້າຫາກວ່າທ່ານກໍາລັງໃຊ້ຄອມພິວເຕີຮ່ວມ, ຫຼັງຈາກນັ້ນທ່ານຄວນຈະປິດຫນ້າຕ່າງທ່ອງເວັບຂອງທ່ານ (ບໍ່ພຽງແຕ່ແຖບ) ເພື່ອອະນາໄມການກວດສອບໃນຕົວທ່ອງເວັບຂອງທ່ານ! ສໍາລັບຕົວທ່ອງເວັບ Firefox ທ່ານສາມາດອະນາໄມການກວດສອບໃນເມນູ: Tools-&gt; Clear History Resent ...-&gt; Details-&gt; ກວດສອບ Active Logins-&gt; ກົດ Clear ໃນປັດຈຸບັນ.</LogoutClosingBrowserRequired>
+  <RecoverPasswordTitle>ການກູ້ຄືນລະຫັດຜ່ານ</RecoverPasswordTitle>
+  <RecoverPasswordEmailPassword>ສົ່ງລະຫັດຜ່ານທາງອີເມວ</RecoverPasswordEmailPassword>
+  <RecoverPasswordErrorInvalidUserName>ຊື່​ຜູ້​ໃຊ້​ທີ່​ບໍ່​ຖືກ​ຕ້ອງ.</RecoverPasswordErrorInvalidUserName>
+  <RecoverPasswordErrorNoEmail>ຜູ້ໃຊ້ນີ້ມີທີ່ຢູ່ອີເມວທີ່ບໍ່ມີກໍານົດໄວ້.</RecoverPasswordErrorNoEmail>
+  <RecoverPasswordErrorSendEmail>ມີຂໍ້ຜິດພາດເກີດຂຶ້ນໃນຂະນະທີ່ການສົ່ງອີເມວຂອງທ່ານ.</RecoverPasswordErrorSendEmail>
+  <RecoverPasswordSuccess>ລະຫັດຜ່ານຂອງທ່ານໄດ້ຖືກສົ່ງໄປທີ່ຢູ່ອີເມວຂອງທ່ານ.</RecoverPasswordSuccess>
+
+  <RecoverUserNameTitle>ຟື້ນຕົວຊື່</RecoverUserNameTitle>
+  <RecoverUserEmailName>ສົ່ງຊື່ຜ່ານທາງອີເມລ</RecoverUserEmailName>
+  <RecoverUserNameErrorInvalidEmail>ອີເມວຜູ້ໃຊ້ທີ່ບໍ່ຖືກຕ້ອງ.</RecoverUserNameErrorInvalidEmail>
+  <RecoverUserNameErrorNoEmail>ທີ່ຢູ່ອີເມວບໍ່ໄດ້ພົບເຫັນ.</RecoverUserNameErrorNoEmail>
+  <RecoverUserNameSuccess>ຊື່ຂອງທ່ານໄດ້ຖືກສົ່ງໄປທີ່ຢູ່ອີເມວຂອງທ່ານ.</RecoverUserNameSuccess>
+
+  <ChangeEmailTitle>ການປ່ຽນແປງ email</ChangeEmailTitle>
+  <ChangeEmailEmail>Email ໃຫມ່</ChangeEmailEmail>
+  <ChangeEmailSubmit>ຍື່ນສະເຫນີ</ChangeEmailSubmit>
+  <ChangeEmailStatusSuccess>Email ມີການປ່ຽນແປງ</ChangeEmailStatusSuccess>
+
+  <RegisterTitle>ການລົງທະບຽນ</RegisterTitle>
+  <RegisterEmail>Email</RegisterEmail>
+  <RegisterExtraInfo>ຂໍ້ມູນພິເສດ</RegisterExtraInfo>
+  <RegisterCaptcha>ກະລຸນາໃສ່ຂໍ້ຄວາມທີ່ທ່ານເຫັນໃນຮູບພາບຂ້າງລຸ່ມນີ້</RegisterCaptcha>
+  <RegisterSubmit>ຍື່ນສະເຫນີ</RegisterSubmit>
+  <RegisterErrorPasswordNotMatch>ລະຫັດຜ່ານບໍ່ກົງກັນ.</RegisterErrorPasswordNotMatch>
+  <RegisterErrorUserExists>ຊື່ຜູ້ໃຊ້ຫລືທີ່ຢູ່ອີເມວໄດ້ຖືກນໍາໃຊ້ແລ້ວ.</RegisterErrorUserExists>
+  <RegisterErrorCaptchaInvalid>ຮູບພາບຂໍ້ຄວາມບໍ່ໄດ້ເຂົ້າໄປ</RegisterErrorCaptchaInvalid>
+  <RegisterSuccess>ສະມາຊິກໃຫມ່ໄດ້ຮັບການເພີ່ມ.</RegisterSuccess>
+  <RegisterActivationSent>ລະຫັດເປີດໃຊ້ຖືກສົ່ງໄປຫາອີເມວຂອງທ່ານ.</RegisterActivationSent>
+  <RegisterActivationCheckEmail>ກະລຸນາຫມາຍໃສ່ໃນປ່ອງອີເມລຂອງທ່ານ (ສະເພາະໂຟນເດີ junk) ແລະປະຕິບັດຕາມຄໍາແນະນໍາໃນອີເມລ໌.</RegisterActivationCheckEmail>
+  
+  <FolderGridUserPermissionsColumn>ການເຂົ້າເຖິງສໍາລັບຜູ້ໃຊ້</FolderGridUserPermissionsColumn>
+  <FolderGridGroupPermissionsColumn>ການເຂົ້າເຖິງສໍາລັບກຸ່ມ</FolderGridGroupPermissionsColumn>
+
+  <LoginLinkText>ເຂົ້າ​ສູ່​ລະ​ບົບ</LoginLinkText>
+  <RecoverPasswordLinkText>ລືມລະຫັດຜ່ານ?</RecoverPasswordLinkText>
+  <RecoverUserNameLinkText>ລືມຊື່?</RecoverUserNameLinkText>
+  <RegisterLinkText>ການລົງທະບຽນ</RegisterLinkText>
+  <ChangeEmail>ການປ່ຽນແປງ email</ChangeEmail>
+  <LoginMobileVersionLinkText>ສະບັບພາສາໂທລະສັບມືຖື (ໂທລະສັບສະຫຼາດຫຼາຍທີ່ສຸດແລະ touchpad)</LoginMobileVersionLinkText>
+
+  <FileIsNotZipArchive>ເອກະສານທີ່ {0} ບໍ່ແມ່ນເກັບໄປສະນີ</FileIsNotZipArchive>
+
+  <FileModificationsAuthor>Author</FileModificationsAuthor>
+  <FileModificationsHistory>ປະຫວັດສາດເບິ່ງ</FileModificationsHistory>
+  <FileModificationsWindowTitle>ການດັດແປງຂອງເອກະສານ "{0}"</FileModificationsWindowTitle>
+  <FileModificationsTypeCreated>ສ້າງ</FileModificationsTypeCreated>
+  <FileModificationsTypeModified>ຖືກແກ້ໄຂ</FileModificationsTypeModified>
+  <FileModificationsTypeRenamed>ປ່ຽນຊື່</FileModificationsTypeRenamed>
+  <FileModificationsTypeRestored>ການຟື້ນຟູ</FileModificationsTypeRestored>
+  <FileModificationsTypeDeleted>ລຶບ</FileModificationsTypeDeleted>
+
+  <ChangingReadOnlyProgressMessage>ການປ່ຽນແປງອ່ານເຫດຜົນພຽງແຕ່</ChangingReadOnlyProgressMessage>
+
+  <ImageViewerWindowTitle>Viewer ຮູບພາບ [{0}]</ImageViewerWindowTitle>
+  <ImageViewerLoadingMessage>viewer ຮູບພາບກໍາລັງໂຫລດ</ImageViewerLoadingMessage>
+  <ImageViewerLoadingImageMessage>ຮູບພາບກໍາລັງໂຫລດ</ImageViewerLoadingImageMessage>
+  <ImageViewerFirstImageTip>ຮູບພາບທໍາອິດ</ImageViewerFirstImageTip>
+  <ImageViewerPreviousImageTip>ຮູບພາບທີ່ຜ່ານມາ</ImageViewerPreviousImageTip>
+  <ImageViewerRefreshTip>ບັນຊີລາຍຊື່ຮູບພາບການຟື້ນຟູ</ImageViewerRefreshTip>
+  <ImageViewerNextImageTip>ຮູບພາບຕໍ່ໄປ</ImageViewerNextImageTip>
+  <ImageViewerLastImageTip>ຮູບພາບຫຼ້າສຸດ</ImageViewerLastImageTip>
+  <ImageViewerRunSlideShow>ຮູບພາບດໍາເນີນການບໍລິການສະແດງໃຫ້ເຫັນ</ImageViewerRunSlideShow>
+  <ImageViewerStopSlideShow>ຢຸດເຊົາການສະແດງໃຫ້ເຫັນບໍລິການຮູບພາບ</ImageViewerStopSlideShow>
+  <ImageViewerImageSimpleInfo>{0} / {1}, {2} ({3})</ImageViewerImageSimpleInfo>
+  <ImageViewerImageLoadErrorMessage>ຮູບພາບດັ່ງກ່າວໄດ້ພົບເຫັນຫຼືບໍ່ສາມາດສະແດງ</ImageViewerImageLoadErrorMessage>
+  <ImageViewerShowImageSizeOfWindow>ສະແດງໃຫ້ເຫັນຮູບພາບທີ່ມີຂະຫນາດທີ່ແທ້ຈິງ</ImageViewerShowImageSizeOfWindow>
+  <ImageViewerShowRealImageSize>ຄລິກເພື່ອຂະຫຍາຍ</ImageViewerShowRealImageSize>
+
+  <PasswordExpiresTitle>ລະຫັດຜ່ານຫມົດອາຍຸ</PasswordExpiresTitle>
+  <PasswordExpiresMessage>ລະຫັດຜ່ານຂອງທ່ານຈະຫມົດອາຍຸຫລັງຈາກ {0} ວັນ (s)!</PasswordExpiresMessage>
+  <PasswordExpiredMessage>ລະຫັດຜ່ານຂອງທ່ານຫມົດອາຍຸແລ້ວ.</PasswordExpiredMessage>
+  <PasswordChangeMessage>ມີການປ່ຽນແປງລະຫັດຜ່ານ, ແລະເລືອກ {0} {1} - {2} {3} ໃນແຖບເຄື່ອງມື&gt;.</PasswordChangeMessage>
+
+  <UnzipContentTotalFiles>ໄຟລ໌ທັງຫມົດ: {0} ({1})</UnzipContentTotalFiles>
+
+  <VideoConversionJobNotFound>
+    ບໍ່ສາມາດຊອກຫາຂະບວນການການປ່ຽນແປງທີ່ກໍານົດໄວ້.
+    ເຫດຜົນທີ່ເປັນໄປໄດ້:
+    1 ແປງສໍາເລັດເປັນເວລາດົນນານກ່ອນຫນ້ານີ້ແລະຂໍ້ມູນກ່ຽວກັບວຽກເຮັດງານທໍານີ້ໄດ້ໂຍກຍ້າຍ.
+    2. ຂະບວນການການປ່ຽນແປງໃນການຍົກເລີກຜິດປົກກະຕິ.
+  </VideoConversionJobNotFound>
+  <VideoConversionUtilityNotFound>ຜົນປະໂຫຍດຊອກຫາບໍ່ສາມາດປະຕິບັດການດໍາເນີນງານຮຽກຮ້ອງ: {0}</VideoConversionUtilityNotFound>
+  <!-- The current security principal "{0}" has insufficiant permissions to executable file "{1}".-->
+  <VideoConversionUtilityInsufficientPermissions>ຜູ້ໃຊ້ໃນປັດຈຸບັນ "{0}" ຖືກປະຕິເສດການເຂົ້າເຖິງເອກະສານປະຕິບັດການ "{1}".</VideoConversionUtilityInsufficientPermissions>
+  <VideoConversionOperationCancelled>ການດໍາເນີນງານການຍົກເລີກ</VideoConversionOperationCancelled>
+  <VideoConversionUtilityFailed>ຜົນປະໂຫຍດການປ່ຽນແປງລະງັບຜິດປົກກະຕິ</VideoConversionUtilityFailed>
+  <VideoConversionOutputFileBusy>ເອກະສານຜົນໄດ້ຮັບແມ່ນຈະຖືກນໍາໃຊ້ໂດຍຂະບວນການສົນທະນາອື່ນ</VideoConversionOutputFileBusy>
+
+  <VideoConvertWindowValidatorPositiveInt>ຈະຕ້ອງເປັນຈໍານວນເຕັມບວກ</VideoConvertWindowValidatorPositiveInt>
+  <VideoConvertWindowTitle>ແປງວິດີໂອ</VideoConvertWindowTitle>
+  <VideoConvertWindowInputFile>ເອກະສານປະກອບ</VideoConvertWindowInputFile>
+  <VideoConvertWindowOutputFile>ເອກະສານຜົນຜະລິດ</VideoConvertWindowOutputFile>
+  <VideoConvertWindowOutputFormat>ຮູບແບບການຜະລິດ</VideoConvertWindowOutputFormat>
+  <VideoConvertWindowBitrate>ອັດຕາບິດ (kbps)</VideoConvertWindowBitrate>
+  <VideoConvertWindowFrameResolution>ແກ້ໄຂບັນຫາພາ</VideoConvertWindowFrameResolution>
+  <VideoConvertWindowDAR>ອັດຕາສ່ວນລັກສະນະການສະແດງ</VideoConvertWindowDAR>
+  <VideoConvertWindowPAR>ອັດຕາສ່ວນລັກສະນະ Pixel</VideoConvertWindowPAR>
+  <VideoConvertWindowResize>ປັບຂະຫນາດ</VideoConvertWindowResize>
+  <VideoConvertWindowProfile>ຂໍ້ມູນສ່ວນຕົວ</VideoConvertWindowProfile>
+  <VideoConvertWindowWidth>width</VideoConvertWindowWidth>
+  <VideoConvertWindowHeight>ລະດັບຄວາມສູງ</VideoConvertWindowHeight>
+  <VideoConvertWindowExtractDetailsProgressMsg>ສະລາຍລະອຽດວິດີໂອ</VideoConvertWindowExtractDetailsProgressMsg>
+  <VideoConvertWindowOutputFileExistsTitle>ເອກະສານຜົນຜະລິດທີ່ມີຢູ່</VideoConvertWindowOutputFileExistsTitle>
+  <VideoConvertWindowOutputFileExistsMsg>ເອກະສານຜົນຜະລິດທີ່ມີຢູ່ແລ້ວ. ມັນຈະໄດ້ຮັບການຂຽນທັບ.</VideoConvertWindowOutputFileExistsMsg>
+  <VideoConvertWindowPrepareToConvert>ການກະກຽມທີ່ຈະປ່ຽນວິດີໂອ</VideoConvertWindowPrepareToConvert>
+  <VideoConvertWindowOutputFileMatchInputFile>ຊື່ໄຟລ໌ຜົນຜະລິດກົງກັບຊື່ໄຟລ໌ປະກອບ</VideoConvertWindowOutputFileMatchInputFile>
+
+  <VideoConvertProgressWindowTitle>ແປງວິດີໂອ</VideoConvertProgressWindowTitle>
+  <VideoConvertProgressWindowInputFile>ເອກະສານປະກອບ</VideoConvertProgressWindowInputFile>
+  <VideoConvertProgressWindowOutputFile>ເອກະສານຜົນຜະລິດ</VideoConvertProgressWindowOutputFile>
+  <VideoConvertProgressWindowStatus>ສະຖານະພາບ</VideoConvertProgressWindowStatus>
+  <VideoConvertProgressWindowStatusTerminating>ຍົກເລີກ</VideoConvertProgressWindowStatusTerminating>
+  <VideoConvertProgressWindowStatusPreparing>ການກະກຽມ</VideoConvertProgressWindowStatusPreparing>
+  <VideoConvertProgressWindowStatusProgress>ຂັ້ນຕອນ {0} ຂອງ {1}</VideoConvertProgressWindowStatusProgress>
+  <VideoConvertProgressWindowStatusDone>ເຮັດ</VideoConvertProgressWindowStatusDone>
+
+  <PlayHtml5VideoNotSupported>ຕົວທ່ອງເວັບຂອງທ່ານບໍ່ສະຫນັບສະຫນູນອົງປະກອບວິດີໂອ HTML 5.</PlayHtml5VideoNotSupported>
+  <PlayHtml5VideoPlayFailed>ຫຼິ້ນວິດີໂອສົບຜົນສໍາເລັດ</PlayHtml5VideoPlayFailed>
+  <PlayHtml5AudioPlayFailed>ຫຼິ້ນສຽງສົບຜົນສໍາເລັດ</PlayHtml5AudioPlayFailed>
+  <PlayHtml5AudioTitle>Title</PlayHtml5AudioTitle>
+  <PlayHtml5AudioNotSupported>ຕົວທ່ອງເວັບຂອງທ່ານບໍ່ສະຫນັບສະຫນູນອົງປະກອບສຽງ HTML 5.</PlayHtml5AudioNotSupported>
+  <PlayHtml5AudioArtist>ຈິດຕະນາການ</PlayHtml5AudioArtist>
+  <PlayHtml5AudioAlbum>ອັລບັມ</PlayHtml5AudioAlbum>
+  <PlayHtml5AudioYear>ປີ</PlayHtml5AudioYear>
+  <PlayHtml5AudioDuration>ໄລຍະເວລາ</PlayHtml5AudioDuration>
+  <PlayHtml5AudioBitrate>ອັດຕາບິດ</PlayHtml5AudioBitrate>
+  <PlayHtml5AudioVolume>ປະລິມານ</PlayHtml5AudioVolume>
+
+  <!-- Root title -->
+  <RootTitle>ຮາກ</RootTitle>
+
+  <!-- Recent feature keys -->
+  <RecentRootTitle>ທີ່ຜ່ານມາ</RecentRootTitle>
+  <RecentDeleteOnePrompt>ທ່ານແນ່ໃຈວ່າທ່ານຕ້ອງການທີ່ຈະລົບ "{0}" ຈາກລາຍການທີ່ຜ່ານມາຂອງທ່ານ?</RecentDeleteOnePrompt>
+  <RecentDeleteManyPrompt>ທ່ານແນ່ໃຈວ່າທ່ານຕ້ອງການທີ່ຈະລົບເຫຼົ່ານີ້ {0} ຈາກລາຍການລາຍການທີ່ຜ່ານມາຂອງທ່ານ?</RecentDeleteManyPrompt>
+  <RecentPathNotExist>ເສັ້ນທາງທີ່ຜ່ານມາ "{0}" ບໍ່ມີຫຼືການເຂົ້າເຖິງຖືກປະຕິເສດ</RecentPathNotExist>
+  <RecentAllWithoutGroupingTitle>ທັງຫມົດ w / o ການຈັດກຸ່ມ</RecentAllWithoutGroupingTitle>
+  <RecentEditGroupTitle>ແກ້ໄຂ</RecentEditGroupTitle>
+  <RecentViewGroupTitle>ເບິ່ງ</RecentViewGroupTitle>
+  <RecentDownloadGroupTitle>ດາວໂຫຼດ</RecentDownloadGroupTitle>
+  <RecentUploadGroupTitle>ອັບ</RecentUploadGroupTitle>
+  <RecentCreateGroupTitle>ສ້າງ</RecentCreateGroupTitle>
+
+  <!-- Trash feature keys -->
+  <TrashRootTitle>ກະຕ່າຂີ້ເຫຍື້ອ</TrashRootTitle>
+  <TrashLabelDateDeleted>ວັນທີ່ສະຫມັກລຶບ</TrashLabelDateDeleted>
+  <TrashDeleteOnePrompt>ທ່ານແນ່ໃຈວ່າທ່ານຕ້ອງການລຶບຢ່າງຖາວອນ "{0}" ຈາກຖັງຂີ້ເຫຍື້ອ?</TrashDeleteOnePrompt>
+  <TrashDeleteManyPrompt>ທ່ານແນ່ໃຈວ່າທ່ານຕ້ອງການທີ່ຈະລົບເຫຼົ່ານີ້ {0} ລາຍການຈາກກະຕ່າຂີ້ເຫຍື້ອຢ່າງຖາວອນ?</TrashDeleteManyPrompt>
+  <TrashEmptyTrashLabel>ກະຕ່າຂີ້ເຫຍື້ອເປົ່າ</TrashEmptyTrashLabel>
+  <TrashRestoreSelectedLabel>ການຟື້ນຟູ</TrashRestoreSelectedLabel>
+  <TrashRestoreAllLabel>ການຟື້ນຟູທັງຫມົດ</TrashRestoreAllLabel>
+  <TrashEmptyTrashPrompt>ທ່ານວ່າທ່ານແມ່ນແນ່ໃຈວ່າຕ້ອງການທີ່ຈະຫວ່າງກະຕ່າຂີ້ເຫຍື້ອ?</TrashEmptyTrashPrompt>
+  <TrashRestoreAllPrompt>ທ່ານວ່າທ່ານແມ່ນແນ່ໃຈວ່າຕ້ອງການທີ່ຈະຟື້ນຟູລາຍການທັງຫມົດຈາກກະຕ່າຂີ້ເຫຍື້ອ?</TrashRestoreAllPrompt>
+  <TrashProgressRestoring>ຟື້ນຕົວຈາກກະຕ່າຂີ້ເຫຍື້ອ</TrashProgressRestoring>
+  <TrashFolderNotFound>ບໍ່ໄດ້ພົບເຫັນລະບົບກະຕ່າຂີ້ເຫຍື້ອ</TrashFolderNotFound>
+  <TrashBalloonRestored>ລາຍການຟື້ນຟູ: {0} ຂອງ {1}</TrashBalloonRestored>
+  <TrashDeleteDirectlyLabel>ລຶບໂດຍບໍ່ມີການຖອນກັບກະຕ່າຂີ້ເຫຍື້ອ</TrashDeleteDirectlyLabel>
+  <TrashUsedSpaceHint>{0} ໃຊ້</TrashUsedSpaceHint>
+  <TrashLimitSizeHint>ໃຊ້ {0} ຂອງ {1} ({2})</TrashLimitSizeHint>
+  <TrashLargeItemsShelfTimeHint>ທີ່ໃຊ້ເວລາການເກັບຮັກສາວັດຖຸມີຂະຫນາດໃຫຍ່ກ່ວາ {0}: {1} ວັນ (s)</TrashLargeItemsShelfTimeHint>
+  <TrashSmallItemsShelfTimeHint>ສໍາລັບຄົນອື່ນທັງຫມົດ: {0} ວັນ (s)</TrashSmallItemsShelfTimeHint>
+  <TrashItemsShelfTimeHint>ທີ່ໃຊ້ເວລາການເກັບຮັກສາຂອງຈຸດປະສົງ: {0} ວັນ (s)</TrashItemsShelfTimeHint>
+  <TrashAvailableSpaceHint>ຂະຫນາດບັນຈຸສູງສຸດ {0}</TrashAvailableSpaceHint>
+  <TrashDeletedFromFolderHint>ລຶບຖິ້ມຈາກ {0}</TrashDeletedFromFolderHint>
+  <TrashExceededMessage>ຈຸດປະສົງດັ່ງຕໍ່ໄປນີ້ມີຂະຫນາດໃຫຍ່ເກີນໄປແລະບໍ່ສາມາດໄດ້ຮັບການຕັ້ງຢູ່ກັບກະຕ່າຂີ້ເຫຍື້ອ (ຂໍ້ຈໍາກັດຂອງ {0} ແມ່ນເກີນ):</TrashExceededMessage>
+  <TrashErrorSuffixMessage>ກະລຸນາພະຍາຍາມເພື່ອກວດກາເບິ່ງທາງເລືອກທີ່ "{0}" ແລະຫຼັງຈາກນັ້ນລຶບໄຟລ໌ (s) ຕະຫຼອດໄປຫຼັງຈາກການຟື້ນຟູ</TrashErrorSuffixMessage>
+
+  <!-- Shared by link -->
+  <SharedByLinkRootTitle>ຮ່ວມກັນໂດຍການເຊື່ອມຕໍ່</SharedByLinkRootTitle>
+
+  <!-- Shared for you -->
+  <SharedForYouRootTitle>ແບ່ງປັນກັບທ່ານ</SharedForYouRootTitle>
+  <SharedForYouUnableToGetUrl>ບໍ່ສາມາດທີ່ຈະໄດ້ຮັບ URL</SharedForYouUnableToGetUrl>
+
+  <!-- Watch for modifications -->
+  <WatchForModifsCommand>Watch ສໍາລັບການດັດແປງ</WatchForModifsCommand>
+  <WatchForModifsStartCommand>ເລີ່ມຕົ້ນການເບິ່ງ</WatchForModifsStartCommand>
+  <WatchForModifsEditCommand>ການປ່ຽນແປງສັງເກດເບິ່ງ</WatchForModifsEditCommand>
+  <WatchForModifsStopCommand>ຢຸດເບິ່ງ</WatchForModifsStopCommand>
+  <WatchForModifsViewChangesCommand>ເບິ່ງການປ່ຽນແປງ</WatchForModifsViewChangesCommand>
+  <WatchForModifsSubscriptionSuccessMessage>ທ່ານໄດ້ສະຫມັກສົບຜົນສໍາເລັດສໍາລັບການດັດແປງ "{0}"</WatchForModifsSubscriptionSuccessMessage>
+  <WatchForModifsStopSuccessMessage>ຕິດຕາມກວດກາ "{0}" ໄດ້ຮັບການພິການຢ່າງສໍາເລັດຜົນ</WatchForModifsStopSuccessMessage>
+  <WatchForModifsIncludingNestedLabel>ພິຈາລະນາໄຟຊ້ອນໂຟເດີ</WatchForModifsIncludingNestedLabel>
+  <WatchForModifsParentWatchExistMessage>ສໍາລັບລາຍການທີ່ເລືອກໄດ້ຮັບມອບຫມາຍແລ້ວຕິດຕາມກວດກາສໍາລັບໂຟນເດີພໍ່ແມ່ "{0}".</WatchForModifsParentWatchExistMessage>
+  <WatchForModifsRootFolder>ການແຈ້ງເຕືອນ</WatchForModifsRootFolder>
+  <WatchForModifsStartProgressLoading>ເຮັດໃຫ້ການສັງເກດເບິ່ງ</WatchForModifsStartProgressLoading>
+  <WatchForModifsStopProgressLoading>Terminatie ການສັງເກດເບິ່ງ</WatchForModifsStopProgressLoading>
+  <WatchForModifsIconHint>ເປີດການໃຊ້ງານເບິ່ງສໍາລັບການດັດແປງ</WatchForModifsIconHint>
+  <WatchForModifsNotifCheckBox>ແຈ້ງໃຫ້ທ່ານຮູ້ການແກ້ໄຂໂດຍອີເມວ:</WatchForModifsNotifCheckBox>
+  <WatchForModifsWatchedUsersCheckBox>ຕິດຕາມກວດກາຜູ້ໃຊ້ເທົ່ານັ້ນ (ໃຫ້ຫວ່າງໄວ້ຖ້າຫາກວ່າທ່ານຕິດຕາມກວດກາທັງຫມົດ):</WatchForModifsWatchedUsersCheckBox>
+  <WatchForModifsIgnoreOwnerCheckBox>ບໍ່ສົນໃຈການປ່ຽນແປງຂອງຂ້າພະເຈົ້າເອງ</WatchForModifsIgnoreOwnerCheckBox>
+  <WatchForModifsActionsCheckBox>ຕິດຕາມກວດກາການປະຕິບັດທັງຫມົດ (ຫຼືປະຕິບັດຈາກບັນຊີລາຍຊື່ຂ້າງລຸ່ມນີ້)</WatchForModifsActionsCheckBox>
+  <WatchForModifsNestedItemsWarning>ເອົາໃຈໃສ່! ໃນເວລາທີ່ທ່ານເພີ່ມຕິດຕາມກວດກາສໍາລັບໂຟນເດີທີ່ເລືອກ, ໄຟລ໌ແນບທັງຫມົດແລະແຟ້ມສໍາລັບທີ່ຕິດຕາມກວດກາບຸກຄົນທີ່ໄດ້ຮັບການເພີ່ມກ່ອນຫນ້ານີ້, ຕິດຕາມກວດກາຈະໄດ້ຮັບການໂຍກຍ້າຍອອກ. ທ່ານຕ້ອງການທີ່ຈະສືບຕໍ່?</WatchForModifsNestedItemsWarning>
+
+  <WelcomeWindowHideCheckboxLabel>ບໍ່ສະແດງໃຫ້ເຫັນນີ້ໂດຍການຕັດໄມ້ຕໍ່ໄປໃນ</WelcomeWindowHideCheckboxLabel>
+
+  <LogsGridMoreInfoColumn>ຂໍ້​ມູນ​ເພີ່ມ​ເຕີມ</LogsGridMoreInfoColumn>
+  <LogsGridDetailsTitle>ລາຍລະອຽດ</LogsGridDetailsTitle>
+  <LogsGridPhysPathColumn>ເສັ້ນທາງທາງດ້ານຮ່າງກາຍ</LogsGridPhysPathColumn>
+  <LogsGridIsFolderColumn>ໂຟນເດີ?</LogsGridIsFolderColumn>
+  <LogsGridIsPublicColumn>ສາທາລະນະ?</LogsGridIsPublicColumn>
+  <LogsGridByWebDavColumn>WebDAV?</LogsGridByWebDavColumn>
+
+  <NoCommentsYetHint>ຍັງບໍ່ມີຄໍາເຫັນ</NoCommentsYetHint>
+  <NoHistoryYetHint>ມີປະຫວັດສາດຍັງ</NoHistoryYetHint>
+
+  <DetailsPropertyValuesCouldNotBeWritten>ສົບຜົນສໍາເລັດເພື່ອຊ່ວຍປະຢັດຄ່າຊັບສິນ, Mabee ປະເພດໄຟລ໌ບໍ່ໄດ້ສະຫນັບສະຫນູນຄວາມເປັນໄປໄດ້ດັ່ງກ່າວມີຄວາມຜິດພາດໃນຄໍາຮ້ອງສະຫມັກທີ່ກ່ຽວຂ້ອງກັບເອກະສານໄດ້.</DetailsPropertyValuesCouldNotBeWritten>
+
+  <AdminCommandHelp>ຊ່ວຍເຫຼືອ</AdminCommandHelp>
+  <AdminCommandAddUser>ເພີ່ມສະມາຊິກ</AdminCommandAddUser>
+  <AdminCommandAddGroup>ເພີ່ມກຸ່ມ</AdminCommandAddGroup>
+  <AdminCommandRemoveUser>ເອົາຜູ້ໃຊ້</AdminCommandRemoveUser>
+
+  <AdminCommandSelectUsers>ເພີ່ມຜູ້ຊົມໃຊ້</AdminCommandSelectUsers>
+  <AdminCommandSelectGroups>ເພີ່ມກຸ່ມ</AdminCommandSelectGroups>
+  <AdminCommandRemoveUsers>ເອົາຜູ້ຊົມໃຊ້</AdminCommandRemoveUsers>
+  <AdminCommandRemoveGroups>ເອົາກຸ່ມ</AdminCommandRemoveGroups>
+  <AdminUsersGroups>ສະມາຊິກຂອງ</AdminUsersGroups>
+  <AdminSearchUserEmptyText>ກະລຸນາໃສ່ຊື່ຜູ້ໃຊ້</AdminSearchUserEmptyText>
+  <AdminSearchGroupEmptyText>ກະລຸນາໃສ່ຊື່ກຸ່ມ</AdminSearchGroupEmptyText>
+  <AdminUsersGroupAlreadyExists>A ກຸ່ມ (s) ທີ່ມີຊື່ນີ້ (s) ໄດ້ຮັບການເພີ່ມແລ້ວ</AdminUsersGroupAlreadyExists>
+
+  <AdminApplicationLoading>loading ກະດານ admin</AdminApplicationLoading>
+  <AdminTitle>ການບໍລິຫານ</AdminTitle>
+  <AdminUsersEditUser>ຜູ້ໃຊ້ແກ້ໄຂ</AdminUsersEditUser>
+  <AdminUsersSetUserPassword>ລະຫັດຜ່ານທີ່ກໍານົດໄວ້</AdminUsersSetUserPassword>
+  <AdminUsersViewGroups>ເບິ່ງກຸ່ມ</AdminUsersViewGroups>
+  <AdminUsersViewFolders>ເບິ່ງໂຟເດີ</AdminUsersViewFolders>
+  <AdminUsersDeleteUserPrompt>ທ່ານແນ່ໃຈວ່າທ່ານຕ້ອງການທີ່ຈະເອົາຜູ້ໃຊ້ (s) "{0}"?</AdminUsersDeleteUserPrompt>
+  <AdminUsersDeletedUsers>{0} ຜູ້ໃຊ້ (s) ລົບ.</AdminUsersDeletedUsers>
+  <AdminUsersUserNotFound>ຜູ່ໃຊ້ທີ່ມີຊື່ນີ້ບໍ່ໄດ້ພົບເຫັນ</AdminUsersUserNotFound>
+  <AdminUsersPropertiesTitle>ຄຸນສົມບັດຂອງຜູ້ໃຊ້</AdminUsersPropertiesTitle>
+  <AdminUsersSetPasswordTitle>ກໍານົດລະຫັດຜ່ານຜູ້ໃຊ້</AdminUsersSetPasswordTitle>
+  <AdminUsersGeneralInfo>ຂໍ້ມູນຜູ້ໃຊ້</AdminUsersGeneralInfo>
+  <AdminUsersUserEmail>Email</AdminUsersUserEmail>
+  <AdminUsersEmptyName>ຊື່ຜູ້ໃຊ້ບໍ່ສາມາດປ່ອຍຫວ່າງ</AdminUsersEmptyName>
+  <AdminUsersEmptyPassword>ລະຫັດຜ່ານຜູ້ໃຊ້ບໍ່ສາມາດປ່ອຍຫວ່າງ</AdminUsersEmptyPassword>
+  <AdminUsersIncorrectName>ມີສັນຍາລັກທີ່ບໍ່ຖືກຕ້ອງໃນຊື່ຜູ້ໃຊ້ທີ່ມີ</AdminUsersIncorrectName>
+  <AdminUsersAlreadyExists>ຜູ້ໃຊ້ທີ່ມີຊື່ນີ້ມີຢູ່ແລ້ວ</AdminUsersAlreadyExists>
+  <AdminUsersEmailAlreadyExists>ຜູ້ໃຊ້ທີ່ມີນີ້ອີເມລມີຢູ່ແລ້ວ</AdminUsersEmailAlreadyExists>
+  <AdminUsersPasswordsNotMatch>ລະຫັດຜ່ານບໍ່ກົງກັນ</AdminUsersPasswordsNotMatch>
+  <AdminUsersRenameWarning>ຫຼັງຈາກການປ່ຽນຊື່ຜູ້ໃຊ້ວ່າມັນເປັນສິ່ງຈໍາເປັນເພື່ອການປ່ຽນແປງລະຫັດຜ່ານ, ຖ້າບໍ່ດັ່ງນັ້ນໃນປັດຈຸບັນການເຊື່ອມຕໍ່ເວັບໄຊຕ໌ໂຟເດີຈະບໍ່ຖືກຕ້ອງ</AdminUsersRenameWarning>
+  <AdminUsersLicenseRestriction>ໃບອະນຸຍາດຂອງທ່ານບໍ່ອະນຸຍາດໃຫ້ທ່ານເພື່ອສ້າງຫຼາຍກ່ວາ {0} ຜູ້ໃຊ້</AdminUsersLicenseRestriction>
+  <AdminUsersCountInfoWithLimit>ຜູ້ໃຊ້ທັງຫມົດ: {0} ຈາກ {1}</AdminUsersCountInfoWithLimit>
+  <AdminUsersCountInfo>ຜູ້ໃຊ້ທັງຫມົດ: {0}</AdminUsersCountInfo>
+
+  <AdminGroupsEditGroup>ແກ້ໄຂກຸ່ມ</AdminGroupsEditGroup>
+  <AdminGroupsRemoveGroup>ເອົາກຸ່ມ</AdminGroupsRemoveGroup>
+  <AdminGroupsDeleteGroupPrompt>ທ່ານແນ່ໃຈວ່າທ່ານຕ້ອງການທີ່ຈະເອົາກຸ່ມ (s) "{0}"?</AdminGroupsDeleteGroupPrompt>
+  <AdminGroupsDeletedGroups>{0} ກຸ່ມ (s) ລົບ.</AdminGroupsDeletedGroups>
+  <AdminGroupsGroupNotFound>A ກຸ່ມທີ່ມີຊື່ນີ້ບໍ່ໄດ້ພົບເຫັນ</AdminGroupsGroupNotFound>
+  <AdminGroupsViewUsers>ຜູ້ໃຊ້ເບິ່ງ</AdminGroupsViewUsers>
+  <AdminGroupsProperties>ຄຸນສົມບັດ</AdminGroupsProperties>
+  <AdminGroupsPropertiesTitle>ຄຸນສົມບັດ Group</AdminGroupsPropertiesTitle>
+  <AdminGroupsGeneralInfo>ຂໍ້ມູນກຸ່ມ</AdminGroupsGeneralInfo>
+  <AdminGroupsUserNamePrompt>ກະລຸນາໃສ່ຊື່ຜູ້ໃຊ້</AdminGroupsUserNamePrompt>
+  <AdminGroupsUsers>ສະມາຊິກກຸ່ມ</AdminGroupsUsers>
+  <AdminGroupsUserAlreadyExists>A ຜູ້ໃຊ້ (s) ທີ່ມີຊື່ນີ້ (s) ໄດ້ຮັບການເພີ່ມແລ້ວ</AdminGroupsUserAlreadyExists>
+  <AdminGroupsEmptyName>ຊື່ກຸ່ມບໍ່ສາມາດປ່ອຍຫວ່າງ</AdminGroupsEmptyName>
+  <AdminGroupsIncorrectName>ມີສັນຍາລັກທີ່ບໍ່ຖືກຕ້ອງໃນຊື່ກຸ່ມທີ່ມີ</AdminGroupsIncorrectName>
+  <AdminGroupsAlreadyExists>A ກຸ່ມທີ່ມີຊື່ນີ້ມີຢູ່ແລ້ວ</AdminGroupsAlreadyExists>
+  <AdminGroupsCountInfo>ກຸ່ມທັງຫມົດ: {0}</AdminGroupsCountInfo>
+
+  <AdminLanguagesTab>ຕໍາແຫນ່ງທີ່ຕັ້ງ</AdminLanguagesTab>
+  <AdminLanguagesTabMessage>ການແກ້ໄຂໄຟລ໌ຂອງທ້ອງຖິ່ນ, ເລືອກພາສາທີ່ຕ້ອງການໃນບັນຊີລາຍການ, ໃຫ້ຄລິກໃສ່ຊ່ອຍແນ່ໃນທ້ອງຖິ່ນເພື່ອແກ້ໄຂ. ຫຼັງຈາກການປ່ຽນແປງປຸ່ມໃຫ້ຄລິກໃສ່ "Save"</AdminLanguagesTabMessage>
+  <AdminLangGridKeyColumn>ຊື່ທີ່ສໍາຄັນ</AdminLangGridKeyColumn>
+  <AdminLangGridDefaultColumn>ພາສາອັງກິດ</AdminLangGridDefaultColumn>
+  <AdminEnterLanguageNameTitle>ກະລຸນາໃສ່ຊື່ພາສາ</AdminEnterLanguageNameTitle>
+  <AdminLangConfirmRefreshTitle>ຍືນຍັນ Refresh</AdminLangConfirmRefreshTitle>
+  <AdminLangConfirmRefreshMessage>ເອົາໃຈໃສ່! ຂໍ້ມູນບໍ່ໄດ້ບັນທືກ. ທີ່ທ່ານຕ້ອງການເພື່ອຊ່ວຍປະຢັດການປ່ຽນແປງໃນປັດຈຸບັນ?</AdminLangConfirmRefreshMessage>
+  <AdminLangAmountInfo>ຕົວທີ່ໃຊ້ໃນການເຕີມລົງໄປ: {0} ຂອງ {1} (ຄ່າຫວ່າງບໍ່: {2})</AdminLangAmountInfo>
+  <AdminLangSaveToCSV>ສົ່ງອອກໄປ CSV</AdminLangSaveToCSV>
+  <AdminLangLoadFromCSV>Load ຈາກ CSV</AdminLangLoadFromCSV>
+
+  <AdminDbMaintenanceTab>ບໍາລຸງຮັກສາ DB</AdminDbMaintenanceTab>
+  <AdminDbMaintenanceInfoTitle>ຂໍ້ມູນ</AdminDbMaintenanceInfoTitle>
+  <AdminDbMaintenanceInfoPathLabel>ເສັ້ນທາງຂອງໄຟ DB</AdminDbMaintenanceInfoPathLabel>
+  <AdminDbMaintenanceInfoSizeLabel>ຂະຫນາດໄຟ DB</AdminDbMaintenanceInfoSizeLabel>
+  <AdminDbMaintenanceCompactTitle>ຖານຂໍ້ມູນ Compact</AdminDbMaintenanceCompactTitle>
+  <AdminDbMaintenanceCompactNote>ໃນຄໍາສັ່ງເພື່ອຫຼຸດຜ່ອນຂະຫນາດຂອງເອກະສານຖານຂໍ້ມູນໄດ້, ກະລຸນາຄລິກປຸ່ມຂ້າງລຸ່ມນີ້. ມັນເປັນສິ່ງຈໍາເປັນເພື່ອປະຕິບັດການບີບອັດຂອງຖານຂໍ້ມູນໄດ້ແຕ່ລະໄລຍະ, ນັບຕັ້ງແຕ່, ສໍາລັບການຍົກຕົວຢ່າງ, ຫຼັງຈາກການໂຍກຍ້າຍຂອງບາງລິ້ງຄ໌ສາທາລະນະຫຼືບັນທຶກອາຍຸໄດ້ບັນທຶກຂະຫນາດໄຟ DB ບໍ່ໄດ້ຫຼຸດລົງ inactive.</AdminDbMaintenanceCompactNote>
+  <AdminDbMaintenanceCompactButton>Compact DB</AdminDbMaintenanceCompactButton>
+  <AdminDbMaintenanceCompactSuccess>DB compacted ສົບຜົນສໍາເລັດ.
+ຂະຫນາດໄຟເກົ່າ: {0}
+ຂະຫນາດໄຟໃຫມ່: {1}</AdminDbMaintenanceCompactSuccess>
+  <AdminDbMaintenanceCompactAutoNote>ນອກນັ້ນທ່ານຍັງສາມາດເຮັດໃຫ້ຢູ່ໃນຖານຂໍ້ມູນອັດຕະໂນມັດຫຼັງຈາກການໂຍກຍ້າຍຂອງການດໍາເນີນງານການບັນທຶກການ, ຢ່າງໃດກໍຕາມ, ມັນບໍ່ໄດ້ຖືກແນະນໍາໃຫ້ເພາະມັນ locks ບາງທີເລື້ອຍໆຫຼາຍຂອງພື້ນຖານແລະມັນກໍສາມາດເພີ່ມທະວີການໄລຍະເວລາຂອງການຮ້ອງຂໍບາງ. ເອົາໃຈໃສ່! ຫຼັງຈາກການປ່ຽນແປງຂອງການຕັ້ງຄ່ານີ້ຄໍາຮ້ອງສະຫມັກຈະໄດ້ຮັບການເລີ່ມຕົ້ນໃຫມ່!</AdminDbMaintenanceCompactAutoNote>
+  <AdminDbMaintenanceCompactAutoCheckBox>ເຮັດໃຫ້ສາມາດ / ປິດການທໍາງານອັດຕະໂນມັດຂະຫນາດກະທັດ DB</AdminDbMaintenanceCompactAutoCheckBox>
+  <AdminDbMaintenanceCompactAutoSaveButton>ບັນທຶກ</AdminDbMaintenanceCompactAutoSaveButton>
+  <AdminDbMaintenanceCompactAutoSaveSuccess>ການປ່ຽນແປງຂອງອັດຕະໂນມັດсompression DB ໄດ້ຮັບການສໍາເລັດສົບຜົນສໍາເລັດ. ຫນ້າຈະໄດ້ຮັບການປັບປຸງໃນໄວໆນີ້.</AdminDbMaintenanceCompactAutoSaveSuccess>
+  <AdminDbMaintenanceEnableLogLabel>ເລືອກ DB ສອບຖາມໃນລະດັບການຕັດໄມ້ (ເຂົ້າໄປໃນຂໍ້ມູນ / debug.log)</AdminDbMaintenanceEnableLogLabel>
+  <AdminDbMaintenanceSettingsSaveSuccess>ການຕັ້ງຄ່າ DB ບັນທຶກສົບຜົນສໍາເລັດ. ຫນ້າຈະໄດ້ຮັບການ reloaded</AdminDbMaintenanceSettingsSaveSuccess>
+  <AdminDbMaintenanceSettingsChangeNote>ເອົາໃຈໃສ່! ຫລັງຈາກບັນທຶກຂອງການປັບຄ່າຄໍາຮ້ອງສະຫມັກຈະໄດ້ຮັບການເລີ່ມຕົ້ນໃຫມ່ບໍ່ດົນ!</AdminDbMaintenanceSettingsChangeNote>
+  <AdminDbMaintenanceInsertIntervalLabel>ໄລຍະຫ່າງທີ່ (ໃນນາທີ) ຂອງການເພີ່ມກິດຈະກໍາທີ່ຈະໄດ້ DB. ຖ້າຫາກວ່າທ່ານລະບຸ 0, ບ່ອນຈະປາກົດຂຶ້ນທັນທີຫລັງຈາກກອງປະຊຸມ.</AdminDbMaintenanceInsertIntervalLabel>
+  <AdminDbMaintenanceAdvDbParamsTitle>ຕົວກໍານົດການເຊື່ອມຕໍ່ແບບ DB</AdminDbMaintenanceAdvDbParamsTitle>
+  <AdminDbMaintenanceStatTitle>ສະຖິຕິ (ຂຶ້ນຢູ່ກັບ DurationExecution log ລະດັບ DB)</AdminDbMaintenanceStatTitle>
+  <AdminDbMaintenanceStatDurationReadLabel>avg ອ່ານ timeout</AdminDbMaintenanceStatDurationReadLabel>
+  <AdminDbMaintenanceStatDurationWriteLabel>avg ລາຍລັກອັກສອນ timeout</AdminDbMaintenanceStatDurationWriteLabel>
+  <AdminDbMaintenanceStatDurationCompactLabel>avg timeout ຫນາແຫນ້ນ</AdminDbMaintenanceStatDurationCompactLabel>
+  <AdminDbMaintenanceStatNoData>ບໍ່​ມີ​ຂໍ້​ມູນ</AdminDbMaintenanceStatNoData>
+  <AdminDbMaintenanceStatGetButton>ເກັບສະຖິຕິ</AdminDbMaintenanceStatGetButton>
+
+  <AdminMiscTab>ອື່ນ ໆ</AdminMiscTab>
+  <AdminMiscLoadADAccountsTitle>ໂຫລດບັນຊີ Active Directory</AdminMiscLoadADAccountsTitle>
+  <AdminMiscLoadADAccountsLoadButton>Load</AdminMiscLoadADAccountsLoadButton>
+  <AdminMiscLoadADAccountsResetButton>ປັບ</AdminMiscLoadADAccountsResetButton>
+  <AdminMiscLoadADAccountsLdap>ຊະນະບັນຈຸ ldap</AdminMiscLoadADAccountsLdap>
+  <AdminMiscLoadADAccountsToFile>ເພື່ອຍື່ນການ</AdminMiscLoadADAccountsToFile>
+  <AdminMiscLoadADAccountsSuccessMessage>ບັນຊີການເຄື່ອນໄຫວກໍາລັງໂຫລດສົບຜົນສໍາເລັດ</AdminMiscLoadADAccountsSuccessMessage>
+  <AdminMiscLoadADAccountsInfo>ໃນທີ່ນີ້ທ່ານສາມາດສ້າງໄຟລ໌ທີ່ມີໂຄງປະກອບການຜູ້ໃຊ້ Directory ທັງຫມົດການເຄື່ອນໄຫວ. ເອກະສານນີ້ເປັນສິ່ງຈໍາເປັນຖ້າຫາກວ່າທ່ານນໍາໃຊ້ເປັນເອກະສານຄົງທີ່ການເກັບຮັກສາຂໍ້ມູນ AD. ໄຟລ໌ດຽວກັນສາມາດໄດ້ຮັບການສ້າງຂຶ້ນໂດຍຜ່ານຜົນປະໂຫຍດ ADManager. ສໍາລັບຂໍ້ມູນເພີ່ມເຕີມເບິ່ງ &lt;b&gt; ADAccountsFilePath &lt;b /&gt; ລາຍລະອຽດພາລາມິເຕີໃນ {0} Manual {1}.</AdminMiscLoadADAccountsInfo>
+
+  <AdminMiscManageQuotasTitle>ການຄຸ້ມຄອງໂກຕາ</AdminMiscManageQuotasTitle>
+  <AdminMiscManageQuotasInfo>ຄົ້ນຫາທີ່ມີຢູ່ແລ້ວຫຼືສ້າງໂຄວຕ້າໃຫມ່ເພື່ອຈໍາກັດພື້ນທີ່ອະນຸຍາດໃຫ້ສໍາລັບໂຟນເດີເປັນ, ຂັບເຄື່ອນໂດຍຜູ້ຈັດການຊັບພະຍາກອນ Server File.</AdminMiscManageQuotasInfo>
+  <AdminMiscManageQuotasFolderPath>ເສັ້ນທາງໂຟເດີ</AdminMiscManageQuotasFolderPath>
+  <AdminMiscManageQuotasQuota>Quota</AdminMiscManageQuotasQuota>
+  <AdminMiscManageQuotasGetQuota>ໄດ້ຮັບໂກຕາ</AdminMiscManageQuotasGetQuota>
+  <AdminMiscManageQuotasSetQuota>ກໍານົດໂກຕາ</AdminMiscManageQuotasSetQuota>
+
+  <AdminMiscFoldersFromGPOLTitle>ໂຟເດີ Load ຈາກນະໂຍບາຍກຸ່ມ</AdminMiscFoldersFromGPOLTitle>
+  <AdminMiscFoldersFromGPOLComputerName>ຊື່ຄອມພິວເຕີ</AdminMiscFoldersFromGPOLComputerName>
+  <AdminMiscFoldersFromGPOLFilePath>ເສັ້ນທາງຂອງໄຟ</AdminMiscFoldersFromGPOLFilePath>
+  <AdminMiscFoldersFromGPOLMoreInfoLink>ຂໍ້​ມູນ​ເພີ່ມ​ເຕີມ</AdminMiscFoldersFromGPOLMoreInfoLink>
+  <AdminMiscFoldersFromGPOLResetButton>ປັບ</AdminMiscFoldersFromGPOLResetButton>
+  <AdminMiscFoldersFromGPOLLoadButton>Load</AdminMiscFoldersFromGPOLLoadButton>
+  <AdminMiscFoldersFromGPOLFromDC>ຈາກ DC</AdminMiscFoldersFromGPOLFromDC>
+  <AdminMiscFoldersFromGPOLFromFile>ຈາກເອກະສານ</AdminMiscFoldersFromGPOLFromFile>
+  <AdminMiscFoldersTargetLabel>ການນໍາເຂົ້າຜູ້ໃຊ້ / ສະພາບກຸ່ມໃນ ...</AdminMiscFoldersTargetLabel>
+  <AdminMiscFoldersTargetFilter>ການກັ່ນຕອງ</AdminMiscFoldersTargetFilter>
+  <AdminMiscFoldersTargetPermission>ການອະນຸຍາດ</AdminMiscFoldersTargetPermission>
+  <AdminMiscFoldersFromGPOLSuccessMessage>ໂຟເດີໄດ້ຖືກ loaded ສົບຜົນສໍາເລັດ &lt;br /&gt; ໃຫມ່:. {0}, ການປັບປຸງ:. {1}</AdminMiscFoldersFromGPOLSuccessMessage>
+  <AdminMiscFoldersFromGPOLInfo>ທ່ານສາມາດໂຫລດ (ຫຼືປັບປຸງ) ບັນຊີລາຍຊື່ໂຟນເດີຈາກການຕັ້ງຄ່າແຜນທີ່ Drive ນະໂຍບາຍກຸ່ມໃນການຄວບຄຸມຂອງໂດແມນ. ໃນພາກສະຫນາມຂ້າງລຸ່ມນີ້ທ່ານສາມາດໃສ່ຊື່ຄອມພິວເຕີຈາກທີ່ການຕັ້ງຄ່ານະໂຍບາຍກຸ່ມຈະໄດ້ຮັບການ loaded (ຫຼືຖ້າຫາກວ່າປະໄວ້ເປົ່າ, ຫຼັງຈາກນັ້ນໄດ້ໂດເມນໃນປັດຈຸບັນຈະໄດ້ຮັບການນໍາໃຊ້), ຫຼືເສັ້ນທາງໄຟລ໌ທີ່ມີການຕັ້ງຄ່າໄດທີ່ແມເປັນ.</AdminMiscFoldersFromGPOLInfo>
+
+  <AdminAnonymFoldersTab>ໂຟເດີ Anonymous</AdminAnonymFoldersTab>
+  <AdminAnonymFoldersDeleteFolderPrompt>ທ່ານແນ່ໃຈວ່າທ່ານຕ້ອງການທີ່ຈະເອົາ {0} ໂຟເດີບໍລິຈາກເງິນເລືອກ</AdminAnonymFoldersDeleteFolderPrompt>
+  
+  <AdminAnonymFoldersDescription>ແຟ້ມການແບ່ງປັນ / ໄຟລ໌ - ເຫຼົ່ານີ້ແມ່ນໂຟເດີ / ໄຟລ໌ທີ່ບໍ່ຈໍາເປັນຕ້ອງກວດສອບຜູ້ໃຊ້ *, ມີຄວາມຫມາຍວ່າພວກເຂົາເຈົ້າມີຢູ່ສໍາລັບຜູ້ມາຢ້ຽມຢາມທັງຫມົດ * (ຖ້າຫາກວ່າພວກເຂົາເຈົ້າມີການເຊື່ອມຕໍ່). ຜູ້ໃຊ້ສາມາດສ້າງແຟ້ມດັ່ງກ່າວ / ໄຟລ໌ຈາກເມນູ "Share &amp;Rarr; ສ້າງການເຊື່ອມຕໍ່ສາທາລະນະ". ຢ່າງໃດກໍຕາມ, ແຟ້ມການແບ່ງປັນອາດຈະມີການອະນຸຍາດທີ່ຈໍາກັດ: ສໍາລັບການອັບໂຫຼດ, ການດາວໂຫຼດ, ໄຟລ໌ / ບັນຊີລາຍຊື່ໂຟເດີ. ຂ້າງລຸ່ມນີ້ແມ່ນຕາຕະລາງຂອງການເຊື່ອມຕໍ່ກັບທີ່ໃຊ້ຮ່ວມກັນໂຟເດີ / ໄຟທີ່ສ້າງຂຶ້ນໂດຍຜູ້ໃຊ້. ການເຮັດວຽກການເຊື່ອມຕໍ່ສາທາລະນະມີຢ່າງຖືກຕ້ອງໃຫ້ແນ່ໃຈວ່າທີ່ Handlers \ Anonymousdownload.ashx ອະນຸຍາດໃຫ້ເຂົ້າເຖິງບໍລິຈາກເງິນເພື່ອ IIS. ທ່ານອາດຈະກວດເບິ່ງຢູ່ໃນຫນ້າທີ່ &lt;a target="_blank" href="{0}"&gt; Diagnostics &lt;/a&gt;. ເຮັດໃຫ້ແນ່ໃຈວ່າບັນຊີຜູ້ໃຊ້ບໍລິຈາກເງິນມອບຫມາຍໃຫ້ Handlers \ Anonymousdownload.ashx ມີ NTFS ການອະນຸຍາດການອ່ານ / ຂຽນສໍາລັບການແບ່ງປັນໂຟເດີ / ແຟ້ມ &lt;br /&gt; * &amp;nbsp;. &amp;mdash; &amp;nbsp; ຖ້າຫາກວ່າທ່ານບໍ່ໄດ້ລະບຸຜູ້ໃຊ້, ສໍາລັບການທີ່ມີພຽງແຕ່ອະນຸຍາດໃຫ້ເຂົ້າເຖິງ.</AdminAnonymFoldersDescription>
+  <AdminAnonymFoldersLinkOwnerColumn>ເຈົ້າຂອງ</AdminAnonymFoldersLinkOwnerColumn>
+  <AdminAnonymFoldersEmailsColumn>ອີເມວສໍາລັບການແຈ້ງເຕືອນ</AdminAnonymFoldersEmailsColumn>
+  <AdminAnonymFoldersAccessForUsersColumn>ການເຂົ້າເຖິງສໍາລັບຜູ້ໃຊ້</AdminAnonymFoldersAccessForUsersColumn>
+  <AdminAnonymFoldersPersonalMessageColumn>ຂໍ້ຄວາມສ່ວນບຸກຄົນ</AdminAnonymFoldersPersonalMessageColumn>
+  <AdminAnonymFoldersOverwriteOnUploadHint> (overwrite: {0})</AdminAnonymFoldersOverwriteOnUploadHint>
+  <AdminAnonymFoldersRootPathColumn>ເສັ້ນທາງ root</AdminAnonymFoldersRootPathColumn>
+  <AdminAnonymFoldersKeysColumn>ຕົວທີ່ໃຊ້ໃນ</AdminAnonymFoldersKeysColumn>
+  <AdminAnonymFoldersShortColumn>ການເຊື່ອມຕໍ່ສັ້ນ</AdminAnonymFoldersShortColumn>
+  <AdminAnonymFoldersPropertiesTitle>ຄຸນສົມບັດໂຟເດີ Anonymous</AdminAnonymFoldersPropertiesTitle>
+  <AdminAnonymFoldersAdditionalInfo>ຂໍ້​ມູນ​ເພີ່ມ​ເຕີມ</AdminAnonymFoldersAdditionalInfo>
+  <AdminAnonymFoldersLinkLabel>ການເຊື່ອມຕໍ່ສໍາລັບການເຂົ້າເຖິງ</AdminAnonymFoldersLinkLabel>
+  <AdminAnonymFoldersPathNotSpecified>ເສັ້ນທາງທາງດ້ານຮ່າງກາຍແມ່ນບໍ່ກໍານົດ</AdminAnonymFoldersPathNotSpecified>
+  <AdminAnonymFoldersCreatedForColumn>ຈຸດປະສົງ</AdminAnonymFoldersCreatedForColumn>
+
+  <AdminFoldersTab>ໂຟນເດີ</AdminFoldersTab>
+  <AdminFoldersAddFolder>ເພີ່ມໂຟເດີ</AdminFoldersAddFolder>
+  <AdminFoldersEditFolder>ດັດແກ້ໂຟເດີ</AdminFoldersEditFolder>
+  <AdminFoldersRemoveFolder>ລົບໂຟເດີ</AdminFoldersRemoveFolder>
+  <AdminFoldersDeleteFolderPrompt>ທ່ານແນ່ໃຈວ່າທ່ານຕ້ອງການທີ່ຈະເອົາໂຟເດີ "{0}"?</AdminFoldersDeleteFolderPrompt>
+  <AdminFoldersFolderNotFound>A ໂຟນເດີທີ່ມີຊື່ນີ້ບໍ່ໄດ້ພົບເຫັນ</AdminFoldersFolderNotFound>
+  <AdminFoldersPropertiesTitle>ຄຸນສົມບັດ Folder</AdminFoldersPropertiesTitle>
+  <AdminFoldersGeneralInfo>ຂໍ້​ມູນ​ທົ່ວ​ໄປ</AdminFoldersGeneralInfo>
+  <AdminFoldersFolderRemoteWarningForms>ຫມາຍ​ເຫດ​! ໂຟນເດີນີ້ຖືກເປີດເຜີຍຫ່າງໄກສອກຫຼີກ. ກວດສອບ {0} FAQ: ວິທີທີ່ຈະແບ່ງປັນໂຟເດີຫ່າງໄກສອກຫຼີກ {1}</AdminFoldersFolderRemoteWarningForms>
+  <AdminFoldersFolderRemoteWarningWin>ຫມາຍ​ເຫດ​! ໂຟນເດີນີ້ຖືກເປີດເຜີຍຫ່າງໄກສອກຫຼີກ. ທ່ານສາມາດຊ່ອນບາງໂຟເດີ / ແຟ້ມຖ້າຫາກວ່າຜູ້ນໍາໃຊ້ຫາກບໍ່ມີສິດທີ່ຈະອ່ານໃຫ້ເຂົາເຈົ້າ. ເບິ່ງ {0} FAQ: ວິທີການເພື່ອຊ່ອນໄຟລ໌ / ແຟ້ມທີ່ຜູ້ໃຊ້ບໍ່ມີສິດໃນການອ່ານ {1}</AdminFoldersFolderRemoteWarningWin>
+  <AdminFoldersFolderPath>ເສັ້ນທາງທາງດ້ານຮ່າງກາຍ</AdminFoldersFolderPath>
+  <AdminFoldersLocationPath>ສະຖານທີ່</AdminFoldersLocationPath>
+  <AdminFoldersFolderCreate>ສ້າງໂຟເດີ</AdminFoldersFolderCreate>
+  <AdminFoldersFolderCreateProcess>ໂຟນເດີສ້າງ</AdminFoldersFolderCreateProcess>
+  <AdminFoldersFolderCreateContainsPattern>ໂຟນເດີທີ່ບໍ່ສາມາດໄດ້ຮັບການສ້າງຕັ້ງຂື້ນເນື່ອງຈາກວ່າມັນປະກອບດ້ວຍຮູບແບບ</AdminFoldersFolderCreateContainsPattern>
+  <AdminFoldersFolderCreateSuccessfully>ໃນໂຟເດີ "{0}" ໄດ້ຮັບການສ້າງຕັ້ງຢ່າງສໍາເລັດຜົນ.</AdminFoldersFolderCreateSuccessfully>
+  <AdminFoldersFolderOptional> (ຖ້າຕ້ອງການ)</AdminFoldersFolderOptional>
+  <AdminFoldersFolderLimitations>ຂໍ້ຈໍາກັດ</AdminFoldersFolderLimitations>
+  <AdminFoldersFolderDescription>ລາຍລະອຽດ</AdminFoldersFolderDescription>
+  <AdminFoldersFolderQuota>Quota</AdminFoldersFolderQuota>
+  <AdminFoldersFolderQuotaHint>ຄົ້ນຫາທີ່ມີຢູ່ແລ້ວຫຼືສ້າງໂຄວຕ້າໃຫມ່ເພື່ອຈໍາກັດພື້ນທີ່ອະນຸຍາດໃຫ້ສໍາລັບໂຟນເດີເປັນ, ຂັບເຄື່ອນໂດຍຜູ້ຈັດການຊັບພະຍາກອນ Server File.</AdminFoldersFolderQuotaHint>
+  <AdminFoldersFolderQuotaMoreInfoLink>ຂໍ້​ມູນ​ເພີ່ມ​ເຕີມ</AdminFoldersFolderQuotaMoreInfoLink>
+  <AdminFoldersPermissions>ການອະນຸຍາດ</AdminFoldersPermissions>
+  <AdminFoldersPermissionsFor>ການອະນຸຍາດສໍາລັບການ {0}</AdminFoldersPermissionsFor>
+  <AdminFoldersUsersGroups>ຜູ້ໃຊ້ແລະກຸ່ມ</AdminFoldersUsersGroups>
+  <AdminFoldersAccessControl>ການຄວບຄຸມການເຂົ້າເຖິງ</AdminFoldersAccessControl>
+  <AdminFoldersCreate>ສ້າງ</AdminFoldersCreate>
+  <AdminFoldersDelete>ລົບ</AdminFoldersDelete>
+  <AdminFoldersRename>ປ່ຽນຊື່</AdminFoldersRename>
+  <AdminFoldersUpload>Upload</AdminFoldersUpload>
+  <AdminFoldersDownload>ດາວໂຫລດ</AdminFoldersDownload>
+  <AdminFoldersZipDownload>ໄປສະນີແລະດາວໂຫລດ</AdminFoldersZipDownload>
+  <AdminFoldersZip>ໄປສະນີ</AdminFoldersZip>
+  <AdminFoldersUnzip>ໄປສະນີເອົາອອກ</AdminFoldersUnzip>
+  <AdminFoldersCut>ການຕັດ</AdminFoldersCut>
+  <AdminFoldersCopy>ສໍາເນົາ</AdminFoldersCopy>
+  <AdminFoldersListFiles>ສະແດງໄຟລ໌</AdminFoldersListFiles>
+  <AdminFoldersListFolders>ສະແດງໃຫ້ເຫັນໂຟເດີ</AdminFoldersListFolders>
+  <AdminFoldersModify>ປັບປຸງແກ້ໄຂ</AdminFoldersModify>
+  <AdminFoldersBulkMailing>ທາງໄປສະນີຈໍານວນຫລາຍ</AdminFoldersBulkMailing>
+  <AdminFoldersAnonymViewContent>ບັນຊີລາຍຊື່ເອກະສານຜ່ານທາງການເຊື່ອມຕໍ່ສາທາລະນະ</AdminFoldersAnonymViewContent>
+  <AdminFoldersAnonymDownload>ດາວນ໌ໂຫລດຜ່ານທາງການເຊື່ອມຕໍ່ສາທາລະນະ</AdminFoldersAnonymDownload>
+  <AdminFoldersAnonymUpload>ອັບໂຫລດໂດຍຜ່ານການເຊື່ອມຕໍ່ສາທາລະນະ</AdminFoldersAnonymUpload>
+  <AdminFoldersWatch>Watch</AdminFoldersWatch>
+  <AdminFoldersDescription>ທ່ານສາມາດເພີ່ມແຟ້ມດ້ວຍຕົນເອງຫຼືປ່ຽນໂຟເດີທີ່ມີຢູ່ແລ້ວຖ້າຫາກວ່າທ່ານກໍາລັງນໍາໃຊ້ການຂັບລົດຢູ່ໃນນະໂຍບາຍ Group. ສໍາລັບຂໍ້ມູນເພີ່ມເຕີມເບິ່ງ {0} Help {1}.</AdminFoldersDescription>
+
+  <AdminFoldersPermissionsForRegex>ນອກນັ້ນທ່ານຍັງສາມາດນໍາໃຊ້ການສະແດງອອກເປັນປົກກະຕິ. ກະລຸນາໃສ່ &lt;b&gt; {0} &lt;/b&gt; ຢູ່ໃນຕອນຕົ້ນຂອງພາກສະຫນາມຂ້າງເທິງນີ້ແລະຫຼັງຈາກນັ້ນການສະແດງອອກເປັນປົກກະຕິ, ສໍາລັບການຍົກຕົວຢ່າງ:</AdminFoldersPermissionsForRegex>
+  <AdminFoldersPermissionsForRegexUsers>{0} (ຫນອງການເຂົ້າເຖິງສໍາລັບຜູ້ໃຊ້) &lt;br /&gt; {1} (ນີ້ສະແດງອອກເປັນປົກກະຕິຫມາຍຄວາມວ່າທັງສອງຜູ້ໃຊ້: jdoe ແລະ Mike)</AdminFoldersPermissionsForRegexUsers>
+  <AdminFoldersPermissionsForRegexGroups>{0} (ຫນອງການເຂົ້າເຖິງສໍາລັບກຸ່ມໃດ) &lt;br /&gt; {1} (ນີ້ສະແດງອອກເປັນປົກກະຕິຫມາຍຄວາມວ່າກຸ່ມທັງຫມົດທີ່ມີ "ນັກສຶກສາ" ໃນຊື່ຂອງເຂົາເຈົ້າ)</AdminFoldersPermissionsForRegexGroups>
+
+  <AdminFoldersListRestrictions>ຂໍ້ຈໍາກັດຂອງການສະແດງ</AdminFoldersListRestrictions>
+  <AdminFoldersCreateRestrictions>ຂໍ້ຈໍາກັດຂອງການສ້າງເອກະສານ</AdminFoldersCreateRestrictions>
+  <AdminFoldersRestrictionAllow>ອະນຸຍາດໃຫ້</AdminFoldersRestrictionAllow>
+  <AdminFoldersRestrictionDeny>ປະຕິເສດ</AdminFoldersRestrictionDeny>
+  <AdminFoldersRestrictionExtensions>ການຂະຫຍາຍ</AdminFoldersRestrictionExtensions>
+  <AdminFoldersUserNamePrompt>ກະລຸນາໃສ່ຊື່ຜູ້ໃຊ້</AdminFoldersUserNamePrompt>
+  <AdminFoldersUserNameEmptyText>ເລືອກຊື່ຜູ້ໃຊ້</AdminFoldersUserNameEmptyText>
+  <AdminFoldersUserNameNotSelected>ທ່ານຕ້ອງໄດ້ເລືອກຊື່ຜູ້ໃຊ້</AdminFoldersUserNameNotSelected>
+  <AdminFoldersUserAlreadyExists>ຜູ້ໃຊ້ນີ້ໄດ້ຮັບການມອບຫມາຍໃຫ້ໂຟເດີ</AdminFoldersUserAlreadyExists>
+  <AdminFoldersGroupNamePrompt>ກະລຸນາໃສ່ຊື່ກຸ່ມ</AdminFoldersGroupNamePrompt>
+  <AdminFoldersGroupNameEmptyText>ເລືອກຊື່ກຸ່ມ</AdminFoldersGroupNameEmptyText>
+  <AdminFoldersGroupNameNotSelected>ທ່ານຕ້ອງໄດ້ເລືອກເອົາຊື່ກຸ່ມ</AdminFoldersGroupNameNotSelected>
+  <AdminFoldersGroupAlreadyExists>ກຸ່ມນີ້ໄດ້ຮັບການມອບຫມາຍໃຫ້ໂຟເດີ</AdminFoldersGroupAlreadyExists>
+  <AdminFoldersEmptyName>ຊື່ໂຟເດີບໍ່ສາມາດປ່ອຍຫວ່າງ</AdminFoldersEmptyName>
+  <AdminFoldersEmptyPath>ເສັ້ນທາງໂຟເດີບໍ່ສາມາດປ່ອຍຫວ່າງ</AdminFoldersEmptyPath>
+  <AdminFoldersIncorrectName>ມີສັນຍາລັກທີ່ບໍ່ຖືກຕ້ອງໃນຊື່ໂຟເດີທີ່ມີ</AdminFoldersIncorrectName>
+  <AdminFoldersAlreadyExists>A ໂຟນເດີທີ່ມີຊື່ນີ້ແລະສະຖານທີ່ມີຢູ່ແລ້ວ</AdminFoldersAlreadyExists>
+  <AdminFoldersSharesButton>ຮຸ້ນທີ່ມີຢູ່ແລ້ວ</AdminFoldersSharesButton>
+  <AdminFoldersTestAccessButton>ການເຂົ້າເຖິງການທົດສອບ</AdminFoldersTestAccessButton>
+  <AdminFoldersTestIndexingButton>ດັດສະນີການທົດສອບ</AdminFoldersTestIndexingButton>
+  <AdminFoldersShareNameTitle>ຮຸ້ນທີ່ມີຢູ່ແລ້ວ</AdminFoldersShareNameTitle>
+  <AdminFoldersShareNameEmptyText>ເລືອກ share</AdminFoldersShareNameEmptyText>
+  <AdminFoldersShareNameNotSelected>ທ່ານຕ້ອງໄດ້ເລືອກ share</AdminFoldersShareNameNotSelected>
+  <AdminFoldersGetQuotaButton>ໄດ້ຮັບໂກຕາ</AdminFoldersGetQuotaButton>
+  <AdminFoldersSetQuotaButton>ກໍານົດໂກຕາ</AdminFoldersSetQuotaButton>
+  <AdminCommonFilterField>ການກັ່ນຕອງ</AdminCommonFilterField>
+  <AdminCommonValidateField>ກວດສອບ</AdminCommonValidateField>
+  <AdminFoldersRootNameUsed>ກະລຸນາໃຊ້ຊື່ອື່ນອີກສໍາລັບໂຟນເດີແທນທີ່ຈະເປັນ "{0}"</AdminFoldersRootNameUsed>
+  <AdminFoldersFolderFilterSuccess>ຄວາມຖືກຕ້ອງຂອງການກັ່ນຕອງທີ່ໄດ້ຈັດຂຶ້ນຢ່າງສໍາເລັດຜົນ</AdminFoldersFolderFilterSuccess>
+
+  <AdminTestAccessGoodResult>ໂຟນເດີ "{0}" ມີຢູ່ແລະສາມາດອ່ານໄດ້.</AdminTestAccessGoodResult>
+  <AdminTestAccessBadResult>ໃນໂຟເດີ "{0}" ບໍ່ມີຫຼືບໍ່ມີ NTFS ອ່ານອະນຸຍາດຫຼືບໍ່ມີການເຂົ້າເຖິງເຄືອຂ່າຍສໍາລັບຕົວຕົນຄໍາຮ້ອງສະຫມັກໄດ້!</AdminTestAccessBadResult>
+  <AdminTestAccessErrorResult>ຄວາມຜິດພາດໃນຂະນະທີ່ການກວດສອບການເຂົ້າເຖິງໂຟນເດີ "{0}": {1}</AdminTestAccessErrorResult>
+  <AdminTestIndexingErrorResult>ຄວາມຜິດພາດໃນຂະນະທີ່ການກວດສອບດັດສະນີສໍາລັບໂຟນເດີ "{0}":
+{1}</AdminTestIndexingErrorResult>
+  <AdminTestIndexingYesResult>ລະບົບການ "{0}" ຖືກຈັດດັດສະນີ</AdminTestIndexingYesResult>
+  <AdminTestIndexingNoResult>ລະບົບການ "{0}" ບໍ່ໄດ້ຈັດດັດສະນີ</AdminTestIndexingNoResult>
+  <AdminTestIndexingUnknownResult>ບໍ່ສາມາດກໍານົດຖ້າຫາກວ່າລະບົບການ "{0}" ຖືກຈັດດັດສະນີ.</AdminTestIndexingUnknownResult>
+  <AdminTestIndexingAddIfNotIndexed>ທ່ານຕ້ອງການທີ່ຈະເພີ່ມໂຟເດີນີ້ສໍາລັບດັດຊະນີ, ຖ້າຫາກວ່າມັນໄດ້ຮັບການຈັດດັດສະນີທັນ?</AdminTestIndexingAddIfNotIndexed>
+  <ProgressTestAccess>ການກວດສອບການເຂົ້າເຖິງ</ProgressTestAccess>
+  <ProgressTestIndexing>ດັດສະນີການກວດສອບ</ProgressTestIndexing>
+  <AdminHowToIndexingLocationLink>ໃນຄໍາສັ່ງທີ່ຈະດັດຊະນີໂຟເດີ, ເບິ່ງວິທີໃຊ້ສໍາລັບ {0}</AdminHowToIndexingLocationLink>
+
+  <AdminUsersListAll>ຜູ້ໃຊ້ທັງຫມົດ</AdminUsersListAll>
+  <AdminUsersListDACL>ຜູ້ຊົມໃຊ້ຈາກ ACL</AdminUsersListDACL>
+  <AdminGroupsListAll>ກຸ່ມທັງຫມົດ</AdminGroupsListAll>
+  <AdminGroupsListDACL>ກຸ່ມຈາກ ACL</AdminGroupsListDACL>
+  <AdminDACLStringLabel>ການອະນຸຍາດ ACL</AdminDACLStringLabel>
+
+  <AdminCommonCustomField>ພາກສະຫນາມທີ່ກໍາຫນົດເອງ</AdminCommonCustomField>
+  <AdminCommonSettingsChangeWarning>ການປ່ຽນແປງຈະມີຜົນກະທົບຫຼັງຈາກເຂົ້າສູ່ລະບົບ re (ຫຼືຫຼັງຈາກ restart ຄໍາຮ້ອງສະຫມັກສໍາລັບການເຂົ້າເຖິງ WebDav).</AdminCommonSettingsChangeWarning>
+
+  <AdminCommonAllowedFoldersPathsTitle>ເສັ້ນທາງໄປສູ່ໂຟເດີອະນຸຍາດໃຫ້</AdminCommonAllowedFoldersPathsTitle>
+  <AdminCommonNotAllowedFolderPath>ທ່ານສາມາດສ້າງເຂົ້າເຖິງພຽງແຕ່ໂຟເດີເຫລົ່ານີ້ຫລືໂຟເດີຍ່ອຍ: {0}</AdminCommonNotAllowedFolderPath>
+
+  <AdminLogsTab>ເຂົ້າສູ່ລະບົບ</AdminLogsTab>
+
+  <AdminSettingsTab>ການຕັ້ງຄ່າ</AdminSettingsTab>
+
+  <AdminLogsErrorsTab>ເຂົ້າສູ່ລະບົບຜິດພາດ</AdminLogsErrorsTab>
+  <AdminLogsErrorsClearBtn>ຈະແຈ້ງ</AdminLogsErrorsClearBtn>
+  <AdminLogsErrorsClearUsersCountExceededBtn>ການບັນທຶກການທີ່ຈະແຈ້ງມີຄວາມຜິດພາດຂອງຜູ້ຊົມໃຊ້ເກີນຂອບເຂດຈໍາກັດປະລິມານ</AdminLogsErrorsClearUsersCountExceededBtn>
+
+  <AdminFoldersCreateHint>ອະນຸຍາດໃຫ້ / ປະຕິເສດການປະຕິບັດຈາກເມນູ "ໃຫມ່" ໄດ້: ເອກະສານໃຫມ່, ໂຟເດີໃຫມ່, ຮູບພາບການໃຫມ່, ເອກະສານໃຫມ່.</AdminFoldersCreateHint>
+  <AdminFoldersDeleteHint>ອະນຸຍາດໃຫ້ / ປະຕິເສດລຶບໄຟລ໌ທີ່ມີຢູ່ແລ້ວແລະແຟ້ມ</AdminFoldersDeleteHint>
+  <AdminFoldersRenameHint>ອະນຸຍາດໃຫ້ / ປະຕິເສດ renaming ຂອງໄຟລ໌ທີ່ມີຢູ່ແລ້ວແລະແຟ້ມ</AdminFoldersRenameHint>
+  <AdminFoldersUploadHint>ອະນຸຍາດໃຫ້ / ປະຕິເສດການອັບໂຫຼດໄຟລ໌ມີ (ປຸ່ມອັບໂຫລດໄປຍັງແຖບເຄື່ອງມື)</AdminFoldersUploadHint>
+  <AdminFoldersDownloadHint>ອະນຸຍາດໃຫ້ / ປະຕິເສດ "ດາວໂຫລດ", "view / ດັດແກ້", ເກມດາວໂຫລດເພື່ອຟັງການເກັບຮັກສາ, ການປະຕິບັດແລະອື່ນໆ</AdminFoldersDownloadHint>
+  <AdminFoldersZipDownloadHint>ອະນຸຍາດໃຫ້ / ປະຕິເສດ "ບີບອັດແລະດາວນ໌ໂຫລດ" ການປະຕິບັດ</AdminFoldersZipDownloadHint>
+  <AdminFoldersZipHint>ອະນຸຍາດໃຫ້ / ປະຕິເສດ "ບີບອັດເປັນຮວບຮວມຫັດໄປສະນີ" ການປະຕິບັດ</AdminFoldersZipHint>
+  <AdminFoldersUnzipHint>ອະນຸຍາດໃຫ້ / ປະຕິເສດ "ສານສະກັດຈາກກັບໂຟນເດີໃນປະຈຸບັນ", "ສານສະກັດຈາກກັບໂຟນເດີໃຫມ່" ແລະ "ເນື້ອໃນໄປສະນີ" ການປະຕິບັດ</AdminFoldersUnzipHint>
+  <AdminFoldersCutHint>ອະນຸຍາດໃຫ້ / ປະຕິເສດໄຟລ໌ແລະແຟ້ມທີ່ມີຢູ່ແລ້ວການຕັດການປະຕິບັດ</AdminFoldersCutHint>
+  <AdminFoldersCopyHint>ອະນຸຍາດໃຫ້ / ປະຕິເສດສໍາເນົາໄຟລ໌ທີ່ມີຢູ່ແລ້ວແລະແຟ້ມການປະຕິບັດ</AdminFoldersCopyHint>
+  <AdminFoldersListFilesHint>ອະນຸຍາດໃຫ້ / ປະຕິເສດ listing ໄຟ</AdminFoldersListFilesHint>
+  <AdminFoldersListFoldersHint>ອະນຸຍາດໃຫ້ / ປະຕິເສດໂຟເດີ listing</AdminFoldersListFoldersHint>
+  <AdminFoldersModifyHint>ອະນຸຍາດໃຫ້ / ປະຕິເສດແກ້ໄຂໄຟ (ການປະຕິບັດທັງຫມົດທີ່ສາມາດປັບປຸງແກ້ໄຂເນື້ອໃນເອກະສານທີ່ມີຢູ່ແລ້ວ)</AdminFoldersModifyHint>
+  <AdminFoldersBulkMailingHint>ອະນຸຍາດໃຫ້ / ປະຕິເສດທາງໄປສະນີຈໍານວນຫລາຍສໍາລັບກຸ່ມ</AdminFoldersBulkMailingHint>
+  <AdminFoldersAnonymViewContentHint>ອະນຸຍາດໃຫ້ / ປະຕິເສດໄຟລ໌ສໍາລັບຜູ້ໃຊ້ບໍລິຈາກເງິນ (ຜ່ານການເຊື່ອມຕໍ່ສາທາລະນະ)</AdminFoldersAnonymViewContentHint>
+  <AdminFoldersAnonymDownloadHint>ອະນຸຍາດໃຫ້ / ປະຕິເສດໄຟລ໌ດາວນ໌ໂຫລດສໍາລັບຜູ້ໃຊ້ບໍລິຈາກເງິນ (ຜ່ານການເຊື່ອມຕໍ່ສາທາລະນະ)</AdminFoldersAnonymDownloadHint>
+  <AdminFoldersAnonymUploadHint>ອະນຸຍາດໃຫ້ / ປະຕິເສດໄຟລ໌ອັບໂຫລດສໍາຫລັບຜູ້ໃຊ້ບໍລິຈາກເງິນ (ຜ່ານການເຊື່ອມຕໍ່ສາທາລະນະ)</AdminFoldersAnonymUploadHint>
+  <AdminFoldersWatchHint>ອະນຸຍາດໃຫ້ / ປະຕິເສດຜູ້ໃຊ້ສາມາດຕິດຕາມກວດກາການປ່ຽນແປງຢູ່ໃນໂຟນເດີໂດຍຜູ້ຊົມໃຊ້ອື່ນໆ (ມັນໄດ້ຖືກນໍາໃຊ້ພຽງແຕ່ຖ້າວ່າ UI / AllowUsersmonitorModifications = true)</AdminFoldersWatchHint>
+  <AdminFoldersListRestrictionsHint>ຕົວເລືອກນີ້ຄວບຄຸມລາຍຊື່ແຟ້ມ. ກົດ "ປະຕິເສດ" ປຸ່ມວິທະຍຸເພື່ອຊ່ອນໄຟລ໌ທີ່ມີການຂະຫຍາຍກໍານົດໄວ້. ໃສ່ຫ້າມຂະຫຍາຍພວກເຂົາແຍກອອກດ້ວຍເຄື່ອງຫມາຍຈຸດ (ເຊັ່ນ: "EXE, BAT, COM"). ທີ່ກໍານົດໄວ້ປຸ່ມວິທະຍຸ "ອະນຸຍາດໃຫ້" ແລະສະແດງກິ່ງງ່າຂະຫຍາຍຂອງໄຟລ໌ທີ່ຈະໄດ້ຮັບການສະແດງໃຫ້ເຫັນ (ເຊັ່ນ: "DOC, PDF, JPG").</AdminFoldersListRestrictionsHint>
+  <AdminFoldersCreateRestrictionsHint>ຫນ້ານີ້ແມ່ນຄ້າຍຄືກັນກັບ "ຂໍ້ຈໍາກັດບັນຊີ", ແຕ່ວ່າມັນຄວບຄຸມໄຟອັບໂຫລດ, ການສະກັດເອົາໄປສະນີ, ການສ້າງໄຟລ໌ໃຫມ່. ທ່ານສາມາດຫ້າມການຫຼືເຮັດໃຫ້ການອັບໂຫລດໄຟລ໌ທີ່ລະບຸໄວ້.</AdminFoldersCreateRestrictionsHint>
+  <AdminFoldersGeneralInfoHint>ປະເພດເສັ້ນທາງໂຟເດີແລະ alias ທີ່ມີຢູ່ແລ້ວ. ໃຫ້ຄລິກໃສ່ປຸ່ມຄວາມຊ່ວຍເຫລືອຢູ່ທາງລຸ່ມສໍາລັບຂໍ້ມູນເພີ່ມເຕີມ.</AdminFoldersGeneralInfoHint>
+  <AdminFoldersUsersGroupsHint>ເລືອກຫຼືຜູ້ຊົມໃຊ້ປະເພດແລະກຸ່ມທີ່ຈະແບ່ງປັນໂຟນເດີສໍາລັບພວກເຂົາ. ໃຫ້ຄລິກໃສ່ປຸ່ມຄວາມຊ່ວຍເຫລືອຢູ່ທາງລຸ່ມສໍາລັບຂໍ້ມູນເພີ່ມເຕີມ.</AdminFoldersUsersGroupsHint>
+
+  <AdminUserFoldersButtonTitle>ບັນຊີລາຍຊື່ຮຸ້ນການທົດສອບ</AdminUserFoldersButtonTitle>
+  <AdminUserFoldersWindowTitle>ໂຟເດີຜູ້ໃຊ້</AdminUserFoldersWindowTitle>
+  <AdminUserFoldersLabel>ບັນຊີລາຍຊື່ໂຟເດີສໍາຫລັບຜູ້ໃຊ້ {0} ':</AdminUserFoldersLabel>
+  
+  <AdminPermissionsTab>ການອະນຸຍາດ Admin</AdminPermissionsTab>
+  <AdminPermissionsPrivilege>ສິດທິພິເສດ</AdminPermissionsPrivilege>
+  <AdminPermissionsEditButton>ແກ້ໄຂສິດທິພິເສດ</AdminPermissionsEditButton>
+  <AdminPermissionsModifySettingsTitle>ປັບປຸງແກ້ໄຂການຕັ້ງຄ່າ</AdminPermissionsModifySettingsTitle>
+  <AdminPermissionsModifyFoldersTitle>ປັບປຸງແກ້ໄຂໂຟເດີ</AdminPermissionsModifyFoldersTitle>
+  <AdminPermissionsModifyAnonymFoldersTitle>ປັບປຸງແກ້ໄຂໂຟເດີສາທາລະນະ</AdminPermissionsModifyAnonymFoldersTitle>
+  <AdminPermissionsModifyAccountsTitle>ປັບປຸງແກ້ໄຂບັນຊີ</AdminPermissionsModifyAccountsTitle>
+  <AdminPermissionsViewDiagnosticsTitle>View 'Diagnostics' ຫນ້າ</AdminPermissionsViewDiagnosticsTitle>
+  <AdminPermissionsViewLogTitle>ບັນທຶກການເບິ່ງ</AdminPermissionsViewLogTitle>
+  <AdminPermissionsViewErrorsLogTitle>ເບິ່ງຄວາມຜິດພາດເຂົ້າສູ່ລະບົບ</AdminPermissionsViewErrorsLogTitle>
+  <AdminPermissionsModifyLocalizationsTitle>ປັບປຸງແກ້ໄຂພາຍໃນປະເທດ</AdminPermissionsModifyLocalizationsTitle>
+  <AdminPermissionsFolderPathTitle>ເສັ້ນທາງໂຟເດີ</AdminPermissionsFolderPathTitle>
+  <AdminPermissionsFoldersTitle>ໂຟເດີ Admin</AdminPermissionsFoldersTitle>
+  <AdminPermissionsPrivilegeHint>ຜູ້ໃຊ້ທີ່ກໍານົດໄວ້ / ກຸ່ມສໍາລັບການທີ່ "{0}" ສິດທິພິເສດຈະໄດ້ຮັບການອະນຸຍາດ</AdminPermissionsPrivilegeHint>
+  <AdminPermissionsFolderTitle>ຄຸນສົມບັດໂຟເດີ Admin</AdminPermissionsFolderTitle>
+  <AdminPermissionsFolderFieldTitle>ເສັ້ນທາງໂຟເດີ</AdminPermissionsFolderFieldTitle>
+  <AdminPermissionsFolderHint>ຂໍ້ມູນກ່ຽວກັບໂຟເດີ admin</AdminPermissionsFolderHint>
+  <AdminPermissionsFolderEmptyAccounts>ລະບຸຜູ້ໃຊ້ແລະ / ຫຼືກຸ່ມ</AdminPermissionsFolderEmptyAccounts>
+  <AdminPermissionsFolderAlreadyExists>ໂຟນເດີທີ່ມີສະຖານທີ່ນີ້ຢູ່ແລ້ວ</AdminPermissionsFolderAlreadyExists>
+  <AdminPermissionsFolderNotFound>ໂຟນເດີທີ່ມີສະຖານທີ່ນີ້ບໍ່ໄດ້ພົບເຫັນ</AdminPermissionsFolderNotFound>
+  <AdminPermissionsAllowedFoldersMessage>ທ່ານສາມາດສ້າງ / ປັບປຸງ / ການຄຸ້ມຄອງການເຂົ້າເຖິງພຽງແຕ່ໂຟເດີເຫລົ່ານີ້ຫລືໂຟເດີຍ່ອຍ: {0}</AdminPermissionsAllowedFoldersMessage>
+
+  <AdminUsersCountExceededWarn>ປະລິມານສູງສຸດຂອງຜູ້ຊົມໃຊ້ແມ່ນເກີນ. ໃບອະນຸຍາດໃນປະຈຸບັນຂອງທ່ານອະນຸຍາດໃຫ້ພຽງແຕ່ {0} ຜູ້ໃຊ້ສໍາລັບການເຂົ້າສູ່ລະບົບ. ສໍາລັບຂໍ້ມູນເພີ່ມເຕີມເປີດແຖບ "{1}" ແລະຊອກຫາ "{2}" ຂໍ້ຍົກເວັ້ນ (s). ເພື່ອຊ່ອນປະກາດນີ້ການບັນທຶກການບັນທຶກຊັດເຈນຢູ່ໃນ "{1}" ແຖບ.</AdminUsersCountExceededWarn>
+
+  <AdminNewVersionAvailableTitle>ສະບັບໃຫມ່ແມ່ນມີຢູ່!</AdminNewVersionAvailableTitle>
+  <AdminNewVersionAvailableInfo>ສະບັບປັດຈຸບັນ: {0} &lt;br /&gt; A ສະບັບໃຫມ່: {1}</AdminNewVersionAvailableInfo>
+  
+  <SettingsGridDescriptionInfo>ລາຍລະອຽດ</SettingsGridDescriptionInfo>
+  <SettingsGridFormatInfo>ຮູບແບບຄ່າ</SettingsGridFormatInfo>
+  <SettingsGridDefaultValueInfo>ຄ່າເລີ່ມຕົ້ນ</SettingsGridDefaultValueInfo>
+  <SettingsGridMoreInfo>ຂໍ້​ມູນ​ເພີ່ມ​ເຕີມ</SettingsGridMoreInfo>
+  <SettingsGridRestoreDefault>ການຟື້ນຟູໃນຕອນຕົ້ນ</SettingsGridRestoreDefault>
+
+  <SettingsFormatBoolean>ຄ່າບູລີນ</SettingsFormatBoolean>
+  <SettingsFormatWholeNumber>ຈໍານວນທັງຫມົດ</SettingsFormatWholeNumber>
+  <SettingsFormatRealNumber>ຈໍານວນທີ່ແທ້ຈິງ</SettingsFormatRealNumber>
+  <SettingsFormatString>string</SettingsFormatString>
+  <SettingsFormatEnum>ມູນຄ່າຂອງທີ່</SettingsFormatEnum>
+  <SettingsFormatSet>ບັນຊີລາຍຊື່ຈຸດ, ແຍກອອກໂດຍບໍ່ມີການຊ້ໍາຂອງມູນຄ່າ</SettingsFormatSet>
+  <SettingsFormatArray>ບັນຊີລາຍຊື່ຈຸດ, ແຍກຂອງ: ເບິ່ງຊ່ອຍແນ່</SettingsFormatArray>
+  <SettingsFormatToolbarButtons>. (. Value "{0}" ສາມາດໄດ້ຮັບການຊ້ໍາເວລາຫຼາຍ, ແຕ່ວ່າບໍ່ໄດ້ຢູ່ໃນຕິດຕໍ່ກັນຫຼັງຈາກຊື່ຂອງແຕ່ລະ, ປະຕິບັດຕາມດ້ວຍຈໍ້າສອງເມັດໄດ້, ມັນເປັນໄປໄດ້ທີ່ຈະລະບຸຫນຶ່ງຂອງວິທີການນໍາໃຊ້ເພື່ອສະແດງປຸ່ມ: {1})</SettingsFormatToolbarButtons>
+
+  <AdminSettingsSave>ຊ່ວຍປະຢັດການປັບຄ່າ</AdminSettingsSave>
+  <AdminToggleHiddenParams>{0} ຕົວກໍານົດແບບພິເສດ</AdminToggleHiddenParams>
+  <AdminHintHiddenParams>ຕົວກໍານົດການເພີ່ມເຕີມແມ່ນມີຈຸດປະສົງພຽງແຕ່ສໍາລັບການຕັ້ງຄ່າລະອຽດຍິ່ງຂຶ້ນແລະໃນກໍລະນີຫຼາຍທີ່ສຸດບໍ່ຄ່ອຍມີຄວາມຈໍາເປັນ</AdminHintHiddenParams>
+  <AdminShowHiddenParams>ສະແດງໃຫ້ເຫັນ</AdminShowHiddenParams>
+  <AdminHideHiddenParams>ຊ່ອນ</AdminHideHiddenParams>
+
+  <SettingsDenyAuthModeChange>ປ່ຽນຮູບແບບການກວດສອບອັດຕະໂນມັດບໍ່ໄດ້ສະຫນັບສະຫນູນ. ເບິ່ງ {0} ສໍາລັບຄໍາແນະນໍາກ່ຽວກັບການປ່ຽນແປງຮູບແບບການກວດສອບໄດ້.</SettingsDenyAuthModeChange>
+  <SettingsApplicationRestartedMsg>ຄໍາຮ້ອງສະຫມັກເລີ່ມຕົ້ນໃຫມ່</SettingsApplicationRestartedMsg>
+  <SettingsSettingsSavedMsg>ການຕັ້ງຄ່າໄດ້ຮັບການບັນທຶກໄວ້</SettingsSettingsSavedMsg>
+  <SettingsSettingsSaveFailedAppMsg>ບໍ່ສາມາດເພື່ອຊ່ວຍປະຢັດໄຟລ໌ການຕັ້ງຄ່າ. ກວດສອບການອະນຸຍາດຂຽນ NTFS ຂອງ web.config ແລະ HttpCommanderSettings.config ໄຟລ໌ໃນໂຟນເດີຮາກຄໍາຮ້ອງສະຫມັກເວັບໄຊຕ໌ {0} ສໍາລັບຜູ້ໃຊ້ {1}. ຂໍ້ຄວາມຜິດພາດ: {2}.</SettingsSettingsSaveFailedAppMsg>
+  <SettingsSettingsSaveFailedTempMsg>ບໍ່ສາມາດເພື່ອຊ່ວຍປະຢັດໄຟລ໌ການຕັ້ງຄ່າ. ການກວດສອບການອະນຸຍາດຂອງໂຟເດີຊົ່ວຄາວ {0} ສໍາລັບຜູ້ໃຊ້ {1}. ຂໍ້ຄວາມຜິດພາດ: {2}.</SettingsSettingsSaveFailedTempMsg>
+  <SettingsSettingsReadFailedAppMsg>ບໍ່ສາມາດອ່ານໄຟລ໌ການຕັ້ງຄ່າ. ກວດສອບການອ່ານ NTFS ການອະນຸຍາດຂອງ web.config ແລະ HttpCommanderSettings.config ໄຟລ໌ໃນໂຟນເດີຮາກຄໍາຮ້ອງສະຫມັກເວັບໄຊຕ໌ {0} ສໍາລັບຜູ້ໃຊ້ {1}. ຂໍ້ຄວາມຜິດພາດ: {2}.</SettingsSettingsReadFailedAppMsg>
+  <SettingsSettingsReadFailedTempMsg>ບໍ່ສາມາດອ່ານໄຟລ໌ການຕັ້ງຄ່າໃນໂຟເດີຊົ່ວຄາວ. ການກວດສອບການອະນຸຍາດຂອງໂຟເດີຊົ່ວຄາວ {0} ສໍາລັບຜູ້ໃຊ້ {1}. ຂໍ້ຄວາມຜິດພາດ: {2}.</SettingsSettingsReadFailedTempMsg>
+  <SettingsSettingsConfigChangedOutside>ໄຟລ໌ການຕັ້ງຄ່າ HttpCommander ໄດ້ຮັບການປ່ຽນແປງໄດ້ໂດຍໂຄງການອື່ນ. ຖ້າເປັນໄປໄດ້ທ່ານໄດ້ແກ້ໄຂດ້ວຍຕົນເອງທີ່ມີບັນນາທິການບົດຄວາມ. ຄໍາຮ້ອງສະຫມັກໄດ້ loaded ໄຟລ໌ການຕັ້ງຄ່າໃຫມ່. ການປ່ຽນແປງທັງຫມົດທີ່ກ່ຽວຂ້ອງກັບ HttpCommander ການຕັ້ງຄ່າທີ່ທ່ານໄດ້ເຮັດໄດ້ໂດຍຜ່ານການໂຕ້ຕອບເວັບໄຊຕ໌ໄດ້ຖືກສູນເສຍໄປ. ທ່ານຈໍາເປັນຕ້ອງເຮັດຊ້ໍາພວກເຂົາ, ຫຼັງຈາກນັ້ນພະຍາຍາມເພື່ອຊ່ວຍປະຢັດອີກເທື່ອຫນຶ່ງ. ພວກເຮົາແນະນໍາໃຫ້ກັບໄຟລ໌ການຕັ້ງຄ່າການແກ້ໄຂດ້ວຍຕົນເອງໃນຂະນະທີ່ຄໍາຮ້ອງສະຫມັກແມ່ນແລ່ນ. ຖ້າບໍ່ດັ່ງນັ້ນທ່ານຄວນຈະ restart ຄໍາຮ້ອງສະຫມັກຫຼັງຈາກທີ່ມີການປ່ຽນແປງໄຟລ໌ການຕັ້ງຄ່າ. ຂໍ້ຄວາມຜິດພາດ:. {0}</SettingsSettingsConfigChangedOutside>
+  <SettingsSettingsSaveNotif>ຢ່າລືມກ່ຽວກັບຊ່ວຍປະຢັດການປ່ຽນແປງການປັບຄ່າ!</SettingsSettingsSaveNotif>
+  
+  <SettingsEmailNotifTitle>ການແຈ້ງເຕືອນທາງອີເມວ</SettingsEmailNotifTitle>
+  <SettingsEmailNotifApplyBtn>ຊ່ວຍປະຢັດການປັບຄ່າ mail</SettingsEmailNotifApplyBtn>
+  <SettingsEmailNotifResetBtn>ປັບ</SettingsEmailNotifResetBtn>
+  <SettingsEmailNotifEventsLabel>ສໍາລັບກິດຈະກໍາ</SettingsEmailNotifEventsLabel>
+  <SettingsEmailNotifWhenLabel>ສົ່ງ</SettingsEmailNotifWhenLabel>
+  <SettingsEmailNotifEmailsLabel>ອີເມວ</SettingsEmailNotifEmailsLabel>
+  <SettingsEmailNotifPathsLabel>ເສັ້ນທາງໄປສູ່</SettingsEmailNotifPathsLabel>
+  
+  <LogsErrorsGridUrlColumn>url</LogsErrorsGridUrlColumn>
+  <LogsErrorsGridMsgColumn>ຂໍ້ຄວາມ</LogsErrorsGridMsgColumn>
+  <LogsErrorsGridMoreInfoColumn>ຂໍ້​ມູນ​ເພີ່ມ​ເຕີມ</LogsErrorsGridMoreInfoColumn>
+  <LogsErrorsGridDetailsTitle>ລາຍລະອຽດ</LogsErrorsGridDetailsTitle>
+  
+  <FsrmUnableLoadLibraryLocal>ບໍ່ສາມາດເຊື່ອມຕໍ່ກັບເອກະສານຜູ້ຈັດການຊັບພະຍາກອນ Server ໃນພື້ນທີ່ໃນທ້ອງຖິ່ນ.</FsrmUnableLoadLibraryLocal>
+  <FsrmUnableLoadLibraryRemote>ບໍ່ສາມາດເຊື່ອມຕໍ່ກັບເອກະສານຜູ້ຈັດການຊັບພະຍາກອນ Server ກ່ຽວກັບ "{0}" ເຈົ້າພາບ.</FsrmUnableLoadLibraryRemote>
+  <FsrmNotInstalled>ຈັດການໄຟລ໌ຊັບພະຍາກອນ Server ບໍ່ໄດ້ຕິດຕັ້ງໃນ "{0}".</FsrmNotInstalled>
+  <FsrmNotInstalledEitherEnd>ຈັດການໄຟລ໌ຊັບພະຍາກອນ Server ບໍ່ໄດ້ຕິດຕັ້ງບໍ່ວ່າຈະເປັນເຈົ້າພາບໃນທ້ອງຖິ່ນຫຼືໃນ "{0}".</FsrmNotInstalledEitherEnd>
+  <FsrmQuotaNotSpecified>Quota ບໍ່ໄດ້ລະບຸ.</FsrmQuotaNotSpecified>
+  <FsrmUnableGetQuota>ບໍ່ສາມາດໄດ້ຮັບການກໍານົດຂອບເຂດໂຄຕາ.</FsrmUnableGetQuota>
+  <FsrmUnableSetQuota>ບໍ່ສາມາດທີ່ຈະກໍານົດຂອບເຂດຈໍາກັດໂກຕາ.</FsrmUnableSetQuota>
+  <FsrmQuotaSetMsg>Quota ໄດ້ຮັບການກໍານົດໄວ້.</FsrmQuotaSetMsg>
+  <FsrmInvalidQuotaValueMsg>ມູນຄ່າໂກຕາທີ່ບໍ່ຖືກຕ້ອງ.</FsrmInvalidQuotaValueMsg>
+
+  <CommandBuyNow>ຊື້​ດຽວ​ນີ້</CommandBuyNow>
+
+  <AdminUpdateTab>ການຍົກລະດັບ</AdminUpdateTab>
+  <AdminUpdateManual>ການຍົກລະດັບຄູ່ມື</AdminUpdateManual>
+  <AdminUpdateAuto>ການຍົກລະດັບອັດຕະໂນມັດ</AdminUpdateAuto>
+  <AdminUpdateStartButton>ເລີ່ມຕົ້ນການຍົກລະດັບ / ສ້າງຄວາມເສຍຫາຍ</AdminUpdateStartButton>
+  <AdminUpdateFinishButton>ສໍາເລັດຮູບການຍົກລະດັບ / ການຟື້ນຟູສໍາຮອງຂໍ້ມູນ</AdminUpdateFinishButton>
+  <AdminUpdateBackupButton>Backup</AdminUpdateBackupButton>
+  <AdminUpdateDownloadNewButton>ດາວນ໌ໂຫລດສະບັບໃຫມ່</AdminUpdateDownloadNewButton>
+  <AdminUpdateStepTitle>ຂັ້ນຕອນ {0} {1}: {2}</AdminUpdateStepTitle>
+  <AdminUpdateStepInfo>ຂັ້ນຕອນ {0} {1}</AdminUpdateStepInfo>
+  <AdminUpdateNumberSymbol>#</AdminUpdateNumberSymbol>
+  <AdminUpdateBackupContent>ກະລຸນາກົດປຸ່ມ "{0}" ສໍາລັບການສ້າງສໍາເນົາາຮອງຂອງໂຟນເດີທີ່ມີຄໍາຮ້ອງສະຫມັກແລະໄດ້ຮັບການເຊື່ອມຕໍ່ສໍາລັບການດາວໂຫລດ</AdminUpdateBackupContent>
+  <AdminUpdateDownloadBackupLinkHint>ກະລຸນາດາວນ໌ໂຫລດສໍາເນົາສໍາຮອງຂອງຄໍາຮ້ອງສະຫມັກການນໍາໃຊ້ການເຊື່ອມຕໍ່ຂ້າງລຸ່ມນີ້:</AdminUpdateDownloadBackupLinkHint>
+  <AdminUpdateDownloadNewContent>ຫຼັງຈາກນັ້ນ, ກະລຸນາດາວນ໌ໂຫລດສະບັບໃຫມ່ການນໍາໃຊ້ການເຊື່ອມຕໍ່ຂ້າງລຸ່ມນີ້ແລະປະຕິບັດຕາມ {0} ການຕິດຕັ້ງ {1} ແລະ {2} ຍົກລະດັບ {1} ຄໍາແນະນໍາໃນຄໍາສັ່ງທີ່ຈະຕິດຕັ້ງສະບັບໃຫມ່. ຫຼັງຈາກການຕິດຕັ້ງກະລຸນາເປີດ Admin Panel, ໄປແຖບ "{3}" ແລະກົດປຸ່ມ "{4}" ໃນຄໍາສັ່ງເພື່ອໃຫ້ສໍາເລັດການຕິດຕັ້ງ.</AdminUpdateDownloadNewContent>
+  <AdminUpdateUploadButton>ອັບໂຫລດສໍາເນົາສໍາຮອງແລະໃຊ້ການຕັ້ງຄ່າ</AdminUpdateUploadButton>
+  <AdminUpdateUploadAndInstallButton>ຕິດຕັ້ງການສະບັບໃຫມ່ທີ່ມີການຮັກສາການຕັ້ງຄ່າທັງຫມົດ</AdminUpdateUploadAndInstallButton>
+  <AdminUpdateUploadEmptyText>ກະລຸນາເລືອກສໍາເນົາສໍາຮອງສໍາລັບການອັບໂຫລດ</AdminUpdateUploadEmptyText>
+  <AdminUpdateFinishContent>ໃນຄໍາສັ່ງທີ່ຈະຟື້ນຟູປັບຄ່າຂອງສະບັບພາສາທີ່ຜ່ານມາກະລຸນາເລືອກແລະອັບມູນທີ່ສໍາຮອງໄວ້ກ່ອນຫນ້ານີ້ທີ່ມີໂຟນເດີຄໍາຮ້ອງສະຫມັກ</AdminUpdateFinishContent>
+  <AdminUpdateFinishMessage>ຊົມເຊີຍ! ການຕັ້ງຄ່າທັງຫມົດໄດ້ຖືກນໍາໃຊ້ຢ່າງສໍາເລັດຜົນ. ນອກຈາກນັ້ນ, ກະລຸນາໃຊ້ການປ່ຽນແປງທັງຫມົດທີ່ທ່ານເຮັດໃຫ້ໄຟລ໌ອື່ນໆ, ເຊັ່ນ: defaultaspx? ຫຼື Global.asax.</AdminUpdateFinishMessage>
+  <AdminUpdateFinishRefreshPage>ຫນ້າຈະໄດ້ຮັບການ reloaded</AdminUpdateFinishRefreshPage>
+  <AdminUpdateMainInfo>ປະເພດຂອງການຍົກລະດັບນີ້ແມ່ນອັດຕະໂນມັດບາງສ່ວນ. ທ່ານອາດຈະສ້າງແລະດາວນ໌ໂຫລດໄຟລ໌າຮອງທີ່ມີການຕັ້ງຄ່າການຕັ້ງຄ່າຄໍາຮ້ອງສະຫມັກແລະປະຕິສັງຂອນມັນຫຼັງຈາກການຍົກລະດັບໄດ້. ກະລຸນາປະຕິບັດຕາມຂັ້ນຕອນເຫຼົ່ານີ້ສັ້ນ: ສ້າງໄຟລ໌າຮອງເປັນ, ປະຕິບັດການຍົກລະດັບຄູ່ມື, ການຟື້ນຟູປັບຄ່າຈາກໄຟລ໌າຮອງ. ລະບຽບການນີ້ຍັງສາມາດຖືກນໍາໃຊ້ເພື່ອສໍາຮອງຂໍ້ມູນ / ການຟື້ນຟູປັບຄ່າໄດ້ໂດຍບໍ່ມີການຍົກລະດັບ. ພຽງແຕ່ຂ້າມຂັ້ນຕອນການຍົກລະດັບໃນການຟື້ນຟູປັບຄ່າຈາກໄຟລ໌າຮອງ.</AdminUpdateMainInfo>
+  <AdminUpdateAutoButton>ອັດຕະໂນມັດ</AdminUpdateAutoButton>
+  <AdminUpdateAutoInfo>ປະເພດຂອງການຍົກລະດັບນີ້ແມ່ນອັດຕະໂນມັດເກືອບຢ່າງເຕັມສ່ວນ. ມັນປະກອບດ້ວຍ 2 ຂັ້ນຕອນ: ສໍາຮອງຂໍ້ມູນການຕັ້ງຄ່າປັດຈຸບັນ (ທ່ານຄວນຈະດາວນ໌ໂຫລດແລະຈະຊ່ວຍປະຢັດໄຟລ໌າຮອງເປັນ), ການຕິດຕັ້ງການສະບັບໃຫມ່ແລະການຟື້ນຟູຂອງການປັບຄ່າຈາກໄຟລ໌າຮອງ. HTTP ຄໍາສັ່ງອັດຕະໂນມັດສາມາດດາວນ໌ໂຫລດສະບັບຫລ້າສຸດແລະການຕິດຕັ້ງມັນຫຼືທ່ານສາມາດກໍານົດເສັ້ນທາງທີ່ຈະຮວບຮວມຫັດໄປສະນີທີ່ມີສະບັບໃຫມ່ກ່ຽວກັບເຄື່ອງແມ່ຂ່າຍຂອງພວກເຮົາ. ການຕັ້ງຄ່າທັງຫມົດຈະຖືກເອີ້ນຄືນອັດຕະໂນມັດຈາກໄຟລ໌າຮອງກ່ອນຫນ້ານີ້.</AdminUpdateAutoInfo>
+  <AdminUpdateRestoreWebConfigCheckBox>ການຟື້ນຟູປັບຄ່າຈາກ web.config (ເຊັ່ນ: ເຊັ່ນ SMTP)</AdminUpdateRestoreWebConfigCheckBox>
+  <AdminUpdateBackupAssignedFoldersInRootMessage>ເອົາໃຈໃສ່! ມີບາງໂຟເດີຜູ້ໃຊ້ໃນລະບົບທີ່ມີຄໍາຮ້ອງສະຫມັກທີ່ມີຂະຫນາດຈໍານວນທັງຫມົດຫຼາຍກ່ວາແມ່ນ {0}. ການສໍາຮອງຂໍ້ມູນຈະບໍ່ຖືກເຮັດໃຫ້. ກະລຸນາເຮັດສໍາເນົາາຮອງຂອງການເຫຼົ່ານີ້, ໃຫ້ເຂົາເຈົ້າເອົາຈາກລະບົບຄໍາຮ້ອງສະຫມັກແລະລອງປະຕິບັດງານກ່ຽວກັບການຂ້າງຄຽງຂອງທ່ານ.</AdminUpdateBackupAssignedFoldersInRootMessage>
+  <AdminUpdateNeedRefreshPageForContinue>ເອົາໃຈໃສ່! ເພື່ອສືບຕໍ່ມັນເປັນສິ່ງຈໍາເປັນໂຫຼດຫນ້ານີ້ຄືນ. ກະລຸນາກົດປຸ່ມ "{0}". ຫຼັງຈາກໂຫລດກະລຸນາກັບຄືນມາປະຕິບັດງານ.</AdminUpdateNeedRefreshPageForContinue>
+  <AdminUpdateRestoreFromBackupEmpty>, ຫຼືຖ້າຫາກວ່າມັນບໍ່ໄດ້ຖືກຄັດເລືອກ, ມັນຈະໄດ້ຮັບການນໍາໃຊ້ໄຟລ໌ທີ່ສ້າງຂຶ້ນໃຫມ່ໃນຂັ້ນຕອນທີ່ຜ່ານມາ</AdminUpdateRestoreFromBackupEmpty>
+  <AdminUpdateInstallZipPathHint>ສໍາລັບການປັບປຸງກະລຸນາລະບຸເສັ້ນທາງທາງດ້ານຮ່າງກາຍຢ່າງເຕັມທີ່ກັບໄຟລ໌ຕິດຕັ້ງໄດ້ (ກ່ຽວກັບເຄື່ອງແມ່ຂ່າຍ) ໃນພາກສະຫນາມຄັ້ງທໍາອິດຫຼືອອກຈາກມັນເປົ່າໃນຄໍາສັ່ງທີ່ຈະນໍາໃຊ້ການກະຈາຍຄວາມອອນໄລນ໌</AdminUpdateInstallZipPathHint>
+  <AdminUpdateInstallZipPathEmpty>ກໍານົດເສັ້ນທາງການເກັບຖາວອນກັບການຕິດຕັ້ງ</AdminUpdateInstallZipPathEmpty>
+  <AdminUpdateProgress>ການປັບປຸງ</AdminUpdateProgress>
+  <AdminUpdateAccessDeniedWarning>&lt;b&gt; ເອົາໃຈໃສ່! &lt;/b&gt; ສໍາລັບການປັບປຸງກະລຸນາທີ່ກໍານົດໄວ້ປັບປຸງແກ້ໄຂໄດ້ (ການອ່ານແລະການຂຽນ) ການອະນຸຍາດ NTFS ກັບ {0} ຜູ້ໃຊ້ສໍາລັບໂຟນເດີທີ່ມີ HTTP ຄໍາສັ່ງ {1} ແລະເຮັດເລື້ມຄືນການຍົກລະດັບໄດ້. &lt;br /&gt; ຫຼັງຈາກການຍົກລະດັບສົບຜົນສໍາເລັດກະລຸນາ ການຟື້ນຟູສິດທິອະດີດ.</AdminUpdateAccessDeniedWarning>
+  <AdminUpdateAccessDeniedWarningCurentUser>ປັດຈຸບັນ</AdminUpdateAccessDeniedWarningCurentUser>
+
+  <ServerExceedsMaxSizeForEditAsTextFile>ຂະຫນາດໄຟລ໌ມີຂະຫນາດເກີນທີ່ຈະແກ້ໄຂມັນເປັນໄຟລ໌ຂໍ້ຄວາມ.</ServerExceedsMaxSizeForEditAsTextFile>
+  <ServerDemoMode>ການປະຕິບັດໃຫ້ເປັນທີ່ຕ້ອງຫ້າມຢູ່ໃນຮູບແບບການສາທິດ</ServerDemoMode>
+  <ServerHostedMode>ມັນບໍ່ໄດ້ຖືກອະນຸຍາດໃຫ້ມີການປ່ຽນແປງມູນຄ່າຂອງການປັບຄ່າໃນການສະບັບທົດລອງເປັນເຈົ້າພາບຕໍ່ໄປນີ້:. {0}</ServerHostedMode>
+  <ServerIncorrectImageContentType>ແຟ້ມ Mime ປະເພດບໍ່ແມ່ນຮູບພາບ</ServerIncorrectImageContentType>
+  <ServerPermissionDenied>ການດໍາເນີນງານນີ້ແມ່ນໄດ້ຖືກປະຕິເສດເນື່ອງຈາກວ່າການອະນຸຍາດຈໍາກັດ</ServerPermissionDenied>
+  <ServerRestoreFromTrashNoParentFolder>ການຟື້ນຟູສົບຜົນສໍາເລັດເນື່ອງຈາກວ່າລະບົບຂອງພໍ່ແມ່ "{0}" ໄດ້ຮັບການບໍ່ໄດ້ພົບເຫັນ. ກະລຸນາສ້າງມັນແລະພະຍາຍາມອີກເທື່ອຫນຶ່ງ.</ServerRestoreFromTrashNoParentFolder>
+  <ServerModifyPermissionDenied>ການດໍາເນີນງານນີ້ແມ່ນໄດ້ຖືກປະຕິເສດເພາະວ່າທ່ານບໍ່ມີສິດໃນການປັບປຸງແກ້ໄຂໄຟລ໌</ServerModifyPermissionDenied>
+  <ServerPathNotFound>ເສັ້ນທາງບໍ່ໄດ້ພົບເຫັນ.</ServerPathNotFound>
+  <ServerInvalidPath>ເສັ້ນທາງກ້າວສູ່ "{0}" ແມ່ນບໍ່ຖືກຕ້ອງ</ServerInvalidPath>
+  <ServerInvalidAbsolutePath>ເສັ້ນທາງທີ່ບໍ່ຖືກຕ້ອງຢ່າງແທ້ຈິງ "{0}"</ServerInvalidAbsolutePath>
+  <!-- share folder path: \\server\share -->
+  <ServerInvalidShareFolderPath>ເສັ້ນທາງທີ່ບໍ່ຖືກຕ້ອງໂຟເດີ "{0}"</ServerInvalidShareFolderPath>
+  <ServerInvalidUncPath>ເສັ້ນທາງທີ່ບໍ່ຖືກຕ້ອງ UNC "{0}"</ServerInvalidUncPath>
+  <ServerUnableResolveUncPath>ບໍ່ສາມາດແກ້ໄຂບັນຫາເສັ້ນທາງ UNC "{0}"</ServerUnableResolveUncPath>
+  <ServerInvalidFileName>ຊື່ໄຟລ໌ / ໂຟນເດີບໍ່ໄດ້ກໍານົດຫລືມີລັກສະນະທີ່ບໍ່ຖືກຕ້ອງ {0}</ServerInvalidFileName>
+  <ServerFilePathNotFound>ເອກະສານບໍ່ມີ</ServerFilePathNotFound>
+  <ServerIncorrectPathForFileLink>ປະເພດວັດຖຸທີ່ບໍ່ຖືກຕ້ອງ. ເສັ້ນທາງກໍານົດໄວ້ຈຸດໂຟເດີ</ServerIncorrectPathForFileLink>
+  <ServerIncorrectPathForFolderLink>ປະເພດວັດຖຸທີ່ບໍ່ຖືກຕ້ອງ. ເສັ້ນທາງລະບຸຈຸດໄຟ</ServerIncorrectPathForFolderLink>
+  <ServerRootFolderNotFound>ໂຟນເດີຮາກສໍາລັບເສັ້ນທາງ "{0}" ບໍ່ໄດ້ພົບເຫັນ.</ServerRootFolderNotFound>
+  <ServerUnableCreateFolder>ບໍ່ສາມາດທີ່ຈະສ້າງໂຟນເດີ</ServerUnableCreateFolder>
+  <ServerFileAlreadyExists>ໄຟລ໌ທີ່ມີຊື່ນີ້ມີຢູ່ແລ້ວ</ServerFileAlreadyExists>
+  <ServerFileAlreadyExistsOnRename>
+    ເຮັດແນວໃດທ່ານຕ້ອງການທີ່ຈະປ່ຽນຊື່ "{0}" ກັບ "{1}"?
+    ບໍ່ມີແລ້ວໄຟທີ່ມີຊື່ດຽວກັນໃນສະຖານທີ່ນີ້.
+  </ServerFileAlreadyExistsOnRename>
+  <ServerFolderAlreadyExistsOnRename>
+    ເຮັດແນວໃດທ່ານຕ້ອງການທີ່ຈະປ່ຽນຊື່ "{0}" ກັບ "{1}"?
+    ບໍ່ມີແລ້ວໂຟນເດີທີ່ມີຊື່ດຽວກັນໃນສະຖານທີ່ນີ້.
+  </ServerFolderAlreadyExistsOnRename>
+  <ServerFoldersMergeConfirm>
+    ຈຸດຫມາຍປາຍທາງນີ້ແລ້ວປະກອບດ້ວຍໂຟເດີທີ່ຊື່ "{0}".
+    ທ່ານຍັງຕ້ອງການທີ່ຈະ merge ໂຟເດີນີ້ "{0}" ມີນີ້ "{1}"?
+  </ServerFoldersMergeConfirm>
+  <ServerFolderWithSameNameAsFileNameAlreadyExists>ບໍ່ມີແລ້ວໂຟນເດີທີ່ມີຊື່ດຽວກັນໄດ້ "{0}" ເປັນຊື່ໄຟລ໌ທີ່ທ່ານກໍານົດໄວ້</ServerFolderWithSameNameAsFileNameAlreadyExists>
+  <ServerFileWithSameNameAsFolderNameAlreadyExists>ບໍ່ມີແລ້ວໄຟທີ່ມີຊື່ດຽວກັນ "{0}" ເປັນຊື່ໂຟນເດີທີ່ທ່ານລະບຸ</ServerFileWithSameNameAsFolderNameAlreadyExists>
+  <ServerFileNotFound>ເອກະສານ "{0}" ບໍ່ໄດ້ພົບເຫັນຢູ່ໃນໂຟນເດີ "{1}". ຖ້າເປັນໄປໄດ້ຈະໄດ້ຮັບການລຶບຫຼືໂຍກຍ້າຍອອກໂດຍຜູ້ໃຊ້ອື່ນ.</ServerFileNotFound>
+  <ServerDirectoryAlreadyExists>A ລະບົບທີ່ມີຊື່ນີ້ມີຢູ່ແລ້ວ</ServerDirectoryAlreadyExists>
+  <ServerFolderMoveAlreadeExists>ໂຟນເດີຈຸດຫມາຍປາຍທາງ "{0}" ແມ່ນຄືກັນກັບໂຟເດີຂໍ້ມູນ</ServerFolderMoveAlreadeExists>
+  <ServerUploadPathNotFound>ເສັ້ນທາງສໍາລັບການເກັບຮັກສາເອກະສານດັ່ງກ່າວແມ່ນບໍ່ພົບເຫັນຢູ່ໃນເຄື່ອງແມ່ຂ່າຍ</ServerUploadPathNotFound>
+  <ServerUploadPathNotSet>ມີຂໍ້ຜິດພາດເກີດຂຶ້ນໃນຂະນະທີ່ໄດ້ຮັບເສັ້ນທາງສໍາລັບການອັບໂຫລດໄດ້. ກະລຸນາ, ໂຫຼດຫນ້າຈໍຄືນຫນ້າໃນຕົວທ່ອງເວັບຂອງແລະພະຍາຍາມອີກເທື່ອຫນຶ່ງ.</ServerUploadPathNotSet>
+  <ServerUploadNoChunk>ບໍ່ມີ chunk ສໍາລັບການຊ່ວຍປະຢັດ</ServerUploadNoChunk>
+  <ServerUploadWriteChunk>ຂຽນ chunk ນັບຕັ້ງແຕ່ byte</ServerUploadWriteChunk>
+  <ServerUploadCreatingFile>ການສ້າງເອກະສານ</ServerUploadCreatingFile>
+  <ServerUploadFileUploaded>ເອກະສານທີ່ໄດ້ຮັບການອັບໂຫຼດ</ServerUploadFileUploaded>
+  <ServerUploadWriteError>ຄວາມຜິດພາດການຂຽນ</ServerUploadWriteError>
+  <ServerConfigurationError>ການຕັ້ງຄ່າທີ່ບໍ່ຖືກຕ້ອງຫຼືຄໍາຮ້ອງສະຫມັກ! ຕິດຕໍ່ຜູ້ບໍລິຫານເວັບໄຊ</ServerConfigurationError>
+  <ServerPermissionsAllowTypes>ການອະນຸຍາດໃນປະຈຸບັນອະນຸຍາດໃຫ້ດໍາເນີນການນີ້ພຽງແຕ່ມີປະເພດໄຟລ໌ {0}</ServerPermissionsAllowTypes>
+  <ServerPermissionsDenyTypes>ການອະນຸຍາດໃນປະຈຸບັນຫ້າມການດໍາເນີນງານນີ້ມີປະເພດເອກະສານ {0}</ServerPermissionsDenyTypes>
+  <ServerRequestSizeExceeded>ຂະຫນາດຂອງໄຟລ໌ທີ່ອັບໂຫຼດແລ້ວເກີນອະນຸຍາດໃຫ້ຂະຫນາດການຈັດຕັ້ງໃນເຄື່ອງແມ່ຂ່າຍ</ServerRequestSizeExceeded>
+  <ServerEmailMsgProcessedFilesSubject>ອັບ / ແກ້ໄຂ / ດາວໂຫລດ / ຂຽນເມື່ອ / ລົບ / Shared ໄຟລ໌ / ແຟ້ມ</ServerEmailMsgProcessedFilesSubject>
+  <ServerEmailMsgUploadFilesTitle>ອັບ</ServerEmailMsgUploadFilesTitle>
+  <ServerEmailMsgModifyFilesTitle>ດັດແກ້</ServerEmailMsgModifyFilesTitle>
+  <ServerEmailMsgDownloadFilesTitle>ດາວໂຫຼດ</ServerEmailMsgDownloadFilesTitle>
+  <ServerEmailMsgCreateFilesTitle>ສ້າງ</ServerEmailMsgCreateFilesTitle>
+  <ServerEmailMsgDeleteFilesTitle>ລຶບ</ServerEmailMsgDeleteFilesTitle>
+  <ServerEmailMsgCreatePublicFilesTitle>ໃຊ້ຮ່ວມກັນ</ServerEmailMsgCreatePublicFilesTitle>
+  <ServerEmailMsgProcessedFilesBody>
+    ດັ່ງຕໍ່ໄປນີ້ໄຟລ໌ / ແຟ້ມໄດ້ {0} ໂດຍ {1}:
+
+{2}
+    
+  </ServerEmailMsgProcessedFilesBody>
+  <ServerEmailMsgPasswordRecoverSubject>ການຟື້ນຟູລະຫັດຜ່ານ</ServerEmailMsgPasswordRecoverSubject>
+  <ServerEmailMsgPasswordRecoverBody>
+    ທີ່ທ່ານຕ້ອງການທີ່ຈະຟື້ນຕົວລະຫັດຜ່ານຂອງທ່ານໃນການຈັດການເວັບໄຊຕ໌ໄຟລ໌. ລະຫັດຜ່ານຂອງທ່ານໄດ້ຖືກປັບ. ຖ້າຫາກວ່າທ່ານເຊື່ອວ່ານີ້ແມ່ນຄວາມຜິດພາດ, ພຽງແຕ່ບໍ່ສົນໃຈຈົດຫມາຍສະບັບນີ້, ແຕ່ຈະຮູ້ວ່າລະຫັດຜ່ານຂອງທ່ານໄດ້ຮັບການປ່ຽນແປງ.
+    ຊື່ຜູ້ໃຊ້: {0}
+    ລະຫັດຜ່ານໃຫມ່: {1}
+  </ServerEmailMsgPasswordRecoverBody>
+  
+  <ServerEmailMsgUserNameRecoverSubject>ການຟື້ນຕົວຂອງຊື່ຜູ້ໃຊ້</ServerEmailMsgUserNameRecoverSubject>
+  <ServerEmailMsgUserNameRecoverBody>
+    ທີ່ທ່ານຕ້ອງການທີ່ຈະຟື້ນຕົວຊື່ຂອງທ່ານໃນການຈັດການເວັບໄຊຕ໌ໄຟລ໌.
+    ຊື່ຜູ້ໃຊ້: {0}
+  </ServerEmailMsgUserNameRecoverBody>
+
+  <ServerEmailMsgUserActivationSubject>ເປີດໃຊ້ບັນຊີ</ServerEmailMsgUserActivationSubject>
+  <ServerEmailMsgUserActivationBody>
+    ບັນຊີ ({0}) ກິດຈະກໍາທີ່ຕ້ອງການ.
+    ເພື່ອກະຕຸ້ນບັນຊີຂອງທ່ານ, ກະລຸນາຄລິກໃສ່ການເຊື່ອມຕໍ່ດັ່ງຕໍ່ໄປນີ້: {1}
+  </ServerEmailMsgUserActivationBody>
+  <ServerEmailMsgUserRegisteredSubject>ຜູ້ໃຊ້ທີ່ລົງທະບຽນ</ServerEmailMsgUserRegisteredSubject>
+  <ServerEmailMsgUserRegisteredBody>
+    ເຈົ້າຍັງບໍ່ໄດ້ລົງທະບຽນສົບຜົນສໍາເລັດໃນການຈັດການເວັບໄຊຕ໌ໄຟລ໌.
+    ຊື່ຜູ້ໃຊ້: {0}
+  </ServerEmailMsgUserRegisteredBody>
+  <ServerEmailMsgUserRegisteredForAdminsBody>
+    &lt;h4&gt; ຜູ້ໃຊ້ໃຫມ່ໄດ້ຮັບການຈົດທະບຽນ &lt;/h4&gt;
+    &lt;strong&gt; ຊື່ຜູ້ໃຊ້ &lt;/strong&gt;: {0} &lt;br /&gt;
+    &lt;strong&gt; ອີເມວ &lt;/strong&gt;: {1} &lt;br /&gt;
+    &lt;strong&gt; ວັນທີ່ &lt;/strong&gt;: {2} &lt;br /&gt;
+    &lt;strong&gt; ຂໍ້ມູນພິເສດ &lt;/strong&gt;: {3} &lt;br /&gt;
+  </ServerEmailMsgUserRegisteredForAdminsBody>
+  <ServerDiskFullError>ຍັງບໍ່ທັນມີພື້ນທີ່ພຽງພໍກ່ຽວກັບແຜ່ນໄດ້.</ServerDiskFullError>
+  <ServerFolderLimitations>ຂໍ້ຈໍາກັດ Folder: {0}</ServerFolderLimitations>
+  <ServerShortcutAssignedFolderNotFound>ໂຟນເດີມອບຫມາຍບໍ່ໄດ້ພົບເຫັນສໍາລັບເສັ້ນທາງເປົ້າຫມາຍຂອງລັດ</ServerShortcutAssignedFolderNotFound>
+  <ServerSizeFilesForZipExceeded>ມູນຄ່າຂອງຂະຫນາດຂອງໄຟລ໌ຮວບຮວມເກີນອະນຸຍາດ {0}.</ServerSizeFilesForZipExceeded>
+  <ServerPasteFolderToSubfolderError>ໂຟນເດີຈຸດຫມາຍປາຍທາງ "{0}" ເປັນໂຟເດີຍ່ອຍຂອງໂຟເດີຕົ້ນເອີ້ນວ່າ "{1}".</ServerPasteFolderToSubfolderError>
+  <ServerLiveConnectAppIDNotSpecified>ລະຫັດລູກຄ້າຂອງຄໍາຮ້ອງສະຫມັກ Microsoft Live Connect ບໍ່ໄດ້ກໍາຫນົດ</ServerLiveConnectAppIDNotSpecified>
+  <ServerSendEmailInfo>Author ລະບຸ email ຂອງເຂົາເຈົ້າເປັນ {0}. ພຽງແຕ່ນໍາໃຊ້ທີ່ຢູ່ອີເມວນີ້ຈະຕອບ.</ServerSendEmailInfo>
+
+  <ServerAntivirusScanningFailed>ການສະແກນໂດຍປ້ອງກັນໄວລັດ: '{0} {1}' ສິ້ນສຸດຜິດປົກກະຕິ.</ServerAntivirusScanningFailed>
+
+  <ServerUserNameNotFound>ຜູ້ໃຊ້ທີ່ມີຊື່ '{0}' ບໍ່ໄດ້ພົບເຫັນ.</ServerUserNameNotFound>
+  <ServerFileNameCopySuffix>ສໍາເນົາ</ServerFileNameCopySuffix>
+
+  <ServerDeleteFolderNTFSAccessDenied>ທ່ານບໍ່ມີການອະນຸຍາດ NTFS ການຖອນເປັນແຟ້ມ "{0}"</ServerDeleteFolderNTFSAccessDenied>
+
+  <ServerMSOOTemplateNotFound>{0} ບໍ່ໄດ້ພົບເຫັນແມ່ແບບ</ServerMSOOTemplateNotFound>
+</Localization>

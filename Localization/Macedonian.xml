@@ -1,0 +1,1608 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Localization>
+  <!-- Common keys -->
+  
+  <ExtMsgButtonTextYES>Да</ExtMsgButtonTextYES>
+  <ExtMsgButtonTextNO>Не</ExtMsgButtonTextNO>
+  
+  <ControlHideFileManager>Сокриј менаџер веб-датотеки</ControlHideFileManager>
+  
+  <CommonMainTitle>пристап до веб-датотеки</CommonMainTitle>
+  <CommonApplicationLoading>Вчитување на веб пристап до фајлови</CommonApplicationLoading>
+  <CommonLoadError>Се појави грешка за време на добивање на податоци дрво</CommonLoadError>
+  <CommonGridAccessDenied>Папката "{0}" не постои или пристап за читање е одбиен</CommonGridAccessDenied>
+  <CommonNoScript>Оваа страница бара JavaScript за да бидат овозможени во Вашиот прелистувач! Ве молиме вклучете ја и најавите повторно!</CommonNoScript>
+  <CommonErrorCaption>грешка</CommonErrorCaption>
+  <CommonWarningCaption>Предупредување</CommonWarningCaption>
+  <CommonInfoCaption>информации</CommonInfoCaption>
+  <CommonConfirmCaption>потврди</CommonConfirmCaption>
+  <CommonFileNameCaption>Име на датотека</CommonFileNameCaption>
+  <CommonFileNamePrompt>Внесете ново име на датотека</CommonFileNamePrompt>
+  <CommonFileNewNameValue>Нов текст Document.txt</CommonFileNewNameValue>
+  <CommonFolderNewNameValue>нова папка</CommonFolderNewNameValue>
+  <CommonZipFileNameCaption>Име на zip архива</CommonZipFileNameCaption>
+  <CommonZipFileNamePrompt>името на датотеката (со екстензија ќе биде додаден автоматски)</CommonZipFileNamePrompt>
+  <CommonFolderNameCaption>име на папка</CommonFolderNameCaption>
+  <CommonFolderNamePrompt>Внесете ново име на папка</CommonFolderNamePrompt>
+  <CommonDeleteOnePrompt>Дали сте сигурни дека сакате да го избришете "{0}"?</CommonDeleteOnePrompt>
+  <CommonDeleteManyPrompt>Дали сте сигурни дека сакате да ја избришете овие {0} предмети?</CommonDeleteManyPrompt>
+  <CommonForToday>За денес</CommonForToday>
+  <CommonButtonCaptionOK>добро</CommonButtonCaptionOK>
+  <CommonButtonCaptionCancel>Откажи</CommonButtonCaptionCancel>
+  <CommonButtonCaptionClose>Затвори</CommonButtonCaptionClose>
+  <CommonButtonCaptionAdd>Додај</CommonButtonCaptionAdd>
+  <CommonButtonCaptionContinue>продолжи</CommonButtonCaptionContinue>
+
+  <CommonProgressPleaseWait>Ве молам почекајте</CommonProgressPleaseWait>
+  
+  <CommonFieldLabelName>име</CommonFieldLabelName>
+  <CommonFieldLabelPath>патека</CommonFieldLabelPath>
+  <CommonFieldLabelSize>големина</CommonFieldLabelSize>
+  <CommonFieldLabelLabels>етикети</CommonFieldLabelLabels>
+  <CommonFieldLabelType>тип</CommonFieldLabelType>
+  <CommonFieldLabelAction>акција</CommonFieldLabelAction>
+  <CommonFieldLabelDate>датум</CommonFieldLabelDate>
+  <CommonFieldLabelDateTime>Датум време</CommonFieldLabelDateTime>
+  <CommonFieldLabelDateCreated>датум на создавање</CommonFieldLabelDateCreated>
+  <CommonFieldLabelDateModified>датум на промена</CommonFieldLabelDateModified>
+  <CommonFieldLabelDateAccessed>датум пристапи</CommonFieldLabelDateAccessed>
+  <CommonFieldLabelValue>вредност</CommonFieldLabelValue>
+  <CommonFieldLabelUserName>корисничко име</CommonFieldLabelUserName>
+  <CommonFieldLabelUser>корисникот</CommonFieldLabelUser>
+  <CommonFieldLabelUsers>корисници</CommonFieldLabelUsers>
+  <CommonFieldLabelGroupName>име на групата</CommonFieldLabelGroupName>
+  <CommonFieldLabelGroup>група</CommonFieldLabelGroup>
+  <CommonFieldLabelGroups>групи</CommonFieldLabelGroups>
+  <CommonFieldLabelPassword>Лозинка</CommonFieldLabelPassword>
+  <CommonFieldLabelRepeatPassword>повтори ја лозинката</CommonFieldLabelRepeatPassword>
+  <CommonFieldLabelComments>коментари</CommonFieldLabelComments>
+  <CommonValueTypeFolder>папка</CommonValueTypeFolder>
+
+  <CommonFieldLabelDescription>Опис</CommonFieldLabelDescription>
+  <EmptyDescriptionText>Наведете описот</EmptyDescriptionText>
+  <CommonFieldLabelReadMeTxt>readme.txt содржина</CommonFieldLabelReadMeTxt>
+  
+  <CommonWordOr>или</CommonWordOr>
+
+  <SortAscText>Подреди Растечки</SortAscText>
+  <SortDescText>Подреди Опаѓачки</SortDescText>
+
+  <CommonNewDocument>нов документ</CommonNewDocument>
+  <CommonNewSpreadsheet>нова табеларна пресметка</CommonNewSpreadsheet>
+  <CommonNewPresentation>нова презентација</CommonNewPresentation>
+
+  <CommonWordWrap>Пренесување на зборови</CommonWordWrap>
+  
+  <!-- End Common keys -->
+
+  <!-- Labels -->
+
+  <LabelsTitle>етикета</LabelsTitle>
+  <LabelsNoLabel>Не етикета</LabelsNoLabel>
+  <LabelsColor>боја</LabelsColor>
+  <LabelsCustomLabel>Прилагодено етикета</LabelsCustomLabel>
+  <LabelsCustomLabelHint>Внесете го текстот на етикетата</LabelsCustomLabelHint>
+  <LabelsCustomLabelView>Етикета &amp;nbsp; преглед: &amp;nbsp; {0} {1} {2}</LabelsCustomLabelView>
+  <LabelsFileLabelledMessage>Успешно означени {0} точка (а)</LabelsFileLabelledMessage>
+  <LabelsRemovedMessage>Успешно ја отстрани {0} етикета (и)</LabelsRemovedMessage>
+  <LabelsNotRemovedMessages>не се отстранат: {0}</LabelsNotRemovedMessages>
+  <LabelsNotLabelledMessage>не се означени: {0}</LabelsNotLabelledMessage>
+  <LabelsLabelRemovedMessage>Етикета е успешно отстранет</LabelsLabelRemovedMessage>
+  <LabelsNewLabel>нова етикета</LabelsNewLabel>
+  <LabelsLabellingMessage>Обележување</LabelsLabellingMessage>
+  <LabelsRemovingLabelMessage>отстранување на етикети</LabelsRemovingLabelMessage>
+  <LabelsLabelInfoTip>Означени како '{0} {1} од страна на корисникот "{2}"</LabelsLabelInfoTip>
+
+  <!-- End Labels -->
+
+  <!-- Comments -->
+
+  <CommentsCountInfoTip>{0} коментар (а)</CommentsCountInfoTip>
+  <CommentsWriteCommentHint>Напиши коментар и притиснете '{0}' или Ctrl+Enter или Shift+Enter ...</CommentsWriteCommentHint>
+
+  <!-- End Comments -->
+
+  <RefreshPageWarningMessage>&lt;b&gt; Внимание! &lt;/b&gt; за да се заврши оваа операција, на тековната страница од пребарувачот мора да се обновуваат. &lt;br /&gt; Дали сакате да се освежи сега?</RefreshPageWarningMessage>
+
+  <PagingToolbarBeforePageText>страница</PagingToolbarBeforePageText>
+  <PagingToolbarAfterPageText>на {0}</PagingToolbarAfterPageText>
+  <PagingToolbarFirstText>прва страница</PagingToolbarFirstText>
+  <PagingToolbarPrevText>Претходна страница</PagingToolbarPrevText>
+  <PagingToolbarNextText>Следна Страна</PagingToolbarNextText>
+  <PagingToolbarLastText>Последна страна</PagingToolbarLastText>
+  <PagingToolbarDisplayMsg>Приказ на {0} - {1} на {2}</PagingToolbarDisplayMsg>
+  <PagingToolbarEmptyMsg>Нема податоци за прикажување</PagingToolbarEmptyMsg>
+  
+  <GridTotalLabel>Вкупно:</GridTotalLabel>
+  <GridTotalFilesLabel>додадени фајлови:</GridTotalFilesLabel>
+  <GridTotalFoldersLabel>папки</GridTotalFoldersLabel>
+  
+  <GridDDSelectedRowsText>{0} избраниот ред {1}</GridDDSelectedRowsText>
+  <GridDDSelectedFilesText>{0} избраните датотеки</GridDDSelectedFilesText>
+  <GridDDSelectedFoldersText>{0} избраните папки</GridDDSelectedFoldersText>
+  <GridDDConfirmCopyMoveTitle>Пад во папката "{0}"</GridDDConfirmCopyMoveTitle>
+  <GridDDConfirmAddToZipTitle>Додади во zip "{0}"</GridDDConfirmAddToZipTitle>
+  <GridDDConfirmAddToZipMessage>Влече датотеки ќе бидат додадени во оваа ZIP архива. Дали сакате да продолжите? {0}.</GridDDConfirmAddToZipMessage>
+  <GridDDConfirmCopyMoveMsg>Одберете некоја акција што сакате да се применуваат. Извор: "{0}", код папка: "{1}" {2} {3}..</GridDDConfirmCopyMoveMsg>
+  <GridDDConfirmCopyMoveToZipMsg>Додадени фајлови: ќе биде додадена на архивата на патентот. Изберете акција која сакате да се применува на датотеки влече по додавањето на датотеките во архивата на патентот. Извор: "{0}", код зип архиви: "{1}" {2} {3}..</GridDDConfirmCopyMoveToZipMsg>
+  <GridDDDraggedFileNames>&lt;b&gt; Влече датотеки: &lt;/b&gt; {0}</GridDDDraggedFileNames>
+  <GridDDDraggedFolderNames>&lt;b&gt; Влече папки: &lt;/b&gt; {0}</GridDDDraggedFolderNames>
+  <GridDDConfirmTargetFolderOnlyCopyMsg>Тековни дозволи за папката извор ви овозможи да се само копија влече датотеки. Дали сакате да продолжите? {0}.</GridDDConfirmTargetFolderOnlyCopyMsg>
+  <GridDDConfirmTargetFolderOnlyMoveMsg>Тековни дозволи за папката извор ќе ви овозможи да се движи само влече датотеки. Дали сакате да продолжите? {0}.</GridDDConfirmTargetFolderOnlyMoveMsg>
+
+  <GridRowPublicHint>Кликни за да се отвори јавна линк во нов прозорец / јазиче</GridRowPublicHint>
+  <GridRowAlertHint>Кликни за да видите промените направено за оваа датотека / папка</GridRowAlertHint>
+  <GridRowRecentHint>Лоцира оваа датотека / папка</GridRowRecentHint>
+  <GridRowAlertEventHint>Кликнете тука за да одат на оваа локација</GridRowAlertEventHint>
+
+  <ProgressCreating>Создавање</ProgressCreating>
+  <ProgressDeleting>бришењето</ProgressDeleting>
+  <ProgressLoading>Вчитување</ProgressLoading>
+  <ProgressSearching>пребарување</ProgressSearching>
+  <ProgressZipping>компресирање</ProgressZipping>
+  <ProgressUnzipping>Отпакување</ProgressUnzipping>
+  <ProgressZipContents>Добивање на содржината на ZIP архива</ProgressZipContents>
+  <ProgressPrepareDownload>Подготовки за симнување</ProgressPrepareDownload>
+  <ProgressMoving>напредок</ProgressMoving>
+  <ProgressCopying>копирање</ProgressCopying>
+  <ProgressRenaming>Преименување</ProgressRenaming>
+  <ProgressUpdating>ажурирање</ProgressUpdating>
+  <ProgressLoadingEditInPixlr>Вчитување Pixlr уредник</ProgressLoadingEditInPixlr>
+  <ProgressLoadingEdit>Вчитување уредник</ProgressLoadingEdit>
+  <ProgressSavingEdit>заштеда на датотека</ProgressSavingEdit>
+  <ProgressSaving>Зачувува</ProgressSaving>
+  <ProgressExecuting>извршување</ProgressExecuting>
+
+  <BalloonFilesDeleted>{0} фајл (ови) избришан</BalloonFilesDeleted>
+  <BalloonFoldersDeleted>{0} папка (и) избришано</BalloonFoldersDeleted>
+  <BalloonFilesFailed>{0} фајл (ови) не успеа</BalloonFilesFailed>
+  <BalloonFoldersFailed>{0} папка (и) не успеа</BalloonFoldersFailed>
+  <BalloonFilesZipped>{0} фајл (ови) компресирана</BalloonFilesZipped>
+  <BalloonFoldersZipped>{0} папка (и) компресирана</BalloonFoldersZipped>
+  <BalloonFilesCopied>{0} фајл (ови) копирани</BalloonFilesCopied>
+  <BalloonFoldersCopied>{0} папка (и) копирани</BalloonFoldersCopied>
+  <BalloonFilesMoved>{0} фајл (ови) се пресели</BalloonFilesMoved>
+  <BalloonFoldersMoved>{0} папка (и) која се поместува</BalloonFoldersMoved>
+  <BalloonNotUnzipped>{0} фајл (ови) да не се неотпакувани</BalloonNotUnzipped>
+  <BalloonFilesUploaded>{0} фајл (ови) поставени</BalloonFilesUploaded>
+  <BalloonFilesNotUploaded>{0} фајл (ови) не ја подигајте</BalloonFilesNotUploaded>
+  <BalloonSomeFilesNotUploaded>Некои датотеки не може да се објават</BalloonSomeFilesNotUploaded>
+  <BalloonCreatedSuccessfully>успешно создадена</BalloonCreatedSuccessfully>
+  <BalloonUnzippedSuccessfully>неотпакувани успешно</BalloonUnzippedSuccessfully>
+  <BalloonRenamedSuccessfully>Преименувани успешно</BalloonRenamedSuccessfully>
+  <BalloonSavedSuccessfully>успешно зачувана</BalloonSavedSuccessfully>
+  <BalloonCopiedToClipboard>Копира на таблата со исечоци</BalloonCopiedToClipboard>
+  <BalloonCopyToClipboardFailed>Копирај на табла со исечоци не успеа</BalloonCopyToClipboardFailed>
+
+  <CommandCopyToClipboard>Копирај на табла со исечоци</CommandCopyToClipboard>
+  <CommandCopyLinkToClipboard>Копирај го линкот на таблата со исечоци</CommandCopyLinkToClipboard>
+  <ClipboardScreenshotTitlePrefix>слика</ClipboardScreenshotTitlePrefix>
+  <ClipboardScreenshotHint>Слики: Можете да ставете слика од екранот од вашиот таблата со исечоци (Притиснете &lt;b&gt; Ctrl+PrtSc &lt;/b&gt; и потоа &lt;b&gt; Ctrl+V &lt;/b&gt;) или слика од вашиот уредник (Притиснете &lt;b&gt; Ctrl+V &lt;/b&gt;).</ClipboardScreenshotHint>
+  <ClipboardFileHint>Вие исто така може да поставите датотека од таблата со исечоци</ClipboardFileHint>
+
+  <CommandClouds>облак складишта</CommandClouds>
+  <CommandCloudsDownloadTo>преземете на ...</CommandCloudsDownloadTo>
+  <CommandCloudsUploadFrom>испратите од ...</CommandCloudsUploadFrom>
+  <CommandCloudsAbout>За Облак складишта</CommandCloudsAbout>
+  
+  <CommandBack>назад</CommandBack>
+  <CommandForward>Напред</CommandForward>
+  <CommandRecentFolders>Последни папки</CommandRecentFolders>
+  <CommandHome>Насловна</CommandHome>
+  <CommonActions>активности</CommonActions>
+  <CommandMultiSelect>Повеќекратен избор</CommandMultiSelect>
+  <CommandShare>Сподели</CommandShare>
+  <CommandSorting>сортирање</CommandSorting>
+  
+  <CommandFileManager>Врати се на менаџер на датотеки</CommandFileManager>
+  <CommandFolders>папки</CommandFolders>
+  <CommandGridView>Види</CommandGridView>
+  <CommandRefresh>освежување</CommandRefresh>
+  <CommandThumbnailView>thumbnail поглед</CommandThumbnailView>
+  <CommandDetailedView>приказ на листа</CommandDetailedView>
+  <CommandDetailsPane>екранот за детали</CommandDetailsPane>
+  <CommandFavorites>Омилени</CommandFavorites>
+  <CommandAddToFavorites>Додадете во омилени</CommandAddToFavorites>
+  <CommandAddToFavoritesHint>Додај тековната папка во омилени</CommandAddToFavoritesHint>
+  <AddingToFavoritesMessage>Додади во омилени</AddingToFavoritesMessage>
+  <RemoveFromFavoritesMessage>Бришење од омилени</RemoveFromFavoritesMessage>
+  <FolderAlreadyAddedInFavorites>Папката "{0}" веќе постои во омилени</FolderAlreadyAddedInFavorites>
+  <FolderAddedInFavoritesSuccessfully>Папката "{0}" е успешно додаден во омилени</FolderAddedInFavoritesSuccessfully>
+  <FavoritesIsOverflowed>Тоа не е можно за да додадете тековната папка "{0}" во омилени. Избришете некои омилени за да се ослободи простор и обидете се повторно.</FavoritesIsOverflowed>
+  <RemoveFromFavoritesHint>Отстрани "{0}" од омилени</RemoveFromFavoritesHint>
+  <AddToHomeScreenIOSHint>Допрете {0} и потоа &lt;strong&gt; "Add to Home Screen" &lt;/strong&gt;</AddToHomeScreenIOSHint>
+  <CommandSearch>Барај</CommandSearch>
+  <CommandUpload>Подигни датотека</CommandUpload>
+  <CommandSettings>Подесувања</CommandSettings>
+  <CommandLanguage>Јазик</CommandLanguage>
+  <CommandAdministration>Администрација</CommandAdministration>
+  <CommandAdminPanel>админ панелот</CommandAdminPanel>
+  <CommandChangePassword>Промени го пасвордот</CommandChangePassword>
+  <ProgressChangePassword>Промена на лозинка</ProgressChangePassword>
+  <CommandChangeEmail>Промена на e-mail</CommandChangeEmail>
+  <ProgressChangeEmail>Промена на e-mail</ProgressChangeEmail>
+  <CommandMobileView>Мобилни интерфејс (паметни телефони)</CommandMobileView>
+  <CommandStandardView>Целосна верзија</CommandStandardView>
+  <CommandInstallIOSApp>Инсталирај ја IOS</CommandInstallIOSApp>
+  <CommandInstallAndroidApp>Инсталирајте ја апликацијата за Android</CommandInstallAndroidApp>
+  <CommandAddServerToMobileApp>Додај овој сервер за мобилен стан</CommandAddServerToMobileApp>
+  <CommandAddToHomeScreen>Додади во почетниот екран</CommandAddToHomeScreen>
+  <CommandDiagnostics>страница за дијагностика</CommandDiagnostics>
+  <CommandLicenseInfo>лиценца информации</CommandLicenseInfo>
+  <CommandLogout>Одјава</CommandLogout>
+  <CommandLogoutHint>Кликни за да се заврши тековната сесија</CommandLogoutHint>
+  <CommandNew>нови</CommandNew>
+  <CommandFile>датотека</CommandFile>
+  <CommandEmptyFile>празна датотека</CommandEmptyFile>
+  <CommandNewMSOODocument>Документ со MS Office Online</CommandNewMSOODocument>
+  <CommandNewOffice365Document>Документ со Office 365</CommandNewOffice365Document>
+  <CommandNewMSOOWord>Word документ</CommandNewMSOOWord>
+  <CommandNewMSOOExcel>Excel за табеларни пресметки</CommandNewMSOOExcel>
+  <CommandNewMSOOPowerPoint>PowerPoint презентација</CommandNewMSOOPowerPoint>
+  <CommandNewGoogleDocument>Документ со Google</CommandNewGoogleDocument>
+  <CommandNewGoogleDocs>Google Docs</CommandNewGoogleDocs>
+  <CommandNewGoogleSheets>Табели на Google</CommandNewGoogleSheets>
+  <CommandNewGoogleSlides>Слајдови на Google</CommandNewGoogleSlides>
+  <CommandNewImage>Сликата во Pixlr</CommandNewImage>
+  <CommandFolder>папка</CommandFolder>
+  <CommandNewFile>Нова празна датотека</CommandNewFile>
+  <CommandNewFolder>нова папка</CommandNewFolder>
+  <CommandNewWithTemplate>Користејќи дефиниција ...</CommandNewWithTemplate>
+  <CommandRename>Преименувај</CommandRename>
+  <CommandDelete>Избриши</CommandDelete>
+  <CommandCopy>копија</CommandCopy>
+  <CommandMove>потег</CommandMove>
+  <CommandCut>Намали</CommandCut>
+  <CommandCopyTo>Копирај во ...</CommandCopyTo>
+  <CommandMoveTo>Префрли во ...</CommandMoveTo>
+  <CommandCopyCutClipboardSuffix>на таблата со исечоци</CommandCopyCutClipboardSuffix>
+  <CommandPaste>Залепи</CommandPaste>
+  <CommandPasteInto>ставете го во</CommandPasteInto>
+  <CommandZip>Компресира на Zip архива</CommandZip>
+  <CommandZipMenu>Поштенски / Отпакувајте</CommandZipMenu>
+  <CommandUnzip>Отпакувајте Поштенски</CommandUnzip>
+  <CommandUnzipSelected>отпакува избрани</CommandUnzipSelected>
+  <CommandUnzipAll>отпакува сите</CommandUnzipAll>
+  <CommandUnzipTo>во папката</CommandUnzipTo>
+  <CommandUnzipToCurrent>на тековната папка</CommandUnzipToCurrent>
+  <MessageUnzipToFolder>Внесете го името на папката за отпакување на оваа</MessageUnzipToFolder>
+  <MessageUnzipPasswordHint>Ако знаете дека на лозинка е потребно за распакување, внесете го во полето подолу</MessageUnzipPasswordHint>
+  <MessageUnzipNeedPassword>А лозинка е потребно да се отпакува на датотеки</MessageUnzipNeedPassword>
+  <ZipPasswordProtectHint>За да лозинка заштити зип архиви, внесете ја лозинката во полето подолу. Во спротивно, оставете го полето празно</ZipPasswordProtectHint>
+  <AppendToZipPasswordProtectHint>За да лозинка заштити датотеки додаде до архивата на код, внесете ја лозинката во полето подолу. Во спротивно, оставете го полето празно</AppendToZipPasswordProtectHint>
+  <ZipPasswordProtectWindowTitle>Архивирање со лозинка</ZipPasswordProtectWindowTitle>
+  <OpenFolderAfterUnzipCheckBox>Отвори папка по отпакувањето</OpenFolderAfterUnzipCheckBox>
+  <CommandUnzipToNew>на нова папка</CommandUnzipToNew>
+  <CommandZipContents>Поштенски содржина</CommandZipContents>
+  <ArchiveContentsTitle>Архива содржина "{0}"</ArchiveContentsTitle>
+  <CommandDownload>Превземи</CommandDownload>
+  <CommonDownloadAll>Превземи ги сите</CommonDownloadAll>
+  <DownloadListDragFile>Можете да го повлечете-n-drop датотеки на вашиот десктоп</DownloadListDragFile>
+  <CommandZipDownload>Компресира и да ја преземете</CommandZipDownload>
+  <CommandView>Види во прелистувачот</CommandView>
+  <CommandDownloadOrView>Превземи или да ја видите</CommandDownloadOrView>
+  <CommandPreview>слики преглед</CommandPreview>
+  <CommandFlashPreview>флеш преглед</CommandFlashPreview>
+  <GettingSizeFlashMovie>Прв големината на флеш филм</GettingSizeFlashMovie>
+  <CommandEdit>Измени како текстуална датотека</CommandEdit>
+  <CommandEditView>Види како текстуална датотека</CommandEditView>
+  <AceNotLoadedMessage>Не може да се вчита Аце уредник</AceNotLoadedMessage>
+  <VideoJsNotLoadedMessage>Не може да се вчита VideoJS плеер</VideoJsNotLoadedMessage>
+  <CommandMenuEdit>Уредување</CommandMenuEdit>
+  <CommandSelectAll>Селектирај се</CommandSelectAll>
+  <CommandInvertSelection>Обратен избор</CommandInvertSelection>
+  <CommandLinkToFile>Линк до датотеката / папката</CommandLinkToFile>
+  <!--Share link-->
+  <CommandMakePublicFolder>Се создаде јавен линк</CommandMakePublicFolder>
+  <PublicViewInGoogle>Погледнете во Google</PublicViewInGoogle>
+  <PublicViewinOWA>Види во OWA</PublicViewinOWA>
+  <!--Make public folder (share)-->
+  <CommandViewWithGoogleDoc>Погледнете во Google Docs</CommandViewWithGoogleDoc>
+  <CommandViewWithShareCad>Види во ShareCad.org</CommandViewWithShareCad>
+  <CommandViewWithAutodesk>Види во Autodesk</CommandViewWithAutodesk>
+  <CommandViewWithBox>Види во кутија</CommandViewWithBox>
+  <CommandViewWithOWA>Види во Office Web Apps</CommandViewWithOWA>
+  <CommandCloudConvert>Претвори со CloudConvert</CommandCloudConvert>
+  <ProgressGetCloudConvertOutputFormats>Прв излез формати</ProgressGetCloudConvertOutputFormats>
+  <ProgressCloudConvertConverting>конвертирање</ProgressCloudConvertConverting>
+  <CloudConvertWindowTitle>Претвори '{0}'</CloudConvertWindowTitle>
+  <CloudConvertWindowConvertButton>Претвори</CloudConvertWindowConvertButton>
+  <CloudConvertWindowOutputFormatsLabel>излезен формат</CloudConvertWindowOutputFormatsLabel>
+  <CloudConvertDownloadLinkLabel>Линк за преземање</CloudConvertDownloadLinkLabel>
+  <CloudConvertSaveAsLabel>Зачувај како (проширување ќе биде додаден автоматски):</CloudConvertSaveAsLabel>
+  <CloudConvertNoOutputFormats>Нема достапни формати за конвертирање</CloudConvertNoOutputFormats>
+  <CloudConvertNoUrlForDownload>Тоа не беше успеал да добиете линк за симнување</CloudConvertNoUrlForDownload>
+  <ProgressCloudConvertUploading>Подигни од CloudConvert</ProgressCloudConvertUploading>
+  <CloudConvertSaveAsNameBlank>Тука внесете име</CloudConvertSaveAsNameBlank>
+  <CancelEditButton>Откажи уреди</CancelEditButton>
+  <HideButton>Крие</HideButton>
+  <EditDocumentCancelHint>Откако ќе го затворите прозорецот со менувањето на документот, тоа ќе биде autosaved. &lt;br /&gt; Можете да го скриете овој дијалог со притискање на {0} (во овој случај, во документот се уште ќе биде спасен по затворањето на уредник). &lt;br /&gt; Ако не сакате да го зачувате документот, притиснете {1} (во овој случај, прозорецот на уредувачот ќе бидат затворени).</EditDocumentCancelHint>
+  <EditDocumentSaveHint>Сега можете да ги зачувате промените во документот со притискање на {0}. Внимание! Откако ќе се затвори прозорецот на уредувачот, таа ќе биде, исто така, autosaved.</EditDocumentSaveHint>
+  <CommandEditInMSOffice>Измени во MS Office</CommandEditInMSOffice>
+  <CommandEditInOOo>Измени во OpenOffice / LibreOffice</CommandEditInOOo>
+  <CommandViewInMSOffice>Види во MS Office</CommandViewInMSOffice>
+  <CommandViewInOOo>Види во OpenOffice / LibreOffice</CommandViewInOOo>
+  <CommandEditInPixlr>Измени во Pixlr</CommandEditInPixlr>
+  <CommandEditInAdobe>Измени во Adobe Creative Облак</CommandEditInAdobe>
+  <AdobeImageEditorSavedAsNewTypeMessage>Сликата се промени во Adobe уредувач на слики е зачуван во формат {0}</AdobeImageEditorSavedAsNewTypeMessage>
+  <CommandEditInGoogle>Уредување во Google Drive</CommandEditInGoogle>
+  <EditInGoogleConvertMessage>По Уредување на документот ќе се конвертира во формат {1} {0} {2}</EditInGoogleConvertMessage>
+  <EditInGoogleLinkError>Не можам да го добиете линк за уредување на документи во Google Drive</EditInGoogleLinkError>
+  <EditInGoogleWaiting>Чекање за завршување уредување во Google Drive</EditInGoogleWaiting>
+  <CommandEditInMSOO>Измени во MS Office Online</CommandEditInMSOO>
+  <EditInMSOOLinkError>Не можам да го добиете линк за уредување на документи во MS Office Online</EditInMSOOLinkError>
+  <EditInMSOOWaiting>Чекање за завршување уредување во MS Office Online</EditInMSOOWaiting>
+  <CommandEditInOffice365>Измени во канцеларија 365</CommandEditInOffice365>
+  <EditInOffice365LinkError>Не можам да го добиете линк за уредување на документи во канцеларија 365</EditInOffice365LinkError>
+  <EditInOffice365Waiting>Чекање за завршување уредување во канцеларија 365</EditInOffice365Waiting>
+  <CommandSave>Зачувај</CommandSave>
+  <CommandSaveAs>Зачувај како...</CommandSaveAs>
+  <CommandAppRestart>Рестартирајте апликација</CommandAppRestart>
+  <CommandPlayVideoFlash>Игра видео во Flash player</CommandPlayVideoFlash>
+  <CommandPlayVideoHtml5>играат видео</CommandPlayVideoHtml5>
+  <CommandPlayAudioHtml5>Репродукција на аудио</CommandPlayAudioHtml5>
+  <CommandPlayVideo>играат видео</CommandPlayVideo>
+  <CommandPlayAudio>Репродукција на аудио</CommandPlayAudio>
+  <CommandConvertVideo>Претвори видео</CommandConvertVideo>
+
+  <ViewInServiceLink>Кликни тука за да ја видите податотеката</ViewInServiceLink>
+  <EditInServiceLink>Кликни тука за да се менуваат документот</EditInServiceLink>
+
+  <OfficeEditCopyLinkLabel>Копирај го линкот подолу и отворете го во апликацијата Канцеларија:</OfficeEditCopyLinkLabel>
+  <OfficeRunError>Тоа не е можно да започне {0}</OfficeRunError>
+  <BadPathToFile>Тоа не е можно да се најде на патот на датотеката</BadPathToFile>
+  <FixBasicAuthAlertTitle>Внимание!</FixBasicAuthAlertTitle>
+  <FixBasicAuthAlertMessage>Microsoft Office работи со основните за проверка без SSL! Можете да го надминете овој за вашата канцеларија. За повеќе информации ве молиме погледнете {0}.</FixBasicAuthAlertMessage>
+  <FixBasicAuthAlertCheckBoxText>Не да се покаже овој дијалог повеќе.</FixBasicAuthAlertCheckBoxText>
+  <CommandDetails>детали за</CommandDetails>
+  <CommonButtonCaptionAddDetail>Add detail</CommonButtonCaptionAddDetail>
+  <CommonButtonCaptionAddComment>Додади коментар</CommonButtonCaptionAddComment>
+  <DetailsWindowTitle>Детали "{0}"</DetailsWindowTitle>
+  <FileDetailsSave>Примени ги измените</FileDetailsSave>
+  <FileDetailsIgnoreChanges>Игнорирај</FileDetailsIgnoreChanges>
+  <FileDetailsCloseConfirmTitle>прозорец на детали за датотека се затвора</FileDetailsCloseConfirmTitle>
+  <FileDetailsCloseConfirmMsg>Внимание! Промените не се зачувани уште. Изберете акција која сакате да се однесуваат на овие промени пред да го затворите прозорецот.</FileDetailsCloseConfirmMsg>
+  <FileDetailsGridTitleColumn>Наслов</FileDetailsGridTitleColumn>
+  <FileDetailsGridAuthorColumn>последниот автор</FileDetailsGridAuthorColumn>
+  <LoadingDetailsMask>Вчитување детали</LoadingDetailsMask>
+  <NewDetailsTitle>нова титула</NewDetailsTitle>
+  <NewDetailsValue>Нови детали вредност</NewDetailsValue>
+  <DetailsSavingMsg>заштеда на детали</DetailsSavingMsg>
+  <ProgressLoadingEditInOffice>Подготовки за уредување во Office</ProgressLoadingEditInOffice>
+  <MenuFilterText>филтри</MenuFilterText>
+  <EmptyTextFilter>Внесете филтер ...</EmptyTextFilter>
+  <AfterDateFilterText>по</AfterDateFilterText>
+  <BeforeDateFilterText>пред</BeforeDateFilterText>
+  <OnDateFilterText>На</OnDateFilterText>
+  <YesBooleanFilterText>Да</YesBooleanFilterText>
+  <NoBooleanFilterText>Не</NoBooleanFilterText>
+  <CommandEditWithZoho>Измени во Zoho</CommandEditWithZoho>
+  <ZohoNotSupportedFormatMessage>Проширувањето не е поддржан од Zoho. Види {0}.</ZohoNotSupportedFormatMessage>
+  <ProgressLoadingEditInZoho>Вчитување Zoho уредникот</ProgressLoadingEditInZoho>
+  <CommandSubMenuViewAndEdit>Погледнете / уреди</CommandSubMenuViewAndEdit>
+  <CommandSubMenuShare>Сподели</CommandSubMenuShare>
+  <CommandSubMenuMore>повеќе</CommandSubMenuMore>
+  <StopUploadingButtonText>Стоп</StopUploadingButtonText>
+  <SimpleUploadErrorInfo>Кога ќе испратите датотека (и) имаше грешка. &lt;br /&gt; Видете {0} за повеќе информации &lt;/a&gt;</SimpleUploadErrorInfo>
+  <BalloonAbortFilesUploaded>Качувањето на датотеки е прекинато</BalloonAbortFilesUploaded>
+  <UploadDragNDropTab>Повлечете капка</UploadDragNDropTab>
+  <UploadDragNDropTabImages>Drag &amp;Drop+слики</UploadDragNDropTabImages>
+  <DnDGridProgressColumn>напредок</DnDGridProgressColumn>
+  <DnDFileReadingError>грешка при читањето. Код за грешка: {0}.</DnDFileReadingError>
+  <DnDFileReadingAbort>Читањето е прекинато. Код за грешка: {0}.</DnDFileReadingAbort>
+  <DnDFileUploadingError>Неуспешно грешка. {0}</DnDFileUploadingError>
+  <DnDFileUploadingAbort>Подигни прекинато.</DnDFileUploadingAbort>
+  
+  <CommandWebFoldersLinks>Мапа на веб-папки</CommandWebFoldersLinks>
+  <CommandSyncWebFolders>Синхронизирате со локална папка</CommandSyncWebFolders>
+  <WebFolderLinksFieldLabel>Веб-папка линкови</WebFolderLinksFieldLabel>
+  <WebFolderLinksForWindows64Note>Притиснете го копчето комбинација {0} Win+R {1}. Вметнете ја командната линија во {0} Отвори: {1} поле (види командната линија примери подолу), кликнете на {0} {1} Во ред. За Windows автентикација користење на имиња целосно квалификувани домен: {2}.</WebFolderLinksForWindows64Note>
+  <OpenLibreOfficeRunCommandNote>Или притиснете го копчето комбинација {0} Win+R {1}, внесете ја командата линија подолу во {0} Отвори: {1} поле и притиснете {0} OK {1}</OpenLibreOfficeRunCommandNote>
+  <WebFolderLinksForMacOSNote>Во менито "Пронаоѓач", отворена {0} одиш&gt; поврзам со серверот {1}. Вметнување на линк на веб директориум во {0} "Адреса на серверот" {1} област. Кликнете {0} "Поврзи се" {1}. Во новиот дијалог изберете {0} "гости" {1} или {0} "регистриран корисник" {1} (за проверка на автентичност). Кликнете {0} "Поврзи се" {1}.</WebFolderLinksForMacOSNote>
+  <WebFolderLinksForUbuntuNote>Отвори {0} одиш&gt; Локација ... {1} Копирај го линкот на веб папка во полето за локација.</WebFolderLinksForUbuntuNote>
+  <LinksToWebFoldersWindowText>Можете да карта фолдери што ги гледаат како мрежа диск во вашата локална оперативен систем. По мапирањето ќе можат да работат со датотеки како и со локалните или уредување на документи во MS Office или OpenOffice. Видете Помош за тоа како да го сајтот {0}.</LinksToWebFoldersWindowText>
+  <CommonFileTypeNameCaption>"{0}" име на датотека</CommonFileTypeNameCaption>
+  <CommonFileTypeNamePrompt>Внесете нова "{0}" име на датотека</CommonFileTypeNamePrompt>
+  
+  <PixlrEditorWindowTitle>Pixlr уредник {0}</PixlrEditorWindowTitle>
+  <PixlrSaveImageSuccessMessage>Сликата "{0}" е успешно зачуван. Освежи ја листата ако сакате да ја зачувате сликата со ново име.</PixlrSaveImageSuccessMessage>
+  <CommonFileImageNewName>нова слика</CommonFileImageNewName>
+  <CommandChangeTheme>ја темата</CommandChangeTheme>
+  
+  <CommandHelp>помогне</CommandHelp>
+
+  <OpeningShortcutProgress>отворање кратенка</OpeningShortcutProgress>
+  <CommandCreateShortcut>Кратенка (симболична врска)</CommandCreateShortcut>
+  <ShortcutNameHint>име на кратенка</ShortcutNameHint>
+  <ShortcutTargetPathHint>дестинација патека</ShortcutTargetPathHint>
+  <CreateShortcutButtonTitle>Креирајте</CreateShortcutButtonTitle>
+  <CreatingShortcutProgress>креирање кратенка</CreatingShortcutProgress>
+  <CreateShortcutSuccessMessage>Кратенка "{0}" е успешно креирана за "{1}".</CreateShortcutSuccessMessage>
+
+  <OpeningInternetShortcutProgress>Отворање интернет кратенка</OpeningInternetShortcutProgress>
+  <InternetShortcutNotValidMsg>целни URL на оваа интернет Кратенка не е валидно</InternetShortcutNotValidMsg>
+  <InternetShortcutWindowTitle>Одиме да се поврзе</InternetShortcutWindowTitle>
+  
+  <CommandVersioning>верзии</CommandVersioning>
+  <CommandVersionHistory>историјат на верзијата</CommandVersionHistory>
+  <CommandCheckOut>Проверете</CommandCheckOut>
+  <CommandCheckIn>Проверете во</CommandCheckIn>
+  <CommandUndoCheckOut>Откажи Проверете</CommandUndoCheckOut>
+  <VersionHistoryObtainingMessage>Добивање историјат на верзијата</VersionHistoryObtainingMessage>
+  <NoVersionHistoryMessage>Историја на верзијата за избраната датотека не постои</NoVersionHistoryMessage>
+  <FileIsCheckedOutMessage>Датотеката "{0}" е веќе проверени од страна на корисникот "{1}" на {2}</FileIsCheckedOutMessage>
+  <CheckingOutMessage>одјавувањето</CheckingOutMessage>
+  <SuccessfullyCheckedOutMessage>Датотеката "{0}" е успешно проверуваат од страна на корисникот "{1}"</SuccessfullyCheckedOutMessage>
+  <FileIsNotCheckedOutMessage>Датотеката "{0}" не се проверува уште</FileIsNotCheckedOutMessage>
+  <FileIsCheckedOutOtherUserMessage>Датотеката "{0}" е избрана од страна на друг корисник "{1}" на {2}.</FileIsCheckedOutOtherUserMessage>
+  <FileUndoCheckOutForbiddenMessage>Не може да откажете чек примени од страна на друг корисник.</FileUndoCheckOutForbiddenMessage>
+  <FileCheckInForbiddenMessage>Вие не може да се провери во датотека која веќе се проверуваат од страна на друг корисник.</FileCheckInForbiddenMessage>
+  <FileUndoCheckOutConfirmMessage>Ако ја откажете вашата провериш, промените се применува на документот нема да се спаси! Дали сте сигурни дека сакате да ја откажете вашата провериш?</FileUndoCheckOutConfirmMessage>
+  <FileVersionDeleteConfirmTitle>Бришење на верзија на датотеката</FileVersionDeleteConfirmTitle>
+  <FileVersionDeleteConfirmMessage>сигурни дека сакате да го избришете избраниот верзија на датотека?</FileVersionDeleteConfirmMessage>
+  <FileVersionRestoreConfirmTitle>Враќање на верзија на датотеката</FileVersionRestoreConfirmTitle>
+  <FileVersionRestoreConfirmMessage>Дали сте сигурни дека сакате да се врати на избраните верзија на датотеката? {0} Ако одговорот е да, наведете датотека во која избраниот верзија ќе биде зачувана во. Ако го оставите ова вредност, без промени (или повеќе празни вредност) на избраните верзија ќе го замени избраниот фајл (претходна содржината на датотеката ќе биде додадена на историјата на верзија) {1} името на датотеката.:</FileVersionRestoreConfirmMessage>
+  <UndoCheckingOutMessage>Откажување Проверете</UndoCheckingOutMessage>
+  <SuccessfullyUndoCheckedOutMessage>Укинувањето на провериш за датотеката "{0}" е успешно завршена.</SuccessfullyUndoCheckedOutMessage>
+  <SuccessfullyCheckedInMessage>Датотеката "{0}" е успешно проверуваат од страна на корисникот "{1}"</SuccessfullyCheckedInMessage>
+  <CheckingInMessage>проверка</CheckingInMessage>
+  <VersionHistoryTitle>Датотека верзии "{0}"</VersionHistoryTitle>
+  <VersionHistoryGridNumberColumn>Вер.</VersionHistoryGridNumberColumn>
+  <VersionHistoryGridNotesColumn>Белешки</VersionHistoryGridNotesColumn>
+  <CommandRestoreVersion>Враќање</CommandRestoreVersion>
+  <ProgressPrepareDownloadOldVersion>Подготовки за стара верзија симнување</ProgressPrepareDownloadOldVersion>
+  <FileVersionNotFoundMessage>Избраната датотека верзија не беше пронајден.</FileVersionNotFoundMessage>
+  <ProgressDeletingVersion>верзија за бришење</ProgressDeletingVersion>
+  <ProgressRestoringVersion>верзија Враќање</ProgressRestoringVersion>
+  <FileNeedCheckInMessage>Ве молиме проверете во или да го откажете проверете за избраната датотека и обидете се повторно.</FileNeedCheckInMessage>
+  <FileCheckedOutEditForbiddenMessage>Вие не може да го менува / преименување / преместување / избришете датотеката "{0}" додека се проверуваат од страна на корисникот "{1}" на {2}</FileCheckedOutEditForbiddenMessage>
+  <FileUploadCheckInLabel>Можете да проверите во избраната датотека или да испратите нова верзија на датотеката (се користи при подигање подолу). Ако сакате да се создаде нова верзија од избраната датотека, не испратите било какви датотеки тука.</FileUploadCheckInLabel>
+  <FileUploadCheckInInvalidFileName>Името на качената датотека треба да биде иста како што е името на избраната датотека</FileUploadCheckInInvalidFileName>
+  <CheckOutVersionNotes>Оваа верзија е создадена автоматски</CheckOutVersionNotes>
+  <RestoreVersionNotes>Оваа верзија е автоматски создадена по враќање на верзијата од {0} од корисникот "{1}"</RestoreVersionNotes>
+  <IsCheckedOutHint>Датотеката се проверува</IsCheckedOutHint>
+  <ExistsOldVersionsHint>Датотеката има други верзии</ExistsOldVersionsHint>
+  <IsLockedHint>Датотеката е заклучен</IsLockedHint>
+  <FileWasCreatedHint>Е создаден пред {0}</FileWasCreatedHint>
+  <FileWasModifiedHint>Е променето пред {0}</FileWasModifiedHint>
+  <CommonChangedAgo>{0} пред</CommonChangedAgo>
+  <DaysShort>г</DaysShort>
+  <HoursShort>h</HoursShort>
+  <MinutesShort>m</MinutesShort>
+  <FileContainsMetaDataHint>Содржи некои детали (метаподатоци)</FileContainsMetaDataHint>
+  <FileMetaDataCaptionMobile>метаподатоци</FileMetaDataCaptionMobile>
+
+  <ExistsPublicLinksFileHint>Датотеката има јавна линкови</ExistsPublicLinksFileHint>
+  <ExistsPublicLinksFolderHint>Папката има јавна линкови</ExistsPublicLinksFolderHint>
+  <PublicLinkNotFound>Јавниот линк за "{0}" не е пронајден</PublicLinkNotFound>
+
+  <PublicLinksDeleteWindowTitle>Брише јавни линк (и)</PublicLinksDeleteWindowTitle>
+  <PublicLinksDeleteLinkButton>Избриши линк</PublicLinksDeleteLinkButton>
+  <PublicLinksDeleteConfirmMsg>Дали сте сигурни дека сакате да го избришете избраниот јавни врски?</PublicLinksDeleteConfirmMsg>
+  <PublicLinksDeleteSingleConfirmMsg>Дали сте сигурни дека сакате да ја избришете оваа врска?</PublicLinksDeleteSingleConfirmMsg>
+
+  <DetailsMultiValue>(Мулти вредност)</DetailsMultiValue>
+
+  <GridBottomFilesSizeInfo>Избрани: {0} / {1},</GridBottomFilesSizeInfo>
+  <GridBottomFilesFoldersInfo>додадени фајлови: {0} / {1}, папки: {2} / {3}</GridBottomFilesFoldersInfo>
+
+  <AmountOfDownloadingsFile>Превземања</AmountOfDownloadingsFile>
+
+  <CookiesDisabledMessage>функционалност колаче на вашиот прелистувач се исклучени. Ве молиме, вклучете го и рестартирајте го прелистувачот.</CookiesDisabledMessage>
+
+  <CommandSendEmail>Испрати е-маил</CommandSendEmail>
+  <CommandSendWithGmail>Испрати со Gmail</CommandSendWithGmail>
+  <CommandSendWithOutlook>Испрати со Outlook</CommandSendWithOutlook>
+  <SendEmailTo>До</SendEmailTo>
+  <SendEmailBulkMailingListHint>&lt;b&gt; листа на примачи &lt;/b&gt; &lt;br /&gt; Можете да одредите цели групи да ја испратите вашата e-mail</SendEmailBulkMailingListHint>
+  <SendEmailBulkMailingListWindowTitle>Изберете приемници за вашата e-mail</SendEmailBulkMailingListWindowTitle>
+  <SendEmailEmptyMailingListMessage>листата на пошта е празна</SendEmailEmptyMailingListMessage>
+  <SendEmailSenderEmail>испраќачот е-маил</SendEmailSenderEmail>
+  <SendEmailSubject>предмет</SendEmailSubject>
+  <SendEmailFilesAsLinksTo>Испрати линкови до избраните датотеки</SendEmailFilesAsLinksTo>
+  <SendEmailFilesAsAttachements>Испрати избраните датотеки како додатоци</SendEmailFilesAsAttachements>
+  <SendEmailSend>Испрати</SendEmailSend>
+  <SendEmailProgressMessage>испраќање на e-mail</SendEmailProgressMessage>
+  <GettingMailingListProgressMessage>Прв мејлинг листа</GettingMailingListProgressMessage>
+  <SendEmailSuccessMessage>На е-мејл беше успешно испратена.</SendEmailSuccessMessage>
+  <SendEmailResultsMessage>Испратено:. {0} &lt;br /&gt; не успеа: {1} {2}.</SendEmailResultsMessage>
+  <SmtpServerSettingsIncorrect>Опциите за SMTP-сервер или се празни или неточни</SmtpServerSettingsIncorrect>
+  <FromEmailIncorrect>На е-мејл адреса е неточна или празни</FromEmailIncorrect>
+  <ToEmailIncorrect>На е-мејл адреса е неточна или празни</ToEmailIncorrect>
+  <EmailSubjectEmpty>субјектот на е-мејл не е наведен</EmailSubjectEmpty>
+  <UploadFromUrlTab>од URL</UploadFromUrlTab>
+  <UploadFromUrlFieldLabel>URL-то (HTTP или FTP една датотека)</UploadFromUrlFieldLabel>
+  <UploadFromUrlProgressTitle>Додадени од URL</UploadFromUrlProgressTitle>
+  <UploadFromUrlMsg>Подигни од URL</UploadFromUrlMsg>
+  <UploadFromUrlSuccessMsg>Датотеката "{0}" е успешно подигнати од "{1}"</UploadFromUrlSuccessMsg>
+  <UploadFromUrlUnknownResponse>Одговорот од серверот не е призната</UploadFromUrlUnknownResponse>
+  <UploadFromUrlEmptyFileName>Името на качената датотека е празна</UploadFromUrlEmptyFileName>
+  <UploadFromUrlFileName>Зачувај со името (празен да се користи името на URL-то)</UploadFromUrlFileName>
+  <UploadFromUrlFileNameMobile>Зачувај со името</UploadFromUrlFileNameMobile>
+  
+  <!-- Common Clouds keys -->  
+  <CloudAuthenticateMessage>Мора да се најавите во {0}. Кликнете на "{1}" линкот и ќе бидете пренасочени на формуларот за најава. {2} Повеќе информации. {3}</CloudAuthenticateMessage>
+  <CloudAuthenticateLink>Идентификувате со {0}</CloudAuthenticateLink>  
+  <CloudDownloadingMessage>Симнување на {0}</CloudDownloadingMessage>
+  <CloudAuthWarningMessage>Ако не се случи акцијата, Ве молиме затворете го овој прозорец и кликнете на "{0}" линкот повторно.</CloudAuthWarningMessage>
+  <CloudAuthEmptyInvalidMessage>{0} Пристап знак е празна или не е валиден. Ве молиме да се идентификувате повторно.</CloudAuthEmptyInvalidMessage>
+  <CloudDownloadEndMessageTitle>Превземи го завршил</CloudDownloadEndMessageTitle>
+  <CloudDownloadFilesSuccessMessage>{0} фајл (ови) успешно преземена на "{1}" {2} папка.</CloudDownloadFilesSuccessMessage>
+  <CloudNotDownloadedFilesMessage>{0} фајл (ови) да не ја преземале:</CloudNotDownloadedFilesMessage>
+  <CloudFoldersCreatedSuccessMessage>{0} папки (а) успешно создадена во "{1}" {2} папка.</CloudFoldersCreatedSuccessMessage>
+  <CloudNotFoldersCreatedMessage>{0} папки (а), не е замислена на:</CloudNotFoldersCreatedMessage>
+  <CloudFilesFoldersSuccessMessage>{0} фајл (ови), {1} фолдер (а) успешно преземена на "{2}" {3} папка.</CloudFilesFoldersSuccessMessage>
+  <CloudNotFilesFoldersDownloadedMessage>{0} фајл (ови), {1} фолдер (а) не е преземена:</CloudNotFilesFoldersDownloadedMessage>
+  <CloudLinkText>Посетете {0}</CloudLinkText>
+  <CloudLinkDescription>Оди на {0} страница</CloudLinkDescription>
+  <CloudRootFolderName>&lt;b&gt; {0} папка &lt;/b&gt;</CloudRootFolderName>
+  <CloudCheckFolerMessage>Ве молиме проверете еден {0} папка за да продолжите.</CloudCheckFolerMessage>
+  <CloudSelectFolderMessage>Ве молиме одберете {0} папка за да продолжите.</CloudSelectFolderMessage>
+  <CloudGetFoldersInfoProgressMessage>Loading информации {0} папки</CloudGetFoldersInfoProgressMessage>
+  <CloudGetItemsInfoProgressMessage>инфо Вчитување {0} предмети</CloudGetItemsInfoProgressMessage>
+  <CloudUploadSelectItemsMessage>Ве молиме одберете {0} предмети за да продолжите.</CloudUploadSelectItemsMessage>
+  <CloudUploadTotalFiles>Вкупен број на датотеки: {0} ({1})</CloudUploadTotalFiles>
+  <CloudUploadProgressMessage>Подигни од {0}</CloudUploadProgressMessage>
+  <CloudSignInAsDifferentUserText>Одјавите од {0}</CloudSignInAsDifferentUserText>
+  <CloudLogoutProgressMsg>Одјавите од {0}</CloudLogoutProgressMsg>
+  <CloudRevokeTokenMsg>отповикување знак</CloudRevokeTokenMsg>
+  <CloudRefreshTokenMsg>освежување знак</CloudRefreshTokenMsg>
+  <CloudAuthNotCompleteMsg>За проверка на автентичност не е завршен. &lt;br /&gt; Ве молиме</CloudAuthNotCompleteMsg>
+  <CloudTrustedSitesMsg> проверете следниве сајтови во листа "Trusted Sites": &lt;br /&gt; &lt;br /&gt;</CloudTrustedSitesMsg>
+  <TrustedSitesForMicrosoftEdge>Ако користите Microsoft Еџ, тогаш проверете го Trusted Sites во Internet Explorer</TrustedSitesForMicrosoftEdge>
+  <CloudCheckAuthMsg>Проверете {0} проверка</CloudCheckAuthMsg>
+  <CloudLoadMsg>Loading {0}</CloudLoadMsg>
+  <CloudFreeSpaceError>Не постои доволно простор во {2} за да ги вчитате датотеките. И тоа: {0}. Големина на датотеката: {1}.</CloudFreeSpaceError>
+  <CloudFreeSpaceExceeded>Не постои доволно простор во {0}</CloudFreeSpaceExceeded>
+  <CloudExceedFileSizeError>Датотеката ќе се обидуваат да ја преземете има големина од {1}, која е поголема од максималната дозволена големина за преземање - {0}.</CloudExceedFileSizeError>
+  <CloudFolderNotFound>Директориумот не е пронајден. Можеби тоа е избришан</CloudFolderNotFound>
+  <CloudFileNotFound>Датотека не е пронајден. Можеби тоа е избришан</CloudFileNotFound>
+  <CloudNoFoldersMessage>Нема папки за да се прикаже</CloudNoFoldersMessage>
+  <CloudLibraryNotLoadedMsg>{0} клиент библиотека не се вчитани! &lt;br /&gt; Ве молиме проверете на интернет конекција и-или освежи страница. &lt;br /&gt; Исто така,</CloudLibraryNotLoadedMsg>
+  <CloudDownloadWithNewNames>Следната датотека (и) се симне со нови имиња:</CloudDownloadWithNewNames>
+
+  <!-- Google Drive Cloud keys -->
+  <CommandDownloadToGoogleDocs>Симнете на Google Drive</CommandDownloadToGoogleDocs>
+  <GoogleDocsSaveAs>Зачувај како:</GoogleDocsSaveAs>
+  <GoogleDocsSaveAsTitle>Зачувај "{0}" како ...</GoogleDocsSaveAsTitle>
+  <GoogleDocsDownloadEndWarningMessage>Ако не можете да видите на поставени документи во вашата сметка на Google Drive, почекајте неколку секунди и се освежи листата на Google Drive.</GoogleDocsDownloadEndWarningMessage>
+  <GoogleDriveUploadNoFilesMessage>Нема датотеки во Google Drive за преснимување</GoogleDriveUploadNoFilesMessage>
+  <GoogleDriveMaxUploadSizeError>За Content-Type "{0}" максималната големина на качувањето {1} е надмината.</GoogleDriveMaxUploadSizeError>
+  <GoogleDriveConvertMsg>Ако е можно, конвертирате датотеки во формат на Google Документи. {0} Повеќе информации {1}.</GoogleDriveConvertMsg>
+
+  <!-- Box Cloud keys -->
+  <CommandDownloadToBox>Преземете кутија</CommandDownloadToBox>
+  <BoxDownloadWithNewNames>Следната датотека (а) се ажурира со нови верзии:</BoxDownloadWithNewNames>
+  <BoxNoViewPermission>Вие немате дозвола да ја видите на избраниот директориум</BoxNoViewPermission>
+  <BoxNoDownloadPermission>Вие немате дозвола да ја преземете</BoxNoDownloadPermission>
+  <BoxNoUploadPermission>Вие немате дозвола да испратите</BoxNoUploadPermission>
+  <BoxUnableCreateOrInfoError>Не може да се создаде или да добијат информации</BoxUnableCreateOrInfoError>
+  
+  <!-- Dropbox Cloud keys -->
+  <CommandDownloadToDropbox>Превземи да Dropbox</CommandDownloadToDropbox>
+  
+  <!-- OneDrive Cloud keys -->
+  <CommandDownloadToSkyDrive>Симнете на OneDrive</CommandDownloadToSkyDrive>
+  <AuthenticateOAuthSkyDriveMessageShort>Мора да се најавите во вашата сметка на Microsoft Live.</AuthenticateOAuthSkyDriveMessageShort>
+  <SkyDriveAuthAlsoString>исто така,</SkyDriveAuthAlsoString>
+  <SkyDriveLoginButtonTitle>Логирај Се</SkyDriveLoginButtonTitle>
+  <SkyDriveRegistryMessage>Немате Windows Live ID? {0} Пријавете се ... {1}</SkyDriveRegistryMessage>
+  <SkyDriveMapRootFolder>Забелешка! Можете да {0} {1} мапа вашиот OneDrive папка. пат е</SkyDriveMapRootFolder>
+  <SkyDriveMoreInfoLink>{0} Повеќе информации за OneDrive (SkyDrive) {1}</SkyDriveMoreInfoLink>
+  <OneDriveMaxUploadSizeError>Одобрените димензии ({0}) на качената датотека е надмината: {1}</OneDriveMaxUploadSizeError>
+  <!-- OneDrive for Business -->
+  <OneDriveForBusinessMapWebFolderInfo>&lt;b&gt; Забелешка! &lt;/b&gt; Пред да го отворите датотеки во оваа локација, прво мора да го додадете веб-сајт на вашата листа со доверливи сајтови, прелистување на веб страницата, и одберете ја опцијата да се најавите автоматски (во IE прелистувач).</OneDriveForBusinessMapWebFolderInfo>
+  
+  <UploadFromUrlLabelText>Можете да наведете URL-то на датотека се чува на глобалната серверот за датотеки или сервис за споделување на датотеки како {0} {1} {2} {3}, {4}.</UploadFromUrlLabelText>
+  <UploadFromUrlLabelTextMobile>Наведете URL-то на датотека</UploadFromUrlLabelTextMobile>
+
+  <LinkToFileTitle>Линк до датотеката / папката</LinkToFileTitle>
+  <LinkToFileWarningAnonym>Овој линк обезбедува анонимни пристап до датотеката. Секој корисник, дури и оној кој нема сметка во овој сајт, може да го симнете или да испратите фајлови преку јавен линк. Јавен линк до датотеката ви овозможува да ја преземете една избраниот фајл. {0} Повеќе информации {1}.</LinkToFileWarningAnonym>
+  <LinkToFileDownloadFileLink>Овој линк ви овозможува да симнете на избраниот фајл {0} од {1}. Вие треба валидна сметка да го користите овој линк. Тие не обезбедуваат анонимни пристап до датотеката.</LinkToFileDownloadFileLink>
+  <LinkToFileExpireDate>Дата на истекување</LinkToFileExpireDate>
+  <LinkToFileDownloadCnt>преземете граничните брои</LinkToFileDownloadCnt>
+  <LinkToFileDownloadType>Вид на врската</LinkToFileDownloadType>
+  <LinkToFileGenerate>Направете линкови</LinkToFileGenerate>
+  <LinkToFilePasswordNotMatch>Лозинките не се совпаѓаат</LinkToFilePasswordNotMatch>
+  <LinkToFilePasswordRequired>тогаш лозинката е потребна за јавноста линк</LinkToFilePasswordRequired>
+  <LinkToFileInvalidForm>Невалиден параметри</LinkToFileInvalidForm>
+  <LinkToFileAnonymDownloadLinkHint>Јавниот линк за "{0}":</LinkToFileAnonymDownloadLinkHint>
+  <LinkToFileAnonymDownloadShortLinkHint>Краток јавниот линк за "{0}":</LinkToFileAnonymDownloadShortLinkHint>
+  <LinkToFileOpenFolderLink>Овој линк ти овозможува да се отвори избраната папка {0} на {1}. Вие треба валидна сметка да го користите овој линк. Тие не обезбедуваат анонимни пристап до папката.</LinkToFileOpenFolderLink>
+  <LinkToFileOpenFileLink>На овој линк се отвора папката со датотеки и да ја нагласува</LinkToFileOpenFileLink>
+  <LinkToFileDaysLeft>оволку дена</LinkToFileDaysLeft>
+  <LinkToFileCaptionMobile>јавни врски</LinkToFileCaptionMobile>
+
+  <PublicFolderLinkHint>Јавниот линк во папката "{0}":</PublicFolderLinkHint>
+  <PublicFolderShortLinkHint>Краток јавниот линк во папката "{0}":</PublicFolderShortLinkHint>
+  <PublicFolderLinkDownloadZipHint>Линк за преземање за zip архива на папката "{0}":</PublicFolderLinkDownloadZipHint>
+  <PublicFolderLinkShortDownloadZipHint>Краток линк за преземање за zip архива на папката "{0}":</PublicFolderLinkShortDownloadZipHint>
+  <PublicFolderLinkZipDownload>Компресира и да ја преземете тековната папка {0} (во ZIP архива)</PublicFolderLinkZipDownload>
+  <PublicFolderLinkOverwriteWhileUpload>пребрише постоечкиот</PublicFolderLinkOverwriteWhileUpload>
+  <PublicFolderLinkOpenFolderHint>Отворена папка</PublicFolderLinkOpenFolderHint>
+  <PublicFolderDownloadDisabledNote>Забелешка! На сопственикот на оваа папка забранил симнувањето на датотеки од оваа папка.</PublicFolderDownloadDisabledNote>
+  <PublicFolderLinkSendEmails>Испрати информации за посетителите активност на пораки</PublicFolderLinkSendEmails>
+  <PublicFolderAnonymAccessControl>контрола на пристап</PublicFolderAnonymAccessControl>
+  <PublicFolderAnonymDownload>преземање на датотеки</PublicFolderAnonymDownload>
+  <PublicFolderAnonymZipDownload>Превземи фолдери (ZIP)</PublicFolderAnonymZipDownload>
+  <PublicFolderAnonymUpload>Подигни датотека</PublicFolderAnonymUpload>
+  <PublicFolderAnonymViewContent>Погледнете листа на датотеки</PublicFolderAnonymViewContent>
+  <PublicFolderNoteForUsers>Забелешка за корисниците</PublicFolderNoteForUsers>
+  <PublicFolderACLNotSet>Контрола на пристап не е поставена</PublicFolderACLNotSet>
+  <PublicFolderWarningAnonym>Овој линк обезбедува анонимни пристап до папката. Секој корисник, дури и оној кој нема сметка во овој сајт, може да го симнете или да испратите фајлови преку јавен линк. Јавна линк до папката ви овозможува да симнете и цела папка (спакувани во архива) и поединечни фајлови. {0} Повеќе информации {1}.</PublicFolderWarningAnonym>
+  <PublicLinksShowForAllItems>Прикажи ги сите</PublicLinksShowForAllItems>
+  <PublicLinksShowForSelected>Прикажи за избраните</PublicLinksShowForSelected>
+  
+  <MultipleFileInputMessage>Забелешка! Вашиот интернет пребарувач поддржува избор на повеќе датотеки одеднаш.</MultipleFileInputMessage>
+  <UploadZipUnzipNote>Можете да испратите zip архива со повеќе фајлови и фолдери, а потоа го извлече, со помош на "{0}" команда во контекстното мени.</UploadZipUnzipNote>
+  <DnDFileUploadingStatusCode>код за статус</DnDFileUploadingStatusCode>
+  <DnDFileUploadingPathOrNameEmpty>На патот и-или име на датотека не се наведени</DnDFileUploadingPathOrNameEmpty>
+  <DnDFileUploadingRemoveFromList>Отстрани од листа</DnDFileUploadingRemoveFromList>
+  <DndFileUploadingDontDropFoldersMsg>Можете да drag and drop датотеки во табелата подолу. Вие не може да се намали папки.</DndFileUploadingDontDropFoldersMsg>
+  <DndFileUploadingAllowDropFoldersMsg>Можете да drag and drop датотеки и директориуми во табелата подолу.</DndFileUploadingAllowDropFoldersMsg>
+  <DndFileUploadingFilesSummaryInfo>Бројот на датотеки: {0} ({1})</DndFileUploadingFilesSummaryInfo>
+  <DropFilesHere>Drop датотеки да испратите</DropFilesHere>
+  
+  <FileGridDownloadColumn>преземање на датотеки</FileGridDownloadColumn>
+  <FileAttributesField>атрибути</FileAttributesField>
+  <FolderCalculateSize>Пресметајте</FolderCalculateSize>
+  <FolderRecalculateSize>рекалкулиране</FolderRecalculateSize>
+  <FolderContainsField>содржи</FolderContainsField>
+  <FolderContainsFilesFolders>{0} датотеки, {1} папки</FolderContainsFilesFolders>
+  <FolderCalculatingMessage>пресметување</FolderCalculatingMessage>
+
+  <SearchTitle>датотека пребарување. Достапни обрасци: {0}</SearchTitle>
+  <SearchType>Барај</SearchType>
+  <SearchOnlyFiles>само датотеките</SearchOnlyFiles>
+  <SearchOnlyFolders>само папки</SearchOnlyFolders>
+  <SearchBothFilesFolders>и двете датотеки и папки</SearchBothFilesFolders>
+  <SearchFileDetails>детали за датотека</SearchFileDetails>
+  <SearchFileContent>содржината на датотеката</SearchFileContent>
+  <SearchByDateFrom>од</SearchByDateFrom>
+  <SearchByDateTo>до</SearchByDateTo>
+  <SearchLocation>локација</SearchLocation>
+  <SearchLocationEntire>насекаде</SearchLocationEntire>
+  <SearchLocationCurrent>Тековни</SearchLocationCurrent>
+  <SearchSearch>Барај</SearchSearch>
+  <SearchNothingFound>Ништо не е пронајден! Ве молиме да се насочите вашето пребарување.</SearchNothingFound>
+  <SearchErrorCaption>Барај грешка</SearchErrorCaption>
+  <SearchResultsNotComplete>Внимание! резултатите од пребарувањето може да се нецелосни, како што некои фолдери се уште не се индексирани.</SearchResultsNotComplete>
+  <SearchRepeatOrContactAdmin>Ве молиме обидете се да пребарате повторно подоцна или контактирајте со вашиот администратор.</SearchRepeatOrContactAdmin>
+  <SearchLinkToManual>Се однесуваат на {0} Windows пребарување Помош на {1}</SearchLinkToManual>
+  <QuerySearchByNameText>пребарување според име</QuerySearchByNameText>
+  <QuerySearchByConentText>по содржина</QuerySearchByConentText>
+  <SearchByDetailsWarning>Внимание! Вие наведовте во подесувањата кои би сакале да се користи за пребарување со својства. Во овој случај, пребарувањето ќе се врши со помош на стандардниот метод, наместо користење на Кешот служба на Windows.</SearchByDetailsWarning>
+  <SearchInSpecialFolderWarning>Внимание! За да пребарувате на тековната папка не се применува. Ако продолжите, пребарувањето ќе се врши во сите директориуми.</SearchInSpecialFolderWarning>
+
+  <UploadTitle>Качувањето на повеќе датотеки</UploadTitle>
+  <UploadSimpleTab>стандард</UploadSimpleTab>
+  <UploadSimpleReset>Ресетирај</UploadSimpleReset>
+  <UploadSimpleUpload>Подигни датотека</UploadSimpleUpload>
+  <UploadSimpleUploadFolderLabelCollapsed>Подигни датотека папка</UploadSimpleUploadFolderLabelCollapsed>
+  <UploadSimpleUploadFolderButtonText>изберете папка</UploadSimpleUploadFolderButtonText>
+  <UploadJavaTab>Јава</UploadJavaTab>
+  <UploadJavaIgnorePaths>Ставете ги сите фајлови во еден фолдер (игнорира патеки)</UploadJavaIgnorePaths>
+  <UploadFlashTab>флеш</UploadFlashTab>
+  <UploadSilverlightTab>Silverlight</UploadSilverlightTab>
+  <UploadPartially>Некои од датотеките не може да биде качен</UploadPartially>
+  <UploadFolderNotSelectedTitle>Папката не е избран</UploadFolderNotSelectedTitle>
+  <UploadFolderNotSelected>Ве молиме изберете ја папката во која датотеките ќе бидат поставени на</UploadFolderNotSelected>
+  <UploadInProgress>Качувањето на датотеки</UploadInProgress>
+  <UploadInvalidFormFields>полиња форма не може да се достави со невалидни вредности</UploadInvalidFormFields>
+  <UploadAjaxFailed>Ајакс не успеа комуникација</UploadAjaxFailed>
+  <UploadFilesAlreadyExists>Фајл (ови) веќе постои</UploadFilesAlreadyExists>
+  <UploadOverwriteFiles>Постоечките датотеки ќе бидат препишани. Дали сакате да продолжите?</UploadOverwriteFiles>
+  <UploadOverwriteOrRenameFiles>Има една или повеќе датотеки со имињата на појавување во директориумот кој е одреден. Дали сакате да се замени постоечките датотеки? Кликнете на "{0}" ако сакате да запишете врз веќе постоечките датотеки, или "{1}" - ако сакате да ги зачувате сите датотеки (тие ќе бидат преименувани).</UploadOverwriteOrRenameFiles>
+  <UploadNotModifyExistingFiles>Има една или повеќе датотеки чии имиња одговараат имиња во директориумот кој е одреден. На датотеки не може да се објават. Ве молиме да се отстранат постојните фајлови од листата испратите или да ги преименувате.</UploadNotModifyExistingFiles>
+  <UploadRenamedExistingFiles>Има една или повеќе датотеки чии имиња одговараат имиња во директориумот кој е одреден. Датотеки чии имиња одговараат имиња ќе бидат преименувани.</UploadRenamedExistingFiles>
+  <UploadNotAllowedTitle>Подигни датотека не е дозволено</UploadNotAllowedTitle>
+  <UploadNotAllowedPrompt>Не можете да испраќате датотеки во оваа папка</UploadNotAllowedPrompt>
+
+  <UploadMobileIOSVideo>Внеси видео. Овозможете ја оваа опција ако ви треба за да испратите видео датотека.</UploadMobileIOSVideo>
+  <UploadMobileAurigmaLink>Ве молиме имајте во предвид дека треба да имаат Aurigma се! инсталирани на Вашиот уред за да испраќате датотеки. Допрете овде за да инсталирате Aurigma се! апликација за внесување на слики и видео.</UploadMobileAurigmaLink>
+  <UploadMobileAurigmaReady>По Aurigma се! е инсталиран или ако веќе имаат инсталирано, притиснете го копчето "Подигни датотека" копчето подолу.</UploadMobileAurigmaReady>
+  <UploadMobileAurigmaFilePrefix>Префиксот за подигнатите датотеки</UploadMobileAurigmaFilePrefix>
+  <UploadMobileResult>Внеси резултат:</UploadMobileResult>
+  <UploadMobileUrlPlaceHolder>Внесете URL тука</UploadMobileUrlPlaceHolder>
+  <UploadMobileFileNamePlaceHolder>Внесете име за новата датотека тука</UploadMobileFileNamePlaceHolder>
+  <UploadBrowseLabel>Разгледај ...</UploadBrowseLabel>
+  
+  <MobileToolTipsCaption>Дали знаеш дека ...</MobileToolTipsCaption>
+  <MobileToolTipsNextButton>Следен совет</MobileToolTipsNextButton>
+  <MobileToolTipsIKnowButton>знаев</MobileToolTipsIKnowButton>
+  <MobileToolTipsHideButton>никогаш не ги покажуваат</MobileToolTipsHideButton>
+  <MobileToolTipsMultiSelection>За да изберете неколку датотеки или папки, треба да им овозможи на владата мулти-избор со притискање на &lt;b&gt; {0} &lt;/b&gt;. Допрете го повторно за да излезете од режимот на повеќе избор.</MobileToolTipsMultiSelection>
+  <MobileToolTipsSlideToRemove>Можете да слајд од десно кон лево на било кој од листата на предмети за да го отстраните. Копче РЕГИСТРАЦИЈА отстрани ќе бидат прикажани на врвот на ставка од листата.</MobileToolTipsSlideToRemove>
+  <MobileToolTipsTapAndHoldForMenu>Допрете и задржете на било кој од листата на предмети за да се прикаже менито. Истиот контекст менито на екранот од страна допрете на копчето "откривање"</MobileToolTipsTapAndHoldForMenu>
+  <MobileToolTipsDoubleTapForPreview>Еден допир на датотеката за да го изберете, двојно допрете за да ја прегледате или да го преземете. Еден допир на папката за да ја отворите.</MobileToolTipsDoubleTapForPreview>
+  <MobileToolTipsPullDownToRefresh>Повлечете надолу листата за да ја превчитате тоа е содржината.</MobileToolTipsPullDownToRefresh>
+  <MobileToolTipsPinchToScale>Можете да ги користите гест "малку" за да зумирате во и оптичкиот зум, слики.</MobileToolTipsPinchToScale>
+  <MobileToolTipsTapToHideBars>Допрете каде било на сликата панел за да се префрлате лентите со алатки.</MobileToolTipsTapToHideBars>
+  <MobileToolTipsSlideLeftRightToNext>Switch слики со слајд гест.</MobileToolTipsSlideLeftRightToNext>
+
+  <DownloadToCloudMobileTip>Еден допир за да изберете папка, двојно допрете за да ја отворите.</DownloadToCloudMobileTip>
+  
+  <UploadTotalMaxSizeMessage>Забелешка! Максималната големина на сите фајлови, не треба да надминува {0}.</UploadTotalMaxSizeMessage>
+  <UploadOneFileMaxSizeMessage>Забелешка! Максималната големина на секоја качената датотека не треба да надминува {0}.</UploadOneFileMaxSizeMessage>
+  <UploadUnlimitedSizeMessage>Забелешка! Големината на подигнатите датотеки е неограничен.</UploadUnlimitedSizeMessage>
+  <SimpleUploadSetFileNameNote>Забелешка 2! Откако е избран датотека што може да го менува името на датотеката што ќе имаат по испратите</SimpleUploadSetFileNameNote>
+
+  <AnonymousUploadTitle>Испратите датотека во оваа папка</AnonymousUploadTitle>
+  <AnonymousUploadDescription>Можете да испратите датотека во оваа папка. Кликнете на копчето "Browse" подолу и изберете датотека.</AnonymousUploadDescription>
+  <AnonymousUploadOverwriteHint>Ако качената датотека веќе постои, ќе биде заменет.</AnonymousUploadOverwriteHint>
+  <AnonymousUploadShowUploadHint>Прикажи форма upload</AnonymousUploadShowUploadHint>
+  <AnonymousUploadHideUploadHint>форма Сокриј испраќате</AnonymousUploadHideUploadHint>
+  <AnonymousUploadNewFolderNameHint>Во полето подолу можете да наведете еден поддиректориум име (ќе се креира папка, ако тоа не постои), во кои датотеки ќе бидат поставени:</AnonymousUploadNewFolderNameHint>
+  <AnonymousUploadCompleteTitle>Прикачување на папка {0} е завршена</AnonymousUploadCompleteTitle>
+  <AnonymousUploadExistsFilesMessage>Следната датотека (а), не е поставено, бидејќи фајл (ови) со исто име (и) веќе постои: {0}.</AnonymousUploadExistsFilesMessage>
+  <AnonymousUploadOwnersNote>Забелешка од сопственикот на папката</AnonymousUploadOwnersNote>
+  <AnonymousDownloadPageTitle>Преземи документ</AnonymousDownloadPageTitle>
+  <AnonymousDownloadFileHint>Преземи документ</AnonymousDownloadFileHint>
+  <AnonymousUploadPageTitle>Внеси во папката</AnonymousUploadPageTitle>
+  <AnonymousPublicFolderPageTitle>јавните папка</AnonymousPublicFolderPageTitle>
+  <AnonymousLoginAccessUserFailure>Сте најавени на сметка која нема пристап кон ресурсот. Ве молиме внесете други ингеренциите за вашиот пристап. Ако не ги знаете, Ве молиме да се јавите на сопственикот на јавна врска или администраторот.</AnonymousLoginAccessUserFailure>
+  <ProgressGettingAnonymLink>креирање јавни линк</ProgressGettingAnonymLink>
+  <ProgressGettingAnonymLinks>Прв анонимни врски</ProgressGettingAnonymLinks>
+  <ProgressGettingBoxViewLink>Прв кутија поврзи поглед</ProgressGettingBoxViewLink>
+  <AutodeskScriptNotIncludedMessage>Не може да се вчита Autodesk Прегледувач скрипта</AutodeskScriptNotIncludedMessage>
+  <ProgressUninitializeAutodeskViewer>Затворање Autodesk Прегледувач</ProgressUninitializeAutodeskViewer>
+  <ProgressGettingAutodeskViewLink>Прв Autodesk Приказ на информации</ProgressGettingAutodeskViewLink>
+  <AnonymousChangeLanguageHint>Избор на јазик</AnonymousChangeLanguageHint>
+  <AnonymousUpLinkHint>Се врати во матичната папка</AnonymousUpLinkHint>
+  <AnonymousPasswordDescription>Фолдерот е заштитен со лозинка</AnonymousPasswordDescription>
+  <AnonymousPasswordIncorrectMessage>Лозинката е погрешна</AnonymousPasswordIncorrectMessage>
+  <AnonymousErrorTitle>грешка јавниот линк</AnonymousErrorTitle>
+  <AnonymousErrorNotFound>Јавниот линк "{0}" не е пронајдена!</AnonymousErrorNotFound>
+  <AnonymousErrorAccessDenied>Вие немате дозвола да го користи јавниот линкот "{0}"</AnonymousErrorAccessDenied>
+  <AnonymousErrorFileNotFound>Јавноста линкот "{0}" се однесува на непостоечка датотека или папка или NTFS пристап за читање е одбиен</AnonymousErrorFileNotFound>
+  <AnonymousErrorUnknownLinkType>Јавноста линкот "{0}" не е пронајден</AnonymousErrorUnknownLinkType>
+  <AnonymousSendEmailSubject>Посетителите дејност од јавен папка</AnonymousSendEmailSubject>
+  <AnonymousSendEmailUploadBody>Следните датотеки се подигнати на вашиот јавниот папка {0}: {1}.</AnonymousSendEmailUploadBody>
+  <AnonymousSendEmailDownloadBody>Датотеката {0} бил симнат од вашиот јавен папка {1}.</AnonymousSendEmailDownloadBody>
+  <AnonymousSendEmailZipDownloadBody>Целата содржина на јавниот папка {0} бил симнат во ZIP архива.</AnonymousSendEmailZipDownloadBody>
+  <AnonymousViewLinksButton>Види линкови</AnonymousViewLinksButton>
+  <AnonymousViewLinksHint>За да ги видите постојните јавни врски</AnonymousViewLinksHint>
+  <AnonymousViewLinksWindowTitle>јавни врски</AnonymousViewLinksWindowTitle>
+  <AnonymousViewLinksDateCreatedColumn>Дата на креирање</AnonymousViewLinksDateCreatedColumn>
+  <AnonymousViewLinksDateExpiredColumn>Дата на истекување</AnonymousViewLinksDateExpiredColumn>
+  <AnonymousViewLinksPermissionColumn>дозвола</AnonymousViewLinksPermissionColumn>
+  <AnonymousViewLinksDownloadedColumn>Број на преземања лево</AnonymousViewLinksDownloadedColumn>
+  <ProgressDeletingAnonymousLink>Бришењето на јавни линк</ProgressDeletingAnonymousLink>
+  <ProgressSavingAnonymousLink>Заштеда на јавните линк</ProgressSavingAnonymousLink>
+  <AnonymousEditLinkWindowTitle>Уредување на јавни линк за "{0}"</AnonymousEditLinkWindowTitle>
+  <AnonymousEditLinkShowUrl>Прикажи линк</AnonymousEditLinkShowUrl>
+  <AnonymousEditLinkNotFound>Јавноста линк не е пронајдена или нејзиниот рок на важење е истечен</AnonymousEditLinkNotFound>
+
+  <AnonymousLinkSendViaButton>Прати преку ...</AnonymousLinkSendViaButton>
+  <AnonymousLinkSendViaEmailItem>Е-маил ...</AnonymousLinkSendViaEmailItem>
+  <AnonymousLinkSendButton>Испрати по е-маил ...</AnonymousLinkSendButton>
+  <AnonymousLinkSendSubject>Веб Manager датотеката јавни линк</AnonymousLinkSendSubject>
+
+  <AnonymousLinkAdvOptTitle>дополнителни параметри</AnonymousLinkAdvOptTitle>
+  <AnonymousLinkViewTypeButton>поврзи поглед</AnonymousLinkViewTypeButton>
+  <AnonymousLinkViewTypeDefault>целосна</AnonymousLinkViewTypeDefault>
+  <AnonymousLinkViewTypeShort>Кратко</AnonymousLinkViewTypeShort>
+
+  <AnonymousLinkShowCommentsLabel>Прикажи опис, етикети и коментари</AnonymousLinkShowCommentsLabel>
+  <AnonymousLinkShowCommentsShort>Покажи ги коментарите</AnonymousLinkShowCommentsShort>
+
+  <QRCodeButton>QR код</QRCodeButton>
+
+  <AnonymousLinkLimitedAccessTitle>Ограничен пристап</AnonymousLinkLimitedAccessTitle>
+  <AnonymousLinkLimitAccessCheckBox>Ограничи пристапот само на одредено најавени корисници</AnonymousLinkLimitAccessCheckBox>
+  <AnonymousLinkLimitAccessTextArea>Вид корисник или e-mail (разделени со запирка)</AnonymousLinkLimitAccessTextArea>
+  <AnonymousLinkLimitAccessSendCheckBox>Испрати известувања на одредено корисници</AnonymousLinkLimitAccessSendCheckBox>
+  <AnonymousLinkLimitAccessPersMsgLabel>Лична порака (не е задолжително)</AnonymousLinkLimitAccessPersMsgLabel>
+  <AnonymousLinkLimitAccessPassAndUsersMsg>Вие наведовте вашата лозинка и корисници во исто време да го отворите линкот. Ве молиме наведете нешто еден.</AnonymousLinkLimitAccessPassAndUsersMsg>
+  <AnonymousLinkLimitAccessUsersNotFound>Корисниците:
+    {0}
+    не постои</AnonymousLinkLimitAccessUsersNotFound>
+  <AnonymousLinkLimitAccessEmailsNotFound>На пораки:
+    {0}
+    не постои</AnonymousLinkLimitAccessEmailsNotFound>
+  <AnonymousLinkLimitAccessUsersEmailsNotFound>Корисниците:
+    {0}
+    и e-mail:
+    {1}
+    не постои</AnonymousLinkLimitAccessUsersEmailsNotFound>
+
+  <AnonymousLinkUnableToCreate>Не можам да креирам анонимни линк</AnonymousLinkUnableToCreate>
+  <AnonymousLinkShortUrlLabel>Ве молиме кликнете на иконата на освежување (во долниот десен агол) за да добиете краток линк</AnonymousLinkShortUrlLabel>
+  <AnonymousLinkShortUrlUpdate>Да се ​​добие или да ги ажурирате краток линк</AnonymousLinkShortUrlUpdate>
+  <AnonymousLinkLongUrlNotSpecified>На долго URL-то не е наведен</AnonymousLinkLongUrlNotSpecified>
+
+  <ClientFileOrDirectoryAlreadyExists>Датотека или директориум со ова име веќе постои</ClientFileOrDirectoryAlreadyExists>
+  <ClientPermissionsAllowTypes>Тековни дозволи им овозможи на оваа операција само со следните типови на датотеки {0}</ClientPermissionsAllowTypes>
+  <ClientPermissionsDenyTypes>Тековни дозволи забрани оваа операција со следните типови на датотеки {0}</ClientPermissionsDenyTypes>
+  <OfficeApplicationNotFoundAlert>примена канцеларија не е пронајден. Отворање датотека рачно со помош на линкот во полето за текст.</OfficeApplicationNotFoundAlert>
+  <OfficeAnonymousEditPublicLinkError>Не може да се создаде јавна линк до анонимно Open Office документ.</OfficeAnonymousEditPublicLinkError>
+
+  <GoogleOWAViewLinkMessage>За да го видите документот кликнете на линкот подолу:</GoogleOWAViewLinkMessage>
+  <ZohoEditLinkMessage>За да ги измените линк документот кликнете подолу:</ZohoEditLinkMessage>
+  <PixlrEditLinkMessage>За да ги измените линкот на сликата кликнете подолу:</PixlrEditLinkMessage>
+  <PixlrNewImageCreateTitle>Креирај нова слика со Pixlr</PixlrNewImageCreateTitle>
+  <PixlrNewImageLinkMessage>Да се ​​создаде нова слика, кликнете на линкот подолу:</PixlrNewImageLinkMessage>
+
+  <DownloadTitle>Симнување на повеќе датотеки</DownloadTitle>
+  <DownloadSimpleTab>стандард</DownloadSimpleTab>
+  <DownloadJavaTab>Јава</DownloadJavaTab>
+  <DownloadIEPrevent>Internet Explorer спречува автоматско преземање</DownloadIEPrevent>
+  <DownloadIEClickHere>Кликни тука за да ја преземете</DownloadIEClickHere>
+  <DownloadIEArchiveReady>Архива "{0}" со избраните датотеки е создадена и е подготвен за преземање</DownloadIEArchiveReady>
+  <DownloadIECaption>Download е подготвена</DownloadIECaption>
+
+  <SettingsTitle>Подесувања</SettingsTitle>
+  <SettingsLanguage>Јазик</SettingsLanguage>
+  <SettingsLogOutRequired>Новите измени ќе се применуваат по одјавувањето или интернет пребарувач, рестартирајте го!</SettingsLogOutRequired>
+  <ThemeTitle>промена Тема</ThemeTitle>
+  <SettingsTheme>Изберете Тема</SettingsTheme>
+  <ThemeDefaultTitle>Аватарот на тема</ThemeDefaultTitle>
+  <ThemeGrayTitle>Греј Тема</ThemeGrayTitle>
+  <ThemeAccessTitle>пристапност Тема</ThemeAccessTitle>
+
+  <ChangeUserPasswordTitle>Промена на лозинка</ChangeUserPasswordTitle>
+  <ChangeUserPasswordOldPassword>Стара лозинка</ChangeUserPasswordOldPassword>
+  <ChangeUserPasswordNewPassword>Нова лозинка</ChangeUserPasswordNewPassword>
+  <ChangeUserPasswordRepeatNewPassword>Повторете ја новата лозинка</ChangeUserPasswordRepeatNewPassword>
+  <ChangeUserPasswordPasswordsNotMatch>Лозинките не се совпаѓаат.</ChangeUserPasswordPasswordsNotMatch>
+  <ChangeUserPasswordSuccessMessage>Лозинка е променета.</ChangeUserPasswordSuccessMessage>
+  <ChangeUserPasswordInvalidMessage>Невалидна лозинка.</ChangeUserPasswordInvalidMessage>
+
+  <ChangeUserEmailTitle>Промена корисник e-mail</ChangeUserEmailTitle>
+  <ChangeUserEmailEmail>Е-пошта</ChangeUserEmailEmail>
+  <ChangeUserEmailSuccessMessage>Е-пошта е променето.</ChangeUserEmailSuccessMessage>
+
+  <UserHelpTitle>помош за</UserHelpTitle>
+
+  <LicenseTitle>лиценца информации</LicenseTitle>
+  <LicenseTrial>Нерегистрирани 30-дневен Пробната верзија</LicenseTrial>
+  <LicensePrompt>Лиценцирана верзија {0} Корисниците брои: {1} {0} датум на купување: {2} {0}</LicensePrompt>
+  <LicenseFreeUpgradeMessage>Се уште има {0} денови за бесплатни надградби и поддршка.</LicenseFreeUpgradeMessage>
+  <LicenseCheckMessage>Повеќе од една година помина од датумот на купување. За да ја користите оваа верзија можете да ја обнови вашата претплата или downgrade на постара верзија. Можете да ја проверите вашата лиценца и да се најде на располагање соопштенија во &lt;a href='{0}' target='_blank'&gt; Проверете лиценца страница &lt;/a&gt;</LicenseCheckMessage>
+  
+  <ViewPopupBlocked>Нов прозорец е блокиран од страна на скокачки прозорци</ViewPopupBlocked>
+  
+  <LoginTwoFactorTitle>верификација две-чекор</LoginTwoFactorTitle>
+  <LoginTitle>Логирај Се</LoginTitle>
+  <LoginRemember>Запомни ме следниот пат</LoginRemember>
+  <LoginUISelect>интерфејс</LoginUISelect>
+  <LoginUIStandard>стандард</LoginUIStandard>
+  <LoginUITouch>мобилен</LoginUITouch>
+  <LoginLanguage>Јазик</LoginLanguage>
+  <LoginLogin>Логирај Се</LoginLogin>
+  <LoginFailure>Вашиот обид за најава не беше успешна.</LoginFailure>
+  <LoginBlocked>Сметката е блокирана. Почекајте {0} минути да се обиде повторно.</LoginBlocked>
+  <LoginNotActivated>Вашата сметка не е активирана.</LoginNotActivated>
+  <LoginResendActivation>Ако порака со код за активирање не е примена за долго време, кликнете на {0} линк за да го препрати активациски код.</LoginResendActivation>
+  <LoginResendActivationLink>испрати на код за активирање</LoginResendActivationLink>
+  <LoginResendActivationCode>Кликнете на {0} линк за да го препрати активациски код.</LoginResendActivationCode>
+  
+  <ActivateAccountOk>Сметката е успешно активирана!</ActivateAccountOk>
+  <ActivateAccountResultLabel>резултат на активирање</ActivateAccountResultLabel>
+  <ActivateAccountErrorOnlyFormsAuth>Активирање на сметка може да се користи само со Форми автентикација</ActivateAccountErrorOnlyFormsAuth>
+  <ActivateAccountErrorNotRequired>активирање на сметката е оневозможена во примена поставувања. Сметка се активира автоматски по регистрацијата.</ActivateAccountErrorNotRequired>
+  <ActivateAccountErrorAlreadyActivated>Сметка веќе активиран</ActivateAccountErrorAlreadyActivated>
+  <ActivateAccountErrorInvalidCode>код за активирање не е валиден</ActivateAccountErrorInvalidCode>
+  <ActivateAccountErrorAccountNotFound>Сметката не е пронајден</ActivateAccountErrorAccountNotFound>
+  <ActivateAccountErrorLinkBroken>линк за активација е скршен</ActivateAccountErrorLinkBroken>
+  <ActivateAccountReturnToLogin>Врати се на страната за логирање</ActivateAccountReturnToLogin>
+  
+  <LoginRender>Рендерирање</LoginRender>
+  
+  <LogoutTitle>Веб менаџерот на датотеки Одјава</LogoutTitle>
+  <LogoutSessionEnded>Тековната сесија е завршена</LogoutSessionEnded>
+  <LogoutCloseWindow>Затворете го прозорецот</LogoutCloseWindow>
+  <LogoutEnterAgain>пријавете се повторно</LogoutEnterAgain>
+  <LogoutClosingBrowserRequired>Внимание! Секој може да се најавите на вашиот профил! Ако користите една заедничка компјутер, тогаш треба да го затворите прозорецот на прелистувачот (не само таб) да го исчистите автентикација во вашиот интернет пребарувач! За Firefox прелистувач можете да го исчистите проверка на менито: Алатки-&gt; Избриши навредуваат Историја ...-&gt; Details-&gt; проверете Активни Logins-&gt; притиснете јасно сега.</LogoutClosingBrowserRequired>
+  <RecoverPasswordTitle>Заборавена лозинка</RecoverPasswordTitle>
+  <RecoverPasswordEmailPassword>Испрати лозинка преку е-маил</RecoverPasswordEmailPassword>
+  <RecoverPasswordErrorInvalidUserName>Невалидно корисничко име.</RecoverPasswordErrorInvalidUserName>
+  <RecoverPasswordErrorNoEmail>Овој корисник нема e-mail адреса е дефинирано.</RecoverPasswordErrorNoEmail>
+  <RecoverPasswordErrorSendEmail>Се случи грешка при испраќање на е-мејл.</RecoverPasswordErrorSendEmail>
+  <RecoverPasswordSuccess>Вашата лозинка е испратена на Вашата e-mail адреса.</RecoverPasswordSuccess>
+
+  <RecoverUserNameTitle>закрепне име</RecoverUserNameTitle>
+  <RecoverUserEmailName>Испрати името преку е-маил</RecoverUserEmailName>
+  <RecoverUserNameErrorInvalidEmail>Невалиден корисник е-мејл.</RecoverUserNameErrorInvalidEmail>
+  <RecoverUserNameErrorNoEmail>не се најде е-мејл адреса.</RecoverUserNameErrorNoEmail>
+  <RecoverUserNameSuccess>Вашето име е испратена на Вашата e-mail адреса.</RecoverUserNameSuccess>
+
+  <ChangeEmailTitle>промена пошта</ChangeEmailTitle>
+  <ChangeEmailEmail>нов Е-пошта</ChangeEmailEmail>
+  <ChangeEmailSubmit>достават</ChangeEmailSubmit>
+  <ChangeEmailStatusSuccess>Е-пошта е променета</ChangeEmailStatusSuccess>
+
+  <RegisterTitle>Регистрирај се</RegisterTitle>
+  <RegisterEmail>Е-пошта</RegisterEmail>
+  <RegisterExtraInfo>дополнителни информации</RegisterExtraInfo>
+  <RegisterCaptcha>Внесете го текстот што го гледате на сликата подолу</RegisterCaptcha>
+  <RegisterSubmit>достават</RegisterSubmit>
+  <RegisterErrorPasswordNotMatch>Лозинките не се совпаѓаат.</RegisterErrorPasswordNotMatch>
+  <RegisterErrorUserExists>Ова корисничко име или е-пошта веќе се користи.</RegisterErrorUserExists>
+  <RegisterErrorCaptchaInvalid>Сликата Текст не е внесена правилно</RegisterErrorCaptchaInvalid>
+  <RegisterSuccess>Нов корисник е додадена.</RegisterSuccess>
+  <RegisterActivationSent>код за активирање беше испратен до вашата e-mail.</RegisterActivationSent>
+  <RegisterActivationCheckEmail>Ве молиме проверете ја вашата пошта кутија (посебно несакана папка) и следете ги инструкциите во е-мејл.</RegisterActivationCheckEmail>
+  
+  <FolderGridUserPermissionsColumn>Пристап за корисниците</FolderGridUserPermissionsColumn>
+  <FolderGridGroupPermissionsColumn>Пристап за групи</FolderGridGroupPermissionsColumn>
+
+  <LoginLinkText>Логирај Се</LoginLinkText>
+  <RecoverPasswordLinkText>Ја заборави лозинката?</RecoverPasswordLinkText>
+  <RecoverUserNameLinkText>Го заборавивте името?</RecoverUserNameLinkText>
+  <RegisterLinkText>Регистрирај се</RegisterLinkText>
+  <ChangeEmail>промена пошта</ChangeEmail>
+  <LoginMobileVersionLinkText>Мобилната верзија (Повеќето паметни телефони и Touchpads)</LoginMobileVersionLinkText>
+
+  <FileIsNotZipArchive>Датотеката {0} не е ZIP архива</FileIsNotZipArchive>
+
+  <FileModificationsAuthor>автор</FileModificationsAuthor>
+  <FileModificationsHistory>Види историја</FileModificationsHistory>
+  <FileModificationsWindowTitle>Измени на датотеката "{0}"</FileModificationsWindowTitle>
+  <FileModificationsTypeCreated>Креиран</FileModificationsTypeCreated>
+  <FileModificationsTypeModified>Изменето</FileModificationsTypeModified>
+  <FileModificationsTypeRenamed>Преименувани</FileModificationsTypeRenamed>
+  <FileModificationsTypeRestored>Вратена</FileModificationsTypeRestored>
+  <FileModificationsTypeDeleted>избришани</FileModificationsTypeDeleted>
+
+  <ChangingReadOnlyProgressMessage>Менување само за читање атрибут</ChangingReadOnlyProgressMessage>
+
+  <ImageViewerWindowTitle>Прегледувач на слики [{0}]</ImageViewerWindowTitle>
+  <ImageViewerLoadingMessage>Вчитување прегледувач на слики</ImageViewerLoadingMessage>
+  <ImageViewerLoadingImageMessage>Вчитување на сликата</ImageViewerLoadingImageMessage>
+  <ImageViewerFirstImageTip>првата слика</ImageViewerFirstImageTip>
+  <ImageViewerPreviousImageTip>Претходна слика</ImageViewerPreviousImageTip>
+  <ImageViewerRefreshTip>Освежи листа на слики</ImageViewerRefreshTip>
+  <ImageViewerNextImageTip>Следна слика</ImageViewerNextImageTip>
+  <ImageViewerLastImageTip>последната слика</ImageViewerLastImageTip>
+  <ImageViewerRunSlideShow>Стартувај слики слајд шоу</ImageViewerRunSlideShow>
+  <ImageViewerStopSlideShow>Стоп за слики слајд шоу</ImageViewerStopSlideShow>
+  <ImageViewerImageSimpleInfo>{0} / {1} {2} ({3})</ImageViewerImageSimpleInfo>
+  <ImageViewerImageLoadErrorMessage>Сликата не е пронајдена или не можат да се прикажат</ImageViewerImageLoadErrorMessage>
+  <ImageViewerShowImageSizeOfWindow>Прикажи слика со вистинска големина</ImageViewerShowImageSizeOfWindow>
+  <ImageViewerShowRealImageSize>Кликни да зголемиш</ImageViewerShowRealImageSize>
+
+  <PasswordExpiresTitle>лозинка истекува</PasswordExpiresTitle>
+  <PasswordExpiresMessage>Вашата лозинка истекува по {0} ден (а)!</PasswordExpiresMessage>
+  <PasswordExpiredMessage>Вашата лозинка е истечен.</PasswordExpiredMessage>
+  <PasswordChangeMessage>За да ја промените лозинката, притиснете {0} {1} -&gt; {2} {3} од алатникот.</PasswordChangeMessage>
+
+  <UnzipContentTotalFiles>Вкупен број на датотеки: {0} ({1})</UnzipContentTotalFiles>
+
+  <VideoConversionJobNotFound>
+    Не може да се најде одредено реализација на процесот.
+    Можни причини:
+    1. конверзија заврши одамна и информации за оваа работа беше отстранет.
+    2. Имплементацијата на процесот Стопирано ненормално.
+  </VideoConversionJobNotFound>
+  <VideoConversionUtilityNotFound>Не можам Нови find за да се изврши бараната операција: {0}</VideoConversionUtilityNotFound>
+  <!-- The current security principal "{0}" has insufficiant permissions to executable file "{1}".-->
+  <VideoConversionUtilityInsufficientPermissions>Тековниот корисник "{0}" е одбиен пристапот до извршната датотека "{1}".</VideoConversionUtilityInsufficientPermissions>
+  <VideoConversionOperationCancelled>операцијата е откажана</VideoConversionOperationCancelled>
+  <VideoConversionUtilityFailed>Нови конверзија Стопирано ненормално</VideoConversionUtilityFailed>
+  <VideoConversionOutputFileBusy>Излезната датотека се користи од страна на друг пронаѓањето</VideoConversionOutputFileBusy>
+
+  <VideoConvertWindowValidatorPositiveInt>Мора да биде позитивен цел број</VideoConvertWindowValidatorPositiveInt>
+  <VideoConvertWindowTitle>Претвори видео</VideoConvertWindowTitle>
+  <VideoConvertWindowInputFile>влезна датотека</VideoConvertWindowInputFile>
+  <VideoConvertWindowOutputFile>излезната датотека</VideoConvertWindowOutputFile>
+  <VideoConvertWindowOutputFormat>излезен формат</VideoConvertWindowOutputFormat>
+  <VideoConvertWindowBitrate>Брзинанабитови (kbps)</VideoConvertWindowBitrate>
+  <VideoConvertWindowFrameResolution>резолуција на рамка</VideoConvertWindowFrameResolution>
+  <VideoConvertWindowDAR>сооднос Покажи аспект</VideoConvertWindowDAR>
+  <VideoConvertWindowPAR>сооднос пиксели аспект</VideoConvertWindowPAR>
+  <VideoConvertWindowResize>Менување на големината</VideoConvertWindowResize>
+  <VideoConvertWindowProfile>профил</VideoConvertWindowProfile>
+  <VideoConvertWindowWidth>ширина</VideoConvertWindowWidth>
+  <VideoConvertWindowHeight>Висина</VideoConvertWindowHeight>
+  <VideoConvertWindowExtractDetailsProgressMsg>Извлекување на видео податоци</VideoConvertWindowExtractDetailsProgressMsg>
+  <VideoConvertWindowOutputFileExistsTitle>Излезната датотека постои</VideoConvertWindowOutputFileExistsTitle>
+  <VideoConvertWindowOutputFileExistsMsg>Излезната датотека веќе постои. Тоа ќе бидат препишани.</VideoConvertWindowOutputFileExistsMsg>
+  <VideoConvertWindowPrepareToConvert>Подготвувајќи се да го конвертирате видео</VideoConvertWindowPrepareToConvert>
+  <VideoConvertWindowOutputFileMatchInputFile>името на излезната датотека се совпаѓа со името влезна датотека</VideoConvertWindowOutputFileMatchInputFile>
+
+  <VideoConvertProgressWindowTitle>Претвори видео</VideoConvertProgressWindowTitle>
+  <VideoConvertProgressWindowInputFile>влезна датотека</VideoConvertProgressWindowInputFile>
+  <VideoConvertProgressWindowOutputFile>излезната датотека</VideoConvertProgressWindowOutputFile>
+  <VideoConvertProgressWindowStatus>статус</VideoConvertProgressWindowStatus>
+  <VideoConvertProgressWindowStatusTerminating>прекинување</VideoConvertProgressWindowStatusTerminating>
+  <VideoConvertProgressWindowStatusPreparing>Подготвување</VideoConvertProgressWindowStatusPreparing>
+  <VideoConvertProgressWindowStatusProgress>Чекор {0} од {1}</VideoConvertProgressWindowStatusProgress>
+  <VideoConvertProgressWindowStatusDone>Завршено</VideoConvertProgressWindowStatusDone>
+
+  <PlayHtml5VideoNotSupported>Вашиот интернет пребарувач не поддржува HTML 5 видео елемент.</PlayHtml5VideoNotSupported>
+  <PlayHtml5VideoPlayFailed>Играат видео не успеа</PlayHtml5VideoPlayFailed>
+  <PlayHtml5AudioPlayFailed>Репродукција на аудио не успеа</PlayHtml5AudioPlayFailed>
+  <PlayHtml5AudioTitle>Наслов</PlayHtml5AudioTitle>
+  <PlayHtml5AudioNotSupported>Вашиот интернет пребарувач не поддржува HTML 5 аудио елемент.</PlayHtml5AudioNotSupported>
+  <PlayHtml5AudioArtist>уметникот</PlayHtml5AudioArtist>
+  <PlayHtml5AudioAlbum>албум</PlayHtml5AudioAlbum>
+  <PlayHtml5AudioYear>година</PlayHtml5AudioYear>
+  <PlayHtml5AudioDuration>времетраење</PlayHtml5AudioDuration>
+  <PlayHtml5AudioBitrate>брзина на битови</PlayHtml5AudioBitrate>
+  <PlayHtml5AudioVolume>Волумен</PlayHtml5AudioVolume>
+
+  <!-- Root title -->
+  <RootTitle>корен</RootTitle>
+
+  <!-- Recent feature keys -->
+  <RecentRootTitle>неодамнешните</RecentRootTitle>
+  <RecentDeleteOnePrompt>Дали сте сигурни дека сакате да го избришете "{0}" од вашите неодамнешни предмети?</RecentDeleteOnePrompt>
+  <RecentDeleteManyPrompt>Дали сте сигурни дека сакате да ја избришете овие {0} предмети од вашите неодамнешни предмети?</RecentDeleteManyPrompt>
+  <RecentPathNotExist>Неодамнешната пат "{0}" не постои или пристапот е одбиен</RecentPathNotExist>
+  <RecentAllWithoutGroupingTitle>Сите w / o групирање</RecentAllWithoutGroupingTitle>
+  <RecentEditGroupTitle>изменето</RecentEditGroupTitle>
+  <RecentViewGroupTitle>гледа</RecentViewGroupTitle>
+  <RecentDownloadGroupTitle>Преземени</RecentDownloadGroupTitle>
+  <RecentUploadGroupTitle>Прикачено</RecentUploadGroupTitle>
+  <RecentCreateGroupTitle>Креиран</RecentCreateGroupTitle>
+
+  <!-- Trash feature keys -->
+  <TrashRootTitle>ѓубре</TrashRootTitle>
+  <TrashLabelDateDeleted>датум избришани</TrashLabelDateDeleted>
+  <TrashDeleteOnePrompt>Дали сте сигурни дека сакате да избришете "{0}" од ѓубрето сте вие?</TrashDeleteOnePrompt>
+  <TrashDeleteManyPrompt>Дали сте сигурни дека сакате трајно да ги избришете овие {0} предмети од ѓубрето сте вие?</TrashDeleteManyPrompt>
+  <TrashEmptyTrashLabel>Избриши ја корпата</TrashEmptyTrashLabel>
+  <TrashRestoreSelectedLabel>Враќање</TrashRestoreSelectedLabel>
+  <TrashRestoreAllLabel>Поврати ги сите</TrashRestoreAllLabel>
+  <TrashEmptyTrashPrompt>Дали сте сигурни дека сакате да го испразните ѓубрето?</TrashEmptyTrashPrompt>
+  <TrashRestoreAllPrompt>Дали сте сигурни дека сакате да ги вратите сите предмети од ѓубрето?</TrashRestoreAllPrompt>
+  <TrashProgressRestoring>Опорави од Ѓубре</TrashProgressRestoring>
+  <TrashFolderNotFound>Ѓубре директориум не е пронајден</TrashFolderNotFound>
+  <TrashBalloonRestored>Вратена предмети: {0} од {1}</TrashBalloonRestored>
+  <TrashDeleteDirectlyLabel>Избришете директно, без отстранување на ѓубрето</TrashDeleteDirectlyLabel>
+  <TrashUsedSpaceHint>{0} се користи</TrashUsedSpaceHint>
+  <TrashLimitSizeHint>Се користи {0} од {1} ({2})</TrashLimitSizeHint>
+  <TrashLargeItemsShelfTimeHint>времето за чување на предметите е поголема од {0}: {1} ден (а)</TrashLargeItemsShelfTimeHint>
+  <TrashSmallItemsShelfTimeHint>За сите други: {0} ден (а)</TrashSmallItemsShelfTimeHint>
+  <TrashItemsShelfTimeHint>времето за чување на предметите: {0} ден (а)</TrashItemsShelfTimeHint>
+  <TrashAvailableSpaceHint>Максимална големина на располагање {0}</TrashAvailableSpaceHint>
+  <TrashDeletedFromFolderHint>Брише од {0}</TrashDeletedFromFolderHint>
+  <TrashExceededMessage>Следниве објекти се премногу голема и не може да се наоѓа во ѓубрето (ограничување на {0} е надмината):</TrashExceededMessage>
+  <TrashErrorSuffixMessage>Ве молиме обидете се да го изберете ја опцијата "{0}", а потоа избришете датотека (и) засекогаш надвор од пребарување</TrashErrorSuffixMessage>
+
+  <!-- Shared by link -->
+  <SharedByLinkRootTitle>Муабет со линк</SharedByLinkRootTitle>
+
+  <!-- Shared for you -->
+  <SharedForYouRootTitle>Дели со вас</SharedForYouRootTitle>
+  <SharedForYouUnableToGetUrl>Не може да се добие рачно</SharedForYouUnableToGetUrl>
+
+  <!-- Watch for modifications -->
+  <WatchForModifsCommand>Види за измени</WatchForModifsCommand>
+  <WatchForModifsStartCommand>започнете со гледање</WatchForModifsStartCommand>
+  <WatchForModifsEditCommand>Промена на гледање</WatchForModifsEditCommand>
+  <WatchForModifsStopCommand>престанете да гледате</WatchForModifsStopCommand>
+  <WatchForModifsViewChangesCommand>Прикажи промени</WatchForModifsViewChangesCommand>
+  <WatchForModifsSubscriptionSuccessMessage>Успешно ќе се претплатени за модификации "{0}"</WatchForModifsSubscriptionSuccessMessage>
+  <WatchForModifsStopSuccessMessage>Мониторингот "{0}" е оневозможена успешно</WatchForModifsStopSuccessMessage>
+  <WatchForModifsIncludingNestedLabel>Размислете за вгнездени датотеки, папки</WatchForModifsIncludingNestedLabel>
+  <WatchForModifsParentWatchExistMessage>За избраната ставка е веќе доделен на следење на папка "{0}".</WatchForModifsParentWatchExistMessage>
+  <WatchForModifsRootFolder>сигнали</WatchForModifsRootFolder>
+  <WatchForModifsStartProgressLoading>овозможи гледање</WatchForModifsStartProgressLoading>
+  <WatchForModifsStopProgressLoading>Terminatie гледање</WatchForModifsStopProgressLoading>
+  <WatchForModifsIconHint>Овозможено часовник за измени</WatchForModifsIconHint>
+  <WatchForModifsNotifCheckBox>Извести за промени од страна на пораки:</WatchForModifsNotifCheckBox>
+  <WatchForModifsWatchedUsersCheckBox>Следи само корисници (оставете го полето празно ако ги следат сите):</WatchForModifsWatchedUsersCheckBox>
+  <WatchForModifsIgnoreOwnerCheckBox>Игнорирај моето промени</WatchForModifsIgnoreOwnerCheckBox>
+  <WatchForModifsActionsCheckBox>Следење на сите активности (или некои постапки од листата подолу)</WatchForModifsActionsCheckBox>
+  <WatchForModifsNestedItemsWarning>Внимание! Кога ќе додадете следење за избраната папка, сите приложени датотеки и папки за кои е додадена индивидуални мониторинг од порано, мониторингот ќе бидат отстранети. Дали сакате да продолжите?</WatchForModifsNestedItemsWarning>
+
+  <WelcomeWindowHideCheckboxLabel>Не го прикажувај овој до следното најавување</WelcomeWindowHideCheckboxLabel>
+
+  <LogsGridMoreInfoColumn>Повеќе информации</LogsGridMoreInfoColumn>
+  <LogsGridDetailsTitle>детали за</LogsGridDetailsTitle>
+  <LogsGridPhysPathColumn>физичка патека</LogsGridPhysPathColumn>
+  <LogsGridIsFolderColumn>Папка?</LogsGridIsFolderColumn>
+  <LogsGridIsPublicColumn>Јавноста?</LogsGridIsPublicColumn>
+  <LogsGridByWebDavColumn>WebDAV?</LogsGridByWebDavColumn>
+
+  <NoCommentsYetHint>Сè уште нема коментари</NoCommentsYetHint>
+  <NoHistoryYetHint>Сè уште нема историја</NoHistoryYetHint>
+
+  <DetailsPropertyValuesCouldNotBeWritten>Успеа да се зачува вредноста на имотот, Mabe типот на датотеката не поддржуваат таква можност или има грешка во примената поврзани со датотеки.</DetailsPropertyValuesCouldNotBeWritten>
+
+  <AdminCommandHelp>помогне</AdminCommandHelp>
+  <AdminCommandAddUser>Додај корисник</AdminCommandAddUser>
+  <AdminCommandAddGroup>Додади група</AdminCommandAddGroup>
+  <AdminCommandRemoveUser>Отстрани корисник</AdminCommandRemoveUser>
+
+  <AdminCommandSelectUsers>додадете корисници</AdminCommandSelectUsers>
+  <AdminCommandSelectGroups>додадете групи</AdminCommandSelectGroups>
+  <AdminCommandRemoveUsers>Отстрани корисници</AdminCommandRemoveUsers>
+  <AdminCommandRemoveGroups>Отстрани групи</AdminCommandRemoveGroups>
+  <AdminUsersGroups>Член од</AdminUsersGroups>
+  <AdminSearchUserEmptyText>Внесете го корисничкото име</AdminSearchUserEmptyText>
+  <AdminSearchGroupEmptyText>Внесете име на групата</AdminSearchGroupEmptyText>
+  <AdminUsersGroupAlreadyExists>веќе е додаден А група (и) со ова име (и)</AdminUsersGroupAlreadyExists>
+
+  <AdminApplicationLoading>Админ вчитување панел</AdminApplicationLoading>
+  <AdminTitle>Администрација</AdminTitle>
+  <AdminUsersEditUser>уредување на корисникот</AdminUsersEditUser>
+  <AdminUsersSetUserPassword>Поставете лозинка</AdminUsersSetUserPassword>
+  <AdminUsersViewGroups>Приказ на групи</AdminUsersViewGroups>
+  <AdminUsersViewFolders>Види папки</AdminUsersViewFolders>
+  <AdminUsersDeleteUserPrompt>Дали сте сигурни дека сакате да го отстраните корисник (и) Дали сте "{0}"?</AdminUsersDeleteUserPrompt>
+  <AdminUsersDeletedUsers>{0} корисник (и) избришан.</AdminUsersDeletedUsers>
+  <AdminUsersUserNotFound>Не е пронајдена корисник со ова име</AdminUsersUserNotFound>
+  <AdminUsersPropertiesTitle>својства на корисникот</AdminUsersPropertiesTitle>
+  <AdminUsersSetPasswordTitle>Поставете лозинка</AdminUsersSetPasswordTitle>
+  <AdminUsersGeneralInfo>информации за корисникот</AdminUsersGeneralInfo>
+  <AdminUsersUserEmail>Е-пошта</AdminUsersUserEmail>
+  <AdminUsersEmptyName>Корисничкото име не може да биде празна</AdminUsersEmptyName>
+  <AdminUsersEmptyPassword>Корисник лозинка не може да биде празна</AdminUsersEmptyPassword>
+  <AdminUsersIncorrectName>Постојат неточни симболи во името на корисникот</AdminUsersIncorrectName>
+  <AdminUsersAlreadyExists>Корисник со ова име веќе постои</AdminUsersAlreadyExists>
+  <AdminUsersEmailAlreadyExists>Корисник со оваа е-пошта веќе постои</AdminUsersEmailAlreadyExists>
+  <AdminUsersPasswordsNotMatch>Лозинките не се совпаѓаат</AdminUsersPasswordsNotMatch>
+  <AdminUsersRenameWarning>По преименувањето на корисникот е потребно да ја промените лозинката, инаку тековната веб-папки врската ќе се неточни</AdminUsersRenameWarning>
+  <AdminUsersLicenseRestriction>Вашата лиценца не дозволува да се создаде повеќе од {0} корисници</AdminUsersLicenseRestriction>
+  <AdminUsersCountInfoWithLimit>Вкупно корисници: {0} од {1}</AdminUsersCountInfoWithLimit>
+  <AdminUsersCountInfo>Вкупно корисници: {0}</AdminUsersCountInfo>
+
+  <AdminGroupsEditGroup>Уреди група</AdminGroupsEditGroup>
+  <AdminGroupsRemoveGroup>Отстрани ја групата</AdminGroupsRemoveGroup>
+  <AdminGroupsDeleteGroupPrompt>Дали сте сигурни дека сакате да го отстраните група (и) "{0}"?</AdminGroupsDeleteGroupPrompt>
+  <AdminGroupsDeletedGroups>{0} група (и) избришан.</AdminGroupsDeletedGroups>
+  <AdminGroupsGroupNotFound>Не е пронајдена група со ова име</AdminGroupsGroupNotFound>
+  <AdminGroupsViewUsers>Приказ на корисниците</AdminGroupsViewUsers>
+  <AdminGroupsProperties>својства</AdminGroupsProperties>
+  <AdminGroupsPropertiesTitle>својства група</AdminGroupsPropertiesTitle>
+  <AdminGroupsGeneralInfo>информации за групата</AdminGroupsGeneralInfo>
+  <AdminGroupsUserNamePrompt>Внесете име на корисник</AdminGroupsUserNamePrompt>
+  <AdminGroupsUsers>членови на групата</AdminGroupsUsers>
+  <AdminGroupsUserAlreadyExists>веќе е додаден корисник (и) со ова име (и)</AdminGroupsUserAlreadyExists>
+  <AdminGroupsEmptyName>Името на групата не може да биде празна</AdminGroupsEmptyName>
+  <AdminGroupsIncorrectName>Постојат неточни симболи во името на групата</AdminGroupsIncorrectName>
+  <AdminGroupsAlreadyExists>Група со ова име веќе постои</AdminGroupsAlreadyExists>
+  <AdminGroupsCountInfo>Вкупно категории: {0}</AdminGroupsCountInfo>
+
+  <AdminLanguagesTab>локализации</AdminLanguagesTab>
+  <AdminLanguagesTabMessage>За да уредите за локализација на датотеката, одберете го саканиот јазик во листата, кликнете на локализираните стрингови за да го уредите. По модификации кликнете на копчето "Зачувај"</AdminLanguagesTabMessage>
+  <AdminLangGridKeyColumn>клучни име</AdminLangGridKeyColumn>
+  <AdminLangGridDefaultColumn>Англиски</AdminLangGridDefaultColumn>
+  <AdminEnterLanguageNameTitle>Внесете го името јазик</AdminEnterLanguageNameTitle>
+  <AdminLangConfirmRefreshTitle>Освежи ја потврдуваат</AdminLangConfirmRefreshTitle>
+  <AdminLangConfirmRefreshMessage>Внимание! Податоците не е зачувана. Дали сакате да ги зачувате промените сега?</AdminLangConfirmRefreshMessage>
+  <AdminLangAmountInfo>Исполнет копчиња: {0} од {1} (празно вредности: {2})</AdminLangAmountInfo>
+  <AdminLangSaveToCSV>Извоз во CSV</AdminLangSaveToCSV>
+  <AdminLangLoadFromCSV>Оптоварување од CSV</AdminLangLoadFromCSV>
+
+  <AdminDbMaintenanceTab>база на податоци за одржување</AdminDbMaintenanceTab>
+  <AdminDbMaintenanceInfoTitle>инфо</AdminDbMaintenanceInfoTitle>
+  <AdminDbMaintenanceInfoPathLabel>База на податоци датотека пат</AdminDbMaintenanceInfoPathLabel>
+  <AdminDbMaintenanceInfoSizeLabel>Големина на база на податоци датотека</AdminDbMaintenanceInfoSizeLabel>
+  <AdminDbMaintenanceCompactTitle>Компактен База на податоци</AdminDbMaintenanceCompactTitle>
+  <AdminDbMaintenanceCompactNote>Со цел да се намали големината на базата на податоци датотека, кликнете на копчето подолу. Неопходно е да се изврши компресија на податоци периодично, бидејќи, на пример, по отстранувањето на некои неактивни јавни врски или стари најавите евиденција на големината на база на податоци датотека не се намали.</AdminDbMaintenanceCompactNote>
+  <AdminDbMaintenanceCompactButton>Компактен ДБ</AdminDbMaintenanceCompactButton>
+  <AdminDbMaintenanceCompactSuccess>ДБ успешно набиен.
+Аватарот на големина на фајл: {0}
+Нова големина на фајл: {1}</AdminDbMaintenanceCompactSuccess>
+  <AdminDbMaintenanceCompactAutoNote>Вие исто така може да се претвори во базата на податоци на автоматски компресија по отстранувањето на евиденција операции, сепак, тоа не се препорачува поради тоа можеби почесто брави на база и тоа може да се зголеми времетраењето на некои барања. Внимание! По менување на оваа поставка на апликацијата ќе се запали повторно!</AdminDbMaintenanceCompactAutoNote>
+  <AdminDbMaintenanceCompactAutoCheckBox>Овозможи / оневозможи авто-компактен ДБ</AdminDbMaintenanceCompactAutoCheckBox>
+  <AdminDbMaintenanceCompactAutoSaveButton>Зачувај</AdminDbMaintenanceCompactAutoSaveButton>
+  <AdminDbMaintenanceCompactAutoSaveSuccess>Промена на автоматски сompression ДБ е успешно завршено. На страницата ќе се ажурира наскоро.</AdminDbMaintenanceCompactAutoSaveSuccess>
+  <AdminDbMaintenanceEnableLogLabel>Изберете база на податоци пребарувања влезете ниво (во податоци / debug.log)</AdminDbMaintenanceEnableLogLabel>
+  <AdminDbMaintenanceSettingsSaveSuccess>прилагодувања ДБ успешно зачувана. На страница ќе се превчита</AdminDbMaintenanceSettingsSaveSuccess>
+  <AdminDbMaintenanceSettingsChangeNote>Внимание! После снимањето на поставките на апликацијата ќе се запали повторно наскоро!</AdminDbMaintenanceSettingsChangeNote>
+  <AdminDbMaintenanceInsertIntervalLabel>Интервалот (во минути) за додавање на настани, на база на податоци. Ако наведете 0, вметнување ќе се појави непосредно по настаните.</AdminDbMaintenanceInsertIntervalLabel>
+  <AdminDbMaintenanceAdvDbParamsTitle>параметри Напредно база на податоци врска</AdminDbMaintenanceAdvDbParamsTitle>
+  <AdminDbMaintenanceStatTitle>Статистика (зависи од ДБ ниво најавите DurationExecution)</AdminDbMaintenanceStatTitle>
+  <AdminDbMaintenanceStatDurationReadLabel>Ср Истек на време на читање</AdminDbMaintenanceStatDurationReadLabel>
+  <AdminDbMaintenanceStatDurationWriteLabel>Ср пишување истек на време</AdminDbMaintenanceStatDurationWriteLabel>
+  <AdminDbMaintenanceStatDurationCompactLabel>Ср компактен истек на време</AdminDbMaintenanceStatDurationCompactLabel>
+  <AdminDbMaintenanceStatNoData>Нема податок</AdminDbMaintenanceStatNoData>
+  <AdminDbMaintenanceStatGetButton>соберат статистички податоци</AdminDbMaintenanceStatGetButton>
+
+  <AdminMiscTab>Разно</AdminMiscTab>
+  <AdminMiscLoadADAccountsTitle>Вчитај сметки Active Directory</AdminMiscLoadADAccountsTitle>
+  <AdminMiscLoadADAccountsLoadButton>транспорт</AdminMiscLoadADAccountsLoadButton>
+  <AdminMiscLoadADAccountsResetButton>Ресетирај</AdminMiscLoadADAccountsResetButton>
+  <AdminMiscLoadADAccountsLdap>LDAP контејнер</AdminMiscLoadADAccountsLdap>
+  <AdminMiscLoadADAccountsToFile>да поднесе</AdminMiscLoadADAccountsToFile>
+  <AdminMiscLoadADAccountsSuccessMessage>сметки Active Directory успешно вчитан</AdminMiscLoadADAccountsSuccessMessage>
+  <AdminMiscLoadADAccountsInfo>Тука може да се генерира датотеката која ја содржи целата структура Активни корисници директориумот. Оваа податотека е потребно ако се користи статични датотеки што се чување на АД информации. Иста датотека може да бидат генерирани преку ADManager алатка. За повеќе информации видете на &lt;b&gt; ADAccountsFilePath &lt;/b&gt; опис параметар во {0} Прирачник {1}.</AdminMiscLoadADAccountsInfo>
+
+  <AdminMiscManageQuotasTitle>Управување со квоти</AdminMiscManageQuotasTitle>
+  <AdminMiscManageQuotasInfo>Пребарување постоечките или создавање на нови квоти за ограничување на простор е дозволено на папката, придвижуван од серверот ресурс менаџерот на датотеки.</AdminMiscManageQuotasInfo>
+  <AdminMiscManageQuotasFolderPath>патеката на папката</AdminMiscManageQuotasFolderPath>
+  <AdminMiscManageQuotasQuota>квота</AdminMiscManageQuotasQuota>
+  <AdminMiscManageQuotasGetQuota>Земете квота</AdminMiscManageQuotasGetQuota>
+  <AdminMiscManageQuotasSetQuota>сет квота</AdminMiscManageQuotasSetQuota>
+
+  <AdminMiscFoldersFromGPOLTitle>Транспорт на папките од Група политика</AdminMiscFoldersFromGPOLTitle>
+  <AdminMiscFoldersFromGPOLComputerName>името на компјутерот</AdminMiscFoldersFromGPOLComputerName>
+  <AdminMiscFoldersFromGPOLFilePath>датотека пат</AdminMiscFoldersFromGPOLFilePath>
+  <AdminMiscFoldersFromGPOLMoreInfoLink>Повеќе информации</AdminMiscFoldersFromGPOLMoreInfoLink>
+  <AdminMiscFoldersFromGPOLResetButton>Ресетирај</AdminMiscFoldersFromGPOLResetButton>
+  <AdminMiscFoldersFromGPOLLoadButton>транспорт</AdminMiscFoldersFromGPOLLoadButton>
+  <AdminMiscFoldersFromGPOLFromDC>од ДК</AdminMiscFoldersFromGPOLFromDC>
+  <AdminMiscFoldersFromGPOLFromFile>од датотека</AdminMiscFoldersFromGPOLFromFile>
+  <AdminMiscFoldersTargetLabel>За увоз на корисници / групи услови во ...</AdminMiscFoldersTargetLabel>
+  <AdminMiscFoldersTargetFilter>филтер</AdminMiscFoldersTargetFilter>
+  <AdminMiscFoldersTargetPermission>дозвола</AdminMiscFoldersTargetPermission>
+  <AdminMiscFoldersFromGPOLSuccessMessage>Папки се успешно вчитан &lt;br /&gt; Ново:. {0}, ажурирани: {1}.</AdminMiscFoldersFromGPOLSuccessMessage>
+  <AdminMiscFoldersFromGPOLInfo>Може да се вчита (или да ги ажурирате) листата на папки од прилагодувањата на мапирање на Group Policy диск во домен контролер. Во полето подолу можете да внесете го името на компјутерот од кој ќе се вчита прилагодувања Group Policy (или ако го оставите празно, ќе се користи тековната домен), или патеката до датотеката со нацрта карта поставувања на дискови.</AdminMiscFoldersFromGPOLInfo>
+
+  <AdminAnonymFoldersTab>анонимни папки</AdminAnonymFoldersTab>
+  <AdminAnonymFoldersDeleteFolderPrompt>Дали сте сигурни дека сакате да го отстраните {0} избраните анонимни папки сте вие?</AdminAnonymFoldersDeleteFolderPrompt>
+  
+  <AdminAnonymFoldersDescription>Споделени фолдери / фајлови - тие се фолдери / фајлови кои не се потребни за идентификација на корисникот *, тоа значи дека тие се достапни за сите посетители * (ако тие имаат линк). На сите корисници да се создаде таков фолдери / фајлови од менито "Сподели &amp;rarr; создаде јавна врска". Сепак, споделени папки може да има ограничена дозволи: за да се постават, префрлање датотеки / папки листа. Подолу е табела на линкови до споделени фолдери / фајлови снимени од страна на корисниците. Да работат јавните врски функција правилно да бидете сигурни дека ракувачи \ Anonymousdownload.ashx дозволува анонимни пристап до IIS. Може да се провери ова на страницата &lt;a target="_blank" href="{0}"&gt; дијагностицирање &lt;/a&gt;. Бидете сигурни дека анонимен корисник предвид доделен на ракувачи \ Anonymousdownload.ashx има NTFS дозволите за читање / пишување за споделени фолдери / фајлови &lt;br /&gt; * &amp;nbsp;. &amp;Mdash; &amp;nbsp; ако не се определи корисници, на кои е дозволено само пристап.</AdminAnonymFoldersDescription>
+  <AdminAnonymFoldersLinkOwnerColumn>сопственикот</AdminAnonymFoldersLinkOwnerColumn>
+  <AdminAnonymFoldersEmailsColumn>Пораки за известување</AdminAnonymFoldersEmailsColumn>
+  <AdminAnonymFoldersAccessForUsersColumn>Пристап за корисниците</AdminAnonymFoldersAccessForUsersColumn>
+  <AdminAnonymFoldersPersonalMessageColumn>Приватна порака</AdminAnonymFoldersPersonalMessageColumn>
+  <AdminAnonymFoldersOverwriteOnUploadHint> (Ќе запише: {0})</AdminAnonymFoldersOverwriteOnUploadHint>
+  <AdminAnonymFoldersRootPathColumn>корен пат</AdminAnonymFoldersRootPathColumn>
+  <AdminAnonymFoldersKeysColumn>клучеви</AdminAnonymFoldersKeysColumn>
+  <AdminAnonymFoldersShortColumn>кратки алки</AdminAnonymFoldersShortColumn>
+  <AdminAnonymFoldersPropertiesTitle>Анонимни папка својства</AdminAnonymFoldersPropertiesTitle>
+  <AdminAnonymFoldersAdditionalInfo>Дополнителни информации</AdminAnonymFoldersAdditionalInfo>
+  <AdminAnonymFoldersLinkLabel>Линк за пристап</AdminAnonymFoldersLinkLabel>
+  <AdminAnonymFoldersPathNotSpecified>Физичка патека не е поставена</AdminAnonymFoldersPathNotSpecified>
+  <AdminAnonymFoldersCreatedForColumn>цел</AdminAnonymFoldersCreatedForColumn>
+
+  <AdminFoldersTab>папки</AdminFoldersTab>
+  <AdminFoldersAddFolder>Додај папка</AdminFoldersAddFolder>
+  <AdminFoldersEditFolder>уредување на папка</AdminFoldersEditFolder>
+  <AdminFoldersRemoveFolder>Отстрани папка</AdminFoldersRemoveFolder>
+  <AdminFoldersDeleteFolderPrompt>Дали сте сигурни дека сакате да ја отстраните папката "{0}"?</AdminFoldersDeleteFolderPrompt>
+  <AdminFoldersFolderNotFound>Не е пронајдена папка со ова име</AdminFoldersFolderNotFound>
+  <AdminFoldersPropertiesTitle>папка својства</AdminFoldersPropertiesTitle>
+  <AdminFoldersGeneralInfo>Генерални информации</AdminFoldersGeneralInfo>
+  <AdminFoldersFolderRemoteWarningForms>Забелешка! Оваа папка е оддалечен заеднички. Проверете {0} Најчесто поставувани прашања: како да се делат папки далечински {1}</AdminFoldersFolderRemoteWarningForms>
+  <AdminFoldersFolderRemoteWarningWin>Забелешка! Оваа папка е оддалечен заеднички. Можете да го скриете некои фолдери / фајлови ако корисниците немаат право да ги прочитате. Види {0} Најчесто поставувани прашања: како да се скрие датотеки / папки кои корисникот не имаат права да го прочитате {1}</AdminFoldersFolderRemoteWarningWin>
+  <AdminFoldersFolderPath>физичка патека</AdminFoldersFolderPath>
+  <AdminFoldersLocationPath>локација</AdminFoldersLocationPath>
+  <AdminFoldersFolderCreate>Креирај папка</AdminFoldersFolderCreate>
+  <AdminFoldersFolderCreateProcess>креирање на папката</AdminFoldersFolderCreateProcess>
+  <AdminFoldersFolderCreateContainsPattern>Папката не може да се создаде, бидејќи содржи модел</AdminFoldersFolderCreateContainsPattern>
+  <AdminFoldersFolderCreateSuccessfully>Папката "{0}" е успешно креиран.</AdminFoldersFolderCreateSuccessfully>
+  <AdminFoldersFolderOptional> (Не е задолжително)</AdminFoldersFolderOptional>
+  <AdminFoldersFolderLimitations>ограничувања</AdminFoldersFolderLimitations>
+  <AdminFoldersFolderDescription>Опис</AdminFoldersFolderDescription>
+  <AdminFoldersFolderQuota>квота</AdminFoldersFolderQuota>
+  <AdminFoldersFolderQuotaHint>Пребарување постоечките или создавање на нови квоти за ограничување на простор е дозволено на папката, придвижуван од серверот ресурс менаџерот на датотеки.</AdminFoldersFolderQuotaHint>
+  <AdminFoldersFolderQuotaMoreInfoLink>Повеќе информации</AdminFoldersFolderQuotaMoreInfoLink>
+  <AdminFoldersPermissions>дозволи</AdminFoldersPermissions>
+  <AdminFoldersPermissionsFor>Дозволи за {0}</AdminFoldersPermissionsFor>
+  <AdminFoldersUsersGroups>Корисници и групи</AdminFoldersUsersGroups>
+  <AdminFoldersAccessControl>контрола на пристап</AdminFoldersAccessControl>
+  <AdminFoldersCreate>Креирајте</AdminFoldersCreate>
+  <AdminFoldersDelete>Избриши</AdminFoldersDelete>
+  <AdminFoldersRename>Преименувај</AdminFoldersRename>
+  <AdminFoldersUpload>Подигни датотека</AdminFoldersUpload>
+  <AdminFoldersDownload>Превземи</AdminFoldersDownload>
+  <AdminFoldersZipDownload>Zip и да ја преземете</AdminFoldersZipDownload>
+  <AdminFoldersZip>Поштенски</AdminFoldersZip>
+  <AdminFoldersUnzip>Отпакувајте Поштенски</AdminFoldersUnzip>
+  <AdminFoldersCut>Намали</AdminFoldersCut>
+  <AdminFoldersCopy>копија</AdminFoldersCopy>
+  <AdminFoldersListFiles>Прикажи датотеки</AdminFoldersListFiles>
+  <AdminFoldersListFolders>Прикажи папки</AdminFoldersListFolders>
+  <AdminFoldersModify>Измени</AdminFoldersModify>
+  <AdminFoldersBulkMailing>рефус мејлинг</AdminFoldersBulkMailing>
+  <AdminFoldersAnonymViewContent>листа на датотеки преку јавна линк</AdminFoldersAnonymViewContent>
+  <AdminFoldersAnonymDownload>Преземете преку јавна линк</AdminFoldersAnonymDownload>
+  <AdminFoldersAnonymUpload>Внеси преку јавна линк</AdminFoldersAnonymUpload>
+  <AdminFoldersWatch>Гледајте</AdminFoldersWatch>
+  <AdminFoldersDescription>Можете да додадете папки рачно или да ги конвертирате постојните папки ако користите дискови на политики група. За повеќе информации видете {0} Помош {1}.</AdminFoldersDescription>
+
+  <AdminFoldersPermissionsForRegex>Вие исто така може да се користи на регуларниот израз. Ве молиме внесете &lt;b&gt; {0} &lt;/b&gt; на почетокот на полето погоре и потоа регуларен израз, на пример:</AdminFoldersPermissionsForRegex>
+  <AdminFoldersPermissionsForRegexUsers>{0} (им овозможи пристап на секој корисник) &lt;br /&gt; {1} (ова регуларниот израз значи две корисници: jdoe и Мајк)</AdminFoldersPermissionsForRegexUsers>
+  <AdminFoldersPermissionsForRegexGroups>{0} (се обезбеди пристап за секоја група) &lt;br /&gt; {1} (ова регуларниот израз значи дека сите групи со "Студенти" во нивните имиња)</AdminFoldersPermissionsForRegexGroups>
+
+  <AdminFoldersListRestrictions>Ограничувања на екранот</AdminFoldersListRestrictions>
+  <AdminFoldersCreateRestrictions>Ограничувања на датотека е</AdminFoldersCreateRestrictions>
+  <AdminFoldersRestrictionAllow>Дозволете</AdminFoldersRestrictionAllow>
+  <AdminFoldersRestrictionDeny>Одбиј</AdminFoldersRestrictionDeny>
+  <AdminFoldersRestrictionExtensions>екстензии</AdminFoldersRestrictionExtensions>
+  <AdminFoldersUserNamePrompt>Внесете име на корисник</AdminFoldersUserNamePrompt>
+  <AdminFoldersUserNameEmptyText>Изберете корисничко име</AdminFoldersUserNameEmptyText>
+  <AdminFoldersUserNameNotSelected>Мора да изберете корисничко име</AdminFoldersUserNameNotSelected>
+  <AdminFoldersUserAlreadyExists>Овој корисник веќе е доделен на папката</AdminFoldersUserAlreadyExists>
+  <AdminFoldersGroupNamePrompt>Внесете име на групата</AdminFoldersGroupNamePrompt>
+  <AdminFoldersGroupNameEmptyText>Изберете име на групата</AdminFoldersGroupNameEmptyText>
+  <AdminFoldersGroupNameNotSelected>Мора да изберете име на група</AdminFoldersGroupNameNotSelected>
+  <AdminFoldersGroupAlreadyExists>Оваа група веќе е доделен на папката</AdminFoldersGroupAlreadyExists>
+  <AdminFoldersEmptyName>Име на папка не може да биде празна</AdminFoldersEmptyName>
+  <AdminFoldersEmptyPath>Патеката на папката не може да биде празна</AdminFoldersEmptyPath>
+  <AdminFoldersIncorrectName>Постојат неточни симболи во името на папката</AdminFoldersIncorrectName>
+  <AdminFoldersAlreadyExists>Папка со тоа име и локација веќе постои</AdminFoldersAlreadyExists>
+  <AdminFoldersSharesButton>постојните акции</AdminFoldersSharesButton>
+  <AdminFoldersTestAccessButton>пристап тест</AdminFoldersTestAccessButton>
+  <AdminFoldersTestIndexingButton>тест индексирање</AdminFoldersTestIndexingButton>
+  <AdminFoldersShareNameTitle>постојните акции</AdminFoldersShareNameTitle>
+  <AdminFoldersShareNameEmptyText>одберете share</AdminFoldersShareNameEmptyText>
+  <AdminFoldersShareNameNotSelected>Мора да одберете Сподели</AdminFoldersShareNameNotSelected>
+  <AdminFoldersGetQuotaButton>Земете квота</AdminFoldersGetQuotaButton>
+  <AdminFoldersSetQuotaButton>сет квота</AdminFoldersSetQuotaButton>
+  <AdminCommonFilterField>филтер</AdminCommonFilterField>
+  <AdminCommonValidateField>валидирајте</AdminCommonValidateField>
+  <AdminFoldersRootNameUsed>Ве молиме користете друго име за папката наместо "{0}"</AdminFoldersRootNameUsed>
+  <AdminFoldersFolderFilterSuccess>Валидирај на филтерот одржа успешно</AdminFoldersFolderFilterSuccess>
+
+  <AdminTestAccessGoodResult>Папката "{0}" постои и може да се прочита.</AdminTestAccessGoodResult>
+  <AdminTestAccessBadResult>Папката "{0}" не постои или не се чита NTFS дозволите или нема пристап до мрежата за идентитетот на апликација!</AdminTestAccessBadResult>
+  <AdminTestAccessErrorResult>Грешка при проверка на пристап на папката "{0}": {1}</AdminTestAccessErrorResult>
+  <AdminTestIndexingErrorResult>Грешка при проверка на индексирање за папката "{0}":
+{1}</AdminTestIndexingErrorResult>
+  <AdminTestIndexingYesResult>Директориум "{0}" е индексирани</AdminTestIndexingYesResult>
+  <AdminTestIndexingNoResult>Директориум не "{0}" е индексирани</AdminTestIndexingNoResult>
+  <AdminTestIndexingUnknownResult>Не може да се утврди дали во директориумот "{0}" е индексирани.</AdminTestIndexingUnknownResult>
+  <AdminTestIndexingAddIfNotIndexed>Дали сакате да го додадете ова директориум за индексирање, и ако тоа е уште индексирани?</AdminTestIndexingAddIfNotIndexed>
+  <ProgressTestAccess>проверка на пристап</ProgressTestAccess>
+  <ProgressTestIndexing>проверка на индексирање</ProgressTestIndexing>
+  <AdminHowToIndexingLocationLink>За да се индексираат папка, се однесуваат на помош за {0}</AdminHowToIndexingLocationLink>
+
+  <AdminUsersListAll>сите корисници</AdminUsersListAll>
+  <AdminUsersListDACL>Корисниците од ACL</AdminUsersListDACL>
+  <AdminGroupsListAll>сите групи</AdminGroupsListAll>
+  <AdminGroupsListDACL>Групи од ACL</AdminGroupsListDACL>
+  <AdminDACLStringLabel>ACL дозволи</AdminDACLStringLabel>
+
+  <AdminCommonCustomField>поле за прилагодена</AdminCommonCustomField>
+  <AdminCommonSettingsChangeWarning>Промените ќе стапат на сила по повторно најавување (или по барање рестарт за WebDAV пристап).</AdminCommonSettingsChangeWarning>
+
+  <AdminCommonAllowedFoldersPathsTitle>Домашни папка патеки</AdminCommonAllowedFoldersPathsTitle>
+  <AdminCommonNotAllowedFolderPath>Можете да креирате пристап само до овие фолдери или нејзините потпапки: {0}</AdminCommonNotAllowedFolderPath>
+
+  <AdminLogsTab>Пријавете се</AdminLogsTab>
+
+  <AdminSettingsTab>Подесувања</AdminSettingsTab>
+
+  <AdminLogsErrorsTab>Најавете грешки</AdminLogsErrorsTab>
+  <AdminLogsErrorsClearBtn>Отстрани</AdminLogsErrorsClearBtn>
+  <AdminLogsErrorsClearUsersCountExceededBtn>Јасна евиденција со грешки на корисниците надминувате количество</AdminLogsErrorsClearUsersCountExceededBtn>
+
+  <AdminFoldersCreateHint>Дозволи / одбиј акции од менито "Нова": нова датотека, нова папка, нов имиџ, новиот документ датотеки.</AdminFoldersCreateHint>
+  <AdminFoldersDeleteHint>Дозволи / одбиј бришење на постоечките датотеки и папки</AdminFoldersDeleteHint>
+  <AdminFoldersRenameHint>Дозволи / одбиј преименување на постоечки датотеки и папки</AdminFoldersRenameHint>
+  <AdminFoldersUploadHint>Дозволи / одбиј качувањето функција датотеки (копчето Upload на лентата со алатки)</AdminFoldersUploadHint>
+  <AdminFoldersDownloadHint>Дозволи / одбиј "симнување", "Погледнете / уреди", да го преземете на облак складишта, итн активности</AdminFoldersDownloadHint>
+  <AdminFoldersZipDownloadHint>Дозволи / одбиј "компресира и преземање на" акција</AdminFoldersZipDownloadHint>
+  <AdminFoldersZipHint>Дозволи / одбиј "Компресирај на zip архива" акција</AdminFoldersZipHint>
+  <AdminFoldersUnzipHint>Дозволи / одбиј "Отпакувај во тековната папка", "Extract на нова папка" и "содржина Поштенски" акции</AdminFoldersUnzipHint>
+  <AdminFoldersCutHint>Дозволи / одбиј намалување на постоечките датотеки и папки акција</AdminFoldersCutHint>
+  <AdminFoldersCopyHint>Дозволи / одбиј копија постоечките датотеки и папки акција</AdminFoldersCopyHint>
+  <AdminFoldersListFilesHint>Дозволи / одбиј листањето датотеки</AdminFoldersListFilesHint>
+  <AdminFoldersListFoldersHint>Дозволи / Одбиј Прелистувањето папки</AdminFoldersListFoldersHint>
+  <AdminFoldersModifyHint>Дозволи / одбиј менувате датотеките (сите активности кои може да ги измени постојните содржини на датотеки)</AdminFoldersModifyHint>
+  <AdminFoldersBulkMailingHint>Дозволи / одбиј рефус мејлинг за групи</AdminFoldersBulkMailingHint>
+  <AdminFoldersAnonymViewContentHint>Дозволи / одбиј датотеки листа за анонимни корисници (преку јавна врски)</AdminFoldersAnonymViewContentHint>
+  <AdminFoldersAnonymDownloadHint>Дозволи / одбиј го симнете датотеки за анонимни корисници (преку јавна врски)</AdminFoldersAnonymDownloadHint>
+  <AdminFoldersAnonymUploadHint>Дозволи / одбиј испраќате датотеки за анонимни корисници (преку јавна врски)</AdminFoldersAnonymUploadHint>
+  <AdminFoldersWatchHint>Дозволи / одбиј корисниците да ги следи промените во папката кои настанале од страна на други корисници (се применува само доколку UI / AllowUsersmonitorModifications = true)</AdminFoldersWatchHint>
+  <AdminFoldersListRestrictionsHint>Оваа опција го контролира датотека директориум. "Одбиј" копче за избор, кликни за да се скрие датотеки со одредени екстензии. Вметнете забрането екстензии одвојувајќи ги со запирка (на пример, "exe, БАТ, COM"). Поставете копчето "Дозволи" и вметнете екстензии на датотеки, кои ќе бидат прикажани (на пример, "DOC, PDF, JPG").</AdminFoldersListRestrictionsHint>
+  <AdminFoldersCreateRestrictionsHint>Оваа функција е слична на "Список со ограничувања", но го контролираат датотеки качувањето, екстракција ZIP, создавање на нови датотеки. Можете да го забрани или да им се овозможи да се постават на одредени датотеки.</AdminFoldersCreateRestrictionsHint>
+  <AdminFoldersGeneralInfoHint>Вид постоечки патеката на папката и псевдоним. Кликнете на копчето за помош на дното за повеќе информации.</AdminFoldersGeneralInfoHint>
+  <AdminFoldersUsersGroupsHint>Изберете или впишете го Корисници и групи да ги споделат папка за нив. Кликнете на копчето за помош на дното за повеќе информации.</AdminFoldersUsersGroupsHint>
+
+  <AdminUserFoldersButtonTitle>Тест Листа акции</AdminUserFoldersButtonTitle>
+  <AdminUserFoldersWindowTitle>корисникот папки</AdminUserFoldersWindowTitle>
+  <AdminUserFoldersLabel>листа папка за корисникот '{0}':</AdminUserFoldersLabel>
+  
+  <AdminPermissionsTab>admin дозволи</AdminPermissionsTab>
+  <AdminPermissionsPrivilege>привилегија</AdminPermissionsPrivilege>
+  <AdminPermissionsEditButton>Измени привилегија</AdminPermissionsEditButton>
+  <AdminPermissionsModifySettingsTitle>Менување на прилагодувањата</AdminPermissionsModifySettingsTitle>
+  <AdminPermissionsModifyFoldersTitle>Измени папки</AdminPermissionsModifyFoldersTitle>
+  <AdminPermissionsModifyAnonymFoldersTitle>Измени јавни папки</AdminPermissionsModifyAnonymFoldersTitle>
+  <AdminPermissionsModifyAccountsTitle>Измени сметки</AdminPermissionsModifyAccountsTitle>
+  <AdminPermissionsViewDiagnosticsTitle>страница Види "Дијагностика"</AdminPermissionsViewDiagnosticsTitle>
+  <AdminPermissionsViewLogTitle>View log</AdminPermissionsViewLogTitle>
+  <AdminPermissionsViewErrorsLogTitle>Види грешки се логирате</AdminPermissionsViewErrorsLogTitle>
+  <AdminPermissionsModifyLocalizationsTitle>Измени локализации</AdminPermissionsModifyLocalizationsTitle>
+  <AdminPermissionsFolderPathTitle>патеката на папката</AdminPermissionsFolderPathTitle>
+  <AdminPermissionsFoldersTitle>Админ папки</AdminPermissionsFoldersTitle>
+  <AdminPermissionsPrivilegeHint>Постави корисници / групи за кои "{0}" привилегија ќе им биде дозволено</AdminPermissionsPrivilegeHint>
+  <AdminPermissionsFolderTitle>Админ папка својства</AdminPermissionsFolderTitle>
+  <AdminPermissionsFolderFieldTitle>патеката на папката</AdminPermissionsFolderFieldTitle>
+  <AdminPermissionsFolderHint>Инфо за админ папки</AdminPermissionsFolderHint>
+  <AdminPermissionsFolderEmptyAccounts>Наведете корисници и / или групи</AdminPermissionsFolderEmptyAccounts>
+  <AdminPermissionsFolderAlreadyExists>Папка со оваа локација веќе постои</AdminPermissionsFolderAlreadyExists>
+  <AdminPermissionsFolderNotFound>Папка со оваа локација не е најдена</AdminPermissionsFolderNotFound>
+  <AdminPermissionsAllowedFoldersMessage>Можете да креирате / ажурирање / управување со пристап само на овие фолдери или нејзините потпапки: {0}</AdminPermissionsAllowedFoldersMessage>
+
+  <AdminUsersCountExceededWarn>Максималното количество на корисници е надмината. Вашата моментална лиценцата дозволува само {0} корисници за да се логирате. За повеќе информации се отвори "{1}" јазичето и да се најде "{2}" исклучок (а). За да се скрие ова известување јасно најавите евиденција на "{1}" табот.</AdminUsersCountExceededWarn>
+
+  <AdminNewVersionAvailableTitle>Достапна е нова верзија!</AdminNewVersionAvailableTitle>
+  <AdminNewVersionAvailableInfo>Тековната верзија: {0} &lt;br /&gt; понова верзија: {1}</AdminNewVersionAvailableInfo>
+  
+  <SettingsGridDescriptionInfo>Опис</SettingsGridDescriptionInfo>
+  <SettingsGridFormatInfo>формат вредност</SettingsGridFormatInfo>
+  <SettingsGridDefaultValueInfo>стандардна вредност</SettingsGridDefaultValueInfo>
+  <SettingsGridMoreInfo>Повеќе информации</SettingsGridMoreInfo>
+  <SettingsGridRestoreDefault>Враќање на стандардниот</SettingsGridRestoreDefault>
+
+  <SettingsFormatBoolean>Булова вредност</SettingsFormatBoolean>
+  <SettingsFormatWholeNumber>Цел број</SettingsFormatWholeNumber>
+  <SettingsFormatRealNumber>реален број</SettingsFormatRealNumber>
+  <SettingsFormatString>стринг</SettingsFormatString>
+  <SettingsFormatEnum>Било која вредност на</SettingsFormatEnum>
+  <SettingsFormatSet>Разделени со запирки листа без повторувања на вредности</SettingsFormatSet>
+  <SettingsFormatArray>Разделени со запирки листа на жици</SettingsFormatArray>
+  <SettingsFormatToolbarButtons>. (. Вредност "{0}" може да се повтори неколку пати, но не е во ред по секое име, проследено со две точки, тоа е можно да се определи еден од методите кои се користат за да се прикаже копчиња: {1})</SettingsFormatToolbarButtons>
+
+  <AdminSettingsSave>Зачувај поставувања</AdminSettingsSave>
+  <AdminToggleHiddenParams>{0} напредни параметри</AdminToggleHiddenParams>
+  <AdminHintHiddenParams>Дополнителни параметри се наменети само за повеќе грануларна поставувања и во повеќето случаи се ретко е потребно</AdminHintHiddenParams>
+  <AdminShowHiddenParams>Прикажи</AdminShowHiddenParams>
+  <AdminHideHiddenParams>Крие</AdminHideHiddenParams>
+
+  <SettingsDenyAuthModeChange>Автоматска промена автентикација на владата не е поддржан. Види {0} инструкции за промена на режимот на проверка.</SettingsDenyAuthModeChange>
+  <SettingsApplicationRestartedMsg>рестартира апликација</SettingsApplicationRestartedMsg>
+  <SettingsSettingsSavedMsg>Поставки се зачувани</SettingsSettingsSavedMsg>
+  <SettingsSettingsSaveFailedAppMsg>Не може да се спаси конфигурациски датотеки. Проверете пишуваат NTFS дозволите на web.config и HttpCommanderSettings.config фајлови во веб апликација папка {0} за корисникот {1}. порака за грешка: {2}.</SettingsSettingsSaveFailedAppMsg>
+  <SettingsSettingsSaveFailedTempMsg>Не може да се спаси конфигурациски датотеки. Проверете ги дозволите за привремена папка {0} за корисникот {1}. порака за грешка: {2}.</SettingsSettingsSaveFailedTempMsg>
+  <SettingsSettingsReadFailedAppMsg>Не може да се прочита конфигурациската датотека. Проверете чита NTFS дозволите на web.config и HttpCommanderSettings.config фајлови во веб апликација папка {0} за корисникот {1}. порака за грешка: {2}.</SettingsSettingsReadFailedAppMsg>
+  <SettingsSettingsReadFailedTempMsg>Не може да се прочита конфигурациската датотека во привремена папка. Проверете ги дозволите за привремена папка {0} за корисникот {1}. порака за грешка: {2}.</SettingsSettingsReadFailedTempMsg>
+  <SettingsSettingsConfigChangedOutside>Конфигурациската датотека HttpCommander е изменета од друга програма. Можно е да ја менувале рачно со уредувач на текст. Апликацијата ќе се вчита новата конфигурациската датотека. Сите промени во врска со HttpCommander конфигурација која сте го направиле преку веб интерфејс се изгубени. Вие треба да ги повтори, а потоа пробајте да зачувате повторно. Препорачуваме против уредување на конфигурациски датотеки рачно додека апликацијата е подигната. Во спротивно ќе треба да го рестартирате апликацијата по менување на конфигурациската датотека. порака за грешка: {0}.</SettingsSettingsConfigChangedOutside>
+  <SettingsSettingsSaveNotif>Не заборавајте да ги зачувате промените поставките!</SettingsSettingsSaveNotif>
+  
+  <SettingsEmailNotifTitle>Известувања по е-мејл</SettingsEmailNotifTitle>
+  <SettingsEmailNotifApplyBtn>Зачувај mail подесувања</SettingsEmailNotifApplyBtn>
+  <SettingsEmailNotifResetBtn>Ресетирај</SettingsEmailNotifResetBtn>
+  <SettingsEmailNotifEventsLabel>за настани</SettingsEmailNotifEventsLabel>
+  <SettingsEmailNotifWhenLabel>Испрати</SettingsEmailNotifWhenLabel>
+  <SettingsEmailNotifEmailsLabel>пораки</SettingsEmailNotifEmailsLabel>
+  <SettingsEmailNotifPathsLabel>патеки</SettingsEmailNotifPathsLabel>
+  
+  <LogsErrorsGridUrlColumn>url</LogsErrorsGridUrlColumn>
+  <LogsErrorsGridMsgColumn>порака</LogsErrorsGridMsgColumn>
+  <LogsErrorsGridMoreInfoColumn>Повеќе информации</LogsErrorsGridMoreInfoColumn>
+  <LogsErrorsGridDetailsTitle>детали за</LogsErrorsGridDetailsTitle>
+  
+  <FsrmUnableLoadLibraryLocal>Не можам да се поврзете на сервер за фајлови ресурси менаџер на локалниот компјутер.</FsrmUnableLoadLibraryLocal>
+  <FsrmUnableLoadLibraryRemote>Не можам да се поврзете на сервер за фајлови ресурси менаџер на "{0}" домаќин.</FsrmUnableLoadLibraryRemote>
+  <FsrmNotInstalled>Менаџерот на датотеки на серверот ресурс не е инсталирана на "{0}".</FsrmNotInstalled>
+  <FsrmNotInstalledEitherEnd>Менаџерот на датотеки на серверот ресурс не е инсталиран или на локалниот компјутер или на "{0}".</FsrmNotInstalledEitherEnd>
+  <FsrmQuotaNotSpecified>Квотата не е одреден.</FsrmQuotaNotSpecified>
+  <FsrmUnableGetQuota>Не можам да добијам ограничување на квотата.</FsrmUnableGetQuota>
+  <FsrmUnableSetQuota>Не може да се постави лимит на квотата.</FsrmUnableSetQuota>
+  <FsrmQuotaSetMsg>Квота е наместен.</FsrmQuotaSetMsg>
+  <FsrmInvalidQuotaValueMsg>Невалиден вредност квота.</FsrmInvalidQuotaValueMsg>
+
+  <CommandBuyNow>Купи сега</CommandBuyNow>
+
+  <AdminUpdateTab>надградба</AdminUpdateTab>
+  <AdminUpdateManual>прирачник за надградба</AdminUpdateManual>
+  <AdminUpdateAuto>автоматски надградба</AdminUpdateAuto>
+  <AdminUpdateStartButton>Започнете Надградба / Креирај сигурносни</AdminUpdateStartButton>
+  <AdminUpdateFinishButton>Заврши Надградба / Повр</AdminUpdateFinishButton>
+  <AdminUpdateBackupButton>Backup</AdminUpdateBackupButton>
+  <AdminUpdateDownloadNewButton>Превземи Нова верзија</AdminUpdateDownloadNewButton>
+  <AdminUpdateStepTitle>Чекор {0} {1}: {2}</AdminUpdateStepTitle>
+  <AdminUpdateStepInfo>Чекор {0} {1}</AdminUpdateStepInfo>
+  <AdminUpdateNumberSymbol>#</AdminUpdateNumberSymbol>
+  <AdminUpdateBackupContent>Ве молиме притиснете го копчето "{0}" за креирање на резервна копија на папката со апликација и добивање на линк за симнување</AdminUpdateBackupContent>
+  <AdminUpdateDownloadBackupLinkHint>Ве молиме преземете копија од текстот на апликацијата со помош на линкот подолу:</AdminUpdateDownloadBackupLinkHint>
+  <AdminUpdateDownloadNewContent>Ве молиме симнете новата верзија со помош на линкот подолу и следете ги {0} инсталација {1} и {2} надградба {1} инструкции со цел да се инсталира нова верзија. По инсталацијата ве молиме отворете админ панелот, кликнете на табот "{3}" и притиснете на копчето "{4}" за да ја завршите инсталацијата.</AdminUpdateDownloadNewContent>
+  <AdminUpdateUploadButton>Внеси резервна копија и се применуваат подесувања</AdminUpdateUploadButton>
+  <AdminUpdateUploadAndInstallButton>Се инсталира нова верзија со одржување на сите подесувања</AdminUpdateUploadAndInstallButton>
+  <AdminUpdateUploadEmptyText>Ве молиме изберете една копија за да се постават</AdminUpdateUploadEmptyText>
+  <AdminUpdateFinishContent>Со цел да се врати на поставките на претходната верзија, ве молиме изберете и да испратите претходно го создаде бекап архива папка на апликацијата</AdminUpdateFinishContent>
+  <AdminUpdateFinishMessage>Алал да му е! Сите поставки се успешно примени. Исто така, треба да се пријават сите промени што ќе ги направи на други датотеки, на пример, Default.aspx или Global.asax.</AdminUpdateFinishMessage>
+  <AdminUpdateFinishRefreshPage>На страница ќе се превчита</AdminUpdateFinishRefreshPage>
+  <AdminUpdateMainInfo>Овој тип на надградба е делумно автоматизирана. Можете да креирате и да ја преземете датотека резерви со прилагодувањата за конфигурација апликација и да ја вратите по надградба. Ве молиме следете ги овие кратки чекори: Направете бекап датотеката, изврши рачно надградба, враќање на прилагодувањата од бекап датотеката. Оваа постапка, исто така, може да се користи резервната / врати поставките без надградба. Едноставно прескокнете чекор надградба на вратите поставките од бекап датотеката.</AdminUpdateMainInfo>
+  <AdminUpdateAutoButton>Автоматски</AdminUpdateAutoButton>
+  <AdminUpdateAutoInfo>Овој тип на надградба е речиси целосно автоматизирана. Се состои од 2 чекори: бекап на тековните поставувања (треба да го преземете и да зачувате бекап датотеката), инсталација на нова верзија и реставрација на поставките од бекап датотеката. HTTP командант автоматски може да ја симнете најновата верзија и да ја инсталираш или можете да наведете патеката до архивата на zip со нова верзија на нашиот сервер. Сите поставки автоматски се врати од претходно креирана бекап датотеката.</AdminUpdateAutoInfo>
+  <AdminUpdateRestoreWebConfigCheckBox>Враќање на поставките од web.config (на пример, како што SMTP)</AdminUpdateRestoreWebConfigCheckBox>
+  <AdminUpdateBackupAssignedFoldersInRootMessage>Внимание! Постојат некои корисникот папки во директориумот со апликации кои имаат големина од повеќе од {0}. Резерви не ќе бидат направени. Ве молиме да направите резервна копија од овие директориуми, да ги отстраните од директориумот на апликацијата и да се обидете повторно на операција на вашата страна.</AdminUpdateBackupAssignedFoldersInRootMessage>
+  <AdminUpdateNeedRefreshPageForContinue>Внимание! За да продолжите, потребно е да ја страната. Ве молиме притиснете го копчето "{0}". По претовар Ве молиме повторете ја операцијата.</AdminUpdateNeedRefreshPageForContinue>
+  <AdminUpdateRestoreFromBackupEmpty>Или ако не е избрано, ќе се користи од страна на новосоздадените датотека во претходниот чекор</AdminUpdateRestoreFromBackupEmpty>
+  <AdminUpdateInstallZipPathHint>За ажурирање Ве молиме наведете целосната физичка патека до датотеката за инсталација (на серверот) во првото поле или оставете го полето празно за да се користи за онлајн дистрибуција</AdminUpdateInstallZipPathHint>
+  <AdminUpdateInstallZipPathEmpty>Наведете патеката до архива со инсталација</AdminUpdateInstallZipPathEmpty>
+  <AdminUpdateProgress>ажурирање</AdminUpdateProgress>
+  <AdminUpdateAccessDeniedWarning>&lt;b&gt; Внимание! &lt;/b&gt; за ажурирање Поставете го измени (читање и пишување) NTFS дозволите во {0} корисникот во папката со HTTP командант {1} и да го повтори надградба. &lt;br /&gt; По успешното надградба молам врати некогашниот права.</AdminUpdateAccessDeniedWarning>
+  <AdminUpdateAccessDeniedWarningCurentUser>сегашната</AdminUpdateAccessDeniedWarningCurentUser>
+
+  <ServerExceedsMaxSizeForEditAsTextFile>Големината на датотеката надминува максималната големина за да го уреди како текстуална датотека.</ServerExceedsMaxSizeForEditAsTextFile>
+  <ServerDemoMode>Дадената акција е забрането во режим на демо</ServerDemoMode>
+  <ServerHostedMode>Не е дозволено да се промени вредноста на следните поставки во хостирано Пробна верзија: {0}.</ServerHostedMode>
+  <ServerIncorrectImageContentType>Датотеката MIME-тип Не е сликата</ServerIncorrectImageContentType>
+  <ServerPermissionDenied>Оваа операција е одбиена поради намаленото дозволи</ServerPermissionDenied>
+  <ServerRestoreFromTrashNoParentFolder>реставрација успеа бидејќи главниот директориум "{0}" е не е пронајден. Прво направете го и обидете се повторно.</ServerRestoreFromTrashNoParentFolder>
+  <ServerModifyPermissionDenied>Оваа операција е одбиена затоа што немате дозвола да ја менувате на датотеката</ServerModifyPermissionDenied>
+  <ServerPathNotFound>Патеката не е пронајдена.</ServerPathNotFound>
+  <ServerInvalidPath>Пат "{0}" не е валиден</ServerInvalidPath>
+  <ServerInvalidAbsolutePath>Невалиден апсолутна патека "{0}"</ServerInvalidAbsolutePath>
+  <!-- share folder path: \\server\share -->
+  <ServerInvalidShareFolderPath>Невалиден патека се дели папката "{0}"</ServerInvalidShareFolderPath>
+  <ServerInvalidUncPath>Невалиден Завршни елементи со UNC пат "{0}"</ServerInvalidUncPath>
+  <ServerUnableResolveUncPath>Не може да се Завршни елементи со UNC пат "{0}"</ServerUnableResolveUncPath>
+  <ServerInvalidFileName>Името на датотеката / папката не е поставена или содржи неточни ликови {0}</ServerInvalidFileName>
+  <ServerFilePathNotFound>Датотеката не постои</ServerFilePathNotFound>
+  <ServerIncorrectPathForFileLink>Неправилен вид објект. Одредената патека укажува на папка</ServerIncorrectPathForFileLink>
+  <ServerIncorrectPathForFolderLink>Неправилен вид објект. Одредената патека укажува на датотека</ServerIncorrectPathForFolderLink>
+  <ServerRootFolderNotFound>Основната папка за патот "{0}" не е пронајден.</ServerRootFolderNotFound>
+  <ServerUnableCreateFolder>Не можам да ја создадам папката</ServerUnableCreateFolder>
+  <ServerFileAlreadyExists>Датотека со ова име веќе постои</ServerFileAlreadyExists>
+  <ServerFileAlreadyExistsOnRename>
+    Дали сакате да се преименува "{0}" до "{1}"?
+    Веќе постои датотека со исто име во оваа локација.
+  </ServerFileAlreadyExistsOnRename>
+  <ServerFolderAlreadyExistsOnRename>
+    Дали сакате да се преименува "{0}" до "{1}"?
+    Веќе постои папка со исто име во оваа локација.
+  </ServerFolderAlreadyExistsOnRename>
+  <ServerFoldersMergeConfirm>
+    Оваа дестинација веќе содржи папка наречена "{0}".
+    Дали сепак сакате да се логирате оваа папка "{0}" со ова "{1}"?
+  </ServerFoldersMergeConfirm>
+  <ServerFolderWithSameNameAsFileNameAlreadyExists>Веќе постои папка со исто име "{0}" како име на датотека што е наведено</ServerFolderWithSameNameAsFileNameAlreadyExists>
+  <ServerFileWithSameNameAsFolderNameAlreadyExists>Веќе постои датотека со исто име "{0}" како име за папката што сте ја одредиле</ServerFileWithSameNameAsFolderNameAlreadyExists>
+  <ServerFileNotFound>На "{0}" не се пронајдени во папката на датотеката "{1}". Можеби тоа е избришана или отстранета од друг корисник.</ServerFileNotFound>
+  <ServerDirectoryAlreadyExists>А директориум со ова име веќе постои</ServerDirectoryAlreadyExists>
+  <ServerFolderMoveAlreadeExists>на папка "{0}" е иста како и изворишниот</ServerFolderMoveAlreadeExists>
+  <ServerUploadPathNotFound>На патот за чување на датотеки не се наоѓа на серверот</ServerUploadPathNotFound>
+  <ServerUploadPathNotSet>Се случи грешка при добивање на патот за да се постават. Ве молиме, освежување на страница во прелистувачот и обидете се повторно.</ServerUploadPathNotSet>
+  <ServerUploadNoChunk>Нема парче за спаси</ServerUploadNoChunk>
+  <ServerUploadWriteChunk>Напиши парче од бајт</ServerUploadWriteChunk>
+  <ServerUploadCreatingFile>создавање на датотечни</ServerUploadCreatingFile>
+  <ServerUploadFileUploaded>Датотеката беше качен</ServerUploadFileUploaded>
+  <ServerUploadWriteError>грешка при запишувањето</ServerUploadWriteError>
+  <ServerConfigurationError>Неправилна конфигурација или апликација! Контактирајте со администраторот на сајтот</ServerConfigurationError>
+  <ServerPermissionsAllowTypes>Тековни дозволи им овозможи на оваа операција само со типови на датотеки {0}</ServerPermissionsAllowTypes>
+  <ServerPermissionsDenyTypes>Тековни дозволи забрани оваа операција со типови на датотеки {0}</ServerPermissionsDenyTypes>
+  <ServerRequestSizeExceeded>Големината на подигнатите датотеки надминува дозволената големина во подесувањата на серверот</ServerRequestSizeExceeded>
+  <ServerEmailMsgProcessedFilesSubject>Прикачено / изменета / Преземени / Создаден / избришано / споделени датотеки / папки</ServerEmailMsgProcessedFilesSubject>
+  <ServerEmailMsgUploadFilesTitle>качен</ServerEmailMsgUploadFilesTitle>
+  <ServerEmailMsgModifyFilesTitle>изменета</ServerEmailMsgModifyFilesTitle>
+  <ServerEmailMsgDownloadFilesTitle>симнати</ServerEmailMsgDownloadFilesTitle>
+  <ServerEmailMsgCreateFilesTitle>создаде</ServerEmailMsgCreateFilesTitle>
+  <ServerEmailMsgDeleteFilesTitle>избришани</ServerEmailMsgDeleteFilesTitle>
+  <ServerEmailMsgCreatePublicFilesTitle>дели</ServerEmailMsgCreatePublicFilesTitle>
+  <ServerEmailMsgProcessedFilesBody>
+    Следните датотеки / папки беа {0} од {1}:
+
+{2}
+    
+  </ServerEmailMsgProcessedFilesBody>
+  <ServerEmailMsgPasswordRecoverSubject>Обновување на лозинка</ServerEmailMsgPasswordRecoverSubject>
+  <ServerEmailMsgPasswordRecoverBody>
+    Баравте да се опорави вашата лозинка во веб менаџерот на датотеки. Лозинката е ресетирање. Ако мислите дека ова е грешка, едноставно да го игнорираат ова писмо, но се свесни дека вашата лозинка е променета.
+    Корисничко име: {0}
+    Нова лозинка: {1}
+  </ServerEmailMsgPasswordRecoverBody>
+  
+  <ServerEmailMsgUserNameRecoverSubject>обновување корисничко име</ServerEmailMsgUserNameRecoverSubject>
+  <ServerEmailMsgUserNameRecoverBody>
+    Баравте да се опорави вашето име во веб менаџерот на датотеки.
+    Корисничко име: {0}
+  </ServerEmailMsgUserNameRecoverBody>
+
+  <ServerEmailMsgUserActivationSubject>активирање на сметка</ServerEmailMsgUserActivationSubject>
+  <ServerEmailMsgUserActivationBody>
+    ({0}) е потребен профил активација.
+    За да ја активирате вашата сметка, Ве молиме кликнете на следниот линк: {1}
+  </ServerEmailMsgUserActivationBody>
+  <ServerEmailMsgUserRegisteredSubject>регистриран корисник</ServerEmailMsgUserRegisteredSubject>
+  <ServerEmailMsgUserRegisteredBody>
+    Вие успешно се регистрирани во веб менаџерот на датотеки.
+    Корисничко име: {0}
+  </ServerEmailMsgUserRegisteredBody>
+  <ServerEmailMsgUserRegisteredForAdminsBody>
+    &lt;h4&gt; Нов корисник е регистриран &lt;/h4&gt;
+    &lt;strong&gt; Прекар &lt;/strong&gt;: {0} &lt;br /&gt;
+    &lt;strong&gt; E-mail &lt;/strong&gt;: {1} &lt;br /&gt;
+    &lt;strong&gt; Датум &lt;/strong&gt;: {2} &lt;br /&gt;
+    &lt;strong&gt; Дополнителни информации &lt;/strong&gt;: {3} &lt;br /&gt;
+  </ServerEmailMsgUserRegisteredForAdminsBody>
+  <ServerDiskFullError>Нема доволно простор на дискот.</ServerDiskFullError>
+  <ServerFolderLimitations>ограничувања папка: {0}</ServerFolderLimitations>
+  <ServerShortcutAssignedFolderNotFound>Доделени папката не е најдена цел патот на кратенка</ServerShortcutAssignedFolderNotFound>
+  <ServerSizeFilesForZipExceeded>Големината на archivable датотеки пречекорени дозволените вредност {0}.</ServerSizeFilesForZipExceeded>
+  <ServerPasteFolderToSubfolderError>на папка "{0}" е подпапка изворишниот "{1}".</ServerPasteFolderToSubfolderError>
+  <ServerLiveConnectAppIDNotSpecified>ID на клиент на Microsoft Live Поврзете примена не е дефинирана</ServerLiveConnectAppIDNotSpecified>
+  <ServerSendEmailInfo>Автор наведената е-мејл нивните како {0}. Користете ја оваа e-mail адреса за да одговорите.</ServerSendEmailInfo>
+
+  <ServerAntivirusScanningFailed>Скенирање со антивирус: '{0} {1} "Стопирано ненормално.</ServerAntivirusScanningFailed>
+
+  <ServerUserNameNotFound>Корисникот со име '{0}' не е пронајден.</ServerUserNameNotFound>
+  <ServerFileNameCopySuffix>копија</ServerFileNameCopySuffix>
+
+  <ServerDeleteFolderNTFSAccessDenied>Вие не треба да NTFS дозвола да продолжи со датотеката "{0}"</ServerDeleteFolderNTFSAccessDenied>
+
+  <ServerMSOOTemplateNotFound>{0} дефиниција не е пронајден</ServerMSOOTemplateNotFound>
+</Localization>

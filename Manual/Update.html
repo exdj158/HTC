@@ -1,0 +1,340 @@
+﻿<!-- saved from url=(0014)about:internet -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Update notes (Windows version)</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <script type="text/javascript" language="javascript">
+        function toggleBlock(id) {
+            if (document.getElementById(id).style.display == 'none') {
+                document.getElementById(id).style.display = 'block';
+            } else {
+                document.getElementById(id).style.display = 'none';
+            }
+        }
+    </script>
+    
+    <table width="100%" cellpadding="0" cellspacing="0">
+        <tr>
+            <td width="320">
+                <table>
+                    <tr>
+                        <td style="vertical-align:top;text-align:left;">
+                            <a target='_blank' href='http://www.element-it.com/asp-net-explorer-browser/online-share/web-file-manager.aspx'><img style='cursor:pointer;' alt="HTTP Commander" src="Images/HCLogo.png" border="0" /></a>
+                        </td>
+                        <td class="green" style="vertical-align:top;text-align:left;padding-top:21px;">
+                            &nbsp;AJS 4.x
+                        </td>
+                    </tr>
+                </table>
+                <span class="gray">Manual</span>
+            </td>
+             <td>
+  <!-- For windows version only. Start --> 
+	<p>
+	<strong>Note!</strong> This Manual is for the <strong>"Windows authentication"</strong> version, 
+	which is designed to work with existing Windows server or Active Directory accounts and Windows authentication. 
+	If you want to create accounts by yourself and store their credentials in your own HTTP Commander XML database, 
+	you need to download the <a target="_blank" href="http://www.element-it.com/downloadfile.aspx?type=st">"Forms authentication" version</a>!
+	This Manual is for the Windows authentication version only!
+	</p>
+	<!-- For windows version only. End --> 
+	
+ 
+	
+                
+            </td>
+            <td align="char" width="230">
+                <img alt="" src="Images/world.jpg" align="middle" hspace="5" style="vertical-align:top;padding-top:1px;" /><b><a target="_blank" title="web file manager" href="http://www.element-it.com/asp-net-explorer-browser/online-share/web-file-manager.aspx">Web file manager</a></b><br />
+                <img alt="" src="Images/support.png" width="16" height="16" align="middle" hspace="5" style="vertical-align:top;padding-top:1px;" /><b><a
+                    href="onlinesupport.html" target="main">Free Installation assistance</a></b><br />
+                <img alt="" src="Images/help.png" align="middle" width="16" height="16" hspace="5" style="vertical-align:top;padding-top:1px;" /><b><a
+                    href="index.html" title="Manual Home page" target="_blank">Manual Home page</a></b><br />
+            </td>
+        </tr>
+    </table>
+    
+    <!-- Title -->
+    <p class="topic">
+        <a id="hcadsicomtopic">Update notes</a>
+    </p>
+    <p>For general update instructions see
+    <a href="faq.html#updatewithexistingsettings">How can I update my existing installation with latest version without losing config and settings?</a>.
+    This page contains notes about new functions you have to configure, compatibility breaking changes, 
+    security issues and other information you should be aware of in upgrading process. 
+    </p>
+
+    <h3 id="updatefrom40">Update to version 4.5 from 4.0 and below</h3>
+    <strong>Changes in the data storage method</strong>
+    <p>
+        Starting from the version 4.5 we implemented support of SQLite database and most of the data from XML files are moved into DB.
+        Now the list of anonymous links (Links.xml), event log (Log.xml), watching the users,
+        list of recents, favorites are stored in an SQLite database file (Data\data.db).
+        After the upgrades procedure, the first time you run the application data are imported from XML files into the database. This procedure is absolutely automated and you should not do anything unless error occured .<br />
+        In case you can't find your old data after upgrade, please check error details in Error Log at Admin Panel and contact support (do not forget to attach output of diagnostics.aspx page)<br />
+        <strong>Attention!</strong>&nbsp;Before upgrade, make sure that you have made a backup copy of the XML files from Data folder.<br />
+    </p>
+    <strong>Changes in HttpCommanderSettings.config</strong>
+    <p>
+        All settings related to the public links functionality are moved to a new section <strong><a href="webconfigsetup.html#public_links">PublicLinks</a></strong> (from Main and UI sections).<br />
+        <strong>Attention!</strong>&nbsp;Before you upgrade, make sure that you have made a backup copy of the file HttpCommanderSettings.config.<br />
+        In case you can't find your old settings related to Public Links after upgrade, please check error details in <em>Data\debug.log</em> file and send it to support team.
+    </p>
+    <strong>Added Windows Search Service support</strong>
+    <p>
+        Starting from version 4.5, HTTP Commander support the search using the Windows Search Service (parameter <a href="webconfigsetup.html#SearchMethodOfFiles">SearchMethodOfFiles</a>).
+        It allow to perform full-text search in files and significantly increase search speed in compare to the build-into HTTP Commander a search method.
+        In order to activate support of Windows Search you need to install and configure Windows Search Service and to add all shared folders to the list of indexed locations. 
+        See <a href="WindowsSearch.html">Windows Search Help</a> for more details.
+    </p>
+    <strong>Dropped support for OAuth v1 authentication and API v1 for Dropbox</strong>
+    <p>
+        If you have configured integration with <a href="https://www.dropbox.com/" target="_blank">Dropbox</a> (<a href="webconfigsetup.html#EnableDownloadToDropbox">EnableDownloadToDropbox</a>,
+        <a href="webconfigsetup.html#EnableUploadFromDropbox">EnableUploadFromDropbox</a>), and used OAuth v1 authentication, 
+        and the value of the <a href="webconfigsetup.html#DropboxConsumerKey">DropboxConsumerKey</a> setting is set to default (Element-IT key), 
+        then you need to get your own key and specify the value obtained. To do this, refer to the <a href="CloudsStorages.html#dropbox">Integration with Dropbox</a> instructions.
+        <br />
+        <em><strong>Also</strong></em> in <b>Web.config</b> file between <b>&lt;/system.webServer&gt;</b> and <b>&lt;/configuration&gt;</b> tags find
+         <b>Newtonsoft.Json</b> assembly at assemblybinding section of runtime section and if it does not exist, add it <br />
+        <pre>
+&lt;dependentassembly&gt;
+    &lt;assemblyidentity name="Newtonsoft.Json" publickeytoken="30ad4fe6b2a6aeed" culture="neutral" /&gt;
+    &lt;bindingredirect oldversion="0.0.0.0-10.0.0.0" newversion="10.0.0.0" /&gt;
+&lt;dependentassembly&gt;</pre>
+        If exists, replace <b>0.0.0.0-7.0.0.0</b> to <b>0.0.0.0-10.0.0.0</b> and <b>7.0.0.0</b> to <b>10.0.0.0</b><br />
+        <strong>Note! </strong>For update to 4.5.0 version replace to 9.0.0.0 instead 10.0.0.0.
+    </p>
+    <strong>Update from 2.0.5 and below</strong>
+    <p>
+        If you are upgrading from version 2.0.5 (or below) to version 4.5+, in the file HttpCommanderSettings.config 
+        replace <strong>&lt;UploadEmailNotification&gt;</strong> on <strong>&lt;EmailNotification&gt;</strong> and 
+        <strong>&lt;/UploadEmailNotification&gt;</strong> on <strong>&lt;/EmailNotification&gt;</strong>.
+    </p>
+
+    <hr />
+
+    <h3 id="updatefrom320">Update from 3.2 and below</h3>
+
+    <b>Changes in Web.config file</b>
+    <br /><br />
+    In <b>Web.config</b> file between <b>&lt;/system.webServer&gt;</b> and <b>&lt;/configuration&gt;</b> tags following runtime section
+    find <b>Newtonsoft.Json</b> assembly and if not exist add:<br />
+    <pre>
+&lt;dependentassembly&gt;
+    &lt;assemblyidentity name="Newtonsoft.Json" publickeytoken="30ad4fe6b2a6aeed" culture="neutral" /&gt;
+    &lt;bindingredirect oldversion="0.0.0.0-10.0.0.0" newversion="10.0.0.0" /&gt;
+&lt;dependentassembly&gt;</pre>
+    If exists, replace <b>0.0.0.0-7.0.0.0</b> to <b>0.0.0.0-10.0.0.0</b> and <b>7.0.0.0</b> to <b>10.0.0.0</b>
+    <br /><br />
+
+    <hr />
+
+    <h3 id="updatefrom3119">Update from 3.1.19 and below</h3>
+
+    <b>Changes in Web.config file</b>
+    <br /><br />
+    Add to <b>Web.config</b> file between <b>&lt;/system.webServer&gt;</b> and <b>&lt/configuration&gt;</b> tags following runtime section
+    (if this section already exists, please replace it):<br />
+    <pre>
+&lt;runtime&gt;
+    &lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;
+        &lt;dependentAssembly&gt;
+            &lt;assemblyIdentity name="System.Runtime" publicKeyToken="b03f5f7f11d50a3a" culture="neutral"/&gt;
+            &lt;bindingRedirect oldVersion="0.0.0.0-<b>2.6.10.0</b>" newVersion="<b>2.6.10.0</b>"/&gt;
+        &lt;/dependentAssembly&gt;
+        &lt;dependentAssembly&gt;
+            &lt;assemblyIdentity name="System.Threading.Tasks" publicKeyToken="b03f5f7f11d50a3a" culture="neutral"/&gt;
+            &lt;bindingRedirect oldVersion="0.0.0.0-<b>2.6.10.0</b>" newVersion="<b>2.6.10.0</b>"/&gt;
+        &lt;/dependentAssembly&gt;
+        &lt;dependentAssembly&gt;
+            &lt;assemblyIdentity name="System.Net.Http" publicKeyToken="b03f5f7f11d50a3a" culture="neutral"/&gt;
+            &lt;bindingRedirect oldVersion="0.0.0.0-<b>2.2.29.0</b>" newVersion="<b>2.2.29.0</b>"/&gt;
+        &lt;/dependentAssembly&gt;
+        &lt;dependentAssembly&gt;
+            &lt;assemblyIdentity name="System.Net.Http.Primitives" publicKeyToken="b03f5f7f11d50a3a" culture="neutral"/&gt;
+            &lt;bindingRedirect oldVersion="0.0.0.0-<b>2.2.29.0</b>" newVersion="<b>2.2.29.0</b>"/&gt;
+        &lt;/dependentAssembly&gt;
+        &lt;dependentassembly&gt;
+            &lt;assemblyidentity name="Newtonsoft.Json" publickeytoken="30ad4fe6b2a6aeed" culture="neutral" /&gt;
+            &lt;bindingredirect oldversion="0.0.0.0-10.0.0.0" newversion="10.0.0.0" /&gt;
+        &lt;dependentassembly&gt;
+    &lt;/assemblyBinding&gt;
+&lt;/runtime&gt;</pre>
+
+    <hr />
+
+    <h3 id="updatefrom319">Updated from 3.1.9 and below</h3>
+
+    <b>Changes in Web.config file</b>
+    <br /><br />
+    Add to <b>Web.config</b> file between <b>&lt;/system.webServer&gt;</b> and <b>&lt/configuration&gt;</b> tags following runtime section
+    (if this section already exists, please replace it):<br />
+    <pre>
+&lt;runtime&gt;
+    &lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;
+        &lt;dependentAssembly&gt;
+            &lt;assemblyIdentity name="System.Runtime" publicKeyToken="b03f5f7f11d50a3a" culture="neutral"/&gt;
+            &lt;bindingRedirect oldVersion="0.0.0.0-2.6.9.0" newVersion="2.6.9.0"/&gt;
+        &lt;/dependentAssembly&gt;
+        &lt;dependentAssembly&gt;
+            &lt;assemblyIdentity name="System.Threading.Tasks" publicKeyToken="b03f5f7f11d50a3a" culture="neutral"/&gt;
+            &lt;bindingRedirect oldVersion="0.0.0.0-2.6.9.0" newVersion="2.6.9.0"/&gt;
+        &lt;/dependentAssembly&gt;
+        &lt;dependentAssembly&gt;
+            &lt;assemblyIdentity name="System.Net.Http" publicKeyToken="b03f5f7f11d50a3a" culture="neutral"/&gt;
+            &lt;bindingRedirect oldVersion="0.0.0.0-2.2.28.0" newVersion="2.2.28.0"/&gt;
+        &lt;/dependentAssembly&gt;
+        &lt;dependentAssembly&gt;
+            &lt;assemblyIdentity name="Nito.AsyncEx" publicKeyToken="09D695329CA273B7" culture="neutral"/&gt;
+            &lt;bindingRedirect oldVersion="0.0.0.0-<b>2.1.3.0</b>" newVersion="<b>2.1.3.0</b>"/&gt;
+        &lt;/dependentAssembly&gt;
+        &lt;dependentAssembly&gt;
+            &lt;assemblyIdentity name="System.Net.Http.Primitives" publicKeyToken="b03f5f7f11d50a3a" culture="neutral"/&gt;
+            &lt;bindingRedirect oldVersion="0.0.0.0-2.2.28.0" newVersion="2.2.28.0"/&gt;
+        &lt;/dependentAssembly&gt;
+    &lt;/assemblyBinding&gt;
+&lt;/runtime&gt;</pre>
+    
+
+    <br />
+    <hr />
+    <h3>Update from 2.0.11 and below</h3>
+    <p>
+        <strong>Format of public links changed from version 2.0 .</strong><br/>
+        After upgrade from version 2.x to any newer version, existing public links may not work. 
+        <br /> 
+        The easiest way to make them work again is to:
+        <ol>
+            <li>Stop application pool</li>
+            <li>open /Data/Links.xml file in text editor</li>
+            <li>
+                Search for
+                <strong>
+                    &lt;createdfor&gt;GoogleView&lt;/createdfor&gt;
+                </strong>
+                and replace with
+                <strong> &lt;createdfor&gt;Share &lt;/createdfor&gt;</strong>
+            </li>
+            <li>
+                Save Links.xml, start app pool and check list of public links.
+            </li>
+        </ol>
+    </p>
+    <p>
+        <b>Changed the settings to support WebDAV</b>
+        <br /><br />
+        If you are used to access folders via WebDAV necessarily refer to 
+        <a href="WebFolders.html">Web folders mapping</a> to properly configure.<br />
+        If You enabled parameter <a href="webconfigsetup.html#AnonymousEditingOffice">AnonymousEditingOffice</a>, the path to connect WebDAV folder begins with 
+        <i>http://yourdomain/HTCOMNET/hcwebdav/<b>0/</b></i> (suffixed '0').
+    </p>
+
+    <p>
+    <b>Integration with Box</b>
+    <br /><br />
+
+    If you plan to use the integration with <a href="https://app.box.com/" target="_blank">Box</a> 
+    (see parameters <a href="webconfigsetup.html#EnableDownloadToBox">EnableDownloadToBox</a>, 
+    <a href="webconfigsetup.html#EnableUploadFromBox">EnableUploadFromBox</a>),
+    necessarily verify whether the <a href="http://www.microsoft.com/en-us/download/details.aspx?id=3556" target='_blank'>Update KB2468871 to .NET Framework 4</a> 
+    is installed, and if not, install it on the server with HTTP Commander (update details info: <a href="http://support.microsoft.com/kb/2468871" target="_blank">KB2468871</a>).
+    <br />
+    Also, add to <b>Web.config</b> file between <b>&lt;/system.webServer&gt;</b> and <b>&lt/configuration&gt;</b> tags following runtime section:<br />
+    <pre>
+&lt;runtime&gt;
+    &lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;
+        &lt;dependentAssembly&gt;
+            &lt;assemblyIdentity name="System.Runtime" publicKeyToken="b03f5f7f11d50a3a" culture="neutral"/&gt;
+            &lt;bindingRedirect oldVersion="0.0.0.0-2.6.9.0" newVersion="2.6.9.0"/&gt;
+        &lt;/dependentAssembly&gt;
+        &lt;dependentAssembly&gt;
+            &lt;assemblyIdentity name="System.Threading.Tasks" publicKeyToken="b03f5f7f11d50a3a" culture="neutral"/&gt;
+            &lt;bindingRedirect oldVersion="0.0.0.0-2.6.9.0" newVersion="2.6.9.0"/&gt;
+        &lt;/dependentAssembly&gt;
+        &lt;dependentAssembly&gt;
+            &lt;assemblyIdentity name="System.Net.Http" publicKeyToken="b03f5f7f11d50a3a" culture="neutral"/&gt;
+            &lt;bindingRedirect oldVersion="0.0.0.0-2.2.27.0" newVersion="2.2.27.0"/&gt;
+        &lt;/dependentAssembly&gt;
+        &lt;dependentAssembly&gt;
+            &lt;assemblyIdentity name="Nito.AsyncEx" publicKeyToken="09D695329CA273B7" culture="neutral"/&gt;
+            &lt;bindingRedirect oldVersion="0.0.0.0-3.0.0.0" newVersion="3.0.0.0"/&gt;
+        &lt;/dependentAssembly&gt;
+        &lt;dependentAssembly&gt;
+            &lt;assemblyIdentity name="System.Net.Http.Primitives" publicKeyToken="b03f5f7f11d50a3a" culture="neutral"/&gt;
+            &lt;bindingRedirect oldVersion="0.0.0.0-2.2.27.0" newVersion="2.2.27.0"/&gt;
+        &lt;/dependentAssembly&gt;
+    &lt;/assemblyBinding&gt;
+&lt;/runtime&gt;</pre>
+    <!--For more info see article <a href="CloudsStorages.html#box">Integration with Box</a>.
+    <br />-->
+    <b id="svgmimetype">New SVG icons</b>
+    <br />
+    <br />
+    If you used IIS6, see: <a href="win2003.html#svgMimeType">how to add SVG image MIME type</a>.<br />
+    If you used IIS7+, add to <b>Web.config</b> file in <b>&lt;system.webServer&gt;</b> following static content section:<br />
+    <pre>
+&lt;staticContent&gt;
+    &lt;remove fileExtension=".svg" /&gt;
+    &lt;mimeMap fileExtension=".svg" mimeType="image/svg+xml" /&gt;
+&lt;/staticContent&gt;</pre>
+    </p>
+
+    <p>
+    <b>Changed authentication type with Google Drive, Dropbox, OneDrive to OAuth 2.0.</b>
+    <br />
+    <br />
+
+    If you used work with Google Drive 
+    (<a href="webconfigsetup.html#EnableDownloadToGoogle">EnableDownloadToGoogle</a>, <a href="webconfigsetup.html#EnableUploadFromGoogle">EnableUploadFromGoogle</a>),
+    please set value for <a href="webconfigsetup.html#GoogleClientId">GoogleClientId</a> parameter.<br />
+    If you used work with Dropbox 
+    (<a href="webconfigsetup.html#EnableDownloadToDropbox">EnableDownloadToDropbox</a>, <a href="webconfigsetup.html#EnableUploadFromDropbox">EnableUploadFromDropbox</a>),
+    please set value for <a href="webconfigsetup.html#DropboxConsumerKey">DropboxConsumerKey</a> parameter.<br />
+    If you used work with OneDrive 
+    (<a href="webconfigsetup.html#EnableDownloadToSkyDrive">EnableDownloadToSkyDrive</a>,
+     <a href="webconfigsetup.html#EnableUploadFromSkyDrive">EnableUploadFromSkyDrive</a>,
+     <a href="webconfigsetup.html#EnableMsOfficeOnlineEditor">EnableMsOfficeOnlineEditor</a>),
+    please set value for <a href="webconfigsetup.html#LiveConnectAppClientID">LiveConnectAppClientID</a> parameter.
+    <br />
+    <br />
+    For more info see article <a href="CloudsStorages.html">Integration with Clouds Storages</a>.
+    </p>
+    <br />
+    <hr />
+
+    <h3>Update from 2.0.5 and below</h3>
+
+    <p>Dropped support for .Net Framework 3.5. Now application requires .Net Framework 4.0 or 4.5.</p>
+    
+    <p><strong>Email notifications.</strong> In HttpCommanderSettings.config file rename 
+    <b>UploadEmailNotification</b> section to <b>EmailNotification</b>. See <a href="webconfigsetup.html#EmailNotification">Email notifications settings</a>.</p>
+
+    <hr />
+
+    <h3>Update from 2.0.3 and below</h3>
+    
+    <p>New version slightly changes configuration file format breaking compatibility
+    with older versions. Configuration files from earlier versions of application
+    load to new version without problem, but updated files will not work correctly
+    in legacy HTTP Commander.</p>
+    
+    <p>Relax NTFS permissions to Data folder. Earlier versions required a number of accounts 
+    to have modify permissions to files of Data folder. Now only application pool identity requires
+    modify access. See <a href="ntfs.html">NTFS permissions</a> for more details.</p>
+
+    <!-- For windows version only. Start -->
+    <hr />
+    <h3>Update from 2.0.0.2012.11.06 and below</h3>
+
+    <p>Enhanced "Force Logout" function &mdash; force the browser to forget user 
+    credentials of the current user at logout. See <a href="faq.html#clearAuth">How to clear windows authentication on Log out</a>
+    to configure this option. If not configured, web browser will show logon dialog after logout.
+    It is safe to ignore this prompt, however this behavior may be confusing.</p>
+    <!-- For windows version only. End -->
+    <br />
+</body>
+</html>
+

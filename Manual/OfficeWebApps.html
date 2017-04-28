@@ -1,0 +1,160 @@
+﻿<!-- saved from url=(0014)about:internet -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Microsoft Office Web Apps Server integration (Windows version)</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <script type="text/javascript" language="javascript">
+        function toggleBlock(id) {
+            if (document.getElementById(id).style.display == 'none') {
+                document.getElementById(id).style.display = 'block';
+            } else {
+                document.getElementById(id).style.display = 'none';
+            }
+        }
+    </script>
+    
+    <table width="100%" cellpadding="0" cellspacing="0">
+        <tr>
+            <td width="320">
+                <table>
+                    <tr>
+                        <td style="vertical-align:top;text-align:left;">
+                            <a target='_blank' href='http://www.element-it.com/asp-net-explorer-browser/online-share/web-file-manager.aspx'><img style='cursor:pointer;' alt="HTTP Commander" src="Images/HCLogo.png" border="0" /></a>
+                        </td>
+                        <td class="green" style="vertical-align:top;text-align:left;padding-top:21px;">
+                            &nbsp;AJS 4.x
+                        </td>
+                    </tr>
+                </table>
+                <span class="gray">Manual</span>
+            </td>
+            <td>
+  <!-- For windows version only. Start --> 
+	<p>
+	<strong>Note!</strong> This Manual is for the <strong>"Windows authentication"</strong> version, 
+	which is designed to work with existing Windows server or Active Directory accounts and Windows authentication. 
+	If you want to create accounts by yourself and store their credentials in your own HTTP Commander XML database, 
+	you need to download the <a target="_blank" href="http://www.element-it.com/downloadfile.aspx?type=st">"Forms authentication" version</a>!
+	This Manual is for the Windows authentication version only!
+	</p>
+	<!-- For windows version only. End --> 
+	
+ 
+	
+                
+            </td>
+            <td align="char" width="230">
+                <img alt="" src="Images/world.jpg" align="middle" hspace="5" style="vertical-align:top;padding-top:1px;" /><b><a target="_blank" title="web file manager" href="http://www.element-it.com/asp-net-explorer-browser/online-share/web-file-manager.aspx">Web file manager</a></b><br />
+                <img alt="" src="Images/support.png" width="16" height="16" align="middle" hspace="5" style="vertical-align:top;padding-top:1px;" /><b><a
+                    href="onlinesupport.html" target="main">Free Installation assistance</a></b><br />
+                <img alt="" src="Images/help.png" align="middle" width="16" height="16" hspace="5" style="vertical-align:top;padding-top:1px;" /><b><a
+                    href="index.html" title="Manual Home page" target="_blank">Manual Home page</a></b><br />
+            </td>
+        </tr>
+    </table>
+    
+    <!-- Title -->
+    <p class="topic">
+        <a id="hcadsicomtopic">Integration with Microsoft Office Web Apps Server</a>
+    </p>
+    
+    <a href="https://technet.microsoft.com/en-us/library/jj219437.aspx" target="_blank">Microsoft Office Web Apps Server</a> 
+    can be used for viewing Office documents (Word, Excel, PowerPoint) in browser from HTTPCommander without Microsoft Office installed on the computer.
+
+    <br /><br />
+
+    The following options are possible:<br />
+    <ul style="list-style-type:decimal;">
+        <li>
+            <b>To use Microsoft Office Web Apps online viewer without Office Web Apps Server installation in an intranet</b><br />
+            For this purpose it is required that site with HTTPCommander was available from out of on Internet 
+            (hidden  parameter <a href="webconfigsetup.html#DomainName">DomainName</a> can be here too used);
+            anonymous access to AnonymousDownload.ashx is configured (see <a href="AnonymousDownload.html">How to grant the anonymous access to AnonymousDownload.ashx</a>), and 
+            computers of users had Internet access.<br />
+            Further it is necessary:<br />
+            <ul>
+                <li>
+                    to set <a href="webconfigsetup.html#EnableOWADocumentsViewer">EnableOWADocumentsViewer</a> 
+                    parameter value in <b>true</b>;
+                </li>
+                <li>
+                    for <a href="webconfigsetup.html#OWADocumentsViewerUrl">OWADocumentsViewerUrl</a> and
+                    <a href="webconfigsetup.html#OWADocumentsViewerEmbeddedUrl">OWADocumentsViewerEmbeddedUrl</a> set defaults values:<br />
+                    <b>&quot;https://view.officeapps.live.com/op/view.aspx?src=&quot;</b><br />and<br />
+                    <b>&quot;https://view.officeapps.live.com/op/embed.aspx?src= &quot;</b><br />
+                    accordingly.
+                </li>
+            </ul>
+            For more info see <a target="_blank" href="https://support.office.com/en-us/article/View-Office-documents-online-1cc2ea26-0f7b-41f7-8e0e-6461a104544e">View Office documents online</a>.
+        </li>
+        <li>
+            <b>To install and configure Office Web Apps Server in an intranet</b><br />
+            In this case access to Internet from the user computers isn't required. Also it isn't required access from out of on Internet to a site with HTTPCommander.
+            But setup of anonymous access is required to AnonymousDownload.ashx page (see <a href="AnonymousDownload.html">How to grant the anonymous access to AnonymousDownload.ashx</a>).<br />
+            Office Web Apps Server is a new Office server product that delivers browser-based versions of Word, PowerPoint, Excel, and OneNote.
+            Following the <a href="https://technet.microsoft.com/en-us/library/jj219455.aspx" target="_blank">instruction</a>, install and configure Office Web Apps Server 
+            on one of Your suitable servers (it is necessary that server was joined to domain) on local area network:
+            <ul>
+                <li>
+                    <a href="https://technet.microsoft.com/en-us/library/jj219455.aspx#prerequisites" target="_blank">Install prerequisite software for Office Web Apps Server.</a><br />
+                    It is also necessary that on server Microsoft Office wasn't installed.
+                </li>
+                <li>
+                    <a href="http://go.microsoft.com/fwlink/p/?LinkId=256561" target="_blank">Download</a> and install Office Web Apps Server.<br />
+                    <b>Note.</b> To download Office Web Apps Server you must have a license, under a Volume Licensing agreement, for Office Professional Plus 2013, Office Standard 2013, or Office for Mac 2011. The download is located under those Office products on the VLSC portal.
+                    <br />
+                    <a href="http://go.microsoft.com/fwlink/p/?LinkId=263945" target="_blank">Download</a> and install language packs for Office Web Apps Server (if multilanguage support is required).
+                </li>
+                <li>
+                    Follow the <a href="https://technet.microsoft.com/en-us/library/jj219455.aspx#DeploymentTypes" target="_blank">procedures</a> in one of the following three sections, 
+                    based on what kind of Office Web Apps Server farm you want to create.<br />
+                    In the elementary option to create a new Office Web Apps Server farm that 
+                    consists of a single server, as shown in the following example (command needs to be entered into Windows PowerShell):<br />
+                    <b>New-OfficeWebAppsFarm -InternalURL &quot;http://<i>YourServerNameWithInstalledOfficeWebApps</i>&quot; -AllowHttp -OpenFromUncEnabled:$true -OpenFromUrlEnabled:$true</b>
+                </li>
+                <li>
+                    For check of the correct installation, open in the browser the page<br />
+                    <b>http://<i>YourServerNameWithInstalledOfficeWebApps</i>/op/generate.aspx</b><br />
+                    <a target="_blank" href="Images/owaServerGeneratePage.png" onclick="toggleBlock('owaServerGeneratePage'); return false;"
+                        class="imglink">See screenshot</a>
+                    <div id="owaServerGeneratePage" style="display: none;">
+                        <p class="screenshot">
+                            &nbsp;<img src="Images/owaServerGeneratePage.png" style="width:795px;height:658px;" />
+                        </p>
+                    </div>
+                    <br />
+                    If the page didn't open, address to <a href="https://technet.microsoft.com/en-us/library/jj219455.aspx" target="_blank">documentation</a>.
+                </li>
+                <li>
+                    Also check, whether site with HTTP Commander from server where Office Web Apps Server was installed opens.
+                </li>
+            </ul>
+            Further it is necessary:<br />
+            <ul>
+                <li>
+                    to set <a href="webconfigsetup.html#EnableOWADocumentsViewer">EnableOWADocumentsViewer</a> 
+                    parameter value in <b>true</b>;
+                </li>
+                <li>
+                    for <a href="webconfigsetup.html#OWADocumentsViewerUrl">OWADocumentsViewerUrl</a> and
+                    <a href="webconfigsetup.html#OWADocumentsViewerEmbeddedUrl">OWADocumentsViewerEmbeddedUrl</a> set values:<br />
+                    <b>&quot;http://<i>YourServerNameWithInstalledOfficeWebApps</i>/op/view.aspx?src=&quot;</b><br />and<br />
+                    <b>&quot;http://<i>YourServerNameWithInstalledOfficeWebApps</i>/op/embed.aspx?src=&quot;</b><br />
+                    accordingly.
+                </li>
+            </ul>
+            For more info see <a target="_blank" href="https://technet.microsoft.com/en-us/library/jj219455.aspx">Deploy Office Web Apps Server</a>.
+        </li>
+    </ul>
+    <br />
+    After that in the 
+    &#39;View and edit&#39; menu item of file context menu in the HTTP Commander, will be 
+    available menu item &quot;View in Office Web Apps&quot; for documents listed in <a href="webconfigsetup.html#OWADocumentsViewerFileTypes">OWADocumentsViewerFileTypes</a>.
+    The list of supported extensions of files you can find (and change) in <a href="webconfigsetup.html#OWADocumentsViewerFileTypes">OWADocumentsViewerFileTypes</a> parameter.
+    <br />
+</body>
+</html>

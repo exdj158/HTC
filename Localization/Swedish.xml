@@ -1,0 +1,1608 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Localization>
+  <!-- Common keys -->
+  
+  <ExtMsgButtonTextYES>Ja</ExtMsgButtonTextYES>
+  <ExtMsgButtonTextNO>Nej</ExtMsgButtonTextNO>
+  
+  <ControlHideFileManager>Hide webbfiler manager</ControlHideFileManager>
+  
+  <CommonMainTitle>Webbfiler tillgång</CommonMainTitle>
+  <CommonApplicationLoading>Lastning av webbfiler tillgång</CommonApplicationLoading>
+  <CommonLoadError>Ett fel inträffade under få träd uppgifter</CommonLoadError>
+  <CommonGridAccessDenied>Mappen "{0}" finns inte eller läsåtkomst nekas</CommonGridAccessDenied>
+  <CommonNoScript>Denna sida kräver att JavaScript är aktiverat i din webbläsare! Vänligen aktivera den och logga in igen!</CommonNoScript>
+  <CommonErrorCaption>Fel</CommonErrorCaption>
+  <CommonWarningCaption>Varning</CommonWarningCaption>
+  <CommonInfoCaption>Information</CommonInfoCaption>
+  <CommonConfirmCaption>Bekräfta</CommonConfirmCaption>
+  <CommonFileNameCaption>Filnamn</CommonFileNameCaption>
+  <CommonFileNamePrompt>Ange ett nytt filnamn</CommonFileNamePrompt>
+  <CommonFileNewNameValue>Ny Text Document.txt</CommonFileNewNameValue>
+  <CommonFolderNewNameValue>Ny mapp</CommonFolderNewNameValue>
+  <CommonZipFileNameCaption>Zip-arkiv namn</CommonZipFileNameCaption>
+  <CommonZipFileNamePrompt>Filnamn (förlängning läggs till automatiskt)</CommonZipFileNamePrompt>
+  <CommonFolderNameCaption>Mapp namn</CommonFolderNameCaption>
+  <CommonFolderNamePrompt>Ange ett nytt mappnamn</CommonFolderNamePrompt>
+  <CommonDeleteOnePrompt>Är du säker på att du vill radera "{0}"?</CommonDeleteOnePrompt>
+  <CommonDeleteManyPrompt>Är du säker på att du vill ta bort dessa {0} objekt?</CommonDeleteManyPrompt>
+  <CommonForToday>För idag</CommonForToday>
+  <CommonButtonCaptionOK>ok</CommonButtonCaptionOK>
+  <CommonButtonCaptionCancel>Annullera</CommonButtonCaptionCancel>
+  <CommonButtonCaptionClose>Stänga</CommonButtonCaptionClose>
+  <CommonButtonCaptionAdd>Lägg till</CommonButtonCaptionAdd>
+  <CommonButtonCaptionContinue>Fortsätta</CommonButtonCaptionContinue>
+
+  <CommonProgressPleaseWait>Vänta</CommonProgressPleaseWait>
+  
+  <CommonFieldLabelName>namn</CommonFieldLabelName>
+  <CommonFieldLabelPath>Väg</CommonFieldLabelPath>
+  <CommonFieldLabelSize>Storlek</CommonFieldLabelSize>
+  <CommonFieldLabelLabels>Etiketter</CommonFieldLabelLabels>
+  <CommonFieldLabelType>Typ</CommonFieldLabelType>
+  <CommonFieldLabelAction>Handling</CommonFieldLabelAction>
+  <CommonFieldLabelDate>Datum</CommonFieldLabelDate>
+  <CommonFieldLabelDateTime>Datum Tid</CommonFieldLabelDateTime>
+  <CommonFieldLabelDateCreated>Skapat datum</CommonFieldLabelDateCreated>
+  <CommonFieldLabelDateModified>Datum ändrat</CommonFieldLabelDateModified>
+  <CommonFieldLabelDateAccessed>Åtkomstdatum datum~~POS=HEADCOMP</CommonFieldLabelDateAccessed>
+  <CommonFieldLabelValue>Värde</CommonFieldLabelValue>
+  <CommonFieldLabelUserName>Användarnamn</CommonFieldLabelUserName>
+  <CommonFieldLabelUser>Användare</CommonFieldLabelUser>
+  <CommonFieldLabelUsers>användare</CommonFieldLabelUsers>
+  <CommonFieldLabelGroupName>Grupp namn</CommonFieldLabelGroupName>
+  <CommonFieldLabelGroup>Grupp</CommonFieldLabelGroup>
+  <CommonFieldLabelGroups>grupper</CommonFieldLabelGroups>
+  <CommonFieldLabelPassword>Lösenord</CommonFieldLabelPassword>
+  <CommonFieldLabelRepeatPassword>repetera lösenord</CommonFieldLabelRepeatPassword>
+  <CommonFieldLabelComments>kommentarer</CommonFieldLabelComments>
+  <CommonValueTypeFolder>Mapp</CommonValueTypeFolder>
+
+  <CommonFieldLabelDescription>Beskrivning</CommonFieldLabelDescription>
+  <EmptyDescriptionText>Ange beskrivning</EmptyDescriptionText>
+  <CommonFieldLabelReadMeTxt>readme.txt innehåll</CommonFieldLabelReadMeTxt>
+  
+  <CommonWordOr>eller</CommonWordOr>
+
+  <SortAscText>Sortera stigande</SortAscText>
+  <SortDescText>Sortera fallande</SortDescText>
+
+  <CommonNewDocument>nytt dokument</CommonNewDocument>
+  <CommonNewSpreadsheet>nya kalkylblad</CommonNewSpreadsheet>
+  <CommonNewPresentation>ny presentation</CommonNewPresentation>
+
+  <CommonWordWrap>radbrytning</CommonWordWrap>
+  
+  <!-- End Common keys -->
+
+  <!-- Labels -->
+
+  <LabelsTitle>Märka</LabelsTitle>
+  <LabelsNoLabel>Ingen etikett</LabelsNoLabel>
+  <LabelsColor>Färg</LabelsColor>
+  <LabelsCustomLabel>anpassad etikett</LabelsCustomLabel>
+  <LabelsCustomLabelHint>Ange etikettens text</LabelsCustomLabelHint>
+  <LabelsCustomLabelView>Etikett &amp;nbsp; view: &amp;nbsp; {0} {1} {2}</LabelsCustomLabelView>
+  <LabelsFileLabelledMessage>Framgångsrikt märkta {0} produkt (er)</LabelsFileLabelledMessage>
+  <LabelsRemovedMessage>Tagits bort {0} etikett (er)</LabelsRemovedMessage>
+  <LabelsNotRemovedMessages>inte bort: {0}</LabelsNotRemovedMessages>
+  <LabelsNotLabelledMessage>inte märkt: {0}</LabelsNotLabelledMessage>
+  <LabelsLabelRemovedMessage>Märk tagits bort</LabelsLabelRemovedMessage>
+  <LabelsNewLabel>ny etikett</LabelsNewLabel>
+  <LabelsLabellingMessage>Märkning</LabelsLabellingMessage>
+  <LabelsRemovingLabelMessage>avlägsnande etiketter</LabelsRemovingLabelMessage>
+  <LabelsLabelInfoTip>Markeras som "{0} {1} av användaren {2}"</LabelsLabelInfoTip>
+
+  <!-- End Labels -->
+
+  <!-- Comments -->
+
+  <CommentsCountInfoTip>{0} kommentar (er)</CommentsCountInfoTip>
+  <CommentsWriteCommentHint>Skriv en kommentar och tryck på "{0}" eller Ctrl+Enter eller Skift+Enter ...</CommentsWriteCommentHint>
+
+  <!-- End Comments -->
+
+  <RefreshPageWarningMessage>&lt;b&gt; OBS! &lt;/b&gt; För att avsluta denna operation, den aktuella sidan i webbläsaren måste uppdateras. &lt;br /&gt; Vill du uppdatera nu?</RefreshPageWarningMessage>
+
+  <PagingToolbarBeforePageText>Sida</PagingToolbarBeforePageText>
+  <PagingToolbarAfterPageText>av {0}</PagingToolbarAfterPageText>
+  <PagingToolbarFirstText>Första sidan</PagingToolbarFirstText>
+  <PagingToolbarPrevText>Föregående sida</PagingToolbarPrevText>
+  <PagingToolbarNextText>Nästa sida</PagingToolbarNextText>
+  <PagingToolbarLastText>Sista sidan</PagingToolbarLastText>
+  <PagingToolbarDisplayMsg>Visar {0} - {1} av {2}</PagingToolbarDisplayMsg>
+  <PagingToolbarEmptyMsg>Ingen data att visa</PagingToolbarEmptyMsg>
+  
+  <GridTotalLabel>Total:</GridTotalLabel>
+  <GridTotalFilesLabel>filer</GridTotalFilesLabel>
+  <GridTotalFoldersLabel>mappar</GridTotalFoldersLabel>
+  
+  <GridDDSelectedRowsText>{0} valda raden {1}</GridDDSelectedRowsText>
+  <GridDDSelectedFilesText>{0} valda filer</GridDDSelectedFilesText>
+  <GridDDSelectedFoldersText>{0} valda mappar</GridDDSelectedFoldersText>
+  <GridDDConfirmCopyMoveTitle>Drop till mapp "{0}"</GridDDConfirmCopyMoveTitle>
+  <GridDDConfirmAddToZipTitle>Lägg till zip "{0}"</GridDDConfirmAddToZipTitle>
+  <GridDDConfirmAddToZipMessage>Släpade filer kommer att läggas till denna ZIP-arkiv. Vill du fortsätta? {0}.</GridDDConfirmAddToZipMessage>
+  <GridDDConfirmCopyMoveMsg>Välj en åtgärd som du vill använda. Källa: "{0}", mapp Destination: "{1}" {2} {3}..</GridDDConfirmCopyMoveMsg>
+  <GridDDConfirmCopyMoveToZipMsg>Filer kommer att läggas till zip-arkiv. Välj en åtgärd som du vill använda för de släpade filer efter att ha lagt filerna till zip-arkiv. Källa: "{0}", Destination zip-arkiv "{1}" {2} {3}..</GridDDConfirmCopyMoveToZipMsg>
+  <GridDDDraggedFileNames>&lt;b&gt; släpas filer: &lt;/b&gt; {0}</GridDDDraggedFileNames>
+  <GridDDDraggedFolderNames>&lt;b&gt; släpas mappar: &lt;/b&gt; {0}</GridDDDraggedFolderNames>
+  <GridDDConfirmTargetFolderOnlyCopyMsg>Aktuella behörigheterna för källmappen kan du bara kopiera släpade filer. Vill du fortsätta? {0}.</GridDDConfirmTargetFolderOnlyCopyMsg>
+  <GridDDConfirmTargetFolderOnlyMoveMsg>Aktuella behörigheterna för källmappen kan du bara flytta släpade filer. Vill du fortsätta? {0}.</GridDDConfirmTargetFolderOnlyMoveMsg>
+
+  <GridRowPublicHint>Klicka för att öppna en offentlig länk i ett nytt fönster / tab</GridRowPublicHint>
+  <GridRowAlertHint>Klicka för att se ändringar som gjorts för denna fil / mapp</GridRowAlertHint>
+  <GridRowRecentHint>Leta denna fil / mapp</GridRowRecentHint>
+  <GridRowAlertEventHint>Klicka för att gå den här platsen</GridRowAlertEventHint>
+
+  <ProgressCreating>Skapande</ProgressCreating>
+  <ProgressDeleting>ta bort</ProgressDeleting>
+  <ProgressLoading>Läser in</ProgressLoading>
+  <ProgressSearching>Sökande</ProgressSearching>
+  <ProgressZipping>komprimera</ProgressZipping>
+  <ProgressUnzipping>Uppackning</ProgressUnzipping>
+  <ProgressZipContents>Att få innehållet i ZIP-arkiv</ProgressZipContents>
+  <ProgressPrepareDownload>Förberedelser för nedladdning</ProgressPrepareDownload>
+  <ProgressMoving>Framsteg</ProgressMoving>
+  <ProgressCopying>kopiering</ProgressCopying>
+  <ProgressRenaming>byta namn</ProgressRenaming>
+  <ProgressUpdating>uppdatering</ProgressUpdating>
+  <ProgressLoadingEditInPixlr>Loading Pixlr redaktör</ProgressLoadingEditInPixlr>
+  <ProgressLoadingEdit>lastning redaktör</ProgressLoadingEdit>
+  <ProgressSavingEdit>spara filen</ProgressSavingEdit>
+  <ProgressSaving>Sparande</ProgressSaving>
+  <ProgressExecuting>exekvera</ProgressExecuting>
+
+  <BalloonFilesDeleted>{0} fil (er) tas bort</BalloonFilesDeleted>
+  <BalloonFoldersDeleted>{0} mapp (s) utgår</BalloonFoldersDeleted>
+  <BalloonFilesFailed>{0} fil (er) misslyckades</BalloonFilesFailed>
+  <BalloonFoldersFailed>{0} mapp (ar) misslyckades</BalloonFoldersFailed>
+  <BalloonFilesZipped>{0} fil (er) komprimerad</BalloonFilesZipped>
+  <BalloonFoldersZipped>{0} mapp (s) komprimeras</BalloonFoldersZipped>
+  <BalloonFilesCopied>{0} fil (er) kopieras</BalloonFilesCopied>
+  <BalloonFoldersCopied>{0} mapp (s) kopieras</BalloonFoldersCopied>
+  <BalloonFilesMoved>{0} fil (er) flyttas</BalloonFilesMoved>
+  <BalloonFoldersMoved>{0} mapp (s) flyttas</BalloonFoldersMoved>
+  <BalloonNotUnzipped>{0} fil (er) inte har packats</BalloonNotUnzipped>
+  <BalloonFilesUploaded>{0} fil (er) uppladdade</BalloonFilesUploaded>
+  <BalloonFilesNotUploaded>{0} fil (er) inte laddat</BalloonFilesNotUploaded>
+  <BalloonSomeFilesNotUploaded>Vissa filer kan inte laddas upp</BalloonSomeFilesNotUploaded>
+  <BalloonCreatedSuccessfully>skapats</BalloonCreatedSuccessfully>
+  <BalloonUnzippedSuccessfully>packas upp framgångsrikt</BalloonUnzippedSuccessfully>
+  <BalloonRenamedSuccessfully>omdöpt framgångsrikt</BalloonRenamedSuccessfully>
+  <BalloonSavedSuccessfully>sparad</BalloonSavedSuccessfully>
+  <BalloonCopiedToClipboard>Kopieras till urklipp</BalloonCopiedToClipboard>
+  <BalloonCopyToClipboardFailed>Kopiera till Urklipp misslyckades</BalloonCopyToClipboardFailed>
+
+  <CommandCopyToClipboard>Kopiera till urklipp</CommandCopyToClipboard>
+  <CommandCopyLinkToClipboard>Kopiera till Windows urklipp</CommandCopyLinkToClipboard>
+  <ClipboardScreenshotTitlePrefix>Bild</ClipboardScreenshotTitlePrefix>
+  <ClipboardScreenshotHint>Bilder: Du kan klistra in en skärmdump från Urklipp (Tryck på &lt;b&gt; Ctrl+PrtSc &lt;/b&gt; och sedan &lt;b&gt; Ctrl+V &lt;/b&gt;) eller en bild från din editor (Tryck på &lt;b&gt; Ctrl+V &lt;/b&gt;).</ClipboardScreenshotHint>
+  <ClipboardFileHint>Du kan också klistra in en fil från urklipp</ClipboardFileHint>
+
+  <CommandClouds>moln förråd</CommandClouds>
+  <CommandCloudsDownloadTo>ladda ner till ...</CommandCloudsDownloadTo>
+  <CommandCloudsUploadFrom>ladda upp från ...</CommandCloudsUploadFrom>
+  <CommandCloudsAbout>Om Cloud förråd</CommandCloudsAbout>
+  
+  <CommandBack>Tillbaka</CommandBack>
+  <CommandForward>Fram</CommandForward>
+  <CommandRecentFolders>senaste mappar</CommandRecentFolders>
+  <CommandHome>Hem</CommandHome>
+  <CommonActions>Handlingar</CommonActions>
+  <CommandMultiSelect>Multi-select</CommandMultiSelect>
+  <CommandShare>Dela med sig</CommandShare>
+  <CommandSorting>Sortering</CommandSorting>
+  
+  <CommandFileManager>Återgå till filhanteraren</CommandFileManager>
+  <CommandFolders>mappar</CommandFolders>
+  <CommandGridView>Se</CommandGridView>
+  <CommandRefresh>refresh</CommandRefresh>
+  <CommandThumbnailView>miniatyrvy</CommandThumbnailView>
+  <CommandDetailedView>Listvy</CommandDetailedView>
+  <CommandDetailsPane>informationsfönstret</CommandDetailsPane>
+  <CommandFavorites>favoriter</CommandFavorites>
+  <CommandAddToFavorites>Lägg till i favoriter</CommandAddToFavorites>
+  <CommandAddToFavoritesHint>Lägg den aktuella mappen till favoriter</CommandAddToFavoritesHint>
+  <AddingToFavoritesMessage>Lägga till favoriter</AddingToFavoritesMessage>
+  <RemoveFromFavoritesMessage>Radera från favoriter</RemoveFromFavoritesMessage>
+  <FolderAlreadyAddedInFavorites>Mappen "{0}" finns redan i favoriter</FolderAlreadyAddedInFavorites>
+  <FolderAddedInFavoritesSuccessfully>Mappen "{0}" har lagts till favoriter</FolderAddedInFavoritesSuccessfully>
+  <FavoritesIsOverflowed>Det var inte möjligt att lägga till den aktuella mappen "{0}" till favoriter. Ta bort några favoriter att frigöra utrymme och försök igen.</FavoritesIsOverflowed>
+  <RemoveFromFavoritesHint>Ta bort "{0}" från favoriter</RemoveFromFavoritesHint>
+  <AddToHomeScreenIOSHint>Tryck på {0} och sedan &lt;strong&gt; "Lägg till på hemskärmen" &lt;/strong&gt;</AddToHomeScreenIOSHint>
+  <CommandSearch>Sök</CommandSearch>
+  <CommandUpload>Ladda upp</CommandUpload>
+  <CommandSettings>inställningar</CommandSettings>
+  <CommandLanguage>Språk</CommandLanguage>
+  <CommandAdministration>Administrering</CommandAdministration>
+  <CommandAdminPanel>admin panel</CommandAdminPanel>
+  <CommandChangePassword>ändra lösenord</CommandChangePassword>
+  <ProgressChangePassword>byte av lösenord</ProgressChangePassword>
+  <CommandChangeEmail>byta e-mail</CommandChangeEmail>
+  <ProgressChangeEmail>Ändra e-post</ProgressChangeEmail>
+  <CommandMobileView>Mobila gränssnitt (Smartphones)</CommandMobileView>
+  <CommandStandardView>Full version</CommandStandardView>
+  <CommandInstallIOSApp>Installera IOS app</CommandInstallIOSApp>
+  <CommandInstallAndroidApp>Installera Android-app</CommandInstallAndroidApp>
+  <CommandAddServerToMobileApp>Lägg denna server till mobilapp</CommandAddServerToMobileApp>
+  <CommandAddToHomeScreen>Lägg till på hemskärmen</CommandAddToHomeScreen>
+  <CommandDiagnostics>diagnostisk sida</CommandDiagnostics>
+  <CommandLicenseInfo>licens~~POS=TRUNC</CommandLicenseInfo>
+  <CommandLogout>Logga ut</CommandLogout>
+  <CommandLogoutHint>Klicka för att avsluta den aktuella sessionen</CommandLogoutHint>
+  <CommandNew>Ny</CommandNew>
+  <CommandFile>Fil</CommandFile>
+  <CommandEmptyFile>tom fil</CommandEmptyFile>
+  <CommandNewMSOODocument>Dokument med MS Office Online</CommandNewMSOODocument>
+  <CommandNewOffice365Document>Dokument med Office 365</CommandNewOffice365Document>
+  <CommandNewMSOOWord>Word-dokument</CommandNewMSOOWord>
+  <CommandNewMSOOExcel>Excel kalkylark</CommandNewMSOOExcel>
+  <CommandNewMSOOPowerPoint>Powerpoint presentation</CommandNewMSOOPowerPoint>
+  <CommandNewGoogleDocument>Dokument med Google</CommandNewGoogleDocument>
+  <CommandNewGoogleDocs>Google Dokument</CommandNewGoogleDocs>
+  <CommandNewGoogleSheets>Google Kalkylark</CommandNewGoogleSheets>
+  <CommandNewGoogleSlides>google Slides</CommandNewGoogleSlides>
+  <CommandNewImage>Bild i Pixlr</CommandNewImage>
+  <CommandFolder>Mapp</CommandFolder>
+  <CommandNewFile>Ny tom fil</CommandNewFile>
+  <CommandNewFolder>Ny mapp</CommandNewFolder>
+  <CommandNewWithTemplate>Med användning av mall ...</CommandNewWithTemplate>
+  <CommandRename>Döpa om</CommandRename>
+  <CommandDelete>Radera</CommandDelete>
+  <CommandCopy>Kopiera</CommandCopy>
+  <CommandMove>Flytta</CommandMove>
+  <CommandCut>Skära</CommandCut>
+  <CommandCopyTo>Kopia till...</CommandCopyTo>
+  <CommandMoveTo>Flytta till...</CommandMoveTo>
+  <CommandCopyCutClipboardSuffix>till Windows urklipp</CommandCopyCutClipboardSuffix>
+  <CommandPaste>Klistra</CommandPaste>
+  <CommandPasteInto>klistra in i</CommandPasteInto>
+  <CommandZip>Komprimera till en zip-arkiv</CommandZip>
+  <CommandZipMenu>Zip / Packa</CommandZipMenu>
+  <CommandUnzip>packa Zip</CommandUnzip>
+  <CommandUnzipSelected>packa upp valda</CommandUnzipSelected>
+  <CommandUnzipAll>packa upp alla</CommandUnzipAll>
+  <CommandUnzipTo>till mappen</CommandUnzipTo>
+  <CommandUnzipToCurrent>till den aktuella mappen</CommandUnzipToCurrent>
+  <MessageUnzipToFolder>Skriv namnet på en mapp för att packa upp detta till</MessageUnzipToFolder>
+  <MessageUnzipPasswordHint>Om du vet att ett lösenord krävs för uppackning, ange det i fältet nedan</MessageUnzipPasswordHint>
+  <MessageUnzipNeedPassword>Ett lösenord krävs för att packa upp filerna</MessageUnzipNeedPassword>
+  <ZipPasswordProtectHint>Att lösenordsskydda zip-arkiv, ange lösenordet i fältet nedan. Annars, lämna fältet tomt</ZipPasswordProtectHint>
+  <AppendToZipPasswordProtectHint>Att lösenordsskydda filer läggs till zip-arkiv, ange lösenordet i fältet nedan. Annars, lämna fältet tomt</AppendToZipPasswordProtectHint>
+  <ZipPasswordProtectWindowTitle>Arkivering med lösenord</ZipPasswordProtectWindowTitle>
+  <OpenFolderAfterUnzipCheckBox>Öppna mappen efter uppackning</OpenFolderAfterUnzipCheckBox>
+  <CommandUnzipToNew>till en ny mapp</CommandUnzipToNew>
+  <CommandZipContents>zip innehåll</CommandZipContents>
+  <ArchiveContentsTitle>Arkiv innehåll "{0}"</ArchiveContentsTitle>
+  <CommandDownload>Ladda ner</CommandDownload>
+  <CommonDownloadAll>Ladda ner allt</CommonDownloadAll>
+  <DownloadListDragFile>Du kan dra-n-drop filer till skrivbordet</DownloadListDragFile>
+  <CommandZipDownload>Komprimera och ladda ner</CommandZipDownload>
+  <CommandView>Visa i webbläsaren</CommandView>
+  <CommandDownloadOrView>Ladda hem eller visa</CommandDownloadOrView>
+  <CommandPreview>bilder förhandsvisning</CommandPreview>
+  <CommandFlashPreview>flash förhandsvisning</CommandFlashPreview>
+  <GettingSizeFlashMovie>Att få storleken på flashfilm</GettingSizeFlashMovie>
+  <CommandEdit>Redigera som textfil</CommandEdit>
+  <CommandEditView>Visa som textfil</CommandEditView>
+  <AceNotLoadedMessage>Det går inte att läsa in Ace redaktör</AceNotLoadedMessage>
+  <VideoJsNotLoadedMessage>Det går inte att läsa in VideoJS spelare</VideoJsNotLoadedMessage>
+  <CommandMenuEdit>Redigera</CommandMenuEdit>
+  <CommandSelectAll>Välj alla</CommandSelectAll>
+  <CommandInvertSelection>Invertera val</CommandInvertSelection>
+  <CommandLinkToFile>Länk till fil / mapp</CommandLinkToFile>
+  <!--Share link-->
+  <CommandMakePublicFolder>Skapa allmän länk</CommandMakePublicFolder>
+  <PublicViewInGoogle>Visa i Google</PublicViewInGoogle>
+  <PublicViewinOWA>Visa i OWA</PublicViewinOWA>
+  <!--Make public folder (share)-->
+  <CommandViewWithGoogleDoc>Visa i Google Dokument</CommandViewWithGoogleDoc>
+  <CommandViewWithShareCad>Visa i ShareCad.org</CommandViewWithShareCad>
+  <CommandViewWithAutodesk>Visa i Autodesk</CommandViewWithAutodesk>
+  <CommandViewWithBox>Visa i Box</CommandViewWithBox>
+  <CommandViewWithOWA>Visa i Office Web Apps</CommandViewWithOWA>
+  <CommandCloudConvert>Konvertera med CloudConvert</CommandCloudConvert>
+  <ProgressGetCloudConvertOutputFormats>Att få utdataformat</ProgressGetCloudConvertOutputFormats>
+  <ProgressCloudConvertConverting>konvertering</ProgressCloudConvertConverting>
+  <CloudConvertWindowTitle>Konvertera {0} "</CloudConvertWindowTitle>
+  <CloudConvertWindowConvertButton>Konvertera</CloudConvertWindowConvertButton>
+  <CloudConvertWindowOutputFormatsLabel>Utmatningsformat</CloudConvertWindowOutputFormatsLabel>
+  <CloudConvertDownloadLinkLabel>Länk för nedladdning</CloudConvertDownloadLinkLabel>
+  <CloudConvertSaveAsLabel>Spara som (förlängning läggs till automatiskt):</CloudConvertSaveAsLabel>
+  <CloudConvertNoOutputFormats>Det finns inga tillgängliga format för konvertering</CloudConvertNoOutputFormats>
+  <CloudConvertNoUrlForDownload>Det var inte lyckats få länken för att ladda ner</CloudConvertNoUrlForDownload>
+  <ProgressCloudConvertUploading>Ladda upp från CloudConvert</ProgressCloudConvertUploading>
+  <CloudConvertSaveAsNameBlank>Typ namn här</CloudConvertSaveAsNameBlank>
+  <CancelEditButton>Avbryt redigera</CancelEditButton>
+  <HideButton>Dölj</HideButton>
+  <EditDocumentCancelHint>När du stänger fönstret med redigerade dokumentet, kommer det att sparades automatiskt. &lt;br /&gt; Du kan dölja den här dialogrutan genom att trycka på {0} (i det här fallet, kommer dokumentet fortfarande räddas efter stängning redaktören). &lt;br /&gt; Om du inte vill spara dokumentet, tryck på {1} (i det här fallet, redigeringsfönstret stängs).</EditDocumentCancelHint>
+  <EditDocumentSaveHint>Nu kan du spara ändringarna i dokumentet genom att trycka på {0}. Uppmärksamhet! När du stänger redigeringsfönstret, kommer det att vara även sparades automatiskt.</EditDocumentSaveHint>
+  <CommandEditInMSOffice>Redigera i MS Office</CommandEditInMSOffice>
+  <CommandEditInOOo>Redigera i Openoffice / Libreoffice</CommandEditInOOo>
+  <CommandViewInMSOffice>Visa i MS Office</CommandViewInMSOffice>
+  <CommandViewInOOo>Visa i Openoffice / Libreoffice</CommandViewInOOo>
+  <CommandEditInPixlr>Redigera i Pixlr</CommandEditInPixlr>
+  <CommandEditInAdobe>Redigera i Adobe Creative Cloud</CommandEditInAdobe>
+  <AdobeImageEditorSavedAsNewTypeMessage>Bilden ändras i Adobe Image Editor har sparats i formatet {0}</AdobeImageEditorSavedAsNewTypeMessage>
+  <CommandEditInGoogle>Redigera i Google Drive</CommandEditInGoogle>
+  <EditInGoogleConvertMessage>Efter redigera dokumentet ska konverteras till formatet {1} {0} {2}</EditInGoogleConvertMessage>
+  <EditInGoogleLinkError>Det går inte att få länken för att redigera dokument i Google Drive</EditInGoogleLinkError>
+  <EditInGoogleWaiting>Väntar på redigering avslutad i Google Drive</EditInGoogleWaiting>
+  <CommandEditInMSOO>Redigera i MS Office Online</CommandEditInMSOO>
+  <EditInMSOOLinkError>Det går inte att få länken för att redigera dokument i MS Office Online</EditInMSOOLinkError>
+  <EditInMSOOWaiting>Väntar på redigering avslutad i MS Office Online</EditInMSOOWaiting>
+  <CommandEditInOffice365>Redigera i Office 365</CommandEditInOffice365>
+  <EditInOffice365LinkError>Det går inte att få länken för att redigera dokument i Office 365</EditInOffice365LinkError>
+  <EditInOffice365Waiting>Väntar för redigering avslutad i Office 365</EditInOffice365Waiting>
+  <CommandSave>Spara</CommandSave>
+  <CommandSaveAs>Spara som...</CommandSaveAs>
+  <CommandAppRestart>omstart ansökan</CommandAppRestart>
+  <CommandPlayVideoFlash>Spela upp video i Flash Player</CommandPlayVideoFlash>
+  <CommandPlayVideoHtml5>Spela filmen</CommandPlayVideoHtml5>
+  <CommandPlayAudioHtml5>Spela upp ljud</CommandPlayAudioHtml5>
+  <CommandPlayVideo>Spela filmen</CommandPlayVideo>
+  <CommandPlayAudio>Spela upp ljud</CommandPlayAudio>
+  <CommandConvertVideo>konvertera video</CommandConvertVideo>
+
+  <ViewInServiceLink>Klicka här för att se filen</ViewInServiceLink>
+  <EditInServiceLink>Klicka här för att redigera dokumentet</EditInServiceLink>
+
+  <OfficeEditCopyLinkLabel>Kopiera länken nedan och öppna den i Office-program:</OfficeEditCopyLinkLabel>
+  <OfficeRunError>Det var inte möjligt att starta {0}</OfficeRunError>
+  <BadPathToFile>Det var inte möjligt att hitta sökvägen till filen</BadPathToFile>
+  <FixBasicAuthAlertTitle>Uppmärksamhet!</FixBasicAuthAlertTitle>
+  <FixBasicAuthAlertMessage>Microsoft Office arbetar med grundläggande autentisering utan SSL! Du kan fixa detta för Office. För mer info se {0}.</FixBasicAuthAlertMessage>
+  <FixBasicAuthAlertCheckBoxText>Inte att visa denna dialog längre.</FixBasicAuthAlertCheckBoxText>
+  <CommandDetails>detaljer</CommandDetails>
+  <CommonButtonCaptionAddDetail>Lägg till information</CommonButtonCaptionAddDetail>
+  <CommonButtonCaptionAddComment>Lägg till kommentar</CommonButtonCaptionAddComment>
+  <DetailsWindowTitle>Detaljer "{0}"</DetailsWindowTitle>
+  <FileDetailsSave>Applicera förändringar</FileDetailsSave>
+  <FileDetailsIgnoreChanges>Ignorera</FileDetailsIgnoreChanges>
+  <FileDetailsCloseConfirmTitle>Den filinformation fönstret stängs</FileDetailsCloseConfirmTitle>
+  <FileDetailsCloseConfirmMsg>Uppmärksamhet! Förändringarna har inte sparats ännu. Välj en åtgärd som du vill tillämpa dessa ändringar innan du stänger fönstret.</FileDetailsCloseConfirmMsg>
+  <FileDetailsGridTitleColumn>Titel</FileDetailsGridTitleColumn>
+  <FileDetailsGridAuthorColumn>sista författare</FileDetailsGridAuthorColumn>
+  <LoadingDetailsMask>lastningsinformation</LoadingDetailsMask>
+  <NewDetailsTitle>ny avdelning</NewDetailsTitle>
+  <NewDetailsValue>Nya detaljer värde</NewDetailsValue>
+  <DetailsSavingMsg>sparar detaljer</DetailsSavingMsg>
+  <ProgressLoadingEditInOffice>Förberedelser för redigering i Office</ProgressLoadingEditInOffice>
+  <MenuFilterText>filter</MenuFilterText>
+  <EmptyTextFilter>Ange filter ...</EmptyTextFilter>
+  <AfterDateFilterText>Efter</AfterDateFilterText>
+  <BeforeDateFilterText>Innan</BeforeDateFilterText>
+  <OnDateFilterText>På</OnDateFilterText>
+  <YesBooleanFilterText>Ja</YesBooleanFilterText>
+  <NoBooleanFilterText>Nej</NoBooleanFilterText>
+  <CommandEditWithZoho>Redigera i Zoho</CommandEditWithZoho>
+  <ZohoNotSupportedFormatMessage>Förlängningen stöds inte av Zoho. Se {0}.</ZohoNotSupportedFormatMessage>
+  <ProgressLoadingEditInZoho>Lastning Zoho redaktör</ProgressLoadingEditInZoho>
+  <CommandSubMenuViewAndEdit>Visa / redigera</CommandSubMenuViewAndEdit>
+  <CommandSubMenuShare>Dela med sig</CommandSubMenuShare>
+  <CommandSubMenuMore>Mer</CommandSubMenuMore>
+  <StopUploadingButtonText>Sluta</StopUploadingButtonText>
+  <SimpleUploadErrorInfo>När du laddar upp fil (er) fanns ett fel. &lt;br /&gt; Se {0} för mer info &lt;/a&gt;</SimpleUploadErrorInfo>
+  <BalloonAbortFilesUploaded>Uppladdning av filer avbröts</BalloonAbortFilesUploaded>
+  <UploadDragNDropTab>Dra och släpp</UploadDragNDropTab>
+  <UploadDragNDropTabImages>Dra och släpp+bilder</UploadDragNDropTabImages>
+  <DnDGridProgressColumn>Framsteg</DnDGridProgressColumn>
+  <DnDFileReadingError>Läsfel. Felkod: {0}.</DnDFileReadingError>
+  <DnDFileReadingAbort>Läsning avbröts. Felkod: {0}.</DnDFileReadingAbort>
+  <DnDFileUploadingError>Uppladdning fel. {0}</DnDFileUploadingError>
+  <DnDFileUploadingAbort>Uppladdning avbruten.</DnDFileUploadingAbort>
+  
+  <CommandWebFoldersLinks>Karta webbmappar</CommandWebFoldersLinks>
+  <CommandSyncWebFolders>Synkronisera med lokal mapp</CommandSyncWebFolders>
+  <WebFolderLinksFieldLabel>Webb-mappen Länkar</WebFolderLinksFieldLabel>
+  <WebFolderLinksForWindows64Note>Tryck på tangentkombinationen {0} Win+R {1}. Sätt kommandoraden i {0} Öppet: {1} fältet (se kommandoraden exemplen nedan), klicka på {0} OK {1}. För Windows-autentisering med hjälp av fullt kvalificerade domännamn: {2}.</WebFolderLinksForWindows64Note>
+  <OpenLibreOfficeRunCommandNote>Eller tryck på tangentkombinationen {0} Win+R {1} sätter kommandoraden nedan i {0} Öppet: {1} fältet och tryck på {0} OK {1}</OpenLibreOfficeRunCommandNote>
+  <WebFolderLinksForMacOSNote>I menyn "Finder", öppna {0} Gå-&gt; Anslut till server {1}. Sätt en länk till webbmappen i {0} "Serveradress" {1} fältet. Klicka {0} "Connect" {1}. I den nya dialogrutan väljer du {0} "Gäst" {1} eller {0} "Registrerad användare" {1} (för Windows-autentisering). Klicka {0} "Connect" {1}.</WebFolderLinksForMacOSNote>
+  <WebFolderLinksForUbuntuNote>Öppna {0} Gå-&gt; Plats ... {1} Kopiera länken för webbmappen till platsen fältet.</WebFolderLinksForUbuntuNote>
+  <LinksToWebFoldersWindowText>Du kan mappa mappar som du ser som en nätverksenhet i det lokala operativsystemet. Efter kartläggning kan du arbeta med filer som med lokala och kära eller redigera dokument i MS Office eller Openoffice. Se hjälp om hur man kartlägga {0}.</LinksToWebFoldersWindowText>
+  <CommonFileTypeNameCaption>"{0}" filnamn</CommonFileTypeNameCaption>
+  <CommonFileTypeNamePrompt>Ange nytt "{0}" filnamn</CommonFileTypeNamePrompt>
+  
+  <PixlrEditorWindowTitle>Pixlr redaktör {0}</PixlrEditorWindowTitle>
+  <PixlrSaveImageSuccessMessage>Bilden "{0}" har sparats. Uppdatera listan om du sparade bilden med ett nytt namn.</PixlrSaveImageSuccessMessage>
+  <CommonFileImageNewName>Ny bild</CommonFileImageNewName>
+  <CommandChangeTheme>Byta tema</CommandChangeTheme>
+  
+  <CommandHelp>Hjälpa</CommandHelp>
+
+  <OpeningShortcutProgress>öppnings genväg</OpeningShortcutProgress>
+  <CommandCreateShortcut>Genväg (symbolisk länk)</CommandCreateShortcut>
+  <ShortcutNameHint>Förkortat namn</ShortcutNameHint>
+  <ShortcutTargetPathHint>målsökväg</ShortcutTargetPathHint>
+  <CreateShortcutButtonTitle>Skapa</CreateShortcutButtonTitle>
+  <CreatingShortcutProgress>skapa genväg</CreatingShortcutProgress>
+  <CreateShortcutSuccessMessage>Genväg "{0}" har skapats för "{1}".</CreateShortcutSuccessMessage>
+
+  <OpeningInternetShortcutProgress>Öppnings genväg Internet</OpeningInternetShortcutProgress>
+  <InternetShortcutNotValidMsg>Målet URL för denna Internet-genväg är inte giltig</InternetShortcutNotValidMsg>
+  <InternetShortcutWindowTitle>Gå att länka</InternetShortcutWindowTitle>
+  
+  <CommandVersioning>versions</CommandVersioning>
+  <CommandVersionHistory>versionshistorik</CommandVersionHistory>
+  <CommandCheckOut>Checka ut</CommandCheckOut>
+  <CommandCheckIn>Checka in</CommandCheckIn>
+  <CommandUndoCheckOut>Avbryt utcheckning</CommandUndoCheckOut>
+  <VersionHistoryObtainingMessage>Erhålla versionshistorik</VersionHistoryObtainingMessage>
+  <NoVersionHistoryMessage>existerar inte versionshistoriken för den valda filen</NoVersionHistoryMessage>
+  <FileIsCheckedOutMessage>Filen "{0}" är redan checkats ut av användaren "{1}" av {2}</FileIsCheckedOutMessage>
+  <CheckingOutMessage>Checkar ut</CheckingOutMessage>
+  <SuccessfullyCheckedOutMessage>Filen "{0}" framgångsrikt kontrolleras av användaren "{1}"</SuccessfullyCheckedOutMessage>
+  <FileIsNotCheckedOutMessage>Filen "{0}" inte har kontrollerats ut ännu</FileIsNotCheckedOutMessage>
+  <FileIsCheckedOutOtherUserMessage>Filen "{0}" har checkats ut av en annan användare "{1}" av {2}.</FileIsCheckedOutOtherUserMessage>
+  <FileUndoCheckOutForbiddenMessage>Du kan inte avbryta en utcheckning tillämpas av en annan användare.</FileUndoCheckOutForbiddenMessage>
+  <FileCheckInForbiddenMessage>Du kan inte checka in en fil som redan har kontrollerats av en annan användare.</FileCheckInForbiddenMessage>
+  <FileUndoCheckOutConfirmMessage>Om du avboka din check ut, kommer ändringarna appliceras på dokumentet inte sparas! Är du säker på att du vill avbryta din check ut?</FileUndoCheckOutConfirmMessage>
+  <FileVersionDeleteConfirmTitle>Radering av filversionen</FileVersionDeleteConfirmTitle>
+  <FileVersionDeleteConfirmMessage>Är du säker på att du vill ta bort den valda versionen av filen?</FileVersionDeleteConfirmMessage>
+  <FileVersionRestoreConfirmTitle>Återställande av filversionen</FileVersionRestoreConfirmTitle>
+  <FileVersionRestoreConfirmMessage>Är du säker på att vill återställa den valda versionen av filen {0} Om ja, ange filen där det valda versionen kommer att sparas i. Om du lämnar det här värdet utan ändringar (eller ställa tomt värde) den valda versionen kommer att ersätta den markerade filen (tidigare innehållet i filen kommer att läggas till versionshistoriken) {1} filnamn.:</FileVersionRestoreConfirmMessage>
+  <UndoCheckingOutMessage>Avbryta utcheckning</UndoCheckingOutMessage>
+  <SuccessfullyUndoCheckedOutMessage>Indragningen av kontrollen ut för en fil "{0}" har slutförts.</SuccessfullyUndoCheckedOutMessage>
+  <SuccessfullyCheckedInMessage>Filen "{0}" är framgångsrikt kontrolleras av användaren "{1}"</SuccessfullyCheckedInMessage>
+  <CheckingInMessage>Checkar in</CheckingInMessage>
+  <VersionHistoryTitle>Filversioner "{0}"</VersionHistoryTitle>
+  <VersionHistoryGridNumberColumn>Ver.</VersionHistoryGridNumberColumn>
+  <VersionHistoryGridNotesColumn>Anmärkningar</VersionHistoryGridNotesColumn>
+  <CommandRestoreVersion>Återställa</CommandRestoreVersion>
+  <ProgressPrepareDownloadOldVersion>Förberedelser för gammal version nedladdning</ProgressPrepareDownloadOldVersion>
+  <FileVersionNotFoundMessage>Den valda filen version kunde inte hittas.</FileVersionNotFoundMessage>
+  <ProgressDeletingVersion>version Radering</ProgressDeletingVersion>
+  <ProgressRestoringVersion>version Återställning</ProgressRestoringVersion>
+  <FileNeedCheckInMessage>Vänligen checka in eller avbryta utcheckning för den valda filen och försök igen.</FileNeedCheckInMessage>
+  <FileCheckedOutEditForbiddenMessage>Du kan inte ändra/byta namn / flytta / radera filen "{0}" medan den checkas ut av användaren "{1}" av {2}</FileCheckedOutEditForbiddenMessage>
+  <FileUploadCheckInLabel>Du kan checka in den valda filen eller ladda upp en ny version av filen (använd uppladdningsformuläret nedan). Om du vill skapa en ny version från en vald fil, inte ladda upp några filer här.</FileUploadCheckInLabel>
+  <FileUploadCheckInInvalidFileName>Namnet på den uppladdade filen ska vara exakt samma som namnet på den markerade filen</FileUploadCheckInInvalidFileName>
+  <CheckOutVersionNotes>Denna version har skapats automatiskt</CheckOutVersionNotes>
+  <RestoreVersionNotes>Denna version har skapats automatiskt efter återställande av versionen från {0} av användaren "{1}"</RestoreVersionNotes>
+  <IsCheckedOutHint>Filen har checkat ut</IsCheckedOutHint>
+  <ExistsOldVersionsHint>Filen har andra versioner</ExistsOldVersionsHint>
+  <IsLockedHint>Filen är låst</IsLockedHint>
+  <FileWasCreatedHint>Har skapats {0} sedan</FileWasCreatedHint>
+  <FileWasModifiedHint>Har ändrats {0} sedan</FileWasModifiedHint>
+  <CommonChangedAgo>{0} sedan</CommonChangedAgo>
+  <DaysShort>d</DaysShort>
+  <HoursShort>h</HoursShort>
+  <MinutesShort>m</MinutesShort>
+  <FileContainsMetaDataHint>Innehåller några detaljer (metadata)</FileContainsMetaDataHint>
+  <FileMetaDataCaptionMobile>metadata</FileMetaDataCaptionMobile>
+
+  <ExistsPublicLinksFileHint>Filen har offentliga länkar</ExistsPublicLinksFileHint>
+  <ExistsPublicLinksFolderHint>Mappen har offentliga länkar</ExistsPublicLinksFolderHint>
+  <PublicLinkNotFound>Offentlig länk för "{0}" kunde inte hittas</PublicLinkNotFound>
+
+  <PublicLinksDeleteWindowTitle>Radera offentlig länk (s)</PublicLinksDeleteWindowTitle>
+  <PublicLinksDeleteLinkButton>Radera länk</PublicLinksDeleteLinkButton>
+  <PublicLinksDeleteConfirmMsg>Är du säker på att du vill ta bort de utvalda offentliga länkar?</PublicLinksDeleteConfirmMsg>
+  <PublicLinksDeleteSingleConfirmMsg>Är du säker på att du vill ta bort denna länk?</PublicLinksDeleteSingleConfirmMsg>
+
+  <DetailsMultiValue>(Multi värde)</DetailsMultiValue>
+
+  <GridBottomFilesSizeInfo>Valda: {0} / {1}</GridBottomFilesSizeInfo>
+  <GridBottomFilesFoldersInfo>filer: {0} / {1}, mappar: {2} / {3}</GridBottomFilesFoldersInfo>
+
+  <AmountOfDownloadingsFile>Nedladdningar</AmountOfDownloadingsFile>
+
+  <CookiesDisabledMessage>Webbläsarens funktion för cookies är avstängd. Vänd på den och starta om webbläsaren.</CookiesDisabledMessage>
+
+  <CommandSendEmail>Skicka epost</CommandSendEmail>
+  <CommandSendWithGmail>Skicka med Gmail</CommandSendWithGmail>
+  <CommandSendWithOutlook>Skicka med Outlook</CommandSendWithOutlook>
+  <SendEmailTo>Till</SendEmailTo>
+  <SendEmailBulkMailingListHint>&lt;b&gt; E-postlista &lt;/ ​​b&gt; &lt;br /&gt; Du kan ange hela grupper för att skicka e-post</SendEmailBulkMailingListHint>
+  <SendEmailBulkMailingListWindowTitle>Välj mottagare för din e-post</SendEmailBulkMailingListWindowTitle>
+  <SendEmailEmptyMailingListMessage>Sändlistan är tom</SendEmailEmptyMailingListMessage>
+  <SendEmailSenderEmail>avsändarens e-postadress</SendEmailSenderEmail>
+  <SendEmailSubject>Ämne</SendEmailSubject>
+  <SendEmailFilesAsLinksTo>Skicka länkar till utvalda filer</SendEmailFilesAsLinksTo>
+  <SendEmailFilesAsAttachements>Skicka valda filer som bilagor</SendEmailFilesAsAttachements>
+  <SendEmailSend>Skicka</SendEmailSend>
+  <SendEmailProgressMessage>att skicka e-post</SendEmailProgressMessage>
+  <GettingMailingListProgressMessage>Få e-postlista</GettingMailingListProgressMessage>
+  <SendEmailSuccessMessage>E-post har skickats.</SendEmailSuccessMessage>
+  <SendEmailResultsMessage>Skickas:. {0} &lt;br /&gt; Misslyckades: {1} {2}.</SendEmailResultsMessage>
+  <SmtpServerSettingsIncorrect>Alternativen SMTP-server är antingen tom eller felaktig</SmtpServerSettingsIncorrect>
+  <FromEmailIncorrect>Från e-postadress är felaktig eller tom</FromEmailIncorrect>
+  <ToEmailIncorrect>Till e-postadress är felaktig eller tom</ToEmailIncorrect>
+  <EmailSubjectEmpty>E-post ämne specificeras inte</EmailSubjectEmpty>
+  <UploadFromUrlTab>från URL</UploadFromUrlTab>
+  <UploadFromUrlFieldLabel>URL (HTTP eller FTP enda fil)</UploadFromUrlFieldLabel>
+  <UploadFromUrlProgressTitle>Ladda upp från URL</UploadFromUrlProgressTitle>
+  <UploadFromUrlMsg>Uppladdning från URL</UploadFromUrlMsg>
+  <UploadFromUrlSuccessMsg>Filen "{0}" har laddats upp från "{1}"</UploadFromUrlSuccessMsg>
+  <UploadFromUrlUnknownResponse>Svaret från servern inte erkänns</UploadFromUrlUnknownResponse>
+  <UploadFromUrlEmptyFileName>Namnet på den uppladdade filen är tom</UploadFromUrlEmptyFileName>
+  <UploadFromUrlFileName>Spara med namn (lämna tomt för att använda namn från URL)</UploadFromUrlFileName>
+  <UploadFromUrlFileNameMobile>Spara med namn</UploadFromUrlFileNameMobile>
+  
+  <!-- Common Clouds keys -->  
+  <CloudAuthenticateMessage>Du måste logga in på {0}. Klicka på "{1}" länken och du kommer att omdirigeras till inloggningsformuläret. {2} Mer info. {3}</CloudAuthenticateMessage>
+  <CloudAuthenticateLink>Autentisera med {0}</CloudAuthenticateLink>  
+  <CloudDownloadingMessage>Nedladdning till {0}</CloudDownloadingMessage>
+  <CloudAuthWarningMessage>Om åtgärden inte har hänt, stäng fönstret och klicka på "{0}" länken igen.</CloudAuthWarningMessage>
+  <CloudAuthEmptyInvalidMessage>{0} åtkomsttoken är tom eller ogiltig. Vänligen autentisera igen.</CloudAuthEmptyInvalidMessage>
+  <CloudDownloadEndMessageTitle>Nedladdning är klar</CloudDownloadEndMessageTitle>
+  <CloudDownloadFilesSuccessMessage>{0} fil (er) laddat ner till "{1}" {2} mapp.</CloudDownloadFilesSuccessMessage>
+  <CloudNotDownloadedFilesMessage>{0} fil (er) inte ladda ned:</CloudNotDownloadedFilesMessage>
+  <CloudFoldersCreatedSuccessMessage>{0} mappar (er) har skapats i "{1}" {2} mapp.</CloudFoldersCreatedSuccessMessage>
+  <CloudNotFoldersCreatedMessage>{0} mappar (s) inte skapat:</CloudNotFoldersCreatedMessage>
+  <CloudFilesFoldersSuccessMessage>{0} fil (er), {1} mapp (s) laddat ner till "{2}" {3} mapp.</CloudFilesFoldersSuccessMessage>
+  <CloudNotFilesFoldersDownloadedMessage>{0} fil (er), {1} mapp (s) inte ladda ned:</CloudNotFilesFoldersDownloadedMessage>
+  <CloudLinkText>Besök {0}</CloudLinkText>
+  <CloudLinkDescription>Gå till {0} sida</CloudLinkDescription>
+  <CloudRootFolderName>&lt;b&gt; {0} rotmappen &lt;/b&gt;</CloudRootFolderName>
+  <CloudCheckFolerMessage>Kontrollera en enda {0} mapp för att fortsätta.</CloudCheckFolerMessage>
+  <CloudSelectFolderMessage>Välj {0} mapp för att fortsätta.</CloudSelectFolderMessage>
+  <CloudGetFoldersInfoProgressMessage>Lastning {0} mappar info</CloudGetFoldersInfoProgressMessage>
+  <CloudGetItemsInfoProgressMessage>Lastning {0} objekt info</CloudGetItemsInfoProgressMessage>
+  <CloudUploadSelectItemsMessage>Välj {0} objekt att fortsätta.</CloudUploadSelectItemsMessage>
+  <CloudUploadTotalFiles>Totala filer: {0} ({1})</CloudUploadTotalFiles>
+  <CloudUploadProgressMessage>Ladda upp från {0}</CloudUploadProgressMessage>
+  <CloudSignInAsDifferentUserText>Logga ut från {0}</CloudSignInAsDifferentUserText>
+  <CloudLogoutProgressMsg>Logga ut från {0}</CloudLogoutProgressMsg>
+  <CloudRevokeTokenMsg>återkalla token</CloudRevokeTokenMsg>
+  <CloudRefreshTokenMsg>uppfriskande token</CloudRefreshTokenMsg>
+  <CloudAuthNotCompleteMsg>Autentisering inte slutförts. &lt;br /&gt; Vänligen</CloudAuthNotCompleteMsg>
+  <CloudTrustedSitesMsg> kontrollera följande platser i "Tillförlitliga platser" lista: &lt;br /&gt; &lt;br /&gt;</CloudTrustedSitesMsg>
+  <TrustedSitesForMicrosoftEdge>Om du använder Microsoft Edge, sedan kontrollera Tillförlitliga platser i Internet Explorer</TrustedSitesForMicrosoftEdge>
+  <CloudCheckAuthMsg>Kontrollera {0} autentisering</CloudCheckAuthMsg>
+  <CloudLoadMsg>Lastning {0}</CloudLoadMsg>
+  <CloudFreeSpaceError>Det finns inte tillräckligt med utrymme i {2} för att ladda upp filer. Bra: {0}. Filstorlek: {1}.</CloudFreeSpaceError>
+  <CloudFreeSpaceExceeded>Det finns inte tillräckligt med utrymme i {0}</CloudFreeSpaceExceeded>
+  <CloudExceedFileSizeError>Filen du försöker ladda ner har en filstorlek på {1}, som är större än den maximalt tillåtna storleken för nedladdning - {0}.</CloudExceedFileSizeError>
+  <CloudFolderNotFound>Katalog hittades inte. Kanske det har tagits bort</CloudFolderNotFound>
+  <CloudFileNotFound>Filen är inte hittas. Kanske det har tagits bort</CloudFileNotFound>
+  <CloudNoFoldersMessage>Det finns inga mappar att visa</CloudNoFoldersMessage>
+  <CloudLibraryNotLoadedMsg>{0} klientbiblioteket inte laddad! &lt;br /&gt; Kontrollera Internet-anslutning och-eller uppdatera sidan. &lt;br /&gt; Också</CloudLibraryNotLoadedMsg>
+  <CloudDownloadWithNewNames>Efter fil (er) hämtas med nya namn:</CloudDownloadWithNewNames>
+
+  <!-- Google Drive Cloud keys -->
+  <CommandDownloadToGoogleDocs>Hämta till Google Drive</CommandDownloadToGoogleDocs>
+  <GoogleDocsSaveAs>spara som:</GoogleDocsSaveAs>
+  <GoogleDocsSaveAsTitle>Spara "{0}" som ...</GoogleDocsSaveAsTitle>
+  <GoogleDocsDownloadEndWarningMessage>Om du inte kan se de uppladdade dokument i Google Drive-konto, vänta några sekunder och uppdatera Google Drive listan.</GoogleDocsDownloadEndWarningMessage>
+  <GoogleDriveUploadNoFilesMessage>Inga filer i Google Drive för uppladdning</GoogleDriveUploadNoFilesMessage>
+  <GoogleDriveMaxUploadSizeError>För innehållstypen "{0}" den maximala storleken på uppladdning {1} överskrids.</GoogleDriveMaxUploadSizeError>
+  <GoogleDriveConvertMsg>Om det är möjligt att konvertera filer till Google Dokument-format. {0} Mer info {1}.</GoogleDriveConvertMsg>
+
+  <!-- Box Cloud keys -->
+  <CommandDownloadToBox>Hämta till Box</CommandDownloadToBox>
+  <BoxDownloadWithNewNames>Följande fil (er) har uppdaterats med nya versioner:</BoxDownloadWithNewNames>
+  <BoxNoViewPermission>Du har inte behörighet att visa den valda katalogen</BoxNoViewPermission>
+  <BoxNoDownloadPermission>Du har inte behörighet att hämta</BoxNoDownloadPermission>
+  <BoxNoUploadPermission>Du har inte behörighet att ladda upp</BoxNoUploadPermission>
+  <BoxUnableCreateOrInfoError>Det går inte att skapa eller få information</BoxUnableCreateOrInfoError>
+  
+  <!-- Dropbox Cloud keys -->
+  <CommandDownloadToDropbox>Ladda ner till Dropbox</CommandDownloadToDropbox>
+  
+  <!-- OneDrive Cloud keys -->
+  <CommandDownloadToSkyDrive>Ladda ner till OneDrive</CommandDownloadToSkyDrive>
+  <AuthenticateOAuthSkyDriveMessageShort>Du måste logga in på ditt Microsoft Live-konto.</AuthenticateOAuthSkyDriveMessageShort>
+  <SkyDriveAuthAlsoString>Också</SkyDriveAuthAlsoString>
+  <SkyDriveLoginButtonTitle>Logga in</SkyDriveLoginButtonTitle>
+  <SkyDriveRegistryMessage>Inte har ett Windows Live ID? {0} Registrera dig ... {1}</SkyDriveRegistryMessage>
+  <SkyDriveMapRootFolder>Notera! Du kan {0} karta {1} din OneDrive mapp. bana är</SkyDriveMapRootFolder>
+  <SkyDriveMoreInfoLink>{0} Mer information om OneDrive (SkyDrive) {1}</SkyDriveMoreInfoLink>
+  <OneDriveMaxUploadSizeError>Den tillåtna storlek ({0}) av den överförda filen har överskridits: {1}</OneDriveMaxUploadSizeError>
+  <!-- OneDrive for Business -->
+  <OneDriveForBusinessMapWebFolderInfo>&lt;b&gt; Obs! &lt;/b&gt; Innan du öppnar filer på den här platsen, måste du först lägga till webbplatsen i listan över tillförlitliga webbplatser, bläddra till webbplatsen, och välj alternativet för att logga in automatiskt (i IE).</OneDriveForBusinessMapWebFolderInfo>
+  
+  <UploadFromUrlLabelText>Du kan ange webbadressen till en fil som lagras på global filserver eller en fildelningstjänst som {0} {1} {2} {3} {4}.</UploadFromUrlLabelText>
+  <UploadFromUrlLabelTextMobile>Ange webbadressen till filen</UploadFromUrlLabelTextMobile>
+
+  <LinkToFileTitle>Länk till fil / mapp</LinkToFileTitle>
+  <LinkToFileWarningAnonym>Denna länk ger anonym åtkomst till filen. Alla användare, även en som inte har någon plats i denna webbplats kan ladda ner eller ladda upp filer via en offentlig länk. En offentlig länk till en fil låter dig ladda ner en vald fil. {0} Mer info {1}.</LinkToFileWarningAnonym>
+  <LinkToFileDownloadFileLink>Denna länk kan du ladda ner den valda filen {0} från {1}. Du behöver ett giltigt konto för att använda denna länk. Den ger inte anonym åtkomst till filen.</LinkToFileDownloadFileLink>
+  <LinkToFileExpireDate>Utgångsdatum</LinkToFileExpireDate>
+  <LinkToFileDownloadCnt>Nedladdning count gräns</LinkToFileDownloadCnt>
+  <LinkToFileDownloadType>Länktyp</LinkToFileDownloadType>
+  <LinkToFileGenerate>Skapa länk</LinkToFileGenerate>
+  <LinkToFilePasswordNotMatch>Lösenorden matchar inte</LinkToFilePasswordNotMatch>
+  <LinkToFilePasswordRequired>Lösenordet för allmänheten länken krävs</LinkToFilePasswordRequired>
+  <LinkToFileInvalidForm>ogiltiga parametrar</LinkToFileInvalidForm>
+  <LinkToFileAnonymDownloadLinkHint>Offentlig länk för "{0}":</LinkToFileAnonymDownloadLinkHint>
+  <LinkToFileAnonymDownloadShortLinkHint>Kort offentlig länk för "{0}":</LinkToFileAnonymDownloadShortLinkHint>
+  <LinkToFileOpenFolderLink>Denna länk kan du öppna den valda mappen {0} i {1}. Du behöver ett giltigt konto för att använda denna länk. Den ger inte anonym åtkomst till mappen.</LinkToFileOpenFolderLink>
+  <LinkToFileOpenFileLink>Denna länk öppnar mappen med filen och markeras</LinkToFileOpenFileLink>
+  <LinkToFileDaysLeft>dagar kvar</LinkToFileDaysLeft>
+  <LinkToFileCaptionMobile>offentliga länkar</LinkToFileCaptionMobile>
+
+  <PublicFolderLinkHint>Offentlig länk till mappen "{0}":</PublicFolderLinkHint>
+  <PublicFolderShortLinkHint>Kort offentlig länk till mappen "{0}":</PublicFolderShortLinkHint>
+  <PublicFolderLinkDownloadZipHint>Hämta länk för zip-arkiv av mappen "{0}":</PublicFolderLinkDownloadZipHint>
+  <PublicFolderLinkShortDownloadZipHint>Kort nedladdningslänk för zip-arkiv av mappen "{0}":</PublicFolderLinkShortDownloadZipHint>
+  <PublicFolderLinkZipDownload>Komprimera och hämta aktuell mapp {0} (i en ZIP-arkiv)</PublicFolderLinkZipDownload>
+  <PublicFolderLinkOverwriteWhileUpload>Skriv över befintlig</PublicFolderLinkOverwriteWhileUpload>
+  <PublicFolderLinkOpenFolderHint>Öppen mapp</PublicFolderLinkOpenFolderHint>
+  <PublicFolderDownloadDisabledNote>Notera! Ägaren av denna mapp hade förbjudit att ladda ner filer från denna mapp.</PublicFolderDownloadDisabledNote>
+  <PublicFolderLinkSendEmails>Skicka information om besökare aktivitet på e-post</PublicFolderLinkSendEmails>
+  <PublicFolderAnonymAccessControl>Åtkomstkontroll</PublicFolderAnonymAccessControl>
+  <PublicFolderAnonymDownload>Ladda ner filer</PublicFolderAnonymDownload>
+  <PublicFolderAnonymZipDownload>Ladda ner mappar (ZIP)</PublicFolderAnonymZipDownload>
+  <PublicFolderAnonymUpload>Ladda upp</PublicFolderAnonymUpload>
+  <PublicFolderAnonymViewContent>Visa fillista</PublicFolderAnonymViewContent>
+  <PublicFolderNoteForUsers>Anmärkning för användare</PublicFolderNoteForUsers>
+  <PublicFolderACLNotSet>Åtkomstkontroll är inte satt</PublicFolderACLNotSet>
+  <PublicFolderWarningAnonym>Denna länk ger anonym åtkomst till mappen. Alla användare, även en som inte har någon plats i denna webbplats kan ladda ner eller ladda upp filer via en offentlig länk. En offentlig länk till mappen låter dig ladda ner både en hel mapp (förpackade i arkiv) och enskilda filer. {0} Mer info {1}.</PublicFolderWarningAnonym>
+  <PublicLinksShowForAllItems>Visa för alla</PublicLinksShowForAllItems>
+  <PublicLinksShowForSelected>Visa för den valda</PublicLinksShowForSelected>
+  
+  <MultipleFileInputMessage>Notera! Din webbläsare stöder flera filer val på en gång.</MultipleFileInputMessage>
+  <UploadZipUnzipNote>Du kan ladda upp en zip-arkiv med flera filer och mappar och sedan extrahera den med hjälp av "{0}" kommandot på snabbmenyn.</UploadZipUnzipNote>
+  <DnDFileUploadingStatusCode>statuskod</DnDFileUploadingStatusCode>
+  <DnDFileUploadingPathOrNameEmpty>Vägen och-eller filnamn inte specificeras</DnDFileUploadingPathOrNameEmpty>
+  <DnDFileUploadingRemoveFromList>Ta bort från listan</DnDFileUploadingRemoveFromList>
+  <DndFileUploadingDontDropFoldersMsg>Du kan dra och släppa filer i tabellen nedan. Du kan inte släppa mappar.</DndFileUploadingDontDropFoldersMsg>
+  <DndFileUploadingAllowDropFoldersMsg>Du kan dra och släppa filer och mappar i tabellen nedan.</DndFileUploadingAllowDropFoldersMsg>
+  <DndFileUploadingFilesSummaryInfo>Räkna filer: {0} ({1})</DndFileUploadingFilesSummaryInfo>
+  <DropFilesHere>Släpp filer att ladda upp</DropFilesHere>
+  
+  <FileGridDownloadColumn>Ladda ner filer</FileGridDownloadColumn>
+  <FileAttributesField>attribut</FileAttributesField>
+  <FolderCalculateSize>Beräkna</FolderCalculateSize>
+  <FolderRecalculateSize>räkna om</FolderRecalculateSize>
+  <FolderContainsField>innehåller</FolderContainsField>
+  <FolderContainsFilesFolders>{0} filer, {1} mappar</FolderContainsFilesFolders>
+  <FolderCalculatingMessage>Beräknande</FolderCalculatingMessage>
+
+  <SearchTitle>Filsökning. Tillgängliga mönster: {0}</SearchTitle>
+  <SearchType>Sök</SearchType>
+  <SearchOnlyFiles>endast filer</SearchOnlyFiles>
+  <SearchOnlyFolders>endast mappar</SearchOnlyFolders>
+  <SearchBothFilesFolders>både filer och mappar</SearchBothFilesFolders>
+  <SearchFileDetails>filinformation</SearchFileDetails>
+  <SearchFileContent>filinnehåll</SearchFileContent>
+  <SearchByDateFrom>från</SearchByDateFrom>
+  <SearchByDateTo>till</SearchByDateTo>
+  <SearchLocation>Plats</SearchLocation>
+  <SearchLocationEntire>Var som helst</SearchLocationEntire>
+  <SearchLocationCurrent>Nuvarande</SearchLocationCurrent>
+  <SearchSearch>Sök</SearchSearch>
+  <SearchNothingFound>Ingenting hittades! Förfina sökkriterier.</SearchNothingFound>
+  <SearchErrorCaption>sökning error</SearchErrorCaption>
+  <SearchResultsNotComplete>Uppmärksamhet! Sökresultaten kan vara ofullständig eftersom vissa mappar inte har indexerat ännu.</SearchResultsNotComplete>
+  <SearchRepeatOrContactAdmin>Försök att söka igen senare eller kontakta administratören.</SearchRepeatOrContactAdmin>
+  <SearchLinkToManual>Se till {0} Windows Search Hjälp {1}</SearchLinkToManual>
+  <QuerySearchByNameText>Sök efter namn</QuerySearchByNameText>
+  <QuerySearchByConentText>efter innehåll</QuerySearchByConentText>
+  <SearchByDetailsWarning>Uppmärksamhet! Du har angett i de inställningar som du vill använda sökning med egenskaper. I detta fall kommer sökningen att utföras med hjälp av en standardmetod i stället för att använda Windows indexeringstjänsten.</SearchByDetailsWarning>
+  <SearchInSpecialFolderWarning>Uppmärksamhet! Att söka den aktuella mappen inte tillämpas. Om du fortsätter kommer sökningen att utföras i alla kataloger.</SearchInSpecialFolderWarning>
+
+  <UploadTitle>Uppladdning av flera filer</UploadTitle>
+  <UploadSimpleTab>Standard</UploadSimpleTab>
+  <UploadSimpleReset>Återställa</UploadSimpleReset>
+  <UploadSimpleUpload>Ladda upp</UploadSimpleUpload>
+  <UploadSimpleUploadFolderLabelCollapsed>uppladdningskatalog</UploadSimpleUploadFolderLabelCollapsed>
+  <UploadSimpleUploadFolderButtonText>Välj mapp</UploadSimpleUploadFolderButtonText>
+  <UploadJavaTab>java</UploadJavaTab>
+  <UploadJavaIgnorePaths>Placera alla filer i en mapp (ignorera banor)</UploadJavaIgnorePaths>
+  <UploadFlashTab>Blixt</UploadFlashTab>
+  <UploadSilverlightTab>silverlight</UploadSilverlightTab>
+  <UploadPartially>Några av filerna kunde inte laddas upp</UploadPartially>
+  <UploadFolderNotSelectedTitle>Mapp är inte vald</UploadFolderNotSelectedTitle>
+  <UploadFolderNotSelected>Välj den mapp där filerna laddas upp till</UploadFolderNotSelected>
+  <UploadInProgress>Ladda upp dina filer</UploadInProgress>
+  <UploadInvalidFormFields>Formulärfält får inte lämnas med ogiltiga värden</UploadInvalidFormFields>
+  <UploadAjaxFailed>Ajax kommunikation misslyckades</UploadAjaxFailed>
+  <UploadFilesAlreadyExists>Fil (er) finns redan</UploadFilesAlreadyExists>
+  <UploadOverwriteFiles>Befintliga filer kommer att skrivas över. Vill du fortsätta?</UploadOverwriteFiles>
+  <UploadOverwriteOrRenameFiles>Det finns en eller flera filer med matchande namn i katalogen du angav. Vill du skriva över de befintliga filerna? Klicka på "{0}" om du vill skriva över den redan befintliga filer, eller "{1}" - om du vill spara alla filer (de kommer att byta namn).</UploadOverwriteOrRenameFiles>
+  <UploadNotModifyExistingFiles>Det finns en eller flera filer med matchande namn i katalogen du angav. Filerna kan inte laddas upp. Ta bort befintliga filer från uppladdningslistan eller byta namn på dem.</UploadNotModifyExistingFiles>
+  <UploadRenamedExistingFiles>Det finns en eller flera filer med matchande namn i katalogen du angav. Filer med matchande namn kommer att döpas.</UploadRenamedExistingFiles>
+  <UploadNotAllowedTitle>Uppladdning är inte tillåtet</UploadNotAllowedTitle>
+  <UploadNotAllowedPrompt>Du kan inte ladda upp filer till denna mapp</UploadNotAllowedPrompt>
+
+  <UploadMobileIOSVideo>Ladda upp video. Aktivera det här alternativet om du vill ladda upp videofilen.</UploadMobileIOSVideo>
+  <UploadMobileAurigmaLink>Observera att du bör ha Aurigma Up! installerat på din enhet för att ladda upp filer. Tryck här för att installera Aurigma Up! ansökan för att ladda upp bilder och video.</UploadMobileAurigmaLink>
+  <UploadMobileAurigmaReady>Efter Aurigma Up! är installerad eller om du redan har det installerat, tryck på "Ladda upp" knappen nedan.</UploadMobileAurigmaReady>
+  <UploadMobileAurigmaFilePrefix>Prefix för uppladdade filer</UploadMobileAurigmaFilePrefix>
+  <UploadMobileResult>Ladda upp resultat:</UploadMobileResult>
+  <UploadMobileUrlPlaceHolder>Ange webbadressen här</UploadMobileUrlPlaceHolder>
+  <UploadMobileFileNamePlaceHolder>Skriv in det nya filnamnet här</UploadMobileFileNamePlaceHolder>
+  <UploadBrowseLabel>Bläddra...</UploadBrowseLabel>
+  
+  <MobileToolTipsCaption>Vet du att ...</MobileToolTipsCaption>
+  <MobileToolTipsNextButton>Nästa tips</MobileToolTipsNextButton>
+  <MobileToolTipsIKnowButton>jag vet det</MobileToolTipsIKnowButton>
+  <MobileToolTipsHideButton>visa aldrig</MobileToolTipsHideButton>
+  <MobileToolTipsMultiSelection>Markera flera filer eller mappar, bör du aktivera flera markeringsläget genom att trycka på &lt;b&gt; {0} &lt;/b&gt;. Peka på den igen för att avsluta från multi-läget.</MobileToolTipsMultiSelection>
+  <MobileToolTipsSlideToRemove>Du kan glida från höger till vänster på någon av posterna i listan för att ta bort den. En inline bort knappen kommer att visas på toppen av listan objektet.</MobileToolTipsSlideToRemove>
+  <MobileToolTipsTapAndHoldForMenu>Tryck och håll på någon av posterna i listan för att visa snabbmenyn. Samma snabbmeny visas av kranen på "avslöjande" -knappen</MobileToolTipsTapAndHoldForMenu>
+  <MobileToolTipsDoubleTapForPreview>Enda tryck på filen för att markera den, dubbeltryck för att förhandsgranska eller ladda ner den. Enda tryck på mappen för att öppna den.</MobileToolTipsDoubleTapForPreview>
+  <MobileToolTipsPullDownToRefresh>List att ladda dess innehåll.</MobileToolTipsPullDownToRefresh>
+  <MobileToolTipsPinchToScale>Du kan använda "nypa" gest för att zooma in och zooma ut bilder.</MobileToolTipsPinchToScale>
+  <MobileToolTipsTapToHideBars>Tryck var som helst på bilden panelen för att växla verktygsfält.</MobileToolTipsTapToHideBars>
+  <MobileToolTipsSlideLeftRightToNext>Byta bilder med glid gest.</MobileToolTipsSlideLeftRightToNext>
+
+  <DownloadToCloudMobileTip>Enda tryck för att välja mapp, dubbelklicka för att öppna den.</DownloadToCloudMobileTip>
+  
+  <UploadTotalMaxSizeMessage>Notera! Den maximala storleken på alla filer som laddas upp bör inte överstiga {0}.</UploadTotalMaxSizeMessage>
+  <UploadOneFileMaxSizeMessage>Notera! Den maximala storleken på varje uppladdad fil bör inte överstiga {0}.</UploadOneFileMaxSizeMessage>
+  <UploadUnlimitedSizeMessage>Notera! Storleken på uppladdade filer är obegränsad.</UploadUnlimitedSizeMessage>
+  <SimpleUploadSetFileNameNote>Anteckning 2! Efter en fil är vald kan du ändra namnet som filen kommer att ha efter uppladdning</SimpleUploadSetFileNameNote>
+
+  <AnonymousUploadTitle>Ladda upp filer till den här mappen</AnonymousUploadTitle>
+  <AnonymousUploadDescription>Du kan ladda upp filer till denna mapp. Klicka på "Bläddra" -knappen nedan och välj filer.</AnonymousUploadDescription>
+  <AnonymousUploadOverwriteHint>Om den överförda filen redan finns, kommer den att ersättas.</AnonymousUploadOverwriteHint>
+  <AnonymousUploadShowUploadHint>Visa uppladdningsformuläret</AnonymousUploadShowUploadHint>
+  <AnonymousUploadHideUploadHint>Göm uppladdningsformuläret</AnonymousUploadHideUploadHint>
+  <AnonymousUploadNewFolderNameHint>I fältet nedan kan du ange en underkatalog namn (mapp skapas om den inte finns) där filerna laddas upp:</AnonymousUploadNewFolderNameHint>
+  <AnonymousUploadCompleteTitle>Uppladdning till mappen {0} är klar</AnonymousUploadCompleteTitle>
+  <AnonymousUploadExistsFilesMessage>Följande fil (er) inte har upp eftersom fil (er) med samma namn (s) finns redan: {0}.</AnonymousUploadExistsFilesMessage>
+  <AnonymousUploadOwnersNote>Notera från ägaren mappen</AnonymousUploadOwnersNote>
+  <AnonymousDownloadPageTitle>Nedladdning fil</AnonymousDownloadPageTitle>
+  <AnonymousDownloadFileHint>Nedladdning fil</AnonymousDownloadFileHint>
+  <AnonymousUploadPageTitle>Överför till mapp</AnonymousUploadPageTitle>
+  <AnonymousPublicFolderPageTitle>gemensam mapp</AnonymousPublicFolderPageTitle>
+  <AnonymousLoginAccessUserFailure>Du är inloggad på kontot som inte har tillgång till resursen. Ange andra referenser för din åtkomst. Om du inte känner till dem, var vänlig kontakta ägaren av en offentlig länk eller administratören.</AnonymousLoginAccessUserFailure>
+  <ProgressGettingAnonymLink>Offentlig länk skapande</ProgressGettingAnonymLink>
+  <ProgressGettingAnonymLinks>Få anonyma länkar</ProgressGettingAnonymLinks>
+  <ProgressGettingBoxViewLink>Komma Box Se länk</ProgressGettingBoxViewLink>
+  <AutodeskScriptNotIncludedMessage>Det gick inte att läsa Autodesk Viewer script</AutodeskScriptNotIncludedMessage>
+  <ProgressUninitializeAutodeskViewer>Stängning Autodesk Viewer</ProgressUninitializeAutodeskViewer>
+  <ProgressGettingAutodeskViewLink>Komma Autodesk Visa info</ProgressGettingAutodeskViewLink>
+  <AnonymousChangeLanguageHint>Välj språk</AnonymousChangeLanguageHint>
+  <AnonymousUpLinkHint>Återgå till överordnad mapp</AnonymousUpLinkHint>
+  <AnonymousPasswordDescription>Mappen är lösenordsskyddad</AnonymousPasswordDescription>
+  <AnonymousPasswordIncorrectMessage>Lösenordet är felaktigt</AnonymousPasswordIncorrectMessage>
+  <AnonymousErrorTitle>Offentlig länk fel</AnonymousErrorTitle>
+  <AnonymousErrorNotFound>Offentlig länk "{0}" inte hittas!</AnonymousErrorNotFound>
+  <AnonymousErrorAccessDenied>Du har inte behörighet att använda offentlig länk "{0}"</AnonymousErrorAccessDenied>
+  <AnonymousErrorFileNotFound>Allmänheten länken "{0}" avser en icke-existerande fil eller mapp eller NTFS läsrättigheter nekas</AnonymousErrorFileNotFound>
+  <AnonymousErrorUnknownLinkType>Allmänheten länken "{0}" hittades inte</AnonymousErrorUnknownLinkType>
+  <AnonymousSendEmailSubject>Besökare aktivitet gemensam mapp</AnonymousSendEmailSubject>
+  <AnonymousSendEmailUploadBody>Följande filer har överförts till din offentliga mapp {0}: {1}.</AnonymousSendEmailUploadBody>
+  <AnonymousSendEmailDownloadBody>Filen {0} laddades ner från din offentliga mapp {1}.</AnonymousSendEmailDownloadBody>
+  <AnonymousSendEmailZipDownloadBody>Hela innehållet i gemensam mapp {0} laddades ner i en ZIP-arkiv.</AnonymousSendEmailZipDownloadBody>
+  <AnonymousViewLinksButton>Se länkar</AnonymousViewLinksButton>
+  <AnonymousViewLinksHint>Om du vill visa befintliga offentliga länkar</AnonymousViewLinksHint>
+  <AnonymousViewLinksWindowTitle>offentliga länkar</AnonymousViewLinksWindowTitle>
+  <AnonymousViewLinksDateCreatedColumn>Skapelsedagen</AnonymousViewLinksDateCreatedColumn>
+  <AnonymousViewLinksDateExpiredColumn>Utgångsdatum</AnonymousViewLinksDateExpiredColumn>
+  <AnonymousViewLinksPermissionColumn>Lov</AnonymousViewLinksPermissionColumn>
+  <AnonymousViewLinksDownloadedColumn>Antalet nedladdningar kvar</AnonymousViewLinksDownloadedColumn>
+  <ProgressDeletingAnonymousLink>Radering offentlig länk</ProgressDeletingAnonymousLink>
+  <ProgressSavingAnonymousLink>Sparar offentlig länk</ProgressSavingAnonymousLink>
+  <AnonymousEditLinkWindowTitle>Redigera offentlig länk för "{0}"</AnonymousEditLinkWindowTitle>
+  <AnonymousEditLinkShowUrl>show länk</AnonymousEditLinkShowUrl>
+  <AnonymousEditLinkNotFound>Allmänheten länken inte hittas eller dess giltighetstid har löpt ut</AnonymousEditLinkNotFound>
+
+  <AnonymousLinkSendViaButton>Sänd via ...</AnonymousLinkSendViaButton>
+  <AnonymousLinkSendViaEmailItem>E-post...</AnonymousLinkSendViaEmailItem>
+  <AnonymousLinkSendButton>Skicka via e-post ...</AnonymousLinkSendButton>
+  <AnonymousLinkSendSubject>Web File Manager Public Link</AnonymousLinkSendSubject>
+
+  <AnonymousLinkAdvOptTitle>ytterligare parametrar</AnonymousLinkAdvOptTitle>
+  <AnonymousLinkViewTypeButton>länkvy</AnonymousLinkViewTypeButton>
+  <AnonymousLinkViewTypeDefault>Full</AnonymousLinkViewTypeDefault>
+  <AnonymousLinkViewTypeShort>Kort</AnonymousLinkViewTypeShort>
+
+  <AnonymousLinkShowCommentsLabel>Visa beskrivning, etiketter och kommentarer</AnonymousLinkShowCommentsLabel>
+  <AnonymousLinkShowCommentsShort>Visa kommentarer</AnonymousLinkShowCommentsShort>
+
+  <QRCodeButton>QR-kod</QRCodeButton>
+
+  <AnonymousLinkLimitedAccessTitle>Begränsad åtkomst</AnonymousLinkLimitedAccessTitle>
+  <AnonymousLinkLimitAccessCheckBox>Begränsa tillgång endast till specificerade autentiserade användare</AnonymousLinkLimitAccessCheckBox>
+  <AnonymousLinkLimitAccessTextArea>Skriv användarnamn eller e-post (kommaseparerade)</AnonymousLinkLimitAccessTextArea>
+  <AnonymousLinkLimitAccessSendCheckBox>Skicka meddelanden till vissa användare</AnonymousLinkLimitAccessSendCheckBox>
+  <AnonymousLinkLimitAccessPersMsgLabel>Personligt meddelande (valfritt)</AnonymousLinkLimitAccessPersMsgLabel>
+  <AnonymousLinkLimitAccessPassAndUsersMsg>Du har angett ditt lösenord och användare samtidigt få tillgång till länken. Vänligen ange något man.</AnonymousLinkLimitAccessPassAndUsersMsg>
+  <AnonymousLinkLimitAccessUsersNotFound>Användarna:
+    {0}
+    inte existerar</AnonymousLinkLimitAccessUsersNotFound>
+  <AnonymousLinkLimitAccessEmailsNotFound>E-post:
+    {0}
+    inte existerar</AnonymousLinkLimitAccessEmailsNotFound>
+  <AnonymousLinkLimitAccessUsersEmailsNotFound>Användarna:
+    {0}
+    och e-post:
+    {1}
+    inte existerar</AnonymousLinkLimitAccessUsersEmailsNotFound>
+
+  <AnonymousLinkUnableToCreate>Det går inte att skapa anonym länk</AnonymousLinkUnableToCreate>
+  <AnonymousLinkShortUrlLabel>Klicka på ikonen Uppdatera (längst ned till höger) för att få en kort länk</AnonymousLinkShortUrlLabel>
+  <AnonymousLinkShortUrlUpdate>Få eller uppdatera en kort länk</AnonymousLinkShortUrlUpdate>
+  <AnonymousLinkLongUrlNotSpecified>Den långa URL anges inte</AnonymousLinkLongUrlNotSpecified>
+
+  <ClientFileOrDirectoryAlreadyExists>En fil eller katalog med detta namn finns redan</ClientFileOrDirectoryAlreadyExists>
+  <ClientPermissionsAllowTypes>Aktuella behörigheter tillåter denna operation endast med följande filtyper {0}</ClientPermissionsAllowTypes>
+  <ClientPermissionsDenyTypes>Aktuella behörigheter förbjuder denna operation med följande filtyper {0}</ClientPermissionsDenyTypes>
+  <OfficeApplicationNotFoundAlert>Office-programmet inte hittas. Öppna en fil manuellt med en länk i textruta.</OfficeApplicationNotFoundAlert>
+  <OfficeAnonymousEditPublicLinkError>Det går inte att skapa offentlig länk till anonymt öppna Office-dokument.</OfficeAnonymousEditPublicLinkError>
+
+  <GoogleOWAViewLinkMessage>Om du vill visa dokumentet klicka på länken nedan:</GoogleOWAViewLinkMessage>
+  <ZohoEditLinkMessage>Att redigera dokumentet klicka länken nedan:</ZohoEditLinkMessage>
+  <PixlrEditLinkMessage>Att redigera bilden klicka länken nedan:</PixlrEditLinkMessage>
+  <PixlrNewImageCreateTitle>Skapa en ny bild med Pixlr</PixlrNewImageCreateTitle>
+  <PixlrNewImageLinkMessage>Att skapa en ny bild, klicka på länken nedan:</PixlrNewImageLinkMessage>
+
+  <DownloadTitle>Nedladdning av flera filer</DownloadTitle>
+  <DownloadSimpleTab>Standard</DownloadSimpleTab>
+  <DownloadJavaTab>java</DownloadJavaTab>
+  <DownloadIEPrevent>Internet Explorer förhindrar automatisk nedladdning</DownloadIEPrevent>
+  <DownloadIEClickHere>Klicka här för att ladda ner</DownloadIEClickHere>
+  <DownloadIEArchiveReady>Arkiv "{0}" med markerade filer skapades och är redo för nedladdning</DownloadIEArchiveReady>
+  <DownloadIECaption>Nedladdningen är klar</DownloadIECaption>
+
+  <SettingsTitle>inställningar</SettingsTitle>
+  <SettingsLanguage>Språk</SettingsLanguage>
+  <SettingsLogOutRequired>Nya ändringar kommer att tillämpas efter utloggning eller webbläsare omstart!</SettingsLogOutRequired>
+  <ThemeTitle>Byta tema</ThemeTitle>
+  <SettingsTheme>Välj tema</SettingsTheme>
+  <ThemeDefaultTitle>standard~~POS=TRUNC</ThemeDefaultTitle>
+  <ThemeGrayTitle>grå tema</ThemeGrayTitle>
+  <ThemeAccessTitle>tillgänglighet Theme</ThemeAccessTitle>
+
+  <ChangeUserPasswordTitle>Ändra lösenord</ChangeUserPasswordTitle>
+  <ChangeUserPasswordOldPassword>Gammalt lösenord</ChangeUserPasswordOldPassword>
+  <ChangeUserPasswordNewPassword>Nytt lösenord</ChangeUserPasswordNewPassword>
+  <ChangeUserPasswordRepeatNewPassword>upprepa nya lösenordet</ChangeUserPasswordRepeatNewPassword>
+  <ChangeUserPasswordPasswordsNotMatch>Lösenorden matchar inte.</ChangeUserPasswordPasswordsNotMatch>
+  <ChangeUserPasswordSuccessMessage>Lösenordet har ändrats.</ChangeUserPasswordSuccessMessage>
+  <ChangeUserPasswordInvalidMessage>Felaktigt lösenord.</ChangeUserPasswordInvalidMessage>
+
+  <ChangeUserEmailTitle>Ändra användare e-post</ChangeUserEmailTitle>
+  <ChangeUserEmailEmail>E-post</ChangeUserEmailEmail>
+  <ChangeUserEmailSuccessMessage>E-post har ändrats.</ChangeUserEmailSuccessMessage>
+
+  <UserHelpTitle>användarhjälp</UserHelpTitle>
+
+  <LicenseTitle>licens~~POS=TRUNC</LicenseTitle>
+  <LicenseTrial>Oregistrerade 30-dagars utvärderingsversion</LicenseTrial>
+  <LicensePrompt>Licensierad version {0} Användare räkna: {1} {0} Inköpsdatum: {2} {0}</LicensePrompt>
+  <LicenseFreeUpgradeMessage>Du har fortfarande {0} dagar för fria uppgraderingar och support.</LicenseFreeUpgradeMessage>
+  <LicenseCheckMessage>Mer än ett år har gått från inköpsdatum. För att använda denna version bör du förnya din prenumeration eller nedgradera till en äldre version. Du kan kontrollera din licens och hitta lediga utsläpp på &lt;a href='{0}' target='_blank'&gt; licenskontroll &lt;/a&gt;</LicenseCheckMessage>
+  
+  <ViewPopupBlocked>Nytt fönster har blockerats av en popup-blockerare</ViewPopupBlocked>
+  
+  <LoginTwoFactorTitle>Verifiering i två steg</LoginTwoFactorTitle>
+  <LoginTitle>Logga in</LoginTitle>
+  <LoginRemember>Kom ihåg mig nästa gång</LoginRemember>
+  <LoginUISelect>Gränssnitt</LoginUISelect>
+  <LoginUIStandard>Standard</LoginUIStandard>
+  <LoginUITouch>Mobil</LoginUITouch>
+  <LoginLanguage>Språk</LoginLanguage>
+  <LoginLogin>Logga in</LoginLogin>
+  <LoginFailure>Ditt inloggningsförsök misslyckades.</LoginFailure>
+  <LoginBlocked>Kontot är blockerad. Vänta {0} minuter för att försöka igen.</LoginBlocked>
+  <LoginNotActivated>Ditt konto är inte aktiverat.</LoginNotActivated>
+  <LoginResendActivation>Om meddelande med aktiveringskoden inte tas emot under en lång tid, klicka på {0} länk att skicka aktiveringskoden.</LoginResendActivation>
+  <LoginResendActivationLink>skicka aktiveringskoden</LoginResendActivationLink>
+  <LoginResendActivationCode>Klicka på {0} länk att skicka aktiveringskoden.</LoginResendActivationCode>
+  
+  <ActivateAccountOk>Konto aktiverats!</ActivateAccountOk>
+  <ActivateAccountResultLabel>aktivering resultat</ActivateAccountResultLabel>
+  <ActivateAccountErrorOnlyFormsAuth>Kontoaktivering kan användas endast med formulärautentisering</ActivateAccountErrorOnlyFormsAuth>
+  <ActivateAccountErrorNotRequired>Kontoaktivering är inaktiverad i programinställningar. Konto aktiveras automatiskt efter registrering.</ActivateAccountErrorNotRequired>
+  <ActivateAccountErrorAlreadyActivated>Konto redan aktiverats</ActivateAccountErrorAlreadyActivated>
+  <ActivateAccountErrorInvalidCode>Aktiveringskoden är inte giltig</ActivateAccountErrorInvalidCode>
+  <ActivateAccountErrorAccountNotFound>konto inte funnet</ActivateAccountErrorAccountNotFound>
+  <ActivateAccountErrorLinkBroken>Aktiveringslänk bryts</ActivateAccountErrorLinkBroken>
+  <ActivateAccountReturnToLogin>Återgå till inloggningssidan</ActivateAccountReturnToLogin>
+  
+  <LoginRender>Göra</LoginRender>
+  
+  <LogoutTitle>Web filhanteraren Logga ut</LogoutTitle>
+  <LogoutSessionEnded>Den aktuella sessionen är avslutad</LogoutSessionEnded>
+  <LogoutCloseWindow>Stäng fönstret</LogoutCloseWindow>
+  <LogoutEnterAgain>logga in igen</LogoutEnterAgain>
+  <LogoutClosingBrowserRequired>Uppmärksamhet! Vem som helst kan logga in på ditt konto! Om du använder en delad dator, så ska du stänger webbläsarfönstret (inte bara fliken) för att rensa autentisering i din webbläsare! För Firefox kan du rensa autentisering på menyn: Verktyg-&gt; Rensa Sänt Historia ...-&gt; detaljer-&gt; kontrollera Active Logins-&gt; tryck på Rensa nu.</LogoutClosingBrowserRequired>
+  <RecoverPasswordTitle>Återställa lösenord</RecoverPasswordTitle>
+  <RecoverPasswordEmailPassword>Skicka lösenord via e-post</RecoverPasswordEmailPassword>
+  <RecoverPasswordErrorInvalidUserName>Ogiltigt användarnamn.</RecoverPasswordErrorInvalidUserName>
+  <RecoverPasswordErrorNoEmail>Denna användare har ingen e-postadress definierad.</RecoverPasswordErrorNoEmail>
+  <RecoverPasswordErrorSendEmail>Ett fel uppstod när du skickar e-post.</RecoverPasswordErrorSendEmail>
+  <RecoverPasswordSuccess>Ditt lösenord har skickats till din e-postadress.</RecoverPasswordSuccess>
+
+  <RecoverUserNameTitle>återhämta namn</RecoverUserNameTitle>
+  <RecoverUserEmailName>Skicka namn via e-post</RecoverUserEmailName>
+  <RecoverUserNameErrorInvalidEmail>Ogiltig användare e-post.</RecoverUserNameErrorInvalidEmail>
+  <RecoverUserNameErrorNoEmail>E-postadress hittades inte.</RecoverUserNameErrorNoEmail>
+  <RecoverUserNameSuccess>Ditt namn har skickats till din e-postadress.</RecoverUserNameSuccess>
+
+  <ChangeEmailTitle>Byta e-mail</ChangeEmailTitle>
+  <ChangeEmailEmail>Ny E-post</ChangeEmailEmail>
+  <ChangeEmailSubmit>Lämna</ChangeEmailSubmit>
+  <ChangeEmailStatusSuccess>E-post har ändrats</ChangeEmailStatusSuccess>
+
+  <RegisterTitle>Registrera</RegisterTitle>
+  <RegisterEmail>E-post</RegisterEmail>
+  <RegisterExtraInfo>extra info</RegisterExtraInfo>
+  <RegisterCaptcha>Skriv in texten du ser i bilden nedan</RegisterCaptcha>
+  <RegisterSubmit>Lämna</RegisterSubmit>
+  <RegisterErrorPasswordNotMatch>Lösenorden matchar inte.</RegisterErrorPasswordNotMatch>
+  <RegisterErrorUserExists>Detta användarnamn eller e-postadress används redan.</RegisterErrorUserExists>
+  <RegisterErrorCaptchaInvalid>Bildtext har inte angetts korrekt</RegisterErrorCaptchaInvalid>
+  <RegisterSuccess>Ny användare har lagts till.</RegisterSuccess>
+  <RegisterActivationSent>Aktiveringskod skickades till din e-post.</RegisterActivationSent>
+  <RegisterActivationCheckEmail>Kontrollera din brevlåda (speciellt skräp mapp) och följ instruktionerna i e-post.</RegisterActivationCheckEmail>
+  
+  <FolderGridUserPermissionsColumn>Åtkomst för användare</FolderGridUserPermissionsColumn>
+  <FolderGridGroupPermissionsColumn>Åtkomst för grupper</FolderGridGroupPermissionsColumn>
+
+  <LoginLinkText>Logga in</LoginLinkText>
+  <RecoverPasswordLinkText>Glömt ditt lösenord?</RecoverPasswordLinkText>
+  <RecoverUserNameLinkText>Glömde namn?</RecoverUserNameLinkText>
+  <RegisterLinkText>Registrera</RegisterLinkText>
+  <ChangeEmail>Byta e-mail</ChangeEmail>
+  <LoginMobileVersionLinkText>Mobil version (De flesta smartphones och pekplattor)</LoginMobileVersionLinkText>
+
+  <FileIsNotZipArchive>Filen {0} är inte ZIP-arkiv</FileIsNotZipArchive>
+
+  <FileModificationsAuthor>Författare</FileModificationsAuthor>
+  <FileModificationsHistory>Visa historik</FileModificationsHistory>
+  <FileModificationsWindowTitle>Ändringar av filen "{0}"</FileModificationsWindowTitle>
+  <FileModificationsTypeCreated>Skapad</FileModificationsTypeCreated>
+  <FileModificationsTypeModified>Ändrad</FileModificationsTypeModified>
+  <FileModificationsTypeRenamed>omdöpt</FileModificationsTypeRenamed>
+  <FileModificationsTypeRestored>restaurerade</FileModificationsTypeRestored>
+  <FileModificationsTypeDeleted>raderade</FileModificationsTypeDeleted>
+
+  <ChangingReadOnlyProgressMessage>Ändra skrivskyddad attribut</ChangingReadOnlyProgressMessage>
+
+  <ImageViewerWindowTitle>Bildvisare [{0}]</ImageViewerWindowTitle>
+  <ImageViewerLoadingMessage>Laddar bildvisare</ImageViewerLoadingMessage>
+  <ImageViewerLoadingImageMessage>Laddar bild</ImageViewerLoadingImageMessage>
+  <ImageViewerFirstImageTip>första bilden</ImageViewerFirstImageTip>
+  <ImageViewerPreviousImageTip>Föregående bild</ImageViewerPreviousImageTip>
+  <ImageViewerRefreshTip>Refresh bilder lista</ImageViewerRefreshTip>
+  <ImageViewerNextImageTip>nästa bild</ImageViewerNextImageTip>
+  <ImageViewerLastImageTip>sista bilden</ImageViewerLastImageTip>
+  <ImageViewerRunSlideShow>Köra bilder bildspel</ImageViewerRunSlideShow>
+  <ImageViewerStopSlideShow>Stoppa bilder bildspel</ImageViewerStopSlideShow>
+  <ImageViewerImageSimpleInfo>{0} / {1}, {2} ({3})</ImageViewerImageSimpleInfo>
+  <ImageViewerImageLoadErrorMessage>Bilden hittades inte eller kan inte visas</ImageViewerImageLoadErrorMessage>
+  <ImageViewerShowImageSizeOfWindow>Visa bild med verklig storlek</ImageViewerShowImageSizeOfWindow>
+  <ImageViewerShowRealImageSize>Klicka för att förstora</ImageViewerShowRealImageSize>
+
+  <PasswordExpiresTitle>lösenordet går ut</PasswordExpiresTitle>
+  <PasswordExpiresMessage>Lösenordet går ut efter {0} dag (ar)!</PasswordExpiresMessage>
+  <PasswordExpiredMessage>Lösenordet löpt ut.</PasswordExpiredMessage>
+  <PasswordChangeMessage>För att ändra lösenord, välj {0} {1} -&gt; {2} {3} i verktygsfältet.</PasswordChangeMessage>
+
+  <UnzipContentTotalFiles>Totala filer: {0} ({1})</UnzipContentTotalFiles>
+
+  <VideoConversionJobNotFound>
+    Det går inte att hitta den angivna omvandlingsprocessen.
+    Möjliga orsaker:
+    1. Omvandling avslutat en lång tid sedan och information om det här jobbet togs bort.
+    2. Omvandlingsprocessen avslutades onormalt.
+  </VideoConversionJobNotFound>
+  <VideoConversionUtilityNotFound>Det går inte hitta verktyg för att utföra den begärda åtgärden: {0}</VideoConversionUtilityNotFound>
+  <!-- The current security principal "{0}" has insufficiant permissions to executable file "{1}".-->
+  <VideoConversionUtilityInsufficientPermissions>Den aktuella användaren "{0}" nekas tillgång till körbar fil "{1}".</VideoConversionUtilityInsufficientPermissions>
+  <VideoConversionOperationCancelled>drift avbröts</VideoConversionOperationCancelled>
+  <VideoConversionUtilityFailed>Konverteringsverktyget avslutades onormalt</VideoConversionUtilityFailed>
+  <VideoConversionOutputFileBusy>Utdatafilen används av en annan omvandlingsprocessen</VideoConversionOutputFileBusy>
+
+  <VideoConvertWindowValidatorPositiveInt>Måste vara ett positivt heltal</VideoConvertWindowValidatorPositiveInt>
+  <VideoConvertWindowTitle>konvertera video</VideoConvertWindowTitle>
+  <VideoConvertWindowInputFile>Indatafil</VideoConvertWindowInputFile>
+  <VideoConvertWindowOutputFile>utdatafil</VideoConvertWindowOutputFile>
+  <VideoConvertWindowOutputFormat>Utmatningsformat</VideoConvertWindowOutputFormat>
+  <VideoConvertWindowBitrate>Bitrate (kbps)</VideoConvertWindowBitrate>
+  <VideoConvertWindowFrameResolution>frame upplösning</VideoConvertWindowFrameResolution>
+  <VideoConvertWindowDAR>Bildförhållande</VideoConvertWindowDAR>
+  <VideoConvertWindowPAR>Pixelproportionerna</VideoConvertWindowPAR>
+  <VideoConvertWindowResize>Ändra storlek</VideoConvertWindowResize>
+  <VideoConvertWindowProfile>Profil</VideoConvertWindowProfile>
+  <VideoConvertWindowWidth>Bredd</VideoConvertWindowWidth>
+  <VideoConvertWindowHeight>Höjd</VideoConvertWindowHeight>
+  <VideoConvertWindowExtractDetailsProgressMsg>Extrahera videoinformation</VideoConvertWindowExtractDetailsProgressMsg>
+  <VideoConvertWindowOutputFileExistsTitle>Utdatafil existerar</VideoConvertWindowOutputFileExistsTitle>
+  <VideoConvertWindowOutputFileExistsMsg>Utdatafil finns redan. Det kommer att skrivas över.</VideoConvertWindowOutputFileExistsMsg>
+  <VideoConvertWindowPrepareToConvert>Förbereder sig för att konvertera video</VideoConvertWindowPrepareToConvert>
+  <VideoConvertWindowOutputFileMatchInputFile>Utfilnamet matchar ingångs filnamnet</VideoConvertWindowOutputFileMatchInputFile>
+
+  <VideoConvertProgressWindowTitle>konvertera video</VideoConvertProgressWindowTitle>
+  <VideoConvertProgressWindowInputFile>Indatafil</VideoConvertProgressWindowInputFile>
+  <VideoConvertProgressWindowOutputFile>utdatafil</VideoConvertProgressWindowOutputFile>
+  <VideoConvertProgressWindowStatus>Status</VideoConvertProgressWindowStatus>
+  <VideoConvertProgressWindowStatusTerminating>avslutande</VideoConvertProgressWindowStatusTerminating>
+  <VideoConvertProgressWindowStatusPreparing>förbereda</VideoConvertProgressWindowStatusPreparing>
+  <VideoConvertProgressWindowStatusProgress>Steg {0} av {1}</VideoConvertProgressWindowStatusProgress>
+  <VideoConvertProgressWindowStatusDone>Gjort</VideoConvertProgressWindowStatusDone>
+
+  <PlayHtml5VideoNotSupported>Din webbläsare har inte stöd för HTML 5 video inslag.</PlayHtml5VideoNotSupported>
+  <PlayHtml5VideoPlayFailed>Spela video misslyckades</PlayHtml5VideoPlayFailed>
+  <PlayHtml5AudioPlayFailed>Spela upp ljud misslyckades</PlayHtml5AudioPlayFailed>
+  <PlayHtml5AudioTitle>Titel</PlayHtml5AudioTitle>
+  <PlayHtml5AudioNotSupported>Din webbläsare stöder inte HTML 5 ljudelement.</PlayHtml5AudioNotSupported>
+  <PlayHtml5AudioArtist>Konstnär</PlayHtml5AudioArtist>
+  <PlayHtml5AudioAlbum>Album</PlayHtml5AudioAlbum>
+  <PlayHtml5AudioYear>År</PlayHtml5AudioYear>
+  <PlayHtml5AudioDuration>Varaktighet</PlayHtml5AudioDuration>
+  <PlayHtml5AudioBitrate>bitrate</PlayHtml5AudioBitrate>
+  <PlayHtml5AudioVolume>Volym</PlayHtml5AudioVolume>
+
+  <!-- Root title -->
+  <RootTitle>rot</RootTitle>
+
+  <!-- Recent feature keys -->
+  <RecentRootTitle>Nyligen</RecentRootTitle>
+  <RecentDeleteOnePrompt>Är du säker på att du vill radera "{0}" från dina senaste objekt?</RecentDeleteOnePrompt>
+  <RecentDeleteManyPrompt>Är du säker på att du vill ta bort dessa {0} objekt från senaste objekt?</RecentDeleteManyPrompt>
+  <RecentPathNotExist>Den senaste tidens väg "{0}" finns inte eller åtkomst nekad</RecentPathNotExist>
+  <RecentAllWithoutGroupingTitle>Alla w / o gruppering</RecentAllWithoutGroupingTitle>
+  <RecentEditGroupTitle>redigerade</RecentEditGroupTitle>
+  <RecentViewGroupTitle>Tittade</RecentViewGroupTitle>
+  <RecentDownloadGroupTitle>nedladdade</RecentDownloadGroupTitle>
+  <RecentUploadGroupTitle>uppladdad</RecentUploadGroupTitle>
+  <RecentCreateGroupTitle>Skapad</RecentCreateGroupTitle>
+
+  <!-- Trash feature keys -->
+  <TrashRootTitle>Skräp</TrashRootTitle>
+  <TrashLabelDateDeleted>datum utgår</TrashLabelDateDeleted>
+  <TrashDeleteOnePrompt>Är du säker på att du vill ta bort "{0}" från papperskorgen?</TrashDeleteOnePrompt>
+  <TrashDeleteManyPrompt>Är du säker på att du vill ta bort dessa {0} objekt från papperskorgen?</TrashDeleteManyPrompt>
+  <TrashEmptyTrashLabel>Töm papperskorgen</TrashEmptyTrashLabel>
+  <TrashRestoreSelectedLabel>Återställa</TrashRestoreSelectedLabel>
+  <TrashRestoreAllLabel>återställa alla</TrashRestoreAllLabel>
+  <TrashEmptyTrashPrompt>Är du säker på att du vill tömma papperskorgen?</TrashEmptyTrashPrompt>
+  <TrashRestoreAllPrompt>Är du säker på att du vill återställa alla objekt från papperskorgen?</TrashRestoreAllPrompt>
+  <TrashProgressRestoring>Återhämta sig från papperskorgen</TrashProgressRestoring>
+  <TrashFolderNotFound>Skräp katalog hittades inte</TrashFolderNotFound>
+  <TrashBalloonRestored>Restaurerade artiklar: {0} av {1}</TrashBalloonRestored>
+  <TrashDeleteDirectlyLabel>Ta bort direkt utan att ta bort till papperskorgen</TrashDeleteDirectlyLabel>
+  <TrashUsedSpaceHint>{0} används</TrashUsedSpaceHint>
+  <TrashLimitSizeHint>Används {0} av {1} ({2})</TrashLimitSizeHint>
+  <TrashLargeItemsShelfTimeHint>Lagringstiden av objekten är större än {0}: {1} dag (ar)</TrashLargeItemsShelfTimeHint>
+  <TrashSmallItemsShelfTimeHint>För alla andra: {0} dag (ar)</TrashSmallItemsShelfTimeHint>
+  <TrashItemsShelfTimeHint>Lagringstiden av objekten: {0} dag (ar)</TrashItemsShelfTimeHint>
+  <TrashAvailableSpaceHint>Maximalt tillgängliga storleken {0}</TrashAvailableSpaceHint>
+  <TrashDeletedFromFolderHint>Raderas från {0}</TrashDeletedFromFolderHint>
+  <TrashExceededMessage>Följande objekt är för stora och kan inte placeras i papperskorgen (begränsning av {0} överskrids):</TrashExceededMessage>
+  <TrashErrorSuffixMessage>Försök att kontrollera alternativet "{0}" och sedan ta bort filen (s) alltid bortom hämtning</TrashErrorSuffixMessage>
+
+  <!-- Shared by link -->
+  <SharedByLinkRootTitle>Delad av länk</SharedByLinkRootTitle>
+
+  <!-- Shared for you -->
+  <SharedForYouRootTitle>Delat med dig</SharedForYouRootTitle>
+  <SharedForYouUnableToGetUrl>Det går inte att få URL</SharedForYouUnableToGetUrl>
+
+  <!-- Watch for modifications -->
+  <WatchForModifsCommand>Se upp för ändringar</WatchForModifsCommand>
+  <WatchForModifsStartCommand>Börja titta</WatchForModifsStartCommand>
+  <WatchForModifsEditCommand>ändra tittar</WatchForModifsEditCommand>
+  <WatchForModifsStopCommand>sluta titta</WatchForModifsStopCommand>
+  <WatchForModifsViewChangesCommand>Visa ändringar</WatchForModifsViewChangesCommand>
+  <WatchForModifsSubscriptionSuccessMessage>Du har tecknat ändringar "{0}"</WatchForModifsSubscriptionSuccessMessage>
+  <WatchForModifsStopSuccessMessage>Övervakningen "{0}" har inaktiverats framgångsrikt</WatchForModifsStopSuccessMessage>
+  <WatchForModifsIncludingNestedLabel>Överväga kapslade filer, mappar</WatchForModifsIncludingNestedLabel>
+  <WatchForModifsParentWatchExistMessage>För det valda alternativet har redan tilldelats övervakning för den överordnade mappen "{0}".</WatchForModifsParentWatchExistMessage>
+  <WatchForModifsRootFolder>varningar</WatchForModifsRootFolder>
+  <WatchForModifsStartProgressLoading>möjliggöra att titta</WatchForModifsStartProgressLoading>
+  <WatchForModifsStopProgressLoading>Terminatie tittar</WatchForModifsStopProgressLoading>
+  <WatchForModifsIconHint>Aktiverad klocka för ändringar</WatchForModifsIconHint>
+  <WatchForModifsNotifCheckBox>Meddela om ändringar av e-post:</WatchForModifsNotifCheckBox>
+  <WatchForModifsWatchedUsersCheckBox>Övervaka endast användare (lämna tomt om du övervaka alla):</WatchForModifsWatchedUsersCheckBox>
+  <WatchForModifsIgnoreOwnerCheckBox>Ignorera mina egna ändringar</WatchForModifsIgnoreOwnerCheckBox>
+  <WatchForModifsActionsCheckBox>Övervaka alla åtgärder (eller vissa åtgärder från listan nedan)</WatchForModifsActionsCheckBox>
+  <WatchForModifsNestedItemsWarning>Uppmärksamhet! När du lägger till övervakning för den valda mappen, alla bifogade filer och mappar för vilka individuell övervakning har lagts tidigare övervakningen kommer att tas bort. Vill du fortsätta?</WatchForModifsNestedItemsWarning>
+
+  <WelcomeWindowHideCheckboxLabel>Visa inte detta genom nästa logga in</WelcomeWindowHideCheckboxLabel>
+
+  <LogsGridMoreInfoColumn>Mer information</LogsGridMoreInfoColumn>
+  <LogsGridDetailsTitle>detaljer</LogsGridDetailsTitle>
+  <LogsGridPhysPathColumn>fysiska sökvägen</LogsGridPhysPathColumn>
+  <LogsGridIsFolderColumn>Mapp?</LogsGridIsFolderColumn>
+  <LogsGridIsPublicColumn>Offentlig?</LogsGridIsPublicColumn>
+  <LogsGridByWebDavColumn>WebDAV?</LogsGridByWebDavColumn>
+
+  <NoCommentsYetHint>inga kommentarer än</NoCommentsYetHint>
+  <NoHistoryYetHint>Ingen historia ännu</NoHistoryYetHint>
+
+  <DetailsPropertyValuesCouldNotBeWritten>Det gick inte att spara fastighetsvärden, mabe filtypen inte stödja en sådan möjlighet eller om det finns ett fel i program som är associerat med filen.</DetailsPropertyValuesCouldNotBeWritten>
+
+  <AdminCommandHelp>Hjälpa</AdminCommandHelp>
+  <AdminCommandAddUser>Lägg till användare</AdminCommandAddUser>
+  <AdminCommandAddGroup>Lägg till grupp</AdminCommandAddGroup>
+  <AdminCommandRemoveUser>Ta bort användare</AdminCommandRemoveUser>
+
+  <AdminCommandSelectUsers>Lägg till användare</AdminCommandSelectUsers>
+  <AdminCommandSelectGroups>lägga till grupper</AdminCommandSelectGroups>
+  <AdminCommandRemoveUsers>Ta bort användare</AdminCommandRemoveUsers>
+  <AdminCommandRemoveGroups>ta bort grupper</AdminCommandRemoveGroups>
+  <AdminUsersGroups>Medlem i</AdminUsersGroups>
+  <AdminSearchUserEmptyText>Ange användarnamn</AdminSearchUserEmptyText>
+  <AdminSearchGroupEmptyText>Ange gruppnamnet</AdminSearchGroupEmptyText>
+  <AdminUsersGroupAlreadyExists>En grupp (er) med detta namn (er) har redan lagts till</AdminUsersGroupAlreadyExists>
+
+  <AdminApplicationLoading>Admin panel lastning</AdminApplicationLoading>
+  <AdminTitle>Administrering</AdminTitle>
+  <AdminUsersEditUser>Redigera användare</AdminUsersEditUser>
+  <AdminUsersSetUserPassword>Välj lösenord</AdminUsersSetUserPassword>
+  <AdminUsersViewGroups>Visa grupper</AdminUsersViewGroups>
+  <AdminUsersViewFolders>Visa mappar</AdminUsersViewFolders>
+  <AdminUsersDeleteUserPrompt>Är du säker på att du vill ta bort användare (s) "{0}"?</AdminUsersDeleteUserPrompt>
+  <AdminUsersDeletedUsers>{0} user (s) raderas.</AdminUsersDeletedUsers>
+  <AdminUsersUserNotFound>En användare med detta namn hittades inte</AdminUsersUserNotFound>
+  <AdminUsersPropertiesTitle>användaregenskaper</AdminUsersPropertiesTitle>
+  <AdminUsersSetPasswordTitle>Uppsättning lösenord</AdminUsersSetPasswordTitle>
+  <AdminUsersGeneralInfo>Användar information</AdminUsersGeneralInfo>
+  <AdminUsersUserEmail>E-post</AdminUsersUserEmail>
+  <AdminUsersEmptyName>Användarnamn kan inte vara tom</AdminUsersEmptyName>
+  <AdminUsersEmptyPassword>Användarens lösenord kan inte vara tomt</AdminUsersEmptyPassword>
+  <AdminUsersIncorrectName>Det finns felaktiga symboler i användarnamn</AdminUsersIncorrectName>
+  <AdminUsersAlreadyExists>Användaren med detta namn finns redan</AdminUsersAlreadyExists>
+  <AdminUsersEmailAlreadyExists>Användaren med denna e-post finns redan</AdminUsersEmailAlreadyExists>
+  <AdminUsersPasswordsNotMatch>Lösenorden matchar inte</AdminUsersPasswordsNotMatch>
+  <AdminUsersRenameWarning>Efter byta namn på en användare är det nödvändigt att ändra lösenordet, annars nuvarande webbmappar länk blir felaktig</AdminUsersRenameWarning>
+  <AdminUsersLicenseRestriction>Din licens inte tillåter dig att skapa mer än {0} användare</AdminUsersLicenseRestriction>
+  <AdminUsersCountInfoWithLimit>Totalt användare: {0} av {1}</AdminUsersCountInfoWithLimit>
+  <AdminUsersCountInfo>Totalt användare: {0}</AdminUsersCountInfo>
+
+  <AdminGroupsEditGroup>Redigera grupp</AdminGroupsEditGroup>
+  <AdminGroupsRemoveGroup>Ta bort grupp</AdminGroupsRemoveGroup>
+  <AdminGroupsDeleteGroupPrompt>Är du säker på att du vill ta bort gruppen (s) "{0}"?</AdminGroupsDeleteGroupPrompt>
+  <AdminGroupsDeletedGroups>{0} grupp (er) utgå.</AdminGroupsDeletedGroups>
+  <AdminGroupsGroupNotFound>En grupp med detta namn hittades inte</AdminGroupsGroupNotFound>
+  <AdminGroupsViewUsers>Se användare</AdminGroupsViewUsers>
+  <AdminGroupsProperties>Egenskaper</AdminGroupsProperties>
+  <AdminGroupsPropertiesTitle>koncernens fastigheter</AdminGroupsPropertiesTitle>
+  <AdminGroupsGeneralInfo>gruppinformation</AdminGroupsGeneralInfo>
+  <AdminGroupsUserNamePrompt>Skriv in ditt användarnamn</AdminGroupsUserNamePrompt>
+  <AdminGroupsUsers>Gruppmedlemmar</AdminGroupsUsers>
+  <AdminGroupsUserAlreadyExists>En användare (s) med detta namn (s) har redan lagts</AdminGroupsUserAlreadyExists>
+  <AdminGroupsEmptyName>Gruppnamn kan inte vara tomt</AdminGroupsEmptyName>
+  <AdminGroupsIncorrectName>Det finns felaktiga symboler i gruppnamnet</AdminGroupsIncorrectName>
+  <AdminGroupsAlreadyExists>En grupp med detta namn finns redan</AdminGroupsAlreadyExists>
+  <AdminGroupsCountInfo>Totalt grupper: {0}</AdminGroupsCountInfo>
+
+  <AdminLanguagesTab>lokaliseringar</AdminLanguagesTab>
+  <AdminLanguagesTabMessage>Om du vill redigera lokalisering filen, välj önskat språk i listan, klicka på lokaliserade strängar att redigera. Efter modifieringar klicka på "Spara"</AdminLanguagesTabMessage>
+  <AdminLangGridKeyColumn>nyckelnamn</AdminLangGridKeyColumn>
+  <AdminLangGridDefaultColumn>engelsk</AdminLangGridDefaultColumn>
+  <AdminEnterLanguageNameTitle>Ange språknamn</AdminEnterLanguageNameTitle>
+  <AdminLangConfirmRefreshTitle>refresh confirm</AdminLangConfirmRefreshTitle>
+  <AdminLangConfirmRefreshMessage>Uppmärksamhet! Data sparades inte. Vill du spara ändringarna nu?</AdminLangConfirmRefreshMessage>
+  <AdminLangAmountInfo>Fyllda nycklar: {0} av {1} (tomma värden: {2})</AdminLangAmountInfo>
+  <AdminLangSaveToCSV>Export till CSV</AdminLangSaveToCSV>
+  <AdminLangLoadFromCSV>Belastning från CSV</AdminLangLoadFromCSV>
+
+  <AdminDbMaintenanceTab>DB underhåll</AdminDbMaintenanceTab>
+  <AdminDbMaintenanceInfoTitle>Info</AdminDbMaintenanceInfoTitle>
+  <AdminDbMaintenanceInfoPathLabel>DB sökvägen</AdminDbMaintenanceInfoPathLabel>
+  <AdminDbMaintenanceInfoSizeLabel>DB filstorlek</AdminDbMaintenanceInfoSizeLabel>
+  <AdminDbMaintenanceCompactTitle>Komprimera databas</AdminDbMaintenanceCompactTitle>
+  <AdminDbMaintenanceCompactNote>För att minska storleken på databasfilen, klicka på knappen nedan. Det är nödvändigt att utföra komprimeringen av databasen med jämna mellanrum, eftersom till exempel, efter avlägsnande av några inaktiva offentliga länkar eller gamla log registrerar DB filstorleken inte minskar.</AdminDbMaintenanceCompactNote>
+  <AdminDbMaintenanceCompactButton>kompakt DB</AdminDbMaintenanceCompactButton>
+  <AdminDbMaintenanceCompactSuccess>DB framgångsrikt komprimeras.
+Gammal filstorlek: {0}
+Ny filstorlek: {1}</AdminDbMaintenanceCompactSuccess>
+  <AdminDbMaintenanceCompactAutoNote>Du kan också slå på automatisk komprimering databasen efter avlägsnande av register operationer, dock är det inte rekommenderas eftersom det kanske oftare lås av basen och det kan öka varaktigheten av vissa förfrågningar. Uppmärksamhet! När du har ändrat denna inställning ansökan kommer att startas!</AdminDbMaintenanceCompactAutoNote>
+  <AdminDbMaintenanceCompactAutoCheckBox>Aktivera / inaktivera automatisk kompakt DB</AdminDbMaintenanceCompactAutoCheckBox>
+  <AdminDbMaintenanceCompactAutoSaveButton>Spara</AdminDbMaintenanceCompactAutoSaveButton>
+  <AdminDbMaintenanceCompactAutoSaveSuccess>Byte av DB automatiska сompression har slutförts. Sidan kommer att uppdateras inom kort.</AdminDbMaintenanceCompactAutoSaveSuccess>
+  <AdminDbMaintenanceEnableLogLabel>Välj DB frågar loggningsnivån (i Data / debug.log)</AdminDbMaintenanceEnableLogLabel>
+  <AdminDbMaintenanceSettingsSaveSuccess>DB inställningar sparats. Sidan kommer att laddas</AdminDbMaintenanceSettingsSaveSuccess>
+  <AdminDbMaintenanceSettingsChangeNote>Uppmärksamhet! När du har sparat inställningarna ansökan kommer att startas inom kort!</AdminDbMaintenanceSettingsChangeNote>
+  <AdminDbMaintenanceInsertIntervalLabel>Intervallet (i minuter) för att lägga till händelser till DB. Om du anger 0, kommer insättningen visas direkt efter händelserna.</AdminDbMaintenanceInsertIntervalLabel>
+  <AdminDbMaintenanceAdvDbParamsTitle>Avancerad DB anslutningsparametrar</AdminDbMaintenanceAdvDbParamsTitle>
+  <AdminDbMaintenanceStatTitle>Statistik (beror på DB loggnivå DurationExecution)</AdminDbMaintenanceStatTitle>
+  <AdminDbMaintenanceStatDurationReadLabel>Avg behandlingen timeout</AdminDbMaintenanceStatDurationReadLabel>
+  <AdminDbMaintenanceStatDurationWriteLabel>Avg skrivande timeout</AdminDbMaintenanceStatDurationWriteLabel>
+  <AdminDbMaintenanceStatDurationCompactLabel>Avg kompakt timeout</AdminDbMaintenanceStatDurationCompactLabel>
+  <AdminDbMaintenanceStatNoData>Inga data</AdminDbMaintenanceStatNoData>
+  <AdminDbMaintenanceStatGetButton>samla statistik</AdminDbMaintenanceStatGetButton>
+
+  <AdminMiscTab>misc</AdminMiscTab>
+  <AdminMiscLoadADAccountsTitle>Ladda Active Directory-konton</AdminMiscLoadADAccountsTitle>
+  <AdminMiscLoadADAccountsLoadButton>Ladda</AdminMiscLoadADAccountsLoadButton>
+  <AdminMiscLoadADAccountsResetButton>Återställa</AdminMiscLoadADAccountsResetButton>
+  <AdminMiscLoadADAccountsLdap>ldap behållare</AdminMiscLoadADAccountsLdap>
+  <AdminMiscLoadADAccountsToFile>att lämna</AdminMiscLoadADAccountsToFile>
+  <AdminMiscLoadADAccountsSuccessMessage>Active Directory-konton lästs</AdminMiscLoadADAccountsSuccessMessage>
+  <AdminMiscLoadADAccountsInfo>Här kan du skapa filen som innehåller hela Active Directory-användare struktur. Denna fil behövs om du använder en statisk fil som AD info lagring. Samma fil kan genereras via ADManager verktyget. För mer info se &lt;b&gt; ADAccountsFilePath &lt;/b&gt; parameterbeskrivningen i {0} Manuell {1}.</AdminMiscLoadADAccountsInfo>
+
+  <AdminMiscManageQuotasTitle>Hantera kvoter</AdminMiscManageQuotasTitle>
+  <AdminMiscManageQuotasInfo>Fråga befintlig eller skapa ny kvot för att begränsa den tillåtna för en mapp utrymme, som drivs av filserverresurser.</AdminMiscManageQuotasInfo>
+  <AdminMiscManageQuotasFolderPath>mappsökväg</AdminMiscManageQuotasFolderPath>
+  <AdminMiscManageQuotasQuota>Kvot</AdminMiscManageQuotasQuota>
+  <AdminMiscManageQuotasGetQuota>få kvot</AdminMiscManageQuotasGetQuota>
+  <AdminMiscManageQuotasSetQuota>set kvot</AdminMiscManageQuotasSetQuota>
+
+  <AdminMiscFoldersFromGPOLTitle>Last mappar från Group Policy</AdminMiscFoldersFromGPOLTitle>
+  <AdminMiscFoldersFromGPOLComputerName>dator~~POS=TRUNC namn~~POS=HEADCOMP</AdminMiscFoldersFromGPOLComputerName>
+  <AdminMiscFoldersFromGPOLFilePath>Sökväg</AdminMiscFoldersFromGPOLFilePath>
+  <AdminMiscFoldersFromGPOLMoreInfoLink>Mer information</AdminMiscFoldersFromGPOLMoreInfoLink>
+  <AdminMiscFoldersFromGPOLResetButton>Återställa</AdminMiscFoldersFromGPOLResetButton>
+  <AdminMiscFoldersFromGPOLLoadButton>Ladda</AdminMiscFoldersFromGPOLLoadButton>
+  <AdminMiscFoldersFromGPOLFromDC>från DC</AdminMiscFoldersFromGPOLFromDC>
+  <AdminMiscFoldersFromGPOLFromFile>från fil</AdminMiscFoldersFromGPOLFromFile>
+  <AdminMiscFoldersTargetLabel>För att importera användare / grupper förhållanden ...</AdminMiscFoldersTargetLabel>
+  <AdminMiscFoldersTargetFilter>filtrera</AdminMiscFoldersTargetFilter>
+  <AdminMiscFoldersTargetPermission>lov</AdminMiscFoldersTargetPermission>
+  <AdminMiscFoldersFromGPOLSuccessMessage>Mappar laddats &lt;br /&gt; Nytt:. {0}, uppdaterad: {1}.</AdminMiscFoldersFromGPOLSuccessMessage>
+  <AdminMiscFoldersFromGPOLInfo>Du kan ladda (eller uppdatera) mapplistan i vridmomentinställningar Group Policy Drive i domänkontrollanten. I fältet nedan kan du ange datornamnet som grupprincipinställningar kommer att laddas (eller om de lämnas tomt, då den aktuella domänen kommer att användas), eller en sökväg till fil med mappade enheter inställningar.</AdminMiscFoldersFromGPOLInfo>
+
+  <AdminAnonymFoldersTab>anonyma mappar</AdminAnonymFoldersTab>
+  <AdminAnonymFoldersDeleteFolderPrompt>Är du säker på att du vill ta bort {0} valda anonyma mappar?</AdminAnonymFoldersDeleteFolderPrompt>
+  
+  <AdminAnonymFoldersDescription>Delade mappar / filer - dessa är mappar / filer som inte kräver användarautentisering *, betyder det att de är tillgängliga för alla besökare * (om de har en länk). Alla användare kan skapa sådana mappar / filer från menyn "Dela &amp;rarr; Skapa en offentlig länk". Dock kan delade mappar har begränsad behörighet: för uppladdning, nedladdning, filer / mappar listan. Nedan finns en tabell med länkar till delade mappar / filer som skapats av användare. Att arbeta offentliga länkar har rätt att vara säker på att Handlar \ Anonymousdownload.ashx tillåter anonym åtkomst till IIS. Du kan kontrollera detta på &lt;a target="_blank" href="{0}"&gt; Diagnostik &lt;/a&gt;. Se till att det anonyma användarkontot tilldelas Handlar \ Anonymousdownload.ashx har NTFS läsning / skrivbehörigheter för delade mappar / filer &lt;br /&gt; *. &amp;nbsp; &amp;ndash; &amp;nbsp; Om du inte anger användarna, för vilka endast är tillåten tillgång.</AdminAnonymFoldersDescription>
+  <AdminAnonymFoldersLinkOwnerColumn>Ägare</AdminAnonymFoldersLinkOwnerColumn>
+  <AdminAnonymFoldersEmailsColumn>E-post för anmälan</AdminAnonymFoldersEmailsColumn>
+  <AdminAnonymFoldersAccessForUsersColumn>Åtkomst för användare</AdminAnonymFoldersAccessForUsersColumn>
+  <AdminAnonymFoldersPersonalMessageColumn>Personligt meddelande</AdminAnonymFoldersPersonalMessageColumn>
+  <AdminAnonymFoldersOverwriteOnUploadHint> (Överskrivning: {0})</AdminAnonymFoldersOverwriteOnUploadHint>
+  <AdminAnonymFoldersRootPathColumn>rotsökvägen</AdminAnonymFoldersRootPathColumn>
+  <AdminAnonymFoldersKeysColumn>nycklar</AdminAnonymFoldersKeysColumn>
+  <AdminAnonymFoldersShortColumn>kort länk</AdminAnonymFoldersShortColumn>
+  <AdminAnonymFoldersPropertiesTitle>Anonyma mappegenskaperna</AdminAnonymFoldersPropertiesTitle>
+  <AdminAnonymFoldersAdditionalInfo>Ytterligare information</AdminAnonymFoldersAdditionalInfo>
+  <AdminAnonymFoldersLinkLabel>Länk för åtkomst</AdminAnonymFoldersLinkLabel>
+  <AdminAnonymFoldersPathNotSpecified>Den fysiska sökvägen är inte satt</AdminAnonymFoldersPathNotSpecified>
+  <AdminAnonymFoldersCreatedForColumn>Syfte</AdminAnonymFoldersCreatedForColumn>
+
+  <AdminFoldersTab>mappar</AdminFoldersTab>
+  <AdminFoldersAddFolder>Lägg till mapp</AdminFoldersAddFolder>
+  <AdminFoldersEditFolder>redigera mapp</AdminFoldersEditFolder>
+  <AdminFoldersRemoveFolder>Ta bort mapp</AdminFoldersRemoveFolder>
+  <AdminFoldersDeleteFolderPrompt>Är du säker på att du vill ta bort mappen "{0}"?</AdminFoldersDeleteFolderPrompt>
+  <AdminFoldersFolderNotFound>En mapp med detta namn hittades inte</AdminFoldersFolderNotFound>
+  <AdminFoldersPropertiesTitle>mappegenskaperna</AdminFoldersPropertiesTitle>
+  <AdminFoldersGeneralInfo>Allmän information</AdminFoldersGeneralInfo>
+  <AdminFoldersFolderRemoteWarningForms>Notera! Denna mapp fjärr delas. Kontrollera {0} FAQ: hur man delar fjärrmappar {1}</AdminFoldersFolderRemoteWarningForms>
+  <AdminFoldersFolderRemoteWarningWin>Notera! Denna mapp fjärr delas. Du kan dölja vissa mappar / filer om användarna inte har rätt att läsa dem. Se {0} FAQ: hur man döljer filer / mappar som användaren inte har rättigheter att läsa {1}</AdminFoldersFolderRemoteWarningWin>
+  <AdminFoldersFolderPath>fysiska sökvägen</AdminFoldersFolderPath>
+  <AdminFoldersLocationPath>Plats</AdminFoldersLocationPath>
+  <AdminFoldersFolderCreate>Skapa mapp</AdminFoldersFolderCreate>
+  <AdminFoldersFolderCreateProcess>skapa mapp</AdminFoldersFolderCreateProcess>
+  <AdminFoldersFolderCreateContainsPattern>Mappen kan inte skapas eftersom det innehåller ett mönster</AdminFoldersFolderCreateContainsPattern>
+  <AdminFoldersFolderCreateSuccessfully>Mappen "{0}" har skapats.</AdminFoldersFolderCreateSuccessfully>
+  <AdminFoldersFolderOptional> (frivillig)</AdminFoldersFolderOptional>
+  <AdminFoldersFolderLimitations>begränsningar</AdminFoldersFolderLimitations>
+  <AdminFoldersFolderDescription>Beskrivning</AdminFoldersFolderDescription>
+  <AdminFoldersFolderQuota>Kvot</AdminFoldersFolderQuota>
+  <AdminFoldersFolderQuotaHint>Fråga befintlig eller skapa ny kvot för att begränsa den tillåtna för en mapp utrymme, som drivs av filserverresurser.</AdminFoldersFolderQuotaHint>
+  <AdminFoldersFolderQuotaMoreInfoLink>Mer information</AdminFoldersFolderQuotaMoreInfoLink>
+  <AdminFoldersPermissions>behörigheter</AdminFoldersPermissions>
+  <AdminFoldersPermissionsFor>Behörigheter för {0}</AdminFoldersPermissionsFor>
+  <AdminFoldersUsersGroups>Användare och grupper</AdminFoldersUsersGroups>
+  <AdminFoldersAccessControl>Åtkomstkontroll</AdminFoldersAccessControl>
+  <AdminFoldersCreate>Skapa</AdminFoldersCreate>
+  <AdminFoldersDelete>Radera</AdminFoldersDelete>
+  <AdminFoldersRename>Döpa om</AdminFoldersRename>
+  <AdminFoldersUpload>Ladda upp</AdminFoldersUpload>
+  <AdminFoldersDownload>Ladda ner</AdminFoldersDownload>
+  <AdminFoldersZipDownload>Zip och nedladdning</AdminFoldersZipDownload>
+  <AdminFoldersZip>Blixtlås</AdminFoldersZip>
+  <AdminFoldersUnzip>packa Zip</AdminFoldersUnzip>
+  <AdminFoldersCut>Skära</AdminFoldersCut>
+  <AdminFoldersCopy>Kopiera</AdminFoldersCopy>
+  <AdminFoldersListFiles>Visa filer</AdminFoldersListFiles>
+  <AdminFoldersListFolders>Visa mappar</AdminFoldersListFolders>
+  <AdminFoldersModify>Ändra</AdminFoldersModify>
+  <AdminFoldersBulkMailing>massutskick</AdminFoldersBulkMailing>
+  <AdminFoldersAnonymViewContent>Fillista via offentlig länk</AdminFoldersAnonymViewContent>
+  <AdminFoldersAnonymDownload>Ladda ner via offentlig länk</AdminFoldersAnonymDownload>
+  <AdminFoldersAnonymUpload>Överför via offentlig länk</AdminFoldersAnonymUpload>
+  <AdminFoldersWatch>Kolla på</AdminFoldersWatch>
+  <AdminFoldersDescription>Du kan lägga till mappar manuellt eller konvertera befintliga mappar om du använder enheter på koncernens policies. För mer info se {0} Hjälp {1}.</AdminFoldersDescription>
+
+  <AdminFoldersPermissionsForRegex>Du kan också använda ett reguljärt uttryck. Ange &lt;b&gt; {0} &lt;/b&gt; i början av fältet ovan och sedan ett reguljärt uttryck, till exempel:</AdminFoldersPermissionsForRegex>
+  <AdminFoldersPermissionsForRegexUsers>{0} (ge tillgång för alla användare) &lt;br /&gt; {1} (detta reguljära uttryck betyder två användare: jdoe och Mike)</AdminFoldersPermissionsForRegexUsers>
+  <AdminFoldersPermissionsForRegexGroups>{0} (ge tillgång till någon grupp) &lt;br /&gt; {1} (detta reguljära uttryck: alla grupper med "studenter" i deras namn)</AdminFoldersPermissionsForRegexGroups>
+
+  <AdminFoldersListRestrictions>Begränsningar av display</AdminFoldersListRestrictions>
+  <AdminFoldersCreateRestrictions>Begränsningar av filer skapas</AdminFoldersCreateRestrictions>
+  <AdminFoldersRestrictionAllow>Tillåta</AdminFoldersRestrictionAllow>
+  <AdminFoldersRestrictionDeny>Förneka</AdminFoldersRestrictionDeny>
+  <AdminFoldersRestrictionExtensions>förlängningar</AdminFoldersRestrictionExtensions>
+  <AdminFoldersUserNamePrompt>Skriv in ditt användarnamn</AdminFoldersUserNamePrompt>
+  <AdminFoldersUserNameEmptyText>Välj användarnamn</AdminFoldersUserNameEmptyText>
+  <AdminFoldersUserNameNotSelected>Du måste välja ett användarnamn</AdminFoldersUserNameNotSelected>
+  <AdminFoldersUserAlreadyExists>Den här användaren redan har tilldelats till mappen</AdminFoldersUserAlreadyExists>
+  <AdminFoldersGroupNamePrompt>Ange gruppnamn</AdminFoldersGroupNamePrompt>
+  <AdminFoldersGroupNameEmptyText>Välj gruppnamn</AdminFoldersGroupNameEmptyText>
+  <AdminFoldersGroupNameNotSelected>Du måste välja ett gruppnamn</AdminFoldersGroupNameNotSelected>
+  <AdminFoldersGroupAlreadyExists>Denna grupp har redan tilldelats till mappen</AdminFoldersGroupAlreadyExists>
+  <AdminFoldersEmptyName>Mappnamn får inte vara tomt</AdminFoldersEmptyName>
+  <AdminFoldersEmptyPath>Sökväg kan inte vara tom</AdminFoldersEmptyPath>
+  <AdminFoldersIncorrectName>Det finns felaktiga symboler i mappnamnet</AdminFoldersIncorrectName>
+  <AdminFoldersAlreadyExists>En mapp med detta namn och plats finns redan</AdminFoldersAlreadyExists>
+  <AdminFoldersSharesButton>befintliga aktier</AdminFoldersSharesButton>
+  <AdminFoldersTestAccessButton>teståtkomst</AdminFoldersTestAccessButton>
+  <AdminFoldersTestIndexingButton>Test indexering</AdminFoldersTestIndexingButton>
+  <AdminFoldersShareNameTitle>befintliga aktier</AdminFoldersShareNameTitle>
+  <AdminFoldersShareNameEmptyText>Välj aktie</AdminFoldersShareNameEmptyText>
+  <AdminFoldersShareNameNotSelected>Du måste välja aktie</AdminFoldersShareNameNotSelected>
+  <AdminFoldersGetQuotaButton>få kvot</AdminFoldersGetQuotaButton>
+  <AdminFoldersSetQuotaButton>set kvot</AdminFoldersSetQuotaButton>
+  <AdminCommonFilterField>Filtrera</AdminCommonFilterField>
+  <AdminCommonValidateField>Bekräfta</AdminCommonValidateField>
+  <AdminFoldersRootNameUsed>Använd ett annat namn för mappen i stället för "{0}"</AdminFoldersRootNameUsed>
+  <AdminFoldersFolderFilterSuccess>Validate av filtret skedde med framgång</AdminFoldersFolderFilterSuccess>
+
+  <AdminTestAccessGoodResult>Mappen "{0}" existerar och kan läsas.</AdminTestAccessGoodResult>
+  <AdminTestAccessBadResult>Mappen "{0}" inte existerar eller om det inte finns några NTFS läsbehörighet eller ingen nätverksåtkomst för ansökan identitet!</AdminTestAccessBadResult>
+  <AdminTestAccessErrorResult>Fel vid kontroll tillgång till mappen "{0}": {1}</AdminTestAccessErrorResult>
+  <AdminTestIndexingErrorResult>Fel vid kontroll indexering för mappen "{0}":
+{1}</AdminTestIndexingErrorResult>
+  <AdminTestIndexingYesResult>Katalogen "{0}" indexeras</AdminTestIndexingYesResult>
+  <AdminTestIndexingNoResult>Katalogen "{0}" är inte indexeras</AdminTestIndexingNoResult>
+  <AdminTestIndexingUnknownResult>Det går inte att avgöra om katalogen "{0}" är indexerad.</AdminTestIndexingUnknownResult>
+  <AdminTestIndexingAddIfNotIndexed>Vill du lägga till den här mappen för indexering, om det har indexerats ännu?</AdminTestIndexingAddIfNotIndexed>
+  <ProgressTestAccess>kontrollera åtkomst</ProgressTestAccess>
+  <ProgressTestIndexing>kontroll indexering</ProgressTestIndexing>
+  <AdminHowToIndexingLocationLink>För att indexera en mapp finns i hjälpen för {0}</AdminHowToIndexingLocationLink>
+
+  <AdminUsersListAll>Alla användare</AdminUsersListAll>
+  <AdminUsersListDACL>Användare från ACL</AdminUsersListDACL>
+  <AdminGroupsListAll>alla grupper</AdminGroupsListAll>
+  <AdminGroupsListDACL>Grupper från ACL</AdminGroupsListDACL>
+  <AdminDACLStringLabel>ACL behörigheter</AdminDACLStringLabel>
+
+  <AdminCommonCustomField>Anpassat fält</AdminCommonCustomField>
+  <AdminCommonSettingsChangeWarning>Förändringarna träder i kraft efter re inloggning (eller efter ansökan omstart för WebDAV tillgång).</AdminCommonSettingsChangeWarning>
+
+  <AdminCommonAllowedFoldersPathsTitle>Tillåtna mapp banor</AdminCommonAllowedFoldersPathsTitle>
+  <AdminCommonNotAllowedFolderPath>Du kan skapa endast tillgång till dessa mappar eller dess undermappar: {0}</AdminCommonNotAllowedFolderPath>
+
+  <AdminLogsTab>Logga</AdminLogsTab>
+
+  <AdminSettingsTab>inställningar</AdminSettingsTab>
+
+  <AdminLogsErrorsTab>log fel</AdminLogsErrorsTab>
+  <AdminLogsErrorsClearBtn>Klar</AdminLogsErrorsClearBtn>
+  <AdminLogsErrorsClearUsersCountExceededBtn>Tydliga poster med fel av användare som överskrider den kvantitet som</AdminLogsErrorsClearUsersCountExceededBtn>
+
+  <AdminFoldersCreateHint>Tillåt / Neka åtgärder från menyn "Nytt": ny fil, Ny mapp, ny bild, nya dokumentfiler.</AdminFoldersCreateHint>
+  <AdminFoldersDeleteHint>Tillåt / Neka radering av befintliga filer och mappar</AdminFoldersDeleteHint>
+  <AdminFoldersRenameHint>Tillåt / Neka byta namn på befintliga filer och mappar</AdminFoldersRenameHint>
+  <AdminFoldersUploadHint>Tillåt / Neka ladda upp filer har (Ladda knappen i verktygsfältet)</AdminFoldersUploadHint>
+  <AdminFoldersDownloadHint>Tillåt / Neka "download", "visa / redigera", ladda ner till molnet lager, etc åtgärder</AdminFoldersDownloadHint>
+  <AdminFoldersZipDownloadHint>Tillåt / Neka "komprimera och ladda ner" action</AdminFoldersZipDownloadHint>
+  <AdminFoldersZipHint>Tillåt / Neka "Komprimera till en zip-arkiv" action</AdminFoldersZipHint>
+  <AdminFoldersUnzipHint>Tillåt / Neka "Utdrag till den aktuella mappen", "Utdrag till en ny mapp" och "Zip innehållet" åtgärder</AdminFoldersUnzipHint>
+  <AdminFoldersCutHint>Tillåt / Neka klippa befintliga filer och mappar åtgärder</AdminFoldersCutHint>
+  <AdminFoldersCopyHint>Tillåt / Neka kopiera befintliga filer och mappar åtgärder</AdminFoldersCopyHint>
+  <AdminFoldersListFilesHint>Tillåt / Neka notering filer</AdminFoldersListFilesHint>
+  <AdminFoldersListFoldersHint>Tillåt / Neka notering mappar</AdminFoldersListFoldersHint>
+  <AdminFoldersModifyHint>Tillåt / Neka ändra filer (Alla åtgärder som kan ändra befintliga filens innehåll)</AdminFoldersModifyHint>
+  <AdminFoldersBulkMailingHint>Tillåt / Neka massutskick för grupper</AdminFoldersBulkMailingHint>
+  <AdminFoldersAnonymViewContentHint>Tillåt / Neka filer lista för anonyma användare (via offentliga länkar)</AdminFoldersAnonymViewContentHint>
+  <AdminFoldersAnonymDownloadHint>Tillåt / Neka filer nedladdning av anonyma användare (via offentliga länkar)</AdminFoldersAnonymDownloadHint>
+  <AdminFoldersAnonymUploadHint>Tillåt / Neka filer upp för anonyma användare (via offentliga länkar)</AdminFoldersAnonymUploadHint>
+  <AdminFoldersWatchHint>Tillåt / neka användare att övervaka förändringarna i mappen som gjorts av andra användare (den tillämpas endast om UI / AllowUsersmonitorModifications = true)</AdminFoldersWatchHint>
+  <AdminFoldersListRestrictionsHint>Det här alternativet styr fillista. Klicka på "Neka" -knappen radio för att dölja filer med angivna tillägg. Sätt förbjudet förlängningar separerar dem med kommatecken (t.ex. "EXE, BAT, COM"). Ställ in "Tillåt" knappen och sätt förlängningar av de filer som ska visas (t.ex. "DOC, PDF, JPG").</AdminFoldersListRestrictionsHint>
+  <AdminFoldersCreateRestrictionsHint>Denna funktion liknar "lista begränsningar", men den kontrollerar filer uppladdning, zip extraktion, skapa nya filer. Du kan förbjuda eller aktivera uppladdning av angivna filerna.</AdminFoldersCreateRestrictionsHint>
+  <AdminFoldersGeneralInfoHint>Skriv befintlig sökväg och alias. Klicka på Hjälp-knappen längst ner för mer info.</AdminFoldersGeneralInfoHint>
+  <AdminFoldersUsersGroupsHint>Välj eller typ Användare och grupper att dela mapp för dem. Klicka på Hjälp-knappen längst ner för mer info.</AdminFoldersUsersGroupsHint>
+
+  <AdminUserFoldersButtonTitle>Test aktier lista</AdminUserFoldersButtonTitle>
+  <AdminUserFoldersWindowTitle>användarmappar</AdminUserFoldersWindowTitle>
+  <AdminUserFoldersLabel>Mapplista för användaren {0} ":</AdminUserFoldersLabel>
+  
+  <AdminPermissionsTab>administratörsbehörighet</AdminPermissionsTab>
+  <AdminPermissionsPrivilege>Privilegium</AdminPermissionsPrivilege>
+  <AdminPermissionsEditButton>redigera privilegium</AdminPermissionsEditButton>
+  <AdminPermissionsModifySettingsTitle>ändra inställningar</AdminPermissionsModifySettingsTitle>
+  <AdminPermissionsModifyFoldersTitle>modifiera mappar</AdminPermissionsModifyFoldersTitle>
+  <AdminPermissionsModifyAnonymFoldersTitle>Ändra mappar</AdminPermissionsModifyAnonymFoldersTitle>
+  <AdminPermissionsModifyAccountsTitle>ändra konton</AdminPermissionsModifyAccountsTitle>
+  <AdminPermissionsViewDiagnosticsTitle>Visa "Diagnostik" sida</AdminPermissionsViewDiagnosticsTitle>
+  <AdminPermissionsViewLogTitle>Visa logg</AdminPermissionsViewLogTitle>
+  <AdminPermissionsViewErrorsLogTitle>Se fel log</AdminPermissionsViewErrorsLogTitle>
+  <AdminPermissionsModifyLocalizationsTitle>modifiera lokaliseringar</AdminPermissionsModifyLocalizationsTitle>
+  <AdminPermissionsFolderPathTitle>mappsökväg</AdminPermissionsFolderPathTitle>
+  <AdminPermissionsFoldersTitle>admin mappar</AdminPermissionsFoldersTitle>
+  <AdminPermissionsPrivilegeHint>Set användare / grupper för vilka "{0}" privilegium kommer att tillåtas</AdminPermissionsPrivilegeHint>
+  <AdminPermissionsFolderTitle>Admin mappegenskaperna</AdminPermissionsFolderTitle>
+  <AdminPermissionsFolderFieldTitle>mappsökväg</AdminPermissionsFolderFieldTitle>
+  <AdminPermissionsFolderHint>Info om admin mappar</AdminPermissionsFolderHint>
+  <AdminPermissionsFolderEmptyAccounts>Ange användare och / eller grupper</AdminPermissionsFolderEmptyAccounts>
+  <AdminPermissionsFolderAlreadyExists>Mappen med den här platsen finns redan</AdminPermissionsFolderAlreadyExists>
+  <AdminPermissionsFolderNotFound>Mapp med den här platsen hittades inte</AdminPermissionsFolderNotFound>
+  <AdminPermissionsAllowedFoldersMessage>Du kan skapa / uppdatera / hantera endast tillgång till dessa mappar eller dess undermappar: {0}</AdminPermissionsAllowedFoldersMessage>
+
+  <AdminUsersCountExceededWarn>Maximal mängd användare överskrids. Din nuvarande licens tillåter endast {0} användare för inloggning. För mer info öppna "{1}" -fliken och hitta "{2}" undantag (s). För att dölja denna anmälan tydliga loggposter på "{1}" -fliken.</AdminUsersCountExceededWarn>
+
+  <AdminNewVersionAvailableTitle>Ny version är tillgänglig!</AdminNewVersionAvailableTitle>
+  <AdminNewVersionAvailableInfo>Aktuell version: {0} &lt;br /&gt; En nyare version: {1}</AdminNewVersionAvailableInfo>
+  
+  <SettingsGridDescriptionInfo>Beskrivning</SettingsGridDescriptionInfo>
+  <SettingsGridFormatInfo>värde format</SettingsGridFormatInfo>
+  <SettingsGridDefaultValueInfo>Standardvärde</SettingsGridDefaultValueInfo>
+  <SettingsGridMoreInfo>Mer information</SettingsGridMoreInfo>
+  <SettingsGridRestoreDefault>Återställa standard</SettingsGridRestoreDefault>
+
+  <SettingsFormatBoolean>booleskt värde</SettingsFormatBoolean>
+  <SettingsFormatWholeNumber>Heltal</SettingsFormatWholeNumber>
+  <SettingsFormatRealNumber>Riktigt nummer</SettingsFormatRealNumber>
+  <SettingsFormatString>Sträng</SettingsFormatString>
+  <SettingsFormatEnum>Vilket värde som helst av</SettingsFormatEnum>
+  <SettingsFormatSet>Kommaseparerad lista utan upprepningar av värden</SettingsFormatSet>
+  <SettingsFormatArray>Kommaseparerad lista av strängar</SettingsFormatArray>
+  <SettingsFormatToolbarButtons>. (. Value "{0}" kan upprepas flera gånger, men inte i en rad efter varje namn, följt av ett kolon, är det möjligt att specificera ett av metoder som används för att visa knappen: {1})</SettingsFormatToolbarButtons>
+
+  <AdminSettingsSave>Spara inställningar</AdminSettingsSave>
+  <AdminToggleHiddenParams>{0} avancerade parametrar</AdminToggleHiddenParams>
+  <AdminHintHiddenParams>Ytterligare parametrar är endast avsedda för mer detaljerade inställningar och i de flesta fall är sällan nödvändigt</AdminHintHiddenParams>
+  <AdminShowHiddenParams>Show</AdminShowHiddenParams>
+  <AdminHideHiddenParams>Dölj</AdminHideHiddenParams>
+
+  <SettingsDenyAuthModeChange>Automatisk autentiseringsläge övergången stöds inte. Se {0} för instruktioner om hur du ändrar autentiseringsläge.</SettingsDenyAuthModeChange>
+  <SettingsApplicationRestartedMsg>ansökan startas</SettingsApplicationRestartedMsg>
+  <SettingsSettingsSavedMsg>inställningarna har sparats</SettingsSettingsSavedMsg>
+  <SettingsSettingsSaveFailedAppMsg>Det går inte att spara konfigurationsfiler. Kontrollera skriv NTFS behörigheter web.config och HttpCommanderSettings.config filer i mappen webbprogramroten {0} för användare {1}. Felmeddelande: {2}.</SettingsSettingsSaveFailedAppMsg>
+  <SettingsSettingsSaveFailedTempMsg>Det går inte att spara konfigurationsfiler. Kontrollera behörigheterna för temporära mappen {0} för användare {1}. Felmeddelande: {2}.</SettingsSettingsSaveFailedTempMsg>
+  <SettingsSettingsReadFailedAppMsg>Det går inte att läsa konfigurationsfiler. Kontrollera läsa NTFS behörigheter web.config och HttpCommanderSettings.config filer i mappen webbprogramroten {0} för användare {1}. Felmeddelande: {2}.</SettingsSettingsReadFailedAppMsg>
+  <SettingsSettingsReadFailedTempMsg>Det går inte att läsa konfigurationsfiler i den tillfälliga mappen. Kontrollera behörigheterna för temporära mappen {0} för användare {1}. Felmeddelande: {2}.</SettingsSettingsReadFailedTempMsg>
+  <SettingsSettingsConfigChangedOutside>Den HttpCommander konfigurationsfilen har ändrats av ett annat program. Möjligen du har ändrat det manuellt med en textredigerare. Ansökan har laddat nya konfigurationsfilen. Alla förändringar i samband med HttpCommander konfiguration som du har gjort via webbgränssnittet går förlorade. Du måste göra om dem, sedan försöka att spara igen. Vi rekommenderar mot redigera konfigurationsfiler manuellt medan programmet körs. Annars bör du starta om programmet efter byte konfigurationsfiler. Felmeddelande: {0}.</SettingsSettingsConfigChangedOutside>
+  <SettingsSettingsSaveNotif>Glöm inte att spara inställningar ändringar!</SettingsSettingsSaveNotif>
+  
+  <SettingsEmailNotifTitle>Aviseringar via e-post</SettingsEmailNotifTitle>
+  <SettingsEmailNotifApplyBtn>Spara postinställningar</SettingsEmailNotifApplyBtn>
+  <SettingsEmailNotifResetBtn>Återställa</SettingsEmailNotifResetBtn>
+  <SettingsEmailNotifEventsLabel>för händelser</SettingsEmailNotifEventsLabel>
+  <SettingsEmailNotifWhenLabel>Skicka</SettingsEmailNotifWhenLabel>
+  <SettingsEmailNotifEmailsLabel>E-post</SettingsEmailNotifEmailsLabel>
+  <SettingsEmailNotifPathsLabel>banor</SettingsEmailNotifPathsLabel>
+  
+  <LogsErrorsGridUrlColumn>url</LogsErrorsGridUrlColumn>
+  <LogsErrorsGridMsgColumn>Meddelande</LogsErrorsGridMsgColumn>
+  <LogsErrorsGridMoreInfoColumn>Mer information</LogsErrorsGridMoreInfoColumn>
+  <LogsErrorsGridDetailsTitle>detaljer</LogsErrorsGridDetailsTitle>
+  
+  <FsrmUnableLoadLibraryLocal>Det går inte att ansluta till File Server Resource Manager på lokala värden.</FsrmUnableLoadLibraryLocal>
+  <FsrmUnableLoadLibraryRemote>Det går inte att ansluta till File Server Resource Manager på "{0}" värd.</FsrmUnableLoadLibraryRemote>
+  <FsrmNotInstalled>Filserverresurser är inte installerat på "{0}".</FsrmNotInstalled>
+  <FsrmNotInstalledEitherEnd>Filserverresurser inte installeras antingen på lokala värden eller på "{0}".</FsrmNotInstalledEitherEnd>
+  <FsrmQuotaNotSpecified>Kvoten är inte specificerad.</FsrmQuotaNotSpecified>
+  <FsrmUnableGetQuota>Det går inte att få kvot.</FsrmUnableGetQuota>
+  <FsrmUnableSetQuota>Det går inte att ställa kvot.</FsrmUnableSetQuota>
+  <FsrmQuotaSetMsg>Kvot har ställts in.</FsrmQuotaSetMsg>
+  <FsrmInvalidQuotaValueMsg>Ogiltigt kvotvärde.</FsrmInvalidQuotaValueMsg>
+
+  <CommandBuyNow>Köp nu</CommandBuyNow>
+
+  <AdminUpdateTab>uppgradering</AdminUpdateTab>
+  <AdminUpdateManual>manuell uppgradering</AdminUpdateManual>
+  <AdminUpdateAuto>automatiserad uppgradering</AdminUpdateAuto>
+  <AdminUpdateStartButton>Starta uppgradering / Skapa Backup</AdminUpdateStartButton>
+  <AdminUpdateFinishButton>Finish uppgradering / Restore Backup</AdminUpdateFinishButton>
+  <AdminUpdateBackupButton>Säkerhetskopiering</AdminUpdateBackupButton>
+  <AdminUpdateDownloadNewButton>Hämta ny version</AdminUpdateDownloadNewButton>
+  <AdminUpdateStepTitle>Steg {0} {1}: {2}</AdminUpdateStepTitle>
+  <AdminUpdateStepInfo>Steg {0} {1}</AdminUpdateStepInfo>
+  <AdminUpdateNumberSymbol>#</AdminUpdateNumberSymbol>
+  <AdminUpdateBackupContent>Vänligen tryck på knappen "{0}" för att skapa en säkerhetskopia av mappen med ansökan och få en länk för nedladdning</AdminUpdateBackupContent>
+  <AdminUpdateDownloadBackupLinkHint>Ladda ner en säkerhetskopia av programmet via länken nedan:</AdminUpdateDownloadBackupLinkHint>
+  <AdminUpdateDownloadNewContent>Sedan kan du ladda ner en ny version via länken nedan och följ {0} installation {1} och {2} uppgradera {1} instruktioner för att installera en ny version. Efter installationen öppnar du Admin Panel, gå till fliken "{3}" och tryck på knappen "{4}" för att slutföra installationen.</AdminUpdateDownloadNewContent>
+  <AdminUpdateUploadButton>Ladda upp en säkerhetskopia och tillämpa inställningar</AdminUpdateUploadButton>
+  <AdminUpdateUploadAndInstallButton>Installera en ny version med att hålla alla inställningar</AdminUpdateUploadAndInstallButton>
+  <AdminUpdateUploadEmptyText>Välj en säkerhetskopia för uppladdning</AdminUpdateUploadEmptyText>
+  <AdminUpdateFinishContent>För att återställa inställningarna för den tidigare versionen välj och ladda upp en tidigare skapad backup arkiv med programmappen</AdminUpdateFinishContent>
+  <AdminUpdateFinishMessage>Grattis! Alla inställningar är framgångsrikt tillämpats. Dessutom kan du tillämpa alla ändringar du har gjort i andra filer, t.ex. Default.aspx eller Global.asax.</AdminUpdateFinishMessage>
+  <AdminUpdateFinishRefreshPage>Sidan kommer att laddas</AdminUpdateFinishRefreshPage>
+  <AdminUpdateMainInfo>Denna typ av uppgradering delvis automatiserat. Du kan skapa och ladda ner en säkerhetskopia med inställningar ansökan och återställa det efter uppgraderingen. Följ dessa korta steg: skapa en säkerhetskopia, utför manuell uppgradering, återställa inställningarna från säkerhetskopian. Detta förfarande kan också användas för att säkerhetskopiera / återställa inställningarna utan att uppgradera. hoppa helt enkelt uppgradera steg för att återställa inställningarna från säkerhetskopian.</AdminUpdateMainInfo>
+  <AdminUpdateAutoButton>Bil</AdminUpdateAutoButton>
+  <AdminUpdateAutoInfo>Denna typ av uppgradering är nästan helt automatiserad. Det består av 2 steg: säkerhetskopia av de aktuella inställningarna (du ska ladda ner och spara en säkerhetskopia), installation av en ny version och restaurering av inställningarna från säkerhetskopian. HTTP Commander kan automatiskt ladda ner den senaste versionen och installera det eller så kan du ange sökvägen till zip-arkiv med en ny version på vår server. Alla inställningar automatiskt återställas från en tidigare skapad säkerhetskopia.</AdminUpdateAutoInfo>
+  <AdminUpdateRestoreWebConfigCheckBox>Återställa inställningarna från Web.config (t ex, såsom SMTP)</AdminUpdateRestoreWebConfigCheckBox>
+  <AdminUpdateBackupAssignedFoldersInRootMessage>Uppmärksamhet! Det finns några användarmappar i katalogen med det program som har den totala storleken mer än {0}. Säkerhetskopian kommer inte att göras. Vänligen gör en säkerhetskopia av dessa kataloger, ta bort dem från programkatalogen och försök igen på din sida.</AdminUpdateBackupAssignedFoldersInRootMessage>
+  <AdminUpdateNeedRefreshPageForContinue>Uppmärksamhet! Att fortsätta är det nödvändigt att ladda om sidan. Vänligen tryck på knappen "{0}". Efter omlastning upprepar operationen.</AdminUpdateNeedRefreshPageForContinue>
+  <AdminUpdateRestoreFromBackupEmpty>Eller om den inte är markerad, det kommer att användas av den nyligen skapade filen i föregående steg</AdminUpdateRestoreFromBackupEmpty>
+  <AdminUpdateInstallZipPathHint>För uppdatering ange den fullständiga fysiska sökvägen till installationsfilen (på servern) i det första fältet eller lämna det tomt för att använda en online-distribution</AdminUpdateInstallZipPathHint>
+  <AdminUpdateInstallZipPathEmpty>Ange sökvägen till arkivera med installation</AdminUpdateInstallZipPathEmpty>
+  <AdminUpdateProgress>uppdatering</AdminUpdateProgress>
+  <AdminUpdateAccessDeniedWarning>&lt;b&gt; OBS! &lt;/b&gt; För att uppdatera ställ Ändra (läsa och skriva) NTFS-behörigheter till {0} användare för mappen med HTTP Commander {1} och upprepa uppgradering. &lt;br /&gt; Efter den framgångsrika uppgraderingen vänligen återställa de tidigare rättigheter.</AdminUpdateAccessDeniedWarning>
+  <AdminUpdateAccessDeniedWarningCurentUser>nuvarande</AdminUpdateAccessDeniedWarningCurentUser>
+
+  <ServerExceedsMaxSizeForEditAsTextFile>Filstorleken överskrider den maximala storleken för att redigera det som en textfil.</ServerExceedsMaxSizeForEditAsTextFile>
+  <ServerDemoMode>Den givna åtgärden är förbjuden i en demo-läge</ServerDemoMode>
+  <ServerHostedMode>Det är inte tillåtet att ändra värden för följande inställningar i värd testversion: {0}.</ServerHostedMode>
+  <ServerIncorrectImageContentType>Filen Mime-typ är inte en bild</ServerIncorrectImageContentType>
+  <ServerPermissionDenied>Denna operation avvisas på grund av begränsad behörighet</ServerPermissionDenied>
+  <ServerRestoreFromTrashNoParentFolder>restaurering misslyckades eftersom den överordnade katalogen "{0}" har inte hittats. Skapa det och försök igen.</ServerRestoreFromTrashNoParentFolder>
+  <ServerModifyPermissionDenied>Denna operation avvisas eftersom du inte har behörighet att ändra filen</ServerModifyPermissionDenied>
+  <ServerPathNotFound>Väg ej hittad.</ServerPathNotFound>
+  <ServerInvalidPath>Sökvägen "{0}" är inte giltig</ServerInvalidPath>
+  <ServerInvalidAbsolutePath>Ogiltig absolut sökväg "{0}"</ServerInvalidAbsolutePath>
+  <!-- share folder path: \\server\share -->
+  <ServerInvalidShareFolderPath>Ogiltig delad mapp väg "{0}"</ServerInvalidShareFolderPath>
+  <ServerInvalidUncPath>Ogiltig UNC sökvägen "{0}"</ServerInvalidUncPath>
+  <ServerUnableResolveUncPath>Det går inte att lösa UNC-sökväg "{0}"</ServerUnableResolveUncPath>
+  <ServerInvalidFileName>fil / mapp namn är felaktigt inställd eller innehåller felaktiga tecken {0}</ServerInvalidFileName>
+  <ServerFilePathNotFound>Fil existerar inte</ServerFilePathNotFound>
+  <ServerIncorrectPathForFileLink>Fel typ objekt. Den angivna sökvägen pekar på en mapp</ServerIncorrectPathForFileLink>
+  <ServerIncorrectPathForFolderLink>Fel typ objekt. Den angivna sökvägen pekar på en fil</ServerIncorrectPathForFolderLink>
+  <ServerRootFolderNotFound>Rotkatalogen för väg "{0}" kunde inte hittas.</ServerRootFolderNotFound>
+  <ServerUnableCreateFolder>Det går inte att skapa mappen</ServerUnableCreateFolder>
+  <ServerFileAlreadyExists>Fil med detta namn finns redan</ServerFileAlreadyExists>
+  <ServerFileAlreadyExistsOnRename>
+    Vill du byta namn "{0}" till "{1}"?
+    Det finns redan en fil med samma namn på den här platsen.
+  </ServerFileAlreadyExistsOnRename>
+  <ServerFolderAlreadyExistsOnRename>
+    Vill du byta namn "{0}" till "{1}"?
+    Det finns redan en mapp med samma namn på den här platsen.
+  </ServerFolderAlreadyExistsOnRename>
+  <ServerFoldersMergeConfirm>
+    Denna destination redan innehåller en mapp med namnet "{0}".
+    Vill du fortfarande att slå ihop den här mappen "{0}" med denna "{1}"?
+  </ServerFoldersMergeConfirm>
+  <ServerFolderWithSameNameAsFileNameAlreadyExists>Det finns redan en mapp med samma namn "{0}" som filnamn du angav</ServerFolderWithSameNameAsFileNameAlreadyExists>
+  <ServerFileWithSameNameAsFolderNameAlreadyExists>Det finns redan en fil med samma namn "{0}" som mappnamnet du angav</ServerFileWithSameNameAsFolderNameAlreadyExists>
+  <ServerFileNotFound>Filen "{0}" inte finns i mappen "{1}". Möjligen har raderats eller tagits bort av en annan användare.</ServerFileNotFound>
+  <ServerDirectoryAlreadyExists>En katalog med detta namn finns redan</ServerDirectoryAlreadyExists>
+  <ServerFolderMoveAlreadeExists>Målmappen "{0}" är densamma som källmappen</ServerFolderMoveAlreadeExists>
+  <ServerUploadPathNotFound>Sökvägen för fillagring finns inte på servern</ServerUploadPathNotFound>
+  <ServerUploadPathNotSet>Ett fel uppstod när en väg för uppladdning. Snälla, uppdatera sidan i webbläsaren och försök igen.</ServerUploadPathNotSet>
+  <ServerUploadNoChunk>Ingen bit för räddning</ServerUploadNoChunk>
+  <ServerUploadWriteChunk>Skriv bit sedan byte</ServerUploadWriteChunk>
+  <ServerUploadCreatingFile>skapa fil</ServerUploadCreatingFile>
+  <ServerUploadFileUploaded>Filen har lagts upp</ServerUploadFileUploaded>
+  <ServerUploadWriteError>Skriva fel</ServerUploadWriteError>
+  <ServerConfigurationError>Felaktig konfiguration eller ansökan! Kontakta webbplatsens administratör</ServerConfigurationError>
+  <ServerPermissionsAllowTypes>Aktuella behörigheter tillåter denna operation endast med filtyper {0}</ServerPermissionsAllowTypes>
+  <ServerPermissionsDenyTypes>Aktuella behörigheter förbjuder denna operation med filtyper {0}</ServerPermissionsDenyTypes>
+  <ServerRequestSizeExceeded>Storleken på uppladdade filer överskrider tillåten storlek i serverinställningar</ServerRequestSizeExceeded>
+  <ServerEmailMsgProcessedFilesSubject>Uppladdade / Modifierade / hem / skapas/borttagna / Delade filer / mappar</ServerEmailMsgProcessedFilesSubject>
+  <ServerEmailMsgUploadFilesTitle>uppladdad</ServerEmailMsgUploadFilesTitle>
+  <ServerEmailMsgModifyFilesTitle>ändrad</ServerEmailMsgModifyFilesTitle>
+  <ServerEmailMsgDownloadFilesTitle>nedladdade</ServerEmailMsgDownloadFilesTitle>
+  <ServerEmailMsgCreateFilesTitle>skapade</ServerEmailMsgCreateFilesTitle>
+  <ServerEmailMsgDeleteFilesTitle>raderade</ServerEmailMsgDeleteFilesTitle>
+  <ServerEmailMsgCreatePublicFilesTitle>delad</ServerEmailMsgCreatePublicFilesTitle>
+  <ServerEmailMsgProcessedFilesBody>
+    Följande filer / mappar var {0} av {1}:
+
+{2}
+    
+  </ServerEmailMsgProcessedFilesBody>
+  <ServerEmailMsgPasswordRecoverSubject>Återställning av lösenord</ServerEmailMsgPasswordRecoverSubject>
+  <ServerEmailMsgPasswordRecoverBody>
+    Du har begärt att återställa lösenordet i Web File Manager. Ditt lösenord har återställts. Om du tror att detta är ett fel, helt enkelt ignorera detta brev, men tänk på att ditt lösenord har ändrats.
+    Användarnamn: {0}
+    Nytt lösenord: {1}
+  </ServerEmailMsgPasswordRecoverBody>
+  
+  <ServerEmailMsgUserNameRecoverSubject>Användarnamn återhämtning</ServerEmailMsgUserNameRecoverSubject>
+  <ServerEmailMsgUserNameRecoverBody>
+    Du har begärt att återställa ditt namn i Web File Manager.
+    Användarnamn: {0}
+  </ServerEmailMsgUserNameRecoverBody>
+
+  <ServerEmailMsgUserActivationSubject>Kontoaktivering</ServerEmailMsgUserActivationSubject>
+  <ServerEmailMsgUserActivationBody>
+    Konto ({0}) aktivering krävs.
+    För att aktivera ditt konto, vänligen klicka på följande länk: {1}
+  </ServerEmailMsgUserActivationBody>
+  <ServerEmailMsgUserRegisteredSubject>användare som registrerats</ServerEmailMsgUserRegisteredSubject>
+  <ServerEmailMsgUserRegisteredBody>
+    Du registrerat i Web File Manager.
+    Användarnamn: {0}
+  </ServerEmailMsgUserRegisteredBody>
+  <ServerEmailMsgUserRegisteredForAdminsBody>
+    &lt;h4&gt; Ny användare har registrerats &lt;/h4&gt;
+    &lt;strong&gt; användarnamn &lt;/strong&gt;: {0} &lt;br /&gt;
+    &lt;strong&gt; E-post &lt;/strong&gt;: {1} &lt;br /&gt;
+    &lt;strong&gt; Datum &lt;/strong&gt;: {2} &lt;br /&gt;
+    &lt;strong&gt; Kommentarer &lt;/strong&gt;: {3} &lt;br /&gt;
+  </ServerEmailMsgUserRegisteredForAdminsBody>
+  <ServerDiskFullError>Det finns inte tillräckligt med utrymme på hårddisken.</ServerDiskFullError>
+  <ServerFolderLimitations>Mapp begränsningar: {0}</ServerFolderLimitations>
+  <ServerShortcutAssignedFolderNotFound>Tilldelad mapp hittades inte för ett mål väg genväg</ServerShortcutAssignedFolderNotFound>
+  <ServerSizeFilesForZipExceeded>Storleken på arkivfiler översteg tillåtna värdet {0}.</ServerSizeFilesForZipExceeded>
+  <ServerPasteFolderToSubfolderError>Målmappen "{0}" är en undermapp källmappen "{1}".</ServerPasteFolderToSubfolderError>
+  <ServerLiveConnectAppIDNotSpecified>KundID Microsoft Live Connect ansökan är inte definierad</ServerLiveConnectAppIDNotSpecified>
+  <ServerSendEmailInfo>Författare specificerade sin e-post som {0}. Använd denna e-postadress för att svara.</ServerSendEmailInfo>
+
+  <ServerAntivirusScanningFailed>Skanning av ett antivirusprogram: "{0} {1}" avslutas onormalt.</ServerAntivirusScanningFailed>
+
+  <ServerUserNameNotFound>Användare med namnet '{0}' hittades inte.</ServerUserNameNotFound>
+  <ServerFileNameCopySuffix>Kopiera</ServerFileNameCopySuffix>
+
+  <ServerDeleteFolderNTFSAccessDenied>Du har inte NTFS behörighet att ta bort mappen "{0}"</ServerDeleteFolderNTFSAccessDenied>
+
+  <ServerMSOOTemplateNotFound>{0} mallen inte hittas</ServerMSOOTemplateNotFound>
+</Localization>

@@ -1,0 +1,550 @@
+﻿<!-- saved from url=(0014)about:internet -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Novell eDirectory integration (Windows version)</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <script type="text/javascript" language="javascript">
+        function toggleBlock(id) {
+            if (document.getElementById(id).style.display == 'none') {
+                document.getElementById(id).style.display = 'block';
+            } else {
+                document.getElementById(id).style.display = 'none';
+            }
+        }
+    </script>
+    
+    <table width="100%" cellpadding="0" cellspacing="0">
+        <tr>
+            <td width="320">
+                <table>
+                    <tr>
+                        <td style="vertical-align:top;text-align:left;">
+                            <a target='_blank' href='http://www.element-it.com/asp-net-explorer-browser/online-share/web-file-manager.aspx'><img style='cursor:pointer;' alt="HTTP Commander" src="Images/HCLogo.png" border="0" /></a>
+                        </td>
+                        <td class="green" style="vertical-align:top;text-align:left;padding-top:21px;">
+                            &nbsp;AJS 4.x
+                        </td>
+                    </tr>
+                </table>
+                <span class="gray">Manual</span>
+            </td>
+             <td>
+  <!-- For windows version only. Start --> 
+	<p>
+	<strong>Note!</strong> This Manual is for the <strong>"Windows authentication"</strong> version, 
+	which is designed to work with existing Windows server or Active Directory accounts and Windows authentication. 
+	If you want to create accounts by yourself and store their credentials in your own HTTP Commander XML database, 
+	you need to download the <a target="_blank" href="http://www.element-it.com/downloadfile.aspx?type=st">"Forms authentication" version</a>!
+	This Manual is for the Windows authentication version only!
+	</p>
+	<!-- For windows version only. End --> 
+	
+ 
+	
+                
+            </td>
+            <td align="char" width="230">
+                <img alt="" src="Images/world.jpg" align="middle" hspace="5" style="vertical-align:top;padding-top:1px;" /><b><a target="_blank" title="web file manager" href="http://www.element-it.com/asp-net-explorer-browser/online-share/web-file-manager.aspx">Web file manager</a></b><br />
+                <img alt="" src="Images/support.png" width="16" height="16" align="middle" hspace="5" style="vertical-align:top;padding-top:1px;" /><b><a
+                    href="onlinesupport.html" target="main">Free Installation assistance</a></b><br />
+                <img alt="" src="Images/help.png" align="middle" width="16" height="16" hspace="5" style="vertical-align:top;padding-top:1px;" /><b><a
+                    href="index.html" title="Manual Home page" target="_blank">Manual Home page</a></b><br />
+            </td>
+        </tr>
+    </table>
+    
+    <!-- Title -->
+    <p class="topic">
+        <a id="hcadsicomtopic">Novell eDirectory integration</a>
+    </p>
+    
+    <p>HTTP Commander may use Novell eDirectory directory service for authentication.
+    In Novell eDirectory mode, you use eDirectory users to log into HTTP Commander.
+    You may use group membership to assign folders.
+    HTTP Commander does not impersonate eDirectory users, 
+    all requests are processed in the context of application pool account,
+    as it normally works in Form-based web applications.
+    </p>
+    
+    <p><b>Limitation</b> HTTP Commander uses isolated user name to identify users.
+    It does not distinguish users having the same name but residing in different containers 
+    in directory tree. For example, users with the following distinguished names
+    are identical for application: cn=user1,O=ELEMIT and cn=user1,ou=OU1,O=ELEMIT.</p>
+    
+    <h2>Configuring HTTP Commander for Novell eDirectory mode</h2>
+    <ul>
+        <li>Set Main/Version="st".</li>
+        <li>Set NovellEDirectory/EDirectory="true".</li>
+        <li><p>Set NovellEDirectory/EDirectoryBindUserDN parameter to a distinguished name 
+        of the user that will be used to read information from eDirectory.</p>
+        <p><b>Note</b> EDirectoryBindUserDN must be an LDAP Distinguished Name, 
+        like cn=user1,O=ELEMIT (in Novell documentation it's called a typeful name), typeless DN, 
+        like user1.ELEMIT will not work here.</p>
+        </li>
+        <li>Set NovellEDirectory/EDirectoryBindUserPassword parameter to password of 
+        the user you've specified in EDirectoryBindUserDN parameter.
+        </li>
+        <li>Set ActiveDirectory/LDAPContainer parameter to ldap path of the eDirectory server. 
+        It should have a value like "LDAP://{server-name}". Here "server-name" in the name of the eDirectory server. 
+        It may be DNS name, IP address, NetBIOS name.
+        See more details below.
+        </li>
+    </ul>
+    
+    <h3>Ldap path</h3>
+    <p>Ldap path structure: LDAP://&lt;<i>server</i>&gt;/&lt;<i>context</i>&gt;.</p>
+    <p>Examples: "LDAP://10.10.10.141", "LDAP://10.10.10.141:636", "LDAP://dep.server.com/ou=cinci,o=KPOrg".</p>
+    <p>
+    Ldap path must start with "LDAP://".
+    Any other variants are invalid. For example, "ldap://", "ldaps://" are invalid.
+    Do not append slash to Ldap path. "LDAP://10.10.10.141/" - is a invalid Ldap path.</p>
+    
+    <p>
+    By default, HTTP Commander use SSL/TLS protocol to connect to eDirectory.
+    There is no option to change this now, that is you cannot disable SSL.
+    The default port is 636, so you may omit the port number.
+    For example, LDAPContainer may be "LDAP://10.10.10.141" or "LDAP://10.10.10.141:636".
+    Since SSL is used, the server certificate must be valid from the Windows point of view.
+    </p>
+    
+    <p>That means</p>
+    <ol>
+    <li>the current date in the range of the certificate valid interval</li>
+    <li>the certificate issuer is trusted</li>
+    <li>server part of Ldap part matches subject name of the certificate</li>
+    </ol>
+    
+    <p>If server certificate is invalid for whatever reason, 
+    HTTP Commander refuses to establish connection to the server.</p>
+    
+    <p>If your server certificate is self-signed, the certificate issuer is not trusted. 
+    You need to import the certificate into "Trusted Root Certification Authorities" 
+    sub-store of the "local machine" certificate store, on the machine where HTTP Commander is running.
+    </p>
+    
+    <p>Ldap path may end with server name, like "LDAP://{ip-address}".
+    You may specify a particular container in eDirectory, for example, ou=cinci,o=KPOrg, to restrict search scope. 
+    Append DN of the container after server name, like "LDAP://{DNS or IP or NetBIOS}/ou=cinci,o=KPOrg".
+    We suggest to use an LDAP browser to find the exact spelling of the context part.
+    In eDirectory the top level object normally has type Organization, hence naming context includes "o=".
+    </p>
+    
+    <h2>testEDirectory project</h2>
+    <p>Assigning correct value to LDAPContainer parameter may be tricky.
+    To help with troubleshooting eDirectory binding issues, we developed a small project named testEDirectory.
+    You do not need to have Visual Studio 2008 to use it, but Visual Studio simplifies troubleshooting a little bit.
+    </p>
+
+<p>Unpack <a href="testEDirectory.zip">testEDirectory</a> on the Web server and convert it to application with IIS manager.
+For example, you may unpack the project into c:\inetpub\wwwroot\testEDirectory.
+Then open IIS manager, find the testEDirectory folder under Default Web Site node,
+right-click the folder and select "Convert to application".
+Enable anonymous authentication for the application.
+Other authentication types will do to, the anonymous authentication is better simply because 
+it does not require for you to under credentials - simplifying troubleshooting.
+</p>
+
+<p>
+Open testEDirectory\App_Code\EDirectory.cs in a text editor.
+You need to assign three variables in this file, namely LDAPContainer, EDirectoryBindUserDN, EDirectoryBindUserPassword. 
+They have the same meaning as in HTTP Commander.
+</p>
+
+<p>Open the web application page in web browser, for example, you may open URL:
+http://localhost/testEDirectory/
+</p>
+
+<p>If connection to eDirectory server succeeds, you'll see a list of user DNs on the page. 
+Otherwise you'll get an exception.
+</p>
+
+<p>Unfortunately, the exception normally is too general, it does not explain what exactly went wrong.
+You normally get "COMException (0x8007203a): Server not operational." error.
+The only conclusion we can draw from this error is that the bind operation failed.
+</p>
+
+<h3>Step 1. SSL-less bind</h3>
+<p>
+To simplify troubleshooting process, let's get rid of SSL for a while.
+We start with a simple clear text bind to eDirectory.
+In this case user password will be sent unencrypted over network.
+That is OK for testing purpose, but should not be used in enterprise environment.
+Once simple bind to eDirectory succeeds, we may proceed to troubleshoot SSL bind.
+</p>
+
+<p>Follow the instructions below to test simple bind to eDirectory.</p>
+
+<ol>
+<li>Configure eDirectory to accept clear text passwords.
+  (The steps below are for Novell ConsoleOne)
+  <ul>
+  <li>find 'LDAP Group' object, open it property</li>
+  <li>on the 'Other' tab set 'LDAP Allow Clear Text Password' attribute to 'true'</li>
+  <li>restart LDAP service for changes to take effect</li>
+  </ul>
+</li>
+
+<li><p>Changes in testEDirectory project</p>
+<p>In the testEDirectory project, in EDirectory.cs file change the last parameter of 
+the DirectoryEntry constructor: AuthenticationTypes.SecureSocketsLayer -&gt; AuthenticationTypes.None.
+</p>
+
+    <ul>
+    <li>AuthenticationTypes.SecureSocketsLayer - SSL binding</li>
+    <li>AuthenticationTypes.None - simple binding</li>
+    </ul>
+
+<p>You do not need to change anything else in the project. 
+Updating the last parameter of the DirectoryEntry constructor is the only change required to switch between SSL and simple bind.
+</p>
+
+<p>Now try to open the the Default.aspx page. 
+If you see a list of users, then the problem is related to SSL. 
+Otherwise inspect the LDAPContainer, EDirectoryBindUserDN, EDirectoryBindUserPassword parameters.
+</p>
+
+<p><b>Note</b> We suggest to start testing without naming context, like LDAPContainer="LDAP://10.10.10.141", 
+then append context like "LDAP://10.10.10.141/o=cspo,ou=usa_sti".
+</p>
+
+<p><b>More on SSL</b> In my test environment the certificate is bound to machine NetBIOS name. 
+I may connect to the eDirectory server only when LDAPContainer is set to 'LDAP://{NetBIOS name}'. 
+If LDAPContainer is set to 'LDAP://{ip address}', connection fails with 'The Server is not operational' error.
+</p>
+</ol>
+
+<h3>Step 2. SSL bind</h3>
+<p>As soon as simple bind succeeds, you may proceed with SSL bind.</p>
+
+<p>Restore the original setting in EDirectory.cs (you changed it when you test simple bind in the previous step).
+In the testEDirectory project, in EDirectory.cs file change the last parameter of the DirectoryEntry constructor: 
+AuthenticationTypes.None -&gt; AuthenticationTypes.SecureSocketsLayer.
+</p>
+
+<p><b>Note</b> The steps bellow are for Novell ConsoleOne</p>
+
+<h3>What certificate is used by eDirectory</h3>
+<ul>
+<li>find 'LDAP Server' object</li>
+<li>open Properties, 'Other' tab</li>
+<li>find 'LDAP:keyMaterialName' attribute. It contains the name of the effective certificate object. 
+The name of the Certificate object in eDirectory that is associated with this LDAP server and will be used for SSL LDAP connections.</li>
+<li>remember this name. You'll need to find the certificate object in eDirectory later.</li>
+</ul>
+
+<h3>Verify certificate</h3>
+<ul>
+<li>find the certificate object that is used by LDAP server</li>
+<li>open it properties, Certificates tab</li>
+<li>in the tab title menu select 'Trusted Root Certificate' or 'Public Key Certificate'. You need verify both certificates.</li>
+<li>Click 'Validate' button</li>
+<li>make sure that certificate status is 'valid'</li>
+</ul>
+
+<h3>Certificate subject name</h3>
+
+<p>Certificate subject name must match the server name part of Ldap path
+you use to connect to eDirectory 
+(that may be DNS, NetBIOS name or IP address).</p>
+
+<p>Where to find the certificate subject name</p>
+<ul>
+<li>find the certificate object that is used by LDAP server</li>
+<li>open it properties, Certificates tab</li>
+<li>in the tab title menu select 'Public Key Certificate'</li>
+<li>see the Subject name field</li>
+</ul>
+
+<p>In my case subject name is 'O=ELEMIT.CN=kub-win2003ent'<sup><a href="#SubjectNameFormat">1</a></sup>.
+Then LDAPContainer must be "LDAP://kub-win2003ent".
+You may append context to the LDAPContainer like "LDAP://kub-win2003ent/o=ELEMIT", 
+but the server part cannot be changed. 
+You cannot replace it with IP address or alternative server name, it must be 'kub-win2003ent'.
+</p>
+
+<!-- Novell ConsoleOne shows 'O=ELEMIT.CN=10.10.1.200' subject name, 
+though it's clear that this name is syntactically invalid, dots in IP address must escaped.  -->
+<p>Subject name may be based on IP address, like 'O=ELEMIT.CN=10.10.1.200'<sup><a href="#SubjectNameFormat">1</a></sup>, 
+in this case LDAPContainer must be "LDAP://10.10.1.200/...".
+A certificate may include a number of alternative subject names.
+That gives you some freedom of selecting server name in Ldap path.
+Unfortunately, Novell ConsoleOne does not show alternative subject names,
+you need to export certificate and use an external tool to inspect this field.</p> 
+
+<p id="SubjectNameFormat"><b>Note 1</b> Novell ConsoleOne uses dot to separate elements of DN,
+while naming context in Ldap path uses comma for the same purpose.</p>
+
+<h3>Export certificate</h3>
+
+<ul>
+<li>find the certificate object that is used by LDAP server</li>
+<li>open it properties, Certificates tab</li>
+<li>in the tab title menu select 'Trusted Root Certificate' or 'Public Key Certificate'. 
+    You need export both certificates. Export root certificate first, then public key certificate.</li>
+<li>click export button</li>
+  <ul>
+  <li>do not export private key</li>
+  <li>select der format</li>
+  </ul>
+<li>We got two der files: one for 'Trusted Root Certificate' and one for 'Public Key Certificate'.</li>
+</ul>
+
+<p><b>Note</b> 'Trusted Root Certificate' is the issuer of the 'Public Key Certificate'.
+You need to import the 'Trusted Root Certificate' into the HttpCommander machine.
+'Public Key Certificate' - this certificate will be used in SSL connection to eDirectory.
+</p>
+
+<h3>Import the certificate to the HTTP Commander machine</h3>
+
+<p>You need to import the 'Trusted Root Certificate' certificate to the machine 
+where HTTP Commander (or testEdirectory application) is running.</p>
+
+<p><b>Note</b> If your certificate is issued by VeriSign, Thawte, 
+or other well-known authority, that already present in the 
+"Trusted Root Certification Authorities" list, you may skip this step.
+</p>
+
+<ul>
+<li>copy the .der file for 'Trusted Root Certificate' certificate on the HTTP Commander machine</li>
+<li><p>open mmc</p>
+  <p>On Windows Vista</p>
+  <ul>
+    <li>Windows start button, Run, type mmc, click OK</li>
+  </ul>
+  <p>On Windows 7</p>
+  <ul>
+    <li>Windows start button</li>
+    <li>in the "Search programs and files" field type mmc</li>
+    <li>right-click mmc.exe and click "Run as administrator"</li>
+  </ul></li>
+<li>Microsoft Management Console window appears</li>
+<li><p>main menu->file-&gt;Add/Remove Snap-in...</p>
+  <p>On Windows Vista</p>
+  <ul>
+  <li>"Add/Remove Snap-in" window appears</li>
+  <li><p>click Add button</p>
+    <ul>
+    <li>in the "Add Standalone Snap-in" window select Certificates</li>
+    <li>click Add
+      <ul>
+      <li>"Certificates snap-in" window appears</li>
+      <li>select "Computer account"</li>
+      <li>click "next"</li>
+      <li>"Select computer" window appears</li>
+      <li>select "Local computer"</li>
+      <li>click "Finish"</li>
+      </ul></li>
+    <li>in the "Add Standalone Snap-in" windows click "close"</li>
+    </ul></li>
+  <li>in the "Add/Remove Snap-in" window click OK</li>
+  <p>On Windows 7</p>
+  <li><p>"Add or Remove Snap-in" window appear</p>
+    <ul>
+    <li>select Certificates in the "Available snap-ins" list</li> 
+    <li>click Add button
+      <ul>
+      <li>"Certificates snap-in" window appears</li>
+      <li>select "Computer account"</li>
+      <li>click "next"</li>
+      <li>"Select computer" window appears</li>
+      <li>select "Local computer"</li>
+      <li>click "Finish"</li>
+      </ul></li>
+    </ul></li>
+  <li>in the "Add or Remove Snap-in" window click OK</li>
+  </ul></li>
+<li><p>in the left tree of the console window select</p>
+  <ul>
+  <li>Trusted Root Certification Authorities/Certificates
+  </ul></li>
+<li><p>main menu-&gt;Action-&gt;All Tasks-&gt;Import</p>
+  <p>On Windows Vista</p>
+  <ul>
+  <li>click "next"</li>
+  <li>select .der file for 'Trusted Root Certificate' certificate</li>
+  <li>click "next"</li>
+  <li>select "Place all certificates in the following store",
+    Certificate store: "Trusted Root Certification Authorities"</li>
+  <li>click "next"</li>
+  <li>click finish</li>
+  </ul>
+  <p>On Windows 7</p>
+  <ul>
+  <li>select .der file for 'Trusted Root Certificate' certificate</li>
+  <li>click "next"</li>
+  <li>select "Place all certificates in the following store",
+    Certificate store: "Trusted Root Certification Authorities"</li>
+  <li>click "next"</li>
+  <li>click finish</li>
+  </ul></li>
+<li>now you should see an item named "Organizational CA" in the certificates list
+  (the item may be named differently in your case)</li>
+</ul>
+
+<p>We just imported the 'Trusted Root Certificate' certificate to 'Trusted Root Certification Authorities' for machine account.
+Now the machine account 'trusts' to certificates issued by this authorities, 
+it trusts to 'Public Key Certificate' that is used in SSL connection to eDirectory.
+</p>
+
+<h3>Check 'Public Key Certificate' certificate</h3>
+<p><b>Note</b> The steps bellow are for HTTP Commander machine</p>
+<ul>
+<li>open Windows Console (cmd.exe) or Windows PowerShell window</li>
+<li>execute the command "certutil -verify -urlfetch cert.file.der"
+  Here cert.file.der is the 'Public Key Certificate'</li>
+<li>inspect command output</li>
+</ul>
+
+<p>I add two examples of the certutil output. One before importing the "Trusted Root Certificate" and one after. 
+Pay attention to the lines with 'dwErrorStatus'. 
+CERT_TRUST_REVOCATION_STATUS_UNKNOWN is not a problem, AFAICS. 
+I successfully connect to eDirectory despite this error. Note the line starting with 'ERROR: '.
+</p>
+
+<p>For more details on interpreting the output of the command, 
+see <a target="_blank"  href="http://blogs.technet.com/b/askds/archive/2008/03/13/troubleshooting-ldap-over-ssl.aspx">Troubleshooting LDAP Over SSL</a>.
+</p>
+
+<p>certutil output before importing "Trusted Root Certificate"</p>
+<pre style="display: inline-block; border:1px solid Black;">
+Issuer:
+    O=ELEMIT
+    OU=Organizational CA
+Subject:
+    CN=kub-win2003ent
+    O=ELEMIT
+Cert Serial Number: 021c11ffb276e4a8315bf2cc093c1061fea574408adc3971216eba6562e202020c13a4d4
+
+dwFlags = CA_VERIFY_FLAGS_DUMP_CHAIN (0x40000000)
+ChainFlags = CERT_CHAIN_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT (0x40000000)
+HCCE_LOCAL_MACHINE
+CERT_CHAIN_POLICY_BASE
+-------- CERT_CHAIN_CONTEXT --------
+ChainContext.dwErrorStatus = CERT_TRUST_REVOCATION_STATUS_UNKNOWN (0x40)
+ChainContext.dwErrorStatus = CERT_TRUST_IS_OFFLINE_REVOCATION (0x1000000)
+ChainContext.dwErrorStatus = CERT_TRUST_IS_PARTIAL_CHAIN (0x10000)
+SimpleChain.dwErrorStatus = CERT_TRUST_REVOCATION_STATUS_UNKNOWN (0x40)
+SimpleChain.dwErrorStatus = CERT_TRUST_IS_OFFLINE_REVOCATION (0x1000000)
+SimpleChain.dwErrorStatus = CERT_TRUST_IS_PARTIAL_CHAIN (0x10000)
+
+CertContext[0][0]: dwInfoStatus=2 dwErrorStatus=1000040
+  Issuer: O=ELEMIT, OU=Organizational CA
+  Subject: CN=kub-win2003ent, O=ELEMIT
+  Serial: 021c11ffb276e4a8315bf2cc093c1061fea574408adc3971216eba6562e202020c13a4d4
+  22 b7 58 1d d2 45 3d 02 f0 48 e5 54 3e cf 70 64 ce 50 20 c6
+  Element.dwInfoStatus = CERT_TRUST_HAS_KEY_MATCH_ISSUER (0x2)
+  Element.dwErrorStatus = CERT_TRUST_REVOCATION_STATUS_UNKNOWN (0x40)
+  Element.dwErrorStatus = CERT_TRUST_IS_OFFLINE_REVOCATION (0x1000000)
+  ----------------  Certificate AIA  ----------------
+  No URLs "None" Time: 0
+  ----------------  Certificate CDP  ----------------
+  No URLs "None" Time: 0
+  --------------------------------
+
+Exclude leaf cert:
+  da 39 a3 ee 5e 6b 4b 0d 32 55 bf ef 95 60 18 90 af d8 07 09
+Full chain:
+  22 b7 58 1d d2 45 3d 02 f0 48 e5 54 3e cf 70 64 ce 50 20 c6
+Missing Issuer: O=ELEMIT, OU=Organizational CA
+  Issuer: O=ELEMIT, OU=Organizational CA
+  Subject: CN=kub-win2003ent, O=ELEMIT
+  Serial: 021c11ffb276e4a8315bf2cc093c1061fea574408adc3971216eba6562e202020c13a4d4
+  22 b7 58 1d d2 45 3d 02 f0 48 e5 54 3e cf 70 64 ce 50 20 c6
+A certificate chain could not be built to a trusted root authority. 0x800b010a (-2146762486)
+------------------------------------
+Incomplete certificate chain
+Cannot find certificate:
+    O=ELEMIT, OU=Organizational CA
+
+ERROR: Verifying leaf certificate revocation status returned 
+The revocation function was unable to check revocation because the revocation 
+server was offline. 0x80092013 (-2146885613)
+CertUtil: The revocation function was unable to check revocation because the 
+revocation server was offline.
+
+CertUtil: -verify command completed successfully.
+</pre>
+
+<p>certutil output after importing "Trusted Root Certificate"</p>
+<pre style="display: inline-block; border:1px solid Black;">
+Issuer:
+    O=ELEMIT
+    OU=Organizational CA
+Subject:
+    CN=kub-win2003ent
+    O=ELEMIT
+Cert Serial Number: 021c11ffb276e4a8315bf2cc093c1061fea574408adc3971216eba6562e202020c13a4d4
+
+dwFlags = CA_VERIFY_FLAGS_DUMP_CHAIN (0x40000000)
+ChainFlags = CERT_CHAIN_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT (0x40000000)
+HCCE_LOCAL_MACHINE
+CERT_CHAIN_POLICY_BASE
+-------- CERT_CHAIN_CONTEXT --------
+ChainContext.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+ChainContext.dwErrorStatus = CERT_TRUST_REVOCATION_STATUS_UNKNOWN (0x40)
+
+SimpleChain.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+SimpleChain.dwErrorStatus = CERT_TRUST_REVOCATION_STATUS_UNKNOWN (0x40)
+
+CertContext[0][0]: dwInfoStatus=102 dwErrorStatus=40
+  Issuer: O=ELEMIT, OU=Organizational CA
+  Subject: CN=kub-win2003ent, O=ELEMIT
+  Serial: 021c11ffb276e4a8315bf2cc093c1061fea574408adc3971216eba6562e202020c13a4d4
+  22 b7 58 1d d2 45 3d 02 f0 48 e5 54 3e cf 70 64 ce 50 20 c6
+  Element.dwInfoStatus = CERT_TRUST_HAS_KEY_MATCH_ISSUER (0x2)
+  Element.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+  Element.dwErrorStatus = CERT_TRUST_REVOCATION_STATUS_UNKNOWN (0x40)
+  ----------------  Certificate AIA  ----------------
+  No URLs "None" Time: 0
+  ----------------  Certificate CDP  ----------------
+  No URLs "None" Time: 0
+  --------------------------------
+
+CertContext[0][1]: dwInfoStatus=10a dwErrorStatus=0
+  Issuer: O=ELEMIT, OU=Organizational CA
+  Subject: O=ELEMIT, OU=Organizational CA
+  Serial: 021c11ffb276e4a8315bf2cc093c1061fea574408adc3971216eba6562e202020105c6ef
+  65 ef b8 67 12 11 0f c3 9d a9 76 af 6c da 33 68 48 b3 9b d4
+  Element.dwInfoStatus = CERT_TRUST_HAS_KEY_MATCH_ISSUER (0x2)
+  Element.dwInfoStatus = CERT_TRUST_IS_SELF_SIGNED (0x8)
+  Element.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+  ----------------  Certificate AIA  ----------------
+  No URLs "None" Time: 0
+  ----------------  Certificate CDP  ----------------
+  No URLs "None" Time: 0
+  --------------------------------
+
+Exclude leaf cert:
+  22 b7 58 1d d2 45 3d 02 f0 48 e5 54 3e cf 70 64 ce 50 20 c6
+Full chain:
+  44 17 50 ad 42 43 d1 63 81 e5 11 7a 7f 81 e6 7b 17 82 da 7c
+  Issuer: O=ELEMIT, OU=Organizational CA
+  Subject: CN=kub-win2003ent, O=ELEMIT
+  Serial: 021c11ffb276e4a8315bf2cc093c1061fea574408adc3971216eba6562e202020c13a4d4
+  22 b7 58 1d d2 45 3d 02 f0 48 e5 54 3e cf 70 64 ce 50 20 c6
+The revocation function was unable to check revocation for the certificate. 0x80092012 (-2146885614)
+------------------------------------
+Revocation check skipped -- no revocation information available
+Cannot check leaf certificate revocation status
+CertUtil: -verify command completed successfully.
+</pre>
+
+<h3>How to restart LDAP service</h3>
+
+<p>See <a target="_blank"  href="http://www.novell.com/documentation/edir873/?page=/documentation/edir873/edir873/data/agqbavu.html">Refreshing the LDAP Server</a>.</p>
+
+<p>I do the following (I'm not sure this is the right way, but it works for me).</p> 
+<ul>
+<li>Open Windows Control Panel, open 'Novell eDirectory Services'</li>
+<li>click Shutdown, then Startup</li>
+</ul>
+
+<p><b>Note</b> In my case Novell eDirectory is installed on Windows Server 2003.</p>
+
+</body>
+</html>
+

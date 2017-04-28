@@ -1,0 +1,210 @@
+﻿<!-- saved from url=(0014)about:internet -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Anonymous download (Windows version)</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <script type="text/javascript" language="javascript">
+        function toggleBlock(id) {
+            if (document.getElementById(id).style.display == 'none') {
+                document.getElementById(id).style.display = 'block';
+            }
+            else {
+                document.getElementById(id).style.display = 'none';
+            }
+        }
+    </script>
+    
+    <table width="100%" cellpadding="0" cellspacing="0">
+        <tr>
+            <td width="320">
+                <table>
+                    <tr>
+                        <td style="vertical-align:top;text-align:left;">
+                            <a target='_blank' href='http://www.element-it.com/asp-net-explorer-browser/online-share/web-file-manager.aspx'><img style='cursor:pointer;' alt="HTTP Commander" src="Images/HCLogo.png" border="0" /></a>
+                        </td>
+                        <td class="green" style="vertical-align:top;text-align:left;padding-top:21px;">
+                            &nbsp;AJS 4.x
+                        </td>
+                    </tr>
+                </table>
+                <span class="gray">Manual</span>
+            </td>
+            <td>
+  <!-- For windows version only. Start --> 
+	<p>
+	<strong>Note!</strong> This Manual is for the <strong>"Windows authentication"</strong> version, 
+	which is designed to work with existing Windows server or Active Directory accounts and Windows authentication. 
+	If you want to create accounts by yourself and store their credentials in your own HTTP Commander XML database, 
+	you need to download the <a target="_blank" href="http://www.element-it.com/downloadfile.aspx?type=st">"Forms authentication" version</a>!
+	This Manual is for the Windows authentication version only!
+	</p>
+	<!-- For windows version only. End --> 
+	
+ 
+
+            </td>
+            <td align="char" width="230">
+                <img alt="" src="Images/world.jpg" align="middle" hspace="5" style="vertical-align:top;padding-top:1px;" /><b><a target="_blank" title="web file manager" href="http://www.element-it.com/asp-net-explorer-browser/online-share/web-file-manager.aspx">Web file manager</a></b><br />
+                <img alt="" src="Images/support.png" width="16" height="16" align="middle" hspace="5" style="vertical-align:top;padding-top:1px;" /><b><a
+                    href="onlinesupport.html" target="main">Free Installation assistance</a></b><br />
+                <img alt="" src="Images/help.png" align="middle" width="16" height="16" hspace="5" style="vertical-align:top;padding-top:1px;" /><b><a
+                    href="index.html" title="Manual Home page" target="_blank">Manual Home page</a></b><br />
+            </td>
+        </tr>
+    </table>
+    
+    <p class="topic">
+        <a id="hcadsicomtopic">Configure anonymous access to AnonymousDownload.ashx</a>
+    </p>
+
+<p>These instructions apply to the following <a href="webconfigsetup.html#AuthMode">AuthMode</a>: 
+Windows, Forms with Windows users.
+</p>
+<ul>
+    <li><b>For IIS 7, 7.5, 8, 8.5, 10 (Windows 2008, 2012, 2016)</b>: 
+      <ul>
+        <li>Open the <b>IIS console</b>: <b>Control panel</b>-&gt; <b>Administrative tools</b>-&gt;
+        <b>Internet Information Services</b></li>
+        
+        <li>Expand <b>"Web Sites"</b>, <b>"Default web site"</b>, <b>"HTCOMNET"</b>,<b>"Handlers"</b>.
+        </li>
+        
+        <li>
+        <p>Right-click the "Handlers" folder and select <b>"Switch to content view"</b> in the context menu. 
+        In the list of files in the middle panel, select the <b>"AnonymousDownload.ashx"</b> file and click the <b>"Switch to features view"</b> option. 
+        Now you may change settings pertaining to the <b>"AnonymousDownload.ashx"</b> file. 
+        Click the <b>"Authentication"</b> feature on the central pane.
+        </p>
+        
+        <ul>
+            <li>Enable <b>"Anonymous Authentication"</b> and <b>"ASP.NET Impersonation"</b>. 
+            Disable other items if possible. 
+            (In Forms with Windows users authentication mode Forms Authentication items cannot be disabled.)
+            <br/>
+            <a target="_blank" onClick="toggleBlock('anonymoushandler2008'); return false;" class="imglink">Screenshot</a>
+            <div id="anonymoushandler2008" style="display: none;">
+                <p class="screenshot">
+                &nbsp;<img src="Images/IIS7AnonymousDownloadAuthentication.png"/>
+                </p>
+            </div>
+            </li>
+            
+			<li>Now you need to configure how the identity under "AnonymousDownload.ashx" will work. 
+			   <!-- Choose <strong>method A</strong> (Easy) or <strong>Method B</strong> (For Advanced administrators. Recommended):
+			  <br />
+			  <strong>Method A</strong> (Easy):
+			 <ul>-->
+			 <li>Select <b>"Anonymous authentication"</b> and click the <b>"Edit..."</b> link on the action pane. 
+		In the new dialog box click the <b>"Set"</b> button and type the name of the <b>user who will have read and write NTFS permissions to all the files</b> you want to provide access to. 
+		It can be a domain administrator or a special user.<br/>
+		<a target="_blank" href="Images/anonymoushandler2008.png" onClick="toggleBlock('methaanonymoushandler2008'); return false;" class="imglink">Screenshot</a>
+        <div id="methaanonymoushandler2008" style="display: none;">
+            <p class="screenshot">&nbsp;<img src="Images/anonymoushandler2008.png"/></p>
+        </div>
+		</li>
+		<!-- </ul>
+			or <strong>Method B</strong> (For Advanced admins):
+			<ul>
+			<li>Select <b>"ASP.NET Impersonation"</b> and click the <b>"Edit..."</b> link on the action panel.
+			</li>
+            
+            <li>In the "Edit ASP.NET Impersonation Settings" dialog box, select the "Specific user" check box,
+            click the <b>"Set"</b> button and type the name of the
+            <b>user who will have read and write NTFS permissions to all the files</b> you want to provide access to.
+            Use the full user name with domain to avoid ambiguity: <i>domain\user</i>.
+            It can be a domain administrator or a special user. 
+            Click OK to close the "Set Credentials" dialog, 
+            click "OK" to close the "Edit ASP.NET Impersonation Settings" dialog.
+            <br/>
+            <a target="_blank" onClick="toggleBlock('anonymoushandler2008-2'); return false;" class="imglink">Screenshot</a>
+            <div id="anonymoushandler2008-2" style="display: none;">
+                <p class="screenshot">
+                &nbsp;<img src="Images/IIS7EditASPNETImpersonationSettings.png"/>
+                &nbsp;<img src="Images/IIS7SetCredentials.png"/>
+                </p>
+            </div>
+            </li>
+            
+            <li>IIS Manager stores the supplied settings in the Web.config file in the Handlers directory.
+            You may inspect this file with a text editor. 
+            IIS Manager writes the user name and password in clear text in the configuration file.
+            Although IIS will not transmit .config files in response to a user agent request, 
+            .config files can be read by other means.
+            For security reasons we recommend to encrypt the configuration file as described below.
+            You may skip the rest of this configuration guide if you think that is not a problem. 
+            </li>
+            
+            <li><p>Execute the following command as Administrator:</p>
+            <i>%windir%</i>\Microsoft.NET\Framework\<i>version</i>\aspnet_regiis 
+            -pe "system.web/identity" -app "/htcomnet/Handlers" -location "AnonymousDownload.ashx".
+            
+            <p>Replace <i>%windir%</i> and <i>version</i> with actual values.
+            You may need to change the value of the -app parameter if your web application name is not "htcomnet".
+            Output of the command should look as follows.</p>
+            
+<pre>
+Microsoft (R) ASP.NET RegIIS version 4.0.30319.17626
+Administration utility to install and uninstall ASP.NET on the local machine.
+Copyright (C) Microsoft Corporation.  All rights reserved.
+Decrypting configuration section...
+Succeeded!
+</pre>
+            </li>
+            
+            <li>Inspect the web.config file to ensure the content was encrypted.</li>
+            
+            <li>If you later decide to change the credentials of the anonymous user, 
+            you need to decrypt the configuration file first. 
+            IIS Manager does not work with encrypted sections.
+            Apply the same command you used for encryption with <b>-pe</b> parameter
+            replaced with <b>-pd</b>. Encrypt file after applying the changes.</li>
+			</ul>-->
+		  </li>
+            
+		</ul>
+		
+		
+        </li>
+		<li> Grant Read and Write NTFS permissions to the service account (which you used in previous step  as the identity for AnonymousDownload.ashx)
+  to all user files you want to provide access to.
+  If you plan to generate only download links (vs links that provide ability to upload files)
+  and if you need only viewer online services like Google Viewer, Microsoft OWA,
+  it is enough to assign Read permission to the user files.
+		 </li>
+      </ul>
+    </li>
+	
+	<li><b>For IIS 6 (Windows 2003)</b>: 
+      <ul>
+        <li>Open the <b>IIS console</b>: <b>Control panel</b>-&gt;<b>Administrative tools</b>-&gt;
+        <b>Internet Information   Services</b>-&gt;Expand <b>"Web Sites"</b>,  <b>"Default web site"</b>, <b>"HTCOMNET"</b> and then the <b>Handlers</b> folder.</li>
+        <li>In the right panel, right-click the "AnonymousDownload.ashx"   file and select <b>"Properties"</b> in the context menu.<BR>
+        In the AnonymousDownload.ashx properties   dialog box, open the <b>"Directory Security"</b> tab, click the <b>&quot;Edit..&quot;</b> button.<br>
+        1. Check the <b>"Enable anonymous access"</b> option and uncheck the <b>&quot;Basic authentication&quot;</b> and <b>&quot;Windows Integrated&quot; </b>options.<br />
+		2. In the anonymous access area you have a default anonymous user. 
+		Insert a <b>user who will have read and write NTFS permissions to all the files</b> you want to provide access to. 
+		It can be a domain administrator or a custom user.
+        <br/>
+        <a target="_blank" href="Images/anonymoushandler.png" onClick="toggleBlock('anonymoushandler'); return false;" class="imglink">Screenshot</a>
+        <div id="anonymoushandler" style="display: none;">
+            <p class="screenshot">
+            &nbsp;<img src="Images/anonymoushandler.png" style="width: 467px; height: 370px" /></p>
+        </div>
+        </li>
+		<li> Grant Read and Write NTFS permissions to the service account (which you used in previous step  as the identity for AnonymousDownload.ashx)
+  to all user files you want to provide access to.
+  If you plan to generate only download links (vs links that provide ability to upload files)
+  and if you need only viewer online services like Google Viewer, Microsoft OWA,
+  it is enough to assign Read permission to the user files.
+		 </li>
+      </ul>
+    </li>
+</ul>
+     
+</body>
+</html>

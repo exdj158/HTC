@@ -1,0 +1,876 @@
+﻿<!-- saved from url=(0014)about:internet -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>HTTP Commander ADFS integration. (Windows version)</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <script type="text/javascript" language="javascript">
+        function toggleBlock(el, id) {
+            if (document.getElementById(id).style.display == 'none') {
+                document.getElementById(id).style.display = 'block';
+				el.innerHTML="Hide screenshot"
+            }
+            else {
+                document.getElementById(id).style.display = 'none';
+				el.innerHTML="Show screenshot"
+            }
+        }
+    </script>
+    
+    <table width="100%" cellpadding="0" cellspacing="0">
+        <tr>
+            <td width="320">
+                <table>
+                    <tr>
+                        <td style="vertical-align:top;text-align:left;">
+                            <a target='_blank' href='http://www.element-it.com/asp-net-explorer-browser/online-share/web-file-manager.aspx'><img style='cursor:pointer;' alt="HTTP Commander" src="Images/HCLogo.png" border="0" /></a>
+                        </td>
+                        <td class="green" style="vertical-align:top;text-align:left;padding-top:21px;">
+                            &nbsp;AJS 4.x
+                        </td>
+                    </tr>
+                </table>
+                <span class="gray">Manual</span>
+            </td>
+            <td>
+  <!-- For windows version only. Start --> 
+	<p>
+	<strong>Note!</strong> This Manual is for the <strong>"Windows authentication"</strong> version, 
+	which is designed to work with existing Windows server or Active Directory accounts and Windows authentication. 
+	If you want to create accounts by yourself and store their credentials in your own HTTP Commander XML database, 
+	you need to download the <a target="_blank" href="http://www.element-it.com/downloadfile.aspx?type=st">"Forms authentication" version</a>!
+	This Manual is for the Windows authentication version only!
+	</p>
+	<!-- For windows version only. End --> 
+	
+ 
+            </td>
+            <td align="char" width="230">
+                <img alt="" src="Images/world.jpg" align="middle" hspace="5" style="vertical-align:top;padding-top:1px;" /><b><a target="_blank" title="web file manager" href="http://www.element-it.com/asp-net-explorer-browser/online-share/web-file-manager.aspx">Web file manager</a></b><br />
+                <img alt="" src="Images/support.png" width="16" height="16" align="middle" hspace="5" style="vertical-align:top;padding-top:1px;" /><b><a href="onlinesupport.html" target="main">Free Installation assistance</a></b><br />
+                <img alt="" src="Images/help.png" align="middle" width="16" height="16" hspace="5" style="vertical-align:top;padding-top:1px;" /><b><a
+                    href="index.html" title="Manual Home page" target="_blank">Manual Home page</a></b><br />
+            </td>
+        </tr>
+    </table>
+    
+    <p class="topic">
+        <a id="installation-on-amazon">HTTP Commander ADFS integration.</a>
+    </p>
+    	
+	<strong>Note !</strong><br />
+	We offer <b>free installation assistance</b> for both trial and commercial licenses. 
+	You can get help via email, instant messenger or via remote access to your server. 
+	You need few minutes to get <a href="onlinesupport.html">online help</a>.<br /><br />	
+
+	Often Enterprise customers use ADFS in their networks for Single Sign On. 
+	Http Commander can be configured for work with Microsoft Windows Active Directory Federation Services. 
+  
+<br/>Requirements<br/>
+<ol>
+<li>
+Microsoft Windows Active Directory with Domain Controller
+</li>
+<li>
+Microsoft Active Directory Federation Services server. 
+</li>
+</ol>
+We assume that <strong>DC, ADFS and Web server</strong> already installed and function correctly.<br/>
+Also AD version of <strong>Http Commander</strong> should be installed on Web server. And Web server should have <strong>SSL certificate</strong> installed and HTTPS binding configured.<br/>
+You will need to have Administrative access to Domain to complete this configuration .
+<br/>
+<br/>
+This tutorial is splitted into several sections.
+<ul>
+<li><a href="#adfsWebServer">Configuration of Web server</a></li>
+<li><a href="#adfsHtcomnet">Http Commander configuration</a></li>
+<li><a href="#adfsadfs">ADFS configuration</a></li>
+<li><a href="#adfsdomain">DC configuration of Delegation for correct work with Network shares</a></li>
+</ul>
+<h2 id="adfsWebServer">Steps to configure Web server for ADFS authentication</h2>
+	<ol>
+		<li>First of all, make sure that you have <strong>.NET Framework 3.5</strong> and <strong>Windows Identity Foundation </strong> features installed on your server. <br/>
+		Install them, if they are not installed. <br/>Http Commander itself work with .NET 4.0 (including 4.5), but Windows Identity Foundation feature require .NET 3.5 .
+		<br />
+			<a target="_blank" href="Images/adfs/1.requirements-dotnet3.5.png" onclick="toggleBlock(this, '1-New-VM'); return false;"
+				class="imglink">Show screenshot</a>
+			<div id="1-New-VM" style="display: none;">
+				<p class="screenshot">
+					&nbsp;<img src="Images/adfs/1.requirements-dotnet3.5.png"/><br/>
+					&nbsp;<img src="Images/adfs/2.requirements-wif.png"/>
+				</p>
+			</div>
+		</li>
+		<li>Create a service account in Active Directory to run the C2WTS service under. In this example, we have created 'element-it\svcC2WTS'.  			
+		</li>
+		<li>Next, configure the required local server permissions that the C2WTS requires.		
+		Log onto the web server and give the C2WTS the following permissions:
+			<ol>
+				<li>Add the service account (element-it\svcC2WTS) to the local Administrators Groups.</li>
+				<li>In local security policy (secpol.msc) under user rights assignment give the service account (element-it\svcC2WTS) the following permissions:
+					<ol>
+					<li>Act as part of the operating system</li>
+					<li>Impersonate a client after authentication</li>
+					<li>Log on as a service</li>
+				    </ol>
+				</li>
+			</ol>
+			<br />
+			<a target="_blank" href="Images/adfs/16.webserver-domain-user-securitypolicy-impersonate.png" onclick="toggleBlock(this, '3-Basic-Settings'); return false;"
+				class="imglink">Show screenshot</a>
+			<div id="3-Basic-Settings" style="display: none;">
+				<p class="screenshot">
+					&nbsp;<img src="Images/adfs/16.webserver-domain-user-securitypolicy-impersonate.png"  /><br/>
+					&nbsp;<img src="Images/adfs/17.webserver-domain-user-securitypolicy-logon-as-service.png" /><br/>
+					&nbsp;<img src="Images/adfs/18.webserver-domain-user-securitypolicy-act-as-a-part-of-os.png" /><br/>
+				</p>
+			</div>
+		</li>
+		<li>Open services manager (services.msc) and find <strong>"Claims to Windows Token Service"</strong>. 
+			Open its properties and change startup type to <strong>"Automatic"</strong>.<br/>
+			Next, switch to "Log on" tab and set logon account to domain service account we created previously ( <strong>element-it\svcC2WTS </strong>). 
+			<br />
+			<a target="_blank" href="Images/adfs/19.webserver-service-set-domain-user.png" onclick="toggleBlock(this, '4-Choose-VM-Size'); return false;"
+				class="imglink">Show screenshot</a>
+			<div id="4-Choose-VM-Size" style="display: none;">
+				<p class="screenshot">
+					&nbsp;<img src="Images/adfs/19.webserver-service-set-domain-user.png" /><br/>
+					&nbsp;<img src="Images/adfs/20.webserver-service-automatic-start.png" /><br/>
+				</p>
+			</div>
+		</li>
+		<li> Now we need to configure C2WTS service.<br/>
+			c2WTS requires the 'callers' identities explicitly listed in the configuration file, c2WTShost.exe.config (<strong>\Program Files\Windows Identity Foundation\v3.5\c2WTShost.exe.config</strong>).<br/>
+			c2WTS does not accept requests from all authenticated users in the system unless it is configured to do so. 
+			In this case the 'caller' is the HttpCommander application pool identity : <strong>IIS APPPOOL\htcomnetpool</strong>. 
+			<br />
+			<a target="_blank" href="Images/adfs/21.webserver-c2wrs-config.png" onclick="toggleBlock(this, '5-Optional-Features'); return false;"
+				class="imglink">Show screenshot</a>
+			<div id="5-Optional-Features" style="display: none;">
+				<p class="screenshot">
+				<pre>
+					&lt;?xml version=&quot;1.0&quot;?&gt;
+
+					&lt;configuration&gt;
+					  &lt;configSections&gt;
+						&lt;section name=&quot;windowsTokenService&quot; type=&quot;Microsoft.IdentityModel.WindowsTokenService.Configuration.WindowsTokenServiceSection, Microsoft.IdentityModel.WindowsTokenService, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35&quot;/&gt;
+					  &lt;/configSections&gt;
+
+					  &lt;startup&gt;
+						&lt;supportedRuntime version=&quot;v4.0&quot;/&gt;
+						&lt;supportedRuntime version=&quot;v2.0.50727&quot;/&gt;
+					  &lt;/startup&gt;
+
+					  &lt;windowsTokenService&gt;
+						&lt;!--
+							By default no callers are allowed to use the Windows Identity Foundation Claims To NT Token Service.
+							Add the identities you wish to allow below.
+						  --&gt;
+						&lt;allowedCallers&gt;
+						  &lt;clear/&gt;
+						  &lt;add value=&quot;IIS APPPOOL\htcomnetpool&quot; /&gt;						  
+						&lt;/allowedCallers&gt;
+					  &lt;/windowsTokenService&gt;
+					&lt;/configuration&gt;
+				</pre>
+					&nbsp;<img src="Images/adfs/21.webserver-c2wrs-config.png" />
+				</p>
+			</div>
+		</li>
+		<li> There is a known issue with the C2WTS where it may not automatically startup successfully on system reboot. 
+			A workaround to the issue is to configure a service dependency on the Cryptographic Services service:<br/>
+			Open the Command Prompt window.<br/>
+			
+			Type: <strong>sc config "c2wts" depend= CryptSvc</strong>			
+		</li>
+	</ol>
+<h2 id="adfsHtcomnet">Steps to configure Http Commander for ADFS authentication</h2>
+	<ol>
+		<li>Configure HTTP Commander application pool to <strong>load user profile</strong>. 
+		<br/>
+			Open IIS management console: Control panel->Administrative tools->
+			Internet Information Services-> and then "Application pools".
+			<br/> 
+			Open <strong>"Advanced settings"</strong> of <strong>htcomnetpool</strong> application pool. 
+			Change to true the value of the <strong>"Load User Profile"</strong> setting.
+			
+			<br/>
+			<a target="_blank" href="Images/adfs/24.webserver-application-pool-load-profile.png" onclick="toggleBlock(this, '24-AppPool-LoadProfile'); return false;"
+				class="imglink">Show screenshot</a>
+			<div id="24-AppPool-LoadProfile" style="display: none;">
+				<p class="screenshot">					
+					&nbsp;<img src="Images/adfs/24.webserver-application-pool-load-profile.png" /><br/>
+				</p>
+			</div>
+		</li>
+		<li>We are ready to configure HttpCommander. Open <strong>web.config</strong> file in editor.
+			<br />
+			Add <strong>microsoft.identityModel</strong>  section to <strong>configSections</strong>: 
+			<pre>
+			&lt;configSections&gt;
+				&lt;section name=&quot;HttpCommanderSettings&quot; type=&quot;HttpCommander.HttpCommanderSettings&quot; allowLocation=&quot;true&quot; allowDefinition=&quot;Everywhere&quot; restartOnExternalChanges=&quot;false&quot; /&gt;
+				&lt;!-- ADFS integration--&gt;
+				&lt;section name=&quot;microsoft.identityModel&quot; type=&quot;Microsoft.IdentityModel.Configuration.MicrosoftIdentityModelSection, Microsoft.IdentityModel, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35&quot; /&gt;
+				&lt;!-- ADFS integration END--&gt;
+			&lt;/configSections&gt;
+			</pre>
+		</li>
+		<li>
+			Add <strong>microsoft.identityModel</strong> assembly to <strong>compilation</strong> section: 		
+			<br />
+			
+			<pre>
+			 &lt;compilation debug=&quot;true&quot; targetFramework=&quot;4.0&quot;&gt;
+			  &lt;!-- ADFS integration--&gt;
+			  &lt;assemblies&gt;
+				&lt;add assembly=&quot;Microsoft.IdentityModel, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35&quot; /&gt;
+			  &lt;/assemblies&gt;
+			  &lt;!-- ADFS integration END--&gt;
+			&lt;/compilation&gt;
+			</pre>
+		</li>
+		<li> 
+			<strong>Disable authentication</strong>. Replace existing <strong>authentication</strong> tag with following one:
+			<br />
+			
+			<pre>
+			&lt;!-- ADFS integration--&gt;
+				&lt;authentication mode=&quot;None&quot; /&gt;
+			&lt;!-- ADFS integration END--&gt;
+			</pre>
+		
+		</li>
+		<li> 
+			Append <strong>requestValidationMode=&quot;2.0&quot;</strong> attribute to the <strong>httpRuntime</strong> section.
+			<br />
+			<pre>
+			&lt;httpRuntime maxRequestLength=&quot;2097151&quot; executionTimeout=&quot;3600&quot; requestPathInvalidCharacters=&quot;&quot; requestValidationMode=&quot;2.0&quot; /&gt;
+			</pre>
+		
+		</li>
+		<li> Add <strong>IdentityModel</strong> http modules at <strong>system.web</strong> section.
+			<pre>
+			 &lt;!-- HTTP Module for WebDav access and Office edit --&gt;
+			&lt;httpModules&gt;
+			  &lt;add name=&quot;FileWebDavModule&quot; type=&quot;HttpCommander.FileWebDAVServer.FileWebDavModule, FileWebDAVServer&quot; /&gt;
+			  &lt;!-- ADFS integration--&gt;
+			  &lt;add name=&quot;SessionAuthenticationModule&quot; type=&quot;Microsoft.IdentityModel.Web.SessionAuthenticationModule, Microsoft.IdentityModel, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35&quot; /&gt;
+			  &lt;add name=&quot;WSFederatedAuthenticationModule&quot; type=&quot;Microsoft.IdentityModel.Web.WSFederatedAuthenticationModule, Microsoft.IdentityModel, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35&quot; /&gt;			 
+			  &lt;!-- ADFS integration END--&gt;			 
+			&lt;/httpModules&gt;
+			</pre>
+		   
+		</li>
+		
+		<li> Add <strong>IdentityModel</strong> modules at <strong>system.webServer</strong> section.
+			<pre>
+			&lt;modules runAllManagedModulesForAllRequests=&quot;true&quot;&gt;
+			  &lt;remove name=&quot;FileWebDavModule&quot; /&gt;
+			  &lt;remove name=&quot;WebDAVModule&quot; /&gt;
+			  &lt;add name=&quot;FileWebDavModule&quot; type=&quot;HttpCommander.FileWebDAVServer.FileWebDavModule, FileWebDAVServer&quot; preCondition=&quot;integratedMode&quot; /&gt;
+			  &lt;!-- ADFS integration--&gt;
+			  &lt;add name=&quot;SessionAuthenticationModule&quot; type=&quot;Microsoft.IdentityModel.Web.SessionAuthenticationModule, Microsoft.IdentityModel, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35&quot; preCondition=&quot;managedHandler&quot; /&gt;
+			  &lt;add name=&quot;WSFederationAuthenticationModule&quot; type=&quot;Microsoft.IdentityModel.Web.WSFederationAuthenticationModule, Microsoft.IdentityModel, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35&quot; preCondition=&quot;managedHandler&quot; /&gt;     
+			  &lt;!-- ADFS integration END--&gt;
+			&lt;/modules&gt;
+			</pre>
+			
+		</li>
+		<li>  Add <strong>microsoft.identityModel</strong> section to the <strong>configuration</strong> section right after system.webServer.
+			<br/>
+			Here you will need to replace https://webserver.element-it.local/htcomnet/default.aspx with url to Http COmmander on your server 
+			and https://adfs.element-it.local/adfs with url to your ADFS server.
+			<pre>
+			 &lt;!-- ADFS integration--&gt;
+			  &lt;microsoft.identityModel&gt;
+				&lt;service saveBootstrapTokens=&quot;true&quot;&gt;
+				  &lt;applicationService&gt;
+					&lt;claimTypeRequired&gt;          
+					  &lt;claimType type=&quot;http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name&quot; optional=&quot;true&quot; /&gt;
+					  &lt;claimType type=&quot;http://schemas.xmlsoap.org/ws/2005/05/identity/claims/upn&quot; optional=&quot;true&quot; /&gt;
+					  &lt;claimType type=&quot;http://schemas.microsoft.com/ws/2008/06/identity/claims/role&quot; optional=&quot;true&quot; /&gt;          
+					&lt;/claimTypeRequired&gt;
+				  &lt;/applicationService&gt;
+				  &lt;securityTokenHandlers&gt;
+					&lt;remove type=&quot;Microsoft.IdentityModel.Tokens.SessionSecurityTokenHandler, Microsoft.IdentityModel, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35&quot; /&gt;
+					&lt;add type=&quot;Microsoft.IdentityModel.Tokens.SessionSecurityTokenHandler, Microsoft.IdentityModel, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35&quot;&gt;
+					  &lt;sessionTokenRequirement useWindowsTokenService=&quot;true&quot; /&gt;        
+					&lt;/add&gt;
+					&lt;add type=&quot;Microsoft.IdentityModel.Tokens.Saml11.Saml11SecurityTokenHandler, Microsoft.IdentityModel, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35&quot;&gt;
+					  &lt;samlSecurityTokenRequirement mapToWindows=&quot;true&quot; useWindowsTokenService=&quot;true&quot; /&gt;        
+					&lt;/add&gt;
+				  &lt;/securityTokenHandlers&gt;
+				  &lt;certificateValidation certificateValidationMode=&quot;None&quot; /&gt;
+				  &lt;audienceUris&gt;					
+					&lt;add value=&quot;https://webserver.element-it.local/htcomnet/default.aspx&quot; /&gt;
+				  &lt;/audienceUris&gt;
+				  &lt;federatedAuthentication&gt;
+					&lt;wsFederation passiveRedirectEnabled=&quot;true&quot; issuer=&quot;https://adfs.element-it.local/adfs/ls/&quot; realm=&quot;https://webserver.element-it.local/htcomnet/default.aspx&quot; requireHttps=&quot;true&quot; /&gt;
+					&lt;cookieHandler requireSsl=&quot;true&quot; /&gt;
+				  &lt;/federatedAuthentication&gt;
+				  &lt;issuerNameRegistry type=&quot;Microsoft.IdentityModel.Tokens.ConfigurationBasedIssuerNameRegistry, Microsoft.IdentityModel, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35&quot;&gt;
+					&lt;trustedIssuers&gt;
+					  &lt;add thumbprint=&quot;775D648E7362C7694597DB5BBD3916C5F2768CC1&quot; name=&quot;http://adfs.element-it.local/adfs/services/trust&quot; /&gt;
+					&lt;/trustedIssuers&gt;
+				  &lt;/issuerNameRegistry&gt;
+				&lt;/service&gt;
+			  &lt;/microsoft.identityModel&gt;  
+			  &lt;!-- ADFS integration END--&gt;
+			</pre>
+		</li>
+		<li>Finally your web.config should look like this one: 
+			<br/>
+			<textarea rows="2" cols="20" style="width:800px; height:300px;">
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+	&lt;configuration&gt;
+	  &lt;configSections&gt;
+		&lt;section name=&quot;HttpCommanderSettings&quot; type=&quot;HttpCommander.HttpCommanderSettings&quot; allowLocation=&quot;true&quot; allowDefinition=&quot;Everywhere&quot; restartOnExternalChanges=&quot;false&quot; /&gt;
+		&lt;!-- ADFS integration--&gt;
+		&lt;section name=&quot;microsoft.identityModel&quot; type=&quot;Microsoft.IdentityModel.Configuration.MicrosoftIdentityModelSection, Microsoft.IdentityModel, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35&quot; /&gt;
+		&lt;!-- ADFS integration END--&gt;
+	  &lt;/configSections&gt;
+	  &lt;HttpCommanderSettings configSource=&quot;HttpCommanderSettings.config&quot; /&gt;
+	  &lt;!-- *************** ASP.NET settings.  *************** --&gt;
+	  &lt;appSettings /&gt;
+	  &lt;system.web&gt;
+		&lt;customErrors mode=&quot;Off&quot; /&gt;
+		&lt;pages enableSessionState=&quot;true&quot; validateRequest=&quot;true&quot; enableViewStateMac=&quot;true&quot; viewStateEncryptionMode=&quot;Always&quot; enableEventValidation=&quot;true&quot; controlRenderingCompatibilityVersion=&quot;4.0&quot; /&gt;
+		&lt;!--Session timeout. If user not active last 60 minutes then session will be closed
+			For Windows version in Admin Panel settings enable (set to &#39;true&#39;)
+			EnableAutoLogoutWhenSessionTimedOut parameter in Main section --&gt;
+		&lt;sessionState timeout=&quot;60&quot; /&gt;
+		&lt;!--cookieless=&quot;AutoDetect&quot;/&gt;--&gt;
+		&lt;!-- Setting maximum 2 GB file upload limit for IIS 6 (For IIS 7 see maxAllowedContentLength below)
+			  and maximum number of seconds that a request is allowed to execute = 60 minutes (3600 seconds)
+		--&gt;
+		&lt;httpRuntime maxRequestLength=&quot;2097151&quot; executionTimeout=&quot;3600&quot; requestPathInvalidCharacters=&quot;&quot; requestValidationMode=&quot;2.0&quot; /&gt;
+		&lt;!-- Only for ASP.NET 4.0+ to prevent problems in WebDav with special symbols: Add to httpRuntime: requestPathInvalidCharacters=&quot;&quot; requestValidationMode=&quot;2.0&quot;  --&gt;
+		&lt;!--
+		  For change standard upload ASP.NET temporary folder add tempDirectory=&quot;&lt;your-path-to-temp-fodler&gt;&quot; attribute.
+		  For more info see https://msdn.microsoft.com/en-us/library/s10awwz0(v=vs.100).aspx
+		--&gt;
+		&lt;compilation debug=&quot;true&quot; targetFramework=&quot;4.0&quot;&gt;
+		  &lt;!-- ADFS integration--&gt;
+		  &lt;assemblies&gt;
+			&lt;add assembly=&quot;Microsoft.IdentityModel, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35&quot; /&gt;
+		  &lt;/assemblies&gt;
+		  &lt;!-- ADFS integration END--&gt;
+		&lt;/compilation&gt;
+		&lt;!-- Set true to execute application under logon user role (default: &quot;true&quot;) . --&gt;
+		&lt;identity impersonate=&quot;true&quot; /&gt;
+		&lt;!-- ADFS integration--&gt;
+		&lt;authentication mode=&quot;None&quot; /&gt;
+		&lt;!-- ADFS integration END--&gt;
+		&lt;!--
+		&lt;authentication mode=&quot;Forms&quot;&gt;
+		  &lt;forms loginUrl=&quot;Default.aspx&quot; defaultUrl=&quot;Default.aspx&quot; timeout=&quot;43200&quot; cookieless=&quot;UseCookies&quot; /&gt;
+		&lt;/authentication&gt;
+		--&gt;
+		&lt;!-- HTTP Module for WebDav access and Office edit --&gt;
+		&lt;httpModules&gt;
+		  &lt;add name=&quot;FileWebDavModule&quot; type=&quot;HttpCommander.FileWebDAVServer.FileWebDavModule, FileWebDAVServer&quot; /&gt;
+		  &lt;!-- ADFS integration--&gt;
+		  &lt;add name=&quot;SessionAuthenticationModule&quot; type=&quot;Microsoft.IdentityModel.Web.SessionAuthenticationModule, Microsoft.IdentityModel, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35&quot; /&gt;
+		  &lt;add name=&quot;WSFederatedAuthenticationModule&quot; type=&quot;Microsoft.IdentityModel.Web.WSFederatedAuthenticationModule, Microsoft.IdentityModel, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35&quot; /&gt;
+		  &lt;!--&lt;add name=&quot;ADFSAuthModule&quot; type=&quot;HttpCommander.ADFSAuthModule, HttpCommander&quot; /&gt;--&gt;
+		  &lt;!-- ADFS integration END--&gt;
+		  &lt;!--&lt;add name=&quot;FormsWithWindowsUsersAuthModule&quot; type=&quot;HttpCommander.FormsWithWindowsUsersAuthModule, HttpCommander&quot; /&gt;
+		 --&gt;
+		&lt;/httpModules&gt;
+		&lt;!-- Enable authorized access only --&gt;
+		&lt;authorization&gt;
+		  &lt;deny users=&quot;?&quot; /&gt;
+		&lt;/authorization&gt;
+		&lt;!-- Set machine key for cross-autentication forms --&gt;
+		&lt;!--&lt;machineKey
+			validationKey=&quot;C50B3C89CB21F4F1422FF158A5B42D0E8DB8CB5CDA1742572A487D9401E3400267682B202B746511891C1BAF47F8D25C07F6C39A104696DB51F17C529AD3CABE&quot;
+			decryptionKey=&quot;8A9BE8FD67AF6979E7D20198CFEA50DD3D3799C77AF2B72F&quot;
+			validation=&quot;SHA1&quot; /&gt;--&gt;
+	  &lt;/system.web&gt;
+	  &lt;!-- Mail server settings for email notification feature --&gt;
+	  &lt;system.net&gt;
+		&lt;mailSettings&gt;
+		  &lt;smtp deliveryMethod=&quot;Network&quot; from=&quot;support@mysite.com&quot;&gt;
+			&lt;network host=&quot;mail.mysite.com&quot; port=&quot;25&quot; userName=&quot;&quot; password=&quot;&quot; defaultCredentials=&quot;false&quot; /&gt;
+		  &lt;/smtp&gt;
+		&lt;/mailSettings&gt;
+	  &lt;/system.net&gt;
+	  &lt;!-- ADFS integration--&gt;
+	  &lt;location path=&quot;FederationMetadata&quot;&gt;
+		&lt;system.web&gt;
+		  &lt;authorization&gt;
+			&lt;allow users=&quot;*&quot; /&gt;
+		  &lt;/authorization&gt;
+		&lt;/system.web&gt;
+	  &lt;/location&gt;
+	  &lt;!-- ADFS integration END--&gt;
+	  &lt;!-- Disabling of authentication for some pages and folders --&gt;
+	  &lt;location path=&quot;iframe.html&quot;&gt;
+		&lt;system.web&gt;
+		  &lt;authorization&gt;
+			&lt;allow users=&quot;*&quot; /&gt;
+		  &lt;/authorization&gt;
+		&lt;/system.web&gt;
+	  &lt;/location&gt;
+	  &lt;location path=&quot;favicon.ico&quot;&gt;
+		&lt;system.web&gt;
+		  &lt;authorization&gt;
+			&lt;allow users=&quot;*&quot; /&gt;
+		  &lt;/authorization&gt;
+		&lt;/system.web&gt;
+	  &lt;/location&gt;
+	  &lt;location path=&quot;Diagnostics.aspx&quot;&gt;
+		&lt;system.web&gt;
+		  &lt;authorization&gt;
+			&lt;allow users=&quot;*&quot; /&gt;
+		  &lt;/authorization&gt;
+		&lt;/system.web&gt;
+	  &lt;/location&gt;
+	  &lt;location path=&quot;Logout.aspx&quot;&gt;
+		&lt;system.web&gt;
+		  &lt;authorization&gt;
+			&lt;allow users=&quot;*&quot; /&gt;
+		  &lt;/authorization&gt;
+		&lt;/system.web&gt;
+	  &lt;/location&gt;
+	  &lt;location path=&quot;Activate.aspx&quot;&gt;
+		&lt;system.web&gt;
+		  &lt;authorization&gt;
+			&lt;allow users=&quot;*&quot; /&gt;
+		  &lt;/authorization&gt;
+		&lt;/system.web&gt;
+	  &lt;/location&gt;
+	  &lt;location path=&quot;ForceLogout.aspx&quot;&gt;
+		&lt;system.web&gt;
+		  &lt;authorization&gt;
+			&lt;allow users=&quot;*&quot; /&gt;
+		  &lt;/authorization&gt;
+		&lt;/system.web&gt;
+	  &lt;/location&gt;
+	  &lt;location path=&quot;Handlers/AnonymousDownload.ashx&quot;&gt;
+		&lt;system.web&gt;
+		  &lt;authorization&gt;
+			&lt;allow users=&quot;*&quot; /&gt;
+		  &lt;/authorization&gt;
+		&lt;/system.web&gt;
+	  &lt;/location&gt;
+	  &lt;location path=&quot;Handlers/Captcha.aspx&quot;&gt;
+		&lt;system.web&gt;
+		  &lt;authorization&gt;
+			&lt;allow users=&quot;*&quot; /&gt;
+		  &lt;/authorization&gt;
+		&lt;/system.web&gt;
+	  &lt;/location&gt;
+	  &lt;location path=&quot;Uploaders&quot;&gt;
+		&lt;system.web&gt;
+		  &lt;authorization&gt;
+			&lt;allow users=&quot;*&quot; /&gt;
+		  &lt;/authorization&gt;
+		&lt;/system.web&gt;
+	  &lt;/location&gt;
+	  &lt;location path=&quot;Localization&quot;&gt;
+		&lt;system.web&gt;
+		  &lt;authorization&gt;
+			&lt;allow users=&quot;*&quot; /&gt;
+		  &lt;/authorization&gt;
+		&lt;/system.web&gt;
+	  &lt;/location&gt;
+	  &lt;location path=&quot;Images&quot;&gt;
+		&lt;system.web&gt;
+		  &lt;authorization&gt;
+			&lt;allow users=&quot;*&quot; /&gt;
+		  &lt;/authorization&gt;
+		&lt;/system.web&gt;
+		&lt;system.webServer&gt;
+		  &lt;staticContent&gt;
+			&lt;clientCache cacheControlMode=&quot;UseMaxAge&quot; cacheControlMaxAge=&quot;365.00:00:00&quot; /&gt;
+		  &lt;/staticContent&gt;
+		  &lt;caching enabled=&quot;true&quot; enableKernelCache=&quot;true&quot;&gt;
+			&lt;profiles&gt;
+			  &lt;clear /&gt;
+			&lt;/profiles&gt;
+		  &lt;/caching&gt;
+		&lt;/system.webServer&gt;
+	  &lt;/location&gt;
+	  &lt;location path=&quot;Scripts&quot;&gt;
+		&lt;system.web&gt;
+		  &lt;authorization&gt;
+			&lt;allow users=&quot;*&quot; /&gt;
+		  &lt;/authorization&gt;
+		&lt;/system.web&gt;
+		&lt;system.webServer&gt;
+		  &lt;staticContent&gt;
+			&lt;clientCache cacheControlMode=&quot;UseMaxAge&quot; cacheControlMaxAge=&quot;365.00:00:00&quot; /&gt;
+		  &lt;/staticContent&gt;
+		  &lt;caching enabled=&quot;true&quot; enableKernelCache=&quot;true&quot;&gt;
+			&lt;profiles&gt;
+			  &lt;clear /&gt;
+			&lt;/profiles&gt;
+		  &lt;/caching&gt;
+		&lt;/system.webServer&gt;
+	  &lt;/location&gt;
+	  &lt;location path=&quot;Styles.css&quot;&gt;
+		&lt;system.web&gt;
+		  &lt;authorization&gt;
+			&lt;allow users=&quot;*&quot; /&gt;
+		  &lt;/authorization&gt;
+		&lt;/system.web&gt;
+		&lt;system.webServer&gt;
+		  &lt;staticContent&gt;
+			&lt;clientCache cacheControlMode=&quot;UseMaxAge&quot; cacheControlMaxAge=&quot;365.00:00:00&quot; /&gt;
+		  &lt;/staticContent&gt;
+		  &lt;caching enabled=&quot;true&quot; enableKernelCache=&quot;true&quot;&gt;
+			&lt;profiles&gt;
+			  &lt;clear /&gt;
+			&lt;/profiles&gt;
+		  &lt;/caching&gt;
+		&lt;/system.webServer&gt;
+	  &lt;/location&gt;
+	  &lt;location path=&quot;Styles-min.css&quot;&gt;
+		&lt;system.web&gt;
+		  &lt;authorization&gt;
+			&lt;allow users=&quot;*&quot; /&gt;
+		  &lt;/authorization&gt;
+		&lt;/system.web&gt;
+		&lt;system.webServer&gt;
+		  &lt;staticContent&gt;
+			&lt;clientCache cacheControlMode=&quot;UseMaxAge&quot; cacheControlMaxAge=&quot;365.00:00:00&quot; /&gt;
+		  &lt;/staticContent&gt;
+		  &lt;caching enabled=&quot;true&quot; enableKernelCache=&quot;true&quot;&gt;
+			&lt;profiles&gt;
+			  &lt;clear /&gt;
+			&lt;/profiles&gt;
+		  &lt;/caching&gt;
+		&lt;/system.webServer&gt;
+	  &lt;/location&gt;
+	  &lt;location path=&quot;crossdomain.xml&quot;&gt;
+		&lt;system.web&gt;
+		  &lt;authorization&gt;
+			&lt;allow users=&quot;*&quot; /&gt;
+		  &lt;/authorization&gt;
+		&lt;/system.web&gt;
+	  &lt;/location&gt;
+	  &lt;location path=&quot;DemoFolder&quot;&gt;
+		&lt;system.web&gt;
+		  &lt;authorization&gt;
+			&lt;allow users=&quot;*&quot; /&gt;
+		  &lt;/authorization&gt;
+		&lt;/system.web&gt;
+	  &lt;/location&gt;
+	  &lt;location path=&quot;Manual&quot;&gt;
+		&lt;system.web&gt;
+		  &lt;authorization&gt;
+			&lt;allow users=&quot;*&quot; /&gt;
+		  &lt;/authorization&gt;
+		&lt;/system.web&gt;
+	  &lt;/location&gt;
+	  &lt;location path=&quot;Manual.html&quot;&gt;
+		&lt;system.web&gt;
+		  &lt;authorization&gt;
+			&lt;allow users=&quot;*&quot; /&gt;
+		  &lt;/authorization&gt;
+		&lt;/system.web&gt;
+	  &lt;/location&gt;
+	  &lt;location path=&quot;Data&quot;&gt;
+		&lt;system.web&gt;
+		  &lt;httpHandlers&gt;
+			&lt;add path=&quot;*.xml&quot; verb=&quot;*&quot; type=&quot;System.Web.HttpForbiddenHandler&quot; /&gt;
+			&lt;add path=&quot;*.db&quot; verb=&quot;*&quot; type=&quot;System.Web.HttpForbiddenHandler&quot; /&gt;
+		  &lt;/httpHandlers&gt;
+		&lt;/system.web&gt;
+		&lt;system.webServer&gt;
+		  &lt;!-- Setting only for IIS 7 and 7.5 --&gt;
+		  &lt;security&gt;
+			&lt;requestFiltering&gt;
+			  &lt;fileExtensions&gt;
+				&lt;remove fileExtension=&quot;.xml&quot; /&gt;
+				&lt;add fileExtension=&quot;.xml&quot; allowed=&quot;false&quot; /&gt;
+				&lt;remove fileExtension=&quot;.db&quot; /&gt;
+				&lt;add fileExtension=&quot;.db&quot; allowed=&quot;false&quot; /&gt;
+			  &lt;/fileExtensions&gt;
+			&lt;/requestFiltering&gt;
+		  &lt;/security&gt;
+		&lt;/system.webServer&gt;
+	  &lt;/location&gt;
+	  &lt;location path=&quot;SyncWebFolders.html&quot;&gt;
+		&lt;system.web&gt;
+		  &lt;authorization&gt;
+			&lt;allow users=&quot;*&quot; /&gt;
+		  &lt;/authorization&gt;
+		&lt;/system.web&gt;
+	  &lt;/location&gt;
+	  &lt;location path=&quot;testSSO.html&quot;&gt;
+		&lt;system.web&gt;
+		  &lt;authorization&gt;
+			&lt;allow users=&quot;*&quot; /&gt;
+		  &lt;/authorization&gt;
+		&lt;/system.web&gt;
+	  &lt;/location&gt;
+	  &lt;location path=&quot;hcwebdav&quot;&gt;
+		&lt;system.web&gt;
+		  &lt;authorization&gt;
+			&lt;allow users=&quot;*&quot; /&gt;
+		  &lt;/authorization&gt;
+		&lt;/system.web&gt;
+	  &lt;/location&gt;
+	  &lt;!-- Setting only for IIS 7 and 7.5 --&gt;
+	  &lt;system.webServer&gt;
+		&lt;validation validateIntegratedModeConfiguration=&quot;false&quot; /&gt;
+		&lt;!-- HTTP Module for WebDav access and Office edit --&gt;
+		&lt;modules runAllManagedModulesForAllRequests=&quot;true&quot;&gt;
+		  &lt;remove name=&quot;FileWebDavModule&quot; /&gt;
+		  &lt;remove name=&quot;WebDAVModule&quot; /&gt;
+		  &lt;add name=&quot;FileWebDavModule&quot; type=&quot;HttpCommander.FileWebDAVServer.FileWebDavModule, FileWebDAVServer&quot; preCondition=&quot;integratedMode&quot; /&gt;
+		  &lt;!-- ADFS integration--&gt;
+		  &lt;add name=&quot;SessionAuthenticationModule&quot; type=&quot;Microsoft.IdentityModel.Web.SessionAuthenticationModule, Microsoft.IdentityModel, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35&quot; preCondition=&quot;managedHandler&quot; /&gt;
+		  &lt;add name=&quot;WSFederationAuthenticationModule&quot; type=&quot;Microsoft.IdentityModel.Web.WSFederationAuthenticationModule, Microsoft.IdentityModel, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35&quot; preCondition=&quot;managedHandler&quot; /&gt;     
+		  &lt;!-- ADFS integration END--&gt;
+		&lt;/modules&gt;
+		&lt;security&gt;
+		  &lt;requestFiltering allowDoubleEscaping=&quot;true&quot;&gt;
+			&lt;!-- Setting maximum 2 GB (= 2147483648 bytes) file upload limit for IIS 7 --&gt;
+			&lt;requestLimits maxAllowedContentLength=&quot;2147483648&quot; /&gt;
+		  &lt;/requestFiltering&gt;
+		&lt;/security&gt;
+		&lt;defaultDocument&gt;
+		  &lt;files&gt;
+			&lt;clear /&gt;
+			&lt;add value=&quot;Default.aspx&quot; /&gt;
+		  &lt;/files&gt;
+		&lt;/defaultDocument&gt;
+		&lt;staticContent&gt;
+		  &lt;remove fileExtension=&quot;.svg&quot; /&gt;
+		  &lt;remove fileExtension=&quot;.xap&quot; /&gt;
+		  &lt;mimeMap fileExtension=&quot;.svg&quot; mimeType=&quot;image/svg+xml&quot; /&gt;
+		  &lt;mimeMap fileExtension=&quot;.xap&quot; mimeType=&quot;application/x-silverlight-app&quot; /&gt;
+		&lt;/staticContent&gt;
+	  &lt;/system.webServer&gt;
+	  &lt;runtime&gt;
+		&lt;assemblyBinding xmlns=&quot;urn:schemas-microsoft-com:asm.v1&quot;&gt;
+		  &lt;dependentAssembly&gt;
+			&lt;assemblyIdentity name=&quot;System.Runtime&quot; publicKeyToken=&quot;b03f5f7f11d50a3a&quot; culture=&quot;neutral&quot; /&gt;
+			&lt;bindingRedirect oldVersion=&quot;0.0.0.0-2.6.10.0&quot; newVersion=&quot;2.6.10.0&quot; /&gt;
+		  &lt;/dependentAssembly&gt;
+		  &lt;dependentAssembly&gt;
+			&lt;assemblyIdentity name=&quot;System.Threading.Tasks&quot; publicKeyToken=&quot;b03f5f7f11d50a3a&quot; culture=&quot;neutral&quot; /&gt;
+			&lt;bindingRedirect oldVersion=&quot;0.0.0.0-2.6.10.0&quot; newVersion=&quot;2.6.10.0&quot; /&gt;
+		  &lt;/dependentAssembly&gt;
+		  &lt;dependentAssembly&gt;
+			&lt;assemblyIdentity name=&quot;System.Net.Http&quot; publicKeyToken=&quot;b03f5f7f11d50a3a&quot; culture=&quot;neutral&quot; /&gt;
+			&lt;bindingRedirect oldVersion=&quot;0.0.0.0-2.2.29.0&quot; newVersion=&quot;2.2.29.0&quot; /&gt;
+		  &lt;/dependentAssembly&gt;
+		  &lt;dependentAssembly&gt;
+			&lt;assemblyIdentity name=&quot;System.Net.Http.Primitives&quot; publicKeyToken=&quot;b03f5f7f11d50a3a&quot; culture=&quot;neutral&quot; /&gt;
+			&lt;bindingRedirect oldVersion=&quot;0.0.0.0-2.2.29.0&quot; newVersion=&quot;2.2.29.0&quot; /&gt;
+		  &lt;/dependentAssembly&gt;
+		  &lt;dependentAssembly&gt;
+			&lt;assemblyIdentity name=&quot;Newtonsoft.Json&quot; publicKeyToken=&quot;30ad4fe6b2a6aeed&quot; culture=&quot;neutral&quot; /&gt;
+			&lt;bindingRedirect oldVersion=&quot;0.0.0.0-9.0.0.0&quot; newVersion=&quot;9.0.0.0&quot; /&gt;
+		  &lt;/dependentAssembly&gt;
+		&lt;/assemblyBinding&gt;
+	  &lt;/runtime&gt;
+	  &lt;!-- ADFS integration--&gt;
+	  &lt;microsoft.identityModel&gt;
+		&lt;service saveBootstrapTokens=&quot;true&quot;&gt;
+		  &lt;applicationService&gt;
+			&lt;claimTypeRequired&gt;          
+			  &lt;claimType type=&quot;http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name&quot; optional=&quot;true&quot; /&gt;
+			  &lt;claimType type=&quot;http://schemas.xmlsoap.org/ws/2005/05/identity/claims/upn&quot; optional=&quot;true&quot; /&gt;
+			  &lt;claimType type=&quot;http://schemas.microsoft.com/ws/2008/06/identity/claims/role&quot; optional=&quot;true&quot; /&gt;          
+			&lt;/claimTypeRequired&gt;
+		  &lt;/applicationService&gt;
+		  &lt;securityTokenHandlers&gt;
+			&lt;remove type=&quot;Microsoft.IdentityModel.Tokens.SessionSecurityTokenHandler, Microsoft.IdentityModel, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35&quot; /&gt;
+			&lt;add type=&quot;Microsoft.IdentityModel.Tokens.SessionSecurityTokenHandler, Microsoft.IdentityModel, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35&quot;&gt;
+			  &lt;sessionTokenRequirement useWindowsTokenService=&quot;true&quot; /&gt;        
+			&lt;/add&gt;
+			&lt;add type=&quot;Microsoft.IdentityModel.Tokens.Saml11.Saml11SecurityTokenHandler, Microsoft.IdentityModel, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35&quot;&gt;
+			  &lt;samlSecurityTokenRequirement mapToWindows=&quot;true&quot; useWindowsTokenService=&quot;true&quot; /&gt;        
+			&lt;/add&gt;
+		  &lt;/securityTokenHandlers&gt;
+		  &lt;certificateValidation certificateValidationMode=&quot;None&quot; /&gt;
+		  &lt;audienceUris&gt;        
+			&lt;add value=&quot;https://vmware2012.element-it.local/htcomnet4/default.aspx&quot; /&gt;
+		  &lt;/audienceUris&gt;
+		  &lt;federatedAuthentication&gt;
+			&lt;wsFederation passiveRedirectEnabled=&quot;true&quot; issuer=&quot;https://adfs.element-it.local/adfs/ls/&quot; realm=&quot;https://vmware2012.element-it.local/htcomnet4/default.aspx&quot; requireHttps=&quot;true&quot; /&gt;
+			&lt;cookieHandler requireSsl=&quot;true&quot; /&gt;
+		  &lt;/federatedAuthentication&gt;
+		  &lt;issuerNameRegistry type=&quot;Microsoft.IdentityModel.Tokens.ConfigurationBasedIssuerNameRegistry, Microsoft.IdentityModel, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35&quot;&gt;
+			&lt;trustedIssuers&gt;
+			  &lt;add thumbprint=&quot;775D648E7362C7694597DB5BBD3916C5F2768CC1&quot; name=&quot;http://adfs.element-it.local/adfs/services/trust&quot; /&gt;
+			&lt;/trustedIssuers&gt;
+		  &lt;/issuerNameRegistry&gt;
+		&lt;/service&gt;
+	  &lt;/microsoft.identityModel&gt;  
+	  &lt;!-- ADFS integration END--&gt;
+	&lt;/configuration&gt;
+			</textarea>
+		</li>
+		<li>Configure Logout.aspx page to force logout from adfs. 
+			<br/>Open <strong>Logout.aspx</strong> page in text editor.<br/>
+			Search for <strong> if (Utils.UserSettings.Runtime.AuthMode == AuthenticationMode.Forms)</strong> statement,
+			<br/>navigate to the end of the appropriate <strong>else</strong> statement and add following line of code:
+				<br/>
+			<strong>Response.Redirect("https://adfs.element-it.local/adfs/ls/?wa=wsignout1.0&wreply="+redirectUrl); </strong>
+			<br/>
+			Where <strong>adfs.element-it.local</strong> domain should be replaced with domain name of your RP STS server. 
+			<br/>
+			
+		</li>
+		<li>As last step, you will  need to set correct value for the <strong>LDAPConatiner</strong> setting either in <strong>HttpCommanderSettings.config</strong> file or on Settings tab in Admin Panel.
+			This is required to get user group membership and home directory from AD. 
+			<br/>
+			
+		</li>
+		
+	</ol>
+	
+	<h2 id="adfsadfs">Steps to configure Relying Party Trust on ADFS server</h2>
+	<ol>
+		<li>Open <strong>AD FS</strong> management console and navigate to <strong>Trust Relationships</strong>, <strong>Relying Party Trust</strong> section of left tree. <br/>
+		Click on <strong>Add Relying Party Trust</strong> to start wizard.		
+		</li>
+		
+		<li>Choose option <strong>Enter data about the relying party manually</strong>
+			<br/>On next screen enter Name of relying party (any value), 
+			<br/>On next screen select option <strong>"AD FS profile" </strong>
+			<br />
+			<a target="_blank" href="Images/adfs/3.adfs-rpt-1.png" onclick="toggleBlock(this, '3.adfs-rpt-1'); return false;"
+				class="imglink">Show screenshot</a>
+			<div id="3.adfs-rpt-1" style="display: none;">
+				<p class="screenshot">
+					&nbsp;<img src="Images/adfs/3.adfs-rpt-1.png"  /><br/>
+					&nbsp;<img src="Images/adfs/4.adfs-rpt-2.png" /><br/>
+					&nbsp;<img src="Images/adfs/5.adfs-rpt-3.png" /><br/>
+				</p>
+			</div>
+		</li>
+		<li>Check options <strong>Enable support for the WS-Federation Passive protocol</strong> and 
+			<strong>Enable support for the SAML 2.0 WebSSO protocol</strong>.
+			<br/> For both options set full url to Http Commander application. 
+			In our case it is <strong>"https://webserver.element-it.local/htcomnet/default.aspx"</strong> 
+			<br />
+			<a target="_blank" href="Images/adfs/7.adfs-rpt-5.png" onclick="toggleBlock(this, '7.adfs-rpt-5'); return false;"
+				class="imglink">Show screenshot</a>
+			<div id="7.adfs-rpt-5" style="display: none;">
+				<p class="screenshot">
+					&nbsp;<img src="Images/adfs/7.adfs-rpt-5.png" /><br/>					
+				</p>
+			</div>
+		</li>
+		<li>Relying party identifier should be already added to the list. So you can simply proceed to next step.
+			<br />
+			<a target="_blank" href="Images/adfs/8.adfs-rpt-6.png" onclick="toggleBlock(this, '8.adfs-rpt-6'); return false;"
+				class="imglink">Show screenshot</a>
+			<div id="8.adfs-rpt-6" style="display: none;">
+				<p class="screenshot">				
+					&nbsp;<img src="Images/adfs/8.adfs-rpt-6.png" />
+				</p>
+			</div>
+		</li>
+		<li> Complete wizard with next several screens following on-screen suggestions.<br/>
+		 Choose option <strong>Permit all users to access this relying party</strong>
+			<br />
+			<a target="_blank" href="Images/adfs/9.adfs-rpt-7.png" onclick="toggleBlock(this, '9.adfs-rpt-7'); return false;"
+				class="imglink">Show screenshot</a>
+			<div id="9.adfs-rpt-7" style="display: none;">
+				<p class="screenshot">				
+					&nbsp;<img src="Images/adfs/9.adfs-rpt-7.png" /><br/>
+					&nbsp;<img src="Images/adfs/10.adfs-rpt-8.png" /><br/>
+					&nbsp;<img src="Images/adfs/11.adfs-rpt-9.png" /><br/>
+					&nbsp;<img src="Images/adfs/12.adfs-rpt-10.png" /><br/>
+				</p>
+			</div>		
+		</li>
+		<li>Configure Claim rules.<br/>
+		 Choose option <strong>Send LDAP attributes as claims</strong>
+			<br />
+			<a target="_blank" href="Images/adfs/13.adfs-claims-1.png" onclick="toggleBlock(this, '13.adfs-claims-1'); return false;"
+				class="imglink">Show screenshot</a>
+			<div id="13.adfs-claims-1" style="display: none;">
+				<p class="screenshot">				
+					&nbsp;<img src="Images/adfs/13.adfs-claims-1.png" /><br/>					
+				</p>
+			</div>		
+		</li>
+		<li>Only UPN claim is required to be configured for correct work.<br/>
+		 Configure it as shown on screenshot. 
+			<br />
+			<a target="_blank" href="Images/adfs/14.adfs-claims-2.png" onclick="toggleBlock(this, '14.adfs-claims-2'); return false;"
+				class="imglink">Show screenshot</a>
+			<div id="14.adfs-claims-2" style="display: none;">
+				<p class="screenshot">				
+					&nbsp;<img src="Images/adfs/14.adfs-claims-2.png" /><br/>	
+					&nbsp;<img src="Images/adfs/15.adfs-claims-3.png" /><br/>					
+				</p>
+			</div>		
+		</li>
+		
+		<li>Now configuration is complete and we are ready to test Http Commander. 
+		If all configured correctly , after authentication Http Commander interface should be loaded. 	Open diagnostics.aspx page and check its output . Make sure that application works under logged in user identity (impersonated ).
+		<br/> If you plan to use Network shares, process to next section.
+		</li>
+	</ol>
+	
+	<h2 id="adfsdomain">Steps to configure Delegation for correct work with Network Shares</h2>
+	Once authenticated HttpCommander will work under logged in user identity , It means that all existing NTFS ACLs will be respected, but only for local folders on Web server.
+	<br/> If you plan to use Netwrok Shares (that is common practice), you will need to configure Delegation for web server and service account.
+	<ol>
+		<li>Add an arbitrary <strong>Service Principal Name (SPN)</strong> to the service account to expose the delegation options for this account in Active Directory Users and Computers. 
+		The SPN can be any format because we do not authenticate to the C2WTS using Kerberos authentication. 
+		It is recommended to not use an HTTP SPN to avoid potentially creating duplicate SPNs in your environment.
+		In our example, we registered SP/C2WTS to the element-it\svcC2WTS account using the following command:
+		<pre>
+			SetSPN -S SP/C2WTS element-it\svcC2WTS
+		</pre>
+		Please note that command should be executed under domain admin account.
+		</li>
+		
+		<li> Configure delegation for web server.
+			<ul>
+			<li>Click Start, click <strong>Administrative Tools</strong>, and then click <strong>Active Directory Users and Computers</strong>.</li>
+			<li>Expand domain, and then expand the <strong>Computers</strong> folder.</li>
+			<li>In the right pane, right-click the computer name for the Web server, select Properties, and then click the <strong>Delegation</strong> tab.</li>
+			<li>Click to select <strong>Trust this computer for delegation to specified services only</strong>.</li>
+			<li>Ensure that <strong>Use any authentication protocol</strong> is selected, and then click OK.</li>
+			<li>Click the Add button. In the Add Services dialog box, click <strong>Users or Computers</strong>, and then browse to or type the name of the File server that is to be used in HTTP Commander. Click OK.</li>
+			<li>In the Available Services list, select the <strong>CIFS</strong> service. Click OK.</li>
+			</ul>
+			<br />
+			<a target="_blank" href="Images/adfs/22.dc-delegation-for-server.png" onclick="toggleBlock(this, '22.dc-delegation-for-server'); return false;"
+				class="imglink">Show screenshot</a>
+			<div id="22.dc-delegation-for-server" style="display: none;">
+				<p class="screenshot">
+					&nbsp;<img src="Images/adfs/22.dc-delegation-for-server.png" /><br/>					
+				</p>
+			</div>
+
+
+		</li>
+		<li>Configure delegation for service account (element-it\svcC2WTS)
+			<ul>			
+			<li>In the left pane, Expand <strong>Users</strong> folder.
+			<li>In the right pane, right-click the Service account (<strong>element-it\svcC2WTS</strong>) which is configured for C2WTS service, select Properties, and then click the Delegation tab.</li>
+			<li>Click to select <strong>Trust this user for delegation to specified services only</strong>.</li>
+			<li>Ensure that <strong>Use Kerberos only is selected</strong>, and then click OK.</li>
+			<li>Click the <strong>Add</strong> button. In the Add Services dialog box, click <strong>Users or Computers</strong>, and then browse to or type the name of the File server that will be used in Http Commander. Click OK.</li>
+			<li>In the Available Services list, select the<strong>CIFS</strong> service. Click OK.</li>
+			
+			</ul>
+			<br />
+			<a target="_blank" href="Images/adfs/23.dc-delegation-for-user.png" onclick="toggleBlock(this, '23.dc-delegation-for-user'); return false;"
+				class="imglink">Show screenshot</a>
+			<div id="23.dc-delegation-for-user" style="display: none;">
+				<p class="screenshot">
+					&nbsp;<img src="Images/adfs/23.dc-delegation-for-user.png" /><br/>					
+				</p>
+			</div>
+		</li>		
+	</ol>
+<br/><br/>    
+</body>
+</html>

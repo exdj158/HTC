@@ -1,0 +1,1608 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Localization>
+  <!-- Common keys -->
+  
+  <ExtMsgButtonTextYES>ใช่</ExtMsgButtonTextYES>
+  <ExtMsgButtonTextNO>ไม่</ExtMsgButtonTextNO>
+  
+  <ControlHideFileManager>ซ่อนไฟล์เว็บผู้จัดการ</ControlHideFileManager>
+  
+  <CommonMainTitle>การเข้าถึงไฟล์จากเว็บ</CommonMainTitle>
+  <CommonApplicationLoading>กำลังโหลดการเข้าถึงไฟล์เว็บ</CommonApplicationLoading>
+  <CommonLoadError>มีข้อผิดพลาดเกิดขึ้นในระหว่างการรับข้อมูลต้นไม้</CommonLoadError>
+  <CommonGridAccessDenied>โฟลเดอร์ "{0}" ไม่มีอยู่หรือการเข้าถึงแบบอ่านถูกปฏิเสธ</CommonGridAccessDenied>
+  <CommonNoScript>หน้านี้ต้องการ JavaScript เพื่อให้สามารถเปิดใช้งานในเบราว์เซอร์ของคุณ! โปรดเปิดใช้งานและเข้าสู่ระบบอีกครั้ง!</CommonNoScript>
+  <CommonErrorCaption>ความผิดพลาด</CommonErrorCaption>
+  <CommonWarningCaption>การเตือน</CommonWarningCaption>
+  <CommonInfoCaption>ข้อมูล</CommonInfoCaption>
+  <CommonConfirmCaption>ยืนยัน</CommonConfirmCaption>
+  <CommonFileNameCaption>ชื่อไฟล์</CommonFileNameCaption>
+  <CommonFileNamePrompt>ใส่ชื่อไฟล์ใหม่</CommonFileNamePrompt>
+  <CommonFileNewNameValue>ข้อความใหม่ Document.txt</CommonFileNewNameValue>
+  <CommonFolderNewNameValue>แฟ้มใหม่</CommonFolderNewNameValue>
+  <CommonZipFileNameCaption>ชื่อไฟล์ zip</CommonZipFileNameCaption>
+  <CommonZipFileNamePrompt>ชื่อไฟล์ (ส่วนขยายจะถูกเพิ่มโดยอัตโนมัติ)</CommonZipFileNamePrompt>
+  <CommonFolderNameCaption>ชื่อโฟลเดอร์</CommonFolderNameCaption>
+  <CommonFolderNamePrompt>ใส่ชื่อโฟลเดอร์ใหม่</CommonFolderNamePrompt>
+  <CommonDeleteOnePrompt>คุณแน่ใจหรือว่าต้องการลบ "{0}"?</CommonDeleteOnePrompt>
+  <CommonDeleteManyPrompt>คุณแน่ใจหรือว่าต้องการลบเหล่านี้ {0} รายการ?</CommonDeleteManyPrompt>
+  <CommonForToday>สำหรับวันนี้</CommonForToday>
+  <CommonButtonCaptionOK>ตกลง</CommonButtonCaptionOK>
+  <CommonButtonCaptionCancel>ยกเลิก</CommonButtonCaptionCancel>
+  <CommonButtonCaptionClose>ปิด</CommonButtonCaptionClose>
+  <CommonButtonCaptionAdd>เพิ่ม</CommonButtonCaptionAdd>
+  <CommonButtonCaptionContinue>ต่อ</CommonButtonCaptionContinue>
+
+  <CommonProgressPleaseWait>โปรดรอ</CommonProgressPleaseWait>
+  
+  <CommonFieldLabelName>ชื่อ</CommonFieldLabelName>
+  <CommonFieldLabelPath>เส้นทาง</CommonFieldLabelPath>
+  <CommonFieldLabelSize>ขนาด</CommonFieldLabelSize>
+  <CommonFieldLabelLabels>ป้ายกำกับ</CommonFieldLabelLabels>
+  <CommonFieldLabelType>ชนิด</CommonFieldLabelType>
+  <CommonFieldLabelAction>การกระทำ</CommonFieldLabelAction>
+  <CommonFieldLabelDate>วันที่</CommonFieldLabelDate>
+  <CommonFieldLabelDateTime>วันเวลา</CommonFieldLabelDateTime>
+  <CommonFieldLabelDateCreated>วันที่สร้าง</CommonFieldLabelDateCreated>
+  <CommonFieldLabelDateModified>วันที่แก้ไข</CommonFieldLabelDateModified>
+  <CommonFieldLabelDateAccessed>วันที่เข้าใช้</CommonFieldLabelDateAccessed>
+  <CommonFieldLabelValue>ความคุ้มค่า</CommonFieldLabelValue>
+  <CommonFieldLabelUserName>ชื่อผู้ใช้</CommonFieldLabelUserName>
+  <CommonFieldLabelUser>ผู้ใช้งาน</CommonFieldLabelUser>
+  <CommonFieldLabelUsers>ผู้ใช้</CommonFieldLabelUsers>
+  <CommonFieldLabelGroupName>ชื่อกลุ่ม</CommonFieldLabelGroupName>
+  <CommonFieldLabelGroup>กลุ่ม</CommonFieldLabelGroup>
+  <CommonFieldLabelGroups>กลุ่ม</CommonFieldLabelGroups>
+  <CommonFieldLabelPassword>รหัสผ่าน</CommonFieldLabelPassword>
+  <CommonFieldLabelRepeatPassword>รหัสผ่านซ้ำ</CommonFieldLabelRepeatPassword>
+  <CommonFieldLabelComments>ความคิดเห็น</CommonFieldLabelComments>
+  <CommonValueTypeFolder>โฟลเดอร์</CommonValueTypeFolder>
+
+  <CommonFieldLabelDescription>ลักษณะ</CommonFieldLabelDescription>
+  <EmptyDescriptionText>ระบุคำอธิบาย</EmptyDescriptionText>
+  <CommonFieldLabelReadMeTxt>เนื้อหา Readme.txt</CommonFieldLabelReadMeTxt>
+  
+  <CommonWordOr>หรือ</CommonWordOr>
+
+  <SortAscText>เรียงจากน้อยไปมาก</SortAscText>
+  <SortDescText>เรียงจากมากไปน้อย</SortDescText>
+
+  <CommonNewDocument>เอกสารใหม่</CommonNewDocument>
+  <CommonNewSpreadsheet>สเปรดชีตใหม่</CommonNewSpreadsheet>
+  <CommonNewPresentation>งานนำเสนอใหม่</CommonNewPresentation>
+
+  <CommonWordWrap>ตัดคำ</CommonWordWrap>
+  
+  <!-- End Common keys -->
+
+  <!-- Labels -->
+
+  <LabelsTitle>ฉลาก</LabelsTitle>
+  <LabelsNoLabel>ไม่มีฉลาก</LabelsNoLabel>
+  <LabelsColor>สี</LabelsColor>
+  <LabelsCustomLabel>ป้ายที่กำหนดเอง</LabelsCustomLabel>
+  <LabelsCustomLabelHint>ป้อนข้อความฉลาก</LabelsCustomLabelHint>
+  <LabelsCustomLabelView>Label &amp;nbsp; ดู: &amp;nbsp; {0} {1} {2}</LabelsCustomLabelView>
+  <LabelsFileLabelledMessage>ป้ายกำกับที่ประสบความสำเร็จ {0} รายการ (s)</LabelsFileLabelledMessage>
+  <LabelsRemovedMessage>ออกเรียบร้อยแล้ว {0} ฉลาก (s)</LabelsRemovedMessage>
+  <LabelsNotRemovedMessages>ไม่ได้เอาออก: {0}</LabelsNotRemovedMessages>
+  <LabelsNotLabelledMessage>ไม่ได้ระบุว่า: {0}</LabelsNotLabelledMessage>
+  <LabelsLabelRemovedMessage>ลบป้ายกำกับที่ประสบความสำเร็จ</LabelsLabelRemovedMessage>
+  <LabelsNewLabel>ฉลากใหม่</LabelsNewLabel>
+  <LabelsLabellingMessage>การติดฉลาก</LabelsLabellingMessage>
+  <LabelsRemovingLabelMessage>ถอดป้าย</LabelsRemovingLabelMessage>
+  <LabelsLabelInfoTip>ทำเครื่องหมายว่าเป็น '{0} "{1} โดยผู้ใช้' {2} '</LabelsLabelInfoTip>
+
+  <!-- End Labels -->
+
+  <!-- Comments -->
+
+  <CommentsCountInfoTip>{0} คิดเห็น (s)</CommentsCountInfoTip>
+  <CommentsWriteCommentHint>เขียนความคิดเห็นและกด '{0}' หรือ Ctrl+Enter หรือ Shift+Enter ...</CommentsWriteCommentHint>
+
+  <!-- End Comments -->
+
+  <RefreshPageWarningMessage>&lt;b&gt; โปรดทราบ! &lt;/b&gt; การดำเนินการนี้หน้าปัจจุบันของเบราว์เซอร์จะต้องสดชื่น. &lt;br /&gt; คุณต้องการที่จะฟื้นฟูตอนนี้หรือไม่</RefreshPageWarningMessage>
+
+  <PagingToolbarBeforePageText>หน้า</PagingToolbarBeforePageText>
+  <PagingToolbarAfterPageText>ของ {0}</PagingToolbarAfterPageText>
+  <PagingToolbarFirstText>หน้าแรก</PagingToolbarFirstText>
+  <PagingToolbarPrevText>หน้าก่อนนี้</PagingToolbarPrevText>
+  <PagingToolbarNextText>หน้าต่อไป</PagingToolbarNextText>
+  <PagingToolbarLastText>หน้าสุดท้าย</PagingToolbarLastText>
+  <PagingToolbarDisplayMsg>แสดง {0} - {1} ของ {2}</PagingToolbarDisplayMsg>
+  <PagingToolbarEmptyMsg>ไม่มีข้อมูลที่จะแสดง</PagingToolbarEmptyMsg>
+  
+  <GridTotalLabel>ทั้งหมด:</GridTotalLabel>
+  <GridTotalFilesLabel>ไฟล์</GridTotalFilesLabel>
+  <GridTotalFoldersLabel>โฟลเดอร์</GridTotalFoldersLabel>
+  
+  <GridDDSelectedRowsText>{0} แถวที่เลือก {1}</GridDDSelectedRowsText>
+  <GridDDSelectedFilesText>{0} เลือกไฟล์</GridDDSelectedFilesText>
+  <GridDDSelectedFoldersText>{0} โฟลเดอร์ที่เลือก</GridDDSelectedFoldersText>
+  <GridDDConfirmCopyMoveTitle>ลดลงในโฟลเดอร์ "{0}"</GridDDConfirmCopyMoveTitle>
+  <GridDDConfirmAddToZipTitle>เพิ่มใน zip "{0}"</GridDDConfirmAddToZipTitle>
+  <GridDDConfirmAddToZipMessage>ไฟล์ลากจะถูกเพิ่มไฟล์ ZIP นี้ คุณต้องการที่จะต่อหรือไม่? {0}</GridDDConfirmAddToZipMessage>
+  <GridDDConfirmCopyMoveMsg>เลือกการกระทำที่คุณต้องการใช้การ แหล่งที่มา: "{0}" โฟลเดอร์ปลายทาง: "{1}" {2} {3}..</GridDDConfirmCopyMoveMsg>
+  <GridDDConfirmCopyMoveToZipMsg>ไฟล์จะถูกเพิ่มไฟล์ zip เลือกการกระทำที่คุณต้องการที่จะนำไปใช้กับไฟล์ลากหลังจากการเพิ่มไฟล์ไปยังไฟล์ zip แหล่งที่มา: "{0}" เก็บไปรษณีย์ปลายทาง: "{1}" {2} {3}..</GridDDConfirmCopyMoveToZipMsg>
+  <GridDDDraggedFileNames>&lt;b&gt; ไฟล์ลาก: &lt;/b&gt; {0}</GridDDDraggedFileNames>
+  <GridDDDraggedFolderNames>&lt;b&gt; โฟลเดอร์ลาก: &lt;/b&gt; {0}</GridDDDraggedFolderNames>
+  <GridDDConfirmTargetFolderOnlyCopyMsg>สิทธิ์ในปัจจุบันสำหรับโฟลเดอร์ต้นทางช่วยให้คุณสามารถคัดลอกเพียงลากไฟล์ คุณต้องการที่จะต่อหรือไม่? {0}</GridDDConfirmTargetFolderOnlyCopyMsg>
+  <GridDDConfirmTargetFolderOnlyMoveMsg>สิทธิ์ในปัจจุบันสำหรับโฟลเดอร์ต้นทางช่วยให้คุณย้ายเพียงลากไฟล์ คุณต้องการที่จะต่อหรือไม่? {0}</GridDDConfirmTargetFolderOnlyMoveMsg>
+
+  <GridRowPublicHint>คลิกเพื่อเปิดลิงก์สาธารณะในหน้าต่างใหม่ / แท็บ</GridRowPublicHint>
+  <GridRowAlertHint>คลิกเพื่อดูการเปลี่ยนแปลงที่ทำเพื่อไฟล์นี้ / โฟลเดอร์</GridRowAlertHint>
+  <GridRowRecentHint>ค้นหาไฟล์นี้ / โฟลเดอร์</GridRowRecentHint>
+  <GridRowAlertEventHint>คลิกเพื่อไปสถานที่แห่งนี้</GridRowAlertEventHint>
+
+  <ProgressCreating>การสร้าง</ProgressCreating>
+  <ProgressDeleting>ลบ</ProgressDeleting>
+  <ProgressLoading>กำลังโหลด</ProgressLoading>
+  <ProgressSearching>ค้นหา</ProgressSearching>
+  <ProgressZipping>การบีบอัด</ProgressZipping>
+  <ProgressUnzipping>การเอาออก</ProgressUnzipping>
+  <ProgressZipContents>ได้รับเนื้อหาของไฟล์ ZIP ที่</ProgressZipContents>
+  <ProgressPrepareDownload>การเตรียมความพร้อมสำหรับการดาวน์โหลด</ProgressPrepareDownload>
+  <ProgressMoving>ความคืบหน้า</ProgressMoving>
+  <ProgressCopying>การทำสำเนา</ProgressCopying>
+  <ProgressRenaming>การเปลี่ยนชื่อ</ProgressRenaming>
+  <ProgressUpdating>อัปเดต</ProgressUpdating>
+  <ProgressLoadingEditInPixlr>โหลดโปรแกรมแก้ไข Pixlr</ProgressLoadingEditInPixlr>
+  <ProgressLoadingEdit>บรรณาธิการกำลังโหลด</ProgressLoadingEdit>
+  <ProgressSavingEdit>บันทึกไฟล์</ProgressSavingEdit>
+  <ProgressSaving>ประหยัด</ProgressSaving>
+  <ProgressExecuting>การดำเนินการ</ProgressExecuting>
+
+  <BalloonFilesDeleted>{0} file (s) ลบ</BalloonFilesDeleted>
+  <BalloonFoldersDeleted>{0} โฟลเดอร์ (s) ลบ</BalloonFoldersDeleted>
+  <BalloonFilesFailed>{0} file (s) ล้มเหลว</BalloonFilesFailed>
+  <BalloonFoldersFailed>{0} โฟลเดอร์ (s) ล้มเหลว</BalloonFoldersFailed>
+  <BalloonFilesZipped>{0} file (s) ที่ถูกบีบอัด</BalloonFilesZipped>
+  <BalloonFoldersZipped>{0} โฟลเดอร์ (s) ที่ถูกบีบอัด</BalloonFoldersZipped>
+  <BalloonFilesCopied>{0} file (s) คัดลอก</BalloonFilesCopied>
+  <BalloonFoldersCopied>{0} โฟลเดอร์ (s) คัดลอก</BalloonFoldersCopied>
+  <BalloonFilesMoved>{0} file (s) ย้าย</BalloonFilesMoved>
+  <BalloonFoldersMoved>{0} โฟลเดอร์ (s) ย้าย</BalloonFoldersMoved>
+  <BalloonNotUnzipped>{0} file (s) ยังไม่ได้รับเป็นจำนวนมาก</BalloonNotUnzipped>
+  <BalloonFilesUploaded>{0} file (s) ที่อัปโหลด</BalloonFilesUploaded>
+  <BalloonFilesNotUploaded>{0} file (s) ไม่ได้อัปโหลด</BalloonFilesNotUploaded>
+  <BalloonSomeFilesNotUploaded>บางไฟล์ไม่สามารถอัปโหลด</BalloonSomeFilesNotUploaded>
+  <BalloonCreatedSuccessfully>สร้างเสร็จเรียบร้อยแล้ว</BalloonCreatedSuccessfully>
+  <BalloonUnzippedSuccessfully>แตกประสบความสำเร็จ</BalloonUnzippedSuccessfully>
+  <BalloonRenamedSuccessfully>ประสบความสำเร็จในการเปลี่ยนชื่อ</BalloonRenamedSuccessfully>
+  <BalloonSavedSuccessfully>บันทึกเรียบร้อยแล้ว</BalloonSavedSuccessfully>
+  <BalloonCopiedToClipboard>คัดลอกไปที่คลิปบอร์ด</BalloonCopiedToClipboard>
+  <BalloonCopyToClipboardFailed>คัดลอกไปยังคลิปบอร์ดล้มเหลว</BalloonCopyToClipboardFailed>
+
+  <CommandCopyToClipboard>คัดลอกไปที่คลิปบอร์ด</CommandCopyToClipboard>
+  <CommandCopyLinkToClipboard>คัดลอกลิงก์ไปยังคลิปบอร์ด</CommandCopyLinkToClipboard>
+  <ClipboardScreenshotTitlePrefix>ภาพ</ClipboardScreenshotTitlePrefix>
+  <ClipboardScreenshotHint>รูปภาพ: คุณสามารถวางภาพหน้าจอจากคลิปบอร์ดของคุณ (กด &lt;b&gt; Ctrl+PrtSc &lt;/b&gt; แล้ว &lt;b&gt; Ctrl+V &lt;/b&gt;) หรือภาพจากบรรณาธิการของคุณ (กด &lt;b&gt; Ctrl+V &lt;/b&gt;)</ClipboardScreenshotHint>
+  <ClipboardFileHint>นอกจากนี้คุณยังสามารถวางไฟล์จากคลิปบอร์ด</ClipboardFileHint>
+
+  <CommandClouds>การเก็บรักษาเมฆ</CommandClouds>
+  <CommandCloudsDownloadTo>ดาวน์โหลดไปยัง ...</CommandCloudsDownloadTo>
+  <CommandCloudsUploadFrom>อัปโหลดจาก ...</CommandCloudsUploadFrom>
+  <CommandCloudsAbout>เกี่ยวกับการเก็บรักษาเมฆ</CommandCloudsAbout>
+  
+  <CommandBack>กลับ</CommandBack>
+  <CommandForward>ข้างหน้า</CommandForward>
+  <CommandRecentFolders>โฟลเดอร์ล่าสุด</CommandRecentFolders>
+  <CommandHome>บ้าน</CommandHome>
+  <CommonActions>การปฏิบัติ</CommonActions>
+  <CommandMultiSelect>เลือกหลายรายการ</CommandMultiSelect>
+  <CommandShare>หุ้น</CommandShare>
+  <CommandSorting>เรียงลำดับ</CommandSorting>
+  
+  <CommandFileManager>กลับไปจัดการไฟล์</CommandFileManager>
+  <CommandFolders>โฟลเดอร์</CommandFolders>
+  <CommandGridView>ดู</CommandGridView>
+  <CommandRefresh>รีเฟรช</CommandRefresh>
+  <CommandThumbnailView>มุมมองภาพ</CommandThumbnailView>
+  <CommandDetailedView>มุมมองรายการ</CommandDetailedView>
+  <CommandDetailsPane>รายละเอียดบานหน้าต่าง</CommandDetailsPane>
+  <CommandFavorites>ที่ชื่นชอบ</CommandFavorites>
+  <CommandAddToFavorites>เพิ่มในรายการโปรด</CommandAddToFavorites>
+  <CommandAddToFavoritesHint>เพิ่มโฟลเดอร์ปัจจุบันในรายการโปรด</CommandAddToFavoritesHint>
+  <AddingToFavoritesMessage>เพิ่มในรายการโปรด</AddingToFavoritesMessage>
+  <RemoveFromFavoritesMessage>ลบออกจากรายการโปรด</RemoveFromFavoritesMessage>
+  <FolderAlreadyAddedInFavorites>โฟลเดอร์ "{0}" มีอยู่แล้วในรายการโปรด</FolderAlreadyAddedInFavorites>
+  <FolderAddedInFavoritesSuccessfully>โฟลเดอร์ "{0}" ถูกเพิ่มเข้ามาประสบความสำเร็จในรายการโปรด</FolderAddedInFavoritesSuccessfully>
+  <FavoritesIsOverflowed>มันเป็นไปไม่ได้ที่จะเพิ่มโฟลเดอร์ปัจจุบัน "{0}" ในรายการโปรด ลบรายการโปรดบางอย่างเพื่อเพิ่มพื้นที่ว่างและลองอีกครั้ง</FavoritesIsOverflowed>
+  <RemoveFromFavoritesHint>ลบ "{0}" จากรายการโปรด</RemoveFromFavoritesHint>
+  <AddToHomeScreenIOSHint>แตะ {0} แล้ว &lt;strong&gt; "เพิ่มไปที่หน้าจอหลัก" &lt;/strong&gt;</AddToHomeScreenIOSHint>
+  <CommandSearch>ค้นหา</CommandSearch>
+  <CommandUpload>อัปโหลด</CommandUpload>
+  <CommandSettings>การตั้งค่า</CommandSettings>
+  <CommandLanguage>ภาษา</CommandLanguage>
+  <CommandAdministration>การบริหาร</CommandAdministration>
+  <CommandAdminPanel>แผงธุรการ</CommandAdminPanel>
+  <CommandChangePassword>เปลี่ยนรหัสผ่าน</CommandChangePassword>
+  <ProgressChangePassword>รหัสผ่านการเปลี่ยน</ProgressChangePassword>
+  <CommandChangeEmail>เปลี่ยนอีเมล</CommandChangeEmail>
+  <ProgressChangeEmail>การเปลี่ยนอีเมล</ProgressChangeEmail>
+  <CommandMobileView>อินเตอร์เฟซมือถือ (มาร์ทโฟน)</CommandMobileView>
+  <CommandStandardView>เวอร์ชันเต็ม</CommandStandardView>
+  <CommandInstallIOSApp>ติดตั้งแอป iOS</CommandInstallIOSApp>
+  <CommandInstallAndroidApp>ติดตั้ง Android app</CommandInstallAndroidApp>
+  <CommandAddServerToMobileApp>เพิ่มเซิร์ฟเวอร์นี้เพื่อ app มือถือ</CommandAddServerToMobileApp>
+  <CommandAddToHomeScreen>เพิ่มไปยังหน้าจอที่บ้าน</CommandAddToHomeScreen>
+  <CommandDiagnostics>หน้าการวิเคราะห์</CommandDiagnostics>
+  <CommandLicenseInfo>ข้อมูลใบอนุญาต</CommandLicenseInfo>
+  <CommandLogout>ออกจากระบบ</CommandLogout>
+  <CommandLogoutHint>คลิ๊กเพื่อจบเซสชั่นปัจจุบัน</CommandLogoutHint>
+  <CommandNew>ใหม่</CommandNew>
+  <CommandFile>ไฟล์</CommandFile>
+  <CommandEmptyFile>ไฟล์ที่ว่างเปล่า</CommandEmptyFile>
+  <CommandNewMSOODocument>เอกสารกับ MS Office ออนไลน์</CommandNewMSOODocument>
+  <CommandNewOffice365Document>เอกสารกับ Office 365</CommandNewOffice365Document>
+  <CommandNewMSOOWord>เอกสาร Word</CommandNewMSOOWord>
+  <CommandNewMSOOExcel>กระดาษคำนวณ Excel</CommandNewMSOOExcel>
+  <CommandNewMSOOPowerPoint>การนำเสนอพาวเวอร์พ้อยท์</CommandNewMSOOPowerPoint>
+  <CommandNewGoogleDocument>เอกสารด้วย Google</CommandNewGoogleDocument>
+  <CommandNewGoogleDocs>Google Docs</CommandNewGoogleDocs>
+  <CommandNewGoogleSheets>Google ชีต</CommandNewGoogleSheets>
+  <CommandNewGoogleSlides>Google สไลด์</CommandNewGoogleSlides>
+  <CommandNewImage>รูปภาพใน Pixlr</CommandNewImage>
+  <CommandFolder>โฟลเดอร์</CommandFolder>
+  <CommandNewFile>ไฟล์ใหม่ที่ว่างเปล่า</CommandNewFile>
+  <CommandNewFolder>แฟ้มใหม่</CommandNewFolder>
+  <CommandNewWithTemplate>โดยใช้แม่ ...</CommandNewWithTemplate>
+  <CommandRename>ตั้งชื่อใหม่</CommandRename>
+  <CommandDelete>ลบ</CommandDelete>
+  <CommandCopy>สำเนา</CommandCopy>
+  <CommandMove>ย้าย</CommandMove>
+  <CommandCut>ตัด</CommandCut>
+  <CommandCopyTo>คัดลอกไป ...</CommandCopyTo>
+  <CommandMoveTo>ย้ายไป ...</CommandMoveTo>
+  <CommandCopyCutClipboardSuffix>ไปที่คลิปบอร์ด</CommandCopyCutClipboardSuffix>
+  <CommandPaste>แปะ</CommandPaste>
+  <CommandPasteInto>วางลง</CommandPasteInto>
+  <CommandZip>บีบอัดเพื่อเก็บไปรษณีย์</CommandZip>
+  <CommandZipMenu>Zip / Unzip</CommandZipMenu>
+  <CommandUnzip>ซิปแกะ</CommandUnzip>
+  <CommandUnzipSelected>แกะที่เลือก</CommandUnzipSelected>
+  <CommandUnzipAll>แกะทั้งหมด</CommandUnzipAll>
+  <CommandUnzipTo>ไปยังโฟลเดอร์</CommandUnzipTo>
+  <CommandUnzipToCurrent>ไปยังโฟลเดอร์ปัจจุบัน</CommandUnzipToCurrent>
+  <MessageUnzipToFolder>พิมพ์ชื่อของโฟลเดอร์ที่จะแกะนี้</MessageUnzipToFolder>
+  <MessageUnzipPasswordHint>ถ้าคุณรู้ว่ารหัสผ่านเป็นสิ่งจำเป็นสำหรับการเปิดออกใส่ไว้ในช่องด้านล่าง</MessageUnzipPasswordHint>
+  <MessageUnzipNeedPassword>รหัสผ่านจะต้องแกะไฟล์</MessageUnzipNeedPassword>
+  <ZipPasswordProtectHint>รหัสผ่านเพื่อปกป้องไฟล์ zip ให้ป้อนรหัสผ่านในช่องด้านล่าง มิฉะนั้นออกจากสนามที่ว่างเปล่า</ZipPasswordProtectHint>
+  <AppendToZipPasswordProtectHint>รหัสผ่านเพื่อป้องกันไฟล์ที่เพิ่มให้กับไฟล์ zip ให้ป้อนรหัสผ่านในช่องด้านล่าง มิฉะนั้นออกจากสนามที่ว่างเปล่า</AppendToZipPasswordProtectHint>
+  <ZipPasswordProtectWindowTitle>เก็บด้วยรหัสผ่าน</ZipPasswordProtectWindowTitle>
+  <OpenFolderAfterUnzipCheckBox>เปิดโฟลเดอร์หลังจากการเปิดออก</OpenFolderAfterUnzipCheckBox>
+  <CommandUnzipToNew>ไปยังโฟลเดอร์ใหม่</CommandUnzipToNew>
+  <CommandZipContents>เนื้อหาซิป</CommandZipContents>
+  <ArchiveContentsTitle>Content Archive "{0}"</ArchiveContentsTitle>
+  <CommandDownload>ดาวน์โหลด</CommandDownload>
+  <CommonDownloadAll>ดาวน์โหลดทั้งหมด</CommonDownloadAll>
+  <DownloadListDragFile>คุณสามารถลาก n หล่นไฟล์ไปยังเดสก์ทอปของคุณ</DownloadListDragFile>
+  <CommandZipDownload>การบีบอัดและดาวน์โหลด</CommandZipDownload>
+  <CommandView>ดูในเบราว์เซอร์</CommandView>
+  <CommandDownloadOrView>ดาวน์โหลดหรือดู</CommandDownloadOrView>
+  <CommandPreview>Preview ภาพ</CommandPreview>
+  <CommandFlashPreview>แฟลชตัวอย่าง</CommandFlashPreview>
+  <GettingSizeFlashMovie>ได้รับขนาดของภาพยนตร์แฟลช</GettingSizeFlashMovie>
+  <CommandEdit>แก้ไขเป็นแฟ้มข้อความ</CommandEdit>
+  <CommandEditView>ดูเป็นแฟ้มข้อความ</CommandEditView>
+  <AceNotLoadedMessage>ไม่สามารถโหลดโปรแกรมแก้ไข Ace</AceNotLoadedMessage>
+  <VideoJsNotLoadedMessage>ไม่สามารถโหลดเล่น VideoJS</VideoJsNotLoadedMessage>
+  <CommandMenuEdit>แก้ไข</CommandMenuEdit>
+  <CommandSelectAll>เลือกทั้งหมด</CommandSelectAll>
+  <CommandInvertSelection>เลือก Invert</CommandInvertSelection>
+  <CommandLinkToFile>เชื่อมโยงไปยังไฟล์ / โฟลเดอร์</CommandLinkToFile>
+  <!--Share link-->
+  <CommandMakePublicFolder>สร้างการเชื่อมโยงประชาชน</CommandMakePublicFolder>
+  <PublicViewInGoogle>ดูใน Google</PublicViewInGoogle>
+  <PublicViewinOWA>ดูใน OWA</PublicViewinOWA>
+  <!--Make public folder (share)-->
+  <CommandViewWithGoogleDoc>ดูใน Google Docs</CommandViewWithGoogleDoc>
+  <CommandViewWithShareCad>ดูใน ShareCad.org</CommandViewWithShareCad>
+  <CommandViewWithAutodesk>ดูใน Autodesk</CommandViewWithAutodesk>
+  <CommandViewWithBox>ดูในกล่อง</CommandViewWithBox>
+  <CommandViewWithOWA>ดูใน Office Web Apps ได้</CommandViewWithOWA>
+  <CommandCloudConvert>แปลงกับ CloudConvert</CommandCloudConvert>
+  <ProgressGetCloudConvertOutputFormats>รูปแบบการส่งออก</ProgressGetCloudConvertOutputFormats>
+  <ProgressCloudConvertConverting>แปลง</ProgressCloudConvertConverting>
+  <CloudConvertWindowTitle>แปลง '{0}'</CloudConvertWindowTitle>
+  <CloudConvertWindowConvertButton>แปลง</CloudConvertWindowConvertButton>
+  <CloudConvertWindowOutputFormatsLabel>รูปแบบการออก</CloudConvertWindowOutputFormatsLabel>
+  <CloudConvertDownloadLinkLabel>การเชื่อมโยงสำหรับการดาวน์โหลด</CloudConvertDownloadLinkLabel>
+  <CloudConvertSaveAsLabel>บันทึกเป็น (ส่วนขยายจะถูกเพิ่มโดยอัตโนมัติ):</CloudConvertSaveAsLabel>
+  <CloudConvertNoOutputFormats>ไม่มีรูปแบบที่ใช้ได้สำหรับการแปลงเป็น</CloudConvertNoOutputFormats>
+  <CloudConvertNoUrlForDownload>มันก็ไม่ได้ประสบความสำเร็จที่จะได้รับการเชื่อมโยงสำหรับการดาวน์โหลด</CloudConvertNoUrlForDownload>
+  <ProgressCloudConvertUploading>อัปโหลดจาก CloudConvert</ProgressCloudConvertUploading>
+  <CloudConvertSaveAsNameBlank>พิมพ์ชื่อที่นี่</CloudConvertSaveAsNameBlank>
+  <CancelEditButton>ยกเลิกการแก้ไข</CancelEditButton>
+  <HideButton>ปิดบัง</HideButton>
+  <EditDocumentCancelHint>หลังจากที่คุณปิดหน้าต่างที่มีเอกสารที่แก้ไขก็จะมีการบันทึกอัตโนมัติ. &lt;br /&gt; คุณสามารถซ่อนกล่องโต้ตอบนี้โดยการกด {0} (ในกรณีนี้เอกสารจะยังคงได้รับการบันทึกไว้หลังจากปิดบรรณาธิการ). &lt;br /&gt; หากคุณไม่ต้องการที่จะบันทึกเอกสารกด {1} (ในกรณีนี้หน้าต่างแก้ไขจะถูกปิด)</EditDocumentCancelHint>
+  <EditDocumentSaveHint>ตอนนี้คุณสามารถบันทึกการเปลี่ยนแปลงในเอกสารโดยการกด {0} ความสนใจ! หลังจากที่คุณปิดหน้าต่างแก้ไขก็จะมีการบันทึกอัตโนมัติยัง</EditDocumentSaveHint>
+  <CommandEditInMSOffice>แก้ไขใน MS Office</CommandEditInMSOffice>
+  <CommandEditInOOo>แก้ไขใน OpenOffice / LibreOffice</CommandEditInOOo>
+  <CommandViewInMSOffice>ดูใน MS Office</CommandViewInMSOffice>
+  <CommandViewInOOo>ดูใน OpenOffice / LibreOffice</CommandViewInOOo>
+  <CommandEditInPixlr>แก้ไขใน Pixlr</CommandEditInPixlr>
+  <CommandEditInAdobe>แก้ไขใน Adobe Creative Cloud</CommandEditInAdobe>
+  <AdobeImageEditorSavedAsNewTypeMessage>ภาพการเปลี่ยนแปลงในโปรแกรมแก้ไขรูปภาพ Adobe ได้รับการบันทึกในรูปแบบ {0}</AdobeImageEditorSavedAsNewTypeMessage>
+  <CommandEditInGoogle>แก้ไขใน Google ไดรฟ์</CommandEditInGoogle>
+  <EditInGoogleConvertMessage>หลังจากแก้ไขเอกสารจะถูกแปลงเป็นรูปแบบ {1} {0} {2}</EditInGoogleConvertMessage>
+  <EditInGoogleLinkError>ไม่สามารถที่จะได้รับการเชื่อมโยงไปแก้ไขเอกสารใน Google ไดรฟ์</EditInGoogleLinkError>
+  <EditInGoogleWaiting>กำลังรอการแก้ไขแล้วเสร็จใน Google ไดรฟ์</EditInGoogleWaiting>
+  <CommandEditInMSOO>แก้ไขใน MS Office Online</CommandEditInMSOO>
+  <EditInMSOOLinkError>ไม่สามารถที่จะได้รับการเชื่อมโยงไปแก้ไขเอกสารใน MS Office Online</EditInMSOOLinkError>
+  <EditInMSOOWaiting>กำลังรอการแก้ไขแล้วเสร็จใน MS Office ออนไลน์</EditInMSOOWaiting>
+  <CommandEditInOffice365>แก้ไขใน Office 365</CommandEditInOffice365>
+  <EditInOffice365LinkError>ไม่สามารถที่จะได้รับการเชื่อมโยงไปแก้ไขเอกสารใน Office 365</EditInOffice365LinkError>
+  <EditInOffice365Waiting>กำลังรอการแก้ไขเสร็จสิ้นใน Office 365</EditInOffice365Waiting>
+  <CommandSave>บันทึก</CommandSave>
+  <CommandSaveAs>บันทึกเป็น...</CommandSaveAs>
+  <CommandAppRestart>แอพลิเคชันเริ่มต้นใหม่</CommandAppRestart>
+  <CommandPlayVideoFlash>การเล่นวิดีโอในโปรแกรมเล่นแฟลช</CommandPlayVideoFlash>
+  <CommandPlayVideoHtml5>เล่นวีดีโอ</CommandPlayVideoHtml5>
+  <CommandPlayAudioHtml5>เล่นเสียง</CommandPlayAudioHtml5>
+  <CommandPlayVideo>เล่นวีดีโอ</CommandPlayVideo>
+  <CommandPlayAudio>เล่นเสียง</CommandPlayAudio>
+  <CommandConvertVideo>แปลงวิดีโอ</CommandConvertVideo>
+
+  <ViewInServiceLink>คลิกที่นี่เพื่อดูไฟล์</ViewInServiceLink>
+  <EditInServiceLink>คลิกที่นี่เพื่อแก้ไขเอกสาร</EditInServiceLink>
+
+  <OfficeEditCopyLinkLabel>คัดลอกลิงก์ด้านล่างและเปิดในโปรแกรมประยุกต์ Office:</OfficeEditCopyLinkLabel>
+  <OfficeRunError>มันเป็นไปไม่ได้ที่จะเปิดตัว {0}</OfficeRunError>
+  <BadPathToFile>มันเป็นไปไม่ได้ที่จะหาเส้นทางไปยังแฟ้ม</BadPathToFile>
+  <FixBasicAuthAlertTitle>ความสนใจ!</FixBasicAuthAlertTitle>
+  <FixBasicAuthAlertMessage>Microsoft Office ทำงานร่วมกับการตรวจสอบเบื้องต้นโดยไม่ต้อง SSL! คุณสามารถแก้ไขปัญหานี้สำหรับสำนักงานของคุณ สำหรับข้อมูลเพิ่มเติมโปรดดูที่ {0}</FixBasicAuthAlertMessage>
+  <FixBasicAuthAlertCheckBoxText>ที่จะไม่แสดงการสนทนานี้อีกต่อไป</FixBasicAuthAlertCheckBoxText>
+  <CommandDetails>รายละเอียด</CommandDetails>
+  <CommonButtonCaptionAddDetail>เพิ่มรายละเอียด</CommonButtonCaptionAddDetail>
+  <CommonButtonCaptionAddComment>เพิ่มความเห็น</CommonButtonCaptionAddComment>
+  <DetailsWindowTitle>รายละเอียด "{0}"</DetailsWindowTitle>
+  <FileDetailsSave>ใช้การเปลี่ยนแปลง</FileDetailsSave>
+  <FileDetailsIgnoreChanges>ไม่สนใจ</FileDetailsIgnoreChanges>
+  <FileDetailsCloseConfirmTitle>หน้าต่างรายละเอียดไฟล์จะถูกปิด</FileDetailsCloseConfirmTitle>
+  <FileDetailsCloseConfirmMsg>ความสนใจ! การเปลี่ยนแปลงที่ไม่ได้รับการบันทึกไว้เลย เลือกการกระทำที่คุณต้องการที่จะนำไปใช้กับการเปลี่ยนแปลงเหล่านี้ก่อนที่จะปิดหน้าต่าง</FileDetailsCloseConfirmMsg>
+  <FileDetailsGridTitleColumn>หัวข้อ</FileDetailsGridTitleColumn>
+  <FileDetailsGridAuthorColumn>ผู้เขียนล่าสุด</FileDetailsGridAuthorColumn>
+  <LoadingDetailsMask>กำลังโหลดรายละเอียด</LoadingDetailsMask>
+  <NewDetailsTitle>ชื่อใหม่</NewDetailsTitle>
+  <NewDetailsValue>ค่ารายละเอียดใหม่</NewDetailsValue>
+  <DetailsSavingMsg>การบันทึกรายละเอียด</DetailsSavingMsg>
+  <ProgressLoadingEditInOffice>การเตรียมความพร้อมสำหรับการแก้ไขในสำนักงาน</ProgressLoadingEditInOffice>
+  <MenuFilterText>ฟิลเตอร์</MenuFilterText>
+  <EmptyTextFilter>ใส่กรอง ...</EmptyTextFilter>
+  <AfterDateFilterText>หลังจาก</AfterDateFilterText>
+  <BeforeDateFilterText>ก่อน</BeforeDateFilterText>
+  <OnDateFilterText>บน</OnDateFilterText>
+  <YesBooleanFilterText>ใช่</YesBooleanFilterText>
+  <NoBooleanFilterText>ไม่</NoBooleanFilterText>
+  <CommandEditWithZoho>แก้ไขใน Zoho</CommandEditWithZoho>
+  <ZohoNotSupportedFormatMessage>นามสกุลไม่สนับสนุน Zoho ดู {0}</ZohoNotSupportedFormatMessage>
+  <ProgressLoadingEditInZoho>โหลดโปรแกรมแก้ไข Zoho</ProgressLoadingEditInZoho>
+  <CommandSubMenuViewAndEdit>ดู / แก้ไข</CommandSubMenuViewAndEdit>
+  <CommandSubMenuShare>หุ้น</CommandSubMenuShare>
+  <CommandSubMenuMore>มากกว่า</CommandSubMenuMore>
+  <StopUploadingButtonText>หยุด</StopUploadingButtonText>
+  <SimpleUploadErrorInfo>เมื่ออัปโหลดไฟล์ (s) มีข้อผิดพลาด. &lt;br /&gt; ดู {0} สำหรับข้อมูลเพิ่มเติม &lt;/a&gt;</SimpleUploadErrorInfo>
+  <BalloonAbortFilesUploaded>อัพโหลดไฟล์ถูกยกเลิก</BalloonAbortFilesUploaded>
+  <UploadDragNDropTab>ลากและวาง</UploadDragNDropTab>
+  <UploadDragNDropTabImages>ภาพการลากและวาง +</UploadDragNDropTabImages>
+  <DnDGridProgressColumn>ความคืบหน้า</DnDGridProgressColumn>
+  <DnDFileReadingError>ข้อผิดพลาดการอ่าน รหัสข้อผิดพลาด: {0}</DnDFileReadingError>
+  <DnDFileReadingAbort>อ่านยกเลิก รหัสข้อผิดพลาด: {0}</DnDFileReadingAbort>
+  <DnDFileUploadingError>ข้อผิดพลาดในการอัปโหลด {0}</DnDFileUploadingError>
+  <DnDFileUploadingAbort>อัปโหลดยกเลิก</DnDFileUploadingAbort>
+  
+  <CommandWebFoldersLinks>โฟลเดอร์แผนที่เว็บ</CommandWebFoldersLinks>
+  <CommandSyncWebFolders>ซิงค์กับโฟลเดอร์ท้องถิ่น</CommandSyncWebFolders>
+  <WebFolderLinksFieldLabel>การเชื่อมโยงเว็บโฟลเดอร์</WebFolderLinksFieldLabel>
+  <WebFolderLinksForWindows64Note>กดรวมแป้น {0} Win+R {1} แทรกบรรทัดคำสั่งใน {} 0 เปิดอ่าน: {1} ฟิลด์ (ดูตัวอย่างบรรทัดคำสั่งด้านล่าง) คลิก {0} ตกลง {1} สำหรับการตรวจสอบของ Windows โดยใช้ชื่อโดเมนที่มีคุณสมบัติครบถ้วน: {2}</WebFolderLinksForWindows64Note>
+  <OpenLibreOfficeRunCommandNote>หรือกดคีย์ผสม {0} Win+R {1} แทรกบรรทัดคำสั่งที่ด้านล่างใน {0} เปิด: {1} สนามและกด {0} ตกลง {1}</OpenLibreOfficeRunCommandNote>
+  <WebFolderLinksForMacOSNote>ในเมนู "ค้นหา" เปิด {0} เวย์ไป&gt; เชื่อมต่อกับเซิร์ฟเวอร์ {1} แทรกการเชื่อมโยงของโฟลเดอร์เว็บใน {0} "ที่อยู่ของเซิร์ฟเวอร์ที่" {1} ฟิลด์ คลิก {0} "เชื่อมต่อ" {1} ในกล่องโต้ตอบใหม่เลือก {0} "แขก" {1} หรือ {0} "สมัครสมาชิก" {1} (สำหรับการตรวจสอบ Windows) คลิก {0} "เชื่อมต่อ" {1}</WebFolderLinksForMacOSNote>
+  <WebFolderLinksForUbuntuNote>เปิด {0} เวย์ไป&gt; ตำแหน่ง ... {1} คัดลอกลิงก์ของโฟลเดอร์เว็บไปยังเขตข้อมูลสถานที่</WebFolderLinksForUbuntuNote>
+  <LinksToWebFoldersWindowText>คุณสามารถแมโฟลเดอร์ที่คุณเห็นเป็นไดรฟ์เครือข่ายในระบบปฏิบัติการในพื้นที่ของคุณ หลังจากการทำแผนที่คุณสามารถทำงานกับไฟล์เช่นกับคนท้องถิ่นหรือแก้ไขเอกสารใน MS Office หรือ OpenOffice ดูความช่วยเหลือเกี่ยวกับวิธีการ map {0}</LinksToWebFoldersWindowText>
+  <CommonFileTypeNameCaption>"{0}" ชื่อไฟล์</CommonFileTypeNameCaption>
+  <CommonFileTypeNamePrompt>ใส่ใหม่ "{0}" ชื่อไฟล์</CommonFileTypeNamePrompt>
+  
+  <PixlrEditorWindowTitle>แก้ไข Pixlr {0}</PixlrEditorWindowTitle>
+  <PixlrSaveImageSuccessMessage>ภาพ "{0}" ถูกบันทึกเรียบร้อยแล้ว รีเฟรชรายการถ้าคุณบันทึกภาพที่มีชื่อใหม่</PixlrSaveImageSuccessMessage>
+  <CommonFileImageNewName>ภาพใหม่</CommonFileImageNewName>
+  <CommandChangeTheme>เปลี่ยนธีม</CommandChangeTheme>
+  
+  <CommandHelp>ช่วยด้วย</CommandHelp>
+
+  <OpeningShortcutProgress>ทางลัดเปิด</OpeningShortcutProgress>
+  <CommandCreateShortcut>ทางลัด (เชื่อมโยงสัญลักษณ์)</CommandCreateShortcut>
+  <ShortcutNameHint>ชื่อทางลัด</ShortcutNameHint>
+  <ShortcutTargetPathHint>เส้นทางปลายทาง</ShortcutTargetPathHint>
+  <CreateShortcutButtonTitle>สร้าง</CreateShortcutButtonTitle>
+  <CreatingShortcutProgress>ทางลัดการสร้าง</CreatingShortcutProgress>
+  <CreateShortcutSuccessMessage>ทางลัด "{0}" ถูกสร้างเสร็จเรียบร้อยแล้วสำหรับ "{1}"</CreateShortcutSuccessMessage>
+
+  <OpeningInternetShortcutProgress>เปิดทางลัดอินเทอร์เน็ต</OpeningInternetShortcutProgress>
+  <InternetShortcutNotValidMsg>URL ที่เป็นเป้าหมายของทางลัดอินเทอร์เน็ตนี้ไม่ถูกต้อง</InternetShortcutNotValidMsg>
+  <InternetShortcutWindowTitle>ไปที่ลิงค์</InternetShortcutWindowTitle>
+  
+  <CommandVersioning>รุ่น</CommandVersioning>
+  <CommandVersionHistory>ประวัติรุ่น</CommandVersionHistory>
+  <CommandCheckOut>เช็คเอาท์</CommandCheckOut>
+  <CommandCheckIn>เช็คอิน</CommandCheckIn>
+  <CommandUndoCheckOut>ยกเลิก Check Out</CommandUndoCheckOut>
+  <VersionHistoryObtainingMessage>ได้รับประวัติรุ่น</VersionHistoryObtainingMessage>
+  <NoVersionHistoryMessage>ประวัติความเป็นมารุ่นสำหรับไฟล์ที่เลือกไม่ได้อยู่</NoVersionHistoryMessage>
+  <FileIsCheckedOutMessage>แฟ้ม "{0}" มีการตรวจสอบออกไปแล้วจากผู้ใช้ "{1}" ของ {2}</FileIsCheckedOutMessage>
+  <CheckingOutMessage>การตรวจสอบจาก</CheckingOutMessage>
+  <SuccessfullyCheckedOutMessage>ไฟล์ "{0}" ได้รับการตรวจสอบเรียบร้อยแล้วออกโดยผู้ใช้ "{1}"</SuccessfullyCheckedOutMessage>
+  <FileIsNotCheckedOutMessage>แฟ้ม "{0}" ยังไม่ได้รับการตรวจสอบออกยัง</FileIsNotCheckedOutMessage>
+  <FileIsCheckedOutOtherUserMessage>ไฟล์ "{0}" มีการตรวจสอบโดยผู้ใช้คนอื่น "{1}" ของ {2}</FileIsCheckedOutOtherUserMessage>
+  <FileUndoCheckOutForbiddenMessage>คุณไม่สามารถยกเลิกการตรวจสอบที่ใช้โดยผู้ใช้อื่น</FileUndoCheckOutForbiddenMessage>
+  <FileCheckInForbiddenMessage>คุณไม่สามารถตรวจสอบในไฟล์ที่ได้รับการตรวจสอบแล้วโดยผู้ใช้อื่น</FileCheckInForbiddenMessage>
+  <FileUndoCheckOutConfirmMessage>หากคุณยกเลิกการตรวจสอบของคุณออกจากการเปลี่ยนแปลงที่นำไปใช้กับเอกสารที่จะไม่ได้รับการบันทึกไว้! คุณคุณแน่ใจว่าต้องการยกเลิกการตรวจสอบของคุณออกมา?</FileUndoCheckOutConfirmMessage>
+  <FileVersionDeleteConfirmTitle>การลบของรุ่นของแฟ้ม</FileVersionDeleteConfirmTitle>
+  <FileVersionDeleteConfirmMessage>คุณแน่ใจหรือว่าต้องการลบรุ่นที่เลือกของไฟล์หรือไม่</FileVersionDeleteConfirmMessage>
+  <FileVersionRestoreConfirmTitle>การเรียกคืนของรุ่นของแฟ้ม</FileVersionRestoreConfirmTitle>
+  <FileVersionRestoreConfirmMessage>คุณแน่ใจหรือว่าต้องการเรียกคืนรุ่นที่เลือกของไฟล์หรือไม่ {0} ถ้าใช่ระบุไฟล์ที่รุ่นที่เลือกจะถูกบันทึกลงใน ถ้าคุณปล่อยให้ค่านี้โดยไม่มีการเปลี่ยนแปลง (หรือตั้งค่าว่าง) รุ่นที่เลือกจะเข้ามาแทนที่ไฟล์ที่เลือก (เนื้อหาก่อนหน้าของไฟล์จะถูกเพิ่มลงในประวัติรุ่น) {1} ชื่อไฟล์.:</FileVersionRestoreConfirmMessage>
+  <UndoCheckingOutMessage>ยกเลิกการตรวจสอบ</UndoCheckingOutMessage>
+  <SuccessfullyUndoCheckedOutMessage>การยกเลิกของการตรวจสอบออกไปสำหรับไฟล์ "{0}" เสร็จสมบูรณ์</SuccessfullyUndoCheckedOutMessage>
+  <SuccessfullyCheckedInMessage>แฟ้ม "{0}" มีการตรวจสอบเรียบร้อยแล้วโดยผู้ใช้ "{1}"</SuccessfullyCheckedInMessage>
+  <CheckingInMessage>ในการตรวจสอบ</CheckingInMessage>
+  <VersionHistoryTitle>รุ่นของแฟ้ม "{0}"</VersionHistoryTitle>
+  <VersionHistoryGridNumberColumn>Ver</VersionHistoryGridNumberColumn>
+  <VersionHistoryGridNotesColumn>หมายเหตุ</VersionHistoryGridNotesColumn>
+  <CommandRestoreVersion>ฟื้นฟู</CommandRestoreVersion>
+  <ProgressPrepareDownloadOldVersion>เตรียมความพร้อมสำหรับการดาวน์โหลดรุ่นเก่า</ProgressPrepareDownloadOldVersion>
+  <FileVersionNotFoundMessage>รุ่นของแฟ้มที่เลือกไม่พบ</FileVersionNotFoundMessage>
+  <ProgressDeletingVersion>เวอร์ชันลบ</ProgressDeletingVersion>
+  <ProgressRestoringVersion>รุ่นการเรียกคืน</ProgressRestoringVersion>
+  <FileNeedCheckInMessage>กรุณาตรวจสอบหรือยกเลิกการตรวจสอบออกไปสำหรับไฟล์ที่เลือกและลองอีกครั้ง</FileNeedCheckInMessage>
+  <FileCheckedOutEditForbiddenMessage>คุณไม่สามารถแก้ไข / เปลี่ยนชื่อ / ย้าย / ลบไฟล์ "{0}" ในขณะที่มันจะถูกตรวจสอบโดยผู้ใช้ "{1}" ของ {2}</FileCheckedOutEditForbiddenMessage>
+  <FileUploadCheckInLabel>คุณสามารถตรวจสอบในแฟ้มที่เลือกหรืออัปโหลดเวอร์ชันใหม่ของแฟ้ม (ใช้แบบฟอร์มการอัปโหลดด้านล่าง) หากคุณต้องการที่จะสร้างรุ่นใหม่จากไฟล์ที่เลือกไม่ได้อัปโหลดไฟล์ใด ๆ ที่นี่</FileUploadCheckInLabel>
+  <FileUploadCheckInInvalidFileName>ชื่อของไฟล์ที่อัปโหลดควรจะเหมือนกับชื่อของไฟล์ที่เลือก</FileUploadCheckInInvalidFileName>
+  <CheckOutVersionNotes>รุ่นนี้ได้รับการสร้างขึ้นโดยอัตโนมัติ</CheckOutVersionNotes>
+  <RestoreVersionNotes>รุ่นนี้ได้ถูกสร้างขึ้นโดยอัตโนมัติหลังจากการฟื้นฟูของรุ่นจาก {0} ของผู้ใช้ "{1}"</RestoreVersionNotes>
+  <IsCheckedOutHint>ไฟล์ที่ได้รับการตรวจสอบออก</IsCheckedOutHint>
+  <ExistsOldVersionsHint>ไฟล์มีรุ่นอื่น ๆ</ExistsOldVersionsHint>
+  <IsLockedHint>ไฟล์ถูกล็อค</IsLockedHint>
+  <FileWasCreatedHint>ได้ถูกสร้างขึ้น {0} ที่ผ่านมา</FileWasCreatedHint>
+  <FileWasModifiedHint>มีการเปลี่ยนแปลง {0} ที่ผ่านมา</FileWasModifiedHint>
+  <CommonChangedAgo>{0} ที่ผ่านมา</CommonChangedAgo>
+  <DaysShort>D</DaysShort>
+  <HoursShort>H</HoursShort>
+  <MinutesShort>ม.</MinutesShort>
+  <FileContainsMetaDataHint>มีบางส่วนรายละเอียด (เมตาดาต้า)</FileContainsMetaDataHint>
+  <FileMetaDataCaptionMobile>เมตาดาต้า</FileMetaDataCaptionMobile>
+
+  <ExistsPublicLinksFileHint>ไฟล์ที่มีการเชื่อมโยงประชาชน</ExistsPublicLinksFileHint>
+  <ExistsPublicLinksFolderHint>โฟลเดอร์ที่มีการเชื่อมโยงประชาชน</ExistsPublicLinksFolderHint>
+  <PublicLinkNotFound>ลิงก์สาธารณะสำหรับ "{0}" ไม่พบ</PublicLinkNotFound>
+
+  <PublicLinksDeleteWindowTitle>ลบลิงก์สาธารณะ (s)</PublicLinksDeleteWindowTitle>
+  <PublicLinksDeleteLinkButton>ลบการเชื่อมโยง</PublicLinksDeleteLinkButton>
+  <PublicLinksDeleteConfirmMsg>คุณแน่ใจหรือไม่ว่าคุณต้องการที่จะลบการเชื่อมโยงของประชาชนที่เลือก?</PublicLinksDeleteConfirmMsg>
+  <PublicLinksDeleteSingleConfirmMsg>คุณแน่ใจหรือไม่ว่าคุณต้องการที่จะลบการเชื่อมโยงนี้หรือไม่?</PublicLinksDeleteSingleConfirmMsg>
+
+  <DetailsMultiValue>(มูลค่าหลาย)</DetailsMultiValue>
+
+  <GridBottomFilesSizeInfo>เลือก: {0} / {1}</GridBottomFilesSizeInfo>
+  <GridBottomFilesFoldersInfo>ไฟล์: {0} / {1} โฟลเดอร์: {2} / {3}</GridBottomFilesFoldersInfo>
+
+  <AmountOfDownloadingsFile>ดาวน์โหลด</AmountOfDownloadingsFile>
+
+  <CookiesDisabledMessage>ฟังก์ชันคุกกี้เบราว์เซอร์ของคุณถูกปิด กรุณาเปิดเบราว์เซอร์และเริ่มต้นใหม่</CookiesDisabledMessage>
+
+  <CommandSendEmail>ส่งอีเมล</CommandSendEmail>
+  <CommandSendWithGmail>ส่งด้วย Gmail</CommandSendWithGmail>
+  <CommandSendWithOutlook>ส่งกับ Outlook</CommandSendWithOutlook>
+  <SendEmailTo>ไปยัง</SendEmailTo>
+  <SendEmailBulkMailingListHint>&lt;b&gt; รายการจดหมาย &lt;/b&gt; &lt;br /&gt; คุณสามารถระบุกลุ่มทั้งในการส่งอีเมลของคุณ</SendEmailBulkMailingListHint>
+  <SendEmailBulkMailingListWindowTitle>เลือกรับสำหรับอีเมลของคุณ</SendEmailBulkMailingListWindowTitle>
+  <SendEmailEmptyMailingListMessage>รายการ Mail เป็นที่ว่างเปล่า</SendEmailEmptyMailingListMessage>
+  <SendEmailSenderEmail>อีเมลของผู้ส่ง</SendEmailSenderEmail>
+  <SendEmailSubject>เรื่อง</SendEmailSubject>
+  <SendEmailFilesAsLinksTo>ส่งลิงค์ไปยังไฟล์ที่เลือก</SendEmailFilesAsLinksTo>
+  <SendEmailFilesAsAttachements>ส่งไฟล์ที่เลือกเป็นสิ่งที่แนบ</SendEmailFilesAsAttachements>
+  <SendEmailSend>ส่ง</SendEmailSend>
+  <SendEmailProgressMessage>ส่งอีเมล</SendEmailProgressMessage>
+  <GettingMailingListProgressMessage>ได้รับรายชื่อผู้รับจดหมาย</GettingMailingListProgressMessage>
+  <SendEmailSuccessMessage>อีเมลถูกส่งเรียบร้อยแล้ว</SendEmailSuccessMessage>
+  <SendEmailResultsMessage>ส่ง:. {0} &lt;br /&gt; ล้มเหลว: {1} {2}</SendEmailResultsMessage>
+  <SmtpServerSettingsIncorrect>ตัวเลือก SMTP เซิร์ฟเวอร์มีทั้งที่ว่างเปล่าหรือไม่ถูกต้อง</SmtpServerSettingsIncorrect>
+  <FromEmailIncorrect>จากที่อยู่อีเมลไม่ถูกต้องหรือเปล่า</FromEmailIncorrect>
+  <ToEmailIncorrect>ที่อยู่ในการส่งอีเมลไม่ถูกต้องหรือเปล่า</ToEmailIncorrect>
+  <EmailSubjectEmpty>หัวเรื่องของอีเมลไม่ได้ระบุ</EmailSubjectEmpty>
+  <UploadFromUrlTab>จาก URL</UploadFromUrlTab>
+  <UploadFromUrlFieldLabel>URL (HTTP หรือ FTP ไฟล์เดียว)</UploadFromUrlFieldLabel>
+  <UploadFromUrlProgressTitle>อัปโหลดจาก URL</UploadFromUrlProgressTitle>
+  <UploadFromUrlMsg>อัปโหลดจาก URL</UploadFromUrlMsg>
+  <UploadFromUrlSuccessMsg>แฟ้ม "{0}" ได้รับการอัปโหลดที่ประสบความสำเร็จจาก "{1}"</UploadFromUrlSuccessMsg>
+  <UploadFromUrlUnknownResponse>การตอบสนองจากเซิร์ฟเวอร์ไม่ได้รับการยอมรับ</UploadFromUrlUnknownResponse>
+  <UploadFromUrlEmptyFileName>ชื่อของไฟล์ที่อัปโหลดว่างเปล่า</UploadFromUrlEmptyFileName>
+  <UploadFromUrlFileName>บันทึกที่มีชื่อ (ปล่อยว่างที่จะใช้ชื่อจาก URL)</UploadFromUrlFileName>
+  <UploadFromUrlFileNameMobile>บันทึกที่มีชื่อ</UploadFromUrlFileNameMobile>
+  
+  <!-- Common Clouds keys -->  
+  <CloudAuthenticateMessage>คุณต้องเข้าสู่ระบบที่ {0} คลิก "{1}" การเชื่อมโยงและคุณจะถูกนำไปยังแบบฟอร์มการเข้าสู่ระบบ {2} ข้อมูลเพิ่มเติม. {3}</CloudAuthenticateMessage>
+  <CloudAuthenticateLink>ตรวจสอบกับ {0}</CloudAuthenticateLink>  
+  <CloudDownloadingMessage>ดาวน์โหลดไป {0}</CloudDownloadingMessage>
+  <CloudAuthWarningMessage>ถ้าการกระทำที่ไม่ได้เกิดขึ้นโปรดปิดหน้าต่างนี้และคลิกที่ลิงค์ "{0}" อีกครั้ง</CloudAuthWarningMessage>
+  <CloudAuthEmptyInvalidMessage>{0} เข้าถึง Token เป็นที่ว่างเปล่าหรือไม่ถูกต้อง โปรดตรวจสอบสิทธิ์อีกครั้ง</CloudAuthEmptyInvalidMessage>
+  <CloudDownloadEndMessageTitle>ดาวน์โหลดได้เสร็จสิ้น</CloudDownloadEndMessageTitle>
+  <CloudDownloadFilesSuccessMessage>{0} file (s) ดาวน์โหลดประสบความสำเร็จกับ "{1}" {2} โฟลเดอร์</CloudDownloadFilesSuccessMessage>
+  <CloudNotDownloadedFilesMessage>{0} file (s) ไม่ได้ดาวน์โหลด:</CloudNotDownloadedFilesMessage>
+  <CloudFoldersCreatedSuccessMessage>{0} โฟลเดอร์ (s) ประสบความสำเร็จในการสร้าง "{1}" {2} โฟลเดอร์</CloudFoldersCreatedSuccessMessage>
+  <CloudNotFoldersCreatedMessage>{0} โฟลเดอร์ (s) ไม่ได้สร้าง:</CloudNotFoldersCreatedMessage>
+  <CloudFilesFoldersSuccessMessage>{0} ไฟล์ (s), โฟลเดอร์ {1} (s) ดาวน์โหลดประสบความสำเร็จกับ "{2}" โฟลเดอร์ {3}</CloudFilesFoldersSuccessMessage>
+  <CloudNotFilesFoldersDownloadedMessage>{0} ไฟล์ (s), โฟลเดอร์ (s) {1} ไม่ได้ดาวน์โหลด:</CloudNotFilesFoldersDownloadedMessage>
+  <CloudLinkText>ไปที่ {0}</CloudLinkText>
+  <CloudLinkDescription>ไปที่ {0} หน้า</CloudLinkDescription>
+  <CloudRootFolderName>&lt;b&gt; {0} โฟลเดอร์ราก &lt;/b&gt;</CloudRootFolderName>
+  <CloudCheckFolerMessage>กรุณาตรวจสอบเดียว {0} โฟลเดอร์เพื่อดำเนินการต่อ</CloudCheckFolerMessage>
+  <CloudSelectFolderMessage>โปรดเลือกโฟลเดอร์ {0} เพื่อดำเนินการต่อ</CloudSelectFolderMessage>
+  <CloudGetFoldersInfoProgressMessage>โหลดข้อมูล {0} โฟลเดอร์</CloudGetFoldersInfoProgressMessage>
+  <CloudGetItemsInfoProgressMessage>ข้อมูลกำลังโหลด {0} รายการ</CloudGetItemsInfoProgressMessage>
+  <CloudUploadSelectItemsMessage>กรุณาเลือก {0} รายการที่จะดำเนินการต่อไป</CloudUploadSelectItemsMessage>
+  <CloudUploadTotalFiles>ไฟล์ทั้งหมด: {0} ({1})</CloudUploadTotalFiles>
+  <CloudUploadProgressMessage>อัปโหลดจาก {0}</CloudUploadProgressMessage>
+  <CloudSignInAsDifferentUserText>ออกจากระบบจาก {0}</CloudSignInAsDifferentUserText>
+  <CloudLogoutProgressMsg>ออกจากระบบจาก {0}</CloudLogoutProgressMsg>
+  <CloudRevokeTokenMsg>เพิกถอนโทเค็น</CloudRevokeTokenMsg>
+  <CloudRefreshTokenMsg>โทเค็นเพิ่มความสดชื่น</CloudRefreshTokenMsg>
+  <CloudAuthNotCompleteMsg>รับรองความถูกต้องไม่เสร็จสมบูรณ์. &lt;br /&gt; โปรด</CloudAuthNotCompleteMsg>
+  <CloudTrustedSitesMsg> ตรวจสอบต่อไปนี้ในเว็บไซต์ "เว็บไซต์ที่เชื่อถือได้" รายการ: &lt;br /&gt; &lt;br /&gt;</CloudTrustedSitesMsg>
+  <TrustedSitesForMicrosoftEdge>หากคุณกำลังใช้ Microsoft ขอบแล้วตรวจสอบไซต์ที่เชื่อถือได้ใน Internet Explorer</TrustedSitesForMicrosoftEdge>
+  <CloudCheckAuthMsg>ตรวจสอบ {0} รับรองความถูกต้อง</CloudCheckAuthMsg>
+  <CloudLoadMsg>โหลด {0}</CloudLoadMsg>
+  <CloudFreeSpaceError>ที่มีอยู่ไม่เพียงพอในห้องพัก {2} ในการอัปโหลดไฟล์ ดี: {0} ขนาดไฟล์: {1}</CloudFreeSpaceError>
+  <CloudFreeSpaceExceeded>ที่มีอยู่ไม่เพียงพอในห้องพัก {0}</CloudFreeSpaceExceeded>
+  <CloudExceedFileSizeError>ไฟล์ที่คุณกำลังพยายามที่จะดาวน์โหลดมีขนาดไฟล์ {1} ซึ่งเป็นใหญ่กว่าขนาดสูงสุดที่อนุญาตสำหรับการดาวน์โหลด - {0}</CloudExceedFileSizeError>
+  <CloudFolderNotFound>ไดเรกทอรีไม่พบ บางทีมันอาจจะถูกลบไปแล้ว</CloudFolderNotFound>
+  <CloudFileNotFound>ไฟล์ไม่พบ บางทีมันอาจจะถูกลบไปแล้ว</CloudFileNotFound>
+  <CloudNoFoldersMessage>ไม่มีโฟลเดอร์ที่จะแสดง</CloudNoFoldersMessage>
+  <CloudLibraryNotLoadedMsg>{0} ห้องสมุดลูกค้าไม่ได้โหลด! &lt;br /&gt; กรุณาตรวจสอบการเชื่อมต่ออินเทอร์เน็ตและหรือรีเฟรชหน้า. &lt;br /&gt; นอกจากนี้</CloudLibraryNotLoadedMsg>
+  <CloudDownloadWithNewNames>ตามไฟล์ (s) ดาวน์โหลดที่มีชื่อใหม่:</CloudDownloadWithNewNames>
+
+  <!-- Google Drive Cloud keys -->
+  <CommandDownloadToGoogleDocs>ดาวน์โหลด Google ไดรฟ์</CommandDownloadToGoogleDocs>
+  <GoogleDocsSaveAs>บันทึกเป็น:</GoogleDocsSaveAs>
+  <GoogleDocsSaveAsTitle>บันทึก "{0}" เป็น ...</GoogleDocsSaveAsTitle>
+  <GoogleDocsDownloadEndWarningMessage>ถ้าคุณไม่สามารถดูเอกสารที่อัปโหลดในบัญชี Google ไดรฟ์ของคุณรอสักครู่และรีเฟรชรายการ Google ไดรฟ์</GoogleDocsDownloadEndWarningMessage>
+  <GoogleDriveUploadNoFilesMessage>ไม่มีไฟล์ใน Google ไดรฟ์สำหรับการอัปโหลด</GoogleDriveUploadNoFilesMessage>
+  <GoogleDriveMaxUploadSizeError>สำหรับชนิดเนื้อหา "{0}" ขนาดสูงสุดของการอัปโหลด {1} เกิน</GoogleDriveMaxUploadSizeError>
+  <GoogleDriveConvertMsg>ถ้ามันเป็นไปได้ในการแปลงไฟล์ในรูปแบบเอกสาร Google {0} ข้อมูลเพิ่มเติม {1}</GoogleDriveConvertMsg>
+
+  <!-- Box Cloud keys -->
+  <CommandDownloadToBox>ดาวน์โหลดไปยังกล่อง</CommandDownloadToBox>
+  <BoxDownloadWithNewNames>แฟ้มต่อไปนี้ (s) ได้รับการปรับปรุงด้วยรุ่นใหม่:</BoxDownloadWithNewNames>
+  <BoxNoViewPermission>คุณไม่ได้รับอนุญาตให้ดูไดเรกทอรีที่เลือก</BoxNoViewPermission>
+  <BoxNoDownloadPermission>คุณไม่ได้รับอนุญาตให้ดาวน์โหลด</BoxNoDownloadPermission>
+  <BoxNoUploadPermission>คุณไม่ได้รับสิทธิ์ในการอัปโหลด</BoxNoUploadPermission>
+  <BoxUnableCreateOrInfoError>ไม่สามารถสร้างหรือได้รับข้อมูล</BoxUnableCreateOrInfoError>
+  
+  <!-- Dropbox Cloud keys -->
+  <CommandDownloadToDropbox>ดาวน์โหลดไปยัง Dropbox</CommandDownloadToDropbox>
+  
+  <!-- OneDrive Cloud keys -->
+  <CommandDownloadToSkyDrive>ดาวน์โหลดไปยังวันไดรฟ์</CommandDownloadToSkyDrive>
+  <AuthenticateOAuthSkyDriveMessageShort>คุณต้องเข้าสู่เวบัญชี Microsoft ของคุณ</AuthenticateOAuthSkyDriveMessageShort>
+  <SkyDriveAuthAlsoString>ด้วย</SkyDriveAuthAlsoString>
+  <SkyDriveLoginButtonTitle>เข้าสู่ระบบ</SkyDriveLoginButtonTitle>
+  <SkyDriveRegistryMessage>ไม่ได้มี Windows Live ID ได้? {0} Sign up ... {1}</SkyDriveRegistryMessage>
+  <SkyDriveMapRootFolder>บันทึก! คุณสามารถ {0} แผนที่ {1} โฟลเดอร์วันไดรฟ์ของคุณ เส้นทางคือ</SkyDriveMapRootFolder>
+  <SkyDriveMoreInfoLink>{0} ข้อมูลเพิ่มเติมเกี่ยวกับวันไดรฟ์ (SkyDrive) {1}</SkyDriveMoreInfoLink>
+  <OneDriveMaxUploadSizeError>ขนาดที่ยอมรับ ({0}) ของไฟล์ที่อัปโหลดเกิน: {1}</OneDriveMaxUploadSizeError>
+  <!-- OneDrive for Business -->
+  <OneDriveForBusinessMapWebFolderInfo>&lt;b&gt; หมายเหตุ! &lt;/b&gt; ก่อนที่จะเปิดไฟล์ในสถานที่แห่งนี้คุณจะต้องเพิ่มเว็บไซต์ไปยังรายการเว็บไซต์ที่เชื่อถือได้ของคุณเรียกดูไปยังเว็บไซต์และเลือกตัวเลือกที่จะเข้าสู่ระบบโดยอัตโนมัติ (ในเบราว์เซอร์ IE)</OneDriveForBusinessMapWebFolderInfo>
+  
+  <UploadFromUrlLabelText>คุณสามารถระบุ URL ของไฟล์ที่เก็บไว้ในไฟล์เซิร์ฟเวอร์ทั่วโลกหรือที่ให้บริการแชร์ไฟล์เช่น {0}, {1}, {2}, {3}, {4}</UploadFromUrlLabelText>
+  <UploadFromUrlLabelTextMobile>ระบุ URL ของไฟล์</UploadFromUrlLabelTextMobile>
+
+  <LinkToFileTitle>เชื่อมโยงไปยังไฟล์ / โฟลเดอร์</LinkToFileTitle>
+  <LinkToFileWarningAnonym>ลิงค์นี้ให้การเข้าถึงที่ไม่ระบุชื่อไฟล์ ผู้ใช้ใด ๆ แม้แต่คนเดียวที่มีบัญชีในเว็บไซต์นี้ไม่สามารถดาวน์โหลดหรืออัพโหลดไฟล์ผ่านทางลิงก์สาธารณะ ลิงก์สาธารณะไปยังแฟ้มช่วยให้คุณสามารถดาวน์โหลดไฟล์ที่เลือกอย่างใดอย่างหนึ่ง {0} ข้อมูลเพิ่มเติม {1}</LinkToFileWarningAnonym>
+  <LinkToFileDownloadFileLink>การเชื่อมโยงนี้จะช่วยให้คุณสามารถดาวน์โหลดไฟล์ที่เลือก {0} จาก {1} คุณจำเป็นต้องมีบัญชีที่ถูกต้องที่จะใช้การเชื่อมโยงนี้ มันไม่ได้ให้การเข้าถึงที่ไม่ระบุชื่อไฟล์</LinkToFileDownloadFileLink>
+  <LinkToFileExpireDate>วันหมดอายุ</LinkToFileExpireDate>
+  <LinkToFileDownloadCnt>ขีด จำกัด การดาวน์โหลดนับ</LinkToFileDownloadCnt>
+  <LinkToFileDownloadType>ประเภทการเชื่อมโยง</LinkToFileDownloadType>
+  <LinkToFileGenerate>สร้างการเชื่อมโยง</LinkToFileGenerate>
+  <LinkToFilePasswordNotMatch>รหัสผ่านไม่ตรงกัน</LinkToFilePasswordNotMatch>
+  <LinkToFilePasswordRequired>รหัสผ่านสำหรับการเชื่อมโยงของประชาชนเป็นสิ่งจำเป็น</LinkToFilePasswordRequired>
+  <LinkToFileInvalidForm>พารามิเตอร์ไม่ถูกต้อง</LinkToFileInvalidForm>
+  <LinkToFileAnonymDownloadLinkHint>ลิงก์สาธารณะสำหรับ "{0}":</LinkToFileAnonymDownloadLinkHint>
+  <LinkToFileAnonymDownloadShortLinkHint>ลิงก์สาธารณะสั้นสำหรับ "{0}":</LinkToFileAnonymDownloadShortLinkHint>
+  <LinkToFileOpenFolderLink>การเชื่อมโยงนี้จะช่วยให้คุณสามารถเปิดโฟลเดอร์ที่เลือก {0} ใน {1} คุณจำเป็นต้องมีบัญชีที่ถูกต้องที่จะใช้การเชื่อมโยงนี้ มันไม่ได้ให้การเข้าถึงที่ไม่ระบุชื่อไปยังโฟลเดอร์</LinkToFileOpenFolderLink>
+  <LinkToFileOpenFileLink>ลิงก์นี้จะเปิดโฟลเดอร์ที่มีไฟล์และไฮไลท์มัน</LinkToFileOpenFileLink>
+  <LinkToFileDaysLeft>วันที่เหลือ</LinkToFileDaysLeft>
+  <LinkToFileCaptionMobile>การเชื่อมโยงประชาชน</LinkToFileCaptionMobile>
+
+  <PublicFolderLinkHint>การเชื่อมโยงไปยังโฟลเดอร์สาธารณะ "{0}":</PublicFolderLinkHint>
+  <PublicFolderShortLinkHint>ลิงก์สาธารณะสั้นไปยังโฟลเดอร์ "{0}":</PublicFolderShortLinkHint>
+  <PublicFolderLinkDownloadZipHint>ดาวน์โหลดการเชื่อมโยงสำหรับเก็บไปรษณีย์ของโฟลเดอร์ "{0}":</PublicFolderLinkDownloadZipHint>
+  <PublicFolderLinkShortDownloadZipHint>ลิงค์ดาวน์โหลดสั้นสำหรับเก็บไปรษณีย์ของโฟลเดอร์ "{0}":</PublicFolderLinkShortDownloadZipHint>
+  <PublicFolderLinkZipDownload>การบีบอัดและดาวน์โหลดโฟลเดอร์ปัจจุบัน {0} (ในไฟล์ ZIP)</PublicFolderLinkZipDownload>
+  <PublicFolderLinkOverwriteWhileUpload>เขียนทับที่มีอยู่</PublicFolderLinkOverwriteWhileUpload>
+  <PublicFolderLinkOpenFolderHint>เปิดโฟลเดอร์</PublicFolderLinkOpenFolderHint>
+  <PublicFolderDownloadDisabledNote>บันทึก! เจ้าของโฟลเดอร์นี้ได้ห้ามการดาวน์โหลดไฟล์จากโฟลเดอร์นี้</PublicFolderDownloadDisabledNote>
+  <PublicFolderLinkSendEmails>ส่งข้อมูลเกี่ยวกับกิจกรรมของผู้เข้าชมไปยังอีเมล</PublicFolderLinkSendEmails>
+  <PublicFolderAnonymAccessControl>การควบคุมการเข้าถึง</PublicFolderAnonymAccessControl>
+  <PublicFolderAnonymDownload>ดาวน์โหลดไฟล์</PublicFolderAnonymDownload>
+  <PublicFolderAnonymZipDownload>โฟลเดอร์ดาวน์โหลด (ไปรษณีย์)</PublicFolderAnonymZipDownload>
+  <PublicFolderAnonymUpload>อัปโหลด</PublicFolderAnonymUpload>
+  <PublicFolderAnonymViewContent>ดูรายชื่อไฟล์</PublicFolderAnonymViewContent>
+  <PublicFolderNoteForUsers>หมายเหตุสำหรับผู้ใช้</PublicFolderNoteForUsers>
+  <PublicFolderACLNotSet>การควบคุมการเข้าถึงไม่ได้ตั้งค่า</PublicFolderACLNotSet>
+  <PublicFolderWarningAnonym>ลิงค์นี้ให้การเข้าถึงที่ไม่ระบุชื่อไปยังโฟลเดอร์ ผู้ใช้ใด ๆ แม้แต่คนเดียวที่มีบัญชีในเว็บไซต์นี้ไม่สามารถดาวน์โหลดหรืออัพโหลดไฟล์ผ่านทางลิงก์สาธารณะ ลิงก์สาธารณะไปยังโฟลเดอร์ที่ช่วยให้คุณดาวน์โหลดทั้งโฟลเดอร์ทั้งหมด (บรรจุในคลัง) และแฟ้มบุคคล {0} ข้อมูลเพิ่มเติม {1}</PublicFolderWarningAnonym>
+  <PublicLinksShowForAllItems>แสดงทั้งหมด</PublicLinksShowForAllItems>
+  <PublicLinksShowForSelected>แสดงเลือกสำหรับ</PublicLinksShowForSelected>
+  
+  <MultipleFileInputMessage>บันทึก! เบราว์เซอร์ของคุณสนับสนุนการเลือกหลายไฟล์ในครั้งเดียว</MultipleFileInputMessage>
+  <UploadZipUnzipNote>คุณสามารถอัปโหลดไฟล์ ZIP ที่มีหลายไฟล์และโฟลเดอร์แล้วดึงมันใช้ "{0}" คำสั่งในเมนูบริบท</UploadZipUnzipNote>
+  <DnDFileUploadingStatusCode>รหัสสถานะ</DnDFileUploadingStatusCode>
+  <DnDFileUploadingPathOrNameEmpty>เส้นทางและหรือชื่อไฟล์ไม่ได้ระบุไว้</DnDFileUploadingPathOrNameEmpty>
+  <DnDFileUploadingRemoveFromList>ลบออกจากรายการ</DnDFileUploadingRemoveFromList>
+  <DndFileUploadingDontDropFoldersMsg>คุณสามารถลากและวางไฟล์ลงในตารางด้านล่าง คุณไม่สามารถวางโฟลเดอร์</DndFileUploadingDontDropFoldersMsg>
+  <DndFileUploadingAllowDropFoldersMsg>คุณสามารถลากและวางไฟล์และโฟลเดอร์ลงในตารางข้างล่างนี้</DndFileUploadingAllowDropFoldersMsg>
+  <DndFileUploadingFilesSummaryInfo>จำนวนไฟล์: {0} ({1})</DndFileUploadingFilesSummaryInfo>
+  <DropFilesHere>วางไฟล์ที่จะอัปโหลด</DropFilesHere>
+  
+  <FileGridDownloadColumn>ดาวน์โหลดไฟล์</FileGridDownloadColumn>
+  <FileAttributesField>แอตทริบิวต์</FileAttributesField>
+  <FolderCalculateSize>คำนวณ</FolderCalculateSize>
+  <FolderRecalculateSize>คำนวณ</FolderRecalculateSize>
+  <FolderContainsField>มี</FolderContainsField>
+  <FolderContainsFilesFolders>{0} ไฟล์ {1} โฟลเดอร์</FolderContainsFilesFolders>
+  <FolderCalculatingMessage>การคำนวณ</FolderCalculatingMessage>
+
+  <SearchTitle>การค้นหาไฟล์ รูปแบบที่มีอยู่: {0}</SearchTitle>
+  <SearchType>ค้นหา</SearchType>
+  <SearchOnlyFiles>เฉพาะไฟล์</SearchOnlyFiles>
+  <SearchOnlyFolders>เฉพาะโฟลเดอร์</SearchOnlyFolders>
+  <SearchBothFilesFolders>ทั้งไฟล์และโฟลเดอร์</SearchBothFilesFolders>
+  <SearchFileDetails>รายละเอียดไฟล์</SearchFileDetails>
+  <SearchFileContent>เนื้อหาของแฟ้ม</SearchFileContent>
+  <SearchByDateFrom>จาก</SearchByDateFrom>
+  <SearchByDateTo>ไปยัง</SearchByDateTo>
+  <SearchLocation>ที่ตั้ง</SearchLocation>
+  <SearchLocationEntire>ทุกแห่ง</SearchLocationEntire>
+  <SearchLocationCurrent>ปัจจุบัน</SearchLocationCurrent>
+  <SearchSearch>ค้นหา</SearchSearch>
+  <SearchNothingFound>ไม่มีอะไรที่พบ! โปรดปรับแต่งเกณฑ์การค้นหาของคุณ</SearchNothingFound>
+  <SearchErrorCaption>ข้อผิดพลาดการค้นหา</SearchErrorCaption>
+  <SearchResultsNotComplete>ความสนใจ! ผลการค้นหาอาจไม่สมบูรณ์เป็นโฟลเดอร์บางส่วนยังไม่จัดทำดัชนียัง</SearchResultsNotComplete>
+  <SearchRepeatOrContactAdmin>โปรดลองค้นหาอีกครั้งในภายหลังหรือติดต่อผู้ดูแลระบบ</SearchRepeatOrContactAdmin>
+  <SearchLinkToManual>อ้างถึง {0} ความช่วยเหลือการค้นหาของ Windows {1}</SearchLinkToManual>
+  <QuerySearchByNameText>ค้นหาตามชื่อ</QuerySearchByNameText>
+  <QuerySearchByConentText>โดยเนื้อหา</QuerySearchByConentText>
+  <SearchByDetailsWarning>ความสนใจ! คุณได้ระบุไว้ในการตั้งค่าที่คุณต้องการที่จะใช้การค้นหาโดยคุณสมบัติ ในกรณีนี้การค้นหาจะดำเนินการโดยใช้วิธีการมาตรฐานแทนการใช้บริการการทำดัชนีของ Windows</SearchByDetailsWarning>
+  <SearchInSpecialFolderWarning>ความสนใจ! เพื่อค้นหาโฟลเดอร์ปัจจุบันไม่ได้ใช้ หากคุณยังคงค้นหาจะดำเนินการในไดเรกทอรีทั้งหมด</SearchInSpecialFolderWarning>
+
+  <UploadTitle>อัพโหลดหลายไฟล์</UploadTitle>
+  <UploadSimpleTab>มาตรฐาน</UploadSimpleTab>
+  <UploadSimpleReset>รีเซ็ต</UploadSimpleReset>
+  <UploadSimpleUpload>อัปโหลด</UploadSimpleUpload>
+  <UploadSimpleUploadFolderLabelCollapsed>อัปโหลดโฟลเดอร์</UploadSimpleUploadFolderLabelCollapsed>
+  <UploadSimpleUploadFolderButtonText>เลือกโฟลเดอร์</UploadSimpleUploadFolderButtonText>
+  <UploadJavaTab>ชวา</UploadJavaTab>
+  <UploadJavaIgnorePaths>วางไฟล์ทั้งหมดในโฟลเดอร์หนึ่ง (ไม่สนใจเส้นทาง)</UploadJavaIgnorePaths>
+  <UploadFlashTab>แฟลช</UploadFlashTab>
+  <UploadSilverlightTab>Silverlight</UploadSilverlightTab>
+  <UploadPartially>บางไฟล์ไม่สามารถอัปโหลด</UploadPartially>
+  <UploadFolderNotSelectedTitle>โฟลเดอร์ไม่ได้เลือก</UploadFolderNotSelectedTitle>
+  <UploadFolderNotSelected>กรุณาเลือกโฟลเดอร์ที่ไฟล์จะถูกอัปโหลดไปยัง</UploadFolderNotSelected>
+  <UploadInProgress>การอัปโหลดไฟล์ของคุณ</UploadInProgress>
+  <UploadInvalidFormFields>เขตข้อมูลฟอร์มอาจจะไม่ได้ส่งมาพร้อมกับค่าที่ไม่ถูกต้อง</UploadInvalidFormFields>
+  <UploadAjaxFailed>อาแจ็กซ์ล้มเหลวในการสื่อสาร</UploadAjaxFailed>
+  <UploadFilesAlreadyExists>file (s) มีอยู่แล้ว</UploadFilesAlreadyExists>
+  <UploadOverwriteFiles>ไฟล์ที่มีอยู่จะถูกเขียนทับ คุณต้องการดำเนินการต่อ?</UploadOverwriteFiles>
+  <UploadOverwriteOrRenameFiles>มีหนึ่งหรือมากกว่าหนึ่งไฟล์ที่มีชื่อตรงกับในไดเรกทอรีที่คุณระบุ คุณต้องการที่จะเขียนทับไฟล์ที่มีอยู่หรือไม่ คลิก "{0}" ถ้าคุณต้องการจะเขียนทับไฟล์ที่มีอยู่แล้วหรือ "{1}" - ถ้าคุณต้องการที่จะบันทึกไฟล์ทั้งหมด (พวกเขาจะถูกเปลี่ยนชื่อ)</UploadOverwriteOrRenameFiles>
+  <UploadNotModifyExistingFiles>มีหนึ่งหรือมากกว่าหนึ่งไฟล์ที่มีชื่อที่ตรงกันในไดเรกทอรีที่คุณระบุ ไฟล์ที่ไม่สามารถอัปโหลด โปรดลบไฟล์ที่มีอยู่จากการอัปโหลดรายการหรือเปลี่ยนชื่อพวกเขา</UploadNotModifyExistingFiles>
+  <UploadRenamedExistingFiles>มีหนึ่งหรือมากกว่าหนึ่งไฟล์ที่มีชื่อที่ตรงกันในไดเรกทอรีที่คุณระบุ ไฟล์ที่มีชื่อตรงกับจะเปลี่ยนชื่อเป็น</UploadRenamedExistingFiles>
+  <UploadNotAllowedTitle>อัปโหลดไม่ได้รับอนุญาต</UploadNotAllowedTitle>
+  <UploadNotAllowedPrompt>คุณไม่สามารถอัปโหลดไฟล์ไปยังโฟลเดอร์นี้</UploadNotAllowedPrompt>
+
+  <UploadMobileIOSVideo>อัปโหลดวิดีโอ เปิดใช้งานตัวเลือกนี้หากคุณต้องการอัปโหลดไฟล์วิดีโอ</UploadMobileIOSVideo>
+  <UploadMobileAurigmaLink>โปรดทราบว่าคุณควรจะมี Aurigma Up! ติดตั้งบนอุปกรณ์ของคุณในการอัปโหลดไฟล์ แตะที่นี่เพื่อติดตั้ง Aurigma Up! การประยุกต์ใช้สำหรับการอัปโหลดภาพและวิดีโอ</UploadMobileAurigmaLink>
+  <UploadMobileAurigmaReady>หลังจาก Aurigma Up! มีการติดตั้งหรือถ้าคุณได้ติดตั้งไว้ให้กดปุ่ม "อัปโหลด" ด้านล่าง</UploadMobileAurigmaReady>
+  <UploadMobileAurigmaFilePrefix>คำนำหน้าสำหรับไฟล์ที่อัปโหลด</UploadMobileAurigmaFilePrefix>
+  <UploadMobileResult>อัปโหลดผล:</UploadMobileResult>
+  <UploadMobileUrlPlaceHolder>ป้อน URL ที่นี่</UploadMobileUrlPlaceHolder>
+  <UploadMobileFileNamePlaceHolder>ป้อนชื่อไฟล์ใหม่ที่นี่</UploadMobileFileNamePlaceHolder>
+  <UploadBrowseLabel>เรียกดู ...</UploadBrowseLabel>
+  
+  <MobileToolTipsCaption>คุณรู้หรือไม่ว่า ...</MobileToolTipsCaption>
+  <MobileToolTipsNextButton>เคล็ดลับถัดไป</MobileToolTipsNextButton>
+  <MobileToolTipsIKnowButton>ฉันรู้ว่ามัน</MobileToolTipsIKnowButton>
+  <MobileToolTipsHideButton>ไม่ต้องแสดง</MobileToolTipsHideButton>
+  <MobileToolTipsMultiSelection>เพื่อเลือกไฟล์หรือโฟลเดอร์หลาย ๆ คุณควรเปิดใช้งานโหมดหลายตัวเลือกโดยการแตะที่ {0} ปุ่ม &lt;b&gt; &lt;/b&gt; แตะมันอีกครั้งเพื่อออกจากโหมดหลายตัวเลือก</MobileToolTipsMultiSelection>
+  <MobileToolTipsSlideToRemove>คุณสามารถเลื่อนจากขวาไปซ้ายใด ๆ ของรายการที่จะลบออก ปุ่มแบบอินไลน์ลบจะปรากฏอยู่ด้านบนของรายการที่</MobileToolTipsSlideToRemove>
+  <MobileToolTipsTapAndHoldForMenu>แตะค้างไว้ที่ใด ๆ ของรายการที่จะแสดงเมนูบริบท เมนูบริบทเดียวกันแสดงโดยแตะที่ปุ่ม 'เปิดเผย'</MobileToolTipsTapAndHoldForMenu>
+  <MobileToolTipsDoubleTapForPreview>แตะเพียงครั้งเดียวในไฟล์เพื่อเลือกแตะสองครั้งเพื่อดูตัวอย่างหรือดาวน์โหลดได้ แตะเพียงครั้งเดียวในโฟลเดอร์ที่จะเปิดมัน</MobileToolTipsDoubleTapForPreview>
+  <MobileToolTipsPullDownToRefresh>ดึงลงรายชื่อเพื่อโหลดเนื้อหาของมัน</MobileToolTipsPullDownToRefresh>
+  <MobileToolTipsPinchToScale>คุณสามารถใช้ 'หยิก' ท่าทางเพื่อซูมเข้าและซูมออกภาพ</MobileToolTipsPinchToScale>
+  <MobileToolTipsTapToHideBars>แตะที่ใดก็ได้บนแผงภาพเพื่อสลับแถบเครื่องมือ</MobileToolTipsTapToHideBars>
+  <MobileToolTipsSlideLeftRightToNext>สลับกับภาพสไลด์ท่าทาง</MobileToolTipsSlideLeftRightToNext>
+
+  <DownloadToCloudMobileTip>แตะเพียงครั้งเดียวเพื่อเลือกโฟลเดอร์แตะสองครั้งเพื่อเปิด</DownloadToCloudMobileTip>
+  
+  <UploadTotalMaxSizeMessage>บันทึก! ขนาดสูงสุดของไฟล์ที่อัปโหลดทั้งหมดไม่ควรเกิน {0}</UploadTotalMaxSizeMessage>
+  <UploadOneFileMaxSizeMessage>บันทึก! ขนาดสูงสุดของไฟล์ที่อัปโหลดแต่ละไม่ควรเกิน {0}</UploadOneFileMaxSizeMessage>
+  <UploadUnlimitedSizeMessage>บันทึก! ขนาดของไฟล์ที่อัปโหลดได้ไม่ จำกัด</UploadUnlimitedSizeMessage>
+  <SimpleUploadSetFileNameNote>โน้ต 2! หลังจากที่แฟ้มถูกเลือกคุณสามารถปรับเปลี่ยนชื่อที่ไฟล์จะมีหลังจากอัป</SimpleUploadSetFileNameNote>
+
+  <AnonymousUploadTitle>อัพโหลดไฟล์ไปยังโฟลเดอร์นี้</AnonymousUploadTitle>
+  <AnonymousUploadDescription>คุณสามารถอัปโหลดไฟล์ไปยังโฟลเดอร์นี้ คลิกที่ปุ่ม "Browse" ด้านล่างและเลือกไฟล์</AnonymousUploadDescription>
+  <AnonymousUploadOverwriteHint>หากไฟล์ที่อัปโหลดอยู่แล้วว่ามันจะถูกแทนที่</AnonymousUploadOverwriteHint>
+  <AnonymousUploadShowUploadHint>โชว์ฟอร์มได้อัปโหลด</AnonymousUploadShowUploadHint>
+  <AnonymousUploadHideUploadHint>แบบฟอร์มอัปโหลดซ่อน</AnonymousUploadHideUploadHint>
+  <AnonymousUploadNewFolderNameHint>ในสาขาดังต่อไปนี้คุณสามารถระบุชื่อไดเรกทอรีย่อย (โฟลเดอร์จะถูกสร้างขึ้นถ้ามันไม่ได้อยู่) ซึ่งไฟล์จะถูกอัปโหลด:</AnonymousUploadNewFolderNameHint>
+  <AnonymousUploadCompleteTitle>อัปโหลดไปยังโฟลเดอร์ {0} เป็นที่เรียบร้อยแล้ว</AnonymousUploadCompleteTitle>
+  <AnonymousUploadExistsFilesMessage>แฟ้มต่อไปนี้ (s) ยังไม่ได้รับการอัปโหลดไฟล์เพราะ (s) ที่มีชื่อเดียวกัน (s) มีอยู่แล้ว: {0}</AnonymousUploadExistsFilesMessage>
+  <AnonymousUploadOwnersNote>หมายเหตุจากเจ้าของโฟลเดอร์</AnonymousUploadOwnersNote>
+  <AnonymousDownloadPageTitle>ดาวน์โหลดไฟล์</AnonymousDownloadPageTitle>
+  <AnonymousDownloadFileHint>ดาวน์โหลดไฟล์</AnonymousDownloadFileHint>
+  <AnonymousUploadPageTitle>อัปโหลดไปยังโฟลเดอร์</AnonymousUploadPageTitle>
+  <AnonymousPublicFolderPageTitle>โฟลเดอร์สาธารณะ</AnonymousPublicFolderPageTitle>
+  <AnonymousLoginAccessUserFailure>คุณเข้าสู่ระบบในบัญชีที่ไม่ได้มีการเข้าถึงทรัพยากร กรุณากรอกข้อมูลประจำตัวอื่น ๆ สำหรับการเข้าถึงของคุณ หากคุณไม่ได้รู้ว่าพวกเขาโปรดติดต่อเจ้าของลิงก์สาธารณะหรือผู้ดูแลระบบของคุณ</AnonymousLoginAccessUserFailure>
+  <ProgressGettingAnonymLink>สร้างลิงก์สาธารณะ</ProgressGettingAnonymLink>
+  <ProgressGettingAnonymLinks>การเชื่อมโยงที่ไม่ระบุชื่อ</ProgressGettingAnonymLinks>
+  <ProgressGettingBoxViewLink>ได้รับกล่องดูการเชื่อมโยง</ProgressGettingBoxViewLink>
+  <AutodeskScriptNotIncludedMessage>ไม่สามารถโหลดสคริปต์ Autodesk Viewer</AutodeskScriptNotIncludedMessage>
+  <ProgressUninitializeAutodeskViewer>ปิด Autodesk Viewer</ProgressUninitializeAutodeskViewer>
+  <ProgressGettingAutodeskViewLink>ได้รับ Autodesk ดูข้อมูล</ProgressGettingAutodeskViewLink>
+  <AnonymousChangeLanguageHint>เลือกภาษา</AnonymousChangeLanguageHint>
+  <AnonymousUpLinkHint>ย้อนกลับไปยังโฟลเดอร์หลัก</AnonymousUpLinkHint>
+  <AnonymousPasswordDescription>โฟลเดอร์มีรหัสผ่านป้องกัน</AnonymousPasswordDescription>
+  <AnonymousPasswordIncorrectMessage>รหัสผ่านไม่ถูกต้อง</AnonymousPasswordIncorrectMessage>
+  <AnonymousErrorTitle>ข้อผิดพลาดการเชื่อมโยงประชาชน</AnonymousErrorTitle>
+  <AnonymousErrorNotFound>ลิงก์สาธารณะ "{0}" ไม่พบ!</AnonymousErrorNotFound>
+  <AnonymousErrorAccessDenied>คุณไม่ได้รับอนุญาตให้ใช้ลิงก์สาธารณะ "{0}"</AnonymousErrorAccessDenied>
+  <AnonymousErrorFileNotFound>การเชื่อมโยงของประชาชน "{0}" หมายถึงไฟล์ที่มีอยู่ไม่ใช่หรือโฟลเดอร์หรือ NTFS อ่านเข้าถึงถูกปฏิเสธ</AnonymousErrorFileNotFound>
+  <AnonymousErrorUnknownLinkType>การเชื่อมโยงของประชาชน "{0}" ไม่พบ</AnonymousErrorUnknownLinkType>
+  <AnonymousSendEmailSubject>กิจกรรมผู้เข้าชมโฟลเดอร์สาธารณะ</AnonymousSendEmailSubject>
+  <AnonymousSendEmailUploadBody>แฟ้มต่อไปนี้ถูกอัปโหลดไปยังโฟลเดอร์สาธารณะของคุณ {0}: {1}</AnonymousSendEmailUploadBody>
+  <AnonymousSendEmailDownloadBody>แฟ้ม {0} ถูกดาวน์โหลดจากโฟลเดอร์สาธารณะของคุณ {1}</AnonymousSendEmailDownloadBody>
+  <AnonymousSendEmailZipDownloadBody>เนื้อหาทั้งหมดของโฟลเดอร์สาธารณะ {0} ถูกดาวน์โหลดมาในไฟล์ ZIP</AnonymousSendEmailZipDownloadBody>
+  <AnonymousViewLinksButton>ดูการเชื่อมโยง</AnonymousViewLinksButton>
+  <AnonymousViewLinksHint>เพื่อดูการเชื่อมโยงสาธารณะที่มีอยู่</AnonymousViewLinksHint>
+  <AnonymousViewLinksWindowTitle>การเชื่อมโยงประชาชน</AnonymousViewLinksWindowTitle>
+  <AnonymousViewLinksDateCreatedColumn>วันที่สร้าง</AnonymousViewLinksDateCreatedColumn>
+  <AnonymousViewLinksDateExpiredColumn>วันหมดอายุ</AnonymousViewLinksDateExpiredColumn>
+  <AnonymousViewLinksPermissionColumn>การอนุญาต</AnonymousViewLinksPermissionColumn>
+  <AnonymousViewLinksDownloadedColumn>จำนวนการดาวน์โหลดซ้าย</AnonymousViewLinksDownloadedColumn>
+  <ProgressDeletingAnonymousLink>การลบลิงก์สาธารณะ</ProgressDeletingAnonymousLink>
+  <ProgressSavingAnonymousLink>บันทึกลิงก์สาธารณะ</ProgressSavingAnonymousLink>
+  <AnonymousEditLinkWindowTitle>แก้ไขลิงก์สาธารณะสำหรับ "{0}"</AnonymousEditLinkWindowTitle>
+  <AnonymousEditLinkShowUrl>แสดงการเชื่อมโยง</AnonymousEditLinkShowUrl>
+  <AnonymousEditLinkNotFound>การเชื่อมโยงประชาชนไม่พบหรือระยะเวลาของความถูกต้องได้หมดอายุแล้ว</AnonymousEditLinkNotFound>
+
+  <AnonymousLinkSendViaButton>ส่งผ่านทาง ...</AnonymousLinkSendViaButton>
+  <AnonymousLinkSendViaEmailItem>อีเมล์ ...</AnonymousLinkSendViaEmailItem>
+  <AnonymousLinkSendButton>ส่งผ่านทางอีเมล์ ...</AnonymousLinkSendButton>
+  <AnonymousLinkSendSubject>จัดการไฟล์เว็บลิงก์สาธารณะ</AnonymousLinkSendSubject>
+
+  <AnonymousLinkAdvOptTitle>พารามิเตอร์เพิ่มเติม</AnonymousLinkAdvOptTitle>
+  <AnonymousLinkViewTypeButton>มุมมองการเชื่อมโยง</AnonymousLinkViewTypeButton>
+  <AnonymousLinkViewTypeDefault>เต็ม</AnonymousLinkViewTypeDefault>
+  <AnonymousLinkViewTypeShort>สั้น</AnonymousLinkViewTypeShort>
+
+  <AnonymousLinkShowCommentsLabel>แสดงรายละเอียดของป้ายและแสดงความคิดเห็น</AnonymousLinkShowCommentsLabel>
+  <AnonymousLinkShowCommentsShort>แสดงความคิดเห็น</AnonymousLinkShowCommentsShort>
+
+  <QRCodeButton>คิวอาร์โค้ด</QRCodeButton>
+
+  <AnonymousLinkLimitedAccessTitle>การ จำกัด การเข้าถึง</AnonymousLinkLimitedAccessTitle>
+  <AnonymousLinkLimitAccessCheckBox>จำกัด การเข้าถึงเฉพาะกับผู้ใช้ที่ระบุรับรองความถูกต้อง</AnonymousLinkLimitAccessCheckBox>
+  <AnonymousLinkLimitAccessTextArea>พิมพ์ชื่อผู้ใช้หรืออีเมล (คั่นด้วยเครื่องหมายจุลภาค)</AnonymousLinkLimitAccessTextArea>
+  <AnonymousLinkLimitAccessSendCheckBox>ส่งการแจ้งเตือนไปยังผู้ใช้ระบุ</AnonymousLinkLimitAccessSendCheckBox>
+  <AnonymousLinkLimitAccessPersMsgLabel>ข้อความส่วนบุคคล (ไม่จำเป็น)</AnonymousLinkLimitAccessPersMsgLabel>
+  <AnonymousLinkLimitAccessPassAndUsersMsg>ท่านได้ระบุรหัสผ่านและผู้ใช้ของคุณในเวลาเดียวกันในการเข้าถึงการเชื่อมโยง โปรดระบุบางสิ่งบางอย่างหนึ่ง</AnonymousLinkLimitAccessPassAndUsersMsg>
+  <AnonymousLinkLimitAccessUsersNotFound>ผู้ใช้:
+    {0}
+    ไม่ได้มีอยู่</AnonymousLinkLimitAccessUsersNotFound>
+  <AnonymousLinkLimitAccessEmailsNotFound>อีเมล:
+    {0}
+    ไม่ได้มีอยู่</AnonymousLinkLimitAccessEmailsNotFound>
+  <AnonymousLinkLimitAccessUsersEmailsNotFound>ผู้ใช้:
+    {0}
+    และอีเมล:
+    {1}
+    ไม่ได้มีอยู่</AnonymousLinkLimitAccessUsersEmailsNotFound>
+
+  <AnonymousLinkUnableToCreate>ไม่สามารถที่จะสร้างการเชื่อมโยงที่ไม่ระบุชื่อ</AnonymousLinkUnableToCreate>
+  <AnonymousLinkShortUrlLabel>โปรดคลิกที่ไอคอนรีเฟรช (ที่ด้านล่างขวา) ที่จะได้รับการเชื่อมโยงสั้น</AnonymousLinkShortUrlLabel>
+  <AnonymousLinkShortUrlUpdate>ได้รับหรือการปรับปรุงการเชื่อมโยงสั้น</AnonymousLinkShortUrlUpdate>
+  <AnonymousLinkLongUrlNotSpecified>URL แบบยาวไม่ได้ระบุ</AnonymousLinkLongUrlNotSpecified>
+
+  <ClientFileOrDirectoryAlreadyExists>แฟ้มหรือไดเรกทอรีที่มีชื่อนี้อยู่แล้ว</ClientFileOrDirectoryAlreadyExists>
+  <ClientPermissionsAllowTypes>สิทธิ์ปัจจุบันอนุญาตให้มีการดำเนินการนี้เท่านั้นที่มีไฟล์ประเภทดังต่อไปนี้ {0}</ClientPermissionsAllowTypes>
+  <ClientPermissionsDenyTypes>สิทธิ์ปัจจุบันห้ามการดำเนินงานนี้กับไฟล์ประเภทดังต่อไปนี้ {0}</ClientPermissionsDenyTypes>
+  <OfficeApplicationNotFoundAlert>ไม่พบโปรแกรมประยุกต์ Office เปิดไฟล์ด้วยตนเองโดยใช้การเชื่อมโยงในกล่องข้อความ</OfficeApplicationNotFoundAlert>
+  <OfficeAnonymousEditPublicLinkError>ไม่สามารถที่จะสร้างการเชื่อมโยงของประชาชนที่จะเปิดเอกสาร Office โดยไม่ระบุชื่อ</OfficeAnonymousEditPublicLinkError>
+
+  <GoogleOWAViewLinkMessage>เพื่อดูเอกสารคลิกลิงค์ด้านล่าง:</GoogleOWAViewLinkMessage>
+  <ZohoEditLinkMessage>หากต้องการแก้ไขการเชื่อมโยงเอกสารคลิกด้านล่าง:</ZohoEditLinkMessage>
+  <PixlrEditLinkMessage>หากต้องการแก้ไขการเชื่อมโยงภาพคลิกด้านล่าง:</PixlrEditLinkMessage>
+  <PixlrNewImageCreateTitle>สร้างภาพใหม่ด้วย Pixlr</PixlrNewImageCreateTitle>
+  <PixlrNewImageLinkMessage>เพื่อสร้างภาพใหม่คลิกลิงค์ด้านล่าง:</PixlrNewImageLinkMessage>
+
+  <DownloadTitle>ดาวน์โหลดไฟล์หลายไฟล์</DownloadTitle>
+  <DownloadSimpleTab>มาตรฐาน</DownloadSimpleTab>
+  <DownloadJavaTab>ชวา</DownloadJavaTab>
+  <DownloadIEPrevent>Internet Explorer จะช่วยป้องกันการดาวน์โหลดอัตโนมัติ</DownloadIEPrevent>
+  <DownloadIEClickHere>คลิกที่นี่เพื่อดาวน์โหลด</DownloadIEClickHere>
+  <DownloadIEArchiveReady>เอกสารเก่า "{0}" กับไฟล์ที่เลือกถูกสร้างขึ้นและพร้อมสำหรับการดาวน์โหลด</DownloadIEArchiveReady>
+  <DownloadIECaption>ดาวน์โหลดพร้อม</DownloadIECaption>
+
+  <SettingsTitle>การตั้งค่า</SettingsTitle>
+  <SettingsLanguage>ภาษา</SettingsLanguage>
+  <SettingsLogOutRequired>การเปลี่ยนแปลงใหม่จะถูกนำมาใช้หลังจากออกจากระบบหรือรีสตาร์ทเบราว์เซอร์!</SettingsLogOutRequired>
+  <ThemeTitle>เปลี่ยนธีม</ThemeTitle>
+  <SettingsTheme>เลือกรูปแบบ</SettingsTheme>
+  <ThemeDefaultTitle>ธีมเริ่มต้น</ThemeDefaultTitle>
+  <ThemeGrayTitle>ธีมสีเทา</ThemeGrayTitle>
+  <ThemeAccessTitle>การเข้าถึงธีม</ThemeAccessTitle>
+
+  <ChangeUserPasswordTitle>เปลี่ยนรหัสผ่านผู้ใช้</ChangeUserPasswordTitle>
+  <ChangeUserPasswordOldPassword>รหัสผ่านเก่า</ChangeUserPasswordOldPassword>
+  <ChangeUserPasswordNewPassword>รหัสผ่านใหม่</ChangeUserPasswordNewPassword>
+  <ChangeUserPasswordRepeatNewPassword>รหัสผ่านใหม่ซ้ำ</ChangeUserPasswordRepeatNewPassword>
+  <ChangeUserPasswordPasswordsNotMatch>รหัสผ่านไม่ตรงกัน.</ChangeUserPasswordPasswordsNotMatch>
+  <ChangeUserPasswordSuccessMessage>รหัสผ่านที่มีการเปลี่ยนแปลง</ChangeUserPasswordSuccessMessage>
+  <ChangeUserPasswordInvalidMessage>รหัสผ่านไม่ถูกต้อง.</ChangeUserPasswordInvalidMessage>
+
+  <ChangeUserEmailTitle>เปลี่ยนผู้ใช้ E-mail</ChangeUserEmailTitle>
+  <ChangeUserEmailEmail>E-mail</ChangeUserEmailEmail>
+  <ChangeUserEmailSuccessMessage>E-mail ได้รับการเปลี่ยนแปลง</ChangeUserEmailSuccessMessage>
+
+  <UserHelpTitle>ช่วยให้ผู้ใช้</UserHelpTitle>
+
+  <LicenseTitle>ข้อมูลใบอนุญาต</LicenseTitle>
+  <LicenseTrial>ที่ไม่ได้จดทะเบียนรุ่นที่ 30 วันการประเมินผล</LicenseTrial>
+  <LicensePrompt>รุ่นที่ได้รับอนุญาต {0} ผู้ใช้นับ: {1} {0} วันที่ซื้อ: {2} {0}</LicensePrompt>
+  <LicenseFreeUpgradeMessage>คุณยังมี {0} วันสำหรับการอัพเกรดฟรีและการสนับสนุน</LicenseFreeUpgradeMessage>
+  <LicenseCheckMessage>มากขึ้นกว่าปีที่ผ่านมาจากวันที่ซื้อ ที่จะใช้รุ่นนี้คุณควรจะต่ออายุการเป็นสมาชิกหรือปรับลดของคุณเป็นรุ่นเก่า คุณสามารถตรวจสอบใบอนุญาตของคุณและหารุ่นที่มีอยู่ใน &lt;a href='{0}' target='_blank'&gt; หน้าการตรวจสอบใบอนุญาต &lt;/a&gt;</LicenseCheckMessage>
+  
+  <ViewPopupBlocked>หน้าต่างใหม่ได้ถูกบล็อกโดยป๊</ViewPopupBlocked>
+  
+  <LoginTwoFactorTitle>การตรวจสอบแบบสองขั้นตอน</LoginTwoFactorTitle>
+  <LoginTitle>เข้าสู่ระบบ</LoginTitle>
+  <LoginRemember>จำฉันไว้ในครั้งต่อไป</LoginRemember>
+  <LoginUISelect>อินเตอร์เฟซ</LoginUISelect>
+  <LoginUIStandard>มาตรฐาน</LoginUIStandard>
+  <LoginUITouch>โทรศัพท์มือถือ</LoginUITouch>
+  <LoginLanguage>ภาษา</LoginLanguage>
+  <LoginLogin>เข้าสู่ระบบ</LoginLogin>
+  <LoginFailure>พยายามเข้าสู่ระบบของคุณไม่ประสบความสำเร็จ</LoginFailure>
+  <LoginBlocked>บัญชีถูกปิดกั้น รอ {0} นาทีเพื่อลองอีกครั้ง</LoginBlocked>
+  <LoginNotActivated>บัญชีของคุณไม่ได้เปิดใช้</LoginNotActivated>
+  <LoginResendActivation>หากข้อความที่มีรหัสเปิดใช้งานจะไม่ได้รับเป็นเวลานานคลิกที่ {0} เชื่อมโยงไปส่งรหัสเปิดใช้งาน</LoginResendActivation>
+  <LoginResendActivationLink>ส่งรหัสยืนยันการใช้งาน</LoginResendActivationLink>
+  <LoginResendActivationCode>คลิกที่ {0} เชื่อมโยงไปส่งรหัสเปิดใช้งาน</LoginResendActivationCode>
+  
+  <ActivateAccountOk>เปิดใช้งานบัญชีเรียบร้อยแล้ว!</ActivateAccountOk>
+  <ActivateAccountResultLabel>ผลการเปิดใช้งาน</ActivateAccountResultLabel>
+  <ActivateAccountErrorOnlyFormsAuth>เปิดใช้งานบัญชีสามารถนำมาใช้เฉพาะกับการตรวจสอบรูปแบบ</ActivateAccountErrorOnlyFormsAuth>
+  <ActivateAccountErrorNotRequired>เปิดใช้งานบัญชีถูกปิดใช้งานในการตั้งค่าโปรแกรม บัญชีจะทำงานโดยอัตโนมัติหลังจากการลงทะเบียน</ActivateAccountErrorNotRequired>
+  <ActivateAccountErrorAlreadyActivated>บัญชีที่เปิดใช้งานอยู่แล้ว</ActivateAccountErrorAlreadyActivated>
+  <ActivateAccountErrorInvalidCode>รหัสเปิดใช้งานไม่ถูกต้อง</ActivateAccountErrorInvalidCode>
+  <ActivateAccountErrorAccountNotFound>ไม่พบบัญชี</ActivateAccountErrorAccountNotFound>
+  <ActivateAccountErrorLinkBroken>การเชื่อมโยงการเปิดใช้งานเสีย</ActivateAccountErrorLinkBroken>
+  <ActivateAccountReturnToLogin>กลับไปยังหน้าเข้าสู่ระบบ</ActivateAccountReturnToLogin>
+  
+  <LoginRender>ทำให้</LoginRender>
+  
+  <LogoutTitle>เว็บออกจากระบบการจัดการไฟล์</LogoutTitle>
+  <LogoutSessionEnded>เซสชันปัจจุบันสิ้นสุดลง</LogoutSessionEnded>
+  <LogoutCloseWindow>ปิดหน้าต่าง</LogoutCloseWindow>
+  <LogoutEnterAgain>เข้าสู่ระบบอีกครั้ง</LogoutEnterAgain>
+  <LogoutClosingBrowserRequired>ความสนใจ! ทุกคนสามารถเข้าสู่ระบบภายใต้บัญชีของคุณ! หากคุณกำลังใช้คอมพิวเตอร์ที่ใช้ร่วมกันแล้วคุณควรปิดหน้าต่างเบราว์เซอร์ของคุณ (ไม่ใช่แค่แท็บ) เพื่อยกเลิกการรับรองความถูกต้องในเบราว์เซอร์ของคุณ! เบราว์เซอร์ Firefox คุณสามารถล้างการตรวจสอบที่เมนู Tools-&gt; ล้างประวัติไม่พอใจ ...-&gt; Details-&gt; ตรวจสอบการใช้งาน Logins-&gt; กด Clear Now</LogoutClosingBrowserRequired>
+  <RecoverPasswordTitle>กู้คืนรหัสผ่าน</RecoverPasswordTitle>
+  <RecoverPasswordEmailPassword>ส่งรหัสผ่านทางอีเมล</RecoverPasswordEmailPassword>
+  <RecoverPasswordErrorInvalidUserName>ชื่อผู้ใช้ที่ไม่ถูกต้อง.</RecoverPasswordErrorInvalidUserName>
+  <RecoverPasswordErrorNoEmail>ผู้ใช้นี้ไม่มีที่อยู่อีเมลที่กำหนดไว้</RecoverPasswordErrorNoEmail>
+  <RecoverPasswordErrorSendEmail>เกิดข้อผิดพลาดขณะที่การส่งอีเมลของคุณ</RecoverPasswordErrorSendEmail>
+  <RecoverPasswordSuccess>รหัสผ่านของคุณได้ถูกส่งไปยังที่อยู่อีเมลของคุณ</RecoverPasswordSuccess>
+
+  <RecoverUserNameTitle>การกู้คืนชื่อ</RecoverUserNameTitle>
+  <RecoverUserEmailName>ส่งชื่อผ่านทางอีเมล์</RecoverUserEmailName>
+  <RecoverUserNameErrorInvalidEmail>อีเมลของผู้ใช้ที่ไม่ถูกต้อง</RecoverUserNameErrorInvalidEmail>
+  <RecoverUserNameErrorNoEmail>ไม่พบที่อยู่อีเมล</RecoverUserNameErrorNoEmail>
+  <RecoverUserNameSuccess>ชื่อของคุณได้ถูกส่งไปยังที่อยู่อีเมลของคุณ</RecoverUserNameSuccess>
+
+  <ChangeEmailTitle>เปลี่ยนอีเมล</ChangeEmailTitle>
+  <ChangeEmailEmail>อีเมลใหม่</ChangeEmailEmail>
+  <ChangeEmailSubmit>เสนอ</ChangeEmailSubmit>
+  <ChangeEmailStatusSuccess>อีเมล์ที่มีการเปลี่ยนแปลง</ChangeEmailStatusSuccess>
+
+  <RegisterTitle>สมัครสมาชิก</RegisterTitle>
+  <RegisterEmail>อีเมล์</RegisterEmail>
+  <RegisterExtraInfo>ข้อมูลเสริม</RegisterExtraInfo>
+  <RegisterCaptcha>ป้อนข้อความที่คุณเห็นในภาพด้านล่าง</RegisterCaptcha>
+  <RegisterSubmit>เสนอ</RegisterSubmit>
+  <RegisterErrorPasswordNotMatch>รหัสผ่านไม่ตรงกัน.</RegisterErrorPasswordNotMatch>
+  <RegisterErrorUserExists>ชื่อผู้ใช้หรือที่อยู่อีเมลถูกใช้ไปแล้ว</RegisterErrorUserExists>
+  <RegisterErrorCaptchaInvalid>ภาพข้อความไม่ได้เข้ามาอย่างถูกต้อง</RegisterErrorCaptchaInvalid>
+  <RegisterSuccess>ผู้ใช้ใหม่ได้รับการเพิ่ม</RegisterSuccess>
+  <RegisterActivationSent>รหัสเปิดใช้งานถูกส่งไปยังอีเมลของคุณ</RegisterActivationSent>
+  <RegisterActivationCheckEmail>โปรดตรวจสอบกล่องจดหมายของคุณ (พิเศษโฟลเดอร์ขยะ) และปฏิบัติตามคำแนะนำในอีเมล</RegisterActivationCheckEmail>
+  
+  <FolderGridUserPermissionsColumn>การเข้าถึงสำหรับผู้ใช้</FolderGridUserPermissionsColumn>
+  <FolderGridGroupPermissionsColumn>การเข้าถึงสำหรับกลุ่ม</FolderGridGroupPermissionsColumn>
+
+  <LoginLinkText>เข้าสู่ระบบ</LoginLinkText>
+  <RecoverPasswordLinkText>ลืมรหัสผ่าน?</RecoverPasswordLinkText>
+  <RecoverUserNameLinkText>ลืมชื่อ?</RecoverUserNameLinkText>
+  <RegisterLinkText>สมัครสมาชิก</RegisterLinkText>
+  <ChangeEmail>เปลี่ยนอีเมล</ChangeEmail>
+  <LoginMobileVersionLinkText>รุ่นมือถือ (มาร์ทโฟนส่วนใหญ่และทัชแพด)</LoginMobileVersionLinkText>
+
+  <FileIsNotZipArchive>ไฟล์ {0} ไม่เก็บไปรษณีย์</FileIsNotZipArchive>
+
+  <FileModificationsAuthor>ผู้เขียน</FileModificationsAuthor>
+  <FileModificationsHistory>ดูประวัติ</FileModificationsHistory>
+  <FileModificationsWindowTitle>การปรับเปลี่ยนของไฟล์ "{0}"</FileModificationsWindowTitle>
+  <FileModificationsTypeCreated>สร้าง</FileModificationsTypeCreated>
+  <FileModificationsTypeModified>ดัดแปลง</FileModificationsTypeModified>
+  <FileModificationsTypeRenamed>เปลี่ยนชื่อเป็น</FileModificationsTypeRenamed>
+  <FileModificationsTypeRestored>การบูรณะ</FileModificationsTypeRestored>
+  <FileModificationsTypeDeleted>ที่ถูกลบ</FileModificationsTypeDeleted>
+
+  <ChangingReadOnlyProgressMessage>เปลี่ยนแอตทริบิวต์อ่านเท่านั้น</ChangingReadOnlyProgressMessage>
+
+  <ImageViewerWindowTitle>ดูภาพ [{0}]</ImageViewerWindowTitle>
+  <ImageViewerLoadingMessage>ดูภาพโหลด</ImageViewerLoadingMessage>
+  <ImageViewerLoadingImageMessage>กำลังโหลดภาพ</ImageViewerLoadingImageMessage>
+  <ImageViewerFirstImageTip>ภาพแรก</ImageViewerFirstImageTip>
+  <ImageViewerPreviousImageTip>ภาพก่อนหน้า</ImageViewerPreviousImageTip>
+  <ImageViewerRefreshTip>รายการรีเฟรชภาพ</ImageViewerRefreshTip>
+  <ImageViewerNextImageTip>ภาพถัดไป</ImageViewerNextImageTip>
+  <ImageViewerLastImageTip>ภาพสุดท้าย</ImageViewerLastImageTip>
+  <ImageViewerRunSlideShow>ภาพเรียกใช้แสดงภาพนิ่ง</ImageViewerRunSlideShow>
+  <ImageViewerStopSlideShow>หยุดสไลด์โชว์รูปภาพ</ImageViewerStopSlideShow>
+  <ImageViewerImageSimpleInfo>{0} / {1}, {2} ({3})</ImageViewerImageSimpleInfo>
+  <ImageViewerImageLoadErrorMessage>ภาพที่ถูกไม่พบหรือไม่สามารถแสดงได้</ImageViewerImageLoadErrorMessage>
+  <ImageViewerShowImageSizeOfWindow>แสดงภาพที่มีขนาดจริง</ImageViewerShowImageSizeOfWindow>
+  <ImageViewerShowRealImageSize>คลิ๊กเพื่อขยาย</ImageViewerShowRealImageSize>
+
+  <PasswordExpiresTitle>รหัสผ่านหมดอายุ</PasswordExpiresTitle>
+  <PasswordExpiresMessage>รหัสผ่านของคุณหมดอายุหลังจาก {0} วัน (s)!</PasswordExpiresMessage>
+  <PasswordExpiredMessage>รหัสผ่านของคุณหมดอายุ</PasswordExpiredMessage>
+  <PasswordChangeMessage>การเปลี่ยนรหัสผ่านเลือก {0} {1} -&gt; {2} {3} บนแถบเครื่องมือ</PasswordChangeMessage>
+
+  <UnzipContentTotalFiles>ไฟล์ทั้งหมด: {0} ({1})</UnzipContentTotalFiles>
+
+  <VideoConversionJobNotFound>
+    ไม่สามารถหาขั้นตอนการแปลงที่ระบุ
+    เหตุผลที่เป็นไปได้:
+    1. การแปลงเสร็จเป็นเวลานานแล้วและข้อมูลเกี่ยวกับงานนี้ถูกลบออก
+    2. ขั้นตอนการแปลงจะสิ้นสุดลงอย่างผิดปกติ
+  </VideoConversionJobNotFound>
+  <VideoConversionUtilityNotFound>ยูทิลิตี้พบไม่สามารถที่จะดำเนินการตามที่ร้องขอ: {0}</VideoConversionUtilityNotFound>
+  <!-- The current security principal "{0}" has insufficiant permissions to executable file "{1}".-->
+  <VideoConversionUtilityInsufficientPermissions>ผู้ใช้ปัจจุบัน "{0}" ถูกปฏิเสธการเข้าถึงแฟ้มที่ปฏิบัติการ "{1}"</VideoConversionUtilityInsufficientPermissions>
+  <VideoConversionOperationCancelled>ดำเนินการถูกยกเลิก</VideoConversionOperationCancelled>
+  <VideoConversionUtilityFailed>ยูทิลิตี้การแปลงยกเลิกอย่างผิดปกติ</VideoConversionUtilityFailed>
+  <VideoConversionOutputFileBusy>ไฟล์ที่ส่งออกจะถูกใช้โดยขั้นตอนการแปลงอื่น</VideoConversionOutputFileBusy>
+
+  <VideoConvertWindowValidatorPositiveInt>จะต้องเป็นจำนวนเต็มบวก</VideoConvertWindowValidatorPositiveInt>
+  <VideoConvertWindowTitle>แปลงวิดีโอ</VideoConvertWindowTitle>
+  <VideoConvertWindowInputFile>แฟ้มใส่</VideoConvertWindowInputFile>
+  <VideoConvertWindowOutputFile>ไฟล์ที่ส่งออก</VideoConvertWindowOutputFile>
+  <VideoConvertWindowOutputFormat>รูปแบบการออก</VideoConvertWindowOutputFormat>
+  <VideoConvertWindowBitrate>อัตราบิต (กิโลบิตต่อวินาที)</VideoConvertWindowBitrate>
+  <VideoConvertWindowFrameResolution>ความละเอียดของกรอบ</VideoConvertWindowFrameResolution>
+  <VideoConvertWindowDAR>อัตราส่วนการแสดงผล</VideoConvertWindowDAR>
+  <VideoConvertWindowPAR>อัตราส่วนพิกเซล</VideoConvertWindowPAR>
+  <VideoConvertWindowResize>ปรับขนาด</VideoConvertWindowResize>
+  <VideoConvertWindowProfile>ข้อมูลส่วนตัว</VideoConvertWindowProfile>
+  <VideoConvertWindowWidth>ความกว้าง</VideoConvertWindowWidth>
+  <VideoConvertWindowHeight>ความสูง</VideoConvertWindowHeight>
+  <VideoConvertWindowExtractDetailsProgressMsg>การแยกรายละเอียดวิดีโอ</VideoConvertWindowExtractDetailsProgressMsg>
+  <VideoConvertWindowOutputFileExistsTitle>ไฟล์ที่ส่งออกมีอยู่</VideoConvertWindowOutputFileExistsTitle>
+  <VideoConvertWindowOutputFileExistsMsg>ไฟล์ที่ส่งออกอยู่แล้ว มันจะถูกเขียนทับ</VideoConvertWindowOutputFileExistsMsg>
+  <VideoConvertWindowPrepareToConvert>การเตรียมความพร้อมในการแปลงวิดีโอ</VideoConvertWindowPrepareToConvert>
+  <VideoConvertWindowOutputFileMatchInputFile>ชื่อไฟล์ที่ส่งออกตรงกับชื่อแฟ้มใส่</VideoConvertWindowOutputFileMatchInputFile>
+
+  <VideoConvertProgressWindowTitle>แปลงวิดีโอ</VideoConvertProgressWindowTitle>
+  <VideoConvertProgressWindowInputFile>แฟ้มใส่</VideoConvertProgressWindowInputFile>
+  <VideoConvertProgressWindowOutputFile>ไฟล์ที่ส่งออก</VideoConvertProgressWindowOutputFile>
+  <VideoConvertProgressWindowStatus>สถานะ</VideoConvertProgressWindowStatus>
+  <VideoConvertProgressWindowStatusTerminating>ยุติ</VideoConvertProgressWindowStatusTerminating>
+  <VideoConvertProgressWindowStatusPreparing>การจัดเตรียม</VideoConvertProgressWindowStatusPreparing>
+  <VideoConvertProgressWindowStatusProgress>ขั้นตอนที่ {0} ของ {1}</VideoConvertProgressWindowStatusProgress>
+  <VideoConvertProgressWindowStatusDone>เสร็จสิ้น</VideoConvertProgressWindowStatusDone>
+
+  <PlayHtml5VideoNotSupported>เบราว์เซอร์ของคุณไม่สนับสนุน HTML 5 องค์ประกอบวิดีโอ</PlayHtml5VideoNotSupported>
+  <PlayHtml5VideoPlayFailed>เล่นวิดีโอล้มเหลว</PlayHtml5VideoPlayFailed>
+  <PlayHtml5AudioPlayFailed>เล่นเสียงล้มเหลว</PlayHtml5AudioPlayFailed>
+  <PlayHtml5AudioTitle>หัวข้อ</PlayHtml5AudioTitle>
+  <PlayHtml5AudioNotSupported>เบราว์เซอร์ของคุณไม่สนับสนุน HTML 5 องค์ประกอบเสียง</PlayHtml5AudioNotSupported>
+  <PlayHtml5AudioArtist>ศิลปิน</PlayHtml5AudioArtist>
+  <PlayHtml5AudioAlbum>อัลบั้ม</PlayHtml5AudioAlbum>
+  <PlayHtml5AudioYear>ปี</PlayHtml5AudioYear>
+  <PlayHtml5AudioDuration>ระยะเวลา</PlayHtml5AudioDuration>
+  <PlayHtml5AudioBitrate>บิตเรต</PlayHtml5AudioBitrate>
+  <PlayHtml5AudioVolume>ปริมาณ</PlayHtml5AudioVolume>
+
+  <!-- Root title -->
+  <RootTitle>ราก</RootTitle>
+
+  <!-- Recent feature keys -->
+  <RecentRootTitle>เมื่อเร็ว ๆ นี้</RecentRootTitle>
+  <RecentDeleteOnePrompt>คุณแน่ใจหรือว่าต้องการลบ "{0}" จากรายการล่าสุดของคุณหรือไม่</RecentDeleteOnePrompt>
+  <RecentDeleteManyPrompt>คุณแน่ใจหรือว่าต้องการลบเหล่านี้ {0} รายการจากรายการล่าสุดของคุณหรือไม่</RecentDeleteManyPrompt>
+  <RecentPathNotExist>เส้นทางที่ผ่านมา "{0}" ไม่มีอยู่หรือเข้าถึงถูกปฏิเสธ</RecentPathNotExist>
+  <RecentAllWithoutGroupingTitle>ทั้งหมด w / o การจัดกลุ่ม</RecentAllWithoutGroupingTitle>
+  <RecentEditGroupTitle>แก้ไข</RecentEditGroupTitle>
+  <RecentViewGroupTitle>ผู้เข้าชม</RecentViewGroupTitle>
+  <RecentDownloadGroupTitle>ดาวน์โหลด</RecentDownloadGroupTitle>
+  <RecentUploadGroupTitle>อัปโหลด</RecentUploadGroupTitle>
+  <RecentCreateGroupTitle>สร้าง</RecentCreateGroupTitle>
+
+  <!-- Trash feature keys -->
+  <TrashRootTitle>ขยะ</TrashRootTitle>
+  <TrashLabelDateDeleted>วันที่ถูกลบ</TrashLabelDateDeleted>
+  <TrashDeleteOnePrompt>คุณแน่ใจหรือว่าต้องการลบอย่างถาวร "{0}" จากถังขยะหรือไม่</TrashDeleteOnePrompt>
+  <TrashDeleteManyPrompt>คุณแน่ใจหรือว่าต้องการลบเหล่านี้ {0} รายการจากถังขยะอย่างถาวร?</TrashDeleteManyPrompt>
+  <TrashEmptyTrashLabel>ถังขยะที่ว่างเปล่า</TrashEmptyTrashLabel>
+  <TrashRestoreSelectedLabel>ฟื้นฟู</TrashRestoreSelectedLabel>
+  <TrashRestoreAllLabel>เรียกคืนทั้งหมด</TrashRestoreAllLabel>
+  <TrashEmptyTrashPrompt>คุณคุณแน่ใจว่าต้องการที่จะว่างขยะ?</TrashEmptyTrashPrompt>
+  <TrashRestoreAllPrompt>คุณแน่ใจหรือไม่ว่าคุณต้องการที่จะเรียกคืนทุกรายการจากถังขยะหรือไม่</TrashRestoreAllPrompt>
+  <TrashProgressRestoring>การกู้คืนจากถังขยะ</TrashProgressRestoring>
+  <TrashFolderNotFound>ไม่พบไดเรกทอรีถังขยะ</TrashFolderNotFound>
+  <TrashBalloonRestored>รายการบูรณะ: {0} ของ {1}</TrashBalloonRestored>
+  <TrashDeleteDirectlyLabel>ลบโดยตรงโดยไม่ต้องถอดไปที่ถังขยะ</TrashDeleteDirectlyLabel>
+  <TrashUsedSpaceHint>{0} ใช้</TrashUsedSpaceHint>
+  <TrashLimitSizeHint>ใช้ {0} ของ {1} ({2})</TrashLimitSizeHint>
+  <TrashLargeItemsShelfTimeHint>เวลาการจัดเก็บข้อมูลของวัตถุที่มีขนาดใหญ่กว่า {0}: {1} วัน (s)</TrashLargeItemsShelfTimeHint>
+  <TrashSmallItemsShelfTimeHint>สำหรับคนอื่น ๆ ทั้งหมด: {0} วัน (s)</TrashSmallItemsShelfTimeHint>
+  <TrashItemsShelfTimeHint>เวลาการจัดเก็บข้อมูลของวัตถุ: {0} วัน (s)</TrashItemsShelfTimeHint>
+  <TrashAvailableSpaceHint>ขนาดที่มีจำหน่ายสูงสุด {0}</TrashAvailableSpaceHint>
+  <TrashDeletedFromFolderHint>ลบออกจาก {0}</TrashDeletedFromFolderHint>
+  <TrashExceededMessage>วัตถุต่อไปนี้มีขนาดใหญ่เกินไปและไม่สามารถอยู่กับถังขยะ (ข้อ จำกัด ของการ {0} จะเกิน):</TrashExceededMessage>
+  <TrashErrorSuffixMessage>กรุณาพยายามที่จะตรวจสอบตัวเลือก "{0}" แล้วลบไฟล์ (s) ตลอดไปเกินกว่าการดึง</TrashErrorSuffixMessage>
+
+  <!-- Shared by link -->
+  <SharedByLinkRootTitle>ร่วมกันโดยการเชื่อมโยง</SharedByLinkRootTitle>
+
+  <!-- Shared for you -->
+  <SharedForYouRootTitle>ที่ใช้ร่วมกันกับคุณ</SharedForYouRootTitle>
+  <SharedForYouUnableToGetUrl>ไม่สามารถที่จะรับ URL</SharedForYouUnableToGetUrl>
+
+  <!-- Watch for modifications -->
+  <WatchForModifsCommand>นาฬิกาสำหรับการปรับเปลี่ยน</WatchForModifsCommand>
+  <WatchForModifsStartCommand>เริ่มต้นดู</WatchForModifsStartCommand>
+  <WatchForModifsEditCommand>เปลี่ยนดู</WatchForModifsEditCommand>
+  <WatchForModifsStopCommand>หยุดดู</WatchForModifsStopCommand>
+  <WatchForModifsViewChangesCommand>ดูการเปลี่ยนแปลง</WatchForModifsViewChangesCommand>
+  <WatchForModifsSubscriptionSuccessMessage>คุณได้สมัครเรียบร้อยแล้วสำหรับการปรับเปลี่ยน "{0}"</WatchForModifsSubscriptionSuccessMessage>
+  <WatchForModifsStopSuccessMessage>การตรวจสอบ "{0}" ได้รับการปิดการใช้งานที่ประสบความสำเร็จ</WatchForModifsStopSuccessMessage>
+  <WatchForModifsIncludingNestedLabel>พิจารณาไฟล์ที่ซ้อนกัน, โฟลเดอร์</WatchForModifsIncludingNestedLabel>
+  <WatchForModifsParentWatchExistMessage>สำหรับรายการที่เลือกได้รับมอบหมายแล้วการตรวจสอบสำหรับโฟลเดอร์หลัก "{0}"</WatchForModifsParentWatchExistMessage>
+  <WatchForModifsRootFolder>การแจ้งเตือน</WatchForModifsRootFolder>
+  <WatchForModifsStartProgressLoading>เปิดใช้งานดู</WatchForModifsStartProgressLoading>
+  <WatchForModifsStopProgressLoading>Terminatie ดู</WatchForModifsStopProgressLoading>
+  <WatchForModifsIconHint>เปิดการใช้งานนาฬิกาสำหรับการปรับเปลี่ยน</WatchForModifsIconHint>
+  <WatchForModifsNotifCheckBox>แจ้งเกี่ยวกับการปรับเปลี่ยนโดยอีเมล:</WatchForModifsNotifCheckBox>
+  <WatchForModifsWatchedUsersCheckBox>ตรวจสอบเฉพาะผู้ใช้ (ปล่อยว่างไว้หากคุณตรวจสอบทั้งหมด):</WatchForModifsWatchedUsersCheckBox>
+  <WatchForModifsIgnoreOwnerCheckBox>รายละเอียดการเปลี่ยนแปลงของตัวเอง</WatchForModifsIgnoreOwnerCheckBox>
+  <WatchForModifsActionsCheckBox>ตรวจสอบการทำงาน (หรือการกระทำบางอย่างจากรายการด้านล่าง)</WatchForModifsActionsCheckBox>
+  <WatchForModifsNestedItemsWarning>ความสนใจ! เมื่อคุณเพิ่มการตรวจสอบสำหรับโฟลเดอร์ที่เลือกไฟล์ที่แนบมาและโฟลเดอร์ทั้งหมดที่ตรวจสอบของแต่ละบุคคลได้รับการเพิ่มก่อนหน้านี้การตรวจสอบจะถูกลบออก คุณต้องการที่จะต่อหรือไม่?</WatchForModifsNestedItemsWarning>
+
+  <WelcomeWindowHideCheckboxLabel>อย่าแสดงข้อความนี้โดยการเข้าสู่ระบบต่อไปใน</WelcomeWindowHideCheckboxLabel>
+
+  <LogsGridMoreInfoColumn>ข้อมูลเพิ่มเติม</LogsGridMoreInfoColumn>
+  <LogsGridDetailsTitle>รายละเอียด</LogsGridDetailsTitle>
+  <LogsGridPhysPathColumn>เส้นทางกายภาพ</LogsGridPhysPathColumn>
+  <LogsGridIsFolderColumn>โฟลเดอร์?</LogsGridIsFolderColumn>
+  <LogsGridIsPublicColumn>สาธารณะ?</LogsGridIsPublicColumn>
+  <LogsGridByWebDavColumn>WebDAV?</LogsGridByWebDavColumn>
+
+  <NoCommentsYetHint>ยังไม่มีความคิดเห้น</NoCommentsYetHint>
+  <NoHistoryYetHint>ยังไม่มีประวัติ</NoHistoryYetHint>
+
+  <DetailsPropertyValuesCouldNotBeWritten>ไม่สามารถบันทึกค่าทรัพย์สิน Mabe ประเภทของไฟล์ไม่สนับสนุนความเป็นไปได้ดังกล่าวหรือมีข้อผิดพลาดในการประยุกต์ใช้ที่เกี่ยวข้องกับไฟล์</DetailsPropertyValuesCouldNotBeWritten>
+
+  <AdminCommandHelp>ช่วยด้วย</AdminCommandHelp>
+  <AdminCommandAddUser>เพิ่มผู้ใช้</AdminCommandAddUser>
+  <AdminCommandAddGroup>เพิ่มกลุ่ม</AdminCommandAddGroup>
+  <AdminCommandRemoveUser>ลบผู้ใช้</AdminCommandRemoveUser>
+
+  <AdminCommandSelectUsers>เพิ่มผู้ใช้</AdminCommandSelectUsers>
+  <AdminCommandSelectGroups>เพิ่มกลุ่ม</AdminCommandSelectGroups>
+  <AdminCommandRemoveUsers>นำผู้ใช้</AdminCommandRemoveUsers>
+  <AdminCommandRemoveGroups>นำกลุ่ม</AdminCommandRemoveGroups>
+  <AdminUsersGroups>สมาชิกของ</AdminUsersGroups>
+  <AdminSearchUserEmptyText>ป้อนชื่อผู้ใช้</AdminSearchUserEmptyText>
+  <AdminSearchGroupEmptyText>ใส่ชื่อกลุ่ม</AdminSearchGroupEmptyText>
+  <AdminUsersGroupAlreadyExists>กลุ่ม (s) ที่มีชื่อนี้ (s) ได้รับการเพิ่มแล้ว</AdminUsersGroupAlreadyExists>
+
+  <AdminApplicationLoading>โหลดแผง admin</AdminApplicationLoading>
+  <AdminTitle>การบริหาร</AdminTitle>
+  <AdminUsersEditUser>แก้ไขผู้ใช้</AdminUsersEditUser>
+  <AdminUsersSetUserPassword>ตั้งรหัสผ่าน</AdminUsersSetUserPassword>
+  <AdminUsersViewGroups>ดูกลุ่ม</AdminUsersViewGroups>
+  <AdminUsersViewFolders>ดูโฟลเดอร์</AdminUsersViewFolders>
+  <AdminUsersDeleteUserPrompt>คุณแน่ใจหรือว่าต้องการลบผู้ใช้ (s) "{0}"?</AdminUsersDeleteUserPrompt>
+  <AdminUsersDeletedUsers>{0} ผู้ใช้ (s) ลบ</AdminUsersDeletedUsers>
+  <AdminUsersUserNotFound>ผู้ใช้ที่มีชื่อนี้ไม่พบ</AdminUsersUserNotFound>
+  <AdminUsersPropertiesTitle>คุณสมบัติของผู้ใช้</AdminUsersPropertiesTitle>
+  <AdminUsersSetPasswordTitle>ตั้งค่ารหัสผ่านของผู้ใช้</AdminUsersSetPasswordTitle>
+  <AdminUsersGeneralInfo>ข้อมูลผู้ใช้</AdminUsersGeneralInfo>
+  <AdminUsersUserEmail>อีเมล์</AdminUsersUserEmail>
+  <AdminUsersEmptyName>ชื่อผู้ใช้ต้องไม่ว่างเปล่า</AdminUsersEmptyName>
+  <AdminUsersEmptyPassword>รหัสผ่านผู้ใช้ต้องไม่ว่างเปล่า</AdminUsersEmptyPassword>
+  <AdminUsersIncorrectName>มีสัญลักษณ์ที่ไม่ถูกต้องในชื่อผู้ใช้เป็น</AdminUsersIncorrectName>
+  <AdminUsersAlreadyExists>ผู้ใช้ที่มีชื่อนี้อยู่แล้ว</AdminUsersAlreadyExists>
+  <AdminUsersEmailAlreadyExists>ผู้ใช้ที่มีอีเมลนี้อยู่แล้ว</AdminUsersEmailAlreadyExists>
+  <AdminUsersPasswordsNotMatch>รหัสผ่านไม่ตรงกัน</AdminUsersPasswordsNotMatch>
+  <AdminUsersRenameWarning>หลังจากเปลี่ยนชื่อผู้ใช้มีความจำเป็นต้องเปลี่ยนรหัสผ่านมิฉะนั้นปัจจุบันการเชื่อมโยงเว็บโฟลเดอร์จะไม่ถูกต้อง</AdminUsersRenameWarning>
+  <AdminUsersLicenseRestriction>ใบอนุญาตของคุณไม่ได้ช่วยให้คุณสามารถสร้างมากกว่า {0} ผู้ใช้</AdminUsersLicenseRestriction>
+  <AdminUsersCountInfoWithLimit>รวมจำนวนผู้ใช้: {0} จาก {1}</AdminUsersCountInfoWithLimit>
+  <AdminUsersCountInfo>รวมจำนวนผู้ใช้: {0}</AdminUsersCountInfo>
+
+  <AdminGroupsEditGroup>แก้ไขกลุ่ม</AdminGroupsEditGroup>
+  <AdminGroupsRemoveGroup>ลบกลุ่ม</AdminGroupsRemoveGroup>
+  <AdminGroupsDeleteGroupPrompt>คุณแน่ใจหรือว่าต้องการลบกลุ่ม (s) "{0}"?</AdminGroupsDeleteGroupPrompt>
+  <AdminGroupsDeletedGroups>{0} (s) กลุ่มที่ถูกลบ</AdminGroupsDeletedGroups>
+  <AdminGroupsGroupNotFound>กลุ่มที่มีชื่อนี้ไม่พบ</AdminGroupsGroupNotFound>
+  <AdminGroupsViewUsers>ดูผู้ใช้</AdminGroupsViewUsers>
+  <AdminGroupsProperties>คุณสมบัติ</AdminGroupsProperties>
+  <AdminGroupsPropertiesTitle>คุณสมบัติของกลุ่ม</AdminGroupsPropertiesTitle>
+  <AdminGroupsGeneralInfo>ข้อมูลกลุ่ม</AdminGroupsGeneralInfo>
+  <AdminGroupsUserNamePrompt>ป้อนชื่อผู้ใช้</AdminGroupsUserNamePrompt>
+  <AdminGroupsUsers>สมาชิกกลุ่ม</AdminGroupsUsers>
+  <AdminGroupsUserAlreadyExists>ผู้ใช้ (s) ที่มีชื่อนี้ (s) ได้รับการเพิ่มแล้ว</AdminGroupsUserAlreadyExists>
+  <AdminGroupsEmptyName>ชื่อกลุ่มต้องไม่ว่างเปล่า</AdminGroupsEmptyName>
+  <AdminGroupsIncorrectName>มีสัญลักษณ์ที่ไม่ถูกต้องในชื่อกลุ่มเป็น</AdminGroupsIncorrectName>
+  <AdminGroupsAlreadyExists>กลุ่มที่มีชื่อนี้อยู่แล้ว</AdminGroupsAlreadyExists>
+  <AdminGroupsCountInfo>กลุ่มทั้งหมด: {0}</AdminGroupsCountInfo>
+
+  <AdminLanguagesTab>localizations</AdminLanguagesTab>
+  <AdminLanguagesTabMessage>แก้ไขไฟล์แปลเลือกภาษาที่ต้องการในรายการคลิกสตริงที่มีการแปลที่จะแก้ไข หลังจากการปรับเปลี่ยนคลิกปุ่ม "บันทึก"</AdminLanguagesTabMessage>
+  <AdminLangGridKeyColumn>ชื่อคีย์</AdminLangGridKeyColumn>
+  <AdminLangGridDefaultColumn>อังกฤษ</AdminLangGridDefaultColumn>
+  <AdminEnterLanguageNameTitle>ใส่ชื่อภาษา</AdminEnterLanguageNameTitle>
+  <AdminLangConfirmRefreshTitle>ยืนยันรีเฟรช</AdminLangConfirmRefreshTitle>
+  <AdminLangConfirmRefreshMessage>ความสนใจ! ข้อมูลที่ไม่ได้บันทึก คุณต้องการที่จะบันทึกการเปลี่ยนแปลงในขณะนี้?</AdminLangConfirmRefreshMessage>
+  <AdminLangAmountInfo>คีย์เต็ม: {0} ของ {1} (ค่าว่างเปล่า: {2})</AdminLangAmountInfo>
+  <AdminLangSaveToCSV>ส่งออกเป็น CSV</AdminLangSaveToCSV>
+  <AdminLangLoadFromCSV>โหลดจาก CSV</AdminLangLoadFromCSV>
+
+  <AdminDbMaintenanceTab>การบำรุงรักษาฐานข้อมูล</AdminDbMaintenanceTab>
+  <AdminDbMaintenanceInfoTitle>ข้อมูล</AdminDbMaintenanceInfoTitle>
+  <AdminDbMaintenanceInfoPathLabel>เส้นทางของไฟล์ DB</AdminDbMaintenanceInfoPathLabel>
+  <AdminDbMaintenanceInfoSizeLabel>ขนาดไฟล์ DB</AdminDbMaintenanceInfoSizeLabel>
+  <AdminDbMaintenanceCompactTitle>ฐานข้อมูลที่มีขนาดกะทัดรัด</AdminDbMaintenanceCompactTitle>
+  <AdminDbMaintenanceCompactNote>เพื่อที่จะลดขนาดของฐานข้อมูลไฟล์โปรดคลิกที่ปุ่มด้านล่างนี้ มันเป็นสิ่งจำเป็นในการดำเนินการบีบอัดของฐานข้อมูลเป็นระยะ ๆ ตั้งแต่ยกตัวอย่างเช่นหลังจากการกำจัดของการเชื่อมโยงประชาชนบางส่วนที่ไม่ใช้งานหรือบันทึกเก่าบันทึกไฟล์ขนาด DB ไม่ลดลง</AdminDbMaintenanceCompactNote>
+  <AdminDbMaintenanceCompactButton>ขนาดกะทัดรัด DB</AdminDbMaintenanceCompactButton>
+  <AdminDbMaintenanceCompactSuccess>DB อัดประสบความสำเร็จ
+ขนาดไฟล์เก่า: {0}
+ขนาดไฟล์ใหม่: {1}</AdminDbMaintenanceCompactSuccess>
+  <AdminDbMaintenanceCompactAutoNote>นอกจากนี้คุณยังสามารถเปิดฐานข้อมูลการบีบอัดโดยอัตโนมัติหลังจากการกำจัดของการดำเนินงานระเบียน แต่ก็ไม่แนะนำเพราะมันล็อคอาจจะบ่อยมากขึ้นของฐานและจะสามารถเพิ่มระยะเวลาของการร้องขอบาง ความสนใจ! หลังจากเปลี่ยนการตั้งค่านี้โปรแกรมจะเริ่มต้นใหม่!</AdminDbMaintenanceCompactAutoNote>
+  <AdminDbMaintenanceCompactAutoCheckBox>เปิด / ปิดอัตโนมัติขนาดกะทัดรัด DB</AdminDbMaintenanceCompactAutoCheckBox>
+  <AdminDbMaintenanceCompactAutoSaveButton>บันทึก</AdminDbMaintenanceCompactAutoSaveButton>
+  <AdminDbMaintenanceCompactAutoSaveSuccess>การเปลี่ยนแปลงของсompressionอัตโนมัติ DB เสร็จเรียบร้อยแล้ว หน้าจะมีการปรับปรุงในไม่ช้า</AdminDbMaintenanceCompactAutoSaveSuccess>
+  <AdminDbMaintenanceEnableLogLabel>เลือก DB แบบสอบถามระดับการบันทึก (เป็นข้อมูล / debug.log)</AdminDbMaintenanceEnableLogLabel>
+  <AdminDbMaintenanceSettingsSaveSuccess>การตั้งค่า DB บันทึกเรียบร้อยแล้ว หน้าเว็บจะโหลดใหม่</AdminDbMaintenanceSettingsSaveSuccess>
+  <AdminDbMaintenanceSettingsChangeNote>ความสนใจ! หลังจากบันทึกการตั้งค่าโปรแกรมจะเริ่มต้นใหม่ในเร็ว ๆ นี้!</AdminDbMaintenanceSettingsChangeNote>
+  <AdminDbMaintenanceInsertIntervalLabel>ช่วงเวลา (นาที) ของการเพิ่มกิจกรรมเพื่อฐานข้อมูล ถ้าคุณระบุ 0, แทรกจะปรากฏโดยตรงหลังจากเหตุการณ์ที่เกิดขึ้น</AdminDbMaintenanceInsertIntervalLabel>
+  <AdminDbMaintenanceAdvDbParamsTitle>พารามิเตอร์การเชื่อมต่อขั้นสูง DB</AdminDbMaintenanceAdvDbParamsTitle>
+  <AdminDbMaintenanceStatTitle>สถิติ (ขึ้นอยู่กับ DurationExecution ล็อกระดับ DB)</AdminDbMaintenanceStatTitle>
+  <AdminDbMaintenanceStatDurationReadLabel>เฉลี่ยการอ่านหมดเวลา</AdminDbMaintenanceStatDurationReadLabel>
+  <AdminDbMaintenanceStatDurationWriteLabel>เฉลี่ยเขียนหมดเวลา</AdminDbMaintenanceStatDurationWriteLabel>
+  <AdminDbMaintenanceStatDurationCompactLabel>หมดเวลาเฉลี่ยที่มีขนาดกะทัดรัด</AdminDbMaintenanceStatDurationCompactLabel>
+  <AdminDbMaintenanceStatNoData>ไม่มีข้อมูล</AdminDbMaintenanceStatNoData>
+  <AdminDbMaintenanceStatGetButton>รวบรวมสถิติ</AdminDbMaintenanceStatGetButton>
+
+  <AdminMiscTab>อื่น ๆ</AdminMiscTab>
+  <AdminMiscLoadADAccountsTitle>โหลดบัญชี Active Directory</AdminMiscLoadADAccountsTitle>
+  <AdminMiscLoadADAccountsLoadButton>ภาระ</AdminMiscLoadADAccountsLoadButton>
+  <AdminMiscLoadADAccountsResetButton>รีเซ็ต</AdminMiscLoadADAccountsResetButton>
+  <AdminMiscLoadADAccountsLdap>ภาชนะ LDAP</AdminMiscLoadADAccountsLdap>
+  <AdminMiscLoadADAccountsToFile>ในการยื่น</AdminMiscLoadADAccountsToFile>
+  <AdminMiscLoadADAccountsSuccessMessage>บัญชี Active Directory โหลดเสร็จเรียบร้อยแล้ว</AdminMiscLoadADAccountsSuccessMessage>
+  <AdminMiscLoadADAccountsInfo>ที่นี่คุณสามารถสร้างไฟล์ที่มีโครงสร้างผู้ใช้ไดเรกทอรีทั้งหมดที่ใช้งานอยู่ ไฟล์นี้เป็นสิ่งจำเป็นถ้าคุณใช้แฟ้มแบบคงที่เป็นที่เก็บข้อมูล AD ไฟล์เดียวกันสามารถสร้างทางสาธารณูปโภค AdManager สำหรับข้อมูลเพิ่มเติมโปรดดูที่ &lt;b&gt; ADAccountsFilePath &lt;/b&gt; คำอธิบายพารามิเตอร์ใน {0} คู่มือ {1}</AdminMiscLoadADAccountsInfo>
+
+  <AdminMiscManageQuotasTitle>จัดการโควต้า</AdminMiscManageQuotasTitle>
+  <AdminMiscManageQuotasInfo>แบบสอบถามที่มีอยู่หรือสร้างโควต้าใหม่ที่จะ จำกัด พื้นที่ที่ได้รับอนุญาตสำหรับโฟลเดอร์ที่ขับเคลื่อนโดยไฟล์จัดการทรัพยากรของเซิร์ฟเวอร์</AdminMiscManageQuotasInfo>
+  <AdminMiscManageQuotasFolderPath>เส้นทางโฟลเดอร์</AdminMiscManageQuotasFolderPath>
+  <AdminMiscManageQuotasQuota>โควต้า</AdminMiscManageQuotasQuota>
+  <AdminMiscManageQuotasGetQuota>ได้รับโควต้า</AdminMiscManageQuotasGetQuota>
+  <AdminMiscManageQuotasSetQuota>ชุดโควต้า</AdminMiscManageQuotasSetQuota>
+
+  <AdminMiscFoldersFromGPOLTitle>โฟลเดอร์โหลดจากนโยบายกลุ่ม</AdminMiscFoldersFromGPOLTitle>
+  <AdminMiscFoldersFromGPOLComputerName>ชื่อคอมพิวเตอร์</AdminMiscFoldersFromGPOLComputerName>
+  <AdminMiscFoldersFromGPOLFilePath>เส้นทางของแฟ้ม</AdminMiscFoldersFromGPOLFilePath>
+  <AdminMiscFoldersFromGPOLMoreInfoLink>ข้อมูลเพิ่มเติม</AdminMiscFoldersFromGPOLMoreInfoLink>
+  <AdminMiscFoldersFromGPOLResetButton>รีเซ็ต</AdminMiscFoldersFromGPOLResetButton>
+  <AdminMiscFoldersFromGPOLLoadButton>ภาระ</AdminMiscFoldersFromGPOLLoadButton>
+  <AdminMiscFoldersFromGPOLFromDC>จาก DC</AdminMiscFoldersFromGPOLFromDC>
+  <AdminMiscFoldersFromGPOLFromFile>จากแฟ้ม</AdminMiscFoldersFromGPOLFromFile>
+  <AdminMiscFoldersTargetLabel>ที่จะนำเข้า / ผู้ใช้เงื่อนไขในกลุ่ม ...</AdminMiscFoldersTargetLabel>
+  <AdminMiscFoldersTargetFilter>กรอง</AdminMiscFoldersTargetFilter>
+  <AdminMiscFoldersTargetPermission>การอนุญาต</AdminMiscFoldersTargetPermission>
+  <AdminMiscFoldersFromGPOLSuccessMessage>โฟลเดอร์จะโหลดเสร็จเรียบร้อยแล้ว &lt;br /&gt; ใหม่:. {0} ปรับปรุง: {1}</AdminMiscFoldersFromGPOLSuccessMessage>
+  <AdminMiscFoldersFromGPOLInfo>คุณสามารถโหลด (หรือปรับปรุง) รายการโฟลเดอร์จากการตั้งค่าการแมปไดรฟ์นโยบายกลุ่ม 'ในตัวควบคุมโดเมน ในสาขาดังต่อไปนี้คุณสามารถป้อนชื่อคอมพิวเตอร์ที่ตั้งค่านโยบายกลุ่มจะถูกโหลด (หรือหากปล่อยทิ้งไว้ว่างแล้วโดเมนปัจจุบันจะใช้) หรือเส้นทางที่จะยื่นกับการตั้งค่าไดรฟ์ที่แมป</AdminMiscFoldersFromGPOLInfo>
+
+  <AdminAnonymFoldersTab>โฟลเดอร์ที่ไม่ระบุชื่อ</AdminAnonymFoldersTab>
+  <AdminAnonymFoldersDeleteFolderPrompt>คุณแน่ใจหรือว่าต้องการลบ {0} โฟลเดอร์ที่ไม่ระบุชื่อที่เลือก?</AdminAnonymFoldersDeleteFolderPrompt>
+  
+  <AdminAnonymFoldersDescription>โฟลเดอร์ที่ใช้ร่วมกัน / ไฟล์ - เหล่านี้เป็นโฟลเดอร์ / ไฟล์ที่ไม่จำเป็นต้องตรวจสอบผู้ใช้ * นั่นหมายความว่าพวกเขาจะพร้อมใช้งานสำหรับผู้เข้าชมทั้งหมด * (ถ้าพวกเขามีการเชื่อมโยง) ผู้ใช้ทุกคนสามารถสร้างโฟลเดอร์ดังกล่าว / ไฟล์จากเมนู "แชร์และ rarr; สร้างการเชื่อมโยงที่สาธารณะ" อย่างไรก็ตามโฟลเดอร์ที่ใช้ร่วมอาจจะมีการ จำกัด สิทธิ์: สำหรับการอัปโหลดดาวน์โหลดไฟล์ / โฟลเดอร์รายการ ด้านล่างเป็นตารางของการเชื่อมโยงไปยังโฟลเดอร์ที่ใช้ร่วมกัน / ไฟล์ที่สร้างโดยผู้ใช้ ในการทำงานการเชื่อมโยงประชาชนมีอย่างถูกต้องให้แน่ใจว่า Handlers \ Anonymousdownload.ashx ช่วยให้การเข้าถึงที่ไม่ระบุชื่อกับ IIS คุณอาจจะตรวจสอบเรื่องนี้บนหน้า &lt;a target="_blank" href="{0}"&gt; วินิจฉัย &lt;/a&gt; ตรวจสอบให้แน่ใจว่าบัญชีผู้ใช้ที่ไม่ระบุชื่อได้รับมอบหมายให้จัดการ \ Anonymousdownload.ashx มีสิทธิ์ NTFS อ่าน / เขียนที่ใช้ร่วมกันสำหรับโฟลเดอร์ / ไฟล์ &lt;br /&gt; * &amp;nbsp;. &amp;mdash; &amp;nbsp; ถ้าคุณไม่ได้ระบุผู้ใช้ที่ได้รับอนุญาตเท่านั้นที่สามารถเข้าถึง</AdminAnonymFoldersDescription>
+  <AdminAnonymFoldersLinkOwnerColumn>เจ้าของ</AdminAnonymFoldersLinkOwnerColumn>
+  <AdminAnonymFoldersEmailsColumn>อีเมลสำหรับการแจ้งเตือน</AdminAnonymFoldersEmailsColumn>
+  <AdminAnonymFoldersAccessForUsersColumn>การเข้าถึงสำหรับผู้ใช้</AdminAnonymFoldersAccessForUsersColumn>
+  <AdminAnonymFoldersPersonalMessageColumn>ข้อความส่วนตัว</AdminAnonymFoldersPersonalMessageColumn>
+  <AdminAnonymFoldersOverwriteOnUploadHint> (เขียนทับ: {0})</AdminAnonymFoldersOverwriteOnUploadHint>
+  <AdminAnonymFoldersRootPathColumn>เส้นทางราก</AdminAnonymFoldersRootPathColumn>
+  <AdminAnonymFoldersKeysColumn>คีย์</AdminAnonymFoldersKeysColumn>
+  <AdminAnonymFoldersShortColumn>เชื่อมโยงระยะสั้น</AdminAnonymFoldersShortColumn>
+  <AdminAnonymFoldersPropertiesTitle>คุณสมบัติของโฟลเดอร์ที่ไม่ระบุชื่อ</AdminAnonymFoldersPropertiesTitle>
+  <AdminAnonymFoldersAdditionalInfo>ข้อมูลเพิ่มเติม</AdminAnonymFoldersAdditionalInfo>
+  <AdminAnonymFoldersLinkLabel>การเชื่อมโยงสำหรับการเข้าถึง</AdminAnonymFoldersLinkLabel>
+  <AdminAnonymFoldersPathNotSpecified>เส้นทางทางกายภาพไม่ได้ตั้งค่า</AdminAnonymFoldersPathNotSpecified>
+  <AdminAnonymFoldersCreatedForColumn>วัตถุประสงค์</AdminAnonymFoldersCreatedForColumn>
+
+  <AdminFoldersTab>โฟลเดอร์</AdminFoldersTab>
+  <AdminFoldersAddFolder>เพิ่มกล่องเก็บไฟล์</AdminFoldersAddFolder>
+  <AdminFoldersEditFolder>แก้ไขโฟลเดอร์</AdminFoldersEditFolder>
+  <AdminFoldersRemoveFolder>เอาโฟลเดอร์</AdminFoldersRemoveFolder>
+  <AdminFoldersDeleteFolderPrompt>คุณแน่ใจหรือว่าต้องการลบโฟลเดอร์ "{0}"?</AdminFoldersDeleteFolderPrompt>
+  <AdminFoldersFolderNotFound>โฟลเดอร์ที่มีชื่อนี้ไม่พบ</AdminFoldersFolderNotFound>
+  <AdminFoldersPropertiesTitle>คุณสมบัติของโฟลเดอร์</AdminFoldersPropertiesTitle>
+  <AdminFoldersGeneralInfo>ข้อมูลทั่วไป</AdminFoldersGeneralInfo>
+  <AdminFoldersFolderRemoteWarningForms>บันทึก! โฟลเดอร์นี้จะใช้ร่วมกันจากระยะไกล ตรวจสอบ {0} FAQ: วิธีการแชร์โฟลเดอร์ระยะไกล {1}</AdminFoldersFolderRemoteWarningForms>
+  <AdminFoldersFolderRemoteWarningWin>บันทึก! โฟลเดอร์นี้จะใช้ร่วมกันจากระยะไกล คุณสามารถซ่อนบางโฟลเดอร์ / ไฟล์หากผู้ใช้ไม่ได้มีสิทธิที่จะอ่านพวกเขา ดู {0} FAQ: วิธีการซ่อนไฟล์ / โฟลเดอร์ที่ผู้ใช้ไม่ได้มีสิทธิที่จะอ่าน {1}</AdminFoldersFolderRemoteWarningWin>
+  <AdminFoldersFolderPath>เส้นทางกายภาพ</AdminFoldersFolderPath>
+  <AdminFoldersLocationPath>ที่ตั้ง</AdminFoldersLocationPath>
+  <AdminFoldersFolderCreate>สร้างโฟลเดอร์</AdminFoldersFolderCreate>
+  <AdminFoldersFolderCreateProcess>สร้างโฟลเดอร์</AdminFoldersFolderCreateProcess>
+  <AdminFoldersFolderCreateContainsPattern>โฟลเดอร์ไม่สามารถสร้างได้เพราะมันมีรูปแบบ</AdminFoldersFolderCreateContainsPattern>
+  <AdminFoldersFolderCreateSuccessfully>โฟลเดอร์ "{0}" ได้รับการสร้างเสร็จเรียบร้อยแล้ว</AdminFoldersFolderCreateSuccessfully>
+  <AdminFoldersFolderOptional> (ไม่จำเป็น)</AdminFoldersFolderOptional>
+  <AdminFoldersFolderLimitations>ข้อ จำกัด</AdminFoldersFolderLimitations>
+  <AdminFoldersFolderDescription>ลักษณะ</AdminFoldersFolderDescription>
+  <AdminFoldersFolderQuota>โควต้า</AdminFoldersFolderQuota>
+  <AdminFoldersFolderQuotaHint>แบบสอบถามที่มีอยู่หรือสร้างโควต้าใหม่ที่จะ จำกัด พื้นที่ที่ได้รับอนุญาตสำหรับโฟลเดอร์ที่ขับเคลื่อนโดยไฟล์จัดการทรัพยากรของเซิร์ฟเวอร์</AdminFoldersFolderQuotaHint>
+  <AdminFoldersFolderQuotaMoreInfoLink>ข้อมูลเพิ่มเติม</AdminFoldersFolderQuotaMoreInfoLink>
+  <AdminFoldersPermissions>สิทธิ์</AdminFoldersPermissions>
+  <AdminFoldersPermissionsFor>สิทธิ์สำหรับ {0}</AdminFoldersPermissionsFor>
+  <AdminFoldersUsersGroups>ผู้ใช้และกลุ่ม</AdminFoldersUsersGroups>
+  <AdminFoldersAccessControl>การควบคุมการเข้าถึง</AdminFoldersAccessControl>
+  <AdminFoldersCreate>สร้าง</AdminFoldersCreate>
+  <AdminFoldersDelete>ลบ</AdminFoldersDelete>
+  <AdminFoldersRename>ตั้งชื่อใหม่</AdminFoldersRename>
+  <AdminFoldersUpload>อัปโหลด</AdminFoldersUpload>
+  <AdminFoldersDownload>ดาวน์โหลด</AdminFoldersDownload>
+  <AdminFoldersZipDownload>ไปรษณีย์และการดาวน์โหลด</AdminFoldersZipDownload>
+  <AdminFoldersZip>ไปรษณีย์</AdminFoldersZip>
+  <AdminFoldersUnzip>ซิปแกะ</AdminFoldersUnzip>
+  <AdminFoldersCut>ตัด</AdminFoldersCut>
+  <AdminFoldersCopy>สำเนา</AdminFoldersCopy>
+  <AdminFoldersListFiles>แสดงแฟ้ม</AdminFoldersListFiles>
+  <AdminFoldersListFolders>แสดงโฟลเดอร์</AdminFoldersListFolders>
+  <AdminFoldersModify>แก้ไข</AdminFoldersModify>
+  <AdminFoldersBulkMailing>จดหมายจำนวนมาก</AdminFoldersBulkMailing>
+  <AdminFoldersAnonymViewContent>รายชื่อไฟล์ผ่านการเชื่อมโยงประชาชน</AdminFoldersAnonymViewContent>
+  <AdminFoldersAnonymDownload>ดาวน์โหลดผ่านลิงก์สาธารณะ</AdminFoldersAnonymDownload>
+  <AdminFoldersAnonymUpload>อัปโหลดผ่านการเชื่อมโยงประชาชน</AdminFoldersAnonymUpload>
+  <AdminFoldersWatch>ดู</AdminFoldersWatch>
+  <AdminFoldersDescription>คุณสามารถเพิ่มโฟลเดอร์ด้วยตนเองหรือแปลงโฟลเดอร์ที่มีอยู่ถ้าคุณกำลังใช้ไดรฟ์ที่นโยบายกลุ่ม สำหรับข้อมูลเพิ่มเติมโปรดดูที่ {0} ช่วยเหลือ {1}</AdminFoldersDescription>
+
+  <AdminFoldersPermissionsForRegex>นอกจากนี้คุณยังสามารถใช้การแสดงออกปกติ กรุณากรอก &lt;b&gt; {0} &lt;/b&gt; ที่จุดเริ่มต้นของเขตข้อมูลดังกล่าวข้างต้นแล้วการแสดงออกปกติตัวอย่างเช่น:</AdminFoldersPermissionsForRegex>
+  <AdminFoldersPermissionsForRegexUsers>{0} (ให้การเข้าถึงสำหรับผู้ใช้) &lt;br /&gt; {1} (นี้แสดงออกปกติหมายถึงผู้ใช้ที่สอง: jdoe และไมค์)</AdminFoldersPermissionsForRegexUsers>
+  <AdminFoldersPermissionsForRegexGroups>{0} (ให้เข้าถึงกลุ่มใด ๆ ) &lt;br /&gt; {1} (นี้แสดงออกปกติหมายความว่าทุกกลุ่มที่มี "นักศึกษา" ในชื่อของพวกเขา)</AdminFoldersPermissionsForRegexGroups>
+
+  <AdminFoldersListRestrictions>ข้อ จำกัด ของการแสดงผล</AdminFoldersListRestrictions>
+  <AdminFoldersCreateRestrictions>ข้อ จำกัด ของการสร้างแฟ้ม</AdminFoldersCreateRestrictions>
+  <AdminFoldersRestrictionAllow>อนุญาต</AdminFoldersRestrictionAllow>
+  <AdminFoldersRestrictionDeny>ปฏิเสธ</AdminFoldersRestrictionDeny>
+  <AdminFoldersRestrictionExtensions>ส่วนขยาย</AdminFoldersRestrictionExtensions>
+  <AdminFoldersUserNamePrompt>ป้อนชื่อผู้ใช้</AdminFoldersUserNamePrompt>
+  <AdminFoldersUserNameEmptyText>เลือกชื่อผู้ใช้</AdminFoldersUserNameEmptyText>
+  <AdminFoldersUserNameNotSelected>คุณต้องเลือกชื่อผู้ใช้</AdminFoldersUserNameNotSelected>
+  <AdminFoldersUserAlreadyExists>ผู้ใช้รายนี้ได้รับการมอบหมายให้โฟลเดอร์</AdminFoldersUserAlreadyExists>
+  <AdminFoldersGroupNamePrompt>ป้อนชื่อกลุ่ม</AdminFoldersGroupNamePrompt>
+  <AdminFoldersGroupNameEmptyText>เลือกชื่อกลุ่ม</AdminFoldersGroupNameEmptyText>
+  <AdminFoldersGroupNameNotSelected>คุณต้องเลือกชื่อกลุ่ม</AdminFoldersGroupNameNotSelected>
+  <AdminFoldersGroupAlreadyExists>กลุ่มนี้ได้รับการมอบหมายให้โฟลเดอร์</AdminFoldersGroupAlreadyExists>
+  <AdminFoldersEmptyName>ชื่อโฟลเดอร์ต้องไม่ว่างเปล่า</AdminFoldersEmptyName>
+  <AdminFoldersEmptyPath>เส้นทางโฟลเดอร์ต้องไม่ว่างเปล่า</AdminFoldersEmptyPath>
+  <AdminFoldersIncorrectName>มีสัญลักษณ์ที่ไม่ถูกต้องในชื่อโฟลเดอร์ที่มี</AdminFoldersIncorrectName>
+  <AdminFoldersAlreadyExists>โฟลเดอร์ที่มีชื่อนี้และสถานที่ที่มีอยู่แล้ว</AdminFoldersAlreadyExists>
+  <AdminFoldersSharesButton>หุ้นเดิม</AdminFoldersSharesButton>
+  <AdminFoldersTestAccessButton>การเข้าถึงการทดสอบ</AdminFoldersTestAccessButton>
+  <AdminFoldersTestIndexingButton>การจัดทำดัชนีทดสอบ</AdminFoldersTestIndexingButton>
+  <AdminFoldersShareNameTitle>หุ้นเดิม</AdminFoldersShareNameTitle>
+  <AdminFoldersShareNameEmptyText>เลือกหุ้น</AdminFoldersShareNameEmptyText>
+  <AdminFoldersShareNameNotSelected>คุณต้องเลือกหุ้น</AdminFoldersShareNameNotSelected>
+  <AdminFoldersGetQuotaButton>ได้รับโควต้า</AdminFoldersGetQuotaButton>
+  <AdminFoldersSetQuotaButton>ชุดโควต้า</AdminFoldersSetQuotaButton>
+  <AdminCommonFilterField>กรอง</AdminCommonFilterField>
+  <AdminCommonValidateField>ตรวจสอบ</AdminCommonValidateField>
+  <AdminFoldersRootNameUsed>กรุณาใช้ชื่ออื่นสำหรับโฟลเดอร์แทน "{0}"</AdminFoldersRootNameUsed>
+  <AdminFoldersFolderFilterSuccess>การตรวจสอบของตัวกรองเอาสถานที่ประสบความสำเร็จ</AdminFoldersFolderFilterSuccess>
+
+  <AdminTestAccessGoodResult>โฟลเดอร์ "{0}" ที่มีอยู่และสามารถอ่านได้</AdminTestAccessGoodResult>
+  <AdminTestAccessBadResult>โฟลเดอร์ "{0}" ไม่มีอยู่หรือไม่มี NTFS สิทธิ์ในการอ่านหรือไม่มีการเข้าถึงเครือข่ายสำหรับ identity โปรแกรม!</AdminTestAccessBadResult>
+  <AdminTestAccessErrorResult>ข้อผิดพลาดขณะตรวจสอบการเข้าถึงโฟลเดอร์ "{0}": {1}</AdminTestAccessErrorResult>
+  <AdminTestIndexingErrorResult>ข้อผิดพลาดขณะตรวจสอบการจัดทำดัชนีสำหรับโฟลเดอร์ "{0}":
+{1}</AdminTestIndexingErrorResult>
+  <AdminTestIndexingYesResult>ไดเรกทอรี "{0}" การจัดทำดัชนี</AdminTestIndexingYesResult>
+  <AdminTestIndexingNoResult>ไดเรกทอรี "{0}" ไม่ได้จัดทำดัชนี</AdminTestIndexingNoResult>
+  <AdminTestIndexingUnknownResult>ไม่สามารถที่จะตรวจสอบว่าไดเรกทอรี "{0}" การจัดทำดัชนี</AdminTestIndexingUnknownResult>
+  <AdminTestIndexingAddIfNotIndexed>คุณต้องการที่จะเพิ่มโฟลเดอร์นี้สำหรับการทำดัชนีถ้ามันได้รับการจัดทำดัชนียัง?</AdminTestIndexingAddIfNotIndexed>
+  <ProgressTestAccess>การตรวจสอบการเข้าถึง</ProgressTestAccess>
+  <ProgressTestIndexing>การจัดทำดัชนีการตรวจสอบ</ProgressTestIndexing>
+  <AdminHowToIndexingLocationLink>เพื่อสร้างดัชนีโฟลเดอร์โปรดดูวิธีใช้สำหรับ {0}</AdminHowToIndexingLocationLink>
+
+  <AdminUsersListAll>ผู้ใช้ทั้งหมด</AdminUsersListAll>
+  <AdminUsersListDACL>ผู้ใช้จาก ACL</AdminUsersListDACL>
+  <AdminGroupsListAll>ทุกกลุ่ม</AdminGroupsListAll>
+  <AdminGroupsListDACL>กลุ่มจาก ACL</AdminGroupsListDACL>
+  <AdminDACLStringLabel>สิทธิ์ ACL</AdminDACLStringLabel>
+
+  <AdminCommonCustomField>ฟิลด์ที่กำหนดเอง</AdminCommonCustomField>
+  <AdminCommonSettingsChangeWarning>การเปลี่ยนแปลงจะมีผลบังคับใช้หลังจากเข้าสู่ระบบอีกครั้ง (หรือหลังจากที่เริ่มต้นการประยุกต์ใช้สำหรับการเข้าถึง WebDav)</AdminCommonSettingsChangeWarning>
+
+  <AdminCommonAllowedFoldersPathsTitle>เส้นทางโฟลเดอร์ได้รับอนุญาต</AdminCommonAllowedFoldersPathsTitle>
+  <AdminCommonNotAllowedFolderPath>คุณสามารถสร้างการเข้าถึงเฉพาะโฟลเดอร์เหล่านี้หรือโฟลเดอร์ย่อย: {0}</AdminCommonNotAllowedFolderPath>
+
+  <AdminLogsTab>เข้าสู่ระบบ</AdminLogsTab>
+
+  <AdminSettingsTab>การตั้งค่า</AdminSettingsTab>
+
+  <AdminLogsErrorsTab>เข้าสู่ระบบข้อผิดพลาด</AdminLogsErrorsTab>
+  <AdminLogsErrorsClearBtn>ชัดเจน</AdminLogsErrorsClearBtn>
+  <AdminLogsErrorsClearUsersCountExceededBtn>บันทึกที่ชัดเจนกับข้อผิดพลาดของผู้ใช้เกินขีด จำกัด ปริมาณ</AdminLogsErrorsClearUsersCountExceededBtn>
+
+  <AdminFoldersCreateHint>อนุญาต / ปฏิเสธการกระทำจากเมนู "ใหม่": ไฟล์ใหม่โฟลเดอร์ใหม่ภาพใหม่ไฟล์เอกสารใหม่</AdminFoldersCreateHint>
+  <AdminFoldersDeleteHint>อนุญาต / ปฏิเสธการลบไฟล์ที่มีอยู่และโฟลเดอร์</AdminFoldersDeleteHint>
+  <AdminFoldersRenameHint>อนุญาต / ปฏิเสธการเปลี่ยนชื่อของไฟล์ที่มีอยู่และโฟลเดอร์</AdminFoldersRenameHint>
+  <AdminFoldersUploadHint>อนุญาต / ปฏิเสธการอัปโหลดไฟล์มี (ปุ่มอัพโหลดที่แถบเครื่องมือ)</AdminFoldersUploadHint>
+  <AdminFoldersDownloadHint>อนุญาต / ปฏิเสธ "ดาวน์โหลด", "ดู / แก้ไข" ดาวน์โหลดไปยังเมฆเก็บรักษาการกระทำอื่น ๆ</AdminFoldersDownloadHint>
+  <AdminFoldersZipDownloadHint>อนุญาต / ปฏิเสธ "การบีบอัดและดาวน์โหลด" การดำเนินการ</AdminFoldersZipDownloadHint>
+  <AdminFoldersZipHint>อนุญาต / ปฏิเสธ "บีบอัดที่เก็บซิป" การกระทำ</AdminFoldersZipHint>
+  <AdminFoldersUnzipHint>อนุญาต / ปฏิเสธ "สารสกัดจากโฟลเดอร์ปัจจุบัน", "สารสกัดจากโฟลเดอร์ใหม่" และ "เนื้อหาซิป" การกระทำ</AdminFoldersUnzipHint>
+  <AdminFoldersCutHint>อนุญาต / ปฏิเสธไฟล์และโฟลเดอร์ที่มีอยู่ดำเนินการตัด</AdminFoldersCutHint>
+  <AdminFoldersCopyHint>อนุญาต / ปฏิเสธการคัดลอกไฟล์ที่มีอยู่และโฟลเดอร์กระทำ</AdminFoldersCopyHint>
+  <AdminFoldersListFilesHint>อนุญาต / ปฏิเสธรายชื่อไฟล์</AdminFoldersListFilesHint>
+  <AdminFoldersListFoldersHint>อนุญาต / ปฏิเสธโฟลเดอร์รายการ</AdminFoldersListFoldersHint>
+  <AdminFoldersModifyHint>อนุญาต / ปฏิเสธการแก้ไขไฟล์ (การกระทำทั้งหมดที่สามารถปรับเปลี่ยนเนื้อหาของไฟล์ที่มีอยู่)</AdminFoldersModifyHint>
+  <AdminFoldersBulkMailingHint>อนุญาต / ปฏิเสธการส่งจดหมายจำนวนมากสำหรับกลุ่ม</AdminFoldersBulkMailingHint>
+  <AdminFoldersAnonymViewContentHint>อนุญาต / ปฏิเสธไฟล์รายการสำหรับผู้ใช้ที่ไม่ระบุชื่อ (ผ่านการเชื่อมโยงสาธารณะ)</AdminFoldersAnonymViewContentHint>
+  <AdminFoldersAnonymDownloadHint>อนุญาต / ปฏิเสธไฟล์ดาวน์โหลดสำหรับผู้ใช้ที่ไม่ระบุชื่อ (ผ่านการเชื่อมโยงสาธารณะ)</AdminFoldersAnonymDownloadHint>
+  <AdminFoldersAnonymUploadHint>อนุญาต / ปฏิเสธการอัปโหลดไฟล์สำหรับผู้ใช้ที่ไม่ระบุชื่อ (ผ่านการเชื่อมโยงสาธารณะ)</AdminFoldersAnonymUploadHint>
+  <AdminFoldersWatchHint>อนุญาต / ปฏิเสธการให้ผู้ใช้สามารถตรวจสอบการเปลี่ยนแปลงในโฟลเดอร์ที่ทำโดยผู้ใช้อื่น ๆ (มันถูกนำไปใช้เฉพาะในกรณีที่ UI / AllowUsersmonitorModifications = true)</AdminFoldersWatchHint>
+  <AdminFoldersListRestrictionsHint>ตัวเลือกนี้จะควบคุมรายชื่อไฟล์ คลิก "ปฏิเสธ" ปุ่มเพื่อซ่อนไฟล์ที่มีนามสกุลที่ระบุ แทรกห้ามนามสกุลแยกพวกเขาด้วยเครื่องหมายจุลภาค (เช่น "EXE, BAT, COM") ตั้งค่าปุ่ม "อนุญาต" วิทยุและใส่ส่วนขยายของแฟ้มที่จะแสดง (เช่น "DOC, PDF, JPG")</AdminFoldersListRestrictionsHint>
+  <AdminFoldersCreateRestrictionsHint>ฟังก์ชั่นนี้จะคล้ายกับ "ข้อ จำกัด รายการ" แต่มันจะควบคุมอัปโหลดไฟล์สกัดไปรษณีย์, การสร้างไฟล์ใหม่ คุณสามารถห้ามหรือช่วยให้การอัพโหลดไฟล์ที่ระบุ</AdminFoldersCreateRestrictionsHint>
+  <AdminFoldersGeneralInfoHint>พิมพ์เส้นทางโฟลเดอร์และนามแฝงที่มีอยู่ คลิกที่ปุ่มช่วยเหลือที่ด้านล่างเพื่อดูข้อมูลเพิ่มเติม</AdminFoldersGeneralInfoHint>
+  <AdminFoldersUsersGroupsHint>เลือกประเภทหรือผู้ใช้และกลุ่มที่จะแชร์โฟลเดอร์สำหรับพวกเขา คลิกที่ปุ่มช่วยเหลือที่ด้านล่างเพื่อดูข้อมูลเพิ่มเติม</AdminFoldersUsersGroupsHint>
+
+  <AdminUserFoldersButtonTitle>รายชื่อหุ้นที่ทดสอบ</AdminUserFoldersButtonTitle>
+  <AdminUserFoldersWindowTitle>โฟลเดอร์ผู้ใช้</AdminUserFoldersWindowTitle>
+  <AdminUserFoldersLabel>รายการโฟลเดอร์สำหรับผู้ใช้ '{0}':</AdminUserFoldersLabel>
+  
+  <AdminPermissionsTab>สิทธิ์ของผู้ดูแลระบบ</AdminPermissionsTab>
+  <AdminPermissionsPrivilege>สิทธิพิเศษ</AdminPermissionsPrivilege>
+  <AdminPermissionsEditButton>แก้ไขสิทธิพิเศษ</AdminPermissionsEditButton>
+  <AdminPermissionsModifySettingsTitle>แก้ไขการตั้งค่า</AdminPermissionsModifySettingsTitle>
+  <AdminPermissionsModifyFoldersTitle>แก้ไขโฟลเดอร์</AdminPermissionsModifyFoldersTitle>
+  <AdminPermissionsModifyAnonymFoldersTitle>แก้ไขโฟลเดอร์สาธารณะ</AdminPermissionsModifyAnonymFoldersTitle>
+  <AdminPermissionsModifyAccountsTitle>แก้ไขบัญชี</AdminPermissionsModifyAccountsTitle>
+  <AdminPermissionsViewDiagnosticsTitle>มุมมอง 'วินิจฉัย' หน้า</AdminPermissionsViewDiagnosticsTitle>
+  <AdminPermissionsViewLogTitle>ดูบันทึก</AdminPermissionsViewLogTitle>
+  <AdminPermissionsViewErrorsLogTitle>ดูข้อผิดพลาดเข้าสู่ระบบ</AdminPermissionsViewErrorsLogTitle>
+  <AdminPermissionsModifyLocalizationsTitle>แก้ไขการแปลเป็นภาษา</AdminPermissionsModifyLocalizationsTitle>
+  <AdminPermissionsFolderPathTitle>เส้นทางโฟลเดอร์</AdminPermissionsFolderPathTitle>
+  <AdminPermissionsFoldersTitle>โฟลเดอร์ธุรการ</AdminPermissionsFoldersTitle>
+  <AdminPermissionsPrivilegeHint>ผู้ใช้ตั้ง / กลุ่มที่ "{0}" สิทธิพิเศษที่จะได้รับอนุญาต</AdminPermissionsPrivilegeHint>
+  <AdminPermissionsFolderTitle>คุณสมบัติของโฟลเดอร์ธุรการ</AdminPermissionsFolderTitle>
+  <AdminPermissionsFolderFieldTitle>เส้นทางโฟลเดอร์</AdminPermissionsFolderFieldTitle>
+  <AdminPermissionsFolderHint>ข้อมูลเกี่ยวกับโฟลเดอร์ผู้ดูแลระบบ</AdminPermissionsFolderHint>
+  <AdminPermissionsFolderEmptyAccounts>ระบุผู้ใช้และ / หรือกลุ่ม</AdminPermissionsFolderEmptyAccounts>
+  <AdminPermissionsFolderAlreadyExists>โฟลเดอร์ที่มีสถานที่แห่งนี้อยู่แล้ว</AdminPermissionsFolderAlreadyExists>
+  <AdminPermissionsFolderNotFound>โฟลเดอร์ที่มีสถานที่แห่งนี้ไม่พบ</AdminPermissionsFolderNotFound>
+  <AdminPermissionsAllowedFoldersMessage>คุณสามารถสร้าง / Update / จัดการการเข้าถึงเฉพาะกับโฟลเดอร์เหล่านี้หรือโฟลเดอร์ย่อย: {0}</AdminPermissionsAllowedFoldersMessage>
+
+  <AdminUsersCountExceededWarn>ปริมาณสูงสุดของผู้ใช้เกินกว่าที่กำหนด ใบอนุญาตปัจจุบันของคุณช่วยให้เพียง {0} ผู้ใช้สำหรับการเข้าสู่ระบบ สำหรับข้อมูลเพิ่มเติมเปิดแท็บ "{1}" และหา "{2}" ข้อยกเว้น (s) หากต้องการซ่อนการแจ้งเตือนนี้บันทึกเข้าสู่ระบบที่ชัดเจน "{1}" แท็บ</AdminUsersCountExceededWarn>
+
+  <AdminNewVersionAvailableTitle>รุ่นใหม่สามารถใช้ได้!</AdminNewVersionAvailableTitle>
+  <AdminNewVersionAvailableInfo>รุ่นปัจจุบัน: {0} &lt;br /&gt; เวอร์ชันใหม่: {1}</AdminNewVersionAvailableInfo>
+  
+  <SettingsGridDescriptionInfo>ลักษณะ</SettingsGridDescriptionInfo>
+  <SettingsGridFormatInfo>รูปแบบคุ้มค่า</SettingsGridFormatInfo>
+  <SettingsGridDefaultValueInfo>ค่ามาตรฐาน</SettingsGridDefaultValueInfo>
+  <SettingsGridMoreInfo>ข้อมูลเพิ่มเติม</SettingsGridMoreInfo>
+  <SettingsGridRestoreDefault>คืนค่าเริ่มต้น</SettingsGridRestoreDefault>
+
+  <SettingsFormatBoolean>ค่าบูลีน</SettingsFormatBoolean>
+  <SettingsFormatWholeNumber>จำนวนทั้งหมด</SettingsFormatWholeNumber>
+  <SettingsFormatRealNumber>เบอร์จริง</SettingsFormatRealNumber>
+  <SettingsFormatString>เชือก</SettingsFormatString>
+  <SettingsFormatEnum>คุณค่าของการใด ๆ</SettingsFormatEnum>
+  <SettingsFormatSet>รายการคั่นด้วยเครื่องหมายจุลภาคโดยไม่ซ้ำของค่า</SettingsFormatSet>
+  <SettingsFormatArray>รายการคั่นด้วยเครื่องหมายจุลภาคของสตริง</SettingsFormatArray>
+  <SettingsFormatToolbarButtons>. (. ราคา "{0}" สามารถทำซ้ำได้หลายครั้ง แต่ไม่ได้อยู่ในแถวหลังชื่อแต่ละตามด้วยเครื่องหมายมันเป็นไปได้ที่จะระบุหนึ่งในวิธีการที่ใช้ในการแสดงปุ่ม: {1})</SettingsFormatToolbarButtons>
+
+  <AdminSettingsSave>บันทึกการตั้งค่า</AdminSettingsSave>
+  <AdminToggleHiddenParams>{0} พารามิเตอร์ขั้นสูง</AdminToggleHiddenParams>
+  <AdminHintHiddenParams>พารามิเตอร์เพิ่มเติมมีวัตถุประสงค์เฉพาะสำหรับการตั้งค่าความละเอียดมากขึ้นและในกรณีส่วนใหญ่จะไม่ค่อยจำเป็น</AdminHintHiddenParams>
+  <AdminShowHiddenParams>แสดง</AdminShowHiddenParams>
+  <AdminHideHiddenParams>ปิดบัง</AdminHideHiddenParams>
+
+  <SettingsDenyAuthModeChange>โหมดการตรวจสอบโดยอัตโนมัติเปลี่ยนไม่ได้รับการสนับสนุน ดู {0} สำหรับคำแนะนำเกี่ยวกับการเปลี่ยนโหมดการรับรองความถูกต้อง</SettingsDenyAuthModeChange>
+  <SettingsApplicationRestartedMsg>แอพลิเคชันเริ่มต้นใหม่</SettingsApplicationRestartedMsg>
+  <SettingsSettingsSavedMsg>การตั้งค่าได้รับการบันทึก</SettingsSettingsSavedMsg>
+  <SettingsSettingsSaveFailedAppMsg>ไม่สามารถบันทึกแฟ้มการกำหนดค่า ตรวจสอบสิทธิ์ในการเขียน NTFS ของ web.config และ HttpCommanderSettings.config ไฟล์ในโฟลเดอร์รากโปรแกรมเว็บ {0} สำหรับผู้ใช้ {1} เกิดข้อผิดพลาด: {2}</SettingsSettingsSaveFailedAppMsg>
+  <SettingsSettingsSaveFailedTempMsg>ไม่สามารถบันทึกแฟ้มการกำหนดค่า ตรวจสอบสิทธิ์ของโฟลเดอร์ชั่วคราว {0} สำหรับผู้ใช้ {1} เกิดข้อผิดพลาด: {2}</SettingsSettingsSaveFailedTempMsg>
+  <SettingsSettingsReadFailedAppMsg>ไม่สามารถอ่านแฟ้มการกำหนดค่า ตรวจสอบอ่าน NTFS สิทธิ์ของ web.config และ HttpCommanderSettings.config ไฟล์ในโฟลเดอร์รากโปรแกรมเว็บ {0} สำหรับผู้ใช้ {1} เกิดข้อผิดพลาด: {2}</SettingsSettingsReadFailedAppMsg>
+  <SettingsSettingsReadFailedTempMsg>ไม่สามารถอ่านแฟ้มการกำหนดค่าในโฟลเดอร์ชั่วคราว ตรวจสอบสิทธิ์ของโฟลเดอร์ชั่วคราว {0} สำหรับผู้ใช้ {1} เกิดข้อผิดพลาด: {2}</SettingsSettingsReadFailedTempMsg>
+  <SettingsSettingsConfigChangedOutside>แฟ้มการกำหนดค่า HttpCommander มีการเปลี่ยนแปลงโดยโปรแกรมอื่น อาจมีการปรับเปลี่ยนได้ด้วยตนเองด้วยโปรแกรมแก้ไขข้อความ แอพลิเคชันที่มีการโหลดไฟล์การกำหนดค่าใหม่ การเปลี่ยนแปลงทั้งหมดที่เกี่ยวข้องกับการกำหนดค่า HttpCommander ที่คุณได้ทำผ่านเว็บอินเตอร์เฟสจะหายไป คุณจำเป็นต้องทำซ้ำพวกเขาแล้วพยายามที่จะบันทึกอีกครั้ง เราขอแนะนำให้กับแฟ้มการกำหนดค่าการแก้ไขด้วยตนเองในขณะที่โปรแกรมกำลังทำงาน มิฉะนั้นคุณควรเริ่มใช้หลังจากเปลี่ยนแฟ้มการกำหนดค่า เกิดข้อผิดพลาด: {0}</SettingsSettingsConfigChangedOutside>
+  <SettingsSettingsSaveNotif>อย่าลืมที่จะบันทึกการเปลี่ยนแปลงการตั้งค่า!</SettingsSettingsSaveNotif>
+  
+  <SettingsEmailNotifTitle>การแจ้งเตือนทางอีเมล์</SettingsEmailNotifTitle>
+  <SettingsEmailNotifApplyBtn>บันทึกการตั้งค่าอีเมล</SettingsEmailNotifApplyBtn>
+  <SettingsEmailNotifResetBtn>รีเซ็ต</SettingsEmailNotifResetBtn>
+  <SettingsEmailNotifEventsLabel>สำหรับเหตุการณ์ที่เกิดขึ้น</SettingsEmailNotifEventsLabel>
+  <SettingsEmailNotifWhenLabel>ส่ง</SettingsEmailNotifWhenLabel>
+  <SettingsEmailNotifEmailsLabel>อีเมล</SettingsEmailNotifEmailsLabel>
+  <SettingsEmailNotifPathsLabel>เส้นทาง</SettingsEmailNotifPathsLabel>
+  
+  <LogsErrorsGridUrlColumn>url</LogsErrorsGridUrlColumn>
+  <LogsErrorsGridMsgColumn>ข่าวสาร</LogsErrorsGridMsgColumn>
+  <LogsErrorsGridMoreInfoColumn>ข้อมูลเพิ่มเติม</LogsErrorsGridMoreInfoColumn>
+  <LogsErrorsGridDetailsTitle>รายละเอียด</LogsErrorsGridDetailsTitle>
+  
+  <FsrmUnableLoadLibraryLocal>ไม่สามารถเชื่อมต่อไปยังแฟ้มจัดการทรัพยากร Server บนโฮสต์ท้องถิ่น</FsrmUnableLoadLibraryLocal>
+  <FsrmUnableLoadLibraryRemote>ไม่สามารถเชื่อมต่อไปยังแฟ้มจัดการทรัพยากรของเซิร์ฟเวอร์ใน "{0}" เจ้าภาพ</FsrmUnableLoadLibraryRemote>
+  <FsrmNotInstalled>ไฟล์จัดการทรัพยากรของเซิร์ฟเวอร์ไม่ได้ติดตั้ง "{0}"</FsrmNotInstalled>
+  <FsrmNotInstalledEitherEnd>ไฟล์จัดการทรัพยากรของเซิร์ฟเวอร์ไม่ได้ติดตั้งทั้งในพื้นที่ท้องถิ่นหรือบน "{0}"</FsrmNotInstalledEitherEnd>
+  <FsrmQuotaNotSpecified>โควต้าไม่ได้ระบุ</FsrmQuotaNotSpecified>
+  <FsrmUnableGetQuota>ไม่สามารถที่จะได้รับโควต้า จำกัด</FsrmUnableGetQuota>
+  <FsrmUnableSetQuota>ไม่สามารถตั้งค่าโควต้า จำกัด</FsrmUnableSetQuota>
+  <FsrmQuotaSetMsg>โควต้าที่ได้รับการตั้งค่า</FsrmQuotaSetMsg>
+  <FsrmInvalidQuotaValueMsg>ค่าโควต้าที่ไม่ถูกต้อง</FsrmInvalidQuotaValueMsg>
+
+  <CommandBuyNow>ซื้อตอนนี้</CommandBuyNow>
+
+  <AdminUpdateTab>อัพเกรด</AdminUpdateTab>
+  <AdminUpdateManual>อัพเกรดคู่มือการใช้งาน</AdminUpdateManual>
+  <AdminUpdateAuto>อัพเกรดอัตโนมัติ</AdminUpdateAuto>
+  <AdminUpdateStartButton>เริ่มการอัพเกรด / สร้างการสำรองข้อมูล</AdminUpdateStartButton>
+  <AdminUpdateFinishButton>เสร็จสิ้นการอัพเกรด / กู้คืนการสำรองข้อมูล</AdminUpdateFinishButton>
+  <AdminUpdateBackupButton>การสำรองข้อมูล</AdminUpdateBackupButton>
+  <AdminUpdateDownloadNewButton>ดาวน์โหลดรุ่นใหม่</AdminUpdateDownloadNewButton>
+  <AdminUpdateStepTitle>ขั้นตอนที่ {0} {1}: {2}</AdminUpdateStepTitle>
+  <AdminUpdateStepInfo>ขั้นตอนที่ {0} {1}</AdminUpdateStepInfo>
+  <AdminUpdateNumberSymbol>#</AdminUpdateNumberSymbol>
+  <AdminUpdateBackupContent>กรุณากดที่ปุ่ม "{0}" สำหรับการสร้างสำเนาสำรองของโฟลเดอร์ที่มีการประยุกต์ใช้และการเชื่อมโยงสำหรับการดาวน์โหลดที่</AdminUpdateBackupContent>
+  <AdminUpdateDownloadBackupLinkHint>กรุณาดาวน์โหลดสำเนาสำรองของแอพลิเคชันโดยใช้ลิงค์ด้านล่าง:</AdminUpdateDownloadBackupLinkHint>
+  <AdminUpdateDownloadNewContent>แล้วโปรดดาวน์โหลดเวอร์ชันใหม่โดยใช้ลิงค์ข้างล่างนี้และติดตามการติดตั้ง {0} {1} และ {2} อัพเกรด {1} คำแนะนำในการติดตั้งรุ่นใหม่ หลังจากการติดตั้งโปรดเปิด Admin Panel ไปที่แท็บ "{3}" และกดปุ่ม "{4}" เพื่อที่จะติดตั้งเสร็จสมบูรณ์</AdminUpdateDownloadNewContent>
+  <AdminUpdateUploadButton>อัปโหลดสำเนาสำรองข้อมูลและการใช้การตั้งค่า</AdminUpdateUploadButton>
+  <AdminUpdateUploadAndInstallButton>ติดตั้งรุ่นใหม่กับการรักษาการตั้งค่าทั้งหมด</AdminUpdateUploadAndInstallButton>
+  <AdminUpdateUploadEmptyText>กรุณาเลือกสำเนาสำรองสำหรับการอัปโหลด</AdminUpdateUploadEmptyText>
+  <AdminUpdateFinishContent>เพื่อเรียกคืนการตั้งค่าของรุ่นก่อนหน้าโปรดเลือกและอัปโหลดแฟ้มสำรองข้อมูลไว้ก่อนหน้านี้ที่มีโฟลเดอร์ของโปรแกรมประยุกต์</AdminUpdateFinishContent>
+  <AdminUpdateFinishMessage>ขอแสดงความยินดี! การตั้งค่าทั้งหมดจะถูกนำไปใช้เรียบร้อย นอกจากนี้โปรดใช้การเปลี่ยนแปลงทั้งหมดที่คุณทำกับไฟล์อื่น ๆ เช่น Default.aspx หรือ Global.asax</AdminUpdateFinishMessage>
+  <AdminUpdateFinishRefreshPage>หน้าเว็บจะโหลดใหม่</AdminUpdateFinishRefreshPage>
+  <AdminUpdateMainInfo>ประเภทของการอัพเกรดนี้เป็นเพียงบางส่วนโดยอัตโนมัติ ท่านสามารถสร้างและดาวน์โหลดไฟล์สำรองข้อมูลที่มีการตั้งค่าการใช้งานและเรียกคืนได้หลังจากการอัพเกรด โปรดปฏิบัติตามขั้นตอนสั้นเหล่านี้: สร้างแฟ้มสำรองข้อมูลดำเนินการอัพเกรดคู่มือการเรียกคืนการตั้งค่าจากแฟ้มสำรอง ขั้นตอนนี้ยังสามารถนำมาใช้ในการสำรอง / กู้คืนการตั้งค่าโดยไม่ต้องอัพเกรด เพียงแค่ข้ามขั้นตอนการอัพเกรดที่จะเรียกคืนการตั้งค่าจากแฟ้มสำรอง</AdminUpdateMainInfo>
+  <AdminUpdateAutoButton>รถยนต์</AdminUpdateAutoButton>
+  <AdminUpdateAutoInfo>ประเภทของการอัพเกรดนี้เป็นไปโดยอัตโนมัติเกือบเต็มที่ มันประกอบด้วยขั้นตอนที่ 2: การสำรองข้อมูลของการตั้งค่าปัจจุบัน (คุณควรจะดาวน์โหลดและบันทึกไฟล์สำรอง), การติดตั้งรุ่นใหม่และการฟื้นฟูของการตั้งค่าจากแฟ้มสำรองข้อมูล HTTP บัญชาการจะสามารถดาวน์โหลดรุ่นล่าสุดและติดตั้งหรือคุณสามารถระบุเส้นทางไปยังไฟล์ zip ที่มีรุ่นใหม่บนเซิร์ฟเวอร์ของเรา การตั้งค่าทั้งหมดจะถูกเรียกคืนโดยอัตโนมัติจากแฟ้มสำรองข้อมูลไว้ก่อนหน้านี้</AdminUpdateAutoInfo>
+  <AdminUpdateRestoreWebConfigCheckBox>เรียกคืนการตั้งค่าจาก Web.config (เช่นเช่น SMTP)</AdminUpdateRestoreWebConfigCheckBox>
+  <AdminUpdateBackupAssignedFoldersInRootMessage>ความสนใจ! มีบางโฟลเดอร์ของผู้ใช้ในไดเรกทอรีที่มีแอพลิเคชันที่มีขนาดรวมมากกว่าเป็น {0} การสำรองข้อมูลจะไม่ได้ทำ กรุณาทำสำเนาสำรองของไดเรกทอรีเหล่านี้เอาออกจากไดเรกทอรีใบสมัครและลองใหม่อีกครั้งการดำเนินงานในด้านของคุณ</AdminUpdateBackupAssignedFoldersInRootMessage>
+  <AdminUpdateNeedRefreshPageForContinue>ความสนใจ! เพื่อดำเนินการต่อมันเป็นสิ่งจำเป็นในการโหลดหน้าเว็บ กรุณากดที่ปุ่ม "{0}" หลังจากโหลดกรุณาทำซ้ำการดำเนิน</AdminUpdateNeedRefreshPageForContinue>
+  <AdminUpdateRestoreFromBackupEmpty>หรือถ้ายังไม่ได้เลือกมันจะถูกใช้โดยไฟล์ที่สร้างขึ้นใหม่ในขั้นตอนก่อนหน้า</AdminUpdateRestoreFromBackupEmpty>
+  <AdminUpdateInstallZipPathHint>สำหรับการปรับปรุงโปรดระบุเส้นทางทางกายภาพแบบเต็มไปยังแฟ้มการติดตั้ง (บนเซิร์ฟเวอร์) ในฟิลด์แรกหรือปล่อยให้มันว่างเปล่าเพื่อที่จะใช้การกระจายออนไลน์</AdminUpdateInstallZipPathHint>
+  <AdminUpdateInstallZipPathEmpty>ระบุเส้นทางไปเก็บที่มีการติดตั้ง</AdminUpdateInstallZipPathEmpty>
+  <AdminUpdateProgress>อัปเดต</AdminUpdateProgress>
+  <AdminUpdateAccessDeniedWarning>&lt;b&gt; โปรดทราบ! &lt;/b&gt; สำหรับการปรับปรุงโปรดตั้งปรับเปลี่ยน (อ่านและการเขียน) NTFS สิทธิ์ไปที่ {0} ผู้ใช้สำหรับโฟลเดอร์ด้วย http บัญชาการ {1} และทำซ้ำอัพเกรด. &lt;br /&gt; หลังจากที่ประสบความสำเร็จในการอัพเกรดโปรด เรียกคืนสิทธิอดีต</AdminUpdateAccessDeniedWarning>
+  <AdminUpdateAccessDeniedWarningCurentUser>ปัจจุบัน</AdminUpdateAccessDeniedWarningCurentUser>
+
+  <ServerExceedsMaxSizeForEditAsTextFile>ขนาดไฟล์เกินขนาดสูงสุดเพื่อแก้ไขเป็นแฟ้มข้อความ</ServerExceedsMaxSizeForEditAsTextFile>
+  <ServerDemoMode>การกระทำที่ได้รับเป็นสิ่งต้องห้ามในโหมดการสาธิต</ServerDemoMode>
+  <ServerHostedMode>มันไม่ได้รับอนุญาตให้เปลี่ยนค่าของการตั้งค่าต่อไปนี้ในรุ่นทดลองเจ้าภาพ: {0}</ServerHostedMode>
+  <ServerIncorrectImageContentType>ไฟล์ประเภท Mime ไม่ได้เป็นภาพ</ServerIncorrectImageContentType>
+  <ServerPermissionDenied>การดำเนินการนี้จะถูกปฏิเสธเนื่องจากการ จำกัด สิทธิ์</ServerPermissionDenied>
+  <ServerRestoreFromTrashNoParentFolder>ฟื้นฟูล้มเหลวเนื่องจากไดเรกทอรีแม่ "{0}" ได้รับการไม่พบ โปรดให้สร้างขึ้นและลองอีกครั้ง</ServerRestoreFromTrashNoParentFolder>
+  <ServerModifyPermissionDenied>การดำเนินการนี้จะถูกปฏิเสธเพราะคุณไม่ได้รับอนุญาตให้แก้ไขไฟล์</ServerModifyPermissionDenied>
+  <ServerPathNotFound>ไม่พบเส้นทาง</ServerPathNotFound>
+  <ServerInvalidPath>เส้นทาง "{0}" ไม่ถูกต้อง</ServerInvalidPath>
+  <ServerInvalidAbsolutePath>เส้นทางที่ไม่ถูกต้องแน่นอน "{0}"</ServerInvalidAbsolutePath>
+  <!-- share folder path: \\server\share -->
+  <ServerInvalidShareFolderPath>เส้นทางที่ไม่ถูกต้องโฟลเดอร์ที่ใช้ร่วม "{0}"</ServerInvalidShareFolderPath>
+  <ServerInvalidUncPath>เส้นทางที่ไม่ถูกต้อง UNC "{0}"</ServerInvalidUncPath>
+  <ServerUnableResolveUncPath>ไม่สามารถแก้ไขเส้นทาง UNC "{0}"</ServerUnableResolveUncPath>
+  <ServerInvalidFileName>ชื่อไฟล์ / โฟลเดอร์ไม่ได้ตั้งค่าหรือมีอักขระที่ไม่ถูกต้อง {0}</ServerInvalidFileName>
+  <ServerFilePathNotFound>ไม่มีไฟล์</ServerFilePathNotFound>
+  <ServerIncorrectPathForFileLink>ชนิดของวัตถุที่ไม่ถูกต้อง เส้นทางที่ระบุชี้ไปยังโฟลเดอร์</ServerIncorrectPathForFileLink>
+  <ServerIncorrectPathForFolderLink>ชนิดของวัตถุที่ไม่ถูกต้อง เส้นทางที่ระบุชี้ไปยังแฟ้ม</ServerIncorrectPathForFolderLink>
+  <ServerRootFolderNotFound>โฟลเดอร์รากเส้นทาง "{0}" ไม่พบ</ServerRootFolderNotFound>
+  <ServerUnableCreateFolder>ไม่สามารถสร้างโฟลเดอร์</ServerUnableCreateFolder>
+  <ServerFileAlreadyExists>ไฟล์ที่มีชื่อนี้อยู่แล้ว</ServerFileAlreadyExists>
+  <ServerFileAlreadyExistsOnRename>
+    คุณต้องการที่จะเปลี่ยนชื่อ "{0}" เพื่อ "{1}"?
+    มีอยู่แล้วไฟล์ที่มีชื่อเดียวกันในตำแหน่งนี้
+  </ServerFileAlreadyExistsOnRename>
+  <ServerFolderAlreadyExistsOnRename>
+    คุณต้องการที่จะเปลี่ยนชื่อ "{0}" เพื่อ "{1}"?
+    มีอยู่แล้วในโฟลเดอร์ที่มีชื่อเดียวกันในสถานที่แห่งนี้
+  </ServerFolderAlreadyExistsOnRename>
+  <ServerFoldersMergeConfirm>
+    ปลายทางนี้แล้วมีโฟลเดอร์ชื่อ "{0}"
+    คุณยังต้องการที่จะผสานโฟลเดอร์นี้ "{0}" กับคนนี้ "{1}"?
+  </ServerFoldersMergeConfirm>
+  <ServerFolderWithSameNameAsFileNameAlreadyExists>มีอยู่แล้วโฟลเดอร์ที่มีชื่อเดียวกัน "{0}" เป็นชื่อไฟล์ที่คุณระบุ</ServerFolderWithSameNameAsFileNameAlreadyExists>
+  <ServerFileWithSameNameAsFolderNameAlreadyExists>มีอยู่แล้วไฟล์ที่มีชื่อเดียวกัน "{0}" เป็นชื่อโฟลเดอร์ที่คุณระบุ</ServerFileWithSameNameAsFolderNameAlreadyExists>
+  <ServerFileNotFound>แฟ้ม "{0}" ไม่พบในโฟลเดอร์ "{1}" อาจจะได้รับการลบหรือถูกลบออกโดยผู้ใช้อื่น</ServerFileNotFound>
+  <ServerDirectoryAlreadyExists>ไดเรกทอรีที่มีชื่อนี้อยู่แล้ว</ServerDirectoryAlreadyExists>
+  <ServerFolderMoveAlreadeExists>โฟลเดอร์ปลายทาง "{0}" เป็นเช่นเดียวกับโฟลเดอร์ต้นทาง</ServerFolderMoveAlreadeExists>
+  <ServerUploadPathNotFound>เส้นทางสำหรับการจัดเก็บไฟล์ไม่พบบนเซิร์ฟเวอร์</ServerUploadPathNotFound>
+  <ServerUploadPathNotSet>เกิดข้อผิดพลาดในขณะที่รับเส้นทางสำหรับการอัปโหลด โปรดรีเฟรชหน้าเว็บเบราว์เซอร์และลองอีกครั้ง</ServerUploadPathNotSet>
+  <ServerUploadNoChunk>ไม่มีก้อนสำหรับบันทึก</ServerUploadNoChunk>
+  <ServerUploadWriteChunk>เขียนก้อนตั้งแต่ไบต์</ServerUploadWriteChunk>
+  <ServerUploadCreatingFile>การสร้างไฟล์</ServerUploadCreatingFile>
+  <ServerUploadFileUploaded>ไฟล์ที่ได้รับการอัปโหลด</ServerUploadFileUploaded>
+  <ServerUploadWriteError>ข้อผิดพลาดของการเขียน</ServerUploadWriteError>
+  <ServerConfigurationError>การกำหนดค่าที่ไม่ถูกต้องหรือโปรแกรม! ติดต่อผู้ดูแลเว็บไซต์</ServerConfigurationError>
+  <ServerPermissionsAllowTypes>สิทธิ์ปัจจุบันอนุญาตให้มีการดำเนินการนี้เท่านั้นที่มีไฟล์ประเภท {0}</ServerPermissionsAllowTypes>
+  <ServerPermissionsDenyTypes>สิทธิ์ปัจจุบันห้ามการดำเนินงานนี้กับไฟล์ประเภท {0}</ServerPermissionsDenyTypes>
+  <ServerRequestSizeExceeded>ขนาดของไฟล์ที่อัปโหลดเกินขนาดที่ได้รับอนุญาตในการตั้งค่าเซิร์ฟเวอร์</ServerRequestSizeExceeded>
+  <ServerEmailMsgProcessedFilesSubject>อัปโหลด / ดัดแปลง / ดาวน์โหลด / สร้าง / ลบ / แชร์ไฟล์ / โฟลเดอร์</ServerEmailMsgProcessedFilesSubject>
+  <ServerEmailMsgUploadFilesTitle>อัปโหลด</ServerEmailMsgUploadFilesTitle>
+  <ServerEmailMsgModifyFilesTitle>การแก้ไข</ServerEmailMsgModifyFilesTitle>
+  <ServerEmailMsgDownloadFilesTitle>ดาวน์โหลด</ServerEmailMsgDownloadFilesTitle>
+  <ServerEmailMsgCreateFilesTitle>สร้าง</ServerEmailMsgCreateFilesTitle>
+  <ServerEmailMsgDeleteFilesTitle>ลบ</ServerEmailMsgDeleteFilesTitle>
+  <ServerEmailMsgCreatePublicFilesTitle>ที่ใช้ร่วมกัน</ServerEmailMsgCreatePublicFilesTitle>
+  <ServerEmailMsgProcessedFilesBody>
+    ต่อไปนี้ไฟล์ / โฟลเดอร์เป็น {0} โดย {1}:
+
+{2}
+    
+  </ServerEmailMsgProcessedFilesBody>
+  <ServerEmailMsgPasswordRecoverSubject>รหัสผ่าน</ServerEmailMsgPasswordRecoverSubject>
+  <ServerEmailMsgPasswordRecoverBody>
+    คุณขอกู้คืนรหัสผ่านของคุณในตัวจัดการไฟล์เว็บ รหัสผ่านของคุณถูกตั้งค่าใหม่ หากคุณเชื่อว่านี่เป็นข้อผิดพลาดก็ไม่สนใจจดหมายฉบับนี้ แต่ทราบว่ารหัสผ่านของคุณมีการเปลี่ยนแปลง
+    ชื่อผู้ใช้: {0}
+    รหัสผ่านใหม่: {1}
+  </ServerEmailMsgPasswordRecoverBody>
+  
+  <ServerEmailMsgUserNameRecoverSubject>การกู้คืนรหัสผู้ใช้</ServerEmailMsgUserNameRecoverSubject>
+  <ServerEmailMsgUserNameRecoverBody>
+    คุณได้ร้องขอที่จะกู้ชื่อของคุณในตัวจัดการไฟล์เว็บ
+    ชื่อผู้ใช้: {0}
+  </ServerEmailMsgUserNameRecoverBody>
+
+  <ServerEmailMsgUserActivationSubject>เปิดใช้งานบัญชี</ServerEmailMsgUserActivationSubject>
+  <ServerEmailMsgUserActivationBody>
+    บัญชี ({0}) การเปิดใช้งานจะต้อง
+    เพื่อเปิดใช้งานบัญชีของคุณโปรดคลิกที่ลิงค์ต่อไปนี้: {1}
+  </ServerEmailMsgUserActivationBody>
+  <ServerEmailMsgUserRegisteredSubject>ผู้ใช้ที่ลงทะเบียน</ServerEmailMsgUserRegisteredSubject>
+  <ServerEmailMsgUserRegisteredBody>
+    คุณจะลงทะเบียนเรียบร้อยแล้วในเว็บจัดการไฟล์
+    ชื่อผู้ใช้: {0}
+  </ServerEmailMsgUserRegisteredBody>
+  <ServerEmailMsgUserRegisteredForAdminsBody>
+    &lt;h4&gt; ผู้ใช้ใหม่ได้รับการจดทะเบียน &lt;/h4&gt;
+    &lt;strong&gt; ชื่อผู้ใช้: &lt;/strong&gt;: {0} &lt;br /&gt;
+    อีเมล &lt;strong&gt; &lt;/strong&gt;: {1} &lt;br /&gt;
+    &lt;strong&gt; วันที่ &lt;/strong&gt;: {2} &lt;br /&gt;
+    &lt;strong&gt; ข้อมูลเสริม &lt;/strong&gt;: {3} &lt;br /&gt;
+  </ServerEmailMsgUserRegisteredForAdminsBody>
+  <ServerDiskFullError>มีพื้นที่ไม่เพียงพอบนดิสก์</ServerDiskFullError>
+  <ServerFolderLimitations>ข้อ จำกัด โฟลเดอร์: {0}</ServerFolderLimitations>
+  <ServerShortcutAssignedFolderNotFound>โฟลเดอร์ที่ได้รับมอบหมายไม่พบเส้นทางที่กำหนดเป้าหมายของทางลัด</ServerShortcutAssignedFolderNotFound>
+  <ServerSizeFilesForZipExceeded>ค่าขนาดของไฟล์ archivable เกินอนุญาต {0}</ServerSizeFilesForZipExceeded>
+  <ServerPasteFolderToSubfolderError>โฟลเดอร์ปลายทาง "{0}" เป็นโฟลเดอร์ย่อยของโฟลเดอร์แหล่งที่มา "{1}"</ServerPasteFolderToSubfolderError>
+  <ServerLiveConnectAppIDNotSpecified>รหัสลูกค้าของโปรแกรม Microsoft Live Connect ไม่ได้กำหนดไว้</ServerLiveConnectAppIDNotSpecified>
+  <ServerSendEmailInfo>ผู้เขียนระบุอีเมลของพวกเขาเป็น {0} ใช้เฉพาะที่อยู่อีเมลนี้จะตอบ</ServerSendEmailInfo>
+
+  <ServerAntivirusScanningFailed>การสแกนโดยโปรแกรมป้องกันไวรัส: '{0} {1}' ยกเลิกอย่างผิดปกติ</ServerAntivirusScanningFailed>
+
+  <ServerUserNameNotFound>ผู้ใช้ที่มีชื่อ '{0}' ไม่พบ</ServerUserNameNotFound>
+  <ServerFileNameCopySuffix>สำเนา</ServerFileNameCopySuffix>
+
+  <ServerDeleteFolderNTFSAccessDenied>คุณไม่ได้รับสิทธิ์ในการลบ NTFS โฟลเดอร์ "{0}"</ServerDeleteFolderNTFSAccessDenied>
+
+  <ServerMSOOTemplateNotFound>{0} ไม่พบแม่แบบ</ServerMSOOTemplateNotFound>
+</Localization>

@@ -1,0 +1,142 @@
+﻿<!-- saved from url=(0014)about:internet -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Aide sur manageur web-file mobile </title>
+    <meta http-equiv="Content-Type" content="text/html,  charset=utf-8" />
+    <meta content="NOINDEX,NOFOLLOW" name="ROBOTS" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0" />
+    
+	<script type="text/javascript">
+	   
+        function toggleBlock(id) {
+            var el = document.getElementById(id);
+            if (el) {
+                el.style.display = el.style.display == 'none' ? 'block' : 'none';
+            }
+        }
+        function parseQueryString(query) {
+            var result = {};
+            var queryString = query ? query : window.location.search;
+            var qStr = queryString.substr(1).replace(/\+/g, ' ').split('&');
+            for (var i = 0; i < qStr.length; i++) {
+                var keyVal = qStr[i].split('=');
+                result[keyVal[0]] = decodeURIComponent(keyVal[1]);
+            }
+            return result;
+        }
+        function htmlEncode(input) {
+            return (String(input) || '').replace(/&/g, '&amp;').replace(/>/g, '&gt;').replace(/</g, '&lt;').replace(/"/g, '&quot;');
+        }
+        function bodyLoaded(qStr) {
+            var webdavNotesIds = ['webdav_note1', 'webdav_note2'],
+                webdavLinksIds = ['webdav_link1', 'webdav_link2', 'webdav_link3'],
+                webdavUrl = '',
+                o = parseQueryString(qStr),
+                spanLink, liInfo,
+                showWebDavLinks = false;          
+            if (o['webdav']) {
+                var re = /^\s+|\s+$/g;
+                webdavUrl = String(o['webdav']).replace(re, '');
+            }
+            if (webdavUrl.length > 0) {
+                for (var i = 0; i < webdavLinksIds.length; i++) {
+                    spanLink = document.getElementById(webdavLinksIds[i]);
+                    if (spanLink) {
+                        spanLink.innerHTML = htmlEncode(webdavUrl);
+                        showWebDavLinks = true;
+                    }
+                }
+            }
+            for (var i = 0; i < webdavNotesIds.length; i++) {
+                liInfo = document.getElementById(webdavNotesIds[i]);
+                if (liInfo) {
+                    liInfo.style.display = showWebDavLinks ? '' : 'none';
+                }
+            }
+        }        
+        
+    </script>
+</head>
+<body onload="bodyLoaded()" style="font-family: Tahoma; font-size: 13px; background-color: #ffffff; color: #000000;">
+    
+    <center><h3>Manageur web-file, l'interface pour les appareils mobiles. Manuel d'usager</h3></center>
+    
+	<a id="ios"></a><h4><img alt="iOS" align="absmiddle" width="16" height="16" src="Images/apple.png">&nbsp;Pour les usagers des appareils sur la base de iOS (iPhone, iPad):</h4>
+	
+	<ul>
+	<li>
+	Vous pouvez installer <strong>une application mobile</strong> (client pour le manageur du web-file) pour iPhone ou iPad. 
+    L'application permet à maintenir le chemin au serveur et aussi le nom et la parole donc il ne faut pas les entrer chaque fois.
+    Vous pouvez charger une application du App Store <a href="http://itunes.apple.com/us/app/http-commander/id561413475?mt=8" target="_blank">http://itunes.apple.com/us/app/http-commander/id561413475?mt=8</a><br/>
+	<a target="_blank" href="Images/iosappscreenshot.jpg" onClick="toggleBlock('iosapp'); return false;" class="imglink">Screenshot</a>
+      <div id="iosapp" style="display: none;">
+        <p class="screenshot">
+            &nbsp;<img alt="iOS" src="Images/iosappscreenshot.jpg" style="width: 320px; height: 480px" /></p>
+      </div>
+	</li>
+		<li id="webdav_note1" style="display:none;">
+        Vous pouvez corriger des documents dans une application mobile <strong>Pages</strong>. 
+        Cette application permet de connecter vos dossiers et puis corriger des documents vite et facilement et les charger sur le serveur directement de votre iPhone/iPad. Après la correction vous pouvez charger les document sur le serveur.
+		<ul>
+		<li>
+		 Installez l'application <strong>Apple Pages</strong> sur votre appareil mobile: <a target="_blank" href="https://itunes.apple.com/us/app/pages/id361309726?mt=8">https://itunes.apple.com/us/app/pages/id361309726?mt=8</a> .		 </li>
+		 <li>Lancez l'application Pages</li>
+
+		 <li> <strong>Pour ouvrir un document du serveur</strong>: Pressez  <strong>le symbole + </strong> dans le coin haut gauche, puis choisissez <strong>"Copy from WebDAV"</strong> dans le menu. Dans le dialogue apparu "WebDAV Sign In" entrez une adresse du serveur: <b><span id="webdav_link1"></span></b>&nbsp;, vos nom et parole. Pressez le bouton <strong>"Sign In"</strong>.
+          Après cela on va montrer la liste de vos dossiers et vous pouvez choisir un document nécessaire à corriger.</li>
+         <li> <strong>Pour charger un document sur le serveur </strong> ou sauver les changements dans le document: Dans le régime de la correction du document trouvez et pressez le symbole <strong>Tools icon</strong> sur les barres d'outils, puis choisissez le point <strong>"Share and print"</strong> , puis  <strong>"Copy to WebDAV"</strong> (ou <strong>"Send copy"</strong>, et puis <strong>WebDAV</strong>). Dans le dialogue apparu "WebDAV Sign In" entrez une adresse du serveur: <b><span id="webdav_link2"></span></b>&nbsp;et vos nom et parole. Pressez le bouton <strong>"Sign In"</strong>.
+          Après cela vous allez voir la liste de vos dossiers. Sauvez le document sous un nom nouveau du file ou utilisez le même nom du document ouvert pour le renouveler dans le serveur.</li>
+		
+		</ul>
+    </li>
+	</ul>
+    
+    
+	<a id="android"></a><h4><img alt="Andorid" align="absmiddle" width="16" height="16" src="Images/android.png">&nbsp;Pour usagers d'Android:</h4>
+	
+	<ul>
+	
+	
+    <li>
+	Vous pouvez installer <strong>une application mobile</strong>  (client pour le manageur du web-file) à votre appareil sur Android. 
+    L'application permet à maintenir le chemin au serveur et aussi le nom et la parole donc il ne faut pas les entrer chaque fois. 
+    Vous pouvez charger l'application de Android Play Market <a href="https://play.google.com/store/apps/details?id=com.elementit.httpcommander" target="_blank">https://play.google.com/store/apps/details?id=com.elementit.httpcommander</a><br/>
+	<a target="_blank" href="Images/androidappscreenshot.jpg" onClick="toggleBlock('androidapp'); return false;" class="imglink">Screenshot</a>
+      <div id="androidapp" style="display: none;">
+        <p class="screenshot">
+            &nbsp;<img alt="Android" src="Images/androidappscreenshot.jpg" style="width: 269px; height: 480px" /></p>
+      </div></li>
+	  <li id="webdav_note2" style="display:none;">Aussi vous pouvez user une application populaire gratuite <strong>ES File Explorer </strong> pour admimistrer vos files et dossiers.
+       À l'aide de cette application vous pouvez diriger vos files et dossiers dans un programme habituel. Vous pouvez executer les opérations principales avec des files et dossiers et aussi les charger.
+       L'instruction de l'ajustement:
+	    <ul>
+	  <li>Chargez et installez l'application <strong>ES File Explorer </strong> sur votre appareil mobile du Play Market <a target="_blank" href="https://play.google.com/store/apps/details?id=com.estrongs.android.pop">https://play.google.com/store/apps/details?id=com.estrongs.android.pop</a></li>
+	  <li>Lancez l'application <strong>ES File Explorer </strong></li>
+	  <li>Pressez le symbole <b>("View")</b> dans le coin gauche haut et choisissez <strong>FTP</strong> dans le groupe "Réseau"</li>
+	  <li>Pressez le bouton <strong>"New"</strong> sur les barres basses , dans le meny apparu chosissez <strong>"WEBDAV"</strong>.</li>
+	  <li>Remplissez toutes les lignes (Dans la ligne 'adresse du serveur' entrez <b>"<span id="webdav_link3"></span>"</b>, remplissez les lignes nom et parole) et pressez le bouton <strong>"OK"</strong>.
+       Un élément nouveau va apparaître dans la liste des serveurs de la fenêtre FTP. </li>
+	  <li>Pressez un élément ajouté pour connecter au serveur.</li>
+	  <li>Après la connexion vous allez voir la liste des dossiers et des files. 
+        Maintenant vous pouvez commencer travailler avec vos files. </li>
+	  </ul>
+	  </li>
+	  <li id="webdav_note3" style="">
+        Vous pouvez corriger des documents directement sur le serveur à l'aide d'une application <strong>Kingsoft Office</strong>. 
+		Cette application permet de brancher vos dossiers et puis corriger des documents vite et facilement directement sur votre appareil sur Android. Après la correction tous les changements seront sauvés sur le serveur.		
+		<ul>
+		<li>
+		 Installez l'application <strong>Kingsoft Office</strong> sur votre appareil: <a target="_blank" href="https://play.google.com/store/apps/details?id=cn.wps.moffice_eng">https://play.google.com/store/apps/details?id=cn.wps.moffice_eng</a> .		 </li>
+		 <li>Lancez une application installée</li>
+
+		 <li> <strong>Pour ouvrir un document du serveur</strong>: Pressez <strong>Open -> Cloud Storages</strong> dans le haut menu, puis choisissez <strong>"Add WebDAV / FTP"</strong> dans la liste apparue. <br/>Dans la fenêtre de dialogue entrez URL au serveur: <b><span id="webdav_link4"></span></b> et un nom à cette connexion (à votre choix). Pressez le bouton <strong>"Submit"</strong>. Dans la liste des connexions on va apparaître le joint créé, pressez le et entrez vos nom et parole.</li>
+		 <li> Si tout est fait bien vous allez voir la liste de vos dossiers et files. Simplement pressez le document nécessaire pour l'ouvrir à corriger ou regarder.</li>
+         <li> <strong>Pour sauver le document au serveur </strong> ou sauver les changements dans le document: Si vous avez ouvert le document  au serveur WebDAV, trouvez et pressez <strong>Save</strong> sur les barres d' outils. Si vous avez ouvert un document local (sauvé sur l'appareil) ou s'il faut sauver un document sous un autre nom, trouvez et pressez le bouton <strong>Save As</strong> sur les barres d' outils. Dans le dialogue apparu choisissez une feuille 'Cloud storaged' dans une part haute du dialogue et choisissez sur la liste la connexion nécessaire (si vous ne l'avez pas encore créé, voyez le point précédent  de l'ouverture du document), et puis le dossier sur le serveur. </li>
+		
+		</ul>
+    </li>
+	</ul>
+	<br />
+</body>
+</html>

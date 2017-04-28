@@ -1,0 +1,880 @@
+﻿<!-- saved from url=(0014)about:internet -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html, charset=utf-8" />
+    <title>Web file manager Help</title>
+    <style type="text/css">
+        body {
+            font-family: Tahoma;
+            font-size: 13px;
+            background-color: #ffffff;
+            color: #000000;
+        }
+        .icon-image-16 {
+            border: 0px none;
+            vertical-align: middle;
+            width: 16px;
+            height: 16px;
+        }
+    </style>
+    <script type="text/javascript">
+        function parseQueryString(query) {
+            var result = {};
+            var queryString = query ? query : window.location.search;
+            var qStr = queryString.substr(1).replace(/\+/g, ' ').split('&');
+            for (var i = 0; i < qStr.length; i++) {
+                var keyVal = qStr[i].split('=');
+                result[keyVal[0]] = decodeURIComponent(keyVal[1]);
+            }
+            return result;
+        }
+        function htmlEncode(input) {
+            return (String(input) || '').replace(/&/g, '&amp;').replace(/>/g, '&gt;').replace(/</g, '&lt;').replace(/"/g, '&quot;');
+        }
+        function bodyLoaded(qStr) {
+            var webdavDiv = document.getElementById('webdav_note');
+            if (!!webdavDiv) {
+                webdavDiv.style.display = 'none';
+                var webdavUrl = '';
+                var o = parseQueryString(qStr);
+                if (o['webdav']) {
+                    var re = /^\s+|\s+$/g;
+                    webdavUrl = String(o['webdav']).replace(re, '');
+                }
+                if (webdavUrl.length > 0) {
+                    var linkSpan = document.getElementById('webdav_link');
+                    if (linkSpan) {
+                        linkSpan.value = htmlEncode(webdavUrl);
+                        webdavDiv.style.display = 'block';
+                    }
+                }
+            }
+        }
+        function toggleBlock(id) {
+            if (document.getElementById(id).style.display == 'none') {
+                document.getElementById(id).style.display = 'block';
+            }
+            else {
+                document.getElementById(id).style.display = 'none';
+            }
+        }
+    </script>
+</head>
+<body onload="bodyLoaded()">
+    <div id="google_translate_element"></div>
+
+    <center><h2>Web based file and documents manager help</h2></center>
+
+    <ul>
+        <li><a href="#navigation">Navigation in interface</a></li>
+		<li><a href="#detailspane">Details pane</a></li>
+        <li><a href="#main">Main files operations</a></li>
+        <li><a href="#uploaddownload">Files upload and download</a>&nbsp;<a title="Upload" href="#upload"><img alt="" 
+            class="icon-image-16" src="../../Images/upload.png" /></a>&nbsp;<a title="Download" href="#download"><img 
+                alt="" class="icon-image-16" src="../../Images/download.png" /></a></li>
+        <li><a href="#links">Links to files and folders&nbsp;<img alt="" class="icon-image-16" src="../../Images/linktofile.png" /></a></li>
+        <li><a href="#publiclink">Sharing files, folders for users&nbsp;<img alt="" class="icon-image-16" src="../../Images/sharefolder.png" /></a></li>		
+		<li><a href="#favorites">Favorites</a></li>
+		<li><a href="#recents">Recents</a></li>				
+		<li><a href="#alerts">Watch for modifications</a></li>
+		<li><a href="#trash">Trash</a></li>
+        <li><a href="#webfolders">Mapping web folder (Web Folders links)&nbsp;<img alt="" class="icon-image-16" src="../../Images/webfolders.png" /></a></li>
+        <li><a href="#details">File details, comments and labels&nbsp;<img alt="" class="icon-image-16" src="../../Images/details.png" /></a></li>
+        <li><a href="#docs">Office and images files view and edit</a>&nbsp;<a title="Edit documents in Microsoft Office"
+            href="#office"><img alt="" class="icon-image-16" src="../../Images/mso.png" /></a>&nbsp;<a title="Edit documents in OpenOffice and LibreOffice"
+                href="#office"><img alt="" class="icon-image-16" src="../../Images/ooo.png" /></a>&nbsp;<a title="View documents in Google Docs"
+                    href="#googleandzoho"><img alt="" class="icon-image-16" src="../../Images/googledoc.png" /></a>&nbsp;<a title="View documents in Box"
+                        href="#googleandzoho"><img alt="" class="icon-image-16" src="../../Images/box.png" /></a>&nbsp;<a title="Edit documents in Zoho"
+                        href="#googleandzoho"><img alt="" class="icon-image-16" src="../../Images/zoho.png" /></a>&nbsp;<a title="Edit images in Pixlr"
+                            href="#googleandzoho"><img alt="" class="icon-image-16" src="../../Images/pixlr.png" /></a>&nbsp;<a title="Converting with CloudConvert"
+                            href="#googleandzoho"><img alt="" class="icon-image-16" src="../../Images/cloudconvert.png" /></a></li>
+        <li><a href="#clouds">Cloud storages</a>&nbsp;<a title="Google Drive" href="#googledrive"><img alt="" 
+            class="icon-image-16" src="../../Images/googledocs.png" /></a>&nbsp;<a title="Dropbox" href="#dropbox"><img alt="" 
+                class="icon-image-16" src="../../Images/dropbox.png" /></a>&nbsp;<a title="Microsoft OneDrive" 
+                    href="#onedrive"><img alt="" class="icon-image-16" src="../../Images/skydrive.png" /></a>&nbsp;<a title="Box"
+                        href="#box"><img alt="" class="icon-image-16" src="../../Images/box.png" /></a></li>
+        <li><a href="#hyperlink">Hyperlinks&nbsp;<img alt="" class="icon-image-16" src="../../Images/ext/16/url.png" /></a></li>
+        <li><a href="#mobile">Mobile view for Smartphones and touchscreen devices</a>&nbsp;<img alt=""
+            class="icon-image-16" src="../../Images/android.png">&nbsp;<img alt="" class="icon-image-16"
+                src="../../Images/iphone.png" />&nbsp;<img alt="" class="icon-image-16"
+                    src="../../Images/winphone.png" />&nbsp;<img alt="" class="icon-image-16"
+                        src="../../Images/ipad.png" />&nbsp;<img alt="" class="icon-image-16"
+                            src="../../Images/blackberry.png" />&nbsp;<img alt="" class="icon-image-16"
+                                src="../../Images/bada.png" /></li>
+        <li><a href="#settings">Settings&nbsp;<img alt="" class="icon-image-16" src="../../Images/settings.png" /></a></li>
+    </ul>
+
+
+    <h3 id="navigation">Navigation</h3>
+
+    <div>
+        <img alt="" class="icon-image-16" src="../../Images/folderftp.png" />&nbsp;<b>Folders</b>&nbsp;
+        One or several root folders are available. They look like a folder tree in the left
+        area. Use the <b>Folders</b> button in the toolbar to show or hide the tree of the
+        root folders.
+    </div>
+    <div>
+        <img alt="" class="icon-image-16" src="../../Images/fileman.png" />&nbsp;<b>List</b>&nbsp;
+        There is a list of content of the current folder in the right interface area. You
+        may go to the subfolders or the parent folders by double-clicking.
+    </div>
+	<div>
+        <img alt="" class="icon-image-16" src="../../Images/details.png" />&nbsp;<b>Details&nbsp;panel</b>&nbsp;
+        displays additional information about a file or a folder. <a href="#detailspane">Read more</a>.  
+    </div>
+    <div>
+        <img alt="" class="icon-image-16" src="../../Images/selectall.png" />&nbsp;<b>File&nbsp;choice</b>&nbsp;
+        You may choose one or several files or folders by clicking on the
+        items and using <i>Ctrl</i> and <i>Shift</i> or all the items with the help of the menu.
+    </div>	 
+    <div>
+        <img alt="" class="icon-image-16" src="../../Images/menudropdown.png" />&nbsp;<b>Menu</b>&nbsp;
+        Context menu can be seen by right-clicking with your mouse or clicking on the <b>File</b>
+        button in the toolbar. 
+    </div>
+	<br/>
+	 <div>
+        <b>Navigation in file list</b>		
+        In the file list, you can use the keyboard for quick positioning on the desired file or folder. 
+        Place the focus in the file list, and begin typing the file name at the keyboard, 
+         the highlight will automatically move to the file or folder the name of which begins with the entered characters. 
+         If you enter the same character, you will cyclically go through all the elements that begin with this character.
+    </div>
+
+    <h3 id="detailspane">Details panel</h3>
+
+    <div>
+        <img alt="" class="icon-image-16" src="../../Images/details.png" />&nbsp;<b>Details pane</b>&nbsp;
+        Details pane is displayed to the right of the user interface. Use the button <b>View->Details pane</b> pane on the toolbar to display or hide the panel of details. 
+        
+		<br>
+		<ol>The panel has 3 tabs.
+			<li><b>Information</b> - displays the key information about a file or a folder, such as size, date, type. An image sketch is also displayed here.             
+			<br/>Depending on the file type, the additional properties which may also be available for editing may be displayed. For example, Author, Tags, Theme, Category etc. Please note that these properties are read and written to the file depending on its type. Therefore, for different types of files different sets of properties are available. For example, such properties as exposure, location and date of shooting, and for audio files - duration, album name, bitrate.
+			<br/>For all the files and folders, a description can be set.
+			</li>
+			<li><b>History</b> - shows the history of file modifications specifying the date and user.</li>
+			<li><b>Comments</b> - user comments for a file or a folder. You can write new comment, or delete and edit the existing ones.</li>
+		</ol>
+    </div>
+	
+    <h3 id="main">Main files operations</h3>
+    
+    <div>
+        You can do basic file operations:<br />
+        create, copy, edit, cut, delete, rename, preview, zip and unzip.
+		<br/>  Depending on the settings, files can be copied and moved using the exchange buffer - the original file is copied to the buffer, and then you go to the destination directory and paste the copied or clipped file. Or copying and dragging and dropping can be performed directly from the source folder without necessity to leave it (Copy to ...), all you need is to select the destination folder in the pop-up window.
+    </div>
+
+
+    <h3 id="uploaddownload">Files upload and download</h3>    
+    
+    <h4 id="upload"><img alt="" class="icon-image-16" src="../../Images/upload.png">&nbsp;Upload</h4>
+    <span>Depending on the application settings you may use several ways to upload files:</span>
+    <ul>
+        <li><b>Standard</b>&nbsp;&mdash; upload files one by one using the Browse button. Note! Latest browsers
+            like Firefox, Chrome, Internet Explorer supports multiple file upload!
+			<br/>Modern browsers also support downloading large files. If your browser supports this technology, you will see a special field for uploading files > 2 Gb.
+			</li>
+        <li><b>Drag &amp; Drop</b>&nbsp;&mdash; if you using latest browser versions, you can add and upload files 
+            with help of drag'n'drop function.<br/>
+            Browser based on the Chrome support downloading folders. You can drag a folder in the download window, and the directory structure will be restored on the server after downloading.
+			<br/>
+            Insertion of images from the exchange buffer is supported. You can take a screenshot (<b>PrtSc</b>)  and immediately download it (<b>Ctrl+V</b>) or download any image from the exchange buffer (<b>Ctrl+V</b>).
+            This feature is supported by the following browsers: Chrome, Firefox, Edge, Opera.			
+			<br/>
+            In addition, the Firefox browser allows you to insert files from the system exchange buffer. You can copy a file in Windows Explorer (<b>Ctrl+C</b>) and paste it in your browser (<b>Ctrl+V</b>.
+			</li>
+        <li><b>Java</b>&nbsp;&mdash; select multiple files and folders at the same time.</li>
+        <li><b>Flash</b>&nbsp;&mdash; select and upload multiple files at the same time.</li>
+        <li><b>Silverlight</b>&nbsp;&mdash; select and upload multiple files at the same time by chunks
+            (it helps to upload files that are more than 2GB). It supports drag-n-drop function.</li>
+        <li><b>Google Drive</b>&nbsp;&mdash; files uploading from your
+            <img alt="" class="icon-image-16" src="../../Images/googledocs.png">&nbsp;<a href="https://drive.google.com/" target="_blank">Google Drive</a> account.</li>
+        <li><b>Dropbox</b>&nbsp;&mdash; files uploading from your <img alt="" class="icon-image-16" src="../../Images/dropbox.png" />&nbsp;<a
+            target="_blank" href="https://www.dropbox.com/">Dropbox</a> account.</li>
+        <li><b>Microsoft&nbsp;OneDrive</b>&nbsp;&mdash; files uploading from your
+            <img alt="" class="icon-image-16" src="../../Images/skydrive.png">&nbsp;<a
+                target="_blank" href="https://onedrive.live.com/">OneDrive</a> account.</li>        
+        <li><b>Box</b>&nbsp;&mdash; files uploading from your <img alt="" class="icon-image-16" src="../../Images/box.png">&nbsp;<a
+            target="_blank" href="https://app.box.com/files/">Box</a> account.</li>
+        <li><b>Upload from URL</b>&nbsp;&mdash; you can specify a URL of a file stored at a global file
+            server or at a file sharing services like <img alt="" class="icon-image-16" src="../../Images/dropbox.png" />&nbsp;<a
+                target="_blank" href="https://www.dropbox.com/">Dropbox</a>,
+            <img alt="" class="icon-image-16" src="../../Images/picasa.png" />&nbsp;<a
+                target="_blank" href="http://picasa.google.com/">Picasa</a>,
+            <img alt="" class="icon-image-16" src="../../Images/flickr.png" />&nbsp;<a
+                target="_blank" href="https://www.flickr.com/">Flickr</a>,
+            <img alt="" class="icon-image-16" src="../../Images/photobucket.png" />&nbsp;<a
+                target="_blank" href="http://www.photobucket.com/">PhotoBucket</a>,
+            <img alt="" class="icon-image-16" src="../../Images/facebook.png" />&nbsp;<a
+                target="_blank" href="https://www.facebook.com/">Facebook</a>.</li>
+    </ul>
+    <span><b>Note.</b>&nbsp;You can use a <strong>ZIP archive</strong> to upload multiple files and then
+        extract it on the server side, using <img alt="" class="icon-image-16" 
+            src="../../Images/unzip.png" />&nbsp;<b>Unpack Zip</b> in context menu.</span>
+    
+
+    <h4 id="download"><img alt="" class="icon-image-16" src="../../Images/download.png" />&nbsp;Download</h4>
+
+    <span>Select one or multiple files and folders and click the button <img alt="" class="icon-image-16" 
+        src="../../Images/download.png" />&nbsp;<b>Download</b> (in the menu to download them).
+        Depending on the settings you may download the files one by one
+        or use the <strong>Java downloader</strong> to download multiple files and folders.<br />
+        Some browsers (Chrome, Opera), also support downloading of files and dragging and dropping of links from the <b>Download</b> window directly to a local folder on your computer.</span>
+    <br />
+		There are some other ways to download files:
+    <ul>
+        <li><img alt="" class="icon-image-16" src="../../Images/zipdownload.png" />&nbsp;<b>Compress and download</b>&nbsp;&mdash; 
+            option in the menu for automatic compression
+            of the selected files and their downloading in a zip archive.</li>
+        <li><img alt="" class="icon-image-16" src="../../Images/clouds.png" />&nbsp;<b>Cloud storages &rarr;
+            dowload to...</b>&nbsp;<b><img alt="" class="icon-image-16" src="../../Images/googledocs.png" />&nbsp;Google Drive</b>,
+            <b><img alt="" class="icon-image-16" src="../../Images/dropbox.png" />&nbsp;Dropbox</b>, <b><img alt="" 
+            class="icon-image-16" src="../../Images/skydrive.png" />&nbsp;OneDrive</b>, <b><img alt="" class="icon-image-16" 
+            src="../../Images/box.png" />&nbsp;Box</b>&nbsp;&mdash; files/folders downloading to your Cloud storages accounts.
+    </ul>
+
+    
+    <h3 id="links"><img alt="" class="icon-image-16" src="../../Images/linktofile.png" />&nbsp;Links
+        to files and folders</h3>
+    
+    <span>It allows you to download a file quickly without opening the main interface or to
+        open a folder. Choose <img alt="" class="icon-image-16" src="../../Images/share.png" /><b>Share</b>
+        submenu in context menu (or in toolbar) and next item <img alt="" class="icon-image-16" 
+            src="../../Images/linktofile.png" />&nbsp;<b>Link to file/folder</b>.
+        Notice that other users should log in and have an access to the folder. Otherwise they
+        will get an error.</span>
+
+
+    <h3 id="publiclink"><img alt="" class="icon-image-16" src="../../Images/sharefolder.png" />&nbsp;Sharing
+        files, folders for your own visitors</h3>
+    
+    <span>You can create your own shares i.e provide access to your folder/file for your own
+        visitors. Select needed folder/file and click from the context menu <img alt="" class="icon-image-16" 
+            src="../../Images/share.png" /><b>Share</b> (or find this item on toolbar) and  
+        next item <img alt="" class="icon-image-16" src="../../Images/sharefolder.png" />&nbsp;<b>Create public link</b>.
+        This feature provides anonymous access to the folder/file.
+        Any user, even one who does not have an account in the web file manager, may download
+        or upload files via public link. Public link to the folder allows the user to download
+        both whole folders (packed in archive) and individual files. You can get set up
+        email notifications to be notified about visitor activity.
+		<br/><br/>
+        You can limit the access by setting a password on the link, in this case, when you open the link, you will need to enter a password to access content.
+		<br/>
+        You can also specify a list of users who will have access to the link. When you open such link, you will need to enter a valid username and the password.
+		<br/><br/>
+        All existing links can be seen by opening the <b>"Shared by link"</b> section in the directory tree on the left. 
+        The same section is opened by pressing the <b>"Public links"</b> button on the toolbar.
+        <br />You can edit or delete any link created earlier.		
+		</span>
+	
+	<h3 id="sharedforyou"><img alt="" class="icon-image-16" src="../../Images/sharefolder.png" />&nbsp;Shared for you</h3>
+		  <span>
+          Depending on the settings, you can see the <b>"Shared for you"</b> folder in the directory tree on the left.<br /> 
+          The files and folders other users create for you will automatically appear in this folder. 
+          Also all public links you have opened in this browser will be displayed here.
+		  </span>
+    <h3 id="favorites"><img alt="" class="icon-image-16" src="../../Images/favorites.png" />&nbsp;Favorites</h3>
+	<span>
+        You can add folders to the favourites to have quick access to them later.
+        The list of selected folders is managed from a special menu in the toolbar <b>Favorites</b> or <b>View->Favorites</b>.        
+	</span>
+	<h3 id="recents"><img alt="" class="icon-image-16" src="../../Images/recent.png" />&nbsp;Recent</h3>
+	<span>
+        Depending on the settings, you can see the<b>"Recent"</b> folder in the directory tree on the left.
+        This folder displays the files you recently worked with. 
+        This will allow you to easily find the document you have recently viewed, even if you do not remember the precise place where it is located.
+        For your convenience, the grouping according to the type of action with documents is available (viewing, editing, downloading, uploading, creation).
+        <br />Files go in the <b>"Recent"</b> folder automatically, no other actions are required.
+	</span>
+	
+	<h3 id="alerts"><img alt="" class="icon-image-16" src="../../Images/watch.png" />&nbsp;Watch for modifications</h3>
+	<span>
+        If the administrator allows, you can monitor modifications of files or folders.<br />
+        To do this, you should call the context menu on the file or folder you need and select <b>"Watch for modifications..."->"Start watching"</b>. 
+        In the resulting window, you can configure events to be monitored (downloading, copying, deleting, etc.), a list of users, whose actions should be tracked, and specify e-mail addresses, where the notifications about new events will come.
+        <br />Once you have activated the tracking of the file or folder, it will appear in a special <b>"Alerts"</b> folder in the tree on the left. 
+        In this section, you can always view all the events that have occurred with the monitored file or folder.               
+	</span>
+	
+	<h3 id="trash"><img alt="" class="icon-image-16" src="../../Images/trash.png" />&nbsp;Trash</h3>
+	<span>
+        If the administrator allows, you can see the <b>"Trash"</b> folder in the directory tree on the left.
+        Files and folders after deleting go to this folder until the permanently delete option is checked.
+        Please note that the files in the trash are automatically deleted after a certain period (configurable by the administrator). And for large files shorter period to be deleted can be set.
+        <br />Also, the administrator can set the maximum size of the trash. Percentage of occupancy is displayed next to the name in the tree of elements.
+	</span>
+	
+	<h3 id="webfolders"><img alt="" class="icon-image-16" src="../../Images/webfolders.png" />&nbsp;Link to Web Folders 
+        (folder mapping)</h3>
+
+    <span><img alt="" style="width:245px;height:171px;float:left;padding-right:20px;" 
+        src="../../Images/webdavsupersmall.png" />Web folders makes it possible to map the folders to your 
+        local OS using <a target="_blank" href="http://en.wikipedia.org/wiki/WebDAV">WebDAV</a> protocol. You may work 
+        with your files like with local ones. You do not need a browser for work or to log in every time.
+        You just need to open a folder that you map in OS. (in Microsoft Windows&nbsp;&ndash; in Windows explorer).
+        Popular OS Windows, MacOS, Ubuntu, etc. support mapping web folder.<br />
+        It is very easy to map web folder:</span>
+    <ul>
+        <li>Select needed folder; in context menu choose submenu <img alt="" class="icon-image-16"
+                src="../../Images/more.png" />&nbsp;<b>more</b> (or click this button in toolbar)
+            and next <img alt="" class="icon-image-16" src="../../Images/webfolders.png" />&nbsp;<b>Map web folder</b>.</li>
+        <li>If you using Microsoft Windows, then copy the one from the command connection 
+            the command line Windows (can be accessed up to three teams: the current folder, the parent and root). For example:
+            <i>net&nbsp;use&nbsp;&quot;*&quot;&nbsp;&quot;<b>http://example.com/htcomnet/hcwebdav/&quot;</b></i>. Next 
+            click <b>OK</b> and if needed input your login and password.</li>
+        <li>Also for Windows OSs available other way to connect. Copy link for mapping.
+            <span id="webdav_note" style="display:none;">Or copy link for root folder below:<br />
+            <textarea readonly="readonly" id="webdav_link" cols="75" rows="1"></textarea></span>
+            Right click on <b>Computer</b> in Windows Explorer (or <b>This Computer</b> for Windows 8, 8.1)
+            and select <b>Add a network location</b>. In the new dialog <b>Add Network Location</b>
+            click <b>Next</b> button. Select <b>"Choose a custom network location"</b> and click
+            <b>Next</b> button. Insert the link of the web folder in the <b>"Internet or Network
+                address"</b> field, click <b>"Next"</b>.</li>
+        <li><strong>For MacOS</strong>: In the &quot;Finder&quot; menu, open <b>Go-&gt;Connect
+            to Server</b>, insert the link of the web folder in the <b>&quot;Server address&quot;</b>
+            field, click <b>&quot;Connect&quot;</b>, in the new dialog select <b>"Guest" or "Registered
+                user"</b> (for Windows authentication), click <b>&quot;Connect&quot;</b>.</li>
+        <li><strong>For Ubuntu</strong>: Open <b>Go-&gt;Location...</b> Copy the link of the
+            web folder to the location field and repace &quot;http://&quot; with &quot;dav://&quot;
+            or &quot;https://&quot; with &quot;davs://&quot;.</li>
+    </ul>
+    <span>After you have mapped a web folder, you may open it without visiting the web site
+        next time. <b>Note!</b> If you change your password, the directory to the web folder will
+        be changed and you need to map it again (except Windows authentication cases).</span> 
+    
+    <p>See also:<br />
+        <a href="http://blogs.iis.net/robert_mcmurray/using-the-webdav-redirector-with-onedrive-part-1-standard-security" target="_blank">Using the WebDAV Redirector with OneDrive Part 1 - Standard Security</a><br />
+        <a href="http://blogs.iis.net/robert_mcmurray/using-the-webdav-redirector-with-onedrive-part-2-two-step-verification" target="_blank">Using the WebDAV Redirector with OneDrive Part 2 - Two-Step Verification</a>
+    </p>
+
+    <h3 id="details"><img alt="" class="icon-image-16" src="../../Images/details.png" />&nbsp;Details, comments and labels</h3>
+
+    <span>You may specify comments, descriptions or other metadata for files and folders by clicking 
+        <img alt="" class="icon-image-16" src="../../Images/details.png" />&nbsp;<b>Details</b> in the menu.<br />
+		<strong>Comments</strong>: To quickly add comments a special field in the details box is provided. Also the number of comments to the file can be displayed in the File List. 
+		<br />
+		<strong>Labels</strong>: The labels are displayed in the File List and allow you quickly finding the specific files and folders. The labels can be set for both, files and folders. You can set the label by selecting 
+		<img alt="" class="icon-image-16" src="../../Images/label.png" />&nbsp;<b>Label</b> Label in the context menu.<br />
+		n the submenu that appears you can select one of pre-set labels, remove any label by selecting <b>No Label</b> or designate your own label, by selecting <b>Custom Label</b>
+		and setting the new label color and text.
+		<br />
+		<b>Note!</b> Details, comments and labels are saved if files are copied, moved or renamed.</span>
+
+    
+    <h3 id="docs">Office and images files view and edit</h3>
+
+    <span>Web File Manager has a lot of functions to work with office documents.</span>
+
+    <h4 id="googleandzoho">Documents view</h4>
+
+    <span>Text and PDF documents, image files, you can view directly in your browser, selecting <img alt="" class="icon-image-16"
+        src="../../Images/viewwith.png" />&nbsp;<b>View / edit</b> &rarr; <img alt="" class="icon-image-16"
+            src="../../Images/view.png" />&nbsp;<b>View in browser</b> in context menu or toolbar.</span>
+    <br />
+    <span>If folder contains image files, then view them as a slide show, you can use the opportunity to
+        <img alt="" class="icon-image-16" src="../../Images/viewwith.png" />&nbsp;<b>View / edit</b> &rarr; <img alt="" class="icon-image-16"
+            src="../../Images/preview.png" />&nbsp;<b>Images preview</b>, or switch the view file list
+            in the thumbnail view (button on toolbar <img alt="" class="icon-image-16"
+                src="../../Images/viewg.png" />&nbsp;<b>View</b> &rarr; <img alt="" class="icon-image-16"
+                    src="../../Images/viewt.png" />&nbsp;<b>Thumbnail view</b>).</span>
+    <br />
+    <span>In addition, you can use online services <a target="_blank" href="https://docs.google.com/gview"><img alt="" class="icon-image-16" 
+        src="../../Images/googledoc.png" />&nbsp;<b>Google Docs</b></a>, <a target="_blank" 
+            href="http://office.microsoft.com/en-us/online/view-office-documents-online-FX102727753.aspx"><img alt="" 
+                class="icon-image-16" src="../../Images/owa.png" />&nbsp;<b>Microsoft Office Web Viewer</b></a>, <a target="_blank"
+                    href="https://developers.box.com/view-api/"><img alt="" class="icon-image-16" src="../../Images/box.png" />&nbsp;<b>Box View</b></a>
+        to view documents in various formats.</span>
+    <br />
+    <span>To do this, select the file, click on the menu (or toolbar) <img alt="" class="icon-image-16" 
+        src="../../Images/viewwith.png" />&nbsp;<b>View / edit</b> desired item (if it is allowed by the administrator).
+        Next link will be created by clicking on which you can view the file.</span>
+    <br />
+    <span>Supported formats in <b>Google Docs</b>:
+        <i>pdf, doc, docx, ppt, pptx, tif, tiff, xls, xlsx, pages, ai, psd, svg, eps, ps, xps, ttf, zip, rar, dxf, txt, css, 
+        html, htm, php, c, cpp, h, hpp, js.</i></span>
+    <br />
+    <span>Supported formats in <b>Microsoft Office Web Viewer</b>:
+        <i>doc, docx, docm, dotm, dotx, xls, xlsx, xlsb, xlsm, pptx, ppsx, ppt, pps, pptm, potm, ppam, potx, ppsm</i>
+        (Word and PowerPoint documents must be less than 10 megabytes; Excel must be less than 5 megabytes).</span>
+    <br />
+    <span>Supported formats in <b>Box View</b>:
+        <i>pdf, doc, docx, ppt, pptx, xls, xlsx, txt, py, js, xml, css, md, pl, c, m, json</i>.</span>
+    <br /><br />
+	<!--added in 2017-->
+	<span>Also you can view Autocad files directly in browser with  <a target="_blank" href="http://www.autodesk.com/"><img alt=""
+            class="icon-image-16" src="../../Images/autodesk.png" />&nbsp;<b>Autodesk</b></a> online viewer (<img alt="" class="icon-image-16" src="../../Images/viewwith.png" />&nbsp;<b>View / edit</b> &rarr; <img alt="" class="icon-image-16"
+                src="../../Images/Autodesk.png" />&nbsp;<b>View in Autodesk</b>).
+				<br />Supported formats are: <i>3dm,3ds,asm,cam360,catpart,catproduct,cgr,collaboration,dae,dgn,dlv3,dwf,dwfx,dwg,dwt,dxf,exp,f3d,fbx,g,gbxml,iam,idw,ifc,ige,iges,igs,
+				ipt,jt,model,neu,nwc,nwd,obj,prt,rvt,sab,sat,session,skp,sldasm,sldprt,smb,smt,ste,step,stl,stla,stlb,stp,wire,x_b,x_t,xas,xpr</i>
+
+				<br/>
+				or with <a target="_blank" href="https://sharecad.org"><img alt=""
+            class="icon-image-16" src="../../Images/sharecad.png" />&nbsp;<b>ShareCad</b></a> online viewer (<img alt="" class="icon-image-16" src="../../Images/viewwith.png" />&nbsp;<b>View / edit</b> &rarr; <img alt="" class="icon-image-16"
+                src="../../Images/sharecad.png" />&nbsp;<b>View in AutodeskShareCad</b>).
+				 <br />Supported formats are: <i>dwg,dxf,dwf,hpgl,plt,cgm,pdf,svg,emf,wmf,step,stp,iges,igs,brep,stl,sat,cal</i> </span>
+    <br /><br />
+    <span>Also you can convert various types of files with <a target="_blank" href="https://cloudconvert.com/"><img alt=""
+            class="icon-image-16" src="../../Images/cloudconvert.png" />&nbsp;<b>CloudConvert</b></a> service (<img alt="" class="icon-image-16" src="../../Images/viewwith.png" />&nbsp;<b>View / edit</b> &rarr; <img alt="" class="icon-image-16"
+                src="../../Images/cloudconvert.png" />&nbsp;<b>Convert with CloudConvert</b>).</span>
+				
+	
+    <br />
+
+    <h4 id="office">Online documents editing</h4>
+
+    <span>Small size text documents you can edit by selecting from the context menu (or toolbar)
+        item <img alt="" class="icon-image-16" src="../../Images/viewwith.png" />&nbsp;<b>View / edit</b> &rarr; <img alt="" class="icon-image-16"
+            src="../../Images/textedit.png" />&nbsp;<b>Edit as text file</b>.</span>
+    <br />
+	<br />
+
+         To edit the Office documents online the several services are available.
+        <ol>
+            <li>
+                <span>
+					Editing documents in 
+                    <a target="_blank" href="https://support.google.com/docs/answer/6055139?hl=en">
+                        <img alt="" class="icon-image-16"
+                             src="../../Images/googledocs.png" />&nbsp;Google Drive
+                    </a> <br />Supported formats: (<i>docx,doc,xlsx,xls,pptx,ppt,pdf,txt,odt,ods)</i>.
+					
+                    <br />To edit, please, select <img alt="" class="icon-image-16" src="../../Images/viewwith.png" />&nbsp;<b>View / edit</b> &rarr; 
+					<img alt="" class="icon-image-16" src="../../Images/googledocs.png" />&nbsp;<b>Edit in Google Drive</b> on the context menu.
+					<br />
+					<b>	Attention </b>	You need to log in to your Google account and provide access to your account for the application. The selected document will be temporarily uploaded to your Google Account, and then, after editing, it will be automatically downloaded and deleted.
+                </span>
+            </li>
+			 <li>
+                <span>
+					Editing documents in  
+                    <a target="_blank" href="https://products.office.com/office-online/documents-spreadsheets-presentations-office-online">
+                        <img alt="" class="icon-image-16"
+                             src="../../Images/skydrive.png" />&nbsp;Microsoft Office Online /   <img alt="" class="icon-image-16"
+                             src="../../Images/office365.png" />&nbsp;Microsoft Office 365
+                    </a> 
+					<br />Supported formats: (<i>docx,odt,docm,xlsx,xlsb,xlsm,ods,pptx,ppsx,odp,txt)</i>.
+					<br />
+                    To edit, please, select <img alt="" class="icon-image-16" src="../../Images/viewwith.png" />&nbsp;<b>View / edit</b> &rarr; 
+					<img alt="" class="icon-image-16" src="../../Images/skydrive.png" />&nbsp;<b>Edit in MS Office Online</b> (<img alt="" class="icon-image-16" src="../../Images/office365.png" />&nbsp;<b>Edit in Microsoft Office 365</b>) on the context menu..
+					 <br />
+					<b>	Attention </b>You need to log in to your Microsoft account and provide access to your account for the application.
+                </span>
+            </li>
+			
+			
+            <li>
+                
+                <span>
+                    Also using the service <a target="_blank"
+                                              href="http://www.zoho.com/docs/zoho-docs-features.html#zohoonlineeditors">
+                        <img alt="" class="icon-image-16"
+                             src="../../Images/zoho.png" />&nbsp;Zoho Docs
+                    </a> you can edit popular office document formats
+                    (<i>doc, docx, xls, xlsx, ppt, pptx, pps, odt, ods, odp, sxw, sxc, sxi, wpd, rtf, txt, html, csv, tsv)</i>,
+                    selecting <img alt="" class="icon-image-16" src="../../Images/viewwith.png" />&nbsp;<b>View / edit</b> &rarr; <img alt="" class="icon-image-16"
+                                                                                                                                       src="../../Images/zoho.png" />&nbsp;<b>Edit in Zoho</b>.
+                </span>
+            </li>
+        </ol>
+
+        <br />
+        <span>
+            Image files (<i>jpg, jpeg, png, gif, bmp, psd, pxd</i>) can be edited using the online service
+            <a target="_blank" href="https://pixlr.com/">
+                <img alt="" class="icon-image-16" src="../../Images/pixlr.png" />&nbsp;
+                <b>Pixlr</b>
+            </a>: <img alt="" class="icon-image-16" src="../../Images/viewwith.png" />&nbsp;<b>View / edit</b> &rarr; <img alt="" class="icon-image-16"
+                                                                                                                           src="../../Images/pixlr.png" />&nbsp;<b>Edit in Pixlr</b>. In addition to editing, you can create in Pixlr
+            new images using the context menu or toolbar command <img alt="" class="icon-image-16"
+                                                                      src="../../Images/new.png" />&nbsp;<b>New</b> &rarr; <img alt="" class="icon-image-16"
+                                                                                                                                src="../../Images/pixlr.png" />&nbsp;<b>Image in Pixlr</b>.
+        </span>
+        <br />
+        <br />
+        <span>
+            Primary means of online editing office documents are applications on your computer
+            <a target="_blank" href="http://office.microsoft.com/">
+                <img alt="" class="icon-image-16"
+                     src="../../Images/mso.png" />&nbsp;<b>Microsoft Office</b>
+            </a>, or free
+            <a target="_blank" href="http://www.openoffice.org/">
+                <img alt="" class="icon-image-16"
+                     src="../../Images/ooo.png" />&nbsp;<b>Apache OpenOffice</b>
+            </a>, <a target="_blank"
+                     href="http://www.libreoffice.org/">
+                <img alt="" class="icon-image-16"
+                     src="../../Images/libre.png" />&nbsp;<b>LibreOffice</b>
+            </a>. You do not
+            need to download or upload the files. Microsoft Office,  OpenOffice, LibreOffice
+            do it automatically. You just need to have these applications installed on your
+            local computer.
+        </span>
+        <br />
+        <span>How it works:</span>
+        <ul style="list-style-type: decimal;">
+            <li>
+                Select a file of one of the following types. <b>Microsoft Office</b> types: <i>
+                    accda, accdb, accdc,
+                    accde, accdp, accdr, accdt, accdu, ade, adp, maf, mam, maq, mar, mat, mda, mde,
+                    mdt, mdw, laccdb, snp, csv, dbf, dif, ods, prn, slk, xla, xlam, xls, xlsb, xlsm,
+                    xlsx, xlt, xltm, xltx, xlw, xml, xps, obi, oft, ost, prf, pst, msg, oab, iaf, emf,
+                    odp, pot, potm, potx, ppa, ppam, pps, ppsm, ppsx, ppt, pptm, pptx, pptx, rtf, thmx,
+                    tif, wmf, xml, xps, doc, docm, docx, dot, dotm, dotx, htm, html, mht, mhtml, odt,
+                    rtf, txt, wps, xml, xps, btr, dwt, elm, fwp, htx, mso
+                </i>
+                <br /> or <b>OpenOffice / LibreOffice</b> types: <i>
+                    sxd, sxm, sxi, sxc, sxw, odb, odf, odt, ott,
+                    oth, and, odm, sxw, stw, sxg, doc, dot, xml, docx, docm, dotx, dotm, wpd, wps, rtf,
+                    txt, csv, sdw, sgl, vor, uot, uof, jtd, jtt, hwp, 602, pdb, psw, ods, ots, sxc,
+                    stc, xls, xlw, xlt, xlsx, xlsm, xltx, xltm, xlsb, wk1, wks, 123, dif, csv, sdc,
+                    vor, dbf, slk, uos, uof, pxl, wb2, odp, odg, std, otp, otg, sxi, sti, ppt, pps,
+                    pot, pptx, pptm, potx, potm, ppsx, sda, sdd, sdp, vor, uop, uof, cgm, bmp, jpeg,
+                    jpg, pcx, psd, sgv, wmf, dxf, met, pgm, ras, svm, xbm, emf, pbm, plt, sda, tga,
+                    xpm, eps, pcd, png, sdd, tif, tiff, gif, pct, ppm, sgf, vor, mml
+                </i>.
+            </li>
+            <li>
+                Select in menu <img alt="" class="icon-image-16" src="../../Images/viewwith.png" />&nbsp;<b>
+                    View /
+                    edit
+                </b> one of commands <img alt="" class="icon-image-16"
+                                          src="../../Images/mso.png" />&nbsp;<b>Edit in MS Office</b> or <img alt="" class="icon-image-16"
+                                                                                                              src="../../Images/ooo.png" />&nbsp;<b>Edit in OpenOffice / LibreOffice</b>.
+                The relevant application will launch with the selected files opened
+                for editing. If for some reason the application has not launched, copy the link to the file and
+                open it in Microsoft Office, LibreOffice or OpenOffice.
+            </li>
+            <li>
+                To save the changes in the document, press <b>Сtrl+S</b> combination or click on
+                the <b>Save</b> in the File menu of Microsoft Office, LibreOffice or OpenOffice.
+                The document will be saved and uploaded to server automatically.
+            </li>
+        </ul>
+
+        <h4>Features and settings of Microsoft office:</h4>
+        <ul>
+			<li id="msofba">Web file manager support
+			<b>[MS-OFBA]: Office Forms Based Authentication Protocol</b>.  
+                Beginning with the 2010 version, Microsoft Office supports the MS-OFBA authentication protocol. 
+            When this protocol is used, the web page for the user log-in is displayed when opening a document. 
+            If when entering the login and password you specified "stay logged in", you would not have to enter your login and password again during the next 3 days (by default). 
+            Also, this protocol allows you to edit documents even without SSL.
+			</li>
+		
+            <li id="basicSSLfix">
+                Microsoft Office by default does not work with <b>
+                    Basic authentication
+                    without SSL
+                </b> (does not allow the user to read a document or open it in read
+                only mode). If you got a message that the application is running under Basic authentication
+                without SSL then you can make a fix in the registry key. After that, Office will
+                work.<br />
+                Complete the following steps (for more info, read <a target="_blank"
+                                                                     href="http://support.microsoft.com/kb/2123563">Microsoft related article</a>):
+                <ul>
+                    <li>
+                        Vista and Windows 7, 8 users need to download the file <a href="https://www.element-it.com/download/httpcommander/BasicAuthVista7Set.reg">
+                            BasicAuthVista7Set.reg
+                        </a> and run it (To return default settings run <a href="https://www.element-it.com/download/httpcommander/BasicAuthVista7Remove.reg">
+                            BasicAuthVista7Remove.reg
+                        </a> )
+                    </li>
+                    <li>
+                        Windows XP and 2003 Server users need to download the file <a href="https://www.element-it.com/download/httpcommander/BasicAuthXP2k3Set.reg">
+                            BasicAuthXP2k3Set.reg
+                        </a> and run it (to return default settings run <a href="https://www.element-it.com/download/httpcommander/BasicAuthXP2k3Remove.reg">
+                            BasicAuthXP2k3Remove.reg
+                        </a> )
+                    </li>
+                    <li>Restart Windows</li>
+                </ul>
+            </li>
+            <!-- <li><b>Note! It is strongly recommended</b> for Windows 7, Vista, XP, 2003 users to
+                        install <a target="_blank" href="https://support.microsoft.com/en-us/kb/907306">
+                Microsoft Web folders update (2.3 Mb)
+            </a> to be able to use this feature!</li>
+                        -->
+            <li>
+                Microsoft Office from version 2010 supports collaborative editing of documents by multiple users. 
+                If the file is already open for editing by another user, you will see a warning.
+                You will be suggested to open the document read-only or editable, in the latter case, you can edit the document.
+                When another user completes working with the document, the updated copy will be loaded and you will see all the modifications made by another user
+                 while your modifications will also automatically be entered in the document. 
+                When conflicts arise, you can manually make a decision on revisions made.
+
+				<br/>
+                If you use earlier versions of Microsoft Office, collaborative editing is not supported.
+                Microsoft Office supports file <b>lock</b> for prohibiting simultaneous file editing
+                by several users. If a file has been blocked by another user, you cannot edit the
+                file, but you can read it and you will get a notification from MS Office as soon
+                as the file is available.				
+            </li>
+            <li>
+                By default Microsoft office blocks the document for editing. After you enable editing
+                of a file, it will be downloaded from server again. <strong>To increase the efficiency</strong>,
+                you may enable immediate editing in settings: In Microsoft Office menu select <b>
+                    File &rarr; Options &rarr; Trust
+                    Center &rarr; Trust Center Settings...(button) &rarr; Protected View
+                </b> uncheck <b>
+                    Enable Protected
+                    View for files originating from the Internet
+                </b>.
+            </li>
+            <li>
+                Microsoft office 2010 does not support file links with more than 255 symbols, so
+                try to use short file names with <span id="search">ASCII characters.</span>
+            </li>
+        </ul>
+
+        <h4>Features and settings of OpenOffice / LibreOffice:</h4>
+
+        <span>
+            This is a free application that is available for many OS on the websites <a target="_blank"
+                                                                                        href="http://www.openoffice.org">OpenOffice</a>, <a target="_blank" href="http://www.libreoffice.org/">
+                LibreOffice
+            </a>. At the moment OpenOffice and LibreOffice <b>
+                does not support
+                file lock
+            </b>, so be aware if there are users simultaneously working
+            with documents. OpenOffice is planning to add this functionality in 3.4 version.
+            OpenOffice and LibreOffice application uses Java applet for launch. If you do
+            not want to allow the applet, you may get a file link and open this file in the
+            OpenOffice / LibreOffice Open dialogue.
+        </span>
+
+        <h4>Recommended settings for OpenOffice, LibreOffice:</h4>
+
+        <ul style="list-style-type: decimal;">
+            <li>
+                If you don't want to type the login and password every time, you may enable OpenOffice
+                / LibreOffice <b>Quickstarter</b> that saves information about a user: Open <b>
+                    Tools &rarr; Options &rarr; OpenOffice
+                    (LibreOffice) &rarr; Memory
+                </b>, check <b>
+                    Load OpenOffice (LibreOffice) during system
+                    start-up
+                </b>.
+            </li>
+            <li>
+                To save the files opened via links (without Java applet), you need to enable it
+                in settings: Go to <b>Tools &rarr; Options &rarr; OpenOffice (LibreOffice)</b>, check <b>
+                    Use
+                    OpenOffice (LibreOffice) dialogs
+                </b>.
+            </li>
+        </ul>
+
+
+        <h3 id="clouds"><img alt="" class="icon-image-16" src="../../Images/clouds.png" />&nbsp;Cloud storages</h3>
+
+        <span>
+            In context menu or toolbar is available (depending on settings) menu
+            <b><img alt="" class="icon-image-16" src="../../Images/clouds.png" />&nbsp;Cloud storages</b>,
+            which allows you to interact (upload and download files, folders) with popular cloud services
+            storage: <a target="_blank" href="https://drive.google.com/‎">
+                <img alt="" class="icon-image-16"
+                     src="../../Images/googledocs.png" />&nbsp;<b>Google Drive</b>
+            </a>, <a target="_blank"
+                     href="https://www.dropbox.com/">
+                <img alt="" class="icon-image-16"
+                     src="../../Images/dropbox.png" />&nbsp;<b>Dropbox</b>
+            </a>, <a target="_blank"
+                     href="https://onedrive.live.com/">
+                <img alt="" class="icon-image-16"
+                     src="../../Images/skydrive.png" />&nbsp;<b>Microsoft OneDrive</b>
+            </a>, <a target="_blank"
+                     href="https://app.box.com/">
+                <img alt="" class="icon-image-16"
+                     src="../../Images/box.png" />&nbsp;<b>Box</b>
+            </a>.
+        </span>
+
+        <h4 id="googledrive">
+            <img alt="" class="icon-image-16" src="../../Images/googledocs.png" />&nbsp;Upload/Download
+            documents to Google Drive (online documents edit and sharing)
+        </h4>
+
+        <span>
+            You can download documents to your Google Drive account (<img alt="" class="icon-image-16"
+                                                                          src="../../Images/clouds.png" />&nbsp;<b>Cloud storages</b> <b>&rarr;</b> <img alt="" class="icon-image-16"
+                                                                                                                                                         src="../../Images/downloadtocloud.png" />&nbsp;<b>dowload to...</b> <b>&rarr;</b> <img alt="" class="icon-image-16"
+                                                                                                                                                                                                                                                src="../../Images/googledocs.png" />&nbsp;<b>Google Drive</b>) or upload them back (<img alt=""
+                                                                                                                                                                                                                                                                                                                                         class="icon-image-16" src="../../Images/clouds.png" />&nbsp;<b>Cloud storages</b> <b>&rarr;</b> <img alt=""
+                                                                                                                                                                                                                                                                                                                                                                                                                                              class="icon-image-16" src="../../Images/uploadfromcloud.png" />&nbsp;<b>upload from...</b> <b>&rarr;</b> <img alt="" class="icon-image-16"
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            src="../../Images/googledocs.png" />&nbsp;<b>Google Drive</b>). After
+            download you can modify the document using only your browser and then upload the
+            modified document back to the web file manager. Authentication
+            is passed at <b>Google</b> site so nobody wont get your password.
+        </span>
+
+        <h4 id="dropbox">
+            <img alt="" class="icon-image-16" src="../../Images/dropbox.png" />&nbsp;Dropbox&nbsp;&mdash;
+            free online backup, file sync and sharing.
+        </h4>
+
+        <span>
+            To download file to your Dropbox account select files, folders and then choose (in menu or toolbar) <img alt="" class="icon-image-16"
+                                                                                                                     src="../../Images/clouds.png" />&nbsp;<b>Cloud storages</b> <b>&rarr;</b> <img alt="" class="icon-image-16"
+                                                                                                                                                                                                    src="../../Images/downloadtocloud.png" />&nbsp;<b>download to...</b> <b>&rarr;</b> <img alt="" class="icon-image-16"
+                                                                                                                                                                                                                                                                                            src="../../Images/dropbox.png" />&nbsp;<b>Dropbox</b>. To upload&nbsp;&mdash; <img alt=""
+                                                                                                                                                                                                                                                                                                                                                                               class="icon-image-16" src="../../Images/clouds.png" />&nbsp;<b>Cloud storages</b> <b>&rarr;</b> <img alt=""
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    class="icon-image-16" src="../../Images/uploadfromcloud.png" />&nbsp;<b>upload from...</b> <b>&rarr;</b> <img alt="" class="icon-image-16"
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  src="../../Images/dropbox.png" />&nbsp;<b>Dropbox</b>. Authentication is passed at <b>Dropbox</b>
+            site so nobody will get your password.
+        </span>
+
+        <h4 id="onedrive"><img alt="" class="icon-image-16" src="../../Images/skydrive.png" />&nbsp;Microsoft OneDrive</h4>
+
+        <span>
+            You can create an account at a free online files, documents edit and sharing service
+            <a target="_blank" href="https://signup.live.com/signup.aspx">
+                <img alt="" class="icon-image-16"
+                     src="../../Images/skydrive.png" />&nbsp;Microsoft OneDrive
+            </a> (if you already have Microsoft Live ID
+            then you dont need to register at OneDrive!). With web file manager you can download files, folders to your OneDrive
+            account (<img alt="" class="icon-image-16" src="../../Images/clouds.png" />&nbsp;<b>
+                Cloud
+                storages
+            </b> <b>&rarr;</b> <img alt="" class="icon-image-16"
+                                    src="../../Images/downloadtocloud.png" />&nbsp;<b>dowload to...</b> <b>&rarr;</b> <img alt="" class="icon-image-16"
+                                                                                                                           src="../../Images/skydrive.png" />&nbsp;<b>Microsoft OneDrive</b>) or upload from it (<img alt=""
+                                                                                                                                                                                                                      class="icon-image-16" src="../../Images/clouds.png" />&nbsp;<b>Cloud storages</b> <b>&rarr;</b> <img alt=""
+                                                                                                                                                                                                                                                                                                                           class="icon-image-16" src="../../Images/uploadfromcloud.png" />&nbsp;<b>upload from...</b> <b>&rarr;</b> <img alt="" class="icon-image-16"
+                                                                                                                                                                                                                                                                                                                                                                                                                                         src="../../Images/skydrive.png" />&nbsp;<b>Microsoft OneDrive</b>). At the OneDrive website you can
+            edit your documents and share files for other users.
+        </span>
+
+        <h4 id="box">
+            <img alt="" class="icon-image-16" src="../../Images/box.png" />&nbsp;Box&nbsp;&mdash;
+            free online backup, file sync and sharing cloud service
+        </h4>
+
+        <span>
+            For download to Box select files, folders and use command <img alt="" class="icon-image-16"
+                                                                           src="../../Images/clouds.png" />&nbsp;<b>Cloud storages</b> <b>&rarr;</b> <img alt="" class="icon-image-16"
+                                                                                                                                                          src="../../Images/downloadtocloud.png" />&nbsp;<b>download to...</b> <b>&rarr;</b> <img alt="" class="icon-image-16"
+                                                                                                                                                                                                                                                  src="../../Images/box.png" />&nbsp;<b>Box</b>. To upload&nbsp;&mdash; <img alt=""
+                                                                                                                                                                                                                                                                                                                             class="icon-image-16" src="../../Images/clouds.png" />&nbsp;<b>Cloud storages</b> <b>&rarr;</b> <img alt=""
+                                                                                                                                                                                                                                                                                                                                                                                                                                  class="icon-image-16" src="../../Images/uploadfromcloud.png" />&nbsp;<b>upload from...</b> <b>&rarr;</b> <img alt="" class="icon-image-16"
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                src="../../Images/box.png" />&nbsp;<b>Box</b>.
+        </span>
+
+
+        <h3 id="hyperlink"><img alt="" class="icon-image-16" src="../../Images/ext/16/url.png" />&nbsp;Hyperlinks</h3>
+
+        <p>
+            Web file manager allows you to add hyper links to the list of files. They are represented
+            with small .url files.
+        </p>
+        <p>
+            Click on the hyper link to open the URL in
+            a new browser window (or in a tab).
+        </p>
+        <a target="_blank" href="../../Images/HyperLink.png" onclick="toggleBlock('HyperLinkScreenshot'); return false;"
+           class="imglink">Screenshot</a>
+        <div id="HyperLinkScreenshot" style="display: none;">
+            <p class="screenshot">
+                &nbsp;<img alt="" src="../../Images/HyperLink.png" />
+            </p>
+        </div>
+        <p>
+            To create a hyper link file, you need Internet Explorer.
+        </p>
+        <ul>
+            <li>Open the target web page in Internet Explorer.</li>
+            <li>
+                Open main menu (press F10 if it is not visible) &rarr; File &rarr; Send &rarr; Shortcut
+                to Desktop.
+            </li>
+            <li>Upload the shortcut file to Web file manager.</li>
+        </ul>
+        <p>
+            You may change name of the file, but do not touch the extension.
+        </p>
+        <p>
+            .url files are standard Windows <a target="_blank" href="http://en.wikipedia.org/wiki/INI_file">
+                ini files
+            </a> with custom extension. You may create them in a text editor if
+            you do not have Internet Explorer or you do not want to use it.
+        </p>
+
+
+        <h3 id="mobile">
+            Mobile view&nbsp;<img alt=""
+                                  class="icon-image-16" src="../../Images/android.png" />&nbsp;<img alt="" class="icon-image-16"
+                                                                                                    src="../../Images/iphone.png" />&nbsp;<img alt="" class="icon-image-16"
+                                                                                                                                               src="../../Images/winphone.png" />&nbsp;<img alt="" class="icon-image-16"
+                                                                                                                                                                                            src="../../Images/ipad.png" />&nbsp;<img alt="" class="icon-image-16"
+                                                                                                                                                                                                                                     src="../../Images/blackberry.png" />&nbsp;<img alt="" class="icon-image-16"
+                                                                                                                                                                                                                                                                                    src="../../Images/bada.png" />
+        </h3>
+
+        <p>
+            You can view a 100% mobile interface on your device: Click <b>Settings &rarr; Mobile interface</b>
+            or type <b>"Default.aspx?Mobile="</b> URL in your mobile browser.
+        </p>
+
+        <p>
+            Application supports: <b>iPhone/iPad</b>, <b>Android</b>-based,
+            <b>Blackberry</b> v.6+, <b>Bada</b>, <b>Windows Mobile, Phone</b>
+            and some other mobile device OS's.
+        </p>
+
+        <p>
+            You can also download a mobile application for your iPhone/iPad at
+            <a href="http://itunes.apple.com/us/app/http-commander/id561413475?mt=8"
+               target="_blank">http://itunes.apple.com/us/app/http-commander/id561413475?mt=8</a>
+            and for Android at <a href="https://play.google.com/store/apps/details?id=com.elementit.httpcommander"
+                                  target="_blank">https://play.google.com/store/apps/details?id=com.elementit.httpcommander</a>.
+        </p>
+
+        <p>
+            For more info about the mobile version see <a href="MobileHelp.html">Mobile users Help</a>
+        </p>
+
+
+        <h3 id="settings"><img alt="" class="icon-image-16" src="../../Images/settings.png" />&nbsp;Settings</h3>
+
+        <span>
+            Click <img alt="" class="icon-image-16" src="../../Images/settings.png" />&nbsp;<b>Settings</b> options in the
+            toolbar and select necessary type of settings. In the resulting menu, use the following settings:
+        </span>
+        <ul>
+            <li><img alt="" class="icon-image-16" src="../../Images/language.png" />&nbsp;Change interface language.</li>
+            <li><img alt="" class="icon-image-16" src="../../Images/password.png" />&nbsp;Change password.</li>
+            <li><img alt="" class="icon-image-16" src="../../Images/changeemail.png" />&nbsp;Change e-mail.</li>
+            <li><img alt="" class="icon-image-16" src="../../Images/iphone.png" />&nbsp;Switch to mobile interface (the option can be prohibited by administrator).</li>
+        </ul>
+
+        <br />
+
+        <script type="text/javascript">
+            function googleTranslateElementInit() {
+                try {
+                    new google.translate.TranslateElement({
+                        pageLanguage: 'en',
+                        layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+                    }, 'google_translate_element');
+                } catch (e) {
+                    // alert(e);
+                }
+            }
+            var agt = navigator.userAgent.toLowerCase(),
+                isEe = (agt.indexOf('msie') != -1);
+            ieVer = 10;
+            if (isEe) {
+                try {
+                    ieVer = parseInt(agt.substring(agt.indexOf('msie') + 5));
+                } catch (e) {
+                    ieVer = 10;
+                }
+            }
+            if (!isEe || ieVer >= 10) {
+                document.write('<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"><' + '/script>');
+            }
+        </script>
+    </body>
+</html>

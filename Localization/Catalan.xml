@@ -1,0 +1,1608 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Localization>
+  <!-- Common keys -->
+  
+  <ExtMsgButtonTextYES>si</ExtMsgButtonTextYES>
+  <ExtMsgButtonTextNO>No</ExtMsgButtonTextNO>
+  
+  <ControlHideFileManager>Amaga gestor d'arxius web</ControlHideFileManager>
+  
+  <CommonMainTitle>Accés als fitxers web</CommonMainTitle>
+  <CommonApplicationLoading>La càrrega d'arxius d'accés web</CommonApplicationLoading>
+  <CommonLoadError>S'ha produït un error durant l'obtenció de dades d'arbres</CommonLoadError>
+  <CommonGridAccessDenied>La carpeta "{0}" no existeix o accés de lectura és negada</CommonGridAccessDenied>
+  <CommonNoScript>Aquesta pàgina requereix Javascript per estar habilitat en el seu navegador! Si us plau, activa i connectar-se de nou!</CommonNoScript>
+  <CommonErrorCaption>error</CommonErrorCaption>
+  <CommonWarningCaption>advertència</CommonWarningCaption>
+  <CommonInfoCaption>informació</CommonInfoCaption>
+  <CommonConfirmCaption>confirmar</CommonConfirmCaption>
+  <CommonFileNameCaption>Nom de l'arxiu</CommonFileNameCaption>
+  <CommonFileNamePrompt>Introduïu un nou nom de fitxer</CommonFileNamePrompt>
+  <CommonFileNewNameValue>Nou text Document.txt</CommonFileNewNameValue>
+  <CommonFolderNewNameValue>Carpeta nova</CommonFolderNewNameValue>
+  <CommonZipFileNameCaption>Nom del fitxer comprimit zip</CommonZipFileNameCaption>
+  <CommonZipFileNamePrompt>Nom de fitxer (extensió s'afegirà automàticament)</CommonZipFileNamePrompt>
+  <CommonFolderNameCaption>nom de la carpeta</CommonFolderNameCaption>
+  <CommonFolderNamePrompt>Introduïu un nou nom de la carpeta</CommonFolderNamePrompt>
+  <CommonDeleteOnePrompt>Esteu segur que voleu esborrar "{0}"?</CommonDeleteOnePrompt>
+  <CommonDeleteManyPrompt>Esteu segur que voleu eliminar aquests articles {0}?</CommonDeleteManyPrompt>
+  <CommonForToday>Per avui</CommonForToday>
+  <CommonButtonCaptionOK>D'acord</CommonButtonCaptionOK>
+  <CommonButtonCaptionCancel>Cancel · lar</CommonButtonCaptionCancel>
+  <CommonButtonCaptionClose>a prop</CommonButtonCaptionClose>
+  <CommonButtonCaptionAdd>afegir</CommonButtonCaptionAdd>
+  <CommonButtonCaptionContinue>continuar</CommonButtonCaptionContinue>
+
+  <CommonProgressPleaseWait>Si us plau</CommonProgressPleaseWait>
+  
+  <CommonFieldLabelName>Nom</CommonFieldLabelName>
+  <CommonFieldLabelPath>Camí</CommonFieldLabelPath>
+  <CommonFieldLabelSize>mida</CommonFieldLabelSize>
+  <CommonFieldLabelLabels>etiquetes</CommonFieldLabelLabels>
+  <CommonFieldLabelType>tipus</CommonFieldLabelType>
+  <CommonFieldLabelAction>acció</CommonFieldLabelAction>
+  <CommonFieldLabelDate>Data</CommonFieldLabelDate>
+  <CommonFieldLabelDateTime>Data i hora</CommonFieldLabelDateTime>
+  <CommonFieldLabelDateCreated>data de creació</CommonFieldLabelDateCreated>
+  <CommonFieldLabelDateModified>data de modificació</CommonFieldLabelDateModified>
+  <CommonFieldLabelDateAccessed>data de consulta</CommonFieldLabelDateAccessed>
+  <CommonFieldLabelValue>valor</CommonFieldLabelValue>
+  <CommonFieldLabelUserName>nom d'usuari</CommonFieldLabelUserName>
+  <CommonFieldLabelUser>usuari</CommonFieldLabelUser>
+  <CommonFieldLabelUsers>usuaris</CommonFieldLabelUsers>
+  <CommonFieldLabelGroupName>nom del grup</CommonFieldLabelGroupName>
+  <CommonFieldLabelGroup>grup</CommonFieldLabelGroup>
+  <CommonFieldLabelGroups>grups</CommonFieldLabelGroups>
+  <CommonFieldLabelPassword>contrasenya</CommonFieldLabelPassword>
+  <CommonFieldLabelRepeatPassword>Repeteix la contrassenya</CommonFieldLabelRepeatPassword>
+  <CommonFieldLabelComments>Comentaris</CommonFieldLabelComments>
+  <CommonValueTypeFolder>carpeta</CommonValueTypeFolder>
+
+  <CommonFieldLabelDescription>descripció</CommonFieldLabelDescription>
+  <EmptyDescriptionText>Especifica la descripció</EmptyDescriptionText>
+  <CommonFieldLabelReadMeTxt>readme.txt contingut</CommonFieldLabelReadMeTxt>
+  
+  <CommonWordOr>o</CommonWordOr>
+
+  <SortAscText>ordre ascendent</SortAscText>
+  <SortDescText>ordre descendent</SortDescText>
+
+  <CommonNewDocument>nou document</CommonNewDocument>
+  <CommonNewSpreadsheet>nou full de càlcul</CommonNewSpreadsheet>
+  <CommonNewPresentation>nova presentació</CommonNewPresentation>
+
+  <CommonWordWrap>L'ajust de línia</CommonWordWrap>
+  
+  <!-- End Common keys -->
+
+  <!-- Labels -->
+
+  <LabelsTitle>etiqueta</LabelsTitle>
+  <LabelsNoLabel>sense etiqueta</LabelsNoLabel>
+  <LabelsColor>color</LabelsColor>
+  <LabelsCustomLabel>etiqueta personalitzada</LabelsCustomLabel>
+  <LabelsCustomLabelHint>Introdueixi el text de l'etiqueta</LabelsCustomLabelHint>
+  <LabelsCustomLabelView>Label &amp;nbsp; visites: &amp;nbsp; {0} {1} {2}</LabelsCustomLabelView>
+  <LabelsFileLabelledMessage>Amb èxit l'etiqueta {0} article (s)</LabelsFileLabelledMessage>
+  <LabelsRemovedMessage>Eliminat amb èxit {0} etiqueta (s)</LabelsRemovedMessage>
+  <LabelsNotRemovedMessages>no s'elimina: {0}</LabelsNotRemovedMessages>
+  <LabelsNotLabelledMessage>no etiquetat: {0}</LabelsNotLabelledMessage>
+  <LabelsLabelRemovedMessage>Etiquetar eliminat amb èxit</LabelsLabelRemovedMessage>
+  <LabelsNewLabel>nova etiqueta</LabelsNewLabel>
+  <LabelsLabellingMessage>etiquetatge</LabelsLabellingMessage>
+  <LabelsRemovingLabelMessage>L'eliminació de les etiquetes</LabelsRemovingLabelMessage>
+  <LabelsLabelInfoTip>Marcat com '{0}' {1} per l'usuari '{2}'</LabelsLabelInfoTip>
+
+  <!-- End Labels -->
+
+  <!-- Comments -->
+
+  <CommentsCountInfoTip>{0} comentari (s)</CommentsCountInfoTip>
+  <CommentsWriteCommentHint>Escriu un comentari i premi '{0}' o Ctrl+Enter o Shift+Enter ...</CommentsWriteCommentHint>
+
+  <!-- End Comments -->
+
+  <RefreshPageWarningMessage>&lt;b&gt; Atenció! &lt;/b&gt; Per completar aquesta operació, la pàgina actual del navegador ha de ser renovat. &lt;br /&gt; Voleu actualitzar ara?</RefreshPageWarningMessage>
+
+  <PagingToolbarBeforePageText>pàgina</PagingToolbarBeforePageText>
+  <PagingToolbarAfterPageText>de {0}</PagingToolbarAfterPageText>
+  <PagingToolbarFirstText>primera pàgina</PagingToolbarFirstText>
+  <PagingToolbarPrevText>Pàgina anterior</PagingToolbarPrevText>
+  <PagingToolbarNextText>Pàgina següent</PagingToolbarNextText>
+  <PagingToolbarLastText>última Pàgina</PagingToolbarLastText>
+  <PagingToolbarDisplayMsg>Veient {0} - {1} {2} de</PagingToolbarDisplayMsg>
+  <PagingToolbarEmptyMsg>cap dada</PagingToolbarEmptyMsg>
+  
+  <GridTotalLabel>total:</GridTotalLabel>
+  <GridTotalFilesLabel>arxius</GridTotalFilesLabel>
+  <GridTotalFoldersLabel>carpetes</GridTotalFoldersLabel>
+  
+  <GridDDSelectedRowsText>{0} fila seleccionada {1}</GridDDSelectedRowsText>
+  <GridDDSelectedFilesText>{0} fitxers seleccionats</GridDDSelectedFilesText>
+  <GridDDSelectedFoldersText>{0} carpetes seleccionades</GridDDSelectedFoldersText>
+  <GridDDConfirmCopyMoveTitle>Gota a la carpeta "{0}"</GridDDConfirmCopyMoveTitle>
+  <GridDDConfirmAddToZipTitle>Afegir a zip "{0}"</GridDDConfirmAddToZipTitle>
+  <GridDDConfirmAddToZipMessage>arxius arrossegats s'afegiran a aquesta imatge ZIP. Voleu continuar? {0}.</GridDDConfirmAddToZipMessage>
+  <GridDDConfirmCopyMoveMsg>Seleccioneu una acció que voleu aplicar. Font: "{0}", Carpeta de destinació: "{1}" {2} {3} ..</GridDDConfirmCopyMoveMsg>
+  <GridDDConfirmCopyMoveToZipMsg>Els arxius s'afegeixen a l'arxiu zip. Seleccioneu una acció que vol aplicar als arxius arrossegats després d'afegir els arxius a l'arxiu zip. Font: "{0}", arxiu zip Destinació: "{1}" {2} {3} ..</GridDDConfirmCopyMoveToZipMsg>
+  <GridDDDraggedFileNames>&lt;b&gt; arxius arrossegats: &lt;/b&gt; {0}</GridDDDraggedFileNames>
+  <GridDDDraggedFolderNames>&lt;b&gt; Arrossegat carpetes: &lt;/b&gt; {0}</GridDDDraggedFolderNames>
+  <GridDDConfirmTargetFolderOnlyCopyMsg>permisos actuals per a la carpeta d'origen que permeten única còpia arxius arrossegat. Voleu continuar? {0}.</GridDDConfirmTargetFolderOnlyCopyMsg>
+  <GridDDConfirmTargetFolderOnlyMoveMsg>permisos actuals per a la carpeta d'origen que permeten a l'únic moviment va arrossegar arxius. Voleu continuar? {0}.</GridDDConfirmTargetFolderOnlyMoveMsg>
+
+  <GridRowPublicHint>Feu clic per obrir un enllaç públic en una nova finestra / pestanya</GridRowPublicHint>
+  <GridRowAlertHint>Feu clic per veure els canvis realitzats per a aquest arxiu / carpeta</GridRowAlertHint>
+  <GridRowRecentHint>Localitzar el fitxer / carpeta</GridRowRecentHint>
+  <GridRowAlertEventHint>Clic per a aquesta ubicació</GridRowAlertEventHint>
+
+  <ProgressCreating>creació</ProgressCreating>
+  <ProgressDeleting>eliminació</ProgressDeleting>
+  <ProgressLoading>carregant</ProgressLoading>
+  <ProgressSearching>recerca</ProgressSearching>
+  <ProgressZipping>comprimir</ProgressZipping>
+  <ProgressUnzipping>desembalatge</ProgressUnzipping>
+  <ProgressZipContents>Aconseguir el contingut de l'arxiu ZIP</ProgressZipContents>
+  <ProgressPrepareDownload>Preparació per a la descàrrega</ProgressPrepareDownload>
+  <ProgressMoving>Progrés, progressar</ProgressMoving>
+  <ProgressCopying>copiat</ProgressCopying>
+  <ProgressRenaming>El canvi de nom</ProgressRenaming>
+  <ProgressUpdating>actualitzant</ProgressUpdating>
+  <ProgressLoadingEditInPixlr>Carregant editor Pixlr</ProgressLoadingEditInPixlr>
+  <ProgressLoadingEdit>editor de càrrega</ProgressLoadingEdit>
+  <ProgressSavingEdit>L'arxiu de l'estalvi</ProgressSavingEdit>
+  <ProgressSaving>estalvi</ProgressSaving>
+  <ProgressExecuting>executant</ProgressExecuting>
+
+  <BalloonFilesDeleted>{0} arxiu (s) suprimit</BalloonFilesDeleted>
+  <BalloonFoldersDeleted>{0} carpeta (s) suprimit</BalloonFoldersDeleted>
+  <BalloonFilesFailed>{0} arxiu (s) no va poder</BalloonFilesFailed>
+  <BalloonFoldersFailed>{0} carpeta (s) no va poder</BalloonFoldersFailed>
+  <BalloonFilesZipped>{0} arxiu (s) comprimit</BalloonFilesZipped>
+  <BalloonFoldersZipped>{0} carpeta (s) comprimit</BalloonFoldersZipped>
+  <BalloonFilesCopied>{0} arxiu (s) copiat</BalloonFilesCopied>
+  <BalloonFoldersCopied>{0} carpeta (s) copiada</BalloonFoldersCopied>
+  <BalloonFilesMoved>{0} arxiu (s) es va moure</BalloonFilesMoved>
+  <BalloonFoldersMoved>{0} carpeta (s) es va moure</BalloonFoldersMoved>
+  <BalloonNotUnzipped>{0} arxiu (s) no s'han desempaquetat</BalloonNotUnzipped>
+  <BalloonFilesUploaded>{0} arxiu (s) carregat</BalloonFilesUploaded>
+  <BalloonFilesNotUploaded>{0} arxiu (s) no ha pujat</BalloonFilesNotUploaded>
+  <BalloonSomeFilesNotUploaded>Alguns arxius no es poden carregar</BalloonSomeFilesNotUploaded>
+  <BalloonCreatedSuccessfully>creat amb èxit</BalloonCreatedSuccessfully>
+  <BalloonUnzippedSuccessfully>descomprimit amb èxit</BalloonUnzippedSuccessfully>
+  <BalloonRenamedSuccessfully>rebatejat amb èxit</BalloonRenamedSuccessfully>
+  <BalloonSavedSuccessfully>guardat amb èxit</BalloonSavedSuccessfully>
+  <BalloonCopiedToClipboard>Copiat al porta-retalls</BalloonCopiedToClipboard>
+  <BalloonCopyToClipboardFailed>Copiar al portapapers va fallar</BalloonCopyToClipboardFailed>
+
+  <CommandCopyToClipboard>Copiar al portapapers</CommandCopyToClipboard>
+  <CommandCopyLinkToClipboard>Copia l'enllaç al porta-retalls</CommandCopyLinkToClipboard>
+  <ClipboardScreenshotTitlePrefix>imatge</ClipboardScreenshotTitlePrefix>
+  <ClipboardScreenshotHint>Imatges: Es pot enganxar una captura de pantalla del porta-retalls (Premi &lt;b&gt; Ctrl+PrtSc &lt;/b&gt; i &lt;b&gt; Ctrl+V &lt;/b&gt;) o una imatge del seu editor (Premi &lt;b&gt; Ctrl+V &lt;/b&gt;).</ClipboardScreenshotHint>
+  <ClipboardFileHint>També pot enganxar un arxiu des del portapapers</ClipboardFileHint>
+
+  <CommandClouds>emmagatzematge en núvol</CommandClouds>
+  <CommandCloudsDownloadTo>descàrrega per ...</CommandCloudsDownloadTo>
+  <CommandCloudsUploadFrom>pujar des ...</CommandCloudsUploadFrom>
+  <CommandCloudsAbout>Sobre emmagatzematge en núvol</CommandCloudsAbout>
+  
+  <CommandBack>esquena</CommandBack>
+  <CommandForward>endavant</CommandForward>
+  <CommandRecentFolders>carpetes recents</CommandRecentFolders>
+  <CommandHome>casa</CommandHome>
+  <CommonActions>accions</CommonActions>
+  <CommandMultiSelect>De selecció múltiple</CommandMultiSelect>
+  <CommandShare>Compartir</CommandShare>
+  <CommandSorting>Classificació</CommandSorting>
+  
+  <CommandFileManager>Tornar a l'administrador d'arxius</CommandFileManager>
+  <CommandFolders>carpetes</CommandFolders>
+  <CommandGridView>vista</CommandGridView>
+  <CommandRefresh>Actualització</CommandRefresh>
+  <CommandThumbnailView>vista en miniatura</CommandThumbnailView>
+  <CommandDetailedView>vista de llista</CommandDetailedView>
+  <CommandDetailsPane>panell de detalls</CommandDetailsPane>
+  <CommandFavorites>favorits</CommandFavorites>
+  <CommandAddToFavorites>Afegir a preferits</CommandAddToFavorites>
+  <CommandAddToFavoritesHint>Afegeix la carpeta actual a favorits</CommandAddToFavoritesHint>
+  <AddingToFavoritesMessage>Si afegim a favorits</AddingToFavoritesMessage>
+  <RemoveFromFavoritesMessage>Eliminació de favorits</RemoveFromFavoritesMessage>
+  <FolderAlreadyAddedInFavorites>La carpeta "{0}" ja existeix a favorits</FolderAlreadyAddedInFavorites>
+  <FolderAddedInFavoritesSuccessfully>La carpeta "{0}" ha estat afegit a favorits</FolderAddedInFavoritesSuccessfully>
+  <FavoritesIsOverflowed>No va ser possible afegir la carpeta actual "{0}" als favorits. Eliminar alguns dels favorits per alliberar espai i torna a intentar-ho.</FavoritesIsOverflowed>
+  <RemoveFromFavoritesHint>Eliminar "{0}" de favorits</RemoveFromFavoritesHint>
+  <AddToHomeScreenIOSHint>Toc {0} i després &lt;strong&gt; "Afegir a pantalla d'inici" &lt;/strong&gt;</AddToHomeScreenIOSHint>
+  <CommandSearch>Cerca</CommandSearch>
+  <CommandUpload>Pujar</CommandUpload>
+  <CommandSettings>ajustos</CommandSettings>
+  <CommandLanguage>Llenguatge</CommandLanguage>
+  <CommandAdministration>Administració</CommandAdministration>
+  <CommandAdminPanel>panell d'administració</CommandAdminPanel>
+  <CommandChangePassword>canviar contrasenya</CommandChangePassword>
+  <ProgressChangePassword>Canviar la contrasenya</ProgressChangePassword>
+  <CommandChangeEmail>Canviar e-mail</CommandChangeEmail>
+  <ProgressChangeEmail>Canvi de correu electrònic</ProgressChangeEmail>
+  <CommandMobileView>interfície mòbil (smartphones)</CommandMobileView>
+  <CommandStandardView>Versió completa</CommandStandardView>
+  <CommandInstallIOSApp>Instal·lar aplicació IOS</CommandInstallIOSApp>
+  <CommandInstallAndroidApp>Instal · lar Android App</CommandInstallAndroidApp>
+  <CommandAddServerToMobileApp>Afegir a aquest servidor d'aplicacions mòbils</CommandAddServerToMobileApp>
+  <CommandAddToHomeScreen>Afegir a pantalla d'inici</CommandAddToHomeScreen>
+  <CommandDiagnostics>pàgina de diagnòstic</CommandDiagnostics>
+  <CommandLicenseInfo>informació de llicència</CommandLicenseInfo>
+  <CommandLogout>Tancar sessió</CommandLogout>
+  <CommandLogoutHint>Feu clic per acabar la sessió actual</CommandLogoutHint>
+  <CommandNew>nou</CommandNew>
+  <CommandFile>Dossier</CommandFile>
+  <CommandEmptyFile>arxiu buit</CommandEmptyFile>
+  <CommandNewMSOODocument>Document amb MS Office Online</CommandNewMSOODocument>
+  <CommandNewOffice365Document>Document amb Office 365</CommandNewOffice365Document>
+  <CommandNewMSOOWord>Document de Word</CommandNewMSOOWord>
+  <CommandNewMSOOExcel>full de càlcul Excel</CommandNewMSOOExcel>
+  <CommandNewMSOOPowerPoint>Presentació de PowerPoint</CommandNewMSOOPowerPoint>
+  <CommandNewGoogleDocument>Document amb Google</CommandNewGoogleDocument>
+  <CommandNewGoogleDocs>google Docs</CommandNewGoogleDocs>
+  <CommandNewGoogleSheets>fulls de càlcul</CommandNewGoogleSheets>
+  <CommandNewGoogleSlides>Presentacions de Google</CommandNewGoogleSlides>
+  <CommandNewImage>Imatge de Pixlr</CommandNewImage>
+  <CommandFolder>carpeta</CommandFolder>
+  <CommandNewFile>Nou arxiu buit</CommandNewFile>
+  <CommandNewFolder>Carpeta nova</CommandNewFolder>
+  <CommandNewWithTemplate>L'ús de la plantilla ...</CommandNewWithTemplate>
+  <CommandRename>rebatejar</CommandRename>
+  <CommandDelete>esborrar</CommandDelete>
+  <CommandCopy>còpia</CommandCopy>
+  <CommandMove>moviment</CommandMove>
+  <CommandCut>tallada</CommandCut>
+  <CommandCopyTo>Copiar a ...</CommandCopyTo>
+  <CommandMoveTo>Moure-s cap a...</CommandMoveTo>
+  <CommandCopyCutClipboardSuffix>al porta-retalls</CommandCopyCutClipboardSuffix>
+  <CommandPaste>pasta</CommandPaste>
+  <CommandPasteInto>enganxar en</CommandPasteInto>
+  <CommandZip>Comprimir a un arxiu Zip</CommandZip>
+  <CommandZipMenu>Zip / Descomprimir</CommandZipMenu>
+  <CommandUnzip>zip Desempaquetar</CommandUnzip>
+  <CommandUnzipSelected>desempaquetar seleccionat</CommandUnzipSelected>
+  <CommandUnzipAll>desempaquetar tot</CommandUnzipAll>
+  <CommandUnzipTo>a la carpeta</CommandUnzipTo>
+  <CommandUnzipToCurrent>a la carpeta actual</CommandUnzipToCurrent>
+  <MessageUnzipToFolder>Escriu el nom d'una carpeta per descomprimir això</MessageUnzipToFolder>
+  <MessageUnzipPasswordHint>Si vostè sap que una contrasenya és necessària per a desempaquetar introduir-la al camp de sota</MessageUnzipPasswordHint>
+  <MessageUnzipNeedPassword>Es requereix una contrasenya per descomprimir els arxius</MessageUnzipNeedPassword>
+  <ZipPasswordProtectHint>Per protegir amb contrasenya l'arxiu zip, introdueixi la contrasenya en el camp de sota. Altrament, deixi el camp buit</ZipPasswordProtectHint>
+  <AppendToZipPasswordProtectHint>Per protegir amb contrasenya els arxius afegits a l'arxiu zip, introdueixi la contrasenya en el camp de sota. Altrament, deixi el camp buit</AppendToZipPasswordProtectHint>
+  <ZipPasswordProtectWindowTitle>El arxivat amb la contrasenya</ZipPasswordProtectWindowTitle>
+  <OpenFolderAfterUnzipCheckBox>Obrir la carpeta després de desempaquetar</OpenFolderAfterUnzipCheckBox>
+  <CommandUnzipToNew>a una nova carpeta</CommandUnzipToNew>
+  <CommandZipContents>contingut de zip</CommandZipContents>
+  <ArchiveContentsTitle>contingut de l'arxiu comprimit "{0}"</ArchiveContentsTitle>
+  <CommandDownload>descarregar</CommandDownload>
+  <CommonDownloadAll>descarregar tota</CommonDownloadAll>
+  <DownloadListDragFile>Podeu arrossegar i deixar fitxers a l'escriptori</DownloadListDragFile>
+  <CommandZipDownload>Comprimir i descarregar</CommandZipDownload>
+  <CommandView>Veure en el navegador</CommandView>
+  <CommandDownloadOrView>Descarregar o veure</CommandDownloadOrView>
+  <CommandPreview>imatges de vista prèvia</CommandPreview>
+  <CommandFlashPreview>vista prèvia en flash</CommandFlashPreview>
+  <GettingSizeFlashMovie>Aconseguir la mida de la pel·lícula flash</GettingSizeFlashMovie>
+  <CommandEdit>Edita com a arxiu de text</CommandEdit>
+  <CommandEditView>Veure com arxiu de text</CommandEditView>
+  <AceNotLoadedMessage>No es pot carregar editor d'Ace</AceNotLoadedMessage>
+  <VideoJsNotLoadedMessage>No es pot carregar jugador VideoJS</VideoJsNotLoadedMessage>
+  <CommandMenuEdit>editar</CommandMenuEdit>
+  <CommandSelectAll>Seleccionar tot</CommandSelectAll>
+  <CommandInvertSelection>Inverteix la selecció</CommandInvertSelection>
+  <CommandLinkToFile>Enllaç a l'arxiu / carpeta</CommandLinkToFile>
+  <!--Share link-->
+  <CommandMakePublicFolder>Crear un enllaç públic</CommandMakePublicFolder>
+  <PublicViewInGoogle>Veure a Google</PublicViewInGoogle>
+  <PublicViewinOWA>Veure en OWA</PublicViewinOWA>
+  <!--Make public folder (share)-->
+  <CommandViewWithGoogleDoc>Veure a Google Docs</CommandViewWithGoogleDoc>
+  <CommandViewWithShareCad>Veure en ShareCad.org</CommandViewWithShareCad>
+  <CommandViewWithAutodesk>Veure en Autodesk</CommandViewWithAutodesk>
+  <CommandViewWithBox>Veure en el requadre</CommandViewWithBox>
+  <CommandViewWithOWA>Veure en Office Web Apps</CommandViewWithOWA>
+  <CommandCloudConvert>Converteix amb CloudConvert</CommandCloudConvert>
+  <ProgressGetCloudConvertOutputFormats>Obtenció de formats de sortida</ProgressGetCloudConvertOutputFormats>
+  <ProgressCloudConvertConverting>la conversió</ProgressCloudConvertConverting>
+  <CloudConvertWindowTitle>Converteix '{0}'</CloudConvertWindowTitle>
+  <CloudConvertWindowConvertButton>convertir</CloudConvertWindowConvertButton>
+  <CloudConvertWindowOutputFormatsLabel>format de sortida</CloudConvertWindowOutputFormatsLabel>
+  <CloudConvertDownloadLinkLabel>Enllaç per descarregar</CloudConvertDownloadLinkLabel>
+  <CloudConvertSaveAsLabel>Desa (extensió s'afegirà automàticament):</CloudConvertSaveAsLabel>
+  <CloudConvertNoOutputFormats>No hi ha formats disponibles per a la conversió</CloudConvertNoOutputFormats>
+  <CloudConvertNoUrlForDownload>No va tenir èxit per rebre l'enllaç de descàrrega</CloudConvertNoUrlForDownload>
+  <ProgressCloudConvertUploading>Pujar des CloudConvert</ProgressCloudConvertUploading>
+  <CloudConvertSaveAsNameBlank>nom del tipus aquí</CloudConvertSaveAsNameBlank>
+  <CancelEditButton>Cancel edició</CancelEditButton>
+  <HideButton>amagar</HideButton>
+  <EditDocumentCancelHint>Després de tancar la finestra amb el document editat, es guarda automàticament. &lt;br /&gt; Podeu ocultar aquest quadre de diàleg prement {0} (en aquest cas, encara es guardarà el document després de tancar l'editor). &lt;br /&gt; si no voleu desar el document, feu clic {1} (en aquest cas, la finestra de l'editor es tancarà).</EditDocumentCancelHint>
+  <EditDocumentSaveHint>Ara es pot guardar els canvis en el document prement {0}. Atenció! Després de tancar la finestra de l'editor, serà també guarda automàticament.</EditDocumentSaveHint>
+  <CommandEditInMSOffice>Edita en MS Office</CommandEditInMSOffice>
+  <CommandEditInOOo>Edita a OpenOffice / LibreOffice</CommandEditInOOo>
+  <CommandViewInMSOffice>Veure en MS Office</CommandViewInMSOffice>
+  <CommandViewInOOo>Veure en OpenOffice / LibreOffice</CommandViewInOOo>
+  <CommandEditInPixlr>Edita en Pixlr</CommandEditInPixlr>
+  <CommandEditInAdobe>Edita en Adobe Creative Cloud</CommandEditInAdobe>
+  <AdobeImageEditorSavedAsNewTypeMessage>El panorama va canviar en Adobe editor d'imatges s'ha guardat en el format {0}</AdobeImageEditorSavedAsNewTypeMessage>
+  <CommandEditInGoogle>Edita a Google Drive</CommandEditInGoogle>
+  <EditInGoogleConvertMessage>Després d'editar el document es converteix a format {1} {0} {2}</EditInGoogleConvertMessage>
+  <EditInGoogleLinkError>No es pot obtenir l'enllaç per editar el document a Google Drive</EditInGoogleLinkError>
+  <EditInGoogleWaiting>Esperar a la finalització d'edició a Google Drive</EditInGoogleWaiting>
+  <CommandEditInMSOO>Edita en Microsoft Office Online</CommandEditInMSOO>
+  <EditInMSOOLinkError>No es pot obtenir l'enllaç per editar el document en MS Office Online</EditInMSOOLinkError>
+  <EditInMSOOWaiting>Esperar a la finalització d'edició de MS Office Online</EditInMSOOWaiting>
+  <CommandEditInOffice365>Edita a l'Office 365</CommandEditInOffice365>
+  <EditInOffice365LinkError>No es pot obtenir l'enllaç per editar el document a l'Office 365</EditInOffice365LinkError>
+  <EditInOffice365Waiting>Esperar a la finalització d'edició a l'Office 365</EditInOffice365Waiting>
+  <CommandSave>Desar</CommandSave>
+  <CommandSaveAs>Guardar com...</CommandSaveAs>
+  <CommandAppRestart>reinicieu l'aplicació</CommandAppRestart>
+  <CommandPlayVideoFlash>Reproduir vídeo en flash player</CommandPlayVideoFlash>
+  <CommandPlayVideoHtml5>reproducció de vídeo</CommandPlayVideoHtml5>
+  <CommandPlayAudioHtml5>reproducció d'àudio</CommandPlayAudioHtml5>
+  <CommandPlayVideo>reproducció de vídeo</CommandPlayVideo>
+  <CommandPlayAudio>reproducció d'àudio</CommandPlayAudio>
+  <CommandConvertVideo>convertir el vídeo</CommandConvertVideo>
+
+  <ViewInServiceLink>Cliqueu aquí per veure el fitxer</ViewInServiceLink>
+  <EditInServiceLink>Feu clic aquí per editar el document</EditInServiceLink>
+
+  <OfficeEditCopyLinkLabel>Copia l'enllaç de sota i obrir-lo en l'aplicació d'Office:</OfficeEditCopyLinkLabel>
+  <OfficeRunError>No va ser possible iniciar {0}</OfficeRunError>
+  <BadPathToFile>No es pot trobar la ruta a l'arxiu</BadPathToFile>
+  <FixBasicAuthAlertTitle>Atenció!</FixBasicAuthAlertTitle>
+  <FixBasicAuthAlertMessage>Microsoft Office funciona amb l'autenticació bàsica sense SSL! Pots fer això per la seva oficina. Per a més informació consulti {0}.</FixBasicAuthAlertMessage>
+  <FixBasicAuthAlertCheckBoxText>No mostrar aquest diàleg més.</FixBasicAuthAlertCheckBoxText>
+  <CommandDetails>Detalls</CommandDetails>
+  <CommonButtonCaptionAddDetail>afegir detalls</CommonButtonCaptionAddDetail>
+  <CommonButtonCaptionAddComment>Afegeix un comentari</CommonButtonCaptionAddComment>
+  <DetailsWindowTitle>Detalls "{0}"</DetailsWindowTitle>
+  <FileDetailsSave>aplicar canvis</FileDetailsSave>
+  <FileDetailsIgnoreChanges>passar per alt</FileDetailsIgnoreChanges>
+  <FileDetailsCloseConfirmTitle>La finestra de detalls de l'arxiu es tanca</FileDetailsCloseConfirmTitle>
+  <FileDetailsCloseConfirmMsg>Atenció! Els canvis no s'han desat encara. Seleccioneu una acció que vol aplicar a aquests canvis abans de tancar la finestra.</FileDetailsCloseConfirmMsg>
+  <FileDetailsGridTitleColumn>títol</FileDetailsGridTitleColumn>
+  <FileDetailsGridAuthorColumn>últim autor</FileDetailsGridAuthorColumn>
+  <LoadingDetailsMask>carregant dades</LoadingDetailsMask>
+  <NewDetailsTitle>nou títol</NewDetailsTitle>
+  <NewDetailsValue>Nou valor de detalls</NewDetailsValue>
+  <DetailsSavingMsg>Guardar detalls</DetailsSavingMsg>
+  <ProgressLoadingEditInOffice>Preparació per a l'edició de l'Office</ProgressLoadingEditInOffice>
+  <MenuFilterText>filtres</MenuFilterText>
+  <EmptyTextFilter>Introdueixi filtre ...</EmptyTextFilter>
+  <AfterDateFilterText>després</AfterDateFilterText>
+  <BeforeDateFilterText>Abans</BeforeDateFilterText>
+  <OnDateFilterText>a</OnDateFilterText>
+  <YesBooleanFilterText>si</YesBooleanFilterText>
+  <NoBooleanFilterText>No</NoBooleanFilterText>
+  <CommandEditWithZoho>Edita a Zoho</CommandEditWithZoho>
+  <ZohoNotSupportedFormatMessage>L'extensió no està suportat per Zoho. Veure {0}.</ZohoNotSupportedFormatMessage>
+  <ProgressLoadingEditInZoho>Carregant editor de Zoho</ProgressLoadingEditInZoho>
+  <CommandSubMenuViewAndEdit>Veure / editar</CommandSubMenuViewAndEdit>
+  <CommandSubMenuShare>Compartir</CommandSubMenuShare>
+  <CommandSubMenuMore>més</CommandSubMenuMore>
+  <StopUploadingButtonText>aturar</StopUploadingButtonText>
+  <SimpleUploadErrorInfo>En carregar el fitxer (s) que hi havia un error. &lt;br /&gt; Veure {0} per obtenir més informació &lt;/a&gt;</SimpleUploadErrorInfo>
+  <BalloonAbortFilesUploaded>La càrrega d'arxius es va avortar</BalloonAbortFilesUploaded>
+  <UploadDragNDropTab>Arrossegar i deixar anar</UploadDragNDropTab>
+  <UploadDragNDropTabImages>De arrossegar i deixar anar imatges +</UploadDragNDropTabImages>
+  <DnDGridProgressColumn>Progrés, progressar</DnDGridProgressColumn>
+  <DnDFileReadingError>error de lectura. Codi d'error: {0}.</DnDFileReadingError>
+  <DnDFileReadingAbort>Lectura avortada. Codi d'error: {0}.</DnDFileReadingAbort>
+  <DnDFileUploadingError>error en pujar. {0}</DnDFileUploadingError>
+  <DnDFileUploadingAbort>Càrrega avortada.</DnDFileUploadingAbort>
+  
+  <CommandWebFoldersLinks>carpetes Mapa web</CommandWebFoldersLinks>
+  <CommandSyncWebFolders>Sincronització amb carpeta local</CommandSyncWebFolders>
+  <WebFolderLinksFieldLabel>Enllaços Web-carpeta</WebFolderLinksFieldLabel>
+  <WebFolderLinksForWindows64Note>Premeu la combinació de tecles {0} Win+R {1}. Inseriu la línia d'ordres a l'Open d'{0}: {1} de camp (vegeu els exemples de línia d'ordres a continuació), feu clic a OK {0} {1}. Per a l'autenticació de Windows amb noms de domini complets: {2}.</WebFolderLinksForWindows64Note>
+  <OpenLibreOfficeRunCommandNote>O premeu la combinació de tecles {0} Win+R {1}, inseriu la línia que tot seguit al {0} Obrir: {1} camp i premeu OK {0} {1}</OpenLibreOfficeRunCommandNote>
+  <WebFolderLinksForMacOSNote>Al menú "Finder", oberta {0} Ir-&gt; Connectar amb el servidor {1}. Inseriu l'enllaç de la carpeta web al directori {0} "Direcció del servidor" {1} camp. Feu clic a {0} "Connectar" {1}. En el nou quadre de diàleg seleccioneu {0} "hoste" {1} o {0} "usuari registrat" ​​{1} (per a l'autenticació de Windows). Feu clic a {0} "Connectar" {1}.</WebFolderLinksForMacOSNote>
+  <WebFolderLinksForUbuntuNote>Obrir {0} Ir-&gt; Localització ... {1} Copia l'enllaç de la carpeta web al camp d'ubicació.</WebFolderLinksForUbuntuNote>
+  <LinksToWebFoldersWindowText>Podeu assignar les carpetes que es veuen com una unitat de xarxa en el seu sistema operatiu local. Després de la cartografia es pot treballar amb arxius com amb les locals o editar documents en MS Office o OpenOffice. Consulteu l'ajuda sobre com mapar {0}.</LinksToWebFoldersWindowText>
+  <CommonFileTypeNameCaption>"{0}" nom de fitxer</CommonFileTypeNameCaption>
+  <CommonFileTypeNamePrompt>Introduir nou "{0}" nom de fitxer</CommonFileTypeNamePrompt>
+  
+  <PixlrEditorWindowTitle>Pixlr editor de {0}</PixlrEditorWindowTitle>
+  <PixlrSaveImageSuccessMessage>La imatge de "{0}" s'ha guardat correctament. Actualitzar la llista si ha guardat la imatge amb un nou nom.</PixlrSaveImageSuccessMessage>
+  <CommonFileImageNewName>nova imatge</CommonFileImageNewName>
+  <CommandChangeTheme>canviar tema</CommandChangeTheme>
+  
+  <CommandHelp>ajudar</CommandHelp>
+
+  <OpeningShortcutProgress>obertura d'accés directe</OpeningShortcutProgress>
+  <CommandCreateShortcut>Accés directe (enllaç simbòlic)</CommandCreateShortcut>
+  <ShortcutNameHint>nom de la drecera</ShortcutNameHint>
+  <ShortcutTargetPathHint>ruta de destinació</ShortcutTargetPathHint>
+  <CreateShortcutButtonTitle>Crear</CreateShortcutButtonTitle>
+  <CreatingShortcutProgress>La creació d'accessos directes</CreatingShortcutProgress>
+  <CreateShortcutSuccessMessage>Accés directe "{0}" ha estat creat amb èxit per a "{1}".</CreateShortcutSuccessMessage>
+
+  <OpeningInternetShortcutProgress>L'obertura d'accés directe a Internet</OpeningInternetShortcutProgress>
+  <InternetShortcutNotValidMsg>La direcció URL de destinació d'aquest accés directe a Internet no és vàlida</InternetShortcutNotValidMsg>
+  <InternetShortcutWindowTitle>Anar a l'enllaç</InternetShortcutWindowTitle>
+  
+  <CommandVersioning>control de versions</CommandVersioning>
+  <CommandVersionHistory>historial de la versió</CommandVersionHistory>
+  <CommandCheckOut>verificar</CommandCheckOut>
+  <CommandCheckIn>Registrar</CommandCheckIn>
+  <CommandUndoCheckOut>Cancel Hora de sortida</CommandUndoCheckOut>
+  <VersionHistoryObtainingMessage>L'obtenció d'historial de versions</VersionHistoryObtainingMessage>
+  <NoVersionHistoryMessage>No existeix l'historial de versions del fitxer seleccionat</NoVersionHistoryMessage>
+  <FileIsCheckedOutMessage>L'arxiu "{0}" ja està desprotegit per l'usuari "{1}" de {2}</FileIsCheckedOutMessage>
+  <CheckingOutMessage>Comprovant</CheckingOutMessage>
+  <SuccessfullyCheckedOutMessage>L'arxiu "{0}" es va comprovar amb èxit per part de l'usuari "{1}"</SuccessfullyCheckedOutMessage>
+  <FileIsNotCheckedOutMessage>L'arxiu "{0}" no s'ha comprovat encara</FileIsNotCheckedOutMessage>
+  <FileIsCheckedOutOtherUserMessage>L'arxiu "{0}" està desprotegit per un altre usuari "{1}" de {2}.</FileIsCheckedOutOtherUserMessage>
+  <FileUndoCheckOutForbiddenMessage>No es pot cancel·lar un registre de sortida aplicada per un altre usuari.</FileUndoCheckOutForbiddenMessage>
+  <FileCheckInForbiddenMessage>No es pot comprovar en un arxiu que ja s'ha desprotegit per un altre usuari.</FileCheckInForbiddenMessage>
+  <FileUndoCheckOutConfirmMessage>Si cancel·la el seu registre de sortida, els canvis aplicats al document no es guardaran! Esteu segur que voleu cancel·lar la seva sortida?</FileUndoCheckOutConfirmMessage>
+  <FileVersionDeleteConfirmTitle>Eliminació de la versió del fitxer</FileVersionDeleteConfirmTitle>
+  <FileVersionDeleteConfirmMessage>Esteu segur que voleu eliminar la versió seleccionada de l'arxiu?</FileVersionDeleteConfirmMessage>
+  <FileVersionRestoreConfirmTitle>La restauració de la versió del fitxer</FileVersionRestoreConfirmTitle>
+  <FileVersionRestoreConfirmMessage>Esteu segur que voleu restaurar la versió seleccionada del fitxer {0} En cas afirmatiu, especifiqueu el fitxer en el qual es guardarà en la versió seleccionada. Si deixeu aquest valor sense canvis (o establir el valor de buit) la versió seleccionada reemplaçarà l'arxiu seleccionat (contingut anterior de l'arxiu s'afegeix a la història de la versió) {1} Nom d'arxiu .:</FileVersionRestoreConfirmMessage>
+  <UndoCheckingOutMessage>Cancel·lació d'Hora de sortida</UndoCheckingOutMessage>
+  <SuccessfullyUndoCheckedOutMessage>La cancel·lació del registre de sortida per a un arxiu "{0}" ha estat completada amb èxit.</SuccessfullyUndoCheckedOutMessage>
+  <SuccessfullyCheckedInMessage>L'arxiu "{0}" està marcada amb èxit en l'usuari "{1}"</SuccessfullyCheckedInMessage>
+  <CheckingInMessage>Facturant</CheckingInMessage>
+  <VersionHistoryTitle>versions d'arxiu "{0}"</VersionHistoryTitle>
+  <VersionHistoryGridNumberColumn>Veure.</VersionHistoryGridNumberColumn>
+  <VersionHistoryGridNotesColumn>notes</VersionHistoryGridNotesColumn>
+  <CommandRestoreVersion>restaurar</CommandRestoreVersion>
+  <ProgressPrepareDownloadOldVersion>Preparació per a la versió antiga descarreguen</ProgressPrepareDownloadOldVersion>
+  <FileVersionNotFoundMessage>La versió de l'arxiu seleccionat no va ser trobat.</FileVersionNotFoundMessage>
+  <ProgressDeletingVersion>Eliminació de la versió</ProgressDeletingVersion>
+  <ProgressRestoringVersion>La restauració de la versió</ProgressRestoringVersion>
+  <FileNeedCheckInMessage>Si us plau verifiqui en o cancel·lar el registre de sortida per a l'arxiu seleccionat i torna a intentar-ho.</FileNeedCheckInMessage>
+  <FileCheckedOutEditForbiddenMessage>No es pot modificar / canviar el nom / moure / esborrar l'arxiu "{0}" mentre s'està desprotegit per l'usuari "{1}" de {2}</FileCheckedOutEditForbiddenMessage>
+  <FileUploadCheckInLabel>El registre d'entrada en el fitxer seleccionat o pujar una nova versió de l'arxiu (utilitzeu el formulari de càrrega baix). Per crear una nova versió d'un fitxer seleccionat, no pujar cap arxiu aquí.</FileUploadCheckInLabel>
+  <FileUploadCheckInInvalidFileName>El nom del fitxer pujat ha de ser exactament el mateix que el nom del fitxer seleccionat</FileUploadCheckInInvalidFileName>
+  <CheckOutVersionNotes>Aquesta versió ha estat creada de forma automàtica</CheckOutVersionNotes>
+  <RestoreVersionNotes>Aquesta versió ha estat creada de forma automàtica després de la restauració de la versió de {0} d'usuari "{1}"</RestoreVersionNotes>
+  <IsCheckedOutHint>L'arxiu s'ha comprovat</IsCheckedOutHint>
+  <ExistsOldVersionsHint>L'arxiu té altres versions</ExistsOldVersionsHint>
+  <IsLockedHint>L'arxiu està bloquejat</IsLockedHint>
+  <FileWasCreatedHint>Ha estat creat fa {0}</FileWasCreatedHint>
+  <FileWasModifiedHint>S'ha canviat fa {0}</FileWasModifiedHint>
+  <CommonChangedAgo>Fa {0}</CommonChangedAgo>
+  <DaysShort>d</DaysShort>
+  <HoursShort>h</HoursShort>
+  <MinutesShort>m</MinutesShort>
+  <FileContainsMetaDataHint>Conté alguns detalls (metadades)</FileContainsMetaDataHint>
+  <FileMetaDataCaptionMobile>metadades</FileMetaDataCaptionMobile>
+
+  <ExistsPublicLinksFileHint>L'arxiu té enllaços públics</ExistsPublicLinksFileHint>
+  <ExistsPublicLinksFolderHint>La carpeta té vincles públics</ExistsPublicLinksFolderHint>
+  <PublicLinkNotFound>Enllaç públic per a "{0}" no trobat</PublicLinkNotFound>
+
+  <PublicLinksDeleteWindowTitle>Eliminar enllaç públic (s)</PublicLinksDeleteWindowTitle>
+  <PublicLinksDeleteLinkButton>eliminar enllaç</PublicLinksDeleteLinkButton>
+  <PublicLinksDeleteConfirmMsg>Esteu segur que voleu eliminar els enllaços públics seleccionats?</PublicLinksDeleteConfirmMsg>
+  <PublicLinksDeleteSingleConfirmMsg>Esteu segur que voleu suprimir aquest enllaç?</PublicLinksDeleteSingleConfirmMsg>
+
+  <DetailsMultiValue>(Valor múltiple)</DetailsMultiValue>
+
+  <GridBottomFilesSizeInfo>Seleccionat: {0} / {1},</GridBottomFilesSizeInfo>
+  <GridBottomFilesFoldersInfo>Arxius: {0} / {1}, carpetes: {2} / {3}</GridBottomFilesFoldersInfo>
+
+  <AmountOfDownloadingsFile>descàrregues</AmountOfDownloadingsFile>
+
+  <CookiesDisabledMessage>La funcionalitat de cookies del seu navegador està desactivada. Si us plau, engegar i navegador reinici.</CookiesDisabledMessage>
+
+  <CommandSendEmail>Envia un correu electrònic</CommandSendEmail>
+  <CommandSendWithGmail>Enviar amb Gmail</CommandSendWithGmail>
+  <CommandSendWithOutlook>Enviar amb Outlook</CommandSendWithOutlook>
+  <SendEmailTo>a</SendEmailTo>
+  <SendEmailBulkMailingListHint>&lt;b&gt; Llista de correu &lt;/b&gt; &lt;br /&gt; Es pot especificar grups sencers d'enviar el seu correu electrònic</SendEmailBulkMailingListHint>
+  <SendEmailBulkMailingListWindowTitle>Certs receptors per al seu correu electrònic</SendEmailBulkMailingListWindowTitle>
+  <SendEmailEmptyMailingListMessage>La llista de correu està buida</SendEmailEmptyMailingListMessage>
+  <SendEmailSenderEmail>correu electrònic del remitent</SendEmailSenderEmail>
+  <SendEmailSubject>Assignatura</SendEmailSubject>
+  <SendEmailFilesAsLinksTo>Enviar enllaços a fitxers seleccionats</SendEmailFilesAsLinksTo>
+  <SendEmailFilesAsAttachements>Enviar els fitxers seleccionats com arxius adjunts</SendEmailFilesAsAttachements>
+  <SendEmailSend>enviar</SendEmailSend>
+  <SendEmailProgressMessage>l'enviament de correu electrònic</SendEmailProgressMessage>
+  <GettingMailingListProgressMessage>Obtenció de la llista de correu</GettingMailingListProgressMessage>
+  <SendEmailSuccessMessage>El correu electrònic va ser enviat amb èxit.</SendEmailSuccessMessage>
+  <SendEmailResultsMessage>Enviat :. {0} &lt;br /&gt; Error: {1} {2}.</SendEmailResultsMessage>
+  <SmtpServerSettingsIncorrect>Les opcions de servidor SMTP estan buits o incorrectes</SmtpServerSettingsIncorrect>
+  <FromEmailIncorrect>La direcció de correu electrònic D'aquesta incorrecta o buida</FromEmailIncorrect>
+  <ToEmailIncorrect>La direcció de correu electrònic Per aquesta incorrecta o buida</ToEmailIncorrect>
+  <EmailSubjectEmpty>L'assumpte del correu electrònic no s'especifica</EmailSubjectEmpty>
+  <UploadFromUrlTab>A partir d'URL</UploadFromUrlTab>
+  <UploadFromUrlFieldLabel>URL (HTTP o FTP en fila índia)</UploadFromUrlFieldLabel>
+  <UploadFromUrlProgressTitle>Pujar des de la URL</UploadFromUrlProgressTitle>
+  <UploadFromUrlMsg>Càrrega d'URL</UploadFromUrlMsg>
+  <UploadFromUrlSuccessMsg>L'arxiu "{0}" ha estat carregat amb èxit de "{1}"</UploadFromUrlSuccessMsg>
+  <UploadFromUrlUnknownResponse>La resposta del servidor no es reconeix</UploadFromUrlUnknownResponse>
+  <UploadFromUrlEmptyFileName>El nom del fitxer carregat està buida</UploadFromUrlEmptyFileName>
+  <UploadFromUrlFileName>Desa amb el nom (deixar en blanc per usar el nom de la URL)</UploadFromUrlFileName>
+  <UploadFromUrlFileNameMobile>Desa amb nom</UploadFromUrlFileNameMobile>
+  
+  <!-- Common Clouds keys -->  
+  <CloudAuthenticateMessage>Heu d'iniciar sessió a {0}. Clic a l'enllaç "{1}" i passareu al formulari d'inici de sessió. {2} Més informació. {3}</CloudAuthenticateMessage>
+  <CloudAuthenticateLink>Autenticar amb {0}</CloudAuthenticateLink>  
+  <CloudDownloadingMessage>La descàrrega a {0}</CloudDownloadingMessage>
+  <CloudAuthWarningMessage>Si l'acció no ha estat així, si us plau, tanqui aquesta finestra i feu clic a l'enllaç "{0}" de nou.</CloudAuthWarningMessage>
+  <CloudAuthEmptyInvalidMessage>{0} testimoni d'accés està buit o no vàlid. Si us plau autenticar de nou.</CloudAuthEmptyInvalidMessage>
+  <CloudDownloadEndMessageTitle>Descàrrega hagi finalitzat</CloudDownloadEndMessageTitle>
+  <CloudDownloadFilesSuccessMessage>{0} arxiu (s) descarregat amb èxit a la carpeta "{1}" {2}.</CloudDownloadFilesSuccessMessage>
+  <CloudNotDownloadedFilesMessage>{0} arxiu (s) no descarregat:</CloudNotDownloadedFilesMessage>
+  <CloudFoldersCreatedSuccessMessage>{0} carpetes (s) creat amb èxit a la carpeta "{1}" {2}.</CloudFoldersCreatedSuccessMessage>
+  <CloudNotFoldersCreatedMessage>{0} carpetes (s) no va ser creada:</CloudNotFoldersCreatedMessage>
+  <CloudFilesFoldersSuccessMessage>{0} arxiu (s), carpeta (s) {1} descarregat amb èxit a la carpeta "{2}" {3}.</CloudFilesFoldersSuccessMessage>
+  <CloudNotFilesFoldersDownloadedMessage>{0} arxiu (s), carpeta (s) {1} no descarregat:</CloudNotFilesFoldersDownloadedMessage>
+  <CloudLinkText>Visita {0}</CloudLinkText>
+  <CloudLinkDescription>Anar a la pàgina {0}</CloudLinkDescription>
+  <CloudRootFolderName>&lt;b&gt; {0} carpeta arrel &lt;/b&gt;</CloudRootFolderName>
+  <CloudCheckFolerMessage>Si us plau verifiqui en una sola carpeta {0} per continuar.</CloudCheckFolerMessage>
+  <CloudSelectFolderMessage>Seleccioneu la carpeta {0} per continuar.</CloudSelectFolderMessage>
+  <CloudGetFoldersInfoProgressMessage>Carregant info {0} carpetes</CloudGetFoldersInfoProgressMessage>
+  <CloudGetItemsInfoProgressMessage>Carregant {0} articles info</CloudGetItemsInfoProgressMessage>
+  <CloudUploadSelectItemsMessage>Seleccioneu {0} elements per continuar.</CloudUploadSelectItemsMessage>
+  <CloudUploadTotalFiles>Total d'arxius: {0} ({1})</CloudUploadTotalFiles>
+  <CloudUploadProgressMessage>Pujar des {0}</CloudUploadProgressMessage>
+  <CloudSignInAsDifferentUserText>Tancar sessió de {0}</CloudSignInAsDifferentUserText>
+  <CloudLogoutProgressMsg>Tancar sessió de {0}</CloudLogoutProgressMsg>
+  <CloudRevokeTokenMsg>La revocació de comptadors</CloudRevokeTokenMsg>
+  <CloudRefreshTokenMsg>comptador refrescant</CloudRefreshTokenMsg>
+  <CloudAuthNotCompleteMsg>L'autenticació no s'ha completat. &lt;br /&gt; Si us plau,</CloudAuthNotCompleteMsg>
+  <CloudTrustedSitesMsg> comprovi els següents llocs en la llista de "Llocs de confiança": &lt;br /&gt; &lt;br /&gt;</CloudTrustedSitesMsg>
+  <TrustedSitesForMicrosoftEdge>Si utilitzeu Microsoft Edge, a continuació, comprovar els llocs de confiança d'Internet Explorer</TrustedSitesForMicrosoftEdge>
+  <CloudCheckAuthMsg>Comproveu {0} d'autenticació</CloudCheckAuthMsg>
+  <CloudLoadMsg>Carregant {0}</CloudLoadMsg>
+  <CloudFreeSpaceError>No hi ha prou espai a {2} per carregar els arxius. Bé: {0}. Mida del fitxer: {1}.</CloudFreeSpaceError>
+  <CloudFreeSpaceExceeded>No hi ha prou espai a {0}</CloudFreeSpaceExceeded>
+  <CloudExceedFileSizeError>L'arxiu que està intentant descarregar té una mida de fitxer de {1}, que és més gran que la mida màxima permès per a baixar - {0}.</CloudExceedFileSizeError>
+  <CloudFolderNotFound>No s'ha trobat directori. Potser ha estat esborrada</CloudFolderNotFound>
+  <CloudFileNotFound>No es troba l'arxiu. Potser ha estat esborrada</CloudFileNotFound>
+  <CloudNoFoldersMessage>No hi ha carpetes per mostrar</CloudNoFoldersMessage>
+  <CloudLibraryNotLoadedMsg>{0} biblioteca client no s'ha carregat! &lt;br /&gt; Si us plau, comproveu la connexió a Internet i, o refrescar la pàgina. &lt;br /&gt; També</CloudLibraryNotLoadedMsg>
+  <CloudDownloadWithNewNames>Després arxiu (s) descarregat amb nous noms:</CloudDownloadWithNewNames>
+
+  <!-- Google Drive Cloud keys -->
+  <CommandDownloadToGoogleDocs>Descarregar Google Drive</CommandDownloadToGoogleDocs>
+  <GoogleDocsSaveAs>guardar com:</GoogleDocsSaveAs>
+  <GoogleDocsSaveAsTitle>Guardar "{0}", com ...</GoogleDocsSaveAsTitle>
+  <GoogleDocsDownloadEndWarningMessage>Si no pot veure els documents carregats al seu compte de Google Drive, esperi uns segons i actualitzar la llista de Google Drive.</GoogleDocsDownloadEndWarningMessage>
+  <GoogleDriveUploadNoFilesMessage>No hi ha arxius a Google Drive per a la càrrega</GoogleDriveUploadNoFilesMessage>
+  <GoogleDriveMaxUploadSizeError>Per al contingut de tipus "{0}" la mida màxima de la càrrega {1} es supera.</GoogleDriveMaxUploadSizeError>
+  <GoogleDriveConvertMsg>Si és possible, convertir els arxius al format de documents de Google. {0} Més informació {1}.</GoogleDriveConvertMsg>
+
+  <!-- Box Cloud keys -->
+  <CommandDownloadToBox>Descàrrega a la casella</CommandDownloadToBox>
+  <BoxDownloadWithNewNames>L'arxiu (s) següent s'actualitza amb les noves versions:</BoxDownloadWithNewNames>
+  <BoxNoViewPermission>Vostè no té permís per veure el directori seleccionat</BoxNoViewPermission>
+  <BoxNoDownloadPermission>Vostè no té permís per descarregar</BoxNoDownloadPermission>
+  <BoxNoUploadPermission>Vostè no té permís per carregar</BoxNoUploadPermission>
+  <BoxUnableCreateOrInfoError>No es pot crear o obtenir informació</BoxUnableCreateOrInfoError>
+  
+  <!-- Dropbox Cloud keys -->
+  <CommandDownloadToDropbox>Descàrrega de Dropbox</CommandDownloadToDropbox>
+  
+  <!-- OneDrive Cloud keys -->
+  <CommandDownloadToSkyDrive>Baixa per onedrive</CommandDownloadToSkyDrive>
+  <AuthenticateOAuthSkyDriveMessageShort>Heu d'iniciar sessió al seu compte de Microsoft Live.</AuthenticateOAuthSkyDriveMessageShort>
+  <SkyDriveAuthAlsoString>també</SkyDriveAuthAlsoString>
+  <SkyDriveLoginButtonTitle>iniciar Sessió</SkyDriveLoginButtonTitle>
+  <SkyDriveRegistryMessage>¿No té un Windows Live ID? {0} Fes-... {1}</SkyDriveRegistryMessage>
+  <SkyDriveMapRootFolder>Nota! Pots {0} {1} mapa de la carpeta onedrive. path és</SkyDriveMapRootFolder>
+  <SkyDriveMoreInfoLink>{0} Més informació sobre onedrive (SkyDrive) {1}</SkyDriveMoreInfoLink>
+  <OneDriveMaxUploadSizeError>La mida admissible ({0}) de l'arxiu carregat s'excedeix: {1}</OneDriveMaxUploadSizeError>
+  <!-- OneDrive for Business -->
+  <OneDriveForBusinessMapWebFolderInfo>&lt;b&gt; Nota &lt;/ ​​b&gt; Abans d'obrir els arxius d'aquesta ubicació, primer d'agregar el lloc web a la seva llista de llocs de confiança, aneu a la pàgina web, i seleccioneu l'opció de connectar-se automàticament (en el navegador Internet Explorer).</OneDriveForBusinessMapWebFolderInfo>
+  
+  <UploadFromUrlLabelText>Podeu especificar l'adreça URL d'un fitxer emmagatzemat en un servidor d'arxius global o en un servei d'ús compartit d'arxius com {0}, {1}, {2}, {3}, {4}.</UploadFromUrlLabelText>
+  <UploadFromUrlLabelTextMobile>Especificar l'adreça URL de l'arxiu</UploadFromUrlLabelTextMobile>
+
+  <LinkToFileTitle>Enllaç a l'arxiu / carpeta</LinkToFileTitle>
+  <LinkToFileWarningAnonym>Aquest enllaç proporciona accés anònim a l'arxiu. Qualsevol usuari, fins i tot un que no té cap compte en aquest lloc, pot descarregar o carregar arxius a través d'un enllaç públic. Un enllaç a un arxiu públic la possibilitat de descarregar un arxiu seleccionat. {0} Més informació {1}.</LinkToFileWarningAnonym>
+  <LinkToFileDownloadFileLink>Aquest enllaç la possibilitat de descarregar l'arxiu seleccionat {0} de {1}. Es necessita un compte vàlida per usar aquest vincle. No proporciona accés anònim a l'arxiu.</LinkToFileDownloadFileLink>
+  <LinkToFileExpireDate>Data de caducitat</LinkToFileExpireDate>
+  <LinkToFileDownloadCnt>límit de descàrrega recompte</LinkToFileDownloadCnt>
+  <LinkToFileDownloadType>tipus d'enllaç</LinkToFileDownloadType>
+  <LinkToFileGenerate>crear un enllaç</LinkToFileGenerate>
+  <LinkToFilePasswordNotMatch>Les contrasenyes no coincideixen</LinkToFilePasswordNotMatch>
+  <LinkToFilePasswordRequired>La contrasenya és necessària per a l'enllaç públic</LinkToFilePasswordRequired>
+  <LinkToFileInvalidForm>Els paràmetres no vàlids</LinkToFileInvalidForm>
+  <LinkToFileAnonymDownloadLinkHint>Enllaç públic per a "{0}":</LinkToFileAnonymDownloadLinkHint>
+  <LinkToFileAnonymDownloadShortLinkHint>enllaç públic abreviatura de "{0}":</LinkToFileAnonymDownloadShortLinkHint>
+  <LinkToFileOpenFolderLink>Aquest enllaç us permet obrir la carpeta seleccionada {0} a {1}. Es necessita un compte vàlida per usar aquest vincle. No proporciona l'accés anònim a la carpeta.</LinkToFileOpenFolderLink>
+  <LinkToFileOpenFileLink>Aquest enllaç obre la carpeta amb l'arxiu i el ressalta</LinkToFileOpenFileLink>
+  <LinkToFileDaysLeft>Dies que falten</LinkToFileDaysLeft>
+  <LinkToFileCaptionMobile>enllaços públics</LinkToFileCaptionMobile>
+
+  <PublicFolderLinkHint>Enllaç públic a la carpeta "{0}":</PublicFolderLinkHint>
+  <PublicFolderShortLinkHint>Breu enllaç públic a la carpeta "{0}":</PublicFolderShortLinkHint>
+  <PublicFolderLinkDownloadZipHint>Enllaç de descàrrega per a l'arxiu zip de la carpeta "{0}":</PublicFolderLinkDownloadZipHint>
+  <PublicFolderLinkShortDownloadZipHint>Breu enllaç de descàrrega per a l'arxiu zip de la carpeta "{0}":</PublicFolderLinkShortDownloadZipHint>
+  <PublicFolderLinkZipDownload>Comprimir i descàrrega carpeta actual {0} (en un arxiu ZIP)</PublicFolderLinkZipDownload>
+  <PublicFolderLinkOverwriteWhileUpload>sobreescriure existent</PublicFolderLinkOverwriteWhileUpload>
+  <PublicFolderLinkOpenFolderHint>Carpeta oberta</PublicFolderLinkOpenFolderHint>
+  <PublicFolderDownloadDisabledNote>Nota! El propietari d'aquesta carpeta havia prohibit la descàrrega d'arxius des d'aquesta carpeta.</PublicFolderDownloadDisabledNote>
+  <PublicFolderLinkSendEmails>Enviar informació sobre l'activitat dels visitants als correus electrònics</PublicFolderLinkSendEmails>
+  <PublicFolderAnonymAccessControl>Control d'accés</PublicFolderAnonymAccessControl>
+  <PublicFolderAnonymDownload>descàrrega d'arxius</PublicFolderAnonymDownload>
+  <PublicFolderAnonymZipDownload>carpetes de descàrrega (ZIP)</PublicFolderAnonymZipDownload>
+  <PublicFolderAnonymUpload>Pujar</PublicFolderAnonymUpload>
+  <PublicFolderAnonymViewContent>Veure llista de fitxers</PublicFolderAnonymViewContent>
+  <PublicFolderNoteForUsers>Nota per als usuaris</PublicFolderNoteForUsers>
+  <PublicFolderACLNotSet>El control d'accés no està establert</PublicFolderACLNotSet>
+  <PublicFolderWarningAnonym>Aquest enllaç proporciona accés anònim a la carpeta. Qualsevol usuari, fins i tot un que no té cap compte en aquest lloc, pot descarregar o carregar arxius a través d'un enllaç públic. Un enllaç a la carpeta pública la possibilitat de descarregar tant una carpeta completa (envasats en arxiu) i arxius individuals. {0} Més informació {1}.</PublicFolderWarningAnonym>
+  <PublicLinksShowForAllItems>Mostra per a tots</PublicLinksShowForAllItems>
+  <PublicLinksShowForSelected>Espectacle per a seleccionada</PublicLinksShowForSelected>
+  
+  <MultipleFileInputMessage>Nota! El seu navegador compatible amb la selecció de diversos arxius alhora.</MultipleFileInputMessage>
+  <UploadZipUnzipNote>Es pot carregar un fitxer zip amb diversos arxius i carpetes i després extreure'l, amb la comanda "{0}" al menú contextual.</UploadZipUnzipNote>
+  <DnDFileUploadingStatusCode>El codi d'estat</DnDFileUploadingStatusCode>
+  <DnDFileUploadingPathOrNameEmpty>La ruta i el nom del fitxer o no s'especifiquen</DnDFileUploadingPathOrNameEmpty>
+  <DnDFileUploadingRemoveFromList>Elimina de la llista</DnDFileUploadingRemoveFromList>
+  <DndFileUploadingDontDropFoldersMsg>Podeu arrossegar i deixar anar arxius a la taula de sota. No es pot deixar anar carpetes.</DndFileUploadingDontDropFoldersMsg>
+  <DndFileUploadingAllowDropFoldersMsg>Podeu arrossegar i deixar anar arxius i carpetes a la taula de sota.</DndFileUploadingAllowDropFoldersMsg>
+  <DndFileUploadingFilesSummaryInfo>Comte d'arxius: {0} ({1})</DndFileUploadingFilesSummaryInfo>
+  <DropFilesHere>Deixar anar arxius per carregar</DropFilesHere>
+  
+  <FileGridDownloadColumn>descàrrega d'arxius</FileGridDownloadColumn>
+  <FileAttributesField>atributs</FileAttributesField>
+  <FolderCalculateSize>Calcular</FolderCalculateSize>
+  <FolderRecalculateSize>recalcular</FolderRecalculateSize>
+  <FolderContainsField>conté</FolderContainsField>
+  <FolderContainsFilesFolders>{0} arxius, carpetes {1}</FolderContainsFilesFolders>
+  <FolderCalculatingMessage>calculador</FolderCalculatingMessage>
+
+  <SearchTitle>cerca d'arxius. patrons disponibles: {0}</SearchTitle>
+  <SearchType>Cerca</SearchType>
+  <SearchOnlyFiles>només els arxius</SearchOnlyFiles>
+  <SearchOnlyFolders>només les carpetes</SearchOnlyFolders>
+  <SearchBothFilesFolders>tots dos arxius i carpetes</SearchBothFilesFolders>
+  <SearchFileDetails>dades del fitxer</SearchFileDetails>
+  <SearchFileContent>el contingut del fitxer</SearchFileContent>
+  <SearchByDateFrom>de</SearchByDateFrom>
+  <SearchByDateTo>a</SearchByDateTo>
+  <SearchLocation>Ubicació</SearchLocation>
+  <SearchLocationEntire>On sigui</SearchLocationEntire>
+  <SearchLocationCurrent>actual</SearchLocationCurrent>
+  <SearchSearch>Cerca</SearchSearch>
+  <SearchNothingFound>No s'ha trobat res! Si us plau, revisi els seus criteris de cerca.</SearchNothingFound>
+  <SearchErrorCaption>error de recerca</SearchErrorCaption>
+  <SearchResultsNotComplete>Atenció! Els resultats de la recerca poden estar incomplets ja que algunes carpetes no han indexat encara.</SearchResultsNotComplete>
+  <SearchRepeatOrContactAdmin>Si us plau, intenti la recerca de nou més tard o contacteu amb l'administrador.</SearchRepeatOrContactAdmin>
+  <SearchLinkToManual>Consulteu la {0} recerca de Windows ajuda {1}</SearchLinkToManual>
+  <QuerySearchByNameText>recerca per nom</QuerySearchByNameText>
+  <QuerySearchByConentText>per contingut</QuerySearchByConentText>
+  <SearchByDetailsWarning>Atenció! Ha especificat en la configuració que voleu utilitzar la recerca per propietats. En aquest cas, la recerca es va dur a terme utilitzant un mètode estàndard en lloc d'utilitzar el servei d'Index de Windows.</SearchByDetailsWarning>
+  <SearchInSpecialFolderWarning>Atenció! Per a buscar la carpeta actual no s'aplica. Si continua, la recerca es realitza en tots els directoris.</SearchInSpecialFolderWarning>
+
+  <UploadTitle>Càrrega de diferents arxius</UploadTitle>
+  <UploadSimpleTab>Estàndard</UploadSimpleTab>
+  <UploadSimpleReset>reajustar</UploadSimpleReset>
+  <UploadSimpleUpload>Pujar</UploadSimpleUpload>
+  <UploadSimpleUploadFolderLabelCollapsed>carpeta de càrrega</UploadSimpleUploadFolderLabelCollapsed>
+  <UploadSimpleUploadFolderButtonText>seleccionar carpeta</UploadSimpleUploadFolderButtonText>
+  <UploadJavaTab>Java</UploadJavaTab>
+  <UploadJavaIgnorePaths>Col·loqui tots els arxius en una carpeta (ignorar camins)</UploadJavaIgnorePaths>
+  <UploadFlashTab>flash</UploadFlashTab>
+  <UploadSilverlightTab>Silverlight</UploadSilverlightTab>
+  <UploadPartially>Alguns dels arxius no es va poder carregar</UploadPartially>
+  <UploadFolderNotSelectedTitle>Carpeta no està seleccionada</UploadFolderNotSelectedTitle>
+  <UploadFolderNotSelected>Seleccioneu la carpeta a la qual es carregaran els arxius de</UploadFolderNotSelected>
+  <UploadInProgress>Càrrega dels arxius</UploadInProgress>
+  <UploadInvalidFormFields>Els camps del formulari no podran presentar-se amb valors no vàlids</UploadInvalidFormFields>
+  <UploadAjaxFailed>la comunicació Ajax no va poder</UploadAjaxFailed>
+  <UploadFilesAlreadyExists>Arxiu (s) que ja existeix</UploadFilesAlreadyExists>
+  <UploadOverwriteFiles>Els arxius existents se sobreescriuran. Voleu continuar?</UploadOverwriteFiles>
+  <UploadOverwriteOrRenameFiles>Hi ha un o més arxius amb els noms que coincideixen en el directori especificat. Voleu sobreescriure els arxius existents? Feu clic a "{0}" si voleu sobreescriure els arxius ja existents, o "{1}" - si voleu desar tots els arxius (que es pot canviar el nom).</UploadOverwriteOrRenameFiles>
+  <UploadNotModifyExistingFiles>Hi ha un o més arxius amb noms que coincideixin en el directori especificat. Els arxius no es poden carregar. Si us plau, elimini els arxius existents de la llista de càrrega o canviar el nom d'ells.</UploadNotModifyExistingFiles>
+  <UploadRenamedExistingFiles>Hi ha un o més arxius amb noms que coincideixin en el directori especificat. es canviarà el nom arxius amb noms que coincideixen.</UploadRenamedExistingFiles>
+  <UploadNotAllowedTitle>No es permet Pujar</UploadNotAllowedTitle>
+  <UploadNotAllowedPrompt>No es poden carregar arxius en aquesta carpeta</UploadNotAllowedPrompt>
+
+  <UploadMobileIOSVideo>Carregar vídeo. Activa aquesta opció si necessita carregar l'arxiu de vídeo.</UploadMobileIOSVideo>
+  <UploadMobileAurigmaLink>Recordeu que vostè ha de tenir Aurigma dalt! instal·lada en el seu dispositiu per pujar arxius. Toc aquí per instal·lar Aurigma amunt! aplicació per pujar imatges i vídeo.</UploadMobileAurigmaLink>
+  <UploadMobileAurigmaReady>Després de Aurigma dalt! està instal·lat o si ja s'ha instal·lat, premi el botó "Pujar" a continuació.</UploadMobileAurigmaReady>
+  <UploadMobileAurigmaFilePrefix>Prefix per als arxius carregats</UploadMobileAurigmaFilePrefix>
+  <UploadMobileResult>Puja resultat:</UploadMobileResult>
+  <UploadMobileUrlPlaceHolder>Introduïu l'URL aquí</UploadMobileUrlPlaceHolder>
+  <UploadMobileFileNamePlaceHolder>Introduïu el nou nom de l'arxiu aquí</UploadMobileFileNamePlaceHolder>
+  <UploadBrowseLabel>Navega ...</UploadBrowseLabel>
+  
+  <MobileToolTipsCaption>Saps que ...</MobileToolTipsCaption>
+  <MobileToolTipsNextButton>siguienteConsejo</MobileToolTipsNextButton>
+  <MobileToolTipsIKnowButton>Jo ho sé</MobileToolTipsIKnowButton>
+  <MobileToolTipsHideButton>mai mostrar</MobileToolTipsHideButton>
+  <MobileToolTipsMultiSelection>Per seleccionar diversos arxius o carpetes, ha d'activar el mode de selecció múltiple amb un toc en el botó &lt;b&gt; {0} &lt;/b&gt;. Toc de nou per sortir de la manera de selecció múltiple.</MobileToolTipsMultiSelection>
+  <MobileToolTipsSlideToRemove>Pot lliscar de dreta a esquerra en qualsevol dels elements de llista per eliminar-lo. Un botó d'eliminació en línia es mostrarà a la part superior de l'element de la llista.</MobileToolTipsSlideToRemove>
+  <MobileToolTipsTapAndHoldForMenu>Toqueu en qualsevol dels elements de llista per mostrar el menú contextual. El mateix menú de context que es mostra per mitjà de punció al botó de "divulgació"</MobileToolTipsTapAndHoldForMenu>
+  <MobileToolTipsDoubleTapForPreview>Un sol toc a l'arxiu per seleccionar-lo, pressiona dues vegades per obtenir una vista prèvia o descarregar-lo. Un sol toc a la carpeta per obrir-la.</MobileToolTipsDoubleTapForPreview>
+  <MobileToolTipsPullDownToRefresh>A la llista desplegable per recarregar el seu contingut.</MobileToolTipsPullDownToRefresh>
+  <MobileToolTipsPinchToScale>Podeu utilitzar el gest de pessic 'per fer un zoom-in i zoom-out imatges.</MobileToolTipsPinchToScale>
+  <MobileToolTipsTapToHideBars>Toqueu en qualsevol lloc del panell d'imatges per canviar les barres d'eines.</MobileToolTipsTapToHideBars>
+  <MobileToolTipsSlideLeftRightToNext>Canviar les imatges amb el gest de diapositives.</MobileToolTipsSlideLeftRightToNext>
+
+  <DownloadToCloudMobileTip>Un sol toc per seleccionar la carpeta, feu doble per obrir-lo.</DownloadToCloudMobileTip>
+  
+  <UploadTotalMaxSizeMessage>Nota! La mida màxima dels fitxers enviats no ha d'excedir de {0}.</UploadTotalMaxSizeMessage>
+  <UploadOneFileMaxSizeMessage>Nota! La grandària màxima de cada arxiu carregat no ha d'excedir de {0}.</UploadOneFileMaxSizeMessage>
+  <UploadUnlimitedSizeMessage>Nota! La mida dels arxius carregats és il·limitat.</UploadUnlimitedSizeMessage>
+  <SimpleUploadSetFileNameNote>Nota 2! Després es selecciona un arxiu que pot modificar el nom que l'arxiu tindrà després de la càrrega</SimpleUploadSetFileNameNote>
+
+  <AnonymousUploadTitle>Carregar arxius en aquesta carpeta</AnonymousUploadTitle>
+  <AnonymousUploadDescription>Es pot carregar arxius en aquesta carpeta. Feu clic al botó "veure" a continuació i seleccionar arxius.</AnonymousUploadDescription>
+  <AnonymousUploadOverwriteHint>Si l'arxiu carregat ja existeix, serà reemplaçat.</AnonymousUploadOverwriteHint>
+  <AnonymousUploadShowUploadHint>Mostra formulari de càrrega</AnonymousUploadShowUploadHint>
+  <AnonymousUploadHideUploadHint>Amaga formulari de càrrega</AnonymousUploadHideUploadHint>
+  <AnonymousUploadNewFolderNameHint>En el camp de sota es pot especificar un nom de subdirectori (carpeta es crearà si no existeix) en la qual es carregaran els arxius:</AnonymousUploadNewFolderNameHint>
+  <AnonymousUploadCompleteTitle>Pujar a la carpeta {0} s'ha completat</AnonymousUploadCompleteTitle>
+  <AnonymousUploadExistsFilesMessage>El següent arxiu (s) no ha pujat perquè l'arxiu (s) amb el mateix nom (s) ja existeix: {0}.</AnonymousUploadExistsFilesMessage>
+  <AnonymousUploadOwnersNote>Nota del propietari de la carpeta</AnonymousUploadOwnersNote>
+  <AnonymousDownloadPageTitle>Descarrega l'arxiu</AnonymousDownloadPageTitle>
+  <AnonymousDownloadFileHint>Descarrega l'arxiu</AnonymousDownloadFileHint>
+  <AnonymousUploadPageTitle>Puja a la carpeta</AnonymousUploadPageTitle>
+  <AnonymousPublicFolderPageTitle>carpetes públiques</AnonymousPublicFolderPageTitle>
+  <AnonymousLoginAccessUserFailure>Està connectat al compte de que no té accés al recurs. Si us plau, introdueixi altres credencials per al seu accés. Si no els coneix, si us plau, poseu-vos en contacte amb el propietari d'un enllaç públic o l'administrador.</AnonymousLoginAccessUserFailure>
+  <ProgressGettingAnonymLink>creació enllaç públic</ProgressGettingAnonymLink>
+  <ProgressGettingAnonymLinks>Aconseguir enllaços anònims</ProgressGettingAnonymLinks>
+  <ProgressGettingBoxViewLink>Aconseguir la caixa Veure enllaç</ProgressGettingBoxViewLink>
+  <AutodeskScriptNotIncludedMessage>No s'ha pogut carregar l'escriptura d'Autodesk Visor</AutodeskScriptNotIncludedMessage>
+  <ProgressUninitializeAutodeskViewer>Tancament d'Autodesk Visor</ProgressUninitializeAutodeskViewer>
+  <ProgressGettingAutodeskViewLink>Obtenció d'Autodesk Veure info</ProgressGettingAutodeskViewLink>
+  <AnonymousChangeLanguageHint>idioma</AnonymousChangeLanguageHint>
+  <AnonymousUpLinkHint>Tornar a la carpeta dels pares</AnonymousUpLinkHint>
+  <AnonymousPasswordDescription>La carpeta està protegida per contrasenya</AnonymousPasswordDescription>
+  <AnonymousPasswordIncorrectMessage>La contrasenya és incorrecta</AnonymousPasswordIncorrectMessage>
+  <AnonymousErrorTitle>error d'enllaç pública</AnonymousErrorTitle>
+  <AnonymousErrorNotFound>Enllaç públic "{0}" no es troba!</AnonymousErrorNotFound>
+  <AnonymousErrorAccessDenied>Vostè no té permís per utilitzar l'enllaç públic "{0}"</AnonymousErrorAccessDenied>
+  <AnonymousErrorFileNotFound>L'enllaç públic "{0}" fa referència a un arxiu no existent o la carpeta o NTFS accés de lectura és negada</AnonymousErrorFileNotFound>
+  <AnonymousErrorUnknownLinkType>"{0}" no es va trobar l'enllaç públic</AnonymousErrorUnknownLinkType>
+  <AnonymousSendEmailSubject>l'activitat dels visitants de carpetes públiques</AnonymousSendEmailSubject>
+  <AnonymousSendEmailUploadBody>Els següents arxius van ser enviats a la carpeta pública {0}: {1}.</AnonymousSendEmailUploadBody>
+  <AnonymousSendEmailDownloadBody>El fitxer {0} ha estat descarregat de la carpeta pública {1}.</AnonymousSendEmailDownloadBody>
+  <AnonymousSendEmailZipDownloadBody>Tot el contingut de la carpeta pública {0} es va descarregar en un arxiu ZIP.</AnonymousSendEmailZipDownloadBody>
+  <AnonymousViewLinksButton>Consulteu els enllaços</AnonymousViewLinksButton>
+  <AnonymousViewLinksHint>Per veure enllaços públics existents</AnonymousViewLinksHint>
+  <AnonymousViewLinksWindowTitle>enllaços públics</AnonymousViewLinksWindowTitle>
+  <AnonymousViewLinksDateCreatedColumn>Data de creació</AnonymousViewLinksDateCreatedColumn>
+  <AnonymousViewLinksDateExpiredColumn>Data de caducitat</AnonymousViewLinksDateExpiredColumn>
+  <AnonymousViewLinksPermissionColumn>permís</AnonymousViewLinksPermissionColumn>
+  <AnonymousViewLinksDownloadedColumn>Nombre de descàrregues va deixar</AnonymousViewLinksDownloadedColumn>
+  <ProgressDeletingAnonymousLink>Eliminació d'enllaç públic</ProgressDeletingAnonymousLink>
+  <ProgressSavingAnonymousLink>Estalvi d'enllaç públic</ProgressSavingAnonymousLink>
+  <AnonymousEditLinkWindowTitle>Edita enllaç públic per a "{0}"</AnonymousEditLinkWindowTitle>
+  <AnonymousEditLinkShowUrl>Mostra l'enllaç</AnonymousEditLinkShowUrl>
+  <AnonymousEditLinkNotFound>L'enllaç públic no es troba o el seu període de validesa hagi expirat</AnonymousEditLinkNotFound>
+
+  <AnonymousLinkSendViaButton>Enviar via ...</AnonymousLinkSendViaButton>
+  <AnonymousLinkSendViaEmailItem>Correu electrònic ...</AnonymousLinkSendViaEmailItem>
+  <AnonymousLinkSendButton>Envia per correu electrònic ...</AnonymousLinkSendButton>
+  <AnonymousLinkSendSubject>Administrador d'Arxius Web Enllaç Públic</AnonymousLinkSendSubject>
+
+  <AnonymousLinkAdvOptTitle>paràmetres addicionals</AnonymousLinkAdvOptTitle>
+  <AnonymousLinkViewTypeButton>veure enllaç</AnonymousLinkViewTypeButton>
+  <AnonymousLinkViewTypeDefault>complet</AnonymousLinkViewTypeDefault>
+  <AnonymousLinkViewTypeShort>Curt</AnonymousLinkViewTypeShort>
+
+  <AnonymousLinkShowCommentsLabel>Mostra la descripció, etiquetes i comentaris</AnonymousLinkShowCommentsLabel>
+  <AnonymousLinkShowCommentsShort>Mostra els comentaris</AnonymousLinkShowCommentsShort>
+
+  <QRCodeButton>codi QR</QRCodeButton>
+
+  <AnonymousLinkLimitedAccessTitle>Accés limitat</AnonymousLinkLimitedAccessTitle>
+  <AnonymousLinkLimitAccessCheckBox>Limitar l'accés únicament a usuaris autenticats especificats</AnonymousLinkLimitAccessCheckBox>
+  <AnonymousLinkLimitAccessTextArea>Escrigui els noms d'usuari o correu electrònic (separades per comes)</AnonymousLinkLimitAccessTextArea>
+  <AnonymousLinkLimitAccessSendCheckBox>Enviar notificacions a usuaris específics</AnonymousLinkLimitAccessSendCheckBox>
+  <AnonymousLinkLimitAccessPersMsgLabel>Missatge personal (opcional)</AnonymousLinkLimitAccessPersMsgLabel>
+  <AnonymousLinkLimitAccessPassAndUsersMsg>Ha especificat la contrasenya i els usuaris al mateix temps per accedir a l'enllaç. Si us plau, especifiqui quelcom que un.</AnonymousLinkLimitAccessPassAndUsersMsg>
+  <AnonymousLinkLimitAccessUsersNotFound>Els usuaris:
+    {0}
+    no existeix</AnonymousLinkLimitAccessUsersNotFound>
+  <AnonymousLinkLimitAccessEmailsNotFound>Els missatges de correu electrònic:
+    {0}
+    no existeix</AnonymousLinkLimitAccessEmailsNotFound>
+  <AnonymousLinkLimitAccessUsersEmailsNotFound>Els usuaris:
+    {0}
+    i correus electrònics:
+    {1}
+    no existeix</AnonymousLinkLimitAccessUsersEmailsNotFound>
+
+  <AnonymousLinkUnableToCreate>No es pot crear enllaç anònim</AnonymousLinkUnableToCreate>
+  <AnonymousLinkShortUrlLabel>Si us plau, feu clic a la icona d'actualització (en la part inferior dreta) per aconseguir un enllaç curt</AnonymousLinkShortUrlLabel>
+  <AnonymousLinkShortUrlUpdate>Obtenir o actualitzar un enllaç curt</AnonymousLinkShortUrlUpdate>
+  <AnonymousLinkLongUrlNotSpecified>La URL llarga no s'especifica</AnonymousLinkLongUrlNotSpecified>
+
+  <ClientFileOrDirectoryAlreadyExists>Un arxiu o directori amb aquest nom ja existeix</ClientFileOrDirectoryAlreadyExists>
+  <ClientPermissionsAllowTypes>permisos actuals permeten aquesta operació només amb els següents tipus de fitxer {0}</ClientPermissionsAllowTypes>
+  <ClientPermissionsDenyTypes>permisos actuals prohibeixen aquesta operació amb els següents tipus de fitxer {0}</ClientPermissionsDenyTypes>
+  <OfficeApplicationNotFoundAlert>aplicació d'Office no es troba. Obrir un arxiu de forma manual mitjançant un enllaç a la caixa de text.</OfficeApplicationNotFoundAlert>
+  <OfficeAnonymousEditPublicLinkError>No es pot crear enllaç públic de documents d'oficina de forma anònima oberta.</OfficeAnonymousEditPublicLinkError>
+
+  <GoogleOWAViewLinkMessage>Per veure el document, feu clic al següent enllaç:</GoogleOWAViewLinkMessage>
+  <ZohoEditLinkMessage>Per editar l'enllaç de document, feu clic a continuació:</ZohoEditLinkMessage>
+  <PixlrEditLinkMessage>Per editar l'enllaç de la imatge clic a continuació:</PixlrEditLinkMessage>
+  <PixlrNewImageCreateTitle>Crear una nova imatge amb Pixlr</PixlrNewImageCreateTitle>
+  <PixlrNewImageLinkMessage>Per crear una nova imatge, feu clic a l'enllaç de sota:</PixlrNewImageLinkMessage>
+
+  <DownloadTitle>La descàrrega de diversos arxius</DownloadTitle>
+  <DownloadSimpleTab>Estàndard</DownloadSimpleTab>
+  <DownloadJavaTab>Java</DownloadJavaTab>
+  <DownloadIEPrevent>Internet Explorer impedeix la descàrrega automàtica</DownloadIEPrevent>
+  <DownloadIEClickHere>Feu clic aquí per descarregar</DownloadIEClickHere>
+  <DownloadIEArchiveReady>Arxiu "{0}" amb els arxius seleccionats va ser creat i està llest per a baixar</DownloadIEArchiveReady>
+  <DownloadIECaption>Descàrrega està llista</DownloadIECaption>
+
+  <SettingsTitle>ajustos</SettingsTitle>
+  <SettingsLanguage>Llenguatge</SettingsLanguage>
+  <SettingsLogOutRequired>Els nous canvis s'aplicaran després de tancar la sessió o reiniciar el navegador!</SettingsLogOutRequired>
+  <ThemeTitle>canviar tema</ThemeTitle>
+  <SettingsTheme>Trieu el tema</SettingsTheme>
+  <ThemeDefaultTitle>tema predeterminat</ThemeDefaultTitle>
+  <ThemeGrayTitle>Gray Tema</ThemeGrayTitle>
+  <ThemeAccessTitle>accessibilitat del tema</ThemeAccessTitle>
+
+  <ChangeUserPasswordTitle>Canviar contrasenya d'usuari</ChangeUserPasswordTitle>
+  <ChangeUserPasswordOldPassword>Contrasenya antiga</ChangeUserPasswordOldPassword>
+  <ChangeUserPasswordNewPassword>Nova contrasenya</ChangeUserPasswordNewPassword>
+  <ChangeUserPasswordRepeatNewPassword>Repetir nova</ChangeUserPasswordRepeatNewPassword>
+  <ChangeUserPasswordPasswordsNotMatch>Les contrasenyes no coincideixen.</ChangeUserPasswordPasswordsNotMatch>
+  <ChangeUserPasswordSuccessMessage>La contrasenya ha estat canviada.</ChangeUserPasswordSuccessMessage>
+  <ChangeUserPasswordInvalidMessage>Contrasenya invàlida.</ChangeUserPasswordInvalidMessage>
+
+  <ChangeUserEmailTitle>Canvi d'usuari de correu electrònic</ChangeUserEmailTitle>
+  <ChangeUserEmailEmail>Correu electrònic</ChangeUserEmailEmail>
+  <ChangeUserEmailSuccessMessage>Correu electrònic ha estat canviat.</ChangeUserEmailSuccessMessage>
+
+  <UserHelpTitle>Ajuda de l'usuari</UserHelpTitle>
+
+  <LicenseTitle>informació de llicència</LicenseTitle>
+  <LicenseTrial>No registrat versió d'avaluació de 30 dies</LicenseTrial>
+  <LicensePrompt>versió amb llicència {0} Els usuaris compten: {1} {0} Data de compra: {2} {0}</LicensePrompt>
+  <LicenseFreeUpgradeMessage>Vostè encara ha {0} dies per actualitzacions i suport gratis.</LicenseFreeUpgradeMessage>
+  <LicenseCheckMessage>Més d'un any ha passat des de la data de compra. Per utilitzar aquesta versió vostè ha de renovar la subscripció o canviar a una versió anterior. Pot verificar la seva llicència i trobar les versions disponibles a &lt;a href='{0}' target='_blank'&gt; Comprovar pàgina Llicència &lt;/a&gt;</LicenseCheckMessage>
+  
+  <ViewPopupBlocked>Nova finestra ha estat bloquejat per un bloquejador de finestres emergents</ViewPopupBlocked>
+  
+  <LoginTwoFactorTitle>la verificació en dos passos</LoginTwoFactorTitle>
+  <LoginTitle>iniciar Sessió</LoginTitle>
+  <LoginRemember>Recordar-la propera vegada</LoginRemember>
+  <LoginUISelect>interfície</LoginUISelect>
+  <LoginUIStandard>Estàndard</LoginUIStandard>
+  <LoginUITouch>mòbil</LoginUITouch>
+  <LoginLanguage>Llenguatge</LoginLanguage>
+  <LoginLogin>iniciar Sessió</LoginLogin>
+  <LoginFailure>El seu intent d'accés no va tenir èxit.</LoginFailure>
+  <LoginBlocked>El compte està bloquejat. Espereu {0} minuts per tornar a intentar-ho.</LoginBlocked>
+  <LoginNotActivated>El seu compte no està activada.</LoginNotActivated>
+  <LoginResendActivation>Si el missatge amb el codi d'activació no és rebuda per un llarg temps, feu clic a l'enllaç {0} per tornar a enviar el codi d'activació.</LoginResendActivation>
+  <LoginResendActivationLink>enviar el codi d'activació</LoginResendActivationLink>
+  <LoginResendActivationCode>Feu clic a {0} enllaç per tornar a enviar el codi d'activació.</LoginResendActivationCode>
+  
+  <ActivateAccountOk>Compte activat correctament!</ActivateAccountOk>
+  <ActivateAccountResultLabel>resultat de l'activació</ActivateAccountResultLabel>
+  <ActivateAccountErrorOnlyFormsAuth>Activació del compte podria ser utilitzat únicament amb l'autenticació de formularis</ActivateAccountErrorOnlyFormsAuth>
+  <ActivateAccountErrorNotRequired>Activació del compte està deshabilitat en la configuració de l'aplicació. El compte s'activa automàticament després del registre.</ActivateAccountErrorNotRequired>
+  <ActivateAccountErrorAlreadyActivated>El compte ja activat</ActivateAccountErrorAlreadyActivated>
+  <ActivateAccountErrorInvalidCode>El codi d'activació no és vàlid</ActivateAccountErrorInvalidCode>
+  <ActivateAccountErrorAccountNotFound>Compte no trobada</ActivateAccountErrorAccountNotFound>
+  <ActivateAccountErrorLinkBroken>enllaç d'activació es trenca</ActivateAccountErrorLinkBroken>
+  <ActivateAccountReturnToLogin>Tornar a la pàgina d'accés</ActivateAccountReturnToLogin>
+  
+  <LoginRender>fer</LoginRender>
+  
+  <LogoutTitle>Web de l'administrador d'arxius Sortir</LogoutTitle>
+  <LogoutSessionEnded>La sessió actual ha acabat</LogoutSessionEnded>
+  <LogoutCloseWindow>Tancar la finestra</LogoutCloseWindow>
+  <LogoutEnterAgain>accedir de nou</LogoutEnterAgain>
+  <LogoutClosingBrowserRequired>Atenció! Qualsevol persona pot iniciar sessió al seu compte! Si utilitzeu un ordinador compartit, llavors vostè ha de tancar la finestra del navegador (no només en la fitxa) per desactivar l'autenticació al teu navegador! Pel navegador Firefox pot desactivar l'autenticació al menú: Eines&gt; Neteja la historia Reenviar ...-&gt; detalls-&gt; verificació Actiu Logins-&gt; premi a Esborra ara.</LogoutClosingBrowserRequired>
+  <RecoverPasswordTitle>recuperar contrasenya</RecoverPasswordTitle>
+  <RecoverPasswordEmailPassword>Enviar contrasenya per correu electrònic</RecoverPasswordEmailPassword>
+  <RecoverPasswordErrorInvalidUserName>Nom d'usuari no vàlid.</RecoverPasswordErrorInvalidUserName>
+  <RecoverPasswordErrorNoEmail>Aquest usuari no té adreça de correu electrònic definit.</RecoverPasswordErrorNoEmail>
+  <RecoverPasswordErrorSendEmail>S'ha produït un error en enviar el seu correu electrònic.</RecoverPasswordErrorSendEmail>
+  <RecoverPasswordSuccess>La seva contrasenya ha estat enviada a la seva adreça de correu electrònic.</RecoverPasswordSuccess>
+
+  <RecoverUserNameTitle>recuperar nom</RecoverUserNameTitle>
+  <RecoverUserEmailName>Enviar per correu electrònic nom</RecoverUserEmailName>
+  <RecoverUserNameErrorInvalidEmail>correu electrònic d'usuari no vàlid.</RecoverUserNameErrorInvalidEmail>
+  <RecoverUserNameErrorNoEmail>adreça de correu electrònic no es troba.</RecoverUserNameErrorNoEmail>
+  <RecoverUserNameSuccess>El seu nom ha estat enviada a la seva adreça de correu electrònic.</RecoverUserNameSuccess>
+
+  <ChangeEmailTitle>Canviar e-mail</ChangeEmailTitle>
+  <ChangeEmailEmail>Nou correu electrònic</ChangeEmailEmail>
+  <ChangeEmailSubmit>Presentar</ChangeEmailSubmit>
+  <ChangeEmailStatusSuccess>El correu electrònic ha estat canviat</ChangeEmailStatusSuccess>
+
+  <RegisterTitle>Registre</RegisterTitle>
+  <RegisterEmail>correu electrònic</RegisterEmail>
+  <RegisterExtraInfo>informació extra</RegisterExtraInfo>
+  <RegisterCaptcha>Introdueix el text que apareix a la imatge de sota</RegisterCaptcha>
+  <RegisterSubmit>Presentar</RegisterSubmit>
+  <RegisterErrorPasswordNotMatch>Les contrasenyes no coincideixen.</RegisterErrorPasswordNotMatch>
+  <RegisterErrorUserExists>Ja s'utilitza aquest nom d'usuari o adreça de correu electrònic.</RegisterErrorUserExists>
+  <RegisterErrorCaptchaInvalid>La imatge del text no s'ha introduït correctament</RegisterErrorCaptchaInvalid>
+  <RegisterSuccess>Nou usuari s'ha afegit.</RegisterSuccess>
+  <RegisterActivationSent>El codi d'activació s'enviarà al seu correu electrònic.</RegisterActivationSent>
+  <RegisterActivationCheckEmail>Si us plau, comprovi la seva bústia de correu (especialment carpeta de correu brossa) i seguiu les instruccions en el correu electrònic.</RegisterActivationCheckEmail>
+  
+  <FolderGridUserPermissionsColumn>L'accés per als usuaris</FolderGridUserPermissionsColumn>
+  <FolderGridGroupPermissionsColumn>Accés dels grups</FolderGridGroupPermissionsColumn>
+
+  <LoginLinkText>iniciar Sessió</LoginLinkText>
+  <RecoverPasswordLinkText>Has oblidat la contrasenya?</RecoverPasswordLinkText>
+  <RecoverUserNameLinkText>Heu oblidat el nom?</RecoverUserNameLinkText>
+  <RegisterLinkText>Registre</RegisterLinkText>
+  <ChangeEmail>Canviar e-mail</ChangeEmail>
+  <LoginMobileVersionLinkText>Versió mòbil (La majoria dels telèfons intel·ligents i les plaques de toc)</LoginMobileVersionLinkText>
+
+  <FileIsNotZipArchive>El fitxer {0} no és un arxiu ZIP</FileIsNotZipArchive>
+
+  <FileModificationsAuthor>autor</FileModificationsAuthor>
+  <FileModificationsHistory>Veure l'historial</FileModificationsHistory>
+  <FileModificationsWindowTitle>Les modificacions de l'arxiu "{0}"</FileModificationsWindowTitle>
+  <FileModificationsTypeCreated>creat</FileModificationsTypeCreated>
+  <FileModificationsTypeModified>modificat</FileModificationsTypeModified>
+  <FileModificationsTypeRenamed>rebatejat</FileModificationsTypeRenamed>
+  <FileModificationsTypeRestored>Restaurada</FileModificationsTypeRestored>
+  <FileModificationsTypeDeleted>suprimit</FileModificationsTypeDeleted>
+
+  <ChangingReadOnlyProgressMessage>El canvi únic atribut llegir</ChangingReadOnlyProgressMessage>
+
+  <ImageViewerWindowTitle>Visualitzador d'imatges [{0}]</ImageViewerWindowTitle>
+  <ImageViewerLoadingMessage>Carregant visor d'imatges</ImageViewerLoadingMessage>
+  <ImageViewerLoadingImageMessage>la càrrega d'imatges</ImageViewerLoadingImageMessage>
+  <ImageViewerFirstImageTip>primera imatge</ImageViewerFirstImageTip>
+  <ImageViewerPreviousImageTip>imatge anterior</ImageViewerPreviousImageTip>
+  <ImageViewerRefreshTip>Llista d'imatges d'actualització</ImageViewerRefreshTip>
+  <ImageViewerNextImageTip>següent imatge</ImageViewerNextImageTip>
+  <ImageViewerLastImageTip>última imatge</ImageViewerLastImageTip>
+  <ImageViewerRunSlideShow>Executar les imatges es mostren diapositives</ImageViewerRunSlideShow>
+  <ImageViewerStopSlideShow>Deixa d'imatges presentació de diapositives</ImageViewerStopSlideShow>
+  <ImageViewerImageSimpleInfo>{0} / {1}, {2} ({3})</ImageViewerImageSimpleInfo>
+  <ImageViewerImageLoadErrorMessage>La imatge no s'ha trobat o no es pot visualitzar</ImageViewerImageLoadErrorMessage>
+  <ImageViewerShowImageSizeOfWindow>Mostra imatge amb una mida real,</ImageViewerShowImageSizeOfWindow>
+  <ImageViewerShowRealImageSize>Feu clic per fer més gran</ImageViewerShowRealImageSize>
+
+  <PasswordExpiresTitle>contrasenya caduca</PasswordExpiresTitle>
+  <PasswordExpiresMessage>La seva contrasenya expira després de {0} dia (s)!</PasswordExpiresMessage>
+  <PasswordExpiredMessage>La seva contrasenya ha caducat.</PasswordExpiredMessage>
+  <PasswordChangeMessage>Per canviar la contrasenya, seleccioneu {0} {1} -&gt; {2} {3} a la barra d'eines.</PasswordChangeMessage>
+
+  <UnzipContentTotalFiles>Total d'arxius: {0} ({1})</UnzipContentTotalFiles>
+
+  <VideoConversionJobNotFound>
+    No s'ha pogut trobar el procés de conversió especificada.
+    Les possibles raons:
+    1. La conversió va completar fa molt de temps i es va eliminar informació sobre aquest treball.
+    2. El procés de conversió acabat anormalment.
+  </VideoConversionJobNotFound>
+  <VideoConversionUtilityNotFound>Incapaç troben utilitat per realitzar l'operació sol·licitada: {0}</VideoConversionUtilityNotFound>
+  <!-- The current security principal "{0}" has insufficiant permissions to executable file "{1}".-->
+  <VideoConversionUtilityInsufficientPermissions>L'usuari actual "{0}" s'ha denegat l'accés a fitxer executable "{1}".</VideoConversionUtilityInsufficientPermissions>
+  <VideoConversionOperationCancelled>operació cancel·lada</VideoConversionOperationCancelled>
+  <VideoConversionUtilityFailed>utilitat de conversió acabat anormalment</VideoConversionUtilityFailed>
+  <VideoConversionOutputFileBusy>L'arxiu de sortida està utilitzant un altre procés de conversió</VideoConversionOutputFileBusy>
+
+  <VideoConvertWindowValidatorPositiveInt>Ha de ser un enter positiu</VideoConvertWindowValidatorPositiveInt>
+  <VideoConvertWindowTitle>convertir el vídeo</VideoConvertWindowTitle>
+  <VideoConvertWindowInputFile>arxiu d'entrada</VideoConvertWindowInputFile>
+  <VideoConvertWindowOutputFile>L'arxiu de sortida</VideoConvertWindowOutputFile>
+  <VideoConvertWindowOutputFormat>format de sortida</VideoConvertWindowOutputFormat>
+  <VideoConvertWindowBitrate>Bitrate (kbps)</VideoConvertWindowBitrate>
+  <VideoConvertWindowFrameResolution>resolució de fotograma</VideoConvertWindowFrameResolution>
+  <VideoConvertWindowDAR>proporció de la pantalla</VideoConvertWindowDAR>
+  <VideoConvertWindowPAR>La proporció de píxels</VideoConvertWindowPAR>
+  <VideoConvertWindowResize>Canviar la mida</VideoConvertWindowResize>
+  <VideoConvertWindowProfile>Perfil</VideoConvertWindowProfile>
+  <VideoConvertWindowWidth>ample</VideoConvertWindowWidth>
+  <VideoConvertWindowHeight>alçada</VideoConvertWindowHeight>
+  <VideoConvertWindowExtractDetailsProgressMsg>L'extracció de dades de vídeo</VideoConvertWindowExtractDetailsProgressMsg>
+  <VideoConvertWindowOutputFileExistsTitle>existeix arxiu de sortida</VideoConvertWindowOutputFileExistsTitle>
+  <VideoConvertWindowOutputFileExistsMsg>L'arxiu de sortida ja existeix. Serà sobreescrit.</VideoConvertWindowOutputFileExistsMsg>
+  <VideoConvertWindowPrepareToConvert>Preparació per convertir el vídeo</VideoConvertWindowPrepareToConvert>
+  <VideoConvertWindowOutputFileMatchInputFile>Nom de l'arxiu de sortida coincideix amb el nom d'arxiu d'entrada</VideoConvertWindowOutputFileMatchInputFile>
+
+  <VideoConvertProgressWindowTitle>convertir el vídeo</VideoConvertProgressWindowTitle>
+  <VideoConvertProgressWindowInputFile>arxiu d'entrada</VideoConvertProgressWindowInputFile>
+  <VideoConvertProgressWindowOutputFile>L'arxiu de sortida</VideoConvertProgressWindowOutputFile>
+  <VideoConvertProgressWindowStatus>Estat</VideoConvertProgressWindowStatus>
+  <VideoConvertProgressWindowStatusTerminating>terminació</VideoConvertProgressWindowStatusTerminating>
+  <VideoConvertProgressWindowStatusPreparing>preparació</VideoConvertProgressWindowStatusPreparing>
+  <VideoConvertProgressWindowStatusProgress>Pas {0} de {1}</VideoConvertProgressWindowStatusProgress>
+  <VideoConvertProgressWindowStatusDone>fet</VideoConvertProgressWindowStatusDone>
+
+  <PlayHtml5VideoNotSupported>El seu navegador no suporta l'element de vídeo HTML 5.</PlayHtml5VideoNotSupported>
+  <PlayHtml5VideoPlayFailed>Reproducció de vídeo fracassar</PlayHtml5VideoPlayFailed>
+  <PlayHtml5AudioPlayFailed>Reproducció d'àudio fallat</PlayHtml5AudioPlayFailed>
+  <PlayHtml5AudioTitle>títol</PlayHtml5AudioTitle>
+  <PlayHtml5AudioNotSupported>El seu navegador no suporta l'element d'àudio HTML 5.</PlayHtml5AudioNotSupported>
+  <PlayHtml5AudioArtist>artista</PlayHtml5AudioArtist>
+  <PlayHtml5AudioAlbum>àlbum</PlayHtml5AudioAlbum>
+  <PlayHtml5AudioYear>Curs</PlayHtml5AudioYear>
+  <PlayHtml5AudioDuration>durada</PlayHtml5AudioDuration>
+  <PlayHtml5AudioBitrate>bitrate</PlayHtml5AudioBitrate>
+  <PlayHtml5AudioVolume>volum</PlayHtml5AudioVolume>
+
+  <!-- Root title -->
+  <RootTitle>arran</RootTitle>
+
+  <!-- Recent feature keys -->
+  <RecentRootTitle>recent</RecentRootTitle>
+  <RecentDeleteOnePrompt>Esteu segur que voleu esborrar "{0}" dels seus articles recents?</RecentDeleteOnePrompt>
+  <RecentDeleteManyPrompt>Esteu segur que voleu eliminar aquests {0} articles dels seus articles recents?</RecentDeleteManyPrompt>
+  <RecentPathNotExist>La trajectòria recent "{0}" no existeix o es nega l'accés</RecentPathNotExist>
+  <RecentAllWithoutGroupingTitle>Tot w / o agrupació</RecentAllWithoutGroupingTitle>
+  <RecentEditGroupTitle>editat</RecentEditGroupTitle>
+  <RecentViewGroupTitle>vist</RecentViewGroupTitle>
+  <RecentDownloadGroupTitle>descarregat</RecentDownloadGroupTitle>
+  <RecentUploadGroupTitle>pujada</RecentUploadGroupTitle>
+  <RecentCreateGroupTitle>creat</RecentCreateGroupTitle>
+
+  <!-- Trash feature keys -->
+  <TrashRootTitle>escombraries</TrashRootTitle>
+  <TrashLabelDateDeleted>data d'eliminació</TrashLabelDateDeleted>
+  <TrashDeleteOnePrompt>¿Segur que desitja eliminar permanentment "{0}" de la paperera?</TrashDeleteOnePrompt>
+  <TrashDeleteManyPrompt>¿Segur que desitja eliminar permanentment aquests {0} elements de la paperera?</TrashDeleteManyPrompt>
+  <TrashEmptyTrashLabel>buidar paperera</TrashEmptyTrashLabel>
+  <TrashRestoreSelectedLabel>restaurar</TrashRestoreSelectedLabel>
+  <TrashRestoreAllLabel>restaurar tot</TrashRestoreAllLabel>
+  <TrashEmptyTrashPrompt>Esteu segur que voleu buidar la paperera?</TrashEmptyTrashPrompt>
+  <TrashRestoreAllPrompt>Esteu segur que voleu restaurar tots els elements de la paperera?</TrashRestoreAllPrompt>
+  <TrashProgressRestoring>Recuperar-se de la paperera</TrashProgressRestoring>
+  <TrashFolderNotFound>directori de les escombraries no trobat</TrashFolderNotFound>
+  <TrashBalloonRestored>elements restaurats: {0} de {1}</TrashBalloonRestored>
+  <TrashDeleteDirectlyLabel>Esborrar directament sense treure a la paperera</TrashDeleteDirectlyLabel>
+  <TrashUsedSpaceHint>{0} utilitzat</TrashUsedSpaceHint>
+  <TrashLimitSizeHint>S'utilitza {0} de {1} ({2})</TrashLimitSizeHint>
+  <TrashLargeItemsShelfTimeHint>El temps d'emmagatzematge dels objectes és més gran que {0}: {1} dia (s)</TrashLargeItemsShelfTimeHint>
+  <TrashSmallItemsShelfTimeHint>Per a la resta: {0} dia (s)</TrashSmallItemsShelfTimeHint>
+  <TrashItemsShelfTimeHint>El temps d'emmagatzematge dels objectes: {0} dia (s)</TrashItemsShelfTimeHint>
+  <TrashAvailableSpaceHint>Mida màxima disponible {0}</TrashAvailableSpaceHint>
+  <TrashDeletedFromFolderHint>Esborrat de {0}</TrashDeletedFromFolderHint>
+  <TrashExceededMessage>Els següents objectes són massa grans i no poden ser localitzats a la paperera (la restricció de {0} es supera):</TrashExceededMessage>
+  <TrashErrorSuffixMessage>Si us plau, tractar de comprovar l'opció "{0}" i després esborrar l'arxiu (s) sempre més enllà de la recuperació</TrashErrorSuffixMessage>
+
+  <!-- Shared by link -->
+  <SharedByLinkRootTitle>Compartida per enllaç</SharedByLinkRootTitle>
+
+  <!-- Shared for you -->
+  <SharedForYouRootTitle>Compartit amb vostè</SharedForYouRootTitle>
+  <SharedForYouUnableToGetUrl>No es pot obtenir l'URL</SharedForYouUnableToGetUrl>
+
+  <!-- Watch for modifications -->
+  <WatchForModifsCommand>Estigui atent a les modificacions</WatchForModifsCommand>
+  <WatchForModifsStartCommand>començar a veure</WatchForModifsStartCommand>
+  <WatchForModifsEditCommand>canviï veient</WatchForModifsEditCommand>
+  <WatchForModifsStopCommand>deixar de veure</WatchForModifsStopCommand>
+  <WatchForModifsViewChangesCommand>Veure els canvis</WatchForModifsViewChangesCommand>
+  <WatchForModifsSubscriptionSuccessMessage>S'ha subscrit per les modificacions a "{0}"</WatchForModifsSubscriptionSuccessMessage>
+  <WatchForModifsStopSuccessMessage>El monitoratge "{0}" ha estat desactivat amb èxit</WatchForModifsStopSuccessMessage>
+  <WatchForModifsIncludingNestedLabel>Penseu arxius, carpetes niades</WatchForModifsIncludingNestedLabel>
+  <WatchForModifsParentWatchExistMessage>Per a l'element seleccionat ja ha estat assignat el seguiment de la carpeta principal "{0}".</WatchForModifsParentWatchExistMessage>
+  <WatchForModifsRootFolder>alertes</WatchForModifsRootFolder>
+  <WatchForModifsStartProgressLoading>habilitar veient</WatchForModifsStartProgressLoading>
+  <WatchForModifsStopProgressLoading>Terminatie veient</WatchForModifsStopProgressLoading>
+  <WatchForModifsIconHint>rellotge habilitat per a modificacions</WatchForModifsIconHint>
+  <WatchForModifsNotifCheckBox>Notificar sobre les modificacions dels correus electrònics:</WatchForModifsNotifCheckBox>
+  <WatchForModifsWatchedUsersCheckBox>Supervisar només els usuaris (deixar en blanc si supervisa tot):</WatchForModifsWatchedUsersCheckBox>
+  <WatchForModifsIgnoreOwnerCheckBox>No feu cas dels meus propis canvis</WatchForModifsIgnoreOwnerCheckBox>
+  <WatchForModifsActionsCheckBox>Supervisar totes les accions (o algunes accions de la llista a continuació)</WatchForModifsActionsCheckBox>
+  <WatchForModifsNestedItemsWarning>Atenció! Quan s'afegeix el seguiment de la carpeta seleccionada, tots els arxius i carpetes tancat per al qual la vigilància individual s'ha afegit abans, seran retirats del monitoratge. Vols continuar?</WatchForModifsNestedItemsWarning>
+
+  <WelcomeWindowHideCheckboxLabel>No mostrar això al següent registre en</WelcomeWindowHideCheckboxLabel>
+
+  <LogsGridMoreInfoColumn>Més informació</LogsGridMoreInfoColumn>
+  <LogsGridDetailsTitle>Detalls</LogsGridDetailsTitle>
+  <LogsGridPhysPathColumn>ruta d'accés física</LogsGridPhysPathColumn>
+  <LogsGridIsFolderColumn>Carpeta?</LogsGridIsFolderColumn>
+  <LogsGridIsPublicColumn>Pública?</LogsGridIsPublicColumn>
+  <LogsGridByWebDavColumn>WebDAV?</LogsGridByWebDavColumn>
+
+  <NoCommentsYetHint>Encara no hi ha comentaris</NoCommentsYetHint>
+  <NoHistoryYetHint>No obstant això la història</NoHistoryYetHint>
+
+  <DetailsPropertyValuesCouldNotBeWritten>Error en desar els valors de propietat, mabe el tipus de fitxer no és compatible amb aquesta possibilitat o hi ha un error en l'aplicació associada amb l'arxiu.</DetailsPropertyValuesCouldNotBeWritten>
+
+  <AdminCommandHelp>ajudar</AdminCommandHelp>
+  <AdminCommandAddUser>Afegir usuari</AdminCommandAddUser>
+  <AdminCommandAddGroup>Afegir grup</AdminCommandAddGroup>
+  <AdminCommandRemoveUser>eliminar usuari</AdminCommandRemoveUser>
+
+  <AdminCommandSelectUsers>Afegir usuaris</AdminCommandSelectUsers>
+  <AdminCommandSelectGroups>Afegir grups</AdminCommandSelectGroups>
+  <AdminCommandRemoveUsers>eliminar usuaris</AdminCommandRemoveUsers>
+  <AdminCommandRemoveGroups>eliminar els grups</AdminCommandRemoveGroups>
+  <AdminUsersGroups>membre de</AdminUsersGroups>
+  <AdminSearchUserEmptyText>Introduïu el nom d'usuari</AdminSearchUserEmptyText>
+  <AdminSearchGroupEmptyText>Introduïu el nom del grup</AdminSearchGroupEmptyText>
+  <AdminUsersGroupAlreadyExists>Un grup (s) amb aquest nom (s) ja ha estat afegit</AdminUsersGroupAlreadyExists>
+
+  <AdminApplicationLoading>Administrador de càrrega del panell</AdminApplicationLoading>
+  <AdminTitle>Administració</AdminTitle>
+  <AdminUsersEditUser>Edita usuaris</AdminUsersEditUser>
+  <AdminUsersSetUserPassword>establir contrasenya</AdminUsersSetUserPassword>
+  <AdminUsersViewGroups>veure grups</AdminUsersViewGroups>
+  <AdminUsersViewFolders>veure carpetes</AdminUsersViewFolders>
+  <AdminUsersDeleteUserPrompt>Esteu segur que voleu eliminar l'usuari (s) "{0}"?</AdminUsersDeleteUserPrompt>
+  <AdminUsersDeletedUsers>{0} d'usuari (s) eliminat.</AdminUsersDeletedUsers>
+  <AdminUsersUserNotFound>No es va trobar un usuari amb aquest nom</AdminUsersUserNotFound>
+  <AdminUsersPropertiesTitle>Les propietats d'usuari</AdminUsersPropertiesTitle>
+  <AdminUsersSetPasswordTitle>Establir contrasenya d'usuari</AdminUsersSetPasswordTitle>
+  <AdminUsersGeneralInfo>La informació d'usuari</AdminUsersGeneralInfo>
+  <AdminUsersUserEmail>correu electrònic</AdminUsersUserEmail>
+  <AdminUsersEmptyName>Nom d'usuari no pot estar buida</AdminUsersEmptyName>
+  <AdminUsersEmptyPassword>contrasenya d'usuari no pot estar buida</AdminUsersEmptyPassword>
+  <AdminUsersIncorrectName>Hi ha símbols incorrectes en el nom d'usuari</AdminUsersIncorrectName>
+  <AdminUsersAlreadyExists>Usuari amb aquest nom ja existeix</AdminUsersAlreadyExists>
+  <AdminUsersEmailAlreadyExists>L'usuari amb aquest correu electrònic ja existeix</AdminUsersEmailAlreadyExists>
+  <AdminUsersPasswordsNotMatch>Les contrasenyes no coincideixen</AdminUsersPasswordsNotMatch>
+  <AdminUsersRenameWarning>Després de canviar el nom d'un usuari, cal canviar la contrasenya, en cas contrari corrent del pont de web-carpetes serà incorrecte</AdminUsersRenameWarning>
+  <AdminUsersLicenseRestriction>La seva llicència no li permet crear més de {0} usuaris</AdminUsersLicenseRestriction>
+  <AdminUsersCountInfoWithLimit>Total d'usuaris: {0} de {1}</AdminUsersCountInfoWithLimit>
+  <AdminUsersCountInfo>Total d'usuaris: {0}</AdminUsersCountInfo>
+
+  <AdminGroupsEditGroup>Edita grup</AdminGroupsEditGroup>
+  <AdminGroupsRemoveGroup>eliminar el grup</AdminGroupsRemoveGroup>
+  <AdminGroupsDeleteGroupPrompt>Esteu segur que voleu eliminar el grup (s) "{0}"?</AdminGroupsDeleteGroupPrompt>
+  <AdminGroupsDeletedGroups>{0} grup (s) eliminat.</AdminGroupsDeletedGroups>
+  <AdminGroupsGroupNotFound>No es va trobar un grup amb aquest nom</AdminGroupsGroupNotFound>
+  <AdminGroupsViewUsers>Veure els usuaris</AdminGroupsViewUsers>
+  <AdminGroupsProperties>propietats</AdminGroupsProperties>
+  <AdminGroupsPropertiesTitle>les propietats del grup</AdminGroupsPropertiesTitle>
+  <AdminGroupsGeneralInfo>informació de grup</AdminGroupsGeneralInfo>
+  <AdminGroupsUserNamePrompt>Introdueix el nom d'usuari</AdminGroupsUserNamePrompt>
+  <AdminGroupsUsers>Els membres del grup</AdminGroupsUsers>
+  <AdminGroupsUserAlreadyExists>Ja s'ha afegit un usuari (s) amb aquest nom (s)</AdminGroupsUserAlreadyExists>
+  <AdminGroupsEmptyName>nom de grup no pot estar buida</AdminGroupsEmptyName>
+  <AdminGroupsIncorrectName>Hi ha símbols incorrectes en el nom del grup</AdminGroupsIncorrectName>
+  <AdminGroupsAlreadyExists>Un grup amb aquest nom ja existeix</AdminGroupsAlreadyExists>
+  <AdminGroupsCountInfo>grups totals: {0}</AdminGroupsCountInfo>
+
+  <AdminLanguagesTab>localitzacions</AdminLanguagesTab>
+  <AdminLanguagesTabMessage>Per editar l'arxiu de localització, seleccionar l'idioma desitjat a la llista, feu clic a les cadenes localitzades editar. Després de les modificacions, feu clic al botó "Desa"</AdminLanguagesTabMessage>
+  <AdminLangGridKeyColumn>nom de la clau</AdminLangGridKeyColumn>
+  <AdminLangGridDefaultColumn>Anglès</AdminLangGridDefaultColumn>
+  <AdminEnterLanguageNameTitle>Introdueix el nom de la llengua</AdminEnterLanguageNameTitle>
+  <AdminLangConfirmRefreshTitle>confirmar recàrrega</AdminLangConfirmRefreshTitle>
+  <AdminLangConfirmRefreshMessage>Atenció! Les dades no es va salvar. Vols desar els canvis ara?</AdminLangConfirmRefreshMessage>
+  <AdminLangAmountInfo>claus plenes: {0} de {1} (valors en blanc: {2})</AdminLangAmountInfo>
+  <AdminLangSaveToCSV>Exporta a CSV</AdminLangSaveToCSV>
+  <AdminLangLoadFromCSV>Carregar des CSV</AdminLangLoadFromCSV>
+
+  <AdminDbMaintenanceTab>manteniment DB</AdminDbMaintenanceTab>
+  <AdminDbMaintenanceInfoTitle>informació</AdminDbMaintenanceInfoTitle>
+  <AdminDbMaintenanceInfoPathLabel>ruta de l'arxiu DB</AdminDbMaintenanceInfoPathLabel>
+  <AdminDbMaintenanceInfoSizeLabel>mida del fitxer DB</AdminDbMaintenanceInfoSizeLabel>
+  <AdminDbMaintenanceCompactTitle>Compactar base de dades</AdminDbMaintenanceCompactTitle>
+  <AdminDbMaintenanceCompactNote>Per tal de reduir la mida del fitxer de base de dades, feu clic al botó de sota. Cal dur a terme la compressió de la base de dades periòdicament, ja que, per exemple, després de l'eliminació d'alguns vincles públics o vell de registre registra la mida del fitxer DB no disminueix inactiu.</AdminDbMaintenanceCompactNote>
+  <AdminDbMaintenanceCompactButton>compacte DB</AdminDbMaintenanceCompactButton>
+  <AdminDbMaintenanceCompactSuccess>DB va compactar correctament.
+mida de l'arxiu anterior: {0}
+Nou mida del fitxer: {1}</AdminDbMaintenanceCompactSuccess>
+  <AdminDbMaintenanceCompactAutoNote>També pot activar la base de dades de compressió automàtica després de l'eliminació de les operacions de registres, però, no és recomanable, ja que entrellaça potser més freqüents de la base i pot augmentar la durada d'algunes peticions. Atenció! Després de canviar d'aquesta configuració es reiniciarà l'aplicació!</AdminDbMaintenanceCompactAutoNote>
+  <AdminDbMaintenanceCompactAutoCheckBox>Activar / desactivar l'auto-compacte DB</AdminDbMaintenanceCompactAutoCheckBox>
+  <AdminDbMaintenanceCompactAutoSaveButton>Desar</AdminDbMaintenanceCompactAutoSaveButton>
+  <AdminDbMaintenanceCompactAutoSaveSuccess>El canvi de сompression automàtica DB s'ha completat amb èxit. La pàgina s'actualitzarà en breu.</AdminDbMaintenanceCompactAutoSaveSuccess>
+  <AdminDbMaintenanceEnableLogLabel>Seleccionar DB consultes de nivell de registre (en dades / debug.log)</AdminDbMaintenanceEnableLogLabel>
+  <AdminDbMaintenanceSettingsSaveSuccess>configuració de base de dades s'han guardat correctament. La pàgina es tornarà a carregar</AdminDbMaintenanceSettingsSaveSuccess>
+  <AdminDbMaintenanceSettingsChangeNote>Atenció! Després de guardar la configuració de l'aplicació es reiniciarà en breu!</AdminDbMaintenanceSettingsChangeNote>
+  <AdminDbMaintenanceInsertIntervalLabel>L'interval (en minuts) d'afegir esdeveniments a la base de dades. Si s'especifica 0, la inserció apareixerà directament després dels esdeveniments.</AdminDbMaintenanceInsertIntervalLabel>
+  <AdminDbMaintenanceAdvDbParamsTitle>paràmetres de connexió avançada DB</AdminDbMaintenanceAdvDbParamsTitle>
+  <AdminDbMaintenanceStatTitle>Estadístiques (depèn del nivell de registre DurationExecution DB)</AdminDbMaintenanceStatTitle>
+  <AdminDbMaintenanceStatDurationReadLabel>temps d'espera mitjana de lectura</AdminDbMaintenanceStatDurationReadLabel>
+  <AdminDbMaintenanceStatDurationWriteLabel>Mitjana de temps d'espera d'escriptura</AdminDbMaintenanceStatDurationWriteLabel>
+  <AdminDbMaintenanceStatDurationCompactLabel>temps d'espera mitjana compacta</AdminDbMaintenanceStatDurationCompactLabel>
+  <AdminDbMaintenanceStatNoData>No hi ha dades</AdminDbMaintenanceStatNoData>
+  <AdminDbMaintenanceStatGetButton>recollir estadístiques</AdminDbMaintenanceStatGetButton>
+
+  <AdminMiscTab>Miscel·lània</AdminMiscTab>
+  <AdminMiscLoadADAccountsTitle>Carregar comptes d'Active Directory</AdminMiscLoadADAccountsTitle>
+  <AdminMiscLoadADAccountsLoadButton>càrrega</AdminMiscLoadADAccountsLoadButton>
+  <AdminMiscLoadADAccountsResetButton>reajustar</AdminMiscLoadADAccountsResetButton>
+  <AdminMiscLoadADAccountsLdap>contenidor LDAP</AdminMiscLoadADAccountsLdap>
+  <AdminMiscLoadADAccountsToFile>Arxivar</AdminMiscLoadADAccountsToFile>
+  <AdminMiscLoadADAccountsSuccessMessage>comptes d'Active Directory carregat amb èxit</AdminMiscLoadADAccountsSuccessMessage>
+  <AdminMiscLoadADAccountsInfo>Aquí es pot generar l'arxiu que conté tota l'estructura d'usuaris d'Active Directory. Aquest arxiu és necessari si s'utilitza un arxiu estàtic com emmagatzematge d'informació AD. El mateix arxiu es pot generar a través d'utilitat ADManager. Per a més informació veure &lt;b&gt; ADAccountsFilePath &lt;/b&gt; Descripció del paràmetre a {0} {1} Manual.</AdminMiscLoadADAccountsInfo>
+
+  <AdminMiscManageQuotasTitle>administrar quotes</AdminMiscManageQuotasTitle>
+  <AdminMiscManageQuotasInfo>Consulta existent o crear nova quota per limitar l'espai permès per a una carpeta, impulsat per l'Administrador de recursos del servidor d'arxius.</AdminMiscManageQuotasInfo>
+  <AdminMiscManageQuotasFolderPath>ruta de la carpeta</AdminMiscManageQuotasFolderPath>
+  <AdminMiscManageQuotasQuota>quota</AdminMiscManageQuotasQuota>
+  <AdminMiscManageQuotasGetQuota>Obtenir la quota</AdminMiscManageQuotasGetQuota>
+  <AdminMiscManageQuotasSetQuota>quota establerta</AdminMiscManageQuotasSetQuota>
+
+  <AdminMiscFoldersFromGPOLTitle>carpetes de càrrega de la directiva de grup</AdminMiscFoldersFromGPOLTitle>
+  <AdminMiscFoldersFromGPOLComputerName>nom de l'equip</AdminMiscFoldersFromGPOLComputerName>
+  <AdminMiscFoldersFromGPOLFilePath>ruta d'arxius</AdminMiscFoldersFromGPOLFilePath>
+  <AdminMiscFoldersFromGPOLMoreInfoLink>Més informació</AdminMiscFoldersFromGPOLMoreInfoLink>
+  <AdminMiscFoldersFromGPOLResetButton>reajustar</AdminMiscFoldersFromGPOLResetButton>
+  <AdminMiscFoldersFromGPOLLoadButton>càrrega</AdminMiscFoldersFromGPOLLoadButton>
+  <AdminMiscFoldersFromGPOLFromDC>des DC</AdminMiscFoldersFromGPOLFromDC>
+  <AdminMiscFoldersFromGPOLFromFile>de arxiu</AdminMiscFoldersFromGPOLFromFile>
+  <AdminMiscFoldersTargetLabel>Per importar els usuaris / grups en condicions ...</AdminMiscFoldersTargetLabel>
+  <AdminMiscFoldersTargetFilter>filtre</AdminMiscFoldersTargetFilter>
+  <AdminMiscFoldersTargetPermission>permís</AdminMiscFoldersTargetPermission>
+  <AdminMiscFoldersFromGPOLSuccessMessage>Les carpetes es carreguen correctament &lt;br /&gt; Nou :. {0}, actualitzat: {1}.</AdminMiscFoldersFromGPOLSuccessMessage>
+  <AdminMiscFoldersFromGPOLInfo>Es pot carregar (o actualitzar) la llista de carpetes de la configuració de l'assignació d'unitats de directiva de grup al controlador de domini. En el camp de sota es pot introduir el nom de l'equip des del qual es carreguen els ajustos de directiva de grup (o si es deixa buit, llavors es farà servir el domini actual), o una ruta a l'arxiu amb la configuració de les unitats assignades.</AdminMiscFoldersFromGPOLInfo>
+
+  <AdminAnonymFoldersTab>carpetes anònims</AdminAnonymFoldersTab>
+  <AdminAnonymFoldersDeleteFolderPrompt>¿Segur que voleu eliminar {0} carpetes seleccionades anònims?</AdminAnonymFoldersDeleteFolderPrompt>
+  
+  <AdminAnonymFoldersDescription>carpetes / arxius compartits - aquestes són les carpetes / arxius que no requereixen autenticació d'usuari *, que vol dir que estan disponibles per a tots els visitants * (si tenen un enllaç). Tots els usuaris poden crear aquest tipus de carpetes / arxius des del menú "Compartir i rarr; Crear un enllaç públic". No obstant això, les carpetes compartides poden tenir permisos limitats: per carregar, descarregar, arxius / carpetes de la llista. A continuació es mostra una taula d'enllaços a carpetes / arxius compartits creats pels usuaris. Per treballar enllaços públiques disposen correctament, assegureu-vos que els controladors \ Anonymousdownload.ashx permet l'accés anònim a IIS. Vostè pot verificar aquesta informació a la pàgina del &lt;a target="_blank" href="{0}"&gt; Diagnòstic &lt;/a&gt;. Assegureu-vos que el compte d'usuari anònim assignat als manipuladors \ Anonymousdownload.ashx té els permisos NTFS de lectura / escriptura per a les carpetes / arxius compartits &lt;br /&gt; *. &amp;nbsp; &amp;mdash; &amp;nbsp; si vostè no especifica els usuaris, per la qual cosa només es permet l'accés.</AdminAnonymFoldersDescription>
+  <AdminAnonymFoldersLinkOwnerColumn>propietari</AdminAnonymFoldersLinkOwnerColumn>
+  <AdminAnonymFoldersEmailsColumn>Correus electrònics de notificació</AdminAnonymFoldersEmailsColumn>
+  <AdminAnonymFoldersAccessForUsersColumn>L'accés per als usuaris</AdminAnonymFoldersAccessForUsersColumn>
+  <AdminAnonymFoldersPersonalMessageColumn>Missatge personal</AdminAnonymFoldersPersonalMessageColumn>
+  <AdminAnonymFoldersOverwriteOnUploadHint> (Sobreescriure: {0})</AdminAnonymFoldersOverwriteOnUploadHint>
+  <AdminAnonymFoldersRootPathColumn>ruta d'accés arrel</AdminAnonymFoldersRootPathColumn>
+  <AdminAnonymFoldersKeysColumn>Claus</AdminAnonymFoldersKeysColumn>
+  <AdminAnonymFoldersShortColumn>enllaç curt</AdminAnonymFoldersShortColumn>
+  <AdminAnonymFoldersPropertiesTitle>propietats de la carpeta anònims</AdminAnonymFoldersPropertiesTitle>
+  <AdminAnonymFoldersAdditionalInfo>Informació adicional</AdminAnonymFoldersAdditionalInfo>
+  <AdminAnonymFoldersLinkLabel>Enllaç per accedir</AdminAnonymFoldersLinkLabel>
+  <AdminAnonymFoldersPathNotSpecified>La ruta física no s'estableix</AdminAnonymFoldersPathNotSpecified>
+  <AdminAnonymFoldersCreatedForColumn>Propòsit</AdminAnonymFoldersCreatedForColumn>
+
+  <AdminFoldersTab>carpetes</AdminFoldersTab>
+  <AdminFoldersAddFolder>Afegir carpeta</AdminFoldersAddFolder>
+  <AdminFoldersEditFolder>Edita la carpeta</AdminFoldersEditFolder>
+  <AdminFoldersRemoveFolder>filtre</AdminFoldersRemoveFolder>
+  <AdminFoldersDeleteFolderPrompt>Esteu segur que voleu eliminar la carpeta "{0}"?</AdminFoldersDeleteFolderPrompt>
+  <AdminFoldersFolderNotFound>no es va trobar una carpeta amb aquest nom</AdminFoldersFolderNotFound>
+  <AdminFoldersPropertiesTitle>propietats de la carpeta</AdminFoldersPropertiesTitle>
+  <AdminFoldersGeneralInfo>Informació general</AdminFoldersGeneralInfo>
+  <AdminFoldersFolderRemoteWarningForms>Nota! Aquesta carpeta es comparteix de forma remota. Comproveu {0} | La: com compartir carpetes remotes {1}</AdminFoldersFolderRemoteWarningForms>
+  <AdminFoldersFolderRemoteWarningWin>Nota! Aquesta carpeta es comparteix de forma remota. Es pot amagar algunes carpetes / arxius si els usuaris no tinguin dret a llegir ells. Veure {0} | La: com amagar arxius / carpetes que l'usuari no té drets per llegir {1}</AdminFoldersFolderRemoteWarningWin>
+  <AdminFoldersFolderPath>ruta d'accés física</AdminFoldersFolderPath>
+  <AdminFoldersLocationPath>Ubicació</AdminFoldersLocationPath>
+  <AdminFoldersFolderCreate>crear carpeta</AdminFoldersFolderCreate>
+  <AdminFoldersFolderCreateProcess>La creació de la carpeta</AdminFoldersFolderCreateProcess>
+  <AdminFoldersFolderCreateContainsPattern>La carpeta no pot ser creat, ja que conté un patró</AdminFoldersFolderCreateContainsPattern>
+  <AdminFoldersFolderCreateSuccessfully>La carpeta "{0}" s'ha creat correctament.</AdminFoldersFolderCreateSuccessfully>
+  <AdminFoldersFolderOptional> (Opcional)</AdminFoldersFolderOptional>
+  <AdminFoldersFolderLimitations>limitacions</AdminFoldersFolderLimitations>
+  <AdminFoldersFolderDescription>descripció</AdminFoldersFolderDescription>
+  <AdminFoldersFolderQuota>quota</AdminFoldersFolderQuota>
+  <AdminFoldersFolderQuotaHint>Consulta existent o crear nova quota per limitar l'espai permès per a una carpeta, impulsat per l'Administrador de recursos del servidor d'arxius.</AdminFoldersFolderQuotaHint>
+  <AdminFoldersFolderQuotaMoreInfoLink>Més informació</AdminFoldersFolderQuotaMoreInfoLink>
+  <AdminFoldersPermissions>permisos</AdminFoldersPermissions>
+  <AdminFoldersPermissionsFor>Els permisos per {0}</AdminFoldersPermissionsFor>
+  <AdminFoldersUsersGroups>Els usuaris i grups</AdminFoldersUsersGroups>
+  <AdminFoldersAccessControl>Control d'accés</AdminFoldersAccessControl>
+  <AdminFoldersCreate>Crear</AdminFoldersCreate>
+  <AdminFoldersDelete>esborrar</AdminFoldersDelete>
+  <AdminFoldersRename>rebatejar</AdminFoldersRename>
+  <AdminFoldersUpload>Pujar</AdminFoldersUpload>
+  <AdminFoldersDownload>descarregar</AdminFoldersDownload>
+  <AdminFoldersZipDownload>Zip i descàrrega</AdminFoldersZipDownload>
+  <AdminFoldersZip>cremallera</AdminFoldersZip>
+  <AdminFoldersUnzip>zip Desempaquetar</AdminFoldersUnzip>
+  <AdminFoldersCut>tallada</AdminFoldersCut>
+  <AdminFoldersCopy>còpia</AdminFoldersCopy>
+  <AdminFoldersListFiles>Mostra tots els arxius</AdminFoldersListFiles>
+  <AdminFoldersListFolders>Mostra les carpetes</AdminFoldersListFolders>
+  <AdminFoldersModify>modificar</AdminFoldersModify>
+  <AdminFoldersBulkMailing>enviament de correu massiu</AdminFoldersBulkMailing>
+  <AdminFoldersAnonymViewContent>Llista d'arxius a través d'enllaç públic</AdminFoldersAnonymViewContent>
+  <AdminFoldersAnonymDownload>Descarregar a través de l'enllaç públic</AdminFoldersAnonymDownload>
+  <AdminFoldersAnonymUpload>Puja a través de l'enllaç públic</AdminFoldersAnonymUpload>
+  <AdminFoldersWatch>Veure</AdminFoldersWatch>
+  <AdminFoldersDescription>Podeu afegir carpetes manualment o convertir carpetes existents si està utilitzant unitats en les polítiques del Grup. Per a més informació veure {0} {1} Ajuda.</AdminFoldersDescription>
+
+  <AdminFoldersPermissionsForRegex>També pot utilitzar una expressió regular. Si us plau, introdueixi &lt;b&gt; {0} &lt;/b&gt; al començament del camp d'amunt i després una expressió regular, per exemple,</AdminFoldersPermissionsForRegex>
+  <AdminFoldersPermissionsForRegexUsers>{0} (faciliti l'accés de qualsevol usuari) &lt;br /&gt; {1} (aquesta expressió regular significa que dos usuaris: JDOE i Mike)</AdminFoldersPermissionsForRegexUsers>
+  <AdminFoldersPermissionsForRegexGroups>{0} (faciliti l'accés de qualsevol grup) &lt;br /&gt; {1} (aquesta expressió regular significa que tots els grups amb "estudiants" en els seus noms)</AdminFoldersPermissionsForRegexGroups>
+
+  <AdminFoldersListRestrictions>Restriccions de pantalla</AdminFoldersListRestrictions>
+  <AdminFoldersCreateRestrictions>Restriccions de creació de l'arxiu</AdminFoldersCreateRestrictions>
+  <AdminFoldersRestrictionAllow>permetre</AdminFoldersRestrictionAllow>
+  <AdminFoldersRestrictionDeny>negar</AdminFoldersRestrictionDeny>
+  <AdminFoldersRestrictionExtensions>extensions</AdminFoldersRestrictionExtensions>
+  <AdminFoldersUserNamePrompt>Introdueix el nom d'usuari</AdminFoldersUserNamePrompt>
+  <AdminFoldersUserNameEmptyText>Tria un nom d'usuari</AdminFoldersUserNameEmptyText>
+  <AdminFoldersUserNameNotSelected>Ha de seleccionar un nom d'usuari</AdminFoldersUserNameNotSelected>
+  <AdminFoldersUserAlreadyExists>Aquest usuari ja ha estat assignat a la carpeta</AdminFoldersUserAlreadyExists>
+  <AdminFoldersGroupNamePrompt>Introduïu el nom del grup</AdminFoldersGroupNamePrompt>
+  <AdminFoldersGroupNameEmptyText>Tria un nom de grup</AdminFoldersGroupNameEmptyText>
+  <AdminFoldersGroupNameNotSelected>Ha de seleccionar un nom de grup</AdminFoldersGroupNameNotSelected>
+  <AdminFoldersGroupAlreadyExists>Aquest grup ja ha estat assignat a la carpeta</AdminFoldersGroupAlreadyExists>
+  <AdminFoldersEmptyName>Nom del grup no pot estar buida</AdminFoldersEmptyName>
+  <AdminFoldersEmptyPath>ruta del grup no pot estar buida</AdminFoldersEmptyPath>
+  <AdminFoldersIncorrectName>Hi ha símbols incorrectes en el nom de la carpeta</AdminFoldersIncorrectName>
+  <AdminFoldersAlreadyExists>Una carpeta amb aquest nom i la ubicació ja existeix</AdminFoldersAlreadyExists>
+  <AdminFoldersSharesButton>accions existents</AdminFoldersSharesButton>
+  <AdminFoldersTestAccessButton>accés de prova</AdminFoldersTestAccessButton>
+  <AdminFoldersTestIndexingButton>prova d'indexació</AdminFoldersTestIndexingButton>
+  <AdminFoldersShareNameTitle>accions existents</AdminFoldersShareNameTitle>
+  <AdminFoldersShareNameEmptyText>seleccioneu compartir</AdminFoldersShareNameEmptyText>
+  <AdminFoldersShareNameNotSelected>Ha de seleccionar la quota</AdminFoldersShareNameNotSelected>
+  <AdminFoldersGetQuotaButton>Obtenir la quota</AdminFoldersGetQuotaButton>
+  <AdminFoldersSetQuotaButton>quota establerta</AdminFoldersSetQuotaButton>
+  <AdminCommonFilterField>filtre</AdminCommonFilterField>
+  <AdminCommonValidateField>validar</AdminCommonValidateField>
+  <AdminFoldersRootNameUsed>Si us plau utilitzi un altre nom per a la carpeta en lloc de "{0}"</AdminFoldersRootNameUsed>
+  <AdminFoldersFolderFilterSuccess>Validar del filtre es va dur a terme amb èxit</AdminFoldersFolderFilterSuccess>
+
+  <AdminTestAccessGoodResult>La carpeta "{0}" existeix i es pot llegir.</AdminTestAccessGoodResult>
+  <AdminTestAccessBadResult>La carpeta "{0}" no existeix o no té permisos NTFS llegeixen o no hi ha accés a la xarxa per a la identitat de l'aplicació!</AdminTestAccessBadResult>
+  <AdminTestAccessErrorResult>No s'ha pogut comprovar l'accés a la carpeta "{0}": {1}</AdminTestAccessErrorResult>
+  <AdminTestIndexingErrorResult>Error en comprovar la indexació de la carpeta "{0}":
+{1}</AdminTestIndexingErrorResult>
+  <AdminTestIndexingYesResult>El directori "{0}" està indexat</AdminTestIndexingYesResult>
+  <AdminTestIndexingNoResult>El directori no "{0}" està indexat</AdminTestIndexingNoResult>
+  <AdminTestIndexingUnknownResult>No es pot determinar si el directori "{0}" és indexada.</AdminTestIndexingUnknownResult>
+  <AdminTestIndexingAddIfNotIndexed>Li agradaria afegir aquesta carpeta per a la indexació, si ha estat indexat encara?</AdminTestIndexingAddIfNotIndexed>
+  <ProgressTestAccess>la comprovació d'accés</ProgressTestAccess>
+  <ProgressTestIndexing>Comprovació d'indexació</ProgressTestIndexing>
+  <AdminHowToIndexingLocationLink>Per indexar una carpeta, consulteu l'ajuda per a {0}</AdminHowToIndexingLocationLink>
+
+  <AdminUsersListAll>Tots els usuaris</AdminUsersListAll>
+  <AdminUsersListDACL>Els usuaris d'ACL</AdminUsersListDACL>
+  <AdminGroupsListAll>tots els grups</AdminGroupsListAll>
+  <AdminGroupsListDACL>Grups d'ACL</AdminGroupsListDACL>
+  <AdminDACLStringLabel>permisos d'ACL</AdminDACLStringLabel>
+
+  <AdminCommonCustomField>camp personalitzat</AdminCommonCustomField>
+  <AdminCommonSettingsChangeWarning>Els canvis entraran en vigor després de l'entrada de re (o després de reiniciar l'aplicació per a l'accés WebDAV).</AdminCommonSettingsChangeWarning>
+
+  <AdminCommonAllowedFoldersPathsTitle>les rutes de carpetes permesos</AdminCommonAllowedFoldersPathsTitle>
+  <AdminCommonNotAllowedFolderPath>Podeu crear accés només a aquestes carpetes o les seves subcarpetes: {} 0</AdminCommonNotAllowedFolderPath>
+
+  <AdminLogsTab>Registre</AdminLogsTab>
+
+  <AdminSettingsTab>ajustos</AdminSettingsTab>
+
+  <AdminLogsErrorsTab>registrar els errors</AdminLogsErrorsTab>
+  <AdminLogsErrorsClearBtn>clar</AdminLogsErrorsClearBtn>
+  <AdminLogsErrorsClearUsersCountExceededBtn>registres clars amb els errors dels usuaris excedeixi el límit de quantitat</AdminLogsErrorsClearUsersCountExceededBtn>
+
+  <AdminFoldersCreateHint>Permetre / denegar les accions de menú "Nou": nou arxiu, carpeta nova, nova imatge, nous arxius de documents.</AdminFoldersCreateHint>
+  <AdminFoldersDeleteHint>Permetre / denegar l'esborrat d'arxius i carpetes existents</AdminFoldersDeleteHint>
+  <AdminFoldersRenameHint>Permetre / denegar el canvi de nom d'arxius i carpetes existents</AdminFoldersRenameHint>
+  <AdminFoldersUploadHint>Permetre / denegar la possibilitat de pujar arxius compten (botó Carregar en la barra d'eines)</AdminFoldersUploadHint>
+  <AdminFoldersDownloadHint>Permetre / Denegar "descàrrega", "veure / editar", descàrrega al núvol emmagatzematges, accions, etc.</AdminFoldersDownloadHint>
+  <AdminFoldersZipDownloadHint>Permetre / Denegar "comprimir i descarregar" acció</AdminFoldersZipDownloadHint>
+  <AdminFoldersZipHint>Permetre / Denegar "Comprimir a un arxiu zip" acció</AdminFoldersZipHint>
+  <AdminFoldersUnzipHint>Permetre / Denegar "Extreure en la carpeta actual", "Extreure en una carpeta nova" i "continguts Zip" accions</AdminFoldersUnzipHint>
+  <AdminFoldersCutHint>Permetre / denegar arxius i carpetes tall acció existent</AdminFoldersCutHint>
+  <AdminFoldersCopyHint>Permetre / denegar arxius i carpetes existents de còpia d'acció</AdminFoldersCopyHint>
+  <AdminFoldersListFilesHint>Permetre / denegar el llistat d'arxius</AdminFoldersListFilesHint>
+  <AdminFoldersListFoldersHint>Permetre / denegar el llistat de carpetes</AdminFoldersListFoldersHint>
+  <AdminFoldersModifyHint>Permetre / denegar modificar arxius (Totes les accions que poden modificar el contingut del fitxer existents)</AdminFoldersModifyHint>
+  <AdminFoldersBulkMailingHint>Permetre / Denegar enviament de correu massiu per a grups</AdminFoldersBulkMailingHint>
+  <AdminFoldersAnonymViewContentHint>Permetre / denegar arxius de la llista per als usuaris anònims (a través d'enllaços públics)</AdminFoldersAnonymViewContentHint>
+  <AdminFoldersAnonymDownloadHint>Permetre / Denegar descàrrega d'arxius per als usuaris anònims (a través d'enllaços públics)</AdminFoldersAnonymDownloadHint>
+  <AdminFoldersAnonymUploadHint>Permetre / denegar arxius i pujar arxius per a usuaris anònims (a través d'enllaços públics)</AdminFoldersAnonymUploadHint>
+  <AdminFoldersWatchHint>Permetre / denegar als usuaris per monitoritzar els canvis en la carpeta d'altres usuaris (s'aplica només si IU / AllowUsersmonitorModifications = true)</AdminFoldersWatchHint>
+  <AdminFoldersListRestrictionsHint>Aquesta opció controla la llista de fitxers. Feu clic al botó "Deny" ràdio per ocultar arxius amb extensions especificades. extensions d'inserció prohibida separant-los per comes (per exemple "EXE, BAT, COM"). Ajusteu el botó "Permetre" i afegir les extensions dels arxius que es mostraran (per exemple, "DOC, PDF, JPG").</AdminFoldersListRestrictionsHint>
+  <AdminFoldersCreateRestrictionsHint>Aquesta funció és similar a la "Llista de restriccions", però controla arxius o carpetes, l'extracció de cremallera, la creació de nous arxius. Pot prohibir o permetre la càrrega d'arxius especificats.</AdminFoldersCreateRestrictionsHint>
+  <AdminFoldersGeneralInfoHint>Escrigui ruta de la carpeta i l'àlies existent. Feu clic al botó Ajuda a la part inferior per a més informació.</AdminFoldersGeneralInfoHint>
+  <AdminFoldersUsersGroupsHint>Seleccioneu o escrigui Usuaris i grups per compartir la carpeta per a ells. Feu clic al botó Ajuda a la part inferior per a més informació.</AdminFoldersUsersGroupsHint>
+
+  <AdminUserFoldersButtonTitle>Llista de les accions de les proves</AdminUserFoldersButtonTitle>
+  <AdminUserFoldersWindowTitle>Les carpetes d'usuari</AdminUserFoldersWindowTitle>
+  <AdminUserFoldersLabel>llista de carpetes per a l'usuari '{0}':</AdminUserFoldersLabel>
+  
+  <AdminPermissionsTab>permisos d'administrador</AdminPermissionsTab>
+  <AdminPermissionsPrivilege>privilegi</AdminPermissionsPrivilege>
+  <AdminPermissionsEditButton>privilegi d'edició</AdminPermissionsEditButton>
+  <AdminPermissionsModifySettingsTitle>modificar la configuració</AdminPermissionsModifySettingsTitle>
+  <AdminPermissionsModifyFoldersTitle>modificar carpetes</AdminPermissionsModifyFoldersTitle>
+  <AdminPermissionsModifyAnonymFoldersTitle>Modificar les carpetes públiques</AdminPermissionsModifyAnonymFoldersTitle>
+  <AdminPermissionsModifyAccountsTitle>modificar comptes</AdminPermissionsModifyAccountsTitle>
+  <AdminPermissionsViewDiagnosticsTitle>Veure pàgina de 'Diagnòstic'</AdminPermissionsViewDiagnosticsTitle>
+  <AdminPermissionsViewLogTitle>veure registre</AdminPermissionsViewLogTitle>
+  <AdminPermissionsViewErrorsLogTitle>Veure errors de registre</AdminPermissionsViewErrorsLogTitle>
+  <AdminPermissionsModifyLocalizationsTitle>modificar localitzacions</AdminPermissionsModifyLocalizationsTitle>
+  <AdminPermissionsFolderPathTitle>ruta de la carpeta</AdminPermissionsFolderPathTitle>
+  <AdminPermissionsFoldersTitle>carpetes d'administració</AdminPermissionsFoldersTitle>
+  <AdminPermissionsPrivilegeHint>Setembre usuaris / grups per als que "{0}" se'ls permetrà privilegi</AdminPermissionsPrivilegeHint>
+  <AdminPermissionsFolderTitle>propietats de la carpeta d'administració</AdminPermissionsFolderTitle>
+  <AdminPermissionsFolderFieldTitle>ruta de la carpeta</AdminPermissionsFolderFieldTitle>
+  <AdminPermissionsFolderHint>Informació sobre les carpetes d'administració</AdminPermissionsFolderHint>
+  <AdminPermissionsFolderEmptyAccounts>Especificar els usuaris i / o grups</AdminPermissionsFolderEmptyAccounts>
+  <AdminPermissionsFolderAlreadyExists>Carpeta amb aquesta ubicació ja existeix</AdminPermissionsFolderAlreadyExists>
+  <AdminPermissionsFolderNotFound>Carpeta amb aquesta ubicació no trobat</AdminPermissionsFolderNotFound>
+  <AdminPermissionsAllowedFoldersMessage>Podeu crear / actualitzar / administrar l'accés únicament a aquestes carpetes o les seves subcarpetes: {0}</AdminPermissionsAllowedFoldersMessage>
+
+  <AdminUsersCountExceededWarn>s'excedeix la quantitat màxima d'usuaris. La seva llicència actual només permet {0} usuaris d'inici de sessió. Per a més informació obri la pestanya "{1}" i trobar "{2}" excepció (s). Per ocultar aquesta notificació entrades de registre clares a la pestanya "{1}".</AdminUsersCountExceededWarn>
+
+  <AdminNewVersionAvailableTitle>La nova versió està disponible!</AdminNewVersionAvailableTitle>
+  <AdminNewVersionAvailableInfo>Versió actual: {0} &lt;br /&gt; Una versió més recent: {1}</AdminNewVersionAvailableInfo>
+  
+  <SettingsGridDescriptionInfo>descripció</SettingsGridDescriptionInfo>
+  <SettingsGridFormatInfo>format de valors</SettingsGridFormatInfo>
+  <SettingsGridDefaultValueInfo>Valor per defecte</SettingsGridDefaultValueInfo>
+  <SettingsGridMoreInfo>Més informació</SettingsGridMoreInfo>
+  <SettingsGridRestoreDefault>restaurar valors</SettingsGridRestoreDefault>
+
+  <SettingsFormatBoolean>valor booleà</SettingsFormatBoolean>
+  <SettingsFormatWholeNumber>Nombre enter</SettingsFormatWholeNumber>
+  <SettingsFormatRealNumber>nombre real</SettingsFormatRealNumber>
+  <SettingsFormatString>cadena</SettingsFormatString>
+  <SettingsFormatEnum>Qualsevol valor de</SettingsFormatEnum>
+  <SettingsFormatSet>llista separada per comes i sense repeticions dels valors</SettingsFormatSet>
+  <SettingsFormatArray>llista separada per comes de cadenes</SettingsFormatArray>
+  <SettingsFormatToolbarButtons>. (. Valor "{0}" es pot repetir diverses vegades, però no en una fila Després de cada nom, seguida de dos punts, és possible especificar un dels mètodes utilitzats per mostrar el botó: {1})</SettingsFormatToolbarButtons>
+
+  <AdminSettingsSave>guardar la configuració</AdminSettingsSave>
+  <AdminToggleHiddenParams>{0} paràmetres avançats</AdminToggleHiddenParams>
+  <AdminHintHiddenParams>Els paràmetres addicionals són només per la configuració més granulars i en la majoria dels casos poques vegades són necessàries</AdminHintHiddenParams>
+  <AdminShowHiddenParams>Espectacle</AdminShowHiddenParams>
+  <AdminHideHiddenParams>amagar</AdminHideHiddenParams>
+
+  <SettingsDenyAuthModeChange>Canvi automàtic de manera de connexió és compatible. Veure {0} per obtenir instruccions sobre com canviar la manera d'autenticació.</SettingsDenyAuthModeChange>
+  <SettingsApplicationRestartedMsg>aplicació renovades</SettingsApplicationRestartedMsg>
+  <SettingsSettingsSavedMsg>Els ajustos s'han guardat</SettingsSettingsSavedMsg>
+  <SettingsSettingsSaveFailedAppMsg>No es pot desar fitxers de configuració. Comproveu els permisos NTFS d'escriptura de web.config i HttpCommanderSettings.config arxius a la carpeta arrel de l'aplicació web {0} per a l'usuari {1}. Missatge d'error: {2}.</SettingsSettingsSaveFailedAppMsg>
+  <SettingsSettingsSaveFailedTempMsg>No es pot desar fitxers de configuració. Comproveu els permisos de la carpeta temporal {0} per a l'usuari {1}. Missatge d'error: {2}.</SettingsSettingsSaveFailedTempMsg>
+  <SettingsSettingsReadFailedAppMsg>No es pot llegir els fitxers de configuració. Comproveu llegir NTFS permisos de web.config i HttpCommanderSettings.config arxius a la carpeta arrel de l'aplicació web {0} per a l'usuari {1}. Missatge d'error: {2}.</SettingsSettingsReadFailedAppMsg>
+  <SettingsSettingsReadFailedTempMsg>No es pot llegir els fitxers de configuració a la carpeta temporal. Comproveu els permisos de la carpeta temporal {0} per a l'usuari {1}. Missatge d'error: {2}.</SettingsSettingsReadFailedTempMsg>
+  <SettingsSettingsConfigChangedOutside>L'arxiu de configuració HttpCommander ha estat canviat per un altre programa. Possiblement vostè ha modificat manualment amb un editor de text. L'aplicació s'ha carregat el nou arxiu de configuració. es perden tots els canvis relacionats amb HttpCommander configuració que vostè ha fet a través de la interfície web. Cal tornar a fer ells, i després tractar de salvar de nou. No recomanem editar arxius de configuració manualment mentre s'executa l'aplicació. En cas contrari, vostè ha de reiniciar l'aplicació després de canviar els fitxers de configuració. Missatge d'error: {0}.</SettingsSettingsConfigChangedOutside>
+  <SettingsSettingsSaveNotif>No us oblideu de desar els canvis de configuració!</SettingsSettingsSaveNotif>
+  
+  <SettingsEmailNotifTitle>Notificacions per correu electrònic</SettingsEmailNotifTitle>
+  <SettingsEmailNotifApplyBtn>Guardar les opcions de correu</SettingsEmailNotifApplyBtn>
+  <SettingsEmailNotifResetBtn>reajustar</SettingsEmailNotifResetBtn>
+  <SettingsEmailNotifEventsLabel>per a esdeveniments</SettingsEmailNotifEventsLabel>
+  <SettingsEmailNotifWhenLabel>enviar</SettingsEmailNotifWhenLabel>
+  <SettingsEmailNotifEmailsLabel>Els correus electrònics</SettingsEmailNotifEmailsLabel>
+  <SettingsEmailNotifPathsLabel>camins</SettingsEmailNotifPathsLabel>
+  
+  <LogsErrorsGridUrlColumn>uRL</LogsErrorsGridUrlColumn>
+  <LogsErrorsGridMsgColumn>missatge</LogsErrorsGridMsgColumn>
+  <LogsErrorsGridMoreInfoColumn>Més informació</LogsErrorsGridMoreInfoColumn>
+  <LogsErrorsGridDetailsTitle>Detalls</LogsErrorsGridDetailsTitle>
+  
+  <FsrmUnableLoadLibraryLocal>No es pot connectar a l'administrador d'arxius de recursos del servidor en el host local.</FsrmUnableLoadLibraryLocal>
+  <FsrmUnableLoadLibraryRemote>No es pot connectar a l'administrador d'arxius de recursos del servidor a "{0}" d'acollida.</FsrmUnableLoadLibraryRemote>
+  <FsrmNotInstalled>L'Administrador de recursos del servidor no està instal·lat en "{0}".</FsrmNotInstalled>
+  <FsrmNotInstalledEitherEnd>L'Administrador de recursos del servidor no està instal·lat al sistema principal, ja sigui local o en "{0}".</FsrmNotInstalledEitherEnd>
+  <FsrmQuotaNotSpecified>Quota no s'especifica.</FsrmQuotaNotSpecified>
+  <FsrmUnableGetQuota>No és possible obtenir límit de quota.</FsrmUnableGetQuota>
+  <FsrmUnableSetQuota>No es pot establir un límit de quota.</FsrmUnableSetQuota>
+  <FsrmQuotaSetMsg>Quota s'ha fixat.</FsrmQuotaSetMsg>
+  <FsrmInvalidQuotaValueMsg>valor de la quota no vàlid.</FsrmInvalidQuotaValueMsg>
+
+  <CommandBuyNow>Compra ara</CommandBuyNow>
+
+  <AdminUpdateTab>modernització</AdminUpdateTab>
+  <AdminUpdateManual>actualització manual</AdminUpdateManual>
+  <AdminUpdateAuto>modernització automatitzada</AdminUpdateAuto>
+  <AdminUpdateStartButton>Començar Actualització / Crear còpia de seguretat</AdminUpdateStartButton>
+  <AdminUpdateFinishButton>Actualització de l'acabat / Restaurar còpia de seguretat</AdminUpdateFinishButton>
+  <AdminUpdateBackupButton>reserva</AdminUpdateBackupButton>
+  <AdminUpdateDownloadNewButton>Descarregar una nova versió</AdminUpdateDownloadNewButton>
+  <AdminUpdateStepTitle>Pas {0} {1}: {2}</AdminUpdateStepTitle>
+  <AdminUpdateStepInfo>Pas {0} {1}</AdminUpdateStepInfo>
+  <AdminUpdateNumberSymbol>#</AdminUpdateNumberSymbol>
+  <AdminUpdateBackupContent>Si us plau, premi el botó "{0}" per a la creació d'una còpia de seguretat de la carpeta amb l'aplicació i obtenir un enllaç per a la descàrrega</AdminUpdateBackupContent>
+  <AdminUpdateDownloadBackupLinkHint>Si us plau, descarrega una còpia de seguretat de l'aplicació mitjançant el següent enllaç:</AdminUpdateDownloadBackupLinkHint>
+  <AdminUpdateDownloadNewContent>Llavors, si us plau descarregar una nova versió mitjançant el següent enllaç i seguir la instal·lació {0} {1} i {2} {1} actualitzar les instruccions per tal d'instal·lar una nova versió. Després de la instal·lació, si us plau obriu el Tauler d'administració, aneu a la pestanya "{3}" i premi el botó "{4}" per tal de completar la instal·lació.</AdminUpdateDownloadNewContent>
+  <AdminUpdateUploadButton>Puja una còpia de seguretat i aplicar els ajustos</AdminUpdateUploadButton>
+  <AdminUpdateUploadAndInstallButton>Instal·lar una nova versió amb el manteniment de tots els ajustos</AdminUpdateUploadAndInstallButton>
+  <AdminUpdateUploadEmptyText>Seleccioneu una còpia de seguretat per a la càrrega</AdminUpdateUploadEmptyText>
+  <AdminUpdateFinishContent>Per tal de restaurar la configuració de la versió anterior, s'ha de seleccionar i carregar un fitxer de còpia de seguretat creat prèviament amb la carpeta d'aplicacions</AdminUpdateFinishContent>
+  <AdminUpdateFinishMessage>Enhorabona! Tots els ajustos s'apliquen amb èxit. També, si us plau aplicar tots els canvis realitzats en altres arxius, per exemple, Default.aspx o Global.asax.</AdminUpdateFinishMessage>
+  <AdminUpdateFinishRefreshPage>La pàgina es tornarà a carregar</AdminUpdateFinishRefreshPage>
+  <AdminUpdateMainInfo>Aquest tipus d'actualització està parcialment automatitzat. Podeu crear i descarregar un arxiu de còpia de seguretat amb els valors de configuració d'aplicacions i restaurar-després de l'actualització. Si us plau, feu el següent passos curts: crear un fitxer de còpia de seguretat, realitzar l'actualització manual, restaurar la configuració de l'arxiu de còpia de seguretat. Aquest procediment també es pot utilitzar per còpia de seguretat / restaurar la configuració sense actualitzar. Podeu ometre l'etapa de millora per restaurar la configuració de l'arxiu de còpia de seguretat.</AdminUpdateMainInfo>
+  <AdminUpdateAutoButton>acte</AdminUpdateAutoButton>
+  <AdminUpdateAutoInfo>Aquest tipus d'actualització està gairebé totalment automatitzat. Consta de 2 passos: còpia de seguretat de la configuració actual (s'ha de descarregar i guardar un arxiu de còpia de seguretat), la instal·lació d'una nova versió i la restauració de la configuració de l'arxiu de còpia de seguretat. HTTP Commander pot descarregar automàticament l'última versió i instal·lar-la o es pot especificar la ruta d'accés a l'arxiu zip amb una nova versió al nostre servidor. Tots els valors tornen automàticament a partir d'un arxiu de còpia de seguretat creada amb anterioritat.</AdminUpdateAutoInfo>
+  <AdminUpdateRestoreWebConfigCheckBox>Restaurar la configuració de Web.config (per exemple, com SMTP)</AdminUpdateRestoreWebConfigCheckBox>
+  <AdminUpdateBackupAssignedFoldersInRootMessage>Atenció! Hi ha algunes carpetes d'usuari en el directori amb l'aplicació que tenen la mida total de més de {0}. no es realitzarà la còpia de seguretat. Si us plau, feu una còpia de seguretat d'aquests directoris, eliminar-los del directori de l'aplicació i torneu a provar l'operació del seu costat.</AdminUpdateBackupAssignedFoldersInRootMessage>
+  <AdminUpdateNeedRefreshPageForContinue>Atenció! Per continuar, cal tornar a carregar la pàgina. Si us plau premeu el botó "{0}". Després de recarregar si us plau, repetiu l'operació.</AdminUpdateNeedRefreshPageForContinue>
+  <AdminUpdateRestoreFromBackupEmpty>, O si no s'ha seleccionat, que serà utilitzat per l'arxiu acabat de crear en el pas anterior</AdminUpdateRestoreFromBackupEmpty>
+  <AdminUpdateInstallZipPathHint>Per actualitzar plau especificar la ruta d'accés física completa de l'arxiu d'instal·lació (al servidor) en el primer camp o deixar-lo en blanc per tal d'usar una distribució en línia</AdminUpdateInstallZipPathHint>
+  <AdminUpdateInstallZipPathEmpty>Especificar la ruta a arxivar amb la instal·lació</AdminUpdateInstallZipPathEmpty>
+  <AdminUpdateProgress>actualitzant</AdminUpdateProgress>
+  <AdminUpdateAccessDeniedWarning>&lt;b&gt; Atenció! &lt;/b&gt; Per actualitzar configuri el Modificar (lectura i escriptura) permisos NTFS a {0} d'usuari per a la carpeta amb HTTP Commander {1} i repetir l'actualització. &lt;br /&gt; Després de l'actualització reeixida favor restaurar els antics drets.</AdminUpdateAccessDeniedWarning>
+  <AdminUpdateAccessDeniedWarningCurentUser>actual</AdminUpdateAccessDeniedWarningCurentUser>
+
+  <ServerExceedsMaxSizeForEditAsTextFile>La mida del fitxer supera la mida màxima d'editar com un arxiu de text.</ServerExceedsMaxSizeForEditAsTextFile>
+  <ServerDemoMode>L'acció proposta està prohibit en una manera de demostració</ServerDemoMode>
+  <ServerHostedMode>No es permet canviar els valors dels paràmetres en versió de prova organitzada: {0}.</ServerHostedMode>
+  <ServerIncorrectImageContentType>L'arxiu de tipus MIME no és una imatge</ServerIncorrectImageContentType>
+  <ServerPermissionDenied>Aquesta operació és rebutjada a causa de permisos limitats</ServerPermissionDenied>
+  <ServerRestoreFromTrashNoParentFolder>restauració va fallar perquè el directori pare "{0}" no s'ha trobat. Si us plau, crear i torna a intentar-ho.</ServerRestoreFromTrashNoParentFolder>
+  <ServerModifyPermissionDenied>Aquesta operació és rebutjada perquè no té permís per a modificar l'arxiu</ServerModifyPermissionDenied>
+  <ServerPathNotFound>Ruta no trobada.</ServerPathNotFound>
+  <ServerInvalidPath>Path "{0}" no és vàlida</ServerInvalidPath>
+  <ServerInvalidAbsolutePath>Invàlida ruta absoluta "{0}"</ServerInvalidAbsolutePath>
+  <!-- share folder path: \\server\share -->
+  <ServerInvalidShareFolderPath>Invàlida ruta de la carpeta compartir "{0}"</ServerInvalidShareFolderPath>
+  <ServerInvalidUncPath>Invàlida ruta UNC "{0}"</ServerInvalidUncPath>
+  <ServerUnableResolveUncPath>No es pot resoldre ruta UNC "{0}"</ServerUnableResolveUncPath>
+  <ServerInvalidFileName>caràcters incorrectes el nom d'arxiu / carpeta no està establerta o conté {0}</ServerInvalidFileName>
+  <ServerFilePathNotFound>El fitxer no existeix</ServerFilePathNotFound>
+  <ServerIncorrectPathForFileLink>Tipus d'objecte incorrecte. La ruta especificada apunta a una carpeta</ServerIncorrectPathForFileLink>
+  <ServerIncorrectPathForFolderLink>Tipus d'objecte incorrecte. La ruta especificada apunta a un arxiu</ServerIncorrectPathForFolderLink>
+  <ServerRootFolderNotFound>carpeta arrel de ruta "{0}" no trobat.</ServerRootFolderNotFound>
+  <ServerUnableCreateFolder>No es pot crear la carpeta</ServerUnableCreateFolder>
+  <ServerFileAlreadyExists>El fitxer amb aquest nom ja existeix</ServerFileAlreadyExists>
+  <ServerFileAlreadyExistsOnRename>
+    Vols canviar el nom "{0}" a "{1}"?
+    Ja existeix un fitxer amb el mateix nom en aquesta ubicació.
+  </ServerFileAlreadyExistsOnRename>
+  <ServerFolderAlreadyExistsOnRename>
+    Vols canviar el nom "{0}" a "{1}"?
+    Ja existeix una carpeta amb el mateix nom en aquesta ubicació.
+  </ServerFolderAlreadyExistsOnRename>
+  <ServerFoldersMergeConfirm>
+    Aquesta destinació ja conté una carpeta amb el nom "{0}".
+    Encara voleu combinar aquesta carpeta "{} 0" amb aquest "{1}"?
+  </ServerFoldersMergeConfirm>
+  <ServerFolderWithSameNameAsFileNameAlreadyExists>Ja existeix una carpeta amb el mateix nom "{0}" com el nom de fitxer especificat</ServerFolderWithSameNameAsFileNameAlreadyExists>
+  <ServerFileWithSameNameAsFolderNameAlreadyExists>Ja existeix un fitxer amb el mateix nom "{0}" com el nom de la carpeta que ha especificat</ServerFileWithSameNameAsFolderNameAlreadyExists>
+  <ServerFileNotFound>El fitxer "{0}" no es troba a la carpeta "{1}". Possiblement s'hagi esborrat o eliminat per un altre usuari.</ServerFileNotFound>
+  <ServerDirectoryAlreadyExists>Un directori amb aquest nom ja existeix</ServerDirectoryAlreadyExists>
+  <ServerFolderMoveAlreadeExists>La carpeta de destinació "{0}" és la mateixa que la carpeta d'origen</ServerFolderMoveAlreadeExists>
+  <ServerUploadPathNotFound>La ruta d'accés per a l'emmagatzematge d'arxius no es troba al servidor</ServerUploadPathNotFound>
+  <ServerUploadPathNotSet>S'ha produït un error en obtenir un camí per a la càrrega. Si us plau, actualitzi la pàgina en el navegador i torneu a intentar.</ServerUploadPathNotSet>
+  <ServerUploadNoChunk>Sense tros de parada</ServerUploadNoChunk>
+  <ServerUploadWriteChunk>Escriu tros des del byte</ServerUploadWriteChunk>
+  <ServerUploadCreatingFile>Creació d'arxius</ServerUploadCreatingFile>
+  <ServerUploadFileUploaded>L'arxiu s'ha carregat</ServerUploadFileUploaded>
+  <ServerUploadWriteError>error en escriure</ServerUploadWriteError>
+  <ServerConfigurationError>La configuració incorrecta o aplicació! Poseu-vos en contacte amb l'administrador del lloc</ServerConfigurationError>
+  <ServerPermissionsAllowTypes>permisos actuals permeten aquesta operació només amb els tipus de fitxer {0}</ServerPermissionsAllowTypes>
+  <ServerPermissionsDenyTypes>permisos actuals prohibeixen aquesta operació amb els tipus de fitxer {0}</ServerPermissionsDenyTypes>
+  <ServerRequestSizeExceeded>La mida dels arxius carregats excedeix la mida permès en la configuració del servidor</ServerRequestSizeExceeded>
+  <ServerEmailMsgProcessedFilesSubject>/ / / / Esborrats / arxius / carpetes compartides Created descarregats Modificats pujades</ServerEmailMsgProcessedFilesSubject>
+  <ServerEmailMsgUploadFilesTitle>pujat</ServerEmailMsgUploadFilesTitle>
+  <ServerEmailMsgModifyFilesTitle>modificat</ServerEmailMsgModifyFilesTitle>
+  <ServerEmailMsgDownloadFilesTitle>descarregat</ServerEmailMsgDownloadFilesTitle>
+  <ServerEmailMsgCreateFilesTitle>creat</ServerEmailMsgCreateFilesTitle>
+  <ServerEmailMsgDeleteFilesTitle>suprimit</ServerEmailMsgDeleteFilesTitle>
+  <ServerEmailMsgCreatePublicFilesTitle>compartit</ServerEmailMsgCreatePublicFilesTitle>
+  <ServerEmailMsgProcessedFilesBody>
+    Els següents fitxers / carpetes eren {0} per {1}:
+
+{2}
+    
+  </ServerEmailMsgProcessedFilesBody>
+  <ServerEmailMsgPasswordRecoverSubject>Recuperació de contrasenya</ServerEmailMsgPasswordRecoverSubject>
+  <ServerEmailMsgPasswordRecoverBody>
+    Que va sol·licitar a recuperar la seva contrasenya d'administrador d'arxius web. La seva contrasenya s'ha restablert. Si creu que aquest és un error, simplement ignorar aquesta carta i tingueu en compte que la contrasenya ha estat canviada.
+    Usuari: {0}
+    Nova contrasenya: {1}
+  </ServerEmailMsgPasswordRecoverBody>
+  
+  <ServerEmailMsgUserNameRecoverSubject>recuperació de nom d'usuari</ServerEmailMsgUserNameRecoverSubject>
+  <ServerEmailMsgUserNameRecoverBody>
+    Que va sol·licitar a recuperar el seu nom a l'Administrador d'arxius web.
+    Usuari: {0}
+  </ServerEmailMsgUserNameRecoverBody>
+
+  <ServerEmailMsgUserActivationSubject>activació del compte</ServerEmailMsgUserActivationSubject>
+  <ServerEmailMsgUserActivationBody>
+    ({0}) es requereix l'activació del compte.
+    Per activar el seu compte, si us plau feu clic al següent enllaç: {1}
+  </ServerEmailMsgUserActivationBody>
+  <ServerEmailMsgUserRegisteredSubject>usuari registrat</ServerEmailMsgUserRegisteredSubject>
+  <ServerEmailMsgUserRegisteredBody>
+    S'ha registrat amb èxit en administrador d'arxius web.
+    Usuari: {0}
+  </ServerEmailMsgUserRegisteredBody>
+  <ServerEmailMsgUserRegisteredForAdminsBody>
+    &lt;h4&gt; Nou usuari ha estat registrat &lt;/h4&gt;
+    &lt;strong&gt; Nom d'usuari &lt;/strong&gt; {0} &lt;br /&gt;
+    &lt;strong&gt; correu electrònic &lt;/strong&gt;: {1} &lt;br /&gt;
+    &lt;strong&gt; Data &lt;/ ​​strong&gt;: {2} &lt;br /&gt;
+    &lt;strong&gt; Informació addicional &lt;/strong&gt;: {3} &lt;br /&gt;
+  </ServerEmailMsgUserRegisteredForAdminsBody>
+  <ServerDiskFullError>No hi ha prou espai al disc.</ServerDiskFullError>
+  <ServerFolderLimitations>limitacions de carpeta: {0}</ServerFolderLimitations>
+  <ServerShortcutAssignedFolderNotFound>carpeta assignada que no es troba per a una ruta de destinació de l'accés directe</ServerShortcutAssignedFolderNotFound>
+  <ServerSizeFilesForZipExceeded>El valor de grandària dels arxius que puguin arxivar va superar permès {0}.</ServerSizeFilesForZipExceeded>
+  <ServerPasteFolderToSubfolderError>La carpeta de destinació "{0}" és una subcarpeta de la carpeta d'origen "{1}".</ServerPasteFolderToSubfolderError>
+  <ServerLiveConnectAppIDNotSpecified>La identificació de client de l'aplicació de Microsoft Live Connect està definit no</ServerLiveConnectAppIDNotSpecified>
+  <ServerSendEmailInfo>Autor especifica el seu correu electrònic tan {0}. NOMÉS utilitzeu aquesta direcció per respondre.</ServerSendEmailInfo>
+
+  <ServerAntivirusScanningFailed>El escanejat mitjançant un antivirus: '{0} {1}' ha acabat anormalment.</ServerAntivirusScanningFailed>
+
+  <ServerUserNameNotFound>Usuari amb nom '{0}' no es troba.</ServerUserNameNotFound>
+  <ServerFileNameCopySuffix>còpia</ServerFileNameCopySuffix>
+
+  <ServerDeleteFolderNTFSAccessDenied>Vostè no té permís NTFS per eliminar la carpeta "{0}"</ServerDeleteFolderNTFSAccessDenied>
+
+  <ServerMSOOTemplateNotFound>{0} plantilla no trobat</ServerMSOOTemplateNotFound>
+</Localization>

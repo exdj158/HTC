@@ -1,0 +1,274 @@
+﻿<!-- saved from url=(0014)about:internet -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>How to sync web-folder with local folder</title>
+    <link href="Manual/style.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" language="javascript">
+        function toggleBlock(id) {
+            var el = document.getElementById(id);
+            if (el) {
+                el.style.display = el.style.display == 'none' ? 'block' : 'none';
+            }
+        }
+        function parseQueryString() {
+            var result = {};
+            var qStr = window.location.search.substr(1).replace(/\+/g, ' ').split('&');
+            for (var i = 0; i < qStr.length; i++) {
+                var keyVal = qStr[i].split('=');
+                result[keyVal[0]] = decodeURIComponent(keyVal[1]);
+            }
+            return result;
+        }
+        function htmlEncode(input) {
+            return (String(input) || "").replace(/&/g, "&amp;").replace(/>/g, "&gt;").replace(/</g, "&lt;").replace(/"/g, "&quot;");
+        }
+        function getLinksHtml() {
+            var o = parseQueryString();
+            if (o['root'] && String(o['root']).length > 0) {
+                var root = htmlEncode(o['root']);
+                var html = root;
+                var parent = root;
+                if (o['parent'] && String(o['parent']).length > 0) {
+                    parent += htmlEncode(o['parent'])
+                    html += '\n' + parent;    
+                }
+                if (o['current'] && String(o['current']).length > 0) {
+                    html += '\n' + parent + '/' + htmlEncode(o['current']);
+                }
+                return '<label for="links">Web-folder links:</label><br />'
+                    + '<textarea cols="1" rows="3" id="links" readonly="readonly" style="width:100%;">'
+                    + html
+                    + '</textarea>';
+            } else {
+                return '';
+            }
+        }
+    </script>
+    <style type="text/css">
+         body {
+            font-family: Tahoma;
+            font-size: 13px;
+            background-color: #ffffff;
+            color: #000000;
+        }
+        .icon-image-16 {
+            border: 0px none;
+            vertical-align: middle;
+            width: 16px;
+            height: 16px;
+        }
+        .tableStyle
+        {            
+            margin-right: 0px;
+            border-collapse: collapse;
+            border-spacing: 0;
+            empty-cells: show;
+            border: 1px solid #cbcbcb;
+        }
+        .tableStyle thead {
+            background-color: #e0e0e0;
+            color: #000;
+            text-align: left;
+            vertical-align: bottom;
+        }
+        .tableStyle td, .tableStyle th {
+            border-left: 1px solid #cbcbcb;
+            border-width: 0 0 0 1px;
+            font-size: inherit;
+            margin: 0;
+            overflow: visible;
+            padding: .5em 1em;
+        }
+        .tableStyle-odd td {
+            background-color: #f2f2f2;
+        }
+        .style2
+        {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>How to sync web-folder with local folder</h1>
+    <br />
+    <div id="linksContainer">
+        <script type="text/javascript">document.write(getLinksHtml());</script>
+    </div>
+    <br />
+    There are several ways to perform synchronization of web folders with local 
+    directories.<br />
+    <ol>
+        <li>Map Web Folder as local drive and then use any programm for folders 
+        synchronization.<br />
+            You can use your favorite synch software. For example, for Windows users Total Commander provide built-in support of folders sync.
+            <br />
+        </li>  
+        <li>Use special sync software with WebDav support.
+        </li>
+    </ol>
+
+    You can choose one of  
+    few below:    <br />    <br />
+    <table class="tableStyle" border="1" cellpadding="1" cellspacing="0">
+        <thead>
+            <tr>
+                <th>
+                    Name</th>
+                <th>
+                    HomePage</th>
+                <th class="style2">
+                    Platform
+                </th>
+                <th class="style2">
+                    License</th>
+            </tr>
+        </thead>
+        <tr class="tableStyle-odd">
+            <td>
+                <a href="#CyberDuck">CyberDuck</a></td>
+            <td>
+                <a href="https://cyberduck.io/" target="_blank">https://cyberduck.io/</a></td>
+            <td class="style2">
+                Windows, Mac OS</td>
+            <td class="style2">
+                Free</td>
+        </tr>
+         <tr>
+            <td>
+                <a href="#WinScp">WinScp</a></td>
+            <td>
+                <a href="https://winscp.net/" target="_blank">https://winscp.net/</a></td>
+            <td class="style2">
+                Windows</td>
+            <td class="style2">
+                Free</td>
+        </tr>
+        <tr class="tableStyle-odd">
+            <td>
+                <a href="#goodsync">GoodSync</a></td>
+            <td>
+              <a href="http://www.goodsync.com/" target="_blank">http://www.goodsync.com/</a></td>
+            <td class="style2">
+                Windows, 
+                Mac OS, Linux, Android, IOS</td>
+            <td class="style2">
+                Shareware</td>
+        </tr>
+         <tr>
+            <td>
+                <a href="#allwaysync">Allway Sync</a></td>
+            <td>
+               <a href="http://www.allwaysync.com/" target="_blank">http://www.allwaysync.com/</a></td>
+            <td class="style2">
+                Windows</td>
+            <td class="style2">Shareware, 
+                Free for non profit</td>
+        </tr>
+        <tr class="tableStyle-odd">
+            <td>
+               <a href="#bestsync">BestSync</a></td>
+            <td>
+                <a href="http://www.risefly.com/" target="_blank">http://www.risefly.com/</a></td>
+            <td class="style2">
+               Windows</td>
+            <td class="style2">
+                Shareware, 
+                Free with limitations</td>
+        </tr>
+    </table>
+
+    <br />
+    Download and install software on your PC.
+    <br />
+    <br />
+    Below you can see instructions to setup folders sync. <br />
+    <a name="CyberDuck"></a>
+    <h2>CyberDuck</h2>
+    From the main menu of the program select <b>File-&gt;Open Connection</b>.<br />
+    In the new 
+    dialog select type of connection <strong>WebDav</strong> or <strong>WebDav 
+    (HTTP/SSL)</strong>.<br />
+    Paste 
+    FULL WebDav url into <strong>Server</strong> text field , server and path 
+    fields will be filled automatically. Uncheck &quot;Anonymous Login&quot; checkbox and 
+    enter your cedentials.<br />
+    Click &quot;<strong>Connect</strong>&quot; button to establish connection.<br />
+    After that you can execute synchronization on any folder. Navigate to needed 
+    folder in CyberDuck , right mouse click and select &quot;<strong>Synchronize</strong>..&quot; 
+    from conext menu, select destination local folder and configure other 
+    synchronization parameters. <br />
+    For more info use local help according to the program or <a href="https://trac.cyberduck.io/wiki/help/en" target="_blank">Online Help</a>.<br />
+    <a target="_blank" href="Images/CyberDuck.png" onclick="toggleBlock('CyberDuck_img'); return false;">Screenshot</a>
+    <div id="CyberDuck_img" style="display: none;"><br />
+        <img alt="CyberDuck" src="Images/CyberDuck.png" style="width:1044px;height:664px;" />
+        <img alt="CyberDuck MacOS" src="Images/CyberDuck-MacOS.png" style="width:713px;height:641px;" />
+    </div>
+    <br />
+    <br />
+    <a name="WinScp"></a>
+    <h2>WinScp</h2>
+    From the main menu of the program select <b>Session-&gt;NewSession</b>.<br />
+    In the new dialog select New Site on the left pane and proceed to configure it on the right pane.
+    Select <strong>WebDav</strong> as File protocol, select encryption type.  
+    Paste FULL WebDav url into <strong>Host name</strong> text field, host name and remote directory 
+    fields will be filled automatically. Enter your cedentials.You can configure 
+    local folder in advanced settings. <br />
+    Click &quot;<strong>Login</strong>&quot; button to establish connection.<br />
+    After that you can execute synchronization on any folder. Navigate to needed 
+    folder in WinScp, press &quot;<strong>Synchronize</strong>&quot; 
+    button on main toolbar (Ctrl+S) and configure synchronization parameters. <br />
+    For more info use local help according to the program or <a href="https://winscp.net/eng/docs/start" target="_blank">Online Help</a>.<br />
+    <a target="_blank" href="Images/WinScp.png" onclick="toggleBlock('WinScp_img'); return false;">Screenshot</a>
+    <div id="WinScp_img" style="display: none;"><br />
+        <img alt="WinScp" src="Images/WinScp.png" style="width:1090;height:700px;" />
+    </div>
+    <br />
+    <br />
+    <a name="allwaysync"></a>
+    <h2>Allway Sync</h2>
+    From the main menu of the program select <b>Job-&gt;Add new Job</b>.<br />
+    In the new tab at the left  insert the web folder link (see in top text area at this page).<br />
+    Select folder type - <b>WebDAV Folder</b> below.<br />
+    By the <b>Configure</b> button nearby on the right specify other parameters of connection,
+    in particular login and the password for access to the web-folder.<br />
+    On the right in the field specify your local directory for synchronization.<br />
+    After that you can execute synchronization,
+    and also to set up other parameters, using the <b>Job</b> submenu in the main menu
+    (in particular automatic synchronization).<br />
+    For more info use local help according to the program or <a href="http://allwaysync.com/faq.html?a=1" target="_blank">FAQ</a>.<br />
+    <a target="_blank" href="Images/AllwaySync.png" onclick="toggleBlock('allwaysync_img'); return false;">Screenshot</a>
+    <div id="allwaysync_img" style="display: none;"><br />
+        <img alt="Allway Sync" src="Images/AllwaySync.png" style="width:1280px;height:1000px;" />
+    </div>
+    <br />
+    <br />
+    <a name="bestsync"></a>
+    <h2>BestSync</h2>
+    From the main menu  select <b>Edit-&gt;Add Task</b>.<br />
+    In the new dialog  select local folder as <b>Folder1</b>.<br />
+    Type web folder link (see in top text area at this page) as <b>Folder2(FTP)</b>, specify the login/password.<br />
+    Further you can set up different parameters of synchronization.<br />
+    For more info use local help according to the program or <a href="http://www.risefly.com/fseqna.htm" target="_blank">Q&amp;A</a>.<br />
+    <a target="_blank" href="Images/BestSync.png" onclick="toggleBlock('bestsync_img'); return false;">Screenshot</a>
+    <div id="bestsync_img" style="display: none;"><br />
+        <img alt="BestSync" src="Images/BestSync.png" style="width:1280px;height:1000px;" />
+    </div>
+    <br />
+    <br />
+    <a name="goodsync"></a>
+    <h2>GoodSync</h2>
+    From the main menu  select <b>Job-&gt;New</b>.<br />
+    In the new window enter a job name, select type (<b>Synchronization</b>).<br />
+    In the appeared tab in the field at the left (by the <b>Browse</b> button) type web folder link (see in top text area at this page), login and the password.<br />
+    On the right select a local directory for synchronization.<br />
+    For more info use <a href="http://www.goodsync.com/support/faq" target="_blank">FAQ</a> or <a href="http://www.goodsync.com/support/manual" target="_blank">Manual</a>.<br />
+    <a target="_blank" href="Images/GoodSync.png" onclick="toggleBlock('goodsync_img'); return false;">Screenshot</a>
+    <div id="goodsync_img" style="display: none;"><br />
+        <img alt="GoodSync" src="Images/GoodSync.png" style="width:1280px;height:1000px;" />
+    </div>
+    <br />
+    <br />
+</body>
+</html>

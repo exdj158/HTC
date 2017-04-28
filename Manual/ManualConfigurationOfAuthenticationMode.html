@@ -1,0 +1,439 @@
+﻿<!-- saved from url=(0014)about:internet -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Manual configuration authentication mode (Windows version)</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <script type="text/javascript" language="javascript">
+        function toggleBlock(id) {
+            if (document.getElementById(id).style.display == 'none') {
+                document.getElementById(id).style.display = 'block';
+            }
+            else {
+                document.getElementById(id).style.display = 'none';
+            }
+        }
+    </script>
+    
+    <table width="100%" cellpadding="0" cellspacing="0">
+        <tr>
+            <td width="320">
+                <table>
+                    <tr>
+                        <td style="vertical-align:top;text-align:left;">
+                            <a target='_blank' href='http://www.element-it.com/asp-net-explorer-browser/online-share/web-file-manager.aspx'><img style='cursor:pointer;' alt="HTTP Commander" src="Images/HCLogo.png" border="0" /></a>
+                        </td>
+                        <td class="green" style="vertical-align:top;text-align:left;padding-top:21px;">
+                            &nbsp;AJS 4.x
+                        </td>
+                    </tr>
+                </table>
+                <span class="gray">Manual</span>
+            </td>
+            <td>
+  <!-- For windows version only. Start --> 
+	<p>
+	<strong>Note!</strong> This Manual is for the <strong>"Windows authentication"</strong> version, 
+	which is designed to work with existing Windows server or Active Directory accounts and Windows authentication. 
+	If you want to create accounts by yourself and store their credentials in your own HTTP Commander XML database, 
+	you need to download the <a target="_blank" href="http://www.element-it.com/downloadfile.aspx?type=st">"Forms authentication" version</a>!
+	This Manual is for the Windows authentication version only!
+	</p>
+	<!-- For windows version only. End --> 
+	
+ 
+            </td>
+            <td align="char" width="230">
+                <img alt="" src="Images/world.jpg" align="middle" hspace="5" style="vertical-align:top;padding-top:1px;" /><b><a target="_blank" title="web file manager" href="http://www.element-it.com/asp-net-explorer-browser/online-share/web-file-manager.aspx">Web file manager</a></b><br />
+                <img alt="" src="Images/support.png" width="16" height="16" align="middle" hspace="5" style="vertical-align:top;padding-top:1px;" /><b><a
+                    href="onlinesupport.html" target="main">Free Installation assistance</a></b><br />
+                <img alt="" src="Images/help.png" align="middle" width="16" height="16" hspace="5" style="vertical-align:top;padding-top:1px;" /><b><a
+                    href="index.html" title="Manual Home page" target="_blank">Manual Home page</a></b><br />
+            </td>
+        </tr>
+    </table>
+    
+    <p class="topic">
+        <a id="hcadsicomtopic">Manual configuration of authentication mode</a>
+    </p>
+
+<p>This section explains how to switch authentication mode in HTTP Commander and
+how to verify the current configuration.
+</p>
+
+<p>There are two distributions of HTTP Commander available for download on the Element-It web site: Forms and Windows.
+They are preconfigured for the two primary authentication modes supported by the application: Forms and Windows, respectively.
+HTTP Commander also supports Forms with Windows users, Novell EDirectory, and Shibboleth authentication modes,
+which are selected less frequently than the two primary modes.
+The installation section of this manual covers the specific authentication mode  
+you've selected to download, either Windows or Forms.
+See the top of this page to view the version of the distribution which is installed.
+You can always switch to any other supported authentication mode 
+with some amount of manual labor. You can do this irrespective of which distribution you've installed.
+</p>
+
+<p>
+The difference between the two distributions of HTTP Commander is in the content of
+the configuration files (Web.config and HttpCommanderSettings.config) and manual.
+Configuration files contain the default settings for the selected authentication mode 
+so you do not need to enter the settings manually.
+The manual provided in the Forms version of distribution is missing sections specific to Windows authentication mode of HTTP Commander
+and the manual of the Windows version of distribution is missing sections specific to Forms authentication mode 
+(for users' convenience, of course).
+This section explains how to update configuration files for your specific authentication mode.
+If you need to change the authentication mode, you do not need to download a new distribution of HTTP Commander, just update the configuration files.
+In addition, updating the configuration files manually preserves all your settings 
+which would be lost should you install HTTP Commander from scratch.
+</p>
+
+<p>The Novell EDirectory and Shibboleth authentication modes of HTTP Commander are best documented in 
+the Forms version of the manual.
+For the Forms with Windows users authentication mode of HTTP Commander we recommend that you obtain
+both versions of the manual, since neither of them contains complete documentation
+for this mixed mode.
+</p>
+
+<p>To decide which authentication mode of HTTP Commander you need, consider the following
+characteristics.</p>
+<ul>
+    <li>Account database &mdash; what accounts should be used for authentication to 
+    HTTP Commander.
+    <p>In Windows and Forms with Windows users authentication modes the application uses
+    windows accounts. That may be domain (web server must be joined to domain) or local accounts.
+    In Forms authentication mode HTTP Commander maintains custom account database in an xml file.
+    In Novell EDirectory mode the application authenticates against EDirectory.
+    In Shibboleth mode, the account database is managed by the Shibboleth identity provider,
+    HTTP Commander merely extracts the name of the current authenticated user.
+    </p>
+    </li>
+    
+    <li>Impersonation, what identity is used to perform user requests.
+    
+    <p>This characteristic determines if you are able to use NTFS permissions 
+    to restrict access to the file system. When all requests are processed under the
+    same user identity, NTFS permissions cannot be used to assign different level
+    of access to different users of HTTP Commander. 
+    On the contrary, when the application impersonates users and performs each request
+    under that user identity, the application can then leverage NTFS permissions.</p>
+    
+    <p>In Windows and Forms with Windows users authentication modes, HTTP Commander
+    processes requests under the identity of the logged in user. 
+    In other authentication modes, the application performs under the application pool identity
+    &mdash; one identity for all users.
+    </p>
+    </li>
+</ul>
+
+<p>More details about <a href="Shibboleth.html">Shibboleth integration</a>,
+<a href="NovellEDirectory.html">Novell EDirectory integration</a>.
+</p>
+
+<p><b>Warning</b> Forms with Windows users authentication mode works unreliably on 
+Windows Server 2003 and Windows Server 2003 R2. The problem is that the authenticated
+user sometimes is not impersonated, hence requests are processed under the anonymous 
+user identity. Users will experience sporadic "access denied" errors in HTTP Commander.</p>
+
+<p>The following instructions assume that you've completed installation procedure described in the
+<b>Application install</b> section of this manual.</p>
+
+<ul>
+<li>If you wish to perform a new installation with either Forms or Windows authentication mode,
+we recommend that you download the corresponding distribution on the Element-It web site.
+Then follow the installation instructions detailed in the <b>Application install</b> section of the manual, 
+    and
+then review the following steps to ensure that application was configured correctly.
+</li>
+
+<li>If you've already installed and configured HTTP Commander and now want to change authentication mode,
+then follow the instructions below. 
+You may need to download a different version of the manual.
+</li>
+
+<li>If you have performed a new installation of HTTP Commander and selected one of the authentication modes 
+that does not have preconfigured distribution, you should first install the Windows or Forms
+version as described in the <b>Application install</b> section of the manual,
+then follow the steps below to switch the authentication type.
+</li>
+</ul>
+
+<h3>Configuration steps</h3>
+<ul>
+    <li>Authentication in IIS Manager
+        <ul>
+            <li>Windows Server 2003 and Windows Server 2003 R2
+            <ul>
+                <li>In the  <b>IIS console</b> right-click the "HTCOMNET"  folder and select <b>"Properties"</b> in the context menu.</li>
+                <li>In  the HTCOMNET properties dialog box, open <b>"Directory Security"</b> tab, click the <b>&quot;Edit..&quot;</b> button.</li>
+                <li>Select the options according to table below.</li>
+            </ul>
+            
+            <table border="1">
+            <thread>
+            <tr>
+                <th>HTTP Commander AuthMode</th>
+                <th>IIS authentication<sup><a href="#IIS_authentication">1</a></sup></th>
+            </tr>
+            </thead>
+            
+            <tr>
+                <td>Forms, Forms with Windows Users, Novell EDirectory</td>
+                <td>Anonymous access
+                  <br/>
+                  <a target="_blank" onClick="toggleBlock('IIS6FormsAuthentication'); return false;" class="imglink">Screenshot</a>
+                  <div id="IIS6FormsAuthentication" style="display: none;">
+                    <p class="screenshot">
+                      <img src="Images/IIS6FormsAuthentication.png"/>
+                    </p>
+                  </div>
+                </td>
+            </tr>
+            
+            <tr>
+                <td>Windows</td>
+                <td>Basic Authentication or Windows Authentication<sup><a href="#basic_vs_windows">2</a></sup>
+                  <br/>
+                  <a target="_blank" onClick="toggleBlock('IIS6BasicAuthentication'); return false;" class="imglink">Screenshot</a>
+                  <div id="IIS6BasicAuthentication" style="display: none;">
+                    <p class="screenshot">
+                      <img src="Images/IIS6BasicAuthentication.png"/>
+                    </p>
+                  </div>
+                </td>
+            </tr>
+            
+            <tr>
+                <td>Shibboleth</td>
+                <td>According to <a target="_blank" href="http://shibboleth.net">Shibboleth</a> Service provider configuration manual.</td>
+            </tr>
+            </table>
+            </li>
+            
+            <li>Windows Servers 2008, 2008 R2, 2012, 2012 R2, 2016
+                <ul>        
+                <li>In the <b>IIS manager</b>, select HTCOMNET node and click  <b>"Authentication"</b> in the right tab.</li>
+                <li>Select the options according to the table below.</li>
+                </ul>
+                         
+                <table border="1">
+                <thread>
+                <tr>
+                    <th>HTTP Commander AuthMode</th>
+                    <th>IIS authentication<sup><a href="#IIS_authentication">1</a></sup></th>
+                </tr>
+                </thread>
+                
+                <tr>
+                    <td>Forms, Novell EDirectory</td>
+                    <td>Anonymous Authentication and Forms Authentication
+                      <br/>
+                      <a onClick="toggleBlock('IIS7FormsAuthentication'); return false;" class="imglink">Screenshot</a>
+                      <div id="IIS7FormsAuthentication" style="display: none;">
+                        <p class="screenshot">
+                          <img src="Images/IIS7FormsAuthentication.png"/>
+                        </p>
+                      </div>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>Forms with Windows Users</td>
+                    <td>Anonymous Authentication, ASP.NET Impersonation and Forms Authentication
+                      <br/>
+                      <a target="_blank" onClick="toggleBlock('IIS7FormsWithWindowsUsersAuthentication'); return false;" class="imglink">Screenshot</a>
+                      <div id="IIS7FormsWithWindowsUsersAuthentication" style="display: none;">
+                        <p class="screenshot">
+                          <img src="Images/IIS7FormsWithWindowsUsersAuthentication.png"/>
+                        </p>
+                      </div>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>Windows</td>
+                    <td>Basic Authentication or Windows Authentication<sup><a href="#basic_vs_windows">2</a></sup> and ASP.NET Impersonation
+                      <br/>
+                      <a target="_blank" onClick="toggleBlock('IIS7BasicAuthentication'); return false;" class="imglink">Screenshot</a>
+                      <div id="IIS7BasicAuthentication" style="display: none;">
+                        <p class="screenshot">
+                          <img src="Images/IIS7BasicAuthentication.png"/>
+                        </p>
+                      </div>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>Shibboleth</td>
+                    <td>According to <a target="_blank" href="http://shibboleth.net">Shibboleth</a> Service provider configuration manual.</td>
+                </tr>
+                </table>
+            </li>
+        </ul>
+    </li>
+    
+    <li>Web.config settings
+        <p>Ensure that the following settings are present in web.config file.</p>
+        <p><b>Note:</b>
+        All elements may contain additional attributes or sub-elements not 
+        shown on the listing. For example, Forms elements often contains a timeout attribute. 
+        </p>
+        <ul>
+            <li>AuthMode: Forms, Novell EDirectory
+<pre>
+&lt;configuration&gt;
+  &lt;system.web&gt;
+    &lt;identity impersonate="false" /&gt;
+    &lt;authentication mode="Forms"&gt;
+      &lt;forms loginUrl="Default.aspx" defaultUrl="Default.aspx"/&gt;
+    &lt;/authentication&gt;
+  &lt;/system.web&gt;
+&lt;/configuration&gt;
+</pre>
+            </li>
+            <li>AuthMode: Forms with Windows Users
+<pre>
+&lt;configuration&gt;
+  &lt;system.web&gt;
+    &lt;identity impersonate="true" /&gt;
+    &lt;authentication mode="Forms"&gt;
+      &lt;forms loginUrl="Default.aspx" defaultUrl="Default.aspx"/&gt;
+    &lt;/authentication&gt;
+    &lt;httpModules&gt;
+      &lt;add name="FormsWithWindowsUsersAuthModule" type="HttpCommander.FormsWithWindowsUsersAuthModule, HttpCommander" /&gt;
+    &lt;/httpModules&gt;
+  &lt;/system.web&gt;
+  &lt;system.webServer&gt;
+    &lt;modules runAllManagedModulesForAllRequests="true"&gt;
+      &lt;add name="FormsWithWindowsUsersAuthModule" type="HttpCommander.FormsWithWindowsUsersAuthModule, HttpCommander" preCondition="integratedMode" /&gt;
+    &lt;/modules&gt;
+  &lt;/system.webServer&gt;
+&lt;/configuration&gt;
+</pre>
+            </li>
+            <li>AuthMode: Windows
+<pre>
+&lt;configuration&gt;
+  &lt;system.web&gt;
+    &lt;identity impersonate="true" /&gt;
+    &lt;authentication mode="Windows"&gt;
+    &lt;/authentication&gt;
+  &lt;/system.web&gt;
+&lt;/configuration&gt;
+</pre>
+            </li>
+            <li>AuthMode: Shibboleth
+<pre>
+&lt;configuration&gt;
+  &lt;system.web&gt;
+    &lt;httpModules&gt;
+      &lt;add name="ShibbolethAuthenticationModule" type="HttpCommander.ShibbolethAuthenticationModule, HttpCommander" /&gt;
+    &lt;/httpModules&gt;
+  &lt;/system.web&gt;
+  &lt;system.webServer&gt;
+    &lt;modules runAllManagedModulesForAllRequests="true"&gt;
+      &lt;add name="ShibbolethAuthenticationModule" type="HttpCommander.ShibbolethAuthenticationModule, HttpCommander" preCondition="integratedMode" /&gt;
+    &lt;/modules&gt;
+  &lt;/system.webServer&gt;
+&lt;/configuration&gt;
+</pre>
+            <p>Please, consult the Shibboleth Service Provider configuration manual for other settings
+            that must be present in Web.config file.</p>
+            </li>
+        </ul>
+    </li>
+    
+    <li>HttpCommanderSettings.config
+        <p>The settings in HttpCommanderSettings.config file specify HTTP Commander authentication mode.
+        Ensure that all settings have the values specified in the table below.</p>
+        
+        <table border="1">
+        <caption>Mapping HTTP Commander authentication mode to HTTP Commander settings</caption>
+        <thead>
+        <tr><th>AuthMode</th>
+        <th>HTTP Commander setting</th>
+        </tr>
+        </thead>
+        <tr>
+        <td>Windows</td>
+        <td>
+        Main/Version="ad"<br/>
+        Main/WindowsUsersWithFormAuth="false"<br/>
+        NovellEDirectory/EDirectory="false"<br/>
+        Shibboleth/EnableShibbolethAuthentication="false"<br/>
+        </td>
+        </tr>
+        
+        <tr>
+        <td>Forms</td>
+        <td>
+        Main/Version="st"<br/>
+        Main/WindowsUsersWithFormAuth="false"<br/>
+        NovellEDirectory/EDirectory="false"<br/>
+        Shibboleth/EnableShibbolethAuthentication="false"<br/>
+        </td>
+        </tr>
+        
+        <tr>
+        <td>Forms for Windows users</td>
+        <td>
+        Main/Version="st"<br/>
+        Main/WindowsUsersWithFormAuth="true"<br/>
+        NovellEDirectory/EDirectory="false"<br/>
+        Shibboleth/EnableShibbolethAuthentication="false"<br/>
+        </td>
+        </tr>
+        
+        <tr>
+        <td>Novell EDirectory</td>
+        <td>
+        Main/Version="st"<br/>
+        Main/WindowsUsersWithFormAuth="false"<br/>
+        NovellEDirectory/EDirectory="true"<br/>
+        Shibboleth/EnableShibbolethAuthentication="false"<br/>
+        </td>
+        </tr>
+        
+        <tr>
+        <td>Shibboleth</td>
+        <td>
+        Main/Version="st"<br/>
+        Main/WindowsUsersWithFormAuth="false"<br/>
+        NovellEDirectory/EDirectory="false"<br/>
+        Shibboleth/EnableShibbolethAuthentication="true"<br/>
+        </td>
+        </tr>
+        
+        </table>
+    </li>
+    
+    <li>Configure <a href="ntfs.html">NTFS permissions</a></li>
+    
+    <li>For Windows authentication mode only<br/>
+    Configure the <a href="faq.html#clearAuth">Force Logout</a> function.</li>
+    
+    <li>For Forms authentication mode only<br/>
+    Ensure that the Data\Accounts.xml file is present. 
+    If not, copy this file from the Forms distribution of HTTP Commander.
+    </li>
+    
+    <li>Authentication mode specific details
+        <ul>
+            <li><a href="Shibboleth.html">Shibboleth integration</a></li>
+            <li><a href="NovellEDirectory.html">Novell EDirectory integration</a></li>
+        </ul>
+    </li>
+</ul>
+
+<a name="IIS_authentication"></a>
+<p><strong>Note 1</strong> The IIS authentication column specifies authentication items that should be enabled in IIS,
+all other authentication items should be disabled.</p>
+
+<a name="basic_vs_windows"></a>
+<p><strong>Note 2</strong> See <a href="faq.html#windowsauth">Windows vs Basic authentication</a>.
+</p>
+
+</body>
+</html>

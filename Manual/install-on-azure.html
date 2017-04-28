@@ -1,0 +1,229 @@
+﻿<!-- saved from url=(0014)about:internet -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>HTTP Commander install on Microsoft Azure. (Windows version)</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <script type="text/javascript" language="javascript">
+        function toggleBlock(el, id) {
+            if (document.getElementById(id).style.display == 'none') {
+                document.getElementById(id).style.display = 'block';
+				el.innerHTML="Hide screenshot"
+            }
+            else {
+                document.getElementById(id).style.display = 'none';
+				el.innerHTML="Show screenshot"
+            }
+        }
+    </script>
+    
+    <table width="100%" cellpadding="0" cellspacing="0">
+        <tr>
+            <td width="320">
+                <table>
+                    <tr>
+                        <td style="vertical-align:top;text-align:left;">
+                            <a target='_blank' href='http://www.element-it.com/asp-net-explorer-browser/online-share/web-file-manager.aspx'><img style='cursor:pointer;' alt="HTTP Commander" src="Images/HCLogo.png" border="0" /></a>
+                        </td>
+                        <td class="green" style="vertical-align:top;text-align:left;padding-top:21px;">
+                            &nbsp;AJS 4.x
+                        </td>
+                    </tr>
+                </table>
+                <span class="gray">Manual</span>
+            </td>
+            <td>
+  <!-- For windows version only. Start --> 
+	<p>
+	<strong>Note!</strong> This Manual is for the <strong>"Windows authentication"</strong> version, 
+	which is designed to work with existing Windows server or Active Directory accounts and Windows authentication. 
+	If you want to create accounts by yourself and store their credentials in your own HTTP Commander XML database, 
+	you need to download the <a target="_blank" href="http://www.element-it.com/downloadfile.aspx?type=st">"Forms authentication" version</a>!
+	This Manual is for the Windows authentication version only!
+	</p>
+	<!-- For windows version only. End --> 
+	
+ 
+            </td>
+            <td align="char" width="230">
+                <img alt="" src="Images/world.jpg" align="middle" hspace="5" style="vertical-align:top;padding-top:1px;" /><b><a target="_blank" title="web file manager" href="http://www.element-it.com/asp-net-explorer-browser/online-share/web-file-manager.aspx">Web file manager</a></b><br />
+                <img alt="" src="Images/support.png" width="16" height="16" align="middle" hspace="5" style="vertical-align:top;padding-top:1px;" /><b><a href="onlinesupport.html" target="main">Free Installation assistance</a></b><br />
+                <img alt="" src="Images/help.png" align="middle" width="16" height="16" hspace="5" style="vertical-align:top;padding-top:1px;" /><b><a
+                    href="index.html" title="Manual Home page" target="_blank">Manual Home page</a></b><br />
+            </td>
+        </tr>
+    </table>
+    
+    <p class="topic">
+        <a id="installation-on-amazon">HTTP Commander install on Microsoft Azure.</a>
+    </p>
+    	
+	<strong>Note !</strong><br />
+	We offer <b>free installation assistance</b> for both trial and commercial licenses. 
+	You can get help via email, instant messenger or via remote access to your server. 
+	You need few minutes to get <a href="onlinesupport.html">online help</a>.<br /><br />	
+
+	
+   In this tutorial we assume that you already have an Azure account. If you don't have an Azure account, use the following procedure to create one.
+<br/>To create an Azure account<br/>
+<ol>
+<li>
+Open <a href="https://azure.microsoft.com" target="_blank" rel="nofollow">https://azure.microsoft.com</a>, and then choose "Start free".
+</li>
+<li>
+Follow the online instructions.
+</li>
+</ol>
+
+<br/>
+<br/>
+<strong>Steps To Launch Http Commander on Azure Virtual Machine</strong>
+	<ol>
+		<li>Login to <a href="https://portal.azure.com" target="_blank" rel="nofollow">Azure portal</a> and click on <strong>"+New"</strong> item, then choose <strong>"Virtual Machines"</strong> and then <strong>"Windows Server 2012 R2 Datacenter"</strong> (if you would like to install HTTP Commander manually)
+		<br/>
+		Or search for "HTTP Commander" in Azure Marketplace to create VM with installed HTTP Commander.<br/>
+		Here is direct link to <a href="https://portal.azure.com/#create/element-it.htcomnet_411_winr2012r2htcomnet-vm"  target="_blank">Create VM with installed HTTP Commander</a>
+		<br/>		
+		<a href="https://azure.microsoft.com/marketplace/partners/element-it/htcomnet-411-winr2012r2/"  target="_blank">Product page on Azure marketplace</a>
+		
+		<br />
+			<a target="_blank" href="Images/install-on-azure/1-New-VM.png" onclick="toggleBlock(this, '1-New-VM'); return false;"
+				class="imglink">Hide screenshot</a>
+			<div id="1-New-VM" style="display: block;">
+				<p class="screenshot">
+					&nbsp;<img src="Images/install-on-azure/1-New-VM.png" style="width: 800px" />
+				</p>
+			</div>
+		</li>
+		<li>Click <strong>"Create"</strong> button to start creation process . 
+			<br />
+			<a target="_blank" href="Images/install-on-azure/2-Create-VM.png" onclick="toggleBlock(this, '2-Create-VM'); return false;"
+				class="imglink">Hide screenshot</a>
+			<div id="2-Create-VM" style="display: block;">
+				<p class="screenshot">
+					&nbsp;<img src="Images/install-on-azure/2-Create-VM.png" style="width: 800px" />
+				</p>
+			</div>
+		</li>
+		<li>Set name of Virtual machine, username and password which will be used to login to Windows. Select disk type and location.
+			<br />
+			<a target="_blank" href="Images/install-on-azure/3-Basic-Settings.png" onclick="toggleBlock(this, '3-Basic-Settings'); return false;"
+				class="imglink">Hide screenshot</a>
+			<div id="3-Basic-Settings" style="display: block;">
+				<p class="screenshot">
+					&nbsp;<img src="Images/install-on-azure/3-Basic-Settings.png" style="width: 800px" />
+				</p>
+			</div>
+		</li>
+		<li> Choose the desired Virtual Machine size. 
+			<br />
+			<a target="_blank" href="Images/install-on-azure/4-Choose-VM-Size.png" onclick="toggleBlock(this, '4-Choose-VM-Size'); return false;"
+				class="imglink">Hide screenshot</a>
+			<div id="4-Choose-VM-Size" style="display: block;">
+				<p class="screenshot">
+					&nbsp;<img src="Images/install-on-azure/4-Choose-VM-Size.png" style="width: 800px" />
+				</p>
+			</div>
+		</li>
+		<li> Check instance details. You can keep it as is. 
+			<br />
+			<a target="_blank" href="Images/install-on-azure/5-Optional-Features.png" onclick="toggleBlock(this, '5-Optional-Features'); return false;"
+				class="imglink">Hide screenshot</a>
+			<div id="5-Optional-Features" style="display: block;">
+				<p class="screenshot">
+					&nbsp;<img src="Images/install-on-azure/5-Optional-Features.png" style="width: 800px" />
+				</p>
+			</div>
+		</li>
+		<li> Summary page.
+			<br />
+			<a target="_blank" href="Images/install-on-azure/6-VM-Summary-Create.png" onclick="toggleBlock(this, '6-VM-Summary-Create'); return false;"
+				class="imglink">Hide screenshot</a>
+			<div id="6-VM-Summary-Create" style="display: block;">
+				<p class="screenshot">
+					&nbsp;<img src="Images/install-on-azure/6-VM-Summary-Create.png" style="width: 800px" />
+				</p>
+			</div>
+		</li>
+		<li>Open Virtual Machines section and select newly created machine.
+			<br />
+			<a target="_blank" href="Images/install-on-azure/7-VM-list.png" onclick="toggleBlock(this, '7-VM-list'); return false;"
+				class="imglink">Hide screenshot</a>
+			<div id="7-VM-list" style="display: block;">
+				<p class="screenshot">
+					&nbsp;<img src="Images/install-on-azure/7-VM-list.png" style="width: 800px" />
+				</p>
+			</div>
+		</li>
+		<li> Open <strong>network interfaces</strong> and select used network interface.
+			<br />
+			<a target="_blank" href="Images/install-on-azure/8-Network-interfaces.png" onclick="toggleBlock(this, '8-Network-interfaces'); return false;"
+				class="imglink">Hide screenshot</a>
+			<div id="8-Network-interfaces" style="display: block;">
+				<p class="screenshot">
+					&nbsp;<img src="Images/install-on-azure/8-Network-interfaces.png" style="width: 800px" />
+				</p>
+			</div>
+		</li>
+		<li> Open <strong>Network Security group</strong> section and then click on security group used. 
+			<br />
+			<a target="_blank" href="Images/install-on-azure/9-network-security-group.png" onclick="toggleBlock(this, '9-network-security-group'); return false;"
+				class="imglink">Hide screenshot</a>
+			<div id="9-network-security-group" style="display: block;">
+				<p class="screenshot">
+					&nbsp;<img src="Images/install-on-azure/9-network-security-group.png" style="width: 800px" />
+				</p>
+			</div>
+		</li>
+		<li> Open <strong>"Inbound security rules"</strong> section and click on <strong>"+Add"</strong> button .
+			<br />
+			<a target="_blank" href="Images/install-on-azure/10-network-security-rules.png" onclick="toggleBlock(this, '10-network-security-rules'); return false;"
+				class="imglink">Hide screenshot</a>
+			<div id="10-network-security-rules" style="display: block;">
+				<p class="screenshot">
+					&nbsp;<img src="Images/install-on-azure/10-network-security-rules.png" style="width: 800px" />
+				</p>
+			</div>
+		</li>
+		
+		<li>Add rules to open up the port <strong>80</strong> for HTTP access, <strong>443</strong> for HTTPS (if required). Port <strong>3389</strong> for rdp access already should be opened.
+			<br />
+			<a target="_blank" href="Images/install-on-azure/11-add-http-rule.png" onclick="toggleBlock(this, '11-add-http-rule'); return false;"
+				class="imglink">Hide screenshot</a>
+			<div id="11-add-http-rule" style="display: block;">
+				<p class="screenshot">
+					&nbsp;<img src="Images/install-on-azure/11-add-http-rule.png" style="width: 800px" /><br/>
+					&nbsp;<img src="Images/install-on-azure/12-add-https-rule.png" style="width: 800px" /><br/>
+					&nbsp;<img src="Images/install-on-azure/13-added-rules.png" style="width: 800px" /><br/>
+				</p>
+			</div>
+		</li>
+		<li>  Navigate to <strong>Virtual Machines</strong> section and select newly created machine. Now you can try connect to your VM by RPD. Press <strong>"Connect"</strong> button, download and open rdp file. 
+			<br />
+			<a target="_blank" href="Images/install-on-azure/14-connect-to-vm.png" onclick="toggleBlock(this, '14-connect-to-vm'); return false;"
+				class="imglink">Hide screenshot</a>
+			<div id="14-connect-to-vm" style="display: block;">
+				<p class="screenshot">
+					&nbsp;<img src="Images/install-on-azure/14-connect-to-vm.png" style="width: 800px" />
+				</p>
+			</div>
+		</li>
+		<li> If you did used HTTP Commander VM image to create your VM, then you should be able to access HTTP Commander by following links:
+			<br/>
+			Standard version (use admin/admin to login) <a href="http://vmname.region.cloudapp.azure.com/htcomnet-st/" target="_blank">http://vmname.region.cloudapp.azure.com/htcomnet-st/</a>
+			<br/>
+			AD version (Use Windows account specified during VM creation to login)<a href="http://vmname.region.cloudapp.azure.com/htcomnet-ad/" target="_blank">http://vmname.region.cloudapp.azure.com/htcomnet-ad/</a>
+			<br/>
+			<br/>If you used clean WIndows Server image for you VM, Login to your Virtual Machine and follow regular installation instructions.
+			Now we are ready to install IIS web server and Http Commander. 
+			<br/>
+			Follow the regular 			<a  href="win2008.html">Installation instructions. </a>
+			
+		</li>
+	</ol>
+<br/><br/>    
+</body>
+</html>

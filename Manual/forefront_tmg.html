@@ -1,0 +1,384 @@
+﻿<!-- saved from url=(0014)about:internet -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Publishing HTTP Commander through Forefront Threat Management Gateway 2010 (Windows version)</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <script type="text/javascript" language="javascript">
+        function toggleBlock(id) {
+            if (document.getElementById(id).style.display == 'none') {
+                document.getElementById(id).style.display = 'block';
+            } else {
+                document.getElementById(id).style.display = 'none';
+            }
+        }
+    </script>
+    
+    <table width="100%" cellpadding="0" cellspacing="0">
+        <tr>
+            <td width="320">
+                <table>
+                    <tr>
+                        <td style="vertical-align:top;text-align:left;">
+                            <a target='_blank' href='http://www.element-it.com/asp-net-explorer-browser/online-share/web-file-manager.aspx'><img style='cursor:pointer;' alt="HTTP Commander" src="Images/HCLogo.png" border="0" /></a>
+                        </td>
+                        <td class="green" style="vertical-align:top;text-align:left;padding-top:21px;">
+                            &nbsp;AJS 4.x
+                        </td>
+                    </tr>
+                </table>
+                <span class="gray">Manual</span>
+            </td>
+             <td>
+  <!-- For windows version only. Start --> 
+	<p>
+	<strong>Note!</strong> This Manual is for the <strong>"Windows authentication"</strong> version, 
+	which is designed to work with existing Windows server or Active Directory accounts and Windows authentication. 
+	If you want to create accounts by yourself and store their credentials in your own HTTP Commander XML database, 
+	you need to download the <a target="_blank" href="http://www.element-it.com/downloadfile.aspx?type=st">"Forms authentication" version</a>!
+	This Manual is for the Windows authentication version only!
+	</p>
+	<!-- For windows version only. End --> 
+	
+ 
+	
+                
+            </td>
+            <td align="char" width="230">
+                <img alt="" src="Images/world.jpg" align="middle" hspace="5" style="vertical-align:top;padding-top:1px;" /><b><a target="_blank" title="web file manager" href="http://www.element-it.com/asp-net-explorer-browser/online-share/web-file-manager.aspx">Web file manager</a></b><br />
+                <img alt="" src="Images/support.png" width="16" height="16" align="middle" hspace="5" style="vertical-align:top;padding-top:1px;" /><b><a
+                    href="onlinesupport.html" target="main">Free Installation assistance</a></b><br />
+                <img alt="" src="Images/help.png" align="middle" width="16" height="16" hspace="5" style="vertical-align:top;padding-top:1px;" /><b><a
+                    href="index.html" title="Manual Home page" target="_blank">Manual Home page</a></b><br />
+            </td>
+        </tr>
+    </table>
+    
+    <!-- Title -->
+    <p class="topic">
+        <a id="hcadsicomtopic">Publishing HTTP Commander through Forefront Threat Management Gateway 2010</a>
+    </p>
+    
+    <p>This article provides guidelines for publishing HTTP Commander application in Forefront TMG 2010.
+    HTTP Commander publishing does not essentially differ from publishing any other Web site,
+    see <a href="http://technet.microsoft.com/en-us/library/cc441599.aspx">Creating a Web publishing rule</a>.
+    We assume that HTTP Commander was installed in the Internal network and 
+    we need to provide secure access to it from the outside, for example, from the Internet.
+    Forefront TMG protects access to the Web file manager, users must authenticate to the firewall 
+    before they are allowed access to the internal resource.
+    After authenticating on the firewall user credentials are delegated to the target web server.
+    That means that the client do not need to authenticate twice: first to the firewall and second to HTTP Commander.
+    The user is automatically logged in to HTTP Commander once it's authenticated to Forefront. 
+    <!-- the forwarded request from Forefront is received. --> 
+    Users in the internal network authenticate to Web file manager as usual, Forefront TMG is not involved.
+    You may allow and force HTTPS connection from client to Forefront and/or from Forefront to the web server.
+    
+    <!--
+    The user do not need to authenticate one more time in Http Commander once it authenticated on the firewall. 
+    This article describes one of the possible scenarios of publishing Http Commander in Forefront TMG 2010.
+    Http Commander does not require special settings to be published behind Forefront TMG 2010.
+    Http Commander does not enforce any special requirements to be used with firewall.
+    You need to configure Forefront as you normally do for any Web Application requiring authentication.
+    The most part of this page is deserved to configuring Forefront.
+    The client provides credentials in HTML.
+    Web servers published through Forefront TMG
+    -->
+    </p> 
+    <ul>
+        <li><a href="#network_topology">Network topology</a></li>
+        <li><a href="#config_forefront_tmg">Configuring Forefront TMG</a></li>
+        <ul>
+          <li><a href="#forefront_tmg_step1">Step 1. Create Web Listener</a></li>
+          <li><a href="#forefront_tmg_step2">Step 2. Create Web publishing rule</a></li>
+        </ul>
+        <li><a href="#config_http_commander">Configuring HTTP Commander</a></li>
+    </ul>
+    
+<h3 id="network_topology">Network topology</h3>
+<p>Before we start configuring Forefront TMG and HTTP Commander, let's examine network topology of the test network. 
+See <a href="http://technet.microsoft.com/en-us/library/dd896975.aspx">Planning Forefront TMG network topology</a>.</p>
+
+<p>In our example Forefront plays a role of Edge Firewall, it connect two networks: internal and external.
+The internal network is a private network of an organization that is connected to other world though Forefront TMG machine. 
+It uses private range of IP addresses.
+The external network is yet another private network connected to the Internet through another firewall.
+In your case the External network may be the Internet.</p>
+
+<p>All machines in the Internal firewall are joined in domain test3.element-it.com.
+We used a valid top-level domain <strong>com</strong> in the Internal network, although
+you'll typically use pseudo-top-level domains like <strong>local</strong>, <strong>loc</strong> in such cases.
+Note that the test3.element-it.com domain is not known in the External network, it is in used in the Internal network only.
+</p>
+
+<table border="1">
+<caption>Internal network</caption>
+<tbody align="left">
+<tr><th>IP addresses</th><th>192.168.92.0/24</th></tr>
+<tr><th>Default gateway</th><th>192.168.92.2</th></tr>
+<tr><th>DNS server</th><th>192.168.92.3</th></tr>
+<tr><th>Domain</th><th>test3.element-it.com</th></tr>
+<!--
+<tr><th></th><th></th></tr>
+-->
+</tbody>
+</table>
+
+<table border="1">
+<caption>External network</caption>
+<tbody align="left">
+<tr><th>IP addresses</th><th>192.168.1.0/24</th></tr>
+<tr><th>Default gateway</th><th>192.168.1.1</th></tr>
+<tr><th>DNS server</th><th>192.168.1.1</th></tr>
+</tbody>
+</table>
+
+<p>The following hosts are located in the Internal network.</p>
+
+<table border="1">
+<caption>win2008svr2</caption>
+<tbody align="left">
+<tr><th>Roles</th><th>Forefront TMG 2010</th></tr>
+<tr><th>Domain</th><th>test3.element-it.com</th></tr>
+<tr><th>Computer name</th><th>win2008svr2</th></tr>
+<tr><th>Operating System</th><th>Windows Server 2008 R2 x64</th></tr>
+<tr><th colspan="2">Network interface 1</th></tr>
+<tr><th>IP address</th><th>192.168.1.23/24</th></tr>
+<tr><th>Default gateway</th><th>192.168.1.1</th></tr>
+<tr><th>DNS server</th><th>192.168.92.3</th></tr>
+<tr><th colspan="2">Network interface 2</th></tr>
+<tr><th>IP address</th><th>192.168.92.2/24</th></tr>
+<tr><th>Default gateway</th><th></th></tr>
+<tr><th>DNS server</th><th>192.168.92.3</th></tr>
+<tr><th></th><th></th></tr>
+<tr><th></th><th></th></tr>
+</tbody>
+</table>
+
+<table border="1">
+<caption>win2008svr3</caption>
+<tbody align="left">
+<tr><th>Roles</th><th>Domain controller, DNS server</th></tr>
+<tr><th>Domain</th><th>test3.element-it.com</th></tr>
+<tr><th>Computer name</th><th>win2008svr3</th></tr>
+<tr><th>Operating System</th><th>Windows Server 2008 R2 x64</th></tr>
+<tr><th colspan="2">Network interface 1</th></tr>
+<tr><th>IP address</th><th>192.168.92.3/24</th></tr>
+<tr><th>Default gateway</th><th>192.168.92.2</th></tr>
+<tr><th>DNS server</th><th>192.168.92.3</th></tr>
+</tbody>
+</table>
+
+<table border="1">
+<caption>win2008svr4</caption>
+<tbody align="left">
+<tr><th>Roles</th><th>Web server (HTTP Commander)</th></tr>
+<tr><th>Domain</th><th>test3.element-it.com</th></tr>
+<tr><th>Computer name</th><th>win2008svr4</th></tr>
+<tr><th>Operating System</th><th>Windows Server 2008 R2 x64</th></tr>
+<tr><th colspan="2">Network interface 1</th></tr>
+<tr><th>IP address</th><th>192.168.92.4/24</th></tr>
+<tr><th>Default gateway</th><th>192.168.92.2</th></tr>
+<tr><th>DNS server</th><th>192.168.92.3</th></tr>
+</tbody>
+</table>
+
+<p>Note. In this example we use a separate server to host HTTP Commander.
+That is not a requirement, you may install the web file manager on the domain controller.
+That may be not the best chose from the security point of view, but you spare one server.
+In this example, we consider the most typical scenario when the Web file manager was allocated an independent server.</p>
+
+<p>From the outside the win2008svr4 server will be accessible under name win2008svr4.test4.element-it.com.
+win2008svr4 name resolves to 192.168.1.23, that is the IP address of 
+the Forefront TMG server in the external network.</p>
+
+<h3 id="config_forefront_tmg">Configuring Forefront TMG</h3>
+<p>For general instructions on publishing a Web site see 
+<a href="http://technet.microsoft.com/en-us/library/cc441462.aspx">Publishing a single Web site or load balancer over HTTP</a> and
+<a href="http://technet.microsoft.com/en-us/library/cc441460.aspx">Publishing a single Web site or load balancer over HTTPS</a>.
+</p>
+<h4 id="forefront_tmg_step1">Step 1. Create Web Listener</h4>
+<p>We demonstrate here the final result of creating a Web Listener.
+You should use the Web Listener Definition Wizard to create the listener
+and then tweak the remainder properties in the properties dialog.</p>
+
+<p>We sum up the most important options here. Refer to the screenshots below for details.
+</p>
+
+<p>
+The Web Listener was named "HttpCommander Listener".
+It is configured to listen on the external interface of the Forefront TMG machine, 
+on standard ports 80 (Http) and 443 (Https).
+Https is not strictly speaking required, but for secure connections it's likely you wish configure it.
+If you need Https support, you should prepare and install a certificate on the Forefront machine.
+The certificate subject name must match the name of the Web Server in the External network, in our case win2008svr4.test4.element-it.com.
+Note, that you may use only one certificate per IP address. 
+If you need to publish more than one server in the Internal network,
+you should prepare Subject Alternative Name certificate that include all required server names. 
+For example, you may need to publish win2008svr5, win2008svr6 servers in your Internal network. 
+Then the certificate must include all these names: win2008svr4.test4.element-it.com, 
+win2008svr5.test4.element-it.com, win2008svr6.test4.element-it.com.</p>
+
+<p>We selected a HTML Form Authentication as client authentication method.
+When a client tries to access the Web file manager it will be presented with a logon form 
+shown on the <a href="#web_logon_form">Web logon form</a> screenshot.
+The client should enter his/her user name and password in the test3.element-it.com domain to authenticate to HTTP Commander.
+</p>
+
+<p>Authentication validation method &mdash; LDAP to Active Directory.
+You must configure an LDAP server set, in our case consisting of only one server &mdash; 
+win2008svr3 domain controller.</p>
+
+<p>HttpCommander listener in toolbox</p>
+<img src="Images/forefront_tmg/Web_Listeners_in_toolbox.png" alt=""/>
+
+<p>Web listener, General tab</p>
+<img src="Images/forefront_tmg/Web_Listeners,_General_tab.png" alt=""/>
+
+<p>Web listener, Networks tab</p>
+<img src="Images/forefront_tmg/Web_Listeners,_Networks_tab.png" alt=""/>
+
+<p>Web listener, Networks tab, External Network Listener IP selection.
+To open the dialog, on the Networks tab, select external network, click Addresses button.</p>
+<img src="Images/forefront_tmg/Web_Listeners,_Networks_tab,_Addresses.png" alt=""/>
+
+<p>Web listener, Connection tab</p>
+<img src="Images/forefront_tmg/Web_Listeners,_Connections_tab.png" alt=""/>
+
+<p>Web listener, Certificate tab</p>
+<img src="Images/forefront_tmg/Web_Listeners,_Certificates_tab.png" alt=""/>
+
+<p>Web listener, Authentication tab</p>
+<img src="Images/forefront_tmg/Web_Listeners,_Authentication_tab.png" alt=""/>
+
+<p>Web listener, Authentication tab, LDAP servers.
+To open the dialog, on the Authentication tab, click "Configure Validation Servers" button.</p>
+<img src="Images/forefront_tmg/Web_Listeners,_Authentication_tab,_Servers.png" alt=""/>
+
+<p>Web listener, Authentication tab, LDAP servers, LDAP server set.
+To open the dialog, on the Authentication tab, click "Configure Validation Servers" button, 
+select "test3.element-it.com set", click Edit button.</p>
+<img src="Images/forefront_tmg/Web_Listeners,_Authentication_tab,_Servers,_Server_set.png" alt=""/>
+
+<p>Web listener, Authentication tab, Advanced options.
+To open the dialog, on the Authentication tab, click Advanced button.</p>
+<img src="Images/forefront_tmg/Web_Listeners,_Authentication_tab,_Advanced_options.png" alt=""/>
+
+<p>Web logon form. You must provide valid credential in test3.element-it.com domain before you can access HTTP Commander application.</p>
+<a name="web_logon_form"></a>
+<img src="Images/forefront_tmg/Web_Logon_form.png" alt=""/>
+
+<h4 id="forefront_tmg_step2">Step 2. Create Web publishing rule</h4>
+<p>We demonstrate here the final result of creating a Web Publishing Rule.
+You should use the Web Publishing Rule Wizard to create the rule
+and then tweak the remainder properties in the properties dialog.</p>
+
+<p>We sum up the most important options here. Refer to the screenshots below for details.
+</p>
+
+<p>The rule was named "HttpCommander on win2008svr4".
+We specified that this rule applies to any source address (Anywhere source on the From tab).
+Another reasonable value for this option is External, that is any address except those allocated for the Internal network. 
+The target server specified on the To tab must be the name of the published server in the Internal network.
+In our example it is win2008svr4.test3.element-it.com.
+That name must resolve to the IP address of the published server,
+if the name is not resolvable, we must provide an alternative resolvable name or 
+an IP address in the second field on the To tab.
+The published server name defines the value of the host header in the HTTP request sent to the published server.
+The server name may be important if you configured a number of Web sites on the Web server, 
+that are bound to specific host names. 
+</p>
+
+<p>On the Listener tab we selected "HttpCommander Listener" that we configured on the previous step.</p>
+
+<p>From the outside our web server will be accessible under name win2008svr4.test4.element-it.com 
+that resolves to the IP address of the public interface of the Forefront TMG machine.
+It's possible that the same server will be available under different names, for example, 
+HttpCommander.test4.element-it.com, win2008svr4 or whatever you like. 
+You need to list all these name on the Public Name tab, or select the option to 
+ignore the host name header (select "This rule applies to": All requests).
+</p>
+
+<p>Authentication delegation &mdash; Basic. 
+The authentication method selected here must match the authentication method configured on the Web server.</p>
+
+<p>Both HTTP and HTTPS protocol may be used to access the Web file manager.
+Note that you need to install a certificate on the web server if HTTPS is in use.</p>
+
+<p>Finally, we selected that only Authenticated users are allowed to access the web server.
+All users is not an option since it allows unauthenticated users inside the network.
+Note, however, that HTTP Commander requires authentication even if you allowed All users in the Web Publishing rule.</p>
+
+<p>Web Publishing rule in Firewall Policy list</p>
+<img src="Images/forefront_tmg/Web_Publishing_rule.png" alt=""/>
+
+<p>Web Publishing rule, General tab</p>
+<img src="Images/forefront_tmg/Web_Publishing_Rule,_General_tab.png" alt=""/>
+
+<p>Web Publishing rule, Action tab</p>
+<img src="Images/forefront_tmg/Web_Publishing_Rule,_Action_tab.png" alt=""/>
+
+<p>Web Publishing rule, From tab</p>
+<img src="Images/forefront_tmg/Web_Publishing_Rule,_From_tab.png" alt=""/>
+
+<p>Web Publishing rule, To tab</p>
+<img src="Images/forefront_tmg/Web_Publishing_Rule,_To_tab.png" alt=""/>
+
+<p>Web Publishing rule, Traffic tab</p>
+<img src="Images/forefront_tmg/Web_Publishing_Rule,_Traffic_tab.png" alt=""/>
+
+<p>Web Publishing rule, Listener tab</p>
+<img src="Images/forefront_tmg/Web_Publishing_Rule,_Listener_tab.png" alt=""/>
+
+<p>Web Publishing rule, Public Name tab</p>
+<img src="Images/forefront_tmg/Web_Publishing_Rule,_Publich_Name_tab.png" alt=""/>
+
+<p>Web Publishing rule, Authentication Delegation tab</p>
+<img src="Images/forefront_tmg/Web_Publishing_Rule,_Authentication_Delegation_tab.png" alt=""/>
+
+<p>Web Publishing rule, Bridging tab</p>
+<img src="Images/forefront_tmg/Web_Publishing_Rule,_Bridging_tab.png" alt=""/>
+
+<p>Web Publishing rule, Users tab</p>
+<img src="Images/forefront_tmg/Web_Publishing_Rule,_Users_tab.png" alt=""/>
+
+<!--
+<p>Web Publishing rule, </p>
+<img src="Images/forefront_tmg/" alt=""/>
+
+-->
+
+<h3 id="config_http_commander">Configuring HTTP Commander</h3>
+<p>We will not reproduce instruction on installing and configuring HTTP Commander 
+on Web server, refer to <a href="win2008.html">Install HTTP Commander on Windows Server 2008</a> for detail.
+Take HTTP Commander Windows authentication version as the basis. 
+Here we describe only settings that differ from the default configuration.
+</p>
+
+<p>Install a certificate on the Web server if you plan to access HTTP Commander over HTTPS protocol.
+The Subject name of the certificate must match the published site name selected in Forefront TMG.</p>
+
+<p>Login to HTTP Commander as administrator from the host in your the Internal network.
+For example, you may use the Web server machine.
+Open Administration panel. On the Settings tab find Active Directory group.
+Change the following options:</p>
+
+<table border="1">
+<thead>
+<tr><th>Setting</th><th>Value</th></tr>
+</thead>
+<tbody align="left">
+<tr><th>ReadWindowsUsersGroupMembership</th><th>true</th></tr>
+<tr><th>UseUniversalWayToReadGroups</th><th>false</th></tr>
+<tr><th>LDAPContainer</th><th>LDAP://win2008svr3.test3.element-it.com</th></tr>
+</tbody>
+</table>
+
+<p>The LDAPContainer setting is assigned URI to win2008svr3 server &mdash; domain controller.
+</p>
+
+</body>
+</html>
+

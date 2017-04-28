@@ -1,0 +1,670 @@
+﻿<!-- saved from url=(0014)about:internet -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Web folders mapping (Windows version)</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <script type="text/javascript" language="javascript">
+        function toggleBlock(id) {
+            if (document.getElementById(id).style.display == 'none') {
+                document.getElementById(id).style.display = 'block';
+            }
+            else {
+                document.getElementById(id).style.display = 'none';
+            }
+        }
+    </script>
+    
+    <table width="100%" cellpadding="0" cellspacing="0">
+        <tr>
+            <td width="320">
+                <table>
+                    <tr>
+                        <td style="vertical-align:top;text-align:left;">
+                            <a target='_blank' href='http://www.element-it.com/asp-net-explorer-browser/online-share/web-file-manager.aspx'><img style='cursor:pointer;' alt="HTTP Commander" src="Images/HCLogo.png" border="0" /></a>
+                        </td>
+                        <td class="green" style="vertical-align:top;text-align:left;padding-top:21px;">
+                            &nbsp;AJS 4.x
+                        </td>
+                    </tr>
+                </table>
+                <span class="gray">Manual</span>
+            </td>
+            <td>
+  <!-- For windows version only. Start --> 
+	<p>
+	<strong>Note!</strong> This Manual is for the <strong>"Windows authentication"</strong> version, 
+	which is designed to work with existing Windows server or Active Directory accounts and Windows authentication. 
+	If you want to create accounts by yourself and store their credentials in your own HTTP Commander XML database, 
+	you need to download the <a target="_blank" href="http://www.element-it.com/downloadfile.aspx?type=st">"Forms authentication" version</a>!
+	This Manual is for the Windows authentication version only!
+	</p>
+	<!-- For windows version only. End --> 
+	
+ 
+            </td>
+            <td align="char" width="230">
+                <img alt="" src="Images/world.jpg" align="middle" hspace="5" style="vertical-align:top;padding-top:1px;" /><b><a target="_blank" title="web file manager" href="http://www.element-it.com/asp-net-explorer-browser/online-share/web-file-manager.aspx">Web file manager</a></b><br />
+                <img alt="" src="Images/support.png" width="16" height="16" align="middle" hspace="5" style="vertical-align:top;padding-top:1px;" /><b><a
+                    href="onlinesupport.html" target="main">Free Installation assistance</a></b><br />
+                <img alt="" src="Images/help.png" align="middle" width="16" height="16" hspace="5" style="vertical-align:top;padding-top:1px;" /><b><a
+                    href="index.html" title="Manual Home page" target="_blank">Manual Home page</a></b><br />
+            </td>
+        </tr>
+    </table>
+    
+    <p class="topic">
+        <a id="mappings">Web folders mapping</a>
+    </p>
+
+<img hspace="5" align="left" border="0" src="Images/webdavsmall.png" style="width:286px;height:200px;padding-right:10px;" />
+
+<p>Web folder mapping allows users to map web folder to the file system on local computer (WebDav). Users may see on a local computer and work with the same folders that they see in HTTP Commander interface with the same rights. In fact the work with files takes place online in a remote folder on server, so Internet access is necessary. All the changes made by a user apply to the files on server at the very same moment. </p>
+<p>Advantages of web folder:</p>
+<ul>
+	<li>All Windows, Mac, Ubuntu and some mobile OS allow users  to map web folder</li>
+	<li>Interface and work with files is more usual for users than web interface. The language set in local OS is used. </li>
+	<li>No need to launch browser and wait when the JavaScript interface will be downloaded. </li>
+	<li>Except main operations with files (creation, copy), a user may download and upload a plenty of folders/files using drag-n-drop function. </li>
+	<li>It is possible to open files for editing in MS Office and OpenOffice, Windows WordPad, Paint and Notepad (they support work with  WebDav)</li>
+</ul>
+Disadvantages of web folder:
+<ul>
+<li>Absence of such functions as  zip/unzip, search, google docs viewer, etc.</li>
+</ul>
+<h3 id="webdavconfig">Configuring web folder mapping on Web Server side</h3>
+<ul>
+    <li>
+        In the <strong>Web.config</strong> file (at root folder (HTCOMNET) of HTTP Commander), add the
+        <strong>FileWebDavModule</strong> module (if it is absent):<br />
+        <pre>
+&lt;configuration&gt;
+    ...
+    &lt;system.web&gt;
+        ...
+        &lt;httpModules&gt;
+            ...
+            <strong>&lt;add name="FileWebDavModule" type="HttpCommander.FileWebDAVServer.FileWebDavModule, FileWebDAVServer" /&gt;</strong>
+            ...
+        &lt;/httpModules&gt;
+        ...
+    &lt;/system.web&gt;
+    ...
+    &lt;system.webServer&gt;
+        ...
+        &lt;modules <strong>runAllManagedModulesForAllRequests="true"</strong>&gt;
+            <strong>&lt;remove name="FileWebDavModule" /&gt;
+            &lt;remove name="WebDAVModule" /&gt;
+            ...
+            &lt;add name="FileWebDavModule" type="HttpCommander.FileWebDAVServer.FileWebDavModule, FileWebDAVServer" preCondition="integratedMode" /&gt;</strong>
+            ...
+        &lt;/modules&gt;
+        ...
+    &lt;/system.webServer&gt;
+    ...
+&lt;/configuration&gt;
+        </pre>
+    </li>
+  <li><p>Turning off ASP.NET URL authorization on WebDav folder.</p>
+  <p>Make sure the following section is present in application's Web.config file.</p>
+<pre>
+  &lt;location path="hcwebdav"&gt;
+    &lt;system.web&gt;
+      &lt;authorization&gt;
+        &lt;allow users="*" /&gt;
+      &lt;/authorization&gt;
+    &lt;/system.web&gt;
+  &lt;/location&gt;
+</pre>
+    <p>
+    (Path attribute must match <a href="webconfigsetup.html#IdentifierWebDav">IdentifierWebDav</a> parameter.)
+    </p>
+  </li>
+  <li>For IIS 6:
+      <ul>
+          <!-- For windows version only. Start -->
+          <li id="anonymwebdaviis6">
+              Configuring anonymous IIS authentication on WebDav folder.
+              <br /> This step is required mainly because of denied override by default for authentication section of application configuration.
+              Therefore we can't set different authentication settings for sub-folders in application.
+              (For Windows <a href="webconfigsetup.html#AuthMode">HTTP Commander Authentication mode</a>.)
+              <ul>
+                  <li>
+                      Create "<b>hcwebdav</b>" folder in the application folder<sup><a href="#note1">1</a></sup>.
+                      (Folder name must match <a href="webconfigsetup.html#IdentifierWebDav">IdentifierWebDav</a> parameter.)
+
+                  </li>
+                  <li>Open IIS Manager.</li>
+                  <li>
+                      Expand <b>"Web Sites"</b>, <b>"Default web site"</b>, <b>"HTCOMNET"</b>.
+                  </li>
+                  <li>
+                      Right-click the "<b>hcwebdav</b>" folder in the tree and select <b>"Properties"</b> in the context menu.
+                  </li>
+                  <li>
+                      In the properties dialog, open <b>Directory security</b> tab,
+                      click Edit button in <b>Authentication and access control</b> group.
+                  </li>
+                  <li>
+                      Check <b>Enable anonymous access</b> and uncheck all other boxes
+                      on the <b>Authentication method</b> dialog.
+                  </li>
+                  <li>
+                      Click OK button on the <b>Authentication method</b> dialog,
+                      then OK button on the Properties dialog.
+                  </li>
+                  <li>
+                      Remove <b>"hcwebdav"</b> folder.<br />
+                      Authentication settings configured for that folder now stored in applicationHost.config file.
+                      That is exactly what we are looking for and "hcwebdav" folder can be safely removed (to avoid conflict with WebDav module).
+                  </li>
+              </ul>
+          </li>
+
+      </ul>            
+	</li>
+	<!-- For windows version only. End --> 
+	<li><b>Add "Wildcard application maps" in IIS</b>: 
+      <ul>
+        <li>Open <b>IIS console</b>: <b>Control panel</b>-&gt;<b>Administrative tools</b>-&gt;<BR>
+        <b>Internet Information   Services</b>-&gt;Expand <b>"Web Sites"</b> and then <b>"Default web site"</b></li>
+        <li>Right-click the "HTCOMNET"   folder and select <b>"Properties"</b> in the context menu.<BR>
+        In the HTCOMNET properties   dialog box, open <b>"Directory " tab</b> and click  <strong>Configuration</strong> button.<br />
+        In the new dialog box click <b>&quot;Insert&quot;</b> button at the <b>&quot;Wildcard application maps&quot;</b> list.<br />
+        Insert a path to the <b>"%windir%\Microsoft.NET\Framework\v4.0.30319\aspnet_isapi.dll" </b> and uncheck  the <b>"Verify that file Exists"</b>, click <b>Ok</b>.
+
+		<br/>
+	<a target="_blank" href="Images/maping.png" onClick="toggleBlock('maping'); return false;" class="imglink">Screenshot</a>
+      <div id="maping" style="display: none;">
+        <p class="screenshot">
+            &nbsp;<img src="Images/maping.png" style="width: 452px; height: 456px" /></p>
+      </div>
+        </li>
+	    </ul>
+    </li>
+	<li><b>Make sure that IIS built-in WebDav is prohibited</b>: 
+      <ul>
+        <li>Open <b>IIS console</b>: <b>Control panel</b>-&gt;<b>Administrative tools</b>-&gt;<BR>
+        <b>Internet Information   Services</b>-&gt; <b>"Web service extension"</b></li>
+        <li>Check that  WebDav extension is prohibited.
+        
+      <br/>
+	<a target="_blank" href="Images/disablewebdav.png" onClick="toggleBlock('disablewebdav'); return false;" class="imglink">Screenshot</a>
+      <div id="disablewebdav" style="display: none;">
+        <p class="screenshot">
+            &nbsp;<img src="Images/disablewebdav.png" style="width: 500px; height: 338px" /></p>
+      </div>
+        </li>
+    </ul></li>
+	</ul>	 
+  </li>
+	 <li>
+	For IIS 7, 7.5, 8, 8.5 and 10.
+	<ul>
+	<!-- For windows version only. Start --> 
+	<li id="anonymwebdaviis7">Configuring anonymous IIS authentication on WebDav folder. 
+	(For Windows <a href="webconfigsetup.html#AuthMode">HTTP Commander Authentication mode</a>.)
+	    <ul>
+	        <li>Create "<b>hcwebdav</b>" folder in the application folder<sup><a href="#note1">1</a></sup>. 
+	        (Folder name must match <a href="webconfigsetup.html#IdentifierWebDav">IdentifierWebDav</a> parameter.) 
+	        </li>
+	        <li>Open IIS Manager.</li>
+            <li>Expand <b>"Web Sites"</b>, <b>"Default web site"</b>, <b>"HTCOMNET"</b>.
+            </li>
+            
+            <li>
+            Right-click the "HTCOMNET" virtual folder and select <b>"Switch to content view"</b> in the context menu. 
+            In the list of files in middle panel select  <b>"hcwebdav"</b> folder and click <b>"Switch to features view" </b>option. 
+            Now you may change settings pertaining to <b>"hcwebdav"</b> folder. 
+            Click <b>"Authentication"</b> feature on the central pane.
+	        </li>
+	        
+	        <li>Enable <b>"Anonymous Authentication"</b> and disable all other items. 
+	        </li>
+	        
+	        <li>Remove <b>"hcwebdav"</b> folder.</li>
+	    </ul>
+	</li>
+	<!-- For windows version only. End --> 
+	<li>If the application pool is running in Classic mode (Integrated mode is default), 
+	  you should add the following Handler mappings:
+	   <ul>
+        <li>Open <b>IIS console</b>: <b>Control panel</b>-&gt;<b>Administrative tools</b>-&gt;<BR>
+        <b>Internet Information   Services</b>-&gt;Expand <b>&quot;Sites&quot;</b> and then <b>&quot;Default web site&quot;</b> and <b>&quot;HTCOMNET&quot;</b> </li>
+        <li>In the right panel,  find <strong>&quot;Handler mappings &quot;</strong> and open it. </li>
+		<li> In the Handler mappings table, click on the <b>"Add Wildcard Script Map..."</b> in the <b>"Actions"</b> panel and add a handler to the<br />
+		<b>"%windir%\Microsoft.NET\Framework<em>BITNESS</em>\<em>FRAMEWORK_VERSION</em>\aspnet_isapi.dll"</b> file,<br />
+		where <b><em>BITNESS</em></b> - <b>x64</b>, if for applications pool <b>"Enable 32-Bit Application"</b> is False in advanced settings, otherwise empty string;<br />
+		<b><em>FRAMEWORK_VERSION</em></b> - <b>v4.0.30319</b>, depending on that what .NET Framework version is used for applications pool<br />
+		<a target="_blank" href="Images/iis7isapi.png" onClick="toggleBlock('iis7isapi'); return false;" class="imglink">Screenshot</a>
+      <div id="iis7isapi" style="display: none;">
+        <p class="screenshot">
+            &nbsp;<img src="Images/iis7isapi.png" style="width: 724px; height: 571px" /></p>
+      </div>
+        </li>
+    </ul>
+	 </li>
+	 <li><b>Make sure that IIS built-in WebDav is prohibited or not installed</b>: 
+      <ul>
+        <li>Open <b>IIS console</b>: <b>Control panel</b>-&gt;<b>Administrative tools</b>-&gt;<BR>
+        <b>Internet Information   Services</b>-&gt;Expand <b>&quot;Sites&quot;</b> and then <b>&quot;Default web site&quot;</b></li>
+        <li>In the right panel, find <strong>&quot;WebDav Authorizing rules&quot;</strong>, open it and disable.
+        It's OK if you cannot find the <strong>&quot;WebDav Authorizing rules&quot;</strong> feature.
+        That means that built-it WebDav is not installed, you may skip this step.<br/>
+        <a target="_blank" href="Images/iis7disablewebdav.png" onClick="toggleBlock('iis7disablewebdav'); return false;" class="imglink">Screenshot</a>
+      <div id="iis7disablewebdav" style="display: none;">
+        <p class="screenshot">
+            &nbsp;<img src="Images/iis7disablewebdav.png" style="width: 495px; height: 481px" /></p>
+      </div>
+        </li>
+    </ul></li>
+	 </ul>
+	 </li>
+</ul>
+
+<span  id="allowampaspnet2">Enabling special characters in WebDAV item names:</span>
+<ul>
+    <li>To allow '<b>+</b>' for ASP.NET 2.0, 4.0 in IIS 7, 8, 8.1, 10 set the 
+        <b>allowDoubleEscaping=&quot;true&quot;</b> in <b>configuration\system.webServer\security\requestFiltering</b>
+        section of your <b>web.config file</b>.
+    </li>
+    <li>
+        To allow '<b>&amp;</b>' and '<b>%</b>' for ASP.NET 2.0, IIS 7, 8, 8.1, 10 add key
+        <b>&quot;VerificationCompatibility&quot;=dword:00000001</b> into registry on path
+        <b>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ASP.NET</b> (or download and apply file <a href="https://www.element-it.com/download/httpcommander/AllowAmpInAspNet.reg">AllowAmpInAspNet.reg</a>).<br />
+        If you run the application pool under 32-bit mode on a x64 Windows Server 2003, 2008, 2012 or 2016, also add key 
+        <b>&quot;VerificationCompatibility&quot;=dword:00000001</b> into registry on path
+        <b>HKEY_LOCAL_MACHINE\SOFTWARE\<i>Wow6432Node</i>\Microsoft\ASP.NET</b>.<br />
+        This change of the register also will allow to use long url-addresses when opening in MS Office.
+    </li>
+    <li>
+        To allow '<b>&amp;</b>' and '<b>%</b>' for ASP.NET 4.0 set the <b>requestPathInvalidCharacters=&quot;&quot;</b> 
+        in <b>configuration\system.web\httpRuntime</b> section of your <b>web.config file</b>. 
+    </li>
+    <li>
+        To allow trailing dots ('<b>.</b>') for ASP.NET 4.0 set the <b>relaxedUrlToFileSystemMapping=&quot;true&quot;</b>
+        in <b>configuration\system.web\httpRuntime</b> section of your web.config file.
+    </li>
+    <li>
+        <b>Note!</b> Microsoft Windows Shell (Mini-Redirector) client does not support '<b>%</b>' in WebDAV item names.
+        You cannot name your items like &quot;Demo%Folder&quot;.
+    </li>
+</ul>
+
+<h3>Using web folders on client side</h3>
+    <ul>
+        <li>
+            <p>A URL of a web folders looks like <b>"http://www.yoursite.com/HTCOMNET/hcwebdav/"</b> or 
+            <b>"http://www.yoursite.com/HTCOMNET/hcwebdav/<i>0/</i>"</b>.
+            "www.yoursite.com/HTCOMNET" should be replaced with real path.
+            "hcwebdav" is an artificial path component serving to identify WebDav requests. 
+            This is not a real folder in the application root folder! 
+            Don't remove this component from URL!
+            You may change this suffix with the <strong>IdentifierWebDav</strong> HTTP Commander setting (hidden by default).
+            If for the <a href="webconfigsetup.html#AnonymousEditingOffice">AnonymousEditingOffice</a> parameter indicated value of <i>true</i>,
+            is mandatory presence of a suffix "0"&nbsp;&mdash; "0" path component classifies this WebDav URL as normal WebDav URL requiring authentication.
+            If you need to designate a specific folder, then append the folder path after /hcwebdav/ or /hcwebdav/0/ suffix,
+            for example, <b>&quot;http://www.yoursite.com/HTCOMNET/hcwebdav/foldername&quot;</b> or <b>&quot;http://www.yoursite.com/HTCOMNET/hcwebdav/0/foldername&quot;</b>.
+            </p>
+            <p>Anonymous WebDav URLs include "1" path component. For example, 
+            <b>"http://www.yoursite.com/HTCOMNET/hcwebdav/1/7361fc3a/"</b>.
+            These WebDav URLs resemble public links in that they do not require authentication.
+            The fragment following "1" is a link key authorizing access to the file/folder.<br />
+            See parameter <a href="webconfigsetup.html#AnonymousEditingOffice">AnonymousEditingOffice</a>.
+            </p>
+        </li>
+	
+        <li>
+        <b>Note!</b> By default, you cannot map web folders on server versions of
+        Microsoft Windows Operating System 
+        like Windows Servers 2003, 2008, 2012 and 2016! 
+        By default, WebDav client is not installed on these OSs.
+        See <a href="faq.html#maperror">related FAQ question</a>.
+        </li>
+        
+        <li>How to map folder:
+            <ul>
+                <li><p>For Windows XP. (This approach of mapping folders uses <b>WebDAV Mini Redirector</b> 
+                    WebDAV client of Windows XP. In http requests it identifies itself as
+                    "User-Agent: Microsoft-WebDAV-MiniRedir/5.1.2600".)
+                    Open Windows Explorer,
+                    click <b>Tools</b> &gt; <b>Map Network Drive</b>, 
+                    type URL to the <b>Folder</b> field, click <b>Finish</b>.
+                    </p>
+                    <a target="_blank" onclick="toggleBlock('WebDavWinXP'); return false;"
+                        class="imglink">Screenshot</a>
+                    <div id="WebDavWinXP" style="display: none;">
+                        <p class="screenshot">
+                            &nbsp;<img src="Images/WebDavWinXPWindowsExplorer.png"/>
+                            &nbsp;<img src="Images/WebDavWinXPMapNetworkDrive_2.png"/>
+                        </p>
+                    </div>
+                </li>
+                
+                <li><p>For Windows XP. Open Windows Explorer,
+                    click <b>Tools</b> &gt; <b>Map Network Drive</b>.
+                    <b>Map Network Drive </b> dialog appears.
+                    Click <b>"Sign up for online storage or connect to a network server"</b> link.
+                    <b>Add Network Place Wizard</b> opens.
+                    Follow instructions for <a href="#WebDavWinXPAddNetworkPlaceWizard">Add Network Place Wizard</a>.
+                    </p>
+                    <a target="_blank" onclick="toggleBlock('WebDavWinXP2'); return false;"
+                        class="imglink">Screenshot</a>
+                    <div id="WebDavWinXP2" style="display: none;">
+                        <p class="screenshot">
+                            &nbsp;<img src="Images/WebDavWinXPWindowsExplorer.png"/>
+                            &nbsp;<img src="Images/WebDavWinXPMapNetworkDrive.png"/>
+                        </p>
+                    </div>
+                </li>
+                
+                <li><p>For Windows XP. Open Windows Explorer, open My Network Places.
+                    Click <b>Add a Network Place</b> link in the <b>Network Tasks</b> group on the left sidebar.
+                    <b>Add Network Place Wizard</b> opens.
+                    Follow instructions for <a href="#WebDavWinXPAddNetworkPlaceWizard">Add Network Place Wizard</a>.
+                    </p>
+                    <a target="_blank" onclick="toggleBlock('WebDavWinXP3'); return false;"
+                        class="imglink">Screenshot</a>
+                    <div id="WebDavWinXP3" style="display: none;">
+                        <p class="screenshot">
+                            &nbsp;<img src="Images/WebDavWinXPWindowsExplorer_2.png"/>
+                        </p>
+                    </div>
+                </li>
+                
+                <li><p>For Windows XP with <b><a id="WebDavWinXPAddNetworkPlaceWizard"/>Add Network Place Wizard</b>.
+                    (This approach of mapping folders uses <b>Web Folders</b> WebDAV client of Windows XP.
+                    In http requests it identifies itself as "User-Agent: Microsoft Data Access Internet Publishing Provider DAV".)
+                    Open Add Network Place Wizard.
+                    Click <b>Next</b> twice, specify URL in the <b>Internet or network address</b> field.
+                    Specify port number along the server name (80 for http, 443 for https).
+                    For example, the URL may look like: http://demo.element-it.com:80/examples/demowindows/hcwebdav/,
+                    http://demo.element-it.com:80/examples/demowindows/hcwebdav/0/, https://demo.element-it.com:443/examples/demowindows/hcwebdav/
+                    or https://demo.element-it.com:443/examples/demowindows/hcwebdav/0/.
+                    Click <b>Next</b>. Authentication dialog appears. Enter valid credentials.
+                    Click <b>Finish</b>. New Windows Explorer window opens.
+                    Authentication dialog appears again (even if you checked "Remember my password" checkbox before). Enter credentials one more time.
+                    Windows Explorer window shows content of the web folder.
+                    </p>
+                    <a target="_blank" onclick="toggleBlock('WebDavWinXP4'); return false;"
+                        class="imglink">Screenshot</a>
+                    <div id="WebDavWinXP4" style="display: none;">
+                        <p class="screenshot">
+                            &nbsp;<img src="Images/WebDavWinXPAddNetworkLocation1.png"/>
+                            &nbsp;<img src="Images/WebDavWinXPAddNetworkLocation2.png"/>
+                            &nbsp;<img src="Images/WebDavWinXPAddNetworkLocation3.png"/>
+                            &nbsp;<img src="Images/WebDavWinXPAddNetworkLocation4.png"/>
+                            &nbsp;<img src="Images/WebDavWinXPAuthDialog.png"/>
+                            &nbsp;<img src="Images/WebDavWinXPAddNetworkLocation5.png"/>
+                            &nbsp;<img src="Images/WebDavWinXPAuthDialog.png"/>
+                            &nbsp;<img src="Images/WebDavWinXPOpenFolder.png"/>
+                        </p>
+                    </div>
+                </li>
+                
+                <li><p>For Windows XP with Internet Explorer 7 and above.
+                    Open Internet Explorer, Main menu &gt; <b>File</b> &gt; <b>Open...</b>.
+                    In the Open dialog specify URL of the WebDav folder and 
+                    check "<b>Open as Web Folder</b>" checkbox.
+                    Specify port number along the server name (80 for http, 443 for https).
+                    For example, the URL may look like: http://demo.element-it.com:80/examples/demowindows/hcwebdav/,
+                    http://demo.element-it.com:80/examples/demowindows/hcwebdav/0/, https://demo.element-it.com:443/examples/demowindows/hcwebdav/
+                    or https://demo.element-it.com:443/examples/demowindows/hcwebdav/0/.
+                    Click <b>OK</b>.
+                    </p>
+                    <a target="_blank" onclick="toggleBlock('WebDavWinXP5'); return false;"
+                        class="imglink">Screenshot</a>
+                    <div id="WebDavWinXP5" style="display: none;">
+                        <p class="screenshot">
+                            &nbsp;<img src="Images/WebDavWinXPIE.png"/>
+                            &nbsp;<img src="Images/WebDavWinXPIEOpenDialog.png"/>
+                            &nbsp;<img src="Images/WebDavWinXPIEContent.png"/>
+                        </p>
+                    </div>
+                </li>
+                
+                <li><p>For Windows Vista, 7, 8, 8.1, 10. Open Windows Explorer, 
+                    select <strong>Computer</strong> on the left pane, 
+                    click <strong>Map Network Drive</strong> on the tool bar. In the
+                    new dialog open the <b>"Connect to a Web site that you can use to store your documents
+                    and pictures"</b> link at the bottom, click <b>&quot;Next&quot;</b> button twice.
+                    Insert the link of the web folder in the <b>"Internet or Network address"</b> field,
+                    click <b>"Next"</b>.</p>
+                    <a target="_blank" onclick="toggleBlock('WebdavWinVista'); return false;"
+                        class="imglink">Screenshot</a>
+                    <div id="WebdavWinVista" style="display: none;">
+                        <p class="screenshot">
+                            &nbsp;<img src="Images/WebDavWinVistaWindowsExplorer.png"/>
+                            &nbsp;<img src="Images/WebDavWinVistaMapNetworkDrive.png"/>
+                            &nbsp;<img src="Images/WebDavWinVistaAddNetworkLocation1.png"/>
+                            &nbsp;<img src="Images/WebDavWinVistaAddNetworkLocation2.png"/>
+                            &nbsp;<img src="Images/WebDavWinVistaAddNetworkLocation3.png"/>
+                            &nbsp;<img src="Images/WebDavWinVistaAddNetworkLocation4.png"/>
+                            &nbsp;<img src="Images/WebDavWinVistaAddNetworkLocation5.png"/>
+                            &nbsp;<img src="Images/WebDavWinVistaAddNetworkLocation6.png"/>
+                        </p>
+                    </div>
+                </li>
+                
+                <li>For Windows Vista, 7, 8, 8.1, 10. Open Windows Explorer, select <strong>Computer</strong> on the
+                    left panel, click <strong>Map Network Drive</strong> on the tool bar. <strong>Map Network
+                    Drive</strong> dialog appears. Select a drive letter in the drive drop-down
+                    list. Copy the link to the <strong>Folder</strong> field. Click Finish button.<br />
+                    <a target="_blank" onclick="toggleBlock('map_network_drive'); return false;"
+                        class="imglink">Screenshot</a>
+                    <div id="map_network_drive" style="display: none;">
+                        <p class="screenshot">
+                            &nbsp;<img src="Images/WebDavWinVistaWindowsExplorer.png"/>
+                            &nbsp;<img src="Images/WebDavWinVistaMapNetworkDrive_2.png"/>
+                        </p>
+                    </div>
+                </li>
+                
+                <li><p>For Windows XP, Server 2003, Vista.
+                    <strong>Note!</strong> You should install <a target="_blank" href="https://support.microsoft.com/en-us/kb/907306">
+                    Microsoft Web folders update</a> to
+                    be able to use mapping and Office edit features. In some cases WebDav don't works
+                    without this fix installed. 
+                    <a target="_blank" href="http://www.greenbytes.de/tech/webdav/webfolder-client-list.html">
+                        Complete list of fixes.</a>
+                    </p>
+                </li>
+                
+                <li>For Windows using command line. Execute the following command: <strong>net&nbsp;use&nbsp;"*"&nbsp;"<em>http://server-name/link/to/webdav/folder</em>"&nbsp;/savecred&nbsp;/persistent:yes</strong></li>
+                    
+                <li>For MacOS: In the &quot;Finder&quot; menu, open <b>Go-&gt;Connect to Server</b>,
+                    insert the link of the web folder in the <b>&quot;Server address&quot;</b> field,
+                    click <b>&quot;Connect&quot;</b>, in the new dialog select <b>"Guest" or "Registered
+                        user"</b> (for Windows authentication), click <b>&quot;Connect&quot;</b>.
+                </li>
+                
+                <li>For Ubuntu: Open <b>Go-&gt;Location...</b> Copy the link of the web folder to the
+                    location field and repace &quot;http://&quot; with &quot;dav://&quot; or &quot;https://&quot;
+                    with &quot;davs://&quot;. </li>
+            </ul>	  
+	    </li>
+	    <li>Where to find mapped folders:
+	        <ul>
+	            <li>For Windows XP. Open <b>My Network Places</b> in Windows Explorer.
+	                <br/>
+                    <a target="_blank" onclick="toggleBlock('WebDavWinXPMyNetworkPlaces'); return false;"
+                        class="imglink">Screenshot</a>
+                    <div id="WebDavWinXPMyNetworkPlaces" style="display: none;">
+                        <p class="screenshot">
+                            &nbsp;<img src="Images/WebDavWinXPMyNetworkPlaces.png"/>
+                        </p>
+                    </div>
+	            </li>
+	        </ul>
+	    </li>
+	    <li><p>WebDav over http and https protocols.</p>
+	    
+	    <!-- Tested on Windows 7 Ultimate x64 SP1 -->
+	    <p>Windows Vista, 7, 8, 8.1, 10 WebDav client refuses to authenticate over http protocol
+	    when WebDav server uses basic authentication method. You have to use https protocol.</p>
+	    <p><b>WebDAV Mini Redirector</b> WebDAV client of Windows XP refuse to authenticate over http protocol
+	    when WebDAV server uses basic authentication method. Authentication dialog shows, 
+	    but client does not send credentials to the server, requests are not sent at all.</p>
+	    <p>
+	    WebDav server of HTTP Commander uses Basic authentication in the following cases:</p>
+	    <ul>
+            <li>when HTTP Commander authentication mode is Windows 
+            and IIS authentication is Basic (vs. Windows);</li>
+            <li>when HTTP Commander authentication mode is Forms, Forms with Windows users, or
+            Novell EDirectory</li>
+	    </ul>
+	    
+	    <p>Symptoms:</p>
+	    <ul>
+            <li>
+            <p>
+            In Windows 7,
+            Windows Explorer asks for user credentials three times, then fails with an error message stating 
+            it is unable to access the folder.
+            <br/>
+            <a target="_blank" href="Images/WebdavWin7Http.png" onclick="toggleBlock('WebdavWin7Http'); return false;"
+                class="imglink">Screenshot</a>
+            <div id="WebdavWin7Http" style="display: none;">
+                <p class="screenshot">
+                    &nbsp;<img src="Images/WebdavWin7Http.png" style="width: 534px; height: 235px" />
+                </p>
+            </div>
+            </p>
+            </li>
+            
+            <li>
+            <p>
+            In Windows Vista, Windows Explorer does not ask for credentials, 
+            it displays an invalid folder error message a number of seconds after
+            you clicked the Next button.
+            </p>
+            <a target="_blank" href="Images/WebDavWinVistaHttpError.png" onclick="toggleBlock('WebdavWinVistaHttp'); return false;"
+                class="imglink">Screenshot</a>
+            <div id="WebdavWinVistaHttp" style="display: none;">
+                <p class="screenshot">
+                    &nbsp;<img src="Images/WebDavWinVistaHttpError.png"/>
+                </p>
+            </div>
+            </li>
+        </ul>
+        
+        <p id="withoutssl">To enable authentication over http protocol, see 
+        <a target="_blank" href="http://support.microsoft.com/kb/841215">Error message when you try to connect to a Windows SharePoint document library...</a> 
+        &gt; Workaround &gt; configuring registry.
+        </p>
+        
+            <ul>
+            <li><p>For Windows XP.
+                You need to assign 1 to HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WebClient\Parameters\UseBasicAuth
+                registry value. Value type is DWORD.
+                For changes to take effect, issue the following commands:
+                <pre>
+NET STOP MRXDAV
+NET START WEBCLIENT
+                </pre>
+                </p>
+            </li>
+            <li><p>For Windows Vista, 7, 8, 8.1, 10. 
+                You need to assign 2 to HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WebClient\Parameters\BasicAuthLevel
+                registry value.  Value type is DWORD.
+                For changes to take effect, restart the WebClient service or reboot the machine. 
+                </p>
+            </li>
+            </ul>
+	    </li>
+	    <li><p>https protocol and server certificate</p>
+	        <p>To configure https protocol, the web server should have a valid SSL certificate.
+	        You may install self-signed certificate to the server as described in
+	        <a href="faq.html#ssl">How can I use HTTP Commander with SSL?</a>,
+	        deploy custom certification authority in your corporate network,
+	        or obtain a certificate from one of the widely known authorities.
+	        Note that a self-signed certificate is untrusted by definition, unless you've installed it
+	        to the "Trusted Root Certification Authorities" store on each client PC.
+	        Connecting to WebDav server over https with invalid certificate is tricky business.
+	        Windows Explorer at first refuses to establish the connection at all,
+	        it keeps asking for user credentials eventually failing with confusing error message,
+	        stating that the web folder is invalid.
+	        The other time Windows Explorer connects to a web folder at one dash.
+	        </p>
+	        <p>We recommend you to obtain a real certificate from well known authority,
+	        or deploy Active Directory Certificate Services if all WebDav clients are
+	        bound to internal network.
+	        </p>
+	    </li>
+	    <li>WebDAV on Windows 7 x64 operates slowly. <b>Cause:</b> the WebDAV client sends a lot of requests to the Web Server and
+	    introduces an artificial delay between requests.
+	    </li>
+	    <!--
+	    <li><p><b>Problem: You cannot open some files from Web folder.</b>
+	    The ability to open files depend on the program assigned to this particular type of file.
+	    Normally the association is based on file extension.
+	    To successfully open a file from Web folder, the target program must support WebDAV protocol.
+	    If the program does not support WebDAV protocol, you see an error message stating that the file cannot be opened.
+	    </p>
+	    </li>
+	    <li><p><b>Problem: You see an authentication dialog when opening a file in Web folder.</b>
+	    That is normal behaviour with Web folders. The program assigned to the 
+	    file type you open does not inherit credentials from Windows Explorer (or other WebDAV client you are using)
+	    and it has to ask the user for credentials. 
+	    The program remembers credentials to the target folder for the time the program is 
+	    running if you check the "remember my credentials" checkbox. 
+	    You'll be asked for credentials to the file every time the program
+	    performs any operation with it if you do not check the "remember my credentials" checkbox.
+	    If you close the program and try to open another file, you are asked for credentials again.
+	    If you open another file without closing the program, you are normally not asked for credentials
+	    since the program is still running and holds credentials to the Web folder.
+	    <br/>
+        <a target="_blank" href="Images/WebDavAuthenticationDialog.png" onclick="toggleBlock('WebDavAuthenticationDialog'); return false;"
+            class="imglink">Screenshot</a>
+        <div id="WebDavAuthenticationDialog" style="display: none;">
+            <p class="screenshot">
+                &nbsp;<img src="Images/WebDavAuthenticationDialog.png" />
+            </p>
+        </div>
+	    </p>
+	    </li>
+	    -->
+	    <li>If you experience problems with mapping web folders on your server, 
+	        try to map a folder on element-it demo server:
+	        <strong>https://demo.element-it.com/examples/demowindows/hcwebdav/</strong> 
+	        (user: demo, password: demo).</li>
+	    <li>
+	        If you try to download a file that is larger than 50000000 bytes from a Web folder on a Windows OS,
+	        you might receive the following error message.<br />
+	        <a target="_blank" href="Images/SizeErrorWin7.png" onclick="toggleBlock('SizeErrorWin7'); return false;"
+                class="imglink">Screenshot</a>
+            <div id="SizeErrorWin7" style="display: none;">
+                <p class="screenshot">
+                    &nbsp;<img alt="" src="Images/SizeErrorWin7.png" style="width:448px;height:338px" />
+                </p>
+            </div>
+            <br />
+            For fix this problem add (or change) <b>&quot;FileSizeLimitInBytes&quot;=dword:4294967295</b> (4Gb) key into registry on path
+            <b>HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WebClient\Parameters</b> and restart OS (or WebClient service).<br />
+            For more info see <a target="_blank" href="http://support.microsoft.com/kb/900900/en-us">KB900900</a>.
+	    </li>
+        
+
+        <li>
+            See also additional tuning properties in the register: <a href="http://www.iis.net/learn/publish/using-webdav/using-the-webdav-redirector#004" target="_blank">WebDAV Redirector Registry Settings</a>.
+        </li>
+</ul>
+
+<hr/>
+
+<ol>
+<li>
+<a name="note1"/>
+<b>"hcwebdav"</b> folder serves the role of configuring anonymous access with IIS Manager.
+It is not required for correct functioning of WebDAV in HTTP Commander.
+On the contrary, IIS may interfere in processing WebDAV requests if this folder exists.
+We recommend to remove this folder after at the end of configuration.
+</li>
+</ol>
+
+</body>
+</html>

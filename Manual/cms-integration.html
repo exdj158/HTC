@@ -1,0 +1,205 @@
+﻿<!-- saved from url=(0014)about:internet -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>CMS integration (Windows version)</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <script type="text/javascript" language="javascript">
+        function toggleBlock(id) {
+            if (document.getElementById(id).style.display == 'none') {
+                document.getElementById(id).style.display = 'block';
+            }
+            else {
+                document.getElementById(id).style.display = 'none';
+            }
+        }
+    </script>
+    
+    <table width="100%" cellpadding="0" cellspacing="0">
+        <tr>
+            <td width="320">
+                <table>
+                    <tr>
+                        <td style="vertical-align:top;text-align:left;">
+                            <a target='_blank' href='http://www.element-it.com/asp-net-explorer-browser/online-share/web-file-manager.aspx'><img style='cursor:pointer;' alt="HTTP Commander" src="Images/HCLogo.png" border="0" /></a>
+                        </td>
+                        <td class="green" style="vertical-align:top;text-align:left;padding-top:21px;">
+                            &nbsp;AJS 4.x
+                        </td>
+                    </tr>
+                </table>
+                <span class="gray">Manual</span>
+            </td>
+             <td>
+  <!-- For windows version only. Start --> 
+	<p>
+	<strong>Note!</strong> This Manual is for the <strong>"Windows authentication"</strong> version, 
+	which is designed to work with existing Windows server or Active Directory accounts and Windows authentication. 
+	If you want to create accounts by yourself and store their credentials in your own HTTP Commander XML database, 
+	you need to download the <a target="_blank" href="http://www.element-it.com/downloadfile.aspx?type=st">"Forms authentication" version</a>!
+	This Manual is for the Windows authentication version only!
+	</p>
+	<!-- For windows version only. End --> 
+	
+ 
+	
+                
+            </td>
+            <td align="char" width="230">
+                <img alt="" src="Images/world.jpg" align="middle" hspace="5" style="vertical-align:top;padding-top:1px;" /><b><a target="_blank" title="web file manager" href="http://www.element-it.com/asp-net-explorer-browser/online-share/web-file-manager.aspx">Web file manager</a></b><br />
+                <img alt="" src="Images/support.png" width="16" height="16" align="middle" hspace="5" style="vertical-align:top;padding-top:1px;" /><b><a
+                    href="onlinesupport.html" target="main">Free Installation assistance</a></b><br />
+                <img alt="" src="Images/help.png" align="middle" width="16" height="16" hspace="5" style="vertical-align:top;padding-top:1px;" /><b><a
+                    href="index.html" title="Manual Home page" target="_blank">Manual Home page</a></b><br />
+            </td>
+        </tr>
+    </table>
+    
+    <p class="topic">
+        <a id="hcadsicomtopic">Integration with Content Management Systems</a>
+    </p>
+<p>HTTP Commander can be configured to use an account database of a CMS for authentication.
+That means that you will be able to use your account in a CMS to log into the HTTP Commander.
+Once logged into a CMS you'll be automatically authenticated in the HTTP Commander,
+provided that you've opened it through a special link in the CMS.
+</p>
+<b>How it works</b>
+<p>When you enter your user name and password into HTTP Commander login form, 
+HTTP Commander sends an Http request with your name and password (or password hash) to an account-check page in the CMS.
+The CMS verifies the data and replies with either &quot;yes&quot; or &quot;no&quot;.
+HTTP Commander reads the response and authenticates you if the response is positive.</p>
+<p>If you are logged into CMS, there is a link to HTTP Commander with embedded information about your account.
+The link includes your user name and password hash. 
+When you follow this link, HTTP Commander receives your account information.
+HTTP Commander sends an Http request back to the CMS to verify data. 
+If verification succeeds, you are logged into HTTP Commander under the account you have in the CMS.</p>
+
+<p>HTTP Commander can be integrated with the following CMSs: <a target="_blank" href="http://drupal.org/">Drupal</a>, 
+<a target="_blank"  href="http://www.joomla.org/">Joomla</a>, <a target="_blank"  href="http://wordpress.org/">WordPress</a>.</p>
+
+<p>In order to integrate HTTP Commander with a CMS you need to 
+1) <a href="#config_htcom">configure HTTP Commander</a> to use a CMS for authentication;
+2) configure the CMS to provide a link to HTTP Commander and verify account information.</p>
+
+<b id="config_htcom">Configuring HTTP Commander</b>
+<p>To use an account database of a CMS for authentication,
+you need to edit the <b>Default.aspx</b> and <b>\App_Code\ExternalCMSIntegration.cs</b> files in the HTTP Commander root directory.</p>
+
+<ol>
+
+
+<li>
+<p>Uncomment {<i>CMS name</i>}URL constant and assign  a correct URL.</p>
+<pre>
+const string {CMS name}URL = "http://win2003-mws/{CMS name}/account-check.php";
+</pre>
+</li>
+
+<li>
+<p>In the Page_Load function uncomments the &quot;automatic logon from CMS&quot; block:</p>
+<pre>
+	// automatic logon from CMS
+	if (Request.QueryString["username"] != null && Request.QueryString["passwordhash"] != null)
+	{
+		string userName = Request.QueryString["username"].ToString();
+		string passwordHash = Request.QueryString["passwordhash"].ToString();
+		//if (ExternalCMSIntegration.ValidateUserPasswordHashDrupal(userName, passwordHash))
+		//if (ExternalCMSIntegration.ValidateUserPasswordHashJoomla(userName, passwordHash))
+		//if (ExternalCMSIntegration.ValidateUserPasswordHashWordPress(userName, passwordHash))
+		{
+			FormsAuthentication.SetAuthCookie(userName, false);
+			RenderMainBody(userName);
+			Log.OnLogin(userName);
+			if (Request.QueryString["ReturnUrl"] != null)
+			{
+			    string ReturnUrl = Request.QueryString["ReturnUrl"];
+			    Response.Redirect(ReturnUrl);
+			}
+			return;
+		}
+	}
+</pre>
+<p>&nbsp;</p>
+</li>
+
+<li>
+<p>In the btnLogin_Click handler, comment the ValidateUser call:</p>
+<pre>
+	bool validated = Utils.AccountsManager.ValidateUser(txtUserName.Text, txtPassword.Text);
+</pre>
+<p>and uncomment:</p>
+<pre>
+	bool validated = ExternalCMSIntegration.ValidateUserPassword{CMS name}(txtUserName.Text, txtPassword.Text);
+</pre>
+</li>
+</ol>
+
+<p><b>Configuring Drupal</b></p>
+<ol>
+<li>Open <strong>CMS-Files </strong> folder inside documentation root. Copy the files from the <strong>drupal</strong> folder into the Drupal root folder.
+The <strong>account-check.php</strong> file should be in the root folder now.</li>
+<li>Open the <strong>sites\all\modules\htcom\htcom.module</strong> file in a text editor 
+and specify the URL to HTTP Commander in the htcom_block function.</li>
+<li>Log into Drupal as administrator.</li>
+<li>Enable HttpCommander module (Administer->Site building->Modules).</li>
+<li>Drag and drop HTTP Commander block on a sidebar (Administer->Site building->Blocks).</li></ol>
+<p>  Now you'll be able to see the link to HTTP Commander on every page having that sidebar.</p>
+<a target="_blank" href="Images/drupal-link.png" onClick="toggleBlock('drupal-link'); return false;" class="imglink">Screenshot</a>  
+  <div id="drupal-link" style="display: none;">
+    <p class="screenshot">
+      &nbsp;<img src="Images/drupal-link.png" style="width: 376px; height: 394px" /></p>
+  </div>
+</li>
+</ol> 
+<!-- Configuring Drupal -->
+
+<p><b>Configuring Joomla</b></p>
+<ol>
+<li>Open <strong>CMS-Files </strong> folder inside documentation root. Copy the files from the <strong>joomla/files</strong> folder into the Joomla root folder.
+The <strong>account-check.php</strong> file should be in the root folder now.</li>
+<li>Open <strong>mod_htcom.zip\mod_htcom\mod_htcom.php</strong> file in a text editor 
+and specify the URL to HTTP Commander.</li>
+<li>Open your Joomla admin area.</li>
+<li>Open Extension Manager (Main menu->Extension->Install/Uninstall).</li>
+<li>In the <strong>Upload Package File</strong> section click <strong>Browse</strong> and find the <strong>mod_htcom.zip</strong> archive.
+Click <strong>Upload file &amp; install</strong> button.</li>
+<li>The &quot;Install Module Success&quot; message confirms that the module has been  installed successfully.</li>
+<li>Open <strong>Module Manager</strong> (Main menu->Extensions->Module manager).</li>
+<li>Enable HTTP Commander module. Here you can configure module position (by default it appears on the left panel) and other parameters.</li>
+<li>Leave the admin area and log into Joomla as a normal user.</li></ol>
+  <p>Now you'll be able to see the link to HTTP Commander on the left side of the page.</p>
+        <a target="_blank" href="Images/joomla-link.png" onClick="toggleBlock('joomla-link'); return false;" class="imglink">Screenshot</a>
+      <div id="joomla-link" style="display: none;">
+        <p class="screenshot">
+            &nbsp;<img src="Images/joomla-link.png" style="width: 461px; height: 391px" /></p>
+    </div>
+</li>
+</ol> <!-- Configuring Joomla -->
+
+<p><b>Configuring WordPress</b></p>
+<ol>
+<li>Open <strong>CMS-Files </strong> folder inside documentation root. Copy the files from the <strong>wordpress</strong> folder into the WordPress root folder.
+The <strong>account-check.php</strong> file should be in the root folder now.</li>
+<li>Open the <strong>wp-content\plugins\htcom.php</strong> file in a text editor 
+and specify the URL to HTTP Commander in the <strong>htcom_link</strong> function.</li>
+<li>Log into WordPress as administrator.</li>
+<li>Activate the HTTP Commander plugin (Site Admin->Plugins).</li>
+<li>Open Widgets module (Site Admin->Appearance->Widgets).</li>
+<li>Expand Primary Widget Area (or any other area where you want to place the HTTP Commander link).</li>
+<li>Drag and drop the HTTP Commander widget into the expanded area.</li>
+<li>Leave the Site admin area and open, for example, the start page.</li></ol>
+<p>Now you'll be able to see the link to HTTP Commander.</p>
+        <a target="_blank" href="Images/wordpress-link.png" onClick="toggleBlock('wordpress-link'); return false;" class="imglink">Screenshot</a>
+      <div id="wordpress-link" style="display: none;">
+        <p class="screenshot">
+            &nbsp;<img src="Images/wordpress-link.png" style="width: 356px; height: 352px" /></p>
+      </div>
+</li>
+</ol> <!-- Configuring WordPress -->
+
+</body>
+</html>

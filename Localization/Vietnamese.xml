@@ -1,0 +1,1608 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Localization>
+  <!-- Common keys -->
+  
+  <ExtMsgButtonTextYES>Vâng</ExtMsgButtonTextYES>
+  <ExtMsgButtonTextNO>Không</ExtMsgButtonTextNO>
+  
+  <ControlHideFileManager>Ẩn quản lý các tập tin web</ControlHideFileManager>
+  
+  <CommonMainTitle>file Web truy cập</CommonMainTitle>
+  <CommonApplicationLoading>Đang tải các file truy cập web</CommonApplicationLoading>
+  <CommonLoadError>Có lỗi xảy ra trong quá trình nhận dữ liệu cây</CommonLoadError>
+  <CommonGridAccessDenied>Các thư mục "{0}" không tồn tại hoặc truy cập bị từ chối đọc được</CommonGridAccessDenied>
+  <CommonNoScript>Trang này cần JavaScript để được kích hoạt trong trình duyệt của bạn! Vui lòng kích hoạt nó và đăng nhập một lần nữa!</CommonNoScript>
+  <CommonErrorCaption>lỗi</CommonErrorCaption>
+  <CommonWarningCaption>Cảnh báo</CommonWarningCaption>
+  <CommonInfoCaption>Thông tin</CommonInfoCaption>
+  <CommonConfirmCaption>Xác nhận</CommonConfirmCaption>
+  <CommonFileNameCaption>file name</CommonFileNameCaption>
+  <CommonFileNamePrompt>Nhập tên tập tin mới</CommonFileNamePrompt>
+  <CommonFileNewNameValue>New Text Document.txt</CommonFileNewNameValue>
+  <CommonFolderNewNameValue>Thư mục mới</CommonFolderNewNameValue>
+  <CommonZipFileNameCaption>Tên kho lưu trữ Zip</CommonZipFileNameCaption>
+  <CommonZipFileNamePrompt>Tên tập tin (mở rộng sẽ được tự động thêm vào)</CommonZipFileNamePrompt>
+  <CommonFolderNameCaption>Tên thư mục</CommonFolderNameCaption>
+  <CommonFolderNamePrompt>Nhập tên thư mục mới</CommonFolderNamePrompt>
+  <CommonDeleteOnePrompt>Bạn có chắc chắn muốn xóa "{0}"?</CommonDeleteOnePrompt>
+  <CommonDeleteManyPrompt>Bạn có chắc chắn bạn muốn xóa các {0} mục?</CommonDeleteManyPrompt>
+  <CommonForToday>Cho hôm nay</CommonForToday>
+  <CommonButtonCaptionOK>được</CommonButtonCaptionOK>
+  <CommonButtonCaptionCancel>hủy bỏ</CommonButtonCaptionCancel>
+  <CommonButtonCaptionClose>Gần</CommonButtonCaptionClose>
+  <CommonButtonCaptionAdd>Thêm vào</CommonButtonCaptionAdd>
+  <CommonButtonCaptionContinue>Tiếp tục</CommonButtonCaptionContinue>
+
+  <CommonProgressPleaseWait>xin vui lòng chờ</CommonProgressPleaseWait>
+  
+  <CommonFieldLabelName>Tên</CommonFieldLabelName>
+  <CommonFieldLabelPath>Con đường</CommonFieldLabelPath>
+  <CommonFieldLabelSize>Kích thước</CommonFieldLabelSize>
+  <CommonFieldLabelLabels>nhãn</CommonFieldLabelLabels>
+  <CommonFieldLabelType>Kiểu</CommonFieldLabelType>
+  <CommonFieldLabelAction>Hoạt động</CommonFieldLabelAction>
+  <CommonFieldLabelDate>Ngày</CommonFieldLabelDate>
+  <CommonFieldLabelDateTime>Ngày giờ</CommonFieldLabelDateTime>
+  <CommonFieldLabelDateCreated>Ngày tạo</CommonFieldLabelDateCreated>
+  <CommonFieldLabelDateModified>ngày sửa đổi</CommonFieldLabelDateModified>
+  <CommonFieldLabelDateAccessed>Ngày truy cập</CommonFieldLabelDateAccessed>
+  <CommonFieldLabelValue>Giá trị</CommonFieldLabelValue>
+  <CommonFieldLabelUserName>tên người dùng</CommonFieldLabelUserName>
+  <CommonFieldLabelUser>Người dùng</CommonFieldLabelUser>
+  <CommonFieldLabelUsers>Người dùng</CommonFieldLabelUsers>
+  <CommonFieldLabelGroupName>Tên nhóm</CommonFieldLabelGroupName>
+  <CommonFieldLabelGroup>Nhóm</CommonFieldLabelGroup>
+  <CommonFieldLabelGroups>Các nhóm</CommonFieldLabelGroups>
+  <CommonFieldLabelPassword>Mật khẩu</CommonFieldLabelPassword>
+  <CommonFieldLabelRepeatPassword>lặp lại mật khẩu</CommonFieldLabelRepeatPassword>
+  <CommonFieldLabelComments>Bình luận</CommonFieldLabelComments>
+  <CommonValueTypeFolder>Thư mục</CommonValueTypeFolder>
+
+  <CommonFieldLabelDescription>Sự miêu tả</CommonFieldLabelDescription>
+  <EmptyDescriptionText>Xác định mô tả</EmptyDescriptionText>
+  <CommonFieldLabelReadMeTxt>nội dung readme.txt</CommonFieldLabelReadMeTxt>
+  
+  <CommonWordOr>hoặc là</CommonWordOr>
+
+  <SortAscText>Sắp xếp tăng dần</SortAscText>
+  <SortDescText>Sắp xếp giảm dần</SortDescText>
+
+  <CommonNewDocument>Tài liệu mới</CommonNewDocument>
+  <CommonNewSpreadsheet>Bảng tính mới</CommonNewSpreadsheet>
+  <CommonNewPresentation>New Presentation</CommonNewPresentation>
+
+  <CommonWordWrap>quấn từ</CommonWordWrap>
+  
+  <!-- End Common keys -->
+
+  <!-- Labels -->
+
+  <LabelsTitle>Nhãn</LabelsTitle>
+  <LabelsNoLabel>Không nhãn hiệu</LabelsNoLabel>
+  <LabelsColor>Màu</LabelsColor>
+  <LabelsCustomLabel>Nhãn tùy chỉnh</LabelsCustomLabel>
+  <LabelsCustomLabelHint>Nhập văn bản của nhãn</LabelsCustomLabelHint>
+  <LabelsCustomLabelView>Nhãn &amp;nbsp; xem: &amp;nbsp; {0} {1} {2}</LabelsCustomLabelView>
+  <LabelsFileLabelledMessage>đánh dấu thành công {0} sản phẩm (s)</LabelsFileLabelledMessage>
+  <LabelsRemovedMessage>xóa thành công {0} nhãn (s)</LabelsRemovedMessage>
+  <LabelsNotRemovedMessages>không loại bỏ: {0}</LabelsNotRemovedMessages>
+  <LabelsNotLabelledMessage>không có nhãn: {0}</LabelsNotLabelledMessage>
+  <LabelsLabelRemovedMessage>Nhãn gỡ bỏ thành công</LabelsLabelRemovedMessage>
+  <LabelsNewLabel>Nhãn mới</LabelsNewLabel>
+  <LabelsLabellingMessage>ghi nhãn</LabelsLabellingMessage>
+  <LabelsRemovingLabelMessage>Loại bỏ nhãn</LabelsRemovingLabelMessage>
+  <LabelsLabelInfoTip>Được đánh dấu là '{0}' {1} bằng cách sử dụng "{2} '</LabelsLabelInfoTip>
+
+  <!-- End Labels -->
+
+  <!-- Comments -->
+
+  <CommentsCountInfoTip>{0} comment (s)</CommentsCountInfoTip>
+  <CommentsWriteCommentHint>Viết một bình luận và báo chí '{0}' hoặc Ctrl+Enter hoặc Shift+Enter ...</CommentsWriteCommentHint>
+
+  <!-- End Comments -->
+
+  <RefreshPageWarningMessage>&lt;b&gt; Chú ý! &lt;/b&gt; Để hoàn thành thao tác này, trang hiện tại của trình duyệt phải được làm mới. &lt;br /&gt; Bạn muốn làm mới bây giờ?</RefreshPageWarningMessage>
+
+  <PagingToolbarBeforePageText>Trang</PagingToolbarBeforePageText>
+  <PagingToolbarAfterPageText>{0}</PagingToolbarAfterPageText>
+  <PagingToolbarFirstText>Trang đầu tiên</PagingToolbarFirstText>
+  <PagingToolbarPrevText>Trang trước</PagingToolbarPrevText>
+  <PagingToolbarNextText>Trang tiếp theo</PagingToolbarNextText>
+  <PagingToolbarLastText>Trang cuối</PagingToolbarLastText>
+  <PagingToolbarDisplayMsg>Hiển thị {0} - {1} của {2}</PagingToolbarDisplayMsg>
+  <PagingToolbarEmptyMsg>Không có dữ liệu để hiển thị</PagingToolbarEmptyMsg>
+  
+  <GridTotalLabel>Toàn bộ:</GridTotalLabel>
+  <GridTotalFilesLabel>các tập tin</GridTotalFilesLabel>
+  <GridTotalFoldersLabel>thư mục</GridTotalFoldersLabel>
+  
+  <GridDDSelectedRowsText>{0} hàng đã chọn {1}</GridDDSelectedRowsText>
+  <GridDDSelectedFilesText>{0} chọn file</GridDDSelectedFilesText>
+  <GridDDSelectedFoldersText>{0} thư mục đã chọn</GridDDSelectedFoldersText>
+  <GridDDConfirmCopyMoveTitle>Thả vào thư mục "{0}"</GridDDConfirmCopyMoveTitle>
+  <GridDDConfirmAddToZipTitle>Thêm zip "{0}"</GridDDConfirmAddToZipTitle>
+  <GridDDConfirmAddToZipMessage>file kéo sẽ được bổ sung vào kho lưu trữ ZIP này. Bạn có muốn tiếp tục không? {0}.</GridDDConfirmAddToZipMessage>
+  <GridDDConfirmCopyMoveMsg>Chọn một hành động mà bạn muốn áp dụng. Nguồn: "{0}", Thư mục đích: "{1}" {2} {3}..</GridDDConfirmCopyMoveMsg>
+  <GridDDConfirmCopyMoveToZipMsg>Tệp tin sẽ được bổ sung vào kho lưu trữ zip. Chọn một hành động mà bạn muốn áp dụng cho các tập tin kéo sau khi thêm các tập tin vào kho lưu trữ zip. Nguồn: "{0}", lưu trữ Destination zip: "{1}" {2} {3}..</GridDDConfirmCopyMoveToZipMsg>
+  <GridDDDraggedFileNames>&lt;b&gt; Kéo tập tin: &lt;/b&gt; {0}</GridDDDraggedFileNames>
+  <GridDDDraggedFolderNames>&lt;b&gt; Kéo thư mục: &lt;/b&gt; {0}</GridDDDraggedFolderNames>
+  <GridDDConfirmTargetFolderOnlyCopyMsg>quyền hiện nay đối với các thư mục nguồn cho phép bạn chỉ sao chép các tập tin kéo. Bạn có muốn tiếp tục không? {0}.</GridDDConfirmTargetFolderOnlyCopyMsg>
+  <GridDDConfirmTargetFolderOnlyMoveMsg>quyền hiện nay đối với các thư mục nguồn cho phép bạn chỉ di chuyển các tập tin kéo. Bạn có muốn tiếp tục không? {0}.</GridDDConfirmTargetFolderOnlyMoveMsg>
+
+  <GridRowPublicHint>Nhấn vào đây để mở một liên kết nào trong một cửa sổ / tab</GridRowPublicHint>
+  <GridRowAlertHint>Nhấn vào đây để xem các thay đổi được thực hiện cho tập tin này / thư mục</GridRowAlertHint>
+  <GridRowRecentHint>Xác định vị trí tập tin này / thư mục</GridRowRecentHint>
+  <GridRowAlertEventHint>Nhấn vào đây để đi vị trí này</GridRowAlertEventHint>
+
+  <ProgressCreating>tạo</ProgressCreating>
+  <ProgressDeleting>xóa</ProgressDeleting>
+  <ProgressLoading>Tải</ProgressLoading>
+  <ProgressSearching>Đang tìm kiếm</ProgressSearching>
+  <ProgressZipping>nén</ProgressZipping>
+  <ProgressUnzipping>giải nén</ProgressUnzipping>
+  <ProgressZipContents>Lấy nội dung của các kho lưu trữ ZIP</ProgressZipContents>
+  <ProgressPrepareDownload>Chuẩn bị để tải về</ProgressPrepareDownload>
+  <ProgressMoving>Tiến độ</ProgressMoving>
+  <ProgressCopying>Sao chép</ProgressCopying>
+  <ProgressRenaming>Đổi tên</ProgressRenaming>
+  <ProgressUpdating>Đang cập nhật</ProgressUpdating>
+  <ProgressLoadingEditInPixlr>Đang tải biên tập Pixlr</ProgressLoadingEditInPixlr>
+  <ProgressLoadingEdit>biên tập tải</ProgressLoadingEdit>
+  <ProgressSavingEdit>Đang lưu tệp</ProgressSavingEdit>
+  <ProgressSaving>Tiết kiệm</ProgressSaving>
+  <ProgressExecuting>Thực hiện</ProgressExecuting>
+
+  <BalloonFilesDeleted>{0} file (s) đã xóa</BalloonFilesDeleted>
+  <BalloonFoldersDeleted>{0} thư mục (s) đã xóa</BalloonFoldersDeleted>
+  <BalloonFilesFailed>{0} file (s) đã thất bại</BalloonFilesFailed>
+  <BalloonFoldersFailed>{0} thư mục (s) đã thất bại</BalloonFoldersFailed>
+  <BalloonFilesZipped>{0} file (s) nén</BalloonFilesZipped>
+  <BalloonFoldersZipped>{0} thư mục (s) nén</BalloonFoldersZipped>
+  <BalloonFilesCopied>{0} file (s) copied</BalloonFilesCopied>
+  <BalloonFoldersCopied>{0} thư mục (s) copied</BalloonFoldersCopied>
+  <BalloonFilesMoved>{0} file (s) chuyển</BalloonFilesMoved>
+  <BalloonFoldersMoved>{0} thư mục (s) chuyển</BalloonFoldersMoved>
+  <BalloonNotUnzipped>{0} file (s) đã không được giải nén</BalloonNotUnzipped>
+  <BalloonFilesUploaded>{0} file (s) tải lên</BalloonFilesUploaded>
+  <BalloonFilesNotUploaded>{0} file (s) không tải lên</BalloonFilesNotUploaded>
+  <BalloonSomeFilesNotUploaded>Một số tập tin không thể được tải lên</BalloonSomeFilesNotUploaded>
+  <BalloonCreatedSuccessfully>tạo thành công</BalloonCreatedSuccessfully>
+  <BalloonUnzippedSuccessfully>Unpacked thành công</BalloonUnzippedSuccessfully>
+  <BalloonRenamedSuccessfully>đổi tên thành công</BalloonRenamedSuccessfully>
+  <BalloonSavedSuccessfully>đã lưu thành công</BalloonSavedSuccessfully>
+  <BalloonCopiedToClipboard>Sao chép vào clipboard</BalloonCopiedToClipboard>
+  <BalloonCopyToClipboardFailed>Sao chép vào clipboard thất bại</BalloonCopyToClipboardFailed>
+
+  <CommandCopyToClipboard>Sao chép vào clipboard</CommandCopyToClipboard>
+  <CommandCopyLinkToClipboard>Sao chép liên kết vào clipboard</CommandCopyLinkToClipboard>
+  <ClipboardScreenshotTitlePrefix>hình ảnh</ClipboardScreenshotTitlePrefix>
+  <ClipboardScreenshotHint>Hình ảnh: Bạn có thể dán một ảnh chụp màn hình từ clipboard (Nhấn &lt;b&gt; Ctrl+PrtSc &lt;/b&gt; rồi &lt;b&gt; Ctrl+V &lt;/b&gt;) hoặc một hình ảnh từ trình soạn thảo của bạn (Nhấn &lt;b&gt; Ctrl+V &lt;/b&gt;).</ClipboardScreenshotHint>
+  <ClipboardFileHint>Bạn cũng có thể dán một tập tin từ clipboard</ClipboardFileHint>
+
+  <CommandClouds>mây kho</CommandClouds>
+  <CommandCloudsDownloadTo>tải về để ...</CommandCloudsDownloadTo>
+  <CommandCloudsUploadFrom>tải lên từ ...</CommandCloudsUploadFrom>
+  <CommandCloudsAbout>Về Cloud kho</CommandCloudsAbout>
+  
+  <CommandBack>Trở lại</CommandBack>
+  <CommandForward>Phía trước</CommandForward>
+  <CommandRecentFolders>thư mục gần đây</CommandRecentFolders>
+  <CommandHome>Nhà</CommandHome>
+  <CommonActions>Hoạt động</CommonActions>
+  <CommandMultiSelect>Multi-chọn</CommandMultiSelect>
+  <CommandShare>Chia sẻ</CommandShare>
+  <CommandSorting>Phân loại</CommandSorting>
+  
+  <CommandFileManager>Quay trở lại để quản lý tập tin</CommandFileManager>
+  <CommandFolders>Thư mục</CommandFolders>
+  <CommandGridView>Lượt xem</CommandGridView>
+  <CommandRefresh>Làm tươi</CommandRefresh>
+  <CommandThumbnailView>xem hình ảnh thu nhỏ</CommandThumbnailView>
+  <CommandDetailedView>danh sách xem</CommandDetailedView>
+  <CommandDetailsPane>panel Details</CommandDetailsPane>
+  <CommandFavorites>Favorites</CommandFavorites>
+  <CommandAddToFavorites>Thêm vào mục yêu thích</CommandAddToFavorites>
+  <CommandAddToFavoritesHint>Thêm thư mục hiện hành vào mục yêu thích</CommandAddToFavoritesHint>
+  <AddingToFavoritesMessage>Thêm vào mục yêu thích</AddingToFavoritesMessage>
+  <RemoveFromFavoritesMessage>Xóa khỏi mục ưa thích</RemoveFromFavoritesMessage>
+  <FolderAlreadyAddedInFavorites>Các thư mục "{0}" đã tồn tại trong mục yêu thích</FolderAlreadyAddedInFavorites>
+  <FolderAddedInFavoritesSuccessfully>Các thư mục "{0}" đã được thêm thành công vào mục yêu thích</FolderAddedInFavoritesSuccessfully>
+  <FavoritesIsOverflowed>Nó không thể để thêm các thư mục hiện tại "{0}" vào mục yêu thích. Xóa một số mục yêu thích để giải phóng một số không gian và thử lại.</FavoritesIsOverflowed>
+  <RemoveFromFavoritesHint>Hủy bỏ "{0}" khỏi mục ưa thích</RemoveFromFavoritesHint>
+  <AddToHomeScreenIOSHint>Tập {0} và sau đó &lt;strong&gt; "Add to Home Screen" &lt;/strong&gt;</AddToHomeScreenIOSHint>
+  <CommandSearch>Tìm kiếm</CommandSearch>
+  <CommandUpload>Tải lên</CommandUpload>
+  <CommandSettings>Cài đặt</CommandSettings>
+  <CommandLanguage>ngôn ngữ</CommandLanguage>
+  <CommandAdministration>Quản trị</CommandAdministration>
+  <CommandAdminPanel>Bảng quản trị</CommandAdminPanel>
+  <CommandChangePassword>Đổi mật khẩu</CommandChangePassword>
+  <ProgressChangePassword>Thay đổi mật khẩu</ProgressChangePassword>
+  <CommandChangeEmail>thay đổi e-mail</CommandChangeEmail>
+  <ProgressChangeEmail>Thay đổi e-mail</ProgressChangeEmail>
+  <CommandMobileView>giao diện điện thoại di động (điện thoại thông minh)</CommandMobileView>
+  <CommandStandardView>Phiên bản đầy đủ</CommandStandardView>
+  <CommandInstallIOSApp>Cài đặt ứng dụng IOS</CommandInstallIOSApp>
+  <CommandInstallAndroidApp>Cài đặt ứng dụng Android</CommandInstallAndroidApp>
+  <CommandAddServerToMobileApp>Thêm máy chủ này để ứng dụng di động</CommandAddServerToMobileApp>
+  <CommandAddToHomeScreen>Thêm vào màn hình chính</CommandAddToHomeScreen>
+  <CommandDiagnostics>trang chẩn đoán</CommandDiagnostics>
+  <CommandLicenseInfo>thông tin giấy phép</CommandLicenseInfo>
+  <CommandLogout>Đăng xuất</CommandLogout>
+  <CommandLogoutHint>Nhấn vào đây để kết thúc phiên hiện tại</CommandLogoutHint>
+  <CommandNew>Mới</CommandNew>
+  <CommandFile>Tập tin</CommandFile>
+  <CommandEmptyFile>tập tin rỗng</CommandEmptyFile>
+  <CommandNewMSOODocument>Tài liệu với MS Office Online</CommandNewMSOODocument>
+  <CommandNewOffice365Document>Tài liệu với Office 365</CommandNewOffice365Document>
+  <CommandNewMSOOWord>Tài liệu văn bản</CommandNewMSOOWord>
+  <CommandNewMSOOExcel>Bảng tính Excel</CommandNewMSOOExcel>
+  <CommandNewMSOOPowerPoint>Thuyết trình Powerpoint</CommandNewMSOOPowerPoint>
+  <CommandNewGoogleDocument>Tài liệu với Google</CommandNewGoogleDocument>
+  <CommandNewGoogleDocs>Google Docs</CommandNewGoogleDocs>
+  <CommandNewGoogleSheets>Google Sheets</CommandNewGoogleSheets>
+  <CommandNewGoogleSlides>Google Slides</CommandNewGoogleSlides>
+  <CommandNewImage>Hình ảnh trong Pixlr</CommandNewImage>
+  <CommandFolder>Thư mục</CommandFolder>
+  <CommandNewFile>tập tin rỗng mới</CommandNewFile>
+  <CommandNewFolder>Thư mục mới</CommandNewFolder>
+  <CommandNewWithTemplate>Sử dụng mẫu ...</CommandNewWithTemplate>
+  <CommandRename>Đổi tên</CommandRename>
+  <CommandDelete>Xóa bỏ</CommandDelete>
+  <CommandCopy>bản sao</CommandCopy>
+  <CommandMove>chuyển động</CommandMove>
+  <CommandCut>Cắt tỉa</CommandCut>
+  <CommandCopyTo>Sao chép đến ...</CommandCopyTo>
+  <CommandMoveTo>Chuyển tới...</CommandMoveTo>
+  <CommandCopyCutClipboardSuffix>vào clipboard</CommandCopyCutClipboardSuffix>
+  <CommandPaste>dán</CommandPaste>
+  <CommandPasteInto>dán vào</CommandPasteInto>
+  <CommandZip>Nén một kho lưu trữ Zip</CommandZip>
+  <CommandZipMenu>Zip / Unzip</CommandZipMenu>
+  <CommandUnzip>Zip unpack</CommandUnzip>
+  <CommandUnzipSelected>Giải nén chọn</CommandUnzipSelected>
+  <CommandUnzipAll>Giải nén tất cả</CommandUnzipAll>
+  <CommandUnzipTo>đến thư mục</CommandUnzipTo>
+  <CommandUnzipToCurrent>đến thư mục hiện tại</CommandUnzipToCurrent>
+  <MessageUnzipToFolder>Nhập tên của một thư mục để giải nén này</MessageUnzipToFolder>
+  <MessageUnzipPasswordHint>Nếu bạn biết rằng mật khẩu là cần thiết để giải nén, nhập nó vào trường bên dưới</MessageUnzipPasswordHint>
+  <MessageUnzipNeedPassword>Yêu cầu mật khẩu để giải nén các tập tin</MessageUnzipNeedPassword>
+  <ZipPasswordProtectHint>Để mật khẩu bảo vệ các kho lưu trữ zip, nhập mật khẩu trong các trường bên dưới. Nếu không, để trống trường</ZipPasswordProtectHint>
+  <AppendToZipPasswordProtectHint>Để mật khẩu bảo vệ các tập tin được thêm vào kho lưu trữ zip, nhập mật khẩu trong các trường bên dưới. Nếu không, để trống trường</AppendToZipPasswordProtectHint>
+  <ZipPasswordProtectWindowTitle>Lưu trữ với mật khẩu</ZipPasswordProtectWindowTitle>
+  <OpenFolderAfterUnzipCheckBox>Mở thư mục sau khi giải nén</OpenFolderAfterUnzipCheckBox>
+  <CommandUnzipToNew>vào một thư mục mới</CommandUnzipToNew>
+  <CommandZipContents>nội dung Zip</CommandZipContents>
+  <ArchiveContentsTitle>nội dung lưu trữ "{0}"</ArchiveContentsTitle>
+  <CommandDownload>Tải về</CommandDownload>
+  <CommonDownloadAll>Tải xuống tất cả</CommonDownloadAll>
+  <DownloadListDragFile>Bạn có thể kéo-n-thả các tập tin vào máy tính của bạn</DownloadListDragFile>
+  <CommandZipDownload>Nén và tải về</CommandZipDownload>
+  <CommandView>Xem trong Trình duyệt</CommandView>
+  <CommandDownloadOrView>Tải về hoặc xem</CommandDownloadOrView>
+  <CommandPreview>hình ảnh xem trước</CommandPreview>
+  <CommandFlashPreview>xem trước flash</CommandFlashPreview>
+  <GettingSizeFlashMovie>Bắt kích thước của bộ phim flash</GettingSizeFlashMovie>
+  <CommandEdit>Chỉnh sửa như file văn bản</CommandEdit>
+  <CommandEditView>Xem như tập tin văn bản</CommandEditView>
+  <AceNotLoadedMessage>Không thể tải trình soạn thảo Ace</AceNotLoadedMessage>
+  <VideoJsNotLoadedMessage>Không thể tải chơi VideoJS</VideoJsNotLoadedMessage>
+  <CommandMenuEdit>Chỉnh sửa</CommandMenuEdit>
+  <CommandSelectAll>Chọn tất cả</CommandSelectAll>
+  <CommandInvertSelection>Lựa chọn đối nghịch</CommandInvertSelection>
+  <CommandLinkToFile>Liên kết đến tập tin / thư mục</CommandLinkToFile>
+  <!--Share link-->
+  <CommandMakePublicFolder>Tạo liên kết công cộng</CommandMakePublicFolder>
+  <PublicViewInGoogle>Xem trong Google</PublicViewInGoogle>
+  <PublicViewinOWA>Xem trong OWA</PublicViewinOWA>
+  <!--Make public folder (share)-->
+  <CommandViewWithGoogleDoc>Xem trong Google Docs</CommandViewWithGoogleDoc>
+  <CommandViewWithShareCad>Xem trong ShareCad.org</CommandViewWithShareCad>
+  <CommandViewWithAutodesk>Xem trong Autodesk</CommandViewWithAutodesk>
+  <CommandViewWithBox>Xem trong Hộp</CommandViewWithBox>
+  <CommandViewWithOWA>Xem trong Office Web Apps</CommandViewWithOWA>
+  <CommandCloudConvert>Chuyển đổi với CloudConvert</CommandCloudConvert>
+  <ProgressGetCloudConvertOutputFormats>Bắt đầu ra định dạng</ProgressGetCloudConvertOutputFormats>
+  <ProgressCloudConvertConverting>chuyển đổi</ProgressCloudConvertConverting>
+  <CloudConvertWindowTitle>Chuyển đổi '{0}'</CloudConvertWindowTitle>
+  <CloudConvertWindowConvertButton>Đổi</CloudConvertWindowConvertButton>
+  <CloudConvertWindowOutputFormatsLabel>Định dạng đầu ra</CloudConvertWindowOutputFormatsLabel>
+  <CloudConvertDownloadLinkLabel>Liên kết để tải về</CloudConvertDownloadLinkLabel>
+  <CloudConvertSaveAsLabel>Save as (mở rộng sẽ được tự động thêm vào):</CloudConvertSaveAsLabel>
+  <CloudConvertNoOutputFormats>Không có định dạng có sẵn để chuyển đổi</CloudConvertNoOutputFormats>
+  <CloudConvertNoUrlForDownload>Nó đã không thành công để nhận được các liên kết để tải về</CloudConvertNoUrlForDownload>
+  <ProgressCloudConvertUploading>Tải lên từ CloudConvert</ProgressCloudConvertUploading>
+  <CloudConvertSaveAsNameBlank>Loại tên ở đây</CloudConvertSaveAsNameBlank>
+  <CancelEditButton>Hủy chỉnh sửa</CancelEditButton>
+  <HideButton>Ẩn giấu</HideButton>
+  <EditDocumentCancelHint>Sau khi bạn đóng cửa sổ với tài liệu đã được chỉnh sửa, nó sẽ được tự động lưu. &lt;br /&gt; Bạn có thể ẩn hộp thoại này bằng cách nhấn {0} (trong trường hợp này, các tài liệu sẽ vẫn được lưu sau khi đóng trình soạn thảo). &lt;br /&gt; Nếu bạn không muốn lưu tài liệu, nhấn {1} (trong trường hợp này, cửa sổ soạn thảo sẽ đóng cửa).</EditDocumentCancelHint>
+  <EditDocumentSaveHint>Bây giờ bạn có thể lưu các thay đổi trong tài liệu bằng cách nhấn {0}. Chú ý! Sau khi bạn đóng cửa sổ soạn thảo, nó cũng sẽ được tự động lưu.</EditDocumentSaveHint>
+  <CommandEditInMSOffice>Chỉnh sửa trong MS Office</CommandEditInMSOffice>
+  <CommandEditInOOo>Chỉnh sửa trong OpenOffice / LibreOffice</CommandEditInOOo>
+  <CommandViewInMSOffice>Xem trong MS Office</CommandViewInMSOffice>
+  <CommandViewInOOo>Xem trong OpenOffice / LibreOffice</CommandViewInOOo>
+  <CommandEditInPixlr>Chỉnh sửa trong Pixlr</CommandEditInPixlr>
+  <CommandEditInAdobe>Chỉnh sửa trong Adobe Creative Mây</CommandEditInAdobe>
+  <AdobeImageEditorSavedAsNewTypeMessage>Những hình ảnh thay đổi trong Adobe Image Editor đã được lưu trong định dạng {0}</AdobeImageEditorSavedAsNewTypeMessage>
+  <CommandEditInGoogle>Chỉnh sửa trong Google Drive</CommandEditInGoogle>
+  <EditInGoogleConvertMessage>Sau khi chỉnh sửa các tài liệu sẽ được chuyển đổi sang định dạng {1} {0} {2}</EditInGoogleConvertMessage>
+  <EditInGoogleLinkError>Không thể có được liên kết để chỉnh sửa các tài liệu trong Google Drive</EditInGoogleLinkError>
+  <EditInGoogleWaiting>Chờ đợi để hoàn chỉnh sửa trong Google Drive</EditInGoogleWaiting>
+  <CommandEditInMSOO>Chỉnh sửa trong MS Office Online</CommandEditInMSOO>
+  <EditInMSOOLinkError>Không thể có được liên kết để chỉnh sửa các tài liệu MS Office Online</EditInMSOOLinkError>
+  <EditInMSOOWaiting>Chờ đợi để hoàn chỉnh trong MS Office Online</EditInMSOOWaiting>
+  <CommandEditInOffice365>Chỉnh sửa trong Office 365</CommandEditInOffice365>
+  <EditInOffice365LinkError>Không thể có được liên kết để chỉnh sửa các tài liệu trong Office 365</EditInOffice365LinkError>
+  <EditInOffice365Waiting>Chờ đợi để hoàn chỉnh trong Office 365</EditInOffice365Waiting>
+  <CommandSave>Tiết kiệm</CommandSave>
+  <CommandSaveAs>Lưu thành...</CommandSaveAs>
+  <CommandAppRestart>ứng dụng khởi động lại</CommandAppRestart>
+  <CommandPlayVideoFlash>Phát video trong Flash player</CommandPlayVideoFlash>
+  <CommandPlayVideoHtml5>Xem video</CommandPlayVideoHtml5>
+  <CommandPlayAudioHtml5>âm thanh chơi</CommandPlayAudioHtml5>
+  <CommandPlayVideo>Xem video</CommandPlayVideo>
+  <CommandPlayAudio>âm thanh chơi</CommandPlayAudio>
+  <CommandConvertVideo>Chuyển đổi video</CommandConvertVideo>
+
+  <ViewInServiceLink>Nhấn vào đây để xem nội dung tập</ViewInServiceLink>
+  <EditInServiceLink>Nhấn vào đây để chỉnh sửa các tài liệu</EditInServiceLink>
+
+  <OfficeEditCopyLinkLabel>Sao chép liên kết dưới đây và mở nó trong các ứng dụng văn phòng:</OfficeEditCopyLinkLabel>
+  <OfficeRunError>Nó đã không thể ra mắt {0}</OfficeRunError>
+  <BadPathToFile>Nó đã không thể tìm thấy đường dẫn đến tập tin</BadPathToFile>
+  <FixBasicAuthAlertTitle>Chú ý!</FixBasicAuthAlertTitle>
+  <FixBasicAuthAlertMessage>Microsoft Office làm việc với xác thực cơ bản mà không SSL! Bạn có thể sửa lỗi này cho văn phòng của bạn. Để biết thêm xin vui lòng xem {0}.</FixBasicAuthAlertMessage>
+  <FixBasicAuthAlertCheckBoxText>Không để cho thấy cuộc đối thoại này nữa.</FixBasicAuthAlertCheckBoxText>
+  <CommandDetails>Chi tiết</CommandDetails>
+  <CommonButtonCaptionAddDetail>Thêm chi tiết</CommonButtonCaptionAddDetail>
+  <CommonButtonCaptionAddComment>Thêm bình luận</CommonButtonCaptionAddComment>
+  <DetailsWindowTitle>Chi tiết "{0}"</DetailsWindowTitle>
+  <FileDetailsSave>Áp dụng các thay đổi</FileDetailsSave>
+  <FileDetailsIgnoreChanges>Bỏ qua</FileDetailsIgnoreChanges>
+  <FileDetailsCloseConfirmTitle>Cửa sổ chi tiết tập tin đang được đóng</FileDetailsCloseConfirmTitle>
+  <FileDetailsCloseConfirmMsg>Chú ý! Những thay đổi chưa được lưu. Chọn một hành động mà bạn muốn áp dụng cho những thay đổi này trước khi đóng cửa sổ.</FileDetailsCloseConfirmMsg>
+  <FileDetailsGridTitleColumn>Chức vụ</FileDetailsGridTitleColumn>
+  <FileDetailsGridAuthorColumn>tác giả cuối</FileDetailsGridAuthorColumn>
+  <LoadingDetailsMask>Đang tải chi tiết</LoadingDetailsMask>
+  <NewDetailsTitle>Tiêu đề mới</NewDetailsTitle>
+  <NewDetailsValue>giá trị chi tiết mới</NewDetailsValue>
+  <DetailsSavingMsg>tiết kiệm chi tiết</DetailsSavingMsg>
+  <ProgressLoadingEditInOffice>Chuẩn bị cho chỉnh sửa trong văn phòng</ProgressLoadingEditInOffice>
+  <MenuFilterText>Bộ lọc</MenuFilterText>
+  <EmptyTextFilter>Nhập Lọc ...</EmptyTextFilter>
+  <AfterDateFilterText>Sau</AfterDateFilterText>
+  <BeforeDateFilterText>Trước</BeforeDateFilterText>
+  <OnDateFilterText>Trên</OnDateFilterText>
+  <YesBooleanFilterText>Vâng</YesBooleanFilterText>
+  <NoBooleanFilterText>Không</NoBooleanFilterText>
+  <CommandEditWithZoho>Chỉnh sửa trong Zoho</CommandEditWithZoho>
+  <ZohoNotSupportedFormatMessage>Các phần mở rộng không được hỗ trợ bởi Zoho. Xem {0}.</ZohoNotSupportedFormatMessage>
+  <ProgressLoadingEditInZoho>Đang tải biên tập Zoho</ProgressLoadingEditInZoho>
+  <CommandSubMenuViewAndEdit>Sửa xem</CommandSubMenuViewAndEdit>
+  <CommandSubMenuShare>Chia sẻ</CommandSubMenuShare>
+  <CommandSubMenuMore>hơn</CommandSubMenuMore>
+  <StopUploadingButtonText>Dừng lại</StopUploadingButtonText>
+  <SimpleUploadErrorInfo>Khi tải file (s) có một lỗi. &lt;br /&gt; Xem {0} để biết thêm thông tin &lt;/a&gt;</SimpleUploadErrorInfo>
+  <BalloonAbortFilesUploaded>Đang tải lên các tập tin đã bị hủy bỏ</BalloonAbortFilesUploaded>
+  <UploadDragNDropTab>Kéo thả</UploadDragNDropTab>
+  <UploadDragNDropTabImages>hình ảnh kéo thả +</UploadDragNDropTabImages>
+  <DnDGridProgressColumn>Tiến độ</DnDGridProgressColumn>
+  <DnDFileReadingError>Đọc báo lỗi. Error code: {0}.</DnDFileReadingError>
+  <DnDFileReadingAbort>Reading hủy bỏ. Error code: {0}.</DnDFileReadingAbort>
+  <DnDFileUploadingError>lỗi tải lên. {0}</DnDFileUploadingError>
+  <DnDFileUploadingAbort>Tải lên bị hủy bỏ.</DnDFileUploadingAbort>
+  
+  <CommandWebFoldersLinks>thư mục bản đồ web</CommandWebFoldersLinks>
+  <CommandSyncWebFolders>Đồng bộ hóa với thư mục địa phương</CommandSyncWebFolders>
+  <WebFolderLinksFieldLabel>Web liên kết thư mục</WebFolderLinksFieldLabel>
+  <WebFolderLinksForWindows64Note>Nhấn tổ hợp phím {0} Win+R {1}. Chèn dòng lệnh trong {0} mở: {1} lĩnh vực (xem ví dụ dòng lệnh dưới đây), nhấp vào {0} OK {1}. Đối với Windows xác thực sử dụng tên miền đầy đủ: {2}.</WebFolderLinksForWindows64Note>
+  <OpenLibreOfficeRunCommandNote>Hoặc nhấn tổ hợp phím {0} Win+R {1}, chèn dòng lệnh dưới đây trong {0} mở: {1} lĩnh vực và nhấn {0} OK {1}</OpenLibreOfficeRunCommandNote>
+  <WebFolderLinksForMacOSNote>Trong menu "Finder", mở {0} Go-&gt; Kết nối đến Server {1}. Chèn liên kết của thư mục web trong {0} "địa chỉ Server" {1} lĩnh vực. Nhấp {0} "Kết nối" {1}. Trong hộp thoại mới, chọn {0} "Guest" {1} hoặc {0} "người sử dụng đăng ký" {1} (dành cho Windows authentication). Nhấp {0} "Kết nối" {1}.</WebFolderLinksForMacOSNote>
+  <WebFolderLinksForUbuntuNote>Mở {0} Go-&gt; Vị trí ... {1} Sao chép liên kết của thư mục web đến lĩnh vực địa điểm.</WebFolderLinksForUbuntuNote>
+  <LinksToWebFoldersWindowText>Bạn có thể ánh xạ thư mục mà bạn nhìn thấy như là một ổ đĩa mạng trong hệ điều hành địa phương của bạn. Sau khi lập bản đồ, bạn có thể làm việc với các tập tin như với những người địa phương hoặc chỉnh sửa tài liệu trong MS Office hay OpenOffice. Xem trợ giúp về cách {0} map.</LinksToWebFoldersWindowText>
+  <CommonFileTypeNameCaption>"{0}" tên tập tin</CommonFileTypeNameCaption>
+  <CommonFileTypeNamePrompt>Nhập mới "{0}" tên tập tin</CommonFileTypeNamePrompt>
+  
+  <PixlrEditorWindowTitle>biên tập Pixlr {0}</PixlrEditorWindowTitle>
+  <PixlrSaveImageSuccessMessage>Những hình ảnh "{0}" đã được lưu thành công. Làm mới danh sách nếu bạn lưu các hình ảnh với một tên mới.</PixlrSaveImageSuccessMessage>
+  <CommonFileImageNewName>Hình ảnh mới</CommonFileImageNewName>
+  <CommandChangeTheme>thay đổi chủ đề</CommandChangeTheme>
+  
+  <CommandHelp>Cứu giúp</CommandHelp>
+
+  <OpeningShortcutProgress>tắt mở</OpeningShortcutProgress>
+  <CommandCreateShortcut>Shortcut (symbolic link)</CommandCreateShortcut>
+  <ShortcutNameHint>tên lối tắt</ShortcutNameHint>
+  <ShortcutTargetPathHint>Đường dẫn đích</ShortcutTargetPathHint>
+  <CreateShortcutButtonTitle>Tạo nên</CreateShortcutButtonTitle>
+  <CreatingShortcutProgress>tạo phím tắt</CreatingShortcutProgress>
+  <CreateShortcutSuccessMessage>Shortcut "{0}" đã được tạo thành công cho "{1}".</CreateShortcutSuccessMessage>
+
+  <OpeningInternetShortcutProgress>Mở shortcut Internet</OpeningInternetShortcutProgress>
+  <InternetShortcutNotValidMsg>URL mục tiêu của Shortcut Internet này là không hợp lệ</InternetShortcutNotValidMsg>
+  <InternetShortcutWindowTitle>Tới liên kết</InternetShortcutWindowTitle>
+  
+  <CommandVersioning>versioning</CommandVersioning>
+  <CommandVersionHistory>lịch sử phiên bản</CommandVersionHistory>
+  <CommandCheckOut>Kiểm tra</CommandCheckOut>
+  <CommandCheckIn>đăng ký vào</CommandCheckIn>
+  <CommandUndoCheckOut>Hủy Kiểm tra thực</CommandUndoCheckOut>
+  <VersionHistoryObtainingMessage>Lấy phiên bản lịch sử</VersionHistoryObtainingMessage>
+  <NoVersionHistoryMessage>Lịch sử phiên bản dành cho các tập tin được lựa chọn không tồn tại</NoVersionHistoryMessage>
+  <FileIsCheckedOutMessage>Các tập tin "{0}" đã được kiểm tra bởi người sử dụng "{1}" của {2}</FileIsCheckedOutMessage>
+  <CheckingOutMessage>Kiểm tra</CheckingOutMessage>
+  <SuccessfullyCheckedOutMessage>Các tập tin "{0}" đã được kiểm tra thành công do người sử dụng "{1}"</SuccessfullyCheckedOutMessage>
+  <FileIsNotCheckedOutMessage>Các tập tin "{0}" đã không được kiểm tra chưa</FileIsNotCheckedOutMessage>
+  <FileIsCheckedOutOtherUserMessage>Các tập tin "{0}" được chọn ra bởi một người dùng khác "{1}" của {2}.</FileIsCheckedOutOtherUserMessage>
+  <FileUndoCheckOutForbiddenMessage>Bạn không thể hủy bỏ một kiểm tra được áp dụng bởi một người dùng khác.</FileUndoCheckOutForbiddenMessage>
+  <FileCheckInForbiddenMessage>Bạn không thể kiểm tra trong một tập tin đã được kiểm tra bởi một người dùng khác.</FileCheckInForbiddenMessage>
+  <FileUndoCheckOutConfirmMessage>Nếu bạn hủy bỏ kiểm tra của bạn ra, những thay đổi áp dụng cho các tài liệu sẽ không được lưu! Bạn có chắc chắn muốn hủy bỏ kiểm tra của bạn ra?</FileUndoCheckOutConfirmMessage>
+  <FileVersionDeleteConfirmTitle>Xóa các tập tin phiên bản</FileVersionDeleteConfirmTitle>
+  <FileVersionDeleteConfirmMessage>Bạn có chắc chắn rằng bạn muốn xóa các phiên bản được lựa chọn của tập tin?</FileVersionDeleteConfirmMessage>
+  <FileVersionRestoreConfirmTitle>Khôi phục các tập tin phiên bản</FileVersionRestoreConfirmTitle>
+  <FileVersionRestoreConfirmMessage>Bạn có chắc rằng muốn khôi phục lại phiên bản đã chọn của tập tin? {0} Nếu có, chỉ định các tập tin trong đó các phiên bản được chọn sẽ được lưu vào. Nếu bạn để giá trị này mà không có sự thay đổi (hoặc thiết lập giá trị rỗng) phiên bản đã chọn sẽ thay thế các tập tin được lựa chọn (nội dung trước đó của file sẽ được thêm vào lịch sử phiên bản) {1} Tên tập tin.:</FileVersionRestoreConfirmMessage>
+  <UndoCheckingOutMessage>Hủy Kiểm tra thực</UndoCheckingOutMessage>
+  <SuccessfullyUndoCheckedOutMessage>Việc huỷ bỏ việc kiểm tra cho một tập tin "{0}" đã được hoàn thành.</SuccessfullyUndoCheckedOutMessage>
+  <SuccessfullyCheckedInMessage>Các tập tin "{0}" được kiểm tra thành công vào bởi người dùng "{1}"</SuccessfullyCheckedInMessage>
+  <CheckingInMessage>kiểm tra Trong</CheckingInMessage>
+  <VersionHistoryTitle>các phiên bản tập tin "{0}"</VersionHistoryTitle>
+  <VersionHistoryGridNumberColumn>Ver.</VersionHistoryGridNumberColumn>
+  <VersionHistoryGridNotesColumn>Ghi chú</VersionHistoryGridNotesColumn>
+  <CommandRestoreVersion>khôi phục</CommandRestoreVersion>
+  <ProgressPrepareDownloadOldVersion>Chuẩn bị cho phiên bản cũ tải</ProgressPrepareDownloadOldVersion>
+  <FileVersionNotFoundMessage>Các phiên bản tập tin được lựa chọn đã không được tìm thấy.</FileVersionNotFoundMessage>
+  <ProgressDeletingVersion>Version Xóa</ProgressDeletingVersion>
+  <ProgressRestoringVersion>Version Khôi phục</ProgressRestoringVersion>
+  <FileNeedCheckInMessage>Hãy kiểm tra trong hoặc hủy bỏ việc kiểm tra cho các tập tin được lựa chọn và thử lại.</FileNeedCheckInMessage>
+  <FileCheckedOutEditForbiddenMessage>Bạn không thể sửa đổi / đổi tên / di chuyển / xóa tập tin "{0}", trong khi nó đang được kiểm tra bởi người dùng "{1}" của {2}</FileCheckedOutEditForbiddenMessage>
+  <FileUploadCheckInLabel>Bạn có thể kiểm tra trong các tập tin hoặc tải lên một phiên bản mới của tập tin (sử dụng mẫu tải ở dưới). Nếu bạn muốn tạo ra một phiên bản mới của một tập tin được lựa chọn, không tải lên bất kỳ tập tin ở đây.</FileUploadCheckInLabel>
+  <FileUploadCheckInInvalidFileName>Tên của tập tin tải lên nên được chính xác giống như tên của tập tin đã chọn</FileUploadCheckInInvalidFileName>
+  <CheckOutVersionNotes>Phiên bản này đã được tạo ra tự động</CheckOutVersionNotes>
+  <RestoreVersionNotes>Phiên bản này đã được tạo ra tự động sau khi khôi phục các phiên bản từ {0} của người sử dụng "{1}"</RestoreVersionNotes>
+  <IsCheckedOutHint>Các tập tin đã được kiểm tra</IsCheckedOutHint>
+  <ExistsOldVersionsHint>Các tập tin có các phiên bản khác</ExistsOldVersionsHint>
+  <IsLockedHint>Các tập tin bị khóa</IsLockedHint>
+  <FileWasCreatedHint>Đã được tạo ra {0} trước</FileWasCreatedHint>
+  <FileWasModifiedHint>Đã được thay đổi {0} trước</FileWasModifiedHint>
+  <CommonChangedAgo>{0} trước</CommonChangedAgo>
+  <DaysShort>d</DaysShort>
+  <HoursShort>h</HoursShort>
+  <MinutesShort>m</MinutesShort>
+  <FileContainsMetaDataHint>Có một số chi tiết (siêu dữ liệu)</FileContainsMetaDataHint>
+  <FileMetaDataCaptionMobile>metadata</FileMetaDataCaptionMobile>
+
+  <ExistsPublicLinksFileHint>Các tập tin có liên kết nào</ExistsPublicLinksFileHint>
+  <ExistsPublicLinksFolderHint>Các thư mục có liên kết nào</ExistsPublicLinksFolderHint>
+  <PublicLinkNotFound>liên kết công khai cho "{0}" không tìm thấy</PublicLinkNotFound>
+
+  <PublicLinksDeleteWindowTitle>Xóa liên kết công cộng (s)</PublicLinksDeleteWindowTitle>
+  <PublicLinksDeleteLinkButton>xóa liên kết</PublicLinksDeleteLinkButton>
+  <PublicLinksDeleteConfirmMsg>Bạn có chắc chắn bạn muốn xóa các liên kết nào được lựa chọn?</PublicLinksDeleteConfirmMsg>
+  <PublicLinksDeleteSingleConfirmMsg>Bạn có chắc chắn muốn xóa liên kết này?</PublicLinksDeleteSingleConfirmMsg>
+
+  <DetailsMultiValue>(Giá trị đa)</DetailsMultiValue>
+
+  <GridBottomFilesSizeInfo>Chọn: {0} / {1},</GridBottomFilesSizeInfo>
+  <GridBottomFilesFoldersInfo>file: {0} / {1}, thư mục: {2} / {3}</GridBottomFilesFoldersInfo>
+
+  <AmountOfDownloadingsFile>tải</AmountOfDownloadingsFile>
+
+  <CookiesDisabledMessage>Chức năng trình duyệt cookie của bạn bị tắt. Hãy bật nó lên và trình duyệt khởi động lại.</CookiesDisabledMessage>
+
+  <CommandSendEmail>Gửi email</CommandSendEmail>
+  <CommandSendWithGmail>Gửi bằng Gmail</CommandSendWithGmail>
+  <CommandSendWithOutlook>Gửi tin với Outlook</CommandSendWithOutlook>
+  <SendEmailTo>Đến</SendEmailTo>
+  <SendEmailBulkMailingListHint>&lt;b&gt; danh sách gửi thư &lt;/b&gt; &lt;br /&gt; Bạn có thể chỉ định toàn bộ các nhóm để gửi email của bạn</SendEmailBulkMailingListHint>
+  <SendEmailBulkMailingListWindowTitle>Chọn tiếp nhận các email của bạn</SendEmailBulkMailingListWindowTitle>
+  <SendEmailEmptyMailingListMessage>Danh sách Mail là có sản phẩm nào</SendEmailEmptyMailingListMessage>
+  <SendEmailSenderEmail>Tên người gửi email</SendEmailSenderEmail>
+  <SendEmailSubject>Môn học</SendEmailSubject>
+  <SendEmailFilesAsLinksTo>Gửi liên kết đến tập tin đã chọn</SendEmailFilesAsLinksTo>
+  <SendEmailFilesAsAttachements>Gửi các tập tin được lựa chọn như file đính kèm</SendEmailFilesAsAttachements>
+  <SendEmailSend>gởi</SendEmailSend>
+  <SendEmailProgressMessage>Gửi email</SendEmailProgressMessage>
+  <GettingMailingListProgressMessage>Lấy danh sách gửi thư</GettingMailingListProgressMessage>
+  <SendEmailSuccessMessage>Email đã được gửi thành công.</SendEmailSuccessMessage>
+  <SendEmailResultsMessage>&lt;br /&gt; {0} Không:: gửi. {1} {2}.</SendEmailResultsMessage>
+  <SmtpServerSettingsIncorrect>Các tùy chọn SMTP-server hoặc là rỗng hoặc không chính xác</SmtpServerSettingsIncorrect>
+  <FromEmailIncorrect>Từ địa chỉ email là không chính xác hoặc có sản phẩm nào</FromEmailIncorrect>
+  <ToEmailIncorrect>Các địa chỉ Để gửi email cho là không chính xác hoặc có sản phẩm nào</ToEmailIncorrect>
+  <EmailSubjectEmpty>Các chủ đề email không được chỉ định</EmailSubjectEmpty>
+  <UploadFromUrlTab>từ URL</UploadFromUrlTab>
+  <UploadFromUrlFieldLabel>URL (HTTP hoặc FTP tập tin duy nhất)</UploadFromUrlFieldLabel>
+  <UploadFromUrlProgressTitle>Tải lên từ URL</UploadFromUrlProgressTitle>
+  <UploadFromUrlMsg>Tải lên từ URL</UploadFromUrlMsg>
+  <UploadFromUrlSuccessMsg>Các tập tin "{0}" đã được tải lên thành công từ "{1}"</UploadFromUrlSuccessMsg>
+  <UploadFromUrlUnknownResponse>Các phản hồi từ máy chủ không được công nhận</UploadFromUrlUnknownResponse>
+  <UploadFromUrlEmptyFileName>Tên của tập tin tải lên là có sản phẩm nào</UploadFromUrlEmptyFileName>
+  <UploadFromUrlFileName>Lưu với tên (để trống để sử dụng tên từ URL)</UploadFromUrlFileName>
+  <UploadFromUrlFileNameMobile>Lưu với tên</UploadFromUrlFileNameMobile>
+  
+  <!-- Common Clouds keys -->  
+  <CloudAuthenticateMessage>Bạn phải đăng nhập vào {0}. Nhấp vào "{1}" liên kết và bạn sẽ được chuyển hướng đến các hình thức đăng nhập. {2} Thông tin thêm. {3}</CloudAuthenticateMessage>
+  <CloudAuthenticateLink>Xác thực với {0}</CloudAuthenticateLink>  
+  <CloudDownloadingMessage>Tải đến {0}</CloudDownloadingMessage>
+  <CloudAuthWarningMessage>Nếu các hành động đã không xảy ra, hãy đóng cửa sổ này và nhấn vào "{0}" liên kết lại.</CloudAuthWarningMessage>
+  <CloudAuthEmptyInvalidMessage>{0} Truy cập Token trống hoặc không hợp lệ. Vui lòng xác thực một lần nữa.</CloudAuthEmptyInvalidMessage>
+  <CloudDownloadEndMessageTitle>Tải xong</CloudDownloadEndMessageTitle>
+  <CloudDownloadFilesSuccessMessage>{0} file (s) tải về thành công để "{1}" thư mục {2}.</CloudDownloadFilesSuccessMessage>
+  <CloudNotDownloadedFilesMessage>{0} file (s) không được tải về:</CloudNotDownloadedFilesMessage>
+  <CloudFoldersCreatedSuccessMessage>{0} thư mục (s) tạo thành công trong "{1}" thư mục {2}.</CloudFoldersCreatedSuccessMessage>
+  <CloudNotFoldersCreatedMessage>{0} thư mục (s) không được tạo ra:</CloudNotFoldersCreatedMessage>
+  <CloudFilesFoldersSuccessMessage>{0} file (s), {1} thư mục (s) tải về thành công để "{2}" thư mục {3}.</CloudFilesFoldersSuccessMessage>
+  <CloudNotFilesFoldersDownloadedMessage>{0} file (s), {1} thư mục (s) không được tải về:</CloudNotFilesFoldersDownloadedMessage>
+  <CloudLinkText>Truy cập {0}</CloudLinkText>
+  <CloudLinkDescription>Tới {0} trang</CloudLinkDescription>
+  <CloudRootFolderName>&lt;b&gt; {0} thư mục gốc &lt;/b&gt;</CloudRootFolderName>
+  <CloudCheckFolerMessage>Vui lòng kiểm tra một đơn {0} thư mục để tiếp tục.</CloudCheckFolerMessage>
+  <CloudSelectFolderMessage>Vui lòng chọn thư mục {0} để tiếp tục.</CloudSelectFolderMessage>
+  <CloudGetFoldersInfoProgressMessage>Đang tải thông tin {0} thư mục</CloudGetFoldersInfoProgressMessage>
+  <CloudGetItemsInfoProgressMessage>Thông tin tải {0} mục</CloudGetItemsInfoProgressMessage>
+  <CloudUploadSelectItemsMessage>Vui lòng chọn {0} mục để tiếp tục.</CloudUploadSelectItemsMessage>
+  <CloudUploadTotalFiles>Tổng số file: {0} ({1})</CloudUploadTotalFiles>
+  <CloudUploadProgressMessage>Tải lên từ {0}</CloudUploadProgressMessage>
+  <CloudSignInAsDifferentUserText>Thoát từ {0}</CloudSignInAsDifferentUserText>
+  <CloudLogoutProgressMsg>Thoát từ {0}</CloudLogoutProgressMsg>
+  <CloudRevokeTokenMsg>Thu hồi thẻ</CloudRevokeTokenMsg>
+  <CloudRefreshTokenMsg>thẻ Refreshing</CloudRefreshTokenMsg>
+  <CloudAuthNotCompleteMsg>Xác thực không hoàn thành. &lt;br /&gt; Xin</CloudAuthNotCompleteMsg>
+  <CloudTrustedSitesMsg> kiểm tra các trang web trong "Trusted sites" danh sách sau đây: &lt;br /&gt; &lt;br /&gt;</CloudTrustedSitesMsg>
+  <TrustedSitesForMicrosoftEdge>Nếu bạn đang sử dụng Microsoft Edge, sau đó kiểm tra các trang web tin cậy trong Internet Explorer</TrustedSitesForMicrosoftEdge>
+  <CloudCheckAuthMsg>Kiểm tra {0} xác thực</CloudCheckAuthMsg>
+  <CloudLoadMsg>Đang tải {0}</CloudLoadMsg>
+  <CloudFreeSpaceError>Không có đủ phòng trong {2} để tải lên các tập tin. Vâng: {0}. Kích thước: {1}.</CloudFreeSpaceError>
+  <CloudFreeSpaceExceeded>Không có đủ phòng trong {0}</CloudFreeSpaceExceeded>
+  <CloudExceedFileSizeError>Các tập tin bạn đang cố gắng để tải về có một kích thước tập tin của {1}, mà là lớn hơn kích thước tối đa cho phép để tải về - {0}.</CloudExceedFileSizeError>
+  <CloudFolderNotFound>Không tìm thấy thư. Có lẽ nó đã bị xóa</CloudFolderNotFound>
+  <CloudFileNotFound>Tập tin không được tìm thấy. Có lẽ nó đã bị xóa</CloudFileNotFound>
+  <CloudNoFoldersMessage>Không có thư mục để hiển thị</CloudNoFoldersMessage>
+  <CloudLibraryNotLoadedMsg>{0} thư viện khách hàng không nạp! &lt;br /&gt; Vui lòng kiểm tra kết nối Internet và-hoặc làm mới trang &lt;br. /&gt; Ngoài</CloudLibraryNotLoadedMsg>
+  <CloudDownloadWithNewNames>Sau file (s) tải về với cái tên mới:</CloudDownloadWithNewNames>
+
+  <!-- Google Drive Cloud keys -->
+  <CommandDownloadToGoogleDocs>Tải về Google Drive</CommandDownloadToGoogleDocs>
+  <GoogleDocsSaveAs>lưu thành:</GoogleDocsSaveAs>
+  <GoogleDocsSaveAsTitle>Lưu "{0}" như ...</GoogleDocsSaveAsTitle>
+  <GoogleDocsDownloadEndWarningMessage>Nếu bạn không thể xem các tài liệu được tải lên tài khoản Google Drive của bạn, chờ đợi một vài giây và cập nhật danh sách Google Drive.</GoogleDocsDownloadEndWarningMessage>
+  <GoogleDriveUploadNoFilesMessage>Không có tập tin trong Google Drive để tải lên</GoogleDriveUploadNoFilesMessage>
+  <GoogleDriveMaxUploadSizeError>Đối với nội dung kiểu "{0}" kích thước tối đa của tải lên {1} được vượt quá.</GoogleDriveMaxUploadSizeError>
+  <GoogleDriveConvertMsg>Nếu có thể, chuyển đổi tập tin sang định dạng Google Documents. {0} Thông tin thêm {1}.</GoogleDriveConvertMsg>
+
+  <!-- Box Cloud keys -->
+  <CommandDownloadToBox>Tải về để Hộp</CommandDownloadToBox>
+  <BoxDownloadWithNewNames>Các tập tin sau (s) đã được cập nhật với các phiên bản mới:</BoxDownloadWithNewNames>
+  <BoxNoViewPermission>Bạn không có quyền để xem các thư mục được lựa chọn</BoxNoViewPermission>
+  <BoxNoDownloadPermission>Bạn không có quyền để tải về</BoxNoDownloadPermission>
+  <BoxNoUploadPermission>Bạn không có quyền để tải lên</BoxNoUploadPermission>
+  <BoxUnableCreateOrInfoError>Không thể tạo ra hoặc có được thông tin</BoxUnableCreateOrInfoError>
+  
+  <!-- Dropbox Cloud keys -->
+  <CommandDownloadToDropbox>Tải về Dropbox</CommandDownloadToDropbox>
+  
+  <!-- OneDrive Cloud keys -->
+  <CommandDownloadToSkyDrive>Tải về để OneDrive</CommandDownloadToSkyDrive>
+  <AuthenticateOAuthSkyDriveMessageShort>Bạn phải đăng nhập vào tài khoản Microsoft Live của bạn.</AuthenticateOAuthSkyDriveMessageShort>
+  <SkyDriveAuthAlsoString>Cũng thế</SkyDriveAuthAlsoString>
+  <SkyDriveLoginButtonTitle>Đăng nhập</SkyDriveLoginButtonTitle>
+  <SkyDriveRegistryMessage>Không có một Windows Live ID? {0} Đăng ký ... {1}</SkyDriveRegistryMessage>
+  <SkyDriveMapRootFolder>Chú thích! Bạn có thể {0} bản đồ {1} thư mục OneDrive của bạn. path là</SkyDriveMapRootFolder>
+  <SkyDriveMoreInfoLink>{0} Thông tin thêm về OneDrive (SkyDrive) {1}</SkyDriveMoreInfoLink>
+  <OneDriveMaxUploadSizeError>Kích thước chấp nhận ({0}) của tập tin được tải lên được vượt quá: {1}</OneDriveMaxUploadSizeError>
+  <!-- OneDrive for Business -->
+  <OneDriveForBusinessMapWebFolderInfo>&lt;b&gt; Lưu ý! &lt;/b&gt; Trước khi mở tập tin ở vị trí này, trước tiên bạn phải thêm trang web vào danh sách các trang web đáng tin cậy của bạn, duyệt đến các trang web, và chọn tùy chọn để đăng nhập tự động (trong trình duyệt IE).</OneDriveForBusinessMapWebFolderInfo>
+  
+  <UploadFromUrlLabelText>Bạn có thể chỉ định URL của tập tin được lưu trữ tại một máy chủ tập tin toàn cầu hoặc tại một dịch vụ chia sẻ tập tin giống như {0}, {1}, {2}, {3}, {4}.</UploadFromUrlLabelText>
+  <UploadFromUrlLabelTextMobile>Chỉ định URL của tập tin</UploadFromUrlLabelTextMobile>
+
+  <LinkToFileTitle>Liên kết đến tập tin / thư mục</LinkToFileTitle>
+  <LinkToFileWarningAnonym>Liên kết này cung cấp truy cập nặc danh vào tập tin. Bất kỳ người dùng, kể cả khi không có tài khoản tại trang web này, có thể tải về hoặc tải lên các tập tin thông qua một liên kết nào. Một liên kết công vào một tập tin cho phép bạn tải về một tập tin được chọn. {0} Thông tin thêm {1}.</LinkToFileWarningAnonym>
+  <LinkToFileDownloadFileLink>Liên kết này cho phép bạn tải về các tập tin được lựa chọn {0} từ {1}. Bạn cần một tài khoản hợp lệ để sử dụng liên kết này. Nó không cung cấp truy cập nặc danh vào tập tin.</LinkToFileDownloadFileLink>
+  <LinkToFileExpireDate>Ngày hết hạn</LinkToFileExpireDate>
+  <LinkToFileDownloadCnt>giới hạn tải đếm</LinkToFileDownloadCnt>
+  <LinkToFileDownloadType>loại liên kết</LinkToFileDownloadType>
+  <LinkToFileGenerate>tạo liên kết</LinkToFileGenerate>
+  <LinkToFilePasswordNotMatch>Mật khẩu không phù hợp</LinkToFilePasswordNotMatch>
+  <LinkToFilePasswordRequired>Các mật khẩu cho liên kết công khai là cần thiết</LinkToFilePasswordRequired>
+  <LinkToFileInvalidForm>thông số không hợp lệ</LinkToFileInvalidForm>
+  <LinkToFileAnonymDownloadLinkHint>liên kết công khai cho "{0}":</LinkToFileAnonymDownloadLinkHint>
+  <LinkToFileAnonymDownloadShortLinkHint>liên kết công ngắn cho "{0}":</LinkToFileAnonymDownloadShortLinkHint>
+  <LinkToFileOpenFolderLink>Liên kết này cho phép bạn mở thư mục đã chọn {0} trong {1}. Bạn cần một tài khoản hợp lệ để sử dụng liên kết này. Nó không cung cấp truy cập nặc danh đến thư mục.</LinkToFileOpenFolderLink>
+  <LinkToFileOpenFileLink>Liên kết này mở thư mục với tập tin và làm nổi bật nó</LinkToFileOpenFileLink>
+  <LinkToFileDaysLeft>ngày còn lại</LinkToFileDaysLeft>
+  <LinkToFileCaptionMobile>liên kết công cộng</LinkToFileCaptionMobile>
+
+  <PublicFolderLinkHint>liên kết công vào thư mục "{0}":</PublicFolderLinkHint>
+  <PublicFolderShortLinkHint>liên kết công ngắn vào thư mục "{0}":</PublicFolderShortLinkHint>
+  <PublicFolderLinkDownloadZipHint>Tải về liên kết cho kho lưu trữ zip của thư mục "{0}":</PublicFolderLinkDownloadZipHint>
+  <PublicFolderLinkShortDownloadZipHint>link download ngắn để lưu trữ zip của thư mục "{0}":</PublicFolderLinkShortDownloadZipHint>
+  <PublicFolderLinkZipDownload>Nén và tải về thư mục hiện tại {0} (trong một kho lưu trữ ZIP)</PublicFolderLinkZipDownload>
+  <PublicFolderLinkOverwriteWhileUpload>ghi đè lên</PublicFolderLinkOverwriteWhileUpload>
+  <PublicFolderLinkOpenFolderHint>Mở thư mục</PublicFolderLinkOpenFolderHint>
+  <PublicFolderDownloadDisabledNote>Chú thích! Chủ sở hữu của thư mục này đã bị cấm tải các tập tin từ thư mục này.</PublicFolderDownloadDisabledNote>
+  <PublicFolderLinkSendEmails>Gửi thông tin về hoạt động thăm để email</PublicFolderLinkSendEmails>
+  <PublicFolderAnonymAccessControl>Kiểm soát truy cập</PublicFolderAnonymAccessControl>
+  <PublicFolderAnonymDownload>Tải tập tin</PublicFolderAnonymDownload>
+  <PublicFolderAnonymZipDownload>Tải thư mục (ZIP)</PublicFolderAnonymZipDownload>
+  <PublicFolderAnonymUpload>Tải lên</PublicFolderAnonymUpload>
+  <PublicFolderAnonymViewContent>Xem danh sách tập tin</PublicFolderAnonymViewContent>
+  <PublicFolderNoteForUsers>Lưu ý cho người sử dụng</PublicFolderNoteForUsers>
+  <PublicFolderACLNotSet>kiểm soát truy cập không được thiết lập</PublicFolderACLNotSet>
+  <PublicFolderWarningAnonym>Liên kết này cung cấp truy cập nặc danh đến thư mục. Bất kỳ người dùng, kể cả khi không có tài khoản tại trang web này, có thể tải về hoặc tải lên các tập tin thông qua một liên kết nào. Một liên kết nào đến thư mục cho phép bạn tải về cả một toàn bộ thư mục (đóng gói trong kho lưu trữ) và các tập tin cá nhân. {0} Thông tin thêm {1}.</PublicFolderWarningAnonym>
+  <PublicLinksShowForAllItems>Hiện cho tất cả</PublicLinksShowForAllItems>
+  <PublicLinksShowForSelected>Hiển thị cho chọn</PublicLinksShowForSelected>
+  
+  <MultipleFileInputMessage>Chú thích! Trình duyệt của bạn hỗ trợ nhiều file lựa chọn cùng một lúc.</MultipleFileInputMessage>
+  <UploadZipUnzipNote>Bạn có thể tải lên một kho lưu trữ zip với nhiều tập tin và thư mục và sau đó giải nén nó, sử dụng "{0}" lệnh trong menu ngữ cảnh.</UploadZipUnzipNote>
+  <DnDFileUploadingStatusCode>mã trạng thái</DnDFileUploadingStatusCode>
+  <DnDFileUploadingPathOrNameEmpty>Đường dẫn và-hoặc tên file không được chỉ định</DnDFileUploadingPathOrNameEmpty>
+  <DnDFileUploadingRemoveFromList>Xóa từ danh sách</DnDFileUploadingRemoveFromList>
+  <DndFileUploadingDontDropFoldersMsg>Bạn có thể kéo và thả các tập tin vào bảng dưới đây. Bạn không thể thả các thư mục.</DndFileUploadingDontDropFoldersMsg>
+  <DndFileUploadingAllowDropFoldersMsg>Bạn có thể kéo và thả các tập tin và thư mục vào bảng dưới đây.</DndFileUploadingAllowDropFoldersMsg>
+  <DndFileUploadingFilesSummaryInfo>Tính của tập tin: {0} ({1})</DndFileUploadingFilesSummaryInfo>
+  <DropFilesHere>Thả file để tải lên</DropFilesHere>
+  
+  <FileGridDownloadColumn>Tải tập tin</FileGridDownloadColumn>
+  <FileAttributesField>Thuộc tính</FileAttributesField>
+  <FolderCalculateSize>tính toán</FolderCalculateSize>
+  <FolderRecalculateSize>Tính toán lại</FolderRecalculateSize>
+  <FolderContainsField>Chứa đựng</FolderContainsField>
+  <FolderContainsFilesFolders>{0} file, thư mục {1}</FolderContainsFilesFolders>
+  <FolderCalculatingMessage>tính</FolderCalculatingMessage>
+
+  <SearchTitle>Tìm kiếm tập tin. mẫu có sẵn: {0}</SearchTitle>
+  <SearchType>Tìm kiếm</SearchType>
+  <SearchOnlyFiles>chỉ tập tin</SearchOnlyFiles>
+  <SearchOnlyFolders>chỉ các thư mục</SearchOnlyFolders>
+  <SearchBothFilesFolders>cả hai tập tin và thư mục</SearchBothFilesFolders>
+  <SearchFileDetails>chi tiết tập tin</SearchFileDetails>
+  <SearchFileContent>nội dung tập tin</SearchFileContent>
+  <SearchByDateFrom>từ</SearchByDateFrom>
+  <SearchByDateTo>đến</SearchByDateTo>
+  <SearchLocation>Vị trí</SearchLocation>
+  <SearchLocationEntire>nơi nào</SearchLocationEntire>
+  <SearchLocationCurrent>Hiện hành</SearchLocationCurrent>
+  <SearchSearch>Tìm kiếm</SearchSearch>
+  <SearchNothingFound>Không có gì được tìm thấy! Vui lòng tinh chỉnh các tiêu chí tìm kiếm của bạn.</SearchNothingFound>
+  <SearchErrorCaption>lỗi tìm kiếm</SearchErrorCaption>
+  <SearchResultsNotComplete>Chú ý! Kết quả tìm kiếm có thể không đầy đủ như một số thư mục đã không được lập chỉ mục chưa.</SearchResultsNotComplete>
+  <SearchRepeatOrContactAdmin>Hãy thử tìm kiếm lại sau hoặc liên hệ với quản trị viên của bạn.</SearchRepeatOrContactAdmin>
+  <SearchLinkToManual>Tham khảo {0} Windows Search Help {1}</SearchLinkToManual>
+  <QuerySearchByNameText>tìm kiếm theo tên</QuerySearchByNameText>
+  <QuerySearchByConentText>bởi nội dung</QuerySearchByConentText>
+  <SearchByDetailsWarning>Chú ý! Bạn đã xác định trong Settings mà bạn muốn sử dụng tìm kiếm bằng tài sản. Trong trường hợp này, việc tìm kiếm sẽ được thực hiện bằng cách sử dụng phương pháp tiêu chuẩn thay vì sử dụng các dịch vụ chỉ mục Windows.</SearchByDetailsWarning>
+  <SearchInSpecialFolderWarning>Chú ý! Để tìm kiếm các thư mục hiện hành không áp dụng. Nếu bạn tiếp tục, việc tìm kiếm sẽ được thực hiện trong tất cả các thư mục.</SearchInSpecialFolderWarning>
+
+  <UploadTitle>Tải lên của nhiều tập tin</UploadTitle>
+  <UploadSimpleTab>Tiêu chuẩn</UploadSimpleTab>
+  <UploadSimpleReset>Thiết lập lại</UploadSimpleReset>
+  <UploadSimpleUpload>Tải lên</UploadSimpleUpload>
+  <UploadSimpleUploadFolderLabelCollapsed>thư mục upload</UploadSimpleUploadFolderLabelCollapsed>
+  <UploadSimpleUploadFolderButtonText>Chọn thư mục</UploadSimpleUploadFolderButtonText>
+  <UploadJavaTab>Java</UploadJavaTab>
+  <UploadJavaIgnorePaths>Đặt tất cả các tập tin trong một thư mục (bỏ qua đường dẫn)</UploadJavaIgnorePaths>
+  <UploadFlashTab>Đèn flash</UploadFlashTab>
+  <UploadSilverlightTab>Silverlight</UploadSilverlightTab>
+  <UploadPartially>Một số tập tin không thể được tải lên</UploadPartially>
+  <UploadFolderNotSelectedTitle>Thư mục không được chọn</UploadFolderNotSelectedTitle>
+  <UploadFolderNotSelected>Vui lòng chọn các thư mục mà các tập tin sẽ được tải lên</UploadFolderNotSelected>
+  <UploadInProgress>Tải lên tập tin của bạn</UploadInProgress>
+  <UploadInvalidFormFields>Form lĩnh vực có thể không được gửi cùng với các giá trị không hợp lệ</UploadInvalidFormFields>
+  <UploadAjaxFailed>giao tiếp Ajax thất bại</UploadAjaxFailed>
+  <UploadFilesAlreadyExists>File (s) đã tồn tại</UploadFilesAlreadyExists>
+  <UploadOverwriteFiles>tập tin hiện có sẽ được ghi đè. Bạn có muốn tiếp tục?</UploadOverwriteFiles>
+  <UploadOverwriteOrRenameFiles>Có một hoặc nhiều tập tin với tên tương ứng trong thư mục mà bạn chỉ định. Bạn có muốn ghi đè lên các tập tin hiện hành? Nhấp vào "{0}" nếu bạn muốn ghi đè lên các tập tin đã tồn tại, hoặc "{1}" - nếu bạn muốn lưu tất cả các tập tin (họ sẽ được đổi tên).</UploadOverwriteOrRenameFiles>
+  <UploadNotModifyExistingFiles>Có một hoặc nhiều tập tin với tên phù hợp trong thư mục mà bạn chỉ định. Các tập tin không thể được tải lên. Hãy loại bỏ các tập tin đã có trong danh sách tải lên hoặc đổi tên chúng.</UploadNotModifyExistingFiles>
+  <UploadRenamedExistingFiles>Có một hoặc nhiều tập tin với tên phù hợp trong thư mục mà bạn chỉ định. Những tập tin có tên phù hợp sẽ được đổi tên.</UploadRenamedExistingFiles>
+  <UploadNotAllowedTitle>Tải lên không được phép</UploadNotAllowedTitle>
+  <UploadNotAllowedPrompt>Bạn không thể tải lên các tập tin vào thư mục này</UploadNotAllowedPrompt>
+
+  <UploadMobileIOSVideo>Tải video lên. Kích hoạt tùy chọn này nếu bạn cần phải tải lên tập tin video.</UploadMobileIOSVideo>
+  <UploadMobileAurigmaLink>Xin lưu ý rằng bạn cần phải có Aurigma Up! cài đặt trên thiết bị của bạn để tải lên tập tin. Hãy nhấn vào đây để cài đặt Aurigma Up! ứng dụng để tải lên hình ảnh và video.</UploadMobileAurigmaLink>
+  <UploadMobileAurigmaReady>Sau Aurigma Up! được cài đặt hoặc nếu bạn đã có nó được cài đặt, nhấn nút "Upload" nút dưới đây.</UploadMobileAurigmaReady>
+  <UploadMobileAurigmaFilePrefix>Tiền tố cho các tập tin được tải lên</UploadMobileAurigmaFilePrefix>
+  <UploadMobileResult>Tải lên kết quả:</UploadMobileResult>
+  <UploadMobileUrlPlaceHolder>Nhập URL vào đây</UploadMobileUrlPlaceHolder>
+  <UploadMobileFileNamePlaceHolder>Nhập tên tập tin mới ở đây</UploadMobileFileNamePlaceHolder>
+  <UploadBrowseLabel>Duyệt ...</UploadBrowseLabel>
+  
+  <MobileToolTipsCaption>Bạn có biết rằng ...</MobileToolTipsCaption>
+  <MobileToolTipsNextButton>Manh tiêp theo</MobileToolTipsNextButton>
+  <MobileToolTipsIKnowButton>Tôi biết điều đó</MobileToolTipsIKnowButton>
+  <MobileToolTipsHideButton>Không bao giờ lộ diện</MobileToolTipsHideButton>
+  <MobileToolTipsMultiSelection>Để chọn nhiều file hoặc thư mục, bạn nên kích hoạt chế độ đa lựa chọn bằng cách bấm vào nút &lt;b&gt; {0} &lt;/b&gt;. Gõ vào nó một lần nữa để thoát khỏi chế độ đa lựa chọn.</MobileToolTipsMultiSelection>
+  <MobileToolTipsSlideToRemove>Bạn có thể trượt từ phải sang trái trên bất kỳ mục danh sách để loại bỏ nó. Một nút remove nội tuyến sẽ được hiển thị trên đầu trang của các mục trong danh sách.</MobileToolTipsSlideToRemove>
+  <MobileToolTipsTapAndHoldForMenu>Chạm và giữ vào bất kỳ mục danh sách để hiển thị menu ngữ cảnh. Các menu ngữ cảnh cùng hiển thị bởi tap vào nút 'tiết lộ'</MobileToolTipsTapAndHoldForMenu>
+  <MobileToolTipsDoubleTapForPreview>Độc tap vào tập tin để chọn nó, nhấn đúp để xem trước hoặc tải về nó. vòi duy nhất trên thư mục để mở nó.</MobileToolTipsDoubleTapForPreview>
+  <MobileToolTipsPullDownToRefresh>Kéo xuống danh sách để tải lại nội dung của nó.</MobileToolTipsPullDownToRefresh>
+  <MobileToolTipsPinchToScale>Bạn có thể sử dụng 'kẹp' cử chỉ để zoom-in và zoom-out hình ảnh.</MobileToolTipsPinchToScale>
+  <MobileToolTipsTapToHideBars>Tap bất cứ nơi nào trên màn hình để chuyển thanh công cụ.</MobileToolTipsTapToHideBars>
+  <MobileToolTipsSlideLeftRightToNext>Chuyển hình ảnh slide cử chỉ.</MobileToolTipsSlideLeftRightToNext>
+
+  <DownloadToCloudMobileTip>Độc tap để chọn thư mục, nhấn đúp để mở nó.</DownloadToCloudMobileTip>
+  
+  <UploadTotalMaxSizeMessage>Chú thích! Kích thước tối đa của tất cả các tập tin tải lên không được vượt quá {0}.</UploadTotalMaxSizeMessage>
+  <UploadOneFileMaxSizeMessage>Chú thích! Kích thước tối đa của mỗi tập tin tải lên không được vượt quá {0}.</UploadOneFileMaxSizeMessage>
+  <UploadUnlimitedSizeMessage>Chú thích! Kích thước của các tập tin được tải lên là UNLIMITED.</UploadUnlimitedSizeMessage>
+  <SimpleUploadSetFileNameNote>Lưu ý 2! Sau khi một tập tin được lựa chọn, bạn có thể thay đổi tên tập tin sẽ có sau khi tải lên</SimpleUploadSetFileNameNote>
+
+  <AnonymousUploadTitle>Tải lên tập tin vào thư mục này</AnonymousUploadTitle>
+  <AnonymousUploadDescription>Bạn có thể tải lên các tập tin vào thư mục này. Nhấp vào nút "duyệt" dưới đây và chọn tập tin.</AnonymousUploadDescription>
+  <AnonymousUploadOverwriteHint>Nếu tập tin được tải lên đã tồn tại, nó sẽ được thay thế.</AnonymousUploadOverwriteHint>
+  <AnonymousUploadShowUploadHint>Hiện hình thức upload</AnonymousUploadShowUploadHint>
+  <AnonymousUploadHideUploadHint>hình thức upload Ẩn</AnonymousUploadHideUploadHint>
+  <AnonymousUploadNewFolderNameHint>Trong lĩnh vực dưới đây, bạn có thể chỉ định một tên thư mục con (thư mục này sẽ được tạo ra nếu nó không tồn tại), trong đó các tập tin sẽ được tải lên:</AnonymousUploadNewFolderNameHint>
+  <AnonymousUploadCompleteTitle>Đang tải lên thư mục {0} được hoàn thành</AnonymousUploadCompleteTitle>
+  <AnonymousUploadExistsFilesMessage>Các tập tin sau (s) đã không được tải lên bởi vì file (s) có cùng tên (s) đã tồn tại: {0}.</AnonymousUploadExistsFilesMessage>
+  <AnonymousUploadOwnersNote>Lưu ý của chủ sở hữu thư mục</AnonymousUploadOwnersNote>
+  <AnonymousDownloadPageTitle>Tải tập tin</AnonymousDownloadPageTitle>
+  <AnonymousDownloadFileHint>Tải tập tin</AnonymousDownloadFileHint>
+  <AnonymousUploadPageTitle>Tải lên thư mục</AnonymousUploadPageTitle>
+  <AnonymousPublicFolderPageTitle>thư mục công cộng</AnonymousPublicFolderPageTitle>
+  <AnonymousLoginAccessUserFailure>Bạn đang đăng nhập vào tài khoản mà không có quyền truy cập vào các tài nguyên. Vui lòng nhập các thông tin khác để truy cập của bạn. Nếu bạn không biết họ, xin vui lòng liên hệ với chủ sở hữu của một liên kết nào hoặc quản trị viên của bạn.</AnonymousLoginAccessUserFailure>
+  <ProgressGettingAnonymLink>tạo liên kết công cộng</ProgressGettingAnonymLink>
+  <ProgressGettingAnonymLinks>Bắt liên kết ẩn danh</ProgressGettingAnonymLinks>
+  <ProgressGettingBoxViewLink>Bắt Box Xem liên kết</ProgressGettingBoxViewLink>
+  <AutodeskScriptNotIncludedMessage>Không thể tải Autodesk Viewer kịch bản</AutodeskScriptNotIncludedMessage>
+  <ProgressUninitializeAutodeskViewer>Đóng Autodesk Viewer</ProgressUninitializeAutodeskViewer>
+  <ProgressGettingAutodeskViewLink>Bắt Autodesk Xem thông tin</ProgressGettingAutodeskViewLink>
+  <AnonymousChangeLanguageHint>Chọn ngôn ngữ</AnonymousChangeLanguageHint>
+  <AnonymousUpLinkHint>Trở về thư mục mẹ</AnonymousUpLinkHint>
+  <AnonymousPasswordDescription>Các thư mục được bảo vệ mật khẩu</AnonymousPasswordDescription>
+  <AnonymousPasswordIncorrectMessage>Mật khẩu không đúng</AnonymousPasswordIncorrectMessage>
+  <AnonymousErrorTitle>lỗi liên kết công cộng</AnonymousErrorTitle>
+  <AnonymousErrorNotFound>liên kết công cộng "{0}" không tìm thấy!</AnonymousErrorNotFound>
+  <AnonymousErrorAccessDenied>Bạn không có quyền sử dụng các liên kết công cộng "{0}"</AnonymousErrorAccessDenied>
+  <AnonymousErrorFileNotFound>Các liên kết công cộng "{0}" dùng để chỉ một tập tin không tồn tại, thư mục hay NTFS đọc truy cập bị từ chối</AnonymousErrorFileNotFound>
+  <AnonymousErrorUnknownLinkType>Các liên kết công cộng "{0}" không được tìm thấy</AnonymousErrorUnknownLinkType>
+  <AnonymousSendEmailSubject>Thăm hoạt động của các thư mục công cộng</AnonymousSendEmailSubject>
+  <AnonymousSendEmailUploadBody>Các tập tin sau đây đã được tải lên thư mục công cộng của bạn {0}: {1}.</AnonymousSendEmailUploadBody>
+  <AnonymousSendEmailDownloadBody>Các tập tin {0} đã được tải về từ thư mục công cộng của bạn {1}.</AnonymousSendEmailDownloadBody>
+  <AnonymousSendEmailZipDownloadBody>Toàn bộ nội dung của thư mục công cộng {0} đã được tải về trong một kho lưu trữ ZIP.</AnonymousSendEmailZipDownloadBody>
+  <AnonymousViewLinksButton>Xem liên kết</AnonymousViewLinksButton>
+  <AnonymousViewLinksHint>Để xem liên kết công cộng hiện có</AnonymousViewLinksHint>
+  <AnonymousViewLinksWindowTitle>liên kết công cộng</AnonymousViewLinksWindowTitle>
+  <AnonymousViewLinksDateCreatedColumn>Ngày thành lập</AnonymousViewLinksDateCreatedColumn>
+  <AnonymousViewLinksDateExpiredColumn>Ngày hết hạn</AnonymousViewLinksDateExpiredColumn>
+  <AnonymousViewLinksPermissionColumn>sự cho phép</AnonymousViewLinksPermissionColumn>
+  <AnonymousViewLinksDownloadedColumn>Số lượng tải lại</AnonymousViewLinksDownloadedColumn>
+  <ProgressDeletingAnonymousLink>Xóa liên kết công cộng</ProgressDeletingAnonymousLink>
+  <ProgressSavingAnonymousLink>Lưu liên kết công cộng</ProgressSavingAnonymousLink>
+  <AnonymousEditLinkWindowTitle>Chỉnh sửa liên kết nào cho "{0}"</AnonymousEditLinkWindowTitle>
+  <AnonymousEditLinkShowUrl>Hiện liên kết</AnonymousEditLinkShowUrl>
+  <AnonymousEditLinkNotFound>Các liên kết nào không tìm thấy hoặc thời gian của nó có giá trị đã hết hạn</AnonymousEditLinkNotFound>
+
+  <AnonymousLinkSendViaButton>Gửi qua...</AnonymousLinkSendViaButton>
+  <AnonymousLinkSendViaEmailItem>E-mail...</AnonymousLinkSendViaEmailItem>
+  <AnonymousLinkSendButton>Gửi qua email ...</AnonymousLinkSendButton>
+  <AnonymousLinkSendSubject>Liên kết Công Web File Manager</AnonymousLinkSendSubject>
+
+  <AnonymousLinkAdvOptTitle>Các thông số khác</AnonymousLinkAdvOptTitle>
+  <AnonymousLinkViewTypeButton>xem liên kết</AnonymousLinkViewTypeButton>
+  <AnonymousLinkViewTypeDefault>Đầy</AnonymousLinkViewTypeDefault>
+  <AnonymousLinkViewTypeShort>Ngắn</AnonymousLinkViewTypeShort>
+
+  <AnonymousLinkShowCommentsLabel>Hiện mô tả, nhãn và bình luận</AnonymousLinkShowCommentsLabel>
+  <AnonymousLinkShowCommentsShort>Hiển thị nhận xét</AnonymousLinkShowCommentsShort>
+
+  <QRCodeButton>mã QR</QRCodeButton>
+
+  <AnonymousLinkLimitedAccessTitle>Truy cập hạn chế</AnonymousLinkLimitedAccessTitle>
+  <AnonymousLinkLimitAccessCheckBox>Hạn chế truy cập chỉ để xác thực người dùng quy định</AnonymousLinkLimitAccessCheckBox>
+  <AnonymousLinkLimitAccessTextArea>Nhập tên người dùng hoặc email (dấu phẩy)</AnonymousLinkLimitAccessTextArea>
+  <AnonymousLinkLimitAccessSendCheckBox>Gửi thông báo cho người sử dụng quy định</AnonymousLinkLimitAccessSendCheckBox>
+  <AnonymousLinkLimitAccessPersMsgLabel>Tin nhắn cá nhân (tùy chọn)</AnonymousLinkLimitAccessPersMsgLabel>
+  <AnonymousLinkLimitAccessPassAndUsersMsg>Bạn đã xác định mật khẩu và người dùng của bạn tại cùng một thời gian để truy cập vào liên kết. Hãy xác định một cái gì đó một.</AnonymousLinkLimitAccessPassAndUsersMsg>
+  <AnonymousLinkLimitAccessUsersNotFound>Người sử dụng:
+    {0}
+    không tồn tại</AnonymousLinkLimitAccessUsersNotFound>
+  <AnonymousLinkLimitAccessEmailsNotFound>Các email:
+    {0}
+    không tồn tại</AnonymousLinkLimitAccessEmailsNotFound>
+  <AnonymousLinkLimitAccessUsersEmailsNotFound>Người sử dụng:
+    {0}
+    và email:
+    {1}
+    không tồn tại</AnonymousLinkLimitAccessUsersEmailsNotFound>
+
+  <AnonymousLinkUnableToCreate>Không thể tạo liên kết ẩn danh</AnonymousLinkUnableToCreate>
+  <AnonymousLinkShortUrlLabel>Xin vui lòng bấm vào biểu tượng làm mới (ở góc dưới bên phải) để có được một liên kết ngắn</AnonymousLinkShortUrlLabel>
+  <AnonymousLinkShortUrlUpdate>Hãy tìm lấy hoặc cập nhật một liên kết ngắn</AnonymousLinkShortUrlUpdate>
+  <AnonymousLinkLongUrlNotSpecified>URL dài không được chỉ định</AnonymousLinkLongUrlNotSpecified>
+
+  <ClientFileOrDirectoryAlreadyExists>Một tập tin hoặc thư mục với tên này đã tồn tại</ClientFileOrDirectoryAlreadyExists>
+  <ClientPermissionsAllowTypes>quyền hiện nay cho phép hoạt động này chỉ với các loại tập tin sau {0}</ClientPermissionsAllowTypes>
+  <ClientPermissionsDenyTypes>quyền hiện hành cấm hoạt động này với các loại tập tin sau {0}</ClientPermissionsDenyTypes>
+  <OfficeApplicationNotFoundAlert>không tìm thấy ứng dụng Office. Mở một tập tin bằng tay bằng cách sử dụng liên kết trong hộp văn bản.</OfficeApplicationNotFoundAlert>
+  <OfficeAnonymousEditPublicLinkError>Không thể tạo liên kết nào để tài liệu văn phòng ẩn danh mở.</OfficeAnonymousEditPublicLinkError>
+
+  <GoogleOWAViewLinkMessage>Để xem tài liệu click vào liên kết dưới đây:</GoogleOWAViewLinkMessage>
+  <ZohoEditLinkMessage>Để chỉnh sửa liên kết tài liệu nhấp chuột dưới đây:</ZohoEditLinkMessage>
+  <PixlrEditLinkMessage>Để chỉnh sửa các liên kết hình ảnh nhấp chuột dưới đây:</PixlrEditLinkMessage>
+  <PixlrNewImageCreateTitle>Tạo một hình ảnh mới với Pixlr</PixlrNewImageCreateTitle>
+  <PixlrNewImageLinkMessage>Để tạo ra một hình ảnh mới, nhấp vào liên kết dưới đây:</PixlrNewImageLinkMessage>
+
+  <DownloadTitle>Việc tải nhiều file</DownloadTitle>
+  <DownloadSimpleTab>Tiêu chuẩn</DownloadSimpleTab>
+  <DownloadJavaTab>Java</DownloadJavaTab>
+  <DownloadIEPrevent>Internet Explorer ngăn tự động tải về</DownloadIEPrevent>
+  <DownloadIEClickHere>nhấn vào đây để tai</DownloadIEClickHere>
+  <DownloadIEArchiveReady>Lưu trữ "{0}" với các tập tin được lựa chọn đã được tạo ra và đã sẵn sàng để tải về</DownloadIEArchiveReady>
+  <DownloadIECaption>Tải sẵn sàng</DownloadIECaption>
+
+  <SettingsTitle>Cài đặt</SettingsTitle>
+  <SettingsLanguage>ngôn ngữ</SettingsLanguage>
+  <SettingsLogOutRequired>những thay đổi mới sẽ được áp dụng sau khi đăng xuất hay trình duyệt khởi động lại!</SettingsLogOutRequired>
+  <ThemeTitle>thay đổi Theme</ThemeTitle>
+  <SettingsTheme>Chọn Theme</SettingsTheme>
+  <ThemeDefaultTitle>mặc định Theme</ThemeDefaultTitle>
+  <ThemeGrayTitle>màu xám Theme</ThemeGrayTitle>
+  <ThemeAccessTitle>Truy Theme</ThemeAccessTitle>
+
+  <ChangeUserPasswordTitle>Thay đổi mật khẩu người dùng</ChangeUserPasswordTitle>
+  <ChangeUserPasswordOldPassword>Mật khẩu cũ</ChangeUserPasswordOldPassword>
+  <ChangeUserPasswordNewPassword>Mật khẩu mới</ChangeUserPasswordNewPassword>
+  <ChangeUserPasswordRepeatNewPassword>Lặp lại mật khẩu mới</ChangeUserPasswordRepeatNewPassword>
+  <ChangeUserPasswordPasswordsNotMatch>Mật khẩu không phù hợp.</ChangeUserPasswordPasswordsNotMatch>
+  <ChangeUserPasswordSuccessMessage>Mật khẩu đã được thay đổi.</ChangeUserPasswordSuccessMessage>
+  <ChangeUserPasswordInvalidMessage>Mật khẩu không hợp lệ.</ChangeUserPasswordInvalidMessage>
+
+  <ChangeUserEmailTitle>Thay đổi người dùng e-mail</ChangeUserEmailTitle>
+  <ChangeUserEmailEmail>E-mail</ChangeUserEmailEmail>
+  <ChangeUserEmailSuccessMessage>E-mail đã được thay đổi.</ChangeUserEmailSuccessMessage>
+
+  <UserHelpTitle>trợ giúp người dùng</UserHelpTitle>
+
+  <LicenseTitle>thông tin giấy phép</LicenseTitle>
+  <LicenseTrial>Khách viếng thăm đánh giá phiên bản 30-ngày</LicenseTrial>
+  <LicensePrompt>phiên bản cấp phép {0} count: {1} {0} Ngày mua: {2} {0}</LicensePrompt>
+  <LicenseFreeUpgradeMessage>Bạn vẫn có {0} ngày cho nâng cấp miễn phí và hỗ trợ.</LicenseFreeUpgradeMessage>
+  <LicenseCheckMessage>Hơn một năm đã trôi qua kể từ ngày mua. Để sử dụng phiên bản này bạn nên gia hạn đăng ký hoặc giáng cấp xuống phiên bản cũ. Bạn có thể kiểm tra giấy phép của bạn và tìm thấy phiên bản có sẵn tại &lt;a href='{0}' target='_blank'&gt; Kiểm tra trang Giấy phép &lt;/a&gt;</LicenseCheckMessage>
+  
+  <ViewPopupBlocked>cửa sổ mới đã bị chặn bởi một khóa quảng cáo</ViewPopupBlocked>
+  
+  <LoginTwoFactorTitle>Xác minh hai bước</LoginTwoFactorTitle>
+  <LoginTitle>Đăng nhập</LoginTitle>
+  <LoginRemember>lần sau hãy nhớ đến tôi</LoginRemember>
+  <LoginUISelect>giao diện</LoginUISelect>
+  <LoginUIStandard>Tiêu chuẩn</LoginUIStandard>
+  <LoginUITouch>di động</LoginUITouch>
+  <LoginLanguage>ngôn ngữ</LoginLanguage>
+  <LoginLogin>Đăng nhập</LoginLogin>
+  <LoginFailure>Bạn không đăng nhập thành công.</LoginFailure>
+  <LoginBlocked>Các tài khoản sẽ bị khóa. Chờ cho {0} phút để thử lại.</LoginBlocked>
+  <LoginNotActivated>Tài khoản của bạn chưa được kích hoạt.</LoginNotActivated>
+  <LoginResendActivation>Nếu thông điệp với mã kích hoạt không được nhận trong một thời gian dài, bấm vào {0} để gửi lại mã kích hoạt.</LoginResendActivation>
+  <LoginResendActivationLink>gửi mã kích hoạt</LoginResendActivationLink>
+  <LoginResendActivationCode>Nhấp vào {0} để gửi lại mã kích hoạt.</LoginResendActivationCode>
+  
+  <ActivateAccountOk>Tài khoản kích hoạt thành công!</ActivateAccountOk>
+  <ActivateAccountResultLabel>kết quả hoạt</ActivateAccountResultLabel>
+  <ActivateAccountErrorOnlyFormsAuth>Kích hoạt tài khoản có thể được sử dụng với hình thức xác thực</ActivateAccountErrorOnlyFormsAuth>
+  <ActivateAccountErrorNotRequired>Kích hoạt tài khoản bị vô hiệu hóa trong cài đặt ứng dụng. Tài khoản được tự động kích hoạt sau khi đăng ký.</ActivateAccountErrorNotRequired>
+  <ActivateAccountErrorAlreadyActivated>Tài khoản đã được kích hoạt</ActivateAccountErrorAlreadyActivated>
+  <ActivateAccountErrorInvalidCode>mã kích hoạt không hợp lệ</ActivateAccountErrorInvalidCode>
+  <ActivateAccountErrorAccountNotFound>Tài khoản không được tìm thấy</ActivateAccountErrorAccountNotFound>
+  <ActivateAccountErrorLinkBroken>liên kết kích hoạt được chia</ActivateAccountErrorLinkBroken>
+  <ActivateAccountReturnToLogin>Trở về trang đăng nhập</ActivateAccountReturnToLogin>
+  
+  <LoginRender>trả lại</LoginRender>
+  
+  <LogoutTitle>Web Thoát quản lý tập tin</LogoutTitle>
+  <LogoutSessionEnded>Các phiên hiện tại đã kết thúc</LogoutSessionEnded>
+  <LogoutCloseWindow>Đóng cửa sổ</LogoutCloseWindow>
+  <LogoutEnterAgain>đăng nhập lại</LogoutEnterAgain>
+  <LogoutClosingBrowserRequired>Chú ý! Ai cũng có thể đăng nhập bằng tài khoản của bạn! Nếu bạn đang sử dụng một máy tính dùng chung, sau đó bạn nên đóng cửa sổ trình duyệt của bạn (không chỉ các tab) để xóa xác thực trong trình duyệt của bạn! Đối với trình duyệt Firefox, bạn có thể rõ ràng, chứng thực tại menu: Tools&gt; Clear History bực bội ...-&gt; Details-&gt; kiểm tra Active Logins-&gt; nhấn Clear Now.</LogoutClosingBrowserRequired>
+  <RecoverPasswordTitle>Khôi phục mật khẩu</RecoverPasswordTitle>
+  <RecoverPasswordEmailPassword>Gửi mật khẩu qua email</RecoverPasswordEmailPassword>
+  <RecoverPasswordErrorInvalidUserName>Tên sử dụng không hợp lệ.</RecoverPasswordErrorInvalidUserName>
+  <RecoverPasswordErrorNoEmail>Thành viên này không có địa chỉ email xác định.</RecoverPasswordErrorNoEmail>
+  <RecoverPasswordErrorSendEmail>Có lỗi xảy ra trong khi gửi email của bạn.</RecoverPasswordErrorSendEmail>
+  <RecoverPasswordSuccess>Mật khẩu của bạn đã được gửi đến địa chỉ email của bạn.</RecoverPasswordSuccess>
+
+  <RecoverUserNameTitle>Khôi phục tên</RecoverUserNameTitle>
+  <RecoverUserEmailName>Gửi tên qua email</RecoverUserEmailName>
+  <RecoverUserNameErrorInvalidEmail>email dùng không hợp lệ.</RecoverUserNameErrorInvalidEmail>
+  <RecoverUserNameErrorNoEmail>không tìm thấy địa chỉ email.</RecoverUserNameErrorNoEmail>
+  <RecoverUserNameSuccess>Tên của bạn đã được gửi đến địa chỉ email của bạn.</RecoverUserNameSuccess>
+
+  <ChangeEmailTitle>Thay đổi e-mail</ChangeEmailTitle>
+  <ChangeEmailEmail>Email mới</ChangeEmailEmail>
+  <ChangeEmailSubmit>Đệ trình</ChangeEmailSubmit>
+  <ChangeEmailStatusSuccess>Email đã được thay đổi</ChangeEmailStatusSuccess>
+
+  <RegisterTitle>Ghi danh</RegisterTitle>
+  <RegisterEmail>E-mail</RegisterEmail>
+  <RegisterExtraInfo>Thông tin thêm</RegisterExtraInfo>
+  <RegisterCaptcha>Nhập văn bản mà bạn nhìn thấy trong hình dưới đây</RegisterCaptcha>
+  <RegisterSubmit>Đệ trình</RegisterSubmit>
+  <RegisterErrorPasswordNotMatch>Mật khẩu không phù hợp.</RegisterErrorPasswordNotMatch>
+  <RegisterErrorUserExists>Tên người dùng hoặc địa chỉ email này đã được sử dụng.</RegisterErrorUserExists>
+  <RegisterErrorCaptchaInvalid>Hình văn bản chưa được nhập một cách chính xác</RegisterErrorCaptchaInvalid>
+  <RegisterSuccess>Người dùng mới đã được thêm vào.</RegisterSuccess>
+  <RegisterActivationSent>mã kích hoạt đã được gửi đến email của bạn.</RegisterActivationSent>
+  <RegisterActivationCheckEmail>Vui lòng kiểm tra hộp thư của mình (đặc biệt thư mục rác) và làm theo hướng dẫn trong email.</RegisterActivationCheckEmail>
+  
+  <FolderGridUserPermissionsColumn>Truy cập cho người dùng</FolderGridUserPermissionsColumn>
+  <FolderGridGroupPermissionsColumn>Truy cập cho các nhóm</FolderGridGroupPermissionsColumn>
+
+  <LoginLinkText>Đăng nhập</LoginLinkText>
+  <RecoverPasswordLinkText>Quên mật khẩu?</RecoverPasswordLinkText>
+  <RecoverUserNameLinkText>Quên tên?</RecoverUserNameLinkText>
+  <RegisterLinkText>Ghi danh</RegisterLinkText>
+  <ChangeEmail>Thay đổi e-mail</ChangeEmail>
+  <LoginMobileVersionLinkText>phiên bản di động (Hầu hết các điện thoại thông minh và touchpad)</LoginMobileVersionLinkText>
+
+  <FileIsNotZipArchive>Các tập tin {0} không phải là kho lưu trữ ZIP</FileIsNotZipArchive>
+
+  <FileModificationsAuthor>tác giả</FileModificationsAuthor>
+  <FileModificationsHistory>Xem lịch sử</FileModificationsHistory>
+  <FileModificationsWindowTitle>Sửa đổi của tập tin "{0}"</FileModificationsWindowTitle>
+  <FileModificationsTypeCreated>Tạo</FileModificationsTypeCreated>
+  <FileModificationsTypeModified>Được thay đổi</FileModificationsTypeModified>
+  <FileModificationsTypeRenamed>đổi tên</FileModificationsTypeRenamed>
+  <FileModificationsTypeRestored>phục hồi</FileModificationsTypeRestored>
+  <FileModificationsTypeDeleted>Đã bị xóa</FileModificationsTypeDeleted>
+
+  <ChangingReadOnlyProgressMessage>Thay đổi thuộc tính chỉ đọc</ChangingReadOnlyProgressMessage>
+
+  <ImageViewerWindowTitle>Image Viewer [{0}]</ImageViewerWindowTitle>
+  <ImageViewerLoadingMessage>xem hình ảnh tải</ImageViewerLoadingMessage>
+  <ImageViewerLoadingImageMessage>Đang tải ảnh</ImageViewerLoadingImageMessage>
+  <ImageViewerFirstImageTip>hình ảnh đầu tiên</ImageViewerFirstImageTip>
+  <ImageViewerPreviousImageTip>Xem hình ảnh trước</ImageViewerPreviousImageTip>
+  <ImageViewerRefreshTip>danh sách các hình ảnh Làm mới</ImageViewerRefreshTip>
+  <ImageViewerNextImageTip>hình ảnh tiếp theo</ImageViewerNextImageTip>
+  <ImageViewerLastImageTip>hình ảnh cuối cùng</ImageViewerLastImageTip>
+  <ImageViewerRunSlideShow>Chạy các hình ảnh trình diễn</ImageViewerRunSlideShow>
+  <ImageViewerStopSlideShow>Dừng hình ảnh slide show</ImageViewerStopSlideShow>
+  <ImageViewerImageSimpleInfo>{0} / {1}, {2} ({3})</ImageViewerImageSimpleInfo>
+  <ImageViewerImageLoadErrorMessage>Các hình ảnh không được tìm thấy hoặc không thể được hiển thị</ImageViewerImageLoadErrorMessage>
+  <ImageViewerShowImageSizeOfWindow>Hiển thị hình ảnh với kích thước thật</ImageViewerShowImageSizeOfWindow>
+  <ImageViewerShowRealImageSize>Bấm vào để phóng to</ImageViewerShowRealImageSize>
+
+  <PasswordExpiresTitle>Mật khẩu hết hạn</PasswordExpiresTitle>
+  <PasswordExpiresMessage>Mật khẩu của bạn hết hạn sau {0} day (s)!</PasswordExpiresMessage>
+  <PasswordExpiredMessage>Mật khẩu của bạn đã hết hạn.</PasswordExpiredMessage>
+  <PasswordChangeMessage>Để thay đổi mật khẩu, chọn {0} {1} -&gt; {2} {3} trên thanh công cụ.</PasswordChangeMessage>
+
+  <UnzipContentTotalFiles>Tổng số file: {0} ({1})</UnzipContentTotalFiles>
+
+  <VideoConversionJobNotFound>
+    Không thể tìm thấy quá trình chuyển đổi định.
+    Lý do có thể:
+    1. Chuyển đổi hoàn thành trong một thời gian dài trước đây và thông tin về công việc này đã được gỡ bỏ.
+    2. Quá trình chuyển đổi chấm dứt bất thường.
+  </VideoConversionJobNotFound>
+  <VideoConversionUtilityNotFound>Không thể tìm thấy tiện ích để thực hiện các hoạt động yêu cầu: {0}</VideoConversionUtilityNotFound>
+  <!-- The current security principal "{0}" has insufficiant permissions to executable file "{1}".-->
+  <VideoConversionUtilityInsufficientPermissions>Người dùng hiện "{0}" bị từ chối truy cập đến tập tin thực thi "{1}".</VideoConversionUtilityInsufficientPermissions>
+  <VideoConversionOperationCancelled>hủy thao</VideoConversionOperationCancelled>
+  <VideoConversionUtilityFailed>tiện ích chuyển đổi chấm dứt bất thường</VideoConversionUtilityFailed>
+  <VideoConversionOutputFileBusy>tập tin đầu ra đang được sử dụng bởi quá trình chuyển đổi khác</VideoConversionOutputFileBusy>
+
+  <VideoConvertWindowValidatorPositiveInt>Phải là một số nguyên dương</VideoConvertWindowValidatorPositiveInt>
+  <VideoConvertWindowTitle>Chuyển đổi video</VideoConvertWindowTitle>
+  <VideoConvertWindowInputFile>Tài liệu nhập vào</VideoConvertWindowInputFile>
+  <VideoConvertWindowOutputFile>tập tin đầu ra</VideoConvertWindowOutputFile>
+  <VideoConvertWindowOutputFormat>Định dạng đầu ra</VideoConvertWindowOutputFormat>
+  <VideoConvertWindowBitrate>Bitrate (kbps)</VideoConvertWindowBitrate>
+  <VideoConvertWindowFrameResolution>độ phân giải khung</VideoConvertWindowFrameResolution>
+  <VideoConvertWindowDAR>tỉ lệ hiển thị</VideoConvertWindowDAR>
+  <VideoConvertWindowPAR>tỉ lệ Pixel</VideoConvertWindowPAR>
+  <VideoConvertWindowResize>Thay đổi kích thước</VideoConvertWindowResize>
+  <VideoConvertWindowProfile>Hồ sơ</VideoConvertWindowProfile>
+  <VideoConvertWindowWidth>Chiều rộng</VideoConvertWindowWidth>
+  <VideoConvertWindowHeight>Chiều cao</VideoConvertWindowHeight>
+  <VideoConvertWindowExtractDetailsProgressMsg>Trích xuất và chi tiết video</VideoConvertWindowExtractDetailsProgressMsg>
+  <VideoConvertWindowOutputFileExistsTitle>File xuất ra tồn tại</VideoConvertWindowOutputFileExistsTitle>
+  <VideoConvertWindowOutputFileExistsMsg>tập tin đầu ra đã tồn tại. Nó sẽ được ghi đè.</VideoConvertWindowOutputFileExistsMsg>
+  <VideoConvertWindowPrepareToConvert>Chuẩn bị để chuyển đổi video</VideoConvertWindowPrepareToConvert>
+  <VideoConvertWindowOutputFileMatchInputFile>tên tập tin đầu ra phù hợp với tên tập tin đầu vào</VideoConvertWindowOutputFileMatchInputFile>
+
+  <VideoConvertProgressWindowTitle>Chuyển đổi video</VideoConvertProgressWindowTitle>
+  <VideoConvertProgressWindowInputFile>Tài liệu nhập vào</VideoConvertProgressWindowInputFile>
+  <VideoConvertProgressWindowOutputFile>tập tin đầu ra</VideoConvertProgressWindowOutputFile>
+  <VideoConvertProgressWindowStatus>Trạng thái</VideoConvertProgressWindowStatus>
+  <VideoConvertProgressWindowStatusTerminating>Chấm dứt</VideoConvertProgressWindowStatusTerminating>
+  <VideoConvertProgressWindowStatusPreparing>Chuẩn bị</VideoConvertProgressWindowStatusPreparing>
+  <VideoConvertProgressWindowStatusProgress>Bước {0} {1}</VideoConvertProgressWindowStatusProgress>
+  <VideoConvertProgressWindowStatusDone>Làm xong</VideoConvertProgressWindowStatusDone>
+
+  <PlayHtml5VideoNotSupported>Trình duyệt của bạn không hỗ trợ các yếu tố video HTML 5.</PlayHtml5VideoNotSupported>
+  <PlayHtml5VideoPlayFailed>Chơi video bị lỗi</PlayHtml5VideoPlayFailed>
+  <PlayHtml5AudioPlayFailed>Chơi âm thanh không</PlayHtml5AudioPlayFailed>
+  <PlayHtml5AudioTitle>Chức vụ</PlayHtml5AudioTitle>
+  <PlayHtml5AudioNotSupported>Trình duyệt của bạn không hỗ trợ các yếu tố âm thanh HTML 5.</PlayHtml5AudioNotSupported>
+  <PlayHtml5AudioArtist>Họa sĩ</PlayHtml5AudioArtist>
+  <PlayHtml5AudioAlbum>album</PlayHtml5AudioAlbum>
+  <PlayHtml5AudioYear>Năm</PlayHtml5AudioYear>
+  <PlayHtml5AudioDuration>thời gian</PlayHtml5AudioDuration>
+  <PlayHtml5AudioBitrate>bitrate</PlayHtml5AudioBitrate>
+  <PlayHtml5AudioVolume>Âm lượng</PlayHtml5AudioVolume>
+
+  <!-- Root title -->
+  <RootTitle>nguồn gốc</RootTitle>
+
+  <!-- Recent feature keys -->
+  <RecentRootTitle>mới đây</RecentRootTitle>
+  <RecentDeleteOnePrompt>Bạn có chắc chắn muốn xóa "{0}" từ các mặt hàng gần đây của bạn?</RecentDeleteOnePrompt>
+  <RecentDeleteManyPrompt>Bạn có chắc chắn bạn muốn xóa các {0} các mục từ mục gần đây của bạn?</RecentDeleteManyPrompt>
+  <RecentPathNotExist>Con đường gần đây "{0}" không tồn tại hoặc truy cập bị từ chối</RecentPathNotExist>
+  <RecentAllWithoutGroupingTitle>Tất cả các w / o nhóm</RecentAllWithoutGroupingTitle>
+  <RecentEditGroupTitle>sửa</RecentEditGroupTitle>
+  <RecentViewGroupTitle>Được xem</RecentViewGroupTitle>
+  <RecentDownloadGroupTitle>tải về</RecentDownloadGroupTitle>
+  <RecentUploadGroupTitle>tải lên</RecentUploadGroupTitle>
+  <RecentCreateGroupTitle>Tạo</RecentCreateGroupTitle>
+
+  <!-- Trash feature keys -->
+  <TrashRootTitle>Rác</TrashRootTitle>
+  <TrashLabelDateDeleted>ngày xóa</TrashLabelDateDeleted>
+  <TrashDeleteOnePrompt>Bạn có chắc chắn bạn muốn xóa vĩnh viễn "{0}" từ rác?</TrashDeleteOnePrompt>
+  <TrashDeleteManyPrompt>Bạn có chắc chắn bạn muốn xóa vĩnh viễn những {0} mục từ thùng rác?</TrashDeleteManyPrompt>
+  <TrashEmptyTrashLabel>Empty Trash</TrashEmptyTrashLabel>
+  <TrashRestoreSelectedLabel>khôi phục</TrashRestoreSelectedLabel>
+  <TrashRestoreAllLabel>Khôi phục lại tất cả</TrashRestoreAllLabel>
+  <TrashEmptyTrashPrompt>Bạn có chắc chắn muốn xóa bộ Thùng rác?</TrashEmptyTrashPrompt>
+  <TrashRestoreAllPrompt>Bạn có chắc chắn muốn khôi phục lại tất cả các mục từ thùng rác?</TrashRestoreAllPrompt>
+  <TrashProgressRestoring>Phục hồi từ Thùng rác</TrashProgressRestoring>
+  <TrashFolderNotFound>thư mục Thùng rác không tìm thấy</TrashFolderNotFound>
+  <TrashBalloonRestored>mục được khôi phục: {0} {1}</TrashBalloonRestored>
+  <TrashDeleteDirectlyLabel>Xóa trực tiếp mà không cần loại bỏ vào thùng rác</TrashDeleteDirectlyLabel>
+  <TrashUsedSpaceHint>{0} sử dụng</TrashUsedSpaceHint>
+  <TrashLimitSizeHint>Được sử dụng {0} {1} ({2})</TrashLimitSizeHint>
+  <TrashLargeItemsShelfTimeHint>Thời gian lưu trữ của các đối tượng lớn hơn {0}: {1} day (s)</TrashLargeItemsShelfTimeHint>
+  <TrashSmallItemsShelfTimeHint>Đối với tất cả những người khác: {0} day (s)</TrashSmallItemsShelfTimeHint>
+  <TrashItemsShelfTimeHint>Thời gian lưu trữ của các đối tượng: {0} day (s)</TrashItemsShelfTimeHint>
+  <TrashAvailableSpaceHint>Kích thước tối đa có sẵn {0}</TrashAvailableSpaceHint>
+  <TrashDeletedFromFolderHint>Xóa từ {0}</TrashDeletedFromFolderHint>
+  <TrashExceededMessage>Các đối tượng sau đây là quá lớn và không thể được đặt vào thùng rác (những hạn chế của {0} được vượt quá):</TrashExceededMessage>
+  <TrashErrorSuffixMessage>Hãy cố gắng để kiểm tra tùy chọn "{0}" và sau đó xóa file (s) mãi mãi xa hơn hồi</TrashErrorSuffixMessage>
+
+  <!-- Shared by link -->
+  <SharedByLinkRootTitle>Được chia sẻ bởi liên kết</SharedByLinkRootTitle>
+
+  <!-- Shared for you -->
+  <SharedForYouRootTitle>Chia sẻ với bạn</SharedForYouRootTitle>
+  <SharedForYouUnableToGetUrl>Không thể có được URL</SharedForYouUnableToGetUrl>
+
+  <!-- Watch for modifications -->
+  <WatchForModifsCommand>Theo dõi các thay đổi</WatchForModifsCommand>
+  <WatchForModifsStartCommand>Bắt đầu xem</WatchForModifsStartCommand>
+  <WatchForModifsEditCommand>thay đổi xem</WatchForModifsEditCommand>
+  <WatchForModifsStopCommand>ngừng theo dõi</WatchForModifsStopCommand>
+  <WatchForModifsViewChangesCommand>Xem thay đổi</WatchForModifsViewChangesCommand>
+  <WatchForModifsSubscriptionSuccessMessage>Bạn đã đăng ký thành công để sửa đổi để "{0}"</WatchForModifsSubscriptionSuccessMessage>
+  <WatchForModifsStopSuccessMessage>Việc giám sát "{0}" đã được vô hiệu hóa thành công</WatchForModifsStopSuccessMessage>
+  <WatchForModifsIncludingNestedLabel>Hãy xem xét các file lồng nhau, các thư mục</WatchForModifsIncludingNestedLabel>
+  <WatchForModifsParentWatchExistMessage>Đối với các sản phẩm được chọn đã được đã được giao quyền giám sát đối với các thư mục mẹ "{0}".</WatchForModifsParentWatchExistMessage>
+  <WatchForModifsRootFolder>Đại diện thực</WatchForModifsRootFolder>
+  <WatchForModifsStartProgressLoading>Kích hoạt tính năng xem</WatchForModifsStartProgressLoading>
+  <WatchForModifsStopProgressLoading>Terminatie xem</WatchForModifsStopProgressLoading>
+  <WatchForModifsIconHint>đồng hồ kích hoạt để sửa đổi</WatchForModifsIconHint>
+  <WatchForModifsNotifCheckBox>Thông báo về việc sửa đổi bằng email:</WatchForModifsNotifCheckBox>
+  <WatchForModifsWatchedUsersCheckBox>Giám sát chỉ người sử dụng (để trống nếu bạn theo dõi tất cả):</WatchForModifsWatchedUsersCheckBox>
+  <WatchForModifsIgnoreOwnerCheckBox>Bỏ qua những thay đổi của riêng tôi</WatchForModifsIgnoreOwnerCheckBox>
+  <WatchForModifsActionsCheckBox>Giám sát tất cả các hành động (hoặc một số hành động từ danh sách dưới đây)</WatchForModifsActionsCheckBox>
+  <WatchForModifsNestedItemsWarning>Chú ý! Khi bạn thêm giám sát đối với các thư mục đã chọn, tất cả các tập tin đính kèm và thư mục mà giám sát cá nhân đã được thêm vào trước đó, việc giám sát sẽ được gỡ bỏ. Bạn có muốn tiếp tục không?</WatchForModifsNestedItemsWarning>
+
+  <WelcomeWindowHideCheckboxLabel>Không hiển thị này bằng cách đăng nhập tiếp theo trong</WelcomeWindowHideCheckboxLabel>
+
+  <LogsGridMoreInfoColumn>Thêm thông tin</LogsGridMoreInfoColumn>
+  <LogsGridDetailsTitle>Chi tiết</LogsGridDetailsTitle>
+  <LogsGridPhysPathColumn>đường dẫn vật lý</LogsGridPhysPathColumn>
+  <LogsGridIsFolderColumn>Thư mục?</LogsGridIsFolderColumn>
+  <LogsGridIsPublicColumn>Công cộng?</LogsGridIsPublicColumn>
+  <LogsGridByWebDavColumn>WebDAV?</LogsGridByWebDavColumn>
+
+  <NoCommentsYetHint>Không có bình luận nào</NoCommentsYetHint>
+  <NoHistoryYetHint>Không có lịch sử chưa</NoHistoryYetHint>
+
+  <DetailsPropertyValuesCouldNotBeWritten>Không thể lưu các giá trị tài sản, Mabe các loại tập tin không hỗ trợ khả năng này hoặc có lỗi trong các ứng dụng liên kết với các tập tin.</DetailsPropertyValuesCouldNotBeWritten>
+
+  <AdminCommandHelp>Cứu giúp</AdminCommandHelp>
+  <AdminCommandAddUser>Thêm người dùng</AdminCommandAddUser>
+  <AdminCommandAddGroup>Thêm nhóm</AdminCommandAddGroup>
+  <AdminCommandRemoveUser>Di chuyển người dùng</AdminCommandRemoveUser>
+
+  <AdminCommandSelectUsers>Thêm người dùng</AdminCommandSelectUsers>
+  <AdminCommandSelectGroups>Thêm nhóm</AdminCommandSelectGroups>
+  <AdminCommandRemoveUsers>Di chuyển người dùng</AdminCommandRemoveUsers>
+  <AdminCommandRemoveGroups>Xóa nhóm</AdminCommandRemoveGroups>
+  <AdminUsersGroups>Thành viên của</AdminUsersGroups>
+  <AdminSearchUserEmptyText>Nhập tên người dùng</AdminSearchUserEmptyText>
+  <AdminSearchGroupEmptyText>Nhập tên nhóm</AdminSearchGroupEmptyText>
+  <AdminUsersGroupAlreadyExists>Một nhóm (s) với tên này (s) đã được thêm</AdminUsersGroupAlreadyExists>
+
+  <AdminApplicationLoading>tải bảng quản trị</AdminApplicationLoading>
+  <AdminTitle>Quản trị</AdminTitle>
+  <AdminUsersEditUser>Edit user</AdminUsersEditUser>
+  <AdminUsersSetUserPassword>Đặt mật khẩu</AdminUsersSetUserPassword>
+  <AdminUsersViewGroups>Xem nhóm</AdminUsersViewGroups>
+  <AdminUsersViewFolders>Xem thư mục</AdminUsersViewFolders>
+  <AdminUsersDeleteUserPrompt>Bạn có chắc chắn bạn muốn loại bỏ người dùng (s) "{0}"?</AdminUsersDeleteUserPrompt>
+  <AdminUsersDeletedUsers>{0} người dùng (s) đã xóa.</AdminUsersDeletedUsers>
+  <AdminUsersUserNotFound>Một người dùng với tên này không được tìm thấy</AdminUsersUserNotFound>
+  <AdminUsersPropertiesTitle>User Properties</AdminUsersPropertiesTitle>
+  <AdminUsersSetPasswordTitle>Mật khẩu người dùng thiết lập</AdminUsersSetPasswordTitle>
+  <AdminUsersGeneralInfo>Thông tin người dùng</AdminUsersGeneralInfo>
+  <AdminUsersUserEmail>E-mail</AdminUsersUserEmail>
+  <AdminUsersEmptyName>Tên người dùng không thể để trống</AdminUsersEmptyName>
+  <AdminUsersEmptyPassword>Người dùng mật khẩu không thể để trống</AdminUsersEmptyPassword>
+  <AdminUsersIncorrectName>Có những biểu tượng không chính xác trong tên người dùng</AdminUsersIncorrectName>
+  <AdminUsersAlreadyExists>Người dùng với tên này đã tồn tại</AdminUsersAlreadyExists>
+  <AdminUsersEmailAlreadyExists>Người dùng với e-mail này đã tồn tại</AdminUsersEmailAlreadyExists>
+  <AdminUsersPasswordsNotMatch>Mật khẩu không phù hợp</AdminUsersPasswordsNotMatch>
+  <AdminUsersRenameWarning>Sau khi đổi tên người dùng đó là cần thiết để thay đổi mật khẩu, nếu không hiện tại trang web liên kết thư mục sẽ không chính xác</AdminUsersRenameWarning>
+  <AdminUsersLicenseRestriction>Giấy phép của bạn không cho phép bạn tạo ra nhiều hơn {0} người dùng</AdminUsersLicenseRestriction>
+  <AdminUsersCountInfoWithLimit>Tổng số người dùng: {0} trong số {1}</AdminUsersCountInfoWithLimit>
+  <AdminUsersCountInfo>Tổng số người dùng: {0}</AdminUsersCountInfo>
+
+  <AdminGroupsEditGroup>chỉnh sửa nhóm</AdminGroupsEditGroup>
+  <AdminGroupsRemoveGroup>Xóa nhóm</AdminGroupsRemoveGroup>
+  <AdminGroupsDeleteGroupPrompt>Bạn có chắc chắn bạn muốn xóa nhóm (s) "{0}"?</AdminGroupsDeleteGroupPrompt>
+  <AdminGroupsDeletedGroups>{0} nhóm (s) đã xóa.</AdminGroupsDeletedGroups>
+  <AdminGroupsGroupNotFound>Một nhóm với tên này không được tìm thấy</AdminGroupsGroupNotFound>
+  <AdminGroupsViewUsers>Xem người dùng</AdminGroupsViewUsers>
+  <AdminGroupsProperties>Tính chất</AdminGroupsProperties>
+  <AdminGroupsPropertiesTitle>tính nhóm</AdminGroupsPropertiesTitle>
+  <AdminGroupsGeneralInfo>thông tin nhóm</AdminGroupsGeneralInfo>
+  <AdminGroupsUserNamePrompt>Điền tên đăng nhập</AdminGroupsUserNamePrompt>
+  <AdminGroupsUsers>nhóm thành viên</AdminGroupsUsers>
+  <AdminGroupsUserAlreadyExists>Một người sử dụng (s) với tên này (s) đã được thêm</AdminGroupsUserAlreadyExists>
+  <AdminGroupsEmptyName>Tên nhóm không thể để trống</AdminGroupsEmptyName>
+  <AdminGroupsIncorrectName>Có những biểu tượng không chính xác trong tên nhóm</AdminGroupsIncorrectName>
+  <AdminGroupsAlreadyExists>Một nhóm với tên này đã tồn tại</AdminGroupsAlreadyExists>
+  <AdminGroupsCountInfo>Tổng số nhóm: {0}</AdminGroupsCountInfo>
+
+  <AdminLanguagesTab>Bản địa hóa</AdminLanguagesTab>
+  <AdminLanguagesTabMessage>Để chỉnh sửa các tập tin bản địa hóa, chọn ngôn ngữ mong muốn trong danh sách, nhấp vào chuỗi địa phương để chỉnh sửa. Sau khi sửa đổi bấm nút "Save"</AdminLanguagesTabMessage>
+  <AdminLangGridKeyColumn>tên khóa</AdminLangGridKeyColumn>
+  <AdminLangGridDefaultColumn>Anh</AdminLangGridDefaultColumn>
+  <AdminEnterLanguageNameTitle>Nhập tên ngôn ngữ</AdminEnterLanguageNameTitle>
+  <AdminLangConfirmRefreshTitle>xác nhận Refresh</AdminLangConfirmRefreshTitle>
+  <AdminLangConfirmRefreshMessage>Chú ý! Dữ liệu không được lưu. Bạn có muốn lưu các thay đổi bây giờ?</AdminLangConfirmRefreshMessage>
+  <AdminLangAmountInfo>phím điền: {0} {1} (giá trị trống: {2})</AdminLangAmountInfo>
+  <AdminLangSaveToCSV>Xuất khẩu sang CSV</AdminLangSaveToCSV>
+  <AdminLangLoadFromCSV>Load từ CSV</AdminLangLoadFromCSV>
+
+  <AdminDbMaintenanceTab>DB Bảo trì</AdminDbMaintenanceTab>
+  <AdminDbMaintenanceInfoTitle>Thông tin</AdminDbMaintenanceInfoTitle>
+  <AdminDbMaintenanceInfoPathLabel>đường dẫn tập tin DB</AdminDbMaintenanceInfoPathLabel>
+  <AdminDbMaintenanceInfoSizeLabel>kích thước tập tin DB</AdminDbMaintenanceInfoSizeLabel>
+  <AdminDbMaintenanceCompactTitle>Cơ sở dữ liệu nhỏ gọn</AdminDbMaintenanceCompactTitle>
+  <AdminDbMaintenanceCompactNote>Để giảm kích thước của tập tin cơ sở dữ liệu, xin vui lòng bấm vào nút bên dưới. Nó là cần thiết để thực hiện việc nén của cơ sở dữ liệu định kỳ, kể từ đó, ví dụ, sau khi loại bỏ một số liên kết công cộng hoặc cũ log ghi lại các kích thước tập tin DB không làm giảm hoạt động.</AdminDbMaintenanceCompactNote>
+  <AdminDbMaintenanceCompactButton>nhỏ gọn DB</AdminDbMaintenanceCompactButton>
+  <AdminDbMaintenanceCompactSuccess>DB nén thành công.
+Kích thước tập tin cũ: {0}
+Kích thước tập tin mới: {1}</AdminDbMaintenanceCompactSuccess>
+  <AdminDbMaintenanceCompactAutoNote>Bạn cũng có thể bật các cơ sở dữ liệu nén tự động sau khi việc loại bỏ các hoạt động hồ sơ, tuy nhiên, nó không được khuyến khích vì nó khóa có thể thường xuyên hơn của các cơ sở và nó có thể tăng thời gian của một số yêu cầu. Chú ý! Sau khi thay đổi các thiết lập này, các ứng dụng sẽ được khởi động lại!</AdminDbMaintenanceCompactAutoNote>
+  <AdminDbMaintenanceCompactAutoCheckBox>Bật / tắt tự động nhỏ gọn DB</AdminDbMaintenanceCompactAutoCheckBox>
+  <AdminDbMaintenanceCompactAutoSaveButton>Tiết kiệm</AdminDbMaintenanceCompactAutoSaveButton>
+  <AdminDbMaintenanceCompactAutoSaveSuccess>Các thay đổi của сompression tự động DB đã được hoàn tất. Các trang sẽ được cập nhật ngay.</AdminDbMaintenanceCompactAutoSaveSuccess>
+  <AdminDbMaintenanceEnableLogLabel>Chọn DB truy vấn mức ghi (vào Data / debug.log)</AdminDbMaintenanceEnableLogLabel>
+  <AdminDbMaintenanceSettingsSaveSuccess>thiết lập DB lưu thành công. Trang này sẽ được tải lại</AdminDbMaintenanceSettingsSaveSuccess>
+  <AdminDbMaintenanceSettingsChangeNote>Chú ý! Sau khi lưu các thiết lập ứng dụng sẽ được khởi động lại ngay!</AdminDbMaintenanceSettingsChangeNote>
+  <AdminDbMaintenanceInsertIntervalLabel>Khoảng thời gian (tính theo phút) của việc thêm các sự kiện vào DB. Nếu bạn chỉ định 0, chèn sẽ xuất hiện ngay sau khi các sự kiện.</AdminDbMaintenanceInsertIntervalLabel>
+  <AdminDbMaintenanceAdvDbParamsTitle>các thông số kết nối nâng cao DB</AdminDbMaintenanceAdvDbParamsTitle>
+  <AdminDbMaintenanceStatTitle>Thống kê (phụ thuộc vào DB độ đăng nhập DurationExecution)</AdminDbMaintenanceStatTitle>
+  <AdminDbMaintenanceStatDurationReadLabel>thời gian chờ đọc Avg</AdminDbMaintenanceStatDurationReadLabel>
+  <AdminDbMaintenanceStatDurationWriteLabel>timeout viết trung bình</AdminDbMaintenanceStatDurationWriteLabel>
+  <AdminDbMaintenanceStatDurationCompactLabel>thời gian chờ trung bình nhỏ gọn</AdminDbMaintenanceStatDurationCompactLabel>
+  <AdminDbMaintenanceStatNoData>Không có dữ liệu</AdminDbMaintenanceStatNoData>
+  <AdminDbMaintenanceStatGetButton>Thu thập số liệu thống kê</AdminDbMaintenanceStatGetButton>
+
+  <AdminMiscTab>misc</AdminMiscTab>
+  <AdminMiscLoadADAccountsTitle>Nạp tài khoản Active Directory</AdminMiscLoadADAccountsTitle>
+  <AdminMiscLoadADAccountsLoadButton>tải</AdminMiscLoadADAccountsLoadButton>
+  <AdminMiscLoadADAccountsResetButton>Thiết lập lại</AdminMiscLoadADAccountsResetButton>
+  <AdminMiscLoadADAccountsLdap>chứa lDAP</AdminMiscLoadADAccountsLdap>
+  <AdminMiscLoadADAccountsToFile>Nộp</AdminMiscLoadADAccountsToFile>
+  <AdminMiscLoadADAccountsSuccessMessage>Active Directory tài khoản được nạp thành công</AdminMiscLoadADAccountsSuccessMessage>
+  <AdminMiscLoadADAccountsInfo>Ở đây bạn có thể tạo ra các tập tin có chứa toàn bộ kích hoạt người sử dụng thư mục cấu trúc. Tập tin này là cần thiết nếu bạn sử dụng một tập tin tĩnh như lưu trữ thông tin AD. Cùng một tập tin có thể được tạo ra thông qua tiện ích admanager. Để biết thêm thông thấy &lt;b&gt; ADAccountsFilePath &lt;/b&gt; mô tả tham số trong {0} tay {1}.</AdminMiscLoadADAccountsInfo>
+
+  <AdminMiscManageQuotasTitle>quản lý hạn ngạch</AdminMiscManageQuotasTitle>
+  <AdminMiscManageQuotasInfo>Truy vấn hiện tại hoặc tạo ra hạn ngạch mới để hạn chế không gian cho phép cho một thư mục, chạy bằng File Manager Server Resource.</AdminMiscManageQuotasInfo>
+  <AdminMiscManageQuotasFolderPath>đường dẫn thư mục</AdminMiscManageQuotasFolderPath>
+  <AdminMiscManageQuotasQuota>Hạn ngạch</AdminMiscManageQuotasQuota>
+  <AdminMiscManageQuotasGetQuota>Nhận hạn ngạch</AdminMiscManageQuotasGetQuota>
+  <AdminMiscManageQuotasSetQuota>Set hạn ngạch</AdminMiscManageQuotasSetQuota>
+
+  <AdminMiscFoldersFromGPOLTitle>thư mục Load từ Group Policy</AdminMiscFoldersFromGPOLTitle>
+  <AdminMiscFoldersFromGPOLComputerName>Tên máy tính</AdminMiscFoldersFromGPOLComputerName>
+  <AdminMiscFoldersFromGPOLFilePath>Đường dẫn tập tin</AdminMiscFoldersFromGPOLFilePath>
+  <AdminMiscFoldersFromGPOLMoreInfoLink>Thêm thông tin</AdminMiscFoldersFromGPOLMoreInfoLink>
+  <AdminMiscFoldersFromGPOLResetButton>Thiết lập lại</AdminMiscFoldersFromGPOLResetButton>
+  <AdminMiscFoldersFromGPOLLoadButton>tải</AdminMiscFoldersFromGPOLLoadButton>
+  <AdminMiscFoldersFromGPOLFromDC>từ DC</AdminMiscFoldersFromGPOLFromDC>
+  <AdminMiscFoldersFromGPOLFromFile>từ tập tin</AdminMiscFoldersFromGPOLFromFile>
+  <AdminMiscFoldersTargetLabel>Để nhập khẩu người dùng / nhóm điều kiện trong ...</AdminMiscFoldersTargetLabel>
+  <AdminMiscFoldersTargetFilter>bộ lọc</AdminMiscFoldersTargetFilter>
+  <AdminMiscFoldersTargetPermission>sự cho phép</AdminMiscFoldersTargetPermission>
+  <AdminMiscFoldersFromGPOLSuccessMessage>Các thư mục được nạp thành công &lt;br /&gt; mới:. {0}, cập nhật: {1}.</AdminMiscFoldersFromGPOLSuccessMessage>
+  <AdminMiscFoldersFromGPOLInfo>Bạn có thể tải (hoặc cập nhật) các danh sách thư mục từ các cài đặt bản đồ Group Policy Drive trong Domain Controller. Trong lĩnh vực dưới đây, bạn có thể nhập vào tên máy tính mà từ đó thiết lập Group Policy sẽ được nạp (hoặc nếu để trống, sau đó tên miền hiện tại sẽ được sử dụng), hoặc một đường dẫn đến tập tin với các thiết lập ổ đĩa được ánh xạ.</AdminMiscFoldersFromGPOLInfo>
+
+  <AdminAnonymFoldersTab>thư mục ẩn danh</AdminAnonymFoldersTab>
+  <AdminAnonymFoldersDeleteFolderPrompt>Bạn có chắc chắn bạn muốn xóa {0} thư mục ẩn danh đã chọn?</AdminAnonymFoldersDeleteFolderPrompt>
+  
+  <AdminAnonymFoldersDescription>Chia sẻ các thư mục / tập tin - đây là những thư mục / tập tin mà không yêu cầu người dùng xác thực *, điều đó có nghĩa là họ có sẵn cho tất cả du khách * (nếu họ có một liên kết). Tất cả người dùng có thể tạo các thư mục như / tập tin từ trình đơn "Chia sẻ &amp;rarr; Tạo liên kết công khai". Tuy nhiên, các thư mục chia sẻ có thể có quyền truy cập hạn chế: để tải lên, tải xuống, các tập tin / thư mục danh sách. Dưới đây là một bảng các liên kết đến các thư mục chia sẻ / tập tin được tạo ra bởi người sử dụng. Để làm việc liên kết công năng một cách chính xác chắc chắn rằng Handlers \ Anonymousdownload.ashx cho phép truy cập vô danh với IIS. Bạn có thể kiểm tra điều này trên trang &lt;a target="_blank" href="{0}"&gt; Diagnostics &lt;/a&gt;. Hãy chắc chắn rằng tài khoản người dùng ẩn danh gán cho Handlers \ Anonymousdownload.ashx có quyền truy cập NTFS đọc / ghi cho thư mục chia sẻ / file &lt;br /&gt; * &amp;nbsp;. &amp;Mdash; &amp;nbsp; nếu bạn không chỉ định người sử dụng, mà chỉ được phép truy cập.</AdminAnonymFoldersDescription>
+  <AdminAnonymFoldersLinkOwnerColumn>Chủ nhân</AdminAnonymFoldersLinkOwnerColumn>
+  <AdminAnonymFoldersEmailsColumn>Email thông báo</AdminAnonymFoldersEmailsColumn>
+  <AdminAnonymFoldersAccessForUsersColumn>Truy cập cho người dùng</AdminAnonymFoldersAccessForUsersColumn>
+  <AdminAnonymFoldersPersonalMessageColumn>Thông điệp cá nhân</AdminAnonymFoldersPersonalMessageColumn>
+  <AdminAnonymFoldersOverwriteOnUploadHint> (Ghi đè lên: {0})</AdminAnonymFoldersOverwriteOnUploadHint>
+  <AdminAnonymFoldersRootPathColumn>đường dẫn gốc</AdminAnonymFoldersRootPathColumn>
+  <AdminAnonymFoldersKeysColumn>phím</AdminAnonymFoldersKeysColumn>
+  <AdminAnonymFoldersShortColumn>liên kết ngắn</AdminAnonymFoldersShortColumn>
+  <AdminAnonymFoldersPropertiesTitle>thuộc tính thư mục ẩn danh</AdminAnonymFoldersPropertiesTitle>
+  <AdminAnonymFoldersAdditionalInfo>Thông tin thêm</AdminAnonymFoldersAdditionalInfo>
+  <AdminAnonymFoldersLinkLabel>Liên kết truy cập</AdminAnonymFoldersLinkLabel>
+  <AdminAnonymFoldersPathNotSpecified>Các đường dẫn vật lý không được thiết lập</AdminAnonymFoldersPathNotSpecified>
+  <AdminAnonymFoldersCreatedForColumn>Mục đích</AdminAnonymFoldersCreatedForColumn>
+
+  <AdminFoldersTab>Thư mục</AdminFoldersTab>
+  <AdminFoldersAddFolder>Thêm thư mục</AdminFoldersAddFolder>
+  <AdminFoldersEditFolder>chỉnh sửa thư mục</AdminFoldersEditFolder>
+  <AdminFoldersRemoveFolder>Di chuyển thư mục</AdminFoldersRemoveFolder>
+  <AdminFoldersDeleteFolderPrompt>Bạn có chắc chắn bạn muốn loại bỏ thư mục "{0}"?</AdminFoldersDeleteFolderPrompt>
+  <AdminFoldersFolderNotFound>Một thư mục với tên này không được tìm thấy</AdminFoldersFolderNotFound>
+  <AdminFoldersPropertiesTitle>thuộc tính thư mục</AdminFoldersPropertiesTitle>
+  <AdminFoldersGeneralInfo>Thông tin chung</AdminFoldersGeneralInfo>
+  <AdminFoldersFolderRemoteWarningForms>Chú thích! Thư mục này được chia sẻ từ xa. Kiểm tra {0} Hỏi đáp: làm thế nào để chia sẻ các thư mục từ xa {1}</AdminFoldersFolderRemoteWarningForms>
+  <AdminFoldersFolderRemoteWarningWin>Chú thích! Thư mục này được chia sẻ từ xa. Bạn có thể ẩn một số thư mục / tập tin nếu người dùng không có quyền để đọc chúng. Xem {0} Hỏi đáp: làm thế nào để ẩn các tập tin / thư mục mà người dùng không có quyền đọc {1}</AdminFoldersFolderRemoteWarningWin>
+  <AdminFoldersFolderPath>đường dẫn vật lý</AdminFoldersFolderPath>
+  <AdminFoldersLocationPath>Vị trí</AdminFoldersLocationPath>
+  <AdminFoldersFolderCreate>Tạo thư mục</AdminFoldersFolderCreate>
+  <AdminFoldersFolderCreateProcess>tạo thư mục</AdminFoldersFolderCreateProcess>
+  <AdminFoldersFolderCreateContainsPattern>Các thư mục không thể được tạo ra bởi vì nó có chứa một mô hình</AdminFoldersFolderCreateContainsPattern>
+  <AdminFoldersFolderCreateSuccessfully>Các thư mục "{0}" đã được tạo thành công.</AdminFoldersFolderCreateSuccessfully>
+  <AdminFoldersFolderOptional> (không bắt buộc)</AdminFoldersFolderOptional>
+  <AdminFoldersFolderLimitations>Hạn chế</AdminFoldersFolderLimitations>
+  <AdminFoldersFolderDescription>Sự miêu tả</AdminFoldersFolderDescription>
+  <AdminFoldersFolderQuota>Hạn ngạch</AdminFoldersFolderQuota>
+  <AdminFoldersFolderQuotaHint>Truy vấn hiện tại hoặc tạo ra hạn ngạch mới để hạn chế không gian cho phép cho một thư mục, chạy bằng File Manager Server Resource.</AdminFoldersFolderQuotaHint>
+  <AdminFoldersFolderQuotaMoreInfoLink>Thêm thông tin</AdminFoldersFolderQuotaMoreInfoLink>
+  <AdminFoldersPermissions>Quyền</AdminFoldersPermissions>
+  <AdminFoldersPermissionsFor>Quyền cho {0}</AdminFoldersPermissionsFor>
+  <AdminFoldersUsersGroups>Người dùng và nhóm</AdminFoldersUsersGroups>
+  <AdminFoldersAccessControl>Kiểm soát truy cập</AdminFoldersAccessControl>
+  <AdminFoldersCreate>Tạo nên</AdminFoldersCreate>
+  <AdminFoldersDelete>Xóa bỏ</AdminFoldersDelete>
+  <AdminFoldersRename>Đổi tên</AdminFoldersRename>
+  <AdminFoldersUpload>Tải lên</AdminFoldersUpload>
+  <AdminFoldersDownload>Tải về</AdminFoldersDownload>
+  <AdminFoldersZipDownload>Zip và tải về</AdminFoldersZipDownload>
+  <AdminFoldersZip>Zip</AdminFoldersZip>
+  <AdminFoldersUnzip>Zip unpack</AdminFoldersUnzip>
+  <AdminFoldersCut>Cắt tỉa</AdminFoldersCut>
+  <AdminFoldersCopy>bản sao</AdminFoldersCopy>
+  <AdminFoldersListFiles>Hiển thị các tệp</AdminFoldersListFiles>
+  <AdminFoldersListFolders>Hiển thị thư mục</AdminFoldersListFolders>
+  <AdminFoldersModify>sửa đổi</AdminFoldersModify>
+  <AdminFoldersBulkMailing>gửi thư hàng loạt</AdminFoldersBulkMailing>
+  <AdminFoldersAnonymViewContent>Danh sách tập tin thông qua liên kết công cộng</AdminFoldersAnonymViewContent>
+  <AdminFoldersAnonymDownload>Tải về thông qua liên kết công cộng</AdminFoldersAnonymDownload>
+  <AdminFoldersAnonymUpload>Tải lên qua liên kết công cộng</AdminFoldersAnonymUpload>
+  <AdminFoldersWatch>Đồng hồ đeo tay</AdminFoldersWatch>
+  <AdminFoldersDescription>Bạn có thể thêm các thư mục bằng tay hoặc chuyển đổi thư mục hiện có nếu bạn đang sử dụng ổ đĩa ở chính sách Group. Để biết thêm thông thấy {0} giúp {1}.</AdminFoldersDescription>
+
+  <AdminFoldersPermissionsForRegex>Bạn cũng có thể sử dụng một biểu thức chính quy. Vui lòng nhập &lt;b&gt; {0} &lt;/b&gt; ở đầu các lĩnh vực trên và sau đó là một biểu hiện thường xuyên, ví dụ:</AdminFoldersPermissionsForRegex>
+  <AdminFoldersPermissionsForRegexUsers>{0} (cung cấp quyền truy cập cho bất kỳ người sử dụng) &lt;br /&gt; {1} (biểu thức này có nghĩa là hai người dùng: jdoe và Mike)</AdminFoldersPermissionsForRegexUsers>
+  <AdminFoldersPermissionsForRegexGroups>{0} (cung cấp quyền truy cập cho bất kỳ nhóm) &lt;br /&gt; {1} (biểu thức này có nghĩa là tất cả các nhóm với "sinh viên" trong tên của họ)</AdminFoldersPermissionsForRegexGroups>
+
+  <AdminFoldersListRestrictions>Hạn chế của màn hình</AdminFoldersListRestrictions>
+  <AdminFoldersCreateRestrictions>Hạn chế tạo tập tin</AdminFoldersCreateRestrictions>
+  <AdminFoldersRestrictionAllow>cho phép</AdminFoldersRestrictionAllow>
+  <AdminFoldersRestrictionDeny>từ chối</AdminFoldersRestrictionDeny>
+  <AdminFoldersRestrictionExtensions>Phần mở rộng</AdminFoldersRestrictionExtensions>
+  <AdminFoldersUserNamePrompt>Điền tên đăng nhập</AdminFoldersUserNamePrompt>
+  <AdminFoldersUserNameEmptyText>Chọn tên người dùng</AdminFoldersUserNameEmptyText>
+  <AdminFoldersUserNameNotSelected>Bạn phải chọn một tên người dùng</AdminFoldersUserNameNotSelected>
+  <AdminFoldersUserAlreadyExists>Người dùng này đã được giao cho các thư mục</AdminFoldersUserAlreadyExists>
+  <AdminFoldersGroupNamePrompt>Nhập tên nhóm</AdminFoldersGroupNamePrompt>
+  <AdminFoldersGroupNameEmptyText>Chọn tên nhóm</AdminFoldersGroupNameEmptyText>
+  <AdminFoldersGroupNameNotSelected>Bạn phải chọn một tên nhóm</AdminFoldersGroupNameNotSelected>
+  <AdminFoldersGroupAlreadyExists>Nhóm này đã được giao cho các thư mục</AdminFoldersGroupAlreadyExists>
+  <AdminFoldersEmptyName>Tên thư mục không thể để trống</AdminFoldersEmptyName>
+  <AdminFoldersEmptyPath>đường dẫn thư mục không thể để trống</AdminFoldersEmptyPath>
+  <AdminFoldersIncorrectName>Có những biểu tượng không chính xác trong tên thư mục</AdminFoldersIncorrectName>
+  <AdminFoldersAlreadyExists>Một thư mục với tên này và vị trí đã tồn tại</AdminFoldersAlreadyExists>
+  <AdminFoldersSharesButton>cổ phiếu hiện có</AdminFoldersSharesButton>
+  <AdminFoldersTestAccessButton>truy cập thử nghiệm</AdminFoldersTestAccessButton>
+  <AdminFoldersTestIndexingButton>Kiểm tra chỉ mục</AdminFoldersTestIndexingButton>
+  <AdminFoldersShareNameTitle>cổ phiếu hiện có</AdminFoldersShareNameTitle>
+  <AdminFoldersShareNameEmptyText>Chọn phần</AdminFoldersShareNameEmptyText>
+  <AdminFoldersShareNameNotSelected>Bạn phải chọn cổ phiếu</AdminFoldersShareNameNotSelected>
+  <AdminFoldersGetQuotaButton>Nhận hạn ngạch</AdminFoldersGetQuotaButton>
+  <AdminFoldersSetQuotaButton>Set hạn ngạch</AdminFoldersSetQuotaButton>
+  <AdminCommonFilterField>Lọc</AdminCommonFilterField>
+  <AdminCommonValidateField>Xác nhận</AdminCommonValidateField>
+  <AdminFoldersRootNameUsed>Vui lòng sử dụng một tên khác cho thư mục thay vì "{0}"</AdminFoldersRootNameUsed>
+  <AdminFoldersFolderFilterSuccess>Xác nhận của bộ lọc đã diễn ra thành công</AdminFoldersFolderFilterSuccess>
+
+  <AdminTestAccessGoodResult>Các thư mục "{0}" tồn tại và có thể được đọc.</AdminTestAccessGoodResult>
+  <AdminTestAccessBadResult>Các thư mục "{0}" không tồn tại hoặc không có NTFS quyền đọc hoặc không có quyền truy cập mạng cho nhận dạng ứng dụng!</AdminTestAccessBadResult>
+  <AdminTestAccessErrorResult>Lỗi trong khi kiểm tra quyền truy cập vào thư mục "{0}": {1}</AdminTestAccessErrorResult>
+  <AdminTestIndexingErrorResult>Lỗi trong khi kiểm tra chỉ mục cho thư mục "{0}":
+{1}</AdminTestIndexingErrorResult>
+  <AdminTestIndexingYesResult>Các thư mục "{0}" được lập chỉ mục</AdminTestIndexingYesResult>
+  <AdminTestIndexingNoResult>Các thư mục "{0}" không được lập chỉ mục</AdminTestIndexingNoResult>
+  <AdminTestIndexingUnknownResult>Không thể xác định nếu thư mục "{0}" được lập chỉ mục.</AdminTestIndexingUnknownResult>
+  <AdminTestIndexingAddIfNotIndexed>Bạn có muốn thêm thư mục này cho chỉ mục, nếu nó đã được lập chỉ mục chưa?</AdminTestIndexingAddIfNotIndexed>
+  <ProgressTestAccess>truy cập kiểm tra</ProgressTestAccess>
+  <ProgressTestIndexing>kiểm tra chỉ mục</ProgressTestIndexing>
+  <AdminHowToIndexingLocationLink>Để chỉ một thư mục, hãy tham khảo phần Trợ giúp cho {0}</AdminHowToIndexingLocationLink>
+
+  <AdminUsersListAll>Tất cả người dùng</AdminUsersListAll>
+  <AdminUsersListDACL>Người dùng từ ACL</AdminUsersListDACL>
+  <AdminGroupsListAll>Tất cả các nhóm</AdminGroupsListAll>
+  <AdminGroupsListDACL>Nhóm từ ACL</AdminGroupsListDACL>
+  <AdminDACLStringLabel>quyền hạn ACL</AdminDACLStringLabel>
+
+  <AdminCommonCustomField>lĩnh vực tùy chỉnh</AdminCommonCustomField>
+  <AdminCommonSettingsChangeWarning>Những thay đổi này sẽ có hiệu lực sau khi tái nhập (hoặc sau khi khởi động lại ứng dụng để truy cập WebDav).</AdminCommonSettingsChangeWarning>
+
+  <AdminCommonAllowedFoldersPathsTitle>đường dẫn thư mục cho phép</AdminCommonAllowedFoldersPathsTitle>
+  <AdminCommonNotAllowedFolderPath>Bạn có thể tạo chỉ truy cập vào các thư mục hoặc thư mục con của nó: {0}</AdminCommonNotAllowedFolderPath>
+
+  <AdminLogsTab>Đăng nhập</AdminLogsTab>
+
+  <AdminSettingsTab>Cài đặt</AdminSettingsTab>
+
+  <AdminLogsErrorsTab>đăng nhập lỗi</AdminLogsErrorsTab>
+  <AdminLogsErrorsClearBtn>Trong sáng</AdminLogsErrorsClearBtn>
+  <AdminLogsErrorsClearUsersCountExceededBtn>Xoá hồ sơ với các lỗi của người dùng vượt quá giới hạn số lượng</AdminLogsErrorsClearUsersCountExceededBtn>
+
+  <AdminFoldersCreateHint>Cho phép / Từ chối hành động từ menu "New": tập tin mới, thư mục mới, hình ảnh mới, các file tài liệu mới.</AdminFoldersCreateHint>
+  <AdminFoldersDeleteHint>Cho phép / Từ chối xóa các tập tin và thư mục hiện tại</AdminFoldersDeleteHint>
+  <AdminFoldersRenameHint>Cho phép / Từ chối đổi tên các tập tin và thư mục hiện tại</AdminFoldersRenameHint>
+  <AdminFoldersUploadHint>Cho phép / Từ chối tải lên các tập tin hình (nút Upload ở thanh công cụ)</AdminFoldersUploadHint>
+  <AdminFoldersDownloadHint>Cho phép / Từ chối "tải về", "xem / chỉnh sửa", tải về các kho mây, vv hành động</AdminFoldersDownloadHint>
+  <AdminFoldersZipDownloadHint>Cho phép / Từ chối "nén và tải về" hành động</AdminFoldersZipDownloadHint>
+  <AdminFoldersZipHint>Cho phép / Từ chối "Nén đến một kho lưu trữ zip" hành động</AdminFoldersZipHint>
+  <AdminFoldersUnzipHint>Cho phép / Từ chối "Extract vào thư mục hiện tại", "Giải nén vào một thư mục mới" và "nội dung Zip" hành động</AdminFoldersUnzipHint>
+  <AdminFoldersCutHint>Cho phép / Từ chối cắt hiện các tập tin và thư mục hành động</AdminFoldersCutHint>
+  <AdminFoldersCopyHint>Cho phép / Từ chối sao chép các tập tin và thư mục hiện hành động</AdminFoldersCopyHint>
+  <AdminFoldersListFilesHint>Cho phép / Từ chối các tập tin danh sách</AdminFoldersListFilesHint>
+  <AdminFoldersListFoldersHint>Cho phép / Từ chối các thư mục danh sách</AdminFoldersListFoldersHint>
+  <AdminFoldersModifyHint>Cho phép / Từ chối sửa đổi tập tin (Tất cả các hành động có thể thay đổi nội dung tập tin hiện có)</AdminFoldersModifyHint>
+  <AdminFoldersBulkMailingHint>Cho phép / Từ chối gửi thư với số lượng lớn cho các nhóm</AdminFoldersBulkMailingHint>
+  <AdminFoldersAnonymViewContentHint>Cho phép / Từ chối các tập tin danh sách cho người dùng vô danh (thông qua các liên kết công cộng)</AdminFoldersAnonymViewContentHint>
+  <AdminFoldersAnonymDownloadHint>Cho phép / Từ chối các tập tin tải về cho người dùng vô danh (thông qua các liên kết công cộng)</AdminFoldersAnonymDownloadHint>
+  <AdminFoldersAnonymUploadHint>Cho phép / Từ chối các tập tin tải lên cho người dùng vô danh (thông qua các liên kết công cộng)</AdminFoldersAnonymUploadHint>
+  <AdminFoldersWatchHint>Cho phép / Từ chối người dùng theo dõi những thay đổi trong thư mục được thực hiện bởi những người dùng khác (nó chỉ được áp dụng nếu UI / AllowUsersmonitorModifications = true)</AdminFoldersWatchHint>
+  <AdminFoldersListRestrictionsHint>Tùy chọn này điều khiển danh sách tập tin. Nhấp vào "Từ chối" nút radio để ẩn các tập tin với phần mở rộng. Chèn cấm mở rộng tách chúng bằng dấu phẩy (ví dụ "EXE, BAT, COM"). Đặt nút radio "Cho phép" và chèn phần mở rộng của tập tin mà sẽ được hiển thị (ví dụ "DOC, PDF, JPG").</AdminFoldersListRestrictionsHint>
+  <AdminFoldersCreateRestrictionsHint>Chức năng này tương tự như "Danh sách hạn chế", nhưng nó kiểm soát các tập tin tải lên, khai thác zip, tạo tập tin mới. Bạn có thể cấm hoặc cho phép tải lên các tập tin chỉ định.</AdminFoldersCreateRestrictionsHint>
+  <AdminFoldersGeneralInfoHint>Gõ đường dẫn thư mục và bí danh hiện tại. Nhấn vào nút Trợ giúp ở phía dưới để biết thêm.</AdminFoldersGeneralInfoHint>
+  <AdminFoldersUsersGroupsHint>Chọn hoặc nhập Người dùng và nhóm để chia sẻ thư mục cho chúng. Nhấn vào nút Trợ giúp ở phía dưới để biết thêm.</AdminFoldersUsersGroupsHint>
+
+  <AdminUserFoldersButtonTitle>Danh mục cổ phiếu kiểm tra</AdminUserFoldersButtonTitle>
+  <AdminUserFoldersWindowTitle>thư mục người dùng</AdminUserFoldersWindowTitle>
+  <AdminUserFoldersLabel>danh sách thư mục cho người dùng '{0}':</AdminUserFoldersLabel>
+  
+  <AdminPermissionsTab>quyền admin</AdminPermissionsTab>
+  <AdminPermissionsPrivilege>đặc quyền</AdminPermissionsPrivilege>
+  <AdminPermissionsEditButton>chỉnh sửa đặc quyền</AdminPermissionsEditButton>
+  <AdminPermissionsModifySettingsTitle>Sửa đổi cài đặt</AdminPermissionsModifySettingsTitle>
+  <AdminPermissionsModifyFoldersTitle>Sửa đổi thư mục</AdminPermissionsModifyFoldersTitle>
+  <AdminPermissionsModifyAnonymFoldersTitle>Sửa đổi thư mục công cộng</AdminPermissionsModifyAnonymFoldersTitle>
+  <AdminPermissionsModifyAccountsTitle>Sửa đổi tài khoản</AdminPermissionsModifyAccountsTitle>
+  <AdminPermissionsViewDiagnosticsTitle>Xem 'Chẩn đoán' trang</AdminPermissionsViewDiagnosticsTitle>
+  <AdminPermissionsViewLogTitle>Xem nhật kí</AdminPermissionsViewLogTitle>
+  <AdminPermissionsViewErrorsLogTitle>Xem lỗi đăng nhập</AdminPermissionsViewErrorsLogTitle>
+  <AdminPermissionsModifyLocalizationsTitle>Sửa địa phương hóa</AdminPermissionsModifyLocalizationsTitle>
+  <AdminPermissionsFolderPathTitle>đường dẫn thư mục</AdminPermissionsFolderPathTitle>
+  <AdminPermissionsFoldersTitle>thư mục quản trị</AdminPermissionsFoldersTitle>
+  <AdminPermissionsPrivilegeHint>Set người dùng / nhóm mà "{0}" đặc quyền sẽ được phép</AdminPermissionsPrivilegeHint>
+  <AdminPermissionsFolderTitle>thuộc tính thư mục quản trị</AdminPermissionsFolderTitle>
+  <AdminPermissionsFolderFieldTitle>đường dẫn thư mục</AdminPermissionsFolderFieldTitle>
+  <AdminPermissionsFolderHint>Thông tin về thư mục quản trị</AdminPermissionsFolderHint>
+  <AdminPermissionsFolderEmptyAccounts>Chỉ định người sử dụng và / hoặc nhóm</AdminPermissionsFolderEmptyAccounts>
+  <AdminPermissionsFolderAlreadyExists>Thư mục với vị trí này đã tồn tại</AdminPermissionsFolderAlreadyExists>
+  <AdminPermissionsFolderNotFound>Thư mục với vị trí này không được tìm thấy</AdminPermissionsFolderNotFound>
+  <AdminPermissionsAllowedFoldersMessage>Bạn có thể tạo / cập nhật / quản lý chỉ truy cập vào các thư mục hoặc thư mục con của nó: {0}</AdminPermissionsAllowedFoldersMessage>
+
+  <AdminUsersCountExceededWarn>số lượng người tối đa được vượt quá. giấy phép hiện tại của bạn cho phép chỉ {0} người dùng để đăng nhập. Để biết thêm thông mở "{1}" tab và tìm thấy "{2}" ngoại lệ (s). Để ẩn thông báo này ghi nhật ký rõ ràng tại "{1}" tab.</AdminUsersCountExceededWarn>
+
+  <AdminNewVersionAvailableTitle>Phiên bản mới có sẵn!</AdminNewVersionAvailableTitle>
+  <AdminNewVersionAvailableInfo>Phiên bản hiện tại: {0} &lt;br /&gt; Một phiên bản mới hơn: {1}</AdminNewVersionAvailableInfo>
+  
+  <SettingsGridDescriptionInfo>Sự miêu tả</SettingsGridDescriptionInfo>
+  <SettingsGridFormatInfo>định dạng giá trị</SettingsGridFormatInfo>
+  <SettingsGridDefaultValueInfo>Giá trị mặc định</SettingsGridDefaultValueInfo>
+  <SettingsGridMoreInfo>Thêm thông tin</SettingsGridMoreInfo>
+  <SettingsGridRestoreDefault>Khôi phục lại mặc định</SettingsGridRestoreDefault>
+
+  <SettingsFormatBoolean>giá trị boolean</SettingsFormatBoolean>
+  <SettingsFormatWholeNumber>Tổng số</SettingsFormatWholeNumber>
+  <SettingsFormatRealNumber>Số thực</SettingsFormatRealNumber>
+  <SettingsFormatString>Chuỗi</SettingsFormatString>
+  <SettingsFormatEnum>Bất kỳ giá trị của</SettingsFormatEnum>
+  <SettingsFormatSet>danh sách bằng dấu phẩy mà không lặp lại các giá trị</SettingsFormatSet>
+  <SettingsFormatArray>danh sách bằng dấu phẩy của chuỗi</SettingsFormatArray>
+  <SettingsFormatToolbarButtons>. (. Giá trị "{0}" có thể được lặp đi lặp lại nhiều lần, nhưng không phải trong một hàng Sau mỗi tên, tiếp theo là một dấu hai chấm, nó có thể xác định một trong những phương pháp được sử dụng để hiển thị các nút: {1})</SettingsFormatToolbarButtons>
+
+  <AdminSettingsSave>Lưu các thiết lập</AdminSettingsSave>
+  <AdminToggleHiddenParams>{0} thông số cao cấp</AdminToggleHiddenParams>
+  <AdminHintHiddenParams>Các thông số khác chỉ được dành cho các thiết lập chi tiết hơn và trong hầu hết các trường hợp hiếm khi cần thiết</AdminHintHiddenParams>
+  <AdminShowHiddenParams>Chỉ</AdminShowHiddenParams>
+  <AdminHideHiddenParams>Ẩn giấu</AdminHideHiddenParams>
+
+  <SettingsDenyAuthModeChange>Tự động chuyển đổi chế độ xác thực không được hỗ trợ. Xem {0} để được hướng dẫn về việc thay đổi chế độ xác thực.</SettingsDenyAuthModeChange>
+  <SettingsApplicationRestartedMsg>ứng dụng khởi động lại</SettingsApplicationRestartedMsg>
+  <SettingsSettingsSavedMsg>các cài đặt đã được lưu</SettingsSettingsSavedMsg>
+  <SettingsSettingsSaveFailedAppMsg>Không thể lưu các tập tin cấu hình. Kiểm tra quyền ghi NTFS của web.config và HttpCommanderSettings.config tập tin trong thư mục gốc ứng dụng web {0} cho {1}. Thông báo lỗi: {2}.</SettingsSettingsSaveFailedAppMsg>
+  <SettingsSettingsSaveFailedTempMsg>Không thể lưu các tập tin cấu hình. Kiểm tra quyền truy cập của thư mục tạm thời {0} cho {1}. Thông báo lỗi: {2}.</SettingsSettingsSaveFailedTempMsg>
+  <SettingsSettingsReadFailedAppMsg>Không thể đọc các tập tin cấu hình. Kiểm tra đọc NTFS cho phép của web.config và HttpCommanderSettings.config tập tin trong thư mục gốc ứng dụng web {0} cho {1}. Thông báo lỗi: {2}.</SettingsSettingsReadFailedAppMsg>
+  <SettingsSettingsReadFailedTempMsg>Không thể đọc các tập tin cấu hình trong thư mục tạm thời. Kiểm tra quyền truy cập của thư mục tạm thời {0} cho {1}. Thông báo lỗi: {2}.</SettingsSettingsReadFailedTempMsg>
+  <SettingsSettingsConfigChangedOutside>Các tập tin cấu hình HttpCommander đã được thay đổi bởi một chương trình khác. Có thể bạn đã sửa đổi nó bằng tay với một trình soạn thảo văn bản. Các ứng dụng đã được tải các tập tin cấu hình mới. Tất cả các thay đổi liên quan đến HttpCommander cấu hình mà bạn đã thực hiện thông qua giao diện web bị mất. Bạn cần phải làm lại chúng, sau đó cố gắng để lưu lại. Chúng tôi giới thiệu với các file cấu hình chỉnh sửa bằng tay trong khi các ứng dụng đang chạy. Nếu không, bạn nên khởi động lại ứng dụng sau khi thay đổi file cấu hình. Thông báo lỗi: {0}.</SettingsSettingsConfigChangedOutside>
+  <SettingsSettingsSaveNotif>Đừng quên để lưu các thiết lập thay đổi!</SettingsSettingsSaveNotif>
+  
+  <SettingsEmailNotifTitle>Thông báo qua Email</SettingsEmailNotifTitle>
+  <SettingsEmailNotifApplyBtn>Lưu các cài đặt email</SettingsEmailNotifApplyBtn>
+  <SettingsEmailNotifResetBtn>Thiết lập lại</SettingsEmailNotifResetBtn>
+  <SettingsEmailNotifEventsLabel>Đối với các sự kiện</SettingsEmailNotifEventsLabel>
+  <SettingsEmailNotifWhenLabel>gởi</SettingsEmailNotifWhenLabel>
+  <SettingsEmailNotifEmailsLabel>email</SettingsEmailNotifEmailsLabel>
+  <SettingsEmailNotifPathsLabel>Paths</SettingsEmailNotifPathsLabel>
+  
+  <LogsErrorsGridUrlColumn>url</LogsErrorsGridUrlColumn>
+  <LogsErrorsGridMsgColumn>Thông điệp</LogsErrorsGridMsgColumn>
+  <LogsErrorsGridMoreInfoColumn>Thêm thông tin</LogsErrorsGridMoreInfoColumn>
+  <LogsErrorsGridDetailsTitle>Chi tiết</LogsErrorsGridDetailsTitle>
+  
+  <FsrmUnableLoadLibraryLocal>Không thể kết nối vào File Server Resource Manager trên máy chủ địa phương.</FsrmUnableLoadLibraryLocal>
+  <FsrmUnableLoadLibraryRemote>Không thể kết nối vào File Server Resource Manager trên "{0}" host.</FsrmUnableLoadLibraryRemote>
+  <FsrmNotInstalled>File Manager Resource Server không được cài đặt trên "{0}".</FsrmNotInstalled>
+  <FsrmNotInstalledEitherEnd>File Manager Resource Server không được cài đặt hoặc trên máy chủ địa phương hoặc trên "{0}".</FsrmNotInstalledEitherEnd>
+  <FsrmQuotaNotSpecified>Hạn ngạch không được chỉ định.</FsrmQuotaNotSpecified>
+  <FsrmUnableGetQuota>Không thể có được giới hạn hạn ngạch.</FsrmUnableGetQuota>
+  <FsrmUnableSetQuota>Không thể thiết lập giới hạn hạn ngạch.</FsrmUnableSetQuota>
+  <FsrmQuotaSetMsg>Hạn ngạch đã được thiết lập.</FsrmQuotaSetMsg>
+  <FsrmInvalidQuotaValueMsg>giá trị hạn ngạch không hợp lệ.</FsrmInvalidQuotaValueMsg>
+
+  <CommandBuyNow>Mua ngay</CommandBuyNow>
+
+  <AdminUpdateTab>nâng cấp</AdminUpdateTab>
+  <AdminUpdateManual>nâng cấp bằng tay</AdminUpdateManual>
+  <AdminUpdateAuto>nâng cấp tự động</AdminUpdateAuto>
+  <AdminUpdateStartButton>Bắt đầu nâng cấp / Create Backup</AdminUpdateStartButton>
+  <AdminUpdateFinishButton>Hoàn thành nâng cấp / Restore Sao lưu</AdminUpdateFinishButton>
+  <AdminUpdateBackupButton>Sao lưu</AdminUpdateBackupButton>
+  <AdminUpdateDownloadNewButton>Tải về phiên bản mới</AdminUpdateDownloadNewButton>
+  <AdminUpdateStepTitle>Bước {0} {1}: {2}</AdminUpdateStepTitle>
+  <AdminUpdateStepInfo>Bước {0} {1}</AdminUpdateStepInfo>
+  <AdminUpdateNumberSymbol>#</AdminUpdateNumberSymbol>
+  <AdminUpdateBackupContent>Hãy nhấn nút "{0}" để tạo ra một bản sao lưu của thư mục với ứng dụng và nhận được một liên kết cho tải</AdminUpdateBackupContent>
+  <AdminUpdateDownloadBackupLinkHint>Hãy tải về một bản sao lưu của các ứng dụng sử dụng các liên kết dưới đây:</AdminUpdateDownloadBackupLinkHint>
+  <AdminUpdateDownloadNewContent>Sau đó, hãy tải về một phiên bản mới bằng cách sử dụng liên kết bên dưới và làm theo {0} cài đặt {1} và {2} nâng cấp {1} hướng dẫn để cài đặt một phiên bản mới. Sau khi cài đặt bạn hãy mở Admin Panel, vào tab "{3}" và nhấn vào nút "{4}" để hoàn tất cài đặt.</AdminUpdateDownloadNewContent>
+  <AdminUpdateUploadButton>Tải lên một bản sao lưu và áp dụng cài đặt</AdminUpdateUploadButton>
+  <AdminUpdateUploadAndInstallButton>Cài đặt một phiên bản mới với việc giữ tất cả các thiết lập</AdminUpdateUploadAndInstallButton>
+  <AdminUpdateUploadEmptyText>Vui lòng chọn một bản sao lưu để tải lên</AdminUpdateUploadEmptyText>
+  <AdminUpdateFinishContent>Để khôi phục lại các thiết lập của các phiên bản trước đó xin vui lòng chọn và tải lên kho lưu trữ sao lưu được tạo ra trước đó với các thư mục ứng dụng</AdminUpdateFinishContent>
+  <AdminUpdateFinishMessage>Xin chúc mừng! Tất cả các thiết lập được áp dụng thành công. Ngoài ra, hãy áp dụng tất cả những thay đổi bạn đã thực hiện các tập tin khác, ví dụ Default.aspx hoặc Global.asax.</AdminUpdateFinishMessage>
+  <AdminUpdateFinishRefreshPage>Trang này sẽ được tải lại</AdminUpdateFinishRefreshPage>
+  <AdminUpdateMainInfo>Đây là loại nâng cấp là tự động một phần. Bạn có thể tạo và tải về một tập tin sao lưu với các thiết lập cấu hình ứng dụng và khôi phục lại nó sau khi nâng cấp. Hãy làm theo các bước ngắn: tạo một tập tin sao lưu, thực hiện việc nâng cấp sử dụng, khôi phục lại các thiết lập từ tập tin sao lưu. Thủ tục này cũng có thể được sử dụng để sao lưu / khôi phục lại các thiết lập mà không cần nâng cấp. Đơn giản chỉ cần bỏ qua các bước nâng cấp để khôi phục lại các thiết lập từ tập tin sao lưu.</AdminUpdateMainInfo>
+  <AdminUpdateAutoButton>Tự động</AdminUpdateAutoButton>
+  <AdminUpdateAutoInfo>Đây là loại nâng cấp là gần như hoàn toàn tự động. Nó bao gồm 2 bước: sao lưu các thiết lập hiện tại (bạn nên tải về và lưu tập tin sao lưu), cài đặt một phiên bản mới và khôi phục lại các thiết lập từ tập tin sao lưu. HTTP Commander có thể tự động tải về phiên bản mới nhất và cài đặt nó hoặc bạn có thể chỉ định đường dẫn đến kho lưu trữ zip với một phiên bản mới trên máy chủ của chúng tôi. Tất cả các thiết lập được tự động phục hồi từ một tập tin sao lưu được tạo ra trước đó.</AdminUpdateAutoInfo>
+  <AdminUpdateRestoreWebConfigCheckBox>Khôi phục cài đặt từ Web.config (ví dụ như SMTP)</AdminUpdateRestoreWebConfigCheckBox>
+  <AdminUpdateBackupAssignedFoldersInRootMessage>Chú ý! Có một số thư mục người dùng trong thư mục với các ứng dụng có kích thước tổng cộng hơn {0}. Việc sao lưu sẽ không được thực hiện. Hãy làm một bản sao lưu của các thư mục, loại bỏ chúng khỏi thư mục ứng dụng và thử lại các hoạt động trên mặt của bạn.</AdminUpdateBackupAssignedFoldersInRootMessage>
+  <AdminUpdateNeedRefreshPageForContinue>Chú ý! Để tiếp tục nó là cần thiết để tải lại trang. Hãy nhấn nút "{0}". Sau khi tải lại xin vui lòng lặp lại các hoạt động.</AdminUpdateNeedRefreshPageForContinue>
+  <AdminUpdateRestoreFromBackupEmpty>, Hoặc nếu nó không được chọn, nó sẽ được sử dụng bởi các tập tin mới được tạo ra trong bước trước</AdminUpdateRestoreFromBackupEmpty>
+  <AdminUpdateInstallZipPathHint>Để cập nhật xin vui lòng ghi rõ đường dẫn vật lý đầy đủ đến file cài đặt (trên máy chủ) trong lĩnh vực đầu tiên hoặc để trống để sử dụng một phân phối trực tuyến</AdminUpdateInstallZipPathHint>
+  <AdminUpdateInstallZipPathEmpty>Chỉ định đường dẫn để lưu trữ với cài đặt</AdminUpdateInstallZipPathEmpty>
+  <AdminUpdateProgress>Đang cập nhật</AdminUpdateProgress>
+  <AdminUpdateAccessDeniedWarning>&lt;b&gt; Chú ý! &lt;/b&gt; Để cập nhật vui lòng cài modify (đọc và viết) quyền truy cập NTFS để {0} dùng cho thư mục với HTTP Commander {1} và lặp lại việc nâng cấp. &lt;br /&gt; Sau khi nâng cấp thành công xin vui lòng khôi phục quyền cũ.</AdminUpdateAccessDeniedWarning>
+  <AdminUpdateAccessDeniedWarningCurentUser>hiện hành</AdminUpdateAccessDeniedWarningCurentUser>
+
+  <ServerExceedsMaxSizeForEditAsTextFile>Kích thước tập tin vượt quá kích thước tối đa để chỉnh sửa nó như là một tập tin văn bản.</ServerExceedsMaxSizeForEditAsTextFile>
+  <ServerDemoMode>Các hành động đã cho là bị cấm trong một chế độ demo</ServerDemoMode>
+  <ServerHostedMode>Nó không được phép thay đổi các giá trị thiết lập trong phiên bản TRIAL tổ chức sau đây: {0}.</ServerHostedMode>
+  <ServerIncorrectImageContentType>Các tập tin Mime-loại không phải là một hình ảnh</ServerIncorrectImageContentType>
+  <ServerPermissionDenied>hoạt động này bị từ chối vì quyền giới hạn</ServerPermissionDenied>
+  <ServerRestoreFromTrashNoParentFolder>khôi phục lại thất bại vì các thư mục cha "{0}" đã được không được tìm thấy. Hãy tạo ra nó và thử lại.</ServerRestoreFromTrashNoParentFolder>
+  <ServerModifyPermissionDenied>hoạt động này bị từ chối vì bạn không có quyền sửa đổi các tập tin</ServerModifyPermissionDenied>
+  <ServerPathNotFound>Không tìm thấy con đường.</ServerPathNotFound>
+  <ServerInvalidPath>Path "{0}" là không hợp lệ</ServerInvalidPath>
+  <ServerInvalidAbsolutePath>con đường không hợp lệ tuyệt đối "{0}"</ServerInvalidAbsolutePath>
+  <!-- share folder path: \\server\share -->
+  <ServerInvalidShareFolderPath>con đường không hợp lệ chia sẻ thư mục "{0}"</ServerInvalidShareFolderPath>
+  <ServerInvalidUncPath>con đường không hợp lệ UNC "{0}"</ServerInvalidUncPath>
+  <ServerUnableResolveUncPath>Không thể giải quyết đường dẫn UNC "{0}"</ServerUnableResolveUncPath>
+  <ServerInvalidFileName>Các tập tin / thư mục tên không được đặt hoặc chứa các ký tự không đúng {0}</ServerInvalidFileName>
+  <ServerFilePathNotFound>Tập tin không tồn tại</ServerFilePathNotFound>
+  <ServerIncorrectPathForFileLink>Không đúng loại đối tượng. Các đường dẫn cụ thể trỏ đến một thư mục</ServerIncorrectPathForFileLink>
+  <ServerIncorrectPathForFolderLink>Không đúng loại đối tượng. Các đường dẫn cụ thể trỏ đến một tập tin</ServerIncorrectPathForFolderLink>
+  <ServerRootFolderNotFound>Gốc thư mục cho con đường "{0}" không tìm thấy.</ServerRootFolderNotFound>
+  <ServerUnableCreateFolder>Không thể tạo thư mục</ServerUnableCreateFolder>
+  <ServerFileAlreadyExists>Tập tin với tên này đã tồn tại</ServerFileAlreadyExists>
+  <ServerFileAlreadyExistsOnRename>
+    Bạn có muốn đổi tên "{0}" để "{1}"?
+    Đã có một tập tin có cùng tên ở vị trí này.
+  </ServerFileAlreadyExistsOnRename>
+  <ServerFolderAlreadyExistsOnRename>
+    Bạn có muốn đổi tên "{0}" để "{1}"?
+    Đã có một thư mục có cùng tên ở vị trí này.
+  </ServerFolderAlreadyExistsOnRename>
+  <ServerFoldersMergeConfirm>
+    điểm đến này đã có chứa một thư mục có tên "{0}".
+    Bạn vẫn muốn kết hợp thư mục này "{0}" với điều này "{1}"?
+  </ServerFoldersMergeConfirm>
+  <ServerFolderWithSameNameAsFileNameAlreadyExists>Đã có một thư mục có cùng tên "{0}" như tên tập tin bạn chỉ định</ServerFolderWithSameNameAsFileNameAlreadyExists>
+  <ServerFileWithSameNameAsFolderNameAlreadyExists>Đã có một tập tin có cùng tên "{0}" là tên thư mục mà bạn chỉ định</ServerFileWithSameNameAsFolderNameAlreadyExists>
+  <ServerFileNotFound>Các tập tin "{0}" không được tìm thấy trong thư mục "{1}". Có thể nó đã bị xóa hoặc gỡ bỏ bởi người dùng khác.</ServerFileNotFound>
+  <ServerDirectoryAlreadyExists>Một thư mục với tên này đã tồn tại</ServerDirectoryAlreadyExists>
+  <ServerFolderMoveAlreadeExists>Các thư mục đích "{0}" là giống như thư mục nguồn</ServerFolderMoveAlreadeExists>
+  <ServerUploadPathNotFound>Đường dẫn để lưu trữ tập tin không được tìm thấy trên máy chủ</ServerUploadPathNotFound>
+  <ServerUploadPathNotSet>Có lỗi xảy ra trong khi nhận được một đường dẫn để tải lên. Xin vui lòng, làm mới trang trong trình duyệt và thử lại.</ServerUploadPathNotSet>
+  <ServerUploadNoChunk>Không có đoạn cho tiết kiệm</ServerUploadNoChunk>
+  <ServerUploadWriteChunk>Viết đoạn từ byte</ServerUploadWriteChunk>
+  <ServerUploadCreatingFile>tạo tập tin</ServerUploadCreatingFile>
+  <ServerUploadFileUploaded>Các tập tin đã được tải lên</ServerUploadFileUploaded>
+  <ServerUploadWriteError>lỗi bằng văn bản</ServerUploadWriteError>
+  <ServerConfigurationError>cấu hình không chính xác hoặc ứng dụng! Liên hệ với quản trị trang web</ServerConfigurationError>
+  <ServerPermissionsAllowTypes>quyền hiện nay cho phép hoạt động này chỉ với các loại tập tin {0}</ServerPermissionsAllowTypes>
+  <ServerPermissionsDenyTypes>quyền hiện hành cấm hoạt động này với các loại tập tin {0}</ServerPermissionsDenyTypes>
+  <ServerRequestSizeExceeded>Kích thước của các tập tin được tải lên vượt quá kích thước cho phép trong cài đặt máy chủ</ServerRequestSizeExceeded>
+  <ServerEmailMsgProcessedFilesSubject>Tải lên / sửa đổi / tải / Tạo / xóa / Shared tập tin / thư mục</ServerEmailMsgProcessedFilesSubject>
+  <ServerEmailMsgUploadFilesTitle>tải lên</ServerEmailMsgUploadFilesTitle>
+  <ServerEmailMsgModifyFilesTitle>sửa đổi</ServerEmailMsgModifyFilesTitle>
+  <ServerEmailMsgDownloadFilesTitle>tải về</ServerEmailMsgDownloadFilesTitle>
+  <ServerEmailMsgCreateFilesTitle>tạo</ServerEmailMsgCreateFilesTitle>
+  <ServerEmailMsgDeleteFilesTitle>xóa</ServerEmailMsgDeleteFilesTitle>
+  <ServerEmailMsgCreatePublicFilesTitle>chia sẻ</ServerEmailMsgCreatePublicFilesTitle>
+  <ServerEmailMsgProcessedFilesBody>
+    Các tập tin / thư mục sau đây là {0} của {1}:
+
+{2}
+    
+  </ServerEmailMsgProcessedFilesBody>
+  <ServerEmailMsgPasswordRecoverSubject>Khôi phục mật khẩu</ServerEmailMsgPasswordRecoverSubject>
+  <ServerEmailMsgPasswordRecoverBody>
+    Bạn được yêu cầu để khôi phục mật khẩu của bạn trong Web File Manager. Mật khẩu của bạn đã được thiết lập lại. Nếu bạn tin rằng đây là một lỗi, chỉ đơn giản là bỏ qua lá thư này, nhưng lưu ý rằng mật khẩu của bạn đã được thay đổi.
+    Tên người dùng: {0}
+    Mật khẩu mới: {1}
+  </ServerEmailMsgPasswordRecoverBody>
+  
+  <ServerEmailMsgUserNameRecoverSubject>phục hồi Tên đăng nhập</ServerEmailMsgUserNameRecoverSubject>
+  <ServerEmailMsgUserNameRecoverBody>
+    Bạn được yêu cầu để phục hồi tên của bạn trong Web File Manager.
+    Tên người dùng: {0}
+  </ServerEmailMsgUserNameRecoverBody>
+
+  <ServerEmailMsgUserActivationSubject>Kích hoạt tài khoản</ServerEmailMsgUserActivationSubject>
+  <ServerEmailMsgUserActivationBody>
+    Tài khoản ({0}) kích hoạt là bắt buộc.
+    Để kích hoạt tài khoản của bạn, xin vui lòng nhấp vào liên kết sau: {1}
+  </ServerEmailMsgUserActivationBody>
+  <ServerEmailMsgUserRegisteredSubject>người dùng đã đăng ký</ServerEmailMsgUserRegisteredSubject>
+  <ServerEmailMsgUserRegisteredBody>
+    Bạn đã đăng ký thành công trong Web File Manager.
+    Tên người dùng: {0}
+  </ServerEmailMsgUserRegisteredBody>
+  <ServerEmailMsgUserRegisteredForAdminsBody>
+    &lt;h4&gt; Người dùng mới đã được đăng ký &lt;/h4&gt;
+    &lt;strong&gt; Tên người dùng &lt;/strong&gt;: {0} &lt;br /&gt;
+    &lt;strong&gt; Email &lt;/strong&gt;: {1} &lt;br /&gt;
+    &lt;strong&gt; Ngày &lt;/strong&gt;: {2} &lt;br /&gt;
+    &lt;strong&gt; Thông tin thêm &lt;/strong&gt;: {3} &lt;br /&gt;
+  </ServerEmailMsgUserRegisteredForAdminsBody>
+  <ServerDiskFullError>Không đủ chô trông trong đia.</ServerDiskFullError>
+  <ServerFolderLimitations>hạn chế Folder: {0}</ServerFolderLimitations>
+  <ServerShortcutAssignedFolderNotFound>thư mục được chỉ định không tìm thấy một con đường mục tiêu của shortcut</ServerShortcutAssignedFolderNotFound>
+  <ServerSizeFilesForZipExceeded>giá trị kích thước của tập thể lưu vượt phép {0}.</ServerSizeFilesForZipExceeded>
+  <ServerPasteFolderToSubfolderError>Các thư mục đích "{0}" là một thư mục con của thư mục nguồn "{1}".</ServerPasteFolderToSubfolderError>
+  <ServerLiveConnectAppIDNotSpecified>ID khách hàng của ứng dụng Microsoft Live Connect không được định nghĩa</ServerLiveConnectAppIDNotSpecified>
+  <ServerSendEmailInfo>Tác giả nêu email của họ như là {0}. CHỈ sử dụng địa chỉ email này để trả lời.</ServerSendEmailInfo>
+
+  <ServerAntivirusScanningFailed>Quét bởi một virus: '{0} {1}' chấm dứt bất thường.</ServerAntivirusScanningFailed>
+
+  <ServerUserNameNotFound>Người dùng với tên '{0}' không được tìm thấy.</ServerUserNameNotFound>
+  <ServerFileNameCopySuffix>bản sao</ServerFileNameCopySuffix>
+
+  <ServerDeleteFolderNTFSAccessDenied>Bạn không có quyền NTFS để loại bỏ thư mục "{0}"</ServerDeleteFolderNTFSAccessDenied>
+
+  <ServerMSOOTemplateNotFound>{0} template không tìm thấy</ServerMSOOTemplateNotFound>
+</Localization>

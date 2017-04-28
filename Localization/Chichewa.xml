@@ -1,0 +1,1608 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Localization>
+  <!-- Common keys -->
+  
+  <ExtMsgButtonTextYES>inde</ExtMsgButtonTextYES>
+  <ExtMsgButtonTextNO>No</ExtMsgButtonTextNO>
+  
+  <ControlHideFileManager>Bisani owona ukonde bwana</ControlHideFileManager>
+  
+  <CommonMainTitle>owona Web kupeza</CommonMainTitle>
+  <CommonApplicationLoading>Mumakonda owona intaneti kupeza</CommonApplicationLoading>
+  <CommonLoadError>kulakwitsa zinachitika pa kupeza deta mtengo</CommonLoadError>
+  <CommonGridAccessDenied>Chikwatu "{0}" kulibe kapena kuwerenga mwayi ndi adatsutsa</CommonGridAccessDenied>
+  <CommonNoScript>tsamba lino amafuna JavaScript kuti tithandizidwe osatsegula! Chonde athe ndi kulowa kachiwiri!</CommonNoScript>
+  <CommonErrorCaption>cholakwa</CommonErrorCaption>
+  <CommonWarningCaption>chenjezo</CommonWarningCaption>
+  <CommonInfoCaption>Information</CommonInfoCaption>
+  <CommonConfirmCaption>Tsimikizani</CommonConfirmCaption>
+  <CommonFileNameCaption>Dzina lafayilo</CommonFileNameCaption>
+  <CommonFileNamePrompt>Lowetsani latsopano file dzina</CommonFileNamePrompt>
+  <CommonFileNewNameValue>Latsopano Text Document.txt</CommonFileNewNameValue>
+  <CommonFolderNewNameValue>foda</CommonFolderNewNameValue>
+  <CommonZipFileNameCaption>Zip Archive dzina</CommonZipFileNameCaption>
+  <CommonZipFileNamePrompt>Wapamwamba dzina (kutambasuka zidzawonjezedwa basi)</CommonZipFileNamePrompt>
+  <CommonFolderNameCaption>fodayi</CommonFolderNameCaption>
+  <CommonFolderNamePrompt>Lowetsani Foda dzina</CommonFolderNamePrompt>
+  <CommonDeleteOnePrompt>Kodi inu mukutsimikiza kuchotsa "{0}"?</CommonDeleteOnePrompt>
+  <CommonDeleteManyPrompt>Kodi inu mukutsimikiza kuchotsa {0} zinthu zimenezi?</CommonDeleteManyPrompt>
+  <CommonForToday>pakuti lero</CommonForToday>
+  <CommonButtonCaptionOK>Chabwino</CommonButtonCaptionOK>
+  <CommonButtonCaptionCancel>Kuletsa</CommonButtonCaptionCancel>
+  <CommonButtonCaptionClose>Close</CommonButtonCaptionClose>
+  <CommonButtonCaptionAdd>kuwonjezera</CommonButtonCaptionAdd>
+  <CommonButtonCaptionContinue>Pitirizani</CommonButtonCaptionContinue>
+
+  <CommonProgressPleaseWait>chonde dikirani</CommonProgressPleaseWait>
+  
+  <CommonFieldLabelName>Name</CommonFieldLabelName>
+  <CommonFieldLabelPath>njira</CommonFieldLabelPath>
+  <CommonFieldLabelSize>kukula</CommonFieldLabelSize>
+  <CommonFieldLabelLabels>zolemba</CommonFieldLabelLabels>
+  <CommonFieldLabelType>Type</CommonFieldLabelType>
+  <CommonFieldLabelAction>Action</CommonFieldLabelAction>
+  <CommonFieldLabelDate>Date</CommonFieldLabelDate>
+  <CommonFieldLabelDateTime>Tsiku &amp;Time</CommonFieldLabelDateTime>
+  <CommonFieldLabelDateCreated>Date analenga</CommonFieldLabelDateCreated>
+  <CommonFieldLabelDateModified>Date kusinthidwa</CommonFieldLabelDateModified>
+  <CommonFieldLabelDateAccessed>Date kufika</CommonFieldLabelDateAccessed>
+  <CommonFieldLabelValue>mtengo</CommonFieldLabelValue>
+  <CommonFieldLabelUserName>dzina wosuta</CommonFieldLabelUserName>
+  <CommonFieldLabelUser>wosuta</CommonFieldLabelUser>
+  <CommonFieldLabelUsers>ogwiritsa</CommonFieldLabelUsers>
+  <CommonFieldLabelGroupName>dzina gulu</CommonFieldLabelGroupName>
+  <CommonFieldLabelGroup>gulu</CommonFieldLabelGroup>
+  <CommonFieldLabelGroups>magulu</CommonFieldLabelGroups>
+  <CommonFieldLabelPassword>achinsinsi</CommonFieldLabelPassword>
+  <CommonFieldLabelRepeatPassword>Bwerezani mawu achinsinsi</CommonFieldLabelRepeatPassword>
+  <CommonFieldLabelComments>Comments</CommonFieldLabelComments>
+  <CommonValueTypeFolder>foda</CommonValueTypeFolder>
+
+  <CommonFieldLabelDescription>Kufotokozera</CommonFieldLabelDescription>
+  <EmptyDescriptionText>Fotokozani mafotokozedwe</EmptyDescriptionText>
+  <CommonFieldLabelReadMeTxt>okhutira Readme.txt</CommonFieldLabelReadMeTxt>
+  
+  <CommonWordOr>kapena</CommonWordOr>
+
+  <SortAscText>mtundu Kukwera</SortAscText>
+  <SortDescText>mtundu potsika</SortDescText>
+
+  <CommonNewDocument>Tsamba latsopano</CommonNewDocument>
+  <CommonNewSpreadsheet>spreadsheet latsopano</CommonNewSpreadsheet>
+  <CommonNewPresentation>Kupereka latsopano</CommonNewPresentation>
+
+  <CommonWordWrap>Mawu Manga</CommonWordWrap>
+  
+  <!-- End Common keys -->
+
+  <!-- Labels -->
+
+  <LabelsTitle>chizindikiro</LabelsTitle>
+  <LabelsNoLabel>No chizindikiro</LabelsNoLabel>
+  <LabelsColor>mtundu</LabelsColor>
+  <LabelsCustomLabel>mwambo chizindikiro</LabelsCustomLabel>
+  <LabelsCustomLabelHint>Lowani lemba chizindikiro ndi</LabelsCustomLabelHint>
+  <LabelsCustomLabelView>Chizindikiro &amp;nbsp; view: &amp;nbsp; {0} {1} {2}</LabelsCustomLabelView>
+  <LabelsFileLabelledMessage>Bwinobwino olembedwa {0} item (s)</LabelsFileLabelledMessage>
+  <LabelsRemovedMessage>Bwinobwino anachotsa {0} chizindikiro (s)</LabelsRemovedMessage>
+  <LabelsNotRemovedMessages>kuchotsedwa: {0}</LabelsNotRemovedMessages>
+  <LabelsNotLabelledMessage>osati olembedwa kuti: {0}</LabelsNotLabelledMessage>
+  <LabelsLabelRemovedMessage>Amanena bwinobwino anachotsa</LabelsLabelRemovedMessage>
+  <LabelsNewLabel>chizindikiro latsopano</LabelsNewLabel>
+  <LabelsLabellingMessage>Labelling</LabelsLabellingMessage>
+  <LabelsRemovingLabelMessage>kuchotsa zolemba</LabelsRemovingLabelMessage>
+  <LabelsLabelInfoTip>Idanenedwa '{0}' {1} ndi wosuta '{2}'</LabelsLabelInfoTip>
+
+  <!-- End Labels -->
+
+  <!-- Comments -->
+
+  <CommentsCountInfoTip>{0} ndemanga (s)</CommentsCountInfoTip>
+  <CommentsWriteCommentHint>Lembani ndemanga ndi atolankhani '{0}' kapena Ctrl+Lowani kapena kuloza+Lowani ...</CommentsWriteCommentHint>
+
+  <!-- End Comments -->
+
+  <RefreshPageWarningMessage>&lt;b&gt; Chisamaliro! &lt;/b&gt; kumaliza ntchito imeneyi, panopa tsamba la msakatuli ayenera olimbikitsidwa &lt;br. /&gt; Kodi mukufuna polimbikitsa tsopano?</RefreshPageWarningMessage>
+
+  <PagingToolbarBeforePageText>Page</PagingToolbarBeforePageText>
+  <PagingToolbarAfterPageText>wa {0}</PagingToolbarAfterPageText>
+  <PagingToolbarFirstText>Page yoyamba</PagingToolbarFirstText>
+  <PagingToolbarPrevText>Page Previous</PagingToolbarPrevText>
+  <PagingToolbarNextText>Page Next</PagingToolbarNextText>
+  <PagingToolbarLastText>Page Last</PagingToolbarLastText>
+  <PagingToolbarDisplayMsg>Kusonyeza {0} - {1} wa {2}</PagingToolbarDisplayMsg>
+  <PagingToolbarEmptyMsg>No deta kusonyeza</PagingToolbarEmptyMsg>
+  
+  <GridTotalLabel>Total:</GridTotalLabel>
+  <GridTotalFilesLabel>owona</GridTotalFilesLabel>
+  <GridTotalFoldersLabel>mafoda</GridTotalFoldersLabel>
+  
+  <GridDDSelectedRowsText>{0} anasankha mzere {1}</GridDDSelectedRowsText>
+  <GridDDSelectedFilesText>{0} anasankha owona</GridDDSelectedFilesText>
+  <GridDDSelectedFoldersText>{0} anasankha mafoda</GridDDSelectedFoldersText>
+  <GridDDConfirmCopyMoveTitle>Dontho ku Foda "{0}"</GridDDConfirmCopyMoveTitle>
+  <GridDDConfirmAddToZipTitle>Kuwonjezera zip "{0}"</GridDDConfirmAddToZipTitle>
+  <GridDDConfirmAddToZipMessage>owona anakokera zidzawonjezedwa kwa Archive izi ZIP. Kodi mungakonde? {0}.</GridDDConfirmAddToZipMessage>
+  <GridDDConfirmCopyMoveMsg>Sankhani zinthu zimene mukufuna kugwiritsa ntchito. Source: "{0}", kumene foda: "{1}" {2} {3}..</GridDDConfirmCopyMoveMsg>
+  <GridDDConfirmCopyMoveToZipMsg>Owona zidzawonjezedwa kwa zipi Archive. Sankhani zochita zimene mukufuna kugwiritsa ntchito kwa owona anakokera pambuyo kuwonjezera owona kwa zipi Archive. Source: "{0}", kumene zipi Archive: "{1}" {2} {3}..</GridDDConfirmCopyMoveToZipMsg>
+  <GridDDDraggedFileNames>&lt;b&gt; anakokera owona: &lt;/b&gt; {0}</GridDDDraggedFileNames>
+  <GridDDDraggedFolderNames>&lt;b&gt; anakokera mafoda: &lt;/b&gt; {0}</GridDDDraggedFolderNames>
+  <GridDDConfirmTargetFolderOnlyCopyMsg>zilolezo zatsopano fodayi gwero amakulolani buku limodzi lokhali anakokera owona. Kodi mungakonde? {0}.</GridDDConfirmTargetFolderOnlyCopyMsg>
+  <GridDDConfirmTargetFolderOnlyMoveMsg>zilolezo zatsopano fodayi gwero amakulolani Sunthani anakokera owona. Kodi mungakonde? {0}.</GridDDConfirmTargetFolderOnlyMoveMsg>
+
+  <GridRowPublicHint>Dinani kutsegula kugwirizana poyera mu tsamba latsopano / tsamba</GridRowPublicHint>
+  <GridRowAlertHint>Dinani kuona kusintha adamchitira file izi / foda</GridRowAlertHint>
+  <GridRowRecentHint>Kupeza uyu file / foda</GridRowRecentHint>
+  <GridRowAlertEventHint>Dinani kupita kumalo</GridRowAlertEventHint>
+
+  <ProgressCreating>Kupanga</ProgressCreating>
+  <ProgressDeleting>Kuchotsa</ProgressDeleting>
+  <ProgressLoading>Chimaltenango</ProgressLoading>
+  <ProgressSearching>kufunafuna</ProgressSearching>
+  <ProgressZipping>Compressing</ProgressZipping>
+  <ProgressUnzipping>Unpacking</ProgressUnzipping>
+  <ProgressZipContents>Kupeza nkhani za Archive ZIP</ProgressZipContents>
+  <ProgressPrepareDownload>Kukonzekera Download</ProgressPrepareDownload>
+  <ProgressMoving>patsogolo</ProgressMoving>
+  <ProgressCopying>kukopera</ProgressCopying>
+  <ProgressRenaming>Renaming</ProgressRenaming>
+  <ProgressUpdating>Zikuchitika</ProgressUpdating>
+  <ProgressLoadingEditInPixlr>Tsegula Pixlr mkonzi</ProgressLoadingEditInPixlr>
+  <ProgressLoadingEdit>Mumakonda mkonzi</ProgressLoadingEdit>
+  <ProgressSavingEdit>kupulumutsa file</ProgressSavingEdit>
+  <ProgressSaving>kupulumutsa</ProgressSaving>
+  <ProgressExecuting>ankapha</ProgressExecuting>
+
+  <BalloonFilesDeleted>{0} file (s) zichotsedwa</BalloonFilesDeleted>
+  <BalloonFoldersDeleted>{0} foda (s) zichotsedwa</BalloonFoldersDeleted>
+  <BalloonFilesFailed>{0} file (s) analephera</BalloonFilesFailed>
+  <BalloonFoldersFailed>{0} foda (s) analephera</BalloonFoldersFailed>
+  <BalloonFilesZipped>{0} file (s) wothinikizidwa</BalloonFilesZipped>
+  <BalloonFoldersZipped>{0} foda (s) wothinikizidwa</BalloonFoldersZipped>
+  <BalloonFilesCopied>{0} file (s) anakopera</BalloonFilesCopied>
+  <BalloonFoldersCopied>{0} foda (s) anakopera</BalloonFoldersCopied>
+  <BalloonFilesMoved>{0} file (s) anasamukira</BalloonFilesMoved>
+  <BalloonFoldersMoved>{0} foda (s) anasamukira</BalloonFoldersMoved>
+  <BalloonNotUnzipped>{0} file (s) sizinachitike unpacked</BalloonNotUnzipped>
+  <BalloonFilesUploaded>{0} file (s) ndakweza</BalloonFilesUploaded>
+  <BalloonFilesNotUploaded>{0} file (s) osati ndakweza</BalloonFilesNotUploaded>
+  <BalloonSomeFilesNotUploaded>Ena owona sangathe ndakweza</BalloonSomeFilesNotUploaded>
+  <BalloonCreatedSuccessfully>analenga bwinobwino</BalloonCreatedSuccessfully>
+  <BalloonUnzippedSuccessfully>Unpacked bwinobwino</BalloonUnzippedSuccessfully>
+  <BalloonRenamedSuccessfully>n'kukhala bwinobwino</BalloonRenamedSuccessfully>
+  <BalloonSavedSuccessfully>opulumutsidwa bwinobwino</BalloonSavedSuccessfully>
+  <BalloonCopiedToClipboard>Anakopera kuti zomatula</BalloonCopiedToClipboard>
+  <BalloonCopyToClipboardFailed>Koperani ndi zomatula analephera</BalloonCopyToClipboardFailed>
+
+  <CommandCopyToClipboard>Koperani ndi zomatula</CommandCopyToClipboard>
+  <CommandCopyLinkToClipboard>Koperani kugwirizana kwa zomatula</CommandCopyLinkToClipboard>
+  <ClipboardScreenshotTitlePrefix>Image</ClipboardScreenshotTitlePrefix>
+  <ClipboardScreenshotHint>Images: Mukhoza kumata ndi chithunzi kuchokera zomatula wanu (Press &lt;b&gt; Ctrl+PrtSc &lt;/b&gt; ndiyeno &lt;b&gt; Ctrl+V &lt;/b&gt;) kapena fano kwa mkonzi wanu (Press &lt;b&gt; Ctrl+V &lt;/b&gt;).</ClipboardScreenshotHint>
+  <ClipboardFileHint>Mukhozanso muiike wapamwamba ku zomatula</ClipboardFileHint>
+
+  <CommandClouds>mtambo storages</CommandClouds>
+  <CommandCloudsDownloadTo>koperani to ...</CommandCloudsDownloadTo>
+  <CommandCloudsUploadFrom>kukweza kuchokera ...</CommandCloudsUploadFrom>
+  <CommandCloudsAbout>About Mtambo storages</CommandCloudsAbout>
+  
+  <CommandBack>Back</CommandBack>
+  <CommandForward>Forward</CommandForward>
+  <CommandRecentFolders>mafoda Recent</CommandRecentFolders>
+  <CommandHome>Home</CommandHome>
+  <CommonActions>zochita</CommonActions>
+  <CommandMultiSelect>Mipikisano sankhani</CommandMultiSelect>
+  <CommandShare>Share</CommandShare>
+  <CommandSorting>otumizira</CommandSorting>
+  
+  <CommandFileManager>Kubwerera kwa bwana file</CommandFileManager>
+  <CommandFolders>mafoda</CommandFolders>
+  <CommandGridView>View</CommandGridView>
+  <CommandRefresh>kulunzanitsa</CommandRefresh>
+  <CommandThumbnailView>thumbnail Utsogoleri view</CommandThumbnailView>
+  <CommandDetailedView>mdandanda</CommandDetailedView>
+  <CommandDetailsPane>tsatanetsatane pane</CommandDetailsPane>
+  <CommandFavorites>okondedwa</CommandFavorites>
+  <CommandAddToFavorites>Kuwonjezera okondedwa</CommandAddToFavorites>
+  <CommandAddToFavoritesHint>Kuwonjezera chikwatu panopa kwa okondedwa</CommandAddToFavoritesHint>
+  <AddingToFavoritesMessage>Kuwonjezera okondedwa</AddingToFavoritesMessage>
+  <RemoveFromFavoritesMessage>Kuchotsa kwa okondedwa</RemoveFromFavoritesMessage>
+  <FolderAlreadyAddedInFavorites>Chikwatu "{0}" lilipo kale mu okondedwa</FolderAlreadyAddedInFavorites>
+  <FolderAddedInFavoritesSuccessfully>Chikwatu "{0}" bwinobwino anawonjezera kuti okondedwa</FolderAddedInFavoritesSuccessfully>
+  <FavoritesIsOverflowed>Sikunali kotheka kuti kuwonjezera chikwatu panopa "{0}" kwa okondedwa. Chotsani ena okondedwa kumasula ena danga ndi yeseraninso.</FavoritesIsOverflowed>
+  <RemoveFromFavoritesHint>Chotsani "{0}" kwa okondedwa</RemoveFromFavoritesHint>
+  <AddToHomeScreenIOSHint>Dinani {0} kenako &lt;amphamvu&gt; "Kuwonjezera Home Screen" &lt;/ amphamvu&gt;</AddToHomeScreenIOSHint>
+  <CommandSearch>Search</CommandSearch>
+  <CommandUpload>Kwezani</CommandUpload>
+  <CommandSettings>Zikhazikiko</CommandSettings>
+  <CommandLanguage>Language</CommandLanguage>
+  <CommandAdministration>Administration</CommandAdministration>
+  <CommandAdminPanel>boma gulu</CommandAdminPanel>
+  <CommandChangePassword>Sinthani mawu achinsinsi</CommandChangePassword>
+  <ProgressChangePassword>kusintha achinsinsi</ProgressChangePassword>
+  <CommandChangeEmail>Change E-mail</CommandChangeEmail>
+  <ProgressChangeEmail>Kusintha E-mail</ProgressChangeEmail>
+  <CommandMobileView>Mobile mawonekedwe (Mafoni Amakono)</CommandMobileView>
+  <CommandStandardView>Full Baibulo</CommandStandardView>
+  <CommandInstallIOSApp>Ikani pulogalamu iOS</CommandInstallIOSApp>
+  <CommandInstallAndroidApp>Kukhazikitsa Android app</CommandInstallAndroidApp>
+  <CommandAddServerToMobileApp>Kuwonjezera makina izi kwa app mafoni</CommandAddServerToMobileApp>
+  <CommandAddToHomeScreen>Kuwonjezera yotchinga pakhomo</CommandAddToHomeScreen>
+  <CommandDiagnostics>matenda tsamba</CommandDiagnostics>
+  <CommandLicenseInfo>mfundo License</CommandLicenseInfo>
+  <CommandLogout>Logout</CommandLogout>
+  <CommandLogoutHint>Dinani kumaliza zokambirana panopa</CommandLogoutHint>
+  <CommandNew>yatsopano</CommandNew>
+  <CommandFile>wapamwamba</CommandFile>
+  <CommandEmptyFile>file chopanda</CommandEmptyFile>
+  <CommandNewMSOODocument>Chikalata MS Office Online</CommandNewMSOODocument>
+  <CommandNewOffice365Document>Chikalata Office 365</CommandNewOffice365Document>
+  <CommandNewMSOOWord>Mawu choyenera</CommandNewMSOOWord>
+  <CommandNewMSOOExcel>Excel spreadsheet</CommandNewMSOOExcel>
+  <CommandNewMSOOPowerPoint>PowerPoint Kupereka</CommandNewMSOOPowerPoint>
+  <CommandNewGoogleDocument>Chikalata Google</CommandNewGoogleDocument>
+  <CommandNewGoogleDocs>Google Docs</CommandNewGoogleDocs>
+  <CommandNewGoogleSheets>Mapepala Google</CommandNewGoogleSheets>
+  <CommandNewGoogleSlides>Slides Google</CommandNewGoogleSlides>
+  <CommandNewImage>Image mu Pixlr</CommandNewImage>
+  <CommandFolder>foda</CommandFolder>
+  <CommandNewFile>Latsopano chopanda file</CommandNewFile>
+  <CommandNewFolder>foda</CommandNewFolder>
+  <CommandNewWithTemplate>Ntchito Chinsinsi ...</CommandNewWithTemplate>
+  <CommandRename>Sinthani dzina</CommandRename>
+  <CommandDelete>Chotsani</CommandDelete>
+  <CommandCopy>Koperani</CommandCopy>
+  <CommandMove>kusuntha</CommandMove>
+  <CommandCut>Dulani</CommandCut>
+  <CommandCopyTo>Buku to ...</CommandCopyTo>
+  <CommandMoveTo>Kusamukira ...</CommandMoveTo>
+  <CommandCopyCutClipboardSuffix>kuti zomatula</CommandCopyCutClipboardSuffix>
+  <CommandPaste>Matani</CommandPaste>
+  <CommandPasteInto>Ikani mu</CommandPasteInto>
+  <CommandZip>Compress kwa Archive Zipi</CommandZip>
+  <CommandZipMenu>Zip / Unzip</CommandZipMenu>
+  <CommandUnzip>kungomasula Zipi</CommandUnzip>
+  <CommandUnzipSelected>kungomasula anasankha</CommandUnzipSelected>
+  <CommandUnzipAll>kungomasula onse</CommandUnzipAll>
+  <CommandUnzipTo>kuti fodayi</CommandUnzipTo>
+  <CommandUnzipToCurrent>kuti chikwatu panopa</CommandUnzipToCurrent>
+  <MessageUnzipToFolder>Lembani dzina la foda kuti kungomasula izi kwa</MessageUnzipToFolder>
+  <MessageUnzipPasswordHint>Ngati inu mukudziwa kuti achinsinsi ndi zofunika unpacking, kulowa m'munda m'munsimu</MessageUnzipPasswordHint>
+  <MessageUnzipNeedPassword>achinsinsi amafunika kuti kungomasula owona</MessageUnzipNeedPassword>
+  <ZipPasswordProtectHint>Kuti achinsinsi-kuteteza zipi Archive, kulowa achinsinsi m'munda m'munsimu. Apo ayi, kusiya m'munda chopanda</ZipPasswordProtectHint>
+  <AppendToZipPasswordProtectHint>Kuti achinsinsi-kuteteza owona anawonjezera kuti zipi Archive, kulowa achinsinsi m'munda m'munsimu. Apo ayi, kusiya m'munda chopanda</AppendToZipPasswordProtectHint>
+  <ZipPasswordProtectWindowTitle>Archiving ndi achinsinsi</ZipPasswordProtectWindowTitle>
+  <OpenFolderAfterUnzipCheckBox>Open chikwatu pambuyo unpacking</OpenFolderAfterUnzipCheckBox>
+  <CommandUnzipToNew>kuti chikwatu latsopano</CommandUnzipToNew>
+  <CommandZipContents>okhutira Zip</CommandZipContents>
+  <ArchiveContentsTitle>okhutira Archive "{0}"</ArchiveContentsTitle>
+  <CommandDownload>Download</CommandDownload>
+  <CommonDownloadAll>Koperani onse</CommonDownloadAll>
+  <DownloadListDragFile>Mukhoza kukoka-n-dontho owona kompyuta yanu</DownloadListDragFile>
+  <CommandZipDownload>Compress download</CommandZipDownload>
+  <CommandView>View mu msakatuli</CommandView>
+  <CommandDownloadOrView>Download kapena view</CommandDownloadOrView>
+  <CommandPreview>Images chithunzithunzi</CommandPreview>
+  <CommandFlashPreview>kung'anima chithunzithunzi</CommandFlashPreview>
+  <GettingSizeFlashMovie>Kupeza kukula kwa filimu kung'anima</GettingSizeFlashMovie>
+  <CommandEdit>Sinthani ngati file lemba</CommandEdit>
+  <CommandEditView>View monga file lemba</CommandEditView>
+  <AceNotLoadedMessage>Sitinathe kutsegula Ace mkonzi</AceNotLoadedMessage>
+  <VideoJsNotLoadedMessage>Sitinathe kutsegula VideoJS player</VideoJsNotLoadedMessage>
+  <CommandMenuEdit>Sinthani</CommandMenuEdit>
+  <CommandSelectAll>Sankhani zonse</CommandSelectAll>
+  <CommandInvertSelection>Invert kusankha</CommandInvertSelection>
+  <CommandLinkToFile>Link kuti file / foda</CommandLinkToFile>
+  <!--Share link-->
+  <CommandMakePublicFolder>Pangani kugwirizana pagulu</CommandMakePublicFolder>
+  <PublicViewInGoogle>View mu Google</PublicViewInGoogle>
+  <PublicViewinOWA>View mu OWA</PublicViewinOWA>
+  <!--Make public folder (share)-->
+  <CommandViewWithGoogleDoc>View mu Docs Google</CommandViewWithGoogleDoc>
+  <CommandViewWithShareCad>View mu ShareCad.org</CommandViewWithShareCad>
+  <CommandViewWithAutodesk>View mu Autodesk</CommandViewWithAutodesk>
+  <CommandViewWithBox>View mu Box</CommandViewWithBox>
+  <CommandViewWithOWA>View mu Office Mapulogalamu Web</CommandViewWithOWA>
+  <CommandCloudConvert>Kutembenuka ndi CloudConvert</CommandCloudConvert>
+  <ProgressGetCloudConvertOutputFormats>Kupeza akamagwiritsa linanena bungwe</ProgressGetCloudConvertOutputFormats>
+  <ProgressCloudConvertConverting>akatembenuka</ProgressCloudConvertConverting>
+  <CloudConvertWindowTitle>Sinthani '{0}'</CloudConvertWindowTitle>
+  <CloudConvertWindowConvertButton>Sinthani</CloudConvertWindowConvertButton>
+  <CloudConvertWindowOutputFormatsLabel>linanena bungwe mtundu</CloudConvertWindowOutputFormatsLabel>
+  <CloudConvertDownloadLinkLabel>Link kukopera</CloudConvertDownloadLinkLabel>
+  <CloudConvertSaveAsLabel>Apulumuke (kutambasuka zidzawonjezedwa basi):</CloudConvertSaveAsLabel>
+  <CloudConvertNoOutputFormats>Palibe akamagwiritsa zilipo akatembenuka</CloudConvertNoOutputFormats>
+  <CloudConvertNoUrlForDownload>Iwo anali amalephera kuti alandire kugwirizana kwa otsitsira</CloudConvertNoUrlForDownload>
+  <ProgressCloudConvertUploading>Kukweza kuchokera CloudConvert</ProgressCloudConvertUploading>
+  <CloudConvertSaveAsNameBlank>Type dzina pano</CloudConvertSaveAsNameBlank>
+  <CancelEditButton>Kuletsa Sinthani</CancelEditButton>
+  <HideButton>Bisani</HideButton>
+  <EditDocumentCancelHint>Mukamaliza kutseka zenera ndi chikalata lolembedwa, adzakhululukidwa autosaved. &lt;br /&gt; Mukhoza kubisa izi bokosi kukambirana ndi kukanikiza {0} (mu nkhani iyi, chikalata adakali akupulumutsidwa kutseka mkonzi). &lt;br /&gt; ngati simukufuna kuti apulumutse chikalata, atolankhani {1} (mu nkhani iyi, mkonzi window zidzatsekedwa).</EditDocumentCancelHint>
+  <EditDocumentSaveHint>Tsopano inu angapulumutse kusintha mpukutuwu ndi kukanikiza {0}. Chidwi! Mukamaliza kutseka mkonzi zenera, adzakhululukidwa komanso autosaved.</EditDocumentSaveHint>
+  <CommandEditInMSOffice>Sinthani mu MS Office</CommandEditInMSOffice>
+  <CommandEditInOOo>Sinthani mu OpenOffice / LibreOffice</CommandEditInOOo>
+  <CommandViewInMSOffice>View mu MS Office</CommandViewInMSOffice>
+  <CommandViewInOOo>View mu OpenOffice / LibreOffice</CommandViewInOOo>
+  <CommandEditInPixlr>Sinthani mu Pixlr</CommandEditInPixlr>
+  <CommandEditInAdobe>Sinthani mu Adobe Creative Mtambo</CommandEditInAdobe>
+  <AdobeImageEditorSavedAsNewTypeMessage>Chithunzi chinasintha Adobe Image Editor wapulumutsidwa mu mtundu wa {0}</AdobeImageEditorSavedAsNewTypeMessage>
+  <CommandEditInGoogle>Sinthani mu Drive Google</CommandEditInGoogle>
+  <EditInGoogleConvertMessage>Pambuyo Sinthani chikalata adzakhala n'kukhala mtundu {1} {0} {2}</EditInGoogleConvertMessage>
+  <EditInGoogleLinkError>Osatha kugwirizana kusintha chikalata mu Drive Google</EditInGoogleLinkError>
+  <EditInGoogleWaiting>Kuyembekezera kusintha kutsiriza mu Drive Google</EditInGoogleWaiting>
+  <CommandEditInMSOO>Sinthani mu MS Office Online</CommandEditInMSOO>
+  <EditInMSOOLinkError>Osatha kugwirizana kusintha chikalata mu MS Office Online</EditInMSOOLinkError>
+  <EditInMSOOWaiting>Kuyembekezera kusintha kutsiriza mu MS Office Online</EditInMSOOWaiting>
+  <CommandEditInOffice365>Sinthani mu Office 365</CommandEditInOffice365>
+  <EditInOffice365LinkError>Osatha kugwirizana kusintha chikalata ku Office 365</EditInOffice365LinkError>
+  <EditInOffice365Waiting>Kuyembekezera kusintha kutsiriza mu Office 365</EditInOffice365Waiting>
+  <CommandSave>Save</CommandSave>
+  <CommandSaveAs>Apulumuke ...</CommandSaveAs>
+  <CommandAppRestart>ntchito kuyambitsanso</CommandAppRestart>
+  <CommandPlayVideoFlash>Vidiyo ku menyu</CommandPlayVideoFlash>
+  <CommandPlayVideoHtml5>Play kanema</CommandPlayVideoHtml5>
+  <CommandPlayAudioHtml5>Audio Play</CommandPlayAudioHtml5>
+  <CommandPlayVideo>Play kanema</CommandPlayVideo>
+  <CommandPlayAudio>Audio Play</CommandPlayAudio>
+  <CommandConvertVideo>Sinthani kanema</CommandConvertVideo>
+
+  <ViewInServiceLink>Dinani apa kuona wapamwamba</ViewInServiceLink>
+  <EditInServiceLink>Dinani apa kusintha chikalatacho</EditInServiceLink>
+
+  <OfficeEditCopyLinkLabel>Koperani kugwirizana m'munsimu ndipo tsegula pa ntchito Office:</OfficeEditCopyLinkLabel>
+  <OfficeRunError>Sikunali koyenera kukhazikitsa {0}</OfficeRunError>
+  <BadPathToFile>Sikunali koyenera kuti tipeze njira wapamwamba</BadPathToFile>
+  <FixBasicAuthAlertTitle>Chidwi!</FixBasicAuthAlertTitle>
+  <FixBasicAuthAlertMessage>Microsoft Office ntchito ndi kutsimikizika Basic popanda SSL! Mukhoza kukonza ichi kwa Office wanu. Chifukwa Dziwani zambiri onani {0}.</FixBasicAuthAlertMessage>
+  <FixBasicAuthAlertCheckBoxText>Osati kusonyeza kukambirana izi panonso.</FixBasicAuthAlertCheckBoxText>
+  <CommandDetails>tsatanetsatane</CommandDetails>
+  <CommonButtonCaptionAddDetail>kuwonjezera tsatanetsatane</CommonButtonCaptionAddDetail>
+  <CommonButtonCaptionAddComment>kuwonjezera ndemanga</CommonButtonCaptionAddComment>
+  <DetailsWindowTitle>Tsatanetsatane "{0}"</DetailsWindowTitle>
+  <FileDetailsSave>Ikani kusintha</FileDetailsSave>
+  <FileDetailsIgnoreChanges>amanyalanyaza</FileDetailsIgnoreChanges>
+  <FileDetailsCloseConfirmTitle>Tsatanetsatane file window akugwiritsa anatseka</FileDetailsCloseConfirmTitle>
+  <FileDetailsCloseConfirmMsg>Chidwi! kusintha sitinapulumutsidwe yet. Sankhani zochita zimene mukufuna kugwiritsa ntchito zosintha zimenezi pamaso kutseka zenera.</FileDetailsCloseConfirmMsg>
+  <FileDetailsGridTitleColumn>Title</FileDetailsGridTitleColumn>
+  <FileDetailsGridAuthorColumn>wolemba Last</FileDetailsGridAuthorColumn>
+  <LoadingDetailsMask>Mumakonda mfundo</LoadingDetailsMask>
+  <NewDetailsTitle>latsopano Title</NewDetailsTitle>
+  <NewDetailsValue>Yatsopano mfundo phindu</NewDetailsValue>
+  <DetailsSavingMsg>kupulumutsa mfundo</DetailsSavingMsg>
+  <ProgressLoadingEditInOffice>Kukonzekera kusintha mu Office</ProgressLoadingEditInOffice>
+  <MenuFilterText>Zosefera</MenuFilterText>
+  <EmptyTextFilter>Lowani Woganiza ...</EmptyTextFilter>
+  <AfterDateFilterText>pambuyo</AfterDateFilterText>
+  <BeforeDateFilterText>Before</BeforeDateFilterText>
+  <OnDateFilterText>pa</OnDateFilterText>
+  <YesBooleanFilterText>inde</YesBooleanFilterText>
+  <NoBooleanFilterText>No</NoBooleanFilterText>
+  <CommandEditWithZoho>Sinthani mu Zoho</CommandEditWithZoho>
+  <ZohoNotSupportedFormatMessage>Kutambasuka sagwirizana ndi Zoho. Onani {0}.</ZohoNotSupportedFormatMessage>
+  <ProgressLoadingEditInZoho>Mumakonda Zoho mkonzi</ProgressLoadingEditInZoho>
+  <CommandSubMenuViewAndEdit>View / Sinthani</CommandSubMenuViewAndEdit>
+  <CommandSubMenuShare>Share</CommandSubMenuShare>
+  <CommandSubMenuMore>Zambiri</CommandSubMenuMore>
+  <StopUploadingButtonText>Imani</StopUploadingButtonText>
+  <SimpleUploadErrorInfo>Pamene kukweza file (s) kunali kulakwitsa &lt;br /&gt; Onani. {0} kwa Dziwani zambiri &lt;/a&gt;</SimpleUploadErrorInfo>
+  <BalloonAbortFilesUploaded>Ikukweza owona anali ophedwa pochotsa mimba</BalloonAbortFilesUploaded>
+  <UploadDragNDropTab>Kokani &amp;dontho</UploadDragNDropTab>
+  <UploadDragNDropTabImages>Kokani &amp;dontho+zithunzi</UploadDragNDropTabImages>
+  <DnDGridProgressColumn>patsogolo</DnDGridProgressColumn>
+  <DnDFileReadingError>Kuwerenga zolakwa. Zolakwa code: {0}.</DnDFileReadingError>
+  <DnDFileReadingAbort>Kuwerenga ophedwa pochotsa mimba. Zolakwa code: {0}.</DnDFileReadingAbort>
+  <DnDFileUploadingError>zolakwa ikukweza. {0}</DnDFileUploadingError>
+  <DnDFileUploadingAbort>Ikukweza ophedwa pochotsa mimba.</DnDFileUploadingAbort>
+  
+  <CommandWebFoldersLinks>mafoda Map ukonde</CommandWebFoldersLinks>
+  <CommandSyncWebFolders>Kulunzanitsa ndi foda m'deralo</CommandSyncWebFolders>
+  <WebFolderLinksFieldLabel>limasonyeza Web-foda</WebFolderLinksFieldLabel>
+  <WebFolderLinksForWindows64Note>Akanikizire kuphatikiza Chinsinsi {0} Win+R {1}. Kumanga mzere lamulo mu {0} Open: {1} munda (onani lamulo mzere zitsanzo m'munsimu), alemba {0} Chabwino {1}. Pakuti Windows kutsimikizika ntchito mayina ankalamulira oyenera: {2}.</WebFolderLinksForWindows64Note>
+  <OpenLibreOfficeRunCommandNote>Kapena akanikizire kuphatikiza Chinsinsi {0} Win+R {1}, amaika mzere lamulo pansi pa {0} Open: {1} kumunda ndi atolankhani {0} Chabwino {1}</OpenLibreOfficeRunCommandNote>
+  <WebFolderLinksForMacOSNote>Mu "Finder" menyu, lotseguka {0} Go-&gt; Lumikizani Server {1}. Kumanga kugwirizana kwa chikwatu ukonde mu {0} "adiresi Server" {1} kumunda. Dinani {0} "polumikiza" {1}. Mu kukambirana latsopano sankhani {0} "Mlendo" {1} kapena {0} "Mwalamulo wosuta" {1} (kwa Windows kutsimikizika). Dinani {0} "polumikiza" {1}.</WebFolderLinksForMacOSNote>
+  <WebFolderLinksForUbuntuNote>Open {0} Go-&gt; Location ... {1} Koperani kugwirizana kwa chikwatu ukonde kuti malo kumunda.</WebFolderLinksForUbuntuNote>
+  <LinksToWebFoldersWindowText>Mukhoza ulitsa mafoda kuti mukuona ngati galimoto maukonde mu Os wanu. Pambuyo sanjira mungathe ntchito ndi owona ngati ndi anthu wamba kapena Sinthani zikalata MS Office kapena OpenOffice. Onani thandizo za mmene lilili {0}.</LinksToWebFoldersWindowText>
+  <CommonFileTypeNameCaption>"{0}" dzina file</CommonFileTypeNameCaption>
+  <CommonFileTypeNamePrompt>Lowani latsopano "{0}" file dzina</CommonFileTypeNamePrompt>
+  
+  <PixlrEditorWindowTitle>Pixlr mkonzi {0}</PixlrEditorWindowTitle>
+  <PixlrSaveImageSuccessMessage>Fano "{0}" bwinobwino opulumutsidwa. Polimbikitsa mndandanda ngati inu mumapulumutsidwa fano ndi dzina latsopano.</PixlrSaveImageSuccessMessage>
+  <CommonFileImageNewName>chithunzi latsopano</CommonFileImageNewName>
+  <CommandChangeTheme>Change lathu</CommandChangeTheme>
+  
+  <CommandHelp>Thandizeni</CommandHelp>
+
+  <OpeningShortcutProgress>Oyamba Simungachite</OpeningShortcutProgress>
+  <CommandCreateShortcut>Simungachite (kuyimira kugwirizana)</CommandCreateShortcut>
+  <ShortcutNameHint>dzina Simungachite</ShortcutNameHint>
+  <ShortcutTargetPathHint>kopita njira</ShortcutTargetPathHint>
+  <CreateShortcutButtonTitle>Pangani</CreateShortcutButtonTitle>
+  <CreatingShortcutProgress>Kupanga Simungachite</CreatingShortcutProgress>
+  <CreateShortcutSuccessMessage>Simungachite "{0}" bwinobwino analengedwera "{1}".</CreateShortcutSuccessMessage>
+
+  <OpeningInternetShortcutProgress>Kutsegula Internet Simungachite</OpeningInternetShortcutProgress>
+  <InternetShortcutNotValidMsg>Chandamale ulalo wa Simungachite zimenezi Internet si zomveka</InternetShortcutNotValidMsg>
+  <InternetShortcutWindowTitle>Pitani yolumikizana</InternetShortcutWindowTitle>
+  
+  <CommandVersioning>Versioning</CommandVersioning>
+  <CommandVersionHistory>mbiri Version</CommandVersionHistory>
+  <CommandCheckOut>Onani</CommandCheckOut>
+  <CommandCheckIn>Lembetsani</CommandCheckIn>
+  <CommandUndoCheckOut>Kuletsa onani</CommandUndoCheckOut>
+  <VersionHistoryObtainingMessage>Kupeza mbiri Baibulo</VersionHistoryObtainingMessage>
+  <NoVersionHistoryMessage>Mbiri Baibulo kwa file anasankha kulibe</NoVersionHistoryMessage>
+  <FileIsCheckedOutMessage>The file "{0}" kale kufufuzidwa ndi wosuta "{1}" wa {2}</FileIsCheckedOutMessage>
+  <CheckingOutMessage>kuona</CheckingOutMessage>
+  <SuccessfullyCheckedOutMessage>file The "{0}" bwinobwino kufufuzidwa ndi wosuta "{1}"</SuccessfullyCheckedOutMessage>
+  <FileIsNotCheckedOutMessage>The file "{0}" sichinayambe kufufuzidwa kunja yet</FileIsNotCheckedOutMessage>
+  <FileIsCheckedOutOtherUserMessage>file The "{0}" ndi kufufuzidwa ndi wosuta wina "{1}" wa {2}.</FileIsCheckedOutOtherUserMessage>
+  <FileUndoCheckOutForbiddenMessage>Simungathe kuletsa cheke kunja ntchito ndi wosuta wina.</FileUndoCheckOutForbiddenMessage>
+  <FileCheckInForbiddenMessage>Inu simungakhoze fufuzani wapamwamba kale kufufuzidwa ndi wosuta wina.</FileCheckInForbiddenMessage>
+  <FileUndoCheckOutConfirmMessage>Ngati kuletsa cheke anu, kusintha ntchito kulembamo sati apulumutsidwe! Kodi inu mukutsimikiza kuti muletse cheke anu?</FileUndoCheckOutConfirmMessage>
+  <FileVersionDeleteConfirmTitle>Kuchotsa a Baibulo file</FileVersionDeleteConfirmTitle>
+  <FileVersionDeleteConfirmMessage>Kodi inu mukutsimikiza kuti mukufuna kuchotsa anasankha buku la wapamwamba?</FileVersionDeleteConfirmMessage>
+  <FileVersionRestoreConfirmTitle>Kubwezeretsa Baibulo file</FileVersionRestoreConfirmTitle>
+  <FileVersionRestoreConfirmMessage>Kodi inu mukutsimikiza kuti akufuna kubwezeretsa anasankha buku la wapamwamba? {0} Ngati inde, mwachindunji file zimene Baibulo anasankha adzapulumutsidwa mu. Mukasiya phindu popanda kusintha (kapena mtengo chopanda) anasankha Baibulo lidzaloŵa m'malo file anasankha (okhutira wakale wapamwamba zidzawonjezedwa kwa mbiri Baibulo) {1} fayilo dzina.</FileVersionRestoreConfirmMessage>
+  <UndoCheckingOutMessage>Cancelling onani</UndoCheckingOutMessage>
+  <SuccessfullyUndoCheckedOutMessage>Kulipira cheke kuti wapamwamba "{0}" anali bwinobwino.</SuccessfullyUndoCheckedOutMessage>
+  <SuccessfullyCheckedInMessage>file The "{0}" ali bwinobwino munachongetsa ndi wosuta "{1}"</SuccessfullyCheckedInMessage>
+  <CheckingInMessage>afufuze Mu</CheckingInMessage>
+  <VersionHistoryTitle>Mabaibulo wapamwamba "{0}"</VersionHistoryTitle>
+  <VersionHistoryGridNumberColumn>Ver.</VersionHistoryGridNumberColumn>
+  <VersionHistoryGridNotesColumn>zolemba</VersionHistoryGridNotesColumn>
+  <CommandRestoreVersion>Bwezerani</CommandRestoreVersion>
+  <ProgressPrepareDownloadOldVersion>Kukonzekera Baibulo otsitsira akale</ProgressPrepareDownloadOldVersion>
+  <FileVersionNotFoundMessage>The anasankha file Baibulo sanapezeke.</FileVersionNotFoundMessage>
+  <ProgressDeletingVersion>Version Kuchotsa</ProgressDeletingVersion>
+  <ProgressRestoringVersion>Version Kubwezera</ProgressRestoringVersion>
+  <FileNeedCheckInMessage>Chonde fufuzani kapena kuletsa cheke kuti file osankhidwa ndi yeseraninso.</FileNeedCheckInMessage>
+  <FileCheckedOutEditForbiddenMessage>Inu simungakhoze kusintha / Sinthani dzina / kusuntha / kuchotsa file "{0}" pamene akugwiritsa kufufuzidwa ndi wosuta "{1}" wa {2}</FileCheckedOutEditForbiddenMessage>
+  <FileUploadCheckInLabel>Mungawerenge mu file osankhidwa kapena kukweza Baibulo latsopano wapamwamba (ntchito Kwezani mawonekedwe m'munsimu). Ngati mukufuna kulenga Baibulo latsopano wapamwamba chosankhidwa, musati kweza owona aliyense pano.</FileUploadCheckInLabel>
+  <FileUploadCheckInInvalidFileName>Dzina la wapamwamba ndakweza ayenera kukhala chimodzimodzi monga dzina la file anasankha</FileUploadCheckInInvalidFileName>
+  <CheckOutVersionNotes>Baibulo yakhala analenga basi</CheckOutVersionNotes>
+  <RestoreVersionNotes>Baibulo yakhala analenga basi pambuyo kubwezeretsa Baibulo kuchokera {0} ya wosuta "{1}"</RestoreVersionNotes>
+  <IsCheckedOutHint>file wakhala kufufuzidwa kuchokera</IsCheckedOutHint>
+  <ExistsOldVersionsHint>file ali Mabaibulo ena</ExistsOldVersionsHint>
+  <IsLockedHint>file The yatsekedwa</IsLockedHint>
+  <FileWasCreatedHint>Wakhala analenga {0} zapitazo</FileWasCreatedHint>
+  <FileWasModifiedHint>Tasintha {0} zapitazo</FileWasModifiedHint>
+  <CommonChangedAgo>{0} zapitazo</CommonChangedAgo>
+  <DaysShort>D</DaysShort>
+  <HoursShort>H</HoursShort>
+  <MinutesShort>mamita</MinutesShort>
+  <FileContainsMetaDataHint>Muli zina (zambiri zazidziwitso)</FileContainsMetaDataHint>
+  <FileMetaDataCaptionMobile>zambiri zazidziwitso</FileMetaDataCaptionMobile>
+
+  <ExistsPublicLinksFileHint>file ali limasonyeza pagulu</ExistsPublicLinksFileHint>
+  <ExistsPublicLinksFolderHint>Chikwatu ali limasonyeza pagulu</ExistsPublicLinksFolderHint>
+  <PublicLinkNotFound>kugwirizana poyera "{0}" sapezeka</PublicLinkNotFound>
+
+  <PublicLinksDeleteWindowTitle>Chotsani kugwirizana poyera (s)</PublicLinksDeleteWindowTitle>
+  <PublicLinksDeleteLinkButton>Chotsani kugwirizana</PublicLinksDeleteLinkButton>
+  <PublicLinksDeleteConfirmMsg>Kodi inu mukutsimikiza kuchotsa anasankha limasonyeza pagulu?</PublicLinksDeleteConfirmMsg>
+  <PublicLinksDeleteSingleConfirmMsg>Kodi inu mukutsimikiza kuchotsa kugwirizana?</PublicLinksDeleteSingleConfirmMsg>
+
+  <DetailsMultiValue>(Mtengo Mipikisano)</DetailsMultiValue>
+
+  <GridBottomFilesSizeInfo>Anasankha: {0} / {1},</GridBottomFilesSizeInfo>
+  <GridBottomFilesFoldersInfo>owona: {0} / {1}, mafoda: {2} / {3}</GridBottomFilesFoldersInfo>
+
+  <AmountOfDownloadingsFile>Downloads</AmountOfDownloadingsFile>
+
+  <CookiesDisabledMessage>osatsegula wanu keke magwiridwe ndi anangotsika. Chonde Yatsani izo ndi kuyambitsanso osatsegula.</CookiesDisabledMessage>
+
+  <CommandSendEmail>kutumiza imelo</CommandSendEmail>
+  <CommandSendWithGmail>Tumizani ndi Gmail</CommandSendWithGmail>
+  <CommandSendWithOutlook>Tumizani ndi Outlook</CommandSendWithOutlook>
+  <SendEmailTo>kuti</SendEmailTo>
+  <SendEmailBulkMailingListHint>&lt;b&gt; tumizani mndandanda &lt;/b&gt; &lt;br /&gt; Mukhoza kukhazikitsa magulu onse kutumiza imelo</SendEmailBulkMailingListHint>
+  <SendEmailBulkMailingListWindowTitle>Select amalandira kwa imelo</SendEmailBulkMailingListWindowTitle>
+  <SendEmailEmptyMailingListMessage>Mndandanda Mail mulibe</SendEmailEmptyMailingListMessage>
+  <SendEmailSenderEmail>Sender imelo</SendEmailSenderEmail>
+  <SendEmailSubject>nkhani</SendEmailSubject>
+  <SendEmailFilesAsLinksTo>Tumizani maulalo owona anasankha</SendEmailFilesAsLinksTo>
+  <SendEmailFilesAsAttachements>Kutumiza owona anasankha monga ZOWONJEZERA</SendEmailFilesAsAttachements>
+  <SendEmailSend>kutumiza</SendEmailSend>
+  <SendEmailProgressMessage>kutumiza imelo</SendEmailProgressMessage>
+  <GettingMailingListProgressMessage>Kupeza mndandanda yamakalata</GettingMailingListProgressMessage>
+  <SendEmailSuccessMessage>The Email yatumizidwa.</SendEmailSuccessMessage>
+  <SendEmailResultsMessage>Anatumiza:. {0} &lt;br /&gt; Chalephera: {1} {2}.</SendEmailResultsMessage>
+  <SmtpServerSettingsIncorrect>The options SMTP-makina mwina chopanda kapena pachithunzichi</SmtpServerSettingsIncorrect>
+  <FromEmailIncorrect>Kuchokera imelo adilesi olakwika kapena chopanda</FromEmailIncorrect>
+  <ToEmailIncorrect>Adiresi Kuti imelo ndi olakwika kapena chopanda</ToEmailIncorrect>
+  <EmailSubjectEmpty>Phunziro imelo si chinaneneratu</EmailSubjectEmpty>
+  <UploadFromUrlTab>ku ulalo</UploadFromUrlTab>
+  <UploadFromUrlFieldLabel>Ulalo (HTTP kapena FTP single file)</UploadFromUrlFieldLabel>
+  <UploadFromUrlProgressTitle>Kukweza kuchokera ulalo</UploadFromUrlProgressTitle>
+  <UploadFromUrlMsg>Ikukweza kwa ulalowu</UploadFromUrlMsg>
+  <UploadFromUrlSuccessMsg>The file "{0}" wakhala bwinobwino ndakweza ku "{1}"</UploadFromUrlSuccessMsg>
+  <UploadFromUrlUnknownResponse>The ayankhe makina si anazindikira</UploadFromUrlUnknownResponse>
+  <UploadFromUrlEmptyFileName>Dzina la wapamwamba ndakweza mulibe</UploadFromUrlEmptyFileName>
+  <UploadFromUrlFileName>Sungani ndi dzina (kusiya chopanda ntchito dzina kwa ulalowu)</UploadFromUrlFileName>
+  <UploadFromUrlFileNameMobile>Sungani ndi dzina</UploadFromUrlFileNameMobile>
+  
+  <!-- Common Clouds keys -->  
+  <CloudAuthenticateMessage>Muyenera kulowa pa {0}. Dinani "{1}" kugwirizana ndi inu kunam'sintha ku mawonekedwe logon. {2} Zambiri. {3}</CloudAuthenticateMessage>
+  <CloudAuthenticateLink>Kutsimikizira ndi {0}</CloudAuthenticateLink>  
+  <CloudDownloadingMessage>Kutsitsa kwa {0}</CloudDownloadingMessage>
+  <CloudAuthWarningMessage>Ngati zimene sizinachitikebe, chonde kutseka zenera ili ndipo alemba pa "{0}" kugwirizana kachiwiri.</CloudAuthWarningMessage>
+  <CloudAuthEmptyInvalidMessage>{0} Access chizindikiro mulibe kapena opanda pake. Chonde kutsimikizira kachiwiri.</CloudAuthEmptyInvalidMessage>
+  <CloudDownloadEndMessageTitle>Download wamaliza</CloudDownloadEndMessageTitle>
+  <CloudDownloadFilesSuccessMessage>{0} file (s) bwinobwino dawunilodi kuti "{1}" {2} foda.</CloudDownloadFilesSuccessMessage>
+  <CloudNotDownloadedFilesMessage>{0} file (s) osati dawunilodi:</CloudNotDownloadedFilesMessage>
+  <CloudFoldersCreatedSuccessMessage>{0} mafoda (s) bwinobwino analengedwa "{1}" {2} foda.</CloudFoldersCreatedSuccessMessage>
+  <CloudNotFoldersCreatedMessage>{0} mafoda (s) sanalengedwe:</CloudNotFoldersCreatedMessage>
+  <CloudFilesFoldersSuccessMessage>{0} file (s), {1} foda (s) bwinobwino dawunilodi kuti "{2}" {3} foda.</CloudFilesFoldersSuccessMessage>
+  <CloudNotFilesFoldersDownloadedMessage>{0} file (s), {1} foda (s) osati dawunilodi:</CloudNotFilesFoldersDownloadedMessage>
+  <CloudLinkText>Ulendo {0}</CloudLinkText>
+  <CloudLinkDescription>Pitani ku {0} tsamba</CloudLinkDescription>
+  <CloudRootFolderName>&lt;b&gt; {0} muzu foda &lt;/b&gt;</CloudRootFolderName>
+  <CloudCheckFolerMessage>Chonde onani limodzi {0} foda kupitiriza.</CloudCheckFolerMessage>
+  <CloudSelectFolderMessage>Chonde sankhani {0} foda kupitiriza.</CloudSelectFolderMessage>
+  <CloudGetFoldersInfoProgressMessage>Tsegula {0} mafoda Dziwani</CloudGetFoldersInfoProgressMessage>
+  <CloudGetItemsInfoProgressMessage>Mumakonda {0} zinthu Dziwani</CloudGetItemsInfoProgressMessage>
+  <CloudUploadSelectItemsMessage>Chonde sankhani {0} zinthu kupitiriza.</CloudUploadSelectItemsMessage>
+  <CloudUploadTotalFiles>Total owona: {0} ({1})</CloudUploadTotalFiles>
+  <CloudUploadProgressMessage>Kukweza kuchokera {0}</CloudUploadProgressMessage>
+  <CloudSignInAsDifferentUserText>Logout ku {0}</CloudSignInAsDifferentUserText>
+  <CloudLogoutProgressMsg>Logout ku {0}</CloudLogoutProgressMsg>
+  <CloudRevokeTokenMsg>Revoking chizindikiro</CloudRevokeTokenMsg>
+  <CloudRefreshTokenMsg>Mpumulo chizindikiro</CloudRefreshTokenMsg>
+  <CloudAuthNotCompleteMsg>Kutsimikizika isanatsilizidwe. &lt;br /&gt; Chonde</CloudAuthNotCompleteMsg>
+  <CloudTrustedSitesMsg> onani malo mu "Anakhulupirira malo" zifukwa zotsatirazi: &lt;br /&gt; &lt;br /&gt;</CloudTrustedSitesMsg>
+  <TrustedSitesForMicrosoftEdge>Ngati mumamwa Microsoft Kudera, ndiye fufuzani Sites Anakhulupirira Internet Explorer</TrustedSitesForMicrosoftEdge>
+  <CloudCheckAuthMsg>Chongani {0} kutsimikizika</CloudCheckAuthMsg>
+  <CloudLoadMsg>Tsegula {0}</CloudLoadMsg>
+  <CloudFreeSpaceError>Palibe malo okwanira mu {2} kweza owona. Chabwino: {0}. Wapamwamba kukula: {1}.</CloudFreeSpaceError>
+  <CloudFreeSpaceExceeded>Palibe malo okwanira mu {0}</CloudFreeSpaceExceeded>
+  <CloudExceedFileSizeError>file The mukuyesetsa download ali ndi kukula file wa {1}, amene ali wamkulu kuposa pazipita kololeka kukula kukopera - {0}.</CloudExceedFileSizeError>
+  <CloudFolderNotFound>Directory sapezeka. Mwina lachotsedwa</CloudFolderNotFound>
+  <CloudFileNotFound>Wapamwamba sapezeka. Mwina lachotsedwa</CloudFileNotFound>
+  <CloudNoFoldersMessage>Palibe mafoda kusonyeza</CloudNoFoldersMessage>
+  <CloudLibraryNotLoadedMsg>{0} kasitomala laibulale osati yodzaza! &lt;br /&gt; Chonde onani intaneti ndi kapena polimbikitsa page. &lt;br /&gt; Komanso</CloudLibraryNotLoadedMsg>
+  <CloudDownloadWithNewNames>Otsatirawa file (s) dawunilodi ndi mayina atsopano:</CloudDownloadWithNewNames>
+
+  <!-- Google Drive Cloud keys -->
+  <CommandDownloadToGoogleDocs>Koperani ndi Drive Google</CommandDownloadToGoogleDocs>
+  <GoogleDocsSaveAs>kupulumutsa monga:</GoogleDocsSaveAs>
+  <GoogleDocsSaveAsTitle>Kupulumutsa "{0}" monga ...</GoogleDocsSaveAsTitle>
+  <GoogleDocsDownloadEndWarningMessage>Ngati inu simungakhoze kuwona zikalata ndakweza mu akaunti yanu Google Drive, kudikira pang'ono masekondi ndi kukhalanso ndi mndandanda Google Thamangitsa.</GoogleDocsDownloadEndWarningMessage>
+  <GoogleDriveUploadNoFilesMessage>No owona mu Drive Google kwa Kwezani</GoogleDriveUploadNoFilesMessage>
+  <GoogleDriveMaxUploadSizeError>Zili-mtundu "{0}" kukula pazipita ikukweza {1} ndi kuposa.</GoogleDriveMaxUploadSizeError>
+  <GoogleDriveConvertMsg>Ngati nkutheka, kutembenuza owona mu mtundu Google Documents. {0} Zambiri {1}.</GoogleDriveConvertMsg>
+
+  <!-- Box Cloud keys -->
+  <CommandDownloadToBox>Koperani nkhonya</CommandDownloadToBox>
+  <BoxDownloadWithNewNames>The file zotsatirazi (s) anali kusinthidwa ndi Mabaibulo atsopano:</BoxDownloadWithNewNames>
+  <BoxNoViewPermission>Inu mulibe chilolezo kuona Directory anasankha</BoxNoViewPermission>
+  <BoxNoDownloadPermission>Inu mulibe chilolezo download</BoxNoDownloadPermission>
+  <BoxNoUploadPermission>Inu mulibe chilolezo kweza</BoxNoUploadPermission>
+  <BoxUnableCreateOrInfoError>Sangathe kulenga kapena anazidziwa</BoxUnableCreateOrInfoError>
+  
+  <!-- Dropbox Cloud keys -->
+  <CommandDownloadToDropbox>Koperani ndi Dropbox</CommandDownloadToDropbox>
+  
+  <!-- OneDrive Cloud keys -->
+  <CommandDownloadToSkyDrive>Koperani kuti OneDrive</CommandDownloadToSkyDrive>
+  <AuthenticateOAuthSkyDriveMessageShort>Muyenera fufuzani mu Live nkhani wanu Microsoft.</AuthenticateOAuthSkyDriveMessageShort>
+  <SkyDriveAuthAlsoString>komanso</SkyDriveAuthAlsoString>
+  <SkyDriveLoginButtonTitle>Lowani muakaunti</SkyDriveLoginButtonTitle>
+  <SkyDriveRegistryMessage>Mulibe Windows Live ID? {0} Lowani ... {1}</SkyDriveRegistryMessage>
+  <SkyDriveMapRootFolder>Zindikirani! Mungathe {0} mapu {1} wanu OneDrive foda. njira ndi</SkyDriveMapRootFolder>
+  <SkyDriveMoreInfoLink>{0} Zambiri za OneDrive (SkyDrive) {1}</SkyDriveMoreInfoLink>
+  <OneDriveMaxUploadSizeError>Kukula Sikoyenera ({0}) za file yomwe ndakweza ndi kuposa: {1}</OneDriveMaxUploadSizeError>
+  <!-- OneDrive for Business -->
+  <OneDriveForBusinessMapWebFolderInfo>&lt;b&gt; Taonani! &lt;/b&gt; Asanatsegule owona mderali, muyenera kuwonjezera pa Tsambali ndi malo anu mndandanda kumukhulupirira, sakatulani kwa Tsambali, ndi kusankha mwayi kulowa basi (mu IE osatsegula).</OneDriveForBusinessMapWebFolderInfo>
+  
+  <UploadFromUrlLabelText>Mukhoza kukhazikitsa ulalo wa wapamwamba kusungidwa pa makina file lonse kapena pa msonkhano file nawo ngati {0}, {1}, {2}, {3}, {4}.</UploadFromUrlLabelText>
+  <UploadFromUrlLabelTextMobile>Fotokozani ulalo wa wapamwamba</UploadFromUrlLabelTextMobile>
+
+  <LinkToFileTitle>Link kuti file / foda</LinkToFileTitle>
+  <LinkToFileWarningAnonym>kugwirizana limapereka mwayi anonymous kuti wapamwamba. wosuta aliyense, ngakhale amene alibe nkhani mu malo, mwina kukopera kapena kukweza owona odzera pagulu. A kugwirizana Public kuti wapamwamba limakupatsani download wina anasankhidwa file. {0} Zambiri {1}.</LinkToFileWarningAnonym>
+  <LinkToFileDownloadFileLink>kugwirizana limakupatsani download file anasankha {0} kuchokera {1}. Muyenera nkhani zomveka ntchito kugwirizana. Zilibe imapatsa anonymous kuti wapamwamba.</LinkToFileDownloadFileLink>
+  <LinkToFileExpireDate>Tsiku lothera ntchito</LinkToFileExpireDate>
+  <LinkToFileDownloadCnt>Download achiyesa malire</LinkToFileDownloadCnt>
+  <LinkToFileDownloadType>mtundu Link</LinkToFileDownloadType>
+  <LinkToFileGenerate>Zimene Mumakonda</LinkToFileGenerate>
+  <LinkToFilePasswordNotMatch>Achinsinsi sizikugwirizana</LinkToFilePasswordNotMatch>
+  <LinkToFilePasswordRequired>Achinsinsi kwa kugwirizana pagulu chofunika</LinkToFilePasswordRequired>
+  <LinkToFileInvalidForm>magawo chosavomerezeka</LinkToFileInvalidForm>
+  <LinkToFileAnonymDownloadLinkHint>kugwirizana poyera "{0}":</LinkToFileAnonymDownloadLinkHint>
+  <LinkToFileAnonymDownloadShortLinkHint>Short pagulu ulalo "{0}":</LinkToFileAnonymDownloadShortLinkHint>
+  <LinkToFileOpenFolderLink>kugwirizana limakupatsani kutsegula chikwatu anasankha {0} mu {1}. Muyenera nkhani zomveka ntchito kugwirizana. Zilibe imapatsa anonymous ku fodayi.</LinkToFileOpenFolderLink>
+  <LinkToFileOpenFileLink>kugwirizana akutsegula foda ndi wapamwamba ndipo likusonyeza kuti</LinkToFileOpenFileLink>
+  <LinkToFileDaysLeft>masiku anasiya</LinkToFileDaysLeft>
+  <LinkToFileCaptionMobile>limasonyeza Public</LinkToFileCaptionMobile>
+
+  <PublicFolderLinkHint>kugwirizana Public ku Foda "{0}":</PublicFolderLinkHint>
+  <PublicFolderShortLinkHint>Short kugwirizana poyera foda "{0}":</PublicFolderShortLinkHint>
+  <PublicFolderLinkDownloadZipHint>Download kugwirizana kwa zipi Archive wa foda "{0}":</PublicFolderLinkDownloadZipHint>
+  <PublicFolderLinkShortDownloadZipHint>Short Download kugwirizana kwa zipi Archive wa foda "{0}":</PublicFolderLinkShortDownloadZipHint>
+  <PublicFolderLinkZipDownload>Compress download foda panopa {0} (mu Archive ZIP)</PublicFolderLinkZipDownload>
+  <PublicFolderLinkOverwriteWhileUpload>Overwrite alipo</PublicFolderLinkOverwriteWhileUpload>
+  <PublicFolderLinkOpenFolderHint>Open foda</PublicFolderLinkOpenFolderHint>
+  <PublicFolderDownloadDisabledNote>Zindikirani! Mwini fodayi analetsa otsitsira owona ku fodayi.</PublicFolderDownloadDisabledNote>
+  <PublicFolderLinkSendEmails>Tumizani uthenga alendo ntchito maimelo</PublicFolderLinkSendEmails>
+  <PublicFolderAnonymAccessControl>ulamuliro Access</PublicFolderAnonymAccessControl>
+  <PublicFolderAnonymDownload>Download owona</PublicFolderAnonymDownload>
+  <PublicFolderAnonymZipDownload>Download mafoda (ZIP)</PublicFolderAnonymZipDownload>
+  <PublicFolderAnonymUpload>Kwezani</PublicFolderAnonymUpload>
+  <PublicFolderAnonymViewContent>View mndandanda file</PublicFolderAnonymViewContent>
+  <PublicFolderNoteForUsers>Taonani owerenga</PublicFolderNoteForUsers>
+  <PublicFolderACLNotSet>ulamuliro Access sipakhala</PublicFolderACLNotSet>
+  <PublicFolderWarningAnonym>kugwirizana limapereka mwayi anonymous ku fodayi. wosuta aliyense, ngakhale amene alibe nkhani mu malo, mwina kukopera kapena kukweza owona odzera pagulu. A kugwirizana poyera fodayi limakupatsani download onse foda lonse (ankanyamula mu Archive) ndi owona munthu. {0} Zambiri {1}.</PublicFolderWarningAnonym>
+  <PublicLinksShowForAllItems>Onetsani onse</PublicLinksShowForAllItems>
+  <PublicLinksShowForSelected>Onetsani anasankha</PublicLinksShowForSelected>
+  
+  <MultipleFileInputMessage>Zindikirani! osatsegula amathandiza owona angapo kusankha nthawi yomweyo.</MultipleFileInputMessage>
+  <UploadZipUnzipNote>Inu mukhoza kukweza zip Archive ndi owona angapo ndipo mafoda ndiyeno kuchotsa izo, ntchito "{0}" lamulo menyu nkhani.</UploadZipUnzipNote>
+  <DnDFileUploadingStatusCode>udindo kachidindo</DnDFileUploadingStatusCode>
+  <DnDFileUploadingPathOrNameEmpty>The njira ndi kapena dzina file si chinaneneratu</DnDFileUploadingPathOrNameEmpty>
+  <DnDFileUploadingRemoveFromList>Chotsani mndandanda</DnDFileUploadingRemoveFromList>
+  <DndFileUploadingDontDropFoldersMsg>Mukhoza kukoka ndi kusiya owona mu tebulo ili m'munsiyi. Inu simungakhoze kuponya mafoda.</DndFileUploadingDontDropFoldersMsg>
+  <DndFileUploadingAllowDropFoldersMsg>Mukhoza kukoka ndi kusiya owona ndi mafoda ku gome m'munsimu.</DndFileUploadingAllowDropFoldersMsg>
+  <DndFileUploadingFilesSummaryInfo>N'kulemba owona: {0} ({1})</DndFileUploadingFilesSummaryInfo>
+  <DropFilesHere>Kusiya owona kweza</DropFilesHere>
+  
+  <FileGridDownloadColumn>Download owona</FileGridDownloadColumn>
+  <FileAttributesField>zikhumbo</FileAttributesField>
+  <FolderCalculateSize>kuwerengetsa</FolderCalculateSize>
+  <FolderRecalculateSize>Recalculate</FolderRecalculateSize>
+  <FolderContainsField>lili</FolderContainsField>
+  <FolderContainsFilesFolders>{0} owona, {1} mafoda</FolderContainsFilesFolders>
+  <FolderCalculatingMessage>kuwerengetsa</FolderCalculatingMessage>
+
+  <SearchTitle>Wapamwamba kufufuza. Likupezeka dongosolo: {0}</SearchTitle>
+  <SearchType>Search</SearchType>
+  <SearchOnlyFiles>owona okha</SearchOnlyFiles>
+  <SearchOnlyFolders>mafoda okha</SearchOnlyFolders>
+  <SearchBothFilesFolders>onse owona ndi mafoda</SearchBothFilesFolders>
+  <SearchFileDetails>mfundo wapamwamba</SearchFileDetails>
+  <SearchFileContent>okhutira wapamwamba</SearchFileContent>
+  <SearchByDateFrom>kuchokera</SearchByDateFrom>
+  <SearchByDateTo>kuti</SearchByDateTo>
+  <SearchLocation>Location</SearchLocation>
+  <SearchLocationEntire>kulikonse</SearchLocationEntire>
+  <SearchLocationCurrent>Current</SearchLocationCurrent>
+  <SearchSearch>Search</SearchSearch>
+  <SearchNothingFound>Palibe anapezeka! Chonde yeretsani i Pofufuza.</SearchNothingFound>
+  <SearchErrorCaption>Search cholakwa</SearchErrorCaption>
+  <SearchResultsNotComplete>Chidwi! The zotsatira zikhoza kukhala zosatha monga ena mafoda mulibe osanjidwa yet.</SearchResultsNotComplete>
+  <SearchRepeatOrContactAdmin>Chonde yesaninso kenako kapena funsani woyang'anira wanu.</SearchRepeatOrContactAdmin>
+  <SearchLinkToManual>Amanena za {0} Windows Search Help {1}</SearchLinkToManual>
+  <QuerySearchByNameText>Kufufuza ndi dzina</QuerySearchByNameText>
+  <QuerySearchByConentText>ndi wokhutira</QuerySearchByConentText>
+  <SearchByDetailsWarning>Chidwi! Inu zafotokozeredwa Zikhazikiko kuti mukufuna kugwiritsa ntchito kusaka ndi katundu. Pankhaniyi, kufufuza idzachitike ntchito njira muyezo m'malo ntchito Windows indexing Service.</SearchByDetailsWarning>
+  <SearchInSpecialFolderWarning>Chidwi! Kufufuza foda panopa satsatira. Mukapitiriza, kufufuza idzachitike mu akalozera onse.</SearchInSpecialFolderWarning>
+
+  <UploadTitle>Ikukweza owona angapo</UploadTitle>
+  <UploadSimpleTab>Standard</UploadSimpleTab>
+  <UploadSimpleReset>Bwezerani</UploadSimpleReset>
+  <UploadSimpleUpload>Kwezani</UploadSimpleUpload>
+  <UploadSimpleUploadFolderLabelCollapsed>Kwezani foda</UploadSimpleUploadFolderLabelCollapsed>
+  <UploadSimpleUploadFolderButtonText>Select foda</UploadSimpleUploadFolderButtonText>
+  <UploadJavaTab>Java</UploadJavaTab>
+  <UploadJavaIgnorePaths>Kumene owona onse foda mmodzi (kunyalanyaza njira)</UploadJavaIgnorePaths>
+  <UploadFlashTab>kung'anima</UploadFlashTab>
+  <UploadSilverlightTab>Silverlight</UploadSilverlightTab>
+  <UploadPartially>Ena owona sakanakhoza ndakweza</UploadPartially>
+  <UploadFolderNotSelectedTitle>Foda si anasankha</UploadFolderNotSelectedTitle>
+  <UploadFolderNotSelected>Chonde sankhani foda limene owona adzakhala zidakwezedwa</UploadFolderNotSelected>
+  <UploadInProgress>Kuika kompyuta</UploadInProgress>
+  <UploadInvalidFormFields>minda mawonekedwe sitingazimvetse anagonjera ndi mfundo chosavomerezeka</UploadInvalidFormFields>
+  <UploadAjaxFailed>AJAX kulankhulana analephera</UploadAjaxFailed>
+  <UploadFilesAlreadyExists>Wapamwamba (s) lilipo kale</UploadFilesAlreadyExists>
+  <UploadOverwriteFiles>owona zomwe zilipo overwritten. Kodi mukufuna pati?</UploadOverwriteFiles>
+  <UploadOverwriteOrRenameFiles>Pali owona chimodzi kapena zingapo ndi mayina ofananira mu Directory mwasankha. Kodi mukufuna overwrite owona amene alipo? Dinani "{0}" ngati mukufuna overwrite owona kale, kapena "{1}" - ngati mukufuna kupulumutsa owona onse (iwo adzakhala n'kukhala).</UploadOverwriteOrRenameFiles>
+  <UploadNotModifyExistingFiles>Pali owona chimodzi kapena zingapo ndi zofanana mayina mu Directory mwasankha. owona sangathe ndakweza. Chonde chotsani owona adalipo kuchokera pa mndandanda Kwezani kapena Sinthani dzina iwo.</UploadNotModifyExistingFiles>
+  <UploadRenamedExistingFiles>Pali owona chimodzi kapena zingapo ndi zofanana mayina mu Directory mwasankha. Owona ndi mayina zofanana adzakhala anadzatchedwa.</UploadRenamedExistingFiles>
+  <UploadNotAllowedTitle>Kwezani sikuloledwa</UploadNotAllowedTitle>
+  <UploadNotAllowedPrompt>Inu simungakhoze kweza owona kuti fodayi</UploadNotAllowedPrompt>
+
+  <UploadMobileIOSVideo>Kweza kanema. Yambitsani njirayi ngati muyenera kukweza file kanema.</UploadMobileIOSVideo>
+  <UploadMobileAurigmaLink>Chonde dziwani kuti muyenera Aurigma Up! anaika pa chipangizo kuti kweza owona. Dinani apa kukhazikitsa Aurigma Up! yofunsira kuika zithunzi ndi mavidiyo.</UploadMobileAurigmaLink>
+  <UploadMobileAurigmaReady>Pambuyo Aurigma Up! waikidwa kapena ngati inu kale izo anaika, atolankhani "Kwezani" batani m'munsimu.</UploadMobileAurigmaReady>
+  <UploadMobileAurigmaFilePrefix>Manambala oyambirira kwa owona Adakwezedwa</UploadMobileAurigmaFilePrefix>
+  <UploadMobileResult>Kweza chifukwa:</UploadMobileResult>
+  <UploadMobileUrlPlaceHolder>Lowetsani ulalo pano</UploadMobileUrlPlaceHolder>
+  <UploadMobileFileNamePlaceHolder>Lowani latsopano file dzina pano</UploadMobileFileNamePlaceHolder>
+  <UploadBrowseLabel>Wonani ...</UploadBrowseLabel>
+  
+  <MobileToolTipsCaption>Kodi mukudziwa kuti ...</MobileToolTipsCaption>
+  <MobileToolTipsNextButton>nsonga Next</MobileToolTipsNextButton>
+  <MobileToolTipsIKnowButton>ndikudziwa</MobileToolTipsIKnowButton>
+  <MobileToolTipsHideButton>Musamandiwonetse</MobileToolTipsHideButton>
+  <MobileToolTipsMultiSelection>Kusankha owona angapo kapena mafaelo, muyenera athe Mipikisano kusankha mode pogogoda pa &lt;b&gt; {0} &lt;/b&gt; batani. Angaipezere kachiwiri kutuluka kuchokera mode Mipikisano kusankha.</MobileToolTipsMultiSelection>
+  <MobileToolTipsSlideToRemove>Mukhoza Wopanda kuchokera kumanja kupita kumanzere iliyonse mwa zinthu mndandanda kuchotsa izo. An okhala pakati kuchotsa batani adzakhala anasonyeza pamwamba pa item mndandanda.</MobileToolTipsSlideToRemove>
+  <MobileToolTipsTapAndHoldForMenu>Dinani ndi kuumirirabe aliyense zinthu mndandanda kusonyeza menyu nkhani. Nkhani menyu chomwecho anasonyeza mpopi pa batani 'Kuwulura'</MobileToolTipsTapAndHoldForMenu>
+  <MobileToolTipsDoubleTapForPreview>Single mpopi pa file kusankha izo, wachiphamaso mpopi kuti zidzachitike kapena kukopera. Single mpopi pa foda kutsegula izo.</MobileToolTipsDoubleTapForPreview>
+  <MobileToolTipsPullDownToRefresh>Kukagwetsa ndandanda kutsegulaso chake nkhani.</MobileToolTipsPullDownToRefresh>
+  <MobileToolTipsPinchToScale>Mukhoza kugwiritsa 'uzitsine kumpsompsona kuti mawonedwe-ndi mawonedwe-anachotsa mafano.</MobileToolTipsPinchToScale>
+  <MobileToolTipsTapToHideBars>Dinani paliponse pa fano gulu kuti toggle toolbars.</MobileToolTipsTapToHideBars>
+  <MobileToolTipsSlideLeftRightToNext>Kusinthana mafano ndi Wopanda manja.</MobileToolTipsSlideLeftRightToNext>
+
+  <DownloadToCloudMobileTip>Single mpopi kusankha foda, wachiphamaso mpopi kutsegula izo.</DownloadToCloudMobileTip>
+  
+  <UploadTotalMaxSizeMessage>Zindikirani! Kukula pazipita owona onse adakweza sayenera upambana {0}.</UploadTotalMaxSizeMessage>
+  <UploadOneFileMaxSizeMessage>Zindikirani! Kukula pazipita file aliyense ndakweza sayenera upambana {0}.</UploadOneFileMaxSizeMessage>
+  <UploadUnlimitedSizeMessage>Zindikirani! Kukula kwa owona Adakwezedwa ndi MALIRE.</UploadUnlimitedSizeMessage>
+  <SimpleUploadSetFileNameNote>Onani 2! Pambuyo file amusankha mungathe kusintha dzina limene file adzakhala pambuyo Kwezani</SimpleUploadSetFileNameNote>
+
+  <AnonymousUploadTitle>Kweza owona kuti fodayi</AnonymousUploadTitle>
+  <AnonymousUploadDescription>Inu mukhoza kukweza owona kuti fodayi. Dinani "sakatulani" batani pansipa ndi kusankha owona.</AnonymousUploadDescription>
+  <AnonymousUploadOverwriteHint>Ngati wapamwamba ndakweza kale aliko, izo m'malo.</AnonymousUploadOverwriteHint>
+  <AnonymousUploadShowUploadHint>Show mawonekedwe Kwezani</AnonymousUploadShowUploadHint>
+  <AnonymousUploadHideUploadHint>Bisani mawonekedwe Kwezani</AnonymousUploadHideUploadHint>
+  <AnonymousUploadNewFolderNameHint>M'munda m'munsimu mukhoza mwatchutchutchu dzina subdirectory (foda adzakhala analenga ngati kulibe) imene owona adzakhala ndakweza:</AnonymousUploadNewFolderNameHint>
+  <AnonymousUploadCompleteTitle>Kukweza ku fodayi {0} udzatha</AnonymousUploadCompleteTitle>
+  <AnonymousUploadExistsFilesMessage>The file zotsatirazi (s) sichinayambe ndakweza chifukwa file (s) ndi dzina lomweli (s) alipo kale: {0}.</AnonymousUploadExistsFilesMessage>
+  <AnonymousUploadOwnersNote>Kuzindikiranso mwini foda</AnonymousUploadOwnersNote>
+  <AnonymousDownloadPageTitle>Download file</AnonymousDownloadPageTitle>
+  <AnonymousDownloadFileHint>Download file</AnonymousDownloadFileHint>
+  <AnonymousUploadPageTitle>Kweza kuti foda</AnonymousUploadPageTitle>
+  <AnonymousPublicFolderPageTitle>foda Public</AnonymousPublicFolderPageTitle>
+  <AnonymousLoginAccessUserFailure>Inu adakhala ndi mu nkhani imene alibe mwayi gwero la. Chonde lowetsani nyota zina mwayi wanu. Ngati inu simukudziwa iwo, lemberani mwini kugwirizana pagulu kapena woyang'anira wanu.</AnonymousLoginAccessUserFailure>
+  <ProgressGettingAnonymLink>Public chilengedwe kugwirizana</ProgressGettingAnonymLink>
+  <ProgressGettingAnonymLinks>Kupeza limasonyeza anonymous</ProgressGettingAnonymLinks>
+  <ProgressGettingBoxViewLink>Kupeza Box View kugwirizana</ProgressGettingBoxViewLink>
+  <AutodeskScriptNotIncludedMessage>Sanathe kutsegula Autodesk mmodzi script</AutodeskScriptNotIncludedMessage>
+  <ProgressUninitializeAutodeskViewer>Kutseka Autodesk mmodzi</ProgressUninitializeAutodeskViewer>
+  <ProgressGettingAutodeskViewLink>Kupeza Autodesk View Dziwani</ProgressGettingAutodeskViewLink>
+  <AnonymousChangeLanguageHint>Sankhani</AnonymousChangeLanguageHint>
+  <AnonymousUpLinkHint>Kubwerera foda kholo</AnonymousUpLinkHint>
+  <AnonymousPasswordDescription>fodayi ndi achinsinsi kutetezedwa</AnonymousPasswordDescription>
+  <AnonymousPasswordIncorrectMessage>Achinsinsi sizolondola</AnonymousPasswordIncorrectMessage>
+  <AnonymousErrorTitle>zolakwa kugwirizana Public</AnonymousErrorTitle>
+  <AnonymousErrorNotFound>kugwirizana Public "{0}" sapezeka!</AnonymousErrorNotFound>
+  <AnonymousErrorAccessDenied>Mulibe chilolezo chogwiritsa ntchito kugwirizana poyera "{0}"</AnonymousErrorAccessDenied>
+  <AnonymousErrorFileNotFound>The kugwirizana poyera "{0}" amatanthauza file sanali zilipo panopa kapena foda kapena NTFS kuwerenga mwayi ndi adatsutsa</AnonymousErrorFileNotFound>
+  <AnonymousErrorUnknownLinkType>The kugwirizana poyera "{0}" sanapezedwa</AnonymousErrorUnknownLinkType>
+  <AnonymousSendEmailSubject>Alendo ntchito foda pagulu</AnonymousSendEmailSubject>
+  <AnonymousSendEmailUploadBody>Owona otsatirawa zidakwezedwa foda anu poyera {0}: {1}.</AnonymousSendEmailUploadBody>
+  <AnonymousSendEmailDownloadBody>file The {0} anali dawunilodi mufoda anu poyera {1}.</AnonymousSendEmailDownloadBody>
+  <AnonymousSendEmailZipDownloadBody>Okhutira lonse la foda pagulu {0} anali dawunilodi mu Archive ZIP.</AnonymousSendEmailZipDownloadBody>
+  <AnonymousViewLinksButton>View limasonyeza</AnonymousViewLinksButton>
+  <AnonymousViewLinksHint>Kuona alipo limasonyeza pagulu</AnonymousViewLinksHint>
+  <AnonymousViewLinksWindowTitle>limasonyeza Public</AnonymousViewLinksWindowTitle>
+  <AnonymousViewLinksDateCreatedColumn>tsiku Creation</AnonymousViewLinksDateCreatedColumn>
+  <AnonymousViewLinksDateExpiredColumn>Tsiku lothera ntchito</AnonymousViewLinksDateExpiredColumn>
+  <AnonymousViewLinksPermissionColumn>chilolezo</AnonymousViewLinksPermissionColumn>
+  <AnonymousViewLinksDownloadedColumn>Chiwerengero cha kukopera anasiya</AnonymousViewLinksDownloadedColumn>
+  <ProgressDeletingAnonymousLink>Kuchotsa kugwirizana pagulu</ProgressDeletingAnonymousLink>
+  <ProgressSavingAnonymousLink>Kupulumutsa kugwirizana pagulu</ProgressSavingAnonymousLink>
+  <AnonymousEditLinkWindowTitle>Sinthani kugwirizana poyera "{0}"</AnonymousEditLinkWindowTitle>
+  <AnonymousEditLinkShowUrl>Show kugwirizana</AnonymousEditLinkShowUrl>
+  <AnonymousEditLinkNotFound>The kugwirizana pagulu sapezeka kapena nthawi yake n'loonadi watha ntchito</AnonymousEditLinkNotFound>
+
+  <AnonymousLinkSendViaButton>Tumizani kudzera ...</AnonymousLinkSendViaButton>
+  <AnonymousLinkSendViaEmailItem>Email ...</AnonymousLinkSendViaEmailItem>
+  <AnonymousLinkSendButton>Tumizani kudzera imelo ...</AnonymousLinkSendButton>
+  <AnonymousLinkSendSubject>Web Buku Manager Link Public</AnonymousLinkSendSubject>
+
+  <AnonymousLinkAdvOptTitle>magawo zina</AnonymousLinkAdvOptTitle>
+  <AnonymousLinkViewTypeButton>Link view</AnonymousLinkViewTypeButton>
+  <AnonymousLinkViewTypeDefault>Full</AnonymousLinkViewTypeDefault>
+  <AnonymousLinkViewTypeShort>Short</AnonymousLinkViewTypeShort>
+
+  <AnonymousLinkShowCommentsLabel>Onetsani kufotokoza, zolemba ndi ndemanga</AnonymousLinkShowCommentsLabel>
+  <AnonymousLinkShowCommentsShort>Show ndemanga</AnonymousLinkShowCommentsShort>
+
+  <QRCodeButton>QR code</QRCodeButton>
+
+  <AnonymousLinkLimitedAccessTitle>mwayi Limited</AnonymousLinkLimitedAccessTitle>
+  <AnonymousLinkLimitAccessCheckBox>Kuchepetsa mwayi yekha kuti owerenga mwachindunji wotsimikiziridwa</AnonymousLinkLimitAccessCheckBox>
+  <AnonymousLinkLimitAccessTextArea>Lembani usernames kapena makalata (koma wosiyana)</AnonymousLinkLimitAccessTextArea>
+  <AnonymousLinkLimitAccessSendCheckBox>Tumizani zidziwitso kwa owerenga mwachindunji</AnonymousLinkLimitAccessSendCheckBox>
+  <AnonymousLinkLimitAccessPersMsgLabel>uthenga Personal (ngati mukufuna)</AnonymousLinkLimitAccessPersMsgLabel>
+  <AnonymousLinkLimitAccessPassAndUsersMsg>Inu mwachindunji achinsinsi anu ndi owerenga pa nthawi yomweyo kupeza kugwirizana. Chonde mwachindunji chinachake mmodzi.</AnonymousLinkLimitAccessPassAndUsersMsg>
+  <AnonymousLinkLimitAccessUsersNotFound>The Intaneti:
+    {0}
+    osati aliko</AnonymousLinkLimitAccessUsersNotFound>
+  <AnonymousLinkLimitAccessEmailsNotFound>The maimelo:
+    {0}
+    osati aliko</AnonymousLinkLimitAccessEmailsNotFound>
+  <AnonymousLinkLimitAccessUsersEmailsNotFound>The Intaneti:
+    {0}
+    ndipo makalata:
+    {1}
+    osati aliko</AnonymousLinkLimitAccessUsersEmailsNotFound>
+
+  <AnonymousLinkUnableToCreate>Sangathe kulenga kugwirizana anonymous</AnonymousLinkUnableToCreate>
+  <AnonymousLinkShortUrlLabel>Chonde dinani kulunzanitsa chithunzi (pa ufulu pansi) kuti ndipeze yochepa kugwirizana</AnonymousLinkShortUrlLabel>
+  <AnonymousLinkShortUrlUpdate>Pezani kapena kusintha yochepa kugwirizana</AnonymousLinkShortUrlUpdate>
+  <AnonymousLinkLongUrlNotSpecified>Ulalo yaitali si chinaneneratu</AnonymousLinkLongUrlNotSpecified>
+
+  <ClientFileOrDirectoryAlreadyExists>file A kapena Directory ndi dzina ili lilipo kale</ClientFileOrDirectoryAlreadyExists>
+  <ClientPermissionsAllowTypes>zilolezo Current kulola ntchito imeneyi, pokhapokha mitundu zotsatirazi file {0}</ClientPermissionsAllowTypes>
+  <ClientPermissionsDenyTypes>zilolezo Current amaletsa ntchito imeneyi ndi mitundu zotsatirazi file {0}</ClientPermissionsDenyTypes>
+  <OfficeApplicationNotFoundAlert>Office ntchito sanapezeke. Tsegulani wapamwamba pamanja ntchito ulalo mu bokosi lemba.</OfficeApplicationNotFoundAlert>
+  <OfficeAnonymousEditPublicLinkError>Sangathe kulenga kugwirizana poyera chikalata mosadziwika lotseguka ofesi.</OfficeAnonymousEditPublicLinkError>
+
+  <GoogleOWAViewLinkMessage>Kuona chikalatacho dinani kugwirizana m'munsimu:</GoogleOWAViewLinkMessage>
+  <ZohoEditLinkMessage>Kusintha chikalata pitani kugwirizana m'munsimu:</ZohoEditLinkMessage>
+  <PixlrEditLinkMessage>Kusintha fano pitani kugwirizana m'munsimu:</PixlrEditLinkMessage>
+  <PixlrNewImageCreateTitle>Pangani fano latsopano ndi Pixlr</PixlrNewImageCreateTitle>
+  <PixlrNewImageLinkMessage>Kulenga chithunzi latsopano, dinani kugwirizana m'munsimu:</PixlrNewImageLinkMessage>
+
+  <DownloadTitle>Otsitsira owona angapo</DownloadTitle>
+  <DownloadSimpleTab>Standard</DownloadSimpleTab>
+  <DownloadJavaTab>Java</DownloadJavaTab>
+  <DownloadIEPrevent>Internet Explorer kumathandiza basi Download</DownloadIEPrevent>
+  <DownloadIEClickHere>Dinani apa download</DownloadIEClickHere>
+  <DownloadIEArchiveReady>Archive "{0}" ndi owona owerengeka analengedwa ndi wokonzeka kukopera</DownloadIEArchiveReady>
+  <DownloadIECaption>Download wakonzeka</DownloadIECaption>
+
+  <SettingsTitle>Zikhazikiko</SettingsTitle>
+  <SettingsLanguage>Language</SettingsLanguage>
+  <SettingsLogOutRequired>kusintha latsopano idzagwira ntchito pambuyo logout kapena osatsegula kuyambitsanso!</SettingsLogOutRequired>
+  <ThemeTitle>Change Mutu</ThemeTitle>
+  <SettingsTheme>Sankhani Mutu</SettingsTheme>
+  <ThemeDefaultTitle>kusakhulupirika Mutu</ThemeDefaultTitle>
+  <ThemeGrayTitle>Gray Mutu</ThemeGrayTitle>
+  <ThemeAccessTitle>screen Mutu</ThemeAccessTitle>
+
+  <ChangeUserPasswordTitle>Change wosuta achinsinsi</ChangeUserPasswordTitle>
+  <ChangeUserPasswordOldPassword>Mawu Achinsinsi Akale</ChangeUserPasswordOldPassword>
+  <ChangeUserPasswordNewPassword>Mawu Achinsinsi Atsopano</ChangeUserPasswordNewPassword>
+  <ChangeUserPasswordRepeatNewPassword>Bwerezani achinsinsi latsopano</ChangeUserPasswordRepeatNewPassword>
+  <ChangeUserPasswordPasswordsNotMatch>Achinsinsi sizikugwirizana.</ChangeUserPasswordPasswordsNotMatch>
+  <ChangeUserPasswordSuccessMessage>Achinsinsi lasinthidwa.</ChangeUserPasswordSuccessMessage>
+  <ChangeUserPasswordInvalidMessage>achinsinsi opanda pake.</ChangeUserPasswordInvalidMessage>
+
+  <ChangeUserEmailTitle>Change wosuta E-mail</ChangeUserEmailTitle>
+  <ChangeUserEmailEmail>E-mail</ChangeUserEmailEmail>
+  <ChangeUserEmailSuccessMessage>E-mail lasinthidwa.</ChangeUserEmailSuccessMessage>
+
+  <UserHelpTitle>thandizo wosuta</UserHelpTitle>
+
+  <LicenseTitle>mfundo License</LicenseTitle>
+  <LicenseTrial>Yosavomerezeka 30-day kuwunika Baibulo</LicenseTrial>
+  <LicensePrompt>Chiphatso Baibulo {0} Ogwiritsa kuwerenga: {1} {0} Purchase tsiku: {2} {0}</LicensePrompt>
+  <LicenseFreeUpgradeMessage>Muli {0} masiku kukweza ufulu ndi thandizo.</LicenseFreeUpgradeMessage>
+  <LicenseCheckMessage>Kuposa chaka wadutsa kuchokera tsiku yogula. Ntchito Baibulo muyenera adzikonzenso muzimvetsera wanu kapena malo-apansi kuti Baibulo achikulire. Mungawerenge chiphaso chanu ndi kupeza zimatulutsa likupezeka pa &lt;a href='{0}' target='_blank'&gt; Fufuzani License patsamba &lt;/a&gt;</LicenseCheckMessage>
+  
+  <ViewPopupBlocked>zenera latsopano wakhala watsekedwa ndi blocker mphukira</ViewPopupBlocked>
+  
+  <LoginTwoFactorTitle>yachinsinsi tsatane awiri</LoginTwoFactorTitle>
+  <LoginTitle>Lowani muakaunti</LoginTitle>
+  <LoginRemember>Mundikumbukire nthawi yotsatira</LoginRemember>
+  <LoginUISelect>Chiyankhulo</LoginUISelect>
+  <LoginUIStandard>Standard</LoginUIStandard>
+  <LoginUITouch>Mobile</LoginUITouch>
+  <LoginLanguage>Language</LoginLanguage>
+  <LoginLogin>Lowani muakaunti</LoginLogin>
+  <LoginFailure>Pofuna wanu malowedwe sanali bwino.</LoginFailure>
+  <LoginBlocked>Nkhaniyi ndi oletsedwa. Kudikira {0} mphindi yeseraninso.</LoginBlocked>
+  <LoginNotActivated>Nkhani zanu si adamulowetsa.</LoginNotActivated>
+  <LoginResendActivation>Ngati uthenga ndi kutsegula kachidindo si analandira kwa nthawi yaitali, alemba pa {0} ulalo resend kutsegula code.</LoginResendActivation>
+  <LoginResendActivationLink>kutumiza kutsegula kachidindo</LoginResendActivationLink>
+  <LoginResendActivationCode>Dinani pa {0} ulalo resend kutsegula code.</LoginResendActivationCode>
+  
+  <ActivateAccountOk>Nkhani bwinobwino adamulowetsa!</ActivateAccountOk>
+  <ActivateAccountResultLabel>chifukwa kutsegula</ActivateAccountResultLabel>
+  <ActivateAccountErrorOnlyFormsAuth>Nkhani kutsegula akhoza kugwiritsidwa ntchito ndi Mafomu kutsimikizika</ActivateAccountErrorOnlyFormsAuth>
+  <ActivateAccountErrorNotRequired>Nkhani kutsegula ndi olumala zoikamo ntchito. Nkhani ali basi adamulowetsa pambuyo kulembetsa.</ActivateAccountErrorNotRequired>
+  <ActivateAccountErrorAlreadyActivated>Nkhani kale adamulowetsa</ActivateAccountErrorAlreadyActivated>
+  <ActivateAccountErrorInvalidCode>Kutsegula kachidindo si zomveka</ActivateAccountErrorInvalidCode>
+  <ActivateAccountErrorAccountNotFound>Chifukwa sanapezedwa</ActivateAccountErrorAccountNotFound>
+  <ActivateAccountErrorLinkBroken>Kutsegula kugwirizana wasweka</ActivateAccountErrorLinkBroken>
+  <ActivateAccountReturnToLogin>Kubwerera kulowa tsamba</ActivateAccountReturnToLogin>
+  
+  <LoginRender>Perekani</LoginRender>
+  
+  <LogoutTitle>Web file bwana Logout</LogoutTitle>
+  <LogoutSessionEnded>Chigawo panopa waleka</LogoutSessionEnded>
+  <LogoutCloseWindow>Kutseka zenera</LogoutCloseWindow>
+  <LogoutEnterAgain>kulowa kachiwiri</LogoutEnterAgain>
+  <LogoutClosingBrowserRequired>Chidwi! Aliyense akhoza kulowa pansi pa nkhani yanu! Ngati mukugwiritsa ntchito kompyuta nawo, ndiye inu kutseka osatsegula zenera (osati tsamba) kuchotsa kutsimikizika osatsegula! Pakuti Firefox osatsegula mukhoza kuchotsa kutsimikizika pa menu: Tools-&gt; Chotsani ankadandaula History ...-&gt; Details-&gt; onani Amalalikira Logins-&gt; atolankhani Chotsani Tsopano.</LogoutClosingBrowserRequired>
+  <RecoverPasswordTitle>Yamba achinsinsi</RecoverPasswordTitle>
+  <RecoverPasswordEmailPassword>Tumizani achinsinsi kudzera imelo</RecoverPasswordEmailPassword>
+  <RecoverPasswordErrorInvalidUserName>dzina yolakwika.</RecoverPasswordErrorInvalidUserName>
+  <RecoverPasswordErrorNoEmail>wosuta uyu ali adiresi palibe imelo kumatanthauza.</RecoverPasswordErrorNoEmail>
+  <RecoverPasswordErrorSendEmail>kulakwitsa zinachitika pamene kutumiza imelo.</RecoverPasswordErrorSendEmail>
+  <RecoverPasswordSuccess>Liwu lanu atatumizidwa wanu email.</RecoverPasswordSuccess>
+
+  <RecoverUserNameTitle>Yamba dzina</RecoverUserNameTitle>
+  <RecoverUserEmailName>Tumizani dzina kudzera imelo</RecoverUserEmailName>
+  <RecoverUserNameErrorInvalidEmail>imelo wosuta opanda pake.</RecoverUserNameErrorInvalidEmail>
+  <RecoverUserNameErrorNoEmail>Email adiresi sanapezeke.</RecoverUserNameErrorNoEmail>
+  <RecoverUserNameSuccess>dzina lanu watumidwa kwa wanu email.</RecoverUserNameSuccess>
+
+  <ChangeEmailTitle>Change imelo</ChangeEmailTitle>
+  <ChangeEmailEmail>latsopano Email</ChangeEmailEmail>
+  <ChangeEmailSubmit>kugonjera</ChangeEmailSubmit>
+  <ChangeEmailStatusSuccess>Email lasinthidwa</ChangeEmailStatusSuccess>
+
+  <RegisterTitle>Register</RegisterTitle>
+  <RegisterEmail>Email</RegisterEmail>
+  <RegisterExtraInfo>owonjezera Dziwani</RegisterExtraInfo>
+  <RegisterCaptcha>Lowani lemba inu mukuona m'chifanizo pansipa</RegisterCaptcha>
+  <RegisterSubmit>kugonjera</RegisterSubmit>
+  <RegisterErrorPasswordNotMatch>Achinsinsi sizikugwirizana.</RegisterErrorPasswordNotMatch>
+  <RegisterErrorUserExists>Dzina limeneli me kapena imelo adiresi kale ntchito.</RegisterErrorUserExists>
+  <RegisterErrorCaptchaInvalid>Image Text sanali analowa molondola</RegisterErrorCaptchaInvalid>
+  <RegisterSuccess>Latsopano wosuta yawonjezedwa.</RegisterSuccess>
+  <RegisterActivationSent>Kutsegula malamulo anatumizidwa imelo.</RegisterActivationSent>
+  <RegisterActivationCheckEmail>Chonde onani makalata anu bokosi (mwapadera zonenepetsa foda) ndi kutsatira malangizo imelo.</RegisterActivationCheckEmail>
+  
+  <FolderGridUserPermissionsColumn>Access owerenga</FolderGridUserPermissionsColumn>
+  <FolderGridGroupPermissionsColumn>Access magulu</FolderGridGroupPermissionsColumn>
+
+  <LoginLinkText>Lowani muakaunti</LoginLinkText>
+  <RecoverPasswordLinkText>Mwayiwala mawu achinsinsi olowera?</RecoverPasswordLinkText>
+  <RecoverUserNameLinkText>Anaiwala dzina?</RecoverUserNameLinkText>
+  <RegisterLinkText>Register</RegisterLinkText>
+  <ChangeEmail>Change imelo</ChangeEmail>
+  <LoginMobileVersionLinkText>Mobile Version (mafoni ambiri ndi Touchpads)</LoginMobileVersionLinkText>
+
+  <FileIsNotZipArchive>file The {0} si ZIP Archive</FileIsNotZipArchive>
+
+  <FileModificationsAuthor>Author</FileModificationsAuthor>
+  <FileModificationsHistory>Onani mbiri</FileModificationsHistory>
+  <FileModificationsWindowTitle>Zosintha wa file "{0}"</FileModificationsWindowTitle>
+  <FileModificationsTypeCreated>analengedwa</FileModificationsTypeCreated>
+  <FileModificationsTypeModified>kusinthidwa</FileModificationsTypeModified>
+  <FileModificationsTypeRenamed>n'kukhala</FileModificationsTypeRenamed>
+  <FileModificationsTypeRestored>anabwezeretsa</FileModificationsTypeRestored>
+  <FileModificationsTypeDeleted>Chachotsedwa</FileModificationsTypeDeleted>
+
+  <ChangingReadOnlyProgressMessage>Kusintha kuwerenga chikhumbo chokha</ChangingReadOnlyProgressMessage>
+
+  <ImageViewerWindowTitle>Image mmodzi [{0}]</ImageViewerWindowTitle>
+  <ImageViewerLoadingMessage>Mumakonda fano wowerenga</ImageViewerLoadingMessage>
+  <ImageViewerLoadingImageMessage>Mumakonda chifaniziro</ImageViewerLoadingImageMessage>
+  <ImageViewerFirstImageTip>chithunzi choyamba</ImageViewerFirstImageTip>
+  <ImageViewerPreviousImageTip>chithunzi Previous</ImageViewerPreviousImageTip>
+  <ImageViewerRefreshTip>Kulunzanitsa mafano mndandanda</ImageViewerRefreshTip>
+  <ImageViewerNextImageTip>chithunzi chotsatira</ImageViewerNextImageTip>
+  <ImageViewerLastImageTip>chithunzi Last</ImageViewerLastImageTip>
+  <ImageViewerRunSlideShow>Zithunzi kuthamanga Wopanda bwanji</ImageViewerRunSlideShow>
+  <ImageViewerStopSlideShow>Kusiya mafano Wopanda bwanji</ImageViewerStopSlideShow>
+  <ImageViewerImageSimpleInfo>{0} / {1}, {2} ({3})</ImageViewerImageSimpleInfo>
+  <ImageViewerImageLoadErrorMessage>fano sanapezeke kapena akhoza kuwonetsedwa</ImageViewerImageLoadErrorMessage>
+  <ImageViewerShowImageSizeOfWindow>Show chifanizo ndi kukula weniweni</ImageViewerShowImageSizeOfWindow>
+  <ImageViewerShowRealImageSize>Dinani kuti tiwonjezere</ImageViewerShowRealImageSize>
+
+  <PasswordExpiresTitle>achinsinsi chimagwira</PasswordExpiresTitle>
+  <PasswordExpiresMessage>Liwu lanu chimagwira pambuyo {0} tsiku (s)!</PasswordExpiresMessage>
+  <PasswordExpiredMessage>Liwu lanu anatsirizika.</PasswordExpiredMessage>
+  <PasswordChangeMessage>Kusintha achinsinsi, kusankha {0} {1} -&gt; {2} {3} pa Toolbar.</PasswordChangeMessage>
+
+  <UnzipContentTotalFiles>Total owona: {0} ({1})</UnzipContentTotalFiles>
+
+  <VideoConversionJobNotFound>
+    Sangathe kupeza mwachindunji ndondomeko kutembenuka.
+    zifukwa zotheka:
+    1. Kutembenuka anamaliza kalekale ndi zokhudza ntchito iyi chinatha.
+    2. The ndondomeko kutembenuka kutsazikana abnormally.
+  </VideoConversionJobNotFound>
+  <VideoConversionUtilityNotFound>Sangathe anapezazo zofunikira kuchita anapempha ntchito: {0}</VideoConversionUtilityNotFound>
+  <!-- The current security principal "{0}" has insufficiant permissions to executable file "{1}".-->
+  <VideoConversionUtilityInsufficientPermissions>Wosuta panopa "{0}" ali anakana mwayi file executable "{1}".</VideoConversionUtilityInsufficientPermissions>
+  <VideoConversionOperationCancelled>ntchito zimafika</VideoConversionOperationCancelled>
+  <VideoConversionUtilityFailed>Kutembenuka zofunikira kutsazikana abnormally</VideoConversionUtilityFailed>
+  <VideoConversionOutputFileBusy>Linanena bungwe file akugwiritsa ntchito njira ina kutembenuka</VideoConversionOutputFileBusy>
+
+  <VideoConvertWindowValidatorPositiveInt>Ayenera kukhala inteja zabwino</VideoConvertWindowValidatorPositiveInt>
+  <VideoConvertWindowTitle>Sinthani kanema</VideoConvertWindowTitle>
+  <VideoConvertWindowInputFile>athandizira file</VideoConvertWindowInputFile>
+  <VideoConvertWindowOutputFile>linanena bungwe file</VideoConvertWindowOutputFile>
+  <VideoConvertWindowOutputFormat>linanena bungwe mtundu</VideoConvertWindowOutputFormat>
+  <VideoConvertWindowBitrate>Bitrate (kbps)</VideoConvertWindowBitrate>
+  <VideoConvertWindowFrameResolution>chimango kusamvana</VideoConvertWindowFrameResolution>
+  <VideoConvertWindowDAR>Sonyezani makulidwe</VideoConvertWindowDAR>
+  <VideoConvertWindowPAR>Mapikiselo makulidwe</VideoConvertWindowPAR>
+  <VideoConvertWindowResize>musinthe kukula</VideoConvertWindowResize>
+  <VideoConvertWindowProfile>mbiri</VideoConvertWindowProfile>
+  <VideoConvertWindowWidth>m'lifupi</VideoConvertWindowWidth>
+  <VideoConvertWindowHeight>msinkhu</VideoConvertWindowHeight>
+  <VideoConvertWindowExtractDetailsProgressMsg>Yopezera mfundo kanema</VideoConvertWindowExtractDetailsProgressMsg>
+  <VideoConvertWindowOutputFileExistsTitle>Linanena bungwe file aliko</VideoConvertWindowOutputFileExistsTitle>
+  <VideoConvertWindowOutputFileExistsMsg>Linanena bungwe file lilipo kale. Adzakhululukidwa overwritten.</VideoConvertWindowOutputFileExistsMsg>
+  <VideoConvertWindowPrepareToConvert>Kukonzekera kutembenuza kanema</VideoConvertWindowPrepareToConvert>
+  <VideoConvertWindowOutputFileMatchInputFile>Linanena bungwe file dzina likufanana athandizira file dzina</VideoConvertWindowOutputFileMatchInputFile>
+
+  <VideoConvertProgressWindowTitle>Sinthani kanema</VideoConvertProgressWindowTitle>
+  <VideoConvertProgressWindowInputFile>athandizira file</VideoConvertProgressWindowInputFile>
+  <VideoConvertProgressWindowOutputFile>linanena bungwe file</VideoConvertProgressWindowOutputFile>
+  <VideoConvertProgressWindowStatus>kachirombo</VideoConvertProgressWindowStatus>
+  <VideoConvertProgressWindowStatusTerminating>kutsiriziratu</VideoConvertProgressWindowStatusTerminating>
+  <VideoConvertProgressWindowStatusPreparing>kukonzekera</VideoConvertProgressWindowStatusPreparing>
+  <VideoConvertProgressWindowStatusProgress>Gawo {0} wa {1}</VideoConvertProgressWindowStatusProgress>
+  <VideoConvertProgressWindowStatusDone>Zatheka</VideoConvertProgressWindowStatusDone>
+
+  <PlayHtml5VideoNotSupported>osatsegula siligwirizana ndi HTML 5 kanema amafotokozera.</PlayHtml5VideoNotSupported>
+  <PlayHtml5VideoPlayFailed>Play kanema analephera</PlayHtml5VideoPlayFailed>
+  <PlayHtml5AudioPlayFailed>Play Audio analephera</PlayHtml5AudioPlayFailed>
+  <PlayHtml5AudioTitle>Title</PlayHtml5AudioTitle>
+  <PlayHtml5AudioNotSupported>osatsegula siligwirizana ndi HTML 5 Audio amafotokozera.</PlayHtml5AudioNotSupported>
+  <PlayHtml5AudioArtist>wojambula</PlayHtml5AudioArtist>
+  <PlayHtml5AudioAlbum>Album</PlayHtml5AudioAlbum>
+  <PlayHtml5AudioYear>chaka</PlayHtml5AudioYear>
+  <PlayHtml5AudioDuration>Kutalika</PlayHtml5AudioDuration>
+  <PlayHtml5AudioBitrate>Bitrate</PlayHtml5AudioBitrate>
+  <PlayHtml5AudioVolume>Volume</PlayHtml5AudioVolume>
+
+  <!-- Root title -->
+  <RootTitle>muzu</RootTitle>
+
+  <!-- Recent feature keys -->
+  <RecentRootTitle>Recent</RecentRootTitle>
+  <RecentDeleteOnePrompt>Kodi inu mukutsimikiza kuchotsa "{0}" ku zinthu zanu zaposachedwapa?</RecentDeleteOnePrompt>
+  <RecentDeleteManyPrompt>Kodi inu mukutsimikiza kuchotsa {0} zinthu izi ndi zinthu wanu posachedwapa?</RecentDeleteManyPrompt>
+  <RecentPathNotExist>Njira posachedwapa "{0}" kulibe kapena mwayi ndi adatsutsa</RecentPathNotExist>
+  <RecentAllWithoutGroupingTitle>Onse yakumadzulo / o grouping</RecentAllWithoutGroupingTitle>
+  <RecentEditGroupTitle>lolembedwa</RecentEditGroupTitle>
+  <RecentViewGroupTitle>ankaona</RecentViewGroupTitle>
+  <RecentDownloadGroupTitle>dawunilodi</RecentDownloadGroupTitle>
+  <RecentUploadGroupTitle>adakwezedwa</RecentUploadGroupTitle>
+  <RecentCreateGroupTitle>analengedwa</RecentCreateGroupTitle>
+
+  <!-- Trash feature keys -->
+  <TrashRootTitle>zinyalala</TrashRootTitle>
+  <TrashLabelDateDeleted>Date zichotsedwa</TrashLabelDateDeleted>
+  <TrashDeleteOnePrompt>Kodi inu mukutsimikiza kuchotseratu "{0}" kuchokera zinyalala chiyani?</TrashDeleteOnePrompt>
+  <TrashDeleteManyPrompt>Kodi inu mukutsimikiza kuchotseratu {0} zinthu izi kwa zinyalala ndi?</TrashDeleteManyPrompt>
+  <TrashEmptyTrashLabel>zinyalala chopanda</TrashEmptyTrashLabel>
+  <TrashRestoreSelectedLabel>Bwezerani</TrashRestoreSelectedLabel>
+  <TrashRestoreAllLabel>Bwezerani zonse</TrashRestoreAllLabel>
+  <TrashEmptyTrashPrompt>Kodi inu mukutsimikiza kuti akhuthule zinyalala?</TrashEmptyTrashPrompt>
+  <TrashRestoreAllPrompt>Kodi inu mukutsimikiza kuti abwezeretse zinthu zonse kwa zinyalala ndi?</TrashRestoreAllPrompt>
+  <TrashProgressRestoring>Achire zinyalala ndi</TrashProgressRestoring>
+  <TrashFolderNotFound>Zinyalala Directory sanapezeke</TrashFolderNotFound>
+  <TrashBalloonRestored>zinthu anabwezeretsa: {0} wa {1}</TrashBalloonRestored>
+  <TrashDeleteDirectlyLabel>Chotsani mwachindunji popanda kuchotsa kwa zinyalala ndi</TrashDeleteDirectlyLabel>
+  <TrashUsedSpaceHint>{0} ntchito</TrashUsedSpaceHint>
+  <TrashLimitSizeHint>Ntchito {0} wa {1} ({2})</TrashLimitSizeHint>
+  <TrashLargeItemsShelfTimeHint>Yosungiramo nthawi ya zinthu ndi lalikulu kuposa {0}: {1} tsiku (s)</TrashLargeItemsShelfTimeHint>
+  <TrashSmallItemsShelfTimeHint>Ena onse: {0} tsiku (s)</TrashSmallItemsShelfTimeHint>
+  <TrashItemsShelfTimeHint>Yosungiramo nthawi ya zinthu: {0} tsiku (s)</TrashItemsShelfTimeHint>
+  <TrashAvailableSpaceHint>Pazipita zilipo kukula {0}</TrashAvailableSpaceHint>
+  <TrashDeletedFromFolderHint>Chachotsedwa ku {0}</TrashDeletedFromFolderHint>
+  <TrashExceededMessage>Zinthu zotsatirazi waukulu komanso sangathe unali zinyalala (ndi kuletsa {0} ndi kuposa):</TrashExceededMessage>
+  <TrashErrorSuffixMessage>Chonde yesaninso kufufuza njira "{0}" ndiyeno kuchotsa file (s) kosatha kupitirira katengedwe</TrashErrorSuffixMessage>
+
+  <!-- Shared by link -->
+  <SharedByLinkRootTitle>Alinso ndi kugwirizana</SharedByLinkRootTitle>
+
+  <!-- Shared for you -->
+  <SharedForYouRootTitle>Nawo ndi inu</SharedForYouRootTitle>
+  <SharedForYouUnableToGetUrl>Osatha ulalo</SharedForYouUnableToGetUrl>
+
+  <!-- Watch for modifications -->
+  <WatchForModifsCommand>Yanganilani zosintha</WatchForModifsCommand>
+  <WatchForModifsStartCommand>kuyamba kuonera</WatchForModifsStartCommand>
+  <WatchForModifsEditCommand>kusintha kuonera</WatchForModifsEditCommand>
+  <WatchForModifsStopCommand>kusiya kuonera</WatchForModifsStopCommand>
+  <WatchForModifsViewChangesCommand>View kusintha</WatchForModifsViewChangesCommand>
+  <WatchForModifsSubscriptionSuccessMessage>Mwatha kwa zosintha kuti "{0}"</WatchForModifsSubscriptionSuccessMessage>
+  <WatchForModifsStopSuccessMessage>The polojekiti "{0}" wakhala olumala bwinobwino</WatchForModifsStopSuccessMessage>
+  <WatchForModifsIncludingNestedLabel>Taganizirani Mathithiŵa owona, mafoda</WatchForModifsIncludingNestedLabel>
+  <WatchForModifsParentWatchExistMessage>Pakuti item anasankha wakhala kale anasankha kuwunika kwa chikwatu kholo "{0}".</WatchForModifsParentWatchExistMessage>
+  <WatchForModifsRootFolder>zidziwitso</WatchForModifsRootFolder>
+  <WatchForModifsStartProgressLoading>athe kuyang'anira</WatchForModifsStartProgressLoading>
+  <WatchForModifsStopProgressLoading>Terminatie kuonera</WatchForModifsStopProgressLoading>
+  <WatchForModifsIconHint>Zinathandiza Chenjerani zosintha</WatchForModifsIconHint>
+  <WatchForModifsNotifCheckBox>Awadziwitse za zosintha ndi makalata:</WatchForModifsNotifCheckBox>
+  <WatchForModifsWatchedUsersCheckBox>Muziona Intaneti yekha (kusiya akusowekapo ngati inu kuwunika zonse):</WatchForModifsWatchedUsersCheckBox>
+  <WatchForModifsIgnoreOwnerCheckBox>Amanyalanyaza kusintha anga</WatchForModifsIgnoreOwnerCheckBox>
+  <WatchForModifsActionsCheckBox>Muziona chilichonse (kapena zochita pa mndandanda m'munsimu)</WatchForModifsActionsCheckBox>
+  <WatchForModifsNestedItemsWarning>Chidwi! Pamene inu kuwonjezera kuyan'anila kwa chikwatu anasankhidwa owona onse unazunguliridwa ndi mafoda amene polojekiti munthu yawonjezedwa kale, polojekiti adzachotsedwa. Kodi mungakonde kupitiriza?</WatchForModifsNestedItemsWarning>
+
+  <WelcomeWindowHideCheckboxLabel>Musati kusonyeza mitengo ciri</WelcomeWindowHideCheckboxLabel>
+
+  <LogsGridMoreInfoColumn>Dziwani zambiri</LogsGridMoreInfoColumn>
+  <LogsGridDetailsTitle>tsatanetsatane</LogsGridDetailsTitle>
+  <LogsGridPhysPathColumn>njira thupi</LogsGridPhysPathColumn>
+  <LogsGridIsFolderColumn>Foda?</LogsGridIsFolderColumn>
+  <LogsGridIsPublicColumn>Public?</LogsGridIsPublicColumn>
+  <LogsGridByWebDavColumn>WebDAV?</LogsGridByWebDavColumn>
+
+  <NoCommentsYetHint>No ndemanga komabe</NoCommentsYetHint>
+  <NoHistoryYetHint>No mbiri yet</NoHistoryYetHint>
+
+  <DetailsPropertyValuesCouldNotBeWritten>Analephera kupulumutsa mfundo chuma, mabe mtundu file siligwirizana zingathe kapena pali vuto mu ntchito kugwirizana ndi wapamwamba.</DetailsPropertyValuesCouldNotBeWritten>
+
+  <AdminCommandHelp>Thandizeni</AdminCommandHelp>
+  <AdminCommandAddUser>Add me</AdminCommandAddUser>
+  <AdminCommandAddGroup>kuwonjezera gulu</AdminCommandAddGroup>
+  <AdminCommandRemoveUser>Chotsani wosuta</AdminCommandRemoveUser>
+
+  <AdminCommandSelectUsers>kuwonjezera Intaneti</AdminCommandSelectUsers>
+  <AdminCommandSelectGroups>kuwonjezera magulu</AdminCommandSelectGroups>
+  <AdminCommandRemoveUsers>Chotsani Intaneti</AdminCommandRemoveUsers>
+  <AdminCommandRemoveGroups>Chotsani magulu</AdminCommandRemoveGroups>
+  <AdminUsersGroups>Member Of</AdminUsersGroups>
+  <AdminSearchUserEmptyText>Lowetsani dzina wosuta</AdminSearchUserEmptyText>
+  <AdminSearchGroupEmptyText>Lowetsani dzina gulu</AdminSearchGroupEmptyText>
+  <AdminUsersGroupAlreadyExists>Gulu (s) ndi dzina ili (s) kale anawonjezera</AdminUsersGroupAlreadyExists>
+
+  <AdminApplicationLoading>Boma gulu Mumakonda</AdminApplicationLoading>
+  <AdminTitle>Administration</AdminTitle>
+  <AdminUsersEditUser>Sinthani wosuta</AdminUsersEditUser>
+  <AdminUsersSetUserPassword>Anatipatsa achinsinsi</AdminUsersSetUserPassword>
+  <AdminUsersViewGroups>View magulu</AdminUsersViewGroups>
+  <AdminUsersViewFolders>View mafoda</AdminUsersViewFolders>
+  <AdminUsersDeleteUserPrompt>Kodi inu mukutsimikiza kuti kuchotsa wosuta (s) "{0}"?</AdminUsersDeleteUserPrompt>
+  <AdminUsersDeletedUsers>{0} wosuta (s) zichotsedwa.</AdminUsersDeletedUsers>
+  <AdminUsersUserNotFound>A wosuta ndi dzina limeneli sanapezedwa</AdminUsersUserNotFound>
+  <AdminUsersPropertiesTitle>katundu wosuta</AdminUsersPropertiesTitle>
+  <AdminUsersSetPasswordTitle>achinsinsi Anatipatsa wosuta</AdminUsersSetPasswordTitle>
+  <AdminUsersGeneralInfo>mfundo wosuta</AdminUsersGeneralInfo>
+  <AdminUsersUserEmail>Email</AdminUsersUserEmail>
+  <AdminUsersEmptyName>dzina wosuta sangakhale chopanda</AdminUsersEmptyName>
+  <AdminUsersEmptyPassword>achinsinsi wosuta sangakhale chopanda</AdminUsersEmptyPassword>
+  <AdminUsersIncorrectName>Pali zizindikiro pachithunzichi m'dzina wosuta</AdminUsersIncorrectName>
+  <AdminUsersAlreadyExists>Wosuta ndi dzina ili lilipo kale</AdminUsersAlreadyExists>
+  <AdminUsersEmailAlreadyExists>Wosuta ndi izi e-makalata kale aliko</AdminUsersEmailAlreadyExists>
+  <AdminUsersPasswordsNotMatch>Achinsinsi sizikugwirizana</AdminUsersPasswordsNotMatch>
+  <AdminUsersRenameWarning>Pambuyo renaming wosuta ndi m'pofunika kusintha achinsinsi, mwinamwake panopa ukonde-mafoda Link lidali</AdminUsersRenameWarning>
+  <AdminUsersLicenseRestriction>chiphaso chanu salola kuti kulenga kuposa owerenga {0}</AdminUsersLicenseRestriction>
+  <AdminUsersCountInfoWithLimit>Total owerenga: {0} kuchokera {1}</AdminUsersCountInfoWithLimit>
+  <AdminUsersCountInfo>Total owerenga: {0}</AdminUsersCountInfo>
+
+  <AdminGroupsEditGroup>Sinthani gulu</AdminGroupsEditGroup>
+  <AdminGroupsRemoveGroup>Chotsani gulu</AdminGroupsRemoveGroup>
+  <AdminGroupsDeleteGroupPrompt>Kodi inu mukutsimikiza kuti kuchotsa gulu (s) "{0}"?</AdminGroupsDeleteGroupPrompt>
+  <AdminGroupsDeletedGroups>{0} gulu (s) zichotsedwa.</AdminGroupsDeletedGroups>
+  <AdminGroupsGroupNotFound>Gulu ndi dzina limeneli sanapezedwa</AdminGroupsGroupNotFound>
+  <AdminGroupsViewUsers>View Intaneti</AdminGroupsViewUsers>
+  <AdminGroupsProperties>katundu</AdminGroupsProperties>
+  <AdminGroupsPropertiesTitle>katundu gulu</AdminGroupsPropertiesTitle>
+  <AdminGroupsGeneralInfo>mfundo gulu</AdminGroupsGeneralInfo>
+  <AdminGroupsUserNamePrompt>Lowani wosuta dzina</AdminGroupsUserNamePrompt>
+  <AdminGroupsUsers>gulu</AdminGroupsUsers>
+  <AdminGroupsUserAlreadyExists>wosuta A (s) ndi dzina ili (s) kale anawonjezera</AdminGroupsUserAlreadyExists>
+  <AdminGroupsEmptyName>dzina gulu sangakhale chopanda</AdminGroupsEmptyName>
+  <AdminGroupsIncorrectName>Pali zizindikiro pachithunzichi m'dzina gulu</AdminGroupsIncorrectName>
+  <AdminGroupsAlreadyExists>Gulu ndi dzina ili lilipo kale</AdminGroupsAlreadyExists>
+  <AdminGroupsCountInfo>Total magulu: {0}</AdminGroupsCountInfo>
+
+  <AdminLanguagesTab>Localizations</AdminLanguagesTab>
+  <AdminLanguagesTabMessage>Kusintha kutanthauzira file Sankhani chinenero analakalaka mndandanda, dinani zingwe m'madera kusintha. Pambuyo zosintha dinani "Save" batani</AdminLanguagesTabMessage>
+  <AdminLangGridKeyColumn>dzina chinsinsi</AdminLangGridKeyColumn>
+  <AdminLangGridDefaultColumn>English</AdminLangGridDefaultColumn>
+  <AdminEnterLanguageNameTitle>Lowetsani dzina chinenero</AdminEnterLanguageNameTitle>
+  <AdminLangConfirmRefreshTitle>kulunzanitsa zimasonyeza</AdminLangConfirmRefreshTitle>
+  <AdminLangConfirmRefreshMessage>Chidwi! Data sanali wopulumutsidwa. Kodi mukufuna kupulumutsa kusintha tsopano?</AdminLangConfirmRefreshMessage>
+  <AdminLangAmountInfo>Anadzazidwa mafungulo: {0} wa {1} (makhalidwe akusowekapo: {2})</AdminLangAmountInfo>
+  <AdminLangSaveToCSV>Tumizani ku CSV</AdminLangSaveToCSV>
+  <AdminLangLoadFromCSV>Katundu ku CSV</AdminLangLoadFromCSV>
+
+  <AdminDbMaintenanceTab>DB kukonzanso</AdminDbMaintenanceTab>
+  <AdminDbMaintenanceInfoTitle>Info</AdminDbMaintenanceInfoTitle>
+  <AdminDbMaintenanceInfoPathLabel>DB file njira</AdminDbMaintenanceInfoPathLabel>
+  <AdminDbMaintenanceInfoSizeLabel>DB kukula file</AdminDbMaintenanceInfoSizeLabel>
+  <AdminDbMaintenanceCompactTitle>Nawonso achichepere yaying'ono</AdminDbMaintenanceCompactTitle>
+  <AdminDbMaintenanceCompactNote>Pofuna kuchepetsa kukula kwa wapamwamba Nawonso achichepere, chonde dinani batani m'munsimu. M'pofunika kuchita psinjika a Nawonso achichepere ndi nthawi, kuyambira Mwachitsanzo, pambuyo kuchotsa ena ofooka limasonyeza pagulu kapena chipika chakale akulemba kukula DB file si kuchepa.</AdminDbMaintenanceCompactNote>
+  <AdminDbMaintenanceCompactButton>yaying'ono DB</AdminDbMaintenanceCompactButton>
+  <AdminDbMaintenanceCompactSuccess>DB bwino tikaumbike.
+Old file kukula: {0}
+Latsopano kukula file: {1}</AdminDbMaintenanceCompactSuccess>
+  <AdminDbMaintenanceCompactAutoNote>Mukhoza kuyatsa psinjika Nawonso achichepere basi pambuyo kuchotsedwa ntchito zolemba, Koma ali osavomerezeka chifukwa mwina pafupipafupi maloko a m'munsi ndipo angadwale nthawi ya zopempha ena. Chidwi! Titasintha zochitika za ichi ntchito adzakhala restarted!</AdminDbMaintenanceCompactAutoNote>
+  <AdminDbMaintenanceCompactAutoCheckBox>Yambitsani / kuletsa galimoto-yaying'ono DB</AdminDbMaintenanceCompactAutoCheckBox>
+  <AdminDbMaintenanceCompactAutoSaveButton>Save</AdminDbMaintenanceCompactAutoSaveButton>
+  <AdminDbMaintenanceCompactAutoSaveSuccess>The kusintha kwa DB basi сompression yatha bwinobwino. tsambali kusinthidwa posachedwapa.</AdminDbMaintenanceCompactAutoSaveSuccess>
+  <AdminDbMaintenanceEnableLogLabel>Sankhani DB mafunso mitengo mlingo (mu Data / debug.log)</AdminDbMaintenanceEnableLogLabel>
+  <AdminDbMaintenanceSettingsSaveSuccess>Zokonda DB opulumutsidwa bwinobwino. tsamba adzakhala n'kupakiranso</AdminDbMaintenanceSettingsSaveSuccess>
+  <AdminDbMaintenanceSettingsChangeNote>Chidwi! Pambuyo chopulumutsa cha zoikamo ntchito adzakhala restarted posachedwa!</AdminDbMaintenanceSettingsChangeNote>
+  <AdminDbMaintenanceInsertIntervalLabel>The imeneyi (mu maminiti) zimawonjezera zochitika za DB. Ngati musankhe 0, ndi mayikidwe adzaoneka mwachindunji zinthuzo.</AdminDbMaintenanceInsertIntervalLabel>
+  <AdminDbMaintenanceAdvDbParamsTitle>Zotsogola DB magawo kugwirizana</AdminDbMaintenanceAdvDbParamsTitle>
+  <AdminDbMaintenanceStatTitle>Ziwerengero (zimadalira DB chipika mlingo DurationExecution)</AdminDbMaintenanceStatTitle>
+  <AdminDbMaintenanceStatDurationReadLabel>Avg kuwerenga timeout</AdminDbMaintenanceStatDurationReadLabel>
+  <AdminDbMaintenanceStatDurationWriteLabel>Avg kulemba timeout</AdminDbMaintenanceStatDurationWriteLabel>
+  <AdminDbMaintenanceStatDurationCompactLabel>Avg yaying'ono timeout</AdminDbMaintenanceStatDurationCompactLabel>
+  <AdminDbMaintenanceStatNoData>No deta</AdminDbMaintenanceStatNoData>
+  <AdminDbMaintenanceStatGetButton>Sonkhanitsani ziwerengero</AdminDbMaintenanceStatGetButton>
+
+  <AdminMiscTab>Misc</AdminMiscTab>
+  <AdminMiscLoadADAccountsTitle>Kutsegula nkhani Directory Amalalikira</AdminMiscLoadADAccountsTitle>
+  <AdminMiscLoadADAccountsLoadButton>katundu</AdminMiscLoadADAccountsLoadButton>
+  <AdminMiscLoadADAccountsResetButton>Bwezerani</AdminMiscLoadADAccountsResetButton>
+  <AdminMiscLoadADAccountsLdap>Ldap chidebe</AdminMiscLoadADAccountsLdap>
+  <AdminMiscLoadADAccountsToFile>kupala</AdminMiscLoadADAccountsToFile>
+  <AdminMiscLoadADAccountsSuccessMessage>Yogwira nkhani Directory bwinobwino yodzaza</AdminMiscLoadADAccountsSuccessMessage>
+  <AdminMiscLoadADAccountsInfo>Pano mukhoza kupanga wapamwamba munali lonse Amalalikira Directory owerenga dongosolo. file imeneyi n'kofunika ngati inu ntchito file malo amodzi monga yosungirako AD uthenga. The file chimodzimodzi kwaiye kudzera ADManager zofunikira. Chifukwa Dziwani zambiri onani &lt;b&gt; ADAccountsFilePath &lt;/b&gt; chizindikiro kufotokoza mu {0} Manual {1}.</AdminMiscLoadADAccountsInfo>
+
+  <AdminMiscManageQuotasTitle>Sinthani quotas</AdminMiscManageQuotasTitle>
+  <AdminMiscManageQuotasInfo>Kafufuzidwe zilipo panopa kapena kulenga kuumba latsopano kuchepetsa mpata analola kuti foda ndi zoyendera Manager wa Buku Server Resource.</AdminMiscManageQuotasInfo>
+  <AdminMiscManageQuotasFolderPath>njira foda</AdminMiscManageQuotasFolderPath>
+  <AdminMiscManageQuotasQuota>kuumba</AdminMiscManageQuotasQuota>
+  <AdminMiscManageQuotasGetQuota>Pezani kuumba</AdminMiscManageQuotasGetQuota>
+  <AdminMiscManageQuotasSetQuota>Anatipatsa kuumba</AdminMiscManageQuotasSetQuota>
+
+  <AdminMiscFoldersFromGPOLTitle>Katundu mafoda ku Policy Group</AdminMiscFoldersFromGPOLTitle>
+  <AdminMiscFoldersFromGPOLComputerName>dzina Computer</AdminMiscFoldersFromGPOLComputerName>
+  <AdminMiscFoldersFromGPOLFilePath>wapamwamba njira</AdminMiscFoldersFromGPOLFilePath>
+  <AdminMiscFoldersFromGPOLMoreInfoLink>Dziwani zambiri</AdminMiscFoldersFromGPOLMoreInfoLink>
+  <AdminMiscFoldersFromGPOLResetButton>Bwezerani</AdminMiscFoldersFromGPOLResetButton>
+  <AdminMiscFoldersFromGPOLLoadButton>katundu</AdminMiscFoldersFromGPOLLoadButton>
+  <AdminMiscFoldersFromGPOLFromDC>kuchokera DC</AdminMiscFoldersFromGPOLFromDC>
+  <AdminMiscFoldersFromGPOLFromFile>kuchokera file</AdminMiscFoldersFromGPOLFromFile>
+  <AdminMiscFoldersTargetLabel>Kugula Intaneti / magulu zinthu ...</AdminMiscFoldersTargetLabel>
+  <AdminMiscFoldersTargetFilter>sefa</AdminMiscFoldersTargetFilter>
+  <AdminMiscFoldersTargetPermission>chilolezo</AdminMiscFoldersTargetPermission>
+  <AdminMiscFoldersFromGPOLSuccessMessage>Mafoda bwinobwino yodzaza &lt;br /&gt; Chatsopano. {0}, kusinthidwa: {1}.</AdminMiscFoldersFromGPOLSuccessMessage>
+  <AdminMiscFoldersFromGPOLInfo>Inu kulongeza (kapena kusintha) mndandanda foda ku zoikamo Gulu Policy Drive sanjira mu ankalamulira Mtsogoleri. M'munda m'munsimu mukhoza kulowa dzina kompyuta imene zoikamo Gulu Policy adzakhala odzaza (kapena ngati anasiya kanthu, ndiye ankalamulira panopa zigwiritsidwe ntchito), kapena njira kupala ndi Woyamba Kujambula Mapu zoikamo amayendetsa.</AdminMiscFoldersFromGPOLInfo>
+
+  <AdminAnonymFoldersTab>mafoda mosaonetsera</AdminAnonymFoldersTab>
+  <AdminAnonymFoldersDeleteFolderPrompt>Kodi inu mukutsimikiza kuti kuchotsa {0} anasankha mafoda anonymous?</AdminAnonymFoldersDeleteFolderPrompt>
+  
+  <AdminAnonymFoldersDescription>mafoda Nawo / owona - awa mafoda / owona izo popanda wosuta kutsimikizika *, izo zikutanthauza kuti zilipo alendo onse (ngati kugwirizana a). onse ogwiritsa angalenge mafoda zimenezi / owona ku menyu "Share &amp;rarr; Pangani kugwirizana pagulu". Komabe, mafoda nawo angakhale ndi zilolezo zochepa pakuti ikukweza, otsitsira, owona / mafoda mndandanda. M'munsimu tebulo limasonyeza kuti mafoda nawo / owona analengedwa ndi owerenga. Ntchito kulumikizana pagulu zimaonetseratu molondola onetsetsani kuti Handlers \ Anonymousdownload.ashx amalola kupeza anonymous kuti IIS. Mukhoza onani ichi pa &lt;a target="_blank" href="{0}"&gt; Diagnostics &lt;/a&gt; page. Onetsetsani kuti anonymous wosuta nkhani anatumizidwa Handlers \ Anonymousdownload.ashx ali NTFS kuwerenga / kulemba zilolezo kwa nawo mafoda / owona &lt;br /&gt; * &amp;nbsp;. &amp;Mdash; &amp;nbsp; ngati mulibe mwachindunji owerenga, amene yekha analola mwayi.</AdminAnonymFoldersDescription>
+  <AdminAnonymFoldersLinkOwnerColumn>mwini</AdminAnonymFoldersLinkOwnerColumn>
+  <AdminAnonymFoldersEmailsColumn>Maimelo kuti zidziwitso</AdminAnonymFoldersEmailsColumn>
+  <AdminAnonymFoldersAccessForUsersColumn>Access owerenga</AdminAnonymFoldersAccessForUsersColumn>
+  <AdminAnonymFoldersPersonalMessageColumn>uthenga Personal</AdminAnonymFoldersPersonalMessageColumn>
+  <AdminAnonymFoldersOverwriteOnUploadHint> (Overwrite: {0})</AdminAnonymFoldersOverwriteOnUploadHint>
+  <AdminAnonymFoldersRootPathColumn>muzu njira</AdminAnonymFoldersRootPathColumn>
+  <AdminAnonymFoldersKeysColumn>mafungulo</AdminAnonymFoldersKeysColumn>
+  <AdminAnonymFoldersShortColumn>Short kugwirizana</AdminAnonymFoldersShortColumn>
+  <AdminAnonymFoldersPropertiesTitle>Mosaonetsera foda katundu</AdminAnonymFoldersPropertiesTitle>
+  <AdminAnonymFoldersAdditionalInfo>Zina Zowonjezera</AdminAnonymFoldersAdditionalInfo>
+  <AdminAnonymFoldersLinkLabel>Link kuti mwayi</AdminAnonymFoldersLinkLabel>
+  <AdminAnonymFoldersPathNotSpecified>Njira thupi sipakhala</AdminAnonymFoldersPathNotSpecified>
+  <AdminAnonymFoldersCreatedForColumn>cholinga</AdminAnonymFoldersCreatedForColumn>
+
+  <AdminFoldersTab>mafoda</AdminFoldersTab>
+  <AdminFoldersAddFolder>kuwonjezera foda</AdminFoldersAddFolder>
+  <AdminFoldersEditFolder>Sinthani foda</AdminFoldersEditFolder>
+  <AdminFoldersRemoveFolder>Chotsani foda</AdminFoldersRemoveFolder>
+  <AdminFoldersDeleteFolderPrompt>Kodi inu mukutsimikiza kuti kuchotsa foda "{0}"?</AdminFoldersDeleteFolderPrompt>
+  <AdminFoldersFolderNotFound>A foda ndi dzina limeneli sanapezedwa</AdminFoldersFolderNotFound>
+  <AdminFoldersPropertiesTitle>katundu foda</AdminFoldersPropertiesTitle>
+  <AdminFoldersGeneralInfo>Zina zambiri</AdminFoldersGeneralInfo>
+  <AdminFoldersFolderRemoteWarningForms>Zindikirani! fodayi ali kutali nawo. Chongani {0} FAQ: mmene mafoda kutali {1}</AdminFoldersFolderRemoteWarningForms>
+  <AdminFoldersFolderRemoteWarningWin>Zindikirani! fodayi ali kutali nawo. Mukhoza kubisa mafoda / owona ngati owerenga alibe ufulu kuwawerenga. Onani {0} FAQ: mmene kubisa owona / mafoda kuti wosuta alibe ufulu kuwerenga {1}</AdminFoldersFolderRemoteWarningWin>
+  <AdminFoldersFolderPath>njira thupi</AdminFoldersFolderPath>
+  <AdminFoldersLocationPath>Location</AdminFoldersLocationPath>
+  <AdminFoldersFolderCreate>Pangani chikwatu</AdminFoldersFolderCreate>
+  <AdminFoldersFolderCreateProcess>Kupanga foda</AdminFoldersFolderCreateProcess>
+  <AdminFoldersFolderCreateContainsPattern>Chikwatu sangathe analenga chifukwa muli chitsanzo</AdminFoldersFolderCreateContainsPattern>
+  <AdminFoldersFolderCreateSuccessfully>Chikwatu "{0}" wakhala bwinobwino analenga.</AdminFoldersFolderCreateSuccessfully>
+  <AdminFoldersFolderOptional> (Ngati mukufuna)</AdminFoldersFolderOptional>
+  <AdminFoldersFolderLimitations>sitingathe</AdminFoldersFolderLimitations>
+  <AdminFoldersFolderDescription>Kufotokozera</AdminFoldersFolderDescription>
+  <AdminFoldersFolderQuota>kuumba</AdminFoldersFolderQuota>
+  <AdminFoldersFolderQuotaHint>Kafufuzidwe zilipo panopa kapena kulenga kuumba latsopano kuchepetsa mpata analola kuti foda ndi zoyendera Manager wa Buku Server Resource.</AdminFoldersFolderQuotaHint>
+  <AdminFoldersFolderQuotaMoreInfoLink>Dziwani zambiri</AdminFoldersFolderQuotaMoreInfoLink>
+  <AdminFoldersPermissions>zilolezo</AdminFoldersPermissions>
+  <AdminFoldersPermissionsFor>Zilolezo kwa {0}</AdminFoldersPermissionsFor>
+  <AdminFoldersUsersGroups>Owerenga ndi magulu</AdminFoldersUsersGroups>
+  <AdminFoldersAccessControl>ulamuliro Access</AdminFoldersAccessControl>
+  <AdminFoldersCreate>Pangani</AdminFoldersCreate>
+  <AdminFoldersDelete>Chotsani</AdminFoldersDelete>
+  <AdminFoldersRename>Sinthani dzina</AdminFoldersRename>
+  <AdminFoldersUpload>Kwezani</AdminFoldersUpload>
+  <AdminFoldersDownload>Download</AdminFoldersDownload>
+  <AdminFoldersZipDownload>Zip ndi Download</AdminFoldersZipDownload>
+  <AdminFoldersZip>Zip</AdminFoldersZip>
+  <AdminFoldersUnzip>kungomasula Zipi</AdminFoldersUnzip>
+  <AdminFoldersCut>Dulani</AdminFoldersCut>
+  <AdminFoldersCopy>Koperani</AdminFoldersCopy>
+  <AdminFoldersListFiles>Show owona</AdminFoldersListFiles>
+  <AdminFoldersListFolders>Show mafoda</AdminFoldersListFolders>
+  <AdminFoldersModify>kukweza</AdminFoldersModify>
+  <AdminFoldersBulkMailing>chochuluka yamakalata</AdminFoldersBulkMailing>
+  <AdminFoldersAnonymViewContent>Wapamwamba mndandanda kudzera kugwirizana pagulu</AdminFoldersAnonymViewContent>
+  <AdminFoldersAnonymDownload>Koperani kudzera kugwirizana pagulu</AdminFoldersAnonymDownload>
+  <AdminFoldersAnonymUpload>Kweza kudzera kugwirizana pagulu</AdminFoldersAnonymUpload>
+  <AdminFoldersWatch>Watch</AdminFoldersWatch>
+  <AdminFoldersDescription>Inu mukhoza kuwonjezera mafoda pamanja kapena kuwatembenuza mafoda zilipo panopa ngati mukugwiritsa ntchito abulusa pa ndondomeko Group. Chifukwa Dziwani zambiri onani {0} Help {1}.</AdminFoldersDescription>
+
+  <AdminFoldersPermissionsForRegex>Mukhoza kugwiritsa ntchito mawu wokhazikika. Chonde lowetsani &lt;b&gt; {0} &lt;/b&gt; kumayambiriro kwa munda pamwamba kenako akuti wokhazikika Mwachitsanzo:</AdminFoldersPermissionsForRegex>
+  <AdminFoldersPermissionsForRegexUsers>{0} (imapatsa kwa wosuta aliyense) &lt;br /&gt; {1} (mawu osonyeza nthawi zonse amatanthauza owerenga awiri: jdoe ndi Mike)</AdminFoldersPermissionsForRegexUsers>
+  <AdminFoldersPermissionsForRegexGroups>{0} (imapatsa kwa gulu lililonse) &lt;br /&gt; {1} (mawu osonyeza nthawi zonse amatanthauza magulu onse ndi "Ophunzira" mu mayina awo)</AdminFoldersPermissionsForRegexGroups>
+
+  <AdminFoldersListRestrictions>Malamulo a kuwonetsera</AdminFoldersListRestrictions>
+  <AdminFoldersCreateRestrictions>Malamulo a chilengedwe file</AdminFoldersCreateRestrictions>
+  <AdminFoldersRestrictionAllow>amalola</AdminFoldersRestrictionAllow>
+  <AdminFoldersRestrictionDeny>siWake</AdminFoldersRestrictionDeny>
+  <AdminFoldersRestrictionExtensions>yophunzitsa</AdminFoldersRestrictionExtensions>
+  <AdminFoldersUserNamePrompt>Lowani wosuta dzina</AdminFoldersUserNamePrompt>
+  <AdminFoldersUserNameEmptyText>Select dzina wosuta</AdminFoldersUserNameEmptyText>
+  <AdminFoldersUserNameNotSelected>Muyenera kusankha dzina wosuta</AdminFoldersUserNameNotSelected>
+  <AdminFoldersUserAlreadyExists>wosuta ichi kale anatumizidwa fodayi</AdminFoldersUserAlreadyExists>
+  <AdminFoldersGroupNamePrompt>Lowetsani dzina gulu</AdminFoldersGroupNamePrompt>
+  <AdminFoldersGroupNameEmptyText>Select dzina gulu</AdminFoldersGroupNameEmptyText>
+  <AdminFoldersGroupNameNotSelected>Muyenera kusankha dzina gulu</AdminFoldersGroupNameNotSelected>
+  <AdminFoldersGroupAlreadyExists>gulu kale anatumizidwa fodayi</AdminFoldersGroupAlreadyExists>
+  <AdminFoldersEmptyName>Fodayi sangakhale chopanda</AdminFoldersEmptyName>
+  <AdminFoldersEmptyPath>njira foda sangakhale chopanda</AdminFoldersEmptyPath>
+  <AdminFoldersIncorrectName>Pali zizindikiro pachithunzichi mu Fodayi</AdminFoldersIncorrectName>
+  <AdminFoldersAlreadyExists>foda A ndi dzina ili ndi malo lilipo kale</AdminFoldersAlreadyExists>
+  <AdminFoldersSharesButton>magawo alipo</AdminFoldersSharesButton>
+  <AdminFoldersTestAccessButton>mwayi mayeso</AdminFoldersTestAccessButton>
+  <AdminFoldersTestIndexingButton>mayeso indexing</AdminFoldersTestIndexingButton>
+  <AdminFoldersShareNameTitle>magawo alipo</AdminFoldersShareNameTitle>
+  <AdminFoldersShareNameEmptyText>Select gawo</AdminFoldersShareNameEmptyText>
+  <AdminFoldersShareNameNotSelected>Muyenera kusankha gawo</AdminFoldersShareNameNotSelected>
+  <AdminFoldersGetQuotaButton>Pezani kuumba</AdminFoldersGetQuotaButton>
+  <AdminFoldersSetQuotaButton>Anatipatsa kuumba</AdminFoldersSetQuotaButton>
+  <AdminCommonFilterField>fyuluta</AdminCommonFilterField>
+  <AdminCommonValidateField>tsimikizira</AdminCommonValidateField>
+  <AdminFoldersRootNameUsed>Chonde ntchito dzina lina chikwatu m'malo mwa "{0}"</AdminFoldersRootNameUsed>
+  <AdminFoldersFolderFilterSuccess>Tsimikizira wa fyuluta zinachitika bwinobwino</AdminFoldersFolderFilterSuccess>
+
+  <AdminTestAccessGoodResult>Chikwatu "{0}" aliko ndipo angathe kuwerenga.</AdminTestAccessGoodResult>
+  <AdminTestAccessBadResult>Chikwatu "{0}" kulibe kapena palibe NTFS kuwerenga zilolezo kapena palibe mwayi Intaneti kuti ntchito Pawokha!</AdminTestAccessBadResult>
+  <AdminTestAccessErrorResult>Kulakwitsa pamene kuona mwayi foda "{0}": {1}</AdminTestAccessErrorResult>
+  <AdminTestIndexingErrorResult>Kulakwitsa pamene kuona indexing kwa foda "{0}":
+{1}</AdminTestIndexingErrorResult>
+  <AdminTestIndexingYesResult>Directory The "{0}" ndi osanjidwa</AdminTestIndexingYesResult>
+  <AdminTestIndexingNoResult>Directory The "{0}" si osanjidwa</AdminTestIndexingNoResult>
+  <AdminTestIndexingUnknownResult>Akulephera kudziwa ngati Directory "{0}" ndi osanjidwa.</AdminTestIndexingUnknownResult>
+  <AdminTestIndexingAddIfNotIndexed>Kodi mungakonde kuwonjezera fodayi kwa indexing, ngati akhala osanjidwa yet?</AdminTestIndexingAddIfNotIndexed>
+  <ProgressTestAccess>afufuze kupeza</ProgressTestAccess>
+  <ProgressTestIndexing>afufuze indexing</ProgressTestIndexing>
+  <AdminHowToIndexingLocationLink>Kuti index foda, amanena za Kuthandiza {0}</AdminHowToIndexingLocationLink>
+
+  <AdminUsersListAll>onse ogwiritsa</AdminUsersListAll>
+  <AdminUsersListDACL>Ogwiritsa ku ACL</AdminUsersListDACL>
+  <AdminGroupsListAll>magulu onse</AdminGroupsListAll>
+  <AdminGroupsListDACL>Ochokera ACL</AdminGroupsListDACL>
+  <AdminDACLStringLabel>zilolezo ACL</AdminDACLStringLabel>
+
+  <AdminCommonCustomField>munda mwambo</AdminCommonCustomField>
+  <AdminCommonSettingsChangeWarning>kusintha adzakhala zotsatira pambuyo kukonzanso malowedwe (kapena pambuyo ntchito kuyambitsanso kuti mwayi WebDav).</AdminCommonSettingsChangeWarning>
+
+  <AdminCommonAllowedFoldersPathsTitle>Anandilola foda njira</AdminCommonAllowedFoldersPathsTitle>
+  <AdminCommonNotAllowedFolderPath>Mutha kupanga kupeza okha mumafodawa kapena subfolders zake: {0}</AdminCommonNotAllowedFolderPath>
+
+  <AdminLogsTab>Log</AdminLogsTab>
+
+  <AdminSettingsTab>Zikhazikiko</AdminSettingsTab>
+
+  <AdminLogsErrorsTab>fufuzani zolakwa</AdminLogsErrorsTab>
+  <AdminLogsErrorsClearBtn>Chotsani</AdminLogsErrorsClearBtn>
+  <AdminLogsErrorsClearUsersCountExceededBtn>Chotsani mbiri ndi zolakwa za owerenga chopitirira malire kuchuluka</AdminLogsErrorsClearUsersCountExceededBtn>
+
+  <AdminFoldersCreateHint>Amalola / kukana zochita ku menyu "New": watsopano file, foda latsopano, fano latsopano, owona latsopano chikalata.</AdminFoldersCreateHint>
+  <AdminFoldersDeleteHint>Amalola / kukana deleting owona amene alipo ndi mafoda</AdminFoldersDeleteHint>
+  <AdminFoldersRenameHint>Amalola / kukana renaming owona amene alipo ndi mafoda</AdminFoldersRenameHint>
+  <AdminFoldersUploadHint>Amalola / kukana kukweza owona zimaonetseratu (Kwezani batani pa Toolbar)</AdminFoldersUploadHint>
+  <AdminFoldersDownloadHint>Amalola / kukana "Download", "view / Sinthani", download kuti kungasokoneze storages, etc zochita</AdminFoldersDownloadHint>
+  <AdminFoldersZipDownloadHint>Amalola / kukana "compress download" kuchitapo</AdminFoldersZipDownloadHint>
+  <AdminFoldersZipHint>Amalola / kukana "Compress kuti zip Archive" kuchitapo</AdminFoldersZipHint>
+  <AdminFoldersUnzipHint>Amalola / kukana "Tingafinye kwa chikwatu panopa", "Tingafinye kwa chikwatu latsopano" ndi "nkhani Zipi" Zochita</AdminFoldersUnzipHint>
+  <AdminFoldersCutHint>Amalola / kukana owona ndi mafoda odulidwa alipo kanthu</AdminFoldersCutHint>
+  <AdminFoldersCopyHint>Amalola / kukana buku owona amene alipo ndi mafoda kanthu</AdminFoldersCopyHint>
+  <AdminFoldersListFilesHint>Amalola / kukana owona kulemba</AdminFoldersListFilesHint>
+  <AdminFoldersListFoldersHint>Amalola / kukana kulemba mafoda</AdminFoldersListFoldersHint>
+  <AdminFoldersModifyHint>Amalola / kukana kusintha owona (zochita zonse zimene kusintha nkhani file alipo)</AdminFoldersModifyHint>
+  <AdminFoldersBulkMailingHint>Amalola / kukana yamakalata zambiri magulu</AdminFoldersBulkMailingHint>
+  <AdminFoldersAnonymViewContentHint>Amalola / kukana owona mndandanda owerenga anonymous (pa maulalo poyera)</AdminFoldersAnonymViewContentHint>
+  <AdminFoldersAnonymDownloadHint>Amalola / kukana owona kukopera owerenga anonymous (pa maulalo poyera)</AdminFoldersAnonymDownloadHint>
+  <AdminFoldersAnonymUploadHint>Amalola / kukana owona kweza owerenga anonymous (pa maulalo poyera)</AdminFoldersAnonymUploadHint>
+  <AdminFoldersWatchHint>Amalola / kukana owerenga kuti aziona kusintha mu chikwatu opangidwa ndi anthu enanso (amanena ngati UI / AllowUsersmonitorModifications = oona)</AdminFoldersWatchHint>
+  <AdminFoldersListRestrictionsHint>Izi njira eneyo, asaaonerera file ndandanda. Dinani "kukana" wailesi batani kubisa owona ndi yophunzitsa mwakutimwakuti. Ikani analetsa yophunzitsa kuŵapatulanya ndi koma (mwachitsanzo "exe, mleme, Com"). Khalani "Lolani" batani wailesi ndi kumanga yophunzitsa owona kuti idzaonetsedwa (mwachitsanzo "Doc, PDF, jpg").</AdminFoldersListRestrictionsHint>
+  <AdminFoldersCreateRestrictionsHint>Ntchito imeneyi ndi yofanana ndi "List malamulo", koma amalamulira owona ikukweza, zip m'zigawo, kulenga owona latsopano. Mukhoza amaletsa kapena athe ikukweza owona mwakutimwakuti.</AdminFoldersCreateRestrictionsHint>
+  <AdminFoldersGeneralInfoHint>Lembani foda njira ndi alias alipo. Dinani Help batani pansi chifukwa Dziwani zambiri.</AdminFoldersGeneralInfoHint>
+  <AdminFoldersUsersGroupsHint>Sankhani kapena mtundu Ogwiritsa ndi magulu nawo foda iwo. Dinani Help batani pansi chifukwa Dziwani zambiri.</AdminFoldersUsersGroupsHint>
+
+  <AdminUserFoldersButtonTitle>Mayeso magawo mndandanda</AdminUserFoldersButtonTitle>
+  <AdminUserFoldersWindowTitle>mafoda wosuta</AdminUserFoldersWindowTitle>
+  <AdminUserFoldersLabel>Foda mndandanda wosuta '{0}:</AdminUserFoldersLabel>
+  
+  <AdminPermissionsTab>zilolezo boma</AdminPermissionsTab>
+  <AdminPermissionsPrivilege>Privilege</AdminPermissionsPrivilege>
+  <AdminPermissionsEditButton>Sinthani mwayi</AdminPermissionsEditButton>
+  <AdminPermissionsModifySettingsTitle>kusintha zoikamo</AdminPermissionsModifySettingsTitle>
+  <AdminPermissionsModifyFoldersTitle>kusintha mafoda</AdminPermissionsModifyFoldersTitle>
+  <AdminPermissionsModifyAnonymFoldersTitle>Kusintha mafoda pagulu</AdminPermissionsModifyAnonymFoldersTitle>
+  <AdminPermissionsModifyAccountsTitle>kusintha nkhani</AdminPermissionsModifyAccountsTitle>
+  <AdminPermissionsViewDiagnosticsTitle>View 'Diagnostics' tsamba</AdminPermissionsViewDiagnosticsTitle>
+  <AdminPermissionsViewLogTitle>View chipika</AdminPermissionsViewLogTitle>
+  <AdminPermissionsViewErrorsLogTitle>View zolakwa fufuzani</AdminPermissionsViewErrorsLogTitle>
+  <AdminPermissionsModifyLocalizationsTitle>kusintha localizations</AdminPermissionsModifyLocalizationsTitle>
+  <AdminPermissionsFolderPathTitle>njira foda</AdminPermissionsFolderPathTitle>
+  <AdminPermissionsFoldersTitle>mafoda boma</AdminPermissionsFoldersTitle>
+  <AdminPermissionsPrivilegeHint>Anatipatsa owerenga / magulu amene "{0}" mwayi adzaloledwe</AdminPermissionsPrivilegeHint>
+  <AdminPermissionsFolderTitle>katundu boma foda</AdminPermissionsFolderTitle>
+  <AdminPermissionsFolderFieldTitle>njira foda</AdminPermissionsFolderFieldTitle>
+  <AdminPermissionsFolderHint>Info za mafoda boma</AdminPermissionsFolderHint>
+  <AdminPermissionsFolderEmptyAccounts>Fotokozani owerenga / kapena magulu</AdminPermissionsFolderEmptyAccounts>
+  <AdminPermissionsFolderAlreadyExists>Foda ndi malowa kale aliko</AdminPermissionsFolderAlreadyExists>
+  <AdminPermissionsFolderNotFound>Foda ndi malowa sanapezeke</AdminPermissionsFolderNotFound>
+  <AdminPermissionsAllowedFoldersMessage>Mutha kupanga / pomwe / kusamalira kupeza okha mumafodawa kapena subfolders zake: {0}</AdminPermissionsAllowedFoldersMessage>
+
+  <AdminUsersCountExceededWarn>Pazipita kuchuluka kwa owerenga ndi kuposa. chiphaso chanu panopa amalola yekha {0} owerenga kwa malowedwe. Chifukwa Dziwani zambiri kutsegula "{1}" tabu ndi kupeza "{2}" kupatulapo (s). Kubisa zidziwitso izi mbiri bwino chipika pa "{1}" tabu.</AdminUsersCountExceededWarn>
+
+  <AdminNewVersionAvailableTitle>Latsopano Baibulo lilipo!</AdminNewVersionAvailableTitle>
+  <AdminNewVersionAvailableInfo>Current Baibulo: {0} &lt;br /&gt; A Baibulo atsopano: {1}</AdminNewVersionAvailableInfo>
+  
+  <SettingsGridDescriptionInfo>Kufotokozera</SettingsGridDescriptionInfo>
+  <SettingsGridFormatInfo>mtengo mtundu</SettingsGridFormatInfo>
+  <SettingsGridDefaultValueInfo>mtengo kusakhulupirika</SettingsGridDefaultValueInfo>
+  <SettingsGridMoreInfo>Dziwani zambiri</SettingsGridMoreInfo>
+  <SettingsGridRestoreDefault>kubwezeretsa kusakhulupirika</SettingsGridRestoreDefault>
+
+  <SettingsFormatBoolean>mtengo Buliyani</SettingsFormatBoolean>
+  <SettingsFormatWholeNumber>number lonse</SettingsFormatWholeNumber>
+  <SettingsFormatRealNumber>number Real</SettingsFormatRealNumber>
+  <SettingsFormatString>chingwe</SettingsFormatString>
+  <SettingsFormatEnum>phindu la</SettingsFormatEnum>
+  <SettingsFormatSet>Koma anasiyana mndandanda popanda kubwereza makhalidwe</SettingsFormatSet>
+  <SettingsFormatArray>Koma anasiyana mndandanda wa zingwe</SettingsFormatArray>
+  <SettingsFormatToolbarButtons>. (. Ubwino "{0}" Mungathe kubwereza kangapo, koma osati mu mzere lirilonse dzina, kenako m'matumbo, ndi zotheka mwachindunji imodzi mwa njira ntchito kusonyeza batani: {1})</SettingsFormatToolbarButtons>
+
+  <AdminSettingsSave>Sungani zokonda</AdminSettingsSave>
+  <AdminToggleHiddenParams>{0} magawo apamwamba</AdminToggleHiddenParams>
+  <AdminHintHiddenParams>magawo zina ukunenedwa okha zoikamo kwambiri granular ndipo nthawi zambiri zimakhala zofunika</AdminHintHiddenParams>
+  <AdminShowHiddenParams>Show</AdminShowHiddenParams>
+  <AdminHideHiddenParams>Bisani</AdminHideHiddenParams>
+
+  <SettingsDenyAuthModeChange>Makinawa mode kutsimikizika changeover sagwirizana. Onani {0} malangizo za kusintha mode kutsimikizika.</SettingsDenyAuthModeChange>
+  <SettingsApplicationRestartedMsg>ntchito restarted</SettingsApplicationRestartedMsg>
+  <SettingsSettingsSavedMsg>Zikhazikiko mwapulumutsidwa</SettingsSettingsSavedMsg>
+  <SettingsSettingsSaveFailedAppMsg>Sangathe kudzipulumutsa owona kasinthidwe. Chongani zilolezo lemba NTFS wa web.config ndi HttpCommanderSettings.config owona mu chikwatu ukonde ntchito muzu {0} kwa wosuta {1}. Zolakwa uthenga: {2}.</SettingsSettingsSaveFailedAppMsg>
+  <SettingsSettingsSaveFailedTempMsg>Sangathe kudzipulumutsa owona kasinthidwe. Cheke zilolezo za chikwatu osakhalitsa {0} kwa wosuta {1}. Zolakwa uthenga: {2}.</SettingsSettingsSaveFailedTempMsg>
+  <SettingsSettingsReadFailedAppMsg>Sanathe kuwerenga owona kasinthidwe. Chongani kuwerenga zilolezo NTFS wa web.config ndi HttpCommanderSettings.config owona mu chikwatu ukonde ntchito muzu {0} kwa wosuta {1}. Zolakwa uthenga: {2}.</SettingsSettingsReadFailedAppMsg>
+  <SettingsSettingsReadFailedTempMsg>Sanathe kuwerenga owona kasinthidwe mu chikwatu zosakhalitsa. Cheke zilolezo za chikwatu osakhalitsa {0} kwa wosuta {1}. Zolakwa uthenga: {2}.</SettingsSettingsReadFailedTempMsg>
+  <SettingsSettingsConfigChangedOutside>The file HttpCommander kasinthidwe lasinthidwa ndi wina pulogalamu. Mwina inu kusinthidwa izo pamanja ndi mkonzi lemba. ntchito wakhala yodzaza ndi wapamwamba latsopano kasinthidwe. kusintha zonse zokhudza HttpCommander kasinthidwe chimene inu mwachita mwa mawonekedwe ukonde anatayika. Muyenera redo iwo, ndiye pofuna kupulumutsa kachiwiri. Mpofunika motsutsana owona kusintha kasinthidwe pamanja pamene ntchito ikutha. Mwinamwake inu Chisudzulo Chikuwononga ntchito Titasintha owona kasinthidwe. Zolakwa uthenga: {0}.</SettingsSettingsConfigChangedOutside>
+  <SettingsSettingsSaveNotif>Musaiwale kusunga kusintha zoikamo!</SettingsSettingsSaveNotif>
+  
+  <SettingsEmailNotifTitle>Zidziwitso ndi Email</SettingsEmailNotifTitle>
+  <SettingsEmailNotifApplyBtn>Sungani zokonda makalata</SettingsEmailNotifApplyBtn>
+  <SettingsEmailNotifResetBtn>Bwezerani</SettingsEmailNotifResetBtn>
+  <SettingsEmailNotifEventsLabel>zochitika</SettingsEmailNotifEventsLabel>
+  <SettingsEmailNotifWhenLabel>kutumiza</SettingsEmailNotifWhenLabel>
+  <SettingsEmailNotifEmailsLabel>maimelo</SettingsEmailNotifEmailsLabel>
+  <SettingsEmailNotifPathsLabel>mayendedwe</SettingsEmailNotifPathsLabel>
+  
+  <LogsErrorsGridUrlColumn>url</LogsErrorsGridUrlColumn>
+  <LogsErrorsGridMsgColumn>Message</LogsErrorsGridMsgColumn>
+  <LogsErrorsGridMoreInfoColumn>Dziwani zambiri</LogsErrorsGridMoreInfoColumn>
+  <LogsErrorsGridDetailsTitle>tsatanetsatane</LogsErrorsGridDetailsTitle>
+  
+  <FsrmUnableLoadLibraryLocal>Akulephera kugwirizana kupala Server Resource Manager pa khamu m'deralo.</FsrmUnableLoadLibraryLocal>
+  <FsrmUnableLoadLibraryRemote>Akulephera kugwirizana kupala Server Resource Manager pa "{0}" khamu.</FsrmUnableLoadLibraryRemote>
+  <FsrmNotInstalled>Wapamwamba Manager Server Resource si anaika "{0}".</FsrmNotInstalled>
+  <FsrmNotInstalledEitherEnd>Wapamwamba Manager Server Resource si anaika mwina khamu m'deralo kapena "{0}".</FsrmNotInstalledEitherEnd>
+  <FsrmQuotaNotSpecified>Kuumba si mwakutimwakuti.</FsrmQuotaNotSpecified>
+  <FsrmUnableGetQuota>Osatha kuumba malire.</FsrmUnableGetQuota>
+  <FsrmUnableSetQuota>Polephera anapereka kuumba malire.</FsrmUnableSetQuota>
+  <FsrmQuotaSetMsg>Kuumba lakhazikitsidwa.</FsrmQuotaSetMsg>
+  <FsrmInvalidQuotaValueMsg>mtengo opanda pake kuumba.</FsrmInvalidQuotaValueMsg>
+
+  <CommandBuyNow>Gulani pompano</CommandBuyNow>
+
+  <AdminUpdateTab>Mokweza</AdminUpdateTab>
+  <AdminUpdateManual>Buku Mokweza</AdminUpdateManual>
+  <AdminUpdateAuto>makina Mokweza</AdminUpdateAuto>
+  <AdminUpdateStartButton>Yambani Kusintha Mokweza / Pangani zosunga zobwezeretsera</AdminUpdateStartButton>
+  <AdminUpdateFinishButton>Mapeto Kusintha Mokweza/bwezerani zosunga zobwezeretsera</AdminUpdateFinishButton>
+  <AdminUpdateBackupButton>kubwerera</AdminUpdateBackupButton>
+  <AdminUpdateDownloadNewButton>Koperani Baibulo latsopanoli</AdminUpdateDownloadNewButton>
+  <AdminUpdateStepTitle>Gawo {0} {1}: {2}</AdminUpdateStepTitle>
+  <AdminUpdateStepInfo>Gawo {0} {1}</AdminUpdateStepInfo>
+  <AdminUpdateNumberSymbol>#</AdminUpdateNumberSymbol>
+  <AdminUpdateBackupContent>Chonde akanikizire batani "{0}" chilengedwe cha bukuli kubwerera kwa fodayi ndi ntchito ndi kukhala ulalo wa otsitsira ndi</AdminUpdateBackupContent>
+  <AdminUpdateDownloadBackupLinkHint>Chonde kukopera buku kubwerera ntchito ntchito kugwirizana m'munsimu:</AdminUpdateDownloadBackupLinkHint>
+  <AdminUpdateDownloadNewContent>Ndiye chonde kukopera Baibulo latsopano ntchito kugwirizana m'munsimu ndi kutsatira {0} unsembe {1} ndipo {2} Sinthani {1} malangizo kuti kukhazikitsa Baibulo latsopano. Pambuyo unsembe chonde kutsegula gulu boma, kupita ku tsamba "{3}" ndi akanikizire batani "{4}" kuti akwaniritse unsembe.</AdminUpdateDownloadNewContent>
+  <AdminUpdateUploadButton>Kweza buku kubwerera ndi ntchito zoikamo</AdminUpdateUploadButton>
+  <AdminUpdateUploadAndInstallButton>Kukhazikitsa Baibulo latsopano ndi kusunga zoikamo onse</AdminUpdateUploadAndInstallButton>
+  <AdminUpdateUploadEmptyText>Chonde sankhani buku kubwerera kwa ikukweza</AdminUpdateUploadEmptyText>
+  <AdminUpdateFinishContent>Pofuna kubwezeretsa zoikamo Baibulo yapita chonde sankhani ndi kukweza kale analenga kubwerera Archive ndi chikwatu ntchito</AdminUpdateFinishContent>
+  <AdminUpdateFinishMessage>Zabwino zonse! Zokonda zonse bwinobwino ntchito. Komanso, chonde ntchito kusintha onse munalonjeza owona zina, mwachitsanzo Default.aspx kapena Global.asax.</AdminUpdateFinishMessage>
+  <AdminUpdateFinishRefreshPage>tsamba adzakhala n'kupakiranso</AdminUpdateFinishRefreshPage>
+  <AdminUpdateMainInfo>Mtundu wa kukulitsa anafa makina. Mwina kulenga ndi download file kubwerera ndi zoikamo ntchito kasinthidwe ndi kubwezeretsa pambuyo kukulitsa ndi. Chonde tsatani ndondomeko izi yochepa: kulenga file kubwerera, kuchita kukulitsa buku mubweze zoikamo ku wapamwamba kubwerera. njirayi komanso angagwiritsidwe ntchito kubwerera / kubwezeretsa zoikamo popanda kukulitsa. Mwachidule n'kupeza kukulitsa sitepe kubwezeretsa zoikamo ku wapamwamba kubwerera.</AdminUpdateMainInfo>
+  <AdminUpdateAutoButton>Auto</AdminUpdateAutoButton>
+  <AdminUpdateAutoInfo>Mtundu wa kukulitsa ndi makina pafupifupi kwathunthu. Iwo amakhala ndi mapazi 2: kubwerera kwa zoikamo zikusinthira (muyenera kukopera kupulumutsa file kubwerera), unsembe wa Baibulo latsopano ndi kubwezeretsa zoikamo ku wapamwamba kubwerera. HTTP Commander angathe kukuthandizani kukopera mabuku atsopano ndi kukhazikitsa kapena mukhoza mwachindunji njira ndi zipi Archive ndi Baibulo latsopano pa makina athu. Zokonda onse amalowa obwezeretsedwa kuchokera kale analenga file kubwerera.</AdminUpdateAutoInfo>
+  <AdminUpdateRestoreWebConfigCheckBox>Kubwezeretsa zoikamo ku Web.config (mwachitsanzo, monga SMTP)</AdminUpdateRestoreWebConfigCheckBox>
+  <AdminUpdateBackupAssignedFoldersInRootMessage>Chidwi! Pali ena mafoda wosuta mu Directory ndi ntchito kuti ndi okwana kukula kuposa {0}. The kubwerera sati anapanga. Chonde chitanipo buku kubwerera kwa akalozera izi, kuwachotsa ntchito Directory ndi Yeseraninso ntchito pa mbali yanu.</AdminUpdateBackupAssignedFoldersInRootMessage>
+  <AdminUpdateNeedRefreshPageForContinue>Chidwi! Kupitiriza m'pofunika kutsegulaso tsamba. Chonde akanikizire batani "{0}". Pambuyo kutsegulaso Chonde mubwereze ntchito.</AdminUpdateNeedRefreshPageForContinue>
+  <AdminUpdateRestoreFromBackupEmpty>, Kapena ngati iwo anasankha, izo ntchito ndi file kumene analengedwa sitepe yapita</AdminUpdateRestoreFromBackupEmpty>
+  <AdminUpdateInstallZipPathHint>Pakuti kasinthidwe chonde mwachindunji mokwanira njira thupi file unsembe (pa makina) m'munda woyamba kapena siyani akusowekapo kuti ntchito Intaneti yogawa</AdminUpdateInstallZipPathHint>
+  <AdminUpdateInstallZipPathEmpty>Fotokozani njira Archive ndi kukhazikitsa</AdminUpdateInstallZipPathEmpty>
+  <AdminUpdateProgress>Zikuchitika</AdminUpdateProgress>
+  <AdminUpdateAccessDeniedWarning>&lt;b&gt; Chisamaliro! &lt;/b&gt; Pakuti kasinthidwe chonde anapereka kusintha (kuwerenga ndi kulemba) zilolezo NTFS kuti {0} wosuta kwa foda HTTP Commander &lt;br /&gt; Pambuyo kukulitsa bwino {1} ndi kubwereza kukulitsa. Chonde abwezeretse ufulu kale.</AdminUpdateAccessDeniedWarning>
+  <AdminUpdateAccessDeniedWarningCurentUser>panopa</AdminUpdateAccessDeniedWarningCurentUser>
+
+  <ServerExceedsMaxSizeForEditAsTextFile>Kukula file kuposa kukula pazipita kusintha ngati file lemba.</ServerExceedsMaxSizeForEditAsTextFile>
+  <ServerDemoMode>zimene anapatsidwa zoletsedwa mu mode pachiwonetsero</ServerDemoMode>
+  <ServerHostedMode>Iwo saloledwa kuti asinthe makhalidwe a zoikamo mu linapangitsa woyeserera zotsatirazi: {0}.</ServerHostedMode>
+  <ServerIncorrectImageContentType>The file Kuyesezera-mtundu si fano</ServerIncorrectImageContentType>
+  <ServerPermissionDenied>Opaleshoni imeneyi anakanidwa chifukwa cha zilolezo zochepa</ServerPermissionDenied>
+  <ServerRestoreFromTrashNoParentFolder>kubwezeretsedwa analephera chifukwa kholo Directory "{0}" wakhala sanapezeke. Chonde kulenga ndi yeseraninso.</ServerRestoreFromTrashNoParentFolder>
+  <ServerModifyPermissionDenied>Opaleshoni imeneyi anakanidwa chifukwa mulibe chilolezo kukweza wapamwamba</ServerModifyPermissionDenied>
+  <ServerPathNotFound>Njira sanapezeke.</ServerPathNotFound>
+  <ServerInvalidPath>Njira "{0}" si zomveka</ServerInvalidPath>
+  <ServerInvalidAbsolutePath>njira opanda pake Mtheradi "{0}"</ServerInvalidAbsolutePath>
+  <!-- share folder path: \\server\share -->
+  <ServerInvalidShareFolderPath>Chosavomerezeka njira gawo foda "{0}"</ServerInvalidShareFolderPath>
+  <ServerInvalidUncPath>njira opanda pake UNC "{0}"</ServerInvalidUncPath>
+  <ServerUnableResolveUncPath>Akulephera kuthetsa UNC njira "{0}"</ServerUnableResolveUncPath>
+  <ServerInvalidFileName>The file / foda dzina sipakhala kapena ili ndi zilembo pachithunzichi {0}</ServerInvalidFileName>
+  <ServerFilePathNotFound>Wapamwamba kulibe</ServerFilePathNotFound>
+  <ServerIncorrectPathForFileLink>Pachithunzichi chinthu choyimira. Mwachindunji njira anatchulapo foda ndi</ServerIncorrectPathForFileLink>
+  <ServerIncorrectPathForFolderLink>Pachithunzichi chinthu choyimira. Mwachindunji njira anatchulapo wapamwamba</ServerIncorrectPathForFolderLink>
+  <ServerRootFolderNotFound>Muzu chikwatu kwa panjira "{0}" sanapezeke.</ServerRootFolderNotFound>
+  <ServerUnableCreateFolder>Sangathe kulenga foda</ServerUnableCreateFolder>
+  <ServerFileAlreadyExists>Kupala ndi dzina ili lilipo kale</ServerFileAlreadyExists>
+  <ServerFileAlreadyExistsOnRename>
+    Kodi mukufuna Sinthani dzina "{0}" ndi "{1}"?
+    Pali kale wapamwamba ndi dzina lomweli mderali.
+  </ServerFileAlreadyExistsOnRename>
+  <ServerFolderAlreadyExistsOnRename>
+    Kodi mukufuna Sinthani dzina "{0}" ndi "{1}"?
+    Pali kale chikwatu ndi dzina lomweli mderali.
+  </ServerFolderAlreadyExistsOnRename>
+  <ServerFoldersMergeConfirm>
+    malowa kale lili foda wotchedwa "{0}".
+    Kodi inu mukufuna kuti kuphatikiza fodayi "{0}" ndi uyu "{1}"?
+  </ServerFoldersMergeConfirm>
+  <ServerFolderWithSameNameAsFileNameAlreadyExists>Pali kale chikwatu ndi dzina lomweli "{0}" monga dzina file mwasankha</ServerFolderWithSameNameAsFileNameAlreadyExists>
+  <ServerFileWithSameNameAsFolderNameAlreadyExists>Pali kale file ndi dzina lomweli "{0}" monga Fodayi mwasankha</ServerFileWithSameNameAsFolderNameAlreadyExists>
+  <ServerFileNotFound>The file "{0}" sapezeka fodayi "{1}". Mwinatu lachotsedwa kapena kuchotsedwa ndi wosuta wina.</ServerFileNotFound>
+  <ServerDirectoryAlreadyExists>Directory A ndi dzina ili lilipo kale</ServerDirectoryAlreadyExists>
+  <ServerFolderMoveAlreadeExists>Kopita foda "{0}" ndi chimodzimodzi fodayi gwero</ServerFolderMoveAlreadeExists>
+  <ServerUploadPathNotFound>The njira yosungirako file sapezeka pa makina</ServerUploadPathNotFound>
+  <ServerUploadPathNotSet>kulakwitsa zinachitika pamene kupeza njira ikukweza. Chonde, polimbikitsa patsamba osatsegula ndi yeseraninso.</ServerUploadPathNotSet>
+  <ServerUploadNoChunk>No chipika kuti kupatula</ServerUploadNoChunk>
+  <ServerUploadWriteChunk>Lembani chipika kuchokera mamvekedwe</ServerUploadWriteChunk>
+  <ServerUploadCreatingFile>Kupanga file</ServerUploadCreatingFile>
+  <ServerUploadFileUploaded>file wakhala ndakweza</ServerUploadFileUploaded>
+  <ServerUploadWriteError>kulemba zolakwa</ServerUploadWriteError>
+  <ServerConfigurationError>Pachithunzichi kasinthidwe kapena ntchito! Lumikizanani malo mkuluyu</ServerConfigurationError>
+  <ServerPermissionsAllowTypes>zilolezo Current kulola ntchito imeneyi, pokhapokha mitundu file {0}</ServerPermissionsAllowTypes>
+  <ServerPermissionsDenyTypes>zilolezo Current amaletsa ntchito imeneyi ndi mitundu file {0}</ServerPermissionsDenyTypes>
+  <ServerRequestSizeExceeded>Kukula kwa owona Adakwezedwa kuposa analola kukula mu zoikamo Seva</ServerRequestSizeExceeded>
+  <ServerEmailMsgProcessedFilesSubject>Adakwezedwa / Zakonzedwa / dawunilodi / Created / Chachotsedwa / nawo owona / mafoda</ServerEmailMsgProcessedFilesSubject>
+  <ServerEmailMsgUploadFilesTitle>ndakweza</ServerEmailMsgUploadFilesTitle>
+  <ServerEmailMsgModifyFilesTitle>kusinthidwa</ServerEmailMsgModifyFilesTitle>
+  <ServerEmailMsgDownloadFilesTitle>dawunilodi</ServerEmailMsgDownloadFilesTitle>
+  <ServerEmailMsgCreateFilesTitle>analengedwa</ServerEmailMsgCreateFilesTitle>
+  <ServerEmailMsgDeleteFilesTitle>zichotsedwa</ServerEmailMsgDeleteFilesTitle>
+  <ServerEmailMsgCreatePublicFilesTitle>adagawa</ServerEmailMsgCreatePublicFilesTitle>
+  <ServerEmailMsgProcessedFilesBody>
+    Otsatirawa owona / mafoda anali {0} ndi {1}:
+
+{2}
+    
+  </ServerEmailMsgProcessedFilesBody>
+  <ServerEmailMsgPasswordRecoverSubject>achinsinsi kuchira</ServerEmailMsgPasswordRecoverSubject>
+  <ServerEmailMsgPasswordRecoverBody>
+    Inu anapempha kuti achire achinsinsi wanu Web Buku Manager. achinsinsi lanu bwererani. Ngati inu mukukhulupirira izi ndi kulakwitsa, chabe kunyalanyaza kalata, koma dziŵani kuti achinsinsi wanu wasintha.
+    dzina me: {0}
+    achinsinsi latsopano: {1}
+  </ServerEmailMsgPasswordRecoverBody>
+  
+  <ServerEmailMsgUserNameRecoverSubject>lolowera kuchira</ServerEmailMsgUserNameRecoverSubject>
+  <ServerEmailMsgUserNameRecoverBody>
+    Inu anapempha kuti achire dzina lanu mu Web Buku Manager.
+    dzina me: {0}
+  </ServerEmailMsgUserNameRecoverBody>
+
+  <ServerEmailMsgUserActivationSubject>kutsegula nkhani</ServerEmailMsgUserActivationSubject>
+  <ServerEmailMsgUserActivationBody>
+    Nkhani ({0}) kutsegula chofunika.
+    Kuti yambitsa nkhani yanu, chonde alemba pa kugwirizana zotsatirazi: {1}
+  </ServerEmailMsgUserActivationBody>
+  <ServerEmailMsgUserRegisteredSubject>wosuta anawerengedwa</ServerEmailMsgUserRegisteredSubject>
+  <ServerEmailMsgUserRegisteredBody>
+    Inu bwinobwino mayina Web Buku Manager.
+    dzina me: {0}
+  </ServerEmailMsgUserRegisteredBody>
+  <ServerEmailMsgUserRegisteredForAdminsBody>
+    &lt;h4&gt; wosuta Chatsopano wakhala mayina &lt;/h4&gt;
+    &lt;Amphamvu&gt; dzina Wosuta &lt;/ ​​amphamvu&gt;: {0} &lt;br /&gt;
+    &lt;Amphamvu&gt; Email &lt;/ amphamvu&gt;: {1} &lt;br /&gt;
+    &lt;Amphamvu&gt; Date &lt;/ amphamvu&gt;: {2} &lt;br /&gt;
+    &lt;Amphamvu&gt; Owonjezera uthenga &lt;/ amphamvu&gt;: {3} &lt;br /&gt;
+  </ServerEmailMsgUserRegisteredForAdminsBody>
+  <ServerDiskFullError>Palibe malo okwanira pa litayamba lapansi.</ServerDiskFullError>
+  <ServerFolderLimitations>zofooka foda: {0}</ServerFolderLimitations>
+  <ServerShortcutAssignedFolderNotFound>Anatumizidwa foda sanapezeke kwa chandamale njira Simungachite</ServerShortcutAssignedFolderNotFound>
+  <ServerSizeFilesForZipExceeded>kufunika ndi kukula kwa owona archivable kuposa analola {0}.</ServerSizeFilesForZipExceeded>
+  <ServerPasteFolderToSubfolderError>Kopita foda "{0}" ndi subfolder wa fodayi gwero "{1}".</ServerPasteFolderToSubfolderError>
+  <ServerLiveConnectAppIDNotSpecified>The ID zikufuna wa Microsoft Live Connect ntchito si kumatanthauza</ServerLiveConnectAppIDNotSpecified>
+  <ServerSendEmailInfo>Author mwachindunji imelo yawo monga {0}. Gwiritsirani ntchito imelo adilesi iyi kuti ayankhe.</ServerSendEmailInfo>
+
+  <ServerAntivirusScanningFailed>Chindodo ndi antivayirasi kuti: '{0} {1}' kutsazikana abnormally.</ServerAntivirusScanningFailed>
+
+  <ServerUserNameNotFound>Wosuta ndi dzina '{0}' sanapezeke.</ServerUserNameNotFound>
+  <ServerFileNameCopySuffix>Koperani</ServerFileNameCopySuffix>
+
+  <ServerDeleteFolderNTFSAccessDenied>Inu mulibe chilolezo NTFS kuchotsa foda "{0}"</ServerDeleteFolderNTFSAccessDenied>
+
+  <ServerMSOOTemplateNotFound>{0} Chinsinsi sanapezeke</ServerMSOOTemplateNotFound>
+</Localization>

@@ -1,0 +1,493 @@
+HTTP Commander 4.5.1 2017.03.23
+[24.03.2017] (new) Updated third party library Dropbox.Api to 4.2.4 version
+[23.03.2017] (fix) Fixed a problem with chunked upload in the latest versions of Firefox 52+
+[22.03.2017] (new) Updated third party library Newtonsoft.Json to 10.0.1 version
+[22.03.2017] (fix) Fixed freezing of the Drag'N'Drop uploader interface when uploading a large number of files in Firefox, Edge
+[17.03.2017] (fix) Fixed background cleaning of the Recycle Bin
+[16.03.2017] (fix) Fixed resetting the field for chunked upload (> 2Gb) on the Standard tab, when the Upload window is closed
+[15.03.2017] (new) Added support for uploading folders in Firefox 45+ on the 'Standrad' tab
+[15.03.2017] (fix) Fixed Drag'N'Drop folder uploading in Microsoft Edge
+[14.03.2017] (fix) Fixed folder highlighting in Thumbnails mode when Drag'N'Drop for upload
+[13.03.2017] (new) Added the ability to upload files over 2GB on the Drag'N'Drop uploader tab
+
+HTTP Commander 4.5.0 2017.03.10
+[09.03.2017] (fix) Mobile UI: Chrome browser on Android devices. Fixed issue with page reload when file list is scrolled up.
+[13.02.2017] (new) If hide 'Labels' column - skipped reading all metadata streams for fast load folders content
+[09.02.2017] (fix) Disabled recreate the directory structure when uploading files in IE (regardless of the setting 'Include local directory path when uploading files to a server') 
+[06.02.2017] (new) Option 'LogEvents' moved from UI section to Main section in Settings Admin Panel tab
+[18.01.2017] (fix) Removed 'OpenFolder' event from LogEvents, because not used
+[08.01.2017] (new) Added the ability to selecting and positioning on the file in a page with the public folder (using #hash)
+[30.12.2016] (new) Added sorting for columns at public folder page
+[29.12.2016] (new) Added setting to limit maximum allowed validity period for public links (hidden parameter PublicLinkMaximumAllowedValidityPeriod in PublicLinks group)
+[29.12.2016] (new) Changed UI of public page and added labels, description and comments to public link page for files and folders
+[28.12.2016] (new) Added feature 'Copy to...' ( 'Move to...', 'Unzip to...'): select the folder in the dialog box, which will be copied (moved, unpacked) the selected files (see setting CopyMoveToDisplayMode in UI group)
+[22.12.2016] (new) Added share public links with QR Code (in create Public Link window: button 'Send via..' -> 'QR code')
+[20.12.2016] (new) Added share authorized and public links to files/folders with GMail, Outlook, Google+, Twitter, Facebook, LinkedIn (in Public Link window and Send Email window)
+[16.12.2016] (new) Added tab 'Upgrade' to Admin Panel for backup, download and install new version of HTTP Commander
+[08.12.2016] (new) Added new parameters in UI section LoginFormHeaderLogoUrl, LoginFormHeaderHtml for headers of login/register/change email/recover password/recover name forms
+[07.12.2016] (new) Added a possibility to add users into groups right from user properties window in Admin Panel
+[06.12.2016] (new) Added details pane on right of list with: extended properties info about selected file or folder; description, readme.txt content for folder; and an opportunity to change the main properties (Title, Subject, Tags, Category, Comments, Authors) for files
+[24.11.2016] (new) Added integration with Adobe Creative Cloud Online Image Editor (Aviary) for edit images (see parameter EnableAdobeOnlineImageEditor in Office section)
+[22.11.2016] (new) Dropped support for OAuth v1 and API v1 for Drobpox. Now only OAuth v2 and API v2 used (surely read Manual\Update.html)
+[21.11.2016] (new) Added possibility to notify admins about new user registration (only for Forms version and if enabled Main\EnableAnonymRegister; see hidden parameter EmailsToNotifyAdminsAboutUserRegistration in Main section)
+[21.11.2016] (new) File list columns ordering and sorting stored in cookies
+[15.11.2016] (new) Addes support of Windows Search Service for search files/folders and contents in files (see Manual\WindowsSearch.html), and added quick seach field in grid header
+[01.11.2016] (new) Added possibility to view public links shared for current user (include opened in browser)
+[01.11.2016] (new) Added possibility to limit access by users for public links, when create
+[20.10.2016] (new) Added links for view in Google Docs and Microsoft Office Web Apps for files in public folder
+[19.10.2016] (new) Now the Favorites folders stored on the server and accessible from anywhere
+[13.10.2016] (new) Added possibility to watch for modifications on files, folders for users, with notification by email (parameter AllowUsersWatchModifications in UI section)
+[05.10.2016] (new) Added possibility to search files in grid by keypress
+[04.10.2016] (new) Added possibility paste and upload copied to clipboard screenshot or image, to Drag&Drop upload panel for Chrome, Firefox, Edge, Opera (also for Firefox - you can paste copied files from OS; see also parameters AllowPasteImagesFromClipboard and EnableDnDUploader in UploadDownload section of Settings tab in Admin Panel)
+[03.10.2016] (new) Added possibility for open Public Links in main files grid from tree (new item 'Shared by link' in tree)
+[28.09.2016] (new) Added Trash feature for move deleting files, folders to the Recycle Bin (see the "Trash" section in the AdminPanel Settings tab)
+[27.09.2016] (fix) More strict checks for subadministrators are added
+[22.09.2016] (new) Added Recents feature (when files created, viewed, edited, downloaded, uploaded).
+[14.09.2016] (new) Added possibility for logging create public file/folder event. See parameter LogEvents in UI section (added CreatePublic event)
+[14.09.2016] (new) Allowed view as text file, view in MS Office, view in OpenOffice / LibreOffice if no modify permission
+
+HTTP Commander 4.1.2 2016.12.22
+[22.12.2016] (fix) Small bugs are fixed
+[20.12.2016] (new) Disabled user deletion and user update in demo mode. User emails masked in demo mode.
+[20.12.2016] (fix) Fixed copy to clipboard
+
+HTTP Commander 4.1.1 2016.11.16
+[16.11.2016] (fix) Fixed video streaming via public links
+
+HTTP Commander 4.1.0 2016.11.07
+[20.10.2016] (new) Tested integration with ADFS services. Integration instructions added to manual of AD version.
+[13.10.2016] (new) Added 2-factor authentication support. DUO security auth provider added.
+
+HTTP Commander 4.0.8 2016.09.13
+[12.09.2016] (new) Added to Manual info about hosting (Amazon, Azure, custom hosting)
+[07.09.2016] (new) Updated third party libraries: Box.V2 SDK to 2.12.1 version, ACE text editor to 1.2.5 version
+[07.09.2016] (new) Added possibility to upload folders structure (include empty folders) in 'Drag and Drop' upload tab for Chomium based browsers
+[06.09.2016] (new) Added new parameter ExpandUploadFormWhenOpenPublicFolder (in UI section with default value 'false') for auto expand upload form on public folder page with view content and upload permissions
+[06.09.2016] (fix) Extended ajax timeout for get public link request
+[06.09.2016] (fix) Hided context menu items with viewers (Box, Google, OWA, Autodesk, ...) for files with zero size.
+
+HTTP Commander 4.0.7 2016.08.05
+[04.08.2016] (fix) Fix collaborative edit documents in Microsoft Office 2013
+
+HTTP Commander 4.0.6 2016.08.04
+[04.08.2016] (new) Best support for collaborative edit in desktop application Microsoft Office (Word, PowerPoint 2007-2016, Excel not supported): Now there is support for collaborative editing of documents with backlight changes by other users and conflict resolution
+
+HTTP Commander 4.0.5 2016.08.03
+[02.08.2016] (fix) Fixed problem with "Upload failed" error on save document from Excel (Edit in MS Office feature) in Protected View mode
+
+HTTP Commander 4.0.4 2016.08.02
+[02.08.2016] (fix) Fix for Sharepoint 2013 could use claims encoding of usernames (0#.w|).
+[01.08.2016] (new) Added option PublicLinkDefaultLifeTimeForView to set the lifetime of public links to view in Google Docs, Owa, Edit in Zoho, PiXlr, etc..
+[01.08.2016] (new) Added parse of email separated by a , ; or | when you insert a field in the box, sending emails
+
+HTTP Commander 4.0.3 2016.07.28
+[28.07.2016] (new) Updated third party library Box.V2 from 2.9.0 to 2.10.0 version
+[28.07.2016] (fix) Fixed some issues
+
+HTTP Commander 4.0.2 2016.07.19
+[19.07.2016] (new) Added filters by each columns in grid with public links to files/folder in main and admin UI
+[19.07.2016] (fix) Fixed problem with save documents after edit in Microsoft Office365 Online Editor
+[18.07.2016] (new) Added recover user name via email in Forms version (see EnableUserNameRecovery)
+
+HTTP Commander 4.0.1 2016.07.18
+[18.07.2016] (fix) Fixed problems with view in Autodesk
+[18.07.2016] (fix) Fixed hidden text field in prompt dialog on create/rename file/folder
+[18.07.2016] (new) Updated third party library Box.V2 from 2.8.0 to 2.9.0 version
+
+HTTP Commander 4.0.0 2016.06.28
+[28.06.2016] (new) Updated third party libraries (include Newtonsoft.Json. Important! See Manual/Update.html)
+[15.06.2016] (fix) Dropped support old SkyDrive API (used Passport.NET authentication protocol). For work with OneDrive only need set value for LiveConnectAppClientID parameter (UseNewSkyDriveAPI parameter removed)
+[10.06.2016] (new) Added sorting for list for Google Drive, Dropbox, OneDrive for Business items (download to / upload from windows): first by folders, than - titles
+[02.06.2016] (new) Added new parameter ZipUnicodeFileNames (by default true) for correctly Zip/Unzip archives
+[01.06.2016] (fix) Dropped support OfficeLauncher applet for open documents in OpenOffice/LibreOffice/MS Office (removed applet)
+[31.05.2016] (new) Added Office Form Bases Authentication (parameter UseMSOFBAwithMSOffice) for editing documents in Microsoft Office desktop applications (https://msdn.microsoft.com/en-us/library/cc313069.aspx)
+[25.05.2016] (new) New UI for Login page in Forms version
+[25.05.2016] (new) View documents in Google, MS Office Web Apps, Box, ShareCad, Edit in Zoho, Pixlr with one click in new popup window
+[24.05.2016] (new) Added new parameter TemporaryFolder (in main section) for store temporary file (thumbnails, zip download, video conversion, etc..)
+[24.05.2016] (new) Added 'Copy to clipboard' icon for fields with links (to file/folder, public links, etc...)
+[24.05.2016] (fix) Fix blocking ajax requests on download files
+[17.05.2016] (new) File list visible columns and sizes stored in cookies
+[16.05.2016] (new) Best support for Microsoft Edge (include drag-n-drop feature), Windows 10, Windows Server 2016
+[12.05.2016] (new) Added support view AutoCAD files in A360 Autodesk Online Viewer
+[11.05.2016] (new) Added feature for manage (add, change, remove) files/folder comments (using details possibility)
+[11.05.2016] (new) Added feature for labelling files/folder
+[04.05.2016] (new) In Create/Edit public link window added link for open folder/file for label with name of folder/file
+[04.05.2016] (new) Added new themes for UI: Azzurra (with predefined colors: black, blue, gray, green, orange, red)
+[26.04.2016] (new) Added badge info about copy/cut files/folders count for Paste, Paste into buttons in toolbars and context menu
+[26.04.2016] (new) Added ACE code editor (https://ace.c9.io) for text files (with highlights syntax, collapse blocks, wrap, ...)
+[25.04.2016] (new) Updated libraries for play audio/video files in browser
+[25.04.2016] (new) New schema for open office documents in MS Office destkop applications
+[23.04.2016] (fix) Faster open folder via WebDAV in Windows version
+[22.04.2016] (new) Added new features for create/edit office documents in services: Google Drive / MS Office Online / MS Office365
+[18.04.2016] (new) Updated manuals (include integration with cloud storages, WebDav Synchronization programs (for example CyberDuck))
+[18.04.2016] (new) Added new Zoho Show Editor formats: pptx, ppsx
+[07.04.2016] (new) Added additional field on upload files
+[26.03.2016] (fix) Fixed some issues
+[25.03.2016] (new) Added account activation feature.
+[09.02.2016] (new) Added support of ShareCad online service
+[26.01.2015] (fix) Correct error message when there are completely no right to a folder 
+[25.01.2015] (fix) Wrong symbols in username after lougout when Windows auth used in EDGE browser
+
+HTTP Commander 3.2.0 2015.07.29
+[24.07.2015] (new) For Windows Basic authenctication version set-up possibility of an autologout after inactivity during lifetime of session is added (parameter EnableAutoLogoutWhenSessionTimedOut)
+[22.07.2015] (new) Added new languages
+[21.07.2015] (fix) Fixed problem with stop uploading on 'Drag and drop' tab in 'Uploading of multiple files' window
+[21.07.2015] (new) In 'Downloading of multiple files' window added 'Download all' button for start automatically download all files in list. Aslo in Chrome browsers you can drag file link for downloading.
+[17.07.2015] (new) HTTP Commander tested in Windows Server 2016 Technical Preview 2 (10.0.10074), Windows 10 and Microsoft Edge browser (Project Spartan)
+[17.07.2015] (fix) Support is dropped and disabled for Java & Silverlight Uploaders (also Java Download, Office Launcher) in Chrome 42+ (also chromium 42+ based browsers), Microsoft Edge (Project Spartan in Windows 10). See: https://support.google.com/chrome/answer/6213033
+[16.07.2015] (new) Added branding parameter for page with public links or public folder (PublicLinkLogoHeaderHtml)
+[15.07.2015] (fix) Fixed problem with download anonymous folder as ZIP archive
+[15.07.2015] (new) Added new feature: convert files using CloundConvert service https://cloudconvert.com/ (View / Edit -> Convert with CloudConvert)
+[10.07.2015] (new) Added new feature: view office documents in Box Viewer (View / Edit -> View in Box)
+[08.07.2015] (new) Added new questions to FAQs (Manual/faq.html)
+[08.07.2015] (new) Added show expired anonymous links in Admin Panel
+[07.07.2015] (fix) Configured with wokring enabled FIPS policy
+[06.07.2015] (note) Changed license for using Microsoft Office Web Apps Server for view office documents feature: https://technet.microsoft.com/en-us/library/jj219455.aspx#prerequisites (Manual\OfficeWebApps.html)
+[03.07.2015] (new) Updated 3rd party libraries Microsoft.Live to v5.6 for work with Microsoft OneDrive feature (Download to / Upload from)
+[01.07.2015] (new) Updated 3rd party libraries Box.V2 1.1.1 -> 2.0.1 for work with Box feature (surely read Manual/Update.html)
+[24.06.2015] (fix) Fixed issue with not working Mobile UI in Chrome 43+ browsers.
+
+HTTP Commander 3.1.19 2015.02.18
+[18.02.2015] (new) For Upload/Modify/Create events added download links to file in email body
+
+HTTP Commander 3.1.18 2015.02.17
+[17.02.2015] (new) Added configurable authentication types for binding to Novell EDirectory server (new hidden parameter EDirectoryAuthTypeForConnect in EDirectory section)
+
+HTTP Commander 3.1.17 2015.01.21 Release
+[21.01.2015] (new) Added new hidden parameter 'ZohoNoExport' in 'Office' section for disallow 'Export As..' functionality on edit document in Zoho Editor
+
+HTTP Commander 3.1.16 2014.12.04 Release
+[04.12.2014] (new) Added HTML5 chunked upload field in 'Standard' upload tab (if browser supported showed field with '> 2GB' label)
+[20.11.2014] (fix) Updated released Microsoft APIs for using OneDrive for Business cloud service
+[14.11.2014] (fix) Hided trashed files/folders from Google Drive list (Upload from/Download to Google Drive feature)
+[16.10.2014] (new) For Email Notifications added new events: Created and Deleted files/folders, Created public link for file/folder (see EmailNotification section in settings)
+
+HTTP Commander 3.1.15 2014.10.06 Release
+[03.10.2014] (new) Parameters TreeView, HideTree, DefaultGridView added for handling from query string in Default.aspx page (see Manual/faq.html#settingsurl)
+[03.10.2014] (new) In HTTP Commander with Forms Authentication method added new parameter PossibleAuthForWebDAV (instead of UseOnlyBasicAuthForWebDAV parameter) for configure authentication method (only Basic, only Digest or both Basic and Digest; by default using only Basic authentication) when map WebDAV folder or edit in Office applications.
+[02.10.2014] (new) HTTP Commander tested on Windows 10 Server Technical Preview and Windows 10 Technical Preview (IE, WebDAV)
+[02.10.2014] (fix) Fixed problem with hide Dropbox files/folders list when user successfully authenticated in Dropbox upload/download feature
+[02.10.2014] (fix) Downgraded 3rd party libraries Box.V2 1.1.2->1.1.1, NitoAsyncEx 3.0.0->2.1.3 for correctly work with Box feature (surely read Manual/Update.html)
+[01.10.2014] (new) Added parameter TplForAddUserNameToDisplaySenderNameWhenSendEmail for customize Display Name for sender when using "Send Email" feature
+[01.10.2014] (new) Updated Dropbox Javascript SDK from 1.1 to 1.2
+[01.10.2014] (fix) Fixed some problems
+
+HTTP Commander 3.1.14 2014.09.25 Release
+[25.09.2014] (fix) Fixed problem with work WebDAV folder contains in path '#' symbols
+
+HTTP Commander 3.1.13 2014.09.24 Release
+[24.09.2014] (fix) Added support paths for map webfolders without '0' suffix if disabled AnonymousEditingOffice parameter (if enabled - '0'/'1' suffixes required)
+
+HTTP Commander 3.1.12 2014.09.22 Release
+[22.09.2014] (new) Added 'Favorites' toolbar button for quick access to favorites folders (see ToolbarButtons1 or ToolbarButtons2 settings in UI section)
+[22.09.2014] (new) Added parameter ExpandSettingsWhenOpenCreatePublicLinkWindow (in UI section) for expand/collapse settings when open window for create public link
+[22.09.2014] (new) Added support for opens Google Docs file types (.gdoc, .gsheet, .gslides, etc...) in Google Drive (see hidden parameter GoogleDriveFileTypes in Office section)
+[20.09.2014] (fix) Fixed some problems
+
+HTTP Commander 3.1.11 2014.09.11 Release
+[11.08.2014] (fix) Fixed problem with Basic Authentication for WebDAV folders
+[09.09.2014] (new) Added additional check to Diagnostics page for WebDAV access
+[09.09.2014] (fix) Fixed problem in mobile UI with the redirection directly to the folder
+[09.09.2014] (fix) Fixed problem with limit of files when Drag'N'Drop folder upload in Chrome
+[09.09.2014] (new) Updated third party library Newtonsoft.Json from 6.0.4 to 6.0.5
+
+HTTP Commander 3.1.10 2014.08.28 Release
+[28.08.2014] (new) Added parameter ShowPublicLinksForView (UI section) for viewing publick links
+[28.08.2014] (new) Updated manual (installation instruction, FAQs)
+[28.08.2014] (new) Added additional check to Diagnostics page (for WebDAV and others)
+[28.08.2014] (fix) Fixed problem with work OneDrive for Business
+[28.08.2014] (fix) Fixed some small errors
+[01.08.2014] (fix) Fixed bug: If LDAPContainer is set incorrectly, in case of change of the password of an error doesn't arise, but also the password not to change
+[01.08.2014] (new) Added ability to validate syntax of filter for folder in Admin Panel (create/edit folder window). See Manual/adminpanel.html#filter
+
+HTTP Commander 3.1.9 2014.07.31 Release
+[31.07.2014] (new) Added information about new versions to Admin Panel and Diagnostics page
+[29.07.2014] (fix) Fixed sizes of images in Manual/OneDriveForBusiness.html
+
+HTTP Commander 3.1.8 2014.07.30 Release
+[29.07.2014] (fix) Fixed problem with stop upload (on Standard tab) in Internet Explorer 11
+[28.07.2014] (fix) Fixed problem with download to OneDrive: The access token doesn't have correct permission for the resource. The access token must include one of the following scopes: 'wl.skydrive_update'
+[28.07.2014] (new) Professional translation to Spanish language.
+
+HTTP Commander 3.1.7 2014.07.25 Release
+[25.07.2014] (new) Added second link to file (in context menu 'Share->Link to File/Folder'): this link opens the folder with the file and highlights it
+[25.07.2014] (fix) Fixed problem when saving images from Pixlr ('working, please wait...' message) - now used by default GET request method for saving (see UseGETMethodWhenSavingPixlrImages parameter in Admin Panel)
+
+HTTP Commander 3.1.6 2014.07.25 Release
+[25.07.2014] (fix) Fixed WriteIIS7ConfigChanges error 0x800700b7 (Failed add isapiCgiRestriction element) when installing HTTP Commander using Setup Wizard in Windows Server 2012 
+[24.07.2014] (new) Added ability to set default order and size of columns in detailed view (see DisplayedDefaultColumnsInList option in Admin Panel Settings tab)
+
+HTTP Commander 3.1.5 2014.07.24 Release
+[24.07.2014] (new) Added new column "downloads" with the number of downloads (not visible by default, see settings DisplayedDefaultColumnsInList and EnableDownloadsCounting in Admin Panel)
+[23.07.2014] (new) Added quick access to 'Details' and 'Version history' when you click on the relevant icon on files/folders
+[22.07.2014] (new) Updated documentation about integration with Dropbox (Manual/CloudsStorages.html#dropbox)
+
+HTTP Commander 3.1.4 2014.07.22 Release
+[21.07.2014] (new) Added impersonation owner when viewing public network folders. This is applicable only for Basic Authentication at IIS (Windows and Forms with Windows user authentication at HTTP Commander).
+[21.07.2014] (fix) Some security bug fixes
+[21.07.2014] (new) Added support Drag'n'drop uploader for Safari 5+
+
+HTTP Commander 3.1.3 2014.06.27 Release
+[27.06.2014] (fix) Fixed problem when copy/move and paste files/folders from/to network location (path started with '\\')
+
+HTTP Commander 3.1.2 2014.06.26 Release
+[26.06.2014] (fix) Fixed problem with download to Box, when disabled dowload to Dropbox feature
+[24.06.2014] (new) The default value for the parameter ResumableDownload is set to 'true'. Enabling this option may improve the ability to skip/rewind audio and video during playback
+[24.06.2014] (fix) Increased time for search queries
+[17.06.2014] (new) Updated documentation about integration with Microsoft OneDrive (Manual/CloudsStorages.html#onedrive)
+
+HTTP Commander 3.1.1 2014.06.16 Release
+[16.06.2014] (fix) Fixed problem when opening a Shortcut (.LNK files) links with network target paths
+[16.06.2014] (new) Professional translation to Italian language.
+[06.06.2014] (fix) Fixed logout from iOS in Windows version
+
+HTTP Commander 3.1.0 2014.06.02 Beta Release
+[02.06.2014] (new) Added integration with OneDrive for Business (beta)
+[22.05.2014] (fix) Fixed problem (403 error) with download public links created for view in Google Docs or OWA, or edit in Zoho or Pixlr
+[21.05.2014] (fix) Updated localization files and App_Browsers\default.browser
+
+HTTP Commander 3.0.1 2014.05.20 Release
+[14.05.2014] (fix) Fixed bug in interface with download to Google Drive root folder
+[12.05.2014] (new) Added check displaying SVG images to Diagnostics page
+
+HTTP Commander 3.0.0 2014.05.08 Primary Release of 3.0.0 version.
+[08.05.2014] (new) Completely new Mobile UI containing almost all of features of standard web UI
+[08.05.2014] (fix) Fixed error when deleting folder in Admin Panel by 'subadmin'
+[07.05.2014] (new) For Drag'N'Drop uploader added settings with count of parallel files on uploading (DragNDropCountOfParallelUploadingFiles)
+[06.05.2014] (new) Added checkbox for open folder after unzip to new folder
+[05.05.2014] (fix) Fixed issue with AdBlock extension in Chrome browser (blank screen after login).
+[23.04.2014] (new) Added new item 'Unipack Zip to "<folder-name-as-zip-archive>"' to 'Unpack Zip' submenu for zip-files
+[15.04.2014] (new) Added possibility removing several users/groups at once in admin panel
+[14.04.2014] (new) In Setup Wizard added configure WebDAV feature
+[07.04.2014] (new) Cancelled support of HTTP Commander Control
+[07.04.2014] (new) Updated Intallation Wizard: for Hanlders/AnonymousDownload.ashx applied anonymous authentication and added .svg MIME type
+[04.04.2014] (new) Added parameter ShowLinkToParentFolderInFileList for show/hide  "Up" link in file list
+[03.04.2014] (fix) Fixed bug with download large file to OneDrive
+[03.04.2014] (new) Added support integration with Box Clous Storage
+[21.03.2014] (new) Added EXE installer for HTTP Commander instead MSI package
+[21.03.2014] (new) Reordering context menu for list of files
+[21.03.2014] (new) Added new SVG icons for UI
+[18.03.2014] (new) Fixed bug with email notification on activity in public folder
+[12.03.2014] (new) Added possibility collapse/expand thumbnail images pane in Images Preview window
+[11.03.2014] (new) Renamed SkyDrive to OneDrive (only in languages, manual, user help, JavaScript files)
+[11.03.2014] (new) On view public links for selected item, showed only links for this item (with toggle button for show all links for all files)
+[06.03.2014] (new) Added possibility to upload folders for Chrome Browser in 'Simple' and 'Drag'n Drop' uploaders
+[23.12.2013] (new) Added OAuth 2.0 authentication for Dropbox feature
+[17.12.2013] (update) Updated manuals and localization files
+[16.12.2013] (new) Moved authentication (OAuth 2.0) with SkyDrive (and getting files/folders) to client browser (in javascript)
+[11.12.2013] (new) Changed authentication type with Google Drive to OAuth 2.0 (see GoogleClientId, EnabledDownloadToGoogle, EnableUploadFromGoogle parameters)
+[13.11.2013] (new) Added Installation Wizard for HTTP Commander (beta release)
+[28.10.2013] (new) Added support Office Web Apps Server for view Office documents (Word, Excel, PowerPoint) from HTTPCommander in browser (see Manual/OfficeWebApps.html)
+[24.10.2013] (new) In a window of sending mails saving of the entered mailboxes in local storage of the browser with possibility of the subsequent choice is added 
+[18.10.2013] (new) Changed and simplified view of window for create/change public links
+[18.10.2013] (new) Opportunity is added when opening public link to show page with links for viewing in Cloud Services (Google, Microsoft)
+[14.10.2013] (fix) Fixed problem with '&' in root folder names.
+[14.10.2013] (new) When quantity of unique users exceeded showed warining on load AdminPanel
+[02.10.2013] (new) Showed file/folder mark when exists public links (parameter: ShowFileMarkWhenExistsPublicLinks in UI section)
+[01.10.2013] (new) In case of copy, move, rename, create (including upload, zip, unzip): 1) existing files aren't replaced, and copies with other names are created; 2) existing folders merged
+[23.09.2013] (fix) Auto focus in file name field when search window displayed after 700ms. Perform search by pressing the Return or Enter key
+[23.09.2013] (new) Added 'Cloud Storages' button / menu item for download to/upload from cloud services (Google, Dropbox, SkyDrive) in toolbar and context menu
+[19.09.2013] (new) Added in AdminPanel: 1) view assigned folders for selected user, 2) view groups for selected user, 3) view users for selected group
+[12.09.2013] (new) Added support view documents (Word, Excle, PowerPoint) in Microsoft Office Web Viewer (parameter - EnableOWADocumentsViewer, http://office.microsoft.com/en-us/web-apps/view-office-documents-online-FX102727753.aspx)
+[10.09.2013] (new) Added buttons (back, forward, resent folders) control of navigation according to folders (parameter - ShowControlNavigationFolders).
+[09.09.2013] (new) Are added additional information on license and free updates in an Admin Panel and Diagnostics page
+[15.08.2013] (new) When renaming file/folder name is selected to a dot with extension
+[15.08.2013] (new) Text in readonly fields is selected now in case of focus ('Links to file/folder', 'Create public links', etc.)
+[15.08.2013] (new) Event logging when renaming file/folder is added
+[08.08.2013] (new) Opportunity to create anonymous links to files for viewing in browser (in a window of links creation is added radio buttons: 'download' or 'view in browser' for allowed file types)
+[06.08.2013] (new) Added new action 'View' for row double click in Grid. This action open selected file for viewing in browser if file type is supported, else - download it.
+[19.07.2013] (new) Added alpha release of Antivirus Scanning functionality (tested with BitDefender for Windows Servers 3.5)
+[17.07.2013] (new) Add ActiveDirectory\DefaultDomain parameter.
+[15.07.2013] (new) Integration with OWA Exchange 2010 SP3 is checked. In a script of integration HCOwaPremiumIntegration.js added variable (httpCommanderDescription) for description which will be visible at the left above
+[12.07.2013-16.07.2013] (update) Improve user and group name resolution. For details see manual.html > Active Directory integration.
+[08.07.2013] (new) HTTPCommanader tested on Windows Server 2012 R2 (IIS 8.5)
+[05.07.2013] (change) Updated Google Data Libraries to version 2.2.0.0. Updated Newtonsoft.Json.dll to version 5.0.6.16206
+[05.07.2013] (change) Switch to .Net Framework 4.0 
+[04.07.2013] (new) Possibility of use Internet Explorer 11 is added. Work in Windows 8.1 (Blue) is checked
+[25.06.2013] (new) Added new hidden parameter - SmtpNetworkEnableSsl=true|false (default "false"). Specifies whether SSL is used to access an SMTP mail server (only for .NET 2.0 application pool).
+[25.06.2013] (fix) Backward compatibility with the section UploadEmailNotification is added
+[20.06.2013] (new) In Diagnostics page added info witth permission for assigned folders.
+[19.06.2013] (new) Added new file types for edit in Pixlr - jpg, jpeg, png, gif, bmp, psd, pxd
+[14.06.2013] (new) Added new field 'Sender email' in 'Send Email' window for specifying of sender mail
+[13.06.2013] (new) Added 2 new parameters (ShowFileMarkWhenLockedByWebdavClient, ShowFileMarkWhenExistsDetails) for show 'locked' and 'details' icons for files in list
+[10.06.2013] (new) Added logging javascript errors to server
+[04.06.2013] (new) Change Email Notifications for upload/modify/download events with send immediate or session ended
+[28.05.2013] (new) Add support new SkyDrive API (Live Connect SDK) with OAuth 2.0 authorization
+
+HTTP Commander 2.0.11 2013.12.18 release
+[17.12.2013] (fix) Updated language files, manuals
+[17.12.2013] (fix) Fixed problem in testSSO.html, Diagnostics.aspx files with AJAX requests
+
+HTTP Commander 2.0.10 2013.12.04 release
+[04.12.2013] (fix) Fixed using Zoho Editor with SSL
+[29.11.2013] (new) Updated third-party libraries (Google GData, Newtonsotf.Json)
+[29.11.2013] (new) Updated and signed jar files (JavaPowUpload.jar, OfficeLauncher.jar and others)
+[29.11.2013] (new) Updated Installation Wizard
+
+Http Commander 2.0.9 2013.11.22 release (also buf fix release of 2.0.8 version)
+[22.11.2013] (fix) Fixed bug with Simple Upload in Chrome last versions and IEx64
+[22.11.2013] (new) Added Intallation Wizard
+[22.11.2013] (fix) Fixed bug with invalid size in anonymous folder view
+
+Http Commander 2.0.8 2013.09.19 bug fix release of 2.0.7 version
+[19.09.2013] (fix) Fix authentication via query string and post request to Default.aspx in Forms with Windows Users authentication mode.
+[18.09.2013] (fix) Forms with Windows Users authentication mode. Authenticated user did not impersonated. The fix applies to Windows Server 2008 and later. Impersonation sometimes does not work on Windows Server 2003 and Windows Server 2003 R2.
+
+Http Commander 2.0.7 2013.09.16 bug fix release of 2.0.6 version
+[16.09.2013] (fix) Changed default value of ZohoWriterServiceUrl parameter from https://export.writer.zoho.com/remotedoc.im to https://exportwriter.zoho.com/remotedoc.im
+[16.09.2013] (fix) Fixed bug on open Details window
+[16.09.2013] (fix) Changed error info 'The parameter is invalid' on open folder in list
+
+Http Commander 2.0.6 2013.09.09 bug fix release of 2.0.5 version.
+[09.09.2013] (fix) Added and check support of IE11 and Windows 8.1
+
+Http Commander 2.0.5 2013.07.02 bug fix release of 2.0.4 version.
+[01.07.2013] (fix) The application searched Active Directory user objects only in default User container. When the user object resides in other container, it was not found. The most notable effect of this bug to end users is that home folders are not detected for such users.
+[28.06.2013] (fix) When MakeReadOnlyFileWhileLocked=true 'Read-Only' attribute is not applied to file.
+[25.06.2013] (new) Added new hidden parameter - SmtpNetworkEnableSsl=true|false (default "false"). Specifies whether SSL is used to access an SMTP mail server (only for .NET 2.0 application pool).
+[24.06.2013] (fix) Added new hidden parameter (UseOnlyBasicAuthForWebDAV=true|false) for flexible setup of authentication in WebDAV if Forms version with hashed passwords of users is used
+[24.06.2013] (fix) When zipped one file (or one folder) and not specified zip archive name, then name of zip archive will be same as well as file name (or folders)
+[20.06.2013] (fix) Removed support of zoho-viewer from mobile interfaces
+[19.06.2013] (fix) Fix view user groups in Diagnostics if AD accounts reading from file (ADAccountsFilePath options in HttpCommanderSettings.config)
+[19.06.2013] (new) Added new file types for edit in Pixlr - jpg, jpeg, png, gif, bmp, psd, pxd
+[17.06.2013] (fix) Fix error when 'Check Out' on file in Windows version
+[14.06.2013] (new) Added new field 'Sender email' in 'Send Email' window for specifying of sender mail
+[13.06.2013] (new) Added 2 new parameters (ShowFileMarkWhenLockedByWebdavClient, ShowFileMarkWhenExistsDetails) for show 'locked' and 'details' icons for files in list
+[24.05.2013] (fix) The main Default.aspx page fails if User-Agent is shorter than 4 characters.
+
+Http Commander 2.0.4 2013.05.21 Primary release of 2.0.4 version.
+[17.05.2013] (fix) Fix WebDav module. The former implementation confused Finder in OS X that often leads to hang up.
+
+Http Commander 2.0.4 2013.05.20 Primary release of 2.0.4 version.
+[14.05.2013] (fix) Mobile interface: Fixed search by date .
+[13.05.2013] (fix) Mobile interface: Fixed issue with scorll in 'edit text file' window. 
+[17.04.2013] (fix) Fix WebDav module. The former implementation confused Finder in OS X that often leads to hang up.
+
+Http Commander 2.0.4 2013.05.15 prerelease of 2.0.4 version.
+[25.04.2013] (fix) Fix resumable download in IIS 6.
+[23.04.2013] (new) Allowed adding all content menu items to toolbar buttons
+[18.04.2013] (fix) Updated all of *.jar files for compability with Java 7 update 21. 
+[12.04.2013] (new) Add documentation about how to manually configure authentication mode in Http Commander.
+[08.04.2013] (new) Add admin permissions and folders for managing by subadmins
+[25.03.2013] (new) Add settings for autoload Group Policy Mapped Drives
+[18.03.2013] (new) Add external utility (gpoldrives) for import GPOL mapped drives
+[12.03.2013] (new) Add support %LOGONUSER% (=%USERNAME%) pattern
+[11.03.2013] (new) Add links to folders (if selected) on Send Email feature
+[06.03.2013-12.03.2013] (new) Add documentation about Shibboleth authentication mode.
+[01.03.2013] (new) Add to Admin Panel (Misc tab) utility for load mapped drives from Group Policy
+[01.03.2013] (new) Add new field for Folder object with users/groups filter
+[28.02.2013] (new) Support of Dropbox API of version 0 is removed
+[21.02.2013] (new) Autosize window with swf movie content size.
+[31.01.2013-09.04.2013] (change) rewrite user and group identification mechanism. In Forms, Novel EDirectory, Shibboleth authentication modes users and groups are identified with opaque case-insensitive string. In Windows and Forms with Windows users authentication modes users and groups are identified with two component structure including domain name and plain user or group name. New version allows for proper handling of users from different domains.
+[30.01.2013] (change) Read and write data files in Data folder under application pool identity. The former version of application used the current user identity to manipulate files. You had to assign read and write NTFS permissions to every user account used by web application (including end-user accounts in Windows and Forms with Windows users versions). Now you need to configure read and writer NTFS permissions for single application pool identity account only.   
+[23.01.2013] (new) Add inline view .swf files (flash movies)
+[22.01.2013] (fix) Search function is changed: apply name pattern to full file/directory name. The former implementation applied name pattern to full and DOS-compatible 8.3 file/directory name. That often gave confusing results, since DOS-compatible name does not appear in UI. Minor enhancement of the search function. 
+[21.01.2013] (update) Enhance workaround for logout problem in Windows authentication mode. 
+
+Http Commander 2.0.3 2013.01.17 bug fix release
+[16.01.2013] (fix) Updated Java applet: Fixed issue (wrong progress and corrupted files produced) with resumable download when ResumableDownload parameter in HttpCommander is set to false.
+[11.01.2013] (new) Add new parameters "RequirePasswordOnCreatePublicLink", "PublicLinkDefaultValidPeriod". 
+[11.01.2013] (new) Add a record in FAQ about problem on changing user name in Active Directory.
+[11.01.2013] (fix) Fixed problem with UsePersonalConfiguration property
+[10.01.2013] (fix) Public links to files in Internet Explorer 6, 7, 8. Internet Explorer showed an error at first attempt to download a file via a public link. Subsequent attempts succeeded provided you did not restart the browser between attempts.
+[24.12.2012] (fix) Workaround for memory greedy download function. The former implementation of the download handler shows excess memory usage on certain conditions. The whole file may be loaded into memory. The problem affect Windows Vista and Windows Server 2008 OSs (server side hosting HTTP Commander). Another condition: the client must download the file slower than the server generates response. The workaround was tested on both affected OSs. Unfortunately, there is no reliable fix to this problem.
+[18.12.2012] (fix) Set update tree panel after grid panel updated (this helps to prevent error "The specified network name is no longer available" that may occur on some servers with some folders). Move diagnostics message about WebDAV in the separate table in Diagnostics.aspx
+[17.12.2012] (fix) Fix work in Main.js with TreeView setting. 
+[07.12.2012] (new) Add support LDAP with SSL for ldapContainer (LDAPS://<dc>:636)
+[06.12.2012] (fix) Fix problem with cookies in iPad application (add App_browsers folder with definitions)
+[06.12.2012] (fix) Fix bug with hide files with specified attributes (Hidden, System, etc.)
+[30.11.2012] (fix) In AdminPanel for selection users/groups removed filtering type ahead.
+[30.11.2012] (new) Add feature for maximizable iframe with HTTP Commander on other pages for others domains
+[28.11.2012] (new) Add feature for fullscreen or hide fullscreen main interface in iframe.
+[26.11.2012] (new) Add to faq info about problem on "Download/Upload Google" authentication.
+[26.11.2012] (new) Add feature for fullscreen or hide fullscreen main interface.
+[23.11.2012] (fix) Fix bug in WEBDAV Get method - not closing file stream on download.
+[14.11.2012] (fix) Translated empty strings for some languages
+[13.11.2012] (fix) Fix empty Upload window if disabled one or more advanced uploaders.
+[08.11.2012] (fix) Fix Active Directory integration subsystem. The former implementation used incoordinate method of identifying security groups. The method worked well until a pre-windows 2000 group name differs from group name.
+
+Http Commander 2.0 2012.11.06 Primary release of 2.0 version.
+[07.11.2012] (update) Update "clear user credentials in web browser" feature aka "Force Logout". Clear credentials iff Http Commander authentication mode is Windows.
+[31.10.2012] (new) Add new file types for Google Docs/Drive View (txt, css, html, htm, php, c, cpp, h, hpp, js)
+[29.10.2012] (change) Move SilverlightUploaderTempFolder setting to UploadDownload group. Add special value "Current".
+[26.10.2012] (new) Add topic about Active Directory integration to documentation.
+[23.10.2012] (new) Add send public link when created Public Link (see "AllowSendPublicLink" parameter in User Interface section)
+[22.10.2012] (new) Add checking license key on product version
+
+Http Commander 2.0.0.2012.10.19 release candidate
+[19.10.2012] (fix) Fix bug with go to .lnk file (show context menu on click .lnk)
+[19.10.2012] (fix) Change AdminPanel.aspx output if user is not admin
+[19.10.2012] (new) Add logging errors on lock/unlock command in WebDAV requests
+[18.10.2012] (new) add documentation about how to configure Novell eDirectory authentication mode
+[18.10.2012] (new) Added Internet Shortcut (.url) open feature.
+[17.10.2012] (fix) Flash uploader does not upload files. This bug was introduced 07.09.2012.
+[16.10.2012] (fix) Fix bug in Admin.js for Chrome with 'folder-path' field in Folder Window.
+[16.10.2012] (fix) Replace Response.End() -> Application.CompleteRequest().
+[12.10.2012] (fix) Fix JavaPowUploader and OfficeLauncher. Java applet crashes on first load under following conditions. OS: Windows 7, browser: Internet Explorer 9 (no problem with IE 10), User Account Control is enabled (no problem when UAC is disabled), JRE: 1.7.0.
+[12.10.2012] (fix) Fix: return CompleteRequest() method for WEBDAV requests (instead Response.End()) and removed Response.Flush()
+[11.10.2012] (update) update documentation about known bugs
+[11.10.2012] (fix) Fix JavaPowUploader. Download fails on the first file under special conditions. 1. Http Commander must be installed on remote server, for example, http://demo.element-it.com. The problem does not appear on localhost, or on a server in LAN. 2. IIS is configured to use Windows authentication.
+[11.10.2012] (fix) Clear private field with password on second unzip encrypted content
+[10.10.2012] (update) Update Silverlight uploader, ensure that temporary files are removed.
+[10.10.2012] (fix) Fix bug on 'Refresh' folders tree in Dropbox items windows (download to Dropbox feature)
+[09.10.2012] (fix) Add specified notes on check-in with upload new file
+[09.10.2012] (fix) Update for parsing Digest Authentication Header on webdav requests in Forms version
+[08.10.2012] (fix) Fix bug with Digest Authentication in Forms version, if folder/file name contains "," or "="
+[08.10.2012] (new) add security notes topic to documentation
+[05.10.2012] (new) Add logging anonymous downloads
+[05.10.2012] (new) Add 'Paste' command for toolbar
+[05.10.2012] (fix) Fix bug with check folder in tree with SkyDrive folders
+[04.10.2012] (fix) Fixed minor bug. When SettingsFormatToolbarButtons item is not present in localization xml file, settings do not appear on the Settings tab in admin panel.
+[12.09.2012 - 04.10.2012] (update) Updated code using LDAP and WinNT providers. It is used to get the following information: list of users and groups, user group membership, bulk mailing, etc.
+[28.09.2012] (fix) Fix download function. Set 403 error code when application is unable to open the file it should serve. Set 500 error code when an unexpected error occurs in download initialization code. 
+[27.09.2012] (update) Add detailed description of the LDAPParameter parameter.
+[21.09.2012] (new) Add documentation about how to open documents in MS Office and OpenOffice.org.
+[20.09.2012] (update) Updated documentation about installing Http Commander on Windows Server 2008.
+[19.09.2012] (update) Updated description of UseUniversalWayToReadGroups parameter.
+[17.09.2012] (update) Update description of LDAPContainer parameter.
+[12.09.2012] (fix) Fix bug. Application failed to load xml accounts file specified with ADAccountsFilePath parameter.
+[06.09.2012 - 11.09.2012] (refacter) Split main-debug.js into a number of files.
+[05.09.2012] (fix) Http Commander authentication mode: "Forms with Windows Users". Impersonate logged in user when processing WebDav requests. Formerly all request were processed in security context of application pool account. 
+[09.09.2012 - 05.09.2012] (update) Update WebDav module.
+[07.09.2012] (fix) Fix edit with Pixlr feature. It did not work at all. This bug was introduced 20.07.2012.
+[03.09.2012] (fix) Fix minor bug. Http Commander authentication mode: "Forms with Windows Users". Http Commander requires valid Data/Accounts.xml file for operation, though it is not used.
+[03.09.2012] (update) Extend documentation about mapping web folders. 
+[30.08.2012] (fix) Http Commander authentication mode: Windows. Implement logout function for Firefox and Opera (it may work with other browsers as well). This approach does not work in Chrome and Safari (on Windows).  
+[29.08.2012] (update) Update documentation about mapping WebDav folders.
+[06.08.2012 - 29.08.2012] (refacter) Split main-debug.js into a number of files.
+
+Http Commander 1.7.0.2012.08.10. bug fix release
+[10.08.2012] (update) Update documentation about setting up NTFS permissions.
+[10.08.2012, Chessar] (new) Add new ShowSyncWithLocalFolderInfo parameter
+[10.08.2012, Chessar] (new) In control added new examples Expample7_1.aspx with demonstration onItemDoubleClick event
+[09.08.2012, Chessar] (fix) In Main.js fixed parsing function for URL.
+[09.08.2012, Chessar] (fix) Forbid html, htm, mht, mhtml, js, vbs.
+[09.08.2012, Chessar] (new) In control added onItemDoubleClick event with itemPath argument
+[08.08.2012, Chessar] (fix) Fixed work with SkyDrive: added options for SkyDrive servers
+[07.08.2012, Chessar] (fix) Fixed check internal WebDAV IIS (MS-FP or MS-FP,DAV)
+[06.08.2012, Chessar] (new) Add opening shortcuts on load HTTP Commander: Default.aspx?symblink=<virtual_path_to_lnk_file>
+[06.08.2012] (update) Updated documentation about AuthMode parameter.
+[03.08.2012, Chessar] (fixed) Fixed problem with view links in SyncWebFolders.html in IE (<= v.8)
+[03.08.2012, Chessar] (new) Add feature for create shortcuts
+[02.08.2012] (new) Add documentation about how to configure anonymous access to AnonymousDownload.ashx.
+[02.08.2012 - 06.08.2012] (update) Update code implementing "Forms with Windows users" authentication mode. 
+[31.07.2012, Chessar] (new) Add features for change HTTP Commander color scheme
+[31.07.2012] (update) Update documentation of the UploadEmailNotification section. 
+[31.07.2012] (fix) Fix upload notifications by e-mail function. Monitor all users if neither users nor groups are specified. Monitor all paths if path list is empty.
+[30.07.2012] (add) Add documentation about how to configure public folder.
+[26.07.2012] (fix) Fix minor bug. AnonymousDownload handler may require authentication, though it is safe to ignore authentication request.
+[25.07.2012, Chessar] (new) New ToolbarButtons configs: icon size, with only icon
+[17.07.2012] (fix) Http Commander authentication mode: "Forms with windows users". Change authentication method. Before the user account must have logon interactively account right to authenticated to Http Commander. It was changed to logon over network account right. The later right is less restrictive, it is granted to all users by default. Interactive logon is often restricted to privileged accounts like administrators on mission critical servers like domain controllers.
+[13.07.2012] (fix) Fix shadows in Html GUI for Internet Explorer 9, 10.
+[13.07.2012] (fix) Port Html GUI (Sencha Ext JS) to Internet Explorer 10.
+[12.07.2012 - 13.07.2012] (update) Update documentation about SSO.
+[11.07.2012] (fix) Http Commander authentication mode: Forms and "Forms with windows users". You may get access denied error after log out, typically if you click log out button in Admin panel. This bug is related to RedirectUrl parameter in query string.
+[10.07.2012] (update) Update documentation about SSO.
+[26.06.2012 - 02.07.2012] (add) Add function to management file system quotas to Http Commander. Location in GUI: Admin panel > Misc tab, Admin panel > Folders tab > Folder properties dialog. 
+[28.06.2012] (update) Update documentation about VirtualHttpCommanderPath and PhysicalHttpCommanderPath parameters.
+[16.08.2012 - 26.06.2012] (update) Update download function. Add support for new http headers.
+[04.06.2012] (add) Add documentation about configuring common authentication across application. It applies to Forms version of Http Commander.
+[09.05.2012] (add) Add documentation about query string parameters to Diagnostics.aspx.
+[01.05.2012] (update) Update documentation about configuring NTFS permissions.
+[01.05.2012] (add) Check access to video conversion executables before starting conversion.
+

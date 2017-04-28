@@ -1,0 +1,416 @@
+﻿<!-- saved from url=(0014)about:internet -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Set NTFS permissions (Windows version)</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <script type="text/javascript" language="javascript">
+        function toggleBlock(id) {
+            if (document.getElementById(id).style.display == 'none') {
+                document.getElementById(id).style.display = 'block';
+            }
+            else {
+                document.getElementById(id).style.display = 'none';
+            }
+        }
+    </script>
+    
+    <table width="100%" cellpadding="0" cellspacing="0">
+        <tr>
+            <td width="320">
+                <table>
+                    <tr>
+                        <td style="vertical-align:top;text-align:left;">
+                            <a target='_blank' href='http://www.element-it.com/asp-net-explorer-browser/online-share/web-file-manager.aspx'><img style='cursor:pointer;' alt="HTTP Commander" src="Images/HCLogo.png" border="0" /></a>
+                        </td>
+                        <td class="green" style="vertical-align:top;text-align:left;padding-top:21px;">
+                            &nbsp;AJS 4.x
+                        </td>
+                    </tr>
+                </table>
+                <span class="gray">Manual</span>
+            </td>
+             <td>
+  <!-- For windows version only. Start --> 
+	<p>
+	<strong>Note!</strong> This Manual is for the <strong>"Windows authentication"</strong> version, 
+	which is designed to work with existing Windows server or Active Directory accounts and Windows authentication. 
+	If you want to create accounts by yourself and store their credentials in your own HTTP Commander XML database, 
+	you need to download the <a target="_blank" href="http://www.element-it.com/downloadfile.aspx?type=st">"Forms authentication" version</a>!
+	This Manual is for the Windows authentication version only!
+	</p>
+	<!-- For windows version only. End --> 
+	
+ 
+	
+                
+            </td>
+            <td align="char" width="230">
+                <img alt="" src="Images/world.jpg" align="middle" hspace="5" style="vertical-align:top;padding-top:1px;" /><b><a target="_blank" title="web file manager" href="http://www.element-it.com/asp-net-explorer-browser/online-share/web-file-manager.aspx">Web file manager</a></b><br />
+                <img alt="" src="Images/support.png" width="16" height="16" align="middle" hspace="5" style="vertical-align:top;padding-top:1px;" /><b><a
+                    href="onlinesupport.html" target="main">Free Installation assistance</a></b><br />
+                <img alt="" src="Images/help.png" align="middle" width="16" height="16" hspace="5" style="vertical-align:top;padding-top:1px;" /><b><a
+                    href="index.html" title="Manual Home page" target="_blank">Manual Home page</a></b><br />
+            </td>
+        </tr>
+    </table>
+    
+    <p class="topic">
+        <a id="hcadsicomtopic">NTFS permissions</a>
+    </p>
+
+<p>This section describes how to set up NTFS permissions on HTTP Commander data files
+and on user data folders.</p>  
+
+<strong>Note 1!</strong> 
+You can view how to set up NTFS permissions at <a href="screencast.html">installation screencast (video)</a> (Recommended)!
+<br /><br />
+<strong>Note 2!</strong>
+Instead of inspecting NTFS permissions manually, you may make use of our <strong>automatic diagnostic </strong>page <strong>"http://localhost/HTCOMNET/Diagnostics.aspx"</strong>. It identifies places requiring your attention, that is, it highlights folders and files that provide insufficient access to particular windows accounts.<br />
+<br/>
+
+<p>If you want to check NTFS permissions <strong>manually</strong> then see information below:</p>
+<ul>
+  <li>Application pool identity<br/>
+       First, you need to know which identity the application runs under. In Windows 2003 IIS 6 and Windows 2008 IIS 7.0 
+       the default application pool identity is <strong>&quot;NETWORK SERVICE&quot;</strong>. In Windows 2008 R2 IIS 7.5, 2012 IIS 8, 2012 R2 IIS 8.5, 2016 IIS 10 (64 bit) the default application pool identity is <strong>&quot;IIS&nbsp;APPPOOL\DefaultAppPool&quot;</strong> (for applications using default application pool). In general case, the default identity is <strong>&quot;IIS&nbsp;APPPOOL\<em>PoolName</em>&quot;</strong>. Here the <em>PoolName</em> should be replaced with the actual pool name.<br />
+  
+       <strong>Note!</strong> In our video tutorial for IIS 7, 7.5, 10 HTTP Commander runs under the <strong>&quot;IIS&nbsp;APPPOOL\htcomnetpool&quot;</strong> security identity. If you are not sure of the identity name, then check application settings in <strong>IIS console</strong>: 
+       <ul>
+         <li>Open IIS console: <b>Control panel</b>-&gt; <b>Administrative tools</b>-&gt;
+           <b>Internet Information Services (IIS) Manager</b>-&gt; Expand <b>"Default web site"</b>         </li>
+         
+         <li>For IIS 7, 7.5, 8, 8.5 and 10: Click the <b>Application pools</b> node. Check the  <strong>&quot;DefaultAppPool&quot;</strong> pool identity  (provided the application was assigned to default pool).
+         Most values stand for themselves: LocalService, LocalSystem, NetworkService mean that the application pool runs under the respective identity. ApplicationPoolIdetity is a special value meaning that the application pool uses <strong>&quot;IIS&nbsp;APPPOOL\<em>PoolName</em>&quot;</strong> identity. Here the <em>PoolName</em> should be replaced with the actual pool name.
+         Other identity value means that a custom account was used to run the application pool.
+         <br />
+           
+           <a target="_blank" href="Images/checkpool.png" onClick="toggleBlock('apppoolIIS7'); return false;" class="imglink">Screenshot</a>
+           <div id="apppoolIIS7" style="display: none;">
+             <p class="screenshot">
+               &nbsp;<img src="Images/checkpool.png" style="width: 753px; height: 308px" /></p>
+           </div>
+         </li>
+         
+         <li>For IIS 6: Expand <strong>&quot;Application pools&quot;</strong> node and right-click the <strong>&quot;DefaultAppPool&quot;</strong> item (provided the application was assigned to default pool). Click <strong>&quot;Properties&quot;</strong> in the context menu and find <strong>&quot;Application pool identity&quot;</strong> on the <strong>&quot;Identity&quot;</strong> tab. By default it is <strong>&quot;NETWORK SERVICE&quot;</strong>.<br />
+           
+           <a target="_blank" href="Images/apppool2003.png" onClick="toggleBlock('apppool2003'); return false;" class="imglink">Screenshot</a>
+           <div id="apppool2003" style="display: none;">
+             <p class="screenshot">
+               &nbsp;<img src="Images/apppool2003.png" style="width: 633px; height: 335px" /></p>
+           </div>
+           <br/>
+         </li>  
+       </ul>
+       If you are still not sure which identity the application works under.
+       <ul>
+        <li>open <b>http://localhost/HTCOMNET/Diagnostics.aspx</b> in a web browser and look at the "Application identity" value;      </li>
+      
+        <li>open Windows Task Manager, find the "w3wp.exe" process corresponding to your application, and look at the user name column of the table.      </li>
+       </ul>
+       If you use a custom service account as the application pool identity, 
+       do not forget to properly configure that account.
+       You must configure the account by running the Aspnet_regiis.exe utility with the -ga switch.
+       One of symptoms that the service account is not configured is NTFS permission problems with the "%Windir%\Microsoft.NET\Framework\version\Temporary ASP.NET Files" folder.
+       For more details see the MSDN article <a target="_blank" href="http://msdn.microsoft.com/en-us/library/ms998297.aspx">How To: Create a Service Account for an ASP.NET 2.0 Application</a>.
+       Although the above article applies to IIS 6, the same requirements are valid for IIS 7, 8. 
+  </li>
+  
+  <li>Anonymous user<br/>
+  By default it is <strong>IUSR</strong> in Windows 2008, 2012, 2016 and <strong>IUSR_<em>MACHINENAME</em></strong> in Windows 2003.
+  If you are not sure of the identity name, then check application settings in <strong>IIS console</strong>:
+    <ul>
+      <li>Open IIS console: <b>Control panel</b>-&gt; <b>Administrative tools</b>-&gt; <b>Internet Information Services (IIS) Manager</b>-&gt; Expand <b>"Default web site"</b>      </li>
+      
+      <li>For IIS 6: right-click HTTP Commander application, select <strong>Properties</strong>, in the properties dialog, open <strong>&quot;Directory Security&quot;</strong> tab, in the <strong>"Authentication and access control"</strong> group click <strong>"Edit"</strong> button, in the <strong>"Enable anonymous access"</strong> group inspect the anonymous user name in the <strong>"User name"</strong> field.      </li>
+      
+      <li>For IIS 7, 7.5, 8, 8.5 and 10: select HTTP Commander application, open <strong>Authentication</strong> feature, 
+      select <strong>Anonymous authentication</strong> item, 
+      click <strong>Edit</strong> on the Action pane, 
+      inspect the identity used for anonymous user in 
+      the <strong>Edit anonymous authentication credentials</strong> dialog.      
+      Anonymous user may be either a specific user or application pool identity.
+      </li>
+    </ul>
+  </li>
+  <!-- For windows version only. Start --> 
+  <li>End-user account<br/>
+  The Windows authentication and "Forms with Windows Users" version of HTTP Commander uses impersonation. 
+  That means that end-user accounts should be assigned permissions to specific files and directories. 
+  End-user account means a windows account of a user who uses HTTP Commander, 
+  including normal users and administrators. 
+  You will need to assign permissions for end-users to some files and folders as described below.
+  </li>
+  <!-- For windows version only. End --> 
+  <li><b>Note for Windows Server 2008 users!</b> 
+  You may face a problem assigning NTFS permissions to identities like <strong>&quot;IIS&nbsp;APPPOOL\DefaultAppPool&quot;</strong> using the standard Windows security dialog. The early versions of these Operating Systems (before Windows Server R2, and Windows Server 2008 R2 in the default state when update 
+      is not installed) may complain that they cannot find the object name <strong>&quot;IIS&nbsp;APPPOOL\DefaultAppPool&quot;</strong> (<a target="_blank" href="http://forums.iis.net/t/1156692.aspx">known problem</a>). If GUI does not allow you to add the desired identity, you have two options: switch to the old well known <strong>&quot;NETWORK SERVICE&quot;</strong> identity or use command line utility <strong>icacls</strong> to assign permissions.
+
+  <br />
+  
+  <a target="_blank" href="Images/IIS_AppPool-DefaultAppPool-NotFound.png" onClick="toggleBlock('IIS_AppPool-DefaultAppPool-NotFound'); return false;" class="imglink">Screenshot</a>
+  <div id="IIS_AppPool-DefaultAppPool-NotFound" style="display: none;">
+  <p class="screenshot">
+    <img src="Images/IIS_AppPool-DefaultAppPool-NotFound.png" style="width: 477px; height: 326px" /></p>
+  </div>
+  
+  <ul>
+    <li>To switch to the <strong>&quot;NETWORK SERVICE&quot;</strong> identity, select the application pool in the IIS Manager, click <strong>&quot;Advanced settings&quot;</strong> on the <strong>Action</strong> pane, find the <strong>Identity</strong> property in the <strong>Process Model</strong> group, click the change button next to the property, select <strong>NetworkService</strong> in the <strong>Built-in account</strong> combo box.</li>
+    
+    <li>Use icacls command line utility to assign NTFS permissions.<br/>
+    You need to execute a command like the following:<br/>
+    <strong>icacls "<em>Path\To\Folder</em>" /grant "IIS APPPOOL\DefaultAppPool:(OI)(CI)(RX)"</strong><br/>
+    This command assigns NTFS permissions for <strong>"IIS APPPOOL\DefaultAppPool"</strong> identity to the "<em>Path\To\Folder</em>" folder or file. This command adds Read permissions.<br/> 
+    <strong>Note</strong> Once the identity is added to the ACL of the folder, you may use standard Windows GUI to manage the identity permissions.
+    </li>
+  </ul>
+  </li>
+  
+  <li id="tempfolder">Temporary folder<br/>
+  <p>HTTP Commander uses a temporary folder to store temporary files, such as thumbnails, intermediary video files created in video conversion process, zip files for download, and other.
+  The temporary folder configured in the <a href="webconfigsetup.html#TemporaryFolder">TemporaryFolder</a> parameter and by default is used <strong>"%WINDIR%\Temp"</strong>, or it may be <strong>"%USERPROFILE%\AppData\Local\Temp"</strong> if the application pool is configured to load the user profile. The user refered here is the application pool identity user. For example, if the application pool is named HttpCommanderPool, the temporary directory may be "C:\Users\HttpCommanderPool\AppData\Local\Temp". Location of the temporary directory depends on the value of TEMP system and user environment variables. To be certain of the location of the temporary folder, refer to the Diagnostics.aspx page in HTTP Commander.</p>
+  <p>A system-wide temporary folder (<strong>"%WINDIR%\Temp"</strong>) by default provides necessary access to Administrators and System, but not to normal users.
+  A user-specific folder allows access only to the respective user.
+  HTTP Commander requires write access to the temporary folder for application pool account and end-user accounts in Windows version. The result is the default access is inappropriate. The simplest solution is to configure Modify NTFS permission for all required users. This choice, however, creates security vulnerability, users may read and overwrite each other's files. NTFS permissions allow that. A more secure solution is to configure NTFS permissions as follows. Assign Full Control to CREATOR OWNER pseudo-user. 
+  Assign Create files, Create folders, Traverse folder permission to the target users. Apply the last permission to "This folder only". Target users will be able to create files and folders in the temporary directory, but they have access to only their files and folders. Access to others files and folders will 
+      be denied. Assigning Full control to CREATOR OWNER guaranties that users have full control to their files.<br/>
+  <a target="_blank" href="Images/TempFolderPermissions.png" onClick="toggleBlock('TempFolderPermissions'); return false;" class="imglink">Screenshot</a>
+  <div id="TempFolderPermissions" style="display: none;">
+  <p class="screenshot">
+    <img src="Images/TempFolderPermissions.png" style="width: 377px; height: 481px" /></p>
+  </div>
+  </p>
+  </li>
+  
+  <li>After you have learned the accounts used in the HTTP Commander application, 
+  you are ready to configure NTFS permissions.
+  <br />
+    
+    How to set permissions:
+    <table border="1">
+    <thead>
+    <tr>
+    <th>HTTP Commander AuthMode</th>
+    <th>Resources</th>
+    <th>Accounts</th>
+    <th>Permissions</th>
+    <th>Note</th>
+    </tr>
+    </thead>
+    
+    <tr>
+        <td>all</td>
+        <td>HTCOMNET folder</td>
+        <td>application pool identity</td>
+        <td>Read</td>
+        <td>&nbsp;</td>
+    </tr>
+    
+    <tr>
+      <td>
+
+ 
+<!-- For windows version only. Start --> 
+      Forms with Windows Users, Novell EDirectory
+<!-- For windows version only. End --> 
+      </td>
+      <td>HTCOMNET folder</td>
+      <td>Anonymous user</td>
+      <td>Read</td>
+      <td><a href="#Note1">1</a></td>
+    </tr>
+    
+<!-- For windows version only. Start --> 
+    <tr>
+      <td>Windows, Forms with Windows Users</td>
+      <td>HTCOMNET folder</td>
+      <td>end-users</td>
+      <td>Read</td>
+        <td>&nbsp;</td>
+    </tr>
+<!-- For windows version only. End --> 
+	  
+    <tr>
+      <td>all</td>
+      <td>Temporary folder</td>
+      <td>application pool identity</td>
+      <td>Modify</td>
+        <td>&nbsp;</td>
+    </tr>
+
+<!-- For windows version only. Start --> 
+    <tr>
+      <td>Windows, Forms with Windows Users</td>
+      <td>Temporary folder</td>
+      <td>end-users</td>
+      <td>Modify</td>
+        <td>&nbsp;</td>
+    </tr>
+<!-- For windows version only. End --> 
+
+    <tr>
+      <td>all</td>
+      <td>Data folder</td>
+      <td>application pool identity</td>
+      <td>Modify</td>
+      <td><a href="#Note2">2</a></td>      
+    </tr>
+      
+    <tr>
+      <td>
+
+ 
+<!-- For windows version only. Start --> 
+      Forms with Windows Users, Novell EDirectory
+<!-- For windows version only. End --> 
+      </td>
+      <td>web.config and HttpCommanderSettings.config files</td>
+      <td>application pool identity</td>
+      <td>Modify</td>
+        <td>&nbsp;</td>
+    </tr>
+      
+<!-- For windows version only. Start --> 
+    <tr>
+      <td>Windows, Forms with Windows Users</td>
+      <td>web.config and HttpCommanderSettings.config files</td>
+      <td>administrators of HTTP Commander</td>
+      <td>Modify</td>
+        <td>&nbsp;</td>
+    </tr>
+<!-- For windows version only. End --> 
+	  
+    <tr>
+      <td>
+
+ 
+<!-- For windows version only. Start --> 
+      Novell EDirectory
+<!-- For windows version only. End --> 
+      </td>
+      <td>user data folders</td>
+      <td>application pool identity</td>
+      <td>Read or Modify depending on your needs</td>
+        <td>&nbsp;</td>
+    </tr>
+<!-- For windows version only. Start --> 
+    <tr>
+      <td>Windows, Forms with Windows Users</td>
+      <td>user data folders</td>
+      <td>end-user accounts</td>
+      <td>Read or Modify depending on your needs</td>
+      <td><a href="#Note3">3</a></td>
+    </tr>
+<!-- For windows version only. End -->
+    <tr>
+        <td>all</td>
+        <td><a href="webconfigsetup.html#UsersTrashFolder">Trash folder</a></td>
+        <td>application pool identity</td>
+        <td>Modify</td>
+        <td><a href="#Note4">4</a></td>
+    </tr>
+<!-- For windows version only. Start -->
+    <tr>
+        <td>Windows, Forms with Windows Users</td>
+        <td><a href="webconfigsetup.html#UsersTrashFolder">Trash folder</a></td>
+        <td>end-user accounts</td>
+        <td>Modify</td>
+        <td><a href="#Note4">4</a></td>
+    </tr>
+<!-- For windows version only. End -->
+    </table>
+</ul>
+    <ul>
+        <li>
+        <p id="Note1"><strong>Note 1.</strong> Why grant access to anonymous user?</p>
+        <p>Applies to <a href="webconfigsetup.html#AuthMode">AuthMode</a> Forms, Forms with Windows users, Novell EDirectory.
+        </p>
+        <ul>
+            <li>IIS 7 and above<br/> 
+            <p>
+            Normally the web application accesses the file system under the application pool identity, 
+            but sometimes the anonymous user is impersonated.
+            Note that ASP.NET Impersonation is disabled in IIS.</p>
+            <p>
+            You may find out that the web application works without problems 
+            even when you have not assigned explicit permissions to an anonymous user account.
+            The typical cause of this issue is that the anonymous user gains access to the file system via permissions assigned to Users group.
+            Another explanation may be the fact that anonymous user matches the application pool identity to
+            which you have assigned Read permissions already.
+            </p>
+            </li>
+            
+            <li>IIS 6<br/>
+            <p>Web application accesses file system under application pool identity 
+            as well as with impersonated anonymous user.</p>
+            </li>
+        </ul>
+        <p>Why write access is not needed for anonymous user?</p>
+        <p>The application does not explicitly impersonate the anonymous user to perform its tasks.
+        All work is done under the application pool identity.
+        As for read access to the application's root directory, it is IIS that impersonates 
+        the anonymous user to verify access to specific objects. 
+        <!-- That is only a guess. --> </p>
+        </li>
+        
+        <li>
+        <p id="Note2"><strong>Note 2.</strong>
+        By default, the <strong>Data</strong> folder is located in the HTCOMNET root folder, 
+        but you can move it outside the web server 
+        (See <a href="webconfigsetup.html#DataFolderPath">DataFolderPath</a> key in the <strong>Application settings</strong>)!
+        </p>
+        </li>
+        
+        <li>
+        <p id="Note3"><strong>Note 3.</strong>
+          If you have an existing folder structure for domain users with set  permissions, 
+          you don't need to modify existing permissions. 
+          The application impersonates the end-user when processing a user request.
+          NTFS file system permissions determines the level of access the end-user 
+          gets to the file system through HTTP Commander.<br />
+            
+          If you want to create a new structure of folders, 
+          you need to apply the necessary NTFS  permissions on the folders for the domain users.
+        </p>
+        </li>
+        <li>
+            <p id="Note4"><strong>Note 4.</strong>
+                This applies if you enabled <a href="webconfigsetup.html#EnableTrash">EnableTrash</a> parameter.
+            </p>
+        </li>
+  
+  
+<!-- For windows version only. Start --> 
+    <li>
+        AnonymousDownload.ashx permissions<br />
+        You need to configure anonymous access to AnonymousDownload.ashx file if anything of the following is true:
+    
+  <ul>
+  <li>You plan to work with online services such as 
+  <a href="webconfigsetup.html#documents">Google Viewer, Microsoft OWA, Zoho Editor, Pixlr Editor, Adobe Image Editor, ShareCad.org</a>.
+  </li>
+  
+  <li>You plan to use public links.
+  </li>
+  
+  <li>You enabled anonymous editing in Office (<a href="webconfigsetup.html#AnonymousEditingOffice">AnonymousEditingOffice</a> setting is true) 
+      or enabled MS-OFBA for editing in Office (<a href="webconfigsetup.html#UseMSOFBAwithMSOffice">UseMSOFBAwithMSOffice</a> setting is true).
+  </li>
+  </ul>
+  The process of configuring AnonymousDownload.ashx for anonymous access is detailed in the section
+  <a href="AnonymousDownload.html">configure anonymous access to AnonymousDownload.ashx</a>.
+  Here we focus on the topic of NTFS permissions required for the service account.
+  In general, you should grant Read and Write NTFS permissions to the service account
+  to all user files you want to provide access to.
+  If you plan to generate only download links (vs links that provide ability to upload files)
+  and if you need only viewer online services like Google Viewer, Microsoft OWA,
+  it is enough to assign Read permission to the user files.
+  </li>
+<!-- For windows version only. End -->
+</ul>
+</body>
+</html>

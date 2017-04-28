@@ -1,0 +1,1608 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Localization>
+  <!-- Common keys -->
+  
+  <ExtMsgButtonTextYES>iya nih</ExtMsgButtonTextYES>
+  <ExtMsgButtonTextNO>Tidak</ExtMsgButtonTextNO>
+  
+  <ControlHideFileManager>Sembunyikan file web manager</ControlHideFileManager>
+  
+  <CommonMainTitle>Akses file web</CommonMainTitle>
+  <CommonApplicationLoading>Memuat akses file web</CommonApplicationLoading>
+  <CommonLoadError>Kesalahan terjadi selama mendapatkan data pohon</CommonLoadError>
+  <CommonGridAccessDenied>folder "{0}" tidak ada atau membaca akses ditolak</CommonGridAccessDenied>
+  <CommonNoScript>Halaman ini JavaScript harus diaktifkan pada browser Anda! Aktifkan dan login lagi!</CommonNoScript>
+  <CommonErrorCaption>Kesalahan</CommonErrorCaption>
+  <CommonWarningCaption>PERINGATAN</CommonWarningCaption>
+  <CommonInfoCaption>Informasi</CommonInfoCaption>
+  <CommonConfirmCaption>Memastikan</CommonConfirmCaption>
+  <CommonFileNameCaption>Nama file</CommonFileNameCaption>
+  <CommonFileNamePrompt>Masukkan nama file baru</CommonFileNamePrompt>
+  <CommonFileNewNameValue>Teks baru Document.txt</CommonFileNewNameValue>
+  <CommonFolderNewNameValue>Folder baru</CommonFolderNewNameValue>
+  <CommonZipFileNameCaption>Zip arsip nama</CommonZipFileNameCaption>
+  <CommonZipFileNamePrompt>nama file (ekstensi akan ditambahkan secara otomatis)</CommonZipFileNamePrompt>
+  <CommonFolderNameCaption>Nama folder</CommonFolderNameCaption>
+  <CommonFolderNamePrompt>Masukkan nama folder baru</CommonFolderNamePrompt>
+  <CommonDeleteOnePrompt>Apakah Anda yakin ingin menghapus "{0}"?</CommonDeleteOnePrompt>
+  <CommonDeleteManyPrompt>Apakah Anda yakin ingin menghapus ini {0} item?</CommonDeleteManyPrompt>
+  <CommonForToday>Untuk hari ini</CommonForToday>
+  <CommonButtonCaptionOK>baik</CommonButtonCaptionOK>
+  <CommonButtonCaptionCancel>Membatalkan</CommonButtonCaptionCancel>
+  <CommonButtonCaptionClose>Dekat</CommonButtonCaptionClose>
+  <CommonButtonCaptionAdd>Menambahkan</CommonButtonCaptionAdd>
+  <CommonButtonCaptionContinue>Terus</CommonButtonCaptionContinue>
+
+  <CommonProgressPleaseWait>Mohon tunggu</CommonProgressPleaseWait>
+  
+  <CommonFieldLabelName>Nama</CommonFieldLabelName>
+  <CommonFieldLabelPath>jalan</CommonFieldLabelPath>
+  <CommonFieldLabelSize>Ukuran</CommonFieldLabelSize>
+  <CommonFieldLabelLabels>label</CommonFieldLabelLabels>
+  <CommonFieldLabelType>Mengetik</CommonFieldLabelType>
+  <CommonFieldLabelAction>Tindakan</CommonFieldLabelAction>
+  <CommonFieldLabelDate>Tanggal</CommonFieldLabelDate>
+  <CommonFieldLabelDateTime>Tanggal Waktu</CommonFieldLabelDateTime>
+  <CommonFieldLabelDateCreated>Tanggal Diciptakan</CommonFieldLabelDateCreated>
+  <CommonFieldLabelDateModified>Tanggal dimodifikasi</CommonFieldLabelDateModified>
+  <CommonFieldLabelDateAccessed>Tanggal diakses</CommonFieldLabelDateAccessed>
+  <CommonFieldLabelValue>Nilai</CommonFieldLabelValue>
+  <CommonFieldLabelUserName>Nama pengguna</CommonFieldLabelUserName>
+  <CommonFieldLabelUser>pemakai</CommonFieldLabelUser>
+  <CommonFieldLabelUsers>pengguna</CommonFieldLabelUsers>
+  <CommonFieldLabelGroupName>Nama grup</CommonFieldLabelGroupName>
+  <CommonFieldLabelGroup>Kelompok</CommonFieldLabelGroup>
+  <CommonFieldLabelGroups>Grup</CommonFieldLabelGroups>
+  <CommonFieldLabelPassword>Kata sandi</CommonFieldLabelPassword>
+  <CommonFieldLabelRepeatPassword>Ulangi kata kunci</CommonFieldLabelRepeatPassword>
+  <CommonFieldLabelComments>komentar</CommonFieldLabelComments>
+  <CommonValueTypeFolder>Map</CommonValueTypeFolder>
+
+  <CommonFieldLabelDescription>Deskripsi</CommonFieldLabelDescription>
+  <EmptyDescriptionText>Tentukan deskripsi</EmptyDescriptionText>
+  <CommonFieldLabelReadMeTxt>konten readme.txt</CommonFieldLabelReadMeTxt>
+  
+  <CommonWordOr>atau</CommonWordOr>
+
+  <SortAscText>Urutkan Ascending</SortAscText>
+  <SortDescText>Sort Descending</SortDescText>
+
+  <CommonNewDocument>Dokumen baru</CommonNewDocument>
+  <CommonNewSpreadsheet>Spreadsheet baru</CommonNewSpreadsheet>
+  <CommonNewPresentation>Presentasi baru</CommonNewPresentation>
+
+  <CommonWordWrap>bungkus kata</CommonWordWrap>
+  
+  <!-- End Common keys -->
+
+  <!-- Labels -->
+
+  <LabelsTitle>Label</LabelsTitle>
+  <LabelsNoLabel>Tidak ada label</LabelsNoLabel>
+  <LabelsColor>Warna</LabelsColor>
+  <LabelsCustomLabel>label khusus</LabelsCustomLabel>
+  <LabelsCustomLabelHint>Masukkan teks label</LabelsCustomLabelHint>
+  <LabelsCustomLabelView>Label &amp;nbsp; lihat: &amp;nbsp; {0} {1} {2}</LabelsCustomLabelView>
+  <LabelsFileLabelledMessage>Berhasil berlabel {0} item (s)</LabelsFileLabelledMessage>
+  <LabelsRemovedMessage>Berhasil dihapus {0} label (s)</LabelsRemovedMessage>
+  <LabelsNotRemovedMessages>tidak dihapus: {0}</LabelsNotRemovedMessages>
+  <LabelsNotLabelledMessage>tidak berlabel: {0}</LabelsNotLabelledMessage>
+  <LabelsLabelRemovedMessage>Label berhasil dihapus</LabelsLabelRemovedMessage>
+  <LabelsNewLabel>Label baru</LabelsNewLabel>
+  <LabelsLabellingMessage>Pelabelan</LabelsLabellingMessage>
+  <LabelsRemovingLabelMessage>menghapus label</LabelsRemovingLabelMessage>
+  <LabelsLabelInfoTip>Ditandai sebagai '{0}' {1} oleh pengguna {2} '</LabelsLabelInfoTip>
+
+  <!-- End Labels -->
+
+  <!-- Comments -->
+
+  <CommentsCountInfoTip>{0} comment (s)</CommentsCountInfoTip>
+  <CommentsWriteCommentHint>Menulis komentar dan tekan '{0}' atau Ctrl+Enter atau Shift+Enter ...</CommentsWriteCommentHint>
+
+  <!-- End Comments -->
+
+  <RefreshPageWarningMessage>&lt;b&gt; Perhatian! &lt;/b&gt; Untuk menyelesaikan operasi ini, halaman saat browser harus segar. &lt;br /&gt; Apakah Anda ingin menyegarkan sekarang?</RefreshPageWarningMessage>
+
+  <PagingToolbarBeforePageText>Halaman</PagingToolbarBeforePageText>
+  <PagingToolbarAfterPageText>dari {0}</PagingToolbarAfterPageText>
+  <PagingToolbarFirstText>Halaman pertama</PagingToolbarFirstText>
+  <PagingToolbarPrevText>Halaman sebelumnya</PagingToolbarPrevText>
+  <PagingToolbarNextText>Halaman selanjutnya</PagingToolbarNextText>
+  <PagingToolbarLastText>Halaman terakhir</PagingToolbarLastText>
+  <PagingToolbarDisplayMsg>Menampilkan {0} - {1} dari {2}</PagingToolbarDisplayMsg>
+  <PagingToolbarEmptyMsg>tidak ada data untuk ditampilkan</PagingToolbarEmptyMsg>
+  
+  <GridTotalLabel>Total:</GridTotalLabel>
+  <GridTotalFilesLabel>arsip</GridTotalFilesLabel>
+  <GridTotalFoldersLabel>folder</GridTotalFoldersLabel>
+  
+  <GridDDSelectedRowsText>{0} dipilih baris {1}</GridDDSelectedRowsText>
+  <GridDDSelectedFilesText>{0} file yang dipilih</GridDDSelectedFilesText>
+  <GridDDSelectedFoldersText>{0} folder yang dipilih</GridDDSelectedFoldersText>
+  <GridDDConfirmCopyMoveTitle>Jatuhkan ke folder "{0}"</GridDDConfirmCopyMoveTitle>
+  <GridDDConfirmAddToZipTitle>Tambahkan ke zip "{0}"</GridDDConfirmAddToZipTitle>
+  <GridDDConfirmAddToZipMessage>file menyeret akan ditambahkan ke arsip ZIP ini. Apakah Anda ingin melanjutkan? {0}.</GridDDConfirmAddToZipMessage>
+  <GridDDConfirmCopyMoveMsg>Pilih tindakan yang ingin Anda terapkan. Sumber: "{0}", folder tujuan: "{1}" {2} {3}..</GridDDConfirmCopyMoveMsg>
+  <GridDDConfirmCopyMoveToZipMsg>File akan ditambahkan ke arsip zip. Pilih action yang Anda ingin menerapkan ke file menyeret setelah menambahkan file ke arsip zip. Sumber: "{0}", tujuan arsip zip: "{1}" {2} {3}..</GridDDConfirmCopyMoveToZipMsg>
+  <GridDDDraggedFileNames>&lt;b&gt; Menyeret file: &lt;/b&gt; {0}</GridDDDraggedFileNames>
+  <GridDDDraggedFolderNames>&lt;b&gt; Menyeret folder: &lt;/b&gt; {0}</GridDDDraggedFolderNames>
+  <GridDDConfirmTargetFolderOnlyCopyMsg>izin saat ini untuk folder sumber memungkinkan Anda untuk hanya copy menyeret file. Apakah Anda ingin melanjutkan? {0}.</GridDDConfirmTargetFolderOnlyCopyMsg>
+  <GridDDConfirmTargetFolderOnlyMoveMsg>izin saat ini untuk folder sumber memungkinkan Anda untuk hanya bergerak menyeret file. Apakah Anda ingin melanjutkan? {0}.</GridDDConfirmTargetFolderOnlyMoveMsg>
+
+  <GridRowPublicHint>Klik untuk membuka tautan publik di jendela / tab baru</GridRowPublicHint>
+  <GridRowAlertHint>Klik untuk melihat perubahan yang dilakukan untuk file ini / folder</GridRowAlertHint>
+  <GridRowRecentHint>Cari file / folder</GridRowRecentHint>
+  <GridRowAlertEventHint>Klik untuk lokasi ini</GridRowAlertEventHint>
+
+  <ProgressCreating>membuat</ProgressCreating>
+  <ProgressDeleting>menghapus</ProgressDeleting>
+  <ProgressLoading>Pemuatan</ProgressLoading>
+  <ProgressSearching>Mencari</ProgressSearching>
+  <ProgressZipping>mengompresi</ProgressZipping>
+  <ProgressUnzipping>membongkar</ProgressUnzipping>
+  <ProgressZipContents>Mendapatkan isi dari arsip ZIP</ProgressZipContents>
+  <ProgressPrepareDownload>Mempersiapkan untuk di-download</ProgressPrepareDownload>
+  <ProgressMoving>Kemajuan</ProgressMoving>
+  <ProgressCopying>Penyalinan</ProgressCopying>
+  <ProgressRenaming>Mengganti nama</ProgressRenaming>
+  <ProgressUpdating>memperbarui</ProgressUpdating>
+  <ProgressLoadingEditInPixlr>Memuat Pixlr Editor</ProgressLoadingEditInPixlr>
+  <ProgressLoadingEdit>Memuat Editor</ProgressLoadingEdit>
+  <ProgressSavingEdit>menyimpan file</ProgressSavingEdit>
+  <ProgressSaving>Penghematan</ProgressSaving>
+  <ProgressExecuting>Pelaksana</ProgressExecuting>
+
+  <BalloonFilesDeleted>{0} file (s) dihapus</BalloonFilesDeleted>
+  <BalloonFoldersDeleted>{0} folder (s) dihapus</BalloonFoldersDeleted>
+  <BalloonFilesFailed>{0} file (s) gagal</BalloonFilesFailed>
+  <BalloonFoldersFailed>{0} folder (s) gagal</BalloonFoldersFailed>
+  <BalloonFilesZipped>{0} file (s) dikompresi</BalloonFilesZipped>
+  <BalloonFoldersZipped>{0} folder (s) dikompresi</BalloonFoldersZipped>
+  <BalloonFilesCopied>{0} file (s) disalin</BalloonFilesCopied>
+  <BalloonFoldersCopied>{0} folder (s) disalin</BalloonFoldersCopied>
+  <BalloonFilesMoved>{0} file (s) pindah</BalloonFilesMoved>
+  <BalloonFoldersMoved>{0} folder (s) pindah</BalloonFoldersMoved>
+  <BalloonNotUnzipped>{0} file (s) belum membongkar</BalloonNotUnzipped>
+  <BalloonFilesUploaded>{0} file (s) diupload</BalloonFilesUploaded>
+  <BalloonFilesNotUploaded>{0} file (s) tidak upload</BalloonFilesNotUploaded>
+  <BalloonSomeFilesNotUploaded>Beberapa file tidak dapat di-upload</BalloonSomeFilesNotUploaded>
+  <BalloonCreatedSuccessfully>berhasil dibuat</BalloonCreatedSuccessfully>
+  <BalloonUnzippedSuccessfully>membongkar berhasil</BalloonUnzippedSuccessfully>
+  <BalloonRenamedSuccessfully>Berganti nama berhasil</BalloonRenamedSuccessfully>
+  <BalloonSavedSuccessfully>berhasil disimpan</BalloonSavedSuccessfully>
+  <BalloonCopiedToClipboard>Disalin ke clipboard</BalloonCopiedToClipboard>
+  <BalloonCopyToClipboardFailed>Salin ke Clipboard gagal</BalloonCopyToClipboardFailed>
+
+  <CommandCopyToClipboard>Menyalin ke clipboard</CommandCopyToClipboard>
+  <CommandCopyLinkToClipboard>Copy link ke clipboard</CommandCopyLinkToClipboard>
+  <ClipboardScreenshotTitlePrefix>Gambar</ClipboardScreenshotTitlePrefix>
+  <ClipboardScreenshotHint>Gambar: Anda dapat menyisipkan screenshot dari clipboard Anda (Tekan &lt;b&gt; Ctrl+PrtSc &lt;/b&gt; dan kemudian &lt;b&gt; Ctrl+V &lt;/b&gt;) atau gambar dari editor (Tekan &lt;b&gt; Ctrl+V &lt;/b&gt;).</ClipboardScreenshotHint>
+  <ClipboardFileHint>Anda juga dapat menyisipkan file dari clipboard</ClipboardFileHint>
+
+  <CommandClouds>penyimpanan awan</CommandClouds>
+  <CommandCloudsDownloadTo>download ke ...</CommandCloudsDownloadTo>
+  <CommandCloudsUploadFrom>upload dari ...</CommandCloudsUploadFrom>
+  <CommandCloudsAbout>Tentang penyimpanan Cloud</CommandCloudsAbout>
+  
+  <CommandBack>Kembali</CommandBack>
+  <CommandForward>Meneruskan</CommandForward>
+  <CommandRecentFolders>folder baru-baru ini</CommandRecentFolders>
+  <CommandHome>Rumah</CommandHome>
+  <CommonActions>tindakan</CommonActions>
+  <CommandMultiSelect>Multi-pilih</CommandMultiSelect>
+  <CommandShare>Bagikan</CommandShare>
+  <CommandSorting>Penyortiran</CommandSorting>
+  
+  <CommandFileManager>Kembali ke file manager</CommandFileManager>
+  <CommandFolders>folder</CommandFolders>
+  <CommandGridView>Melihat</CommandGridView>
+  <CommandRefresh>Menyegarkan</CommandRefresh>
+  <CommandThumbnailView>tampilan thumbnail</CommandThumbnailView>
+  <CommandDetailedView>tampilan daftar</CommandDetailedView>
+  <CommandDetailsPane>panel rincian</CommandDetailsPane>
+  <CommandFavorites>Favorit</CommandFavorites>
+  <CommandAddToFavorites>Tambahkan ke Favorit</CommandAddToFavorites>
+  <CommandAddToFavoritesHint>Tambahkan folder saat ke favorit</CommandAddToFavoritesHint>
+  <AddingToFavoritesMessage>Menambahkan ke favorit</AddingToFavoritesMessage>
+  <RemoveFromFavoritesMessage>Menghapus dari favorit</RemoveFromFavoritesMessage>
+  <FolderAlreadyAddedInFavorites>folder "{0}" sudah ada di favorit</FolderAlreadyAddedInFavorites>
+  <FolderAddedInFavoritesSuccessfully>folder "{0}" telah ditambahkan ke favorit</FolderAddedInFavoritesSuccessfully>
+  <FavoritesIsOverflowed>Itu tidak mungkin untuk menambahkan folder saat ini "{0}" ke favorit. Hapus beberapa favorit untuk membebaskan beberapa ruang dan coba lagi.</FavoritesIsOverflowed>
+  <RemoveFromFavoritesHint>Hapus "{0}" dari favorit</RemoveFromFavoritesHint>
+  <AddToHomeScreenIOSHint>Tekan {0} dan kemudian &lt;strong&gt; "Add to Home Screen" &lt;/strong&gt;</AddToHomeScreenIOSHint>
+  <CommandSearch>Pencarian</CommandSearch>
+  <CommandUpload>Upload</CommandUpload>
+  <CommandSettings>pengaturan</CommandSettings>
+  <CommandLanguage>Bahasa</CommandLanguage>
+  <CommandAdministration>Administrasi</CommandAdministration>
+  <CommandAdminPanel>Panel admin</CommandAdminPanel>
+  <CommandChangePassword>Ganti kata sandi</CommandChangePassword>
+  <ProgressChangePassword>mengubah kata sandi</ProgressChangePassword>
+  <CommandChangeEmail>ganti e-mail</CommandChangeEmail>
+  <ProgressChangeEmail>Mengubah e-mail</ProgressChangeEmail>
+  <CommandMobileView>antarmuka ponsel (Smartphone)</CommandMobileView>
+  <CommandStandardView>Versi lengkap</CommandStandardView>
+  <CommandInstallIOSApp>Menginstal IOS app</CommandInstallIOSApp>
+  <CommandInstallAndroidApp>Instal Android app</CommandInstallAndroidApp>
+  <CommandAddServerToMobileApp>Tambahkan server ini ke aplikasi seluler</CommandAddServerToMobileApp>
+  <CommandAddToHomeScreen>Tambahkan ke layar awal</CommandAddToHomeScreen>
+  <CommandDiagnostics>laman diagnostik</CommandDiagnostics>
+  <CommandLicenseInfo>informasi lisensi</CommandLicenseInfo>
+  <CommandLogout>Keluar</CommandLogout>
+  <CommandLogoutHint>Klik untuk menyelesaikan sesi saat</CommandLogoutHint>
+  <CommandNew>Baru</CommandNew>
+  <CommandFile>Mengajukan</CommandFile>
+  <CommandEmptyFile>file kosong</CommandEmptyFile>
+  <CommandNewMSOODocument>Dokumen dengan MS Office Online</CommandNewMSOODocument>
+  <CommandNewOffice365Document>Dokumen dengan Office 365</CommandNewOffice365Document>
+  <CommandNewMSOOWord>Dokumen kata</CommandNewMSOOWord>
+  <CommandNewMSOOExcel>Excel Spreadsheet</CommandNewMSOOExcel>
+  <CommandNewMSOOPowerPoint>Presentasi powerpoint</CommandNewMSOOPowerPoint>
+  <CommandNewGoogleDocument>Dokumen dengan Google</CommandNewGoogleDocument>
+  <CommandNewGoogleDocs>Google Docs</CommandNewGoogleDocs>
+  <CommandNewGoogleSheets>Google Spreadsheet</CommandNewGoogleSheets>
+  <CommandNewGoogleSlides>Google Slide</CommandNewGoogleSlides>
+  <CommandNewImage>Gambar di Pixlr</CommandNewImage>
+  <CommandFolder>Map</CommandFolder>
+  <CommandNewFile>file kosong baru</CommandNewFile>
+  <CommandNewFolder>Folder baru</CommandNewFolder>
+  <CommandNewWithTemplate>Menggunakan template ...</CommandNewWithTemplate>
+  <CommandRename>Ganti nama</CommandRename>
+  <CommandDelete>Menghapus</CommandDelete>
+  <CommandCopy>Salinan</CommandCopy>
+  <CommandMove>Pindah</CommandMove>
+  <CommandCut>Memotong</CommandCut>
+  <CommandCopyTo>Salin ke...</CommandCopyTo>
+  <CommandMoveTo>Pindah ke...</CommandMoveTo>
+  <CommandCopyCutClipboardSuffix>ke clipboard</CommandCopyCutClipboardSuffix>
+  <CommandPaste>Pasta</CommandPaste>
+  <CommandPasteInto>paste ke</CommandPasteInto>
+  <CommandZip>Kompres untuk arsip Zip</CommandZip>
+  <CommandZipMenu>Zip / Unzip</CommandZipMenu>
+  <CommandUnzip>Zip membongkar</CommandUnzip>
+  <CommandUnzipSelected>membongkar dipilih</CommandUnzipSelected>
+  <CommandUnzipAll>membongkar semua</CommandUnzipAll>
+  <CommandUnzipTo>ke folder</CommandUnzipTo>
+  <CommandUnzipToCurrent>ke folder saat ini</CommandUnzipToCurrent>
+  <MessageUnzipToFolder>Ketik nama folder untuk membongkar ini</MessageUnzipToFolder>
+  <MessageUnzipPasswordHint>Jika Anda tahu bahwa password diperlukan untuk membongkar, masukkan dalam bidang di bawah</MessageUnzipPasswordHint>
+  <MessageUnzipNeedPassword>Sandi diperlukan untuk membongkar file</MessageUnzipNeedPassword>
+  <ZipPasswordProtectHint>Untuk sandi-melindungi arsip zip, masukkan password di bidang di bawah. Jika tidak, meninggalkan lapangan kosong</ZipPasswordProtectHint>
+  <AppendToZipPasswordProtectHint>Untuk sandi-melindungi file yang ditambahkan ke arsip zip, masukkan password di bidang di bawah. Jika tidak, meninggalkan lapangan kosong</AppendToZipPasswordProtectHint>
+  <ZipPasswordProtectWindowTitle>Pengarsipan dengan password</ZipPasswordProtectWindowTitle>
+  <OpenFolderAfterUnzipCheckBox>Buka folder setelah membongkar</OpenFolderAfterUnzipCheckBox>
+  <CommandUnzipToNew>ke folder baru</CommandUnzipToNew>
+  <CommandZipContents>konten Zip</CommandZipContents>
+  <ArchiveContentsTitle>konten arsip "{0}"</ArchiveContentsTitle>
+  <CommandDownload>Download</CommandDownload>
+  <CommonDownloadAll>download semua</CommonDownloadAll>
+  <DownloadListDragFile>Anda dapat menyeret-n-drop file ke desktop Anda</DownloadListDragFile>
+  <CommandZipDownload>Kompres dan download</CommandZipDownload>
+  <CommandView>Lihat di Browser</CommandView>
+  <CommandDownloadOrView>Download atau lihat</CommandDownloadOrView>
+  <CommandPreview>gambar pratinjau</CommandPreview>
+  <CommandFlashPreview>pratinjau flash</CommandFlashPreview>
+  <GettingSizeFlashMovie>Mendapatkan ukuran film flash</GettingSizeFlashMovie>
+  <CommandEdit>Edit file teks</CommandEdit>
+  <CommandEditView>Lihat sebagai file teks</CommandEditView>
+  <AceNotLoadedMessage>Tidak dapat memuat Ace Editor</AceNotLoadedMessage>
+  <VideoJsNotLoadedMessage>Tidak dapat memuat VideoJS pemain</VideoJsNotLoadedMessage>
+  <CommandMenuEdit>mengedit</CommandMenuEdit>
+  <CommandSelectAll>Pilih Semua</CommandSelectAll>
+  <CommandInvertSelection>Pilihan sebaliknya</CommandInvertSelection>
+  <CommandLinkToFile>Link ke file / folder</CommandLinkToFile>
+  <!--Share link-->
+  <CommandMakePublicFolder>Buat tautan publik</CommandMakePublicFolder>
+  <PublicViewInGoogle>Lihat di Google</PublicViewInGoogle>
+  <PublicViewinOWA>Lihat di OWA</PublicViewinOWA>
+  <!--Make public folder (share)-->
+  <CommandViewWithGoogleDoc>Lihat di Google Docs</CommandViewWithGoogleDoc>
+  <CommandViewWithShareCad>Lihat di ShareCad.org</CommandViewWithShareCad>
+  <CommandViewWithAutodesk>Lihat di Autodesk</CommandViewWithAutodesk>
+  <CommandViewWithBox>Lihat di Box</CommandViewWithBox>
+  <CommandViewWithOWA>Lihat di Office Web Apps</CommandViewWithOWA>
+  <CommandCloudConvert>Mengkonversi dengan CloudConvert</CommandCloudConvert>
+  <ProgressGetCloudConvertOutputFormats>Mendapatkan format output</ProgressGetCloudConvertOutputFormats>
+  <ProgressCloudConvertConverting>Konversi</ProgressCloudConvertConverting>
+  <CloudConvertWindowTitle>Konversi '{0}'</CloudConvertWindowTitle>
+  <CloudConvertWindowConvertButton>Mengubah</CloudConvertWindowConvertButton>
+  <CloudConvertWindowOutputFormatsLabel>Format output</CloudConvertWindowOutputFormatsLabel>
+  <CloudConvertDownloadLinkLabel>Link untuk mendownload</CloudConvertDownloadLinkLabel>
+  <CloudConvertSaveAsLabel>Simpan sebagai (ekstensi akan ditambahkan secara otomatis):</CloudConvertSaveAsLabel>
+  <CloudConvertNoOutputFormats>Tidak ada format yang tersedia untuk mengkonversi</CloudConvertNoOutputFormats>
+  <CloudConvertNoUrlForDownload>Itu tidak berhasil menerima link untuk men-download</CloudConvertNoUrlForDownload>
+  <ProgressCloudConvertUploading>Meng-upload dari CloudConvert</ProgressCloudConvertUploading>
+  <CloudConvertSaveAsNameBlank>Ketik nama di sini</CloudConvertSaveAsNameBlank>
+  <CancelEditButton>Batal mengedit</CancelEditButton>
+  <HideButton>Menyembunyikan</HideButton>
+  <EditDocumentCancelHint>Setelah Anda menutup jendela dengan dokumen diedit, itu akan disimpan otomatis. &lt;br /&gt; Anda dapat menyembunyikan kotak dialog ini dengan menekan {0} (dalam hal ini, dokumen masih akan disimpan setelah menutup editor). &lt;br /&gt; Jika Anda tidak ingin menyimpan dokumen, tekan {1} (dalam hal ini, jendela editor akan ditutup).</EditDocumentCancelHint>
+  <EditDocumentSaveHint>Sekarang Anda dapat menyimpan perubahan dalam dokumen dengan menekan {0}. Perhatian! Setelah Anda menutup jendela editor, itu akan juga disimpan otomatis.</EditDocumentSaveHint>
+  <CommandEditInMSOffice>Edit di MS Office</CommandEditInMSOffice>
+  <CommandEditInOOo>Edit di OpenOffice / LibreOffice</CommandEditInOOo>
+  <CommandViewInMSOffice>Lihat di MS Office</CommandViewInMSOffice>
+  <CommandViewInOOo>Lihat di OpenOffice / LibreOffice</CommandViewInOOo>
+  <CommandEditInPixlr>Edit di Pixlr</CommandEditInPixlr>
+  <CommandEditInAdobe>Edit dalam Adobe Creative Cloud</CommandEditInAdobe>
+  <AdobeImageEditorSavedAsNewTypeMessage>Gambar berubah dalam Adobe Image Editor telah disimpan dalam format {0}</AdobeImageEditorSavedAsNewTypeMessage>
+  <CommandEditInGoogle>Edit di Google Drive</CommandEditInGoogle>
+  <EditInGoogleConvertMessage>Setelah mengedit dokumen akan dikonversi ke format {1} {0} {2}</EditInGoogleConvertMessage>
+  <EditInGoogleLinkError>Tidak dapat mendapatkan link untuk mengedit dokumen Google Drive</EditInGoogleLinkError>
+  <EditInGoogleWaiting>Menunggu editing selesai di Google Drive</EditInGoogleWaiting>
+  <CommandEditInMSOO>Edit di MS Office Online</CommandEditInMSOO>
+  <EditInMSOOLinkError>Tidak dapat mendapatkan link untuk mengedit dokumen di MS Office Online</EditInMSOOLinkError>
+  <EditInMSOOWaiting>Menunggu editing selesai pada MS Office Online</EditInMSOOWaiting>
+  <CommandEditInOffice365>Edit di Office 365</CommandEditInOffice365>
+  <EditInOffice365LinkError>Tidak dapat mendapatkan link untuk mengedit dokumen di Office 365</EditInOffice365LinkError>
+  <EditInOffice365Waiting>Menunggu editing selesai pada Office 365</EditInOffice365Waiting>
+  <CommandSave>Menyimpan</CommandSave>
+  <CommandSaveAs>Simpan sebagai ...</CommandSaveAs>
+  <CommandAppRestart>aplikasi Restart</CommandAppRestart>
+  <CommandPlayVideoFlash>Memutar video dalam Flash player</CommandPlayVideoFlash>
+  <CommandPlayVideoHtml5>Putar video</CommandPlayVideoHtml5>
+  <CommandPlayAudioHtml5>bermain audio yang</CommandPlayAudioHtml5>
+  <CommandPlayVideo>Putar video</CommandPlayVideo>
+  <CommandPlayAudio>bermain audio yang</CommandPlayAudio>
+  <CommandConvertVideo>mengkonversi video</CommandConvertVideo>
+
+  <ViewInServiceLink>Klik di sini untuk melihat berkas</ViewInServiceLink>
+  <EditInServiceLink>Klik di sini untuk mengedit dokumen</EditInServiceLink>
+
+  <OfficeEditCopyLinkLabel>Copy link di bawah ini dan membukanya dalam aplikasi Office:</OfficeEditCopyLinkLabel>
+  <OfficeRunError>Itu tidak mungkin untuk memulai {0}</OfficeRunError>
+  <BadPathToFile>Itu tidak mungkin untuk menemukan jalan ke file</BadPathToFile>
+  <FixBasicAuthAlertTitle>Perhatian!</FixBasicAuthAlertTitle>
+  <FixBasicAuthAlertMessage>Microsoft Office bekerja dengan otentikasi dasar tanpa SSL! Anda dapat memperbaiki ini untuk Office Anda. Untuk info lebih lanjut silakan lihat {0}.</FixBasicAuthAlertMessage>
+  <FixBasicAuthAlertCheckBoxText>Untuk tidak menampilkan dialog ini lagi.</FixBasicAuthAlertCheckBoxText>
+  <CommandDetails>rincian</CommandDetails>
+  <CommonButtonCaptionAddDetail>Tambah rincian</CommonButtonCaptionAddDetail>
+  <CommonButtonCaptionAddComment>Tambahkan komentar</CommonButtonCaptionAddComment>
+  <DetailsWindowTitle>Rincian "{0}"</DetailsWindowTitle>
+  <FileDetailsSave>Menerapkan perubahan</FileDetailsSave>
+  <FileDetailsIgnoreChanges>Mengabaikan</FileDetailsIgnoreChanges>
+  <FileDetailsCloseConfirmTitle>Rincian file window ditutup</FileDetailsCloseConfirmTitle>
+  <FileDetailsCloseConfirmMsg>Perhatian! Perubahan ini belum disimpan. Pilih action yang Anda ingin menerapkan perubahan ini sebelum menutup jendela.</FileDetailsCloseConfirmMsg>
+  <FileDetailsGridTitleColumn>Judul</FileDetailsGridTitleColumn>
+  <FileDetailsGridAuthorColumn>penulis lalu</FileDetailsGridAuthorColumn>
+  <LoadingDetailsMask>Memuat detail</LoadingDetailsMask>
+  <NewDetailsTitle>Judul baru</NewDetailsTitle>
+  <NewDetailsValue>Baru nilai rincian</NewDetailsValue>
+  <DetailsSavingMsg>menyimpan rincian</DetailsSavingMsg>
+  <ProgressLoadingEditInOffice>Mempersiapkan untuk mengedit di Kantor</ProgressLoadingEditInOffice>
+  <MenuFilterText>filter</MenuFilterText>
+  <EmptyTextFilter>Masukkan Filter ...</EmptyTextFilter>
+  <AfterDateFilterText>Setelah</AfterDateFilterText>
+  <BeforeDateFilterText>Sebelum</BeforeDateFilterText>
+  <OnDateFilterText>Di</OnDateFilterText>
+  <YesBooleanFilterText>iya nih</YesBooleanFilterText>
+  <NoBooleanFilterText>Tidak</NoBooleanFilterText>
+  <CommandEditWithZoho>Edit di Zoho</CommandEditWithZoho>
+  <ZohoNotSupportedFormatMessage>ekstensi tidak didukung oleh Zoho. Lihat {0}.</ZohoNotSupportedFormatMessage>
+  <ProgressLoadingEditInZoho>Memuat Zoho Editor</ProgressLoadingEditInZoho>
+  <CommandSubMenuViewAndEdit>Lihat / edit</CommandSubMenuViewAndEdit>
+  <CommandSubMenuShare>Bagikan</CommandSubMenuShare>
+  <CommandSubMenuMore>lebih</CommandSubMenuMore>
+  <StopUploadingButtonText>Berhenti</StopUploadingButtonText>
+  <SimpleUploadErrorInfo>Ketika meng-upload file (s) ada kesalahan. &lt;br /&gt; Lihat {0} untuk info lebih lanjut &lt;/a&gt;</SimpleUploadErrorInfo>
+  <BalloonAbortFilesUploaded>Upload file dibatalkan</BalloonAbortFilesUploaded>
+  <UploadDragNDropTab>Seret dan jatuhkan</UploadDragNDropTab>
+  <UploadDragNDropTabImages>Drag &amp;drop+gambar</UploadDragNDropTabImages>
+  <DnDGridProgressColumn>Kemajuan</DnDGridProgressColumn>
+  <DnDFileReadingError>Membaca kesalahan. Kode kesalahan: {0}.</DnDFileReadingError>
+  <DnDFileReadingAbort>Pembacaan dibatalkan. Kode kesalahan: {0}.</DnDFileReadingAbort>
+  <DnDFileUploadingError>error upload. {0}</DnDFileUploadingError>
+  <DnDFileUploadingAbort>Upload dibatalkan.</DnDFileUploadingAbort>
+  
+  <CommandWebFoldersLinks>folder peta web</CommandWebFoldersLinks>
+  <CommandSyncWebFolders>Sinkronisasi dengan folder lokal</CommandSyncWebFolders>
+  <WebFolderLinksFieldLabel>Link web-folder</WebFolderLinksFieldLabel>
+  <WebFolderLinksForWindows64Note>Tekan kombinasi tombol {0} Win+R {1}. Masukkan baris perintah di {0} Terbuka: {1} lapangan (lihat contoh baris perintah di bawah ini), klik {0} OK {1}. Untuk Windows otentikasi menggunakan nama domain berkualifikasi lengkap: {2}.</WebFolderLinksForWindows64Note>
+  <OpenLibreOfficeRunCommandNote>Atau tekan kombinasi tombol {0} Win+R {1}, masukkan baris perintah di bawah ini di {0} Terbuka: {1} lapangan dan tekan {0} OK {1}</OpenLibreOfficeRunCommandNote>
+  <WebFolderLinksForMacOSNote>Pada menu "Finder", terbuka {0} Go&gt; Connect to Server {1}. Menyisipkan link dari folder web di {0} "Alamat server" {1} lapangan. Klik {0} "Connect" {1}. Dalam dialog baru pilih {0} "Tamu" {1} atau {0} "Terdaftar pengguna" {1} (untuk otentikasi Windows). Klik {0} "Connect" {1}.</WebFolderLinksForMacOSNote>
+  <WebFolderLinksForUbuntuNote>Terbuka {0} Go-&gt; Lokasi ... {1} Copy link dari folder web ke kolom lokasi.</WebFolderLinksForUbuntuNote>
+  <LinksToWebFoldersWindowText>Anda dapat memetakan folder yang Anda lihat sebagai drive jaringan di OS lokal Anda. Setelah pemetaan Anda dapat bekerja dengan file seperti dengan yang lokal atau mengedit dokumen di MS Office atau OpenOffice. Lihat bantuan tentang cara untuk memetakan {0}.</LinksToWebFoldersWindowText>
+  <CommonFileTypeNameCaption>"{0}" nama file</CommonFileTypeNameCaption>
+  <CommonFileTypeNamePrompt>Masukkan baru "{0}" nama file</CommonFileTypeNamePrompt>
+  
+  <PixlrEditorWindowTitle>Pixlr Editor {0}</PixlrEditorWindowTitle>
+  <PixlrSaveImageSuccessMessage>Gambar "{0}" berhasil diselamatkan. Segarkan daftar jika Anda menyimpan gambar dengan nama baru.</PixlrSaveImageSuccessMessage>
+  <CommonFileImageNewName>image baru</CommonFileImageNewName>
+  <CommandChangeTheme>Ubah tema</CommandChangeTheme>
+  
+  <CommandHelp>Membantu</CommandHelp>
+
+  <OpeningShortcutProgress>shortcut pembukaan</OpeningShortcutProgress>
+  <CommandCreateShortcut>Shortcut (symbolic link)</CommandCreateShortcut>
+  <ShortcutNameHint>nama shortcut</ShortcutNameHint>
+  <ShortcutTargetPathHint>jalur tujuan</ShortcutTargetPathHint>
+  <CreateShortcutButtonTitle>Membuat</CreateShortcutButtonTitle>
+  <CreatingShortcutProgress>membuat shortcut</CreatingShortcutProgress>
+  <CreateShortcutSuccessMessage>Shortcut "{0}" berhasil dibuat untuk "{1}".</CreateShortcutSuccessMessage>
+
+  <OpeningInternetShortcutProgress>Membuka shortcut Internet</OpeningInternetShortcutProgress>
+  <InternetShortcutNotValidMsg>URL target Shortcut Internet ini tidak valid</InternetShortcutNotValidMsg>
+  <InternetShortcutWindowTitle>Pergi untuk menghubungkan</InternetShortcutWindowTitle>
+  
+  <CommandVersioning>versi</CommandVersioning>
+  <CommandVersionHistory>versi sejarah</CommandVersionHistory>
+  <CommandCheckOut>Periksa</CommandCheckOut>
+  <CommandCheckIn>Mendaftar</CommandCheckIn>
+  <CommandUndoCheckOut>Batalkan Check Out</CommandUndoCheckOut>
+  <VersionHistoryObtainingMessage>Mendapatkan versi sejarah</VersionHistoryObtainingMessage>
+  <NoVersionHistoryMessage>Sejarah versi untuk file yang dipilih tidak ada</NoVersionHistoryMessage>
+  <FileIsCheckedOutMessage>File "{0}" sudah diperiksa oleh pengguna "{1}" dari {2}</FileIsCheckedOutMessage>
+  <CheckingOutMessage>Memeriksa</CheckingOutMessage>
+  <SuccessfullyCheckedOutMessage>File "{0}" berhasil diperiksa oleh pengguna "{1}"</SuccessfullyCheckedOutMessage>
+  <FileIsNotCheckedOutMessage>File "{0}" belum memeriksa belum</FileIsNotCheckedOutMessage>
+  <FileIsCheckedOutOtherUserMessage>File "{0}" diperiksa oleh pengguna lain "{1}" dari {2}.</FileIsCheckedOutOtherUserMessage>
+  <FileUndoCheckOutForbiddenMessage>Anda tidak dapat membatalkan check out yang diterapkan oleh pengguna lain.</FileUndoCheckOutForbiddenMessage>
+  <FileCheckInForbiddenMessage>Anda tidak dapat memeriksa file yang telah diperiksa oleh pengguna lain.</FileCheckInForbiddenMessage>
+  <FileUndoCheckOutConfirmMessage>Jika Anda membatalkan cek Anda keluar, perubahan diterapkan pada dokumen tidak akan disimpan! Apakah Anda yakin ingin membatalkan cek Anda keluar?</FileUndoCheckOutConfirmMessage>
+  <FileVersionDeleteConfirmTitle>Menghapus dari versi file</FileVersionDeleteConfirmTitle>
+  <FileVersionDeleteConfirmMessage>Apakah Anda yakin bahwa Anda ingin menghapus versi yang dipilih dari file?</FileVersionDeleteConfirmMessage>
+  <FileVersionRestoreConfirmTitle>Memulihkan dari versi file</FileVersionRestoreConfirmTitle>
+  <FileVersionRestoreConfirmMessage>Apakah Anda yakin bahwa ingin mengembalikan versi yang dipilih dari file? {0} Jika ya, tentukan file di mana versi yang dipilih akan disimpan ke dalam. Jika Anda meninggalkan nilai ini tanpa perubahan (atau set nilai kosong) versi yang dipilih akan menggantikan file yang dipilih (isi sebelumnya dari file akan ditambahkan ke sejarah versi) {1} nama file.:</FileVersionRestoreConfirmMessage>
+  <UndoCheckingOutMessage>Membatalkan Check Out</UndoCheckingOutMessage>
+  <SuccessfullyUndoCheckedOutMessage>Pembatalan check out untuk file "{0}" berhasil diselesaikan.</SuccessfullyUndoCheckedOutMessage>
+  <SuccessfullyCheckedInMessage>File "{0}" berhasil diperiksa oleh pengguna "{1}"</SuccessfullyCheckedInMessage>
+  <CheckingInMessage>memeriksa Dalam</CheckingInMessage>
+  <VersionHistoryTitle>versi file "{0}"</VersionHistoryTitle>
+  <VersionHistoryGridNumberColumn>Ver.</VersionHistoryGridNumberColumn>
+  <VersionHistoryGridNotesColumn>Catatan</VersionHistoryGridNotesColumn>
+  <CommandRestoreVersion>Mengembalikan</CommandRestoreVersion>
+  <ProgressPrepareDownloadOldVersion>Mempersiapkan download versi lama</ProgressPrepareDownloadOldVersion>
+  <FileVersionNotFoundMessage>Versi file yang dipilih tidak ditemukan.</FileVersionNotFoundMessage>
+  <ProgressDeletingVersion>versi Menghapus</ProgressDeletingVersion>
+  <ProgressRestoringVersion>versi Memulihkan</ProgressRestoringVersion>
+  <FileNeedCheckInMessage>Silahkan cek di atau membatalkan cek out untuk file yang dipilih dan coba lagi.</FileNeedCheckInMessage>
+  <FileCheckedOutEditForbiddenMessage>Anda tidak dapat mengubah / mengganti nama / memindahkan / menghapus file "{0}" saat itu sedang diperiksa oleh pengguna "{1}" dari {2}</FileCheckedOutEditForbiddenMessage>
+  <FileUploadCheckInLabel>Anda dapat check-in file yang dipilih atau meng-upload versi baru dari file (menggunakan form upload di bawah ini). Jika Anda ingin membuat versi baru dari file yang dipilih, tidak meng-upload file apapun di sini.</FileUploadCheckInLabel>
+  <FileUploadCheckInInvalidFileName>Nama dari file upload harus persis sama dengan nama file yang dipilih</FileUploadCheckInInvalidFileName>
+  <CheckOutVersionNotes>Versi ini telah dibuat secara otomatis</CheckOutVersionNotes>
+  <RestoreVersionNotes>Versi ini telah dibuat secara otomatis setelah mengembalikan versi dari {0} dari pengguna "{1}"</RestoreVersionNotes>
+  <IsCheckedOutHint>file telah diperiksa</IsCheckedOutHint>
+  <ExistsOldVersionsHint>File ini memiliki versi lain</ExistsOldVersionsHint>
+  <IsLockedHint>file terkunci</IsLockedHint>
+  <FileWasCreatedHint>Telah dibuat {0} lalu</FileWasCreatedHint>
+  <FileWasModifiedHint>Telah diubah {0} lalu</FileWasModifiedHint>
+  <CommonChangedAgo>{0} lalu</CommonChangedAgo>
+  <DaysShort>d</DaysShort>
+  <HoursShort>h</HoursShort>
+  <MinutesShort>m</MinutesShort>
+  <FileContainsMetaDataHint>Berisi beberapa rincian (metadata)</FileContainsMetaDataHint>
+  <FileMetaDataCaptionMobile>metadata</FileMetaDataCaptionMobile>
+
+  <ExistsPublicLinksFileHint>file memiliki hubungan publik</ExistsPublicLinksFileHint>
+  <ExistsPublicLinksFolderHint>folder memiliki hubungan publik</ExistsPublicLinksFolderHint>
+  <PublicLinkNotFound>tautan publik untuk "{0}" tidak ditemukan</PublicLinkNotFound>
+
+  <PublicLinksDeleteWindowTitle>Hapus tautan publik (s)</PublicLinksDeleteWindowTitle>
+  <PublicLinksDeleteLinkButton>menghapus tautan</PublicLinksDeleteLinkButton>
+  <PublicLinksDeleteConfirmMsg>Apakah Anda yakin ingin menghapus link publik yang dipilih?</PublicLinksDeleteConfirmMsg>
+  <PublicLinksDeleteSingleConfirmMsg>Apakah Anda yakin ingin menghapus link ini?</PublicLinksDeleteSingleConfirmMsg>
+
+  <DetailsMultiValue>(Multi value)</DetailsMultiValue>
+
+  <GridBottomFilesSizeInfo>Yang dipilih: {0} / {1},</GridBottomFilesSizeInfo>
+  <GridBottomFilesFoldersInfo>file: {0} / {1}, folder: {2} / {3}</GridBottomFilesFoldersInfo>
+
+  <AmountOfDownloadingsFile>download</AmountOfDownloadingsFile>
+
+  <CookiesDisabledMessage>Fungsionalitas cookie browser Anda dimatikan. Silakan menyalakannya dan browser yang restart.</CookiesDisabledMessage>
+
+  <CommandSendEmail>Mengirim email</CommandSendEmail>
+  <CommandSendWithGmail>Kirim dengan Gmail</CommandSendWithGmail>
+  <CommandSendWithOutlook>Kirim dengan Outlook</CommandSendWithOutlook>
+  <SendEmailTo>Untuk</SendEmailTo>
+  <SendEmailBulkMailingListHint>&lt;b&gt; Mailing list &lt;/b&gt; &lt;br /&gt; Anda dapat menentukan seluruh kelompok untuk mengirim email Anda</SendEmailBulkMailingListHint>
+  <SendEmailBulkMailingListWindowTitle>Pilih penerima untuk email Anda</SendEmailBulkMailingListWindowTitle>
+  <SendEmailEmptyMailingListMessage>Daftar Mail kosong</SendEmailEmptyMailingListMessage>
+  <SendEmailSenderEmail>email pengirim</SendEmailSenderEmail>
+  <SendEmailSubject>Subyek</SendEmailSubject>
+  <SendEmailFilesAsLinksTo>Kirim link ke file yang dipilih</SendEmailFilesAsLinksTo>
+  <SendEmailFilesAsAttachements>Mengirim file yang dipilih sebagai lampiran</SendEmailFilesAsAttachements>
+  <SendEmailSend>Kirim</SendEmailSend>
+  <SendEmailProgressMessage>mengirim email</SendEmailProgressMessage>
+  <GettingMailingListProgressMessage>Mendapatkan milis</GettingMailingListProgressMessage>
+  <SendEmailSuccessMessage>Email berhasil dikirim.</SendEmailSuccessMessage>
+  <SendEmailResultsMessage>Dikirim:. {0} &lt;br /&gt; Gagal: {1} {2}.</SendEmailResultsMessage>
+  <SmtpServerSettingsIncorrect>Opsi SMTP-server yang kosong atau salah</SmtpServerSettingsIncorrect>
+  <FromEmailIncorrect>Dari alamat email salah atau kosong</FromEmailIncorrect>
+  <ToEmailIncorrect>Alamat Untuk email tidak benar atau kosong</ToEmailIncorrect>
+  <EmailSubjectEmpty>Subjek email tidak ditentukan</EmailSubjectEmpty>
+  <UploadFromUrlTab>dari URL</UploadFromUrlTab>
+  <UploadFromUrlFieldLabel>URL (HTTP atau file tunggal FTP)</UploadFromUrlFieldLabel>
+  <UploadFromUrlProgressTitle>Upload dari URL</UploadFromUrlProgressTitle>
+  <UploadFromUrlMsg>Upload dari URL</UploadFromUrlMsg>
+  <UploadFromUrlSuccessMsg>File "{0}" telah berhasil diupload dari "{1}"</UploadFromUrlSuccessMsg>
+  <UploadFromUrlUnknownResponse>Respon dari server tidak diakui</UploadFromUrlUnknownResponse>
+  <UploadFromUrlEmptyFileName>Nama file upload kosong</UploadFromUrlEmptyFileName>
+  <UploadFromUrlFileName>Simpan dengan nama (biarkan kosong untuk menggunakan nama dari URL)</UploadFromUrlFileName>
+  <UploadFromUrlFileNameMobile>Simpan dengan nama</UploadFromUrlFileNameMobile>
+  
+  <!-- Common Clouds keys -->  
+  <CloudAuthenticateMessage>Anda harus login di {0}. Klik link "{1}" dan Anda akan diarahkan ke bentuk logon. {2} Info lebih lanjut. {3}</CloudAuthenticateMessage>
+  <CloudAuthenticateLink>Otentikasi dengan {0}</CloudAuthenticateLink>  
+  <CloudDownloadingMessage>Download untuk {0}</CloudDownloadingMessage>
+  <CloudAuthWarningMessage>Jika tindakan belum terjadi, tutup jendela ini dan klik pada link "{0}" lagi.</CloudAuthWarningMessage>
+  <CloudAuthEmptyInvalidMessage>{0} Access Token kosong atau tidak valid. Silahkan mengotentikasi lagi.</CloudAuthEmptyInvalidMessage>
+  <CloudDownloadEndMessageTitle>Download telah selesai</CloudDownloadEndMessageTitle>
+  <CloudDownloadFilesSuccessMessage>{0} file (s) berhasil didownload ke "{1}" {2} folder.</CloudDownloadFilesSuccessMessage>
+  <CloudNotDownloadedFilesMessage>{0} file (s) tidak di-download:</CloudNotDownloadedFilesMessage>
+  <CloudFoldersCreatedSuccessMessage>{0} folder (s) berhasil dibuat di "{1}" {2} folder.</CloudFoldersCreatedSuccessMessage>
+  <CloudNotFoldersCreatedMessage>{0} folder (s) tidak diciptakan:</CloudNotFoldersCreatedMessage>
+  <CloudFilesFoldersSuccessMessage>{0} file (s), {1} folder (s) berhasil didownload ke "{2}" {3} folder.</CloudFilesFoldersSuccessMessage>
+  <CloudNotFilesFoldersDownloadedMessage>{0} file (s), {1} folder (s) tidak di-download:</CloudNotFilesFoldersDownloadedMessage>
+  <CloudLinkText>Kunjungi {0}</CloudLinkText>
+  <CloudLinkDescription>Pergi ke {0} Halaman</CloudLinkDescription>
+  <CloudRootFolderName>&lt;b&gt; {0} folder root &lt;/b&gt;</CloudRootFolderName>
+  <CloudCheckFolerMessage>Silakan cek {0} folder tunggal untuk melanjutkan.</CloudCheckFolerMessage>
+  <CloudSelectFolderMessage>Silakan pilih {0} folder untuk melanjutkan.</CloudSelectFolderMessage>
+  <CloudGetFoldersInfoProgressMessage>Memuat {0} folder Info</CloudGetFoldersInfoProgressMessage>
+  <CloudGetItemsInfoProgressMessage>Memuat {0} item Info</CloudGetItemsInfoProgressMessage>
+  <CloudUploadSelectItemsMessage>Silakan pilih {0} item untuk melanjutkan.</CloudUploadSelectItemsMessage>
+  <CloudUploadTotalFiles>Total file: {0} ({1})</CloudUploadTotalFiles>
+  <CloudUploadProgressMessage>Meng-upload dari {0}</CloudUploadProgressMessage>
+  <CloudSignInAsDifferentUserText>Logout dari {0}</CloudSignInAsDifferentUserText>
+  <CloudLogoutProgressMsg>Logout dari {0}</CloudLogoutProgressMsg>
+  <CloudRevokeTokenMsg>mencabut Token</CloudRevokeTokenMsg>
+  <CloudRefreshTokenMsg>Token menyegarkan</CloudRefreshTokenMsg>
+  <CloudAuthNotCompleteMsg>Otentikasi tidak selesai. &lt;br /&gt; Silakan</CloudAuthNotCompleteMsg>
+  <CloudTrustedSitesMsg> periksa berikut situs di "Trusted situs" daftar: &lt;br /&gt; &lt;br /&gt;</CloudTrustedSitesMsg>
+  <TrustedSitesForMicrosoftEdge>Jika Anda menggunakan Microsoft Edge, kemudian memeriksa Situs Terpercaya di Internet Explorer</TrustedSitesForMicrosoftEdge>
+  <CloudCheckAuthMsg>Periksa {0} otentikasi</CloudCheckAuthMsg>
+  <CloudLoadMsg>Memuat {0}</CloudLoadMsg>
+  <CloudFreeSpaceError>Tidak ada cukup ruang di {2} untuk meng-upload file. Nah: {0}. Ukuran file: {1}.</CloudFreeSpaceError>
+  <CloudFreeSpaceExceeded>Tidak ada cukup ruang di {0}</CloudFreeSpaceExceeded>
+  <CloudExceedFileSizeError>File yang Anda mencoba untuk men-download memiliki ukuran file dari {1}, yang lebih besar dari ukuran maksimum yang diperbolehkan untuk download - {0}.</CloudExceedFileSizeError>
+  <CloudFolderNotFound>Direktori tidak ditemukan. Mungkin sudah dihapus</CloudFolderNotFound>
+  <CloudFileNotFound>File tidak ditemukan. Mungkin sudah dihapus</CloudFileNotFound>
+  <CloudNoFoldersMessage>Tidak ada folder untuk menampilkan</CloudNoFoldersMessage>
+  <CloudLibraryNotLoadedMsg>{0} perpustakaan klien tidak dimuat! &lt;br /&gt; Silakan periksa koneksi internet dan-atau refresh halaman. &lt;br /&gt; Juga</CloudLibraryNotLoadedMsg>
+  <CloudDownloadWithNewNames>Berikut file (s) download dengan nama baru:</CloudDownloadWithNewNames>
+
+  <!-- Google Drive Cloud keys -->
+  <CommandDownloadToGoogleDocs>Download ke Google Drive</CommandDownloadToGoogleDocs>
+  <GoogleDocsSaveAs>menyimpan sebagai:</GoogleDocsSaveAs>
+  <GoogleDocsSaveAsTitle>Simpan "{0}" sebagai ...</GoogleDocsSaveAsTitle>
+  <GoogleDocsDownloadEndWarningMessage>Jika Anda tidak dapat melihat dokumen upload di akun Google Drive Anda, tunggu beberapa detik dan menyegarkan daftar Google Drive.</GoogleDocsDownloadEndWarningMessage>
+  <GoogleDriveUploadNoFilesMessage>Tidak ada file di Google Drive untuk upload</GoogleDriveUploadNoFilesMessage>
+  <GoogleDriveMaxUploadSizeError>Untuk konten-tipe "{0}" ukuran maksimum upload {1} terlampaui.</GoogleDriveMaxUploadSizeError>
+  <GoogleDriveConvertMsg>Jika mungkin, mengkonversi file ke format Dokumen Google. {0} More info {1}.</GoogleDriveConvertMsg>
+
+  <!-- Box Cloud keys -->
+  <CommandDownloadToBox>Download ke Kotak</CommandDownloadToBox>
+  <BoxDownloadWithNewNames>Berkas berikut (s) yang diperbarui dengan versi baru:</BoxDownloadWithNewNames>
+  <BoxNoViewPermission>Anda tidak memiliki izin untuk melihat direktori yang dipilih</BoxNoViewPermission>
+  <BoxNoDownloadPermission>Anda tidak memiliki izin untuk men-download</BoxNoDownloadPermission>
+  <BoxNoUploadPermission>Anda tidak memiliki izin untuk mengunggah</BoxNoUploadPermission>
+  <BoxUnableCreateOrInfoError>Tidak dapat membuat atau mendapatkan informasi</BoxUnableCreateOrInfoError>
+  
+  <!-- Dropbox Cloud keys -->
+  <CommandDownloadToDropbox>Download ke Dropbox</CommandDownloadToDropbox>
+  
+  <!-- OneDrive Cloud keys -->
+  <CommandDownloadToSkyDrive>Download ke onedrive</CommandDownloadToSkyDrive>
+  <AuthenticateOAuthSkyDriveMessageShort>Anda harus login ke Live account Microsoft Anda.</AuthenticateOAuthSkyDriveMessageShort>
+  <SkyDriveAuthAlsoString>Juga</SkyDriveAuthAlsoString>
+  <SkyDriveLoginButtonTitle>Masuk</SkyDriveLoginButtonTitle>
+  <SkyDriveRegistryMessage>Tidak memiliki Windows Live ID? {0} Mendaftar ... {1}</SkyDriveRegistryMessage>
+  <SkyDriveMapRootFolder>Catatan! Anda bisa {0} peta {1} folder onedrive Anda. jalan adalah</SkyDriveMapRootFolder>
+  <SkyDriveMoreInfoLink>{0} More info about onedrive (SkyDrive) {1}</SkyDriveMoreInfoLink>
+  <OneDriveMaxUploadSizeError>Ukuran diterima ({0}) dari file upload terlampaui: {1}</OneDriveMaxUploadSizeError>
+  <!-- OneDrive for Business -->
+  <OneDriveForBusinessMapWebFolderInfo>&lt;b&gt; Catatan! &lt;/b&gt; Sebelum membuka file di lokasi ini, Anda harus terlebih dahulu menambahkan situs web ke daftar situs terpercaya Anda, browse ke situs web, dan pilih opsi untuk login otomatis (di browser IE).</OneDriveForBusinessMapWebFolderInfo>
+  
+  <UploadFromUrlLabelText>Anda dapat menentukan URL dari file disimpan pada file server global atau pada layanan file sharing seperti {0}, {1}, {2}, {3}, {4}.</UploadFromUrlLabelText>
+  <UploadFromUrlLabelTextMobile>Tentukan URL dari file</UploadFromUrlLabelTextMobile>
+
+  <LinkToFileTitle>Link ke file / folder</LinkToFileTitle>
+  <LinkToFileWarningAnonym>Link ini menyediakan akses anonim ke file. Setiap pengguna, bahkan salah satu yang tidak memiliki akun di situs ini, mungkin men-download atau upload file melalui link publik. Sebuah link Publik untuk file memungkinkan Anda untuk men-download salah satu file yang dipilih. {0} More info {1}.</LinkToFileWarningAnonym>
+  <LinkToFileDownloadFileLink>link ini memungkinkan Anda untuk men-download file yang dipilih {0} dari {1}. Anda membutuhkan account yang valid untuk menggunakan link ini. Ini tidak memberikan akses anonim ke file.</LinkToFileDownloadFileLink>
+  <LinkToFileExpireDate>Tanggal kadaluarsa</LinkToFileExpireDate>
+  <LinkToFileDownloadCnt>batas download count</LinkToFileDownloadCnt>
+  <LinkToFileDownloadType>Link Jenis</LinkToFileDownloadType>
+  <LinkToFileGenerate>membuat link</LinkToFileGenerate>
+  <LinkToFilePasswordNotMatch>Sandi tidak cocok</LinkToFilePasswordNotMatch>
+  <LinkToFilePasswordRequired>Password untuk link publik diperlukan</LinkToFilePasswordRequired>
+  <LinkToFileInvalidForm>parameter tidak valid</LinkToFileInvalidForm>
+  <LinkToFileAnonymDownloadLinkHint>tautan publik untuk "{0}":</LinkToFileAnonymDownloadLinkHint>
+  <LinkToFileAnonymDownloadShortLinkHint>Singkat tautan publik untuk "{0}":</LinkToFileAnonymDownloadShortLinkHint>
+  <LinkToFileOpenFolderLink>link ini memungkinkan Anda untuk membuka folder yang dipilih {0} dalam {1}. Anda membutuhkan account yang valid untuk menggunakan link ini. Ini tidak memberikan akses anonim ke folder.</LinkToFileOpenFolderLink>
+  <LinkToFileOpenFileLink>Link ini akan membuka folder dengan file dan menyoroti itu</LinkToFileOpenFileLink>
+  <LinkToFileDaysLeft>hari tersisa</LinkToFileDaysLeft>
+  <LinkToFileCaptionMobile>Link publik</LinkToFileCaptionMobile>
+
+  <PublicFolderLinkHint>tautan publik ke folder "{0}":</PublicFolderLinkHint>
+  <PublicFolderShortLinkHint>tautan publik pendek ke folder "{0}":</PublicFolderShortLinkHint>
+  <PublicFolderLinkDownloadZipHint>Ambil link untuk arsip zip dari folder "{0}":</PublicFolderLinkDownloadZipHint>
+  <PublicFolderLinkShortDownloadZipHint>Singkat link download untuk arsip zip dari folder "{0}":</PublicFolderLinkShortDownloadZipHint>
+  <PublicFolderLinkZipDownload>Kompres dan download folder saat ini {0} (dalam arsip ZIP)</PublicFolderLinkZipDownload>
+  <PublicFolderLinkOverwriteWhileUpload>Timpa yang ada</PublicFolderLinkOverwriteWhileUpload>
+  <PublicFolderLinkOpenFolderHint>Folder terbuka</PublicFolderLinkOpenFolderHint>
+  <PublicFolderDownloadDisabledNote>Catatan! Pemilik folder ini telah dilarang men-download file dari folder ini.</PublicFolderDownloadDisabledNote>
+  <PublicFolderLinkSendEmails>Kirim info tentang aktivitas pengunjung ke email</PublicFolderLinkSendEmails>
+  <PublicFolderAnonymAccessControl>Kontrol akses</PublicFolderAnonymAccessControl>
+  <PublicFolderAnonymDownload>Download file</PublicFolderAnonymDownload>
+  <PublicFolderAnonymZipDownload>Download folder (ZIP)</PublicFolderAnonymZipDownload>
+  <PublicFolderAnonymUpload>Upload</PublicFolderAnonymUpload>
+  <PublicFolderAnonymViewContent>Lihat daftar file</PublicFolderAnonymViewContent>
+  <PublicFolderNoteForUsers>Catatan untuk pengguna</PublicFolderNoteForUsers>
+  <PublicFolderACLNotSet>Kontrol akses tidak diatur</PublicFolderACLNotSet>
+  <PublicFolderWarningAnonym>Link ini menyediakan akses anonim ke folder. Setiap pengguna, bahkan salah satu yang tidak memiliki akun di situs ini, mungkin men-download atau upload file melalui link publik. Sebuah link publik ke folder memungkinkan Anda untuk men-download kedua seluruh folder (dikemas dalam arsip) dan file individual. {0} More info {1}.</PublicFolderWarningAnonym>
+  <PublicLinksShowForAllItems>Tampilkan untuk semua</PublicLinksShowForAllItems>
+  <PublicLinksShowForSelected>Tampilkan untuk dipilih</PublicLinksShowForSelected>
+  
+  <MultipleFileInputMessage>Catatan! Browser Anda mendukung beberapa file pilihan sekaligus.</MultipleFileInputMessage>
+  <UploadZipUnzipNote>Anda dapat meng-upload arsip zip dengan beberapa file dan folder dan kemudian ekstrak, menggunakan "{0}" perintah dalam menu konteks.</UploadZipUnzipNote>
+  <DnDFileUploadingStatusCode>kode status</DnDFileUploadingStatusCode>
+  <DnDFileUploadingPathOrNameEmpty>Jalan dan-atau nama file yang tidak ditentukan</DnDFileUploadingPathOrNameEmpty>
+  <DnDFileUploadingRemoveFromList>Hapus dari daftar</DnDFileUploadingRemoveFromList>
+  <DndFileUploadingDontDropFoldersMsg>Anda dapat drag dan drop file ke dalam tabel di bawah ini. Anda tidak bisa drop folder.</DndFileUploadingDontDropFoldersMsg>
+  <DndFileUploadingAllowDropFoldersMsg>Anda dapat drag dan drop file dan folder ke dalam tabel di bawah ini.</DndFileUploadingAllowDropFoldersMsg>
+  <DndFileUploadingFilesSummaryInfo>Hitungan file: {0} ({1})</DndFileUploadingFilesSummaryInfo>
+  <DropFilesHere>Drop file untuk meng-upload</DropFilesHere>
+  
+  <FileGridDownloadColumn>Download file</FileGridDownloadColumn>
+  <FileAttributesField>atribut</FileAttributesField>
+  <FolderCalculateSize>Menghitung</FolderCalculateSize>
+  <FolderRecalculateSize>Hitung Ulang</FolderRecalculateSize>
+  <FolderContainsField>Mengandung</FolderContainsField>
+  <FolderContainsFilesFolders>{0} file, {1} folder</FolderContainsFilesFolders>
+  <FolderCalculatingMessage>menghitung</FolderCalculatingMessage>
+
+  <SearchTitle>pencarian file. pola yang tersedia: {0}</SearchTitle>
+  <SearchType>Pencarian</SearchType>
+  <SearchOnlyFiles>hanya file</SearchOnlyFiles>
+  <SearchOnlyFolders>hanya folder</SearchOnlyFolders>
+  <SearchBothFilesFolders>kedua file dan folder</SearchBothFilesFolders>
+  <SearchFileDetails>rincian file</SearchFileDetails>
+  <SearchFileContent>isi file</SearchFileContent>
+  <SearchByDateFrom>dari</SearchByDateFrom>
+  <SearchByDateTo>untuk</SearchByDateTo>
+  <SearchLocation>tempat</SearchLocation>
+  <SearchLocationEntire>di manapun</SearchLocationEntire>
+  <SearchLocationCurrent>Arus</SearchLocationCurrent>
+  <SearchSearch>Pencarian</SearchSearch>
+  <SearchNothingFound>Tidak ditemukan! Harap perbaiki kriteria pencarian Anda.</SearchNothingFound>
+  <SearchErrorCaption>cari kesalahan</SearchErrorCaption>
+  <SearchResultsNotComplete>Perhatian! Hasil pencarian mungkin tidak lengkap karena beberapa folder belum diindeks belum.</SearchResultsNotComplete>
+  <SearchRepeatOrContactAdmin>Coba cari lagi nanti atau hubungi administrator Anda.</SearchRepeatOrContactAdmin>
+  <SearchLinkToManual>Mengacu pada {0} Windows Search Bantuan {1}</SearchLinkToManual>
+  <QuerySearchByNameText>pencarian dengan nama</QuerySearchByNameText>
+  <QuerySearchByConentText>oleh konten</QuerySearchByConentText>
+  <SearchByDetailsWarning>Perhatian! Anda telah ditentukan dalam Pengaturan yang akan Anda gunakan pencarian dengan sifat. Dalam hal ini, pencarian akan dilakukan dengan menggunakan metode standar daripada menggunakan Indexing Service Windows.</SearchByDetailsWarning>
+  <SearchInSpecialFolderWarning>Perhatian! Untuk mencari folder saat ini tidak berlaku. Jika Anda terus, pencarian akan dilakukan di semua direktori.</SearchInSpecialFolderWarning>
+
+  <UploadTitle>Upload beberapa file</UploadTitle>
+  <UploadSimpleTab>Standar</UploadSimpleTab>
+  <UploadSimpleReset>ulang</UploadSimpleReset>
+  <UploadSimpleUpload>Upload</UploadSimpleUpload>
+  <UploadSimpleUploadFolderLabelCollapsed>folder Upload</UploadSimpleUploadFolderLabelCollapsed>
+  <UploadSimpleUploadFolderButtonText>Pilih folder</UploadSimpleUploadFolderButtonText>
+  <UploadJavaTab>Jawa</UploadJavaTab>
+  <UploadJavaIgnorePaths>Tempatkan semua file dalam satu folder (mengabaikan jalur)</UploadJavaIgnorePaths>
+  <UploadFlashTab>Flash</UploadFlashTab>
+  <UploadSilverlightTab>Silverlight</UploadSilverlightTab>
+  <UploadPartially>Beberapa file tidak dapat diunggah</UploadPartially>
+  <UploadFolderNotSelectedTitle>Folder tidak dipilih</UploadFolderNotSelectedTitle>
+  <UploadFolderNotSelected>Pilih folder dimana file akan di-upload ke</UploadFolderNotSelected>
+  <UploadInProgress>Meng-upload file Anda</UploadInProgress>
+  <UploadInvalidFormFields>kolom formulir tidak dapat diajukan dengan nilai-nilai yang tidak valid</UploadInvalidFormFields>
+  <UploadAjaxFailed>komunikasi Ajax gagal</UploadAjaxFailed>
+  <UploadFilesAlreadyExists>File (s) sudah ada</UploadFilesAlreadyExists>
+  <UploadOverwriteFiles>file yang ada akan ditimpa. Apakah Anda ingin melanjutkan?</UploadOverwriteFiles>
+  <UploadOverwriteOrRenameFiles>Ada satu atau lebih file dengan nama-nama yang cocok di direktori yang Anda tentukan. Apakah Anda ingin menimpa file yang ada? Klik "{0}" jika Anda ingin menimpa file yang sudah ada, atau "{1}" - jika Anda ingin menyimpan semua file (mereka akan berganti nama).</UploadOverwriteOrRenameFiles>
+  <UploadNotModifyExistingFiles>Ada satu atau lebih file dengan pencocokan nama di direktori yang Anda tentukan. File tidak dapat di-upload. Silakan hapus file yang ada dari daftar upload atau mengubah nama mereka.</UploadNotModifyExistingFiles>
+  <UploadRenamedExistingFiles>Ada satu atau lebih file dengan pencocokan nama di direktori yang Anda tentukan. File dengan nama yang cocok akan berganti nama.</UploadRenamedExistingFiles>
+  <UploadNotAllowedTitle>Upload tidak diperbolehkan</UploadNotAllowedTitle>
+  <UploadNotAllowedPrompt>Anda tidak dapat meng-upload file ke folder ini</UploadNotAllowedPrompt>
+
+  <UploadMobileIOSVideo>Upload video. Aktifkan opsi ini jika Anda perlu meng-upload file video.</UploadMobileIOSVideo>
+  <UploadMobileAurigmaLink>Harap dicatat bahwa Anda harus memiliki Aurigma Up! diinstal pada perangkat Anda untuk meng-upload file. Ketuk di sini untuk menginstal Aurigma Up! aplikasi untuk meng-upload gambar dan video.</UploadMobileAurigmaLink>
+  <UploadMobileAurigmaReady>Setelah Aurigma Up! diinstal atau jika Anda sudah diinstal, tekan tombol "Upload" di bawah ini.</UploadMobileAurigmaReady>
+  <UploadMobileAurigmaFilePrefix>Awalan untuk file yang diunggah</UploadMobileAurigmaFilePrefix>
+  <UploadMobileResult>Upload hasil:</UploadMobileResult>
+  <UploadMobileUrlPlaceHolder>Masukkan URL di sini</UploadMobileUrlPlaceHolder>
+  <UploadMobileFileNamePlaceHolder>Masukkan nama file baru di sini</UploadMobileFileNamePlaceHolder>
+  <UploadBrowseLabel>Isi ...</UploadBrowseLabel>
+  
+  <MobileToolTipsCaption>Apakah kamu tahu itu ...</MobileToolTipsCaption>
+  <MobileToolTipsNextButton>Tip berikutnya</MobileToolTipsNextButton>
+  <MobileToolTipsIKnowButton>saya tahu itu</MobileToolTipsIKnowButton>
+  <MobileToolTipsHideButton>tidak pernah menunjukkan</MobileToolTipsHideButton>
+  <MobileToolTipsMultiSelection>Untuk memilih beberapa file atau folder, Anda harus mengaktifkan mode multi-pilihan dengan menekan pada &lt;b&gt; {0} &lt;/b&gt;. Tekan lagi untuk keluar dari mode multi-seleksi.</MobileToolTipsMultiSelection>
+  <MobileToolTipsSlideToRemove>Anda dapat geser dari kanan ke kiri pada salah satu item daftar untuk menghapusnya. Tombol hapus inline akan ditampilkan di bagian atas daftar item.</MobileToolTipsSlideToRemove>
+  <MobileToolTipsTapAndHoldForMenu>Tekan dan tahan pada salah satu item daftar untuk menampilkan menu konteks. menu konteks yang sama ditampilkan oleh tap pada tombol 'pengungkapan'</MobileToolTipsTapAndHoldForMenu>
+  <MobileToolTipsDoubleTapForPreview>tekan tunggal pada file untuk memilihnya, double tap untuk melihat atau men-download itu. tekan tunggal pada folder untuk membukanya.</MobileToolTipsDoubleTapForPreview>
+  <MobileToolTipsPullDownToRefresh>Tarik ke bawah daftar untuk reload isi itu.</MobileToolTipsPullDownToRefresh>
+  <MobileToolTipsPinchToScale>Anda dapat menggunakan 'pinch' gesture untuk zoom-in dan zoom-out gambar.</MobileToolTipsPinchToScale>
+  <MobileToolTipsTapToHideBars>Ketuk di mana saja di panel gambar untuk beralih toolbar.</MobileToolTipsTapToHideBars>
+  <MobileToolTipsSlideLeftRightToNext>Ganti gambar dengan gerakan slide.</MobileToolTipsSlideLeftRightToNext>
+
+  <DownloadToCloudMobileTip>tekan tunggal untuk memilih folder, tekan dua kali untuk membukanya.</DownloadToCloudMobileTip>
+  
+  <UploadTotalMaxSizeMessage>Catatan! Ukuran maksimum semua file upload tidak boleh melebihi {0}.</UploadTotalMaxSizeMessage>
+  <UploadOneFileMaxSizeMessage>Catatan! Ukuran maksimum setiap file upload tidak boleh melebihi {0}.</UploadOneFileMaxSizeMessage>
+  <UploadUnlimitedSizeMessage>Catatan! Ukuran file upload adalah UNLIMITED.</UploadUnlimitedSizeMessage>
+  <SimpleUploadSetFileNameNote>Catatan 2! Setelah file dipilih, Anda dapat mengubah nama file akan memiliki setelah upload</SimpleUploadSetFileNameNote>
+
+  <AnonymousUploadTitle>Meng-upload file ke folder ini</AnonymousUploadTitle>
+  <AnonymousUploadDescription>Anda dapat meng-upload file ke folder ini. Klik "browse" tombol di bawah dan pilih file.</AnonymousUploadDescription>
+  <AnonymousUploadOverwriteHint>Jika file upload sudah ada, maka akan diganti.</AnonymousUploadOverwriteHint>
+  <AnonymousUploadShowUploadHint>Tampilkan form upload</AnonymousUploadShowUploadHint>
+  <AnonymousUploadHideUploadHint>Sembunyikan form upload</AnonymousUploadHideUploadHint>
+  <AnonymousUploadNewFolderNameHint>Di lapangan di bawah Anda dapat menentukan nama subdirektori (folder akan dibuat jika tidak ada) di mana file akan di-upload:</AnonymousUploadNewFolderNameHint>
+  <AnonymousUploadCompleteTitle>Meng-upload ke folder {0} selesai</AnonymousUploadCompleteTitle>
+  <AnonymousUploadExistsFilesMessage>Berkas berikut (s) belum upload karena file (s) dengan nama yang sama (s) sudah ada: {0}.</AnonymousUploadExistsFilesMessage>
+  <AnonymousUploadOwnersNote>Catatan dari pemilik folder</AnonymousUploadOwnersNote>
+  <AnonymousDownloadPageTitle>Unduh berkas</AnonymousDownloadPageTitle>
+  <AnonymousDownloadFileHint>Unduh berkas</AnonymousDownloadFileHint>
+  <AnonymousUploadPageTitle>Upload ke folder</AnonymousUploadPageTitle>
+  <AnonymousPublicFolderPageTitle>folder publik</AnonymousPublicFolderPageTitle>
+  <AnonymousLoginAccessUserFailure>Anda login account yang tidak memiliki akses ke sumber daya. Silahkan masukkan identitasnya lainnya untuk akses Anda. Jika Anda tidak mengenal mereka, silahkan hubungi pemilik link publik atau administrator Anda.</AnonymousLoginAccessUserFailure>
+  <ProgressGettingAnonymLink>penciptaan tautan publik</ProgressGettingAnonymLink>
+  <ProgressGettingAnonymLinks>Mendapatkan link anonim</ProgressGettingAnonymLinks>
+  <ProgressGettingBoxViewLink>Mendapatkan Box Lihat tautan</ProgressGettingBoxViewLink>
+  <AutodeskScriptNotIncludedMessage>Tidak dapat memuat naskah Autodesk Viewer</AutodeskScriptNotIncludedMessage>
+  <ProgressUninitializeAutodeskViewer>Menutup Autodesk Viewer</ProgressUninitializeAutodeskViewer>
+  <ProgressGettingAutodeskViewLink>Mendapatkan Autodesk Lihat Info</ProgressGettingAutodeskViewLink>
+  <AnonymousChangeLanguageHint>Pilih bahasa</AnonymousChangeLanguageHint>
+  <AnonymousUpLinkHint>Kembali ke folder induk</AnonymousUpLinkHint>
+  <AnonymousPasswordDescription>folder tersebut dilindungi password</AnonymousPasswordDescription>
+  <AnonymousPasswordIncorrectMessage>password salah</AnonymousPasswordIncorrectMessage>
+  <AnonymousErrorTitle>link error publik</AnonymousErrorTitle>
+  <AnonymousErrorNotFound>tautan publik "{0}" tidak ditemukan!</AnonymousErrorNotFound>
+  <AnonymousErrorAccessDenied>Anda tidak memiliki izin untuk menggunakan tautan publik "{0}"</AnonymousErrorAccessDenied>
+  <AnonymousErrorFileNotFound>Link publik "{0}" merujuk ke file non-ada atau folder atau NTFS membaca akses ditolak</AnonymousErrorFileNotFound>
+  <AnonymousErrorUnknownLinkType>Link publik "{0}" tidak ditemukan</AnonymousErrorUnknownLinkType>
+  <AnonymousSendEmailSubject>Pengunjung aktivitas folder publik</AnonymousSendEmailSubject>
+  <AnonymousSendEmailUploadBody>File-file berikut diupload ke folder publik Anda {0}: {1}.</AnonymousSendEmailUploadBody>
+  <AnonymousSendEmailDownloadBody>File {0} di-download dari folder publik Anda {1}.</AnonymousSendEmailDownloadBody>
+  <AnonymousSendEmailZipDownloadBody>Seluruh isi folder publik {0} di-download dalam arsip ZIP.</AnonymousSendEmailZipDownloadBody>
+  <AnonymousViewLinksButton>Lihat link</AnonymousViewLinksButton>
+  <AnonymousViewLinksHint>Untuk melihat link publik yang ada</AnonymousViewLinksHint>
+  <AnonymousViewLinksWindowTitle>Link publik</AnonymousViewLinksWindowTitle>
+  <AnonymousViewLinksDateCreatedColumn>tanggal pembuatan</AnonymousViewLinksDateCreatedColumn>
+  <AnonymousViewLinksDateExpiredColumn>Tanggal kadaluarsa</AnonymousViewLinksDateExpiredColumn>
+  <AnonymousViewLinksPermissionColumn>Izin</AnonymousViewLinksPermissionColumn>
+  <AnonymousViewLinksDownloadedColumn>Jumlah download yang tersisa</AnonymousViewLinksDownloadedColumn>
+  <ProgressDeletingAnonymousLink>Menghapus tautan publik</ProgressDeletingAnonymousLink>
+  <ProgressSavingAnonymousLink>Menyimpan tautan publik</ProgressSavingAnonymousLink>
+  <AnonymousEditLinkWindowTitle>Mengedit tautan publik untuk "{0}"</AnonymousEditLinkWindowTitle>
+  <AnonymousEditLinkShowUrl>Tampilkan Link</AnonymousEditLinkShowUrl>
+  <AnonymousEditLinkNotFound>Link publik tidak ditemukan atau periodenya validitas telah berakhir</AnonymousEditLinkNotFound>
+
+  <AnonymousLinkSendViaButton>Kirim via ...</AnonymousLinkSendViaButton>
+  <AnonymousLinkSendViaEmailItem>E-mail...</AnonymousLinkSendViaEmailItem>
+  <AnonymousLinkSendButton>Kirim via email ...</AnonymousLinkSendButton>
+  <AnonymousLinkSendSubject>Web File Manager Tautan Umum</AnonymousLinkSendSubject>
+
+  <AnonymousLinkAdvOptTitle>parameter tambahan</AnonymousLinkAdvOptTitle>
+  <AnonymousLinkViewTypeButton>Link tampilan</AnonymousLinkViewTypeButton>
+  <AnonymousLinkViewTypeDefault>Penuh</AnonymousLinkViewTypeDefault>
+  <AnonymousLinkViewTypeShort>Pendek</AnonymousLinkViewTypeShort>
+
+  <AnonymousLinkShowCommentsLabel>Tampilkan keterangan, label dan komentar</AnonymousLinkShowCommentsLabel>
+  <AnonymousLinkShowCommentsShort>Tampilkan komentar</AnonymousLinkShowCommentsShort>
+
+  <QRCodeButton>Kode QR</QRCodeButton>
+
+  <AnonymousLinkLimitedAccessTitle>Akses terbatas</AnonymousLinkLimitedAccessTitle>
+  <AnonymousLinkLimitAccessCheckBox>Membatasi akses hanya untuk pengguna otentik ditentukan</AnonymousLinkLimitAccessCheckBox>
+  <AnonymousLinkLimitAccessTextArea>Ketik nama pengguna atau email (dipisahkan koma)</AnonymousLinkLimitAccessTextArea>
+  <AnonymousLinkLimitAccessSendCheckBox>Kirim pemberitahuan kepada pengguna tertentu</AnonymousLinkLimitAccessSendCheckBox>
+  <AnonymousLinkLimitAccessPersMsgLabel>Pesan pribadi (opsional)</AnonymousLinkLimitAccessPersMsgLabel>
+  <AnonymousLinkLimitAccessPassAndUsersMsg>Anda telah ditentukan password Anda dan pengguna pada saat yang sama untuk mengakses link. Sebutkan sesuatu satu.</AnonymousLinkLimitAccessPassAndUsersMsg>
+  <AnonymousLinkLimitAccessUsersNotFound>Para pengguna:
+    {0}
+    tidak ada</AnonymousLinkLimitAccessUsersNotFound>
+  <AnonymousLinkLimitAccessEmailsNotFound>Email:
+    {0}
+    tidak ada</AnonymousLinkLimitAccessEmailsNotFound>
+  <AnonymousLinkLimitAccessUsersEmailsNotFound>Para pengguna:
+    {0}
+    dan email:
+    {1}
+    tidak ada</AnonymousLinkLimitAccessUsersEmailsNotFound>
+
+  <AnonymousLinkUnableToCreate>Tidak dapat membuat link anonim</AnonymousLinkUnableToCreate>
+  <AnonymousLinkShortUrlLabel>Silakan klik ikon segarkan (di kanan bawah) untuk mendapatkan link pendek</AnonymousLinkShortUrlLabel>
+  <AnonymousLinkShortUrlUpdate>Dapatkan atau update link pendek</AnonymousLinkShortUrlUpdate>
+  <AnonymousLinkLongUrlNotSpecified>URL yang panjang tidak ditentukan</AnonymousLinkLongUrlNotSpecified>
+
+  <ClientFileOrDirectoryAlreadyExists>Sebuah file atau direktori dengan nama ini sudah ada</ClientFileOrDirectoryAlreadyExists>
+  <ClientPermissionsAllowTypes>izin saat ini memungkinkan operasi ini hanya dengan jenis file berikut {0}</ClientPermissionsAllowTypes>
+  <ClientPermissionsDenyTypes>izin saat ini melarang operasi ini dengan jenis file berikut {0}</ClientPermissionsDenyTypes>
+  <OfficeApplicationNotFoundAlert>Aplikasi Office tidak ditemukan. Membuka file secara manual dengan menggunakan link di kotak teks.</OfficeApplicationNotFoundAlert>
+  <OfficeAnonymousEditPublicLinkError>Tidak dapat membuat link publik untuk dokumen kantor anonim terbuka.</OfficeAnonymousEditPublicLinkError>
+
+  <GoogleOWAViewLinkMessage>Untuk melihat dokumen klik link di bawah ini:</GoogleOWAViewLinkMessage>
+  <ZohoEditLinkMessage>Untuk mengedit link dokumen klik di bawah ini:</ZohoEditLinkMessage>
+  <PixlrEditLinkMessage>Untuk mengedit image link klik di bawah ini:</PixlrEditLinkMessage>
+  <PixlrNewImageCreateTitle>Membuat gambar baru dengan Pixlr</PixlrNewImageCreateTitle>
+  <PixlrNewImageLinkMessage>Untuk membuat gambar baru, klik link di bawah ini:</PixlrNewImageLinkMessage>
+
+  <DownloadTitle>Download beberapa file</DownloadTitle>
+  <DownloadSimpleTab>Standar</DownloadSimpleTab>
+  <DownloadJavaTab>Jawa</DownloadJavaTab>
+  <DownloadIEPrevent>Internet Explorer mencegah download otomatis</DownloadIEPrevent>
+  <DownloadIEClickHere>Klik di sini untuk men-download</DownloadIEClickHere>
+  <DownloadIEArchiveReady>Arsip "{0}" dengan file yang dipilih diciptakan dan siap untuk di-download</DownloadIEArchiveReady>
+  <DownloadIECaption>Download siap</DownloadIECaption>
+
+  <SettingsTitle>pengaturan</SettingsTitle>
+  <SettingsLanguage>Bahasa</SettingsLanguage>
+  <SettingsLogOutRequired>Perubahan baru akan diterapkan setelah logout atau browser me-restart!</SettingsLogOutRequired>
+  <ThemeTitle>Ganti Tema</ThemeTitle>
+  <SettingsTheme>Pilih Tema</SettingsTheme>
+  <ThemeDefaultTitle>Tema default</ThemeDefaultTitle>
+  <ThemeGrayTitle>Gray Tema</ThemeGrayTitle>
+  <ThemeAccessTitle>Tema aksesibilitas</ThemeAccessTitle>
+
+  <ChangeUserPasswordTitle>Ubah password pengguna</ChangeUserPasswordTitle>
+  <ChangeUserPasswordOldPassword>Password lama</ChangeUserPasswordOldPassword>
+  <ChangeUserPasswordNewPassword>Kata sandi baru</ChangeUserPasswordNewPassword>
+  <ChangeUserPasswordRepeatNewPassword>sandi baru Ulangi</ChangeUserPasswordRepeatNewPassword>
+  <ChangeUserPasswordPasswordsNotMatch>Sandi tidak cocok.</ChangeUserPasswordPasswordsNotMatch>
+  <ChangeUserPasswordSuccessMessage>Password telah berubah.</ChangeUserPasswordSuccessMessage>
+  <ChangeUserPasswordInvalidMessage>Kata sandi salah.</ChangeUserPasswordInvalidMessage>
+
+  <ChangeUserEmailTitle>Ganti pengguna e-mail</ChangeUserEmailTitle>
+  <ChangeUserEmailEmail>E-mail</ChangeUserEmailEmail>
+  <ChangeUserEmailSuccessMessage>E-mail telah berubah.</ChangeUserEmailSuccessMessage>
+
+  <UserHelpTitle>pengguna bantuan</UserHelpTitle>
+
+  <LicenseTitle>informasi lisensi</LicenseTitle>
+  <LicenseTrial>Terdaftar versi evaluasi 30 hari</LicenseTrial>
+  <LicensePrompt>versi lisensi {0} Pengguna menghitung: {1} {0} Tanggal pembelian: {2} {0}</LicensePrompt>
+  <LicenseFreeUpgradeMessage>Anda masih memiliki {0} hari untuk upgrade gratis dan dukungan.</LicenseFreeUpgradeMessage>
+  <LicenseCheckMessage>Lebih dari satu tahun telah berlalu dari tanggal pembelian. Untuk menggunakan versi ini Anda harus memperbarui langganan Anda atau downgrade ke versi lama. Anda dapat memeriksa lisensi Anda dan menemukan siaran yang tersedia di &lt;a href='{0}' halaman License target='_blank'&gt; Periksa &lt;/a&gt;</LicenseCheckMessage>
+  
+  <ViewPopupBlocked>jendela baru telah diblokir oleh pemblokir</ViewPopupBlocked>
+  
+  <LoginTwoFactorTitle>verifikasi dua langkah</LoginTwoFactorTitle>
+  <LoginTitle>Masuk</LoginTitle>
+  <LoginRemember>Ingat saya waktu berikutnya</LoginRemember>
+  <LoginUISelect>antarmuka</LoginUISelect>
+  <LoginUIStandard>Standar</LoginUIStandard>
+  <LoginUITouch>mobil</LoginUITouch>
+  <LoginLanguage>Bahasa</LoginLanguage>
+  <LoginLogin>Masuk</LoginLogin>
+  <LoginFailure>upaya login Anda tidak berhasil.</LoginFailure>
+  <LoginBlocked>Akun tersebut diblokir. Tunggu {0} menit untuk mencoba lagi.</LoginBlocked>
+  <LoginNotActivated>akun Anda tidak diaktifkan.</LoginNotActivated>
+  <LoginResendActivation>Jika pesan dengan kode aktivasi tidak diterima untuk waktu yang lama, klik pada {0} tautan untuk mengirim ulang kode aktivasi.</LoginResendActivation>
+  <LoginResendActivationLink>kirim kode aktivasi</LoginResendActivationLink>
+  <LoginResendActivationCode>Klik {0} tautan untuk mengirim ulang kode aktivasi.</LoginResendActivationCode>
+  
+  <ActivateAccountOk>Akun berhasil diaktifkan!</ActivateAccountOk>
+  <ActivateAccountResultLabel>hasil aktivasi</ActivateAccountResultLabel>
+  <ActivateAccountErrorOnlyFormsAuth>aktivasi akun bisa digunakan hanya dengan otentikasi Formulir</ActivateAccountErrorOnlyFormsAuth>
+  <ActivateAccountErrorNotRequired>aktivasi akun dinonaktifkan dalam pengaturan aplikasi. Akun secara otomatis diaktifkan setelah pendaftaran.</ActivateAccountErrorNotRequired>
+  <ActivateAccountErrorAlreadyActivated>Akun sudah diaktifkan</ActivateAccountErrorAlreadyActivated>
+  <ActivateAccountErrorInvalidCode>kode aktivasi tidak valid</ActivateAccountErrorInvalidCode>
+  <ActivateAccountErrorAccountNotFound>akun tidak ditemukan</ActivateAccountErrorAccountNotFound>
+  <ActivateAccountErrorLinkBroken>link aktivasi rusak</ActivateAccountErrorLinkBroken>
+  <ActivateAccountReturnToLogin>Kembali ke halaman login</ActivateAccountReturnToLogin>
+  
+  <LoginRender>Memberikan</LoginRender>
+  
+  <LogoutTitle>Web file manager Keluar</LogoutTitle>
+  <LogoutSessionEnded>Sesi saat ini telah berakhir</LogoutSessionEnded>
+  <LogoutCloseWindow>Menutup jendela</LogoutCloseWindow>
+  <LogoutEnterAgain>login lagi</LogoutEnterAgain>
+  <LogoutClosingBrowserRequired>Perhatian! Siapa saja dapat login dalam account Anda! Jika Anda menggunakan komputer bersama, maka Anda harus menutup jendela browser (bukan hanya tab) untuk membersihkan otentikasi di browser Anda! Untuk browser Firefox Anda dapat menghapus otentikasi pada menu: Tools-&gt; Clear Membenci Sejarah ...-&gt; rincian-&gt; memeriksa Active Logins-&gt; tekan Clear Now.</LogoutClosingBrowserRequired>
+  <RecoverPasswordTitle>memulihkan password</RecoverPasswordTitle>
+  <RecoverPasswordEmailPassword>Kirim password melalui email</RecoverPasswordEmailPassword>
+  <RecoverPasswordErrorInvalidUserName>Nama pengguna tidak valid.</RecoverPasswordErrorInvalidUserName>
+  <RecoverPasswordErrorNoEmail>Pengguna ini tidak memiliki alamat email yang ditetapkan.</RecoverPasswordErrorNoEmail>
+  <RecoverPasswordErrorSendEmail>Terjadi kesalahan saat mengirim email Anda.</RecoverPasswordErrorSendEmail>
+  <RecoverPasswordSuccess>sandi Anda telah dikirim ke alamat email Anda.</RecoverPasswordSuccess>
+
+  <RecoverUserNameTitle>memulihkan nama</RecoverUserNameTitle>
+  <RecoverUserEmailName>Kirim nama melalui email</RecoverUserEmailName>
+  <RecoverUserNameErrorInvalidEmail>email pengguna yang tidak valid.</RecoverUserNameErrorInvalidEmail>
+  <RecoverUserNameErrorNoEmail>Alamat email tidak ditemukan.</RecoverUserNameErrorNoEmail>
+  <RecoverUserNameSuccess>Nama Anda telah dikirim ke alamat email Anda.</RecoverUserNameSuccess>
+
+  <ChangeEmailTitle>Ganti e-mail</ChangeEmailTitle>
+  <ChangeEmailEmail>email baru</ChangeEmailEmail>
+  <ChangeEmailSubmit>Menyerahkan</ChangeEmailSubmit>
+  <ChangeEmailStatusSuccess>Email telah diubah</ChangeEmailStatusSuccess>
+
+  <RegisterTitle>Daftar</RegisterTitle>
+  <RegisterEmail>E-mail</RegisterEmail>
+  <RegisterExtraInfo>ekstra Info</RegisterExtraInfo>
+  <RegisterCaptcha>Masukkan teks yang Anda lihat pada gambar di bawah</RegisterCaptcha>
+  <RegisterSubmit>Menyerahkan</RegisterSubmit>
+  <RegisterErrorPasswordNotMatch>Sandi tidak cocok.</RegisterErrorPasswordNotMatch>
+  <RegisterErrorUserExists>nama pengguna atau alamat email sudah digunakan.</RegisterErrorUserExists>
+  <RegisterErrorCaptchaInvalid>Teks Gambar tidak dimasukkan dengan benar</RegisterErrorCaptchaInvalid>
+  <RegisterSuccess>pengguna baru telah ditambahkan.</RegisterSuccess>
+  <RegisterActivationSent>kode aktivasi dikirim ke email Anda.</RegisterActivationSent>
+  <RegisterActivationCheckEmail>Silakan periksa kotak surat Anda (khusus folder sampah) dan ikuti petunjuk di email.</RegisterActivationCheckEmail>
+  
+  <FolderGridUserPermissionsColumn>Akses untuk pengguna</FolderGridUserPermissionsColumn>
+  <FolderGridGroupPermissionsColumn>Akses untuk kelompok</FolderGridGroupPermissionsColumn>
+
+  <LoginLinkText>Masuk</LoginLinkText>
+  <RecoverPasswordLinkText>Lupa kata sandi?</RecoverPasswordLinkText>
+  <RecoverUserNameLinkText>Lupa nama?</RecoverUserNameLinkText>
+  <RegisterLinkText>Daftar</RegisterLinkText>
+  <ChangeEmail>Ganti e-mail</ChangeEmail>
+  <LoginMobileVersionLinkText>versi mobile (Kebanyakan smartphone dan Touchpads)</LoginMobileVersionLinkText>
+
+  <FileIsNotZipArchive>File {0} tidak ZIP arsip</FileIsNotZipArchive>
+
+  <FileModificationsAuthor>Penulis</FileModificationsAuthor>
+  <FileModificationsHistory>Lihat riwayat</FileModificationsHistory>
+  <FileModificationsWindowTitle>Modifikasi dari file "{0}"</FileModificationsWindowTitle>
+  <FileModificationsTypeCreated>dibuat</FileModificationsTypeCreated>
+  <FileModificationsTypeModified>Diubah</FileModificationsTypeModified>
+  <FileModificationsTypeRenamed>Berganti nama</FileModificationsTypeRenamed>
+  <FileModificationsTypeRestored>Pulih</FileModificationsTypeRestored>
+  <FileModificationsTypeDeleted>dihapus</FileModificationsTypeDeleted>
+
+  <ChangingReadOnlyProgressMessage>Mengubah hanya membaca atribut</ChangingReadOnlyProgressMessage>
+
+  <ImageViewerWindowTitle>Image Viewer [{0}]</ImageViewerWindowTitle>
+  <ImageViewerLoadingMessage>Memuat penampil gambar</ImageViewerLoadingMessage>
+  <ImageViewerLoadingImageMessage>Memuat gambar</ImageViewerLoadingImageMessage>
+  <ImageViewerFirstImageTip>gambar pertama</ImageViewerFirstImageTip>
+  <ImageViewerPreviousImageTip>gambar sebelumnya</ImageViewerPreviousImageTip>
+  <ImageViewerRefreshTip>daftar gambar Segarkan</ImageViewerRefreshTip>
+  <ImageViewerNextImageTip>gambar berikutnya</ImageViewerNextImageTip>
+  <ImageViewerLastImageTip>gambar terakhir</ImageViewerLastImageTip>
+  <ImageViewerRunSlideShow>gambar menjalankan slide show</ImageViewerRunSlideShow>
+  <ImageViewerStopSlideShow>Hentikan gambar slide show</ImageViewerStopSlideShow>
+  <ImageViewerImageSimpleInfo>{0} / {1}, {2} ({3})</ImageViewerImageSimpleInfo>
+  <ImageViewerImageLoadErrorMessage>Gambar tidak ditemukan atau tidak dapat ditampilkan</ImageViewerImageLoadErrorMessage>
+  <ImageViewerShowImageSizeOfWindow>Tampilkan gambar dengan ukuran sebenarnya</ImageViewerShowImageSizeOfWindow>
+  <ImageViewerShowRealImageSize>klik untuk memperbesar</ImageViewerShowRealImageSize>
+
+  <PasswordExpiresTitle>sandi kedaluwarsa</PasswordExpiresTitle>
+  <PasswordExpiresMessage>sandi Anda berakhir setelah {0} hari (s)!</PasswordExpiresMessage>
+  <PasswordExpiredMessage>sandi Anda berakhir.</PasswordExpiredMessage>
+  <PasswordChangeMessage>Untuk mengubah password, pilih {0} {1} -&gt; {2} {3} pada toolbar.</PasswordChangeMessage>
+
+  <UnzipContentTotalFiles>Total file: {0} ({1})</UnzipContentTotalFiles>
+
+  <VideoConversionJobNotFound>
+    Tidak menemukan proses konversi tertentu.
+    Kemungkinan alasan:
+    1. Konversi selesai lama dan informasi tentang pekerjaan ini telah dihapus.
+    2. Proses konversi dihentikan abnormal.
+  </VideoConversionJobNotFound>
+  <VideoConversionUtilityNotFound>Tidak menemukan utilitas untuk melakukan operasi yang diminta: {0}</VideoConversionUtilityNotFound>
+  <!-- The current security principal "{0}" has insufficiant permissions to executable file "{1}".-->
+  <VideoConversionUtilityInsufficientPermissions>Saat ini pengguna "{0}" ditolak akses ke file executable "{1}".</VideoConversionUtilityInsufficientPermissions>
+  <VideoConversionOperationCancelled>operasi dibatalkan</VideoConversionOperationCancelled>
+  <VideoConversionUtilityFailed>Konversi utilitas diakhiri secara abnormal</VideoConversionUtilityFailed>
+  <VideoConversionOutputFileBusy>output file sedang digunakan oleh proses konversi lain</VideoConversionOutputFileBusy>
+
+  <VideoConvertWindowValidatorPositiveInt>Harus bilangan bulat positif</VideoConvertWindowValidatorPositiveInt>
+  <VideoConvertWindowTitle>mengkonversi video</VideoConvertWindowTitle>
+  <VideoConvertWindowInputFile>file input</VideoConvertWindowInputFile>
+  <VideoConvertWindowOutputFile>Berkas keluaran</VideoConvertWindowOutputFile>
+  <VideoConvertWindowOutputFormat>Format output</VideoConvertWindowOutputFormat>
+  <VideoConvertWindowBitrate>Bitrate (kbps)</VideoConvertWindowBitrate>
+  <VideoConvertWindowFrameResolution>resolusi bingkai</VideoConvertWindowFrameResolution>
+  <VideoConvertWindowDAR>rasio aspek layar</VideoConvertWindowDAR>
+  <VideoConvertWindowPAR>rasio aspek pixel</VideoConvertWindowPAR>
+  <VideoConvertWindowResize>Resize</VideoConvertWindowResize>
+  <VideoConvertWindowProfile>Profil</VideoConvertWindowProfile>
+  <VideoConvertWindowWidth>Lebar</VideoConvertWindowWidth>
+  <VideoConvertWindowHeight>Tinggi</VideoConvertWindowHeight>
+  <VideoConvertWindowExtractDetailsProgressMsg>Penggalian detail video</VideoConvertWindowExtractDetailsProgressMsg>
+  <VideoConvertWindowOutputFileExistsTitle>output file ada</VideoConvertWindowOutputFileExistsTitle>
+  <VideoConvertWindowOutputFileExistsMsg>file output sudah ada. Ini akan ditimpa.</VideoConvertWindowOutputFileExistsMsg>
+  <VideoConvertWindowPrepareToConvert>Bersiap untuk mengkonversi video</VideoConvertWindowPrepareToConvert>
+  <VideoConvertWindowOutputFileMatchInputFile>nama file output sesuai dengan nama file input</VideoConvertWindowOutputFileMatchInputFile>
+
+  <VideoConvertProgressWindowTitle>mengkonversi video</VideoConvertProgressWindowTitle>
+  <VideoConvertProgressWindowInputFile>file input</VideoConvertProgressWindowInputFile>
+  <VideoConvertProgressWindowOutputFile>Berkas keluaran</VideoConvertProgressWindowOutputFile>
+  <VideoConvertProgressWindowStatus>Status</VideoConvertProgressWindowStatus>
+  <VideoConvertProgressWindowStatusTerminating>mengakhiri</VideoConvertProgressWindowStatusTerminating>
+  <VideoConvertProgressWindowStatusPreparing>Mempersiapkan</VideoConvertProgressWindowStatusPreparing>
+  <VideoConvertProgressWindowStatusProgress>Langkah {0} dari {1}</VideoConvertProgressWindowStatusProgress>
+  <VideoConvertProgressWindowStatusDone>matang</VideoConvertProgressWindowStatusDone>
+
+  <PlayHtml5VideoNotSupported>Browser Anda tidak mendukung elemen video HTML 5.</PlayHtml5VideoNotSupported>
+  <PlayHtml5VideoPlayFailed>Putar video gagal</PlayHtml5VideoPlayFailed>
+  <PlayHtml5AudioPlayFailed>Putar audio gagal</PlayHtml5AudioPlayFailed>
+  <PlayHtml5AudioTitle>Judul</PlayHtml5AudioTitle>
+  <PlayHtml5AudioNotSupported>Browser Anda tidak mendukung unsur audio HTML 5.</PlayHtml5AudioNotSupported>
+  <PlayHtml5AudioArtist>Artis</PlayHtml5AudioArtist>
+  <PlayHtml5AudioAlbum>Album</PlayHtml5AudioAlbum>
+  <PlayHtml5AudioYear>Tahun</PlayHtml5AudioYear>
+  <PlayHtml5AudioDuration>Lamanya</PlayHtml5AudioDuration>
+  <PlayHtml5AudioBitrate>bitrate</PlayHtml5AudioBitrate>
+  <PlayHtml5AudioVolume>Volume</PlayHtml5AudioVolume>
+
+  <!-- Root title -->
+  <RootTitle>akar</RootTitle>
+
+  <!-- Recent feature keys -->
+  <RecentRootTitle>Baru</RecentRootTitle>
+  <RecentDeleteOnePrompt>Apakah Anda yakin ingin menghapus "{0}" dari item terbaru Anda?</RecentDeleteOnePrompt>
+  <RecentDeleteManyPrompt>Apakah Anda yakin ingin menghapus ini {0} item dari item terbaru Anda?</RecentDeleteManyPrompt>
+  <RecentPathNotExist>Jalan baru "{0}" tidak ada atau akses ditolak</RecentPathNotExist>
+  <RecentAllWithoutGroupingTitle>Semua w / o pengelompokan</RecentAllWithoutGroupingTitle>
+  <RecentEditGroupTitle>diedit</RecentEditGroupTitle>
+  <RecentViewGroupTitle>dilihat</RecentViewGroupTitle>
+  <RecentDownloadGroupTitle>download</RecentDownloadGroupTitle>
+  <RecentUploadGroupTitle>upload</RecentUploadGroupTitle>
+  <RecentCreateGroupTitle>dibuat</RecentCreateGroupTitle>
+
+  <!-- Trash feature keys -->
+  <TrashRootTitle>Sampah</TrashRootTitle>
+  <TrashLabelDateDeleted>Tanggal dihapus</TrashLabelDateDeleted>
+  <TrashDeleteOnePrompt>Apakah Anda yakin ingin menghapus secara permanen "{0}" dari Sampah?</TrashDeleteOnePrompt>
+  <TrashDeleteManyPrompt>Apakah Anda yakin ingin menghapus ini {0} item dari Sampah secara permanen?</TrashDeleteManyPrompt>
+  <TrashEmptyTrashLabel>Sampah kosong</TrashEmptyTrashLabel>
+  <TrashRestoreSelectedLabel>Mengembalikan</TrashRestoreSelectedLabel>
+  <TrashRestoreAllLabel>Pulihkan semua</TrashRestoreAllLabel>
+  <TrashEmptyTrashPrompt>Apakah Anda yakin ingin mengosongkan Sampah?</TrashEmptyTrashPrompt>
+  <TrashRestoreAllPrompt>Apakah Anda yakin ingin mengembalikan semua item dari Sampah?</TrashRestoreAllPrompt>
+  <TrashProgressRestoring>Pulih dari Sampah</TrashProgressRestoring>
+  <TrashFolderNotFound>direktori sampah tidak ditemukan</TrashFolderNotFound>
+  <TrashBalloonRestored>item dipulihkan: {0} dari {1}</TrashBalloonRestored>
+  <TrashDeleteDirectlyLabel>Hapus langsung tanpa melepas ke Sampah</TrashDeleteDirectlyLabel>
+  <TrashUsedSpaceHint>{0} digunakan</TrashUsedSpaceHint>
+  <TrashLimitSizeHint>Digunakan {0} dari {1} ({2})</TrashLimitSizeHint>
+  <TrashLargeItemsShelfTimeHint>Waktu penyimpanan benda-benda lebih besar dari {0}: {1} hari (s)</TrashLargeItemsShelfTimeHint>
+  <TrashSmallItemsShelfTimeHint>Untuk semua orang lain: {0} hari (s)</TrashSmallItemsShelfTimeHint>
+  <TrashItemsShelfTimeHint>Waktu penyimpanan benda-benda: {0} hari (s)</TrashItemsShelfTimeHint>
+  <TrashAvailableSpaceHint>Maksimum ukuran tersedia {0}</TrashAvailableSpaceHint>
+  <TrashDeletedFromFolderHint>Dihapus dari {0}</TrashDeletedFromFolderHint>
+  <TrashExceededMessage>Objek berikut terlalu besar dan tidak dapat ditemukan pada Sampah (pembatasan {0} terlampaui):</TrashExceededMessage>
+  <TrashErrorSuffixMessage>Silakan coba untuk memeriksa opsi "{0}" dan kemudian menghapus file (s) selamanya di luar pengambilan</TrashErrorSuffixMessage>
+
+  <!-- Shared by link -->
+  <SharedByLinkRootTitle>Dibagikan dengan tautan</SharedByLinkRootTitle>
+
+  <!-- Shared for you -->
+  <SharedForYouRootTitle>Bersama dengan Anda</SharedForYouRootTitle>
+  <SharedForYouUnableToGetUrl>Tidak dapat mendapatkan URL</SharedForYouUnableToGetUrl>
+
+  <!-- Watch for modifications -->
+  <WatchForModifsCommand>Perhatikan modifikasi</WatchForModifsCommand>
+  <WatchForModifsStartCommand>mulai menonton</WatchForModifsStartCommand>
+  <WatchForModifsEditCommand>Ubah menonton</WatchForModifsEditCommand>
+  <WatchForModifsStopCommand>berhenti menonton</WatchForModifsStopCommand>
+  <WatchForModifsViewChangesCommand>Lihat perubahan</WatchForModifsViewChangesCommand>
+  <WatchForModifsSubscriptionSuccessMessage>Anda berhasil berlangganan untuk modifikasi "{0}"</WatchForModifsSubscriptionSuccessMessage>
+  <WatchForModifsStopSuccessMessage>Pemantauan "{0}" telah dinonaktifkan berhasil</WatchForModifsStopSuccessMessage>
+  <WatchForModifsIncludingNestedLabel>Pertimbangkan file bersarang, folder</WatchForModifsIncludingNestedLabel>
+  <WatchForModifsParentWatchExistMessage>Untuk item yang dipilih telah sudah ditetapkan monitoring untuk folder induk "{0}".</WatchForModifsParentWatchExistMessage>
+  <WatchForModifsRootFolder>Alerts</WatchForModifsRootFolder>
+  <WatchForModifsStartProgressLoading>aktifkan menonton</WatchForModifsStartProgressLoading>
+  <WatchForModifsStopProgressLoading>Terminatie menonton</WatchForModifsStopProgressLoading>
+  <WatchForModifsIconHint>menonton diaktifkan untuk modifikasi</WatchForModifsIconHint>
+  <WatchForModifsNotifCheckBox>Beritahu tentang modifikasi oleh email:</WatchForModifsNotifCheckBox>
+  <WatchForModifsWatchedUsersCheckBox>Memantau hanya pengguna (biarkan kosong jika Anda memantau semua):</WatchForModifsWatchedUsersCheckBox>
+  <WatchForModifsIgnoreOwnerCheckBox>Mengabaikan perubahan saya sendiri</WatchForModifsIgnoreOwnerCheckBox>
+  <WatchForModifsActionsCheckBox>Memantau semua tindakan (atau beberapa tindakan dari daftar di bawah)</WatchForModifsActionsCheckBox>
+  <WatchForModifsNestedItemsWarning>Perhatian! Bila Anda menambahkan pemantauan untuk folder yang dipilih, semua file yang tertutup dan folder yang pemantauan individu telah ditambahkan sebelumnya, pemantauan akan dihapus. Apakah Anda ingin melanjutkan?</WatchForModifsNestedItemsWarning>
+
+  <WelcomeWindowHideCheckboxLabel>Jangan tampilkan ini dengan penebangan berikutnya di</WelcomeWindowHideCheckboxLabel>
+
+  <LogsGridMoreInfoColumn>Info lebih lanjut</LogsGridMoreInfoColumn>
+  <LogsGridDetailsTitle>rincian</LogsGridDetailsTitle>
+  <LogsGridPhysPathColumn>jalur fisik</LogsGridPhysPathColumn>
+  <LogsGridIsFolderColumn>Map?</LogsGridIsFolderColumn>
+  <LogsGridIsPublicColumn>Publik?</LogsGridIsPublicColumn>
+  <LogsGridByWebDavColumn>WebDAV?</LogsGridByWebDavColumn>
+
+  <NoCommentsYetHint>Belum ada komentar</NoCommentsYetHint>
+  <NoHistoryYetHint>Tidak ada riwayat belum</NoHistoryYetHint>
+
+  <DetailsPropertyValuesCouldNotBeWritten>Gagal menyimpan nilai properti, mabe jenis file tidak mendukung kemungkinan tersebut atau ada kesalahan dalam aplikasi terkait dengan file tersebut.</DetailsPropertyValuesCouldNotBeWritten>
+
+  <AdminCommandHelp>Membantu</AdminCommandHelp>
+  <AdminCommandAddUser>Tambahkan pengguna</AdminCommandAddUser>
+  <AdminCommandAddGroup>menambahkan grup</AdminCommandAddGroup>
+  <AdminCommandRemoveUser>Hapus pengguna</AdminCommandRemoveUser>
+
+  <AdminCommandSelectUsers>Tambahkan pengguna</AdminCommandSelectUsers>
+  <AdminCommandSelectGroups>Tambahkan kelompok</AdminCommandSelectGroups>
+  <AdminCommandRemoveUsers>Hapus pengguna</AdminCommandRemoveUsers>
+  <AdminCommandRemoveGroups>Hapus kelompok</AdminCommandRemoveGroups>
+  <AdminUsersGroups>Anggota dari</AdminUsersGroups>
+  <AdminSearchUserEmptyText>Masukkan nama pengguna</AdminSearchUserEmptyText>
+  <AdminSearchGroupEmptyText>Masukkan nama grup</AdminSearchGroupEmptyText>
+  <AdminUsersGroupAlreadyExists>Sebuah kelompok (s) dengan nama ini (s) telah ditambahkan</AdminUsersGroupAlreadyExists>
+
+  <AdminApplicationLoading>Admin memuat panel</AdminApplicationLoading>
+  <AdminTitle>Administrasi</AdminTitle>
+  <AdminUsersEditUser>mengedit pengguna</AdminUsersEditUser>
+  <AdminUsersSetUserPassword>set sandi</AdminUsersSetUserPassword>
+  <AdminUsersViewGroups>Lihat grup</AdminUsersViewGroups>
+  <AdminUsersViewFolders>Lihat folder</AdminUsersViewFolders>
+  <AdminUsersDeleteUserPrompt>Apakah Anda yakin ingin menghapus user (s) "{0}"?</AdminUsersDeleteUserPrompt>
+  <AdminUsersDeletedUsers>{0} user (s) dihapus.</AdminUsersDeletedUsers>
+  <AdminUsersUserNotFound>Pengguna dengan nama ini tidak ditemukan</AdminUsersUserNotFound>
+  <AdminUsersPropertiesTitle>pengguna properti</AdminUsersPropertiesTitle>
+  <AdminUsersSetPasswordTitle>Set password user</AdminUsersSetPasswordTitle>
+  <AdminUsersGeneralInfo>Informasi pengguna</AdminUsersGeneralInfo>
+  <AdminUsersUserEmail>E-mail</AdminUsersUserEmail>
+  <AdminUsersEmptyName>Nama pengguna tidak boleh kosong</AdminUsersEmptyName>
+  <AdminUsersEmptyPassword>password pengguna tidak boleh kosong</AdminUsersEmptyPassword>
+  <AdminUsersIncorrectName>Ada simbol yang salah dalam nama pengguna</AdminUsersIncorrectName>
+  <AdminUsersAlreadyExists>Pengguna dengan nama ini sudah ada</AdminUsersAlreadyExists>
+  <AdminUsersEmailAlreadyExists>Pengguna dengan ini e-mail sudah ada</AdminUsersEmailAlreadyExists>
+  <AdminUsersPasswordsNotMatch>Sandi tidak cocok</AdminUsersPasswordsNotMatch>
+  <AdminUsersRenameWarning>Setelah mengganti nama pengguna perlu untuk mengubah password, jika saat ini web-folder link yang akan salah</AdminUsersRenameWarning>
+  <AdminUsersLicenseRestriction>lisensi Anda tidak memungkinkan Anda untuk membuat lebih dari {0} pengguna</AdminUsersLicenseRestriction>
+  <AdminUsersCountInfoWithLimit>Total pengguna: {0} dari {1}</AdminUsersCountInfoWithLimit>
+  <AdminUsersCountInfo>Total pengguna: {0}</AdminUsersCountInfo>
+
+  <AdminGroupsEditGroup>Edit grup</AdminGroupsEditGroup>
+  <AdminGroupsRemoveGroup>menghapus grup</AdminGroupsRemoveGroup>
+  <AdminGroupsDeleteGroupPrompt>Apakah Anda yakin ingin menghapus grup (s) "{0}"?</AdminGroupsDeleteGroupPrompt>
+  <AdminGroupsDeletedGroups>{0} kelompok (s) dihapus.</AdminGroupsDeletedGroups>
+  <AdminGroupsGroupNotFound>Sebuah kelompok dengan nama ini tidak ditemukan</AdminGroupsGroupNotFound>
+  <AdminGroupsViewUsers>Lihat pengguna</AdminGroupsViewUsers>
+  <AdminGroupsProperties>properti</AdminGroupsProperties>
+  <AdminGroupsPropertiesTitle>sifat kelompok</AdminGroupsPropertiesTitle>
+  <AdminGroupsGeneralInfo>informasi grup</AdminGroupsGeneralInfo>
+  <AdminGroupsUserNamePrompt>Masukkan nama pengguna</AdminGroupsUserNamePrompt>
+  <AdminGroupsUsers>Anggota kelompok</AdminGroupsUsers>
+  <AdminGroupsUserAlreadyExists>Seorang pengguna (s) dengan nama ini (s) telah ditambahkan</AdminGroupsUserAlreadyExists>
+  <AdminGroupsEmptyName>Nama grup tidak boleh kosong</AdminGroupsEmptyName>
+  <AdminGroupsIncorrectName>Ada simbol salah dalam nama grup</AdminGroupsIncorrectName>
+  <AdminGroupsAlreadyExists>Sebuah kelompok dengan nama ini sudah ada</AdminGroupsAlreadyExists>
+  <AdminGroupsCountInfo>Jumlah kelompok: {0}</AdminGroupsCountInfo>
+
+  <AdminLanguagesTab>lokalisasi</AdminLanguagesTab>
+  <AdminLanguagesTabMessage>Untuk mengedit file lokalisasi, pilih bahasa yang diinginkan dalam daftar, klik string lokal untuk mengedit. Setelah modifikasi tombol klik "Simpan"</AdminLanguagesTabMessage>
+  <AdminLangGridKeyColumn>nama kunci</AdminLangGridKeyColumn>
+  <AdminLangGridDefaultColumn>Inggris</AdminLangGridDefaultColumn>
+  <AdminEnterLanguageNameTitle>Masukkan nama bahasa</AdminEnterLanguageNameTitle>
+  <AdminLangConfirmRefreshTitle>Segarkan konfirmasi</AdminLangConfirmRefreshTitle>
+  <AdminLangConfirmRefreshMessage>Perhatian! Data tidak disimpan. Apakah Anda ingin menyimpan perubahan sekarang?</AdminLangConfirmRefreshMessage>
+  <AdminLangAmountInfo>Kunci diisi: {0} dari {1} (nilai kosong: {2})</AdminLangAmountInfo>
+  <AdminLangSaveToCSV>Ekspor ke CSV</AdminLangSaveToCSV>
+  <AdminLangLoadFromCSV>Beban dari CSV</AdminLangLoadFromCSV>
+
+  <AdminDbMaintenanceTab>Pemeliharaan DB</AdminDbMaintenanceTab>
+  <AdminDbMaintenanceInfoTitle>Info</AdminDbMaintenanceInfoTitle>
+  <AdminDbMaintenanceInfoPathLabel>path file DB</AdminDbMaintenanceInfoPathLabel>
+  <AdminDbMaintenanceInfoSizeLabel>ukuran file DB</AdminDbMaintenanceInfoSizeLabel>
+  <AdminDbMaintenanceCompactTitle>kompak database</AdminDbMaintenanceCompactTitle>
+  <AdminDbMaintenanceCompactNote>Dalam rangka untuk mengurangi ukuran file database, silakan klik tombol di bawah. Hal ini diperlukan untuk melakukan kompresi database secara berkala, karena, misalnya, setelah penghapusan beberapa link publik atau log lama mencatat ukuran file DB tidak berkurang tidak aktif.</AdminDbMaintenanceCompactNote>
+  <AdminDbMaintenanceCompactButton>kompak DB</AdminDbMaintenanceCompactButton>
+  <AdminDbMaintenanceCompactSuccess>DB berhasil dipadatkan.
+Ukuran file lama: {0}
+Ukuran file baru: {1}</AdminDbMaintenanceCompactSuccess>
+  <AdminDbMaintenanceCompactAutoNote>Anda juga dapat mengaktifkan database kompresi otomatis setelah penghapusan operasi catatan, bagaimanapun, tidak dianjurkan karena kunci mungkin lebih sering dari dasar dan dapat meningkatkan durasi beberapa permintaan. Perhatian! Setelah mengubah pengaturan ini aplikasi akan restart!</AdminDbMaintenanceCompactAutoNote>
+  <AdminDbMaintenanceCompactAutoCheckBox>Mengaktifkan / menonaktifkan auto-kompak DB</AdminDbMaintenanceCompactAutoCheckBox>
+  <AdminDbMaintenanceCompactAutoSaveButton>Menyimpan</AdminDbMaintenanceCompactAutoSaveButton>
+  <AdminDbMaintenanceCompactAutoSaveSuccess>Perubahan DB сompression otomatis telah selesai dengan sukses. Halaman ini akan diperbarui segera.</AdminDbMaintenanceCompactAutoSaveSuccess>
+  <AdminDbMaintenanceEnableLogLabel>Pilih DB query tingkat logging (ke data / debug.log)</AdminDbMaintenanceEnableLogLabel>
+  <AdminDbMaintenanceSettingsSaveSuccess>pengaturan DB berhasil disimpan. Halaman yang akan dimuat ulang</AdminDbMaintenanceSettingsSaveSuccess>
+  <AdminDbMaintenanceSettingsChangeNote>Perhatian! Setelah menyimpan pengaturan aplikasi akan restart segera!</AdminDbMaintenanceSettingsChangeNote>
+  <AdminDbMaintenanceInsertIntervalLabel>Interval (dalam menit) menambahkan acara ke DB. Jika Anda menentukan 0, penyisipan akan muncul langsung setelah peristiwa.</AdminDbMaintenanceInsertIntervalLabel>
+  <AdminDbMaintenanceAdvDbParamsTitle>parameter koneksi canggih DB</AdminDbMaintenanceAdvDbParamsTitle>
+  <AdminDbMaintenanceStatTitle>Statistik (tergantung pada tingkat log DB DurationExecution)</AdminDbMaintenanceStatTitle>
+  <AdminDbMaintenanceStatDurationReadLabel>Rata membaca batas waktu</AdminDbMaintenanceStatDurationReadLabel>
+  <AdminDbMaintenanceStatDurationWriteLabel>Rata menulis batas waktu</AdminDbMaintenanceStatDurationWriteLabel>
+  <AdminDbMaintenanceStatDurationCompactLabel>Rata batas waktu kompak</AdminDbMaintenanceStatDurationCompactLabel>
+  <AdminDbMaintenanceStatNoData>Tidak ada data</AdminDbMaintenanceStatNoData>
+  <AdminDbMaintenanceStatGetButton>mengumpulkan statistik</AdminDbMaintenanceStatGetButton>
+
+  <AdminMiscTab>Lain-lain</AdminMiscTab>
+  <AdminMiscLoadADAccountsTitle>Memuat akun Active Directory</AdminMiscLoadADAccountsTitle>
+  <AdminMiscLoadADAccountsLoadButton>Beban</AdminMiscLoadADAccountsLoadButton>
+  <AdminMiscLoadADAccountsResetButton>ulang</AdminMiscLoadADAccountsResetButton>
+  <AdminMiscLoadADAccountsLdap>kontainer ldap</AdminMiscLoadADAccountsLdap>
+  <AdminMiscLoadADAccountsToFile>untuk mengajukan</AdminMiscLoadADAccountsToFile>
+  <AdminMiscLoadADAccountsSuccessMessage>account Active Directory berhasil dimuat</AdminMiscLoadADAccountsSuccessMessage>
+  <AdminMiscLoadADAccountsInfo>Di sini Anda dapat menghasilkan file yang berisi seluruh Active struktur pengguna Directory. file ini diperlukan jika Anda menggunakan file statis sebagai penyimpanan Info AD. File yang sama dapat dihasilkan melalui AdManager utilitas. Untuk info lebih lanjut lihat &lt;b&gt; ADAccountsFilePath &lt;/b&gt; deskripsi parameter di {0} Pedoman {1}.</AdminMiscLoadADAccountsInfo>
+
+  <AdminMiscManageQuotasTitle>mengelola kuota</AdminMiscManageQuotasTitle>
+  <AdminMiscManageQuotasInfo>Permintaan yang ada atau membuat kuota baru untuk membatasi ruang diperbolehkan untuk folder, didukung oleh Sumber Daya File Server Manager.</AdminMiscManageQuotasInfo>
+  <AdminMiscManageQuotasFolderPath>path folder</AdminMiscManageQuotasFolderPath>
+  <AdminMiscManageQuotasQuota>Kuota</AdminMiscManageQuotasQuota>
+  <AdminMiscManageQuotasGetQuota>Dapatkan kuota</AdminMiscManageQuotasGetQuota>
+  <AdminMiscManageQuotasSetQuota>set kuota</AdminMiscManageQuotasSetQuota>
+
+  <AdminMiscFoldersFromGPOLTitle>folder beban dari Group Policy</AdminMiscFoldersFromGPOLTitle>
+  <AdminMiscFoldersFromGPOLComputerName>Nama komputer</AdminMiscFoldersFromGPOLComputerName>
+  <AdminMiscFoldersFromGPOLFilePath>path file</AdminMiscFoldersFromGPOLFilePath>
+  <AdminMiscFoldersFromGPOLMoreInfoLink>Info lebih lanjut</AdminMiscFoldersFromGPOLMoreInfoLink>
+  <AdminMiscFoldersFromGPOLResetButton>ulang</AdminMiscFoldersFromGPOLResetButton>
+  <AdminMiscFoldersFromGPOLLoadButton>Beban</AdminMiscFoldersFromGPOLLoadButton>
+  <AdminMiscFoldersFromGPOLFromDC>dari DC</AdminMiscFoldersFromGPOLFromDC>
+  <AdminMiscFoldersFromGPOLFromFile>dari file</AdminMiscFoldersFromGPOLFromFile>
+  <AdminMiscFoldersTargetLabel>Untuk mengimpor pengguna / kelompok kondisi di ...</AdminMiscFoldersTargetLabel>
+  <AdminMiscFoldersTargetFilter>menyaring</AdminMiscFoldersTargetFilter>
+  <AdminMiscFoldersTargetPermission>izin</AdminMiscFoldersTargetPermission>
+  <AdminMiscFoldersFromGPOLSuccessMessage>Folder berhasil dimuat &lt;br /&gt; New:. {0}, diperbarui: {1}.</AdminMiscFoldersFromGPOLSuccessMessage>
+  <AdminMiscFoldersFromGPOLInfo>Anda dapat memuat (atau memperbarui) daftar folder dari pengaturan Pemetaan Group Policy Drive di Domain Controller. Di lapangan di bawah Anda dapat memasukkan nama komputer yang pengaturan Kebijakan Grup akan dimuat (atau jika dibiarkan kosong, maka domain saat ini akan digunakan), atau jalur ke file dengan pengaturan Drives yang dipetakan.</AdminMiscFoldersFromGPOLInfo>
+
+  <AdminAnonymFoldersTab>folder Anonymous</AdminAnonymFoldersTab>
+  <AdminAnonymFoldersDeleteFolderPrompt>Apakah Anda yakin ingin menghapus {0} dipilih folder anonim?</AdminAnonymFoldersDeleteFolderPrompt>
+  
+  <AdminAnonymFoldersDescription>Shared folder / file - ini adalah folder / file yang tidak memerlukan otentikasi pengguna *, yang berarti bahwa mereka yang tersedia untuk semua pengunjung * (jika mereka memiliki link). Semua pengguna dapat membuat folder tersebut / file dari menu "Share &amp;rarr; Buat tautan publik". Namun, shared folder mungkin memiliki izin terbatas: untuk upload, download, file / folder daftar. Berikut adalah tabel link ke shared folder / file yang dibuat oleh pengguna. Bekerja link publik memiliki benar yakin bahwa Penangan \ Anonymousdownload.ashx memungkinkan akses anonim ke IIS. Anda dapat memeriksa ini di halaman &lt;a target="_blank" href="{0}"&gt; Diagnostics &lt;/a&gt;. Pastikan bahwa account pengguna anonim ditugaskan untuk Penangan \ Anonymousdownload.ashx memiliki NTFS izin membaca / menulis untuk berbagi folder / file &lt;br /&gt; * &amp;nbsp;. &amp;Mdash; &amp;nbsp; jika Anda tidak menentukan pengguna, yang hanya diperbolehkan akses.</AdminAnonymFoldersDescription>
+  <AdminAnonymFoldersLinkOwnerColumn>Pemilik</AdminAnonymFoldersLinkOwnerColumn>
+  <AdminAnonymFoldersEmailsColumn>Email untuk notifikasi</AdminAnonymFoldersEmailsColumn>
+  <AdminAnonymFoldersAccessForUsersColumn>Akses untuk pengguna</AdminAnonymFoldersAccessForUsersColumn>
+  <AdminAnonymFoldersPersonalMessageColumn>Pesan pribadi</AdminAnonymFoldersPersonalMessageColumn>
+  <AdminAnonymFoldersOverwriteOnUploadHint> (Menimpa: {0})</AdminAnonymFoldersOverwriteOnUploadHint>
+  <AdminAnonymFoldersRootPathColumn>jalur akar</AdminAnonymFoldersRootPathColumn>
+  <AdminAnonymFoldersKeysColumn>kunci-kunci</AdminAnonymFoldersKeysColumn>
+  <AdminAnonymFoldersShortColumn>link pendek</AdminAnonymFoldersShortColumn>
+  <AdminAnonymFoldersPropertiesTitle>properti folder Anonymous</AdminAnonymFoldersPropertiesTitle>
+  <AdminAnonymFoldersAdditionalInfo>Informasi tambahan</AdminAnonymFoldersAdditionalInfo>
+  <AdminAnonymFoldersLinkLabel>Link untuk akses</AdminAnonymFoldersLinkLabel>
+  <AdminAnonymFoldersPathNotSpecified>Jalur fisik tidak diatur</AdminAnonymFoldersPathNotSpecified>
+  <AdminAnonymFoldersCreatedForColumn>Tujuan</AdminAnonymFoldersCreatedForColumn>
+
+  <AdminFoldersTab>folder</AdminFoldersTab>
+  <AdminFoldersAddFolder>Tambah Folder</AdminFoldersAddFolder>
+  <AdminFoldersEditFolder>mengedit folder</AdminFoldersEditFolder>
+  <AdminFoldersRemoveFolder>Hapus folder</AdminFoldersRemoveFolder>
+  <AdminFoldersDeleteFolderPrompt>Apakah Anda yakin ingin menghapus folder "{0}"?</AdminFoldersDeleteFolderPrompt>
+  <AdminFoldersFolderNotFound>Sebuah folder dengan nama ini tidak ditemukan</AdminFoldersFolderNotFound>
+  <AdminFoldersPropertiesTitle>properti folder</AdminFoldersPropertiesTitle>
+  <AdminFoldersGeneralInfo>Informasi Umum</AdminFoldersGeneralInfo>
+  <AdminFoldersFolderRemoteWarningForms>Catatan! folder ini jauh bersama. Periksa {0} FAQ: bagaimana berbagi folder terpencil {1}</AdminFoldersFolderRemoteWarningForms>
+  <AdminFoldersFolderRemoteWarningWin>Catatan! folder ini jauh bersama. Anda dapat menyembunyikan beberapa folder / file jika pengguna tidak memiliki hak untuk membacanya. Lihat {0} FAQ: cara menyembunyikan file / folder yang pengguna tidak memiliki hak untuk membaca {1}</AdminFoldersFolderRemoteWarningWin>
+  <AdminFoldersFolderPath>jalur fisik</AdminFoldersFolderPath>
+  <AdminFoldersLocationPath>tempat</AdminFoldersLocationPath>
+  <AdminFoldersFolderCreate>Membuat folder</AdminFoldersFolderCreate>
+  <AdminFoldersFolderCreateProcess>membuat folder</AdminFoldersFolderCreateProcess>
+  <AdminFoldersFolderCreateContainsPattern>Folder tidak dapat dibuat karena mengandung pola</AdminFoldersFolderCreateContainsPattern>
+  <AdminFoldersFolderCreateSuccessfully>Folder "{0}" telah berhasil dibuat.</AdminFoldersFolderCreateSuccessfully>
+  <AdminFoldersFolderOptional> (pilihan)</AdminFoldersFolderOptional>
+  <AdminFoldersFolderLimitations>keterbatasan</AdminFoldersFolderLimitations>
+  <AdminFoldersFolderDescription>Deskripsi</AdminFoldersFolderDescription>
+  <AdminFoldersFolderQuota>Kuota</AdminFoldersFolderQuota>
+  <AdminFoldersFolderQuotaHint>Permintaan yang ada atau membuat kuota baru untuk membatasi ruang diperbolehkan untuk folder, didukung oleh Sumber Daya File Server Manager.</AdminFoldersFolderQuotaHint>
+  <AdminFoldersFolderQuotaMoreInfoLink>Info lebih lanjut</AdminFoldersFolderQuotaMoreInfoLink>
+  <AdminFoldersPermissions>izin</AdminFoldersPermissions>
+  <AdminFoldersPermissionsFor>Izin untuk {0}</AdminFoldersPermissionsFor>
+  <AdminFoldersUsersGroups>Pengguna dan kelompok</AdminFoldersUsersGroups>
+  <AdminFoldersAccessControl>Kontrol akses</AdminFoldersAccessControl>
+  <AdminFoldersCreate>Membuat</AdminFoldersCreate>
+  <AdminFoldersDelete>Menghapus</AdminFoldersDelete>
+  <AdminFoldersRename>Ganti nama</AdminFoldersRename>
+  <AdminFoldersUpload>Upload</AdminFoldersUpload>
+  <AdminFoldersDownload>Download</AdminFoldersDownload>
+  <AdminFoldersZipDownload>Zip dan Download</AdminFoldersZipDownload>
+  <AdminFoldersZip>Zip</AdminFoldersZip>
+  <AdminFoldersUnzip>Zip membongkar</AdminFoldersUnzip>
+  <AdminFoldersCut>Memotong</AdminFoldersCut>
+  <AdminFoldersCopy>Salinan</AdminFoldersCopy>
+  <AdminFoldersListFiles>Tampilkan file</AdminFoldersListFiles>
+  <AdminFoldersListFolders>Tampilkan folder</AdminFoldersListFolders>
+  <AdminFoldersModify>Memodifikasi</AdminFoldersModify>
+  <AdminFoldersBulkMailing>mailing massal</AdminFoldersBulkMailing>
+  <AdminFoldersAnonymViewContent>daftar file melalui link publik</AdminFoldersAnonymViewContent>
+  <AdminFoldersAnonymDownload>Download melalui tautan publik</AdminFoldersAnonymDownload>
+  <AdminFoldersAnonymUpload>Upload melalui tautan publik</AdminFoldersAnonymUpload>
+  <AdminFoldersWatch>Menonton</AdminFoldersWatch>
+  <AdminFoldersDescription>Anda dapat menambahkan folder secara manual atau mengkonversi folder yang ada jika Anda menggunakan drive di kebijakan Group. Untuk info lebih lanjut lihat {0} Bantuan {1}.</AdminFoldersDescription>
+
+  <AdminFoldersPermissionsForRegex>Anda juga dapat menggunakan ekspresi reguler. Cukup masukkan &lt;b&gt; {0} &lt;/b&gt; di awal bidang di atas dan kemudian ekspresi reguler, misalnya:</AdminFoldersPermissionsForRegex>
+  <AdminFoldersPermissionsForRegexUsers>{0} (memberikan akses untuk setiap user) &lt;br /&gt; {1} (ekspresi reguler ini berarti dua pengguna: jdoe dan Mike)</AdminFoldersPermissionsForRegexUsers>
+  <AdminFoldersPermissionsForRegexGroups>{0} (memberikan akses untuk setiap kelompok) &lt;br /&gt; {1} (ekspresi reguler ini berarti semua kelompok dengan "Mahasiswa" di nama mereka)</AdminFoldersPermissionsForRegexGroups>
+
+  <AdminFoldersListRestrictions>Pembatasan tampilan</AdminFoldersListRestrictions>
+  <AdminFoldersCreateRestrictions>Pembatasan penciptaan file</AdminFoldersCreateRestrictions>
+  <AdminFoldersRestrictionAllow>Mengizinkan</AdminFoldersRestrictionAllow>
+  <AdminFoldersRestrictionDeny>Menyangkal</AdminFoldersRestrictionDeny>
+  <AdminFoldersRestrictionExtensions>ekstensi</AdminFoldersRestrictionExtensions>
+  <AdminFoldersUserNamePrompt>Masukkan nama pengguna</AdminFoldersUserNamePrompt>
+  <AdminFoldersUserNameEmptyText>Pilih nama pengguna</AdminFoldersUserNameEmptyText>
+  <AdminFoldersUserNameNotSelected>Anda harus memilih nama pengguna</AdminFoldersUserNameNotSelected>
+  <AdminFoldersUserAlreadyExists>Pengguna ini telah ditetapkan ke folder</AdminFoldersUserAlreadyExists>
+  <AdminFoldersGroupNamePrompt>Masukkan nama grup</AdminFoldersGroupNamePrompt>
+  <AdminFoldersGroupNameEmptyText>Pilih nama grup</AdminFoldersGroupNameEmptyText>
+  <AdminFoldersGroupNameNotSelected>Anda harus memilih nama grup</AdminFoldersGroupNameNotSelected>
+  <AdminFoldersGroupAlreadyExists>Kelompok ini telah ditetapkan ke folder</AdminFoldersGroupAlreadyExists>
+  <AdminFoldersEmptyName>Nama folder tidak boleh kosong</AdminFoldersEmptyName>
+  <AdminFoldersEmptyPath>jalur folder tidak boleh kosong</AdminFoldersEmptyPath>
+  <AdminFoldersIncorrectName>Ada simbol salah dalam nama folder</AdminFoldersIncorrectName>
+  <AdminFoldersAlreadyExists>Sebuah folder dengan nama dan lokasi ini sudah ada</AdminFoldersAlreadyExists>
+  <AdminFoldersSharesButton>saham yang ada</AdminFoldersSharesButton>
+  <AdminFoldersTestAccessButton>akses tes</AdminFoldersTestAccessButton>
+  <AdminFoldersTestIndexingButton>uji pengindeksan</AdminFoldersTestIndexingButton>
+  <AdminFoldersShareNameTitle>saham yang ada</AdminFoldersShareNameTitle>
+  <AdminFoldersShareNameEmptyText>Pilih share</AdminFoldersShareNameEmptyText>
+  <AdminFoldersShareNameNotSelected>Anda harus memilih saham</AdminFoldersShareNameNotSelected>
+  <AdminFoldersGetQuotaButton>Dapatkan kuota</AdminFoldersGetQuotaButton>
+  <AdminFoldersSetQuotaButton>set kuota</AdminFoldersSetQuotaButton>
+  <AdminCommonFilterField>Menyaring</AdminCommonFilterField>
+  <AdminCommonValidateField>Mengesahkan</AdminCommonValidateField>
+  <AdminFoldersRootNameUsed>Silakan gunakan nama lain untuk folder bukan "{0}"</AdminFoldersRootNameUsed>
+  <AdminFoldersFolderFilterSuccess>Validasi filter berlangsung sukses</AdminFoldersFolderFilterSuccess>
+
+  <AdminTestAccessGoodResult>folder "{0}" ada dan dapat dibaca.</AdminTestAccessGoodResult>
+  <AdminTestAccessBadResult>Folder "{0}" tidak ada atau tidak ada NTFS baca izin atau tidak ada akses jaringan untuk aplikasi identitas!</AdminTestAccessBadResult>
+  <AdminTestAccessErrorResult>Kesalahan saat memeriksa akses ke folder "{0}": {1}</AdminTestAccessErrorResult>
+  <AdminTestIndexingErrorResult>Kesalahan saat memeriksa pengindeksan untuk folder "{0}":
+{1}</AdminTestIndexingErrorResult>
+  <AdminTestIndexingYesResult>direktori "{0}" diindeks</AdminTestIndexingYesResult>
+  <AdminTestIndexingNoResult>direktori "{0}" tidak diindeks</AdminTestIndexingNoResult>
+  <AdminTestIndexingUnknownResult>Tidak dapat menentukan apakah direktori "{0}" diindeks.</AdminTestIndexingUnknownResult>
+  <AdminTestIndexingAddIfNotIndexed>Apakah Anda ingin menambahkan folder ini untuk pengindeksan, jika sudah diindeks belum?</AdminTestIndexingAddIfNotIndexed>
+  <ProgressTestAccess>memeriksa akses</ProgressTestAccess>
+  <ProgressTestIndexing>memeriksa pengindeksan</ProgressTestIndexing>
+  <AdminHowToIndexingLocationLink>Untuk indeks folder, lihat Bantuan untuk {0}</AdminHowToIndexingLocationLink>
+
+  <AdminUsersListAll>Semua pengguna</AdminUsersListAll>
+  <AdminUsersListDACL>Pengguna dari ACL</AdminUsersListDACL>
+  <AdminGroupsListAll>semua kelompok</AdminGroupsListAll>
+  <AdminGroupsListDACL>Kelompok dari ACL</AdminGroupsListDACL>
+  <AdminDACLStringLabel>izin ACL</AdminDACLStringLabel>
+
+  <AdminCommonCustomField>Tanah adat</AdminCommonCustomField>
+  <AdminCommonSettingsChangeWarning>Perubahan akan berlaku setelah re login (atau setelah restart aplikasi untuk akses Webdav).</AdminCommonSettingsChangeWarning>
+
+  <AdminCommonAllowedFoldersPathsTitle>Diizinkan jalur folder</AdminCommonAllowedFoldersPathsTitle>
+  <AdminCommonNotAllowedFolderPath>Anda dapat membuat akses hanya untuk folder tersebut atau subfolder: {0}</AdminCommonNotAllowedFolderPath>
+
+  <AdminLogsTab>Log</AdminLogsTab>
+
+  <AdminSettingsTab>pengaturan</AdminSettingsTab>
+
+  <AdminLogsErrorsTab>log kesalahan</AdminLogsErrorsTab>
+  <AdminLogsErrorsClearBtn>Bersih</AdminLogsErrorsClearBtn>
+  <AdminLogsErrorsClearUsersCountExceededBtn>catatan yang jelas dengan kesalahan pengguna melebihi batas kuantitas</AdminLogsErrorsClearUsersCountExceededBtn>
+
+  <AdminFoldersCreateHint>Izinkan / Deny tindakan dari menu "New": file baru, folder baru, gambar baru, file dokumen baru.</AdminFoldersCreateHint>
+  <AdminFoldersDeleteHint>Izinkan / Deny menghapus file dan folder yang ada</AdminFoldersDeleteHint>
+  <AdminFoldersRenameHint>Izinkan / Deny mengubah nama file dan folder yang ada</AdminFoldersRenameHint>
+  <AdminFoldersUploadHint>Izinkan / Deny upload file fitur (tombol Upload di toolbar)</AdminFoldersUploadHint>
+  <AdminFoldersDownloadHint>Izinkan / Deny "download", "view / edit", download ke awan penyimpanan, dll tindakan</AdminFoldersDownloadHint>
+  <AdminFoldersZipDownloadHint>Izinkan / Deny "kompres dan download" tindakan</AdminFoldersZipDownloadHint>
+  <AdminFoldersZipHint>Izinkan / Deny "Compress ke arsip zip" tindakan</AdminFoldersZipHint>
+  <AdminFoldersUnzipHint>Izinkan / Deny "Ekstrak ke folder saat ini", "Ekstrak ke folder baru" dan "isi Zip" tindakan</AdminFoldersUnzipHint>
+  <AdminFoldersCutHint>Izinkan / Deny file dan folder cut ada tindakan</AdminFoldersCutHint>
+  <AdminFoldersCopyHint>Izinkan / Deny copy file dan folder yang ada tindakan</AdminFoldersCopyHint>
+  <AdminFoldersListFilesHint>Izinkan / Deny daftar file</AdminFoldersListFilesHint>
+  <AdminFoldersListFoldersHint>Izinkan / Deny folder daftar</AdminFoldersListFoldersHint>
+  <AdminFoldersModifyHint>Izinkan / Deny memodifikasi file (Semua tindakan yang dapat memodifikasi isi file yang ada)</AdminFoldersModifyHint>
+  <AdminFoldersBulkMailingHint>Izinkan / Deny mailing massal untuk kelompok</AdminFoldersBulkMailingHint>
+  <AdminFoldersAnonymViewContentHint>Izinkan / Deny file daftar untuk pengguna anonim (melalui link publik)</AdminFoldersAnonymViewContentHint>
+  <AdminFoldersAnonymDownloadHint>Izinkan / Deny file men-download untuk pengguna anonim (melalui link publik)</AdminFoldersAnonymDownloadHint>
+  <AdminFoldersAnonymUploadHint>Izinkan / Deny file upload untuk pengguna anonim (melalui link publik)</AdminFoldersAnonymUploadHint>
+  <AdminFoldersWatchHint>Izinkan / Deny pengguna untuk memantau perubahan dalam folder yang dibuat oleh pengguna lain (itu diterapkan hanya jika UI / AllowUsersmonitorModifications = true)</AdminFoldersWatchHint>
+  <AdminFoldersListRestrictionsHint>Opsi ini mengontrol daftar file. Klik "Deny" tombol radio untuk menyembunyikan file dengan ekstensi tertentu. Insert dilarang ekstensi memisahkan mereka dengan koma (misalnya "EXE, BAT, COM"). Set tombol radio "Allow" dan masukkan ekstensi file yang akan ditampilkan (misalnya "DOC, PDF, JPG").</AdminFoldersListRestrictionsHint>
+  <AdminFoldersCreateRestrictionsHint>Fungsi ini mirip dengan "pembatasan Daftar", tapi ia mengendalikan file upload, ekstraksi zip, membuat file baru. Anda dapat melarang atau mengaktifkan upload file tertentu.</AdminFoldersCreateRestrictionsHint>
+  <AdminFoldersGeneralInfoHint>Ketik path folder dan alias yang ada. Klik tombol Bantuan di bagian bawah untuk info lebih lanjut.</AdminFoldersGeneralInfoHint>
+  <AdminFoldersUsersGroupsHint>Pilih atau jenis Pengguna dan kelompok untuk berbagi folder untuk mereka. Klik tombol Bantuan di bagian bawah untuk info lebih lanjut.</AdminFoldersUsersGroupsHint>
+
+  <AdminUserFoldersButtonTitle>daftar saham uji</AdminUserFoldersButtonTitle>
+  <AdminUserFoldersWindowTitle>folder pengguna</AdminUserFoldersWindowTitle>
+  <AdminUserFoldersLabel>daftar folder untuk pengguna '{0}':</AdminUserFoldersLabel>
+  
+  <AdminPermissionsTab>izin Admin</AdminPermissionsTab>
+  <AdminPermissionsPrivilege>Hak istimewa</AdminPermissionsPrivilege>
+  <AdminPermissionsEditButton>mengedit hak istimewa</AdminPermissionsEditButton>
+  <AdminPermissionsModifySettingsTitle>memodifikasi pengaturan</AdminPermissionsModifySettingsTitle>
+  <AdminPermissionsModifyFoldersTitle>memodifikasi folder</AdminPermissionsModifyFoldersTitle>
+  <AdminPermissionsModifyAnonymFoldersTitle>Memodifikasi folder publik</AdminPermissionsModifyAnonymFoldersTitle>
+  <AdminPermissionsModifyAccountsTitle>memodifikasi account</AdminPermissionsModifyAccountsTitle>
+  <AdminPermissionsViewDiagnosticsTitle>Halaman View 'Diagnostik'</AdminPermissionsViewDiagnosticsTitle>
+  <AdminPermissionsViewLogTitle>Melihat log</AdminPermissionsViewLogTitle>
+  <AdminPermissionsViewErrorsLogTitle>Lihat kesalahan log</AdminPermissionsViewErrorsLogTitle>
+  <AdminPermissionsModifyLocalizationsTitle>memodifikasi lokalisasi</AdminPermissionsModifyLocalizationsTitle>
+  <AdminPermissionsFolderPathTitle>path folder</AdminPermissionsFolderPathTitle>
+  <AdminPermissionsFoldersTitle>folder Admin</AdminPermissionsFoldersTitle>
+  <AdminPermissionsPrivilegeHint>Set pengguna / kelompok yang "{0}" hak istimewa akan diizinkan</AdminPermissionsPrivilegeHint>
+  <AdminPermissionsFolderTitle>properti folder Admin</AdminPermissionsFolderTitle>
+  <AdminPermissionsFolderFieldTitle>path folder</AdminPermissionsFolderFieldTitle>
+  <AdminPermissionsFolderHint>Info tentang folder admin</AdminPermissionsFolderHint>
+  <AdminPermissionsFolderEmptyAccounts>Tentukan pengguna dan / atau kelompok</AdminPermissionsFolderEmptyAccounts>
+  <AdminPermissionsFolderAlreadyExists>Folder dengan lokasi ini sudah ada</AdminPermissionsFolderAlreadyExists>
+  <AdminPermissionsFolderNotFound>Folder dengan lokasi ini tidak ditemukan</AdminPermissionsFolderNotFound>
+  <AdminPermissionsAllowedFoldersMessage>Anda dapat membuat / update / mengelola akses hanya untuk folder tersebut atau subfolder: {0}</AdminPermissionsAllowedFoldersMessage>
+
+  <AdminUsersCountExceededWarn>jumlah maksimum pengguna terlampaui. lisensi Anda saat ini memungkinkan hanya {0} pengguna untuk login. Untuk info lebih lanjut buka "{1}" tab dan menemukan "{2}" pengecualian (s). Untuk menyembunyikan pemberitahuan ini catatan log jelas pada tab "{1}".</AdminUsersCountExceededWarn>
+
+  <AdminNewVersionAvailableTitle>versi baru tersedia!</AdminNewVersionAvailableTitle>
+  <AdminNewVersionAvailableInfo>Versi saat ini: {0} &lt;br /&gt; Sebuah versi yang lebih baru: {1}</AdminNewVersionAvailableInfo>
+  
+  <SettingsGridDescriptionInfo>Deskripsi</SettingsGridDescriptionInfo>
+  <SettingsGridFormatInfo>Format nilai</SettingsGridFormatInfo>
+  <SettingsGridDefaultValueInfo>nilai default</SettingsGridDefaultValueInfo>
+  <SettingsGridMoreInfo>Info lebih lanjut</SettingsGridMoreInfo>
+  <SettingsGridRestoreDefault>Kembali ke awal</SettingsGridRestoreDefault>
+
+  <SettingsFormatBoolean>nilai boolean</SettingsFormatBoolean>
+  <SettingsFormatWholeNumber>seluruh nomor</SettingsFormatWholeNumber>
+  <SettingsFormatRealNumber>bilangan real</SettingsFormatRealNumber>
+  <SettingsFormatString>Tali</SettingsFormatString>
+  <SettingsFormatEnum>Setiap nilai</SettingsFormatEnum>
+  <SettingsFormatSet>daftar dipisahkan koma tanpa pengulangan dari nilai-nilai</SettingsFormatSet>
+  <SettingsFormatArray>daftar dipisahkan koma string</SettingsFormatArray>
+  <SettingsFormatToolbarButtons>. (. Nilai "{0}" dapat diulang beberapa kali, tapi tidak berturut-turut Setelah setiap nama, diikuti oleh titik dua, adalah mungkin untuk menentukan salah satu metode yang digunakan untuk menampilkan tombol: {1})</SettingsFormatToolbarButtons>
+
+  <AdminSettingsSave>Simpan Pengaturan</AdminSettingsSave>
+  <AdminToggleHiddenParams>{0} parameter canggih</AdminToggleHiddenParams>
+  <AdminHintHiddenParams>parameter tambahan dimaksudkan hanya untuk pengaturan yang lebih rinci dan dalam kebanyakan kasus yang jarang diperlukan</AdminHintHiddenParams>
+  <AdminShowHiddenParams>Menunjukkan</AdminShowHiddenParams>
+  <AdminHideHiddenParams>Menyembunyikan</AdminHideHiddenParams>
+
+  <SettingsDenyAuthModeChange>Otomatis modus otentikasi changeover tidak didukung. Lihat {0} untuk petunjuk tentang mengubah modus otentikasi.</SettingsDenyAuthModeChange>
+  <SettingsApplicationRestartedMsg>aplikasi restart</SettingsApplicationRestartedMsg>
+  <SettingsSettingsSavedMsg>Pengaturan telah disimpan</SettingsSettingsSavedMsg>
+  <SettingsSettingsSaveFailedAppMsg>Tidak dapat menyimpan file-file konfigurasi. Periksa hak akses menulis NTFS dari web.config dan HttpCommanderSettings.config file dalam folder aplikasi web akar {0} untuk pengguna {1}. Pesan kesalahan: {2}.</SettingsSettingsSaveFailedAppMsg>
+  <SettingsSettingsSaveFailedTempMsg>Tidak dapat menyimpan file-file konfigurasi. Periksa hak akses dari folder sementara {0} untuk pengguna {1}. Pesan kesalahan: {2}.</SettingsSettingsSaveFailedTempMsg>
+  <SettingsSettingsReadFailedAppMsg>Tidak dapat membaca file konfigurasi. Periksa membaca NTFS izin dari web.config dan HttpCommanderSettings.config file dalam folder aplikasi web akar {0} untuk pengguna {1}. Pesan kesalahan: {2}.</SettingsSettingsReadFailedAppMsg>
+  <SettingsSettingsReadFailedTempMsg>Tidak dapat membaca file konfigurasi di folder sementara. Periksa hak akses dari folder sementara {0} untuk pengguna {1}. Pesan kesalahan: {2}.</SettingsSettingsReadFailedTempMsg>
+  <SettingsSettingsConfigChangedOutside>File konfigurasi HttpCommander telah diubah oleh program lain. Mungkin Anda telah memodifikasi secara manual dengan editor teks. Aplikasi ini telah dimuat file konfigurasi baru. Semua perubahan yang berhubungan dengan HttpCommander konfigurasi yang telah Anda lakukan melalui antarmuka web hilang. Anda perlu mengulang mereka, lalu mencoba menyelamatkan lagi. Kami merekomendasikan melawan mengedit file konfigurasi secara manual saat aplikasi sedang berjalan. Jika tidak, Anda harus me-restart aplikasi setelah mengubah file konfigurasi. pesan kesalahan: {0}.</SettingsSettingsConfigChangedOutside>
+  <SettingsSettingsSaveNotif>Jangan lupa untuk menyimpan perubahan pengaturan!</SettingsSettingsSaveNotif>
+  
+  <SettingsEmailNotifTitle>Pemberitahuan melalui Email</SettingsEmailNotifTitle>
+  <SettingsEmailNotifApplyBtn>Simpan pengaturan email</SettingsEmailNotifApplyBtn>
+  <SettingsEmailNotifResetBtn>ulang</SettingsEmailNotifResetBtn>
+  <SettingsEmailNotifEventsLabel>untuk acara</SettingsEmailNotifEventsLabel>
+  <SettingsEmailNotifWhenLabel>Kirim</SettingsEmailNotifWhenLabel>
+  <SettingsEmailNotifEmailsLabel>email</SettingsEmailNotifEmailsLabel>
+  <SettingsEmailNotifPathsLabel>jalur</SettingsEmailNotifPathsLabel>
+  
+  <LogsErrorsGridUrlColumn>url</LogsErrorsGridUrlColumn>
+  <LogsErrorsGridMsgColumn>Pesan</LogsErrorsGridMsgColumn>
+  <LogsErrorsGridMoreInfoColumn>Info lebih lanjut</LogsErrorsGridMoreInfoColumn>
+  <LogsErrorsGridDetailsTitle>rincian</LogsErrorsGridDetailsTitle>
+  
+  <FsrmUnableLoadLibraryLocal>Tidak dapat terhubung ke File Server Resource Manager pada host lokal.</FsrmUnableLoadLibraryLocal>
+  <FsrmUnableLoadLibraryRemote>Tidak dapat terhubung ke File Server Resource Manager di "{0}" host.</FsrmUnableLoadLibraryRemote>
+  <FsrmNotInstalled>File Server Resource Manager tidak diinstal pada "{0}".</FsrmNotInstalled>
+  <FsrmNotInstalledEitherEnd>File Server Resource Manager tidak diinstal baik pada host lokal atau pada "{0}".</FsrmNotInstalledEitherEnd>
+  <FsrmQuotaNotSpecified>Kuota tidak ditentukan.</FsrmQuotaNotSpecified>
+  <FsrmUnableGetQuota>Tidak dapat mendapatkan batas kuota.</FsrmUnableGetQuota>
+  <FsrmUnableSetQuota>Tidak dapat menetapkan batas kuota.</FsrmUnableSetQuota>
+  <FsrmQuotaSetMsg>Kuota telah ditetapkan.</FsrmQuotaSetMsg>
+  <FsrmInvalidQuotaValueMsg>nilai kuota yang tidak valid.</FsrmInvalidQuotaValueMsg>
+
+  <CommandBuyNow>Beli sekarang</CommandBuyNow>
+
+  <AdminUpdateTab>Meningkatkan</AdminUpdateTab>
+  <AdminUpdateManual>Upgrade panduan</AdminUpdateManual>
+  <AdminUpdateAuto>Upgrade otomatis</AdminUpdateAuto>
+  <AdminUpdateStartButton>Mulai Peningkatan/buat Backup</AdminUpdateStartButton>
+  <AdminUpdateFinishButton>Finish upgrade / Restore Backup</AdminUpdateFinishButton>
+  <AdminUpdateBackupButton>backup</AdminUpdateBackupButton>
+  <AdminUpdateDownloadNewButton>Download versi baru</AdminUpdateDownloadNewButton>
+  <AdminUpdateStepTitle>Langkah {0} {1}: {2}</AdminUpdateStepTitle>
+  <AdminUpdateStepInfo>Langkah {0} {1}</AdminUpdateStepInfo>
+  <AdminUpdateNumberSymbol>#</AdminUpdateNumberSymbol>
+  <AdminUpdateBackupContent>Silahkan tekan tombol "{0}" untuk penciptaan salinan cadangan dari folder dengan aplikasi dan mendapatkan link untuk download yang</AdminUpdateBackupContent>
+  <AdminUpdateDownloadBackupLinkHint>Silahkan download salinan cadangan dari aplikasi dengan menggunakan link di bawah ini:</AdminUpdateDownloadBackupLinkHint>
+  <AdminUpdateDownloadNewContent>Kemudian silahkan download versi baru menggunakan link di bawah ini dan ikuti {0} instalasi {1} dan {2} meng-upgrade {1} petunjuk untuk menginstal versi baru. Setelah instalasi silahkan buka Panel Admin, buka tab "{3}" dan tekan tombol "{4}" untuk menyelesaikan instalasi.</AdminUpdateDownloadNewContent>
+  <AdminUpdateUploadButton>Unggah salinan cadangan dan menerapkan pengaturan</AdminUpdateUploadButton>
+  <AdminUpdateUploadAndInstallButton>Menginstal versi baru dengan menjaga semua pengaturan</AdminUpdateUploadAndInstallButton>
+  <AdminUpdateUploadEmptyText>Silakan pilih salinan cadangan untuk upload</AdminUpdateUploadEmptyText>
+  <AdminUpdateFinishContent>Dalam rangka untuk mengembalikan pengaturan dari versi sebelumnya silahkan pilih dan meng-upload arsip cadangan yang dibuat sebelumnya dengan folder aplikasi</AdminUpdateFinishContent>
+  <AdminUpdateFinishMessage>Selamat! Semua pengaturan berhasil diterapkan. Juga, silakan menerapkan semua perubahan yang Anda buat ke file lain, misalnya Default.aspx atau Global.asax.</AdminUpdateFinishMessage>
+  <AdminUpdateFinishRefreshPage>Halaman yang akan dimuat ulang</AdminUpdateFinishRefreshPage>
+  <AdminUpdateMainInfo>Jenis upgrade sebagian otomatis. Anda dapat membuat dan men-download file backup dengan pengaturan konfigurasi aplikasi dan mengembalikannya setelah upgrade tersebut. Ikuti langkah-langkah pendek: membuat file backup, melakukan upgrade manual, mengembalikan pengaturan dari file backup. Prosedur ini juga dapat digunakan untuk backup / restore pengaturan tanpa upgrade. Cukup melewatkan langkah upgrade untuk mengembalikan pengaturan dari file backup.</AdminUpdateMainInfo>
+  <AdminUpdateAutoButton>Mobil</AdminUpdateAutoButton>
+  <AdminUpdateAutoInfo>Jenis upgrade hampir sepenuhnya otomatis. Ini terdiri dari 2 langkah: cadangan pengaturan saat ini (Anda harus men-download dan menyimpan file cadangan), instalasi versi baru dan pemulihan pengaturan dari file backup. HTTP Komandan otomatis dapat men-download versi terbaru dan menginstalnya atau Anda dapat menentukan path ke arsip zip dengan versi baru di server kami. Semua pengaturan secara otomatis dikembalikan dari file backup yang dibuat sebelumnya.</AdminUpdateAutoInfo>
+  <AdminUpdateRestoreWebConfigCheckBox>Mengembalikan pengaturan dari Web.config (mis, seperti SMTP)</AdminUpdateRestoreWebConfigCheckBox>
+  <AdminUpdateBackupAssignedFoldersInRootMessage>Perhatian! Ada beberapa folder pengguna dalam direktori dengan aplikasi yang memiliki ukuran total lebih dari {0}. backup tidak akan dilakukan. Silakan lakukan salinan cadangan dari direktori ini, menghapus mereka dari direktori aplikasi dan coba lagi operasi di sisi Anda.</AdminUpdateBackupAssignedFoldersInRootMessage>
+  <AdminUpdateNeedRefreshPageForContinue>Perhatian! Untuk melanjutkan perlu kembali halaman tersebut. Silahkan tekan tombol "{0}". Setelah reload silakan ulangi operasi.</AdminUpdateNeedRefreshPageForContinue>
+  <AdminUpdateRestoreFromBackupEmpty>, Atau jika tidak dipilih, akan digunakan oleh file yang baru dibuat pada langkah sebelumnya</AdminUpdateRestoreFromBackupEmpty>
+  <AdminUpdateInstallZipPathHint>Untuk memperbarui sebutkan jalur fisik lengkap untuk file instalasi (di server) di bidang pertama atau biarkan kosong untuk menggunakan distribusi online</AdminUpdateInstallZipPathHint>
+  <AdminUpdateInstallZipPathEmpty>Tentukan path untuk arsip dengan menginstal</AdminUpdateInstallZipPathEmpty>
+  <AdminUpdateProgress>memperbarui</AdminUpdateProgress>
+  <AdminUpdateAccessDeniedWarning>&lt;b&gt; Perhatian! &lt;/b&gt; Untuk memperbarui silahkan mengatur memodifikasi yang (membaca dan menulis) izin NTFS ke {0} pengguna untuk folder dengan HTTP Komandan {1} dan ulangi upgrade tersebut. &lt;br /&gt; Setelah upgrade berhasil silahkan mengembalikan mantan hak.</AdminUpdateAccessDeniedWarning>
+  <AdminUpdateAccessDeniedWarningCurentUser>arus</AdminUpdateAccessDeniedWarningCurentUser>
+
+  <ServerExceedsMaxSizeForEditAsTextFile>Ukuran file melebihi ukuran maksimum untuk mengedit sebagai file teks.</ServerExceedsMaxSizeForEditAsTextFile>
+  <ServerDemoMode>Tindakan yang diberikan adalah dilarang dalam modus demo</ServerDemoMode>
+  <ServerHostedMode>Hal ini tidak diperbolehkan untuk mengubah nilai-nilai berikut pengaturan dalam versi TRIAL host: {0}.</ServerHostedMode>
+  <ServerIncorrectImageContentType>File Mime-type bukan citra</ServerIncorrectImageContentType>
+  <ServerPermissionDenied>Operasi ini ditolak karena hak akses yang terbatas</ServerPermissionDenied>
+  <ServerRestoreFromTrashNoParentFolder>restorasi gagal karena direktori induk "{0}" telah tidak ditemukan. Silahkan buat dan coba lagi.</ServerRestoreFromTrashNoParentFolder>
+  <ServerModifyPermissionDenied>Operasi ini ditolak karena Anda tidak memiliki izin untuk memodifikasi file</ServerModifyPermissionDenied>
+  <ServerPathNotFound>Jalan tidak ditemukan.</ServerPathNotFound>
+  <ServerInvalidPath>Jalan "{0}" tidak valid</ServerInvalidPath>
+  <ServerInvalidAbsolutePath>absolut path tidak valid "{0}"</ServerInvalidAbsolutePath>
+  <!-- share folder path: \\server\share -->
+  <ServerInvalidShareFolderPath>Valid folder share path "{0}"</ServerInvalidShareFolderPath>
+  <ServerInvalidUncPath>Valid UNC path "{0}"</ServerInvalidUncPath>
+  <ServerUnableResolveUncPath>Dapat menyelesaikan UNC path "{0}"</ServerUnableResolveUncPath>
+  <ServerInvalidFileName>File / nama folder tidak diatur atau berisi karakter yang tidak benar {0}</ServerInvalidFileName>
+  <ServerFilePathNotFound>File tidak ada</ServerFilePathNotFound>
+  <ServerIncorrectPathForFileLink>jenis objek yang salah. jalur yang ditentukan menunjuk ke folder</ServerIncorrectPathForFileLink>
+  <ServerIncorrectPathForFolderLink>jenis objek yang salah. jalur yang ditentukan menunjuk ke sebuah file</ServerIncorrectPathForFolderLink>
+  <ServerRootFolderNotFound>folder root untuk jalan "{0}" tidak ditemukan.</ServerRootFolderNotFound>
+  <ServerUnableCreateFolder>Tidak dapat membuat folder</ServerUnableCreateFolder>
+  <ServerFileAlreadyExists>File dengan nama ini sudah ada</ServerFileAlreadyExists>
+  <ServerFileAlreadyExistsOnRename>
+    Apakah Anda ingin mengubah nama "{0}" untuk "{1}"?
+    Sudah ada file dengan nama yang sama di lokasi ini.
+  </ServerFileAlreadyExistsOnRename>
+  <ServerFolderAlreadyExistsOnRename>
+    Apakah Anda ingin mengubah nama "{0}" untuk "{1}"?
+    Sudah ada folder dengan nama yang sama di lokasi ini.
+  </ServerFolderAlreadyExistsOnRename>
+  <ServerFoldersMergeConfirm>
+    tujuan ini sudah berisi folder bernama "{0}".
+    Apakah Anda masih ingin menggabungkan folder ini "{0}" dengan yang satu ini "{1}"?
+  </ServerFoldersMergeConfirm>
+  <ServerFolderWithSameNameAsFileNameAlreadyExists>Sudah ada folder dengan nama yang sama "{0}" sebagai nama file yang Anda tentukan</ServerFolderWithSameNameAsFileNameAlreadyExists>
+  <ServerFileWithSameNameAsFolderNameAlreadyExists>Sudah ada file dengan nama yang sama "{0}" sebagai nama folder yang Anda tentukan</ServerFileWithSameNameAsFolderNameAlreadyExists>
+  <ServerFileNotFound>File "{0}" tidak ditemukan dalam folder "{1}". Mungkin sudah dihapus atau dihapus oleh pengguna lain.</ServerFileNotFound>
+  <ServerDirectoryAlreadyExists>Sebuah direktori dengan nama ini sudah ada</ServerDirectoryAlreadyExists>
+  <ServerFolderMoveAlreadeExists>Folder tujuan "{0}" adalah sama dengan folder sumber</ServerFolderMoveAlreadeExists>
+  <ServerUploadPathNotFound>Path untuk penyimpanan file tidak ditemukan di server</ServerUploadPathNotFound>
+  <ServerUploadPathNotSet>Terjadi kesalahan saat mendapatkan jalan untuk upload. Silakan, refresh halaman di browser dan coba lagi.</ServerUploadPathNotSet>
+  <ServerUploadNoChunk>Tidak ada potongan untuk menyimpan</ServerUploadNoChunk>
+  <ServerUploadWriteChunk>Menulis sepotong sejak byte</ServerUploadWriteChunk>
+  <ServerUploadCreatingFile>membuat file</ServerUploadCreatingFile>
+  <ServerUploadFileUploaded>file telah diupload</ServerUploadFileUploaded>
+  <ServerUploadWriteError>menulis kesalahan</ServerUploadWriteError>
+  <ServerConfigurationError>konfigurasi yang salah atau aplikasi! Hubungi administrator situs</ServerConfigurationError>
+  <ServerPermissionsAllowTypes>izin saat ini memungkinkan operasi ini hanya dengan jenis file {0}</ServerPermissionsAllowTypes>
+  <ServerPermissionsDenyTypes>izin saat ini melarang operasi ini dengan jenis file {0}</ServerPermissionsDenyTypes>
+  <ServerRequestSizeExceeded>Ukuran file upload melebihi ukuran diperbolehkan di pengaturan server</ServerRequestSizeExceeded>
+  <ServerEmailMsgProcessedFilesSubject>Upload / Modifikasi / download / Dibuat / Dihapus/bersama file / folder</ServerEmailMsgProcessedFilesSubject>
+  <ServerEmailMsgUploadFilesTitle>upload</ServerEmailMsgUploadFilesTitle>
+  <ServerEmailMsgModifyFilesTitle>diubah</ServerEmailMsgModifyFilesTitle>
+  <ServerEmailMsgDownloadFilesTitle>download</ServerEmailMsgDownloadFilesTitle>
+  <ServerEmailMsgCreateFilesTitle>dibuat</ServerEmailMsgCreateFilesTitle>
+  <ServerEmailMsgDeleteFilesTitle>dihapus</ServerEmailMsgDeleteFilesTitle>
+  <ServerEmailMsgCreatePublicFilesTitle>bersama</ServerEmailMsgCreatePublicFilesTitle>
+  <ServerEmailMsgProcessedFilesBody>
+    Berikut file / folder yang {0} oleh {1}:
+
+{2}
+    
+  </ServerEmailMsgProcessedFilesBody>
+  <ServerEmailMsgPasswordRecoverSubject>pemulihan password</ServerEmailMsgPasswordRecoverSubject>
+  <ServerEmailMsgPasswordRecoverBody>
+    Anda diminta untuk memulihkan sandi Anda di Web File Manager. sandi Anda adalah ulang. Jika Anda yakin ini adalah sebuah kesalahan, mengabaikan surat ini, tetapi harus menyadari bahwa password Anda telah berubah.
+    Nama pengguna: {0}
+    New password: {1}
+  </ServerEmailMsgPasswordRecoverBody>
+  
+  <ServerEmailMsgUserNameRecoverSubject>pemulihan nama pengguna</ServerEmailMsgUserNameRecoverSubject>
+  <ServerEmailMsgUserNameRecoverBody>
+    Anda diminta untuk memulihkan nama Anda di Web File Manager.
+    Nama pengguna: {0}
+  </ServerEmailMsgUserNameRecoverBody>
+
+  <ServerEmailMsgUserActivationSubject>aktivasi akun</ServerEmailMsgUserActivationSubject>
+  <ServerEmailMsgUserActivationBody>
+    Akun ({0}) aktivasi diperlukan.
+    Untuk mengaktifkan account Anda, silakan klik link berikut: {1}
+  </ServerEmailMsgUserActivationBody>
+  <ServerEmailMsgUserRegisteredSubject>pengguna terdaftar</ServerEmailMsgUserRegisteredSubject>
+  <ServerEmailMsgUserRegisteredBody>
+    Anda berhasil terdaftar di Web File Manager.
+    Nama pengguna: {0}
+  </ServerEmailMsgUserRegisteredBody>
+  <ServerEmailMsgUserRegisteredForAdminsBody>
+    &lt;h4&gt; Pengguna baru telah terdaftar &lt;/h4&gt;
+    &lt;strong&gt; Nama pengguna &lt;/strong&gt;: {0} &lt;br /&gt;
+    &lt;strong&gt; Email &lt;/strong&gt;: {1} &lt;br /&gt;
+    &lt;strong&gt; Tanggal &lt;/strong&gt;: {2} &lt;br /&gt;
+    &lt;strong&gt; Ekstra Info &lt;/strong&gt;: {3} &lt;br /&gt;
+  </ServerEmailMsgUserRegisteredForAdminsBody>
+  <ServerDiskFullError>Tidak ada cukup ruang pada disk.</ServerDiskFullError>
+  <ServerFolderLimitations>keterbatasan folder: {0}</ServerFolderLimitations>
+  <ServerShortcutAssignedFolderNotFound>Ditugaskan folder tidak ditemukan jalan target shortcut</ServerShortcutAssignedFolderNotFound>
+  <ServerSizeFilesForZipExceeded>Nilai ukuran file diarsipkan melebihi diizinkan {0}.</ServerSizeFilesForZipExceeded>
+  <ServerPasteFolderToSubfolderError>Folder tujuan "{0}" adalah subfolder dari folder sumber "{1}".</ServerPasteFolderToSubfolderError>
+  <ServerLiveConnectAppIDNotSpecified>ID Klien aplikasi Microsoft Live Connect tidak didefinisikan</ServerLiveConnectAppIDNotSpecified>
+  <ServerSendEmailInfo>Penulis ditentukan email mereka sebagai {0}. Gunakan HANYA alamat email ini untuk membalas.</ServerSendEmailInfo>
+
+  <ServerAntivirusScanningFailed>Scanning oleh antivirus: '{0} {1}' diakhiri secara abnormal.</ServerAntivirusScanningFailed>
+
+  <ServerUserNameNotFound>Pengguna dengan nama '{0}' tidak ditemukan.</ServerUserNameNotFound>
+  <ServerFileNameCopySuffix>Salinan</ServerFileNameCopySuffix>
+
+  <ServerDeleteFolderNTFSAccessDenied>Anda tidak memiliki izin NTFS untuk menghapus folder "{0}"</ServerDeleteFolderNTFSAccessDenied>
+
+  <ServerMSOOTemplateNotFound>{0} Template tidak ditemukan</ServerMSOOTemplateNotFound>
+</Localization>

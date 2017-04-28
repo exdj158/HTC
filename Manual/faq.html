@@ -1,0 +1,1626 @@
+﻿<!-- saved from url=(0014)about:internet -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>FAQ (Windows version)</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <script type="text/javascript" language="javascript">
+        function toggleBlock(id) {
+            if (document.getElementById(id).style.display == 'none') {
+                document.getElementById(id).style.display = 'block';
+            }
+            else {
+                document.getElementById(id).style.display = 'none';
+            }
+        }
+    </script>
+    
+    <table width="100%" cellpadding="0" cellspacing="0">
+        <tr>
+            <td width="320">
+                <table>
+                    <tr>
+                        <td style="vertical-align:top;text-align:left;">
+                            <a target='_blank' href='http://www.element-it.com/asp-net-explorer-browser/online-share/web-file-manager.aspx'><img style='cursor:pointer;' alt="HTTP Commander" src="Images/HCLogo.png" border="0" /></a>
+                        </td>
+                        <td class="green" style="vertical-align:top;text-align:left;padding-top:21px;">
+                            &nbsp;AJS 4.x
+                        </td>
+                    </tr>
+                </table>
+                <span class="gray">Manual</span>
+            </td>
+             <td>
+  <!-- For windows version only. Start --> 
+	<p>
+	<strong>Note!</strong> This Manual is for the <strong>"Windows authentication"</strong> version, 
+	which is designed to work with existing Windows server or Active Directory accounts and Windows authentication. 
+	If you want to create accounts by yourself and store their credentials in your own HTTP Commander XML database, 
+	you need to download the <a target="_blank" href="http://www.element-it.com/downloadfile.aspx?type=st">"Forms authentication" version</a>!
+	This Manual is for the Windows authentication version only!
+	</p>
+	<!-- For windows version only. End --> 
+	
+ 
+	
+                
+            </td>
+            <td align="char" width="230">
+                <img alt="" src="Images/world.jpg" align="middle" hspace="5" style="vertical-align:top;padding-top:1px;" /><b><a target="_blank" title="web file manager" href="http://www.element-it.com/asp-net-explorer-browser/online-share/web-file-manager.aspx">Web file manager</a></b><br />
+                <img alt="" src="Images/support.png" width="16" height="16" align="middle" hspace="5" style="vertical-align:top;padding-top:1px;" /><b><a
+                    href="onlinesupport.html" target="main">Free Installation assistance</a></b><br />
+                <img alt="" src="Images/help.png" align="middle" width="16" height="16" hspace="5" style="vertical-align:top;padding-top:1px;" /><b><a
+                    href="index.html" title="Manual Home page" target="_blank">Manual Home page</a></b><br />
+            </td>
+        </tr>
+    </table>
+
+    <p class="topic">
+        <a id="hcadsicomtopic">HTTP Commander common FAQ</a>
+    </p>
+
+<ul style="list-style-type:decimal">
+    <li><a href="#updatewithexistingsettings">How can I update my existing installation with the latest version without losing config and settings?</a></li>
+    <li><a href="#unblock">I got a <b>"Request for the permission of type 'System.Web.AspNetHostingPermission...</b> error</a></li>
+    <li><a href="#installassistance">I can't install the application. Is there anybody why can help me?</a></li>
+    <li><a href="#restartapp">How can I  restart the application?</a></li>
+    <li><a href="#logo">How can I change the logo or top header?</a></li>  
+    <li><a href="#userscount">How does HTTP Commander control user's count?</a></li>  
+    <li><a href="#ssl">How can I use HTTP Commander with SSL?</a></li>  
+    
+ 
+    <li><a href="#enablegzip">Can the first loading process be faster?</a> </li>
+    <li><a href="#appfaster">Can I make the application faster (increase performance)?</a> </li>  
+    <li><a href="#slowgrid">Loading of folders/files list is very slow (specially for a network folder) and takes several seconds.</a> </li>
+    <li><a href="#maperror">If I map a folder I get the error <strong>"The folder you entered does not appear to be valid..."</strong>?</a> </li> 
+    <li><a href="#accessisdenied">I got an <b>"Access to path '...' is denied"</b> error.</a></li>
+    
+    <li><a href="#pagecannotbefound">I got <b>The page cannot be found</b> error (error 404) when I open http://localhost/HTCOMNET/default.aspx or any other page.</a></li>
+    <li><a href="#aspnettags">I see the page with ASP.NET tags at the top e.g. <b>"&lt;%@ Page Language="C#" %&gt;"</b>.</a></li>
+    
+    <li><a href="#requiredrepmissions">I got a <b>"Required permissions cannot be acquired"</b> error.</a></li>
+    <li><a href="#requiredrepmissions">I got a <b>"Request for the permission of type 'System.Security.Permissions...</b> error.</a></li>
+ 
+   
+    <li><a href="#ssldownload">I got a <b>"Internet Explorer cannot download Download.ashx from [domainname]"</b> error while a file  was being downloaded.</a></li>
+    <li><a href="#appunavailable">I got a <b>"Server Application Unavailable"</b> error.</a></li>
+	<li><a href="#allowconfig">I got the <b>Error "500.19" at web.config file</b> ("modules" section).</a></li>
+    <li><a href="#silverlight">I've opened "Silverlight" file uploader tab but the window is empty.</a></li>
+    <li><a href="#webgarden">Does HTTP Commander support Web garden or Web farm?</a></li>
+    <li><a href="#dfs">Is HTTP Commander supports file solutions like <b>DFS folders</b>, <b>UNC folders</b>,  <b>ABE</b>,  <b>NAS</b>?</a></li>
+    <li><a href="#docs">How Can I configure documents management features like <b>Google docs, MS Office and OpenOffice online edit</b>?</a></li>
+    
+ 
+    <li><a href="#settingsurl">Can I pass some settings in URL?</a></li>
+    
+
+    <li><a href="#staticcontentrole">How can I add Static Content Role service at IIS7?</a></li>
+    <li><a href="#googleautherror">When I am authenticated for "Download/Upload from/to Google", I got the <b>"The site "http://yourdomainname.com" has not been registered."</b> error.</a></li>
+    <li><a href="#protectConfigFiles">How do I protect configuration files (prevent them to be retrieved by users)?</a></li>
+    <li><a href="#sso">Can I use SSO?</a></li>
+    <li><a href="#onedrivelogin">When I become authorized in Microsoft OneDrive I receive the <b>"'evt_Login_onload' is undefined"</b> error.</a></li>
+    <li><a href="#csserrors">The Default.aspx page is incorrectly displayed</a>.</li>
+    <li><a href="#urlscanerror">I got the <b>Error HTTP 403.18 - Forbidden</b> when open files from <b>Images/resources_1.5</b> folder</a>.</li>
+    <li><a href="#filelistparamincorrect">I got the error <b>The parameter is incorrect</b> when open file list</a></li>
+    <li><a href="#officereadonly">Why Microsoft Office still opens my document (<b>View / Edit &rarr; Edit in MS Office</b>) as read-only?</a></li>
+    <li><a href="#newtonsoftjson">Error on download/upload with Dropbox or Box: <strong>Could not load file or assembly 'Newtonsoft.Json, Version=7.0.0.0...</strong></a></li>
+    <li><a href="#disablewebdav">How to disable WebDav feature?</a></li>
+    <li><a href="#chromeandroid56">Page reloaded when file list is scrolled up in Chrome browser on Android. </a></li>    
+</ul>
+ 
+  <!-- For windows version only. Start --> 
+<p class="topic">
+        <a id="hcadsicomtopic">Windows authentication version related questions</a>
+</p>
+	<ul style="list-style-type:decimal">
+	<li><a href="#abe">How can I hide files/folders that the user does not have rights to read?</a></li>
+	<li><a href="#dropboxusers">How can I create a "dropbox" for users (student can upload their own files but can't view other students files)?</a></li>
+    <li><a href="#notauthorized">Every time I insert my login and password in the authentication window I get a "You are not authorized" error.</a></li>
+    <li><a href="#windowsauth">Why would I need to use Basic authentication instead of Windows?</a></li>
+	<li><a href="#delegation">May I use network folders with Windows Integrated Authentication?</a></li>	
+    <li><a href="#groupaccess">I can't create access for a group or to a home folder.</a></li>
+    <li><a href="#ouldap">Can I setup access only for single OU (Organisational Unit) of domain?</a></li>
+    <li><a href="#dmz">Can I use application in DMZ and what ports for firewall should I open?</a></li>
+    <li><a href="#slowtree">Loading of folders tree is very slow and needs a few seconds.</a> </li>
+    <li><a href="#formsad">Can I use Forms authentication (Form at the web page) instead of standard browser popup authentication window?</a> </li>
+    <li><a href="#clearAuth">How do I clear windows authentication on Log out?</a></li>
+    <li><a href="#changeusername">After changing my username in Active Directory/WinNT I can still login to HTTP Commander, but then I don't see any of the folders.</a></li>
+    <li><a href="#doubleauth">When opening - request of authorization occurs 2 (or more time) and after login form for Forms version opens.</a></li>
+	<li><a href="#loginpage">How can I display some text when user logs into Http Commander (at the time when popup login window appears)?</a></li>
+</ul>
+ <!-- For windows version only. End --> 
+ 	
+  <br/>
+  <a name="updatewithexistingsettings"></a>
+  <span class="faqquestion"><strong>How can I update my existing installation with the latest version without losing config and settings?</strong></span><br />
+  Answer:
+    <ul style="list-style-type:decimal;">
+        <li>Back up HTTP Commander installation folder, usually "<b>C:\inetpub\wwwroot\HTCOMNET\</b>".</li>
+        <li><p>Back up NTFS permissions (optional).</p>
+            <p><b>Note</b> If you skip this step, you'll need to restore NTFS permissions manually after installing the new version.</p>
+            <p><b>Note</b> This step applies to Windows Server 2003 SP2, Windows Server 2003 R2 SP2, Windows Vista, Windows Server 2008, Windows 7, Windows Server 2008 R2, Windows Server 2012, Windows Server 2012 R2, Windows Server 2016 and newer versions of Windows OS.</p>
+            <p>Execute the following command as administrator:</p>
+            <code>icacls <i>C:\inetpub\wwwroot\HTCOMNET</i> /save <i>C:\htcomnet.acl</i> /T</code>
+            <p>Here "C:\inetpub\wwwroot\HTCOMNET" is HTTP Commander installation folder,
+            "C:\htcomnet.acl" is a file to store NTFS permissions.</p>
+        </li>
+        <li>Download the last version of the application on the <a target="_blank"  href="http://www.element-it.com/asp-net-explorer-browser/online-share/web-file-manager.aspx">Web file manager HTTP Commander</a> page.</li>
+        <li><a href="win2008.html#unblockarchive">Unblock distribution archive</a> if you used Internet Explorer browser to download the archive.</li>
+        <li>Delete all files in the HTTP Commander installation folder.</li>
+        <li>Install the new version, that is unpack the archive into the installation folder.</li>
+        <li>Restore <b>Data\</b> subfolder, HttpCommanderSettings.config<sup><a href="#HCSettingConf">1</a></sup> file from backup archive.</li>
+        <li><p>Restore the NTFS permissions (only if you saved them earlier).</p>
+            <p>Execute the following command as administrator:</p>
+            <code>icacls <i>C:\inetpub\wwwroot</i> /restore <i>C:\htcomnet.acl</i> /C</code>
+            <p>Here "C:\inetpub\wwwroot" is the parent folder of HTTP Commander installation folder,
+            "C:\htcomnet.acl" is a file with NTFS permissions.<br />
+                /C flag is to ignore errors about missed files (some files from old version 
+                could be missed in new one)</p>
+        </li>
+        <li>Revise the NTFS permissions in HTTP Commander installation folder<sup><a href="#updateHCOverwriteFiles">2</a></sup>. 
+        NTFS permissions of the installation folder itself will not change (unless you recreated the folder).
+        You need to revise permissions on Data subfolder, HttpCommanderSettings.config, etc.
+        </li>
+        <li>Reapply all changes you made to the HTTP Commander source files.
+        For example, you may have customized the Default.aspx, Logout.aspx pages, 
+        localizations files in the Localizations subfolder.
+        We discourage you from using files from an old installation of HTTP Commander.
+        All customizations performed through Admin panel web interface are saved in the HttpCommanderSettings.config
+        file and Data subfolder, you do not need to reapply them, with minor exceptions.
+        A few settings from Admin panel are saved in the web.config, 
+        namely mail settings and authentication mode. 
+        You need to port them to the new web.config file.</li>
+        <li>
+            Restore following settings from Web.config file:
+            <ul>
+                <li><strong>system.net/mailsettings</strong></li>
+                <li>
+                    <strong>tempDirectory</strong>
+                    at
+                    <strong>system.web/compilation</strong> section (if you used a custom path).
+                </li>
+            </ul>
+        </li>
+        <li>Starting from version 2.0.6 HTTP Commander requires at least 4.0 version of .NET 
+            framework.
+            <br />
+            How to check version of .NET framework (on IIS 7 and later): 
+	    <ul>
+	      <li>Open Application Pools in IIS Manager</li>
+	      <li>Select HTTP Commander application pool. See <a href="#apppoolnametopic">How to detect application pool HTTP Commander runs under?</a>.</li>
+	      <li>Click "Basic Settings..." on Actions pane.</li>
+	      <li>"Edit application pool" window appears</li>
+	      <li>Select .NET Framework version in combobox.</li>
+	      <li>Click OK button</li>
+	    </ul>
+	    </li>
+        <li>Please, surely perform tunings, specified in the <a href="Update.html#updatefrom40">description of up-dating</a>.</li>
+        <li>Configure access on WebDAV.<br />
+        Please open <b>Web.config</b> file for editing (for example in notepad) and add (if not exists) before the opening tag &lt;system.webServer&gt; next lines:
+<pre><b>&lt;location path="<i>your_webdav_identifier</i>"&gt;
+    &lt;system.web&gt;
+        &lt;authorization&gt;
+            &lt;allow users="*" /&gt;
+        &lt;/authorization&gt;
+    &lt;/system.web&gt;
+&lt;/location&gt;</b></pre>
+        where <i><b>your_webdav_identifier</b></i>&mdash; value of <a href="webconfigsetup.html#IdentifierWebDav">IdentifierWebDav</a> parameter (default value <b>hcwebdav</b>).<br />
+        <!-- For windows version only. Start --> 
+        Also, it is necessary to configure anonymous access
+        for the folder with a name entered in parameter <a href="webconfigsetup.html#IdentifierWebDav">IdentifierWebDav</a>
+        (default value <b>hcwebdav</b>).<br />
+        For this see articles <a href="WebFolders.html#anonymwebdaviis6">Configuring anonymous IIS6 authentication on WebDav folder</a>
+        or <a href="WebFolders.html#anonymwebdaviis7">Configuring anonymous IIS7+ authentication on WebDav folder</a>.<br />
+        <!-- For windows version only. End --> 
+        Also, starting from version 2.0.11 if enabled parameter <a href="webconfigsetup.html#AnonymousEditingOffice">AnonymousEditingOffice</a>:
+         path to connect WebDAV folder begins with 
+        <i>http://yourdomain/HTCOMNET/hcwebdav/<b>0/</b></i> (added suffix '0').<br />
+        For more info see article <a href="WebFolders.html">Web folders</a>.
+        </li>
+    </ul>
+
+  <a name="HCSettingConf"></a>
+  <p><b>Note 1</b> Old versions (prior to 1.7 version) of HTTP Commander stored settings in the <b>appSettings</b> collection of the web.config file, 
+  there was no HttpCommanderSettings.config file.
+  You need to manually port the settings to the new configuration file.
+  </p>
+  
+  <a name="updateHCOverwriteFiles"></a>
+  <p><b>Note 2</b> You may skip the step of revising NTFS permissions on installation files 
+  if you copy new distribution files over the old installation or if you restore permissions with icacls utility.
+  In copy over scenario you need to manually remove files that are missing in the new version of HTTP Commander. 
+  </p>
+
+  <a name="upgradeutil"></a>
+  <p><b>Note 3</b> You can also seize the new opportunity available in Admin Panel, for up-dating.
+    For this purpose go to the <strong>Upgrade</strong> tab and follow instructions.
+  </p>
+  
+  <br /><br />
+  
+  <a name="unblock"></a>
+  <span class="faqquestion"><strong>I got a <b>"Request for the permission of type 'System.Web.AspNetHostingPermission...</b> error</strong></span><br><br>
+  Answer: Problem related to latest Windows 2008 security. 
+  You need to <strong>unblock</strong>  <b>HTTPCommanderAJSx.x.x.zip</b> (Distribution archive) file because 
+  it came from another PC (Internet) and then <strong>extract it to HTCOMNET folder again</strong>. 
+  Restart the application after this (Close w3we.exe process). See <a href="win2008.html">Installation</a> section how to unblock files.<br/>
+
+<br/><br/>  
+
+  <a name="installassistance"></a>
+  <span class="faqquestion"><strong>I can't install the application. Is there anybody why can help me?</strong></span><br>
+  <p>Answer: You can run <a href="troubleshooting.html">diagnostics</a> and look for known problems. 
+  If you can't run the application or configure folders, we offer <b>free installation assistance</b> for both trial and commercial licenses.
+  You can get help via email, instant messenger or via remote access to your server. 
+  You only need a few minutes to get <a href="onlinesupport.html">online help</a>.
+  </p>
+  <br/>
+  <br/>
+  
+  <a name="restartapp"></a>
+  <span class="faqquestion"><strong>How can I  restart the application?</strong></span><br>
+  <p>Answer: To restart the application, click the &quot;Restart&quot; button in the Admin panel.
+  Also to restart the application, you can make some changes in the <b>Web.config</b> file (e.g. add a spacer in any comment). The Application will restart automatically.<br/>
+  For <b>full application restart</b> (only if you have some system errors!):
+<ul style="list-style-type:decimal;">
+            <li>Stop all <b>w3w.exe</b> processes; </li>
+            <li>Delete <b>C:\WINDOWS\Microsoft.NET\Framework\[.NET version]\Temporary ASP.NET Files\HTCOMNET</b> folder.</li>
+</ul>
+  <br/><br/>
+  </p>
+  
+  <p><a name="logo"></a>
+  <span class="faqquestion"><strong>How can I change the logo or top header?</strong></span></p>
+  <p>
+    Answer: You can add a logo to the toolbar or to the top panel (at the top of file manager window)
+    
+
+  </p>
+
+  <ol>
+  <li>To change logo on the top panel, modify the <a href="webconfigsetup.html#LogoHeaderHtml">LogoHeaderHtml</a> parameter at Application settings.<br />
+  <strong>Note.</strong> If you insert an image, in its' html style tag, make sure you specify the sizes in pixels: <b>style="width:<em>W</em>px;height:<em>H</em>px;"</b>.
+  </li>
+
+  <li><p>To show the logo on the toolbar, add <b>"Logo"</b> to the <a href="webconfigsetup.html#ToolbarButtons1">ToolbarButtons1</a> 
+  or <a href="webconfigsetup.html#ToolbarButtons2">ToolbarButtons2</a> parameters at Application settings.</p>
+  
+  <p>To modify logo (set your own image):</p>
+  <ul>
+  	<li>Place the logo image in the <b>HTCOMNET\Scripts\</b> folder.</li>
+  	<li>Open the file <strong>HTCOMNET\Styles-min.css</strong> in Notepad and find the <strong>".x-logo-icon"</strong> style. 
+  	Set your image width and height at the <strong>width</strong> and <strong>height</strong> parameters (by default: <b>.x-logo-icon{width:147px !important;height:25px !important}</b>). Save the file.
+  	</li>
+  	<li>Open the file <strong>HTCOMNET\Scripts\Main.js</strong> in Notepad. 
+  	Find the <strong>"logoBtn=config.logoBtn||{url:"",tooltip:"Your logo or link",icon:"Scripts/logo.png",showInNewWindow:false}"</strong> string. 
+  	Set the URL for the logo button (set empty value if it is not a link), tooltip and icon image file name. Save the file.</li>
+  </ul>
+  </li>
+
+    
+
+  </ol>
+  
+  
+
+<br/><br/>
+   
+  <a name="userscount"></a>
+  <span class="faqquestion"><strong>How does HTTP Commander control user's count?</strong></span><br><br>
+  <p>Answer: HTTP Commander controls user session count and unique user&#39;s names. 
+  A new session is created for every visitor. Each user can have a few sessions 
+  if he doesn't clicked logout button. But after 1 hour, the session is closed automatically. 
+  To terminate existing sessions by yourself, you need to <a href="#restartapp">restart the application</a>.
+  </p>
+  <br/><br/>
+   
+  <a name="ssl"></a>
+  <span class="faqquestion"><strong>How can I use HTTP Commander with SSL?</strong></span><br><br>
+  <p>
+  Answer: HTTP Commander works both with http and https protocols. 
+  http protocol works out of box.
+  To enable https protocol, you need to install an SSL certificate on IIS.
+  The instructions below describe how to order a certificate 
+  from a globally recognized certificate authority (recommended option)
+  and how to create a self-signed certificate.
+  </p>
+  
+  <p>A self-signed certificate will allow you to use the https protocol,
+  but the web browser will warn that
+  the certificate is not valid since it comes from an unknown authority.
+  To get a certificate that passes verification, you need to either order a certificate at
+  a globally recognized certificate authority, or establish a trusted authority
+  inside your corporate network.
+  </p>
+  
+  <p><b>Order certificate at a globally recognized certificate authority</b></p>
+  <p>As an example we consider ordering a certificate at <a target="_blank" href="http://www.thawte.com/">Thawte</a>.
+  You may choose any other authority you trust.
+  </p>
+  
+  <ul>
+    <li>Select a certificate for your web site: <a target="_blank" href="http://www.thawte.com/ssl/index.html">SSL certificates</a>.
+    </li>
+    <li>Generate a Certificate Signing Request as described in <a target="_blank" href="https://search.thawte.com/support/ssl-digital-certificates/index?page=content&id=AR1108&actp=search&viewlocale=en_US&searchid=1366797919282">Key and CSR Generation Instructions</a>.
+    You'll need it later.</li>
+    <li>Click the <b>Buy</b> button to order the chosen certificate. You'll fill out a number of web forms in the process.
+    At one step you'll have to specify the Certificate Signing Request.
+    </li>
+    <li>Track the status of the certificate in Thawte Certificate Center.</li>
+    <li><a target="_blank" href="https://search.thawte.com/support/ssl-digital-certificates/index?page=content&id=SO1498&actp=LIST&viewlocale=en_US">Install the SSL certificate</a> according to Thawte manual.</li>
+    <li><a target="_blank" href="https://search.thawte.de/support/ssl-digital-certificates/index?page=content&id=SO1847&actp=search&viewlocale=en_US&searchid=1366868204621">Backup the certificate</a> (optional).</li>
+  </ul>
+  
+  <p><b>Install Self-Signed certificate</b></p>
+  <ul>
+    <li>For IIS 5, 6
+      <ul style="list-style-type:decimal;">
+      <li>Download the Microsoft IIS resource kit (supports IIS 5,6) at <a target="_blank" href="http://www.microsoft.com/downloads/details.aspx?FamilyID=56FC92EE-A71A-4C73-B628-ADE629C89499&displaylang=en" target="_blank">http://www.microsoft.com/downloads/details.aspx?FamilyID=56FC92EE-A71A-4C73-B628-ADE629C89499&displaylang=en</a>.</li>
+      <li>Install the IIS resource kit on the server.</li>
+      <li>Run Start-> Programs-> IIS Resources-> Self SSL-> SelfSSL</li>
+      <li>See the instructions about how to run the command to create your own SSL. 
+      <br/>Run the command: <b>selfssl.exe /N:CN=DOMAINNAME /K:1024 /V:7 /S:1 /P:443</b></li>
+      <li>Now you can  open <b>https://localhost/HTCOMNET/</b> in a browser.</li>
+      <li>To disabled non-SSL connections, open <b>IIS manager</b>, expand the web site tree, right-click the <b>HTCOMNET</b> application, select <b>"Properties"</b>, open <b>Directory Security</b> tab, click <b>"Edit..."</b>, check <b>"Require secure channel (SSL)"</b>.</li>
+      </ul>
+    </li>
+    <li>For IIS 7 and above
+      <ul>
+        <li>Open IIS manager, select the server node in the connections tree</li>
+        <li>Open the Server Certificates feature</li>
+        <li>On the actions pane click the "Create Self-Signed Certificate" link</li>
+        <li>Specify a friendly name of the certificate in the opened dialog box.
+        That may be any name. Click OK button.</li>
+        <li>The certificated is created, you should see it in the Server Certificates list.</li>
+        <li>Select the web site that contains HTTP Commander in the connection tree</li>
+        <li>Click the Bindings link on the actions pane</li>
+        <li>In the Site Bindings dialog click the Add button.</li>
+        <li>Select https protocol in the type box in the "Add Site Binding" dialog box</li>
+        <li>Select the SSL certificate you created earlier in the "SSL certificate" box</li>
+        <li>Change any other settings in the dialog box, if changes are needed, click the OK button.</li>
+        <li>Click the Close button to close the Site Bindings dialog.</li>
+        <li>You're done now, you can use the https protocol to connect to HTTP Commander.</li>
+      </ul>
+    </li>
+  </ul>
+  
+  <p>A self-signed certificate is untrusted by definition. The web browser will warn you about the problem when 
+  you try to open a web site with untrusted certificate.</p>
+  <a target="_blank" onclick="toggleBlock('IEInvaidCertificateProblem1'); return false;"
+      class="imglink">Screenshot</a>
+  <div id="IEInvaidCertificateProblem1" style="display: none;">
+      <p class="screenshot">
+          &nbsp;<img src="Images/IEInvaidCertificateProblem.png"/>
+      </p>
+  </div>
+  
+  <p>WebDAV over https with invalid certificate works unreliably.
+  While web browser will warn you about the problem and allow you to proceed, 
+  WebDAV may refuse to connect to the web folder with a misleading error message.
+  You may circumvent the problem by installing self-signed certificate into the trusted authorities container
+  on the client machine.</p>
+  
+  <p><b>Install untrusted certificate into trusted authorities container</b></p>
+  <ol>
+    <li>Open Internet Explorer with administrative rights</li>
+    <li><p>Open target site using https</p>
+      <a target="_blank" onclick="toggleBlock('IEInvaidCertificateProblem2'); return false;"
+          class="imglink">Screenshot</a>
+      <div id="IEInvaidCertificateProblem2" style="display: none;">
+          <p class="screenshot">
+              &nbsp;<img src="Images/IEInvaidCertificateProblem.png"/>
+          </p>
+      </div>
+    </li>
+    <li><p>Confirm that you want to proceed in spite of the security problem.</p>
+      <a target="_blank" onclick="toggleBlock('IEInvaidCertificateProblemProceed'); return false;"
+          class="imglink">Screenshot</a>
+      <div id="IEInvaidCertificateProblemProceed" style="display: none;">
+          <p class="screenshot">
+              &nbsp;<img src="Images/IEInvaidCertificateProblemProceed.png"/>
+          </p>
+      </div>
+    </li>
+    <li><p>Click "Certificate Error" Security report on the address bar, 
+      then click the "View certificates" link in the pop-up window.</p>
+      <a target="_blank" onclick="toggleBlock('IEViewInvalidCertificate'); return false;"
+          class="imglink">Screenshot</a>
+      <div id="IEViewInvalidCertificate" style="display: none;">
+          <p class="screenshot">
+              &nbsp;<img src="Images/IEViewInvalidCertificate.png"/>
+          </p>
+      </div>
+    </li>
+    <li><p>Click the "Install Certificate" button in the certificate properties window.</p>
+      <a target="_blank" onclick="toggleBlock('CertificateProperties'); return false;"
+          class="imglink">Screenshot</a>
+      <div id="CertificateProperties" style="display: none;">
+          <p class="screenshot">
+              &nbsp;<img src="Images/CertificateProperties.png"/>
+          </p>
+      </div>
+    </li>
+    <li><p>Click "Next" in the Certificate Import Wizard. On the next step, "Certificate Store",
+    select "Place all certificates in the following store", in the "Certificate store" field
+    select "Trusted Root Certification Authorities". Click "Next".</p>
+      <a target="_blank" onclick="toggleBlock('CertificateImportWizardSelectStore'); return false;"
+          class="imglink">Screenshot</a>
+      <div id="CertificateImportWizardSelectStore" style="display: none;">
+          <p class="screenshot">
+              &nbsp;<img src="Images/CertificateImportWizardSelectStore.png"/>
+          </p>
+      </div>
+    </li>
+    <li>Click Finish to close the Certificate Import Wizard.</li>
+    <li><p>Click "Yes" in the security warning dialog box.</p>
+      <a target="_blank" onclick="toggleBlock('InstallCertificateSecurityWarning'); return false;"
+          class="imglink">Screenshot</a>
+      <div id="InstallCertificateSecurityWarning" style="display: none;">
+          <p class="screenshot">
+              &nbsp;<img src="Images/InstallCertificateSecurityWarning.png"/>
+          </p>
+      </div>
+    </li>
+  </ol>
+  <br/>
+  <br/>
+  
+  
+ 
+  
+  <a name="enablegzip"></a>
+  <span class="faqquestion"><strong>Can the first loading process be faster?</strong></span><br><br>
+  Answer: The HTTP Commander has AJAX and 100% Java Script interface so it works rather quickly  like a local application. 
+  When a visitor logons  the HTTP Commander for the first time, it takes some time to load *.js, *.css and *.svg (image/svg+xml mime type) files.
+  Such files are stored in a browser cache for some months, so the next logons will be much quicker.<br/><br/>
+  Starting from version 4.0 Http Commander have caching enabled by default for /Images, /Scripts folders and for styles.css. styles-min.css files.
+  Max-Age used to control caching of these resources and  it set to 365 days by default. 
+  <br/>
+  Caching is not enabled for whole application to prevent caching of downloaded files. 
+  <br/>
+  If you want to disable caching, you need to find and remove following sections from web.config file :
+    <textarea cols="150" rows="8">
+		<staticContent>
+			<clientCache cacheControlMode="UseMaxAge" cacheControlMaxAge="365.00:00:00" />
+		</staticContent>
+		<caching enabled="true" enableKernelCache="true">
+			<profiles>
+				<clear/>
+			</profiles>
+		</caching>
+	</textarea>  
+	<br/>
+	Please note, that profiles of caching section is cleared to make IIS correctly send Cache-Control header in response. If this section is not cleared, IIS still adding no-cache attribute to Cache-Control header. 
+ 
+  <br/>	
+  <br/>
+  You can make  even the first loading process faster if you enable gzip compression in the IIS settings. With gzip enabled, the loading is 4-5 times faster. You need to enable gzip for static and dynamic content (*.js, *.css and *.svg (image/svg+xml mime type) files). See <a target="_blank" href="http://technet.microsoft.com/en-us/library/cc771003(WS.10).aspx">article how to enable compression in IIS 7 (Win 2008)</a> or <a href="http://technet.microsoft.com/en-us/library/cc778828(WS.10).aspx" target="_blank">for IIS 6 (Win 2003)</a>. 
+  <br/>
+  Download the trial  <a target="_blank" href="http://www.ieinspector.com/httpanalyzer/">HTTP Sniffer</a> to test if the compression works successfully.
+  <br />
+    <a target="_blank" href="Images/compressionIIS7_5.png" onclick="toggleBlock('compressionIIS7'); return false;"
+        class="imglink">Screenshots for IIS 7, 8</a>
+    <div id="compressionIIS7" style="display: none;">
+        <p class="screenshot">
+            &nbsp;<img src="Images/compressionIIS7_1.png" style="width: 718px; height: 533px" /><br /><br />
+            &nbsp;<img src="Images/compressionIIS7_2.png" style="width: 780px; height: 575px" /><br /><br />
+            &nbsp;<img src="Images/compressionIIS7_3.png" style="width: 780px; height: 575px" /><br /><br />
+            &nbsp;<img src="Images/compressionIIS7_4.png" style="width: 717px; height: 533px" /><br /><br />
+            &nbsp;<img src="Images/compressionIIS7_5.png" style="width: 717px; height: 533px" /><br /><br />
+            &nbsp;<img src="Images/compressionIIS7_6.png" style="width: 809px; height: 565px" /><br /><br />
+            &nbsp;<img src="Images/compressionIIS7_7.png" style="width: 809px; height: 565px" /><br /><br />
+            &nbsp;<img src="Images/compressionIIS7_8.png" style="width: 602px; height: 408px" />
+        </p>
+    </div>
+  <br /><br />
+  
+  <a name="appfaster"></a>
+  <span class="faqquestion"><strong>Can I make the application faster (increase performance)?</strong></span><br><br>
+  Answer: Yes. There are a few things that can help you make the application faster. You can do all or just some of them:
+<ul>
+<li>It is recommended to enable <a href="#enablegzip">gzip compression</a></li>
+<li>You can setup content expiration for the Images\ folder so images will be loaded for the user once 
+and requests "if-modified" will not be sent again during the next logon. 
+This can increase performance in some cases because application uses many images.
+To setup content expiration:
+For IIS 7, 8:  expand the HTCOMNET\Images\ folder, then in the right panel open "HTTP Response Headers". Choose action "Set common Headers..." and set content expiration on 2020 year (for nearest 10 years).
+For IIS 6: open  HTCOMNET\Images\ folder settings at IIS,  open "HTTP Headers" tab and set "Expire on" 2020 year (for nearest 10 years).
+</li>
+<li>You can disable the tree view or make it not auto collapsible. 
+This makes the application faster because no requests for tree updates are needed. 
+To disable tree set the <b>"HideTree"</b> parameter in the Application settings  to "false" 
+or set the parameter <strong>&quot;TreeView&quot;</strong> value to &quot;NotAutoExpandable&quot;.
+</li>
+<li>Don't use a lot of columns for the files grid at <b>"DisplayedDefaultColumnsInList"</b> parameter of Application settings. 
+Rendering files grid takes some time at the users side if there are many files in the folder.
+</li>
+<li><b>Note!</b> Don't test application performance with <strong>Internet Explorer 8</strong>.
+This version works ineffectively with java scripts and HTML objects. 
+More popular browsers like <strong>FireFox, Chrome, IE 9 are a few times faster</strong>.</li>
+</ul>
+  <br/><br/>
+
+<a name="slowgrid"></a>
+<span class="faqquestion">
+    <strong>Loading of folders/files list is very slow (specially for a network folder) and takes several seconds.    </strong>    
+</span>
+    <br />
+    It could be related to usage of NTFS alternate streams by HTTP Commander to store/read custom metadata on files and folders.<br />
+    They used to store such information as Labels, Comments, File history, downloads counting and custom details fields.<br />
+    By default HTTP Commander configured to display in file list some information stored in metadata for each file, e.q. existance of comments or other metadata and labels.
+    If you do not plan to use mentioned functionalities feel free to disable them by configuring following parameters:
+    <ul>
+        <li><a href="webconfigsetup.html#DisplayedDefaultColumnsInList">DisplayedDefaultColumnsInList</a></li> - Remove <b>"downloads"</b> and other custom fields (like comments, description) which are stored in metadata from the list of available columns in file list. By default they are not included.
+        <li><a href="webconfigsetup.html#EnableFilesFoldersLabels">EnableFilesFoldersLabels</a></li> - Set the value to false.
+        <li><a href="webconfigsetup.html#ShowFileMarkWhenExistsDetails">ShowFileMarkWhenExistsDetails</a></li> - Set the value to false.
+    </ul>
+    Configuring these parameters is enough to disable load of metadata for each file during load of file list for folder, which may significantly speed up loading for network folders.<br/>
+    While you still will be able to see downloads count (if download counting is enabled), comments, description and other custom metadata fields in file properties window and in file details panel.  
+<br /><br /> 
+
+  <a name="maperror"></a>
+  <span class="faqquestion">If I map a folder I get the error <strong>"The folder you entered does not appear to be valid..."</strong>?</span><br><br>
+  Answer: First, try to map folder <strong>"https://demo.element-it.com/examples/demowindows/hcwebdav"</strong> (without quotes). 
+  If it doesn't show the error and asks for credentials then it works (You can use demo/demo credentials). 
+  If mapping demo folder works but it doesn't map your application link, then the problem is with the application or WebDAV configuration.
+  Check <a href="webconfigsetup.html#mappings">web folders mapping</a> setup or <a hre="onlinesupport.html">contact</a> us.<br/>
+  You cannot map folders in <strong>Server OS like Windows 2003, 2008 or 2012</strong> by default. 
+  So, please test mapping from a non-server PC. 
+  If you want to map to Server OS then you need to do some steps:
+<ul>
+<li><b>For Server 2008, 2012, 2016:</b> Click <b>Start->Administration Tools->ServerManager->Features->Add Features-> check 'Desktop Experience' and click  'Install' button</b>
+<br /><a target="_blank" href="Images/DesktopExperience.png" onclick="toggleBlock('DesktopExperience'); return false;"
+        class="imglink">Screenshots</a>
+    <div id="DesktopExperience" style="display: none;">
+        <p class="screenshot">
+            &nbsp;<img src="Images/DesktopExperience2008.png" style="width: 780px; height: 575px" />&nbsp;&nbsp;
+            &nbsp;<img src="Images/DesktopExperience2012.png" style="width: 800px; height: 567px" />
+        </p>
+    </div>
+</li>
+<li><b>For Server 2003:</b> Start <strong>&quot;WebClient</strong>&quot; service at <strong>Administration Tools->Services</strong> and change <strong>Startup type</strong> to <strong>Automatic</strong>.</li>
+</ul>  
+  <br/>
+  <br/>
+  
+  <a name="accessisdenied"></a>
+  <span class="faqquestion"><strong>I got an <b>"Access to path '...' is denied"</b> error.</strong></span><br><br>
+  Answer: The problem is related to the NTFS permissions. 
+  Check the NTFS permissions for HTCOMNET, data and your main content folders. 
+  See the <a href="ntfs.html">NTFS Permissions</a> section of the Documentation.
+  <br/><br/>
+  
+  <a name="pagecannotbefound"></a>
+  <span class="faqquestion"><strong>I got <b>The page cannot be found</b> error (error 404) when I open http://localhost/HTCOMNET/default.aspx or any other page.</strong></span><br><br>
+  Answer: If you are sure that the path http://localhost/HTCOMNET/default.aspx exists but you are still getting the error,
+  it means that the IIS doesn't execute ASP.NET code.
+  <br />
+  Reasons:<br />
+  1. You should allow ASP.NET 2.0 or 4.0 running in Web service extension list. See "Application Install" section of the Documentation.
+  <br />
+  2. This problem occurs if your IIS was installed after the .NET framework installation. 
+     Reinstall the .NET framework or execute the following command as administrator:
+			    <p>On a 32-bit system:</p>
+			    <pre>
+%windir%\Microsoft.NET\Framework\v4.0.21006\aspnet_regiis.exe -i
+			    </pre>
+			    <p>On a 64-bit system:</p>
+			    <pre>
+%windir%\Microsoft.NET\Framework64\v4.0.30319\aspnet_regiis.exe -i
+			    </pre> <br/>
+  <br/> 
+  
+  <a name="aspnettags"></a>
+  <span class="faqquestion"><strong>I see the page with ASP.NET tags at the top e.g. <b>"&lt;%@ Page Language="C#" %&gt;"</b>.</strong></span><br><br>
+  Answer: ASP.NET has not started on the server and you have opened pages like clear HTML. See the "Application Install" section. 
+<br/><br/>
+  
+  <a name="requiredrepmissions"></a>
+  <span class="faqquestion"><strong>I got a <b>"Required permissions cannot be acquired"</b> error.</strong></span><br><br>
+  <span class="faqquestion"><strong>I got a <b>"Request for the permission of type 'System.Security.Permissions...</b> error.</strong></span><br><br>
+  Answer: Both errors can be related to "Full trust" level. Check if "Full trust" is enabled for HTCOMNET application. For windows 2008, 2012, 2016 see the "Application Install" section. <br/>
+  For windows 2003 open the file <b>C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\CONFIG\web.config</b> and add the code below, save the file.<br/>
+  
+  <textarea cols="60" rows="5">
+  <location allowOverride="true" path="Default Web Site/htcomnet">
+  <system.web>
+    <trust level="Full" originUrl=""/>
+  </system.web>
+</location>
+  </textarea>
+  <br/>
+  Also, check the permissions  for "NETWORK SERVICE" or "IIS APPPOOL\DefaultAppPool" user on the HTCOMNET folder as well. 
+  See the <a href="ntfs.html">NTFS permissions</a> section.
+<br/><br/>
+
+  <a name="ssldownload"></a>
+  <span class="faqquestion"><strong>I got a <b>"Internet Explorer cannot download Download.ashx from [domainname]"</b> error while a file  was being downloaded.</strong></span><br><br>
+  Answer:
+  If you are using SSL,  check Internet Explorer settings: <b>Tools-> Internet Options-> Advanced-> Security-> uncheck "Do not save encrypted pages to disk"</b>.  By default this option is unchecked. 
+  If the option is checked, the files cannot be saved from any SSL website.
+  <br><br>
+  
+  <a name="appunavailable"></a>
+  <span class="faqquestion"><strong>I got a <b>"Server Application Unavailable"</b> error.</strong></span><br /><br />
+  Answer: There are two reasons for such error:
+  <ol>
+  <li>The problem can appear because ASP.NET 2.0 and ASP.NET 1.1 applications are being used by the same pool. 
+  Check all your applications in IIS and set one application pool for the applications running under ASP.NET 2.0 
+  and another pool for applications running under ASP.NET 1.1.</li>
+  <li>There are not enough NTFS permissions to HTCOMNET folder. 
+  See the <a href="ntfs.html">NTFS permissions</a> section of the Documentation.<br />
+</ol>  
+  There can also be some other reasons. You can try to <a href="#restartapp">restart the application</a>.</li>
+  
+<br/><br/> 
+  
+   
+  <a name="allowconfig"></a>
+  <span class="faqquestion"><strong>I got the <b>Error "500.19" at web.config file</b> ("modules" section).</strong></span><br /><br />
+  Answer: This error can occur if you are using IIS 7 or 8 and you have disabled some features of web.config to delegate.
+  In most cases it occurs with the "modules" feature. 
+  You should open IIS, click  the server root in the left tree. 
+  At the right panel, open "Feature Delegation", then  Select "Modules" and change its delegation type to "Read/Write". 
+  If you have the error with other features, then set the delegation type for the other features.<br/>
+   <a target="_blank" href="Images/configallow.png" onClick="toggleBlock('configallow'); return false;" class="imglink">Screenshot</a>
+      <div id="configallow" style="display: none;">
+        <p class="screenshot">
+            &nbsp;<img src="Images/configallow.png" style="width: 717px; height: 570px" /></p>
+      </div>  
+  
+<br/><br/> 
+  
+  
+  <a name="silverlight"></a>
+  <span class="faqquestion"><strong>I've opened "Silverlight" file uploader tab but the window is empty.</strong></span><br><br>
+  Answer:
+  <ul>
+   <li>If you are running IIS 6 (windows 2003), you need to check if MIME type is added for Silverlight .xap files in IIS. See <a href="win2003.html">Application install in IIS 6</a> section.</li>
+   <li>If you see the Silverlight installation button or a dialog window, and nothing is happening after Silverlight is installed, click <b>F5</b> to refresh a browser.</li>
+  </ul>
+  <br/><br/> 
+  
+  <a name="webgarden"></a>
+  <span class="faqquestion"><strong>Does HTTP Commander support Web garden or Web farm?</strong></span><br><br>
+  Answer:
+  No. HTTP Commander is running but does not work correctly if you have web garden or web farm enabled in IIS.
+  Check if you have enabled web garden in the application pool settings and disable it or create a new pool for HTTP Commander.
+  You should use only one worker process for the application.  
+  <br/><br/>
+  
+  <a  name="dfs"></a>
+  <span class="faqquestion"><strong>Is HTTP Commander supports file solutions like <b>DFS folders</b>, <b>UNC folders</b>,  <b>ABE</b>,  <b>NAS</b>?</strong></span><br><br>
+  Answer: Yes, it supports <b>DFS, UNC, ABE, NAS</b> and most other file related Windows Server technologies. 
+  First you would set up the folder in the Admin panel.
+  Then type the path to the DFS folder like \\domain\foldername or UNC like \\servername\share\folder.
+  <!-- For windows version only. Start --> 
+  If you set up UNC remote folder at the remote server or your DFS folders stores folders at remote servers then check 
+  if Basic authentication is enabled in IIS settings, not Windows integrated (For Domain network it is possible to use Windows Integrated authentication : <a href="#delegation">May I use network folders with Windows Integrated Authentication?</a>)! 
+  See <a href="#windowsauth">why Basic authentication should be used</a>. <br/>
+  For Domain network it is possible to use Windows Integrated authentication : <a href="#delegation">May I use network folders with Windows Integrated Authentication?</a>
+  <!-- For windows version only. End --> 
+  
+  For <strong>ABE</strong> see <a href="#abe">more info here</a>. <br/>
+  <br/>
+
+  <a name="docs"></a>
+  <span class="faqquestion"><strong>How Can I configure documents management features like <b>Google docs, MS Office and OpenOffice online edit</b>?</strong></span><br><br>
+  Answer:
+  All info related to documents management features is described in the <a href="webconfigsetup.html">Application settings</a> section.  
+  <br/><br/>
+  
+  
+ 
+
+  <a name="settingsurl"></a>
+  <span class="faqquestion"><strong>Can I pass some settings in URL?</strong></span><br><br>
+  Answer:
+  Yes, you can pass some settings in the URL:
+  <ul>
+  <li>Use <b>"Default.aspx?Language=English"</b> to pass default language. </li>
+  <li>Use <b>"Default.aspx?folder=foldername"</b> to open a specific folder first. </li>
+  <li>Use <b>"Default.aspx?file=path/to/file"</b> to open a folder with the file and highlights it.</li>
+  <li>Use <b>"Default.aspx?isEmbeddedtoIFRAME=true"</b> to show interface for iframe mode (with small icons). </li>
+  <li>Use <b>"Default.aspx?hideTree=true"</b> to hide (or show by default if value is "false") tree panel with folders on left side (see <a href="webconfigsetup.html#HideTree">HideTree</a> parameter). </li>
+  <li>Use <b>"Default.aspx?TreeView=disabled"</b>, <b>"Default.aspx?TreeView=enabled"</b> or <b>"Default.aspx?TreeView=notautoexpandable"</b> to change view of tree panel with folders on left side (see <a href="webconfigsetup.html#TreeView">TreeView</a> parameter). </li>
+  <li>Use <b>"Default.aspx?defaultGridView=thumbnails"</b> or <b>"Default.aspx?defaultGridView=detailed"</b> to show file list in thumnails or detailed mode</li>
+  <li>Use <b>"Default.aspx?Mobile="</b> to show the mobile interface (Smartphones) by default. </li>
+  <li>Use <b>"Default.aspx?Standard="</b> to show the standard interface (non Mobile) by default. </li>
+  
+ 	
+  </ul>
+   <br/>
+   
+   
+   
+
+  <a name="staticcontentrole"></a>
+  <span class="faqquestion"><strong>How can I add Static Content Role service at IIS7?</strong></span><br />
+    Answer:<br />
+    To add <b>Static Content</b> role go to<br />
+    <b>Start&nbsp;-&gt;&nbsp;Administrative Tools&nbsp;-&gt;&nbsp;Server Manager&nbsp;-&gt;&nbsp;Roles</b>.<br />
+    Find in the right list the <b>Web Server (IIS)</b> role and click the <b>Add Role Services</b> link.<br />
+    In the new window check <b>Static Content</b>, and then click <b>Next</b> and then <b>Install</b> button.<br />
+    <a target="_blank" href="Images/staticcontentrole1.png" onclick="toggleBlock('staticcontentrole1'); return false;"
+        class="imglink">Screenshots</a>
+    <div id="staticcontentrole1" style="display: none;">
+        <p class="screenshot">
+            <img src="Images/staticcontentrole1.png" style="width:667px; height: 471px" /><br /><br />
+            <img src="Images/staticcontentrole2.png" style="width:780px; height: 575px" /><br /><br />
+            <img src="Images/staticcontentrole3.png" style="width:780px; height: 575px" /><br /><br />
+            <img src="Images/staticcontentrole4.png" style="width:780px; height: 575px" /><br /><br />
+        </p>
+    </div>
+    <br />
+    <br />
+    
+  <a name="googleautherror"></a>
+  <span class="faqquestion"><strong>When I am authenticated for "Download/Upload from/to Google", I got the <b>"The site "http://yourdomainname.com" has not been registered."</b> error.</strong></span><br />
+    Answer:<br />
+    Open your account management page at Google where the <b>yourdomainname.com</b> domain is registered 
+    and on the <b>MangeDomain</b> page, specify your domain in the <b>Target URL Path prefix</b> field.<br />
+    <a target="_blank" href="" onclick="toggleBlock('google_screenshots'); return false;"
+        class="imglink">Screenshots</a>
+    <div id="google_screenshots" style="display: none;">
+        <p class="screenshot">
+            <img src="Images/GoogleScreen1.jpg" style="width:668px; height: 784px" /><br />
+            <img src="Images/GoogleScreen2.jpg" style="width:668px; height: 784px" /><br /><br />
+        </p>
+    </div>
+    <br />
+  <br />
+  
+  <a name="protectConfigFiles"></a>
+  <span class="faqquestion"><strong>How do I protect configuration files (prevent them to be retrieved by users)?</strong></span><br />
+    <p>Answer:
+    HTTP Commander stores configuration data on the server in a number of files. 
+    For security reasons, it is recommended to prevent users from retrieving them,
+    since they expose sensitive information about the application. Configuration files are:
+    web.config, HttpCommanderSettings.config, .xml file in the Data folder.
+    web.config, HttpCommanderSettings.config files are protected by default.
+    .xml files in Data folder are protected via the following section in web.config file
+    (in case of trouble make sure these settings are present in the configuration file).
+    </p>
+    <pre>
+	&lt;location path="Data"&gt;
+		&lt;system.web&gt;
+			&lt;httpHandlers&gt;
+				&lt;add path="*.xml" verb="*" type="System.Web.HttpForbiddenHandler"/&gt;
+			&lt;/httpHandlers&gt;
+		&lt;/system.web&gt;
+		&lt;system.webServer&gt;
+			&lt;!-- Setting only for IIS 7 and 7.5 --&gt;
+			&lt;security&gt;
+				&lt;requestFiltering&gt;
+					&lt;fileExtensions&gt;
+						&lt;add fileExtension=".xml" allowed="false" /&gt;
+					&lt;/fileExtensions&gt;
+				&lt;/requestFiltering&gt;
+			&lt;/security&gt;
+		&lt;/system.webServer&gt;
+	&lt;/location&gt;
+    </pre>
+    <p>In IIS 7 and above, configuration is restricted to web.config file.
+    For IIS 5, 6 you need to proceed one step further to complete the setup.
+    Map the .xml file name extension to ASP.NET as described in 
+    <a target="_blank" href="http://support.microsoft.com/kb/815152">KB815152, Edit Script Mappings in Internet Services Manager section</a>.
+    Apply the setting to the HTTP Commander virtual directory.
+    </p>
+    <p>To test the settings, try to download the configuration files with a browser (http://server/HttpCommander/Data/Accounts.xml). You should see</p>
+    <a target="_blank" href="Images/Accounts.xmlForbidden.png" onclick="toggleBlock('AccountsXmlForbidden'); return false;"
+        class="imglink">Screenshots</a>
+    <div id="AccountsXmlForbidden" style="display: none;">
+        IIS 6 response
+        <p class="screenshot">
+            <img src="Images/Accounts.xmlForbidden.png"/>
+        </p>
+        IIS 7 response
+        <p class="screenshot">
+            <img src="Images/Accounts.xmlNotFound.png"/>
+        </p>
+    </div>
+    <br/>
+    <br/>
+		
+  <a name="sso"></a>
+  <span class="faqquestion"><strong>Can I use SSO?</strong></span><br>
+  <p>HTTP Commander includes examples of Single Sign-On (SSO) both for Basic authentication and authentication via Form (for Active Directory users). </p>
+
+  <p><strong>Summary</strong></p>
+  <ul>
+  <li>HTTP Commander with Windows authentication (Windows or Basic authentication in IIS, and ASP.NET impersonation is turned on)<br/>
+  You may delegate authentication to the application by means of asynchronous HEAD request to Default.aspx page.
+  The request should possess valid credentials.
+  </li>
+  <li>HTTP Commander with Forms authentication (Anonymous and Forms authentication in IIS).
+  The application may use its' own account database (Accounts.xml file in Data directory) &mdash; Forms authentication mode
+  or use windows accounts &mdash; "Forms with Windows users" authentication mode.<br/>
+  There are two options to delegate authentication to HTTP Commander.
+    <ul>
+    <li>Pass the user name and password to the Default.aspx page in query string or in POST request. 
+    For example, HttpCommander/Default.aspx?username=User1&amp;password=Passw*rd.</li>
+    <li><a href="CommonAuthentication.html">Forms authentication across applications</a></li>
+    </ul>
+  </li>
+  <li>Shibboleth authentication. HTTP Commander delegates authentication to <a target="_blank" href="http://shibboleth.net/">Shibboleth</a>.
+  See <a href="webconfigsetup.html#shibboleth">Shibboleth integration</a> for more details.
+  </li>
+  </ul>
+  
+    <p><strong>Details</strong></p>
+    <p>In all cases except <a href="CommonAuthentication.html">Forms authentication across applications</a>,
+    you should have valid credentials to authenticate in HTTP Commander.
+    Thus SSO topic breaks up into two subtopics:
+    obtaining credentials and authenticating in the Web file manager. 
+    </p>
+  
+    <ul>
+    <li>
+        <p><strong>Basic authentication</strong> on the other site: 
+        If you have a web site configured for Basic authentication, 
+        then you can pass these credentials to HTTP Commander so users will be authenticated in it as well. 
+        To authenticate in HTTP Commander, you need to send an AJAX request with credentials to the application. 
+        HTTP Commander distribution archive includes an example page <strong>BasicLoginExample.html</strong> in the <strong>Manual</strong> folder.
+        </p>
+        <p>To enable SSO you need: </p>
+        <ul>
+            <li>Add the <strong>HttpCommanderAuthModule</strong> module in IIS 7 or 8 to your main web site:
+              <ul>
+                <li>Copy the <strong>Manual\owa\module\HttpCommanderAuthModule.dll</strong> file to the <strong>Bin</strong> folder of your main site. </li>
+                <li>Open IIS Manager and navigate to the  site. In <strong>Features View</strong> double-click <strong>Modules</strong>.
+                  On the <strong>Modules</strong> page, in the <strong>Actions</strong> pane, click <strong>Add Managed Module</strong>.
+                  In the <strong>Add Managed Module</strong> dialog box, in the <strong>Name</strong> box,
+                  type a name for the managed module, e.g. <b>HttpCommanderAuthModule</b>.
+                  In the <strong>Type</strong> box, enter exactly the following: <b>HttpCommander.HttpCommanderAuthModule</b>.
+                  Click OK. (<b>Note. </b>If you see warning as on the 2nd screenshot click &quot;Yes&quot;)<br />
+                    <a target="_blank" href="Images/owa/add_auth_module.png" onclick="toggleBlock('addAuthModule'); return false;"
+                    class="imglink">Screenshots</a>
+                    <div id="addAuthModule" style="display: none;">
+                      <p class="screenshot"> &nbsp;<img src="Images/owa/add_auth_module.png" alt="e" style="width:733px;height:532px;" /><br />
+                          <br />
+                        &nbsp;<img src="Images/owa/add_auth_module_warning.png" alt="eg" style="width:410px;height:178px;" /> </p>
+                    </div>
+                  <br />
+                  Or you can add in the file <strong>web.config</strong> of site in the section <b>system.webServer/modules</b> a line<br />
+                  <b style="white-space:nowrap">&lt;add name=&quot;HttpCommanderAuthModule&quot; type=&quot;HttpCommander.HttpCommanderAuthModule&quot; /&gt;</b>.<br />
+                  <a target="_blank" href="Images/owa/add_auth_module_webconfig.png" onclick="toggleBlock('addAuthModuleWebconfig'); return false;"
+                            class="imglink">Screenshot</a>
+                  <div id="addAuthModuleWebconfig" style="display: none;">
+                    <p class="screenshot"> &nbsp;<img src="Images/owa/add_auth_module_webconfig.png" alt="eg" style="width:715px;height:360px;" /> </p>
+                  </div>
+                </li>
+              </ul>
+            </li>
+            
+            <li>Open for editing the  <strong>BasicLoginExample.html</strong> file. 
+            Copy its content to any page of your site where users will start HTTP Commander. 
+            File includes <strong>openHTTPCommander(URL)</strong> javascript function. 
+            Replace URL with correct HTTP Commander URL like 'http://yoursite/HTCOMNET/Default.aspx'. 
+            <!-- Remember that HTTP Commander should be at the same domain there your main site.--></li>
+            <li>Contact Element-IT technical support if you have troubles with this.</li>
+        </ul>
+        
+        <p><strong>Details &mdash; how it works</strong></p>
+        <p>Let's explore openHTTPCommander JavaScript function in BasicLoginExample.html file.
+        First, it sends asynchronous HEAD request to the current web page, that is BasicLoginExample.html.
+        We add an "r" parameter to the current page with random value.
+        The request URL should look like this "BasicLoginExample.html?r=0.061323485323896254".
+        The value of the parameter does not matter, it's needed to force the browser to send the request
+        instead of returning a cached response.
+        JavaScript sets a special "X-HttpCommander-Auth" header that is processed by the HttpCommanderAuthModule.
+        When the module encounters the "X-HttpCommander-Auth" header in the request, 
+        it returns the user name and password of the logged in user with "X-HttpCommander-Auth" header to the client.
+        JavaScript code reads the "X-HttpCommander-Auth" header from the response,
+        gets the user name and password of the user logged into the web site.
+        Using these credentials, JavaScript sends asynchronous an HEAD request to Default.aspx page
+        of HTTP Commander.
+        If the logged in user is allowed access to HTTP Commander,
+        authentication procedure succeeds.
+        Web browser opens HTTP Commander and log ins automatically.
+        </p>
+    </li>
+    
+    <li>
+        <p><strong>Forms authentication</strong> on the other site: If you have a login page where users type their name and password, 
+        then you can pass these credentials to  HTTP Commander so users will be authenticated in it as well. 
+        To authenticate the user, you need to send an AJAX request with the credentials to the application. 
+        HTTP Commander has a working example page <strong>testSSO.html</strong> in the application root folder for user login via Form on page. 
+        You can look at the code of the page and move it to your login Form or contact us to get help. <br />
+        <br />
+        For testSSO.html page the only thing you need is to set anonymous authentication in IIS: </p>
+        <ul>
+            <li>
+                Copy and rename the file \<b>testSSO.html</b> (for example to login.html)
+                into a directory of your site.
+            </li>
+            <li>
+                Configure anonymous access for this file.
+                If you use ASP.NET, in IIS for this file enable only <strong>Anonymous</strong> Authentication,
+                and also in the <strong>web.config</strong> file add in <b>configuration</b> section next section:
+                <pre><b>&lt;location path="<i>your_new_name_for_testSSO</i>.html"&gt;
+    &lt;system.web&gt;
+        &lt;authorization&gt;
+            &lt;allow users="*" /&gt;
+        &lt;/authorization&gt;
+    &lt;/system.web&gt;
+&lt;/location&gt;</b></pre>
+                <a target="_blank" href="Images/sso1.png" onclick="toggleBlock('configureSiteForSSO1'); return false;"
+                    class="imglink">Screenshots</a>
+                <div id="configureSiteForSSO1" style="display: none;">
+                    <p class="screenshot">
+                        &nbsp;<img src="Images/sso1.png" style="width: 716px; height: 479px" /><br /><br />
+                        &nbsp;<img src="Images/sso2.png" style="width: 716px; height: 479px" /><br /><br />
+                        &nbsp;<img src="Images/sso3.png" style="width: 717px; height: 480px" /><br /><br />
+                        &nbsp;<img src="Images/sso4.png" style="width: 717px; height: 480px" />
+                    </p>
+                </div>
+            </li>
+            <li>
+                Open for editing the file <strong>testSSO.html</strong>. Find the line:<br />
+                <b style="white-space:nowrap;">onclick=&quot;openHttpCommander(</b><br />
+                and replace <b>Default.aspx</b>
+                with URL of HTTP Commander (for example http://yourdomainname/HTCOMNET/).
+                Save the file.<br />
+                <a target="_blank" href="Images/sso5.png" onclick="toggleBlock('editSSOfile'); return false;"
+                    class="imglink">Screenshots</a>
+                <div id="editSSOfile" style="display: none;">
+                    <p class="screenshot">
+                        &nbsp;<img src="Images/sso5.png" style="width: 716px; height: 479px" /><br /><br />
+                        &nbsp;<img src="Images/sso6.png" style="width: 716px; height: 479px" />
+                    </p>
+                </div>
+            </li>
+            <li>
+                Check if it works. Open in a browser the <strong>testSSO.html</strong> page from your site.
+                Enter valid credentials and login.
+                If everything was correct, then HTTP Commander will be opened.<br />
+                <a target="_blank" href="Images/sso7.png" onclick="toggleBlock('checkSSO'); return false;"
+                    class="imglink">Screenshots</a>
+                <div id="checkSSO" style="display: none;">
+                    <p class="screenshot">
+                        &nbsp;<img src="Images/sso7.png" style="width: 602px; height: 287px" /><br /><br />
+                        &nbsp;<img src="Images/sso8.png" style="width: 602px; height: 287px" />
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </li>
+    </ul>
+    
+    <!-- p><strong>Note</strong> Http Commander must be configured to use Basic or Windows authentication.</p>
+    <p><strong>Note</strong> Your web site should use windows accounts for authentication.
+    testSSO.html page receives user name and password values entered to HTML form.
+    These credentials are used to authentication to Http Commander.
+    testSSO.html send asynchronous HEAD request to Http Commander application for authentication.
+    If authentication to Http Commander succeeds, you may continue to authenticate to your web site.
+    By default openHttpCommander function redirect web browser to Http Commander,
+    you need to comment out this action.
+    </p -->
+    <br />
+    <br />
+
+  <a name="onedrivelogin"></a>
+  <span class="faqquestion"><strong>When I become authorized in Microsoft OneDrive I receive the <b>"'evt_Login_onload' is undefined"</b> error.</strong></span><br /><br />
+Answer:
+This error can arise in Internet Explorer. For its elimination add in "Trusted sites" (on Security tab in IE options) the following urls:<br />
+https://auth.gfx.ms<br />
+https://live.login.com<br />
+https://signup.live.com
+<br />
+<br />
+
+    <a name="csserrors"></a>
+    <span class="faqquestion"><strong>The Default.aspx page is incorrectly displayed.</strong></span><br />
+    If Default.aspx page is displayed incorrectly, as on a screenshot below<br />
+    <a target="_blank" href="Images/CSSErrors.png" onclick="toggleBlock('CSSErrorsScreen'); return false;"
+            class="imglink">Screenshot</a>
+        <div id="CSSErrorsScreen" style="display: none;">
+            <p class="screenshot"> &nbsp;<img src="Images/CSSErrors.png" alt="eg" style="width:823px;height:377px;" /> </p>
+        </div>
+        <br />
+    please check the following:<br />
+    <ul>
+        <li>Whether it is allowed to display CSS in the browser</li>
+        <li>Whether check there is an <b>Images</b> folder with nonblank contents, <b>Styles-min.css</b> file in directory with HTTP Commander and whether is to them access (NTFS rights)</li>
+        <li>Open in browser <a href="../Images/resources_1.5/css/ext-all-notheme.css" target="_blank">Images/resources_1.5/css/ext-all-notheme.css</a> url<br />
+            If you thus see <b>Error HTTP 403.18 - Forbidden</b>, then see FAQ <a href="#urlscanerror">I got the Error HTTP 403.18 - Forbidden...</a>
+        </li>
+        <li>
+            Open page in Chrome browser, press F12 and click on <b>Console</b> tab in <b>Developer tools</b>.
+            Look, whether there are errors and what
+        </li>
+    </ul>
+    
+    <br /><br />
+
+    <a name="urlscanerror"></a>
+    <span class="faqquestion"><strong>I got the <b>Error HTTP 403.18 - Forbidden</b> when open files from <b>Images/resources_1.5</b> folder</strong></span><br />
+        This error means that in IIS installed <a target="_blank" href="http://www.iis.net/downloads/microsoft/urlscan">URLScan</a> 
+        ISAPI Filter and it is <a target="_blank" href="http://support.microsoft.com/kb/326444">configured</a> so that not allowed URLs in which path there are folders having in the name of a dots (parameter <b>AllowDotInPath=0</b>).<br />
+        For the solution of this problem see how to configure URLScan Tool below.
+		<br/><br/>For IIS7 and later:
+		<div id="urlscan">Check <a target="_blank" href="http://www.iis.net/downloads/microsoft/urlscan">URLScan</a> ISAPI filter settings in IIS if it is installed.
+			<ul>
+				<li>Open <b>IIS console</b>: <b>Control panel</b>-&gt;<b>Administrative tools</b> -&gt; <br />
+					<b>Internet Information Services</b> -&gt; click on root -&gt; find <b>ISAPI filters</b><br />
+					  <a target="_blank" href="Images/IIS7ISAPIFilters.png" onClick="toggleBlock('IIS7ISAPIFilters'); return false;" class="imglink">Screenshot</a>
+					  <div id="IIS7ISAPIFilters" style="display: none;">
+						<p class="screenshot">
+							&nbsp;<img alt="" src="Images/IIS7ISAPIFilters.png" style="width: 892px; height: 544px" /></p>
+					  </div>
+				</li>
+				<li>Double click on <b>ISAPI Filters</b> icon and in the opened list find the filter which name begins with <b>UrlScan</b>.<br />
+					If such filter it isn't found, UrlScan isn't installed, otherwise pass to the following step.<br />
+					  <a target="_blank" href="Images/IIS7ISAPIFiltersList.png" onClick="toggleBlock('IIS7ISAPIFiltersList'); return false;" class="imglink">Screenshot</a>
+					  <div id="IIS7ISAPIFiltersList" style="display: none;">
+						<p class="screenshot">
+							&nbsp;<img alt="" src="Images/IIS7ISAPIFiltersList.png" style="width: 892px; height: 544px" /></p>
+					  </div>
+				</li>
+				<li>Pass into the folder with UrlScan executable file (by default, it is <b>c:\Windows\system32\inetsrv\urlscan\</b>)
+				and open <b>UrlScan.ini</b> file for editing (for example in notepad).<br />
+				</li>
+				<li>In <b>UrlScan.ini</b> file find parameter <b>AllowDotInPath</b> and if value of this parameter not equally 1, set for it value 1 (<b>AllowDotInPath=1</b>),
+				save UrlScan.ini file and restart IIS.<br />
+					  <a target="_blank" href="Images/UrlScanIni.png" onClick="toggleBlock('UrlScanIni'); return false;" class="imglink">Screenshot</a>
+					  <div id="UrlScanIni" style="display: none;">
+						<p class="screenshot">
+							&nbsp;<img alt="" src="Images/UrlScanIni.png" style="width: 658px; height: 434px" /></p>
+					  </div>
+				</li>
+				<li>For more info see <a target="_blank" href="http://support.microsoft.com/kb/326444">How to configure URLScan Tool</a>
+				</li>
+			</ul>
+		</div>
+		<br/>For IIS6 :
+		 <div id="urlscan">Check <a target="_blank" href="http://www.iis.net/downloads/microsoft/urlscan">URLScan</a> ISAPI filter settings in IIS if it is installed.
+			<ul>
+				<li>Open <b>IIS console</b>: <b>Control panel</b>-&gt;<b>Administrative tools</b> -&gt; <br />
+					<b>Internet Information Services (IIS) Manager</b> -&gt; expand root -&gt; Right click on <b>Web Sites</b> folder -&gt;<br />
+					select <b>Properties</b> -&gt; click on <b>ISAPI filters</b> tab<br />
+					  <a target="_blank" href="Images/IIS6ISAPIFilters.png" onClick="toggleBlock('IIS6ISAPIFilters'); return false;" class="imglink">Screenshot</a>
+					  <div id="IIS6ISAPIFilters" style="display: none;">
+						<p class="screenshot">
+							&nbsp;<img alt="" src="Images/IIS6ISAPIFilters.png" style="width: 601px; height: 462px" /></p>
+					  </div>
+				</li>
+				<li>In the opened list find the filter which name begins with <b>UrlScan</b>.
+					If such filter it isn't found, UrlScan isn't installed, otherwise pass to the following step.</li>
+				<li>Pass into the folder with UrlScan executable file (by default, it is <b>c:\Windows\system32\inetsrv\urlscan\</b>):
+					select <b>UrlScan</b> filter in list, click <b>Edit</b> button and in the opened window see value of <b>Executable</b> field<br />
+					<a target="_blank" href="Images/IIS6UrlScanPath.png" onClick="toggleBlock('IIS6UrlScanPath'); return false;" class="imglink">Screenshot</a>
+					  <div id="IIS6UrlScanPath" style="display: none;">
+						<p class="screenshot">
+							&nbsp;<img alt="" src="Images/IIS6UrlScanPath.png" style="width: 332px; height: 163px" /></p>
+					  </div>
+				<li>Open <b>UrlScan.ini</b> file for editing (for example in notepad)</li>
+				<li>In <b>UrlScan.ini</b> file find parameter <b>AllowDotInPath</b> and if value of this parameter not equally 1, set for it value 1 (<b>AllowDotInPath=1</b>),
+					save UrlScan.ini file and restart IIS.<br />
+					  <a target="_blank" href="Images/IIS6UrlScanIni.png" onClick="toggleBlock('IIS6UrlScanIni'); return false;" class="imglink">Screenshot</a>
+					  <div id="IIS6UrlScanIni" style="display: none;">
+						<p class="screenshot">
+							&nbsp;<img alt="" src="Images/IIS6UrlScanIni.png" style="width: 646px; height: 442px" /></p>
+					  </div>
+				</li>
+				<li>For more info see <a target="_blank" href="http://support.microsoft.com/kb/326444">How to configure URLScan Tool</a>
+				</li>
+			</ul>
+		</div>
+    <br /><br />
+
+    <a name="filelistparamincorrect"></a>
+    <span class="faqquestion"><strong>I got the error <b>The parameter is incorrect</b> when open file list</strong></span><br />
+    This error can arise when reading to the network folder if the site in IIS with HTTPCommander works at a 64-bit platform,
+    and in settings of a pool indicated value <b>True</b> for the <b>Enable 32-Bit Applications</b> parameter.<br />
+    Specify <b>False</b> value for the <b>Enable 32-Bit Applications</b> parameter in advanced settings of a pool and restart it<br />
+    (<i>Application Pools</i> &rarr; <i>htcomnetpool</i> &rarr; <i>Advanced Settings</i>)<br />
+    <a target="_blank" href="Images/enable32bitapps.png" onclick="toggleBlock('enable32bitapps'); return false;"
+       class="imglink">Screenshot</a>
+    <div id="enable32bitapps" style="display: none;">
+        <p class="screenshot">
+            &nbsp;<img src="Images/enable32bitapps.png" style="width: 392px; height: 383px" />
+        </p>
+    </div>
+    <br />See about Wow64FsRedirection in <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa364418(v=vs.85).aspx" target="_blank">FindFirstFile article</a>.
+    <br /><br />
+
+    <a name="officereadonly"></a>
+    <span class="faqquestion"><strong>Why Microsoft Office still opens my document (<b>View / Edit &rarr; Edit in MS Office</b>) as read-only?</strong></span><br />
+    First of all check settings of <a href="WebFolders.html">work with WebDav</a> and read article <a href="webconfigsetup.html#editinoffice">Using MS Office and OpenOffice to work with documents</a>.<br />
+    Also check before opening of the document, having refreshed the file list, whether it is opened by other user (an icon <b>The file is locked</b> on the right):<br />
+    <a target="_blank" href="Images/officelocked.png" onclick="toggleBlock('officelocked'); return false;"
+       class="imglink">Screenshot</a>
+    <div id="officelocked" style="display: none;">
+        <p class="screenshot">
+            &nbsp;<img src="Images/officelocked.png" style="width: 597px; height: 445px" />
+        </p>
+    </div>
+    <br />
+    Also check NTFS persmissions for a read-write for a pool of applications and the user who opens the file.<br />
+    And in addition check the file for block (the <b>Unblocked</b> button in properties of the file) and if it is blocked, remove block (privileges of the administrator are necessary):<br />
+    <a target="_blank" href="Images/WebDavBlocked.png" onclick="toggleBlock('WebDavBlocked'); return false;"
+       class="imglink">Screenshot</a>
+    <div id="WebDavBlocked" style="display: none;">
+        <p class="screenshot">
+            &nbsp;<img src="Images/WebDavBlocked.png" style="width: 367px; height: 506px" />
+        </p>
+    </div>
+    <br />
+    If the problem isn't fixed clear Microsoft Office WebDAV cache in registry on computer of user.<br />
+    Microsoft Office reads WebDAV server options when connecting to server first time and stores them for later use.<br />
+    The Microsoft Office WebDAV cache is stored under the key:<br />
+    <b>HKEY_CURRENT_USER\Software\Microsoft\Office\&lt;version&gt;\Common\Internet\Server Cache\</b><br />
+    To clear cache just delete all keys under this key.<br />
+    Also set <b>OpenDocumentsReadWriteWhileBrowsing</b> DWORD Value to 1 on a user machine under the key<br />
+    <b>HKEY_CURRENT_USER\Software\Microsoft\Office\&lt;version&gt;\Common\Internet</b>.<br />
+    <b>Note!</b> After change registry keys restart computer or <b>WebClient</b> service.
+    <br />
+    <br />
+
+    <a name="newtonsoftjson"></a>
+    <span class="faqquestion"><strong>Error on download/upload with Dropbox or Box: <i style="color:red;">Could not load file or assembly 'Newtonsoft.Json, Version=7.0.0.0...</i></strong></span><br />
+    <a target="_blank" href="Images/newtonsoftjson.png" onclick="toggleBlock('newtonsoftjson1'); return false;"
+       class="imglink">Screenshot</a>
+    <div id="newtonsoftjson1" style="display: none;">
+        <p class="screenshot">
+            &nbsp;<img src="Images/newtonsoftjson.png" style="width: 554px; height: 150px" />
+        </p>
+    </div>
+    <br />
+    Solution: in <b>Web.config</b> file replace Newtonsoft.Json assembly version 7.0.0.0 to 10.0.0.0. See <a href="Update.html#updatefrom320">Update from 3.2 and below</a>.
+    <br /><br />
+
+    <a name="disablewebdav"></a>
+    <span class="faqquestion"><strong>How to disable WebDav feature</strong></span><br />
+    There are 2 ways to completely disable WebDav feature in HTTP Commander.
+    <ol>
+        <li>
+            With settings on settings tab in Admin Panel. <br/> You will need to set to false the values of following parameters:<br/>
+            <ul>
+                <li>
+                    <a href="webconfigsetup.html#EnableMSOfficeEdit">
+                        EnableMSOfficeEdit
+                    </a>
+                </li>
+                <li>
+                    <a href="webconfigsetup.html#EnableOpenOfficeEdit">
+                        EnableOpenOfficeEdit
+                    </a>
+                </li>
+                <li>
+                    <a href="webconfigsetup.html#EnableWebFoldersLinks">
+                        EnableWebFoldersLinks
+                    </a>
+                </li>
+            </ul>            
+        </li>
+        <li>
+            Edit web.config file of HTTP Commander and remove from modules section ( system.webserver -> modules and at system.web - > httpModules sections)  following module:
+            <br/>
+            &lt;add name="FileWebDavModule" type="HttpCommander.FileWebDAVServer.FileWebDavModule, FileWebDAVServer" precondition="integratedMode" /&gt;        
+        </li>
+    </ol>
+    
+    <br /><br />
+
+    <a name="chromeandroid56"></a>
+    <span class="faqquestion"><strong>Page reloaded when file list is scrolled up in Chrome browser on Android.</strong></span><br />
+    This issue is fixed in HTTP Commander 4.5 an later. Here are steps to fix this issue on version prior 4.5:
+    <ol>    
+        <li>
+            Open Default.aspx page in text editor .
+        </li>
+        <li>
+            Search for <strong>body</strong> tag
+        </li>
+        <li>
+            Append to body tag following code:<br />
+            <code>&lt;% if(isMobileBrowser) { %&gt; style=&quot;overflow-y: hidden;&quot; &lt;% } %&gt;</code>
+        </li>
+        <li>
+            Result should look like this:<br/>
+            <code>&lt;body id=&quot;pageBody&quot; class=&quot;&lt;%= pageBodyStyle %&gt;&quot; onload=&quot;&lt;%= Utils.GetSetTimeOutScript() %&gt;&quot; &lt;% if(isMobileBrowser) { %&gt; style=&quot;overflow-y: hidden;&quot; &lt;% } %&gt;&gt;</code>
+        </li>
+    </ol>
+    <br /><br />
+    
+
+    <!-- For windows version only. Start -->
+    <a name="abe"></a>
+    <span class="faqquestion"><strong>How can I hide files/folders that the user does not have rights to read?</strong></span><br /><br />
+    Answer:
+    This feature is controlled by Windows Server. You need to use ABE (Access based enumerations) for share. For Windows 2003 go to Microsoft website and download ABE utility (small .exe file). Windows 2008, 2012 and 2016 have ABE installed.
+    In both Windows 2003, 2008, 2012 and 2016 ABE is disabled by default. To enable it go to share properties and enabe ABE.
+    In HTTP Commander you then create share. You should type your real share path like "\\servername\sharename".
+    Don't use a full folder path like "c:\foldername" becouse  ABE won't work in this case!
+    After ABE is enabled, HTTP Commander will show only the files which user has rights to read
+    and will not show other users files (if there are no read permissions).
+    <br />
+    <br />
+
+    <a name="dropboxusers"></a>
+    <span class="faqquestion"><strong>How can I create a "dropbox" for users (student can upload their own files but can't view other students files)?</strong></span><br /><br />
+    Answer:
+    First, you need to create the folder on your server file system and configure users NTFS permissions.
+    It is possible to configure the NTFS permissions for students to enable them
+    to create or modify their own files and to disable reading other users files from this folder.
+    You can also configure to enable teachers to view all files.
+    So this folder will be as dropbox there students can upload their own works and teachers can view their works.
+    For this folder it is recommended to <a href="#abe">enable ABE</a> to hide files which the user does not have rights to read (other students files).
+    <br />In HTTP Commander you can share this folder with students and teachers groups.
+    You can disable some actions you don't want in right "permissions" window.
+    HTTP Commander supports NTFS so users won't be able to modify or view other users files if it is disabled by NTFS.
+    Also if ABE is enabled, then files which the user does not have rights to read will be hidden.
+    <br />
+    <br />
+
+
+    <a name="notauthorized"></a>
+    <span class="faqquestion"><strong>Every time I insert my login and password in the authentication window I get a "You are not authorized" error.</strong></span><br /><br />
+    Answer:
+    <ul>
+        <li>Check if the logon user has read NTFS permissions for the HTCOMNET folder. See <a href="ntfs.html">NTFS permissions</a> section of the Documentation.</li>
+        <li>Try inserting the domain name prefix e.g. "domainname\username". </li>
+        <li>For Basic authentication, check that you set the correct default domain name at Basic authentication settings at IIS. See "Application install" section of the Documentation.</li>
+        <li>
+            For Windows 2003 server, you need to be sure that you have opened the full URL with Default.aspx page in a browser
+            i.e. <b>http://localhost/HTCOMNET/Default.aspx</b>.
+            You can add "Default.aspx" page in default list in IIS.
+        </li>
+    </ul>
+    <br /><br />
+
+
+    <a name="windowsauth"></a>
+    <span class="faqquestion"><strong>Why would I need to use Basic authentication instead of Windows?</strong></span><br />
+    Answer:
+    <br />
+    You can use Windows Integrated authentication (our demo works under this auth.). But if you want to use Windows authentication, you will have some limitations:
+    <ul>
+        <li>You can make access <b>only to the local files stored on the same server</b> (You can not use folders stored at remote servers).
+			<br/> However if you web server is member of <strong>Domain</strong>, you can configure <a href="#delegation">Delegation</a> 
+			for  <strong>correct work withNetwork Shares</strong> when <strong>Windows Integrated Authentication</strong> enabled. 
+		</li>
+        <li>
+            Dynamic user group membership detection won't work if the application is installed at a non domain controller
+            (But you can make it work  if you will use static file as AD info storage. See <a href="webconfigsetup.html#ADAccountsFilePath">ADAccountsFilePath</a> key).
+			<br/> However it is still  <strong>possible</strong> to get  <strong>list of user groups </strong> from Windows auth token when  <strong>Windows Integrated authentication </strong> used. 
+        </li>
+        <li>On some  Android-based devices browsers don't support Windows authentication but work great with Basic.</li>
+    </ul>
+    <!--This limitations are part of ASP.NET work and we can't fix this in code.
+    Therefore we <b>recommend using Basic authentication</b>!--><br />
+	As conclusion : We recommend to use <strong>Windows Integrated Authentication</strong> when Web server is <strong>joined into Domain</strong> and <strong>delegation</strong> can be configured.<br/>
+	For <strong>standalone web server</strong> we recommend to use <strong>Basic</strong> auth if you plan to use Network Shares in HTTP Commander 
+	and Windows Intergated Authentication if all folders will be local to the web server. 
+	
+    If you worry about sending password as a clear text while Basic authentication,  you can use <a href="#ssl">SSL</a>.
+    <br />
+    <br />
+	
+	<a name="delegation"></a>
+    <span class="faqquestion"><strong>May I use network folders with Windows Integrated Authentication?</strong></span><br />
+    Answer:
+    <br />
+    Yes, you can use Network folders with Windows Integrated authentication when Web server is member of Domain. But you will need to configure <strong>Delegation</strong>.
+	<br/>On the domain controller for your Web server’s domain, complete the following steps:
+    <ul>        
+		<li>Click Start, click <strong>Administrative Tools</strong>, and then click <strong>Active Directory Users and Computers</strong>.</li>
+		<li>Expand domain, and then expand the <strong>Computers</strong> folder.</li>
+		<li>In the right pane, right-click the computer name for the Web server, select Properties, and then click the <strong>Delegation</strong> tab.</li>
+		<li>Click to select <strong>Trust this computer for delegation to specified services only</strong>.</li>
+		<li>Ensure that <strong>Use Kerberos only</strong> is selected, and then click OK.</li>
+		<li>Click the Add button. In the Add Services dialog box, click <strong>Users or Computers</strong>, and then browse to or type the name of the File server that is to be used in HTTP Commander. Click OK.</li>
+		<li>In the Available Services list, select the <strong>CIFS</strong> service. Click OK.</li>
+    </ul>
+    It may take some time for new settings to take effect.   
+    <br />
+    <br />
+
+    <a name="groupaccess"></a>
+    <span class="faqquestion"><strong>I can't create access for a group or to a home folder.</strong></span><br /><br />
+    Answer: You need to check if the application reads groups correctly. You can see group list in Diagnostics.aspx page.
+    <br />
+    If  the group list is empty in the diagnostics page or some error happens:
+    <ul>
+        <li>Check if Basic authentication is enabled in IIS settings, not Windows integrated.</li>
+        <li>Check permissions for a user to read its own membership info. See how to grant permissions at <a href="webconfigsetup.html#ReadWindowsUsersGroupMembership">ReadWindowsUsersGroupMembership</a> key description. </li>
+
+    </ul>
+
+    <br /><br />
+
+    <a name="ouldap"></a>
+    <span class="faqquestion"><strong>Can I setup access only for single OU (Organisational Unit) of domain?</strong></span><br /><br />
+    Answer: Yes, you can. Set <strong>UseUniversalWayToReadGroups</strong> parameter in the Application settings to "false"
+    and for <strong>LDAPContainer</strong> parameter value of LDAP path of needed OU
+    (like <b>"LDAP://OU=staff,DC=HOMEELEMENT-IT,DC=COM"</b> ("staff" OU of "homeelement-it.com" domain).
+    In such a case for the logon user, groups will be detected only from this OU (you can run Diagnostics.aspx to see groups list of logon user.)
+
+    <br /><br />
+
+    <a name="dmz"></a>
+    <span class="faqquestion"><strong>Can I use application in DMZ and what ports for firewall should I open?</strong></span><br /><br />
+    Answer: Yes, you can. You can install the application at the server in DMZ. Open HTTP(80) and HTTPS(443) ports.
+    If you want to use Active Directory groups membership and home folder info then open LDAP port 389
+    and set <strong>UseUniversalWayToReadGroups</strong> parameter in the Application settings to "false"
+    and for the <strong>LDAPContainer</strong> parameter, the value of the LDAP path to your domain controller.
+
+    <br /><br />
+
+
+    <a name="slowtree"></a>
+    <span class="faqquestion"><strong>Loading of folders tree is very slow and needs a few seconds.</strong></span><br />
+    <br />
+    Answer: It can be because of reading user group membership info and AD home folder. This needs some time because code connects to AD. You can disable this feature by <strong>ReadWindowsUsersGroupMembership</strong> parameter or play with <strong>UseUniversalWayToReadGroups</strong> and <strong>ldapContainer</strong> parameters at <a href="webconfigsetup.html">Application settings</a>.
+
+    <br />
+    <br />
+
+
+    <a name="formsad"></a>
+    <span class="faqquestion"><strong>Can I use Forms authentication (Form at the web page) instead of standard browser popup authentication window?</strong></span>
+    <p>Answer: yes. You have a number of options.</p>
+
+    <p><strong>Solution 1. testSSO.html page</strong></p>
+    <p>
+        HTTP Commander distribution includes testSSO.html file for this purpose.
+        You need to configure anonymous authentication for this page in IIS Manager:
+    </p>
+
+    <a target="_blank" href="Images/sso1.png" onclick="toggleBlock('configureSiteForSSO'); return false;"
+       class="imglink">Screenshots</a>
+    <div id="configureSiteForSSO" style="display: none;">
+        <p class="screenshot">
+            <img src="Images/sso1.png" style="width: 716px; height: 479px" /><br /><br />
+            <img src="Images/sso2.png" style="width: 716px; height: 479px" /><br /><br />
+            <img src="Images/sso3.png" style="width: 717px; height: 480px" /><br /><br />
+        </p>
+        <p>Note! If you've renamed the testSSO.html file, then you need to modify file name in the corresponding section in web.config as well:</p>
+        <p class="screenshot">
+            <img src="Images/sso4.png" style="width: 717px; height: 480px" />
+        </p>
+    </div>
+
+    <p>
+        <strong>Note</strong> This solution only works in the Windows version of HTTP Commander.
+        IIS authentication on the target web application (HTTP Commander) should be set to Basic or Windows.
+    </p>
+
+    <p><strong>Details - how testSSO.html works</strong></p>
+    <p>
+        testSSO.html page presents the user with an HTML form
+        where they will enter their user name, password, and select the language of the HTTP Commander interface.
+        After clicking on the Login button, JavaScript code sends an asynchronous HEAD request to Default.aspx page &mdash;
+        the main page of the HTTP Commander application.
+        JavaScript code authenticate in the Default.aspx page using the credentials supplied by the user.
+        Note that Default.aspx page should be configured for Basic or Windows authentication,
+        Forms authentication will not work here.
+        If authentication succeeds, the web browser is redirected to the Default.aspx page.
+        Since the browser already authenticated in that page (and hence to the application),
+        the user is logged on to HTTP Commander.
+        If authentication fails, the user sees an error message and is presented with the same login form on testSSO.html.
+    </p>
+    <p>
+        Simply put, testSSO.html page provides an HTML logon form for a web application requiring Windows authentication.
+    </p>
+
+    <p><strong>Solution 2. "Forms with Windows users" authentication mode</strong></p>
+    <ul>
+        <li>Open the Admin panel in the Http Commander web interface.</li>
+        <li>Change the value of the AuthMode parameter to "Forms with Windows users".</li>
+        <li>Revise <a href="ntfs.html">NTFS permission</a>.</li>
+    </ul>
+
+    <p><strong>Solution 3. Proxy server in front of Http Commander.</strong></p>
+    <p>
+        You may configure a proxy server to handle authentication using web form (cookie-based authentication)
+        while the web application is using windows authentication.
+    </p>
+    <p>
+        Some our customers using <strong>MS ISA Server</strong> successfully replaced Basic authentication with Forms by  ISA settings. Read more info at
+        <a target="_blank" href="http://technet.microsoft.com/en-us/library/bb794733.aspx">http://technet.microsoft.com/en-us/library/bb794733.aspx</a>.
+        See also our article <a href="forefront_tmg.html">Publishing HTTP Commander through Forefront Threat Management Gateway 2010</a>.
+    </p>
+
+    <br />
+
+    <a name="clearAuth"></a>
+    <span class="faqquestion"><strong>How do I clear windows authentication on Log out?</strong></span><br />
+    <p>
+        Answer:
+        Contemporary web browsers cache credentials a user supplied to authenticate to a web application.
+        Unfortunately, they do not provide an interface to clear authentication data on demand
+        (with the exception of Microsoft Internet Explorer).
+        Web browsers clear authentication data when you close the browser,
+        but they normally do not clear them when you simply close the tab.
+        The practical result of this issue is that the Log out button in Http Commander
+        does not in fact log the user out in any browser except Internet Explorer.
+        After log out you may continue to use Http Commander under the same user
+        you used to log in the last time. You'll not be asked to authenticate again.
+        The only reliable method to log out is to terminate the browser process.
+    </p>
+
+    <p>
+        Http Commander implements a workaround to this problem.
+        That is it makes the browser to forget user credentials.
+        The user has to authenticate in the application after logout to continue using Http Commander.
+        You need to go through a few configuration steps to activate the solution.
+    </p>
+
+    <p>Step 1. Enable anonymous authentication for ForceLogout.aspx</p>
+    <ul>
+        <li>
+            For Windows Server 2008, 2012, 2016
+            <ul>
+                <li>Locate the HTTP Commander application in IIS Manager, switch to Context view.</li>
+                <li>Locate ForceLogout.aspx, right-click on in, select "Switch to Features View".</li>
+                <li>Open Authentication feature.</li>
+                <li>Enable Anonymous authentication, disable all other authentication types.</li>
+            </ul>
+        </li>
+        <li>
+            For Windows Server 2003
+            <ul>
+                <li>
+                    Locate ForceLogout.aspx file in IIS manager, right-click on it,
+                    select <b>Properties</b>.
+                </li>
+                <li>
+                    In the Properties dialog, open the File Security tab,
+                    click the Edit button in Authentication and access control group.
+                </li>
+                <li>
+                    In the Authentication Methods dialog, check "Enable anonymous access",
+                    uncheck all other check boxes.
+                </li>
+            </ul>
+        </li>
+    </ul>
+    <p>Step 2. Specify basic authentication realm in IIS</p>
+    <ul>
+        <li>
+            For Windows Server 2008, 2012, 2016
+            <ul>
+                <li>
+                    Open IIS Manager, click the Http Commander application on the tree panel.
+                </li>
+                <li>
+                    Open the Authentication feature.
+                </li>
+                <li>Select basic authentication (it should be enabled).</li>
+                <li>Click Edit on the Actions panel.</li>
+                <li>Specify the value of the realm field.</li>
+                <li>Click OK to close the dialog.</li>
+            </ul>
+        </li>
+        <li>
+            For Windows Server 2003
+            <ul>
+                <li>Open IIS Manager, open properties of the Http Commander application.</li>
+                <li>Open the "Directory Security" tab.</li>
+                <li>Click the Edit button in the "Authentication and access control" area.</li>
+                <li>Specify the value of the realm field.</li>
+                <li>Click the OK button to close the "Authentication methods" dialog.</li>
+                <li>Click the OK button to close the Properties dialog.</li>
+            </ul>
+        </li>
+        <p>
+            You may use any non-blank string for the realm parameter,
+            for example, name of the server machine.
+            The point is you must specify the same value in both IIS manager and in Http Commander settings.
+        </p>
+    </ul>
+    <p>Step 3. Specify BasicAuthenticationRealm parameter in Http Commander</p>
+    <ul>
+        <li>Open the Admin panel in Http Commander.</li>
+        <li>Click the "Show hidden parameters" button on the top panel if hidden parameters are not shown.</li>
+        <li>Set the BasicAuthenticationRealm parameter in the main section to the value you've assigned in IIS.</li>
+        <li>Click the "Save settings" button.</li>
+    </ul>
+    <br />
+    <br />
+
+    <a name="changeusername"></a>
+    <span class="faqquestion"><strong>After changing my username in Active Directory/WinNT I can still login to HTTP Commander, but then I don't see any of the folders.</strong></span><br />
+    <br />
+    Answer: This problem can arise because of caching the mapping between the SID and the user name in a local cache on the computer.<br />
+    For obtaining more detailed information and problem elimination, see <a href="http://support.microsoft.com/kb/946358" target="_blank">http://support.microsoft.com/kb/946358</a>.
+    <br />
+    <br />
+
+    <a name="doubleauth"></a>
+    <span class="faqquestion"><strong>When opening - request of authorization occurs 2 (or more time) and after login form for Forms version opens.</strong></span><br />
+    <br />
+    Answer: This problem is because Anonymous Authentication is enabled in IIS. It is necessary to disable it.<br />
+    To check it, you can open IIS or launch <a href="../Diagnostics.aspx#lblAuthMode" target="_blank">diagnostics page</a> (<b>Authentication mode</b> section).<br />
+    See also <a href="ManualConfigurationOfAuthenticationMode.html">Manual configuration authentication mode</a>.
+    <br />
+    <br />
+
+	<a name="loginpage"></a>
+    <span class="faqquestion"><strong>How can I display some text when user logs into Http Commander (at the time when popup login window appears) instead of white screen?</strong></span><br />
+    <br />
+    Answer: You can create separate html page which will be available without authentication and redirect to Default.aspx page immediately after load of this page.<br />
+	This will result to render page with your custom text while users enter their credentials. For example you can explain which credentials should be entered , which users are allowed, what users will see after login, etc.
+	<br/>
+	How to do that: 
+	<ol>
+        <li>Create new html page in root folder of Http Commander. For example, <strong>index.html</strong></li>
+        <li>Edit contents of that page to display some useful information. <br/>
+			Include following meta tag into head section of the page to automatically load default.aspx page:<br/> <strong>&lt;meta http-equiv=&quot;refresh&quot; content=&quot;1;url=default.aspx&quot;&gt;</strong>
+			<br/>
+			Example:
+			<br/>
+			 <textarea cols="100" rows="5">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+ <meta http-equiv="refresh" content="1;url=default.aspx">
+<title>Welcome to Web file manager</title>
+</head>
+<body>
+	Hello, welcome to web file manager. Please login with your domain account ! 
+</body>
+</html>
+			</textarea>
+		</li>
+        <li>Configure Anonymous access to newly created index.html file:
+		<ul>
+    <li><b>For IIS 7, 7.5, 8, 8.5, 10 (Windows 2008, 2012, 2016)</b>: 
+      <ul>
+        <li>Open the <b>IIS console</b>: <b>Control panel</b>-&gt; <b>Administrative tools</b>-&gt;
+        <b>Internet Information Services</b></li>
+        
+        <li>Expand <b>"Web Sites"</b>, <b>"Default web site"</b>, <b>"HTCOMNET"</b>.
+        </li>
+        
+        <li>
+        <p>Right-click the "HTCOMNET" virtual folder and select <b>"Switch to content view"</b> in the context menu. 
+        In the list of files in the middle panel, select the <b>"index.html"</b> file and click the <b>"Switch to features view"</b> option. 
+        Now you may change settings pertaining to the <b>"index.html"</b> file. 
+        Click the <b>"Authentication"</b> feature on the central pane.
+        </p>
+        
+        <ul>
+            <li>Enable <b>"Anonymous Authentication"</b> and <b>"ASP.NET Impersonation"</b>. 
+            Disable other items. 
+           
+            <br/>
+            <a target="_blank" onClick="toggleBlock('anonymoushandler2008'); return false;" class="imglink">Screenshot</a>
+            <div id="anonymoushandler2008" style="display: none;">
+                <p class="screenshot">
+                &nbsp;<img src="Images/IIS7AnonymousDownloadAuthentication.png"/>
+                </p>
+            </div>
+            </li>         
+		</ul>
+        </li>
+      </ul>
+    </li>
+	
+	<li><b>For IIS 6 (Windows 2003)</b>: 
+      <ul>
+        <li>Open the <b>IIS console</b>: <b>Control panel</b>-&gt;<b>Administrative tools</b>-&gt;
+        <b>Internet Information   Services</b>-&gt;Expand <b>"Web Sites"</b>,  <b>"Default web site"</b>, <b>"HTCOMNET"</b>folder.</li>
+        <li>In the right panel, right-click the "index.html"   file and select <b>"Properties"</b> in the context menu.<BR>
+        In the index.html properties   dialog box, open the <b>"Directory Security"</b> tab, click the <b>&quot;Edit..&quot;</b> button.<br>
+        Check the <b>"Enable anonymous access"</b> option and uncheck the <b>&quot;Basic authentication&quot;</b> and <b>&quot;Windows Integrated&quot; </b>options.<br />		
+        </li>		
+      </ul>
+    </li>
+</ul>
+		</li>
+        <li>Use link to <b>htcomnet/index.html</b> file to display contents of index.html page during login process.</li>
+    </ol>
+    <br />
+    <br />
+	
+    <!-- For windows version only. End -->
+
+</body>
+</html>

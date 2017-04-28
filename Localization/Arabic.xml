@@ -1,0 +1,1608 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Localization>
+  <!-- Common keys -->
+  
+  <ExtMsgButtonTextYES>نعم فعلا</ExtMsgButtonTextYES>
+  <ExtMsgButtonTextNO>لا</ExtMsgButtonTextNO>
+  
+  <ControlHideFileManager>إخفاء مدير الملفات على شبكة الإنترنت</ControlHideFileManager>
+  
+  <CommonMainTitle>وصول الملفات على شبكة الإنترنت</CommonMainTitle>
+  <CommonApplicationLoading>تحميل وصول الملفات على شبكة الإنترنت</CommonApplicationLoading>
+  <CommonLoadError>حدث خطأ أثناء الحصول على البيانات شجرة</CommonLoadError>
+  <CommonGridAccessDenied>المجلد "{0}" غير موجود أو تم رفض الوصول للقراءة</CommonGridAccessDenied>
+  <CommonNoScript>وتتطلب هذه الصفحة لتمكين جافا سكريبت في المتصفح الخاص بك! يرجى تمكينه وتسجيل الدخول مرة أخرى!</CommonNoScript>
+  <CommonErrorCaption>خطأ</CommonErrorCaption>
+  <CommonWarningCaption>تحذير</CommonWarningCaption>
+  <CommonInfoCaption>معلومات</CommonInfoCaption>
+  <CommonConfirmCaption>تؤكد</CommonConfirmCaption>
+  <CommonFileNameCaption>اسم الملف</CommonFileNameCaption>
+  <CommonFileNamePrompt>أدخل اسم ملف جديد</CommonFileNamePrompt>
+  <CommonFileNewNameValue>Document.txt نص جديد</CommonFileNewNameValue>
+  <CommonFolderNewNameValue>ملف جديد</CommonFolderNewNameValue>
+  <CommonZipFileNameCaption>الرمز البريدي اسم أرشيف</CommonZipFileNameCaption>
+  <CommonZipFileNamePrompt>اسم الملف (ستضاف تمديد تلقائيا)</CommonZipFileNamePrompt>
+  <CommonFolderNameCaption>إسم الملف</CommonFolderNameCaption>
+  <CommonFolderNamePrompt>أدخل اسم المجلد الجديد</CommonFolderNamePrompt>
+  <CommonDeleteOnePrompt>هل أنت متأكد أنك تريد حذف "{0}"؟</CommonDeleteOnePrompt>
+  <CommonDeleteManyPrompt>هل أنت متأكد أنك تريد حذف هذه {0} العناصر؟</CommonDeleteManyPrompt>
+  <CommonForToday>لليوم</CommonForToday>
+  <CommonButtonCaptionOK>حسنا</CommonButtonCaptionOK>
+  <CommonButtonCaptionCancel>إلغاء</CommonButtonCaptionCancel>
+  <CommonButtonCaptionClose>قريب</CommonButtonCaptionClose>
+  <CommonButtonCaptionAdd>إضافة</CommonButtonCaptionAdd>
+  <CommonButtonCaptionContinue>استمر</CommonButtonCaptionContinue>
+
+  <CommonProgressPleaseWait>أرجو الإنتظار</CommonProgressPleaseWait>
+  
+  <CommonFieldLabelName>اسم</CommonFieldLabelName>
+  <CommonFieldLabelPath>مسار</CommonFieldLabelPath>
+  <CommonFieldLabelSize>بحجم</CommonFieldLabelSize>
+  <CommonFieldLabelLabels>تسميات</CommonFieldLabelLabels>
+  <CommonFieldLabelType>اكتب</CommonFieldLabelType>
+  <CommonFieldLabelAction>عمل</CommonFieldLabelAction>
+  <CommonFieldLabelDate>تاريخ</CommonFieldLabelDate>
+  <CommonFieldLabelDateTime>التاريخ والوقت</CommonFieldLabelDateTime>
+  <CommonFieldLabelDateCreated>تاريخ الإنشاء</CommonFieldLabelDateCreated>
+  <CommonFieldLabelDateModified>التاريخ عدل</CommonFieldLabelDateModified>
+  <CommonFieldLabelDateAccessed>تاريخ الوصول</CommonFieldLabelDateAccessed>
+  <CommonFieldLabelValue>القيمة</CommonFieldLabelValue>
+  <CommonFieldLabelUserName>اسم المستخدم</CommonFieldLabelUserName>
+  <CommonFieldLabelUser>المستعمل</CommonFieldLabelUser>
+  <CommonFieldLabelUsers>المستخدمين</CommonFieldLabelUsers>
+  <CommonFieldLabelGroupName>أسم المجموعة</CommonFieldLabelGroupName>
+  <CommonFieldLabelGroup>مجموعة</CommonFieldLabelGroup>
+  <CommonFieldLabelGroups>المجموعات</CommonFieldLabelGroups>
+  <CommonFieldLabelPassword>كلمه السر</CommonFieldLabelPassword>
+  <CommonFieldLabelRepeatPassword>اعد كلمة السر</CommonFieldLabelRepeatPassword>
+  <CommonFieldLabelComments>تعليقات</CommonFieldLabelComments>
+  <CommonValueTypeFolder>مجلد</CommonValueTypeFolder>
+
+  <CommonFieldLabelDescription>وصف</CommonFieldLabelDescription>
+  <EmptyDescriptionText>تحديد وصف</EmptyDescriptionText>
+  <CommonFieldLabelReadMeTxt>محتوى README.TXT</CommonFieldLabelReadMeTxt>
+  
+  <CommonWordOr>أو</CommonWordOr>
+
+  <SortAscText>فرز تصاعدي</SortAscText>
+  <SortDescText>ترتيب تنازلي</SortDescText>
+
+  <CommonNewDocument>مستند جديد</CommonNewDocument>
+  <CommonNewSpreadsheet>جدول جديد</CommonNewSpreadsheet>
+  <CommonNewPresentation>عرض جديد</CommonNewPresentation>
+
+  <CommonWordWrap>كلمة التفاف</CommonWordWrap>
+  
+  <!-- End Common keys -->
+
+  <!-- Labels -->
+
+  <LabelsTitle>ضع الكلمة المناسبة</LabelsTitle>
+  <LabelsNoLabel>لا تسمية</LabelsNoLabel>
+  <LabelsColor>اللون</LabelsColor>
+  <LabelsCustomLabel>علامة مميزة</LabelsCustomLabel>
+  <LabelsCustomLabelHint>إدخال نص التسمية</LabelsCustomLabelHint>
+  <LabelsCustomLabelView>التسمية على &amp;nbsp؛ عرض: &amp;نبسب؛ {0} {1} {2}</LabelsCustomLabelView>
+  <LabelsFileLabelledMessage>وصفت بنجاح {0} البند (ق)</LabelsFileLabelledMessage>
+  <LabelsRemovedMessage>إزالة بنجاح {0} تسمية (ق)</LabelsRemovedMessage>
+  <LabelsNotRemovedMessages>لم تتم إزالة: {0}</LabelsNotRemovedMessages>
+  <LabelsNotLabelledMessage>لا المسمى: {0}</LabelsNotLabelledMessage>
+  <LabelsLabelRemovedMessage>تسمية إزالة بنجاح</LabelsLabelRemovedMessage>
+  <LabelsNewLabel>تسمية جديدة</LabelsNewLabel>
+  <LabelsLabellingMessage>وسمها</LabelsLabellingMessage>
+  <LabelsRemovingLabelMessage>إزالة الملصقات</LabelsRemovingLabelMessage>
+  <LabelsLabelInfoTip>وضع علامة '{0}' {1} من قبل المستخدم '{2}'</LabelsLabelInfoTip>
+
+  <!-- End Labels -->
+
+  <!-- Comments -->
+
+  <CommentsCountInfoTip>{0 تعليق)</CommentsCountInfoTip>
+  <CommentsWriteCommentHint>اكتب تعليق ثم اضغط على '{0}' أو Ctrl+أدخل أو Shift+Enter ...</CommentsWriteCommentHint>
+
+  <!-- End Comments -->
+
+  <RefreshPageWarningMessage>&lt;ب&gt; انتباه! &lt;/b&gt; للإكمال هذه العملية، يجب أن تكون الصفحة الحالية من متصفح منتعشة. &lt;br /&gt; هل تريد تحديث الآن؟</RefreshPageWarningMessage>
+
+  <PagingToolbarBeforePageText>صفحة</PagingToolbarBeforePageText>
+  <PagingToolbarAfterPageText>من {0}</PagingToolbarAfterPageText>
+  <PagingToolbarFirstText>الصفحة الأولى</PagingToolbarFirstText>
+  <PagingToolbarPrevText>الصفحة السابقة</PagingToolbarPrevText>
+  <PagingToolbarNextText>الصفحة التالية</PagingToolbarNextText>
+  <PagingToolbarLastText>آخر صفحة</PagingToolbarLastText>
+  <PagingToolbarDisplayMsg>عرض {0} - {1} من {2}</PagingToolbarDisplayMsg>
+  <PagingToolbarEmptyMsg>لا توجد بيانات لعرض</PagingToolbarEmptyMsg>
+  
+  <GridTotalLabel>مجموع:</GridTotalLabel>
+  <GridTotalFilesLabel>ملفات</GridTotalFilesLabel>
+  <GridTotalFoldersLabel>المجلدات</GridTotalFoldersLabel>
+  
+  <GridDDSelectedRowsText>{0} الصف المحدد {1}</GridDDSelectedRowsText>
+  <GridDDSelectedFilesText>{0} الملفات المحددة</GridDDSelectedFilesText>
+  <GridDDSelectedFoldersText>{0} المجلدات المحددة</GridDDSelectedFoldersText>
+  <GridDDConfirmCopyMoveTitle>تراجع إلى مجلد "{0}"</GridDDConfirmCopyMoveTitle>
+  <GridDDConfirmAddToZipTitle>إضافة إلى الرمز "{0}"</GridDDConfirmAddToZipTitle>
+  <GridDDConfirmAddToZipMessage>سيتم إضافة الملفات ننجر وراء هذا الأرشيف ZIP. هل ترغب في الاستمرار؟ {0}.</GridDDConfirmAddToZipMessage>
+  <GridDDConfirmCopyMoveMsg>حدد الإجراء الذي تريد تطبيقه. مصدر: "{0}"، مجلد الوجهة: "{1}" {2} {3}.</GridDDConfirmCopyMoveMsg>
+  <GridDDConfirmCopyMoveToZipMsg>سيتم إضافة الملفات إلى أرشيف مضغوط. حدد الإجراء الذي تريد تطبيق إلى ملفات جروا بعد إضافة الملفات إلى أرشيف مضغوط. مصدر: "{0}"، أرشيف مضغوط الوجهة: "{1}" {2} {3}.</GridDDConfirmCopyMoveToZipMsg>
+  <GridDDDraggedFileNames>&lt;ب&gt; ملفات جر: &lt;/b&gt; {0}</GridDDDraggedFileNames>
+  <GridDDDraggedFolderNames>&lt;ب&gt; جر المجلدات: &lt;/b&gt; {0}</GridDDDraggedFolderNames>
+  <GridDDConfirmTargetFolderOnlyCopyMsg>الأذونات الحالية للمجلد مصدر تسمح لك النسخة الوحيدة ملفات طالت. هل ترغب في الاستمرار؟ {0}.</GridDDConfirmTargetFolderOnlyCopyMsg>
+  <GridDDConfirmTargetFolderOnlyMoveMsg>الأذونات الحالية للمجلد مصدر تسمح لك التحرك الوحيد سحب الملفات. هل ترغب في الاستمرار؟ {0}.</GridDDConfirmTargetFolderOnlyMoveMsg>
+
+  <GridRowPublicHint>انقر لفتح رابط عام في نافذة جديدة / علامة التبويب</GridRowPublicHint>
+  <GridRowAlertHint>انقر لعرض التغييرات القيام به لهذا الملف / المجلد</GridRowAlertHint>
+  <GridRowRecentHint>تحديد موقع هذا الملف / المجلد</GridRowRecentHint>
+  <GridRowAlertEventHint>انقر الذهاب الى هذا المكان</GridRowAlertEventHint>
+
+  <ProgressCreating>خلق</ProgressCreating>
+  <ProgressDeleting>حذف</ProgressDeleting>
+  <ProgressLoading>جار التحميل</ProgressLoading>
+  <ProgressSearching>البحث</ProgressSearching>
+  <ProgressZipping>ضغط</ProgressZipping>
+  <ProgressUnzipping>تفريغ</ProgressUnzipping>
+  <ProgressZipContents>الحصول على محتويات أرشيف ZIP</ProgressZipContents>
+  <ProgressPrepareDownload>تستعد للتحميل</ProgressPrepareDownload>
+  <ProgressMoving>تقدم</ProgressMoving>
+  <ProgressCopying>تقليد</ProgressCopying>
+  <ProgressRenaming>إعادة تسمية</ProgressRenaming>
+  <ProgressUpdating>تحديث</ProgressUpdating>
+  <ProgressLoadingEditInPixlr>تحميل أو Pixlr محرر</ProgressLoadingEditInPixlr>
+  <ProgressLoadingEdit>تحميل محرر</ProgressLoadingEdit>
+  <ProgressSavingEdit>حفظ الملف</ProgressSavingEdit>
+  <ProgressSaving>إنقاذ</ProgressSaving>
+  <ProgressExecuting>تنفيذ</ProgressExecuting>
+
+  <BalloonFilesDeleted>{0} ملف (ق) حذف</BalloonFilesDeleted>
+  <BalloonFoldersDeleted>{0} مجلد (ق) حذف</BalloonFoldersDeleted>
+  <BalloonFilesFailed>فشل {0} ملف (ق)</BalloonFilesFailed>
+  <BalloonFoldersFailed>فشل {0} مجلد (ق)</BalloonFoldersFailed>
+  <BalloonFilesZipped>{0} ملف (ق) مضغوط</BalloonFilesZipped>
+  <BalloonFoldersZipped>{0} مجلد (ق) مضغوط</BalloonFoldersZipped>
+  <BalloonFilesCopied>{0} ملف (ق) نسخ</BalloonFilesCopied>
+  <BalloonFoldersCopied>{0} مجلد (ق) نسخ</BalloonFoldersCopied>
+  <BalloonFilesMoved>{0} ملف (ق) انتقل</BalloonFilesMoved>
+  <BalloonFoldersMoved>{0} مجلد (ق) انتقل</BalloonFoldersMoved>
+  <BalloonNotUnzipped>لم يتم تفكيك {0} ملف (ق)</BalloonNotUnzipped>
+  <BalloonFilesUploaded>{0} ملف (ق) التي يتم تحميلها</BalloonFilesUploaded>
+  <BalloonFilesNotUploaded>{0} ملف (ق) يتم تحميل</BalloonFilesNotUploaded>
+  <BalloonSomeFilesNotUploaded>بعض الملفات لا يمكن تحميلها</BalloonSomeFilesNotUploaded>
+  <BalloonCreatedSuccessfully>إنشاء بنجاح</BalloonCreatedSuccessfully>
+  <BalloonUnzippedSuccessfully>تفكيك بنجاح</BalloonUnzippedSuccessfully>
+  <BalloonRenamedSuccessfully>إعادة تسمية بنجاح</BalloonRenamedSuccessfully>
+  <BalloonSavedSuccessfully>حفظ بنجاح</BalloonSavedSuccessfully>
+  <BalloonCopiedToClipboard>نسخ إلى الحافظة</BalloonCopiedToClipboard>
+  <BalloonCopyToClipboardFailed>نسخ إلى الحافظة فشلت</BalloonCopyToClipboardFailed>
+
+  <CommandCopyToClipboard>نسخ إلى الحافظة</CommandCopyToClipboard>
+  <CommandCopyLinkToClipboard>نسخ الرابط إلى الحافظة</CommandCopyLinkToClipboard>
+  <ClipboardScreenshotTitlePrefix>صورة</ClipboardScreenshotTitlePrefix>
+  <ClipboardScreenshotHint>صور: يمكنك لصق لقطة من الحافظة الخاصة بك (الصحافة &lt;ب&gt; السيطرة+PRTSC &lt;/b&gt; و ثم &lt;ب&gt; على Ctrl+V &lt;/b&gt;) أو صورة من المحرر الخاص بك (اضغط على &lt;b&gt; على Ctrl+V &lt;/ ب&gt;).</ClipboardScreenshotHint>
+  <ClipboardFileHint>يمكنك أيضا لصق ملف من الحافظة</ClipboardFileHint>
+
+  <CommandClouds>تخزين سحابي</CommandClouds>
+  <CommandCloudsDownloadTo>تحميل ل...</CommandCloudsDownloadTo>
+  <CommandCloudsUploadFrom>تحميل من ...</CommandCloudsUploadFrom>
+  <CommandCloudsAbout>حول تخزين سحابي</CommandCloudsAbout>
+  
+  <CommandBack>الى الخلف</CommandBack>
+  <CommandForward>إلى الأمام</CommandForward>
+  <CommandRecentFolders>المجلدات الأخيرة</CommandRecentFolders>
+  <CommandHome>الصفحة الرئيسية</CommandHome>
+  <CommonActions>أفعال</CommonActions>
+  <CommandMultiSelect>تحديد متعدد</CommandMultiSelect>
+  <CommandShare>شارك</CommandShare>
+  <CommandSorting>فرز</CommandSorting>
+  
+  <CommandFileManager>العودة إلى مدير الملفات</CommandFileManager>
+  <CommandFolders>المجلدات</CommandFolders>
+  <CommandGridView>رأي</CommandGridView>
+  <CommandRefresh>تحديث</CommandRefresh>
+  <CommandThumbnailView>الرؤية المصغرة</CommandThumbnailView>
+  <CommandDetailedView>عرض القائمة</CommandDetailedView>
+  <CommandDetailsPane>جزء التفاصيل</CommandDetailsPane>
+  <CommandFavorites>المفضلة</CommandFavorites>
+  <CommandAddToFavorites>اضافة الى المفضلة</CommandAddToFavorites>
+  <CommandAddToFavoritesHint>إضافة المجلد الحالي إلى المفضلة</CommandAddToFavoritesHint>
+  <AddingToFavoritesMessage>إضافة إلى المفضلة</AddingToFavoritesMessage>
+  <RemoveFromFavoritesMessage>حذف من المفضلة</RemoveFromFavoritesMessage>
+  <FolderAlreadyAddedInFavorites>المجلد "{0}" موجود بالفعل في المفضلة</FolderAlreadyAddedInFavorites>
+  <FolderAddedInFavoritesSuccessfully>المجلد "{0}" تمت إضافة بنجاح إلى المفضلة</FolderAddedInFavoritesSuccessfully>
+  <FavoritesIsOverflowed>لم يكن من الممكن لإضافة المجلد الحالي "{0}" إلى المفضلة. حذف بعض المفضلة لتحرير بعض المساحة وحاول مرة أخرى.</FavoritesIsOverflowed>
+  <RemoveFromFavoritesHint>إزالة "{0}" من المفضلة</RemoveFromFavoritesHint>
+  <AddToHomeScreenIOSHint>الاستفادة {0} ثم على &lt;strong&gt; "إضافة إلى الشاشة الرئيسية" &lt;/ قوي&gt;</AddToHomeScreenIOSHint>
+  <CommandSearch>بحث</CommandSearch>
+  <CommandUpload>تحميل</CommandUpload>
+  <CommandSettings>إعدادات</CommandSettings>
+  <CommandLanguage>لغة</CommandLanguage>
+  <CommandAdministration>الادارة</CommandAdministration>
+  <CommandAdminPanel>لوحة الادارة</CommandAdminPanel>
+  <CommandChangePassword>تغيير كلمة السر</CommandChangePassword>
+  <ProgressChangePassword>كلمة المرور تغيير</ProgressChangePassword>
+  <CommandChangeEmail>تغيير الايميل</CommandChangeEmail>
+  <ProgressChangeEmail>تغيير البريد الإلكتروني</ProgressChangeEmail>
+  <CommandMobileView>واجهة النقالة (الهواتف الذكية)</CommandMobileView>
+  <CommandStandardView>نسخة كاملة</CommandStandardView>
+  <CommandInstallIOSApp>تثبيت التطبيق دائرة الرقابة الداخلية</CommandInstallIOSApp>
+  <CommandInstallAndroidApp>تثبيت الروبوت التطبيق</CommandInstallAndroidApp>
+  <CommandAddServerToMobileApp>تضيف إلى هذا الخادم لتطبيقات الجوال</CommandAddServerToMobileApp>
+  <CommandAddToHomeScreen>إضافة إلى الشاشة الرئيسية</CommandAddToHomeScreen>
+  <CommandDiagnostics>صفحة تشخيص</CommandDiagnostics>
+  <CommandLicenseInfo>معلومات الترخيص</CommandLicenseInfo>
+  <CommandLogout>الخروج</CommandLogout>
+  <CommandLogoutHint>انقر لإنهاء الدورة الحالية</CommandLogoutHint>
+  <CommandNew>الجديد</CommandNew>
+  <CommandFile>ملف</CommandFile>
+  <CommandEmptyFile>ملف فارغ</CommandEmptyFile>
+  <CommandNewMSOODocument>وثيقة مع مايكروسوفت أوفيس أون لاين</CommandNewMSOODocument>
+  <CommandNewOffice365Document>وثيقة مع مكتب 365</CommandNewOffice365Document>
+  <CommandNewMSOOWord>وثيقة كلمة</CommandNewMSOOWord>
+  <CommandNewMSOOExcel>جداول البيانات إكسل</CommandNewMSOOExcel>
+  <CommandNewMSOOPowerPoint>عرض باور بوينت</CommandNewMSOOPowerPoint>
+  <CommandNewGoogleDocument>وثيقة مع جوجل</CommandNewGoogleDocument>
+  <CommandNewGoogleDocs>مستندات جوجل</CommandNewGoogleDocs>
+  <CommandNewGoogleSheets>صفائح جوجل</CommandNewGoogleSheets>
+  <CommandNewGoogleSlides>الشرائح جوجل</CommandNewGoogleSlides>
+  <CommandNewImage>صورة في أو Pixlr</CommandNewImage>
+  <CommandFolder>مجلد</CommandFolder>
+  <CommandNewFile>ملف فارغ جديد</CommandNewFile>
+  <CommandNewFolder>ملف جديد</CommandNewFolder>
+  <CommandNewWithTemplate>باستخدام قالب ...</CommandNewWithTemplate>
+  <CommandRename>إعادة تسمية</CommandRename>
+  <CommandDelete>حذف</CommandDelete>
+  <CommandCopy>نسخ</CommandCopy>
+  <CommandMove>نقل</CommandMove>
+  <CommandCut>يقطع</CommandCut>
+  <CommandCopyTo>نسخ الى...</CommandCopyTo>
+  <CommandMoveTo>الانتقال إلى...</CommandMoveTo>
+  <CommandCopyCutClipboardSuffix>إلى الحافظة</CommandCopyCutClipboardSuffix>
+  <CommandPaste>معجون</CommandPaste>
+  <CommandPasteInto>صقها</CommandPasteInto>
+  <CommandZip>ضغط لأرشيف البريدي</CommandZip>
+  <CommandZipMenu>الرمز البريدي / بفك</CommandZipMenu>
+  <CommandUnzip>الرمز البريدي فك</CommandUnzip>
+  <CommandUnzipSelected>فك المختارة</CommandUnzipSelected>
+  <CommandUnzipAll>فك جميع</CommandUnzipAll>
+  <CommandUnzipTo>إلى المجلد</CommandUnzipTo>
+  <CommandUnzipToCurrent>إلى المجلد الحالي</CommandUnzipToCurrent>
+  <MessageUnzipToFolder>اكتب اسم المجلد على فك هذا</MessageUnzipToFolder>
+  <MessageUnzipPasswordHint>إذا كنت تعرف أن كلمة السر هي اللازمة لتفريغ، أدخله في الحقل أدناه</MessageUnzipPasswordHint>
+  <MessageUnzipNeedPassword>مطلوب كلمة المرور إلى فك الملفات</MessageUnzipNeedPassword>
+  <ZipPasswordProtectHint>لحماية كلمة السر أرشيف مضغوط، أدخل كلمة المرور في الحقل أدناه. خلاف ذلك، وترك الحقل فارغا</ZipPasswordProtectHint>
+  <AppendToZipPasswordProtectHint>لحماية كلمة السر الملفات تضاف إلى أرشيف مضغوط، أدخل كلمة المرور في الحقل أدناه. خلاف ذلك، وترك الحقل فارغا</AppendToZipPasswordProtectHint>
+  <ZipPasswordProtectWindowTitle>أرشفة مع كلمة المرور</ZipPasswordProtectWindowTitle>
+  <OpenFolderAfterUnzipCheckBox>فتح المجلد بعد التفريغ</OpenFolderAfterUnzipCheckBox>
+  <CommandUnzipToNew>إلى مجلد جديد</CommandUnzipToNew>
+  <CommandZipContents>المحتوى البريدي</CommandZipContents>
+  <ArchiveContentsTitle>محتوى الأرشيف "{0}"</ArchiveContentsTitle>
+  <CommandDownload>تحميل</CommandDownload>
+  <CommonDownloadAll>تحميل الكل</CommonDownloadAll>
+  <DownloadListDragFile>يمكنك سحب والإسقاط الملفات إلى سطح المكتب الخاص بك</DownloadListDragFile>
+  <CommandZipDownload>ضغط وتحميل</CommandZipDownload>
+  <CommandView>عرض في مستعرض</CommandView>
+  <CommandDownloadOrView>تحميل أو مشاهدة</CommandDownloadOrView>
+  <CommandPreview>معاينة الصور</CommandPreview>
+  <CommandFlashPreview>معاينة فلاش</CommandFlashPreview>
+  <GettingSizeFlashMovie>حجم الحصول من فيلم فلاش</GettingSizeFlashMovie>
+  <CommandEdit>تحرير كملف نصي</CommandEdit>
+  <CommandEditView>كما عرض ملف نصي</CommandEditView>
+  <AceNotLoadedMessage>غير قادر على تحميل ايس محرر</AceNotLoadedMessage>
+  <VideoJsNotLoadedMessage>غير قادر على تحميل لاعب VideoJS</VideoJsNotLoadedMessage>
+  <CommandMenuEdit>تصحيح</CommandMenuEdit>
+  <CommandSelectAll>اختر الكل</CommandSelectAll>
+  <CommandInvertSelection>اختيار المقلوب</CommandInvertSelection>
+  <CommandLinkToFile>رابط لملف / مجلد</CommandLinkToFile>
+  <!--Share link-->
+  <CommandMakePublicFolder>إنشاء رابط العام</CommandMakePublicFolder>
+  <PublicViewInGoogle>عرض في جوجل</PublicViewInGoogle>
+  <PublicViewinOWA>عرض في OWA</PublicViewinOWA>
+  <!--Make public folder (share)-->
+  <CommandViewWithGoogleDoc>عرض في محرر مستندات Google</CommandViewWithGoogleDoc>
+  <CommandViewWithShareCad>عرض في ShareCad.org</CommandViewWithShareCad>
+  <CommandViewWithAutodesk>عرض في أوتوديسك</CommandViewWithAutodesk>
+  <CommandViewWithBox>عرض في صندوق</CommandViewWithBox>
+  <CommandViewWithOWA>عرض في مكتب تطبيقات الانترنت</CommandViewWithOWA>
+  <CommandCloudConvert>تحويل مع CloudConvert</CommandCloudConvert>
+  <ProgressGetCloudConvertOutputFormats>الحصول على تنسيقات الإخراج</ProgressGetCloudConvertOutputFormats>
+  <ProgressCloudConvertConverting>التحول</ProgressCloudConvertConverting>
+  <CloudConvertWindowTitle>تحويل '{0}'</CloudConvertWindowTitle>
+  <CloudConvertWindowConvertButton>تحول</CloudConvertWindowConvertButton>
+  <CloudConvertWindowOutputFormatsLabel>تنسيق الإخراج</CloudConvertWindowOutputFormatsLabel>
+  <CloudConvertDownloadLinkLabel>رابط للتحميل</CloudConvertDownloadLinkLabel>
+  <CloudConvertSaveAsLabel>حفظ ك (ستضاف تمديد تلقائيا):</CloudConvertSaveAsLabel>
+  <CloudConvertNoOutputFormats>لا توجد الأشكال المتاحة لتحويل</CloudConvertNoOutputFormats>
+  <CloudConvertNoUrlForDownload>لم نجحت في الحصول على رابط لتحميل</CloudConvertNoUrlForDownload>
+  <ProgressCloudConvertUploading>تحميل من CloudConvert</ProgressCloudConvertUploading>
+  <CloudConvertSaveAsNameBlank>نوع الاسم هنا</CloudConvertSaveAsNameBlank>
+  <CancelEditButton>إلغاء تحرير</CancelEditButton>
+  <HideButton>إخفاء</HideButton>
+  <EditDocumentCancelHint>بعد إغلاق نافذة مع تحرير الوثيقة، سيتم الحفظ التلقائي ذلك. &lt;br /&gt; يمكنك إخفاء مربع الحوار هذا عن طريق الضغط على {0} (في هذه الحالة، سوف لا يزال يتم حفظ المستند بعد إغلاق محرر). &lt;br /&gt; إذا كنت لا ترغب في حفظ المستند، اضغط على {1} (في هذه الحالة، سيتم إغلاق نافذة المحرر).</EditDocumentCancelHint>
+  <EditDocumentSaveHint>الآن يمكنك حفظ التغييرات في الوثيقة عن طريق الضغط على {0}. انتباه! بعد إغلاق نافذة المحرر، فإنه سيتم الحفظ التلقائي أيضا.</EditDocumentSaveHint>
+  <CommandEditInMSOffice>تحرير في مايكروسوفت أوفيس</CommandEditInMSOffice>
+  <CommandEditInOOo>تحرير في أوبن أوفيس / ليبر أوفيس</CommandEditInOOo>
+  <CommandViewInMSOffice>عرض في مايكروسوفت أوفيس</CommandViewInMSOffice>
+  <CommandViewInOOo>عرض في أوبن أوفيس / ليبر أوفيس</CommandViewInOOo>
+  <CommandEditInPixlr>تحرير في أو Pixlr</CommandEditInPixlr>
+  <CommandEditInAdobe>تحرير في أدوبي سحابة الإبداعية</CommandEditInAdobe>
+  <AdobeImageEditorSavedAsNewTypeMessage>تم حفظ الصورة تغيرت في أدوبي محرر الصور في شكل {0}</AdobeImageEditorSavedAsNewTypeMessage>
+  <CommandEditInGoogle>تحرير في محرك جوجل</CommandEditInGoogle>
+  <EditInGoogleConvertMessage>بعد تحرير سيتم تحويل المستند إلى تنسيق {1} {0} {2}</EditInGoogleConvertMessage>
+  <EditInGoogleLinkError>غير قادر على الحصول على رابط لتحرير مستند في Google Drive</EditInGoogleLinkError>
+  <EditInGoogleWaiting>في انتظار استكمال التحرير على Google Drive</EditInGoogleWaiting>
+  <CommandEditInMSOO>تحرير في مايكروسوفت أوفيس أون لاين</CommandEditInMSOO>
+  <EditInMSOOLinkError>غير قادر على الحصول على رابط لتحرير المستند في مايكروسوفت أوفيس أون لاين</EditInMSOOLinkError>
+  <EditInMSOOWaiting>في انتظار استكمال التحرير في مايكروسوفت أوفيس أون لاين</EditInMSOOWaiting>
+  <CommandEditInOffice365>تحرير في مكتب 365</CommandEditInOffice365>
+  <EditInOffice365LinkError>غير قادر على الحصول على رابط لتحرير المستند في Office 365</EditInOffice365LinkError>
+  <EditInOffice365Waiting>في انتظار استكمال التحرير في Office 365</EditInOffice365Waiting>
+  <CommandSave>حفظ</CommandSave>
+  <CommandSaveAs>حفظ ك ...</CommandSaveAs>
+  <CommandAppRestart>تطبيق إعادة تشغيل</CommandAppRestart>
+  <CommandPlayVideoFlash>تشغيل الفيديو في فلاش لاعب</CommandPlayVideoFlash>
+  <CommandPlayVideoHtml5>شغل الفيديو</CommandPlayVideoHtml5>
+  <CommandPlayAudioHtml5>اللعب الصوت</CommandPlayAudioHtml5>
+  <CommandPlayVideo>شغل الفيديو</CommandPlayVideo>
+  <CommandPlayAudio>اللعب الصوت</CommandPlayAudio>
+  <CommandConvertVideo>تحويل الفيديو</CommandConvertVideo>
+
+  <ViewInServiceLink>انقر هنا لرؤية الملف</ViewInServiceLink>
+  <EditInServiceLink>انقر هنا لتحرير المستند</EditInServiceLink>
+
+  <OfficeEditCopyLinkLabel>نسخ الرابط أدناه وفتحها في تطبيق Office:</OfficeEditCopyLinkLabel>
+  <OfficeRunError>لم يكن من الممكن لإطلاق {0}</OfficeRunError>
+  <BadPathToFile>لم يكن من الممكن العثور على المسار إلى ملف</BadPathToFile>
+  <FixBasicAuthAlertTitle>انتباه!</FixBasicAuthAlertTitle>
+  <FixBasicAuthAlertMessage>تعمل مايكروسوفت أوفيس مع المصادقة الأساسية بدون SSL! يمكنك إصلاح هذه لمكتبك. لمزيد من المعلومات يرجى الاطلاع على {0}.</FixBasicAuthAlertMessage>
+  <FixBasicAuthAlertCheckBoxText>عدم إظهار هذا الحوار بعد الآن.</FixBasicAuthAlertCheckBoxText>
+  <CommandDetails>تفاصيل</CommandDetails>
+  <CommonButtonCaptionAddDetail>إضافة تفاصيل</CommonButtonCaptionAddDetail>
+  <CommonButtonCaptionAddComment>أضف تعليق</CommonButtonCaptionAddComment>
+  <DetailsWindowTitle>تفاصيل "{0}"</DetailsWindowTitle>
+  <FileDetailsSave>تطبيق التغييرات</FileDetailsSave>
+  <FileDetailsIgnoreChanges>تجاهل</FileDetailsIgnoreChanges>
+  <FileDetailsCloseConfirmTitle>يتم إغلاق تفاصيل ملف نافذة</FileDetailsCloseConfirmTitle>
+  <FileDetailsCloseConfirmMsg>انتباه! لم يتم حفظ التغييرات بعد. حدد الإجراء الذي تريد تطبيق هذه التغييرات قبل إغلاق النافذة.</FileDetailsCloseConfirmMsg>
+  <FileDetailsGridTitleColumn>عنوان</FileDetailsGridTitleColumn>
+  <FileDetailsGridAuthorColumn>مؤلف الماضي</FileDetailsGridAuthorColumn>
+  <LoadingDetailsMask>تفاصيل التحميل</LoadingDetailsMask>
+  <NewDetailsTitle>عنوان جديد</NewDetailsTitle>
+  <NewDetailsValue>قيمة تفاصيل جديدة</NewDetailsValue>
+  <DetailsSavingMsg>توفير التفاصيل</DetailsSavingMsg>
+  <ProgressLoadingEditInOffice>التحضير للتحرير في مكتب</ProgressLoadingEditInOffice>
+  <MenuFilterText>مرشحات</MenuFilterText>
+  <EmptyTextFilter>أدخل تصفية ...</EmptyTextFilter>
+  <AfterDateFilterText>بعد</AfterDateFilterText>
+  <BeforeDateFilterText>قبل</BeforeDateFilterText>
+  <OnDateFilterText>على</OnDateFilterText>
+  <YesBooleanFilterText>نعم فعلا</YesBooleanFilterText>
+  <NoBooleanFilterText>لا</NoBooleanFilterText>
+  <CommandEditWithZoho>تحرير في زوهو</CommandEditWithZoho>
+  <ZohoNotSupportedFormatMessage>غير معتمد التمديد زوهو. راجع {0}.</ZohoNotSupportedFormatMessage>
+  <ProgressLoadingEditInZoho>تحميل زوهو محرر</ProgressLoadingEditInZoho>
+  <CommandSubMenuViewAndEdit>معاينة ما تم تحريره</CommandSubMenuViewAndEdit>
+  <CommandSubMenuShare>شارك</CommandSubMenuShare>
+  <CommandSubMenuMore>أكثر من</CommandSubMenuMore>
+  <StopUploadingButtonText>توقف</StopUploadingButtonText>
+  <SimpleUploadErrorInfo>عند تحميل ملف (ق) كان هناك خطأ. &lt;br /&gt; انظر {0} لمزيد من المعلومات &lt;/A&gt;</SimpleUploadErrorInfo>
+  <BalloonAbortFilesUploaded>تم إحباط تحميل الملفات</BalloonAbortFilesUploaded>
+  <UploadDragNDropTab>السحب والإسقاط</UploadDragNDropTab>
+  <UploadDragNDropTabImages>السحب والإسقاط+صور</UploadDragNDropTabImages>
+  <DnDGridProgressColumn>تقدم</DnDGridProgressColumn>
+  <DnDFileReadingError>قراءة الخطأ. رمز الخطأ: {0}.</DnDFileReadingError>
+  <DnDFileReadingAbort>القراءة أجهضت. رمز الخطأ: {0}.</DnDFileReadingAbort>
+  <DnDFileUploadingError>الخطأ تحميل. {0}</DnDFileUploadingError>
+  <DnDFileUploadingAbort>تحميل إحباط.</DnDFileUploadingAbort>
+  
+  <CommandWebFoldersLinks>المجلدات خريطة شبكة الإنترنت</CommandWebFoldersLinks>
+  <CommandSyncWebFolders>مزامنة مع مجلد محلي</CommandSyncWebFolders>
+  <WebFolderLinksFieldLabel>وصلات مجلد ويب</WebFolderLinksFieldLabel>
+  <WebFolderLinksForWindows64Note>اضغط على تركيبة المفاتيح {0} وين+R {1}. إدراج سطر الأوامر في {0} فتح: {1} الحقل (انظر الأمثلة سطر الأوامر أدناه)، انقر فوق موافق {0} {1}. للمصادقة Windows باستخدام أسماء المجال المؤهل بالكامل: {2}.</WebFolderLinksForWindows64Note>
+  <OpenLibreOfficeRunCommandNote>أو اضغط على تركيبة المفاتيح {0} وين+R {1}، إدراج سطر الأوامر أدناه في {0} فتح: {1} الحقل ثم اضغط {0} موافق {1}</OpenLibreOfficeRunCommandNote>
+  <WebFolderLinksForMacOSNote>في القائمة "الكشاف"، مفتوحة {0} الذهاب-&gt; الاتصال بخادم {1}. إدراج الارتباط من المجلد على شبكة الإنترنت في {0} "عنوان خادم" {1} المجال. انقر {0} "الاتصال" {1}. في حوار جديد حدد {0} "الضيف" {1} أو {0} "مسجل" {1} (للمصادقة Windows). انقر {0} "الاتصال" {1}.</WebFolderLinksForMacOSNote>
+  <WebFolderLinksForUbuntuNote>فتح {0} الذهاب-&gt; الموقع ... {1} نسخ الارتباط من المجلد على شبكة الإنترنت لحقل الموقع.</WebFolderLinksForUbuntuNote>
+  <LinksToWebFoldersWindowText>يمكنك تعيين المجلدات التي ينظرون اليها على انها محرك أقراص الشبكة في نظام التشغيل المحلي. بعد رسم الخرائط يمكنك العمل مع الملفات مثل بأخرى محلية أو تحرير الوثائق في مايكروسوفت أوفيس أو أوبن أوفيس. انظر التعليمات حول كيفية تعيين {0}.</LinksToWebFoldersWindowText>
+  <CommonFileTypeNameCaption>"{0}" اسم الملف</CommonFileTypeNameCaption>
+  <CommonFileTypeNamePrompt>أدخل "{0}" اسم ملف جديد</CommonFileTypeNamePrompt>
+  
+  <PixlrEditorWindowTitle>أو Pixlr محرر {0}</PixlrEditorWindowTitle>
+  <PixlrSaveImageSuccessMessage>صورة "{0}" تم حفظ بنجاح. تحديث قائمة إذا قمت بحفظ الصورة مع اسم جديد.</PixlrSaveImageSuccessMessage>
+  <CommonFileImageNewName>صورة جديدة</CommonFileImageNewName>
+  <CommandChangeTheme>غير الخلفية</CommandChangeTheme>
+  
+  <CommandHelp>مساعدة</CommandHelp>
+
+  <OpeningShortcutProgress>اختصار الافتتاحية</OpeningShortcutProgress>
+  <CommandCreateShortcut>الاختصار (ارتباط رمزي)</CommandCreateShortcut>
+  <ShortcutNameHint>اسم الاختصار</ShortcutNameHint>
+  <ShortcutTargetPathHint>مسار الوجهة</ShortcutTargetPathHint>
+  <CreateShortcutButtonTitle>خلق</CreateShortcutButtonTitle>
+  <CreatingShortcutProgress>إنشاء اختصار</CreatingShortcutProgress>
+  <CreateShortcutSuccessMessage>الاختصار "{0}" تم إنشاء بنجاح "{1}".</CreateShortcutSuccessMessage>
+
+  <OpeningInternetShortcutProgress>فتح اختصار إنترنت</OpeningInternetShortcutProgress>
+  <InternetShortcutNotValidMsg>URL الهدف من هذا اختصار الإنترنت غير صالح</InternetShortcutNotValidMsg>
+  <InternetShortcutWindowTitle>الذهاب إلى ربط</InternetShortcutWindowTitle>
+  
+  <CommandVersioning>إصدارات</CommandVersioning>
+  <CommandVersionHistory>تاريخ النسخة</CommandVersionHistory>
+  <CommandCheckOut>الدفع</CommandCheckOut>
+  <CommandCheckIn>تحقق في</CommandCheckIn>
+  <CommandUndoCheckOut>إلغاء السحب</CommandUndoCheckOut>
+  <VersionHistoryObtainingMessage>الحصول على نسخة التاريخ</VersionHistoryObtainingMessage>
+  <NoVersionHistoryMessage>عدم وجود تاريخ الإصدار للملف المحدد</NoVersionHistoryMessage>
+  <FileIsCheckedOutMessage>الملف "{0}" يتم التحقق مسبقا من قبل المستخدم "{1}" من {2}</FileIsCheckedOutMessage>
+  <CheckingOutMessage>التحقق من</CheckingOutMessage>
+  <SuccessfullyCheckedOutMessage>الملف "{0}" تم التحقق بنجاح من قبل المستخدم "{1}"</SuccessfullyCheckedOutMessage>
+  <FileIsNotCheckedOutMessage>الملف "{0}" لم يتم سحبه بعد</FileIsNotCheckedOutMessage>
+  <FileIsCheckedOutOtherUserMessage>الملف "{0}" تم سحبه من قبل مستخدم آخر "{1}" من {2}.</FileIsCheckedOutOtherUserMessage>
+  <FileUndoCheckOutForbiddenMessage>لا يمكنك إلغاء الاختيار المطبقة من قبل مستخدم آخر.</FileUndoCheckOutForbiddenMessage>
+  <FileCheckInForbiddenMessage>لا يمكنك إيداع الملف الذي سبق سحبه من قبل مستخدم آخر.</FileCheckInForbiddenMessage>
+  <FileUndoCheckOutConfirmMessage>إذا قمت بإلغاء الاختيار الخاص بها، لن يتم حفظ التغييرات المطبقة على وثيقة! هل أنت متأكد أنك تريد إلغاء الشيك بها؟</FileUndoCheckOutConfirmMessage>
+  <FileVersionDeleteConfirmTitle>حذف من إصدار الملف</FileVersionDeleteConfirmTitle>
+  <FileVersionDeleteConfirmMessage>هل أنت متأكد أنك تريد حذف الإصدار المحدد من الملف؟</FileVersionDeleteConfirmMessage>
+  <FileVersionRestoreConfirmTitle>استعادة من إصدار الملف</FileVersionRestoreConfirmTitle>
+  <FileVersionRestoreConfirmMessage>هل أنت متأكد من أن تريد استعادة الإصدار المحدد من الملف؟ {0} إذا كانت الإجابة بنعم، حدد الملف الذي سيتم حفظ النسخة المحددة في. إذا تركت هذه القيمة دون تغيير (أو مجموعة قيمة فارغة) الإصدار المحدد سوف يحل محل الملف المحدد (سيتم إضافة محتوى السابقة من الملف إلى تاريخ إصدار) {1} اسم الملف:</FileVersionRestoreConfirmMessage>
+  <UndoCheckingOutMessage>إلغاء السحب</UndoCheckingOutMessage>
+  <SuccessfullyUndoCheckedOutMessage>"{0}" تم الانتهاء من إلغاء إجراءات المغادرة عن ملف بنجاح.</SuccessfullyUndoCheckedOutMessage>
+  <SuccessfullyCheckedInMessage>الملف "{0}" يتم التحقق بنجاح في من قبل المستخدم "{1}"</SuccessfullyCheckedInMessage>
+  <CheckingInMessage>تسجيل الدخول</CheckingInMessage>
+  <VersionHistoryTitle>إصدارات الملفات "{0}"</VersionHistoryTitle>
+  <VersionHistoryGridNumberColumn>الاصدار.</VersionHistoryGridNumberColumn>
+  <VersionHistoryGridNotesColumn>ملاحظات</VersionHistoryGridNotesColumn>
+  <CommandRestoreVersion>استعادة</CommandRestoreVersion>
+  <ProgressPrepareDownloadOldVersion>التحضير لإصدار تحميل القديم</ProgressPrepareDownloadOldVersion>
+  <FileVersionNotFoundMessage>لم يتم العثور على إصدار الملف المحدد.</FileVersionNotFoundMessage>
+  <ProgressDeletingVersion>نسخة حذف</ProgressDeletingVersion>
+  <ProgressRestoringVersion>نسخة استعادة</ProgressRestoringVersion>
+  <FileNeedCheckInMessage>يرجى مراجعة أو إلغاء السحب للملف المحدد وحاول مرة أخرى.</FileNeedCheckInMessage>
+  <FileCheckedOutEditForbiddenMessage>لا يمكنك تعديل / اعادة تسمية / نقل / حذف الملفات "{0}" بينما يتم سحبه من قبل المستخدم "{1}" من {2}</FileCheckedOutEditForbiddenMessage>
+  <FileUploadCheckInLabel>يمكنك الاختيار في الملف المحدد أو تحميل نسخة جديدة من الملف (استخدم نموذج الرفع أدناه). إذا كنت ترغب في إنشاء نسخة جديدة من الملف المحدد، لا تحميل أي ملفات هنا.</FileUploadCheckInLabel>
+  <FileUploadCheckInInvalidFileName>يجب أن يكون اسم الملف الذي تم تحميله بالضبط نفس اسم الملف المحدد</FileUploadCheckInInvalidFileName>
+  <CheckOutVersionNotes>تم إنشاء هذا الإصدار تلقائيا</CheckOutVersionNotes>
+  <RestoreVersionNotes>تم إنشاء هذا الإصدار تلقائيا بعد استعادة من النسخة من {0} من المستخدم "{1}"</RestoreVersionNotes>
+  <IsCheckedOutHint>وقد تم سحب الملف</IsCheckedOutHint>
+  <ExistsOldVersionsHint>يحتوي الملف على إصدارات أخرى</ExistsOldVersionsHint>
+  <IsLockedHint>تم تأمين الملف</IsLockedHint>
+  <FileWasCreatedHint>تم إنشاء {0} قبل</FileWasCreatedHint>
+  <FileWasModifiedHint>تم تغيير {0} قبل</FileWasModifiedHint>
+  <CommonChangedAgo>{0} قبل</CommonChangedAgo>
+  <DaysShort>د</DaysShort>
+  <HoursShort>ح</HoursShort>
+  <MinutesShort>م</MinutesShort>
+  <FileContainsMetaDataHint>يحتوي على بعض التفاصيل (الفوقية)</FileContainsMetaDataHint>
+  <FileMetaDataCaptionMobile>البيانات الوصفية</FileMetaDataCaptionMobile>
+
+  <ExistsPublicLinksFileHint>الملف روابط العامة</ExistsPublicLinksFileHint>
+  <ExistsPublicLinksFolderHint>المجلد روابط العامة</ExistsPublicLinksFolderHint>
+  <PublicLinkNotFound>رابط العام ل "{0}" لم يتم العثور</PublicLinkNotFound>
+
+  <PublicLinksDeleteWindowTitle>حذف رابط العام (الصورة)</PublicLinksDeleteWindowTitle>
+  <PublicLinksDeleteLinkButton>حذف الرابط</PublicLinksDeleteLinkButton>
+  <PublicLinksDeleteConfirmMsg>هل أنت متأكد أنك تريد حذف الروابط العامة المختارة؟</PublicLinksDeleteConfirmMsg>
+  <PublicLinksDeleteSingleConfirmMsg>هل أنت متأكد أنك تريد حذف هذا الارتباط؟</PublicLinksDeleteSingleConfirmMsg>
+
+  <DetailsMultiValue>(القيمة متعددة)</DetailsMultiValue>
+
+  <GridBottomFilesSizeInfo>المختارة: {0} / {1}،</GridBottomFilesSizeInfo>
+  <GridBottomFilesFoldersInfo>الملفات: {0} / {1} والمجلدات: {2} / {3}</GridBottomFilesFoldersInfo>
+
+  <AmountOfDownloadingsFile>التنزيلات</AmountOfDownloadingsFile>
+
+  <CookiesDisabledMessage>يتم تشغيل ظيفة ملفات تعريف الارتباط بالمتصفح. الرجاء تشغيله وإعادة تشغيل المتصفح.</CookiesDisabledMessage>
+
+  <CommandSendEmail>ارسل بريد الكتروني</CommandSendEmail>
+  <CommandSendWithGmail>إرسال مع Gmail</CommandSendWithGmail>
+  <CommandSendWithOutlook>إرسال مع Outlook</CommandSendWithOutlook>
+  <SendEmailTo>إلى</SendEmailTo>
+  <SendEmailBulkMailingListHint>&lt;ب&gt; القائمة البريدية &lt;/b&gt; &lt;br /&gt; يمكنك تحديد مجموعات كاملة لإرسال البريد الإلكتروني الخاص بك</SendEmailBulkMailingListHint>
+  <SendEmailBulkMailingListWindowTitle>اختر استقبال للبريد الإلكتروني الخاص بك</SendEmailBulkMailingListWindowTitle>
+  <SendEmailEmptyMailingListMessage>قائمة البريد فارغة</SendEmailEmptyMailingListMessage>
+  <SendEmailSenderEmail>البريد الإلكتروني المرسل</SendEmailSenderEmail>
+  <SendEmailSubject>موضوع</SendEmailSubject>
+  <SendEmailFilesAsLinksTo>إرسال الروابط إلى الملفات المحددة</SendEmailFilesAsLinksTo>
+  <SendEmailFilesAsAttachements>إرسال الملفات المحددة كمرفقات</SendEmailFilesAsAttachements>
+  <SendEmailSend>إرسال</SendEmailSend>
+  <SendEmailProgressMessage>إرسال البريد الإلكتروني</SendEmailProgressMessage>
+  <GettingMailingListProgressMessage>الحصول على القائمة البريدية</GettingMailingListProgressMessage>
+  <SendEmailSuccessMessage>تم إرسال البريد الإلكتروني بنجاح.</SendEmailSuccessMessage>
+  <SendEmailResultsMessage>أرسلت: {0} &lt;br /&gt; فشل: {1} {2}.</SendEmailResultsMessage>
+  <SmtpServerSettingsIncorrect>الخيارات خادم SMTP إما فارغة أو غير صحيحة</SmtpServerSettingsIncorrect>
+  <FromEmailIncorrect>ومن عنوان البريد الإلكتروني غير صحيح أو فارغ</FromEmailIncorrect>
+  <ToEmailIncorrect>عنوان البريد الإلكتروني لغير صحيح أو فارغ</ToEmailIncorrect>
+  <EmailSubjectEmpty>لم يتم تحديد موضوع البريد الإلكتروني</EmailSubjectEmpty>
+  <UploadFromUrlTab>من رابط</UploadFromUrlTab>
+  <UploadFromUrlFieldLabel>URL (HTTP أو بروتوكول نقل الملفات ملف واحد)</UploadFromUrlFieldLabel>
+  <UploadFromUrlProgressTitle>تحميل من رابط</UploadFromUrlProgressTitle>
+  <UploadFromUrlMsg>تحميل من رابط</UploadFromUrlMsg>
+  <UploadFromUrlSuccessMsg>الملف "{0}" تم تحميله بنجاح من "{1}"</UploadFromUrlSuccessMsg>
+  <UploadFromUrlUnknownResponse>لم يتم التعرف على استجابة من الملقم</UploadFromUrlUnknownResponse>
+  <UploadFromUrlEmptyFileName>اسم الملف الذي تم تحميله فارغ</UploadFromUrlEmptyFileName>
+  <UploadFromUrlFileName>مع حفظ اسم (ترك فارغا لاستخدام الاسم من URL)</UploadFromUrlFileName>
+  <UploadFromUrlFileNameMobile>مع حفظ اسم</UploadFromUrlFileNameMobile>
+  
+  <!-- Common Clouds keys -->  
+  <CloudAuthenticateMessage>يجب عليك تسجيل الدخول في {0}. انقر على الرابط "{1}" وسيتم تحويلك إلى نموذج تسجيل الدخول. {2} مزيد من المعلومات. {3}</CloudAuthenticateMessage>
+  <CloudAuthenticateLink>المصادقة مع {0}</CloudAuthenticateLink>  
+  <CloudDownloadingMessage>تحميل ل{0}</CloudDownloadingMessage>
+  <CloudAuthWarningMessage>إذا لم يحدث العمل، يرجى إغلاق هذه النافذة وانقر على وصلة "{0}" مرة أخرى.</CloudAuthWarningMessage>
+  <CloudAuthEmptyInvalidMessage>{0} وصول رمز فارغة أو غير صالحة. يرجى مصادقة مرة أخرى.</CloudAuthEmptyInvalidMessage>
+  <CloudDownloadEndMessageTitle>انتهت تحميل</CloudDownloadEndMessageTitle>
+  <CloudDownloadFilesSuccessMessage>{0} ملف (ق) تم تحميلها بنجاح إلى مجلد "{1}" {2}.</CloudDownloadFilesSuccessMessage>
+  <CloudNotDownloadedFilesMessage>{0} ملف (ق) لم يتم تنزيلها:</CloudNotDownloadedFilesMessage>
+  <CloudFoldersCreatedSuccessMessage>{0} المجلدات (ق) التي تم إنشاؤها بنجاح في مجلد "{1}" {2}.</CloudFoldersCreatedSuccessMessage>
+  <CloudNotFoldersCreatedMessage>{0} المجلدات (ق) لم يخلق:</CloudNotFoldersCreatedMessage>
+  <CloudFilesFoldersSuccessMessage>{0} ملف (ق)، {1} مجلد (ق) تحميل بنجاح "{2}" المجلد {3}.</CloudFilesFoldersSuccessMessage>
+  <CloudNotFilesFoldersDownloadedMessage>{0} ملف (ق)، {1} مجلد (ق) يتم تحميل:</CloudNotFilesFoldersDownloadedMessage>
+  <CloudLinkText>زيارة موقع {0}</CloudLinkText>
+  <CloudLinkDescription>الذهاب إلى {0} الصفحة</CloudLinkDescription>
+  <CloudRootFolderName>&lt;ب&gt; {0} المجلد الجذر &lt;/b&gt;</CloudRootFolderName>
+  <CloudCheckFolerMessage>يرجى التحقق من واحد {0} مجلد للمتابعة.</CloudCheckFolerMessage>
+  <CloudSelectFolderMessage>الرجاء تحديد {0} مجلد للمتابعة.</CloudSelectFolderMessage>
+  <CloudGetFoldersInfoProgressMessage>تحميل معلومات {0} المجلدات</CloudGetFoldersInfoProgressMessage>
+  <CloudGetItemsInfoProgressMessage>تحميل {0} بنود المعلومات</CloudGetItemsInfoProgressMessage>
+  <CloudUploadSelectItemsMessage>الرجاء تحديد {0} البنود للمتابعة.</CloudUploadSelectItemsMessage>
+  <CloudUploadTotalFiles>إجمالي الملفات: {0} ({1})</CloudUploadTotalFiles>
+  <CloudUploadProgressMessage>تحميل من {0}</CloudUploadProgressMessage>
+  <CloudSignInAsDifferentUserText>خروج من {0}</CloudSignInAsDifferentUserText>
+  <CloudLogoutProgressMsg>خروج من {0}</CloudLogoutProgressMsg>
+  <CloudRevokeTokenMsg>إلغاء رمز</CloudRevokeTokenMsg>
+  <CloudRefreshTokenMsg>رمز منعش</CloudRefreshTokenMsg>
+  <CloudAuthNotCompleteMsg>المصادقة لم يكتمل. &lt;br /&gt; الرجاء</CloudAuthNotCompleteMsg>
+  <CloudTrustedSitesMsg> الاختيار التالية المواقع في "المواقع الموثوق بها" القائمة: &lt;br /&gt; &lt;br /&gt;</CloudTrustedSitesMsg>
+  <TrustedSitesForMicrosoftEdge>إذا كنت تستخدم Microsoft الحافة، ثم تحقق من المواقع الموثوق بها في Internet Explorer</TrustedSitesForMicrosoftEdge>
+  <CloudCheckAuthMsg>تحقق {0} التوثيق</CloudCheckAuthMsg>
+  <CloudLoadMsg>تحميل {0}</CloudLoadMsg>
+  <CloudFreeSpaceError>ليست هناك مساحة كافية في {2} لتحميل الملفات. حسنا: {0}. حجم الملف: {1}.</CloudFreeSpaceError>
+  <CloudFreeSpaceExceeded>ليست هناك مساحة كافية في {0}</CloudFreeSpaceExceeded>
+  <CloudExceedFileSizeError>الملف الذي تحاول تحميل لديها حجم ملف {1}، الذي هو أكبر من الحد الأقصى للحجم المسموح به للتحميل - {0}.</CloudExceedFileSizeError>
+  <CloudFolderNotFound>لم يتم العثور على الدليل. ربما تم حذفه</CloudFolderNotFound>
+  <CloudFileNotFound>لم يتم العثور على الملف. ربما تم حذفه</CloudFileNotFound>
+  <CloudNoFoldersMessage>لا توجد مجلدات لعرضه</CloudNoFoldersMessage>
+  <CloudLibraryNotLoadedMsg>{0} مكتبة العميل لم يتم تحميل! &lt;br /&gt; الرجاء التحقق من اتصال الإنترنت وأو تحديث الصفحة. &lt;br /&gt; أيضا</CloudLibraryNotLoadedMsg>
+  <CloudDownloadWithNewNames>الملف التالي (الصورة) تحميل مع أسماء جديدة:</CloudDownloadWithNewNames>
+
+  <!-- Google Drive Cloud keys -->
+  <CommandDownloadToGoogleDocs>تحميل إلى Google Drive</CommandDownloadToGoogleDocs>
+  <GoogleDocsSaveAs>حفظ على النحو التالي:</GoogleDocsSaveAs>
+  <GoogleDocsSaveAsTitle>حفظ "{0}"، كما ...</GoogleDocsSaveAsTitle>
+  <GoogleDocsDownloadEndWarningMessage>إذا كنت لا تستطيع رؤية الوثائق التي تم تحميلها في حساب Google Drive، انتظر بضع ثوان، وتحديث قائمة في Google Drive.</GoogleDocsDownloadEndWarningMessage>
+  <GoogleDriveUploadNoFilesMessage>لا توجد ملفات في Google Drive للتحميل</GoogleDriveUploadNoFilesMessage>
+  <GoogleDriveMaxUploadSizeError>للمحتوى من نوع "{0}" الحد الأقصى لحجم تحميل {1} تم تجاوز.</GoogleDriveMaxUploadSizeError>
+  <GoogleDriveConvertMsg>إذا كان من الممكن تحويل الملفات إلى شكل وثائق غوغل. {0} مزيد من المعلومات {1}.</GoogleDriveConvertMsg>
+
+  <!-- Box Cloud keys -->
+  <CommandDownloadToBox>تحميل لالإطار</CommandDownloadToBox>
+  <BoxDownloadWithNewNames>تم تحديث الملفات التالية (s) مع إصدارات جديدة:</BoxDownloadWithNewNames>
+  <BoxNoViewPermission>لم يكن لديك إذن لعرض الدليل المحدد</BoxNoViewPermission>
+  <BoxNoDownloadPermission>لم يكن لديك إذن لتحميل</BoxNoDownloadPermission>
+  <BoxNoUploadPermission>لم يكن لديك إذن لتحميل</BoxNoUploadPermission>
+  <BoxUnableCreateOrInfoError>غير قادر على إنشاء أو الحصول على معلومات</BoxUnableCreateOrInfoError>
+  
+  <!-- Dropbox Cloud keys -->
+  <CommandDownloadToDropbox>تحميل لدروببوإكس</CommandDownloadToDropbox>
+  
+  <!-- OneDrive Cloud keys -->
+  <CommandDownloadToSkyDrive>تحميل لون درايف</CommandDownloadToSkyDrive>
+  <AuthenticateOAuthSkyDriveMessageShort>يجب عليك تسجيل الدخول إلى حسابك مايكروسوفت لايف.</AuthenticateOAuthSkyDriveMessageShort>
+  <SkyDriveAuthAlsoString>أيضا</SkyDriveAuthAlsoString>
+  <SkyDriveLoginButtonTitle>تسجيل الدخول</SkyDriveLoginButtonTitle>
+  <SkyDriveRegistryMessage>لم يكن لديك حساب Windows Live ID؟ {0} سجل ... {1}</SkyDriveRegistryMessage>
+  <SkyDriveMapRootFolder>ملحوظة! يمكنك {0} خريطة {1} مجلد ون درايف الخاص بك. المسار</SkyDriveMapRootFolder>
+  <SkyDriveMoreInfoLink>{0} مزيد من المعلومات حول ون درايف (SkyDrive) {1}</SkyDriveMoreInfoLink>
+  <OneDriveMaxUploadSizeError>حجم مقبولة ({0}) تم تجاوز الملف الذي تم تحميله: {1}</OneDriveMaxUploadSizeError>
+  <!-- OneDrive for Business -->
+  <OneDriveForBusinessMapWebFolderInfo>&lt;b&gt; ملاحظة &lt;/b&gt; وقبل فتح الملفات في هذا الموقع، يجب عليك أولا إضافة الموقع إلى قائمة المواقع الموثوق بها، انتقل إلى موقع على شبكة الإنترنت، وحدد الخيار للدخول تلقائيا (في متصفح إنترنت إكسبلورر).</OneDriveForBusinessMapWebFolderInfo>
+  
+  <UploadFromUrlLabelText>يمكنك تحديد عنوان URL لملف المخزنة على خادم الملفات على الصعيد العالمي أو في خدمة تبادل الملفات مثل {0}، {1}، {2}، {3}، {4}.</UploadFromUrlLabelText>
+  <UploadFromUrlLabelTextMobile>تحديد عنوان URL لملف</UploadFromUrlLabelTextMobile>
+
+  <LinkToFileTitle>رابط لملف / مجلد</LinkToFileTitle>
+  <LinkToFileWarningAnonym>يوفر هذا الموقع الوصول المجهول إلى الملف. أي مستخدم، حتى تلك التي لا يوجد لديه حساب في هذا الموقع، قد تنزيل أو تحميل الملفات عن طريق رابط عام. ارتباط الجمهور إلى ملف يسمح لك بتحميل الملف المحدد واحد. {0} مزيد من المعلومات {1}.</LinkToFileWarningAnonym>
+  <LinkToFileDownloadFileLink>هذا الرابط يسمح لك بتحميل الملف المحدد {0} من {1}. كنت في حاجة الى حساب صالح لاستخدام هذا الرابط. فإنه لا يوفر الوصول المجهول إلى الملف.</LinkToFileDownloadFileLink>
+  <LinkToFileExpireDate>تاريخ إنتهاء الصلاحية</LinkToFileExpireDate>
+  <LinkToFileDownloadCnt>حد تحميل العد</LinkToFileDownloadCnt>
+  <LinkToFileDownloadType>نوع الارتباط</LinkToFileDownloadType>
+  <LinkToFileGenerate>إنشاء رابط</LinkToFileGenerate>
+  <LinkToFilePasswordNotMatch>كلمات المرور غير متطابقة</LinkToFilePasswordNotMatch>
+  <LinkToFilePasswordRequired>مطلوب كلمة المرور للارتباط العام</LinkToFilePasswordRequired>
+  <LinkToFileInvalidForm>معلمات غير صالحة</LinkToFileInvalidForm>
+  <LinkToFileAnonymDownloadLinkHint>رابط العام ل "{0}":</LinkToFileAnonymDownloadLinkHint>
+  <LinkToFileAnonymDownloadShortLinkHint>رابط العام قصير لل"{0}":</LinkToFileAnonymDownloadShortLinkHint>
+  <LinkToFileOpenFolderLink>هذا الرابط يسمح لك لفتح المجلد المحدد {0} في {1}. كنت في حاجة الى حساب صالح لاستخدام هذا الرابط. فإنه لا يوفر الوصول المجهول إلى المجلد.</LinkToFileOpenFolderLink>
+  <LinkToFileOpenFileLink>هذا الرابط يفتح المجلد مع الملف، ويبرز ذلك</LinkToFileOpenFileLink>
+  <LinkToFileDaysLeft>أيام متبقية</LinkToFileDaysLeft>
+  <LinkToFileCaptionMobile>الروابط العامة</LinkToFileCaptionMobile>
+
+  <PublicFolderLinkHint>ارتباط الجمهور إلى مجلد "{0}":</PublicFolderLinkHint>
+  <PublicFolderShortLinkHint>ارتباط الجمهور قصيرة إلى مجلد "{0}":</PublicFolderShortLinkHint>
+  <PublicFolderLinkDownloadZipHint>تحميل رابط لأرشيف مضغوط من مجلد "{0}":</PublicFolderLinkDownloadZipHint>
+  <PublicFolderLinkShortDownloadZipHint>قصير رابط التحميل لأرشيف مضغوط من مجلد "{0}":</PublicFolderLinkShortDownloadZipHint>
+  <PublicFolderLinkZipDownload>ضغط وتحميل المجلد الحالي {0} (في ارشيف ZIP)</PublicFolderLinkZipDownload>
+  <PublicFolderLinkOverwriteWhileUpload>الكتابة الموجودة</PublicFolderLinkOverwriteWhileUpload>
+  <PublicFolderLinkOpenFolderHint>افتح المجلد</PublicFolderLinkOpenFolderHint>
+  <PublicFolderDownloadDisabledNote>ملحوظة! وكان صاحب هذا المجلد يحظر تحميل الملفات من هذا المجلد.</PublicFolderDownloadDisabledNote>
+  <PublicFolderLinkSendEmails>إرسال معلومات حول نشاط الزوار على رسائل البريد الإلكتروني</PublicFolderLinkSendEmails>
+  <PublicFolderAnonymAccessControl>صلاحية التحكم صلاحية الدخول</PublicFolderAnonymAccessControl>
+  <PublicFolderAnonymDownload>تحميل ملفات</PublicFolderAnonymDownload>
+  <PublicFolderAnonymZipDownload>تحميل المجلدات (ZIP)</PublicFolderAnonymZipDownload>
+  <PublicFolderAnonymUpload>تحميل</PublicFolderAnonymUpload>
+  <PublicFolderAnonymViewContent>عرض قائمة ملف</PublicFolderAnonymViewContent>
+  <PublicFolderNoteForUsers>ملاحظة لمستخدمي</PublicFolderNoteForUsers>
+  <PublicFolderACLNotSet>لم يتم تعيين التحكم في الوصول</PublicFolderACLNotSet>
+  <PublicFolderWarningAnonym>يوفر هذا الموقع الوصول المجهول إلى المجلد. أي مستخدم، حتى تلك التي لا يوجد لديه حساب في هذا الموقع، قد تنزيل أو تحميل الملفات عن طريق رابط عام. ارتباط الجمهور إلى المجلد يسمح لك لتحميل كل مجلد كامل (معبأة في الأرشيف) والملفات الفردية. {0} مزيد من المعلومات {1}.</PublicFolderWarningAnonym>
+  <PublicLinksShowForAllItems>تبين للجميع</PublicLinksShowForAllItems>
+  <PublicLinksShowForSelected>عرض للاختيار</PublicLinksShowForSelected>
+  
+  <MultipleFileInputMessage>ملحوظة! متصفحك يدعم اختيار عدة ملفات في وقت واحد.</MultipleFileInputMessage>
+  <UploadZipUnzipNote>يمكنك تحميل أرشيف مضغوط مع الملفات والمجلدات متعددة ومن ثم استخراج، باستخدام "{0}" الأمر في قائمة السياق.</UploadZipUnzipNote>
+  <DnDFileUploadingStatusCode>رمز الحالة</DnDFileUploadingStatusCode>
+  <DnDFileUploadingPathOrNameEmpty>لم يتم تحديد مسار وأو اسم الملف</DnDFileUploadingPathOrNameEmpty>
+  <DnDFileUploadingRemoveFromList>ازله من القائمة</DnDFileUploadingRemoveFromList>
+  <DndFileUploadingDontDropFoldersMsg>يمكنك سحب وإسقاط الملفات في الجدول أدناه. لا يمكنك إسقاط المجلدات.</DndFileUploadingDontDropFoldersMsg>
+  <DndFileUploadingAllowDropFoldersMsg>يمكنك سحب وإسقاط الملفات والمجلدات في الجدول أدناه.</DndFileUploadingAllowDropFoldersMsg>
+  <DndFileUploadingFilesSummaryInfo>عدد الملفات: {0} ({1})</DndFileUploadingFilesSummaryInfo>
+  <DropFilesHere>إسقاط الملفات تحميل</DropFilesHere>
+  
+  <FileGridDownloadColumn>تحميل ملفات</FileGridDownloadColumn>
+  <FileAttributesField>سمات</FileAttributesField>
+  <FolderCalculateSize>حساب</FolderCalculateSize>
+  <FolderRecalculateSize>حساب</FolderRecalculateSize>
+  <FolderContainsField>يحتوي على</FolderContainsField>
+  <FolderContainsFilesFolders>{0} الملفات، {1} المجلدات</FolderContainsFilesFolders>
+  <FolderCalculatingMessage>حساب</FolderCalculatingMessage>
+
+  <SearchTitle>بحث الملف. تتوفر أنماط: {0}</SearchTitle>
+  <SearchType>بحث</SearchType>
+  <SearchOnlyFiles>فقط الملفات</SearchOnlyFiles>
+  <SearchOnlyFolders>المجلدات فقط</SearchOnlyFolders>
+  <SearchBothFilesFolders>كل الملفات والمجلدات</SearchBothFilesFolders>
+  <SearchFileDetails>تفاصيل الملف</SearchFileDetails>
+  <SearchFileContent>محتوى الملف</SearchFileContent>
+  <SearchByDateFrom>من عند</SearchByDateFrom>
+  <SearchByDateTo>إلى</SearchByDateTo>
+  <SearchLocation>موقعك</SearchLocation>
+  <SearchLocationEntire>في أى مكان</SearchLocationEntire>
+  <SearchLocationCurrent>تيار</SearchLocationCurrent>
+  <SearchSearch>بحث</SearchSearch>
+  <SearchNothingFound>لم يتم العثور على شيء! يرجى تحسين معايير البحث الخاصة بك.</SearchNothingFound>
+  <SearchErrorCaption>خطأ بحث</SearchErrorCaption>
+  <SearchResultsNotComplete>انتباه! قد تكون نتائج البحث غير مكتملة حيث أن بعض المجلدات لم تفهرس بعد.</SearchResultsNotComplete>
+  <SearchRepeatOrContactAdmin>يرجى محاولة البحث مرة أخرى في وقت لاحق أو اتصل بالمسؤول.</SearchRepeatOrContactAdmin>
+  <SearchLinkToManual>الرجوع إلى {0} ويندوز بحث المساعدة {1}</SearchLinkToManual>
+  <QuerySearchByNameText>البحث عن طريق الإسم</QuerySearchByNameText>
+  <QuerySearchByConentText>من المحتوى</QuerySearchByConentText>
+  <SearchByDetailsWarning>انتباه! كنت قد حددت في الإعدادات التي ترغب في استخدام البحث عن طريق خصائص. في هذه الحالة، سيتم تنفيذ البحث من استخدام الطريقة القياسية بدلا من استخدام خدمة الفهرسة ويندوز.</SearchByDetailsWarning>
+  <SearchInSpecialFolderWarning>انتباه! للبحث لا ينطبق المجلد الحالي. إذا كنت لا تزال، وسيتم تنفيذ البحث في كافة الدلائل.</SearchInSpecialFolderWarning>
+
+  <UploadTitle>تحميل ملفات متعددة</UploadTitle>
+  <UploadSimpleTab>اساسي</UploadSimpleTab>
+  <UploadSimpleReset>إعادة تعيين</UploadSimpleReset>
+  <UploadSimpleUpload>تحميل</UploadSimpleUpload>
+  <UploadSimpleUploadFolderLabelCollapsed>مجلد تحميل</UploadSimpleUploadFolderLabelCollapsed>
+  <UploadSimpleUploadFolderButtonText>اختر مجلد</UploadSimpleUploadFolderButtonText>
+  <UploadJavaTab>جافا</UploadJavaTab>
+  <UploadJavaIgnorePaths>وضع جميع الملفات في مجلد واحد (تجاهل مسارات)</UploadJavaIgnorePaths>
+  <UploadFlashTab>فلاش</UploadFlashTab>
+  <UploadSilverlightTab>سيلفرلايت</UploadSilverlightTab>
+  <UploadPartially>بعض الملفات لا يمكن تحميلها</UploadPartially>
+  <UploadFolderNotSelectedTitle>لم يتم تحديد مجلد</UploadFolderNotSelectedTitle>
+  <UploadFolderNotSelected>الرجاء تحديد المجلد الذي سيتم تحميل الملفات ل</UploadFolderNotSelected>
+  <UploadInProgress>تحميل الملفات</UploadInProgress>
+  <UploadInvalidFormFields>ولا يجوز ان يقدم حقول النموذج مع قيم غير صالحة</UploadInvalidFormFields>
+  <UploadAjaxFailed>فشل اياكس الاتصالات</UploadAjaxFailed>
+  <UploadFilesAlreadyExists>ملف (ق) موجود بالفعل</UploadFilesAlreadyExists>
+  <UploadOverwriteFiles>سيتم الكتابة فوق الملفات الموجودة. هل ترغب في المتابعة؟</UploadOverwriteFiles>
+  <UploadOverwriteOrRenameFiles>هناك واحد أو أكثر من الملفات مع أسماء مطابقة في الدليل الذي حددته. هل تريد الكتابة فوق الملفات الموجودة؟ انقر على زر "{0}" إذا كنت تريد الكتابة فوق الملفات الموجودة بالفعل، أو "{1}" - إذا كنت ترغب في حفظ جميع الملفات (سيتم إعادة تسمية).</UploadOverwriteOrRenameFiles>
+  <UploadNotModifyExistingFiles>هناك واحد أو أكثر من الملفات مع مطابقة أسماء في الدليل الذي حددته. الملفات لا يمكن تحميلها. الرجاء إزالة الملفات الموجودة من قائمة تحميل أو إعادة تسميتها.</UploadNotModifyExistingFiles>
+  <UploadRenamedExistingFiles>هناك واحد أو أكثر من الملفات مع مطابقة أسماء في الدليل الذي حددته. سيتم إعادة تسمية الملفات مع أسماء مطابقة.</UploadRenamedExistingFiles>
+  <UploadNotAllowedTitle>لا يسمح تحميل</UploadNotAllowedTitle>
+  <UploadNotAllowedPrompt>لا يمكنك تحميل الملفات إلى هذا المجلد</UploadNotAllowedPrompt>
+
+  <UploadMobileIOSVideo>رفع فيديو. تمكين هذا الخيار إذا كنت تحتاج إلى تحميل ملف الفيديو.</UploadMobileIOSVideo>
+  <UploadMobileAurigmaLink>يرجى ملاحظة أنه يجب أن يكون Aurigma أعلى! تثبيتها على جهازك من أجل لإيداع الملفات. اضغط هنا لتثبيت Aurigma أعلى! تطبيق لتحميل الصور والفيديو.</UploadMobileAurigmaLink>
+  <UploadMobileAurigmaReady>بعد Aurigma أعلى! يتم تثبيت أو إذا كنت بالفعل قد ركبت عليه، اضغط على "تحميل" الزر أدناه.</UploadMobileAurigmaReady>
+  <UploadMobileAurigmaFilePrefix>بادئة عن الملفات التي تم تحميلها</UploadMobileAurigmaFilePrefix>
+  <UploadMobileResult>تحميل النتيجة:</UploadMobileResult>
+  <UploadMobileUrlPlaceHolder>أدخل عنوان URL هنا</UploadMobileUrlPlaceHolder>
+  <UploadMobileFileNamePlaceHolder>أدخل اسم ملف جديد هنا</UploadMobileFileNamePlaceHolder>
+  <UploadBrowseLabel>تصفح...</UploadBrowseLabel>
+  
+  <MobileToolTipsCaption>هل تعرف أن ...</MobileToolTipsCaption>
+  <MobileToolTipsNextButton>النصيحة التالية</MobileToolTipsNextButton>
+  <MobileToolTipsIKnowButton>أنا أعلم أنه</MobileToolTipsIKnowButton>
+  <MobileToolTipsHideButton>لا تظهر أبدا</MobileToolTipsHideButton>
+  <MobileToolTipsMultiSelection>لتحديد عدة ملفات أو مجلدات، يجب تمكين وضع متعددة الاختيار عن طريق النقر على {0} &lt;/b&gt; زر &lt;ب&gt;. اضغط عليها مرة أخرى للخروج من وضع متعددة الاختيار.</MobileToolTipsMultiSelection>
+  <MobileToolTipsSlideToRemove>يمكنك الانزلاق من اليمين إلى اليسار على أي من عناصر القائمة لحذفها. سوف يتم عرض زر إزالة المحول على الجزء العلوي من عنصر القائمة.</MobileToolTipsSlideToRemove>
+  <MobileToolTipsTapAndHoldForMenu>انقر مع الاستمرار على أي من عناصر القائمة لإظهار قائمة السياق. نفس السياق القائمة المعروضة من قبل الصنبور على زر 'الكشف'</MobileToolTipsTapAndHoldForMenu>
+  <MobileToolTipsDoubleTapForPreview>نقرة واحدة على ملف لتحديده، انقر نقرا مزدوجا لمعاينة أو تنزيله. نقرة واحدة على المجلد لفتحه.</MobileToolTipsDoubleTapForPreview>
+  <MobileToolTipsPullDownToRefresh>هدم قائمة لإعادة تحميل انها المحتويات.</MobileToolTipsPullDownToRefresh>
+  <MobileToolTipsPinchToScale>يمكنك استخدام "قرصة" لفتة للتكبير في وصورا التصغير.</MobileToolTipsPinchToScale>
+  <MobileToolTipsTapToHideBars>انقر في أي مكان على لوحة صورة للتبديل أشرطة الأدوات.</MobileToolTipsTapToHideBars>
+  <MobileToolTipsSlideLeftRightToNext>تبديل الصور مع لفتة الشرائح.</MobileToolTipsSlideLeftRightToNext>
+
+  <DownloadToCloudMobileTip>نقرة واحدة لتحديد مجلد، انقر نقرا مزدوجا لفتحه.</DownloadToCloudMobileTip>
+  
+  <UploadTotalMaxSizeMessage>ملحوظة! يجب أن لا يتجاوز الحد الأقصى لحجم كل الملفات التي تم تحميلها {0}.</UploadTotalMaxSizeMessage>
+  <UploadOneFileMaxSizeMessage>ملحوظة! يجب أن لا يتجاوز الحد الأقصى لحجم كل ملف مرفوع {0}.</UploadOneFileMaxSizeMessage>
+  <UploadUnlimitedSizeMessage>ملحوظة! حجم الملفات التي يتم تحميلها هو غير محدود.</UploadUnlimitedSizeMessage>
+  <SimpleUploadSetFileNameNote>ملاحظة 2! بعد اختيار ملف يمكنك تعديل اسم أن الملف سيكون بعد التحميل</SimpleUploadSetFileNameNote>
+
+  <AnonymousUploadTitle>تحميل الملفات إلى هذا المجلد</AnonymousUploadTitle>
+  <AnonymousUploadDescription>يمكنك تحميل الملفات إلى هذا المجلد. انقر فوق الزر "استعراض" أدناه واختيار الملفات.</AnonymousUploadDescription>
+  <AnonymousUploadOverwriteHint>إذا كان الملف الذي تم تحميله مسبقا، وسيتم استبداله.</AnonymousUploadOverwriteHint>
+  <AnonymousUploadShowUploadHint>عرض استمارة تحميل</AnonymousUploadShowUploadHint>
+  <AnonymousUploadHideUploadHint>شكل إخفاء تحميل</AnonymousUploadHideUploadHint>
+  <AnonymousUploadNewFolderNameHint>في الحقل أدناه يمكنك تحديد اسم دليل فرعي (سيتم إنشاء المجلد إذا لم يكن موجودا) التي سيتم تحميل الملفات:</AnonymousUploadNewFolderNameHint>
+  <AnonymousUploadCompleteTitle>تحميل إلى المجلد {0} اكتمال</AnonymousUploadCompleteTitle>
+  <AnonymousUploadExistsFilesMessage>لم يتم تحميل الملف (s) التالية لملف (s) مع نفس اسم (أسماء) موجودة بالفعل: {0}.</AnonymousUploadExistsFilesMessage>
+  <AnonymousUploadOwnersNote>نلاحظ من مالك المجلد</AnonymousUploadOwnersNote>
+  <AnonymousDownloadPageTitle>تحميل الملف</AnonymousDownloadPageTitle>
+  <AnonymousDownloadFileHint>تحميل الملف</AnonymousDownloadFileHint>
+  <AnonymousUploadPageTitle>تحميل إلى مجلد</AnonymousUploadPageTitle>
+  <AnonymousPublicFolderPageTitle>المجلد العام</AnonymousPublicFolderPageTitle>
+  <AnonymousLoginAccessUserFailure>قمت بتسجيل الدخول إلى الحساب الذي لم يكن لديك الوصول إلى المورد. يرجى إدخال بيانات أخرى من أجل الوصول الخاصة بك. إذا كنت لا تعرف بها، يرجى الاتصال على صاحب صلة العام أو المسؤول.</AnonymousLoginAccessUserFailure>
+  <ProgressGettingAnonymLink>إنشاء رابط العام</ProgressGettingAnonymLink>
+  <ProgressGettingAnonymLinks>الحصول على وصلات غير معروفة</ProgressGettingAnonymLinks>
+  <ProgressGettingBoxViewLink>الحصول على صندوق مشاهدة الرابط</ProgressGettingBoxViewLink>
+  <AutodeskScriptNotIncludedMessage>لا يمكن تحميل البرنامج النصي أوتوديسك عارض</AutodeskScriptNotIncludedMessage>
+  <ProgressUninitializeAutodeskViewer>إغلاق أوتوديسك عارض</ProgressUninitializeAutodeskViewer>
+  <ProgressGettingAutodeskViewLink>الحصول على أوتوديسك عرض معلومات</ProgressGettingAutodeskViewLink>
+  <AnonymousChangeLanguageHint>اختيار اللغة</AnonymousChangeLanguageHint>
+  <AnonymousUpLinkHint>العودة إلى المجلد الأصل</AnonymousUpLinkHint>
+  <AnonymousPasswordDescription>المجلد محمي بكلمة مرور</AnonymousPasswordDescription>
+  <AnonymousPasswordIncorrectMessage>كلمة المرور غير صحيحة</AnonymousPasswordIncorrectMessage>
+  <AnonymousErrorTitle>خطأ ارتباط العام</AnonymousErrorTitle>
+  <AnonymousErrorNotFound>رابط العام "{0}" لم يتم العثور!</AnonymousErrorNotFound>
+  <AnonymousErrorAccessDenied>لم يكن لديك إذن لاستخدام الرابط العامة "{0}"</AnonymousErrorAccessDenied>
+  <AnonymousErrorFileNotFound>الرابط العامة "{0}" يشير إلى ملف غير موجود أو مجلد أو تم رفض NTFS الوصول للقراءة</AnonymousErrorFileNotFound>
+  <AnonymousErrorUnknownLinkType>الرابط العامة "{0}" لم يتم العثور على</AnonymousErrorUnknownLinkType>
+  <AnonymousSendEmailSubject>آخر نشاط المجلد العمومي</AnonymousSendEmailSubject>
+  <AnonymousSendEmailUploadBody>تم تحميلها من الملفات التالية إلى المجلد العمومي {0}: {1}.</AnonymousSendEmailUploadBody>
+  <AnonymousSendEmailDownloadBody>تم تحميل الملف {0} من المجلد العمومي {1}.</AnonymousSendEmailDownloadBody>
+  <AnonymousSendEmailZipDownloadBody>تم تحميل المحتوى كله من المجلد العمومي {0} في أرشيف ZIP.</AnonymousSendEmailZipDownloadBody>
+  <AnonymousViewLinksButton>مشاهدة الروابط</AnonymousViewLinksButton>
+  <AnonymousViewLinksHint>لمشاهدة الروابط جمهور القائمة</AnonymousViewLinksHint>
+  <AnonymousViewLinksWindowTitle>الروابط العامة</AnonymousViewLinksWindowTitle>
+  <AnonymousViewLinksDateCreatedColumn>تاريخ الإنشاء</AnonymousViewLinksDateCreatedColumn>
+  <AnonymousViewLinksDateExpiredColumn>تاريخ إنتهاء الصلاحية</AnonymousViewLinksDateExpiredColumn>
+  <AnonymousViewLinksPermissionColumn>الإذن</AnonymousViewLinksPermissionColumn>
+  <AnonymousViewLinksDownloadedColumn>عدد التحميلات يقم</AnonymousViewLinksDownloadedColumn>
+  <ProgressDeletingAnonymousLink>حذف رابط العام</ProgressDeletingAnonymousLink>
+  <ProgressSavingAnonymousLink>إنقاذ صلة العام</ProgressSavingAnonymousLink>
+  <AnonymousEditLinkWindowTitle>تعديل رابط العام ل "{0}"</AnonymousEditLinkWindowTitle>
+  <AnonymousEditLinkShowUrl>مشاهدة الرابط</AnonymousEditLinkShowUrl>
+  <AnonymousEditLinkNotFound>لم يتم العثور على صلة العام أو فترة صلاحيته قد انتهت صلاحيتها</AnonymousEditLinkNotFound>
+
+  <AnonymousLinkSendViaButton>ترسل عبر...</AnonymousLinkSendViaButton>
+  <AnonymousLinkSendViaEmailItem>البريد الإلكتروني...</AnonymousLinkSendViaEmailItem>
+  <AnonymousLinkSendButton>إرسال عبر البريد الإلكتروني ...</AnonymousLinkSendButton>
+  <AnonymousLinkSendSubject>إدارة الملفات على شبكة الإنترنت لينك العامة</AnonymousLinkSendSubject>
+
+  <AnonymousLinkAdvOptTitle>معلمات إضافية</AnonymousLinkAdvOptTitle>
+  <AnonymousLinkViewTypeButton>مشاهدة الرابط</AnonymousLinkViewTypeButton>
+  <AnonymousLinkViewTypeDefault>ممتلئ</AnonymousLinkViewTypeDefault>
+  <AnonymousLinkViewTypeShort>قصيرة</AnonymousLinkViewTypeShort>
+
+  <AnonymousLinkShowCommentsLabel>عرض وصف والملصقات وتعليق</AnonymousLinkShowCommentsLabel>
+  <AnonymousLinkShowCommentsShort>مشاهدة تعليقات</AnonymousLinkShowCommentsShort>
+
+  <QRCodeButton>رمز الاستجابة السريعة</QRCodeButton>
+
+  <AnonymousLinkLimitedAccessTitle>وصول محدود</AnonymousLinkLimitedAccessTitle>
+  <AnonymousLinkLimitAccessCheckBox>الحد من الوصول فقط إلى المستخدمين المصادق عليهم محدد</AnonymousLinkLimitAccessCheckBox>
+  <AnonymousLinkLimitAccessTextArea>اكتب أسماء المستخدمين أو رسائل البريد الإلكتروني (مفصولة بفواصل)</AnonymousLinkLimitAccessTextArea>
+  <AnonymousLinkLimitAccessSendCheckBox>إرسال إخطارات للمستخدمين المحدد</AnonymousLinkLimitAccessSendCheckBox>
+  <AnonymousLinkLimitAccessPersMsgLabel>رسالة شخصية (اختياري)</AnonymousLinkLimitAccessPersMsgLabel>
+  <AnonymousLinkLimitAccessPassAndUsersMsg>لقد حددت كلمة المرور الخاصة بك والمستخدمين في نفس الوقت للوصول إلى الرابط. يرجى تحديد شيء واحد.</AnonymousLinkLimitAccessPassAndUsersMsg>
+  <AnonymousLinkLimitAccessUsersNotFound>المستخدمين:
+    {0}
+    لا يوجد</AnonymousLinkLimitAccessUsersNotFound>
+  <AnonymousLinkLimitAccessEmailsNotFound>رسائل البريد الإلكتروني:
+    {0}
+    لا يوجد</AnonymousLinkLimitAccessEmailsNotFound>
+  <AnonymousLinkLimitAccessUsersEmailsNotFound>المستخدمين:
+    {0}
+    ورسائل البريد الإلكتروني:
+    {1}
+    لا يوجد</AnonymousLinkLimitAccessUsersEmailsNotFound>
+
+  <AnonymousLinkUnableToCreate>غير قادر على إنشاء رابط مجهول</AnonymousLinkUnableToCreate>
+  <AnonymousLinkShortUrlLabel>يرجى النقر على أيقونة التحديث (في أسفل اليمين) إلى الحصول على وصلة قصيرة</AnonymousLinkShortUrlLabel>
+  <AnonymousLinkShortUrlUpdate>الحصول على أو تحديث ارتباط القصير</AnonymousLinkShortUrlUpdate>
+  <AnonymousLinkLongUrlNotSpecified>لم يتم تحديد عنوان URL الطويل</AnonymousLinkLongUrlNotSpecified>
+
+  <ClientFileOrDirectoryAlreadyExists>ملف أو دليل بهذا الاسم موجود مسبقا</ClientFileOrDirectoryAlreadyExists>
+  <ClientPermissionsAllowTypes>الأذونات الحالية تسمح هذه العملية فقط مع أنواع الملفات التالية {0}</ClientPermissionsAllowTypes>
+  <ClientPermissionsDenyTypes>الأذونات الحالية تحظر هذه العملية مع أنواع الملفات التالية {0}</ClientPermissionsDenyTypes>
+  <OfficeApplicationNotFoundAlert>تطبيق Office غير موجود. فتح ملف يدويا باستخدام ارتباط في مربع النص.</OfficeApplicationNotFoundAlert>
+  <OfficeAnonymousEditPublicLinkError>غير قادر على إنشاء رابط العام لمكتب وثيقة مفتوحة مجهولة.</OfficeAnonymousEditPublicLinkError>
+
+  <GoogleOWAViewLinkMessage>لعرض المستند انقر على الرابط أدناه:</GoogleOWAViewLinkMessage>
+  <ZohoEditLinkMessage>لتحرير المستند انقر الرابط أدناه:</ZohoEditLinkMessage>
+  <PixlrEditLinkMessage>لتحرير الصورة انقر الرابط أدناه:</PixlrEditLinkMessage>
+  <PixlrNewImageCreateTitle>خلق صورة جديدة مع أو Pixlr</PixlrNewImageCreateTitle>
+  <PixlrNewImageLinkMessage>لخلق صورة جديدة، انقر على الرابط أدناه:</PixlrNewImageLinkMessage>
+
+  <DownloadTitle>تحميل ملفات متعددة</DownloadTitle>
+  <DownloadSimpleTab>اساسي</DownloadSimpleTab>
+  <DownloadJavaTab>جافا</DownloadJavaTab>
+  <DownloadIEPrevent>انترنت اكسبلورر يمنع التحميل التلقائي</DownloadIEPrevent>
+  <DownloadIEClickHere>إضغط هنا للتحميل</DownloadIEClickHere>
+  <DownloadIEArchiveReady>الأرشيف "{0}" مع الملفات المحددة تم إنشاء وجاهز للتحميل</DownloadIEArchiveReady>
+  <DownloadIECaption>تحميل جاهز</DownloadIECaption>
+
+  <SettingsTitle>إعدادات</SettingsTitle>
+  <SettingsLanguage>لغة</SettingsLanguage>
+  <SettingsLogOutRequired>سيتم تطبيق التغييرات الجديدة بعد خروج أو إعادة تشغيل المتصفح!</SettingsLogOutRequired>
+  <ThemeTitle>غير الخلفية</ThemeTitle>
+  <SettingsTheme>اختيار موضوع</SettingsTheme>
+  <ThemeDefaultTitle>افتراضي موضوع</ThemeDefaultTitle>
+  <ThemeGrayTitle>الرمادي موضوع</ThemeGrayTitle>
+  <ThemeAccessTitle>الوصول الموضوع</ThemeAccessTitle>
+
+  <ChangeUserPasswordTitle>تغيير كلمة المرور للمستخدم</ChangeUserPasswordTitle>
+  <ChangeUserPasswordOldPassword>كلمة المرور القديمة</ChangeUserPasswordOldPassword>
+  <ChangeUserPasswordNewPassword>كلمة السر الجديدة</ChangeUserPasswordNewPassword>
+  <ChangeUserPasswordRepeatNewPassword>كلمة مرور جديدة كرر</ChangeUserPasswordRepeatNewPassword>
+  <ChangeUserPasswordPasswordsNotMatch>كلمات المرور غير متطابقة.</ChangeUserPasswordPasswordsNotMatch>
+  <ChangeUserPasswordSuccessMessage>تم تغيير كلمة المرور.</ChangeUserPasswordSuccessMessage>
+  <ChangeUserPasswordInvalidMessage>رمز مرور خاطئ.</ChangeUserPasswordInvalidMessage>
+
+  <ChangeUserEmailTitle>تغيير المستخدم البريد الإلكتروني</ChangeUserEmailTitle>
+  <ChangeUserEmailEmail>البريد الإلكتروني</ChangeUserEmailEmail>
+  <ChangeUserEmailSuccessMessage>تم تغيير البريد الإلكتروني.</ChangeUserEmailSuccessMessage>
+
+  <UserHelpTitle>مساعدة المستخدم</UserHelpTitle>
+
+  <LicenseTitle>معلومات الترخيص</LicenseTitle>
+  <LicenseTrial>غير مسجل إصدار تقييم لمدة 30 يوما</LicenseTrial>
+  <LicensePrompt>نسخة مرخصة {0} للمستخدمين الاعتماد: {1} {0} تاريخ الشراء: {2} {0}</LicensePrompt>
+  <LicenseFreeUpgradeMessage>لا يزال لديك {0} يوما لترقيات مجانية والدعم.</LicenseFreeUpgradeMessage>
+  <LicenseCheckMessage>لقد مر أكثر من عام من تاريخ الشراء. لاستخدام هذا الإصدار يجب تجديد الاشتراك أو الرجوع إلى إصدار أقدم. يمكنك التحقق من الترخيص الخاص بك والعثور على الإصدارات المتاحة في &lt;a href='{0}' target='_blank'&gt; تحقق صفحة الترخيص &lt;/A&gt;</LicenseCheckMessage>
+  
+  <ViewPopupBlocked>تم حظر جديد نافذة من قبل مانع النوافذ المنبثقة</ViewPopupBlocked>
+  
+  <LoginTwoFactorTitle>التحقق من خطوتين</LoginTwoFactorTitle>
+  <LoginTitle>تسجيل الدخول</LoginTitle>
+  <LoginRemember>تذكرني في المرة القادمة</LoginRemember>
+  <LoginUISelect>جهة تعامل</LoginUISelect>
+  <LoginUIStandard>اساسي</LoginUIStandard>
+  <LoginUITouch>التليفون المحمول</LoginUITouch>
+  <LoginLanguage>لغة</LoginLanguage>
+  <LoginLogin>تسجيل الدخول</LoginLogin>
+  <LoginFailure>وكانت محاولة تسجيل الدخول الخاصة بك لم تكن ناجحة.</LoginFailure>
+  <LoginBlocked>تم حظر الحساب. انتظر {0} دقيقة في محاولة مرة أخرى.</LoginBlocked>
+  <LoginNotActivated>حسابك غير مفعل.</LoginNotActivated>
+  <LoginResendActivation>إذا لم يتم استلام رسالة مع رمز التفعيل لفترة طويلة، انقر على {0} رابط لإعادة إرسال رمز التفعيل.</LoginResendActivation>
+  <LoginResendActivationLink>إرسال رمز التفعيل</LoginResendActivationLink>
+  <LoginResendActivationCode>انقر على {0} رابط لإعادة إرسال رمز التفعيل.</LoginResendActivationCode>
+  
+  <ActivateAccountOk>حساب تفعيلها بنجاح!</ActivateAccountOk>
+  <ActivateAccountResultLabel>نتيجة تفعيل</ActivateAccountResultLabel>
+  <ActivateAccountErrorOnlyFormsAuth>ويمكن استخدام تنشيط الحساب فقط مع مصادقة النماذج</ActivateAccountErrorOnlyFormsAuth>
+  <ActivateAccountErrorNotRequired>يتم تعطيل تفعيل الحساب في إعدادات التطبيق. يتم تنشيط الحساب تلقائيا بعد التسجيل.</ActivateAccountErrorNotRequired>
+  <ActivateAccountErrorAlreadyActivated>حساب تفعيلها بالفعل</ActivateAccountErrorAlreadyActivated>
+  <ActivateAccountErrorInvalidCode>رمز التفعيل غير صالح</ActivateAccountErrorInvalidCode>
+  <ActivateAccountErrorAccountNotFound>الحساب غير موجود</ActivateAccountErrorAccountNotFound>
+  <ActivateAccountErrorLinkBroken>يتم تقسيم رابط التفعيل</ActivateAccountErrorLinkBroken>
+  <ActivateAccountReturnToLogin>العودة إلى صفحة تسجيل الدخول</ActivateAccountReturnToLogin>
+  
+  <LoginRender>يجعل</LoginRender>
+  
+  <LogoutTitle>الويب مدير الملفات الخروج</LogoutTitle>
+  <LogoutSessionEnded>انتهت الدورة الحالية</LogoutSessionEnded>
+  <LogoutCloseWindow>أغلق النافذة</LogoutCloseWindow>
+  <LogoutEnterAgain>تسجيل الدخول مرة أخرى</LogoutEnterAgain>
+  <LogoutClosingBrowserRequired>انتباه! أي شخص يمكن الدخول من خلال حسابك! إذا كنت تستخدم جهاز عام مشترك، ثم يجب إغلاق نافذة المتصفح (وليس فقط علامة التبويب) لمسح المصادقة في المتصفح الخاص بك! لمتصفح فايرفوكس يمكنك مسح المصادقة على القوائم: أدوات&gt; واضح بالاستياء من التاريخ ...-&gt; التفاصيل-&gt; تحقق نشط Logins-&gt; الصحافة واضحة الآن.</LogoutClosingBrowserRequired>
+  <RecoverPasswordTitle>إستعادة كلمة المرور</RecoverPasswordTitle>
+  <RecoverPasswordEmailPassword>إرسال كلمة المرور عبر البريد الإلكتروني</RecoverPasswordEmailPassword>
+  <RecoverPasswordErrorInvalidUserName>اسم المستخدم غير صالح.</RecoverPasswordErrorInvalidUserName>
+  <RecoverPasswordErrorNoEmail>هذا المستخدم ليس لديه عنوان بريد إلكتروني محدد.</RecoverPasswordErrorNoEmail>
+  <RecoverPasswordErrorSendEmail>حدث خطأ أثناء إرسال البريد الإلكتروني الخاص بك.</RecoverPasswordErrorSendEmail>
+  <RecoverPasswordSuccess>تم إرسال كلمة المرور الخاصة بك إلى عنوان البريد الإلكتروني الخاص بك.</RecoverPasswordSuccess>
+
+  <RecoverUserNameTitle>استعادة اسم</RecoverUserNameTitle>
+  <RecoverUserEmailName>إرسال اسم عبر البريد الإلكتروني</RecoverUserEmailName>
+  <RecoverUserNameErrorInvalidEmail>البريد الإلكتروني للمستخدم غير صالح.</RecoverUserNameErrorInvalidEmail>
+  <RecoverUserNameErrorNoEmail>عنوان البريد الإلكتروني غير موجود.</RecoverUserNameErrorNoEmail>
+  <RecoverUserNameSuccess>وقد تم ارسال اسمك عنوان البريد الإلكتروني الخاص بك.</RecoverUserNameSuccess>
+
+  <ChangeEmailTitle>تغيير الايميل</ChangeEmailTitle>
+  <ChangeEmailEmail>بريد إلكتروني جديد</ChangeEmailEmail>
+  <ChangeEmailSubmit>عرض</ChangeEmailSubmit>
+  <ChangeEmailStatusSuccess>تم تغيير البريد الإلكتروني</ChangeEmailStatusSuccess>
+
+  <RegisterTitle>تسجيل</RegisterTitle>
+  <RegisterEmail>البريد الإلكتروني</RegisterEmail>
+  <RegisterExtraInfo>معلومات اضافية</RegisterExtraInfo>
+  <RegisterCaptcha>أدخل النص الذي تراه في الصورة أدناه</RegisterCaptcha>
+  <RegisterSubmit>عرض</RegisterSubmit>
+  <RegisterErrorPasswordNotMatch>كلمات المرور غير متطابقة.</RegisterErrorPasswordNotMatch>
+  <RegisterErrorUserExists>ويستخدم هذا اسم المستخدم أو عنوان البريد الإلكتروني بالفعل.</RegisterErrorUserExists>
+  <RegisterErrorCaptchaInvalid>لم يتم إدخال نص الصورة بشكل صحيح</RegisterErrorCaptchaInvalid>
+  <RegisterSuccess>تمت إضافة المستخدم الجديد.</RegisterSuccess>
+  <RegisterActivationSent>تم إرسال رمز التفعيل إلى بريدك الإلكتروني.</RegisterActivationSent>
+  <RegisterActivationCheckEmail>يرجى مراجعة صندوق البريد الخاص بك (المجلد غير المرغوب فيه خصيصا) واتبع التعليمات الواردة في البريد الإلكتروني.</RegisterActivationCheckEmail>
+  
+  <FolderGridUserPermissionsColumn>وصول المستخدمين</FolderGridUserPermissionsColumn>
+  <FolderGridGroupPermissionsColumn>وصول المجموعات</FolderGridGroupPermissionsColumn>
+
+  <LoginLinkText>تسجيل الدخول</LoginLinkText>
+  <RecoverPasswordLinkText>هل نسيت كلمة المرور؟</RecoverPasswordLinkText>
+  <RecoverUserNameLinkText>نسيت اسم؟</RecoverUserNameLinkText>
+  <RegisterLinkText>تسجيل</RegisterLinkText>
+  <ChangeEmail>تغيير الايميل</ChangeEmail>
+  <LoginMobileVersionLinkText>النسخة المحمولة (معظم الهواتف الذكية وTouchpads)</LoginMobileVersionLinkText>
+
+  <FileIsNotZipArchive>الملف {0} ليس أرشيف ZIP</FileIsNotZipArchive>
+
+  <FileModificationsAuthor>مؤلف</FileModificationsAuthor>
+  <FileModificationsHistory>عرض التاريخ</FileModificationsHistory>
+  <FileModificationsWindowTitle>إدخال تعديلات على ملف "{0}"</FileModificationsWindowTitle>
+  <FileModificationsTypeCreated>خلقت</FileModificationsTypeCreated>
+  <FileModificationsTypeModified>تم التعديل</FileModificationsTypeModified>
+  <FileModificationsTypeRenamed>إعادة تسمية</FileModificationsTypeRenamed>
+  <FileModificationsTypeRestored>رمم</FileModificationsTypeRestored>
+  <FileModificationsTypeDeleted>تم الحذف</FileModificationsTypeDeleted>
+
+  <ChangingReadOnlyProgressMessage>تغيير السمة الوحيدة قراءة</ChangingReadOnlyProgressMessage>
+
+  <ImageViewerWindowTitle>عارض الصور [{0}]</ImageViewerWindowTitle>
+  <ImageViewerLoadingMessage>تحميل صورة المشاهد</ImageViewerLoadingMessage>
+  <ImageViewerLoadingImageMessage>تحميل الصور</ImageViewerLoadingImageMessage>
+  <ImageViewerFirstImageTip>الصورة الأولى</ImageViewerFirstImageTip>
+  <ImageViewerPreviousImageTip>الصورة السابقة</ImageViewerPreviousImageTip>
+  <ImageViewerRefreshTip>قائمة الصور على تحديث</ImageViewerRefreshTip>
+  <ImageViewerNextImageTip>الصورة التالية</ImageViewerNextImageTip>
+  <ImageViewerLastImageTip>الصورة الأخيرة</ImageViewerLastImageTip>
+  <ImageViewerRunSlideShow>الصور تشغيل عرض الشرائح</ImageViewerRunSlideShow>
+  <ImageViewerStopSlideShow>وقف عرض شرائح الصور</ImageViewerStopSlideShow>
+  <ImageViewerImageSimpleInfo>{0} / {1}، {2} ({3})</ImageViewerImageSimpleInfo>
+  <ImageViewerImageLoadErrorMessage>لم يتم العثور على صورة أو لا يمكن عرضها</ImageViewerImageLoadErrorMessage>
+  <ImageViewerShowImageSizeOfWindow>صورة تظهر مع الحجم الحقيقي</ImageViewerShowImageSizeOfWindow>
+  <ImageViewerShowRealImageSize>اضغط للتكبير</ImageViewerShowRealImageSize>
+
+  <PasswordExpiresTitle>انتهاء كلمة المرور</PasswordExpiresTitle>
+  <PasswordExpiresMessage>انتهاء صلاحية كلمة المرور الخاصة بك بعد {0} يوم (s)!</PasswordExpiresMessage>
+  <PasswordExpiredMessage>انتهت كلمة المرور الخاصة بك.</PasswordExpiredMessage>
+  <PasswordChangeMessage>لتغيير كلمة المرور، حدد {0} {1} -&gt; {2} {3} على شريط الأدوات.</PasswordChangeMessage>
+
+  <UnzipContentTotalFiles>إجمالي الملفات: {0} ({1})</UnzipContentTotalFiles>
+
+  <VideoConversionJobNotFound>
+    غير قادر العثور على عملية التحويل المحدد.
+    أسباب محتملة:
+    الانتهاء 1. التحويل منذ وقت طويل، وتمت إزالة المعلومات حول هذه المهمة.
+    2. إنهاء عملية التحويل بشكل غير طبيعي.
+  </VideoConversionJobNotFound>
+  <VideoConversionUtilityNotFound>غير قادر فائدة الاكتشاف لتنفيذ العملية المطلوبة: {0}</VideoConversionUtilityNotFound>
+  <!-- The current security principal "{0}" has insufficiant permissions to executable file "{1}".-->
+  <VideoConversionUtilityInsufficientPermissions>المستخدم الحالي وصول "{0}" تم رفض إلى ملف قابل للتنفيذ "{1}".</VideoConversionUtilityInsufficientPermissions>
+  <VideoConversionOperationCancelled>تم إلغاء العملية</VideoConversionOperationCancelled>
+  <VideoConversionUtilityFailed>إنهاء أداة تحويل بشكل غير طبيعي</VideoConversionUtilityFailed>
+  <VideoConversionOutputFileBusy>يتم استخدام ملف الإخراج بواسطة عملية تحويل أخرى</VideoConversionOutputFileBusy>
+
+  <VideoConvertWindowValidatorPositiveInt>يجب أن يكون عدد صحيح موجب</VideoConvertWindowValidatorPositiveInt>
+  <VideoConvertWindowTitle>تحويل الفيديو</VideoConvertWindowTitle>
+  <VideoConvertWindowInputFile>ملف الإدخال</VideoConvertWindowInputFile>
+  <VideoConvertWindowOutputFile>ملف إلاخراج</VideoConvertWindowOutputFile>
+  <VideoConvertWindowOutputFormat>تنسيق الإخراج</VideoConvertWindowOutputFormat>
+  <VideoConvertWindowBitrate>معدل البت (كيلوبت في الثانية)</VideoConvertWindowBitrate>
+  <VideoConvertWindowFrameResolution>قرار الإطار</VideoConvertWindowFrameResolution>
+  <VideoConvertWindowDAR>نسبة الارتفاع عرض</VideoConvertWindowDAR>
+  <VideoConvertWindowPAR>نسبة الارتفاع بكسل</VideoConvertWindowPAR>
+  <VideoConvertWindowResize>تغيير</VideoConvertWindowResize>
+  <VideoConvertWindowProfile>الملف الشخصي</VideoConvertWindowProfile>
+  <VideoConvertWindowWidth>عرض</VideoConvertWindowWidth>
+  <VideoConvertWindowHeight>ارتفاع</VideoConvertWindowHeight>
+  <VideoConvertWindowExtractDetailsProgressMsg>استخراج تفاصيل الفيديو</VideoConvertWindowExtractDetailsProgressMsg>
+  <VideoConvertWindowOutputFileExistsTitle>يوجد ملف الإخراج</VideoConvertWindowOutputFileExistsTitle>
+  <VideoConvertWindowOutputFileExistsMsg>ملف الإخراج موجود بالفعل. سيتم الكتابة عليه.</VideoConvertWindowOutputFileExistsMsg>
+  <VideoConvertWindowPrepareToConvert>تستعد لتحويل الفيديو</VideoConvertWindowPrepareToConvert>
+  <VideoConvertWindowOutputFileMatchInputFile>اسم الملف الناتج مباريات اسم ملف الإدخال</VideoConvertWindowOutputFileMatchInputFile>
+
+  <VideoConvertProgressWindowTitle>تحويل الفيديو</VideoConvertProgressWindowTitle>
+  <VideoConvertProgressWindowInputFile>ملف الإدخال</VideoConvertProgressWindowInputFile>
+  <VideoConvertProgressWindowOutputFile>ملف إلاخراج</VideoConvertProgressWindowOutputFile>
+  <VideoConvertProgressWindowStatus>الحالة</VideoConvertProgressWindowStatus>
+  <VideoConvertProgressWindowStatusTerminating>تنتهي</VideoConvertProgressWindowStatusTerminating>
+  <VideoConvertProgressWindowStatusPreparing>خطة</VideoConvertProgressWindowStatusPreparing>
+  <VideoConvertProgressWindowStatusProgress>الخطوة {0} من {1}</VideoConvertProgressWindowStatusProgress>
+  <VideoConvertProgressWindowStatusDone>فعله</VideoConvertProgressWindowStatusDone>
+
+  <PlayHtml5VideoNotSupported>متصفحك لا يدعم عنصر الفيديو HTML 5.</PlayHtml5VideoNotSupported>
+  <PlayHtml5VideoPlayFailed>فشل تشغيل الفيديو</PlayHtml5VideoPlayFailed>
+  <PlayHtml5AudioPlayFailed>تشغيل الصوت فشلت</PlayHtml5AudioPlayFailed>
+  <PlayHtml5AudioTitle>عنوان</PlayHtml5AudioTitle>
+  <PlayHtml5AudioNotSupported>متصفحك لا يدعم عنصر الصوت HTML 5.</PlayHtml5AudioNotSupported>
+  <PlayHtml5AudioArtist>فنان</PlayHtml5AudioArtist>
+  <PlayHtml5AudioAlbum>ألبوم</PlayHtml5AudioAlbum>
+  <PlayHtml5AudioYear>عام</PlayHtml5AudioYear>
+  <PlayHtml5AudioDuration>المدة الزمنية</PlayHtml5AudioDuration>
+  <PlayHtml5AudioBitrate>معدل البت</PlayHtml5AudioBitrate>
+  <PlayHtml5AudioVolume>الصوت</PlayHtml5AudioVolume>
+
+  <!-- Root title -->
+  <RootTitle>جذر</RootTitle>
+
+  <!-- Recent feature keys -->
+  <RecentRootTitle>الأخيرة</RecentRootTitle>
+  <RecentDeleteOnePrompt>هل أنت متأكد أنك تريد حذف "{0}" من البنود الخاصة بك الأخيرة؟</RecentDeleteOnePrompt>
+  <RecentDeleteManyPrompt>هل أنت متأكد أنك تريد حذف هذه {0} بنود من البنود الخاصة بك الأخيرة؟</RecentDeleteManyPrompt>
+  <RecentPathNotExist>المسار الأخير "{0}" غير موجود أو تم رفض الوصول</RecentPathNotExist>
+  <RecentAllWithoutGroupingTitle>كل ث / س تجميع</RecentAllWithoutGroupingTitle>
+  <RecentEditGroupTitle>تحرير</RecentEditGroupTitle>
+  <RecentViewGroupTitle>شوهد</RecentViewGroupTitle>
+  <RecentDownloadGroupTitle>تحميلها</RecentDownloadGroupTitle>
+  <RecentUploadGroupTitle>تم تحميلها</RecentUploadGroupTitle>
+  <RecentCreateGroupTitle>خلقت</RecentCreateGroupTitle>
+
+  <!-- Trash feature keys -->
+  <TrashRootTitle>قمامة، يدمر، يهدم</TrashRootTitle>
+  <TrashLabelDateDeleted>تاريخ حذف</TrashLabelDateDeleted>
+  <TrashDeleteOnePrompt>هل أنت متأكد أنك تريد حذف بشكل دائم "{0}" من سلة المهملات؟</TrashDeleteOnePrompt>
+  <TrashDeleteManyPrompt>هل أنت متأكد أنك تريد حذف هذه {0} العناصر من المهملات نهائيا؟</TrashDeleteManyPrompt>
+  <TrashEmptyTrashLabel>سلة مهملات فارغة</TrashEmptyTrashLabel>
+  <TrashRestoreSelectedLabel>استعادة</TrashRestoreSelectedLabel>
+  <TrashRestoreAllLabel>استعادة كل</TrashRestoreAllLabel>
+  <TrashEmptyTrashPrompt>هل أنت متأكد أنك تريد إفراغ سلة المهملات؟</TrashEmptyTrashPrompt>
+  <TrashRestoreAllPrompt>هل أنت متأكد أنك تريد استعادة كافة العناصر من سلة المهملات؟</TrashRestoreAllPrompt>
+  <TrashProgressRestoring>التعافي من سلة المهملات</TrashProgressRestoring>
+  <TrashFolderNotFound>دليل القمامة لم يتم العثور على</TrashFolderNotFound>
+  <TrashBalloonRestored>المواد المستعادة: {0} من {1}</TrashBalloonRestored>
+  <TrashDeleteDirectlyLabel>حذف مباشرة دون إزالة للسلة المهملات</TrashDeleteDirectlyLabel>
+  <TrashUsedSpaceHint>{0} التي يتم استخدامها</TrashUsedSpaceHint>
+  <TrashLimitSizeHint>استخدم {0} من {1} ({2})</TrashLimitSizeHint>
+  <TrashLargeItemsShelfTimeHint>الوقت تخزين الكائنات أكبر من {0}: {1} يوم (s)</TrashLargeItemsShelfTimeHint>
+  <TrashSmallItemsShelfTimeHint>لجميع الآخرين: {0} يوم (s)</TrashSmallItemsShelfTimeHint>
+  <TrashItemsShelfTimeHint>الوقت تخزين الكائنات: {0} يوم (s)</TrashItemsShelfTimeHint>
+  <TrashAvailableSpaceHint>الحد الأقصى لحجم متاح {0}</TrashAvailableSpaceHint>
+  <TrashDeletedFromFolderHint>حذف من {0}</TrashDeletedFromFolderHint>
+  <TrashExceededMessage>الكائنات التالية هي كبيرة جدا ولا يمكن أن يكون موجودا إلى سلة المهملات (تقييد {0} تم تجاوز):</TrashExceededMessage>
+  <TrashErrorSuffixMessage>يرجى محاولة للتحقق من خيار ملف "{0}" ثم حذف (ق) إلى الأبد ما استرجاع</TrashErrorSuffixMessage>
+
+  <!-- Shared by link -->
+  <SharedByLinkRootTitle>المشترك عن طريق وصلة</SharedByLinkRootTitle>
+
+  <!-- Shared for you -->
+  <SharedForYouRootTitle>مشترك معك</SharedForYouRootTitle>
+  <SharedForYouUnableToGetUrl>غير قادر على الحصول على URL</SharedForYouUnableToGetUrl>
+
+  <!-- Watch for modifications -->
+  <WatchForModifsCommand>لمشاهدة تعديلات</WatchForModifsCommand>
+  <WatchForModifsStartCommand>بدء مشاهدة</WatchForModifsStartCommand>
+  <WatchForModifsEditCommand>تغيير يراقب</WatchForModifsEditCommand>
+  <WatchForModifsStopCommand>التوقف عن مشاهدة</WatchForModifsStopCommand>
+  <WatchForModifsViewChangesCommand>عرض التغييرات</WatchForModifsViewChangesCommand>
+  <WatchForModifsSubscriptionSuccessMessage>لقد اشتركت بنجاح لإدخال تعديلات على "{0}"</WatchForModifsSubscriptionSuccessMessage>
+  <WatchForModifsStopSuccessMessage>رصد "{0}" تم تعطيل بنجاح</WatchForModifsStopSuccessMessage>
+  <WatchForModifsIncludingNestedLabel>النظر في الملفات المتداخلة والمجلدات</WatchForModifsIncludingNestedLabel>
+  <WatchForModifsParentWatchExistMessage>للعنصر المحدد تم تعيينها بالفعل رصد للمجلد الأصلي "{0}".</WatchForModifsParentWatchExistMessage>
+  <WatchForModifsRootFolder>التنبيهات</WatchForModifsRootFolder>
+  <WatchForModifsStartProgressLoading>سيمكن مشاهدة</WatchForModifsStartProgressLoading>
+  <WatchForModifsStopProgressLoading>Terminatie مشاهدة</WatchForModifsStopProgressLoading>
+  <WatchForModifsIconHint>مشاهدة تمكين التعديلات</WatchForModifsIconHint>
+  <WatchForModifsNotifCheckBox>إبلاغ عن التعديلات عبر البريد الالكتروني:</WatchForModifsNotifCheckBox>
+  <WatchForModifsWatchedUsersCheckBox>مراقبة المستخدمين فقط (ترك فارغا إذا كنت مراقبة كل شيء):</WatchForModifsWatchedUsersCheckBox>
+  <WatchForModifsIgnoreOwnerCheckBox>تجاهل التغييرات الخاصة بي</WatchForModifsIgnoreOwnerCheckBox>
+  <WatchForModifsActionsCheckBox>رصد جميع الإجراءات (أو بعض الإجراءات من القائمة أدناه)</WatchForModifsActionsCheckBox>
+  <WatchForModifsNestedItemsWarning>انتباه! عند إضافة مراقبة المجلد المحدد، كافة الملفات والمجلدات المغلقة التي تمت إضافة المراقبة الفردية في وقت سابق، سيتم إزالة الرصد. هل ترغب في الاستمرار؟</WatchForModifsNestedItemsWarning>
+
+  <WelcomeWindowHideCheckboxLabel>لا تظهر هذا عن طريق تسجيل المقبل في</WelcomeWindowHideCheckboxLabel>
+
+  <LogsGridMoreInfoColumn>مزيد من المعلومات</LogsGridMoreInfoColumn>
+  <LogsGridDetailsTitle>تفاصيل</LogsGridDetailsTitle>
+  <LogsGridPhysPathColumn>المسار الفعلي</LogsGridPhysPathColumn>
+  <LogsGridIsFolderColumn>مجلد؟</LogsGridIsFolderColumn>
+  <LogsGridIsPublicColumn>عامة؟</LogsGridIsPublicColumn>
+  <LogsGridByWebDavColumn>WEBDAV؟</LogsGridByWebDavColumn>
+
+  <NoCommentsYetHint>لا تعليقات حتى الآن</NoCommentsYetHint>
+  <NoHistoryYetHint>لا يوجد شئ بعد</NoHistoryYetHint>
+
+  <DetailsPropertyValuesCouldNotBeWritten>فشل حفظ قيم العقارات، مابي نوع الملف لا يدعم مثل هذا الاحتمال أو أن هناك خطأ في التطبيق المقترن مع الملف.</DetailsPropertyValuesCouldNotBeWritten>
+
+  <AdminCommandHelp>مساعدة</AdminCommandHelp>
+  <AdminCommandAddUser>إضافة مستخدم</AdminCommandAddUser>
+  <AdminCommandAddGroup>إضافة مجموعة</AdminCommandAddGroup>
+  <AdminCommandRemoveUser>إزالة المستخدم</AdminCommandRemoveUser>
+
+  <AdminCommandSelectUsers>إضافة مستخدمين</AdminCommandSelectUsers>
+  <AdminCommandSelectGroups>إضافة مجموعات</AdminCommandSelectGroups>
+  <AdminCommandRemoveUsers>إزالة المستخدمين</AdminCommandRemoveUsers>
+  <AdminCommandRemoveGroups>إزالة مجموعات</AdminCommandRemoveGroups>
+  <AdminUsersGroups>عضو في</AdminUsersGroups>
+  <AdminSearchUserEmptyText>أدخل اسم المستخدم</AdminSearchUserEmptyText>
+  <AdminSearchGroupEmptyText>أدخل اسم المجموعة</AdminSearchGroupEmptyText>
+  <AdminUsersGroupAlreadyExists>وقد سبق وأن أضفت مجموعة (s) مع هذا الاسم (ق)</AdminUsersGroupAlreadyExists>
+
+  <AdminApplicationLoading>مشرف لوحة التحميل</AdminApplicationLoading>
+  <AdminTitle>الادارة</AdminTitle>
+  <AdminUsersEditUser>تحرير العضو</AdminUsersEditUser>
+  <AdminUsersSetUserPassword>ضبط كلمة السر</AdminUsersSetUserPassword>
+  <AdminUsersViewGroups>عرض المجموعات</AdminUsersViewGroups>
+  <AdminUsersViewFolders>عرض المجلدات</AdminUsersViewFolders>
+  <AdminUsersDeleteUserPrompt>هل أنت متأكد أنك تريد إزالة المستخدم (ق) "{0}"؟</AdminUsersDeleteUserPrompt>
+  <AdminUsersDeletedUsers>{0} المستخدم (ق) حذفها.</AdminUsersDeletedUsers>
+  <AdminUsersUserNotFound>لم يتم العثور على المستخدم مع هذا الاسم</AdminUsersUserNotFound>
+  <AdminUsersPropertiesTitle>خصائص المستخدم</AdminUsersPropertiesTitle>
+  <AdminUsersSetPasswordTitle>ضع كلمة سر للمستخدم</AdminUsersSetPasswordTitle>
+  <AdminUsersGeneralInfo>معلومات المستخدم</AdminUsersGeneralInfo>
+  <AdminUsersUserEmail>البريد الإلكتروني</AdminUsersUserEmail>
+  <AdminUsersEmptyName>اسم المستخدم لا يمكن أن يكون فارغا</AdminUsersEmptyName>
+  <AdminUsersEmptyPassword>كلمة مرور المستخدم لا يمكن أن يكون فارغا</AdminUsersEmptyPassword>
+  <AdminUsersIncorrectName>هناك رموز غير صحيحة في اسم المستخدم</AdminUsersIncorrectName>
+  <AdminUsersAlreadyExists>المستخدم بهذا الاسم موجود بالفعل</AdminUsersAlreadyExists>
+  <AdminUsersEmailAlreadyExists>المستخدم مع هذا البريد الإلكتروني موجود بالفعل</AdminUsersEmailAlreadyExists>
+  <AdminUsersPasswordsNotMatch>كلمات المرور غير متطابقة</AdminUsersPasswordsNotMatch>
+  <AdminUsersRenameWarning>بعد إعادة تسمية المستخدم من الضروري تغيير كلمة السر، وإلا الحالي رابط المجلدات على شبكة الإنترنت سوف تكون غير صحيحة</AdminUsersRenameWarning>
+  <AdminUsersLicenseRestriction>الترخيص لا يسمح لك لخلق أكثر من {0} المستخدمين</AdminUsersLicenseRestriction>
+  <AdminUsersCountInfoWithLimit>إجمالي المستخدمين: {0} من {1}</AdminUsersCountInfoWithLimit>
+  <AdminUsersCountInfo>إجمالي المستخدمين: {0}</AdminUsersCountInfo>
+
+  <AdminGroupsEditGroup>تحرير المجموعة</AdminGroupsEditGroup>
+  <AdminGroupsRemoveGroup>إزالة مجموعة</AdminGroupsRemoveGroup>
+  <AdminGroupsDeleteGroupPrompt>هل أنت متأكد أنك تريد إزالة مجموعة (ق) "{0}"؟</AdminGroupsDeleteGroupPrompt>
+  <AdminGroupsDeletedGroups>{0} مجموعة (ق) حذفها.</AdminGroupsDeletedGroups>
+  <AdminGroupsGroupNotFound>لم يتم العثور على مجموعة بهذا الاسم</AdminGroupsGroupNotFound>
+  <AdminGroupsViewUsers>عرض المستخدمين</AdminGroupsViewUsers>
+  <AdminGroupsProperties>الخصائص</AdminGroupsProperties>
+  <AdminGroupsPropertiesTitle>خصائص مجموعة</AdminGroupsPropertiesTitle>
+  <AdminGroupsGeneralInfo>معلومات المجموعة</AdminGroupsGeneralInfo>
+  <AdminGroupsUserNamePrompt>ادخل اسم المستخدم</AdminGroupsUserNamePrompt>
+  <AdminGroupsUsers>أعضاء المجموعة</AdminGroupsUsers>
+  <AdminGroupsUserAlreadyExists>وقد تم بالفعل إضافة المستخدم (s) مع هذا الاسم (ق)</AdminGroupsUserAlreadyExists>
+  <AdminGroupsEmptyName>اسم المجموعة لا يمكن أن يكون فارغا</AdminGroupsEmptyName>
+  <AdminGroupsIncorrectName>هناك رموز غير صحيحة في اسم المجموعة</AdminGroupsIncorrectName>
+  <AdminGroupsAlreadyExists>مجموعة بهذا الاسم موجود بالفعل</AdminGroupsAlreadyExists>
+  <AdminGroupsCountInfo>مجموع مجموعات: {0}</AdminGroupsCountInfo>
+
+  <AdminLanguagesTab>تعريب</AdminLanguagesTab>
+  <AdminLanguagesTabMessage>لتحرير ملف التعريب، حدد اللغة المطلوبة في القائمة، انقر فوق الجمل المترجمة إلى تعديل. بعد التعديلات انقر على "حفظ" زر</AdminLanguagesTabMessage>
+  <AdminLangGridKeyColumn>اسم المفتاح</AdminLangGridKeyColumn>
+  <AdminLangGridDefaultColumn>الإنجليزية</AdminLangGridDefaultColumn>
+  <AdminEnterLanguageNameTitle>أدخل اسم اللغة</AdminEnterLanguageNameTitle>
+  <AdminLangConfirmRefreshTitle>تأكيد التحديث</AdminLangConfirmRefreshTitle>
+  <AdminLangConfirmRefreshMessage>انتباه! لم يتم حفظ البيانات. هل تريد حفظ التغييرات الآن؟</AdminLangConfirmRefreshMessage>
+  <AdminLangAmountInfo>مفاتيح شغل: {0} من {1} (قيم فارغة: {2})</AdminLangAmountInfo>
+  <AdminLangSaveToCSV>تصدير إلى CSV</AdminLangSaveToCSV>
+  <AdminLangLoadFromCSV>تحميل من CSV</AdminLangLoadFromCSV>
+
+  <AdminDbMaintenanceTab>صيانة DB</AdminDbMaintenanceTab>
+  <AdminDbMaintenanceInfoTitle>معلومات</AdminDbMaintenanceInfoTitle>
+  <AdminDbMaintenanceInfoPathLabel>مسار الملف DB</AdminDbMaintenanceInfoPathLabel>
+  <AdminDbMaintenanceInfoSizeLabel>حجم الملف DB</AdminDbMaintenanceInfoSizeLabel>
+  <AdminDbMaintenanceCompactTitle>ضغط قاعدة البيانات</AdminDbMaintenanceCompactTitle>
+  <AdminDbMaintenanceCompactNote>من أجل تقليل حجم ملف قاعدة البيانات، الرجاء النقر على الزر أدناه. فمن الضروري لأداء ضغط قاعدة البيانات بشكل دوري، منذ ذلك الحين، على سبيل المثال، بعد إزالة بعض الروابط العامة أو السجل القديم يسجل حجم الملف DB لا تنقص غير نشطة.</AdminDbMaintenanceCompactNote>
+  <AdminDbMaintenanceCompactButton>التعاقد DB</AdminDbMaintenanceCompactButton>
+  <AdminDbMaintenanceCompactSuccess>DB ضغط بنجاح.
+يبلغ حجم الملف: {0}
+جديد حجم الملف: {1}</AdminDbMaintenanceCompactSuccess>
+  <AdminDbMaintenanceCompactAutoNote>يمكنك أيضا تشغيل قاعدة البيانات ضغط التلقائي بعد زوال عمليات السجلات، ومع ذلك، فمن غير المستحسن لأنه أقفال ربما أكثر تواترا من القاعدة ويمكن أن تزيد من مدة بعض الطلبات. انتباه! بعد تغيير هذا الإعداد سيتم إعادة تشغيل التطبيق!</AdminDbMaintenanceCompactAutoNote>
+  <AdminDbMaintenanceCompactAutoCheckBox>تمكين / تعطيل السيارات المدمجة DB</AdminDbMaintenanceCompactAutoCheckBox>
+  <AdminDbMaintenanceCompactAutoSaveButton>حفظ</AdminDbMaintenanceCompactAutoSaveButton>
+  <AdminDbMaintenanceCompactAutoSaveSuccess>تم الانتهاء من تغيير في сompression التلقائي DB بنجاح. سيتم تحديث الصفحة قريبا.</AdminDbMaintenanceCompactAutoSaveSuccess>
+  <AdminDbMaintenanceEnableLogLabel>حدد DB استعلامات مستوى التسجيل (في البيانات / debug.log)</AdminDbMaintenanceEnableLogLabel>
+  <AdminDbMaintenanceSettingsSaveSuccess>إعدادات DB حفظ بنجاح. سيتم إعادة تحميل الصفحة</AdminDbMaintenanceSettingsSaveSuccess>
+  <AdminDbMaintenanceSettingsChangeNote>انتباه! بعد حفظ الإعدادات سيتم إعادة تشغيل التطبيق قريبا!</AdminDbMaintenanceSettingsChangeNote>
+  <AdminDbMaintenanceInsertIntervalLabel>الفاصل الزمني (بالدقائق) إضافة الأحداث إلى DB. إذا قمت بتحديد 0، ستظهر الإدراج مباشرة بعد الأحداث.</AdminDbMaintenanceInsertIntervalLabel>
+  <AdminDbMaintenanceAdvDbParamsTitle>معلمات الاتصال المتقدم DB</AdminDbMaintenanceAdvDbParamsTitle>
+  <AdminDbMaintenanceStatTitle>إحصاءات (يعتمد على DurationExecution مستوى سجل DB)</AdminDbMaintenanceStatTitle>
+  <AdminDbMaintenanceStatDurationReadLabel>متوسط ​​مهلة القراءة</AdminDbMaintenanceStatDurationReadLabel>
+  <AdminDbMaintenanceStatDurationWriteLabel>متوسط ​​الكتابة المهلة</AdminDbMaintenanceStatDurationWriteLabel>
+  <AdminDbMaintenanceStatDurationCompactLabel>مهلة التعاقد AVG</AdminDbMaintenanceStatDurationCompactLabel>
+  <AdminDbMaintenanceStatNoData>لايوجد بيانات</AdminDbMaintenanceStatNoData>
+  <AdminDbMaintenanceStatGetButton>جمع إحصاءات</AdminDbMaintenanceStatGetButton>
+
+  <AdminMiscTab>متفرقات</AdminMiscTab>
+  <AdminMiscLoadADAccountsTitle>تحميل حسابات خدمة Active Directory</AdminMiscLoadADAccountsTitle>
+  <AdminMiscLoadADAccountsLoadButton>حمل</AdminMiscLoadADAccountsLoadButton>
+  <AdminMiscLoadADAccountsResetButton>إعادة تعيين</AdminMiscLoadADAccountsResetButton>
+  <AdminMiscLoadADAccountsLdap>حاوية LDAP</AdminMiscLoadADAccountsLdap>
+  <AdminMiscLoadADAccountsToFile>إلى ملف</AdminMiscLoadADAccountsToFile>
+  <AdminMiscLoadADAccountsSuccessMessage>الحسابات النشطة دليل تحميلها بنجاح</AdminMiscLoadADAccountsSuccessMessage>
+  <AdminMiscLoadADAccountsInfo>هنا يمكنك إنشاء ملف يحتوي على كامل هيكل مستخدمي خدمة Active Directory. هناك حاجة إلى هذا الملف إذا كنت تستخدم ملف ثابت كما من المعلومات AD التخزين. يمكن أن تتولد في نفس الملف عن طريق أداة ADManager. لمزيد من المعلومات انظر &lt;ب&gt; ADAccountsFilePath &lt;/b&gt; وصف المعلمة في {0} دليل {1}.</AdminMiscLoadADAccountsInfo>
+
+  <AdminMiscManageQuotasTitle>إدارة الحصص</AdminMiscManageQuotasTitle>
+  <AdminMiscManageQuotasInfo>الاستعلام الموجودة أو إنشاء حصص جديدة للحد من مساحة يسمح للمجلد، والمدعوم من قبل إدارة الموارد ملقم الملفات.</AdminMiscManageQuotasInfo>
+  <AdminMiscManageQuotasFolderPath>مسار الملف</AdminMiscManageQuotasFolderPath>
+  <AdminMiscManageQuotasQuota>كوتا</AdminMiscManageQuotasQuota>
+  <AdminMiscManageQuotasGetQuota>الحصول على الحصص</AdminMiscManageQuotasGetQuota>
+  <AdminMiscManageQuotasSetQuota>تعيين الحصص</AdminMiscManageQuotasSetQuota>
+
+  <AdminMiscFoldersFromGPOLTitle>المجلدات تحميل من نهج المجموعة</AdminMiscFoldersFromGPOLTitle>
+  <AdminMiscFoldersFromGPOLComputerName>اسم الحاسوب</AdminMiscFoldersFromGPOLComputerName>
+  <AdminMiscFoldersFromGPOLFilePath>مسار الملف</AdminMiscFoldersFromGPOLFilePath>
+  <AdminMiscFoldersFromGPOLMoreInfoLink>مزيد من المعلومات</AdminMiscFoldersFromGPOLMoreInfoLink>
+  <AdminMiscFoldersFromGPOLResetButton>إعادة تعيين</AdminMiscFoldersFromGPOLResetButton>
+  <AdminMiscFoldersFromGPOLLoadButton>حمل</AdminMiscFoldersFromGPOLLoadButton>
+  <AdminMiscFoldersFromGPOLFromDC>من العاصمة</AdminMiscFoldersFromGPOLFromDC>
+  <AdminMiscFoldersFromGPOLFromFile>من ملف</AdminMiscFoldersFromGPOLFromFile>
+  <AdminMiscFoldersTargetLabel>لاستيراد المستخدمين / المجموعات الأوضاع في ...</AdminMiscFoldersTargetLabel>
+  <AdminMiscFoldersTargetFilter>منقي</AdminMiscFoldersTargetFilter>
+  <AdminMiscFoldersTargetPermission>الإذن</AdminMiscFoldersTargetPermission>
+  <AdminMiscFoldersFromGPOLSuccessMessage>يتم تحميل المجلدات بنجاح &lt;br /&gt; الجديد: {0}، تحديث: {1}.</AdminMiscFoldersFromGPOLSuccessMessage>
+  <AdminMiscFoldersFromGPOLInfo>يمكنك تحميل (أو تحديث) قائمة المجلدات من الإعدادات تعيين محرك أقراص نهج المجموعة في وحدة تحكم المجال. في الحقل أدناه يمكنك إدخال اسم الكمبيوتر الذي سيتم تحميل إعدادات نهج المجموعة (أو إذا تركت فارغة، فسيتم استخدام المجال الحالي)، أو مسار لملف مع الإعدادات محركات الأقراص المعينة.</AdminMiscFoldersFromGPOLInfo>
+
+  <AdminAnonymFoldersTab>المجلدات مجهول</AdminAnonymFoldersTab>
+  <AdminAnonymFoldersDeleteFolderPrompt>هل أنت متأكد أنك تريد إزالة {0} المجلدات مجهولة المختارة؟</AdminAnonymFoldersDeleteFolderPrompt>
+  
+  <AdminAnonymFoldersDescription>المجلدات / الملفات المشتركة - وهذه هي المجلدات / الملفات التي لا تتطلب مصادقة المستخدم *، وهذا يعني أن تكون متوفرة لجميع الزوار * (إذا كان لديهم وصلة). ويمكن لجميع المستخدمين على إنشاء هذه المجلدات / الملفات من القائمة "حصة &amp;rarr؛ إنشاء رابط عام". ومع ذلك، قد يكون المجلدات المشتركة أذونات محدودة: للتحميل، تحميل، الملفات / قائمة المجلدات. وفيما يلي جدول صلات إلى المجلدات / الملفات المشتركة التي تم إنشاؤها من قبل المستخدمين. للعمل وصلات العامة تتميز بشكل صحيح تأكد من أن معالجات \ Anonymousdownload.ashx يسمح بالوصول المجهول إلى IIS. تستطيع التحقق من ذلك على صفحة &lt;a target="_blank" href="{0}"&gt; تشخيص &lt;/A&gt;. تأكد من أن حساب المستخدم المجهول المخصصة لمعالجات \ Anonymousdownload.ashx ديه أذونات NTFS القراءة / الكتابة للالمشتركة المجلدات / الملفات &lt;br /&gt; * &amp;nbsp؛ يمكنك &amp;مدش]؛ على &amp;nbsp؛ إذا لم تقم بتحديد المستخدمين، والذي يسمح فقط الوصول.</AdminAnonymFoldersDescription>
+  <AdminAnonymFoldersLinkOwnerColumn>صاحب</AdminAnonymFoldersLinkOwnerColumn>
+  <AdminAnonymFoldersEmailsColumn>رسائل البريد الإلكتروني للإخطار</AdminAnonymFoldersEmailsColumn>
+  <AdminAnonymFoldersAccessForUsersColumn>وصول المستخدمين</AdminAnonymFoldersAccessForUsersColumn>
+  <AdminAnonymFoldersPersonalMessageColumn>رسالة شخصية</AdminAnonymFoldersPersonalMessageColumn>
+  <AdminAnonymFoldersOverwriteOnUploadHint> (الكتابة: {0})</AdminAnonymFoldersOverwriteOnUploadHint>
+  <AdminAnonymFoldersRootPathColumn>مسار الجذر</AdminAnonymFoldersRootPathColumn>
+  <AdminAnonymFoldersKeysColumn>مفاتيح</AdminAnonymFoldersKeysColumn>
+  <AdminAnonymFoldersShortColumn>رابط قصير</AdminAnonymFoldersShortColumn>
+  <AdminAnonymFoldersPropertiesTitle>خصائص المجلد مجهول</AdminAnonymFoldersPropertiesTitle>
+  <AdminAnonymFoldersAdditionalInfo>معلومة اضافية</AdminAnonymFoldersAdditionalInfo>
+  <AdminAnonymFoldersLinkLabel>رابط للوصول</AdminAnonymFoldersLinkLabel>
+  <AdminAnonymFoldersPathNotSpecified>لم يتم تعيين المسار الفعلي</AdminAnonymFoldersPathNotSpecified>
+  <AdminAnonymFoldersCreatedForColumn>غرض</AdminAnonymFoldersCreatedForColumn>
+
+  <AdminFoldersTab>المجلدات</AdminFoldersTab>
+  <AdminFoldersAddFolder>أضف المجلد</AdminFoldersAddFolder>
+  <AdminFoldersEditFolder>مجلد تحرير</AdminFoldersEditFolder>
+  <AdminFoldersRemoveFolder>إزالة مجلد</AdminFoldersRemoveFolder>
+  <AdminFoldersDeleteFolderPrompt>هل أنت متأكد أنك تريد إزالة مجلد "{0}"؟</AdminFoldersDeleteFolderPrompt>
+  <AdminFoldersFolderNotFound>لم يتم العثور على مجلد بهذا الاسم</AdminFoldersFolderNotFound>
+  <AdminFoldersPropertiesTitle>خصائص المجلد</AdminFoldersPropertiesTitle>
+  <AdminFoldersGeneralInfo>معلومات عامة</AdminFoldersGeneralInfo>
+  <AdminFoldersFolderRemoteWarningForms>ملحوظة! ويشارك بعد هذا المجلد. تحقق {0} التعليمات: كيفية مشاركة المجلدات النائية {1}</AdminFoldersFolderRemoteWarningForms>
+  <AdminFoldersFolderRemoteWarningWin>ملحوظة! ويشارك بعد هذا المجلد. يمكنك إخفاء بعض المجلدات / الملفات إذا لم يكن لدى المستخدمين حقوق لقراءتها. راجع {0} التعليمات: كيفية إخفاء الملفات / المجلدات التي المستخدم ليس لديه حقوق لقراءة {1}</AdminFoldersFolderRemoteWarningWin>
+  <AdminFoldersFolderPath>المسار الفعلي</AdminFoldersFolderPath>
+  <AdminFoldersLocationPath>موقعك</AdminFoldersLocationPath>
+  <AdminFoldersFolderCreate>أنشئ مجلد</AdminFoldersFolderCreate>
+  <AdminFoldersFolderCreateProcess>إنشاء المجلد</AdminFoldersFolderCreateProcess>
+  <AdminFoldersFolderCreateContainsPattern>لا يمكن إنشاء مجلد لأنه يحتوي على نمط</AdminFoldersFolderCreateContainsPattern>
+  <AdminFoldersFolderCreateSuccessfully>المجلد "{0}" تم إنشاء بنجاح.</AdminFoldersFolderCreateSuccessfully>
+  <AdminFoldersFolderOptional> (اختياري)</AdminFoldersFolderOptional>
+  <AdminFoldersFolderLimitations>محددات</AdminFoldersFolderLimitations>
+  <AdminFoldersFolderDescription>وصف</AdminFoldersFolderDescription>
+  <AdminFoldersFolderQuota>كوتا</AdminFoldersFolderQuota>
+  <AdminFoldersFolderQuotaHint>الاستعلام الموجودة أو إنشاء حصص جديدة للحد من مساحة يسمح للمجلد، والمدعوم من قبل إدارة الموارد ملقم الملفات.</AdminFoldersFolderQuotaHint>
+  <AdminFoldersFolderQuotaMoreInfoLink>مزيد من المعلومات</AdminFoldersFolderQuotaMoreInfoLink>
+  <AdminFoldersPermissions>أذونات</AdminFoldersPermissions>
+  <AdminFoldersPermissionsFor>أذونات {0}</AdminFoldersPermissionsFor>
+  <AdminFoldersUsersGroups>المستخدمين والمجموعات</AdminFoldersUsersGroups>
+  <AdminFoldersAccessControl>صلاحية التحكم صلاحية الدخول</AdminFoldersAccessControl>
+  <AdminFoldersCreate>خلق</AdminFoldersCreate>
+  <AdminFoldersDelete>حذف</AdminFoldersDelete>
+  <AdminFoldersRename>إعادة تسمية</AdminFoldersRename>
+  <AdminFoldersUpload>تحميل</AdminFoldersUpload>
+  <AdminFoldersDownload>تحميل</AdminFoldersDownload>
+  <AdminFoldersZipDownload>والرمز البريدي وتحميل</AdminFoldersZipDownload>
+  <AdminFoldersZip>الرمز البريدي</AdminFoldersZip>
+  <AdminFoldersUnzip>الرمز البريدي فك</AdminFoldersUnzip>
+  <AdminFoldersCut>يقطع</AdminFoldersCut>
+  <AdminFoldersCopy>نسخ</AdminFoldersCopy>
+  <AdminFoldersListFiles>اظهار الملفات</AdminFoldersListFiles>
+  <AdminFoldersListFolders>عرض المجلدات</AdminFoldersListFolders>
+  <AdminFoldersModify>تعديل</AdminFoldersModify>
+  <AdminFoldersBulkMailing>البريد بالجملة</AdminFoldersBulkMailing>
+  <AdminFoldersAnonymViewContent>قائمة الملفات عن طريق وصلة العام</AdminFoldersAnonymViewContent>
+  <AdminFoldersAnonymDownload>تحميل عن طريق وصلة العام</AdminFoldersAnonymDownload>
+  <AdminFoldersAnonymUpload>تحميل عن طريق وصلة العام</AdminFoldersAnonymUpload>
+  <AdminFoldersWatch>راقب</AdminFoldersWatch>
+  <AdminFoldersDescription>يمكنك إضافة المجلدات يدويا أو تحويل المجلدات الموجودة إذا كنت تستخدم محركات الأقراص في سياسات المجموعة. لمزيد من المعلومات راجع {0} مساعدة {1}.</AdminFoldersDescription>
+
+  <AdminFoldersPermissionsForRegex>يمكنك أيضا استخدام تعبير عادي. الرجاء إدخال &lt;ب&gt; {0} &lt;/b&gt; في بداية الحقل أعلاه ثم التعبير العادي، على سبيل المثال:</AdminFoldersPermissionsForRegex>
+  <AdminFoldersPermissionsForRegexUsers>{0} (توفير الوصول لأي مستخدم) &lt;br /&gt; {1} (هذا التعبير العادي يعني اثنين من المستخدمين: jdoe ومايك)</AdminFoldersPermissionsForRegexUsers>
+  <AdminFoldersPermissionsForRegexGroups>{0} (توفير وصول أي مجموعة) &lt;br /&gt; {1} (هذا التعبير العادي يعني جميع الفئات مع "الطلاب" في أسمائها)</AdminFoldersPermissionsForRegexGroups>
+
+  <AdminFoldersListRestrictions>القيود المفروضة على العرض</AdminFoldersListRestrictions>
+  <AdminFoldersCreateRestrictions>القيود المفروضة على إنشاء ملف</AdminFoldersCreateRestrictions>
+  <AdminFoldersRestrictionAllow>السماح</AdminFoldersRestrictionAllow>
+  <AdminFoldersRestrictionDeny>أنكر</AdminFoldersRestrictionDeny>
+  <AdminFoldersRestrictionExtensions>ملحقات</AdminFoldersRestrictionExtensions>
+  <AdminFoldersUserNamePrompt>ادخل اسم المستخدم</AdminFoldersUserNamePrompt>
+  <AdminFoldersUserNameEmptyText>حدد اسم المستخدم</AdminFoldersUserNameEmptyText>
+  <AdminFoldersUserNameNotSelected>يجب تحديد اسم مستخدم</AdminFoldersUserNameNotSelected>
+  <AdminFoldersUserAlreadyExists>وقد تم بالفعل تعيين هذا المستخدم إلى المجلد</AdminFoldersUserAlreadyExists>
+  <AdminFoldersGroupNamePrompt>أدخل اسم المجموعة</AdminFoldersGroupNamePrompt>
+  <AdminFoldersGroupNameEmptyText>حدد اسم المجموعة</AdminFoldersGroupNameEmptyText>
+  <AdminFoldersGroupNameNotSelected>يجب تحديد اسم المجموعة</AdminFoldersGroupNameNotSelected>
+  <AdminFoldersGroupAlreadyExists>وقد تم بالفعل تعيين هذه المجموعة إلى مجلد</AdminFoldersGroupAlreadyExists>
+  <AdminFoldersEmptyName>اسم المجلد لا يمكن أن يكون فارغا</AdminFoldersEmptyName>
+  <AdminFoldersEmptyPath>مسار المجلد لا يمكن أن يكون فارغا</AdminFoldersEmptyPath>
+  <AdminFoldersIncorrectName>هناك رموز غير صحيحة في اسم المجلد</AdminFoldersIncorrectName>
+  <AdminFoldersAlreadyExists>مجلد بهذا الاسم والمكان موجود بالفعل</AdminFoldersAlreadyExists>
+  <AdminFoldersSharesButton>سهم القائمة</AdminFoldersSharesButton>
+  <AdminFoldersTestAccessButton>وصول اختبار</AdminFoldersTestAccessButton>
+  <AdminFoldersTestIndexingButton>اختبار الفهرسة</AdminFoldersTestIndexingButton>
+  <AdminFoldersShareNameTitle>سهم القائمة</AdminFoldersShareNameTitle>
+  <AdminFoldersShareNameEmptyText>حدد حصة</AdminFoldersShareNameEmptyText>
+  <AdminFoldersShareNameNotSelected>يجب تحديد حصة</AdminFoldersShareNameNotSelected>
+  <AdminFoldersGetQuotaButton>الحصول على الحصص</AdminFoldersGetQuotaButton>
+  <AdminFoldersSetQuotaButton>تعيين الحصص</AdminFoldersSetQuotaButton>
+  <AdminCommonFilterField>منقي</AdminCommonFilterField>
+  <AdminCommonValidateField>التحقق من صحة</AdminCommonValidateField>
+  <AdminFoldersRootNameUsed>يرجى استخدام اسم آخر للمجلد بدلا من "{0}"</AdminFoldersRootNameUsed>
+  <AdminFoldersFolderFilterSuccess>تولى التحقق من صحة لتصفية المكان بنجاح</AdminFoldersFolderFilterSuccess>
+
+  <AdminTestAccessGoodResult>المجلد "{0}" موجود ويمكن قراءتها.</AdminTestAccessGoodResult>
+  <AdminTestAccessBadResult>المجلد "{0}" لا وجود أو عدم وجود NTFS قراءة أذونات أو لا توجد الوصول إلى الشبكة لهوية التطبيق!</AdminTestAccessBadResult>
+  <AdminTestAccessErrorResult>خطأ أثناء التحقق من الوصول إلى مجلد "{0}": {1}</AdminTestAccessErrorResult>
+  <AdminTestIndexingErrorResult>خطأ أثناء التحقق فهرسة للمجلد "{0}":
+{1}</AdminTestIndexingErrorResult>
+  <AdminTestIndexingYesResult>الدليل "{0}" فهرسة</AdminTestIndexingYesResult>
+  <AdminTestIndexingNoResult>الدليل ليس "{0}" فهرسة</AdminTestIndexingNoResult>
+  <AdminTestIndexingUnknownResult>غير قادر على تحديد ما إذا كان الدليل "{0}" تتم فهرسة.</AdminTestIndexingUnknownResult>
+  <AdminTestIndexingAddIfNotIndexed>هل ترغب في إضافة هذا المجلد للفهرسة، إذا تم فهرستها حتى الآن؟</AdminTestIndexingAddIfNotIndexed>
+  <ProgressTestAccess>التحقق من وصول</ProgressTestAccess>
+  <ProgressTestIndexing>فحص الفهرسة</ProgressTestIndexing>
+  <AdminHowToIndexingLocationLink>من أجل مؤشر مجلد، راجع تعليمات ل{0}</AdminHowToIndexingLocationLink>
+
+  <AdminUsersListAll>جميع المستخدمين</AdminUsersListAll>
+  <AdminUsersListDACL>المستخدمين من دوري أبطال آسيا</AdminUsersListDACL>
+  <AdminGroupsListAll>جميع الفئات</AdminGroupsListAll>
+  <AdminGroupsListDACL>المجموعات من دوري أبطال آسيا</AdminGroupsListDACL>
+  <AdminDACLStringLabel>أذونات دوري أبطال آسيا</AdminDACLStringLabel>
+
+  <AdminCommonCustomField>حقل مخصص</AdminCommonCustomField>
+  <AdminCommonSettingsChangeWarning>فإن التغييرات نافذة المفعول بعد تسجيل الدخول إعادة (أو بعد إعادة تشغيل التطبيق للوصول WEBDAV).</AdminCommonSettingsChangeWarning>
+
+  <AdminCommonAllowedFoldersPathsTitle>مسارات المجلدات سمح</AdminCommonAllowedFoldersPathsTitle>
+  <AdminCommonNotAllowedFolderPath>يمكنك إنشاء الوصول فقط إلى هذه المجلدات أو مجلداته الفرعية: {0}</AdminCommonNotAllowedFolderPath>
+
+  <AdminLogsTab>سجل</AdminLogsTab>
+
+  <AdminSettingsTab>إعدادات</AdminSettingsTab>
+
+  <AdminLogsErrorsTab>تسجيل الأخطاء</AdminLogsErrorsTab>
+  <AdminLogsErrorsClearBtn>واضح</AdminLogsErrorsClearBtn>
+  <AdminLogsErrorsClearUsersCountExceededBtn>سجلات واضحة مع أخطاء المستخدمين تتجاوز الحد كمية</AdminLogsErrorsClearUsersCountExceededBtn>
+
+  <AdminFoldersCreateHint>السماح / رفض الإجراءات من القائمة "جديد": ملف جديد، مجلد جديد، صورة جديدة، وملفات وثيقة جديدة.</AdminFoldersCreateHint>
+  <AdminFoldersDeleteHint>السماح / رفض حذف الملفات والمجلدات الموجودة</AdminFoldersDeleteHint>
+  <AdminFoldersRenameHint>السماح / رفض إعادة تسمية الملفات والمجلدات الموجودة</AdminFoldersRenameHint>
+  <AdminFoldersUploadHint>السماح / رفض تحميل ميزة الملفات (زر التحميل في شريط الأدوات)</AdminFoldersUploadHint>
+  <AdminFoldersDownloadHint>السماح / رفض "تحميل"، "عرض / تحرير"، تحميل إلى سحابة التخزين، وما إلى ذلك الإجراءات</AdminFoldersDownloadHint>
+  <AdminFoldersZipDownloadHint>السماح / رفض "ضغط وتحميل" العمل</AdminFoldersZipDownloadHint>
+  <AdminFoldersZipHint>السماح / رفض "ضغط إلى أرشيف مضغوط" العمل</AdminFoldersZipHint>
+  <AdminFoldersUnzipHint>السماح / رفض "استخراج إلى المجلد الحالي"، "استخراج إلى مجلد جديد" و "محتويات الرمز" الإجراءات</AdminFoldersUnzipHint>
+  <AdminFoldersCutHint>السماح / رفض خفض الملفات والمجلدات الموجودة العمل</AdminFoldersCutHint>
+  <AdminFoldersCopyHint>السماح / رفض نسخة الملفات والمجلدات الموجودة العمل</AdminFoldersCopyHint>
+  <AdminFoldersListFilesHint>السماح / رفض قائمة الملفات</AdminFoldersListFilesHint>
+  <AdminFoldersListFoldersHint>السماح / رفض المجلدات قائمة</AdminFoldersListFoldersHint>
+  <AdminFoldersModifyHint>السماح / رفض تعديل ملفات (جميع الإجراءات التي يمكن تعديل محتويات ملف موجود)</AdminFoldersModifyHint>
+  <AdminFoldersBulkMailingHint>السماح / رفض البريد بالجملة للمجموعات</AdminFoldersBulkMailingHint>
+  <AdminFoldersAnonymViewContentHint>السماح / رفض ملفات قائمة للمستخدمين المجهولين (عبر وصلات عامة)</AdminFoldersAnonymViewContentHint>
+  <AdminFoldersAnonymDownloadHint>السماح / رفض تحميل الملفات للمستخدمين المجهولين (عبر وصلات عامة)</AdminFoldersAnonymDownloadHint>
+  <AdminFoldersAnonymUploadHint>السماح / رفض تحميل الملفات للمستخدمين المجهولين (عبر وصلات عامة)</AdminFoldersAnonymUploadHint>
+  <AdminFoldersWatchHint>السماح / رفض للمستخدمين لرصد التغيرات في المجلد قام بها مستخدمون آخرون (يتم تطبيقه إلا إذا UI / AllowUsersmonitorModifications = صحيح)</AdminFoldersWatchHint>
+  <AdminFoldersListRestrictionsHint>يتحكم هذا الخيار قائمة ملف. انقر على "رفض" زر لإخفاء الملفات مع الملحقات المحددة. إدراج يحظر ملحقات تفصل بينها بفاصلة (على سبيل المثال "EXE، BAT، COM"). تعيين "السماح" زر الراديو وتضاف ملحقات الملفات التي سيتم عرضها (على سبيل المثال "DOC، PDF، JPG").</AdminFoldersListRestrictionsHint>
+  <AdminFoldersCreateRestrictionsHint>هذه هي وظيفة مماثلة ل"القيود قائمة"، لكنها تسيطر تحميل الملفات، واستخراج الرمز البريدي، إنشاء ملفات جديدة. يمكنك منع أو تمكين تحميل الملفات المحدد.</AdminFoldersCreateRestrictionsHint>
+  <AdminFoldersGeneralInfoHint>اكتب مسار المجلد واسم مستعار القائمة. انقر الزر تعليمات في أسفل لمزيد من المعلومات.</AdminFoldersGeneralInfoHint>
+  <AdminFoldersUsersGroupsHint>تحديد أو نوع المستخدمين والمجموعات لتبادل المجلد بالنسبة لهم. انقر الزر تعليمات في أسفل لمزيد من المعلومات.</AdminFoldersUsersGroupsHint>
+
+  <AdminUserFoldersButtonTitle>قائمة أسهم اختبار</AdminUserFoldersButtonTitle>
+  <AdminUserFoldersWindowTitle>مجلدات المستخدم</AdminUserFoldersWindowTitle>
+  <AdminUserFoldersLabel>قائمة المجلدات للمستخدم '{0}':</AdminUserFoldersLabel>
+  
+  <AdminPermissionsTab>أذونات المسؤول</AdminPermissionsTab>
+  <AdminPermissionsPrivilege>امتياز</AdminPermissionsPrivilege>
+  <AdminPermissionsEditButton>تحرير امتياز</AdminPermissionsEditButton>
+  <AdminPermissionsModifySettingsTitle>تعديل إعدادات</AdminPermissionsModifySettingsTitle>
+  <AdminPermissionsModifyFoldersTitle>تعديل المجلدات</AdminPermissionsModifyFoldersTitle>
+  <AdminPermissionsModifyAnonymFoldersTitle>تعديل المجلدات العمومية</AdminPermissionsModifyAnonymFoldersTitle>
+  <AdminPermissionsModifyAccountsTitle>تعديل حسابات</AdminPermissionsModifyAccountsTitle>
+  <AdminPermissionsViewDiagnosticsTitle>عرض 'تشخيص' الصفحة</AdminPermissionsViewDiagnosticsTitle>
+  <AdminPermissionsViewLogTitle>سجل عرض</AdminPermissionsViewLogTitle>
+  <AdminPermissionsViewErrorsLogTitle>عرض السجل أخطاء</AdminPermissionsViewErrorsLogTitle>
+  <AdminPermissionsModifyLocalizationsTitle>تعديل تعريب</AdminPermissionsModifyLocalizationsTitle>
+  <AdminPermissionsFolderPathTitle>مسار الملف</AdminPermissionsFolderPathTitle>
+  <AdminPermissionsFoldersTitle>المجلدات مشرف</AdminPermissionsFoldersTitle>
+  <AdminPermissionsPrivilegeHint>المستخدمين / المجموعات مجموعة التي "{0}" سيسمح للامتياز</AdminPermissionsPrivilegeHint>
+  <AdminPermissionsFolderTitle>خصائص المجلد Admin</AdminPermissionsFolderTitle>
+  <AdminPermissionsFolderFieldTitle>مسار الملف</AdminPermissionsFolderFieldTitle>
+  <AdminPermissionsFolderHint>معلومات حول المجلدات المشرف</AdminPermissionsFolderHint>
+  <AdminPermissionsFolderEmptyAccounts>تحديد المستخدمين و / أو مجموعات</AdminPermissionsFolderEmptyAccounts>
+  <AdminPermissionsFolderAlreadyExists>المجلد مع هذا الموقع موجود بالفعل</AdminPermissionsFolderAlreadyExists>
+  <AdminPermissionsFolderNotFound>مجلد مع هذا الموقع غير موجود</AdminPermissionsFolderNotFound>
+  <AdminPermissionsAllowedFoldersMessage>يمكنك إنشاء / تحديث / إدارة الوصول فقط إلى هذه المجلدات أو مجلداته الفرعية: {0}</AdminPermissionsAllowedFoldersMessage>
+
+  <AdminUsersCountExceededWarn>تجاوز الكمية القصوى من المستخدمين. الترخيص الحالي يسمح فقط {0} المستخدمين لتسجيل الدخول. لمزيد من المعلومات فتح "{1}" علامة التبويب والعثور على "{2}" استثناء (ق). لإخفاء هذا الإعلام السجلات سجل واضحة في "{1}" علامة التبويب.</AdminUsersCountExceededWarn>
+
+  <AdminNewVersionAvailableTitle>يتوفر إصدار جديد!</AdminNewVersionAvailableTitle>
+  <AdminNewVersionAvailableInfo>النسخة الحالية: {0} &lt;br /&gt; وهناك نسخة أحدث: {1}</AdminNewVersionAvailableInfo>
+  
+  <SettingsGridDescriptionInfo>وصف</SettingsGridDescriptionInfo>
+  <SettingsGridFormatInfo>شكل قيمة</SettingsGridFormatInfo>
+  <SettingsGridDefaultValueInfo>القيمة الافتراضية</SettingsGridDefaultValueInfo>
+  <SettingsGridMoreInfo>مزيد من المعلومات</SettingsGridMoreInfo>
+  <SettingsGridRestoreDefault>استعادة الافتراضي</SettingsGridRestoreDefault>
+
+  <SettingsFormatBoolean>قيمة منطقية</SettingsFormatBoolean>
+  <SettingsFormatWholeNumber>الرقم كاملا</SettingsFormatWholeNumber>
+  <SettingsFormatRealNumber>عدد حقيقي</SettingsFormatRealNumber>
+  <SettingsFormatString>خيط</SettingsFormatString>
+  <SettingsFormatEnum>أي قيمة</SettingsFormatEnum>
+  <SettingsFormatSet>قائمة مفصولة بفواصل دون تكرار القيم</SettingsFormatSet>
+  <SettingsFormatArray>قائمة مفصولة بفواصل من السلاسل</SettingsFormatArray>
+  <SettingsFormatToolbarButtons>. (. القيمة "{0}" يمكن أن يتكرر عدة مرات، ولكن ليس على التوالي بعد كل اسم، متبوعا بنقطتين، فمن الممكن لتحديد واحدة من الطرق المستخدمة لعرض زر: {1})</SettingsFormatToolbarButtons>
+
+  <AdminSettingsSave>احفظ التغييرات</AdminSettingsSave>
+  <AdminToggleHiddenParams>{0} المعلمات متقدمة</AdminToggleHiddenParams>
+  <AdminHintHiddenParams>والمقصود معلمات إضافية فقط لمزيد من الإعدادات الحبيبية وفي معظم الحالات نادرا ما تكون ضرورية</AdminHintHiddenParams>
+  <AdminShowHiddenParams>تبين</AdminShowHiddenParams>
+  <AdminHideHiddenParams>إخفاء</AdminHideHiddenParams>
+
+  <SettingsDenyAuthModeChange>غير معتمد التلقائي التحول وضع المصادقة. راجع {0} للحصول على تعليمات حول تغيير وضع المصادقة.</SettingsDenyAuthModeChange>
+  <SettingsApplicationRestartedMsg>تطبيق إعادة تشغيل</SettingsApplicationRestartedMsg>
+  <SettingsSettingsSavedMsg>تم حفظ إعدادات</SettingsSettingsSavedMsg>
+  <SettingsSettingsSaveFailedAppMsg>غير قادر على حفظ ملفات التكوين. تحقق من أذونات الكتابة NTFS من الملف web.config وHttpCommanderSettings.config الملفات في المجلد الجذر تطبيق ويب {0} للمستخدم {1}. رسالة الخطأ: {2}.</SettingsSettingsSaveFailedAppMsg>
+  <SettingsSettingsSaveFailedTempMsg>غير قادر على حفظ ملفات التكوين. الاختيار أذونات المجلد المؤقت {0} للمستخدم {1}. رسالة الخطأ: {2}.</SettingsSettingsSaveFailedTempMsg>
+  <SettingsSettingsReadFailedAppMsg>غير قادر على قراءة ملفات التكوين. تحقق قراءة NTFS أذونات الملف web.config وHttpCommanderSettings.config الملفات في المجلد الجذر تطبيق ويب {0} للمستخدم {1}. رسالة الخطأ: {2}.</SettingsSettingsReadFailedAppMsg>
+  <SettingsSettingsReadFailedTempMsg>غير قادر على قراءة ملفات التكوين في مجلد مؤقت. الاختيار أذونات المجلد المؤقت {0} للمستخدم {1}. رسالة الخطأ: {2}.</SettingsSettingsReadFailedTempMsg>
+  <SettingsSettingsConfigChangedOutside>تم تغيير ملف التكوين HttpCommander من قبل برنامج آخر. ربما قمت بتعديل يدويا مع محرر النص. وقد حملت تطبيق ملف التكوين الجديد. يتم فقدان كافة التغييرات المرتبطة ب HttpCommander التكوين الذي قمت به من خلال واجهة ويب. تحتاج إلى إعادة لهم، ثم حاول حفظ مرة أخرى. ونحن نوصي ضد ملفات التكوين تحرير يدويا في حين يتم تشغيل التطبيق. وإلا يجب عليك إعادة تشغيل التطبيق بعد تغيير ملفات التكوين. رسالة الخطأ: {0}.</SettingsSettingsConfigChangedOutside>
+  <SettingsSettingsSaveNotif>لا تنسى أن حفظ الإعدادات التغييرات!</SettingsSettingsSaveNotif>
+  
+  <SettingsEmailNotifTitle>إخطارات عبر البريد الإلكتروني</SettingsEmailNotifTitle>
+  <SettingsEmailNotifApplyBtn>حفظ الإعدادات الإلكتروني</SettingsEmailNotifApplyBtn>
+  <SettingsEmailNotifResetBtn>إعادة تعيين</SettingsEmailNotifResetBtn>
+  <SettingsEmailNotifEventsLabel>للأحداث</SettingsEmailNotifEventsLabel>
+  <SettingsEmailNotifWhenLabel>إرسال</SettingsEmailNotifWhenLabel>
+  <SettingsEmailNotifEmailsLabel>رسائل البريد الإلكتروني</SettingsEmailNotifEmailsLabel>
+  <SettingsEmailNotifPathsLabel>مسارات</SettingsEmailNotifPathsLabel>
+  
+  <LogsErrorsGridUrlColumn>رابط</LogsErrorsGridUrlColumn>
+  <LogsErrorsGridMsgColumn>رسالة</LogsErrorsGridMsgColumn>
+  <LogsErrorsGridMoreInfoColumn>مزيد من المعلومات</LogsErrorsGridMoreInfoColumn>
+  <LogsErrorsGridDetailsTitle>تفاصيل</LogsErrorsGridDetailsTitle>
+  
+  <FsrmUnableLoadLibraryLocal>غير قادر على الاتصال إلى ملف إدارة موارد ملقم على المضيف المحلي.</FsrmUnableLoadLibraryLocal>
+  <FsrmUnableLoadLibraryRemote>غير قادر على الاتصال إلى ملف مدير الموارد Server على "{0}" المضيف.</FsrmUnableLoadLibraryRemote>
+  <FsrmNotInstalled>لم يتم تثبيت إدارة موارد ملقم ملف على "{0}".</FsrmNotInstalled>
+  <FsrmNotInstalledEitherEnd>لم يتم تثبيت إدارة الموارد ملقم ملف إما على المضيف المحلي أو على "{0}".</FsrmNotInstalledEitherEnd>
+  <FsrmQuotaNotSpecified>لم يتم تحديد الحصص.</FsrmQuotaNotSpecified>
+  <FsrmUnableGetQuota>غير قادر على الحصول على الحد الحصص.</FsrmUnableGetQuota>
+  <FsrmUnableSetQuota>غير قادر على تعيين حدود الحصص.</FsrmUnableSetQuota>
+  <FsrmQuotaSetMsg>تم ضبط الحصص.</FsrmQuotaSetMsg>
+  <FsrmInvalidQuotaValueMsg>قيمة الحصص غير صالحة.</FsrmInvalidQuotaValueMsg>
+
+  <CommandBuyNow>اشتري الآن</CommandBuyNow>
+
+  <AdminUpdateTab>تطوير</AdminUpdateTab>
+  <AdminUpdateManual>ترقية اليدوية</AdminUpdateManual>
+  <AdminUpdateAuto>ترقية الآلي</AdminUpdateAuto>
+  <AdminUpdateStartButton>بدء ترقية / إنشاء النسخ الاحتياطي</AdminUpdateStartButton>
+  <AdminUpdateFinishButton>الانتهاء من ترقية / استعادة النسخ الاحتياطي</AdminUpdateFinishButton>
+  <AdminUpdateBackupButton>دعم</AdminUpdateBackupButton>
+  <AdminUpdateDownloadNewButton>تحميل النسخة الجديدة</AdminUpdateDownloadNewButton>
+  <AdminUpdateStepTitle>الخطوة {0} {1}: {2}</AdminUpdateStepTitle>
+  <AdminUpdateStepInfo>الخطوة {0} {1}</AdminUpdateStepInfo>
+  <AdminUpdateNumberSymbol>#</AdminUpdateNumberSymbol>
+  <AdminUpdateBackupContent>يرجى الضغط على زر "{0}" لإنشاء نسخة احتياطية من المجلد الذي يحتوي على التطبيق والحصول على وصلة للتحميل</AdminUpdateBackupContent>
+  <AdminUpdateDownloadBackupLinkHint>يرجى تحميل نسخة احتياطية من التطبيقات باستخدام الرابط أدناه:</AdminUpdateDownloadBackupLinkHint>
+  <AdminUpdateDownloadNewContent>ثم يرجى تحميل نسخة جديدة باستخدام الرابط أدناه واتبع {0} تركيب {1} و {2} ترقية {1} إرشادات من أجل تثبيت الإصدار الجديد. بعد التثبيت يرجى فتح لوحة الادارة، انتقل إلى علامة التبويب "{3}" واضغط على زر "{4}" من أجل إكمال عملية التثبيت.</AdminUpdateDownloadNewContent>
+  <AdminUpdateUploadButton>تحميل نسخة احتياطية وتطبيق إعدادات</AdminUpdateUploadButton>
+  <AdminUpdateUploadAndInstallButton>تثبيت نسخة جديدة مع الحفاظ على جميع إعدادات</AdminUpdateUploadAndInstallButton>
+  <AdminUpdateUploadEmptyText>الرجاء اختيار نسخة احتياطية للتحميل</AdminUpdateUploadEmptyText>
+  <AdminUpdateFinishContent>من أجل استعادة الإعدادات من النسخة السابقة يرجى اختيار وتحميل أرشيف النسخ الاحتياطي التي تم إنشاؤها مسبقا مع مجلد التطبيق</AdminUpdateFinishContent>
+  <AdminUpdateFinishMessage>تهانينا! يتم تطبيق كافة الإعدادات بنجاح. أيضا، الرجاء تطبيق جميع التغييرات التي أجريتها على الملفات الأخرى، على سبيل المثال، Default.aspx أو Global.asax.</AdminUpdateFinishMessage>
+  <AdminUpdateFinishRefreshPage>سيتم إعادة تحميل الصفحة</AdminUpdateFinishRefreshPage>
+  <AdminUpdateMainInfo>مؤتمتة جزئيا هذا النوع من الترقية. يمكنك إنشاء وتحميل ملف النسخ الاحتياطي مع إعدادات تكوين التطبيق واستعادته بعد الترقية. يرجى اتباع الخطوات التالية قصيرة: إنشاء ملف النسخ الاحتياطي، نفذ رفع اليدوي، استعادة الإعدادات من ملف النسخة الاحتياطية. هذا الإجراء يمكن أن تستخدم أيضا لالنسخ الاحتياطي / استعادة الإعدادات دون رفع مستواها. ببساطة تخطي الخطوة الترقية إلى استعادة الإعدادات من ملف النسخة الاحتياطية.</AdminUpdateMainInfo>
+  <AdminUpdateAutoButton>تلقاءي</AdminUpdateAutoButton>
+  <AdminUpdateAutoInfo>ومؤتمتة بالكامل تقريبا هذا النوع من الترقية. انها تتكون من 2 الخطوات التالية: نسخة احتياطية من الإعدادات الحالية (يجب تحميل وحفظ ملف النسخ الاحتياطي)، وتركيب نسخة جديدة واستعادة الإعدادات من ملف النسخة الاحتياطية. قائد HTTP يمكن تلقائيا تحميل أحدث إصدار وتثبيته أو يمكنك تحديد المسار إلى أرشيف مضغوط مع النسخة الجديدة على الخادم لدينا. يتم استعادة جميع الإعدادات تلقائيا من ملف النسخ الاحتياطي التي تم إنشاؤها مسبقا.</AdminUpdateAutoInfo>
+  <AdminUpdateRestoreWebConfigCheckBox>استعادة الإعدادات من ملف web.config (على سبيل المثال، مثل SMTP)</AdminUpdateRestoreWebConfigCheckBox>
+  <AdminUpdateBackupAssignedFoldersInRootMessage>انتباه! هناك بعض المجلدات المستخدم في الدليل مع التطبيق الذي يكون الحجم الإجمالي أكثر من {0}. لن يتم إجراء النسخ الاحتياطي. يرجى القيام نسخة احتياطية من هذه الدلائل، إزالتها من دليل التطبيق وإعادة العملية على الجانب الخاص بك.</AdminUpdateBackupAssignedFoldersInRootMessage>
+  <AdminUpdateNeedRefreshPageForContinue>انتباه! لمواصلة فمن الضروري لإعادة تحميل الصفحة. يرجى الضغط على زر "{0}". بعد إعادة يرجى تكرار العملية.</AdminUpdateNeedRefreshPageForContinue>
+  <AdminUpdateRestoreFromBackupEmpty>، أو إذا لم يكن محددا، سيتم استخدامها من قبل ملف تم إنشاؤه حديثا في الخطوة السابقة</AdminUpdateRestoreFromBackupEmpty>
+  <AdminUpdateInstallZipPathHint>لتحديث يرجى تحديد المسار الفعلي الكامل لملف التثبيت (على الخادم) في الحقل الأول أو اتركه فارغا لاستخدام التوزيع عبر الإنترنت</AdminUpdateInstallZipPathHint>
+  <AdminUpdateInstallZipPathEmpty>تحديد مسار لأرشفة مع تثبيت</AdminUpdateInstallZipPathEmpty>
+  <AdminUpdateProgress>تحديث</AdminUpdateProgress>
+  <AdminUpdateAccessDeniedWarning>&lt;ب&gt; انتباه! &lt;/b&gt; لتحديث الرجاء ضبط تعديل (القراءة والكتابة) أذونات NTFS إلى {0} المستخدم للمجلد مع قائد HTTP {1} وتكرار رفع مستواها. &lt;br /&gt; بعد رفع الناجح الرجاء استعادة الحقوق السابقة.</AdminUpdateAccessDeniedWarning>
+  <AdminUpdateAccessDeniedWarningCurentUser>تيار</AdminUpdateAccessDeniedWarningCurentUser>
+
+  <ServerExceedsMaxSizeForEditAsTextFile>حجم الملف يتجاوز الحد الأقصى لحجم لتحريره كملف نصي.</ServerExceedsMaxSizeForEditAsTextFile>
+  <ServerDemoMode>ممنوع على عمل معين في طريقة العرض</ServerDemoMode>
+  <ServerHostedMode>لا يجوز تغيير قيم التالية الإعدادات في الإصدار التجريبي استضافت: {0}.</ServerHostedMode>
+  <ServerIncorrectImageContentType>الملف نوع المايم ليست صورة</ServerIncorrectImageContentType>
+  <ServerPermissionDenied>ان هذه العملية مرفوضة بسبب الصلاحيات المحدودة</ServerPermissionDenied>
+  <ServerRestoreFromTrashNoParentFolder>فشلت استعادة لأن دليل الأم "{0}" وقد غير موجود. يرجى إنشائه وحاول مرة أخرى.</ServerRestoreFromTrashNoParentFolder>
+  <ServerModifyPermissionDenied>تم رفض هذه العملية لأنك لا تملك صلاحية لتعديل الملف</ServerModifyPermissionDenied>
+  <ServerPathNotFound>مسار غير موجود.</ServerPathNotFound>
+  <ServerInvalidPath>مسار "{0}" غير صالح</ServerInvalidPath>
+  <ServerInvalidAbsolutePath>مسار غير صالح المطلق "{0}"</ServerInvalidAbsolutePath>
+  <!-- share folder path: \\server\share -->
+  <ServerInvalidShareFolderPath>مسار غير صالح مجلد مشاركة "{0}"</ServerInvalidShareFolderPath>
+  <ServerInvalidUncPath>مسار غير صالح UNC "{0}"</ServerInvalidUncPath>
+  <ServerUnableResolveUncPath>غير قادر على تحليل مسار UNC "{0}"</ServerUnableResolveUncPath>
+  <ServerInvalidFileName>لم يتم تعيين اسم ملف / مجلد أو يحتوي على أحرف غير صحيحة {0}</ServerInvalidFileName>
+  <ServerFilePathNotFound>الملف غير موجود</ServerFilePathNotFound>
+  <ServerIncorrectPathForFileLink>نوع الكائن غير صحيح. يشير المسار المحدد إلى مجلد</ServerIncorrectPathForFileLink>
+  <ServerIncorrectPathForFolderLink>نوع الكائن غير صحيح. يشير المسار المحدد إلى ملف</ServerIncorrectPathForFolderLink>
+  <ServerRootFolderNotFound>المجلد الجذر لمسار "{0}" غير موجود.</ServerRootFolderNotFound>
+  <ServerUnableCreateFolder>غير قادر على إنشاء مجلد</ServerUnableCreateFolder>
+  <ServerFileAlreadyExists>ملف بهذا الاسم موجود بالفعل</ServerFileAlreadyExists>
+  <ServerFileAlreadyExistsOnRename>
+    هل تريد إعادة تسمية "{0}" إلى "{1}"؟
+    بالفعل هناك ملف بنفس الاسم في هذا الموقع.
+  </ServerFileAlreadyExistsOnRename>
+  <ServerFolderAlreadyExistsOnRename>
+    هل تريد إعادة تسمية "{0}" إلى "{1}"؟
+    وهناك بالفعل مجلد بنفس الاسم في هذا الموقع.
+  </ServerFolderAlreadyExistsOnRename>
+  <ServerFoldersMergeConfirm>
+    هذه الوجهة يحتوي بالفعل على مجلد باسم "{0}".
+    هل ما زلت تريد دمج هذا المجلد "{0}" مع هذا واحد "{1}"؟
+  </ServerFoldersMergeConfirm>
+  <ServerFolderWithSameNameAsFileNameAlreadyExists>هناك مجلد بنفس الاسم بالفعل "{0}" اسم الملف الذي حددته</ServerFolderWithSameNameAsFileNameAlreadyExists>
+  <ServerFileWithSameNameAsFolderNameAlreadyExists>هناك بالفعل ملف بنفس الاسم "{0}" اسم المجلد الذي حددته</ServerFileWithSameNameAsFolderNameAlreadyExists>
+  <ServerFileNotFound>الملف "{0}" لم يتم العثور في المجلد "{1}". ربما تم حذفه أو تحذف من قبل مستخدم آخر.</ServerFileNotFound>
+  <ServerDirectoryAlreadyExists>يوجد دليل بهذا الاسم موجود مسبقا</ServerDirectoryAlreadyExists>
+  <ServerFolderMoveAlreadeExists>مجلد الوجهة "{0}" هو نفس المجلد المصدر</ServerFolderMoveAlreadeExists>
+  <ServerUploadPathNotFound>لم يتم العثور على مسار لتخزين الملفات على الخادم</ServerUploadPathNotFound>
+  <ServerUploadPathNotSet>حدث خطأ أثناء الحصول على مسار للتحميل. من فضلك، تحديث الصفحة في المتصفح والمحاولة مرة أخرى.</ServerUploadPathNotSet>
+  <ServerUploadNoChunk>لا قطعة لحفظ</ServerUploadNoChunk>
+  <ServerUploadWriteChunk>إرسال قطعة منذ بايت</ServerUploadWriteChunk>
+  <ServerUploadCreatingFile>إنشاء ملف</ServerUploadCreatingFile>
+  <ServerUploadFileUploaded>تم تحميل الملف</ServerUploadFileUploaded>
+  <ServerUploadWriteError>خطأ الكتابة</ServerUploadWriteError>
+  <ServerConfigurationError>تكوين غير صحيح أو التطبيق! اتصل بمسؤول الموقع</ServerConfigurationError>
+  <ServerPermissionsAllowTypes>الأذونات الحالية تسمح هذه العملية فقط مع أنواع الملفات {0}</ServerPermissionsAllowTypes>
+  <ServerPermissionsDenyTypes>الأذونات الحالية تحظر هذه العملية مع أنواع الملفات {0}</ServerPermissionsDenyTypes>
+  <ServerRequestSizeExceeded>حجم الملفات التي يتم تحميلها يتجاوز حجم مسموح في إعدادات الخادم</ServerRequestSizeExceeded>
+  <ServerEmailMsgProcessedFilesSubject>تم الرفع / تعديل / التنزيل / مكون / محذوفة / مشاركة الملفات / المجلدات</ServerEmailMsgProcessedFilesSubject>
+  <ServerEmailMsgUploadFilesTitle>تم تحميلها</ServerEmailMsgUploadFilesTitle>
+  <ServerEmailMsgModifyFilesTitle>تم التعديل</ServerEmailMsgModifyFilesTitle>
+  <ServerEmailMsgDownloadFilesTitle>تحميل</ServerEmailMsgDownloadFilesTitle>
+  <ServerEmailMsgCreateFilesTitle>خلقت</ServerEmailMsgCreateFilesTitle>
+  <ServerEmailMsgDeleteFilesTitle>تم الحذف</ServerEmailMsgDeleteFilesTitle>
+  <ServerEmailMsgCreatePublicFilesTitle>المشتركة</ServerEmailMsgCreatePublicFilesTitle>
+  <ServerEmailMsgProcessedFilesBody>
+    كانت الملفات / المجلدات التالية {0} قبل {1}:
+
+{2}
+    
+  </ServerEmailMsgProcessedFilesBody>
+  <ServerEmailMsgPasswordRecoverSubject>استعادة كلمة السر</ServerEmailMsgPasswordRecoverSubject>
+  <ServerEmailMsgPasswordRecoverBody>
+    التي طلبتها لاستعادة كلمة السر الخاصة بك في إدارة ملف ويب. تم إعادة تعيين كلمة المرور الخاصة بك. إذا كنت تعتقد أن هذا خطأ، ببساطة تجاهل هذه الرسالة، ولكن انتبه أنه تم تغيير كلمة المرور الخاصة بك.
+    اسم المستخدم: {0}
+    كلمة السر الجديدة: {1}
+  </ServerEmailMsgPasswordRecoverBody>
+  
+  <ServerEmailMsgUserNameRecoverSubject>لاستعادة اسم المستخدم</ServerEmailMsgUserNameRecoverSubject>
+  <ServerEmailMsgUserNameRecoverBody>
+    يمكنك طلب لاسترداد اسمك في إدارة ملف ويب.
+    اسم المستخدم: {0}
+  </ServerEmailMsgUserNameRecoverBody>
+
+  <ServerEmailMsgUserActivationSubject>تفعيل الحساب</ServerEmailMsgUserActivationSubject>
+  <ServerEmailMsgUserActivationBody>
+    حساب ({0}) مطلوب التنشيط.
+    لتفعيل حسابك، الرجاء الضغط على الرابط التالي: {1}
+  </ServerEmailMsgUserActivationBody>
+  <ServerEmailMsgUserRegisteredSubject>آخر عضو مسجل</ServerEmailMsgUserRegisteredSubject>
+  <ServerEmailMsgUserRegisteredBody>
+    أنت مسجل بنجاح في إدارة ملف ويب.
+    اسم المستخدم: {0}
+  </ServerEmailMsgUserRegisteredBody>
+  <ServerEmailMsgUserRegisteredForAdminsBody>
+    وقد تم تسجيل &lt;h4&gt; مستخدم جديد &lt;/h4&gt;
+    &lt;القوي&gt; اسم المستخدم &lt;/strong&gt;: ل{0} &lt;br /&gt;
+    &lt;strong&gt; البريد الإلكتروني &lt;/strong&gt;: في {1} &lt;br /&gt;
+    &lt;القوي&gt; التاريخ &lt;/strong&gt;: ل{2} &lt;br /&gt;
+    &lt;قوية&gt; معلومات إضافية &lt;/strong&gt;: ل{3} &lt;br /&gt;
+  </ServerEmailMsgUserRegisteredForAdminsBody>
+  <ServerDiskFullError>لا توجد مساحة كافية على القرص.</ServerDiskFullError>
+  <ServerFolderLimitations>القيود مجلد: {0}</ServerFolderLimitations>
+  <ServerShortcutAssignedFolderNotFound>المجلد المعين لم يتم العثور على مسار الهدف من اختصار</ServerShortcutAssignedFolderNotFound>
+  <ServerSizeFilesForZipExceeded>قيمة حجم ملفات أرشفة تجاوزت المسموح {0}.</ServerSizeFilesForZipExceeded>
+  <ServerPasteFolderToSubfolderError>مجلد الوجهة "{0}" هو فرعي من المجلد المصدر "{1}".</ServerPasteFolderToSubfolderError>
+  <ServerLiveConnectAppIDNotSpecified>لم يتم تعريف معرف العميل من تطبيق مايكروسوفت لايف اتصال</ServerLiveConnectAppIDNotSpecified>
+  <ServerSendEmailInfo>الكاتب تحديد بريدهم الإلكتروني ك {0}. استخدام فقط عنوان البريد الإلكتروني هذا الرد.</ServerSendEmailInfo>
+
+  <ServerAntivirusScanningFailed>المسح من قبل برامج مكافحة الفيروسات: '{0} {1}' إنهاء بشكل غير طبيعي.</ServerAntivirusScanningFailed>
+
+  <ServerUserNameNotFound>المستخدم مع اسم '{0}' غير موجود.</ServerUserNameNotFound>
+  <ServerFileNameCopySuffix>نسخ</ServerFileNameCopySuffix>
+
+  <ServerDeleteFolderNTFSAccessDenied>لم يكن لديك إذن NTFS لإزالة مجلد "{0}"</ServerDeleteFolderNTFSAccessDenied>
+
+  <ServerMSOOTemplateNotFound>{0} قالب لم يتم العثور</ServerMSOOTemplateNotFound>
+</Localization>

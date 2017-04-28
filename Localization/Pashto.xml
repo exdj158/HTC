@@ -1,0 +1,1608 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Localization>
+  <!-- Common keys -->
+  
+  <ExtMsgButtonTextYES>هو</ExtMsgButtonTextYES>
+  <ExtMsgButtonTextNO>نه</ExtMsgButtonTextNO>
+  
+  <ControlHideFileManager>پټول وېب دوتنې مدیر</ControlHideFileManager>
+  
+  <CommonMainTitle>ويب فایلونو ته لاسرسی</CommonMainTitle>
+  <CommonApplicationLoading>د وېب فایلونو ته لاسرسی Loading</CommonApplicationLoading>
+  <CommonLoadError>په ترڅ کې ونې د معلوماتو ترلاسه کولو یوه تېروتنه رامنځته شوه</CommonLoadError>
+  <CommonGridAccessDenied>د پوښۍ "{0}" شتون نه لري يا د لوستلو ته لاسرسی رد</CommonGridAccessDenied>
+  <CommonNoScript>دا مخ ته اړتيا لري د جاوا په خپل د کتنمل شي نو! مهربانی وکړی دا بیکاره او login بيا!</CommonNoScript>
+  <CommonErrorCaption>تېروتنه</CommonErrorCaption>
+  <CommonWarningCaption>خبرداری</CommonWarningCaption>
+  <CommonInfoCaption>معلومات</CommonInfoCaption>
+  <CommonConfirmCaption>دا تصدیق کړي</CommonConfirmCaption>
+  <CommonFileNameCaption>د دوتنه نوم</CommonFileNameCaption>
+  <CommonFileNamePrompt>یو نوی دوتنې نوم وليکئ</CommonFileNamePrompt>
+  <CommonFileNewNameValue>د نوي متن Document.txt</CommonFileNewNameValue>
+  <CommonFolderNewNameValue>د نوې کړکۍ</CommonFolderNewNameValue>
+  <CommonZipFileNameCaption>زيب ارشيو نوم</CommonZipFileNameCaption>
+  <CommonZipFileNamePrompt>د دوتنې نوم (د ترویج به په اتوماتيک ډول زياته شي)</CommonZipFileNamePrompt>
+  <CommonFolderNameCaption>دادوسیه خلاصه نوم</CommonFolderNameCaption>
+  <CommonFolderNamePrompt>د نوې کړکۍ نوم ولیکۍ</CommonFolderNamePrompt>
+  <CommonDeleteOnePrompt>آیا تاسو په ډاډمنه توګه غواړئ د ړنګولو لپاره "{0}"؟</CommonDeleteOnePrompt>
+  <CommonDeleteManyPrompt>آیا تاسو په ډاډمنه توګه غواړئ د دغو {0} په پېژندتورو ړنګ کړئ؟</CommonDeleteManyPrompt>
+  <CommonForToday>د نن لپاره</CommonForToday>
+  <CommonButtonCaptionOK>سمه ده</CommonButtonCaptionOK>
+  <CommonButtonCaptionCancel>لغوه کړه</CommonButtonCaptionCancel>
+  <CommonButtonCaptionClose>بندول</CommonButtonCaptionClose>
+  <CommonButtonCaptionAdd>Add</CommonButtonCaptionAdd>
+  <CommonButtonCaptionContinue>ته دوام ورکړي</CommonButtonCaptionContinue>
+
+  <CommonProgressPleaseWait>هیله کوم لږ صبر وکړه</CommonProgressPleaseWait>
+  
+  <CommonFieldLabelName>نوم</CommonFieldLabelName>
+  <CommonFieldLabelPath>يونلور</CommonFieldLabelPath>
+  <CommonFieldLabelSize>اندازه</CommonFieldLabelSize>
+  <CommonFieldLabelLabels>لیبلونه</CommonFieldLabelLabels>
+  <CommonFieldLabelType>ډول</CommonFieldLabelType>
+  <CommonFieldLabelAction>کړنه</CommonFieldLabelAction>
+  <CommonFieldLabelDate>نېټه</CommonFieldLabelDate>
+  <CommonFieldLabelDateTime>نیټه او وخت</CommonFieldLabelDateTime>
+  <CommonFieldLabelDateCreated>جوړ نېټه</CommonFieldLabelDateCreated>
+  <CommonFieldLabelDateModified>بدلون موندلی نېټه</CommonFieldLabelDateModified>
+  <CommonFieldLabelDateAccessed>د السرسۍ نیټه</CommonFieldLabelDateAccessed>
+  <CommonFieldLabelValue>ارزښت</CommonFieldLabelValue>
+  <CommonFieldLabelUserName>کارن نوم</CommonFieldLabelUserName>
+  <CommonFieldLabelUser>کارن</CommonFieldLabelUser>
+  <CommonFieldLabelUsers>کارنان</CommonFieldLabelUsers>
+  <CommonFieldLabelGroupName>ډلې نوم</CommonFieldLabelGroupName>
+  <CommonFieldLabelGroup>ګروپ</CommonFieldLabelGroup>
+  <CommonFieldLabelGroups>ډلو</CommonFieldLabelGroups>
+  <CommonFieldLabelPassword>رمز</CommonFieldLabelPassword>
+  <CommonFieldLabelRepeatPassword>تکرار پټنوم</CommonFieldLabelRepeatPassword>
+  <CommonFieldLabelComments>تبصرې</CommonFieldLabelComments>
+  <CommonValueTypeFolder>دادوسیه</CommonValueTypeFolder>
+
+  <CommonFieldLabelDescription>Description</CommonFieldLabelDescription>
+  <EmptyDescriptionText>د تشريح ليکئ</EmptyDescriptionText>
+  <CommonFieldLabelReadMeTxt>Readme.txt محتوا</CommonFieldLabelReadMeTxt>
+  
+  <CommonWordOr>او یا</CommonWordOr>
+
+  <SortAscText>ننداره د ترتيبلو ډول</SortAscText>
+  <SortDescText>ننداره نزولي</SortDescText>
+
+  <CommonNewDocument>نوي لاسوند</CommonNewDocument>
+  <CommonNewSpreadsheet>نوي وېړې پاڼې</CommonNewSpreadsheet>
+  <CommonNewPresentation>نوي پریزنټشن</CommonNewPresentation>
+
+  <CommonWordWrap>Word نغاړل</CommonWordWrap>
+  
+  <!-- End Common keys -->
+
+  <!-- Labels -->
+
+  <LabelsTitle>لیبل</LabelsTitle>
+  <LabelsNoLabel>نه لېبل</LabelsNoLabel>
+  <LabelsColor>رنګ</LabelsColor>
+  <LabelsCustomLabel>د ګمرکونو د لیبل</LabelsCustomLabel>
+  <LabelsCustomLabelHint>ليبل د متن ورکړه</LabelsCustomLabelHint>
+  <LabelsCustomLabelView>نښه د &amp;nbsp؛ محتویات: &amp;nbsp؛ {0} د {1} {2}</LabelsCustomLabelView>
+  <LabelsFileLabelledMessage>په بریالیتوب سره بلله {0} توکی (s)</LabelsFileLabelledMessage>
+  <LabelsRemovedMessage>په بریالیتوب سره لرې {0} ليبل (s)</LabelsRemovedMessage>
+  <LabelsNotRemovedMessages>نه لرې: {0}</LabelsNotRemovedMessages>
+  <LabelsNotLabelledMessage>ټاپه نه: {0}</LabelsNotLabelledMessage>
+  <LabelsLabelRemovedMessage>د شرحی په بریالیتوب سره لرې</LabelsLabelRemovedMessage>
+  <LabelsNewLabel>نوي نښه د</LabelsNewLabel>
+  <LabelsLabellingMessage>ليبل</LabelsLabellingMessage>
+  <LabelsRemovingLabelMessage>لرې کول لیبلونه</LabelsRemovingLabelMessage>
+  <LabelsLabelInfoTip>په توګه ولمانځل شوه '{0}' {1} کارن '{2}'</LabelsLabelInfoTip>
+
+  <!-- End Labels -->
+
+  <!-- Comments -->
+
+  <CommentsCountInfoTip>{0} نظر (s)</CommentsCountInfoTip>
+  <CommentsWriteCommentHint>نوشتن نظر او د مطبوعاتو د '{0}' یا د Ctrl+وليکئ او يا شيفټ+وليکئ ...</CommentsWriteCommentHint>
+
+  <!-- End Comments -->
+
+  <RefreshPageWarningMessage>&lt;b&gt; پاملرنه! &lt;/b&gt; ددې عملياتو، د کتنمل اوسنۍ پاڼې بايد تازه وي بشپړ کړي. &lt;br /&gt; &lt;br /&gt; ایا ته غواړې چې اوس تازه؟</RefreshPageWarningMessage>
+
+  <PagingToolbarBeforePageText>Page</PagingToolbarBeforePageText>
+  <PagingToolbarAfterPageText>د {0}</PagingToolbarAfterPageText>
+  <PagingToolbarFirstText>لومړی مخ</PagingToolbarFirstText>
+  <PagingToolbarPrevText>مخکینۍ پاڼه</PagingToolbarPrevText>
+  <PagingToolbarNextText>بل د Page</PagingToolbarNextText>
+  <PagingToolbarLastText>Last Page</PagingToolbarLastText>
+  <PagingToolbarDisplayMsg>د ليکنو {0} - {1} د {2}</PagingToolbarDisplayMsg>
+  <PagingToolbarEmptyMsg>هیڅ ډاټا د ښوون</PagingToolbarEmptyMsg>
+  
+  <GridTotalLabel>ټول ټال:</GridTotalLabel>
+  <GridTotalFilesLabel>دوتنې</GridTotalFilesLabel>
+  <GridTotalFoldersLabel>پوښۍ</GridTotalFoldersLabel>
+  
+  <GridDDSelectedRowsText>{0} غوره قطار {1}</GridDDSelectedRowsText>
+  <GridDDSelectedFilesText>{0} غوره دوتنو</GridDDSelectedFilesText>
+  <GridDDSelectedFoldersText>{0} غوره پوښۍ</GridDDSelectedFoldersText>
+  <GridDDConfirmCopyMoveTitle>څاڅکی ته پوښۍ "{0}"</GridDDConfirmCopyMoveTitle>
+  <GridDDConfirmAddToZipTitle>د زيپ زياتول "{0}"</GridDDConfirmAddToZipTitle>
+  <GridDDConfirmAddToZipMessage>کش دوتنې به د دې ZIP آرشيف زياته شي. آيا غواړئ چې دوام ورکړئ؟ {0}.</GridDDConfirmAddToZipMessage>
+  <GridDDConfirmCopyMoveMsg>يو عمل چې تاسو غواړي چې درخواست وټاکئ. سرچینه: "{0}"، موخه پوښۍ: "{1}" {2} {3}..</GridDDConfirmCopyMoveMsg>
+  <GridDDConfirmCopyMoveToZipMsg>دوتنې به د زيب آرشيف ته زياته شي. يو عمل چې تاسو غواړئ چې زياته کړه دوتنو زيب آرشيف وروسته د کش دوتنې درخواست وټاکئ. سرچینه: "{0}"، موخه زيب آرشيف: "{1}" {2} {3}..</GridDDConfirmCopyMoveToZipMsg>
+  <GridDDDraggedFileNames>&lt;b&gt; کش دوتنې: &lt;/b&gt; {0}</GridDDDraggedFileNames>
+  <GridDDDraggedFolderNames>&lt;b&gt; کش پوښيو: &lt;/b&gt; {0}</GridDDDraggedFolderNames>
+  <GridDDConfirmTargetFolderOnlyCopyMsg>سرچينه پوښۍ لپاره روانه پرېښلې تاسو ته اجازه يوازې کاپي دوتنې کش کړی وو. آيا غواړئ چې دوام ورکړئ؟ {0}.</GridDDConfirmTargetFolderOnlyCopyMsg>
+  <GridDDConfirmTargetFolderOnlyMoveMsg>سرچينه پوښۍ لپاره روانه پرېښلې تاسو ته اجازه يوازې حرکت دوتنې کش کړی وو. آيا غواړئ چې دوام ورکړئ؟ {0}.</GridDDConfirmTargetFolderOnlyMoveMsg>
+
+  <GridRowPublicHint>چې په يوه نوې کړکۍ / ټوپ کې د عامه تړنه دابرخه کېکاږئ</GridRowPublicHint>
+  <GridRowAlertHint>کېکاږئ چې بدلونونه ترسره لپاره د دې دوتنې / پوښۍ کتل</GridRowAlertHint>
+  <GridRowRecentHint>د دې دوتنې / پوښۍ موندلو</GridRowRecentHint>
+  <GridRowAlertEventHint>د دې ځای ته ځی کېکاږئ</GridRowAlertEventHint>
+
+  <ProgressCreating>جوړول</ProgressCreating>
+  <ProgressDeleting>ړنګول</ProgressDeleting>
+  <ProgressLoading>Loading</ProgressLoading>
+  <ProgressSearching>پلټي</ProgressSearching>
+  <ProgressZipping>Compressing</ProgressZipping>
+  <ProgressUnzipping>مسیولیتونو</ProgressUnzipping>
+  <ProgressZipContents>د ZIP ارشيو یی ترلاسه کول</ProgressZipContents>
+  <ProgressPrepareDownload>دانلود لپاره تیاری</ProgressPrepareDownload>
+  <ProgressMoving>پرمختګ</ProgressMoving>
+  <ProgressCopying>کاپي کول</ProgressCopying>
+  <ProgressRenaming>معترضو</ProgressRenaming>
+  <ProgressUpdating>د نصابونو په</ProgressUpdating>
+  <ProgressLoadingEditInPixlr>Loading Pixlr مدير</ProgressLoadingEditInPixlr>
+  <ProgressLoadingEdit>Loading مدير</ProgressLoadingEdit>
+  <ProgressSavingEdit>د سپما د دوتنې</ProgressSavingEdit>
+  <ProgressSaving>ژغورل</ProgressSaving>
+  <ProgressExecuting>اجرا</ProgressExecuting>
+
+  <BalloonFilesDeleted>{0} د دوتنې (s) ړنګ</BalloonFilesDeleted>
+  <BalloonFoldersDeleted>{0} دادوسیه (s) ړنګ</BalloonFoldersDeleted>
+  <BalloonFilesFailed>{0} د دوتنې (s) کې پاتې راغلي</BalloonFilesFailed>
+  <BalloonFoldersFailed>{0} دادوسیه (s) کې پاتې راغلي</BalloonFoldersFailed>
+  <BalloonFilesZipped>{0} د دوتنې (s) له طبعي</BalloonFilesZipped>
+  <BalloonFoldersZipped>{0} دادوسیه (s) له طبعي</BalloonFoldersZipped>
+  <BalloonFilesCopied>{0} د دوتنې (s) د ټولګړو</BalloonFilesCopied>
+  <BalloonFoldersCopied>{0} دادوسیه (s) د ټولګړو</BalloonFoldersCopied>
+  <BalloonFilesMoved>{0} د دوتنې (s) کډه</BalloonFilesMoved>
+  <BalloonFoldersMoved>{0} دادوسیه (s) کډه</BalloonFoldersMoved>
+  <BalloonNotUnzipped>{0} د دوتنې (s) شوي نه دي unpacked</BalloonNotUnzipped>
+  <BalloonFilesUploaded>{0} د دوتنې (s) پورته</BalloonFilesUploaded>
+  <BalloonFilesNotUploaded>{0} د دوتنې (s) پورته نه</BalloonFilesNotUploaded>
+  <BalloonSomeFilesNotUploaded>ځينې فايلونه او نه شي پورته کېدای شي</BalloonSomeFilesNotUploaded>
+  <BalloonCreatedSuccessfully>په بریالیتوب سره ايجاد</BalloonCreatedSuccessfully>
+  <BalloonUnzippedSuccessfully>Unpacked په بریالیتوب</BalloonUnzippedSuccessfully>
+  <BalloonRenamedSuccessfully>په بریالیتوب سره ونومول</BalloonRenamedSuccessfully>
+  <BalloonSavedSuccessfully>په بریالیتوب سره وژغورل</BalloonSavedSuccessfully>
+  <BalloonCopiedToClipboard>د ټولګړو ته ولمیسی</BalloonCopiedToClipboard>
+  <BalloonCopyToClipboardFailed>ته کاپي صفحی د ناکامه</BalloonCopyToClipboardFailed>
+
+  <CommandCopyToClipboard>کاپي ته ولمیسی</CommandCopyToClipboard>
+  <CommandCopyLinkToClipboard>لینک کاپي ته ولمیسی</CommandCopyLinkToClipboard>
+  <ClipboardScreenshotTitlePrefix>د انځور</ClipboardScreenshotTitlePrefix>
+  <ClipboardScreenshotHint>انځورونه: تاسی کولای شی یو پرده ستاسو د دړه څخه پېسټ (مطبوعاتي &lt;b&gt; Ctrl+PrtSc &lt;/b&gt; او بيا &lt;b&gt; Ctrl+V &lt;/b&gt;) یا یو خپل مدير انځور څخه (مطبوعاتي &lt;b&gt; Ctrl+V &lt;/b&gt;).</ClipboardScreenshotHint>
+  <ClipboardFileHint>همدا راز تاسو کولای شي له دړه کې يوه دوتنه کې سرېښ کړئ</ClipboardFileHint>
+
+  <CommandClouds>کلمې خونو</CommandClouds>
+  <CommandCloudsDownloadTo>د وورد د ...</CommandCloudsDownloadTo>
+  <CommandCloudsUploadFrom>له پورته ...</CommandCloudsUploadFrom>
+  <CommandCloudsAbout>په اړه کلمې خونو</CommandCloudsAbout>
+  
+  <CommandBack>Back</CommandBack>
+  <CommandForward>مخ</CommandForward>
+  <CommandRecentFolders>وروستي پوښۍ</CommandRecentFolders>
+  <CommandHome>کور</CommandHome>
+  <CommonActions>کړنې</CommonActions>
+  <CommandMultiSelect>څو غوره</CommandMultiSelect>
+  <CommandShare>Share</CommandShare>
+  <CommandSorting>ډلبندي</CommandSorting>
+  
+  <CommandFileManager>د دوتنې مدیر Return</CommandFileManager>
+  <CommandFolders>پوښۍ</CommandFolders>
+  <CommandGridView>محتویات</CommandGridView>
+  <CommandRefresh>تاندول</CommandRefresh>
+  <CommandThumbnailView>بټنوک محتویات</CommandThumbnailView>
+  <CommandDetailedView>بشپړفهرست محتویات</CommandDetailedView>
+  <CommandDetailsPane>په بشپړه توګه کتل شمشتی</CommandDetailsPane>
+  <CommandFavorites>favorites</CommandFavorites>
+  <CommandAddToFavorites>ته favorites ورزیات کړئ</CommandAddToFavorites>
+  <CommandAddToFavoritesHint>ته favorites د اوسني پوښۍ ورزیات کړئ</CommandAddToFavoritesHint>
+  <AddingToFavoritesMessage>ته favorites کړه</AddingToFavoritesMessage>
+  <RemoveFromFavoritesMessage>له favorites ړنګول</RemoveFromFavoritesMessage>
+  <FolderAlreadyAddedInFavorites>د پوښۍ "{0}" لا له وړاندې په favorites شتون لري</FolderAlreadyAddedInFavorites>
+  <FolderAddedInFavoritesSuccessfully>د پوښۍ "{0}" په برياليتوب سره تر favorites زياته کړه</FolderAddedInFavoritesSuccessfully>
+  <FavoritesIsOverflowed>دا ممکنه نه وه چې د "{0}" د favorites د اوسني پوښۍ اضافه کړي. ځينو favorites ړنګول د ځينو فضا خلاص کړي او بیا کوښښ وکړه.</FavoritesIsOverflowed>
+  <RemoveFromFavoritesHint>لیرې کړه: "{0}" څخه د favorites</RemoveFromFavoritesHint>
+  <AddToHomeScreenIOSHint>تپه {0} او بيا &lt;strong&gt; "د کور پرده زياتول" &lt;/strong&gt;</AddToHomeScreenIOSHint>
+  <CommandSearch>د لټون</CommandSearch>
+  <CommandUpload>پورته کول</CommandUpload>
+  <CommandSettings>امستنې</CommandSettings>
+  <CommandLanguage>ژبه</CommandLanguage>
+  <CommandAdministration>د ادارې</CommandAdministration>
+  <CommandAdminPanel>اداري هيئت</CommandAdminPanel>
+  <CommandChangePassword>پټ نوم بدل کړی</CommandChangePassword>
+  <ProgressChangePassword>په کتابتون کې پټ نوم</ProgressChangePassword>
+  <CommandChangeEmail>د بدلون لپاره د E-mail</CommandChangeEmail>
+  <ProgressChangeEmail>په کتابتون کې د بريښنا ليک</ProgressChangeEmail>
+  <CommandMobileView>د موبايل په ليدنمخ (سمارټ)</CommandMobileView>
+  <CommandStandardView>بشپړه بڼه</CommandStandardView>
+  <CommandInstallIOSApp>ولګوه IOS اپلیکیشن</CommandInstallIOSApp>
+  <CommandInstallAndroidApp>ولګوه اپلیکیشن اندروید</CommandInstallAndroidApp>
+  <CommandAddServerToMobileApp>د ګرځنده اپلیکیشن دې پالنګر ورزیات کړئ</CommandAddServerToMobileApp>
+  <CommandAddToHomeScreen>کور پرده ورزیات کړئ</CommandAddToHomeScreen>
+  <CommandDiagnostics>تشخیصی مخ</CommandDiagnostics>
+  <CommandLicenseInfo>منښتليک معلومات</CommandLicenseInfo>
+  <CommandLogout>وتل</CommandLogout>
+  <CommandLogoutHint>د اوسني غونډه پای کلیک وکړی</CommandLogoutHint>
+  <CommandNew>د نوي</CommandNew>
+  <CommandFile>د دوتنې</CommandFile>
+  <CommandEmptyFile>تش د دوتنې</CommandEmptyFile>
+  <CommandNewMSOODocument>سره MS دفتر آنلاین سند</CommandNewMSOODocument>
+  <CommandNewOffice365Document>سره د دفتر د 365 سند</CommandNewOffice365Document>
+  <CommandNewMSOOWord>Word سند</CommandNewMSOOWord>
+  <CommandNewMSOOExcel>Excel وېړې پاڼې</CommandNewMSOOExcel>
+  <CommandNewMSOOPowerPoint>د پاورپواينټ پریزنټشن</CommandNewMSOOPowerPoint>
+  <CommandNewGoogleDocument>سره د ګوګل سند</CommandNewGoogleDocument>
+  <CommandNewGoogleDocs>د ګوګل Docs</CommandNewGoogleDocs>
+  <CommandNewGoogleSheets>د ګوګل د سکيچ</CommandNewGoogleSheets>
+  <CommandNewGoogleSlides>د ګوګل سلايډونه</CommandNewGoogleSlides>
+  <CommandNewImage>په Pixlr انځور</CommandNewImage>
+  <CommandFolder>دادوسیه</CommandFolder>
+  <CommandNewFile>د نوي تش دوتنې</CommandNewFile>
+  <CommandNewFolder>د نوې کړکۍ</CommandNewFolder>
+  <CommandNewWithTemplate>د کارولو کېنډۍ د ...</CommandNewWithTemplate>
+  <CommandRename>نوم بدلول</CommandRename>
+  <CommandDelete>ړنګول</CommandDelete>
+  <CommandCopy>کاپي</CommandCopy>
+  <CommandMove>خوځول</CommandMove>
+  <CommandCut>پري</CommandCut>
+  <CommandCopyTo>ته کاپي ...</CommandCopyTo>
+  <CommandMoveTo>ته ...</CommandMoveTo>
+  <CommandCopyCutClipboardSuffix>ته ولمیسی</CommandCopyCutClipboardSuffix>
+  <CommandPaste>د رب</CommandPaste>
+  <CommandPasteInto>پېسټ</CommandPasteInto>
+  <CommandZip>د يو زيب آرشيف نښتيځيل</CommandZip>
+  <CommandZipMenu>زيب / Unzip</CommandZipMenu>
+  <CommandUnzip>راپاروونکو زيب</CommandUnzip>
+  <CommandUnzipSelected>ټاکل راپاروونکو</CommandUnzipSelected>
+  <CommandUnzipAll>ټول راپاروونکو</CommandUnzipAll>
+  <CommandUnzipTo>د پوښۍ ته</CommandUnzipTo>
+  <CommandUnzipToCurrent>د اوسني پوښۍ</CommandUnzipToCurrent>
+  <MessageUnzipToFolder>د دې تر راپاروونکو د پوښۍ نوم ډول</MessageUnzipToFolder>
+  <MessageUnzipPasswordHint>که تاسو پوه شئ چې د يو شفر د مسیولیتونو ضروري ده، په ساحه کې په لاندې دا ننوځي</MessageUnzipPasswordHint>
+  <MessageUnzipNeedPassword>يو پټنوم ته اړتيا ده د دوتنې راپاروونکو</MessageUnzipNeedPassword>
+  <ZipPasswordProtectHint>د زيب آرشيف پټنوم-protect، په ساحه کې لاندې د پاسورډ باندي ننوځئ. که نه نو، تش د وتلو په برخه کې</ZipPasswordProtectHint>
+  <AppendToZipPasswordProtectHint>د دوتنې زياته کړه، د زيب آرشيف ته پټنوم-protect، په ساحه کې لاندې د پاسورډ باندي ننوځئ. که نه نو، تش د وتلو په برخه کې</AppendToZipPasswordProtectHint>
+  <ZipPasswordProtectWindowTitle>سره پټنوم ارشيف</ZipPasswordProtectWindowTitle>
+  <OpenFolderAfterUnzipCheckBox>مسیولیتونو دادوسیه وروسته</OpenFolderAfterUnzipCheckBox>
+  <CommandUnzipToNew>د نوې کړکۍ</CommandUnzipToNew>
+  <CommandZipContents>زيب محتوا</CommandZipContents>
+  <ArchiveContentsTitle>آرشيف محتوا "{0}"</ArchiveContentsTitle>
+  <CommandDownload>دانلود</CommandDownload>
+  <CommonDownloadAll>ټول دانلود</CommonDownloadAll>
+  <DownloadListDragFile>تاسو کولای شئ چې ستاسو د سرپاڼې راکاږي-n-څاڅکی دوتنې</DownloadListDragFile>
+  <CommandZipDownload>نښتيځيل او دانلود</CommandZipDownload>
+  <CommandView>محتویات کې د لټووني</CommandView>
+  <CommandDownloadOrView>دانلود یا محتویات</CommandDownloadOrView>
+  <CommandPreview>انځورونه مخکتنه</CommandPreview>
+  <CommandFlashPreview>فلش مخکتنه</CommandFlashPreview>
+  <GettingSizeFlashMovie>د فلش فلم تر لاسه کول په اندازه</GettingSizeFlashMovie>
+  <CommandEdit>په توګه متن دوتنه سمول</CommandEdit>
+  <CommandEditView>محتویات توګه متن دوتنې</CommandEditView>
+  <AceNotLoadedMessage>ته ايسي مدير پورته کولو ونه توانېد</AceNotLoadedMessage>
+  <VideoJsNotLoadedMessage>ته VideoJS لوبغاړي پورته کولو ونه توانېد</VideoJsNotLoadedMessage>
+  <CommandMenuEdit>سمول</CommandMenuEdit>
+  <CommandSelectAll>ټول وټاکئ</CommandSelectAll>
+  <CommandInvertSelection>ټاکنې سرچپه کول</CommandInvertSelection>
+  <CommandLinkToFile>مخونه چې د دوتنې / پوښۍ</CommandLinkToFile>
+  <!--Share link-->
+  <CommandMakePublicFolder>د عامه مخونه جوړول</CommandMakePublicFolder>
+  <PublicViewInGoogle>View په ګوګل</PublicViewInGoogle>
+  <PublicViewinOWA>View په OWA</PublicViewinOWA>
+  <!--Make public folder (share)-->
+  <CommandViewWithGoogleDoc>View په ګوګل Docs</CommandViewWithGoogleDoc>
+  <CommandViewWithShareCad>په ښکاره ShareCad.org</CommandViewWithShareCad>
+  <CommandViewWithAutodesk>View په Autodesk</CommandViewWithAutodesk>
+  <CommandViewWithBox>محتویات یی په بکس</CommandViewWithBox>
+  <CommandViewWithOWA>View په دفتر ويب کاریالونو</CommandViewWithOWA>
+  <CommandCloudConvert>سره CloudConvert بدلوي</CommandCloudConvert>
+  <ProgressGetCloudConvertOutputFormats>محصول فرمت څخه ترلاسه کول</ProgressGetCloudConvertOutputFormats>
+  <ProgressCloudConvertConverting>واړوي</ProgressCloudConvertConverting>
+  <CloudConvertWindowTitle>بدلوي '{0}'</CloudConvertWindowTitle>
+  <CloudConvertWindowConvertButton>بدلوي</CloudConvertWindowConvertButton>
+  <CloudConvertWindowOutputFormatsLabel>Output format</CloudConvertWindowOutputFormatsLabel>
+  <CloudConvertDownloadLinkLabel>لینک دانلود لپاره</CloudConvertDownloadLinkLabel>
+  <CloudConvertSaveAsLabel>په توګه Save (غځول به په اتوماتيک ډول زياته شي):</CloudConvertSaveAsLabel>
+  <CloudConvertNoOutputFormats>د واړوي موجود فرمت څخه شتون نه لري</CloudConvertNoOutputFormats>
+  <CloudConvertNoUrlForDownload>دا بريالي نه وه، چې د کښته کولو لینک تر لاسه</CloudConvertNoUrlForDownload>
+  <ProgressCloudConvertUploading>له CloudConvert د پورته</ProgressCloudConvertUploading>
+  <CloudConvertSaveAsNameBlank>ډول نوم دلته</CloudConvertSaveAsNameBlank>
+  <CancelEditButton>سمول لغوه کړه</CancelEditButton>
+  <HideButton>پټول</HideButton>
+  <EditDocumentCancelHint>وروسته له تاسو سره Edited سند د کړکۍ وتړي، نو دا به autosaved شي. &lt;br /&gt; تاسې کولای شی دغه فشار {0} (په دې صورت کې، د سند به تر سره شي د مسوول مدير د ټرلونه وروسته وژغورل) د Open کړکۍ پټ کړي. &lt;br /&gt; &lt;br /&gt; که تاسو نه غواړم چې سند وژغوري، مطبوعاتي {1} (په دې صورت کې، د مدير کړکۍ به وتړل شي).</EditDocumentCancelHint>
+  <EditDocumentSaveHint>اوس تاسو کولای شي په سند کې د بدلونونو له خوا فشار {0} وژغوري. پاملرنه! وروسته تاسو د مدير کړکۍ وتړي، دا به هم د autosaved شي.</EditDocumentSaveHint>
+  <CommandEditInMSOffice>په MS دفتر سمول</CommandEditInMSOffice>
+  <CommandEditInOOo>په OpenOffice / LibreOffice سمول</CommandEditInOOo>
+  <CommandViewInMSOffice>View په MS دفتر</CommandViewInMSOffice>
+  <CommandViewInOOo>View په OpenOffice / LibreOffice</CommandViewInOOo>
+  <CommandEditInPixlr>په Pixlr سمول</CommandEditInPixlr>
+  <CommandEditInAdobe>په Adobe کريټيف کلمې سمول</CommandEditInAdobe>
+  <AdobeImageEditorSavedAsNewTypeMessage>د انځور په Adobe Image اېډېټر بدل شوی دی په بڼه خوندي {0}</AdobeImageEditorSavedAsNewTypeMessage>
+  <CommandEditInGoogle>په ګوګل Drive سمول</CommandEditInGoogle>
+  <EditInGoogleConvertMessage>سمول وروسته سند به د فرمت واړول شي د {1} {0} {2}</EditInGoogleConvertMessage>
+  <EditInGoogleLinkError>د لار په ګوګل Drive سند د سمولو توان نلري</EditInGoogleLinkError>
+  <EditInGoogleWaiting>په ګوګل Drive ايډيټنګ بشپړیدو په تمه</EditInGoogleWaiting>
+  <CommandEditInMSOO>په MS دفتر آنلاین سمول</CommandEditInMSOO>
+  <EditInMSOOLinkError>د لار په MS دفتر آنلاین سند د سمولو توان نلري</EditInMSOOLinkError>
+  <EditInMSOOWaiting>په MS دفتر په آنلاین توګه د ايډيټنګ بشپړیدو په تمه</EditInMSOOWaiting>
+  <CommandEditInOffice365>په دفتر 365 سمول</CommandEditInOffice365>
+  <EditInOffice365LinkError>د لار په دفتر 365 سند د سمولو توان نلري</EditInOffice365LinkError>
+  <EditInOffice365Waiting>په دفتر 365 د ايډيټنګ بشپړیدو په تمه</EditInOffice365Waiting>
+  <CommandSave>Save</CommandSave>
+  <CommandSaveAs>په توګه Save ...</CommandSaveAs>
+  <CommandAppRestart>Restart غوښتنلیک</CommandAppRestart>
+  <CommandPlayVideoFlash>په Flash player Play ویډیو</CommandPlayVideoFlash>
+  <CommandPlayVideoHtml5>play ویډیو</CommandPlayVideoHtml5>
+  <CommandPlayAudioHtml5>play غږیز</CommandPlayAudioHtml5>
+  <CommandPlayVideo>play ویډیو</CommandPlayVideo>
+  <CommandPlayAudio>play غږیز</CommandPlayAudio>
+  <CommandConvertVideo>بدلوي ویډیو</CommandConvertVideo>
+
+  <ViewInServiceLink>د دوتنې د کتلو لپاره دلته کلیک وکړی</ViewInServiceLink>
+  <EditInServiceLink>د سند د سمولو لپاره دلته کېکاږئ</EditInServiceLink>
+
+  <OfficeEditCopyLinkLabel>لاندې لینک کاپي او په دفتر کاریال دابرخه:</OfficeEditCopyLinkLabel>
+  <OfficeRunError>دا ممکنه نه وه چې پیل {0}</OfficeRunError>
+  <BadPathToFile>دا ممکنه نه وه چې په لاره کې د دوتنې پیدا</BadPathToFile>
+  <FixBasicAuthAlertTitle>پاملرنه!</FixBasicAuthAlertTitle>
+  <FixBasicAuthAlertMessage>Microsoft Office سره اساسي اعتبار پرته ایس ایس کار کوي! تاسی کولای شی دغه ستاسو د دفتر دنده ګمارلي دي. د لا نورو مالوماتو مهرباني وګورئ {0}.</FixBasicAuthAlertMessage>
+  <FixBasicAuthAlertCheckBoxText>نه د دې خبرو اترو نور وښيي.</FixBasicAuthAlertCheckBoxText>
+  <CommandDetails>په بشپړه توګه کتل</CommandDetails>
+  <CommonButtonCaptionAddDetail>Add تفصیل</CommonButtonCaptionAddDetail>
+  <CommonButtonCaptionAddComment>Add نظر</CommonButtonCaptionAddComment>
+  <DetailsWindowTitle>په بشپړه توګه کتل "{0}"</DetailsWindowTitle>
+  <FileDetailsSave>بدلونونه Apply</FileDetailsSave>
+  <FileDetailsIgnoreChanges>له پامه</FileDetailsIgnoreChanges>
+  <FileDetailsCloseConfirmTitle>دوتنه کړکۍ جزئيات کېږي بنده ده</FileDetailsCloseConfirmTitle>
+  <FileDetailsCloseConfirmMsg>پاملرنه! دغه بدلونونه تر اوسه نه دي خوندي شوي. يو عمل چې تاسو غواړئ چې د کړکۍ په بندولو مخکې له دې بدلونونو درخواست وټاکئ.</FileDetailsCloseConfirmMsg>
+  <FileDetailsGridTitleColumn>نوم</FileDetailsGridTitleColumn>
+  <FileDetailsGridAuthorColumn>تېر لیکوال</FileDetailsGridAuthorColumn>
+  <LoadingDetailsMask>Loading تفصیل</LoadingDetailsMask>
+  <NewDetailsTitle>د نوي نوم</NewDetailsTitle>
+  <NewDetailsValue>نوي جزییات ارزښت</NewDetailsValue>
+  <DetailsSavingMsg>ژغورل تفصیل</DetailsSavingMsg>
+  <ProgressLoadingEditInOffice>په دفتر پرهېز چمتو</ProgressLoadingEditInOffice>
+  <MenuFilterText>چاڼګرونه</MenuFilterText>
+  <EmptyTextFilter>Filter وليکئ ...</EmptyTextFilter>
+  <AfterDateFilterText>وروسته</AfterDateFilterText>
+  <BeforeDateFilterText>مخکې له</BeforeDateFilterText>
+  <OnDateFilterText>د</OnDateFilterText>
+  <YesBooleanFilterText>هو</YesBooleanFilterText>
+  <NoBooleanFilterText>نه</NoBooleanFilterText>
+  <CommandEditWithZoho>په Zoho سمول</CommandEditWithZoho>
+  <ZohoNotSupportedFormatMessage>د ترویج له خوا Zoho ملاتړ نلري. وګورئ: {0}.</ZohoNotSupportedFormatMessage>
+  <ProgressLoadingEditInZoho>Loading Zoho مدير</ProgressLoadingEditInZoho>
+  <CommandSubMenuViewAndEdit>محتویات / سمول</CommandSubMenuViewAndEdit>
+  <CommandSubMenuShare>Share</CommandSubMenuShare>
+  <CommandSubMenuMore>نور</CommandSubMenuMore>
+  <StopUploadingButtonText>درېدل</StopUploadingButtonText>
+  <SimpleUploadErrorInfo>کله چې د دوتنې د پورته (s) کې یوه تېروتنه وه. &lt;br /&gt; &lt;br /&gt; وګورئ {0} د لا نورو مالوماتو پيلې</SimpleUploadErrorInfo>
+  <BalloonAbortFilesUploaded>د دوتنې د پورته شنډه شوې</BalloonAbortFilesUploaded>
+  <UploadDragNDropTab>راکښن &amp;څاڅکی</UploadDragNDropTab>
+  <UploadDragNDropTabImages>راکښن &amp;څاڅکی+انځورونه</UploadDragNDropTabImages>
+  <DnDGridProgressColumn>پرمختګ</DnDGridProgressColumn>
+  <DnDFileReadingError>په لوستلو کې تېروتنه. تېروتنه کوډ: {0}.</DnDFileReadingError>
+  <DnDFileReadingAbort>لوستلو شنډه شوې. تېروتنه کوډ: {0}.</DnDFileReadingAbort>
+  <DnDFileUploadingError>د پورته تېروتنه. {0}</DnDFileUploadingError>
+  <DnDFileUploadingAbort>د پورته شنډه شوې.</DnDFileUploadingAbort>
+  
+  <CommandWebFoldersLinks>نقشه ګورت پوښۍ</CommandWebFoldersLinks>
+  <CommandSyncWebFolders>د محلي پوښۍ پرانیځئ</CommandSyncWebFolders>
+  <WebFolderLinksFieldLabel>ويب-پوښۍ تړنې</WebFolderLinksFieldLabel>
+  <WebFolderLinksForWindows64Note>د کيلي تړنګ مطبعې {0} Win+R {1}. په {0} د پرانیستې د بولۍ ليکه وليکی: {1} برخه وګورئ (بولۍ ليکه لاندې مثالونو)، کیکاږۍ {0} هوکی {1}. د وينډوز د اعتبار په بشپړه توګه وړ دعامه استعمال د نومونو په کارولو: {2}.</WebFolderLinksForWindows64Note>
+  <OpenLibreOfficeRunCommandNote>او يا د کيلي تړنګ مطبعې {0} Win+R {1}، د بولۍ ليکه لاندې په {0} د پرانیستې وليکی: {1} برخه کې او د مطبوعاتو د {0} هوکی {1}</OpenLibreOfficeRunCommandNote>
+  <WebFolderLinksForMacOSNote>په "موندونکي" غورنۍ، خلاص {0} د جفرافیې&gt; ته د پالنګر پیوستون {1}. د {0} "پالنګر پته:" {1} په ساحه کې د ګورت پوښۍ تړنه ورننويستل. کلیک {0} "پیوستون" {1}. په نوي کړکۍ غوره {0} "ميلمه" {1} يا {0} "ثبت شوی کارن:" {1} (د وينډوز اعتبار). کلیک {0} "پیوستون" {1}.</WebFolderLinksForMacOSNote>
+  <WebFolderLinksForUbuntuNote>د پرانیستې {0} د جفرافیې&gt; د ځای ... {1} چې په ځای ډګر د ګورت پوښۍ لینک کاپي کړي.</WebFolderLinksForUbuntuNote>
+  <LinksToWebFoldersWindowText>تاسو کولای پوښۍ چې تاسو په خپل محلي OS یوه شبکه ډرایو په سترګه ګوري ته کتنه وشي. نقشه وروسته تاسو کولای شي په څېر په MS دفتر یا OpenOffice ځايي هغو د سمولو او اسنادو سره د دوتنې کار وکړي. په اړه چې څنګه د {0} نقشه مرسته وګورئ.</LinksToWebFoldersWindowText>
+  <CommonFileTypeNameCaption>"{0} د" دوتنه نوم</CommonFileTypeNameCaption>
+  <CommonFileTypeNamePrompt>نوي "{0}" دوتنې نوم وليکئ</CommonFileTypeNamePrompt>
+  
+  <PixlrEditorWindowTitle>Pixlr مدير {0}</PixlrEditorWindowTitle>
+  <PixlrSaveImageSuccessMessage>په انځور کې د "{0}" په برياليتوب سره وژغوره. په لست کې تازه که تاسو د انځور سره په يوه نوي نوم وژغوره.</PixlrSaveImageSuccessMessage>
+  <CommonFileImageNewName>نوی انځور</CommonFileImageNewName>
+  <CommandChangeTheme>د بدلون موضوع</CommandChangeTheme>
+  
+  <CommandHelp>مرسته</CommandHelp>
+
+  <OpeningShortcutProgress>د پرانستلو په لنډلار</OpeningShortcutProgress>
+  <CommandCreateShortcut>لنډلار (سمبولیک تړنه)</CommandCreateShortcut>
+  <ShortcutNameHint>لنډلار نوم</ShortcutNameHint>
+  <ShortcutTargetPathHint>منزل لاره</ShortcutTargetPathHint>
+  <CreateShortcutButtonTitle>جوړول</CreateShortcutButtonTitle>
+  <CreatingShortcutProgress>جوړول لنډلار</CreatingShortcutProgress>
+  <CreateShortcutSuccessMessage>لنډلار "{0}" په بریالیتوب لپاره جوړ "{1}".</CreateShortcutSuccessMessage>
+
+  <OpeningInternetShortcutProgress>پرانيستل انټرنېټ لنډلار</OpeningInternetShortcutProgress>
+  <InternetShortcutNotValidMsg>د دغه انټرنيټ لنډلار هدف URL د اعتبار وړ نه دی</InternetShortcutNotValidMsg>
+  <InternetShortcutWindowTitle>ته لاړ شه سره تړنې لري</InternetShortcutWindowTitle>
+  
+  <CommandVersioning>نسخه کول</CommandVersioning>
+  <CommandVersionHistory>نسخه تاريخ</CommandVersionHistory>
+  <CommandCheckOut>بشپړ ی وګوره</CommandCheckOut>
+  <CommandCheckIn>کتل</CommandCheckIn>
+  <CommandUndoCheckOut>لغوه وګورئ له جملې څخه</CommandUndoCheckOut>
+  <VersionHistoryObtainingMessage>د ترلاسه کولو نسخه تاريخ</VersionHistoryObtainingMessage>
+  <NoVersionHistoryMessage>د د ټاکل شوي د دوتنې نسخه تاريخ نه شته</NoVersionHistoryMessage>
+  <FileIsCheckedOutMessage>دوتنه: "{0}" لا د مخه د کارن لخوا چک څخه "{1}" د {2}</FileIsCheckedOutMessage>
+  <CheckingOutMessage>د کتلو له جملې څخه</CheckingOutMessage>
+  <SuccessfullyCheckedOutMessage>دوتنه: "{0}" په برياليتوب سره د کارن لخوا چک څخه "{1}"</SuccessfullyCheckedOutMessage>
+  <FileIsNotCheckedOutMessage>دوتنه: "{0}" شوی نه دی تر اوسه چک څخه</FileIsNotCheckedOutMessage>
+  <FileIsCheckedOutOtherUserMessage>دوتنه: "{0}" له خوا د بل کارن چک څخه "{1}" د {2}.</FileIsCheckedOutOtherUserMessage>
+  <FileUndoCheckOutForbiddenMessage>تاسو نه شي کولای د پوستې له خوا د بل کارن استعمال لغوه.</FileUndoCheckOutForbiddenMessage>
+  <FileCheckInForbiddenMessage>تاسو نه شي کولای په يوه دوتنه، چې مخکې له خوا د بل کارن چک څخه وګورئ.</FileCheckInForbiddenMessage>
+  <FileUndoCheckOutConfirmMessage>که تاسو د خپل پوستې څخه لغوه کړي، د بدلون سند چې کارول به نه وژغورل شي! آيا تاسو په ډاډمنه توګه غواړئ چې ستاسو د پوستې څخه لغوه؟</FileUndoCheckOutConfirmMessage>
+  <FileVersionDeleteConfirmTitle>د هغه دوتنې نسخه ړنګول</FileVersionDeleteConfirmTitle>
+  <FileVersionDeleteConfirmMessage>ایا ته باوري یې چې تاسو غواړئ چې د هغه دوتنې غوره نسخه ړنګ کړئ؟</FileVersionDeleteConfirmMessage>
+  <FileVersionRestoreConfirmTitle>د هغه دوتنې نسخه اعاده</FileVersionRestoreConfirmTitle>
+  <FileVersionRestoreConfirmMessage>ایا ته باوري یې چې غواړي د د هغه دوتنې غوره نسخه بېرته {0} که هو، د دوتنې په کوم کې چې ټاکل نسخه به شي خوندي مشخص؟. که تاسو پرته بدلونونه (يا جوړ تش ارزښت) د دې ارزښت د وتلو د ټاکل شوي نسخه به د ټاکل شوي د دوتنې (د دوتنې تیرو محتوا به د نسخه تاريخ ته زياته شي) ځای {1} د دوتنې نوم:</FileVersionRestoreConfirmMessage>
+  <UndoCheckingOutMessage>دپېژندکارتونوباطلول وګورئ له جملې څخه</UndoCheckingOutMessage>
+  <SuccessfullyUndoCheckedOutMessage>د يو فايل له معایناتو څخه لغو "{0}" په برياليتوب سره بشپړ کړ.</SuccessfullyUndoCheckedOutMessage>
+  <SuccessfullyCheckedInMessage>دوتنه: "{0}" په بریالیتوب سره په د کارن لخوا چک "{1}"</SuccessfullyCheckedInMessage>
+  <CheckingInMessage>د کتلو په</CheckingInMessage>
+  <VersionHistoryTitle>دوتنه نسخې "{0}"</VersionHistoryTitle>
+  <VersionHistoryGridNumberColumn>Ver.</VersionHistoryGridNumberColumn>
+  <VersionHistoryGridNotesColumn>یاداښتونه</VersionHistoryGridNotesColumn>
+  <CommandRestoreVersion>بيازېرمل</CommandRestoreVersion>
+  <ProgressPrepareDownloadOldVersion>د زاړه بڼې په کښته چمتو</ProgressPrepareDownloadOldVersion>
+  <FileVersionNotFoundMessage>د ټاکل شوي د دوتنې نسخه نه موندل شو.</FileVersionNotFoundMessage>
+  <ProgressDeletingVersion>نسخه ړنګول</ProgressDeletingVersion>
+  <ProgressRestoringVersion>نسخه اعاده</ProgressRestoringVersion>
+  <FileNeedCheckInMessage>مهرباني وکړئ وګورئ ننوتنه یا د ټاکل شوي دوتنه کې د پوستې څخه لغوه کړي او بیا کوښښ وکړه.</FileNeedCheckInMessage>
+  <FileCheckedOutEditForbiddenMessage>تاسې کولای شی نه تعديلوي / نوم بدلولی / حرکت / دوتنې ړنګول "{0}" په داسې حال کې چې دا له خوا د کارونکي چک څخه "{1}" د {2}</FileCheckedOutEditForbiddenMessage>
+  <FileUploadCheckInLabel>تاسو کولای شئ د ټاکل شوي دوتنه کې وګورئ یا د دوتنې په یو نوي نسخه (د upload لاندی څخه استفاده) پورته. که تاسو غواړی چې د يو ټاکل دوتنې په یو نوې بڼه رامنځته کړي، نه کومه دوتنې دلته پورته.</FileUploadCheckInLabel>
+  <FileUploadCheckInInvalidFileName>د پورته دوتنې نوم بايد کټ مټ د ټاکل شوي دوتنه کې د نوم په شان وي</FileUploadCheckInInvalidFileName>
+  <CheckOutVersionNotes>د دې بڼې جوړ شو اتوماتيک ډول جوړ شو</CheckOutVersionNotes>
+  <RestoreVersionNotes>د دې بڼې وروسته په اتوماتيک ډول څخه د نسخه اعاده جوړ شوي دي {0} د کارونکي "{1}"</RestoreVersionNotes>
+  <IsCheckedOutHint>همدا دوتنه د چک شوي دي</IsCheckedOutHint>
+  <ExistsOldVersionsHint>د دوتنې د نورو نسخې لري</ExistsOldVersionsHint>
+  <IsLockedHint>دوتنه کولپ شوې</IsLockedHint>
+  <FileWasCreatedHint>جوړ شو {0} وړاندې</FileWasCreatedHint>
+  <FileWasModifiedHint>{0} وړاندې دی بدل شوی</FileWasModifiedHint>
+  <CommonChangedAgo>{0} وړاندې</CommonChangedAgo>
+  <DaysShort>d</DaysShort>
+  <HoursShort>h</HoursShort>
+  <MinutesShort>متر</MinutesShort>
+  <FileContainsMetaDataHint>د تصويرونو ځينې تفصيلونه (metadata)</FileContainsMetaDataHint>
+  <FileMetaDataCaptionMobile>مېټاډاټا</FileMetaDataCaptionMobile>
+
+  <ExistsPublicLinksFileHint>د دوتنې د عامه تړنې لري</ExistsPublicLinksFileHint>
+  <ExistsPublicLinksFolderHint>د پوښۍ عامه تړنې لري</ExistsPublicLinksFolderHint>
+  <PublicLinkNotFound>د "{0}" ونه موندل عامه مخونه</PublicLinkNotFound>
+
+  <PublicLinksDeleteWindowTitle>ړنګول عامه مخونه (s)</PublicLinksDeleteWindowTitle>
+  <PublicLinksDeleteLinkButton>مخونه ړنګول</PublicLinksDeleteLinkButton>
+  <PublicLinksDeleteConfirmMsg>تاسو په ډاډمنه توګه غواړئ چې د ټاکل شوي عامه تړنې ړنګ کړئ؟</PublicLinksDeleteConfirmMsg>
+  <PublicLinksDeleteSingleConfirmMsg>آيا تاسو په ډاډمنه توګه غواړئ چې د دې لینک ړنګ کړئ؟</PublicLinksDeleteSingleConfirmMsg>
+
+  <DetailsMultiValue>(څو د ارزښت)</DetailsMultiValue>
+
+  <GridBottomFilesSizeInfo>ټاکل: {0} / {1}،</GridBottomFilesSizeInfo>
+  <GridBottomFilesFoldersInfo>دوتنې: {0} / {1}، د پوښيو: {2} / {3}</GridBottomFilesFoldersInfo>
+
+  <AmountOfDownloadingsFile>دانلود</AmountOfDownloadingsFile>
+
+  <CookiesDisabledMessage>خپل د کتنمل کوکيز فعالیت بدل پړاو. لطفا اړوي دا او بياپيلات کتنمل.</CookiesDisabledMessage>
+
+  <CommandSendEmail>برېښنا لیک ولېږه</CommandSendEmail>
+  <CommandSendWithGmail>د Gmail سره وليږئ</CommandSendWithGmail>
+  <CommandSendWithOutlook>سره Outlook وليږئ</CommandSendWithOutlook>
+  <SendEmailTo>ته</SendEmailTo>
+  <SendEmailBulkMailingListHint>&lt;b&gt; استونې لست &lt;/b&gt; &lt;br /&gt; تاسې کولای شي د ټول ډلو مشخص ته خپل ایمیل ته واستوي</SendEmailBulkMailingListHint>
+  <SendEmailBulkMailingListWindowTitle>خپل ایمیل لپاره د انتخاب تر السه</SendEmailBulkMailingListWindowTitle>
+  <SendEmailEmptyMailingListMessage>د Mail لست تش دی</SendEmailEmptyMailingListMessage>
+  <SendEmailSenderEmail>استوونکی ایمیل</SendEmailSenderEmail>
+  <SendEmailSubject>مضمون</SendEmailSubject>
+  <SendEmailFilesAsLinksTo>ته غوره دوتنې تړنې وليږئ</SendEmailFilesAsLinksTo>
+  <SendEmailFilesAsAttachements>د ټاکل شوي فايلونه په توګه attachments وليږئ</SendEmailFilesAsAttachements>
+  <SendEmailSend>وليږئ</SendEmailSend>
+  <SendEmailProgressMessage>ایمیل لېږل</SendEmailProgressMessage>
+  <GettingMailingListProgressMessage>کوونه پتو لیست</GettingMailingListProgressMessage>
+  <SendEmailSuccessMessage>د برېښليک په برياليتوب سره ولېږل.</SendEmailSuccessMessage>
+  <SendEmailResultsMessage>&lt;br {0} /&gt; کې پاتې راغی: ته وليږدول شوه. {1} {2}.</SendEmailResultsMessage>
+  <SmtpServerSettingsIncorrect>د SMTP-Server انتخابونو يا تش يا ناسم</SmtpServerSettingsIncorrect>
+  <FromEmailIncorrect>د له ایمیل ادرس ناسم وي او يا تش</FromEmailIncorrect>
+  <ToEmailIncorrect>د ایمیل ادرس ناسم وي او يا تش</ToEmailIncorrect>
+  <EmailSubjectEmpty>هغه برېښليک تابع ده مشخصه نه ده</EmailSubjectEmpty>
+  <UploadFromUrlTab>له URL</UploadFromUrlTab>
+  <UploadFromUrlFieldLabel>URL (HTTP يا ايف ټي واحد file)</UploadFromUrlFieldLabel>
+  <UploadFromUrlProgressTitle>له حافظی پورته کول</UploadFromUrlProgressTitle>
+  <UploadFromUrlMsg>له حافظی د پورته</UploadFromUrlMsg>
+  <UploadFromUrlSuccessMsg>"{1}" دوتنه "{0}" په بریالیتوب څخه پورته شوي دي</UploadFromUrlSuccessMsg>
+  <UploadFromUrlUnknownResponse>د پالنګر لخوا ځواب ندی پېژندل شوی</UploadFromUrlUnknownResponse>
+  <UploadFromUrlEmptyFileName>د پورته دوتنې نوم تش دی</UploadFromUrlEmptyFileName>
+  <UploadFromUrlFileName>سره نوم Save (څخه د حافظی د نوم په استعمالولوسره تش ووځي)</UploadFromUrlFileName>
+  <UploadFromUrlFileNameMobile>سره نوم ساتل</UploadFromUrlFileNameMobile>
+  
+  <!-- Common Clouds keys -->  
+  <CloudAuthenticateMessage>تاسو بايد د {0} سئ. "{1}" سره تړنې لري کېکاږئ او تاسو به د د ننوتل فورمه ته اړول شي. {2} خپی. {3}</CloudAuthenticateMessage>
+  <CloudAuthenticateLink>سره یادکس {0}</CloudAuthenticateLink>  
+  <CloudDownloadingMessage>ته دمطلب {0}</CloudDownloadingMessage>
+  <CloudAuthWarningMessage>که د عمل اوسه دا کار نه، مهرباني وکړئ دا کړکۍ وتړي او بيا د «{0}" سره تړنې لري کلیک وکړئ.</CloudAuthWarningMessage>
+  <CloudAuthEmptyInvalidMessage>{0} د لاسرسي د نښې تش یا ناباوره دی. لطفا یادکس بیا.</CloudAuthEmptyInvalidMessage>
+  <CloudDownloadEndMessageTitle>دانلود کړې پای ته</CloudDownloadEndMessageTitle>
+  <CloudDownloadFilesSuccessMessage>{0} د دوتنې (s) په بریالیتوب سره چې د "{1}" {2} پوښۍ کښته.</CloudDownloadFilesSuccessMessage>
+  <CloudNotDownloadedFilesMessage>{0} د دوتنې (s) نه ښکته:</CloudNotDownloadedFilesMessage>
+  <CloudFoldersCreatedSuccessMessage>{0} د پوښيو (s) په بریالیتوب سره په "{1}" {2} پوښۍ جوړ.</CloudFoldersCreatedSuccessMessage>
+  <CloudNotFoldersCreatedMessage>{0} د پوښيو (s) نه دي پيدا کړي:</CloudNotFoldersCreatedMessage>
+  <CloudFilesFoldersSuccessMessage>{0} د دوتنې (ونه)، د {1} دادوسیه (s) په بریالیتوب سره چې د "{2}" {3} پوښۍ کښته.</CloudFilesFoldersSuccessMessage>
+  <CloudNotFilesFoldersDownloadedMessage>{0} د دوتنې (ونه)، د {1} دادوسیه (s) نه ښکته:</CloudNotFilesFoldersDownloadedMessage>
+  <CloudLinkText>سفر {0}</CloudLinkText>
+  <CloudLinkDescription>{0} مخ ته ولاړ شئ</CloudLinkDescription>
+  <CloudRootFolderName>&lt;b&gt; {0} وليز پوښۍ &lt;/b&gt;</CloudRootFolderName>
+  <CloudCheckFolerMessage>لطفا یو واحد {0} فولډر وګورئ ته دوام ورکړي.</CloudCheckFolerMessage>
+  <CloudSelectFolderMessage>لطفا د {0} پوښۍ وټاکئ ته دوام ورکړي.</CloudSelectFolderMessage>
+  <CloudGetFoldersInfoProgressMessage>Loading {0} د پوښيو معلومات</CloudGetFoldersInfoProgressMessage>
+  <CloudGetItemsInfoProgressMessage>Loading {0} په پېژندتورو معلومات</CloudGetItemsInfoProgressMessage>
+  <CloudUploadSelectItemsMessage>لطفا د {0} توکي چې د دوام ټاکي.</CloudUploadSelectItemsMessage>
+  <CloudUploadTotalFiles>Total دوتنې: {0} ({1})</CloudUploadTotalFiles>
+  <CloudUploadProgressMessage>څخه د پورته {0}</CloudUploadProgressMessage>
+  <CloudSignInAsDifferentUserText>له logout {0}</CloudSignInAsDifferentUserText>
+  <CloudLogoutProgressMsg>له logout {0}</CloudLogoutProgressMsg>
+  <CloudRevokeTokenMsg>ریاسېت نښه</CloudRevokeTokenMsg>
+  <CloudRefreshTokenMsg>تازه نښه</CloudRefreshTokenMsg>
+  <CloudAuthNotCompleteMsg>اعتبار نه وي بشپړ کړی. &lt;br /&gt; مهرباني</CloudAuthNotCompleteMsg>
+  <CloudTrustedSitesMsg> &lt;br /&gt; &lt;br /&gt;: وګورئ لاندې په "باور ځايونه" لست ځايونه</CloudTrustedSitesMsg>
+  <TrustedSitesForMicrosoftEdge>که تاسو د Microsoft برخې په کارولو سره، بيا د Internet Explorer د باوري Sites وګورئ</TrustedSitesForMicrosoftEdge>
+  <CloudCheckAuthMsg>وګورئ {0} اعتبار</CloudCheckAuthMsg>
+  <CloudLoadMsg>Loading {0}</CloudLoadMsg>
+  <CloudFreeSpaceError>په {2} د دوتنې پرته له سختولو دومره ځای نه شته. ښه: {0}. د دوتنې کچه: {1}.</CloudFreeSpaceError>
+  <CloudFreeSpaceExceeded>کې پوره خونې نه شته {0}</CloudFreeSpaceExceeded>
+  <CloudExceedFileSizeError>دوتنه تاسو هڅه کوي د وورد لري د {1} يو د دوتنې کچه، چې د دانلود لپاره د اعظمي مجاز اندازې په پرتله زیاته ده - {0}.</CloudExceedFileSizeError>
+  <CloudFolderNotFound>Directory ده ونه موندل شو. ښايي دا ړنګ شوی</CloudFolderNotFound>
+  <CloudFileNotFound>دوتنه ونه موندل شو. ښايي دا ړنګ شوی</CloudFileNotFound>
+  <CloudNoFoldersMessage>د پوښيو نه ښودلو لپاره شتون لري</CloudNoFoldersMessage>
+  <CloudLibraryNotLoadedMsg>{0} د مراجعینو کړی هم نه بار! &lt;br /&gt; مهرباني انټرنېټ پیوستون وګوره او یا مخ. &lt;br /&gt; تازه</CloudLibraryNotLoadedMsg>
+  <CloudDownloadWithNewNames>وروسته د دوتنې (s) کښته سره نوي نومونه:</CloudDownloadWithNewNames>
+
+  <!-- Google Drive Cloud keys -->
+  <CommandDownloadToGoogleDocs>د Google Drive دانلود</CommandDownloadToGoogleDocs>
+  <GoogleDocsSaveAs>په توګه وژغوري:</GoogleDocsSaveAs>
+  <GoogleDocsSaveAsTitle>Save "{0}" په توګه ...</GoogleDocsSaveAsTitle>
+  <GoogleDocsDownloadEndWarningMessage>که تاسو نه شي کولای په خپل ګوګل Drive حساب د پورته اسناد وګوري، یو څو ثانیو انتظار او د Google Drive لست تازه.</GoogleDocsDownloadEndWarningMessage>
+  <GoogleDriveUploadNoFilesMessage>په ګوګل Drive لپاره upload نه دوتنې</GoogleDriveUploadNoFilesMessage>
+  <GoogleDriveMaxUploadSizeError>د محتوا د-ډول "د {0}" د پورته اعظمي اندازه {1} ده نه اوړي.</GoogleDriveMaxUploadSizeError>
+  <GoogleDriveConvertMsg>که دا ممکنه ده، د ګوګل د Documents format دوتنې بدلوي. {0} خپی {1}.</GoogleDriveConvertMsg>
+
+  <!-- Box Cloud keys -->
+  <CommandDownloadToBox>دانلود د چوکاټ</CommandDownloadToBox>
+  <BoxDownloadWithNewNames>دغه لانديني دوتنې (ص) سره د نوي نسخې تازه شوي دي:</BoxDownloadWithNewNames>
+  <BoxNoViewPermission>تاسو ته د ټاکل شوي نوملړ د کتلو اجازه نه لرۍ</BoxNoViewPermission>
+  <BoxNoDownloadPermission>تاسو د وورد اجازه نه لرۍ</BoxNoDownloadPermission>
+  <BoxNoUploadPermission>تاسو پورته اجازه نه لرۍ</BoxNoUploadPermission>
+  <BoxUnableCreateOrInfoError>د جوړولو او يا د معلوماتو ترلاسه کولو توان نلري</BoxUnableCreateOrInfoError>
+  
+  <!-- Dropbox Cloud keys -->
+  <CommandDownloadToDropbox>ته Dropbox دانلود</CommandDownloadToDropbox>
+  
+  <!-- OneDrive Cloud keys -->
+  <CommandDownloadToSkyDrive>دانلود ته OneDrive</CommandDownloadToSkyDrive>
+  <AuthenticateOAuthSkyDriveMessageShort>تاسو باید د خپل د Microsoft ژوندۍ ګڼون يادښت د.</AuthenticateOAuthSkyDriveMessageShort>
+  <SkyDriveAuthAlsoString>هم</SkyDriveAuthAlsoString>
+  <SkyDriveLoginButtonTitle>د ننه کیدل</SkyDriveLoginButtonTitle>
+  <SkyDriveRegistryMessage>آيا يو Windows Live تذکرې نه لري؟ {0} اېن بیا ... د {1}</SkyDriveRegistryMessage>
+  <SkyDriveMapRootFolder>نوټ! تاسو د {0} نقشه {1} ستاسو OneDrive دادوسیه خلاصه شي. يونلور ده</SkyDriveMapRootFolder>
+  <SkyDriveMoreInfoLink>{0} OneDrive (SkyDrive) په اړه نور معلومات د {1}</SkyDriveMoreInfoLink>
+  <OneDriveMaxUploadSizeError>د منلو اندازه ({0}) د پورته دوتنه د اوړي: {1}</OneDriveMaxUploadSizeError>
+  <!-- OneDrive for Business -->
+  <OneDriveForBusinessMapWebFolderInfo>&lt;b&gt; نوټ! &lt;/b&gt; مخکې په دې ځای دوتنې پرانيستلو، تاسو بايد لومړی د وېب پاڼې د ستاسو د باور ځايونو لست اضافه، چې د وېب پاڼې د وګوری، او غورونه وټاکئ او ته په اتوماتيک ډول login (په IE لټووني).</OneDriveForBusinessMapWebFolderInfo>
+  
+  <UploadFromUrlLabelText>تاسو کولای شئ د يو فايل په يو د نړېوالې دوتنې سرور او يا په يوه دوتنه شریکولو په شان خدمت زيرمه د URL مشخص {0}، {1}، {2}، {3}، {4}.</UploadFromUrlLabelText>
+  <UploadFromUrlLabelTextMobile>د دوتنې د URL ليکئ</UploadFromUrlLabelTextMobile>
+
+  <LinkToFileTitle>مخونه چې د دوتنې / پوښۍ</LinkToFileTitle>
+  <LinkToFileWarningAnonym>دا لینک د برابروي د دوتنې بې نومه ته لاسرسی لري. هر د کارونکي عکس، آن يو چې په دې ځای نه په پام کې لري، ښايي د نیولو او یا د عامه لارې دوتنې پرته له سختولو. له يو دوتنې عامه لینک تاسو ته اجازه یو غوره '' د نیولو. {0} خپی {1}.</LinkToFileWarningAnonym>
+  <LinkToFileDownloadFileLink>دا لینک تاسو ته اجازه څخه {1} د ټاکل شوي دوتنه {0} دانلود. تاسو يو د اعتبار وړ حساب بايد دا لینک وکاروئ. دا د دوتنې نوم يې لاسرسی نه برابروي.</LinkToFileDownloadFileLink>
+  <LinkToFileExpireDate>له کاره وتنې نېټه</LinkToFileExpireDate>
+  <LinkToFileDownloadCnt>دانلود شمېرنې حد</LinkToFileDownloadCnt>
+  <LinkToFileDownloadType>لینک ډول</LinkToFileDownloadType>
+  <LinkToFileGenerate>مخونه جوړول</LinkToFileGenerate>
+  <LinkToFilePasswordNotMatch>شفرونه سمون نه</LinkToFilePasswordNotMatch>
+  <LinkToFilePasswordRequired>د عامه تړنه پټنوم ته اړتيا ده</LinkToFilePasswordRequired>
+  <LinkToFileInvalidForm>باطلې پارامترونو</LinkToFileInvalidForm>
+  <LinkToFileAnonymDownloadLinkHint>د عامه مخونه چې د "{0}":</LinkToFileAnonymDownloadLinkHint>
+  <LinkToFileAnonymDownloadShortLinkHint>د لنډ عامه مخونه چې د "{0}":</LinkToFileAnonymDownloadShortLinkHint>
+  <LinkToFileOpenFolderLink>دا لینک تاسو ته اجازه درکوي چې په {1} د ټاکل شوې پوښۍ {0} دابرخه. تاسو يو د اعتبار وړ حساب بايد دا لینک وکاروئ. دا د پوښۍ نوم يې لاس رسی نه برابروي.</LinkToFileOpenFolderLink>
+  <LinkToFileOpenFileLink>دا لینک سره د دوتنې د پوښۍ پرانيستل شوه او په ګوته کوي دا</LinkToFileOpenFileLink>
+  <LinkToFileDaysLeft>ورځې پاتې</LinkToFileDaysLeft>
+  <LinkToFileCaptionMobile>د عامه تړنې</LinkToFileCaptionMobile>
+
+  <PublicFolderLinkHint>د عامه مخونه چې د دادوسیه "{0}":</PublicFolderLinkHint>
+  <PublicFolderShortLinkHint>لنډ عامه مخونه چې د دادوسیه "{0}":</PublicFolderShortLinkHint>
+  <PublicFolderLinkDownloadZipHint>دانلود لپاره د دادوسیه زيب آرشيف مخونه چې د "{0}":</PublicFolderLinkDownloadZipHint>
+  <PublicFolderLinkShortDownloadZipHint>د دادوسیه زيب آرشيف لنډ دانلود مخونه چې د "{0}":</PublicFolderLinkShortDownloadZipHint>
+  <PublicFolderLinkZipDownload>نښتيځيل او اوسني پوښۍ {0} دانلود (په يو ZIP ارشيف)</PublicFolderLinkZipDownload>
+  <PublicFolderLinkOverwriteWhileUpload>موجوده ځاېناستول</PublicFolderLinkOverwriteWhileUpload>
+  <PublicFolderLinkOpenFolderHint>دادوسیه</PublicFolderLinkOpenFolderHint>
+  <PublicFolderDownloadDisabledNote>نوټ! د دادوسیه خاوند دادوسیه څخه فایلونو کښته کول منع وو.</PublicFolderDownloadDisabledNote>
+  <PublicFolderLinkSendEmails>معلومات نندارچيانو فعاليت بریښنالیکونو په اړه وليږئ</PublicFolderLinkSendEmails>
+  <PublicFolderAnonymAccessControl>رسي مهار</PublicFolderAnonymAccessControl>
+  <PublicFolderAnonymDownload>دانلود دوتنې</PublicFolderAnonymDownload>
+  <PublicFolderAnonymZipDownload>دانلود پوښيو (ZIP)</PublicFolderAnonymZipDownload>
+  <PublicFolderAnonymUpload>پورته کول</PublicFolderAnonymUpload>
+  <PublicFolderAnonymViewContent>محتویات دوتنې لست</PublicFolderAnonymViewContent>
+  <PublicFolderNoteForUsers>د کاروونکو لپاره د نوټ</PublicFolderNoteForUsers>
+  <PublicFolderACLNotSet>رسي مهار نه ده ټاکل</PublicFolderACLNotSet>
+  <PublicFolderWarningAnonym>دا لینک د برابروي د پوښۍ نوم يې لاسرسی لري. هر د کارونکي عکس، آن يو چې په دې ځای نه په پام کې لري، ښايي د نیولو او یا د عامه لارې دوتنې پرته له سختولو. د پوښۍ چې د عامه لینک تاسو ته اجازه درکوي دواړه د ټول دادوسیه (په آرشيف ډک) او د انفرادي دوتنې دانلود. {0} خپی {1}.</PublicFolderWarningAnonym>
+  <PublicLinksShowForAllItems>د ټولو لپاره د وښایاست</PublicLinksShowForAllItems>
+  <PublicLinksShowForSelected>لپاره ټاکل وښایاست</PublicLinksShowForSelected>
+  
+  <MultipleFileInputMessage>نوټ! د خپل د کتنمل څو دوتنو د انتخاب په يو وخت څخه ملاتړ کوي.</MultipleFileInputMessage>
+  <UploadZipUnzipNote>تاسی کولای شی یو له څو فايلونه او دوسيې د زيب آرشيف پورته او بيا د استخراج دا، چې په تړاو غورنۍ "{0}" قومانده کاروي.</UploadZipUnzipNote>
+  <DnDFileUploadingStatusCode>وضعیت کوډ</DnDFileUploadingStatusCode>
+  <DnDFileUploadingPathOrNameEmpty>په لاره کې او یا د دوتنه نوم دي څرګندې نه دي</DnDFileUploadingPathOrNameEmpty>
+  <DnDFileUploadingRemoveFromList>له لیست څخه وباسي</DnDFileUploadingRemoveFromList>
+  <DndFileUploadingDontDropFoldersMsg>تاسو کولای راکاږي او دوتنو په لاندې جدول کې ولویږي. تاسو نه شي کولای د پوښيو لر.</DndFileUploadingDontDropFoldersMsg>
+  <DndFileUploadingAllowDropFoldersMsg>تاسو کولای ځنډيږي او فايلونه او دوسيې په لاندې جدول کې ولویږي.</DndFileUploadingAllowDropFoldersMsg>
+  <DndFileUploadingFilesSummaryInfo>د دوتنې د شمېرنې: {0} ({1})</DndFileUploadingFilesSummaryInfo>
+  <DropFilesHere>فایلونه پورته</DropFilesHere>
+  
+  <FileGridDownloadColumn>دانلود دوتنې</FileGridDownloadColumn>
+  <FileAttributesField>صفات</FileAttributesField>
+  <FolderCalculateSize>محاسبه</FolderCalculateSize>
+  <FolderRecalculateSize>Recalculate</FolderRecalculateSize>
+  <FolderContainsField>د تصويرونو</FolderContainsField>
+  <FolderContainsFilesFolders>{0} دوتنو، {1} پوښۍ</FolderContainsFilesFolders>
+  <FolderCalculatingMessage>محاسبه کول</FolderCalculatingMessage>
+
+  <SearchTitle>د دوتنې د لټون. موجود د نمونو: {0}</SearchTitle>
+  <SearchType>د لټون</SearchType>
+  <SearchOnlyFiles>يوازې د دوتنې</SearchOnlyFiles>
+  <SearchOnlyFolders>يوازې د پوښيو</SearchOnlyFolders>
+  <SearchBothFilesFolders>دواړو فايلونه او دوسيې د</SearchBothFilesFolders>
+  <SearchFileDetails>دوتنه تفصیل</SearchFileDetails>
+  <SearchFileContent>د دوتنې منځپانګې</SearchFileContent>
+  <SearchByDateFrom>له</SearchByDateFrom>
+  <SearchByDateTo>ته</SearchByDateTo>
+  <SearchLocation>د ځای</SearchLocation>
+  <SearchLocationEntire>هر ځای</SearchLocationEntire>
+  <SearchLocationCurrent>اوسني</SearchLocationCurrent>
+  <SearchSearch>د لټون</SearchSearch>
+  <SearchNothingFound>هیڅ وموندل شو! لورينه وکړئ خپل د پلټنې معیارونه چاڼ.</SearchNothingFound>
+  <SearchErrorCaption>د لټون تېروتنه</SearchErrorCaption>
+  <SearchResultsNotComplete>پاملرنه! د لټون پایلې ښايي نابشپړ وي لکه څنګه چې ځينې پوښيو تر اوسه نه دي په زیرمه.</SearchResultsNotComplete>
+  <SearchRepeatOrContactAdmin>لورينه وکړئ خپل د لټون بيا وروسته هڅه او یا ستا د مدیر سره اړیکه.</SearchRepeatOrContactAdmin>
+  <SearchLinkToManual>د {0} Windows لټون مرسته مراجعه {1}</SearchLinkToManual>
+  <QuerySearchByNameText>په نوم پلټل</QuerySearchByNameText>
+  <QuerySearchByConentText>له خوا د محتوا</QuerySearchByConentText>
+  <SearchByDetailsWarning>پاملرنه! تاسو په امستنې چې تاسو به له خوا د ملکیتونو د لټون استفاده غواړم کې مشخص شوي دي. په دې صورت کې، د لټون کې به ترسره شي، د دې پرځای د يوې معياري ميتود څخه استفاده د Windows اوډنه د خدمتونو په کارولو.</SearchByDetailsWarning>
+  <SearchInSpecialFolderWarning>پاملرنه! پلټنه د اوسني پوښۍ تطبيق وړ نه ده. که تاسو ته دوام ورکړي، د پلټنې به په ټولو ډایرکټرۍ ترسره شي.</SearchInSpecialFolderWarning>
+
+  <UploadTitle>د څو ګونو دوتنو د پورته</UploadTitle>
+  <UploadSimpleTab>معياري</UploadSimpleTab>
+  <UploadSimpleReset>Reset</UploadSimpleReset>
+  <UploadSimpleUpload>پورته کول</UploadSimpleUpload>
+  <UploadSimpleUploadFolderLabelCollapsed>upload پوښۍ</UploadSimpleUploadFolderLabelCollapsed>
+  <UploadSimpleUploadFolderButtonText>انتخاب پوښۍ</UploadSimpleUploadFolderButtonText>
+  <UploadJavaTab>جاوا</UploadJavaTab>
+  <UploadJavaIgnorePaths>د ټولو دوتنو په يوه پوښۍ کیږدۍ (يونلورونه پامه)</UploadJavaIgnorePaths>
+  <UploadFlashTab>فلش</UploadFlashTab>
+  <UploadSilverlightTab>Silverlight</UploadSilverlightTab>
+  <UploadPartially>د دوتنو د ځينو نه پورته کېدای شي</UploadPartially>
+  <UploadFolderNotSelectedTitle>دادوسیه خلاصه نه ده ټاکل</UploadFolderNotSelectedTitle>
+  <UploadFolderNotSelected>مهرباني وکړئ هغه فولډر ته چې د دوتنو به د پورته کېدای شي وټاکئ</UploadFolderNotSelected>
+  <UploadInProgress>ستاسو د دوتنو د پورته</UploadInProgress>
+  <UploadInvalidFormFields>فورمه برخو ښايي په ناباوره ارزښتونو نه وسپارل شي</UploadInvalidFormFields>
+  <UploadAjaxFailed>Ajax اړیکو کې پاتې راغلي</UploadAjaxFailed>
+  <UploadFilesAlreadyExists>د دوتنې (s) د مخکې نه شتون</UploadFilesAlreadyExists>
+  <UploadOverwriteFiles>موجوده دوتنې به overwritten شي. آيا تاسو غواړئ چې لاړ؟</UploadOverwriteFiles>
+  <UploadOverwriteOrRenameFiles>يو يا زيات دوتنې سره په نوملړ تا مشخص د خوړونکی نومونه شته. ایا ته غواړې چې د موجوده دوتنې توګه ځاېناستول غواړئ؟ کلیک "{0}" که تاسو غواړی د پخوا موجوده دوتنې ځاېناستول او یا "د {1}" - که چیری تاسو غواړی د ټولو دوتنو د ساتلو (دوی به ونومول شي).</UploadOverwriteOrRenameFiles>
+  <UploadNotModifyExistingFiles>يو يا زيات د دوتنې سره د سارو په نومونو کې چې ډايرکټري مو تا مشخص شتون لري. د دوتنو د پورته نه شي. لطفا د upload له لست څخه د موجوده دوتنې لیرې کولو یا نوم بدلولی يې.</UploadNotModifyExistingFiles>
+  <UploadRenamedExistingFiles>يو يا زيات د دوتنې سره د سارو په نومونو کې چې ډايرکټري مو تا مشخص شتون لري. سره سارو نومونه دوتنې به ونومول شي.</UploadRenamedExistingFiles>
+  <UploadNotAllowedTitle>د پورته کولو اجازه نشته</UploadNotAllowedTitle>
+  <UploadNotAllowedPrompt>تاسې کولای شی نه دادوسیه دوتنې پرته له سختولو</UploadNotAllowedPrompt>
+
+  <UploadMobileIOSVideo>پورته video. دغه انتخاب فعال که تاسو ته اړتيا ویډیو د دوتنې پورته کول.</UploadMobileIOSVideo>
+  <UploadMobileAurigmaLink>په ياد ولرئ چې تاسو باید Aurigma ځلمکیان لري! په موخه چې دوتنې پورته ستاسو آله نصب. دلته تپه د لګولو Aurigma ځلمکیان! لپاره د پورته تصويرونه او ویډیو درخواست.</UploadMobileAurigmaLink>
+  <UploadMobileAurigmaReady>وروسته Aurigma ځلمکیان! ده نصب او که چیري تاسو دا نصب، مطبوعاتي د "پورته کول" تڼی په لاندي ډول دي.</UploadMobileAurigmaReady>
+  <UploadMobileAurigmaFilePrefix>د پورته شويو دوتنو مختاړی</UploadMobileAurigmaFilePrefix>
+  <UploadMobileResult>پورته پایله:</UploadMobileResult>
+  <UploadMobileUrlPlaceHolder>دلته د URL وليکئ</UploadMobileUrlPlaceHolder>
+  <UploadMobileFileNamePlaceHolder>دلته د نوي دوتنې نوم وليکئ</UploadMobileFileNamePlaceHolder>
+  <UploadBrowseLabel>څريدل د ښارونو له ...</UploadBrowseLabel>
+  
+  <MobileToolTipsCaption>تاسو پوهيږئ چې د ...</MobileToolTipsCaption>
+  <MobileToolTipsNextButton>بل د نوک</MobileToolTipsNextButton>
+  <MobileToolTipsIKnowButton>زه پوهیږم چې دا</MobileToolTipsIKnowButton>
+  <MobileToolTipsHideButton>هيڅکله وښيي</MobileToolTipsHideButton>
+  <MobileToolTipsMultiSelection>څو دوتنې يا پوښۍ ټاکلو، تاسو بايد د څو ټاکلو اکر له خوا د ملیت په &lt;b&gt; {0} &lt;/b&gt; تڼی په خاطر. بيا دا تپه څخه د څو ټاکلو اکر ووځې.</MobileToolTipsMultiSelection>
+  <MobileToolTipsSlideToRemove>تاسو کولای شئ له حق ته غورځیدلی شي تر څو د لست کې د اقلامو هر ډول پاتې لرې. په بکسه کې یو لرې تڼی به د لست توکی په سر ځوړند وي.</MobileToolTipsSlideToRemove>
+  <MobileToolTipsTapAndHoldForMenu>تپه او د لست کې د اقلامو هر جوړې د تړاو غورنۍ وښيي. په همدې تړاو غورنۍ له خوا tap نندارې ته په 'د افشاء کولو' تڼی</MobileToolTipsTapAndHoldForMenu>
+  <MobileToolTipsDoubleTapForPreview>په دوتنه مجرد tap غوره کولولياره دا، دوه tap ته مخکتنه یا دانلود دا. په پوښۍ مجرد tap دا دابرخه.</MobileToolTipsDoubleTapForPreview>
+  <MobileToolTipsPullDownToRefresh>لست کشيدونکي دا د منځپانګې بيا راولېښئ.</MobileToolTipsPullDownToRefresh>
+  <MobileToolTipsPinchToScale>تاسو کولی شئ 'غونج' حرکت څخه د زیږنده ده-او-زیږنده ده څخه انځورونه.</MobileToolTipsPinchToScale>
+  <MobileToolTipsTapToHideBars>هر ځای د انځور له ويناوالو تپه د توکپټې څرنګتیاونج.</MobileToolTipsTapToHideBars>
+  <MobileToolTipsSlideLeftRightToNext>د انځورونو سره سالیډ حرکت ونجول.</MobileToolTipsSlideLeftRightToNext>
+
+  <DownloadToCloudMobileTip>مجرد tap ته پوښۍ، چې دا دابرخه دوه tap ټاکي.</DownloadToCloudMobileTip>
+  
+  <UploadTotalMaxSizeMessage>نوټ! د ټولو پخونيو پورته شويو دوتنو اعظمي اندازه باید زیات نشي {0}.</UploadTotalMaxSizeMessage>
+  <UploadOneFileMaxSizeMessage>نوټ! د هر پورته دوتنې اعظمي اندازه باید زیات نشي {0}.</UploadOneFileMaxSizeMessage>
+  <UploadUnlimitedSizeMessage>نوټ! د پورته شويو دوتنو اندازه نامحدود.</UploadUnlimitedSizeMessage>
+  <SimpleUploadSetFileNameNote>نوټ 2! د یوې دوتنې د انتخاب وروسته تاسو کولای شي په نوم چې دوتنه به upload وروسته لري تعديلوي</SimpleUploadSetFileNameNote>
+
+  <AnonymousUploadTitle>د دې پوښۍ دوتنې پرته له سختولو</AnonymousUploadTitle>
+  <AnonymousUploadDescription>تاسې کولای شی چې دوتنې پورته دادوسیه. لاندې د "وګوری" تڼۍ کېکاږئ او دوتنې ټاکلی.</AnonymousUploadDescription>
+  <AnonymousUploadOverwriteHint>که پورته دوتنه د مخکې نه شتون لري، چې دا به بدل شي.</AnonymousUploadOverwriteHint>
+  <AnonymousUploadShowUploadHint>انکړپټه ښودل upload فورمه</AnonymousUploadShowUploadHint>
+  <AnonymousUploadHideUploadHint>پټول upload فورمه</AnonymousUploadHideUploadHint>
+  <AnonymousUploadNewFolderNameHint>په ساحه کې په لاندې تاسي کولای شئ د subdirectory نوم وښايئ (فولډر به جوړ شي که نه شته) په کوم کې چې د دوتنو به پورته کېدای شي:</AnonymousUploadNewFolderNameHint>
+  <AnonymousUploadCompleteTitle>د پوښۍ چې د پورته {0} بشپړ</AnonymousUploadCompleteTitle>
+  <AnonymousUploadExistsFilesMessage>دغه لانديني دوتنې (s) شوی نه دی پورته ځکه د دوتنې (s) د ورته نوم (s) لا شتون لري: {0}.</AnonymousUploadExistsFilesMessage>
+  <AnonymousUploadOwnersNote>د پوښۍ خاوند څخه یادونه</AnonymousUploadOwnersNote>
+  <AnonymousDownloadPageTitle>دانلود فایل</AnonymousDownloadPageTitle>
+  <AnonymousDownloadFileHint>دانلود فایل</AnonymousDownloadFileHint>
+  <AnonymousUploadPageTitle>پورته ته پوښۍ</AnonymousUploadPageTitle>
+  <AnonymousPublicFolderPageTitle>د عامه پوښۍ</AnonymousPublicFolderPageTitle>
+  <AnonymousLoginAccessUserFailure>تاسو د حساب چې د سرچینو ته لاسرسې نه لري غونډال کې کوو. لورينه وکړئ خپل د لاس رسي د نورو باورلیک ته ننوځي. که تاسو يې نه پوهيږم، لطفا د عامه لینک یا د خپل اداري د خاوند سره تماس ونيسئ.</AnonymousLoginAccessUserFailure>
+  <ProgressGettingAnonymLink>د عامه تړنه رامنځته</ProgressGettingAnonymLink>
+  <ProgressGettingAnonymLinks>بې نومه تړنې ترلاسه کول</ProgressGettingAnonymLinks>
+  <ProgressGettingBoxViewLink>کوونه بکس View مخونه</ProgressGettingBoxViewLink>
+  <AutodeskScriptNotIncludedMessage>کیدای شي Autodesk کتونکی سکرېپټ نه شي لېښلی</AutodeskScriptNotIncludedMessage>
+  <ProgressUninitializeAutodeskViewer>تړل د Autodesk کتونکی</ProgressUninitializeAutodeskViewer>
+  <ProgressGettingAutodeskViewLink>کوونه Autodesk View معلومات</ProgressGettingAutodeskViewLink>
+  <AnonymousChangeLanguageHint>ژبه غوره کول</AnonymousChangeLanguageHint>
+  <AnonymousUpLinkHint>د مور او پلار پوښۍ Return</AnonymousUpLinkHint>
+  <AnonymousPasswordDescription>د پوښۍ ده پټنوم ژغورلی</AnonymousPasswordDescription>
+  <AnonymousPasswordIncorrectMessage>د پټنوم ناسم وي</AnonymousPasswordIncorrectMessage>
+  <AnonymousErrorTitle>د عامه تړنه تېروتنه</AnonymousErrorTitle>
+  <AnonymousErrorNotFound>د عامه مخونه چې د "{0}" نه موندل!</AnonymousErrorNotFound>
+  <AnonymousErrorAccessDenied>تاسو د عامه لینک وکاروئ اجازه نه لرو "{0}"</AnonymousErrorAccessDenied>
+  <AnonymousErrorFileNotFound>د عامه مخونه چې د "{0}" د يو غير موجوده دوتنې ته اشاره کوي او يا پوښۍ یا NTFS ته لاسرسی د لوستلو دی رد</AnonymousErrorFileNotFound>
+  <AnonymousErrorUnknownLinkType>د عامه مخونه چې د "{0}" ونه موندل شو</AnonymousErrorUnknownLinkType>
+  <AnonymousSendEmailSubject>کارنانو د عامه پوښۍ فعالیت</AnonymousSendEmailSubject>
+  <AnonymousSendEmailUploadBody>دا لاندينۍ دوتنې ستاسو د عامه پوښۍ پورته شوي {0}: {1}.</AnonymousSendEmailUploadBody>
+  <AnonymousSendEmailDownloadBody>همدا دوتنه د {0} ستاسو د عامه پوښۍ {1} څخه کښته شوی و.</AnonymousSendEmailDownloadBody>
+  <AnonymousSendEmailZipDownloadBody>د {0} د عامه پوښۍ ټوله محتوا په يوه ZIP آرشيف کښته شوی و.</AnonymousSendEmailZipDownloadBody>
+  <AnonymousViewLinksButton>محتویات تړنې</AnonymousViewLinksButton>
+  <AnonymousViewLinksHint>د موجوده عامه تړنې کتل</AnonymousViewLinksHint>
+  <AnonymousViewLinksWindowTitle>د عامه تړنې</AnonymousViewLinksWindowTitle>
+  <AnonymousViewLinksDateCreatedColumn>جوړېدنې نېټه</AnonymousViewLinksDateCreatedColumn>
+  <AnonymousViewLinksDateExpiredColumn>له کاره وتنې نېټه</AnonymousViewLinksDateExpiredColumn>
+  <AnonymousViewLinksPermissionColumn>د اجازې د</AnonymousViewLinksPermissionColumn>
+  <AnonymousViewLinksDownloadedColumn>د کوونې ووتل</AnonymousViewLinksDownloadedColumn>
+  <ProgressDeletingAnonymousLink>ړنګول عامه مخونه</ProgressDeletingAnonymousLink>
+  <ProgressSavingAnonymousLink>د سپما لپاره د عامه مخونه</ProgressSavingAnonymousLink>
+  <AnonymousEditLinkWindowTitle>د عامه مخونه د سمولو "{0}"</AnonymousEditLinkWindowTitle>
+  <AnonymousEditLinkShowUrl>انکړپټه ښودل مخونه</AnonymousEditLinkShowUrl>
+  <AnonymousEditLinkNotFound>د عامه تړنه ده ونه موندل او يا د هغې د اعتبار د مودی څخه تېر شوی دی</AnonymousEditLinkNotFound>
+
+  <AnonymousLinkSendViaButton>وليږئ له لارې ...</AnonymousLinkSendViaButton>
+  <AnonymousLinkSendViaEmailItem>دبرېښنا ليک ...</AnonymousLinkSendViaEmailItem>
+  <AnonymousLinkSendButton>برېښناليک له لارې وليږئ ...</AnonymousLinkSendButton>
+  <AnonymousLinkSendSubject>ويب دوتنه د مدير د عامه لینک</AnonymousLinkSendSubject>
+
+  <AnonymousLinkAdvOptTitle>اضافي پارامترونو</AnonymousLinkAdvOptTitle>
+  <AnonymousLinkViewTypeButton>لینک محتویات</AnonymousLinkViewTypeButton>
+  <AnonymousLinkViewTypeDefault>بشپړ</AnonymousLinkViewTypeDefault>
+  <AnonymousLinkViewTypeShort>لنډ</AnonymousLinkViewTypeShort>
+
+  <AnonymousLinkShowCommentsLabel>وښایاست توضيحات، لیبلونه او تبصرې</AnonymousLinkShowCommentsLabel>
+  <AnonymousLinkShowCommentsShort>انکړپټه ښودل تبصرې</AnonymousLinkShowCommentsShort>
+
+  <QRCodeButton>QR کوډ</QRCodeButton>
+
+  <AnonymousLinkLimitedAccessTitle>محدود لاسرسی</AnonymousLinkLimitedAccessTitle>
+  <AnonymousLinkLimitAccessCheckBox>يوازې د مشخص په کره کاروونکو لاس رسی محدود</AnonymousLinkLimitAccessCheckBox>
+  <AnonymousLinkLimitAccessTextArea>د کارنانو نومونه یا ایمیل (comma جلا) ډول</AnonymousLinkLimitAccessTextArea>
+  <AnonymousLinkLimitAccessSendCheckBox>خبرتیاوې د مشخص کاروونکو وليږئ</AnonymousLinkLimitAccessSendCheckBox>
+  <AnonymousLinkLimitAccessPersMsgLabel>شخصي پېغام (اختیاري)</AnonymousLinkLimitAccessPersMsgLabel>
+  <AnonymousLinkLimitAccessPassAndUsersMsg>تاسو په ورته وخت کې د تړنه لاسرسی خپل پټنوم او کاروونکو مشخص شوې دي. لطفا څه یو مشخص.</AnonymousLinkLimitAccessPassAndUsersMsg>
+  <AnonymousLinkLimitAccessUsersNotFound>د کاروونکي:
+    {0}
+    نه شتون</AnonymousLinkLimitAccessUsersNotFound>
+  <AnonymousLinkLimitAccessEmailsNotFound>د برېښناليک:
+    {0}
+    نه شتون</AnonymousLinkLimitAccessEmailsNotFound>
+  <AnonymousLinkLimitAccessUsersEmailsNotFound>د کاروونکي:
+    {0}
+    او برېښلیکونه:
+    {1}
+    نه شتون</AnonymousLinkLimitAccessUsersEmailsNotFound>
+
+  <AnonymousLinkUnableToCreate>نوم يې رامنځته توان نلري</AnonymousLinkUnableToCreate>
+  <AnonymousLinkShortUrlLabel>لطفا د تاندول انځورن (په ښکته حق) کلیک له یو لنډ لار</AnonymousLinkShortUrlLabel>
+  <AnonymousLinkShortUrlUpdate>ترلاسه کړئ او یا د لنډ مخونه د اوسمهالولو</AnonymousLinkShortUrlUpdate>
+  <AnonymousLinkLongUrlNotSpecified>د اوږد URL ده مشخصه نه ده</AnonymousLinkLongUrlNotSpecified>
+
+  <ClientFileOrDirectoryAlreadyExists>دوتنه په دې نوم يا د مخکې نه شتون</ClientFileOrDirectoryAlreadyExists>
+  <ClientPermissionsAllowTypes>اوسني پرېښلې دې عملياتو کې يواځې د لاندې د دوتنې ډولونه اجازه {0}</ClientPermissionsAllowTypes>
+  <ClientPermissionsDenyTypes>اوسني پرېښلې سره د لاندې د دوتنې ډوله دې عملياتو منع {0}</ClientPermissionsDenyTypes>
+  <OfficeApplicationNotFoundAlert>دفتر کاریال ونه موندل شو. د یوې دوتنې د لاسي په متن بکس يو لينک په کارولو سره یې پرانیزه.</OfficeApplicationNotFoundAlert>
+  <OfficeAnonymousEditPublicLinkError>ته په مستعار خلاص دفتر سند عامه رامنځته کولو توان نلري.</OfficeAnonymousEditPublicLinkError>
+
+  <GoogleOWAViewLinkMessage>ته د سند ښکاره کړی کلیک وکړئ د لاندې لینک:</GoogleOWAViewLinkMessage>
+  <ZohoEditLinkMessage>د سند کلیک تړنه لاندې د سمولو لپاره:</ZohoEditLinkMessage>
+  <PixlrEditLinkMessage>د انځور کلیک تړنه لاندې د سمولو لپاره:</PixlrEditLinkMessage>
+  <PixlrNewImageCreateTitle>یو نوی انځور سره Pixlr جوړول</PixlrNewImageCreateTitle>
+  <PixlrNewImageLinkMessage>د يو نوي انځور جوړ کړي، کیکاږۍ له پاره لاندې لینک:</PixlrNewImageLinkMessage>
+
+  <DownloadTitle>د څو ګونو دوتنو کښته</DownloadTitle>
+  <DownloadSimpleTab>معياري</DownloadSimpleTab>
+  <DownloadJavaTab>جاوا</DownloadJavaTab>
+  <DownloadIEPrevent>Internet Explorer مخه اتومات دانلود</DownloadIEPrevent>
+  <DownloadIEClickHere>د وورد لپاره دلته کلیک وکړی</DownloadIEClickHere>
+  <DownloadIEArchiveReady>آرشيف "{0}" سره د غوره دوتنو جوړ شو او د دانلود لپاره چمتو دی</DownloadIEArchiveReady>
+  <DownloadIECaption>دانلود ته چمتو دی</DownloadIECaption>
+
+  <SettingsTitle>امستنې</SettingsTitle>
+  <SettingsLanguage>ژبه</SettingsLanguage>
+  <SettingsLogOutRequired>نوي بدلونونه به logout یا کتنمل بياپيلات وروسته استعمال شي!</SettingsLogOutRequired>
+  <ThemeTitle>د بدلون موضوع</ThemeTitle>
+  <SettingsTheme>موضوع غوره</SettingsTheme>
+  <ThemeDefaultTitle>default موضوع</ThemeDefaultTitle>
+  <ThemeGrayTitle>خړ موضوع</ThemeGrayTitle>
+  <ThemeAccessTitle>د لار موندنې موضوع</ThemeAccessTitle>
+
+  <ChangeUserPasswordTitle>د بدلون د کارونکي پټنوم</ChangeUserPasswordTitle>
+  <ChangeUserPasswordOldPassword>زوړ پټ نوم</ChangeUserPasswordOldPassword>
+  <ChangeUserPasswordNewPassword>نوئ پټ نوم</ChangeUserPasswordNewPassword>
+  <ChangeUserPasswordRepeatNewPassword>تکرار نوی پټنوم</ChangeUserPasswordRepeatNewPassword>
+  <ChangeUserPasswordPasswordsNotMatch>شفرونه سمون نه لري.</ChangeUserPasswordPasswordsNotMatch>
+  <ChangeUserPasswordSuccessMessage>پټنوم بدل شوې دي.</ChangeUserPasswordSuccessMessage>
+  <ChangeUserPasswordInvalidMessage>بې اعتباره پټنوم.</ChangeUserPasswordInvalidMessage>
+
+  <ChangeUserEmailTitle>د بدلون د کارونکي ایمیل</ChangeUserEmailTitle>
+  <ChangeUserEmailEmail>پست</ChangeUserEmailEmail>
+  <ChangeUserEmailSuccessMessage>پست دی بدل شوي دي.</ChangeUserEmailSuccessMessage>
+
+  <UserHelpTitle>کارن مرسته</UserHelpTitle>
+
+  <LicenseTitle>منښتليک معلومات</LicenseTitle>
+  <LicenseTrial>ناراجستر شوي 30 ورځني ارزونې نسخه</LicenseTrial>
+  <LicensePrompt>جواز نسخه {0} کارنان شمیرنه {1} {0} رانيول نېټه: {2} {0}</LicensePrompt>
+  <LicenseFreeUpgradeMessage>تاسو بيا هم د {0} ورځو ورځو لپاره په وړيا نوي کول او ملاتړ نه لري.</LicenseFreeUpgradeMessage>
+  <LicenseCheckMessage>څه دپاسه يو کال د اخیستلو له نیټې څخه وفات شو. ته د دې بڼې کار وانخلی، تاسو بايد د يو زوړ نسخه ستاسو د ګډون او یا کم تمدید. تاسو کولی شی چې خپل جواز وګورئ او په &lt;a href='{0}' target='_blank'&gt; Check منښتليک مخ پيلې موجود خوشې کړو</LicenseCheckMessage>
+  
+  <ViewPopupBlocked>د نوې کړکۍ د یو رادنګونه بندوونکي له خوا تړل شوي دي</ViewPopupBlocked>
+  
+  <LoginTwoFactorTitle>دوه پړاویزه تصدیق</LoginTwoFactorTitle>
+  <LoginTitle>د ننه کیدل</LoginTitle>
+  <LoginRemember>زما د راتلونکي وخت په یاد ولرئ</LoginRemember>
+  <LoginUISelect>برسیر</LoginUISelect>
+  <LoginUIStandard>معياري</LoginUIStandard>
+  <LoginUITouch>د موبايل په</LoginUITouch>
+  <LoginLanguage>ژبه</LoginLanguage>
+  <LoginLogin>د ننه کیدل</LoginLogin>
+  <LoginFailure>ستاسو د ننوتو هڅه بریالی نه و.</LoginFailure>
+  <LoginBlocked>د حساب بنديز لګېدلی. انتظار د {0} دقيقو د بیا کوښښ.</LoginBlocked>
+  <LoginNotActivated>ستاسو د حساب نه فعاله ده.</LoginNotActivated>
+  <LoginResendActivation>که سره د فعالولو کوډ پيغام په يوې اوږدې مودې لپاره نه دی ترلاسه کړی، د {0} لینک کلیک ته د فعالولو کوډ بیا ولېږې.</LoginResendActivation>
+  <LoginResendActivationLink>د فعالولو کوډ واستوي</LoginResendActivationLink>
+  <LoginResendActivationCode>د {0} مخونه کېکاږئ چې د فعالولو کوډ بیا ولېږې.</LoginResendActivationCode>
+  
+  <ActivateAccountOk>ګڼون په برياليتوب سره فعاله!</ActivateAccountOk>
+  <ActivateAccountResultLabel>د فعالولو نتيجه</ActivateAccountResultLabel>
+  <ActivateAccountErrorOnlyFormsAuth>ګڼون په فعالولو سره فورمې اعتبار يوازې وکارول شي</ActivateAccountErrorOnlyFormsAuth>
+  <ActivateAccountErrorNotRequired>په غوښتنلیک د امستنو حساب د فعالولو په کار نکوی. ګڼون په اتوماتيک ډول فعال د ثبت وروسته.</ActivateAccountErrorNotRequired>
+  <ActivateAccountErrorAlreadyActivated>ګڼون لا فعاله</ActivateAccountErrorAlreadyActivated>
+  <ActivateAccountErrorInvalidCode>د فعالولو کوډ د اعتبار وړ نه دی</ActivateAccountErrorInvalidCode>
+  <ActivateAccountErrorAccountNotFound>حساب ونه موندل شو</ActivateAccountErrorAccountNotFound>
+  <ActivateAccountErrorLinkBroken>د فعالولو تړنه مات شي</ActivateAccountErrorLinkBroken>
+  <ActivateAccountReturnToLogin>بېرته مخ login</ActivateAccountReturnToLogin>
+  
+  <LoginRender>وروبښي</LoginRender>
+  
+  <LogoutTitle>ويب دوتنې مدیر Logout</LogoutTitle>
+  <LogoutSessionEnded>د اوسني غونډه پای</LogoutSessionEnded>
+  <LogoutCloseWindow>د کړکۍ بندول</LogoutCloseWindow>
+  <LogoutEnterAgain>بیا ورتګ</LogoutEnterAgain>
+  <LogoutClosingBrowserRequired>پاملرنه! څوک کولای شي په خپل حساب کې لاندې login! که تاسو د يو ګډ د کمپيوټر په کارولو سره، نو بايد د خپل لټووني کړکۍ (نه يوازې د ټوپ) د تړلو چې خپل لټونګر کې اعتبار پاکه! د فایرفوکس کتنمل تاسې کولای شئ په غورنۍ اعتبار د پاکولو: Tools-&gt; واضح څخه کرکه تاریخ ...-&gt; Details-&gt; اوس وګورئ د فعالو Logins-&gt; مطبوعاتي واضح.</LogoutClosingBrowserRequired>
+  <RecoverPasswordTitle>پټنوم بیرته</RecoverPasswordTitle>
+  <RecoverPasswordEmailPassword>پټنوم برېښناليک له لارې وليږئ</RecoverPasswordEmailPassword>
+  <RecoverPasswordErrorInvalidUserName>باطلې کارن نوم.</RecoverPasswordErrorInvalidUserName>
+  <RecoverPasswordErrorNoEmail>دا کارن لري برېښليک پته نه تعریف شوی دی.</RecoverPasswordErrorNoEmail>
+  <RecoverPasswordErrorSendEmail>په داسې حال کې خپل ایمیل استولو یوه تېروتنه رامنځته شوه.</RecoverPasswordErrorSendEmail>
+  <RecoverPasswordSuccess>ستا شفر خپل ایمیل ادرس ته استول شوي دي.</RecoverPasswordSuccess>
+
+  <RecoverUserNameTitle>نوم بیرته</RecoverUserNameTitle>
+  <RecoverUserEmailName>نوم برېښناليک له لارې وليږئ</RecoverUserEmailName>
+  <RecoverUserNameErrorInvalidEmail>باطلې د کارونکي ایمیل.</RecoverUserNameErrorInvalidEmail>
+  <RecoverUserNameErrorNoEmail>دبرېښنا ليک پته ونه موندل شو.</RecoverUserNameErrorNoEmail>
+  <RecoverUserNameSuccess>ستاسو نوم خپل ایمیل ادرس ته استول شوي دي.</RecoverUserNameSuccess>
+
+  <ChangeEmailTitle>برېښناليک بدل کړئ</ChangeEmailTitle>
+  <ChangeEmailEmail>نوي ليک</ChangeEmailEmail>
+  <ChangeEmailSubmit>سپارل</ChangeEmailSubmit>
+  <ChangeEmailStatusSuccess>دبرېښنا ليک دی بدل شوی</ChangeEmailStatusSuccess>
+
+  <RegisterTitle>د نوم ثبتول</RegisterTitle>
+  <RegisterEmail>Email</RegisterEmail>
+  <RegisterExtraInfo>اضافي معلومات</RegisterExtraInfo>
+  <RegisterCaptcha>متن تاسو په انځور لاندې وګورۍ وليکئ</RegisterCaptcha>
+  <RegisterSubmit>سپارل</RegisterSubmit>
+  <RegisterErrorPasswordNotMatch>شفرونه سمون نه لري.</RegisterErrorPasswordNotMatch>
+  <RegisterErrorUserExists>دا کارن نوم او یا ایمیل ادرس د مخه کارول شوی.</RegisterErrorUserExists>
+  <RegisterErrorCaptchaInvalid>د انځور متن په سمه توګه نه و ته ننوتل</RegisterErrorCaptchaInvalid>
+  <RegisterSuccess>نوی کارن زياته شوې ده.</RegisterSuccess>
+  <RegisterActivationSent>د فعالولو کوډ د خپل ایمیل ته استول شوې وه.</RegisterActivationSent>
+  <RegisterActivationCheckEmail>لورينه وکړئ خپل د پست بکس (په ځانګړي ګټی پوښۍ) وګورئ او په ایمیل لارښوونې تعقیب کړي.</RegisterActivationCheckEmail>
+  
+  <FolderGridUserPermissionsColumn>کارنان د لاسرسی لپاره</FolderGridUserPermissionsColumn>
+  <FolderGridGroupPermissionsColumn>د ډلو ته لاسرسی</FolderGridGroupPermissionsColumn>
+
+  <LoginLinkText>د ننه کیدل</LoginLinkText>
+  <RecoverPasswordLinkText>خپل پټ نوم درڅخه هیر دی؟</RecoverPasswordLinkText>
+  <RecoverUserNameLinkText>هير نوم؟</RecoverUserNameLinkText>
+  <RegisterLinkText>د نوم ثبتول</RegisterLinkText>
+  <ChangeEmail>برېښناليک بدل کړئ</ChangeEmail>
+  <LoginMobileVersionLinkText>د موبايل په بڼې (زياتره د ځيرکو Touchpads)</LoginMobileVersionLinkText>
+
+  <FileIsNotZipArchive>د {0} د دوتنې ZIP آرشيف نه دی</FileIsNotZipArchive>
+
+  <FileModificationsAuthor>لیکوال</FileModificationsAuthor>
+  <FileModificationsHistory>پېښليک</FileModificationsHistory>
+  <FileModificationsWindowTitle>د دوتنې د بدلونونو "{0}"</FileModificationsWindowTitle>
+  <FileModificationsTypeCreated>ايجاد</FileModificationsTypeCreated>
+  <FileModificationsTypeModified>بدلون موندلی</FileModificationsTypeModified>
+  <FileModificationsTypeRenamed>نامه ونومول</FileModificationsTypeRenamed>
+  <FileModificationsTypeRestored>اعاده</FileModificationsTypeRestored>
+  <FileModificationsTypeDeleted>ړنګ</FileModificationsTypeDeleted>
+
+  <ChangingReadOnlyProgressMessage>پاتې برخه یوازې د خاصه بدلول</ChangingReadOnlyProgressMessage>
+
+  <ImageViewerWindowTitle>د انځور کتونکی [{0}]</ImageViewerWindowTitle>
+  <ImageViewerLoadingMessage>Loading انځور کتونکی</ImageViewerLoadingMessage>
+  <ImageViewerLoadingImageMessage>Loading انځور</ImageViewerLoadingImageMessage>
+  <ImageViewerFirstImageTip>لومړی انځور</ImageViewerFirstImageTip>
+  <ImageViewerPreviousImageTip>مخکینی انځور</ImageViewerPreviousImageTip>
+  <ImageViewerRefreshTip>تاندول انځورونه لست</ImageViewerRefreshTip>
+  <ImageViewerNextImageTip>بل انځور</ImageViewerNextImageTip>
+  <ImageViewerLastImageTip>تېره انځور</ImageViewerLastImageTip>
+  <ImageViewerRunSlideShow>چلول انځورونه Slide Show</ImageViewerRunSlideShow>
+  <ImageViewerStopSlideShow>ودروي انځورونه Slide Show په</ImageViewerStopSlideShow>
+  <ImageViewerImageSimpleInfo>{0} / {1}، {2} ({3})</ImageViewerImageSimpleInfo>
+  <ImageViewerImageLoadErrorMessage>په انځور کې ونه موندل شو او يا نه ښودل شي</ImageViewerImageLoadErrorMessage>
+  <ImageViewerShowImageSizeOfWindow>خپرونه د واقعي اندازه انځور</ImageViewerShowImageSizeOfWindow>
+  <ImageViewerShowRealImageSize>غټيږي کېکاږئ</ImageViewerShowRealImageSize>
+
+  <PasswordExpiresTitle>شفر ته رسیږي</PasswordExpiresTitle>
+  <PasswordExpiresMessage>خپل پټ نوم {0} په ورځ (s) وروسته پای ته رسیږي!</PasswordExpiresMessage>
+  <PasswordExpiredMessage>خپل پټ نوم تېر شوی.</PasswordExpiredMessage>
+  <PasswordChangeMessage>ته د پاسورد بدلولو لپاره، غوره {0} د {1} -&gt; {2} {3} په توکپټه.</PasswordChangeMessage>
+
+  <UnzipContentTotalFiles>Total دوتنې: {0} ({1})</UnzipContentTotalFiles>
+
+  <VideoConversionJobNotFound>
+    توان د مشخص conversion بهیر پیدا کړي.
+    ممکنه لاملونه:
+    1. اړونه د اوږدې مودې دمخه بشپړ او د دې کار په اړه معلومات لرې.
+    2. د بدلون د پروسې پای ته فيصدۍ.
+  </VideoConversionJobNotFound>
+  <VideoConversionUtilityNotFound>توان پیدا ټولګټې ته غوښتل شوی چلښت ترسره: {0}</VideoConversionUtilityNotFound>
+  <!-- The current security principal "{0}" has insufficiant permissions to executable file "{1}".-->
+  <VideoConversionUtilityInsufficientPermissions>د اوسني کارن "{0}" رد ته عملي کېدونکې دوتنه لاس رسی "{1}".</VideoConversionUtilityInsufficientPermissions>
+  <VideoConversionOperationCancelled>عمليات لغوه</VideoConversionOperationCancelled>
+  <VideoConversionUtilityFailed>conversion ټولګټې فسخه فيصدۍ</VideoConversionUtilityFailed>
+  <VideoConversionOutputFileBusy>د وتنی د دوتنې کیږي بل بدلون د پروسې له خوا کارول</VideoConversionOutputFileBusy>
+
+  <VideoConvertWindowValidatorPositiveInt>بايد يو مثبت integer وي</VideoConvertWindowValidatorPositiveInt>
+  <VideoConvertWindowTitle>بدلوي ویډیو</VideoConvertWindowTitle>
+  <VideoConvertWindowInputFile>ننوتۍ دوتنه</VideoConvertWindowInputFile>
+  <VideoConvertWindowOutputFile>د وتنی د دوتنې</VideoConvertWindowOutputFile>
+  <VideoConvertWindowOutputFormat>Output format</VideoConvertWindowOutputFormat>
+  <VideoConvertWindowBitrate>Bitrate (kbps)</VideoConvertWindowBitrate>
+  <VideoConvertWindowFrameResolution>د چوکاټ د حل</VideoConvertWindowFrameResolution>
+  <VideoConvertWindowDAR>مخکيني اړخ نسبت</VideoConvertWindowDAR>
+  <VideoConvertWindowPAR>pixel اړخ نسبت</VideoConvertWindowPAR>
+  <VideoConvertWindowResize>ورواړوو</VideoConvertWindowResize>
+  <VideoConvertWindowProfile>د پېژندنې</VideoConvertWindowProfile>
+  <VideoConvertWindowWidth>د سور</VideoConvertWindowWidth>
+  <VideoConvertWindowHeight>لوړوالی</VideoConvertWindowHeight>
+  <VideoConvertWindowExtractDetailsProgressMsg>ویډیو جزئيات استخراج</VideoConvertWindowExtractDetailsProgressMsg>
+  <VideoConvertWindowOutputFileExistsTitle>وتۍ دوتنه شتون لري</VideoConvertWindowOutputFileExistsTitle>
+  <VideoConvertWindowOutputFileExistsMsg>وتۍ دوتنه د مخکې نه شتون. دا به overwritten شي.</VideoConvertWindowOutputFileExistsMsg>
+  <VideoConvertWindowPrepareToConvert>لپاره چمتو ویډیو بدلوي</VideoConvertWindowPrepareToConvert>
+  <VideoConvertWindowOutputFileMatchInputFile>د وتنی د دوتنې نوم سره سمون خوري وتنی دوتنه نوم</VideoConvertWindowOutputFileMatchInputFile>
+
+  <VideoConvertProgressWindowTitle>بدلوي ویډیو</VideoConvertProgressWindowTitle>
+  <VideoConvertProgressWindowInputFile>ننوتۍ دوتنه</VideoConvertProgressWindowInputFile>
+  <VideoConvertProgressWindowOutputFile>د وتنی د دوتنې</VideoConvertProgressWindowOutputFile>
+  <VideoConvertProgressWindowStatus>وضعیت</VideoConvertProgressWindowStatus>
+  <VideoConvertProgressWindowStatusTerminating>د فسخه</VideoConvertProgressWindowStatusTerminating>
+  <VideoConvertProgressWindowStatusPreparing>چمتو</VideoConvertProgressWindowStatusPreparing>
+  <VideoConvertProgressWindowStatusProgress>ګام {0} د {1}</VideoConvertProgressWindowStatusProgress>
+  <VideoConvertProgressWindowStatusDone>وشو</VideoConvertProgressWindowStatusDone>
+
+  <PlayHtml5VideoNotSupported>ستاسو کتنمل د HTML 5 ویدیو عنصر ملاتړ نه کوي.</PlayHtml5VideoNotSupported>
+  <PlayHtml5VideoPlayFailed>Play ویډیو کې پاتې راغلي</PlayHtml5VideoPlayFailed>
+  <PlayHtml5AudioPlayFailed>Play غږیز کې پاتې راغلي</PlayHtml5AudioPlayFailed>
+  <PlayHtml5AudioTitle>نوم</PlayHtml5AudioTitle>
+  <PlayHtml5AudioNotSupported>ستاسو کتنمل د HTML 5 غږيز عنصر ملاتړ نه کوي.</PlayHtml5AudioNotSupported>
+  <PlayHtml5AudioArtist>هنرمند</PlayHtml5AudioArtist>
+  <PlayHtml5AudioAlbum>البوم</PlayHtml5AudioAlbum>
+  <PlayHtml5AudioYear>کال</PlayHtml5AudioYear>
+  <PlayHtml5AudioDuration>وخت</PlayHtml5AudioDuration>
+  <PlayHtml5AudioBitrate>Bitrate</PlayHtml5AudioBitrate>
+  <PlayHtml5AudioVolume>Volume</PlayHtml5AudioVolume>
+
+  <!-- Root title -->
+  <RootTitle>د ريښي</RootTitle>
+
+  <!-- Recent feature keys -->
+  <RecentRootTitle>وروستي</RecentRootTitle>
+  <RecentDeleteOnePrompt>آیا تاسو په ډاډمنه توګه غواړئ چې د "{0}" څخه د خپل وروستي توکي ړنګ کړئ؟</RecentDeleteOnePrompt>
+  <RecentDeleteManyPrompt>آیا تاسو په ډاډمنه توګه غواړئ د دغو {0} ستاسو د وروستي توکي توکي ړنګ کړئ؟</RecentDeleteManyPrompt>
+  <RecentPathNotExist>د وروستيو لار "{0}" شتون نه لري يا لاسرسی رد</RecentPathNotExist>
+  <RecentAllWithoutGroupingTitle>ټول w / o ګروپ</RecentAllWithoutGroupingTitle>
+  <RecentEditGroupTitle>Edited</RecentEditGroupTitle>
+  <RecentViewGroupTitle>کتل</RecentViewGroupTitle>
+  <RecentDownloadGroupTitle>د کتلو</RecentDownloadGroupTitle>
+  <RecentUploadGroupTitle>Uploaded</RecentUploadGroupTitle>
+  <RecentCreateGroupTitle>ايجاد</RecentCreateGroupTitle>
+
+  <!-- Trash feature keys -->
+  <TrashRootTitle>خځلنۍ</TrashRootTitle>
+  <TrashLabelDateDeleted>ړنګ نېټه</TrashLabelDateDeleted>
+  <TrashDeleteOnePrompt>آیا تاسو په ډاډمنه توګه غواړئ چې په دايمي توګه د ړنګولو "{0}" د خځلنۍ څخه؟</TrashDeleteOnePrompt>
+  <TrashDeleteManyPrompt>آیا تاسو په ډاډمنه توګه غواړئ چې په دايمي توګه د دغو {0} د خځلنۍ څخه توکي ړنګ کړئ؟</TrashDeleteManyPrompt>
+  <TrashEmptyTrashLabel>تش خځلنۍ</TrashEmptyTrashLabel>
+  <TrashRestoreSelectedLabel>بيازېرمل</TrashRestoreSelectedLabel>
+  <TrashRestoreAllLabel>د ټولو لپاره بيازېرمل</TrashRestoreAllLabel>
+  <TrashEmptyTrashPrompt>آيا تاسو باوري یې چې ته د خځلنۍ تش غواړئ؟</TrashEmptyTrashPrompt>
+  <TrashRestoreAllPrompt>آيا تاسو په ډاډمنه توګه غواړئ چې خځلنۍ څخه ټول توکي بيازېرمل؟</TrashRestoreAllPrompt>
+  <TrashProgressRestoring>د خځلنۍ څخه بیرته</TrashProgressRestoring>
+  <TrashFolderNotFound>خځلنۍ ډايرکټري نه موندل</TrashFolderNotFound>
+  <TrashBalloonRestored>اعاده په پېژندتورو: {0} د {1}</TrashBalloonRestored>
+  <TrashDeleteDirectlyLabel>پرته له دې چې خځلنۍ له مينځه وړلو په مستقيمه ړنګول</TrashDeleteDirectlyLabel>
+  <TrashUsedSpaceHint>{0} کارول</TrashUsedSpaceHint>
+  <TrashLimitSizeHint>کارول {0} د {1} ({2})</TrashLimitSizeHint>
+  <TrashLargeItemsShelfTimeHint>د شيانو د ساتلو موده {0} په پرتله خورا لويه ده: {1} ورځ (s)</TrashLargeItemsShelfTimeHint>
+  <TrashSmallItemsShelfTimeHint>د ټولو نور: {0} په ورځ (s)</TrashSmallItemsShelfTimeHint>
+  <TrashItemsShelfTimeHint>د شيانو د ساتلو موده: {0} په ورځ (s)</TrashItemsShelfTimeHint>
+  <TrashAvailableSpaceHint>اعظمي موجود اندازه {0}</TrashAvailableSpaceHint>
+  <TrashDeletedFromFolderHint>له ړنګ {0}</TrashDeletedFromFolderHint>
+  <TrashExceededMessage>دغه لانديني شيانو ډېر لوی دي او کولای شي چې د خځلنۍ (د {0} ده نه اوړي د محدوديت) کې موقعيت لري نه شي:</TrashExceededMessage>
+  <TrashErrorSuffixMessage>لطفا هڅه کوي، د انتخاب وګورئ "{0}" او بیا د ړنګولو دوتنې (s) د تل لپاره بهر موندلو وړ</TrashErrorSuffixMessage>
+
+  <!-- Shared by link -->
+  <SharedByLinkRootTitle>لخوا شریک مخونه</SharedByLinkRootTitle>
+
+  <!-- Shared for you -->
+  <SharedForYouRootTitle>د شریکې له تاسو سره</SharedForYouRootTitle>
+  <SharedForYouUnableToGetUrl>د صفحی د توان نلري</SharedForYouUnableToGetUrl>
+
+  <!-- Watch for modifications -->
+  <WatchForModifsCommand>د بدلونونو د لیدو لپاره</WatchForModifsCommand>
+  <WatchForModifsStartCommand>بیا ګوري</WatchForModifsStartCommand>
+  <WatchForModifsEditCommand>ننداره بدلون</WatchForModifsEditCommand>
+  <WatchForModifsStopCommand>څارنې په ټپه درول</WatchForModifsStopCommand>
+  <WatchForModifsViewChangesCommand>محتویات بدلونونه</WatchForModifsViewChangesCommand>
+  <WatchForModifsSubscriptionSuccessMessage>تاسو په برياليتوب لپاره د بدلونونو په ګډون "{0}"</WatchForModifsSubscriptionSuccessMessage>
+  <WatchForModifsStopSuccessMessage>د څارنې "{0}" په بریالیتوب کې نافعال شوې دي</WatchForModifsStopSuccessMessage>
+  <WatchForModifsIncludingNestedLabel>لېنديو دوتنو، د پوښيو په پام کې</WatchForModifsIncludingNestedLabel>
+  <WatchForModifsParentWatchExistMessage>د ټاکل شوي توکي لا د مورنی پوښۍ لپاره د څارنې ګمارل شوي دي: "{0}".</WatchForModifsParentWatchExistMessage>
+  <WatchForModifsRootFolder>د خبرتیا</WatchForModifsRootFolder>
+  <WatchForModifsStartProgressLoading>ننداره فعال کړه</WatchForModifsStartProgressLoading>
+  <WatchForModifsStopProgressLoading>Terminatie ننداره</WatchForModifsStopProgressLoading>
+  <WatchForModifsIconHint>د بدلونونو چارن watch</WatchForModifsIconHint>
+  <WatchForModifsNotifCheckBox>د بدلونونو له خوا د بریښنالیکونو په اړه خبر:</WatchForModifsNotifCheckBox>
+  <WatchForModifsWatchedUsersCheckBox>يوازې کارنان (که تاسو د ټولو څارنه خالي ووځي) څارنه:</WatchForModifsWatchedUsersCheckBox>
+  <WatchForModifsIgnoreOwnerCheckBox>خپل بدلونونه زما له پامه</WatchForModifsIgnoreOwnerCheckBox>
+  <WatchForModifsActionsCheckBox>د ټولو د کړنو (او يا پر ځينو کړنو په لست لاندې څخه) د څارنې</WatchForModifsActionsCheckBox>
+  <WatchForModifsNestedItemsWarning>پاملرنه! کله چې تاسو د ټاکل شوې پوښۍ د څارنې لپاره د اضافه، د احاطه ټول فايلونه او دوسيې د کوم لپاره چې د انفرادي څارنې مخکې ورزیات شوي، د څارنې به لرې شي. ایا ته غواړې چې دوام ورکړئ؟</WatchForModifsNestedItemsWarning>
+
+  <WelcomeWindowHideCheckboxLabel>نه د دې له خوا په راتلونکو پري کولو وښيي</WelcomeWindowHideCheckboxLabel>
+
+  <LogsGridMoreInfoColumn>نور معلومات</LogsGridMoreInfoColumn>
+  <LogsGridDetailsTitle>په بشپړه توګه کتل</LogsGridDetailsTitle>
+  <LogsGridPhysPathColumn>سپړنه لاره</LogsGridPhysPathColumn>
+  <LogsGridIsFolderColumn>دادوسیه خلاصه؟</LogsGridIsFolderColumn>
+  <LogsGridIsPublicColumn>د عامه؟</LogsGridIsPublicColumn>
+  <LogsGridByWebDavColumn>WebDAV؟</LogsGridByWebDavColumn>
+
+  <NoCommentsYetHint>نظر نشته تر اوسه</NoCommentsYetHint>
+  <NoHistoryYetHint>نه تاريخ تر اوسه</NoHistoryYetHint>
+
+  <DetailsPropertyValuesCouldNotBeWritten>پاتې راغی ملکیت ارزښتونو وژغوري، mabe د دوتنې ډول داسې امکان ملاتړ نه کوي او یا هلته په درخواست سره د دوتنې تړاو کې تېروتنه.</DetailsPropertyValuesCouldNotBeWritten>
+
+  <AdminCommandHelp>مرسته</AdminCommandHelp>
+  <AdminCommandAddUser>Add د کارونکي عکس</AdminCommandAddUser>
+  <AdminCommandAddGroup>Add ډله</AdminCommandAddGroup>
+  <AdminCommandRemoveUser>د کارونکي لرې کړئ</AdminCommandRemoveUser>
+
+  <AdminCommandSelectUsers>کارنان ورزیات کړئ</AdminCommandSelectUsers>
+  <AdminCommandSelectGroups>Add ډلو</AdminCommandSelectGroups>
+  <AdminCommandRemoveUsers>کارنان لرې کړئ</AdminCommandRemoveUsers>
+  <AdminCommandRemoveGroups>ډلو لرې کړئ</AdminCommandRemoveGroups>
+  <AdminUsersGroups>د غړو</AdminUsersGroups>
+  <AdminSearchUserEmptyText>کارن نوم وليکئ</AdminSearchUserEmptyText>
+  <AdminSearchGroupEmptyText>د ډلې نوم وليکئ</AdminSearchGroupEmptyText>
+  <AdminUsersGroupAlreadyExists>يوه ډله (s) په دې نوم (s) لا زياته شوې</AdminUsersGroupAlreadyExists>
+
+  <AdminApplicationLoading>اداري هيئت په لېښلو کې</AdminApplicationLoading>
+  <AdminTitle>د ادارې</AdminTitle>
+  <AdminUsersEditUser>سمول د کارونکي عکس</AdminUsersEditUser>
+  <AdminUsersSetUserPassword>ټولګې پټنوم</AdminUsersSetUserPassword>
+  <AdminUsersViewGroups>محتویات ډلو</AdminUsersViewGroups>
+  <AdminUsersViewFolders>محتویات پوښۍ</AdminUsersViewFolders>
+  <AdminUsersDeleteUserPrompt>تاسو په ډاډمنه توګه غواړئ چې د کارونکي (s) لرې "{0}"؟</AdminUsersDeleteUserPrompt>
+  <AdminUsersDeletedUsers>{0} د کارونکي (s) ړنګ شو.</AdminUsersDeletedUsers>
+  <AdminUsersUserNotFound>د دې نوم د کارونکي ونه موندل شو</AdminUsersUserNotFound>
+  <AdminUsersPropertiesTitle>کارن ملکیتونو</AdminUsersPropertiesTitle>
+  <AdminUsersSetPasswordTitle>ټولګې د کارونکي پټنوم</AdminUsersSetPasswordTitle>
+  <AdminUsersGeneralInfo>د کارن مالومات</AdminUsersGeneralInfo>
+  <AdminUsersUserEmail>Email</AdminUsersUserEmail>
+  <AdminUsersEmptyName>کارن نوم نه شي تش وي</AdminUsersEmptyName>
+  <AdminUsersEmptyPassword>کارن پټنوم نه شي تش وي</AdminUsersEmptyPassword>
+  <AdminUsersIncorrectName>په کارن نوم ناسم سمبولونه شته</AdminUsersIncorrectName>
+  <AdminUsersAlreadyExists>کارن په دې نوم د مخکې نه شتون</AdminUsersAlreadyExists>
+  <AdminUsersEmailAlreadyExists>سره د دې ايميل کارن د مخکې نه شتون</AdminUsersEmailAlreadyExists>
+  <AdminUsersPasswordsNotMatch>شفرونه سمون نه</AdminUsersPasswordsNotMatch>
+  <AdminUsersRenameWarning>يو کارن ونوموي وروسته دا اړینه چې د پټنوم د بدلون دی، که د اوسني ویب پوښيو تړنه به ناسم وي</AdminUsersRenameWarning>
+  <AdminUsersLicenseRestriction>ستاسو د جواز اجازه نه ورکوي تاسو د {0} کاروونکو څخه زيات جوړ کړي</AdminUsersLicenseRestriction>
+  <AdminUsersCountInfoWithLimit>ټول کارنان: {0} د بهر {1}</AdminUsersCountInfoWithLimit>
+  <AdminUsersCountInfo>ټول کارنان: {0}</AdminUsersCountInfo>
+
+  <AdminGroupsEditGroup>سمول ډله</AdminGroupsEditGroup>
+  <AdminGroupsRemoveGroup>ډله لرې</AdminGroupsRemoveGroup>
+  <AdminGroupsDeleteGroupPrompt>تاسو په ډاډمنه توګه غواړئ چې ګروپ (s) لرې "{0}"؟</AdminGroupsDeleteGroupPrompt>
+  <AdminGroupsDeletedGroups>{0} ګروپ (s) ړنګ شو.</AdminGroupsDeletedGroups>
+  <AdminGroupsGroupNotFound>د دې نوم ډلې نه وموندل شو</AdminGroupsGroupNotFound>
+  <AdminGroupsViewUsers>د کارونکي</AdminGroupsViewUsers>
+  <AdminGroupsProperties>ځانتياوې</AdminGroupsProperties>
+  <AdminGroupsPropertiesTitle>ګروپ ملکیتونو</AdminGroupsPropertiesTitle>
+  <AdminGroupsGeneralInfo>ګروپ معلومات</AdminGroupsGeneralInfo>
+  <AdminGroupsUserNamePrompt>کارن نوم وليکئ</AdminGroupsUserNamePrompt>
+  <AdminGroupsUsers>د ډلې غړي</AdminGroupsUsers>
+  <AdminGroupsUserAlreadyExists>د کارونکي (s) په دې نوم (s) لا زياته شوې</AdminGroupsUserAlreadyExists>
+  <AdminGroupsEmptyName>ډلې نوم نه شي تش وي</AdminGroupsEmptyName>
+  <AdminGroupsIncorrectName>په ډلې نوم ناسم سمبولونه شته</AdminGroupsIncorrectName>
+  <AdminGroupsAlreadyExists>يوه ډله په دې نوم د مخکې نه شتون</AdminGroupsAlreadyExists>
+  <AdminGroupsCountInfo>Total ډلو: {0}</AdminGroupsCountInfo>
+
+  <AdminLanguagesTab>Localizations</AdminLanguagesTab>
+  <AdminLanguagesTabMessage>د ځايتابه دوتنه د سمولو، د خوښې ژبه د لست په ټاکلو کې، د وړتيا پر تار د سمون لپاره ټک. د بدلونونو وروسته کلیک "Save" تڼۍ</AdminLanguagesTabMessage>
+  <AdminLangGridKeyColumn>کلیدي نوم</AdminLangGridKeyColumn>
+  <AdminLangGridDefaultColumn>انګلیسي</AdminLangGridDefaultColumn>
+  <AdminEnterLanguageNameTitle>د ژبې نوم ولیکۍ</AdminEnterLanguageNameTitle>
+  <AdminLangConfirmRefreshTitle>تاندول تأیید</AdminLangConfirmRefreshTitle>
+  <AdminLangConfirmRefreshMessage>پاملرنه! د معلوماتو د نه وژغورل شو. تاسو غواړئ چې اوس بدلونونه ساتل غواړئ؟</AdminLangConfirmRefreshMessage>
+  <AdminLangAmountInfo>ډک کلي ګانې: {0} د {1} (تش ارزښتونو: {2})</AdminLangAmountInfo>
+  <AdminLangSaveToCSV>ته CSV د صادراتو</AdminLangSaveToCSV>
+  <AdminLangLoadFromCSV>له CSV بار</AdminLangLoadFromCSV>
+
+  <AdminDbMaintenanceTab>DB مراقبت</AdminDbMaintenanceTab>
+  <AdminDbMaintenanceInfoTitle>پيژندنه</AdminDbMaintenanceInfoTitle>
+  <AdminDbMaintenanceInfoPathLabel>DB دوتنې لاره</AdminDbMaintenanceInfoPathLabel>
+  <AdminDbMaintenanceInfoSizeLabel>DB د دوتنې کچه</AdminDbMaintenanceInfoSizeLabel>
+  <AdminDbMaintenanceCompactTitle>د تړون ډیټابیس</AdminDbMaintenanceCompactTitle>
+  <AdminDbMaintenanceCompactNote>د دې لپاره چې د ډیټابیس د دوتنې د اندازې د کمولو، لطفا تڼی په لاندې ځای کلیک کړی. دا اړینه ده چې د ډیټابیس د کمپرسی وخت په وخت ترسره کړي، ځکه، د بېلګې په توګه، د يو شمېر ناچارنده عامه اړيکې يا د زاړه يادښت د DB د دوتنې کچه نه کم ثبتوي لرې کولو وروسته.</AdminDbMaintenanceCompactNote>
+  <AdminDbMaintenanceCompactButton>د تړون DB</AdminDbMaintenanceCompactButton>
+  <AdminDbMaintenanceCompactSuccess>DB په برياليتوب سره هوار.
+زاړه د دوتنې کچه: {0}
+د دوتنې د نوي اندازه: {1}</AdminDbMaintenanceCompactSuccess>
+  <AdminDbMaintenanceCompactAutoNote>تاسو هم کولای شی د اسنادو عملیاتو په لرې کولو وروسته په اتومات کمپرسی ډیټابیس اړوي، که څه هم، چې دا سپارښتنه نه کیږی، ځکه دا د اډې ښايي زيات قلفونه او دا کولای شي د ځينو غوښتنو د مودې زیات کړي. پاملرنه! د دا امستنې کتابتون وروسته د درخواست به پیل شي!</AdminDbMaintenanceCompactAutoNote>
+  <AdminDbMaintenanceCompactAutoCheckBox>فعال / ناتوان د Auto-تړون DB</AdminDbMaintenanceCompactAutoCheckBox>
+  <AdminDbMaintenanceCompactAutoSaveButton>Save</AdminDbMaintenanceCompactAutoSaveButton>
+  <AdminDbMaintenanceCompactAutoSaveSuccess>د DB اتومات сompression بدلولو په بریالیتوب سره بشپړ شوي دي. هغه پاڼه چې ډېر ژر به وروسته پرلیکه شي.</AdminDbMaintenanceCompactAutoSaveSuccess>
+  <AdminDbMaintenanceEnableLogLabel>وټاکئ DB (ته د معلوماتو / debug.log) د پري کولو په کچه د پوښتنو</AdminDbMaintenanceEnableLogLabel>
+  <AdminDbMaintenanceSettingsSaveSuccess>DB امستنې په برياليتوب سره وژغوره. د مخ به بيا ولېښل شي</AdminDbMaintenanceSettingsSaveSuccess>
+  <AdminDbMaintenanceSettingsChangeNote>پاملرنه! د امستنو د خوندي کولو وروسته د غوښتنلیک به ډېر ژر پیل شي!</AdminDbMaintenanceSettingsChangeNote>
+  <AdminDbMaintenanceInsertIntervalLabel>د وقفه (په دقيقو) د نوموړي زياته کړه چې د DB پیښو. که تاسو مشخص 0، د غرس به د پیښو وروسته په مستقیم ډول ښکاري.</AdminDbMaintenanceInsertIntervalLabel>
+  <AdminDbMaintenanceAdvDbParamsTitle>ژور DB تړاو پارامترونو</AdminDbMaintenanceAdvDbParamsTitle>
+  <AdminDbMaintenanceStatTitle>Statistics (د DB يادښت کچه ​​DurationExecution پورې اړه لري)</AdminDbMaintenanceStatTitle>
+  <AdminDbMaintenanceStatDurationReadLabel>Avg د لوستلو وخت ووت</AdminDbMaintenanceStatDurationReadLabel>
+  <AdminDbMaintenanceStatDurationWriteLabel>Avg لیکلو نښلېدنه</AdminDbMaintenanceStatDurationWriteLabel>
+  <AdminDbMaintenanceStatDurationCompactLabel>Avg تړون نښلېدنه</AdminDbMaintenanceStatDurationCompactLabel>
+  <AdminDbMaintenanceStatNoData>هیڅ معلومات</AdminDbMaintenanceStatNoData>
+  <AdminDbMaintenanceStatGetButton>ارقام راټول</AdminDbMaintenanceStatGetButton>
+
+  <AdminMiscTab>متفرقه</AdminMiscTab>
+  <AdminMiscLoadADAccountsTitle>چارند حسابونو بار</AdminMiscLoadADAccountsTitle>
+  <AdminMiscLoadADAccountsLoadButton>بار</AdminMiscLoadADAccountsLoadButton>
+  <AdminMiscLoadADAccountsResetButton>Reset</AdminMiscLoadADAccountsResetButton>
+  <AdminMiscLoadADAccountsLdap>Ldap لوښی</AdminMiscLoadADAccountsLdap>
+  <AdminMiscLoadADAccountsToFile>د دوتنه</AdminMiscLoadADAccountsToFile>
+  <AdminMiscLoadADAccountsSuccessMessage>چارند حسابونو په برياليتوب سره ولیږه</AdminMiscLoadADAccountsSuccessMessage>
+  <AdminMiscLoadADAccountsInfo>دلته تاسو د دوتنې د ټول چارند کاروونکو جوړښت پکې تولید کړي. که تاسو د ثابتو دوتنه د میلادي معلومات ذخیره استفاده د دې دوتنې ته اړتیا ده. د همدې دوتنې کولای ADManager ټولګټې له لارې تولید شي. د لا نورو مالوماتو وګورئ &lt;b&gt; ADAccountsFilePath &lt;/b&gt; عوامل په شرح {0} لارښود {1}.</AdminMiscLoadADAccountsInfo>
+
+  <AdminMiscManageQuotasTitle>Manage سهمیه</AdminMiscManageQuotasTitle>
+  <AdminMiscManageQuotasInfo>د موجوده نه خوری او یا نوي سهمیې د فضا یو پوښۍ لپاره اجازه، موټرانو دوتنه سرور منابعو د مدير له خوا د محدودولو رامنځته کړي.</AdminMiscManageQuotasInfo>
+  <AdminMiscManageQuotasFolderPath>پوښۍ يونلور</AdminMiscManageQuotasFolderPath>
+  <AdminMiscManageQuotasQuota>سهمیې</AdminMiscManageQuotasQuota>
+  <AdminMiscManageQuotasGetQuota>ونډه ترلاسه کړئ</AdminMiscManageQuotasGetQuota>
+  <AdminMiscManageQuotasSetQuota>ټولګې ونډه</AdminMiscManageQuotasSetQuota>
+
+  <AdminMiscFoldersFromGPOLTitle>له ډلې تګلار بار پوښۍ</AdminMiscFoldersFromGPOLTitle>
+  <AdminMiscFoldersFromGPOLComputerName>کمپيوټر نوم</AdminMiscFoldersFromGPOLComputerName>
+  <AdminMiscFoldersFromGPOLFilePath>دوتنه لاره</AdminMiscFoldersFromGPOLFilePath>
+  <AdminMiscFoldersFromGPOLMoreInfoLink>نور معلومات</AdminMiscFoldersFromGPOLMoreInfoLink>
+  <AdminMiscFoldersFromGPOLResetButton>Reset</AdminMiscFoldersFromGPOLResetButton>
+  <AdminMiscFoldersFromGPOLLoadButton>بار</AdminMiscFoldersFromGPOLLoadButton>
+  <AdminMiscFoldersFromGPOLFromDC>له ډي سي</AdminMiscFoldersFromGPOLFromDC>
+  <AdminMiscFoldersFromGPOLFromFile>څخه د دوتنې</AdminMiscFoldersFromGPOLFromFile>
+  <AdminMiscFoldersTargetLabel>په کاروونکو / ډلو شرايط د واردولو په ...</AdminMiscFoldersTargetLabel>
+  <AdminMiscFoldersTargetFilter>چاڼګر</AdminMiscFoldersTargetFilter>
+  <AdminMiscFoldersTargetPermission>له اجازې</AdminMiscFoldersTargetPermission>
+  <AdminMiscFoldersFromGPOLSuccessMessage>پوښۍ په بریالیتوب بار &lt;br /&gt; &lt;br /&gt; د نوي: {0}، تازه: {1}.</AdminMiscFoldersFromGPOLSuccessMessage>
+  <AdminMiscFoldersFromGPOLInfo>تاسو کولای شی د پورته کولو (يا د اوسمهالولو) څخه په Domain کنټرولر د ډلې تګلار ډرایو له وضعی سره د امستنو د پوښۍ لست. په ساحه کې په لاندې تاسو کولی شئ د کمپيوټر د نوم څخه چې د ګروپ د پالیسۍ د امستنو به بار شي (او یا که تش پاتې، نو بيا به د اوسني چې دعامه استعمال شي)، او یا د لار سره نقشه کرل امستنې ارائه ته ننوځي.</AdminMiscFoldersFromGPOLInfo>
+
+  <AdminAnonymFoldersTab>Anonymous پوښۍ</AdminAnonymFoldersTab>
+  <AdminAnonymFoldersDeleteFolderPrompt>آیا تاسو په ډاډمنه توګه غواړئ د {0} غوره نومه پوښيو لرې؟</AdminAnonymFoldersDeleteFolderPrompt>
+  
+  <AdminAnonymFoldersDescription>د شریکې پوښيو / دوتنې - دا د پوښيو / فایلونه چې د کارونکي اعتبار * ته اړتيا نه لري، چې دا مانا لري، چې د ټولو نندارچيانو موجود دي * (که لري يو تړنه). ټول کاروونکي کولای شي لکه د پوښيو / مينيو څخه د دوتنې رامنځته "Share &amp;rarr؛ د عامه مخونه جوړول". خو، ګډ پوښيو ښايي محدود اجازه لري: د پورته، کښته، دوتنې / پوښيو لست. لاندې ده د شریک د پوښيو / فایلونه جوړ کارنانو لخوا تړنې مېز. د کار د عامه تړنې سمه ځانګړنې چې ټینګې \ Anonymousdownload.ashx ته IIS نومه لاس رسي اجازه وي. تاسو به د دې پر &lt;a target="_blank" href="{0}"&gt; نومېرنه پيلې مخ وګورئ. ډاډ ترلاسه کړئ چې د ورکنومی کارن حساب ته ټینګې \ Anonymousdownload.ashx ګمارل لپاره ګډ پوښيو / دوتنې NTFS لوست / لیکلو اجازه لري. &lt;br /&gt; * &amp;nbsp؛. &amp;mdash؛ &amp;nbsp؛ که تاسو کارنان، د کوم لپاره چې يوازې اجازه ته لاسرسی نه دی ځانګړی کړی.</AdminAnonymFoldersDescription>
+  <AdminAnonymFoldersLinkOwnerColumn>خاوند</AdminAnonymFoldersLinkOwnerColumn>
+  <AdminAnonymFoldersEmailsColumn>د خبرتیا د برېښناليک</AdminAnonymFoldersEmailsColumn>
+  <AdminAnonymFoldersAccessForUsersColumn>کارنان د لاسرسی لپاره</AdminAnonymFoldersAccessForUsersColumn>
+  <AdminAnonymFoldersPersonalMessageColumn>شخصي پېغام</AdminAnonymFoldersPersonalMessageColumn>
+  <AdminAnonymFoldersOverwriteOnUploadHint> (ځاېناستول: {0})</AdminAnonymFoldersOverwriteOnUploadHint>
+  <AdminAnonymFoldersRootPathColumn>د ريښي لاره</AdminAnonymFoldersRootPathColumn>
+  <AdminAnonymFoldersKeysColumn>کیلي</AdminAnonymFoldersKeysColumn>
+  <AdminAnonymFoldersShortColumn>لنډ مخونه</AdminAnonymFoldersShortColumn>
+  <AdminAnonymFoldersPropertiesTitle>Anonymous پوښۍ</AdminAnonymFoldersPropertiesTitle>
+  <AdminAnonymFoldersAdditionalInfo>نور معلومات</AdminAnonymFoldersAdditionalInfo>
+  <AdminAnonymFoldersLinkLabel>لینک د لاس رسی</AdminAnonymFoldersLinkLabel>
+  <AdminAnonymFoldersPathNotSpecified>د فزیکي لاره نه ده ټاکل شوې</AdminAnonymFoldersPathNotSpecified>
+  <AdminAnonymFoldersCreatedForColumn>هدف</AdminAnonymFoldersCreatedForColumn>
+
+  <AdminFoldersTab>پوښۍ</AdminFoldersTab>
+  <AdminFoldersAddFolder>Add پوښۍ</AdminFoldersAddFolder>
+  <AdminFoldersEditFolder>سمول شوې پوښۍ</AdminFoldersEditFolder>
+  <AdminFoldersRemoveFolder>دادوسیه خلاصه لرې کړئ</AdminFoldersRemoveFolder>
+  <AdminFoldersDeleteFolderPrompt>تاسو په ډاډمنه توګه غواړئ چې پوښۍ لرې "{0}"؟</AdminFoldersDeleteFolderPrompt>
+  <AdminFoldersFolderNotFound>په دې نوم يو پوښۍ ونه موندل شو</AdminFoldersFolderNotFound>
+  <AdminFoldersPropertiesTitle>پوښۍ</AdminFoldersPropertiesTitle>
+  <AdminFoldersGeneralInfo>عمومي معلومات</AdminFoldersGeneralInfo>
+  <AdminFoldersFolderRemoteWarningForms>نوټ! دادوسیه ده له لرې شریک. وګورئ {0} ډېرځليزې پوښتنې: څنګه پرتو پوښيو شریک {1}</AdminFoldersFolderRemoteWarningForms>
+  <AdminFoldersFolderRemoteWarningWin>نوټ! دادوسیه ده له لرې شریک. تاسو کولای شو د څه د پوښيو / دوتنې پټ که کاروونکو مه حقونو ورته لوستل نه لري. {0} لټونه د وګورئ: څنګه د دوتنې / پوښۍ چې د کارونکي لوستلو حقونو نه لري پټ {1}</AdminFoldersFolderRemoteWarningWin>
+  <AdminFoldersFolderPath>سپړنه لاره</AdminFoldersFolderPath>
+  <AdminFoldersLocationPath>د ځای</AdminFoldersLocationPath>
+  <AdminFoldersFolderCreate>پوښۍ جوړول</AdminFoldersFolderCreate>
+  <AdminFoldersFolderCreateProcess>پوښۍ جوړول</AdminFoldersFolderCreateProcess>
+  <AdminFoldersFolderCreateContainsPattern>د پوښۍ نشي جوړېدلی شي ځکه چې دا یوه بیلګه لرونکی د</AdminFoldersFolderCreateContainsPattern>
+  <AdminFoldersFolderCreateSuccessfully>د پوښۍ "{0}" په بریالیتوب سره جوړ شوي دي.</AdminFoldersFolderCreateSuccessfully>
+  <AdminFoldersFolderOptional> (اختیاري)</AdminFoldersFolderOptional>
+  <AdminFoldersFolderLimitations>محدودیتونه</AdminFoldersFolderLimitations>
+  <AdminFoldersFolderDescription>Description</AdminFoldersFolderDescription>
+  <AdminFoldersFolderQuota>سهمیې</AdminFoldersFolderQuota>
+  <AdminFoldersFolderQuotaHint>د موجوده نه خوری او یا نوي سهمیې د فضا یو پوښۍ لپاره اجازه، موټرانو دوتنه سرور منابعو د مدير له خوا د محدودولو رامنځته کړي.</AdminFoldersFolderQuotaHint>
+  <AdminFoldersFolderQuotaMoreInfoLink>نور معلومات</AdminFoldersFolderQuotaMoreInfoLink>
+  <AdminFoldersPermissions>حلال</AdminFoldersPermissions>
+  <AdminFoldersPermissionsFor>لپاره اجازه {0}</AdminFoldersPermissionsFor>
+  <AdminFoldersUsersGroups>کارنان او ډلو</AdminFoldersUsersGroups>
+  <AdminFoldersAccessControl>رسي مهار</AdminFoldersAccessControl>
+  <AdminFoldersCreate>جوړول</AdminFoldersCreate>
+  <AdminFoldersDelete>ړنګول</AdminFoldersDelete>
+  <AdminFoldersRename>نوم بدلول</AdminFoldersRename>
+  <AdminFoldersUpload>پورته کول</AdminFoldersUpload>
+  <AdminFoldersDownload>دانلود</AdminFoldersDownload>
+  <AdminFoldersZipDownload>زيب او دانلود</AdminFoldersZipDownload>
+  <AdminFoldersZip>زيب</AdminFoldersZip>
+  <AdminFoldersUnzip>راپاروونکو زيب</AdminFoldersUnzip>
+  <AdminFoldersCut>پري</AdminFoldersCut>
+  <AdminFoldersCopy>کاپي</AdminFoldersCopy>
+  <AdminFoldersListFiles>انکړپټه ښودل دوتنې</AdminFoldersListFiles>
+  <AdminFoldersListFolders>خپرونه د پوښيو</AdminFoldersListFolders>
+  <AdminFoldersModify>نتايجو ته</AdminFoldersModify>
+  <AdminFoldersBulkMailing>د حجم پوستي</AdminFoldersBulkMailing>
+  <AdminFoldersAnonymViewContent>د خلکو له لارې د دوتنې لست</AdminFoldersAnonymViewContent>
+  <AdminFoldersAnonymDownload>دانلود عامه له لارې</AdminFoldersAnonymDownload>
+  <AdminFoldersAnonymUpload>پورته د عامه له لارې</AdminFoldersAnonymUpload>
+  <AdminFoldersWatch>د څار</AdminFoldersWatch>
+  <AdminFoldersDescription>تاسو کولای شی د پوښيو لاسي زیاتولی او یا د موجوده پوښيو بدلوي که تاسو په ګروپ پالیسیو ډرایونه کاروي. د لا نورو مالوماتو وګورئ {0} مرسته {1}.</AdminFoldersDescription>
+
+  <AdminFoldersPermissionsForRegex>تاسو هم کولای شي په منظم ډول د بیان د کار اخلي. لطفا &lt;b&gt; {0} &lt;/b&gt; د ساحوي پورته په پيل او بيا په منظمه توګه د بیان، د بېلګې په توګه:</AdminFoldersPermissionsForRegex>
+  <AdminFoldersPermissionsForRegexUsers>{0} &lt;br (د هر ډول د کارونکي الس رسی برابر) /&gt; {1} (: jdoe او مایک دې په منظمه توګه د بیان د دوه کاروونکو مانا)</AdminFoldersPermissionsForRegexUsers>
+  <AdminFoldersPermissionsForRegexGroups>{0} &lt;br (د هيڅ ډلې ته لاسرسی برابر) /&gt; {1} (دا څرګندنې د ټولو ډلو سره د هغوی په نومونو کې د "زده کوونکي" مانا لري)</AdminFoldersPermissionsForRegexGroups>
+
+  <AdminFoldersListRestrictions>د نندارې محدوديتونه</AdminFoldersListRestrictions>
+  <AdminFoldersCreateRestrictions>د دوتنې رامنځته محدوديتونه</AdminFoldersCreateRestrictions>
+  <AdminFoldersRestrictionAllow>اجازه</AdminFoldersRestrictionAllow>
+  <AdminFoldersRestrictionDeny>انکار</AdminFoldersRestrictionDeny>
+  <AdminFoldersRestrictionExtensions>پراخونې</AdminFoldersRestrictionExtensions>
+  <AdminFoldersUserNamePrompt>کارن نوم وليکئ</AdminFoldersUserNamePrompt>
+  <AdminFoldersUserNameEmptyText>انتخاب کارن نوم</AdminFoldersUserNameEmptyText>
+  <AdminFoldersUserNameNotSelected>تاسو باید د یو کارن نوم وټاکئ</AdminFoldersUserNameNotSelected>
+  <AdminFoldersUserAlreadyExists>دا کارن تر لا د پوښۍ ته سپارل شوي دي</AdminFoldersUserAlreadyExists>
+  <AdminFoldersGroupNamePrompt>ډلې نوم وليکئ</AdminFoldersGroupNamePrompt>
+  <AdminFoldersGroupNameEmptyText>انتخاب ډلې نوم</AdminFoldersGroupNameEmptyText>
+  <AdminFoldersGroupNameNotSelected>نو تاسې بايد يو ډلې نوم وټاکئ</AdminFoldersGroupNameNotSelected>
+  <AdminFoldersGroupAlreadyExists>دا ډله لا د پوښۍ ته سپارل شوي دي</AdminFoldersGroupAlreadyExists>
+  <AdminFoldersEmptyName>دادوسیه خلاصه نوم نه شي تش وي</AdminFoldersEmptyName>
+  <AdminFoldersEmptyPath>دادوسیه خلاصه لاره نه شي تش وي</AdminFoldersEmptyPath>
+  <AdminFoldersIncorrectName>په پوښۍ نوم ناسم سمبولونه شته</AdminFoldersIncorrectName>
+  <AdminFoldersAlreadyExists>په دې نوم او موقعيت يو پوښۍ د مخکې نه شتون</AdminFoldersAlreadyExists>
+  <AdminFoldersSharesButton>موجوده</AdminFoldersSharesButton>
+  <AdminFoldersTestAccessButton>ازموينې ته لاسرسی</AdminFoldersTestAccessButton>
+  <AdminFoldersTestIndexingButton>امتحان indexing</AdminFoldersTestIndexingButton>
+  <AdminFoldersShareNameTitle>موجوده</AdminFoldersShareNameTitle>
+  <AdminFoldersShareNameEmptyText>انتخاب برخه</AdminFoldersShareNameEmptyText>
+  <AdminFoldersShareNameNotSelected>تاسو باید برخه وټاکئ</AdminFoldersShareNameNotSelected>
+  <AdminFoldersGetQuotaButton>ونډه ترلاسه کړئ</AdminFoldersGetQuotaButton>
+  <AdminFoldersSetQuotaButton>ټولګې ونډه</AdminFoldersSetQuotaButton>
+  <AdminCommonFilterField>Filter</AdminCommonFilterField>
+  <AdminCommonValidateField>اعتباري</AdminCommonValidateField>
+  <AdminFoldersRootNameUsed>لطفا پر ځای د پوښۍ لپاره بل نوم وکاروي "{0}"</AdminFoldersRootNameUsed>
+  <AdminFoldersFolderFilterSuccess>د چاڼګر اعتبار په برياليتوب رامنځته شوه</AdminFoldersFolderFilterSuccess>
+
+  <AdminTestAccessGoodResult>د پوښۍ "{0}" کې موجوده ده او ولوستل شي.</AdminTestAccessGoodResult>
+  <AdminTestAccessBadResult>د پوښۍ "{0}" شتون نه لري يا هم نشته او د NTFS پرېښلې پاتې یا د غوښتنلیک د هویت د شبکې السرسی نه شته!</AdminTestAccessBadResult>
+  <AdminTestAccessErrorResult>لاس رسی د کتلو ته پوښۍ په داسې حال کې تېروتنه "{0}": {1}</AdminTestAccessErrorResult>
+  <AdminTestIndexingErrorResult>د دادوسیه indexing کتلو داسې حال کې تېروتنه "{0}":
+{1}</AdminTestIndexingErrorResult>
+  <AdminTestIndexingYesResult>چې ډايرکټري "{0}" ده په زیرمه یا</AdminTestIndexingYesResult>
+  <AdminTestIndexingNoResult>چې ډايرکټري "{0}" ده په زیرمه یا نه</AdminTestIndexingNoResult>
+  <AdminTestIndexingUnknownResult>تر څو معلومه چې ډايرکټري "{0}" ده په زیرمه کولو توان نلري.</AdminTestIndexingUnknownResult>
+  <AdminTestIndexingAddIfNotIndexed>ایا ته غواړې چې د indexing دادوسیه اضافه، که دا په زیرمه شوي دي تر اوسه؟</AdminTestIndexingAddIfNotIndexed>
+  <ProgressTestAccess>د کتلو ته لاسرسی</ProgressTestAccess>
+  <ProgressTestIndexing>د موجودۍ indexing</ProgressTestIndexing>
+  <AdminHowToIndexingLocationLink>د شاخص په موخه یوه پوښی لپاره مرسته مراجعه {0}</AdminHowToIndexingLocationLink>
+
+  <AdminUsersListAll>ټول کارنان</AdminUsersListAll>
+  <AdminUsersListDACL>له ACL کارنان</AdminUsersListDACL>
+  <AdminGroupsListAll>ټولو ډلو</AdminGroupsListAll>
+  <AdminGroupsListDACL>له ACL ډلو</AdminGroupsListDACL>
+  <AdminDACLStringLabel>ACL پرېښلې</AdminDACLStringLabel>
+
+  <AdminCommonCustomField>د ګمرکونو په برخه</AdminCommonCustomField>
+  <AdminCommonSettingsChangeWarning>بدلونونه به په اثر بيا د ننوتو وروسته د (او یا د WebDav لاسرسی درخواست بياپيلات وروسته) واخلي.</AdminCommonSettingsChangeWarning>
+
+  <AdminCommonAllowedFoldersPathsTitle>اجازه پوښۍ يونلورونه وباسي</AdminCommonAllowedFoldersPathsTitle>
+  <AdminCommonNotAllowedFolderPath>تاسو يوازې د دغو دوسيو کې او يا د هغې subfolders لاسرسی رامنځته کړي: {0}</AdminCommonNotAllowedFolderPath>
+
+  <AdminLogsTab>يادښت</AdminLogsTab>
+
+  <AdminSettingsTab>امستنې</AdminSettingsTab>
+
+  <AdminLogsErrorsTab>څېره غلطيو</AdminLogsErrorsTab>
+  <AdminLogsErrorsClearBtn>روښانه</AdminLogsErrorsClearBtn>
+  <AdminLogsErrorsClearUsersCountExceededBtn>روښانه اسنادو سره د هغو کارنانو غلطيو د کمیت حد څخه زیات</AdminLogsErrorsClearUsersCountExceededBtn>
+
+  <AdminFoldersCreateHint>اجازه / څخه غورنۍ "" New کړنو څخه انکا: نوې دوتنه، د نوې کړکۍ، د نوي انځور، د نوي سند دوتنې.</AdminFoldersCreateHint>
+  <AdminFoldersDeleteHint>اجازه / د موجوده فايلونه او دوسيې د ړنګول څخه انکا</AdminFoldersDeleteHint>
+  <AdminFoldersRenameHint>اجازه / د موجوده فايلونه او دوسيې د بدلیدو څخه انکا</AdminFoldersRenameHint>
+  <AdminFoldersUploadHint>اجازه / انکا د پورته دوتنې ځانګړنې (په توکپټې پورته تڼی)</AdminFoldersUploadHint>
+  <AdminFoldersDownloadHint>اجازه / "دانلود"، "محتویات / edit" څخه انکا، دانلود ته خونو ورېځې، او نور اقدامات</AdminFoldersDownloadHint>
+  <AdminFoldersZipDownloadHint>اجازه / انکا "نښتيځيل او دانلود" عمل</AdminFoldersZipDownloadHint>
+  <AdminFoldersZipHint>اجازه / "د يو زيب آرشيف نښتيځيل" څخه انکا عمل</AdminFoldersZipHint>
+  <AdminFoldersUnzipHint>اجازه / "زيب کړی" څخه انکا "د اوسني پوښۍ استخراجول"، "د نوې کړکۍ استخراجول د" او کړنې</AdminFoldersUnzipHint>
+  <AdminFoldersCutHint>اجازه / پري موجوده فايلونه او دوسيې د عمل څخه انکا</AdminFoldersCutHint>
+  <AdminFoldersCopyHint>/ انکا کاپي موجوده فايلونه او دوسيې د عمل اجازه ورکړي</AdminFoldersCopyHint>
+  <AdminFoldersListFilesHint>اجازه / لست دوتنې څخه انکا</AdminFoldersListFilesHint>
+  <AdminFoldersListFoldersHint>اجازه / لست د پوښيو څخه انکا</AdminFoldersListFoldersHint>
+  <AdminFoldersModifyHint>اجازه / انکا دوتنې د بدلون لپاره (ټول اقدامات دي چې کولای شي د موجوده دوتنې یی د بدلون لپاره)</AdminFoldersModifyHint>
+  <AdminFoldersBulkMailingHint>اجازه / د ډلو برخه پوستي څخه انکا</AdminFoldersBulkMailingHint>
+  <AdminFoldersAnonymViewContentHint>اجازه / دوتنې څخه انکا نومه کارنان لپاره لست (عامه تړنې له لارې)</AdminFoldersAnonymViewContentHint>
+  <AdminFoldersAnonymDownloadHint>اجازه / انکا دوتنې بې نومه کارنان لپاره دانلود (د عامه اړيکو له لارې)</AdminFoldersAnonymDownloadHint>
+  <AdminFoldersAnonymUploadHint>اجازه / دوتنې څخه انکا نومه کارنان لپاره پورته (عامه تړنې له لارې)</AdminFoldersAnonymUploadHint>
+  <AdminFoldersWatchHint>اجازه / کاروونکو ته په پوښۍ کړې د نورو کارنانو لخوا د بدلونونو څارنه څخه انکا (دا غوښتنه یوازې که -ويب / AllowUsersmonitorModifications = رښتيا)</AdminFoldersWatchHint>
+  <AdminFoldersListRestrictionsHint>دا چاره د دوتنې لست کنټرولوی. "انکا" راډيو تڼۍ کلیک سره مشخص پراخونې دوتنې پټوي. درج منع پراخونې له خوا comma يې جلا کړئ (د ساري په "EXE، BAT، COM"). جوړ "اجازه" راډيو تڼۍ او د کېښودلو د دوتنو چې به وښودل شي (د ساري په "doc، PDF، JPG") پراخونې.</AdminFoldersListRestrictionsHint>
+  <AdminFoldersCreateRestrictionsHint>دا وظيفه دا ده ورته د "بشپړفهرست محدوديتونه"، خو دا د دوتنو د پورته زيب استخراج کنترولوي، د نوو دوتنو د رامنځته کولو. تاسې کولای شی منع کوي او یا د مشخص د دوتنو د پورته کړي.</AdminFoldersCreateRestrictionsHint>
+  <AdminFoldersGeneralInfoHint>موجوده پوښۍ يونلور او alias ډول. د لا نورو مالوماتو په ښکته مرسته تڼی په کلیک وکړی.</AdminFoldersGeneralInfoHint>
+  <AdminFoldersUsersGroupsHint>وټاکئ او یا ډول کاروونکو او د ډلو ته د هغوی لپاره پوښۍ سره شریک کړي. د لا نورو مالوماتو په ښکته مرسته تڼی په کلیک وکړی.</AdminFoldersUsersGroupsHint>
+
+  <AdminUserFoldersButtonTitle>ازموينه د سهم لست</AdminUserFoldersButtonTitle>
+  <AdminUserFoldersWindowTitle>کارن پوښۍ</AdminUserFoldersWindowTitle>
+  <AdminUserFoldersLabel>کارن لپاره پوښۍ لست '{0}':</AdminUserFoldersLabel>
+  
+  <AdminPermissionsTab>اداري پرېښلې</AdminPermissionsTab>
+  <AdminPermissionsPrivilege>امتیاز</AdminPermissionsPrivilege>
+  <AdminPermissionsEditButton>سمول امتیاز</AdminPermissionsEditButton>
+  <AdminPermissionsModifySettingsTitle>امستنو ته تغیر ورکول</AdminPermissionsModifySettingsTitle>
+  <AdminPermissionsModifyFoldersTitle>د پوښيو کي بدلون</AdminPermissionsModifyFoldersTitle>
+  <AdminPermissionsModifyAnonymFoldersTitle>د عامه پوښۍ کي بدلون</AdminPermissionsModifyAnonymFoldersTitle>
+  <AdminPermissionsModifyAccountsTitle>حسابونو کي بدلون</AdminPermissionsModifyAccountsTitle>
+  <AdminPermissionsViewDiagnosticsTitle>محتویات 'نومېرنه' مخ</AdminPermissionsViewDiagnosticsTitle>
+  <AdminPermissionsViewLogTitle>محتویات يادښت</AdminPermissionsViewLogTitle>
+  <AdminPermissionsViewErrorsLogTitle>محتویات غلطيو log</AdminPermissionsViewErrorsLogTitle>
+  <AdminPermissionsModifyLocalizationsTitle>localizations کي بدلون</AdminPermissionsModifyLocalizationsTitle>
+  <AdminPermissionsFolderPathTitle>پوښۍ يونلور</AdminPermissionsFolderPathTitle>
+  <AdminPermissionsFoldersTitle>اداري پوښۍ</AdminPermissionsFoldersTitle>
+  <AdminPermissionsPrivilegeHint>ټولګې کاروونکو / ډلو لپاره چې د "{0}" امتیاز به اجازه ورکړل شي</AdminPermissionsPrivilegeHint>
+  <AdminPermissionsFolderTitle>اداري پوښۍ</AdminPermissionsFolderTitle>
+  <AdminPermissionsFolderFieldTitle>پوښۍ يونلور</AdminPermissionsFolderFieldTitle>
+  <AdminPermissionsFolderHint>اداری دوسيو په اړه معلومات</AdminPermissionsFolderHint>
+  <AdminPermissionsFolderEmptyAccounts>کارنان او / یا د ډلو ليکئ</AdminPermissionsFolderEmptyAccounts>
+  <AdminPermissionsFolderAlreadyExists>دادوسیه سره دا ځای لا د مخه موجود</AdminPermissionsFolderAlreadyExists>
+  <AdminPermissionsFolderNotFound>په دې ځای پوښۍ ونه موندل شو</AdminPermissionsFolderNotFound>
+  <AdminPermissionsAllowedFoldersMessage>تاسو کولای رامنځته / تازه / اداره يوازې د دغو دوسيو کې او يا د هغې subfolders لاسرسی: {0}</AdminPermissionsAllowedFoldersMessage>
+
+  <AdminUsersCountExceededWarn>د کاروونکو اعظمي اندازه دی نه اوړي. ستاسې د دم مهال د جواز لپاره د ننوتو يوازې د {0} کاروونکو ته اجازه ورکوي. د لا نورو مالوماتو دابرخه "{1}" ټوپ او موندلو "{2}" استثنا (s). په "{1}" ټوپ دا خبر روښانه يادښت اسناد پټ کړي.</AdminUsersCountExceededWarn>
+
+  <AdminNewVersionAvailableTitle>په نوې نسخه شته!</AdminNewVersionAvailableTitle>
+  <AdminNewVersionAvailableInfo>د اوسنۍ بڼې: {0} &lt;br /&gt; &lt;br /&gt; یوه نوي نسخه: {1}</AdminNewVersionAvailableInfo>
+  
+  <SettingsGridDescriptionInfo>Description</SettingsGridDescriptionInfo>
+  <SettingsGridFormatInfo>ارزښت په بڼه</SettingsGridFormatInfo>
+  <SettingsGridDefaultValueInfo>تلواله ارزښت</SettingsGridDefaultValueInfo>
+  <SettingsGridMoreInfo>نور معلومات</SettingsGridMoreInfo>
+  <SettingsGridRestoreDefault>default لپاره بيازېرمل</SettingsGridRestoreDefault>
+
+  <SettingsFormatBoolean>څرګندکه ارزښت</SettingsFormatBoolean>
+  <SettingsFormatWholeNumber>ټول شمیر</SettingsFormatWholeNumber>
+  <SettingsFormatRealNumber>دریښتینو شمیر</SettingsFormatRealNumber>
+  <SettingsFormatString>تار</SettingsFormatString>
+  <SettingsFormatEnum>د کوم ارزښت</SettingsFormatEnum>
+  <SettingsFormatSet>پرته د ارزښتونو تکرار Comma-جلا لست</SettingsFormatSet>
+  <SettingsFormatArray>د تار Comma-جلا لست</SettingsFormatArray>
+  <SettingsFormatToolbarButtons>. (. د ارزښت له "{0}" شي څو څو ځلې په يو کيل تکرار، خو نه په هر نوم او ورپسې د کولون له خوا وروسته، دا ممکنه ده چې د لارو د تڼی د ښودلو لپاره کارول یو مشخص: {1})</SettingsFormatToolbarButtons>
+
+  <AdminSettingsSave>امستنې Save</AdminSettingsSave>
+  <AdminToggleHiddenParams>{0} پرمختللي پارامترونو</AdminToggleHiddenParams>
+  <AdminHintHiddenParams>اضافي پارامترونو يوازې د زيات دانه د امستنو او په ډيرو مواردو کې په پام کې دي په ندرت سره ضروري</AdminHintHiddenParams>
+  <AdminShowHiddenParams>خپرونه</AdminShowHiddenParams>
+  <AdminHideHiddenParams>پټول</AdminHideHiddenParams>
+
+  <SettingsDenyAuthModeChange>اتوماتیک اعتبار اکر بدلون ملاتړ شوې نده. {0} لپاره د اعتبار اکر کتابتون په اړه لارښوونې وګورۍ.</SettingsDenyAuthModeChange>
+  <SettingsApplicationRestartedMsg>کاریال پیل</SettingsApplicationRestartedMsg>
+  <SettingsSettingsSavedMsg>امستنې خوندي شوي دي</SettingsSettingsSavedMsg>
+  <SettingsSettingsSaveFailedAppMsg>سازونې دوتنو د ساتلو توان نلري. د web.config لیکلو NTFS پرېښلې کارن لپاره {0} د ګورت کاریال وليز پوښۍ کې د دوتنو کتل او HttpCommanderSettings.config {1}. تېروتنه پيغام: {2}.</SettingsSettingsSaveFailedAppMsg>
+  <SettingsSettingsSaveFailedTempMsg>سازونې دوتنو د ساتلو توان نلري. چيک کارن لپاره د {0} د موقتي پوښۍ پرېښلې {1}. تېروتنه پيغام: {2}.</SettingsSettingsSaveFailedTempMsg>
+  <SettingsSettingsReadFailedAppMsg>د سازونې دوتنو د لیکلو توان نلري. وګورئ کارن لپاره د web.config NTFS پرېښلې ولولي او HttpCommanderSettings.config {0} د ګورت کاریال وليز پوښۍ کې د دوتنو د {1}. تېروتنه پيغام: {2}.</SettingsSettingsReadFailedAppMsg>
+  <SettingsSettingsReadFailedTempMsg>په موقتي پوښۍ سازونې دوتنو د لیکلو توان نلري. چيک کارن لپاره د {0} د موقتي پوښۍ پرېښلې {1}. تېروتنه پيغام: {2}.</SettingsSettingsReadFailedTempMsg>
+  <SettingsSettingsConfigChangedOutside>دوتنه HttpCommander سازونې شوی بل پروګرام له خوا د بدلون. ښایي تاسو په لاسي بدلون موندلی چې دا د داسې متن مدير دي. د غوښتنليک په اړه د نوي د دوتنې سازونې بار. ته HttpCommander اړوند سازونې ټول بدلونونه چې تاسو د وېب ليدنمخ له لارې ترسره مو دي له لاسه ورکړي. تاسو بايد د هغوی بياکړ، بیا هڅه کوي چې بیا وژغوري. موږ ايډيټنګ سازونې دوتنو د وړاندې په لاسي سپارښتنه حال کې چې د غوښتنلیک چلول. که نه نو تاسو باید د سازونې دوتنو د کتابتون وروسته درخواست بيا پېل کړئ. تېروتنه پيغام: {0}.</SettingsSettingsConfigChangedOutside>
+  <SettingsSettingsSaveNotif>مه امستنې بدلونونه ساتل ونه باسو!</SettingsSettingsSaveNotif>
+  
+  <SettingsEmailNotifTitle>له خوا د ليک د خبرتیا</SettingsEmailNotifTitle>
+  <SettingsEmailNotifApplyBtn>Save پست امستنې</SettingsEmailNotifApplyBtn>
+  <SettingsEmailNotifResetBtn>Reset</SettingsEmailNotifResetBtn>
+  <SettingsEmailNotifEventsLabel>د پیښو</SettingsEmailNotifEventsLabel>
+  <SettingsEmailNotifWhenLabel>وليږئ</SettingsEmailNotifWhenLabel>
+  <SettingsEmailNotifEmailsLabel>برېښناليک</SettingsEmailNotifEmailsLabel>
+  <SettingsEmailNotifPathsLabel>يونلورونه وباسي</SettingsEmailNotifPathsLabel>
+  
+  <LogsErrorsGridUrlColumn>url</LogsErrorsGridUrlColumn>
+  <LogsErrorsGridMsgColumn>پيغام</LogsErrorsGridMsgColumn>
+  <LogsErrorsGridMoreInfoColumn>نور معلومات</LogsErrorsGridMoreInfoColumn>
+  <LogsErrorsGridDetailsTitle>په بشپړه توګه کتل</LogsErrorsGridDetailsTitle>
+  
+  <FsrmUnableLoadLibraryLocal>ته د سرور منابعو د مدير د دوتنې ځايي کوربه سره توان نلري.</FsrmUnableLoadLibraryLocal>
+  <FsrmUnableLoadLibraryRemote>ته د سرور منابعو د مدير د دوتنې "{0}" کوربه سره توان نلري.</FsrmUnableLoadLibraryRemote>
+  <FsrmNotInstalled>دوتنه سرور منابعو د مدير پر نصب نه "{0}".</FsrmNotInstalled>
+  <FsrmNotInstalledEitherEnd>دوتنه سرور منابعو د مدير او يا هم په سيمه ييزو کوربه یا د "{0}" نده پورته شوی.</FsrmNotInstalledEitherEnd>
+  <FsrmQuotaNotSpecified>ونډه نه ده مشخص شوې دي.</FsrmQuotaNotSpecified>
+  <FsrmUnableGetQuota>د سهمیې حد ترلاسه کولو توان نلري.</FsrmUnableGetQuota>
+  <FsrmUnableSetQuota>د سهمیې حد ټاکل توان نلري.</FsrmUnableSetQuota>
+  <FsrmQuotaSetMsg>سهمیې جوړ شوی دی.</FsrmQuotaSetMsg>
+  <FsrmInvalidQuotaValueMsg>باطلې ونډه د ارزښت.</FsrmInvalidQuotaValueMsg>
+
+  <CommandBuyNow>همدا اوس پیرل</CommandBuyNow>
+
+  <AdminUpdateTab>ترفیع</AdminUpdateTab>
+  <AdminUpdateManual>لارښود ترفیع</AdminUpdateManual>
+  <AdminUpdateAuto>اتومات ترفیع</AdminUpdateAuto>
+  <AdminUpdateStartButton>بیا ترفیع / شاتړ جوړول</AdminUpdateStartButton>
+  <AdminUpdateFinishButton>فنلند د ترفیع / بيازېرمل شاتړ</AdminUpdateFinishButton>
+  <AdminUpdateBackupButton>شاتړ</AdminUpdateBackupButton>
+  <AdminUpdateDownloadNewButton>دانلود نوې نسخه</AdminUpdateDownloadNewButton>
+  <AdminUpdateStepTitle>ګام {0} د {1}: {2}</AdminUpdateStepTitle>
+  <AdminUpdateStepInfo>ګام {0} د {1}</AdminUpdateStepInfo>
+  <AdminUpdateNumberSymbol>#</AdminUpdateNumberSymbol>
+  <AdminUpdateBackupContent>لطفا د مطبعې د تڼی "{0}" د د د د پوښۍ له غوښتنلیک سره یو شاتړ کاپي د رامنځته کولو او د کښته يو لينک ترلاسه</AdminUpdateBackupContent>
+  <AdminUpdateDownloadBackupLinkHint>مهرباني وکړئ د لاندې لینک په کارولو سره د غوښتنليک د شاتړ کاپي دانلود:</AdminUpdateDownloadBackupLinkHint>
+  <AdminUpdateDownloadNewContent>نو مهرباني وکړئ د لاندې لینک په کارولو سره د نوي متن دانلود او د دې لپاره چې يو نوی نسخه د لګولو د {0} د نصبولو {1} او {2} د ترفیع لپاره {1} لارښوونې تعقیب کړي. د نصبولو وروسته لطفا دابرخه دکتابتون د اډمين د ډلې، چې د ټوپ "{3}" او بټن "{4}" په دې لپاره چې د لګاو د بشپړولو لپاره ځي.</AdminUpdateDownloadNewContent>
+  <AdminUpdateUploadButton>یو شاتړ کاپي پورته کول او د امستنو درخواست</AdminUpdateUploadButton>
+  <AdminUpdateUploadAndInstallButton>له ټولو امستنې ساتلو يوه نوې بڼه ولګوه</AdminUpdateUploadAndInstallButton>
+  <AdminUpdateUploadEmptyText>لورينه وکړئ د پورته یو شاتړ کاپي وټاکئ</AdminUpdateUploadEmptyText>
+  <AdminUpdateFinishContent>د دې لپاره چې د تیرو نسخه امستنې بېرته لطفا وټاکئ او له غوښتنلیک سره پوښۍ یو شاتړ پخوا جوړ آرشيف پورته</AdminUpdateFinishContent>
+  <AdminUpdateFinishMessage>مبارک شه! ټول امستنې دي په برياليتوب سره وکارول شي. هم، لطفا ټول بدلونونه تاسو نورو دوتنو کړې درخواست، د ساري په Default.aspx یا Global.asax.</AdminUpdateFinishMessage>
+  <AdminUpdateFinishRefreshPage>د مخ به بيا ولېښل شي</AdminUpdateFinishRefreshPage>
+  <AdminUpdateMainInfo>د ارتقا په دې ډول چي قسمي اتومات. کېدی شي چې تاسو رامنځته کړي او له غوښتنلیک سره سازونې امستنې یو شاتړ '' د نیولو او د ارتقا وروسته دا هیله کوو. لطفا تعقیب دغو لنډ ګامونه: د شاتړ دوتنې جوړېدل، د لارښود په ارتقا ترسره کړي، د شاتړ دوتنې څخه د امستنو ته وروګرځوي. دا پروسيجر هم د شاتړ لپاره کارول کیدای شي / پرته ارتقا امستنې ته وروګرځوي. په ساده ډول په ارتقا ګام لاړشی د شاتړ دوتنې څخه د امستنو ته وروګرځوي.</AdminUpdateMainInfo>
+  <AdminUpdateAutoButton>د موټرونو</AdminUpdateAutoButton>
+  <AdminUpdateAutoInfo>د ارتقا دا نوعه تقریبا په بشپړه توګه اتومات. دا شامل دي د 2 ګامونه: د اوسني امستنې شاتړ د امستنو د نوي متن او مرمت د نصبولو د شاتړ دوتنه د (تاسو باید د نیولو او د يو شاتړ دوتنه پرې وساتل شي)،. HTTP قوماندان په اتوماتيک ډول کولای شي د وروستۍ بڼې په دانلود او نصب دا یا هم کوالی شي د يوې نوې نسخه زموږ په سرور په لاره کې د زيب آرشيف ته ځانګړی کړی. ټول امستنې دي په اتوماتيک ډول له پخوا جوړ شاتړ دوتنې راوګرځول شوې.</AdminUpdateAutoInfo>
+  <AdminUpdateRestoreWebConfigCheckBox>له Web.config (د ساري په، لکه SMTP) امستنې لپاره بيازېرمل</AdminUpdateRestoreWebConfigCheckBox>
+  <AdminUpdateBackupAssignedFoldersInRootMessage>پاملرنه! سره د غوښتنليک په نوملړ ځينو کارونکي پوښۍ چې د مجموعي اندازې څخه زيات لري {0}. د شاتړ به وشي نه. لطفا یو د دغو ډایرکټرۍ شاتړ کاپي کوئ، د غوښتنليک د نوملړ څخه لرې او ستاسو له لوري د عملياتو retry.</AdminUpdateBackupAssignedFoldersInRootMessage>
+  <AdminUpdateNeedRefreshPageForContinue>پاملرنه! د ادامه ورکولو ته د مخ بيا راولېښئ دا ضروري ده. لطفا د بټن "{0}". خرابېږي، وروسته لطفا د دې عملياتو تکرار کړي.</AdminUpdateNeedRefreshPageForContinue>
+  <AdminUpdateRestoreFromBackupEmpty>، او یا که دا نه ده ټاکل، نو دا به له خوا د نوي رامنځته شوي دوتنه په تېرو ګام وکارول شي</AdminUpdateRestoreFromBackupEmpty>
+  <AdminUpdateInstallZipPathHint>تجدید لپاره لطفا په لومړي برخه کې د بشپړ فزیکي لاره د لګاو د دوتنې (په سرور) مشخص يا دا په دې لپاره چې د انلاين ويش څخه ګټه خالي ووځي</AdminUpdateInstallZipPathHint>
+  <AdminUpdateInstallZipPathEmpty>سره نصب آرشيف لاره ليکئ</AdminUpdateInstallZipPathEmpty>
+  <AdminUpdateProgress>د نصابونو په</AdminUpdateProgress>
+  <AdminUpdateAccessDeniedWarning>&lt;b&gt; پاملرنه! &lt;/b&gt; د تجدید لطفا د يج جوړ (لوستلو او ليکلو) د {0} سره HTTP قوماندان لپاره پوښۍ د کارونکي NTFS پرېښلې {1} او تکرار د ارتقا. &lt;br /&gt; د بریالي ارتقا نه وروسته لطفا د د پخواني حقونو ته وروګرځوي.</AdminUpdateAccessDeniedWarning>
+  <AdminUpdateAccessDeniedWarningCurentUser>اوسني</AdminUpdateAccessDeniedWarningCurentUser>
+
+  <ServerExceedsMaxSizeForEditAsTextFile>د دوتنې کچه اعظمي اندازه په توګه د يو متن د دوتنې دا د سمولو څخه اوړي.</ServerExceedsMaxSizeForEditAsTextFile>
+  <ServerDemoMode>په يوه demo اکر د ورکړل عمل منع ده.</ServerDemoMode>
+  <ServerHostedMode>دا اجازه نه لري چې د لاندې په کوربه توب محاکمې نسخه امستنې ارزښتونو بدلون: {0}.</ServerHostedMode>
+  <ServerIncorrectImageContentType>دوتنه MIME-ډول انځور نه دی</ServerIncorrectImageContentType>
+  <ServerPermissionDenied>دا عمليات د محدود پرېښلې ځکه رد شي</ServerPermissionDenied>
+  <ServerRestoreFromTrashNoParentFolder>اعاده ناکام شو ځکه چې د مورنی نوملړ "{0}" نه موندل شوي. لطفا د جوړولو او بیا کوښښ وکړه.</ServerRestoreFromTrashNoParentFolder>
+  <ServerModifyPermissionDenied>دا عمليات په کلکه رد کړل، ځکه تاسو د دوتنې د بدلون لپاره اجازه نه لري</ServerModifyPermissionDenied>
+  <ServerPathNotFound>يونلور ونه موندل شو.</ServerPathNotFound>
+  <ServerInvalidPath>يونلور "{0}" د اعتبار وړ نه دی</ServerInvalidPath>
+  <ServerInvalidAbsolutePath>باطلې مطلق لاره "{0}"</ServerInvalidAbsolutePath>
+  <!-- share folder path: \\server\share -->
+  <ServerInvalidShareFolderPath>باطلې پوښۍ ونډه لاره "{0}"</ServerInvalidShareFolderPath>
+  <ServerInvalidUncPath>باطلې UNC لاره "{0}"</ServerInvalidUncPath>
+  <ServerUnableResolveUncPath>ته UNC لاره د حل توان نلري "{0}"</ServerUnableResolveUncPath>
+  <ServerInvalidFileName>دوتنه / پوښۍ نوم نه دی او یا لرونکی د ناسم تورو {0}</ServerInvalidFileName>
+  <ServerFilePathNotFound>دوتنه شتون نه لري</ServerFilePathNotFound>
+  <ServerIncorrectPathForFileLink>ناسم څيز ډول. د مشخص لاره يو پوښۍ ګوته</ServerIncorrectPathForFileLink>
+  <ServerIncorrectPathForFolderLink>ناسم څيز ډول. د مشخص لاره له يو دوتنې ګوته</ServerIncorrectPathForFolderLink>
+  <ServerRootFolderNotFound>لپاره لاره وليز پوښۍ "{0}" ونه موندل شو.</ServerRootFolderNotFound>
+  <ServerUnableCreateFolder>د کړکۍ جوړولو توان نلري</ServerUnableCreateFolder>
+  <ServerFileAlreadyExists>د دوتنې سره د دې نوم د مخکې نه شتون</ServerFileAlreadyExists>
+  <ServerFileAlreadyExistsOnRename>
+    ایا ته غواړې چې نوم بدلولی "{0}" څخه "د {1}"؟
+    لا له وړاندې په دې ځای کې په همدې نوم يوه دوتنه شته.
+  </ServerFileAlreadyExistsOnRename>
+  <ServerFolderAlreadyExistsOnRename>
+    ایا ته غواړې چې نوم بدلولی "{0}" څخه "د {1}"؟
+    لا له وړاندې په دې ځای کې په همدې نوم يوه پوښۍ شتون لري.
+  </ServerFolderAlreadyExistsOnRename>
+  <ServerFoldersMergeConfirm>
+    دا مقصد لا په نامه یو پوښۍ لري "{0}".
+    آیا تاسو اوس هم غواړي چې دادوسیه لېږدونه او "{0}" سره د دې يو "{1}"؟
+  </ServerFoldersMergeConfirm>
+  <ServerFolderWithSameNameAsFileNameAlreadyExists>لا له وړاندې په همدې نوم يوه پوښۍ شتون لري "{0}" په توګه د دوتنې په نوم چې تا مشخص</ServerFolderWithSameNameAsFileNameAlreadyExists>
+  <ServerFileWithSameNameAsFolderNameAlreadyExists>لا له وړاندې په همدې نوم يوه دوتنه شته "{0}" په توګه د پوښۍ نوم تا مشخص</ServerFileWithSameNameAsFolderNameAlreadyExists>
+  <ServerFileNotFound>دوتنه: "{0}" په پوښۍ نه موندل شو "{1}". ښایي دا ړنګ شوی او یا د بل کارن لرې.</ServerFileNotFound>
+  <ServerDirectoryAlreadyExists>د دې نوم نوملړ د مخکې نه شتون</ServerDirectoryAlreadyExists>
+  <ServerFolderMoveAlreadeExists>د موخه پوښۍ "{0}" ده سرچينه پوښۍ په توګه د همدې</ServerFolderMoveAlreadeExists>
+  <ServerUploadPathNotFound>د دوتنې د ساتلو لاره پر پالنګر ونه موندل شو</ServerUploadPathNotFound>
+  <ServerUploadPathNotSet>په داسې حال کې د پورته لاره ترلاسه یوه تېروتنه رامنځته شوه. مهرباني وکړئ، په دې کتنمل مخ تازه او بیا کوښښ وکړه.</ServerUploadPathNotSet>
+  <ServerUploadNoChunk>لپاره د خوندي نه لاړه</ServerUploadNoChunk>
+  <ServerUploadWriteChunk>ځکه byte لاړه ولیکئ</ServerUploadWriteChunk>
+  <ServerUploadCreatingFile>دوتنه جوړول</ServerUploadCreatingFile>
+  <ServerUploadFileUploaded>همدا دوتنه د پورته شوي</ServerUploadFileUploaded>
+  <ServerUploadWriteError>د ليکلو کې تېروتنه</ServerUploadWriteError>
+  <ServerConfigurationError>ناسم سازونې يا درخواست! د ځای د مدیر سره اړیکه</ServerConfigurationError>
+  <ServerPermissionsAllowTypes>اوسني پرېښلې دې عملياتو کې يواځې د دوتنې ډولونه اجازه {0}</ServerPermissionsAllowTypes>
+  <ServerPermissionsDenyTypes>اوسني پرېښلې د دوتنې په ډوله دې عملياتو منع {0}</ServerPermissionsDenyTypes>
+  <ServerRequestSizeExceeded>د پورته شويو دوتنو د اندازې څخه زیات وي اجازه په پالنګر امستنې اندازه</ServerRequestSizeExceeded>
+  <ServerEmailMsgProcessedFilesSubject>Uploaded / تاييد / د کتلو / ايجاد / ړنګ / ګډو دوتنې / پوښۍ</ServerEmailMsgProcessedFilesSubject>
+  <ServerEmailMsgUploadFilesTitle>پورته</ServerEmailMsgUploadFilesTitle>
+  <ServerEmailMsgModifyFilesTitle>بدلون موندلی</ServerEmailMsgModifyFilesTitle>
+  <ServerEmailMsgDownloadFilesTitle>کښته</ServerEmailMsgDownloadFilesTitle>
+  <ServerEmailMsgCreateFilesTitle>جوړ</ServerEmailMsgCreateFilesTitle>
+  <ServerEmailMsgDeleteFilesTitle>ړنګ</ServerEmailMsgDeleteFilesTitle>
+  <ServerEmailMsgCreatePublicFilesTitle>شریک</ServerEmailMsgCreatePublicFilesTitle>
+  <ServerEmailMsgProcessedFilesBody>
+    دا لاندينۍ دوتنې / پوښيو وو {0} د {1}:
+
+{2}
+    
+  </ServerEmailMsgProcessedFilesBody>
+  <ServerEmailMsgPasswordRecoverSubject>پټنوم د پرځای</ServerEmailMsgPasswordRecoverSubject>
+  <ServerEmailMsgPasswordRecoverBody>
+    غوښتنه چې تاسو په ويب دوتنه مدير خپل پټ نوم بیرته. خپل پټ نوم بیا. که تاسو فکر کوئ چې دا يو تېروتنه، په ساده توګه د دې لیک له پامه، خو خبر وي، چې د خپل پټنوم شوی دی بدل شوی.
+    کارن نوم: {0}
+    نوی پټنوم: {1}
+  </ServerEmailMsgPasswordRecoverBody>
+  
+  <ServerEmailMsgUserNameRecoverSubject>نوم بیرته</ServerEmailMsgUserNameRecoverSubject>
+  <ServerEmailMsgUserNameRecoverBody>
+    غوښتنه چې تاسو په ويب دوتنه مدير خپل نوم بیرته.
+    کارن نوم: {0}
+  </ServerEmailMsgUserNameRecoverBody>
+
+  <ServerEmailMsgUserActivationSubject>ګڼون فعالولو</ServerEmailMsgUserActivationSubject>
+  <ServerEmailMsgUserActivationBody>
+    ګڼون ({0}) د فعالولو ته اړتيا ده.
+    ته په خپل حساب کې د روښانولو لپاره، مهرباني وکړئ د لاندې لینک کیکاږۍ: {1}
+  </ServerEmailMsgUserActivationBody>
+  <ServerEmailMsgUserRegisteredSubject>کارن ثبت</ServerEmailMsgUserRegisteredSubject>
+  <ServerEmailMsgUserRegisteredBody>
+    تاسو په بریالیتوب سره په ويب دوتنه مدير ثبت شوي دي.
+    کارن نوم: {0}
+  </ServerEmailMsgUserRegisteredBody>
+  <ServerEmailMsgUserRegisteredForAdminsBody>
+    &lt;h4&gt; نوی کارن ثبت شوي دي &lt;/h4&gt;
+    &lt;strong&gt; کارن نوم &lt;/strong&gt;: {0} &lt;br /&gt;
+    &lt;strong&gt; دبرېښنا ليک &lt;/strong&gt;: {1} &lt;br /&gt;
+    &lt;strong&gt; نېټه &lt;/strong&gt;: {2} &lt;br /&gt;
+    &lt;strong&gt; اضافی معلومات &lt;/strong&gt;: {3} &lt;br /&gt;
+  </ServerEmailMsgUserRegisteredForAdminsBody>
+  <ServerDiskFullError>پر ټيکلی کافي فاصله نه شته.</ServerDiskFullError>
+  <ServerFolderLimitations>دادوسیه خلاصه محدودیتونه: {0}</ServerFolderLimitations>
+  <ServerShortcutAssignedFolderNotFound>موظف پوښۍ لپاره د لنډلارې هدف لاره ونه موندل شو</ServerShortcutAssignedFolderNotFound>
+  <ServerSizeFilesForZipExceeded>د archivable دوتنې اندازه اجازه زیات ارزښت {0}.</ServerSizeFilesForZipExceeded>
+  <ServerPasteFolderToSubfolderError>د موخه پوښۍ "{0}" د منبع پوښۍ يو subfolder "{1}".</ServerPasteFolderToSubfolderError>
+  <ServerLiveConnectAppIDNotSpecified>د Microsoft ژوندۍ اړیکي غوښتنلیک د مراجع د تذکرو نده تعریف شوی</ServerLiveConnectAppIDNotSpecified>
+  <ServerSendEmailInfo>لیکوال په توګه {0} خپل ایمیل مشخص شوې دي. یواځې دا برېښليک پته په استفادې سره د ځواب.</ServerSendEmailInfo>
+
+  <ServerAntivirusScanningFailed>د سکن کولو يو Antivirus له خوا د: '{0} د {1}' فيصدۍ په یوړل شو.</ServerAntivirusScanningFailed>
+
+  <ServerUserNameNotFound>سره د نوم د کارن '{0}' ونه موندل شو.</ServerUserNameNotFound>
+  <ServerFileNameCopySuffix>کاپي</ServerFileNameCopySuffix>
+
+  <ServerDeleteFolderNTFSAccessDenied>تاسو ته پوښۍ لرې NTFS اجازه نه لرو. "{0}"</ServerDeleteFolderNTFSAccessDenied>
+
+  <ServerMSOOTemplateNotFound>{0} کينډۍ ونه موندل شو</ServerMSOOTemplateNotFound>
+</Localization>

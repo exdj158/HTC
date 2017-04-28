@@ -1,0 +1,1608 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Localization>
+  <!-- Common keys -->
+  
+  <ExtMsgButtonTextYES>അതെ</ExtMsgButtonTextYES>
+  <ExtMsgButtonTextNO>ഇല്ല</ExtMsgButtonTextNO>
+  
+  <ControlHideFileManager>മറയ്ക്കുക വെബ് ഫയലുകൾ മാനേജർ</ControlHideFileManager>
+  
+  <CommonMainTitle>വെബ് ഫയലുകൾ ആക്സസ്</CommonMainTitle>
+  <CommonApplicationLoading>വെബ് ഫയലുകൾ ആക്സസ്സ് ലോഡുചെയ്യുന്നു</CommonApplicationLoading>
+  <CommonLoadError>വൃക്ഷം ഡാറ്റ ലഭിക്കുന്നത് ഒരു പിശക് സംഭവിച്ചു</CommonLoadError>
+  <CommonGridAccessDenied>ഫോൾഡർ "{0}" നിലവിലില്ല അല്ലെങ്കിൽ പ്രവേശിക്കുവാൻ ഇല്ല തടഞ്ഞിരിക്കുന്നു</CommonGridAccessDenied>
+  <CommonNoScript>ഈ പേജ് നിങ്ങളുടെ ബ്രൗസറിൽ പ്രവർത്തനക്ഷമമാക്കാൻ ജാവാസ്ക്രിപ്റ്റ് ആവശ്യമാണ്! അതു പ്രാപ്തമാക്കി വീണ്ടും ലോഗിൻ ചെയ്യുക!</CommonNoScript>
+  <CommonErrorCaption>പിശക്</CommonErrorCaption>
+  <CommonWarningCaption>മുന്നറിയിപ്പ്</CommonWarningCaption>
+  <CommonInfoCaption>വിവരം</CommonInfoCaption>
+  <CommonConfirmCaption>ഉറപ്പിക്കുക</CommonConfirmCaption>
+  <CommonFileNameCaption>ഫയലിന്റെ പേര്</CommonFileNameCaption>
+  <CommonFileNamePrompt>ഒരു പുതിയ ഫയൽ നാമം നൽകുക</CommonFileNamePrompt>
+  <CommonFileNewNameValue>പുതിയ ടെക്സ്റ്റ് Document.txt</CommonFileNewNameValue>
+  <CommonFolderNewNameValue>പുതിയ ഫോൾഡർ</CommonFolderNewNameValue>
+  <CommonZipFileNameCaption>പിൻ ആർക്കൈവ് പേര്</CommonZipFileNameCaption>
+  <CommonZipFileNamePrompt>ഫയൽ നാമം (വിപുലീകരണം യാന്ത്രികമായി ചേർക്കും)</CommonZipFileNamePrompt>
+  <CommonFolderNameCaption>ഫോൾഡർ പേര്</CommonFolderNameCaption>
+  <CommonFolderNamePrompt>ഒരു പുതിയ ഫോൾഡർ പേര് നൽകുക</CommonFolderNamePrompt>
+  <CommonDeleteOnePrompt>നിങ്ങൾക്ക് ഉറപ്പാണോ ഇല്ലാതാക്കാൻ "{0}" താൽപ്പര്യപ്പെടുന്നോ?</CommonDeleteOnePrompt>
+  <CommonDeleteManyPrompt>നിങ്ങൾ ഈ {0} ഇനങ്ങൾ ഇല്ലാതാക്കാൻ താൽപ്പര്യപ്പെടുന്നോ?</CommonDeleteManyPrompt>
+  <CommonForToday>ഇന്നത്തേക്ക്</CommonForToday>
+  <CommonButtonCaptionOK>ശരി</CommonButtonCaptionOK>
+  <CommonButtonCaptionCancel>റദ്ദാക്കുക</CommonButtonCaptionCancel>
+  <CommonButtonCaptionClose>അടയ്ക്കുക</CommonButtonCaptionClose>
+  <CommonButtonCaptionAdd>ചേർക്കുക</CommonButtonCaptionAdd>
+  <CommonButtonCaptionContinue>തുടരുക</CommonButtonCaptionContinue>
+
+  <CommonProgressPleaseWait>കാത്തിരിക്കൂ</CommonProgressPleaseWait>
+  
+  <CommonFieldLabelName>പേര്</CommonFieldLabelName>
+  <CommonFieldLabelPath>പാത</CommonFieldLabelPath>
+  <CommonFieldLabelSize>വലുപ്പം</CommonFieldLabelSize>
+  <CommonFieldLabelLabels>ലേബലുകൾ</CommonFieldLabelLabels>
+  <CommonFieldLabelType>ടൈപ്പ് ചെയ്യുക</CommonFieldLabelType>
+  <CommonFieldLabelAction>ആക്ഷൻ</CommonFieldLabelAction>
+  <CommonFieldLabelDate>തീയതി</CommonFieldLabelDate>
+  <CommonFieldLabelDateTime>തീയതി സമയം</CommonFieldLabelDateTime>
+  <CommonFieldLabelDateCreated>തീയതി സൃഷ്ടിച്ചു</CommonFieldLabelDateCreated>
+  <CommonFieldLabelDateModified>പുതുക്കിയ തീയതി</CommonFieldLabelDateModified>
+  <CommonFieldLabelDateAccessed>തീയതി ആക്സസ്</CommonFieldLabelDateAccessed>
+  <CommonFieldLabelValue>വില</CommonFieldLabelValue>
+  <CommonFieldLabelUserName>ഉപയോക്തൃ നാമം</CommonFieldLabelUserName>
+  <CommonFieldLabelUser>ഉപയോക്താവ്</CommonFieldLabelUser>
+  <CommonFieldLabelUsers>ഉപയോക്താക്കൾ</CommonFieldLabelUsers>
+  <CommonFieldLabelGroupName>ഗ്രൂപ്പ് പേര്</CommonFieldLabelGroupName>
+  <CommonFieldLabelGroup>ഗ്രൂപ്പ്</CommonFieldLabelGroup>
+  <CommonFieldLabelGroups>ഗ്രൂപ്പുകൾ</CommonFieldLabelGroups>
+  <CommonFieldLabelPassword>Password</CommonFieldLabelPassword>
+  <CommonFieldLabelRepeatPassword>പാസ്സ്വേർഡ് ആവർത്തിക്കുക</CommonFieldLabelRepeatPassword>
+  <CommonFieldLabelComments>അഭിപ്രായങ്ങള്</CommonFieldLabelComments>
+  <CommonValueTypeFolder>ഫോൾഡർ</CommonValueTypeFolder>
+
+  <CommonFieldLabelDescription>വിവരണം</CommonFieldLabelDescription>
+  <EmptyDescriptionText>വിവരണം വ്യക്തമാക്കുക</EmptyDescriptionText>
+  <CommonFieldLabelReadMeTxt>Readme.txt ഉള്ളടക്കം</CommonFieldLabelReadMeTxt>
+  
+  <CommonWordOr>അഥവാ</CommonWordOr>
+
+  <SortAscText>ആരോഹണ അടുക്കുക</SortAscText>
+  <SortDescText>അടുക്കുക അവരോഹണ</SortDescText>
+
+  <CommonNewDocument>പുതിയ പ്രമാണം</CommonNewDocument>
+  <CommonNewSpreadsheet>പുതിയ സ്പ്രെഡ്ഷീറ്റ്</CommonNewSpreadsheet>
+  <CommonNewPresentation>പുതിയ അവതരണം</CommonNewPresentation>
+
+  <CommonWordWrap>വാക്ക് റാപ്</CommonWordWrap>
+  
+  <!-- End Common keys -->
+
+  <!-- Labels -->
+
+  <LabelsTitle>ലേബൽ</LabelsTitle>
+  <LabelsNoLabel>ലേബൽ ഇല്ല</LabelsNoLabel>
+  <LabelsColor>നിറം</LabelsColor>
+  <LabelsCustomLabel>കസ്റ്റം ലേബൽ</LabelsCustomLabel>
+  <LabelsCustomLabelHint>ലേബലിന്റെ വാചകം നൽകുക</LabelsCustomLabelHint>
+  <LabelsCustomLabelView>ലേബൽ &amp;nbsp; കാണുക: &amp;nbsp; {0} {1} {2}</LabelsCustomLabelView>
+  <LabelsFileLabelledMessage>വിജയകരമായി ലേബൽ {0} ഇനം (ങ്ങൾ)</LabelsFileLabelledMessage>
+  <LabelsRemovedMessage>വിജയകരമായി നീക്കി {0} ലേബൽ ()</LabelsRemovedMessage>
+  <LabelsNotRemovedMessages>നീക്കംചെയ്തില്ല: {0}</LabelsNotRemovedMessages>
+  <LabelsNotLabelledMessage>ലേബൽ ചെയ്തിരുന്നില്ല: {0}</LabelsNotLabelledMessage>
+  <LabelsLabelRemovedMessage>ലേബൽ വിജയകരമായി നീക്കംചെയ്തു</LabelsLabelRemovedMessage>
+  <LabelsNewLabel>പുതിയ ലേബൽ</LabelsNewLabel>
+  <LabelsLabellingMessage>Labelling</LabelsLabellingMessage>
+  <LabelsRemovingLabelMessage>നീക്കംചെയ്യുന്നു ലേബലുകൾ</LabelsRemovingLabelMessage>
+  <LabelsLabelInfoTip>'{0}' {1} ഉപയോക്താവ് '{2}' അടയാളപ്പെടുത്തി</LabelsLabelInfoTip>
+
+  <!-- End Labels -->
+
+  <!-- Comments -->
+
+  <CommentsCountInfoTip>{0} അഭിപ്രായം (ങ്ങൾ)</CommentsCountInfoTip>
+  <CommentsWriteCommentHint>ഒരു അഭിപ്രായം അമർത്തുക '{0}' എഴുതുക അല്ലെങ്കിൽ Ctrl+നൽകുക അല്ലെങ്കിൽ Shift+നൽകുക ...</CommentsWriteCommentHint>
+
+  <!-- End Comments -->
+
+  <RefreshPageWarningMessage>&lt;b&gt; ശ്രദ്ധിക്കുക! &lt;/b&gt; ഈ പ്രവർത്തനം പൂർത്തിയാക്കാനായില്ല, ബ്രൗസറിന്റെ നിലവിലുള്ള പേജ് വിമ്മിഷ്ടം ആയിരിക്കണം. &lt;br /&gt; ഇപ്പോൾ പുതുക്കും ആഗ്രഹിക്കുന്നുണ്ടോ?</RefreshPageWarningMessage>
+
+  <PagingToolbarBeforePageText>പേജ്</PagingToolbarBeforePageText>
+  <PagingToolbarAfterPageText>{0} എന്ന</PagingToolbarAfterPageText>
+  <PagingToolbarFirstText>ആദ്യ പേജ്</PagingToolbarFirstText>
+  <PagingToolbarPrevText>മുൻപത്തെ താൾ</PagingToolbarPrevText>
+  <PagingToolbarNextText>അടുത്ത പേജ്</PagingToolbarNextText>
+  <PagingToolbarLastText>അവസാന പേജ്</PagingToolbarLastText>
+  <PagingToolbarDisplayMsg>{1} എന്ന {2} - {0} പ്രദർശിപ്പിക്കുന്നു</PagingToolbarDisplayMsg>
+  <PagingToolbarEmptyMsg>ഡാറ്റ പ്രദർശിപ്പിക്കുന്നതിനായി</PagingToolbarEmptyMsg>
+  
+  <GridTotalLabel>ആകെ:</GridTotalLabel>
+  <GridTotalFilesLabel>ഫയലുകൾ</GridTotalFilesLabel>
+  <GridTotalFoldersLabel>ഫോൾഡറുകൾ</GridTotalFoldersLabel>
+  
+  <GridDDSelectedRowsText>{0} തിരഞ്ഞെടുത്തു വരി {1}</GridDDSelectedRowsText>
+  <GridDDSelectedFilesText>{0} തിരഞ്ഞെടുത്ത ഫയലുകൾ</GridDDSelectedFilesText>
+  <GridDDSelectedFoldersText>{0} തിരഞ്ഞെടുത്തു ഫോൾഡറുകൾ</GridDDSelectedFoldersText>
+  <GridDDConfirmCopyMoveTitle>ഫോൾഡറിലേക്ക് "{0}" ഡ്രോപ്പ്</GridDDConfirmCopyMoveTitle>
+  <GridDDConfirmAddToZipTitle>"{0}" പിൻ ചേർക്കുക</GridDDConfirmAddToZipTitle>
+  <GridDDConfirmAddToZipMessage>ഫയലുകൾ ഈ തപാൽ ആർക്കൈവ് ചേർക്കും വലിച്ചിഴച്ചു. നിങ്ങൾ തുടരാൻ ആഗ്രഹിക്കുന്നുണ്ടോ? {0}.</GridDDConfirmAddToZipMessage>
+  <GridDDConfirmCopyMoveMsg>നിങ്ങൾ അപേക്ഷിക്കാൻ ആഗ്രഹിക്കുന്ന ഒരു പ്രവർത്തനം തിരഞ്ഞെടുക്കുക. അവലംബം: "{0}", ലക്ഷ്യ ഫോൾഡർ:. "{1}" {2} {3}.</GridDDConfirmCopyMoveMsg>
+  <GridDDConfirmCopyMoveToZipMsg>ഫയലുകൾ സിപ് ചേർക്കും. നിങ്ങൾ സിപ് ഫയലുകൾ ചേർത്ത ശേഷം വലിച്ചിഴച്ച് ഫയലുകൾ ബാധകമല്ല ആഗ്രഹിക്കുന്ന ഒരു പ്രവർത്തനം തിരഞ്ഞെടുക്കുക. അവലംബം: "{0}", ലക്ഷ്യ ആയിക്കഴിഞ്ഞാൽ:. "{1}" {2} {3}.</GridDDConfirmCopyMoveToZipMsg>
+  <GridDDDraggedFileNames>&lt;b&gt; വലിച്ചിഴച്ചു ഫയലുകൾ: {0} &lt;/b&gt;</GridDDDraggedFileNames>
+  <GridDDDraggedFolderNames>&lt;b&gt; വലിച്ചിഴച്ചു ഫോൾഡറുകൾ: &lt;/b&gt; {0}</GridDDDraggedFolderNames>
+  <GridDDConfirmTargetFolderOnlyCopyMsg>ഉറവിട ഫോൾഡർ നിലവിലെ അനുമതികൾ മാത്രം പകർപ്പ് നിങ്ങളെ ഫയലുകൾ വലിച്ചിഴച്ച് അനുവദിക്കുക. നിങ്ങൾ തുടരാൻ ആഗ്രഹിക്കുന്നുണ്ടോ? {0}.</GridDDConfirmTargetFolderOnlyCopyMsg>
+  <GridDDConfirmTargetFolderOnlyMoveMsg>ഉറവിട ഫോൾഡർ നിലവിലെ അനുമതികൾ മാത്രം നീക്കേണ്ട ഫയലുകൾ വലിച്ചിഴച്ച് അനുവദിക്കുക. നിങ്ങൾ തുടരാൻ ആഗ്രഹിക്കുന്നുണ്ടോ? {0}.</GridDDConfirmTargetFolderOnlyMoveMsg>
+
+  <GridRowPublicHint>ഒരു പുതിയ വിൻഡോയിൽ / ടാബിൽ ഒരു പൊതു ലിങ്ക് തുറക്കാൻ ക്ലിക്കുചെയ്യുക</GridRowPublicHint>
+  <GridRowAlertHint>ഈ ഫയൽ / ഫോൾഡർ വേണ്ടി ചെയ്ത മാറ്റങ്ങളും കാണാൻ ക്ലിക്ക്</GridRowAlertHint>
+  <GridRowRecentHint>ഈ ഫയൽ കണ്ടെത്തി / ഫോൾഡർ</GridRowRecentHint>
+  <GridRowAlertEventHint>ഈ ലൊക്കേഷൻ പോകുന്നതിന് ക്ലിക്കുചെയ്യുക</GridRowAlertEventHint>
+
+  <ProgressCreating>ഉണ്ടാക്കുന്നു</ProgressCreating>
+  <ProgressDeleting>ഇല്ലാതാക്കുന്നു</ProgressDeleting>
+  <ProgressLoading>ലോഡിംഗ്</ProgressLoading>
+  <ProgressSearching>തിരയുന്നു</ProgressSearching>
+  <ProgressZipping>കംപ്രസ്സുചെയ്യുന്നു</ProgressZipping>
+  <ProgressUnzipping>അൺപാക്കുചെയ്യുന്നു</ProgressUnzipping>
+  <ProgressZipContents>തപാൽ ആർക്കൈവ് ഉളളടക്കം നേടുന്നു</ProgressZipContents>
+  <ProgressPrepareDownload>ഡൗൺലോഡ് തയ്യാറെടുക്കുന്നു</ProgressPrepareDownload>
+  <ProgressMoving>പുരോഗതി</ProgressMoving>
+  <ProgressCopying>പകർത്തുന്നു</ProgressCopying>
+  <ProgressRenaming>റീനെയിമിംഗിനു</ProgressRenaming>
+  <ProgressUpdating>അപ്ഡേറ്റുചെയ്യുന്നു</ProgressUpdating>
+  <ProgressLoadingEditInPixlr>Pixlr Editor ലോഡ്</ProgressLoadingEditInPixlr>
+  <ProgressLoadingEdit>ലോഡുചെയ്യുന്നു എഡിറ്റർ</ProgressLoadingEdit>
+  <ProgressSavingEdit>സംരക്ഷിക്കുന്നു ഫയൽ</ProgressSavingEdit>
+  <ProgressSaving>സംരക്ഷിക്കുന്നത്</ProgressSaving>
+  <ProgressExecuting>നടപ്പിലാക്കുന്നു</ProgressExecuting>
+
+  <BalloonFilesDeleted>{0} ഫയൽ (ങ്ങൾ) ഇല്ലാതാക്കി</BalloonFilesDeleted>
+  <BalloonFoldersDeleted>{0} ഫോൾഡറിൽ (ങ്ങൾ) ഇല്ലാതാക്കി</BalloonFoldersDeleted>
+  <BalloonFilesFailed>{0} ഫയൽ (കൾ) പരാജയപ്പെട്ടു</BalloonFilesFailed>
+  <BalloonFoldersFailed>{0} ഫോൾഡറിൽ (ങ്ങൾ) പരാജയപ്പെട്ടു</BalloonFoldersFailed>
+  <BalloonFilesZipped>{0} ഫയൽ (കൾ) ഉൾക്കൊണ്ടില്ല</BalloonFilesZipped>
+  <BalloonFoldersZipped>{0} ഫോൾഡറിൽ (ങ്ങൾ) ഉൾക്കൊണ്ടില്ല</BalloonFoldersZipped>
+  <BalloonFilesCopied>{0} ഫയൽ (കൾ) പകർത്തി</BalloonFilesCopied>
+  <BalloonFoldersCopied>{0} ഫോൾഡറിൽ (ങ്ങൾ) പകർത്തി</BalloonFoldersCopied>
+  <BalloonFilesMoved>{0} ഫയൽ (കൾ) നീക്കി</BalloonFilesMoved>
+  <BalloonFoldersMoved>{0} ഫോൾഡറിൽ (ങ്ങൾ) നീക്കി</BalloonFoldersMoved>
+  <BalloonNotUnzipped>{0} ഫയൽ (ങ്ങൾ) പായ്ക്ക് അല്ല</BalloonNotUnzipped>
+  <BalloonFilesUploaded>{0} ഫയൽ (കൾ) അപ്ലോഡുചെയ്തു</BalloonFilesUploaded>
+  <BalloonFilesNotUploaded>{0} ഫയൽ (കൾ) അപ്ലോഡ്</BalloonFilesNotUploaded>
+  <BalloonSomeFilesNotUploaded>ചില ഫയലുകൾ അപ്ലോഡ് ചെയ്യാൻ കഴിയില്ല</BalloonSomeFilesNotUploaded>
+  <BalloonCreatedSuccessfully>വിജയകരമായി സൃഷ്ടിച്ചു</BalloonCreatedSuccessfully>
+  <BalloonUnzippedSuccessfully>പായ്ക്ക് വിജയകരമായി</BalloonUnzippedSuccessfully>
+  <BalloonRenamedSuccessfully>വിജയകരമായി പേരുമാറ്റി</BalloonRenamedSuccessfully>
+  <BalloonSavedSuccessfully>വിജയകരമായി സംരക്ഷിച്ചു</BalloonSavedSuccessfully>
+  <BalloonCopiedToClipboard>ക്ലിപ്പ്ബോർഡിലേക്ക് പകർത്തി</BalloonCopiedToClipboard>
+  <BalloonCopyToClipboardFailed>പരാജയപ്പെട്ടു ക്ലിപ്ബോർഡിലേക്ക് പകർത്തുക</BalloonCopyToClipboardFailed>
+
+  <CommandCopyToClipboard>ക്ലിപ്പ്ബോർഡിലേയ്ക്ക് പകർത്തുക</CommandCopyToClipboard>
+  <CommandCopyLinkToClipboard>ക്ലിപ്ബോർഡിലേക്ക് ലിങ്ക് പകർത്തുക</CommandCopyLinkToClipboard>
+  <ClipboardScreenshotTitlePrefix>ചിത്രം</ClipboardScreenshotTitlePrefix>
+  <ClipboardScreenshotHint>ചിത്രങ്ങൾ: നിങ്ങൾ (&lt;b&gt; കണ്ട്രോൾ+വി &lt;/b&gt; &lt;b&gt; കണ്ട്രോൾ+PrtSc &lt;/b&gt;, തുടർന്ന്) നിങ്ങളുടെ ക്ലിപ്ബോർഡിൽ നിന്ന് ഒരു സ്ക്രീൻഷോട്ട് അല്ലെങ്കിൽ നിങ്ങളുടെ എഡിറ്റർ (&lt;b&gt; കണ്ട്രോൾ+വി &lt;നിന്നും ഒരു ഇമേജ് ഒട്ടിക്കാനാകും / ബി&gt;).</ClipboardScreenshotHint>
+  <ClipboardFileHint>നിങ്ങൾക്ക് ക്ലിപ്പ്ബോർഡിൽ നിന്നുള്ള ചിത്രം ഒട്ടിക്കാനാകും</ClipboardFileHint>
+
+  <CommandClouds>ക്ലൗഡ് സംഭരണികളുടെ</CommandClouds>
+  <CommandCloudsDownloadTo>ഡൗൺലോഡുചെയ്യാനുമായി ...</CommandCloudsDownloadTo>
+  <CommandCloudsUploadFrom>നിന്ന് അപ്ലോഡ് ...</CommandCloudsUploadFrom>
+  <CommandCloudsAbout>ക്ലൗഡ് സംഭരണികളുടെ കുറിച്ച്</CommandCloudsAbout>
+  
+  <CommandBack>തിരിച്ച്</CommandBack>
+  <CommandForward>മുന്നോട്ട്</CommandForward>
+  <CommandRecentFolders>പുതിയ ഫോൾഡറുകൾ</CommandRecentFolders>
+  <CommandHome>വീട്</CommandHome>
+  <CommonActions>പ്രവർത്തനങ്ങൾ</CommonActions>
+  <CommandMultiSelect>മൾട്ടി-തിരഞ്ഞെടുത്ത</CommandMultiSelect>
+  <CommandShare>പങ്കിടുക</CommandShare>
+  <CommandSorting>അടുക്കുന്നു</CommandSorting>
+  
+  <CommandFileManager>ഫയൽ മാനേജർ മടങ്ങുക</CommandFileManager>
+  <CommandFolders>ഫോൾഡറുകൾ</CommandFolders>
+  <CommandGridView>കാണുക</CommandGridView>
+  <CommandRefresh>ഉന്മേഷം വീണ്ടെടുക്കുക</CommandRefresh>
+  <CommandThumbnailView>ലഘുചിത്ര കാഴ്ച</CommandThumbnailView>
+  <CommandDetailedView>പട്ടിക കാഴ്ച</CommandDetailedView>
+  <CommandDetailsPane>പാളിയുടെ വിശദാംശങ്ങൾ</CommandDetailsPane>
+  <CommandFavorites>പ്രിയപ്പെട്ടവ</CommandFavorites>
+  <CommandAddToFavorites>ഇഷ്ടപെട്ടവയിലേക്ക് ചേര്ക്കുക</CommandAddToFavorites>
+  <CommandAddToFavoritesHint>പ്രിയപ്പെട്ടവയിലേക്ക് നിലവിലെ ഫോൾഡർ ചേർക്കുക</CommandAddToFavoritesHint>
+  <AddingToFavoritesMessage>പ്രിയപ്പെട്ടവ ചേർക്കുന്നു</AddingToFavoritesMessage>
+  <RemoveFromFavoritesMessage>പ്രിയപ്പെട്ടവ നിന്ന് ഇല്ലാതാക്കുന്നു</RemoveFromFavoritesMessage>
+  <FolderAlreadyAddedInFavorites>ഫോൾഡർ "{0}" ഇതിനകം പ്രിയപ്പെട്ടവ നിലവിലുണ്ട്</FolderAlreadyAddedInFavorites>
+  <FolderAddedInFavoritesSuccessfully>ഫോൾഡർ "{0}" പ്രിയങ്കരങ്ങളിലേക്ക് വിജയകരമായി ചേർത്തു</FolderAddedInFavoritesSuccessfully>
+  <FavoritesIsOverflowed>ഇത് പ്രിയങ്കരങ്ങളിലേക്ക് നിലവിലെ ഫോൾഡറിൽ "{0}" ചേർക്കാൻ സാധ്യമല്ലെന്ന്. കുറച്ച് ഇടം വീണ്ടും ശ്രമിക്കുക ചില പ്രിയപ്പെട്ടവ ഇല്ലാതാക്കുക.</FavoritesIsOverflowed>
+  <RemoveFromFavoritesHint>പ്രിയപ്പെട്ടവയില്നിന്നുംനീക്കംചെയ്യുക "{0}"</RemoveFromFavoritesHint>
+  <AddToHomeScreenIOSHint>&lt;strong&gt; "എന്ന ഹോം സ്ക്രീനിലേക്ക് ചേർക്കുക" ടാപ്പ് {0}, &lt;/strong&gt; എന്ന</AddToHomeScreenIOSHint>
+  <CommandSearch>തിരയൽ</CommandSearch>
+  <CommandUpload>അപ്ലോഡ്</CommandUpload>
+  <CommandSettings>ക്രമീകരണങ്ങൾ</CommandSettings>
+  <CommandLanguage>ഭാഷ</CommandLanguage>
+  <CommandAdministration>ഭരണകൂടം</CommandAdministration>
+  <CommandAdminPanel>അഡ്മിൻ പാനൽ</CommandAdminPanel>
+  <CommandChangePassword>പാസ്വേഡ് മാറ്റുക</CommandChangePassword>
+  <ProgressChangePassword>പാസ്വേഡ് മാറ്റുന്നു</ProgressChangePassword>
+  <CommandChangeEmail>ഇ-മെയിൽ മാറ്റുക</CommandChangeEmail>
+  <ProgressChangeEmail>ഇ-മെയിൽ മാറ്റുന്നു</ProgressChangeEmail>
+  <CommandMobileView>മൊബൈൽ ഇന്റർഫേസ് (സ്മാർട്ട്ഫോണുകൾ)</CommandMobileView>
+  <CommandStandardView>പൂർണ്ണ പതിപ്പ്</CommandStandardView>
+  <CommandInstallIOSApp>IOS അപ്ലിക്കേഷൻ ഇൻസ്റ്റാൾ</CommandInstallIOSApp>
+  <CommandInstallAndroidApp>Android അപ്ലിക്കേഷൻ ഇൻസ്റ്റാൾ</CommandInstallAndroidApp>
+  <CommandAddServerToMobileApp>മൊബൈൽ അപ്ലിക്കേഷൻ ഈ സെർവർ ചേർക്കുക</CommandAddServerToMobileApp>
+  <CommandAddToHomeScreen>ഹോം സ്ക്രീനിലേക്ക് ചേർക്കുക</CommandAddToHomeScreen>
+  <CommandDiagnostics>ഡയഗണോസ്റ്റിക് പേജ്</CommandDiagnostics>
+  <CommandLicenseInfo>ലൈസൻസ് വിവരം</CommandLicenseInfo>
+  <CommandLogout>പുറത്തിറങ്ങുക</CommandLogout>
+  <CommandLogoutHint>ഇപ്പോഴത്തെ സെഷൻ അവസാനിപ്പിക്കാൻ ക്ലിക്കു</CommandLogoutHint>
+  <CommandNew>പുതിയ</CommandNew>
+  <CommandFile>ഫയല്</CommandFile>
+  <CommandEmptyFile>ശൂന്യ ഫയൽ</CommandEmptyFile>
+  <CommandNewMSOODocument>എം.എസ് ഓഫീസ് ഓൺലൈൻ പ്രമാണം</CommandNewMSOODocument>
+  <CommandNewOffice365Document>ഓഫീസ് 365 പ്രമാണം</CommandNewOffice365Document>
+  <CommandNewMSOOWord>വാക്ക് പ്രമാണം</CommandNewMSOOWord>
+  <CommandNewMSOOExcel>എക്സല്</CommandNewMSOOExcel>
+  <CommandNewMSOOPowerPoint>PowerPoint അവതരണം</CommandNewMSOOPowerPoint>
+  <CommandNewGoogleDocument>Google ഉപയോഗിച്ച് പ്രമാണം</CommandNewGoogleDocument>
+  <CommandNewGoogleDocs>Google ഡോക്സ്</CommandNewGoogleDocs>
+  <CommandNewGoogleSheets>Google ഷീറ്റ്</CommandNewGoogleSheets>
+  <CommandNewGoogleSlides>Google സ്ലൈഡ്</CommandNewGoogleSlides>
+  <CommandNewImage>Pixlr ചിത്രം</CommandNewImage>
+  <CommandFolder>ഫോൾഡർ</CommandFolder>
+  <CommandNewFile>പുതിയ ശൂന്യമായ ഫയൽ</CommandNewFile>
+  <CommandNewFolder>പുതിയ ഫോൾഡർ</CommandNewFolder>
+  <CommandNewWithTemplate>ഫലകം ഉപയോഗിച്ച് ...</CommandNewWithTemplate>
+  <CommandRename>പുനർനാമകരണം</CommandRename>
+  <CommandDelete>ഇല്ലാതാക്കുക</CommandDelete>
+  <CommandCopy>പകര്പ്പ്</CommandCopy>
+  <CommandMove>നീങ്ങുക</CommandMove>
+  <CommandCut>മുറിക്കുക</CommandCut>
+  <CommandCopyTo>പകർത്തുക ...</CommandCopyTo>
+  <CommandMoveTo>നീക്കുക ...</CommandMoveTo>
+  <CommandCopyCutClipboardSuffix>ക്ലിപ്ബോർഡിലേക്ക്</CommandCopyCutClipboardSuffix>
+  <CommandPaste>പേസ്റ്റ്</CommandPaste>
+  <CommandPasteInto>ഒട്ടിക്കുക</CommandPasteInto>
+  <CommandZip>ഒരു സിപ്പ് ആർക്കൈവുചെയ്യാൻ കംപ്രസ്സ്</CommandZip>
+  <CommandZipMenu>പിൻ / അൺസിപ്പ്</CommandZipMenu>
+  <CommandUnzip>വേർതിരിച്ചെടുത്ത് പിൻ</CommandUnzip>
+  <CommandUnzipSelected>തിരഞ്ഞെടുത്ത വേർതിരിച്ചെടുത്ത്</CommandUnzipSelected>
+  <CommandUnzipAll>എല്ലാ വേർതിരിച്ചെടുത്ത്</CommandUnzipAll>
+  <CommandUnzipTo>ഫോൾഡറിലേക്ക്</CommandUnzipTo>
+  <CommandUnzipToCurrent>നിലവിലെ ഫോൾഡറിൽ</CommandUnzipToCurrent>
+  <MessageUnzipToFolder>ഈ അൺപാക്ക് ഒരു ഫോൾഡർ പേര് ടൈപ്പ്</MessageUnzipToFolder>
+  <MessageUnzipPasswordHint>നിങ്ങൾ ഒരു പാസ്വേഡ് അൺപാക്കുചെയ്തത് ആവശ്യമാണ് അറിയുന്നു എങ്കിൽ, താഴെ വയലിൽ നൽകുക</MessageUnzipPasswordHint>
+  <MessageUnzipNeedPassword>ഒരു പാസ്വേഡ് ഫയലുകൾ അൺപാക്ക് ആവശ്യമാണ്</MessageUnzipNeedPassword>
+  <ZipPasswordProtectHint>സിപ് പാസ്വേഡ് പരിരക്ഷിക്കുക, ചുവടെയുള്ള ഫീൽഡിൽ പാസ്വേഡ് നൽകുക. അല്ലാത്തപക്ഷം, ഫീൽഡ് ശൂന്യമായി വിടുക</ZipPasswordProtectHint>
+  <AppendToZipPasswordProtectHint>പാസ്വേഡ് പരിരക്ഷിക്കുക zip ശേഖരം ചേർത്തു ഫയലുകൾ, താഴെയുള്ള ഫീൽഡിൽ പാസ്വേഡ് നൽകുക. അല്ലാത്തപക്ഷം, ഫീൽഡ് ശൂന്യമായി വിടുക</AppendToZipPasswordProtectHint>
+  <ZipPasswordProtectWindowTitle>പാസ്വേഡ് ഉപയോഗിച്ച് ആർക്കൈവുചെയ്യുന്നു</ZipPasswordProtectWindowTitle>
+  <OpenFolderAfterUnzipCheckBox>അൺപാക്കുചെയ്തത് ശേഷം തുറക്കുക ഫോൾഡർ</OpenFolderAfterUnzipCheckBox>
+  <CommandUnzipToNew>ഒരു പുതിയ ഫോൾഡർ ലേക്ക്</CommandUnzipToNew>
+  <CommandZipContents>പിൻ ഉള്ളടക്കം</CommandZipContents>
+  <ArchiveContentsTitle>ആർക്കൈവ് ഉള്ളടക്കം "{0}"</ArchiveContentsTitle>
+  <CommandDownload>ഇറക്കുമതി</CommandDownload>
+  <CommonDownloadAll>എല്ലാം ഡൌൺലോഡ്</CommonDownloadAll>
+  <DownloadListDragFile>നിങ്ങളുടെ ഡെസ്ക്ടോപ്പിലേക്ക് ഡ്രാഗ്-എൻ-വലിച്ചിടാനുമാകും ഫയലുകൾ</DownloadListDragFile>
+  <CommandZipDownload>കംപ്രസ്സ് ഡൗൺലോഡ്</CommandZipDownload>
+  <CommandView>ബ്രൗസറിൽ കാണുക</CommandView>
+  <CommandDownloadOrView>ഇറക്കുമതി അല്ലെങ്കിൽ കാഴ്ച</CommandDownloadOrView>
+  <CommandPreview>ചിത്രങ്ങൾ പ്രിവ്യൂ</CommandPreview>
+  <CommandFlashPreview>ഫ്ലാഷ് പ്രിവ്യൂ</CommandFlashPreview>
+  <GettingSizeFlashMovie>ഫ്ലാഷ് സിനിമയുടെ വലിപ്പം നേടുന്നു</GettingSizeFlashMovie>
+  <CommandEdit>ടെക്സ്റ്റ് ഫയലായി എഡിറ്റ്</CommandEdit>
+  <CommandEditView>ടെക്സ്റ്റ് ഫയലായി കാണുക</CommandEditView>
+  <AceNotLoadedMessage>എയ്സ് എഡിറ്റർ ലോഡ് ചെയ്യാൻ സാധിക്കുന്നില്ല</AceNotLoadedMessage>
+  <VideoJsNotLoadedMessage>VideoJS പ്ലേയർ ലോഡ് ചെയ്യാൻ സാധിക്കുന്നില്ല</VideoJsNotLoadedMessage>
+  <CommandMenuEdit>തിരുത്തുക</CommandMenuEdit>
+  <CommandSelectAll>എല്ലാം തിരഞ്ഞെടുക്കുക</CommandSelectAll>
+  <CommandInvertSelection>വിപരീതം തിരഞ്ഞെടുക്കുക</CommandInvertSelection>
+  <CommandLinkToFile>ഫയൽ / ഫോൾഡറിൽ ലിങ്ക്</CommandLinkToFile>
+  <!--Share link-->
+  <CommandMakePublicFolder>പൊതു ലിങ്ക് സൃഷ്ടിക്കുക</CommandMakePublicFolder>
+  <PublicViewInGoogle>Google ൽ കാണുക</PublicViewInGoogle>
+  <PublicViewinOWA>OWA കാണുക</PublicViewinOWA>
+  <!--Make public folder (share)-->
+  <CommandViewWithGoogleDoc>Google ഡോക്സിൽ കാണുക</CommandViewWithGoogleDoc>
+  <CommandViewWithShareCad>ShareCad.org കാണുക</CommandViewWithShareCad>
+  <CommandViewWithAutodesk>Autodesk കാണുക</CommandViewWithAutodesk>
+  <CommandViewWithBox>ബോക്സ് കാണുക</CommandViewWithBox>
+  <CommandViewWithOWA>ഓഫീസ് വെബ് അപ്ലിക്കേഷനുകൾ കാണുക</CommandViewWithOWA>
+  <CommandCloudConvert>CloudConvert ഉപയോഗിച്ച് പരിവർത്തനം</CommandCloudConvert>
+  <ProgressGetCloudConvertOutputFormats>ഔട്ട്പുട്ട് ഫോർമാറ്റുകൾ നേടുന്നു</ProgressGetCloudConvertOutputFormats>
+  <ProgressCloudConvertConverting>പരിവർത്തനം</ProgressCloudConvertConverting>
+  <CloudConvertWindowTitle>പരിവർത്തനം '{0}'</CloudConvertWindowTitle>
+  <CloudConvertWindowConvertButton>മാറ്റുക</CloudConvertWindowConvertButton>
+  <CloudConvertWindowOutputFormatsLabel>ഔട്ട്പുട്ട് ഫോർമാറ്റ്</CloudConvertWindowOutputFormatsLabel>
+  <CloudConvertDownloadLinkLabel>ഡൌൺലോഡ് ലിങ്ക്</CloudConvertDownloadLinkLabel>
+  <CloudConvertSaveAsLabel>(വിപുലീകരണം യാന്ത്രികമായി ചേർക്കും) ആയി സംരക്ഷിക്കുക:</CloudConvertSaveAsLabel>
+  <CloudConvertNoOutputFormats>പരിവർത്തനം യാതൊരു ലഭ്യമായ ഫോർമാറ്റുകൾ ഉണ്ട്</CloudConvertNoOutputFormats>
+  <CloudConvertNoUrlForDownload>ഡൌൺലോഡ് വേണ്ടി ലിങ്ക് ലഭിക്കാൻ വിജയം ചെയ്തു</CloudConvertNoUrlForDownload>
+  <ProgressCloudConvertUploading>CloudConvert നിന്ന് അപ്ലോഡ് ചെയ്യുന്നു</ProgressCloudConvertUploading>
+  <CloudConvertSaveAsNameBlank>ഇനം ഇവിടെ പേര്</CloudConvertSaveAsNameBlank>
+  <CancelEditButton>തിരുത്തുക റദ്ദാക്കുക</CancelEditButton>
+  <HideButton>മറയ്ക്കുക</HideButton>
+  <EditDocumentCancelHint>നിങ്ങൾ എഡിറ്റുചെയ്ത പ്രമാണം വിൻഡോ അടച്ചതിനുശേഷം, അതു സ്വയംസംരക്ഷിക്കപ്പെട്ടു ചെയ്യും. നിങ്ങൾ പ്രസും {0} (ഈ കേസിൽ, പ്രമാണം ഇപ്പോഴും എഡിറ്റർ അടച്ചതിനുശേഷവും സംരക്ഷിക്കപ്പെടും) വഴി ഈ ഡയലോഗ് ബോക്സ് മറയ്ക്കാം &lt;br /&gt;. &lt;br /&gt; നിങ്ങൾ പ്രമാണം സംരക്ഷിക്കുന്നതിൽ ആഗ്രഹിക്കുന്നില്ല എങ്കിൽ, അമർത്തുക {1} (ഈ കേസിൽ, എഡിറ്റർ വിൻഡോ അടയ്ക്കും).</EditDocumentCancelHint>
+  <EditDocumentSaveHint>ഇപ്പോൾ നിങ്ങൾ {0} അമർത്തി പ്രമാണത്തിൽ മാറ്റങ്ങൾ സംരക്ഷിക്കാൻ കഴിയും. ശ്രദ്ധ! നിങ്ങൾ എഡിറ്റർ വിൻഡോ അടച്ചതിനുശേഷം, അത് സ്വയംസംരക്ഷിക്കപ്പെട്ടു ചെയ്യും.</EditDocumentSaveHint>
+  <CommandEditInMSOffice>എം.എസ് ഓഫീസ് ൽ എഡിറ്റുചെയ്യുക</CommandEditInMSOffice>
+  <CommandEditInOOo>OpenOffice / ലിബ്രെ ൽ എഡിറ്റുചെയ്യുക</CommandEditInOOo>
+  <CommandViewInMSOffice>എം.എസ് ഓഫീസ് കാണുക</CommandViewInMSOffice>
+  <CommandViewInOOo>OpenOffice / ലിബ്രെ കാണുക</CommandViewInOOo>
+  <CommandEditInPixlr>Pixlr ൽ എഡിറ്റുചെയ്യുക</CommandEditInPixlr>
+  <CommandEditInAdobe>അഡോബി ക്രിയേറ്റീവ് ക്ലൗഡ് ൽ എഡിറ്റുചെയ്യുക</CommandEditInAdobe>
+  <AdobeImageEditorSavedAsNewTypeMessage>ചിത്രം ചിത്രം എഡിറ്റർ ഫോർമാറ്റ് {0} സംരക്ഷിച്ചിരിക്കുന്നു അഡോബി മാറി</AdobeImageEditorSavedAsNewTypeMessage>
+  <CommandEditInGoogle>Google ഡ്രൈവിൽ എഡിറ്റ്</CommandEditInGoogle>
+  <EditInGoogleConvertMessage>തിരുത്തുക ശേഷം പ്രമാണം ഫോർമാറ്റ് {1} {0} {2} പരിവർത്തനം ചെയ്യും</EditInGoogleConvertMessage>
+  <EditInGoogleLinkError>Google ഡ്രൈവിൽ പ്രമാണം എഡിറ്റ് ലിങ്ക് നേടുക കഴിയുന്നില്ല</EditInGoogleLinkError>
+  <EditInGoogleWaiting>Google ഡ്രൈവിലെ പൂർത്തീകരണം എഡിറ്റിംഗ് കാത്തിരിക്കുന്നു</EditInGoogleWaiting>
+  <CommandEditInMSOO>എം.എസ് ഓഫീസ് ഓൺലൈൻ എഡിറ്റ്</CommandEditInMSOO>
+  <EditInMSOOLinkError>എം.എസ് ഓഫീസ് ഓൺലൈൻ പ്രമാണം എഡിറ്റ് ലിങ്ക് നേടുക കഴിയുന്നില്ല</EditInMSOOLinkError>
+  <EditInMSOOWaiting>എം.എസ് ഓഫീസ് ഓൺലൈൻ പൂർത്തീകരണം എഡിറ്റിംഗ് കാത്തിരിക്കുന്നു</EditInMSOOWaiting>
+  <CommandEditInOffice365>ഓഫീസ് 365 എഡിറ്റുചെയ്യുക</CommandEditInOffice365>
+  <EditInOffice365LinkError>ഓഫീസ് 365 ൽ പ്രമാണം എഡിറ്റ് ലിങ്ക് നേടുക കഴിയുന്നില്ല</EditInOffice365LinkError>
+  <EditInOffice365Waiting>ഓഫീസ് 365 ൽ പൂർത്തീകരണം എഡിറ്റിംഗ് കാത്തിരിക്കുന്നു</EditInOffice365Waiting>
+  <CommandSave>രക്ഷിക്കും</CommandSave>
+  <CommandSaveAs>സംരക്ഷിക്കുക ...</CommandSaveAs>
+  <CommandAppRestart>പുനരാരംഭിക്കുക അപ്ലിക്കേഷൻ</CommandAppRestart>
+  <CommandPlayVideoFlash>ഫ്ലാഷ് പ്ലെയറിൽ വീഡിയോ പ്ലേ</CommandPlayVideoFlash>
+  <CommandPlayVideoHtml5>വീഡിയോ പ്ലേ</CommandPlayVideoHtml5>
+  <CommandPlayAudioHtml5>ഓഡിയോ പ്ലേ</CommandPlayAudioHtml5>
+  <CommandPlayVideo>വീഡിയോ പ്ലേ</CommandPlayVideo>
+  <CommandPlayAudio>ഓഡിയോ പ്ലേ</CommandPlayAudio>
+  <CommandConvertVideo>വീഡിയോ പരിവർത്തനം</CommandConvertVideo>
+
+  <ViewInServiceLink>ഫയൽ കാണുന്നതിന് ഇവിടെ ക്ലിക്ക്</ViewInServiceLink>
+  <EditInServiceLink>പ്രമാണം എഡിറ്റ് ഇവിടെ ക്ലിക്ക്</EditInServiceLink>
+
+  <OfficeEditCopyLinkLabel>ചുവടെയുള്ള ലിങ്ക് പകർത്തി ഓഫീസ് അപ്ലിക്കേഷൻ തുറക്കുന്നതിന്:</OfficeEditCopyLinkLabel>
+  <OfficeRunError>ഇത് {0} തുടങ്ങുവാനുള്ള സാധ്യമല്ലെന്ന്</OfficeRunError>
+  <BadPathToFile>ഫയൽ പാത്ത് കണ്ടെത്താൻ സാധ്യമല്ലെന്ന്</BadPathToFile>
+  <FixBasicAuthAlertTitle>ശ്രദ്ധ!</FixBasicAuthAlertTitle>
+  <FixBasicAuthAlertMessage>മൈക്രോസോഫ്റ്റ് ഓഫീസ് എസ്എസ്എൽ ഇല്ലാതെ അടിസ്ഥാന ആധികാരികത പ്രവർത്തിക്കുന്നു! നിങ്ങളുടെ ഓഫീസ് ഈ പരിഹരിക്കാൻ കഴിയൂ. കൂടുതൽ വിവരങ്ങൾക്ക് {0} കാണുക.</FixBasicAuthAlertMessage>
+  <FixBasicAuthAlertCheckBoxText>ഇനി ഈ ഡയലോഗ് കാണിക്കാൻ അല്ല.</FixBasicAuthAlertCheckBoxText>
+  <CommandDetails>വിവരങ്ങൾ</CommandDetails>
+  <CommonButtonCaptionAddDetail>വിശദാംശം ചേർക്കുക</CommonButtonCaptionAddDetail>
+  <CommonButtonCaptionAddComment>അഭിപ്രായം ചേർക്കുക</CommonButtonCaptionAddComment>
+  <DetailsWindowTitle>വിവരങ്ങൾ "{0}"</DetailsWindowTitle>
+  <FileDetailsSave>മാറ്റങ്ങൾ പ്രയോഗിക്കുക</FileDetailsSave>
+  <FileDetailsIgnoreChanges>അവഗണിക്കുക</FileDetailsIgnoreChanges>
+  <FileDetailsCloseConfirmTitle>ഫയൽ വിശദാംശങ്ങൾ വിൻഡോ അടയ്ക്കുമ്പോൾ ചെയ്യുകയാണ്</FileDetailsCloseConfirmTitle>
+  <FileDetailsCloseConfirmMsg>ശ്രദ്ധ! മാറ്റങ്ങൾ ഇതുവരെ സംരക്ഷിച്ചിട്ടില്ല. നിങ്ങൾ വിൻഡോ അടയ്ക്കുന്നത് മുമ്പ് ഈ മാറ്റങ്ങൾ ബാധകമല്ല ആഗ്രഹിക്കുന്ന ഒരു പ്രവർത്തനം തിരഞ്ഞെടുക്കുക.</FileDetailsCloseConfirmMsg>
+  <FileDetailsGridTitleColumn>തലക്കെട്ട്</FileDetailsGridTitleColumn>
+  <FileDetailsGridAuthorColumn>അവസാനം രചയിതാവ്</FileDetailsGridAuthorColumn>
+  <LoadingDetailsMask>വിശദാംശങ്ങൾ ലോഡുചെയ്യുന്നു</LoadingDetailsMask>
+  <NewDetailsTitle>പുതിയ തലക്കെട്ട്</NewDetailsTitle>
+  <NewDetailsValue>പുതിയ വിശദാംശങ്ങൾ മൂല്യം</NewDetailsValue>
+  <DetailsSavingMsg>വിശദാംശങ്ങൾ സംരക്ഷിക്കുന്നു</DetailsSavingMsg>
+  <ProgressLoadingEditInOffice>ഓഫീസിൽ എഡിറ്റിംഗ് തയ്യാറെടുക്കുന്നു</ProgressLoadingEditInOffice>
+  <MenuFilterText>ഫിൽട്ടറുകൾ</MenuFilterText>
+  <EmptyTextFilter>ഫിൽറ്റർ നൽകുക ...</EmptyTextFilter>
+  <AfterDateFilterText>ശേഷം</AfterDateFilterText>
+  <BeforeDateFilterText>മുമ്പ്</BeforeDateFilterText>
+  <OnDateFilterText>ഓൺ</OnDateFilterText>
+  <YesBooleanFilterText>അതെ</YesBooleanFilterText>
+  <NoBooleanFilterText>ഇല്ല</NoBooleanFilterText>
+  <CommandEditWithZoho>Zoho ൽ എഡിറ്റുചെയ്യുക</CommandEditWithZoho>
+  <ZohoNotSupportedFormatMessage>വിപുലീകരണം Zoho പിന്തുണയ്ക്കുന്നില്ല. {0} കാണുക.</ZohoNotSupportedFormatMessage>
+  <ProgressLoadingEditInZoho>Zoho എഡിറ്റർ ലോഡുചെയ്യുന്നു</ProgressLoadingEditInZoho>
+  <CommandSubMenuViewAndEdit>കാണുക / തിരുത്തുക</CommandSubMenuViewAndEdit>
+  <CommandSubMenuShare>പങ്കിടുക</CommandSubMenuShare>
+  <CommandSubMenuMore>കൂടുതൽ</CommandSubMenuMore>
+  <StopUploadingButtonText>നിർത്തുക</StopUploadingButtonText>
+  <SimpleUploadErrorInfo>ഫയൽ (കൾ) അപ്ലോഡുചെയ്യുമ്പോൾ &lt;br /&gt; കൂടുതൽ വിവരങ്ങൾക്ക് {0} കാണുക ഒരു പിശക് ഉണ്ടായിരുന്നു. &lt;/a&gt;</SimpleUploadErrorInfo>
+  <BalloonAbortFilesUploaded>ഫയലുകൾ അപ്ലോഡ് റദ്ദാക്കി</BalloonAbortFilesUploaded>
+  <UploadDragNDropTab>വലിച്ചിടുക</UploadDragNDropTab>
+  <UploadDragNDropTabImages>വലിച്ചിടുക+ചിത്രങ്ങൾ</UploadDragNDropTabImages>
+  <DnDGridProgressColumn>പുരോഗതി</DnDGridProgressColumn>
+  <DnDFileReadingError>വായന പിശക്. പിശക് കോഡ്: {0}.</DnDFileReadingError>
+  <DnDFileReadingAbort>വായന റദ്ദാക്കി. പിശക് കോഡ്: {0}.</DnDFileReadingAbort>
+  <DnDFileUploadingError>അപ്ലോഡുചെയ്യുന്നതിൽ പിശക്. {0}</DnDFileUploadingError>
+  <DnDFileUploadingAbort>അപ്ലോഡ് ചെയ്യുന്നു റദ്ദാക്കി.</DnDFileUploadingAbort>
+  
+  <CommandWebFoldersLinks>മാപ്പ് വെബ് ഫോൾഡറുകൾ</CommandWebFoldersLinks>
+  <CommandSyncWebFolders>പ്രാദേശിക ഫോൾഡർ സമന്വയിപ്പിക്കുക</CommandSyncWebFolders>
+  <WebFolderLinksFieldLabel>വെബ്-ഫോൾഡർ കണ്ണികൾ</WebFolderLinksFieldLabel>
+  <WebFolderLinksForWindows64Note>അമർത്തുക കീ കോമ്പിനേഷൻ {0} വിൻ+R {1}. {1} ഫീൽഡ് (ചുവടെ കമാൻഡ് ലൈൻ ഉദാഹരണങ്ങൾ), ക്ലിക്കുചെയ്യുക {0} ശരി {1}: {0} തുറക്കുക കമാൻഡ് ലൈൻ ഉൾപ്പെടുത്തുക. യോഗ്യരായ ഡൊമെയ്ൻ നാമങ്ങൾ ഉപയോഗിച്ച് വിൻഡോസ് ആധികാരികത: {2}.</WebFolderLinksForWindows64Note>
+  <OpenLibreOfficeRunCommandNote>അല്ലെങ്കിൽ കീ കോമ്പിനേഷൻ അമർത്തുക {0} വിൻ+R {1}, {0} തുറക്കുക താഴെ കമാൻഡ് ലൈൻ തിരുകാൻ: {1} ഫീൽഡ് അമർത്തുക {0} ശരി {1}</OpenLibreOfficeRunCommandNote>
+  <WebFolderLinksForMacOSNote>"ഫൈൻഡർ" മെനുവിലെ {0} തുറക്കുക Go-&gt; സെർവർ {1} ബന്ധിപ്പിക്കുക. {0} "സെർവർ വിലാസം" {1} വയലിൽ വെബ് ഫോൾഡറിന്റെ ലിങ്ക് ചേർക്കുക. ക്ലിക്ക് {0} "കണക്ട്" {1}. പുതിയ ഡയലോഗ് തിരഞ്ഞെടുക്കുക {0} "അതിഥി" {1} അല്ലെങ്കിൽ {0} "രജിസ്ട്രേഡ് യൂസർ" {1} (വിൻഡോസ് ആധികാരികത). ക്ലിക്ക് {0} "കണക്ട്" {1}.</WebFolderLinksForMacOSNote>
+  <WebFolderLinksForUbuntuNote>തുറക്കുക {0} Go-&gt; സ്ഥലം ... {1} ലൊക്കേഷൻ ഫീൽഡിൽ വെബ് അറ ലിങ്ക് പകർത്തുക.</WebFolderLinksForUbuntuNote>
+  <LinksToWebFoldersWindowText>നിങ്ങൾ നിങ്ങളുടെ പ്രാദേശിക ഒഎസ് ഒരു ശൃംഖല ഡ്രൈവ് കാണുന്ന ഫോൾഡറുകൾ മാപ്പുചെയ്യാം. മാപ്പിങ്ങിന്റെ ശേഷം നിങ്ങൾക്ക് എം.എസ് ഓഫീസ് അല്ലെങ്കില്: OpenOffice പ്രാദേശിക പശുക്കൾ അല്ലെങ്കിൽ പ്രമാണങ്ങൾ തിരുത്തുക കൂട്ടിയ ഫയലുകൾ പ്രവർത്തിക്കാൻ കഴിയും. മാപ്പ് ചെയ്യുന്നതെങ്ങനെ {0} കുറിച്ച് സഹായം കാണുക.</LinksToWebFoldersWindowText>
+  <CommonFileTypeNameCaption>"{0}" ഫയൽ പേര്</CommonFileTypeNameCaption>
+  <CommonFileTypeNamePrompt>പുതിയ "{0}" ഫയൽ പേര് നൽകുക</CommonFileTypeNamePrompt>
+  
+  <PixlrEditorWindowTitle>Pixlr Editor {0}</PixlrEditorWindowTitle>
+  <PixlrSaveImageSuccessMessage>ചിത്രം "{0}" വിജയകരമായി സംരക്ഷിച്ചു. നിങ്ങൾ ഒരു പുതിയ പേര് ഉപയോഗിച്ച് ഇമേജ് രക്ഷിച്ചതിന് ലിസ്റ്റ് പുതുക്കുക.</PixlrSaveImageSuccessMessage>
+  <CommonFileImageNewName>പുതിയ ചിത്രം</CommonFileImageNewName>
+  <CommandChangeTheme>തീം മാറ്റുക</CommandChangeTheme>
+  
+  <CommandHelp>സഹായിക്കൂ</CommandHelp>
+
+  <OpeningShortcutProgress>തുറക്കുന്നു കുറുക്കുവഴി</OpeningShortcutProgress>
+  <CommandCreateShortcut>കുറുക്കുവഴി (പ്രതീകാത്മക ലിങ്ക്)</CommandCreateShortcut>
+  <ShortcutNameHint>കുറുക്കുവഴി പേര്</ShortcutNameHint>
+  <ShortcutTargetPathHint>ലക്ഷ്യ പാത്ത്</ShortcutTargetPathHint>
+  <CreateShortcutButtonTitle>സൃഷ്ടിക്കാൻ</CreateShortcutButtonTitle>
+  <CreatingShortcutProgress>സൃഷ്ടിക്കുന്നു കുറുക്കുവഴി</CreatingShortcutProgress>
+  <CreateShortcutSuccessMessage>കുറുക്കുവഴി "{0}" വിജയകരമായി വേണ്ടി "{1}" സൃഷ്ടിക്കപ്പെട്ടിരിക്കുന്നു.</CreateShortcutSuccessMessage>
+
+  <OpeningInternetShortcutProgress>തുറക്കുന്നു ഇന്റർനെറ്റ് കുറുക്കുവഴി</OpeningInternetShortcutProgress>
+  <InternetShortcutNotValidMsg>ഈ ഇന്റർനെറ്റ് കുറുക്കുവഴി എന്ന ലക്ഷ്യം URL സാധുവല്ല</InternetShortcutNotValidMsg>
+  <InternetShortcutWindowTitle>ലിങ്ക് പോകുക</InternetShortcutWindowTitle>
+  
+  <CommandVersioning>വേര്ഷനിംഗ്</CommandVersioning>
+  <CommandVersionHistory>പതിപ്പ് ചരിത്രം</CommandVersionHistory>
+  <CommandCheckOut>ചെക്ക് ഔട്ട്</CommandCheckOut>
+  <CommandCheckIn>വന്നുചേരുകയും പേര്രജിസ്റ്റര് ചെയ്യുകയും ചെയ്യുക</CommandCheckIn>
+  <CommandUndoCheckOut>റദ്ദാക്കുക ചെക്ക് ഔട്ട്</CommandUndoCheckOut>
+  <VersionHistoryObtainingMessage>പതിപ്പ് ചരിത്രം നേടുന്നു</VersionHistoryObtainingMessage>
+  <NoVersionHistoryMessage>തിരഞ്ഞെടുത്ത ഫയൽ പതിപ്പ് ചരിത്രം നിലവിലില്ല</NoVersionHistoryMessage>
+  <FileIsCheckedOutMessage>ഫയൽ "{0}" ഇതിനകം ഉപയോക്താവ് പുറത്തു ചെക്കുചെയ്തിട്ടുണ്ടെന്നും "{1}" {2} എന്ന</FileIsCheckedOutMessage>
+  <CheckingOutMessage>പരിശോധിക്കുന്നു</CheckingOutMessage>
+  <SuccessfullyCheckedOutMessage>ഫയൽ "{0}" വിജയകരമായി പുറത്തു ഉപയോക്താവ് ചെക്ക് "{1}" ചെയ്തു</SuccessfullyCheckedOutMessage>
+  <FileIsNotCheckedOutMessage>ഫയൽ "{0}" ഇതുവരെ പുറത്തു പരിശോധിക്കപ്പെട്ടിട്ടുമില്ല</FileIsNotCheckedOutMessage>
+  <FileIsCheckedOutOtherUserMessage>ഫയൽ "{0}" പുറത്തു മറ്റൊരു ഉപയോക്താവ് {2} ചെക്കുചെയ്തു "{1}" ആണ്.</FileIsCheckedOutOtherUserMessage>
+  <FileUndoCheckOutForbiddenMessage>നിങ്ങൾ പുറത്തു മറ്റൊരു ഉപയോക്താവ് പ്രയോഗിച്ചു ചെക്ക് റദ്ദാക്കാൻ കഴിയില്ല.</FileUndoCheckOutForbiddenMessage>
+  <FileCheckInForbiddenMessage>നിങ്ങൾ ഇതിനകം മറ്റൊരു ഉപയോക്താവ് ചെക്കൗട്ട് നടത്തിയ ഒരു ഫയലിൽ പരിശോധിക്കാനാവില്ല.</FileCheckInForbiddenMessage>
+  <FileUndoCheckOutConfirmMessage>നിങ്ങൾക്ക് ചെക്ക് ഔട്ട് റദ്ദാക്കുകയാണെങ്കിൽ, പ്രമാണ പ്രയോഗിക്കാൻ മാറ്റങ്ങൾ സംരക്ഷിക്കില്ല! നിങ്ങളുടെ ചെക്ക് ഔട്ട് റദ്ദാക്കണമെന്ന് തീർച്ചയാണോ?</FileUndoCheckOutConfirmMessage>
+  <FileVersionDeleteConfirmTitle>ഫയൽ പതിപ്പിന്റെ ഇല്ലാതാക്കുന്നു</FileVersionDeleteConfirmTitle>
+  <FileVersionDeleteConfirmMessage>നിങ്ങൾക്ക് ഉറപ്പാണോ ഫയലിന്റെ തിരഞ്ഞെടുത്ത പതിപ്പ് ഇല്ലാതാക്കാൻ താല്പര്യമുണ്ടോ?</FileVersionDeleteConfirmMessage>
+  <FileVersionRestoreConfirmTitle>ഫയൽ പതിപ്പിന്റെ പുനഃസ്ഥാപിക്കുന്നു</FileVersionRestoreConfirmTitle>
+  <FileVersionRestoreConfirmMessage>ഫയലിന്റെ തിരഞ്ഞെടുത്ത പതിപ്പ് വീണ്ടെടുക്കേണ്ട ഉറപ്പാണോ? {0} അതെ, തിരഞ്ഞെടുത്ത പതിപ്പ് കടന്നു സംരക്ഷിക്കപ്പെടും ഇതിൽ ഫയൽ വ്യക്തമാക്കുക. നിങ്ങൾ മാറ്റങ്ങൾ (അല്ലെങ്കിൽ സജ്ജമാക്കാൻ ശൂന്യമായ മൂല്യം) ഇല്ലാതെ ഈ മൂല്യം വിടുകയാണെങ്കിൽ തിരഞ്ഞെടുത്ത പതിപ്പ് തിരഞ്ഞെടുത്ത ഫയൽ മാറ്റിസ്ഥാപിക്കും (ഫയലിന്റെ മുൻ ഉള്ളടക്കം പതിപ്പ് ചരിത്രം ചേർക്കും) {1} പ്രമാണത്തിന്റെ പേര്.:</FileVersionRestoreConfirmMessage>
+  <UndoCheckingOutMessage>റദ്ദാക്കുന്നു ചെക്ക് ഔട്ട്</UndoCheckingOutMessage>
+  <SuccessfullyUndoCheckedOutMessage>ഒരു ഫയൽ ചെക്ക് ഔട്ട് റദ്ദാക്കിയതായി "{0}" വിജയകരമായി പൂർത്തീകരിക്കുകയും ചെയ്തു.</SuccessfullyUndoCheckedOutMessage>
+  <SuccessfullyCheckedInMessage>ഫയൽ "{0}" വിജയകരമായി ഉപയോക്താവ് ചെക്കുചെയ്തിട്ടുണ്ടെന്നതും "{1}"</SuccessfullyCheckedInMessage>
+  <CheckingInMessage>ചെക്കിംഗ്</CheckingInMessage>
+  <VersionHistoryTitle>ഫയൽ പതിപ്പുകൾ "{0}"</VersionHistoryTitle>
+  <VersionHistoryGridNumberColumn>Ver.</VersionHistoryGridNumberColumn>
+  <VersionHistoryGridNotesColumn>കുറിപ്പുകൾ</VersionHistoryGridNotesColumn>
+  <CommandRestoreVersion>വീണ്ടെടുക്കുക</CommandRestoreVersion>
+  <ProgressPrepareDownloadOldVersion>പഴയ പതിപ്പ് ഡൌൺലോഡ് തയ്യാറെടുക്കുന്നു</ProgressPrepareDownloadOldVersion>
+  <FileVersionNotFoundMessage>തിരഞ്ഞെടുത്ത ഫയൽ പതിപ്പ് കണ്ടെത്തിയില്ല.</FileVersionNotFoundMessage>
+  <ProgressDeletingVersion>പതിപ്പ് ഇല്ലാതാക്കുന്നു</ProgressDeletingVersion>
+  <ProgressRestoringVersion>പതിപ്പ് പുനഃസ്ഥാപിക്കുന്നു</ProgressRestoringVersion>
+  <FileNeedCheckInMessage>തിരഞ്ഞെടുത്ത ഫയൽ ഔട്ട് ൽ പരിശോധിക്കുക അല്ലെങ്കിൽ റദ്ദാക്കി പരിശോധിച്ച് വീണ്ടും ശ്രമിക്കുക.</FileNeedCheckInMessage>
+  <FileCheckedOutEditForbiddenMessage>നിങ്ങൾ / "{1}" {2} അതു ഉപയോക്താവ് ചെക്കൗട്ട് സമയത്ത് പരിഷ്ക്കരിക്കാൻ കഴിയില്ല / പുനർനാമകരണം / നീക്കത്തെ ഫയൽ ഇല്ലാതാക്കുക "{0}"</FileCheckedOutEditForbiddenMessage>
+  <FileUploadCheckInLabel>നിങ്ങൾ ചെക്കിൻ കഴിയും തിരഞ്ഞെടുത്ത ഫയൽ അല്ലെങ്കിൽ ഫയൽ ഒരു പുതിയ പതിപ്പ് അപ്ലോഡ് (ചുവടെ അപ്ലോഡ് ഫോം ഉപയോഗിക്കാവുന്നതാണ്). നിങ്ങൾ ഒരു തിരഞ്ഞെടുത്ത ഫയൽ നിന്ന് ഒരു പുതിയ പതിപ്പ് സൃഷ്ടിക്കാൻ ആഗ്രഹിക്കുന്നുണ്ടെങ്കിൽ, ഇവിടെ ഏതെങ്കിലും ഫയലുകൾ അപ്ലോഡ് ചെയ്യരുത്.</FileUploadCheckInLabel>
+  <FileUploadCheckInInvalidFileName>അപ്ലോഡ് ഫയലിന്റെ പേര് തിരഞ്ഞെടുത്ത ഫയൽ പേര് കൃത്യമായി അതേ വേണം</FileUploadCheckInInvalidFileName>
+  <CheckOutVersionNotes>ഈ പതിപ്പ് സ്വയം സൃഷ്ടിച്ചു</CheckOutVersionNotes>
+  <RestoreVersionNotes>ഈ പതിപ്പ് ഉപയോക്താവിന്റെ {0} നിന്ന് പതിപ്പിന്റെ പുനഃസ്ഥാപിക്കുക ശേഷം സ്വയം സൃഷ്ടിക്കപ്പെട്ടു "{1}"</RestoreVersionNotes>
+  <IsCheckedOutHint>ഫയൽ ചെക്കൗട്ട് ചെയ്തു</IsCheckedOutHint>
+  <ExistsOldVersionsHint>ഫയൽ മറ്റു പതിപ്പുകൾ ഉണ്ട്</ExistsOldVersionsHint>
+  <IsLockedHint>ഫയൽ പൂട്ടിയിരിക്കുകയാണ്</IsLockedHint>
+  <FileWasCreatedHint>{0} മുമ്പ് സൃഷ്ടിച്ചു</FileWasCreatedHint>
+  <FileWasModifiedHint>മാറ്റി {0} മുമ്പ്</FileWasModifiedHint>
+  <CommonChangedAgo>{0} മുമ്പ്</CommonChangedAgo>
+  <DaysShort>ഡി</DaysShort>
+  <HoursShort>H</HoursShort>
+  <MinutesShort>മീറ്റർ</MinutesShort>
+  <FileContainsMetaDataHint>ചില വിവരങ്ങൾ (മെറ്റാഡാറ്റ) അടങ്ങിയിരിക്കുന്നു</FileContainsMetaDataHint>
+  <FileMetaDataCaptionMobile>മെറ്റാഡാറ്റ</FileMetaDataCaptionMobile>
+
+  <ExistsPublicLinksFileHint>ഫയൽ പൊതു ലിങ്കുകൾ ഉണ്ട്</ExistsPublicLinksFileHint>
+  <ExistsPublicLinksFolderHint>ഫോൾഡർ പൊതു ലിങ്കുകൾ ഉണ്ട്</ExistsPublicLinksFolderHint>
+  <PublicLinkNotFound>"{0}" കണ്ടെത്തിയില്ല പൊതു കണ്ണി</PublicLinkNotFound>
+
+  <PublicLinksDeleteWindowTitle>പൊതു ലിങ്ക് (കൾ) ഇല്ലാതാക്കുക</PublicLinksDeleteWindowTitle>
+  <PublicLinksDeleteLinkButton>ലിങ്ക് ഇല്ലാതാക്കുക</PublicLinksDeleteLinkButton>
+  <PublicLinksDeleteConfirmMsg>നിങ്ങൾക്ക് തിരഞ്ഞെടുത്ത പൊതു ലിങ്കുകൾ ഇല്ലാതാക്കണമെന്ന് ഉറപ്പാണോ?</PublicLinksDeleteConfirmMsg>
+  <PublicLinksDeleteSingleConfirmMsg>നിങ്ങൾക്ക് ഈ ലിങ്ക് ഇല്ലാതാക്കണമെന്ന് ഉറപ്പാണോ?</PublicLinksDeleteSingleConfirmMsg>
+
+  <DetailsMultiValue>(മൾട്ടി മൂല്യം)</DetailsMultiValue>
+
+  <GridBottomFilesSizeInfo>തിരഞ്ഞെടുത്തു: {0} / {1},</GridBottomFilesSizeInfo>
+  <GridBottomFilesFoldersInfo>ഫയലുകൾ: {0} / {1}, ഫോൾഡറുകൾ: {2} / {3}</GridBottomFilesFoldersInfo>
+
+  <AmountOfDownloadingsFile>ഡൗൺലോഡുകൾ</AmountOfDownloadingsFile>
+
+  <CookiesDisabledMessage>നിങ്ങളുടെ ബ്രൌസറിൻറെ കുക്കി പ്രവർത്തനം ഓഫ് ചെയ്തിരിക്കുന്നു. ന് പുനരാരംഭിക്കുക ബ്രൗസർ അത് ഓൺ ചെയ്യുക.</CookiesDisabledMessage>
+
+  <CommandSendEmail>ഇമെയിൽ അയയ്ക്കുക</CommandSendEmail>
+  <CommandSendWithGmail>Gmail ഉപയോഗിച്ച് അയയ്ക്കുക</CommandSendWithGmail>
+  <CommandSendWithOutlook>കാഴ്ച്ചപ്പാടുമായി അയയ്ക്കുക</CommandSendWithOutlook>
+  <SendEmailTo>ചെയ്യാ</SendEmailTo>
+  <SendEmailBulkMailingListHint>&lt;b&gt; മെയിലിംഗ് ലിസ്റ്റ് &lt;/b&gt; &lt;br /&gt; നിങ്ങൾക്ക് നിങ്ങളുടെ ഇമെയിൽ അയയ്ക്കാൻ മുഴുവൻ ഗ്രൂപ്പുകൾ വ്യക്തമാക്കാൻ കഴിയും</SendEmailBulkMailingListHint>
+  <SendEmailBulkMailingListWindowTitle>നിങ്ങളുടെ ഇമെയിലിൽ ഏറ്റുവാങ്ങുന്ന തിരഞ്ഞെടുക്കുക</SendEmailBulkMailingListWindowTitle>
+  <SendEmailEmptyMailingListMessage>മെയിൽ ലിസ്റ്റ് ശൂന്യമാണ്</SendEmailEmptyMailingListMessage>
+  <SendEmailSenderEmail>പ്രേഷിതാവിന്റെ ഇമെയിൽ</SendEmailSenderEmail>
+  <SendEmailSubject>വിഷയം</SendEmailSubject>
+  <SendEmailFilesAsLinksTo>തിരഞ്ഞെടുത്ത ഫയലുകൾ ലിങ്കുകൾ അയയ്ക്കുക</SendEmailFilesAsLinksTo>
+  <SendEmailFilesAsAttachements>തിരഞ്ഞെടുത്ത ഫയലുകൾ അറ്റാച്ചുമെൻറുകളായി അയയ്ക്കുക</SendEmailFilesAsAttachements>
+  <SendEmailSend>അയയ്ക്കുക</SendEmailSend>
+  <SendEmailProgressMessage>ഇമെയിൽ അയയ്ക്കുന്നു</SendEmailProgressMessage>
+  <GettingMailingListProgressMessage>മെയിലിംഗ് ലിസ്റ്റ് നേടുന്നു</GettingMailingListProgressMessage>
+  <SendEmailSuccessMessage>ഇമെയിൽ വിജയകരമായി അയച്ചു.</SendEmailSuccessMessage>
+  <SendEmailResultsMessage>അയച്ചു:. {0} &lt;br /&gt; പരാജയപ്പെട്ടു: {1} {2}.</SendEmailResultsMessage>
+  <SmtpServerSettingsIncorrect>എസ്എംടിപിസെര്വര്-സെർവർ ഓപ്ഷനുകൾ ശൂന്യമോ അല്ലെങ്കിൽ തെറ്റാണ് ഒന്നുകിൽ</SmtpServerSettingsIncorrect>
+  <FromEmailIncorrect>ഇമെയിൽ വിലാസം തെറ്റാണ് അല്ലെങ്കിൽ ശൂന്യമാണ്</FromEmailIncorrect>
+  <ToEmailIncorrect>വിലാസം ഇമെയിൽ തെറ്റായ അല്ലെങ്കിൽ ശൂന്യമാണ്</ToEmailIncorrect>
+  <EmailSubjectEmpty>ഇമെയിൽ വിഷയം വ്യക്തമാക്കിയിട്ടില്ല</EmailSubjectEmpty>
+  <UploadFromUrlTab>യുആർഎൽ നിന്നും</UploadFromUrlTab>
+  <UploadFromUrlFieldLabel>യുആർഎൽ (എച്ച്ടിടിപി അല്ലെങ്കിൽ എഫ്ടിപി സിംഗിൾ ഫയൽ)</UploadFromUrlFieldLabel>
+  <UploadFromUrlProgressTitle>URL നിന്നും അപ്ലോഡ്</UploadFromUrlProgressTitle>
+  <UploadFromUrlMsg>URL നിന്നും അപ്ലോഡ് ചെയ്യുന്നു</UploadFromUrlMsg>
+  <UploadFromUrlSuccessMsg>ഫയൽ "{0}" വിജയകരമായി നിന്ന് "{1}" അപ്ലോഡുചെയ്തു</UploadFromUrlSuccessMsg>
+  <UploadFromUrlUnknownResponse>സെർവറിൽ നിന്നുള്ള പ്രതികരണം തിരിച്ചറിയുന്നില്ലെങ്കിൽ</UploadFromUrlUnknownResponse>
+  <UploadFromUrlEmptyFileName>അപ്ലോഡ് ഫയലിന്റെ പേര് ശൂന്യമാണ്</UploadFromUrlEmptyFileName>
+  <UploadFromUrlFileName>(യുആർഎൽ നിന്ന് പേര് ഉപയോഗിക്കാൻ ഒഴിച്ചിടുക) പേര് ഉപയോഗിച്ച് സംരക്ഷിക്കുക</UploadFromUrlFileName>
+  <UploadFromUrlFileNameMobile>പേര് ഉപയോഗിച്ച് സംരക്ഷിക്കുക</UploadFromUrlFileNameMobile>
+  
+  <!-- Common Clouds keys -->  
+  <CloudAuthenticateMessage>നിങ്ങൾ {0} ചെയ്തത് ലോഗിൻ ചെയ്യണം. ക്ലിക്ക് "{1}" ലിങ്ക് നിങ്ങൾ പ്രവേശന ഫോം വഴിതിരിച്ചുവിടും. {2} കൂടുതൽ വിവരം. {3}</CloudAuthenticateMessage>
+  <CloudAuthenticateLink>{0} ആധികാരികത</CloudAuthenticateLink>  
+  <CloudDownloadingMessage>ലേക്ക് {0} ഡൗൺലോഡുചെയ്യുന്നു</CloudDownloadingMessage>
+  <CloudAuthWarningMessage>എങ്കിൽ നടപടി നടന്നിട്ടില്ല, ഈ ജാലകം അടച്ച് വീണ്ടും "{0}" ലിങ്കിൽ ക്ലിക്ക് ചെയ്യുക.</CloudAuthWarningMessage>
+  <CloudAuthEmptyInvalidMessage>{0} ആക്സസ്സ് ടോക്കൺ ശൂന്യമാണ് അല്ലെങ്കിൽ അസാധുവാണ്. വീണ്ടും ആധാരീകരിക്കുന്നത് ദയവായി.</CloudAuthEmptyInvalidMessage>
+  <CloudDownloadEndMessageTitle>ഡൌൺലോഡ് പൂർത്തിയായാൽ</CloudDownloadEndMessageTitle>
+  <CloudDownloadFilesSuccessMessage>{0} ഫയൽ (ങ്ങൾ) വിജയകരമായി "{1}" {2} ഫോൾഡർ ഡൌൺലോഡ്.</CloudDownloadFilesSuccessMessage>
+  <CloudNotDownloadedFilesMessage>{0} ഫയൽ (ങ്ങൾ) ഡൗൺലോഡ് ചെയ്തിട്ടില്ല:</CloudNotDownloadedFilesMessage>
+  <CloudFoldersCreatedSuccessMessage>{0} ഫോൾഡറുകൾ (ങ്ങൾ) വിജയകരമായി "{1}" {2} ഫോൾഡറിൽ സൃഷ്ടിച്ചു.</CloudFoldersCreatedSuccessMessage>
+  <CloudNotFoldersCreatedMessage>{0} ഫോൾഡറുകൾ (ങ്ങൾ) സൃഷ്ടിച്ചിട്ടില്ല:</CloudNotFoldersCreatedMessage>
+  <CloudFilesFoldersSuccessMessage>{0} ഫയൽ (കൾ), {1} ഫോൾഡറിൽ (ങ്ങൾ) വിജയകരമായി "{2}" {3} ഫോൾഡർ ഡൌൺലോഡ്.</CloudFilesFoldersSuccessMessage>
+  <CloudNotFilesFoldersDownloadedMessage>{0} ഫയൽ (കൾ), {1} ഫോൾഡറിൽ (ങ്ങൾ) ഡൗൺലോഡ് ചെയ്തിട്ടില്ല:</CloudNotFilesFoldersDownloadedMessage>
+  <CloudLinkText>സന്ദർശിക്കുക {0}</CloudLinkText>
+  <CloudLinkDescription>{0} പേജിലേക്ക് പോകുക</CloudLinkDescription>
+  <CloudRootFolderName>&lt;b&gt; {0} റൂട്ട് ഫോൾഡർ &lt;/b&gt;</CloudRootFolderName>
+  <CloudCheckFolerMessage>തുടരാൻ ഒരൊറ്റ {0} ഫോൾഡർ പരിശോധിക്കുക.</CloudCheckFolerMessage>
+  <CloudSelectFolderMessage>തുടരാൻ {0} ഫോൾഡർ തിരഞ്ഞെടുക്കുക.</CloudSelectFolderMessage>
+  <CloudGetFoldersInfoProgressMessage>ലോഡുചെയ്യുന്നു {0} ഫോൾഡറുകൾ വിവരം</CloudGetFoldersInfoProgressMessage>
+  <CloudGetItemsInfoProgressMessage>ലോഡുചെയ്യുന്നു {0} ഇനങ്ങൾ വിവരം</CloudGetItemsInfoProgressMessage>
+  <CloudUploadSelectItemsMessage>തുടരാൻ {0} ഇനങ്ങൾ തിരഞ്ഞെടുക്കുക.</CloudUploadSelectItemsMessage>
+  <CloudUploadTotalFiles>ആകെ ഫയലുകൾ: {0} ({1})</CloudUploadTotalFiles>
+  <CloudUploadProgressMessage>{0} നിന്ന് അപ്ലോഡ് ചെയ്യുന്നു</CloudUploadProgressMessage>
+  <CloudSignInAsDifferentUserText>{0} നിന്ന് പുറത്തിറങ്ങുക</CloudSignInAsDifferentUserText>
+  <CloudLogoutProgressMsg>{0} നിന്ന് പുറത്തിറങ്ങുക</CloudLogoutProgressMsg>
+  <CloudRevokeTokenMsg>ടോക്കൺ പുനർനിർണ്ണയം</CloudRevokeTokenMsg>
+  <CloudRefreshTokenMsg>പുതുക്കുന്നു ടോക്കൺ</CloudRefreshTokenMsg>
+  <CloudAuthNotCompleteMsg>ആധികാരികത പൂർത്തിയാക്കിയിട്ടില്ല. ദയവായി /&gt; &lt;br</CloudAuthNotCompleteMsg>
+  <CloudTrustedSitesMsg> "വിശ്വസനീയമായ സൈറ്റുകൾ" പട്ടികയിൽ ഇനിപ്പറയുന്ന സൈറ്റുകളിൽ പരിശോധിക്കുക: /&gt; &lt;br &lt;br /&gt;</CloudTrustedSitesMsg>
+  <TrustedSitesForMicrosoftEdge>നിങ്ങൾ Microsoft അഗ്രം ഉപയോഗിക്കുന്നത് എങ്കിൽ, Internet Explorer ലെ വിശ്വസനീയമായ സൈറ്റുകൾ പരിശോധിക്കുക</TrustedSitesForMicrosoftEdge>
+  <CloudCheckAuthMsg>ചെക്ക് {0} ആധികാരികത</CloudCheckAuthMsg>
+  <CloudLoadMsg>ലോഡുചെയ്യുന്നു {0}</CloudLoadMsg>
+  <CloudFreeSpaceError>ഫയലുകൾ അപ്ലോഡ് ചെയ്യാൻ {2} മതിയായ ഇടമില്ല. നന്നായി: {0}. ഫയൽ വലുപ്പം: {1}.</CloudFreeSpaceError>
+  <CloudFreeSpaceExceeded>{0} മതിയായ ഇടമില്ല</CloudFreeSpaceExceeded>
+  <CloudExceedFileSizeError>{0} - നിങ്ങൾ ഡൌൺലോഡ് ശ്രമിക്കുന്ന ഫയലിന്റെ {1} ഫയൽ വലുപ്പ, ഡൌൺലോഡ് അനുവദനീയമായ പരമാവധി വലുപ്പം വലിയവൻ തന്നെയാണ്.</CloudExceedFileSizeError>
+  <CloudFolderNotFound>ഡയറക്ടറി കണ്ടെത്തിയില്ല. ഒരുപക്ഷേ അത് ഇല്ലാതാക്കി</CloudFolderNotFound>
+  <CloudFileNotFound>ഫയൽ കണ്ടെത്തിയില്ല. ഒരുപക്ഷേ അത് ഇല്ലാതാക്കി</CloudFileNotFound>
+  <CloudNoFoldersMessage>പ്രദർശിപ്പിക്കുന്നതിന് ഫോൾഡറുകൾ ഉണ്ട്</CloudNoFoldersMessage>
+  <CloudLibraryNotLoadedMsg>{0} ക്ലയന്റ് ലൈബ്രറി ലോഡുചെയ്തിട്ടില്ല! &lt;br /&gt; ഇന്റർനെറ്റ് കണക്ഷൻ പരിശോധിച്ചതിനുശേഷം-അല്ലെങ്കിൽ പേജ് പുതുക്കാൻ. &lt;br /&gt; എതിരെ</CloudLibraryNotLoadedMsg>
+  <CloudDownloadWithNewNames>തുടർന്ന് ഫയൽ (കൾ) പുതിയ പേരുകൾ ഡൗൺലോഡ്:</CloudDownloadWithNewNames>
+
+  <!-- Google Drive Cloud keys -->
+  <CommandDownloadToGoogleDocs>Google ഡ്രൈവിലേക്ക് ഡൗൺലോഡ്</CommandDownloadToGoogleDocs>
+  <GoogleDocsSaveAs>സംരക്ഷിക്കുക:</GoogleDocsSaveAs>
+  <GoogleDocsSaveAsTitle>"{0}" സംരക്ഷിക്കുക ആയി ...</GoogleDocsSaveAsTitle>
+  <GoogleDocsDownloadEndWarningMessage>നിങ്ങളുടെ Google ഡ്രൈവ് അക്കൗണ്ടിൽ അപ്ലോഡ് പ്രമാണങ്ങൾ കാണാൻ കഴിയുന്നില്ലെങ്കിൽ, കുറച്ച് നിമിഷങ്ങൾ കാത്തിരുന്ന് Google ഡ്രൈവ് പട്ടിക പുതുക്കുക.</GoogleDocsDownloadEndWarningMessage>
+  <GoogleDriveUploadNoFilesMessage>അപ്ലോഡിനും Google ഡ്രൈവിൽ ഫയലുകൾ</GoogleDriveUploadNoFilesMessage>
+  <GoogleDriveMaxUploadSizeError>ഉള്ളടക്ക-തരം "{0}" അപ്ലോഡുചെയ്തുകൊണ്ട് {1} കവിഞ്ഞു പരമാവധി വലുപ്പം വേണ്ടി.</GoogleDriveMaxUploadSizeError>
+  <GoogleDriveConvertMsg>അതു സാധ്യമാണ്, Google പ്രമാണങ്ങൾ ഫോർമാറ്റ് ഫയലുകൾ പരിവർത്തനം. {0} കൂടുതൽ വിവരങ്ങൾ {1}.</GoogleDriveConvertMsg>
+
+  <!-- Box Cloud keys -->
+  <CommandDownloadToBox>ബോക്സ് ഡൗൺലോഡുചെയ്യുക</CommandDownloadToBox>
+  <BoxDownloadWithNewNames>താഴെ ഫയൽ (കൾ) പുതിയ പതിപ്പുകൾ അപ്ഡേറ്റ് ചെയ്തു:</BoxDownloadWithNewNames>
+  <BoxNoViewPermission>തിരഞ്ഞെടുത്ത ഡയറക്ടറി കാണാൻ അനുമതിയില്ല</BoxNoViewPermission>
+  <BoxNoDownloadPermission>ഡൗൺലോഡ് ചെയ്യുന്നതിന് അനുമതി ഇല്ല</BoxNoDownloadPermission>
+  <BoxNoUploadPermission>അപ്ലോഡ് ചെയ്യുന്നതിനായി അനുമതിയില്ല</BoxNoUploadPermission>
+  <BoxUnableCreateOrInfoError>സൃഷ്ടിക്കുക വിവരങ്ങളോ ലഭ്യമാക്കാൻ കഴിയുന്നില്ല</BoxUnableCreateOrInfoError>
+  
+  <!-- Dropbox Cloud keys -->
+  <CommandDownloadToDropbox>ഡ്രോപ്പ്ബോക്സ് ഡൗൺലോഡുചെയ്യുക</CommandDownloadToDropbox>
+  
+  <!-- OneDrive Cloud keys -->
+  <CommandDownloadToSkyDrive>OneDrive ഡൗൺലോഡുചെയ്യുക</CommandDownloadToSkyDrive>
+  <AuthenticateOAuthSkyDriveMessageShort>നിങ്ങളുടെ മൈക്രോസോഫ്റ്റ് ലൈവ് അക്കൗണ്ടിലേക്ക് ലോഗിൻ ചെയ്യണം.</AuthenticateOAuthSkyDriveMessageShort>
+  <SkyDriveAuthAlsoString>എതിരെ</SkyDriveAuthAlsoString>
+  <SkyDriveLoginButtonTitle>ലോഗിൻ</SkyDriveLoginButtonTitle>
+  <SkyDriveRegistryMessage>ഒരു Windows Live ID ഇല്ലേ? {0} ലോഗ് ഇൻ ... {1}</SkyDriveRegistryMessage>
+  <SkyDriveMapRootFolder>കുറിപ്പ്! നിങ്ങൾ {0} മാപ്പ് {1} നിങ്ങളുടെ OneDrive ഫോൾഡർ ചെയ്യാനാകും. മാർഗം</SkyDriveMapRootFolder>
+  <SkyDriveMoreInfoLink>{0} OneDrive- ൽ കുറിച്ച് കൂടുതൽ വിവരങ്ങൾ (സ്കൈഡ്രൈവ്) {1}</SkyDriveMoreInfoLink>
+  <OneDriveMaxUploadSizeError>അപ്ലോഡ് ചെയ്ത ഫയലിന്റെ സ്വീകാര്യമായ വലുപ്പം ({0}) കവിഞ്ഞു: {1}</OneDriveMaxUploadSizeError>
+  <!-- OneDrive for Business -->
+  <OneDriveForBusinessMapWebFolderInfo>&lt;b&gt; കുറിപ്പ്! &lt;/b&gt; ഈ ലൊക്കേഷനിൽ ഫയലുകൾ തുറക്കുന്നതിന് മുൻപ്, ആദ്യം വെബ് സൈറ്റ് നിങ്ങളുടെ വിശ്വസനീയമായ സൈറ്റുകൾ ലിസ്റ്റിൽ, ചേർക്കുക വെബ് സൈറ്റ് ബ്രൗസുചെയ്തതിനുശേഷം (ഐഇ ബ്രൗസറിൽ) സ്വയം ലോഗിൻ ഓപ്ഷൻ തിരഞ്ഞെടുക്കണം.</OneDriveForBusinessMapWebFolderInfo>
+  
+  <UploadFromUrlLabelText>നിങ്ങൾക്ക് ഒരു ആഗോള ഫയൽ സെർവർ അല്ലെങ്കിൽ {0} പോലുള്ള ഒരു ഫയൽ ഷെയറിങ് സൂക്ഷിച്ചിരിക്കുന്ന ഒരു ഫയലിന്റെ URL നിർദ്ദേശിക്കാം {1}, {2}, {3}, {4}.</UploadFromUrlLabelText>
+  <UploadFromUrlLabelTextMobile>ഫയലിന്റെ URL വ്യക്തമാക്കുക</UploadFromUrlLabelTextMobile>
+
+  <LinkToFileTitle>ഫയൽ / ഫോൾഡറിൽ ലിങ്ക്</LinkToFileTitle>
+  <LinkToFileWarningAnonym>ഈ ലിങ്ക് ഫയൽ അജ്ഞാത പ്രവേശനം നൽകുന്നു. ഏതൊരു ഉപയോക്താവിനും ഈ സൈറ്റിൽ യാതൊരു അക്കൗണ്ട് ഉണ്ടെന്നു പോലും, ഡൗൺലോഡ് അല്ലെങ്കിൽ ഒരു പൊതു ലിങ്ക് വഴി ഫയലുകൾ അപ്ലോഡ് ചെയ്യാം. ഒരു ഫയൽ ഒരു പരസ്യ ലിങ്കും ഒറ്റ തിരഞ്ഞെടുത്ത ഫയൽ ഡൌൺലോഡ് നിങ്ങളെ അനുവദിക്കുന്നു. {0} കൂടുതൽ വിവരങ്ങൾ {1}.</LinkToFileWarningAnonym>
+  <LinkToFileDownloadFileLink>ഈ ലിങ്ക് {1} നിന്ന് തിരഞ്ഞെടുത്ത ഫയൽ {0} ഡൗൺലോഡ് നിങ്ങളെ അനുവദിക്കുന്നു. ഈ ലിങ്ക് ഉപയോഗിക്കാൻ ഒരു സാധുവായ അക്കൗണ്ട് ആവശ്യമാണ്. ഫയൽ അജ്ഞാത ആക്സസ് നൽകുന്നില്ല.</LinkToFileDownloadFileLink>
+  <LinkToFileExpireDate>കാലഹരണപ്പെടുന്ന തീയതി</LinkToFileExpireDate>
+  <LinkToFileDownloadCnt>എണ്ണം പരിധി ഇറക്കുമതി</LinkToFileDownloadCnt>
+  <LinkToFileDownloadType>ലിങ്ക് തരം</LinkToFileDownloadType>
+  <LinkToFileGenerate>ലിങ്ക് സൃഷ്ടിക്കുക</LinkToFileGenerate>
+  <LinkToFilePasswordNotMatch>പാസ്വേഡുകൾ പൊരുത്തപ്പെടുന്നില്ല</LinkToFilePasswordNotMatch>
+  <LinkToFilePasswordRequired>പൊതു കണ്ണി പാസ്വേഡ് ആവശ്യമാണ്</LinkToFilePasswordRequired>
+  <LinkToFileInvalidForm>അസാധുവായ പാരാമീറ്ററുകൾ</LinkToFileInvalidForm>
+  <LinkToFileAnonymDownloadLinkHint>"{0}" പൊതു ലിങ്ക്:</LinkToFileAnonymDownloadLinkHint>
+  <LinkToFileAnonymDownloadShortLinkHint>"{0}" എന്ന ഹൃസ്വ പബ്ലിക് ലിങ്ക്:</LinkToFileAnonymDownloadShortLinkHint>
+  <LinkToFileOpenFolderLink>നിങ്ങളെ ഈ ലിങ്ക് {1} തിരഞ്ഞെടുത്ത ഫോൾഡറിലേക്ക് {0} തുറക്കാൻ അനുവദിക്കുന്നു. ഈ ലിങ്ക് ഉപയോഗിക്കാൻ ഒരു സാധുവായ അക്കൗണ്ട് ആവശ്യമാണ്. ഇത് ഫോൾഡർ അജ്ഞാത ആക്സസ് നൽകുന്നില്ല.</LinkToFileOpenFolderLink>
+  <LinkToFileOpenFileLink>ഈ ലിങ്ക് ഫയൽ ഉള്ള ഫോൾഡർ തുറക്കുകയും അതിൽ ഉയർത്തിക്കാട്ടുന്നു</LinkToFileOpenFileLink>
+  <LinkToFileDaysLeft>ബാക്കി ദിവസങ്ങൾ</LinkToFileDaysLeft>
+  <LinkToFileCaptionMobile>പൊതു കണ്ണികൾ</LinkToFileCaptionMobile>
+
+  <PublicFolderLinkHint>ഫോൾഡറിലേക്ക് "{0}" പൊതു ലിങ്ക്:</PublicFolderLinkHint>
+  <PublicFolderShortLinkHint>ഫോൾഡറിൽ ഹൃസ്വ പൊതു കണ്ണി "{0}":</PublicFolderShortLinkHint>
+  <PublicFolderLinkDownloadZipHint>ഫോൾഡർ തപാൽ ആർക്കൈവ് ലിങ്ക് ഡൗൺലോഡ് "{0}":</PublicFolderLinkDownloadZipHint>
+  <PublicFolderLinkShortDownloadZipHint>ഫോൾഡർ തപാൽ ആർക്കൈവ് ഹൃസ്വ ഡൗൺലോഡ് ലിങ്ക് "{0}":</PublicFolderLinkShortDownloadZipHint>
+  <PublicFolderLinkZipDownload>കംപ്രെസ്സ് ചെയ്ത് നിലവിലെ ഫോൾഡർ ഡൗൺലോഡ് {0} (ഒരു തപാൽ ആർക്കൈവിൽ)</PublicFolderLinkZipDownload>
+  <PublicFolderLinkOverwriteWhileUpload>നിലവിലുള്ള തിരുത്തിയെഴുതുക</PublicFolderLinkOverwriteWhileUpload>
+  <PublicFolderLinkOpenFolderHint>ഫോൾഡർ തുറക്കുക</PublicFolderLinkOpenFolderHint>
+  <PublicFolderDownloadDisabledNote>കുറിപ്പ്! ഈ ഫോൾഡറിൽ ഉടമ ഈ ഫോൾഡറിൽ നിന്നും ഫയലുകൾ ഡൌൺലോഡ് വിലക്കിയിട്ടുണ്ടായിരുന്നു.</PublicFolderDownloadDisabledNote>
+  <PublicFolderLinkSendEmails>ഇമെയിലുകൾ സന്ദർശകരെ പ്രവർത്തനത്തെക്കുറിച്ചുള്ള വിവരങ്ങൾ അയയ്ക്കാൻ</PublicFolderLinkSendEmails>
+  <PublicFolderAnonymAccessControl>പ്രവേശന നിയന്ത്രണം</PublicFolderAnonymAccessControl>
+  <PublicFolderAnonymDownload>ഇറക്കുമതി ഫയലുകൾ</PublicFolderAnonymDownload>
+  <PublicFolderAnonymZipDownload>ഇറക്കുമതി ഫോൾഡറുകൾ (പിൻ)</PublicFolderAnonymZipDownload>
+  <PublicFolderAnonymUpload>അപ്ലോഡ്</PublicFolderAnonymUpload>
+  <PublicFolderAnonymViewContent>ഫയൽ കാണുക ലിസ്റ്റ്</PublicFolderAnonymViewContent>
+  <PublicFolderNoteForUsers>ഉപയോക്താക്കൾക്ക് കുറിപ്പ്</PublicFolderNoteForUsers>
+  <PublicFolderACLNotSet>പ്രവേശന നിയന്ത്രണ സജ്ജമാക്കിയിട്ടില്ലെങ്കിൽ</PublicFolderACLNotSet>
+  <PublicFolderWarningAnonym>ഈ ലിങ്ക് ഫോൾഡർ അജ്ഞാത പ്രവേശനം നൽകുന്നു. ഏതൊരു ഉപയോക്താവിനും ഈ സൈറ്റിൽ യാതൊരു അക്കൗണ്ട് ഉണ്ടെന്നു പോലും, ഡൗൺലോഡ് അല്ലെങ്കിൽ ഒരു പൊതു ലിങ്ക് വഴി ഫയലുകൾ അപ്ലോഡ് ചെയ്യാം. ഫോൾഡറിൽ ഒരു പൊതു കണ്ണി നിങ്ങൾ ഒരു മുഴുവൻ ഫോൾഡർ ഇരുവരും (ആർക്കൈവിൽ ചിലരാകട്ടെ) ഓരോ ഫയലുകൾ ഡൌൺലോഡ് അനുവദിക്കുന്നു. {0} കൂടുതൽ വിവരങ്ങൾ {1}.</PublicFolderWarningAnonym>
+  <PublicLinksShowForAllItems>എല്ലാവർക്കും വേണ്ടി കാണിക്കുക</PublicLinksShowForAllItems>
+  <PublicLinksShowForSelected>തെരഞ്ഞെടുത്ത കാണിക്കുക</PublicLinksShowForSelected>
+  
+  <MultipleFileInputMessage>കുറിപ്പ്! നിങ്ങളുടെ ബ്രൗസർ ഒന്നിലധികം ഫയലുകൾ നിരക്കു പിന്തുണയ്ക്കുന്നു.</MultipleFileInputMessage>
+  <UploadZipUnzipNote>ഒന്നിലധികം ഫയലുകളും ഫോൾഡറുകളും ഒരു zip ശേഖരം അപ്ലോഡ് ചെയ്തതിനു ശേഷം സന്ദർഭ മെനുവിൽ "{0}" കമാൻഡ് ഉപയോഗിച്ച് അത് നേടിയെടുക്കാൻ കഴിയും.</UploadZipUnzipNote>
+  <DnDFileUploadingStatusCode>സ്റ്റാറ്റസ് കോഡ്</DnDFileUploadingStatusCode>
+  <DnDFileUploadingPathOrNameEmpty>പാത-അല്ലെങ്കിൽ ഫയലിൻറെ പേര് വ്യക്തമാക്കിയിട്ടില്ല</DnDFileUploadingPathOrNameEmpty>
+  <DnDFileUploadingRemoveFromList>പട്ടികയിൽ നിന്നും നീക്കംചെയ്യുക</DnDFileUploadingRemoveFromList>
+  <DndFileUploadingDontDropFoldersMsg>ചുവടെയുള്ള പട്ടികയിലേയ്ക്ക് വലിച്ചിടാൻ ഫയലുകൾ കഴിയും. നിങ്ങൾക്ക് ഫോൾഡറുകൾ ഉപേക്ഷിക്കാൻ കഴിയില്ല.</DndFileUploadingDontDropFoldersMsg>
+  <DndFileUploadingAllowDropFoldersMsg>നിങ്ങൾ ഡ്രാഗ് താഴെയുള്ള പട്ടിക ഫയലുകളും ഫോൾഡറുകളും നീക്കാനുമാകും.</DndFileUploadingAllowDropFoldersMsg>
+  <DndFileUploadingFilesSummaryInfo>ഫയലുകളുടെ എണ്ണം: {0} ({1})</DndFileUploadingFilesSummaryInfo>
+  <DropFilesHere>അപ്ലോഡ് ഫയലുകൾ വലിച്ചിടുക</DropFilesHere>
+  
+  <FileGridDownloadColumn>ഇറക്കുമതി ഫയലുകൾ</FileGridDownloadColumn>
+  <FileAttributesField>ഗുണവിശേഷങ്ങൾ</FileAttributesField>
+  <FolderCalculateSize>കണക്കാക്കുക</FolderCalculateSize>
+  <FolderRecalculateSize>കണക്കുകൂട്ടുക</FolderRecalculateSize>
+  <FolderContainsField>ഉൾക്കൊള്ളുന്നു</FolderContainsField>
+  <FolderContainsFilesFolders>{0} ഫയലുകൾ, {1} ഫോൾഡറുകൾ</FolderContainsFilesFolders>
+  <FolderCalculatingMessage>കണക്കാക്കുന്നു</FolderCalculatingMessage>
+
+  <SearchTitle>ഫയൽ തിരയൽ. ലഭ്യമായ പാറ്റേണുകൾ: {0}</SearchTitle>
+  <SearchType>തിരയൽ</SearchType>
+  <SearchOnlyFiles>ഫയലുകൾ മാത്രം</SearchOnlyFiles>
+  <SearchOnlyFolders>ഫോൾഡറുകളിൽ മാത്രമേ</SearchOnlyFolders>
+  <SearchBothFilesFolders>ഫയലുകളും ഫോൾഡറുകളും രണ്ടും</SearchBothFilesFolders>
+  <SearchFileDetails>ഫയൽ വിശദാംശങ്ങൾ</SearchFileDetails>
+  <SearchFileContent>ഫയൽ ഉള്ളടക്കം</SearchFileContent>
+  <SearchByDateFrom>നിന്ന്</SearchByDateFrom>
+  <SearchByDateTo>ലേക്ക്</SearchByDateTo>
+  <SearchLocation>സ്ഥലം</SearchLocation>
+  <SearchLocationEntire>എവിടെയെങ്കിലും</SearchLocationEntire>
+  <SearchLocationCurrent>നിലവിൽ</SearchLocationCurrent>
+  <SearchSearch>തിരയൽ</SearchSearch>
+  <SearchNothingFound>ഒന്നും കണ്ടില്ല! നിങ്ങളുടെ തിരയൽ മാനദണ്ഡം പരിഷ്ക്കരിക്കുക.</SearchNothingFound>
+  <SearchErrorCaption>തിരയൽ പിശക്</SearchErrorCaption>
+  <SearchResultsNotComplete>ശ്രദ്ധ! ചില ഫോൾഡറുകൾ ഇതുവരെ സൂചികപ്പെടുത്തിയിട്ടില്ല പോലെ തിരയൽ ഫലങ്ങൾ അപൂർണ്ണമായിരിക്കാം.</SearchResultsNotComplete>
+  <SearchRepeatOrContactAdmin>പിന്നീട് വീണ്ടും തിരയാൻ ശ്രമിക്കുക അല്ലെങ്കിൽ നിങ്ങളുടെ അഡ്മിനിസ്ട്രേറ്ററെ ബന്ധപ്പെടുക.</SearchRepeatOrContactAdmin>
+  <SearchLinkToManual>{0} വിൻഡോസ് തിരയൽ സഹായം {1} റഫർ</SearchLinkToManual>
+  <QuerySearchByNameText>പേര് ഉപയോഗിച്ച് തെരയുക</QuerySearchByNameText>
+  <QuerySearchByConentText>ഉള്ളടക്കം</QuerySearchByConentText>
+  <SearchByDetailsWarning>ശ്രദ്ധ! നിങ്ങൾ ഉള്ള വഴി തിരയൽ ഉപയോഗിക്കാൻ ആഗ്രഹിക്കുന്നു എന്നു ക്രമീകരണങ്ങളിൽ നിർദ്ദേശിച്ചു. ഈ സാഹചര്യത്തിൽ, തിരയൽ പകരം വിൻഡോസ് ഇൻഡക്സുചെയ്യൽ സേവനം ഉപയോഗിച്ച് ഒരു സാധാരണ രീതി ഉപയോഗിച്ചാണ് നടത്തിയിരുന്നത് ചെയ്യും.</SearchByDetailsWarning>
+  <SearchInSpecialFolderWarning>ശ്രദ്ധ! നിലവിലെ ഫോൾഡർ തിരയൽ ബാധകമല്ല. നിങ്ങൾ തുടരുകയാണെങ്കിൽ, തിരച്ചില് എല്ലാ ഡയറക്ടറികളിലെ പുറത്തു കൊണ്ടുപോയി ചെയ്യും.</SearchInSpecialFolderWarning>
+
+  <UploadTitle>ഒന്നിലധികം ഫയലുകൾ അപ്ലോഡ്</UploadTitle>
+  <UploadSimpleTab>സ്റ്റാൻഡേർഡ്</UploadSimpleTab>
+  <UploadSimpleReset>റീസെറ്റ്</UploadSimpleReset>
+  <UploadSimpleUpload>അപ്ലോഡ്</UploadSimpleUpload>
+  <UploadSimpleUploadFolderLabelCollapsed>അപ്ലോഡ് ഫോൾഡർ</UploadSimpleUploadFolderLabelCollapsed>
+  <UploadSimpleUploadFolderButtonText>ഫോൾഡർ തിരഞ്ഞെടുക്കുക</UploadSimpleUploadFolderButtonText>
+  <UploadJavaTab>ജാവ</UploadJavaTab>
+  <UploadJavaIgnorePaths>ഒറ്റ ഫോൾഡറിലെ എല്ലാ ഫയലുകളും സ്ഥലം (പാതകളെ അവഗണിക്കാൻ)</UploadJavaIgnorePaths>
+  <UploadFlashTab>ഫ്ലാഷ്</UploadFlashTab>
+  <UploadSilverlightTab>സിൽവർ</UploadSilverlightTab>
+  <UploadPartially>ചില ഫയലുകൾ അപ്ലോഡ് ചെയ്യാൻ കഴിഞ്ഞില്ല</UploadPartially>
+  <UploadFolderNotSelectedTitle>ഫോൾഡർ തിരഞ്ഞെടുത്തിട്ടില്ല</UploadFolderNotSelectedTitle>
+  <UploadFolderNotSelected>ഫയലുകൾ അപ്ലോഡ് ചെയ്യുന്ന ഫോൾഡർ തിരഞ്ഞെടുക്കുക</UploadFolderNotSelected>
+  <UploadInProgress>നിങ്ങളുടെ ഫയലുകൾ അപ്ലോഡ്</UploadInProgress>
+  <UploadInvalidFormFields>ഫോം ക്ഷേത്രങ്ങള് അസാധുവായ മൂല്യങ്ങൾ സമർപ്പിച്ച പാടില്ല</UploadInvalidFormFields>
+  <UploadAjaxFailed>അജാക്സ് ആശയവിനിമയം പരാജയപ്പെട്ടു</UploadAjaxFailed>
+  <UploadFilesAlreadyExists>പ്രമാണം (ങ്ങൾ) ഇതിനകം നിലവിലുണ്ട്</UploadFilesAlreadyExists>
+  <UploadOverwriteFiles>നിലവിലുള്ള ഫയലുകൾ പഴയപടിയാകും. നിങ്ങൾ മുന്നോട്ട് പോകാൻ ആഗ്രഹിക്കുന്നുണ്ടോ?</UploadOverwriteFiles>
+  <UploadOverwriteOrRenameFiles>നിങ്ങൾ വ്യക്തമാക്കിയ ഡയറക്ടറിയിൽ പൊരുത്തപ്പെടുന്ന നാമങ്ങൾ ഉപയോഗിച്ച് ഒന്നോ അതിലധികമോ ഫയലുകൾ ഉണ്ട്. നിലവിലുള്ള ഫയലുകൾ മാറ്റണമോ? ക്ലിക്ക് "{0}" നേരത്തെ നിലവിലുള്ള ഫയലുകൾ മാറ്റണമോ ചെയ്താൽ "{1}" - നിങ്ങൾ എല്ലാ ഫയലുകളും സംരക്ഷിക്കാൻ ചെയ്യണമെങ്കിൽ (അവർ പേരുമാറ്റി പറയും).</UploadOverwriteOrRenameFiles>
+  <UploadNotModifyExistingFiles>നിങ്ങൾ വ്യക്തമാക്കിയ ഡയറക്ടറിയിൽ പേരുകൾ യുള്ള ഒന്നോ അതിലധികമോ ഫയലുകൾ ഉണ്ട്. ഫയലുകൾ അപ്ലോഡ് ചെയ്യാൻ കഴിയില്ല. അപ്ലോഡ് ലിസ്റ്റിൽ നിന്നും നിലവിലെ ഫയലുകൾ നീക്കം അവരെ പുനർനാമകരണം ചെയ്യുക.</UploadNotModifyExistingFiles>
+  <UploadRenamedExistingFiles>നിങ്ങൾ വ്യക്തമാക്കിയ ഡയറക്ടറിയിൽ പേരുകൾ യുള്ള ഒന്നോ അതിലധികമോ ഫയലുകൾ ഉണ്ട്. പേരുകൾ യുള്ള ഫയലുകൾ പുനർനാമകരണം ചെയ്യും.</UploadRenamedExistingFiles>
+  <UploadNotAllowedTitle>അപ്ലോഡ് അനുവദനീയമല്ല</UploadNotAllowedTitle>
+  <UploadNotAllowedPrompt>ഈ ഫോൾഡർ ഫയലുകൾ അപ്ലോഡ് ചെയ്യാൻ കഴിയില്ല</UploadNotAllowedPrompt>
+
+  <UploadMobileIOSVideo>വീഡിയോ അപ്ലോഡ് ചെയ്യുക. നിങ്ങൾ വീഡിയോ ഫയൽ അപ്ലോഡ് ചെയ്യണം ഈ ഓപ്ഷൻ പ്രാപ്തമാക്കുക.</UploadMobileIOSVideo>
+  <UploadMobileAurigmaLink>നിങ്ങൾ Aurigma ഉണ്ടാകാം കാര്യം ശ്രദ്ധിക്കുക! ഫയലുകൾ അപ്ലോഡ് നിങ്ങളുടെ ഉപകരണത്തിൽ ഇൻസ്റ്റാൾ. Aurigma Up ഇൻസ്റ്റാൾ ഇവിടെ ടാപ്പുചെയ്യുക! ചിത്രങ്ങളും വീഡിയോ അപ്ലോഡ് അപേക്ഷ.</UploadMobileAurigmaLink>
+  <UploadMobileAurigmaReady>Aurigma ശേഷം! ഇൻസ്റ്റാൾ അല്ലെങ്കിൽ നിങ്ങൾ ഇതിനകം തന്നെ ഇൻസ്റ്റാൾ ചെയ്തിട്ടുണ്ടെങ്കിൽ, അമർത്തുക ചുവടെയുള്ള "അപ്ലോഡ്".</UploadMobileAurigmaReady>
+  <UploadMobileAurigmaFilePrefix>അപ്ലോഡ് ചെയ്ത ഫയലുകൾ നുളള</UploadMobileAurigmaFilePrefix>
+  <UploadMobileResult>അപ്ലോഡ് ഫലം:</UploadMobileResult>
+  <UploadMobileUrlPlaceHolder>URL ഇവിടെ നൽകുക</UploadMobileUrlPlaceHolder>
+  <UploadMobileFileNamePlaceHolder>ഇവിടെ പുതിയ ഫയൽ നാമം നൽകുക</UploadMobileFileNamePlaceHolder>
+  <UploadBrowseLabel>ബ്രൌസ് ...</UploadBrowseLabel>
+  
+  <MobileToolTipsCaption>നിങ്ങൾക്കു അറിയാമൊ ...</MobileToolTipsCaption>
+  <MobileToolTipsNextButton>അടുത്ത ടിപ്പ്</MobileToolTipsNextButton>
+  <MobileToolTipsIKnowButton>എനിക്ക് ഇത് അറിയാം</MobileToolTipsIKnowButton>
+  <MobileToolTipsHideButton>ഒരിക്കലും കാണിക്കരുത്</MobileToolTipsHideButton>
+  <MobileToolTipsMultiSelection>നിരവധി ഫയലുകൾ അല്ലെങ്കിൽ ഫോൾഡറുകൾ തിരഞ്ഞെടുക്കുന്നതിന്, &lt;b&gt; {0} &lt;/b&gt; ബട്ടൺ ടാപ്പുചെയ്യുന്നതിലൂടെ മൾട്ടി-നിരക്കു മോഡ് പ്രാപ്തമാക്കാൻ വേണം. മൾട്ടി-നിരക്കു മോഡിൽ നിന്നും പുറത്തുകടക്കാൻ അത് വീണ്ടും ടാപ്പ്.</MobileToolTipsMultiSelection>
+  <MobileToolTipsSlideToRemove>താങ്കൾക്ക് നീക്കം ലിസ്റ്റ് ഇനങ്ങളുടെ ഏതെങ്കിലും ഇടത്തുനിന്ന് വലത്തോട്ടുള്ള നിന്ന് സ്ലൈഡുചെയ്യാം. ഒരു ഇൻലൈൻ നീക്കംചെയ്യുക ബട്ടൺ ലിസ്റ്റ് ഇനം മുകളിൽ ദൃശ്യമാകും.</MobileToolTipsSlideToRemove>
+  <MobileToolTipsTapAndHoldForMenu>സന്ദർഭ മെനു കാണിക്കാൻ ടാപ്പ് ലിസ്റ്റ് ഇനങ്ങൾ ഏതെങ്കിലും മുറുകെ. ടാപ്പ് പ്രദർശിപ്പിക്കുന്ന 'വെളിപ്പെടുത്തലുകൾ' ബട്ടൺ ഒരേ സന്ദർഭ മെനു</MobileToolTipsTapAndHoldForMenu>
+  <MobileToolTipsDoubleTapForPreview>അത് തിരഞ്ഞെടുക്കുന്നതിന് ഫയലിൽ സിംഗിൾ ടാപ്പ് തിരനോട്ടം ഡൌൺലോഡുചെയ്യുന്നതിനോ ഇരട്ട ടാപ്പ്. അത് തുറക്കാൻ ഫോൾഡറിൽ ഒരൊറ്റ ടാപ്പ്.</MobileToolTipsDoubleTapForPreview>
+  <MobileToolTipsPullDownToRefresh>അതു ഉള്ളടക്കങ്ങളും ലോഡുചെയ്യുക ലിസ്റ്റ് താഴേക്ക് വലിക്കുക.</MobileToolTipsPullDownToRefresh>
+  <MobileToolTipsPinchToScale>നിങ്ങൾ സൂം ഇൻ, സൂം-ഔട്ട് ചിത്രങ്ങളുമായി 'പിഞ്ച്' ആംഗ്യ ഉപയോഗിക്കാം.</MobileToolTipsPinchToScale>
+  <MobileToolTipsTapToHideBars>ടൂൾബാറുകൾ ടോഗിൾ ഇമേജ് പാനലിൽ എവിടെയും ടാപ്പ്.</MobileToolTipsTapToHideBars>
+  <MobileToolTipsSlideLeftRightToNext>സ്ലൈഡ് എന്നുകാണിക്കുന്ന ചിത്രങ്ങൾ മാറുക.</MobileToolTipsSlideLeftRightToNext>
+
+  <DownloadToCloudMobileTip>ഫോൾഡർ തിരഞ്ഞെടുക്കുന്നതിന് ഒരൊറ്റ ടാപ്പ്, അത് തുറക്കാൻ ഇരട്ട ടാപ്പ്.</DownloadToCloudMobileTip>
+  
+  <UploadTotalMaxSizeMessage>കുറിപ്പ്! അപ്ലോഡ് ചെയ്തിട്ടുള്ള എല്ലാ പരമാവധി വലുപ്പം {0} കവിയാൻ പാടില്ല.</UploadTotalMaxSizeMessage>
+  <UploadOneFileMaxSizeMessage>കുറിപ്പ്! ഓരോ ഫയലും അപ്ലോഡ് പരമാവധി വലുപ്പം {0} കവിയാൻ പാടില്ല.</UploadOneFileMaxSizeMessage>
+  <UploadUnlimitedSizeMessage>കുറിപ്പ്! അപ്ലോഡ് ചെയ്ത ഫയലുകൾ വലിപ്പം അപരിമിതമാണ്.</UploadUnlimitedSizeMessage>
+  <SimpleUploadSetFileNameNote>കുറിപ്പ് 2! ഒരു ഫയൽ തിരഞ്ഞെടുത്തു ചെയ്തശേഷം അപ്ലോഡ് ചെയ്തതിനു ശേഷം ഫയൽ പോകുന്ന പേര് പരിഷ്കരിക്കാനും കഴിയും</SimpleUploadSetFileNameNote>
+
+  <AnonymousUploadTitle>ഈ ഫോൾഡറിൽ ഫയലുകൾ അപ്ലോഡ്</AnonymousUploadTitle>
+  <AnonymousUploadDescription>ഈ ഫോൾഡർ ഫയലുകൾ അപ്ലോഡ് ചെയ്യാം. ക്ലിക്ക് ബട്ടണില് "ബ്രൌസ്" ഫയലുകൾ തിരഞ്ഞെടുക്കുക.</AnonymousUploadDescription>
+  <AnonymousUploadOverwriteHint>അപ്ലോഡ് ഫയൽ ഇതിനകം നിലവിലുണ്ട്, അത് മാറ്റി സ്ഥാപിക്കും.</AnonymousUploadOverwriteHint>
+  <AnonymousUploadShowUploadHint>അപ്ലോഡ് ഫോം കാണിക്കുക</AnonymousUploadShowUploadHint>
+  <AnonymousUploadHideUploadHint>മറയ്ക്കുക അപ്ലോഡ് ഫോം</AnonymousUploadHideUploadHint>
+  <AnonymousUploadNewFolderNameHint>ചുവടെയുള്ള ഫീൽഡിൽ സബ് പേര് വ്യക്തമാക്കാൻ കഴിയും (അത് നിലവിലില്ലെങ്കിൽ ഫോൾഡർ സൃഷ്ടിച്ച ചെയ്യും) ഫയലുകൾ അപ്ലോഡ് നൽകും:</AnonymousUploadNewFolderNameHint>
+  <AnonymousUploadCompleteTitle>ഫോൾഡർ {0} അപ്ലോഡ് ചെയ്യുന്നത് പൂർത്തിയായി</AnonymousUploadCompleteTitle>
+  <AnonymousUploadExistsFilesMessage>{0}: ഫയൽ (കൾ) ഒരേ പേര് (ങ്ങൾ) ഇതിനകം ഉള്ളതിനാൽ താഴെ ഫയൽ (കൾ) അപ്ലോഡുചെയ്തു ചെയ്തിട്ടില്ല.</AnonymousUploadExistsFilesMessage>
+  <AnonymousUploadOwnersNote>ഫോൾഡർ ഉടമയുടെ നിന്നുള്ള കുറിപ്പ്</AnonymousUploadOwnersNote>
+  <AnonymousDownloadPageTitle>ഇറക്കുമതി ഫയൽ</AnonymousDownloadPageTitle>
+  <AnonymousDownloadFileHint>ഇറക്കുമതി ഫയൽ</AnonymousDownloadFileHint>
+  <AnonymousUploadPageTitle>ഫോൾഡറിലേക്ക് അപ്ലോഡ്</AnonymousUploadPageTitle>
+  <AnonymousPublicFolderPageTitle>പൊതു ഫോൾഡർ</AnonymousPublicFolderPageTitle>
+  <AnonymousLoginAccessUserFailure>നിങ്ങൾ റിസോഴ്സ് ആക്സസ് ഇല്ല എന്ന് അക്കൗണ്ടിൽ ലോഗിൻ ചെയ്തു. ദയവായി നിങ്ങളുടെ ആക്സസ്സ് വേണ്ടി മറ്റ് ക്രെഡൻഷ്യലുകൾ നൽകുക. നിങ്ങൾ അവരെ അറിയില്ല എങ്കിൽ, ഒരു പൊതു കണ്ണി ഉടമയോ നിങ്ങളുടെ അഡ്മിനിസ്ട്രേറ്റർ ബന്ധപ്പെടുക.</AnonymousLoginAccessUserFailure>
+  <ProgressGettingAnonymLink>പൊതു ലിങ്ക് സൃഷ്ടിക്കൽ</ProgressGettingAnonymLink>
+  <ProgressGettingAnonymLinks>അജ്ഞാത കണ്ണികൾ നേടുന്നു</ProgressGettingAnonymLinks>
+  <ProgressGettingBoxViewLink>ബോക്സ് കാണുക ലിങ്ക് സ്വന്തമാക്കുന്നു</ProgressGettingBoxViewLink>
+  <AutodeskScriptNotIncludedMessage>Autodesk വ്യൂവർ സ്ക്രിപ്റ്റ് ലോഡുചെയ്യാൻ കഴിഞ്ഞില്ല</AutodeskScriptNotIncludedMessage>
+  <ProgressUninitializeAutodeskViewer>അടയ്ക്കുന്നു Autodesk വ്യൂവർ</ProgressUninitializeAutodeskViewer>
+  <ProgressGettingAutodeskViewLink>Autodesk കാണുക വിവരം നേടുന്നു</ProgressGettingAutodeskViewLink>
+  <AnonymousChangeLanguageHint>ഭാഷ തിരഞ്ഞെടുക്കുക</AnonymousChangeLanguageHint>
+  <AnonymousUpLinkHint>പാരന്റ് ഫോൾഡർ മടങ്ങുക</AnonymousUpLinkHint>
+  <AnonymousPasswordDescription>ഫോൾഡർ പാസ്വേഡ് പരിരക്ഷിതമാണ്</AnonymousPasswordDescription>
+  <AnonymousPasswordIncorrectMessage>പാസ്വേഡ് തെറ്റാണ്</AnonymousPasswordIncorrectMessage>
+  <AnonymousErrorTitle>പൊതു ലിങ്ക് പിശക്</AnonymousErrorTitle>
+  <AnonymousErrorNotFound>പൊതു ലിങ്ക് "{0}" കണ്ടെത്തിയില്ല!</AnonymousErrorNotFound>
+  <AnonymousErrorAccessDenied>നിങ്ങൾ പൊതു ലിങ്ക് "{0}" ഉപയോഗിക്കാൻ അനുമതിയില്ല</AnonymousErrorAccessDenied>
+  <AnonymousErrorFileNotFound>പൊതു ലിങ്ക് "{0}" ഒരു നോൺ-നിലവിലുള്ള ഫയൽ അല്ലെങ്കിൽ ഫോൾഡർ റഫർ, NTFS പ്രവേശിക്കുവാൻ നിരസിച്ചു</AnonymousErrorFileNotFound>
+  <AnonymousErrorUnknownLinkType>പൊതു ലിങ്ക് "{0}" കണ്ടെത്തിയില്ല</AnonymousErrorUnknownLinkType>
+  <AnonymousSendEmailSubject>പൊതു ഫോൾഡർ സന്ദർശകരെ പ്രവർത്തനം</AnonymousSendEmailSubject>
+  <AnonymousSendEmailUploadBody>{1}: ഇനിപ്പറയുന്ന ഫയലുകൾ നിങ്ങളുടെ പൊതു ഫോൾഡർ {0} അപ്ലോഡ് ചെയ്തു.</AnonymousSendEmailUploadBody>
+  <AnonymousSendEmailDownloadBody>ഫയൽ {0} നിങ്ങളുടെ പൊതു ഫോൾഡർ {1} നിന്നും ഡൗൺലോഡ് ചെയ്തു.</AnonymousSendEmailDownloadBody>
+  <AnonymousSendEmailZipDownloadBody>പൊതു ഫോൾഡർ {0} മുഴുവനും ഉള്ളടക്കം ഒരു zip ശേഖരം ഡൗൺലോഡ് ചെയ്തു.</AnonymousSendEmailZipDownloadBody>
+  <AnonymousViewLinksButton>കാണുക കണ്ണികൾ</AnonymousViewLinksButton>
+  <AnonymousViewLinksHint>നിലവിലുള്ള പൊതു ലിങ്കുകൾ കാണാൻ</AnonymousViewLinksHint>
+  <AnonymousViewLinksWindowTitle>പൊതു കണ്ണികൾ</AnonymousViewLinksWindowTitle>
+  <AnonymousViewLinksDateCreatedColumn>സൃഷ്ടിക്കൽ തീയതി</AnonymousViewLinksDateCreatedColumn>
+  <AnonymousViewLinksDateExpiredColumn>കാലഹരണപ്പെടുന്ന തീയതി</AnonymousViewLinksDateExpiredColumn>
+  <AnonymousViewLinksPermissionColumn>അനുമതി</AnonymousViewLinksPermissionColumn>
+  <AnonymousViewLinksDownloadedColumn>അവശേഷിക്കുന്നു ഡൗൺലോഡുകൾ എണ്ണം</AnonymousViewLinksDownloadedColumn>
+  <ProgressDeletingAnonymousLink>പൊതു ലിങ്ക് ഇല്ലാതാക്കുന്നു</ProgressDeletingAnonymousLink>
+  <ProgressSavingAnonymousLink>പൊതു ലിങ്ക് സംരക്ഷിക്കുന്നു</ProgressSavingAnonymousLink>
+  <AnonymousEditLinkWindowTitle>"{0}" എന്ന പൊതു ലിങ്ക് എഡിറ്റ്</AnonymousEditLinkWindowTitle>
+  <AnonymousEditLinkShowUrl>ലിങ്ക് കാണിക്കുക</AnonymousEditLinkShowUrl>
+  <AnonymousEditLinkNotFound>പൊതു ലിങ്ക് കണ്ടെത്തിയില്ല അല്ലെങ്കിൽ സാധുത അതിന്റെ സമയം കാലഹരണപ്പെട്ടു</AnonymousEditLinkNotFound>
+
+  <AnonymousLinkSendViaButton>വഴി അയയ്ക്കുക ...</AnonymousLinkSendViaButton>
+  <AnonymousLinkSendViaEmailItem>ഇമെയിൽ ...</AnonymousLinkSendViaEmailItem>
+  <AnonymousLinkSendButton>ഇമെയിൽ വഴി അയയ്ക്കുക ...</AnonymousLinkSendButton>
+  <AnonymousLinkSendSubject>വെബ് ഫയൽ മാനേജർ പൊതു ലിങ്ക്</AnonymousLinkSendSubject>
+
+  <AnonymousLinkAdvOptTitle>കൂടുതൽ പാരാമീറ്ററുകൾ</AnonymousLinkAdvOptTitle>
+  <AnonymousLinkViewTypeButton>ലിങ്ക് കാഴ്ച</AnonymousLinkViewTypeButton>
+  <AnonymousLinkViewTypeDefault>നിറഞ്ഞ</AnonymousLinkViewTypeDefault>
+  <AnonymousLinkViewTypeShort>കുറിയ</AnonymousLinkViewTypeShort>
+
+  <AnonymousLinkShowCommentsLabel>വിവരണം, ലേബലുകൾ അഭിപ്രായങ്ങളും കാണിക്കുക</AnonymousLinkShowCommentsLabel>
+  <AnonymousLinkShowCommentsShort>അഭിപ്രായങ്ങൾ കാണിക്കുക</AnonymousLinkShowCommentsShort>
+
+  <QRCodeButton>QR കോഡ്</QRCodeButton>
+
+  <AnonymousLinkLimitedAccessTitle>ലിമിറ്റഡ് ആക്സസ്</AnonymousLinkLimitedAccessTitle>
+  <AnonymousLinkLimitAccessCheckBox>മാത്രം വ്യക്തമാക്കിയ പ്രാമാണീകരിക്കാനാവാത്തതിനാൽ ഉപയോക്താക്കൾക്ക് ആക്സസ് പരിമിതപ്പെടുത്തുക</AnonymousLinkLimitAccessCheckBox>
+  <AnonymousLinkLimitAccessTextArea>ഉപയോക്തൃനാമങ്ങളോ ഇമെയിലുകൾ (കോമ വേർതിരിച്ച) ടൈപ്പ്</AnonymousLinkLimitAccessTextArea>
+  <AnonymousLinkLimitAccessSendCheckBox>വ്യക്തമാക്കിയ ഉപയോക്താക്കൾക്ക് അറിയിപ്പുകൾ അയയ്ക്കുക</AnonymousLinkLimitAccessSendCheckBox>
+  <AnonymousLinkLimitAccessPersMsgLabel>സ്വകാര്യ സന്ദേശം (ഓപ്ഷണൽ)</AnonymousLinkLimitAccessPersMsgLabel>
+  <AnonymousLinkLimitAccessPassAndUsersMsg>നിങ്ങൾക്ക് ലിങ്കിൽ ഒരേ സമയം നിങ്ങളുടെ പാസ്വേഡ് ഉപയോക്താക്കളെയും നിർദ്ദേശിച്ചു. ദയവായി എന്തെങ്കിലും വ്യക്തമാക്കുക.</AnonymousLinkLimitAccessPassAndUsersMsg>
+  <AnonymousLinkLimitAccessUsersNotFound>ഉപയോക്താക്കൾ:
+    {0}
+    നിലവിലില്ല</AnonymousLinkLimitAccessUsersNotFound>
+  <AnonymousLinkLimitAccessEmailsNotFound>ഇമെയിലുകൾ:
+    {0}
+    നിലവിലില്ല</AnonymousLinkLimitAccessEmailsNotFound>
+  <AnonymousLinkLimitAccessUsersEmailsNotFound>ഉപയോക്താക്കൾ:
+    {0}
+    ഇമെയിലുകളും:
+    {1}
+    നിലവിലില്ല</AnonymousLinkLimitAccessUsersEmailsNotFound>
+
+  <AnonymousLinkUnableToCreate>അജ്ഞാത ലിങ്ക് സൃഷ്ടിക്കാൻ സാധിക്കുന്നില്ല</AnonymousLinkUnableToCreate>
+  <AnonymousLinkShortUrlLabel>ഒരു ഹ്രസ്വ ലിങ്ക് ലഭിക്കുന്നതിന് റിഫ്രഷ് ഐക്കൺ (വലതുവശത്ത് ചുവടെ) ക്ലിക്ക് ചെയ്യുക</AnonymousLinkShortUrlLabel>
+  <AnonymousLinkShortUrlUpdate>സ്വീകരിക്കുക അല്ലെങ്കിൽ അപ്ഡേറ്റ് ഒരു ഹ്രസ്വ ലിങ്ക്</AnonymousLinkShortUrlUpdate>
+  <AnonymousLinkLongUrlNotSpecified>നീളമുള്ള URL വ്യക്തമാക്കിയിട്ടില്ല</AnonymousLinkLongUrlNotSpecified>
+
+  <ClientFileOrDirectoryAlreadyExists>ഈ പേരിൽ ഒരു ഫയൽ അല്ലെങ്കിൽ ഡയറക്ടറി ഇതിനകം നിലവിലുണ്ട്</ClientFileOrDirectoryAlreadyExists>
+  <ClientPermissionsAllowTypes>നിലവിലുള്ള അനുമതികൾ താഴെ തരങ്ങൾ {0} ഉപയോഗിച്ച് ഈ പ്രക്രിയ അനുവദിക്കുക</ClientPermissionsAllowTypes>
+  <ClientPermissionsDenyTypes>നിലവിലുള്ള അനുമതികൾ ഇനിപ്പറയുന്ന ഫയൽ തരങ്ങൾ {0} ഉപയോഗിച്ച് ഈ പ്രക്രിയ നിരോധിക്കുകയോ</ClientPermissionsDenyTypes>
+  <OfficeApplicationNotFoundAlert>ഓഫീസ് ആപ്ലിക്കേഷൻ കണ്ടെത്തിയില്ല. ടെക്സ്റ്റ് ബോക്സിൽ ഒരു ലിങ്ക് ഉപയോഗിച്ച് സ്വയം ഒരു ഫയൽ തുറക്കുക.</OfficeApplicationNotFoundAlert>
+  <OfficeAnonymousEditPublicLinkError>അജ്ഞാതമായി ഓപ്പൺ ഓഫീസ് പ്രമാണം പൊതു ലിങ്ക് സൃഷ്ടിക്കാൻ കഴിയുന്നില്ല.</OfficeAnonymousEditPublicLinkError>
+
+  <GoogleOWAViewLinkMessage>പ്രമാണം കാണുന്നതിന് ചുവടെയുള്ള ലിങ്ക് ക്ലിക്ക് ചെയ്യുക:</GoogleOWAViewLinkMessage>
+  <ZohoEditLinkMessage>താഴെ പ്രമാണം ലിങ്ക് ക്ലിക്ക് എഡിറ്റുചെയ്യുന്നതിന്:</ZohoEditLinkMessage>
+  <PixlrEditLinkMessage>താഴെയുള്ള ഇമേജ് ലിങ്ക് ക്ലിക്ക് എഡിറ്റുചെയ്യുന്നതിന്:</PixlrEditLinkMessage>
+  <PixlrNewImageCreateTitle>Pixlr- നൊപ്പം ഒരു പുതിയ ചിത്രം സൃഷ്ടിക്കുക</PixlrNewImageCreateTitle>
+  <PixlrNewImageLinkMessage>ഒരു പുതിയ ഇമേജ് അതിനായി താഴെ ലിങ്ക് ക്ലിക്ക് ചെയ്യുക:</PixlrNewImageLinkMessage>
+
+  <DownloadTitle>ഒന്നിലധികം ഫയലുകൾ ഡൌൺലോഡ്</DownloadTitle>
+  <DownloadSimpleTab>സ്റ്റാൻഡേർഡ്</DownloadSimpleTab>
+  <DownloadJavaTab>ജാവ</DownloadJavaTab>
+  <DownloadIEPrevent>ഇന്റർനെറ്റ് എക്സ്പ്ലോറർ ഓട്ടോമാറ്റിക് ഡൌൺലോഡ് തടയുന്നു</DownloadIEPrevent>
+  <DownloadIEClickHere>ഡൗൺലോഡ് ഇവിടെ ക്ലിക്ക്</DownloadIEClickHere>
+  <DownloadIEArchiveReady>ആർക്കൈവ് തിരഞ്ഞെടുത്ത ഫയലുകൾ കൂടെ "{0}" സൃഷ്ടിക്കുകയും ഡൌൺലോഡ് തയ്യാറാണ്</DownloadIEArchiveReady>
+  <DownloadIECaption>ഇറക്കുമതി തയ്യാറാണ്</DownloadIECaption>
+
+  <SettingsTitle>ക്രമീകരണങ്ങൾ</SettingsTitle>
+  <SettingsLanguage>ഭാഷ</SettingsLanguage>
+  <SettingsLogOutRequired>പുതിയ മാറ്റങ്ങൾ logout അല്ലെങ്കിൽ ബ്രൌസർ പുനരാരംഭിക്കുന്നതിന് ശേഷം പ്രയോഗിക്കും!</SettingsLogOutRequired>
+  <ThemeTitle>തീം മാറ്റുക</ThemeTitle>
+  <SettingsTheme>തീം തിരഞ്ഞെടുക്കുക</SettingsTheme>
+  <ThemeDefaultTitle>സ്വതേ തീം</ThemeDefaultTitle>
+  <ThemeGrayTitle>ഗ്രേ തീം</ThemeGrayTitle>
+  <ThemeAccessTitle>പ്രവേശനക്ഷമത തീം</ThemeAccessTitle>
+
+  <ChangeUserPasswordTitle>ഉപയോക്തൃ പാസ്വേഡ് മാറ്റുക</ChangeUserPasswordTitle>
+  <ChangeUserPasswordOldPassword>പഴയ പാസ്വേഡ്</ChangeUserPasswordOldPassword>
+  <ChangeUserPasswordNewPassword>പുതിയ പാസ്വേഡ്</ChangeUserPasswordNewPassword>
+  <ChangeUserPasswordRepeatNewPassword>പുതിയ പാസ്വേഡ് ആവർത്തിക്കുക</ChangeUserPasswordRepeatNewPassword>
+  <ChangeUserPasswordPasswordsNotMatch>പാസ്വേഡുകൾ പൊരുത്തപ്പെടുന്നില്ല.</ChangeUserPasswordPasswordsNotMatch>
+  <ChangeUserPasswordSuccessMessage>പാസ്വേഡ് മാറ്റി.</ChangeUserPasswordSuccessMessage>
+  <ChangeUserPasswordInvalidMessage>പാസ്വേഡ് അസാധുവാണ്.</ChangeUserPasswordInvalidMessage>
+
+  <ChangeUserEmailTitle>ഉപയോക്തൃ ഇ-മെയിൽ മാറ്റുക</ChangeUserEmailTitle>
+  <ChangeUserEmailEmail>ഇ-മെയിൽ</ChangeUserEmailEmail>
+  <ChangeUserEmailSuccessMessage>ഇ-മെയിൽ മാറ്റി.</ChangeUserEmailSuccessMessage>
+
+  <UserHelpTitle>ഉപയോക്താവിന്റെ സഹായം</UserHelpTitle>
+
+  <LicenseTitle>ലൈസൻസ് വിവരം</LicenseTitle>
+  <LicenseTrial>രജിസ്റ്റർ 30-ദിവസത്തെ മൂല്യനിർണ്ണയത്തിൽ പതിപ്പ്</LicenseTrial>
+  <LicensePrompt>ലൈസൻസ് പതിപ്പ് {0} എണ്ണാനും: {1} {0} വാങ്ങൽ തീയതി: {2} {0}</LicensePrompt>
+  <LicenseFreeUpgradeMessage>നിങ്ങൾക്ക് ഇപ്പോഴും {0} സൗജന്യ പരിഷ്കരണങ്ങളും പിന്തുണയ്ക്കായി ദിവസം ഞങ്ങൾക്കുണ്ട്.</LicenseFreeUpgradeMessage>
+  <LicenseCheckMessage>ഒരു വർഷത്തിലേറെയായി വാങ്ങൽ തീയതി മുതൽ കടന്നിരിക്കുന്നു. ഈ പതിപ്പ് ഉപയോഗിക്കാൻ നിങ്ങൾക്ക് ഒരു പഴയ പതിപ്പിലേക്ക് നിങ്ങളുടെ സബ്സ്ക്രിപ്ഷൻ അല്ലെങ്കിൽ ഡൌൺഗ്രേഡായി പുതുക്കണം. നിങ്ങളുടെ ലൈസൻസ് പരിശോധിച്ച് ചെയ്തത് &lt;a href='{0}' target='_blank'&gt; എന്ന ചെക്ക് അനുമതിപത്ര പേജ് &lt;/a&gt; ലഭ്യമാണ് റിലീസുകൾ കണ്ടെത്താം</LicenseCheckMessage>
+  
+  <ViewPopupBlocked>പുതിയ വിൻഡോ ഒരു പോപ്പപ് ബ്ലോക്കർ തടഞ്ഞു</ViewPopupBlocked>
+  
+  <LoginTwoFactorTitle>രണ്ട്-ഘട്ട പരിശോധന</LoginTwoFactorTitle>
+  <LoginTitle>ലോഗിൻ</LoginTitle>
+  <LoginRemember>എന്നെ അടുത്ത തവണ ഓർക്കുക</LoginRemember>
+  <LoginUISelect>ഇന്റര്ഫേസ്</LoginUISelect>
+  <LoginUIStandard>സ്റ്റാൻഡേർഡ്</LoginUIStandard>
+  <LoginUITouch>മൊബൈൽ</LoginUITouch>
+  <LoginLanguage>ഭാഷ</LoginLanguage>
+  <LoginLogin>ലോഗിൻ</LoginLogin>
+  <LoginFailure>നിങ്ങളുടെ ലോഗിൻ ശ്രമം വിജയിച്ചില്ല.</LoginFailure>
+  <LoginBlocked>അക്കൗണ്ട് തടഞ്ഞു. {0} വീണ്ടും ശ്രമിക്കാൻ മിനിറ്റ് കാത്തിരിക്കുക.</LoginBlocked>
+  <LoginNotActivated>നിങ്ങളുടെ അക്കൗണ്ട് സജീവമായിട്ടില്ല.</LoginNotActivated>
+  <LoginResendActivation>ആക്ടിവേഷൻ കോഡ് ഉപയോഗിച്ച് സന്ദേശം കാലം ലഭിച്ച എങ്കിൽ, ആക്റ്റിവേഷൻ കോഡ് അയക്കണമെന്നുണ്ടോ {0} ലിങ്ക് ക്ലിക്ക് ചെയ്യുക.</LoginResendActivation>
+  <LoginResendActivationLink>ആക്ടിവേഷൻ കോഡ് അയയ്ക്കും</LoginResendActivationLink>
+  <LoginResendActivationCode>ആക്റ്റിവേഷൻ കോഡ് അയക്കണമെന്നുണ്ടോ {0} ലിങ്കിൽ ക്ലിക്ക് ചെയ്യുക.</LoginResendActivationCode>
+  
+  <ActivateAccountOk>അക്കൗണ്ട് വിജയകരമായി സജീവമാക്കി!</ActivateAccountOk>
+  <ActivateAccountResultLabel>സജീവമാക്കൽ ഫലം</ActivateAccountResultLabel>
+  <ActivateAccountErrorOnlyFormsAuth>അക്കൗണ്ട് ആക്റ്റിവേഷൻ ഫോമിൽ മാത്രം പ്രാമാണീകരണം ഉപയോഗിച്ച് ഉപയോഗപ്പെടുത്താം</ActivateAccountErrorOnlyFormsAuth>
+  <ActivateAccountErrorNotRequired>അക്കൗണ്ട് ആക്റ്റിവേഷൻ അപ്ലിക്കേഷൻ ക്രമീകരണം പ്രവർത്തനരഹിതമാണ്. അക്കൗണ്ട് സ്വയം രജിസ്ട്രേഷൻ ശേഷം സജീവമാക്കുന്നു.</ActivateAccountErrorNotRequired>
+  <ActivateAccountErrorAlreadyActivated>അക്കൗണ്ട് ഇതിനകം സജീവമാക്കി</ActivateAccountErrorAlreadyActivated>
+  <ActivateAccountErrorInvalidCode>ആക്റ്റിവേഷൻ കോഡ് സാധുവല്ല</ActivateAccountErrorInvalidCode>
+  <ActivateAccountErrorAccountNotFound>അക്കൗണ്ട് കണ്ടെത്തിയില്ല</ActivateAccountErrorAccountNotFound>
+  <ActivateAccountErrorLinkBroken>സജീവമാക്കൽ കണ്ണി പൊട്ടിപ്പോയി</ActivateAccountErrorLinkBroken>
+  <ActivateAccountReturnToLogin>ലോഗിൻ പേജിലേക്ക് മടങ്ങുക</ActivateAccountReturnToLogin>
+  
+  <LoginRender>റെൻഡർ</LoginRender>
+  
+  <LogoutTitle>വെബ് ഫയൽ മാനേജർ പുറത്തിറങ്ങുക</LogoutTitle>
+  <LogoutSessionEnded>നിലവിലെ സെഷൻ അവസാനിച്ചു</LogoutSessionEnded>
+  <LogoutCloseWindow>ജനല് അടക്കുക</LogoutCloseWindow>
+  <LogoutEnterAgain>വീണ്ടും ലോഗിൻ</LogoutEnterAgain>
+  <LogoutClosingBrowserRequired>ശ്രദ്ധ! ആർക്കും നിങ്ങളുടെ അക്കൗണ്ട് കീഴിൽ പ്രവേശിക്കാൻ കഴിയും! നിങ്ങൾ പങ്കിട്ട കമ്പ്യൂട്ടറിൽ ഉപയോഗിക്കുന്നതെങ്കിൽ, നിങ്ങളുടെ ബ്രൗസറിൽ ആധികാരികത ക്ലിയർ നിങ്ങളുടെ ബ്രൗസർ വിൻഡോ (വെറും ടാബ്) അടച്ച് വേണം! ഫയർഫോക്സ് ബ്രൗസർ നിങ്ങൾ മെനുവിൽ ആധികാരികത മായ്ക്കാൻ കഴിയും: Tools-&gt; തെളിഞ്ഞ നീരസപ്പെടത്തുക ചരിത്രം ...-&gt; Details-&gt; ഇപ്പോൾ സജീവ Logins-&gt; അമർത്തുക മായ്ക്കുക പരിശോധിക്കുക.</LogoutClosingBrowserRequired>
+  <RecoverPasswordTitle>പാസ്വേഡ് വീണ്ടെടുക്കുക</RecoverPasswordTitle>
+  <RecoverPasswordEmailPassword>ഇമെയിൽ വഴി പാസ്വേഡ് അയയ്ക്കുക</RecoverPasswordEmailPassword>
+  <RecoverPasswordErrorInvalidUserName>അസാധുവായ ഉപയോക്തൃനാമം.</RecoverPasswordErrorInvalidUserName>
+  <RecoverPasswordErrorNoEmail>ഈ ഉപയോക്താവിന് ഇമെയിൽ വിലാസം നിർവ്വചിച്ച.</RecoverPasswordErrorNoEmail>
+  <RecoverPasswordErrorSendEmail>നിങ്ങളുടെ ഇമെയിൽ അയയ്ക്കുമ്പോൾ ഒരു പിശക് സംഭവിച്ചു.</RecoverPasswordErrorSendEmail>
+  <RecoverPasswordSuccess>നിങ്ങളുടെ പാസ്വേർഡ് നിങ്ങളുടെ ഇമെയിൽ വിലാസത്തിലേക്ക് അയച്ചു.</RecoverPasswordSuccess>
+
+  <RecoverUserNameTitle>വീണ്ടെടുക്കാൻ</RecoverUserNameTitle>
+  <RecoverUserEmailName>ഇമെയിൽ വഴി പേര് അയയ്ക്കുക</RecoverUserEmailName>
+  <RecoverUserNameErrorInvalidEmail>അസാധുവായ ഉപയോക്തൃ ഇമെയിൽ.</RecoverUserNameErrorInvalidEmail>
+  <RecoverUserNameErrorNoEmail>ഇമെയിൽ വിലാസം കണ്ടെത്തിയില്ല.</RecoverUserNameErrorNoEmail>
+  <RecoverUserNameSuccess>നിങ്ങളുടെ പേര് ഇമെയിൽ വിലാസത്തിലേക്ക് അയച്ചു.</RecoverUserNameSuccess>
+
+  <ChangeEmailTitle>ഇമെയിൽ മാറ്റുക</ChangeEmailTitle>
+  <ChangeEmailEmail>പുതിയ ഇമെയിൽ</ChangeEmailEmail>
+  <ChangeEmailSubmit>സമർപ്പിക്കുക</ChangeEmailSubmit>
+  <ChangeEmailStatusSuccess>ഇമെയിൽ മാറ്റി</ChangeEmailStatusSuccess>
+
+  <RegisterTitle>പട്ടിക</RegisterTitle>
+  <RegisterEmail>ഇമെയിൽ</RegisterEmail>
+  <RegisterExtraInfo>എക്സ്ട്രാ വിവരം</RegisterExtraInfo>
+  <RegisterCaptcha>നിങ്ങൾ ചുവടെയുള്ള ചിത്രത്തിൽ കാണുന്ന വാചകം നൽകുക</RegisterCaptcha>
+  <RegisterSubmit>സമർപ്പിക്കുക</RegisterSubmit>
+  <RegisterErrorPasswordNotMatch>പാസ്വേഡുകൾ പൊരുത്തപ്പെടുന്നില്ല.</RegisterErrorPasswordNotMatch>
+  <RegisterErrorUserExists>ഈ ഉപയോക്താവ് പേരോ ഇമെയിൽ വിലാസം ഇതിനകം ഉപയോഗിച്ചു.</RegisterErrorUserExists>
+  <RegisterErrorCaptchaInvalid>ചിത്ര ടെക്സ്റ്റ് ശരിയായി നൽകിയിട്ടില്ല ചെയ്തു</RegisterErrorCaptchaInvalid>
+  <RegisterSuccess>പുതിയ ഉപയോക്താവ് ചേർത്തു.</RegisterSuccess>
+  <RegisterActivationSent>സജീവമാക്കൽ കോഡ് നിങ്ങളുടെ ഇമെയിലിലേക്ക് അയച്ചു.</RegisterActivationSent>
+  <RegisterActivationCheckEmail>നിങ്ങളുടെ മെയിൽ ബോക്സ് (പ്രത്യേകമായി ജങ്ക് ഫോൾഡർ) പരിശോധിച്ച് ഇമെയിലിലെ നിർദ്ദേശങ്ങൾ പാലിക്കുക.</RegisterActivationCheckEmail>
+  
+  <FolderGridUserPermissionsColumn>ഉപയോക്താക്കൾക്ക് ആക്സസ്</FolderGridUserPermissionsColumn>
+  <FolderGridGroupPermissionsColumn>ഗ്രൂപ്പുകൾക്ക് പ്രവേശനം</FolderGridGroupPermissionsColumn>
+
+  <LoginLinkText>ലോഗിൻ</LoginLinkText>
+  <RecoverPasswordLinkText>പാസ്വേഡ് മറന്നോ?</RecoverPasswordLinkText>
+  <RecoverUserNameLinkText>പേര് മറന്നോ?</RecoverUserNameLinkText>
+  <RegisterLinkText>പട്ടിക</RegisterLinkText>
+  <ChangeEmail>ഇമെയിൽ മാറ്റുക</ChangeEmail>
+  <LoginMobileVersionLinkText>മൊബൈൽ പതിപ്പ് (ഏറ്റവും സ്മാർട്ട് ടച്ച്പാഡുകൾക്കുള്ള)</LoginMobileVersionLinkText>
+
+  <FileIsNotZipArchive>ഫയൽ {0} തപാൽ നിലവറയല്ല</FileIsNotZipArchive>
+
+  <FileModificationsAuthor>സ്രഷ്ടാവ്</FileModificationsAuthor>
+  <FileModificationsHistory>നാൾവഴി കാണുക</FileModificationsHistory>
+  <FileModificationsWindowTitle>ഫയലിന്റെ പരിഷ്ക്കാരങ്ങൾ "{0}"</FileModificationsWindowTitle>
+  <FileModificationsTypeCreated>സൃഷ്ടിച്ചു</FileModificationsTypeCreated>
+  <FileModificationsTypeModified>തിരുത്തപ്പെട്ടത്</FileModificationsTypeModified>
+  <FileModificationsTypeRenamed>പേരുമാറ്റി</FileModificationsTypeRenamed>
+  <FileModificationsTypeRestored>പുനഃസ്ഥാപിച്ചു</FileModificationsTypeRestored>
+  <FileModificationsTypeDeleted>ഇല്ലാതാക്കി</FileModificationsTypeDeleted>
+
+  <ChangingReadOnlyProgressMessage>വായിക്കാൻ മാത്രം ആട്രിബ്യൂട്ട് മാറ്റുന്നു</ChangingReadOnlyProgressMessage>
+
+  <ImageViewerWindowTitle>ചിത്ര ദർശിനി [{0}]</ImageViewerWindowTitle>
+  <ImageViewerLoadingMessage>ചിത്രം വ്യൂവർ ലോഡ്</ImageViewerLoadingMessage>
+  <ImageViewerLoadingImageMessage>ഇമേജ് ലോഡ്</ImageViewerLoadingImageMessage>
+  <ImageViewerFirstImageTip>ആദ്യം ചിത്രം</ImageViewerFirstImageTip>
+  <ImageViewerPreviousImageTip>മുമ്പത്തെ ചിത്രം</ImageViewerPreviousImageTip>
+  <ImageViewerRefreshTip>ചിത്രങ്ങൾ ലിസ്റ്റ് പുതുക്കുക</ImageViewerRefreshTip>
+  <ImageViewerNextImageTip>അടുത്ത ചിത്രം</ImageViewerNextImageTip>
+  <ImageViewerLastImageTip>അവസാനം ചിത്രം</ImageViewerLastImageTip>
+  <ImageViewerRunSlideShow>ചിത്രങ്ങൾ സ്ലൈഡ് ഷോ പ്രവർത്തിപ്പിക്കുക</ImageViewerRunSlideShow>
+  <ImageViewerStopSlideShow>ചിത്രങ്ങൾ സ്ലൈഡ് ഷോ നിർത്തുക</ImageViewerStopSlideShow>
+  <ImageViewerImageSimpleInfo>{0} / {1}, {2} ({3})</ImageViewerImageSimpleInfo>
+  <ImageViewerImageLoadErrorMessage>ചിത്രം കണ്ടെത്തിയില്ല, അല്ലെങ്കിൽ പ്രദർശിപ്പിക്കാൻ കഴിയില്ല</ImageViewerImageLoadErrorMessage>
+  <ImageViewerShowImageSizeOfWindow>യഥാർത്ഥ വലുപ്പത്തിൽ ഇമേജ് കാണിക്കുക</ImageViewerShowImageSizeOfWindow>
+  <ImageViewerShowRealImageSize>വലുതാക്കുന്നു ക്ലിക്കുചെയ്യുക</ImageViewerShowRealImageSize>
+
+  <PasswordExpiresTitle>പാസ്വേഡ് കാലഹരണപ്പെടും</PasswordExpiresTitle>
+  <PasswordExpiresMessage>നിങ്ങളുടെ പാസ്വേഡ് {0} ദിവസം (ങ്ങൾ) കാലഹരണപ്പെടും!</PasswordExpiresMessage>
+  <PasswordExpiredMessage>നിങ്ങളുടെ പാസ്വേഡ് കാലഹരണപ്പെട്ടു.</PasswordExpiredMessage>
+  <PasswordChangeMessage>പാസ്വേഡ് മാറ്റുന്നതിന്, തിരഞ്ഞെടുക്കുക {0} {1} -&gt; {2} {3} ടൂൾബാറിലെ.</PasswordChangeMessage>
+
+  <UnzipContentTotalFiles>ആകെ ഫയലുകൾ: {0} ({1})</UnzipContentTotalFiles>
+
+  <VideoConversionJobNotFound>
+    കഴിയുന്നില്ല വ്യക്തമാക്കിയ പരിവർത്തന പ്രക്രിയ കണ്ടെത്താൻ.
+    സാധ്യമായ കാരണങ്ങൾ:
+    1. പരിവർത്തന കാലങ്ങൾക്ക് മുമ്പ് പൂർത്തിയാക്കി ഈ ജോലി കുറിച്ചുള്ള വിവരങ്ങൾ നീക്കംചെയ്തു.
+    2. പരിവർത്തന പ്രക്രിയ അസാധാരണമായി അവസാനിപ്പിച്ചു.
+  </VideoConversionJobNotFound>
+  <VideoConversionUtilityNotFound>{0}: അഭ്യർത്ഥിച്ച പ്രവർത്തനം നടത്താൻ സാധിക്കുന്നില്ല കണ്ടെത്താൻ യൂട്ടിലിറ്റി</VideoConversionUtilityNotFound>
+  <!-- The current security principal "{0}" has insufficiant permissions to executable file "{1}".-->
+  <VideoConversionUtilityInsufficientPermissions>നിലവിലെ ഉപയോക്താവ് "{0}" എക്സിക്യൂട്ടബിൾ ഫയൽ ആക്സസ്സ് നിരസിച്ചു "{1}".</VideoConversionUtilityInsufficientPermissions>
+  <VideoConversionOperationCancelled>ഓപ്പറേഷൻ റദ്ദാക്കി</VideoConversionOperationCancelled>
+  <VideoConversionUtilityFailed>പരിവർത്തന പ്രയോഗം അവിചാരിതമായി അവസാനിപ്പിച്ചു</VideoConversionUtilityFailed>
+  <VideoConversionOutputFileBusy>ഔട്ട്പുട്ട് ഫയൽ മറ്റൊരു പരിവർത്തന പ്രക്രിയ ഉപയോഗിക്കുന്നുണ്ട്</VideoConversionOutputFileBusy>
+
+  <VideoConvertWindowValidatorPositiveInt>ഒരു പോസിറ്റീവ് സംഖ്യ ആയിരിക്കണം</VideoConvertWindowValidatorPositiveInt>
+  <VideoConvertWindowTitle>വീഡിയോ പരിവർത്തനം</VideoConvertWindowTitle>
+  <VideoConvertWindowInputFile>ഇൻപുട്ട് ഫയൽ</VideoConvertWindowInputFile>
+  <VideoConvertWindowOutputFile>ഔട്ട്പുട്ട് ഫയൽ</VideoConvertWindowOutputFile>
+  <VideoConvertWindowOutputFormat>ഔട്ട്പുട്ട് ഫോർമാറ്റ്</VideoConvertWindowOutputFormat>
+  <VideoConvertWindowBitrate>ബിറ്റ്റേറ്റ് (കെ.ബി.പി.)</VideoConvertWindowBitrate>
+  <VideoConvertWindowFrameResolution>ഫ്രെയിം റെസലൂഷൻ</VideoConvertWindowFrameResolution>
+  <VideoConvertWindowDAR>പ്രദർശിപ്പിക്കുക വീക്ഷണ അനുപാതം</VideoConvertWindowDAR>
+  <VideoConvertWindowPAR>പിക്സൽ വീക്ഷണ അനുപാതം</VideoConvertWindowPAR>
+  <VideoConvertWindowResize>വലുപ്പം</VideoConvertWindowResize>
+  <VideoConvertWindowProfile>പ്രൊഫൈൽ</VideoConvertWindowProfile>
+  <VideoConvertWindowWidth>വീതി</VideoConvertWindowWidth>
+  <VideoConvertWindowHeight>പൊക്കം</VideoConvertWindowHeight>
+  <VideoConvertWindowExtractDetailsProgressMsg>വീഡിയോ വിശദാംശങ്ങൾ എക്സ്ട്രാക്റ്റുചെയ്യുന്നു</VideoConvertWindowExtractDetailsProgressMsg>
+  <VideoConvertWindowOutputFileExistsTitle>ഔട്ട്പുട്ട് ഫയൽ നിലവിലുണ്ട്</VideoConvertWindowOutputFileExistsTitle>
+  <VideoConvertWindowOutputFileExistsMsg>ഔട്ട്പുട്ട് ഫയൽ ഇതിനകം നിലവിലുണ്ട്. ഇത് പഴയപടിയാകും.</VideoConvertWindowOutputFileExistsMsg>
+  <VideoConvertWindowPrepareToConvert>വീഡിയോ പരിവർത്തനം തയ്യാറാകുന്നു</VideoConvertWindowPrepareToConvert>
+  <VideoConvertWindowOutputFileMatchInputFile>ഔട്ട്പുട്ട് ഫയൽ നാമം ഇൻപുട്ട് ഫയൽ പേര് പൊരുത്തപ്പെടുന്ന</VideoConvertWindowOutputFileMatchInputFile>
+
+  <VideoConvertProgressWindowTitle>വീഡിയോ പരിവർത്തനം</VideoConvertProgressWindowTitle>
+  <VideoConvertProgressWindowInputFile>ഇൻപുട്ട് ഫയൽ</VideoConvertProgressWindowInputFile>
+  <VideoConvertProgressWindowOutputFile>ഔട്ട്പുട്ട് ഫയൽ</VideoConvertProgressWindowOutputFile>
+  <VideoConvertProgressWindowStatus>പദവി</VideoConvertProgressWindowStatus>
+  <VideoConvertProgressWindowStatusTerminating>അവസാനിക്കുന്നതുമായ</VideoConvertProgressWindowStatusTerminating>
+  <VideoConvertProgressWindowStatusPreparing>തയ്യാറെടുക്കുന്നു</VideoConvertProgressWindowStatusPreparing>
+  <VideoConvertProgressWindowStatusProgress>ന്റെ {1} ഘട്ടം {0}</VideoConvertProgressWindowStatusProgress>
+  <VideoConvertProgressWindowStatusDone>ചെയ്തുകഴിഞ്ഞു</VideoConvertProgressWindowStatusDone>
+
+  <PlayHtml5VideoNotSupported>നിങ്ങളുടെ ബ്രൗസർ HTML 5 വീഡിയോ ഘടകത്തിൽ പിന്തുണയ്ക്കുന്നില്ല.</PlayHtml5VideoNotSupported>
+  <PlayHtml5VideoPlayFailed>വീഡിയോ പരാജയപ്പെട്ടു പ്ലേ</PlayHtml5VideoPlayFailed>
+  <PlayHtml5AudioPlayFailed>ഓഡിയോ പരാജയപ്പെട്ടു പ്ലേ</PlayHtml5AudioPlayFailed>
+  <PlayHtml5AudioTitle>തലക്കെട്ട്</PlayHtml5AudioTitle>
+  <PlayHtml5AudioNotSupported>നിങ്ങളുടെ ബ്രൗസർ HTML 5 ഓഡിയോ മൂലകം പിന്തുണയ്ക്കുന്നില്ല.</PlayHtml5AudioNotSupported>
+  <PlayHtml5AudioArtist>കലാകാരന്</PlayHtml5AudioArtist>
+  <PlayHtml5AudioAlbum>ആൽബം</PlayHtml5AudioAlbum>
+  <PlayHtml5AudioYear>വര്ഷം</PlayHtml5AudioYear>
+  <PlayHtml5AudioDuration>കാലയളവ്</PlayHtml5AudioDuration>
+  <PlayHtml5AudioBitrate>ബിട്രേറ്റ്</PlayHtml5AudioBitrate>
+  <PlayHtml5AudioVolume>അളവ്</PlayHtml5AudioVolume>
+
+  <!-- Root title -->
+  <RootTitle>വേര്</RootTitle>
+
+  <!-- Recent feature keys -->
+  <RecentRootTitle>സമീപകാലത്തെ</RecentRootTitle>
+  <RecentDeleteOnePrompt>നിങ്ങളുടെ സമീപകാല ഇനങ്ങൾ നിന്ന് ഇല്ലാതാക്കാൻ "{0}" താൽപ്പര്യപ്പെടുന്നോ?</RecentDeleteOnePrompt>
+  <RecentDeleteManyPrompt>നിങ്ങൾ ഈ {0} നിങ്ങളുടെ സമീപകാല ഇനങ്ങൾ നിന്ന് ഇനങ്ങൾ ഇല്ലാതാക്കാൻ താൽപ്പര്യപ്പെടുന്നോ?</RecentDeleteManyPrompt>
+  <RecentPathNotExist>സമീപകാല പാത്ത് "{0}" നിലവിലില്ല അല്ലെങ്കിൽ ആക്സസ് നിരസിച്ചു</RecentPathNotExist>
+  <RecentAllWithoutGroupingTitle>എല്ലാ w / O ഗ്രൂപ്പ് ചെയ്യൽ</RecentAllWithoutGroupingTitle>
+  <RecentEditGroupTitle>എഡിറ്റു</RecentEditGroupTitle>
+  <RecentViewGroupTitle>കണ്ടത്</RecentViewGroupTitle>
+  <RecentDownloadGroupTitle>ഡൗൺലോഡ്</RecentDownloadGroupTitle>
+  <RecentUploadGroupTitle>അപ്ലോഡുചെയ്തു</RecentUploadGroupTitle>
+  <RecentCreateGroupTitle>സൃഷ്ടിച്ചു</RecentCreateGroupTitle>
+
+  <!-- Trash feature keys -->
+  <TrashRootTitle>നിസ്സാരവസ്തു</TrashRootTitle>
+  <TrashLabelDateDeleted>ഇല്ലാതാക്കിയ തീയതി</TrashLabelDateDeleted>
+  <TrashDeleteOnePrompt>നിങ്ങൾക്ക് ശാശ്വതമായി ഇല്ലാതാക്കണമെന്ന് ട്രാഷിൽനിന്നും "{0}" ആണോ?</TrashDeleteOnePrompt>
+  <TrashDeleteManyPrompt>നിങ്ങൾക്ക് ശാശ്വതമായി ഈ {0} ട്രാഷിൽനിന്നും ഇനങ്ങൾ ഇല്ലാതാക്കാൻ താൽപ്പര്യപ്പെടുന്നോ?</TrashDeleteManyPrompt>
+  <TrashEmptyTrashLabel>ചവറ്റുകുട്ടകാലിയാക്കുക</TrashEmptyTrashLabel>
+  <TrashRestoreSelectedLabel>വീണ്ടെടുക്കുക</TrashRestoreSelectedLabel>
+  <TrashRestoreAllLabel>എല്ലാം പുനഃസ്ഥാപിക്കുക</TrashRestoreAllLabel>
+  <TrashEmptyTrashPrompt>നിങ്ങൾ ട്രാഷിലേക്ക് ശൂന്യമാക്കേണ്ടതാണ് താൽപ്പര്യപ്പെടുന്നോ?</TrashEmptyTrashPrompt>
+  <TrashRestoreAllPrompt>നിങ്ങൾ ട്രാഷിലേക്ക് നിന്ന് എല്ലാ ഇനങ്ങളും പുനഃസ്ഥാപിക്കാൻ താൽപ്പര്യപ്പെടുന്നോ?</TrashRestoreAllPrompt>
+  <TrashProgressRestoring>ചവറ്റുകുട്ടയിൽ നിന്നും വീണ്ടെടുക്കുക</TrashProgressRestoring>
+  <TrashFolderNotFound>ട്രാഷ് ഡയറക്ടറി കണ്ടെത്തിയില്ല</TrashFolderNotFound>
+  <TrashBalloonRestored>പുനഃസ്ഥാപിച്ചു ഇനങ്ങൾ: {0} എന്ന {1}</TrashBalloonRestored>
+  <TrashDeleteDirectlyLabel>ചവറ്റുകൊട്ടയിലേക്ക് നീക്കം ചെയ്യാതെ നേരിട്ട് ഇല്ലാതാക്കുക</TrashDeleteDirectlyLabel>
+  <TrashUsedSpaceHint>{0} ഉപയോഗിക്കുന്ന</TrashUsedSpaceHint>
+  <TrashLimitSizeHint>ഉപയോഗിച്ച {0} {1} ({2}) എന്ന</TrashLimitSizeHint>
+  <TrashLargeItemsShelfTimeHint>{1} ദിവസം (ങ്ങൾ): വസ്തുക്കളുടെ സംഭരണം സമയം {0} വലുതാണ്</TrashLargeItemsShelfTimeHint>
+  <TrashSmallItemsShelfTimeHint>{0} ദിവസം (ങ്ങൾ): എല്ലാ മറ്റുള്ളവർക്ക്</TrashSmallItemsShelfTimeHint>
+  <TrashItemsShelfTimeHint>വസ്തുക്കളുടെ സംഭരണം സമയം: {0} ദിവസം (ങ്ങൾ)</TrashItemsShelfTimeHint>
+  <TrashAvailableSpaceHint>ലഭ്യമായ പരമാവധി വലുപ്പം {0}</TrashAvailableSpaceHint>
+  <TrashDeletedFromFolderHint>{0} നിന്ന് ഇല്ലാതാക്കി</TrashDeletedFromFolderHint>
+  <TrashExceededMessage>താഴെ വസ്തുക്കൾ വളരെ വലുതാണ്, ട്രാഷ് (ന്റെ {0} കവിഞ്ഞു നിയന്ത്രണം) ലേക്ക് സ്ഥിതി കഴിയില്ല:</TrashExceededMessage>
+  <TrashErrorSuffixMessage>വീണ്ടെടുക്കൽ അപ്പുറം ഫയൽ (കൾ) ഇല്ലാതാക്കണമെന്ന് ഓപ്ഷൻ പരിശോധിക്കാൻ ശ്രമിക്കുക "{0}" എന്നിട്ട് എന്നേക്കും</TrashErrorSuffixMessage>
+
+  <!-- Shared by link -->
+  <SharedByLinkRootTitle>ലിങ്ക് പങ്കിട്ട</SharedByLinkRootTitle>
+
+  <!-- Shared for you -->
+  <SharedForYouRootTitle>നിങ്ങളുമായി പങ്കിട്ടു</SharedForYouRootTitle>
+  <SharedForYouUnableToGetUrl>യുആർഎൽ നേടാൻ കഴിയില്ല</SharedForYouUnableToGetUrl>
+
+  <!-- Watch for modifications -->
+  <WatchForModifsCommand>പരിഷ്ക്കരണങ്ങൾ കാണുക</WatchForModifsCommand>
+  <WatchForModifsStartCommand>കാണാൻ ആരംഭിക്കുക</WatchForModifsStartCommand>
+  <WatchForModifsEditCommand>കണ്ടുകൊണ്ടേയിരിക്കുക മാറ്റുക</WatchForModifsEditCommand>
+  <WatchForModifsStopCommand>ശ്രദ്ധിക്കുന്നത് അവസാനിപ്പിക്കുക</WatchForModifsStopCommand>
+  <WatchForModifsViewChangesCommand>മാറ്റങ്ങൾ കാണുക</WatchForModifsViewChangesCommand>
+  <WatchForModifsSubscriptionSuccessMessage>നിങ്ങൾ വിജയകരമായി ലേക്ക് "{0}" പരിഷ്ക്കരണങ്ങൾ വേണ്ടി വരിക്കാരായിട്ടുണ്ട്</WatchForModifsSubscriptionSuccessMessage>
+  <WatchForModifsStopSuccessMessage>നിരീക്ഷണം "{0}" വിജയകരമായി അപ്രാപ്തമാക്കി</WatchForModifsStopSuccessMessage>
+  <WatchForModifsIncludingNestedLabel>നെസ്റ്റ് ഫയലുകൾ, ഫോൾഡറുകൾ പരിഗണിക്കുക</WatchForModifsIncludingNestedLabel>
+  <WatchForModifsParentWatchExistMessage>തിരഞ്ഞെടുത്ത ഇനങ്ങൾക്ക് ഇതിനകം പാരന്റ് ഫോൾഡർ "{0}" എന്ന നിരീക്ഷണം നിർണ്ണയിക്കപ്പെട്ടതാണ്.</WatchForModifsParentWatchExistMessage>
+  <WatchForModifsRootFolder>അലർട്ടുകൾ</WatchForModifsRootFolder>
+  <WatchForModifsStartProgressLoading>കണ്ടുകൊണ്ടേയിരിക്കുക പ്രാപ്തമാക്കുക</WatchForModifsStartProgressLoading>
+  <WatchForModifsStopProgressLoading>ജാഗരിച്ചും Terminatie</WatchForModifsStopProgressLoading>
+  <WatchForModifsIconHint>പരിഷ്ക്കരണങ്ങൾ തയ്യാറാക്കിയിരിക്കുന്നു വാച്ച്</WatchForModifsIconHint>
+  <WatchForModifsNotifCheckBox>ഇമെയിലുകൾ വഴി പരിഷ്ക്കരണങ്ങൾ കുറിച്ച് അറിയിക്കുക:</WatchForModifsNotifCheckBox>
+  <WatchForModifsWatchedUsersCheckBox>മാത്രമേ ഉപയോക്താക്കൾക്ക് (നിങ്ങൾ എല്ലാവരും നിരീക്ഷിക്കാൻ ശൂന്യമായിടൂ) നിരീക്ഷിക്കുക:</WatchForModifsWatchedUsersCheckBox>
+  <WatchForModifsIgnoreOwnerCheckBox>എന്റെ സ്വന്തം മാറ്റങ്ങളെക്കുറിച്ച് അവഗണിക്കുക</WatchForModifsIgnoreOwnerCheckBox>
+  <WatchForModifsActionsCheckBox>എല്ലാ പ്രവർത്തനങ്ങളും (അല്ലെങ്കിൽ ചുവടെയുള്ള പട്ടികയിൽ നിന്നും ചില പ്രവർത്തികൾ) നിരീക്ഷിക്കുക</WatchForModifsActionsCheckBox>
+  <WatchForModifsNestedItemsWarning>ശ്രദ്ധ! നിങ്ങൾ തിരഞ്ഞെടുത്ത ഫോൾഡറിനായി നിരീക്ഷണം ചേർക്കുക, വ്യക്തിഗത നിരീക്ഷണം നേരത്തെ ചേർത്തു ഏത് എല്ലാ ഇടതൂർന്നു ഫയലുകളും ഫോൾഡറുകളും, നിരീക്ഷണം നീക്കംചെയ്യും. നിങ്ങൾ തുടരാൻ ആഗ്രഹിക്കുന്നുണ്ടോ?</WatchForModifsNestedItemsWarning>
+
+  <WelcomeWindowHideCheckboxLabel>അടുത്ത ലോഗിൻ ചെയ്ത് കാണിക്കരുത്</WelcomeWindowHideCheckboxLabel>
+
+  <LogsGridMoreInfoColumn>കൂടുതൽ വിവരങ്ങൾ</LogsGridMoreInfoColumn>
+  <LogsGridDetailsTitle>വിവരങ്ങൾ</LogsGridDetailsTitle>
+  <LogsGridPhysPathColumn>ഫിസിക്കല്പാഥ്</LogsGridPhysPathColumn>
+  <LogsGridIsFolderColumn>ഫോൾഡർ?</LogsGridIsFolderColumn>
+  <LogsGridIsPublicColumn>പൊതു?</LogsGridIsPublicColumn>
+  <LogsGridByWebDavColumn>വെബ്ഡവ്?</LogsGridByWebDavColumn>
+
+  <NoCommentsYetHint>ഇതുവരെ അഭിപ്രായങ്ങളൊന്നുമില്ല</NoCommentsYetHint>
+  <NoHistoryYetHint>ഇതുവരെ ചരിത്രം</NoHistoryYetHint>
+
+  <DetailsPropertyValuesCouldNotBeWritten>, പ്രോപ്പർട്ടി മൂല്യങ്ങൾ സംരക്ഷിക്കുന്നത് ഫയൽ തരം അത്തരം സാധ്യത പിന്തുണയ്ക്കുന്നില്ല അല്ലെങ്കിൽ ഫയൽ ബന്ധപ്പെട്ട അപ്ലിക്കേഷനിൽ ഒരു പിശക് ഇല്ല ഇല്ല mabe പരാജയപ്പെട്ടു.</DetailsPropertyValuesCouldNotBeWritten>
+
+  <AdminCommandHelp>സഹായിക്കൂ</AdminCommandHelp>
+  <AdminCommandAddUser>ഉപയോക്താവിനെ ചേർക്കുക</AdminCommandAddUser>
+  <AdminCommandAddGroup>ഗ്രൂപ്പ് ചേർക്കുക</AdminCommandAddGroup>
+  <AdminCommandRemoveUser>ഉപയോക്താവിനെ നീക്കംചെയ്യുക</AdminCommandRemoveUser>
+
+  <AdminCommandSelectUsers>ഉപയോക്താക്കളെ ചേർക്കുക</AdminCommandSelectUsers>
+  <AdminCommandSelectGroups>ഗ്രൂപ്പുകൾ ചേർക്കുക</AdminCommandSelectGroups>
+  <AdminCommandRemoveUsers>ഉപയോക്താക്കളെ നീക്കം</AdminCommandRemoveUsers>
+  <AdminCommandRemoveGroups>ഗ്രൂപ്പുകൾ നീക്കംചെയ്യുക</AdminCommandRemoveGroups>
+  <AdminUsersGroups>അംഗം</AdminUsersGroups>
+  <AdminSearchUserEmptyText>ഉപയോക്തൃ നാമം നൽകുക</AdminSearchUserEmptyText>
+  <AdminSearchGroupEmptyText>ഗ്രൂപ്പ് പേര് നൽകുക</AdminSearchGroupEmptyText>
+  <AdminUsersGroupAlreadyExists>ഈ പേര് (ങ്ങൾ) ഒരു ഗ്രൂപ്പ് (ങ്ങൾ) ഇതിനകം ചേർത്തിട്ടുണ്ട്</AdminUsersGroupAlreadyExists>
+
+  <AdminApplicationLoading>അഡ്മിൻ പാനൽ ലോഡിങ്</AdminApplicationLoading>
+  <AdminTitle>ഭരണകൂടം</AdminTitle>
+  <AdminUsersEditUser>ഉപയോക്താവിനെ എഡിറ്റുചെയ്യുക</AdminUsersEditUser>
+  <AdminUsersSetUserPassword>പാസ്വേഡ് സജ്ജമാക്കുക</AdminUsersSetUserPassword>
+  <AdminUsersViewGroups>ഗ്രൂപ്പുകളെ</AdminUsersViewGroups>
+  <AdminUsersViewFolders>കാണുക ഫോൾഡറുകൾ</AdminUsersViewFolders>
+  <AdminUsersDeleteUserPrompt>"{0}" നിങ്ങൾക്ക് ഉറപ്പാണോ ഉപയോക്താവ് (ങ്ങൾ) നീക്കം ചെയ്യണമെന്ന് ഉറപ്പാണോ?</AdminUsersDeleteUserPrompt>
+  <AdminUsersDeletedUsers>{0} ഉപയോക്താവ് (ങ്ങൾ) ഇല്ലാതാക്കി.</AdminUsersDeletedUsers>
+  <AdminUsersUserNotFound>ഈ നാമത്തിലുള്ള ഒരു ഉപയോക്താവിനെ കണ്ടെത്തിയില്ല</AdminUsersUserNotFound>
+  <AdminUsersPropertiesTitle>ഉപയോക്താവിന്റെ ഉള്ള</AdminUsersPropertiesTitle>
+  <AdminUsersSetPasswordTitle>ഉപയോക്തൃ പാസ്വേഡ് സജ്ജമാക്കുക</AdminUsersSetPasswordTitle>
+  <AdminUsersGeneralInfo>ഉപയോക്തൃ വിവരങ്ങൾ</AdminUsersGeneralInfo>
+  <AdminUsersUserEmail>ഇമെയിൽ</AdminUsersUserEmail>
+  <AdminUsersEmptyName>ഉപയോക്തൃ നാമം ശൂന്യമായിടാൻ കഴിയില്ല</AdminUsersEmptyName>
+  <AdminUsersEmptyPassword>ഉപയോക്തൃ പാസ്വേഡ് ശൂന്യമായിടാൻ കഴിയില്ല</AdminUsersEmptyPassword>
+  <AdminUsersIncorrectName>ഉപയോക്താവ് നാമത്തിൽ തെറ്റായ ചിഹ്നങ്ങൾ ഉണ്ട്</AdminUsersIncorrectName>
+  <AdminUsersAlreadyExists>ഈ പേരിൽ ഉപയോക്താവ് ഇതിനകം നിലവിലുണ്ട്</AdminUsersAlreadyExists>
+  <AdminUsersEmailAlreadyExists>ഈ ഇ-മെയിൽ ഉപയോക്താവ് ഇതിനകം നിലവിലുണ്ട്</AdminUsersEmailAlreadyExists>
+  <AdminUsersPasswordsNotMatch>പാസ്വേഡുകൾ പൊരുത്തപ്പെടുന്നില്ല</AdminUsersPasswordsNotMatch>
+  <AdminUsersRenameWarning>ഒരു ഉപയോക്താവിനെ റീനെയിമിംഗിനു ശേഷം ആവശ്യമാണെന്ന് മറ്റുതരത്തിൽ നിലവിലെ വെബ്-ഫോൾഡറുകൾ ലിങ്ക് തെറ്റാണ് ആയിരിക്കും, പാസ്വേഡ് മാറ്റാൻ ആണ്</AdminUsersRenameWarning>
+  <AdminUsersLicenseRestriction>നിങ്ങളുടെ ലൈസൻസ് നിങ്ങൾ {0} ഉപയോക്താക്കൾക്ക് കൂടുതൽ സൃഷ്ടിക്കാൻ അനുവദിക്കുന്നില്ല</AdminUsersLicenseRestriction>
+  <AdminUsersCountInfoWithLimit>ആകെ ഉപയോക്താക്കൾ: {0} എന്ന {1} ഔട്ട്</AdminUsersCountInfoWithLimit>
+  <AdminUsersCountInfo>ആകെ ഉപയോക്താക്കൾ: {0}</AdminUsersCountInfo>
+
+  <AdminGroupsEditGroup>ഗ്രൂപ്പ് എഡിറ്റ്</AdminGroupsEditGroup>
+  <AdminGroupsRemoveGroup>ഗ്രൂപ്പ് നീക്കംചെയ്യുക</AdminGroupsRemoveGroup>
+  <AdminGroupsDeleteGroupPrompt>"{0}" നിങ്ങൾക്ക് ഉറപ്പാണോ ഗ്രൂപ്പ് (ങ്ങൾ) നീക്കം ചെയ്യണമെന്ന് ഉറപ്പാണോ?</AdminGroupsDeleteGroupPrompt>
+  <AdminGroupsDeletedGroups>{0} ഗ്രൂപ്പ് (ങ്ങൾ) ഇല്ലാതാക്കി.</AdminGroupsDeletedGroups>
+  <AdminGroupsGroupNotFound>ഈ പേരിലുള്ള ഒരു ഗ്രൂപ്പ് കണ്ടെത്തിയില്ല</AdminGroupsGroupNotFound>
+  <AdminGroupsViewUsers>കാണുക ഉപയോക്താക്കൾ</AdminGroupsViewUsers>
+  <AdminGroupsProperties>ഗുണഗണങ്ങള്</AdminGroupsProperties>
+  <AdminGroupsPropertiesTitle>ഗ്രൂപ്പ് ഉള്ള</AdminGroupsPropertiesTitle>
+  <AdminGroupsGeneralInfo>ഗ്രൂപ്പ് വിവരങ്ങൾ</AdminGroupsGeneralInfo>
+  <AdminGroupsUserNamePrompt>ഉപയോക്തൃ നാമം നൽകുക</AdminGroupsUserNamePrompt>
+  <AdminGroupsUsers>ഗ്രൂപ്പ് അംഗങ്ങൾ</AdminGroupsUsers>
+  <AdminGroupsUserAlreadyExists>ഈ പേര് (ങ്ങൾ) ഒരു ഉപയോക്താവ് (ങ്ങൾ) ഇതിനകം ചേർത്തിട്ടുണ്ട്</AdminGroupsUserAlreadyExists>
+  <AdminGroupsEmptyName>ഗ്രൂപ്പ് നാമം ശൂന്യമായിടാൻ കഴിയില്ല</AdminGroupsEmptyName>
+  <AdminGroupsIncorrectName>ഗ്രൂപ്പ് പേര് തെറ്റാണെങ്കിൽ ചിഹ്നങ്ങൾ ഉണ്ട്</AdminGroupsIncorrectName>
+  <AdminGroupsAlreadyExists>ഈ പേരിലുള്ള ഒരു ഗ്രൂപ്പ് ഇതിനകം നിലവിലുണ്ട്</AdminGroupsAlreadyExists>
+  <AdminGroupsCountInfo>ആകെ ഗ്രൂപ്പുകൾ: {0}</AdminGroupsCountInfo>
+
+  <AdminLanguagesTab>പ്രാദേശികവൽക്കരണങ്ങൾ</AdminLanguagesTab>
+  <AdminLanguagesTabMessage>, പ്രാദേശികവത്കരണ ഫയലിൽ മാറ്റങ്ങൾ പട്ടികയിൽ ആവശ്യമുള്ള ഭാഷ തിരഞ്ഞെടുക്കുക ചിട്ടപ്പെടുത്തി പ്രാദേശികവൽക്കരിച്ചിരിക്കുന്നു സ്ട്രിംഗുകൾ ക്ലിക്ക് ചെയ്യുക. പരിഷ്ക്കരണങ്ങൾ "സംരക്ഷിക്കുക" ബട്ടൺ ക്ലിക്ക് ശേഷം</AdminLanguagesTabMessage>
+  <AdminLangGridKeyColumn>കീ പേര്</AdminLangGridKeyColumn>
+  <AdminLangGridDefaultColumn>ഇംഗ്ലീഷ്</AdminLangGridDefaultColumn>
+  <AdminEnterLanguageNameTitle>ഭാഷയുടെ പേര് നൽകുക</AdminEnterLanguageNameTitle>
+  <AdminLangConfirmRefreshTitle>സ്ഥിരീകരിക്കുക പുതുക്കുക</AdminLangConfirmRefreshTitle>
+  <AdminLangConfirmRefreshMessage>ശ്രദ്ധ! ഡാറ്റ സംരക്ഷിച്ചില്ല. നിങ്ങൾ ഇപ്പോൾ മാറ്റങ്ങൾ സംരക്ഷിക്കാൻ താൽപ്പര്യമുണ്ടോ?</AdminLangConfirmRefreshMessage>
+  <AdminLangAmountInfo>ഫിൽ കീകൾ: {0} {1} (ശൂന്യ മൂല്യങ്ങൾ: {2}) എന്ന</AdminLangAmountInfo>
+  <AdminLangSaveToCSV>CSV- ലേക്ക് എക്സ്പോർട്ട്</AdminLangSaveToCSV>
+  <AdminLangLoadFromCSV>CSV- ൽ നിന്നും ലഭ്യമാക്കുക</AdminLangLoadFromCSV>
+
+  <AdminDbMaintenanceTab>ഡേറ്റാബേസ് മെയിൻറനൻസ്</AdminDbMaintenanceTab>
+  <AdminDbMaintenanceInfoTitle>വിവരങ്ങളും</AdminDbMaintenanceInfoTitle>
+  <AdminDbMaintenanceInfoPathLabel>ഡേറ്റാബേസ് ഫയൽ പാത</AdminDbMaintenanceInfoPathLabel>
+  <AdminDbMaintenanceInfoSizeLabel>ഡേറ്റാബേസ് ഫയൽ വലുപ്പം</AdminDbMaintenanceInfoSizeLabel>
+  <AdminDbMaintenanceCompactTitle>കോംപാക്റ്റ് ഡാറ്റാബേസ്</AdminDbMaintenanceCompactTitle>
+  <AdminDbMaintenanceCompactNote>ഡാറ്റാബേസ് ഫയലിന്റെ വലുപ്പം കുറയ്ക്കുന്നതിന്, താഴെയുള്ള ബട്ടൺ ക്ലിക്ക് ചെയ്യുക. ഇത് ശേഷം ഉദാഹരണത്തിന്, ചില നിര്ജീവ പൊതു കണ്ണികൾ അല്ലെങ്കിൽ പഴയ രേഖ മാറ്റണമെന്നാവശ്യപ്പെട്ട് ഡേറ്റാബേസ് പ്രമാണത്തിന്റെ വലിപ്പം രേഖപ്പെടുത്തുന്നു ശേഷം കുറക്കാനോ ഇല്ല, ഇടക്കിടെ ഡാറ്റാ കംപ്രഷൻ നടത്താൻ അത്യാവശ്യമാണ്.</AdminDbMaintenanceCompactNote>
+  <AdminDbMaintenanceCompactButton>കോംപാക്ട് ഡിബി</AdminDbMaintenanceCompactButton>
+  <AdminDbMaintenanceCompactSuccess>ഡിബി വിജയകരമായി തിങ്ങിക്കൂടുവാനൊരുങ്ങി.
+പഴയ പ്രമാണത്തിന്റെ വലിപ്പം: {0}
+പുതിയ പ്രമാണത്തിന്റെ വലിപ്പം: {1}</AdminDbMaintenanceCompactSuccess>
+  <AdminDbMaintenanceCompactAutoNote>അടിസ്ഥാന അതു ചിലപ്പോൾ ആവർത്തി ലോക്കുകൾ നിങ്ങൾക്ക് രേഖകള് പ്രവർത്തനങ്ങളുടെ നീക്കംചെയ്ത് ഓട്ടോമാറ്റിക് കംപ്രഷൻ ഡാറ്റാബേസ് ഓൺ കഴിയും, എന്നാൽ, അതു ശുപാർശ അതു ചില അഭ്യർത്ഥനകൾ ദൈർഘ്യം വർദ്ധിപ്പിക്കാൻ കഴിയും. ശ്രദ്ധ! ഈ ക്രമീകരണം അപ്ലിക്കേഷൻ പുനരാരംഭിക്കും ചെയ്യും മാറിവരുന്ന ശേഷം!</AdminDbMaintenanceCompactAutoNote>
+  <AdminDbMaintenanceCompactAutoCheckBox>ഓട്ടോ-കോംപാക്ട് ഡിബി പ്രാപ്തമാക്കുക / അപ്രാപ്തമാക്കുക</AdminDbMaintenanceCompactAutoCheckBox>
+  <AdminDbMaintenanceCompactAutoSaveButton>രക്ഷിക്കും</AdminDbMaintenanceCompactAutoSaveButton>
+  <AdminDbMaintenanceCompactAutoSaveSuccess>ഡിബി ഓട്ടോമാറ്റിക് сompression മാറിവരുന്ന വിജയകരമായി പൂർത്തിയായി. പേജ് ഉടൻ അപ്ഡേറ്റ് ചെയ്യും.</AdminDbMaintenanceCompactAutoSaveSuccess>
+  <AdminDbMaintenanceEnableLogLabel>തിരഞ്ഞെടുക്കുക ഡിബി (ഡാറ്റ / debug.log കയറി) ലോഗിംഗ് നില അന്വേഷണങ്ങളാണ്</AdminDbMaintenanceEnableLogLabel>
+  <AdminDbMaintenanceSettingsSaveSuccess>ഡിബി വിജയകരമായി സംരക്ഷിച്ചു. പേജ് റീലോഡ് ചെയ്യപ്പെടും</AdminDbMaintenanceSettingsSaveSuccess>
+  <AdminDbMaintenanceSettingsChangeNote>ശ്രദ്ധ! ക്രമീകരണങ്ങൾക്ക് സംരക്ഷിക്കുന്നത് ശേഷം അപ്ലിക്കേഷൻ ഉടൻ പുനരാരംഭിക്കും ചെയ്യും!</AdminDbMaintenanceSettingsChangeNote>
+  <AdminDbMaintenanceInsertIntervalLabel>ഇടവേള (മിനിറ്റിൽ) ഡിബി ഇവന്റുകൾ ചേർത്ത്. നിങ്ങൾ 0 നൽകുന്നു എങ്കിൽ, ചേർക്കൽ ഇവന്റുകൾ നേരിട്ട് ദൃശ്യമാകും.</AdminDbMaintenanceInsertIntervalLabel>
+  <AdminDbMaintenanceAdvDbParamsTitle>വിപുലമായ ഡേറ്റാബേസ് കണക്ഷൻ പരാമീറ്ററുകൾ</AdminDbMaintenanceAdvDbParamsTitle>
+  <AdminDbMaintenanceStatTitle>സ്റ്റാറ്റിസ്റ്റിക്സ് (ഡിബി രേഖ തലത്തിൽ DurationExecution ആശ്രയിച്ചിരിക്കുന്നു)</AdminDbMaintenanceStatTitle>
+  <AdminDbMaintenanceStatDurationReadLabel>ശരാശരി വായന സമയപരിധി</AdminDbMaintenanceStatDurationReadLabel>
+  <AdminDbMaintenanceStatDurationWriteLabel>ശരാശരി എഴുത്തു സമയപരിധി</AdminDbMaintenanceStatDurationWriteLabel>
+  <AdminDbMaintenanceStatDurationCompactLabel>ശരാശരി കോമ്പാക്ട് സമയപരിധി</AdminDbMaintenanceStatDurationCompactLabel>
+  <AdminDbMaintenanceStatNoData>ഡാറ്റാ ഇല്ല</AdminDbMaintenanceStatNoData>
+  <AdminDbMaintenanceStatGetButton>സ്ഥിതിവിവരക്കണക്കുകൾ ശേഖരിക്കുക</AdminDbMaintenanceStatGetButton>
+
+  <AdminMiscTab>പലവക</AdminMiscTab>
+  <AdminMiscLoadADAccountsTitle>ആക്ടീവ് ഡയറക്ടറി അക്കൗണ്ടുകൾ ലോഡ്</AdminMiscLoadADAccountsTitle>
+  <AdminMiscLoadADAccountsLoadButton>ഭാരം</AdminMiscLoadADAccountsLoadButton>
+  <AdminMiscLoadADAccountsResetButton>റീസെറ്റ്</AdminMiscLoadADAccountsResetButton>
+  <AdminMiscLoadADAccountsLdap>LDAP കണ്ടെയ്നർ</AdminMiscLoadADAccountsLdap>
+  <AdminMiscLoadADAccountsToFile>ചിത്രം</AdminMiscLoadADAccountsToFile>
+  <AdminMiscLoadADAccountsSuccessMessage>വിജയകരമായി കയറ്റിയ ആക്ടീവ് ഡയറക്ടറി അക്കൗണ്ടുകൾ</AdminMiscLoadADAccountsSuccessMessage>
+  <AdminMiscLoadADAccountsInfo>ഇവിടെ നിങ്ങൾ മുഴുവൻ ആക്ടീവ് ഡയറക്ടറി ഉപയോക്താക്കൾ ഘടന അടങ്ങുന്ന ഫയൽ സൃഷ്ടിക്കാനാകും. നിങ്ങൾ പരസ്യം വിവരം സംഭരണമായി ഒരു സ്റ്റാറ്റിക് ഫയൽ ഉപയോഗിക്കുകയാണെങ്കിൽ ഇത് ഫയൽ ആവശ്യമാണ്. അതേ ഫയൽ ADManager പ്രയോഗം വഴി സൃഷ്ടിക്കാൻ കഴിയും. കൂടുതൽ വിവരങ്ങൾക്ക് {0} മാനുവൽ {1} &lt;b&gt; ADAccountsFilePath &lt;/b&gt; പരാമീറ്റർ വിവരണം കാണുക.</AdminMiscLoadADAccountsInfo>
+
+  <AdminMiscManageQuotasTitle>ക്വോട്ടകൾ നിയന്ത്രിക്കുക</AdminMiscManageQuotasTitle>
+  <AdminMiscManageQuotasInfo>അന്വേഷണം നിലവിലുള്ള അല്ലെങ്കിൽ ഒരു ഫോൾഡർ അനുവദിച്ച സ്ഥലം, ഫയൽ സെർവർ വിഭവ മാനേജർ നൽകുന്ന പരിമിതപ്പെടുത്താൻ പുതിയ ക്വാട്ട സൃഷ്ടിക്കുക.</AdminMiscManageQuotasInfo>
+  <AdminMiscManageQuotasFolderPath>ഫോൾഡർ പാത</AdminMiscManageQuotasFolderPath>
+  <AdminMiscManageQuotasQuota>ക്വാട്ട</AdminMiscManageQuotasQuota>
+  <AdminMiscManageQuotasGetQuota>ക്വാട്ട നേടുക</AdminMiscManageQuotasGetQuota>
+  <AdminMiscManageQuotasSetQuota>ക്വാട്ട സജ്ജമാക്കുക</AdminMiscManageQuotasSetQuota>
+
+  <AdminMiscFoldersFromGPOLTitle>ഗ്രൂപ്പ് പോളിസി നിന്നും ലഭ്യമാക്കുക ഫോൾഡറുകൾ</AdminMiscFoldersFromGPOLTitle>
+  <AdminMiscFoldersFromGPOLComputerName>കമ്പ്യൂട്ടറിന്റെ പേര്</AdminMiscFoldersFromGPOLComputerName>
+  <AdminMiscFoldersFromGPOLFilePath>ഫയൽ പാത</AdminMiscFoldersFromGPOLFilePath>
+  <AdminMiscFoldersFromGPOLMoreInfoLink>കൂടുതൽ വിവരങ്ങൾ</AdminMiscFoldersFromGPOLMoreInfoLink>
+  <AdminMiscFoldersFromGPOLResetButton>റീസെറ്റ്</AdminMiscFoldersFromGPOLResetButton>
+  <AdminMiscFoldersFromGPOLLoadButton>ഭാരം</AdminMiscFoldersFromGPOLLoadButton>
+  <AdminMiscFoldersFromGPOLFromDC>ഡിസി നിന്നും</AdminMiscFoldersFromGPOLFromDC>
+  <AdminMiscFoldersFromGPOLFromFile>ഫയൽ നിന്നും</AdminMiscFoldersFromGPOLFromFile>
+  <AdminMiscFoldersTargetLabel>ഉപയോക്താക്കളെ / ഗ്രൂപ്പുകളിൽ അവസ്ഥ ഇമ്പോർട്ടുചെയ്യാൻ ...</AdminMiscFoldersTargetLabel>
+  <AdminMiscFoldersTargetFilter>അരിപ്പ</AdminMiscFoldersTargetFilter>
+  <AdminMiscFoldersTargetPermission>അനുമതി</AdminMiscFoldersTargetPermission>
+  <AdminMiscFoldersFromGPOLSuccessMessage>ഫോൾഡറുകൾ വിജയകരമായി ലഭ്യമാകുന്നില്ല /&gt; പുതിയ &lt;br:. {0}, അപ്ഡേറ്റ്: {1}.</AdminMiscFoldersFromGPOLSuccessMessage>
+  <AdminMiscFoldersFromGPOLInfo>നിങ്ങൾക്ക് ഡൊമെയ്ൻ കൺട്രോളർ ലെ ഗ്രൂപ്പ് നയ ഡ്രൈവ് മാപ്പിംഗ് ക്രമീകരണങ്ങൾ ഫോള്ഡര് ലിസ്റ്റ് ലോഡ് (അല്ലെങ്കിൽ അപ്ഡേറ്റ്) കഴിയും. വയലിൽ നിങ്ങൾ അല്ലെങ്കിൽ മാപ്പുചെയ്തു ഡ്രൈവുകൾ ക്രമീകരണങ്ങൾ ഉപയോഗിച്ച് ഫയൽ ഒരു പാത ഗ്രൂപ്പ് നയ ക്രമീകരണങ്ങൾ ലോഡുചെയ്യാൻ ഏത് നിന്ന് ചെയ്യും (അല്ലെങ്കിൽ ശൂന്യമായി വിട്ടാൽ, അന്നത്തെ ഡൊമെയ്ൻ ഉപയോഗിക്കും) കമ്പ്യൂട്ടറിന്റെ പേര് നൽകാം താഴെ.</AdminMiscFoldersFromGPOLInfo>
+
+  <AdminAnonymFoldersTab>അജ്ഞാത ഫോൾഡറുകൾ</AdminAnonymFoldersTab>
+  <AdminAnonymFoldersDeleteFolderPrompt>നിങ്ങൾക്ക് ഉറപ്പാണോ {0} തിരഞ്ഞെടുത്തു അജ്ഞാത ഫോൾഡറുകൾ നീക്കം ചെയ്യണമെന്ന് ഉറപ്പാണോ?</AdminAnonymFoldersDeleteFolderPrompt>
+  
+  <AdminAnonymFoldersDescription>പങ്കിട്ടു ഫോൾഡറുകൾ / ഫയലുകൾ - ഈ ഉപയോക്തൃ ആധികാരികത * ആവശ്യമില്ലാത്ത ഫോൾഡറുകൾ / ഫയലുകളും അവർ എല്ലാ സന്ദർശകരിൽ ലഭ്യമായ (അവർ ഒരു ലിങ്ക് ഉണ്ടെങ്കിൽ) എന്നാണ് *. എല്ലാ ഉപയോക്താക്കളും മെനുവിൽ നിന്നും അത്തരം ഫോൾഡറുകൾ / ഫയലുകൾ സൃഷ്ടിക്കാൻ കഴിയും "പങ്കിടുക &amp;rarr; ഒരു പൊതു ലിങ്ക് സൃഷ്ടിക്കുക". ഡൗൺലോഡുചെയ്യുന്നതിനുമുമ്പ്, ഫയലുകൾ / ഫോൾഡറുകൾ ലിസ്റ്റ്, അപ്ലോഡിങ് വേണ്ടി എന്നിരുന്നാലും പങ്കിട്ട ഫോൾഡറുകൾ പരിമിതമായ അനുമതികൾ ഉണ്ടായിരിക്കാം. താഴെ ഉപയോക്താക്കൾ സൃഷ്ടിച്ച പങ്കിട്ട ഫോൾഡറുകൾ / ഫയലുകൾ ലിങ്കുകളുടെ മേശ. പൊതു ലിങ്കുകൾ പ്രവർത്തിക്കുന്നതിന് ശരിയായി ഹാൻഡ്ലറുകൾ \ Anonymousdownload.ashx .തെറ്റില് അജ്ഞാത അനുവദിക്കുന്നു എന്നും ഉറപ്പാക്കുക സവിശേഷത. നിങ്ങൾ ഡയഗ്നോസ്റ്റിക്സ് &lt;/a&gt; പേജ് href="{0}"&gt; &lt;a target="_blank" ഈ പരിശോധിക്കാവുന്നതാണ്. &amp;nbsp; &amp;mdash. ഹാൻഡ്ലറകളും നിയോഗിച്ചിട്ടുള്ള അജ്ഞാത ഉപയോക്തൃ അക്കൗണ്ട് \ Anonymousdownload.ashx പങ്കിട്ട ഫോൾഡറുകൾ / ഫയലുകൾ വേണ്ടി NTFS വായന / എഴുത്തു അനുമതികൾ ഉണ്ടെന്ന് &lt;br /&gt; &amp;nbsp ഉറപ്പാക്കുക; എങ്കിൽ നിങ്ങൾക്ക് മാത്രമേ പ്രവേശനം അനുവദിയ്ക്കുന്നു ഉപയോക്താക്കൾ, നിർദേശിക്കാൻ ചെയ്യരുത്.</AdminAnonymFoldersDescription>
+  <AdminAnonymFoldersLinkOwnerColumn>ഉടമ</AdminAnonymFoldersLinkOwnerColumn>
+  <AdminAnonymFoldersEmailsColumn>അറിയിപ്പിന് ഇമെയിലുകൾ</AdminAnonymFoldersEmailsColumn>
+  <AdminAnonymFoldersAccessForUsersColumn>ഉപയോക്താക്കൾക്ക് ആക്സസ്</AdminAnonymFoldersAccessForUsersColumn>
+  <AdminAnonymFoldersPersonalMessageColumn>സ്വകാര്യസന്ദേശം</AdminAnonymFoldersPersonalMessageColumn>
+  <AdminAnonymFoldersOverwriteOnUploadHint> (മാറ്റിഎഴുതുക: {0})</AdminAnonymFoldersOverwriteOnUploadHint>
+  <AdminAnonymFoldersRootPathColumn>റൂട്ട് പാത്ത്</AdminAnonymFoldersRootPathColumn>
+  <AdminAnonymFoldersKeysColumn>കീകൾ</AdminAnonymFoldersKeysColumn>
+  <AdminAnonymFoldersShortColumn>ഹൃസ്വ ലിങ്ക്</AdminAnonymFoldersShortColumn>
+  <AdminAnonymFoldersPropertiesTitle>അജ്ഞാത ഫോൾഡർ ഉള്ള</AdminAnonymFoldersPropertiesTitle>
+  <AdminAnonymFoldersAdditionalInfo>അധിക വിവരം</AdminAnonymFoldersAdditionalInfo>
+  <AdminAnonymFoldersLinkLabel>ആക്സസിനായുള്ള ലിങ്ക്</AdminAnonymFoldersLinkLabel>
+  <AdminAnonymFoldersPathNotSpecified>ഫിസിക്കല്പാഥ് സജ്ജമാക്കിയിട്ടില്ലെങ്കിൽ</AdminAnonymFoldersPathNotSpecified>
+  <AdminAnonymFoldersCreatedForColumn>ഉദ്ദേശ്യം</AdminAnonymFoldersCreatedForColumn>
+
+  <AdminFoldersTab>ഫോൾഡറുകൾ</AdminFoldersTab>
+  <AdminFoldersAddFolder>ഫോൾഡർ ചേർക്കുക</AdminFoldersAddFolder>
+  <AdminFoldersEditFolder>ഫോൾഡർ എഡിറ്റ്</AdminFoldersEditFolder>
+  <AdminFoldersRemoveFolder>ഫോൾഡർ നീക്കംചെയ്യുക</AdminFoldersRemoveFolder>
+  <AdminFoldersDeleteFolderPrompt>നിങ്ങൾക്ക് ഉറപ്പാണോ ഫോൾഡർ "{0}" നീക്കം ചെയ്യണമെന്ന് ഉറപ്പാണോ?</AdminFoldersDeleteFolderPrompt>
+  <AdminFoldersFolderNotFound>ഈ നാമത്തിലുള്ള ഒരു ഫോൾഡർ കണ്ടെത്തിയില്ല</AdminFoldersFolderNotFound>
+  <AdminFoldersPropertiesTitle>ഫോൾഡർ ഉള്ള</AdminFoldersPropertiesTitle>
+  <AdminFoldersGeneralInfo>പൊതുവിവരം</AdminFoldersGeneralInfo>
+  <AdminFoldersFolderRemoteWarningForms>കുറിപ്പ്! ഈ ഫോൾഡർ വിദൂരമായി പങ്കിടുന്നു. പരിശോധിക്കുക {0} സ്ഥിരം: വിദൂര ഫോൾഡറുകൾ എങ്ങനെ പങ്കിടാൻ {1}</AdminFoldersFolderRemoteWarningForms>
+  <AdminFoldersFolderRemoteWarningWin>കുറിപ്പ്! ഈ ഫോൾഡർ വിദൂരമായി പങ്കിടുന്നു. ഉപയോക്താക്കൾക്ക് വായിക്കാൻ അവകാശങ്ങൾ ഇല്ലെങ്കിൽ നിങ്ങൾ ചില ഫോൾഡറുകൾ / ഫയലുകൾ മറയ്ക്കാം. കാണുക {0} സ്ഥിരം: ഉപയോക്താവിനെ വായിക്കാൻ {1} അവകാശങ്ങൾ ഇല്ല ഫയലുകൾ / ഫോൾഡറുകൾ മറയ്ക്കുക എങ്ങനെ</AdminFoldersFolderRemoteWarningWin>
+  <AdminFoldersFolderPath>ഫിസിക്കല്പാഥ്</AdminFoldersFolderPath>
+  <AdminFoldersLocationPath>സ്ഥലം</AdminFoldersLocationPath>
+  <AdminFoldersFolderCreate>ഫോൾഡർ സൃഷ്ടിക്കുക</AdminFoldersFolderCreate>
+  <AdminFoldersFolderCreateProcess>സൃഷ്ടിക്കുന്നു ഫോൾഡർ</AdminFoldersFolderCreateProcess>
+  <AdminFoldersFolderCreateContainsPattern>അതു ഒരു പാറ്റേൺ അടങ്ങിയിരിക്കുന്നതിനാൽ ഫോൾഡർ സൃഷ്ടിക്കാൻ കഴിയില്ല</AdminFoldersFolderCreateContainsPattern>
+  <AdminFoldersFolderCreateSuccessfully>ഫോൾഡർ "{0}" വിജയകരമായി സൃഷ്ടിച്ചു.</AdminFoldersFolderCreateSuccessfully>
+  <AdminFoldersFolderOptional> (ഓപ്ഷണൽ)</AdminFoldersFolderOptional>
+  <AdminFoldersFolderLimitations>പരിമിതികളും</AdminFoldersFolderLimitations>
+  <AdminFoldersFolderDescription>വിവരണം</AdminFoldersFolderDescription>
+  <AdminFoldersFolderQuota>ക്വാട്ട</AdminFoldersFolderQuota>
+  <AdminFoldersFolderQuotaHint>അന്വേഷണം നിലവിലുള്ള അല്ലെങ്കിൽ ഒരു ഫോൾഡർ അനുവദിച്ച സ്ഥലം, ഫയൽ സെർവർ വിഭവ മാനേജർ നൽകുന്ന പരിമിതപ്പെടുത്താൻ പുതിയ ക്വാട്ട സൃഷ്ടിക്കുക.</AdminFoldersFolderQuotaHint>
+  <AdminFoldersFolderQuotaMoreInfoLink>കൂടുതൽ വിവരങ്ങൾ</AdminFoldersFolderQuotaMoreInfoLink>
+  <AdminFoldersPermissions>അനുമതികൾ</AdminFoldersPermissions>
+  <AdminFoldersPermissionsFor>വേണ്ടി {0} അനുമതികൾ</AdminFoldersPermissionsFor>
+  <AdminFoldersUsersGroups>ഉപയോക്താക്കളും ഗ്രൂപ്പുകളും</AdminFoldersUsersGroups>
+  <AdminFoldersAccessControl>പ്രവേശന നിയന്ത്രണം</AdminFoldersAccessControl>
+  <AdminFoldersCreate>സൃഷ്ടിക്കാൻ</AdminFoldersCreate>
+  <AdminFoldersDelete>ഇല്ലാതാക്കുക</AdminFoldersDelete>
+  <AdminFoldersRename>പുനർനാമകരണം</AdminFoldersRename>
+  <AdminFoldersUpload>അപ്ലോഡ്</AdminFoldersUpload>
+  <AdminFoldersDownload>ഇറക്കുമതി</AdminFoldersDownload>
+  <AdminFoldersZipDownload>പിൻ ഡൗൺലോഡ്</AdminFoldersZipDownload>
+  <AdminFoldersZip>പിൻ</AdminFoldersZip>
+  <AdminFoldersUnzip>വേർതിരിച്ചെടുത്ത് പിൻ</AdminFoldersUnzip>
+  <AdminFoldersCut>മുറിക്കുക</AdminFoldersCut>
+  <AdminFoldersCopy>പകര്പ്പ്</AdminFoldersCopy>
+  <AdminFoldersListFiles>ഫയലുകൾ കാണിക്കുക</AdminFoldersListFiles>
+  <AdminFoldersListFolders>ഫോൾഡറുകൾ കാണിക്കുക</AdminFoldersListFolders>
+  <AdminFoldersModify>പരിഷ്ക്കരിക്കുക</AdminFoldersModify>
+  <AdminFoldersBulkMailing>ബൾക്ക് മെയിലിംഗ്</AdminFoldersBulkMailing>
+  <AdminFoldersAnonymViewContent>പൊതു ലിങ്ക് വഴി ഫയൽ ലിസ്റ്റ്</AdminFoldersAnonymViewContent>
+  <AdminFoldersAnonymDownload>പൊതു ലിങ്ക് വഴി ഡൗൺലോഡ്</AdminFoldersAnonymDownload>
+  <AdminFoldersAnonymUpload>പൊതു ലിങ്ക് വഴി അപ്ലോഡുചെയ്യുക</AdminFoldersAnonymUpload>
+  <AdminFoldersWatch>കാവൽ</AdminFoldersWatch>
+  <AdminFoldersDescription>നിങ്ങൾ ഗ്രൂപ്പ് നയങ്ങൾ എന്ന ഡ്രൈവുകൾ ഉപയോഗിക്കുന്നതെങ്കിൽ നിങ്ങൾക്ക് മാനുവലായി ഫോൾഡറുകൾ ചേർക്കുക അല്ലെങ്കിൽ നിലവിലുള്ള ഫോൾഡറുകൾ പരിവർത്തനം ചെയ്യാനാകും. കൂടുതൽ വിവരങ്ങൾക്ക് കാണുക {0} സഹായം {1}.</AdminFoldersDescription>
+
+  <AdminFoldersPermissionsForRegex>നിങ്ങൾക്ക് ഒരു റെഗുലർ എക്സ്പ്രഷൻ ഉപയോഗിക്കാം. ദയവായി ഉദാഹരണത്തിന്, മുകളിൽ വയലിലെ തുടക്കം തുടർന്ന് റെഗുലർ എക്സ്പ്രഷൻ ഭൂതകാല &lt;b&gt; {0} &lt;/b&gt; നൽകുക:</AdminFoldersPermissionsForRegex>
+  <AdminFoldersPermissionsForRegexUsers>{0} (ഏതൊരു ഉപയോക്താവിനും ആക്സസ് നൽകുന്നതിന്) &lt;br /&gt; {1} (ഈ റെഗുലർ എക്സ്പ്രഷൻ രണ്ടു ഉപയോക്താക്കളെ മാർഗങ്ങൾ: jdoe മൈക്ക്)</AdminFoldersPermissionsForRegexUsers>
+  <AdminFoldersPermissionsForRegexGroups>{0} (ഏതെങ്കിലും ഗ്രൂപ്പിനായി ആക്സസ് നൽകുന്നതിന്) &lt;br /&gt; {1} (ഈ റെഗുലർ എക്സ്പ്രഷൻ അവരുടെ പേര് "വിദ്യാർഥികൾ" എല്ലാ ഗ്രൂപ്പുകളും മാർഗങ്ങൾ)</AdminFoldersPermissionsForRegexGroups>
+
+  <AdminFoldersListRestrictions>പ്രദർശനത്തിനുള്ള നിയന്ത്രണങ്ങൾ</AdminFoldersListRestrictions>
+  <AdminFoldersCreateRestrictions>ഫയൽ സൃഷ്ടിയുടെ നിയന്ത്രണങ്ങൾ</AdminFoldersCreateRestrictions>
+  <AdminFoldersRestrictionAllow>അനുവദിക്കുക</AdminFoldersRestrictionAllow>
+  <AdminFoldersRestrictionDeny>നിരസിക്കുക</AdminFoldersRestrictionDeny>
+  <AdminFoldersRestrictionExtensions>വിപുലീകരണങ്ങൾ</AdminFoldersRestrictionExtensions>
+  <AdminFoldersUserNamePrompt>ഉപയോക്തൃ നാമം നൽകുക</AdminFoldersUserNamePrompt>
+  <AdminFoldersUserNameEmptyText>ഉപയോക്തൃ നാമം തിരഞ്ഞെടുക്കുക</AdminFoldersUserNameEmptyText>
+  <AdminFoldersUserNameNotSelected>നിങ്ങൾ ഒരു ഉപയോക്തൃ നാമം തിരഞ്ഞെടുക്കണം</AdminFoldersUserNameNotSelected>
+  <AdminFoldersUserAlreadyExists>ഈ ഉപയോക്താവിന് ഇതിനകം ഫോൾഡർ നിർണ്ണയിച്ച</AdminFoldersUserAlreadyExists>
+  <AdminFoldersGroupNamePrompt>ഗ്രൂപ്പ് പേര് നൽകുക</AdminFoldersGroupNamePrompt>
+  <AdminFoldersGroupNameEmptyText>ഗ്രൂപ്പ് പേര് തിരഞ്ഞെടുക്കുക</AdminFoldersGroupNameEmptyText>
+  <AdminFoldersGroupNameNotSelected>നിങ്ങൾ ഒരു ഗ്രൂപ്പ് പേര് തിരഞ്ഞെടുക്കണം</AdminFoldersGroupNameNotSelected>
+  <AdminFoldersGroupAlreadyExists>ഈ ഗ്രൂപ്പിന് ഇതിനകം ഫോൾഡർ നിർണ്ണയിച്ച</AdminFoldersGroupAlreadyExists>
+  <AdminFoldersEmptyName>ഫോൾഡർ നാമം ശൂന്യമായിടാൻ കഴിയില്ല</AdminFoldersEmptyName>
+  <AdminFoldersEmptyPath>ഫോൾഡർ പാത ശൂന്യമായിടാൻ കഴിയില്ല</AdminFoldersEmptyPath>
+  <AdminFoldersIncorrectName>ഫോൾഡർ നാമത്തിൽ തെറ്റായ ചിഹ്നങ്ങൾ ഉണ്ട്</AdminFoldersIncorrectName>
+  <AdminFoldersAlreadyExists>ഈ പേരും ലൊക്കേഷനും ഒരു ഫോൾഡർ ഇതിനകം നിലവിലുണ്ട്</AdminFoldersAlreadyExists>
+  <AdminFoldersSharesButton>നിലവിലുള്ള ഓഹരികളും</AdminFoldersSharesButton>
+  <AdminFoldersTestAccessButton>ടെസ്റ്റ് ആക്സസ്</AdminFoldersTestAccessButton>
+  <AdminFoldersTestIndexingButton>ടെസ്റ്റ് സൂചികയിലാക്കൽ</AdminFoldersTestIndexingButton>
+  <AdminFoldersShareNameTitle>നിലവിലുള്ള ഓഹരികളും</AdminFoldersShareNameTitle>
+  <AdminFoldersShareNameEmptyText>പങ്ക് തിരഞ്ഞെടുക്കുക</AdminFoldersShareNameEmptyText>
+  <AdminFoldersShareNameNotSelected>നിങ്ങൾ പങ്ക് തിരഞ്ഞെടുക്കണം</AdminFoldersShareNameNotSelected>
+  <AdminFoldersGetQuotaButton>ക്വാട്ട നേടുക</AdminFoldersGetQuotaButton>
+  <AdminFoldersSetQuotaButton>ക്വാട്ട സജ്ജമാക്കുക</AdminFoldersSetQuotaButton>
+  <AdminCommonFilterField>അരിപ്പ</AdminCommonFilterField>
+  <AdminCommonValidateField>മൂല്യനിർണ്ണയം</AdminCommonValidateField>
+  <AdminFoldersRootNameUsed>പകരം അറ മറ്റൊരു പേര് ഉപയോഗിക്കുക "{0}"</AdminFoldersRootNameUsed>
+  <AdminFoldersFolderFilterSuccess>ഫിൽട്ടറിന്റെ മൂല്യനിർണ്ണയം വിജയകരമായി നടന്നത്</AdminFoldersFolderFilterSuccess>
+
+  <AdminTestAccessGoodResult>ഫോൾഡർ "{0}" ഉണ്ടോ വായിക്കാനും കഴിയും.</AdminTestAccessGoodResult>
+  <AdminTestAccessBadResult>ഫോൾഡർ "{0}" നിലവിലില്ല അല്ലെങ്കിൽ യാതൊരു NTFS അനുമതികൾ വായിക്കുകയോ അപ്ലിക്കേഷൻ ഐഡന്റിറ്റി യാതൊരു നെറ്റ്വർക്ക് പ്രവേശനം ഇല്ല ഉണ്ട്!</AdminTestAccessBadResult>
+  <AdminTestAccessErrorResult>പിശക് ഫോൾഡർ ആക്സസ് പരിശോധിക്കുമ്പോൾ "{0}": {1}</AdminTestAccessErrorResult>
+  <AdminTestIndexingErrorResult>ഫോൾഡറിനായി സൂചികയിലാക്കൽ പരിശോധിക്കുമ്പോൾ "{0}" പിശക്:
+{1}</AdminTestIndexingErrorResult>
+  <AdminTestIndexingYesResult>ഡയറക്ടറി "{0}" സൂചികയിലാക്കിയിരിക്കുന്നു</AdminTestIndexingYesResult>
+  <AdminTestIndexingNoResult>ഡയറക്ടറി "{0}" സൂചികപ്പെടുത്തിയിട്ടില്ല ആണ്</AdminTestIndexingNoResult>
+  <AdminTestIndexingUnknownResult>ഡയറക്ടറി "{0}" സൂചികയിലാക്കിയിരിക്കുന്നു നിർണയിക്കുന്നതിന് കഴിയുന്നില്ല.</AdminTestIndexingUnknownResult>
+  <AdminTestIndexingAddIfNotIndexed>നിങ്ങൾ അത് ഇതുവരെ ഇൻഡെക്സ് എങ്കിൽ, സൂചികയിലാക്കാൻ ഈ ഫോൾഡർ ചേർക്കാൻ താൽപ്പര്യമുണ്ടോ?</AdminTestIndexingAddIfNotIndexed>
+  <ProgressTestAccess>ആക്സസ് പരിശോധിക്കുകയാണ്</ProgressTestAccess>
+  <ProgressTestIndexing>സൂചികയിലാക്കൽ പരിശോധിക്കുന്നു</ProgressTestIndexing>
+  <AdminHowToIndexingLocationLink>ഓർഡർ സൂചിക ഒരു ഫോൾഡറിൽ, {0} സഹായം കാണുക</AdminHowToIndexingLocationLink>
+
+  <AdminUsersListAll>എല്ലാ ഉപഭോക്താകളും</AdminUsersListAll>
+  <AdminUsersListDACL>ACL നിന്നുള്ള ഉപയോക്താക്കൾ</AdminUsersListDACL>
+  <AdminGroupsListAll>എല്ലാ ഗ്രൂപ്പുകളും</AdminGroupsListAll>
+  <AdminGroupsListDACL>ACL നിന്നും ഗ്രൂപ്പുകൾ</AdminGroupsListDACL>
+  <AdminDACLStringLabel>എസിഎൽ അനുമതികൾ</AdminDACLStringLabel>
+
+  <AdminCommonCustomField>കസ്റ്റം ഫീൽഡ്</AdminCommonCustomField>
+  <AdminCommonSettingsChangeWarning>മാറ്റങ്ങൾ ലോഗിൻ (അല്ലെങ്കിൽ webdav ആക്സസ് അപേക്ഷ പുനരാരംഭിക്കുന്നതിന് ശേഷം) വീണ്ടും പ്രാബല്യത്തിൽ വരും.</AdminCommonSettingsChangeWarning>
+
+  <AdminCommonAllowedFoldersPathsTitle>അനുവദനീയം ഫോൾഡർ പാതകൾ</AdminCommonAllowedFoldersPathsTitle>
+  <AdminCommonNotAllowedFolderPath>{0}: മാത്രമേ നിങ്ങൾക്ക് ഈ ഫോൾഡറുകൾ അല്ലെങ്കിൽ അതിന്റെ ഉപഫോൾഡറുകൾ ആക്സസ് സൃഷ്ടിക്കാൻ കഴിയും</AdminCommonNotAllowedFolderPath>
+
+  <AdminLogsTab>പ്രവേശിക്കുക</AdminLogsTab>
+
+  <AdminSettingsTab>ക്രമീകരണങ്ങൾ</AdminSettingsTab>
+
+  <AdminLogsErrorsTab>പിശകുകൾ ലോഗ്</AdminLogsErrorsTab>
+  <AdminLogsErrorsClearBtn>തെളിഞ്ഞ</AdminLogsErrorsClearBtn>
+  <AdminLogsErrorsClearUsersCountExceededBtn>അളവ് പരിധി ഉപയോക്താക്കളുടെ പിശകുകൾ തെളിഞ്ഞ കാലാവസ്ഥ റെക്കോർഡുകൾ</AdminLogsErrorsClearUsersCountExceededBtn>
+
+  <AdminFoldersCreateHint>അനുവദിക്കുക / മെനുവിൽ നിന്നും പ്രവർത്തനങ്ങൾ നിരസിക്കുക "പുതിയ": പുതിയ ഫയൽ, പുതിയ ഫോൾഡർ, പുതിയ ചിത്രം, പുതിയ പ്രമാണം ഫയലുകൾ.</AdminFoldersCreateHint>
+  <AdminFoldersDeleteHint>നിലവിലുള്ള ഫയലുകളും ഫോൾഡറുകളും അനുവദിക്കുക / നിരസിക്കുക ഇല്ലാതാക്കുന്നു</AdminFoldersDeleteHint>
+  <AdminFoldersRenameHint>നിലവിലുള്ള ഫയലുകളും ഫോൾഡറുകളും അനുവദിക്കുക / നിരസിക്കുക റീനെയിമിംഗിനു</AdminFoldersRenameHint>
+  <AdminFoldersUploadHint>അനുവദിക്കുക / നിരസിക്കുക ഫയലുകൾ അപ്ലോഡുചെയ്യുന്നു (ടൂൾബാറിലെ ന് അപ്ലോഡ് ബട്ടൺ) ഫീച്ചർ</AdminFoldersUploadHint>
+  <AdminFoldersDownloadHint>/ "ഡൗൺലോഡ്" "കാണുക / തിരുത്തുക" നിരസിക്കുക അനുവദിക്കുക, സംഭരണികളുടെ ക്ലൗഡ് ഡൗൺലോഡ് തുടങ്ങിയവ പ്രവർത്തനങ്ങൾ</AdminFoldersDownloadHint>
+  <AdminFoldersZipDownloadHint>അനുവദിക്കുക / നിരസിക്കുക "കംപ്രെസ്സ് ചെയ്ത് ഡൌൺലോഡ്" നടപടി</AdminFoldersZipDownloadHint>
+  <AdminFoldersZipHint>അനുവദിക്കുക / നിരസിക്കുക "ഒരു പിൻകോഡ് ആർക്കൈവിൽ കംപ്രസ്" പ്രവർത്തനം</AdminFoldersZipHint>
+  <AdminFoldersUnzipHint>അനുവദിക്കുക / നിരസിക്കുക, "ഒരു പുതിയ ഫോൾഡറിൽ എക്സ്ട്രാക്റ്റ്" ഉം "പിൻ ഉള്ളടക്കങ്ങൾ" പ്രവർത്തനങ്ങൾ "നിലവിലുള്ള ഫോൾഡറിലേക്ക് എക്സ്ട്രാക്റ്റ്"</AdminFoldersUnzipHint>
+  <AdminFoldersCutHint>അനുവദിക്കുക / നിരസിക്കുക കട്ട് നിലവിലുള്ള ഫയലുകളും ഫോൾഡറുകളും നടപടി</AdminFoldersCutHint>
+  <AdminFoldersCopyHint>പകർപ്പ് നിലവിലുള്ള ഫയലുകളും ഫോൾഡറുകളും നടപടി അനുവദിക്കുക / നിരസിക്കുക</AdminFoldersCopyHint>
+  <AdminFoldersListFilesHint>അനുവദിക്കുക / ലിസ്റ്റിംഗ് ഫയലുകൾ നിരസിക്കുക</AdminFoldersListFilesHint>
+  <AdminFoldersListFoldersHint>അനുവദിക്കുക / ലിസ്റ്റിംഗ് ഫോൾഡറുകൾ നിരസിക്കുക</AdminFoldersListFoldersHint>
+  <AdminFoldersModifyHint>അനുവദിക്കുക / നിരസിക്കുക ഫയലുകൾ (നിലവിലുള്ള ഫയൽ ഉള്ളടക്കങ്ങൾ പരിഷ്ക്കരിക്കാനാകുന്ന എല്ലാ പ്രവർത്തനങ്ങളും) പരിഷ്ക്കരിക്കുക</AdminFoldersModifyHint>
+  <AdminFoldersBulkMailingHint>ഗ്രൂപ്പുകൾക്ക് അനുവദിക്കുക / നിരസിക്കുക ബൾക്ക് മെയിലിംഗ്</AdminFoldersBulkMailingHint>
+  <AdminFoldersAnonymViewContentHint>അനുവദിക്കുക / അജ്ഞാത ഉപയോക്താക്കൾക്ക് ഫയലുകൾ ലിസ്റ്റ് നിരസിക്കുക (പബ്ലിക് ലിങ്കുകൾ വഴി)</AdminFoldersAnonymViewContentHint>
+  <AdminFoldersAnonymDownloadHint>അനുവദിക്കുക / നിരസിക്കുക അജ്ഞാത ഉപയോക്താക്കളെ (പബ്ലിക് ലിങ്കുകൾ വഴി) ഫയലുകൾ ഡൌൺലോഡ്</AdminFoldersAnonymDownloadHint>
+  <AdminFoldersAnonymUploadHint>അനുവദിക്കുക / നിരസിക്കുക അജ്ഞാത ഉപയോക്താക്കൾക്ക് ഫയലുകൾ അപ്ലോഡ് (പബ്ലിക് ലിങ്കുകൾ വഴി)</AdminFoldersAnonymUploadHint>
+  <AdminFoldersWatchHint>അനുവദിക്കുക / ഉപയോക്താക്കളെ മറ്റ് ഉപയോക്താക്കൾ വരുത്തിയ ഫോൾഡറിൽ മാറ്റങ്ങൾ നിരീക്ഷിക്കാൻ നിരസിക്കുക (അതു മാത്രമാണ് യുഐ / യഥാർഥ AllowUsersmonitorModifications = എങ്കിൽ പ്രയോഗിക്കുന്നു)</AdminFoldersWatchHint>
+  <AdminFoldersListRestrictionsHint>ഈ ഓപ്ഷൻ ഫയൽ ലിസ്റ്റിംഗ് നിയന്ത്രിക്കുന്നു. ക്ലിക്ക് നിർദ്ദേശിച്ചിരിക്കുന്ന വിപുലീകരണങ്ങളും ഫയലുകൾ മറയ്ക്കാൻ "നിരസിക്കുക" റേഡിയോ ബട്ടൺ. കോമ (ഉദാ "EXE- ന്, ബാറ്റിംഗ്, കോം") അവരെ വേർതിരിക്കുന്ന നിരോധിത വിപുലീകരണങ്ങൾ ഉൾപ്പെടുത്തുക. "അനുവദിക്കുക" റേഡിയോ ബട്ടൺ കാണിച്ചിരിക്കുന്ന (ഉദാ "doc, pdf, JPG") ചെയ്യും ഫയലുകളുടെ വിപുലീകരണങ്ങൾ തിരുകാൻ സജ്ജമാക്കുക.</AdminFoldersListRestrictionsHint>
+  <AdminFoldersCreateRestrictionsHint>ഈ പ്രവർത്തനം പുതിയ ഫയലുകൾ സൃഷ്ടിക്കുന്നത് "പട്ടിക നിയന്ത്രണങ്ങൾ" സമാനമാണ്, എന്നാൽ അതു ഫയലുകൾ അപ്ലോഡ് നിയന്ത്രിക്കുന്നു, പിൻ ജലചൂഷണം. നിങ്ങൾ നിരോധിക്കുന്നില്ലെങ്കിലോ പ്രാപ്തമാക്കാൻ കഴിയും നിശ്ചിത ഫയലുകൾ അപ്ലോഡ്.</AdminFoldersCreateRestrictionsHint>
+  <AdminFoldersGeneralInfoHint>നിലവിലുള്ള അറയുടെ പാത്ത് ആൻഡ് അപരനാമം ടൈപ്പ് ചെയ്യുക. കൂടുതൽ വിവരങ്ങൾക്ക് ചുവട്ടിൽ സഹായം ബട്ടൺ ക്ലിക്ക് ചെയ്യുക.</AdminFoldersGeneralInfoHint>
+  <AdminFoldersUsersGroupsHint>അവർക്ക് ഫോൾഡർ പങ്കിടുന്നതിന് തിരഞ്ഞെടുക്കുക അല്ലെങ്കിൽ ടൈപ്പ് ഉപയോക്താക്കളും ഗ്രൂപ്പുകളും. കൂടുതൽ വിവരങ്ങൾക്ക് ചുവട്ടിൽ സഹായം ബട്ടൺ ക്ലിക്ക് ചെയ്യുക.</AdminFoldersUsersGroupsHint>
+
+  <AdminUserFoldersButtonTitle>ടെസ്റ്റ് ഓഹരികൾ ലിസ്റ്റ്</AdminUserFoldersButtonTitle>
+  <AdminUserFoldersWindowTitle>ഉപയോക്താവിന്റെ ഫോൾഡറുകൾ</AdminUserFoldersWindowTitle>
+  <AdminUserFoldersLabel>ഉപയോക്താവ് '{0}' എന്ന ഫോൾഡർ ലിസ്റ്റ്:</AdminUserFoldersLabel>
+  
+  <AdminPermissionsTab>അഡ്മിൻ അനുമതികൾ</AdminPermissionsTab>
+  <AdminPermissionsPrivilege>പ്രിവിലേജ്</AdminPermissionsPrivilege>
+  <AdminPermissionsEditButton>പദവി എഡിറ്റ്</AdminPermissionsEditButton>
+  <AdminPermissionsModifySettingsTitle>ക്രമീകരണങ്ങൾ പരിഷ്ക്കരിക്കുക</AdminPermissionsModifySettingsTitle>
+  <AdminPermissionsModifyFoldersTitle>ഫോൾഡറുകൾ പരിഷ്ക്കരിക്കുക</AdminPermissionsModifyFoldersTitle>
+  <AdminPermissionsModifyAnonymFoldersTitle>പൊതു ഫോൾഡറുകൾ പരിഷ്ക്കരിക്കുക</AdminPermissionsModifyAnonymFoldersTitle>
+  <AdminPermissionsModifyAccountsTitle>അക്കൗണ്ടുകൾ പരിഷ്ക്കരിക്കുക</AdminPermissionsModifyAccountsTitle>
+  <AdminPermissionsViewDiagnosticsTitle>കാണുക 'ഡയഗ്നോസ്റ്റിക്സ്' പേജ്</AdminPermissionsViewDiagnosticsTitle>
+  <AdminPermissionsViewLogTitle>ലോഗ് കാണുക</AdminPermissionsViewLogTitle>
+  <AdminPermissionsViewErrorsLogTitle>പിശകുകൾ കാണുക ലോഗ്</AdminPermissionsViewErrorsLogTitle>
+  <AdminPermissionsModifyLocalizationsTitle>പ്രാദേശികവൽക്കരണങ്ങൾ പരിഷ്ക്കരിക്കുക</AdminPermissionsModifyLocalizationsTitle>
+  <AdminPermissionsFolderPathTitle>ഫോൾഡർ പാത</AdminPermissionsFolderPathTitle>
+  <AdminPermissionsFoldersTitle>അഡ്മിൻ ഫോൾഡറുകൾ</AdminPermissionsFoldersTitle>
+  <AdminPermissionsPrivilegeHint>സജ്ജമാക്കുക ഉപയോക്താക്കളെ / ഗ്രൂപ്പുകൾ "{0}" പദവി അനുവദിക്കും ഏത്</AdminPermissionsPrivilegeHint>
+  <AdminPermissionsFolderTitle>അഡ്മിൻ ഫോൾഡർ ഉള്ള</AdminPermissionsFolderTitle>
+  <AdminPermissionsFolderFieldTitle>ഫോൾഡർ പാത</AdminPermissionsFolderFieldTitle>
+  <AdminPermissionsFolderHint>അഡ്മിൻ ഫോൾഡറുകൾ വിവരങ്ങൾ</AdminPermissionsFolderHint>
+  <AdminPermissionsFolderEmptyAccounts>ഉപയോക്താക്കളും / അല്ലെങ്കിൽ ഗ്രൂപ്പുകൾ വ്യക്തമാക്കുക</AdminPermissionsFolderEmptyAccounts>
+  <AdminPermissionsFolderAlreadyExists>ഈ ലൊക്കേഷനിൽ ഫോൾഡർ ഇതിനകം നിലവിലുണ്ട്</AdminPermissionsFolderAlreadyExists>
+  <AdminPermissionsFolderNotFound>ഈ ലൊക്കേഷനിൽ ഫോൾഡർ കണ്ടെത്തിയില്ല</AdminPermissionsFolderNotFound>
+  <AdminPermissionsAllowedFoldersMessage>നിങ്ങൾ / അപ്ഡേറ്റ് സൃഷ്ടിക്കാൻ കഴിയും / മാത്രം ഈ ഫോൾഡറുകൾ അല്ലെങ്കിൽ അതിന്റെ ഉപഫോൾഡറുകൾ ആക്സസ് നിയന്ത്രിക്കുക: {0}</AdminPermissionsAllowedFoldersMessage>
+
+  <AdminUsersCountExceededWarn>ഉപയോക്താക്കളുടെ പരമാവധി അളവ് കവിഞ്ഞു. നിങ്ങളുടെ നിലവിലെ ലൈസൻസ് ലോഗിൻ മാത്രം {0} ഉപയോക്താക്കളെ അനുവദിക്കുന്നു. കൂടുതൽ വിവരം തുറന്ന "{1}" ടാബ് കണ്ടെത്താൻ "{2}" ഒഴിവാക്കാതെ (ങ്ങൾ). "{1}" ടാബ് ഈ അറിയിപ്പ് വ്യക്തമായ ലോഗ് രേഖകള് മറയ്ക്കാൻ.</AdminUsersCountExceededWarn>
+
+  <AdminNewVersionAvailableTitle>പുതിയ പതിപ്പ് ലഭ്യമാണ്!</AdminNewVersionAvailableTitle>
+  <AdminNewVersionAvailableInfo>നിലവിലുള്ള പതിപ്പ്: {0} പുതിയ പതിപ്പ് &lt;br /&gt;: {1}</AdminNewVersionAvailableInfo>
+  
+  <SettingsGridDescriptionInfo>വിവരണം</SettingsGridDescriptionInfo>
+  <SettingsGridFormatInfo>മൂല്യം ഫോർമാറ്റ്</SettingsGridFormatInfo>
+  <SettingsGridDefaultValueInfo>സ്വതേ മൂല്യം</SettingsGridDefaultValueInfo>
+  <SettingsGridMoreInfo>കൂടുതൽ വിവരങ്ങൾ</SettingsGridMoreInfo>
+  <SettingsGridRestoreDefault>നേരത്തെയുള്ളത് പുനസ്ഥാപിക്കുക</SettingsGridRestoreDefault>
+
+  <SettingsFormatBoolean>ബൂളിയൻ മൂല്യം</SettingsFormatBoolean>
+  <SettingsFormatWholeNumber>മുഴുവനുമുള്ള നമ്പർ</SettingsFormatWholeNumber>
+  <SettingsFormatRealNumber>റിയൽ നമ്പർ</SettingsFormatRealNumber>
+  <SettingsFormatString>സ്ട്രിംഗ്</SettingsFormatString>
+  <SettingsFormatEnum>ഏത് മൂല്യം</SettingsFormatEnum>
+  <SettingsFormatSet>മൂല്യങ്ങൾ ആവർത്തിക്കുകയും ഇല്ലാതെ കോമ കൊണ്ട് വേർതിരിച്ച ലിസ്റ്റ്</SettingsFormatSet>
+  <SettingsFormatArray>സ്ട്രിംഗുകളുടെ കോമ കൊണ്ട് വേർതിരിച്ച ലിസ്റ്റ്</SettingsFormatArray>
+  <SettingsFormatToolbarButtons>. (. മൂല്യം "{0}", പല തവണ ആവർത്തിച്ചു കഴിയും, പക്ഷെ തുടർച്ചയായി ഓരോ നാമം ശേഷം കോളൺ പിന്നാലെ അതു ബട്ടൺ പ്രദർശിപ്പിക്കാൻ ഉപയോഗിക്കുന്ന രീതികൾ ഒന്ന് വ്യക്തമാക്കാൻ സാധ്യമാണ്: {1})</SettingsFormatToolbarButtons>
+
+  <AdminSettingsSave>ക്രമീകരണങ്ങൾ സംരക്ഷിക്കുക</AdminSettingsSave>
+  <AdminToggleHiddenParams>{0} വിപുലമായ പാരാമീറ്ററുകൾ</AdminToggleHiddenParams>
+  <AdminHintHiddenParams>കൂടുതൽ പാരാമീറ്ററുകൾ മാത്രം കൂടുതൽ അനുരൂപമാണെന്നും ക്രമീകരണങ്ങൾക്കായി ഏറ്റവും കേസുകളിൽ ലക്ഷ്യം കൂടക്കൂടെ അനിവാര്യമാണെന്നും</AdminHintHiddenParams>
+  <AdminShowHiddenParams>കാണിക്കുക</AdminShowHiddenParams>
+  <AdminHideHiddenParams>മറയ്ക്കുക</AdminHideHiddenParams>
+
+  <SettingsDenyAuthModeChange>ഓട്ടോമാറ്റിക് ആധികാരികത മോഡ് changeover പിന്തുണയ്ക്കുന്നില്ല. പ്രാമാണീകരണ മോഡ് മാറ്റുന്നതിൽ നിർദ്ദേശങ്ങൾക്ക് {0} കാണുക.</SettingsDenyAuthModeChange>
+  <SettingsApplicationRestartedMsg>അപ്ലിക്കേഷൻ പുനരാരംഭിക്കുന്നത്</SettingsApplicationRestartedMsg>
+  <SettingsSettingsSavedMsg>ക്രമീകരണങ്ങൾ സംരക്ഷിച്ചു</SettingsSettingsSavedMsg>
+  <SettingsSettingsSaveFailedAppMsg>ക്രമീകരണ ഫയലുകൾ സംരക്ഷിക്കാൻ കഴിയുന്നില്ല. ഉപയോക്താവ് {1} വേണ്ടി വെബ് ആപ്ലിക്കേഷൻ റൂട്ട് ഫോൾഡർ {0} ൽ web.config ആൻഡ് HttpCommanderSettings.config ഫയലുകൾ എഴുതുക NTFS അനുമതികൾ പരിശോധിക്കുക. പിശക് സന്ദേശം: {2}.</SettingsSettingsSaveFailedAppMsg>
+  <SettingsSettingsSaveFailedTempMsg>ക്രമീകരണ ഫയലുകൾ സംരക്ഷിക്കാൻ കഴിയുന്നില്ല. ഉപയോക്താവ് {1} താൽക്കാലിക ഫോൾഡർ {0} എന്ന ചെക്ക് അനുമതികൾ. പിശക് സന്ദേശം: {2}.</SettingsSettingsSaveFailedTempMsg>
+  <SettingsSettingsReadFailedAppMsg>ക്രമീകരണ ഫയലുകൾ വായിക്കാൻ കഴിയുന്നില്ല. web.config എന്ന NTFS അനുമതികൾ വായിക്കുകയും ഉപയോക്താവ് {1} വേണ്ടി വെബ് ആപ്ലിക്കേഷൻ റൂട്ട് ഫോൾഡർ {0} ഫയലുകൾ പരിശോധിക്കുക HttpCommanderSettings.config. പിശക് സന്ദേശം: {2}.</SettingsSettingsReadFailedAppMsg>
+  <SettingsSettingsReadFailedTempMsg>താൽക്കാലിക ഫോൾഡറിൽ ക്രമീകരണ ഫയലുകൾ വായിക്കാൻ കഴിയുന്നില്ല. ഉപയോക്താവ് {1} താൽക്കാലിക ഫോൾഡർ {0} എന്ന ചെക്ക് അനുമതികൾ. പിശക് സന്ദേശം: {2}.</SettingsSettingsReadFailedTempMsg>
+  <SettingsSettingsConfigChangedOutside>HttpCommander ക്രമീകരണ ഫയൽ മറ്റൊരു പ്രോഗ്രാം മാറ്റി. ഒരുപക്ഷേ ഒരു ടെക്സ്റ്റ് എഡിറ്റർ ഉപയോഗിച്ച് അത് സ്വമേധയാ പരിഷ്ക്കരിച്ചു. ആപ്ലിക്കേഷൻ പുതിയ കോൺഫിഗറേഷൻ ഫയൽ ലോഡുചെയ്ത. നിങ്ങൾ വെബ് ഇന്റർഫേസ് വഴി ചെയ്തപോലെ ഏത് HttpCommander കോൺഫിഗറേഷൻ ബന്ധപ്പെട്ട എല്ലാ മാറ്റങ്ങളും നഷ്ടപ്പെട്ടു. നീ അവരെ വീണ്ടും വീണ്ടും സംരക്ഷിക്കാൻ ശ്രമിക്കുക. അപ്ലിക്കേഷൻ പ്രവർത്തിക്കുന്ന സമയത്ത് നാം മാനുവലായി എഡിറ്റിംഗ് ക്രമീകരണ ഫയലുകൾ നേരെ ശുപാർശ. അല്ലാത്തപക്ഷം ക്രമീകരണ ഫയലുകൾ മാറ്റുന്നതിൽ ശേഷം അപ്ലിക്കേഷൻ പുനരാരംഭിക്കണം. പിശക് സന്ദേശം: {0}.</SettingsSettingsConfigChangedOutside>
+  <SettingsSettingsSaveNotif>ക്രമീകരണ മാറ്റങ്ങൾ സംരക്ഷിക്കാൻ മറക്കരുത്!</SettingsSettingsSaveNotif>
+  
+  <SettingsEmailNotifTitle>ഇമെയിൽ വഴി അറിയിപ്പുകൾ</SettingsEmailNotifTitle>
+  <SettingsEmailNotifApplyBtn>മെയിൽ ക്രമീകരണം സംരക്ഷിക്കുക</SettingsEmailNotifApplyBtn>
+  <SettingsEmailNotifResetBtn>റീസെറ്റ്</SettingsEmailNotifResetBtn>
+  <SettingsEmailNotifEventsLabel>ഇവന്റുകൾ</SettingsEmailNotifEventsLabel>
+  <SettingsEmailNotifWhenLabel>അയയ്ക്കുക</SettingsEmailNotifWhenLabel>
+  <SettingsEmailNotifEmailsLabel>ഇമെയിലുകൾ</SettingsEmailNotifEmailsLabel>
+  <SettingsEmailNotifPathsLabel>പാഥുകൾ</SettingsEmailNotifPathsLabel>
+  
+  <LogsErrorsGridUrlColumn>യു.ആര്.എല്</LogsErrorsGridUrlColumn>
+  <LogsErrorsGridMsgColumn>സന്ദേശം</LogsErrorsGridMsgColumn>
+  <LogsErrorsGridMoreInfoColumn>കൂടുതൽ വിവരങ്ങൾ</LogsErrorsGridMoreInfoColumn>
+  <LogsErrorsGridDetailsTitle>വിവരങ്ങൾ</LogsErrorsGridDetailsTitle>
+  
+  <FsrmUnableLoadLibraryLocal>ലോക്കൽ ഹോസ്റ്റിൽ സെർവർ റിസോഴ്സ് മാനേജർ ഫയൽ കണക്റ്റ് ചെയ്യാൻ കഴിയുന്നില്ല.</FsrmUnableLoadLibraryLocal>
+  <FsrmUnableLoadLibraryRemote>"{0}" ഹോസ്റ്റിൽ സെർവർ റിസോഴ്സ് മാനേജർ ഫയൽ കണക്റ്റ് ചെയ്യാൻ കഴിയുന്നില്ല.</FsrmUnableLoadLibraryRemote>
+  <FsrmNotInstalled>ഫയൽ സെർവറും റിസോഴ്സ് മാനേജർ "{0}" ഇൻസ്റ്റാൾ ചെയ്തിട്ടില്ല.</FsrmNotInstalled>
+  <FsrmNotInstalledEitherEnd>ഫയൽ സെർവറും റിസോഴ്സ് മാനേജർ ലോക്കൽ ഹോസ്റ്റിൽ അല്ലെങ്കിൽ "{0}" ന് ഇൻസ്റ്റോൾ ചെയ്തിട്ടില്ല.</FsrmNotInstalledEitherEnd>
+  <FsrmQuotaNotSpecified>ക്വാട്ട വ്യക്തമാക്കിയിട്ടില്ല.</FsrmQuotaNotSpecified>
+  <FsrmUnableGetQuota>ക്വാട്ട പരിധിയിൽ നേടാൻ കഴിയില്ല.</FsrmUnableGetQuota>
+  <FsrmUnableSetQuota>ക്വാട്ട പരിധി സജ്ജമാക്കാൻ കഴിയുന്നില്ല.</FsrmUnableSetQuota>
+  <FsrmQuotaSetMsg>ക്വാട്ട സജ്ജമാക്കി.</FsrmQuotaSetMsg>
+  <FsrmInvalidQuotaValueMsg>അസാധുവായ ക്വാട്ട മൂല്യം.</FsrmInvalidQuotaValueMsg>
+
+  <CommandBuyNow>ഇപ്പോൾ വാങ്ങുക</CommandBuyNow>
+
+  <AdminUpdateTab>നവീകരിക്കുക</AdminUpdateTab>
+  <AdminUpdateManual>മാനുവൽ നവീകരണം</AdminUpdateManual>
+  <AdminUpdateAuto>ഓട്ടോമേറ്റഡ് നവീകരണം</AdminUpdateAuto>
+  <AdminUpdateStartButton>അപ്ഗ്രേഡ് ആരംഭിക്കുക / ബാക്കപ്പ് സൃഷ്ടിക്കുക</AdminUpdateStartButton>
+  <AdminUpdateFinishButton>പൂർത്തിയാക്കുക അപ്ഗ്രേഡ് / ബാക്കപ്പ് പുനഃസ്ഥാപിക്കുക</AdminUpdateFinishButton>
+  <AdminUpdateBackupButton>ബാക്കപ്പ്</AdminUpdateBackupButton>
+  <AdminUpdateDownloadNewButton>പുതിയ പതിപ്പ് ഡൗൺലോഡ്</AdminUpdateDownloadNewButton>
+  <AdminUpdateStepTitle>സ്റ്റെപ്പ് {0} {1}: {2}</AdminUpdateStepTitle>
+  <AdminUpdateStepInfo>സ്റ്റെപ്പ് {0} {1}</AdminUpdateStepInfo>
+  <AdminUpdateNumberSymbol>#</AdminUpdateNumberSymbol>
+  <AdminUpdateBackupContent>അപേക്ഷയോടൊപ്പം ഫോൾഡർ ഒരു ബാക്കപ്പ് പകർപ്പ് ഉണ്ടാക്കുന്നതിനും ബട്ടൺ അമർത്തുക "{0}" ഡൗൺലോഡ് ഒരു ലിങ്ക് ലഭിക്കുന്നത്</AdminUpdateBackupContent>
+  <AdminUpdateDownloadBackupLinkHint>ചുവടെയുള്ള ലിങ്ക് ഉപയോഗിച്ച് അപേക്ഷയുടെ ഒരു ബാക്കപ്പ് പകർപ്പ് ഡൗൺലോഡ് ദയവായി:</AdminUpdateDownloadBackupLinkHint>
+  <AdminUpdateDownloadNewContent>അപ്പോൾ ചുവടെയുള്ള ലിങ്ക് ഉപയോഗിച്ച് ഒരു പുതിയ പതിപ്പ് ഡൗൺലോഡ് ചെയ്ത് {0} ഇൻസ്റ്റലേഷൻ {1} പിന്തുടരുകയും {2} അപ്ഗ്രേഡ് പുതിയ പതിപ്പ് ഇൻസ്റ്റാൾ വേണ്ടി {1} നിർദ്ദേശങ്ങൾ ദയവായി. ഇൻസ്റ്റലേഷൻ ശേഷം ഇൻസ്റ്റലേഷൻ പൂർത്തിയാക്കുന്നതിനായി, അഡ്മിൻ പാനൽ തുറക്കാൻ ദയവായി ടാബ് പോകുക "{3}" ബട്ടൺ അമർത്തുക "{4}".</AdminUpdateDownloadNewContent>
+  <AdminUpdateUploadButton>ഒരു ബാക്കപ്പ് പകർപ്പ് അപ്ലോഡ് ക്രമീകരണങ്ങളും ബാധകമാക്കുക</AdminUpdateUploadButton>
+  <AdminUpdateUploadAndInstallButton>എല്ലാ ക്രമീകരണങ്ങളും സൂക്ഷിക്കുന്നതിനുമുള്ള ഒരു പുതിയ പതിപ്പ് ഇൻസ്റ്റാൾ</AdminUpdateUploadAndInstallButton>
+  <AdminUpdateUploadEmptyText>അപ്ലോഡിങ് ഒരു ബാക്കപ്പ് പകർപ്പ് തിരഞ്ഞെടുക്കുക</AdminUpdateUploadEmptyText>
+  <AdminUpdateFinishContent>ദയവായി അപ്ലിക്കേഷൻ ഫോൾഡർ തിരഞ്ഞെടുക്കുക ഒരു മുമ്പ് സൃഷ്ടിച്ച ബാക്കപ്പ് ആർക്കൈവ് അപ്ലോഡ് മുൻപതിപ്പിന് ക്രമീകരണങ്ങൾ പുനഃസ്ഥാപിക്കാം ക്രമത്തിൽ</AdminUpdateFinishContent>
+  <AdminUpdateFinishMessage>അഭിനന്ദനങ്ങൾ! എല്ലാ ക്രമീകരണങ്ങളും വിജയകരമായി പ്രയോഗിച്ചു. എതിരെ, ഉദാ മറ്റ് ഫയലുകൾ വരുത്തിയ എല്ലാ മാറ്റങ്ങളും പ്രയോഗിക്കുക Default.aspx അല്ലെങ്കിൽ Global.asax.</AdminUpdateFinishMessage>
+  <AdminUpdateFinishRefreshPage>പേജ് റീലോഡ് ചെയ്യപ്പെടും</AdminUpdateFinishRefreshPage>
+  <AdminUpdateMainInfo>നവീകരിക്കുന്നതിന് ഈ തരം ഭാഗികമായോ ഓട്ടോമേറ്റഡ് ആണ്. സൃഷ്ടിക്കാവുന്ന ഡൗൺലോഡുചെയ്യുന്നതും ആപ്ലിക്കേഷൻ കോൺഫിഗറേഷൻ ക്രമീകരണങ്ങളിൽ ഒരു ബാക്കപ്പ് ഫയൽ അപ്ഗ്രേഡ് ശേഷം ഇത് പുനഃസ്ഥാപിക്കാൻ. ഈ ഹ്രസ്വ ഘട്ടങ്ങൾ പാലിക്കുക: ഒരു ബാക്കപ്പ് ഫയൽ സൃഷ്ടിക്കുക, മാനുവൽ നവീകരണത്തിനായി നിർവഹിക്കുകയും ബാക്കപ്പ് ഫയൽ നിന്ന് ക്രമീകരണങ്ങൾ പുനഃസ്ഥാപിക്കാം. ഈ നടപടിക്രമം പുറമേ / നവീകരിക്കാതെ ക്രമീകരണങ്ങൾ പുനഃസ്ഥാപിക്കാം ബാക്കപ്പ് ഉപയോഗിക്കാൻ കഴിയും. ലളിതമായി ബാക്കപ്പ് ഫയല് നിന്ന് ക്രമീകരണങ്ങൾ പുനഃസ്ഥാപിക്കാൻ കയറാൻ ഘട്ടം ഒഴിവാക്കുക.</AdminUpdateMainInfo>
+  <AdminUpdateAutoButton>ഓട്ടോ</AdminUpdateAutoButton>
+  <AdminUpdateAutoInfo>നവീകരിക്കുന്നതിന് ഈ തരം ഏകദേശം പൂർണ്ണമായും ഓട്ടോമേറ്റഡ് ആണ്. നിലവിലെ ക്രമീകരണങ്ങൾ (നിങ്ങൾ ഡൌൺലോഡ് സംരക്ഷിക്കുകയോ ചെയ്യണം ഒരു ബാക്കപ്പ് ഫയൽ) ബാക്കപ്പ്, ബാക്കപ്പ് ഫയൽ നിന്ന് ക്രമീകരണങ്ങൾ ഒരു പുതിയ പതിപ്പും പുനഃസ്ഥാപന ഇൻസ്റ്റലേഷൻ: 2 ഘട്ടങ്ങൾ ഉണ്ടാവുക. എച്ച്ടിടിപി കമാൻഡർ യാന്ത്രികമായി പുതിയ പതിപ്പ് ഡൗൺലോഡ് ഇന്സ്റ്റാള് അല്ലെങ്കിൽ നിങ്ങൾ ഞങ്ങളുടെ സെർവർ ഒരു പുതിയ പതിപ്പ് ഉപയോഗിച്ച് സിപ്പ് ആർക്കൈവിൽ പാത്തും കഴിയും. എല്ലാ ക്രമീകരണങ്ങളും സ്വയം ഒരു മുമ്പ് സൃഷ്ടിച്ച ബാക്കപ്പ് ഫയൽ നിന്ന് പുനഃസ്ഥാപിച്ചു ചെയ്യുന്നു.</AdminUpdateAutoInfo>
+  <AdminUpdateRestoreWebConfigCheckBox>(ഉദാ അത്തരം എസ്എംപിടി പോലുള്ള) Web.config നിന്നും ക്രമീകരണങ്ങൾ പുനഃസ്ഥാപിക്കുക</AdminUpdateRestoreWebConfigCheckBox>
+  <AdminUpdateBackupAssignedFoldersInRootMessage>ശ്രദ്ധ! ചില ഉപയോക്താവ് മൊത്തം വലുപ്പം അധികം {0} കൂടുതൽ ഉണ്ടെന്ന് അപേക്ഷയോടൊപ്പം ഡയറക്ടറിയിൽ ഫോൾഡറുകൾ ഉണ്ട്. ബാക്കപ്പ് ഉണ്ടാക്കി ചെയ്യില്ല. ഈ ഡയറക്ടറികൾ ഒരു ബാക്കപ്പ് പകർപ്പ് പ്രയോഗത്തിലെ ഡയറക്ടറിയിൽ നിന്നും നീക്കംചെയ്യുക നിങ്ങളുടെ ഭാഗത്തു പ്രവർത്തനം വീണ്ടും ശ്രമിക്കുക.</AdminUpdateBackupAssignedFoldersInRootMessage>
+  <AdminUpdateNeedRefreshPageForContinue>ശ്രദ്ധ! അതു തുടരാൻ പേജ് വീണ്ടും അത്യാവശ്യമാണ്. ബട്ടൺ അമർത്തുക "{0}". റീലോഡ് ഓപ്പറേഷൻ ആവർത്തിക്കാമോ.</AdminUpdateNeedRefreshPageForContinue>
+  <AdminUpdateRestoreFromBackupEmpty>അല്ലെങ്കിൽ അതു തിരഞ്ഞെടുത്തിട്ടില്ല എങ്കിൽ, അത് പുതുതായി സൃഷ്ടിച്ച ഫയല് വഴി കഴിഞ്ഞ ഘട്ടത്തിൽ ഉപയോഗിക്കും</AdminUpdateRestoreFromBackupEmpty>
+  <AdminUpdateInstallZipPathHint>ഒരു ഓൺലൈൻ വിതരണ ഉപയോഗിക്കുന്നതിനായി ആദ്യ വയലിൽ (സെർവറിൽ) ഇൻസ്റ്റലേഷൻ ഫയൽ പൂർണ്ണ ശാരീരിക പാത്ത് വ്യക്തമാക്കാനോ അത് ശൂന്യമായി വിടുക ദയവായി പരിഷ്കരിക്കുന്നതിനുള്ള</AdminUpdateInstallZipPathHint>
+  <AdminUpdateInstallZipPathEmpty>ഇൻസ്റ്റോൾ ശേഖരിക്കാൻ പാത്തും</AdminUpdateInstallZipPathEmpty>
+  <AdminUpdateProgress>അപ്ഡേറ്റുചെയ്യുന്നു</AdminUpdateProgress>
+  <AdminUpdateAccessDeniedWarning>&lt;b&gt; ശ്രദ്ധിക്കുക! &lt;/b&gt; {0} എച്ച്ടിടിപി കമാൻഡർ {1} ഉപയോഗിച്ച് ഫോൾഡറിനായി ഉപയോക്താവിന് (വായിക്കുന്നതും എഴുതുന്നതും) പരിഷ്ക്കരിക്കുക ദയവായി NTFS അനുമതികൾ അപ്ഗ്രേഡ് ആവർത്തിക്കുക പരിഷ്കരിക്കുന്നതിനുള്ള. &lt;br /&gt; വിജയകരമായ പരിഷ്കരിച്ച ശേഷം ദയവായി മുൻ അവകാശങ്ങൾ പുനസ്ഥാപിക്കുക.</AdminUpdateAccessDeniedWarning>
+  <AdminUpdateAccessDeniedWarningCurentUser>നിലവിലെ</AdminUpdateAccessDeniedWarningCurentUser>
+
+  <ServerExceedsMaxSizeForEditAsTextFile>പ്രമാണത്തിന്റെ വലിപ്പം ഒരു ടെക്സ്റ്റ് ഫയലായി തിരുത്തിയെഴുതുന്നത് പരമാവധി വലുപ്പം അധികരിച്ചു.</ServerExceedsMaxSizeForEditAsTextFile>
+  <ServerDemoMode>തന്നിരിക്കുന്ന നടപടി ഒരു ഡെമോ മോഡിൽ നിരോധിച്ചിരിക്കുന്നു</ServerDemoMode>
+  <ServerHostedMode>{0}: ഹോസ്റ്റുചെയ്ത് ട്രയൽ പതിപ്പ് ഇനിപ്പറയുന്ന ക്രമീകരണം മൂല്യങ്ങൾ മാറ്റാൻ അനുവദിച്ചിട്ടില്ല.</ServerHostedMode>
+  <ServerIncorrectImageContentType>ഫയൽ മൈം-തരം ഒരു ചിത്രമല്ല</ServerIncorrectImageContentType>
+  <ServerPermissionDenied>ഈ പ്രവർത്തനം കാരണം പരിമിതമായ അനുമതികൾ നിരസിക്കുകയാണെങ്കിൽ</ServerPermissionDenied>
+  <ServerRestoreFromTrashNoParentFolder>പുനഃസ്ഥാപന കാരണം രക്ഷാകർതൃ ഡയറക്ടറി പരാജയപ്പെട്ടു "{0}" കണ്ടെത്തിയില്ല ചെയ്തു. അതു സൃഷ്ടിച്ച് വീണ്ടും ശ്രമിക്കുക.</ServerRestoreFromTrashNoParentFolder>
+  <ServerModifyPermissionDenied>നിങ്ങൾ ഫയൽ പരിഷ്ക്കരിക്കാൻ അനുമതിയില്ല കാരണം ഈ പ്രവർത്തനം തിരസ്കരിക്കപ്പെട്ടാൽ</ServerModifyPermissionDenied>
+  <ServerPathNotFound>പാത കണ്ടെത്തിയില്ല.</ServerPathNotFound>
+  <ServerInvalidPath>പാത "{0}" അല്ല സാധുവാണ്</ServerInvalidPath>
+  <ServerInvalidAbsolutePath>അസാധുവായ കൃത്യമായ പാത്ത് "{0}"</ServerInvalidAbsolutePath>
+  <!-- share folder path: \\server\share -->
+  <ServerInvalidShareFolderPath>അസാധുവായ പങ്ക് അറയുടെ പാത്ത് "{0}"</ServerInvalidShareFolderPath>
+  <ServerInvalidUncPath>അസാധുവായ സുഫിസവുമായുള്ള പാത്ത് "{0}"</ServerInvalidUncPath>
+  <ServerUnableResolveUncPath>സുഫിസവുമായുള്ള പാത്ത് "{0}" പരിഹരിക്കുന്നതിന് കഴിയില്ല</ServerUnableResolveUncPath>
+  <ServerInvalidFileName>ഫയൽ / ഫോൾഡർ നാമം സജ്ജമാക്കിയിട്ടില്ലെങ്കിൽ അല്ലെങ്കിൽ അടങ്ങിയിരിക്കുന്നു തെറ്റായ പ്രതീകങ്ങൾ {0}</ServerInvalidFileName>
+  <ServerFilePathNotFound>ഫയൽ നിലവിലില്ല</ServerFilePathNotFound>
+  <ServerIncorrectPathForFileLink>തെറ്റായ ഒബ്ജക്ട് തരം. ഒരു ഫോൾഡറിലേക്ക് വ്യക്തമാക്കിയ പാത്ത് പോയിന്റ്</ServerIncorrectPathForFileLink>
+  <ServerIncorrectPathForFolderLink>തെറ്റായ ഒബ്ജക്ട് തരം. ഒരു ചിത്രം വ്യക്തമാക്കിയ പാത്ത് പോയിന്റ്</ServerIncorrectPathForFolderLink>
+  <ServerRootFolderNotFound>പാത റൂട്ട് ഫോൾഡർ "{0}" കണ്ടെത്തിയില്ല.</ServerRootFolderNotFound>
+  <ServerUnableCreateFolder>ഫോൾഡർ സൃഷ്ടിക്കാൻ സാധിക്കുന്നില്ല</ServerUnableCreateFolder>
+  <ServerFileAlreadyExists>ഈ നാമത്തിലുള്ള ഫയൽ ഇതിനകം നിലവിലുണ്ട്</ServerFileAlreadyExists>
+  <ServerFileAlreadyExistsOnRename>
+    നിങ്ങൾ പേരുമാറ്റാൻ "{0}" എന്ന "{1}" താൽപ്പര്യമുണ്ടോ?
+    ഈ ലൊക്കേഷനിൽ ഇതേ പേരിൽ ഒരു ഫയൽ ഇതിനകം ഉണ്ട്.
+  </ServerFileAlreadyExistsOnRename>
+  <ServerFolderAlreadyExistsOnRename>
+    നിങ്ങൾ പേരുമാറ്റാൻ "{0}" എന്ന "{1}" താൽപ്പര്യമുണ്ടോ?
+    ഈ ലൊക്കേഷനിൽ ഇതേ പേരിലുള്ള ഒരു ഫോൾഡർ ഇതിനകം ഉണ്ട്.
+  </ServerFolderAlreadyExistsOnRename>
+  <ServerFoldersMergeConfirm>
+    ഈ സ്ഥാനം ഇതിനകം "{0}" പേരുള്ള ഒരു ഫോൾഡർ അടങ്ങിയിരിക്കുന്നു.
+    ഈ ഒറ്റ "{1}" നിങ്ങളെ ഇപ്പോഴും ഈ ഫോൾഡർ ലയിപ്പിക്കാൻ ആഗ്രഹിക്കുന്നുണ്ടോ "{0}"?
+  </ServerFoldersMergeConfirm>
+  <ServerFolderWithSameNameAsFileNameAlreadyExists>ഫയൽ പേര് നിങ്ങൾ വ്യക്തമാക്കിയ അതേ പേരുള്ള "{0}" ഒരു ഫോൾഡർ ഇതിനകം ഉണ്ട്</ServerFolderWithSameNameAsFileNameAlreadyExists>
+  <ServerFileWithSameNameAsFolderNameAlreadyExists>നിങ്ങൾ വ്യക്തമാക്കിയ ഫോൾഡർ നാമം അതേ പേരുള്ള "{0}" ഒരു ഫയൽ ഇതിനകം ഉണ്ട്</ServerFileWithSameNameAsFolderNameAlreadyExists>
+  <ServerFileNotFound>ഫയൽ "{0}" ഫോൾഡറിൽ കണ്ടെത്തിയില്ല "{1}" ആണ്. ഒരുപക്ഷേ മറ്റൊരു ഉപയോക്താവിന്റെ ഇല്ലാതാക്കി അല്ലെങ്കിൽ നീക്കംചെയ്തു.</ServerFileNotFound>
+  <ServerDirectoryAlreadyExists>ഈ പേരിൽ ഒരു ഡയറക്ടറി ഇതിനകം നിലവിലുണ്ട്</ServerDirectoryAlreadyExists>
+  <ServerFolderMoveAlreadeExists>ഡെസ്റ്റിനേഷൻ ഫോൾഡർ "{0}" സോഴ്സ് ഫോൾഡർ തന്നെ ആണ്</ServerFolderMoveAlreadeExists>
+  <ServerUploadPathNotFound>ഫയൽ സംഭരണത്തിനുള്ള പാത്ത് സെർവറിൽ കണ്ടെത്തിയില്ല</ServerUploadPathNotFound>
+  <ServerUploadPathNotSet>അപ്ലോഡിങ് ഒരു പാത ലഭ്യമാക്കുമ്പോൾ പിശക് സംഭവിച്ചു. ദയവായി ബ്രൗസർ പേജ് പുതുക്കി വീണ്ടും ശ്രമിക്കുക.</ServerUploadPathNotSet>
+  <ServerUploadNoChunk>സംരക്ഷിക്കുക ഒന്നുമില്ല തടിച്ചഭാഗം</ServerUploadNoChunk>
+  <ServerUploadWriteChunk>ബൈറ്റ് ശേഷം തടിച്ചഭാഗം എഴുതുക</ServerUploadWriteChunk>
+  <ServerUploadCreatingFile>സൃഷ്ടിക്കുന്നു ഫയൽ</ServerUploadCreatingFile>
+  <ServerUploadFileUploaded>ഫയൽ അപ്ലോഡ് ചെയ്തു</ServerUploadFileUploaded>
+  <ServerUploadWriteError>എഴുതേണ്ട പിശക്</ServerUploadWriteError>
+  <ServerConfigurationError>തെറ്റായ കോൺഫിഗറേഷൻ അല്ലെങ്കിൽ അപ്ലിക്കേഷൻ! സൈറ്റ് അഡ്മിനിസ്ട്രേറ്ററെ ബന്ധപ്പെടുക</ServerConfigurationError>
+  <ServerPermissionsAllowTypes>നിലവിലുള്ള അനുമതികൾ ഫയൽ തരങ്ങൾ മാത്രമേ {0} ഉപയോഗിച്ച് ഈ പ്രക്രിയ അനുവദിക്കുക</ServerPermissionsAllowTypes>
+  <ServerPermissionsDenyTypes>നിലവിലുള്ള അനുമതികൾ ഫയൽ തരങ്ങൾ {0} ഉപയോഗിച്ച് ഈ പ്രക്രിയ നിരോധിക്കുകയോ</ServerPermissionsDenyTypes>
+  <ServerRequestSizeExceeded>അപ്ലോഡ് ചെയ്ത ഫയലുകൾ വലിപ്പം സെർവർ ക്രമീകരണം അനുവദനീയമായ വലിപ്പം അധികരിക്കുന്നു</ServerRequestSizeExceeded>
+  <ServerEmailMsgProcessedFilesSubject>അപ്ലോഡുചെയ്തു / പരിഷ്ക്കരിച്ച / ഇറക്കുമതിചെയ്തഉദാഹരണംതുറക്കുക / സൃഷ്ടിച്ചു / ഇല്ലാതാക്കിയ / പങ്കിട്ട ഫയലുകൾ / ഫോൾഡറുകൾ</ServerEmailMsgProcessedFilesSubject>
+  <ServerEmailMsgUploadFilesTitle>അപ്ലോഡുചെയ്</ServerEmailMsgUploadFilesTitle>
+  <ServerEmailMsgModifyFilesTitle>തിരുത്തപ്പെട്ടത്</ServerEmailMsgModifyFilesTitle>
+  <ServerEmailMsgDownloadFilesTitle>ഡൗൺലോഡ്</ServerEmailMsgDownloadFilesTitle>
+  <ServerEmailMsgCreateFilesTitle>സൃഷ്ടിച്ചു</ServerEmailMsgCreateFilesTitle>
+  <ServerEmailMsgDeleteFilesTitle>ഇല്ലാതാക്കി</ServerEmailMsgDeleteFilesTitle>
+  <ServerEmailMsgCreatePublicFilesTitle>പങ്കിട്ടു</ServerEmailMsgCreatePublicFilesTitle>
+  <ServerEmailMsgProcessedFilesBody>
+    ഇനിപ്പറയുന്ന ഫയലുകൾ / ഫോൾഡറുകൾ വഴി {1} {0} ആയിരുന്നു:
+
+{2}
+    
+  </ServerEmailMsgProcessedFilesBody>
+  <ServerEmailMsgPasswordRecoverSubject>പാസ്വേഡ് വീണ്ടെടുക്കൽ</ServerEmailMsgPasswordRecoverSubject>
+  <ServerEmailMsgPasswordRecoverBody>
+    നിങ്ങൾ വെബ് ഫയൽ മാനേജരിൽ നിങ്ങളുടെ പാസ്വേഡ് വീണ്ടെടുക്കാൻ അഭ്യർത്ഥിച്ചു. നിങ്ങളുടെ പാസ്വേഡ് റീസെറ്റ് ചെയ്തു. ഇതൊരു പിശകാണെന്ന് കരുതുന്നുവെങ്കിൽ, ലളിതമായി ഈ കത്ത് അവഗണിക്കുക, എന്നാൽ നിങ്ങളുടെ പാസ്വേഡ് മാറ്റി അറിഞ്ഞിരിക്കുക.
+    യൂസര് നെയിം: {0}
+    പുതിയ പാസ്വേഡ്: {1}
+  </ServerEmailMsgPasswordRecoverBody>
+  
+  <ServerEmailMsgUserNameRecoverSubject>ഉപയോക്തൃനാമം വീണ്ടെടുക്കൽ</ServerEmailMsgUserNameRecoverSubject>
+  <ServerEmailMsgUserNameRecoverBody>
+    നിങ്ങൾ വെബ് ഫയൽ മാനേജരിൽ നിങ്ങളുടെ വീണ്ടെടുക്കാൻ അഭ്യർത്ഥിച്ചു.
+    യൂസര് നെയിം: {0}
+  </ServerEmailMsgUserNameRecoverBody>
+
+  <ServerEmailMsgUserActivationSubject>അക്കൗണ്ട് ആക്റ്റിവേഷൻ</ServerEmailMsgUserActivationSubject>
+  <ServerEmailMsgUserActivationBody>
+    അക്കൗണ്ട് ({0}) സജീവമാക്കൽ ആവശ്യമാണ്.
+    നിങ്ങളുടെ അക്കൗണ്ട് സജീവമാക്കാനും, ഇനിപ്പറയുന്ന ലിങ്കിൽ ക്ലിക്ക് ചെയ്യുക: {1}
+  </ServerEmailMsgUserActivationBody>
+  <ServerEmailMsgUserRegisteredSubject>ഉപയോക്താവ് രജിസ്റ്റർ</ServerEmailMsgUserRegisteredSubject>
+  <ServerEmailMsgUserRegisteredBody>
+    നിങ്ങൾ വിജയകരമായി വെബ് ഫയൽ മാനേജർ രജിസ്റ്റർ ചെയ്യുന്നു.
+    യൂസര് നെയിം: {0}
+  </ServerEmailMsgUserRegisteredBody>
+  <ServerEmailMsgUserRegisteredForAdminsBody>
+    &lt;h4&gt; പുതിയ ഉപയോക്താവ് രജിസ്റ്റർ ചെയ്തു &lt;/h4&gt;
+    &lt;strong&gt; ഉപയോക്തൃ പേര് &lt;/strong&gt;: {0} &lt;br /&gt;
+    &lt;strong&gt; ഇമെയിൽ &lt;/strong&gt;: {1} &lt;br /&gt;
+    &lt;strong&gt; DATE &lt;/strong&gt;: {2} &lt;br /&gt;
+    &lt;ശക്തമായ&gt; അധിക വിവരങ്ങൾ &lt;/strong&gt;: {3} &lt;br /&gt;
+  </ServerEmailMsgUserRegisteredForAdminsBody>
+  <ServerDiskFullError>ഡിസ്കിൽ മതിയായ ഇടമില്ല.</ServerDiskFullError>
+  <ServerFolderLimitations>ഫോൾഡർ പരിമിതികൾ: {0}</ServerFolderLimitations>
+  <ServerShortcutAssignedFolderNotFound>അസൈൻഡ് ഫോൾഡർ കുറുക്കുവഴി ഒരു ടാർഗെറ്റ് പാത്ത് കണ്ടില്ല</ServerShortcutAssignedFolderNotFound>
+  <ServerSizeFilesForZipExceeded>archivable ഫയലുകൾ വലിപ്പം അനുവദിച്ചിട്ടുള്ള മൂല്യം {0} കവിഞ്ഞു.</ServerSizeFilesForZipExceeded>
+  <ServerPasteFolderToSubfolderError>ഡെസ്റ്റിനേഷൻ ഫോൾഡർ "{0} 'ഉറവിട ഫോൾഡർ" {1} "ഒരു ഉപഫോൾഡർ ആണ്.</ServerPasteFolderToSubfolderError>
+  <ServerLiveConnectAppIDNotSpecified>മൈക്രോസോഫ്റ്റ് ലൈവ് കണക്ട് അപേക്ഷയുടെ ക്ലയന്റ് ഐഡി നിർവ്വചിച്ചിട്ടില്ല</ServerLiveConnectAppIDNotSpecified>
+  <ServerSendEmailInfo>രചയിതാവ് {0} പോലെ അവരുടെ ഇമെയിൽ വ്യക്തമാക്കിയ. മറുപടി മാത്രമേ ഈ ഇമെയിൽ വിലാസം ഉപയോഗിക്കുക.</ServerSendEmailInfo>
+
+  <ServerAntivirusScanningFailed>ഒരു ആന്റിവൈറസ് വഴി സ്കാൻ: '{0} {1}' അസാധാരണമായി അവസാനിപ്പിച്ചു.</ServerAntivirusScanningFailed>
+
+  <ServerUserNameNotFound>പേരിൽ ഉപയോക്താവ് '{0}' കണ്ടെത്തിയില്ല.</ServerUserNameNotFound>
+  <ServerFileNameCopySuffix>പകര്പ്പ്</ServerFileNameCopySuffix>
+
+  <ServerDeleteFolderNTFSAccessDenied>നിങ്ങൾക്ക് ഫോൾഡറിൽ നീക്കം NTFS അനുമതി ഇല്ല "{0}"</ServerDeleteFolderNTFSAccessDenied>
+
+  <ServerMSOOTemplateNotFound>{0} ഫലകം കണ്ടെത്തിയില്ല</ServerMSOOTemplateNotFound>
+</Localization>

@@ -1,0 +1,305 @@
+﻿<!-- saved from url=(0014)about:internet -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Interface view modes (Windows version)</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <script type="text/javascript" language="javascript">
+        function toggleBlock(id) {
+            if (document.getElementById(id).style.display == 'none') {
+                document.getElementById(id).style.display = 'block';
+            }
+            else {
+                document.getElementById(id).style.display = 'none';
+            }
+        }
+    </script>
+    
+    <table width="100%" cellpadding="0" cellspacing="0">
+        <tr>
+            <td width="320">
+                <table>
+                    <tr>
+                        <td style="vertical-align:top;text-align:left;">
+                            <a target='_blank' href='http://www.element-it.com/asp-net-explorer-browser/online-share/web-file-manager.aspx'><img style='cursor:pointer;' alt="HTTP Commander" src="Images/HCLogo.png" border="0" /></a>
+                        </td>
+                        <td class="green" style="vertical-align:top;text-align:left;padding-top:21px;">
+                            &nbsp;AJS 4.x
+                        </td>
+                    </tr>
+                </table>
+                <span class="gray">Manual</span>
+            </td>
+             <td>
+  <!-- For windows version only. Start --> 
+	<p>
+	<strong>Note!</strong> This Manual is for the <strong>"Windows authentication"</strong> version, 
+	which is designed to work with existing Windows server or Active Directory accounts and Windows authentication. 
+	If you want to create accounts by yourself and store their credentials in your own HTTP Commander XML database, 
+	you need to download the <a target="_blank" href="http://www.element-it.com/downloadfile.aspx?type=st">"Forms authentication" version</a>!
+	This Manual is for the Windows authentication version only!
+	</p>
+	<!-- For windows version only. End --> 
+	
+ 
+	
+                
+            </td>
+            <td align="char" width="230">
+                <img alt="" src="Images/world.jpg" align="middle" hspace="5" style="vertical-align:top;padding-top:1px;" /><b><a target="_blank" title="web file manager" href="http://www.element-it.com/asp-net-explorer-browser/online-share/web-file-manager.aspx">Web file manager</a></b><br />
+                <img alt="" src="Images/support.png" width="16" height="16" align="middle" hspace="5" style="vertical-align:top;padding-top:1px;" /><b><a
+                    href="onlinesupport.html" target="main">Free Installation assistance</a></b><br />
+                <img alt="" src="Images/help.png" align="middle" width="16" height="16" hspace="5" style="vertical-align:top;padding-top:1px;" /><b><a
+                    href="index.html" title="Manual Home page" target="_blank">Manual Home page</a></b><br />
+            </td>
+        </tr>
+    </table>
+    
+    <p class="topic">
+        <a id="hcadsicomtopic">Interface view modes</a>
+    </p>
+HTTP Commander can work in a stand-alone window and inside iframe. You can also use <b>iframe view</b> - it allows you to <b>place the interface into any existing page</b>. Your site can be built on ASP.NET, PHP platform or contain only static content. HTTP Commander may be installed on the same server or on another one. 
+With just one line of code, you can place HTTP Commander interface inside a region on any page. 
+See how it looks on our site in the image below or <a target="_blank" href="http://www.element-it.com/iframemode.aspx">at our website</a> or even at <a href="iframesample.html">your local PC</a>!<br/>
+<br/>
+
+How to use the iframe view mode:
+<ul>
+<li>Install application and check if it works in stand-alone browser window.</li>
+<li>Set <b>"IsEmbeddedtoIFRAME"</b> parameter to the "true" at Application settings.</li>
+
+<li>Place the code on any page on your site:<br/>
+<textarea cols="70" rows="4">
+<iframe src="https://demo.element-it.com/examples/demoiframe/Default.aspx" id="HTTP_Commander" frameborder="0" style="width: 500px; height: 300px; margin-left: 0px; margin-top: 0px"></iframe>
+</textarea><br/>
+Replace <strong>"https://demo.element-it.com/examples/demoiframe/Default.aspx"</strong> with the path to the default page of your HTTP Commander instance.</li>
+<li>
+<strong>Note 1!</strong> Minimum IFRAME dimensions: width - 500, height - 300. </li>
+<li>
+<strong>Note 2!</strong> You can pass  <b>"IsEmbeddedtoIFRAME"</b> parameter also in the URL like <strong>"https://demo.element-it.com/examples/demoiframe/Default.aspx?IsEmbeddedtoIFRAME=true"</strong></li>
+<li>
+    If you place iframe element on site page with the same domain, as HTTP Commander, 
+    you can add in addition the button of deployment of iframe with HTTP Commander in fullscreen.<br />
+    For this purpose set a parameter value of <a href="webconfigsetup.html#ShowFullScreenOrExitFullScreenButton">ShowFullScreenOrExitFullScreenButton</a> in true.<br />
+    <a target="_blank" href="Images/fullscreenbutton.png" onClick="toggleBlock('fullscreenbutton'); return false;" class="imglink">Screenshot</a>
+    <div id="fullscreenbutton" style="display: none;"><p>
+        <img class="screenshot" src="Images/fullscreenbutton.png" style="width:1088px; height:417px" />
+    </p></div>
+</li>
+<li id="iframeviewmodecrossdomain">
+    If you want to use iframe with HTTP Commander on page with other domain:
+    <ul>
+        <li>Place on your page the following code:<br />
+        <textarea cols="100" rows="146" style="width: 650px; height: 200px; overflow: auto;"><div style="position: relative;">
+    <script type="text/javascript">
+        function moveButton(tools) {
+            if (tools && tools.parentNode) {
+                var iframes = tools.parentNode.getElementsByTagName('iframe');
+                if (!iframes || iframes.length < 1 || !iframes[0]) {
+                    return;
+                }
+                var hc = iframes[0];
+            
+                var dx = 3, dy = 5;
+
+                if (hc.maximized) {
+                    tools.style.cssFloat = 'right';
+                    tools.style.left = '';
+                    tools.style.right = '' + dx + 'px';
+                    tools.style.top = '' + dy + 'px';
+                } else {
+                    var pos = [hc.offsetLeft, hc.offsetTop];
+                    pos[0] = hc.offsetWidth + pos[0] - 15 - dx;
+                    pos[1] += dy;
+                    tools.style.cssFloat = 'left';
+                    tools.style.right = '';
+                    tools.style.left = '' + pos[0] + 'px';
+                    tools.style.top = '' + pos[1] + 'px';
+                }
+
+                tools.style.display = '';
+            }
+        }
+        function toggleButton(tools) {
+            function getStyle(element) {
+                if (element) {
+                    return window.getComputedStyle ? getComputedStyle(element, '') : element.currentStyle;
+                }
+                return null;
+            }
+
+            if (tools && tools.parentNode) {
+                var iframes = tools.parentNode.getElementsByTagName('iframe');
+                if (!iframes || iframes.length < 1 || !iframes[0]) {
+                    return;
+                }
+                var hc = iframes[0];
+                var images = tools.getElementsByTagName('img');
+                if (images.length > 0) {
+                    var img = images[0];
+                    if (hc.maximized) {
+                        if (hc.restoreStyle) {
+                            for (prop in hc.restoreStyle) {
+                                hc.style[prop] = hc.restoreStyle[prop];
+                            }
+                        }
+                        if (hc.parentPositions && hc.parentPositions.length > 0) {
+                            var parent = hc.parentNode;
+                            var i = 0;
+                            do {
+                                if (parent.style && hc.parentPositions[i]) {
+                                    parent.style.position = hc.parentPositions[i];
+                                }
+                                i++;
+                            } while ((parent = parent.parentNode) && (i < hc.parentPositions.length));
+                        }
+                        if (hc.htmlOverflow) {
+                            document.documentElement.style.overflow = hc.htmlOverflow;
+                        }
+                        if (hc.bodyOverflow) {
+                            document.body.style.overflow = hc.bodyOverflow;
+                        }
+                        if (hc.oldScrolling) {
+                            hc.scrolling = hc.oldScrolling;
+                        }
+                        img.src = 'maximize.png';
+                        hc.maximized = false;
+                    } else {
+                        window.scrollTo(0, 0);
+
+                        // save current style
+                        var hcStyle = getStyle(hc);
+                        if (hcStyle) {
+                            hc.restoreStyle = {
+                                position: hcStyle.position,
+                                left: hcStyle.left,
+                                top: hcStyle.top,
+                                width: hcStyle.width,
+                                height: hcStyle.height,
+                                zIndex: hcStyle.zIndex,
+                                overflow: hcStyle.overflow
+                            }
+                        }
+
+                        // save and change 'position:static' for parent nodes
+                        var parent = hc.parentNode;
+                        var cs;
+                        hc.parentPositions = [];
+                        do {
+                            if (parent.style) {
+                                cs = getStyle(parent);
+                                if (cs) {
+                                    hc.parentPositions.push(cs.position);
+                                }
+                                parent.style.position = 'static';
+                            }
+                        } while (parent = parent.parentNode);
+
+                        // save and change overflow for html and body
+                        var csHtml = getStyle(document.documentElement);
+                        if (csHtml) {
+                            hc.htmlOverflow = csHtml.overflow;
+                        }
+                        document.documentElement.style.overflow = 'hidden';
+                        var csBody = getStyle(document.body);
+                        if (csBody) {
+                            hc.bodyOverflow = csBody.overflow;
+                        }
+                        document.body.style.overflow = 'hidden';
+
+                        // change iframe styles
+                        hc.style.position = 'absolute';
+                        hc.style.left = '0px';
+                        hc.style.top = '0px';
+                        hc.style.width = '100%';
+                        hc.style.height = '100%';
+                        hc.style.zIndex = '50000';
+                        hc.style.overflow = 'hidden';
+                        hc.oldScrolling = hc.scrolling;
+                        hc.scrolling = 'no';
+
+                        img.src = 'restore.png';
+                        hc.maximized = true;
+                    }
+                    moveButton(tools);
+                }
+            }
+        }
+    </script>
+    <div style="display: none; cursor: pointer; z-index: 50001; border-style: none; margin: 0;
+        padding: 0; width: 15px; height: 15px; position: absolute; left: 0px; top: 0px;
+        float: left;" onclick="toggleButton(this);">
+        <img alt="" src="maximize.png" onload="moveButton(this.parentNode);" onerror="window.alert('Image maximize.png and-or restore.png not loaded!');" />
+    </div>
+    <iframe src="https://demo.element-it.com/examples/demoiframe/Default.aspx?isEmbeddedtoIFRAME=true&username=demo&password=demo" 
+        frameborder="0" style="width: 500px; height: 300px; z-index: 50000;"></iframe>
+</div>
+        </textarea><br/>
+        <b>Note!&nbsp;</b>Placement of the elements <b>script</b>, <b>div</b> with the button and <b>iframe</b> 
+        in the DIV container with style="position:<b>relative;</b>" is mandatory.  
+        For iframe you can set style parameters and others (the sizes, etc.). Other elements <b>NOT</b> change!
+        </li>
+        <li>
+            Copy <a href="Images/maximize.png" target="_blank">maximize.png</a> 
+            and 
+            <a href="Images/restore.png" target="_blank">restore.png</a> images 
+            in the folder near your page on which iframe will be placed.
+            Also you can use other icons, but consider, their size shall be 15x15.
+        </li>
+        <li>
+            In settings surely for the <a href="webconfigsetup.html#ShowFullScreenOrExitFullScreenButton">ShowFullScreenOrExitFullScreenButton</a> parameter set <b>false</b> value, 
+            and for <a href="webconfigsetup.html#DefaultViewMode">DefaultViewMode</a> - <b>FullScreen</b> value.
+        </li>
+        <li>
+            You can look at use example having followed the <a href="iframemaximizable.html" target="_blank">link</a>.<br />
+            HTML code and icons of buttons you can also find in <a href="iframemaximizable.zip" target="_blank">archive</a>.
+        </li>
+    </ul>
+</li>
+<li id="divviewmode">You can also place HTTP Commander interface in stand-alone browser window inside DIV tag.
+    <ul>
+        <li>Open in notepad on editing page <b>Default.aspx</b></li>
+        <li>
+            in the Default.aspx file find a line<br />
+            <b>&lt;!-- Opening embedded tag DIV --&gt;</b><br />
+            and make sure there is a line below:<br />
+            <code>
+                &lt;div&nbsp;id="httpCommander"&nbsp;style="position:relative&nbsp;!important;width:800px;height:600px;left:50px;top:50px;"&gt;
+            </code><br />
+            Also find line<br />
+            <b>&lt;!-- Closing embedded tag DIV --&gt;</b><br />
+            and make sure there is a line below with closing DIV tag:<br />
+            <code>
+                &lt;/div&gt;
+            </code>
+        </li>
+        <li>You also can change attributes of style at the DIV element: width, height, etc.<br /> 
+            <b>Note!</b> It is recommended not to change attribute of <b>position</b> style.</li>
+        <li>
+            Save and close.<br />
+            <a target="_blank" href="Images/divembeddedtag.png" onclick="toggleBlock('divembeddedtag'); return false;" class="imglink">Screenshot</a>
+            <div id="divembeddedtag" style="display: none;">
+                <p>
+                    <img class="screenshot" src="Images/divembeddedtag.png" style="width:704px; height:773px" />
+                </p>
+            </div>
+        </li>
+        <li>
+            Change voluntarily in settings <a href="webconfigsetup.html#DefaultViewMode">DefaultViewMode</a> parameter value:<br /> 
+            <b>InsideDiv</b> - in case of start of HTTP Commander will be shown in an element DIV as it is defined in Default.aspx.<br />
+            <b>FullScreen</b> - HTTP Commander will be unrolled on all screen of the browser together with the DIV element.
+        </li>
+        <li>
+            Also for switching between a fullscreen mode and normal to use parameter <a href="webconfigsetup.html#ShowFullScreenOrExitFullScreenButton">ShowFullScreenOrExitFullScreenButton</a>.
+        </li>
+        </ul>
+</li>
+</ul>
+<br />
+<img src="Images/iframe.png" width="640" height="497" border="0" />    
+</body>
+</html>

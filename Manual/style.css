@@ -1,0 +1,221 @@
+﻿body,td,tr
+{
+	/*font-family: "Verdana";
+	font-size: 8pt;*/
+	color:#2a2a2a;
+	font-family: 'Segoe UI', 'Lucida Grande', Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	background-color: white;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: 5px;
+	overflow-wrap: break-word;
+}
+
+table.settings{
+    table-layout: fixed;
+	width: 100%;
+	border: 1px solid gray;
+	border-collapse: collapse;	
+}
+
+table.settings td    {
+	padding: 6px;
+	border: 1px solid gray;
+}
+
+td.tdkey{
+	width:25%;
+}
+
+td.tdvalue{
+	width:20%;
+}
+
+td.tdssl{
+	width:25%;
+	text-align : center;
+	font-weight: bold;
+}
+
+table.list
+{
+    border-style: solid;
+    border-width: 1px;
+    font-family: "Verdana";
+    font-size: 8pt;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-collapse: collapse;
+}
+
+table.list td
+{
+    border-style: solid;
+    border-width: 1px;
+    padding: 7px 10px 7px 10px;
+}
+
+table.list th
+{
+    border-style: solid;
+    border-width: 1px;
+    padding: 7px 10px 7px 10px;
+}
+
+a:link
+{
+	color: #336699;
+}
+a:visited
+{
+	color: #336699;
+}
+a:active
+{
+	color: #336699;
+}
+.question
+{
+	font-weight: bold;
+	color: #345092;
+}
+.faqquestion
+{
+display:block;
+
+background-color:#C8EEB7;
+ 
+}
+.topic
+{
+	text-align: center;
+	background-color: #EEEEEE;
+	font-weight: bold;
+	color: #336699;
+	vertical-align: middle;
+	font-size: larger;
+}
+.topicLeft
+{
+	text-align: left;
+	background-color: #EEEEEE;
+	font-weight: bold;
+	color: #336699;
+	vertical-align: middle;
+	font-size: larger;
+}
+
+li
+{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.caption
+{
+	color: #336699;
+	font-size: 24px;
+}
+
+.troubleitem
+{
+	color: #336699;
+	font-size: 14px;
+}
+
+.troubleanswer
+{
+	padding-left:20px;
+}
+.note
+{
+	text-align: left;
+    background-color: #EEEEEE;
+    border-radius: 5px;
+    border: solid 1px #CCCCCC;
+    padding: 5px;
+}
+.yellow
+{
+	color: #FF9900;
+	font-weight: bold;
+	font-size: 24px;
+}
+.gray
+{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #999999;
+	font-size: 24px;
+}
+.green
+{
+    color: #6AB14F;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.ulimg
+{
+	vertical-align: middle;
+	margin-right: 5px;
+}
+
+.screenshot
+{
+	margin-left: 40px;
+}
+
+.imgwithborder
+{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #D4D0C8;
+}
+
+.ssl-yes{
+	text-align:center;
+	color: #38761D;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.ssl-no{
+	text-align:center;
+	color: #CC0000;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.imglink
+{
+	color: #333399;
+	text-decoration:underline;
+	font-size: 10pt;
+	font-weight: bold;
+	cursor:pointer; 
+}
+a.imglink
+{
+	color: #333399;
+	text-decoration:underline;
+	font-size: 10pt;
+	font-weight: bold;
+	cursor:pointer; 
+}
+
+* html .listing {
+   width: 96%;
+   padding-left: 1%;
+   padding-right: 5px;
+   padding-top: 2px;
+   padding-bottom: 17px;
+   overflow-x: auto;	
+   background-color: #F2F2F2;
+}
+
+* html .signature {
+	font-size: 120%;
+	font-weight: bold;
+	font-family: "Courier New", Courier, mono;
+}

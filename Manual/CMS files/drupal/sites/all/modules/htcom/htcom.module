@@ -1,0 +1,51 @@
+﻿<?php
+// $Id$
+/**
+* Display help and module information
+* @param path which path of the site we're displaying help
+* @param arg array that holds the current path as would be returned from arg() function
+* @return help text for the path
+function htcom_help($path, $arg) {
+  $output = '';  //declare your output variable
+	$output = "Httpcommander help string";
+  return $output;
+}
+*/
+
+/**
+* Valid permissions for this module
+* @return array An array of valid permissions for the onthisdate module
+*/
+function htcom_perm() {
+  return array('access htcom content');
+}
+
+/**
+* Implementation of hook_block().
+* @param string $op one of "list", "view", "save" and "configure"
+* @param integer $delta code to identify the block
+* @param array $edit only for "save" operation
+*/
+function htcom_block($op = 'list', $delta = 0, $edit = array()) {  
+  if ($op == "list") {
+    // Generate listing of blocks from this module, for the admin/block page
+    $block = array();
+    $block[0]["info"] = t('Http commander');
+    return $block;
+  } else if ($op == 'view') {
+		$url = 'http://localhost/HttpCommander/Default.aspx';
+		$options = array();
+		if(isset($GLOBALS['user'])) {
+			$options['query'] = array(
+				'username' => $GLOBALS['user']->name, 
+				'passwordhash' => $GLOBALS['user']->pass
+			);
+		}
+		$block_content = l("Http commander", $url, $options) .'<br />';
+		// set up the block  
+	  $block = array();
+	  $block['subject'] = 'Http commander';  
+	  $block['content'] = $block_content;
+	  return $block;
+	}
+}

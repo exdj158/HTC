@@ -1,0 +1,402 @@
+﻿<!-- saved from url=(0014)about:internet -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Microsoft OneDrive for Business integration (Windows version)</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <script type="text/javascript" language="javascript">
+        function toggleBlock(id) {
+            if (document.getElementById(id).style.display == 'none') {
+                document.getElementById(id).style.display = 'block';
+            } else {
+                document.getElementById(id).style.display = 'none';
+            }
+        }
+    </script>
+    
+    <table width="100%" cellpadding="0" cellspacing="0">
+        <tr>
+            <td width="320">
+                <table>
+                    <tr>
+                        <td style="vertical-align:top;text-align:left;">
+                            <a target='_blank' href='http://www.element-it.com/asp-net-explorer-browser/online-share/web-file-manager.aspx'><img style='cursor:pointer;' alt="HTTP Commander" src="Images/HCLogo.png" border="0" /></a>
+                        </td>
+                        <td class="green" style="vertical-align:top;text-align:left;padding-top:21px;">
+                            &nbsp;AJS 4.x
+                        </td>
+                    </tr>
+                </table>
+                <span class="gray">Manual</span>
+            </td>
+            <td>
+  <!-- For windows version only. Start --> 
+	<p>
+	<strong>Note!</strong> This Manual is for the <strong>"Windows authentication"</strong> version, 
+	which is designed to work with existing Windows server or Active Directory accounts and Windows authentication. 
+	If you want to create accounts by yourself and store their credentials in your own HTTP Commander XML database, 
+	you need to download the <a target="_blank" href="http://www.element-it.com/downloadfile.aspx?type=st">"Forms authentication" version</a>!
+	This Manual is for the Windows authentication version only!
+	</p>
+	<!-- For windows version only. End --> 
+	
+ 
+	
+                
+            </td>
+            <td align="char" width="230">
+                <img alt="" src="Images/world.jpg" align="middle" hspace="5" style="vertical-align:top;padding-top:1px;" /><b><a target="_blank" title="web file manager" href="http://www.element-it.com/asp-net-explorer-browser/online-share/web-file-manager.aspx">Web file manager</a></b><br />
+                <img alt="" src="Images/support.png" width="16" height="16" align="middle" hspace="5" style="vertical-align:top;padding-top:1px;" /><b><a
+                    href="onlinesupport.html" target="main">Free Installation assistance</a></b><br />
+                <img alt="" src="Images/help.png" align="middle" width="16" height="16" hspace="5" style="vertical-align:top;padding-top:1px;" /><b><a
+                    href="index.html" title="Manual Home page" target="_blank">Manual Home page</a></b><br />
+            </td>
+        </tr>
+    </table>
+    
+    <!-- Title -->
+    <p class="topic">
+        <a id="hcadsicomtopic">Microsoft OneDrive for Business integration</a>
+    </p>
+    
+    <p>
+        OneDrive for Business is a personal library intended for storing and organizing your work documents.
+        As an integral part of Office 365 or SharePoint Server 2013, OneDrive for Business lets you work within the context 
+        of your organization, with features such as direct access to your organization’s address book. 
+        More info: <a href="https://support.office.com/en-us/article/What-is-OneDrive-for-Business-187f90af-056f-47c0-9656-cc0ddca7fdc2" target="_blank">What is OneDrive for Business?</a>, 
+        <a href="https://onedrive.live.com/about/en-us/business/" target="_blank">OneDrive for Business</a>.
+    </p>
+
+    <p>
+        For work with files from HTTP Commander (create/edit documents, download/upload files, folders) stored in the OneDrive for Business, follow these steps.
+    </p>
+
+    <ul>
+        <li>If you do not have an Office 365 account, then you can select
+            <a href="https://products.office.com/en-us/business/compare-office-365-for-business-plans" target="_blank">the desired plan and register</a>,
+            or try <a href="https://portal.office.com/Signup/Signup.aspx?OfferId=bda7a87a-ffd0-4b20-b4d9-a3b48ebd70b9" target="_blank">the free trial period</a>.<br />
+            <a target="_blank" href="Images/onedriveforbusiness/register.png" onclick="toggleBlock('odfb_register'); return false;"
+               class="imglink">Screenshots</a>
+            <div id="odfb_register" style="display: none;">
+                <p class="screenshot">
+                    &nbsp;<img alt="" src="Images/onedriveforbusiness/register.png" style="width:1016px;height:880px;" />
+                </p>
+                <p class="screenshot">
+                    &nbsp;<img alt="" src="Images/onedriveforbusiness/accountcreated.png" style="width:1016px;height:880px;" />
+                </p>
+            </div>
+            <br />
+            For more info see <a href="https://msdn.microsoft.com/office/office365/HowTo/setup-development-environment#bk_Office365Account" target="_blank">Get an Office 365 account to access Office 365 APIs</a>.
+        </li>
+        <li>
+            Create a Microsoft Azure subscription for your Office 365 tenant. For this:
+            <ul>
+                <li>Log in to your Office 365 tenant and go to the Office 365 admin center<br />
+                    (from the <a href="https://portal.office.com/Home" target="_blank">Home</a> page, select the <a href="https://portal.office.com/Admin/Default.aspx" target="_blank">Admin</a> icon to open the Office 365 admin center).<br />
+                    <a target="_blank" href="Images/onedriveforbusiness/admin.png" onclick="toggleBlock('odfb_admin'); return false;"
+                       class="imglink">Screenshot</a>
+                    <div id="odfb_admin" style="display: none;">
+                        <p class="screenshot">
+                            &nbsp;<img alt="" src="Images/onedriveforbusiness/admin.png" style="width:1016px;height:880px;" />
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    In the menu page along the left side of the page, scroll down to <b>Admin centers</b> icon and select <b>Azure AD</b>.<br />
+                    <a target="_blank" href="Images/onedriveforbusiness/azuread.png" onclick="toggleBlock('odfb_azuread'); return false;"
+                       class="imglink">Screenshot</a>
+                    <div id="odfb_azuread" style="display: none;">
+                        <p class="screenshot">
+                            &nbsp;<img alt="" src="Images/onedriveforbusiness/azuread.png" style="width:1016px;height:880px;" />
+                        </p>
+                    </div><br />
+                    <b>Important</b> To open the Office 365 admin center, and access Azure AD, you'll need an Office 365 business account with global administrator privileges.
+                </li>
+                <li>Create a new subscription.<br />
+                    If you're using a trial version of Office 365, you'll see a message telling you that Azure AD is limited to customers with paid services. You can still create a trial 30-day Azure subscription at no charge, but you'll need to perform a few extra steps:
+                    <ul>
+                        <li>Select your country or region, and then click <b>Azure subscription.</b></li>
+                        <li>Enter your personal information. For verification purposes, enter a telephone number at which you can be reached, and specify whether you want to be sent a text message or called.</li>
+                        <li>Once you've received your verification code, enter it and click <b>Verify code</b>.</li>
+                        <li>Enter payment information, check the agreement, and select <b>Sign up</b>.<br />
+                            Your credit card will not be charged.<br />
+                            Do not close or refresh your browser while your Azure subscription is being created.<br />
+                        </li>
+                    </ul>
+                    <a target="_blank" href="Images/onedriveforbusiness/azuresubscription.png" onclick="toggleBlock('odfb_azuresubscription'); return false;"
+                       class="imglink">Screenshot</a>
+                    <div id="odfb_azuresubscription" style="display: none;">
+                        <p class="screenshot">
+                            &nbsp;<img alt="" src="Images/onedriveforbusiness/azuresubscription.png" style="width:1016px;height:880px;" />
+                        </p>
+                    </div>
+                </li>
+                <li>Once your Azure subscription is created, choose <b><a target="_blank" href="https://portal.azure.com/">Portal</a></b> or <b><a target="_blank" href="https://portal.azure.com/">Start managing my service</a></b>.<br />
+                    <a target="_blank" href="Images/onedriveforbusiness/chooseazureportal.png" onclick="toggleBlock('odfb_chooseazureportal'); return false;"
+                       class="imglink">Screenshot</a>
+                    <div id="odfb_chooseazureportal" style="display: none;">
+                        <p class="screenshot">
+                            &nbsp;<img alt="" src="Images/onedriveforbusiness/chooseazureportal.png" style="width:1016px;height:880px;" />
+                        </p>
+                    </div>
+                </li>
+                <li><!--The Azure Tour appears. You can view it, or choose <b>X</b> to close it.<br /><br />-->
+                You should now see all items in your Azure subscription. It lists a directory with the name of your Office 365 tenant.<br />
+                    <a target="_blank" href="Images/onedriveforbusiness/azureportal.png" onclick="toggleBlock('odfb_azureportal'); return false;"
+                       class="imglink">Screenshot</a>
+                    <div id="odfb_azureportal" style="display: none;">
+                        <p class="screenshot">
+                            &nbsp;<img alt="" src="Images/onedriveforbusiness/azureportal.png" style="width:1016px;height:880px;" />
+                        </p>
+                    </div>
+                <br /><br />
+                For more info see <a href="https://msdn.microsoft.com/office/office365/HowTo/setup-development-environment#bk_CreateAzureSubscription" target="_blank">Associate your Office 365 account with Azure AD to create and manage apps</a>.
+                </li>
+            </ul>
+        </li>
+        <li>
+            Register your HTTP Commander application in Microsoft Azure Active Directory.
+            <ul>
+                <li>Sign into the <a href="https://portal.azure.com/" target="_blank">Microsoft Azure Portal</a> using your Office 365 credentials.</li>
+                <li>Click the <b>Active Directory</b> in <b>Browse&nbsp;&gt;</b> node in the left column and select the directory linked to your Office 365 subscription.<br />
+                    <a target="_blank" href="Images/onedriveforbusiness/azureselectad.png" onclick="toggleBlock('odfb_azureselectad'); return false;"
+                       class="imglink">Screenshot</a>
+                    <div id="odfb_azureselectad" style="display: none;">
+                        <p class="screenshot">
+                            &nbsp;<img alt="" src="Images/onedriveforbusiness/azureselectad.png" style="width:1016px;height:880px;" />
+                        </p>
+                    </div>
+                </li>
+                <li>Select the <b>Applications</b> tab and then <b>ADD</b> at the bottom of the screen.<br />
+                    This will bring up a dialog box to tell Microsoft Azure about your HTTP Commander application.<br />
+                    <a target="_blank" href="Images/onedriveforbusiness/azureadforapp.png" onclick="toggleBlock('odfb_azureadforapp'); return false;"
+                       class="imglink">Screenshot</a>
+                    <div id="odfb_azureadforapp" style="display: none;">
+                        <p class="screenshot">
+                            &nbsp;<img alt="" src="Images/onedriveforbusiness/azureadforapp.png" style="width:1016px;height:880px;" />
+                        </p>
+                    </div>
+                </li>
+                <li>Choose <b>Add an application my organization is developing</b>.<br />
+                    <a target="_blank" href="Images/onedriveforbusiness/chooseapptype.png" onclick="toggleBlock('chooseapptype'); return false;"
+                        class="imglink">Screenshot</a>
+                    <div id="chooseapptype" style="display: none;">
+                        <p class="screenshot">
+                            &nbsp;<img alt="" src="Images/onedriveforbusiness/chooseapptype.png" style="width:600px;height:450px;" />
+                        </p>
+                    </div>
+                </li>
+                <li>Enter the name of the HTTP Commander application. Leave the Type as Web application and/or Web API. Then choose the arrow to move to step 2.<br />
+                    <a target="_blank" href="Images/onedriveforbusiness/enterappname.png" onclick="toggleBlock('enterappname'); return false;"
+                        class="imglink">Screenshot</a>
+                    <div id="enterappname" style="display: none;">
+                        <p class="screenshot">
+                            &nbsp;<img alt="" src="Images/onedriveforbusiness/enterappname.png" style="width:630px;height:450px;" />
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    For the <b>SIGN-ON URL</b> and <b>APP ID URI</b> enter the URL in which you enter the HTTP Commander application.
+                    For example: <b>https://<i>yourdomain</i>/HTCOMNET/Default.aspx</b>.<br />
+                    <a target="_blank" href="Images/onedriveforbusiness/enterappurl.png" onclick="toggleBlock('enterappurl'); return false;"
+                        class="imglink">Screenshot</a>
+                    <div id="enterappurl" style="display: none;">
+                        <p class="screenshot">
+                            &nbsp;<img alt="" src="Images/onedriveforbusiness/enterappurl.png" style="width:630px;height:450px;" />
+                        </p>
+                    </div>
+                </li>
+                <li>Choose the checkmark to complete adding the application. You get a notification that the application has been added successfully.
+                    <br /><br />
+                    For more info see <a href="https://msdn.microsoft.com/office/office365/HowTo/getting-started-Office-365-APIs" target="_blank">Get started with Office 365 APIs in apps</a>.
+                </li>
+            </ul>
+        </li>
+        <li>
+            HTTP Commander settings for create/edit documents in Office 365 or access to files stored in OneDrive for Business.
+            <ul>
+                <li>Go to <b>Settings</b> tab of HTTP Commander <a href="../AdminPanel.aspx" target="_blank">Admin Panel</a>.
+                    If the hidden settings are not visible, then click <b>Show hidden paramters</b> button on toolbar of <b>Settings</b> tab.</li>
+                <li>For the parameters <a href="webconfigsetup.html#EnableDownloadToSkyDrive">EnableDownloadToSkyDrive</a>, 
+                    <a href="webconfigsetup.html#EnableUploadFromSkyDrive">EnableUploadFromSkyDrive</a> (section <b>UploadDownload</b>)
+                    or-and <a href="webconfigsetup.html#EnableMsOfficeOnlineEditor">EnableMsOfficeOnlineEditor</a> (section <b>Office</b>) set values to <b>true</b>.</li>
+                <li>If you are not already logged in to your Microsoft Azure account, <a target="_blank" href="https://portal.azure.com/">log in</a>.
+                    Choose <b>Browse&nbsp;&gt;</b> <b>Active Directory</b> &rarr; choose your directory &rarr; <b>Applications</b> &rarr; choose created the HTTP Commander application.<br />
+                    <a target="_blank" href="Images/onedriveforbusiness/apppage.png" onclick="toggleBlock('apppage'); return false;"
+                        class="imglink">Screenshot</a>
+                    <div id="apppage" style="display: none;">
+                        <p class="screenshot">
+                            &nbsp;<img alt="" src="Images/onedriveforbusiness/apppage.png" style="width:728px;height:635px;" />
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    Click <b>VIEW ENDPOINTS</b> icon on the bottom side. Copy the URL of <b>OAUTH 2.0 AUTHORIZATION ENDPOINT</b> 
+                    and paste it into the hidden parameter <a href="webconfigsetup.html#OneDriveForBusinessOAuth2Endpoint">OneDriveForBusinessOAuth2Endpoint</a> (section <b>Office</b>).<br />
+                    <a target="_blank" href="Images/onedriveforbusiness/oauthendpoint.png" onclick="toggleBlock('oauthendpoint'); return false;"
+                        class="imglink">Screenshot</a>
+                    <div id="oauthendpoint" style="display: none;">
+                        <p class="screenshot">
+                            &nbsp;<img alt="" src="Images/onedriveforbusiness/oauthendpoint.png" style="width:502px;height:632px;" />
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    Close the <b>App Endpoints</b> window and on the top nav choose <b>CONFIGURE</b>. Copy the value of
+                    <b>CLIENT ID</b> field and paste it into the hidden parameter <a href="webconfigsetup.html#OneDriveForBusinessAppClientID">OneDriveForBusinessAppClientID</a> (section <b>Office</b>).<br />
+                    <a target="_blank" href="Images/onedriveforbusiness/clientidfield.png" onclick="toggleBlock('clientidfield'); return false;"
+                        class="imglink">Screenshot</a>
+                    <div id="clientidfield" style="display: none;">
+                        <p class="screenshot">
+                            &nbsp;<img alt="" src="Images/onedriveforbusiness/clientidfield.png" style="width:628px;height:660px;" />
+                        </p>
+                    </div>
+                </li>
+                <li id="replyurl">
+                    In the <b>keys</b> section select key validity period of the application. In the <b>REPLY URL</b> field
+                    replace <b>Default.aspx</b> to <b>Handlers/OneDriveForBusinessOAuthHandler.ashx</b>.<br />
+                    <a target="_blank" href="Images/onedriveforbusiness/keysreplyurlfiels.png" onclick="toggleBlock('keysreplyurlfiels'); return false;"
+                        class="imglink">Screenshot</a>
+                    <div id="keysreplyurlfiels" style="display: none;">
+                        <p class="screenshot">
+                            &nbsp;<img alt="" src="Images/onedriveforbusiness/keysreplyurlfiels.png" style="width:816px;height:411px;" />
+                        </p>
+                    </div>
+                </li>
+                <li id="delegatepermissions">
+                    In the <b>permissions to other applications</b> section add the <b>Office 365 SharePoint Online</b>
+                    application<br />
+                    <a target="_blank" href="Images/onedriveforbusiness/office365permissions.png" onclick="toggleBlock('odfb_office365permissions'); return false;"
+                       class="imglink">Screenshot</a>
+                    <div id="odfb_office365permissions" style="display: none;">
+                        <p class="screenshot">
+                            &nbsp;<img alt="" src="Images/onedriveforbusiness/office365permissions.png" style="width:1016px;height:880px;" />
+                        </p>
+                    </div>
+                    <br />and select the <b>Delegated Permissions</b> as shown below:<br />
+                    <ul>
+                        <li>Read managed metadata</li>
+                        <li>Read and write user files</li>
+                        <li>Read user files</li>
+                        <li>Have full control of all site collections</li>
+                        <li>Read user profiles</li>
+                    </ul>
+                    <a target="_blank" href="Images/onedriveforbusiness/permissions.png" onclick="toggleBlock('permissions'); return false;"
+                        class="imglink">Screenshot</a>
+                    <div id="permissions" style="display: none;">
+                        <p class="screenshot">
+                            &nbsp;<img alt="" src="Images/onedriveforbusiness/permissions.png" style="width:837px;height:337px;" />
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    On the bottom side click <b>SAVE</b> button and after saving copy the key value and paste it into the
+                    hidden parameter <a href="webconfigsetup.html#OneDriveForBusinessAppKey">OneDriveForBusinessAppKey</a> (section <b>Office</b>).<br />
+                    <a target="_blank" href="Images/onedriveforbusiness/appkeyvalue.png" onclick="toggleBlock('appkeyvalue'); return false;"
+                        class="imglink">Screenshot</a>
+                    <div id="appkeyvalue" style="display: none;">
+                        <p class="screenshot">
+                            &nbsp;<img alt="" src="Images/onedriveforbusiness/appkeyvalue.png" style="width:817px;height:196px;" />
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    For the hidden parameter <a href="webconfigsetup.html#OneDriveForBusinessRootUrl">OneDriveForBusinessRootUrl</a> (section <b>Office</b>)
+                    set root URL to access OneDrive for Business. This url has the form <b>https://<i>yourcompanyname</i>-my.sharepoint.com</b>.
+                </li>
+                <li>
+                    <b>Note!</b> All of these four parameters (<a href="webconfigsetup.html#OneDriveForBusinessRootUrl">OneDriveForBusinessRootUrl</a>,
+                    <a href="webconfigsetup.html#OneDriveForBusinessAppClientID">OneDriveForBusinessAppClientID</a>,
+                    <a href="webconfigsetup.html#OneDriveForBusinessAppKey">OneDriveForBusinessAppKey</a>,
+                    <a href="webconfigsetup.html#OneDriveForBusinessOAuth2Endpoint">OneDriveForBusinessOAuth2Endpoint</a> in section <b>Office</b>)
+                    are required if you want to use integration with OneDrive for Business.
+                </li>
+                <li>
+                    After setting the values ​​do not forget to save your HTTP Commander settings
+                    (<b>Save settings</b> button on the toolbar of <b>Settings</b> tab) and restart the application
+                    (<b>Restart application</b> button).
+                </li>
+            </ul>
+        </li>
+        <li>Also for more info see <a href="https://msdn.microsoft.com/en-us/office/office365/howto/add-common-consent-manually"
+            target="_blank">Manually register your app with Azure AD so it can access Office 365 APIs</a>.</li>
+    </ul>
+
+    <br />
+
+    For more info see also <a target="_blank" href="https://dev.onedrive.com/app-registration.htm#register-your-app-for-onedrive-for-business">Register your app for OneDrive for Business</a>
+    manual.
+    <br />
+
+    <p>
+        After performing these steps, your users with corporate accounts OneDrive for Business
+        (as <b>&lt;username&gt;@&lt;yourcompanyname&gt;.onmicrosoft.com</b>) can download/upload your files using
+        the items <b>Cloud storages &rarr; download to... / upload from... &rarr; OneDrive</b>
+        in context menu or on the toolbar; or can create/edit documents in Office 365 Online.<br />
+        <a target="_blank" href="Images/onedriveforbusiness/loginform.png" onclick="toggleBlock('loginform'); return false;" class="imglink">Screenshot</a>
+        <div id="loginform" style="display: none;">
+            <p class="screenshot">
+                &nbsp;<img alt="" src="Images/onedriveforbusiness/loginform.png" style="width:397px;height:298px;" />
+            </p>
+        </div>
+    </p>
+
+    <p>
+        <b>Note 1.</b> If when opening the file list you receive an error:<br />
+        <b>The requested resource is being automatically provisioned. Please try again in a few minutes. (ItemNotFound)</b><br />
+        <a target="_blank" href="Images/onedriveforbusiness/ItemNotFound.png" onclick="toggleBlock('ItemNotFound'); return false;"
+           class="imglink">Screenshot</a>
+        <div id="ItemNotFound" style="display: none;">
+            <p class="screenshot">
+                &nbsp;<img alt="" src="Images/onedriveforbusiness/ItemNotFound.png" style="width:579px;height:103px;" />
+            </p>
+        </div>
+        it is necessary to come into your OneDrive for Business (from the <a href="https://portal.office.com/Home" target="_blank">Home</a> page,
+        select the <b>OneDrive</b> icon) via the browser and to wait some minutes so far to be performed setting up of your storage<br />
+        <a target="_blank" href="Images/onedriveforbusiness/waitsettingsup.png" onclick="toggleBlock('waitsettingsup'); return false;"
+           class="imglink">Screenshot</a>
+        <div id="waitsettingsup" style="display: none;">
+            <p class="screenshot">
+                &nbsp;<img alt="" src="Images/onedriveforbusiness/waitsettingsup.png" style="width:810px;height:623px;" />
+            </p>
+        </div>
+    </p>
+
+    <p>
+        <b>Note 2.</b> If in case of log in you receive an error:<br />
+        <b>AADSTS90093 – Calling principal cannot consent due to lack of permissions</b><br />
+        <a target="_blank" href="Images/onedriveforbusiness/consenterror.png" onclick="toggleBlock('consenterror'); return false;" class="imglink">Screenshot</a>
+        <div id="consenterror" style="display: none;">
+            <p class="screenshot">
+                &nbsp;<img alt="" src="Images/onedriveforbusiness/consenterror.png" style="width:416px;height:567px;" />
+            </p>
+        </div>
+        that needs to be checked (and to set if necessary) the <a href="#delegatepermissions">Delegated permissions</a><br />
+        <a target="_blank" href="Images/onedriveforbusiness/permissions.png" onclick="toggleBlock('permissions1'); return false;"
+           class="imglink">Screenshot</a>
+        <div id="permissions1" style="display: none;">
+            <p class="screenshot">
+                &nbsp;<img alt="" src="Images/onedriveforbusiness/permissions.png" style="width:837px;height:337px;" />
+            </p>
+        </div>
+    </p>
+
+    <p>
+        <b>Note 3.</b> If in case of log in you receive an error:<br />
+        <b>AADSTS50011: The reply address ... does not match the reply address configured for the application</b><br />
+        <a target="_blank" href="Images/onedriveforbusiness/badreplyaddress.png" onclick="toggleBlock('badreplyaddress'); return false;"
+           class="imglink">Screenshot</a>
+        <div id="badreplyaddress" style="display: none;">
+            <p class="screenshot">
+                &nbsp;<img alt="" src="Images/onedriveforbusiness/badreplyaddress.png" style="width:416px;height:566px;" />
+            </p>
+        </div>
+        that need to be checked (and to set if not exists) <b>REPLY URL</b> property. See <a href="#replyurl">Reply Url</a> article.
+    </p>
+
+    <br />
+</body>
+</html>

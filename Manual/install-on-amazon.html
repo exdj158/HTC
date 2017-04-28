@@ -1,0 +1,235 @@
+﻿<!-- saved from url=(0014)about:internet -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>HTTP Commander install on Amazon Web Services AWS. (Windows version)</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <script type="text/javascript" language="javascript">
+        function toggleBlock(el, id) {
+            if (document.getElementById(id).style.display == 'none') {
+                document.getElementById(id).style.display = 'block';
+				el.innerHTML="Hide screenshot"
+            }
+            else {
+                document.getElementById(id).style.display = 'none';
+				el.innerHTML="Show screenshot"
+            }
+        }
+    </script>
+    
+    <table width="100%" cellpadding="0" cellspacing="0">
+        <tr>
+            <td width="320">
+                <table>
+                    <tr>
+                        <td style="vertical-align:top;text-align:left;">
+                            <a target='_blank' href='http://www.element-it.com/asp-net-explorer-browser/online-share/web-file-manager.aspx'><img style='cursor:pointer;' alt="HTTP Commander" src="Images/HCLogo.png" border="0" /></a>
+                        </td>
+                        <td class="green" style="vertical-align:top;text-align:left;padding-top:21px;">
+                            &nbsp;AJS 4.x
+                        </td>
+                    </tr>
+                </table>
+                <span class="gray">Manual</span>
+            </td>
+            <td>
+  <!-- For windows version only. Start --> 
+	<p>
+	<strong>Note!</strong> This Manual is for the <strong>"Windows authentication"</strong> version, 
+	which is designed to work with existing Windows server or Active Directory accounts and Windows authentication. 
+	If you want to create accounts by yourself and store their credentials in your own HTTP Commander XML database, 
+	you need to download the <a target="_blank" href="http://www.element-it.com/downloadfile.aspx?type=st">"Forms authentication" version</a>!
+	This Manual is for the Windows authentication version only!
+	</p>
+	<!-- For windows version only. End --> 
+	
+ 
+            </td>
+            <td align="char" width="230">
+                <img alt="" src="Images/world.jpg" align="middle" hspace="5" style="vertical-align:top;padding-top:1px;" /><b><a target="_blank" title="web file manager" href="http://www.element-it.com/asp-net-explorer-browser/online-share/web-file-manager.aspx">Web file manager</a></b><br />
+                <img alt="" src="Images/support.png" width="16" height="16" align="middle" hspace="5" style="vertical-align:top;padding-top:1px;" /><b><a href="onlinesupport.html" target="main">Free Installation assistance</a></b><br />
+                <img alt="" src="Images/help.png" align="middle" width="16" height="16" hspace="5" style="vertical-align:top;padding-top:1px;" /><b><a
+                    href="index.html" title="Manual Home page" target="_blank">Manual Home page</a></b><br />
+            </td>
+        </tr>
+    </table>
+    
+    <p class="topic">
+        <a id="installation-on-amazon">HTTP Commander install on Amazon Web Services AWS.</a>
+    </p>
+    	
+	<strong>Note !</strong><br />
+	We offer <b>free installation assistance</b> for both trial and commercial licenses. 
+	You can get help via email, instant messenger or via remote access to your server. 
+	You need few minutes to get <a href="onlinesupport.html">online help</a>.<br /><br />	
+    Using Http Commander's AMI, you can host your own file share solution for your organization in less than 10 minutes. 
+    The Http Commander AMI image is built on top of Windows 2012 R2 OS. 	
+    <br/>
+	<br/>
+    In this tutorial we assume that you already have an AWS account. If you don't have an AWS account, use the following procedure to create one.    
+<br/>To create an AWS account<br/>
+<ol>
+<li>
+Open <a href="http://aws.amazon.com/" target="_blank" rel="nofollow">http://aws.amazon.com/</a>, and then choose Create an AWS Account.
+</li>
+<li>
+Follow the online instructions.
+</li>
+</ol>
+Part of the sign-up procedure involves receiving a phone call and entering a PIN using the phone keypad. 
+<br/>
+<br/>
+<strong>Steps To Launch Http Commander AMI</strong>
+	<ol>
+		<li>Login to <a href="http://aws.amazon.com/console/" target="_blank" rel="nofollow">AWS management console</a> and Click EC2 under "Compute" section
+		<br />
+			<a target="_blank" href="Images/install-on-amazon/1-amazon-services.png" onclick="toggleBlock(this, '1-amazon-services'); return false;"
+				class="imglink">Hide screenshot</a>
+			<div id="1-amazon-services" style="display: block;">
+				<p class="screenshot">
+					&nbsp;<img src="Images/install-on-amazon/1-amazon-services.png" style="width: 800px" />
+				</p>
+			</div>
+		</li>
+		<li>Click "Launch Instance" button on EC2 Dashboard. 
+			<br />
+			<a target="_blank" href="Images/install-on-amazon/2-instances-launch-instance.png" onclick="toggleBlock(this, '2-instances-launch-instance'); return false;"
+				class="imglink">Hide screenshot</a>
+			<div id="2-instances-launch-instance" style="display: block;">
+				<p class="screenshot">
+					&nbsp;<img src="Images/install-on-amazon/2-instances-launch-instance.png" style="width: 800px" />
+				</p>
+			</div>
+		</li>
+		<li> Search HttpCommander AMI in community AMIs. Choose the latest available version.
+			<br />
+			<a target="_blank" href="Images/install-on-amazon/3-search-ami-image.png" onclick="toggleBlock(this, '3-search-ami-image'); return false;"
+				class="imglink">Hide screenshot</a>
+			<div id="3-search-ami-image" style="display: block;">
+				<p class="screenshot">
+					&nbsp;<img src="Images/install-on-amazon/3-search-ami-image.png" style="width: 800px" />
+				</p>
+			</div>
+		</li>
+		<li> Choose the desired Amazon EC2 Instance type. 
+			<br />
+			<a target="_blank" href="Images/install-on-amazon/4-choose-instance-type.png" onclick="toggleBlock(this, '4-choose-instance-type'); return false;"
+				class="imglink">Hide screenshot</a>
+			<div id="4-choose-instance-type" style="display: block;">
+				<p class="screenshot">
+					&nbsp;<img src="Images/install-on-amazon/4-choose-instance-type.png" style="width: 800px" />
+				</p>
+			</div>
+		</li>
+		<li> Check instance details. You can keep it as is. 
+			<br />
+			<a target="_blank" href="Images/install-on-amazon/5-instance-details.png" onclick="toggleBlock(this, '5-instance-details'); return false;"
+				class="imglink">Hide screenshot</a>
+			<div id="5-instance-details" style="display: block;">
+				<p class="screenshot">
+					&nbsp;<img src="Images/install-on-amazon/5-instance-details.png" style="width: 800px" />
+				</p>
+			</div>
+		</li>
+		<li> Configure storage options for instance. By default 30 Gb magnetic type volume used.
+			<br />
+			<a target="_blank" href="Images/install-on-amazon/6-configure-storage.png" onclick="toggleBlock(this, '6-configure-storage'); return false;"
+				class="imglink">Hide screenshot</a>
+			<div id="6-configure-storage" style="display: block;">
+				<p class="screenshot">
+					&nbsp;<img src="Images/install-on-amazon/6-configure-storage.png" style="width: 800px" />
+				</p>
+			</div>
+		</li>
+		<li> Set instance tags. Not required, you can skip this step.
+			<br />
+			<a target="_blank" href="Images/install-on-amazon/7-tag-instance.png" onclick="toggleBlock(this, '7-tag-instance'); return false;"
+				class="imglink">Hide screenshot</a>
+			<div id="7-tag-instance" style="display: block;">
+				<p class="screenshot">
+					&nbsp;<img src="Images/install-on-amazon/7-tag-instance.png" style="width: 800px" />
+				</p>
+			</div>
+		</li>
+		<li> Configure Security groups to open up the port 80 for HTTP access, 443 for HTTPS (if required) and port 3389 for rdp access.
+			<br />
+			<a target="_blank" href="Images/install-on-amazon/8-configure-security-groups.png" onclick="toggleBlock(this, '8-configure-security-groups'); return false;"
+				class="imglink">Hide screenshot</a>
+			<div id="8-configure-security-groups" style="display: block;">
+				<p class="screenshot">
+					&nbsp;<img src="Images/install-on-amazon/8-configure-security-groups.png" style="width: 800px" />
+				</p>
+			</div>
+		</li>
+		<li> Confirm type of boot volume.
+			<br />
+			<a target="_blank" href="Images/install-on-amazon/9-boot-from-ssd.png" onclick="toggleBlock(this, '9-boot-from-ssd'); return false;"
+				class="imglink">Hide screenshot</a>
+			<div id="9-boot-from-ssd" style="display: block;">
+				<p class="screenshot">
+					&nbsp;<img src="Images/install-on-amazon/9-boot-from-ssd.png" style="width: 800px" />
+				</p>
+			</div>
+		</li>
+		<li> Complete the Final Review and click launch button.
+			<br />
+			<a target="_blank" href="Images/install-on-amazon/10-review-instance.png" onclick="toggleBlock(this, '10-review-instance'); return false;"
+				class="imglink">Hide screenshot</a>
+			<div id="10-review-instance" style="display: block;">
+				<p class="screenshot">
+					&nbsp;<img src="Images/install-on-amazon/10-review-instance.png" style="width: 800px" />
+				</p>
+			</div>
+		</li>
+		
+		<li> Create new or use existing keypair and launch the instance. 
+			<br />
+			<a target="_blank" href="Images/install-on-amazon/11-instance-keypair.png" onclick="toggleBlock(this, '11-instance-keypair'); return false;"
+				class="imglink">Hide screenshot</a>
+			<div id="11-instance-keypair" style="display: block;">
+				<p class="screenshot">
+					&nbsp;<img src="Images/install-on-amazon/11-instance-keypair.png" style="width: 800px" />
+				</p>
+			</div>
+		</li>
+		<li>  Navigate to instances section in EC2 console. You can see your Http Commander instance is running. 
+			 Please copy the Public DNS name to test access to the Http Commander.
+			<br />
+			<a target="_blank" href="Images/install-on-amazon/12-running-instances.png" onclick="toggleBlock(this, '12-running-instances'); return false;"
+				class="imglink">Hide screenshot</a>
+			<div id="12-running-instances" style="display: block;">
+				<p class="screenshot">
+					&nbsp;<img src="Images/install-on-amazon/12-running-instances.png" style="width: 800px" />
+				</p>
+			</div>
+		</li>
+		<li> Type <strong>'http://&lt;public_dns_name&gt;/HTCOMNET'</strong> in your browser to access the HttpCommander. 
+			<br/>
+			Use <b>admin/admin</b> as username/password to login to the Http Commander. 
+			<br />
+			<a target="_blank" href="Images/install-on-amazon/13-open-htcomnet-in-browser" onclick="toggleBlock(this, '13-open-htcomnet-in-browser'); return false;"
+				class="imglink">Hide screenshot</a>
+			<div id="13-open-htcomnet-in-browser" style="display: block;">
+				<p class="screenshot">
+					&nbsp;<img src="Images/install-on-amazon/13-open-htcomnet-in-browser.png" style="width: 800px" /><br/>
+					&nbsp;<img src="Images/install-on-amazon/14-htcomnnet-launched.png" style="width: 800px" />
+				</p>
+			</div>
+		</li>
+		<li> Use <b>8b(Sr@*VZ;</b> as password for <b>Administrator</b> account to connect to the instance by RDP.			
+			<br />
+			<a target="_blank" href="Images/install-on-amazon/15-connect-to-instance" onclick="toggleBlock(this, '15-connect-to-instance'); return false;"
+				class="imglink">Hide screenshot</a>
+			<div id="15-connect-to-instance" style="display: block;">
+				<p class="screenshot">
+					&nbsp;<img src="Images/install-on-amazon/15-connect-to-instance.png" style="width: 800px" /><br/>					
+				</p>
+			</div>
+		</li>
+	</ol>
+<br/><br/>    
+</body>
+</html>

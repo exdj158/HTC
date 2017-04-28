@@ -1,0 +1,158 @@
+﻿<!-- saved from url=(0014)about:internet -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Iframe maximizable (Windows version)</title>
+</head>
+<body>
+    <span style="color: Red;">Here is any HTML code</span><br />
+    <br />
+    <div style="position: relative;">
+        <script type="text/javascript">
+            function moveButton(tools) {
+                if (tools && tools.parentNode) {
+                    var iframes = tools.parentNode.getElementsByTagName('iframe');
+                    if (!iframes || iframes.length < 1 || !iframes[0]) {
+                        return;
+                    }
+                    var hc = iframes[0];
+                
+                    var dx = 3, dy = 5;
+
+                    if (hc.maximized) {
+                        tools.style.cssFloat = 'right';
+                        tools.style.left = '';
+                        tools.style.right = '' + dx + 'px';
+                        tools.style.top = '' + dy + 'px';
+                    } else {
+                        var pos = [hc.offsetLeft, hc.offsetTop];
+                        pos[0] = hc.offsetWidth + pos[0] - 15 - dx;
+                        pos[1] += dy;
+                        tools.style.cssFloat = 'left';
+                        tools.style.right = '';
+                        tools.style.left = '' + pos[0] + 'px';
+                        tools.style.top = '' + pos[1] + 'px';
+                    }
+
+                    tools.style.display = '';
+                }
+            }
+            function toggleButton(tools) {
+                function getStyle(element) {
+                    if (element) {
+                        return window.getComputedStyle ? getComputedStyle(element, '') : element.currentStyle;
+                    }
+                    return null;
+                }
+
+                if (tools && tools.parentNode) {
+                    var iframes = tools.parentNode.getElementsByTagName('iframe');
+                    if (!iframes || iframes.length < 1 || !iframes[0]) {
+                        return;
+                    }
+                    var hc = iframes[0];
+                    var images = tools.getElementsByTagName('img');
+                    if (images.length > 0) {
+                        var img = images[0];
+                        if (hc.maximized) {
+                            if (hc.restoreStyle) {
+                                for (prop in hc.restoreStyle) {
+                                    hc.style[prop] = hc.restoreStyle[prop];
+                                }
+                            }
+                            if (hc.parentPositions && hc.parentPositions.length > 0) {
+                                var parent = hc.parentNode;
+                                var i = 0;
+                                do {
+                                    if (parent.style && hc.parentPositions[i]) {
+                                        parent.style.position = hc.parentPositions[i];
+                                    }
+                                    i++;
+                                } while ((parent = parent.parentNode) && (i < hc.parentPositions.length));
+                            }
+                            if (hc.htmlOverflow) {
+                                document.documentElement.style.overflow = hc.htmlOverflow;
+                            }
+                            if (hc.bodyOverflow) {
+                                document.body.style.overflow = hc.bodyOverflow;
+                            }
+                            if (hc.oldScrolling) {
+                                hc.scrolling = hc.oldScrolling;
+                            }
+                            img.src = 'Images/maximize.png';
+                            hc.maximized = false;
+                        } else {
+                            window.scrollTo(0, 0);
+
+                            // save current style
+                            var hcStyle = getStyle(hc);
+                            if (hcStyle) {
+                                hc.restoreStyle = {
+                                    position: hcStyle.position,
+                                    left: hcStyle.left,
+                                    top: hcStyle.top,
+                                    width: hcStyle.width,
+                                    height: hcStyle.height,
+                                    zIndex: hcStyle.zIndex,
+                                    overflow: hcStyle.overflow
+                                }
+                            }
+
+                            // save and change 'position:static' for parent nodes
+                            var parent = hc.parentNode;
+                            var cs;
+                            hc.parentPositions = [];
+                            do {
+                                if (parent.style) {
+                                    cs = getStyle(parent);
+                                    if (cs) {
+                                        hc.parentPositions.push(cs.position);
+                                    }
+                                    parent.style.position = 'static';
+                                }
+                            } while (parent = parent.parentNode);
+
+                            // save and change overflow for html and body
+                            var csHtml = getStyle(document.documentElement);
+                            if (csHtml) {
+                                hc.htmlOverflow = csHtml.overflow;
+                            }
+                            document.documentElement.style.overflow = 'hidden';
+                            var csBody = getStyle(document.body);
+                            if (csBody) {
+                                hc.bodyOverflow = csBody.overflow;
+                            }
+                            document.body.style.overflow = 'hidden';
+
+                            // change iframe styles
+                            hc.style.position = 'absolute';
+                            hc.style.left = '0px';
+                            hc.style.top = '0px';
+                            hc.style.width = '100%';
+                            hc.style.height = '100%';
+                            hc.style.zIndex = '50000';
+                            hc.style.overflow = 'hidden';
+                            hc.oldScrolling = hc.scrolling;
+                            hc.scrolling = 'no';
+
+                            img.src = 'Images/restore.png';
+                            hc.maximized = true;
+                        }
+                        moveButton(tools);
+                    }
+                }
+            }
+        </script>
+        <div style="display: none; cursor: pointer; z-index: 50001; border-style: none; margin: 0;
+            padding: 0; width: 15px; height: 15px; position: absolute; left: 0px; top: 0px;
+            float: left;" onclick="toggleButton(this);">
+            <img alt="" src="Images/maximize.png" onload="moveButton(this.parentNode);" onerror="window.alert('Image maximize.png and-or restore.png not loaded!');" />
+        </div>
+        <iframe src="https://demo.element-it.com/examples/demoiframe/Default.aspx?isEmbeddedtoIFRAME=true&username=demo&password=demo"
+            frameborder="0" style="width: 500px; height: 300px; z-index: 50000;"></iframe>
+    </div>
+    <br />
+    <br />
+    <span style="color: Red;">Here is any HTML code</span>
+</body>
+</html>

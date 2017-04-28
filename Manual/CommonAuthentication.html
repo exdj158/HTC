@@ -1,0 +1,237 @@
+﻿<!-- saved from url=(0014)about:internet -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Forms Authentication Across Applications (Windows version)</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <script type="text/javascript" language="javascript">
+        function toggleBlock(id) {
+            if (document.getElementById(id).style.display == 'none') {
+                document.getElementById(id).style.display = 'block';
+            } else {
+                document.getElementById(id).style.display = 'none';
+            }
+        }
+    </script>
+    
+    <table width="100%" cellpadding="0" cellspacing="0">
+        <tr>
+            <td width="320">
+                <table>
+                    <tr>
+                        <td style="vertical-align:top;text-align:left;">
+                            <a target='_blank' href='http://www.element-it.com/asp-net-explorer-browser/online-share/web-file-manager.aspx'><img style='cursor:pointer;' alt="HTTP Commander" src="Images/HCLogo.png" border="0" /></a>
+                        </td>
+                        <td class="green" style="vertical-align:top;text-align:left;padding-top:21px;">
+                            &nbsp;AJS 4.x
+                        </td>
+                    </tr>
+                </table>
+                <span class="gray">Manual</span>
+            </td>
+             <td>
+  <!-- For windows version only. Start --> 
+	<p>
+	<strong>Note!</strong> This Manual is for the <strong>"Windows authentication"</strong> version, 
+	which is designed to work with existing Windows server or Active Directory accounts and Windows authentication. 
+	If you want to create accounts by yourself and store their credentials in your own HTTP Commander XML database, 
+	you need to download the <a target="_blank" href="http://www.element-it.com/downloadfile.aspx?type=st">"Forms authentication" version</a>!
+	This Manual is for the Windows authentication version only!
+	</p>
+	<!-- For windows version only. End --> 
+	
+ 
+              
+	
+                
+            </td>
+            <td align="char" width="230">
+                <img alt="" src="Images/world.jpg" align="middle" hspace="5" style="vertical-align:top;padding-top:1px;" /><b><a target="_blank" title="web file manager" href="http://www.element-it.com/asp-net-explorer-browser/online-share/web-file-manager.aspx">Web file manager</a></b><br />
+                <img alt="" src="Images/support.png" width="16" height="16" align="middle" hspace="5" style="vertical-align:top;padding-top:1px;" /><b><a
+                    href="onlinesupport.html" target="main">Free Installation assistance</a></b><br />
+                <img alt="" src="Images/help.png" align="middle" width="16" height="16" hspace="5" style="vertical-align:top;padding-top:1px;" /><b><a
+                    href="index.html" title="Manual Home page" target="_blank">Manual Home page</a></b><br />
+            </td>
+        </tr>
+    </table>
+    
+    <!-- Title -->
+    <p class="topic">
+        <a id="hcadsicomtopic">How to configure common authentication across multiple applications</a>
+    </p>
+    
+<p>
+For example, you have IIS application that performs main functions in your organization.
+Let's call it the primary application.
+The application maintains a database of users and other related data.
+We want to add file manipulation function to the primary application with 
+help of HTTP Commander. The new application should use existing set of users,
+and share authentication with the primary application.
+Common authentication means that as soon as the user is authenticated to
+the primary application it is authenticated to HTTP Commander as well.
+Technically speaking, both applications share common authentication ticket.
+HTTP Commander logon facility is inaccessible since the web file manager
+is neither familiar with authentication process implemented in the primary application,
+nor it has access to user list.
+Hence logon function is delegated to the primary application.
+</p>
+
+<p><b>Note</b>
+This article applies only to Forms authentication type.
+</p>
+
+<p>
+<b>Note</b>
+HTTP Commander admin panel still allows to add users, shows list of configured users,
+but this list does not play any role in authentication process.
+Keep the list of HTTP Commander users empty to avoid confusion.
+Many HTTP Commander settings require user name or list of names as value.
+GUI dialogs often provide a drop down list of available users to facilitate 
+user selection, in the common authentication case this list will be empty
+or be filled with HTTP Commander users that are not relevant here.
+You should keep this in mind when specifying user names.
+Other items like user groups, folders function as usual.
+</p>
+
+<p>For technical details about configuring shared authentication, see
+<a target="_blank"  href="http://msdn.microsoft.com/en-us/library/eb0zx8fc.aspx">Forms Authentication Across Applications</a>,
+<a target="_blank"  href="http://msdn.microsoft.com/en-us/library/ms998288.aspx">How To: Configure MachineKey in ASP.NET 2.0</a>.
+</p>
+
+<h3>Step 1. Add identical machineKey sections to web.config files of both applications</h3>
+<ul>
+  <li>For IIS 7, 7.5, 8, 8.5, 10
+    <ul>
+    <li>open IIS manager</li>
+    <li>select application in the Connections tree</li>
+    <li>open "Machine Key" feature.<br/>
+    By default validation key and decryption key are created automatically.
+    </li>
+    <li>on the task pane click "Generate Keys"</li>
+    <li>uncheck "Generate a unique key for each application" checkboxes in Validation key
+  and Decryption key sections</li>
+    <li>click "Apply" on the task pane.<br/>
+    In web.config file you'll find new item:
+    <pre>
+&lt;configuration&gt;
+&lt;system.web&gt;
+  &lt;machineKey decryptionKey="..." validationKey="..." /&gt;
+&lt;/system.web&gt;
+&lt;/configuration&gt;
+    </pre>
+    </li>
+    <li>Add validation="SHA1" decryption="AES" attributes to machineKey.<br/>
+The final result should look like:
+<pre>
+&lt;configuration&gt;
+  &lt;system.web&gt;
+    &lt;machineKey decryptionKey="..." validationKey="..." validation="SHA1" decryption="AES" /&gt;
+  &lt;/system.web&gt;
+&lt;/configuration&gt;
+</pre>
+<p><b>Note</b> You may chose other validation and decryption values, 
+the point is they must be identical across all applications.</p>
+    </li>
+    <li>Copy the machineKey section to other web.config files.</li>
+  </ul>
+  </li>
+  <li>For IIS 6
+  <ul>
+    <li>Put machineKey section to web.config files of both application.
+<pre>
+&lt;configuration&gt;
+  &lt;system.web&gt;
+    &lt;machineKey decryptionKey="..." validationKey="..." validation="SHA1" decryption="AES" /&gt;
+  &lt;/system.web&gt;
+&lt;/configuration&gt;
+</pre>
+    To generate random keys for decryptionKey and validationKey attributes use
+    the <a href="GenerateKeys.zip">attached aspx page</a>.
+    In the source code of the page you should set the len variable to the value
+    appropriate to the hashing / encryption algorithm: SHA1 - 128 chars, 
+    AES - 64 chars, 3DES - 48 chars. See 
+    <a target="_blank"  href="http://msdn.microsoft.com/en-us/library/ms998288.aspx">How To: Configure MachineKey in ASP.NET 2.0</a>
+    for more details about generating random keys.
+    </li>
+  </ul>
+  </li>
+</ul>
+    
+<h3>Step 2. Configure authentication section</h3>
+<p>The name, protection, path attributes of the authentication section must 
+be identical across all applications. Attributes having default value may be omitted.
+</p>
+<pre>
+&lt;configuration&gt;
+  &lt;system.web&gt;
+    &lt;authentication mode="Forms" &gt;
+      &lt;!-- The name, protection, and path attributes must match 
+           exactly in each Web.config file. --&gt;
+      &lt;forms loginUrl="login.aspx"
+        name=".ASPXFORMSAUTH" 
+        protection="All"  
+        path="/" 
+        domain="contoso.com" 
+        timeout="30" /&gt;
+    &lt;/authentication&gt;
+  &lt;/system.web&gt;
+&lt;/configuration&gt;
+</pre>
+
+<h3>Step 3. Set login url</h3>
+<p>In the web.config file of the HTTP Commander application,
+set loginUrl attribute of the forms element to logon URL of the first application.
+
+For example, the authentication section may look like this.
+</p>
+
+<pre>
+&lt;configuration&gt;
+&lt;system.web&gt;
+  &lt;authentication mode="Forms"&gt;
+    &lt;forms loginUrl="/PrimaryApplication/Logon.aspx" defaultUrl="Default.aspx" timeout="43200" /&gt;
+  &lt;/authentication&gt;
+&lt;/system.web&gt;
+&lt;/configuration&gt;
+</pre>
+
+<h3>Step 4. Disable anonymous access to Default.aspx page</h3>
+<p>Remove or comment out the Default.aspx location section in web.config 
+that makes Default.aspx page available to anonymous users:</p>
+<pre>
+	&lt;location path="Default.aspx"&gt;
+		&lt;system.web&gt;
+			&lt;authorization&gt;
+				&lt;allow users="*" /&gt;
+			&lt;/authorization&gt;
+		&lt;/system.web&gt;
+	&lt;/location&gt;
+</pre>
+
+<h3>Step 5. Logout.aspx page</h3>
+<p>By default in the Forms version of HTTP Commander after logout 
+the user is redirected to the Default.aspx page.
+Since authentication cookies are cleared and Default.aspx is not accessible to 
+the anonymous user, the user will be redirected to logon page of the primary 
+application.</p>
+
+<p>You probably want to replace the Default.aspx page with some other page in the first application.
+That may be a logout page if the primary application has one or the login page that you specified already in web.config.
+Change the default value of the urlReferrer variable:</p>
+
+<pre>
+string urlReferrer = "Default.aspx"; // &lt;-- change this
+if (this.Request.UrlReferrer != null)
+    urlReferrer = this.Request.UrlReferrer.AbsoluteUri;
+</pre>
+
+<p>You probably want to preserve the following two lines that redefine the urlReferrer 
+if this.Request.UrlReferrer is present.
+</p>
+
+</body>
+</html>
+

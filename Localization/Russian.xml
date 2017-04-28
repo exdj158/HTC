@@ -1,0 +1,1607 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Localization>
+  <!-- Common keys -->
+  
+  <ExtMsgButtonTextYES>Да</ExtMsgButtonTextYES>
+  <ExtMsgButtonTextNO>Нет</ExtMsgButtonTextNO>
+  
+  <ControlHideFileManager>Свернуть веб-файл менеджер</ControlHideFileManager>
+  
+  <CommonMainTitle>Удалённый доступ к файлам</CommonMainTitle>
+  <CommonApplicationLoading>Пожалуйста подождите, идёт загрузка доступа к файлам</CommonApplicationLoading>
+  <CommonLoadError>Произошла ошибка при получении данных дерева</CommonLoadError>
+  <CommonGridAccessDenied>Папка "{0}" не найдена, либо для неё отсутствует доступ на чтение</CommonGridAccessDenied>
+  <CommonNoScript>Для этой страницы требуется поддержка Javascript! Пожалуйста, включите поддержку Javascript в браузере и заново загрузите страницу!</CommonNoScript>
+  <CommonErrorCaption>Ошибка</CommonErrorCaption>
+  <CommonWarningCaption>Предупреждение</CommonWarningCaption>
+  <CommonInfoCaption>Информация</CommonInfoCaption>
+  <CommonConfirmCaption>Подтверждение</CommonConfirmCaption>
+  <CommonFileNameCaption>Имя файла</CommonFileNameCaption>
+  <CommonFileNamePrompt>Введите новое имя файла</CommonFileNamePrompt>
+  <CommonFileNewNameValue>Новый текстовый документ.txt</CommonFileNewNameValue>
+  <CommonFolderNewNameValue>Новая папка</CommonFolderNewNameValue>
+  <CommonZipFileNameCaption>Имя zip-архива</CommonZipFileNameCaption>
+  <CommonZipFileNamePrompt>Имя файла (расширение будет добавлено автоматически)</CommonZipFileNamePrompt>
+  <CommonFolderNameCaption>Имя папки</CommonFolderNameCaption>
+  <CommonFolderNamePrompt>Введите имя новой папки</CommonFolderNamePrompt>
+  <CommonDeleteOnePrompt>Вы уверены, что хотите удалить "{0}"?</CommonDeleteOnePrompt>
+  <CommonDeleteManyPrompt>Вы уверены, что хотите удалить эти объекты ({0} шт.)?</CommonDeleteManyPrompt>
+  <CommonForToday>За сегодня</CommonForToday>
+  <CommonButtonCaptionOK>OK</CommonButtonCaptionOK>
+  <CommonButtonCaptionCancel>Отмена</CommonButtonCaptionCancel>
+  <CommonButtonCaptionClose>Закрыть</CommonButtonCaptionClose>
+  <CommonButtonCaptionAdd>Добавить</CommonButtonCaptionAdd>
+  <CommonButtonCaptionContinue>Продолжить</CommonButtonCaptionContinue>
+
+  <CommonProgressPleaseWait>Пожалуйста подождите</CommonProgressPleaseWait>
+  
+  <CommonFieldLabelName>Имя</CommonFieldLabelName>
+  <CommonFieldLabelPath>Путь</CommonFieldLabelPath>
+  <CommonFieldLabelSize>Размер</CommonFieldLabelSize>
+  <CommonFieldLabelLabels>Метки</CommonFieldLabelLabels>
+  <CommonFieldLabelType>Тип</CommonFieldLabelType>
+  <CommonFieldLabelAction>Действие</CommonFieldLabelAction>
+  <CommonFieldLabelDate>Дата</CommonFieldLabelDate>
+  <CommonFieldLabelDateTime>Дата и время</CommonFieldLabelDateTime>
+  <CommonFieldLabelDateCreated>Дата создания</CommonFieldLabelDateCreated>
+  <CommonFieldLabelDateModified>Дата изменения</CommonFieldLabelDateModified>
+  <CommonFieldLabelDateAccessed>Дата последнего доступа</CommonFieldLabelDateAccessed>
+  <CommonFieldLabelValue>Значение</CommonFieldLabelValue>
+  <CommonFieldLabelUserName>Имя пользователя</CommonFieldLabelUserName>
+  <CommonFieldLabelUser>Пользователь</CommonFieldLabelUser>
+  <CommonFieldLabelUsers>Пользователи</CommonFieldLabelUsers>
+  <CommonFieldLabelGroupName>Имя группы</CommonFieldLabelGroupName>
+  <CommonFieldLabelGroup>Группа</CommonFieldLabelGroup>
+  <CommonFieldLabelGroups>Группы</CommonFieldLabelGroups>
+  <CommonFieldLabelPassword>Пароль</CommonFieldLabelPassword>
+  <CommonFieldLabelRepeatPassword>Повторите пароль</CommonFieldLabelRepeatPassword>
+  <CommonFieldLabelComments>Комментарии</CommonFieldLabelComments>
+  <CommonValueTypeFolder>Папка</CommonValueTypeFolder>
+
+  <CommonFieldLabelDescription>Описание</CommonFieldLabelDescription>
+  <EmptyDescriptionText>Укажите описание</EmptyDescriptionText>
+  <CommonFieldLabelReadMeTxt>Содержимое Readme.txt</CommonFieldLabelReadMeTxt>
+  
+  <CommonWordOr>или</CommonWordOr>
+
+  <SortAscText>Сортировать по возрастанию</SortAscText>
+  <SortDescText>Сортировать по убыванию</SortDescText>
+
+  <CommonNewDocument>Новый документ</CommonNewDocument>
+  <CommonNewSpreadsheet>Новая таблица</CommonNewSpreadsheet>
+  <CommonNewPresentation>Новая презентация</CommonNewPresentation>
+
+  <CommonWordWrap>Перенос слов</CommonWordWrap>
+  
+  <!-- End Common keys -->
+
+  <!-- Labels -->
+
+  <LabelsTitle>Метка</LabelsTitle>
+  <LabelsNoLabel>Убрать метку</LabelsNoLabel>
+  <LabelsColor>Цвет</LabelsColor>
+  <LabelsCustomLabel>Задать метку</LabelsCustomLabel>
+  <LabelsCustomLabelHint>Пожалуйста введите текст метки</LabelsCustomLabelHint>
+  <LabelsCustomLabelView>Вид метки: {0}{1}{2}</LabelsCustomLabelView>
+  <LabelsFileLabelledMessage>Успешно помечено меткой {0} элемент(ов)</LabelsFileLabelledMessage>
+  <LabelsRemovedMessage>Успешно удалено меток {0}</LabelsRemovedMessage>
+  <LabelsNotRemovedMessages>не удалось удалить меток: {0}</LabelsNotRemovedMessages>
+  <LabelsNotLabelledMessage>не удалось пометить: {0}</LabelsNotLabelledMessage>
+  <LabelsLabelRemovedMessage>Метка успешно удалена</LabelsLabelRemovedMessage>
+  <LabelsNewLabel>Новая метка</LabelsNewLabel>
+  <LabelsLabellingMessage>Маркировка</LabelsLabellingMessage>
+  <LabelsRemovingLabelMessage>Удаление меток</LabelsRemovingLabelMessage>
+  <LabelsLabelInfoTip>Помечено как '{0}' {1} пользователем '{2}'</LabelsLabelInfoTip>
+
+  <!-- End Labels -->
+
+  <!-- Comments -->
+
+  <CommentsCountInfoTip>Есть {0} комментарий(ев)</CommentsCountInfoTip>
+  <CommentsWriteCommentHint>Напишите комментарий и нажмите '{0}', либо Ctrl+Enter, либо Shift+Enter...</CommentsWriteCommentHint>
+
+  <!-- End Comments -->
+
+  <RefreshPageWarningMessage>&lt;b&gt;Внимание!&lt;/b&gt; Для завершения требуется обновление текущей страницы.&lt;br /&gt;Вы хотите обновить её сейчас?</RefreshPageWarningMessage>
+
+  <PagingToolbarBeforePageText>Страница</PagingToolbarBeforePageText>
+  <PagingToolbarAfterPageText>из {0}</PagingToolbarAfterPageText>
+  <PagingToolbarFirstText>Первая страница</PagingToolbarFirstText>
+  <PagingToolbarPrevText>Предыдущая страница</PagingToolbarPrevText>
+  <PagingToolbarNextText>Следующая страница</PagingToolbarNextText>
+  <PagingToolbarLastText>Последняя страница</PagingToolbarLastText>
+  <PagingToolbarDisplayMsg>Отображаются записи с {0} по {1}, всего {2}</PagingToolbarDisplayMsg>
+  <PagingToolbarEmptyMsg>Нет данных для отображения</PagingToolbarEmptyMsg>
+  
+  <GridTotalLabel>Всего:</GridTotalLabel>
+  <GridTotalFilesLabel>файлов</GridTotalFilesLabel>
+  <GridTotalFoldersLabel>папок</GridTotalFoldersLabel>
+  
+  <GridDDSelectedRowsText>объектов: {0}{1}</GridDDSelectedRowsText>
+  <GridDDSelectedFilesText>файлов: {0}</GridDDSelectedFilesText>
+  <GridDDSelectedFoldersText>папок: {0}</GridDDSelectedFoldersText>
+  <GridDDConfirmCopyMoveTitle>Перетаскивание в папку "{0}"</GridDDConfirmCopyMoveTitle>
+  <GridDDConfirmAddToZipTitle>Добавление в zip-архив "{0}"</GridDDConfirmAddToZipTitle>
+  <GridDDConfirmAddToZipMessage>Перетаскиваемые файлы будут добавлены в этот zip-архив. Вы хотите продолжить? {0}.</GridDDConfirmAddToZipMessage>
+  <GridDDConfirmCopyMoveMsg>Выберите действие, которое вы хотите выполнить. Папка с содержимым: "{0}", каталог назначения: "{1}".{2}.{3}</GridDDConfirmCopyMoveMsg>
+  <GridDDConfirmCopyMoveToZipMsg>Объекты будут добавлены в zip-архив. Выберите действие, которое вы хотите выполнить с файлами после их добавления в архив. Папка с содержимым: "{0}", обновляемый архив: "{1}".{2}.{3}</GridDDConfirmCopyMoveToZipMsg>
+  <GridDDDraggedFileNames>&lt;b&gt;Перетаскиваемые файлы:&lt;/b&gt; {0}</GridDDDraggedFileNames>
+  <GridDDDraggedFolderNames>&lt;b&gt;Перетаскиваемые папки:&lt;/b&gt; {0}</GridDDDraggedFolderNames>
+  <GridDDConfirmTargetFolderOnlyCopyMsg>Текущие права на папку с содержимым позволяют только скопировать перетаскиваемые объекты. Вы хотите продолжить? {0}.</GridDDConfirmTargetFolderOnlyCopyMsg>
+  <GridDDConfirmTargetFolderOnlyMoveMsg>Текущие права на папку с содержимым позволяют только переместить перетаскиваемые объекты. Вы хотите продолжить? {0}.</GridDDConfirmTargetFolderOnlyMoveMsg>
+
+  <GridRowPublicHint>Нажмите для открытия публичной ссылки в новом окне (вкладке)</GridRowPublicHint>
+  <GridRowAlertHint>Нажмите для просмотра изменения для этого файла/папки</GridRowAlertHint>
+  <GridRowRecentHint>Перейти к этому файл/папке</GridRowRecentHint>
+  <GridRowAlertEventHint>Нажмите для перехода по этому пути</GridRowAlertEventHint>
+
+  <ProgressCreating>Создание</ProgressCreating>
+  <ProgressDeleting>Удаление</ProgressDeleting>
+  <ProgressLoading>Загрузка</ProgressLoading>
+  <ProgressSearching>Поиск</ProgressSearching>
+  <ProgressZipping>Сжатие</ProgressZipping>
+  <ProgressUnzipping>Распаковка</ProgressUnzipping>
+  <ProgressZipContents>Получение содержимого zip-архива</ProgressZipContents>
+  <ProgressPrepareDownload>Подготовка для загрузки</ProgressPrepareDownload>
+  <ProgressMoving>Перемещение</ProgressMoving>
+  <ProgressCopying>Копирование</ProgressCopying>
+  <ProgressRenaming>Переименование</ProgressRenaming>
+  <ProgressUpdating>Обновление</ProgressUpdating>
+  <ProgressLoadingEditInPixlr>Загрузка редактора Pixlr</ProgressLoadingEditInPixlr>
+  <ProgressLoadingEdit>Загрузка редактора</ProgressLoadingEdit>
+  <ProgressSavingEdit>Сохранение файла</ProgressSavingEdit>
+  <ProgressSaving>Сохранение</ProgressSaving>
+  <ProgressExecuting>Выполнение</ProgressExecuting>
+
+  <BalloonFilesDeleted>удалено файлов: {0}</BalloonFilesDeleted>
+  <BalloonFoldersDeleted>удалено папок: {0}</BalloonFoldersDeleted>
+  <BalloonFilesFailed>пропущено файлов: {0}</BalloonFilesFailed>
+  <BalloonFoldersFailed>пропущено папок: {0}</BalloonFoldersFailed>
+  <BalloonFilesZipped>сжато файлов: {0}</BalloonFilesZipped>
+  <BalloonFoldersZipped>сжато папок: {0}</BalloonFoldersZipped>
+  <BalloonFilesCopied>скопировано файлов: {0}</BalloonFilesCopied>
+  <BalloonFoldersCopied>скопировано папок: {0}</BalloonFoldersCopied>
+  <BalloonFilesMoved>перемещено файлов: {0}</BalloonFilesMoved>
+  <BalloonFoldersMoved>перемещено папок: {0}</BalloonFoldersMoved>
+  <BalloonNotUnzipped>не распаковано файлов: {0}</BalloonNotUnzipped>
+  <BalloonFilesUploaded>загружено файлов: {0}</BalloonFilesUploaded>
+  <BalloonFilesNotUploaded>не загружено файлов: {0}</BalloonFilesNotUploaded>
+  <BalloonSomeFilesNotUploaded>Некоторые файлы не были загружены</BalloonSomeFilesNotUploaded>
+  <BalloonCreatedSuccessfully>Создание успешно завершено</BalloonCreatedSuccessfully>
+  <BalloonUnzippedSuccessfully>Распаковка успешно завершена</BalloonUnzippedSuccessfully>
+  <BalloonRenamedSuccessfully>Переименование успешно завершено</BalloonRenamedSuccessfully>
+  <BalloonSavedSuccessfully>Сохранение успешно завершено</BalloonSavedSuccessfully>
+  <BalloonCopiedToClipboard>Скопирован в буфер обмена</BalloonCopiedToClipboard>
+  <BalloonCopyToClipboardFailed>Не удалось скопировать в буфер обмена</BalloonCopyToClipboardFailed>
+
+  <CommandCopyToClipboard>Скопировать в буфер обмена</CommandCopyToClipboard>
+  <CommandCopyLinkToClipboard>Скопировать ссылку в буфер обмена</CommandCopyLinkToClipboard>
+  <ClipboardScreenshotTitlePrefix>Изображение</ClipboardScreenshotTitlePrefix>
+  <ClipboardScreenshotHint>Изображения: вы можете вставить из буфера обмена сделанный снимок экрана (&lt;b&gt;Ctrl+PrtSc&lt;/b&gt; и затем &lt;b&gt;Ctrl+V&lt;/b&gt;) или скопированное из редактора изображение (&lt;b&gt;Ctrl+V&lt;/b&gt;).</ClipboardScreenshotHint>
+  <ClipboardFileHint>Вы также можете вставить из буфера обмена, скопированный файл</ClipboardFileHint>
+
+  <CommandClouds>Облачные хранилища</CommandClouds>
+  <CommandCloudsDownloadTo>сохранить в...</CommandCloudsDownloadTo>
+  <CommandCloudsUploadFrom>загрузить из...</CommandCloudsUploadFrom>
+  <CommandCloudsAbout>Информация об Облачных хранилищах</CommandCloudsAbout>
+  
+  <CommandBack>Назад</CommandBack>
+  <CommandForward>Вперед</CommandForward>
+  <CommandRecentFolders>Список последних посещённых папок</CommandRecentFolders>
+  <CommandHome>Домой</CommandHome>
+  <CommonActions>Действия</CommonActions>
+  <CommandMultiSelect>Мн. выбор</CommandMultiSelect>
+  <CommandShare>Общий доступ</CommandShare>
+  <CommandSorting>Сортировка</CommandSorting>
+  
+  <CommandFileManager>Вернуться к списку файлов</CommandFileManager>
+  <CommandFolders>Папки</CommandFolders>
+  <CommandGridView>Вид</CommandGridView>
+  <CommandRefresh>Обновить</CommandRefresh>
+  <CommandThumbnailView>Эскизы</CommandThumbnailView>
+  <CommandDetailedView>Таблица</CommandDetailedView>
+  <CommandDetailsPane>Панель с деталями</CommandDetailsPane>
+  <CommandFavorites>Избранное</CommandFavorites>
+  <CommandAddToFavorites>Добавить в избранное</CommandAddToFavorites>
+  <CommandAddToFavoritesHint>Добавить текущую папку в избранное</CommandAddToFavoritesHint>
+  <AddingToFavoritesMessage>Добавление в избранное</AddingToFavoritesMessage>
+  <RemoveFromFavoritesMessage>Удаление из избранного</RemoveFromFavoritesMessage>
+  <FolderAlreadyAddedInFavorites>Папка "{0}" уже существует в избранном</FolderAlreadyAddedInFavorites>
+  <FolderAddedInFavoritesSuccessfully>Папка "{0}" была успешно добавлен в избранное</FolderAddedInFavoritesSuccessfully>
+  <FavoritesIsOverflowed>Не удалось добавить текущую папку "{0}" в избранное. Удалите несколько других папок в списке избранного, чтобы освободить место, и повторите попытку.</FavoritesIsOverflowed>
+  <RemoveFromFavoritesHint>Удалить "{0}" из списка избранного</RemoveFromFavoritesHint>
+  <AddToHomeScreenIOSHint>Нажмите {0} и затем выберите &lt;strong&gt;"Добавить на Экран Домой"&lt;/strong&gt;</AddToHomeScreenIOSHint>
+  <CommandSearch>Поиск</CommandSearch>
+  <CommandUpload>Загрузить</CommandUpload>
+  <CommandSettings>Настройки</CommandSettings>
+  <CommandLanguage>Язык</CommandLanguage>
+  <CommandAdministration>Администрирование</CommandAdministration>
+  <CommandAdminPanel>Панель администрирования</CommandAdminPanel>
+  <CommandChangePassword>Изменить пароль</CommandChangePassword>
+  <ProgressChangePassword>Изменение пароля</ProgressChangePassword>
+  <CommandChangeEmail>Изменить e-mail</CommandChangeEmail>
+  <ProgressChangeEmail>Изменение e-mail</ProgressChangeEmail>
+  <CommandMobileView>Мобильный интерфейс (Смартфоны)</CommandMobileView>
+  <CommandStandardView>Полная версия</CommandStandardView>
+  <CommandInstallIOSApp>Установить iOS приложение</CommandInstallIOSApp>
+  <CommandInstallAndroidApp>Установить Android приложение</CommandInstallAndroidApp>
+  <CommandAddServerToMobileApp>Добавить этот сервер в мобильное приложение</CommandAddServerToMobileApp>
+  <CommandAddToHomeScreen>Добавить на Экран "Домой"</CommandAddToHomeScreen>
+  <CommandDiagnostics>Страница диагностики</CommandDiagnostics>
+  <CommandLicenseInfo>Информация о лицензии</CommandLicenseInfo>
+  <CommandLogout>Выход</CommandLogout>
+  <CommandLogoutHint>Нажмите для завершения текущего сеанса</CommandLogoutHint>
+  <CommandNew>Создать</CommandNew>
+  <CommandFile>Файл</CommandFile>
+  <CommandEmptyFile>Пустой файл</CommandEmptyFile>
+  <CommandNewMSOODocument>Документ MS Office Online</CommandNewMSOODocument>
+  <CommandNewOffice365Document>Документ Office 365</CommandNewOffice365Document>
+  <CommandNewMSOOWord>Документ Word</CommandNewMSOOWord>
+  <CommandNewMSOOExcel>Таблица Excel</CommandNewMSOOExcel>
+  <CommandNewMSOOPowerPoint>Презентация PowerPoint</CommandNewMSOOPowerPoint>
+  <CommandNewGoogleDocument>Документ Google</CommandNewGoogleDocument>
+  <CommandNewGoogleDocs>Google Docs</CommandNewGoogleDocs>
+  <CommandNewGoogleSheets>Google Sheets</CommandNewGoogleSheets>
+  <CommandNewGoogleSlides>Google Slides</CommandNewGoogleSlides>
+  <CommandNewImage>Изображение в Pixlr</CommandNewImage>
+  <CommandFolder>Папку</CommandFolder>
+  <CommandNewFile>Создать новый пустой файл</CommandNewFile>
+  <CommandNewFolder>Создать новую папку</CommandNewFolder>
+  <CommandNewWithTemplate>Из шаблона...</CommandNewWithTemplate>
+  <CommandRename>Переименовать</CommandRename>
+  <CommandDelete>Удалить</CommandDelete>
+  <CommandCopy>Скопировать</CommandCopy>
+  <CommandMove>Переместить</CommandMove>
+  <CommandCut>Вырезать</CommandCut>
+  <CommandCopyTo>Скопировать в...</CommandCopyTo>
+  <CommandMoveTo>Переместить в...</CommandMoveTo>
+  <CommandCopyCutClipboardSuffix>в буфер обмена</CommandCopyCutClipboardSuffix>
+  <CommandPaste>Вставить</CommandPaste>
+  <CommandPasteInto>Вставить в</CommandPasteInto>
+  <CommandZip>Добавить к zip-архиву</CommandZip>
+  <CommandZipMenu>Zip/Unzip</CommandZipMenu>
+  <CommandUnzip>Распаковать архив</CommandUnzip>
+  <CommandUnzipSelected>Извлечь выбранное</CommandUnzipSelected>
+  <CommandUnzipAll>Извлечь всё</CommandUnzipAll>
+  <CommandUnzipTo>в папку</CommandUnzipTo>
+  <CommandUnzipToCurrent>в текущую папку</CommandUnzipToCurrent>
+  <MessageUnzipToFolder>Введите имя папки, в которую будут извлечён архив</MessageUnzipToFolder>
+  <MessageUnzipPasswordHint>Если вы знаете, что требуется пароль для распаковки, то введите его в поле ниже</MessageUnzipPasswordHint>
+  <MessageUnzipNeedPassword>Для извлечения файлов требуется ввести пароль</MessageUnzipNeedPassword>
+  <ZipPasswordProtectHint>Чтобы защитить архив паролем, введите пароль в поле ниже. В противном случае оставьте это поле пустым</ZipPasswordProtectHint>
+  <AppendToZipPasswordProtectHint>Чтобы защитить паролем файлы, добавляемые в архив, введите пароль в поле ниже. В противном случае оставьте это поле пустым</AppendToZipPasswordProtectHint>
+  <ZipPasswordProtectWindowTitle>Архивирование с паролем</ZipPasswordProtectWindowTitle>
+  <OpenFolderAfterUnzipCheckBox>Открыть папку после распаковки</OpenFolderAfterUnzipCheckBox>
+  <CommandUnzipToNew>в новую папку</CommandUnzipToNew>
+  <CommandZipContents>Показать содержимое архива</CommandZipContents>
+  <ArchiveContentsTitle>Содержимое архива "{0}"</ArchiveContentsTitle>
+  <CommandDownload>Скачать</CommandDownload>
+  <CommonDownloadAll>Скачать всё</CommonDownloadAll>
+  <DownloadListDragFile>Вы можете перетащить файлы на рабочий стол</DownloadListDragFile>
+  <CommandZipDownload>Сжать и скачать</CommandZipDownload>
+  <CommandView>Показать в браузере</CommandView>
+  <CommandDownloadOrView>Скачать или просмотреть</CommandDownloadOrView>
+  <CommandPreview>Просмотр изображений</CommandPreview>
+  <CommandFlashPreview>Показать Flash-анимацию</CommandFlashPreview>
+  <GettingSizeFlashMovie>Получение размера Flash-анимации</GettingSizeFlashMovie>
+  <CommandEdit>Редактировать как текстовый документ</CommandEdit>
+  <CommandEditView>Открыть как текстовый документ</CommandEditView>
+  <AceNotLoadedMessage>Не удалось загрузить Ace редактор</AceNotLoadedMessage>
+  <VideoJsNotLoadedMessage>Не удалось загрузить проигрыватель VideoJS</VideoJsNotLoadedMessage>
+  <CommandMenuEdit>Изменить</CommandMenuEdit>
+  <CommandSelectAll>Выделить всё</CommandSelectAll>
+  <CommandInvertSelection>Инвертировать выделение</CommandInvertSelection>
+  <CommandLinkToFile>Ссылка на файл/папку</CommandLinkToFile>
+  <!--Share link-->
+  <CommandMakePublicFolder>Создать ссылку общего доступа</CommandMakePublicFolder>
+  <PublicViewInGoogle>Показать в Google</PublicViewInGoogle>
+  <PublicViewinOWA>Показать в OWA</PublicViewinOWA>
+  <!--Make public folder (share)-->
+  <CommandViewWithGoogleDoc>Показать в Google Docs</CommandViewWithGoogleDoc>
+  <CommandViewWithShareCad>Показать в ShareCad.org</CommandViewWithShareCad>
+  <CommandViewWithAutodesk>Показать в Autodesk</CommandViewWithAutodesk>
+  <CommandViewWithBox>Показать в Box</CommandViewWithBox>
+  <CommandViewWithOWA>Показать в Microsoft Office Web Apps</CommandViewWithOWA>
+  <CommandCloudConvert>Конвертировать в CloudConvert</CommandCloudConvert>
+  <ProgressGetCloudConvertOutputFormats>Получение форматов</ProgressGetCloudConvertOutputFormats>
+  <ProgressCloudConvertConverting>Конвертирование</ProgressCloudConvertConverting>
+  <CloudConvertWindowTitle>Конвертирование '{0}'</CloudConvertWindowTitle>
+  <CloudConvertWindowConvertButton>Преобразовать</CloudConvertWindowConvertButton>
+  <CloudConvertWindowOutputFormatsLabel>Выходной формат</CloudConvertWindowOutputFormatsLabel>
+  <CloudConvertDownloadLinkLabel>Ссылка для скачивания</CloudConvertDownloadLinkLabel>
+  <CloudConvertSaveAsLabel>Сохранить как (расширение будет добавлено автоматически)</CloudConvertSaveAsLabel>
+  <CloudConvertNoOutputFormats>Отсутствуют форматы для преобразования файла</CloudConvertNoOutputFormats>
+  <CloudConvertNoUrlForDownload>Не удалось получить ссылку для скачивания</CloudConvertNoUrlForDownload>
+  <ProgressCloudConvertUploading>Загрузка из CloudConvert</ProgressCloudConvertUploading>
+  <CloudConvertSaveAsNameBlank>Укажите имя файла</CloudConvertSaveAsNameBlank>
+  <CancelEditButton>Отменить редактирование</CancelEditButton>
+  <HideButton>Скрыть</HideButton>
+  <EditDocumentCancelHint>После закрытия окна с редактируемым документом произойдёт его автоматическое сохранение.&lt;br /&gt;Вы можете скрыть это окно с ожиданием, нажав кнопку {0}, при этом документ всё равно будет сохранён после закрытия редактора.&lt;br /&gt;Если вы не хотите, чтобы документ был сохранён, нажмите кнопку {1}, при этом редактор будет закрыт.</EditDocumentCancelHint>
+  <EditDocumentSaveHint>Вы также можете сейчас сохранить документ нажав кнопку {0} без закрытия редактора, при этом после закрытия редактора также произойдёт его автоматическое сохранение.</EditDocumentSaveHint>
+  <CommandEditInMSOffice>Редактировать в Microsoft Office</CommandEditInMSOffice>
+  <CommandEditInOOo>Редактировать в OpenOffice / LibreOffice</CommandEditInOOo>
+  <CommandViewInMSOffice>Показать в Microsoft Office</CommandViewInMSOffice>
+  <CommandViewInOOo>Показать в OpenOffice / LibreOffice</CommandViewInOOo>
+  <CommandEditInPixlr>Редактировать в Pixlr</CommandEditInPixlr>
+  <CommandEditInAdobe>Редактировать в Adobe Creative Cloud</CommandEditInAdobe>
+  <AdobeImageEditorSavedAsNewTypeMessage>Изображение, изменённое в Adobe Image Editor было сохранено в формате {0}</AdobeImageEditorSavedAsNewTypeMessage>
+  <CommandEditInGoogle>Редактировать в Google Drive</CommandEditInGoogle>
+  <EditInGoogleConvertMessage>После редактирования документ будет преобразован в формат {1}{0}x{2}, т.к. текущий формат {1}{0}{2} устарел</EditInGoogleConvertMessage>
+  <EditInGoogleLinkError>Не удалось получить ссылку для редактирования в Google Drive</EditInGoogleLinkError>
+  <EditInGoogleWaiting>Ожидание завершения редактирования в Google Drive</EditInGoogleWaiting>
+  <CommandEditInMSOO>Редактировать в MS Office Online</CommandEditInMSOO>
+  <EditInMSOOLinkError>Не удалось получить ссылку для редактирования в MS Office Online</EditInMSOOLinkError>
+  <EditInMSOOWaiting>Ожидание завершения редактирования в MS Office Online</EditInMSOOWaiting>
+  <CommandEditInOffice365>Редактировать в Office 365</CommandEditInOffice365>
+  <EditInOffice365LinkError>Не удалось получить ссылку для редактирования в Office 365</EditInOffice365LinkError>
+  <EditInOffice365Waiting>Ожидание завершения редактирования в Office 365</EditInOffice365Waiting>
+  <CommandSave>Сохранить</CommandSave>
+  <CommandSaveAs>Сохранить как...</CommandSaveAs>
+  <CommandAppRestart>Перезапустить приложение</CommandAppRestart>
+  <CommandPlayVideoFlash>Воспроизвести видео во Flash проигрывателе</CommandPlayVideoFlash>
+  <CommandPlayVideoHtml5>Воспроизвести видео</CommandPlayVideoHtml5>
+  <CommandPlayAudioHtml5>Воспроизвести аудио</CommandPlayAudioHtml5>
+  <CommandPlayVideo>Воспроизвести видео</CommandPlayVideo>
+  <CommandPlayAudio>Воспроизвести аудио</CommandPlayAudio>
+  <CommandConvertVideo>Преобразовать видео</CommandConvertVideo>
+
+  <ViewInServiceLink>Нажмите здесь для просмотра файла</ViewInServiceLink>
+  <EditInServiceLink>Нажмите здесь для редактирования документа</EditInServiceLink>
+
+  <OfficeEditCopyLinkLabel>Скопируйте ссылку ниже и откройте её в офисном приложении</OfficeEditCopyLinkLabel>
+  <OfficeRunError>Не удалось запустить приложение {0}</OfficeRunError>
+  <BadPathToFile>Не удалось найти файл по указанному пути</BadPathToFile>
+  <FixBasicAuthAlertTitle>Внимание!</FixBasicAuthAlertTitle>
+  <FixBasicAuthAlertMessage>Используется проверка подлинности Basic без SSL! При этом Microsoft Office может не открыть ваш файл. Для того, чтобы исправить эту ситуацию, обратитесь к разделу помощи {0}.</FixBasicAuthAlertMessage>
+  <FixBasicAuthAlertCheckBoxText>Не показывать этот диалог в дальнейшем.</FixBasicAuthAlertCheckBoxText>
+  <CommandDetails>Свойства</CommandDetails>
+  <CommonButtonCaptionAddDetail>Добавить свойство</CommonButtonCaptionAddDetail>
+  <CommonButtonCaptionAddComment>Добавить комментарий</CommonButtonCaptionAddComment>
+  <DetailsWindowTitle>Свойства "{0}"</DetailsWindowTitle>
+  <FileDetailsSave>Применить изменения</FileDetailsSave>
+  <FileDetailsIgnoreChanges>Игнорировать</FileDetailsIgnoreChanges>
+  <FileDetailsCloseConfirmTitle>Закрытие окна свойств</FileDetailsCloseConfirmTitle>
+  <FileDetailsCloseConfirmMsg>&lt;b&gt;Внимание!&lt;/b&gt; Изменения не были сохранены. Выберите действие, которое вы хотите выполнить перед закрытием окна.</FileDetailsCloseConfirmMsg>
+  <FileDetailsGridTitleColumn>Название</FileDetailsGridTitleColumn>
+  <FileDetailsGridAuthorColumn>Автор последнего изменения</FileDetailsGridAuthorColumn>
+  <LoadingDetailsMask>Загрузка свойств</LoadingDetailsMask>
+  <NewDetailsTitle>Новый заголовок</NewDetailsTitle>
+  <NewDetailsValue>Новое значение</NewDetailsValue>
+  <DetailsSavingMsg>Сохранение свойств</DetailsSavingMsg>
+  <ProgressLoadingEditInOffice>Подготовка файла для редактирования</ProgressLoadingEditInOffice>
+  <MenuFilterText>Фильтр</MenuFilterText>
+  <EmptyTextFilter>Введите значение...</EmptyTextFilter>
+  <AfterDateFilterText>После</AfterDateFilterText>
+  <BeforeDateFilterText>Перед</BeforeDateFilterText>
+  <OnDateFilterText>По дате</OnDateFilterText>
+  <YesBooleanFilterText>Да</YesBooleanFilterText>
+  <NoBooleanFilterText>Нет</NoBooleanFilterText>
+  <CommandEditWithZoho>Редактировать в Zoho Docs</CommandEditWithZoho>
+  <ZohoNotSupportedFormatMessage>Этот тип файлов не поддерживается Zoho. Обратитесь к информации по ссылке {0}.</ZohoNotSupportedFormatMessage>
+  <ProgressLoadingEditInZoho>Загрузка редактора Zoho</ProgressLoadingEditInZoho>
+  <CommandSubMenuViewAndEdit>Просмотр / редактирование</CommandSubMenuViewAndEdit>
+  <CommandSubMenuShare>Общий доступ</CommandSubMenuShare>
+  <CommandSubMenuMore>ещё</CommandSubMenuMore>
+  <StopUploadingButtonText>Прервать</StopUploadingButtonText>
+  <SimpleUploadErrorInfo>При загрузке произошла ошибка.&lt;br /&gt;{0}Показать подробности&lt;/a&gt;.</SimpleUploadErrorInfo>
+  <BalloonAbortFilesUploaded>Загрузка файлов была прервана</BalloonAbortFilesUploaded>
+  <UploadDragNDropTab>Drag &amp; Drop</UploadDragNDropTab>
+  <UploadDragNDropTabImages>Drag &amp; drop + изображения</UploadDragNDropTabImages>
+  <DnDGridProgressColumn>Состояние загрузки</DnDGridProgressColumn>
+  <DnDFileReadingError>Ошибка чтения. Код ошибки: {0}.</DnDFileReadingError>
+  <DnDFileReadingAbort>Чтение прервано. Код ошибки: {0}.</DnDFileReadingAbort>
+  <DnDFileUploadingError>Ошибка при загрузке. {0}</DnDFileUploadingError>
+  <DnDFileUploadingAbort>Загрузка прервана.</DnDFileUploadingAbort>
+  
+  <CommandWebFoldersLinks>Подключить веб-папку</CommandWebFoldersLinks>
+  <CommandSyncWebFolders>Синхронизация с локальным каталогом</CommandSyncWebFolders>
+  <WebFolderLinksFieldLabel>Ссылки на веб-папки</WebFolderLinksFieldLabel>
+  <WebFolderLinksForWindows64Note>Нажмите сочетание клавиш {0}Win+R{1}, затем в открывшемся диалоге {0}Выполнить{1} в поле {0}Открыть:{1} вставьте одну из ниже предложенных команд подключения; нажмите {0}OK{1}. При использовании встроенной проверки подлинности Windows указывайте полное доменное имя пользователя: {2}.</WebFolderLinksForWindows64Note>
+  <OpenLibreOfficeRunCommandNote>Либо нажмите сочетание клавиш {0}Win+R{1}, вставьте команду ниже в поле {0}Открыть:{1} в открывшемся диалоге {0}Выполнить{1} и нажмите {0}OK{1}</OpenLibreOfficeRunCommandNote>
+  <WebFolderLinksForMacOSNote>В меню программы {0}Finder{1} выберите {0}Go &amp;rarr; Connect to Server{1}, скопируйте и вставьте ссылку в поле {0}Server address{1}, нажмите кнопку {0}Connect{1}; в открывшемся диалоге выберите {0}Registered user{1} и нажмите кнопку {0}Connect{1}.</WebFolderLinksForMacOSNote>
+  <WebFolderLinksForUbuntuNote>Перейдите {0}Go &amp;rarr; Location...{1}. Скопируйте и вставьте ссылку в поле с адресом.</WebFolderLinksForUbuntuNote>
+  <LinksToWebFoldersWindowText>Подключив такую папку, вы можете использовать её локально в вашей операционной системе. При этом вы можете работать с файлами в этой папке как с локальными и редактировать документы в Microsoft Office, OpenOffice или LibreOffice. За более подробной информацией обратитесь к разделу помощи {0}.</LinksToWebFoldersWindowText>
+  <CommonFileTypeNameCaption>Имя файла для "{0}"</CommonFileTypeNameCaption>
+  <CommonFileTypeNamePrompt>Введите новое имя файла для "{0}"</CommonFileTypeNamePrompt>
+  
+  <PixlrEditorWindowTitle>Редактор Pixlr{0}</PixlrEditorWindowTitle>
+  <PixlrSaveImageSuccessMessage>Изображение "{0}" успешно сохранено. Обновите список файлов, если вы сохранили изображение под новым именем.</PixlrSaveImageSuccessMessage>
+  <CommonFileImageNewName>Новое изображение</CommonFileImageNewName>
+  <CommandChangeTheme>Изменить тему</CommandChangeTheme>
+  
+  <CommandHelp>Помощь</CommandHelp>
+
+  <OpeningShortcutProgress>Открытие ярлыка</OpeningShortcutProgress>
+  <CommandCreateShortcut>Ярлык</CommandCreateShortcut>
+  <ShortcutNameHint>Имя ярлыка</ShortcutNameHint>
+  <ShortcutTargetPathHint>Путь назначения</ShortcutTargetPathHint>
+  <CreateShortcutButtonTitle>Создать</CreateShortcutButtonTitle>
+  <CreatingShortcutProgress>Создание ярлыка</CreatingShortcutProgress>
+  <CreateShortcutSuccessMessage>Ярлык "{0}" был успешно создан для "{1}".</CreateShortcutSuccessMessage>
+
+  <OpeningInternetShortcutProgress>Открытие гиперссылки</OpeningInternetShortcutProgress>
+  <InternetShortcutNotValidMsg>Не удалось перейти по адресу гиперссылки.</InternetShortcutNotValidMsg>
+  <InternetShortcutWindowTitle>Перейти по ссылке</InternetShortcutWindowTitle>
+  
+  <CommandVersioning>Управление версиями</CommandVersioning>
+  <CommandVersionHistory>История версий</CommandVersionHistory>
+  <CommandCheckOut>Зафиксировать текущую версию</CommandCheckOut>
+  <CommandCheckIn>Создать новую версию</CommandCheckIn>
+  <CommandUndoCheckOut>Отменить текущую версию</CommandUndoCheckOut>
+  <VersionHistoryObtainingMessage>Получение списка версий файла</VersionHistoryObtainingMessage>
+  <NoVersionHistoryMessage>У выбранного файла нет версий</NoVersionHistoryMessage>
+  <FileIsCheckedOutMessage>Для файла "{0}" уже {2} зафиксирована текущая версия пользователем "{1}"</FileIsCheckedOutMessage>
+  <CheckingOutMessage>Создание новой версии файла</CheckingOutMessage>
+  <SuccessfullyCheckedOutMessage>Для файла "{0}" была успешно зафиксирована текущая версия пользователем "{1}"</SuccessfullyCheckedOutMessage>
+  <FileIsNotCheckedOutMessage>Для файл "{0}" ещё не была зафиксирована текущая версия</FileIsNotCheckedOutMessage>
+  <FileIsCheckedOutOtherUserMessage>Для файла "{0}" была {2} зафиксирована текущая версия другим пользователем "{1}".</FileIsCheckedOutOtherUserMessage>
+  <FileUndoCheckOutForbiddenMessage>Вы не можете отменить текущую версию, т.к. она была зафиксирована другим пользователем.</FileUndoCheckOutForbiddenMessage>
+  <FileCheckInForbiddenMessage>Вы не можете создать новую версию файла, т.к. текущая версия была зафиксирована другим пользователем.</FileCheckInForbiddenMessage>
+  <FileUndoCheckOutConfirmMessage>Если вы отмените текущую версию, то изменения, внесенные в документ не будут сохранены! Вы уверены, что хотите продолжить?</FileUndoCheckOutConfirmMessage>
+  <FileVersionDeleteConfirmTitle>Удаление версии файла</FileVersionDeleteConfirmTitle>
+  <FileVersionDeleteConfirmMessage>Вы уверены, что хотите удалить выбранную версию файла?</FileVersionDeleteConfirmMessage>
+  <FileVersionRestoreConfirmTitle>Восстановление версии файла</FileVersionRestoreConfirmTitle>
+  <FileVersionRestoreConfirmMessage>Вы уверены, что хотите восстановить выбранную версию файла?{0}Если да, укажите в поле ниже имя файла, в который будет сохранена выбранная для восстановления версия. Если оставить это поле без изменений (или пустым), то выбранная версия заменит текущий файл (а предыдущее содержимое файла будет добавлено в историю версий).{1}Имя файла:</FileVersionRestoreConfirmMessage>
+  <UndoCheckingOutMessage>Отмена текущей версии</UndoCheckingOutMessage>
+  <SuccessfullyUndoCheckedOutMessage>Отмена текущей версии файла "{0}" была успешно выполнена.</SuccessfullyUndoCheckedOutMessage>
+  <SuccessfullyCheckedInMessage>Для файла "{0}" была успешно создана новая версия пользователем "{1}"</SuccessfullyCheckedInMessage>
+  <CheckingInMessage>Создание новой версии</CheckingInMessage>
+  <VersionHistoryTitle>Версии файла "{0}"</VersionHistoryTitle>
+  <VersionHistoryGridNumberColumn>Вер.</VersionHistoryGridNumberColumn>
+  <VersionHistoryGridNotesColumn>Примечания</VersionHistoryGridNotesColumn>
+  <CommandRestoreVersion>Восстановить</CommandRestoreVersion>
+  <ProgressPrepareDownloadOldVersion>Подготовка получения предыдущей версии файла</ProgressPrepareDownloadOldVersion>
+  <FileVersionNotFoundMessage>Выбранная версия файла не была найдена.</FileVersionNotFoundMessage>
+  <ProgressDeletingVersion>Удаление версии</ProgressDeletingVersion>
+  <ProgressRestoringVersion>Восстановление версии</ProgressRestoringVersion>
+  <FileNeedCheckInMessage>Пожалуйста, для выбранного файла создайте новую версию или отмените текущую и повторите попытку.</FileNeedCheckInMessage>
+  <FileCheckedOutEditForbiddenMessage>Вы не можете изменить/переименовать/переместить/удалить файл "{0}", т.к. для него была {2} зафиксирована текущая версия пользователем "{1}"</FileCheckedOutEditForbiddenMessage>
+  <FileUploadCheckInLabel>Вы можете создать новую версию файла или загрузить её, используя ниже форму для загрузки. Если вы хотите просто создать новую версию, то оставьте поле с выбором файла пустым.</FileUploadCheckInLabel>
+  <FileUploadCheckInInvalidFileName>Имя загружаемого файла должно быть точно таким же, как и имя выбранного файла</FileUploadCheckInInvalidFileName>
+  <CheckOutVersionNotes>Эта версия была создана автоматически</CheckOutVersionNotes>
+  <RestoreVersionNotes>Эта версия была создана автоматически после восстановления версии от {0} пользователя "{1}"</RestoreVersionNotes>
+  <IsCheckedOutHint>Для файла зафиксирована текущая версия</IsCheckedOutHint>
+  <ExistsOldVersionsHint>Файл имеет другие версии</ExistsOldVersionsHint>
+  <IsLockedHint>Файл заблокирован</IsLockedHint>
+  <FileWasCreatedHint>Создан {0} назад</FileWasCreatedHint>
+  <FileWasModifiedHint>Изменён {0} назад</FileWasModifiedHint>
+  <CommonChangedAgo>{0} назад</CommonChangedAgo>
+  <DaysShort>д</DaysShort>
+  <HoursShort>ч</HoursShort>
+  <MinutesShort>м</MinutesShort>
+  <FileContainsMetaDataHint>Содержит дополнительные свойства</FileContainsMetaDataHint>
+  <FileMetaDataCaptionMobile>Заметки</FileMetaDataCaptionMobile>
+
+  <ExistsPublicLinksFileHint>Для файла есть ссылка(и) общего доступа</ExistsPublicLinksFileHint>
+  <ExistsPublicLinksFolderHint>Для папки есть ссылка(и) общего доступа</ExistsPublicLinksFolderHint>
+  <PublicLinkNotFound>Ссылка общего доступа для "{0}" не найдена</PublicLinkNotFound>
+
+  <PublicLinksDeleteWindowTitle>Удалить ссылку(и)</PublicLinksDeleteWindowTitle>
+  <PublicLinksDeleteLinkButton>Удалить ссылку</PublicLinksDeleteLinkButton>
+  <PublicLinksDeleteConfirmMsg>Вы уверены, что хотите удалить выбранные ссылки?</PublicLinksDeleteConfirmMsg>
+  <PublicLinksDeleteSingleConfirmMsg>Вы уверены, что хотите удалить эту ссылку?</PublicLinksDeleteSingleConfirmMsg>
+
+  <DetailsMultiValue>(несколько значений)</DetailsMultiValue>
+
+  <GridBottomFilesSizeInfo>Выделено: {0} / {1}, </GridBottomFilesSizeInfo>
+  <GridBottomFilesFoldersInfo>файлов: {0} / {1}, папок: {2} / {3}</GridBottomFilesFoldersInfo>
+
+  <AmountOfDownloadingsFile>Загрузок</AmountOfDownloadingsFile>
+
+  <CookiesDisabledMessage>В вашем браузере отключена поддержка файлов cookie. Пожалуйста, включите её и перезапустите браузер.</CookiesDisabledMessage>
+
+  <CommandSendEmail>Отправить e-mail</CommandSendEmail>
+  <CommandSendWithGmail>Отправить через Gmail</CommandSendWithGmail>
+  <CommandSendWithOutlook>Отправить через Outlook</CommandSendWithOutlook>
+  <SendEmailTo>Кому</SendEmailTo>
+  <SendEmailBulkMailingListHint>&lt;b&gt;Список рассылки&lt;/b&gt;&lt;br /&gt;Вы можете указать группы, которым будет отправлено сообщение</SendEmailBulkMailingListHint>
+  <SendEmailBulkMailingListWindowTitle>Выбор получателей</SendEmailBulkMailingListWindowTitle>
+  <SendEmailEmptyMailingListMessage>Список рассылки пуст</SendEmailEmptyMailingListMessage>
+  <SendEmailSenderEmail>Адрес отправителя</SendEmailSenderEmail>
+  <SendEmailSubject>Тема</SendEmailSubject>
+  <SendEmailFilesAsLinksTo>Отправить ссылки выбранных файлов</SendEmailFilesAsLinksTo>
+  <SendEmailFilesAsAttachements>Отправить выбранные файлы вложенными в сообщение</SendEmailFilesAsAttachements>
+  <SendEmailSend>Отправить</SendEmailSend>
+  <SendEmailProgressMessage>Отправка сообщения</SendEmailProgressMessage>
+  <GettingMailingListProgressMessage>Получение списка рассылки</GettingMailingListProgressMessage>
+  <SendEmailSuccessMessage>Сообщение было успешно отправлено.</SendEmailSuccessMessage>
+  <SendEmailResultsMessage>Отправлено: {0}&lt;br /&gt;Не удалось отправить: {1}{2}.</SendEmailResultsMessage>
+  <SmtpServerSettingsIncorrect>Отсутствуют или неверно указаны параметры SMTP-сервера.</SmtpServerSettingsIncorrect>
+  <FromEmailIncorrect>Отсутствует или неверно указан адрес отправителя</FromEmailIncorrect>
+  <ToEmailIncorrect>Отсутствует или неверно указано значение в поле с адресами получателей</ToEmailIncorrect>
+  <EmailSubjectEmpty>Не указана тема сообщения</EmailSubjectEmpty>
+  <UploadFromUrlTab>Загрузка по URL</UploadFromUrlTab>
+  <UploadFromUrlFieldLabel>URL (HTTP или FTP ссылка на файл)</UploadFromUrlFieldLabel>
+  <UploadFromUrlProgressTitle>Загрузка по URL</UploadFromUrlProgressTitle>
+  <UploadFromUrlMsg>Подождите, выполняется загрузка файла по указанному адресу</UploadFromUrlMsg>
+  <UploadFromUrlSuccessMsg>Файл "{0}" по ссылке "{1}" успешно загружен</UploadFromUrlSuccessMsg>
+  <UploadFromUrlUnknownResponse>Не удалось прочитать ответ от сервера по указанному адресу</UploadFromUrlUnknownResponse>
+  <UploadFromUrlEmptyFileName>Не задано имя загружаемого файла</UploadFromUrlEmptyFileName>
+  <UploadFromUrlFileName>Загрузить с именем (оставьте поле пустым, чтобы использовать имя из URL)</UploadFromUrlFileName>
+  <UploadFromUrlFileNameMobile>Загрузить с именем</UploadFromUrlFileNameMobile>
+  
+  <!-- Common Clouds keys -->  
+  <CloudAuthenticateMessage>Вы должны войти в свой аккаунт {0}. Пожалуйста, нажмите на ссылку "{1}" и вы будете перенаправлены на форму входа. {2}Подробнее{3}.</CloudAuthenticateMessage>
+  <CloudAuthenticateLink>Войти в {0}</CloudAuthenticateLink>  
+  <CloudDownloadingMessage>Сохранение в {0}</CloudDownloadingMessage>
+  <CloudAuthWarningMessage>Если не произошло никаких действий, то закройте эту страницу и нажмите заново на ссылку "{0}".</CloudAuthWarningMessage>
+  <CloudAuthEmptyInvalidMessage>Маркер доступа {0} отсутствует или неверный. Пожалуйста, выполните повторно вход.</CloudAuthEmptyInvalidMessage>
+  <CloudDownloadEndMessageTitle>Сохранение завершено</CloudDownloadEndMessageTitle>
+  <CloudDownloadFilesSuccessMessage>В {2} папку "{1}" успешно сохранено файлов: {0} шт.</CloudDownloadFilesSuccessMessage>
+  <CloudNotDownloadedFilesMessage>Не удалось сохранить файлы ({0} шт.):</CloudNotDownloadedFilesMessage>
+  <CloudFoldersCreatedSuccessMessage>В {2} папке "{1}" успешно создано каталогов: {0} шт.</CloudFoldersCreatedSuccessMessage>
+  <CloudNotFoldersCreatedMessage>Не удалось создать папки ({0} шт.):</CloudNotFoldersCreatedMessage>
+  <CloudFilesFoldersSuccessMessage>В {3} папку "{2}" успешно сохранено файлов: {0} шт., каталогов: {1} шт. </CloudFilesFoldersSuccessMessage>
+  <CloudNotFilesFoldersDownloadedMessage>Не удалось сохранить файлы ({0} шт.) и папки ({1} шт.):</CloudNotFilesFoldersDownloadedMessage>
+  <CloudLinkText>Перейти к {0}</CloudLinkText>
+  <CloudLinkDescription>Перейти на страницу {0}</CloudLinkDescription>
+  <CloudRootFolderName>&lt;b&gt;Корневая папка {0}&lt;/b&gt;</CloudRootFolderName>
+  <CloudCheckFolerMessage>Пожалуйста отметьте одну из {0} папок для продолжения.</CloudCheckFolerMessage>
+  <CloudSelectFolderMessage>Пожалуйста выберите {0} папку для продолжения.</CloudSelectFolderMessage>
+  <CloudGetFoldersInfoProgressMessage>Загрузка списка {0} папок</CloudGetFoldersInfoProgressMessage>
+  <CloudGetItemsInfoProgressMessage>Загрузка списка {0} объектов</CloudGetItemsInfoProgressMessage>
+  <CloudUploadSelectItemsMessage>Пожалуйста выберите {0} объекты для продолжения.</CloudUploadSelectItemsMessage>
+  <CloudUploadTotalFiles>Всего файлов: {0} ({1})</CloudUploadTotalFiles>
+  <CloudUploadProgressMessage>Загрузка из {0}</CloudUploadProgressMessage>
+  <CloudSignInAsDifferentUserText>Выйти из {0}</CloudSignInAsDifferentUserText>
+  <CloudLogoutProgressMsg>Выход из {0}</CloudLogoutProgressMsg>
+  <CloudRevokeTokenMsg>Отзыв маркера доступа</CloudRevokeTokenMsg>
+  <CloudRefreshTokenMsg>Обновление маркера доступа</CloudRefreshTokenMsg>
+  <CloudAuthNotCompleteMsg>Вход не выполнен.&lt;br /&gt;Пожалуйста,</CloudAuthNotCompleteMsg>
+  <CloudTrustedSitesMsg> проверьте следующие сайты в списке "Доверенных узлов":&lt;br /&gt;&lt;br /&gt;</CloudTrustedSitesMsg>
+  <TrustedSitesForMicrosoftEdge>Если вы используете Microsoft Edge, то проверьте Доверенные узлы в Internet Explorer</TrustedSitesForMicrosoftEdge>
+  <CloudCheckAuthMsg>Проверка аутентификации {0}</CloudCheckAuthMsg>
+  <CloudLoadMsg>Загрузка {0}</CloudLoadMsg>
+  <CloudFreeSpaceError>Недостаточно свободного место в вашем хранилище {2} для загрузки файлов. Свободно: {0}. Размер файла: {1}.</CloudFreeSpaceError>
+  <CloudFreeSpaceExceeded>Недостаточно свободного место в вашем хранилище {0}</CloudFreeSpaceExceeded>
+  <CloudExceedFileSizeError>Размер {1} сохраняемого файла превышает допустимый размер {0} для загрузки.</CloudExceedFileSizeError>
+  <CloudFolderNotFound>Каталог не найден. Возможно он был удалён.</CloudFolderNotFound>
+  <CloudFileNotFound>Файл не найден. Возможно он был удалён.</CloudFileNotFound>
+  <CloudNoFoldersMessage>Отсутствуют директории для отображения</CloudNoFoldersMessage>
+  <CloudLibraryNotLoadedMsg>Клиентская библиотека {0} не загружена!&lt;br /&gt;Пожалуйста проверьте соединение с Internet и обновите страницу.&lt;br /&gt;Также</CloudLibraryNotLoadedMsg>
+  <CloudDownloadWithNewNames>Следующие файлы сохранены под новыми именами:</CloudDownloadWithNewNames>
+
+  <!-- Google Drive Cloud keys -->
+  <CommandDownloadToGoogleDocs>Сохранить в Google Drive</CommandDownloadToGoogleDocs>
+  <GoogleDocsSaveAs>сохранить как:</GoogleDocsSaveAs>
+  <GoogleDocsSaveAsTitle>Сохранить "{0}" как...</GoogleDocsSaveAsTitle>
+  <GoogleDocsDownloadEndWarningMessage>Если вы не видите сохранённых документов в вашем аккаунте Google Drive, то подождите несколько секунд и обновите список файлов в Google Drive.</GoogleDocsDownloadEndWarningMessage>
+  <GoogleDriveUploadNoFilesMessage>Не выбрано файлов для загрузки с Google Drive</GoogleDriveUploadNoFilesMessage>
+  <GoogleDriveMaxUploadSizeError>Для файла типа "{0}" превышен максимальный размер {1} для загрузки.</GoogleDriveMaxUploadSizeError>
+  <GoogleDriveConvertMsg>Если доступно, то преобразовывать файлы в формат документов Google. {0}Подробнее{1}.</GoogleDriveConvertMsg>
+
+  <!-- Box Cloud keys -->
+  <CommandDownloadToBox>Сохранить в Box</CommandDownloadToBox>
+  <BoxDownloadWithNewNames>Для следующих Box файлов созданы новые версии:</BoxDownloadWithNewNames>
+  <BoxNoViewPermission>Вы не можете просматривать выбранную директорию - отсутствует необходимое разрешение.</BoxNoViewPermission>
+  <BoxNoDownloadPermission>Вы не можете скачать файл - отсутствует необходимое разрешение.</BoxNoDownloadPermission>
+  <BoxNoUploadPermission>Вы не можете загрузить файл - отсутствует необходимое разрешение.</BoxNoUploadPermission>
+  <BoxUnableCreateOrInfoError>Не удалось создать или получить сведения</BoxUnableCreateOrInfoError>
+  
+  <!-- Dropbox Cloud keys -->
+  <CommandDownloadToDropbox>Сохранить в Dropbox</CommandDownloadToDropbox>
+  
+  <!-- OneDrive Cloud keys -->
+  <CommandDownloadToSkyDrive>Сохранить в OneDrive</CommandDownloadToSkyDrive>
+  <AuthenticateOAuthSkyDriveMessageShort>Вам необходимо войти в свою учётную запись Microsoft Live.</AuthenticateOAuthSkyDriveMessageShort>
+  <SkyDriveAuthAlsoString>Также </SkyDriveAuthAlsoString>
+  <SkyDriveLoginButtonTitle>Войти</SkyDriveLoginButtonTitle>
+  <SkyDriveRegistryMessage>У вас нет Windows Live ID? {0}Зарегистрируйтесь...{1}</SkyDriveRegistryMessage>
+  <SkyDriveMapRootFolder>Внимание! Вы можете {0}подключить{1} веб-папку OneDrive, используя ссылку:</SkyDriveMapRootFolder>
+  <SkyDriveMoreInfoLink>{0}Подробнее о OneDrive{1}</SkyDriveMoreInfoLink>
+  <OneDriveMaxUploadSizeError>Превышен допустимый размер ({0}) загружаемого файла: {1}</OneDriveMaxUploadSizeError>
+  <!-- OneDrive for Business -->
+  <OneDriveForBusinessMapWebFolderInfo>&lt;b&gt;Внимание!&lt;/b&gt; Перед открытием файлов в этой папке, необходимо сначала добавить веб-сайт в список доверенных узлов и выполнить вход на сайт с выбором опции автоматического входа в систему (в IE браузере).</OneDriveForBusinessMapWebFolderInfo>
+  
+  <UploadFromUrlLabelText>Вы можете указать URL адрес файла, расположенного в Internet (в том числе и по FTP) или в файлообменных сервисах, таких как {0}, {1}, {2}, {3}, {4}.</UploadFromUrlLabelText>
+  <UploadFromUrlLabelTextMobile>Укажите URL файла</UploadFromUrlLabelTextMobile>
+
+  <LinkToFileTitle>Ссылка на файл/папку</LinkToFileTitle>
+  <LinkToFileWarningAnonym>Эта ссылка даёт доступ к файлу без авторизации. Любой пользователь (даже тот, кто не имеет учётной записи), может скачать файл, используя эту ссылку. {0}Подробнее{1}.</LinkToFileWarningAnonym>
+  <LinkToFileDownloadFileLink>Эта ссылка позволяет скачать выбранный файл {0} из {1}. Вам необходимо авторизоваться, чтобы использовать эту ссылку. Она не даёт анонимного доступа к файлу.</LinkToFileDownloadFileLink>
+  <LinkToFileExpireDate>Действительна до</LinkToFileExpireDate>
+  <LinkToFileDownloadCnt>Макс. кол-во загрузок</LinkToFileDownloadCnt>
+  <LinkToFileDownloadType>Тип ссылки</LinkToFileDownloadType>
+  <LinkToFileGenerate>Создать ссылку</LinkToFileGenerate>
+  <LinkToFilePasswordNotMatch>Пароли не совпадают</LinkToFilePasswordNotMatch>
+  <LinkToFilePasswordRequired>Необходимо указать пароль</LinkToFilePasswordRequired>
+  <LinkToFileInvalidForm>Недопустимые параметры</LinkToFileInvalidForm>
+  <LinkToFileAnonymDownloadLinkHint>Ссылка общего доступа для "{0}":</LinkToFileAnonymDownloadLinkHint>
+  <LinkToFileAnonymDownloadShortLinkHint>Укороченная ссылка для "{0}":</LinkToFileAnonymDownloadShortLinkHint>
+  <LinkToFileOpenFolderLink>Эта ссылка позволяет открыть выбранную папку {0} из {1}. Вам необходимо авторизоваться, чтобы использовать эту ссылку. Она не даёт анонимного доступа к папке.</LinkToFileOpenFolderLink>
+  <LinkToFileOpenFileLink>Эта ссылка открывает папку с файлом и выделяет его</LinkToFileOpenFileLink>
+  <LinkToFileDaysLeft>дн. осталось</LinkToFileDaysLeft>
+  <LinkToFileCaptionMobile>Ссылки общего доступа</LinkToFileCaptionMobile>
+
+  <PublicFolderLinkHint>Ссылка общего доступа для папки "{0}":</PublicFolderLinkHint>
+  <PublicFolderShortLinkHint>Укороченная ссылка для папки "{0}":</PublicFolderShortLinkHint>
+  <PublicFolderLinkDownloadZipHint>Ссылка для получения zip-архива с содержимым папки "{0}":</PublicFolderLinkDownloadZipHint>
+  <PublicFolderLinkShortDownloadZipHint>Укороченная ссылка для получения zip-архива с содержимым папки "{0}":</PublicFolderLinkShortDownloadZipHint>
+  <PublicFolderLinkZipDownload>Сжать и скачать zip-архив с содержимым текущей папки {0}</PublicFolderLinkZipDownload>
+  <PublicFolderLinkOverwriteWhileUpload>Перезаписывать существующие</PublicFolderLinkOverwriteWhileUpload>
+  <PublicFolderLinkOpenFolderHint>Открыть папку</PublicFolderLinkOpenFolderHint>
+  <PublicFolderDownloadDisabledNote>Внимание! Владелец этой папки запретил скачивать файлы из неё.</PublicFolderDownloadDisabledNote>
+  <PublicFolderLinkSendEmails>Адреса e-mail для уведомлений об активности</PublicFolderLinkSendEmails>
+  <PublicFolderAnonymAccessControl>Разрешить</PublicFolderAnonymAccessControl>
+  <PublicFolderAnonymDownload>Скачивать файлы</PublicFolderAnonymDownload>
+  <PublicFolderAnonymZipDownload>Скачивать папку (как zip-архив)</PublicFolderAnonymZipDownload>
+  <PublicFolderAnonymUpload>Загружать&amp;nbsp;файлы</PublicFolderAnonymUpload>
+  <PublicFolderAnonymViewContent>Просматривать содержимое</PublicFolderAnonymViewContent>
+  <PublicFolderNoteForUsers>Примечание для пользователей</PublicFolderNoteForUsers>
+  <PublicFolderACLNotSet>Права доступа не заданы</PublicFolderACLNotSet>
+  <PublicFolderWarningAnonym>Эта ссылка даёт анонимный доступ к папке. Любой пользователь (даже тот, который не имеет учётной записи), может скачивать и загружать файлы в выбранную папку, используя эту ссылку. Также, такая ссылка позволяет скачать как всю папку целиком (сжатую в zip-архив), так и отдельные файлы в ней. {0}Подробнее{1}.</PublicFolderWarningAnonym>
+  <PublicLinksShowForAllItems>Показать для всех</PublicLinksShowForAllItems>
+  <PublicLinksShowForSelected>Показать для выбранного</PublicLinksShowForSelected>
+  
+  <MultipleFileInputMessage>Внимание! Ваш браузер поддерживает выбор сразу нескольких файлов.</MultipleFileInputMessage>
+  <UploadZipUnzipNote>Вы можете загрузить zip-архив с несколькими файлами и папками, и затем извлечь его, используя команду "{0}" в контекстном меню.</UploadZipUnzipNote>
+  <DnDFileUploadingStatusCode>Код состояния</DnDFileUploadingStatusCode>
+  <DnDFileUploadingPathOrNameEmpty>Путь или имя файла не указано</DnDFileUploadingPathOrNameEmpty>
+  <DnDFileUploadingRemoveFromList>Удалить из списка</DnDFileUploadingRemoveFromList>
+  <DndFileUploadingDontDropFoldersMsg>Вы можете перетаскивать файлы в список ниже (и только файлы, папки не распознаются).</DndFileUploadingDontDropFoldersMsg>
+  <DndFileUploadingAllowDropFoldersMsg>Вы можете перетаскивать файлы и папки в список ниже.</DndFileUploadingAllowDropFoldersMsg>
+  <DndFileUploadingFilesSummaryInfo>Всего файлов: {0} ({1})</DndFileUploadingFilesSummaryInfo>
+  <DropFilesHere>Отпустите здесь файлы для загрузки</DropFilesHere>
+  
+  <FileGridDownloadColumn>Файлы для загрузки</FileGridDownloadColumn>
+  <FileAttributesField>Атрибуты</FileAttributesField>
+  <FolderCalculateSize>Вычислить</FolderCalculateSize>
+  <FolderRecalculateSize>Пересчитать</FolderRecalculateSize>
+  <FolderContainsField>Содержит</FolderContainsField>
+  <FolderContainsFilesFolders>файлов: {0}, папок: {1}</FolderContainsFilesFolders>
+  <FolderCalculatingMessage>Вычисление</FolderCalculatingMessage>
+
+  <SearchTitle>Поиск файлов. Доступные шаблоны: {0}</SearchTitle>
+  <SearchType>Искать</SearchType>
+  <SearchOnlyFiles>только файлы</SearchOnlyFiles>
+  <SearchOnlyFolders>только папки</SearchOnlyFolders>
+  <SearchBothFilesFolders>и файлы, и папки</SearchBothFilesFolders>
+  <SearchFileDetails>Свойства файла</SearchFileDetails>
+  <SearchFileContent>Содержимое файла</SearchFileContent>
+  <SearchByDateFrom>с</SearchByDateFrom>
+  <SearchByDateTo>по</SearchByDateTo>
+  <SearchLocation>Расположение</SearchLocation>
+  <SearchLocationEntire>Везде</SearchLocationEntire>
+  <SearchLocationCurrent>В текущей папке</SearchLocationCurrent>
+  <SearchSearch>Найти</SearchSearch>
+  <SearchNothingFound>Ничего не найдено! Попробуйте изменить критерии поиска.</SearchNothingFound>
+  <SearchErrorCaption>Ошибка при поиске</SearchErrorCaption>
+  <SearchResultsNotComplete>Внимание! Возможно, что результаты поиска не полны, т.к. еще не проиндексированы некоторые папки.</SearchResultsNotComplete>
+  <SearchRepeatOrContactAdmin>Попробуйте повторить поиск позже или обратитесь к администратору.</SearchRepeatOrContactAdmin>
+  <SearchLinkToManual>Обратитесь к {0}справке Windows Search{1}</SearchLinkToManual>
+  <QuerySearchByNameText>поиск по имени</QuerySearchByNameText>
+  <QuerySearchByConentText>по содержимому</QuerySearchByConentText>
+  <SearchByDetailsWarning>Внимание! Вы указали в параметрах, поиск по свойствам. В этом случае поиск будет осуществлён с помощью стандартного метода, вместо использования службы индексирования Windows.</SearchByDetailsWarning>
+  <SearchInSpecialFolderWarning>Внимание! Для текущей папки поиск не применим. В случае продолжения, поиск будет выполнен во всех каталогах.</SearchInSpecialFolderWarning>
+
+  <UploadTitle>Загрузка нескольких файлов</UploadTitle>
+  <UploadSimpleTab>Стандартная</UploadSimpleTab>
+  <UploadSimpleReset>Очистить</UploadSimpleReset>
+  <UploadSimpleUpload>Загрузить</UploadSimpleUpload>
+  <UploadSimpleUploadFolderLabelCollapsed>Загрузить папку</UploadSimpleUploadFolderLabelCollapsed>
+  <UploadSimpleUploadFolderButtonText>Выбрать папку</UploadSimpleUploadFolderButtonText>
+  <UploadJavaTab>Java</UploadJavaTab>
+  <UploadJavaIgnorePaths>Поместить все файлы в одну папку (игнорировать пути)</UploadJavaIgnorePaths>
+  <UploadFlashTab>Flash</UploadFlashTab>
+  <UploadSilverlightTab>Silverlight</UploadSilverlightTab>
+  <UploadPartially>Не удалось загрузить некоторые файлы</UploadPartially>
+  <UploadFolderNotSelectedTitle>Папка не выбрана</UploadFolderNotSelectedTitle>
+  <UploadFolderNotSelected>Пожалуйста, выберите папку, в которую будут загружены файлы</UploadFolderNotSelected>
+  <UploadInProgress>Загрузка файлов</UploadInProgress>
+  <UploadInvalidFormFields>Поля формы не могут быть отправлены с неверными значениями</UploadInvalidFormFields>
+  <UploadAjaxFailed>Не удалось выполнить AJAX-запрос</UploadAjaxFailed>
+  <UploadFilesAlreadyExists>Загружаемые файлы уже существуют</UploadFilesAlreadyExists>
+  <UploadOverwriteFiles>Существующие файлы будут перезаписаны. Вы хотите продолжить?</UploadOverwriteFiles>
+  <UploadOverwriteOrRenameFiles>Один или несколько файлов уже есть в указанном каталоге. Хотите перезаписать существующие файлы? Нажмите кнопку "{0}", если вы хотите перезаписать уже существующие файлы, или "{1}" - если вы хотите сохранить все файлы (загружаемые файлы будут сохранены под новыми именами).</UploadOverwriteOrRenameFiles>
+  <UploadNotModifyExistingFiles>Один или несколько файлов уже есть в указанном каталоге. При этом ваши разрешения не позволяют загружать файлы с заменой существующих. Пожалуйста, удалите или переименуйте существующие файлы в списке загрузки.</UploadNotModifyExistingFiles>
+  <UploadRenamedExistingFiles>Один или несколько файлов уже есть в указанном каталоге. При загрузке такие файлы будут сохранены под новыми именами.</UploadRenamedExistingFiles>
+  <UploadNotAllowedTitle>Загрузка запрещена</UploadNotAllowedTitle>
+  <UploadNotAllowedPrompt>У вас отсутствуют разрешения для загрузки файлов в эту папку</UploadNotAllowedPrompt>
+
+  <UploadMobileIOSVideo>Если вы хотите загружать видеофайлы, то включите эту настройку</UploadMobileIOSVideo>
+  <UploadMobileAurigmaLink>Обратите внимание, для загрузки файлов необходимо, чтобы у вас на устройстве было установлено приложение Aurigma Up! Нажмите здесь, чтобы установить приложение Aurigma Up!</UploadMobileAurigmaLink>
+  <UploadMobileAurigmaReady>После установки приложения Aurigma Up! (или если оно уже установлено) нажмите кнопку "Загрузить".</UploadMobileAurigmaReady>
+  <UploadMobileAurigmaFilePrefix>Префикс для имён загружаемых файлов</UploadMobileAurigmaFilePrefix>
+  <UploadMobileResult>Результат загрузки:</UploadMobileResult>
+  <UploadMobileUrlPlaceHolder>Введите адрес URL</UploadMobileUrlPlaceHolder>
+  <UploadMobileFileNamePlaceHolder>Введите новое имя файла</UploadMobileFileNamePlaceHolder>
+  <UploadBrowseLabel>Обзор...</UploadBrowseLabel>
+  
+  <MobileToolTipsCaption>Вы знаете, что ...</MobileToolTipsCaption>
+  <MobileToolTipsNextButton>Ещё</MobileToolTipsNextButton>
+  <MobileToolTipsIKnowButton>Я знаю это</MobileToolTipsIKnowButton>
+  <MobileToolTipsHideButton>Больше не показывать</MobileToolTipsHideButton>
+  <MobileToolTipsMultiSelection>Для выделения нескольких файлов или папок вы можете нажать на &lt;b&gt;{0}&lt;/b&gt;. Нажмите ещё раз для выхода из режима выделения нескольких элементов.</MobileToolTipsMultiSelection>
+  <MobileToolTipsSlideToRemove>Для удаления объекта вы можете провести на нём справа налево. При этом, над элементом отобразится кнопка удаления.</MobileToolTipsSlideToRemove>
+  <MobileToolTipsTapAndHoldForMenu>Для вызова контекстного меню, нажмите и удерживайте на элементе. Также, его можно вызвать, нажав на стрелке справа.</MobileToolTipsTapAndHoldForMenu>
+  <MobileToolTipsDoubleTapForPreview>Одиночное нажатие на файле, выделяет его, двойное - показывает содержимое или скачивает. Одиночное нажатие на папке - открывает её.</MobileToolTipsDoubleTapForPreview>
+  <MobileToolTipsPullDownToRefresh>Для обновления списка нужно потянуть его сверху вниз.</MobileToolTipsPullDownToRefresh>
+  <MobileToolTipsPinchToScale>Для увеличения/уменьшения изображений вы можете пользоваться жестом 'pinch'.</MobileToolTipsPinchToScale>
+  <MobileToolTipsTapToHideBars>Нажатие в любом месте изображения переключает видимость панели инструментов.</MobileToolTipsTapToHideBars>
+  <MobileToolTipsSlideLeftRightToNext>Перелистывать список изображений можно с помощью жестов.</MobileToolTipsSlideLeftRightToNext>
+
+  <DownloadToCloudMobileTip>Одиночное нажатие на папке выделяет, а двойное - открывает её.</DownloadToCloudMobileTip>
+  
+  <UploadTotalMaxSizeMessage>Внимание! Максимальный размер всех загружаемых файлов не должен превышать {0}.</UploadTotalMaxSizeMessage>
+  <UploadOneFileMaxSizeMessage>&lt;b&gt;Внимание!&lt;/b&gt; Максимальный размер каждого загружаемого файла не должен превышать {0}.</UploadOneFileMaxSizeMessage>
+  <UploadUnlimitedSizeMessage>&lt;b&gt;Внимание!&lt;/b&gt; Размер загружаемых файлов не ограничен.</UploadUnlimitedSizeMessage>
+  <SimpleUploadSetFileNameNote>Примечание 2! После выбора файла вы можете изменить имя под которым он будет загружен.</SimpleUploadSetFileNameNote>
+
+  <AnonymousUploadTitle>Загрузить файлы в эту папку</AnonymousUploadTitle>
+  <AnonymousUploadDescription>Вы можете загружать файлы в эту папку. Нажмите кнопку "Обзор" ниже, и выберите файлы.</AnonymousUploadDescription>
+  <AnonymousUploadOverwriteHint>Если загруженный файл уже существует, он будет заменен.</AnonymousUploadOverwriteHint>
+  <AnonymousUploadShowUploadHint>Показать форму загрузки</AnonymousUploadShowUploadHint>
+  <AnonymousUploadHideUploadHint>Свернуть форму загрузки</AnonymousUploadHideUploadHint>
+  <AnonymousUploadNewFolderNameHint>В поле ниже вы можете указать имя подкаталога (папка будет создана, если он не существует), в который файлы будут загружены:</AnonymousUploadNewFolderNameHint>
+  <AnonymousUploadCompleteTitle>Загрузка в папку {0} завершается</AnonymousUploadCompleteTitle>
+  <AnonymousUploadExistsFilesMessage>Следующий файл (ы) не были загружены, так как файл (ы) с таким же именем (ы) уже существуют: {0}.</AnonymousUploadExistsFilesMessage>
+  <AnonymousUploadOwnersNote>Примечание от владельца папки</AnonymousUploadOwnersNote>
+  <AnonymousDownloadPageTitle>Скачать файл</AnonymousDownloadPageTitle>
+  <AnonymousDownloadFileHint>Скачать файл</AnonymousDownloadFileHint>
+  <AnonymousUploadPageTitle>Загрузить в папку</AnonymousUploadPageTitle>
+  <AnonymousPublicFolderPageTitle>Папка общего доступа</AnonymousPublicFolderPageTitle>
+  <AnonymousLoginAccessUserFailure>Вы вошли под учётной записью, не имеющей доступа к ресурсу. Пожалуйста введите другие учётные данные для доступа. Если вы их не знаете, то обратитесь к владельцу публичной ссылки или администратору.</AnonymousLoginAccessUserFailure>
+  <ProgressGettingAnonymLink>Создание ссылки</ProgressGettingAnonymLink>
+  <ProgressGettingAnonymLinks>Получение списка ссылок</ProgressGettingAnonymLinks>
+  <ProgressGettingBoxViewLink>Получение ссылки для просмотра в Box View</ProgressGettingBoxViewLink>
+  <AutodeskScriptNotIncludedMessage>Не удалось подключить скрипт Autodesk Viewer</AutodeskScriptNotIncludedMessage>
+  <ProgressUninitializeAutodeskViewer>Закрытие Autodesk Viewer</ProgressUninitializeAutodeskViewer>
+  <ProgressGettingAutodeskViewLink>Получение данных для просмотра в Autodesk</ProgressGettingAutodeskViewLink>
+  <AnonymousChangeLanguageHint>Выберите язык</AnonymousChangeLanguageHint>
+  <AnonymousUpLinkHint>Перейти к папке на уровень выше</AnonymousUpLinkHint>
+  <AnonymousPasswordDescription>Папка защищена паролем</AnonymousPasswordDescription>
+  <AnonymousPasswordIncorrectMessage>Неправильно указан пароль</AnonymousPasswordIncorrectMessage>
+  <AnonymousErrorTitle>Ошибка при обращении по ссылке</AnonymousErrorTitle>
+  <AnonymousErrorNotFound>Ссылка "{0}" не найдена!</AnonymousErrorNotFound>
+  <AnonymousErrorAccessDenied>Вы не имеете разрешений на использование содержимого по ссылке "{0}"</AnonymousErrorAccessDenied>
+  <AnonymousErrorFileNotFound>Ссылка "{0}" указывает на несуществующий файл или папку, либо отсутствуют NTFS разрешения на чтение.</AnonymousErrorFileNotFound>
+  <AnonymousErrorUnknownLinkType>Не удалось распознать ссылку "{0}"</AnonymousErrorUnknownLinkType>
+  <AnonymousSendEmailSubject>Активность пользователей общей папки</AnonymousSendEmailSubject>
+  <AnonymousSendEmailUploadBody>Следующие файлы были загружены в вашу общую папку {0}:{1}.</AnonymousSendEmailUploadBody>
+  <AnonymousSendEmailDownloadBody>Файл {0} был скачан из вашей общей папки {1}.</AnonymousSendEmailDownloadBody>
+  <AnonymousSendEmailZipDownloadBody>Всё содержимое общей папки {0} было скачано в виде zip-архива.</AnonymousSendEmailZipDownloadBody>
+  <AnonymousViewLinksButton>Показать ссылки</AnonymousViewLinksButton>
+  <AnonymousViewLinksHint>Нажмите для просмотра существующих ссылок общего доступа</AnonymousViewLinksHint>
+  <AnonymousViewLinksWindowTitle>Ссылки общего доступа</AnonymousViewLinksWindowTitle>
+  <AnonymousViewLinksDateCreatedColumn>Дата создания</AnonymousViewLinksDateCreatedColumn>
+  <AnonymousViewLinksDateExpiredColumn>Действительна до</AnonymousViewLinksDateExpiredColumn>
+  <AnonymousViewLinksPermissionColumn>Разрешено</AnonymousViewLinksPermissionColumn>
+  <AnonymousViewLinksDownloadedColumn>Кол-во оставшихся скачиваний</AnonymousViewLinksDownloadedColumn>
+  <ProgressDeletingAnonymousLink>Удаление ссылки</ProgressDeletingAnonymousLink>
+  <ProgressSavingAnonymousLink>Сохранение ссылки</ProgressSavingAnonymousLink>
+  <AnonymousEditLinkWindowTitle>Изменение ссылки общего доступа для "{0}"</AnonymousEditLinkWindowTitle>
+  <AnonymousEditLinkShowUrl>Показать ссылку</AnonymousEditLinkShowUrl>
+  <AnonymousEditLinkNotFound>Ссылка не найдена, либо истёк срок её действия</AnonymousEditLinkNotFound>
+
+  <AnonymousLinkSendViaButton>Отправить...</AnonymousLinkSendViaButton>
+  <AnonymousLinkSendViaEmailItem>E-mail...</AnonymousLinkSendViaEmailItem>
+  <AnonymousLinkSendButton>Отправить по e-mail...</AnonymousLinkSendButton>
+  <AnonymousLinkSendSubject>Веб-файл менеджер (использование ссылок общего доступа)</AnonymousLinkSendSubject>
+
+  <AnonymousLinkAdvOptTitle>Дополнительные параметры</AnonymousLinkAdvOptTitle>
+  <AnonymousLinkViewTypeButton>Вид ссылки</AnonymousLinkViewTypeButton>
+  <AnonymousLinkViewTypeDefault>Полный</AnonymousLinkViewTypeDefault>
+  <AnonymousLinkViewTypeShort>Короткий</AnonymousLinkViewTypeShort>
+
+  <AnonymousLinkShowCommentsLabel>Показывать описание, метки и комментарии</AnonymousLinkShowCommentsLabel>
+  <AnonymousLinkShowCommentsShort>Пок. комм.</AnonymousLinkShowCommentsShort>
+
+  <QRCodeButton>QR-код</QRCodeButton>
+
+  <AnonymousLinkLimitedAccessTitle>Ограничение доступа</AnonymousLinkLimitedAccessTitle>
+  <AnonymousLinkLimitAccessCheckBox>Разрешить доступ только для указанных пользователей</AnonymousLinkLimitAccessCheckBox>
+  <AnonymousLinkLimitAccessTextArea>Введите имена пользователей или их e-mail (через запятую)</AnonymousLinkLimitAccessTextArea>
+  <AnonymousLinkLimitAccessSendCheckBox>Отправить уведомления указанным пользователям</AnonymousLinkLimitAccessSendCheckBox>
+  <AnonymousLinkLimitAccessPersMsgLabel>Персональное сообщение (не обязательно)</AnonymousLinkLimitAccessPersMsgLabel>
+  <AnonymousLinkLimitAccessPassAndUsersMsg>Вы указали пароль и пользователей одновременно для доступа по ссылке. Пожалуйста, укажите что то одно.</AnonymousLinkLimitAccessPassAndUsersMsg>
+  <AnonymousLinkLimitAccessUsersNotFound>Пользователи:
+    {0}
+    не найдены</AnonymousLinkLimitAccessUsersNotFound>
+  <AnonymousLinkLimitAccessEmailsNotFound>Адреса e-mail:
+    {0}
+    не найдены</AnonymousLinkLimitAccessEmailsNotFound>
+  <AnonymousLinkLimitAccessUsersEmailsNotFound>Пользователи:
+    {0}
+    и адреса e-email:
+    {1}
+    не найдены</AnonymousLinkLimitAccessUsersEmailsNotFound>
+
+  <AnonymousLinkUnableToCreate>Не удалось создать анонимную ссылку</AnonymousLinkUnableToCreate>
+  <AnonymousLinkShortUrlLabel>Нажмите на кнопку обновления (внизу справа) для получения короткой ссылки</AnonymousLinkShortUrlLabel>
+  <AnonymousLinkShortUrlUpdate>Получить или обновить короткую ссылку</AnonymousLinkShortUrlUpdate>
+  <AnonymousLinkLongUrlNotSpecified>Не указан адрес длинной ссылки</AnonymousLinkLongUrlNotSpecified>
+
+  <ClientFileOrDirectoryAlreadyExists>Файл или каталог с таким именем уже существует</ClientFileOrDirectoryAlreadyExists>
+  <ClientPermissionsAllowTypes>Текущие права позволяют выполнять такое действие только с файлами следующих типов {0}</ClientPermissionsAllowTypes>
+  <ClientPermissionsDenyTypes>Текущие права не разрешают выполнять это действие с файлами следующих типов {0}</ClientPermissionsDenyTypes>
+  <OfficeApplicationNotFoundAlert>Приложение для редактирования офисных документов не найдено. Откройте файл вручную, используя ссылку в текстовом поле.</OfficeApplicationNotFoundAlert>
+  <OfficeAnonymousEditPublicLinkError>Невозможно создать ссылку общего доступа для открытия документа без авторизации.</OfficeAnonymousEditPublicLinkError>
+
+  <GoogleOWAViewLinkMessage>Для просмотра документа нажмите на ссылку ниже:</GoogleOWAViewLinkMessage>
+  <ZohoEditLinkMessage>Для редактирования документа нажмите на ссылку ниже:</ZohoEditLinkMessage>
+  <PixlrEditLinkMessage>Для редактирования изображения нажмите на ссылку ниже:</PixlrEditLinkMessage>
+  <PixlrNewImageCreateTitle>Создание нового изображения в Pixlr</PixlrNewImageCreateTitle>
+  <PixlrNewImageLinkMessage>Чтобы создать новое изображение, нажмите на ссылку ниже:</PixlrNewImageLinkMessage>
+
+  <DownloadTitle>Загрузка нескольких файлов</DownloadTitle>
+  <DownloadSimpleTab>Стандартная</DownloadSimpleTab>
+  <DownloadJavaTab>Java</DownloadJavaTab>
+  <DownloadIEPrevent>Internet Explorer блокирует автоматическую загрузку</DownloadIEPrevent>
+  <DownloadIEClickHere>Нажмите здесь, чтобы скачать</DownloadIEClickHere>
+  <DownloadIEArchiveReady>Архив "{0}" с выбранными файлами был создан и готов для загрузки</DownloadIEArchiveReady>
+  <DownloadIECaption>Загрузка завершена</DownloadIECaption>
+
+  <SettingsTitle>Настройки</SettingsTitle>
+  <SettingsLanguage>Язык</SettingsLanguage>
+  <SettingsLogOutRequired>Новые изменения будут применены после выхода или перезапуска браузера!</SettingsLogOutRequired>
+  <ThemeTitle>Изменение темы</ThemeTitle>
+  <SettingsTheme>Выберите тему</SettingsTheme>
+  <ThemeDefaultTitle>Тема по умолчанию</ThemeDefaultTitle>
+  <ThemeGrayTitle>Gray Theme</ThemeGrayTitle>
+  <ThemeAccessTitle>Accessibility Theme</ThemeAccessTitle>
+
+  <ChangeUserPasswordTitle>Изменение пароля</ChangeUserPasswordTitle>
+  <ChangeUserPasswordOldPassword>Текущий пароль</ChangeUserPasswordOldPassword>
+  <ChangeUserPasswordNewPassword>Новый пароль</ChangeUserPasswordNewPassword>
+  <ChangeUserPasswordRepeatNewPassword>Повторите новый пароль</ChangeUserPasswordRepeatNewPassword>
+  <ChangeUserPasswordPasswordsNotMatch>Пароли не совпадают.</ChangeUserPasswordPasswordsNotMatch>
+  <ChangeUserPasswordSuccessMessage>Пароль был успешно изменен.</ChangeUserPasswordSuccessMessage>
+  <ChangeUserPasswordInvalidMessage>Неверный пароль.</ChangeUserPasswordInvalidMessage>
+
+  <ChangeUserEmailTitle>Изменение адреса e-mail пользователя</ChangeUserEmailTitle>
+  <ChangeUserEmailEmail>Адрес e-mail</ChangeUserEmailEmail>
+  <ChangeUserEmailSuccessMessage>Адрес e-mail был успешно изменён.</ChangeUserEmailSuccessMessage>
+
+  <UserHelpTitle>Помощь пользователю</UserHelpTitle>
+
+  <LicenseTitle>Информация о лицензии</LicenseTitle>
+  <LicenseTrial>У вас незарегистрированная 30-дневная ознакомительная версия</LicenseTrial>
+  <LicensePrompt>Лицензионная версия{0}Количество пользователей: {1}{0}Дата покупки: {2}{0}</LicensePrompt>
+  <LicenseFreeUpgradeMessage>У вас ещё есть {0} дн. для бесплатного обновления и поддержки.</LicenseFreeUpgradeMessage>
+  <LicenseCheckMessage>Более года прошло с момента покупки. Чтобы использовать эту версию, вы должны продлить подписку или перейти к использованию предыдущей версии. Вы можете проверить вашу лицензию и найти доступные релизы на &lt;a href='{0}' target='_blank'&gt;странице проверки лицензии&lt;/a&gt;</LicenseCheckMessage>
+  
+  <ViewPopupBlocked>Новое окно было заблокировано блокировщиком всплывающих окон</ViewPopupBlocked>
+  
+  <LoginTwoFactorTitle>Подтверждение входа</LoginTwoFactorTitle>
+  <LoginTitle>Войти</LoginTitle>
+  <LoginRemember>Запомнить меня при следующем входе</LoginRemember>
+  <LoginUISelect>Вид</LoginUISelect>
+  <LoginUIStandard>Стандартный</LoginUIStandard>
+  <LoginUITouch>Мобильный</LoginUITouch>
+  <LoginLanguage>Язык</LoginLanguage>
+  <LoginLogin>Войти</LoginLogin>
+  <LoginFailure>Попытка входа не удалась.</LoginFailure>
+  <LoginBlocked>Учётная запись заблокирована. Подождите {0} мин. и повторите попытку входа снова.</LoginBlocked>
+  <LoginNotActivated>Ваша учётная запись не активирована.</LoginNotActivated>
+  <LoginResendActivation>Если сообщение с кодом активации не приходит длительное время, нажмите по этой ссылке {0} для отправки кода повторно.</LoginResendActivation>
+  <LoginResendActivationLink>отправить код активации</LoginResendActivationLink>
+  <LoginResendActivationCode>Нажмите по этой ссылке {0} для повторной отправки кода активации.</LoginResendActivationCode>
+  
+  <ActivateAccountOk>Учётная запись успешно активирована!</ActivateAccountOk>
+  <ActivateAccountResultLabel>Результат активации</ActivateAccountResultLabel>
+  <ActivateAccountErrorOnlyFormsAuth>Активация учётной записи возможна только при использовании Forms аутентификации</ActivateAccountErrorOnlyFormsAuth>
+  <ActivateAccountErrorNotRequired>Активация учётной записи отключена в настройках. Учётная запись автоматически будет активирована после регистрации.</ActivateAccountErrorNotRequired>
+  <ActivateAccountErrorAlreadyActivated>Учётная запись уже активирована</ActivateAccountErrorAlreadyActivated>
+  <ActivateAccountErrorInvalidCode>Код активации не верен</ActivateAccountErrorInvalidCode>
+  <ActivateAccountErrorAccountNotFound>Учётная запись не найдена</ActivateAccountErrorAccountNotFound>
+  <ActivateAccountErrorLinkBroken>Неверная ссылка активации</ActivateAccountErrorLinkBroken>
+  <ActivateAccountReturnToLogin>Вернуться на страницу входа</ActivateAccountReturnToLogin>
+  
+  <LoginRender>Загрузить снова</LoginRender>
+  
+  <LogoutTitle>Выход из Веб-файл менеджера</LogoutTitle>
+  <LogoutSessionEnded>Текущая сессия завершена</LogoutSessionEnded>
+  <LogoutCloseWindow>Закрыть окно</LogoutCloseWindow>
+  <LogoutEnterAgain>Введите логин и пароль снова</LogoutEnterAgain>
+  <LogoutClosingBrowserRequired>Внимание! Любой может войти под вашей учётной записью! Если вы используете общий компьютер, то вы должны закрыть окно браузера (а не только вкладки), чтобы очистить аутентификацию в браузере! Для браузера Mozilla Firefox можно очистить аутентификацию, перейдя в меню: Tools-&gt;Clear Resent History...-&gt;Details-&gt;отметить Active Logins-&gt;нажать Clear Now.</LogoutClosingBrowserRequired>
+  <RecoverPasswordTitle>Восстановление пароля</RecoverPasswordTitle>
+  <RecoverPasswordEmailPassword>Отправить пароль по e-mail</RecoverPasswordEmailPassword>
+  <RecoverPasswordErrorInvalidUserName>Неверное имя пользователя.</RecoverPasswordErrorInvalidUserName>
+  <RecoverPasswordErrorNoEmail>Адрес e-mail не определён.</RecoverPasswordErrorNoEmail>
+  <RecoverPasswordErrorSendEmail>Произошла ошибка при отправке вам сообщения по e-mail.</RecoverPasswordErrorSendEmail>
+  <RecoverPasswordSuccess>Пароль был выслан на ваш адрес e-mail.</RecoverPasswordSuccess>
+
+  <RecoverUserNameTitle>Восстановить имя</RecoverUserNameTitle>
+  <RecoverUserEmailName>Отправить имя по почте</RecoverUserEmailName>
+  <RecoverUserNameErrorInvalidEmail>Неверный адрес электронной почты.</RecoverUserNameErrorInvalidEmail>
+  <RecoverUserNameErrorNoEmail>Указанные электронный адрес не найден.</RecoverUserNameErrorNoEmail>
+  <RecoverUserNameSuccess>Ваше имя успешно было отправлено на указанный адрес.</RecoverUserNameSuccess>
+
+  <ChangeEmailTitle>Изменить адрес e-mail</ChangeEmailTitle>
+  <ChangeEmailEmail>Новый адрес e-mail</ChangeEmailEmail>
+  <ChangeEmailSubmit>Изменить</ChangeEmailSubmit>
+  <ChangeEmailStatusSuccess>Адрес e-mail был успешно изменён</ChangeEmailStatusSuccess>
+
+  <RegisterTitle>Регистрация</RegisterTitle>
+  <RegisterEmail>Адрес e-mail</RegisterEmail>
+  <RegisterExtraInfo>Дополнительная информация</RegisterExtraInfo>
+  <RegisterCaptcha>Введите текст, который вы видите на изображении ниже</RegisterCaptcha>
+  <RegisterSubmit>Зарегистрироваться</RegisterSubmit>
+  <RegisterErrorPasswordNotMatch>Пароли не совпадают.</RegisterErrorPasswordNotMatch>
+  <RegisterErrorUserExists>Это имя или e-mail пользователя уже используется.</RegisterErrorUserExists>
+  <RegisterErrorCaptchaInvalid>Текст с изображения введён неверно.</RegisterErrorCaptchaInvalid>
+  <RegisterSuccess>Новый пользователь успешно зарегистрирован.</RegisterSuccess>
+  <RegisterActivationSent>Код активации был отправлен на вашу электронную почту.</RegisterActivationSent>
+  <RegisterActivationCheckEmail>Пожалуйста проверьте свой почтовый ящик (учтите также папку с нежелательной почтой) и следуйте инструкциям в письме.</RegisterActivationCheckEmail>
+  
+  <FolderGridUserPermissionsColumn>Права пользователей</FolderGridUserPermissionsColumn>
+  <FolderGridGroupPermissionsColumn>Права групп</FolderGridGroupPermissionsColumn>
+
+  <LoginLinkText>Войти</LoginLinkText>
+  <RecoverPasswordLinkText>Забыли пароль?</RecoverPasswordLinkText>
+  <RecoverUserNameLinkText>Забыли имя?</RecoverUserNameLinkText>
+  <RegisterLinkText>Регистрация</RegisterLinkText>
+  <ChangeEmail>Изменить e-mail</ChangeEmail>
+  <LoginMobileVersionLinkText>Мобильная версия (для смартфонов и тачпадов)</LoginMobileVersionLinkText>
+
+  <FileIsNotZipArchive>Файл {0} не является zip-архивом</FileIsNotZipArchive>
+
+  <FileModificationsAuthor>Автор</FileModificationsAuthor>
+  <FileModificationsHistory>Показать историю</FileModificationsHistory>
+  <FileModificationsWindowTitle>История изменений файла "{0}"</FileModificationsWindowTitle>
+  <FileModificationsTypeCreated>Создан</FileModificationsTypeCreated>
+  <FileModificationsTypeModified>Изменён</FileModificationsTypeModified>
+  <FileModificationsTypeRenamed>Переименован</FileModificationsTypeRenamed>
+  <FileModificationsTypeRestored>Восстановлен</FileModificationsTypeRestored>
+  <FileModificationsTypeDeleted>Удалён</FileModificationsTypeDeleted>
+
+  <ChangingReadOnlyProgressMessage>Изменение атрибута "только для чтения"</ChangingReadOnlyProgressMessage>
+
+  <ImageViewerWindowTitle>Средство просмотра изображений [{0}]</ImageViewerWindowTitle>
+  <ImageViewerLoadingMessage>Загрузка средства просмотра изображений</ImageViewerLoadingMessage>
+  <ImageViewerLoadingImageMessage>Загрузка изображения</ImageViewerLoadingImageMessage>
+  <ImageViewerFirstImageTip>Первое изображение</ImageViewerFirstImageTip>
+  <ImageViewerPreviousImageTip>Предыдущее изображение</ImageViewerPreviousImageTip>
+  <ImageViewerRefreshTip>Обновить список изображений</ImageViewerRefreshTip>
+  <ImageViewerNextImageTip>Следующее изображение</ImageViewerNextImageTip>
+  <ImageViewerLastImageTip>Последнее изображение</ImageViewerLastImageTip>
+  <ImageViewerRunSlideShow>Запустить слайд-шоу изображений</ImageViewerRunSlideShow>
+  <ImageViewerStopSlideShow>Остановить слайд-шоу</ImageViewerStopSlideShow>
+  <ImageViewerImageSimpleInfo>{0} / {1}, {2} ({3})</ImageViewerImageSimpleInfo>
+  <ImageViewerImageLoadErrorMessage>Изображение не найдено или не может быть отображено</ImageViewerImageLoadErrorMessage>
+  <ImageViewerShowImageSizeOfWindow>Показать изображение в реальном размере</ImageViewerShowImageSizeOfWindow>
+  <ImageViewerShowRealImageSize>Нажмите, чтобы увидеть изображение целиком</ImageViewerShowRealImageSize>
+
+  <PasswordExpiresTitle>Срок пароля истекает</PasswordExpiresTitle>
+  <PasswordExpiresMessage>Срок действия вашего пароля истекает после {0} дн.!</PasswordExpiresMessage>
+  <PasswordExpiredMessage>Срок действия вашего пароля истек!</PasswordExpiredMessage>
+  <PasswordChangeMessage>Чтобы изменить пароль, выберите {0}{1}&amp;rarr;{2}{3} на панели инструментов.</PasswordChangeMessage>
+
+  <UnzipContentTotalFiles>Всего файлов: {0} ({1})</UnzipContentTotalFiles>
+
+  <VideoConversionJobNotFound>
+    Невозможно найти указанный процесс преобразования.
+    Возможные причины:
+    1. Преобразование уже давно завершено, а информация об этом удалена.
+    2. Произошло аварийное завершения процесса преобразования.
+  </VideoConversionJobNotFound>
+  <VideoConversionUtilityNotFound>Невозможно найти утилиту для выполнения запрошенной операции: {0}</VideoConversionUtilityNotFound>
+  <!-- The current security principal "{0}" has insufficiant permissions to executable file "{1}".-->
+  <VideoConversionUtilityInsufficientPermissions>Текущему пользователю "{0}" отказано в доступе к исполняемому файлу "{1}".</VideoConversionUtilityInsufficientPermissions>
+  <VideoConversionOperationCancelled>Операция отменена</VideoConversionOperationCancelled>
+  <VideoConversionUtilityFailed>Произошло аварийное завершение утилит преобразования</VideoConversionUtilityFailed>
+  <VideoConversionOutputFileBusy>Выходной файл используется другим процессом преобразования</VideoConversionOutputFileBusy>
+
+  <VideoConvertWindowValidatorPositiveInt>Это значение должно быть положительным целым числом</VideoConvertWindowValidatorPositiveInt>
+  <VideoConvertWindowTitle>Преобразование видео</VideoConvertWindowTitle>
+  <VideoConvertWindowInputFile>Исходный файл</VideoConvertWindowInputFile>
+  <VideoConvertWindowOutputFile>Результирующий файл</VideoConvertWindowOutputFile>
+  <VideoConvertWindowOutputFormat>Новый формат</VideoConvertWindowOutputFormat>
+  <VideoConvertWindowBitrate>Битрейт (кбит/с)</VideoConvertWindowBitrate>
+  <VideoConvertWindowFrameResolution>Разрешение</VideoConvertWindowFrameResolution>
+  <VideoConvertWindowDAR>Соотношение сторон кадра (DAR)</VideoConvertWindowDAR>
+  <VideoConvertWindowPAR>Соотношение сторон пикселя (PAR)</VideoConvertWindowPAR>
+  <VideoConvertWindowResize>Изменить размер</VideoConvertWindowResize>
+  <VideoConvertWindowProfile>Профиль</VideoConvertWindowProfile>
+  <VideoConvertWindowWidth>Ширина</VideoConvertWindowWidth>
+  <VideoConvertWindowHeight>Высота</VideoConvertWindowHeight>
+  <VideoConvertWindowExtractDetailsProgressMsg>Получение сведений о видеозаписи</VideoConvertWindowExtractDetailsProgressMsg>
+  <VideoConvertWindowOutputFileExistsTitle>Выходной файл существует</VideoConvertWindowOutputFileExistsTitle>
+  <VideoConvertWindowOutputFileExistsMsg>Выходной файл уже существует. Он будет перезаписан.</VideoConvertWindowOutputFileExistsMsg>
+  <VideoConvertWindowPrepareToConvert>Подготовка к преобразованию видео</VideoConvertWindowPrepareToConvert>
+  <VideoConvertWindowOutputFileMatchInputFile>Имя результирующего файла совпадает с именем исходного файла</VideoConvertWindowOutputFileMatchInputFile>
+
+  <VideoConvertProgressWindowTitle>Преобразование видео</VideoConvertProgressWindowTitle>
+  <VideoConvertProgressWindowInputFile>Исходный файл</VideoConvertProgressWindowInputFile>
+  <VideoConvertProgressWindowOutputFile>Результирующий файл</VideoConvertProgressWindowOutputFile>
+  <VideoConvertProgressWindowStatus>Состояние</VideoConvertProgressWindowStatus>
+  <VideoConvertProgressWindowStatusTerminating>Прерывание</VideoConvertProgressWindowStatusTerminating>
+  <VideoConvertProgressWindowStatusPreparing>Подготовка</VideoConvertProgressWindowStatusPreparing>
+  <VideoConvertProgressWindowStatusProgress>Шаг {0} из {1}</VideoConvertProgressWindowStatusProgress>
+  <VideoConvertProgressWindowStatusDone>Завершено</VideoConvertProgressWindowStatusDone>
+
+  <PlayHtml5VideoNotSupported>Ваш браузер не поддерживает HTML5 видео элемент.</PlayHtml5VideoNotSupported>
+  <PlayHtml5VideoPlayFailed>Не удалось воспроизвести видеозапись</PlayHtml5VideoPlayFailed>
+  <PlayHtml5AudioPlayFailed>Не удалось воспроизвести аудиозапись</PlayHtml5AudioPlayFailed>
+  <PlayHtml5AudioTitle>Название</PlayHtml5AudioTitle>
+  <PlayHtml5AudioNotSupported>Ваш браузер не поддерживает HTML5 аудио элемент.</PlayHtml5AudioNotSupported>
+  <PlayHtml5AudioArtist>Автор</PlayHtml5AudioArtist>
+  <PlayHtml5AudioAlbum>Альбом</PlayHtml5AudioAlbum>
+  <PlayHtml5AudioYear>Год</PlayHtml5AudioYear>
+  <PlayHtml5AudioDuration>Продолжительность</PlayHtml5AudioDuration>
+  <PlayHtml5AudioBitrate>Битрейт</PlayHtml5AudioBitrate>
+  <PlayHtml5AudioVolume>Громкость</PlayHtml5AudioVolume>
+
+  <!-- Root title -->
+  <RootTitle>Корневая папка</RootTitle>
+
+  <!-- Recent feature keys -->
+  <RecentRootTitle>Недавние</RecentRootTitle>
+  <RecentDeleteOnePrompt>Вы уверены, что хотите удалить "{0}" из списка недавних?</RecentDeleteOnePrompt>
+  <RecentDeleteManyPrompt>Вы уверены, что хотите удалить эти объекты ({0} шт.) из списка недавних?</RecentDeleteManyPrompt>
+  <RecentPathNotExist>Недавний объект "{0}" не найден или к нему отсутствует доступ</RecentPathNotExist>
+  <RecentAllWithoutGroupingTitle>Все без группировки</RecentAllWithoutGroupingTitle>
+  <RecentEditGroupTitle>Изменённые</RecentEditGroupTitle>
+  <RecentViewGroupTitle>Просмотренные</RecentViewGroupTitle>
+  <RecentDownloadGroupTitle>Скачанные</RecentDownloadGroupTitle>
+  <RecentUploadGroupTitle>Загруженные</RecentUploadGroupTitle>
+  <RecentCreateGroupTitle>Созданные</RecentCreateGroupTitle>
+
+  <!-- Trash feature keys -->
+  <TrashRootTitle>Корзина</TrashRootTitle>
+  <TrashLabelDateDeleted>Дата удаления</TrashLabelDateDeleted>
+  <TrashDeleteOnePrompt>Вы уверены, что хотите удалить {0} из корзины без возможности восстановления?</TrashDeleteOnePrompt>
+  <TrashDeleteManyPrompt>Вы уверены, что хотите удалить выбранные объекты ({0} шт.) из корзины без возможности восстановления?</TrashDeleteManyPrompt>
+  <TrashEmptyTrashLabel>Очистить корзину</TrashEmptyTrashLabel>
+  <TrashRestoreSelectedLabel>Восстановить</TrashRestoreSelectedLabel>
+  <TrashRestoreAllLabel>Восстановить всё</TrashRestoreAllLabel>
+  <TrashEmptyTrashPrompt>Вы действительно хотите очистить Корзину?</TrashEmptyTrashPrompt>
+  <TrashRestoreAllPrompt>Вы действительно хотите восстановить все элементы из Корзины?</TrashRestoreAllPrompt>
+  <TrashProgressRestoring>Восстановление из Корзины</TrashProgressRestoring>
+  <TrashFolderNotFound>Директория Корзины не обнаружена</TrashFolderNotFound>
+  <TrashBalloonRestored>Восстановлено объектов: {0} из {1}</TrashBalloonRestored>
+  <TrashDeleteDirectlyLabel>Удалить безвозвратно, не перемещая в Корзину</TrashDeleteDirectlyLabel>
+  <TrashUsedSpaceHint>использовано: {0}</TrashUsedSpaceHint>
+  <TrashLimitSizeHint>Использовано {0} из {1} ({2})</TrashLimitSizeHint>
+  <TrashLargeItemsShelfTimeHint>Срок хранения объектов, размером более {0}: {1} дней(я,ень)</TrashLargeItemsShelfTimeHint>
+  <TrashSmallItemsShelfTimeHint>Для всех остальных: {0} дней(я,ень)</TrashSmallItemsShelfTimeHint>
+  <TrashItemsShelfTimeHint>Срок хранения объектов: {0} дней(я,ень)</TrashItemsShelfTimeHint>
+  <TrashAvailableSpaceHint>Максимальный доступный объём {0}</TrashAvailableSpaceHint>
+  <TrashDeletedFromFolderHint>Удалено из {0}</TrashDeletedFromFolderHint>
+  <TrashExceededMessage>Следующие объекты слишком велики и не будут перемещены в Корзину (превышено ограничение {0}):</TrashExceededMessage>
+  <TrashErrorSuffixMessage>Попробуйте отключить опцию "{0}" и удалить файл(ы) безвозвратно, без перемещения в корзину</TrashErrorSuffixMessage>
+
+  <!-- Shared by link -->
+  <SharedByLinkRootTitle>Ссылки общего доступа</SharedByLinkRootTitle>
+
+  <!-- Shared for you -->
+  <SharedForYouRootTitle>Общие для вас</SharedForYouRootTitle>
+  <SharedForYouUnableToGetUrl>Не удалось получить URL</SharedForYouUnableToGetUrl>
+
+  <!-- Watch for modifications -->
+  <WatchForModifsCommand>Наблюдать за изменениями</WatchForModifsCommand>
+  <WatchForModifsStartCommand>Включить наблюдение</WatchForModifsStartCommand>
+  <WatchForModifsEditCommand>Изменить наблюдение</WatchForModifsEditCommand>
+  <WatchForModifsStopCommand>Прекратить наблюдение</WatchForModifsStopCommand>
+  <WatchForModifsViewChangesCommand>Показать изменения</WatchForModifsViewChangesCommand>
+  <WatchForModifsSubscriptionSuccessMessage>Вы успешно подписаны на изменения для "{0}"</WatchForModifsSubscriptionSuccessMessage>
+  <WatchForModifsStopSuccessMessage>Наблюдение за "{0}" успешно отключено</WatchForModifsStopSuccessMessage>
+  <WatchForModifsIncludingNestedLabel>Учитывать вложенные файлы, папки</WatchForModifsIncludingNestedLabel>
+  <WatchForModifsParentWatchExistMessage>Для выбранного элемента уже назначено наблюдение на родительскую папку "{0}".</WatchForModifsParentWatchExistMessage>
+  <WatchForModifsRootFolder>Оповещения</WatchForModifsRootFolder>
+  <WatchForModifsStartProgressLoading>Включение наблюдения</WatchForModifsStartProgressLoading>
+  <WatchForModifsStopProgressLoading>Прекращение наблюдения</WatchForModifsStopProgressLoading>
+  <WatchForModifsIconHint>Включено наблюдение за изменениями</WatchForModifsIconHint>
+  <WatchForModifsNotifCheckBox>Оповещать об изменениях по следующим адресам:</WatchForModifsNotifCheckBox>
+  <WatchForModifsWatchedUsersCheckBox>Наблюдать только за пользователями (через запятую; оставьте пустым, чтобы наблюдать за всеми):</WatchForModifsWatchedUsersCheckBox>
+  <WatchForModifsIgnoreOwnerCheckBox>Игнорировать мои изменения</WatchForModifsIgnoreOwnerCheckBox>
+  <WatchForModifsActionsCheckBox>Наблюдать за всеми действиями (или из списка ниже)</WatchForModifsActionsCheckBox>
+  <WatchForModifsNestedItemsWarning>Внимание! При добавлении наблюдения для выбранной папки, у всех вложенных файлов и папок, для которых ранее было добавлено индивидуальное наблюдение, это наблюдение будет снято. Продолжить?</WatchForModifsNestedItemsWarning>
+
+  <WelcomeWindowHideCheckboxLabel>Не показывать при следующем входе</WelcomeWindowHideCheckboxLabel>
+
+  <LogsGridMoreInfoColumn>Подробнее</LogsGridMoreInfoColumn>
+  <LogsGridDetailsTitle>Детали</LogsGridDetailsTitle>
+  <LogsGridPhysPathColumn>Физический путь</LogsGridPhysPathColumn>
+  <LogsGridIsFolderColumn>Папка?</LogsGridIsFolderColumn>
+  <LogsGridIsPublicColumn>Публ.?</LogsGridIsPublicColumn>
+  <LogsGridByWebDavColumn>WebDAV?</LogsGridByWebDavColumn>
+
+  <NoCommentsYetHint>Комментариев ещё нет</NoCommentsYetHint>
+  <NoHistoryYetHint>Истории ещё нет</NoHistoryYetHint>
+
+  <DetailsPropertyValuesCouldNotBeWritten>Не удалось сохранить значения свойств, возможно этот тип файлов не поддерживает такую возможность, либо возникла ошибка в ассоциированном с файлом приложении</DetailsPropertyValuesCouldNotBeWritten>
+
+  <AdminCommandHelp>Помощь</AdminCommandHelp>
+  <AdminCommandAddUser>Добавить пользователя</AdminCommandAddUser>
+  <AdminCommandAddGroup>Добавить группу</AdminCommandAddGroup>
+  <AdminCommandRemoveUser>Удалить пользователя</AdminCommandRemoveUser>
+
+  <AdminCommandSelectUsers>Добавить пользователей</AdminCommandSelectUsers>
+  <AdminCommandSelectGroups>Добавить группы</AdminCommandSelectGroups>
+  <AdminCommandRemoveUsers>Удалить пользователей</AdminCommandRemoveUsers>
+  <AdminCommandRemoveGroups>Удалить группы</AdminCommandRemoveGroups>
+  <AdminUsersGroups>Состоит в</AdminUsersGroups>
+  <AdminSearchUserEmptyText>Введите имя пользователя</AdminSearchUserEmptyText>
+  <AdminSearchGroupEmptyText>Введите имя группы</AdminSearchGroupEmptyText>
+  <AdminUsersGroupAlreadyExists>Групп(ы) с таким(и) именем(ами) уже была(и) добавлена(ы)</AdminUsersGroupAlreadyExists>
+
+  <AdminApplicationLoading>Загрузка панели администрирования</AdminApplicationLoading>
+  <AdminTitle>Администрирование</AdminTitle>
+  <AdminUsersEditUser>Изменить пользователя</AdminUsersEditUser>
+  <AdminUsersSetUserPassword>Установить пароль</AdminUsersSetUserPassword>
+  <AdminUsersViewGroups>Показать группы</AdminUsersViewGroups>
+  <AdminUsersViewFolders>Показать папки</AdminUsersViewFolders>
+  <AdminUsersDeleteUserPrompt>Вы уверены, что хотите удалить пользователя(ей) "{0}"?</AdminUsersDeleteUserPrompt>
+  <AdminUsersDeletedUsers>Удалено пользователей: {0}.</AdminUsersDeletedUsers>
+  <AdminUsersUserNotFound>Пользователь с таким именем не найден</AdminUsersUserNotFound>
+  <AdminUsersPropertiesTitle>Свойства пользователя</AdminUsersPropertiesTitle>
+  <AdminUsersSetPasswordTitle>Задание пароля пользователя</AdminUsersSetPasswordTitle>
+  <AdminUsersGeneralInfo>Информация о пользователе</AdminUsersGeneralInfo>
+  <AdminUsersUserEmail>Адрес e-mail</AdminUsersUserEmail>
+  <AdminUsersEmptyName>Имя пользователя не может быть пустым</AdminUsersEmptyName>
+  <AdminUsersEmptyPassword>Пароль пользователя не может быть пустым</AdminUsersEmptyPassword>
+  <AdminUsersIncorrectName>Имя пользователя содержит недопустимые символы</AdminUsersIncorrectName>
+  <AdminUsersAlreadyExists>Пользователь с таким именем уже существует</AdminUsersAlreadyExists>
+  <AdminUsersEmailAlreadyExists>Пользователь с таким e-mail уже существует</AdminUsersEmailAlreadyExists>
+  <AdminUsersPasswordsNotMatch>Пароли не совпадают</AdminUsersPasswordsNotMatch>
+  <AdminUsersRenameWarning>После переименования пользователя необходимо изменить пароль, иначе ссылка на веб-папку будет недействительной</AdminUsersRenameWarning>
+  <AdminUsersLicenseRestriction>Ваша лицензия не позволяет вам создавать более {0} шт. пользователей</AdminUsersLicenseRestriction>
+  <AdminUsersCountInfoWithLimit>Всего пользователей: {0} из {1}</AdminUsersCountInfoWithLimit>
+  <AdminUsersCountInfo>Всего пользователей: {0}</AdminUsersCountInfo>
+
+  <AdminGroupsEditGroup>Изменить группу</AdminGroupsEditGroup>
+  <AdminGroupsRemoveGroup>Удалить группу</AdminGroupsRemoveGroup>
+  <AdminGroupsDeleteGroupPrompt>Вы уверены, что хотите удалить группу(ы) "{0}"?</AdminGroupsDeleteGroupPrompt>
+  <AdminGroupsDeletedGroups>Удалено групп: {0}.</AdminGroupsDeletedGroups>
+  <AdminGroupsGroupNotFound>Группа с таким именем не найден</AdminGroupsGroupNotFound>
+  <AdminGroupsViewUsers>Показать пользователей</AdminGroupsViewUsers>
+  <AdminGroupsProperties>Свойства</AdminGroupsProperties>
+  <AdminGroupsPropertiesTitle>Свойства группы</AdminGroupsPropertiesTitle>
+  <AdminGroupsGeneralInfo>Информация о группе</AdminGroupsGeneralInfo>
+  <AdminGroupsUserNamePrompt>Введите имя пользователя</AdminGroupsUserNamePrompt>
+  <AdminGroupsUsers>Члены группы</AdminGroupsUsers>
+  <AdminGroupsUserAlreadyExists>Пользователь(и) с таким(и) именем(ами) уже был(и) добавлен(ы)</AdminGroupsUserAlreadyExists>
+  <AdminGroupsEmptyName>Имя группы не может быть пустым</AdminGroupsEmptyName>
+  <AdminGroupsIncorrectName>Имя группы содержит недопустимые символы</AdminGroupsIncorrectName>
+  <AdminGroupsAlreadyExists>Группа с таким именем уже существует</AdminGroupsAlreadyExists>
+  <AdminGroupsCountInfo>Всего групп: {0}</AdminGroupsCountInfo>
+
+  <AdminLanguagesTab>Локализации</AdminLanguagesTab>
+  <AdminLanguagesTabMessage>Чтобы редактировать файл локализации, выберите нужный язык в списке, затем нажимайте на локализованные строки и изменяйте их. После завершения нажмите кнопку "Сохранить"</AdminLanguagesTabMessage>
+  <AdminLangGridKeyColumn>Имя ключа</AdminLangGridKeyColumn>
+  <AdminLangGridDefaultColumn>Английский</AdminLangGridDefaultColumn>
+  <AdminEnterLanguageNameTitle>Введите название языка</AdminEnterLanguageNameTitle>
+  <AdminLangConfirmRefreshTitle>Подтверждение обновления</AdminLangConfirmRefreshTitle>
+  <AdminLangConfirmRefreshMessage>Внимание! Данные не были сохранен. Вы хотите сохранить изменения сейчас?</AdminLangConfirmRefreshMessage>
+  <AdminLangAmountInfo>Заполнено ключей: {0} из {1} (пустых значений: {2})</AdminLangAmountInfo>
+  <AdminLangSaveToCSV>Сохранить в CSV</AdminLangSaveToCSV>
+  <AdminLangLoadFromCSV>Загрузить из CSV</AdminLangLoadFromCSV>
+
+  <AdminDbMaintenanceTab>Обслуживание БД</AdminDbMaintenanceTab>
+  <AdminDbMaintenanceInfoTitle>Сведения</AdminDbMaintenanceInfoTitle>
+  <AdminDbMaintenanceInfoPathLabel>Путь к файлу БД</AdminDbMaintenanceInfoPathLabel>
+  <AdminDbMaintenanceInfoSizeLabel>Размер файла БД</AdminDbMaintenanceInfoSizeLabel>
+  <AdminDbMaintenanceCompactTitle>Сжатие базы</AdminDbMaintenanceCompactTitle>
+  <AdminDbMaintenanceCompactNote>Чтобы уменьшить размер файла БД, нажмите кнопку ниже. Необходимо периодически выполнять сжатие базы, т.к., например, после удаления неактивных публичных ссылок или старых записей логов, размер файла БД не уменьшается.</AdminDbMaintenanceCompactNote>
+  <AdminDbMaintenanceCompactButton>Сжать базу</AdminDbMaintenanceCompactButton>
+  <AdminDbMaintenanceCompactSuccess>Сжатие базы успешно выполнено.
+Старый размер файла: {0}
+Новый размер файла: {1}</AdminDbMaintenanceCompactSuccess>
+  <AdminDbMaintenanceCompactAutoNote>Также вы можете включить автоматическое сжатие базы после операций удаления записей, но это не рекомендуется, т.к. возможны более частые блокировки базы и увеличение длительности некоторых запросов. Внимание! После изменения этой настройки приложение будет перезапущено!</AdminDbMaintenanceCompactAutoNote>
+  <AdminDbMaintenanceCompactAutoCheckBox>Включить/отключить авто-сжатие базы</AdminDbMaintenanceCompactAutoCheckBox>
+  <AdminDbMaintenanceCompactAutoSaveButton>Сохранить</AdminDbMaintenanceCompactAutoSaveButton>
+  <AdminDbMaintenanceCompactAutoSaveSuccess>Изменение авто-сжатия успешно выполнено. Страница будет перезагружена</AdminDbMaintenanceCompactAutoSaveSuccess>
+  <AdminDbMaintenanceEnableLogLabel>Выберите уровень логирования запросов к БД (в Data/debug.log)</AdminDbMaintenanceEnableLogLabel>
+  <AdminDbMaintenanceSettingsSaveSuccess>Настройки для базы успешно сохранены. Страница будет перезагружена</AdminDbMaintenanceSettingsSaveSuccess>
+  <AdminDbMaintenanceSettingsChangeNote>Внимание! После сохранения настроек, приложение будет перезапущено!</AdminDbMaintenanceSettingsChangeNote>
+  <AdminDbMaintenanceInsertIntervalLabel>Интервал (в минутах) добавления событий в базу. Если указано 0, то вставка происходит непосредственно после события</AdminDbMaintenanceInsertIntervalLabel>
+  <AdminDbMaintenanceAdvDbParamsTitle>Доп. параметры подключения к БД</AdminDbMaintenanceAdvDbParamsTitle>
+  <AdminDbMaintenanceStatTitle>Статистика (зависит от уровня логирования БД DurationExecution)</AdminDbMaintenanceStatTitle>
+  <AdminDbMaintenanceStatDurationReadLabel>Ср. таймаут чтения</AdminDbMaintenanceStatDurationReadLabel>
+  <AdminDbMaintenanceStatDurationWriteLabel>Ср. таймаут записи</AdminDbMaintenanceStatDurationWriteLabel>
+  <AdminDbMaintenanceStatDurationCompactLabel>Ср. таймаут сжатия</AdminDbMaintenanceStatDurationCompactLabel>
+  <AdminDbMaintenanceStatNoData>Нет данных</AdminDbMaintenanceStatNoData>
+  <AdminDbMaintenanceStatGetButton>Собрать статистику</AdminDbMaintenanceStatGetButton>
+
+  <AdminMiscTab>Дополнительно</AdminMiscTab>
+  <AdminMiscLoadADAccountsTitle>Загрузка учетных записей Active Directory</AdminMiscLoadADAccountsTitle>
+  <AdminMiscLoadADAccountsLoadButton>Загрузить</AdminMiscLoadADAccountsLoadButton>
+  <AdminMiscLoadADAccountsResetButton>Сброс</AdminMiscLoadADAccountsResetButton>
+  <AdminMiscLoadADAccountsLdap>LDAP контейнер</AdminMiscLoadADAccountsLdap>
+  <AdminMiscLoadADAccountsToFile>В файл</AdminMiscLoadADAccountsToFile>
+  <AdminMiscLoadADAccountsSuccessMessage>Загрузка учетных записей Active Directory успешно завершена</AdminMiscLoadADAccountsSuccessMessage>
+  <AdminMiscLoadADAccountsInfo>Здесь вы можете сгенерировать файл, содержащий список пользователей Active Directory. Этот файл требуется, если вы используете в качестве хранилища учётных записей Active Directory статический файл. Такой файл создаётся с использованием утилиты ADManager. Для получения более подробной информации обратитесь к описанию параметра &lt;b&gt;ADAccountsFilePath&lt;/b&gt; в {0}документации{1}.</AdminMiscLoadADAccountsInfo>
+
+  <AdminMiscManageQuotasTitle>Управление квотами</AdminMiscManageQuotasTitle>
+  <AdminMiscManageQuotasInfo>Получить существующую квоту или задать новую для ограничения размера папки, используя File Server Resource Manager.</AdminMiscManageQuotasInfo>
+  <AdminMiscManageQuotasFolderPath>Путь к папке</AdminMiscManageQuotasFolderPath>
+  <AdminMiscManageQuotasQuota>Квота</AdminMiscManageQuotasQuota>
+  <AdminMiscManageQuotasGetQuota>Получить квоту</AdminMiscManageQuotasGetQuota>
+  <AdminMiscManageQuotasSetQuota>Задать квоту</AdminMiscManageQuotasSetQuota>
+
+  <AdminMiscFoldersFromGPOLTitle>Загрузка папок из Group Policy</AdminMiscFoldersFromGPOLTitle>
+  <AdminMiscFoldersFromGPOLComputerName>Имя компьютера</AdminMiscFoldersFromGPOLComputerName>
+  <AdminMiscFoldersFromGPOLFilePath>Путь к файлу</AdminMiscFoldersFromGPOLFilePath>
+  <AdminMiscFoldersFromGPOLMoreInfoLink>Подробнее</AdminMiscFoldersFromGPOLMoreInfoLink>
+  <AdminMiscFoldersFromGPOLResetButton>Сброс</AdminMiscFoldersFromGPOLResetButton>
+  <AdminMiscFoldersFromGPOLLoadButton>Загрузить</AdminMiscFoldersFromGPOLLoadButton>
+  <AdminMiscFoldersFromGPOLFromDC>Из DC</AdminMiscFoldersFromGPOLFromDC>
+  <AdminMiscFoldersFromGPOLFromFile>Из файла</AdminMiscFoldersFromGPOLFromFile>
+  <AdminMiscFoldersTargetLabel>Импортировать ограничения пользователей/групп в...</AdminMiscFoldersTargetLabel>
+  <AdminMiscFoldersTargetFilter>фильтр</AdminMiscFoldersTargetFilter>
+  <AdminMiscFoldersTargetPermission>разрешения</AdminMiscFoldersTargetPermission>
+  <AdminMiscFoldersFromGPOLSuccessMessage>Папки успешно загружены.&lt;br /&gt;Новых: {0}, обновлено: {1}.</AdminMiscFoldersFromGPOLSuccessMessage>
+  <AdminMiscFoldersFromGPOLInfo>Вы можете загрузить (или обновить) список папок из настроек Group Policy Drive Mapping контроллера домена. В поле ниже вы можете указать имя компьютера, с которого будут  загружены параметры групповой политики (если оставить поле пустым, то будет использоваться текущий домен), либо указать путь к файлу Drives.xml с настройками подключения.</AdminMiscFoldersFromGPOLInfo>
+
+  <AdminAnonymFoldersTab>Папки общего доступа</AdminAnonymFoldersTab>
+  <AdminAnonymFoldersDeleteFolderPrompt>Вы уверены, что хотите удалить {0} шт. выбранных папок общего доступа?</AdminAnonymFoldersDeleteFolderPrompt>
+  <AdminAnonymFoldersDescription>Папки/файлы общего доступа - это папки/файлы, которые не требуют аутентификации пользователя*, т.е. они доступны для всех посетителей* (если они имеют ссылку). Пользователи могут создавать такие папки/файлы из меню "Общий доступ &amp;rarr; Создать ссылку общего доступа". Такие папки могут иметь ограниченные разрешения: загрузка, скачивание, просмотр списка файлов/папок. Ниже приведен список ссылок на общие папки/файлы, созданные пользователями. Для правильной работы этих ссылок, убедитесь, что для обработчика Handlers/AnonymousDownload.ashx задан анонимный доступ в IIS. Вы можете проверить это на &lt;a target="_blank" href="{0}"&gt;странице диагностики&lt;/a&gt;. Также, убедитесь, что учетная запись анонимного пользователя для Handlers/AnonymousDownload.ashx имеет NTFS права на чтение/запись для папок общего доступа.&lt;br /&gt;*&amp;nbsp;&amp;mdash;&amp;nbsp;если не указаны пользователи, только для которых разрешен доступ</AdminAnonymFoldersDescription>
+  <AdminAnonymFoldersLinkOwnerColumn>Владелец</AdminAnonymFoldersLinkOwnerColumn>
+  <AdminAnonymFoldersEmailsColumn>Адреса e-mail для уведомлений</AdminAnonymFoldersEmailsColumn>
+  <AdminAnonymFoldersAccessForUsersColumn>Доступ для пользователей</AdminAnonymFoldersAccessForUsersColumn>
+  <AdminAnonymFoldersPersonalMessageColumn>Персональное сообщение</AdminAnonymFoldersPersonalMessageColumn>
+  <AdminAnonymFoldersOverwriteOnUploadHint> (перезапись: {0})</AdminAnonymFoldersOverwriteOnUploadHint>
+  <AdminAnonymFoldersRootPathColumn>Корневой путь</AdminAnonymFoldersRootPathColumn>
+  <AdminAnonymFoldersKeysColumn>Ключи</AdminAnonymFoldersKeysColumn>
+  <AdminAnonymFoldersShortColumn>Короткая ссылка</AdminAnonymFoldersShortColumn>
+  <AdminAnonymFoldersPropertiesTitle>Свойства папки общего доступа</AdminAnonymFoldersPropertiesTitle>
+  <AdminAnonymFoldersAdditionalInfo>Дополнительная информация</AdminAnonymFoldersAdditionalInfo>
+  <AdminAnonymFoldersLinkLabel>Ссылка для доступа</AdminAnonymFoldersLinkLabel>
+  <AdminAnonymFoldersPathNotSpecified>Не задан физический путь</AdminAnonymFoldersPathNotSpecified>
+  <AdminAnonymFoldersCreatedForColumn>Назначение</AdminAnonymFoldersCreatedForColumn>
+
+  <AdminFoldersTab>Папки</AdminFoldersTab>
+  <AdminFoldersAddFolder>Добавить папку</AdminFoldersAddFolder>
+  <AdminFoldersEditFolder>Изменить папку</AdminFoldersEditFolder>
+  <AdminFoldersRemoveFolder>Удалить папку</AdminFoldersRemoveFolder>
+  <AdminFoldersDeleteFolderPrompt>Вы уверены, что хотите удалить папку "{0}"?</AdminFoldersDeleteFolderPrompt>
+  <AdminFoldersFolderNotFound>Папка с таким именем не найдена</AdminFoldersFolderNotFound>
+  <AdminFoldersPropertiesTitle>Свойства папки</AdminFoldersPropertiesTitle>
+  <AdminFoldersGeneralInfo>Общая информация</AdminFoldersGeneralInfo>
+  <AdminFoldersFolderRemoteWarningForms>Внимание! Это папка удалённого доступа. Обратитесь к {0}FAQ: how to share remote folders{1}</AdminFoldersFolderRemoteWarningForms>
+  <AdminFoldersFolderRemoteWarningWin>Внимание! Это папка удалённого доступа. Вы можете скрыть некоторые папки/файлы, если пользователи не имеют права на их чтение. Посмотрите {0}FAQ: how to hide files/folders that user does not have rights to read{1}</AdminFoldersFolderRemoteWarningWin>
+  <AdminFoldersFolderPath>Физический путь</AdminFoldersFolderPath>
+  <AdminFoldersLocationPath>Расположение</AdminFoldersLocationPath>
+  <AdminFoldersFolderCreate>Создать папку</AdminFoldersFolderCreate>
+  <AdminFoldersFolderCreateProcess>Создание папки</AdminFoldersFolderCreateProcess>
+  <AdminFoldersFolderCreateContainsPattern>Папка не может быть создана, поскольку она содержит шаблон</AdminFoldersFolderCreateContainsPattern>
+  <AdminFoldersFolderCreateSuccessfully>Папка "{0}" была успешно создана.</AdminFoldersFolderCreateSuccessfully>
+  <AdminFoldersFolderOptional> (необязательно)</AdminFoldersFolderOptional>
+  <AdminFoldersFolderLimitations>Ограничения</AdminFoldersFolderLimitations>
+  <AdminFoldersFolderDescription>Описание</AdminFoldersFolderDescription>
+  <AdminFoldersFolderQuota>Квота</AdminFoldersFolderQuota>
+  <AdminFoldersFolderQuotaHint>Получить существующую квоту или задать новую для ограничения размера папки, используя File Server Resource Manager.</AdminFoldersFolderQuotaHint>
+  <AdminFoldersFolderQuotaMoreInfoLink>Подробнее</AdminFoldersFolderQuotaMoreInfoLink>
+  <AdminFoldersPermissions>Разрешения</AdminFoldersPermissions>
+  <AdminFoldersPermissionsFor>Разрешения для {0}</AdminFoldersPermissionsFor>
+  <AdminFoldersUsersGroups>Пользователи и группы</AdminFoldersUsersGroups>
+  <AdminFoldersAccessControl>Управление доступом</AdminFoldersAccessControl>
+  <AdminFoldersCreate>Создание</AdminFoldersCreate>
+  <AdminFoldersDelete>Удаление</AdminFoldersDelete>
+  <AdminFoldersRename>Переименование</AdminFoldersRename>
+  <AdminFoldersUpload>Загрузка</AdminFoldersUpload>
+  <AdminFoldersDownload>Скачивание</AdminFoldersDownload>
+  <AdminFoldersZipDownload>Сжатие и скачивание</AdminFoldersZipDownload>
+  <AdminFoldersZip>Zip-архивация</AdminFoldersZip>
+  <AdminFoldersUnzip>Распаковка zip-архивов</AdminFoldersUnzip>
+  <AdminFoldersCut>Вырезать</AdminFoldersCut>
+  <AdminFoldersCopy>Копирование</AdminFoldersCopy>
+  <AdminFoldersListFiles>Просмотр файлов</AdminFoldersListFiles>
+  <AdminFoldersListFolders>Просмотр папок</AdminFoldersListFolders>
+  <AdminFoldersModify>Изменение</AdminFoldersModify>
+  <AdminFoldersBulkMailing>Массовая рассылка</AdminFoldersBulkMailing>
+  <AdminFoldersAnonymViewContent>Просмотр содержимого (папка общего доступа)</AdminFoldersAnonymViewContent>
+  <AdminFoldersAnonymDownload>Скачивание ссылок общего доступа</AdminFoldersAnonymDownload>
+  <AdminFoldersAnonymUpload>Загрузка по ссылке общего доступа</AdminFoldersAnonymUpload>
+  <AdminFoldersWatch>Наблюдение</AdminFoldersWatch>
+  <AdminFoldersDescription>Вы можете добавить папки вручную или преобразовать существующие папки, если используете диски из групповых политик. Для получения дополнительной информации см. {0}Помощь{1}.</AdminFoldersDescription>
+
+  <AdminFoldersPermissionsForRegex>Вы также можете использовать регулярное выражение. Напишете &lt;b&gt;{0}&lt;/b&gt; в начале поля выше и затем само регулярное выражение, например:</AdminFoldersPermissionsForRegex>
+  <AdminFoldersPermissionsForRegexUsers>{0} (доступ для любого пользователя)&lt;br /&gt;{1} (доступ только для двух пользователей: jdoe and Mike)</AdminFoldersPermissionsForRegexUsers>
+  <AdminFoldersPermissionsForRegexGroups>{0} (доступ для любой группы)&lt;br /&gt;{1} (доступ для всех групп, содержащих в имени "Students")</AdminFoldersPermissionsForRegexGroups>
+
+  <AdminFoldersListRestrictions>Ограничения на просмотр</AdminFoldersListRestrictions>
+  <AdminFoldersCreateRestrictions>Ограничения на создание файлов</AdminFoldersCreateRestrictions>
+  <AdminFoldersRestrictionAllow>Разрешено</AdminFoldersRestrictionAllow>
+  <AdminFoldersRestrictionDeny>Запрещено</AdminFoldersRestrictionDeny>
+  <AdminFoldersRestrictionExtensions>Расширения</AdminFoldersRestrictionExtensions>
+  <AdminFoldersUserNamePrompt>Введите имя пользователя</AdminFoldersUserNamePrompt>
+  <AdminFoldersUserNameEmptyText>Выберите имя пользователя</AdminFoldersUserNameEmptyText>
+  <AdminFoldersUserNameNotSelected>Вы должны выбрать имя пользователя</AdminFoldersUserNameNotSelected>
+  <AdminFoldersUserAlreadyExists>Пользователь уже назначен для папки</AdminFoldersUserAlreadyExists>
+  <AdminFoldersGroupNamePrompt>Введите имя группы</AdminFoldersGroupNamePrompt>
+  <AdminFoldersGroupNameEmptyText>Выберите имя группы</AdminFoldersGroupNameEmptyText>
+  <AdminFoldersGroupNameNotSelected>Вы должны выбрать имя группы</AdminFoldersGroupNameNotSelected>
+  <AdminFoldersGroupAlreadyExists>Эта группа уже назначена для папки</AdminFoldersGroupAlreadyExists>
+  <AdminFoldersEmptyName>Имя папки не может быть пустым</AdminFoldersEmptyName>
+  <AdminFoldersEmptyPath>Путь к папке не может быть пустым</AdminFoldersEmptyPath>
+  <AdminFoldersIncorrectName>Имя папки содержит недопустимые символы</AdminFoldersIncorrectName>
+  <AdminFoldersAlreadyExists>Папка с таким именем и расположением уже существует</AdminFoldersAlreadyExists>
+  <AdminFoldersSharesButton>Сетевые папки</AdminFoldersSharesButton>
+  <AdminFoldersTestAccessButton>Проверка доступа</AdminFoldersTestAccessButton>
+  <AdminFoldersTestIndexingButton>Проверка индексирования</AdminFoldersTestIndexingButton>
+  <AdminFoldersShareNameTitle>Сетевые папки</AdminFoldersShareNameTitle>
+  <AdminFoldersShareNameEmptyText>Выберите папку</AdminFoldersShareNameEmptyText>
+  <AdminFoldersShareNameNotSelected>Вы должны выбрать папку</AdminFoldersShareNameNotSelected>
+  <AdminFoldersGetQuotaButton>Получить квоту</AdminFoldersGetQuotaButton>
+  <AdminFoldersSetQuotaButton>Задать квоты</AdminFoldersSetQuotaButton>
+  <AdminCommonFilterField>Фильтр</AdminCommonFilterField>
+  <AdminCommonValidateField>Проверить</AdminCommonValidateField>
+  <AdminFoldersRootNameUsed>Пожалуйста, для папки используйте имя отличное от "{0}"</AdminFoldersRootNameUsed>
+  <AdminFoldersFolderFilterSuccess>Проверка фильтра прошла успешно</AdminFoldersFolderFilterSuccess>
+
+  <AdminTestAccessGoodResult>Папка "{0}" существует и доступна для чтения.</AdminTestAccessGoodResult>
+  <AdminTestAccessBadResult>Папка "{0}" не найдена, либо отсутствуют NTFS прав на чтение, либо нет доступа к сети для учётной записи пула приложений!</AdminTestAccessBadResult>
+  <AdminTestAccessErrorResult>Ошибка при проверке доступ к папке "{0}": {1}</AdminTestAccessErrorResult>
+  <AdminTestIndexingErrorResult>Ошибка при проверке индексирования папки "{0}":
+{1}</AdminTestIndexingErrorResult>
+  <AdminTestIndexingYesResult>Каталог "{0}" проиндексирован</AdminTestIndexingYesResult>
+  <AdminTestIndexingNoResult>Каталог "{0}" не проиндексирован</AdminTestIndexingNoResult>
+  <AdminTestIndexingUnknownResult>Не удалось определить, индексирован ли каталог "{0}"</AdminTestIndexingUnknownResult>
+  <AdminTestIndexingAddIfNotIndexed>Добавить эту папку для индексирования, если она еще не индексирована?</AdminTestIndexingAddIfNotIndexed>
+  <ProgressTestAccess>Проверка доступа</ProgressTestAccess>
+  <ProgressTestIndexing>Проверка индексирования</ProgressTestIndexing>
+  <AdminHowToIndexingLocationLink>Для того чтобы проиндексировать папку, обратитесь к справке {0}</AdminHowToIndexingLocationLink>
+
+  <AdminUsersListAll>Все пользователи</AdminUsersListAll>
+  <AdminUsersListDACL>Пользователи из ACL</AdminUsersListDACL>
+  <AdminGroupsListAll>Все группы</AdminGroupsListAll>
+  <AdminGroupsListDACL>Группы из ACL</AdminGroupsListDACL>
+  <AdminDACLStringLabel>Разрешения ACL</AdminDACLStringLabel>
+
+  <AdminCommonCustomField>Пользовательские поля</AdminCommonCustomField>
+  <AdminCommonSettingsChangeWarning>Изменения вступят в силу при выходе и повторном входе (или после перезапуска приложения для доступа по WebDAV).</AdminCommonSettingsChangeWarning>
+
+  <AdminCommonAllowedFoldersPathsTitle>Разрешенные пути папок</AdminCommonAllowedFoldersPathsTitle>
+  <AdminCommonNotAllowedFolderPath>Вы можете создать доступ только к этим папкам или их подпапкам: {0}</AdminCommonNotAllowedFolderPath>
+
+  <AdminLogsTab>Журнал событий</AdminLogsTab>
+
+  <AdminSettingsTab>Настройки</AdminSettingsTab>
+
+  <AdminLogsErrorsTab>Журнал ошибок</AdminLogsErrorsTab>
+  <AdminLogsErrorsClearBtn>Очистить</AdminLogsErrorsClearBtn>
+  <AdminLogsErrorsClearUsersCountExceededBtn>Удалить записи ошибок, номера которых превышают установленный предел</AdminLogsErrorsClearUsersCountExceededBtn>
+
+  <AdminFoldersCreateHint>Разрешить/запретить действия из меню "Создать": новые файл, папку, изображение в Pixlr, ярлык, файлы документов.</AdminFoldersCreateHint>
+  <AdminFoldersDeleteHint>Разрешить/запретить удаление существующих файлов и папок</AdminFoldersDeleteHint>
+  <AdminFoldersRenameHint>Разрешить/запретить переименование существующих файлов и папок</AdminFoldersRenameHint>
+  <AdminFoldersUploadHint>Разрешить/запретить загрузку файлов (кнопка "Загрузить" на панели инструментов)</AdminFoldersUploadHint>
+  <AdminFoldersDownloadHint>Разрешить/запретить скачивать файлы, в том числе меню "Просмотр / редактирование", сохранение в облачные хранилища и т.п.</AdminFoldersDownloadHint>
+  <AdminFoldersZipDownloadHint>Разрешить/запретить действие "сжать и скачать"</AdminFoldersZipDownloadHint>
+  <AdminFoldersZipHint>Разрешить/запретить создание zip-архивов</AdminFoldersZipHint>
+  <AdminFoldersUnzipHint>Разрешить/запретить извлечение zip-архивов (меню "Распаковать архив", возможность просмотра содержимого архива)</AdminFoldersUnzipHint>
+  <AdminFoldersCutHint>Разрешить/запретить возможность вырезать существующие файлы и папки</AdminFoldersCutHint>
+  <AdminFoldersCopyHint>Разрешить/запретить копирование существующих файлов и папок</AdminFoldersCopyHint>
+  <AdminFoldersListFilesHint>Разрешить/запретить просмотр списка файлов</AdminFoldersListFilesHint>
+  <AdminFoldersListFoldersHint>Разрешить/запретить просмотр списка папок</AdminFoldersListFoldersHint>
+  <AdminFoldersModifyHint>Разрешить/запретить изменять файлы (все действия, которые позволяют изменять содержимое существующих файлов)</AdminFoldersModifyHint>
+  <AdminFoldersBulkMailingHint>Разрешить/запретить массовую рассылку e-mail сообщений для групп пользователей</AdminFoldersBulkMailingHint>
+  <AdminFoldersAnonymViewContentHint>Разрешить/запретить просмотр содержимого для папки по ссылке общего доступа  (для анонимных пользователей)</AdminFoldersAnonymViewContentHint>
+  <AdminFoldersAnonymDownloadHint>Разрешить/запретить скачивать файлы из папки по ссылке общего доступа (для анонимных пользователей)</AdminFoldersAnonymDownloadHint>
+  <AdminFoldersAnonymUploadHint>Разрешить/запретить загрузку файлов в папку по ссылке общего доступа (для анонимных пользователей)</AdminFoldersAnonymUploadHint>
+  <AdminFoldersWatchHint>Разрешить/запретить пользователям наблюдать за изменениями в папке, сделанными другими пользователями (применяется только, если UI/AllowUsersWatchModifications=true)</AdminFoldersWatchHint>
+  <AdminFoldersListRestrictionsHint>Эта настройка контролирует отображение списка файлов. Нажмите "Запрещено", чтобы скрывать файлы с заданными расширениями. Укажите запрещенные расширения разделяя их запятой (например: "EXE, BAT, COM"). Нажмите "Разрешить" и укажите расширения, чтобы показывать файлы только с такими расширениями (например: "DOC, PDF, JPG").</AdminFoldersListRestrictionsHint>
+  <AdminFoldersCreateRestrictionsHint>Эта возможность аналогична предыдущей, но она контролирует файлы при создании, сохранении, извлечении архивов. Вы можете запретить или разрешить загрузку указанных типов файлов.</AdminFoldersCreateRestrictionsHint>
+  <AdminFoldersGeneralInfoHint>Введите имя папки и существующий путь к ней. Нажмите внизу кнопку "Помощь" для получения более подробной информации.</AdminFoldersGeneralInfoHint>
+  <AdminFoldersUsersGroupsHint>Выберите или введите пользователей и групп, для которых будет доступна папка. Подробнее об этом вы можете узнать, нажав на кнопку "Помощь".</AdminFoldersUsersGroupsHint>
+
+  <AdminUserFoldersButtonTitle>Список папок пользователей</AdminUserFoldersButtonTitle>
+  <AdminUserFoldersWindowTitle>Пользовательские папки</AdminUserFoldersWindowTitle>
+  <AdminUserFoldersLabel>Список папок для пользователя '{0}':</AdminUserFoldersLabel>
+  
+  <AdminPermissionsTab>Разрешения администраторов</AdminPermissionsTab>
+  <AdminPermissionsPrivilege>Привилегия</AdminPermissionsPrivilege>
+  <AdminPermissionsEditButton>Изменить привилегию</AdminPermissionsEditButton>
+  <AdminPermissionsModifySettingsTitle>Изменение настроек</AdminPermissionsModifySettingsTitle>
+  <AdminPermissionsModifyFoldersTitle>Управление папками</AdminPermissionsModifyFoldersTitle>
+  <AdminPermissionsModifyAnonymFoldersTitle>Управление папками общего доступа</AdminPermissionsModifyAnonymFoldersTitle>
+  <AdminPermissionsModifyAccountsTitle>Управление учётными записями</AdminPermissionsModifyAccountsTitle>
+  <AdminPermissionsViewDiagnosticsTitle>Просмотр страницы диагностики</AdminPermissionsViewDiagnosticsTitle>
+  <AdminPermissionsViewLogTitle>Просмотр журнала событий</AdminPermissionsViewLogTitle>
+  <AdminPermissionsViewErrorsLogTitle>Просмотр журнала ошибок</AdminPermissionsViewErrorsLogTitle>
+  <AdminPermissionsModifyLocalizationsTitle>Управление локализациями</AdminPermissionsModifyLocalizationsTitle>
+  <AdminPermissionsFolderPathTitle>Путь к папке</AdminPermissionsFolderPathTitle>
+  <AdminPermissionsFoldersTitle>Папки, доступные для администрирования</AdminPermissionsFoldersTitle>
+  <AdminPermissionsPrivilegeHint>Задать пользователей/групп, для которых привилегия "{0}" будет разрешена</AdminPermissionsPrivilegeHint>
+  <AdminPermissionsFolderTitle>Свойств папки для администрирования</AdminPermissionsFolderTitle>
+  <AdminPermissionsFolderFieldTitle>Путь к папке</AdminPermissionsFolderFieldTitle>
+  <AdminPermissionsFolderHint>Информация о папках администратора</AdminPermissionsFolderHint>
+  <AdminPermissionsFolderEmptyAccounts>Укажите пользователей и/или группы</AdminPermissionsFolderEmptyAccounts>
+  <AdminPermissionsFolderAlreadyExists>Папка с указанным местоположением уже существует</AdminPermissionsFolderAlreadyExists>
+  <AdminPermissionsFolderNotFound>Папки по указанному пути не найдено</AdminPermissionsFolderNotFound>
+  <AdminPermissionsAllowedFoldersMessage>Вы можете создавать/изменять/управлять доступом только для этой папки и её подпапок: {0}</AdminPermissionsAllowedFoldersMessage>
+
+  <AdminUsersCountExceededWarn>Превышено максимальное количество пользователей. Ваша текущая лицензия позволяет использовать только {0} пользователей для входа в систему. Для получения дополнительной информации откройте вкладку "{1}" и найдите ошибку(и) "{2}". Чтобы скрыть это уведомление очистите записи в журнале ошибок на вкладке "{1}".</AdminUsersCountExceededWarn>
+
+  <AdminNewVersionAvailableTitle>Доступна новая версия!</AdminNewVersionAvailableTitle>
+  <AdminNewVersionAvailableInfo>Текущий номер версии: {0}&lt;br /&gt;Доступна более новая версия: {1}</AdminNewVersionAvailableInfo>
+  
+  <SettingsGridDescriptionInfo>Описание</SettingsGridDescriptionInfo>
+  <SettingsGridFormatInfo>Формат значения</SettingsGridFormatInfo>
+  <SettingsGridDefaultValueInfo>Значение по умолчанию</SettingsGridDefaultValueInfo>
+  <SettingsGridMoreInfo>Подробнее</SettingsGridMoreInfo>
+  <SettingsGridRestoreDefault>Восстановить значение по умолчанию</SettingsGridRestoreDefault>
+
+  <SettingsFormatBoolean>Логическое значение</SettingsFormatBoolean>
+  <SettingsFormatWholeNumber>Целое число</SettingsFormatWholeNumber>
+  <SettingsFormatRealNumber>Действительное число</SettingsFormatRealNumber>
+  <SettingsFormatString>Строка</SettingsFormatString>
+  <SettingsFormatEnum>Любое значение из</SettingsFormatEnum>
+  <SettingsFormatSet>Список без повторений, разделенный запятыми</SettingsFormatSet>
+  <SettingsFormatArray>Список строк, разделенный запятыми</SettingsFormatArray>
+  <SettingsFormatToolbarButtons>. (Значение "{0}" может быть повторено несколько раз, но не подряд. После каждого имени, за которым следует двоеточие, можно указать один из способов отображения кнопки: {1})</SettingsFormatToolbarButtons>
+
+  <AdminSettingsSave>Сохранить настройки</AdminSettingsSave>
+  <AdminToggleHiddenParams>{0} доп. параметры</AdminToggleHiddenParams>
+  <AdminHintHiddenParams>Дополнительные параметры предназначены для более тонкой настройки и в большинстве случаев, редко необходимы</AdminHintHiddenParams>
+  <AdminShowHiddenParams>Показать</AdminShowHiddenParams>
+  <AdminHideHiddenParams>Убрать</AdminHideHiddenParams>
+
+  <SettingsDenyAuthModeChange>Автоматическое переключение режима проверки подлинности не поддерживается. Инструкции об изменении способа аутентификации смотрите в разделе помощи {0}.</SettingsDenyAuthModeChange>
+  <SettingsApplicationRestartedMsg>Приложение успешно перезапущено</SettingsApplicationRestartedMsg>
+  <SettingsSettingsSavedMsg>Настройки успешно сохранены</SettingsSettingsSavedMsg>
+  <SettingsSettingsSaveFailedAppMsg>Не удалось сохранить файлы конфигураций. Проверьте NTFS права на запись для файлов Web.config и HttpCommanderSettings.config в корневой папке веб-приложения {0} для пользователя {1}. Сообщение об ошибке: {2}.</SettingsSettingsSaveFailedAppMsg>
+  <SettingsSettingsSaveFailedTempMsg>Не удалось сохранить файлы конфигураций. Проверьте права доступа к временной папке {0} для пользователя {1}. Сообщение об ошибке: {2}.</SettingsSettingsSaveFailedTempMsg>
+  <SettingsSettingsReadFailedAppMsg>Не удалось прочитать файлы конфигураций. Проверьте NTFS права на чтение из файлов Web.config и HttpCommanderSettings.config в корневой папке веб-приложений {0} для пользователя {1}. Сообщение об ошибке: {2}.</SettingsSettingsReadFailedAppMsg>
+  <SettingsSettingsReadFailedTempMsg>Не удалось прочитать файлы конфигураций во временных папке. Проверьте права доступа к временной папке {0} для пользователя {1}. Сообщение об ошибке: {2}.</SettingsSettingsReadFailedTempMsg>
+  <SettingsSettingsConfigChangedOutside>Файл конфигурации HttpCommander был изменен другой программой. Возможно, вы изменили его вручную с помощью текстового редактора. Приложение загрузит новый конфигурационный файл. Все изменения, связанные с конфигурацией HttpCommander, которые вы сделали через веб-интерфейс, будут потеряны. Вы должны повторить их и затем попытаться сохранить снова. Мы не рекомендуем редактировать конфигурационные файлы вручную когда приложение работает. Иначе вы должны перезапустить приложение после изменения файлов конфигурации. Сообщение об ошибке: {0}.</SettingsSettingsConfigChangedOutside>
+  <SettingsSettingsSaveNotif>Не забудьте сохранить изменения настроек!</SettingsSettingsSaveNotif>
+  
+  <SettingsEmailNotifTitle>Уведомления по e-mail</SettingsEmailNotifTitle>
+  <SettingsEmailNotifApplyBtn>Сохранить настройки e-mail</SettingsEmailNotifApplyBtn>
+  <SettingsEmailNotifResetBtn>Сброс</SettingsEmailNotifResetBtn>
+  <SettingsEmailNotifEventsLabel>Для событий</SettingsEmailNotifEventsLabel>
+  <SettingsEmailNotifWhenLabel>Когда отправлять</SettingsEmailNotifWhenLabel>
+  <SettingsEmailNotifEmailsLabel>Адреса e-mail</SettingsEmailNotifEmailsLabel>
+  <SettingsEmailNotifPathsLabel>Пути</SettingsEmailNotifPathsLabel>
+  
+  <LogsErrorsGridUrlColumn>URL</LogsErrorsGridUrlColumn>
+  <LogsErrorsGridMsgColumn>Сообщение</LogsErrorsGridMsgColumn>
+  <LogsErrorsGridMoreInfoColumn>Подробнее</LogsErrorsGridMoreInfoColumn>
+  <LogsErrorsGridDetailsTitle>Детали</LogsErrorsGridDetailsTitle>
+  
+  <FsrmUnableLoadLibraryLocal>Не удаётся подключиться к File Server Resource Manager на локальном компьютере.</FsrmUnableLoadLibraryLocal>
+  <FsrmUnableLoadLibraryRemote>Не удаётся подключиться к File Server Resource Manager на хосте "{0}".</FsrmUnableLoadLibraryRemote>
+  <FsrmNotInstalled>File Server Resource Manager не установлен на "{0}".</FsrmNotInstalled>
+  <FsrmNotInstalledEitherEnd>File Server Resource Manager не установлен на локальном компьютере, либо на машине "{0}".</FsrmNotInstalledEitherEnd>
+  <FsrmQuotaNotSpecified>Квота не задана.</FsrmQuotaNotSpecified>
+  <FsrmUnableGetQuota>Не удалось получить квоту.</FsrmUnableGetQuota>
+  <FsrmUnableSetQuota>Не удалось задать квоту.</FsrmUnableSetQuota>
+  <FsrmQuotaSetMsg>Квота была успешно установлена.</FsrmQuotaSetMsg>
+  <FsrmInvalidQuotaValueMsg>Неверное значение квоты.</FsrmInvalidQuotaValueMsg>
+
+  <CommandBuyNow>Купить сейчас</CommandBuyNow>
+
+  <AdminUpdateTab>Обновление</AdminUpdateTab>
+  <AdminUpdateManual>Ручное обновление</AdminUpdateManual>
+  <AdminUpdateAuto>Автоматическое обновление</AdminUpdateAuto>
+  <AdminUpdateStartButton>Начать обновление/Создать бэкап</AdminUpdateStartButton>
+  <AdminUpdateFinishButton>Завершить обновление/Восстановить из бэкапа</AdminUpdateFinishButton>
+  <AdminUpdateBackupButton>Создать резервную копию</AdminUpdateBackupButton>
+  <AdminUpdateDownloadNewButton>Скачать новую версию</AdminUpdateDownloadNewButton>
+  <AdminUpdateStepTitle>Шаг {0}{1}: {2}</AdminUpdateStepTitle>
+  <AdminUpdateStepInfo>Шаг {0}{1}</AdminUpdateStepInfo>
+  <AdminUpdateNumberSymbol>№</AdminUpdateNumberSymbol>
+  <AdminUpdateBackupContent>Нажмите кнопку "{0}" для создания резервной копии папки с приложением и получения ссылки для её скачивания</AdminUpdateBackupContent>
+  <AdminUpdateDownloadBackupLinkHint>Скачайте архив с резервной копией приложения по ссылке ниже:</AdminUpdateDownloadBackupLinkHint>
+  <AdminUpdateDownloadNewContent>Затем, скачайте новую версию по ссылке ниже, и, следуя инструкциям по {0}установке{1} и {2}обновлении{1}, установите новую версию. После установки откройте Панель Администрирования, перейдите на вкладку "{3}" и нажмите кнопку "{4}" для завершения установки</AdminUpdateDownloadNewContent>
+  <AdminUpdateUploadButton>Загрузить бэкап и применить настройки</AdminUpdateUploadButton>
+  <AdminUpdateUploadAndInstallButton>Установить новую версию с сохранением настроек</AdminUpdateUploadAndInstallButton>
+  <AdminUpdateUploadEmptyText>Выберите бэкап для загрузки</AdminUpdateUploadEmptyText>
+  <AdminUpdateFinishContent>Для восстановления настроек предыдущей версии, выберите и загрузите ранее созданный архив с резервной копией папки приложения</AdminUpdateFinishContent>
+  <AdminUpdateFinishMessage>Поздравляем! Настройки успешно применены. Также дополнительно примените изменения, внесённые вами в другие файлы, например Default.aspx или Global.asax.</AdminUpdateFinishMessage>
+  <AdminUpdateFinishRefreshPage>Страница будет перезагружена</AdminUpdateFinishRefreshPage>
+  <AdminUpdateMainInfo>Этот вариант обновления частично автоматизирован. Вы можете создать и загрузить файл резервной копии с параметрами конфигурации приложения и восстановить его после обновления. Короткие шаги: создать резервную копию, выполнить обновление вручную, восстановить настройки из резервной копии. Эта процедура также может быть использована для резервного копирования настроек / восстановление без обновления. Просто пропустите шаг обновления, чтобы восстановить настройки из резервной копии.</AdminUpdateMainInfo>
+  <AdminUpdateAutoButton>Авто</AdminUpdateAutoButton>
+  <AdminUpdateAutoInfo>Этот вариант обновления практически полностью автоматизирован. Он состоит из 2-х этапов: резервное копирование текущих настроек (вы должны загрузить и сохранить файл резервной копии), установка новой версии и восстановление настроек из резервной копии. HTTP Commander может автоматически загружать последнюю версию и установить её, или вы можете указать путь к Zip-архиву с новой версией на сервере. Настройки автоматически восстанавливаются из ранее созданной резервной копии.</AdminUpdateAutoInfo>
+  <AdminUpdateRestoreWebConfigCheckBox>Восстанавливать настройки из Web.config (например, такие, как SMTP)</AdminUpdateRestoreWebConfigCheckBox>
+  <AdminUpdateBackupAssignedFoldersInRootMessage>Внимание! В каталоге с приложением, есть пользовательские папки, общий размер которых превышает {0}. Резервная копия сделана не будет. Пожалуйста, самостоятельно сделайте архивную копию этих директорий, удалите их из каталога приложения, и повторите операцию</AdminUpdateBackupAssignedFoldersInRootMessage>
+  <AdminUpdateNeedRefreshPageForContinue>Внимание! Для продолжения необходимо перезагрузить страницу. Для этого нажмите кнопку "{0}". После перезагрузки, повторите операцию.</AdminUpdateNeedRefreshPageForContinue>
+  <AdminUpdateRestoreFromBackupEmpty>, либо, если он не выбран, то будет использован только что созданный архив на предыдущем шаге</AdminUpdateRestoreFromBackupEmpty>
+  <AdminUpdateInstallZipPathHint>Для обновления укажите полный физический путь к архиву с установкой (на сервере) в первом поле, либо оставьте его пустым, чтобы использовать онлайн дистрибутив</AdminUpdateInstallZipPathHint>
+  <AdminUpdateInstallZipPathEmpty>Укажите путь к архиву с дистрибутивом</AdminUpdateInstallZipPathEmpty>
+  <AdminUpdateProgress>Обновление</AdminUpdateProgress>
+  <AdminUpdateAccessDeniedWarning>&lt;b&gt;Внимание!&lt;/b&gt; Для обновления, задайте NTFS разрешения на изменение (чтение и запись) {0} пользователю, для папки с HTTP Commander{1}, и повторите обновление.&lt;br /&gt;После успешного обновления восстановите прежние права.</AdminUpdateAccessDeniedWarning>
+  <AdminUpdateAccessDeniedWarningCurentUser>текущему</AdminUpdateAccessDeniedWarningCurentUser>
+
+  <ServerExceedsMaxSizeForEditAsTextFile>Размер файла превышает максимальный размер, который разрешен для редактирования в виде текстового документа.</ServerExceedsMaxSizeForEditAsTextFile>
+  <ServerDemoMode>Это действие запрещено в демо-режиме</ServerDemoMode>
+  <ServerHostedMode>В TRIAL-версии не разрешено изменять значения следующих параметров: {0}.</ServerHostedMode>
+  <ServerIncorrectImageContentType>Этот Mime-type файла не является изображением</ServerIncorrectImageContentType>
+  <ServerPermissionDenied>Эта операция отклонена из-за ограничения разрешений</ServerPermissionDenied>
+  <ServerRestoreFromTrashNoParentFolder>не удалось восстановить, т.к. родительский каталог "{0}" не найден. Создайте его и повторите операцию.</ServerRestoreFromTrashNoParentFolder>
+  <ServerModifyPermissionDenied>Эта операция отклонена, т.к. у вас нет разрешения на изменение файла</ServerModifyPermissionDenied>
+  <ServerPathNotFound>Путь не найден.</ServerPathNotFound>
+  <ServerInvalidPath>Путь "{0}" является неверным</ServerInvalidPath>
+  <ServerInvalidAbsolutePath>Неверный абсолютный путь "{0}"</ServerInvalidAbsolutePath>
+  <!-- share folder path: \\server\share -->
+  <ServerInvalidShareFolderPath>Неверный путь к сетевой папке "{0}"</ServerInvalidShareFolderPath>
+  <ServerInvalidUncPath>Неверный UNC путь "{0}"</ServerInvalidUncPath>
+  <ServerUnableResolveUncPath>Не удаётся разрешить UNC путь "{0}"</ServerUnableResolveUncPath>
+  <ServerInvalidFileName>Имя файла/папки не удалось определить, либо оно содержит недопустимые символы{0}</ServerInvalidFileName>
+  <ServerFilePathNotFound>Файл не найден</ServerFilePathNotFound>
+  <ServerIncorrectPathForFileLink>Неверный тип объекта. Путь объекта указывает на папку</ServerIncorrectPathForFileLink>
+  <ServerIncorrectPathForFolderLink>Неверный тип объекта. Путь объекта указывает на файл</ServerIncorrectPathForFolderLink>
+  <ServerRootFolderNotFound>Корневая папка для пути "{0}" не найдена.</ServerRootFolderNotFound>
+  <ServerUnableCreateFolder>Невозможно создать папку</ServerUnableCreateFolder>
+  <ServerFileAlreadyExists>Файл с таким именем уже существует</ServerFileAlreadyExists>
+  <ServerFileAlreadyExistsOnRename>
+    Вы хотите переименовать "{0}" в "{1}"?
+    Файл с таким именем уже существует в этой папке.
+  </ServerFileAlreadyExistsOnRename>
+  <ServerFolderAlreadyExistsOnRename>
+    Вы хотите, чтобы переименовать "{0}" в "{1}"?
+    Каталог с таким именем уже существует в этой папке.
+  </ServerFolderAlreadyExistsOnRename>
+  <ServerFoldersMergeConfirm>
+    Каталог назначения уже содержит папку с именем "{0}".
+    Вы хотите объединить эту папку "{0}" с папкой "{1}"?
+  </ServerFoldersMergeConfirm>
+  <ServerFolderWithSameNameAsFileNameAlreadyExists>Уже существует папка с тем же именем "{0}", что и у файла</ServerFolderWithSameNameAsFileNameAlreadyExists>
+  <ServerFileWithSameNameAsFolderNameAlreadyExists>Уже существует файл с тем же именем "{0}", что и у папки</ServerFileWithSameNameAsFolderNameAlreadyExists>
+  <ServerFileNotFound>Файл "{0}" не найден в папке "{1}". Возможно он был удален другим пользователем.</ServerFileNotFound>
+  <ServerDirectoryAlreadyExists>Каталог с таким именем уже существует</ServerDirectoryAlreadyExists>
+  <ServerFolderMoveAlreadeExists>Исходный каталог и каталог назначения "{0}" совпадают</ServerFolderMoveAlreadeExists>
+  <ServerUploadPathNotFound>Путь для сохранения файлов на сервере не найден</ServerUploadPathNotFound>
+  <ServerUploadPathNotSet>Произошла ошибка при получении пути для загрузки. Пожалуйста, обновите страницу в браузере и попробуйте еще раз.</ServerUploadPathNotSet>
+  <ServerUploadNoChunk>Не хватает блока для сохранения</ServerUploadNoChunk>
+  <ServerUploadWriteChunk>Запись блока байт</ServerUploadWriteChunk>
+  <ServerUploadCreatingFile>Создание файла</ServerUploadCreatingFile>
+  <ServerUploadFileUploaded>Файл был загружен</ServerUploadFileUploaded>
+  <ServerUploadWriteError>Ошибка записи</ServerUploadWriteError>
+  <ServerConfigurationError>Неправильная конфигурация или приложение! Свяжитесь с администратором сайта</ServerConfigurationError>
+  <ServerPermissionsAllowTypes>Текущие права разрешают эту операцию только с типами файлов {0}</ServerPermissionsAllowTypes>
+  <ServerPermissionsDenyTypes>Текущие права запрещают эту операцию с типами файлов {0}</ServerPermissionsDenyTypes>
+  <ServerRequestSizeExceeded>Размер загружаемых файлов превышает допустимый размер, указанный в настройках сервера</ServerRequestSizeExceeded>
+  <ServerEmailMsgProcessedFilesSubject>Загруженные/Изменённые/Скачанные/Созданные/Удалённые/Опубликованные файлы/папки</ServerEmailMsgProcessedFilesSubject>
+  <ServerEmailMsgUploadFilesTitle>загружены</ServerEmailMsgUploadFilesTitle>
+  <ServerEmailMsgModifyFilesTitle>изменены</ServerEmailMsgModifyFilesTitle>
+  <ServerEmailMsgDownloadFilesTitle>скачаны</ServerEmailMsgDownloadFilesTitle>
+  <ServerEmailMsgCreateFilesTitle>созданы</ServerEmailMsgCreateFilesTitle>
+  <ServerEmailMsgDeleteFilesTitle>удалены</ServerEmailMsgDeleteFilesTitle>
+  <ServerEmailMsgCreatePublicFilesTitle>сделаны общедоступными</ServerEmailMsgCreatePublicFilesTitle>
+  <ServerEmailMsgProcessedFilesBody>
+    Следующие файлы/папки были {0} пользователем {1}:
+
+{2}
+    
+  </ServerEmailMsgProcessedFilesBody>
+  <ServerEmailMsgPasswordRecoverSubject>Восстановление пароля</ServerEmailMsgPasswordRecoverSubject>
+  <ServerEmailMsgPasswordRecoverBody>
+    Вы запросили восстановление вашего пароля для входа в Веб-файл менеджер. Ваш пароль был сброшен. Если вы уверены, что это ошибочный запрос, то проигнорируйте это письмо, но учтите, что пароль был изменён.
+    Имя пользователя: {0}
+    Новый пароль: {1}
+  </ServerEmailMsgPasswordRecoverBody>
+  
+  <ServerEmailMsgUserNameRecoverSubject>Восстановление имени пользователя</ServerEmailMsgUserNameRecoverSubject>
+  <ServerEmailMsgUserNameRecoverBody>
+    Вы запросили восстановление вашего имени для входа в Веб-файл менеджер.
+    Имя пользователя: {0}
+  </ServerEmailMsgUserNameRecoverBody>
+
+  <ServerEmailMsgUserActivationSubject>Активация учётной записи</ServerEmailMsgUserActivationSubject>
+  <ServerEmailMsgUserActivationBody>
+    Необходима активация учётной записи ({0}).
+    Для активации, пожалуйста перейдите по ссылке: {1}
+  </ServerEmailMsgUserActivationBody>
+  <ServerEmailMsgUserRegisteredSubject>Зарегистрирован пользователь</ServerEmailMsgUserRegisteredSubject>
+  <ServerEmailMsgUserRegisteredBody>
+    Вы успешно зарегистрировались в Веб-файл менеджере.
+    Имя пользователя: {0}
+  </ServerEmailMsgUserRegisteredBody>
+  <ServerEmailMsgUserRegisteredForAdminsBody>
+    &lt;h4&gt;Был зарегистрирован новый пользователь&lt;/h4&gt;
+    &lt;strong&gt;Имя&lt;/strong&gt;: {0}&lt;br /&gt;
+    &lt;strong&gt;Почта&lt;/strong&gt;: {1}&lt;br /&gt;
+    &lt;strong&gt;Дата&lt;/strong&gt;: {2}&lt;br /&gt;
+    &lt;strong&gt;Доп. инфо.&lt;/strong&gt;: {3}&lt;br /&gt;
+  </ServerEmailMsgUserRegisteredForAdminsBody>
+  <ServerDiskFullError>Недостаточно места на диске.</ServerDiskFullError>
+  <ServerFolderLimitations>Ограничения на папку: {0}</ServerFolderLimitations>
+  <ServerShortcutAssignedFolderNotFound>Целевой путь ярлыка не найден</ServerShortcutAssignedFolderNotFound>
+  <ServerSizeFilesForZipExceeded>Размер архивируемых файлов превысил допустимое значение {0}.</ServerSizeFilesForZipExceeded>
+  <ServerPasteFolderToSubfolderError>Каталог назначения "{0}" является вложенным в каталог источника "{1}".</ServerPasteFolderToSubfolderError>
+  <ServerLiveConnectAppIDNotSpecified>Не задано значение параметра Microsoft Live Client ID</ServerLiveConnectAppIDNotSpecified>
+  <ServerSendEmailInfo>Автор этого сообщения, указал свой адрес e-mail: {0}. Пожалуйста, используйте ТОЛЬКО ЭТОТ адрес e-mail для ответа.</ServerSendEmailInfo>
+
+  <ServerAntivirusScanningFailed>Сканирование антивирусом '{0} {1}' завершилось аварийно.</ServerAntivirusScanningFailed>
+
+  <ServerUserNameNotFound>Пользователь с именем '{0}' не найден.</ServerUserNameNotFound>
+  <ServerFileNameCopySuffix>Копия</ServerFileNameCopySuffix>
+
+  <ServerDeleteFolderNTFSAccessDenied>У вас недостаточно NTFS прав для удаления каталога "{0}"</ServerDeleteFolderNTFSAccessDenied>
+
+  <ServerMSOOTemplateNotFound>Шаблон {0} не найден</ServerMSOOTemplateNotFound>
+</Localization>

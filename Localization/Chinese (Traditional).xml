@@ -1,0 +1,1608 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Localization>
+  <!-- Common keys -->
+  
+  <ExtMsgButtonTextYES>是</ExtMsgButtonTextYES>
+  <ExtMsgButtonTextNO>沒有</ExtMsgButtonTextNO>
+  
+  <ControlHideFileManager>隱藏網頁文件管理器</ControlHideFileManager>
+  
+  <CommonMainTitle>Web文件訪問</CommonMainTitle>
+  <CommonApplicationLoading>網頁文件的訪問加載</CommonApplicationLoading>
+  <CommonLoadError>獲取樹數據過程中發生錯誤</CommonLoadError>
+  <CommonGridAccessDenied>文件夾“{0}”不存在或讀訪問被拒絕</CommonGridAccessDenied>
+  <CommonNoScript>此網頁需要JavaScript在瀏覽器中啟用！請啟用它，並重新登錄！</CommonNoScript>
+  <CommonErrorCaption>錯誤</CommonErrorCaption>
+  <CommonWarningCaption>警告</CommonWarningCaption>
+  <CommonInfoCaption>信息</CommonInfoCaption>
+  <CommonConfirmCaption>確認</CommonConfirmCaption>
+  <CommonFileNameCaption>文件名</CommonFileNameCaption>
+  <CommonFileNamePrompt>輸入新的文件名</CommonFileNamePrompt>
+  <CommonFileNewNameValue>新建文本文檔.txt</CommonFileNewNameValue>
+  <CommonFolderNewNameValue>新建文件夾</CommonFolderNewNameValue>
+  <CommonZipFileNameCaption>郵編存檔名稱</CommonZipFileNameCaption>
+  <CommonZipFileNamePrompt>文件名（擴展名會自動添加）</CommonZipFileNamePrompt>
+  <CommonFolderNameCaption>文件夾名稱</CommonFolderNameCaption>
+  <CommonFolderNamePrompt>輸入一個新的文件夾名稱</CommonFolderNamePrompt>
+  <CommonDeleteOnePrompt>你確定要刪除“{0}”？</CommonDeleteOnePrompt>
+  <CommonDeleteManyPrompt>您確定要刪除這些{0}項目？</CommonDeleteManyPrompt>
+  <CommonForToday>今天</CommonForToday>
+  <CommonButtonCaptionOK>好</CommonButtonCaptionOK>
+  <CommonButtonCaptionCancel>取消</CommonButtonCaptionCancel>
+  <CommonButtonCaptionClose>關</CommonButtonCaptionClose>
+  <CommonButtonCaptionAdd>加</CommonButtonCaptionAdd>
+  <CommonButtonCaptionContinue>繼續</CommonButtonCaptionContinue>
+
+  <CommonProgressPleaseWait>請稍候</CommonProgressPleaseWait>
+  
+  <CommonFieldLabelName>名稱</CommonFieldLabelName>
+  <CommonFieldLabelPath>路徑</CommonFieldLabelPath>
+  <CommonFieldLabelSize>尺寸</CommonFieldLabelSize>
+  <CommonFieldLabelLabels>標籤</CommonFieldLabelLabels>
+  <CommonFieldLabelType>類型</CommonFieldLabelType>
+  <CommonFieldLabelAction>行動</CommonFieldLabelAction>
+  <CommonFieldLabelDate>日期</CommonFieldLabelDate>
+  <CommonFieldLabelDateTime>約會時間</CommonFieldLabelDateTime>
+  <CommonFieldLabelDateCreated>創建日期</CommonFieldLabelDateCreated>
+  <CommonFieldLabelDateModified>修改日期</CommonFieldLabelDateModified>
+  <CommonFieldLabelDateAccessed>訪問日期</CommonFieldLabelDateAccessed>
+  <CommonFieldLabelValue>值</CommonFieldLabelValue>
+  <CommonFieldLabelUserName>用戶名</CommonFieldLabelUserName>
+  <CommonFieldLabelUser>用戶</CommonFieldLabelUser>
+  <CommonFieldLabelUsers>用戶</CommonFieldLabelUsers>
+  <CommonFieldLabelGroupName>組名</CommonFieldLabelGroupName>
+  <CommonFieldLabelGroup>組</CommonFieldLabelGroup>
+  <CommonFieldLabelGroups>組</CommonFieldLabelGroups>
+  <CommonFieldLabelPassword>密碼</CommonFieldLabelPassword>
+  <CommonFieldLabelRepeatPassword>重複輸入密碼</CommonFieldLabelRepeatPassword>
+  <CommonFieldLabelComments>註釋</CommonFieldLabelComments>
+  <CommonValueTypeFolder>夾</CommonValueTypeFolder>
+
+  <CommonFieldLabelDescription>描述</CommonFieldLabelDescription>
+  <EmptyDescriptionText>指定的描述</EmptyDescriptionText>
+  <CommonFieldLabelReadMeTxt>readme.txt文件內容</CommonFieldLabelReadMeTxt>
+  
+  <CommonWordOr>要么</CommonWordOr>
+
+  <SortAscText>升序</SortAscText>
+  <SortDescText>降序</SortDescText>
+
+  <CommonNewDocument>新建文檔</CommonNewDocument>
+  <CommonNewSpreadsheet>新的電子表格</CommonNewSpreadsheet>
+  <CommonNewPresentation>新建演示文稿</CommonNewPresentation>
+
+  <CommonWordWrap>自動換行</CommonWordWrap>
+  
+  <!-- End Common keys -->
+
+  <!-- Labels -->
+
+  <LabelsTitle>標籤</LabelsTitle>
+  <LabelsNoLabel>無標籤</LabelsNoLabel>
+  <LabelsColor>顏色</LabelsColor>
+  <LabelsCustomLabel>自定義標籤</LabelsCustomLabel>
+  <LabelsCustomLabelHint>輸入標籤的文本</LabelsCustomLabelHint>
+  <LabelsCustomLabelView>標籤＆NBSP;查看：＆NBSP; {0} {1} {2}</LabelsCustomLabelView>
+  <LabelsFileLabelledMessage>成功標記{0}項目（S）</LabelsFileLabelledMessage>
+  <LabelsRemovedMessage>成功刪除{0}標籤（S）</LabelsRemovedMessage>
+  <LabelsNotRemovedMessages>不會被刪除：{0}</LabelsNotRemovedMessages>
+  <LabelsNotLabelledMessage>未標示：{0}</LabelsNotLabelledMessage>
+  <LabelsLabelRemovedMessage>標籤成功刪除</LabelsLabelRemovedMessage>
+  <LabelsNewLabel>新標籤</LabelsNewLabel>
+  <LabelsLabellingMessage>標籤</LabelsLabellingMessage>
+  <LabelsRemovingLabelMessage>移除標籤</LabelsRemovingLabelMessage>
+  <LabelsLabelInfoTip>標記為“{0}”{1}用戶“{2}”</LabelsLabelInfoTip>
+
+  <!-- End Labels -->
+
+  <!-- Comments -->
+
+  <CommentsCountInfoTip>{0}評論（）</CommentsCountInfoTip>
+  <CommentsWriteCommentHint>寫評論，然後按“{0}”或Ctrl+Enter鍵或Shift+Enter ...</CommentsWriteCommentHint>
+
+  <!-- End Comments -->
+
+  <RefreshPageWarningMessage>&lt;b&gt;注意！&lt;/b&gt;要完成這個操作，在瀏覽器的當前頁必須刷新。&lt;br /&gt;要立即刷新？</RefreshPageWarningMessage>
+
+  <PagingToolbarBeforePageText>頁</PagingToolbarBeforePageText>
+  <PagingToolbarAfterPageText>{0}</PagingToolbarAfterPageText>
+  <PagingToolbarFirstText>第一頁</PagingToolbarFirstText>
+  <PagingToolbarPrevText>上一頁</PagingToolbarPrevText>
+  <PagingToolbarNextText>下一頁</PagingToolbarNextText>
+  <PagingToolbarLastText>最後一頁</PagingToolbarLastText>
+  <PagingToolbarDisplayMsg>顯示{0}  -  {1} {2}</PagingToolbarDisplayMsg>
+  <PagingToolbarEmptyMsg>沒有數據顯示</PagingToolbarEmptyMsg>
+  
+  <GridTotalLabel>總：</GridTotalLabel>
+  <GridTotalFilesLabel>檔</GridTotalFilesLabel>
+  <GridTotalFoldersLabel>文件夾</GridTotalFoldersLabel>
+  
+  <GridDDSelectedRowsText>{0}選擇行{1}</GridDDSelectedRowsText>
+  <GridDDSelectedFilesText>{0}選擇的文件</GridDDSelectedFilesText>
+  <GridDDSelectedFoldersText>{0}選定的文件夾</GridDDSelectedFoldersText>
+  <GridDDConfirmCopyMoveTitle>跌落到文件夾“{0}”</GridDDConfirmCopyMoveTitle>
+  <GridDDConfirmAddToZipTitle>添加到壓縮“{0}”</GridDDConfirmAddToZipTitle>
+  <GridDDConfirmAddToZipMessage>被拖動的文件將被添加到這個ZIP壓縮包。是否要繼續？{0}。</GridDDConfirmAddToZipMessage>
+  <GridDDConfirmCopyMoveMsg>選擇要應用的操作。資料來源：“{0}”，目標文件夾：“{1}”{2} {3}。</GridDDConfirmCopyMoveMsg>
+  <GridDDConfirmCopyMoveToZipMsg>文件將被添加到zip歸檔。選擇您要添加的文件的zip壓縮文件後應用到被拖動的文件的操作。資料來源：“{0}”，目標zip壓縮包：“{1}”{2} {3}。</GridDDConfirmCopyMoveToZipMsg>
+  <GridDDDraggedFileNames>&lt;b&gt;拖文件：&lt;/b&gt; {0}</GridDDDraggedFileNames>
+  <GridDDDraggedFolderNames>&lt;b&gt;拖文件夾：&lt;/b&gt; {0}</GridDDDraggedFolderNames>
+  <GridDDConfirmTargetFolderOnlyCopyMsg>為源文件夾中當前權限允許你只複製拖文件。是否要繼續？{0}。</GridDDConfirmTargetFolderOnlyCopyMsg>
+  <GridDDConfirmTargetFolderOnlyMoveMsg>為源文件夾中當前的權限只允許您移動被拖動的文件。是否要繼續？{0}。</GridDDConfirmTargetFolderOnlyMoveMsg>
+
+  <GridRowPublicHint>點擊在新窗口/選項卡中打開一個公共鏈接</GridRowPublicHint>
+  <GridRowAlertHint>點擊查看該文件/文件夾進行修改</GridRowAlertHint>
+  <GridRowRecentHint>找到該文件/文件夾</GridRowRecentHint>
+  <GridRowAlertEventHint>點擊進入此位置</GridRowAlertEventHint>
+
+  <ProgressCreating>創建</ProgressCreating>
+  <ProgressDeleting>刪除</ProgressDeleting>
+  <ProgressLoading>加載</ProgressLoading>
+  <ProgressSearching>搜索</ProgressSearching>
+  <ProgressZipping>壓縮</ProgressZipping>
+  <ProgressUnzipping>開箱</ProgressUnzipping>
+  <ProgressZipContents>獲取ZIP壓縮文件的內容</ProgressZipContents>
+  <ProgressPrepareDownload>準備下載</ProgressPrepareDownload>
+  <ProgressMoving>進展</ProgressMoving>
+  <ProgressCopying>仿形</ProgressCopying>
+  <ProgressRenaming>重命名</ProgressRenaming>
+  <ProgressUpdating>更新</ProgressUpdating>
+  <ProgressLoadingEditInPixlr>加載的Pixlr編輯器</ProgressLoadingEditInPixlr>
+  <ProgressLoadingEdit>加載編輯器</ProgressLoadingEdit>
+  <ProgressSavingEdit>保存文件</ProgressSavingEdit>
+  <ProgressSaving>保存</ProgressSaving>
+  <ProgressExecuting>執行</ProgressExecuting>
+
+  <BalloonFilesDeleted>{0}刪除文件（S）</BalloonFilesDeleted>
+  <BalloonFoldersDeleted>{0}刪除的文件夾（S）</BalloonFoldersDeleted>
+  <BalloonFilesFailed>{0}文件（S）失敗</BalloonFilesFailed>
+  <BalloonFoldersFailed>{0}文件夾（S）失敗</BalloonFoldersFailed>
+  <BalloonFilesZipped>{0}壓縮文件（S）</BalloonFilesZipped>
+  <BalloonFoldersZipped>{0}壓縮文件夾（S）</BalloonFoldersZipped>
+  <BalloonFilesCopied>{0}複製文件（S）</BalloonFilesCopied>
+  <BalloonFoldersCopied>{0}複製的文件夾（S）</BalloonFoldersCopied>
+  <BalloonFilesMoved>{0}文件（S）移動</BalloonFilesMoved>
+  <BalloonFoldersMoved>{0}文件夾（S）移動</BalloonFoldersMoved>
+  <BalloonNotUnzipped>{0}文件（S）沒有被解開</BalloonNotUnzipped>
+  <BalloonFilesUploaded>{0}上傳的文件（S）</BalloonFilesUploaded>
+  <BalloonFilesNotUploaded>{0}文件（S）沒有上傳</BalloonFilesNotUploaded>
+  <BalloonSomeFilesNotUploaded>某些文件無法上傳</BalloonSomeFilesNotUploaded>
+  <BalloonCreatedSuccessfully>成功創建</BalloonCreatedSuccessfully>
+  <BalloonUnzippedSuccessfully>未包裝的成功</BalloonUnzippedSuccessfully>
+  <BalloonRenamedSuccessfully>成功更名</BalloonRenamedSuccessfully>
+  <BalloonSavedSuccessfully>保存成功</BalloonSavedSuccessfully>
+  <BalloonCopiedToClipboard>複製到剪貼板</BalloonCopiedToClipboard>
+  <BalloonCopyToClipboardFailed>複製到剪貼板失敗</BalloonCopyToClipboardFailed>
+
+  <CommandCopyToClipboard>複製到剪貼板</CommandCopyToClipboard>
+  <CommandCopyLinkToClipboard>複製鏈接到剪貼板</CommandCopyLinkToClipboard>
+  <ClipboardScreenshotTitlePrefix>圖片</ClipboardScreenshotTitlePrefix>
+  <ClipboardScreenshotHint>圖片：你可以從你的剪貼板粘貼截圖（按&lt;b&gt;按Ctrl+PrtSc鍵&lt;/b&gt;，然後&lt;b&gt;按Ctrl+V &lt;/b&gt;）或從編輯的圖像（按&lt;b&gt;按Ctrl+V &lt;/b&gt;的）。</ClipboardScreenshotHint>
+  <ClipboardFileHint>您還可以粘貼剪貼板文件</ClipboardFileHint>
+
+  <CommandClouds>雲端儲存</CommandClouds>
+  <CommandCloudsDownloadTo>下載...</CommandCloudsDownloadTo>
+  <CommandCloudsUploadFrom>從上傳...</CommandCloudsUploadFrom>
+  <CommandCloudsAbout>關於雲端儲存</CommandCloudsAbout>
+  
+  <CommandBack>背部</CommandBack>
+  <CommandForward>前鋒</CommandForward>
+  <CommandRecentFolders>最近的文件夾</CommandRecentFolders>
+  <CommandHome>家</CommandHome>
+  <CommonActions>操作</CommonActions>
+  <CommandMultiSelect>多選</CommandMultiSelect>
+  <CommandShare>分享</CommandShare>
+  <CommandSorting>排序</CommandSorting>
+  
+  <CommandFileManager>返回到文件管理器</CommandFileManager>
+  <CommandFolders>文件夾</CommandFolders>
+  <CommandGridView>視圖</CommandGridView>
+  <CommandRefresh>刷新</CommandRefresh>
+  <CommandThumbnailView>縮略圖視圖</CommandThumbnailView>
+  <CommandDetailedView>列表顯示</CommandDetailedView>
+  <CommandDetailsPane>詳細信息窗格</CommandDetailsPane>
+  <CommandFavorites>收藏夾</CommandFavorites>
+  <CommandAddToFavorites>添加到收藏夾</CommandAddToFavorites>
+  <CommandAddToFavoritesHint>添加當前文件夾到我的最愛</CommandAddToFavoritesHint>
+  <AddingToFavoritesMessage>添加到收藏夾</AddingToFavoritesMessage>
+  <RemoveFromFavoritesMessage>從收藏夾中刪除</RemoveFromFavoritesMessage>
+  <FolderAlreadyAddedInFavorites>文件夾“{0}”中已存在的最愛</FolderAlreadyAddedInFavorites>
+  <FolderAddedInFavoritesSuccessfully>文件夾“{0}”已成功添加到收藏夾</FolderAddedInFavoritesSuccessfully>
+  <FavoritesIsOverflowed>這是不可能添加當前文件夾“{0}”添加到收藏。刪除一些收藏夾以釋放一些空間，然後再試一次。</FavoritesIsOverflowed>
+  <RemoveFromFavoritesHint>刪除“{0}”從我的收藏</RemoveFromFavoritesHint>
+  <AddToHomeScreenIOSHint>點擊{0}，然後&lt;STRONG&gt;“添加到主屏幕”&lt;/strong&gt;</AddToHomeScreenIOSHint>
+  <CommandSearch>搜索</CommandSearch>
+  <CommandUpload>上傳</CommandUpload>
+  <CommandSettings>設置</CommandSettings>
+  <CommandLanguage>語言</CommandLanguage>
+  <CommandAdministration>行政</CommandAdministration>
+  <CommandAdminPanel>管理面板</CommandAdminPanel>
+  <CommandChangePassword>更改密碼</CommandChangePassword>
+  <ProgressChangePassword>更改密碼</ProgressChangePassword>
+  <CommandChangeEmail>更改電子郵件</CommandChangeEmail>
+  <ProgressChangeEmail>更改電子郵件</ProgressChangeEmail>
+  <CommandMobileView>移動界面（智能手機）</CommandMobileView>
+  <CommandStandardView>完整版</CommandStandardView>
+  <CommandInstallIOSApp>安裝iOS應用</CommandInstallIOSApp>
+  <CommandInstallAndroidApp>安裝Android應用</CommandInstallAndroidApp>
+  <CommandAddServerToMobileApp>此服務器加入到移動應用</CommandAddServerToMobileApp>
+  <CommandAddToHomeScreen>添加到主屏幕</CommandAddToHomeScreen>
+  <CommandDiagnostics>診斷頁</CommandDiagnostics>
+  <CommandLicenseInfo>許可證信息</CommandLicenseInfo>
+  <CommandLogout>登出</CommandLogout>
+  <CommandLogoutHint>單擊以完成當前會話</CommandLogoutHint>
+  <CommandNew>新</CommandNew>
+  <CommandFile>文件</CommandFile>
+  <CommandEmptyFile>空的文件</CommandEmptyFile>
+  <CommandNewMSOODocument>與MS Office文檔在線</CommandNewMSOODocument>
+  <CommandNewOffice365Document>與Office 365的文件</CommandNewOffice365Document>
+  <CommandNewMSOOWord>Word文檔</CommandNewMSOOWord>
+  <CommandNewMSOOExcel>Excel表格</CommandNewMSOOExcel>
+  <CommandNewMSOOPowerPoint>PowerPoint演示文稿</CommandNewMSOOPowerPoint>
+  <CommandNewGoogleDocument>與谷歌文檔</CommandNewGoogleDocument>
+  <CommandNewGoogleDocs>谷歌文檔</CommandNewGoogleDocs>
+  <CommandNewGoogleSheets>谷歌表</CommandNewGoogleSheets>
+  <CommandNewGoogleSlides>谷歌幻燈片</CommandNewGoogleSlides>
+  <CommandNewImage>圖像中的Pixlr</CommandNewImage>
+  <CommandFolder>夾</CommandFolder>
+  <CommandNewFile>新的空文件</CommandNewFile>
+  <CommandNewFolder>新建文件夾</CommandNewFolder>
+  <CommandNewWithTemplate>使用模板...</CommandNewWithTemplate>
+  <CommandRename>改名</CommandRename>
+  <CommandDelete>刪除</CommandDelete>
+  <CommandCopy>複製</CommandCopy>
+  <CommandMove>移動</CommandMove>
+  <CommandCut>切</CommandCut>
+  <CommandCopyTo>複製到...</CommandCopyTo>
+  <CommandMoveTo>搬去...</CommandMoveTo>
+  <CommandCopyCutClipboardSuffix>到剪貼板</CommandCopyCutClipboardSuffix>
+  <CommandPaste>糊</CommandPaste>
+  <CommandPasteInto>粘貼到</CommandPasteInto>
+  <CommandZip>壓縮到一個Zip檔案</CommandZip>
+  <CommandZipMenu>壓縮/解壓縮</CommandZipMenu>
+  <CommandUnzip>解壓郵編</CommandUnzip>
+  <CommandUnzipSelected>選擇解壓</CommandUnzipSelected>
+  <CommandUnzipAll>打開所有</CommandUnzipAll>
+  <CommandUnzipTo>該文件夾</CommandUnzipTo>
+  <CommandUnzipToCurrent>到當前文件夾</CommandUnzipToCurrent>
+  <MessageUnzipToFolder>鍵入一個文件夾的名稱，以解開這</MessageUnzipToFolder>
+  <MessageUnzipPasswordHint>如果你知道密碼是必要的拆包，在下面的字段中輸入</MessageUnzipPasswordHint>
+  <MessageUnzipNeedPassword>需要密碼來解壓縮文件</MessageUnzipNeedPassword>
+  <ZipPasswordProtectHint>要使用密碼保護的zip壓縮包，輸入下面的字段中輸入密碼。否則，保留該字段為空</ZipPasswordProtectHint>
+  <AppendToZipPasswordProtectHint>要使用密碼保護加入到zip壓縮包中的文件，請在下面的字段中輸入密碼。否則，保留該字段為空</AppendToZipPasswordProtectHint>
+  <ZipPasswordProtectWindowTitle>與密碼歸檔</ZipPasswordProtectWindowTitle>
+  <OpenFolderAfterUnzipCheckBox>打開包裝後，打開文件夾</OpenFolderAfterUnzipCheckBox>
+  <CommandUnzipToNew>到一個新的文件夾</CommandUnzipToNew>
+  <CommandZipContents>郵編內容</CommandZipContents>
+  <ArchiveContentsTitle>歸檔內容“{0}”</ArchiveContentsTitle>
+  <CommandDownload>下載</CommandDownload>
+  <CommonDownloadAll>全部下載</CommonDownloadAll>
+  <DownloadListDragFile>您可以拖動正文件拖放到桌面</DownloadListDragFile>
+  <CommandZipDownload>壓縮和下載</CommandZipDownload>
+  <CommandView>查看在瀏覽器</CommandView>
+  <CommandDownloadOrView>下載或查看</CommandDownloadOrView>
+  <CommandPreview>圖片預覽</CommandPreview>
+  <CommandFlashPreview>Flash預覽</CommandFlashPreview>
+  <GettingSizeFlashMovie>Flash影片的大小獲取</GettingSizeFlashMovie>
+  <CommandEdit>編輯為文本文件</CommandEdit>
+  <CommandEditView>查看文本文件</CommandEditView>
+  <AceNotLoadedMessage>無法加載王牌編輯器</AceNotLoadedMessage>
+  <VideoJsNotLoadedMessage>無法加載VideoJS播放器</VideoJsNotLoadedMessage>
+  <CommandMenuEdit>編輯</CommandMenuEdit>
+  <CommandSelectAll>全選</CommandSelectAll>
+  <CommandInvertSelection>反選</CommandInvertSelection>
+  <CommandLinkToFile>鏈接到文件/文件夾</CommandLinkToFile>
+  <!--Share link-->
+  <CommandMakePublicFolder>創建公共鏈接</CommandMakePublicFolder>
+  <PublicViewInGoogle>查看在谷歌</PublicViewInGoogle>
+  <PublicViewinOWA>在OWA中查看</PublicViewinOWA>
+  <!--Make public folder (share)-->
+  <CommandViewWithGoogleDoc>查看在谷歌文檔</CommandViewWithGoogleDoc>
+  <CommandViewWithShareCad>查看ShareCad.org</CommandViewWithShareCad>
+  <CommandViewWithAutodesk>查看在Autodesk</CommandViewWithAutodesk>
+  <CommandViewWithBox>查看專欄</CommandViewWithBox>
+  <CommandViewWithOWA>查看在Office Web應用程序</CommandViewWithOWA>
+  <CommandCloudConvert>與CloudConvert轉換</CommandCloudConvert>
+  <ProgressGetCloudConvertOutputFormats>獲取輸出格式</ProgressGetCloudConvertOutputFormats>
+  <ProgressCloudConvertConverting>轉換</ProgressCloudConvertConverting>
+  <CloudConvertWindowTitle>轉換'{0}“</CloudConvertWindowTitle>
+  <CloudConvertWindowConvertButton>兌換</CloudConvertWindowConvertButton>
+  <CloudConvertWindowOutputFormatsLabel>輸出格式</CloudConvertWindowOutputFormatsLabel>
+  <CloudConvertDownloadLinkLabel>鏈接下載</CloudConvertDownloadLinkLabel>
+  <CloudConvertSaveAsLabel>另存為（擴展名會自動添加）：</CloudConvertSaveAsLabel>
+  <CloudConvertNoOutputFormats>有轉換沒有可用的格式</CloudConvertNoOutputFormats>
+  <CloudConvertNoUrlForDownload>它沒有成功接收下載鏈接</CloudConvertNoUrlForDownload>
+  <ProgressCloudConvertUploading>從CloudConvert上傳</ProgressCloudConvertUploading>
+  <CloudConvertSaveAsNameBlank>類型名稱在這裡</CloudConvertSaveAsNameBlank>
+  <CancelEditButton>取消編輯</CancelEditButton>
+  <HideButton>隱藏</HideButton>
+  <EditDocumentCancelHint>當您與編輯的文檔關閉窗口，它會自動保存進行。&lt;br /&gt;您可以隱藏按{0}（在這種情況下，文件仍然會關閉編輯後保存）對話框。&lt;br /&gt;如果不希望保存文件，按{1}（在這種情況下，編輯器窗口將被關閉）。</EditDocumentCancelHint>
+  <EditDocumentSaveHint>現在，你可以通過按{0}保存文件中的變化。注意！當您關閉編輯器窗口，它也將被自動保存。</EditDocumentSaveHint>
+  <CommandEditInMSOffice>編輯在MS Office中</CommandEditInMSOffice>
+  <CommandEditInOOo>編輯OpenOffice的中/的LibreOffice</CommandEditInOOo>
+  <CommandViewInMSOffice>鑑於微軟Office</CommandViewInMSOffice>
+  <CommandViewInOOo>鑑於OpenOffice的/ LibreOffice中</CommandViewInOOo>
+  <CommandEditInPixlr>在編輯的Pixlr</CommandEditInPixlr>
+  <CommandEditInAdobe>編輯中的Adobe Creative雲</CommandEditInAdobe>
+  <AdobeImageEditorSavedAsNewTypeMessage>在Adobe圖像編輯器改變了這個局面已被保存在格式{0}</AdobeImageEditorSavedAsNewTypeMessage>
+  <CommandEditInGoogle>編輯在谷歌驅動器</CommandEditInGoogle>
+  <EditInGoogleConvertMessage>編輯後，該文件將被轉換為格式{1} {0} {2}</EditInGoogleConvertMessage>
+  <EditInGoogleLinkError>無法獲取鏈接編輯在谷歌雲端硬盤文件</EditInGoogleLinkError>
+  <EditInGoogleWaiting>等待在谷歌驅動器編輯完成</EditInGoogleWaiting>
+  <CommandEditInMSOO>編輯在微軟Office在線</CommandEditInMSOO>
+  <EditInMSOOLinkError>無法獲取鏈接的MS Office在線編輯文檔</EditInMSOOLinkError>
+  <EditInMSOOWaiting>在MS Office Online上等待編輯完成</EditInMSOOWaiting>
+  <CommandEditInOffice365>編輯在Office 365</CommandEditInOffice365>
+  <EditInOffice365LinkError>無法獲取鏈接Office 365中編輯文檔</EditInOffice365LinkError>
+  <EditInOffice365Waiting>在Office 365中等待編輯完成</EditInOffice365Waiting>
+  <CommandSave>保存</CommandSave>
+  <CommandSaveAs>另存為...</CommandSaveAs>
+  <CommandAppRestart>重新啟動應用程序</CommandAppRestart>
+  <CommandPlayVideoFlash>在Flash播放器播放視頻</CommandPlayVideoFlash>
+  <CommandPlayVideoHtml5>播放視頻</CommandPlayVideoHtml5>
+  <CommandPlayAudioHtml5>音頻播放</CommandPlayAudioHtml5>
+  <CommandPlayVideo>播放視頻</CommandPlayVideo>
+  <CommandPlayAudio>音頻播放</CommandPlayAudio>
+  <CommandConvertVideo>轉換視頻</CommandConvertVideo>
+
+  <ViewInServiceLink>點擊此處查看文件</ViewInServiceLink>
+  <EditInServiceLink>點擊此處編輯文檔</EditInServiceLink>
+
+  <OfficeEditCopyLinkLabel>複製下面的鏈接，並在Office應用程序中打開它：</OfficeEditCopyLinkLabel>
+  <OfficeRunError>這是不可能發動{0}</OfficeRunError>
+  <BadPathToFile>這是不可能找到文件路徑</BadPathToFile>
+  <FixBasicAuthAlertTitle>注意！</FixBasicAuthAlertTitle>
+  <FixBasicAuthAlertMessage>微軟的Office適用於基本身份驗證不使用SSL！你可以解決這個問題為您的Office。欲了解更多信息，請參閱{0}。</FixBasicAuthAlertMessage>
+  <FixBasicAuthAlertCheckBoxText>不能再以顯示此對話。</FixBasicAuthAlertCheckBoxText>
+  <CommandDetails>細節</CommandDetails>
+  <CommonButtonCaptionAddDetail>添加細節</CommonButtonCaptionAddDetail>
+  <CommonButtonCaptionAddComment>添加評論</CommonButtonCaptionAddComment>
+  <DetailsWindowTitle>詳細信息“{0}”</DetailsWindowTitle>
+  <FileDetailsSave>應用更改</FileDetailsSave>
+  <FileDetailsIgnoreChanges>忽視</FileDetailsIgnoreChanges>
+  <FileDetailsCloseConfirmTitle>文件詳細信息窗口正在關閉</FileDetailsCloseConfirmTitle>
+  <FileDetailsCloseConfirmMsg>注意！這些變化尚未保存。選擇您要關閉窗口之前應用這些變化的行動。</FileDetailsCloseConfirmMsg>
+  <FileDetailsGridTitleColumn>標題</FileDetailsGridTitleColumn>
+  <FileDetailsGridAuthorColumn>最後筆者</FileDetailsGridAuthorColumn>
+  <LoadingDetailsMask>裝在細節</LoadingDetailsMask>
+  <NewDetailsTitle>新標題</NewDetailsTitle>
+  <NewDetailsValue>新細節值</NewDetailsValue>
+  <DetailsSavingMsg>節能細節</DetailsSavingMsg>
+  <ProgressLoadingEditInOffice>準備在Office編輯</ProgressLoadingEditInOffice>
+  <MenuFilterText>過濾器</MenuFilterText>
+  <EmptyTextFilter>進入過濾器...</EmptyTextFilter>
+  <AfterDateFilterText>後</AfterDateFilterText>
+  <BeforeDateFilterText>之前</BeforeDateFilterText>
+  <OnDateFilterText>上</OnDateFilterText>
+  <YesBooleanFilterText>是</YesBooleanFilterText>
+  <NoBooleanFilterText>沒有</NoBooleanFilterText>
+  <CommandEditWithZoho>編輯在百會</CommandEditWithZoho>
+  <ZohoNotSupportedFormatMessage>該擴展不支持百會。見{0}。</ZohoNotSupportedFormatMessage>
+  <ProgressLoadingEditInZoho>百會加載編輯</ProgressLoadingEditInZoho>
+  <CommandSubMenuViewAndEdit>查看/編輯</CommandSubMenuViewAndEdit>
+  <CommandSubMenuShare>分享</CommandSubMenuShare>
+  <CommandSubMenuMore>更多</CommandSubMenuMore>
+  <StopUploadingButtonText>停止</StopUploadingButtonText>
+  <SimpleUploadErrorInfo>當上傳文件（S）有一個錯誤。&lt;br /&gt;參考{0}更多信息&lt;/A&gt;</SimpleUploadErrorInfo>
+  <BalloonAbortFilesUploaded>上傳文件被終止</BalloonAbortFilesUploaded>
+  <UploadDragNDropTab>拖放</UploadDragNDropTab>
+  <UploadDragNDropTabImages>拖放+圖像</UploadDragNDropTabImages>
+  <DnDGridProgressColumn>進展</DnDGridProgressColumn>
+  <DnDFileReadingError>讀取錯誤。錯誤代碼：{0}。</DnDFileReadingError>
+  <DnDFileReadingAbort>讀數中止。錯誤代碼：{0}。</DnDFileReadingAbort>
+  <DnDFileUploadingError>上傳錯誤。 {0}</DnDFileUploadingError>
+  <DnDFileUploadingAbort>上傳中止。</DnDFileUploadingAbort>
+  
+  <CommandWebFoldersLinks>地圖Web文件夾</CommandWebFoldersLinks>
+  <CommandSyncWebFolders>與本地文件夾同步</CommandSyncWebFolders>
+  <WebFolderLinksFieldLabel>網絡文件夾鏈接</WebFolderLinksFieldLabel>
+  <WebFolderLinksForWindows64Note>按組合鍵{0}贏+ R {1}。插入{0}打開命令行：{1}字段（參見下面的命令行的例子），單擊{0} OK {1}。對於使用完全限定域名Windows身份驗證：{2}。</WebFolderLinksForWindows64Note>
+  <OpenLibreOfficeRunCommandNote>或者按組合鍵{0}贏+ R {1}，將以下命令行中的{0}打開：{1}字段，然後按{0} OK {1}</OpenLibreOfficeRunCommandNote>
+  <WebFolderLinksForMacOSNote>在“Finder”菜單，打開{0}轉到 - &gt;連接到服務器{1}。將Web文件夾中的{0}“服務器地址”{1}字段中的鏈接。點擊{0}“連接”{1}。在新對話框中選擇{0}“客人”{1}或{0}“註冊用戶”{1}（適用於Windows身份驗證）。點擊{0}“連接”{1}。</WebFolderLinksForMacOSNote>
+  <WebFolderLinksForUbuntuNote>打開{0}轉到 - &gt;位置... {1}的Web文件夾的鏈接複製到位置字段。</WebFolderLinksForUbuntuNote>
+  <LinksToWebFoldersWindowText>您可以映射您認為在您的本地操作系統的網絡驅動器文件夾。映射後，您可以使用文件就像本地的或編輯文檔中的MS Office或OpenOffice。請參閱有關如何{0}映射的幫助。</LinksToWebFoldersWindowText>
+  <CommonFileTypeNameCaption>“{0}”文件名</CommonFileTypeNameCaption>
+  <CommonFileTypeNamePrompt>輸入新的“{0}”文件名</CommonFileTypeNamePrompt>
+  
+  <PixlrEditorWindowTitle>編者的Pixlr {0}</PixlrEditorWindowTitle>
+  <PixlrSaveImageSuccessMessage>圖像“{0}”已成功保存。刷新列表中，如果您用新的名稱保存圖像。</PixlrSaveImageSuccessMessage>
+  <CommonFileImageNewName>新圖片</CommonFileImageNewName>
+  <CommandChangeTheme>改變主題</CommandChangeTheme>
+  
+  <CommandHelp>幫幫我</CommandHelp>
+
+  <OpeningShortcutProgress>開幕式快捷鍵</OpeningShortcutProgress>
+  <CommandCreateShortcut>快捷方式（符號鏈接）</CommandCreateShortcut>
+  <ShortcutNameHint>快捷方式名稱</ShortcutNameHint>
+  <ShortcutTargetPathHint>目標路徑</ShortcutTargetPathHint>
+  <CreateShortcutButtonTitle>創建</CreateShortcutButtonTitle>
+  <CreatingShortcutProgress>創建快捷方式</CreatingShortcutProgress>
+  <CreateShortcutSuccessMessage>快捷方式“{0}”為已成功創建“{1}”。</CreateShortcutSuccessMessage>
+
+  <OpeningInternetShortcutProgress>打開Internet快捷方式</OpeningInternetShortcutProgress>
+  <InternetShortcutNotValidMsg>該Internet快捷方式的目標URL無效</InternetShortcutNotValidMsg>
+  <InternetShortcutWindowTitle>轉到鏈接</InternetShortcutWindowTitle>
+  
+  <CommandVersioning>版本</CommandVersioning>
+  <CommandVersionHistory>版本歷史記錄</CommandVersionHistory>
+  <CommandCheckOut>查看</CommandCheckOut>
+  <CommandCheckIn>報到</CommandCheckIn>
+  <CommandUndoCheckOut>取消簽出</CommandUndoCheckOut>
+  <VersionHistoryObtainingMessage>獲取版本歷史記錄</VersionHistoryObtainingMessage>
+  <NoVersionHistoryMessage>所選文件的版本歷史記錄不存在</NoVersionHistoryMessage>
+  <FileIsCheckedOutMessage>文件“{0}”已簽出由用戶“{1}”{2}</FileIsCheckedOutMessage>
+  <CheckingOutMessage>檢出</CheckingOutMessage>
+  <SuccessfullyCheckedOutMessage>文件“{0}”成功由用戶簽出“{1}”</SuccessfullyCheckedOutMessage>
+  <FileIsNotCheckedOutMessage>文件“{0}”尚未簽出尚未</FileIsNotCheckedOutMessage>
+  <FileIsCheckedOutOtherUserMessage>文件“{0}”被另一個用戶簽出“{1}”{2}。</FileIsCheckedOutOtherUserMessage>
+  <FileUndoCheckOutForbiddenMessage>您不能取消檢查由其他用戶進行應用。</FileUndoCheckOutForbiddenMessage>
+  <FileCheckInForbiddenMessage>您無法簽入已由其他用戶簽出的文件。</FileCheckInForbiddenMessage>
+  <FileUndoCheckOutConfirmMessage>如果您取消退房，應用於文檔的更改將不會保存！你確定要取消退房？</FileUndoCheckOutConfirmMessage>
+  <FileVersionDeleteConfirmTitle>的文件版本刪除</FileVersionDeleteConfirmTitle>
+  <FileVersionDeleteConfirmMessage>你確定要刪除的文件的選定版本？</FileVersionDeleteConfirmMessage>
+  <FileVersionRestoreConfirmTitle>的文件版本恢復</FileVersionRestoreConfirmTitle>
+  <FileVersionRestoreConfirmMessage>你確定要恢復的文件選擇的版本？{0}如果有，請在所選擇的版本將被保存到文件中。如果不改變（或設置為空值）離開這個值選定的版本將替換所選文件（該文件的以前的內容將被添加到歷史版本）{1}文件名：</FileVersionRestoreConfirmMessage>
+  <UndoCheckingOutMessage>取消簽出</UndoCheckingOutMessage>
+  <SuccessfullyUndoCheckedOutMessage>簽出一個文件取消“{0}”已成功完成。</SuccessfullyUndoCheckedOutMessage>
+  <SuccessfullyCheckedInMessage>文件“{0}”成功由用戶簽入“{1}”</SuccessfullyCheckedInMessage>
+  <CheckingInMessage>在檢查</CheckingInMessage>
+  <VersionHistoryTitle>文件版本“{0}”</VersionHistoryTitle>
+  <VersionHistoryGridNumberColumn>版本。</VersionHistoryGridNumberColumn>
+  <VersionHistoryGridNotesColumn>筆記</VersionHistoryGridNotesColumn>
+  <CommandRestoreVersion>恢復</CommandRestoreVersion>
+  <ProgressPrepareDownloadOldVersion>準備舊版本下載</ProgressPrepareDownloadOldVersion>
+  <FileVersionNotFoundMessage>選定的文件版本沒有被發現。</FileVersionNotFoundMessage>
+  <ProgressDeletingVersion>刪除版本</ProgressDeletingVersion>
+  <ProgressRestoringVersion>版本恢復</ProgressRestoringVersion>
+  <FileNeedCheckInMessage>請檢查或取消檢查出所選的文件，然後再試一次。</FileNeedCheckInMessage>
+  <FileCheckedOutEditForbiddenMessage>您不能修改/重命名/移動/刪除文件“{0}”，而正在被用戶簽出它“{1}”{2}</FileCheckedOutEditForbiddenMessage>
+  <FileUploadCheckInLabel>您可以檢查，在選定的文件或上傳文件的新版本（使用下面的上傳表單）。如果你想從選定的文件創建一個新的版本，這裡就不上傳任何文件。</FileUploadCheckInLabel>
+  <FileUploadCheckInInvalidFileName>上傳文件的文件名應該是完全一樣的選擇文件的名稱</FileUploadCheckInInvalidFileName>
+  <CheckOutVersionNotes>這個版本已經自動創建</CheckOutVersionNotes>
+  <RestoreVersionNotes>從版本恢復後自動此版本已創建{0}的用戶“{1}”</RestoreVersionNotes>
+  <IsCheckedOutHint>該文件已簽出</IsCheckedOutHint>
+  <ExistsOldVersionsHint>該文件有其他版本</ExistsOldVersionsHint>
+  <IsLockedHint>該文件被鎖定</IsLockedHint>
+  <FileWasCreatedHint>已創建{0}前</FileWasCreatedHint>
+  <FileWasModifiedHint>已更改{0}前</FileWasModifiedHint>
+  <CommonChangedAgo>{0}前</CommonChangedAgo>
+  <DaysShort>ð</DaysShort>
+  <HoursShort>H</HoursShort>
+  <MinutesShort>米</MinutesShort>
+  <FileContainsMetaDataHint>包含了一些細節（元數據）</FileContainsMetaDataHint>
+  <FileMetaDataCaptionMobile>元數據</FileMetaDataCaptionMobile>
+
+  <ExistsPublicLinksFileHint>該文件具有公共鏈接</ExistsPublicLinksFileHint>
+  <ExistsPublicLinksFolderHint>該文件夾的公共鏈接</ExistsPublicLinksFolderHint>
+  <PublicLinkNotFound>公共鏈接“{0}”未找到</PublicLinkNotFound>
+
+  <PublicLinksDeleteWindowTitle>刪除公共鏈接（S）</PublicLinksDeleteWindowTitle>
+  <PublicLinksDeleteLinkButton>刪除鏈接</PublicLinksDeleteLinkButton>
+  <PublicLinksDeleteConfirmMsg>你確定要刪除所選的公共鏈接？</PublicLinksDeleteConfirmMsg>
+  <PublicLinksDeleteSingleConfirmMsg>你確定要刪除此鏈接？</PublicLinksDeleteSingleConfirmMsg>
+
+  <DetailsMultiValue>（多值）</DetailsMultiValue>
+
+  <GridBottomFilesSizeInfo>選擇：{0} / {1}，</GridBottomFilesSizeInfo>
+  <GridBottomFilesFoldersInfo>文件：{0} / {1}，文件夾：{2} / {3}</GridBottomFilesFoldersInfo>
+
+  <AmountOfDownloadingsFile>下載</AmountOfDownloadingsFile>
+
+  <CookiesDisabledMessage>您的瀏覽器的cookie功能被關閉。請打開它，並重新啟動瀏覽器。</CookiesDisabledMessage>
+
+  <CommandSendEmail>發電子郵件</CommandSendEmail>
+  <CommandSendWithGmail>使用Gmail發送</CommandSendWithGmail>
+  <CommandSendWithOutlook>發送與Outlook</CommandSendWithOutlook>
+  <SendEmailTo>至</SendEmailTo>
+  <SendEmailBulkMailingListHint>&lt;b&gt;郵件列表&lt;/b&gt; &lt;br /&gt;您可以指定全組發送電子郵件</SendEmailBulkMailingListHint>
+  <SendEmailBulkMailingListWindowTitle>您的電子郵件接收器選擇</SendEmailBulkMailingListWindowTitle>
+  <SendEmailEmptyMailingListMessage>郵件列表是空的</SendEmailEmptyMailingListMessage>
+  <SendEmailSenderEmail>發件人的電子郵件</SendEmailSenderEmail>
+  <SendEmailSubject>學科</SendEmailSubject>
+  <SendEmailFilesAsLinksTo>發送鏈接選定的文件</SendEmailFilesAsLinksTo>
+  <SendEmailFilesAsAttachements>發送選定的文件作為附件</SendEmailFilesAsAttachements>
+  <SendEmailSend>發送</SendEmailSend>
+  <SendEmailProgressMessage>發送電子郵件</SendEmailProgressMessage>
+  <GettingMailingListProgressMessage>獲取郵件列表</GettingMailingListProgressMessage>
+  <SendEmailSuccessMessage>電子郵件已成功發送。</SendEmailSuccessMessage>
+  <SendEmailResultsMessage>發送：{0}。&lt;br /&gt;失敗：{1} {2}。</SendEmailResultsMessage>
+  <SmtpServerSettingsIncorrect>在SMTP服務器選項是空的或不正確</SmtpServerSettingsIncorrect>
+  <FromEmailIncorrect>發件人的電子郵件地址不正確或空</FromEmailIncorrect>
+  <ToEmailIncorrect>在對方的電子郵件地址不正確或為空</ToEmailIncorrect>
+  <EmailSubjectEmpty>未指定電子郵件的主題是</EmailSubjectEmpty>
+  <UploadFromUrlTab>從網址</UploadFromUrlTab>
+  <UploadFromUrlFieldLabel>URL（HTTP或FTP單個文件）</UploadFromUrlFieldLabel>
+  <UploadFromUrlProgressTitle>從URL上傳</UploadFromUrlProgressTitle>
+  <UploadFromUrlMsg>從網址上傳</UploadFromUrlMsg>
+  <UploadFromUrlSuccessMsg>文件“{0}”已經成功地從上傳“{1}”</UploadFromUrlSuccessMsg>
+  <UploadFromUrlUnknownResponse>來自服務器的響應未識別</UploadFromUrlUnknownResponse>
+  <UploadFromUrlEmptyFileName>上傳文件的名稱為空</UploadFromUrlEmptyFileName>
+  <UploadFromUrlFileName>用名稱保存（留空從URL中使用的名稱）</UploadFromUrlFileName>
+  <UploadFromUrlFileNameMobile>保存名稱</UploadFromUrlFileNameMobile>
+  
+  <!-- Common Clouds keys -->  
+  <CloudAuthenticateMessage>您必須在{0}登錄。點擊“{1}”的鏈接，你會被重定向到登錄表單。 {2}更多信息。{3}</CloudAuthenticateMessage>
+  <CloudAuthenticateLink>與驗證{0}</CloudAuthenticateLink>  
+  <CloudDownloadingMessage>下載到{0}</CloudDownloadingMessage>
+  <CloudAuthWarningMessage>如果操作還沒有發生，請關閉此窗口，然後再次點擊“{0}”鏈接。</CloudAuthWarningMessage>
+  <CloudAuthEmptyInvalidMessage>{0}訪問令牌是空的或無效的。請重新進行身份驗證。</CloudAuthEmptyInvalidMessage>
+  <CloudDownloadEndMessageTitle>下載完成</CloudDownloadEndMessageTitle>
+  <CloudDownloadFilesSuccessMessage>{0}文件（S）成功下載到“{1}”{2}文件夾。</CloudDownloadFilesSuccessMessage>
+  <CloudNotDownloadedFilesMessage>{0}文件（S）未下載：</CloudNotDownloadedFilesMessage>
+  <CloudFoldersCreatedSuccessMessage>{0}文件夾（S）在“{1}”{2}文件夾創建成功。</CloudFoldersCreatedSuccessMessage>
+  <CloudNotFoldersCreatedMessage>{0}文件夾（S）未創建：</CloudNotFoldersCreatedMessage>
+  <CloudFilesFoldersSuccessMessage>{0}文件（S），{1}文件夾（S）成功下載到“{2}”{3}文件夾。</CloudFilesFoldersSuccessMessage>
+  <CloudNotFilesFoldersDownloadedMessage>{0}文件（S），{1}文件夾（S）未下載：</CloudNotFilesFoldersDownloadedMessage>
+  <CloudLinkText>訪問{0}</CloudLinkText>
+  <CloudLinkDescription>轉到{0}頁</CloudLinkDescription>
+  <CloudRootFolderName>&lt;b&gt; {0}根文件夾&lt;/b&gt;</CloudRootFolderName>
+  <CloudCheckFolerMessage>請檢查單{0}文件夾繼續。</CloudCheckFolerMessage>
+  <CloudSelectFolderMessage>請選擇{0}文件夾繼續。</CloudSelectFolderMessage>
+  <CloudGetFoldersInfoProgressMessage>加載{0}文件夾信息</CloudGetFoldersInfoProgressMessage>
+  <CloudGetItemsInfoProgressMessage>加載{0}項目信息</CloudGetItemsInfoProgressMessage>
+  <CloudUploadSelectItemsMessage>請選擇{0}項繼續。</CloudUploadSelectItemsMessage>
+  <CloudUploadTotalFiles>文件總數：{0}（{1}）</CloudUploadTotalFiles>
+  <CloudUploadProgressMessage>從上傳{0}</CloudUploadProgressMessage>
+  <CloudSignInAsDifferentUserText>從註銷{0}</CloudSignInAsDifferentUserText>
+  <CloudLogoutProgressMsg>從註銷{0}</CloudLogoutProgressMsg>
+  <CloudRevokeTokenMsg>撤銷令牌</CloudRevokeTokenMsg>
+  <CloudRefreshTokenMsg>清爽令牌</CloudRefreshTokenMsg>
+  <CloudAuthNotCompleteMsg>驗證未完成。&lt;br /&gt;請</CloudAuthNotCompleteMsg>
+  <CloudTrustedSitesMsg> 檢查按照“受信任的站點”列表的網站：&lt;br /&gt; &lt;br /&gt;</CloudTrustedSitesMsg>
+  <TrustedSitesForMicrosoftEdge>如果你正在使用微軟的邊緣，然後檢查Internet Explorer中的受信任的站點</TrustedSitesForMicrosoftEdge>
+  <CloudCheckAuthMsg>檢查{0}認證</CloudCheckAuthMsg>
+  <CloudLoadMsg>加載{0}</CloudLoadMsg>
+  <CloudFreeSpaceError>沒有足夠的空間{2}上傳的文件。好：{0}。文件大小：{1}。</CloudFreeSpaceError>
+  <CloudFreeSpaceExceeded>沒有足夠的空間{0}</CloudFreeSpaceExceeded>
+  <CloudExceedFileSizeError>您要下載的文件有{1}的文件大小，這比下載所允許的最大尺寸更大 -  {0}。</CloudExceedFileSizeError>
+  <CloudFolderNotFound>找不到目錄。也許它已被刪除</CloudFolderNotFound>
+  <CloudFileNotFound>文件未找到。也許它已被刪除</CloudFileNotFound>
+  <CloudNoFoldersMessage>有沒有文件夾顯示</CloudNoFoldersMessage>
+  <CloudLibraryNotLoadedMsg>{0}客戶端庫不裝！&lt;br /&gt;請檢查連接互聯網和或刷新頁面。&lt;br /&gt;同時</CloudLibraryNotLoadedMsg>
+  <CloudDownloadWithNewNames>在與新名稱下載的文件（S）：</CloudDownloadWithNewNames>
+
+  <!-- Google Drive Cloud keys -->
+  <CommandDownloadToGoogleDocs>下載到谷歌驅動器</CommandDownloadToGoogleDocs>
+  <GoogleDocsSaveAs>另存為：</GoogleDocsSaveAs>
+  <GoogleDocsSaveAsTitle>保存“{0}”為...</GoogleDocsSaveAsTitle>
+  <GoogleDocsDownloadEndWarningMessage>如果你不能看到你的谷歌雲端硬盤帳戶上傳的文件，等待幾秒鐘，刷新谷歌驅動器列表。</GoogleDocsDownloadEndWarningMessage>
+  <GoogleDriveUploadNoFilesMessage>在谷歌驅動器中沒有文件上傳</GoogleDriveUploadNoFilesMessage>
+  <GoogleDriveMaxUploadSizeError>對於內容類型“{0}”{1}超出上載的最大尺寸。</GoogleDriveMaxUploadSizeError>
+  <GoogleDriveConvertMsg>如果可能的話，文件轉換成谷歌文檔格式。 {0}更多信息{1}。</GoogleDriveConvertMsg>
+
+  <!-- Box Cloud keys -->
+  <CommandDownloadToBox>下載到框</CommandDownloadToBox>
+  <BoxDownloadWithNewNames>下列文件（S）在新版本進行了更新：</BoxDownloadWithNewNames>
+  <BoxNoViewPermission>您沒有權限查看所選目錄</BoxNoViewPermission>
+  <BoxNoDownloadPermission>您沒有權限下載</BoxNoDownloadPermission>
+  <BoxNoUploadPermission>您沒有權限上傳</BoxNoUploadPermission>
+  <BoxUnableCreateOrInfoError>無法創建或獲取信息</BoxUnableCreateOrInfoError>
+  
+  <!-- Dropbox Cloud keys -->
+  <CommandDownloadToDropbox>下載到Dropbox的</CommandDownloadToDropbox>
+  
+  <!-- OneDrive Cloud keys -->
+  <CommandDownloadToSkyDrive>下載到OneDrive</CommandDownloadToSkyDrive>
+  <AuthenticateOAuthSkyDriveMessageShort>您必須登錄到Microsoft Live帳戶。</AuthenticateOAuthSkyDriveMessageShort>
+  <SkyDriveAuthAlsoString>也</SkyDriveAuthAlsoString>
+  <SkyDriveLoginButtonTitle>登錄</SkyDriveLoginButtonTitle>
+  <SkyDriveRegistryMessage>還沒有一個Windows Live ID？ {0}註冊... {1}</SkyDriveRegistryMessage>
+  <SkyDriveMapRootFolder>注意！您可以{0}圖{1}您的OneDrive文件夾中。 Path是</SkyDriveMapRootFolder>
+  <SkyDriveMoreInfoLink>{0}有關OneDrive（SkyDrive的）更多信息{1}</SkyDriveMoreInfoLink>
+  <OneDriveMaxUploadSizeError>（{0}）超出允許尺寸上傳的文件：{1}</OneDriveMaxUploadSizeError>
+  <!-- OneDrive for Business -->
+  <OneDriveForBusinessMapWebFolderInfo>&lt;b&gt;注意！&lt;/b&gt;在此位置打開文件之前，必須先在網站添加到您的受信任站點列表，瀏覽到網站，並選擇選項自動登錄（在IE瀏覽器）。</OneDriveForBusinessMapWebFolderInfo>
+  
+  <UploadFromUrlLabelText>可以指定存儲在全局文件服務器或類似的文件共享服務的文件的URL {0}，{1}，{2}，{3}，{4}。</UploadFromUrlLabelText>
+  <UploadFromUrlLabelTextMobile>指定文件的URL</UploadFromUrlLabelTextMobile>
+
+  <LinkToFileTitle>鏈接到文件/文件夾</LinkToFileTitle>
+  <LinkToFileWarningAnonym>此鏈接提供該文件的匿名訪問。任何用戶，即使是一個有沒有考慮在這個網站，可以下載或通過公共鏈接上傳文件。公開連結到一個文件，您可以下載一個選定的文件。 {0}更多信息{1}。</LinkToFileWarningAnonym>
+  <LinkToFileDownloadFileLink>此鏈接可以下載從{1}選擇的文件{0}。你需要一個有效的帳戶才能使用此鏈接。它不提供對文件的匿名訪問。</LinkToFileDownloadFileLink>
+  <LinkToFileExpireDate>截止日期</LinkToFileExpireDate>
+  <LinkToFileDownloadCnt>下載次數限制</LinkToFileDownloadCnt>
+  <LinkToFileDownloadType>鏈接類型</LinkToFileDownloadType>
+  <LinkToFileGenerate>創建鏈接</LinkToFileGenerate>
+  <LinkToFilePasswordNotMatch>密碼不匹配</LinkToFilePasswordNotMatch>
+  <LinkToFilePasswordRequired>為公眾鏈接時需要輸入密碼</LinkToFilePasswordRequired>
+  <LinkToFileInvalidForm>參數無效</LinkToFileInvalidForm>
+  <LinkToFileAnonymDownloadLinkHint>公共鏈接“{0}”：</LinkToFileAnonymDownloadLinkHint>
+  <LinkToFileAnonymDownloadShortLinkHint>短公眾鏈接“{0}”：</LinkToFileAnonymDownloadShortLinkHint>
+  <LinkToFileOpenFolderLink>此鏈接可以打開{1}所選文件夾{0}。你需要一個有效的帳戶才能使用此鏈接。它不提供到該文件夾的匿名訪問。</LinkToFileOpenFolderLink>
+  <LinkToFileOpenFileLink>此鏈接打開的文件夾與文件並突出顯示它</LinkToFileOpenFileLink>
+  <LinkToFileDaysLeft>左天</LinkToFileDaysLeft>
+  <LinkToFileCaptionMobile>公共鏈接</LinkToFileCaptionMobile>
+
+  <PublicFolderLinkHint>公共鏈接到文件夾“{0}”：</PublicFolderLinkHint>
+  <PublicFolderShortLinkHint>短公開連結文件夾“{0}”：</PublicFolderShortLinkHint>
+  <PublicFolderLinkDownloadZipHint>下載鏈接文件夾的壓縮檔案“{0}”：</PublicFolderLinkDownloadZipHint>
+  <PublicFolderLinkShortDownloadZipHint>短期下載鏈接文件夾的壓縮檔案“{0}”：</PublicFolderLinkShortDownloadZipHint>
+  <PublicFolderLinkZipDownload>壓縮和下載當前文件夾{0}（在一個ZIP壓縮包）</PublicFolderLinkZipDownload>
+  <PublicFolderLinkOverwriteWhileUpload>覆蓋現有</PublicFolderLinkOverwriteWhileUpload>
+  <PublicFolderLinkOpenFolderHint>打開文件夾</PublicFolderLinkOpenFolderHint>
+  <PublicFolderDownloadDisabledNote>注意！此文件夾的所有者已經禁止從該文件夾下載文件。</PublicFolderDownloadDisabledNote>
+  <PublicFolderLinkSendEmails>發送信息有關訪問者的活動，以電子郵件</PublicFolderLinkSendEmails>
+  <PublicFolderAnonymAccessControl>訪問控制</PublicFolderAnonymAccessControl>
+  <PublicFolderAnonymDownload>下載文件</PublicFolderAnonymDownload>
+  <PublicFolderAnonymZipDownload>下載文件夾（ZIP）</PublicFolderAnonymZipDownload>
+  <PublicFolderAnonymUpload>上傳</PublicFolderAnonymUpload>
+  <PublicFolderAnonymViewContent>查看文件列表</PublicFolderAnonymViewContent>
+  <PublicFolderNoteForUsers>注意用戶</PublicFolderNoteForUsers>
+  <PublicFolderACLNotSet>訪問控制未設置</PublicFolderACLNotSet>
+  <PublicFolderWarningAnonym>此鏈接提供的文件夾匿名訪問。任何用戶，即使是一個有沒有考慮在這個網站，可以下載或通過公共鏈接上傳文件。公共鏈接到該文件夾，您可以同時下載整個文件夾（裝在檔案）和單獨的文件。 {0}更多信息{1}。</PublicFolderWarningAnonym>
+  <PublicLinksShowForAllItems>顯示所有</PublicLinksShowForAllItems>
+  <PublicLinksShowForSelected>顯示所選</PublicLinksShowForSelected>
+  
+  <MultipleFileInputMessage>注意！您的瀏覽器支持同時多個文件的選擇。</MultipleFileInputMessage>
+  <UploadZipUnzipNote>您可以上傳多個文件和文件夾的zip壓縮文件，然後在上下文菜單中使用“{0}”命令解壓。</UploadZipUnzipNote>
+  <DnDFileUploadingStatusCode>狀態代碼</DnDFileUploadingStatusCode>
+  <DnDFileUploadingPathOrNameEmpty>未指定的路徑和-或文件名</DnDFileUploadingPathOrNameEmpty>
+  <DnDFileUploadingRemoveFromList>從列表中刪除</DnDFileUploadingRemoveFromList>
+  <DndFileUploadingDontDropFoldersMsg>您可以將文件拖放到下面的表中。不能刪除文件夾。</DndFileUploadingDontDropFoldersMsg>
+  <DndFileUploadingAllowDropFoldersMsg>您可以拖放文件和文件夾到下面的表中。</DndFileUploadingAllowDropFoldersMsg>
+  <DndFileUploadingFilesSummaryInfo>文件數：{0}（{1}）</DndFileUploadingFilesSummaryInfo>
+  <DropFilesHere>拖放文件上傳</DropFilesHere>
+  
+  <FileGridDownloadColumn>下載文件</FileGridDownloadColumn>
+  <FileAttributesField>屬性</FileAttributesField>
+  <FolderCalculateSize>計算</FolderCalculateSize>
+  <FolderRecalculateSize>重新計算</FolderRecalculateSize>
+  <FolderContainsField>包含</FolderContainsField>
+  <FolderContainsFilesFolders>{0}文件，{1}文件夾</FolderContainsFilesFolders>
+  <FolderCalculatingMessage>計算</FolderCalculatingMessage>
+
+  <SearchTitle>文件搜索。可用模式：{0}</SearchTitle>
+  <SearchType>搜索</SearchType>
+  <SearchOnlyFiles>只有文件</SearchOnlyFiles>
+  <SearchOnlyFolders>只有文件夾</SearchOnlyFolders>
+  <SearchBothFilesFolders>這兩個文件和文件夾</SearchBothFilesFolders>
+  <SearchFileDetails>文件詳細信息</SearchFileDetails>
+  <SearchFileContent>文件內容</SearchFileContent>
+  <SearchByDateFrom>從</SearchByDateFrom>
+  <SearchByDateTo>至</SearchByDateTo>
+  <SearchLocation>位置</SearchLocation>
+  <SearchLocationEntire>隨地</SearchLocationEntire>
+  <SearchLocationCurrent>當前</SearchLocationCurrent>
+  <SearchSearch>搜索</SearchSearch>
+  <SearchNothingFound>沒有被發現！請改進搜索標準。</SearchNothingFound>
+  <SearchErrorCaption>搜索錯誤</SearchErrorCaption>
+  <SearchResultsNotComplete>注意！因為某些文件夾尚未建立索引的搜索結果可能是不完整的。</SearchResultsNotComplete>
+  <SearchRepeatOrContactAdmin>請稍後重新嘗試搜索或與管理員聯繫。</SearchRepeatOrContactAdmin>
+  <SearchLinkToManual>請參閱{0} Windows搜索幫助{1}</SearchLinkToManual>
+  <QuerySearchByNameText>按名稱搜索</QuerySearchByNameText>
+  <QuerySearchByConentText>按內容</QuerySearchByConentText>
+  <SearchByDetailsWarning>注意！你，你想用按屬性搜索設置中指定。在這種情況下，搜索將使用標準方法，而不是使用Windows索引服務來進行。</SearchByDetailsWarning>
+  <SearchInSpecialFolderWarning>注意！若要搜索當前文件夾中不適用。如果繼續，搜索將所有目錄中進行。</SearchInSpecialFolderWarning>
+
+  <UploadTitle>多個文件上傳</UploadTitle>
+  <UploadSimpleTab>標準</UploadSimpleTab>
+  <UploadSimpleReset>重啟</UploadSimpleReset>
+  <UploadSimpleUpload>上傳</UploadSimpleUpload>
+  <UploadSimpleUploadFolderLabelCollapsed>上傳文件夾</UploadSimpleUploadFolderLabelCollapsed>
+  <UploadSimpleUploadFolderButtonText>選擇文件夾</UploadSimpleUploadFolderButtonText>
+  <UploadJavaTab>Java的</UploadJavaTab>
+  <UploadJavaIgnorePaths>將所有的文件一個文件夾中（忽略路徑）</UploadJavaIgnorePaths>
+  <UploadFlashTab>閃</UploadFlashTab>
+  <UploadSilverlightTab>Silverlight的</UploadSilverlightTab>
+  <UploadPartially>某些文件無法上傳</UploadPartially>
+  <UploadFolderNotSelectedTitle>文件夾未選中</UploadFolderNotSelectedTitle>
+  <UploadFolderNotSelected>請選擇該文件將被上傳到文件夾</UploadFolderNotSelected>
+  <UploadInProgress>上傳您的文件</UploadInProgress>
+  <UploadInvalidFormFields>表單域可能無法與無效值提交</UploadInvalidFormFields>
+  <UploadAjaxFailed>阿賈克斯通信失敗</UploadAjaxFailed>
+  <UploadFilesAlreadyExists>文件（S）已經存在</UploadFilesAlreadyExists>
+  <UploadOverwriteFiles>現有文件將被覆蓋。你想繼續嗎？</UploadOverwriteFiles>
+  <UploadOverwriteOrRenameFiles>有一個或多個文件與指定的目錄中的匹配名字。是否要覆蓋現有文件？點擊“{0}”，如果要覆蓋已經存在的文件，或者“{1}” - 如果你想保存的所有文件（它們將被重命名）。</UploadOverwriteOrRenameFiles>
+  <UploadNotModifyExistingFiles>有一個或多個文件與指定的目錄名稱匹配。該文件無法上傳。請從上傳列表中刪除現有的文件或重命名。</UploadNotModifyExistingFiles>
+  <UploadRenamedExistingFiles>有一個或多個文件與指定的目錄名稱匹配。名稱匹配的文件將被重新命名。</UploadRenamedExistingFiles>
+  <UploadNotAllowedTitle>上傳是不允許的</UploadNotAllowedTitle>
+  <UploadNotAllowedPrompt>你不能上傳文件到這個文件夾</UploadNotAllowedPrompt>
+
+  <UploadMobileIOSVideo>上傳視頻。如果您需要上傳視頻文件，啟用該選項。</UploadMobileIOSVideo>
+  <UploadMobileAurigmaLink>請注意，你應該有Aurigma起來！安裝在設備上才能上傳文件。點擊這裡安裝Aurigma起來！申請上傳圖片和視頻。</UploadMobileAurigmaLink>
+  <UploadMobileAurigmaReady>Aurigma後！安裝或者您已經安裝，請按下面的“上傳”按鈕。</UploadMobileAurigmaReady>
+  <UploadMobileAurigmaFilePrefix>前綴上傳的文件</UploadMobileAurigmaFilePrefix>
+  <UploadMobileResult>上傳的結果：</UploadMobileResult>
+  <UploadMobileUrlPlaceHolder>在此輸入網址</UploadMobileUrlPlaceHolder>
+  <UploadMobileFileNamePlaceHolder>在此輸入新的文件名</UploadMobileFileNamePlaceHolder>
+  <UploadBrowseLabel>瀏覽...</UploadBrowseLabel>
+  
+  <MobileToolTipsCaption>你知道嗎 ...</MobileToolTipsCaption>
+  <MobileToolTipsNextButton>下一個提示</MobileToolTipsNextButton>
+  <MobileToolTipsIKnowButton>我知道</MobileToolTipsIKnowButton>
+  <MobileToolTipsHideButton>從不顯示</MobileToolTipsHideButton>
+  <MobileToolTipsMultiSelection>要選擇多個文件或文件夾，您應該通過點擊在&lt;b&gt; {0} &lt;/b&gt;按鈕啟用多選擇模式。再次點擊它從多選模式中退出。</MobileToolTipsMultiSelection>
+  <MobileToolTipsSlideToRemove>您可以從右側滑動至左側任意列表項將其刪除。內聯刪除按鈕將列表項的頂部顯示。</MobileToolTipsSlideToRemove>
+  <MobileToolTipsTapAndHoldForMenu>點擊並按住任意列表項顯示上下文菜單。通過輕按“披露”按鈕顯示相同的上下文菜單</MobileToolTipsTapAndHoldForMenu>
+  <MobileToolTipsDoubleTapForPreview>在文件只需輕輕將其選中，雙擊預覽或下載。在文件夾只需輕輕將其打開。</MobileToolTipsDoubleTapForPreview>
+  <MobileToolTipsPullDownToRefresh>下拉列表中重新加載它的內容。</MobileToolTipsPullDownToRefresh>
+  <MobileToolTipsPinchToScale>您可以使用“捏”的手勢進行放大和縮小出圖像。</MobileToolTipsPinchToScale>
+  <MobileToolTipsTapToHideBars>任何地方點擊圖像面板上切換工具欄。</MobileToolTipsTapToHideBars>
+  <MobileToolTipsSlideLeftRightToNext>切換圖像採用滑蓋的姿態。</MobileToolTipsSlideLeftRightToNext>
+
+  <DownloadToCloudMobileTip>單一的水龍頭，選擇文件夾，雙擊打開它。</DownloadToCloudMobileTip>
+  
+  <UploadTotalMaxSizeMessage>注意！所有上傳的文件的最大尺寸不能超過{0}。</UploadTotalMaxSizeMessage>
+  <UploadOneFileMaxSizeMessage>注意！每個上傳文件的最大尺寸不能超過{0}。</UploadOneFileMaxSizeMessage>
+  <UploadUnlimitedSizeMessage>注意！上傳的文件大小是無限的。</UploadUnlimitedSizeMessage>
+  <SimpleUploadSetFileNameNote>筆記2！選中文件後，您可以修改該文件將上傳後的名字</SimpleUploadSetFileNameNote>
+
+  <AnonymousUploadTitle>上傳文件到這個文件夾</AnonymousUploadTitle>
+  <AnonymousUploadDescription>您可以將文件上傳到該文件夾。點擊“瀏覽”按鈕下，選擇文件。</AnonymousUploadDescription>
+  <AnonymousUploadOverwriteHint>如果上傳的文件已經存在，它會被替換。</AnonymousUploadOverwriteHint>
+  <AnonymousUploadShowUploadHint>顯示上傳表單</AnonymousUploadShowUploadHint>
+  <AnonymousUploadHideUploadHint>隱藏上傳表單</AnonymousUploadHideUploadHint>
+  <AnonymousUploadNewFolderNameHint>在現場下面你可以指定一個子目錄名稱（如果它不存在的文件夾將創建），其中文件將被上傳：</AnonymousUploadNewFolderNameHint>
+  <AnonymousUploadCompleteTitle>上傳到該文件夾{0}完成</AnonymousUploadCompleteTitle>
+  <AnonymousUploadExistsFilesMessage>下列文件（S）尚未上傳因為文件（S）具有相同名稱（多個）已經存在：{0}。</AnonymousUploadExistsFilesMessage>
+  <AnonymousUploadOwnersNote>從文件夾所有者注意</AnonymousUploadOwnersNote>
+  <AnonymousDownloadPageTitle>下載文件</AnonymousDownloadPageTitle>
+  <AnonymousDownloadFileHint>下載文件</AnonymousDownloadFileHint>
+  <AnonymousUploadPageTitle>上傳到文件夾</AnonymousUploadPageTitle>
+  <AnonymousPublicFolderPageTitle>公用文件夾</AnonymousPublicFolderPageTitle>
+  <AnonymousLoginAccessUserFailure>你登錄不具有訪問資源的帳戶。為您的訪問，請輸入其他憑證。如果你不認識他們，請與公共鏈接或管理員的所有者。</AnonymousLoginAccessUserFailure>
+  <ProgressGettingAnonymLink>公共鏈接創建</ProgressGettingAnonymLink>
+  <ProgressGettingAnonymLinks>獲取匿名鏈接</ProgressGettingAnonymLinks>
+  <ProgressGettingBoxViewLink>獲取箱查看鏈接</ProgressGettingBoxViewLink>
+  <AutodeskScriptNotIncludedMessage>無法加載器的Autodesk腳本</AutodeskScriptNotIncludedMessage>
+  <ProgressUninitializeAutodeskViewer>關閉瀏覽器歐特克</ProgressUninitializeAutodeskViewer>
+  <ProgressGettingAutodeskViewLink>歐特克獲取信息查看</ProgressGettingAutodeskViewLink>
+  <AnonymousChangeLanguageHint>選擇語言</AnonymousChangeLanguageHint>
+  <AnonymousUpLinkHint>回到父文件夾</AnonymousUpLinkHint>
+  <AnonymousPasswordDescription>該文件夾密碼保護</AnonymousPasswordDescription>
+  <AnonymousPasswordIncorrectMessage>密碼不正確</AnonymousPasswordIncorrectMessage>
+  <AnonymousErrorTitle>公共鏈接錯誤</AnonymousErrorTitle>
+  <AnonymousErrorNotFound>公共鏈接“{0}”未找到！</AnonymousErrorNotFound>
+  <AnonymousErrorAccessDenied>您不必使用公共鏈接許可“{0}”</AnonymousErrorAccessDenied>
+  <AnonymousErrorFileNotFound>公共鏈接“{0}”是指不存在的文件或文件夾或NTFS讀訪問被拒絕</AnonymousErrorFileNotFound>
+  <AnonymousErrorUnknownLinkType>公共鏈接“{0}”未找到</AnonymousErrorUnknownLinkType>
+  <AnonymousSendEmailSubject>公用文件夾的訪問者活動</AnonymousSendEmailSubject>
+  <AnonymousSendEmailUploadBody>下列文件被上傳到您的公用文件夾{0}：{1}。</AnonymousSendEmailUploadBody>
+  <AnonymousSendEmailDownloadBody>文件{0}從公共文件夾{1}下載。</AnonymousSendEmailDownloadBody>
+  <AnonymousSendEmailZipDownloadBody>公用文件夾{0}的全部內容是在一個ZIP文件下載。</AnonymousSendEmailZipDownloadBody>
+  <AnonymousViewLinksButton>查看鏈接</AnonymousViewLinksButton>
+  <AnonymousViewLinksHint>要查看現有的公共鏈接</AnonymousViewLinksHint>
+  <AnonymousViewLinksWindowTitle>公共鏈接</AnonymousViewLinksWindowTitle>
+  <AnonymousViewLinksDateCreatedColumn>創建日期</AnonymousViewLinksDateCreatedColumn>
+  <AnonymousViewLinksDateExpiredColumn>截止日期</AnonymousViewLinksDateExpiredColumn>
+  <AnonymousViewLinksPermissionColumn>允許</AnonymousViewLinksPermissionColumn>
+  <AnonymousViewLinksDownloadedColumn>左下載數</AnonymousViewLinksDownloadedColumn>
+  <ProgressDeletingAnonymousLink>刪除公開鏈接</ProgressDeletingAnonymousLink>
+  <ProgressSavingAnonymousLink>節省公共鏈接</ProgressSavingAnonymousLink>
+  <AnonymousEditLinkWindowTitle>編輯公共鏈接“{0}”</AnonymousEditLinkWindowTitle>
+  <AnonymousEditLinkShowUrl>顯示鏈接</AnonymousEditLinkShowUrl>
+  <AnonymousEditLinkNotFound>公眾鏈接找不到或其有效期已過期</AnonymousEditLinkNotFound>
+
+  <AnonymousLinkSendViaButton>發送方式...</AnonymousLinkSendViaButton>
+  <AnonymousLinkSendViaEmailItem>電子郵件...</AnonymousLinkSendViaEmailItem>
+  <AnonymousLinkSendButton>通過電子郵件發送...</AnonymousLinkSendButton>
+  <AnonymousLinkSendSubject>網頁式檔案管理公共鏈接</AnonymousLinkSendSubject>
+
+  <AnonymousLinkAdvOptTitle>其他參數</AnonymousLinkAdvOptTitle>
+  <AnonymousLinkViewTypeButton>鏈接視圖</AnonymousLinkViewTypeButton>
+  <AnonymousLinkViewTypeDefault>充分</AnonymousLinkViewTypeDefault>
+  <AnonymousLinkViewTypeShort>短</AnonymousLinkViewTypeShort>
+
+  <AnonymousLinkShowCommentsLabel>展會介紹，標籤和註釋</AnonymousLinkShowCommentsLabel>
+  <AnonymousLinkShowCommentsShort>展會評論</AnonymousLinkShowCommentsShort>
+
+  <QRCodeButton>二維碼</QRCodeButton>
+
+  <AnonymousLinkLimitedAccessTitle>受限訪問</AnonymousLinkLimitedAccessTitle>
+  <AnonymousLinkLimitAccessCheckBox>只限制指定認證的用戶訪問</AnonymousLinkLimitAccessCheckBox>
+  <AnonymousLinkLimitAccessTextArea>鍵入用戶名或電子郵件（逗號分隔）</AnonymousLinkLimitAccessTextArea>
+  <AnonymousLinkLimitAccessSendCheckBox>通知發送給指定的用戶</AnonymousLinkLimitAccessSendCheckBox>
+  <AnonymousLinkLimitAccessPersMsgLabel>個人消息（可選）</AnonymousLinkLimitAccessPersMsgLabel>
+  <AnonymousLinkLimitAccessPassAndUsersMsg>您在同一時間訪問鏈接指定的密碼和用戶。請指定的東西之一。</AnonymousLinkLimitAccessPassAndUsersMsg>
+  <AnonymousLinkLimitAccessUsersNotFound>用戶：
+    {0}
+    不存在</AnonymousLinkLimitAccessUsersNotFound>
+  <AnonymousLinkLimitAccessEmailsNotFound>這些電子郵件：
+    {0}
+    不存在</AnonymousLinkLimitAccessEmailsNotFound>
+  <AnonymousLinkLimitAccessUsersEmailsNotFound>用戶：
+    {0}
+    和電子郵件：
+    {1}
+    不存在</AnonymousLinkLimitAccessUsersEmailsNotFound>
+
+  <AnonymousLinkUnableToCreate>無法創建匿名鏈接</AnonymousLinkUnableToCreate>
+  <AnonymousLinkShortUrlLabel>請點擊刷新圖標（右下角）來獲取短鏈接</AnonymousLinkShortUrlLabel>
+  <AnonymousLinkShortUrlUpdate>請下載或更新一個短鏈接</AnonymousLinkShortUrlUpdate>
+  <AnonymousLinkLongUrlNotSpecified>未指定的網址很長</AnonymousLinkLongUrlNotSpecified>
+
+  <ClientFileOrDirectoryAlreadyExists>文件或目錄名稱已經存在</ClientFileOrDirectoryAlreadyExists>
+  <ClientPermissionsAllowTypes>當前權限允許該操作僅在以下文件類型{0}</ClientPermissionsAllowTypes>
+  <ClientPermissionsDenyTypes>當前權限禁止這種操作具有下列文件類型{0}</ClientPermissionsDenyTypes>
+  <OfficeApplicationNotFoundAlert>Office應用程序未找到。打開使用文本框鏈接手動的文件。</OfficeApplicationNotFoundAlert>
+  <OfficeAnonymousEditPublicLinkError>無法創建公共鏈接以匿名方式打開Office文檔。</OfficeAnonymousEditPublicLinkError>
+
+  <GoogleOWAViewLinkMessage>要查看文檔單擊下面的鏈接：</GoogleOWAViewLinkMessage>
+  <ZohoEditLinkMessage>編輯下面的文件點擊鏈接：</ZohoEditLinkMessage>
+  <PixlrEditLinkMessage>編輯下面的圖片鏈接點擊：</PixlrEditLinkMessage>
+  <PixlrNewImageCreateTitle>創建的Pixlr新形象</PixlrNewImageCreateTitle>
+  <PixlrNewImageLinkMessage>要創建一個新的形象，請點擊以下鏈接：</PixlrNewImageLinkMessage>
+
+  <DownloadTitle>的多個文件下載</DownloadTitle>
+  <DownloadSimpleTab>標準</DownloadSimpleTab>
+  <DownloadJavaTab>Java的</DownloadJavaTab>
+  <DownloadIEPrevent>Internet Explorer中阻止自動下載</DownloadIEPrevent>
+  <DownloadIEClickHere>點擊這裡下載</DownloadIEClickHere>
+  <DownloadIEArchiveReady>歸檔“{0}”與選定的文件被創建，並準備下載</DownloadIEArchiveReady>
+  <DownloadIECaption>下載已準備就緒</DownloadIECaption>
+
+  <SettingsTitle>設置</SettingsTitle>
+  <SettingsLanguage>語言</SettingsLanguage>
+  <SettingsLogOutRequired>新變化將註銷或重新啟動瀏覽器應用！</SettingsLogOutRequired>
+  <ThemeTitle>改變主題</ThemeTitle>
+  <SettingsTheme>選擇主題</SettingsTheme>
+  <ThemeDefaultTitle>默認主題</ThemeDefaultTitle>
+  <ThemeGrayTitle>灰色主題</ThemeGrayTitle>
+  <ThemeAccessTitle>輔助功能主題</ThemeAccessTitle>
+
+  <ChangeUserPasswordTitle>更改用戶密碼</ChangeUserPasswordTitle>
+  <ChangeUserPasswordOldPassword>舊密碼</ChangeUserPasswordOldPassword>
+  <ChangeUserPasswordNewPassword>新密碼</ChangeUserPasswordNewPassword>
+  <ChangeUserPasswordRepeatNewPassword>重複新密碼</ChangeUserPasswordRepeatNewPassword>
+  <ChangeUserPasswordPasswordsNotMatch>密碼不匹配。</ChangeUserPasswordPasswordsNotMatch>
+  <ChangeUserPasswordSuccessMessage>密碼已被更改。</ChangeUserPasswordSuccessMessage>
+  <ChangeUserPasswordInvalidMessage>無效的密碼。</ChangeUserPasswordInvalidMessage>
+
+  <ChangeUserEmailTitle>更改用戶的電子郵件</ChangeUserEmailTitle>
+  <ChangeUserEmailEmail>電子郵件</ChangeUserEmailEmail>
+  <ChangeUserEmailSuccessMessage>電子郵件已被更改。</ChangeUserEmailSuccessMessage>
+
+  <UserHelpTitle>用戶幫助</UserHelpTitle>
+
+  <LicenseTitle>許可證信息</LicenseTitle>
+  <LicenseTrial>未註冊的30天試用版</LicenseTrial>
+  <LicensePrompt>行貨版本{0}用戶數：{1} {0}購買日期：{2} {0}</LicensePrompt>
+  <LicenseFreeUpgradeMessage>你還有{0}，免費升級和支持天。</LicenseFreeUpgradeMessage>
+  <LicenseCheckMessage>一年多的時間已經從購買之日起通過。要使用這個版本，你應該續訂或降級到舊版本。您可以檢查您的許可證，並找到&lt;a href='{0}' target='_blank'&gt;我們檢查許可頁面&lt;/a&gt;可用版本</LicenseCheckMessage>
+  
+  <ViewPopupBlocked>新的窗口已被阻止彈出窗口攔截器</ViewPopupBlocked>
+  
+  <LoginTwoFactorTitle>兩步驗證</LoginTwoFactorTitle>
+  <LoginTitle>登錄</LoginTitle>
+  <LoginRemember>下次記住我</LoginRemember>
+  <LoginUISelect>接口</LoginUISelect>
+  <LoginUIStandard>標準</LoginUIStandard>
+  <LoginUITouch>移動</LoginUITouch>
+  <LoginLanguage>語言</LoginLanguage>
+  <LoginLogin>登錄</LoginLogin>
+  <LoginFailure>您的登錄嘗試不成功。</LoginFailure>
+  <LoginBlocked>該帳戶被阻止。等待{0}分鐘後重試。</LoginBlocked>
+  <LoginNotActivated>您的帳號未激活。</LoginNotActivated>
+  <LoginResendActivation>如果很長一段時間沒有接收與激活代碼信息，點擊{0}鏈路重新發送激活碼。</LoginResendActivation>
+  <LoginResendActivationLink>發送激活碼</LoginResendActivationLink>
+  <LoginResendActivationCode>點擊{0}鏈接重新發送激活碼。</LoginResendActivationCode>
+  
+  <ActivateAccountOk>帳號激活成功！</ActivateAccountOk>
+  <ActivateAccountResultLabel>激活結果</ActivateAccountResultLabel>
+  <ActivateAccountErrorOnlyFormsAuth>帳號激活只能用Forms身份驗證中使用</ActivateAccountErrorOnlyFormsAuth>
+  <ActivateAccountErrorNotRequired>賬戶激活應用程序設置中禁用。帳戶註冊後自動激活。</ActivateAccountErrorNotRequired>
+  <ActivateAccountErrorAlreadyActivated>帳號已激活</ActivateAccountErrorAlreadyActivated>
+  <ActivateAccountErrorInvalidCode>激活碼無效</ActivateAccountErrorInvalidCode>
+  <ActivateAccountErrorAccountNotFound>找不到帳戶</ActivateAccountErrorAccountNotFound>
+  <ActivateAccountErrorLinkBroken>激活鏈接被打破</ActivateAccountErrorLinkBroken>
+  <ActivateAccountReturnToLogin>返回到登錄頁面</ActivateAccountReturnToLogin>
+  
+  <LoginRender>給予</LoginRender>
+  
+  <LogoutTitle>網絡文件管理器註銷</LogoutTitle>
+  <LogoutSessionEnded>本屆會議已結束</LogoutSessionEnded>
+  <LogoutCloseWindow>關閉窗口</LogoutCloseWindow>
+  <LogoutEnterAgain>重新登錄</LogoutEnterAgain>
+  <LogoutClosingBrowserRequired>注意！任何人都可以在您的帳戶登錄！如果您使用的是共享的電腦，那麼你就應該關閉瀏覽器窗口（不只是選項卡）在瀏覽器中清除認證！對於Firefox瀏覽器可以清除在菜單認證：工具 - &gt;清除歷史了Resent ...-&gt;詳細信息 - &gt;檢查活動Logins-&gt;記者立即清除。</LogoutClosingBrowserRequired>
+  <RecoverPasswordTitle>恢復密碼</RecoverPasswordTitle>
+  <RecoverPasswordEmailPassword>通過電子郵件發送密碼</RecoverPasswordEmailPassword>
+  <RecoverPasswordErrorInvalidUserName>無效的用戶名。</RecoverPasswordErrorInvalidUserName>
+  <RecoverPasswordErrorNoEmail>該用戶沒有定義的電子郵件地址。</RecoverPasswordErrorNoEmail>
+  <RecoverPasswordErrorSendEmail>在發送電子郵件時發生錯誤。</RecoverPasswordErrorSendEmail>
+  <RecoverPasswordSuccess>您的密碼已發送到您的電子郵箱。</RecoverPasswordSuccess>
+
+  <RecoverUserNameTitle>恢復名稱</RecoverUserNameTitle>
+  <RecoverUserEmailName>通過電子郵件發送的名字</RecoverUserEmailName>
+  <RecoverUserNameErrorInvalidEmail>無效的用戶的電子郵件。</RecoverUserNameErrorInvalidEmail>
+  <RecoverUserNameErrorNoEmail>電子郵件地址找不到。</RecoverUserNameErrorNoEmail>
+  <RecoverUserNameSuccess>你的名字已發送到您的電子郵件地址。</RecoverUserNameSuccess>
+
+  <ChangeEmailTitle>更改電子郵件</ChangeEmailTitle>
+  <ChangeEmailEmail>新郵件</ChangeEmailEmail>
+  <ChangeEmailSubmit>提交</ChangeEmailSubmit>
+  <ChangeEmailStatusSuccess>電子郵件已被更改</ChangeEmailStatusSuccess>
+
+  <RegisterTitle>寄存器</RegisterTitle>
+  <RegisterEmail>電子郵件</RegisterEmail>
+  <RegisterExtraInfo>額外的信息</RegisterExtraInfo>
+  <RegisterCaptcha>輸入你在下面的圖片中看到的文字</RegisterCaptcha>
+  <RegisterSubmit>提交</RegisterSubmit>
+  <RegisterErrorPasswordNotMatch>密碼不匹配。</RegisterErrorPasswordNotMatch>
+  <RegisterErrorUserExists>此用戶名或郵箱地址已被使用。</RegisterErrorUserExists>
+  <RegisterErrorCaptchaInvalid>圖像文本輸入不正確</RegisterErrorCaptchaInvalid>
+  <RegisterSuccess>新用戶已添加。</RegisterSuccess>
+  <RegisterActivationSent>激活碼發送到您的電子郵件。</RegisterActivationSent>
+  <RegisterActivationCheckEmail>請檢查您的郵箱中（特別是垃圾郵件文件夾），然後按照指示的電子郵件。</RegisterActivationCheckEmail>
+  
+  <FolderGridUserPermissionsColumn>用戶訪問</FolderGridUserPermissionsColumn>
+  <FolderGridGroupPermissionsColumn>團體訪問</FolderGridGroupPermissionsColumn>
+
+  <LoginLinkText>登錄</LoginLinkText>
+  <RecoverPasswordLinkText>忘記密碼？</RecoverPasswordLinkText>
+  <RecoverUserNameLinkText>忘記叫什麼名字？</RecoverUserNameLinkText>
+  <RegisterLinkText>寄存器</RegisterLinkText>
+  <ChangeEmail>更改電子郵件</ChangeEmail>
+  <LoginMobileVersionLinkText>移動版（智能手機大多和觸摸板）</LoginMobileVersionLinkText>
+
+  <FileIsNotZipArchive>文件{0}不是ZIP壓縮包</FileIsNotZipArchive>
+
+  <FileModificationsAuthor>作者</FileModificationsAuthor>
+  <FileModificationsHistory>查看歷史記錄</FileModificationsHistory>
+  <FileModificationsWindowTitle>文件的修改“{0}”</FileModificationsWindowTitle>
+  <FileModificationsTypeCreated>創建</FileModificationsTypeCreated>
+  <FileModificationsTypeModified>改性</FileModificationsTypeModified>
+  <FileModificationsTypeRenamed>改名</FileModificationsTypeRenamed>
+  <FileModificationsTypeRestored>恢復</FileModificationsTypeRestored>
+  <FileModificationsTypeDeleted>已刪除</FileModificationsTypeDeleted>
+
+  <ChangingReadOnlyProgressMessage>更改只讀屬性</ChangingReadOnlyProgressMessage>
+
+  <ImageViewerWindowTitle>圖像查看器[{0}]</ImageViewerWindowTitle>
+  <ImageViewerLoadingMessage>加載圖像瀏覽器</ImageViewerLoadingMessage>
+  <ImageViewerLoadingImageMessage>加載圖片</ImageViewerLoadingImageMessage>
+  <ImageViewerFirstImageTip>首先形象</ImageViewerFirstImageTip>
+  <ImageViewerPreviousImageTip>上一張圖片</ImageViewerPreviousImageTip>
+  <ImageViewerRefreshTip>刷新圖像列表</ImageViewerRefreshTip>
+  <ImageViewerNextImageTip>下一圖片</ImageViewerNextImageTip>
+  <ImageViewerLastImageTip>最後一張圖片</ImageViewerLastImageTip>
+  <ImageViewerRunSlideShow>運行圖像幻燈片放映</ImageViewerRunSlideShow>
+  <ImageViewerStopSlideShow>停止圖片幻燈片放映</ImageViewerStopSlideShow>
+  <ImageViewerImageSimpleInfo>{0} / {1}，{2}（{3}）</ImageViewerImageSimpleInfo>
+  <ImageViewerImageLoadErrorMessage>圖像沒有被發現或不能顯示</ImageViewerImageLoadErrorMessage>
+  <ImageViewerShowImageSizeOfWindow>與實際尺寸顯示圖片</ImageViewerShowImageSizeOfWindow>
+  <ImageViewerShowRealImageSize>點擊放大</ImageViewerShowRealImageSize>
+
+  <PasswordExpiresTitle>密碼過期</PasswordExpiresTitle>
+  <PasswordExpiresMessage>您的密碼{0}天（S）後過期！</PasswordExpiresMessage>
+  <PasswordExpiredMessage>您的密碼已過期。</PasswordExpiredMessage>
+  <PasswordChangeMessage>要更改密碼，請選擇{0} {1}  - &gt; {2} {3}在工具欄上。</PasswordChangeMessage>
+
+  <UnzipContentTotalFiles>文件總數：{0}（{1}）</UnzipContentTotalFiles>
+
+  <VideoConversionJobNotFound>
+    無法找到指定的轉換過程。
+    可能的原因：
+    1，轉換結束很久以前，取出這份工作的信息。
+    2.轉換過程異常終止。
+  </VideoConversionJobNotFound>
+  <VideoConversionUtilityNotFound>無法找到實用程序來執行所請求的操作：{0}</VideoConversionUtilityNotFound>
+  <!-- The current security principal "{0}" has insufficiant permissions to executable file "{1}".-->
+  <VideoConversionUtilityInsufficientPermissions>當前用戶“{0}”被拒絕訪問的可執行文件“{1}”。</VideoConversionUtilityInsufficientPermissions>
+  <VideoConversionOperationCancelled>操作被取消</VideoConversionOperationCancelled>
+  <VideoConversionUtilityFailed>轉換實用程序異常終止</VideoConversionUtilityFailed>
+  <VideoConversionOutputFileBusy>輸出文件正被另一轉換過程</VideoConversionOutputFileBusy>
+
+  <VideoConvertWindowValidatorPositiveInt>必須是一個正整數</VideoConvertWindowValidatorPositiveInt>
+  <VideoConvertWindowTitle>轉換視頻</VideoConvertWindowTitle>
+  <VideoConvertWindowInputFile>輸入文件</VideoConvertWindowInputFile>
+  <VideoConvertWindowOutputFile>輸出文件</VideoConvertWindowOutputFile>
+  <VideoConvertWindowOutputFormat>輸出格式</VideoConvertWindowOutputFormat>
+  <VideoConvertWindowBitrate>比特率（Kbps）的</VideoConvertWindowBitrate>
+  <VideoConvertWindowFrameResolution>幀分辨率</VideoConvertWindowFrameResolution>
+  <VideoConvertWindowDAR>顯示寬高比</VideoConvertWindowDAR>
+  <VideoConvertWindowPAR>像素長寬比</VideoConvertWindowPAR>
+  <VideoConvertWindowResize>調整</VideoConvertWindowResize>
+  <VideoConvertWindowProfile>輪廓</VideoConvertWindowProfile>
+  <VideoConvertWindowWidth>寬度</VideoConvertWindowWidth>
+  <VideoConvertWindowHeight>高度</VideoConvertWindowHeight>
+  <VideoConvertWindowExtractDetailsProgressMsg>提取視頻詳細</VideoConvertWindowExtractDetailsProgressMsg>
+  <VideoConvertWindowOutputFileExistsTitle>輸出文件存在</VideoConvertWindowOutputFileExistsTitle>
+  <VideoConvertWindowOutputFileExistsMsg>輸出文件已經存在。它會被覆蓋。</VideoConvertWindowOutputFileExistsMsg>
+  <VideoConvertWindowPrepareToConvert>準備轉換視頻</VideoConvertWindowPrepareToConvert>
+  <VideoConvertWindowOutputFileMatchInputFile>輸出文件名匹配輸入文件名</VideoConvertWindowOutputFileMatchInputFile>
+
+  <VideoConvertProgressWindowTitle>轉換視頻</VideoConvertProgressWindowTitle>
+  <VideoConvertProgressWindowInputFile>輸入文件</VideoConvertProgressWindowInputFile>
+  <VideoConvertProgressWindowOutputFile>輸出文件</VideoConvertProgressWindowOutputFile>
+  <VideoConvertProgressWindowStatus>狀態</VideoConvertProgressWindowStatus>
+  <VideoConvertProgressWindowStatusTerminating>終止</VideoConvertProgressWindowStatusTerminating>
+  <VideoConvertProgressWindowStatusPreparing>準備</VideoConvertProgressWindowStatusPreparing>
+  <VideoConvertProgressWindowStatusProgress>步驟{0} {1}</VideoConvertProgressWindowStatusProgress>
+  <VideoConvertProgressWindowStatusDone>做</VideoConvertProgressWindowStatusDone>
+
+  <PlayHtml5VideoNotSupported>你的瀏覽器不支持HTML 5視頻元素。</PlayHtml5VideoNotSupported>
+  <PlayHtml5VideoPlayFailed>播放視頻失敗</PlayHtml5VideoPlayFailed>
+  <PlayHtml5AudioPlayFailed>播放音頻失敗</PlayHtml5AudioPlayFailed>
+  <PlayHtml5AudioTitle>標題</PlayHtml5AudioTitle>
+  <PlayHtml5AudioNotSupported>你的瀏覽器不支持HTML 5音頻元素。</PlayHtml5AudioNotSupported>
+  <PlayHtml5AudioArtist>藝術家</PlayHtml5AudioArtist>
+  <PlayHtml5AudioAlbum>專輯</PlayHtml5AudioAlbum>
+  <PlayHtml5AudioYear>年</PlayHtml5AudioYear>
+  <PlayHtml5AudioDuration>為期</PlayHtml5AudioDuration>
+  <PlayHtml5AudioBitrate>比特率</PlayHtml5AudioBitrate>
+  <PlayHtml5AudioVolume>卷</PlayHtml5AudioVolume>
+
+  <!-- Root title -->
+  <RootTitle>根</RootTitle>
+
+  <!-- Recent feature keys -->
+  <RecentRootTitle>最近</RecentRootTitle>
+  <RecentDeleteOnePrompt>你確定你想“{0}”從最近的項目刪除嗎？</RecentDeleteOnePrompt>
+  <RecentDeleteManyPrompt>你確定要刪除從最近的項目，這些{0}項目？</RecentDeleteManyPrompt>
+  <RecentPathNotExist>最近路徑“{0}”不存在或訪問被拒絕</RecentPathNotExist>
+  <RecentAllWithoutGroupingTitle>所有W / O分組</RecentAllWithoutGroupingTitle>
+  <RecentEditGroupTitle>編輯</RecentEditGroupTitle>
+  <RecentViewGroupTitle>觀看</RecentViewGroupTitle>
+  <RecentDownloadGroupTitle>下載</RecentDownloadGroupTitle>
+  <RecentUploadGroupTitle>上傳</RecentUploadGroupTitle>
+  <RecentCreateGroupTitle>創建</RecentCreateGroupTitle>
+
+  <!-- Trash feature keys -->
+  <TrashRootTitle>垃圾</TrashRootTitle>
+  <TrashLabelDateDeleted>刪除日期</TrashLabelDateDeleted>
+  <TrashDeleteOnePrompt>您確定要永久刪除“{0}”從垃圾箱？</TrashDeleteOnePrompt>
+  <TrashDeleteManyPrompt>你確定要永久刪除回收站這些{0}項目？</TrashDeleteManyPrompt>
+  <TrashEmptyTrashLabel>清空垃圾桶</TrashEmptyTrashLabel>
+  <TrashRestoreSelectedLabel>恢復</TrashRestoreSelectedLabel>
+  <TrashRestoreAllLabel>恢復所有</TrashRestoreAllLabel>
+  <TrashEmptyTrashPrompt>你確定要清空回收站？</TrashEmptyTrashPrompt>
+  <TrashRestoreAllPrompt>你確定你要恢復從回收站中的所有項目？</TrashRestoreAllPrompt>
+  <TrashProgressRestoring>從垃圾箱中恢復</TrashProgressRestoring>
+  <TrashFolderNotFound>回收站目錄未找到</TrashFolderNotFound>
+  <TrashBalloonRestored>還原項目：{0} {1}</TrashBalloonRestored>
+  <TrashDeleteDirectlyLabel>直接刪除而不刪除到垃圾箱</TrashDeleteDirectlyLabel>
+  <TrashUsedSpaceHint>{0}使用</TrashUsedSpaceHint>
+  <TrashLimitSizeHint>使用{0} {1}（{2}）</TrashLimitSizeHint>
+  <TrashLargeItemsShelfTimeHint>對象的存儲時間比{0}較大：{1}天（多個）</TrashLargeItemsShelfTimeHint>
+  <TrashSmallItemsShelfTimeHint>對於所有其他：{0}天（S）</TrashSmallItemsShelfTimeHint>
+  <TrashItemsShelfTimeHint>對象的存儲時間：{0}天（S）</TrashItemsShelfTimeHint>
+  <TrashAvailableSpaceHint>最大可用大小{0}</TrashAvailableSpaceHint>
+  <TrashDeletedFromFolderHint>從已刪除{0}</TrashDeletedFromFolderHint>
+  <TrashExceededMessage>以下物件太大，不能設廢紙簍（超過{0}的限制）：</TrashExceededMessage>
+  <TrashErrorSuffixMessage>請嘗試檢查選項“{0}”，然後刪除文件（S）永遠無法挽回</TrashErrorSuffixMessage>
+
+  <!-- Shared by link -->
+  <SharedByLinkRootTitle>通過鏈接分享</SharedByLinkRootTitle>
+
+  <!-- Shared for you -->
+  <SharedForYouRootTitle>與您共享</SharedForYouRootTitle>
+  <SharedForYouUnableToGetUrl>無法獲取網址</SharedForYouUnableToGetUrl>
+
+  <!-- Watch for modifications -->
+  <WatchForModifsCommand>留意修改</WatchForModifsCommand>
+  <WatchForModifsStartCommand>開始觀看</WatchForModifsStartCommand>
+  <WatchForModifsEditCommand>看著更改</WatchForModifsEditCommand>
+  <WatchForModifsStopCommand>駐足觀望</WatchForModifsStopCommand>
+  <WatchForModifsViewChangesCommand>查看變化</WatchForModifsViewChangesCommand>
+  <WatchForModifsSubscriptionSuccessMessage>您已成功訂閱了修改為“{0}”</WatchForModifsSubscriptionSuccessMessage>
+  <WatchForModifsStopSuccessMessage>監測“{0}”已經成功禁用</WatchForModifsStopSuccessMessage>
+  <WatchForModifsIncludingNestedLabel>考慮嵌套的文件，文件夾</WatchForModifsIncludingNestedLabel>
+  <WatchForModifsParentWatchExistMessage>對於選定的項目已經被分配了監控父文件夾“{0}”。</WatchForModifsParentWatchExistMessage>
+  <WatchForModifsRootFolder>警報</WatchForModifsRootFolder>
+  <WatchForModifsStartProgressLoading>看著啟用</WatchForModifsStartProgressLoading>
+  <WatchForModifsStopProgressLoading>Terminatie看</WatchForModifsStopProgressLoading>
+  <WatchForModifsIconHint>啟用手錶修改</WatchForModifsIconHint>
+  <WatchForModifsNotifCheckBox>通知有關電子郵件的修改：</WatchForModifsNotifCheckBox>
+  <WatchForModifsWatchedUsersCheckBox>只監視用戶（如果你監控所有留空）：</WatchForModifsWatchedUsersCheckBox>
+  <WatchForModifsIgnoreOwnerCheckBox>忽略我自己的變化</WatchForModifsIgnoreOwnerCheckBox>
+  <WatchForModifsActionsCheckBox>監視所有（從下面的列表或某些動作）的動作</WatchForModifsActionsCheckBox>
+  <WatchForModifsNestedItemsWarning>注意！當您添加監視選定文件夾，所有這些個人監測已先前添加的封閉的文件和文件夾，監控將被刪除。你想繼續嗎？</WatchForModifsNestedItemsWarning>
+
+  <WelcomeWindowHideCheckboxLabel>不要被下一個記錄顯示此</WelcomeWindowHideCheckboxLabel>
+
+  <LogsGridMoreInfoColumn>更多信息</LogsGridMoreInfoColumn>
+  <LogsGridDetailsTitle>細節</LogsGridDetailsTitle>
+  <LogsGridPhysPathColumn>物理路徑</LogsGridPhysPathColumn>
+  <LogsGridIsFolderColumn>夾？</LogsGridIsFolderColumn>
+  <LogsGridIsPublicColumn>上市？</LogsGridIsPublicColumn>
+  <LogsGridByWebDavColumn>WebDAV的？</LogsGridByWebDavColumn>
+
+  <NoCommentsYetHint>暫時沒有評論</NoCommentsYetHint>
+  <NoHistoryYetHint>沒有歷史還</NoHistoryYetHint>
+
+  <DetailsPropertyValuesCouldNotBeWritten>無法儲存屬性值，馬貝文件類型不支持這樣的可能性，或存在在與該文件相關聯的應用錯誤。</DetailsPropertyValuesCouldNotBeWritten>
+
+  <AdminCommandHelp>幫幫我</AdminCommandHelp>
+  <AdminCommandAddUser>新增用戶</AdminCommandAddUser>
+  <AdminCommandAddGroup>添加組</AdminCommandAddGroup>
+  <AdminCommandRemoveUser>刪除用戶</AdminCommandRemoveUser>
+
+  <AdminCommandSelectUsers>添加用戶</AdminCommandSelectUsers>
+  <AdminCommandSelectGroups>添加組</AdminCommandSelectGroups>
+  <AdminCommandRemoveUsers>刪除用戶</AdminCommandRemoveUsers>
+  <AdminCommandRemoveGroups>刪除組</AdminCommandRemoveGroups>
+  <AdminUsersGroups>成員</AdminUsersGroups>
+  <AdminSearchUserEmptyText>輸入用戶名</AdminSearchUserEmptyText>
+  <AdminSearchGroupEmptyText>輸入組名</AdminSearchGroupEmptyText>
+  <AdminUsersGroupAlreadyExists>A組（S）與該姓名（或名稱）已添加</AdminUsersGroupAlreadyExists>
+
+  <AdminApplicationLoading>管理員控制台加載</AdminApplicationLoading>
+  <AdminTitle>行政</AdminTitle>
+  <AdminUsersEditUser>編輯用戶</AdminUsersEditUser>
+  <AdminUsersSetUserPassword>設置密碼</AdminUsersSetUserPassword>
+  <AdminUsersViewGroups>查看組</AdminUsersViewGroups>
+  <AdminUsersViewFolders>查看文件夾</AdminUsersViewFolders>
+  <AdminUsersDeleteUserPrompt>你確定要刪除用戶（S）“{0}”？</AdminUsersDeleteUserPrompt>
+  <AdminUsersDeletedUsers>{0}用戶（S）刪除。</AdminUsersDeletedUsers>
+  <AdminUsersUserNotFound>具有此名稱的用戶未找到</AdminUsersUserNotFound>
+  <AdminUsersPropertiesTitle>用戶屬性</AdminUsersPropertiesTitle>
+  <AdminUsersSetPasswordTitle>設置用戶密碼</AdminUsersSetPasswordTitle>
+  <AdminUsersGeneralInfo>用戶信息</AdminUsersGeneralInfo>
+  <AdminUsersUserEmail>電子郵件</AdminUsersUserEmail>
+  <AdminUsersEmptyName>用戶名不能為空</AdminUsersEmptyName>
+  <AdminUsersEmptyPassword>用戶密碼不能為空</AdminUsersEmptyPassword>
+  <AdminUsersIncorrectName>還有的用戶名不正確的符號</AdminUsersIncorrectName>
+  <AdminUsersAlreadyExists>用戶使用該名稱已經存在</AdminUsersAlreadyExists>
+  <AdminUsersEmailAlreadyExists>用戶使用此電子郵件已經存在</AdminUsersEmailAlreadyExists>
+  <AdminUsersPasswordsNotMatch>密碼不匹配</AdminUsersPasswordsNotMatch>
+  <AdminUsersRenameWarning>重命名用戶後，有必要改變密碼，否則當前web夾鏈接將是不正確</AdminUsersRenameWarning>
+  <AdminUsersLicenseRestriction>您的許可證不允許您創建大於{0}更多用戶</AdminUsersLicenseRestriction>
+  <AdminUsersCountInfoWithLimit>用戶總數：{0}從{1}</AdminUsersCountInfoWithLimit>
+  <AdminUsersCountInfo>用戶總數：{0}</AdminUsersCountInfo>
+
+  <AdminGroupsEditGroup>編輯組</AdminGroupsEditGroup>
+  <AdminGroupsRemoveGroup>刪除組</AdminGroupsRemoveGroup>
+  <AdminGroupsDeleteGroupPrompt>你確定要刪除群組“{0}”？</AdminGroupsDeleteGroupPrompt>
+  <AdminGroupsDeletedGroups>{0}群組刪除。</AdminGroupsDeletedGroups>
+  <AdminGroupsGroupNotFound>具有此名稱的組未發現</AdminGroupsGroupNotFound>
+  <AdminGroupsViewUsers>查看用戶</AdminGroupsViewUsers>
+  <AdminGroupsProperties>屬性</AdminGroupsProperties>
+  <AdminGroupsPropertiesTitle>組屬性</AdminGroupsPropertiesTitle>
+  <AdminGroupsGeneralInfo>集團信息</AdminGroupsGeneralInfo>
+  <AdminGroupsUserNamePrompt>輸入用戶名</AdminGroupsUserNamePrompt>
+  <AdminGroupsUsers>小組成員</AdminGroupsUsers>
+  <AdminGroupsUserAlreadyExists>用戶（S）與該姓名（或名稱）已添加</AdminGroupsUserAlreadyExists>
+  <AdminGroupsEmptyName>組名稱不能為空</AdminGroupsEmptyName>
+  <AdminGroupsIncorrectName>有組名稱不正確的符號</AdminGroupsIncorrectName>
+  <AdminGroupsAlreadyExists>一組名稱已經存在</AdminGroupsAlreadyExists>
+  <AdminGroupsCountInfo>總群：{0}</AdminGroupsCountInfo>
+
+  <AdminLanguagesTab>本地化</AdminLanguagesTab>
+  <AdminLanguagesTabMessage>要編輯本地化文件，在列表中選擇所需的語言，點擊本地化字符串進行編輯。經過修改後點擊“保存”按鈕</AdminLanguagesTabMessage>
+  <AdminLangGridKeyColumn>鍵名</AdminLangGridKeyColumn>
+  <AdminLangGridDefaultColumn>英語</AdminLangGridDefaultColumn>
+  <AdminEnterLanguageNameTitle>輸入語言名稱</AdminEnterLanguageNameTitle>
+  <AdminLangConfirmRefreshTitle>刷新確認</AdminLangConfirmRefreshTitle>
+  <AdminLangConfirmRefreshMessage>注意！數據未保存。你現在要保存更改？</AdminLangConfirmRefreshMessage>
+  <AdminLangAmountInfo>填充鍵：{0} {1}的（空值：{2}）</AdminLangAmountInfo>
+  <AdminLangSaveToCSV>導出為CSV</AdminLangSaveToCSV>
+  <AdminLangLoadFromCSV>從CSV負載</AdminLangLoadFromCSV>
+
+  <AdminDbMaintenanceTab>數據庫維護</AdminDbMaintenanceTab>
+  <AdminDbMaintenanceInfoTitle>信息</AdminDbMaintenanceInfoTitle>
+  <AdminDbMaintenanceInfoPathLabel>DB文件路徑</AdminDbMaintenanceInfoPathLabel>
+  <AdminDbMaintenanceInfoSizeLabel>DB文件大小</AdminDbMaintenanceInfoSizeLabel>
+  <AdminDbMaintenanceCompactTitle>壓縮數據庫</AdminDbMaintenanceCompactTitle>
+  <AdminDbMaintenanceCompactNote>為了減少數據庫文件的大小，請點擊下面的按鈕。有必要週期性地執行該數據庫的壓縮，因為，例如，去除一些不活動公共鏈路或舊的日誌記錄在DB文件大小不會降低之後。</AdminDbMaintenanceCompactNote>
+  <AdminDbMaintenanceCompactButton>緊湊型DB</AdminDbMaintenanceCompactButton>
+  <AdminDbMaintenanceCompactSuccess>DB壓縮成功。
+舊文件大小：{0}
+新的文件大小：{1}</AdminDbMaintenanceCompactSuccess>
+  <AdminDbMaintenanceCompactAutoNote>也可以去除記錄操作後打開自動壓縮數據庫上，但是，它是不推薦的，因為它可能更頻繁的鹼的鎖，它可以增加一些請求的持續時間。注意！此設置的改變之後，應用程序將重新啟動！</AdminDbMaintenanceCompactAutoNote>
+  <AdminDbMaintenanceCompactAutoCheckBox>啟用/禁用自動緊湊型DB</AdminDbMaintenanceCompactAutoCheckBox>
+  <AdminDbMaintenanceCompactAutoSaveButton>保存</AdminDbMaintenanceCompactAutoSaveButton>
+  <AdminDbMaintenanceCompactAutoSaveSuccess>數據庫自動сompression的變化已經順利完成。該頁面將很快更新。</AdminDbMaintenanceCompactAutoSaveSuccess>
+  <AdminDbMaintenanceEnableLogLabel>選擇的數據庫查詢日誌記錄級別（進入數據/的debug.log）</AdminDbMaintenanceEnableLogLabel>
+  <AdminDbMaintenanceSettingsSaveSuccess>DB設置保存成功。該頁面將被重新加載</AdminDbMaintenanceSettingsSaveSuccess>
+  <AdminDbMaintenanceSettingsChangeNote>注意！的設置保存後的應用程序將很快重新開始！</AdminDbMaintenanceSettingsChangeNote>
+  <AdminDbMaintenanceInsertIntervalLabel>添加事件的DB（分鐘）的時間間隔。 ，如果你指定0，將插入事件之後直接出現。</AdminDbMaintenanceInsertIntervalLabel>
+  <AdminDbMaintenanceAdvDbParamsTitle>高級DB連接參數</AdminDbMaintenanceAdvDbParamsTitle>
+  <AdminDbMaintenanceStatTitle>統計數據（取決於數據庫日誌級別DurationExecution）</AdminDbMaintenanceStatTitle>
+  <AdminDbMaintenanceStatDurationReadLabel>平均讀取超時</AdminDbMaintenanceStatDurationReadLabel>
+  <AdminDbMaintenanceStatDurationWriteLabel>平均寫入超時</AdminDbMaintenanceStatDurationWriteLabel>
+  <AdminDbMaintenanceStatDurationCompactLabel>平均緊湊超時</AdminDbMaintenanceStatDurationCompactLabel>
+  <AdminDbMaintenanceStatNoData>沒有數據</AdminDbMaintenanceStatNoData>
+  <AdminDbMaintenanceStatGetButton>收集統計信息</AdminDbMaintenanceStatGetButton>
+
+  <AdminMiscTab>雜項</AdminMiscTab>
+  <AdminMiscLoadADAccountsTitle>加載Active Directory帳戶</AdminMiscLoadADAccountsTitle>
+  <AdminMiscLoadADAccountsLoadButton>加載</AdminMiscLoadADAccountsLoadButton>
+  <AdminMiscLoadADAccountsResetButton>重啟</AdminMiscLoadADAccountsResetButton>
+  <AdminMiscLoadADAccountsLdap>LDAP容器</AdminMiscLoadADAccountsLdap>
+  <AdminMiscLoadADAccountsToFile>到文件</AdminMiscLoadADAccountsToFile>
+  <AdminMiscLoadADAccountsSuccessMessage>Active Directory帳戶成功加載</AdminMiscLoadADAccountsSuccessMessage>
+  <AdminMiscLoadADAccountsInfo>在這裡，您可以生成包含整個的Active Directory用戶結構中的文件。如果你使用一個靜態文件公元信息存儲需要此文件。同樣的文件可以通過採用ADManager工具生成。欲了解更多信息請參閱&lt;b&gt; ADAccountsFilePath &lt;/b&gt;參數描述{0}手冊{1}。</AdminMiscLoadADAccountsInfo>
+
+  <AdminMiscManageQuotasTitle>管理配額</AdminMiscManageQuotasTitle>
+  <AdminMiscManageQuotasInfo>查詢現有的或創建新的配額以限制允許為一個文件夾的空間，動力由文件服務器資源管理器。</AdminMiscManageQuotasInfo>
+  <AdminMiscManageQuotasFolderPath>文件夾路徑</AdminMiscManageQuotasFolderPath>
+  <AdminMiscManageQuotasQuota>配額</AdminMiscManageQuotasQuota>
+  <AdminMiscManageQuotasGetQuota>獲取配額</AdminMiscManageQuotasGetQuota>
+  <AdminMiscManageQuotasSetQuota>設置配額</AdminMiscManageQuotasSetQuota>
+
+  <AdminMiscFoldersFromGPOLTitle>從組策略加載文件夾</AdminMiscFoldersFromGPOLTitle>
+  <AdminMiscFoldersFromGPOLComputerName>計算機名稱</AdminMiscFoldersFromGPOLComputerName>
+  <AdminMiscFoldersFromGPOLFilePath>文件路徑</AdminMiscFoldersFromGPOLFilePath>
+  <AdminMiscFoldersFromGPOLMoreInfoLink>更多信息</AdminMiscFoldersFromGPOLMoreInfoLink>
+  <AdminMiscFoldersFromGPOLResetButton>重啟</AdminMiscFoldersFromGPOLResetButton>
+  <AdminMiscFoldersFromGPOLLoadButton>加載</AdminMiscFoldersFromGPOLLoadButton>
+  <AdminMiscFoldersFromGPOLFromDC>從DC</AdminMiscFoldersFromGPOLFromDC>
+  <AdminMiscFoldersFromGPOLFromFile>從文件</AdminMiscFoldersFromGPOLFromFile>
+  <AdminMiscFoldersTargetLabel>要導入的用戶/組條件...</AdminMiscFoldersTargetLabel>
+  <AdminMiscFoldersTargetFilter>過濾</AdminMiscFoldersTargetFilter>
+  <AdminMiscFoldersTargetPermission>允許</AdminMiscFoldersTargetPermission>
+  <AdminMiscFoldersFromGPOLSuccessMessage>文件夾被成功加載&lt;br /&gt;新：{0}，更新時間：{1}。</AdminMiscFoldersFromGPOLSuccessMessage>
+  <AdminMiscFoldersFromGPOLInfo>您可以加載（或更新）在域控制器上的組策略驅動器映射設置的文件夾列表。在現場下面你可以輸入從組策略設置將被加載（或留空，則當前域名將被使用）的計算機名稱，或映射驅動器設置文件的路徑。</AdminMiscFoldersFromGPOLInfo>
+
+  <AdminAnonymFoldersTab>匿名文件夾</AdminAnonymFoldersTab>
+  <AdminAnonymFoldersDeleteFolderPrompt>你確定要刪除{0}選擇匿名文件夾？</AdminAnonymFoldersDeleteFolderPrompt>
+  
+  <AdminAnonymFoldersDescription>共享文件夾/文件 - 這些是文件夾/文件不需要用戶認證*，這意味著它們可用於所有遊客*（如果他們有一個鏈接）。所有用戶都可以創建從菜單這樣的文件夾/文件“共享RARR;創建一個公共鏈接”。但是，共享文件夾可能有限權限：上傳，下載，文件/文件夾列表。下面是鏈接，由用戶創建的共享文件夾/文件表。若要公開鏈接功能正確確保處理程序\ Anonymousdownload.ashx允許IIS匿名訪問。您可以檢查此&lt;a target="_blank" href="{0}"&gt;診斷&lt;/a&gt;頁面上。確保分配給處理程序\ Anonymousdownload.ashx匿名用戶帳戶具有NTFS讀/寫權限的共享文件夾/文件&lt;br /&gt; * NBSP;＆MDASH;＆NBSP;如果不指定用戶，只允許訪問。</AdminAnonymFoldersDescription>
+  <AdminAnonymFoldersLinkOwnerColumn>所有者</AdminAnonymFoldersLinkOwnerColumn>
+  <AdminAnonymFoldersEmailsColumn>電子郵件通知</AdminAnonymFoldersEmailsColumn>
+  <AdminAnonymFoldersAccessForUsersColumn>用戶訪問</AdminAnonymFoldersAccessForUsersColumn>
+  <AdminAnonymFoldersPersonalMessageColumn>個人訊息</AdminAnonymFoldersPersonalMessageColumn>
+  <AdminAnonymFoldersOverwriteOnUploadHint> （覆蓋：{0}）</AdminAnonymFoldersOverwriteOnUploadHint>
+  <AdminAnonymFoldersRootPathColumn>根路徑</AdminAnonymFoldersRootPathColumn>
+  <AdminAnonymFoldersKeysColumn>按鍵</AdminAnonymFoldersKeysColumn>
+  <AdminAnonymFoldersShortColumn>短鏈接</AdminAnonymFoldersShortColumn>
+  <AdminAnonymFoldersPropertiesTitle>匿名文件夾屬性</AdminAnonymFoldersPropertiesTitle>
+  <AdminAnonymFoldersAdditionalInfo>附加信息</AdminAnonymFoldersAdditionalInfo>
+  <AdminAnonymFoldersLinkLabel>鏈接訪問</AdminAnonymFoldersLinkLabel>
+  <AdminAnonymFoldersPathNotSpecified>物理路徑沒有設置</AdminAnonymFoldersPathNotSpecified>
+  <AdminAnonymFoldersCreatedForColumn>目的</AdminAnonymFoldersCreatedForColumn>
+
+  <AdminFoldersTab>文件夾</AdminFoldersTab>
+  <AdminFoldersAddFolder>新增文件夾</AdminFoldersAddFolder>
+  <AdminFoldersEditFolder>編輯文件夾</AdminFoldersEditFolder>
+  <AdminFoldersRemoveFolder>刪除文件夾</AdminFoldersRemoveFolder>
+  <AdminFoldersDeleteFolderPrompt>你確定要刪除的文件夾“{0}”？</AdminFoldersDeleteFolderPrompt>
+  <AdminFoldersFolderNotFound>具有此名稱的文件夾中未找到</AdminFoldersFolderNotFound>
+  <AdminFoldersPropertiesTitle>文件夾屬性</AdminFoldersPropertiesTitle>
+  <AdminFoldersGeneralInfo>一般信息</AdminFoldersGeneralInfo>
+  <AdminFoldersFolderRemoteWarningForms>注意！此文件夾被遠程共享。檢查{0}常見問題解答：如何共享遠程文件夾{1}</AdminFoldersFolderRemoteWarningForms>
+  <AdminFoldersFolderRemoteWarningWin>注意！此文件夾被遠程共享。您可以隱藏一些文件夾/文件的用戶，如果沒有權利去閱讀。見{0}常見問題解答：如何隱藏文件/文件用戶沒有權限讀取的文件夾{1}</AdminFoldersFolderRemoteWarningWin>
+  <AdminFoldersFolderPath>物理路徑</AdminFoldersFolderPath>
+  <AdminFoldersLocationPath>位置</AdminFoldersLocationPath>
+  <AdminFoldersFolderCreate>創建文件夾</AdminFoldersFolderCreate>
+  <AdminFoldersFolderCreateProcess>創建文件夾</AdminFoldersFolderCreateProcess>
+  <AdminFoldersFolderCreateContainsPattern>夾無法創建，因為它包含的圖案</AdminFoldersFolderCreateContainsPattern>
+  <AdminFoldersFolderCreateSuccessfully>文件夾“{0}”已成功創建。</AdminFoldersFolderCreateSuccessfully>
+  <AdminFoldersFolderOptional> （可選的）</AdminFoldersFolderOptional>
+  <AdminFoldersFolderLimitations>限制</AdminFoldersFolderLimitations>
+  <AdminFoldersFolderDescription>描述</AdminFoldersFolderDescription>
+  <AdminFoldersFolderQuota>配額</AdminFoldersFolderQuota>
+  <AdminFoldersFolderQuotaHint>查詢現有的或創建新的配額以限制允許為一個文件夾的空間，動力由文件服務器資源管理器。</AdminFoldersFolderQuotaHint>
+  <AdminFoldersFolderQuotaMoreInfoLink>更多信息</AdminFoldersFolderQuotaMoreInfoLink>
+  <AdminFoldersPermissions>的權限</AdminFoldersPermissions>
+  <AdminFoldersPermissionsFor>權限{0}</AdminFoldersPermissionsFor>
+  <AdminFoldersUsersGroups>用戶和組</AdminFoldersUsersGroups>
+  <AdminFoldersAccessControl>訪問控制</AdminFoldersAccessControl>
+  <AdminFoldersCreate>創建</AdminFoldersCreate>
+  <AdminFoldersDelete>刪除</AdminFoldersDelete>
+  <AdminFoldersRename>改名</AdminFoldersRename>
+  <AdminFoldersUpload>上傳</AdminFoldersUpload>
+  <AdminFoldersDownload>下載</AdminFoldersDownload>
+  <AdminFoldersZipDownload>郵編和下載</AdminFoldersZipDownload>
+  <AdminFoldersZip>壓縮</AdminFoldersZip>
+  <AdminFoldersUnzip>解壓郵編</AdminFoldersUnzip>
+  <AdminFoldersCut>切</AdminFoldersCut>
+  <AdminFoldersCopy>複製</AdminFoldersCopy>
+  <AdminFoldersListFiles>顯示文件</AdminFoldersListFiles>
+  <AdminFoldersListFolders>顯示文件夾</AdminFoldersListFolders>
+  <AdminFoldersModify>修改</AdminFoldersModify>
+  <AdminFoldersBulkMailing>批量郵件</AdminFoldersBulkMailing>
+  <AdminFoldersAnonymViewContent>通過公共鏈接文件列表</AdminFoldersAnonymViewContent>
+  <AdminFoldersAnonymDownload>通過公共鏈接下載</AdminFoldersAnonymDownload>
+  <AdminFoldersAnonymUpload>通過公共鏈接上傳</AdminFoldersAnonymUpload>
+  <AdminFoldersWatch>看</AdminFoldersWatch>
+  <AdminFoldersDescription>您可以手動添加文件夾，或者如果你是在組策略使用驅動器轉換現有的文件夾。欲了解更多信息請參見{0}幫助{1}。</AdminFoldersDescription>
+
+  <AdminFoldersPermissionsForRegex>您還可以使用正則表達式。請輸入&lt;b&gt; {0} &lt;/b&gt;在上面的字段的開始，然後一個正則表達式，例如：</AdminFoldersPermissionsForRegex>
+  <AdminFoldersPermissionsForRegexUsers>{0}（提供任何用戶訪問）&lt;br /&gt; {1}（這個正則表達式是指兩個用戶：JDOE和Mike）</AdminFoldersPermissionsForRegexUsers>
+  <AdminFoldersPermissionsForRegexGroups>{0}（提供任何組的訪問）&lt;br /&gt; {1}（這個正則表達式意味著所有組在其名稱中的“學生”）</AdminFoldersPermissionsForRegexGroups>
+
+  <AdminFoldersListRestrictions>顯示器的限制</AdminFoldersListRestrictions>
+  <AdminFoldersCreateRestrictions>創建文件的限制</AdminFoldersCreateRestrictions>
+  <AdminFoldersRestrictionAllow>允許</AdminFoldersRestrictionAllow>
+  <AdminFoldersRestrictionDeny>拒絕</AdminFoldersRestrictionDeny>
+  <AdminFoldersRestrictionExtensions>擴展</AdminFoldersRestrictionExtensions>
+  <AdminFoldersUserNamePrompt>輸入用戶名</AdminFoldersUserNamePrompt>
+  <AdminFoldersUserNameEmptyText>選擇用戶名</AdminFoldersUserNameEmptyText>
+  <AdminFoldersUserNameNotSelected>你一定選擇一個用戶名</AdminFoldersUserNameNotSelected>
+  <AdminFoldersUserAlreadyExists>這個用戶已經分配給該文件夾</AdminFoldersUserAlreadyExists>
+  <AdminFoldersGroupNamePrompt>輸入組名</AdminFoldersGroupNamePrompt>
+  <AdminFoldersGroupNameEmptyText>選擇組名</AdminFoldersGroupNameEmptyText>
+  <AdminFoldersGroupNameNotSelected>你必須選擇一個組名</AdminFoldersGroupNameNotSelected>
+  <AdminFoldersGroupAlreadyExists>該組已分配給該文件夾</AdminFoldersGroupAlreadyExists>
+  <AdminFoldersEmptyName>文件夾名稱不能為空</AdminFoldersEmptyName>
+  <AdminFoldersEmptyPath>文件夾路徑不能為空</AdminFoldersEmptyPath>
+  <AdminFoldersIncorrectName>有文件夾名稱不正確的符號</AdminFoldersIncorrectName>
+  <AdminFoldersAlreadyExists>具有此名稱和位置的文件夾已經存在</AdminFoldersAlreadyExists>
+  <AdminFoldersSharesButton>現有股份</AdminFoldersSharesButton>
+  <AdminFoldersTestAccessButton>測試訪問</AdminFoldersTestAccessButton>
+  <AdminFoldersTestIndexingButton>測試索引</AdminFoldersTestIndexingButton>
+  <AdminFoldersShareNameTitle>現有股份</AdminFoldersShareNameTitle>
+  <AdminFoldersShareNameEmptyText>選擇股票</AdminFoldersShareNameEmptyText>
+  <AdminFoldersShareNameNotSelected>您必須選擇份額</AdminFoldersShareNameNotSelected>
+  <AdminFoldersGetQuotaButton>獲取配額</AdminFoldersGetQuotaButton>
+  <AdminFoldersSetQuotaButton>設置配額</AdminFoldersSetQuotaButton>
+  <AdminCommonFilterField>過濾</AdminCommonFilterField>
+  <AdminCommonValidateField>驗證</AdminCommonValidateField>
+  <AdminFoldersRootNameUsed>為文件夾，而不是請使用其他名稱“{0}”</AdminFoldersRootNameUsed>
+  <AdminFoldersFolderFilterSuccess>過濾器的驗證發生成功</AdminFoldersFolderFilterSuccess>
+
+  <AdminTestAccessGoodResult>文件夾“{0}”的存在，並且可以讀出。</AdminTestAccessGoodResult>
+  <AdminTestAccessBadResult>文件夾“{0}”不存在或沒有讀取NTFS權限或沒有為應用程序標識沒有網絡訪問！</AdminTestAccessBadResult>
+  <AdminTestAccessErrorResult>出錯檢查訪問到文件夾“{0}”：{1}</AdminTestAccessErrorResult>
+  <AdminTestIndexingErrorResult>同時檢查索引的文件夾的錯誤“{0}”：
+{1}</AdminTestIndexingErrorResult>
+  <AdminTestIndexingYesResult>目錄“{0}”索引</AdminTestIndexingYesResult>
+  <AdminTestIndexingNoResult>目錄“{0}”沒有索引</AdminTestIndexingNoResult>
+  <AdminTestIndexingUnknownResult>無法確定是否目錄“{0}”索引。</AdminTestIndexingUnknownResult>
+  <AdminTestIndexingAddIfNotIndexed>你想添加這個文件夾的索引，如果它已經沒有收錄？</AdminTestIndexingAddIfNotIndexed>
+  <ProgressTestAccess>檢查訪問</ProgressTestAccess>
+  <ProgressTestIndexing>檢查索引</ProgressTestIndexing>
+  <AdminHowToIndexingLocationLink>為了索引的文件夾，請參閱幫助{0}</AdminHowToIndexingLocationLink>
+
+  <AdminUsersListAll>全部用戶</AdminUsersListAll>
+  <AdminUsersListDACL>從ACL用戶</AdminUsersListDACL>
+  <AdminGroupsListAll>所有組</AdminGroupsListAll>
+  <AdminGroupsListDACL>從ACL組</AdminGroupsListDACL>
+  <AdminDACLStringLabel>ACL權限</AdminDACLStringLabel>
+
+  <AdminCommonCustomField>自定義字段</AdminCommonCustomField>
+  <AdminCommonSettingsChangeWarning>這些變化將生效重新登錄後（或之後重新啟動應用程序的WebDAV訪問）。</AdminCommonSettingsChangeWarning>
+
+  <AdminCommonAllowedFoldersPathsTitle>允許的文件夾路徑</AdminCommonAllowedFoldersPathsTitle>
+  <AdminCommonNotAllowedFolderPath>只能創建這些文件夾或子文件夾的訪問：{0}</AdminCommonNotAllowedFolderPath>
+
+  <AdminLogsTab>日誌</AdminLogsTab>
+
+  <AdminSettingsTab>設置</AdminSettingsTab>
+
+  <AdminLogsErrorsTab>記錄錯誤</AdminLogsErrorsTab>
+  <AdminLogsErrorsClearBtn>明確</AdminLogsErrorsClearBtn>
+  <AdminLogsErrorsClearUsersCountExceededBtn>清除記錄與用戶的誤差超過數量限制</AdminLogsErrorsClearUsersCountExceededBtn>
+
+  <AdminFoldersCreateHint>允許/拒絕從菜單中選擇“新建”行動：新的文件，新文件夾，新形象，新的文檔文件。</AdminFoldersCreateHint>
+  <AdminFoldersDeleteHint>允許/拒絕現有的文件和文件夾的刪除</AdminFoldersDeleteHint>
+  <AdminFoldersRenameHint>允許/拒絕現有的文件和文件夾重命名</AdminFoldersRenameHint>
+  <AdminFoldersUploadHint>允許/拒絕上傳文件功能（在工具欄上傳按鈕）</AdminFoldersUploadHint>
+  <AdminFoldersDownloadHint>允許/拒絕“下載”，“查看/編輯”，下載到雲端儲存等行為</AdminFoldersDownloadHint>
+  <AdminFoldersZipDownloadHint>允許/拒絕“壓縮並下載”行動</AdminFoldersZipDownloadHint>
+  <AdminFoldersZipHint>允許/拒絕“壓縮成ZIP檔案”行動</AdminFoldersZipHint>
+  <AdminFoldersUnzipHint>允許/拒絕“解壓到當前文件夾”，“解壓到一個新文件夾”和“郵編內容”行動</AdminFoldersUnzipHint>
+  <AdminFoldersCutHint>允許/拒絕削減現有的文件和文件夾操作</AdminFoldersCutHint>
+  <AdminFoldersCopyHint>允許/拒絕複製現有的文件和文件夾操作</AdminFoldersCopyHint>
+  <AdminFoldersListFilesHint>允許/拒絕列表文件</AdminFoldersListFilesHint>
+  <AdminFoldersListFoldersHint>允許/拒絕列表文件夾</AdminFoldersListFoldersHint>
+  <AdminFoldersModifyHint>允許/拒絕修改文件（可以修改現有的文件內容的所有操作）</AdminFoldersModifyHint>
+  <AdminFoldersBulkMailingHint>允許/拒絕團體批量郵寄</AdminFoldersBulkMailingHint>
+  <AdminFoldersAnonymViewContentHint>允許/拒絕文件為匿名用戶列表（通過公共鏈接）</AdminFoldersAnonymViewContentHint>
+  <AdminFoldersAnonymDownloadHint>允許/拒絕下載文件為匿名用戶（通過公共鏈接）</AdminFoldersAnonymDownloadHint>
+  <AdminFoldersAnonymUploadHint>允許/拒絕文件上傳匿名用戶（通過公共鏈接）</AdminFoldersAnonymUploadHint>
+  <AdminFoldersWatchHint>允許/拒絕用戶監控其他用戶製作的文件夾中的改變（它被施加僅當UI / AllowUsersmonitorModifications =真）</AdminFoldersWatchHint>
+  <AdminFoldersListRestrictionsHint>該選項控制文件清單。點擊“拒絕”單選按鈕，隱藏與特定擴展名的文件。將禁止通過擴展逗號分隔它們（例如“EXE，BAT，COM”）。將“允許”單選按鈕，插入要顯示（例如，“DOC，PDF，JPG”）的文件擴展名。</AdminFoldersListRestrictionsHint>
+  <AdminFoldersCreateRestrictionsHint>這個功能類似於“列出限制”，但它控制的文件上傳，ZIP提取，創建新的文件。你可以禁止或允許指定的文件上傳。</AdminFoldersCreateRestrictionsHint>
+  <AdminFoldersGeneralInfoHint>鍵入現有的文件夾路徑和別名。點擊幫助按鈕底部獲得更多信息。</AdminFoldersGeneralInfoHint>
+  <AdminFoldersUsersGroupsHint>選擇或類型的用戶和組為他們共享文件夾。點擊幫助按鈕底部獲得更多信息。</AdminFoldersUsersGroupsHint>
+
+  <AdminUserFoldersButtonTitle>測試共享列表</AdminUserFoldersButtonTitle>
+  <AdminUserFoldersWindowTitle>用戶文件夾</AdminUserFoldersWindowTitle>
+  <AdminUserFoldersLabel>用戶文件夾列表“{0}”：</AdminUserFoldersLabel>
+  
+  <AdminPermissionsTab>管理權限</AdminPermissionsTab>
+  <AdminPermissionsPrivilege>特權</AdminPermissionsPrivilege>
+  <AdminPermissionsEditButton>編輯權限</AdminPermissionsEditButton>
+  <AdminPermissionsModifySettingsTitle>修改設置</AdminPermissionsModifySettingsTitle>
+  <AdminPermissionsModifyFoldersTitle>修改文件夾</AdminPermissionsModifyFoldersTitle>
+  <AdminPermissionsModifyAnonymFoldersTitle>修改公共文件夾</AdminPermissionsModifyAnonymFoldersTitle>
+  <AdminPermissionsModifyAccountsTitle>修改帳戶</AdminPermissionsModifyAccountsTitle>
+  <AdminPermissionsViewDiagnosticsTitle>查看“診斷”頁面</AdminPermissionsViewDiagnosticsTitle>
+  <AdminPermissionsViewLogTitle>查看日誌</AdminPermissionsViewLogTitle>
+  <AdminPermissionsViewErrorsLogTitle>查看錯誤日誌</AdminPermissionsViewErrorsLogTitle>
+  <AdminPermissionsModifyLocalizationsTitle>修改本地化</AdminPermissionsModifyLocalizationsTitle>
+  <AdminPermissionsFolderPathTitle>文件夾路徑</AdminPermissionsFolderPathTitle>
+  <AdminPermissionsFoldersTitle>管理文件夾</AdminPermissionsFoldersTitle>
+  <AdminPermissionsPrivilegeHint>設置用戶/組對其中“{0}”特權將被允許</AdminPermissionsPrivilegeHint>
+  <AdminPermissionsFolderTitle>管理員文件夾屬性</AdminPermissionsFolderTitle>
+  <AdminPermissionsFolderFieldTitle>文件夾路徑</AdminPermissionsFolderFieldTitle>
+  <AdminPermissionsFolderHint>有關管理文件夾的信息</AdminPermissionsFolderHint>
+  <AdminPermissionsFolderEmptyAccounts>指定的用戶和/或組</AdminPermissionsFolderEmptyAccounts>
+  <AdminPermissionsFolderAlreadyExists>文件夾已經存在於此位置</AdminPermissionsFolderAlreadyExists>
+  <AdminPermissionsFolderNotFound>文件夾與此位置未找到</AdminPermissionsFolderNotFound>
+  <AdminPermissionsAllowedFoldersMessage>您可以創建/更新/只管理這些文件夾或子文件夾的訪問：{0}</AdminPermissionsAllowedFoldersMessage>
+
+  <AdminUsersCountExceededWarn>超過最大用戶數量。您當前的許可證只允許{0}用戶登錄。欲了解更多信息打開“{1}”選項卡，找到“{2}”異常（S）。若要隱藏在“{1}”標籤此通知明確日誌記錄。</AdminUsersCountExceededWarn>
+
+  <AdminNewVersionAvailableTitle>新版本可用！</AdminNewVersionAvailableTitle>
+  <AdminNewVersionAvailableInfo>當前版本：{0} &lt;br /&gt;一個新的版本：{1}</AdminNewVersionAvailableInfo>
+  
+  <SettingsGridDescriptionInfo>描述</SettingsGridDescriptionInfo>
+  <SettingsGridFormatInfo>值格式</SettingsGridFormatInfo>
+  <SettingsGridDefaultValueInfo>默認值</SettingsGridDefaultValueInfo>
+  <SettingsGridMoreInfo>更多信息</SettingsGridMoreInfo>
+  <SettingsGridRestoreDefault>恢復默認</SettingsGridRestoreDefault>
+
+  <SettingsFormatBoolean>布爾值</SettingsFormatBoolean>
+  <SettingsFormatWholeNumber>完整的號碼</SettingsFormatWholeNumber>
+  <SettingsFormatRealNumber>實數</SettingsFormatRealNumber>
+  <SettingsFormatString>串</SettingsFormatString>
+  <SettingsFormatEnum>任何價值</SettingsFormatEnum>
+  <SettingsFormatSet>逗號分隔的列表沒有值的重複</SettingsFormatSet>
+  <SettingsFormatArray>字符串的逗號分隔列表</SettingsFormatArray>
+  <SettingsFormatToolbarButtons>。 （值“{0}”可連續重複幾次，但不是每一個名字，後跟一個冒號之後，有可能以指定的用於顯示按鈕的方法之一：{1}）</SettingsFormatToolbarButtons>
+
+  <AdminSettingsSave>保存設置</AdminSettingsSave>
+  <AdminToggleHiddenParams>{0}高級參數</AdminToggleHiddenParams>
+  <AdminHintHiddenParams>附加參數僅用於更精細的設置，並在大多數情況下是很少有必要</AdminHintHiddenParams>
+  <AdminShowHiddenParams>顯示</AdminShowHiddenParams>
+  <AdminHideHiddenParams>隱藏</AdminHideHiddenParams>
+
+  <SettingsDenyAuthModeChange>不支持自動身份驗證模式轉換。有關更改身份驗證模式說明，請參見{0}。</SettingsDenyAuthModeChange>
+  <SettingsApplicationRestartedMsg>重新啟動應用</SettingsApplicationRestartedMsg>
+  <SettingsSettingsSavedMsg>設置已保存</SettingsSettingsSavedMsg>
+  <SettingsSettingsSaveFailedAppMsg>無法保存配置文件。檢查web.config中的寫入NTFS權限和HttpCommanderSettings.config在Web應用程序根目錄{0}文件的用戶{1}。錯誤消息：{2}。</SettingsSettingsSaveFailedAppMsg>
+  <SettingsSettingsSaveFailedTempMsg>無法保存配置文件。用戶臨時文件夾{0}檢查權限{1}。錯誤消息：{2}。</SettingsSettingsSaveFailedTempMsg>
+  <SettingsSettingsReadFailedAppMsg>無法讀取配置文件。檢查web.config中讀取的NTFS權限和HttpCommanderSettings.config在Web應用程序根目錄{0}文件的用戶{1}。錯誤消息：{2}。</SettingsSettingsReadFailedAppMsg>
+  <SettingsSettingsReadFailedTempMsg>無法在臨時文件夾讀取配置文件。用戶臨時文件夾{0}檢查權限{1}。錯誤消息：{2}。</SettingsSettingsReadFailedTempMsg>
+  <SettingsSettingsConfigChangedOutside>該HttpCommander配置文件已經被另一個程序改變。也許你已經使用文本編輯器手動修改它。該應用程序加載了新的配置文件。您已通過Web界面進行相關的配置HttpCommander所有的更改都將丟失。你需要重做，然後嘗試再次保存。我們建議手動對編輯配置文件的應用程序運行時。否則，你應該重新更改配置文件後，該應用程序。錯誤信息：{0}。</SettingsSettingsConfigChangedOutside>
+  <SettingsSettingsSaveNotif>不要忘了保存設置的變化！</SettingsSettingsSaveNotif>
+  
+  <SettingsEmailNotifTitle>通過電子郵件通知</SettingsEmailNotifTitle>
+  <SettingsEmailNotifApplyBtn>保存郵件設置</SettingsEmailNotifApplyBtn>
+  <SettingsEmailNotifResetBtn>重啟</SettingsEmailNotifResetBtn>
+  <SettingsEmailNotifEventsLabel>事件</SettingsEmailNotifEventsLabel>
+  <SettingsEmailNotifWhenLabel>發送</SettingsEmailNotifWhenLabel>
+  <SettingsEmailNotifEmailsLabel>電子郵件</SettingsEmailNotifEmailsLabel>
+  <SettingsEmailNotifPathsLabel>路徑</SettingsEmailNotifPathsLabel>
+  
+  <LogsErrorsGridUrlColumn>網址</LogsErrorsGridUrlColumn>
+  <LogsErrorsGridMsgColumn>信息</LogsErrorsGridMsgColumn>
+  <LogsErrorsGridMoreInfoColumn>更多信息</LogsErrorsGridMoreInfoColumn>
+  <LogsErrorsGridDetailsTitle>細節</LogsErrorsGridDetailsTitle>
+  
+  <FsrmUnableLoadLibraryLocal>無法連接到文件服務器資源管理器的本地主機上。</FsrmUnableLoadLibraryLocal>
+  <FsrmUnableLoadLibraryRemote>無法連接到文件服務器資源管理器“{0}”的主機上。</FsrmUnableLoadLibraryRemote>
+  <FsrmNotInstalled>文件服務器資源管理器未安裝在“{0}”。</FsrmNotInstalled>
+  <FsrmNotInstalledEitherEnd>文件服務器資源管理器未安裝無論是在本地主機上的“{0}”。</FsrmNotInstalledEitherEnd>
+  <FsrmQuotaNotSpecified>未指定配額。</FsrmQuotaNotSpecified>
+  <FsrmUnableGetQuota>無法獲得配額限制。</FsrmUnableGetQuota>
+  <FsrmUnableSetQuota>無法設置配額限制。</FsrmUnableSetQuota>
+  <FsrmQuotaSetMsg>配額已定。</FsrmQuotaSetMsg>
+  <FsrmInvalidQuotaValueMsg>無效的配額值。</FsrmInvalidQuotaValueMsg>
+
+  <CommandBuyNow>立即購買</CommandBuyNow>
+
+  <AdminUpdateTab>升級</AdminUpdateTab>
+  <AdminUpdateManual>手動升級</AdminUpdateManual>
+  <AdminUpdateAuto>自動升級</AdminUpdateAuto>
+  <AdminUpdateStartButton>開始升級/創建備份</AdminUpdateStartButton>
+  <AdminUpdateFinishButton>完成升級/還原備份</AdminUpdateFinishButton>
+  <AdminUpdateBackupButton>備用</AdminUpdateBackupButton>
+  <AdminUpdateDownloadNewButton>下載新版本</AdminUpdateDownloadNewButton>
+  <AdminUpdateStepTitle>步驟{0} {1} {2}</AdminUpdateStepTitle>
+  <AdminUpdateStepInfo>步驟{0} {1}</AdminUpdateStepInfo>
+  <AdminUpdateNumberSymbol>＃</AdminUpdateNumberSymbol>
+  <AdminUpdateBackupContent>請按按鈕“{0}”用於創建的文件夾與應用程序的備份副本，並獲得一個鏈接下載</AdminUpdateBackupContent>
+  <AdminUpdateDownloadBackupLinkHint>請下載使用以下鏈接應用程序的備份副本：</AdminUpdateDownloadBackupLinkHint>
+  <AdminUpdateDownloadNewContent>然後，請下載使用以下鏈接一個新的版本，並按照{0}安裝{1}和{2}升級{1}的指令，以安裝新版本。安裝完成後，請打開管理面板，轉到標籤“{3}”，並按下按鈕“{4}”，以完成安裝。</AdminUpdateDownloadNewContent>
+  <AdminUpdateUploadButton>上傳備份和應用設置</AdminUpdateUploadButton>
+  <AdminUpdateUploadAndInstallButton>在保持所有設置安裝新版本</AdminUpdateUploadAndInstallButton>
+  <AdminUpdateUploadEmptyText>請選擇要上傳的備份副本</AdminUpdateUploadEmptyText>
+  <AdminUpdateFinishContent>為了恢復以前的版本的設置，請選擇並上傳以前創建的備份存檔的應用程序文件夾</AdminUpdateFinishContent>
+  <AdminUpdateFinishMessage>恭喜！已成功應用所有設置。另外，請您申請到其他文件所做的所有更改，如Default.aspx的或Global.asax中。</AdminUpdateFinishMessage>
+  <AdminUpdateFinishRefreshPage>該頁面將被重新加載</AdminUpdateFinishRefreshPage>
+  <AdminUpdateMainInfo>這種類型的升級是部分自動化的。您可以創建和下載的應用程序配置設置的備份文件和升級後恢復。請按照以下簡單步驟：創建一個備份文件，執行手動升級，從備份文件恢復設置。此過程還可以用來備份/恢復設置沒有升級。直接跳過升級步驟從備份文件恢復設置。</AdminUpdateMainInfo>
+  <AdminUpdateAutoButton>汽車</AdminUpdateAutoButton>
+  <AdminUpdateAutoInfo>這種類型的升級幾乎是全自動的。它包括兩個步驟：當前設置備份備份文件（你應該下載並保存備份文件），安裝的設置一個新的版本和恢復。 HTTP指揮官可以自動下載最新版本並安裝它也可以與我們的服務器上的一個新版本的指定路徑zip歸檔。所有設置都自動從先前創建的備份文件中恢復。</AdminUpdateAutoInfo>
+  <AdminUpdateRestoreWebConfigCheckBox>從Web.config文件（例如，如SMTP）恢復設置</AdminUpdateRestoreWebConfigCheckBox>
+  <AdminUpdateBackupAssignedFoldersInRootMessage>注意！有在目錄具有的總大小超過一些用戶文件夾與應用程序{0}。備份將無法進行。請做這些目錄的備份副本，從應用程序目錄中刪除並重新在你身邊的操作。</AdminUpdateBackupAssignedFoldersInRootMessage>
+  <AdminUpdateNeedRefreshPageForContinue>注意！要繼續，必須重新加載頁面。請按按鈕“{0}”。重裝後，請重複上述操作。</AdminUpdateNeedRefreshPageForContinue>
+  <AdminUpdateRestoreFromBackupEmpty>，或者如果沒有選擇它，它會被新創建的文件中的前一步驟中使用</AdminUpdateRestoreFromBackupEmpty>
+  <AdminUpdateInstallZipPathHint>對於更新，請在第一個字段指定要安裝文件的完整物理路徑（在服務器上）或留空以使用在線分銷</AdminUpdateInstallZipPathHint>
+  <AdminUpdateInstallZipPathEmpty>指定路徑以安裝到存檔</AdminUpdateInstallZipPathEmpty>
+  <AdminUpdateProgress>更新</AdminUpdateProgress>
+  <AdminUpdateAccessDeniedWarning>&lt;b&gt;注意！&lt;/b&gt;有關更新請將修改（讀，寫）NTFS權限{0}用戶對文件夾的HTTP指揮官{1}和重複升級。&lt;br /&gt;成功升級後，請恢復原有權利。</AdminUpdateAccessDeniedWarning>
+  <AdminUpdateAccessDeniedWarningCurentUser>當前</AdminUpdateAccessDeniedWarningCurentUser>
+
+  <ServerExceedsMaxSizeForEditAsTextFile>文件大小超過了以編輯為文本文件的最大尺寸。</ServerExceedsMaxSizeForEditAsTextFile>
+  <ServerDemoMode>給定的動作是在演示模式被禁止</ServerDemoMode>
+  <ServerHostedMode>不允許改變按照託管試用版設置的值：{0}。</ServerHostedMode>
+  <ServerIncorrectImageContentType>該文件的MIME類型不是圖像</ServerIncorrectImageContentType>
+  <ServerPermissionDenied>此操作，因為有限的權限拒絕</ServerPermissionDenied>
+  <ServerRestoreFromTrashNoParentFolder>修復失敗，因為父目錄“{0}”已找不到。請創建它，然後再試一次。</ServerRestoreFromTrashNoParentFolder>
+  <ServerModifyPermissionDenied>該操作被拒絕，因為您沒有權限修改文件</ServerModifyPermissionDenied>
+  <ServerPathNotFound>找不到路徑。</ServerPathNotFound>
+  <ServerInvalidPath>路徑“{0}”無效</ServerInvalidPath>
+  <ServerInvalidAbsolutePath>無效的絕對路徑“{0}”</ServerInvalidAbsolutePath>
+  <!-- share folder path: \\server\share -->
+  <ServerInvalidShareFolderPath>無效的共享文件夾路徑“{0}”</ServerInvalidShareFolderPath>
+  <ServerInvalidUncPath>無效的UNC路徑“{0}”</ServerInvalidUncPath>
+  <ServerUnableResolveUncPath>無法解析UNC路徑“{0}”</ServerUnableResolveUncPath>
+  <ServerInvalidFileName>文件/文件夾名稱未設置或包含不正確的字符{0}</ServerInvalidFileName>
+  <ServerFilePathNotFound>文件不存在</ServerFilePathNotFound>
+  <ServerIncorrectPathForFileLink>不正確的對象類型。指定的路徑指向一個文件夾</ServerIncorrectPathForFileLink>
+  <ServerIncorrectPathForFolderLink>不正確的對象類型。指定的路徑指向文件</ServerIncorrectPathForFolderLink>
+  <ServerRootFolderNotFound>對於路徑的根文件夾“{0}”未找到。</ServerRootFolderNotFound>
+  <ServerUnableCreateFolder>無法創建文件夾</ServerUnableCreateFolder>
+  <ServerFileAlreadyExists>文件名稱已經存在</ServerFileAlreadyExists>
+  <ServerFileAlreadyExistsOnRename>
+    你想重命名“{0}”到“{1}”？
+    已存在與在此位置的相同名稱的文件。
+  </ServerFileAlreadyExistsOnRename>
+  <ServerFolderAlreadyExistsOnRename>
+    你想重命名“{0}”到“{1}”？
+    已存在與在此位置的相同名稱的文件夾。
+  </ServerFolderAlreadyExistsOnRename>
+  <ServerFoldersMergeConfirm>
+    此目標已包含一個文件夾名為“{0}”。
+    你還想要這個文件夾合併“{0}”這一個“{1}”？
+  </ServerFoldersMergeConfirm>
+  <ServerFolderWithSameNameAsFileNameAlreadyExists>已經有同名的文件夾“{0}”作為文件名您指定</ServerFolderWithSameNameAsFileNameAlreadyExists>
+  <ServerFileWithSameNameAsFolderNameAlreadyExists>已經存在具有相同名稱的文件“{0}”作為文件夾名稱您指定</ServerFileWithSameNameAsFolderNameAlreadyExists>
+  <ServerFileNotFound>文件“{0}”不是文件夾中找到“{1}”。它可能已被刪除或由其他用戶刪除。</ServerFileNotFound>
+  <ServerDirectoryAlreadyExists>具有此名稱的目錄已存在</ServerDirectoryAlreadyExists>
+  <ServerFolderMoveAlreadeExists>目標文件夾“{0}”是一樣的源文件夾</ServerFolderMoveAlreadeExists>
+  <ServerUploadPathNotFound>用於文件存儲的路徑不是在服務器上找到</ServerUploadPathNotFound>
+  <ServerUploadPathNotSet>在獲取上傳的路徑發生了錯誤。請刷新瀏覽器頁面，然後再試一次。</ServerUploadPathNotSet>
+  <ServerUploadNoChunk>沒有大塊的保存</ServerUploadNoChunk>
+  <ServerUploadWriteChunk>自從寫字節塊</ServerUploadWriteChunk>
+  <ServerUploadCreatingFile>創建文件</ServerUploadCreatingFile>
+  <ServerUploadFileUploaded>該文件已上載</ServerUploadFileUploaded>
+  <ServerUploadWriteError>編寫錯誤</ServerUploadWriteError>
+  <ServerConfigurationError>不正確的配置或應用程序！與網站管理員聯繫</ServerConfigurationError>
+  <ServerPermissionsAllowTypes>當前權限允許該操作僅使用文件類型{0}</ServerPermissionsAllowTypes>
+  <ServerPermissionsDenyTypes>當前權限禁止這種操作與文件類型{0}</ServerPermissionsDenyTypes>
+  <ServerRequestSizeExceeded>上傳的文件大小超過允許服務器設置大小</ServerRequestSizeExceeded>
+  <ServerEmailMsgProcessedFilesSubject>上傳/修改/下載/創建/刪除/共享文件/文件夾</ServerEmailMsgProcessedFilesSubject>
+  <ServerEmailMsgUploadFilesTitle>上傳</ServerEmailMsgUploadFilesTitle>
+  <ServerEmailMsgModifyFilesTitle>改性</ServerEmailMsgModifyFilesTitle>
+  <ServerEmailMsgDownloadFilesTitle>下載</ServerEmailMsgDownloadFilesTitle>
+  <ServerEmailMsgCreateFilesTitle>創建</ServerEmailMsgCreateFilesTitle>
+  <ServerEmailMsgDeleteFilesTitle>刪除</ServerEmailMsgDeleteFilesTitle>
+  <ServerEmailMsgCreatePublicFilesTitle>共享</ServerEmailMsgCreatePublicFilesTitle>
+  <ServerEmailMsgProcessedFilesBody>
+    下面的文件/文件夾為{0} {1}：
+
+{2}
+    
+  </ServerEmailMsgProcessedFilesBody>
+  <ServerEmailMsgPasswordRecoverSubject>找回密碼</ServerEmailMsgPasswordRecoverSubject>
+  <ServerEmailMsgPasswordRecoverBody>
+    您請求收回網頁式檔案管理密碼。您的密碼被重置。如果您認為這是一個錯誤，根本不理這封信，但要注意，您的密碼已被更改。
+    用戶名：{0}
+    新密碼：{1}
+  </ServerEmailMsgPasswordRecoverBody>
+  
+  <ServerEmailMsgUserNameRecoverSubject>用戶名恢復</ServerEmailMsgUserNameRecoverSubject>
+  <ServerEmailMsgUserNameRecoverBody>
+    您請求收回網頁式檔案管理你的名字。
+    用戶名：{0}
+  </ServerEmailMsgUserNameRecoverBody>
+
+  <ServerEmailMsgUserActivationSubject>帳號激活</ServerEmailMsgUserActivationSubject>
+  <ServerEmailMsgUserActivationBody>
+    帳戶（{0}）激活是必需的。
+    要激活您的帳戶，請點擊以下鏈接：{1}
+  </ServerEmailMsgUserActivationBody>
+  <ServerEmailMsgUserRegisteredSubject>用戶註冊</ServerEmailMsgUserRegisteredSubject>
+  <ServerEmailMsgUserRegisteredBody>
+    您成功註冊的網絡文件管理器。
+    用戶名：{0}
+  </ServerEmailMsgUserRegisteredBody>
+  <ServerEmailMsgUserRegisteredForAdminsBody>
+    &lt;h4&gt;新用戶已經註冊&lt;/h4&gt;
+    &lt;strong&gt;用戶名&lt;/strong&gt;：{0} &lt;br /&gt;
+    &lt;strong&gt;電子郵件&lt;/strong&gt;：{1} &lt;br /&gt;
+    &lt;STRONG&gt;日期&lt;/strong&gt;：{2} &lt;br /&gt;
+    &lt;STRONG&gt;額外信息&lt;/strong&gt;：{3} &lt;br /&gt;
+  </ServerEmailMsgUserRegisteredForAdminsBody>
+  <ServerDiskFullError>沒有在盤上足夠的空間。</ServerDiskFullError>
+  <ServerFolderLimitations>文件夾限制：{0}</ServerFolderLimitations>
+  <ServerShortcutAssignedFolderNotFound>沒有找到快捷方式目標路徑分配的文件夾</ServerShortcutAssignedFolderNotFound>
+  <ServerSizeFilesForZipExceeded>中存檔的文件大小超過允許值{0}。</ServerSizeFilesForZipExceeded>
+  <ServerPasteFolderToSubfolderError>目標文件夾“{0}”是源文件夾的子文件夾“{1}”。</ServerPasteFolderToSubfolderError>
+  <ServerLiveConnectAppIDNotSpecified>沒有定義微軟Live Connect應用程序的客戶端ID</ServerLiveConnectAppIDNotSpecified>
+  <ServerSendEmailInfo>作者指定它們作為{0}電子郵件。只允許使用這個電子郵件地址回复。</ServerSendEmailInfo>
+
+  <ServerAntivirusScanningFailed>通過掃描防病毒：“{0} {1}”異常終止。</ServerAntivirusScanningFailed>
+
+  <ServerUserNameNotFound>用戶名為'{0}'未找到。</ServerUserNameNotFound>
+  <ServerFileNameCopySuffix>複製</ServerFileNameCopySuffix>
+
+  <ServerDeleteFolderNTFSAccessDenied>您沒有NTFS權限刪除文件夾“{0}”</ServerDeleteFolderNTFSAccessDenied>
+
+  <ServerMSOOTemplateNotFound>{0}模板未找到</ServerMSOOTemplateNotFound>
+</Localization>

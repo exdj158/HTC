@@ -1,0 +1,1608 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Localization>
+  <!-- Common keys -->
+  
+  <ExtMsgButtonTextYES>bəli</ExtMsgButtonTextYES>
+  <ExtMsgButtonTextNO>Yox</ExtMsgButtonTextNO>
+  
+  <ControlHideFileManager>Hide web faylları meneceri</ControlHideFileManager>
+  
+  <CommonMainTitle>Web faylları giriş</CommonMainTitle>
+  <CommonApplicationLoading>web faylları çıxış Loading</CommonApplicationLoading>
+  <CommonLoadError>Bir səhv ağac məlumat almaq əsnasında meydana gələn</CommonLoadError>
+  <CommonGridAccessDenied>qovluq "{0}" mövcud deyil və ya oxumaq rədd</CommonGridAccessDenied>
+  <CommonNoScript>Bu səhifə JavaScript tələb edir brauzerinizin effektiv olmalıdır! imkan və yenidən daxil edin!</CommonNoScript>
+  <CommonErrorCaption>səhv</CommonErrorCaption>
+  <CommonWarningCaption>xəbərdarlıq</CommonWarningCaption>
+  <CommonInfoCaption>məlumat</CommonInfoCaption>
+  <CommonConfirmCaption>təsdiqləmək</CommonConfirmCaption>
+  <CommonFileNameCaption>Fayl adı</CommonFileNameCaption>
+  <CommonFileNamePrompt>yeni bir fayl adını daxil edin</CommonFileNamePrompt>
+  <CommonFileNewNameValue>Yeni görünüş Document.txt</CommonFileNewNameValue>
+  <CommonFolderNewNameValue>Yeni qovluq</CommonFolderNewNameValue>
+  <CommonZipFileNameCaption>Zip arxiv adı</CommonZipFileNameCaption>
+  <CommonZipFileNamePrompt>File name (daxili avtomatik olaraq əlavə olunacaq)</CommonZipFileNamePrompt>
+  <CommonFolderNameCaption>Qovluq adı</CommonFolderNameCaption>
+  <CommonFolderNamePrompt>yeni qovluq adı daxil edin</CommonFolderNamePrompt>
+  <CommonDeleteOnePrompt>Siz "{0}" silmək istəyirsiniz?</CommonDeleteOnePrompt>
+  <CommonDeleteManyPrompt>Siz bu {0} maddələr silmək istəyirsiniz?</CommonDeleteManyPrompt>
+  <CommonForToday>Bu gün</CommonForToday>
+  <CommonButtonCaptionOK>tamam</CommonButtonCaptionOK>
+  <CommonButtonCaptionCancel>ləğv etmək</CommonButtonCaptionCancel>
+  <CommonButtonCaptionClose>Yaxın</CommonButtonCaptionClose>
+  <CommonButtonCaptionAdd>əlavə etmək</CommonButtonCaptionAdd>
+  <CommonButtonCaptionContinue>davam etdirmək</CommonButtonCaptionContinue>
+
+  <CommonProgressPleaseWait>Zəhmət olmasa, gözləyin</CommonProgressPleaseWait>
+  
+  <CommonFieldLabelName>ad</CommonFieldLabelName>
+  <CommonFieldLabelPath>yol</CommonFieldLabelPath>
+  <CommonFieldLabelSize>boy</CommonFieldLabelSize>
+  <CommonFieldLabelLabels>Labels</CommonFieldLabelLabels>
+  <CommonFieldLabelType>Type</CommonFieldLabelType>
+  <CommonFieldLabelAction>fəaliyyət</CommonFieldLabelAction>
+  <CommonFieldLabelDate>Tarix</CommonFieldLabelDate>
+  <CommonFieldLabelDateTime>Tarix vaxt</CommonFieldLabelDateTime>
+  <CommonFieldLabelDateCreated>Tarix yaradılmışdır</CommonFieldLabelDateCreated>
+  <CommonFieldLabelDateModified>Tarix redaktə</CommonFieldLabelDateModified>
+  <CommonFieldLabelDateAccessed>Tarix əldə</CommonFieldLabelDateAccessed>
+  <CommonFieldLabelValue>dəyər</CommonFieldLabelValue>
+  <CommonFieldLabelUserName>İstifadəçi adı</CommonFieldLabelUserName>
+  <CommonFieldLabelUser>İstifadəçi</CommonFieldLabelUser>
+  <CommonFieldLabelUsers>İstifadəçilər</CommonFieldLabelUsers>
+  <CommonFieldLabelGroupName>Qrup adı</CommonFieldLabelGroupName>
+  <CommonFieldLabelGroup>qrup</CommonFieldLabelGroup>
+  <CommonFieldLabelGroups>Qruplar</CommonFieldLabelGroups>
+  <CommonFieldLabelPassword>parol</CommonFieldLabelPassword>
+  <CommonFieldLabelRepeatPassword>Parolu təkrarlayın</CommonFieldLabelRepeatPassword>
+  <CommonFieldLabelComments>Şərhlər</CommonFieldLabelComments>
+  <CommonValueTypeFolder>qovluq</CommonValueTypeFolder>
+
+  <CommonFieldLabelDescription>təsvir</CommonFieldLabelDescription>
+  <EmptyDescriptionText>təsviri daxil</EmptyDescriptionText>
+  <CommonFieldLabelReadMeTxt>Readme.txt content</CommonFieldLabelReadMeTxt>
+  
+  <CommonWordOr>və ya</CommonWordOr>
+
+  <SortAscText>Sort Ascending</SortAscText>
+  <SortDescText>Azalan sırala</SortDescText>
+
+  <CommonNewDocument>New Document</CommonNewDocument>
+  <CommonNewSpreadsheet>New tablo</CommonNewSpreadsheet>
+  <CommonNewPresentation>New təqdimatı</CommonNewPresentation>
+
+  <CommonWordWrap>Word paketi</CommonWordWrap>
+  
+  <!-- End Common keys -->
+
+  <!-- Labels -->
+
+  <LabelsTitle>Label</LabelsTitle>
+  <LabelsNoLabel>No etiket</LabelsNoLabel>
+  <LabelsColor>rəng</LabelsColor>
+  <LabelsCustomLabel>Custom etiket</LabelsCustomLabel>
+  <LabelsCustomLabelHint>etiket mətn daxil edin</LabelsCustomLabelHint>
+  <LabelsCustomLabelView>Label &amp;nbsp; view: &amp;nbsp; {0} {1} {2}</LabelsCustomLabelView>
+  <LabelsFileLabelledMessage>Uğurla etiketli {0} maddə (lər)</LabelsFileLabelledMessage>
+  <LabelsRemovedMessage>Uğurla aradan {0} etiket (s)</LabelsRemovedMessage>
+  <LabelsNotRemovedMessages>xaric deyil: {0}</LabelsNotRemovedMessages>
+  <LabelsNotLabelledMessage>etiketli deyil: {0}</LabelsNotLabelledMessage>
+  <LabelsLabelRemovedMessage>uğurla silindi Label</LabelsLabelRemovedMessage>
+  <LabelsNewLabel>New Label</LabelsNewLabel>
+  <LabelsLabellingMessage>Labelling</LabelsLabellingMessage>
+  <LabelsRemovingLabelMessage>yazıları aradan qaldırılması</LabelsRemovingLabelMessage>
+  <LabelsLabelInfoTip>kimi qeyd '{0}' {1} istifadəçi tərəfindən '{2}'</LabelsLabelInfoTip>
+
+  <!-- End Labels -->
+
+  <!-- Comments -->
+
+  <CommentsCountInfoTip>{0} comment (s)</CommentsCountInfoTip>
+  <CommentsWriteCommentHint>Şərh və mətbuat yazın '{0}' və ya Ctrl+Enter və ya daxil+Shift ...</CommentsWriteCommentHint>
+
+  <!-- End Comments -->
+
+  <RefreshPageWarningMessage>&lt;b&gt; Diqqət! &lt;/b&gt; Bu əməliyyat brauzer cari səhifə yenilənmiş olmalıdır başa çatdırmaq üçün. &lt;br /&gt; İndi yenilemek üçün istəyirsiniz?</RefreshPageWarningMessage>
+
+  <PagingToolbarBeforePageText>səhifə</PagingToolbarBeforePageText>
+  <PagingToolbarAfterPageText>of {0}</PagingToolbarAfterPageText>
+  <PagingToolbarFirstText>İlk səhifə</PagingToolbarFirstText>
+  <PagingToolbarPrevText>Əvvəlki səhifə</PagingToolbarPrevText>
+  <PagingToolbarNextText>Növbəti səhifə</PagingToolbarNextText>
+  <PagingToolbarLastText>Son səhifə</PagingToolbarLastText>
+  <PagingToolbarDisplayMsg>Displaying {0} - {1} of {2}</PagingToolbarDisplayMsg>
+  <PagingToolbarEmptyMsg>No data keçirmək üçün</PagingToolbarEmptyMsg>
+  
+  <GridTotalLabel>Ümumi:</GridTotalLabel>
+  <GridTotalFilesLabel>faylları</GridTotalFilesLabel>
+  <GridTotalFoldersLabel>qovluq</GridTotalFoldersLabel>
+  
+  <GridDDSelectedRowsText>{0} seçilmiş sıra {1}</GridDDSelectedRowsText>
+  <GridDDSelectedFilesText>{0} seçilmiş faylları</GridDDSelectedFilesText>
+  <GridDDSelectedFoldersText>{0} seçilmiş qovluq</GridDDSelectedFoldersText>
+  <GridDDConfirmCopyMoveTitle>Drop qovluq üçün "{0}"</GridDDConfirmCopyMoveTitle>
+  <GridDDConfirmAddToZipTitle>Saxlayın əlavə et "{0}"</GridDDConfirmAddToZipTitle>
+  <GridDDConfirmAddToZipMessage>Sürüklənəcəklər faylları bu ZIP arxivi əlavə olunacaq. Davam etmək istəyirsiniz? {0}.</GridDDConfirmAddToZipMessage>
+  <GridDDConfirmCopyMoveMsg>müraciət etmək istəyirəm bir hərəkət seçin. Mənbə: "{0}", Hedef qovluq: "{1}" {2} {3}..</GridDDConfirmCopyMoveMsg>
+  <GridDDConfirmCopyMoveToZipMsg>Files zip arxiv əlavə olunacaq. poçt arxiv faylları əlavə etdikdən sonra sürüklənəcəklər faylları müraciət etmək istədiyiniz bir hərəkət seçin. Mənbə: "{0}", Destination ZIP arxivi: "{1}" {2} {3}..</GridDDConfirmCopyMoveToZipMsg>
+  <GridDDDraggedFileNames>&lt;b&gt; faylları sürüklənəcəklər: &lt;/b&gt; {0}</GridDDDraggedFileNames>
+  <GridDDDraggedFolderNames>&lt;b&gt; qovluq sürüklənəcəklər: &lt;/b&gt; {0}</GridDDDraggedFolderNames>
+  <GridDDConfirmTargetFolderOnlyCopyMsg>yalnız surəti faylları sürüklənəcəklər mənbə qovluq üçün cari icazələrin imkan verir. Davam etmək istəyirsiniz? {0}.</GridDDConfirmTargetFolderOnlyCopyMsg>
+  <GridDDConfirmTargetFolderOnlyMoveMsg>yalnız hərəkət faylları sürüklənəcəklər mənbə qovluq üçün cari icazələrin imkan verir. Davam etmək istəyirsiniz? {0}.</GridDDConfirmTargetFolderOnlyMoveMsg>
+
+  <GridRowPublicHint>Yeni pəncərə / nişanı ictimai link açmaq üçün Basın</GridRowPublicHint>
+  <GridRowAlertHint>Bu fayl / qovluq üçün görülən dəyişikliklər Təfərrüatlar üçün Basın</GridRowAlertHint>
+  <GridRowRecentHint>Bu fayl / qovluq tapın</GridRowRecentHint>
+  <GridRowAlertEventHint>bu yer getmək üçün Basın</GridRowAlertEventHint>
+
+  <ProgressCreating>yaradılması</ProgressCreating>
+  <ProgressDeleting>silme</ProgressDeleting>
+  <ProgressLoading>Loading</ProgressLoading>
+  <ProgressSearching>axtarış</ProgressSearching>
+  <ProgressZipping>Sıkıştırma</ProgressZipping>
+  <ProgressUnzipping>açıldığı</ProgressUnzipping>
+  <ProgressZipContents>ZIP arxivi məzmunu əldə</ProgressZipContents>
+  <ProgressPrepareDownload>download hazırlanması</ProgressPrepareDownload>
+  <ProgressMoving>tərəqqi</ProgressMoving>
+  <ProgressCopying>Copying</ProgressCopying>
+  <ProgressRenaming>Adlandırma</ProgressRenaming>
+  <ProgressUpdating>yenilənməsi</ProgressUpdating>
+  <ProgressLoadingEditInPixlr>Pixlr redaktoru Loading</ProgressLoadingEditInPixlr>
+  <ProgressLoadingEdit>Loading redaktor</ProgressLoadingEdit>
+  <ProgressSavingEdit>fayl qənaət</ProgressSavingEdit>
+  <ProgressSaving>əmanət</ProgressSaving>
+  <ProgressExecuting>İcraçı</ProgressExecuting>
+
+  <BalloonFilesDeleted>Silinmiş {0} fayl (s)</BalloonFilesDeleted>
+  <BalloonFoldersDeleted>Silinmiş {0} qovluq (s)</BalloonFoldersDeleted>
+  <BalloonFilesFailed>{0} fayl (s) uğursuz</BalloonFilesFailed>
+  <BalloonFoldersFailed>{0} qovluq (s) uğursuz</BalloonFoldersFailed>
+  <BalloonFilesZipped>sıxılmış {0} fayl (s)</BalloonFilesZipped>
+  <BalloonFoldersZipped>sıxılmış {0} qovluq (s)</BalloonFoldersZipped>
+  <BalloonFilesCopied>sitemizi {0} fayl (s)</BalloonFilesCopied>
+  <BalloonFoldersCopied>sitemizi {0} qovluq (s)</BalloonFoldersCopied>
+  <BalloonFilesMoved>{0} fayl (s) köçürülüb</BalloonFilesMoved>
+  <BalloonFoldersMoved>{0} qovluq (s) köçürülüb</BalloonFoldersMoved>
+  <BalloonNotUnzipped>{0} fayl (s) unpacked edilməyib</BalloonNotUnzipped>
+  <BalloonFilesUploaded>qəbul {0} fayl (s)</BalloonFilesUploaded>
+  <BalloonFilesNotUploaded>yükləməyib {0} fayl (s)</BalloonFilesNotUploaded>
+  <BalloonSomeFilesNotUploaded>Bəzi faylları qəbul edilə bilməz</BalloonSomeFilesNotUploaded>
+  <BalloonCreatedSuccessfully>uğurla yaradıldı</BalloonCreatedSuccessfully>
+  <BalloonUnzippedSuccessfully>unpacked uğurla</BalloonUnzippedSuccessfully>
+  <BalloonRenamedSuccessfully>uğurla Renamed</BalloonRenamedSuccessfully>
+  <BalloonSavedSuccessfully>uğurla Saxlanılan</BalloonSavedSuccessfully>
+  <BalloonCopiedToClipboard>panoya kopyalanır</BalloonCopiedToClipboard>
+  <BalloonCopyToClipboardFailed>Copy uğursuz Panoya</BalloonCopyToClipboardFailed>
+
+  <CommandCopyToClipboard>panoya kopyalayın</CommandCopyToClipboard>
+  <CommandCopyLinkToClipboard>panoya linki kopyalayın</CommandCopyLinkToClipboard>
+  <ClipboardScreenshotTitlePrefix>təsvir</ClipboardScreenshotTitlePrefix>
+  <ClipboardScreenshotHint>Şəkillər: Siz panoya bir ekran yapışdırın (Press &lt;b&gt; Ctrl+PrtSc &lt;/b&gt; və &lt;b&gt; Ctrl+V &lt;/b&gt;) və ya sizin redaktor bir image (Press &lt;b&gt; Ctrl+V &lt;/b&gt;).</ClipboardScreenshotHint>
+  <ClipboardFileHint>Siz həmçinin panoya bir fayl yapışdırın</ClipboardFileHint>
+
+  <CommandClouds>Cloud anbarlar</CommandClouds>
+  <CommandCloudsDownloadTo>yükləmək ...</CommandCloudsDownloadTo>
+  <CommandCloudsUploadFrom>yüklemek ...</CommandCloudsUploadFrom>
+  <CommandCloudsAbout>Cloud anbarlar haqqında</CommandCloudsAbout>
+  
+  <CommandBack>geri</CommandBack>
+  <CommandForward>irəli</CommandForward>
+  <CommandRecentFolders>Son qovluq</CommandRecentFolders>
+  <CommandHome>Ev</CommandHome>
+  <CommonActions>Tədbirlər</CommonActions>
+  <CommandMultiSelect>Multi-seçin</CommandMultiSelect>
+  <CommandShare>səhm</CommandShare>
+  <CommandSorting>çeşidləyici</CommandSorting>
+  
+  <CommandFileManager>fayl meneceri qayıt</CommandFileManager>
+  <CommandFolders>Folders</CommandFolders>
+  <CommandGridView>baxış</CommandGridView>
+  <CommandRefresh>təzələmək</CommandRefresh>
+  <CommandThumbnailView>thumbnail görünüşü</CommandThumbnailView>
+  <CommandDetailedView>Siyahı görünüşü</CommandDetailedView>
+  <CommandDetailsPane>Ətraflı bölmesinde</CommandDetailsPane>
+  <CommandFavorites>Seçilmişlərə</CommandFavorites>
+  <CommandAddToFavorites>Seçilmişlərə əlavə et</CommandAddToFavorites>
+  <CommandAddToFavoritesHint>Seçilmişlərə əlavə cari qovluq əlavə edin</CommandAddToFavoritesHint>
+  <AddingToFavoritesMessage>Seçilmişlərə əlavə</AddingToFavoritesMessage>
+  <RemoveFromFavoritesMessage>Seçilmişlərə silme</RemoveFromFavoritesMessage>
+  <FolderAlreadyAddedInFavorites>qovluq "{0}" artıq Seçilmişlərə mövcuddur</FolderAlreadyAddedInFavorites>
+  <FolderAddedInFavoritesSuccessfully>qovluq "{0}" uğurla Seçilmişlərə əlavə edildi</FolderAddedInFavoritesSuccessfully>
+  <FavoritesIsOverflowed>Bu, "{0}" Seçilmişlərə cari qovluq əlavə etmək mümkün deyildi. bəzi yer azad və yenidən cəhd bəzi Seçilmişlərə silin.</FavoritesIsOverflowed>
+  <RemoveFromFavoritesHint>Sil "{0}" Seçilmişlərə</RemoveFromFavoritesHint>
+  <AddToHomeScreenIOSHint>Tap {0} və sonra &lt;strong&gt; "Home Screen əlavə et" &lt;/strong&gt;</AddToHomeScreenIOSHint>
+  <CommandSearch>axtarış</CommandSearch>
+  <CommandUpload>Yükləmək</CommandUpload>
+  <CommandSettings>Settings</CommandSettings>
+  <CommandLanguage>dil</CommandLanguage>
+  <CommandAdministration>Administration</CommandAdministration>
+  <CommandAdminPanel>Admin panel</CommandAdminPanel>
+  <CommandChangePassword>Change parol</CommandChangePassword>
+  <ProgressChangePassword>dəyişdirilməsi parol</ProgressChangePassword>
+  <CommandChangeEmail>Change e-mail</CommandChangeEmail>
+  <ProgressChangeEmail>Dəyişdirilməsi e-mail</ProgressChangeEmail>
+  <CommandMobileView>Mobile interface (smartfon)</CommandMobileView>
+  <CommandStandardView>Tam versiyası</CommandStandardView>
+  <CommandInstallIOSApp>IOS app Install</CommandInstallIOSApp>
+  <CommandInstallAndroidApp>Android app Install</CommandInstallAndroidApp>
+  <CommandAddServerToMobileApp>mobil app bu server əlavə et</CommandAddServerToMobileApp>
+  <CommandAddToHomeScreen>Ev ekran əlavə et</CommandAddToHomeScreen>
+  <CommandDiagnostics>Diagnostic səhifə</CommandDiagnostics>
+  <CommandLicenseInfo>Lisenziya məlumat</CommandLicenseInfo>
+  <CommandLogout>Çıxış</CommandLogout>
+  <CommandLogoutHint>cari sessiya başa çatdırmaq üçün basın</CommandLogoutHint>
+  <CommandNew>yeni</CommandNew>
+  <CommandFile>Fayl</CommandFile>
+  <CommandEmptyFile>Boş fayl</CommandEmptyFile>
+  <CommandNewMSOODocument>MS Office Online Document</CommandNewMSOODocument>
+  <CommandNewOffice365Document>Office 365 ilə Document</CommandNewOffice365Document>
+  <CommandNewMSOOWord>Word Document</CommandNewMSOOWord>
+  <CommandNewMSOOExcel>Excel elektron tablo</CommandNewMSOOExcel>
+  <CommandNewMSOOPowerPoint>PowerPoint Presentation</CommandNewMSOOPowerPoint>
+  <CommandNewGoogleDocument>Google Document</CommandNewGoogleDocument>
+  <CommandNewGoogleDocs>Google Docs</CommandNewGoogleDocs>
+  <CommandNewGoogleSheets>Google Sheets</CommandNewGoogleSheets>
+  <CommandNewGoogleSlides>Google Slayd</CommandNewGoogleSlides>
+  <CommandNewImage>Pixlr Image</CommandNewImage>
+  <CommandFolder>qovluq</CommandFolder>
+  <CommandNewFile>New boş fayl</CommandNewFile>
+  <CommandNewFolder>Yeni qovluq</CommandNewFolder>
+  <CommandNewWithTemplate>şablon istifadə ...</CommandNewWithTemplate>
+  <CommandRename>Rename</CommandRename>
+  <CommandDelete>sil</CommandDelete>
+  <CommandCopy>köçürmək</CommandCopy>
+  <CommandMove>Move</CommandMove>
+  <CommandCut>kəsmək</CommandCut>
+  <CommandCopyTo>Copy to ...</CommandCopyTo>
+  <CommandMoveTo>Köçmək...</CommandMoveTo>
+  <CommandCopyCutClipboardSuffix>panoya</CommandCopyCutClipboardSuffix>
+  <CommandPaste>Yapışdır</CommandPaste>
+  <CommandPasteInto>daxil yapışdırıb</CommandPasteInto>
+  <CommandZip>bir Zip arxiv kompres</CommandZip>
+  <CommandZipMenu>Zip / Unzip</CommandZipMenu>
+  <CommandUnzip>Açın Zip</CommandUnzip>
+  <CommandUnzipSelected>açın seçilmiş</CommandUnzipSelected>
+  <CommandUnzipAll>bütün açın</CommandUnzipAll>
+  <CommandUnzipTo>qovluğa</CommandUnzipTo>
+  <CommandUnzipToCurrent>Cari qovluğa</CommandUnzipToCurrent>
+  <MessageUnzipToFolder>Bu açmaq üçün qovluq adını yazın</MessageUnzipToFolder>
+  <MessageUnzipPasswordHint>Bir parol açıldığı üçün zəruri bilirik ki, aşağıdakı sahəsində daxil</MessageUnzipPasswordHint>
+  <MessageUnzipNeedPassword>A parol faylları açmaq üçün tələb olunur</MessageUnzipNeedPassword>
+  <ZipPasswordProtectHint>zip arxiv parol qorumaq üçün, aşağıdakı sahəsində parol daxil edin. Əks halda, boş sahəni tərk</ZipPasswordProtectHint>
+  <AppendToZipPasswordProtectHint>Üçün, ZIP arxivi əlavə faylları parol qorumaq aşağıdakı sahəsində parol daxil edin. Əks halda, boş sahəni tərk</AppendToZipPasswordProtectHint>
+  <ZipPasswordProtectWindowTitle>parol ilə arxivləşdirmə</ZipPasswordProtectWindowTitle>
+  <OpenFolderAfterUnzipCheckBox>Open qovluq açıldığı sonra</OpenFolderAfterUnzipCheckBox>
+  <CommandUnzipToNew>yeni bir qovluğa</CommandUnzipToNew>
+  <CommandZipContents>Saxlayın content</CommandZipContents>
+  <ArchiveContentsTitle>Arxiv content "{0}"</ArchiveContentsTitle>
+  <CommandDownload>Download</CommandDownload>
+  <CommonDownloadAll>bütün Download</CommonDownloadAll>
+  <DownloadListDragFile>Siz sürükleyin-n-drop bilər faylları masa üstü</DownloadListDragFile>
+  <CommandZipDownload>Kompres və download</CommandZipDownload>
+  <CommandView>Browser View</CommandView>
+  <CommandDownloadOrView>Download və ya view</CommandDownloadOrView>
+  <CommandPreview>Şəkillər preview</CommandPreview>
+  <CommandFlashPreview>Flash preview</CommandFlashPreview>
+  <GettingSizeFlashMovie>flash film əldə ölçüsü</GettingSizeFlashMovie>
+  <CommandEdit>mətn faylı olaraq Edit</CommandEdit>
+  <CommandEditView>mətn faylı olaraq View</CommandEditView>
+  <AceNotLoadedMessage>Ace redaktoru yükləmək mümkün deyil</AceNotLoadedMessage>
+  <VideoJsNotLoadedMessage>VideoJS oyunçu yükləmək mümkün deyil</VideoJsNotLoadedMessage>
+  <CommandMenuEdit>redaktə etmək</CommandMenuEdit>
+  <CommandSelectAll>bütün seçin</CommandSelectAll>
+  <CommandInvertSelection>Seçilən xaricindəkiləri</CommandInvertSelection>
+  <CommandLinkToFile>fayl / qovluq Link</CommandLinkToFile>
+  <!--Share link-->
+  <CommandMakePublicFolder>ictimai link yaradın</CommandMakePublicFolder>
+  <PublicViewInGoogle>Google View</PublicViewInGoogle>
+  <PublicViewinOWA>OWA bax</PublicViewinOWA>
+  <!--Make public folder (share)-->
+  <CommandViewWithGoogleDoc>Google Docs View</CommandViewWithGoogleDoc>
+  <CommandViewWithShareCad>ShareCad.org da bax</CommandViewWithShareCad>
+  <CommandViewWithAutodesk>Autodesk bax</CommandViewWithAutodesk>
+  <CommandViewWithBox>Box View</CommandViewWithBox>
+  <CommandViewWithOWA>Office Web Apps View</CommandViewWithOWA>
+  <CommandCloudConvert>CloudConvert ilə Convert</CommandCloudConvert>
+  <ProgressGetCloudConvertOutputFormats>formatların əldə</ProgressGetCloudConvertOutputFormats>
+  <ProgressCloudConvertConverting>Converting</ProgressCloudConvertConverting>
+  <CloudConvertWindowTitle>Convert '{0}'</CloudConvertWindowTitle>
+  <CloudConvertWindowConvertButton>Çevirmək</CloudConvertWindowConvertButton>
+  <CloudConvertWindowOutputFormatsLabel>Çıxış format</CloudConvertWindowOutputFormatsLabel>
+  <CloudConvertDownloadLinkLabel>download Link</CloudConvertDownloadLinkLabel>
+  <CloudConvertSaveAsLabel>(Daxili avtomatik olaraq əlavə olunacaq) kimi saxla:</CloudConvertSaveAsLabel>
+  <CloudConvertNoOutputFormats>konvertasiya üçün mövcud formatları var</CloudConvertNoOutputFormats>
+  <CloudConvertNoUrlForDownload>Bu yüklemek üçün link almaq nail olunmayıb</CloudConvertNoUrlForDownload>
+  <ProgressCloudConvertUploading>CloudConvert uploading</ProgressCloudConvertUploading>
+  <CloudConvertSaveAsNameBlank>burada Type adı</CloudConvertSaveAsNameBlank>
+  <CancelEditButton>redaktə ləğv</CancelEditButton>
+  <HideButton>gizləmək</HideButton>
+  <EditDocumentCancelHint>Siz redaktə sənədlə pəncərə bağlamaq sonra, AutoSaved olunacaq. Siz {0} (bu halda, sənəd hələ redaktoru bağlandıqdan sonra qeyd olunur) basaraq bu informasiya qutusu gizleyebilirsiniz. &lt;br /&gt; &lt;br /&gt; Siz sənəd saxlamaq istəmirsinizsə, mətbuat {1} (bu halda, redaktor pəncərə bağlanıb olunacaq).</EditDocumentCancelHint>
+  <EditDocumentSaveHint>İndi {0} basaraq sənəddə dəyişikliklər saxlaya bilərsiniz. Diqqət! Siz redaktoru pəncərə yaxın sonra, bu da AutoSaved olunacaq.</EditDocumentSaveHint>
+  <CommandEditInMSOffice>MS Office Edit</CommandEditInMSOffice>
+  <CommandEditInOOo>OpenOffice / LibreOffice Edit</CommandEditInOOo>
+  <CommandViewInMSOffice>MS Office View</CommandViewInMSOffice>
+  <CommandViewInOOo>OpenOffice / LibreOffice bax</CommandViewInOOo>
+  <CommandEditInPixlr>Pixlr Edit</CommandEditInPixlr>
+  <CommandEditInAdobe>Adobe Creative Cloud Edit</CommandEditInAdobe>
+  <AdobeImageEditorSavedAsNewTypeMessage>Adobe Image Redaktor dəyişdi şəkil formatında qeyd edildi {0}</AdobeImageEditorSavedAsNewTypeMessage>
+  <CommandEditInGoogle>Google Drive Edit</CommandEditInGoogle>
+  <EditInGoogleConvertMessage>redaktə sonra sənəd format çevrilir {1} {0} {2}</EditInGoogleConvertMessage>
+  <EditInGoogleLinkError>Google Drive sənəd redaktə keçid bilmir</EditInGoogleLinkError>
+  <EditInGoogleWaiting>Google Drive redaktə başa gözləyir</EditInGoogleWaiting>
+  <CommandEditInMSOO>MS Office Onlayn Edit</CommandEditInMSOO>
+  <EditInMSOOLinkError>MS Office Online sənəd redaktə keçid bilmir</EditInMSOOLinkError>
+  <EditInMSOOWaiting>MS Office Onlayn redaktə başa gözləyir</EditInMSOOWaiting>
+  <CommandEditInOffice365>Office 365 Edit</CommandEditInOffice365>
+  <EditInOffice365LinkError>Office 365 sənəd redaktə keçid bilmir</EditInOffice365LinkError>
+  <EditInOffice365Waiting>Office 365 redaktə başa gözləyir</EditInOffice365Waiting>
+  <CommandSave>Yadda saxla</CommandSave>
+  <CommandSaveAs>kimi saxla ...</CommandSaveAs>
+  <CommandAppRestart>Restart proqram</CommandAppRestart>
+  <CommandPlayVideoFlash>Flash player video Play</CommandPlayVideoFlash>
+  <CommandPlayVideoHtml5>Play video</CommandPlayVideoHtml5>
+  <CommandPlayAudioHtml5>Play audio</CommandPlayAudioHtml5>
+  <CommandPlayVideo>Play video</CommandPlayVideo>
+  <CommandPlayAudio>Play audio</CommandPlayAudio>
+  <CommandConvertVideo>video Convert</CommandConvertVideo>
+
+  <ViewInServiceLink>Faylın əvvəlki versiyasını görmək üçün buraya basın</ViewInServiceLink>
+  <EditInServiceLink>sənəd redaktə etmək üçün buraya basın</EditInServiceLink>
+
+  <OfficeEditCopyLinkLabel>aşağıdakı linki kopyalayın və Office tətbiqi açın:</OfficeEditCopyLinkLabel>
+  <OfficeRunError>Bu başlamaq mümkün deyil {0}</OfficeRunError>
+  <BadPathToFile>Bu fayl yolunu tapmaq mümkün deyildi</BadPathToFile>
+  <FixBasicAuthAlertTitle>Diqqət!</FixBasicAuthAlertTitle>
+  <FixBasicAuthAlertMessage>Microsoft Office SSL olmadan əsas identifikasiyası ilə işləyir! Sizin ofis üçün bu düzeltebilirsiniz. Daha çox məlumat üçün baxın {0}.</FixBasicAuthAlertMessage>
+  <FixBasicAuthAlertCheckBoxText>Artıq bu dialoq göstərmək üçün deyil.</FixBasicAuthAlertCheckBoxText>
+  <CommandDetails>Ətraflı</CommandDetails>
+  <CommonButtonCaptionAddDetail>detal əlavə et</CommonButtonCaptionAddDetail>
+  <CommonButtonCaptionAddComment>Şərh əlavə et</CommonButtonCaptionAddComment>
+  <DetailsWindowTitle>Ətraflı "{0}"</DetailsWindowTitle>
+  <FileDetailsSave>dəyişiklikləri tətbiq</FileDetailsSave>
+  <FileDetailsIgnoreChanges>məhəl qoymamaq</FileDetailsIgnoreChanges>
+  <FileDetailsCloseConfirmTitle>fayl details pəncərə bağlanıb olunur</FileDetailsCloseConfirmTitle>
+  <FileDetailsCloseConfirmMsg>Diqqət! dəyişikliklər hələ xilas deyil. Siz pəncərə bağlanması əvvəl bu dəyişikliklər müraciət etmək istəyirəm bir hərəkət seçin.</FileDetailsCloseConfirmMsg>
+  <FileDetailsGridTitleColumn>başlıq</FileDetailsGridTitleColumn>
+  <FileDetailsGridAuthorColumn>Son müəllif</FileDetailsGridAuthorColumn>
+  <LoadingDetailsMask>Loading details</LoadingDetailsMask>
+  <NewDetailsTitle>New Title</NewDetailsTitle>
+  <NewDetailsValue>Yeni detallar dəyəri</NewDetailsValue>
+  <DetailsSavingMsg>ətraflı Saving</DetailsSavingMsg>
+  <ProgressLoadingEditInOffice>Office redaktə hazırlaşır</ProgressLoadingEditInOffice>
+  <MenuFilterText>Filters</MenuFilterText>
+  <EmptyTextFilter>Filter daxil edin ...</EmptyTextFilter>
+  <AfterDateFilterText>sonra</AfterDateFilterText>
+  <BeforeDateFilterText>əvvəl</BeforeDateFilterText>
+  <OnDateFilterText>haqqında</OnDateFilterText>
+  <YesBooleanFilterText>bəli</YesBooleanFilterText>
+  <NoBooleanFilterText>Yox</NoBooleanFilterText>
+  <CommandEditWithZoho>Zoho Edit</CommandEditWithZoho>
+  <ZohoNotSupportedFormatMessage>uzadılması Zoho tərəfindən dəstəklənmir. Bax {0}.</ZohoNotSupportedFormatMessage>
+  <ProgressLoadingEditInZoho>Loading Zoho redaktor</ProgressLoadingEditInZoho>
+  <CommandSubMenuViewAndEdit>View / edit</CommandSubMenuViewAndEdit>
+  <CommandSubMenuShare>səhm</CommandSubMenuShare>
+  <CommandSubMenuMore>daha</CommandSubMenuMore>
+  <StopUploadingButtonText>dayandırmaq</StopUploadingButtonText>
+  <SimpleUploadErrorInfo>fayl yüklemek zaman (s) bir səhv var idi. Bax &lt;br /&gt; {0} Daha çox məlumat &lt;/a&gt; üçün</SimpleUploadErrorInfo>
+  <BalloonAbortFilesUploaded>faylları yükleme ləğv edildi</BalloonAbortFilesUploaded>
+  <UploadDragNDropTab>Drag &amp;drop</UploadDragNDropTab>
+  <UploadDragNDropTabImages>Drag &amp;drop+images</UploadDragNDropTabImages>
+  <DnDGridProgressColumn>tərəqqi</DnDGridProgressColumn>
+  <DnDFileReadingError>səhv oxumaq. Hata kodu: {0}.</DnDFileReadingError>
+  <DnDFileReadingAbort>ləğv oxu. Hata kodu: {0}.</DnDFileReadingAbort>
+  <DnDFileUploadingError>Yükleme səhv. {0}</DnDFileUploadingError>
+  <DnDFileUploadingAbort>Yükleme ləğv.</DnDFileUploadingAbort>
+  
+  <CommandWebFoldersLinks>Map web qovluq</CommandWebFoldersLinks>
+  <CommandSyncWebFolders>yerli qovluq ilə Sync</CommandSyncWebFolders>
+  <WebFolderLinksFieldLabel>Web qovluq links</WebFolderLinksFieldLabel>
+  <WebFolderLinksForWindows64Note>əsas birləşməsi basın {0} Win+R {1}. {0} Open command line daxil edin: {1} sahəsində (aşağıda command line nümunələri bax) basın {0} OK {1}. Windows identifikasiyası tam ixtisaslı domen adları istifadə etmək üçün: {2}.</WebFolderLinksForWindows64Note>
+  <OpenLibreOfficeRunCommandNote>Və ya əsas birləşməsi basın {0} Win+R {1}, {0} Open aşağıdakı command line daxil edin: {1} sahə və mətbuat {0} OK {1}</OpenLibreOfficeRunCommandNote>
+  <WebFolderLinksForMacOSNote>"Finder" menyu açıq {0} go&gt; Server bağlan {1}. {0} "Server ünvanı" {1} sahəsində web qovluq link daxil edin. {0} "Connect" düyməsinə basın {1}. Yeni informasiya seçin {0} "Qonaq" {1} və ya {0} "Qeydiyyatlı istifadəçi" {1} (Windows identifikasiyası üçün). {0} "Connect" düyməsinə basın {1}.</WebFolderLinksForMacOSNote>
+  <WebFolderLinksForUbuntuNote>Open {0} go&gt; Yer ... {1} yeri sahəyə web qovluq link kopyalayın.</WebFolderLinksForUbuntuNote>
+  <LinksToWebFoldersWindowText>Siz yerli OS bir şəbəkə sürücü kimi görmək qovluq xəritəsi bilər. Xəritəçəkmə sonra MS Office və ya OpenOffice yerli olanları və ya redaktə sənədlər kimi faylları ilə işləyə bilər. {0} xəritəsi haqqında kömək baxın.</LinksToWebFoldersWindowText>
+  <CommonFileTypeNameCaption>"{0}" fayl adı</CommonFileTypeNameCaption>
+  <CommonFileTypeNamePrompt>Yeni "{0}" fayl adını daxil edin</CommonFileTypeNamePrompt>
+  
+  <PixlrEditorWindowTitle>Pixlr redaktoru {0}</PixlrEditorWindowTitle>
+  <PixlrSaveImageSuccessMessage>image "{0}" uğurla xilas oldu. Yeni bir adı ilə image xilas əgər siyahısı yenileyin.</PixlrSaveImageSuccessMessage>
+  <CommonFileImageNewName>New image</CommonFileImageNewName>
+  <CommandChangeTheme>Change mövzu</CommandChangeTheme>
+  
+  <CommandHelp>kömək</CommandHelp>
+
+  <OpeningShortcutProgress>Açılış qısa</OpeningShortcutProgress>
+  <CommandCreateShortcut>Shortcut (simvolik link)</CommandCreateShortcut>
+  <ShortcutNameHint>Shortcut adı</ShortcutNameHint>
+  <ShortcutTargetPathHint>Destination yol</ShortcutTargetPathHint>
+  <CreateShortcutButtonTitle>yaratmaq</CreateShortcutButtonTitle>
+  <CreatingShortcutProgress>yaradılması qısa</CreatingShortcutProgress>
+  <CreateShortcutSuccessMessage>Shortcut "{0}" uğurla üçün yaradılmışdır "{1}".</CreateShortcutSuccessMessage>
+
+  <OpeningInternetShortcutProgress>Internet qısa açılması</OpeningInternetShortcutProgress>
+  <InternetShortcutNotValidMsg>Bu Internet Kısayol hədəf URL etibarlı deyil</InternetShortcutNotValidMsg>
+  <InternetShortcutWindowTitle>link getmək</InternetShortcutWindowTitle>
+  
+  <CommandVersioning>Çeşitleme</CommandVersioning>
+  <CommandVersionHistory>Version tarixi</CommandVersionHistory>
+  <CommandCheckOut>Yoxla</CommandCheckOut>
+  <CommandCheckIn>Kontrol</CommandCheckIn>
+  <CommandUndoCheckOut>Çıxış etmək</CommandUndoCheckOut>
+  <VersionHistoryObtainingMessage>Əldə version tarixi</VersionHistoryObtainingMessage>
+  <NoVersionHistoryMessage>Seçilmiş fayl version tarixi yoxdur</NoVersionHistoryMessage>
+  <FileIsCheckedOutMessage>file "{0}" artıq istifadəçi tərəfindən yoxlanılır "{1}" ın {2}</FileIsCheckedOutMessage>
+  <CheckingOutMessage>Out yoxlanılması</CheckingOutMessage>
+  <SuccessfullyCheckedOutMessage>file "{0}" uğurla istifadəçi tərəfindən buraxılıb "{1}"</SuccessfullyCheckedOutMessage>
+  <FileIsNotCheckedOutMessage>file "{0}" hələ tanış deyil</FileIsNotCheckedOutMessage>
+  <FileIsCheckedOutOtherUserMessage>file "{0}" başqa bir istifadəçi tərəfindən yoxlanılır "{1}" ın {2}.</FileIsCheckedOutOtherUserMessage>
+  <FileUndoCheckOutForbiddenMessage>Siz başqa bir istifadəçi tərəfindən tətbiq çek ləğv edə bilməz.</FileUndoCheckOutForbiddenMessage>
+  <FileCheckInForbiddenMessage>Siz artıq başqa bir istifadəçi tərəfindən yoxlanılmış bir fayl kontrol edə bilərsiniz.</FileCheckInForbiddenMessage>
+  <FileUndoCheckOutConfirmMessage>Siz çek ləğv varsa, sənədin tətbiq dəyişikliklər xilas olmaz! Siz çek ləğv etmək istəyirəm əminsinizmi?</FileUndoCheckOutConfirmMessage>
+  <FileVersionDeleteConfirmTitle>Fayl versiyası silme</FileVersionDeleteConfirmTitle>
+  <FileVersionDeleteConfirmMessage>Siz fayl seçilmiş versiyasını silmək istədiyinizdən əminsinizmi?</FileVersionDeleteConfirmMessage>
+  <FileVersionRestoreConfirmTitle>Fayl versiyası bərpası</FileVersionRestoreConfirmTitle>
+  <FileVersionRestoreConfirmMessage>əmin fayl seçilmiş versiyasını bərpa etmək istəyirəm ki, var? {0} Bəli, seçilmiş versiyası xilas olacaq olan fayl daxil edin. Siz dəyişikliklər (və ya müəyyən boş dəyəri) olmadan bu dəyər tərk seçilmiş version seçilmiş fayl (fayl əvvəlki content version tarix əlavə olunacaq) əvəz edəcək {1} Faylın adı.</FileVersionRestoreConfirmMessage>
+  <UndoCheckingOutMessage>Çıxış ləğv</UndoCheckingOutMessage>
+  <SuccessfullyUndoCheckedOutMessage>bir fayl üçün kontrol ləğvi "{0}" uğurla başa çatmışdır.</SuccessfullyUndoCheckedOutMessage>
+  <SuccessfullyCheckedInMessage>file "{0}" uğurla istifadəçi tərəfindən yoxlanılır "{1}"</SuccessfullyCheckedInMessage>
+  <CheckingInMessage>In yoxlanılması</CheckingInMessage>
+  <VersionHistoryTitle>Fayl versiyasını "{0}"</VersionHistoryTitle>
+  <VersionHistoryGridNumberColumn>Ver.</VersionHistoryGridNumberColumn>
+  <VersionHistoryGridNotesColumn>Qeydlər</VersionHistoryGridNotesColumn>
+  <CommandRestoreVersion>bərpa etmək</CommandRestoreVersion>
+  <ProgressPrepareDownloadOldVersion>köhnə versiyasını hazırlaşır</ProgressPrepareDownloadOldVersion>
+  <FileVersionNotFoundMessage>Seçilmiş fayl versiyası tapılmadı.</FileVersionNotFoundMessage>
+  <ProgressDeletingVersion>Version silinməsi</ProgressDeletingVersion>
+  <ProgressRestoringVersion>Version bərpası</ProgressRestoringVersion>
+  <FileNeedCheckInMessage>kontrol və ya seçilmiş fayl üçün çek ləğv və yenidən cəhd edin.</FileNeedCheckInMessage>
+  <FileCheckedOutEditForbiddenMessage>Siz faylı silmək / / hərəkət / dəyişdirmək adını dəyişmək olmaz "{0}" Bu istifadəçi tərəfindən həyata yoxlanılır isə "{1}" ın {2}</FileCheckedOutEditForbiddenMessage>
+  <FileUploadCheckInLabel>Siz seçilmiş fayl-kontrol və ya fayl yeni versiyasını (aşağıda upload formu istifadə) yükleyebilirsiniz. Bir seçilmiş fayl yeni versiyasını yaratmaq istəyirsinizsə, burada hər hansı bir faylları yüklemek yoxdur.</FileUploadCheckInLabel>
+  <FileUploadCheckInInvalidFileName>Yüklənilən fayl adı seçilmiş fayl adı kimi tam eyni olmalıdır</FileUploadCheckInInvalidFileName>
+  <CheckOutVersionNotes>Bu versiya avtomatik yaradıldı</CheckOutVersionNotes>
+  <RestoreVersionNotes>Bu versiya avtomatik versiyası bərpa sonra yaradılmışdır {0} istifadəçi "{1}"</RestoreVersionNotes>
+  <IsCheckedOutHint>Fayl tanış olmuşdur</IsCheckedOutHint>
+  <ExistsOldVersionsHint>fayl digər versiyaları var</ExistsOldVersionsHint>
+  <IsLockedHint>fayl kilidli</IsLockedHint>
+  <FileWasCreatedHint>{0} əvvəl yaradılmışdır</FileWasCreatedHint>
+  <FileWasModifiedHint>{0} öncə dəyişdirildi</FileWasModifiedHint>
+  <CommonChangedAgo>{0} əvvəl</CommonChangedAgo>
+  <DaysShort>d</DaysShort>
+  <HoursShort>h</HoursShort>
+  <MinutesShort>m</MinutesShort>
+  <FileContainsMetaDataHint>Tərkibində bəzi detallar (metadata)</FileContainsMetaDataHint>
+  <FileMetaDataCaptionMobile>Metadata</FileMetaDataCaptionMobile>
+
+  <ExistsPublicLinksFileHint>fayl ictimai əlaqələri var</ExistsPublicLinksFileHint>
+  <ExistsPublicLinksFolderHint>qovluq ictimai əlaqələri var</ExistsPublicLinksFolderHint>
+  <PublicLinkNotFound>"{0}" tapılmadı İctimai link</PublicLinkNotFound>
+
+  <PublicLinksDeleteWindowTitle>ictimai link silin (s)</PublicLinksDeleteWindowTitle>
+  <PublicLinksDeleteLinkButton>link silin</PublicLinksDeleteLinkButton>
+  <PublicLinksDeleteConfirmMsg>Seçdiyiniz ictimai links silmək istəyirsiniz?</PublicLinksDeleteConfirmMsg>
+  <PublicLinksDeleteSingleConfirmMsg>Bu linki silmək istəyirəm əminsinizmi?</PublicLinksDeleteSingleConfirmMsg>
+
+  <DetailsMultiValue>(Multi dəyər)</DetailsMultiValue>
+
+  <GridBottomFilesSizeInfo>Seçilmiş: {0} / {1}</GridBottomFilesSizeInfo>
+  <GridBottomFilesFoldersInfo>fayllar: {0} / {1} qovluq: {2} / {3}</GridBottomFilesFoldersInfo>
+
+  <AmountOfDownloadingsFile>downloads</AmountOfDownloadingsFile>
+
+  <CookiesDisabledMessage>Brauzerinizin cookie funksionallığı bağlıdır. yandırmaq və yenidən başladın browser edin.</CookiesDisabledMessage>
+
+  <CommandSendEmail>e-poçt göndər</CommandSendEmail>
+  <CommandSendWithGmail>Gmail ilə göndər</CommandSendWithGmail>
+  <CommandSendWithOutlook>Outlook ilə göndər</CommandSendWithOutlook>
+  <SendEmailTo>qədər</SendEmailTo>
+  <SendEmailBulkMailingListHint>&lt;b&gt; Mailing siyahısı &lt;/b&gt; &lt;br /&gt; Siz e-poçt göndərmək üçün bütün qrupları daxil edə bilərsiniz</SendEmailBulkMailingListHint>
+  <SendEmailBulkMailingListWindowTitle>Sizin e-poçt üçün seçin alıcıları</SendEmailBulkMailingListWindowTitle>
+  <SendEmailEmptyMailingListMessage>Mail siyahısı boşdur</SendEmailEmptyMailingListMessage>
+  <SendEmailSenderEmail>Sender e-poçt</SendEmailSenderEmail>
+  <SendEmailSubject>mövzu</SendEmailSubject>
+  <SendEmailFilesAsLinksTo>Seçilmiş faylları links göndər</SendEmailFilesAsLinksTo>
+  <SendEmailFilesAsAttachements>faylları kimi seçilmiş faylları göndər</SendEmailFilesAsAttachements>
+  <SendEmailSend>Göndər</SendEmailSend>
+  <SendEmailProgressMessage>e-poçt göndərmək</SendEmailProgressMessage>
+  <GettingMailingListProgressMessage>poçt siyahısı əldə</GettingMailingListProgressMessage>
+  <SendEmailSuccessMessage>Email uğurla göndərildi.</SendEmailSuccessMessage>
+  <SendEmailResultsMessage>Sent. {0} &lt;br /&gt; Uğursuz: {1} {2}.</SendEmailResultsMessage>
+  <SmtpServerSettingsIncorrect>SMTP-server variantları boş və ya səhv ya var</SmtpServerSettingsIncorrect>
+  <FromEmailIncorrect>e-poçt ünvanı yanlış və ya boş</FromEmailIncorrect>
+  <ToEmailIncorrect>e-poçt ünvanı yanlış və ya boş</ToEmailIncorrect>
+  <EmailSubjectEmpty>e-poçt mövzu müəyyən deyil</EmailSubjectEmpty>
+  <UploadFromUrlTab>URL</UploadFromUrlTab>
+  <UploadFromUrlFieldLabel>URL (HTTP və ya FTP bir fayl)</UploadFromUrlFieldLabel>
+  <UploadFromUrlProgressTitle>URL yüklə</UploadFromUrlProgressTitle>
+  <UploadFromUrlMsg>URL yükleme</UploadFromUrlMsg>
+  <UploadFromUrlSuccessMsg>file "{0}" uğurla daşıyanlar edilmişdir "{1}"</UploadFromUrlSuccessMsg>
+  <UploadFromUrlUnknownResponse>server cavab tanınmır</UploadFromUrlUnknownResponse>
+  <UploadFromUrlEmptyFileName>Yüklənilən fayl adı boş</UploadFromUrlEmptyFileName>
+  <UploadFromUrlFileName>(URL adından istifadə boş buraxın) adı ilə edin</UploadFromUrlFileName>
+  <UploadFromUrlFileNameMobile>adı ilə edin</UploadFromUrlFileNameMobile>
+  
+  <!-- Common Clouds keys -->  
+  <CloudAuthenticateMessage>Siz {0} daxil olmalısınız. "{1}" körpüsünə basın və açma forma yönlendirileceksiniz. {2} Daha çox məlumat. {3}</CloudAuthenticateMessage>
+  <CloudAuthenticateLink>ilə Orijinal {0}</CloudAuthenticateLink>  
+  <CloudDownloadingMessage>üçün Yükləmə {0}</CloudDownloadingMessage>
+  <CloudAuthWarningMessage>hərəkət baş verməyib, bu pəncərə bağlamaq və yenidən "{0}" körpüsünə basın.</CloudAuthWarningMessage>
+  <CloudAuthEmptyInvalidMessage>{0} Access Token boş və ya yanlışdır. yenidən kimlik edin.</CloudAuthEmptyInvalidMessage>
+  <CloudDownloadEndMessageTitle>Download başa çatdı</CloudDownloadEndMessageTitle>
+  <CloudDownloadFilesSuccessMessage>uğurla "{1}" {2} qovluğunda nazil {0} fayl (s).</CloudDownloadFilesSuccessMessage>
+  <CloudNotDownloadedFilesMessage>{0} fayl (s) nazil deyil:</CloudNotDownloadedFilesMessage>
+  <CloudFoldersCreatedSuccessMessage>uğurla "{1}" {2} qovluğunda yaradılmışdır {0} qovluq (s).</CloudFoldersCreatedSuccessMessage>
+  <CloudNotFoldersCreatedMessage>{0} qovluq (s) yaradılmış deyil:</CloudNotFoldersCreatedMessage>
+  <CloudFilesFoldersSuccessMessage>{0} fayl (s) uğurla "{2}" {3} qovluğunda nazil {1} ​​qovluq (s).</CloudFilesFoldersSuccessMessage>
+  <CloudNotFilesFoldersDownloadedMessage>{0} fayl (s), {1} qovluq (s) nazil deyil:</CloudNotFilesFoldersDownloadedMessage>
+  <CloudLinkText>Visit {0}</CloudLinkText>
+  <CloudLinkDescription>{0} səhifəyə gedin</CloudLinkDescription>
+  <CloudRootFolderName>&lt;b&gt; {0} kök qovluq &lt;/b&gt;</CloudRootFolderName>
+  <CloudCheckFolerMessage>davam etmək üçün bir tək {0} qovluğunu kontrol edin.</CloudCheckFolerMessage>
+  <CloudSelectFolderMessage>Davam etmək üçün {0} qovluq seçin.</CloudSelectFolderMessage>
+  <CloudGetFoldersInfoProgressMessage>Loading {0} qovluq info</CloudGetFoldersInfoProgressMessage>
+  <CloudGetItemsInfoProgressMessage>Loading {0} maddələr info</CloudGetItemsInfoProgressMessage>
+  <CloudUploadSelectItemsMessage>Davam etmək üçün {0} maddələr seçin.</CloudUploadSelectItemsMessage>
+  <CloudUploadTotalFiles>Ümumi fayllar: {0} ({1})</CloudUploadTotalFiles>
+  <CloudUploadProgressMessage>uploading {0}</CloudUploadProgressMessage>
+  <CloudSignInAsDifferentUserText>Çıxış {0}</CloudSignInAsDifferentUserText>
+  <CloudLogoutProgressMsg>Çıxış {0}</CloudLogoutProgressMsg>
+  <CloudRevokeTokenMsg>ləğv token</CloudRevokeTokenMsg>
+  <CloudRefreshTokenMsg>Refreshing token</CloudRefreshTokenMsg>
+  <CloudAuthNotCompleteMsg>Authentication deyil tamamladı. /&gt; Edin &lt;br</CloudAuthNotCompleteMsg>
+  <CloudTrustedSitesMsg> "Trusted Saytlar" siyahısında sites aşağıdakı baxın: &lt;br /&gt; &lt;br /&gt;</CloudTrustedSitesMsg>
+  <TrustedSitesForMicrosoftEdge>Microsoft Edge istifadə edirsinizsə, onda Internet Explorer Trusted Saytlar yoxlamaq</TrustedSitesForMicrosoftEdge>
+  <CloudCheckAuthMsg>{0} identifikasiyası edin</CloudCheckAuthMsg>
+  <CloudLoadMsg>Loading {0}</CloudLoadMsg>
+  <CloudFreeSpaceError>{2} faylları yüklemek üçün kifayət qədər otaq yoxdur. Well: {0}. Faylın ölçüsü: {1}.</CloudFreeSpaceError>
+  <CloudFreeSpaceExceeded>kifayət qədər otaq yoxdur {0}</CloudFreeSpaceExceeded>
+  <CloudExceedFileSizeError>Siz download çalışırıq fayl download icazə verilən maksimum ölçüsü daha böyük bir {1} bir fayl ölçüsü var - {0}.</CloudExceedFileSizeError>
+  <CloudFolderNotFound>Directory tapılmadı. Ola bilsin ki, silinmişdir</CloudFolderNotFound>
+  <CloudFileNotFound>Fayl tapılmadı. Ola bilsin ki, silinmişdir</CloudFileNotFound>
+  <CloudNoFoldersMessage>Profilə qovluq var</CloudNoFoldersMessage>
+  <CloudLibraryNotLoadedMsg>{0} müştəri kitabxana dolu deyil! &lt;br /&gt; İnternet bağlantısı yoxlamaq və ya səhifə. &lt;br Təzələyin /&gt; Həmçinin</CloudLibraryNotLoadedMsg>
+  <CloudDownloadWithNewNames>yeni adları ilə nazil fayl (s):</CloudDownloadWithNewNames>
+
+  <!-- Google Drive Cloud keys -->
+  <CommandDownloadToGoogleDocs>Google Drive Download</CommandDownloadToGoogleDocs>
+  <GoogleDocsSaveAs>kimi saxlamaq:</GoogleDocsSaveAs>
+  <GoogleDocsSaveAsTitle>Saxla "{0}" kimi ...</GoogleDocsSaveAsTitle>
+  <GoogleDocsDownloadEndWarningMessage>Google Drive hesabınıza qəbul sənədləri görmək bilməz, bir neçə saniyə gözləyin və Google Drive siyahısı yenilemek.</GoogleDocsDownloadEndWarningMessage>
+  <GoogleDriveUploadNoFilesMessage>yüklemek üçün Google Drive No faylları</GoogleDriveUploadNoFilesMessage>
+  <GoogleDriveMaxUploadSizeError>content-növü üçün "{0}" yüklemek maksimum ölçüsü {1} ötüb.</GoogleDriveMaxUploadSizeError>
+  <GoogleDriveConvertMsg>mümkün olarsa, Google Documents formatında faylları çevirmək. {0} Daha çox məlumat {1}.</GoogleDriveConvertMsg>
+
+  <!-- Box Cloud keys -->
+  <CommandDownloadToBox>Box Download</CommandDownloadToBox>
+  <BoxDownloadWithNewNames>Aşağıdakı fayl (s) yeni versiyasını yeniləndi:</BoxDownloadWithNewNames>
+  <BoxNoViewPermission>Siz seçilmiş kataloq keçirmək üçün icazə yoxdur</BoxNoViewPermission>
+  <BoxNoDownloadPermission>Siz download icazəniz yoxdur</BoxNoDownloadPermission>
+  <BoxNoUploadPermission>Siz yüklemek üçün icazəniz yoxdur</BoxNoUploadPermission>
+  <BoxUnableCreateOrInfoError>yaratmaq və ya məlumat əldə etmək mümkün deyil</BoxUnableCreateOrInfoError>
+  
+  <!-- Dropbox Cloud keys -->
+  <CommandDownloadToDropbox>Dropbox Download</CommandDownloadToDropbox>
+  
+  <!-- OneDrive Cloud keys -->
+  <CommandDownloadToSkyDrive>OneDrive Download</CommandDownloadToSkyDrive>
+  <AuthenticateOAuthSkyDriveMessageShort>Siz Microsoft Live hesabınıza daxil olmalıdır.</AuthenticateOAuthSkyDriveMessageShort>
+  <SkyDriveAuthAlsoString>də</SkyDriveAuthAlsoString>
+  <SkyDriveLoginButtonTitle>Daxil ol</SkyDriveLoginButtonTitle>
+  <SkyDriveRegistryMessage>Windows Live ID yoxdur? {0} ... {1} ol</SkyDriveRegistryMessage>
+  <SkyDriveMapRootFolder>Qeyd! Siz {0} xəritə {1} sizin OneDrive qovluq bilərsiniz. Path edir</SkyDriveMapRootFolder>
+  <SkyDriveMoreInfoLink>{0} OneDrive (SkyDrive) Daha çox məlumat üçün {1}</SkyDriveMoreInfoLink>
+  <OneDriveMaxUploadSizeError>məqbul ölçüsü ({0}) Yüklənilən fayl keçib: {1}</OneDriveMaxUploadSizeError>
+  <!-- OneDrive for Business -->
+  <OneDriveForBusinessMapWebFolderInfo>&lt;b&gt; Qeyd! &lt;/b&gt; Bu yerdə faylları açılması əvvəl, ilk web site göz etibarlı sites siyahısına web site əlavə və (IE brauzerinizin) avtomatik olaraq daxil et seçin.</OneDriveForBusinessMapWebFolderInfo>
+  
+  <UploadFromUrlLabelText>Siz qlobal fayl server və ya kimi bir fayl paylaşım xidmət saxlanılır bir fayl URL daxil edə bilərsiniz {0}, {1}, {2}, {3}, {4}.</UploadFromUrlLabelText>
+  <UploadFromUrlLabelTextMobile>fayl URL daxil</UploadFromUrlLabelTextMobile>
+
+  <LinkToFileTitle>fayl / qovluq Link</LinkToFileTitle>
+  <LinkToFileWarningAnonym>Bu link fayl anonim erişim təmin edir. Hər hansı bir istifadəçi bu saytda heç bir hesabı var, hətta bir download və ya ictimai link vasitəsilə faylları yükleyebilirsiniz. bir fayl üçün ictimai link bir seçilmiş fayl yükləmək üçün imkan verir. {0} Daha çox məlumat {1}.</LinkToFileWarningAnonym>
+  <LinkToFileDownloadFileLink>Bu keçid {1} seçilmiş fayl {0} yükləmək üçün imkan verir. Bu linki istifadə etmək üçün bir etibarlı hesabı lazımdır. Bu fayl anonim çıxışı təmin etmir.</LinkToFileDownloadFileLink>
+  <LinkToFileExpireDate>müddəti</LinkToFileExpireDate>
+  <LinkToFileDownloadCnt>Download count limit</LinkToFileDownloadCnt>
+  <LinkToFileDownloadType>Link növü</LinkToFileDownloadType>
+  <LinkToFileGenerate>link yaradın</LinkToFileGenerate>
+  <LinkToFilePasswordNotMatch>Parollar uyğun gəlmir</LinkToFilePasswordNotMatch>
+  <LinkToFilePasswordRequired>ictimai link üçün parol tələb olunur</LinkToFilePasswordRequired>
+  <LinkToFileInvalidForm>Yanlış parametrləri</LinkToFileInvalidForm>
+  <LinkToFileAnonymDownloadLinkHint>İctimai link "{0}"</LinkToFileAnonymDownloadLinkHint>
+  <LinkToFileAnonymDownloadShortLinkHint>Qısa ictimai link "{0}"</LinkToFileAnonymDownloadShortLinkHint>
+  <LinkToFileOpenFolderLink>Bu keçid {1} seçilmiş qovluq {0} açmaq üçün imkan verir. Bu linki istifadə etmək üçün bir etibarlı hesabı lazımdır. Bu qovluq anonim çıxışı təmin etmir.</LinkToFileOpenFolderLink>
+  <LinkToFileOpenFileLink>Bu link fayl ilə qovluq açılır və vurğulayır</LinkToFileOpenFileLink>
+  <LinkToFileDaysLeft>günlər keçdi</LinkToFileDaysLeft>
+  <LinkToFileCaptionMobile>Public links</LinkToFileCaptionMobile>
+
+  <PublicFolderLinkHint>Public link qovluğunda "{0}"</PublicFolderLinkHint>
+  <PublicFolderShortLinkHint>Qisa ictimai link qovluq üçün "{0}"</PublicFolderShortLinkHint>
+  <PublicFolderLinkDownloadZipHint>qovluq zip arxiv üçün link Download "{0}"</PublicFolderLinkDownloadZipHint>
+  <PublicFolderLinkShortDownloadZipHint>qovluq zip arxiv üçün qısa download link "{0}"</PublicFolderLinkShortDownloadZipHint>
+  <PublicFolderLinkZipDownload>Kompres və (a ZIP arxivində) cari qovluq {0} yukle</PublicFolderLinkZipDownload>
+  <PublicFolderLinkOverwriteWhileUpload>mövcud yazır</PublicFolderLinkOverwriteWhileUpload>
+  <PublicFolderLinkOpenFolderHint>Open qovluq</PublicFolderLinkOpenFolderHint>
+  <PublicFolderDownloadDisabledNote>Qeyd! Bu qovluq sahibi qovluq faylları indirirken qadağan etmişdi.</PublicFolderDownloadDisabledNote>
+  <PublicFolderLinkSendEmails>e-poçt qonaqlar fəaliyyəti haqqında məlumat göndər</PublicFolderLinkSendEmails>
+  <PublicFolderAnonymAccessControl>Access nəzarət</PublicFolderAnonymAccessControl>
+  <PublicFolderAnonymDownload>Download faylları</PublicFolderAnonymDownload>
+  <PublicFolderAnonymZipDownload>Download qovluq (Poçt)</PublicFolderAnonymZipDownload>
+  <PublicFolderAnonymUpload>Yükləmək</PublicFolderAnonymUpload>
+  <PublicFolderAnonymViewContent>View fayl siyahısı</PublicFolderAnonymViewContent>
+  <PublicFolderNoteForUsers>istifadəçilər üçün Qeyd</PublicFolderNoteForUsers>
+  <PublicFolderACLNotSet>Access nəzarət müəyyən deyil</PublicFolderACLNotSet>
+  <PublicFolderWarningAnonym>Bu link qovluq anonim erişim təmin edir. Hər hansı bir istifadəçi bu saytda heç bir hesabı var, hətta bir download və ya ictimai link vasitəsilə faylları yükleyebilirsiniz. qovluğa ictimai link bir (arxiv qablaşdırılır) bütün qovluq və fərdi faylları həm yükləmək üçün imkan verir. {0} Daha çox məlumat {1}.</PublicFolderWarningAnonym>
+  <PublicLinksShowForAllItems>bütün göstər</PublicLinksShowForAllItems>
+  <PublicLinksShowForSelected>Seçilmiş üçün göstər</PublicLinksShowForSelected>
+  
+  <MultipleFileInputMessage>Qeyd! Sizin browser bir dəfə birdən çox fayl seçimi dəstəkləyir.</MultipleFileInputMessage>
+  <UploadZipUnzipNote>Siz birdən çox fayl və qovluqları ilə bir zip arxiv yüklemek və sonra kontekstində menyusundan "{0}" komandasindan istifadə edərək, onu çıxarış.</UploadZipUnzipNote>
+  <DnDFileUploadingStatusCode>Status kodu</DnDFileUploadingStatusCode>
+  <DnDFileUploadingPathOrNameEmpty>yol və ya fayl adı müəyyən deyil</DnDFileUploadingPathOrNameEmpty>
+  <DnDFileUploadingRemoveFromList>siyahıdan silin</DnDFileUploadingRemoveFromList>
+  <DndFileUploadingDontDropFoldersMsg>Siz sürükleyin və aşağıdakı cədvəldə faylları açılır. Siz qovluq düşmək bilməz.</DndFileUploadingDontDropFoldersMsg>
+  <DndFileUploadingAllowDropFoldersMsg>Siz sürükleyin və aşağıdakı cədvəldə faylları və qovluqları açılır.</DndFileUploadingAllowDropFoldersMsg>
+  <DndFileUploadingFilesSummaryInfo>faylları sayı: {0} ({1})</DndFileUploadingFilesSummaryInfo>
+  <DropFilesHere>Yükləmək üçün faylları Drop</DropFilesHere>
+  
+  <FileGridDownloadColumn>Download faylları</FileGridDownloadColumn>
+  <FileAttributesField>Features</FileAttributesField>
+  <FolderCalculateSize>hesablamaq</FolderCalculateSize>
+  <FolderRecalculateSize>Yeniden</FolderRecalculateSize>
+  <FolderContainsField>Tərkibində</FolderContainsField>
+  <FolderContainsFilesFolders>{0} faylları {1} qovluq</FolderContainsFilesFolders>
+  <FolderCalculatingMessage>hesablayıcı</FolderCalculatingMessage>
+
+  <SearchTitle>File search. Mövcud nümunələri: {0}</SearchTitle>
+  <SearchType>axtarış</SearchType>
+  <SearchOnlyFiles>yalnız faylları</SearchOnlyFiles>
+  <SearchOnlyFolders>yalnız qovluq</SearchOnlyFolders>
+  <SearchBothFilesFolders>faylları və qovluqları, həm də</SearchBothFilesFolders>
+  <SearchFileDetails>Fayl detalları</SearchFileDetails>
+  <SearchFileContent>File content</SearchFileContent>
+  <SearchByDateFrom>etibarən</SearchByDateFrom>
+  <SearchByDateTo>qədər</SearchByDateTo>
+  <SearchLocation>Yer</SearchLocation>
+  <SearchLocationEntire>Anywhere</SearchLocationEntire>
+  <SearchLocationCurrent>cari</SearchLocationCurrent>
+  <SearchSearch>axtarış</SearchSearch>
+  <SearchNothingFound>Heç bir şey aşkar edilmişdir! Axtarış meyarları saflaşdırmaq edin.</SearchNothingFound>
+  <SearchErrorCaption>Axtar səhv</SearchErrorCaption>
+  <SearchResultsNotComplete>Diqqət! bəzi qovluqlar hələ dizine heç kimi search results natamam ola bilər.</SearchResultsNotComplete>
+  <SearchRepeatOrContactAdmin>sonra yenidən axtarış cəhd edin və ya sizin administratoru ilə əlaqə saxlayın.</SearchRepeatOrContactAdmin>
+  <SearchLinkToManual>{0} Windows Axtar Yardım baxın {1}</SearchLinkToManual>
+  <QuerySearchByNameText>adı ilə axtarış</QuerySearchByNameText>
+  <QuerySearchByConentText>məzmunu ilə</QuerySearchByConentText>
+  <SearchByDetailsWarning>Diqqət! Siz xassələri axtarış istifadə etmək istəyirəm ayarları göstərilən. Bu halda, search standart metodundan istifadə əvəzinə Windows Indexing Service istifadə edərək həyata keçiriləcək.</SearchByDetailsWarning>
+  <SearchInSpecialFolderWarning>Diqqət! Cari qovluq tətbiq edilmir axtarmaq üçün. Davam etsəniz, axtarış rehberler həyata keçiriləcək.</SearchInSpecialFolderWarning>
+
+  <UploadTitle>birdən çox fayl yüklənməsi</UploadTitle>
+  <UploadSimpleTab>standart</UploadSimpleTab>
+  <UploadSimpleReset>Reset</UploadSimpleReset>
+  <UploadSimpleUpload>Yükləmək</UploadSimpleUpload>
+  <UploadSimpleUploadFolderLabelCollapsed>Upload qovluq</UploadSimpleUploadFolderLabelCollapsed>
+  <UploadSimpleUploadFolderButtonText>Select qovluq</UploadSimpleUploadFolderButtonText>
+  <UploadJavaTab>Java</UploadJavaTab>
+  <UploadJavaIgnorePaths>(Yolları ignore) bir qovluq bütün faylları qoyun</UploadJavaIgnorePaths>
+  <UploadFlashTab>Flash</UploadFlashTab>
+  <UploadSilverlightTab>Silverlight</UploadSilverlightTab>
+  <UploadPartially>faylları bəzi qəbul edilə bilməz</UploadPartially>
+  <UploadFolderNotSelectedTitle>Qovluq seçilmiş deyil</UploadFolderNotSelectedTitle>
+  <UploadFolderNotSelected>faylları götürmüş olacaq olan qovluğu seçin</UploadFolderNotSelected>
+  <UploadInProgress>faylları yüklemek</UploadInProgress>
+  <UploadInvalidFormFields>Form sahələri etibarsız dəyərləri ilə təqdim edilə bilər</UploadInvalidFormFields>
+  <UploadAjaxFailed>Ajax rabitə uğursuz</UploadAjaxFailed>
+  <UploadFilesAlreadyExists>Fayl (s) artıq mövcuddur</UploadFilesAlreadyExists>
+  <UploadOverwriteFiles>Mövcud faylları üzerine yazılacaq. Davam etmək istəyirsiniz?</UploadOverwriteFiles>
+  <UploadOverwriteOrRenameFiles>müəyyən kataloq uyğun adları ilə bir və ya daha çox fayl var. Siz mövcud faylları yazmaq istəyirsiniz? Basın "{0}" Əgər siz artıq mövcud faylları yazmaq istəyirəm, və ya əgər "{1}" - bütün faylları saxlamaq istəyirsinizsə, (onlar adını olunacaq).</UploadOverwriteOrRenameFiles>
+  <UploadNotModifyExistingFiles>müəyyən kataloq adları uyğun ilə bir və ya daha çox fayl var. faylları qəbul edilə bilməz. upload siyahıdan mövcud faylları aradan qaldırılması və ya onlara adını dəyişmək edin.</UploadNotModifyExistingFiles>
+  <UploadRenamedExistingFiles>müəyyən kataloq adları uyğun ilə bir və ya daha çox fayl var. uyğun adları faylları adını olunacaq.</UploadRenamedExistingFiles>
+  <UploadNotAllowedTitle>Upload icazə verilmir</UploadNotAllowedTitle>
+  <UploadNotAllowedPrompt>Bu qovluq faylları yüklemek bilməz</UploadNotAllowedPrompt>
+
+  <UploadMobileIOSVideo>video bərpa edin. Siz video faylı yüklemek üçün lazımdır, əgər bu seçimi imkan verir.</UploadMobileIOSVideo>
+  <UploadMobileAurigmaLink>Siz Aurigma Up olmalıdır ki, unutmayın! faylları yüklemek üçün cihazı yüklü. Aurigma Up yüklemek üçün burada dokunun! şəkillər və video yüklemek üçün ərizə.</UploadMobileAurigmaLink>
+  <UploadMobileAurigmaReady>Aurigma Up sonra! quraşdırılmış və ya siz artıq yüklü əgər, mətbuat Aşağıdakı "Yükle" dir.</UploadMobileAurigmaReady>
+  <UploadMobileAurigmaFilePrefix>daşıyanlar faylları üçün Müraciət</UploadMobileAurigmaFilePrefix>
+  <UploadMobileResult>Nəticə yüklə:</UploadMobileResult>
+  <UploadMobileUrlPlaceHolder>burada URL daxil edin</UploadMobileUrlPlaceHolder>
+  <UploadMobileFileNamePlaceHolder>Burada yeni fayl adını daxil edin</UploadMobileFileNamePlaceHolder>
+  <UploadBrowseLabel>İnsanlar ...</UploadBrowseLabel>
+  
+  <MobileToolTipsCaption>ki, bilirsinizmi ...</MobileToolTipsCaption>
+  <MobileToolTipsNextButton>Next tip</MobileToolTipsNextButton>
+  <MobileToolTipsIKnowButton>Mən bunu bilirəm</MobileToolTipsIKnowButton>
+  <MobileToolTipsHideButton>Never göstərmək</MobileToolTipsHideButton>
+  <MobileToolTipsMultiSelection>bir neçə faylları və ya qovluqları seçin, &lt;b&gt; {0} &lt;/b&gt; 'düyməsinə tıqqıltı ilə multi-seçim rejimi imkan lazımdır. Multi-seçim rejimi çıxmaq üçün yenidən dokunun.</MobileToolTipsMultiSelection>
+  <MobileToolTipsSlideToRemove>Siz aradan qaldırılması üçün siyahıda hər hansı sağdan sola slide bilər. An inline aradan qaldırılması düyməsinə siyahısı maddə üst göstərilir.</MobileToolTipsSlideToRemove>
+  <MobileToolTipsTapAndHoldForMenu>Tap və kontekstində menyu göstərmək üçün siyahısı maddələr hər hansı keçirilməsi. "Açıqlanması" düyməsini kran göstərilir eyni kontekstində menyu</MobileToolTipsTapAndHoldForMenu>
+  <MobileToolTipsDoubleTapForPreview>fayl Single tap, önizleme və ya yükləmək üçün ikiqat tap seçin. onu açmaq üçün qovluq Single tap.</MobileToolTipsDoubleTapForPreview>
+  <MobileToolTipsPullDownToRefresh>It məzmunu yeniden siyahısı aşağı çəkin.</MobileToolTipsPullDownToRefresh>
+  <MobileToolTipsPinchToScale>Siz zoom-in və zoom-out images üçün 'pinch "jest istifadə edə bilərsiniz.</MobileToolTipsPinchToScale>
+  <MobileToolTipsTapToHideBars>toolbar keçid image panel yerdə dokunun.</MobileToolTipsTapToHideBars>
+  <MobileToolTipsSlideLeftRightToNext>slide jest ilə şəkillər keçin.</MobileToolTipsSlideLeftRightToNext>
+
+  <DownloadToCloudMobileTip>Subay tap qovluq, onu açmaq üçün ikiqat tap seçin.</DownloadToCloudMobileTip>
+  
+  <UploadTotalMaxSizeMessage>Qeyd! bütün daşıyanlar faylların maksimum ölçüsü artıq olmamalıdır {0}.</UploadTotalMaxSizeMessage>
+  <UploadOneFileMaxSizeMessage>Qeyd! Hər Yüklənilən fayl maksimal ölçüsü artıq olmamalıdır {0}.</UploadOneFileMaxSizeMessage>
+  <UploadUnlimitedSizeMessage>Qeyd! daşıyanlar faylları ölçüsü UNLIMITED edir.</UploadUnlimitedSizeMessage>
+  <SimpleUploadSetFileNameNote>2 Qeyd! bir fayl seçilmiş sonra fayl upload sonra olacaq adını dəyişə bilərsiniz</SimpleUploadSetFileNameNote>
+
+  <AnonymousUploadTitle>bu qovluq faylları yüklə</AnonymousUploadTitle>
+  <AnonymousUploadDescription>Bu qovluq faylları yükləyə bilərsiniz. aşağıdakı "göz" düyməsinə basın və faylları seçin.</AnonymousUploadDescription>
+  <AnonymousUploadOverwriteHint>daşıyanlar fayl artıq varsa, bu əvəz olunacaq.</AnonymousUploadOverwriteHint>
+  <AnonymousUploadShowUploadHint>Show upload form</AnonymousUploadShowUploadHint>
+  <AnonymousUploadHideUploadHint>Hide upload form</AnonymousUploadHideUploadHint>
+  <AnonymousUploadNewFolderNameHint>sahəsində (bu olmadıqda qovluq yaradılan) olan faylları daşıyanlar olunacaq alt adını daxil edə bilərsiniz aşağıdakı:</AnonymousUploadNewFolderNameHint>
+  <AnonymousUploadCompleteTitle>qovluq yüklemek {0} başa</AnonymousUploadCompleteTitle>
+  <AnonymousUploadExistsFilesMessage>Aşağıdakı fayl (s) eyni adı (s) ilə fayl (s) artıq mövcud çünki qəbul olunmayıb: {0}.</AnonymousUploadExistsFilesMessage>
+  <AnonymousUploadOwnersNote>qovluq sahibi Qeyd</AnonymousUploadOwnersNote>
+  <AnonymousDownloadPageTitle>Faylı yüklə</AnonymousDownloadPageTitle>
+  <AnonymousDownloadFileHint>Faylı yüklə</AnonymousDownloadFileHint>
+  <AnonymousUploadPageTitle>qovluq yüklə</AnonymousUploadPageTitle>
+  <AnonymousPublicFolderPageTitle>Public qovluq</AnonymousPublicFolderPageTitle>
+  <AnonymousLoginAccessUserFailure>Siz resurs çıxışı yoxdur hesabına daxil edirik. Sizin daxil olmaq üçün digər etimadnaməsini daxil edin. Əgər siz onları bilmirsinizsə, ictimai link və ya administrator sahibi müraciət edin.</AnonymousLoginAccessUserFailure>
+  <ProgressGettingAnonymLink>Public link yaradılması</ProgressGettingAnonymLink>
+  <ProgressGettingAnonymLinks>anonim bağlantılar əldə</ProgressGettingAnonymLinks>
+  <ProgressGettingBoxViewLink>Box View link əldə</ProgressGettingBoxViewLink>
+  <AutodeskScriptNotIncludedMessage>Autodesk Viewer script yükləmək mümkün olmadı</AutodeskScriptNotIncludedMessage>
+  <ProgressUninitializeAutodeskViewer>Autodesk Viewer Yekun</ProgressUninitializeAutodeskViewer>
+  <ProgressGettingAutodeskViewLink>Autodesk View info əldə</ProgressGettingAutodeskViewLink>
+  <AnonymousChangeLanguageHint>dil seçin</AnonymousChangeLanguageHint>
+  <AnonymousUpLinkHint>valideyn qovluq qayıt</AnonymousUpLinkHint>
+  <AnonymousPasswordDescription>qovluq parol qorunan</AnonymousPasswordDescription>
+  <AnonymousPasswordIncorrectMessage>parol səhvdir</AnonymousPasswordIncorrectMessage>
+  <AnonymousErrorTitle>Public link səhv</AnonymousErrorTitle>
+  <AnonymousErrorNotFound>Public link "{0}" aşkar deyil!</AnonymousErrorNotFound>
+  <AnonymousErrorAccessDenied>Siz "{0}" ictimai link istifadə üçün icazə yoxdur</AnonymousErrorAccessDenied>
+  <AnonymousErrorFileNotFound>ictimai link "{0}" qeyri-mövcud fayl aiddir və ya qovluq və ya NTFS oxumaq rədd</AnonymousErrorFileNotFound>
+  <AnonymousErrorUnknownLinkType>ictimai link "{0}" tapılmadı</AnonymousErrorUnknownLinkType>
+  <AnonymousSendEmailSubject>ictimai qovluq Ziyarətçilər fəaliyyəti</AnonymousSendEmailSubject>
+  <AnonymousSendEmailUploadBody>Aşağıdakı fayllar ictimai qovluq daşıyanlar edilmişdir {0} {1}.</AnonymousSendEmailUploadBody>
+  <AnonymousSendEmailDownloadBody>fayl {0} ictimai qovluq {1} nazil edilmişdir.</AnonymousSendEmailDownloadBody>
+  <AnonymousSendEmailZipDownloadBody>ictimai qovluq {0} bütün content bir ZIP arxivində nazil edilmişdir.</AnonymousSendEmailZipDownloadBody>
+  <AnonymousViewLinksButton>View links</AnonymousViewLinksButton>
+  <AnonymousViewLinksHint>mövcud ictimai links keçirmək üçün</AnonymousViewLinksHint>
+  <AnonymousViewLinksWindowTitle>Public links</AnonymousViewLinksWindowTitle>
+  <AnonymousViewLinksDateCreatedColumn>Creation tarixi</AnonymousViewLinksDateCreatedColumn>
+  <AnonymousViewLinksDateExpiredColumn>müddəti</AnonymousViewLinksDateExpiredColumn>
+  <AnonymousViewLinksPermissionColumn>icazə</AnonymousViewLinksPermissionColumn>
+  <AnonymousViewLinksDownloadedColumn>downloads sayı sol</AnonymousViewLinksDownloadedColumn>
+  <ProgressDeletingAnonymousLink>ictimai link silinməsi</ProgressDeletingAnonymousLink>
+  <ProgressSavingAnonymousLink>ictimai link Saving</ProgressSavingAnonymousLink>
+  <AnonymousEditLinkWindowTitle>ictimai link redaktə "{0}"</AnonymousEditLinkWindowTitle>
+  <AnonymousEditLinkShowUrl>Show link</AnonymousEditLinkShowUrl>
+  <AnonymousEditLinkNotFound>ictimai link tapılmadı və ya onun qüvvədəolma müddəti doldu</AnonymousEditLinkNotFound>
+
+  <AnonymousLinkSendViaButton>vasitəsilə göndər ...</AnonymousLinkSendViaButton>
+  <AnonymousLinkSendViaEmailItem>Email ...</AnonymousLinkSendViaEmailItem>
+  <AnonymousLinkSendButton>E-poçt vasitəsilə göndər ...</AnonymousLinkSendButton>
+  <AnonymousLinkSendSubject>Web File Manager Public Link</AnonymousLinkSendSubject>
+
+  <AnonymousLinkAdvOptTitle>Əlavə parametrlər</AnonymousLinkAdvOptTitle>
+  <AnonymousLinkViewTypeButton>Link view</AnonymousLinkViewTypeButton>
+  <AnonymousLinkViewTypeDefault>Tam</AnonymousLinkViewTypeDefault>
+  <AnonymousLinkViewTypeShort>qısa</AnonymousLinkViewTypeShort>
+
+  <AnonymousLinkShowCommentsLabel>təsviri, yazıları və şərh göstər</AnonymousLinkShowCommentsLabel>
+  <AnonymousLinkShowCommentsShort>Show şərhlər</AnonymousLinkShowCommentsShort>
+
+  <QRCodeButton>qR kodu</QRCodeButton>
+
+  <AnonymousLinkLimitedAccessTitle>Limited giriş</AnonymousLinkLimitedAccessTitle>
+  <AnonymousLinkLimitAccessCheckBox>yalnız müəyyən təsdiq istifadəçilər məhdudlaşdıra</AnonymousLinkLimitAccessCheckBox>
+  <AnonymousLinkLimitAccessTextArea>istifadəçi adı və ya e-poçt (virgülle ayrılmış) yazın</AnonymousLinkLimitAccessTextArea>
+  <AnonymousLinkLimitAccessSendCheckBox>müəyyən istifadəçilər bildirişlərin göndər</AnonymousLinkLimitAccessSendCheckBox>
+  <AnonymousLinkLimitAccessPersMsgLabel>Personal mesaj (optional)</AnonymousLinkLimitAccessPersMsgLabel>
+  <AnonymousLinkLimitAccessPassAndUsersMsg>Siz link daxil olmaq üçün eyni zamanda Parolu və istifadəçilər müəyyən etdik. bir şey bir qeyd edin.</AnonymousLinkLimitAccessPassAndUsersMsg>
+  <AnonymousLinkLimitAccessUsersNotFound>istifadəçilər:
+    {0}
+    mövcud deyil</AnonymousLinkLimitAccessUsersNotFound>
+  <AnonymousLinkLimitAccessEmailsNotFound>e-poçt:
+    {0}
+    mövcud deyil</AnonymousLinkLimitAccessEmailsNotFound>
+  <AnonymousLinkLimitAccessUsersEmailsNotFound>istifadəçilər:
+    {0}
+    və e-poçt:
+    {1}
+    mövcud deyil</AnonymousLinkLimitAccessUsersEmailsNotFound>
+
+  <AnonymousLinkUnableToCreate>anonim link yaratmaq bilmir</AnonymousLinkUnableToCreate>
+  <AnonymousLinkShortUrlLabel>Qısa keçid almaq üçün (sağ alt) yenile icon basın</AnonymousLinkShortUrlLabel>
+  <AnonymousLinkShortUrlUpdate>Almaq və ya qısa bir link yeniləmə</AnonymousLinkShortUrlUpdate>
+  <AnonymousLinkLongUrlNotSpecified>uzun URL müəyyən deyil</AnonymousLinkLongUrlNotSpecified>
+
+  <ClientFileOrDirectoryAlreadyExists>Bu adı ilə fayl və ya kataloq artıq mövcuddur</ClientFileOrDirectoryAlreadyExists>
+  <ClientPermissionsAllowTypes>Cari icazələrin yalnız aşağıdakı fayl növləri ilə bu əməliyyat imkan {0}</ClientPermissionsAllowTypes>
+  <ClientPermissionsDenyTypes>Cari icazələrin aşağıdakı fayl növləri ilə əməliyyat qadağan {0}</ClientPermissionsDenyTypes>
+  <OfficeApplicationNotFoundAlert>Office proqram tapılmadı. əl mətn qutusuna bir linki istifadə edərək bir fayl açın.</OfficeApplicationNotFoundAlert>
+  <OfficeAnonymousEditPublicLinkError>anonim açıq ofis sənəd ictimai link yaratmaq bilmir.</OfficeAnonymousEditPublicLinkError>
+
+  <GoogleOWAViewLinkMessage>sənəd keçirmək üçün aşağıdakı linki vurun:</GoogleOWAViewLinkMessage>
+  <ZohoEditLinkMessage>Aşağıdakı sənəd klik link redaktə etmək üçün:</ZohoEditLinkMessage>
+  <PixlrEditLinkMessage>aşağıdakı image basın link redaktə etmək üçün:</PixlrEditLinkMessage>
+  <PixlrNewImageCreateTitle>Pixlr ilə yeni şəkil yaradın</PixlrNewImageCreateTitle>
+  <PixlrNewImageLinkMessage>yeni bir image yaratmaq üçün, aşağıdakı linki vurun:</PixlrNewImageLinkMessage>
+
+  <DownloadTitle>Çox faylları Yükləmə</DownloadTitle>
+  <DownloadSimpleTab>standart</DownloadSimpleTab>
+  <DownloadJavaTab>Java</DownloadJavaTab>
+  <DownloadIEPrevent>Internet Explorer avtomatik yukle qarşısını alır</DownloadIEPrevent>
+  <DownloadIEClickHere>download üçün buraya basın</DownloadIEClickHere>
+  <DownloadIEArchiveReady>Arxiv "{0}" seçilmiş faylları ilə yaradılmışdır və download üçün hazır idi</DownloadIEArchiveReady>
+  <DownloadIECaption>Download hazırdır</DownloadIECaption>
+
+  <SettingsTitle>Settings</SettingsTitle>
+  <SettingsLanguage>dil</SettingsLanguage>
+  <SettingsLogOutRequired>New dəyişikliklər Çıxış və ya brauzerinizin yenidən başladın sonra tətbiq olunacaq!</SettingsLogOutRequired>
+  <ThemeTitle>Change Theme</ThemeTitle>
+  <SettingsTheme>Theme seçin</SettingsTheme>
+  <ThemeDefaultTitle>Default Theme</ThemeDefaultTitle>
+  <ThemeGrayTitle>Gray Theme</ThemeGrayTitle>
+  <ThemeAccessTitle>Əlillərə Theme</ThemeAccessTitle>
+
+  <ChangeUserPasswordTitle>Change istifadəçi parol</ChangeUserPasswordTitle>
+  <ChangeUserPasswordOldPassword>Köhnə Şifrə</ChangeUserPasswordOldPassword>
+  <ChangeUserPasswordNewPassword>Yeni şifrə</ChangeUserPasswordNewPassword>
+  <ChangeUserPasswordRepeatNewPassword>Repeat Yeni parol</ChangeUserPasswordRepeatNewPassword>
+  <ChangeUserPasswordPasswordsNotMatch>Parollar uyğun gəlmir.</ChangeUserPasswordPasswordsNotMatch>
+  <ChangeUserPasswordSuccessMessage>Şifrə dəyişdirildi.</ChangeUserPasswordSuccessMessage>
+  <ChangeUserPasswordInvalidMessage>Etibarsız Şifrə.</ChangeUserPasswordInvalidMessage>
+
+  <ChangeUserEmailTitle>Change user e-mail</ChangeUserEmailTitle>
+  <ChangeUserEmailEmail>E-mail</ChangeUserEmailEmail>
+  <ChangeUserEmailSuccessMessage>E-mail dəyişdirildi.</ChangeUserEmailSuccessMessage>
+
+  <UserHelpTitle>İstifadəçi help</UserHelpTitle>
+
+  <LicenseTitle>Lisenziya məlumat</LicenseTitle>
+  <LicenseTrial>Qeydiyyatsız 30 günlük qiymətləndirmə versiyası</LicenseTrial>
+  <LicensePrompt>Lisanslı versiyası {0} İstifadəçilər sayı: {1} {0} alınması tarixi: {2} {0}</LicensePrompt>
+  <LicenseFreeUpgradeMessage>Siz hələ pulsuz yükseltmeleri və dəstək üçün {0} gün var.</LicenseFreeUpgradeMessage>
+  <LicenseCheckMessage>bir ildən çox alış tarixindən keçdi. bu versiyası istifadə etmək üçün eski bir versiyası üçün abunə və ya Downgrade təzələmək lazımdır. Siz lisenziya yoxlamaq və &lt;a href='{0}' target='_blank'&gt; Check Lisenziya səhifə &lt;/a&gt; mövcud relizlər tapa bilərsiniz</LicenseCheckMessage>
+  
+  <ViewPopupBlocked>New pəncərə popup blocker ilə bağlanacaq edilmişdir</ViewPopupBlocked>
+  
+  <LoginTwoFactorTitle>Iki-addım yoxlama</LoginTwoFactorTitle>
+  <LoginTitle>Daxil ol</LoginTitle>
+  <LoginRemember>Mənə növbəti dəfə saxla</LoginRemember>
+  <LoginUISelect>Interface</LoginUISelect>
+  <LoginUIStandard>standart</LoginUIStandard>
+  <LoginUITouch>Mobil</LoginUITouch>
+  <LoginLanguage>dil</LoginLanguage>
+  <LoginLogin>Daxil ol</LoginLogin>
+  <LoginFailure>Sizin giriş cəhd uğurlu deyil.</LoginFailure>
+  <LoginBlocked>hesab bağlanıb. {0} dəqiqə yenidən cəhd gözləyin.</LoginBlocked>
+  <LoginNotActivated>Hesabınız aktiv deyil.</LoginNotActivated>
+  <LoginResendActivation>aktivasiya kodu ilə mesaj uzun müddət qəbul deyilsə, aktivləşdirmə kodu yenidən {0} linki basın.</LoginResendActivation>
+  <LoginResendActivationLink>aktivasiya kodu göndərmək</LoginResendActivationLink>
+  <LoginResendActivationCode>aktivasiya kodu yenidən {0} linki basın.</LoginResendActivationCode>
+  
+  <ActivateAccountOk>Hesab uğurla aktiv!</ActivateAccountOk>
+  <ActivateAccountResultLabel>aktivləşdirilməsi nəticə</ActivateAccountResultLabel>
+  <ActivateAccountErrorOnlyFormsAuth>Haqq-hesab aktivləşdirilməsi Forms identifikasiyası ilə istifadə edilə bilər</ActivateAccountErrorOnlyFormsAuth>
+  <ActivateAccountErrorNotRequired>Hesab aktivasiya tətbiq ayarları aradan. Hesab avtomatik qeydiyyatdan sonra aktivləşdirilib.</ActivateAccountErrorNotRequired>
+  <ActivateAccountErrorAlreadyActivated>Hesab artıq aktiv</ActivateAccountErrorAlreadyActivated>
+  <ActivateAccountErrorInvalidCode>Aktivləşdirmə kodu etibarlı deyil</ActivateAccountErrorInvalidCode>
+  <ActivateAccountErrorAccountNotFound>Hesab tapılmadı</ActivateAccountErrorAccountNotFound>
+  <ActivateAccountErrorLinkBroken>Aktivləşdirilməsi link pozuldu</ActivateAccountErrorLinkBroken>
+  <ActivateAccountReturnToLogin>Loqin qayıt</ActivateAccountReturnToLogin>
+  
+  <LoginRender>Render</LoginRender>
+  
+  <LogoutTitle>Web fayl meneceri Çıxış</LogoutTitle>
+  <LogoutSessionEnded>cari sessiya başa çatıb</LogoutSessionEnded>
+  <LogoutCloseWindow>Pəncərəni bağlamaq</LogoutCloseWindow>
+  <LogoutEnterAgain>yenidən daxil</LogoutEnterAgain>
+  <LogoutClosingBrowserRequired>Diqqət! Kimsə Yox Mu hesabınıza altında daxil ola bilərsiniz! Paylaşılan bir kompüter istifadə edirsinizsə, onda sizin brauzerinizin identifikasiyası təmizləmək üçün brauzerinizin pəncərə (yalnız nişanı) yaxın olmalıdır! Firefox brauzerinizin üçün menyu identifikasiyası aydın olar: Tools-&gt; Clear retort History ...-&gt; detalları&gt; İndi Aktiv Logins-&gt; mətbuat Clear edin.</LogoutClosingBrowserRequired>
+  <RecoverPasswordTitle>Şifrəni bərpa</RecoverPasswordTitle>
+  <RecoverPasswordEmailPassword>E-poçt vasitəsilə Şifrəni göndər</RecoverPasswordEmailPassword>
+  <RecoverPasswordErrorInvalidUserName>Etibarsız istifadəçi adı.</RecoverPasswordErrorInvalidUserName>
+  <RecoverPasswordErrorNoEmail>Bu istifadəçi müəyyən heç bir e-mail var.</RecoverPasswordErrorNoEmail>
+  <RecoverPasswordErrorSendEmail>Sizin e-poçt göndərmək zaman xəta baş verdi.</RecoverPasswordErrorSendEmail>
+  <RecoverPasswordSuccess>Parol e-poçt ünvanına göndərildi.</RecoverPasswordSuccess>
+
+  <RecoverUserNameTitle>adını bərpa</RecoverUserNameTitle>
+  <RecoverUserEmailName>E-poçt vasitəsilə adını göndər</RecoverUserEmailName>
+  <RecoverUserNameErrorInvalidEmail>Yanlış istifadəçi e-poçt.</RecoverUserNameErrorInvalidEmail>
+  <RecoverUserNameErrorNoEmail>E-poçt ünvanı tapılmadı.</RecoverUserNameErrorNoEmail>
+  <RecoverUserNameSuccess>Adınız e-poçt ünvanına göndərildi.</RecoverUserNameSuccess>
+
+  <ChangeEmailTitle>Change email</ChangeEmailTitle>
+  <ChangeEmailEmail>New Email</ChangeEmailEmail>
+  <ChangeEmailSubmit>təqdim</ChangeEmailSubmit>
+  <ChangeEmailStatusSuccess>Email dəyişdirildi</ChangeEmailStatusSuccess>
+
+  <RegisterTitle>Qeydiyyatdan</RegisterTitle>
+  <RegisterEmail>Email</RegisterEmail>
+  <RegisterExtraInfo>Extra info</RegisterExtraInfo>
+  <RegisterCaptcha>Aşağıdakı image görmək mətn daxil edin</RegisterCaptcha>
+  <RegisterSubmit>təqdim</RegisterSubmit>
+  <RegisterErrorPasswordNotMatch>Parollar uyğun gəlmir.</RegisterErrorPasswordNotMatch>
+  <RegisterErrorUserExists>Bu istifadəçi adı və ya e-mail artıq istifadə olunur.</RegisterErrorUserExists>
+  <RegisterErrorCaptchaInvalid>Image Text düzgün daxil deyil</RegisterErrorCaptchaInvalid>
+  <RegisterSuccess>Yeni istifadəçi əlavə edilmişdir.</RegisterSuccess>
+  <RegisterActivationSent>Aktivləşdirmə kodu e-poçt göndərildi.</RegisterActivationSent>
+  <RegisterActivationCheckEmail>poçt qutusu (xüsusi junk qovluq) yoxlamaq və e-poçt təlimatlara əməl edin.</RegisterActivationCheckEmail>
+  
+  <FolderGridUserPermissionsColumn>istifadəçilər üçün Access</FolderGridUserPermissionsColumn>
+  <FolderGridGroupPermissionsColumn>qruplar üçün Access</FolderGridGroupPermissionsColumn>
+
+  <LoginLinkText>Daxil ol</LoginLinkText>
+  <RecoverPasswordLinkText>Şifrəni unutmusunuz?</RecoverPasswordLinkText>
+  <RecoverUserNameLinkText>adını unutmusunuz?</RecoverUserNameLinkText>
+  <RegisterLinkText>Qeydiyyatdan</RegisterLinkText>
+  <ChangeEmail>Change email</ChangeEmail>
+  <LoginMobileVersionLinkText>Mobile version (Ən smartfon və touchpads)</LoginMobileVersionLinkText>
+
+  <FileIsNotZipArchive>{0} fayl ZIP arxivi deyil</FileIsNotZipArchive>
+
+  <FileModificationsAuthor>müəllif</FileModificationsAuthor>
+  <FileModificationsHistory>View tarixi</FileModificationsHistory>
+  <FileModificationsWindowTitle>fayl dəyişikliklər "{0}"</FileModificationsWindowTitle>
+  <FileModificationsTypeCreated>Yaradılma</FileModificationsTypeCreated>
+  <FileModificationsTypeModified>Modified</FileModificationsTypeModified>
+  <FileModificationsTypeRenamed>Renamed</FileModificationsTypeRenamed>
+  <FileModificationsTypeRestored>bərpa</FileModificationsTypeRestored>
+  <FileModificationsTypeDeleted>Silinmiş</FileModificationsTypeDeleted>
+
+  <ChangingReadOnlyProgressMessage>oxumaq yalnız atributu dəyişdirilməsi</ChangingReadOnlyProgressMessage>
+
+  <ImageViewerWindowTitle>Image Viewer [{0}]</ImageViewerWindowTitle>
+  <ImageViewerLoadingMessage>Loading image viewer</ImageViewerLoadingMessage>
+  <ImageViewerLoadingImageMessage>Loading image</ImageViewerLoadingImageMessage>
+  <ImageViewerFirstImageTip>First image</ImageViewerFirstImageTip>
+  <ImageViewerPreviousImageTip>Previous image</ImageViewerPreviousImageTip>
+  <ImageViewerRefreshTip>Refresh images siyahısı</ImageViewerRefreshTip>
+  <ImageViewerNextImageTip>Next image</ImageViewerNextImageTip>
+  <ImageViewerLastImageTip>Son image</ImageViewerLastImageTip>
+  <ImageViewerRunSlideShow>Run images slayd şou</ImageViewerRunSlideShow>
+  <ImageViewerStopSlideShow>images slayd şou Stop</ImageViewerStopSlideShow>
+  <ImageViewerImageSimpleInfo>{0} / {1}, {2} ({3})</ImageViewerImageSimpleInfo>
+  <ImageViewerImageLoadErrorMessage>image tapılmadı və ya nümayiş oluna bilməz</ImageViewerImageLoadErrorMessage>
+  <ImageViewerShowImageSizeOfWindow>real ölçüsü Show image</ImageViewerShowImageSizeOfWindow>
+  <ImageViewerShowRealImageSize>Böyütmək üçün Basın</ImageViewerShowRealImageSize>
+
+  <PasswordExpiresTitle>Şifrə başa çatır</PasswordExpiresTitle>
+  <PasswordExpiresMessage>Parol {0} gün (s) sonra başa çatır!</PasswordExpiresMessage>
+  <PasswordExpiredMessage>Sizin parol başa çatıb.</PasswordExpiredMessage>
+  <PasswordChangeMessage>Parolu dəyişdirmək üçün seçin {0} {1} -&gt; {2} {3} toolbar.</PasswordChangeMessage>
+
+  <UnzipContentTotalFiles>Ümumi fayllar: {0} ({1})</UnzipContentTotalFiles>
+
+  <VideoConversionJobNotFound>
+    Bilmir müəyyən dönüşüm prosesi tapa bilərsiniz.
+    Mümkün səbəbləri:
+    1. Conversion uzun müddət əvvəl başa çatıb və bu iş haqqında məlumat qaldırıldı.
+    2. dönüşüm prosesi qeyri-adi xitam.
+  </VideoConversionJobNotFound>
+  <VideoConversionUtilityNotFound>tələb əməliyyat bilmir tapmaq kommunal: {0}</VideoConversionUtilityNotFound>
+  <!-- The current security principal "{0}" has insufficiant permissions to executable file "{1}".-->
+  <VideoConversionUtilityInsufficientPermissions>cari istifadəçi yürütülebilir fayl "{0}" rədd access "{1}".</VideoConversionUtilityInsufficientPermissions>
+  <VideoConversionOperationCancelled>Əməliyyat ləğv</VideoConversionOperationCancelled>
+  <VideoConversionUtilityFailed>Dönüşüm kommunal anormal xitam</VideoConversionUtilityFailed>
+  <VideoConversionOutputFileBusy>Çıxış fayl başqa dönüşüm prosesi tərəfindən istifadə olunur</VideoConversionOutputFileBusy>
+
+  <VideoConvertWindowValidatorPositiveInt>müsbət tam olmalıdır</VideoConvertWindowValidatorPositiveInt>
+  <VideoConvertWindowTitle>video Convert</VideoConvertWindowTitle>
+  <VideoConvertWindowInputFile>Input fayl</VideoConvertWindowInputFile>
+  <VideoConvertWindowOutputFile>Çıxış faylı</VideoConvertWindowOutputFile>
+  <VideoConvertWindowOutputFormat>Çıxış format</VideoConvertWindowOutputFormat>
+  <VideoConvertWindowBitrate>Bitrate (kbps)</VideoConvertWindowBitrate>
+  <VideoConvertWindowFrameResolution>Frame qətnamə</VideoConvertWindowFrameResolution>
+  <VideoConvertWindowDAR>Display aspekt nisbəti</VideoConvertWindowDAR>
+  <VideoConvertWindowPAR>Pixel aspekt nisbəti</VideoConvertWindowPAR>
+  <VideoConvertWindowResize>RSS</VideoConvertWindowResize>
+  <VideoConvertWindowProfile>profil</VideoConvertWindowProfile>
+  <VideoConvertWindowWidth>en</VideoConvertWindowWidth>
+  <VideoConvertWindowHeight>Hündürlük</VideoConvertWindowHeight>
+  <VideoConvertWindowExtractDetailsProgressMsg>video çıxarılması</VideoConvertWindowExtractDetailsProgressMsg>
+  <VideoConvertWindowOutputFileExistsTitle>Çıxış fayl mövcuddur</VideoConvertWindowOutputFileExistsTitle>
+  <VideoConvertWindowOutputFileExistsMsg>Çıxış faylı artıq mövcuddur. Bu üzerine yazılacaq.</VideoConvertWindowOutputFileExistsMsg>
+  <VideoConvertWindowPrepareToConvert>video çevirmək hazırlaşır</VideoConvertWindowPrepareToConvert>
+  <VideoConvertWindowOutputFileMatchInputFile>Çıxış fayl adı daxil fayl adı oyunları</VideoConvertWindowOutputFileMatchInputFile>
+
+  <VideoConvertProgressWindowTitle>video Convert</VideoConvertProgressWindowTitle>
+  <VideoConvertProgressWindowInputFile>Input fayl</VideoConvertProgressWindowInputFile>
+  <VideoConvertProgressWindowOutputFile>Çıxış faylı</VideoConvertProgressWindowOutputFile>
+  <VideoConvertProgressWindowStatus>vəziyyət</VideoConvertProgressWindowStatus>
+  <VideoConvertProgressWindowStatusTerminating>xitam</VideoConvertProgressWindowStatusTerminating>
+  <VideoConvertProgressWindowStatusPreparing>hazırlanması</VideoConvertProgressWindowStatusPreparing>
+  <VideoConvertProgressWindowStatusProgress>Step {0} of {1}</VideoConvertProgressWindowStatusProgress>
+  <VideoConvertProgressWindowStatusDone>Done</VideoConvertProgressWindowStatusDone>
+
+  <PlayHtml5VideoNotSupported>Sizin browser HTML 5 video element bilmir.</PlayHtml5VideoNotSupported>
+  <PlayHtml5VideoPlayFailed>Play video uğursuz</PlayHtml5VideoPlayFailed>
+  <PlayHtml5AudioPlayFailed>Play audio uğursuz</PlayHtml5AudioPlayFailed>
+  <PlayHtml5AudioTitle>başlıq</PlayHtml5AudioTitle>
+  <PlayHtml5AudioNotSupported>Sizin browser HTML 5 audio element bilmir.</PlayHtml5AudioNotSupported>
+  <PlayHtml5AudioArtist>rəssam</PlayHtml5AudioArtist>
+  <PlayHtml5AudioAlbum>albom</PlayHtml5AudioAlbum>
+  <PlayHtml5AudioYear>il</PlayHtml5AudioYear>
+  <PlayHtml5AudioDuration>Duration</PlayHtml5AudioDuration>
+  <PlayHtml5AudioBitrate>Bitreyt</PlayHtml5AudioBitrate>
+  <PlayHtml5AudioVolume>həcm</PlayHtml5AudioVolume>
+
+  <!-- Root title -->
+  <RootTitle>kök</RootTitle>
+
+  <!-- Recent feature keys -->
+  <RecentRootTitle>Son</RecentRootTitle>
+  <RecentDeleteOnePrompt>Siz "{0}" son maddələr silmək istəyirsiniz?</RecentDeleteOnePrompt>
+  <RecentDeleteManyPrompt>Siz son maddələr bu {0} maddələr silmək istəyirsiniz?</RecentDeleteManyPrompt>
+  <RecentPathNotExist>son yol "{0}" yoxdur və ya giriş rədd</RecentPathNotExist>
+  <RecentAllWithoutGroupingTitle>Bütün w / qruplaşdırılması o</RecentAllWithoutGroupingTitle>
+  <RecentEditGroupTitle>Redaktə</RecentEditGroupTitle>
+  <RecentViewGroupTitle>baxılanlar</RecentViewGroupTitle>
+  <RecentDownloadGroupTitle>Yüklənib</RecentDownloadGroupTitle>
+  <RecentUploadGroupTitle>Əlavə</RecentUploadGroupTitle>
+  <RecentCreateGroupTitle>Yaradılma</RecentCreateGroupTitle>
+
+  <!-- Trash feature keys -->
+  <TrashRootTitle>zibil</TrashRootTitle>
+  <TrashLabelDateDeleted>Tarix silindi</TrashLabelDateDeleted>
+  <TrashDeleteOnePrompt>Siz Çöp dan "{0}" daimi silmək istəyirsiniz?</TrashDeleteOnePrompt>
+  <TrashDeleteManyPrompt>Siz daimi Çöp bu {0} maddələr silmək istəyirsiniz?</TrashDeleteManyPrompt>
+  <TrashEmptyTrashLabel>Boş Trash</TrashEmptyTrashLabel>
+  <TrashRestoreSelectedLabel>bərpa etmək</TrashRestoreSelectedLabel>
+  <TrashRestoreAllLabel>bütün bərpa</TrashRestoreAllLabel>
+  <TrashEmptyTrashPrompt>siz zibil boşaltmaq istəyirsinizsə əminsinizmi?</TrashEmptyTrashPrompt>
+  <TrashRestoreAllPrompt>Siz Çöp bütün maddələr bərpa etmək istəyirik əminsinizmi?</TrashRestoreAllPrompt>
+  <TrashProgressRestoring>Çöp bərpa</TrashProgressRestoring>
+  <TrashFolderNotFound>Trash directory tapılmadı</TrashFolderNotFound>
+  <TrashBalloonRestored>Bərpa items: {0} of {1}</TrashBalloonRestored>
+  <TrashDeleteDirectlyLabel>Zibil qutusuna aradan qaldırılması olmadan birbaşa sil</TrashDeleteDirectlyLabel>
+  <TrashUsedSpaceHint>{0} istifadə</TrashUsedSpaceHint>
+  <TrashLimitSizeHint>İstifadə {0} of {1} ({2})</TrashLimitSizeHint>
+  <TrashLargeItemsShelfTimeHint>obyektlərin saxlanması vaxt {0} daha böyük: {1} gün (s)</TrashLargeItemsShelfTimeHint>
+  <TrashSmallItemsShelfTimeHint>bütün başqaları üçün: {0} day (s)</TrashSmallItemsShelfTimeHint>
+  <TrashItemsShelfTimeHint>obyektlərin saxlanması vaxtı: {0} day (s)</TrashItemsShelfTimeHint>
+  <TrashAvailableSpaceHint>Maksimum mövcud ölçüsü {0}</TrashAvailableSpaceHint>
+  <TrashDeletedFromFolderHint>silindi {0}</TrashDeletedFromFolderHint>
+  <TrashExceededMessage>Aşağıdakı obyektlər çox böyük və Çöp ({0} aşılması məhdudlaşdırılması) yerləşən edilə bilməz:</TrashExceededMessage>
+  <TrashErrorSuffixMessage>əbədi axtarış kənarda seçimi yoxlamaq üçün cəhd edin "{0}" və sonra silmək fayl (s)</TrashErrorSuffixMessage>
+
+  <!-- Shared by link -->
+  <SharedByLinkRootTitle>link Paylaşılan</SharedByLinkRootTitle>
+
+  <!-- Shared for you -->
+  <SharedForYouRootTitle>ilə bölüşdü</SharedForYouRootTitle>
+  <SharedForYouUnableToGetUrl>URL almaq bilmir</SharedForYouUnableToGetUrl>
+
+  <!-- Watch for modifications -->
+  <WatchForModifsCommand>dəyişikliklər üçün Watch</WatchForModifsCommand>
+  <WatchForModifsStartCommand>seyr Start</WatchForModifsStartCommand>
+  <WatchForModifsEditCommand>seyr dəyişdirin</WatchForModifsEditCommand>
+  <WatchForModifsStopCommand>seyr Stop</WatchForModifsStopCommand>
+  <WatchForModifsViewChangesCommand>View dəyişikliklər</WatchForModifsViewChangesCommand>
+  <WatchForModifsSubscriptionSuccessMessage>Siz uğurla dəyişikliklər üçün abunə "{0}"</WatchForModifsSubscriptionSuccessMessage>
+  <WatchForModifsStopSuccessMessage>Monitorinq "{0}" uğurla aradan qaldırıldı</WatchForModifsStopSuccessMessage>
+  <WatchForModifsIncludingNestedLabel>nested faylları, qovluqları nəzərdən</WatchForModifsIncludingNestedLabel>
+  <WatchForModifsParentWatchExistMessage>Seçilmiş maddə üçün artıq valideyn qovluq üçün monitorinq verildi "{0}".</WatchForModifsParentWatchExistMessage>
+  <WatchForModifsRootFolder>Alerts</WatchForModifsRootFolder>
+  <WatchForModifsStartProgressLoading>seyr Enable</WatchForModifsStartProgressLoading>
+  <WatchForModifsStopProgressLoading>seyr Terminatie</WatchForModifsStopProgressLoading>
+  <WatchForModifsIconHint>dəyişikliklər üçün Enabled watch</WatchForModifsIconHint>
+  <WatchForModifsNotifCheckBox>e-poçt ilə dəyişikliklər haqqında bildir:</WatchForModifsNotifCheckBox>
+  <WatchForModifsWatchedUsersCheckBox>yalnız istifadəçilər (bütün nəzarət əgər boş buraxın) Monitor:</WatchForModifsWatchedUsersCheckBox>
+  <WatchForModifsIgnoreOwnerCheckBox>Öz dəyişikliklər Yoksay</WatchForModifsIgnoreOwnerCheckBox>
+  <WatchForModifsActionsCheckBox>(Aşağıda siyahısı və ya bəzi tədbirlər) bütün tədbirlər Monitor</WatchForModifsActionsCheckBox>
+  <WatchForModifsNestedItemsWarning>Diqqət! Siz seçilmiş qovluq üçün monitorinq əlavə, fərdi monitorinq əvvəllər əlavə edilmiş bütün əlavə faylları və qovluqları, monitorinq silinəcəkdir. Davam etmək istəyirsiniz?</WatchForModifsNestedItemsWarning>
+
+  <WelcomeWindowHideCheckboxLabel>növbəti giriş bu göstərməyin</WelcomeWindowHideCheckboxLabel>
+
+  <LogsGridMoreInfoColumn>Daha çox məlumat</LogsGridMoreInfoColumn>
+  <LogsGridDetailsTitle>Ətraflı</LogsGridDetailsTitle>
+  <LogsGridPhysPathColumn>Fiziki yol</LogsGridPhysPathColumn>
+  <LogsGridIsFolderColumn>Qovluq?</LogsGridIsFolderColumn>
+  <LogsGridIsPublicColumn>Public?</LogsGridIsPublicColumn>
+  <LogsGridByWebDavColumn>WebDAV?</LogsGridByWebDavColumn>
+
+  <NoCommentsYetHint>Şərh yoxdur</NoCommentsYetHint>
+  <NoHistoryYetHint>No tarixi hələ</NoHistoryYetHint>
+
+  <DetailsPropertyValuesCouldNotBeWritten>, Əmlak dəyərlər saxlamaq fayl növü belə imkanı bilmir və ya fayl ilə bağlı proqram bir səhv var Mabe bilmədi.</DetailsPropertyValuesCouldNotBeWritten>
+
+  <AdminCommandHelp>kömək</AdminCommandHelp>
+  <AdminCommandAddUser>istifadəçi əlavə et</AdminCommandAddUser>
+  <AdminCommandAddGroup>qrup əlavə et</AdminCommandAddGroup>
+  <AdminCommandRemoveUser>istifadəçi Sil</AdminCommandRemoveUser>
+
+  <AdminCommandSelectUsers>istifadəçilər əlavə et</AdminCommandSelectUsers>
+  <AdminCommandSelectGroups>qruplar əlavə et</AdminCommandSelectGroups>
+  <AdminCommandRemoveUsers>istifadəçilər Sil</AdminCommandRemoveUsers>
+  <AdminCommandRemoveGroups>qruplar aradan qaldırılması</AdminCommandRemoveGroups>
+  <AdminUsersGroups>Of Member</AdminUsersGroups>
+  <AdminSearchUserEmptyText>istifadəçi adı daxil edin</AdminSearchUserEmptyText>
+  <AdminSearchGroupEmptyText>Qrupun adını daxil edin</AdminSearchGroupEmptyText>
+  <AdminUsersGroupAlreadyExists>Bu adı (s) ilə bir qrup (s) artıq əlavə edilmişdir</AdminUsersGroupAlreadyExists>
+
+  <AdminApplicationLoading>Admin panel loading</AdminApplicationLoading>
+  <AdminTitle>Administration</AdminTitle>
+  <AdminUsersEditUser>Edit user</AdminUsersEditUser>
+  <AdminUsersSetUserPassword>Set parol</AdminUsersSetUserPassword>
+  <AdminUsersViewGroups>View Qruplar</AdminUsersViewGroups>
+  <AdminUsersViewFolders>View qovluq</AdminUsersViewFolders>
+  <AdminUsersDeleteUserPrompt>Siz istifadəçi (lər) aradan qaldırılması əminsinizmi "{0}"</AdminUsersDeleteUserPrompt>
+  <AdminUsersDeletedUsers>{0} user (s) silindi.</AdminUsersDeletedUsers>
+  <AdminUsersUserNotFound>Bu adı ilə bir istifadəçi tapılmadı</AdminUsersUserNotFound>
+  <AdminUsersPropertiesTitle>İstifadəçi xassələri</AdminUsersPropertiesTitle>
+  <AdminUsersSetPasswordTitle>Set istifadəçi parol</AdminUsersSetPasswordTitle>
+  <AdminUsersGeneralInfo>İstifadəçi məlumat</AdminUsersGeneralInfo>
+  <AdminUsersUserEmail>Email</AdminUsersUserEmail>
+  <AdminUsersEmptyName>İstifadəçi adı boş ola bilməz</AdminUsersEmptyName>
+  <AdminUsersEmptyPassword>İstifadəçi parol boş ola bilməz</AdminUsersEmptyPassword>
+  <AdminUsersIncorrectName>istifadəçi adı yanlış simvol var</AdminUsersIncorrectName>
+  <AdminUsersAlreadyExists>İstifadəçi bu adı artıq mövcud ilə</AdminUsersAlreadyExists>
+  <AdminUsersEmailAlreadyExists>Bu e-mail ilə User artıq mövcuddur</AdminUsersEmailAlreadyExists>
+  <AdminUsersPasswordsNotMatch>Parollar uyğun gəlmir</AdminUsersPasswordsNotMatch>
+  <AdminUsersRenameWarning>bir istifadəçi adının dəyişdirilməsi sonra başqa cari web-qovluq link yanlış olacaq, parol dəyişdirmək lazımdır</AdminUsersRenameWarning>
+  <AdminUsersLicenseRestriction>Sizin lisenziya {0} istifadəçilər daha çox yaratmaq üçün imkan vermir</AdminUsersLicenseRestriction>
+  <AdminUsersCountInfoWithLimit>Ümumi istifadəçilər: {0} həyata {1}</AdminUsersCountInfoWithLimit>
+  <AdminUsersCountInfo>Ümumi istifadəçilər: {0}</AdminUsersCountInfo>
+
+  <AdminGroupsEditGroup>Edit qrup</AdminGroupsEditGroup>
+  <AdminGroupsRemoveGroup>qrup aradan qaldırılması</AdminGroupsRemoveGroup>
+  <AdminGroupsDeleteGroupPrompt>Siz "{0}" Əgər qrup (s) aradan qaldırılması əminsinizmi?</AdminGroupsDeleteGroupPrompt>
+  <AdminGroupsDeletedGroups>{0} qrup (s) silindi.</AdminGroupsDeletedGroups>
+  <AdminGroupsGroupNotFound>Bu adı ilə bir qrup tapılmadı</AdminGroupsGroupNotFound>
+  <AdminGroupsViewUsers>View istifadəçi</AdminGroupsViewUsers>
+  <AdminGroupsProperties>Properties</AdminGroupsProperties>
+  <AdminGroupsPropertiesTitle>Group xassələri</AdminGroupsPropertiesTitle>
+  <AdminGroupsGeneralInfo>Group məlumat</AdminGroupsGeneralInfo>
+  <AdminGroupsUserNamePrompt>istifadəçi adı daxil edin</AdminGroupsUserNamePrompt>
+  <AdminGroupsUsers>Qrup üzvləri</AdminGroupsUsers>
+  <AdminGroupsUserAlreadyExists>Bu adı (s) ilə user (s) artıq əlavə edilmişdir</AdminGroupsUserAlreadyExists>
+  <AdminGroupsEmptyName>Qrup adı boş ola bilməz</AdminGroupsEmptyName>
+  <AdminGroupsIncorrectName>qrup adı yanlış simvol var</AdminGroupsIncorrectName>
+  <AdminGroupsAlreadyExists>Bu adı artıq mövcud olan bir qrup</AdminGroupsAlreadyExists>
+  <AdminGroupsCountInfo>Ümumi qrupları: {0}</AdminGroupsCountInfo>
+
+  <AdminLanguagesTab>localizations</AdminLanguagesTab>
+  <AdminLanguagesTabMessage>localization faylını redaktə etmək üçün, siyahıda istədiyiniz dili seçin redaktə etmək lokallaşdırılmış strings basın. dəyişikliklər sonra "Saxla" düyməsini basın</AdminLanguagesTabMessage>
+  <AdminLangGridKeyColumn>Key adı</AdminLangGridKeyColumn>
+  <AdminLangGridDefaultColumn>ingilis</AdminLangGridDefaultColumn>
+  <AdminEnterLanguageNameTitle>dil adını daxil edin</AdminEnterLanguageNameTitle>
+  <AdminLangConfirmRefreshTitle>Refresh təsdiq</AdminLangConfirmRefreshTitle>
+  <AdminLangConfirmRefreshMessage>Diqqət! Data xilas deyil. İndi dəyişikliklər saxlamaq istəyirsiniz?</AdminLangConfirmRefreshMessage>
+  <AdminLangAmountInfo>Doldurulmuş düymələri: {0} {1} və (boş dəyərlər: {2})</AdminLangAmountInfo>
+  <AdminLangSaveToCSV>CSV Export</AdminLangSaveToCSV>
+  <AdminLangLoadFromCSV>CSV Load</AdminLangLoadFromCSV>
+
+  <AdminDbMaintenanceTab>DB Maintenance</AdminDbMaintenanceTab>
+  <AdminDbMaintenanceInfoTitle>Info</AdminDbMaintenanceInfoTitle>
+  <AdminDbMaintenanceInfoPathLabel>DB fayl yolu</AdminDbMaintenanceInfoPathLabel>
+  <AdminDbMaintenanceInfoSizeLabel>DB fayl ölçüsü</AdminDbMaintenanceInfoSizeLabel>
+  <AdminDbMaintenanceCompactTitle>Compact Database</AdminDbMaintenanceCompactTitle>
+  <AdminDbMaintenanceCompactNote>verilənlər bazası fayl ölçüsü azaltmaq üçün, aşağıdakı 'düyməsinə basın. O, ictimai links və ya köhnə log azaltmaq deyil DB fayl ölçüsü yazan bəzi qeyri-çıxarıldıqdan sonra, məsələn, çünki vaxtaşırı bazası sıxılma yerinə yetirmək üçün lazımdır.</AdminDbMaintenanceCompactNote>
+  <AdminDbMaintenanceCompactButton>Compact DB</AdminDbMaintenanceCompactButton>
+  <AdminDbMaintenanceCompactSuccess>DB uğurla Sıkıştırılmış.
+Old fayl həcmi: {0}
+Yeni fayl həcmi: {1}</AdminDbMaintenanceCompactSuccess>
+  <AdminDbMaintenanceCompactAutoNote>Siz həmçinin bəlkə daha tez-tez bazası kilidlənir və bəzi sorğuların müddəti artıra bilər, çünki Lakin, bu tövsiyə olunmur, qeydlər əməliyyatlarının çıxarıldıqdan sonra avtomatik sıxılma bazası yandırmaq olar. Diqqət! bu qəbulu dəyişən sonra tətbiq yenidən olacaq!</AdminDbMaintenanceCompactAutoNote>
+  <AdminDbMaintenanceCompactAutoCheckBox>Enable / avtomatik yığcam DB aradan</AdminDbMaintenanceCompactAutoCheckBox>
+  <AdminDbMaintenanceCompactAutoSaveButton>Yadda saxla</AdminDbMaintenanceCompactAutoSaveButton>
+  <AdminDbMaintenanceCompactAutoSaveSuccess>DB avtomatik сompression dəyişən uğurla başa çatdırılmışdır. səhifə qısa updated olacaq.</AdminDbMaintenanceCompactAutoSaveSuccess>
+  <AdminDbMaintenanceEnableLogLabel>Seçin DB (Data / debug.log daxil) giriş səviyyəsi sorğu</AdminDbMaintenanceEnableLogLabel>
+  <AdminDbMaintenanceSettingsSaveSuccess>DB ayarları uğurla qurtardı. səhifə yeniden olacaq</AdminDbMaintenanceSettingsSaveSuccess>
+  <AdminDbMaintenanceSettingsChangeNote>Diqqət! ayarları qənaət sonra tətbiq qısa yenidən olacaq!</AdminDbMaintenanceSettingsChangeNote>
+  <AdminDbMaintenanceInsertIntervalLabel>DB hadisələr əlavə (dəqiqə) interval. Siz 0 daxil varsa, durub hadisələrdən sonra birbaşa görünür.</AdminDbMaintenanceInsertIntervalLabel>
+  <AdminDbMaintenanceAdvDbParamsTitle>Advanced DB əlaqə parametrləri</AdminDbMaintenanceAdvDbParamsTitle>
+  <AdminDbMaintenanceStatTitle>Statistics (DB log səviyyədə DurationExecution asılıdır)</AdminDbMaintenanceStatTitle>
+  <AdminDbMaintenanceStatDurationReadLabel>Orta oxu fasiləsi</AdminDbMaintenanceStatDurationReadLabel>
+  <AdminDbMaintenanceStatDurationWriteLabel>Orta yazı fasiləsi</AdminDbMaintenanceStatDurationWriteLabel>
+  <AdminDbMaintenanceStatDurationCompactLabel>Orta yığcam fasiləsi</AdminDbMaintenanceStatDurationCompactLabel>
+  <AdminDbMaintenanceStatNoData>Məlumat yoxdur</AdminDbMaintenanceStatNoData>
+  <AdminDbMaintenanceStatGetButton>statistika toplamaq</AdminDbMaintenanceStatGetButton>
+
+  <AdminMiscTab>Misc</AdminMiscTab>
+  <AdminMiscLoadADAccountsTitle>Active Directory hesabları bərpa</AdminMiscLoadADAccountsTitle>
+  <AdminMiscLoadADAccountsLoadButton>yük</AdminMiscLoadADAccountsLoadButton>
+  <AdminMiscLoadADAccountsResetButton>Reset</AdminMiscLoadADAccountsResetButton>
+  <AdminMiscLoadADAccountsLdap>LDAP konteyner</AdminMiscLoadADAccountsLdap>
+  <AdminMiscLoadADAccountsToFile>fayl To</AdminMiscLoadADAccountsToFile>
+  <AdminMiscLoadADAccountsSuccessMessage>Active Directory hesabları uğurla dolu</AdminMiscLoadADAccountsSuccessMessage>
+  <AdminMiscLoadADAccountsInfo>Burada bütün Active Directory istifadəçi quruluşu olan fayl yarada. Siz AD info saxlanması kimi bir statik fayl istifadə, bu fayl lazımdır. eyni fayl ADManager kommunal vasitəsilə edilə bilər. Daha çox məlumat üçün &lt;b&gt; ADAccountsFilePath &lt;/b&gt; parametri baxın {0} Manual {1}.</AdminMiscLoadADAccountsInfo>
+
+  <AdminMiscManageQuotasTitle>kvotalar idarə</AdminMiscManageQuotasTitle>
+  <AdminMiscManageQuotasInfo>Mövcud sorğu və ya File Server Resource Manager by bir qovluq üçün icazə alan, məhdudlaşdırmaq üçün yeni kvota yaradır.</AdminMiscManageQuotasInfo>
+  <AdminMiscManageQuotasFolderPath>Qovluq yolu</AdminMiscManageQuotasFolderPath>
+  <AdminMiscManageQuotasQuota>norma</AdminMiscManageQuotasQuota>
+  <AdminMiscManageQuotasGetQuota>kvota alın</AdminMiscManageQuotasGetQuota>
+  <AdminMiscManageQuotasSetQuota>Set kvota</AdminMiscManageQuotasSetQuota>
+
+  <AdminMiscFoldersFromGPOLTitle>Group Policy Load qovluq</AdminMiscFoldersFromGPOLTitle>
+  <AdminMiscFoldersFromGPOLComputerName>Kompüter adı</AdminMiscFoldersFromGPOLComputerName>
+  <AdminMiscFoldersFromGPOLFilePath>Fayl yolu</AdminMiscFoldersFromGPOLFilePath>
+  <AdminMiscFoldersFromGPOLMoreInfoLink>Daha çox məlumat</AdminMiscFoldersFromGPOLMoreInfoLink>
+  <AdminMiscFoldersFromGPOLResetButton>Reset</AdminMiscFoldersFromGPOLResetButton>
+  <AdminMiscFoldersFromGPOLLoadButton>yük</AdminMiscFoldersFromGPOLLoadButton>
+  <AdminMiscFoldersFromGPOLFromDC>DC-dən</AdminMiscFoldersFromGPOLFromDC>
+  <AdminMiscFoldersFromGPOLFromFile>fayl From</AdminMiscFoldersFromGPOLFromFile>
+  <AdminMiscFoldersTargetLabel>istifadəçilər / Qruplar şərait idxal üçün ...</AdminMiscFoldersTargetLabel>
+  <AdminMiscFoldersTargetFilter>filtr</AdminMiscFoldersTargetFilter>
+  <AdminMiscFoldersTargetPermission>icazə</AdminMiscFoldersTargetPermission>
+  <AdminMiscFoldersFromGPOLSuccessMessage>Folders uğurla instantly /&gt; Yeni &lt;br. {0} yenilənir: {1}.</AdminMiscFoldersFromGPOLSuccessMessage>
+  <AdminMiscFoldersFromGPOLInfo>Siz Domain Controller Qrup Siyasəti Drive Xəritəçəkmə ayarları qovluq siyahısı yük (və ya yeniləmə) bilər. sahəsində siz Group Policy ayarları dolu olacaq (və ya boş tərk əgər, sonra cari domain istifadə olunacaq) olan kompüter adı və ya eşlenen Drives parametrləri ilə fayl üçün bir yol daxil edə bilərsiniz aşağıdır.</AdminMiscFoldersFromGPOLInfo>
+
+  <AdminAnonymFoldersTab>Anonymous qovluq</AdminAnonymFoldersTab>
+  <AdminAnonymFoldersDeleteFolderPrompt>Siz {0} seçilmiş anonim qovluq aradan qaldırılması əminsinizmi?</AdminAnonymFoldersDeleteFolderPrompt>
+  
+  <AdminAnonymFoldersDescription>Paylaşılan qovluq / faylları - bu istifadəçi identifikasiyası * tələb etmir qovluq / faylları, onlar * Bütün qonaqlar üçün mövcuddur o deməkdir ki, (onlar bir keçid varsa). "Share &amp;Rarr; ictimai link yarat" Bütün istifadəçilər menyusundan bu cür qovluq / faylları yarada. Lakin, paylaşılan qovluq məhdud icazələrin ola bilər: yüklemek üçün, yüklənməsi faylları / qovluq siyahısı. Aşağıda istifadəçilər tərəfindən yaradılan paylaşılan qovluq / faylları links bir mənzərədir. ictimai links doğru xüsusiyyət Handlers \ Anonymousdownload.ashx IIS anonim imkanı verir ki, əmin olmaq işləmək üçün. &lt;a Target="_blank" href="{0}"&gt; Diaqnostika Toolbar səhifə bu kontrol edə bilərsiniz. . Handlers \ Anonymousdownload.ashx verilir anonim istifadəçi hesabı paylaşılan qovluq / faylları NTFS oxu / yazı izinleri əmin olun &lt;br /&gt; * &amp;nbsp; &amp;mdash; &amp;nbsp; Yalnız giriş icazə olan istifadəçilər, müəyyən etmir əgər.</AdminAnonymFoldersDescription>
+  <AdminAnonymFoldersLinkOwnerColumn>sahib</AdminAnonymFoldersLinkOwnerColumn>
+  <AdminAnonymFoldersEmailsColumn>bildiriş üçün E-poçt</AdminAnonymFoldersEmailsColumn>
+  <AdminAnonymFoldersAccessForUsersColumn>istifadəçilər üçün Access</AdminAnonymFoldersAccessForUsersColumn>
+  <AdminAnonymFoldersPersonalMessageColumn>Personal mesaj</AdminAnonymFoldersPersonalMessageColumn>
+  <AdminAnonymFoldersOverwriteOnUploadHint> (Üzerine: {0})</AdminAnonymFoldersOverwriteOnUploadHint>
+  <AdminAnonymFoldersRootPathColumn>Root yol</AdminAnonymFoldersRootPathColumn>
+  <AdminAnonymFoldersKeysColumn>Keys</AdminAnonymFoldersKeysColumn>
+  <AdminAnonymFoldersShortColumn>Qisa link</AdminAnonymFoldersShortColumn>
+  <AdminAnonymFoldersPropertiesTitle>Anonymous qovluq xassələri</AdminAnonymFoldersPropertiesTitle>
+  <AdminAnonymFoldersAdditionalInfo>Əlavə informasiya</AdminAnonymFoldersAdditionalInfo>
+  <AdminAnonymFoldersLinkLabel>daxil olmaq üçün Link</AdminAnonymFoldersLinkLabel>
+  <AdminAnonymFoldersPathNotSpecified>fiziki yolu müəyyən deyil</AdminAnonymFoldersPathNotSpecified>
+  <AdminAnonymFoldersCreatedForColumn>məqsəd</AdminAnonymFoldersCreatedForColumn>
+
+  <AdminFoldersTab>Folders</AdminFoldersTab>
+  <AdminFoldersAddFolder>qovluq əlavə et</AdminFoldersAddFolder>
+  <AdminFoldersEditFolder>Edit qovluq</AdminFoldersEditFolder>
+  <AdminFoldersRemoveFolder>qovluq Sil</AdminFoldersRemoveFolder>
+  <AdminFoldersDeleteFolderPrompt>Siz "{0}" Siz qovluq aradan qaldırılması əminsinizmi?</AdminFoldersDeleteFolderPrompt>
+  <AdminFoldersFolderNotFound>Bu adı ilə A qovluq tapılmadı</AdminFoldersFolderNotFound>
+  <AdminFoldersPropertiesTitle>Qovluq xassələri</AdminFoldersPropertiesTitle>
+  <AdminFoldersGeneralInfo>Ümumi məlumat</AdminFoldersGeneralInfo>
+  <AdminFoldersFolderRemoteWarningForms>Qeyd! Bu qovluq uzaqdan paylaşılır. {0} FAQ kontrol edin: uzaq qovluq bölüşmək üçün necə {1}</AdminFoldersFolderRemoteWarningForms>
+  <AdminFoldersFolderRemoteWarningWin>Qeyd! Bu qovluq uzaqdan paylaşılır. istifadəçilər onlara oxumaq üçün hüquq yoxdur, əgər bir qovluq / faylları gizlədə bilərsiniz. {0} FAQ baxın: faylları / user oxumaq hüquqları yoxdur qovluq gizlətmək necə {1}</AdminFoldersFolderRemoteWarningWin>
+  <AdminFoldersFolderPath>Fiziki yol</AdminFoldersFolderPath>
+  <AdminFoldersLocationPath>Yer</AdminFoldersLocationPath>
+  <AdminFoldersFolderCreate>qovluq yaradın</AdminFoldersFolderCreate>
+  <AdminFoldersFolderCreateProcess>yaradılması qovluq</AdminFoldersFolderCreateProcess>
+  <AdminFoldersFolderCreateContainsPattern>bir model var, çünki qovluq yaradıla bilməz</AdminFoldersFolderCreateContainsPattern>
+  <AdminFoldersFolderCreateSuccessfully>qovluq "{0}" uğurla yaradıldı.</AdminFoldersFolderCreateSuccessfully>
+  <AdminFoldersFolderOptional> (Optional)</AdminFoldersFolderOptional>
+  <AdminFoldersFolderLimitations>Məhdudiyyətlər</AdminFoldersFolderLimitations>
+  <AdminFoldersFolderDescription>təsvir</AdminFoldersFolderDescription>
+  <AdminFoldersFolderQuota>norma</AdminFoldersFolderQuota>
+  <AdminFoldersFolderQuotaHint>Mövcud sorğu və ya File Server Resource Manager by bir qovluq üçün icazə alan, məhdudlaşdırmaq üçün yeni kvota yaradır.</AdminFoldersFolderQuotaHint>
+  <AdminFoldersFolderQuotaMoreInfoLink>Daha çox məlumat</AdminFoldersFolderQuotaMoreInfoLink>
+  <AdminFoldersPermissions>Permissions</AdminFoldersPermissions>
+  <AdminFoldersPermissionsFor>üçün Permissions {0}</AdminFoldersPermissionsFor>
+  <AdminFoldersUsersGroups>İstifadəçilər və Qruplar</AdminFoldersUsersGroups>
+  <AdminFoldersAccessControl>Access nəzarət</AdminFoldersAccessControl>
+  <AdminFoldersCreate>yaratmaq</AdminFoldersCreate>
+  <AdminFoldersDelete>sil</AdminFoldersDelete>
+  <AdminFoldersRename>Rename</AdminFoldersRename>
+  <AdminFoldersUpload>Yükləmək</AdminFoldersUpload>
+  <AdminFoldersDownload>Download</AdminFoldersDownload>
+  <AdminFoldersZipDownload>Zip və download</AdminFoldersZipDownload>
+  <AdminFoldersZip>Zip</AdminFoldersZip>
+  <AdminFoldersUnzip>Açın Zip</AdminFoldersUnzip>
+  <AdminFoldersCut>kəsmək</AdminFoldersCut>
+  <AdminFoldersCopy>köçürmək</AdminFoldersCopy>
+  <AdminFoldersListFiles>Show faylları</AdminFoldersListFiles>
+  <AdminFoldersListFolders>Show qovluq</AdminFoldersListFolders>
+  <AdminFoldersModify>dəyişdirin</AdminFoldersModify>
+  <AdminFoldersBulkMailing>Bulk poçt</AdminFoldersBulkMailing>
+  <AdminFoldersAnonymViewContent>ictimai link vasitəsilə File siyahısı</AdminFoldersAnonymViewContent>
+  <AdminFoldersAnonymDownload>ictimai link vasitəsilə Download</AdminFoldersAnonymDownload>
+  <AdminFoldersAnonymUpload>ictimai link vasitəsilə yüklə</AdminFoldersAnonymUpload>
+  <AdminFoldersWatch>Watch</AdminFoldersWatch>
+  <AdminFoldersDescription>Siz qovluq özünüz əlavə və ya Group siyasəti də sürücü istifadə edərək, əgər mövcud qovluq çevirə bilərsiniz. Daha çox məlumat üçün bax {0} Help {1}.</AdminFoldersDescription>
+
+  <AdminFoldersPermissionsForRegex>Siz həmçinin müntəzəm ifadə istifadə edə bilərsiniz. daxil edin &lt;b&gt; {0} &lt;/b&gt; məsələn sonra yuxarıda sahəsində əvvəlində və müntəzəm ifadə, at:</AdminFoldersPermissionsForRegex>
+  <AdminFoldersPermissionsForRegexUsers>{0} &lt;br (hər hansı bir istifadəçi üçün erişim təmin) /&gt; {1} (jdoe və Mike bu normal ifade iki istifadəçilər deməkdir)</AdminFoldersPermissionsForRegexUsers>
+  <AdminFoldersPermissionsForRegexGroups>{0} &lt;br (hər hansı bir qrup üçün giriş təmin) /&gt; {1} (bu normal ifade onların adları "Şagirdlər" ilə bütün qruplar deməkdir)</AdminFoldersPermissionsForRegexGroups>
+
+  <AdminFoldersListRestrictions>ekran məhdudiyyətlər</AdminFoldersListRestrictions>
+  <AdminFoldersCreateRestrictions>fayl yaradılması məhdudiyyətlər</AdminFoldersCreateRestrictions>
+  <AdminFoldersRestrictionAllow>icazə verin</AdminFoldersRestrictionAllow>
+  <AdminFoldersRestrictionDeny>inkar etmək</AdminFoldersRestrictionDeny>
+  <AdminFoldersRestrictionExtensions>Extensions</AdminFoldersRestrictionExtensions>
+  <AdminFoldersUserNamePrompt>istifadəçi adı daxil edin</AdminFoldersUserNamePrompt>
+  <AdminFoldersUserNameEmptyText>Select istifadəçi adı</AdminFoldersUserNameEmptyText>
+  <AdminFoldersUserNameNotSelected>Siz istifadəçi adı seçmelisiniz</AdminFoldersUserNameNotSelected>
+  <AdminFoldersUserAlreadyExists>Bu istifadəçi artıq qovluğa verildi</AdminFoldersUserAlreadyExists>
+  <AdminFoldersGroupNamePrompt>Qrupun adını daxil edin</AdminFoldersGroupNamePrompt>
+  <AdminFoldersGroupNameEmptyText>Select qrup adı</AdminFoldersGroupNameEmptyText>
+  <AdminFoldersGroupNameNotSelected>Siz qrup adı seçmelisiniz</AdminFoldersGroupNameNotSelected>
+  <AdminFoldersGroupAlreadyExists>Bu qrup artıq qovluğa verildi</AdminFoldersGroupAlreadyExists>
+  <AdminFoldersEmptyName>Qovluq adı boş ola bilməz</AdminFoldersEmptyName>
+  <AdminFoldersEmptyPath>Qovluq yol boş ola bilməz</AdminFoldersEmptyPath>
+  <AdminFoldersIncorrectName>qovluq adı yanlış simvol var</AdminFoldersIncorrectName>
+  <AdminFoldersAlreadyExists>Bu adı və yeri ilə qovluq artıq mövcuddur</AdminFoldersAlreadyExists>
+  <AdminFoldersSharesButton>Mövcud səhmlər</AdminFoldersSharesButton>
+  <AdminFoldersTestAccessButton>Test giriş</AdminFoldersTestAccessButton>
+  <AdminFoldersTestIndexingButton>Test endeksleme</AdminFoldersTestIndexingButton>
+  <AdminFoldersShareNameTitle>Mövcud səhmlər</AdminFoldersShareNameTitle>
+  <AdminFoldersShareNameEmptyText>Select payı</AdminFoldersShareNameEmptyText>
+  <AdminFoldersShareNameNotSelected>Siz payı seçin</AdminFoldersShareNameNotSelected>
+  <AdminFoldersGetQuotaButton>kvota alın</AdminFoldersGetQuotaButton>
+  <AdminFoldersSetQuotaButton>Set kvota</AdminFoldersSetQuotaButton>
+  <AdminCommonFilterField>Filtr</AdminCommonFilterField>
+  <AdminCommonValidateField>tesdiq</AdminCommonValidateField>
+  <AdminFoldersRootNameUsed>əvəzinə qovluq üçün bir ad istifadə edin "{0}"</AdminFoldersRootNameUsed>
+  <AdminFoldersFolderFilterSuccess>filter tesdiq uğurla reallaşdı</AdminFoldersFolderFilterSuccess>
+
+  <AdminTestAccessGoodResult>qovluq "{0}" var və oxumaq olar.</AdminTestAccessGoodResult>
+  <AdminTestAccessBadResult>qovluq "{0}" mövcud və ya NTFS izinleri oxumaq və ya proqram şəxsiyyət heç bir şəbəkə giriş var var deyil!</AdminTestAccessBadResult>
+  <AdminTestAccessErrorResult>Error qovluq çıxışı yoxlanılması isə "{0}": {1}</AdminTestAccessErrorResult>
+  <AdminTestIndexingErrorResult>Error qovluq üçün endeksleme yoxlanılması isə "{0}"
+{1}</AdminTestIndexingErrorResult>
+  <AdminTestIndexingYesResult>directory "{0}" dizine</AdminTestIndexingYesResult>
+  <AdminTestIndexingNoResult>directory yönümlü deyil "{0}" dir</AdminTestIndexingNoResult>
+  <AdminTestIndexingUnknownResult>directory "{0}" dizine əgər müəyyən etmək mümkün deyil.</AdminTestIndexingUnknownResult>
+  <AdminTestIndexingAddIfNotIndexed>Siz hələ dizine edilmişdir, endeksleme üçün bu qovluq əlavə etmək istəyirsiniz?</AdminTestIndexingAddIfNotIndexed>
+  <ProgressTestAccess>yoxlanılması giriş</ProgressTestAccess>
+  <ProgressTestIndexing>yoxlanılması endeksleme</ProgressTestIndexing>
+  <AdminHowToIndexingLocationLink>index etmək üçün bir qovluq, üçün Yardım oldu {0}</AdminHowToIndexingLocationLink>
+
+  <AdminUsersListAll>Bütün istifadəçilər</AdminUsersListAll>
+  <AdminUsersListDACL>ACL olan istifadəçilər</AdminUsersListDACL>
+  <AdminGroupsListAll>Bütün qruplar</AdminGroupsListAll>
+  <AdminGroupsListDACL>ACL qruplar</AdminGroupsListDACL>
+  <AdminDACLStringLabel>ACL icazələrin</AdminDACLStringLabel>
+
+  <AdminCommonCustomField>Custom sahə</AdminCommonCustomField>
+  <AdminCommonSettingsChangeWarning>dəyişikliklər yenidən giriş sonra (və ya WebDAV daxil olmaq üçün ərizə yenidən başladın sonra) qüvvəyə minir.</AdminCommonSettingsChangeWarning>
+
+  <AdminCommonAllowedFoldersPathsTitle>Icazə qovluq yolları</AdminCommonAllowedFoldersPathsTitle>
+  <AdminCommonNotAllowedFolderPath>Siz yalnız bu qovluq və ya onun alt girişi yarada: {0}</AdminCommonNotAllowedFolderPath>
+
+  <AdminLogsTab>Log</AdminLogsTab>
+
+  <AdminSettingsTab>Settings</AdminSettingsTab>
+
+  <AdminLogsErrorsTab>səhvlər Giriş</AdminLogsErrorsTab>
+  <AdminLogsErrorsClearBtn>aydın</AdminLogsErrorsClearBtn>
+  <AdminLogsErrorsClearUsersCountExceededBtn>istifadəçi səhvlər miqdarı normadan artıq Clear qeydlər</AdminLogsErrorsClearUsersCountExceededBtn>
+
+  <AdminFoldersCreateHint>yeni fayl, yeni qovluq, yeni image, yeni sənəd faylları: menu "Yeni" dan hərəkətləri inkar / imkan verir.</AdminFoldersCreateHint>
+  <AdminFoldersDeleteHint>mövcud faylları və qovluqları silmə inkar / imkan verir</AdminFoldersDeleteHint>
+  <AdminFoldersRenameHint>mövcud faylları və qovluqları adının dəyişdirilməsi inkar / imkan verir</AdminFoldersRenameHint>
+  <AdminFoldersUploadHint>faylları (Toolbar şərtləri düyməsinə) xüsusiyyət yüklemek inkar / imkan verir</AdminFoldersUploadHint>
+  <AdminFoldersDownloadHint>/ "Download", "view / edit" inkar, və s tədbirlər bulud anbarlar download imkan</AdminFoldersDownloadHint>
+  <AdminFoldersZipDownloadHint>/ İzin Ver "kompres və download" inkar fəaliyyət</AdminFoldersZipDownloadHint>
+  <AdminFoldersZipHint>/ İzin Ver "zip arxiv kompres" inkar fəaliyyət</AdminFoldersZipHint>
+  <AdminFoldersUnzipHint>/ Hərəkətləri "Zip məzmunu" inkar "cari qovluq çıxarış", "yeni bir qovluğa çıxarış" və imkan verir</AdminFoldersUnzipHint>
+  <AdminFoldersCutHint>cut mövcud faylları və qovluqları hərəkət inkar / imkan verir</AdminFoldersCutHint>
+  <AdminFoldersCopyHint>surəti mövcud faylları və qovluqları hərəkət inkar / imkan verir</AdminFoldersCopyHint>
+  <AdminFoldersListFilesHint>faylları siyahısı inkar / imkan verir</AdminFoldersListFilesHint>
+  <AdminFoldersListFoldersHint>/ Allow siyahısı qovluq inkar</AdminFoldersListFoldersHint>
+  <AdminFoldersModifyHint>(Mövcud fayl məzmunu dəyişə bilərsiniz Bütün tədbirlər) faylları dəyişdirmək inkar / imkan verir</AdminFoldersModifyHint>
+  <AdminFoldersBulkMailingHint>/ Izin ver qrupları üçün toplu poçt inkar</AdminFoldersBulkMailingHint>
+  <AdminFoldersAnonymViewContentHint>/ Imkan verir faylları (ictimai linklər vasitəsilə) anonim istifadəçilər üçün siyahısı inkar</AdminFoldersAnonymViewContentHint>
+  <AdminFoldersAnonymDownloadHint>Imkan verir / files (ictimai linklər vasitəsilə) anonim istifadəçilər download inkar</AdminFoldersAnonymDownloadHint>
+  <AdminFoldersAnonymUploadHint>(Ictimai linklər vasitəsilə) anonim istifadəçilər üçün bərpa faylları inkar / izin ver</AdminFoldersAnonymUploadHint>
+  <AdminFoldersWatchHint>/ Izin ver digər istifadəçilər tərəfindən qovluq dəyişikliklər nəzarət etmək üçün istifadəçilər inkar (yalnız UI / AllowUsersmonitorModifications = true əgər tətbiq olunur)</AdminFoldersWatchHint>
+  <AdminFoldersListRestrictionsHint>Bu seçim fayl siyahısını nəzarət edir. müəyyən uzantıları ilə faylları gizlətmək üçün "inkar" radio düyməsini basın. vergül onları ayıran Insert qadağan uzantıları (məsələn, "EXE, BAT, COM"). (Məsələn, "DOC, PDF, JPG") nümayiş olunacaq faylları uzantıları "İzin Ver" radio düyməsini seçin və daxil edin.</AdminFoldersListRestrictionsHint>
+  <AdminFoldersCreateRestrictionsHint>Bu funksiya "siyahısı məhdudiyyətlər" oxşar, lakin yeni faylları yaratmaq, faylları yüklemek, poçt hasilatı nəzarət edir. Siz qadağan və ya müəyyən faylları yüklemek təmin edə bilərsiniz.</AdminFoldersCreateRestrictionsHint>
+  <AdminFoldersGeneralInfoHint>qovluq yol və alias mövcud yazın. Daha çox məlumat üçün altındakı Yardım düyməsini basın.</AdminFoldersGeneralInfoHint>
+  <AdminFoldersUsersGroupsHint>Seçin və ya növü istifadəçilər və qruplar onların qovluq bölüşmək üçün. Daha çox məlumat üçün altındakı Yardım düyməsini basın.</AdminFoldersUsersGroupsHint>
+
+  <AdminUserFoldersButtonTitle>Test səhmlər siyahısı</AdminUserFoldersButtonTitle>
+  <AdminUserFoldersWindowTitle>İstifadəçi qovluq</AdminUserFoldersWindowTitle>
+  <AdminUserFoldersLabel>istifadəçi üçün Qovluq siyahısı '{0}'</AdminUserFoldersLabel>
+  
+  <AdminPermissionsTab>Admin icazələrin</AdminPermissionsTab>
+  <AdminPermissionsPrivilege>imtiyaz</AdminPermissionsPrivilege>
+  <AdminPermissionsEditButton>Edit imtiyaz</AdminPermissionsEditButton>
+  <AdminPermissionsModifySettingsTitle>parametrlərini dəyişmək</AdminPermissionsModifySettingsTitle>
+  <AdminPermissionsModifyFoldersTitle>qovluq dəyişdirin</AdminPermissionsModifyFoldersTitle>
+  <AdminPermissionsModifyAnonymFoldersTitle>ictimai qovluq dəyişdirin</AdminPermissionsModifyAnonymFoldersTitle>
+  <AdminPermissionsModifyAccountsTitle>hesabları dəyişdirin</AdminPermissionsModifyAccountsTitle>
+  <AdminPermissionsViewDiagnosticsTitle>View 'Diagnostics' page</AdminPermissionsViewDiagnosticsTitle>
+  <AdminPermissionsViewLogTitle>View log</AdminPermissionsViewLogTitle>
+  <AdminPermissionsViewErrorsLogTitle>View səhvlər daxil</AdminPermissionsViewErrorsLogTitle>
+  <AdminPermissionsModifyLocalizationsTitle>lokalizasiyalar dəyişdirin</AdminPermissionsModifyLocalizationsTitle>
+  <AdminPermissionsFolderPathTitle>Qovluq yolu</AdminPermissionsFolderPathTitle>
+  <AdminPermissionsFoldersTitle>Admin qovluq</AdminPermissionsFoldersTitle>
+  <AdminPermissionsPrivilegeHint>Set users / qrupları olan "{0}" imtiyaz icazə veriləcək</AdminPermissionsPrivilegeHint>
+  <AdminPermissionsFolderTitle>Admin qovluq xassələri</AdminPermissionsFolderTitle>
+  <AdminPermissionsFolderFieldTitle>Qovluq yolu</AdminPermissionsFolderFieldTitle>
+  <AdminPermissionsFolderHint>admin qovluq haqqında məlumat</AdminPermissionsFolderHint>
+  <AdminPermissionsFolderEmptyAccounts>istifadəçilər və / və ya qrupları daxil</AdminPermissionsFolderEmptyAccounts>
+  <AdminPermissionsFolderAlreadyExists>bu yeri artıq mövcuddur ilə Qovluq</AdminPermissionsFolderAlreadyExists>
+  <AdminPermissionsFolderNotFound>bu yeri ilə Qovluq tapılmadı</AdminPermissionsFolderNotFound>
+  <AdminPermissionsAllowedFoldersMessage>Siz yalnız bu qovluq və ya onun alt çıxışı / / yaratmaq yeniləmə idarə edə bilərsiniz: {0}</AdminPermissionsAllowedFoldersMessage>
+
+  <AdminUsersCountExceededWarn>istifadəçilər maksimum sayı ötüb. Cari lisenziya giriş üçündür {0} imkan verir. Daha çox məlumat üçün "{2}" istisna (s) "{1}" sekmesini açın və tapa bilərsiniz. "{1}" nişanı bu bildiriş aydın log qeydlər gizlətmək üçün.</AdminUsersCountExceededWarn>
+
+  <AdminNewVersionAvailableTitle>Yeni versiya mövcuddur!</AdminNewVersionAvailableTitle>
+  <AdminNewVersionAvailableInfo>Cari versiyası: {0} A yeni versiyası &lt;br /&gt;: {1}</AdminNewVersionAvailableInfo>
+  
+  <SettingsGridDescriptionInfo>təsvir</SettingsGridDescriptionInfo>
+  <SettingsGridFormatInfo>Value format</SettingsGridFormatInfo>
+  <SettingsGridDefaultValueInfo>Default dəyəri</SettingsGridDefaultValueInfo>
+  <SettingsGridMoreInfo>Daha çox məlumat</SettingsGridMoreInfo>
+  <SettingsGridRestoreDefault>default bərpa</SettingsGridRestoreDefault>
+
+  <SettingsFormatBoolean>Boolean dəyər</SettingsFormatBoolean>
+  <SettingsFormatWholeNumber>Bütün nömrə</SettingsFormatWholeNumber>
+  <SettingsFormatRealNumber>Real sayı</SettingsFormatRealNumber>
+  <SettingsFormatString>sim</SettingsFormatString>
+  <SettingsFormatEnum>hər hansı dəyər</SettingsFormatEnum>
+  <SettingsFormatSet>dəyərlərin təkrar olmadan siyahısı virgülle ayrılmış</SettingsFormatSet>
+  <SettingsFormatArray>strings Virgülle ayrılmış siyahısı</SettingsFormatArray>
+  <SettingsFormatToolbarButtons>. (. Dəyər "{0}" bir sıra bir neçə dəfə təkrar, lakin ola bilər ki, bir kolon izlədi hər adı, sonra, düyməsini keçirmək üçün istifadə üsulları biri müəyyən etmək mümkündür: {1})</SettingsFormatToolbarButtons>
+
+  <AdminSettingsSave>ayarlarını saxla</AdminSettingsSave>
+  <AdminToggleHiddenParams>{0} qabaqcıl parametrləri</AdminToggleHiddenParams>
+  <AdminHintHiddenParams>Əlavə parametrlər daha dənəvər ayarları üçün və əksər hallarda yalnız nəzərdə tutulur nadir hallarda lazımdır</AdminHintHiddenParams>
+  <AdminShowHiddenParams>göstərmək</AdminShowHiddenParams>
+  <AdminHideHiddenParams>gizləmək</AdminHideHiddenParams>
+
+  <SettingsDenyAuthModeChange>Avtomatik identifikasiyası rejimi keçid dəstəklənmir. identifikasiyası rejimi dəyişdirilməsi haqqında talimatlar üçün {0} baxın.</SettingsDenyAuthModeChange>
+  <SettingsApplicationRestartedMsg>Application yenidən</SettingsApplicationRestartedMsg>
+  <SettingsSettingsSavedMsg>Settings bildirib</SettingsSettingsSavedMsg>
+  <SettingsSettingsSaveFailedAppMsg>konfiqurasiya faylları saxlamaq üçün bilmir. istifadəçi üçün web proqram kök qovluq {0} faylları web.config.txt yazmaq NTFS izinleri edin və HttpCommanderSettings.config {1}. Hata beledir: {2}.</SettingsSettingsSaveFailedAppMsg>
+  <SettingsSettingsSaveFailedTempMsg>konfiqurasiya faylları saxlamaq üçün bilmir. istifadəçi üçün müvəqqəti qovluq {0} Check icazələrin {1}. Hata beledir: {2}.</SettingsSettingsSaveFailedTempMsg>
+  <SettingsSettingsReadFailedAppMsg>konfiqurasiya faylları oxumaq bilmir. istifadəçi üçün web proqram kök qovluq {0} faylları web.config.txt of NTFS izinleri oxumaq və HttpCommanderSettings.config edin {1}. Hata beledir: {2}.</SettingsSettingsReadFailedAppMsg>
+  <SettingsSettingsReadFailedTempMsg>müvəqqəti qovluq konfiqurasiya faylları oxumaq bilmir. istifadəçi üçün müvəqqəti qovluq {0} Check icazələrin {1}. Hata beledir: {2}.</SettingsSettingsReadFailedTempMsg>
+  <SettingsSettingsConfigChangedOutside>HttpCommander konfiqurasiya faylı başqa bir proqram tərəfindən dəyişdirildi. Ola bilsin bir mətn redaktoru ilə özünüz redaktə edib. proqram yeni konfiqurasiya faylını yüklü. Siz web interface vasitəsilə etdik konfiqurasiya HttpCommander ilə bağlı bütün dəyişikliklər itir. Daha sonra yenidən saxlamaq üçün cəhd edin, onlara redo lazımdır. Ərizə çalışırken Biz əl redaktə konfiqurasiya faylları qarşı gəlir. Əks halda konfiqurasiya faylları dəyişən sonra tətbiq yenidən başladın lazımdır. Hata beledir: {0}.</SettingsSettingsConfigChangedOutside>
+  <SettingsSettingsSaveNotif>ayarları dəyişikliklər saxlamaq üçün unutmayın!</SettingsSettingsSaveNotif>
+  
+  <SettingsEmailNotifTitle>E-mail Sayt haqda məlumat</SettingsEmailNotifTitle>
+  <SettingsEmailNotifApplyBtn>mail ayarlarını saxla</SettingsEmailNotifApplyBtn>
+  <SettingsEmailNotifResetBtn>Reset</SettingsEmailNotifResetBtn>
+  <SettingsEmailNotifEventsLabel>hadisələr</SettingsEmailNotifEventsLabel>
+  <SettingsEmailNotifWhenLabel>Göndər</SettingsEmailNotifWhenLabel>
+  <SettingsEmailNotifEmailsLabel>E-poçt</SettingsEmailNotifEmailsLabel>
+  <SettingsEmailNotifPathsLabel>yolları</SettingsEmailNotifPathsLabel>
+  
+  <LogsErrorsGridUrlColumn>url</LogsErrorsGridUrlColumn>
+  <LogsErrorsGridMsgColumn>Mesaj</LogsErrorsGridMsgColumn>
+  <LogsErrorsGridMoreInfoColumn>Daha çox məlumat</LogsErrorsGridMoreInfoColumn>
+  <LogsErrorsGridDetailsTitle>Ətraflı</LogsErrorsGridDetailsTitle>
+  
+  <FsrmUnableLoadLibraryLocal>yerli host Server Resource Manager Fayl qoşulmaq mümkün deyil.</FsrmUnableLoadLibraryLocal>
+  <FsrmUnableLoadLibraryRemote>"{0}" host Server Resource Manager Fayl qoşulmaq mümkün deyil.</FsrmUnableLoadLibraryRemote>
+  <FsrmNotInstalled>File Server Resource Manager yüklü deyil "{0}".</FsrmNotInstalled>
+  <FsrmNotInstalledEitherEnd>File Server Resource Manager yerli host və ya "{0}" ya yüklü deyil.</FsrmNotInstalledEitherEnd>
+  <FsrmQuotaNotSpecified>Quota müəyyən deyil.</FsrmQuotaNotSpecified>
+  <FsrmUnableGetQuota>kvota limitini almaq mümkün deyil.</FsrmUnableGetQuota>
+  <FsrmUnableSetQuota>kvota limit bilmir.</FsrmUnableSetQuota>
+  <FsrmQuotaSetMsg>Quota müəyyən edilmişdir.</FsrmQuotaSetMsg>
+  <FsrmInvalidQuotaValueMsg>Yanlış kvota dəyəri.</FsrmInvalidQuotaValueMsg>
+
+  <CommandBuyNow>indi almaq</CommandBuyNow>
+
+  <AdminUpdateTab>təkmilləşdirmək</AdminUpdateTab>
+  <AdminUpdateManual>Manual upgrade</AdminUpdateManual>
+  <AdminUpdateAuto>Avtomatlaşdırılmış upgrade</AdminUpdateAuto>
+  <AdminUpdateStartButton>Backup yaradın / Upgrade Start</AdminUpdateStartButton>
+  <AdminUpdateFinishButton>Finish Upgrade/bərpa Backup</AdminUpdateFinishButton>
+  <AdminUpdateBackupButton>Backup</AdminUpdateBackupButton>
+  <AdminUpdateDownloadNewButton>yeni versiyasını yükləyin</AdminUpdateDownloadNewButton>
+  <AdminUpdateStepTitle>Step {0} {1} {2}</AdminUpdateStepTitle>
+  <AdminUpdateStepInfo>Step {0} {1}</AdminUpdateStepInfo>
+  <AdminUpdateNumberSymbol>#</AdminUpdateNumberSymbol>
+  <AdminUpdateBackupContent>düyməsini "{0}" tətbiqi ilə qovluq bir yedek kopyasını yaradılması üçün və yüklənməsi üçün bir keçid əldə basın edin</AdminUpdateBackupContent>
+  <AdminUpdateDownloadBackupLinkHint>aşağıdakı linki istifadə edərək tətbiqi bir yedek kopyasını download edin:</AdminUpdateDownloadBackupLinkHint>
+  <AdminUpdateDownloadNewContent>Sonra aşağıdakı linki istifadə edərək, yeni versiyası download və yeni versiyasını yüklemek üçün {0} quraşdırılması {1} və {2} təkmilləşdirmək {1} təlimatlara əməl edin. Quraşdırma sonra, Admin Panel açın nişanı "{3}" düyməsinə basın "{4}" üçün quraşdırma başa çatdırmaq üçün gedin.</AdminUpdateDownloadNewContent>
+  <AdminUpdateUploadButton>bir yedek kopyasını yüklemek və parametrləri tətbiq</AdminUpdateUploadButton>
+  <AdminUpdateUploadAndInstallButton>Bütün parametrləri saxlanması ilə yeni versiyasını bərpa edin</AdminUpdateUploadAndInstallButton>
+  <AdminUpdateUploadEmptyText>yüklemek üçün bir yedek kopyasını seçin</AdminUpdateUploadEmptyText>
+  <AdminUpdateFinishContent>seçin və tətbiqi qovluq ilə əvvəllər yaradılmış backup arxivi bərpa edin əvvəlki versiyası parametrlərini bərpa etmək üçün</AdminUpdateFinishContent>
+  <AdminUpdateFinishMessage>Təbrik edirik! Bütün parametrləri uğurla tətbiq edilir. Həmçinin, məsələn, digər faylları edilən bütün dəyişikliklər tətbiq edin Default.aspx ya Global.asax.</AdminUpdateFinishMessage>
+  <AdminUpdateFinishRefreshPage>səhifə yeniden olacaq</AdminUpdateFinishRefreshPage>
+  <AdminUpdateMainInfo>təkmilləşdirilməsi Bu cür qismən avtomatlaşdırılmışdır. Siz yaratmaq və tətbiq konfiqurasiya parametrləri ilə bir yedek fayl yükləyə və təkmilləşdirilməsi sonra bərpa edə bilər. , Manual təkmilləşdirilməsi yerinə, bir yedek fayl yaratmaq backup faylı ayarlarını bərpa: bu qısa adımları edin. həmçinin backup üçün istifadə edilə bilər Bu prosedur / təkmilləşdirilməsi olmadan parametrlərini bərpa edin. Sadəcə backup faylı ayarlarını bərpa təkmilləşdirilməsi addım keçin.</AdminUpdateMainInfo>
+  <AdminUpdateAutoButton>Auto</AdminUpdateAutoButton>
+  <AdminUpdateAutoInfo>təkmilləşdirilməsi Bu cür demək olar ki, tam avtomatlaşdırılmışdır. 2 addımlar ibarətdir: cari ayarları backup backup faylı ayarları yeni versiyası və bərpa quraşdırılması (siz download və bir yedek fayl saxlamaq lazımdır). HTTP Commander avtomatik olaraq son versiyası download və quraşdıra və ya bizim server yeni versiyası ilə zip arxiv yolunu müəyyən edə bilərsiniz. Bütün parametrləri avtomatik olaraq əvvəllər yaradılmış yedek faylı bərpa olunur.</AdminUpdateAutoInfo>
+  <AdminUpdateRestoreWebConfigCheckBox>(Məsələn, SMTP kimi məsələn) Web.config ayarları bərpa</AdminUpdateRestoreWebConfigCheckBox>
+  <AdminUpdateBackupAssignedFoldersInRootMessage>Diqqət! daha çox ümumi ölçüsü tətbiqi ilə kataloq bir istifadəçi qovluq var {0}. backup edilə bilməz. Bu rehberler bir yedek kopyasını edin, proqram kataloq onları aradan qaldırılması və sizin tərəfdən əməliyyat təkrar edin.</AdminUpdateBackupAssignedFoldersInRootMessage>
+  <AdminUpdateNeedRefreshPageForContinue>Diqqət! Bu səhifəni yenidən lazımdır davam etmək üçün. düyməsini basın edin "{0}". yeniden sonra əməliyyat təkrar edin.</AdminUpdateNeedRefreshPageForContinue>
+  <AdminUpdateRestoreFromBackupEmpty>seçilmiş əgər, və ya, əvvəlki addım yeni yaradılmış fayl tərəfindən istifadə olunacaq</AdminUpdateRestoreFromBackupEmpty>
+  <AdminUpdateInstallZipPathHint>yenilənməsi üçün ilk sahəsində (server) quraşdırma fayl tam fiziki yolunu daxil edin və ya bir online paylanması istifadə etmək üçün boş buraxın</AdminUpdateInstallZipPathHint>
+  <AdminUpdateInstallZipPathEmpty>yüklemek ilə arxiv yolunu göstərin</AdminUpdateInstallZipPathEmpty>
+  <AdminUpdateProgress>yenilənməsi</AdminUpdateProgress>
+  <AdminUpdateAccessDeniedWarning>&lt;b&gt; Diqqət! &lt;/b&gt; HTTP Komandiri ilə qovluq üçün {0} istifadəçi NTFS razılıq (oxu və yazı) dəyişdirmək seçin yenilənməsi üçün {1} və təkrar təkmilləşdirilməsi. Müvəffəqiyyətli təkmilləşdirilməsi sonra &lt;br /&gt; edin keçmiş hüquqlarının bərpa.</AdminUpdateAccessDeniedWarning>
+  <AdminUpdateAccessDeniedWarningCurentUser>cari</AdminUpdateAccessDeniedWarningCurentUser>
+
+  <ServerExceedsMaxSizeForEditAsTextFile>fayl ölçüsü mətn faylı olaraq redaktə maksimum ölçüsü çoxdur.</ServerExceedsMaxSizeForEditAsTextFile>
+  <ServerDemoMode>verilən fəaliyyət demo rejimində qadağandır</ServerDemoMode>
+  <ServerHostedMode>Bu ev sahibliyi sınaq versiyası ayarları aşağıdakı dəyərləri dəyişdirmək üçün icazə verilmir: {0}.</ServerHostedMode>
+  <ServerIncorrectImageContentType>fayl Mime-növü image deyil</ServerIncorrectImageContentType>
+  <ServerPermissionDenied>Bu əməliyyat səbəbiylə məhdud icazələrin rədd</ServerPermissionDenied>
+  <ServerRestoreFromTrashNoParentFolder>valideyn directory "{0}" tapılmadı çünki bərpa bilmədi. yaratmaq və yenidən cəhd edin.</ServerRestoreFromTrashNoParentFolder>
+  <ServerModifyPermissionDenied>Siz fayl dəyişdirmək üçün icazə yoxdur, çünki bu əməliyyat rədd</ServerModifyPermissionDenied>
+  <ServerPathNotFound>Path tapılmadı.</ServerPathNotFound>
+  <ServerInvalidPath>Path "{0}" etibarlı deyil</ServerInvalidPath>
+  <ServerInvalidAbsolutePath>Yanlış mütləq yol "{0}"</ServerInvalidAbsolutePath>
+  <!-- share folder path: \\server\share -->
+  <ServerInvalidShareFolderPath>Yanlış payı qovluq yolu "{0}"</ServerInvalidShareFolderPath>
+  <ServerInvalidUncPath>Yanlış UNC yolu "{0}"</ServerInvalidUncPath>
+  <ServerUnableResolveUncPath>UNC yolu həll edilə bilmir "{0}"</ServerUnableResolveUncPath>
+  <ServerInvalidFileName>fayl / qovluq adı və ya ehtiva deyil yanlış simvol {0}</ServerInvalidFileName>
+  <ServerFilePathNotFound>Fayl mövcud deyil</ServerFilePathNotFound>
+  <ServerIncorrectPathForFileLink>Yanlış obyekt növü. müəyyən yolu bir qovluğa işarə</ServerIncorrectPathForFileLink>
+  <ServerIncorrectPathForFolderLink>Yanlış obyekt növü. müəyyən yolu bir fayl göstərir</ServerIncorrectPathForFolderLink>
+  <ServerRootFolderNotFound>yol üçün Root qovluq "{0}" tapılmadı.</ServerRootFolderNotFound>
+  <ServerUnableCreateFolder>qovluq yaratmaq bilmir</ServerUnableCreateFolder>
+  <ServerFileAlreadyExists>Bu adı artıq mövcud olan fayl</ServerFileAlreadyExists>
+  <ServerFileAlreadyExistsOnRename>
+    Siz adını dəyişmək istəyirsiniz "{0}" üçün "{1}"
+    Bu yer eyni adı ilə bir fayl artıq var.
+  </ServerFileAlreadyExistsOnRename>
+  <ServerFolderAlreadyExistsOnRename>
+    Siz adını dəyişmək istəyirsiniz "{0}" üçün "{1}"
+    Bu yer eyni adı ilə bir qovluq artıq var.
+  </ServerFolderAlreadyExistsOnRename>
+  <ServerFoldersMergeConfirm>
+    Bu təyinat artıq adlı bir qovluq var "{0}".
+    "{1}" Bu bir "{0}" Siz hələ bu qovluq daxil etmək istəyirsiniz?
+  </ServerFoldersMergeConfirm>
+  <ServerFolderWithSameNameAsFileNameAlreadyExists>eyni adlı bir qovluq artıq var "{0}" fayl adı kimi müəyyən</ServerFolderWithSameNameAsFileNameAlreadyExists>
+  <ServerFileWithSameNameAsFolderNameAlreadyExists>eyni adlı bir fayl artıq var "{0}" qovluq adı kimi müəyyən</ServerFileWithSameNameAsFolderNameAlreadyExists>
+  <ServerFileNotFound>file "{0}" qovluğunda aşkar deyil "{1}". Ola bilsin ki, bu, silinmiş və ya başqa bir istifadəçi tərəfindən qaldırıldı.</ServerFileNotFound>
+  <ServerDirectoryAlreadyExists>Bu adı ilə A directory artıq mövcuddur</ServerDirectoryAlreadyExists>
+  <ServerFolderMoveAlreadeExists>hedef qovluq "{0}" mənbəyi qovluq kimi eyni</ServerFolderMoveAlreadeExists>
+  <ServerUploadPathNotFound>fayl storage üçün yol server tapılmadı</ServerUploadPathNotFound>
+  <ServerUploadPathNotSet>yüklemek üçün bir yol alarkən bir səhv meydana gəldi. , Brauzerinizin səhifəni yeniləyin və yenidən cəhd edin.</ServerUploadPathNotSet>
+  <ServerUploadNoChunk>qazanc üçün yığın</ServerUploadNoChunk>
+  <ServerUploadWriteChunk>byte-ci ildən yığın yaz</ServerUploadWriteChunk>
+  <ServerUploadCreatingFile>fayl yaradılması</ServerUploadCreatingFile>
+  <ServerUploadFileUploaded>Fayl qəbul edilmişdir</ServerUploadFileUploaded>
+  <ServerUploadWriteError>Yazı səhv</ServerUploadWriteError>
+  <ServerConfigurationError>Yanlış konfiqurasiya və ya proqram! site administratoru ilə əlaqə</ServerConfigurationError>
+  <ServerPermissionsAllowTypes>Cari izinleri yalnız fayl növləri ilə bu əməliyyat imkan {0}</ServerPermissionsAllowTypes>
+  <ServerPermissionsDenyTypes>Cari icazələrin fayl növləri ilə bu əməliyyat qadağan {0}</ServerPermissionsDenyTypes>
+  <ServerRequestSizeExceeded>daşıyanlar faylları ölçüsü server ayarları ölçüsünü icazə keçdiyi</ServerRequestSizeExceeded>
+  <ServerEmailMsgProcessedFilesSubject>Əlavə / redaktə / Yüklənib / yaradılıb / silinmiş / Shared files / qovluqlar</ServerEmailMsgProcessedFilesSubject>
+  <ServerEmailMsgUploadFilesTitle>qəbul</ServerEmailMsgUploadFilesTitle>
+  <ServerEmailMsgModifyFilesTitle>redaktə</ServerEmailMsgModifyFilesTitle>
+  <ServerEmailMsgDownloadFilesTitle>nazil</ServerEmailMsgDownloadFilesTitle>
+  <ServerEmailMsgCreateFilesTitle>yaradılmışdır</ServerEmailMsgCreateFilesTitle>
+  <ServerEmailMsgDeleteFilesTitle>silindi</ServerEmailMsgDeleteFilesTitle>
+  <ServerEmailMsgCreatePublicFilesTitle>paylaşılan</ServerEmailMsgCreatePublicFilesTitle>
+  <ServerEmailMsgProcessedFilesBody>
+    Aşağıdakı fayllar / qovluqlar idi {0} tərəfindən {1}:
+
+{2}
+    
+  </ServerEmailMsgProcessedFilesBody>
+  <ServerEmailMsgPasswordRecoverSubject>Password Recovery</ServerEmailMsgPasswordRecoverSubject>
+  <ServerEmailMsgPasswordRecoverBody>
+    Siz Web File Manager Parolu bərpa etmək istədi. Parolu sıfırlamak etdi. Bu səhv var düşünüyorsanız, sadəcə bu məktubu ignore, ancaq parol dəyişib ki, xəbərdar olmalıdır.
+    İstifadəçi adı: {0}
+    Yeni şifrə: {1}
+  </ServerEmailMsgPasswordRecoverBody>
+  
+  <ServerEmailMsgUserNameRecoverSubject>İstifadəçi adı bərpa</ServerEmailMsgUserNameRecoverSubject>
+  <ServerEmailMsgUserNameRecoverBody>
+    Siz Web File Manager adınızı bərpa etmək istədi.
+    İstifadəçi adı: {0}
+  </ServerEmailMsgUserNameRecoverBody>
+
+  <ServerEmailMsgUserActivationSubject>hesab aktivləşdirilməsi</ServerEmailMsgUserActivationSubject>
+  <ServerEmailMsgUserActivationBody>
+    Haqq-hesab ({0}) aktivasiya tələb olunur.
+    Hesabınızı aktivləşdirmək üçün aşağıdakı linki vurun: {1}
+  </ServerEmailMsgUserActivationBody>
+  <ServerEmailMsgUserRegisteredSubject>İstifadəçi qeydiyyatdan</ServerEmailMsgUserRegisteredSubject>
+  <ServerEmailMsgUserRegisteredBody>
+    Siz uğurla Web File Manager qeydə alınır.
+    İstifadəçi adı: {0}
+  </ServerEmailMsgUserRegisteredBody>
+  <ServerEmailMsgUserRegisteredForAdminsBody>
+    &lt;h4&gt; Yeni istifadəçi qeydiyyatdan keçib &lt;/h4&gt;
+    &lt;strong&gt; İstifadəçi adı &lt;/strong&gt;: {0} &lt;br /&gt;
+    &lt;strong&gt; E-poçt &lt;/strong&gt;: {1} &lt;br /&gt;
+    &lt;strong&gt; Tarix &lt;/strong&gt;: {2} &lt;br /&gt;
+    &lt;strong&gt; Əlavə info &lt;/strong&gt;: {3} &lt;br /&gt;
+  </ServerEmailMsgUserRegisteredForAdminsBody>
+  <ServerDiskFullError>disk kifayət qədər yer yoxdur.</ServerDiskFullError>
+  <ServerFolderLimitations>Qovluq məhdudiyyətlər: {0}</ServerFolderLimitations>
+  <ServerShortcutAssignedFolderNotFound>qısa hədəf yolu tapılmadı təyin qovluq</ServerShortcutAssignedFolderNotFound>
+  <ServerSizeFilesForZipExceeded>archivable faylları ölçüsü icazə ötüb dəyəri {0}.</ServerSizeFilesForZipExceeded>
+  <ServerPasteFolderToSubfolderError>hedef qovluq "{0}" mənbə qovluq bir alt edir "{1}".</ServerPasteFolderToSubfolderError>
+  <ServerLiveConnectAppIDNotSpecified>Microsoft Live Connect tətbiqi Client ID müəyyən deyil</ServerLiveConnectAppIDNotSpecified>
+  <ServerSendEmailInfo>Author kimi {0} e-poçt ifadə edildi. cavab yalnız bu e-mail ünvanı istifadə edin.</ServerSendEmailInfo>
+
+  <ServerAntivirusScanningFailed>bir antivirus Scanning: '{0} {1}' qeyri-adi xitam.</ServerAntivirusScanningFailed>
+
+  <ServerUserNameNotFound>adı ilə User '{0}' tapılmadı.</ServerUserNameNotFound>
+  <ServerFileNameCopySuffix>köçürmək</ServerFileNameCopySuffix>
+
+  <ServerDeleteFolderNTFSAccessDenied>Siz qovluq aradan qaldırılması üçün NTFS icazəniz yoxdur "{0}"</ServerDeleteFolderNTFSAccessDenied>
+
+  <ServerMSOOTemplateNotFound>{0} şablon tapılmadı</ServerMSOOTemplateNotFound>
+</Localization>

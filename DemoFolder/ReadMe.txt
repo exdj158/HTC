@@ -1,0 +1,2 @@
+﻿This is default demo folder. Access to this folder should work even if  ASP.NET has medium trust level.
+With ASP.NET  full trust level you can provide access to any folders like c:\ or remote folder like \\servername\sharename, etc.

@@ -1,0 +1,117 @@
+﻿<!-- saved from url=(0014)about:internet -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Web file manager Mobile Help (Windows version)</title>
+    <meta http-equiv="Content-Type" content="text/html,  charset=utf-8" />
+    <meta content="NOINDEX,NOFOLLOW" name="ROBOTS" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0" />
+    
+	<script type="text/javascript">
+	   
+        function toggleBlock(id) {
+            var el = document.getElementById(id);
+            if (el) {
+                el.style.display = el.style.display == 'none' ? 'block' : 'none';
+            }
+        }
+        function parseQueryString(query) {
+            var result = {};
+            var queryString = query ? query : window.location.search;
+            var qStr = queryString.substr(1).replace(/\+/g, ' ').split('&');
+            for (var i = 0; i < qStr.length; i++) {
+                var keyVal = qStr[i].split('=');
+                result[keyVal[0]] = decodeURIComponent(keyVal[1]);
+            }
+            return result;
+        }
+        function htmlEncode(input) {
+            return (String(input) || '').replace(/&/g, '&amp;').replace(/>/g, '&gt;').replace(/</g, '&lt;').replace(/"/g, '&quot;');
+        }
+        function bodyLoaded(qStr) {
+            var webdavNotesIds = ['webdav_note1', 'webdav_note2'],
+                webdavLinksIds = ['webdav_link1', 'webdav_link2', 'webdav_link3'],
+                webdavUrl = '',
+                o = parseQueryString(qStr),
+                spanLink, liInfo,
+                showWebDavLinks = false;          
+            if (o['webdav']) {
+                var re = /^\s+|\s+$/g;
+                webdavUrl = String(o['webdav']).replace(re, '');
+            }
+            if (webdavUrl.length > 0) {
+                for (var i = 0; i < webdavLinksIds.length; i++) {
+                    spanLink = document.getElementById(webdavLinksIds[i]);
+                    if (spanLink) {
+                        spanLink.innerHTML = htmlEncode(webdavUrl);
+                        showWebDavLinks = true;
+                    }
+                }
+            }
+            for (var i = 0; i < webdavNotesIds.length; i++) {
+                liInfo = document.getElementById(webdavNotesIds[i]);
+                if (liInfo) {
+                    liInfo.style.display = showWebDavLinks ? '' : 'none';
+                }
+            }
+        }        
+        
+    </script>
+</head>
+<body onload="bodyLoaded()" style="font-family: Tahoma; font-size: 13px; background-color: #ffffff; color: #000000;">
+    
+    <center><h3>Web based file and documents manager help for mobile devices</h3></center>
+    
+	<a id="ios"></a><h4><img alt="iOS" align="absmiddle" width="16" height="16" src="Images/apple.png">&nbsp;For iOS users (iPhone, iPad):</h4>
+	
+	<ul>
+	<li>
+	You can install <strong>mobile application</strong> of this Web file manager to use it at your iPhone or iPad. It allows to save site URL and credentials so you don't need to type them next time. Download application here <a href="http://itunes.apple.com/us/app/http-commander/id561413475?mt=8" target="_blank">http://itunes.apple.com/us/app/http-commander/id561413475?mt=8</a><br/>
+	<a target="_blank" href="Images/iosappscreenshot.jpg" onClick="toggleBlock('iosapp'); return false;" class="imglink">Screenshot</a>
+      <div id="iosapp" style="display: none;">
+        <p class="screenshot">
+            &nbsp;<img alt="iOS" src="Images/iosappscreenshot.jpg" style="width: 320px; height: 480px" /></p>
+      </div>
+	</li>
+		<li id="webdav_note1" style="display:none;">
+        You can edit documents online using <strong>Pages</strong> application. You can map your web folders and then very easy and quickly to edit or upload documents using your iPhone/iPad. All changes can be saved back to the server. 
+		<ul>
+		<li>
+		 Intall <strong>Apple Pages</strong> at your mobile device: <a target="_blank" href="https://itunes.apple.com/us/app/pages/id361309726?mt=8">https://itunes.apple.com/us/app/pages/id361309726?mt=8</a> .		 </li>
+		 <li>Start Pages application on your mobile device</li>
+
+		 <li> <strong>To open document from server</strong>: Click <strong>plus symbol</strong> in the top left corner, then choose <strong>"Copy from WebDAV"</strong> in menu. In the "WebDAV Sign In" dialog type the Server Address: <b><span id="webdav_link1"></span></b>&nbsp;and your credentials. Click <strong>"Sign In"</strong>. After that you should see your folders and you can choose document to edit.</li>
+         <li> <strong>To save document to the server</strong> or to save changes back to the server: Then you edit document find and click <strong>Tools icon</strong> on the toolbar, then choose <strong>"Share and print"</strong> in menu and then <strong>"Copy to WebDAV"</strong>. In the "WebDAV Sign In" dialog type the Server Address: <b><span id="webdav_link2"></span></b>&nbsp;and your credentials. Click <strong>"Sign In"</strong>. After that you should see your folders. Save document with new filename or to the same filename if it was open before from server.</li>
+		
+		</ul>
+    </li>
+	</ul>
+    
+    
+	<a id="android"></a><h4><img alt="Andorid" align="absmiddle" width="16" height="16" src="Images/android.png">&nbsp;For Android users:</h4>
+	
+	<ul>
+	
+	
+    <li>
+	You can install <strong>mobile application</strong> of this Web file manager to use it at your Android mobile device. It allows to save site URL and credentials so you don't need to type them next time. Download application here <a href="https://play.google.com/store/apps/details?id=com.elementit.httpcommander" target="_blank">https://play.google.com/store/apps/details?id=com.elementit.httpcommander</a><br/>
+	<a target="_blank" href="Images/androidappscreenshot.jpg" onClick="toggleBlock('androidapp'); return false;" class="imglink">Screenshot</a>
+      <div id="androidapp" style="display: none;">
+        <p class="screenshot">
+            &nbsp;<img alt="Android" src="Images/androidappscreenshot.jpg" style="width: 269px; height: 480px" /></p>
+      </div></li>
+	  <li id="webdav_note2" style="display:none;">You can also manage your web files using popular <strong>ES File Explorer </strong>mobile application. It provides main file operations  and whole folders upload/download. To install and map your folders:
+	    <ul>
+	  <li>Download and install <strong>ES File Explorer </strong> at your mobile device from <a target="_blank" href="https://play.google.com/store/apps/details?id=com.estrongs.android.pop">https://play.google.com/store/apps/details?id=com.estrongs.android.pop</a></li>
+	  <li>Start <strong>ES File Explorer </strong></li>
+	  <li>Click the top left icon <b>("View")</b> and set <strong>FTP</strong> view</li>
+	  <li>Click <strong>"New"</strong> button on toolbar, in popup menu select <strong>"WEBDAV"</strong>.</li>
+	  <li>Fill in details of connection (Type address <b>"<span id="webdav_link3"></span>"</b> to webdav folder, your username and password) and press <strong>"OK"</strong> button. New item should added to the list of servers in ftp view. </li>
+	  <li>Now you can connect to server by clicking appropriate item in servers list.</li>
+	  <li>You can modify files online, download or upload.</li>
+	  </ul>
+	  </li>
+	</ul>
+	<br />
+</body>
+</html>
